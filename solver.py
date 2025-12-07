@@ -49,7 +49,7 @@ def generate_solution_qmd(problem_qmd: str, problem_id: str, model: Optional[str
     resp = client.chat.completions.create(
         model=solution_model,
         messages=messages,
-        max_tokens=4096,
+        max_completion_tokens=4096,
     )
 
     content = resp.choices[0].message.content

@@ -119,6 +119,33 @@ project-root/
 
 ---
 
+## 必要なパッケージ / ツール一覧
+
+Python パッケージ（`requirements.txt`）:
+
+- `flask` : Web アプリ本体
+- `openai` : OpenAI API クライアント
+- `werkzeug` : ファイルアップロードなどで利用（Flask 依存）
+
+OS / ツール系パッケージ（Ubuntu 想定）:
+
+- Quarto 本体
+	- 例:
+		```bash
+		wget https://quarto.org/download/latest/quarto-linux-amd64.deb -O /tmp/quarto.deb
+		sudo dpkg -i /tmp/quarto.deb || sudo apt-get -f install -y
+		```
+- LaTeX 環境（Quarto で PDF 出力する場合）
+	- 例:
+		```bash
+		sudo apt-get update
+		sudo apt-get install -y texlive-latex-extra
+		```
+
+将来の軽量化（HTML までで完結させるなど）により、LaTeX 依存を削減する可能性があります。
+
+---
+
 ## セットアップ
 
 ```bash

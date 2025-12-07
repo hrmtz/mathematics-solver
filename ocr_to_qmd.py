@@ -69,7 +69,7 @@ def image_to_qmd(image_path: Path, problem_id: str, model: Optional[str] = None)
                 ],
             },
         ],
-        max_tokens=4096,
+        max_completion_tokens=4096,
     )
 
     content = resp.choices[0].message.content
