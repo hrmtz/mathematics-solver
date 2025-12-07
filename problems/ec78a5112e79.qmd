@@ -1,0 +1,19 @@
+---
+title: "ec78a5112e79"
+problem_id: "ec78a5112e79"
+format:
+  html:
+    math: mathjax
+---
+
+$n$は2以上の自然数とし、
+
+$$
+f(\theta) = \frac{\cos^{n-1} \theta \sin^{n-1} \theta}{\cos^{2n} \theta + \sin^{2n} \theta}
+$$
+
+とする。次の問いに答えよ。
+
+(1) $t = \tan^n \theta$ と変数変換することにより、$\displaystyle \int_0^{\frac{\pi}{4}} f(\theta) d\theta$ を求めよ。
+
+(2) $0 \leq \theta \leq \frac{\pi}{2}$ の範囲で $f(\theta)$ の最大値および最小値を求めよ。

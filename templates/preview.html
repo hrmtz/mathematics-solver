@@ -8,9 +8,13 @@
     window.MathJax = {
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$']]
+        displayMath: [['$$', '$$']],
+        processEscapes: true,
+        processEnvironments: true
       },
-      svg: { fontCache: 'global' }
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
     };
   </script>
   <script id="MathJax-script" async
@@ -45,13 +49,13 @@
       </div>
       <div class="pane">
         <h2>HTML プレビュー</h2>
-        <div id="preview"></div>
+        <div id="preview" data-qmd="{{ qmd_text | e }}"></div>
       </div>
     </div>
     <button type="submit">メタデータ／問題を保存して解答生成へ</button>
   </form>
 
-   <script>
+  <script>
     function renderMath() {
       if (window.MathJax) {
         MathJax.typesetClear();
@@ -74,8 +78,10 @@
       const withoutYaml = stripYaml(text || '');
       const lines = withoutYaml.split(/\r?\n/);
       const htmlLines = lines.map(line => {
-        if (!line.trim()) return '';
-        return `<p>${line}</p>`;
+        const trimmed = line.trim();
+        if (!trimmed) return '';
+        // 余計なタグを付けず、そのまま MathJax に渡す
+        return trimmed;
       });
       return htmlLines.join('\n');
     }
@@ -91,7 +97,10 @@
     }
 
     window.onload = function() {
-      updatePreview();
+      const previewEl = document.getElementById('preview');
+      const initial = previewEl.dataset.qmd || '';
+      previewEl.innerHTML = qmdToHtml(initial);
+      renderMath();
     };
   </script>
 </body>

@@ -8,9 +8,13 @@
     window.MathJax = {
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$']]
+        displayMath: [['$$', '$$']],
+        processEscapes: true,
+        processEnvironments: true
       },
-      svg: { fontCache: 'global' }
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
     };
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -55,11 +59,11 @@
     <div class="row">
       <div class="pane">
         <h2>問題プレビュー</h2>
-        <div id="problem_preview" class="preview-box"></div>
+        <div id="problem_preview" class="preview-box" data-qmd="{{ problem_qmd | e }}"></div>
       </div>
       <div class="pane">
         <h2>解答プレビュー</h2>
-        <div id="solution_preview" class="preview-box"></div>
+        <div id="solution_preview" class="preview-box" data-qmd="{{ solution_qmd | e }}"></div>
       </div>
     </div>
   </div>
@@ -95,20 +99,23 @@
       const withoutYaml = stripYaml(text || '');
       const lines = withoutYaml.split(/\r?\n/);
       const htmlLines = lines.map(line => {
-        if (!line.trim()) return '';
-        return `<p>${line}</p>`;
+        const trimmed = line.trim();
+        if (!trimmed) return '';
+        // 余計なタグを付けず、そのまま MathJax に渡す
+        return trimmed;
       });
       return htmlLines.join('\n');
     }
 
-    function setPreview(id, text) {
+    function setPreview(id) {
       const el = document.getElementById(id);
-      el.innerHTML = qmdToHtml(text || '');
+      const raw = el.dataset.qmd || '';
+      el.innerHTML = qmdToHtml(raw);
     }
 
     window.onload = function() {
-      setPreview('problem_preview', `{{ problem_qmd | safe }}`);
-      setPreview('solution_preview', `{{ solution_qmd | safe }}`);
+      setPreview('problem_preview');
+      setPreview('solution_preview');
       renderMath();
     };
   </script>
