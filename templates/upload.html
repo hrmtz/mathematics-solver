@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>数学問題アップロード</title>
+</head>
+<body>
+  <h1>数学問題アップロード</h1>
+
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+        {% for msg in messages %}
+          <li>{{ msg }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+
+  <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+    <label>問題画像 (jpg/png): </label>
+    <input type="file" name="file" accept="image/*" required>
+    <button type="submit">アップロードして OCR</button>
+  </form>
+</body>
+</html>
