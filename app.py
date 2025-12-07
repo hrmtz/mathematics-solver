@@ -130,12 +130,15 @@ def handout(problem_id):
     )
     handout_qmd_path.write_text(handout_qmd, encoding="utf-8")
 
-    # Quarto で PDF 生成
+    # Quarto で HTML まで生成
     from subprocess import run, CalledProcessError
 
+    html_name = f"{problem_id}_handout.html"
+    html_path = OUTPUT_FOLDER / html_name
+
     try:
-        result = run(
-            ["quarto", "render", str(handout_qmd_path)],
+        run(
+            ["quarto", "render", str(handout_qmd_path), "--to", "html"],
             cwd=str(OUTPUT_FOLDER),
             check=True,
             capture_output=True,
@@ -145,19 +148,32 @@ def handout(problem_id):
         flash("Quarto コマンドが見つかりません。Quarto をインストールしてください。")
         return redirect(url_for("index"))
     except CalledProcessError as e:
-        flash("Quarto による PDF 生成でエラーが発生しました。")
+        flash("Quarto による HTML 生成でエラーが発生しました。")
         print("Quarto error:", e.stderr)
         return redirect(url_for("index"))
 
-    pdf_path = OUTPUT_FOLDER / f"{problem_id}_handout.pdf"
-    if not pdf_path.exists():
-        flash("PDF ファイルが生成されませんでした。")
+    if not html_path.exists():
+        flash("HTML ファイルが生成されませんでした。")
         return redirect(url_for("index"))
 
+    # WeasyPrint で HTML → PDF 変換
+    try:
+        from weasyprint import HTML
+    except ImportError:
+        flash("WeasyPrint がインストールされていません。'pip install weasyprint' を実行してください。")
+        return redirect(url_for("index"))
+
+    pdf_path = OUTPUT_FOLDER / f"{problem_id}_handout.pdf"
+    try:
+        HTML(filename=str(html_path)).write_pdf(str(pdf_path))
+    except Exception as e:
+        flash("HTML から PDF への変換でエラーが発生しました。")
+        print("WeasyPrint error:", e)
+        return redirect(url_for("index"))
     return send_from_directory(
         directory=str(OUTPUT_FOLDER),
         path=pdf_path.name,
-        as_attachment=True,
+        as_attachment=False,  # ここを False に
         download_name=pdf_path.name,
     )
 

@@ -60,12 +60,15 @@ def generate_solution_qmd(problem_qmd: str, problem_id: str, model: Optional[str
 
 
 HANDOUT_YAML_HEADER = """---
+lang: ja
 format:
   pdf:
     documentclass: article
     classoption: ["a4paper", "twocolumn"]
     margin: 20mm
+    engine: pdflatex
 ---
+
 """
 
 
@@ -75,38 +78,31 @@ def build_handout_qmd(problem_qmd_path: Path, solution_qmd_path: Path, problem_i
     problem_qmd = problem_qmd_path.read_text(encoding="utf-8")
     solution_qmd = solution_qmd_path.read_text(encoding="utf-8")
 
-    # 問題側の YAML ヘッダを抽出（先頭の --- から --- まで）
+    # 問題側の YAML ヘッダを剥がして本文だけ取り出す
     lines = problem_qmd.splitlines()
-    yaml_lines = []
     body_lines = []
-
     if lines and lines[0].strip() == "---":
-        yaml_lines.append(lines[0])
         i = 1
-        while i < len(lines):
-            yaml_lines.append(lines[i])
-            if lines[i].strip() == "---":
-                i += 1
-                break
+        while i < len(lines) and lines[i].strip() != "---":
             i += 1
-        body_lines = lines[i:]
+        if i < len(lines):
+            body_lines = lines[i + 1 :]
+        else:
+            body_lines = lines
     else:
         body_lines = lines
 
-    yaml_block = "\n".join(yaml_lines) if yaml_lines else "---\nproblem_id: \"%s\"\n---" % problem_id
+    body = "\n".join(body_lines).strip()
 
-    handout_parts = [
+    parts = [
         HANDOUT_YAML_HEADER.strip(),
-        "",
-        yaml_block.strip(),
         "",
         "# 問題",
         "",
-        "\n".join(body_lines).strip(),
+        body,
         "",
         "# 解答",
         "",
         solution_qmd.strip(),
     ]
-
-    return "\n".join(handout_parts) + "\n"
+    return "\n".join(parts) + "\n"
