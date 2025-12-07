@@ -5,6 +5,8 @@ import base64
 
 from openai import OpenAI
 
+from classifier import classify_problem_fields
+
 
 SYSTEM_PROMPT = """You are an OCR assistant for mathematical exam problems.
 You receive a photo of a math problem and must output only a Quarto-compatible Markdown (qmd) of the problem statement.
@@ -18,7 +20,7 @@ Requirements:
 - Do NOT invent problem statements; strictly follow the image.
 - Output MUST be a complete qmd document starting with a YAML header.
 
-YAML header template (fill title with the problem_id you are given and keep problem_id field):
+YAML header template (fill title with the problem_id you are given and keep problem_id field. If university or exam_year are given, they will be filled later by the application):
 ---
   title: "{problem_id}"
   problem_id: "{problem_id}"
@@ -36,8 +38,17 @@ def _build_system_prompt(problem_id: str) -> str:
     return SYSTEM_PROMPT.replace("{problem_id}", problem_id)
 
 
-def image_to_qmd(image_path: Path, problem_id: str, model: Optional[str] = None) -> str:
-    """Call OpenAI Vision model to convert an image of a math problem into qmd text."""
+def image_to_qmd(
+    image_path: Path,
+    problem_id: str,
+    model: Optional[str] = None,
+    university: Optional[str] = None,
+    exam_year: Optional[str] = None,
+) -> str:
+    """Call OpenAI Vision model to convert an image of a math problem into qmd text.
+
+    university, exam_year は任意で、後から YAML ヘッダに追記するために使用する。
+    """
 
     client = OpenAI()
 
@@ -75,6 +86,56 @@ def image_to_qmd(image_path: Path, problem_id: str, model: Optional[str] = None)
     content = resp.choices[0].message.content
     if isinstance(content, list):
         # SDK によっては list で返る場合があるので連結
-        return "".join(part.get("text", "") for part in content)  # type: ignore[arg-type]
+        raw_qmd = "".join(part.get("text", "") for part in content)  # type: ignore[arg-type]
+    else:
+        raw_qmd = content or ""
 
-    return content or ""
+    # ここで university / exam_year / fields を YAML ヘッダに追記する
+    if not raw_qmd.strip():
+        return raw_qmd
+
+    lines = raw_qmd.splitlines()
+    if lines and lines[0].strip() == "---":
+        i = 1
+        while i < len(lines) and lines[i].strip() != "---":
+            i += 1
+        header_lines = lines[1:i]
+        body_lines = lines[i + 1 :] if i < len(lines) else []
+
+        # 既存ヘッダがあれば上書き／追記する簡易処理
+        def upsert_field(key: str, value: Optional[str]) -> None:
+            nonlocal header_lines
+            if not value:
+                return
+            key_prefix = f"  {key}:"
+            for idx, line in enumerate(header_lines):
+                if line.strip().startswith(f"{key}:") or line.startswith(key_prefix):
+                    header_lines[idx] = f"  {key}: \"{value}\""
+                    break
+            else:
+                header_lines.append(f"  {key}: \"{value}\"")
+
+        upsert_field("university", university)
+        upsert_field("exam_year", exam_year)
+
+        # 分野タグを自動分類して fields に保存
+        try:
+            fields = classify_problem_fields(raw_qmd)
+        except Exception:
+            fields = []
+        if fields:
+            # 既存の fields があれば上書き
+            field_line = "  fields: [" + ", ".join(f'"{f}"' for f in fields) + "]"
+            replaced = False
+            for idx, line in enumerate(header_lines):
+                if line.strip().startswith("fields:") or line.startswith("  fields:"):
+                    header_lines[idx] = field_line
+                    replaced = True
+                    break
+            if not replaced:
+                header_lines.append(field_line)
+
+        new_lines = ["---", *header_lines, "---", *body_lines]
+        return "\n".join(new_lines).strip() + "\n"
+
+    return raw_qmd

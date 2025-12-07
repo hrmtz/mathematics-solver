@@ -121,6 +121,18 @@
           <label>問題画像ファイル（jpg / jpeg / png）</label>
           <input type="file" name="file" accept="image/*" required>
         </div>
+
+        <div style="display: flex; gap: 0.75rem; margin-bottom: 0.75rem; flex-wrap: wrap;">
+          <div style="flex: 2 1 180px;">
+            <label>大学名（例: 大阪大学）</label>
+            <input type="text" name="university" placeholder="大学名" style="width: 100%; font-size: 0.9rem; padding: 0.35rem 0.5rem;">
+          </div>
+          <div style="flex: 1 1 120px;">
+            <label>年度（例: 2024）</label>
+            <input type="number" name="exam_year" min="1980" max="2100" placeholder="2024" style="width: 100%; font-size: 0.9rem; padding: 0.35rem 0.5rem;">
+          </div>
+        </div>
+
         <button class="btn" type="submit">アップロードして OCR する</button>
       </form>
     </div>

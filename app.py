@@ -52,13 +52,20 @@ def upload():
         return redirect(url_for("index"))
 
     filename = secure_filename(file.filename)
+    university = request.form.get("university", "").strip()
+    exam_year = request.form.get("exam_year", "").strip()
     problem_id = uuid.uuid4().hex[:12]
     saved_name = f"{problem_id}_{filename}"
     upload_path = UPLOAD_FOLDER / saved_name
     file.save(upload_path)
 
     # OpenAI Vision で OCR → qmd
-    qmd_text = image_to_qmd(image_path=upload_path, problem_id=problem_id)
+    qmd_text = image_to_qmd(
+        image_path=upload_path,
+        problem_id=problem_id,
+        university=university or None,
+        exam_year=exam_year or None,
+    )
 
     problem_qmd_path = PROBLEM_FOLDER / f"{problem_id}.qmd"
     problem_qmd_path.write_text(qmd_text, encoding="utf-8")
