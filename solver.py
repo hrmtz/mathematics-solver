@@ -62,11 +62,11 @@ def generate_solution_qmd(problem_qmd: str, problem_id: str, model: Optional[str
 HANDOUT_YAML_HEADER = """---
 lang: ja
 format:
-  pdf:
-    documentclass: article
-    classoption: ["a4paper", "twocolumn"]
-    margin: 20mm
-    engine: pdflatex
+  html:
+    theme: default
+    toc: false
+    number-sections: false
+    css: ../static/handout-print.css
 ---
 
 """
@@ -97,12 +97,20 @@ def build_handout_qmd(problem_qmd_path: Path, solution_qmd_path: Path, problem_i
     parts = [
         HANDOUT_YAML_HEADER.strip(),
         "",
+        "<div class=\"main-wrap\">",
+        "",
+        "<section id=\"problem-section\">",
         "# 問題",
         "",
         body,
+        "</section>",
         "",
+        "<section id=\"solution-section\">",
         "# 解答",
         "",
         solution_qmd.strip(),
+        "</section>",
+        "",
+        "</div>",
     ]
     return "\n".join(parts) + "\n"

@@ -1,0 +1,58 @@
+/* 印刷用ハンドアウトレイアウト */
+
+@page {
+  size: A4;
+  margin: 20mm;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  font-size: 11pt;
+}
+
+/* 全体の最大幅をA4相当までに抑える */
+.main-wrap {
+  max-width: 170mm;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-weight: 700;
+  margin-top: 0;
+}
+
+/* 問題セクションは1段レイアウト */
+#problem-section {
+  column-count: 1;
+  column-gap: 0;
+  margin-bottom: 16pt;
+}
+
+/* 解答セクションは2段組レイアウト */
+#solution-section {
+  column-count: 2;
+  column-gap: 10mm;
+}
+
+#solution-section h1,
+#solution-section h2,
+#solution-section h3 {
+  break-before: column;
+}
+
+/* 数式が列境界で見切れにくくするための調整（ブラウザ依存） */
+.katex-display,
+.math-display {
+  break-inside: avoid;
+}
+
+@media screen {
+  body {
+    background: #f5f5f5;
+  }
+  .main-wrap {
+    background: #fff;
+    padding: 16pt;
+  }
+}

@@ -1,3 +1,37 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# バイトコードキャッシュ
+*.pyc
+
+# 仮想環境
+.venv/
+venv/
+env/
+
+# エディタ系
+.vscode/
+.idea/
+
+# Python ビルド/キャッシュ
+build/
+dist/
+*.egg-info/
+
+# ログ / 一時ファイル
+*.log
+*.tmp
+
+# アップロード・生成物
+uploads/
+problems/
+solutions/
+output/
+
+# Docker / Compose 一時ファイル
+*.pid
 uploads/*
 problems/*
 output/*

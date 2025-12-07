@@ -2,13 +2,13 @@
 
 スマホで撮影した大学入試レベルの数学問題画像 (JPG/PNG) をアップロードし、
 - OpenAI Vision による OCR → Quarto 互換の qmd 生成
-- ブラウザ上で qmd をプレビュー・修正
+- ブラウザ上で qmd をプレビュー・修正（MathJax で数式プレビュー）
 - OpenAI による模範解答の自動生成
-- 問題＋解答を A4 二段組 PDF のハンドアウトとして出力
+- 問題＋解答から **印刷用 HTML ハンドアウト (問題1段＋解答2段組)** を生成し、ブラウザの印刷機能で A4 印刷 / PDF 保存
 
 を行う Flask ベースの小さな Web アプリです。
 
-- バージョン: **0.1.0**（OCR〜問題プレビューまで動作確認済み）
+- バージョン: **0.2.0**（ハンドアウト HTML / A4 印刷フローまで実装）
 ---
 
 ## 機能概要
@@ -31,6 +31,24 @@
 				 math: mathjax
 		 ---
 
+### Docker での実行
+
+ローカルにPython環境を用意せず、コンテナで実行することもできます。
+
+```bash
+cd /workspaces/mathematics-solver
+
+# イメージをビルド
+docker build -t mathematics-solver .
+
+# 実行（必要に応じてOPENAI_API_KEYなどを渡す）
+docker run --rm -p 5000:5000 \
+	-e OPENAI_API_KEY="sk-..." \
+	mathematics-solver
+```
+
+ブラウザで `http://localhost:5000` にアクセスすると、コンテナ内で動作するアプリに接続できます。
+
 	 - 生成された qmd は `problems/<problem_id>.qmd` に保存。
 3. **HTML プレビュー & 編集**  
 	- テンプレート: `templates/preview.html`。  
@@ -50,22 +68,17 @@
 	 - 生成された解答 qmd は `solutions/<problem_id>_solution.qmd` に保存。  
 	- テンプレート: `templates/solution_preview.html` で、問題・解答の両方をテキスト＋MathJax プレビュー表示。
 
-5. **PDF ハンドアウト生成 (Quarto)**  
+5. **ハンドアウト HTML 生成（ブラウザ印刷前提）**  
 	 - `solver.py` の `build_handout_qmd()` で、問題 qmd と解答 qmd を結合したハンドアウト qmd を生成。  
-	 - PDF 用 YAML ヘッダ例:
-
-		 ```yaml
-		 ---
-		 format:
-			 pdf:
-		 documentclass: article
-		 classoption: ["a4paper", "twocolumn"]
-		 margin: 20mm
-		 ---
-
+	 - ハンドアウト qmd の YAML では `format.html.css: ../static/handout-print.css` を指定し、`static/handout-print.css` の印刷用スタイルを読み込みます。  
+	 - 生成される HTML の構造は概ね次のようになります:
+		 - `<div class="main-wrap">` … 全体コンテナ（A4 幅に収まるよう制御）
+		 - `<section id="problem-section">` … 問題部分（1 カラム）
+		 - `<section id="solution-section">` … 解答部分（2 カラム）
+	 - `static/handout-print.css` では、A4 サイズ・余白・フォント・段組（問題 1 段、解答 2 段）などを指定しています。  
 	 - `app.py` の `POST /handout/<problem_id>` から `quarto render` を呼び出し、  
-		 `output/<problem_id>_handout.qmd` → `output/<problem_id>_handout.pdf` を生成。  
-	- PDF はそのままダウンロード可能。
+		 `output/<problem_id>_handout.qmd` → `output/<problem_id>_handout.html` を生成。  
+	 - 生成された HTML をブラウザで開き、印刷ダイアログで A4 用紙を選択して印刷 / PDF 保存します。
 
 6. **メタデータ管理 (YAML ヘッダ)**  
 	問題 qmd の YAML ヘッダに以下のようなメタデータを記述しておき、
@@ -129,20 +142,15 @@ Python パッケージ（`requirements.txt`）:
 
 OS / ツール系パッケージ（Ubuntu 想定）:
 
-- Quarto 本体
+- Quarto 本体（qmd → HTML 変換に利用）
 	- 例:
 		```bash
 		wget https://quarto.org/download/latest/quarto-linux-amd64.deb -O /tmp/quarto.deb
 		sudo dpkg -i /tmp/quarto.deb || sudo apt-get -f install -y
 		```
-- LaTeX 環境（Quarto で PDF 出力する場合）
-	- 例:
-		```bash
-		sudo apt-get update
-		sudo apt-get install -y texlive-latex-extra
-		```
 
-将来の軽量化（HTML までで完結させるなど）により、LaTeX 依存を削減する可能性があります。
+この構成では、LaTeX やサーバーサイドPDF生成ツールは不要で、
+コンテナを比較的軽量に保ちつつ、ブラウザ側で印刷・PDF保存が可能です。
 
 ---
 

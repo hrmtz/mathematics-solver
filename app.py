@@ -130,7 +130,7 @@ def handout(problem_id):
     )
     handout_qmd_path.write_text(handout_qmd, encoding="utf-8")
 
-    # Quarto で HTML まで生成
+    # Quarto で handout.qmd から HTML を生成し、そのHTMLをブラウザで表示して印刷してもらう
     from subprocess import run, CalledProcessError
 
     html_name = f"{problem_id}_handout.html"
@@ -156,25 +156,12 @@ def handout(problem_id):
         flash("HTML ファイルが生成されませんでした。")
         return redirect(url_for("index"))
 
-    # WeasyPrint で HTML → PDF 変換
-    try:
-        from weasyprint import HTML
-    except ImportError:
-        flash("WeasyPrint がインストールされていません。'pip install weasyprint' を実行してください。")
-        return redirect(url_for("index"))
-
-    pdf_path = OUTPUT_FOLDER / f"{problem_id}_handout.pdf"
-    try:
-        HTML(filename=str(html_path)).write_pdf(str(pdf_path))
-    except Exception as e:
-        flash("HTML から PDF への変換でエラーが発生しました。")
-        print("WeasyPrint error:", e)
-        return redirect(url_for("index"))
+    # 生成されたHTMLをそのまま返す（ブラウザの印刷機能でPDF化などを行う）
     return send_from_directory(
         directory=str(OUTPUT_FOLDER),
-        path=pdf_path.name,
-        as_attachment=False,  # ここを False に
-        download_name=pdf_path.name,
+        path=html_path.name,
+        as_attachment=False,
+        download_name=html_path.name,
     )
 
 

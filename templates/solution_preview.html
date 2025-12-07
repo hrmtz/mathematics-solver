@@ -17,28 +17,115 @@
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <style>
-    textarea { width: 100%; height: 300px; }
-    .container { display: flex; flex-direction: column; gap: 1rem; }
-    .row { display: flex; gap: 1rem; }
-    .pane { flex: 1; }
-    pre { white-space: pre-wrap; border: 1px solid #ccc; padding: 0.5rem; }
-    .preview-box { white-space: pre-wrap; border: 1px solid #ccc; padding: 0.5rem; }
+    :root {
+      --bg: #f5f5f7;
+      --panel-bg: #ffffff;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+      --accent-soft: #eff4ff;
+      --text-main: #111827;
+      --text-muted: #6b7280;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 2rem 1rem 3rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+    }
+
+    .page {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      margin: 0 0 0.75rem;
+    }
+
+    .flash-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1rem;
+    }
+
+    .flash-list li {
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      color: #b91c1c;
+      border-radius: 0.5rem;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.9rem;
+    }
+
+    .container { display: flex; flex-direction: column; gap: 1.25rem; }
+    .row { display: flex; gap: 1.25rem; align-items: flex-start; }
+    .pane { flex: 1; background: var(--panel-bg); border-radius: 0.75rem; padding: 1rem; border: 1px solid var(--border); }
+
+    pre {
+      white-space: pre-wrap;
+      border-radius: 0.5rem;
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.75rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.85rem;
+      background: #f9fafb;
+    }
+
+    .preview-box {
+      white-space: pre-wrap;
+      min-height: 220px;
+    }
+
+    .btn {
+      appearance: none;
+      border: none;
+      border-radius: 999px;
+      padding: 0.55rem 1.4rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      background: var(--accent);
+      color: #fff;
+      transition: background 0.15s ease, box-shadow 0.15s ease, transform 0.05s ease;
+      margin-right: 0.5rem;
+    }
+
+    .btn:hover {
+      background: #1d4ed8;
+      box-shadow: 0 6px 18px rgba(37, 99, 235, 0.35);
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+      box-shadow: 0 3px 10px rgba(37, 99, 235, 0.35);
+    }
+
+    .btn-secondary {
+      background: #e5e7eb;
+      color: #111827;
+    }
   </style>
 </head>
 <body>
-  <h1>問題・解答プレビュー: {{ problem_id }}</h1>
+  <div class="page">
+    <h1>問題・解答プレビュー: {{ problem_id }}</h1>
 
-  {% with messages = get_flashed_messages() %}
-    {% if messages %}
-      <ul>
-        {% for msg in messages %}
-          <li>{{ msg }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  {% endwith %}
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul class="flash-list">
+          {% for msg in messages %}
+            <li>{{ msg }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
 
-  <div class="container">
+    <div class="container">
     <div class="row">
       <div class="pane">
         <h2>問題 (qmd)</h2>
@@ -64,15 +151,17 @@
         <div id="solution_preview" class="preview-box" data-qmd="{{ solution_qmd | e }}"></div>
       </div>
     </div>
+
+    <div style="margin-top: 1rem;">
+      <form action="{{ url_for('solve', problem_id=problem_id) }}" method="post" style="display: inline-block;">
+        <button class="btn" type="submit">解答を生成</button>
+      </form>
+
+      <form action="{{ url_for('handout', problem_id=problem_id) }}" method="post" style="display: inline-block;">
+        <button class="btn btn-secondary" type="submit">ハンドアウト HTML を表示</button>
+      </form>
+    </div>
   </div>
-
-  <form action="{{ url_for('solve', problem_id=problem_id) }}" method="post" style="margin-top: 1rem;">
-    <button type="submit">解答を生成</button>
-  </form>
-
-  <form action="{{ url_for('handout', problem_id=problem_id) }}" method="post" style="margin-top: 1rem;">
-    <button type="submit">PDF (ハンドアウト) を生成</button>
-  </form>
 
   <script>
     function renderMath() {
