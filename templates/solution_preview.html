@@ -4,6 +4,15 @@
   <meta charset="utf-8">
   <title>解答プレビュー - {{ problem_id }}</title>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$']]
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <style>
     textarea { width: 100%; height: 300px; }
@@ -11,6 +20,7 @@
     .row { display: flex; gap: 1rem; }
     .pane { flex: 1; }
     pre { white-space: pre-wrap; border: 1px solid #ccc; padding: 0.5rem; }
+    .preview-box { white-space: pre-wrap; border: 1px solid #ccc; padding: 0.5rem; }
   </style>
 </head>
 <body>
@@ -45,11 +55,11 @@
     <div class="row">
       <div class="pane">
         <h2>問題プレビュー</h2>
-        <div id="problem_preview"></div>
+        <div id="problem_preview" class="preview-box"></div>
       </div>
       <div class="pane">
         <h2>解答プレビュー</h2>
-        <div id="solution_preview"></div>
+        <div id="solution_preview" class="preview-box"></div>
       </div>
     </div>
   </div>
@@ -65,18 +75,40 @@
   <script>
     function renderMath() {
       if (window.MathJax) {
+        MathJax.typesetClear();
         MathJax.typesetPromise();
       }
     }
 
+    function stripYaml(text) {
+      const lines = text.split(/\r?\n/);
+      if (!lines.length || lines[0].trim() !== '---') return text;
+
+      let i = 1;
+      while (i < lines.length && lines[i].trim() !== '---') i++;
+      if (i >= lines.length) return text;
+
+      return lines.slice(i + 1).join('\n');
+    }
+
+    function qmdToHtml(text) {
+      const withoutYaml = stripYaml(text || '');
+      const lines = withoutYaml.split(/\r?\n/);
+      const htmlLines = lines.map(line => {
+        if (!line.trim()) return '';
+        return `<p>${line}</p>`;
+      });
+      return htmlLines.join('\n');
+    }
+
     function setPreview(id, text) {
       const el = document.getElementById(id);
-      el.innerText = text || '';
+      el.innerHTML = qmdToHtml(text || '');
     }
 
     window.onload = function() {
-      setPreview('problem_preview', `{{ problem_qmd | e }}`);
-      setPreview('solution_preview', `{{ solution_qmd | e }}`);
+      setPreview('problem_preview', `{{ problem_qmd | safe }}`);
+      setPreview('solution_preview', `{{ solution_qmd | safe }}`);
       renderMath();
     };
   </script>

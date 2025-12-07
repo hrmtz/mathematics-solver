@@ -4,12 +4,22 @@
   <meta charset="utf-8">
   <title>問題プレビュー - {{ problem_id }}</title>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$']]
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <style>
     textarea { width: 100%; height: 400px; }
     .container { display: flex; gap: 1rem; }
     .pane { flex: 1; }
-    pre { white-space: pre-wrap; border: 1px solid #ccc; padding: 0.5rem; }
+    #preview { white-space: pre-wrap; border: 1px solid #ccc; padding: 0.5rem; }
   </style>
 </head>
 <body>
@@ -41,17 +51,42 @@
     <button type="submit">メタデータ／問題を保存して解答生成へ</button>
   </form>
 
-  <script>
+   <script>
     function renderMath() {
       if (window.MathJax) {
+        MathJax.typesetClear();
         MathJax.typesetPromise();
       }
     }
 
+    function stripYaml(text) {
+      const lines = text.split(/\r?\n/);
+      if (!lines.length || lines[0].trim() !== '---') return text;
+
+      let i = 1;
+      while (i < lines.length && lines[i].trim() !== '---') i++;
+      if (i >= lines.length) return text;
+
+      return lines.slice(i + 1).join('\n');
+    }
+
+    function qmdToHtml(text) {
+      const withoutYaml = stripYaml(text || '');
+      const lines = withoutYaml.split(/\r?\n/);
+      const htmlLines = lines.map(line => {
+        if (!line.trim()) return '';
+        return `<p>${line}</p>`;
+      });
+      return htmlLines.join('\n');
+    }
+
     function updatePreview() {
       const src = document.getElementById('qmd_text').value;
-      // 簡易：そのままプリ表示（本格的に qmd→HTML 変換はしない）
-      document.getElementById('preview').innerText = src;
+      const html = qmdToHtml(src);
+
+      const previewEl = document.getElementById('preview');
+      previewEl.innerHTML = html;
+
       renderMath();
     }
 

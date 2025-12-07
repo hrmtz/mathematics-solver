@@ -1,6 +1,7 @@
 from pathlib import Path
 import os
 from typing import Optional
+import base64
 
 from openai import OpenAI
 
@@ -45,6 +46,9 @@ def image_to_qmd(image_path: Path, problem_id: str, model: Optional[str] = None)
     with open(image_path, "rb") as f:
         image_bytes = f.read()
 
+    # OpenAI API は JSON 経由で画像を受け取るため Base64 文字列にする
+    image_b64 = base64.b64encode(image_bytes).decode("ascii")
+
     system_prompt = _build_system_prompt(problem_id)
 
     resp = client.chat.completions.create(
@@ -55,12 +59,12 @@ def image_to_qmd(image_path: Path, problem_id: str, model: Optional[str] = None)
                 "role": "user",
                 "content": [
                     {
-                        "type": "input_text",
+                        "type": "text",
                         "text": "以下の画像から、指定のルールに従って qmd 形式で問題文だけを書き起こしてください。",
                     },
                     {
-                        "type": "input_image",
-                        "image": image_bytes,
+                        "type": "image_url",
+                        "image_url": {"url": f"data:image/jpeg;base64,{image_b64}"},
                     },
                 ],
             },
