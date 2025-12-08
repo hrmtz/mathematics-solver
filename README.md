@@ -21,15 +21,15 @@
 	- 数式ルール:
 		 - インライン数式: `$...$`
 		 - ディスプレイ数式: `$$ ... $$`（`\[ ... \]` や `\begin{align}` は使わない）
-	 - 自動付与される仮 YAML ヘッダ例:
+  - 自動付与される仮 YAML ヘッダ例:
 	```yaml
-	---
-	title: "<problem_id>"
-		 problem_id: "<problem_id>"
-		 format:
-			 html:
-				 math: mathjax
-		 ---
+---
+  title: "<problem_id>"
+  problem_id: "<problem_id>"
+  format:
+    html:
+      math: mathjax
+---
 
 ### Docker での実行
 
@@ -49,7 +49,7 @@ docker run --rm -p 5000:5000 \
 
 ブラウザで `http://localhost:5000` にアクセスすると、コンテナ内で動作するアプリに接続できます。
 
-	 - 生成された qmd は `problems/<problem_id>.qmd` に保存。
+  - 生成された qmd は `problems/<problem_id>.qmd` に保存。
 3. **HTML プレビュー & 編集**  
 	- テンプレート: `templates/preview.html`。  
 	- qmd テキストを textarea で編集可能。  
@@ -81,23 +81,19 @@ docker run --rm -p 5000:5000 \
 	 - 生成された HTML をブラウザで開き、印刷ダイアログで A4 用紙を選択して印刷 / PDF 保存します。
 
 6. **メタデータ管理 (YAML ヘッダ)**  
-	問題 qmd の YAML ヘッダに以下のようなメタデータを記述しておき、
-	将来的な検索や分類に利用できるようにします（アプリ内の検索 UI は今後実装予定）。
+  問題 qmd の YAML ヘッダには、アプリ側で以下のようなメタデータを自動付与／追記します。
+  将来的な検索や分類に利用できるようにする想定です（検索 UI は今後実装予定）。
 	```yaml
-	---
-	title: "osaka-2024-math-q4"
-	problem_id: "osaka-2024-math-q4"
-	university: "大阪大学"
-	exam_year: 2024
-	exam_type: "前期"
-	subject: "数学"
-	field: "積分法"
-	section: "第4問"
-	 tags: ["置換積分", "最大値最小値", "三角関数"]
-	 format:
-		 html:
-			 math: mathjax
-	 ---
+---
+  title: "osaka-2024-math-q4"
+  problem_id: "osaka-2024-math-q4"
+  university: "大阪大学"        # アップロード画面で入力（任意）
+  exam_year: "2024"             # アップロード画面で入力（任意）
+  fields: ["積分法", "数列"]   # OpenAI による自動分類
+  format:
+    html:
+      math: mathjax
+---
 
 ---
 
@@ -199,4 +195,3 @@ flask --app app run --host 0.0.0.0 --port 5000
 - 問題・解答・PDF の一覧画面と、個別ダウンロードリンク。
 - Quarto テンプレートのカスタマイズ（出力フォーマット切り替え、単列レイアウト対応など）。
 - ログイン機能やユーザーごとの問題管理。
-# mathematics-solver
