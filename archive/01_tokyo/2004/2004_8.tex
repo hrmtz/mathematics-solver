@@ -5,29 +5,29 @@
 \setlength{\baselineskip}{22pt}
 \begin{flushleft}
 {\huge 2}
-�@�W��$A$�C$B$��$A=\{0,1,2,3,4,5,6,7\}$�C$B=\{0,1\}$�Ƃ��C$N$��3�ȏ�̐����Ƃ���D
-�܂��C�e����0�܂���1����Ȃ鐔���01����ƌĂԂ��Ƃɂ���D\\
-01����$a_1,a_2,\cdots,a_N$�ɑ΂��C
-$A$����$B$�ւ̎ʑ�$f$��p���āC
-�V����01����$b_1,b_2,\cdots,b_N$���C
+　集合$A$，$B$を$A=\{0,1,2,3,4,5,6,7\}$，$B=\{0,1\}$とし，$N$を3以上の整数とする．
+また，各項が0または1からなる数列を01数列と呼ぶことにする．\\
+01数列$a_1,a_2,\cdots,a_N$に対し，
+$A$から$B$への写像$f$を用いて，
+新しい01数列$b_1,b_2,\cdots,b_N$を，
 \[ b_1=f(a_1), \hspace{1zw} b_2=f(2a_1+a_2), \hspace{1zw} b_k=f(4a_{k-2}+2a_{k-1}+a_k) \hspace{1zw}
 (k=3,4,\cdots,N) \]
-�ƒ�߁C
-$b_1,b_2,\cdots,b_N$��$a_1,a_2,\cdots,a_N$����$f$�ɂ���ē�����Ƃ����D
-�������C$A$����$B$�ւ̎ʑ�$f$�Ƃ́C
-$A$�̊e�v�f$x$�ɑ΂���$B$�̗v�f$f(x)$�������ЂƂΉ�������K�����������̂Ƃ���D\\
-���̖�ɓ�����D
+と定め，
+$b_1,b_2,\cdots,b_N$は$a_1,a_2,\cdots,a_N$から$f$によって得られるという．
+ただし，$A$から$B$への写像$f$とは，
+$A$の各要素$x$に対して$B$の要素$f(x)$をただひとつ対応させる規則をさすものとする．\\
+次の問に答えよ．
 \begin{description}
-\item[(1)]$A$����$B$�ւ̎ʑ��́C�S���ŉ��ʂ肠�邩�D
-\item[(2)]$f(0)=f(3)=f(4)=f(7)=0$�C$f(1)=f(2)=f(5)=f(6)=1$�C�ł���Ƃ��C
+\item[(1)]$A$から$B$への写像は，全部で何通りあるか．
+\item[(2)]$f(0)=f(3)=f(4)=f(7)=0$，$f(1)=f(2)=f(5)=f(6)=1$，であるとき，
 \[ b_k=\frac{1}{2}\{1+{(-1)}^k\} \hspace{1zw} (k=1,2,\cdots,N) \]
-�ƂȂ�悤��01����$a_1,a_2,\cdots,a_N$�����߂�D
-\item[(3)]$A$����$B$�ւ̎ʑ�$f$���C����
+となるような01数列$a_1,a_2,\cdots,a_N$を求めよ．
+\item[(3)]$A$から$B$への写像$f$が，条件
 \[ (P) \hspace{1zw} f(2m) \neq f(2m+1) \hspace{1zw} (m=0,1,2,3) \]
-�𖞂����Ƃ���D���̂悤��$f$�͉��ʂ肠�邩�D
-\item[(4)]$A$����$B$�ւ̎ʑ�$f$������(P)�𖞂����Ȃ�΁C
-�ǂ̂悤��$N$������Ȃ�01������C
-����01����$a_1,a_2,\cdots,a_N$����$f$�ɂ���ē����邱�Ƃ������D
+を満たすとする．このような$f$は何通りあるか．
+\item[(4)]$A$から$B$への写像$f$が条件(P)を満たすならば，
+どのような$N$項からなる01数列も，
+ある01数列$a_1,a_2,\cdots,a_N$から$f$によって得られることを示せ．
 \end{description}
 \end{flushleft}
 \end{document}

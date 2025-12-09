@@ -5,21 +5,21 @@
 \setlength{\baselineskip}{22pt}
 \begin{flushleft}
 {\huge 3}
-�@�\���Ȑ��̐ԋʂƐʂ��茳�ɂ�����̂Ƃ���B
-$a$��$n$�����R���Ƃ��C�͂��߂ɁC��̑܂�$a$�̐ԋʂ����Ă����B
-�ȉ��̎��s���J��Ԃ��B
-�܂̒�����ʂ�1���o���C���ꂪ�ԋʂȂ�ΐʂ�1�܂ɓ���C�ʂȂ�ΐԋʂ�1�܂ɓ����B
-����ɁC���o�����ʎ��̂��܂ɖ߂��C�܂̒��̋ʂ��悭����������B
-���ʂƂ��āC1��̎��s���Ƃɑ܂̒��ɂ���ʂ�1��������B
-���̎��s���J��Ԃ����Ƃ��C$n$��ڂ̎��s��ɑ܂ɓ����Ă���ԋʂ̌���$k$�ł���m����$p_n(k)$�ŕ\���B
-�Ⴆ�΁C$p_1(k)$�̒l��$k$��$a$�̂Ƃ�1�C���̂ق��̏ꍇ��0�ł���B
-�܂��C$\displaystyle M_n=\sum_{k=0}^{a+n}kp_n(k)$�Ƃ���B
+　十分な数の赤玉と青玉が手元にあるものとする。
+$a$と$n$を自然数とし，はじめに，空の袋に$a$個の赤玉を入れておく。
+以下の試行を繰り返す。
+袋の中から玉を1個取り出し，それが赤玉ならば青玉を1個袋に入れ，青玉ならば赤玉を1個袋に入れる。
+さらに，取り出した玉自体も袋に戻し，袋の中の玉をよくかき混ぜる。
+結果として，1回の試行ごとに袋の中にある玉は1個ずつ増える。
+この試行を繰り返したとき，$n$回目の試行後に袋に入っている赤玉の個数が$k$である確率を$p_n(k)$で表す。
+例えば，$p_1(k)$の値は$k$が$a$のとき1，そのほかの場合は0である。
+また，$\displaystyle M_n=\sum_{k=0}^{a+n}kp_n(k)$とする。
 \begin{description}
-\item[(1)]$p_2(k)$�����߂�B
-\item[(2)]$p_{n+1}(k+1)=Bp_n(k)+Cp_n(k+1)$�ƕ\���Ƃ��C$B$��$C$��$a$�C$k$�C$n$�ŕ\���B
-\item[(3)]$M_1=a$�C$\displaystyle M_{n+1}=\frac{a+n-1}{a+n}M_n+1$�������B
-\item[(4)](3)�̎��𖞂�������$\{ M_n \}$�̈�ʍ������߂�B
-����ɁC$\displaystyle\lim_{n\to\infty}\frac{M_n}{n}$�����߂�B
+\item[(1)]$p_2(k)$を求めよ。
+\item[(2)]$p_{n+1}(k+1)=Bp_n(k)+Cp_n(k+1)$と表すとき，$B$と$C$を$a$，$k$，$n$で表せ。
+\item[(3)]$M_1=a$，$\displaystyle M_{n+1}=\frac{a+n-1}{a+n}M_n+1$を示せ。
+\item[(4)](3)の式を満たす数列$\{ M_n \}$の一般項を求めよ。
+さらに，$\displaystyle\lim_{n\to\infty}\frac{M_n}{n}$を求めよ。
 \end{description}
 \end{flushleft}
 \end{document}

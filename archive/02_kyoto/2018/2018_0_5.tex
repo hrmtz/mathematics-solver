@@ -5,23 +5,23 @@
 \setlength{\baselineskip}{22pt}
 \begin{flushleft}
 {\huge 5}
-�@������������Ă��鋅�������������Ă���܂ɑ΂��āC���̈�A�̑�����l����D
-�������e���ɏ�����Ă��鐮����1�݂̂Ƃ���D
+　整数が書かれている球がいくつか入っている袋に対して，次の一連の操作を考える．
+ただし各球に書かれている整数は1つのみとする．
 \begin{description}
-\item[(i)]�܂��疳��ׂɋ���1���o���C���̋��ɏ�����Ă��鐮����$k$�Ƃ���D
-\item[(ii)]$k \neq 0$�̏ꍇ�C����$k$�������ꂽ����1�V���ɗp�ӂ��C
-���o�������ƂƂ��ɑ܂ɖ߂��D
-\item[(iii)]$k=0$�̏ꍇ�C�܂̒��ɂ��������ɏ�����Ă������̍ő�l���1�傫��������
-�����ꂽ����1�V���ɗp�ӂ��C���o�������ƂƂ��ɑ܂ɖ߂��D
+\item[(i)]袋から無作為に球を1個取り出し，その球に書かれている整数を$k$とする．
+\item[(ii)]$k \neq 0$の場合，整数$k$が書かれた球を1個新たに用意し，
+取り出した球とともに袋に戻す．
+\item[(iii)]$k=0$の場合，袋の中にあった球に書かれていた数の最大値より1大きい整数が
+書かれた球を1個新たに用意し，取り出した球とともに袋に戻す．
 \end{description}
-�@����0��������Ă��鋅��1�����Ă��葼�̋��������Ă��Ȃ��܂�p�ӂ���D
-���̑܂ɏ�̈�A�̑�����J��Ԃ�$n$��s������ɁC
-�܂̒��ɂ��鋅�ɏ�����Ă���$n+1$�̐��̍��v��$X_n$�Ƃ���D
-�Ⴆ��$X_1$�͏��1�ł���D
-�ȉ�$n\geqq2$�Ƃ��Ď��̖�ɓ�����D
+　整数0が書かれている球が1個入っており他の球が入っていない袋を用意する．
+この袋に上の一連の操作を繰り返し$n$回行った後に，
+袋の中にある球に書かれている$n+1$個の数の合計を$X_n$とする．
+例えば$X_1$は常に1である．
+以下$n\geqq2$として次の問に答えよ．
 \begin{description}
-\item[(1)]$\displaystyle X_n\geqq\frac{(n+2)(n-1)}{2}$�ł���m�������߂�D
-\item[(2)]$X_n \leqq n+1$�ł���m�������߂�D
+\item[(1)]$\displaystyle X_n\geqq\frac{(n+2)(n-1)}{2}$である確率を求めよ．
+\item[(2)]$X_n \leqq n+1$である確率を求めよ．
 \end{description}
 \end{flushleft}
 \end{document}
