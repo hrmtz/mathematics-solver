@@ -1,0 +1,218 @@
+## 解答
+
+(1)  
+与式左辺を直接計算する．
+
+$$
+\int_\alpha^\beta (x-\alpha)(x-\beta)\,dx
+=\int_\alpha^\beta \bigl(x^2-(\alpha+\beta)x+\alpha\beta\bigr)\,dx.
+$$
+
+それぞれ積分すると，
+$$
+\int_\alpha^\beta x^2\,dx=\left[\frac{x^3}{3}\right]_\alpha^\beta
+=\frac{\beta^3-\alpha^3}{3},
+$$
+
+$$
+\int_\alpha^\beta x\,dx=\left[\frac{x^2}{2}\right]_\alpha^\beta
+=\frac{\beta^2-\alpha^2}{2},
+$$
+
+$$
+\int_\alpha^\beta 1\,dx=\left[x\right]_\alpha^\beta=\beta-\alpha
+$$
+であるから，
+\[
+\begin{aligned}
+\int_\alpha^\beta (x-\alpha)(x-\beta)\,dx
+&=\frac{\beta^3-\alpha^3}{3}
+-(\alpha+\beta)\frac{\beta^2-\alpha^2}{2}
++\alpha\beta(\beta-\alpha).
+\end{aligned}
+\]
+
+ここで $\beta^3-\alpha^3=(\beta-\alpha)(\beta^2+\alpha\beta+\alpha^2)$，  
+$\beta^2-\alpha^2=(\beta-\alpha)(\beta+\alpha)$ を用いて共通因数 $(\beta-\alpha)$ をくくると，
+\[
+\begin{aligned}
+\int_\alpha^\beta (x-\alpha)(x-\beta)\,dx
+&=(\beta-\alpha)\Bigl\{\frac{\beta^2+\alpha\beta+\alpha^2}{3}
+-(\alpha+\beta)\frac{\alpha+\beta}{2}
++\alpha\beta\Bigr\}.
+\end{aligned}
+\]
+
+中括弧内を計算する．
+\[
+\begin{aligned}
+&\frac{\beta^2+\alpha\beta+\alpha^2}{3}
+-\frac{(\alpha+\beta)^2}{2}
++\alpha\beta \\
+&=\frac{\beta^2+\alpha\beta+\alpha^2}{3}
+-\frac{\alpha^2+2\alpha\beta+\beta^2}{2}
++\alpha\beta \\
+&=\frac{2(\beta^2+\alpha\beta+\alpha^2)
+-3(\alpha^2+2\alpha\beta+\beta^2)
++6\alpha\beta}{6} \\
+&=\frac{2\beta^2+2\alpha\beta+2\alpha^2
+-3\alpha^2-6\alpha\beta-3\beta^2
++6\alpha\beta}{6} \\
+&=\frac{(2\beta^2-3\beta^2)+(2\alpha\beta-6\alpha\beta+6\alpha\beta)
++(2\alpha^2-3\alpha^2)}{6} \\
+&=\frac{-\beta^2+0-\alpha^2}{6}
+=-\frac{\alpha^2+\beta^2}{6}.
+\end{aligned}
+\]
+
+よって
+\[
+\int_\alpha^\beta (x-\alpha)(x-\beta)\,dx
+= (\beta-\alpha)\left(-\frac{\alpha^2+\beta^2}{6}\right)
+= -\frac{\beta-\alpha}{6}(\alpha^2+\beta^2).
+\]
+
+一方，
+\[
+\frac{(\alpha-\beta)^3}{6}
+=\frac{-(\beta-\alpha)^3}{6}
+=-\frac{\beta-\alpha}{6}(\beta-\alpha)^2
+=-\frac{\beta-\alpha}{6}(\alpha^2-2\alpha\beta+\beta^2).
+\]
+
+したがって
+\[
+\frac{(\alpha-\beta)^3}{6}
++\frac{\beta-\alpha}{6}(\alpha^2+\beta^2)
+=-\frac{\beta-\alpha}{6}\{(\alpha^2-2\alpha\beta+\beta^2)-(\alpha^2+\beta^2)\}
+=0
+\]
+より，
+\[
+\int_\alpha^\beta (x-\alpha)(x-\beta)\,dx
+=\frac{(\alpha-\beta)^3}{6}
+\]
+が示された．
+
+
+(2)  
+直線 $l$ は点 $A(a,b)$ を通り，傾きが $k$ なので，
+$$
+y = k(x-a)+b
+$$
+と表せる．放物線 $y=x^2$ との交点を調べるため，
+$$
+k(x-a)+b = x^2
+$$
+すなわち
+$$
+x^2 -kx +ka -b = 0
+$$
+を解く．この 2 根を $x=\alpha,\beta$ とおくと，2 次方程式の解と係数の関係から
+$$
+\alpha+\beta = k,\quad \alpha\beta = ka-b
+$$
+が成り立つ．
+
+放物線 $y=x^2$ と直線 $y=k(x-a)+b$ で囲まれた部分の面積は，
+交点の $x$ 座標を小さい方から $\alpha<\beta$ として
+$$
+S(k)=\int_\alpha^\beta\{k(x-a)+b - x^2\}\,dx
+$$
+で与えられる．
+
+被積分関数を整理すると
+\[
+\begin{aligned}
+k(x-a)+b - x^2
+&= -\bigl(x^2 -kx +ka -b\bigr)
+= -(x-\alpha)(x-\beta)
+\end{aligned}
+\]
+であるから，
+$$
+S(k)=\int_\alpha^\beta -(x-\alpha)(x-\beta)\,dx
+= -\int_\alpha^\beta (x-\alpha)(x-\beta)\,dx.
+$$
+
+(1) より
+$$
+\int_\alpha^\beta (x-\alpha)(x-\beta)\,dx
+=\frac{(\alpha-\beta)^3}{6}
+$$
+なので，
+$$
+S(k)=-\frac{(\alpha-\beta)^3}{6}.
+$$
+
+ここで $\alpha<\beta$ だから $\alpha-\beta<0$ であり，
+囲まれた図形の面積 $S(k)$ は正なので，右辺も正になるように書き換える：
+$$
+S(k)=\frac{(\beta-\alpha)^3}{6}.
+$$
+
+次に $\beta-\alpha$ を $k$ および $a,b$ で表す．
+2 次方程式 $x^2-kx+ka-b=0$ の判別式 $D$ は
+$$
+D = k^2 -4(ka-b) = k^2-4ka+4b
+$$
+であり，
+2 根の差は
+$$
+\beta-\alpha = \sqrt{D} = \sqrt{k^2-4ka+4b}
+$$
+だから，
+$$
+S(k)=\frac{1}{6}\bigl(\beta-\alpha\bigr)^3
+= \frac{1}{6}\bigl(k^2-4ka+4b\bigr)^{3/2}.
+$$
+
+ここで $b>a^2$ なので，後で現れる 2 次式の最小値が正になることが期待される．  
+$S(k)$ の最小値を求めるために，まず平方完成をする：
+\[
+\begin{aligned}
+k^2-4ka+4b
+&=(k^2-4ka+4a^2)+4b-4a^2 \\
+&=(k-2a)^2+4(b-a^2).
+\end{aligned}
+\]
+
+$b>a^2$ より $b-a^2>0$ であるから，
+$$
+(k-2a)^2+4(b-a^2)
+$$
+は任意の実数 $k$ に対して正である．
+
+したがって
+$$
+S(k) = \frac{1}{6}\bigl((k-2a)^2+4(b-a^2)\bigr)^{3/2}
+$$
+と表せる．ここで $(k-2a)^2\ge 0$ なので，
+この中身は $(k-2a)^2$ が最小になるとき，すなわち
+$$
+k-2a=0 \quad\Leftrightarrow\quad k=2a
+$$
+のときに最小となる．
+
+このとき
+\[
+\begin{aligned}
+S_{\min}
+&= S(2a)
+= \frac{1}{6}\bigl((2a-2a)^2+4(b-a^2)\bigr)^{3/2} \\
+&= \frac{1}{6}\{4(b-a^2)\}^{3/2}
+= \frac{1}{6}\cdot 4^{3/2}\,(b-a^2)^{3/2}.
+\end{aligned}
+\]
+
+$4^{3/2}=(\sqrt{4})^3=2^3=8$ であるから，
+$$
+S_{\min}=\frac{8}{6}(b-a^2)^{3/2}
+=\frac{4}{3}(b-a^2)^{3/2}.
+$$
+
+よって，$k$ が実数全体を動くとき，$S(k)$ の最小値は
+$$
+\boxed{\displaystyle \frac{4}{3}(b-a^2)^{3/2}}
+$$
+である．

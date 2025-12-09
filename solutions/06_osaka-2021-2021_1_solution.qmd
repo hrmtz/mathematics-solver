@@ -1,0 +1,124 @@
+## 解答
+
+(1)  
+曲線 $y=\dfrac{1}{x}$ の点 $Q\left(s,\dfrac{1}{s}\right)$ における接線の方程式を求める。  
+$y=\dfrac{1}{x}$ の微分より，接点 $(s,\dfrac{1}{s})$ における接線の傾きは
+$$
+y'=-\dfrac{1}{x^{2}} \quad \Rightarrow \quad \text{傾き}=-\dfrac{1}{s^{2}}
+$$
+であるから，接線の方程式は
+$$
+y-\dfrac{1}{s}=-\dfrac{1}{s^{2}}(x-s)
+$$
+となる。  
+点 $P(a,b)$ がこの直線上にあるから，
+$$
+b-\dfrac{1}{s}=-\dfrac{1}{s^{2}}(a-s)
+$$
+すなわち
+$$
+b-\dfrac{1}{s}=-\dfrac{a}{s^{2}}+\dfrac{1}{s}
+$$
+両辺に $s^{2}$ を掛けて整理すると
+$$
+bs^{2}-s=-a+s
+$$
+よって
+$$
+bs^{2}-2s+a=0
+$$
+同様に，接点 $R\left(t,\dfrac{1}{t}\right)$ に対しても同じ議論をすると，
+$$
+bt^{2}-2t+a=0
+$$
+となる。  
+ここで，$s<t$ は $bs^{2}-2s+a=0$ の小さい方の解，$t$ は大きい方の解である。  
+2次方程式 $bx^{2}-2x+a=0$ の解の公式より
+$$
+x=\dfrac{2\pm\sqrt{4-4ab}}{2b}=\dfrac{1\pm\sqrt{1-ab}}{b}
+$$
+したがって
+$$
+s=\dfrac{1-\sqrt{1-ab}}{b},\quad t=\dfrac{1+\sqrt{1-ab}}{b}
+$$
+である。
+
+---
+
+(2)  
+(1) の結果から
+$$
+\dfrac{t}{s}=\dfrac{\dfrac{1+\sqrt{1-ab}}{b}}{\dfrac{1-\sqrt{1-ab}}{b}}
+=\dfrac{1+\sqrt{1-ab}}{1-\sqrt{1-ab}}
+$$
+と表される。ここで
+$$
+u=\sqrt{1-ab} \quad (0<u<1)
+$$
+とおくと
+$$
+\dfrac{t}{s}=\dfrac{1+u}{1-u}
+$$
+となる。$u$ が小さいほど $\dfrac{1+u}{1-u}$ は小さくなるので，$\dfrac{t}{s}$ の最小値は $u$ の最小値のときにとられる。よって $u$ を最小にする，すなわち $1-ab$ を最小にする（$ab$ を最大にする）必要がある。
+
+点 $P(a,b)$ は曲線
+$$
+y=\dfrac{9}{4}-3x^{2}
+$$
+上を動くから，$b$ を $a$ で表すと
+$$
+b=\dfrac{9}{4}-3a^{2}
+$$
+したがって
+$$
+ab=a\left(\dfrac{9}{4}-3a^{2}\right)=\dfrac{9}{4}a-3a^{3}
+$$
+となる。ここで $ab$ を $a$ の関数と見て最大値を求める。  
+$f(a)=\dfrac{9}{4}a-3a^{3}$ とおくと
+$$
+f'(a)=\dfrac{9}{4}-9a^{2}
+$$
+これを $0$ とおくと
+$$
+\dfrac{9}{4}-9a^{2}=0 \quad \Rightarrow \quad a^{2}=\dfrac{1}{4}
+$$
+$a>0$ より
+$$
+a=\dfrac{1}{2}
+$$
+このとき
+$$
+b=\dfrac{9}{4}-3\left(\dfrac{1}{2}\right)^{2}
+=\dfrac{9}{4}-\dfrac{3}{4}=\dfrac{6}{4}=\dfrac{3}{2}
+$$
+したがって
+$$
+ab=\dfrac{1}{2}\cdot\dfrac{3}{2}=\dfrac{3}{4}
+$$
+これが最大値であることを確認するため，$f''(a)$ を求めると
+$$
+f''(a)=-18a
+$$
+$a=\dfrac{1}{2}>0$ で $f''\left(\dfrac{1}{2}\right)=-9<0$ となり，$a=\dfrac{1}{2}$ で極大となる。よって $ab$ は $a=\dfrac{1}{2}$，$b=\dfrac{3}{2}$ のとき最大値 $\dfrac{3}{4}$ をとる。
+
+したがって
+$$
+1-ab=1-\dfrac{3}{4}=\dfrac{1}{4}
+$$
+よって
+$$
+u=\sqrt{1-ab}=\sqrt{\dfrac{1}{4}}=\dfrac{1}{2}
+$$
+となるから
+$$
+\dfrac{t}{s}=\dfrac{1+u}{1-u}=\dfrac{1+\dfrac{1}{2}}{1-\dfrac{1}{2}}
+=\dfrac{\dfrac{3}{2}}{\dfrac{1}{2}}=3
+$$
+これが $\dfrac{t}{s}$ の最小値である。
+
+以上より，  
+$\displaystyle \frac{t}{s}$ の最小値は $3$，そのときの $a,b$ の値は
+$$
+a=\dfrac{1}{2},\quad b=\dfrac{3}{2}
+$$
+である。

@@ -1,0 +1,185 @@
+## 解答
+
+媒介変数表示
+$$
+x=e^t\cos t+e^\pi,\quad y=e^t\sin t\quad(0\leqq t\leqq\pi)
+$$
+で表される曲線 $C$ と $x$ 軸で囲まれた部分の面積を求める。
+
+まず，$y=e^t\sin t$ より，$y=0$ となるのは
+$$
+e^t>0\ \text{より}\ \sin t=0
+$$
+のときである。$0\leqq t\leqq\pi$ で $\sin t=0$ となるのは $t=0,\pi$ のみであるから，曲線 $C$ は $t=0,\pi$ のときにのみ $x$ 軸と交わる。
+
+次に，$0<t<\pi$ では $\sin t>0$ であるから
+$$
+y=e^t\sin t>0
+$$
+となり，曲線 $C$ は $x$ 軸の上側にある。したがって，$0\leqq t\leqq\pi$ に対応する曲線 $C$ と $x$ 軸とで囲まれた部分の面積 $S$ は，媒介変数表示された平面曲線と $x$ 軸で囲まれる面積の公式
+$$
+S=\int y\,dx=\int_{t=a}^{t=b} y(t)\,x'(t)\,dt
+$$
+（向きに注意しつつ絶対値を考えるが，本問では $0<t<\pi$ で $y>0$ なのでそのまま用いてよい）を用いると
+$$
+S=\int_{0}^{\pi} y\,dx=\int_{0}^{\pi} e^t\sin t\cdot\frac{dx}{dt}\,dt
+$$
+となる。
+
+$x=e^t\cos t+e^\pi$ を $t$ で微分すると
+$$
+\frac{dx}{dt}=\frac{d}{dt}(e^t\cos t)+\frac{d}{dt}(e^\pi)
+=e^t\cos t-e^t\sin t+0
+=e^t(\cos t-\sin t)
+$$
+であるから
+$$
+S=\int_{0}^{\pi} e^t\sin t\cdot e^t(\cos t-\sin t)\,dt
+=\int_{0}^{\pi} e^{2t}\sin t(\cos t-\sin t)\,dt
+$$
+となる。
+
+被積分関数を整理する。三角関数の積を和に直す公式
+$$
+\sin t\cos t=\frac{1}{2}\sin 2t
+$$
+および
+$$
+\sin^2 t=\frac{1-\cos 2t}{2}
+$$
+を用いると
+$$
+\sin t(\cos t-\sin t)
+=\sin t\cos t-\sin^2 t
+=\frac{1}{2}\sin 2t-\frac{1-\cos 2t}{2}
+$$
+$$
+=\frac{1}{2}\sin 2t-\frac{1}{2}+\frac{1}{2}\cos 2t
+=\frac{1}{2}(\sin 2t+\cos 2t-1)
+$$
+である。よって
+$$
+S=\int_{0}^{\pi} e^{2t}\cdot\frac{1}{2}(\sin 2t+\cos 2t-1)\,dt
+=\frac{1}{2}\int_{0}^{\pi} e^{2t}(\sin 2t+\cos 2t-1)\,dt
+$$
+と書ける。
+
+ここで積分を項別に行う：
+$$
+S=\frac{1}{2}\left\{\int_{0}^{\pi} e^{2t}\sin 2t\,dt+\int_{0}^{\pi} e^{2t}\cos 2t\,dt-\int_{0}^{\pi} e^{2t}\,dt\right\}.
+$$
+
+まず，$e^{at}\sin bt$，$e^{at}\cos bt$ の積分について一般公式
+$$
+\int e^{at}\cos bt\,dt=\frac{e^{at}}{a^2+b^2}(a\cos bt+b\sin bt)+C,
+$$
+$$
+\int e^{at}\sin bt\,dt=\frac{e^{at}}{a^2+b^2}(a\sin bt-b\cos bt)+C
+$$
+が知られている（部分積分を2回行うことで導かれる）。ここでは $a=2,\ b=2$ として用いる。
+
+したがって，
+$$
+\int e^{2t}\cos 2t\,dt=\frac{e^{2t}}{2^2+2^2}(2\cos 2t+2\sin 2t)
+=\frac{e^{2t}}{8}(\cos 2t+\sin 2t),
+$$
+$$
+\int e^{2t}\sin 2t\,dt=\frac{e^{2t}}{2^2+2^2}(2\sin 2t-2\cos 2t)
+=\frac{e^{2t}}{8}(\sin 2t-\cos 2t)
+$$
+である。また
+$$
+\int e^{2t}\,dt=\frac{1}{2}e^{2t}
+$$
+である。
+
+これを用いて定積分を計算する。まず
+$$
+\int_{0}^{\pi} e^{2t}\sin 2t\,dt
+=\left[\frac{e^{2t}}{8}(\sin 2t-\cos 2t)\right]_{t=0}^{t=\pi},
+$$
+$$
+\int_{0}^{\pi} e^{2t}\cos 2t\,dt
+=\left[\frac{e^{2t}}{8}(\cos 2t+\sin 2t)\right]_{t=0}^{t=\pi},
+$$
+$$
+\int_{0}^{\pi} e^{2t}\,dt
+=\left[\frac{1}{2}e^{2t}\right]_{t=0}^{t=\pi}
+$$
+となる。
+
+$2t$ に対する三角関数の値を用いる。$t=\pi$ のとき $2t=2\pi$ で
+$$
+\sin 2\pi=0,\quad \cos 2\pi=1,
+$$
+$t=0$ のとき $2t=0$ で
+$$
+\sin 0=0,\quad \cos 0=1
+$$
+であるから，
+$$
+\left.\frac{e^{2t}}{8}(\sin 2t-\cos 2t)\right|_{t=\pi}
+=\frac{e^{2\pi}}{8}(0-1)=-\frac{e^{2\pi}}{8},
+$$
+$$
+\left.\frac{e^{2t}}{8}(\sin 2t-\cos 2t)\right|_{t=0}
+=\frac{1}{8}(0-1)=-\frac{1}{8}
+$$
+より
+$$
+\int_{0}^{\pi} e^{2t}\sin 2t\,dt
+=-\frac{e^{2\pi}}{8}-\left(-\frac{1}{8}\right)
+=\frac{1-e^{2\pi}}{8}
+$$
+となる。
+
+同様に
+$$
+\left.\frac{e^{2t}}{8}(\cos 2t+\sin 2t)\right|_{t=\pi}
+=\frac{e^{2\pi}}{8}(1+0)=\frac{e^{2\pi}}{8},
+$$
+$$
+\left.\frac{e^{2t}}{8}(\cos 2t+\sin 2t)\right|_{t=0}
+=\frac{1}{8}(1+0)=\frac{1}{8}
+$$
+より
+$$
+\int_{0}^{\pi} e^{2t}\cos 2t\,dt
+=\frac{e^{2\pi}}{8}-\frac{1}{8}
+=\frac{e^{2\pi}-1}{8}
+$$
+となる。また
+$$
+\int_{0}^{\pi} e^{2t}\,dt
+=\frac{1}{2}e^{2\pi}-\frac{1}{2}
+=\frac{e^{2\pi}-1}{2}
+$$
+である。
+
+したがって
+$$
+S=\frac{1}{2}\left\{\frac{1-e^{2\pi}}{8}+\frac{e^{2\pi}-1}{8}-\frac{e^{2\pi}-1}{2}\right\}.
+$$
+前の2項は
+$$
+\frac{1-e^{2\pi}}{8}+\frac{e^{2\pi}-1}{8}=0
+$$
+となり打ち消し合うので，
+$$
+S=\frac{1}{2}\left(-\frac{e^{2\pi}-1}{2}\right)
+=-\frac{e^{2\pi}-1}{4}
+=\frac{1-e^{2\pi}}{4}
+$$
+となる。
+
+ここで $e^{2\pi}>1$ であるから $1-e^{2\pi}<0$ であり，このままでは面積として負になってしまう。しかし，上で用いた面積の公式 $S=\int y\,dx$ は，曲線の向きに依存して符号が決まる（$t$ が増加する方向に沿って計算している）。本問では $0<t<\pi$ で $y>0$ であり，$\int y\,dx$ の値は $x$ 軸に対して上向きの符号付き面積を与えるが，計算結果が負になったことから，向きによる符号が反転していることが分かる。よって，求める面積はその絶対値をとったもの
+$$
+|S|=\left|\frac{1-e^{2\pi}}{4}\right|=\frac{e^{2\pi}-1}{4}
+$$
+である。
+
+以上より，曲線 $C$ と $x$ 軸で囲まれた部分の面積は
+$$
+\boxed{\dfrac{e^{2\pi}-1}{4}}
+$$
+である。

@@ -1,0 +1,207 @@
+## 解答
+
+(1)  
+三角形 $ABC$ において，ベクトルの基準を点 $A$ にとり，  
+$\overrightarrow{AB} = \boldsymbol{b}, \ \overrightarrow{AC} = \boldsymbol{c}$ とおく。
+
+点 $M$ は辺 $AB$ を $2:1$ に内分するから，
+$$
+\overrightarrow{AM} = \frac{1}{3}\overrightarrow{AB} = \frac{1}{3}\boldsymbol{b}
+$$
+点 $N$ は辺 $AC$ を $1:2$ に内分するから，
+$$
+\overrightarrow{AN} = \frac{2}{3}\overrightarrow{AC} = \frac{2}{3}\boldsymbol{c}
+$$
+
+また，
+$$
+\overrightarrow{BM} = \overrightarrow{BA} + \overrightarrow{AM}
+= -\boldsymbol{b} + \frac{1}{3}\boldsymbol{b}
+= -\frac{2}{3}\boldsymbol{b},
+$$
+$$
+\overrightarrow{CN} = \overrightarrow{CA} + \overrightarrow{AN}
+= -\boldsymbol{c} + \frac{2}{3}\boldsymbol{c}
+= -\frac{1}{3}\boldsymbol{c}
+$$
+である。
+
+点 $P$ は線分 $BN$ 上にあるから，ある実数 $s$ を用いて
+$$
+\overrightarrow{BP} = s\,\overrightarrow{BN}
+$$
+と表せる。ここで
+$$
+\overrightarrow{BN} = \overrightarrow{BA} + \overrightarrow{AN}
+= -\boldsymbol{b} + \frac{2}{3}\boldsymbol{c}
+$$
+より，
+$$
+\overrightarrow{AP}
+= \overrightarrow{AB} + \overrightarrow{BP}
+= \boldsymbol{b} + s\left(-\boldsymbol{b} + \frac{2}{3}\boldsymbol{c}\right)
+= (1-s)\boldsymbol{b} + \frac{2s}{3}\boldsymbol{c}
+\quad\cdots (★)
+$$
+
+同様に，$P$ は線分 $CM$ 上にもあるから，ある実数 $t$ を用いて
+$$
+\overrightarrow{CP} = t\,\overrightarrow{CM}
+$$
+と表せる。ここで
+$$
+\overrightarrow{CM} = \overrightarrow{CA} + \overrightarrow{AM}
+= -\boldsymbol{c} + \frac{1}{3}\boldsymbol{b}
+$$
+なので，
+$$
+\overrightarrow{AP}
+= \overrightarrow{AC} + \overrightarrow{CP}
+= \boldsymbol{c} + t\left(-\boldsymbol{c} + \frac{1}{3}\boldsymbol{b}\right)
+= \frac{t}{3}\boldsymbol{b} + (1-t)\boldsymbol{c}
+\quad\cdots (★★)
+$$
+
+同じ $\overrightarrow{AP}$ の表し方であるから，(★) と (★★) の係数を比較して
+$$
+1-s = \frac{t}{3}, \quad \frac{2s}{3} = 1-t
+$$
+を得る。これを連立して解く。
+
+第2式から
+$$
+t = 1 - \frac{2s}{3}
+$$
+これを第1式に代入すると
+$$
+1 - s = \frac{1}{3}\left(1 - \frac{2s}{3}\right)
+$$
+$$
+1 - s = \frac{1}{3} - \frac{2s}{9}
+$$
+両辺に9をかけて
+$$
+9 - 9s = 3 - 2s
+$$
+$$
+9 - 3 = 9s - 2s
+$$
+$$
+6 = 7s
+$$
+したがって
+$$
+s = \frac{6}{7}
+$$
+これを $t = 1 - \dfrac{2s}{3}$ に代入すると
+$$
+t = 1 - \frac{2}{3}\cdot\frac{6}{7}
+= 1 - \frac{12}{21}
+= 1 - \frac{4}{7}
+= \frac{3}{7}
+$$
+
+よって，(★) から
+$$
+\overrightarrow{AP}
+= (1-s)\boldsymbol{b} + \frac{2s}{3}\boldsymbol{c}
+= \left(1 - \frac{6}{7}\right)\boldsymbol{b}
++ \frac{2}{3}\cdot\frac{6}{7}\boldsymbol{c}
+$$
+$$
+= \frac{1}{7}\boldsymbol{b} + \frac{12}{21}\boldsymbol{c}
+= \frac{1}{7}\boldsymbol{b} + \frac{4}{7}\boldsymbol{c}
+= \frac{1}{7}\overrightarrow{AB} + \frac{4}{7}\overrightarrow{AC}
+$$
+
+したがって，
+$$
+\boxed{\overrightarrow{AP}
+= \dfrac{1}{7}\overrightarrow{AB}
++ \dfrac{4}{7}\overrightarrow{AC}}
+$$
+
+---
+
+(2)  
+辺の長さを $BC = a,\ CA = b,\ AB = c$ とする。  
+(1) の結果より
+$$
+\overrightarrow{AP}
+= \frac{1}{7}\overrightarrow{AB} + \frac{4}{7}\overrightarrow{AC}
+$$
+であるから，ベクトルの大きさを用いて
+$$
+AP^2
+= \left|\overrightarrow{AP}\right|^2
+= \left|\frac{1}{7}\overrightarrow{AB}
++ \frac{4}{7}\overrightarrow{AC}\right|^2
+$$
+となる。ベクトルの内積の性質
+$$
+|\boldsymbol{u}+\boldsymbol{v}|^2
+= |\boldsymbol{u}|^2 + |\boldsymbol{v}|^2 + 2\boldsymbol{u}\cdot\boldsymbol{v}
+$$
+を用いると，
+$$
+AP^2
+= \left(\frac{1}{7}\right)^2|\overrightarrow{AB}|^2
++ \left(\frac{4}{7}\right)^2|\overrightarrow{AC}|^2
++ 2\cdot\frac{1}{7}\cdot\frac{4}{7}\,
+\overrightarrow{AB}\cdot\overrightarrow{AC}
+$$
+$$
+= \frac{1}{49}c^2 + \frac{16}{49}b^2
++ \frac{8}{49}\,\overrightarrow{AB}\cdot\overrightarrow{AC}
+$$
+
+ここで，余弦定理を用いて $\overrightarrow{AB}\cdot\overrightarrow{AC}$ を $a,b,c$ で表す。  
+角 $\angle BAC$ を $\theta$ とすると
+$$
+\overrightarrow{AB}\cdot\overrightarrow{AC}
+= |AB||AC|\cos\theta
+= bc\cos\theta
+$$
+一方，辺 $BC$ に対する余弦定理より
+$$
+a^2 = b^2 + c^2 - 2bc\cos\theta
+$$
+なので，
+$$
+2bc\cos\theta = b^2 + c^2 - a^2
+$$
+よって
+$$
+\overrightarrow{AB}\cdot\overrightarrow{AC}
+= bc\cos\theta
+= \frac{b^2 + c^2 - a^2}{2}
+$$
+
+これを先ほどの式に代入すると
+$$
+AP^2
+= \frac{1}{49}c^2 + \frac{16}{49}b^2
++ \frac{8}{49}\cdot\frac{b^2 + c^2 - a^2}{2}
+$$
+$$
+= \frac{1}{49}c^2 + \frac{16}{49}b^2
++ \frac{4}{49}(b^2 + c^2 - a^2)
+$$
+$$
+= \frac{1}{49}
+\left\{c^2 + 16b^2 + 4b^2 + 4c^2 - 4a^2\right\}
+$$
+$$
+= \frac{1}{49}
+\left(20b^2 + 5c^2 - 4a^2\right)
+$$
+
+したがって，
+$$
+AP = \frac{1}{7}\sqrt{20b^2 + 5c^2 - 4a^2}
+$$
+
+よって，
+$$
+\boxed{AP = \dfrac{1}{7}\sqrt{20b^2 + 5c^2 - 4a^2}}
+$$

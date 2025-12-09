@@ -1,0 +1,294 @@
+## 解答
+
+(1)  
+$\alpha=\dfrac{2\pi}{7}$ なので  
+$$
+4\alpha=\frac{8\pi}{7},\quad 3\alpha=\frac{6\pi}{7}
+$$
+である．ここで  
+$$
+\frac{8\pi}{7}=2\pi-\frac{6\pi}{7}
+$$
+より，三角関数の公式 $\cos(2\pi-\theta)=\cos\theta$ を用いると
+$$
+\cos4\alpha=\cos\left(\frac{8\pi}{7}\right)
+=\cos\left(2\pi-\frac{6\pi}{7}\right)
+=\cos\left(\frac{6\pi}{7}\right)
+=\cos3\alpha
+$$
+となる．したがって $\cos4\alpha=\cos3\alpha$ が成り立つ．
+
+---
+
+(2)  
+三角関数の加法定理と二倍角の公式を用いて $\cos4\alpha$ を $\cos\alpha$ で表す．
+
+まず
+$$
+\cos2\alpha=2\cos^2\alpha-1
+$$
+であり，さらに  
+$$
+\cos4\alpha=\cos(2\cdot2\alpha)=2\cos^2(2\alpha)-1
+$$
+だから
+$$
+\cos4\alpha=2(2\cos^2\alpha-1)^2-1
+$$
+となる．展開すると
+$$
+(2\cos^2\alpha-1)^2
+=4\cos^4\alpha-4\cos^2\alpha+1
+$$
+なので
+$$
+\cos4\alpha
+=2\bigl(4\cos^4\alpha-4\cos^2\alpha+1\bigr)-1
+=8\cos^4\alpha-8\cos^2\alpha+1
+$$
+を得る．
+
+一方，(1) より $\cos4\alpha=\cos3\alpha$ である．右辺を $\cos\alpha$ で表す．加法定理
+$$
+\cos(2\alpha+\alpha)=\cos2\alpha\cos\alpha-\sin2\alpha\sin\alpha
+$$
+より
+$$
+\cos3\alpha=\cos(2\alpha+\alpha)
+=(2\cos^2\alpha-1)\cos\alpha-(2\sin\alpha\cos\alpha)\sin\alpha
+$$
+である．ここで $\sin^2\alpha=1-\cos^2\alpha$ より
+$$
+2\sin\alpha\cos\alpha\sin\alpha
+=2\cos\alpha\sin^2\alpha
+=2\cos\alpha(1-\cos^2\alpha)
+=2\cos\alpha-2\cos^3\alpha
+$$
+となるから
+$$
+\cos3\alpha
+=(2\cos^2\alpha-1)\cos\alpha-\bigl(2\cos\alpha-2\cos^3\alpha\bigr)
+$$
+$$
+=2\cos^3\alpha-\cos\alpha-2\cos\alpha+2\cos^3\alpha
+=4\cos^3\alpha-3\cos\alpha
+$$
+を得る．
+
+以上より
+$$
+\cos4\alpha=\cos3\alpha
+$$
+は
+$$
+8\cos^4\alpha-8\cos^2\alpha+1
+=4\cos^3\alpha-3\cos\alpha
+$$
+と書ける．すべてを左辺に移項して整理すると
+$$
+8\cos^4\alpha-4\cos^3\alpha-8\cos^2\alpha+3\cos\alpha+1=0
+$$
+となる．ここで $x=\cos\alpha$ とおくと
+$$
+8x^4-4x^3-8x^2+3x+1=0
+$$
+である．この左辺を $8x^3+4x^2-4x-1$ で割って因数分解する．
+
+実際に
+$$
+(8x^3+4x^2-4x-1)(x-\tfrac{1}{2})
+$$
+を計算すると
+$$
+(8x^3+4x^2-4x-1)x-(8x^3+4x^2-4x-1)\cdot\frac12
+$$
+$$
+=8x^4+4x^3-4x^2-x-\left(4x^3+2x^2-2x-\frac12\right)
+$$
+$$
+=8x^4+(4x^3-4x^3)+(-4x^2-2x^2)+(-x+2x)+\frac12
+$$
+$$
+=8x^4-6x^2+x+\frac12
+$$
+となり，先ほどの多項式
+$$
+8x^4-4x^3-8x^2+3x+1
+$$
+とは異なる．よって別の因数分解を考える．
+
+左辺を $f(x)=8x^3+4x^2-4x-1$ で割る長除法を行う代わりに，左辺を $x$ でくくって整理する．
+
+まず
+$$
+8x^4-4x^3-8x^2+3x+1
+=(8x^4-4x^3-4x^2)+( -4x^2+3x+1)
+$$
+と分けると
+$$
+8x^4-4x^3-4x^2=4x^2(2x^2-x-1)
+$$
+であるが，これでは $f(x)$ は得られにくい．別の組み方をする：
+
+$$
+8x^4-4x^3-8x^2+3x+1
+=(8x^4+4x^3-4x^2-x)-(8x^3+4x^2-4x-1)
+$$
+と見ると
+$$
+8x^4-4x^3-8x^2+3x+1
+=(8x^3+4x^2-4x-1)x-f(x)
+$$
+であるから
+$$
+8x^4-4x^3-8x^2+3x+1=(x-1)f(x)
+$$
+が成り立つことがわかる（両辺を展開して一致を確認してもよい）．
+
+実際に
+$$
+(x-1)(8x^3+4x^2-4x-1)
+=8x^4+4x^3-4x^2-x-8x^3-4x^2+4x+1
+$$
+$$
+=8x^4-4x^3-8x^2+3x+1
+$$
+であり，一致する．したがって
+$$
+8x^4-4x^3-8x^2+3x+1=(x-1)f(x)
+$$
+である．
+
+これを $x=\cos\alpha$ について用いると
+$$
+0=8\cos^4\alpha-4\cos^3\alpha-8\cos^2\alpha+3\cos\alpha+1
+=(\cos\alpha-1)f(\cos\alpha)
+$$
+を得る．ここで $\alpha=\dfrac{2\pi}{7}$ より $0<\alpha<\pi$ なので $0<\cos\alpha<1$ であり，特に $\cos\alpha\neq 1$ である．
+
+よって
+$$
+(\cos\alpha-1)f(\cos\alpha)=0,\quad \cos\alpha\neq1
+$$
+から
+$$
+f(\cos\alpha)=0
+$$
+が従う．
+
+---
+
+(3)  
+(2) より $\cos\alpha$ は $f(x)=8x^3+4x^2-4x-1$ の実数解である．
+
+ここで，$\cos\alpha$ が有理数であると仮定して背理法で矛盾を導く．有理数の仮定より，既約分数として
+$$
+\cos\alpha=\frac{p}{q}
+$$
+と書ける．ここで $p,q$ は整数，$\gcd(p,q)=1$，かつ $q>0$ とする．
+
+このとき $f\left(\dfrac{p}{q}\right)=0$ より
+$$
+8\left(\frac{p}{q}\right)^3+4\left(\frac{p}{q}\right)^2-4\left(\frac{p}{q}\right)-1=0
+$$
+であり，両辺に $q^3$ を掛けると
+$$
+8p^3+4pq-4p q^2-q^3=0
+$$
+となる．これを整数係数の式として整理する：
+$$
+8p^3+4p^2q-4pq^2-q^3=0.
+$$
+
+ここで，この等式の両辺を 2 で割った余り（すなわち偶奇）を考える．左辺を 2 で割ると
+- $8p^3$ は $8$ が偶数なので常に偶数，
+- $4p^2q$ も $4$ が偶数なので常に偶数，
+- $4pq^2$ も偶数，
+
+したがって
+$$
+8p^3+4p^2q-4pq^2
+$$
+は偶数である．よって
+$$
+8p^3+4p^2q-4pq^2-q^3\equiv -q^3 \pmod 2
+$$
+となる．この値が $0$ に等しくなければならないので
+$$
+-q^3\equiv 0\pmod 2
+$$
+すなわち $q^3$ は偶数である．したがって $q$ は偶数である．
+
+一方，$f(x)$ の定数項は $-1$ であり，先ほどの等式を
+$$
+q^3=8p^3+4p^2q-4pq^2
+$$
+と変形しても，右辺はすべて 4 の倍数を含む項の和なので偶数であるから，$q^3$ は偶数であることと矛盾はないが，ここから $p$ の偶奇も調べる．
+
+先の等式を
+$$
+q^3=4\bigl(2p^3+p^2q-pq^2\bigr)
+$$
+と書くと，右辺は $4$ の倍数であるから $q^3$ は $4$ の倍数である．したがって $q$ は 2 の倍数であることがわかる．
+
+一方，元の等式を $p$ について見るために
+$$
+8p^3+4p^2q-4pq^2=q^3
+$$
+の両辺を 2 で割ると
+$$
+4p^3+2p^2q-2pq^2=\frac{q^3}{2}
+$$
+である．左辺は $2$ でくくれて偶数なので，$\dfrac{q^3}{2}$ も整数でなければならない．これは $q^3$ が偶数であることと両立するが，さらに 4 で割った余りを考えると，右辺が 4 で割り切れるためには $q$ が 2 で割り切れることが必要で，これはすでにわかっている．
+
+ここで決定的な矛盾を得るために $f(x)$ に有理数根が存在するかどうかを調べる．有理根定理（整係数多項式の有理根は，分子は定数項の約数，分母は最高次係数の約数に限られるという定理）を用いる．
+
+$f(x)=8x^3+4x^2-4x-1$ の有理数根は，もし存在すれば
+$$
+x=\frac{\text{定数項 }-1\text{ の約数}}{\text{最高次係数 }8\text{ の約数}}
+$$
+の形であり，したがって候補は
+$$
+x=\pm1,\ \pm\frac12,\ \pm\frac14,\ \pm\frac18
+$$
+に限られる．それぞれ代入して値を調べる：
+
+- $x=1$ のとき  
+  $f(1)=8+4-4-1=7\neq0$．
+- $x=-1$ のとき  
+  $f(-1)=-8+4+4-1=-1\neq0$．
+- $x=\dfrac12$ のとき  
+  $f\left(\frac12\right)
+  =8\cdot\frac18+4\cdot\frac14-4\cdot\frac12-1
+  =1+1-2-1=-1\neq0$．
+- $x=-\dfrac12$ のとき  
+  $f\left(-\frac12\right)
+  =8\cdot\left(-\frac18\right)+4\cdot\frac14-4\cdot\left(-\frac12\right)-1
+  =-1+1+2-1=1\neq0$．
+- $x=\dfrac14$ のとき  
+  $f\left(\frac14\right)
+  =8\cdot\frac1{64}+4\cdot\frac1{16}-4\cdot\frac14-1
+  =\frac18+\frac14-1-1
+  =\frac18+\frac14-\frac{8}{4}
+  <0\ (\text{特に }0\text{ でない})$．
+  （厳密には計算すると $f\left(\dfrac14\right)=-\dfrac{15}{8}\neq0$）
+- $x=-\dfrac14$ のとき  
+  $f\left(-\frac14\right)
+  =8\cdot\left(-\frac1{64}\right)+4\cdot\frac1{16}-4\cdot\left(-\frac14\right)-1
+  =-\frac18+\frac14+1-1=\frac18\neq0$．
+- $x=\dfrac18$ のとき  
+  $f\left(\frac18\right)
+  =8\cdot\frac1{512}+4\cdot\frac1{64}-4\cdot\frac18-1
+  =\frac1{64}+\frac1{16}-\frac12-1
+  \neq0$．
+- $x=-\dfrac18$ のとき  
+  $f\left(-\frac18\right)
+  =8\cdot\left(-\frac1{512}\right)+4\cdot\frac1{64}-4\cdot\left(-\frac18\right)-1
+  =-\frac1{64}+\frac1{16}+\frac12-1
+  \neq0$．
+
+いずれの候補も $f(x)=0$ を満たさないので，$f(x)$ は有理数根をもたない．
+
+従って，有理数である $\cos\alpha$ が $f(\cos\alpha)=0$ を満たすことは不可能である．これは $\cos\alpha$ が有理数であるという仮定と矛盾する．
+
+よって $\cos\alpha$ は無理数である．

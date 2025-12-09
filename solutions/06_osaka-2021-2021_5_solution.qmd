@@ -1,0 +1,232 @@
+## 解答
+
+(1)  
+
+関数  
+$$f(x)=x-\tan x$$  
+を考える．
+
+まず，$\displaystyle |x|<\frac{\pi}{2}$ において $f$ は定義されており，  
+$f'(x)$ を計算すると
+$$
+f'(x)=1-\sec^2 x=1-(1+\tan^2 x)=-\tan^2 x\le 0
+$$
+である．  
+等号は $\tan x=0$，すなわち $x=0$ のときのみ成り立つ．
+
+したがって，$|x|<\frac{\pi}{2}$ において $f$ は単調減少であり，  
+$x\neq 0$ では $f'(x)<0$ なので，$(-\frac{\pi}{2},0)$ と $(0,\frac{\pi}{2})$ では狭義に単調減少である．  
+よって，$(-\frac{\pi}{2},\frac{\pi}{2})$ で $f$ は単調減少関数であり，$1$ 対 $1$ である (逆関数が存在する)．  
+従って，任意の実数 $a$ に対して，方程式
+$$
+x-\tan x=a
+$$
+すなわち $f(x)=a$ は $|x|<\frac{\pi}{2}$ において高々 $1$ 個しか解をもたない．
+
+次に，解が少なくとも $1$ 個存在することを示す．
+
+$$
+f(0)=0-\tan 0=0
+$$
+なので，$a=0$ のときは $x=0$ が解であり，(上記より) これがただ 1 個の解である．
+
+$a\ne 0$ のときについて考える．  
+$x\to (\frac{\pi}{2})^-$，すなわち右側から $\frac{\pi}{2}$ に近づくとき
+$$
+\tan x\to +\infty,\quad x\to \frac{\pi}{2}
+$$
+より
+$$
+f(x)=x-\tan x\to -\infty
+$$
+である．  
+また，$x\to (-\frac{\pi}{2})^+$，すなわち左側から $-\frac{\pi}{2}$ に近づくとき
+$$
+\tan x\to -\infty,\quad x\to -\frac{\pi}{2}
+$$
+より
+$$
+f(x)=x-\tan x\to +\infty
+$$
+となる．
+
+したがって
+$$
+\lim_{x\to -\frac{\pi}{2}+0} f(x)=+\infty,\qquad
+\lim_{x\to \frac{\pi}{2}-0} f(x)=-\infty
+$$
+であり，$f$ は連続かつ単調減少なので，中間値の定理から，任意の実数 $a$ に対して  
+区間 $(-\frac{\pi}{2},\frac{\pi}{2})$ 内に $f(x)=a$ を満たす $x$ がただ 1 個存在する．
+
+よって，「$x-\tan x=a$ の実数解のうち，$|x|<\frac{\pi}{2}$ をみたすものはちょうど 1 個である」ことが示された．
+
+
+(2)  
+
+まず，(1) の結果より，  
+各自然数 $n$ について，$x-\tan x=n\pi,\ |x|<\frac{\pi}{2}$ をみたす実数 $x_n$ はただ 1 個存在する．
+
+曲線 $C:y=\sin x$ 上の点 $P(t,\sin t)$ における接線を求める．  
+$y=\sin x$ の導関数は $\cos x$ なので，点 $(t,\sin t)$ における接線の傾きは $\cos t$ であり，接線の方程式は
+$$
+y-\sin t=\cos t(x-t)
+$$
+すなわち
+$$
+y=\cos t\cdot x+\sin t-t\cos t
+$$
+である．  
+
+この接線が，「$x\ge\frac{\pi}{2}$ の表す領域に含まれる点」においても曲線 $C$ と接する，  
+という条件は，「ある $u$ が $u\ge\frac{\pi}{2}$ を満たし，かつ $x=u$ における $y=\sin x$ の接線が上と同じ直線である」ことを意味する．
+
+$y=\sin x$ の $x=u$ における接線は
+$$
+y-\sin u=\cos u(x-u)
+$$
+すなわち
+$$
+y=\cos u\cdot x+\sin u-u\cos u
+$$
+である．
+
+これが先に求めた直線
+$$
+y=\cos t\cdot x+\sin t-t\cos t
+$$
+と一致するための必要十分条件は，係数および定数項が等しいこと，すなわち
+$$
+\cos t=\cos u,\qquad
+\sin t-t\cos t=\sin u-u\cos u
+$$
+が同時に成り立つことである．
+
+まず $\cos t=\cos u$ から，三角関数の性質より
+$$
+u=\pm t+2k\pi\quad (k\in\mathbb{Z})
+$$
+のいずれかである．
+
+ここで，$t$ は $|t|<\frac{\pi}{2}$，また $u$ は条件より $u\ge\frac{\pi}{2}$ である．
+
+- $u=t+2k\pi$ の場合：  
+  $|t|<\frac{\pi}{2}$ より $t\in(-\frac{\pi}{2},\frac{\pi}{2})$ である．  
+  したがって
+  $$
+  u=t+2k\pi\ge\frac{\pi}{2}
+  \quad\Rightarrow\quad
+  2k\pi\ge\frac{\pi}{2}-t>0
+  $$
+  より $k\ge 1$ が必要である．
+
+- $u=-t+2k\pi$ の場合：  
+  同様に $u\ge\frac{\pi}{2}$ より
+  $$
+  -t+2k\pi\ge\frac{\pi}{2}
+  $$
+  である．しかし，$|t|<\frac{\pi}{2}$ なので $-t\in(-\frac{\pi}{2},\frac{\pi}{2})$，したがって  
+  $2k\pi$ はやはり正で $k\ge 1$ となるが，後で代入してみると矛盾が生じることが分かるので，以下で詳しく調べる．
+
+次に，もう一つの条件
+$$
+\sin t-t\cos t=\sin u-u\cos u
+$$
+を用いる．ここで
+$$
+\sin t-t\cos t=\sin u-u\cos u
+\quad\Longleftrightarrow\quad
+(\sin t-\sin u)=(t-u)\cos t
+$$
+と変形して議論してもよいが，以下では $u$ の具体的な形を代入して整理する．
+
+まず $u=t+2k\pi$ の場合を考える．
+
+このとき，$\sin u=\sin(t+2k\pi)=\sin t$，$\cos u=\cos(t+2k\pi)=\cos t$ なので
+$$
+\sin u-u\cos u=\sin t-(t+2k\pi)\cos t.
+$$
+したがって
+$$
+\sin t-t\cos t=\sin u-u\cos u
+$$
+より
+$$
+\sin t-t\cos t=\sin t-(t+2k\pi)\cos t
+$$
+すなわち
+$$
+-t\cos t=-(t+2k\pi)\cos t
+$$
+であり，
+$$
+(-t+(t+2k\pi))\cos t=0
+\quad\Longleftrightarrow\quad
+2k\pi\cos t=0
+$$
+を得る．$k\ge 1$ なので $2k\pi\ne 0$ であり，従って
+$$
+\cos t=0
+$$
+が必要となる．しかし $|t|<\frac{\pi}{2}$ の範囲では $\cos t>0$ であり，$\cos t=0$ は起こらない．  
+よって $u=t+2k\pi$ の場合は矛盾し，この場合はありえない．
+
+次に $u=-t+2k\pi$ の場合を考える．
+
+このとき
+$$
+\sin u=\sin(-t+2k\pi)=-\sin t,\qquad
+\cos u=\cos(-t+2k\pi)=\cos t
+$$
+であるから
+$$
+\sin u-u\cos u=-\sin t-(-t+2k\pi)\cos t
+=-\sin t+t\cos t-2k\pi\cos t.
+$$
+よって
+$$
+\sin t-t\cos t=\sin u-u\cos u
+$$
+は
+$$
+\sin t-t\cos t=-\sin t+t\cos t-2k\pi\cos t
+$$
+と等価であり，両辺を整理すると
+$$
+2\sin t-2t\cos t=-2k\pi\cos t
+$$
+すなわち
+$$
+\sin t-t\cos t=-k\pi\cos t
+$$
+となる．
+
+ここで両辺を $\cos t$ で割る（$|t|<\frac{\pi}{2}$ なので $\cos t>0$ より割ることができる）と
+$$
+\frac{\sin t-t\cos t}{\cos t}=-k\pi
+$$
+すなわち
+$$
+\tan t-t=-k\pi
+$$
+を得る．
+
+この式を変形すると
+$$
+t-\tan t=k\pi
+$$
+である．(両辺に $-1$ をかけただけである．)
+
+これは，設問で定義された $x_n$ を満たす条件
+$$
+x_n-\tan x_n=n\pi,\quad |x_n|<\frac{\pi}{2}
+$$
+と同じ形である．したがって，$k$ は自然数であり，$t$ は $x_k$ に一致する．  
+（$(1)$ より，この条件を満たす $t$ は $x_k$ ただ 1 つである．）
+
+まとめると，点 $P(t,\sin t)$ における接線が $x\ge\frac{\pi}{2}$ の領域内のある点で $C$ に再び接するための必要十分条件は，
+$$
+t-\tan t=k\pi
+$$
+をみたす自然数 $k$ が存在することであり，これは $t=x_k$ と等しいことと同値である．
+
+従って，「曲線 $C:y=\sin x$ 上の点 $P(t,\sin t)$ における接線が，$x\ge\frac{\pi}{2}$ の表す領域に含まれる点においても $C$ と接するための必要十分条件は，$t$ が $x_1,x_2,x_3,\dots$ のいずれかと等しいことである」ことが示された．

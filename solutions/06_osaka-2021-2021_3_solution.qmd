@@ -1,0 +1,317 @@
+## 解答
+
+(1)  
+関数  
+$$
+f(x)=\log x-\log t-\frac{1}{t}(x-t)
+$$
+を考える．ただし $t\geq1$ は固定された実数とする．
+
+まず $x=t$ のとき
+$$
+f(t)=\log t-\log t-\frac{1}{t}(t-t)=0
+$$
+である．
+
+$f(x)$ の導関数を求めると，
+$$
+f'(x)=\frac{1}{x}-\frac{1}{t}=\frac{t-x}{tx},\quad
+f''(x)=-\frac{1}{x^2}\ (<0)
+$$
+となる．特に $f''(x)<0$ なので，$f(x)$ は全域で上に凸の関数である．
+
+$x\geq t$ のとき $x\geq t\geq1$ より $tx>0$ だから，
+$$
+f'(x)=\frac{t-x}{tx}\leq0
+$$
+となる．したがって $x\geq t$ で $f(x)$ は単調減少であり，$f(t)=0$ から
+$$
+f(x)\leq f(t)=0
+$$
+が従う．すなわち
+$$
+\log x-\log t-\frac{1}{t}(x-t)\leq0
+$$
+が示された．
+
+次に，下側の評価を示す．関数
+$$
+g(x)=f(x)+\frac{(x-t)^2}{2}
+=\log x-\log t-\frac{1}{t}(x-t)+\frac{(x-t)^2}{2}
+$$
+を考える．
+
+$g(x)$ の導関数は
+$$
+g'(x)=f'(x)+(x-t)
+=\Bigl(\frac{1}{x}-\frac{1}{t}\Bigr)+(x-t)
+$$
+であり，さらに
+$$
+g''(x)=f''(x)+1=-\frac{1}{x^2}+1=1-\frac{1}{x^2}
+$$
+となる．$t\geq1,\ x\geq t$ なので $x\geq1$ であり $x^2\geq1$，よって
+$$
+g''(x)=1-\frac{1}{x^2}\geq0
+$$
+が成り立つ．したがって $g(x)$ は $x\geq t$ で下に凸（凸関数）である．
+
+$x=t$ のとき
+$$
+g(t)=f(t)+\frac{(t-t)^2}{2}=0
+$$
+であり，また
+$$
+g'(t)=f'(t)+(t-t)
+=\Bigl(\frac{1}{t}-\frac{1}{t}\Bigr)+0=0
+$$
+である．$g(x)$ は $x\geq t$ で下に凸であり，$x=t$ で極小値をとるから，
+$$
+g(x)\geq g(t)=0\quad(x\geq t)
+$$
+が従う．すなわち
+$$
+\log x-\log t-\frac{1}{t}(x-t)\geq -\frac{(x-t)^2}{2}
+$$
+が得られた．
+
+以上より $x\geq t$ のとき
+$$
+-\frac{(x-t)^2}{2}\leq \log x-\log t-\frac{1}{t}(x-t)\leq0
+$$
+が成り立つ．
+
+---
+
+(2)  
+(1)の不等式を $x\in[t,\ t+\frac{1}{n}]$ で用いる．このとき $x\geq t$ なので，
+$$
+-\frac{(x-t)^2}{2}\leq \log x-\log t-\frac{1}{t}(x-t)\leq0
+$$
+が成り立つ．両辺を $x$ について $t$ から $t+\frac{1}{n}$ まで積分する：
+
+$$
+\int_t^{t+\frac{1}{n}} -\frac{(x-t)^2}{2}\,dx
+\;\leq\;
+\int_t^{t+\frac{1}{n}}\left(\log x-\log t-\frac{1}{t}(x-t)\right)dx
+\;\leq\;0.
+$$
+
+中辺の積分を整理する．
+$$
+\int_t^{t+\frac{1}{n}}\left(\log x-\log t-\frac{1}{t}(x-t)\right)dx
+=
+\int_t^{t+\frac{1}{n}}\log x\,dx
+-\int_t^{t+\frac{1}{n}}\log t\,dx
+-\int_t^{t+\frac{1}{n}}\frac{1}{t}(x-t)\,dx.
+$$
+
+それぞれ計算すると，
+$$
+\int_t^{t+\frac{1}{n}}\log t\,dx
+=\log t\cdot\left(t+\frac{1}{n}-t\right)
+=\frac{1}{n}\log t,
+$$
+
+$$
+\int_t^{t+\frac{1}{n}}\frac{1}{t}(x-t)\,dx
+=\frac{1}{t}\int_t^{t+\frac{1}{n}}(x-t)\,dx
+=\frac{1}{t}\left[\frac{(x-t)^2}{2}\right]_{x=t}^{t+\frac{1}{n}}
+=\frac{1}{t}\cdot\frac{1}{2n^2}
+=\frac{1}{2tn^2}
+$$
+となるから
+$$
+\int_t^{t+\frac{1}{n}}\left(\log x-\log t-\frac{1}{t}(x-t)\right)dx
+=
+\int_t^{t+\frac{1}{n}}\log x\,dx
+-\frac{1}{n}\log t-\frac{1}{2tn^2}
+$$
+である．したがって
+$$
+\int_t^{t+\frac{1}{n}} -\frac{(x-t)^2}{2}\,dx
+\;\leq\;
+\int_t^{t+\frac{1}{n}}\log x\,dx
+-\frac{1}{n}\log t-\frac{1}{2tn^2}
+\;\leq\;0.
+$$
+
+左辺の積分を求めると，
+$$
+\int_t^{t+\frac{1}{n}} -\frac{(x-t)^2}{2}\,dx
+=-\frac{1}{2}\int_t^{t+\frac{1}{n}}(x-t)^2\,dx
+=-\frac{1}{2}\left[\frac{(x-t)^3}{3}\right]_{x=t}^{t+\frac{1}{n}}
+=-\frac{1}{2}\cdot\frac{1}{3n^3}
+=-\frac{1}{6n^3}
+$$
+である．よって
+$$
+-\frac{1}{6n^3}
+\leq
+\int_t^{t+\frac{1}{n}}\log x\,dx
+-\frac{1}{n}\log t-\frac{1}{2tn^2}
+\leq0
+$$
+が示された．
+
+---
+
+(3)  
+$$
+a_n=\sum_{k=0}^{n-1}\log\left( 1+\frac{k}{n} \right)
+$$
+とおく．
+
+まず形を整える．
+$$
+\log\left(1+\frac{k}{n}\right)
+=\log\frac{n+k}{n}
+=\log(n+k)-\log n
+$$
+なので
+$$
+a_n=\sum_{k=0}^{n-1}\bigl(\log(n+k)-\log n\bigr)
+=\sum_{k=0}^{n-1}\log(n+k)-n\log n
+$$
+となる．
+
+ここで $t_k=1+\dfrac{k}{n}$ とおくと，$t_k\geq1$ であり，また
+$$
+t_k+\frac{1}{n}=1+\frac{k}{n}+\frac{1}{n}=1+\frac{k+1}{n}=t_{k+1}
+$$
+である．(2) の不等式に $t=t_k$ を代入すると
+$$
+-\frac{1}{6n^3}\leq
+\int_{t_k}^{t_k+\frac{1}{n}}\log x\,dx
+-\frac{1}{n}\log t_k-\frac{1}{2t_kn^2}
+\leq0
+$$
+すなわち
+$$
+-\frac{1}{6n^3}+\frac{1}{2t_kn^2}
+\leq
+\int_{t_k}^{t_k+\frac{1}{n}}\log x\,dx
+-\frac{1}{n}\log t_k
+\leq\frac{1}{2t_kn^2}
+$$
+が成り立つ．
+
+両辺を $k=0,1,\dots,n-1$ について足し合わせると
+$$
+\sum_{k=0}^{n-1}\left(-\frac{1}{6n^3}+\frac{1}{2t_kn^2}\right)
+\leq
+\sum_{k=0}^{n-1}\left(
+\int_{t_k}^{t_k+\frac{1}{n}}\log x\,dx-\frac{1}{n}\log t_k
+\right)
+\leq
+\sum_{k=0}^{n-1}\frac{1}{2t_kn^2}
+$$
+となる．ここで
+$$
+\sum_{k=0}^{n-1}\int_{t_k}^{t_k+\frac{1}{n}}\log x\,dx
+=\int_{1}^{2}\log x\,dx
+$$
+（区間 $[1,2]$ を幅 $\frac{1}{n}$ の区間に分けている）であり，また
+$$
+\sum_{k=0}^{n-1}\frac{1}{n}\log t_k
+=\frac{1}{n}\sum_{k=0}^{n-1}\log\left(1+\frac{k}{n}\right)
+=\frac{a_n}{n}
+$$
+である．したがって
+$$
+\int_{1}^{2}\log x\,dx-\frac{a_n}{n}
+$$
+が中央の和に等しいので，上の不等式は
+$$
+\sum_{k=0}^{n-1}\left(-\frac{1}{6n^3}+\frac{1}{2t_kn^2}\right)
+\leq
+\int_{1}^{2}\log x\,dx-\frac{a_n}{n}
+\leq
+\sum_{k=0}^{n-1}\frac{1}{2t_kn^2}
+$$
+と書ける．
+
+左辺の和をまとめると
+$$
+\sum_{k=0}^{n-1}\left(-\frac{1}{6n^3}+\frac{1}{2t_kn^2}\right)
+=-\frac{n}{6n^3}+\frac{1}{2n^2}\sum_{k=0}^{n-1}\frac{1}{t_k}
+=-\frac{1}{6n^2}+\frac{1}{2n^2}\sum_{k=0}^{n-1}\frac{1}{1+\frac{k}{n}}
+$$
+であり，右辺も
+$$
+\sum_{k=0}^{n-1}\frac{1}{2t_kn^2}
+=\frac{1}{2n^2}\sum_{k=0}^{n-1}\frac{1}{1+\frac{k}{n}}
+$$
+と書ける．ゆえに
+$$
+-\frac{1}{6n^2}+\frac{1}{2n^2}\sum_{k=0}^{n-1}\frac{1}{1+\frac{k}{n}}
+\;\leq\;
+\int_{1}^{2}\log x\,dx-\frac{a_n}{n}
+\;\leq\;
+\frac{1}{2n^2}\sum_{k=0}^{n-1}\frac{1}{1+\frac{k}{n}}
+$$
+が得られる．
+
+ここで
+$$
+S_n=\frac{1}{n}\sum_{k=0}^{n-1}\frac{1}{1+\frac{k}{n}}
+=\sum_{k=0}^{n-1}\frac{1}{n}\cdot\frac{1}{1+\frac{k}{n}}
+$$
+とおくと，これは区間 $[1,2]$ 上の関数 $f(x)=\dfrac{1}{x}$ に対し，幅 $\frac{1}{n}$ の区間で左端を用いたリーマン和であるから，
+$$
+\lim_{n\to\infty}S_n=\int_{1}^{2}\frac{1}{x}\,dx=\log 2
+$$
+が成り立つ．よって
+$$
+\lim_{n\to\infty}\frac{1}{2n^2}\sum_{k=0}^{n-1}\frac{1}{1+\frac{k}{n}}
+=\lim_{n\to\infty}\frac{1}{2n}\cdot
+\left(
+\frac{1}{n}\sum_{k=0}^{n-1}\frac{1}{1+\frac{k}{n}}
+\right)
+=\lim_{n\to\infty}\frac{S_n}{2n}=0
+$$
+であり，また $-\frac{1}{6n^2}\to0$ なので，両側の項はともに $0$ に収束する．
+
+したがってはさみうちの原理により
+$$
+\lim_{n\to\infty}\left(\int_{1}^{2}\log x\,dx-\frac{a_n}{n}\right)=0
+$$
+すなわち
+$$
+\lim_{n\to\infty}\frac{a_n}{n}=\int_{1}^{2}\log x\,dx
+$$
+が分かる．
+
+積分を計算すると，
+$$
+\int_{1}^{2}\log x\,dx
+=\left[x\log x-x\right]_{1}^{2}
+=\bigl(2\log2-2\bigr)-\bigl(0-1\bigr)
+=2\log2-1
+$$
+であるから，
+$$
+\lim_{n\to\infty}\frac{a_n}{n}=2\log2-1
+$$
+となる．
+
+設問では $\displaystyle\lim_{n\to\infty}(a_n-pn)=q$ をみたす実数 $p,q$ を求める．  
+今の結果から
+$$
+\lim_{n\to\infty}\frac{a_n}{n}=p
+$$
+でなければ極限が有限値 $q$ にはならないから，
+$$
+p=2\log2-1
+$$
+である必要がある．この $p$ をとれば
+$$
+a_n-pn=n\left(\frac{a_n}{n}-p\right)\xrightarrow[n\to\infty]{}0
+$$
+であるから $q=0$ となる．
+
+よって
+$$
+p=2\log2-1,\quad q=0
+$$
+である．
