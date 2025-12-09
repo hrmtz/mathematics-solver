@@ -2,13 +2,13 @@
 
 スマホで撮影した大学入試レベルの数学問題画像 (JPG/PNG) をアップロードし、
 - OpenAI Vision による OCR → Quarto 互換の qmd 生成
-- ブラウザ上で qmd をプレビュー・修正（MathJax で数式プレビュー）
+- ブラウザ上で qmd をプレビュー・修正
 - OpenAI による模範解答の自動生成
-- 問題＋解答から **印刷用 HTML ハンドアウト (問題1段＋解答2段組)** を生成し、ブラウザの印刷機能で A4 印刷 / PDF 保存
+- 問題＋解答を A4 二段組 PDF のハンドアウトとして出力
 
 を行う Flask ベースの小さな Web アプリです。
 
-- バージョン: **0.3.0**（大学名/年度/分野自動判定タグ付け機能）
+- バージョン: **0.1.0**（OCR〜問題プレビューまで動作確認済み）
 ---
 
 ## 機能概要
@@ -21,35 +21,17 @@
 	- 数式ルール:
 		 - インライン数式: `$...$`
 		 - ディスプレイ数式: `$$ ... $$`（`\[ ... \]` や `\begin{align}` は使わない）
-  - 自動付与される仮 YAML ヘッダ例:
+	 - 自動付与される仮 YAML ヘッダ例:
 	```yaml
----
-  title: "<problem_id>"
-  problem_id: "<problem_id>"
-  format:
-    html:
-      math: mathjax
----
+	---
+	title: "<problem_id>"
+		 problem_id: "<problem_id>"
+		 format:
+			 html:
+				 math: mathjax
+		 ---
 
-### Docker での実行
-
-ローカルにPython環境を用意せず、コンテナで実行することもできます。
-
-```bash
-cd /workspaces/mathematics-solver
-
-# イメージをビルド
-docker build -t mathematics-solver .
-
-# 実行（必要に応じてOPENAI_API_KEYなどを渡す）
-docker run --rm -p 5000:5000 \
-	-e OPENAI_API_KEY="sk-..." \
-	mathematics-solver
-```
-
-ブラウザで `http://localhost:5000` にアクセスすると、コンテナ内で動作するアプリに接続できます。
-
-  - 生成された qmd は `problems/<problem_id>.qmd` に保存。
+	 - 生成された qmd は `problems/<problem_id>.qmd` に保存。
 3. **HTML プレビュー & 編集**  
 	- テンプレート: `templates/preview.html`。  
 	- qmd テキストを textarea で編集可能。  
@@ -68,32 +50,41 @@ docker run --rm -p 5000:5000 \
 	 - 生成された解答 qmd は `solutions/<problem_id>_solution.qmd` に保存。  
 	- テンプレート: `templates/solution_preview.html` で、問題・解答の両方をテキスト＋MathJax プレビュー表示。
 
-5. **ハンドアウト HTML 生成（ブラウザ印刷前提）**  
+5. **PDF ハンドアウト生成 (Quarto)**  
 	 - `solver.py` の `build_handout_qmd()` で、問題 qmd と解答 qmd を結合したハンドアウト qmd を生成。  
-	 - ハンドアウト qmd の YAML では `format.html.css: ../static/handout-print.css` を指定し、`static/handout-print.css` の印刷用スタイルを読み込みます。  
-	 - 生成される HTML の構造は概ね次のようになります:
-		 - `<div class="main-wrap">` … 全体コンテナ（A4 幅に収まるよう制御）
-		 - `<section id="problem-section">` … 問題部分（1 カラム）
-		 - `<section id="solution-section">` … 解答部分（2 カラム）
-	 - `static/handout-print.css` では、A4 サイズ・余白・フォント・段組（問題 1 段、解答 2 段）などを指定しています。  
+	 - PDF 用 YAML ヘッダ例:
+
+		 ```yaml
+		 ---
+		 format:
+			 pdf:
+		 documentclass: article
+		 classoption: ["a4paper", "twocolumn"]
+		 margin: 20mm
+		 ---
+
 	 - `app.py` の `POST /handout/<problem_id>` から `quarto render` を呼び出し、  
-		 `output/<problem_id>_handout.qmd` → `output/<problem_id>_handout.html` を生成。  
-	 - 生成された HTML をブラウザで開き、印刷ダイアログで A4 用紙を選択して印刷 / PDF 保存します。
+		 `output/<problem_id>_handout.qmd` → `output/<problem_id>_handout.pdf` を生成。  
+	- PDF はそのままダウンロード可能。
 
 6. **メタデータ管理 (YAML ヘッダ)**  
-  問題 qmd の YAML ヘッダには、アプリ側で以下のようなメタデータを自動付与／追記します。
-  将来的な検索や分類に利用できるようにする想定です（検索 UI は今後実装予定）。
+	問題 qmd の YAML ヘッダに以下のようなメタデータを記述しておき、
+	将来的な検索や分類に利用できるようにします（アプリ内の検索 UI は今後実装予定）。
 	```yaml
----
-  title: "osaka-2024-math-q4"
-  problem_id: "osaka-2024-math-q4"
-  university: "大阪大学"        # アップロード画面で入力（任意）
-  exam_year: "2024"             # アップロード画面で入力（任意）
-  fields: ["積分法", "数列"]   # OpenAI による自動分類
-  format:
-    html:
-      math: mathjax
----
+	---
+	title: "osaka-2024-math-q4"
+	problem_id: "osaka-2024-math-q4"
+	university: "大阪大学"
+	exam_year: 2024
+	exam_type: "前期"
+	subject: "数学"
+	field: "積分法"
+	section: "第4問"
+	 tags: ["置換積分", "最大値最小値", "三角関数"]
+	 format:
+		 html:
+			 math: mathjax
+	 ---
 
 ---
 
@@ -138,15 +129,20 @@ Python パッケージ（`requirements.txt`）:
 
 OS / ツール系パッケージ（Ubuntu 想定）:
 
-- Quarto 本体（qmd → HTML 変換に利用）
+- Quarto 本体
 	- 例:
 		```bash
 		wget https://quarto.org/download/latest/quarto-linux-amd64.deb -O /tmp/quarto.deb
 		sudo dpkg -i /tmp/quarto.deb || sudo apt-get -f install -y
 		```
+- LaTeX 環境（Quarto で PDF 出力する場合）
+	- 例:
+		```bash
+		sudo apt-get update
+		sudo apt-get install -y texlive-latex-extra
+		```
 
-この構成では、LaTeX やサーバーサイドPDF生成ツールは不要で、
-コンテナを比較的軽量に保ちつつ、ブラウザ側で印刷・PDF保存が可能です。
+将来の軽量化（HTML までで完結させるなど）により、LaTeX 依存を削減する可能性があります。
 
 ---
 
@@ -195,3 +191,4 @@ flask --app app run --host 0.0.0.0 --port 5000
 - 問題・解答・PDF の一覧画面と、個別ダウンロードリンク。
 - Quarto テンプレートのカスタマイズ（出力フォーマット切り替え、単列レイアウト対応など）。
 - ログイン機能やユーザーごとの問題管理。
+# mathematics-solver

@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>問題検索</title>
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --panel-bg: #ffffff;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+      --text-main: #111827;
+      --text-muted: #6b7280;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 2rem 1rem 3rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      margin: 0 0 0.5rem;
+    }
+
+    .text-muted {
+      margin: 0 0 1.25rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .card {
+      background: var(--panel-bg);
+      border-radius: 0.9rem;
+      padding: 1.25rem 1.5rem;
+      border: 1px solid var(--border);
+      margin-bottom: 1.5rem;
+    }
+
+    label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    select, input[type="number"] {
+      width: 100%;
+      font-size: 0.9rem;
+      padding: 0.35rem 0.5rem;
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .filters > div {
+      flex: 1 1 180px;
+    }
+
+    .btn {
+      appearance: none;
+      border: none;
+      border-radius: 999px;
+      padding: 0.5rem 1.3rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      background: var(--accent);
+      color: #fff;
+      margin-top: 0.3rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    th, td {
+      border-bottom: 1px solid var(--border);
+      padding: 0.35rem 0.4rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      background: #f9fafb;
+    }
+
+    tbody tr:hover {
+      background: #f3f4ff;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 0.1rem 0.45rem;
+      border-radius: 999px;
+      background: #eff6ff;
+      color: #1d4ed8;
+      font-size: 0.75rem;
+      margin-right: 0.2rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .link-small {
+      font-size: 0.8rem;
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>問題検索</h1>
+    <p class="text-muted">アーカイブ済みの問題を、大学・年度・分野で絞り込みます。</p>
+
+    <div class="card">
+      <form method="get" action="{{ url_for('search') }}">
+        <div class="filters">
+          <div>
+            <label>大学</label>
+            <select name="university">
+              <option value="">すべて</option>
+              {% for uni in universities %}
+                <option value="{{ uni }}" {% if uni == selected_university %}selected{% endif %}>{{ uni }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div>
+            <label>年度 (from)</label>
+            <input type="number" name="year_from" min="{{ year_min or '' }}" max="{{ year_max or '' }}" value="{{ year_from }}" placeholder="{{ year_min or '' }}">
+          </div>
+          <div>
+            <label>年度 (to)</label>
+            <input type="number" name="year_to" min="{{ year_min or '' }}" max="{{ year_max or '' }}" value="{{ year_to }}" placeholder="{{ year_max or '' }}">
+          </div>
+          <div>
+            <label>分野</label>
+            <select name="field">
+              <option value="">すべて</option>
+              {% for f in fields %}
+                <option value="{{ f }}" {% if f == selected_field %}selected{% endif %}>{{ f }}</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        <button class="btn" type="submit">検索</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 18%;">大学</th>
+            <th style="width: 8%;">年度</th>
+            <th style="width: 12%;">問題ID</th>
+            <th>タイトル</th>
+            <th style="width: 22%;">分野</th>
+            <th style="width: 12%;">状態</th>
+            <th style="width: 10%;"></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in results %}
+            <tr>
+              <td>{{ item.university }}</td>
+              <td>{% if item.exam_year %}{{ item.exam_year }}{% endif %}</td>
+              <td>{{ item.problem_id }}</td>
+              <td>{{ item.title }}</td>
+              <td>
+                {% for f in item.fields %}
+                  <span class="pill">{{ f }}</span>
+                {% endfor %}
+              </td>
+              <td>
+                {% if item.has_solution %}
+                  解答あり
+                {% else %}
+                  解答なし
+                {% endif %}
+              </td>
+              <td>
+                {% if item.has_solution %}
+                  <a class="link-small" href="{{ url_for('open_problem_with_solution', problem_id=item.problem_id) }}">解答を見る</a>
+                {% else %}
+                  <a class="link-small" href="{{ url_for('open_problem', problem_id=item.problem_id) }}">問題を開く</a>
+                {% endif %}
+              </td>
+            </tr>
+          {% else %}
+            <tr>
+              <td colspan="6">該当する問題がありません。</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

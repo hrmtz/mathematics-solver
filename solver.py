@@ -94,6 +94,18 @@ def build_handout_qmd(problem_qmd_path: Path, solution_qmd_path: Path, problem_i
 
     body = "\n".join(body_lines).strip()
 
+    # ハンドアウトでは元PDFリンクやスキャン画像は不要なので削除する
+    filtered_lines = []
+    for line in body.splitlines():
+        stripped = line.strip()
+        # 末尾の区切り用の水平線（---）も削除しておく
+        if stripped == "---":
+            continue
+        if stripped.startswith("元問題 PDF:") or stripped.startswith("元問題スキャン:"):
+            continue
+        filtered_lines.append(line)
+    body = "\n".join(filtered_lines).strip()
+
     parts = [
         HANDOUT_YAML_HEADER.strip(),
         "",

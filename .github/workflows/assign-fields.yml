@@ -1,0 +1,25 @@
+name: Assign math fields
+
+on:
+  workflow_dispatch:  # 手動実行
+
+jobs:
+  assign-fields:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Assign fields
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python assign_fields.py
