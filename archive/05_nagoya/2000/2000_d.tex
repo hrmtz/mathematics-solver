@@ -1,0 +1,28 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　あるトーナメント形式（注）の競技大会に，$2^n$人の選手が参加し，
+そのうち$2^m$人は強い選手であり，残りは弱い選手であるとする．
+ただし，$n$，$m$は自然数であり$n>m$とする．
+強い選手同士は$(n-m)$回戦が終わるまでは対戦することがないように，
+組み合わせが決められているものとする．
+また，強い選手が弱い選手に勝つ確率が$x$ $\displaystyle\left(>\frac{1}{2}\right)$であるとし，
+強い選手同士および弱い選手同士はいずれも勝つ確率が$\displaystyle\frac{1}{2}$であるとする．
+つぎの問に答えよ．
+\begin{description}
+\item[(1)]$n=3$，$m=1$として，ある特定の強い選手が優勝する確率を求めよ．
+\item[(2)]ある特定の強い選手が1回戦から$i$回戦まで連続して勝つ確率を$p_i$とする．
+\begin{description}
+\item[(a)]$n=3$，$m=2$のとき，$p_3$を$p_2$と$x$を用いて表せ．
+\item[(b)]任意の$n$，$m$に対して，$i=n-m$および$i=n$のそれぞれの場合について，
+$p_i$を$p_{i-1}$と$x$を用いて表せ．
+\end{description}
+\end{description}
+　（注）トーナメント形式：$2^n$人を2人ずつの$2^{n-1}$組に分けて1回戦を行い，敗者を除外して，
+その後同様に2回戦，3回戦と対戦を進め，最後に残った2者で優勝を決定する形式．
+\end{flushleft}
+\end{document}

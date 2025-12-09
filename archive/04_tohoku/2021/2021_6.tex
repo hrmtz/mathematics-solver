@@ -1,0 +1,23 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 6}
+　以下の問いに答えよ。
+\begin{description}
+\item[(1)]正の実数$a$と正の整数$n$に対して次の等式が成り立つことを示せ。
+ただし，$e$は自然対数の底とする。
+\[ e^a=1+a+\frac{a^2}{2 \, !}+\cdots+\frac{a^n}{n \, !}+
+\int_0^a \frac{ { (a-x) }^n }{n \, !} e^x dx \]
+\item[(2)]正の実数$a$と正の整数$n$に対して次の不等式を示せ。
+\[ \frac{a^{n+1}}{(n+1) \, !} \leqq \int_0^a \frac{ { (a-x) }^n }{n \, !} e^x dx \leqq
+\frac{e^a a^{n+1}}{(n+1) \, !} \]
+\item[(3)]不等式
+\[ \left| e-\left( 1+1+\frac{1}{2 \, !}+\cdots+\frac{1}{n \, !} \right) \right| <10^{-3} \]
+を満たす最小の正の整数$n$を求めよ。
+必要ならば$2<e<3$であることは証明なしに用いてもよい。
+\end{description}
+\end{flushleft}
+\end{document}

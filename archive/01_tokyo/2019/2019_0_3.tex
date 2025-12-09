@@ -1,0 +1,28 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　正八角形の頂点を反時計回りにA，B，C，D，E，F，G，Hとする。
+また，投げたとき表裏の出る確率がそれぞれ$\displaystyle\frac{1}{2}$のコインがある。\\
+　点Pが最初に点Aにある。次の操作を10回繰り返す。
+\begin{description}
+\item[操作：]コインを投げ，表が出れば点Pを反時計回りに隣接する頂点に移動させ，
+裏が出れば点Pを時計回りに隣接する頂点に移動させる。
+\end{description}
+例えば，点Pが点Hにある状態で，
+投げたコインの表が出れば点Aに移動させ，裏が出れば点Gに移動させる。\\
+　以下の事象を考える。
+\begin{description}
+\item[事象S：]操作を10回行った後に点Pが点Aにある。
+\item[事象T：]1回目から10回目の操作によって，
+点Pは少なくとも1回，点Fに移動する。
+\end{description}
+\begin{description}
+\item[(1)]事象Sが起こる確率を求めよ。
+\item[(2)]事象Sと事象Tがともに起こる確率を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

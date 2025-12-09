@@ -1,0 +1,26 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　投げたとき表と裏の出る確率がそれぞれ$\displaystyle\frac{1}{2}$のコインを1枚用意し，
+次のように左から順に文字を書く。\\
+　コインを投げ，表が出たときは文字列$A \, A$を書き，
+裏が出たときは文字$B$を書く。
+さらに繰り返しコインを投げ，同じ規則に従って，$A \, A$，$B$を
+すでにある文字列の右側につなげて書いていく。\\
+　たとえば，コインを5回投げ，その結果が順に表，裏，裏，表，裏であったとすると，
+得られる文字列は，
+\[ A \, A \, B \, B \, A \, A \, B \]
+となる。このとき，左から4番目の文字は$B$，5番目の文字は$A$である。
+\begin{description}
+\item[(1)]$n$を正の整数とする。$n$回コインを投げ，文字列を作るとき，
+文字列の左から$n$番目の文字が$A$となる確率を求めよ。
+\item[(2)]$n$を2以上の整数とする。
+$n$回コインを投げ，文字列を作るとき，文字列の左から$n-1$番目の文字が$A$で，
+かつ$n$番目の文字が$B$となる確率を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

@@ -1,0 +1,22 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　$n$を3以上の整数とする．$n$個の球$K_1, \, K_2, \, \cdots\cdots, \, K_n$と
+$n$個の空（から）の箱$H_1, \, H_2, \, \cdots\cdots, \, H_n$がある．
+以下のように，$K_1, \, K_2, \, \cdots\cdots, \, K_n$の順番に，球を箱に1つずつ入れていく．\\
+　まず，球$K_1$を箱$H_1, \, H_2, \, \cdots\cdots, \, H_n$のどれか1つに無作為に入れる．
+次に，球$K_2$を，箱$H_2$が空ならば箱$H_2$に入れ，
+箱$H_2$が空でなければ残りの$n-1$個の空の箱のどれか1つに無作為に入れる．\\
+　一般に，$i=2, \, 3, \, \cdots\cdots, \, n$について，
+球$K_i$を，箱$H_i$が空ならば箱$H_i$に入れ，
+箱$H_i$が空でなければ残りの$n-i+1$個の空の箱のどれか1つに無作為に入れる．
+\begin{description}
+\item[(1)]$K_n$が入（はい）る箱は$H_1$または$H_n$である．これを証明せよ．
+\item[(2)]$K_{n-1}$が$H_{n-1}$に入る確率を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

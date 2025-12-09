@@ -1,0 +1,23 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　投げたときに表と裏の出る確率がそれぞれ$\displaystyle\frac{1}{2}$のコインがある．
+A，B，Cの3文字をBACのように1個ずつすべて並べて得られる文字列に対して，コインを投げて次の操作を行う．
+\begin{description}
+\item[●]表が出たら文字列の左から1文字目と2文字目を入れかえる．
+\item[●]裏が出たら文字列の左から2文字目と3文字目を入れかえる．
+\end{description}
+例えば，文字列がBACであるときに，2回続けてコインを投げて表，裏の順に出たとすると，
+文字列はBACからABCを経てACBとなる．\\
+　最初の文字列はABCであるとする．
+コインを$n$回続けて投げたあとの文字列がABCである確率を$p_n$とし，BCAである確率を$q_n$とする．
+\begin{description}
+\item[(1)]$k$を正の整数とするとき，$p_{2k}-q_{2k}$を求めよ．
+\item[(2)]$n$を正の整数とするとき，$p_n$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

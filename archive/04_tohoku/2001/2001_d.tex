@@ -1,0 +1,24 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　$a$，$x$，$y$は実数で，$a<1$，$y<x$とする．行列
+\[ A=\begin{pmatrix} 0 & 1 \\ -a & a+1 \end{pmatrix}, \hspace{1zw}
+B=\begin{pmatrix} 1 & 1 \\ x & y \end{pmatrix}, \hspace{1zw}
+C=\begin{pmatrix} x & 0 \\ 0 & y \end{pmatrix} \]
+は$AB=BC$を満たすとする．
+\begin{description}
+\item[(1)]$B$を$a$を用いて表せ．
+\item[(2)]$B^{-1}$および$A^n$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$を$a$を用いて表せ．
+\item[(3)]数列$\{ p_n \}$を
+\[ p_0=b, \hspace{1zw} p_1=c, \hspace{1zw}
+\begin{pmatrix} p_n \\ p_{n+1} \end{pmatrix}=A\begin{pmatrix} p_{n-1} \\ p_n \end{pmatrix}
+\hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]
+によって定める．$\{ p_n \}$が収束するための$a$，$b$，$c$の条件を求めよ．
+また，そのときの極限$\displaystyle\lim_{n\to\infty}p_n$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

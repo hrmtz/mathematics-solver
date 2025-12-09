@@ -1,0 +1,20 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 1}
+　$n$を3以上の自然数とする。当たりくじ2本を含む$n$本のくじがある。
+くじを引いて，当たりなら持ち点に1を加算し，はずれなら持ち点は変わらないとする。
+最初の持ち点は0とし，くじを引いてはもどすという試行を$n$回繰り返す。\\
+　$k$を0以上の整数とする。$n$回の試行が終了した時点の持ち点が$k$となる確率を$p_n(k)$とする。
+\begin{description}
+\item[(1)]確率$p_n(k)$を求めよ。
+\item[(2)]$\displaystyle\lim_{n\to\infty}p_n(k)$を求めよ。ただし，$e$を自然対数の底とするとき，
+$\displaystyle\lim_{n\to\infty}{ \left( 1-\frac{2}{n} \right) }^n=e^{-2}$であることを用いてもよい。
+\item[(3)]$\displaystyle p(k)=\lim_{n\to\infty}p_n(k)$と定める。
+値$p(k)$が最大となるような$k$の値を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

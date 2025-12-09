@@ -1,0 +1,23 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　袋の中にいくつかの赤玉と白玉が入っている。
+すべての玉に対する赤玉の割合を$p$ $(0 \leqq p \leqq 1)$とする。
+袋から無作為に玉を一つ取り出して袋に戻す試行を行う。
+試行を$n$回行うとき，赤玉を$k$回以上取り出す確率を$f(k)$とおく。
+\begin{description}
+\item[(1)]$n\geqq2$に対して，$f(1)$と$f(2)$を求めよ。
+\item[(2)]$k=1, \, 2, \, \cdots\cdots, \, n$に対して，等式
+\[ f(k)=\frac{n \, !}{(k-1) \, ! (n-k) \, !}
+\int_0^px^{k-1}{ (1-x) }^{n-k}dx \]
+を示せ。
+\item[(3)]自然数$k$に対して，定積分
+\[ I=\int_0^\frac{1}{2}x^k{(1-x)}^kdx \]
+を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

@@ -1,0 +1,22 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb,pifont}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　表が出る確率が$p$，裏が出る確率が$1-p$であるような硬貨がある．ただし，$0<p<1$とする．
+この硬貨を投げて，次のルール(R)の下で，ブロック積みゲームを行う．\\
+$(R) \begin{cases} \text{\ding{"AC}} & \text{ブロックの高さは，最初は0とする．} \\
+\text{\ding{"AD}} & \text{硬貨を投げて表が出れば高さ1のブロックを1つ積み上げ，} \\
+\hspace{1zw} & \text{裏が出ればブロックをすべて取り除いて高さ0に戻す．} \end{cases}$\\
+　$n$を正の整数，$m$を$0 \leqq m \leqq n$をみたす整数とする．
+\begin{description}
+\item[(1)]$n$回硬貨を投げたとき，最後にブロックの高さが$m$となる確率$p_m$を求めよ．
+\item[(2)](1)で，最後にブロックの高さが$m$以下となる確率$q_m$を求めよ．
+\item[(3)]ルール(R)の下で，$n$回の硬貨投げを独立に2度行い，それぞれ最後のブロックの高さを考える．
+2度のうち，高い方のブロックの高さが$m$である確率$r_m$を求めよ．
+ただし，最後のブロックの高さが等しいときはその値を考えるものとする．
+\end{description}
+\end{flushleft}
+\end{document}

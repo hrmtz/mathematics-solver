@@ -1,0 +1,28 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 1}
+　$A$，$B$ 2つの町がある．
+毎年1月1日に，$A$町の前年の住民のうち4割が$B$町に，$B$町の前年の住民のうち2割が$A$町に，
+それぞれ引っ越す（住民の数は十分に多く，引っ越す住民の割合は正確に4割，2割と見なしてよい）．
+それ以外には住民の移動はなく，$A$町，$B$町両方をあわせた住民の数は不変である．
+次の各問に答えよ．
+\begin{description}
+\item[(1)]ある年の末に$A$町と$B$町それぞれに住んでいる住民の数を$a_0$，$b_0$とする．
+1年後に$A$町と$B$町それぞれに住んでいる住民の数$a_1$，$b_1$を表す式を
+\[ \begin{pmatrix} a_1 \\ b_1 \end{pmatrix}=M\begin{pmatrix} a_0 \\ b_0 \end{pmatrix} \]
+とおくとき，$2 \times 2$の行列$M$を具体的に示せ．
+\item[(2)]以下の式を満足する実数$\alpha$，$\beta$の値を求めよ．
+ただし$E$は$2 \times 2$の単位行列である．
+\[ M(M-\alpha E)=\beta(M-\alpha E) \]
+\item[(3)](2)で与えられた式は，$\alpha$と$\beta$を入れ換えても成り立つ．
+このことと(2)の結果を用いて$M^n$を求めよ．ただし$n$は正の整数とする．
+\item[(4)]$n$年後に$A$町と$B$町それぞれに住んでいる住民の数を$a_n$と$b_n$とで表す．
+このとき，つぎの極限を求めよ．
+\[ \lim_{n\to\infty}\frac{a_n}{b_n} \]
+\end{description}
+\end{flushleft}
+\end{document}

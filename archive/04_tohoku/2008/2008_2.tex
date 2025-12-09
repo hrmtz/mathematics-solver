@@ -1,0 +1,24 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 2}
+　$n$を2以上の自然数とする．
+平面上の$\triangle OA_1A_2$は$\angle OA_2A_1={90}^\circ$，$OA_1=1$，$\displaystyle A_1A_2=\frac{1}{\sqrt{n}}$をみたすとする．
+$A_2$から$OA_1$へ垂線をおろし，交点を$A_3$とする．
+$A_3$から$OA_2$へ垂線をおろし，交点を$A_4$とする．
+以下同様に，$k=4,5,\cdots$について，$A_k$から$OA_{k-1}$へ垂線をおろし，
+交点を$A_{k+1}$として，順番に$A_5,A_6,\cdots$を定める．
+$\overrightarrow{h_k}=\overrightarrow{A_kA_{k+1}}$とおくとき，以下の問いに答えよ．
+\begin{description}
+\item[(1)]$k=1,2,\cdots$のとき，ベクトル$\overrightarrow{h_k}$と$\overrightarrow{h_{k+1}}$の内積
+$\overrightarrow{h_k}\cdot\overrightarrow{h_{k+1}}$を$n$と$k$で表せ．
+\item[(2)]$\displaystyle S_n=\sum_{k=1}^n\overrightarrow{h_k}\cdot\overrightarrow{h_{k+1}}$とおくとき，
+極限値$\displaystyle\lim_{n\to\infty}S_n$を求めよ．
+ここで、自然対数の底$e$について，
+$\displaystyle e=\lim_{n\to\infty} { \left( 1+\frac{1}{n} \right) }^n$であることを用いてもよい．
+\end{description}
+\end{flushleft}
+\end{document}

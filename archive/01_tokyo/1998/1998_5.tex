@@ -1,0 +1,25 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　$\theta$は$0\leqq\theta<2\pi$を満たす実数とする．$xy$平面にベクトル
+\[ \vec{a}=(\cos\theta,\sin\theta), \hspace{1zw} \vec{b}=\left(\frac{\sqrt3}{2},\frac{1}{2}\right) \]
+をとり，点$P_n$，$Q_n$，$n=1,2,\cdots$を
+\[ \begin{cases}
+\overrightarrow{OP_1}=(1,0) \\
+\overrightarrow{OQ_n}=\overrightarrow{OP_n}-(\vec{a}\cdot\overrightarrow{OP_n})\vec{a} \\
+\overrightarrow{OP_{n+1}}=4\{ \overrightarrow{OQ_n}-(\vec{b}\cdot\overrightarrow{OQ_n})\vec{b} \} \\
+\end{cases} \]
+で定める．
+ただし，$O$は原点で，
+$\vec{a}\cdot\overrightarrow{OP_n}$および$\vec{b}\cdot\overrightarrow{OQ_n}$はベクトルの内積を表す．
+$\overrightarrow{OP_n}=(x_n,y_n)$とおく．
+数列$\{x_n\}$，$\{y_n\}$がともに収束する$\theta$の範囲を求めよ．
+さらに，このような$\theta$に対して，極限値
+\[ \lim_{n\to\infty}x_n, \hspace{1zw} \lim_{n\to\infty}y_n \]
+を求めよ．
+\end{flushleft}
+\end{document}

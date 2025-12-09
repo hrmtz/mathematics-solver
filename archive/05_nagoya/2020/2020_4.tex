@@ -1,0 +1,30 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　2名が先攻と後攻にわかれ，次のようなゲームを行う。
+\begin{description}
+\item[(i)]正方形の4つの頂点を反時計回りにA，B，C，Dとする。
+両者はコマを1つずつ持ち，ゲーム開始時には先攻の持ちゴマはA，後攻の持ちゴマはCに置いてあるとする。
+\item[(ii)]先攻から始めて，交互にサイコロを振る。
+ただしサイコロは1から6までの目が等確率で出るものとする。
+出た目を3で割った余りが0のときコマは動かさない。
+また余りが1のときは，自分のコマを反時計回りに隣の頂点に動かし，
+余りが2のときは，自分のコマを時計回りに隣の頂点に動かす。
+もし移動した先に相手のコマがあれば，その時点でゲームは終了とし，サイコロを振った者の勝ちとする。
+\end{description}
+ちょうど$n$回サイコロが振られたときに勝敗が決まる確率を$p_n$とする。このとき，以下の問に答えよ。
+\begin{description}
+\item[(1)]$p_2, \, p_3$を求めよ。
+\item[(2)]$p_n$を求めよ。
+\item[(3)]このゲームは後攻にとって有利であること，すなわち2以上の任意の整数$N$に対して
+\[ \sum_{m=1}^{\left[ \frac{N+1}{2} \right]} p_{2m-1} <
+\sum_{m=1}^{\left[ \frac{N}{2} \right]} p_{2m} \]
+が成り立つことを示せ。
+ただし正の実数$a$に対し$[a]$は，その整数部分$(k\leqq a <k+1\text{となる整数}k)$を表す。
+\end{description}
+\end{flushleft}
+\end{document}

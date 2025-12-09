@@ -1,0 +1,25 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　白玉2個が横に並んでいる。投げたとき表と裏のでる確率がそれぞれ$\displaystyle\frac{1}{2}$のコインを
+用いて，次の手順(＊)をくり返し，白玉または黒玉を横一列に並べていく。
+\begin{description}
+\item[手順(＊)]コインを投げ，表がでたら白玉，裏がでたら黒玉を，
+それまでに並べられている一番右にある玉の右隣におく。
+そして，新しくおいた玉の色がその1つ左の玉の色と異なり，
+かつ2つ左の玉の色と一致するときには，
+新しくおいた玉の1つ左の玉を新しくおいた玉と同じ色の玉にとりかえる。
+\end{description}
+例えば，手順(＊)を2回行いコインが裏，表の順にでた場合には，白玉が4つ並ぶ。
+正の整数$n$に対して，手順(＊)を$n$回行った時点での$(n+2)$個の玉の並び方を考える。
+\begin{description}
+\item[(1)]$n=3$のとき，右から2番目の玉が白玉である確率を求めよ。
+\item[(2)]$n$を正の整数とする。右から2番目の玉が白玉である確率を求めよ。
+\item[(3)]$n$を正の整数とする。右から1番目と2番目の玉がともに白玉である確率を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

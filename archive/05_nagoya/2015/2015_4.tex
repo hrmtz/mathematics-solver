@@ -1,0 +1,27 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　数直線上にある$1, \, 2, \, 3, \, 4, \, 5$の5つの点と1つの石を考える。石がいずれかの点にあるとき，
+\begin{description}
+\item[]石が点1にあるならば，確率1で点2に移動する
+\item[]石が点$k$ $(k=2, \, 3, \, 4)$にあるならば，
+確率$\displaystyle\frac{1}{2}$で点$k-1$に，確率$\displaystyle\frac{1}{2}$で点$k+1$に移動する
+\item[]石が点5にあるならば，確率1で点4に移動する
+\end{description}
+という試行を行う。
+石が点1にある状態から始め，この試行を繰り返す。
+また，石が移動した先の点に印をつけていく（点1には初めから印がついているものとする）。
+このとき，次の問に答えよ。
+\begin{description}
+\item[(1)]試行を6回繰り返した後に，
+石が点$k$ $(k=1, \, 2, \, 3, \, 4, \, 5)$にある確率をそれぞれ求めよ。
+\item[(2)]試行を6回繰り返した後に，5つの点すべてに印がついている確率を求めよ。
+\item[(3)]試行を$n$回$(n\geqq1)$繰り返した後に，
+ちょうど3つの点に印がついている確率を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

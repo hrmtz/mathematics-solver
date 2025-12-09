@@ -1,0 +1,21 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　袋の中に$N$個の白玉と2個の赤玉がある．
+「袋の中の$(N+2)$個の玉から無作為に1個を取り出し，つぎに(外部にある)白玉を1個袋に入れる」という試行をくり返す．
+\begin{description}
+\item[●]$n$回目の試行で赤玉をとり出す確率を$P_n$とする．
+\item[●]$n$回目の試行を行なう前，袋の中に赤玉が1個あり，かつ$n$回目の試行で赤玉をとり出す確率を${P'}_n$とする．
+\item[●]$n$回目の試行を行なう前，袋の中に赤玉が2個あり，かつ$n$回目の試行で赤玉をとり出す確率を${P''}_n$とする．
+\end{description}
+　従って$P_n={P'}_n+{P''}_n$が成立している．
+\begin{description}
+\item[(1)]${P'}_{n+1}$，${P''}_{n+1}$を${P'}_n$，${P''}_n$で表す式(漸化式)を求めよ．
+\item[(2)]$P_{n+1}$を$P_n$で表す式を求め，$P_n$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

@@ -1,0 +1,67 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfm]{graphicx}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　座標平面上にある2つの四角形$ABCD$と$A'B'C'D'$が相似であるとは，
+対応する4つの頂点における内角がそれぞれ等しく，
+かつ対応する辺の長さの比がすべて等しいこととする．
+このとき
+\[ \square ABCD \text{∽} \square A'B'C'D' \]
+と書く．
+ただし，四角形$ABCD$と書くときには，
+4つの頂点$A$，$B$，$C$，$D$は図のようにつねに時計と反対回りに並んでいるものとし，
+また四角形は周および内部を込めて考えるものとする．\\
+　四角形$A_0B_0C_0D_0$が与えられたとき，
+この四角形から出発して，
+任意の整数$n$に対して四角形$A_nB_nC_nD_n$を以下のように帰納的に定める．
+\begin{description}
+\item[(I)]$n=0$のときは，
+与えられた四角形$A_0B_0C_0D_0$とする．
+\item[(II)]$n>0$のときは，
+四角形$A_{n-1}B_{n-1}C_{n-1}D_{n-1}$まで定まったとして，
+四角形$A_nB_nC_nD_n$を
+\[ A_n=D_{n-1}, \hspace{1zw} B_n=C_{n-1} \hspace{1zw} \text{かつ} \hspace{1zw}
+\square A_nB_nC_nD_n \text{∽} \square A_{n-1}B_{n-1}C_{n-1}D_{n-1} \]
+となる四角形として定める．
+\item[(III)]$n<0$のときは，
+$0,-1,\cdots$と負の向きに進んで，
+四角形$A_{n+1}B_{n+1}C_{n+1}D_{n+1}$まで定まったとして，
+四角形$A_nB_nC_nD_n$を
+\[ D_n=A_{n+1}, \hspace{1zw} C_n=B_{n+1} \hspace{1zw} \text{かつ} \hspace{1zw}
+\square A_nB_nC_nD_n \text{∽} \square A_{n+1}B_{n+1}C_{n+1}D_{n+1} \]
+となる四角形として定める．
+\end{description}
+　こうして定まった四角形$A_nB_nC_nD_n$を$K_n$と書くことにする．\\
+　さて，座標平面上の3点
+\[ A_0(2,1), \hspace{1zw} B_0(8,4), \hspace{1zw} P(4,12) \]
+を考える．
+原点を$O$とし，線分$OP$上に原点以外の1点$C_0$をとる．
+点$A_0$から線分$B_0C_0$に平行にひいた直線と，線分$OP$との交点を$D_0$とする．
+このようにして定まる四角形$A_0B_0C_0D_0$から出発して，上記のようにして得られる四角形の系列
+\[ \cdots, \hspace{1zw} K_{-2}, \hspace{1zw} K_{-1}, \hspace{1zw} K_0, \hspace{1zw}
+K_1, \hspace{1zw} K_2, \hspace{1zw} \cdots \]
+について考える．
+\begin{description}
+\item[(1)]$\angle B_0OP$を求めよ．
+\item[(2)]線分$OP$上のある点$C_0$をえらび，
+それにより定まる四角形$A_0B_0C_0D_0$から出発して，
+四角形の系列$\cdots,K_{-2},K_{-1},K_0,K_1,K_2,\cdots$を作ったところ，
+ある0でない整数$n$が存在して，$K_n=K_0$となったという．
+このとき，点$C_0$の座標を求めよ．
+また，$K_n=K_0$となる整数$n$の値をすべて求めよ．
+\item[(3)]線分$OP$上のある点$C_0$をえらび，
+それにより定まる四角形$A_0B_0C_0D_0$から出発して，
+四角形の系列$\cdots,K_{-2},K_{-1},K_0,K_1,K_2,\cdots$を作ったところ，
+これら四角形が座標平面から原点を除いた部分を，
+辺と頂点以外には互いに重なることなく，すき間なくおおったという．
+このような性質をもつ点$C_0$をすべて求め，それらの座標を記せ．
+またそれらの場合のおのおのについて，
+点$(100,50)$が$K_n$に含まれるような整数$n$の値をすべて求めよ．
+\end{description}
+\end{flushleft}
+\includegraphics[width=5cm]{fig_1999_9.jpg}
+\end{document}

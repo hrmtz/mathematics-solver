@@ -1,0 +1,35 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　正の整数$n$に対して$1, \, 2, \, \cdots, \, n$を一列に並べた順列を考える。
+そのような順列は$n \, !$個ある。
+このうち1つを等確率で選んだものを$(a_1, \, a_2, \, \cdots, \, a_n)$とする。
+この$(a_1, \, a_2, \, \cdots, \, a_n)$に対し，
+各添字$i=1, \, 2, \, \cdots, \, n$について，$a_i$の値が$j$であるとき，
+その$j$を添字にもつ$a_j$の値が$k$であることを$a_i=j \to a_j=k$と書くことにする。
+ここで$a_i=j \to a_j=k \to a_k=l \to \cdots$のようにたどり，それを続けていく。
+例えば$(a_1, \, a_2, \, a_3, \, a_4, \, a_5, \, a_6, \, a_7)=
+(2, \, 5, \, 6, \, 1, \, 4, \, 3, \, 7)$のとき，
+\begin{description}
+\item[(i)]$a_1=2 \to a_2=5 \to a_5=4 \to a_4=1 \to a_1=2$
+\item[(ii)]$a_3=6 \to a_6=3 \to a_3=6$
+\item[(iii)]$a_7=7 \to a_7=7$
+\end{description}
+となり，どの$i$から始めても列は必ず一巡する。この一巡するそれぞれの列をサイクル，
+列に現れる相異なる整数の個数をサイクルの長さと呼ぶ。
+上の(i)，(ii)，(iii)は長さがそれぞれ4，2，1のサイクルになっている。
+\begin{description}
+\item[(1)]$n=3$とする。選んだ順列が長さ1のサイクルを含む確率を求めよ。
+\item[(2)]$n=4$とする。長さ4のサイクルを含む順列をすべて挙げよ。
+\item[(3)]$n$以下の正の整数$k$に対して
+\[ \sum_{j=k}^n\frac{1}{j}>\log(n+1)-\log k \]
+を示せ。
+\item[(4)]$n$を奇数とする。選んだ順列が長さ$\displaystyle\frac{n+1}{2}$以上のサイクルを
+含む確率$p$は$p>\log2$をみたすことを示せ。
+\end{description}
+\end{flushleft}
+\end{document}

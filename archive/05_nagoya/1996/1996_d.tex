@@ -1,0 +1,23 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　最初，点$Q$は$(x, \, y)$座標の原点にある．
+2枚の硬貨$A$，$B$を同時に投げて，出た結果によって点$Q$を移動させていく．
+硬貨$A$が表の場合に点$Q$を$x$座標の正の方向に1移動し，裏の場合に負の方向に1移動する．
+同様に，硬貨$B$が表の場合に$y$座標の正の方向に1移動し，裏の場合に負の方向に1移動するものとする．
+ただし硬貨$A$，$B$を投げたとき，表の出る事象は互いに独立であり，
+その確率はそれぞれ$\displaystyle\frac{1}{2}$である．次の問に答えよ．
+\begin{description}
+\item[(1)]2枚の硬貨を$n$回投げたのちに，原点から点$Q$までの距離が$\sqrt2$以内となる確率を求めよ．
+\item[(2)]2枚の硬貨を$n$回投げたのちに，点$Q$が原点に存在する確率を$p_n$，
+原点を中心とする半径$\sqrt2$の円周上にある確率を$q_n$として，次式を満足する行列$T$を求めよ．
+\[ \begin{pmatrix} p_{n+1} \\ q_{n+1} \end{pmatrix}=T\begin{pmatrix} p_n \\ q_n \end{pmatrix} \]
+\item[(3)]2枚の硬貨を$n$回投げて点$Q$を移動させる．
+点$Q$の$n$回にわたる移動において，原点から点$Q$までの距離が一度も$\sqrt2$より大きくならない確率を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

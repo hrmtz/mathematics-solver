@@ -1,0 +1,26 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3 (c)}
+　次のBASICによるプログラムを実行するとき，以下の問に答えよ．\\
+　　10　INPUT　N\\
+　　20　S=0\\
+　　30　M=2＊INT(N/2)+1\\
+　　40　FOR　K=1　TO　M　STEP　2\\
+　　50　X=N-K＊INT(N/K)\\
+　　60　IF　X＞0　THEN　GOTO　80\\
+　　70　S=S+K\\
+　　80　NEXT　K\\
+　　90　PRINT　S\\
+　　100　END
+\begin{description}
+\item[(1)]入力が12のとき出力はいくらか．
+\item[(2)]出力が1となるような自然数の入力はどのような数か．
+\item[(3)]範囲$2 \leqq N \leqq 50$の自然数$N$を入力するとき，
+出力が1より大きな奇数となる$N$をすべて求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

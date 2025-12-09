@@ -1,0 +1,18 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 6}
+　数0または1を$n$個並べて得られる数列$A=\{a_1,a_2,\cdots\cdots,a_n\}$ $a_i=0\text{または}1$を考える．
+これに対して，新しい数列$A'=\{{a'}_1,{a'}_2,\cdots\cdots,{a'}_n\}$ ${a'}_i=0\text{または}1$を次のように定める：\\
+　$n$角形の頂点に，$a_1,a_2,\cdots\cdots,a_n$をこの順に並べたとき．
+\begin{description}
+\item[]$a_i$の両隣が等しければ(すなわち$a_{i-1}=a_{i+1}$ならば)，${a'}_i=0$
+\item[]$a_i$の両隣が異なれば(すなわち$a_{i-1} \neq a_{i+1}$ならば)，${a'}_i=1$
+\end{description}
+と定める($i=1,2,\cdots\cdots,n$，ただし$a_0=a_n$，$a_{n+1}=a_1$と見なす)．\\
+　このとき，$n\geqq3$として，$A=A'$(すなわち$a_i={a'}_i$，$i=1,2,\cdots\cdots,n$)となるような数列$A$をすべて求めよ．
+\end{flushleft}
+\end{document}

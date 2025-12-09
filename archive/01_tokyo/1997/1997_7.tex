@@ -1,0 +1,30 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfm]{graphicx}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 1}
+　右の図のように，1辺の長さが1の正三角形で，平面を分割する．\\
+　これらの1辺の長さが1の正三角形1つ1つを，
+単位正三角形とよぶことにする．
+はじめに1個以上有限個の単位正三角形が塗りつぶされているとし，
+以下の操作を繰り返すことにより，
+次々に単位正三角形を塗りつぶしていく．\\
+　『1回の操作ごとに，既に塗りつぶされている単位正三角形と
+少なくとも1つの辺を共有する単位正三角形を，すべて塗りつぶす』\\
+　次の問いに答えよ．
+\begin{description}
+\item[(1)]はじめに塗りつぶされている単位正三角形が1つだけのとき，
+$n$回目の操作が終わったときに塗りつぶされている単位正三角形の個数$a_n$を求めよ．
+\item[(2)]はじめに2個以上有限個の単位正三角形が塗りつぶされているとき，
+$n$回目の操作が終わったときに塗りつぶされている単位正三角形の個数を$b_n$とおくと，極限
+\[ \lim_{n\to\infty}\frac{a_n}{b_n} \]
+は，はじめの塗りつぶされ方がどのようであっても存在するか．
+極限が存在する場合については，その極限値を求めよ．
+存在しない場合があるならば，その例をあげよ．
+\end{description}
+\end{flushleft}
+\includegraphics[width=5cm]{fig_1997_7.jpg}
+\end{document}

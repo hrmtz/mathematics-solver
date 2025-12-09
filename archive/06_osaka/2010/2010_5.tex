@@ -1,0 +1,29 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　$n$を0以上の整数とする．
+立方体$ABCD-EFGH$の頂点を，以下のように移動する2つの動点$P$，$Q$を考える．
+時刻0には$P$は頂点$A$に位置し，$Q$は頂点$C$に位置している．
+時刻$n$において，$P$と$Q$が異なる頂点に位置していれば，
+時刻$n+1$には，$P$は時刻$n$に位置していた頂点から，それに隣接する3頂点のいずれかに等しい確率で移り，
+$Q$も時刻$n$に位置していた頂点から，それに隣接する3頂点のいずれかに等しい確率で移る．
+一方，時刻$n$において，$P$と$Q$が同じ頂点に位置していれば，
+時刻$n+1$には$P$も$Q$も時刻$n$の位置からは移動しない．
+\begin{description}
+\item[(1)]時刻1において，$P$と$Q$が異なる頂点に位置するとき，$P$と$Q$はどの頂点にあるか．
+可能な組み合わせをすべて挙げよ．
+\item[(2)]時刻$n$において，$P$と$Q$が異なる頂点に位置する確率$r_n$を求めよ．
+\item[(3)]時刻$n$において，
+$P$と$Q$がともに上面$ABCD$の異なる頂点に位置するか，
+またはともに下面$EFGH$の異なる頂点に位置するかのいずれかである確率を$p_n$とする．
+また，時刻$n$において，$P$と$Q$のいずれか一方が上面$ABCD$，
+他方が下面$EFGH$にある確率を$q_n$とする．
+$p_{n+1}$を，$p_n$と$q_n$を用いて表せ．
+\item[(4)]$\displaystyle\lim_{n\to\infty}\frac{q_n}{p_n}$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

@@ -1,0 +1,31 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 2}
+　$a$，$b$は実数（ただし，$b\neq0$）で，
+$A=\begin{pmatrix} a & \sqrt3 b \\ \sqrt3 b & a+2b \end{pmatrix}$とする．
+また，数列$\{ \alpha_n \}$，$\{ \beta_n \}$ $(n=1, \, 2, \, 3, \, \cdots)$を次式により定める．
+\[ \begin{pmatrix} \alpha_1 \\ \beta_1 \end{pmatrix}=
+\begin{pmatrix} \alpha \\ \beta \end{pmatrix}, \hspace{1zw}
+\begin{pmatrix} \alpha_{n+1} \\ \beta_{n+1} \end{pmatrix}=
+A\begin{pmatrix} \alpha_n \\ \beta_n \end{pmatrix} \]
+以下の問いに答えよ．
+\begin{description}
+\item[(1)]次の関係式を満たす実数$p$，$q$，$v$，$w$を求めよ．
+\[ A\begin{pmatrix} 1 \\ v \end{pmatrix}=p\begin{pmatrix} 1 \\ v \end{pmatrix}, \hspace{1zw}
+A\begin{pmatrix} 1 \\ w \end{pmatrix}=q\begin{pmatrix} 1 \\ w \end{pmatrix} \]
+ただし，$p \neq q$，$v<w$とする．
+\item[(2)](1)で求めた$v$，$w$から，行列$P$を次のように定める．
+\[ P=\begin{pmatrix} 1 & 1 \\ v & w \end{pmatrix} \]
+このとき，行列$B=P^{-1}AP$を求めよ．
+\item[(3)](2)で定めた$P$を用いて，数列$\{ s_n \}$，$\{ t_n \}$ $(n=1, \, 2, \, 3, \, \cdots)$を
+次式より定める．
+\[ \begin{pmatrix} s_n \\ t_n \end{pmatrix}=P^{-1}\begin{pmatrix} \alpha_n \\ \beta_n \end{pmatrix} \]
+$\alpha\neq0$，$\beta\neq0$のとき，無限級数$\displaystyle\sum_{n=1}^\infty s_n$， 
+$\displaystyle\sum_{n=1}^\infty t_n$がともに収束するための$a$，$b$が満たすべき条件を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

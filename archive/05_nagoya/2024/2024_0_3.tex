@@ -1,0 +1,24 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　$n$を自然数とする。表と裏が出る確率がそれぞれ$\displaystyle\frac{1}{2}$の
+コインを$n$回投げ，以下のように得点を決める。
+\begin{description}
+\item[●]最初に数直線上の原点に石を置き，コインを投げて表なら2，裏なら3だけ
+数直線上を正方向に石を移動させる。コインを$k$回投げた後の石の位置を$a_k$とする。
+\item[●]$a_n \neq 2n+2$の場合は得点を0，
+$a_n=2n+2$の場合は得点を$a_1+a_2+\cdots\cdots+a_n$とする。
+\end{description}
+たとえば，$n=3$のとき，投げたコインが3回とも表のときは得点は0，
+投げたコインが順に裏，裏，表のときは得点は$3+6+8=17$である。
+\begin{description}
+\item[(1)]$n$回のうち裏の出る回数を$r$とするとき，$a_n$を求めよ。
+\item[(2)]$n=4$とする。得点が0でない確率および25である確率をそれぞれ求めよ。
+\item[(3)]$n=9$とする。得点が100である確率および奇数である確率をそれぞれ求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

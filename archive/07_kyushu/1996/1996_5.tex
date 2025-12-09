@@ -1,0 +1,22 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　0と1を有限個並べたものを語ということにする．
+語の例としては0，010，00101，100110などがある．
+いま2つの語$A=1$，$B=10$をもとにして
+$C_1=A$，$C_2=B$，$C_n=C_{n-2}C_{n-1}C_{n-2}$，$(n\geqq3)$のように定める．
+例えば，$C_3=1101$である．
+次の問いに答えよ．
+\begin{description}
+\item[(1)]$n\geqq3$のとき，語$C_n$に対して，最初，または最後の数字を1個か2個取りさると，
+残りは同じ語が循環して現れている．
+このことを数学的帰納法により示せ．
+\item[(2)]語$C_n$に現れる0の個数を$a_n$とし，1の個数を$b_n$とする．
+$\displaystyle\lim_{n\to\infty}\frac{a_n}{b_n}$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

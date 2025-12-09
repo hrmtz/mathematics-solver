@@ -1,0 +1,23 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　正六面体の各面に1つずつ，サイコロのように，1から6までの整数がもれなく書かれていて，
+向かい合う面の数の和は7である．
+このような正六面体が底面の数字が1であるように机の上におかれている．
+この状態から始めて，次の試行を繰り返し行う．
+「現在の底面と隣り合う4面のうちの1つを新しい底面にする．」
+ただし，これらの4面の数字が$a_1$，$a_2$，$a_3$，$a_4$のとき，
+それぞれの面が新しい底面となる確率の比は$a_1:a_2:a_3:a_4$とする．
+この試行を$n$回繰り返した後，底面の数字が$m$である確率を$p_n(m)$ $(n\geqq1)$で表す．
+$q_n=p_n(1)+p_n(6)$ $(n=1, \, 2, \, 3, \, \cdots)$とおく．
+\begin{description}
+\item[(1)]$q_1$，$q_2$を求めよ．
+\item[(2)]$q_n$を$q_{n-1}$で表し，$q_n$を求めよ．
+\item[(3)]$p_n(1)$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

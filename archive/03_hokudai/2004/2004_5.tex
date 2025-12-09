@@ -1,0 +1,24 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　ある人がサイコロを振る試行によって，部屋$A$，$B$を移動する．
+サイコロの目の数が1，3のときに限り部屋を移る．
+また各試行の結果，部屋$A$に居る場合はその人の持ち点に1点を加え，
+部屋$B$に居る場合は1点を減らす．
+持ち点は負になることもあるとする．
+第$n$試行の結果，部屋$A$，$B$に居る確率をそれぞれ$P_A(n)$，$P_B(n)$と表す．
+最初にその人は部屋$A$に居るものとし(つまり，$P_A(0)=1$，$P_B(0)=0$とする)，
+持ち点は1とする．
+\begin{description}
+\item[(1)]$P_A(1)$，$P_A(2)$，$P_A(3)$および$P_B(1)$，$P_B(2)$，$P_B(3)$を求めよ．
+また，第3試行の結果，その人が得る持ち点の期待値$E(3)$を求めよ．
+\item[(2)]$P_A(n+1)$，$P_B(n+1)$を$P_A(n)$，$P_B(n)$を用いて表せ．
+\item[(3)]$P_A(n)$，$P_B(n)$を$n$を用いて表せ．
+\item[(4)]第$n$試行の結果，その人が得る持ち点の期待値$E(n)$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

@@ -1,0 +1,25 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　2つの箱$L$と$R$，ボール30個，コイン投げで表と裏が等確率$\displaystyle\frac{1}{2}$で出るコイン1枚を用意する．
+$x$を0以上30以下の整数とする．
+$L$に$x$個，$R$に$30-x$個のボールを入れ，次の操作(＃)を繰り返す．
+\begin{description}
+\item[(＃)]箱$L$に入っているボールの個数を$z$とする．
+コインを投げ，表が出れば箱$R$から箱$L$に，裏が出れば箱$L$から箱$R$に，$K(z)$個のボールを移す．
+ただし，$0 \leqq z \leqq 15$のとき$K(z)=z$，
+$16 \leqq z \leqq 30$のとき$K(z)=30-z$とする．
+\end{description}
+　$m$回の操作の後，箱$L$のボールの個数が30である確率を$P_m(x)$とする．
+たとえば$\displaystyle P_1(15)=P_2(15)=\frac{1}{2}$となる．
+以下の問(1)，(2)に答えよ．
+\begin{description}
+\item[(1)]$m\geqq2$のとき，$x$に対してうまく$y$を選び，$P_m(x)$を$P_{m-1}(y)$で表せ．
+\item[(2)]$n$を自然数とするとき，$P_{2n}(10)$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

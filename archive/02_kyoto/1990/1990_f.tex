@@ -1,0 +1,22 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 6}
+　$n$本のくじの中に1本だけ当たりくじがある．
+このくじを無作為に1本ひき，ひいたくじをもとに戻すという試行を$l$回くり返す．
+$l$回のうち当たった回数を$X$とする．
+確率変数$X_i$ $(1 \leqq i \leqq l)$を次により定める．
+\begin{description}
+\item[]$X_i=\begin{cases} 1 & i\text{回目に当たりくじがでたとき，} \\
+0 & i\text{回目に当たりくじがでないとき．} \end{cases}$
+\end{description}
+\begin{description}
+\item[(1)]確率変数$X$を$X_i$ $(1 \leqq i \leqq l)$で表わせ．
+\item[(2)]$X^2$の期待値$E(X^2)$を求めよ．
+\item[(3)]$E(X^2)>2$となる最小の$l$は何か．
+\end{description}
+\end{flushleft}
+\end{document}

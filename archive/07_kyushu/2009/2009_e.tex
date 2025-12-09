@@ -1,0 +1,28 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　$f(x)$を$x\geqq0$で定義された連続な関数とし，$a$，$b$を正の定数とする．
+このとき，$f(x)$が$x\geqq0$で
+\[ 0 \leqq f(x) \leqq a+b\int_0^x f(t) dt \]
+の関係を満たすものとする．以下の問いに答えよ．
+\begin{description}
+\item[(1)]$\displaystyle g(x)=\int_0^x f(t) dt$とするとき，
+\[ \frac{d}{dx}\{ g(x)e^{-bx} \} \leqq ae^{-bx} \]
+が成立することを示せ．
+\item[(2)]$f(x) \leqq ae^{bx}$が成立することを示せ．
+\item[(3)]$F(x)$は$x$について連続な関数で，任意の二つの実数$\alpha$，$\beta$に対して，
+次の関係を満たすものとする．
+\[ |F(\alpha)-F(\beta)|\leqq|\alpha-\beta| \]
+さらに，$x\geqq0$で定義された二つの連続な関数$y(x)$と$z(x)$は次の関係式を満たすものとする．
+\[ y(x)=\int_0^x F(y(t)) dt, \hspace{1zw} z(x)=\int_0^x F(z(t)) dt \]
+このとき，$h(x)=|y(x)-z(x)|$とおけば，
+\[ h(x) \leqq \int_0^x h(t) dt \]
+が成立することを示せ．
+\item[(4)]$x\geqq0$で$y(x)=z(x)$であることを証明せよ．
+\end{description}
+\end{flushleft}
+\end{document}

@@ -1,0 +1,27 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　すべての実数$x$について，関数$f(x)$およびその導関数$f'(x)$が微分可能であり，
+$f'(x)>0$かつ$f''(x)>0$が満たされるとする。
+また，$f(-2)<0$かつ$f(2)>0$であるとし，$f(x)=0$の解を$a$とする。
+$f(x)$を用いて，数列$\{ x_n \}$を次のように定義する。
+\begin{description}
+\item[●]$x_1=2$
+\item[●]$x_n$ $(n=2, \, 3, \, 4, \, \cdots)$は，
+曲線$y=f(x)$の$x=x_{n-1}$における接線と$x$軸との交点の$x$座標とする。
+\end{description}
+このとき以下の問いに答えよ。
+\begin{description}
+\item[(1)]$x_n>a$ならば以下の不等式が成り立つことを平均値の定理を用いて示せ。
+\[ f'(a)<\frac{f'(x_n)(x_n-x_{n+1})}{x_n-a}<f'(x_n) \]
+\item[(2)]$x_n>a$ $(n=1, \, 2, \, 3, \, \cdots)$であることを数学的帰納法を用いて示せ。
+\item[(3)]次の不等式を示せ。
+\[ \frac{x_{n+1}-a}{x_n-a}<1-\frac{f'(a)}{f'(x_n)} \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
+\item[(4)]$\displaystyle\lim_{n\to\infty}x_n=a$となることを示せ。
+\end{description}
+\end{flushleft}
+\end{document}

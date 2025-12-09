@@ -1,0 +1,58 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　次の□の中に適当な数または式を入れよ．
+また(イ)～(ホ)の「　」で囲まれた文章の理由を，
+最後の(イ)～(ホ)の解答のところで述べよ．
+\begin{equation}方程式　x^2-3y^2=1\end{equation}
+をみたす整数の組$(x,y)$を求めることを考える．
+(以下この方程式の整数解を単に解と略称する．)\\
+　準備のために次のことを確かめておく．
+\begin{description}
+\item[(イ)]「$a$，$b$，$c$，$d$が整数であって，
+$a+b\sqrt3=c+d\sqrt3$ならば，$a=c$，$b=d$である」\\
+　次に$(x,y)$が解であれば，$(x,-y)$，$(-x,y)$，$(-x,-y)$も解であることは，
+方程式(1)により明らかであるから，
+$(x,y)$が共に負でない解を求めることが基本的である．
+それでそのような解を求める手段として
+\begin{equation}(2+\sqrt3)^n=x_n+y_n\sqrt3,\end{equation}
+($x_n$，$y_n$は負でない整数，$n=0,1,2,\cdots\cdots$)とおく．
+そうすると(イ)によって，
+\begin{equation} x_0=1, \hspace{1zw} y_0=0, \hspace{1zw}
+x_1=2, \hspace{1zw} y_1=1\end{equation}
+$x_2=\text{□}$，$y_2=\text{□}$，$x_3=\text{□}$，$y_3=\text{□}$である．\\
+　一方，$(2+\sqrt3)^2$と$(2-\sqrt3)^2$，
+$(2+\sqrt3)^3$と$(2-\sqrt3)^3$などを比較することによって，一般に
+\begin{equation}(2-\sqrt3)^n=x_n-y_n\sqrt3, \hspace{1zw}
+n=0,1,2,\cdots\cdots\end{equation}
+であることがわかる．\\
+　(2)と(4)と，$(2+\sqrt3)(2-\sqrt3)=1$とを使って，
+\[ 1=(2+\sqrt3)^n(2-\sqrt3)^n=x_n^2-3y_n^2 \]
+となるから，(2)で定まる$(x_n,y_n)$は方程式(1)の解であることがわかる．
+とくに，$x$，$y$の一方が0となるような負でない解は，明かに$x=1$，$y=0$で，
+それは(3)の$(x_0,y_0)$に外ならない．\\
+　次に$(x_{n-1},y_{n-1})$と$(x_n,y_n)$との関係を求めてみる$(n \geqq 1)$．
+\[ x_n+y_n\sqrt3=(2+\sqrt3)^n=(x_{n-1}+y_{n-1}\sqrt3)(2+\sqrt3)=\text{□} \]
+ゆえに，$x_n=\text{□}$，$y_n=\text{□}$\\
+したがって$(x_0,y_0)$から出発して，
+負でない解$(x_1,y_1)$，$(x_2,y_2)$，$\cdots\cdots$，$(x_n,y_n)$，$\cdots\cdots$を
+順次求めて行くことができる．
+しかも$y_1<y_2<y_3<\cdots\cdots$である．\\
+　以上のことで負でない解を多数みつけたのであるが，
+これらで負でない解が尽くされているかどうかを次に吟味する．\\
+　いま任意の正の解$(x,y)$，$(x>0,y>0)$をとると，
+\[ (x+\sqrt3y)(2-\sqrt3)=(2x-3y)+(2y-x)\sqrt3 \]
+\item[(ロ)]「$x'=2x-3y$，$y'=2y-x$とおくとき，$(x',y')$も解である」
+\item[(ハ)]「そして$x>x'>0$，$y>y'\geqq0$である」
+\item[(ニ)]「それで，任意の正の解$(x,y)$から出発して，
+(ロ)における$(x',y')$を求める操作を順次行なうことによって，
+(3)に示す負でない解$(x_0,y_0)$に達する」
+\item[(ホ)]「したがって，任意の負でない解$(x,y)$は式(2)によって定まる
+$(x_n,y_n)$ $(n=0,1,2,\cdots\cdots)$のどれか1つである．」
+\end{description}
+\end{flushleft}
+\end{document}

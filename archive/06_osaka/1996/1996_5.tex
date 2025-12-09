@@ -1,0 +1,28 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　黒玉が2個入っている箱がある．
+いま，次のような試行を繰り返す．
+箱から無作為に玉を1個取り出す．
+もし取り出した玉が黒玉ならばさいころを投げ，
+出た目が4以下のときはそれをそのまま箱に戻し，
+出た目が5以上のときはそれを白玉と取りかえて箱に戻す．
+もし取り出した玉が白玉ならばそのまま箱に戻す．\\
+　$n$回目の試行が終わったとき箱に入っている白玉の数を$X_n$とし，
+$X_n=k$である事象$\{ X_n=k \}$の起こる確率を$P(X_n=k)$で表す．\\
+　ただし，$P(X_0=0)=1$とする．
+次の問いに答えよ．
+\begin{description}
+\item[(1)]事象$\{ X_{n-1}=0 \}$および$\{ X_{n-1}=1 \}$のそれぞれのもとで
+事象$\{ X_n=1 \}$の起こる条件つき確率を求めよ．
+\item[(2)]$P(X_n=1)$を$P(X_{n-1}=1)$を用いて表せ．
+\item[(3)]$X_n$の確率分布を求めよ．
+\item[(4)]$n$回目の試行が終わったときに
+箱に入っている白玉の数がはじめて2個になる確率を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

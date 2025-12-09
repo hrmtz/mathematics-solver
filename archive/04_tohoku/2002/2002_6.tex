@@ -1,0 +1,19 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 6}
+　$f_1(x)$は実数全体で定義された何回でも微分可能な関数とする．
+$f_2(x)$，$f_3(x)$，$\cdots$を次のように順次定義する．
+$n=2,3,\cdots$に対し$\displaystyle F_{n-1}(x)=\int_0^xf_{n-1}(t)dt$とおいて
+$\displaystyle f_n(x)=\int_0^xf_{n-1}(t)F_{n-1}(t)dt$とする．
+このとき，以下の問いに答えよ．
+\begin{description}
+\item[(1)]$n\geqq2$のとき，すべての$x$に対して$f_n(x)\geqq0$であることを示せ．
+\item[(2)]$n\geqq3$のとき，すべての$x\geqq0$に対して$f_n'(x)\geqq0$であることを示せ．
+\item[(3)]$f_4'(1)=0$のとき，すべての$0\leqq x \leqq1$に対して$f_1(x)=0$であることを示せ．
+\end{description}
+\end{flushleft}
+\end{document}

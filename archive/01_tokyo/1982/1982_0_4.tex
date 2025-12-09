@@ -1,0 +1,27 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　$A=\begin{pmatrix} \displaystyle\frac{1}{2} & \displaystyle-\frac{1}{2} \\ 0 & 1 \end{pmatrix}$，
+$B=\begin{pmatrix} 1 & 0 \\ \displaystyle-\frac{1}{2} & \displaystyle\frac{1}{2} \end{pmatrix}$とおく．
+$xy$平面において，$(1,1)$を座標とする点$P_0$から始めて，点列$P_0,P_1,P_2,\cdots$をつぎのような手続きで作っていく．
+$P_n$の座標を$(x_n,y_n)$とするとき，
+\begin{description}
+\item[(イ)]$\displaystyle x_n+y_n\geqq\frac{1}{100}$のときは，$(x_{n+1},y_{n+1})$を
+$\begin{pmatrix} x_{n+1} \\ y_{n+1} \end{pmatrix}=A\begin{pmatrix} x_n \\ y_n \end{pmatrix}$
+または$\begin{pmatrix} x_{n+1} \\ y_{n+1} \end{pmatrix}=B\begin{pmatrix} x_n \\ y_n \end{pmatrix}$
+のどちらかが成りたつように決める．
+\item[(ロ)]$\displaystyle x_n+y_n<\frac{1}{100}$のときは，$(x_{n+1},y_{n+1})$を
+$\begin{pmatrix} x_{n+1} \\ y_{n+1} \end{pmatrix}=A\begin{pmatrix} x_n \\ y_n \end{pmatrix}$によって決める．
+\end{description}
+このようにするといろいろな点列ができるが，それらについてつぎの問に答えよ．
+\begin{description}
+\item[(1)]$P_2$として可能な点をすべて求め，図示せよ．
+\item[(2)]$x_n+y_n$を$n$で表わせ．
+\item[(3)]$P_{10}$として可能な点は何個あるか．
+\end{description}
+\end{flushleft}
+\end{document}

@@ -1,0 +1,24 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　$a>0$とする．
+正の整数$n$に対して，区間$0 \leqq x \leqq a$を$n$等分する点の集合
+\[ \left\{ 0, \frac{a}{n}, \cdots, \frac{n-1}{n}a, a \right\} \]
+の上で定義された関数$f_n(x)$があり，次の方程式を満たす．
+\[ \begin{cases}
+f_n(0)=c, \\
+\displaystyle \frac{f_n((k+1)h)-f_n(kh)}{h}=\{1-f_n(kh)\}f_n((k+1)h) \hspace{1zw} (k=0,1,\cdots,n-1)
+\end{cases} \]
+ただし，$\displaystyle h=\frac{a}{n}$，$c>0$である．このとき，以下の問いに答えよ．
+\begin{description}
+\item[(1)]$\displaystyle p_k=\frac{1}{f_n(kh)}$ $(k=0,1,\cdots,n)$とおいて$p_k$を求めよ．
+\item[(2)]$\displaystyle g(a)=\lim_{n\to\infty}f_n(a)$とおく．$g(a)$を求めよ．
+\item[(3)]$\displaystyle c=2,1,\frac{1}{4}$それぞれの場合について，
+$y=g(x)$の$x>0$でのグラフをかけ．
+\end{description}
+\end{flushleft}
+\end{document}

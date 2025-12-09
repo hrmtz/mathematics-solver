@@ -1,0 +1,25 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 6}
+　赤球が一個と白球が三個入った容器$A$と，ほかに赤球と白球の入った容器$B$と$C$がある．\\
+　いま，$A$，$B$，$C$から無作為に一個ずつ合計三個の球を取り出し，
+これらからやはり無作為に一個をとって$A$にかえすという操作をくり返す．\\
+　ただし容器$B$から赤球が取り出される確率と白球が取り出される確率とは共に
+$\displaystyle\frac{1}{2}$に保たれており，
+容器$C$からはつねに赤球が取り出されるものとする．
+\begin{description}
+\item[(i)]上記の操作を$n$回くり返したとき，
+容器$A$に$x$個の赤球が入っている確率を$P_n(x)$，
+$n=1,2,3,\cdots$で表せば，関係式
+\[ P_{n+1}(x)=\frac{1}{12}(6+x)P_n(x)+\frac{1}{24}(1+x)P_n(x+1)+\frac{1}{8}(5-x)P_n(x-1) \]
+が成り立つことを証明せよ．
+ただし$x \leqq -1$または$x \geqq 5$のときは$P_n(x)=0$と定める．
+\item[(ii)]$n$回目の操作を終えたとき$A$の中にある赤球の数の期待値$E_n$を求めよ．
+\item[(iii)]$\displaystyle\lim_{n\to\infty}E_n$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

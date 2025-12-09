@@ -1,0 +1,23 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 2}
+　$p$を$0<p<1$を満たす数とし，行列$A$，$B$，$C$をそれぞれ
+\[ A=\begin{pmatrix} 1 & 1 \\ -1 & -1 \end{pmatrix}, \hspace{1zw}
+B=\begin{pmatrix} 1 & 1 \\ 0 & 1+p \end{pmatrix}, \hspace{1zw}
+C=\begin{pmatrix} 0 & -1 \\ -1-p & 0 \end{pmatrix} \]
+とおく．
+さらに，行列$A_n$ $(n=1, \, 2, \, 3, \, \cdots)$を
+$A_1=A$，$A_{n+1}=A_nB-BA_n+C$ $(n=1, \, 2, \, 3, \, \cdots)$で定める．
+このとき，次の問いに答えよ．
+\begin{description}
+\item[(1)]$A_2$，$A_3$を求めよ．
+\item[(2)]$A_n=\begin{pmatrix} a_n & b_n \\ c_n & d_n \end{pmatrix}$，
+$\Delta_n=a_nd_n-b_nc_n$とおくとき，
+$\displaystyle\lim_{n\to\infty}\Delta_n$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

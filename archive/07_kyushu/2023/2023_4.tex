@@ -1,0 +1,52 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{pifont}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　以下の文章を読んで後の問いに答えよ。\\
+　\\
+　三角関数$\cos x$，$\sin x$については加法定理が成立するが，
+逆に加法定理を満たす関数はどのようなものがあるだろうか。
+実数全体を定義域とする実数値関数$f(x)$，$g(x)$が以下の条件を満たすとする。
+\begin{description}
+\item[(A)]すべての$x$，$y$について$f(x+y)=f(x)f(y)-g(x)g(y)$
+\item[(B)]すべての$x$，$y$について$g(x+y)=f(x)g(y)+g(x)f(y)$
+\item[(C)]$f(0)\neq0$
+\item[(D)]$f(x)$，$g(x)$は$x=0$で微分可能で$f'(0)=0$，$g'(0)=1$
+\end{description}
+\ding{"AC}\underline{条件(A)，(B)，(C)から$f(0)=1$，$g(0)=0$がわかる}。以上のことから
+\ding{"AD}\underline{$f(x)$，$g(x)$はすべての$x$の値で微分可能で，
+$f'(x)=-g(x)$，$g'(x)=f(x)$が成立する}ことが示される。
+\ding{"AE}\underline{上のことから$\{ f(x)+ig(x) \} (\cos x-i\sin x)=1$であることが，}\\
+\underline{実部と虚部を調べることによりわかる}。ただし$i$は虚数単位である。
+よって条件(A)，(B)，(C)，(D)を満たす関数は三角関数$f(x)=\cos x$，$g(x)=\sin x$であることが示される。\\
+　さらに，$a$，$b$を実数で$b\neq0$とする。このとき条件(D)をより一般的な
+\begin{description}
+\item[(D)']$f(x)$，$g(x)$は$x=0$で微分可能で$f'(0)=a$，$g'(0)=b$
+\end{description}
+におきかえて，条件(A)，(B)，(C)，(D)'を満たす$f(x)$，$g(x)$はどのような関数になるか考えてみる。
+この場合でも，条件(A)，(B)，(C)から$f(0)=1$，$g(0)=0$が上と同様にわかる。ここで
+\[ p(x)=e^{-\frac{a}{b}x}f \left( \frac{x}{b} \right), \hspace{1zw}
+q(x)=e^{-\frac{a}{b}x}g \left( \frac{x}{b} \right) \]
+とおくと，\ding{"AF}\underline{条件(A)，(B)，(C)，(D)において，$f(x)$を$p(x)$に，$g(x)$を$q(x)$に}\\
+\underline{おきかえた条件が満たされる}。すると前半の議論により，$p(x)$，$q(x)$がまず求まり，
+このことを用いると$f(x)=$[　ア　]，$g(x)=$[　イ　]が得られる。
+\begin{description}
+\item[(1)]下線部\ding{"AC}について，$f(0)=1$，$g(0)=0$となることを示せ。
+\item[(2)]下線部\ding{"AD}について，$f(x)$がすべての$x$の値で微分可能な関数であり，
+$f'(x)=-g(x)$となることを示せ。
+\item[(3)]下線部\ding{"AE}について，下線部\ding{"AC}，下線部\ding{"AD}の事実を用いることにより，
+$\{ f(x)+ig(x) \} (\cos x-i\sin x)=1$となることを示せ。
+\item[(4)]下線部\ding{"AF}について，条件(B)，(D)において，$f(x)$を$p(x)$に，$g(x)$を$q(x)$
+におきかえた条件が満たされることを示せ。つまり$p(x)$と$q(x)$が，
+\begin{description}
+\item[(B)]すべての$x$，$y$について$q(x+y)=p(x)q(y)+q(x)p(y)$
+\item[(D)]$p(x)$，$q(x)$は$x=0$で微分可能で$p'(0)=0$，$q'(0)=1$
+\end{description}
+を満たすことを示せ。また空欄[　ア　]，[　イ　]に入る関数を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

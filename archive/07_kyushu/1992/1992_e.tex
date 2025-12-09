@@ -1,0 +1,23 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　2つのサイコロを同時に投げる試行を$n$回行う．
+2つのサイコロの出た目の和が$a$以下であるという事象を$A$とし，
+事象$A$の起こる確率を$p$とする．\\
+　$n$回の試行のうち，事象$A$の起こる回数を$X$とし，
+$X=r$となる確率を$q(r)$とする．
+ただし，$a$，$r$は整数で，$2 \leqq a \leqq 12$とする．
+\begin{description}
+\item[(1)]$X$の期待値を$n$，$p$で表せ．
+\item[(2)]整数$a$を用いて$p$を表せ．
+\item[(3)]比$\displaystyle\frac{q(r+1)}{q(r)}$を$n$，$p$，$r$で表せ．
+これを利用して，$q(r)$が$r=r_0$ $(1 \leqq r_0 \leqq n-1)$で最大となるためには
+$\displaystyle\frac{r_0}{n+1}<p<\frac{r_0+1}{n+1}$が成り立つことが必要十分であることを示せ．
+\item[(4)]$n=10$のとき，$q(r)$が$r=7$で最大となる整数$a$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

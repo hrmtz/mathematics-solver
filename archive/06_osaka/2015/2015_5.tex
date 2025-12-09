@@ -1,0 +1,22 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfm]{graphicx}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　$n$を2以上の整数とする．
+正方形の形に並んだ$n \times n$のマスに0または1のいずれかの数字を入れる．
+マスは上から第1行，第2行，$\dots$，左から第1列，第2列，$\dots$，と数える．
+数字の入れ方についての次の条件$p$を考える．\\
+条件$p$：1から$n-1$までのどの整数$i$，$j$についても，
+第$i$行，第$i+1$行と第$j$列，第$j+1$列とが作る$2 \times 2$の4個のマスには
+0と1が2つずつ入る．\\
+ \includegraphics{fig_2015_5.jpg}
+\begin{description}
+\item[(1)]条件$p$を満たすとき，第$n$行と第$n$列の少なくとも一方には0と1が交互に現れることを示せ．
+\item[(2)]条件$p$を満たすような数字の入れ方の総数$a_n$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

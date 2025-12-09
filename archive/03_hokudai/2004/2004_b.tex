@@ -1,0 +1,29 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 2}
+　$D$を$0 \leqq x<y$を満たす整数の組$(x, \, y)$のなす集合とする．
+$x=0$である$D$の要素$(0, \, y)$を「レベル0である」という．
+次の操作Gを考える．
+\begin{description}
+\item[操作G:]レベル0でない$D$の要素$(x, \, y)$から新たな$D$の要素$(x', \, y')$を作る．
+ここで$x'$は$y$を$x$で割った余りであり，$y'$は$x$である．
+\end{description}
+　この操作を$(x, \, y)$に$n$回繰り返してレベル0になるとき，
+$(x, \, y)$は「レベル$n$である」という．
+0以上の$n$に対して，レベル$n$の$D$の要素$(x, \, y)$のうち，
+$y$が最小になるものを「レベル$n$の最小組」という．
+\begin{description}
+\item[(1)]$n=0, \, 1, \, 2$について，レベル$n$の最小組をすべて求めよ．
+それらが操作Gの繰り返しで，どのようにレベル0になるかを書け．
+\item[(2)]操作Gを1回行うことにより$(a, \, b)$が得られるような$D$の要素をすべて求めよ．
+\item[(3)]$n\geqq1$とする．$(a, \, b)$をレベル$n$の最小組とする．
+$(x, \, y)$をレベル$n$の組とすれば，$a \leqq x$となることを$n$についての数学的帰納法を用いて示せ．
+\item[(4)](3)により，各$n\geqq1$に対し，レベル$n$の最小組がただ1つ定まることがわかる．
+この組を$(a_n, \, b_n)$と表すとき，$b_{n+1}=a_n+b_n$，$a_{n+1}=b_n$であることを示せ．
+\end{description}
+\end{flushleft}
+\end{document}

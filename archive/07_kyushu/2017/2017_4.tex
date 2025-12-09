@@ -1,0 +1,29 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfm]{graphicx}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　赤玉2個，青玉1個，白玉1個が入った袋が置かれた円形のテーブルの周りに
+A，B，Cの3人がこの順番で時計回りに着席している。
+3人のうち，ひとりが袋から玉を1個取り出し，色を確認したら袋にもどす操作を考える。
+1回目はAが玉を取り出し，次のルール(a)，(b)，(c)に従って勝者が決まるまで操作を繰り返す。
+\begin{description}
+\item[(a)]赤玉を取り出したら，取り出した人を勝者とする。
+\item[(b)]青玉を取り出したら，次の回も同じ人が玉を取り出す。
+\item[(c)]白玉を取り出したら，取り出した人の左隣りの人が次の回に玉を取り出す。
+\end{description}
+A，B，Cの3人が$n$回目に玉を取り出す確率を
+それぞれ$a_n, \, b_n, \, c_n$ $(n=1, \, 2, \, \cdots)$とする。
+ただし，$a_1=1$，$b_1=c_1=0$である。
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]Aが4回目に勝つ確率と7回目に勝つ確率をそれぞれ求めよ。
+\item[(2)]$d_n=a_n+b_n+c_n$ $(n=1, \, 2, \, \cdots)$とおくとき，$d_n$を求めよ。
+\item[(3)]自然数$n\geqq3$に対し，$a_{n+1}$を$a_{n-2}$と$n$を用いて表せ。
+\end{description}
+\includegraphics{fig_2017_4.jpg}
+\end{flushleft}
+\end{document}

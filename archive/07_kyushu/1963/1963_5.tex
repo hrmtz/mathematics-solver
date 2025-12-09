@@ -1,0 +1,22 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　関数列$f_0(x), \, f_1(x), \, f_2(x), \, \cdots\cdots, \, f_n(x), \, \cdots\cdots$を次のように作る。
+\[ f_0(x)=1, \hspace{1zw} f_1(x)=1+\int_0^x\{ f_0(t)+t{f_0}'(t) \}dt, \]
+\[ f_2(x)=1+\int_0^x\{ f_1(t)+t{f_1}'(t) \}dt, \]
+\[ \cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \]
+\[ f_n(x)=1+\int_0^x\{ f_{n-1}(t)+t{f_{n-1}}'(t) \}dt, \]
+\[ \cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \]
+　このとき
+\begin{description}
+\item[(1)]$f_1(x)$，$f_2(x)$，$f_3(x)$を計算せよ。
+\item[(2)]$f_n(x)$の一般形を，数学的帰納法により求めよ。
+\item[(3)]$|x|<1$なるとき，$\displaystyle f(x)=\lim_{n\to\infty}f_n(x)$を求め，
+かつ$f'(x)={ \{ f(x) \} }^2$が成り立つことを示せ。
+\end{description}
+\end{flushleft}
+\end{document}

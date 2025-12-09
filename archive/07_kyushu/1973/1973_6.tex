@@ -1,0 +1,22 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 6}
+　$p$，$q$を1より大きな自然数とする．
+第1番目の多項式$f_1(x)$を$f_1(x)=x^p$で定義する．
+次に第2番目，第3番目の多項式を，それぞれ
+\[ f_2(x)=\int_0^x\left( \frac{f_1(t)}{t}+t^{q-1} \right)dt, \]
+\[ f_3(x)=\int_0^x\left( \frac{f_2(t)}{t}+t^{q-1} \right)dt \]
+で定義し，一般に第$n$番目の多項式$f_n(x)$を
+\[ f_n(x)=\int_0^x\left( \frac{f_{n-1}(t)}{t}+t^{q-1} \right)dt \hspace{1zw} (n=2, \, 3, \, \cdots\cdots) \]
+で定義する．このとき，次の問(1)，(2)，(3)に答えよ．
+\begin{description}
+\item[(1)]$f_2(x)$，$f_3(x)$，$f_4(x)$を求めよ．
+\item[(2)]一般の自然数$n$に対して，$f_n(x)$を数学的帰納法を用いて定めよ．
+\item[(3)]$x$を実数の定数とみて，数列$f_1(x), \, f_2(x), \, \cdots, \, f_n(x), \, \cdots\cdots$の極限値を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

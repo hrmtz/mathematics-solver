@@ -1,0 +1,21 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfm]{graphicx}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　赤箱，白箱，黒箱に，赤玉，白玉，黒玉がそれぞれ，下の表の個数だけ入っている．\\
+ \includegraphics[width=5cm]{fig_2002_d.jpg}\\
+　これらの箱の1つから1個の玉を取り出し，同じ箱にもどすという試行を，以下の規則にしたがって繰り返す．
+ただし，各箱から玉を取り出すとき，箱の中のどの玉が取り出されるのも，同様に確からしいものとする．\\
+　1回目は白箱から取り出す．2回目以降は，前回に取り出された玉と同じ色の箱から取り出す．
+3回連続して赤玉が取り出されたら，試行を終了する．
+\begin{description}
+\item[(1)]ちょうど4回で試行が終了する確率を求めよ．
+\item[(2)]1回目が赤玉であり，かつちょうど5回で試行が終了する確率を求めよ．
+\item[(3)]1回目が赤玉であり，かつ試行が6回以上続く確率を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

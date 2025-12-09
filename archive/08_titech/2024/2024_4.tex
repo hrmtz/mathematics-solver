@@ -1,0 +1,28 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　$n$を正の整数とし，$C_1, \, \cdots, \, C_n$を$n$枚の硬貨とする．
+各$k=1, \, \cdots, \, n$に対し，
+硬貨$C_k$を投げて表が出る確率を$p_k$，裏が出る確率を$1-p_k$とする．
+この$n$枚の硬貨を同時に投げ，表が出た硬貨の枚数が奇数であれば成功，
+というゲームを考える．
+\begin{description}
+\item[(1)]$\displaystyle p_k=\frac{1}{3}$ $(k=1, \, \cdots, \, n)$のとき，
+このゲームで成功する確率$X_n$を求めよ．
+\item[(2)]$\displaystyle p_k=\frac{1}{2(k+1)}$ $(k=1, \, \cdots, \, n)$のとき，
+このゲームで成功する確率$Y_n$を求めよ．
+\item[(3)]$n=3m$ ($m$は正の整数)で，$k=1, \, \cdots, \, 3m$に対して
+\[ p_k=\begin{cases} \displaystyle \frac{1}{3m} & (k=1, \, \cdots, m) \\
+ \\
+ \displaystyle \frac{2}{3m} & (k=m+1, \, \cdots, 2m) \\
+ \\
+ \displaystyle \frac{1}{m} & (k=2m+1, \, \cdots, 3m) \end{cases} \]
+とする．このゲームで成功する確率を$Z_{3m}$とするとき，
+$\displaystyle\lim_{m\to\infty}Z_{3m}$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

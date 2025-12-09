@@ -1,0 +1,23 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　$n$，$N$を正の整数とする．以下の問いに答えよ．
+\begin{description}
+\item[(1)]$k$を正の定数とし，関数$f(x)$は$f(x)=f(x+k)$をみたすとする．このとき，
+\[ T_n=\int_{k(n-1)}^{kn}e^{-x}f(x)dx, \hspace{1zw} S_N=\sum_{n=1}^NT_n \]
+とおく．$T_n$と$S_N$を$T_1$で表せ．
+\item[(2)](1)において$f(x)\geqq0$とする．このとき，$k$以上の実数$z$に対して
+\[ S_n\leqq\int_0^ze^{-x}f(x)dx<S_{N+1} \]
+が成立するような$N$を求めよ．
+さらに，この不等式を用いて極限$\displaystyle\lim_{z\to\infty}\int_0^ze^{-x}f(x)dx$が存在することを示し，
+この極限を$T_1$で表せ．
+\item[(3)]$h(x)=e^{-x}|\cos\pi x|$とする．
+$y=h(x)$，$x$軸，$y$軸および$x=z$で囲まれた部分の面積を$V(z)$とおく．
+$\displaystyle\lim_{z\to\infty}V(z)$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

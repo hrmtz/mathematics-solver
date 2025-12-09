@@ -1,0 +1,28 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4 (c)}
+　$m$，$n$を自然数とする．次の算法を考える．
+\begin{description}
+\item[(a)]$i=m$，$j=n$，$k=0$．
+\item[(b)]$i=1$ならば$Ans=k+j$として終了する．
+\item[(c)]$i$の値が奇数なら$k=k+j$とする．
+\item[(d)]$i=[i/2]$．
+\item[(e)]$j=2*j$．
+\item[(f)](b)に戻る．
+\end{description}
+（ここで，$[x]$は$x$を越えない最大の整数を表す．）
+\begin{description}
+\item[(1)]$m=100$のとき，3周目と4周目の(b)における$i$，$j$，$k$の値を求めよ．
+たとえば1周目では$i=100$，$j=n$，$k=0$である．
+\item[(2)]一般の$m$に対して，(b)における$i$，$j$，$k$の値について
+$i*j+k$は1周目から最後まで一定であることを示せ．
+\item[(3)]一般の$m$に対して，$Ans$を求めよ．
+\item[(4)]$l$を自然数とする．$m=3\cdot2^l$のとき，
+終了するまでに何回(d)を実行するか．
+\end{description}
+\end{flushleft}
+\end{document}

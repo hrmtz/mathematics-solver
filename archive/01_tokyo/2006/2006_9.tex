@@ -1,0 +1,27 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　数列の和の公式
+\[ \sum_{k=1}^nk=\frac{1}{2}n(n+1), \hspace{1zw}
+\sum_{k=1}^nk^2=\frac{1}{6}n(n+1)(2n+1), \hspace{1zw}
+\sum_{k=1}^nk^3={ \left\{ \frac{1}{2}n(n+1) \right\}  }^2 \]
+などについて，次のような一般的な考察をしてみよう．$p$，$n$を自然数とする．
+\begin{description}
+\item[(1)]$p+1$次多項式$S_p(x)$があって，
+数列の和$\displaystyle\sum_{k=1}^nk^p$が$S_p(n)$と表されることを示せ．
+\item[(2)]$q$を自然数とする．(1)の多項式$S_1(x),S_3(x),\cdots,S_{2q-1}(x)$に対して，
+\[ \sum_{j=1}^qa_jS_{2j-1}(x)=x^q {(x+1)}^q \]
+が恒等式となるような定数$a_1,\cdots,a_q$を$q$を用いて表せ．
+\item[(3)]$q$を2以上の自然数とする．(1)の多項式$S_2(x),S_4(x),\cdots,S_{2q-2}(x)$に対して，
+\[ \sum_{j=1}^{q-1}b_jS_{2j}(x)=x^{q-1} {(x+1)}^{q-1} (cx+q) \]
+が恒等式となるような定数$c$と$b_1,\cdots,b_{q-1}$を$q$を用いて表せ．
+\item[(4)]$p$を3以上の奇数とする．このとき，
+\[ \frac{d}{dx}S_p(x)=pS_{p-1}(x) \]
+を示せ．
+\end{description}
+\end{flushleft}
+\end{document}

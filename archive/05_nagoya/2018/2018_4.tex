@@ -1,0 +1,29 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfm]{graphicx}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　図1のように2つの正方形ABCDとCDEFを並べた図形を考える。
+2点P，Qが6個の頂点A，B，C，D，E，Fを以下の規則(a)，(b)に従って移動する。
+\begin{description}
+\item[(a)]時刻0では図2のように点Pは頂点Aに，点Qは頂点Cにいる。
+\item[(b)]点P，Qは時刻が1増えるごとに独立に，
+今いる頂点と辺で結ばれている頂点に等確率で移動する。
+\end{description}
+　時刻$n$まで2点P，Qが同時に同じ頂点にいることが一度もない確率を$p_n$と表す。
+また時刻$n$まで2点P，Qが同時に同じ頂点にいることが一度もなく，
+かつ時刻$n$に2点P，Qがともに同じ正方形上にいる確率を$a_n$と表し，
+$b_n=p_n-a_n$と定める。このとき，次の問に答えよ。
+\begin{description}
+\item[(1)]時刻1での点P，Qの可能な配置を，図2にならってすべて図示せよ。
+\item[(2)]$a_1$，$b_1$，$a_2$，$b_2$を求めよ。 
+\item[(3)]$a_{n+1}$，$b_{n+1}$を$a_n$，$b_n$で表せ。
+\item[(4)]$\displaystyle p_n\leqq{\left(\frac{3}{4}\right)}^n$を示せ。
+\end{description}
+\includegraphics[width=5cm]{fig_2018_4_1.jpg}
+\includegraphics[width=5cm]{fig_2018_4_2.jpg}
+\end{flushleft}
+\end{document}

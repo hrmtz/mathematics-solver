@@ -1,0 +1,29 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　$N$を2以上の自然数とする．
+$x_1 \leqq \cdots \leqq x_N$をみたす実数$x_1,\cdots,x_N$に対し，
+実数$k_n$，$p_n$，$q_n$ $(n=0,1,2,\cdots)$を次の手続きで定める．
+\begin{description}
+\item[(A)]$k_0=1$，$p_0=x_1$，$q_0=x_N$
+\item[(B)]$n$が奇数のとき$k_n$は$\displaystyle x_i\leqq\frac{p_{n-1}+q_{n-1}}{2}$をみたす$x_i$の個数，
+$p_n=p_{n-1}$，$q_n=q_{n-1}$
+\item[(C)]$n$が偶数$(n\geqq2)$のとき$k_n=k_{n-1}$，
+$\displaystyle p_n=\frac{1}{k_n}\sum_{i=1}^{k_n}x_i$，$\displaystyle q_n=\frac{1}{N-k_n}\sum_{i=k_n+1}^Nx_i$
+\end{description}
+　ただし$k_n=0$または$k_n=N$となったら，その時点で手続きを終了する．\\
+　$x_1<x_N$であるとき，次の問に答えよ．
+\begin{description}
+\item[(1)]すべての自然数$n$について$1 \leqq k_n \leqq N-1$かつ$x_1 \leqq p_n<q_n \leqq x_N$が成り立つことを示せ．
+\item[(2)]実数$J_n$ $(n=0,1,2,\cdots)$を
+$\displaystyle J_n=\sum_{i=1}^{k_n}{(x_i-p_n)}^2+\sum_{i=k_n+1}^N{(x_i-q_n)}^2$と定めると，
+すべての自然数$n$に対して$J_n \leqq J_{n-1}$が成り立つことを示せ．
+\item[(3)]$n$が十分大きいとき．
+$J_n=J_{n-1}$，$p_n=p_{n-1}$，$q_n=q_{n-1}$，$k_n=k_{n-1}$が成り立つことを示せ．
+\end{description}
+\end{flushleft}
+\end{document}

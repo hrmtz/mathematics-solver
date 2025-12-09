@@ -1,0 +1,34 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　$N$を1以上の整数とする．
+数字$1,2,\cdots\cdots,N$が書かれたカードを1枚ずつ，計$N$枚用意し，甲，乙のふたりが次の手順でゲームを行う．
+\begin{description}
+\item[(i)]甲が1枚カードをひく．
+そのカードに書かれた数を$a$とする．
+ひいたカードはもとに戻す．
+\item[(ii)]甲はもう1回カードをひくかどうかを選択する．
+ひいた場合は，そのカードに書かれた数を$b$とする．
+ひいたカードはもとに戻す．
+ひかなかった場合は，$b=0$とする．\\
+$a+b>N$の場合は乙の勝ちとし，ゲームは終了する．
+\item[(iii)]$a+b \leqq N$の場合は，乙が1枚カードをひく．
+そのカードに書かれた数を$c$とする．
+ひいたカードはもとに戻す．
+$a+b<c$の場合は乙の勝ちとし，ゲームは終了する．
+\item[(iv)]$a+b \geqq c$の場合は，乙はもう1回カードをひく．
+そのカードに書かれた数を$d$とする．\\
+$a+b<c+d \leqq N$の場合は乙の勝ちとし，それ以外の場合は甲の勝ちとする．
+\end{description}
+　(ii)の段階で，甲にとってどちらの選択が有利であるかを，$a$の値に応じて考える．以下の問いに答えよ．
+\begin{description}
+\item[(1)]甲が2回目にカードをひかないことにしたとき，甲の勝つ確率を$a$を用いて表せ．
+\item[(2)]甲が2回目にカードをひくことにしたとき，甲の勝つ確率を$a$を用いて表せ．
+\end{description}
+　ただし，各カードがひかれる確率は等しいものとする．
+\end{flushleft}
+\end{document}

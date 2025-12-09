@@ -1,0 +1,28 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{pifont}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　以下の規則にしたがって数直線上を移動する点Aを考える。
+\begin{description}
+\item[（規則）]点Aが座標$x$にあるとき，表が出る確率が$\alpha$ $(0<\alpha<1)$のコインを投げて，
+表が出たら$x$から$\displaystyle\frac{x}{2}$へ移動し，
+裏が出たら$x$から$\displaystyle1-\frac{x}{2}$へ移動する。
+\end{description}
+点Aがはじめに座標0にあるとして，事象「上記の規則を適用する操作を$n$回$(n\geqq1)$繰り返した直後に
+点Aが座標$y$にある」の確率を記号$P_n(y)$で表す。このとき以下の問いに答えよ。
+\begin{description}
+\item[(1)]$P_1(y)>0$となる$y$ $(0\leqq y \leqq1)$とその確率$P_1(y)$の組をすべて答えよ。
+\item[(2)]$y<0$または$y>1$のとき，$P_n(y)=0$であることを示せ。
+\item[(3)]$P_n(1)$を求めよ。
+\item[(4)]$k$を自然数とするとき，以下のそれぞれの条件で$P_n(2^{-k})$を求めよ。
+\begin{description}
+\item[\ding{"AC}]$n \leqq k$のとき
+\item[\ding{"AD}]$n>k$のとき
+\end{description}
+\end{description}
+\end{flushleft}
+\end{document}

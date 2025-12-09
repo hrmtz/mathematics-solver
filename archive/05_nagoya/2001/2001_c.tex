@@ -1,0 +1,28 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　$a$，$b$，$c$を実数の定数とし，関数
+\[ f_0(x)=1, \]
+\[ f_1(x)=x+af_0(x), \]
+\[ f_2(x)=x^2+bf_1(x)+cf_0(x) \]
+を考える．相異なる$j$，$k$に対して
+\[ \int_{-1}^1f_j(x)f_k(x)dx=0 \]
+が成り立つとき，つぎの各問に答えよ．
+\begin{description}
+\item[(1)]定数$a$，$b$，$c$を求めよ．
+\item[(2)]$j=0, \, 1, \, 2$のそれぞれに対して
+\[ \int_{-1}^1 { \{ f_j(x) \} }^2 dx \]
+の値を求めよ．
+\item[(3)]$j=0, \, 1, \, 2$のそれぞれに対して
+\[ \int_{-1}^1 f_j(x) \cos(\pi x) dx \]
+の値を求めよ．
+\item[(4)]つぎの$I$の値が最小となる実数$k_0$，$k_1$，$k_2$の値を求めよ．
+さらに$I$の最小値を求めよ．
+\[ I=\int_{-1}^1 { \{ \cos(\pi x)-k_0f_0(x)-k_1f_1(x)-k_2f_2(x) \} }^2 dx \]
+\end{description}
+\end{flushleft}
+\end{document}

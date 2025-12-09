@@ -1,0 +1,22 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　正数$r$に対して，$a_1=0$，$a_2=r$とおき，数列$ \{ a_n \} $を次の漸化式で定める．
+\[ a_{n+1}=a_n+r_n(a_n-a_{n-1}) \hspace{1zw} (n=2,3,4,\cdots) \]
+ただし$a_n$と$a_{n-1}$から漸化式を用いて$a_{n+1}$を決める際には硬貨を投げ，
+表がでたとき$\displaystyle r_n=\frac{r}{2}$，裏がでたとき$\displaystyle r_n=\frac{1}{2r}$とする．
+ここで表がでる確率と裏がでる確率は等しいとする．
+$a_n$の期待値を$p_n$とするとき，以下の問いに答えよ．
+\begin{description}
+\item[(1)]$p_3$および$p_4$を，$r$を用いて表せ．
+\item[(2)]$n\geqq3$のときに$p_n$を，$n$と$r$を用いて表せ．
+\item[(3)]数列$ \{ p_n \} $が収束するような正数$r$の範囲を求めよ．
+\item[(4)]$r$が(3)で求めた範囲を動くとき，
+極限値$\displaystyle\lim_{n\to\infty}p_n$の最小値を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

@@ -1,0 +1,24 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　$f(x)$を区間$ [ 0, \, \pi ] $で連続な関数とする。
+関数$f_1(x), \, f_2(x), \, \cdots\cdots$を関係式
+\[ f_1(x)=f(x), \]
+\[ f_{n+1}(x)=2\cos x+\frac{2}{\pi}\int_0^\pi f_n(t)\sin(x-t)dt \hspace{1zw}
+(n=1, \, 2, \, 3, \, \cdots\cdots) \]
+により定める。さらに，自然数$n$に対して
+\[ a_n=\frac{2}{\pi}\int_0^\pi f_n(t)\sin tdt, \hspace{1zw}
+b_n=\frac{2}{\pi}\int_0^\pi f_n(t)\cos tdt \]
+とおく。
+\begin{description}
+\item[(1)]$a_{n+1}, \, b_{n+1}$を$a_n, \, b_n$を用いて表せ。
+\item[(2)]$c_n=a_n-1$とおく。このとき，$c_{n+2}=-c_n$が成立することを示し，
+一般項$c_n$を$a_1$と$b_1$を用いて表せ。
+\item[(3)]$a_n, \, b_n$が$n$によらない定数となるような$f(x)$を1つ求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

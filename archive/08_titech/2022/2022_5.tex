@@ -1,0 +1,32 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　$a$は$\displaystyle0<a\leqq\frac{\pi}{4}$を満たす実数とし，
+$\displaystyle f(x)=\frac{4}{3}\sin\left( \frac{\pi}{4}+ax \right)
+\cos\left( \frac{\pi}{4}-ax \right)$とする．
+このとき，次の問いに答えよ．
+\begin{description}
+\item[(1)]次の等式(＊)を満たす$a$がただ1つ存在することを示せ．
+\[ \text{(＊)} \hspace{3zw} \int_0^1f(x)dx=1 \]
+\item[(2)]$0 \leqq b < c \leqq 1$を満たす実数$b, \, c$について，不等式
+\[ f(b)(c-b) \leqq \int_b^cf(x)dx \leqq f(c)(c-b) \]
+が成り立つことを示せ．
+\item[(3)]次の試行を考える．
+\begin{description}
+\item[(試行)]$n$個の数$1, \, 2, \, \cdots\cdots, \, n$を出目とする，あるルーレットを$k$回まわす．
+\end{description}
+この(試行)において，各$i=1, \, 2, \, \cdots\cdots, \, n$について
+$i$が出た回数を$S_{n,k,i}$とし，
+\[ \text{(＊＊)} \hspace{3zw} \lim_{k\to\infty}\frac{S_{n,k,i}}{k}=
+\int_{\frac{i-1}{n}}^{\frac{i}{n}}f(x)dx \]
+が成り立つとする．このとき，(1)の等式(＊)が成り立つことを示せ．
+\item[(4)](3)の(試行)において出た数の平均値を$A_{n,k}$とし，
+$\displaystyle A_n=\lim_{k\to\infty}A_{n,k}$とする．\\
+(＊＊)が成り立つとき，極限$\displaystyle\lim_{n\to\infty}\frac{A_n}{n}$を$a$を用いて表せ．
+\end{description}
+\end{flushleft}
+\end{document}

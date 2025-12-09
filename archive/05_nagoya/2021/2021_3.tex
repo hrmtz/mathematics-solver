@@ -1,0 +1,31 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfm]{graphicx}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　1から12までの数字が下の図のように並べて書かれている。
+以下のルール(a)，(b)と（終了条件）を用いたゲームを行う。
+ゲームを開始すると最初に(a)を行い，（終了条件）が満たされたならゲームを終了する。
+そうでなければ（終了条件）が満たされるまで(b)の操作を繰り返す。
+ただし，(a)と(b)における数字を選ぶ操作はすべて独立な試行とする。
+\begin{description}
+\item[(a)]1から12までの数字のどれか1つを等しい確率で選び，
+下の図において選んだ数字を丸で囲み，その上に石を置く。
+\item[(b)]石が置かれた位置の水平右側または垂直下側の位置にある数字のどれか1つを等しい確率で選び，
+その数字を丸で囲み，そこに石を移して置く。
+例えば，石が6の位置に置かれているときは，その水平右側または垂直下側の位置にある数字
+7，8，9，10, 12のどれか1つの数字を等しい確率で選び，その数字を丸で囲み，そこに石を移して置く。
+\item[（終了条件）]5，9，11，12の数字のどれか1つが丸で囲まれ石が置かれている。
+\end{description}
+ゲームの終了時に数字$j$が丸で囲まれている確率を$p_j$とする。以下の問に答えよ。\\
+　\includegraphics[width=4cm]{fig_2021_3.jpg}
+\begin{description}
+\item[(1)]確率$p_2$を求めよ。
+\item[(2)]確率$p_5$と$p_{11}$を求めよ。
+\item[(3)]確率$p_5, \, p_9, \, p_{11}, \, p_{12}$のうち最も大きいものの値を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

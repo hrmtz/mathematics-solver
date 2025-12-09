@@ -1,0 +1,28 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　$p_1=1$，$p_2=1$，$p_{n+2}=p_n+p_{n+1}$ $(n\geqq1)$によって定義される数列$\{p_n\}$をフィボナッチ数列といい，
+その一般項は
+\[ p_n=\frac{1}{\sqrt5} \left\{ { \left( \frac{1+\sqrt5}{2} \right) }^n
+-{ \left( \frac{1-\sqrt5}{2} \right) }^n \right\} \]
+で与えられる．
+必要ならばこの事実を用いて，次の問いに答えよ．\\
+　各桁の数字が0か1であるような自然数の列$X_n$ $(n=1,2,\cdots\cdots)$を次の規則により定める．
+\begin{description}
+\item[(i)]$X_1=1$
+\item[(ii)]$X_n$のある桁の数字$\alpha$が0ならば$\alpha$を1で置き換え，
+$\alpha$が1ならば$\alpha$を'10'で置き換える．
+$X_n$の各桁ごとにこのような置き換えを行って得られる自然数を$X_{n+1}$とする．
+\end{description}
+　たとえば，$X_1=1$，$X_2=10$，$X_3=101$，$X_4=10110$，$X_5=10110101$，$\cdots\cdots$となる．
+\begin{description}
+\item[(1)]$X_n$の桁数$a_n$を求めよ．
+\item[(2)]$X_n$の中に'01'という数字の配列が現れる回数$b_n$を求めよ
+ $(\text{たとえば},b_1=0,b_2=0,b_3=1,b_4=1,b_5=3,\cdots\cdots)$．
+\end{description}
+\end{flushleft}
+\end{document}

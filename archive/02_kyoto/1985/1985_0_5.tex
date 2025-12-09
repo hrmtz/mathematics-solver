@@ -1,0 +1,24 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb,pifont}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　正六角形の頂点を反時計まわりの順に，$A_0,A_1,\cdots\cdots,A_5$とし，
+次のルール\ding{"AC}，\ding{"AD}，\ding{"AE}に従ってゲームを行う．
+\begin{description}
+\item[\ding{"AC}]$A_0$を出発点とする．
+\item[\ding{"AD}]コインを投げ，表が出たら反時計まわりに隣の頂点に移動し，
+裏が出たら，時計まわりに隣の頂点に移動する．
+\item[\ding{"AE}]$A_0$の反対側の頂点$A_3$に到達したらゲームは終了する．
+\end{description}
+　整数$n$ $(n\geqq0)$に対して，
+\begin{description}
+\item[]$p_n$=$(2n+1)$回コインを投げ移動を行ってもゲームの終了しない確率
+\item[]$q_n$=ちょうど$(2n+1)$回目の移動によってゲームの終了する確率
+\end{description}
+とする．コインを投げたとき，表裏の出る確率はそれぞれ$\displaystyle\frac{1}{2}$ずつである．
+$p_n$および$q_n$を求めよ．
+\end{flushleft}
+\end{document}

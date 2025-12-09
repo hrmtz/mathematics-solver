@@ -1,0 +1,21 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 6}
+　$n$を自然数とし、
+\[ I_n=\int_0^1\frac{dx}{\sqrt{1+x^n}}, \hspace{1zw}
+J_n=\int_0^1\log{\left( \sqrt{1+x^n}+1 \right)}dx \]
+とおく。ただし、対数は自然対数とする。
+\begin{description}
+\item[(1)]実数$t\geqq0$に対し、次の不等式が成り立つことを示せ。
+\[ \log\left(\frac{\sqrt{1+t}+1}{2}\right)\leqq\frac{t}{2(\sqrt{1+t}+1)} \]
+\item[(2)]次の不等式が成り立つことを示せ。
+\[ 0 \leqq J_n-\log2 \leqq \frac{1}{4(n+1)} \]
+\item[(3)]導関数$\displaystyle\frac{d}{dx}\log\left(\sqrt{1+x^n}+1\right)$を求めよ。
+\item[(4)]極限値$\displaystyle\lim_{n\to\infty}n(1-I_n)$を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

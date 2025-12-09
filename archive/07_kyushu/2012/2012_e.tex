@@ -1,0 +1,24 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　数直線上に2点$X_1$，$X_2$を取り，それぞれの座標を$a_1$および$a_2$とする。ただし，$0<a_1<a_2$とする。
+線分$X_1X_2$を$s:1-s$に内分する点を$X_3$，線分$X_2X_3$を$s:1-s$に内分する点を$X_4$，
+同様に自然数$k$に対して線分$X_kX_{k+1}$を$s:1-s$に内分する点を$X_{k+2}$とする。ただし，$0<s<1$とする。
+このとき，以下の問いに答えよ。
+\begin{description}
+\item[(1)]2点$X_{2n-1}$，$X_{2n}$の座標を並べて
+ベクトル$\begin{pmatrix} a_{2n-1} \\ a_{2n} \end{pmatrix}$で表し，
+\[ \begin{pmatrix} a_{2n+1} \\ a_{2n+2} \end{pmatrix}=A\begin{pmatrix} a_{2n-1} \\ a_{2n} \end{pmatrix} \]
+と書くとき，行列$A$を$s$を用いて表せ。ただし，$n$は自然数である。
+\item[(2)]行列$P$を
+\[ P=\begin{pmatrix} 1 & 1 \\ s-1 & 1 \end{pmatrix} \]
+とし，行列$B$を$B=P^{-1}AP$とする。行列$B$を求めよ。
+\item[(3)]座標$a_{2n+1}$および$a_{2n+2}$を$n$，$s$，$a_1$，$a_2$を用いて表せ。
+\item[(4)]点$X_k$の座標$a_k$の極限$\displaystyle\lim_{k\to\infty}a_k$を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

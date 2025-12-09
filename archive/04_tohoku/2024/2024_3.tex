@@ -1,0 +1,27 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　$n$を2以上の整数とする。
+それぞれA，A，Bと書かれた3枚のカードから無作為に1枚抜き出し，カードをもとに戻す試行を考える。
+この試行を$n$回繰り返し，抜き出したカードの文字を順に左から右に並べ，$n$文字の文字列を作る。
+作った文字列内にAAAの並びがある場合は不可とする。
+また，作った文字列内にBBの並びがある場合も不可とする。
+これらの場合以外は可とする。
+たとえば$n=6$のとき，文字列AAAABAやABBBAAやABBABBやBBBAAAなどは不可で，
+文字列BABAABやBABABAなどは可である。
+作った文字列が可でかつ右端の2文字がAAである確率を$p_n$，
+作った文字列が可でかつ右端の2文字がBAである確率を$q_n$，
+作った文字列が可でかつ右端の文字がBである確率を$r_n$とそれぞれおく。
+\begin{description}
+\item[(1)]$p_2, \, q_2, \, r_2$をそれぞれ求めよ。
+また，$p_{n+1}, \, q_{n+1}, \, r_{n+1}$を$p_n, \, q_n, \, r_n$を用いてそれぞれ表せ。
+\item[(2)]$p_n+2q_n+2r_n$を$n$を用いて表せ。
+\item[(3)]$p_n+iq_n-(1+i)r_n$を$n$を用いて表せ。ただし，$i$は虚数単位である。
+\item[(4)]$p_n=r_n$を満たすための，$n$の必要十分条件を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

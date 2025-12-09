@@ -1,0 +1,25 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　自然数$n$と実数$a_0, \, a_1, \, a_2, \, \cdots\cdots, \, a_n$ $(a_n\neq0)$に対して，2つの整式
+\[ f(x)=\sum_{k=0}^na_kx^k=a_nx^n+a_{n-1}x^{n-1}+\cdots\cdots+a_1x+a_0 \]
+\[ f'(x)=\sum_{k=1}^nka_kx^{k-1}=na_nx^{n-1}+(n-1)a_{n-1}x^{n-2}+\cdots\cdots+a_1 \]
+を考える。$\alpha$，$\beta$を異なる複素数とする。
+複素平面上の2点$\alpha$，$\beta$を結ぶ線分上にある点$\gamma$で，
+\[ \frac{f(\beta)-f(\alpha)}{\beta-\alpha}=f'(\gamma) \]
+をみたすものが存在するとき，
+\[ \alpha, \, \beta, \, f(x)\text{は平均値の性質をもつ} \]
+ということにする。以下の問いに答えよ。ただし，$i$は虚数単位とする。
+\begin{description}
+\item[(1)]$n=2$のとき，どのような$\alpha$，$\beta$，$f(x)$も平均値の性質をもつことを示せ。
+\item[(2)]$\alpha=1-i$，$\beta=1+i$，$f(x)=x^3+ax^2+bx+c$が平均値の性質をもつための，
+実数$a, \, b, \, c$に関する必要十分条件を求めよ。
+\item[(3)]$\displaystyle\alpha=\frac{1-i}{\sqrt2}$，$\displaystyle\beta=\frac{1+i}{\sqrt2}$，
+$f(x)=x^7$は，平均値の性質をもたないことを示せ。
+\end{description}
+\end{flushleft}
+\end{document}

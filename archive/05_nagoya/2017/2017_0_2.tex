@@ -1,0 +1,27 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfm]{graphicx}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 2}
+　下図のような立方体を考える。この立方体の8つの頂点の上を点Pが次の規則で移動する。
+時刻0では点Pは頂点Aにいる。時刻が1増えるごとに点Pは，
+今いる頂点と辺で結ばれている頂点に等確率で移動する。
+例えば時刻$n$で点Pが頂点Hにいるとすると，時刻$n+1$では，
+それぞれ$\displaystyle\frac{1}{3}$の確率で頂点D，E，Gのいずれかにいる。
+自然数$n\geqq1$に対して，(i)点Pが時刻$n$までの間一度も頂点Aに戻らず，
+かつ時刻$n$で頂点B，D，Eのいずれかにいる確率を$p_n$，
+(ii)点Pが時刻$n$までの間一度も頂点Aに戻らず，
+かつ時刻$n$で頂点C，F，Hのいずれかにいる確率を$q_n$，
+(iii)点Pが時刻$n$までの間一度も頂点Aに戻らず，
+かつ時刻$n$で頂点Gにいる確率を$r_n$，とする。このとき，次の問に答えよ。
+\begin{description}
+\item[(1)]$p_2$，$q_2$，$r_2$と$p_3$，$q_3$，$r_3$を求めよ。
+\item[(2)]$n\geqq2$のとき，$p_n$，$q_n$，$r_n$を求めよ。
+\item[(3)]自然数$m\geqq1$に対して，点Pが時刻$2m$で頂点Aに初めて戻る確率$s_m$を求めよ。
+\end{description}
+\includegraphics[width=6cm]{fig_2017_2.jpg}
+\end{flushleft}
+\end{document}

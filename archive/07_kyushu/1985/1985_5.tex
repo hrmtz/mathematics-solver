@@ -1,0 +1,24 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　$A$，$B$ 2つのつぼがある．
+$A$には白球$a$個，赤球$b$個が，$B$には白球$b$個，赤球$a$個が入っている$(a>0, \, b>0)$．
+まず，$A$より，無作為に球を取り出す．
+取り出した後，ただちにもとに戻す．
+白球が取り出されたときは，次に$A$より球を取り出し，
+赤球が取り出されたときは，次に$B$より球を取り出すとする．
+以下このようにして，球を取り出して戻すことを続けたとき，
+$n$回目に取り出した球が白球である確率を$p_n$，赤球である確率を$q_n$で表す．
+このとき，次の(1)，(2)に答えよ．
+\begin{description}
+\item[(1)]$\begin{pmatrix} p_{n+1} \\ q_{n+1} \end{pmatrix}=\begin{pmatrix} \alpha & \beta \\ \gamma & \delta \end{pmatrix}
+\begin{pmatrix} p_n \\ q_n \end{pmatrix}$ $(n=1, \, 2, \, \cdots\cdots)$とするとき，
+行列$A=\begin{pmatrix} \alpha & \beta \\ \gamma & \delta \end{pmatrix}$を求めよ．
+\item[(2)]$p_n$を求め，かつ$\displaystyle\lim_{n\to\infty}p_n$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

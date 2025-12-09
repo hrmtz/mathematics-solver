@@ -1,0 +1,22 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　ある会社である工事を受注した．
+その工事はまず第1工程，第2工程，検査の順に行い，3つの作業はそれぞれ1日を必要とする．
+検査では第1工程，第2工程に欠陥があるかないかがわかる．
+検査の結果第1工程に欠陥があれば，工事は第1工程，第2工程ともやり直し，改めて検査をする．
+第1工程に欠陥がなく第2工程のみに欠陥があれば，第2工程のみやり直して検査する．
+これらの作業は日曜日を除いて引き続いて行い，検査の結果第1，第2工程ともに欠陥がなければ工事は終了する．
+各工程ではそれまでの経過とは独立に確率$p$で欠陥が発生するものとする．
+月曜日から工事を始めた場合$n$週間以内にその工事が終了する確率を$P(n)$とする．
+\begin{description}
+\item[(1)]$P(1)$を求めよ．
+\item[(2)]$P(n)$を求めよ．
+\item[(3)]$\displaystyle P=\frac{1}{2}$のとき$\displaystyle 1-P(n)<\frac{1}{1000}$を満たす最小の正整数$n$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

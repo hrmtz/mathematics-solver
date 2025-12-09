@@ -1,0 +1,53 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{pifont}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　定積分について述べた次の文章を読んで，後の問いに答えよ。\\
+　\\
+　$f(x)$を整式とする。$F'(x)=f(x)$となる関数$F(x)$を1つ選び，$f(x)$の$a$から$b$までの定積分を
+\[ \int_a^b f(x)dx=F(b)-F(a) \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \]
+で定義する。定積分の値は$F(x)$の選び方によらずに定まる。定積分は次の性質(A)，(B)，(C)をもつ。
+\begin{description}
+\item[(A)]$\displaystyle \int_a^b \{ kf(x)+lg(x) \} dx=
+k\int_a^b f(x)dx+l\int_a^b g(x)dx $
+\item[(B)]$a \leqq c \leqq b$のとき，
+$\displaystyle \int_a^c f(x)dx+\int_c^b f(x)dx=\int_a^b f(x)dx$
+\item[(C)]区間$a \leqq x \leqq b$において$g(x) \geqq h(x)$ならば，
+$\displaystyle \int_a^b g(x)dx \geqq \int_a^b h(x)dx$
+\end{description}
+ただし，$f(x), \, g(x), \, h(x)$は整式，$k, \, l$は定数である。\\
+　以下，$f(x)$が区間$0 \leqq x \leqq 1$上で増加関数になる場合を考える。$n$を自然数とする。
+\underline{定積分の性質　[　ア　]　を用い，定数関数に対する定積分の計算を行う}と，
+\[ \frac{1}{n}f\left(\frac{i-1}{n}\right) \leqq \int_\frac{i-1}{n}^\frac{i}{n}f(x)dx \leqq
+\frac{1}{n}f\left(\frac{i}{n}\right) \hspace{1zw} (i=1, \, 2, \, \cdots, \, n) \hspace{1zw}
+\cdots\cdots\text{\ding{"AD}} \]
+が成り立つことがわかる。
+$\displaystyle S_n=\frac{1}{n}\sum_{i=1}^nf\left(\frac{i-1}{n}\right)$とおくと，
+不等式\ding{"AD}と定積分の性質　[　イ　]　より次の不等式が成り立つ。
+\[ 0 \leqq \int_0^1f(x)dx-S_n \leqq \frac{f(1)-f(0)}{n} \hspace{1zw}
+\cdots\cdots\text{\ding{"AE}} \]
+よって，$n$を限りなく大きくすると，
+$S_n$は$\displaystyle\int_0^1f(x)dx$に限りなく近づく。
+　\\
+　\\
+　\\
+\begin{description}
+\item[(1)]関数$F(x), \, G(x)$が微分可能であるとき，
+\[ { \{ F(x)+G(x) \} }' =F'(x)+G'(x) \]
+が成り立つことと定積分の定義\ding{"AC}を用いて，
+性質(A)で$k=l=1$とした場合の等式
+\[ \int_a^b \{ f(x)+g(x) \} dx=\int_a^bf(x)dx+\int_a^bg(x)dx \]
+を示せ。
+\item[(2)]定積分の定義\ding{"AC}と，関数の増減と導関数の関係を用いて，次を示せ。\\
+$a<b$のとき，区間$a \leqq x \leqq b$において$g(x)>0$ならば，$\displaystyle\int_a^bg(x)dx>0$
+\item[(3)](A)，(B)，(C)のうち，空欄　[　ア　]　に入る記号として最もふさわしいものを1つ選び答えよ。
+また文章中の下線部の内容を詳しく説明することで，不等式\ding{"AD}を示せ。
+\item[(4)](A)，(B)，(C)のうち，空欄　[　イ　]　に入る記号として最もふさわしいものを1つ選び答えよ。
+また，不等式\ding{"AE}を示せ。
+\end{description}
+\end{flushleft}
+\end{document}

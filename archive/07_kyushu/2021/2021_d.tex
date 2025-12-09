@@ -1,0 +1,32 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　正四面体ABCDの頂点A，B，C，D上の動点Pが，時刻0には頂点Bにいるとする。
+0以上の整数$n$に対して，時刻$n+1$の$P$の位置が，時刻$n$のPの位置から以下のルールに従って決まるとする。
+\begin{description}
+\item[●]時刻$n$にPが頂点Aにいる場合\\
+時刻$n+1$にPはそれぞれ確率$\displaystyle \frac{1}{2}, \, \frac{1}{6}, \, \frac{1}{6}, \, \frac{1}{6}$
+で頂点A，B，C，Dにいる。
+\item[●]時刻$n$にPが頂点Bにいる場合\\
+時刻$n+1$にPはそれぞれ確率$\displaystyle \frac{1}{3}, \, \frac{1}{3}, \, \frac{1}{3}$
+で頂点A，B，Cにいる。
+\item[●]時刻$n$にPが頂点Cにいる場合\\
+時刻$n+1$にPはそれぞれ確率$\displaystyle \frac{1}{3}, \, \frac{1}{3}, \, \frac{1}{3}$
+で頂点A，C，Dにいる。
+\item[●]時刻$n$にPが頂点Dにいる場合\\
+時刻$n+1$にPはそれぞれ確率$\displaystyle \frac{1}{3}, \, \frac{1}{3}, \, \frac{1}{3}$
+で頂点A，B，Dにいる。
+\end{description}
+0以上の整数$n$に対して，時刻$n$に$P$が頂点A，B，C，Dにいる確率を
+それぞれ$a_n, \, b_n, \, c_n, \, d_n$とする。以下の問いに答えよ。
+\begin{description}
+\item[(1)]$a_n$を求めよ。
+\item[(2)]$n$が3の倍数のときの$b_n-c_n$と$c_n-d_n$を求めよ。
+\item[(3)]$n$が3の倍数のときの$b_n, \, c_n, \, d_n$を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

@@ -1,0 +1,30 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfm]{graphicx}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　片面が黒，もう片面が白の正方形の板が9枚ある。
+これらを，横3列，縦3列に，すべて黒が表になるように並べる。
+さいころの出た目に従って，以下のように，ある1列をすべてひっくり返す
+（すなわち，白になっているものは黒に，黒になっているものは白にする）。
+\begin{description}
+\item[●]1が出れば上の横の列にある板をすべてひっくり返す。
+\item[●]2が出れば中央の横の列にある板をすべてひっくり返す。
+\item[●]3が出れば下の横の列にある板をすべてひっくり返す。
+\item[●]4が出れば左の縦の列にある板をすべてひっくり返す。
+\item[●]5が出れば中央の縦の列にある板をすべてひっくり返す。
+\item[●]6が出れば右の縦の列にある板をすべてひっくり返す。
+\end{description}
+たとえば，さいころを2回振って最初に1，次に4が出たとき，板は次のようになる。\\
+\includegraphics[width=8cm]{fig_2018_c_1.jpg}
+\begin{description}
+\item[(1)]さいころを2回振ったときに，すべての板が黒になっている確率を求めよ。
+\item[(2)]さいころを3回振ったときに，すべての板が白になっている確率を求めよ。
+\item[(3)]さいころを4回振ったときに，下の図のようになっている確率を求めよ。\\
+\includegraphics[width=3cm]{fig_2018_c_2.jpg}
+\end{description}
+\end{flushleft}
+\end{document}

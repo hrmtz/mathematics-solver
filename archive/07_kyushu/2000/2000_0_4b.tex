@@ -1,0 +1,27 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4 (b)}
+　1から$n$までの数で$m$個からなる重複しない数の順列を作り出す算法として，下記のものを考えた．
+ただし，$S$は順列を表し，算法の開始の時は数を含まない（$S$は空であるという）とする．
+算法の終了時には結果として順列を得るものとする．\\
+　算法［以下(a)，(b)，(c)，$\cdots$の順に行う］
+\begin{description}
+\item[(a)]$S$を空とし，$j=n-m+1$とする．
+\item[(b)]1から$j$までの数からデタラメに数$t$を選ぶ．
+\item[(c)]$t$が順列$S$に入っているならば，$t$の直後に$j$を入れ，そうでないならば，$t$を$S$の先頭に入れる．
+\item[(d)]$j$を1増やす．
+\item[(e)]$j \leqq n$ならば，(b)へもどる．$j>n$ならば，終了する．
+\end{description}
+\begin{description}
+\item[(1)]$n=10$，$m=6$の場合で(b)において選ばれた数$t$は順に4，3，6，3，2，5であった．
+その結果として得られる順列$S$はどのような順列か．
+\item[(2)]$n=10$，$m=6$の場合で結果として得られた順列$S$が827593であった．
+(b)で選ばれた数$t$の列は何であったか．
+\item[(3)]算法の結果として得られた順列$S$から(b)において選ばれた数の列を復元する算法を記述せよ．
+\end{description}
+\end{flushleft}
+\end{document}

@@ -1,0 +1,23 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　$n$を正の整数とする．
+箱の中に$3^n$枚のカードが入っていて，これらのカードには1から$3^n$までの番号がつけてある．
+この箱から無作為に1枚のカードを取り出し，その番号を$X$とする．
+次に，このカードを箱の中に戻し，ふたたび無作為に1枚のカードを取り出して，その番号を$Y$とする．
+このようにして得られた整数の組$(X, \, Y)$について，
+「$X$と$Y$の積$XY$は$3^n$で割り切れる」という事象を$A$とする．
+\begin{description}
+\item[(1)]$0 \leqq j \leqq n$である整数$j$に対し，
+「$Y$は$3^j$で割り切れるが$3^{j+1}$では割り切れない」という事象を$B_j$とおく．
+事象$A \cap B_j$が起こる確率$P(A \cap B_j)$を求めよ．
+\item[(2)]事象$A$が起こる確率$P(A)$を求めよ．
+\item[(3)]事象$A$が起こったときに事象$B_n$が起こる条件つき確率を$P_A(B_n)$とするとき，
+$\displaystyle\frac{1}{3}\leqq P_A(B_n)<\frac{1}{2}$が成立するような$n$の値を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

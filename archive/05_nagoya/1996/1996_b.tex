@@ -1,0 +1,29 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 2}
+　座標平面上の変換$f:P(x, \, y) \to P'(x', \, y')$を
+\[ \begin{pmatrix} x' \\ y' \end{pmatrix}=
+\frac{1}{2}A\begin{pmatrix} x \\ y \end{pmatrix}+\begin{pmatrix} 1 \\ 0 \end{pmatrix}, \hspace{1zw}
+A=\begin{pmatrix} \cos\alpha & -\sin\alpha \\ \sin\alpha & \cos\alpha \end{pmatrix} \]
+で定める．ここで，$0 \leqq \alpha<2\pi$とする．
+初期点$P_0$を原点$O$にとり，漸化式$P_{n+1}=f(P_n)$ $(n\geqq0)$により，点列
+\[ P_1(x_1, \, y_1), \, P_2(x_2, \, y_2), \, \cdots\cdots, P_n(x_n, \, y_n), \cdots\cdots \]
+をつくる．次の問に答えよ．
+\begin{description}
+\item[(1)]変換$f$について，$f(U)=U$となる点$U(a, \, b)$を求めよ．この点を変換$f$の不動点という．
+\item[(2)]この不動点$U$について，
+\[ |\overrightarrow{UP_{n+1}}|=\frac{1}{2}|\overrightarrow{UP_n}|, \hspace{1zw}
+\angle P_nUP_{n+1}=\alpha \hspace{1zw} (n\geqq0) \]
+を示せ．
+\item[(3)]$\alpha$を変化させたとき，不動点$U$は円の周上を動くことを示せ．
+また，その円の中心と半径を求めよ．
+\item[(4)]三角形$P_nUP_{n+1}$ $(n\geqq0)$の面積を$S_n$，
+その総和を$\displaystyle S=\sum_{n=0}^\infty S_n$とする．
+$\alpha$を変化させたときの$S$の最大値を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

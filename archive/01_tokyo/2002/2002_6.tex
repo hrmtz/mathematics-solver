@@ -1,0 +1,30 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 6}
+　$N$を正の整数とする．
+2$N$個の項からなる数列$\{ a_1,a_2,\cdots,a_N,b_1,b_2,\cdots,b_N  \}$を
+\[ \{ b_1,a_1,b_2,a_2,\cdots,b_N,a_N \} \]
+という数列に並べ替える操作を「シャッフル」と呼ぶことにする．
+並べ替えた数列は$b_1$を初項とし，
+$b_i$の次に$a_i$，$a_i$の次に$b_{i+1}$が来るようなものになる．
+また，数列$\{ 1,2,\cdots,2N \}$をシャッフルしたときに得られる数列において，
+数$k$が現れる位置を$f(k)$で表す．\\
+　たとえば，$N=3$のとき，
+$\{ 1,2,3,4,5,6 \}$をシャッフルすると$\{ 4,1,5,2,6,3 \}$となるので，
+\[ f(1)=2, \hspace{1zw} f(2)=4, \hspace{1zw} f(3)=6, \hspace{1zw}
+f(4)=1, \hspace{1zw} f(5)=3, \hspace{1zw} f(6)=5 \]
+である．
+\begin{description}
+\item[(1)]数列$\{ 1,2,3,4,5,6,7,8 \}$を3回シャッフルしたときに得られる数列を求めよ．
+\item[(2)]$1 \leqq k \leqq 2N$を満たす任意の整数$k$に対し，
+$f(k)-2k$は$2N+1$で割り切れることを示せ．
+\item[(3)]$n$を正の整数とし，$N=2^{n-1}$のときを考える．
+数列$\{ 1,2,3,\cdots,2N \}$を$2n$回シャッフルすると，
+$\{ 1,2,3,\cdots,2N \}$にもどることを証明せよ．
+\end{description}
+\end{flushleft}
+\end{document}

@@ -1,0 +1,24 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 6}
+　$n$を正の整数とする。以下の問いに答えよ。
+\begin{description}
+\item[(1)]関数$g(x)$を次のように定める。
+\[ g(x)=\begin{cases} \displaystyle\frac{\cos(\pi x)+1}{2} & (|x|\leqq1\text{のとき}) \\
+0 & (|x|>1\text{のとき}) \end{cases} \]
+$f(x)$を連続な関数とし，$p$，$q$を実数とする。
+$\displaystyle|x|\leqq\frac{1}{n}$をみたす$x$に対して
+$p \leqq f(x) \leqq q$が成り立つとき，次の不等式を示せ。
+\[ p \leqq n\int_{-1}^1g(nx)f(x)dx \leqq q \]
+\item[(2)]関数$h(x)$を次のように定める。
+\[ h(x)=\begin{cases} \displaystyle-\frac{\pi}{2}\sin(\pi x) & (|x|\leqq1\text{のとき}) \\
+0 & (|x|>1\text{のとき}) \end{cases} \]
+このとき，次の極限を求めよ。
+\[ \lim_{n\to\infty}n^2\int_{-1}^1h(nx)\log(1+e^{x+1})dx \]
+\end{description}
+\end{flushleft}
+\end{document}

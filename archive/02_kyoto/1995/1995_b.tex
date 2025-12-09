@@ -1,0 +1,25 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 2}
+　$O$を中心とする円周上に相異なる3点$A_0$，$B_0$，$C_0$が時計回りの順に置かれている．
+自然数$n$に対し，点$A_n$，$B_n$，$C_n$を次の規則で定めていく．
+\begin{description}
+\item[(イ)]$A_n$は弧$A_{n-1}B_{n-1}$を2等分する点である．
+(ここで弧$A_{n-1}B_{n-1}$は他の点$C_{n-1}$を含まないほうを考える．以下においても同様である．)
+\item[(ロ)]$B_n$は弧$B_{n-1}C_{n-1}$を2等分する点である．
+\item[(ハ)]$C_n$は弧$C_{n-1}A_{n-1}$を2等分する点である．
+\end{description}
+　$\angle A_nOB_n$の大きさを$\alpha_n$とする．
+ただし，$\angle A_nOB_n$は点$C_n$を含まないほうの弧$A_nB_n$の中心角を表す．
+\begin{description}
+\item[(1)]すべての自然数$n$に対して$4\alpha_{n+1}-2\alpha_n+\alpha_{n-1}=2\pi$であることを示せ．
+\item[(2)]すべての自然数$n$に対して
+$\displaystyle\alpha_{n+2}=\frac{3}{4}\pi-\frac{1}{8}\alpha_{n-1}$であることを示せ．
+\item[(3)]$\alpha_{3n}$を$\alpha_0$で表せ．
+\end{description}
+\end{flushleft}
+\end{document}

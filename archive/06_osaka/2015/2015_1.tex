@@ -1,0 +1,21 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 1}
+　自然数$n$に対して関数$f_n(x)$を
+\[ f_n(x)=\frac{x}{n(1+x)}\log(1+\frac{x}{n}) \hspace{1zw} (x\geqq0) \]
+で定める．以下の問いに答えよ．
+\begin{description}
+\item[(1)]$\displaystyle\int_0^nf_n(x)dx\leqq\int_0^1\log(1+x)dx$を示せ．
+\item[(2)]数列$\{ I_n \}$を
+\[ I_n=\int_0^nf_n(x)dx \]
+で定める．
+$0 \leqq x \leqq 1$のとき$\log(1+x)\leqq\log2$であることを用いて数列$\{ I_n \}$が収束することを示し，
+その極限値を求めよ．
+ただし，$\displaystyle\lim_{x\to\infty}\frac{\log x}{x}=0$であることは用いてよい．
+\end{description}
+\end{flushleft}
+\end{document}

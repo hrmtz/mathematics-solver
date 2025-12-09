@@ -1,0 +1,21 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　$A=\begin{pmatrix} \displaystyle\cos\frac{2\pi}{3} & \displaystyle-\sin\frac{2\pi}{3}
+\\ \displaystyle\sin\frac{2\pi}{3} & \displaystyle\cos\frac{2\pi}{3} \end{pmatrix}$とし，
+ベクトル$\overrightarrow{u_n}=
+\begin{pmatrix} x_n \\ y_n \end{pmatrix}$ $(n=1, \, 2, \, \cdots\cdots)$を次のように定義する．
+\[ \overrightarrow{u_1}=\begin{pmatrix} 0 \\ 0 \end{pmatrix}, \hspace{1zw}
+\overrightarrow{u_2}=\begin{pmatrix} 1 \\ 0 \end{pmatrix}, \hspace{1zw}
+\overrightarrow{u_n}=\overrightarrow{u_{n-1}}+
+\frac{1}{2}A(\overrightarrow{u_{n-1}}-\overrightarrow{u_{n-2}}) \hspace{1zw} (n\geqq3) \]
+\begin{description}
+\item[(1)]$x_n$，$y_n$を求めよ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}x_n$，$\displaystyle\lim_{n\to\infty}y_n$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

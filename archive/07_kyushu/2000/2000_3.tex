@@ -1,0 +1,23 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　$n$を自然数として，$\displaystyle f(x)=\sum_{k=1}^n\frac{x^k}{k}$とおく．
+\begin{description}
+\item[(1)]$x<1$において，
+\[ f(x)=-\log(1-x)-\int_0^x\frac{t^n}{1-t}dt \]
+が成り立つことを示せ．
+ここで，$\displaystyle\log\frac{t^n}{1-t}$は自然対数を表す．
+\item[(2)]$\displaystyle|x|\leqq\frac{1}{3}$とするとき，次の不等式が成り立つことを示せ．
+\begin{description}
+\item[(i)]$x\geqq0$において，$\displaystyle\int_0^x\frac{t^n}{1-t}dt\leqq\frac{3x^{n+1}}{2(n+1)}$
+\item[(ii)]$x<0$において，$\displaystyle\left|\int_0^x\frac{t^n}{1-t}dt\right|\leqq\frac{{|x|}^{n+1}}{n+1}$
+\item[(iii)]$\displaystyle\left|f(s)-f(-x)-\log\frac{1+x}{1-x}\right|\leqq\frac{5{|x|}^{n+1}}{2(n+1)}$
+\end{description}
+\item[(3)]この不等式を用いて，$\log2$の近似値を誤差が$\displaystyle\frac{1}{100}$以下となるような分数で求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

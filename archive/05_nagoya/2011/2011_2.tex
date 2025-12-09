@@ -1,0 +1,25 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 2}
+　$A_0=\begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}$とする．
+整数$n \geqq 1$に対して，次の試行により行列$A_{n-1}$から行列$A_n$を定める．
+\begin{description}
+\item[]「数字の組$(1,1)$，$(1,2)$，$(2,1)$，$(2,2)$を1つずつ書いた4枚の札が入っている袋から1枚を取り出し，
+その札に書かれている数字の組が$(i,j)$のとき，
+$A_{n-1}$の$(i,j)$成分に1を加えた行列を$A_n$とする．」
+\end{description}
+　この試行を$n$回$(n=2,3,4,\cdots)$くり返した後に，
+$A_0$，$A_1$，$\cdots$，$A_{n-1}$が逆行列をもたず
+$A_n$は逆行列をもつ確率を$p_n$とする．
+\begin{description}
+\item[(1)]$p_2$，$p_3$を求めよ．
+\item[(2)]$(n-1)$回$(n=2,3,4,\cdots)$の試行をくり返した後に，
+$A_{n-1}$の第1行の成分がいずれも正で第2行の成分はいずれも0である確率$q_{n-1}$を求めよ．
+\item[(3)]$p_n$ $(n=2,3,4,\cdots)$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

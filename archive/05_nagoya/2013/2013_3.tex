@@ -1,0 +1,20 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　$k$，$m$，$n$は整数とし，$n\geqq1$とする。
+${}_mC_k$を二項係数として，$S_k(n)$，$T_m(n)$を以下のように定める。
+\[ S_k(n)=1^k+2^k+3^k+\cdots+n^k, \hspace{1zw} S_k(1)=1 \hspace{1zw} (k\geqq0) \]
+\[ T_m(n)={}_mC_1S_1(n)+{}_mC_2S_2(n)+{}_mC_3S_3(n)+\cdots+{}_mC_{m-1}S_{m-1}(n)=
+\sum_{k=1}^{m-1}{}_mC_kS_k(n) \hspace{1zw} (m\geqq2) \]
+\begin{description}
+\item[(1)]$T_m(1)$と$T_m(2)$を求めよ。
+\item[(2)]一般の$n$に対して$T_m(n)$を求めよ。
+\item[(3)]$p$が3以上の素数のとき，
+$S_k(p-1)$ $(k=1, \, 2, \, 3, \, \cdots, \, p-2)$は$p$の倍数であることを示せ。
+\end{description}
+\end{flushleft}
+\end{document}

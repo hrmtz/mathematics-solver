@@ -1,0 +1,22 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　2次の正方行列$A$を$A=\begin{pmatrix} \displaystyle-\frac{1}{\sqrt2} & \displaystyle-\frac{1}{\sqrt2} \\
+\displaystyle\frac{1}{\sqrt2} & \displaystyle-\frac{1}{\sqrt2} \end{pmatrix}$で定める。
+$n=1, \, 2, \, 3, \, \cdots$に対して，点$P_n(x_n, \, y_n)$を関係式
+\[ \begin{pmatrix} x_n \\ y_n \end{pmatrix}=A\begin{pmatrix} x_{n-1} \\ y_{n-1} \end{pmatrix}
++\begin{pmatrix} 1 \\ 0 \end{pmatrix} \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
+で定める。ただし，$x_0=1$，$y_0=0$とする。
+\begin{description}
+\item[(1)]$A^4$を求めよ。
+\item[(2)]$n=0, \, 1, \, 2, \, \cdots$に対して，
+\[ \begin{pmatrix} x_n \\ y_n \end{pmatrix}=(E-A^{n+1}){(E-A)}^{-1}\begin{pmatrix} 1 \\ 0 \end{pmatrix} \]
+が成り立つことを示せ。ただし，$E$は2次の単位行列とする。
+\item[(3)]原点$O$から$P_n$までの距離$OP_n$が最大となる$n$を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

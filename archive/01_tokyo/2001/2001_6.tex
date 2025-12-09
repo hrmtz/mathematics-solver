@@ -1,0 +1,27 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 6}
+　コインを投げる試行の結果によって，
+数直線上にある2点$A$，$B$を次のように動かす．
+\begin{description}
+\item[表が出た場合：]点$A$の座標が点$B$の座標より大きいときは，$A$と$B$を共に正の方向に1動かす．
+そうでないときは，$A$のみ正の方向に1動かす．
+\item[裏が出た場合：]点$B$の座標が点$A$の座標より大きいときは，$A$と$B$を共に正の方向に1動かす．
+そうでないときは，$B$のみ正の方向に1動かす．
+\end{description}
+　最初2点$A$，$B$は原点にあるものとし，
+上記の試行を$n$回繰り返して$A$と$B$を動かしていった結果，
+$A$，$B$の到達した点の座標をそれぞれ$a$，$b$とする．
+\begin{description}
+\item[(1)]$n$回コインを投げたときの表裏の出方の場合の数$2^n$通りのうち，
+$a=b$となる場合の数を$X_n$とおく．
+$X_{n+1}$と$X_n$の間の関係式を求めよ．
+\item[(2)]$X_n$を求めよ．
+\item[(3)]$n$回コインを投げたときの表裏の出方の場合の数$2^n$通りについての$a$の値の平均を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

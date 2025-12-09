@@ -1,0 +1,32 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　$\omega$を$x^3=1$の虚数解のうち虚部が正であるものとする。さいころを繰り返し投げて，
+次の規則で4つの複素数$0, \, 1, \, \omega, \, \omega^2$を並べていくことにより，
+複素数の列$z_1, \, z_2, \, z_3, \, \cdots\cdots$を定める。
+\begin{description}
+\item[●]$z_1=0$とする。
+\item[●]$z_k$まで定まったとき，さいころを投げて，出た目を$t$とする。
+このとき$z_{k+1}$を以下のように定める。
+\begin{description}
+\item[○]$z_k=0$のとき，$z_{k+1}=\omega^t$とする。
+\item[○]$z_k \neq 0, \, t=1, \, 2$のとき，$z_{k+1}=0$とする。
+\item[○]$z_k \neq 0, \, t=3$のとき，$z_{k+1}=\omega z_k$とする。
+\item[○]$z_k \neq 0, \, t=4$のとき，$z_{k+1}=\overline{\omega z_k}$とする。
+\item[○]$z_k \neq 0, \, t=5$のとき，$z_{k+1}=z_k$とする。
+\item[○]$z_k \neq 0, \, t=6$のとき，$z_{k+1}=\overline{z_k}$とする。
+\end{description}
+\end{description}
+ここで複素数$z$に対し，$\overline{z}$は$z$と共役な複素数を表す。以下の問いに答えよ。
+\begin{description}
+\item[(1)]$\omega^2=\overline{\omega}$となることを示せ。
+\item[(2)]$z_n=0$となる確率を$n$の式で表せ。
+\item[(3)]$z_3=1$，$z_3=\omega$，$z_3=\omega^2$となる確率をそれぞれ求めよ。
+\item[(4)]$z_n=1$となる確率を$n$の式で表せ。
+\end{description}
+\end{flushleft}
+\end{document}

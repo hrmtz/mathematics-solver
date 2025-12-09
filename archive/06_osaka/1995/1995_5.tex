@@ -1,0 +1,27 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　自然数$n$に対して図形$T_n$を以下のように順に定義する．
+まず$T_1$は，3つの点を2つの長さ1の線分で図1のように結んで定義する．
+一般に図形$T_{n+1}$は図形$T_n$を2つと点を1つ用意し，
+その点と$T_n$の一番上の点を長さ1の線分で結ぶことにより，
+図2のように定義する．
+たとえば$T_3$は図3のようになる．
+$T_n$を通信回路と考える．
+隣接する2つの点を結ぶ長さ1の通信路が故障しているかどうかは互いに
+独立であって，その確率はすべて$p$であるとする．
+$T_n$の一番上の点を$O$，
+一番下の$2^n$個の点の集合を$A_n$で表す．
+$O$から$A_n$のどの点へも通信できない確率を$p_n$とする．
+\begin{description}
+\item[(1)]$p_n$と$p_{n+1}$の関係式を求めよ．
+\item[(2)]$1-p_{n+1}\leqq2(1-p)(1-p_n)$となることを示せ．
+\item[(3)]$\displaystyle p>\frac{1}{2}$のとき，
+$\displaystyle\lim_{n\to\infty}p_n$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}

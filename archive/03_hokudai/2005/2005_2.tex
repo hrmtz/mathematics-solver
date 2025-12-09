@@ -1,0 +1,20 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 2}
+　$x$，$y$は$\displaystyle-\frac{\pi}{2}\leqq x \leqq\frac{\pi}{2}$，
+$\displaystyle-\frac{\pi}{2}\leqq y \leqq\frac{\pi}{2}$を満たすとする．
+数列$ \{ a_n \} $および$ \{ b_n \} $を次で定める．
+\[ \begin{pmatrix} a_1 \\ b_1 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \end{pmatrix} ,
+\hspace{1zw} \begin{pmatrix} a_{n+1} \\ b_{n+1} \end{pmatrix} = \begin{pmatrix} \cos x+\cos y & \sin x-\sin y \\ -\sin x+\sin y & \cos x+\cos y \end{pmatrix} \begin{pmatrix} a_n \\ b_n \end{pmatrix} 
+\hspace{1zw} (n=1,2,\cdots) \]
+\begin{description}
+\item[(1)]$c_n={a_n}^2+{b_n}^2$ $(n=1,2,\cdots)$を求めよ．
+\item[(2)](1)の$c_n$に対して，$\displaystyle\lim_{n\to\infty}c_n=0$となるような
+$(x,y)$の範囲を図示せよ．
+\end{description}
+\end{flushleft}
+\end{document}

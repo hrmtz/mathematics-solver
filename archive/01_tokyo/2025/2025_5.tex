@@ -1,0 +1,24 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　$n$を2以上の整数とする。1から$n$までの数字が書かれた札が各1枚ずつ合計$n$枚あり，横一列におかれている。
+1以上$(n-1)$以下の整数$i$に対して，次の操作$(T_i)$を考える。
+\begin{description}
+\item[($T_i$)]左から$i$番目の札の数字が，左から$(i+1)$番目の札の数字よりも大きければ，
+これら2枚の札の位置を入れかえる。そうでなければ，札の位置をかえない。
+\end{description}
+　最初の状態において札の数字は左から$A_1, \, A_2, \, \cdots, \, A_n$であったとする。
+この状態から$(n-1)$回の操作$(T_1), \, (T_2), \, \cdots, \, (T_{n-1})$を順に行った後，
+続けて$(n-1)$回の操作$(T_{n-1}), \, \cdots, \, (T_2), \, (T_1)$を順に行ったところ，
+札の数字は左から$1, \, 2, \, \cdots, \, n$と小さい順に並んだ。以下の問いに答えよ。
+\begin{description}
+\item[(1)]$A_1$と$A_2$のうち少なくとも一方は2以下であることを示せ。
+\item[(2)]最初の状態としてありうる札の数字の並び方$A_1, A_2, \, \cdots, \, A_n$の総数を$c_n$とする。
+$n$が4以上の整数であるとき，$c_n$を$c_{n-1}$と$c_{n-2}$を用いて表せ。
+\end{description}
+\end{flushleft}
+\end{document}

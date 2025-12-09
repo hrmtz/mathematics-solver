@@ -1,0 +1,29 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 5}
+　行列
+\[ A=\begin{pmatrix} 15 & 6 \\ 6 & 10 \end{pmatrix} \]
+について，以下の問いに答えよ．
+\begin{description}
+\item[(1)]方程式
+\[ \begin{cases} 15x+6y=\lambda x \\ 6x+10y=\lambda y \end{cases} \]
+が$x=y=0$以外の解をもつときの$\lambda$の値を2つ求めよ．
+\item[(2)](1)で求めた$\lambda$の2つの値を$\alpha$，$\beta$ $(\alpha>\beta)$とするとき，
+\[ AT=T\begin{pmatrix} \alpha & 0 \\ 0 & \beta \end{pmatrix} \]
+を満たし，逆行列をもつ行列$T$を1つ求め，その逆行列$T^{-1}$を求めよ．
+\item[(3)]$A^n$を求めよ．
+\item[(4)]$\begin{pmatrix} x \\ y \end{pmatrix}$を
+$\begin{pmatrix} 0 \\ 0 \end{pmatrix}$でない列ベクトルとし，
+\[ \begin{pmatrix} x_1 \\ y_1 \end{pmatrix}=\begin{pmatrix} x \\ y \end{pmatrix}, \hspace{1zw}
+\begin{pmatrix} x_{n+1} \\ y_{n+1} \end{pmatrix}=A\begin{pmatrix} x_n \\ y_n \end{pmatrix} \hspace{1zw}
+(n=1, \, 2, \, \cdots) \]
+とする．このとき，
+\[ \lim_{n\to\infty}\frac{y_n}{x_n} \]
+を求めよ．ただし，$x_n\neq0$ $(n=1, \, 2, \, \cdots)$と仮定する．
+\end{description}
+\end{flushleft}
+\end{document}

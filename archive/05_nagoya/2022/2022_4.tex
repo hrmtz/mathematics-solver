@@ -1,0 +1,23 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　関数$f(x)$は区間$x\geqq0$において連続な増加関数で$f(0)=1$を満たすとする。
+ただし$f(x)$が区間$x\geqq0$における増加関数であるとは，
+区間内の任意の実数$x_1, \, x_2$に対し$x_1<x_2$ならば$f(x_1)<f(x_2)$が成り立つときをいう。
+以下，$n$は正の整数とする。
+\begin{description}
+\item[(1)]$\displaystyle\lim_{n\to\infty}\int_0^{2-\frac{1}{n}}\frac{f(x)}{2-x}dx=\infty$を示せ。
+\item[(2)]区間$y>2$において関数$F_n(y)$を$\displaystyle F_n(y)=
+\int_{2+\frac{1}{n}}^y\frac{f(x)}{x-2}dx$と定めるとき，
+$\displaystyle\lim_{y\to\infty}F_n(y)=\infty$を示せ。
+また$\displaystyle 2+\frac{1}{n}$より大きい実数$a_n$で
+\[ \int_0^{2-\frac{1}{n}}\frac{f(x)}{2-x}dx+\int_{2+\frac{1}{n}}^{a_n}\frac{f(x)}{2-x}dx=0 \]
+を満たすものがただ1つ存在することを示せ。
+\item[(3)](2)の$a_n$について，不等式$a_n<4$がすべての$n$に対して成り立つことを示せ。
+\end{description}
+\end{flushleft}
+\end{document}

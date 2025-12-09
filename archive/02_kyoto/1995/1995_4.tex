@@ -1,0 +1,20 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　$x$と$y$の2文字からなる文字列$z_n$を次の規則(イ)，(ロ)で順次定めていく．
+\begin{description}
+\item[(イ)]$z_1=x$とおく．
+\item[(ロ)]$z_n$の中に現れるすべての$x$を$yx$で，
+すべての$y$を$xx$で置き換えてできる文字列を$z_{n+1}$とする$(n=1,2,3,\cdots)$．\\
+\end{description}
+　例えば$z_2=yx$，$z_3=xxyx$，$z_4=yxyxxxyx$である．
+2次の正方行列$A$，$B$に対して，$z_n$の中の$x$を$A$で，$y$を$B$で置き換え，行列の積をつくってできる行列を$C_n$とする．
+例えば$C_1=A$，$C_2=BA$，$C_3=AABA$(行列の積)である．\\
+　$A=\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$，$B=\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$のとき，
+$n\geqq3$ならば$C_n=\begin{pmatrix} -1 & 1 \\ 0 & 1 \end{pmatrix}$であることを示せ．
+\end{flushleft}
+\end{document}

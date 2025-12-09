@@ -1,0 +1,25 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 3}
+　十分な数の赤玉と青玉が手元にあるものとする。
+$a$と$n$を自然数とし，はじめに，空の袋に$a$個の赤玉を入れておく。
+以下の試行を繰り返す。
+袋の中から玉を1個取り出し，それが赤玉ならば青玉を1個袋に入れ，青玉ならば赤玉を1個袋に入れる。
+さらに，取り出した玉自体も袋に戻し，袋の中の玉をよくかき混ぜる。
+結果として，1回の試行ごとに袋の中にある玉は1個ずつ増える。
+この試行を繰り返したとき，$n$回目の試行後に袋に入っている赤玉の個数が$k$である確率を$p_n(k)$で表す。
+例えば，$p_1(k)$の値は$k$が$a$のとき1，そのほかの場合は0である。
+また，$\displaystyle M_n=\sum_{k=0}^{a+n}kp_n(k)$とする。
+\begin{description}
+\item[(1)]$p_2(k)$を求めよ。
+\item[(2)]$p_{n+1}(k+1)=Bp_n(k)+Cp_n(k+1)$と表すとき，$B$と$C$を$a$，$k$，$n$で表せ。
+\item[(3)]$M_1=a$，$\displaystyle M_{n+1}=\frac{a+n-1}{a+n}M_n+1$を示せ。
+\item[(4)](3)の式を満たす数列$\{ M_n \}$の一般項を求めよ。
+さらに，$\displaystyle\lim_{n\to\infty}\frac{M_n}{n}$を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

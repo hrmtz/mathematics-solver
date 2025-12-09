@@ -1,0 +1,28 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　$\pi$を円周率とする．次の積分について考える．
+\[ I_0=\pi\int_0^1\sin\pi tdt, \hspace{1zw}
+I_n=\frac{\pi^{n+1}}{n \, !}\int_0^1t^n{(1-t)}^n\sin\pi tdt \hspace{1zw}
+(n=1, \, 2, \, \cdots\cdots) \]
+\begin{description}
+\item[(1)]$n$が自然数であるとき，不等式
+\[ 1+\frac{x}{1 \, !}+\frac{x^2}{2 \, !}+\cdots\cdots+\frac{x^n}{n \, !}<e^x
+\hspace{1zw} (x>0) \]
+が成立することを数学的帰納法により示せ．これを用いて，不等式
+\[ I_0+uI_1+u^2I_2+\cdots\cdots+u^nI_n<\pi e^{\pi u} \hspace{1zw} (u>0) \]
+が成立することを示せ．
+\item[(2)]$I_0$，$I_1$の値を求めよ．また，漸化式
+\[ I_{n+1}=\frac{4n+2}{\pi}I_n-I_{n-1} \hspace{1zw} (n=1, \, 2, \, \cdots\cdots) \]
+が成立することを示せ．
+\item[(3)]$\pi$が無理数であることを背理法により証明しよう．
+$\pi$が無理数でないとし，正の整数$p$，$q$によって$\displaystyle\pi=\frac{p}{q}$として表されると仮定する．
+$A_0=I_0$，$A_n=p^nI_n$とおくとき，$A_0, \, A_1, \, A_2, \, \cdots\cdots$は正の整数になることを示せ．
+さらに，これから矛盾を導け．
+\end{description}
+\end{flushleft}
+\end{document}

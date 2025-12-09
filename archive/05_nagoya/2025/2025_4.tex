@@ -1,0 +1,31 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfm]{graphicx}
+\usepackage{pifont}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　コイン\ding{"AC}，…，\ding{"B1}が下図のようにマス目の中に置かれている。\\
+\includegraphics[width=4cm]{fig_2025_4.jpg}\\
+これらのコインから無作為にひとつを選び，選んだコインはそのままにし，
+そのコインのあるマス目と辺を共有して隣接するマス目のコインを裏返す操作を考える。
+例えば，\ding{"AC}を選べば，\ding{"AD}，\ding{"AF}を裏返し，
+\ding{"AD}を選べば，\ding{"AC}，\ding{"AE}，\ding{"B0}を裏返す。
+最初はすべてのコインが表向きに置かれていたとする。
+正の整数$n$に対し，$n$回目の操作終了時点ですべてのコインが裏向きである確率を$p_n$とするとき，
+以下の問に答えよ。
+\begin{description}
+\item[(1)]$p_2$を求めよ。
+\item[(2)]コイン\ding{"AC}，…，\ding{"B1}をグループA，Bに分けることによって，
+$n$回目の操作終了時点ですべてのコインが裏向きであるための必要十分条件を次の形に表すことができる。
+\begin{description}
+\item[]$n$回目の操作終了時点までにAに属する各コインはそれぞれ奇数回選ばれ，
+Bに属する各コインはそれぞれ偶数回選ばれる。
+\end{description}
+どのようにグループ分けすればよいかを答えよ。
+\item[(3)]$p_4$を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

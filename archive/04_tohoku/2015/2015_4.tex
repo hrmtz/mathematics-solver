@@ -1,0 +1,22 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　$a>0$を実数とする。$n=1, \, 2, \, 3, \, \dots$に対し、座標平面の3点
+\[ \left(2n\pi, \, 0\right), \hspace{1zw} \left((2n+\frac{1}{2})\pi, \,
+\frac{1}{{\{(2n+\frac{1}{2})\pi\}}^a}\right), \hspace{1zw} \left((2n+1)\pi, \, 0\right) \]
+を頂点とする三角形の面積を$A_n$とし、
+\[ B_n=\int_{2n\pi}^{(2n+1)\pi}\frac{\sin x}{x^a}dx, \hspace{1zw}
+C_n=\int_{2n\pi}^{(2n+1)\pi}\frac{\sin^2x}{x^a}dx \]
+とおく。
+\begin{description}
+\item[(1)]$n=1, \, 2, \, 3, \, \dots$に対し、次の不等式が成り立つことを示せ。
+\[ \frac{2}{{\{ (2n+1)\pi \}}^a} \leqq B_n \leqq \frac{2}{{(2n\pi)}^a} \]
+\item[(2)]極限値$\displaystyle\lim_{n\to\infty}\frac{A_n}{B_n}$を求めよ。
+\item[(3)]極限値$\displaystyle\lim_{n\to\infty}\frac{A_n}{C_n}$を求めよ。
+\end{description}
+\end{flushleft}
+\end{document}

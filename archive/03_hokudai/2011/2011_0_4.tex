@@ -1,0 +1,25 @@
+\documentclass[12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\pagestyle{empty}
+\begin{document}
+\setlength{\baselineskip}{22pt}
+\begin{flushleft}
+{\huge 4}
+　$n$を2以上の自然数，$q$と$r$を自然数とする。
+1から$nq$までの番号がついた$nq$個の白玉，1から$nr$までの番号がついた$nr$個の赤玉を用意する。
+これら白玉と赤玉を，1番から$n$番まで番号づけられた$n$個の箱それぞれに，
+小さい番号から順に白玉は$q$個ずつ，赤玉は$r$個ずつ配分しておく。
+たとえば，1番の箱には番号1から$q$の白玉と番号1から$r$の赤玉が入っている。
+これら$n(q+r)$個の玉を$n$個の箱に以下のように再配分する。
+1番の箱から1個の玉を取り出して2番の箱に移し，
+次に2番の箱から1個の玉を取り出して3番の箱に移す。
+同様の操作を順次繰り返し最後に$n$番の箱に1個の玉を移して終了する。
+このようにして実現され得る再配分の総数を$s_n$とし，
+$n$番の箱の白玉が$q+1$個であるような再配分の総数を$a_n$とする。
+\begin{description}
+\item[(1)]$s_2$を求めよ．
+\item[(2)]$s_3$と$a_3$を求めよ．
+\item[(3)]$s_4$と$a_4$を求めよ．
+\end{description}
+\end{flushleft}
+\end{document}
