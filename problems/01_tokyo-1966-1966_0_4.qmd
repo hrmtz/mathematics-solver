@@ -1,0 +1,25 @@
+---
+title: "東京大学 1966年 1966_0_4"
+problem_id: "01_tokyo-1966-1966_0_4"
+university: "東京大学"
+exam_year: "1966"
+source_tex: "archive/01_tokyo/1966/1966_0_4.tex"
+pdf_source: "archive/01_tokyo/1966/1966_0_4.pdf"
+page_image: "archive/01_tokyo/1966/1966_0_4.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　半径1の定円$O$の周上に一点$A$が与えられている．
+$A$を中心とする円が，円$O$の直径$AA'$と交わる点を$R$，円$O$と交わる点を$P$，$Q$とするとき，
+四辺形$APRQ$の面積の最大値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1966/1966_0_4.pdf)

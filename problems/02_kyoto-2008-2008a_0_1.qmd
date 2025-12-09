@@ -1,0 +1,24 @@
+---
+title: "京都大学 2008年 2008a_0_1"
+problem_id: "02_kyoto-2008-2008a_0_1"
+university: "京都大学"
+exam_year: "2008"
+source_tex: "archive/02_kyoto/2008/2008a_0_1.tex"
+pdf_source: "archive/02_kyoto/2008/2008a_0_1.pdf"
+page_image: "archive/02_kyoto/2008/2008a_0_1.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$a$，$b$，$c$に対して$f(x)=ax^2+bx+c$とする．
+このとき$\displaystyle\int_{-1}^1(1-x^2){ \{ f'(x) \} }^2dx\leqq6\int_{-1}^1{ \{ f(x) \} }^2dx$であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2008/2008a_0_1.pdf)

@@ -1,0 +1,35 @@
+---
+title: "東北大学 2018年 2018_6"
+problem_id: "04_tohoku-2018-2018_6"
+university: "東北大学"
+exam_year: "2018"
+source_tex: "archive/04_tohoku/2018/2018_6.tex"
+pdf_source: "archive/04_tohoku/2018/2018_6.pdf"
+page_image: "archive/04_tohoku/2018/2018_6.jpg"
+fields:
+  - 平面図形
+  - 積分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$xy$平面内の図形
+\[ S:\begin{cases} x+y^2\leqq2 
+
+ x+y\geqq0 
+
+ x-y\leqq2 \end{cases} \]
+を考える。
+図形$S$を直線$y=-x$のまわりに1回転して得られる立体の体積を$V$とする。
+\begin{description}
+\item[(1)]$S$を$xy$平面に図示せよ。
+\item[(2)]$V$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_6.pdf)

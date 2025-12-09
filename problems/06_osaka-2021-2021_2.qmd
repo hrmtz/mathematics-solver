@@ -1,0 +1,34 @@
+---
+title: "大阪大学 2021年 2021_2"
+problem_id: "06_osaka-2021-2021_2"
+university: "大阪大学"
+exam_year: "2021"
+source_tex: "archive/06_osaka/2021/2021_2.tex"
+pdf_source: "archive/06_osaka/2021/2021_2.pdf"
+page_image: "archive/06_osaka/2021/2021_2.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　空間内に，同一平面上にない4点$O$，$A$，$B$，$C$がある．
+$s, \, t$を$0<s<1$，$0<t<1$をみたす実数とする．
+線分$OA$を$1:1$に内分する点を$A_0$，線分$OB$を$1:2$に内分する点を$B_0$，
+線分$AC$を$s:(1-s)$に内分する点を$P$，線分$BC$を$t:(1-t)$に内分する点を$Q$とする．
+さらに4点$A_0$，$B_0$，$P$，$Q$が同一平面上にあるとする．
+\begin{description}
+\item[(1)]$t$を$s$を用いて表せ．
+\item[(2)]$|\overrightarrow{OA}|=1$，$|\overrightarrow{OB}|=|\overrightarrow{OC}|=2$，
+$\angle AOB={120}^\circ$，$\angle BOC={90}^\circ$，
+$\angle COA={60}^\circ$，$\angle POQ={90}^\circ$であるとき，
+$s$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2021/2021_2.pdf)

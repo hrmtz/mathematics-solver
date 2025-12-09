@@ -1,0 +1,28 @@
+---
+title: "東京大学 1989年 1989_0_2"
+problem_id: "01_tokyo-1989-1989_0_2"
+university: "東京大学"
+exam_year: "1989"
+source_tex: "archive/01_tokyo/1989/1989_0_2.tex"
+pdf_source: "archive/01_tokyo/1989/1989_0_2.pdf"
+page_image: "archive/01_tokyo/1989/1989_0_2.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a>0$に対して次の二つの放物線を考える．
+\[ C_1:y=x^2+\frac{1}{a^2} \hspace{1zw} C_2:y=-{(x-a)}^2 \]
+\begin{description}
+\item[(1)]$C_1$，$C_2$の両方に接するような直線がつねに2本存在することを示せ．
+\item[(2)](1)で定まる四つの接点が作る四角形の面積$S(a)$の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1989/1989_0_2.pdf)

@@ -1,0 +1,31 @@
+---
+title: "大阪大学 1995年 1995_3"
+problem_id: "06_osaka-1995-1995_3"
+university: "大阪大学"
+exam_year: "1995"
+source_tex: "archive/06_osaka/1995/1995_3.tex"
+pdf_source: "archive/06_osaka/1995/1995_3.pdf"
+page_image: "archive/06_osaka/1995/1995_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　正の実数$a$に対して，$f(x)=a\log x+1$とおく．
+点$(-a, \, 0)$から曲線$y=f(x)$に接線をひき，
+接点の$x$座標を$x_0$とする．
+曲線$y=f(x)$と$x$軸と直線$x=x_0$によって囲まれる部分の面積を$S(a)$で表す．
+\begin{description}
+\item[(1)]$S(a)$を求めよ．
+\item[(2)]$\displaystyle\frac{S(a)}{a^2}$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1995/1995_3.pdf)

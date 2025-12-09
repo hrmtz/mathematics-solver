@@ -1,0 +1,29 @@
+---
+title: "東北大学 2017年 2017_0_3"
+problem_id: "04_tohoku-2017-2017_0_3"
+university: "東北大学"
+exam_year: "2017"
+source_tex: "archive/04_tohoku/2017/2017_0_3.tex"
+pdf_source: "archive/04_tohoku/2017/2017_0_3.pdf"
+page_image: "archive/04_tohoku/2017/2017_0_3.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$を3で割り切れない正の整数とする。
+$a$を3で割ったときの商を$b$，余りを$c$とする。
+次の問いに答えよ。
+\begin{description}
+\item[(1)]$c=2$のとき，$2a+1=as+3t$を満たす負でない整数$s$，$t$を$b$を用いて表せ。
+\item[(2)]$n$を$n\geqq2a-2$を満たす整数とする。
+このとき$n=as+3t$を満たす負でない整数$s$，$t$が存在することを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2017/2017_0_3.pdf)

@@ -1,0 +1,29 @@
+---
+title: "東北大学 1973年 1973_2"
+problem_id: "04_tohoku-1973-1973_2"
+university: "東北大学"
+exam_year: "1973"
+source_tex: "archive/04_tohoku/1973/1973_2.tex"
+pdf_source: "archive/04_tohoku/1973/1973_2.pdf"
+page_image: "archive/04_tohoku/1973/1973_2.jpg"
+fields:
+  - 空間図形
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　空間内の点$O$を原点とし，$OX$，$OY$，$OZ$を座標軸とする．
+$O$を中心とする半径1の球面上に$N(0, \, 0, \, 1)$，$S(0, \, 0, \, -1)$と異なる点$P$をとって，
+$P$と$N$，$P$と$S$を結ぶ直線が，$XY$平面と交わる点を，
+それぞれ$Q(x, \, y, \, 0)$，$Q'(x', \, y', \, 0)$とする．
+$Q$が円
+\[ {(x-a)}^2+{(y-b)}^2=r^2 \hspace{1zw} (r>0) \]
+上を動くとき，$Q'$はどんな曲線上を動くか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1973/1973_2.pdf)

@@ -1,0 +1,28 @@
+---
+title: "東北大学 1970年 1970_1"
+problem_id: "04_tohoku-1970-1970_1"
+university: "東北大学"
+exam_year: "1970"
+source_tex: "archive/04_tohoku/1970/1970_1.tex"
+pdf_source: "archive/04_tohoku/1970/1970_1.pdf"
+page_image: "archive/04_tohoku/1970/1970_1.jpg"
+fields:
+  - 不等式
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$，$b$，$c$は定数で$a \leqq b \leqq c$とし，$x$の2つの関数
+\[ f(x)=|x-a|+2|x-b|+3|x-c| \]
+\[ g(x)={(x-a)}^2+2{(x-b)}^2+3{(x-c)}^2 \]
+の最小値をそれぞれ$F$，$G$とする．
+$F$，$G$を$a$，$b$，$c$を用いて表わせ．
+また，$F^2$と$6G$との大小をくらべよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1970/1970_1.pdf)

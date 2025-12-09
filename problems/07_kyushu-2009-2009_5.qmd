@@ -1,0 +1,35 @@
+---
+title: "九州大学 2009年 2009_5"
+problem_id: "07_kyushu-2009-2009_5"
+university: "九州大学"
+exam_year: "2009"
+source_tex: "archive/07_kyushu/2009/2009_5.tex"
+pdf_source: "archive/07_kyushu/2009/2009_5.pdf"
+page_image: "archive/07_kyushu/2009/2009_5.jpg"
+fields:
+  - 微分法
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　曲線$y=e^x$上を動く点$P$の時刻$t$における座標を$(x(t), \, y(t))$と表し，
+$P$の速度ベクトルと加速度ベクトルを
+それぞれ$\displaystyle\overrightarrow{v}=\left(\frac{dx}{dt},\,\frac{dy}{dt}\right)$と
+$\displaystyle\overrightarrow{\alpha}=\left(\frac{d^2x}{dt^2},\,\frac{d^2y}{dt^2}\right)$とする．
+すべての時刻$t$で$|\overrightarrow{v}|=1$かつ$\displaystyle\frac{dx}{dt}>0$であるとして，
+次の問いに答えよ．
+\begin{description}
+\item[(1)]$P$が点$(s, \, e^s)$を通過する時刻における
+速度ベクトル$\overrightarrow{v}$を$s$を用いて表せ．
+\item[(2)]$P$が点$(s, \, e^s)$を通過する時刻における
+加速度ベクトル$\overrightarrow{\alpha}$を$s$を用いて表せ．
+\item[(3)]$P$が曲線全体を動くとき，$|\overrightarrow{\alpha}|$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_5.pdf)

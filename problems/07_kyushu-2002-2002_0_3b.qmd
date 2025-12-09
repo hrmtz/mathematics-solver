@@ -1,0 +1,34 @@
+---
+title: "九州大学 2002年 2002_0_3b"
+problem_id: "07_kyushu-2002-2002_0_3b"
+university: "九州大学"
+exam_year: "2002"
+source_tex: "archive/07_kyushu/2002/2002_0_3b.tex"
+pdf_source: "archive/07_kyushu/2002/2002_0_3b.pdf"
+page_image: "archive/07_kyushu/2002/2002_0_3b.jpg"
+fields:
+  - 三角関数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3 (b)
+　次の問いに答えよ．
+\begin{description}
+\item[(1)]$n$を正の整数とする．どんな角度$\theta$に対しても
+\[ \cos n\theta=2\cos\theta\cos(n-1)\theta-\cos(n-2)\theta \]
+が成り立つことを示せ．
+また，ある$n$次式$p_n(x)$を用いて$\cos n\theta$は
+\[ \cos n\theta=p_n(\cos\theta) \]
+と表されることを示せ．
+\item[(2)]$p_n(x)$は$n$が偶数ならば偶関数，奇数ならば奇関数になることを示せ．
+\item[(3)]整式$p_n(x)$の定数項を求めよ．
+また，$p_n(x)$の1次の項の係数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2002/2002_0_3b.pdf)

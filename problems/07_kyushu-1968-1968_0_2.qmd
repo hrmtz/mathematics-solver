@@ -1,0 +1,29 @@
+---
+title: "九州大学 1968年 1968_0_2"
+problem_id: "07_kyushu-1968-1968_0_2"
+university: "九州大学"
+exam_year: "1968"
+source_tex: "archive/07_kyushu/1968/1968_0_2.tex"
+pdf_source: "archive/07_kyushu/1968/1968_0_2.pdf"
+page_image: "archive/07_kyushu/1968/1968_0_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　長円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>0, \, b>0)$の周上に点$P(x_0, \, y_0)$をとる．
+ただし，$x_0>0$，$y_0>0$とする．
+\begin{description}
+\item[(1)]点$P$において長円に接する直線の方程式を求めよ．
+\item[(2)]点$P$が長円の周上を動くとき，
+この接線と$x$軸と$y$軸とで囲まれる3角形の面積の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1968/1968_0_2.pdf)

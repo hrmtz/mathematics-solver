@@ -1,0 +1,22 @@
+---
+title: "大阪大学 2014年 2014_3"
+problem_id: "06_osaka-2014-2014_3"
+university: "大阪大学"
+exam_year: "2014"
+source_tex: "archive/06_osaka/2014/2014_3.tex"
+pdf_source: "archive/06_osaka/2014/2014_3.pdf"
+page_image: "archive/06_osaka/2014/2014_3.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\displaystyle\sum_{n=1}^{40000}\frac{1}{\sqrt{n}}$の整数部分を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2014/2014_3.pdf)

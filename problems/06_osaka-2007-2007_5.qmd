@@ -1,0 +1,50 @@
+---
+title: "大阪大学 2007年 2007_5"
+problem_id: "06_osaka-2007-2007_5"
+university: "大阪大学"
+exam_year: "2007"
+source_tex: "archive/06_osaka/2007/2007_5.tex"
+pdf_source: "archive/06_osaka/2007/2007_5.pdf"
+page_image: "archive/06_osaka/2007/2007_5.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n$を2以上の自然数とする．
+4個の行列
+$A=\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}$，
+$B=\begin{pmatrix} 1 & 1 & 0 
+
+ 0 & 1 & 1 \end{pmatrix}$，
+$C=\begin{pmatrix} 1 & -1 
+
+ -1 & 1 
+
+ 1 & -1 \end{pmatrix}$，
+$D=\begin{pmatrix} 1 & 0 & 0 
+
+ 0 & 1 & 0 
+
+ 0 & 0 & 1 \end{pmatrix}$
+を重複を許して$n$個並べたものを$M_1, \, M_2, \, \cdots, \, M_n$とする．
+\begin{description}
+\item[(1)]積$M_1M_2 \cdots M_n$が定義できる場合は何通りあるか．
+その数を$n$の式で表せ．
+\item[(2)]積$M_1M_2 \cdots M_n$が定義できて，
+その積が零行列でない2×3行列となる場合は何通りあるか．
+その数を$n$の式で表せ．
+\item[(3)]積$M_1M_2 \cdots M_n$が定義できて，
+その積が零行列とならない場合は何通りあるか，
+その数を$n$の式で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2007/2007_5.pdf)

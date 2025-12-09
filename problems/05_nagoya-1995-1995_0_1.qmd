@@ -1,0 +1,31 @@
+---
+title: "名古屋大学 1995年 1995_0_1"
+problem_id: "05_nagoya-1995-1995_0_1"
+university: "名古屋大学"
+exam_year: "1995"
+source_tex: "archive/05_nagoya/1995/1995_0_1.tex"
+pdf_source: "archive/05_nagoya/1995/1995_0_1.pdf"
+page_image: "archive/05_nagoya/1995/1995_0_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面内の中心$P$，半径$r$の円$C$が次の2条件を満たしているとする．
+\begin{description}
+\item[(a)]2つの円
+\[ C_1:x^2+y^2-1=0 \hspace{1zw} C_2:x^2+y^2-6x+5=0 \]
+に外接する．
+ただし2つの円が外接するとは，
+中心間の距離がそれぞれの円の半径の和に等しいことをいう．
+\item[(b)]中心$P$と原点とを結ぶ線分と$x$軸の正の部分とのなす角が${60}^\circ$となる．
+\end{description}
+　円$C$の半径$r$と中心$P$の座標とを求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1995/1995_0_1.pdf)

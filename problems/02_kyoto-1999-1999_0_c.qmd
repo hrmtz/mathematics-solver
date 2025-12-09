@@ -1,0 +1,27 @@
+---
+title: "京都大学 1999年 1999_0_c"
+problem_id: "02_kyoto-1999-1999_0_c"
+university: "京都大学"
+exam_year: "1999"
+source_tex: "archive/02_kyoto/1999/1999_0_c.tex"
+pdf_source: "archive/02_kyoto/1999/1999_0_c.pdf"
+page_image: "archive/02_kyoto/1999/1999_0_c.jpg"
+fields:
+  - 指数・対数
+  - 整数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　座標平面上で，$x$座標と$y$座標が共に整数である点を格子点という．
+$n$は自然数であるとして，不等式
+\[ x>0, \hspace{1zw} y>0, \hspace{1zw} \log_2\frac{y}{x} \leqq x \leqq n \]
+を満たす格子点の個数を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_0_c.pdf)

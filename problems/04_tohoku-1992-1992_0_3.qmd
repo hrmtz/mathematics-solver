@@ -1,0 +1,33 @@
+---
+title: "東北大学 1992年 1992_0_3"
+problem_id: "04_tohoku-1992-1992_0_3"
+university: "東北大学"
+exam_year: "1992"
+source_tex: "archive/04_tohoku/1992/1992_0_3.tex"
+pdf_source: "archive/04_tohoku/1992/1992_0_3.pdf"
+page_image: "archive/04_tohoku/1992/1992_0_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　2つの放物線
+\[ y=3x^2-4x+5\cdots\cdots\text{\ding{"AC}} \hspace{1zw} y=2x^2+ax+b\cdots\cdots\text{\ding{"AD}} \]
+と，点$(1, \, 4)$において放物線\ding{"AC}に接する直線$l$について，次の問に答えよ．
+\begin{description}
+\item[(1)]直線$l$の方程式を求めよ．
+\item[(2)]直線$l$が点$(1, \, 4)$において放物線\ding{"AD}に接するように$a$，$b$を定めよ．
+\item[(3)]放物線\ding{"AC}と直線$l$および$y$軸で囲まれた図形の面積を$S_1$とし，
+放物線\ding{"AD}と直線$l$および$y$軸で囲まれた図形の面積を$S_2$とする．
+$S_1$と$S_2$の比を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_0_3.pdf)

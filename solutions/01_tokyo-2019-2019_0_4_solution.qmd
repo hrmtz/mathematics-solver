@@ -1,0 +1,126 @@
+## 解答
+
+(1)  
+まず，領域 $D$ を調べる。
+
+不等式 $|x|+|y|\leqq1$ は，$x,y$ の符号によって4つの場合に分けて考えられる。
+
+- $x\ge0,\ y\ge0$ のとき  
+  $|x|=x,\ |y|=y$ なので  
+  $$x+y\le1,\quad x\ge0,\ y\ge0$$
+
+- $x\ge0,\ y\le0$ のとき  
+  $|x|=x,\ |y|=-y$ なので  
+  $$x-y\le1,\quad x\ge0,\ y\le0$$
+
+- $x\le0,\ y\ge0$ のとき  
+  $|x|=-x,\ |y|=y$ なので  
+  $$-x+y\le1,\quad x\le0,\ y\ge0$$
+
+- $x\le0,\ y\le0$ のとき  
+  $|x|=-x,\ |y|=-y$ なので  
+  $$-x-y\le1,\quad x\le0,\ y\le0$$
+
+境界 $|x|+|y|=1$ は，それぞれ
+
+- 第1象限：$x+y=1$ （切片 $(1,0),(0,1)$ を結ぶ直線）
+- 第4象限：$x-y=1$ （切片 $(1,0),(0,-1)$ を結ぶ直線）
+- 第2象限：$-x+y=1$ （切片 $(-1,0),(0,1)$ を結ぶ直線）
+- 第3象限：$-x-y=1$ （切片 $(-1,0),(0,-1)$ を結ぶ直線）
+
+となる。したがって，$D$ は，原点 $O(0,0)$ を中心とし，頂点 $(1,0),\ (0,1),\ (-1,0),\ (0,-1)$ をもつひし形（正方形）で，その内部と境界を含む領域である。
+
+次に，$E$ を求める。  
+$P,Q$ を領域 $D$ 内の点とするとき，$\overrightarrow{OR}=\overrightarrow{OP}-\overrightarrow{OQ}$ をみたす $R$ を考える。  
+点 $P=(x_1,y_1),\ Q=(x_2,y_2)$ とおくと，$R$ の座標は
+$$
+R=(x_1-x_2,\ y_1-y_2)
+$$
+である。$P,Q$ がともに $D$ にあるので
+$$
+|x_1|+|y_1|\le1,\quad |x_2|+|y_2|\le1
+$$
+が成り立つ。このとき
+$$
+|x_1-x_2|+|y_1-y_2|
+\le |x_1|+|x_2|+|y_1|+|y_2|
+= (|x_1|+|y_1|)+(|x_2|+|y_2|)
+\le 1+1=2
+$$
+と評価できる。よって，$R=(X,Y)$ の座標は
+$$
+|X|+|Y|=|x_1-x_2|+|y_1-y_2|\le2
+$$
+を満たす。したがって，
+$$
+|x|+|y|\le2
+$$
+が $R$ の動く範囲 $E$ を含むことが分かる。
+
+一方，この評価がちょうど等号をとるような点が実際にとれることを示す。例えば，  
+$P=(1,0),\ Q=(-1,0)$ はともに $D$ 上の点であり，
+$$
+\overrightarrow{OR}=\overrightarrow{OP}-\overrightarrow{OQ}
+=(1,0)-(-1,0)=(2,0)
+$$
+より，$R=(2,0)$ をとることができる。同様に，$(-2,0)$ や $(0,2)$，$(0,-2)$ も，$P,Q$ の取り方を変えることで実現できる。
+
+さらに，$D$ が原点対称な凸な領域であることを用いると，差集合 $D-D=\{p-q\mid p,q\in D\}$ は原点対称な凸な領域となり，頂点の差により最も離れた点を与えるのは，上で求めた $(\pm2,0),(0,\pm2)$ であることが分かる。境界は
+$$
+|x|+|y|=2
+$$
+であり，形は $D$ と相似な，頂点 $(2,0),(0,2),(-2,0),(0,-2)$ をもつひし形となる。
+
+よって，$E$ は，不等式
+$$
+|x|+|y|\le2
+$$
+で表される，原点中心，頂点 $(2,0),(0,2),(-2,0),(0,-2)$ のひし形領域である。
+
+(2)  
+不等式
+$$
+|x-a|+|y-b|\le1
+$$
+が表す領域 $F$ を考える。この式は，$(x,y)$ を $(a,b)$ だけ平行移動した座標
+$$
+X=x-a,\quad Y=y-b
+$$
+を導入すると
+$$
+|X|+|Y|\le1
+$$
+と書き換えられる。すなわち，$F$ は (1) で求めた $D$ を，ベクトル $\overrightarrow{OA}=(a,b)$ だけ平行移動したひし形領域である。中心が $(a,b)$，頂点が $(a+1,b),\ (a,b+1),\ (a-1,b),\ (a,b-1)$ のひし形である。
+
+ここで，$S=(s_x,s_y),\ T=(t_x,t_y)$ を領域 $F$ 内の点とする。$A(a,b)$ を用いると，
+$$
+\overrightarrow{AS}=\overrightarrow{OS}-\overrightarrow{OA},\quad
+\overrightarrow{AT}=\overrightarrow{OT}-\overrightarrow{OA}
+$$
+であり，$\overrightarrow{AS},\overrightarrow{AT}$ はいずれも $D$ 内のベクトルになる（$F$ が $D$ の平行移動なので，$S,T$ が $F$ を動くことと，$\overrightarrow{AS},\overrightarrow{AT}$ が $D$ を動くことは対応する）。
+
+問題の定義より，$\overrightarrow{OU}=\overrightarrow{OS}-\overrightarrow{OT}$ を満たす点 $U$ を考える。これを点 $A$ を用いて表すと，
+$$
+\overrightarrow{OS}
+=\overrightarrow{OA}+\overrightarrow{AS},\quad
+\overrightarrow{OT}
+=\overrightarrow{OA}+\overrightarrow{AT}
+$$
+なので，
+$$
+\overrightarrow{OU}
+=\overrightarrow{OS}-\overrightarrow{OT}
+=(\overrightarrow{OA}+\overrightarrow{AS})-(\overrightarrow{OA}+\overrightarrow{AT})
+=\overrightarrow{AS}-\overrightarrow{AT}
+$$
+となる。ここで，$\overrightarrow{AS},\overrightarrow{AT}$ はともに $D$ の点（ベクトル）全体を動くから，
+$$
+\overrightarrow{OU}=\overrightarrow{AS}-\overrightarrow{AT}
+$$
+によって $U$ の動く範囲は，「$D$ 内の2点（2ベクトル）の差で得られる点の集合」となる。これは (1) で $P,Q$ を $D$ 内に動かしたときの $R$ の動く範囲 $E$ の定義と全く同じである。
+
+したがって，$U$ の動く範囲 $G$ は，(1) で求めた $R$ の動く範囲 $E$ と一致する。すなわち，
+$$
+G=E
+$$
+が成り立つ。

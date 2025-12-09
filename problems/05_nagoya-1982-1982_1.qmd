@@ -1,0 +1,25 @@
+---
+title: "名古屋大学 1982年 1982_1"
+problem_id: "05_nagoya-1982-1982_1"
+university: "名古屋大学"
+exam_year: "1982"
+source_tex: "archive/05_nagoya/1982/1982_1.tex"
+pdf_source: "archive/05_nagoya/1982/1982_1.pdf"
+page_image: "archive/05_nagoya/1982/1982_1.jpg"
+fields:
+  - 不等式
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a \geqq b>0$とする．
+自然数$n\geqq1$に対して次の不等式を証明せよ．
+\[ a^n-b^n\leqq\frac{n}{2}(a-b)(a^{n-1}+b^{n-1}) \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1982/1982_1.pdf)

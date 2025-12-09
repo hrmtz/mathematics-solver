@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1969年 1969_1"
+problem_id: "08_titech-1969-1969_1"
+university: "東京科学大学"
+exam_year: "1969"
+source_tex: "archive/08_titech/1969/1969_1.tex"
+pdf_source: "archive/08_titech/1969/1969_1.pdf"
+page_image: "archive/08_titech/1969/1969_1.jpg"
+fields:
+  - 不等式
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$a, \, b, \, c, \, x, \, y, \, z, \, p$が次の4条件を満たしている：
+$a^2-b^2-c^2>0$，$ax+by+cz=p$，$ap<0$，$x>0$，
+このとき$x^2-y^2-z^2$の符号を調べよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1969/1969_1.pdf)

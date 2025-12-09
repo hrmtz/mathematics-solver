@@ -1,0 +1,28 @@
+---
+title: "京都大学 1992年 1992_3"
+problem_id: "02_kyoto-1992-1992_3"
+university: "京都大学"
+exam_year: "1992"
+source_tex: "archive/02_kyoto/1992/1992_3.tex"
+pdf_source: "archive/02_kyoto/1992/1992_3.pdf"
+page_image: "archive/02_kyoto/1992/1992_3.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\triangle ABC$の外心$O$から直線$BC$，$CA$，$AB$に下ろした垂線の足をそれぞれ$P$，$Q$，$R$とするとき，
+$\overrightarrow{OP}+2\overrightarrow{OQ}+3\overrightarrow{OR}=\vec{0}$が成立しているとする．
+\begin{description}
+\item[(1)]$\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$の関係式を求めよ．
+\item[(2)]$\angle A$の大きさを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_3.pdf)

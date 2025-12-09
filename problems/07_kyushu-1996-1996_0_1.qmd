@@ -1,0 +1,34 @@
+---
+title: "九州大学 1996年 1996_0_1"
+problem_id: "07_kyushu-1996-1996_0_1"
+university: "九州大学"
+exam_year: "1996"
+source_tex: "archive/07_kyushu/1996/1996_0_1.tex"
+pdf_source: "archive/07_kyushu/1996/1996_0_1.pdf"
+page_image: "archive/07_kyushu/1996/1996_0_1.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　1辺の長さが1の正六角形$ABCDEF$に内接する円の中心を$O$とし，その円周上の点を$P$とする．
+次の問に答えよ．
+\begin{description}
+\item[(1)]$\overrightarrow{AB}=\overrightarrow{a}$，
+$\overrightarrow{AF}=\overrightarrow{b}$，
+$\overrightarrow{AP}=\overrightarrow{x}$とするとき，
+内接円のベクトル方程式を$\overrightarrow{a}$，$\overrightarrow{b}$，
+$\overrightarrow{x}$で表せ．
+\item[(2)]線分$BC$の中点を$Q$とする．
+$\overrightarrow{AQ}$を$\overrightarrow{a}$と$\overrightarrow{b}$で表せ．
+\item[(3)]$\overrightarrow{AP}=k\overrightarrow{AQ}$を満たす$k$の値をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1996/1996_0_1.pdf)

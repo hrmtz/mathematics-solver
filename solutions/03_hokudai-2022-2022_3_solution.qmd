@@ -1,0 +1,257 @@
+## 解答
+
+(1)  
+連立不等式  
+$x \geqq 2,\;2^x \leqq x^y \leqq x^2$  
+の表す領域を考える。
+
+まず，$x>0$であるから，$x^y>0$ であり，$x^y \leqq x^2$ より  
+$$
+x^y \leqq x^2
+\quad\Longleftrightarrow\quad
+y\log x \leqq 2\log x
+\quad(\log x>0\ \text{なので両辺を}\log x \text{で割る})
+\quad\Longleftrightarrow\quad
+y \leqq 2
+$$
+が得られる。
+
+次に $2^x \leqq x^y$ を変形する。両辺正なので対数をとると
+$$
+\log 2^x \leqq \log x^y
+\Longleftrightarrow
+x\log 2 \leqq y\log x
+\Longleftrightarrow
+y \geqq \frac{x\log 2}{\log x}
+$$
+となる。ここで，$x\geq 2$ の範囲で関数
+$$
+f(x)=\frac{x\log 2}{\log x}
+$$
+を調べる。
+
+$f'(x)$ を計算する。分母分子とも微分してもよいが，積の形
+$$
+f(x)=\log 2 \cdot \frac{x}{\log x}
+$$
+として微分すると，
+$$
+\left(\frac{x}{\log x}\right)'=
+\frac{(\log x)\cdot 1 - x\cdot \frac{1}{x}}{(\log x)^2}
+=
+\frac{\log x -1}{(\log x)^2}
+$$
+ゆえに
+$$
+f'(x)
+=
+\log 2\cdot \frac{\log x -1}{(\log x)^2}.
+$$
+
+ここで $\log$ は自然対数とする。$x\geq 2$ では $\log x>0$ なので符号は分子 $\log x-1$ によって決まる。  
+$\log e=1$ であり，$2<e<3$ が与えられているので，
+
+- $2\leq x<e$ のとき $\log x<1$ より $f'(x)<0$（減少）  
+- $x=e$ のとき $f'(x)=0$  
+- $x>e$ のとき $\log x>1$ より $f'(x)>0$（増加）
+
+となる。したがって $x\geq 2$ において $f(x)$ は $x=e$ で最小値をとり，  
+$$
+\min_{x\ge 2} f(x)=f(e)=\frac{e\log 2}{\log e}=e\log 2
+$$
+である。
+
+さらに $f(2),f(4)$ を確かめる：
+$$
+f(2)=\frac{2\log 2}{\log 2}=2,\qquad
+f(4)=\frac{4\log 2}{\log 4}=\frac{4\log 2}{2\log 2}=2.
+$$
+よって $x=2,4$ では $f(x)=2$ である。一方 $2<e<3<4$ なので $x$ が $2$ から $e$ へ増えるとき $f$ は減少し，$e$ から $4$ へ増えるとき増加するから
+$$
+f(x)\le 2 \quad\text{となるのは}\quad 2\le x\le 4
+$$
+であり，$x>4$ では $f(x)>2$ となる。
+
+したがって，$2^x \leq x^y$ は
+$$
+y \ge f(x)=\frac{x\log 2}{\log x}
+$$
+で表されるが，$y\le2$ も同時に満たす必要がある。ところが $x>4$ では $f(x)>2$ なので
+$$
+y\le 2,\ y\ge f(x)
+$$
+を同時に満たす $y$ は存在しない。ゆえに，領域が存在するのは $2\le x\le 4$ のときだけである。
+
+以上より，連立不等式の表す領域は  
+$$
+2\le x\le 4,\quad
+\frac{x\log 2}{\log x}\le y\le 2
+$$
+で与えられる。すなわち，$xy$ 平面上で縦軸 $y$，横軸 $x$ とすると，
+
+- $x=2$ と $x=4$ の２本の縦の直線に挟まれた部分
+- 上側の境界直線 $y=2$
+- 下側の曲線 $y=\dfrac{x\log 2}{\log x}$
+
+によって囲まれた部分（下に凸の曲線と直線 $y=2$ との間の領域）
+
+を塗りつぶした図となる。
+
+---
+
+(2)  
+$a>0$ に対し，連立不等式  
+$$
+2\le x\le 6,\quad (x^y-2^x)(x^a-x^y)\ge 0
+$$
+の表す領域の面積を $S(a)$ とする。この領域を調べて $S(a)$ を求め，その最小値を与える $a$ を求める。
+
+まず $(x^y-2^x)(x^a-x^y)\ge 0$ の形は，２数の積が非負である条件だから，
+$$
+x^y-2^x,\ x^a-x^y
+$$
+が同符号またはどちらかが $0$ であることを意味する。すなわち
+
+- $x^y\ge 2^x$ かつ $x^a\ge x^y$
+  
+  または
+
+- $x^y\le 2^x$ かつ $x^a\le x^y$
+
+である。これを $y$ について書き直す。
+
+$x>0$ なので，対数をとることでべき不等式を $y$ の不等式に変換できる。
+
+1つ目の組：
+
+$$
+x^y\ge 2^x
+\Longleftrightarrow
+y\log x\ge x\log 2
+\Longleftrightarrow
+y\ge \frac{x\log 2}{\log x},
+$$
+
+$$
+x^a\ge x^y
+\Longleftrightarrow
+a\log x\ge y\log x
+\Longleftrightarrow
+y\le a
+\quad(\log x>0\ \text{に注意})
+$$
+
+よってこの場合の条件は
+$$
+\frac{x\log 2}{\log x}\le y\le a
+$$
+である。
+
+2つ目の組では符号が逆転して
+$$
+x^y\le 2^x
+\Longleftrightarrow
+y\le \frac{x\log 2}{\log x},
+$$
+$$
+x^a\le x^y
+\Longleftrightarrow
+a\le y
+$$
+となるから
+$$
+a\le y\le \frac{x\log 2}{\log x}
+$$
+となる。
+
+結局，$2\le x\le 6$ のもとで
+$$
+\text{または} \quad
+\frac{x\log 2}{\log x}\le y\le a,\quad
+a\le y\le \frac{x\log 2}{\log x}
+$$
+のいずれかを満たす $y$ が許される。
+
+ところで，$y$ の大小関係から場合分けすると，
+
+- $a\ge \dfrac{x\log 2}{\log x}$ のとき
+  - 区間 $\dfrac{x\log 2}{\log x}\le y\le a$ は空でない
+  - 区間 $a\le y\le \dfrac{x\log 2}{\log x}$ は空である
+
+- $a\le \dfrac{x\log 2}{\log x}$ のとき
+  - 区間 $a\le y\le \dfrac{x\log 2}{\log x}$ は空でない
+  - 区間 $\dfrac{x\log 2}{\log x}\le y\le a$ は空である
+
+どちらの場合も，「$a$ と $\dfrac{x\log 2}{\log x}$ の間の $y$ がすべて含まれる」と読み替えられる。よって，$x$ を固定したときに許される $y$ の範囲は
+$$
+\min\left(a,\frac{x\log 2}{\log x}\right)
+\ \le y\le\
+\max\left(a,\frac{x\log 2}{\log x}\right)
+$$
+であり，その長さ（$y$ の幅）は
+$$
+\left|a-\frac{x\log 2}{\log x}\right|
+$$
+である。したがって，$xy$ 平面上の領域の面積は
+$$
+S(a)=\int_{x=2}^{6}\left|a-\frac{x\log 2}{\log x}\right|\,dx
+$$
+となる。
+
+ここで，再び
+$$
+f(x)=\frac{x\log 2}{\log x}
+$$
+とおくと，(1) で調べたように $x\ge 2$ において $f(x)$ は $x=e$ で最小値 $e\log 2$ をとり，$x$ が $2$ から $e$ で減少，$e$ から増加する関数である。また
+$$
+f(2)=2,\quad f(4)=2,\quad f(6)=\frac{6\log 2}{\log 6}>2
+$$
+なので，$2\le x\le 6$ における $f(x)$ の最大値は $x=6$ でとられ，
+$$
+\max_{2\le x\le6}f(x)=f(6),\quad
+\min_{2\le x\le6}f(x)=f(e)=e\log 2
+$$
+となる。
+
+よって $a$ の範囲で $S(a)$ の形が変化する。$S(a)$ は
+$$
+S(a)=\int_{2}^{6}|a-f(x)|\,dx
+$$
+であり，これは「曲線 $y=f(x)$ と直線 $y=a$ の間の距離の絶対値を $x=2$ から $6$ まで積分したもの」である。一般に，連続関数 $f$ に対し
+$$
+T(a)=\int_{\alpha}^{\beta}|a-f(x)|\,dx
+$$
+は，$a$ を変数としてみると，$a$ を動かしたときに最小となるのは，$f(x)$ の値の「中央値」に一致することが知られている（絶対値の和を最小にする点は中央値）。ここでは $f$ が単峰（$x=e$ を境に単調減少→増加）であるため，$f(x)$ の取りうる値の区間 $[e\log 2,f(6)]$ の内部では，$T(a)$ は $a$ のまわりで対称に増減し，$a$ が「ちょうど半々」に分割する高さで最小になる。
+
+しかし，この一般論を使わずとも，$T(a)$ の微分を考えると，
+$$
+S(a)=\int_2^6 |a-f(x)|\,dx
+$$
+より，$a$ に関して微分可能な点では
+$$
+S'(a)=\int_2^6 \frac{\partial}{\partial a}|a-f(x)|\,dx
+= \int_2^6 \operatorname{sgn}(a-f(x))\,dx
+$$
+となる（ただし $a=f(x)$ となる点では微分が折れ曲がるので場合分けが必要）。ここで $\operatorname{sgn}(t)$ は $t>0$ で $1$，$t<0$ で $-1$ をとる符号関数である。$S'(a)=0$ となるのは
+$$
+\int_2^6 \operatorname{sgn}(a-f(x))\,dx =0
+$$
+すなわち $f(x)\le a$ となる $x$ の長さと，$f(x)\ge a$ となる $x$ の長さが等しいときである。
+
+$f$ のグラフを考えると，$f$ は $[2,6]$ で $x=e$ を頂点とする下に凸のグラフであり，$f(e)=\min f$，$f(6)=\max f$ である。$a$ を $e\log 2$ から $f(6)$ の間で変えると，直線 $y=a$ はグラフを 2 点で切り，$f(x)\le a$ の集合と $f(x)\ge a$ の集合の長さは $a$ に連続に依存する。特に，$a=f(4)=2$ のとき，$f(2)=2,\ f(4)=2$ なので $x=2$ と $x=4$ でグラフと直線が交わり，$[2,6]$ は $[2,4]$ と $[4,6]$ に分かれる。$x\in[2,4]$ では $f(x)\le 2$（(1) で $f(x)\le2$ を満たすのが $[2,4]$ と分かっている）であるから $a-f(x)\ge 0$，一方 $x\in[4,6]$ では $f(x)\ge 2$ なので $a-f(x)\le 0$ となる。したがって
+$$
+S'(2)
+= \int_2^4 1\,dx + \int_4^6 (-1)\,dx 
+= (4-2) - (6-4)
+= 2-2
+=0
+$$
+となり，$a=2$ は $S'(a)=0$ を満たす候補である。
+
+さらに，$a$ を $2$ より小さくすると，$f(x)\ge a$ となる部分が増えて $\int \operatorname{sgn}(a-f(x))\,dx$ は負になり，$a$ を $2$ より大きくすると逆に正になることから，$S(a)$ は $a=2$ で最小となる（符号が $-$ から $+$ に変わる点で極小）。
+
+したがって，$S(a)$ を最小にする $a$ は
+$$
+a=2
+$$
+である。

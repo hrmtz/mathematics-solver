@@ -1,0 +1,32 @@
+---
+title: "東北大学 1992年 1992_d"
+problem_id: "04_tohoku-1992-1992_d"
+university: "東北大学"
+exam_year: "1992"
+source_tex: "archive/04_tohoku/1992/1992_d.tex"
+pdf_source: "archive/04_tohoku/1992/1992_d.pdf"
+page_image: "archive/04_tohoku/1992/1992_d.jpg"
+fields:
+  - 確率
+  - 統計
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　下の表は，ある地方の，ある日の風の強弱とその翌日の風の強弱の関係を統計的に確率で表したものである．
+たとえば，ある日の風が強いとき，
+その翌日も強い風が吹く確率は0.7であり，強い風が吹かない確率は0.3である．
+\begin{description}
+\item[(1)]ある日の風が強いとき，その2日後に強い風が吹く確率を求めよ．
+\item[(2)]ある日の風が強いとき，その4日後に強い風が吹く確率を求めよ．
+\end{description}
+
+
+![](../archive/04_tohoku/1992/fig_1992_d.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_d.pdf)

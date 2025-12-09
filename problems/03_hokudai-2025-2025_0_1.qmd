@@ -1,0 +1,27 @@
+---
+title: "北海道大学 2025年 2025_0_1"
+problem_id: "03_hokudai-2025-2025_0_1"
+university: "北海道大学"
+exam_year: "2025"
+source_tex: "archive/03_hokudai/2025/2025_0_1.tex"
+pdf_source: "archive/03_hokudai/2025/2025_0_1.pdf"
+page_image: "archive/03_hokudai/2025/2025_0_1.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　関数$f(x)=x^3-6x^2-15x+30$について考える。$y=f(x)$のグラフを$C$とおく。
+\begin{description}
+\item[(1)]$f(x)$が極大値，極小値をとるような$x$をそれぞれ求め，$f(x)$の極大値，極小値を求めよ。
+\item[(2)]$C$上の点$(-3, \, -6)$を通り，$C$に接する直線の方程式をすべて求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2025/2025_0_1.pdf)

@@ -1,0 +1,259 @@
+## 解答
+
+(1)  
+$[A(x)]$は$A(x)$を$x^2+1$で割った余りであり，余りは次数が$2$未満の整式，すなわち$px+q$の形になる。
+
+まず
+$$
+2x^2+x+3=(2x^2+2)+(x+1)=2(x^2+1)+(x+1)
+$$
+より，余りは$x+1$である。したがって  
+$$
+[2x^2+x+3]=x+1.
+$$
+
+次に$x^2=-1$を用いて$x^5-1$を$x^2+1$で割った余りを求める。  
+$$
+x^5=x^2\cdot x^3=(x^2)^2\cdot x=(-1)^2x=x
+$$
+だから
+$$
+x^5-1=x-1
+$$
+となる。ゆえに  
+$$
+[x^5-1]=x-1.
+$$
+
+最後に
+$$
+[ \, [2x^2+x+3] \, [x^5-1] \, ]=[(x+1)(x-1)]=[x^2-1]
+$$
+であるが，$x^2=-1$より
+$$
+x^2-1=-1-1=-2
+$$
+なので
+$$
+[ \, [2x^2+x+3] \, [x^5-1] \, ]=-2.
+$$
+
+---
+
+(2)  
+整式$A(x),B(x)$を$x^2+1$で割った商と余りを用いて表すと，ある整式$Q_1(x),Q_2(x)$と実数係数の一次式$R_1(x),R_2(x)$を用いて
+$$
+A(x)=(x^2+1)Q_1(x)+R_1(x),\quad B(x)=(x^2+1)Q_2(x)+R_2(x)
+$$
+とかける。ここで定義より
+$$
+[A(x)]=R_1(x),\quad [B(x)]=R_2(x)
+$$
+である。
+
+このとき積$A(x)B(x)$は
+\[
+\begin{aligned}
+A(x)B(x)
+&=\{(x^2+1)Q_1(x)+R_1(x)\}\{(x^2+1)Q_2(x)+R_2(x)\}\\
+&=(x^2+1)^2Q_1(x)Q_2(x)+(x^2+1)Q_1(x)R_2(x)\\
+&\qquad+(x^2+1)Q_2(x)R_1(x)+R_1(x)R_2(x)\\
+&=(x^2+1)\{(x^2+1)Q_1(x)Q_2(x)+Q_1(x)R_2(x)+Q_2(x)R_1(x)\}\\
+&\qquad+R_1(x)R_2(x)
+\end{aligned}
+\]
+と書ける。したがって$A(x)B(x)$を$x^2+1$で割ったときの余りは$R_1(x)R_2(x)$をさらに$x^2+1$で割った余りに等しい。すなわち
+$$
+[A(x)B(x)]=[R_1(x)R_2(x)].
+$$
+一方で$R_1(x)=[A(x)]$, $R_2(x)=[B(x)]$であるから
+$$
+[A(x)B(x)]=[ \, [A(x)] \, [B(x)] \, ]
+$$
+が成り立つ。
+
+---
+
+(3)  
+(2)の結果を用いると，まず
+$$
+[ \{x\sin\theta+\cos\theta\}^2]=[ \, [x\sin\theta+\cos\theta]^2 \, ]
+$$
+であるから，$x\sin\theta+\cos\theta$を$x^2+1$で割った余りを考える。これはすでに一次式であり，次数が$2$未満なので
+$$
+[x\sin\theta+\cos\theta]=x\sin\theta+\cos\theta
+$$
+である。よって
+$$
+[ \{x\sin\theta+\cos\theta\}^2]=[(x\sin\theta+\cos\theta)^2].
+$$
+
+ここで展開すると
+\[
+\begin{aligned}
+(x\sin\theta+\cos\theta)^2
+&=x^2\sin^2\theta+2x\sin\theta\cos\theta+\cos^2\theta.
+\end{aligned}
+\]
+$x^2=-1$を用いると
+\[
+\begin{aligned}
+(x\sin\theta+\cos\theta)^2
+&=-\sin^2\theta+2x\sin\theta\cos\theta+\cos^2\theta\\
+&=2x\sin\theta\cos\theta+(\cos^2\theta-\sin^2\theta).
+\end{aligned}
+\]
+ここで三角関数の加法定理（2倍角の公式）
+$$
+\sin2\theta=2\sin\theta\cos\theta,\quad \cos2\theta=\cos^2\theta-\sin^2\theta
+$$
+を用いると
+$$
+(x\sin\theta+\cos\theta)^2=x\sin2\theta+\cos2\theta
+$$
+となる。右辺は次数$1$の整式であり，すでに$x^2+1$で割った余りそのものであるから
+$$
+[ \{x\sin\theta+\cos\theta\}^2 ]=x\sin2\theta+\cos2\theta
+$$
+が成り立つ。
+
+---
+
+(4)  
+(3)の結果を用いる。$(ax+b)^4$を$(ax+b)^2$の2乗と見て
+$$
+(ax+b)^2=x\sin\theta+\cos\theta
+$$
+とおきたいが，これは一般には三角関数を含むので扱いにくい。ここでは(2)を利用して$(ax+b)^4$を2乗の積に分けて考える。
+
+まず
+$$
+(ax+b)^4=\{(ax+b)^2\}^2
+$$
+であるから
+$$
+[(ax+b)^4]=[ \, [(ax+b)^2]^2 \, ]
+$$
+が成り立つ。(3)の形と比べるために
+$$
+[(ax+b)^2]=x\sin\theta+\cos\theta
+$$
+と表せるような実数$\theta$が存在すると仮定する。すなわち
+$$
+[(ax+b)^2]=px+q \quad\text{とおき，}\quad p=\sin\theta,\ q=\cos\theta
+$$
+とおく。このとき(3)より
+$$
+[ \, [(ax+b)^2]^2 \, ]=x\sin2\theta+\cos2\theta.
+$$
+したがって問題の条件
+$$
+[(ax+b)^4]=-1
+$$
+は
+$$
+x\sin2\theta+\cos2\theta=-1
+$$
+と等しい。
+
+この等式は$x$に関する恒等式なので，左辺の$x$の係数と定数項を比較すると
+$$
+\sin2\theta=0,\quad \cos2\theta=-1
+$$
+を満たさなければならない。三角関数の値から
+$$
+\cos2\theta=-1\ \Rightarrow\ 2\theta=\pi+2k\pi\ (k\in\mathbb{Z})
+$$
+であり，このとき$\sin2\theta=0$も同時に満たされる。よってこの条件は矛盾なく成り立つ。
+
+次に，$[(ax+b)^2]=px+q$に戻る。$(ax+b)^2$を展開すると
+$$
+(ax+b)^2=a^2x^2+2abx+b^2
+$$
+であり，$x^2=-1$より
+\[
+\begin{aligned}
+(ax+b)^2
+&=a^2x^2+2abx+b^2\\
+&=-a^2+2abx+b^2\\
+&=2abx+(b^2-a^2).
+\end{aligned}
+\]
+右辺はすでに一次式であり，これがそのまま$x^2+1$で割った余りになるから
+$$
+[(ax+b)^2]=2abx+(b^2-a^2).
+$$
+これを$px+q$と比較すると
+$$
+p=2ab,\quad q=b^2-a^2
+$$
+である。一方，先ほどの記号の置き方から
+$$
+p=\sin\theta,\quad q=\cos\theta
+$$
+であり，さらに$\theta$は$2\theta=\pi+2k\pi$を満たすから
+$$
+\sin2\theta=0,\quad \cos2\theta=-1
+$$
+である。ここで2倍角の公式
+$$
+\sin2\theta=2\sin\theta\cos\theta,\quad \cos2\theta=\cos^2\theta-\sin^2\theta
+$$
+を用いると
+\[
+\begin{aligned}
+\sin2\theta=0 &\ \Rightarrow\ 2pq=0,\\
+\cos2\theta=-1 &\ \Rightarrow\ q^2-p^2=-1.
+\end{aligned}
+\]
+すなわち
+$$
+2pq=0,\quad q^2-p^2=-1.
+$$
+
+まず$2pq=0$より$p=0$または$q=0$である。
+
+- $q=0$とすると$q^2-p^2=-1$より$-p^2=-1$，すなわち$p^2=1$，よって$p=\pm1$となるが，$p=\sin\theta$，$q=\cos\theta$であることからは矛盾しない。しかし，$p,q$は$2ab,\ b^2-a^2$でもあるので，後で$a,b$について調べる。
+
+- $p=0$とすると$q^2=-1$となり，実数$q$に対しては不可能である。したがってこの場合は除外される。
+
+よって$q=0,\ p^2=1$の場合のみが残る。整理すると
+$$
+q=0,\ p=\pm1.
+$$
+
+これを$a,b$に戻すと
+$$
+q=b^2-a^2=0,\quad p=2ab=\pm1.
+$$
+$q=0$より
+$$
+b^2=a^2 \ \Rightarrow\ b=\pm a.
+$$
+
+(i) $b=a$ のとき  
+$$
+2ab=2a^2=\pm1 \ \Rightarrow\ a^2=\frac12.
+$$
+したがって
+$$
+a=\pm\frac{1}{\sqrt2},\quad b=a
+$$
+となるので，組$(a,b)$は
+$$
+\left(\frac{1}{\sqrt2},\ \frac{1}{\sqrt2}\right),\quad
+\left(-\frac{1}{\sqrt2},\ -\frac{1}{\sqrt2}\right)
+$$
+である。
+
+(ii) $b=-a$ のとき  
+$$
+2ab=2a(-a)=-2a^2=\pm1 \ \Rightarrow\ a^2=-\frac12 \ \text{となり実数解なし}.
+$$
+
+したがって条件を満たす実数の組$(a,b)$は
+$$
+(a,b)=\left(\frac{1}{\sqrt2},\ \frac{1}{\sqrt2}\right),\quad
+(a,b)=\left(-\frac{1}{\sqrt2},\ -\frac{1}{\sqrt2}\right)
+$$
+の2つである。

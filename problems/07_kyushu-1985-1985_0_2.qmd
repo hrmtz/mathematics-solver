@@ -1,0 +1,32 @@
+---
+title: "九州大学 1985年 1985_0_2"
+problem_id: "07_kyushu-1985-1985_0_2"
+university: "九州大学"
+exam_year: "1985"
+source_tex: "archive/07_kyushu/1985/1985_0_2.tex"
+pdf_source: "archive/07_kyushu/1985/1985_0_2.pdf"
+page_image: "archive/07_kyushu/1985/1985_0_2.jpg"
+fields:
+  - 空間図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　空間における3直線
+\[ l_1:\frac{x-2}{3}=\frac{y-3}{-5}=\frac{z-4}{2} \]
+\[ l_2:\frac{x-3}{a^3}=\frac{y-4}{-2a}=z-2 \]
+\[ l_3:\frac{x-4}{-2a^2}=y-2=\frac{z-3}{a^3} \]
+について，次の(1)，(2)に答えよ．
+\begin{description}
+\item[(1)]3直線$l_1$，$l_2$，$l_3$が同一平面上にあるように$a$の値を定めよ．
+\item[(2)](1)で定まる平面と$xy$平面とのなす角（小さいほうをとる）を$\theta$とするとき，
+$\tan2\theta$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1985/1985_0_2.pdf)

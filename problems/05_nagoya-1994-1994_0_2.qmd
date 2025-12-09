@@ -1,0 +1,25 @@
+---
+title: "名古屋大学 1994年 1994_0_2"
+problem_id: "05_nagoya-1994-1994_0_2"
+university: "名古屋大学"
+exam_year: "1994"
+source_tex: "archive/05_nagoya/1994/1994_0_2.tex"
+pdf_source: "archive/05_nagoya/1994/1994_0_2.pdf"
+page_image: "archive/05_nagoya/1994/1994_0_2.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$xy$平面上で点$P$が直線$x+y+1=0$上を動くとき，
+$P$から放物線$y=x^2$に引いた2直線とこの放物線とで囲まれる面積$S$を$P$の$x$座標を用いて表せ．
+また$S$が最小になるような$P$の$x$座標を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1994/1994_0_2.pdf)

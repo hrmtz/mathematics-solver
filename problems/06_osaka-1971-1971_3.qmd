@@ -1,0 +1,26 @@
+---
+title: "大阪大学 1971年 1971_3"
+problem_id: "06_osaka-1971-1971_3"
+university: "大阪大学"
+exam_year: "1971"
+source_tex: "archive/06_osaka/1971/1971_3.tex"
+pdf_source: "archive/06_osaka/1971/1971_3.pdf"
+page_image: "archive/06_osaka/1971/1971_3.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　3点$A(0, \, a)$，$B(b, \, 0)$，$B'(-b, \, 0)$（$a$，$b$は正の実数）を通り，
+$y$軸を軸とする放物線がある．
+点$B$，$B'$におけるこの放物線の接線に平行に原点を通る2直線を引く．
+これらの直線のおのおのと放物線とが囲む2つの図形の共通部分の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1971/1971_3.pdf)

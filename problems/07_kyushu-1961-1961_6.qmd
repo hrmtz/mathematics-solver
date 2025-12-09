@@ -1,0 +1,29 @@
+---
+title: "九州大学 1961年 1961_6"
+problem_id: "07_kyushu-1961-1961_6"
+university: "九州大学"
+exam_year: "1961"
+source_tex: "archive/07_kyushu/1961/1961_6.tex"
+pdf_source: "archive/07_kyushu/1961/1961_6.pdf"
+page_image: "archive/07_kyushu/1961/1961_6.jpg"
+fields:
+  - 三角関数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+\begin{description}
+\item[(1)]$\displaystyle\frac{1}{6}\leqq x \leqq\frac{1}{2}$において
+方程式$\displaystyle\pi\cos\pi x-\frac{3}{2}=0$は
+ただ1つの根をもつことを示せ。
+\item[(2)]上のことを用いて$\displaystyle\frac{1}{6}\leqq x \leqq\frac{1}{2}$のとき
+$\displaystyle\sin\pi x\geqq\frac{3}{2}x+\frac{1}{4}$が成り立つことを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1961/1961_6.pdf)

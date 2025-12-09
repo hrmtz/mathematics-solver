@@ -1,0 +1,31 @@
+---
+title: "北海道大学 2001年 2001_0_4"
+problem_id: "03_hokudai-2001-2001_0_4"
+university: "北海道大学"
+exam_year: "2001"
+source_tex: "archive/03_hokudai/2001/2001_0_4.tex"
+pdf_source: "archive/03_hokudai/2001/2001_0_4.pdf"
+page_image: "archive/03_hokudai/2001/2001_0_4.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$A$，$B$，$C$の3人がつぎのように勝負をくり返す．
+1回目には$A$と$B$の間で硬貨投げにより勝敗を決める．
+2回目以降には，直前の回の勝者と参加しなかった残りの1人との間で，
+やはり硬貨投げにより勝敗を決める．
+この勝負をくり返し，誰かが2連勝するか，または，4回目の勝負を終えたとき，終了する．
+ただし，硬貨投げで勝つ確率は各々$\displaystyle\frac{1}{2}$である．
+\begin{description}
+\item[(1)]$A$，$B$，$C$のうちの誰かが2連勝して終了する確率を求めよ．
+\item[(2)]$A$が2連勝して終了する確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2001/2001_0_4.pdf)

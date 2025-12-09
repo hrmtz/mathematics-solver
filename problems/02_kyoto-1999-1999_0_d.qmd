@@ -1,0 +1,27 @@
+---
+title: "京都大学 1999年 1999_0_d"
+problem_id: "02_kyoto-1999-1999_0_d"
+university: "京都大学"
+exam_year: "1999"
+source_tex: "archive/02_kyoto/1999/1999_0_d.tex"
+pdf_source: "archive/02_kyoto/1999/1999_0_d.pdf"
+page_image: "archive/02_kyoto/1999/1999_0_d.jpg"
+fields:
+  - 微分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　3次関数$y=x^3+kx$のグラフを考える．
+連立不等式$\begin{cases} y>-x 
+
+ y<-1 \end{cases}$が表す領域を$A$とする．
+$A$のどの点からも上の3次関数のグラフに接線が3本引けるための，$k$についての必要十分条件を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_0_d.pdf)

@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 2013年 2013_4"
+problem_id: "08_titech-2013-2013_4"
+university: "東京科学大学"
+exam_year: "2013"
+source_tex: "archive/08_titech/2013/2013_4.tex"
+pdf_source: "archive/08_titech/2013/2013_4.pdf"
+page_image: "archive/08_titech/2013/2013_4.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　正の整数$n$に対し，
+$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$の範囲において
+$\sin4nx\geqq\sin x$を満たす$x$の区間の長さの総和を$S_n$とする．
+このとき，$\displaystyle\lim_{n\to\infty}S_n$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2013/2013_4.pdf)

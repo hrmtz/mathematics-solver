@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1961年 1961_2"
+problem_id: "03_hokudai-1961-1961_2"
+university: "北海道大学"
+exam_year: "1961"
+source_tex: "archive/03_hokudai/1961/1961_2.tex"
+pdf_source: "archive/03_hokudai/1961/1961_2.pdf"
+page_image: "archive/03_hokudai/1961/1961_2.jpg"
+fields:
+  - 不等式
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+　$y=ax+2a+1$について
+\item[(1)]$-1<x<1$で$y$が必ず正になるように実数$a$の範囲を定めよ。
+\item[(2)]$-1 \leqq x \leqq 1$で$y$が正の値と負の値を必ずとるように実数$a$の範囲を定めよ。
+\item[(3)]$\displaystyle-\frac{1}{6}<a<1$のとき，
+$y$が常に正となるような$x$の範囲を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1961/1961_2.pdf)

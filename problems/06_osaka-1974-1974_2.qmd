@@ -1,0 +1,26 @@
+---
+title: "大阪大学 1974年 1974_2"
+problem_id: "06_osaka-1974-1974_2"
+university: "大阪大学"
+exam_year: "1974"
+source_tex: "archive/06_osaka/1974/1974_2.tex"
+pdf_source: "archive/06_osaka/1974/1974_2.pdf"
+page_image: "archive/06_osaka/1974/1974_2.jpg"
+fields:
+  - 三角関数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$，$b$は実数で$a^2+b^2>0$とする．
+変数$\theta$が連立不等式$a\sin\theta+b\cos\theta\geqq0$，
+$a\cos\theta-b\sin\theta\geqq0$を満たす範囲にあるとき，
+$\sin\theta$の最大値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1974/1974_2.pdf)

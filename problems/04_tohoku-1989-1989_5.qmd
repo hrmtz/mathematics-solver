@@ -1,0 +1,31 @@
+---
+title: "東北大学 1989年 1989_5"
+problem_id: "04_tohoku-1989-1989_5"
+university: "東北大学"
+exam_year: "1989"
+source_tex: "archive/04_tohoku/1989/1989_5.tex"
+pdf_source: "archive/04_tohoku/1989/1989_5.pdf"
+page_image: "archive/04_tohoku/1989/1989_5.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a$，$b$を$a\geqq1$，$a\neq2$，$b>0$なる定数とし，
+$x$の関数$f(x)=2e^{2x}-ae^x+bx$を考える．
+\begin{description}
+\item[(1)]$f(x)$が単調増加となるとき，$a$，$b$の満たすべき条件を求めよ．
+\item[(2)]$y=f(x)$，$y=bx$，$x=0$により囲まれる図形の面積$S$を求めよ．
+\item[(3)](1)の条件のもとで$a$を動かすとき，
+$S$の最大値$M$を$b$の関数として表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1989/1989_5.pdf)

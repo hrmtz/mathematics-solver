@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1971年 1971_1"
+problem_id: "03_hokudai-1971-1971_1"
+university: "北海道大学"
+exam_year: "1971"
+source_tex: "archive/03_hokudai/1971/1971_1.tex"
+pdf_source: "archive/03_hokudai/1971/1971_1.pdf"
+page_image: "archive/03_hokudai/1971/1971_1.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$x$に関する3つの不等式（ただし$a>0$とする）
+\[ x(3x-a)<0 \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \]
+\[ (x-1)(x-2)<0 \hspace{1zw} \cdots\cdots\text{\ding{"AD}} \]
+\[ x(9x-a^2)<0 \hspace{1zw} \cdots\cdots\text{\ding{"AE}} \]
+について
+\begin{description}
+\item[(1)]\ding{"AC}または\ding{"AD}の少なくともいずれか一方を成立させる$x$の範囲を求めよ．
+\item[(2)]\ding{"AE}を成立させるすべての$x$について\ding{"AC}または\ding{"AD}が成立するとき，
+$a$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1971/1971_1.pdf)

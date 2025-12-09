@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1967年 1967_5"
+problem_id: "08_titech-1967-1967_5"
+university: "東京科学大学"
+exam_year: "1967"
+source_tex: "archive/08_titech/1967/1967_5.tex"
+pdf_source: "archive/08_titech/1967/1967_5.pdf"
+page_image: "archive/08_titech/1967/1967_5.jpg"
+fields:
+  - 三角関数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$\alpha$，$\beta$が方程式$2x=\tan x$の異なる正の2根であるとき，
+次の定積分の値を求めよ．
+\[ \int_0^1\sin\alpha x\sin\beta xdx \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1967/1967_5.pdf)

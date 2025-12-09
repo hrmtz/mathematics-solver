@@ -1,0 +1,23 @@
+---
+title: "大阪大学 1978年 1978_0_3"
+problem_id: "06_osaka-1978-1978_0_3"
+university: "大阪大学"
+exam_year: "1978"
+source_tex: "archive/06_osaka/1978/1978_0_3.tex"
+pdf_source: "archive/06_osaka/1978/1978_0_3.pdf"
+page_image: "archive/06_osaka/1978/1978_0_3.jpg"
+fields:
+  - 数列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　任意の$x$に対して$f(x+1)-2f(x)+f(x-1)=0$が成り立つような整式$f(x)$は$ax+b$の形に表されることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1978/1978_0_3.pdf)

@@ -1,0 +1,29 @@
+---
+title: "東北大学 1991年 1991_e"
+problem_id: "04_tohoku-1991-1991_e"
+university: "東北大学"
+exam_year: "1991"
+source_tex: "archive/04_tohoku/1991/1991_e.tex"
+pdf_source: "archive/04_tohoku/1991/1991_e.pdf"
+page_image: "archive/04_tohoku/1991/1991_e.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a$を正の実数とし，$n$を正の整数とする．
+\begin{description}
+\item[(1)]$\displaystyle\frac{na}{\pi}$を越えない最大の整数を$m$とするとき
+\[ 2m\leqq\int_0^{na}|\sin x|dx<2(m+1) \]
+が成り立つことを示せ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}\int_0^a|\sin nx|dx$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_e.pdf)

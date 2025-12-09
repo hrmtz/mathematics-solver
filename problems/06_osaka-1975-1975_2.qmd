@@ -1,0 +1,24 @@
+---
+title: "大阪大学 1975年 1975_2"
+problem_id: "06_osaka-1975-1975_2"
+university: "大阪大学"
+exam_year: "1975"
+source_tex: "archive/06_osaka/1975/1975_2.tex"
+pdf_source: "archive/06_osaka/1975/1975_2.pdf"
+page_image: "archive/06_osaka/1975/1975_2.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　方程式$\sin^3\theta+\sin^2\theta-\sin\theta+c=0$において，
+実数$c$が変化するとき，この方程式を満たす$\theta$の個数はどのように変わるか．
+ただし，$0\leqq\theta\leqq\pi$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1975/1975_2.pdf)

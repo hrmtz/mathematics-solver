@@ -1,0 +1,241 @@
+## 解答
+
+(1)  
+与えられた数列 $\{a_n\}$ は  
+$$
+a_1=\alpha,\quad a_{n+1}=\frac12 a_n+1\quad (n=1,2,3,\dots)
+$$
+である。
+
+このままでは扱いにくいので，定数列に帰着させるため，$a_n$ から定数を引いた数列を考える。  
+そこで，$b_n=a_n+c$ の形を考え，$b_{n+1}=\dfrac12 b_n$ となるような定数 $c$ を求める。
+
+まず  
+$$
+b_n=a_n+c
+$$
+とおくと，漸化式 $a_{n+1}=\dfrac12 a_n+1$ から
+$$
+b_{n+1}=a_{n+1}+c=\frac12 a_n+1+c
+$$
+である。一方，
+$$
+\frac12 b_n=\frac12(a_n+c)=\frac12 a_n+\frac{c}{2}
+$$
+であり，$b_{n+1}=\dfrac12 b_n$ が成り立つためには
+$$
+\frac12 a_n+1+c=\frac12 a_n+\frac{c}{2}
+$$
+が必要である。両辺から $\dfrac12 a_n$ を消去して
+$$
+1+c=\frac{c}{2}
+$$
+より
+$$
+2+2c=c \quad\Longrightarrow\quad c=-2
+$$
+を得る。したがって
+$$
+b_n=a_n-2
+$$
+とおけば
+$$
+b_{n+1}=\frac12 b_n
+$$
+となる。
+
+初項は
+$$
+b_1=a_1-2=\alpha-2
+$$
+であるから，等比数列の一般項の公式より
+$$
+b_n=(\alpha-2)\left(\frac12\right)^{n-1}
+$$
+となる。ゆえに
+$$
+a_n=b_n+2
+      =(\alpha-2)\left(\frac12\right)^{n-1}+2
+$$
+が求める一般項である。
+
+---
+
+(2)  
+関数列 $\{f_n(x)\}$ は
+$$
+f_1(x)=3x,
+$$
+$$
+f_{n+1}(x)=(n+2)x^{\,n+1}+\left(\int_0^1 f_n(t)\,dt\right)x
+\quad (n=1,2,3,\dots)
+$$
+で定められている。$f_n(x)$ を $x$ と $n$ で表す。
+
+まず，$f_n(x)$ の形を調べるために，小さい $n$ について計算する。
+
+$n=1$ のとき
+$$
+f_1(x)=3x
+$$
+であり，
+$$
+\int_0^1 f_1(t)\,dt
+=\int_0^1 3t\,dt
+=\left.\frac{3}{2}t^2\right|_0^1
+=\frac{3}{2}
+$$
+となる。したがって
+$$
+f_2(x)=(1+2)x^{2}+\left(\int_0^1 f_1(t)\,dt\right)x
+=3x^2+\frac{3}{2}x
+$$
+である。
+
+次に
+$$
+\int_0^1 f_2(t)\,dt
+=\int_0^1\left(3t^2+\frac{3}{2}t\right)dt
+=\left.t^3+\frac{3}{4}t^2\right|_0^1
+=1+\frac{3}{4}
+=\frac{7}{4}
+$$
+より
+$$
+f_3(x)=(2+2)x^3+\left(\int_0^1 f_2(t)\,dt\right)x
+=4x^3+\frac{7}{4}x
+$$
+となる。
+
+このように，$f_n(x)$ は
+$$
+f_n(x)=\text{(定数)}\cdot x^n+\text{(定数)}\cdot x
+$$
+の形をしていると推測できるので  
+$$
+f_n(x)=A_n x^n+B_n x
+$$
+とおく（$A_n,B_n$ は $n$ のみに依存する定数）。実際にこの形を用いて漸化式を立てる。
+
+まず
+$$
+f_n(t)=A_n t^n+B_n t
+$$
+であるから
+$$
+\int_0^1 f_n(t)\,dt
+=\int_0^1 (A_n t^n+B_n t)\,dt
+=A_n\int_0^1 t^n\,dt+B_n\int_0^1 t\,dt
+$$
+となる。ここで
+$$
+\int_0^1 t^n\,dt=\left.\frac{1}{n+1}t^{n+1}\right|_0^1=\frac{1}{n+1},\quad
+\int_0^1 t\,dt=\left.\frac12 t^2\right|_0^1=\frac12
+$$
+より
+$$
+\int_0^1 f_n(t)\,dt=\frac{A_n}{n+1}+\frac{B_n}{2}
+$$
+と表される。よって
+$$
+f_{n+1}(x)
+=(n+2)x^{n+1}+\left(\frac{A_n}{n+1}+\frac{B_n}{2}\right)x
+$$
+である。一方，$f_{n+1}(x)$ を同じ形で書けば
+$$
+f_{n+1}(x)=A_{n+1}x^{n+1}+B_{n+1}x
+$$
+だから，係数比較により
+$$
+A_{n+1}=n+2,\quad
+B_{n+1}=\frac{A_n}{n+1}+\frac{B_n}{2}
+$$
+を得る。
+
+まず $A_n$ から求める。初期条件は $f_1(x)=3x$ なので
+$$
+f_1(x)=A_1 x^1+B_1 x
+$$
+と比べて
+$$
+A_1=0,\quad B_1=3
+$$
+である。一方，$A_{n+1}=n+2$ なので，$n$ を $n-1$ とおくと
+$$
+A_n=(n-1)+2=n+1\quad (n\ge2)
+$$
+となる。したがって $n\ge2$ で
+$$
+A_n=n+1
+$$
+が成り立つ（$n=1$ のときは $A_1=0$ であり，この式とは異なる）。
+
+次に $B_n$ を求める。$n\ge1$ に対して
+$$
+B_{n+1}=\frac{A_n}{n+1}+\frac{B_n}{2}
+$$
+であるが，$n\ge2$ では $A_n=n+1$ なので
+$$
+B_{n+1}=1+\frac{B_n}{2}\quad (n\ge2)
+$$
+となる。$n=1$ のときは
+$$
+B_2=\frac{A_1}{1+1}+\frac{B_1}{2}
+     =\frac{0}{2}+\frac{3}{2}
+     =\frac{3}{2}
+$$
+であり，これは先に直接求めた $f_2(x)$ と一致している。
+
+ここで $n\ge2$ の範囲で考え直すため，$b_n=B_n$ とおくと
+$$
+b_{n+1}=\frac12 b_n+1\quad (n\ge2)
+$$
+となる。これは(1)で扱った漸化式
+$$
+a_{n+1}=\frac12 a_n+1
+$$
+と同じ形であるから，同様に
+$$
+b_n=2+C\left(\frac12\right)^{n-1}
+$$
+という形になる。定数 $C$ は初期条件 $b_2=B_2=\dfrac{3}{2}$ から決まる。  
+$n=2$ を代入すると
+$$
+b_2=2+C\left(\frac12\right)^{1}
+\quad\Longrightarrow\quad
+\frac{3}{2}=2+\frac{C}{2}
+$$
+より
+$$
+\frac{3}{2}-2=\frac{C}{2}
+\quad\Longrightarrow\quad
+-\frac{1}{2}=\frac{C}{2}
+\quad\Longrightarrow\quad
+C=-1
+$$
+となる。したがって
+$$
+B_n=b_n
+=2-\left(\frac12\right)^{n-1}
+\quad (n\ge2)
+$$
+である。
+
+以上より，$n\ge2$ では
+$$
+f_n(x)=A_n x^n+B_n x
+=(n+1)x^n+\left(2-\left(\frac12\right)^{n-1}\right)x
+$$
+となる。$n=1$ のときは $f_1(x)=3x$ であり，上の式に $n=1$ を代入すると
+$$
+(1+1)x^1+\left(2-\left(\frac12\right)^{0}\right)x
+=2x+(2-1)x=3x
+$$
+となって一致するので，この式は $n=1$ についても成り立つ。
+
+したがって，求める一般形は
+$$
+f_n(x)=(n+1)x^n+\left(2-\left(\frac12\right)^{\,n-1}\right)x
+\quad (n=1,2,3,\dots)
+$$
+である。

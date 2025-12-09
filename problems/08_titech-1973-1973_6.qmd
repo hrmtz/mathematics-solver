@@ -1,0 +1,26 @@
+---
+title: "東京科学大学 1973年 1973_6"
+problem_id: "08_titech-1973-1973_6"
+university: "東京科学大学"
+exam_year: "1973"
+source_tex: "archive/08_titech/1973/1973_6.tex"
+pdf_source: "archive/08_titech/1973/1973_6.pdf"
+page_image: "archive/08_titech/1973/1973_6.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　1つのさいころを3回投げるとき，1回目，2回目，3回目に出る目の数をそれぞれ$a$，$b$，$c$とする．
+$a$，$b$，$c$を用いて2つの2次関数
+\[ f(x)=ax^2+bx+c, \hspace{1zw} g(x)=cx^2+bx+a \]
+をつくる．
+このとき，$f(10)$，$g(10)$がともに452より大きい確率を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1973/1973_6.pdf)

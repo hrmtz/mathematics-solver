@@ -1,0 +1,40 @@
+---
+title: "東京大学 2016年 2016_2"
+problem_id: "01_tokyo-2016-2016_2"
+university: "東京大学"
+exam_year: "2016"
+source_tex: "archive/01_tokyo/2016/2016_2.tex"
+pdf_source: "archive/01_tokyo/2016/2016_2.pdf"
+page_image: "archive/01_tokyo/2016/2016_2.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　A，B，Cの3つのチームが参加する野球の大会を開催する。
+以下の方式で試合を行い，2連勝したチームが出た時点で，
+そのチームを優勝チームとして大会は終了する。
+\begin{description}
+\item[(a)]1試合目でAとBが対戦する。
+\item[(b)]2試合目で，1試合目の勝者と，
+1試合目で待機していたCが対戦する。
+\item[(c)]$k$試合目で優勝チームが決まらない場合は，
+$k$試合目の勝者と，$k$試合目で待機していたチームが$k+1$試合目で対戦する。
+ここで$k$は2以上の整数とする。
+\end{description}
+なお，すべての対戦において，
+それぞれのチームが勝つ確率は$\displaystyle\frac{1}{2}$で，
+引き分けはないものとする。
+\begin{description}
+\item[(1)]$n$を2以上の整数とする。ちょうど$n$試合目でAが優勝する確率を求めよ。
+\item[(2)]$m$を正の整数とする。総試合数が$3m$回以下でAが優勝したとき，
+Aの最後の対戦相手がBである条件付き確率を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2016/2016_2.pdf)

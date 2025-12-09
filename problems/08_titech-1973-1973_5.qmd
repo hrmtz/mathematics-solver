@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1973年 1973_5"
+problem_id: "08_titech-1973-1973_5"
+university: "東京科学大学"
+exam_year: "1973"
+source_tex: "archive/08_titech/1973/1973_5.tex"
+pdf_source: "archive/08_titech/1973/1973_5.pdf"
+page_image: "archive/08_titech/1973/1973_5.jpg"
+fields:
+  - 積分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$xy$平面上の曲線$y={(ax-b)}^2$ $(a, \, b>0)$と$x$軸，$y$軸とで囲まれた部分を
+$x$軸のまわりおよび$y$軸のまわりに回転してできる2つの立体の体積が等しいとき，
+積$ab$は一定であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1973/1973_5.pdf)

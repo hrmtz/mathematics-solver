@@ -1,0 +1,26 @@
+---
+title: "北海道大学 1997年 1997_0_2"
+problem_id: "03_hokudai-1997-1997_0_2"
+university: "北海道大学"
+exam_year: "1997"
+source_tex: "archive/03_hokudai/1997/1997_0_2.tex"
+pdf_source: "archive/03_hokudai/1997/1997_0_2.pdf"
+page_image: "archive/03_hokudai/1997/1997_0_2.jpg"
+fields:
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　近似値$\log_{10}2=0.3010$，$\log_{10}3=0.4771$を利用して次の問に答えよ．
+\begin{description}
+\item[(1)]${18}^{35}$の桁数を求めよ．
+\item[(2)]${18}^{35}$の最高位の数字が8であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_0_2.pdf)

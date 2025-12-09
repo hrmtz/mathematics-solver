@@ -1,0 +1,32 @@
+---
+title: "大阪大学 2014年 2014_2"
+problem_id: "06_osaka-2014-2014_2"
+university: "大阪大学"
+exam_year: "2014"
+source_tex: "archive/06_osaka/2014/2014_2.tex"
+pdf_source: "archive/06_osaka/2014/2014_2.pdf"
+page_image: "archive/06_osaka/2014/2014_2.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$t>0$において定義された関数$f(t)$は次の条件（ア）（イ）を満たす．
+\begin{description}
+\item[（ア）]$t>0$のとき，すべての実数$x$に対して不等式
+\[ t \cdot \frac{e^x+e^{-x}}{2}+f(t) \geqq 1+x \]
+が成り立つ．
+\item[（イ）]$t>0$に対して，等式
+\[ t \cdot \frac{e^x+e^{-x}}{2}+f(t) = 1+x \]
+を満たす実数$x$が存在する．
+\end{description}
+このとき，$f(t)$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2014/2014_2.pdf)

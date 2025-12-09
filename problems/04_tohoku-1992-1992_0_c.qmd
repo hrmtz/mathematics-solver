@@ -1,0 +1,28 @@
+---
+title: "東北大学 1992年 1992_0_c"
+problem_id: "04_tohoku-1992-1992_0_c"
+university: "東北大学"
+exam_year: "1992"
+source_tex: "archive/04_tohoku/1992/1992_0_c.tex"
+pdf_source: "archive/04_tohoku/1992/1992_0_c.pdf"
+page_image: "archive/04_tohoku/1992/1992_0_c.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　点$A$は第1象限に，点$B$は第4象限にあり，
+原点$O$を始点とするベクトル$\overrightarrow{OA}$，$\overrightarrow{OB}$が単位ベクトルで，
+$x$軸とのなす角がともに$\alpha$とする．
+$\theta$が$0\leqq\theta\leqq2\pi$の範囲を動くとき，
+$\overrightarrow{OP}=\cos\theta\overrightarrow{OA}+\sin\theta\overrightarrow{OB}$を
+位置ベクトルとする点$P$が描く図形を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_0_c.pdf)

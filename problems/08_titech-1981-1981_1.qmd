@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 1981年 1981_1"
+problem_id: "08_titech-1981-1981_1"
+university: "東京科学大学"
+exam_year: "1981"
+source_tex: "archive/08_titech/1981/1981_1.tex"
+pdf_source: "archive/08_titech/1981/1981_1.pdf"
+page_image: "archive/08_titech/1981/1981_1.jpg"
+fields:
+  - 整数
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$\alpha$は$0<\alpha<1$を満たす実数とする．
+任意の自然数$n$に対して，
+$2^{n-1}\alpha$の整数部分を$a_n$とし，
+$2^{n-1}\alpha=a_n+b_n$とおくと，
+$n$が奇数のとき$\displaystyle 0 \leqq b_n<\frac{1}{2}$，
+$n$が偶数のとき$\displaystyle \frac{1}{2}<b_n<1$になるという．
+$a_n$および$\alpha$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1981/1981_1.pdf)

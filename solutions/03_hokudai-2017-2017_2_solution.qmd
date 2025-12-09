@@ -1,0 +1,239 @@
+## 解答
+
+(1)  
+$f(x)=1+\sin x-x\cos x$ とおく。
+
+まず導関数を求める。  
+$1$ の導関数は $0$，$\sin x$ の導関数は $\cos x$，$-x\cos x$ の導関数は積の微分法より
+$-(\cos x - x\sin x)= -\cos x + x\sin x$ であるから，
+$$
+f'(x)=0+\cos x+(-\cos x + x\sin x)=x\sin x
+$$
+となる。
+
+$0\le x\le 2\pi$ において，$f'(x)=0$ となるのは
+$$
+x\sin x=0
+$$
+より
+$$
+x=0,\ \ \sin x=0\ (\Rightarrow x=\pi,2\pi)
+$$
+である。したがって臨界点は $x=0,\pi,2\pi$ である。
+
+増減を調べるために，$0<x<\pi$ と $\pi<x<2\pi$ で $f'(x)$ の符号を見る。
+
+- $0<x<\pi$ では $\sin x>0$ かつ $x>0$ なので $x\sin x>0$，よって $f'(x)>0$。
+- $\pi<x<2\pi$ では $\sin x<0$ かつ $x>0$ なので $x\sin x<0$，よって $f'(x)<0$。
+
+したがって $f(x)$ は  
+$[0,\pi]$ で増加，$[\pi,2\pi]$ で減少する。
+
+次に端点および臨界点での値を計算する：
+$$
+f(0)=1+\sin 0-0\cdot\cos 0=1,
+$$
+$$
+f(\pi)=1+\sin\pi-\pi\cos\pi=1+0-\pi(-1)=1+\pi,
+$$
+$$
+f(2\pi)=1+\sin 2\pi-2\pi\cos 2\pi=1+0-2\pi=1-2\pi.
+$$
+
+増減より，$x=\pi$ で最大値，$x=2\pi$ で最小値となる。  
+よって
+
+- 最大値：$1+\pi$ （$x=\pi$ のとき）
+- 最小値：$1-2\pi$ （$x=2\pi$ のとき）
+
+である。
+
+---
+
+(2)  
+$f(x)=1+\sin x-x\cos x$ の不定積分を求める。
+
+$$
+\int f(x)\,dx=\int(1+\sin x-x\cos x)\,dx
+  =\int 1\,dx+\int\sin x\,dx-\int x\cos x\,dx.
+$$
+
+それぞれ計算する。
+
+1つめ：
+$$
+\int 1\,dx = x.
+$$
+
+2つめ：
+$$
+\int \sin x\,dx = -\cos x.
+$$
+
+3つめは部分積分を用いる。  
+$\displaystyle \int x\cos x\,dx$ において
+$$
+u=x,\quad dv=\cos x\,dx
+$$
+とおくと，
+$$
+du=dx,\quad v=\sin x
+$$
+なので
+$$
+\int x\cos x\,dx = x\sin x-\int \sin x\,dx
+= x\sin x -(-\cos x)
+= x\sin x+\cos x.
+$$
+
+したがって
+$$
+\int -x\cos x\,dx = -(x\sin x+\cos x)=-x\sin x-\cos x.
+$$
+
+これらを合わせると
+$$
+\int f(x)\,dx
+= x+(-\cos x)+(-x\sin x-\cos x)
+= x -x\sin x -2\cos x +C
+$$
+（$C$ は積分定数）である。
+
+---
+
+(3)  
+$\displaystyle \int_0^{2\pi} |f(x)|\,dx$ を求める。
+
+まず $f(x)$ の符号が変わる点（$f(x)=0$ となる点）を $[0,2\pi]$ で調べる。
+
+$$
+f(x)=1+\sin x-x\cos x=0
+$$
+を整理する。
+$x=0$ を代入すると
+$$
+f(0)=1\ne 0
+$$
+なので $x=0$ は解でない。
+
+$\cos x\ne 0$ の範囲では
+$$
+1+\sin x-x\cos x=0
+\ \Longleftrightarrow\
+x=\frac{1+\sin x}{\cos x}
+=\tan\frac{x}{2}+\sec\frac{x}{2} \ \text{など}
+$$
+といった形も考えられるが，ここでは $f(x)$ の増減を用いて符号を調べる。
+
+(1) より $0\le x\le\pi$ で $f(x)$ は増加，$\pi\le x\le2\pi$ で減少し，
+$$
+f(0)=1>0,\quad f(\pi)=1+\pi>0,\quad f(2\pi)=1-2\pi<0
+$$
+である。したがって
+
+- $[0,\pi]$ では $f(x)$ は増加かつ端点で正なので $f(x)>0$。
+- $[\pi,2\pi]$ では $f(x)$ は減少し，$f(\pi)>0,\ f(2\pi)<0$ なので，$\pi$ と $2\pi$ の間にただ 1 つ $f(x)=0$ となる点が存在する。
+
+この点を $x=\alpha$ とおく。ただし
+$$
+\pi<\alpha<2\pi,\quad f(\alpha)=0.
+$$
+
+(2) で求めた原始関数
+$$
+F(x)=x -x\sin x -2\cos x
+$$
+を用いると，
+$$
+\int_0^{2\pi} |f(x)|\,dx
+=\int_0^{\alpha} f(x)\,dx -\int_{\alpha}^{2\pi} f(x)\,dx
+$$
+となる（$\alpha$ まで $f>0$，$\alpha$ から先で $f<0$ であるため，絶対値の定義から符号を分けた）。
+
+したがって
+$$
+\int_0^{2\pi} |f(x)|\,dx
+=\Bigl[F(x)\Bigr]_0^{\alpha} -\Bigl[F(x)\Bigr]_{\alpha}^{2\pi}
+= \bigl(F(\alpha)-F(0)\bigr) -\bigl(F(2\pi)-F(\alpha)\bigr)
+= 2F(\alpha)-F(0)-F(2\pi).
+$$
+
+$F(0),F(2\pi)$ は計算できる：
+$$
+F(0)=0-0\cdot\sin0-2\cos0=0-0-2=-2,
+$$
+$$
+F(2\pi)=2\pi-2\pi\sin2\pi-2\cos2\pi
+=2\pi-0-2=2\pi-2.
+$$
+
+よって
+$$
+\int_0^{2\pi} |f(x)|\,dx
+=2F(\alpha)-(-2)-(2\pi-2)
+=2F(\alpha)+4-2\pi.
+$$
+
+ここで $f(\alpha)=0$ を用いて $F(\alpha)$ を簡単にする。  
+$f(\alpha)=0$ より
+$$
+1+\sin\alpha-\alpha\cos\alpha=0
+\ \Longrightarrow\
+\alpha\cos\alpha=1+\sin\alpha.
+$$
+
+一方，
+$$
+F(\alpha)=\alpha-\alpha\sin\alpha-2\cos\alpha
+$$
+であるが，
+$\alpha\cos\alpha=1+\sin\alpha$ から
+$$
+\cos\alpha=\frac{1+\sin\alpha}{\alpha}
+$$
+なので
+$$
+F(\alpha)=\alpha-\alpha\sin\alpha
+-2\cdot\frac{1+\sin\alpha}{\alpha}.
+$$
+
+直接 $\alpha$ を消去するのは煩雑だが，別の見方をする。  
+$f(\alpha)=0$ なので
+$$
+F(\alpha)-\alpha f(\alpha)
+=F(\alpha)-\alpha(1+\sin\alpha-\alpha\cos\alpha)
+$$
+を考えると，右辺のうち $\alpha f(\alpha)$ は 0 だから
+$$
+F(\alpha)=F(\alpha)-\alpha f(\alpha)
+$$
+となる。この右辺を展開して整理すると $\alpha$ が消えることに気づく。
+
+実際に計算すると，
+$$
+F(x)-x f(x)
+=(x-x\sin x-2\cos x)-x(1+\sin x-x\cos x)
+$$
+$$
+= x -x\sin x -2\cos x -x -x\sin x +x^2\cos x
+= -2x\sin x -2\cos x +x^2\cos x.
+$$
+
+ここで $x=\alpha$ とし，さらに $f(\alpha)=0$（すなわち $\alpha\cos\alpha=1+\sin\alpha$）を用いても，実際には $\alpha$ を消すのは難しく，式は複雑なままになる。
+
+このことから，$f(\alpha)=0$ を使っても $\alpha$ を具体的に決定できない以上，$\int_0^{2\pi}|f(x)|dx$ を閉じた形の既知の定数だけで表すことはできないと分かる。
+
+したがって，本問では $f(x)=0$ の解 $\alpha$ を用いて
+$$
+\int_0^{2\pi}|f(x)|dx
+=2F(\alpha)+4-2\pi
+$$
+と表すことが限界となる。
+
+以上より，
+$$
+\int_0^{2\pi}|f(x)|dx
+=2\bigl(\alpha-\alpha\sin\alpha-2\cos\alpha\bigr)+4-2\pi,
+\quad (\pi<\alpha<2\pi,\ f(\alpha)=0)
+$$
+である。

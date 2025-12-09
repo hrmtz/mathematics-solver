@@ -1,0 +1,25 @@
+---
+title: "九州大学 2016年 2016_e"
+problem_id: "07_kyushu-2016-2016_e"
+university: "九州大学"
+exam_year: "2016"
+source_tex: "archive/07_kyushu/2016/2016_e.tex"
+pdf_source: "archive/07_kyushu/2016/2016_e.pdf"
+page_image: "archive/07_kyushu/2016/2016_e.jpg"
+fields:
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　媒介変数$x=\sin t$，$y=t^2$ (ただし$-2\pi \leqq t \leqq 2\pi$)で表された
+曲線で囲まれた領域の面積を求めよ。
+なお領域が複数ある場合は，その総和を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2016/2016_e.pdf)

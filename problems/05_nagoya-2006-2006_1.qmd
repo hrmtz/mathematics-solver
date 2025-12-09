@@ -1,0 +1,35 @@
+---
+title: "名古屋大学 2006年 2006_1"
+problem_id: "05_nagoya-2006-2006_1"
+university: "名古屋大学"
+exam_year: "2006"
+source_tex: "archive/05_nagoya/2006/2006_1.tex"
+pdf_source: "archive/05_nagoya/2006/2006_1.pdf"
+page_image: "archive/05_nagoya/2006/2006_1.jpg"
+fields:
+  - 微分法
+  - 数列
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面上に曲線$C:y=\log x \, (x>0)$を考える．
+\begin{description}
+\item[(1)]曲線$C$の接線で点$(0, \, b)$を通るものの方程式を求めよ．
+\item[(2)]平面上に2組の点列$\{ A_n \}$，$\{ B_n \}$を次のように定める．
+$A_1$を$(1, \, 0)$とする．
+$A_n$が定まったとき，
+$A_n$を通り$x$軸に平行な直線と$y$軸との交点を$B_n$とし，
+$B_n$を通る曲線$C$の接線の接点を$A_{n+1}$とする．
+このとき，2つの線分$A_nB_n$と$B_nA_{n+1}$および曲線$C$とで囲まれる部分の面積$S_n$を求めよ．
+\item[(3)]無限級数$\displaystyle\sum_{n=1}^\infty\frac{n}{S_n}$の和を求めよ．
+ここで，$|r|<1$のとき$\displaystyle\lim_{n\to\infty}nr^n=0$であることを用いてよい．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2006/2006_1.pdf)

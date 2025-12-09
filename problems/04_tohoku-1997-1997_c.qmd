@@ -1,0 +1,31 @@
+---
+title: "東北大学 1997年 1997_c"
+problem_id: "04_tohoku-1997-1997_c"
+university: "東北大学"
+exam_year: "1997"
+source_tex: "archive/04_tohoku/1997/1997_c.tex"
+pdf_source: "archive/04_tohoku/1997/1997_c.pdf"
+page_image: "archive/04_tohoku/1997/1997_c.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$A$，$B$，$C$の3室に3人ずつの人がいるとする．
+翌日の朝くじ引きにより，$A$室からは1人を$B$室へ，$B$室からは1人を$A$室へ，1人を$C$室へ，
+$C$室からは1人を$B$室へ，いっせいに移動させることにする．
+ 
+
+![](../archive/04_tohoku/1997/fig_1997_c.jpg)
+
+
+この移動を毎朝繰り返した場合，最初の日に$A$室にいた3人が，
+3日後の移動（3回目の移動）の結果1人も$A$室にいなくなる確率を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1997/1997_c.pdf)

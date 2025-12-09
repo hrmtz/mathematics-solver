@@ -1,0 +1,29 @@
+---
+title: "東京大学 2003年 2003_0_3"
+problem_id: "01_tokyo-2003-2003_0_3"
+university: "東京大学"
+exam_year: "2003"
+source_tex: "archive/01_tokyo/2003/2003_0_3.tex"
+pdf_source: "archive/01_tokyo/2003/2003_0_3.pdf"
+page_image: "archive/01_tokyo/2003/2003_0_3.jpg"
+fields:
+  - 数列
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　2次方程式$x^2-4x+1=0$の2つの実数解のうち大きいものを$\alpha$，小さいものを$\beta$とする．
+　$n=1,2,3,\cdots$に対し，$s_n=\alpha^n+\beta^n$とおく．
+\begin{description}
+\item[(1)]$s_1$，$s_2$，$s_3$を求めよ．また，$n\geqq3$に対し，$s_n$を$s_{n-1}$と$s_{n-2}$で表せ．
+\item[(2)]$s_n$は正の整数であることを示し，$s_{2003}$の1の位の数を求めよ．
+\item[(3)]$\alpha^{2003}$以下の最大の整数の1の位の数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2003/2003_0_3.pdf)

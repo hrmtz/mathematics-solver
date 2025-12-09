@@ -1,0 +1,25 @@
+---
+title: "大阪大学 1972年 1972_7"
+problem_id: "06_osaka-1972-1972_7"
+university: "大阪大学"
+exam_year: "1972"
+source_tex: "archive/06_osaka/1972/1972_7.tex"
+pdf_source: "archive/06_osaka/1972/1972_7.pdf"
+page_image: "archive/06_osaka/1972/1972_7.jpg"
+fields:
+  - 平面図形
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+7
+　次の条件を満たす点$P$の範囲を図示せよ．
+条件：放物線$y=x^2+4x$上に直線$OP$に関して対称な相異なる2点が存在する．
+ただし，$O$は原点である．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1972/1972_7.pdf)

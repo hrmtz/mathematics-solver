@@ -1,0 +1,26 @@
+---
+title: "東北大学 2005年 2005_b"
+problem_id: "04_tohoku-2005-2005_b"
+university: "東北大学"
+exam_year: "2005"
+source_tex: "archive/04_tohoku/2005/2005_b.tex"
+pdf_source: "archive/04_tohoku/2005/2005_b.pdf"
+page_image: "archive/04_tohoku/2005/2005_b.jpg"
+fields:
+  - 代数
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$，$b$を正の実数とする．$x$に関する4次方程式
+\[ x^4+ax^3+(2b+7)x^2+2abx+5b^2=0 \]
+は4つの異なる複素数解$p$，$\overline{p}$，$p+2\overline{p}$，$2p+\overline{p}$をもつとする．
+このとき$a$，$b$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_b.pdf)

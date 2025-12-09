@@ -1,0 +1,26 @@
+---
+title: "東京大学 1981年 1981_1"
+problem_id: "01_tokyo-1981-1981_1"
+university: "東京大学"
+exam_year: "1981"
+source_tex: "archive/01_tokyo/1981/1981_1.tex"
+pdf_source: "archive/01_tokyo/1981/1981_1.pdf"
+page_image: "archive/01_tokyo/1981/1981_1.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$S=\{1,2,\cdots\cdots,n\}$，ただし$n\geqq2$，とする．
+2つの要素から成る$S$の部分集合を$k$個とり出し，
+そのうちのどの2つも交わりが空集合であるようにする方法は何通りあるか．
+　つぎに，この数(つまり何通りあるかを表す数)を$f(n,k)$で表したとき，
+$f(n,k)=f(n,1)$をみたすような$n$と$k$(ただし，$k\geqq2$)をすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1981/1981_1.pdf)

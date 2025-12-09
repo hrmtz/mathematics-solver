@@ -1,0 +1,27 @@
+---
+title: "北海道大学 1963年 1963_4"
+problem_id: "03_hokudai-1963-1963_4"
+university: "北海道大学"
+exam_year: "1963"
+source_tex: "archive/03_hokudai/1963/1963_4.tex"
+pdf_source: "archive/03_hokudai/1963/1963_4.pdf"
+page_image: "archive/03_hokudai/1963/1963_4.jpg"
+fields:
+  - 不等式
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　不等式$a+b+\sin3x-4<(a^2+b^2+3)\sin x$が
+$x$のどんな値に対しても成り立つような$a$，$b$の条件を求めよ。
+またその条件を満たす$a$，$b$を座標にもつ点の存在する範囲を図示せよ。
+ただし文字はすべて実数とする。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1963/1963_4.pdf)

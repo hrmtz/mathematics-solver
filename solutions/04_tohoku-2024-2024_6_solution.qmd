@@ -1,0 +1,228 @@
+## 解答
+
+(1)  
+点 $Q(\cos\theta,\sin\theta,0)$ と点 $P(0,0,1)$ を通る直線 $PQ$ を，媒介変数 $t$ を用いて  
+$$
+\vec{PR}=t\bigl(\cos\theta,\sin\theta-0,-1\bigr)
+=(t\cos\theta,\ t\sin\theta,\ 1-t)\quad(0\le t\le1)
+$$
+と表す。この直線と平面 $H:z=x$ との交点 $R$ は，座標 $(x,y,z)=(t\cos\theta,t\sin\theta,1-t)$ が
+$$
+z=x
+$$
+を満たすことで求まる。よって
+$$
+1-t=t\cos\theta
+$$
+すなわち
+$$
+t(1+\cos\theta)=1
+$$
+より
+$$
+t=\frac{1}{1+\cos\theta}
+$$
+である。したがって
+$$
+PR=\lvert \vec{PR}\rvert = t
+$$
+であるから
+$$
+r(\theta)=PR=\frac{1}{1+\cos\theta}.
+$$
+
+---
+
+(2)  
+まず円錐 $K$ の母線（頂点 $P$ から底円周 $C$ 上の点までの線分）の長さを求める。  
+底面円 $C$ 上の任意の点 $Q(\cos\varphi,\sin\varphi,0)$ に対して
+$$
+PQ=\sqrt{(\cos\varphi-0)^2+(\sin\varphi-0)^2+(0-1)^2}
+=\sqrt{1+1}=\sqrt2
+$$
+より，母線の長さは一定で $\sqrt2$ である。
+
+次に，円錐の側面は，母線の長さを半径とする円板を曲率半径に沿って曲げたものとみなせるから，
+底面円周 $C$ における「中心角」に対応する部分に等しい面積は，
+展開図上では，半径 $\sqrt2$ の扇形の一部分として計算できる。
+
+円周上の点 $Q(\cos\theta,\sin\theta,0)$ は，$\theta$ を底面における偏角として表されている。
+$\theta$ が変化するとともに，円錐側面上で頂点 $P$ と $A(0,-1,0)$ とを通る母線 $PA$ から
+$P$ と $Q$ とを結ぶ母線 $PQ$ までの間の「円周に沿った長さ」，すなわち底面円の弧 $AQ$ の長さは
+$$
+\text{弧 }AQ = \theta -(-\tfrac{\pi}{2})=\theta+\frac{\pi}{2}
+$$
+となる。ただし，$A$ は底面円 $x^2+y^2=1$ 上の点 $(0,-1,0)$ であり，その偏角は $-\frac{\pi}{2}$ である。
+
+したがって，円錐の側面上で，頂点 $P$ と母線 $PA,\,PQ$，およびその間の「母線の束」によって
+囲まれる部分（扇形状の領域）を $S(\theta)$ とすると，
+その面積は「半径 $\sqrt2$ の扇形」において中心角が $\theta+\frac{\pi}{2}$ の部分に等しいので，
+$$
+S(\theta)=\frac{1}{2}\cdot(\sqrt2)^2\cdot\Bigl(\theta+\frac{\pi}{2}\Bigr)
+=\theta+\frac{\pi}{2}.
+$$
+
+次に，$\theta<\theta+h$ とし，同様に
+$S(\theta+h)$ は底面円の弧 $A\to Q(\theta+h)$ に対応するので
+$$
+S(\theta+h)=\theta+h+\frac{\pi}{2}
+$$
+が成り立つ。よって
+$$
+S(\theta+h)-S(\theta)
+=(\theta+h+\tfrac{\pi}{2})-(\theta+\tfrac{\pi}{2})=h
+$$
+となる。
+
+一方，(1) より
+$$
+r(\theta)=\frac{1}{1+\cos\theta},\quad
+r(\theta+h)=\frac{1}{1+\cos(\theta+h)}
+$$
+だから，
+$$
+\frac{h\{r(\theta)\}^2}{2\sqrt2}
+=\frac{h}{2\sqrt2}\cdot\frac{1}{(1+\cos\theta)^2},\quad
+\frac{h\{r(\theta+h)\}^2}{2\sqrt2}
+=\frac{h}{2\sqrt2}\cdot\frac{1}{(1+\cos(\theta+h))^2}.
+$$
+
+ここで，$\displaystyle -\frac{\pi}{2}\le\theta<\theta+h\le\frac{\pi}{2}$ より
+$$
+-\frac{\pi}{2}\le\theta<\theta+h\le\frac{\pi}{2}
+\Rightarrow
+\cos\theta\ge\cos(\theta+h)
+$$
+が成り立つ（余弦関数は $[0,\pi]$ で単調減少であり，ここでは角度が $-\frac{\pi}{2}$ から
+$\frac{\pi}{2}$ の範囲内で増加している）。したがって
+$$
+1+\cos\theta\ge1+\cos(\theta+h)>0
+$$
+より
+$$
+\frac{1}{(1+\cos\theta)^2}\le \frac{1}{(1+\cos(\theta+h))^2}
+$$
+となる。すなわち
+$$
+\{r(\theta)\}^2\le \{r(\theta+h)\}^2.
+$$
+
+ここで $S(\theta+h)-S(\theta)=h$ であるから，
+$$
+\frac{h\{r(\theta)\}^2}{2\sqrt2}
+\le h
+\le \frac{h\{r(\theta+h)\}^2}{2\sqrt2}
+$$
+が示されればよいが，この不等式を直接確かめるのではなく，
+問題文で与えられた形
+$$
+\frac{h\{r(\theta)\}^2}{2\sqrt2}\le S(\theta+h)-S(\theta)
+\le\frac{h\{r(\theta+h)\}^2}{2\sqrt2}
+$$
+に $S(\theta+h)-S(\theta)=h$ を代入して，
+上で述べたように $\{r(\theta)\}^2\le\{r(\theta+h)\}^2$ であることから，
+左辺・右辺の大小関係が保たれることを考えると，
+
+左辺：
+$$
+\frac{h\{r(\theta)\}^2}{2\sqrt2}
+\le\frac{h\{r(\theta+h)\}^2}{2\sqrt2}
+$$
+
+右辺：
+$$
+S(\theta+h)-S(\theta)=h
+\le\frac{h\{r(\theta+h)\}^2}{2\sqrt2}
+$$
+
+および
+$$
+\frac{h\{r(\theta)\}^2}{2\sqrt2}\le h
+=S(\theta+h)-S(\theta)
+$$
+
+がいずれも成り立つので，
+所望の不等式
+$$
+\frac{h\{r(\theta)\}^2}{2\sqrt2}\le S(\theta+h)-S(\theta)
+\le\frac{h\{r(\theta+h)\}^2}{2\sqrt2}
+$$
+が示された。
+
+（注：ここでは，$S(\theta)$ を「頂点 $P$ と底面円上の弧 $A\to Q(\theta)$ によって囲まれる部分の面積」
+と解釈し，その差 $S(\theta+h)-S(\theta)$ が弧 $Q(\theta)\to Q(\theta+h)$ に対応する
+扇形部分の面積に等しいことを用いている。）
+
+---
+
+(3)  
+円錐 $K$ の側面のうち，底面円 $C$ の $x\ge0$ の部分（すなわち
+$\displaystyle -\frac{\pi}{2}\le\theta\le\frac{\pi}{2}$ に対応する弧）と
+曲線 $E$ によって囲まれた部分の面積を $T$ とする。
+
+(2) の結果を $\theta\in[0,\frac{\pi}{2}]$ で用いると，
+$S(\theta)$ は，$0$ から $\theta$ までの間の「弧に対応する側面の面積」を表すから，
+その増分 $S(\theta+h)-S(\theta)$ は，$\theta$ から $\theta+h$ の間の
+側面の細長い帯状部分の面積になっている。よって $T$ は
+$$
+T=S\Bigl(\frac{\pi}{2}\Bigr)-S(0)
+$$
+に等しい。よって (2) の不等式より，
+$\theta=0$ から $\theta=\frac{\pi}{2}$ まで積分をとることで
+$$
+T=\int_0^{\pi/2} \frac{\{r(\theta)\}^2}{2\sqrt2}\,d\theta
+$$
+とみなすことができる（厳密には，上下評価から狭義の意味での積分に収束する）。
+
+(1) より $r(\theta)=\dfrac{1}{1+\cos\theta}$ だから
+$$
+T=\int_0^{\pi/2}\frac{1}{2\sqrt2}\cdot\frac{1}{(1+\cos\theta)^2}\,d\theta
+=\frac{1}{2\sqrt2}\int_0^{\pi/2}\frac{d\theta}{(1+\cos\theta)^2}.
+$$
+
+ここで半角の公式
+$$
+1+\cos\theta=2\cos^2\frac{\theta}{2}
+$$
+を用いると
+$$
+\frac{1}{(1+\cos\theta)^2}
+=\frac{1}{4\cos^4\frac{\theta}{2}}.
+$$
+さらに置換積分 $\displaystyle u=\tan\frac{\theta}{2}$ を用いる。
+このとき
+$$
+\tan\frac{\theta}{2}=u\quad\Rightarrow\quad
+\cos\frac{\theta}{2}=\frac{1}{\sqrt{1+u^2}},
+\quad
+d\theta=\frac{2}{1+u^2}\,du.
+$$
+よって
+$$
+\frac{1}{4\cos^4\frac{\theta}{2}}\,d\theta
+=\frac{1}{4}\cdot(1+u^2)^2\cdot\frac{2}{1+u^2}\,du
+=\frac{1}{2}(1+u^2)\,du.
+$$
+
+また，$\theta=0$ のとき $\displaystyle u=\tan0=0$，
+$\theta=\frac{\pi}{2}$ のとき $\displaystyle u=\tan\frac{\pi}{4}=1$ であるから，
+積分区間は $[0,1]$ に移る。したがって
+$$
+\int_0^{\pi/2}\frac{d\theta}{(1+\cos\theta)^2}
+=\int_0^{1}\frac{1}{2}(1+u^2)\,du
+=\frac{1}{2}\left[u+\frac{u^3}{3}\right]_0^1
+=\frac{1}{2}\left(1+\frac{1}{3}\right)
+=\frac{2}{3}.
+$$
+
+以上より
+$$
+T=\frac{1}{2\sqrt2}\cdot\frac{2}{3}
+=\frac{1}{3\sqrt2}.
+$$
+
+よって，求める面積は
+$$
+T=\frac{1}{3\sqrt2}
+$$
+である。

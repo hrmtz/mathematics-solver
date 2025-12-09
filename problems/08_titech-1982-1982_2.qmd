@@ -1,0 +1,33 @@
+---
+title: "東京科学大学 1982年 1982_2"
+problem_id: "08_titech-1982-1982_2"
+university: "東京科学大学"
+exam_year: "1982"
+source_tex: "archive/08_titech/1982/1982_2.tex"
+pdf_source: "archive/08_titech/1982/1982_2.pdf"
+page_image: "archive/08_titech/1982/1982_2.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　平面上の原点$O$を中心とする半径1の円$C$の周上に，
+同一直径上にない異なる2点$A$，$B$をとる．
+$A$，$B$の位置ベクトルをそれぞれ$\vec{a}$，$\vec{b}$とし，
+$L=\{ m\vec{a}+n\vec{b} \, | \, m, \, n \text{は整数} \}$とする．
+\begin{description}
+\item[(1)]零ベクトルでない$L$の元の大きさの最小値$r$は
+1，$|\vec{a}+\vec{b}|$，$|\vec{a}-\vec{b}|$のうちの
+最小のものに等しいことを証明せよ．
+\item[(2)]2点$A$，$B$が$r=1$を満たして$C$の周上を動くとき，
+$\triangle OAB$の面積$S$の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1982/1982_2.pdf)

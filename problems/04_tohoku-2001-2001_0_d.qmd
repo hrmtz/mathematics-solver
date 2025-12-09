@@ -1,0 +1,29 @@
+---
+title: "東北大学 2001年 2001_0_d"
+problem_id: "04_tohoku-2001-2001_0_d"
+university: "東北大学"
+exam_year: "2001"
+source_tex: "archive/04_tohoku/2001/2001_0_d.tex"
+pdf_source: "archive/04_tohoku/2001/2001_0_d.pdf"
+page_image: "archive/04_tohoku/2001/2001_0_d.jpg"
+fields:
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$，$b$を実数とし，
+\[ f(x)=x^2-2a|x|+b \]
+とする．$|f(x)|=1$を満たす実数$x$の個数を$N$とする．
+\begin{description}
+\item[(1)]$a\leqq0$のとき，$N$の最大値を求めよ．
+\item[(2)]$N=6$となるような点$(a, \, b)$の範囲を$ab$平面上に図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_0_d.pdf)

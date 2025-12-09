@@ -1,0 +1,33 @@
+---
+title: "東北大学 2010年 2010_0_3"
+problem_id: "04_tohoku-2010-2010_0_3"
+university: "東北大学"
+exam_year: "2010"
+source_tex: "archive/04_tohoku/2010/2010_0_3.tex"
+pdf_source: "archive/04_tohoku/2010/2010_0_3.pdf"
+page_image: "archive/04_tohoku/2010/2010_0_3.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　数直線上を動く点$P$がある．
+裏表の出る確率が等しい硬貨を2枚投げて，
+2枚とも表が出たら$P$は正の向きに1だけ移動し，2枚とも裏が出たら$P$は負の向きに1だけ移動し，
+それ以外のときはその位置にとどまるものとする．
+$P$が原点$O$を出発点として，このような試行を$n$回繰り返して到着した位置を$S_n$とする．
+以下の問いに答えよ．
+\begin{description}
+\item[(1)]$S_2=-1$となる確率を求めよ．
+\item[(2)]$S_3=1$となる確率を求めよ．
+\item[(3)]試行を$n$回繰り返して出た表の総数を$i$とするとき，$S_n$を求めよ．
+\item[(4)]$k$を整数とするとき，$S_n=k$となる確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_0_3.pdf)

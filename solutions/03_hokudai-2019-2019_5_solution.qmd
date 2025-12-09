@@ -1,0 +1,350 @@
+## 解答
+
+(1)  
+$f_{n+1}(x)$ の定義より，
+$$
+a_{n+1}=\frac{2}{\pi}\int_0^\pi f_{n+1}(t)\sin t\,dt,\quad
+b_{n+1}=\frac{2}{\pi}\int_0^\pi f_{n+1}(t)\cos t\,dt
+$$
+である。$x$ を積分変数 $t$ に読み替えると
+$$
+f_{n+1}(t)=2\cos t+\frac{2}{\pi}\int_0^\pi f_n(u)\sin(t-u)\,du
+$$
+となるので，
+$$
+a_{n+1}
+=\frac{2}{\pi}\int_0^\pi\left[2\cos t+\frac{2}{\pi}\int_0^\pi f_n(u)\sin(t-u)\,du\right]\sin t\,dt
+$$
+$$
+=\frac{4}{\pi}\int_0^\pi \cos t\sin t\,dt
++\frac{4}{\pi^2}\int_0^\pi\int_0^\pi f_n(u)\sin(t-u)\sin t\,du\,dt
+$$
+となる。ここで
+$$
+\int_0^\pi \cos t\sin t\,dt
+=\frac12\int_0^\pi \sin 2t\,dt
+=\left[-\frac14\cos 2t\right]_0^\pi
+=-\frac14(\cos 2\pi-\cos 0)=0
+$$
+より第一項は $0$ である。
+
+次に二重積分の部分を，Fubini の定理により積分順序を入れ替えて
+$$
+\int_0^\pi\int_0^\pi f_n(u)\sin(t-u)\sin t\,du\,dt
+=\int_0^\pi f_n(u)\left(\int_0^\pi \sin(t-u)\sin t\,dt\right)du
+$$
+とする。内側の積分を計算する。積の公式
+$$
+\sin A\sin B=\frac12\{\cos(A-B)-\cos(A+B)\}
+$$
+を用いて
+$$
+\sin(t-u)\sin t
+=\frac12\{\cos((t-u)-t)-\cos((t-u)+t)\}
+=\frac12\{\cos(-u)-\cos(2t-u)\}
+$$
+$$
+=\frac12\{\cos u-\cos(2t-u)\}
+$$
+となるから，
+$$
+\int_0^\pi \sin(t-u)\sin t\,dt
+=\frac12\left(\cos u\int_0^\pi dt-\int_0^\pi \cos(2t-u)\,dt\right).
+$$
+前者は
+$$
+\cos u\int_0^\pi dt=\cos u\cdot\pi
+$$
+であり，後者は
+$$
+\int_0^\pi \cos(2t-u)\,dt
+=\left[\frac12\sin(2t-u)\right]_0^\pi
+=\frac12\{\sin(2\pi-u)-\sin(-u)\}
+$$
+$$
+=\frac12\{(-\sin u)-(-\sin u)\}=0
+$$
+となるので，
+$$
+\int_0^\pi \sin(t-u)\sin t\,dt=\frac{\pi}{2}\cos u
+$$
+を得る。よって
+$$
+\int_0^\pi\int_0^\pi f_n(u)\sin(t-u)\sin t\,du\,dt
+=\int_0^\pi f_n(u)\cdot\frac{\pi}{2}\cos u\,du
+$$
+$$
+=\frac{\pi}{2}\int_0^\pi f_n(u)\cos u\,du
+$$
+であり，これを $b_n$ の定義
+$$
+b_n=\frac{2}{\pi}\int_0^\pi f_n(u)\cos u\,du
+$$
+に用いると
+$$
+\int_0^\pi f_n(u)\cos u\,du=\frac{\pi}{2}b_n
+$$
+なので
+$$
+\int_0^\pi\int_0^\pi f_n(u)\sin(t-u)\sin t\,du\,dt
+=\frac{\pi^2}{4}b_n
+$$
+となる。したがって
+$$
+a_{n+1}=\frac{4}{\pi^2}\cdot\frac{\pi^2}{4}b_n=b_n
+$$
+を得る。
+
+同様に $b_{n+1}$ についても
+$$
+b_{n+1}
+=\frac{2}{\pi}\int_0^\pi f_{n+1}(t)\cos t\,dt
+$$
+$$
+=\frac{2}{\pi}\int_0^\pi\left[2\cos t+\frac{2}{\pi}\int_0^\pi f_n(u)\sin(t-u)\,du\right]\cos t\,dt
+$$
+$$
+=\frac{4}{\pi}\int_0^\pi \cos^2 t\,dt
++\frac{4}{\pi^2}\int_0^\pi\int_0^\pi f_n(u)\sin(t-u)\cos t\,du\,dt
+$$
+となる。まず
+$$
+\int_0^\pi \cos^2 t\,dt
+=\int_0^\pi \frac{1+\cos 2t}{2}\,dt
+=\frac12\left[t\right]_0^\pi+\frac12\left[\frac12\sin 2t\right]_0^\pi
+=\frac{\pi}{2}
+$$
+なので第一項は
+$$
+\frac{4}{\pi}\cdot\frac{\pi}{2}=2
+$$
+である。
+
+次に二重積分の部分を同様に積分順序を入れ替えて
+$$
+\int_0^\pi\int_0^\pi f_n(u)\sin(t-u)\cos t\,du\,dt
+=\int_0^\pi f_n(u)\left(\int_0^\pi \sin(t-u)\cos t\,dt\right)du
+$$
+とする。内側の積分を，和積公式
+$$
+\sin\alpha\cos\beta=\frac12\{\sin(\alpha+\beta)+\sin(\alpha-\beta)\}
+$$
+を用いて計算する。すると
+$$
+\sin(t-u)\cos t
+=\frac12\{\sin((t-u)+t)+\sin((t-u)-t)\}
+$$
+$$
+=\frac12\{\sin(2t-u)+\sin(-u)\}
+=\frac12\{\sin(2t-u)-\sin u\}
+$$
+であるから，
+$$
+\int_0^\pi \sin(t-u)\cos t\,dt
+=\frac12\left(\int_0^\pi \sin(2t-u)\,dt-\sin u\int_0^\pi dt\right).
+$$
+前者は
+$$
+\int_0^\pi \sin(2t-u)\,dt
+=\left[-\frac12\cos(2t-u)\right]_0^\pi
+=-\frac12\{\cos(2\pi-u)-\cos(-u)\}
+$$
+$$
+=-\frac12\{(\cos u)-(\cos u)\}=0
+$$
+で，後者は
+$$
+\sin u\int_0^\pi dt=\sin u\cdot\pi
+$$
+であるから，
+$$
+\int_0^\pi \sin(t-u)\cos t\,dt
+=\frac12(0-\pi\sin u)=-\frac{\pi}{2}\sin u
+$$
+となる。よって
+$$
+\int_0^\pi\int_0^\pi f_n(u)\sin(t-u)\cos t\,du\,dt
+=\int_0^\pi f_n(u)\left(-\frac{\pi}{2}\sin u\right)du
+$$
+$$
+=-\frac{\pi}{2}\int_0^\pi f_n(u)\sin u\,du
+$$
+であり，$a_n$ の定義
+$$
+a_n=\frac{2}{\pi}\int_0^\pi f_n(u)\sin u\,du
+$$
+より
+$$
+\int_0^\pi f_n(u)\sin u\,du=\frac{\pi}{2}a_n
+$$
+なので
+$$
+\int_0^\pi\int_0^\pi f_n(u)\sin(t-u)\cos t\,du\,dt
+=-\frac{\pi}{2}\cdot\frac{\pi}{2}a_n=-\frac{\pi^2}{4}a_n
+$$
+となる。したがって
+$$
+b_{n+1}
+=2+\frac{4}{\pi^2}\cdot\left(-\frac{\pi^2}{4}a_n\right)
+=2-a_n
+$$
+を得る。
+
+以上より，
+$$
+a_{n+1}=b_n,\qquad b_{n+1}=2-a_n
+$$
+である。
+
+---
+
+(2)  
+$c_n=a_n-1$ とおくと
+$$
+c_{n+1}=a_{n+1}-1=b_n-1
+$$
+より
+$$
+b_n=c_{n+1}+1
+$$
+と表せる。これを $b_{n+1}$ の式に代入すると
+$$
+a_{n+2}=b_{n+1}=2-a_n
+$$
+であるから
+$$
+c_{n+2}=a_{n+2}-1=(2-a_n)-1=1-a_n=-(a_n-1)=-c_n
+$$
+となり，$c_{n+2}=-c_n$ が示された。
+
+次に，一般項 $c_n$ を $a_1,b_1$ を用いて表す。漸化式
+$$
+c_{n+2}=-c_n
+$$
+から，偶数番目と奇数番目に分けて考えると
+$$
+c_{3}=-c_1,\ c_5=-c_3=c_1,\ c_7=-c_5=-c_1,\ \dots
+$$
+より
+$$
+c_{2k+1}=(-1)^{k}c_1\quad (k=0,1,2,\dots)
+$$
+であり，同様に
+$$
+c_4=-c_2,\ c_6=-c_4=c_2,\ c_8=-c_6=-c_2,\ \dots
+$$
+から
+$$
+c_{2k}=(-1)^{k-1}c_2\quad (k=1,2,3,\dots)
+$$
+となる。
+
+ここで $c_1=a_1-1$，また
+$$
+c_2=a_2-1=b_1-1
+$$
+（(1) で $a_2=a_{1+1}=b_1$ を用いた）であることに注意すると，
+$$
+c_{2k+1}=(-1)^k(a_1-1),\qquad
+c_{2k}=(-1)^{k-1}(b_1-1)
+$$
+と表せる。
+
+なお $n$ を用いた書き方をすれば
+- $n$ が奇数 $n=2k+1$ のとき
+  $$
+  c_n=(-1)^{\frac{n-1}{2}}(a_1-1)
+  $$
+- $n$ が偶数 $n=2k$ のとき
+  $$
+  c_n=(-1)^{\frac{n}{2}-1}(b_1-1)
+  $$
+
+である。
+
+---
+
+(3)  
+$a_n,b_n$ が $n$ によらない定数になる，ということは，
+$$
+a_{n+1}=a_n,\quad b_{n+1}=b_n
+$$
+がすべての $n$ で成り立つことを意味する。(1) の結果
+$$
+a_{n+1}=b_n,\quad b_{n+1}=2-a_n
+$$
+を用いると
+$$
+a_n=b_n,\quad b_n=2-a_n
+$$
+が成り立つ必要がある。これより
+$$
+a_n=2-a_n\quad\Longrightarrow\quad 2a_n=2\quad\Longrightarrow\quad a_n=1
+$$
+であり，したがって $b_n=a_n=1$ である。よって $a_n,b_n$ が一定となるときは，
+常に
+$$
+a_n=1,\quad b_n=1
+$$
+でなければならない。
+
+$a_1,b_1$ に対しても同じことが成り立つので
+$$
+a_1=\frac{2}{\pi}\int_0^\pi f(t)\sin t\,dt=1,\quad
+b_1=\frac{2}{\pi}\int_0^\pi f(t)\cos t\,dt=1
+$$
+を満たす $f(x)$ を 1 つ求めればよい。
+
+具体的に，$f(x)$ を一次関数
+$$
+f(x)=\alpha\sin x+\beta\cos x
+$$
+の形に仮定して求める。すると
+$$
+a_1=\frac{2}{\pi}\int_0^\pi (\alpha\sin t+\beta\cos t)\sin t\,dt
+=\frac{2}{\pi}\left(\alpha\int_0^\pi\sin^2 t\,dt+\beta\int_0^\pi\sin t\cos t\,dt\right)
+$$
+であるが，
+$$
+\int_0^\pi\sin^2 t\,dt=\frac{\pi}{2},\quad
+\int_0^\pi\sin t\cos t\,dt=0
+$$
+なので
+$$
+a_1=\frac{2}{\pi}\cdot\alpha\cdot\frac{\pi}{2}=\alpha
+$$
+となる。同様に
+$$
+b_1=\frac{2}{\pi}\int_0^\pi (\alpha\sin t+\beta\cos t)\cos t\,dt
+=\frac{2}{\pi}\left(\alpha\int_0^\pi\sin t\cos t\,dt+\beta\int_0^\pi\cos^2 t\,dt\right)
+$$
+であり，
+$$
+\int_0^\pi\cos^2 t\,dt=\frac{\pi}{2}
+$$
+から
+$$
+b_1=\frac{2}{\pi}\cdot\beta\cdot\frac{\pi}{2}=\beta
+$$
+となる。したがって
+$$
+a_1=1,\ b_1=1
+$$
+とするには
+$$
+\alpha=1,\ \beta=1
+$$
+とすればよい。よって
+$$
+f(x)=\sin x+\cos x
+$$
+とおけば
+$$
+a_1=1,\ b_1=1
+$$
+であり，(2) の結果から $c_n=a_n-1\equiv0$，すなわち $a_n\equiv1$，また
+$$
+a_{n+1}=b_n
+$$
+より $b_n\equiv1$ となる。従って，$f(x)=\sin x+\cos x$ は
+$a_n,b_n$ が $n$ によらない定数となる例の 1 つである。

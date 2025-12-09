@@ -1,0 +1,39 @@
+---
+title: "九州大学 2018年 2018_a"
+problem_id: "07_kyushu-2018-2018_a"
+university: "九州大学"
+exam_year: "2018"
+source_tex: "archive/07_kyushu/2018/2018_a.tex"
+pdf_source: "archive/07_kyushu/2018/2018_a.pdf"
+page_image: "archive/07_kyushu/2018/2018_a.jpg"
+fields:
+  - 積分法
+  - 数列
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次で定義される数列$\{ I_n \}$を考える。
+\[ I_n=2n\int_0^{\frac{\pi}{2}}x\sin x\cos^{2n-1}xdx \hspace{1zw}
+(n=1, \, 2, \, 3, \, \cdots\cdots) \]
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]次の等式が成り立つことを証明せよ。
+\[ \int_0^{\frac{\pi}{2}}\sin^nxdx=\int_0^{\frac{\pi}{2}}\cos^nxdx \hspace{1zw}
+(n=1, \, 2, \, 3, \, \cdots\cdots) \]
+\item[(2)]数列$\{ I_n \}$が次の式を満たすことを証明せよ。
+\[ I_n=\int_0^{\frac{\pi}{2}}\sin^{2n} xdx \hspace{1zw}
+(n=1, \, 2, \, 3, \, \cdots\cdots) \]
+\item[(3)]$\displaystyle\frac{d}{dx}\left( \cos x\sin^{n-1}x \right)$を$\sin x$と$n$を用いて表せ。
+\item[(4)]数列$\{ I_n \}$が次の漸化式を満たすことを証明せよ。
+\[ I_n=\frac{2n-1}{2n}I_{n-1} \hspace{1zw} (n=2, \, 3, \, 4, \, \cdots\cdots) \]
+\item[(5)]数列$\{ I_n \}$の一般項を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2018/2018_a.pdf)

@@ -1,0 +1,37 @@
+---
+title: "九州大学 1998年 1998_4c"
+problem_id: "07_kyushu-1998-1998_4c"
+university: "九州大学"
+exam_year: "1998"
+source_tex: "archive/07_kyushu/1998/1998_4c.tex"
+pdf_source: "archive/07_kyushu/1998/1998_4c.pdf"
+page_image: "archive/07_kyushu/1998/1998_4c.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (c)
+　右図のような四角形$ABCD$において，
+直線$AB$と直線$CD$の交点$E$，
+直線$BC$と直線$AD$の交点$F$，
+直線$BD$と直線$EF$の交点$R$，
+直線$RC$と直線$AB$の交点$G$がえられたとする．
+\begin{description}
+\item[(1)]$\displaystyle\frac{BG}{GE}=\frac{BA}{AE}$が成り立つことを示せ．
+\item[(2)]$G$が$AE$の中点で，$\displaystyle\frac{AD}{DF}=2$であるとき，$AB=a$，$CD=b$とおく．
+次の条件を満たす$x$，$y$，$z$の値を求めよ．
+\begin{description}
+\item[(i)]$EB=xa$
+\item[(ii)]$EC=yb$
+\item[(iii)]四角形$ABCD$が円に内接するとき，$a=zb$
+\end{description}
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_4c.pdf)

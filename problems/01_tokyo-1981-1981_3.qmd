@@ -1,0 +1,38 @@
+---
+title: "東京大学 1981年 1981_3"
+problem_id: "01_tokyo-1981-1981_3"
+university: "東京大学"
+exam_year: "1981"
+source_tex: "archive/01_tokyo/1981/1981_3.tex"
+pdf_source: "archive/01_tokyo/1981/1981_3.pdf"
+page_image: "archive/01_tokyo/1981/1981_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　放物線$y=x^2$を$C$で表す．
+$C$上の点$Q$を通り，
+$Q$における$C$の接線に垂直な直線を，
+$Q$における$C$の法線という．
+$0\leqq t \leqq1$とし，
+つぎの3条件をみたす点$P$を考える．
+\begin{description}
+\item[(イ)]$C$上の点$Q(t,t^2)$における$C$の法線の上にある．
+\item[(ロ)]領域$y \geqq x^2$に含まれる．
+\item[(ハ)]$P$と$Q$の距離は$(t-t^2)\sqrt{1+4t^2}$である．
+\end{description}
+　$t$が0から1まで変化するとき，
+$P$のえがく曲線を$C'$とする．
+このとき，
+$C$と$C'$とで囲まれた部分の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1981/1981_3.pdf)

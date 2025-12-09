@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 1993年 1993_1"
+problem_id: "08_titech-1993-1993_1"
+university: "東京科学大学"
+exam_year: "1993"
+source_tex: "archive/08_titech/1993/1993_1.tex"
+pdf_source: "archive/08_titech/1993/1993_1.pdf"
+page_image: "archive/08_titech/1993/1993_1.jpg"
+fields:
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　原点$(0,0)$を通る2つの放物線と直線をそれぞれ
+\[ C_1 : y=ax^2+bx \hspace{1zw} (a \neq 0), \hspace{1zw} C_2 : y=px^2+qx \hspace{1zw} (p \neq 0), \hspace{1zw}
+L : y=kx \hspace{1zw} (k \neq b, \, k \neq q) \]
+とし，$C_1$と$L$で囲まれる部分の面積を$S_1$、$C_2$と$L$で囲まれる部分の面積を$S_2$とする．
+このとき，$S_1$と$S_2$の比が$k$によらないための必要十分条件を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1993/1993_1.pdf)

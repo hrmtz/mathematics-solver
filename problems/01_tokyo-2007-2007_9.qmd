@@ -1,0 +1,42 @@
+---
+title: "東京大学 2007年 2007_9"
+problem_id: "01_tokyo-2007-2007_9"
+university: "東京大学"
+exam_year: "2007"
+source_tex: "archive/01_tokyo/2007/2007_9.tex"
+pdf_source: "archive/01_tokyo/2007/2007_9.pdf"
+page_image: "archive/01_tokyo/2007/2007_9.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$N$を2以上の自然数とする．
+$x_1 \leqq \cdots \leqq x_N$をみたす実数$x_1,\cdots,x_N$に対し，
+実数$k_n$，$p_n$，$q_n$ $(n=0,1,2,\cdots)$を次の手続きで定める．
+\begin{description}
+\item[(A)]$k_0=1$，$p_0=x_1$，$q_0=x_N$
+\item[(B)]$n$が奇数のとき$k_n$は$\displaystyle x_i\leqq\frac{p_{n-1}+q_{n-1}}{2}$をみたす$x_i$の個数，
+$p_n=p_{n-1}$，$q_n=q_{n-1}$
+\item[(C)]$n$が偶数$(n\geqq2)$のとき$k_n=k_{n-1}$，
+$\displaystyle p_n=\frac{1}{k_n}\sum_{i=1}^{k_n}x_i$，$\displaystyle q_n=\frac{1}{N-k_n}\sum_{i=k_n+1}^Nx_i$
+\end{description}
+　ただし$k_n=0$または$k_n=N$となったら，その時点で手続きを終了する．
+　$x_1<x_N$であるとき，次の問に答えよ．
+\begin{description}
+\item[(1)]すべての自然数$n$について$1 \leqq k_n \leqq N-1$かつ$x_1 \leqq p_n<q_n \leqq x_N$が成り立つことを示せ．
+\item[(2)]実数$J_n$ $(n=0,1,2,\cdots)$を
+$\displaystyle J_n=\sum_{i=1}^{k_n}{(x_i-p_n)}^2+\sum_{i=k_n+1}^N{(x_i-q_n)}^2$と定めると，
+すべての自然数$n$に対して$J_n \leqq J_{n-1}$が成り立つことを示せ．
+\item[(3)]$n$が十分大きいとき．
+$J_n=J_{n-1}$，$p_n=p_{n-1}$，$q_n=q_{n-1}$，$k_n=k_{n-1}$が成り立つことを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2007/2007_9.pdf)

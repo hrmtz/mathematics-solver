@@ -1,0 +1,25 @@
+---
+title: "京都大学 2010年 2010a_4"
+problem_id: "02_kyoto-2010-2010a_4"
+university: "京都大学"
+exam_year: "2010"
+source_tex: "archive/02_kyoto/2010/2010a_4.tex"
+pdf_source: "archive/02_kyoto/2010/2010a_4.pdf"
+page_image: "archive/02_kyoto/2010/2010a_4.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　数列$\{a_n\}$は，すべての正の整数$n$に対して
+$\displaystyle 0 \leqq 3a_n \leqq \sum_{k=1}^na_k$を満たしているとする．
+このとき，すべての$n$に対して$a_n=0$であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2010/2010a_4.pdf)

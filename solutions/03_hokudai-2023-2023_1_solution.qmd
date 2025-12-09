@@ -1,0 +1,191 @@
+## 解答
+
+(1)  
+
+$C_n$ 上の点の複素数表示を $z$，$C_{n+1}$ 上の点の複素数表示を $w$ とすると，条件(B)より  
+$$
+2w = z + 1 + i
+$$
+である。したがって
+$$
+w = \frac{1+i}{2} + \frac{z}{2}
+$$
+が成り立つ。
+
+ここで，複素数平面において  
+「$z \mapsto az + b$（$a \neq 0$）は拡大・縮小と平行移動の合成であり，円を円に写す」  
+ことを用いる。  
+
+$z \mapsto \dfrac{z}{2}$ は原点を中心とする拡大縮小（倍率 $1/2$）であり，  
+$z \mapsto \dfrac{1+i}{2} + z$ は平行移動であるから，  
+$w = \dfrac{1+i}{2} + \dfrac{z}{2}$ は円を円に写す写像である。  
+
+(A)より，$C_1$ は原点を中心とする半径2の円であるから円である。  
+また，$C_n$ が円であれば，上の写像により $C_{n+1}$ も円である。  
+よって，数学的帰納法により，すべての自然数 $n$ に対して $C_n$ は円である。
+
+次に，その中心と半径を求める。  
+
+$C_n$ の中心を表す複素数を $\alpha_n$，半径を $r_n$ とおく。  
+$C_n$ 上の点 $z$ は，$z = \alpha_n + \zeta$（ただし $|\zeta| = r_n$）と書ける。  
+このとき
+$$
+w = \frac{1+i}{2} + \frac{z}{2}
+  = \frac{1+i}{2} + \frac{\alpha_n}{2} + \frac{\zeta}{2}
+$$
+となる。$|\zeta| = r_n$ のとき $|\zeta/2| = r_n/2$ であり，これは原点を中心とする半径 $r_n/2$ の円を表す。  
+したがって，$w$ は中心
+$$
+\alpha_{n+1} = \frac{1+i}{2} + \frac{\alpha_n}{2}
+$$
+半径
+$$
+r_{n+1} = \frac{r_n}{2}
+$$
+の円 $C_{n+1}$ を動く。  
+
+初期条件は (A) より，$C_1$ の中心は原点，半径は2であるから
+$$
+\alpha_1 = 0,\quad r_1 = 2
+$$
+である。
+
+まず半径 $r_n$ を求める。  
+漸化式 $r_{n+1} = \dfrac{r_n}{2}$，初期条件 $r_1 = 2$ から
+$$
+r_n = 2\left(\frac{1}{2}\right)^{n-1} = 2^{2-n}
+$$
+となる。
+
+次に中心 $\alpha_n$ を求める。  
+漸化式
+$$
+\alpha_{n+1} = \frac{1}{2}\alpha_n + \frac{1+i}{2},\quad \alpha_1 = 0
+$$
+を解く。  
+
+この一次漸化式を解くために，定常解を求める。  
+$\alpha_{n+1} = \alpha_n = \alpha$ とおくと
+$$
+\alpha = \frac{1}{2}\alpha + \frac{1+i}{2}
+$$
+より
+$$
+\frac{1}{2}\alpha = \frac{1+i}{2}\quad\Longrightarrow\quad
+\alpha = 1 + i
+$$
+となる。
+
+そこで $\beta_n = \alpha_n - (1+i)$ とおくと
+$$
+\beta_{n+1} = \alpha_{n+1} - (1+i)
+= \frac{1}{2}\alpha_n + \frac{1+i}{2} - (1+i)
+= \frac{1}{2}(\alpha_n - (1+i))
+= \frac{1}{2}\beta_n
+$$
+が成り立つ。初期値は
+$$
+\beta_1 = \alpha_1 - (1+i) = - (1+i)
+$$
+であるから
+$$
+\beta_n = -(1+i)\left(\frac{1}{2}\right)^{n-1}
+$$
+よって
+$$
+\alpha_n = \beta_n + (1+i)
+= (1+i)\left\{1 - \left(\frac{1}{2}\right)^{n-1}\right\}
+$$
+となる。
+
+以上より，すべての自然数 $n$ に対して $C_n$ は円であり，その中心と半径は
+$$
+\alpha_n = (1+i)\left(1 - \left(\frac{1}{2}\right)^{n-1}\right),\quad
+r_n = 2^{2-n}
+$$
+である。
+
+---
+
+(2)  
+
+$C_n$ は中心 $\alpha_n$，半径 $r_n$ の円であり，原点 $O$ との距離の最小値 $d_n$ は  
+「原点から中心までの距離」と「半径」の関係から
+$$
+d_n = \left|\,|\alpha_n| - r_n\,\right|
+$$
+で与えられる（円と点の距離の公式）。
+
+まず $|\alpha_n|$ を計算する。  
+(1) で求めた $\alpha_n$ を用いると
+$$
+\alpha_n = (1+i)\left(1 - \left(\frac{1}{2}\right)^{n-1}\right)
+$$
+であり，$|1+i| = \sqrt{2}$ だから
+$$
+|\alpha_n|
+= |1+i|\left|1 - \left(\frac{1}{2}\right)^{n-1}\right|
+= \sqrt{2}\left(1 - \left(\frac{1}{2}\right)^{n-1}\right)
+$$
+となる。ただし $n \ge 1$ で $\left(\dfrac{1}{2}\right)^{n-1} \le 1$ なので絶対値はそのまま外すことができる。  
+
+また，(1) より
+$$
+r_n = 2^{2-n}
+$$
+である。
+
+したがって
+$$
+d_n = \left|\,|\alpha_n| - r_n\,\right|
+= \left|\sqrt{2}\left(1 - \left(\frac{1}{2}\right)^{n-1}\right) - 2^{2-n}\right|
+$$
+となる。  
+
+ここで，符号を調べる。  
+$$
+f(n) = \sqrt{2}\left(1 - \left(\frac{1}{2}\right)^{n-1}\right) - 2^{2-n}
+$$
+とおくと，
+$$
+f(1) = \sqrt{2}(1-1) - 2^{1} = -2 < 0
+$$
+$$
+f(2) = \sqrt{2}\left(1-\frac{1}{2}\right) - 2^{0}
+      = \frac{\sqrt{2}}{2} - 1 = \frac{1}{\sqrt{2}} - 1 < 0
+$$
+である。一方，$n \to \infty$ で
+$$
+\sqrt{2}\left(1 - \left(\frac{1}{2}\right)^{n-1}\right)\to \sqrt{2},\quad
+2^{2-n}\to 0
+$$
+なので $f(n)$ は十分大きな $n$ では正になる。  
+したがって，$f(n)$ はあるところで負から正に変わるが，$d_n$ を簡潔に表すために絶対値をそのまま残してもよい。  
+
+よって
+$$
+d_n = \left|\sqrt{2}\left(1 - \left(\frac{1}{2}\right)^{n-1}\right) - 2^{2-n}\right|
+$$
+である。
+
+次に，$\displaystyle\lim_{n\to\infty} d_n$ を求める。  
+
+$n\to\infty$ のとき
+$$
+\left(\frac{1}{2}\right)^{n-1} \to 0,\quad 2^{2-n} \to 0
+$$
+より
+$$
+|\alpha_n| \to \sqrt{2},\quad r_n \to 0
+$$
+したがって
+$$
+d_n = \left|\,|\alpha_n| - r_n\,\right|
+\to |\sqrt{2} - 0|
+= \sqrt{2}
+$$
+ゆえに
+$$
+\lim_{n\to\infty}d_n = \sqrt{2}
+$$
+である。

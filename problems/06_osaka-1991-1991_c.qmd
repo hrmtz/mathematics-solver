@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1991年 1991_c"
+problem_id: "06_osaka-1991-1991_c"
+university: "大阪大学"
+exam_year: "1991"
+source_tex: "archive/06_osaka/1991/1991_c.tex"
+pdf_source: "archive/06_osaka/1991/1991_c.pdf"
+page_image: "archive/06_osaka/1991/1991_c.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$n=1, \, 2, \, 3, \, \cdots\cdots$に対し
+$h_n(t)=\begin{cases} 1-n|t| & \displaystyle \left( |t|\leqq\frac{1}{n}\text{のとき} \right)
+0 & \displaystyle \left( |t|>\frac{1}{n}\text{のとき} \right) \end{cases}$とする．
+　$\displaystyle f_n(x)=n\int_{-1}^1h_n(t)\sin(x-t)dt$とおくとき，
+\begin{description}
+\item[(1)]$f_n(x)$を求めよ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}f_n(x)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1991/1991_c.pdf)

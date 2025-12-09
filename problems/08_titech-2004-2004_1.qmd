@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 2004年 2004_1"
+problem_id: "08_titech-2004-2004_1"
+university: "東京科学大学"
+exam_year: "2004"
+source_tex: "archive/08_titech/2004/2004_1.tex"
+pdf_source: "archive/08_titech/2004/2004_1.pdf"
+page_image: "archive/08_titech/2004/2004_1.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$，$b$を正の実数とする．
+\begin{description}
+\item[(1)]区間$a<x$における関数$\displaystyle f(x)=\frac{x^4}{(x-a)^3}$の増減を調べよ．
+\item[(2)]区間$a<x$における関数$\displaystyle g(x)=\frac{1}{(x-a)^2}-\frac{b}{x^3}$
+のグラフと相異なる3点で交わる$x$軸に平行な直線が存在するための必要十分条件を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2004/2004_1.pdf)

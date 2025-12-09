@@ -1,0 +1,22 @@
+---
+title: "京都大学 2009年 2009a_6"
+problem_id: "02_kyoto-2009-2009a_6"
+university: "京都大学"
+exam_year: "2009"
+source_tex: "archive/02_kyoto/2009/2009a_6.tex"
+pdf_source: "archive/02_kyoto/2009/2009a_6.pdf"
+page_image: "archive/02_kyoto/2009/2009a_6.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　極方程式$r=1+\cos\theta$ $(0\leqq\theta\leqq\pi)$で表される曲線の長さを求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2009/2009a_6.pdf)

@@ -1,0 +1,31 @@
+---
+title: "東北大学 1981年 1981_2"
+problem_id: "04_tohoku-1981-1981_2"
+university: "東北大学"
+exam_year: "1981"
+source_tex: "archive/04_tohoku/1981/1981_2.tex"
+pdf_source: "archive/04_tohoku/1981/1981_2.pdf"
+page_image: "archive/04_tohoku/1981/1981_2.jpg"
+fields:
+  - 不等式
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　平面上で不等式
+\[ 0 \leqq y \leqq 2x \leqq 6 \hspace{1zw}\text{および}\hspace{1zw} -x^2+4x-3 \leqq y \leqq 2 \]
+を同時に満たす領域を$D$とする．
+\begin{description}
+\item[(1)]$a$は$0 \leqq a \leqq 2$の範囲の定数とする．
+このとき，不等式$a \leqq x \leqq a+1$を満たす領域と$D$との共通部分の面積$S(a)$を求めよ．
+\item[(2)]$a$が$0 \leqq a \leqq 2$の範囲を動くとき，
+$S(a)$の最大値および最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1981/1981_2.pdf)

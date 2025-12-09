@@ -1,0 +1,29 @@
+---
+title: "東北大学 1995年 1995_2"
+problem_id: "04_tohoku-1995-1995_2"
+university: "東北大学"
+exam_year: "1995"
+source_tex: "archive/04_tohoku/1995/1995_2.tex"
+pdf_source: "archive/04_tohoku/1995/1995_2.pdf"
+page_image: "archive/04_tohoku/1995/1995_2.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　関数$f(x)=e^{3x}-6e^{2x}+9e^x$を考える．
+\begin{description}
+\item[(1)]$f(x)$の極値を求めよ．
+\item[(2)](1)で求めた極大値を$b$とする．
+曲線$y=f(x)$と直線$y=b$によって囲まれる図形の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_2.pdf)

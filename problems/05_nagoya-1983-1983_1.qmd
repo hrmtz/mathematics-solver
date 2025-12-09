@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 1983年 1983_1"
+problem_id: "05_nagoya-1983-1983_1"
+university: "名古屋大学"
+exam_year: "1983"
+source_tex: "archive/05_nagoya/1983/1983_1.tex"
+pdf_source: "archive/05_nagoya/1983/1983_1.pdf"
+page_image: "archive/05_nagoya/1983/1983_1.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$は正の数，$p$，$q$はともに正の整数とし，
+$a_1=1$，${a_n}^p{a_{n-1}}^q=a$ $(n\geqq2)$を満たす正数列を$\{ a_n \}$とする．
+\begin{description}
+\item[(1)]$a_n$を$a$，$p$，$q$，$n$で表せ．
+\item[(2)]$p>q$のとき，$\displaystyle\lim_{n\to\infty}a_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1983/1983_1.pdf)

@@ -1,0 +1,26 @@
+---
+title: "大阪大学 1979年 1979_1"
+problem_id: "06_osaka-1979-1979_1"
+university: "大阪大学"
+exam_year: "1979"
+source_tex: "archive/06_osaka/1979/1979_1.tex"
+pdf_source: "archive/06_osaka/1979/1979_1.pdf"
+page_image: "archive/06_osaka/1979/1979_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$\triangle ABC$を角$A$が${60}^\circ$である鋭角3角形とする．
+$\triangle ABC$の内部にあって$\overline{PA}\leqq\overline{PB}$，
+$\overline{PA}\leqq\overline{PC}$を同時に満たす点$P$の全体がつくる領域を$G$とする．
+$\triangle ABC$の面積が領域$G$の面積の3倍であるとき，
+$\triangle ABC$はどのような3角形か．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1979/1979_1.pdf)

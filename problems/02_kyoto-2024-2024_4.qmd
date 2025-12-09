@@ -1,0 +1,33 @@
+---
+title: "京都大学 2024年 2024_4"
+problem_id: "02_kyoto-2024-2024_4"
+university: "京都大学"
+exam_year: "2024"
+source_tex: "archive/02_kyoto/2024/2024_4.tex"
+pdf_source: "archive/02_kyoto/2024/2024_4.pdf"
+page_image: "archive/02_kyoto/2024/2024_4.jpg"
+fields:
+  - 数列
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　与えられた自然数$a_0$に対して，
+自然数からなる数列$a_0, \, a_1, \, a_2, \, \cdots$を次のように定める．
+\[ a_{n+1}=\begin{cases} \displaystyle\frac{a_n}{2} & (a_n\text{が偶数のとき}) 
+
+ &
+\displaystyle\frac{3a_n+1}{2} & (a_n\text{が奇数のとき}) \end{cases} \]
+次の問いに答えよ．
+\begin{description}
+\item[(1)]$a_0, \, a_1, \, a_2, \, a_3$がすべて奇数であるような最小の自然数$a_0$を求めよ．
+\item[(2)]$a_0, \, a_1, \, \cdots, \, a_{10}$がすべて奇数であるような最小の自然数$a_0$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2024/2024_4.pdf)

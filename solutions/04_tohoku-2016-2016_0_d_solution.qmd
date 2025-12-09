@@ -1,0 +1,219 @@
+## 解答
+
+(1)  
+
+点 $A(1,0)$，$B(0,\sqrt3)$ なので，線分 $AB$ を $t:1-t$ に内分する点 $P$ の座標は内分点の公式より  
+$$
+P=\frac{(1-t)A+tB}{(1-t)+t}
+=\,(1-t)(1,0)+t(0,\sqrt3)
+=(1-t,\ \sqrt3\,t)
+$$
+である。
+
+同様に，点 $B(0,\sqrt3)$，$C(-1,0)$ なので，線分 $BC$ を $t:1-t$ に内分する点 $Q$ は  
+$$
+Q=(1-t)B+tC
+=(1-t)(0,\sqrt3)+t(-1,0)
+=(-t,\ \sqrt3(1-t))
+$$
+となる。
+
+ベクトルを $\vec{OP}=\boldsymbol{p}$，$\vec{OQ}=\boldsymbol{q}$ とおくと，
+$$
+\boldsymbol{p}=(1-t,\ \sqrt3\,t),\quad
+\boldsymbol{q}=(-t,\ \sqrt3(1-t))
+$$
+であり，$\theta=\angle POQ$ であるから
+$$
+\cos\theta
+=\frac{\boldsymbol{p}\cdot\boldsymbol{q}}{|\boldsymbol{p}||\boldsymbol{q}|}
+$$
+と表される。分子・分母をそれぞれ計算する。
+
+まず内積
+$$
+\boldsymbol{p}\cdot\boldsymbol{q}
+=(1-t)(-t)+\sqrt3\,t\cdot\sqrt3(1-t)
+=-t+ t^2 +3t-3t^2
+=2t-2t^2
+=2t(1-t)
+$$
+となる。
+
+次に大きさを求める：
+$$
+|\boldsymbol{p}|^2
+=(1-t)^2+3t^2
+=1-2t+t^2+3t^2
+=1-2t+4t^2,
+$$
+$$
+|\boldsymbol{q}|^2
+=(-t)^2+3(1-t)^2
+=t^2+3(1-2t+t^2)
+=t^2+3-6t+3t^2
+=3-6t+4t^2.
+$$
+よって
+$$
+|\boldsymbol{p}||\boldsymbol{q}|
+=\sqrt{(1-2t+4t^2)(3-6t+4t^2)}.
+$$
+
+ここで $T=t(1-t)$ とおく。  
+まず
+$$
+T=t(1-t)=t-t^2
+\quad\Longrightarrow\quad
+t^2-t+T=0
+$$
+であるから，$t$ を $T$ で表すと
+$$
+t=\frac{1\pm\sqrt{1-4T}}{2}
+$$
+を満たす。これを用いて，分母を $T$ で表す。
+
+$\boldsymbol{p}\cdot\boldsymbol{q}=2T$ なので分子はすでに $T$ で表されている。  
+分母について，まず $|\boldsymbol{p}|^2$ と $|\boldsymbol{q}|^2$ を $T$ によって表す。
+
+$t^2=t-T$ なので
+$$
+|\boldsymbol{p}|^2
+=1-2t+4t^2
+=1-2t+4(t-T)
+=1+2t-4T,
+$$
+$$
+|\boldsymbol{q}|^2
+=3-6t+4t^2
+=3-6t+4(t-T)
+=3-2t-4T.
+$$
+したがって
+$$
+|\boldsymbol{p}|^2|\boldsymbol{q}|^2
+=(1+2t-4T)(3-2t-4T).
+$$
+展開すると
+\begin{align*}
+(1+2t-4T)(3-2t-4T)
+&=1\cdot3+1(-2t-4T)+2t(3-2t-4T)-4T(3-2t-4T)\\
+&=3-2t-4T+6t-4t^2-8tT-12T+8tT+16T^2\\
+&=3+4t-4t^2-16T+16T^2.
+\end{align*}
+ここで $-4t^2=-4(t-T)=-4t+4T$ を代入すると
+$$
+3+4t-4t^2-16T+16T^2
+=3+4t+(-4t+4T)-16T+16T^2
+=3-12T+16T^2.
+$$
+よって
+$$
+|\boldsymbol{p}|^2|\boldsymbol{q}|^2
+=16T^2-12T+3.
+$$
+したがって
+$$
+|\boldsymbol{p}||\boldsymbol{q}|=\sqrt{16T^2-12T+3}.
+$$
+
+以上より
+$$
+\cos\theta
+=\frac{2T}{\sqrt{16T^2-12T+3}}.
+$$
+
+(2)  
+
+(1)より
+$$
+\cos\theta
+=\frac{2T}{\sqrt{16T^2-12T+3}}
+$$
+である。$\theta$ の最小値を求めるには $\cos\theta$ の最大値を求めればよい。
+
+まず $T$ の取りうる範囲を求める。  
+$T=t(1-t)$ を関数 $f(t)=t(1-t)$ とみると，
+$$
+f'(t)=1-2t
+$$
+より $t=\dfrac12$ で極大となり
+$$
+f\!\left(\frac12\right)=\frac12\cdot\frac12=\frac14
+$$
+である。$0<t<1$ なので $0<T\leq\frac14$ が成り立つ。
+
+$\cos\theta$ は $T>0$ で増減を調べる。  
+$$
+g(T)=\frac{2T}{\sqrt{16T^2-12T+3}}
+$$
+とおく。分母は正で定義されている範囲なので，$g(T)$ の増減を導関数で調べる。
+
+分母を $D(T)=\sqrt{16T^2-12T+3}$ とおくと
+$$
+g(T)=\frac{2T}{D(T)}
+$$
+であり，
+\begin{align*}
+g'(T)
+&=\frac{2D(T)-2T\cdot D'(T)}{D(T)^2}.
+\end{align*}
+$D(T)=\{16T^2-12T+3\}^{1/2}$ なので
+\begin{align*}
+D'(T)
+&=\frac{1}{2}(16T^2-12T+3)^{-1/2}\cdot(32T-12)
+=\frac{32T-12}{2D(T)}.
+\end{align*}
+これを代入すると
+\begin{align*}
+g'(T)
+&=\frac{2D(T)-2T\cdot\frac{32T-12}{2D(T)}}{D(T)^2}\\
+&=\frac{2D(T)-\dfrac{T(32T-12)}{D(T)}}{D(T)^2}\\
+&=\frac{2D(T)^2-T(32T-12)}{D(T)^3}.
+\end{align*}
+分子を計算すると
+\begin{align*}
+2D(T)^2-T(32T-12)
+&=2(16T^2-12T+3)-(32T^2-12T)\\
+&=32T^2-24T+6-32T^2+12T\\
+&=-12T+6
+=6(1-2T).
+\end{align*}
+よって
+$$
+g'(T)=\frac{6(1-2T)}{D(T)^3}.
+$$
+
+$D(T)^3>0$ より，$g'(T)$ の符号は $1-2T$ の符号と同じである。  
+すなわち
+$$
+T<\frac12 \ \Longrightarrow\ g'(T)>0,
+\quad
+T>\frac12 \ \Longrightarrow\ g'(T)<0.
+$$
+しかし $T$ の範囲は $0<T\leq\frac14$ であり，この範囲では常に $T<\frac12$ なので
+$$
+0<T\leq\frac14\ \text{において}\ g'(T)>0
+$$
+すなわち $g(T)$ は $T$ の増加とともに増加する。
+
+したがって $\cos\theta=g(T)$ の最大値は $T$ が最大のとき $T=\dfrac14$ で取られる。  
+$T=\dfrac14$ を代入すると
+\begin{align*}
+\cos\theta_{\min}
+&=g\!\left(\frac14\right)
+=\frac{2\cdot\frac14}{\sqrt{16\left(\frac14\right)^2-12\cdot\frac14+3}}\\
+&=\frac{\frac12}{\sqrt{16\cdot\frac{1}{16}-3+3}}
+=\frac{\frac12}{\sqrt{1}}
+=\frac12.
+\end{align*}
+よって
+$$
+\theta_{\min}=\arccos\frac12=\frac{\pi}{3}.
+$$
+
+まとめると，
+  
+(1) $\displaystyle \cos\theta=\dfrac{2T}{\sqrt{16T^2-12T+3}}$  
+
+(2) $\displaystyle \theta$ の最小値は $\dfrac{\pi}{3}$ である。

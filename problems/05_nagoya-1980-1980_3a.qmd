@@ -1,0 +1,38 @@
+---
+title: "名古屋大学 1980年 1980_3a"
+problem_id: "05_nagoya-1980-1980_3a"
+university: "名古屋大学"
+exam_year: "1980"
+source_tex: "archive/05_nagoya/1980/1980_3a.tex"
+pdf_source: "archive/05_nagoya/1980/1980_3a.pdf"
+page_image: "archive/05_nagoya/1980/1980_3a.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3 (a)
+　1次変換$\begin{pmatrix} x' 
+
+ y' \end{pmatrix}=
+\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}\begin{pmatrix} x 
+
+ y \end{pmatrix}$は
+曲線$C:xy=1$ $(x>0)$上の点を曲線$C$上にうつすものとする．
+$a>0$として，次の(1)，(2)を解答せよ．
+\begin{description}
+\item[(1)]$a$，$b$，$c$，$d$の満たす条件を求めよ．
+\item[(2)]原点を通り曲線$C$と交わる2直線とこの曲線とで囲まれた図形を$D$とし，
+$D$が上の1次変換でうつされた図形を$D'$とする．
+$D$と$D'$の面積が等しいことを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1980/1980_3a.pdf)

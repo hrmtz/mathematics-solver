@@ -1,0 +1,31 @@
+---
+title: "九州大学 1977年 1977_6"
+problem_id: "07_kyushu-1977-1977_6"
+university: "九州大学"
+exam_year: "1977"
+source_tex: "archive/07_kyushu/1977/1977_6.tex"
+pdf_source: "archive/07_kyushu/1977/1977_6.pdf"
+page_image: "archive/07_kyushu/1977/1977_6.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$a_1<a_2<a_3<a_4<a_5$を満たす正整数$a_k$を要素とする集合$A=\{ a_1, \, a_2, \, a_3, \, a_4, \, a_5 \}$と
+${a_k}^2$を要素とする集合$B=\{ {a_1}^2, \, {a_2}^2, \, {a_3}^2, \, {a_4}^2, \, {a_5}^2 \}$に対して
+共通集合$A \cap B$をつくったら$A \cap B=\{a_1, \, a_4\}$，$a_1+a_4=10$となった．
+さらに和集合$A \cup B$をつくったら，この集合に属する要素の和が224になった．このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$a_1$，$a_4$の値を求めよ．
+\item[(2)]$a_2+a_3+a_5+{a_2}^2+{a_3}^2+{a_5}^2$の値を求めよ．
+\item[(3)]$a_5$は11となるかどうかを調べて，$a_5$の値を求めよ．
+\item[(4)]集合$A$を定めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1977/1977_6.pdf)

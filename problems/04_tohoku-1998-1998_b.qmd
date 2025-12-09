@@ -1,0 +1,30 @@
+---
+title: "東北大学 1998年 1998_b"
+problem_id: "04_tohoku-1998-1998_b"
+university: "東北大学"
+exam_year: "1998"
+source_tex: "archive/04_tohoku/1998/1998_b.tex"
+pdf_source: "archive/04_tohoku/1998/1998_b.pdf"
+page_image: "archive/04_tohoku/1998/1998_b.jpg"
+fields:
+  - 確率
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　＋（プラス）と－（マイナス）を$n$個でたらめに並べるとき，
+同符号が続く部分の長さの最大値が$k$ $(k=1, \, 2, \, \cdots\cdots, \, n)$となる確率を$P(k)$で表す．
+（例：$n=10$で＋＋－－－＋－＋＋＋）のときは，$k=3$．）
+\begin{description}
+\item[(1)]$P(n-1)$を求めよ．
+\item[(2)]$2^nP(k)$は，偶数であることを示せ．
+\item[(3)]$\displaystyle k\geqq\frac{n}{2}$のとき，$P(k)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_b.pdf)

@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1963年 1963_0_7"
+problem_id: "03_hokudai-1963-1963_0_7"
+university: "北海道大学"
+exam_year: "1963"
+source_tex: "archive/03_hokudai/1963/1963_0_7.tex"
+pdf_source: "archive/03_hokudai/1963/1963_0_7.pdf"
+page_image: "archive/03_hokudai/1963/1963_0_7.jpg"
+fields:
+  - 数列
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+7
+　$\angle XOY={120}^\circ$である2つの半直線$OX$，$OY$がある。
+$OX$，$OY$に接する半径$r_1$ $(=1)$の円$O_1$がある。
+$OX$，$OY$，円$O_1$に接し，半径が円$O_1$の半径より小さい円を$O_2$とする。
+このようにして円$O_3, \, O_4, \, \cdots\cdots, \, O_n, \, \cdots\cdots$を作るとき，
+円$O_n$の半径と面積をそれぞれ$r_n$，$S_n$とする。
+\begin{description}
+\item[(1)]$r_n$を求めよ。
+\item[(2)]$\displaystyle\sum_{n=1}^\infty S_n$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1963/1963_0_7.pdf)

@@ -1,0 +1,26 @@
+---
+title: "京都大学 2007年 2007a_5"
+problem_id: "02_kyoto-2007-2007a_5"
+university: "京都大学"
+exam_year: "2007"
+source_tex: "archive/02_kyoto/2007/2007a_5.tex"
+pdf_source: "archive/02_kyoto/2007/2007a_5.pdf"
+page_image: "archive/02_kyoto/2007/2007a_5.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$\displaystyle-\frac{\pi}{2}<\alpha<\frac{\pi}{2}$とする．
+座標平面上で原点の周りに$\displaystyle\frac{\pi}{3}$回転する1次変換を$f$とし，
+直線$y=(\tan\alpha)x$について対称移動する1次変換を$g$とする．
+合成変換$f \circ g$が$x$軸について対称移動する1次変換と一致するとき，$\alpha$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2007/2007a_5.pdf)

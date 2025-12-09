@@ -1,0 +1,31 @@
+---
+title: "北海道大学 2015年 2015_b"
+problem_id: "03_hokudai-2015-2015_b"
+university: "北海道大学"
+exam_year: "2015"
+source_tex: "archive/03_hokudai/2015/2015_b.tex"
+pdf_source: "archive/03_hokudai/2015/2015_b.pdf"
+page_image: "archive/03_hokudai/2015/2015_b.jpg"
+fields:
+  - 数列
+  - 三角関数
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$p$を3以上の奇数，$\theta$を$\displaystyle \cos\theta=\frac{1}{p}$ $\displaystyle
+\left( 0<\theta<\frac{\pi}{2} \right)$をみたす実数とし，
+数列$\{a_n\}$を$a_n=p^n\cos(n\theta)$ $(n=1, \, 2, \, 3, \, \cdots)$で定める。
+\begin{description}
+\item[(1)]$a_2$を$p$で表せ。
+\item[(2)]$a_{n+2}$を$a_{n+1}$，$a_n$，$p$で表せ。
+\item[(3)]すべての$n$について$a_n$は$p$で割り切れない整数であることを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2015/2015_b.pdf)

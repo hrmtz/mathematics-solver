@@ -1,0 +1,25 @@
+---
+title: "京都大学 1986年 1986_1"
+problem_id: "02_kyoto-1986-1986_1"
+university: "京都大学"
+exam_year: "1986"
+source_tex: "archive/02_kyoto/1986/1986_1.tex"
+pdf_source: "archive/02_kyoto/1986/1986_1.pdf"
+page_image: "archive/02_kyoto/1986/1986_1.jpg"
+fields:
+  - 不等式
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　すべては0でない$n$個の実数$a_1,a_2,\cdots\cdots,a_n$があり，
+$a_1 \leqq a_2 \leqq \cdots\cdots \leqq a_n$かつ$a_1+a_2+\cdots\cdots+a_n=0$を満たすとき，
+$a_1+2a_2+\cdots\cdots+na_n>0$が成り立つことを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1986/1986_1.pdf)

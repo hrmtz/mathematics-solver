@@ -1,0 +1,25 @@
+---
+title: "東北大学 1989年 1989_0_2"
+problem_id: "04_tohoku-1989-1989_0_2"
+university: "東北大学"
+exam_year: "1989"
+source_tex: "archive/04_tohoku/1989/1989_0_2.tex"
+pdf_source: "archive/04_tohoku/1989/1989_0_2.pdf"
+page_image: "archive/04_tohoku/1989/1989_0_2.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+\item[(1)]球$x^2+y^2+z^2+2x-4y+4z=16$の平面$6x-2y+3z=5$による切り口である円$C$の中心と半径を求めよ．
+\item[(2)]円$C$上のすべての点からの距離が$\sqrt{32}$である点を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1989/1989_0_2.pdf)

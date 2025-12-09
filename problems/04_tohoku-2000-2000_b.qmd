@@ -1,0 +1,38 @@
+---
+title: "東北大学 2000年 2000_b"
+problem_id: "04_tohoku-2000-2000_b"
+university: "東北大学"
+exam_year: "2000"
+source_tex: "archive/04_tohoku/2000/2000_b.tex"
+pdf_source: "archive/04_tohoku/2000/2000_b.pdf"
+page_image: "archive/04_tohoku/2000/2000_b.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+\item[(1)]$\overrightarrow{0}$でない平面ベクトル$\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{c}$が，
+\[ \frac{\overrightarrow{a}}{|\overrightarrow{a}|}+
+\frac{\overrightarrow{b}}{|\overrightarrow{b}|}+
+\frac{\overrightarrow{c}}{|\overrightarrow{c}|}=\overrightarrow{0} \]
+を満たすとき，3つのベクトルの互いになす角をそれぞれ求めよ．
+\item[(2)]$\overrightarrow{a}\neq\overrightarrow{0}$，$\overrightarrow{x}$を任意の平面ベクトルとするとき，
+\[ |\overrightarrow{a}-\overrightarrow{x}|\geqq|\overrightarrow{a}|-
+\overrightarrow{x}\cdot\frac{\overrightarrow{a}}{|\overrightarrow{a}|} \]
+であることを示せ．
+　ここで，$\displaystyle\overrightarrow{x}\cdot\frac{\overrightarrow{a}}{|\overrightarrow{a}|}$は
+$\overrightarrow{x}$と$\displaystyle\frac{\overrightarrow{a}}{|\overrightarrow{a}|}$の内積を表す．
+\item[(3)]すべての内角が${120}^\circ$未満の三角形$ABC$の内部の点$X$から各頂点までの距離の和
+\[ |\overrightarrow{XA}|+|\overrightarrow{XB}|+|\overrightarrow{XC}| \]
+が最小となるような$X$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2000/2000_b.pdf)

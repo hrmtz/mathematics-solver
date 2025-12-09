@@ -1,0 +1,32 @@
+---
+title: "東北大学 1997年 1997_0_4b"
+problem_id: "04_tohoku-1997-1997_0_4b"
+university: "東北大学"
+exam_year: "1997"
+source_tex: "archive/04_tohoku/1997/1997_0_4b.tex"
+pdf_source: "archive/04_tohoku/1997/1997_0_4b.pdf"
+page_image: "archive/04_tohoku/1997/1997_0_4b.jpg"
+fields:
+  - 数列
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+\begin{description}
+\item[(1)]2次方程式$x^2+ax+b=0$が相異なる2つの解$\alpha$，$\beta$をもつとき，定数$p$，$q$に対し
+\[ x_0=p+q, \hspace{1zw} x_n=p\alpha^n+q\beta^n \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]
+とおく．このとき次の等式が成り立つことを示せ．
+\[ x_{n+2}+ax_{n+1}+bx_n=0 \hspace{1zw} (n=0, \, 1, \, 2, \, \cdots\cdots) \]
+\item[(2)]$x_0=2$，$x_1=3$，$x_{n+2}=x_{n+1}+x_n$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$で与えられる数列の一般項は
+\[ x_n=\frac{2+\sqrt5}{\sqrt5}{\left(\frac{1+\sqrt5}{2}\right)}^n+
+\frac{-2+\sqrt5}{\sqrt5}{\left(\frac{1-\sqrt5}{2}\right)}^n \]
+で与えられることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1997/1997_0_4b.pdf)

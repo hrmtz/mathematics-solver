@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1987年 1987_0_3"
+problem_id: "03_hokudai-1987-1987_0_3"
+university: "北海道大学"
+exam_year: "1987"
+source_tex: "archive/03_hokudai/1987/1987_0_3.tex"
+pdf_source: "archive/03_hokudai/1987/1987_0_3.pdf"
+page_image: "archive/03_hokudai/1987/1987_0_3.jpg"
+fields:
+  - 数列
+  - 代数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　2次方程式$x^2+x-1=0$の2つの解を$\alpha$，$\beta$とおく．
+\begin{description}
+\item[(1)]$\alpha^n+\beta^n=\alpha^{n+1}+\beta^{n+1}+\alpha^{n+2}+\beta^{n+2}$が成り立つことを示せ．
+ただし，$n$は自然数とする．
+\item[(2)]$\displaystyle t_n=\frac{\alpha^n-\beta^n}{\sqrt5}$，
+$s_n={t_n}^2-t_nt_{n+1}-{t_{n+1}}^2$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$とおく．
+$s_n$を$n$を用いて表し，$\displaystyle\sum_{k=1}^n(2k-1)s_k$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1987/1987_0_3.pdf)

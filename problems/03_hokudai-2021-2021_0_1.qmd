@@ -1,0 +1,28 @@
+---
+title: "北海道大学 2021年 2021_0_1"
+problem_id: "03_hokudai-2021-2021_0_1"
+university: "北海道大学"
+exam_year: "2021"
+source_tex: "archive/03_hokudai/2021/2021_0_1.tex"
+pdf_source: "archive/03_hokudai/2021/2021_0_1.pdf"
+page_image: "archive/03_hokudai/2021/2021_0_1.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　初項から第$n$項までの和$S_n$が
+\[ S_n=\frac{1}{6}n(n+1)(2n+7) \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
+で表される数列$\{ a_n \}$がある。
+\begin{description}
+\item[(1)]$\{ a_n \}$の一般項を求めよ。
+\item[(2)]$\displaystyle \sum_{k=1}^n \frac{1}{a_k}$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2021/2021_0_1.pdf)

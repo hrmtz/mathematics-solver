@@ -1,0 +1,33 @@
+---
+title: "東京大学 2020年 2020_0_2"
+problem_id: "01_tokyo-2020-2020_0_2"
+university: "東京大学"
+exam_year: "2020"
+source_tex: "archive/01_tokyo/2020/2020_0_2.tex"
+pdf_source: "archive/01_tokyo/2020/2020_0_2.pdf"
+page_image: "archive/01_tokyo/2020/2020_0_2.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　座標平面上に8本の直線
+\[ x=a \hspace{1zw} (a=1, \, 2, \, 3, \, 4), \hspace{1zw}
+y=b \hspace{1zw} (b=1, \, 2, \, 3, \, 4) \]
+がある。以下，16個の点
+\[ (a, \, b) \hspace{1zw} (a=1, \, 2, \, 3, \, 4, \hspace{1zw} b=1, \, 2, \, 3, \, 4) \]
+から異なる5個の点を選ぶことを考える。
+\begin{description}
+\item[(1)]次の条件を満たす5個の点の選び方は何通りあるか。
+上の8本の直線のうち，選んだ点を1個も含まないものがちょうど2本ある。
+\item[(2)]次の条件を満たす5個の点の選び方は何通りあるか。
+上の8本の直線は，いずれも選んだ点を少なくとも1個含む。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2020/2020_0_2.pdf)

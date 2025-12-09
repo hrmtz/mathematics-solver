@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1988年 1988_4"
+problem_id: "06_osaka-1988-1988_4"
+university: "大阪大学"
+exam_year: "1988"
+source_tex: "archive/06_osaka/1988/1988_4.tex"
+pdf_source: "archive/06_osaka/1988/1988_4.pdf"
+page_image: "archive/06_osaka/1988/1988_4.jpg"
+fields:
+  - 三角関数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$は1より大きい実数とする．
+方程式$\sin ax=\sin x$の$x>0$における最小の解を$\theta$とおく．
+\begin{description}
+\item[(1)]$\theta$を$a$を用いて表せ．
+\item[(2)]$0\leqq x \leqq \theta$の範囲で
+2曲線$y=\sin ax$，$y=\sin x$によって囲まれた図形の面積$S(a)$を求めよ．
+\item[(3)]$\displaystyle\lim_{a\to\infty}(a+1)S(a)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1988/1988_4.pdf)

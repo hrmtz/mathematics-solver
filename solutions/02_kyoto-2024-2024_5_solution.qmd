@@ -1,0 +1,278 @@
+## 解答
+
+(1)  
+
+与えられた4つの不等式は
+- $x\geqq0$
+- $y\geqq\dfrac{e^x-e^{-x}}{2}=\sinh x$
+- $y\leqq\dfrac{e^x+e^{-x}}{2}=\cosh x$
+- $y\leqq a$
+である．
+
+まず，$y=\sinh x$ と $y=\cosh x$ の交点を求める．
+$$
+\sinh x=\cosh x
+\ \Longleftrightarrow\
+\frac{e^x-e^{-x}}{2}=\frac{e^x+e^{-x}}{2}
+\ \Longleftrightarrow\
+-e^{-x}=e^{-x}
+\ \Longleftrightarrow\
+e^{-x}=0,
+$$
+は成り立たないので，交点は存在しない．
+
+しかし $x\geqq0$ では
+$$
+\cosh x-\sinh x
+=\frac{e^x+e^{-x}}{2}-\frac{e^x-e^{-x}}{2}
+=e^{-x}>0
+$$
+より，$x\geqq0$ の範囲で常に $\sinh x<\cosh x$ である．
+
+次に，直線 $y=a$ と各曲線との交点を求める．
+
+1つ目 $y=a$ と $y=\cosh x$ の交点は
+$$
+\cosh x=a
+\ \Longleftrightarrow\
+\frac{e^x+e^{-x}}{2}=a
+\ \Longleftrightarrow\
+e^x+e^{-x}=2a.
+$$
+ここで $t=e^x>0$ とおくと
+$$
+t+\frac1t=2a
+\ \Longleftrightarrow\
+t^2-2at+1=0.
+$$
+解は
+$$
+t=a\pm\sqrt{a^2-1}
+$$
+であるが，$a\geqq1$ で $a-\sqrt{a^2-1}>0$ より，どちらも正である．
+したがって
+$$
+x=\log\bigl(a+\sqrt{a^2-1}\bigr),\quad
+x=\log\bigl(a-\sqrt{a^2-1}\bigr)
+$$
+が求まるが，$x\geqq0$ の条件より
+$$
+a+\sqrt{a^2-1}\geqq1 \quad\text{より}\quad \log\bigl(a+\sqrt{a^2-1}\bigr)\geqq0,
+$$
+また
+$$
+a-\sqrt{a^2-1}\leqq1 \quad\text{より}\quad \log\bigl(a-\sqrt{a^2-1}\bigr)\leqq0
+$$
+となる．よって，$x\geqq0$ での交点は
+$$
+x=\alpha:=\log\bigl(a+\sqrt{a^2-1}\bigr)
+$$
+ただ1つである．
+
+2つ目 $y=a$ と $y=\sinh x$ の交点は
+$$
+\sinh x=a
+\ \Longleftrightarrow\
+\frac{e^x-e^{-x}}{2}=a
+\ \Longleftrightarrow\
+e^x-e^{-x}=2a.
+$$
+同様に $t=e^x>0$ とおくと
+$$
+t-\frac1t=2a
+\ \Longleftrightarrow\
+t^2-2at-1=0
+$$
+であり，解は
+$$
+t=a\pm\sqrt{a^2+1}.
+$$
+ここで $a-\sqrt{a^2+1}<0$ より $t>0$ となるのは
+$$
+t=a+\sqrt{a^2+1}
+$$
+のときである．したがって
+$$
+x=\beta:=\log\bigl(a+\sqrt{a^2+1}\bigr)
+$$
+が $x\geqq0$ における唯一の交点となる．
+
+以上より，$D_a$ は $x\geqq0$ の範囲で
+
+- $0\leqq x\leqq\alpha$ では下側が $y=\sinh x$，上側が $y=\cosh x$
+- $\alpha\leqq x\leqq\beta$ では下側が $y=\sinh x$，上側が $y=a$
+
+に挟まれた領域となる．  
+（$x>\beta$ では $y=a<\sinh x$ となるので領域は存在しない．）
+
+したがって，面積 $S_a$ は
+$$
+S_a
+=\int_{0}^{\alpha}\bigl(\cosh x-\sinh x\bigr)\,dx
++\int_{\alpha}^{\beta}\bigl(a-\sinh x\bigr)\,dx
+$$
+である．
+
+まず
+$$
+\int\cosh x\,dx=\sinh x,\qquad
+\int\sinh x\,dx=-\cosh x
+$$
+を用いて，
+$$
+\int_{0}^{\alpha}(\cosh x-\sinh x)\,dx
+=\bigl(\sinh x+\cosh x\bigr)\Big|_{0}^{\alpha}
+=\bigl(\sinh\alpha+\cosh\alpha\bigr)-\bigl(\sinh0+\cosh0\bigr).
+$$
+$\sinh0=0,\ \cosh0=1$ だから
+$$
+\int_{0}^{\alpha}(\cosh x-\sinh x)\,dx
+=\sinh\alpha+\cosh\alpha-1.
+$$
+
+さらに
+$$
+\int_{\alpha}^{\beta}(a-\sinh x)\,dx
+=a(\beta-\alpha)+\cosh x\Big|_{\alpha}^{\beta}
+=a(\beta-\alpha)+\cosh\beta-\cosh\alpha.
+$$
+
+よって
+$$
+S_a
+=\bigl(\sinh\alpha+\cosh\alpha-1\bigr)
++\bigl[a(\beta-\alpha)+\cosh\beta-\cosh\alpha\bigr]
+=\sinh\alpha+\cosh\beta-1+a(\beta-\alpha).
+$$
+
+ここで，$\alpha,\beta$ の定義から
+$$
+\cosh\alpha=a,\qquad\sinh\beta=a
+$$
+が成り立つ（逆に $\cosh x=a$ の正の解が $\alpha$，$\sinh x=a$ の正の解が $\beta$ であった）．  
+したがって
+$$
+S_a
+=\sinh\alpha+\cosh\beta-1+a(\beta-\alpha)
+=a(\beta-\alpha)+\sinh\alpha+\cosh\beta-1.
+$$
+
+さらに，$\cosh^2x-\sinh^2x=1$ の恒等式を用いると
+$$
+\cosh\beta=\sqrt{1+\sinh^2\beta}
+=\sqrt{1+a^2},\qquad
+\sinh\alpha=\sqrt{\cosh^2\alpha-1}
+=\sqrt{a^2-1},
+$$
+となるので，
+$$
+S_a
+=a(\beta-\alpha)+\sqrt{a^2-1}+\sqrt{a^2+1}-1
+$$
+ただし
+$$
+\alpha=\operatorname{arccosh}a=\log\bigl(a+\sqrt{a^2-1}\bigr),\quad
+\beta=\operatorname{arcsinh}a=\log\bigl(a+\sqrt{a^2+1}\bigr)
+$$
+である．
+
+よって求める面積は
+$$
+S_a
+=a\Bigl(\log\bigl(a+\sqrt{a^2+1}\bigr)-\log\bigl(a+\sqrt{a^2-1}\bigr)\Bigr)
++\sqrt{a^2-1}+\sqrt{a^2+1}-1.
+$$
+
+(2)  
+
+(1) の結果を用いて
+$$
+\lim_{a\to\infty}S_a
+=\lim_{a\to\infty}
+\left\{
+a\log\frac{a+\sqrt{a^2+1}}{a+\sqrt{a^2-1}}
++\sqrt{a^2-1}+\sqrt{a^2+1}-1
+\right\}
+$$
+を求める．
+
+まず平方根を含む項について，$a>0$ として
+$$
+\sqrt{a^2+1}
+=a\sqrt{1+\frac1{a^2}}
+=a\left(1+\frac1{2a^2}+O\!\left(\frac1{a^4}\right)\right)
+=a+\frac1{2a}+O\!\left(\frac1{a^3}\right),
+$$
+同様に
+$$
+\sqrt{a^2-1}
+=a\sqrt{1-\frac1{a^2}}
+=a\left(1-\frac1{2a^2}+O\!\left(\frac1{a^4}\right)\right)
+=a-\frac1{2a}+O\!\left(\frac1{a^3}\right)
+$$
+となる（テイラー展開を用いた）．  
+したがって
+$$
+\sqrt{a^2-1}+\sqrt{a^2+1}-1
+=2a-1+O\!\left(\frac1{a^3}\right).
+$$
+
+次に対数の中身を調べる．
+上の近似を用いて
+$$
+a+\sqrt{a^2+1}
+=2a+\frac1{2a}+O\!\left(\frac1{a^3}\right),
+\quad
+a+\sqrt{a^2-1}
+=2a-\frac1{2a}+O\!\left(\frac1{a^3}\right),
+$$
+よって
+$$
+\frac{a+\sqrt{a^2+1}}{a+\sqrt{a^2-1}}
+=\frac{2a+\frac1{2a}+O(a^{-3})}{2a-\frac1{2a}+O(a^{-3})}
+=\frac{1+\frac1{4a^2}+O(a^{-4})}{1-\frac1{4a^2}+O(a^{-4})}.
+$$
+ここで $|u|,|v|$ が十分小さいとき
+$$
+\frac{1+u}{1-v}=1+u+v+O(u^2+v^2)
+$$
+なので，$u=\dfrac1{4a^2}+O(a^{-4})$, $v=\dfrac1{4a^2}+O(a^{-4})$ とおけば
+$$
+\frac{1+u}{1-v}
+=1+\frac1{2a^2}+O\!\left(\frac1{a^4}\right).
+$$
+
+よって
+$$
+\frac{a+\sqrt{a^2+1}}{a+\sqrt{a^2-1}}
+=1+\frac1{2a^2}+O\!\left(\frac1{a^4}\right).
+$$
+このとき $\log(1+x)=x+O(x^2)$ を用いると
+$$
+\log\frac{a+\sqrt{a^2+1}}{a+\sqrt{a^2-1}}
+=\frac1{2a^2}+O\!\left(\frac1{a^4}\right)
+$$
+であり，したがって
+$$
+a\log\frac{a+\sqrt{a^2+1}}{a+\sqrt{a^2-1}}
+=a\left(\frac1{2a^2}+O\!\left(\frac1{a^4}\right)\right)
+=\frac1{2a}+O\!\left(\frac1{a^3}\right)\xrightarrow[a\to\infty]{}0.
+$$
+
+以上より
+$$
+S_a
+=\left(2a-1+O\!\left(\frac1{a^3}\right)\right)
++\left(\frac1{2a}+O\!\left(\frac1{a^3}\right)\right)
+=2a-1+o(1)
+$$
+となるから，
+$$
+\lim_{a\to\infty}S_a=\infty.
+$$
+
+したがって，
+$$
+\boxed{\displaystyle\lim_{a\to\infty}S_a=\infty}
+$$
+である。

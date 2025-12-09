@@ -1,0 +1,31 @@
+---
+title: "九州大学 1969年 1969_2"
+problem_id: "07_kyushu-1969-1969_2"
+university: "九州大学"
+exam_year: "1969"
+source_tex: "archive/07_kyushu/1969/1969_2.tex"
+pdf_source: "archive/07_kyushu/1969/1969_2.pdf"
+page_image: "archive/07_kyushu/1969/1969_2.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+\item[(1)]$\displaystyle{\left(x+\frac{1}{x^2}\right)}^n$（ただし，$n$は正の整数）を展開したとき，
+展開式のなかに定数項が含まれるのは，$n$が3の倍数であるときに限る．
+\begin{description}
+\item[（イ）]このことを証明せよ．また，
+\item[（ロ）]$n=3m$とおいて，この定数項を$m$で表わせ．
+\end{description}
+\item[(2)]次に，(1)を利用して$\displaystyle{\left(1+x+\frac{1}{x^2}\right)}^{10}$の展開式のなかの定数項を計算せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1969/1969_2.pdf)

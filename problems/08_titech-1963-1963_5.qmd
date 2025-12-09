@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1963年 1963_5"
+problem_id: "08_titech-1963-1963_5"
+university: "東京科学大学"
+exam_year: "1963"
+source_tex: "archive/08_titech/1963/1963_5.tex"
+pdf_source: "archive/08_titech/1963/1963_5.pdf"
+page_image: "archive/08_titech/1963/1963_5.jpg"
+fields:
+  - 平面図形
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a$を正の定数とするとき，$x\leqq0$の範囲において2つの放物線
+\[ y=x^2, \hspace{1zw} 6x=a^3y^2-7ay \]
+が囲む2つの部分の面積の比を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1963/1963_5.pdf)

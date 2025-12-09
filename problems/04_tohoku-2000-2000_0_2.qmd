@@ -1,0 +1,26 @@
+---
+title: "東北大学 2000年 2000_0_2"
+problem_id: "04_tohoku-2000-2000_0_2"
+university: "東北大学"
+exam_year: "2000"
+source_tex: "archive/04_tohoku/2000/2000_0_2.tex"
+pdf_source: "archive/04_tohoku/2000/2000_0_2.pdf"
+page_image: "archive/04_tohoku/2000/2000_0_2.jpg"
+fields:
+  - 複素数平面
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　等式
+\[ x^2+(i-2)x+2ab+\left( \frac{b}{2}-2a \right)i=0 \]
+を満たす実数$a$，$b$が存在するような，実数$x$の範囲を求めよ．
+ただし，$i=\sqrt{-1}$である．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2000/2000_0_2.pdf)

@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 2001年 2001_4b"
+problem_id: "05_nagoya-2001-2001_4b"
+university: "名古屋大学"
+exam_year: "2001"
+source_tex: "archive/05_nagoya/2001/2001_4b.tex"
+pdf_source: "archive/05_nagoya/2001/2001_4b.pdf"
+page_image: "archive/05_nagoya/2001/2001_4b.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　数直線上の原点$O$から出発して，
+効果を投げながら駒を整数点上動かすゲームを考える．
+毎回硬貨を投げて表が出れば$+1$，裏が出れば$-1$，それぞれ駒を進めるとする．
+ただし，点$-1$または点$3$に着いたときは以後そこにとどまるものとする．
+\begin{description}
+\item[(1)]$k$回目に硬貨を投げたあと，駒が点1にある確率を求めよ．
+\item[(2)]$k$回目に硬貨を投げたあと，駒がある点$X_k$の期待値$E[X_k]$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_4b.pdf)

@@ -1,0 +1,25 @@
+---
+title: "北海道大学 1984年 1984_0_3"
+problem_id: "03_hokudai-1984-1984_0_3"
+university: "北海道大学"
+exam_year: "1984"
+source_tex: "archive/03_hokudai/1984/1984_0_3.tex"
+pdf_source: "archive/03_hokudai/1984/1984_0_3.pdf"
+page_image: "archive/03_hokudai/1984/1984_0_3.jpg"
+fields:
+  - 整数
+  - 数列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　3辺の長さがいずれも70より小さい整数で，かつ等差数列になっている3角形は何個あるか．
+ただし，合同な3角形は区別しないものとする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1984/1984_0_3.pdf)

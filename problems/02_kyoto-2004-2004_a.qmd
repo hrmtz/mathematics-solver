@@ -1,0 +1,26 @@
+---
+title: "京都大学 2004年 2004_a"
+problem_id: "02_kyoto-2004-2004_a"
+university: "京都大学"
+exam_year: "2004"
+source_tex: "archive/02_kyoto/2004/2004_a.tex"
+pdf_source: "archive/02_kyoto/2004/2004_a.pdf"
+page_image: "archive/02_kyoto/2004/2004_a.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$x\geqq0$に対して，関数$f(x)$を次のように定義する．
+\[ f(x)=\begin{cases} x & (0 \leqq x \leqq 1 \text{のとき}) 
+
+ 0 & (x>1\text{のとき}) \end{cases} \]
+　このとき，$\displaystyle\lim_{n\to+\infty}n\int_0^1f(4nx(1-x))dx$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_a.pdf)

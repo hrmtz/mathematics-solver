@@ -1,0 +1,26 @@
+---
+title: "北海道大学 1964年 1964_2"
+problem_id: "03_hokudai-1964-1964_2"
+university: "北海道大学"
+exam_year: "1964"
+source_tex: "archive/03_hokudai/1964/1964_2.tex"
+pdf_source: "archive/03_hokudai/1964/1964_2.pdf"
+page_image: "archive/03_hokudai/1964/1964_2.jpg"
+fields:
+  - 複素数平面
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$1-\sqrt3 i$は実係数の方程式$x^3+ax^2+bx+c=0$の根である。
+この方程式と方程式$x^2+ax+2=0$とが1根のみを共有するとき，
+定数$a$，$b$，$c$の値を求めよ。
+ただし$i=\sqrt{-1}$とする。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_2.pdf)

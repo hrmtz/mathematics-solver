@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 2011年 2011_4"
+problem_id: "05_nagoya-2011-2011_4"
+university: "名古屋大学"
+exam_year: "2011"
+source_tex: "archive/05_nagoya/2011/2011_4.tex"
+pdf_source: "archive/05_nagoya/2011/2011_4.pdf"
+page_image: "archive/05_nagoya/2011/2011_4.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$，$b$は$a \geqq b > 0$を満たす整数とし，
+$x$と$y$の2次方程式$x^2+ax+b=0$，$y^2+by+a=0$がそれぞれ整数解をもつとする．
+\begin{description}
+\item[(1)]$a=b$とするとき，条件を満たす整数$a$をすべて求めよ．
+\item[(2)]$a>b$とするとき，条件を満たす整数の組$(a,b)$をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2011/2011_4.pdf)

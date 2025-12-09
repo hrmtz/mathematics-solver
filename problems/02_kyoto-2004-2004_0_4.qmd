@@ -1,0 +1,26 @@
+---
+title: "京都大学 2004年 2004_0_4"
+problem_id: "02_kyoto-2004-2004_0_4"
+university: "京都大学"
+exam_year: "2004"
+source_tex: "archive/02_kyoto/2004/2004_0_4.tex"
+pdf_source: "archive/02_kyoto/2004/2004_0_4.pdf"
+page_image: "archive/02_kyoto/2004/2004_0_4.jpg"
+fields:
+  - 複素数平面
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$c$を実数とする．$x$についての2次方程式$x^2+(3-2c)x+c^2+5=0$が2つの解$\alpha$，$\beta$を持つとする．
+複素平面上の3点$\alpha$，$\beta$，$c^2$が3角形の3頂点になり，その3角形の重心は0であるという．
+$c$を求めよ．
+(注意：複素平面のことを複素数平面ともいう)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_0_4.pdf)

@@ -1,0 +1,31 @@
+---
+title: "名古屋大学 1998年 1998_4a"
+problem_id: "05_nagoya-1998-1998_4a"
+university: "名古屋大学"
+exam_year: "1998"
+source_tex: "archive/05_nagoya/1998/1998_4a.tex"
+pdf_source: "archive/05_nagoya/1998/1998_4a.pdf"
+page_image: "archive/05_nagoya/1998/1998_4a.jpg"
+fields:
+  - 複素数平面
+  - 数列
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　$N$を自然数とし，複素数$z=\cos\theta+i\sin\theta$は$z^N=1$を満たすとして，
+以下の級数和$S_1$，$S_2$，$S_3$の値を求めよ．
+ただし，ここで$i$は虚数単位$(i^2=-1)$である．
+\begin{description}
+\item[(1)]$S_1=1+z+z^2+\cdots+z^{N-1}$
+\item[(2)]$S_2=1+\cos\theta+\cos2\theta+\cdots+\cos(N-1)\theta$
+\item[(3)]$S_3=1+\cos^2\theta+\cos^22\theta+\cdots+\cos^2(N-1)\theta$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1998/1998_4a.pdf)

@@ -1,0 +1,38 @@
+---
+title: "東京科学大学 1993年 1993_b"
+problem_id: "08_titech-1993-1993_b"
+university: "東京科学大学"
+exam_year: "1993"
+source_tex: "archive/08_titech/1993/1993_b.tex"
+pdf_source: "archive/08_titech/1993/1993_b.pdf"
+page_image: "archive/08_titech/1993/1993_b.jpg"
+fields:
+  - 行列
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$A= \begin{pmatrix} 2 & 1 
+
+ 0 & 2 \end{pmatrix}$とし，
+正の整数$n$に対し$A^n = \begin{pmatrix} a_n & b_n 
+
+ c_n & d_n \end{pmatrix}$とおく．
+\begin{description}
+\item[(1)]$a_n$，$b_n$，$c_n$，$d_n$を求めよ．
+\item[(2)]$a_n$，$b_n$，$c_n$，$d_n$を3で割った余りを$\alpha_n$，$\beta_n$，$\gamma_n$，$\delta_n$と書く．
+$\begin{pmatrix} \alpha_n & \beta_n 
+
+ \gamma_n & \delta_n \end{pmatrix} = \begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix} $
+となるための必要十分条件は$n$が6の倍数であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1993/1993_b.pdf)

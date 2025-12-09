@@ -1,0 +1,23 @@
+---
+title: "京都大学 2001年 2001_0_3"
+problem_id: "02_kyoto-2001-2001_0_3"
+university: "京都大学"
+exam_year: "2001"
+source_tex: "archive/02_kyoto/2001/2001_0_3.tex"
+pdf_source: "archive/02_kyoto/2001/2001_0_3.pdf"
+page_image: "archive/02_kyoto/2001/2001_0_3.jpg"
+fields:
+  - 整数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　任意の整数$n$に対し，$n^9-n^3$は9で割り切れることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2001/2001_0_3.pdf)

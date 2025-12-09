@@ -1,0 +1,30 @@
+---
+title: "東北大学 1982年 1982_1"
+problem_id: "04_tohoku-1982-1982_1"
+university: "東北大学"
+exam_year: "1982"
+source_tex: "archive/04_tohoku/1982/1982_1.tex"
+pdf_source: "archive/04_tohoku/1982/1982_1.pdf"
+page_image: "archive/04_tohoku/1982/1982_1.jpg"
+fields:
+  - 行列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$ $(a, \, b, \, c, \, d\text{は実数})$は
+$A^2=A$を満たす．
+\begin{description}
+\item[(1)]$\displaystyle bc\geqq\frac{1}{4}$のとき，$a$と$d$の値を求めよ．
+\item[(2)]さらに，$0\leqq a+b+c+d<2$として，行列$A$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1982/1982_1.pdf)

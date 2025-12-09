@@ -1,0 +1,36 @@
+---
+title: "北海道大学 1989年 1989_0_2"
+problem_id: "03_hokudai-1989-1989_0_2"
+university: "北海道大学"
+exam_year: "1989"
+source_tex: "archive/03_hokudai/1989/1989_0_2.tex"
+pdf_source: "archive/03_hokudai/1989/1989_0_2.pdf"
+page_image: "archive/03_hokudai/1989/1989_0_2.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　正方形$EFGH$を底面とする直方体$ABCD-EFGH$を考える．
+座標空間において，頂点$G$を原点に，頂点$A$を$z$軸上におくとする．
+このとき，各頂点$A$，$B$，$C$，$D$を通り，$xy$平面に垂直な直線が，
+$xy$平面と交わる点をそれぞれ$A'$，$B'$，$C'$，$D'$とする．
+このとき，次の(1)，(2)を証明せよ．
+ 
+
+![](../archive/03_hokudai/1989/fig_1989_0_2.jpg)
+
+
+\begin{description}
+\item[(1)]$\overrightarrow{DB}$と$\overrightarrow{GA}$は垂直である．
+\item[(2)]四辺形$A'B'C'D'$はひし形である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1989/1989_0_2.pdf)

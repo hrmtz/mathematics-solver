@@ -1,0 +1,285 @@
+## 解答
+
+一辺の長さが $1$ の正方形 $ABCD$ で，$AB$ 上に点 $P$，$AD$ 上に点 $Q$，$CD$ 上に点 $R$ を取る。  
+三角形 $APQ$，$PQR$ の面積がともに $\dfrac{1}{3}$ であるという条件を式で表し，$\dfrac{DR}{AQ}$ の最大値・最小値を求める。
+
+---
+
+(1) 座標の設定と条件式の導出
+
+正方形 $ABCD$ を
+$$
+A(0,0),\ B(1,0),\ C(1,1),\ D(0,1)
+$$
+とおく。  
+点 $P,Q,R$ の座標を
+$$
+P(p,0)\ (0\le p\le 1),\quad Q(0,q)\ (0\le q\le 1),\quad R(r,1)\ (0\le r\le 1)
+$$
+とおく。
+
+三角形の面積は「ベクトルの外積の大きさの半分」で表す。
+
+### 三角形 $APQ$ の条件
+
+$A(0,0),P(p,0),Q(0,q)$ より，  
+ベクトル $\overrightarrow{AP}=(p,0),\ \overrightarrow{AQ}=(0,q)$ なので，
+$$
+\triangle APQ\ \text{の面積}
+=\dfrac12 |p\cdot q-0|
+=\dfrac12 pq.
+$$
+これが $\dfrac13$ に等しいから
+$$
+\dfrac12 pq = \dfrac13
+\quad\Longrightarrow\quad
+pq=\dfrac{2}{3}.
+$$
+
+### 三角形 $PQR$ の条件
+
+$P(p,0),Q(0,q),R(r,1)$ より，  
+$\overrightarrow{QP}=P-Q=(p,-q),\ \overrightarrow{QR}=R-Q=(r,1-q)$ とおくと，
+$$
+\triangle PQR\ \text{の面積}
+=\dfrac12\,|\det(\overrightarrow{QP},\overrightarrow{QR})|
+=\dfrac12\,|p(1-q)+qr|.
+$$
+これが $\dfrac13$ に等しいので
+$$
+\dfrac12\,|p(1-q)+qr|=\dfrac13
+\quad\Longrightarrow\quad
+|p(1-q)+qr|=\dfrac{2}{3}.
+$$
+
+ここで $pq=\dfrac{2}{3}$ を用いると
+$$
+p(1-q)+qr
+=p - pq + qr
+= p - \dfrac{2}{3} + qr.
+$$
+したがって
+$$
+|p - \dfrac{2}{3} + qr|=\dfrac{2}{3}.
+$$
+
+---
+
+(2) $DR$ と $AQ$ の長さを表す
+
+$AQ$ は $y$ 軸上で，$A(0,0),Q(0,q)$ より
+$$
+AQ = q.
+$$
+
+$DR$ は $D(0,1),R(r,1)$ を結ぶ水平線分の長さなので
+$$
+DR = r.
+$$
+
+よって求める比は
+$$
+\frac{DR}{AQ}=\frac{r}{q}
+$$
+である。これを $p,q$ を用いて表し，条件から取りうる範囲を調べる。
+
+---
+
+(3) $r$ を $p,q$ で表し，条件を整理する
+
+$|p - \dfrac{2}{3} + qr|=\dfrac{2}{3}$ から 2 通りに場合分けする。
+
+### 場合 1：$p - \dfrac{2}{3} + qr = \dfrac{2}{3}$ のとき
+
+このとき
+$$
+p - \dfrac{2}{3} + qr = \dfrac{2}{3}
+\quad\Longrightarrow\quad
+qr = \dfrac{4}{3} - p
+\quad\Longrightarrow\quad
+r = \frac{\dfrac{4}{3}-p}{q}.
+$$
+ここで $pq=\dfrac{2}{3}$ なので $q=\dfrac{2}{3p}$ を代入すると
+$$
+r = \frac{\dfrac{4}{3}-p}{\dfrac{2}{3p}}
+= \left(\dfrac{4}{3}-p\right)\cdot\dfrac{3p}{2}
+= \dfrac{p(4-3p)}{2}.
+$$
+
+よって
+$$
+\frac{DR}{AQ}
+=\frac{r}{q}
+=\frac{\dfrac{p(4-3p)}{2}}{\dfrac{2}{3p}}
+=\dfrac{3p^2(4-3p)}{4}.
+$$
+
+ここで $pq=\dfrac{2}{3}$，$0\le p,q\le 1$ から $p$ の範囲を求める。  
+$q=\dfrac{2}{3p}\le 1$ より
+$$
+\dfrac{2}{3p}\le 1
+\quad\Longrightarrow\quad
+2\le 3p
+\quad\Longrightarrow\quad
+p\ge \dfrac{2}{3}.
+$$
+また $p\le 1$ より
+$$
+\dfrac{2}{3}\le p\le 1.
+$$
+
+さらにこの場合は $r$ の定義から $0\le r\le 1$ を満たさねばならない。
+
+まず $r\ge 0$ は
+$$
+r=\frac{p(4-3p)}{2}\ge 0
+\quad\Longleftrightarrow\quad
+p\ge 0,\ 4-3p\ge 0
+\quad\Longrightarrow\quad
+p\le \frac{4}{3},
+$$
+で，$p\le 1$ より自動的に満たされる。
+
+次に $r\le 1$ から
+$$
+\frac{p(4-3p)}{2}\le 1
+\quad\Longleftrightarrow\quad
+p(4-3p)\le 2
+\quad\Longleftrightarrow\quad
+-3p^2+4p-2\le 0
+\quad\Longleftrightarrow\quad
+3p^2-4p+2\ge 0.
+$$
+二次方程式 $3p^2-4p+2=0$ の判別式は
+$$
+\Delta = (-4)^2-4\cdot 3\cdot 2=16-24=-8<0
+$$
+であるから，$3p^2-4p+2$ は常に正である。よって $r\le 1$ は全ての $p$ に対して成り立つ。
+
+したがってこの場合の $p$ の範囲は
+$$
+\dfrac{2}{3}\le p\le 1
+$$
+でよい。
+
+このとき
+$$
+f(p):=\frac{DR}{AQ}=\dfrac{3p^2(4-3p)}{4}
+$$
+の範囲を求める。  
+$f(p)$ は区間 $[\dfrac{2}{3},1]$ 上の連続関数なので，最大最小は端点または臨界点でとる。
+
+$f(p)$ を微分すると
+$$
+f(p)=\frac{3}{4}(4p^2-3p^3),\quad
+f'(p)=\frac{3}{4}(8p-9p^2)
+=\frac{3p}{4}(8-9p).
+$$
+したがって
+$$
+f'(p)=0 \Longleftrightarrow p=0\ \text{または}\ p=\frac{8}{9}.
+$$
+区間 $[\dfrac{2}{3},1]$ にあるのは $p=\dfrac{8}{9}$ のみである。
+
+そこで
+$$
+f\left(\dfrac{2}{3}\right)
+=\frac{3}{4}\left(\dfrac{4}{9}\right)\left(4-3\cdot\dfrac{2}{3}\right)
+=\frac{3}{4}\cdot\dfrac{4}{9}\cdot 2
+=\frac{2}{3},
+$$
+$$
+f(1)=\frac{3}{4}\cdot 1^2\cdot (4-3)=\frac{3}{4},
+$$
+$$
+f\left(\dfrac{8}{9}\right)
+=\frac{3}{4}\cdot\left(\dfrac{64}{81}\right)\left(4-3\cdot\dfrac{8}{9}\right)
+=\frac{3}{4}\cdot\frac{64}{81}\cdot\frac{4}{3}
+=\frac{256}{324}
+=\frac{64}{81}.
+$$
+
+よってこの場合には
+$$
+\frac{2}{3}\le \frac{DR}{AQ}\le \frac{64}{81}
+$$
+となる。
+
+---
+
+### 場合 2：$p - \dfrac{2}{3} + qr = -\dfrac{2}{3}$ のとき
+
+このとき
+$$
+p - \dfrac{2}{3} + qr = -\dfrac{2}{3}
+\quad\Longrightarrow\quad
+qr = -p
+\quad\Longrightarrow\quad
+r = -\,\frac{p}{q}.
+$$
+ここで $p\ge 0,q>0$ なので $r\le 0$ となるが，$R$ は辺 $CD$ 上にあるから $0\le r\le 1$ でなければならない。  
+従ってこの場合は成立しない。
+
+---
+
+(4) $\dfrac{DR}{AQ}$ の最大値・最小値
+
+(3) より，可能なのは「場合 1」のみであり，その範囲は
+$$
+\frac{2}{3}\le \frac{DR}{AQ}\le \frac{64}{81}
+$$
+である。
+
+したがって，$\dfrac{DR}{AQ}$ の
+
+- 最小値は $\displaystyle \frac{2}{3}$，
+- 最大値は $\displaystyle \frac{64}{81}$
+
+である。
+
+---
+
+(5) 実現可能性の確認（補足）
+
+最小値・最大値が実際に実現されることも確認しておく。
+
+- 最小値 $\dfrac{2}{3}$ は $p=\dfrac{2}{3}$ のとき：
+  
+  $pq=\dfrac{2}{3}$ より $q=1$，  
+  $r=\dfrac{p(4-3p)}{2}$ より
+  $$r=\frac{\dfrac{2}{3}(4-2)}{2}
+  =\frac{\dfrac{2}{3}\cdot 2}{2}
+  =\frac{2}{3},$$
+  よって
+  $$
+  \frac{DR}{AQ}=\frac{r}{q}=\frac{\dfrac{2}{3}}{1}=\frac{2}{3}.
+  $$
+
+- 最大値 $\dfrac{64}{81}$ は $p=\dfrac{8}{9}$ のとき：
+  
+  $pq=\dfrac{2}{3}$ より $q=\dfrac{3}{4}$，  
+  $r=\dfrac{p(4-3p)}{2}$ より
+  $$
+  r=\frac{\dfrac{8}{9}\cdot\frac{4}{3}}{2}
+  =\frac{\dfrac{32}{27}}{2}
+  =\frac{16}{27},
+  $$
+  よって
+  $$
+  \frac{DR}{AQ}
+  =\frac{r}{q}
+  =\frac{\dfrac{16}{27}}{\dfrac{3}{4}}
+  =\frac{16}{27}\cdot\frac{4}{3}
+  =\frac{64}{81}.
+  $$
+
+実際に条件を満たす点が存在するので，上で求めた値が最大値・最小値であることが確認できる。
+
+---
+
+以上より，
+
+- $\dfrac{DR}{AQ}$ の最小値は $\displaystyle \frac{2}{3}$，
+- 最大値は $\displaystyle \frac{64}{81}$
+
+である。

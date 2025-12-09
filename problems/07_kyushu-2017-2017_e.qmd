@@ -1,0 +1,34 @@
+---
+title: "九州大学 2017年 2017_e"
+problem_id: "07_kyushu-2017-2017_e"
+university: "九州大学"
+exam_year: "2017"
+source_tex: "archive/07_kyushu/2017/2017_e.tex"
+pdf_source: "archive/07_kyushu/2017/2017_e.pdf"
+page_image: "archive/07_kyushu/2017/2017_e.jpg"
+fields:
+  - 数列
+  - 帰納法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　次の条件によって定められる数列$\{ a_n \}$がある。
+\[ a_1=1, \hspace{1zw} a_2=1, \hspace{1zw} a_{n+2}=a_{n+1}+a_n \hspace{1zw}
+(n=1, \, 2, \, 3, \, \cdots\cdots) \]
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]2以上の自然数$n$に対して，$a_{n+2}>2a_n$が成り立つことを示せ。
+\item[(2)]2以上の自然数$m$は，
+数列$\{ a_n \}$の互いに異なる$k$個$(k\geqq2)$の項の和で表されることを，
+数学的帰納法によって示せ。
+\item[(3)](2)における項の個数$k$は，$k<2\log_2m+2$を満たすことを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_e.pdf)

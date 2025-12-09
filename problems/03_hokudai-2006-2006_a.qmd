@@ -1,0 +1,28 @@
+---
+title: "北海道大学 2006年 2006_a"
+problem_id: "03_hokudai-2006-2006_a"
+university: "北海道大学"
+exam_year: "2006"
+source_tex: "archive/03_hokudai/2006/2006_a.tex"
+pdf_source: "archive/03_hokudai/2006/2006_a.pdf"
+page_image: "archive/03_hokudai/2006/2006_a.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$を実数とし，関数$f(x)$を
+\[ f(x)=a(\sin x+\cos x)-\sin x\cos x \]
+によって定義する．ただし，$x$は実数全体を動くとする．
+\begin{description}
+\item[(1)]$t=\sin x+\cos x$のとりうる値の範囲を求めよ．
+\item[(2)]$f(x)$の最大値が3となるときの$a$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2006/2006_a.pdf)

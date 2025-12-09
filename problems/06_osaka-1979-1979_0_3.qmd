@@ -1,0 +1,28 @@
+---
+title: "大阪大学 1979年 1979_0_3"
+problem_id: "06_osaka-1979-1979_0_3"
+university: "大阪大学"
+exam_year: "1979"
+source_tex: "archive/06_osaka/1979/1979_0_3.tex"
+pdf_source: "archive/06_osaka/1979/1979_0_3.pdf"
+page_image: "archive/06_osaka/1979/1979_0_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　2つの曲線$\begin{cases} y=ax^3-2x & \cdots\cdots\cdots\text{\ding{"AC}}
+y=bx^3+x+2 & \cdots\cdots\cdots\text{\ding{"AD}} \end{cases}$がある1点を通り，
+その点における接線は同一の直線$l$である．ただし$b>0$とする．
+曲線\ding{"AC}と直線$l$が囲む図形の面積は，
+曲線\ding{"AD}と$l$が囲む図形の面積の2倍に等しい．
+このとき$a$と$b$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1979/1979_0_3.pdf)

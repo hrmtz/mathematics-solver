@@ -1,0 +1,36 @@
+---
+title: "九州大学 1994年 1994_a"
+problem_id: "07_kyushu-1994-1994_a"
+university: "九州大学"
+exam_year: "1994"
+source_tex: "archive/07_kyushu/1994/1994_a.tex"
+pdf_source: "archive/07_kyushu/1994/1994_a.pdf"
+page_image: "archive/07_kyushu/1994/1994_a.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面において，最高次の係数が1の3次関数$y=x^3+ax^2+bx+c$のグラフ$C$を考える．
+そして，恒等変換ではない1次変換
+$\begin{cases} x'=\alpha x+\beta y 
+
+ y'=\gamma x+\delta y \end{cases}$による$C$の像は
+$C$に一致するとする．
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]3次関数の係数$a$，$b$，$c$
+および1次変換の係数$\alpha$，$\beta$，$\gamma$，$\delta$は
+それぞれどのようなものでなければならないか．
+\item[(2)]上記の3次関数が$x=x_0$で極大値$y_0$を持つ場合，
+関数ごとに定まる$xy$平面の点$(x_0, \, y_0)$の全体はいかなる曲線上にあるか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1994/1994_a.pdf)

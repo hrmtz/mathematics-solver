@@ -1,0 +1,41 @@
+---
+title: "九州大学 2002年 2002_0_4b"
+problem_id: "07_kyushu-2002-2002_0_4b"
+university: "九州大学"
+exam_year: "2002"
+source_tex: "archive/07_kyushu/2002/2002_0_4b.tex"
+pdf_source: "archive/07_kyushu/2002/2002_0_4b.pdf"
+page_image: "archive/07_kyushu/2002/2002_0_4b.jpg"
+fields:
+  - 複素数平面
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　次の問いに答えよ．
+\begin{description}
+\item[(1)]複素数$\alpha$，$\beta$，$\gamma$，$\delta$は
+$\alpha\neq\beta$，$\gamma\neq\delta$をみたすとする．
+複素数平面上の2点$\alpha$，$\beta$を通る直線が，
+2点$\gamma$，$\delta$を通る直線と直交するための必要十分条件は，
+複素数$\displaystyle\frac{\alpha-\beta}{\gamma-\delta}$が純虚数であることを示せ．
+\end{description}
+　複素数平面上の原点を中心とする半径1の円$C$上に相異なる3点$z_1, \, z_2, \, z_3$をとる．
+次の問いに答えよ．
+\begin{description}
+\item[(2)]$w_1=z_1+z_2+z_3$とおく．
+点$w_1$は3点$z_1, \, z_2, \, z_3$を頂点とする三角形の垂心になることを示せ．
+ここで，三角形の垂心とは，各頂点から対辺またはその延
+\item[(3)]$w_2=-\overline{z_1}z_2z_3$とおく．
+$w_2 \neq z_1$のとき，
+2点$z_2, \, z_3$を通る直線上に点$z_1$から下ろした垂線またはその延長線が円$C$と交わる点は$w_2$であることを示せ．
+ここで$\overline{z_1}$は$z_1$に共役な複素数である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2002/2002_0_4b.pdf)

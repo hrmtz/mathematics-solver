@@ -1,0 +1,26 @@
+---
+title: "東京大学 1978年 1978_0_4"
+problem_id: "01_tokyo-1978-1978_0_4"
+university: "東京大学"
+exam_year: "1978"
+source_tex: "archive/01_tokyo/1978/1978_0_4.tex"
+pdf_source: "archive/01_tokyo/1978/1978_0_4.pdf"
+page_image: "archive/01_tokyo/1978/1978_0_4.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xy$平面で点$P(-3,6)$を通り，曲線$y=x^3-5x^2+x+9\cdots\cdots(1)$に接する直線のうち，
+接点の$x$座標が$x\geqq0$をみたすものを$PQ$，$PR$とする．
+ただしこれらの直線は点$Q$，$R$において曲線(1)に接するものとする．
+このとき曲線(1)の点$Q$から点$R$までの部分と，線分$PQ$，線分$PR$で囲まれた領域の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1978/1978_0_4.pdf)

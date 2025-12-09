@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1966年 1966_3"
+problem_id: "03_hokudai-1966-1966_3"
+university: "北海道大学"
+exam_year: "1966"
+source_tex: "archive/03_hokudai/1966/1966_3.tex"
+pdf_source: "archive/03_hokudai/1966/1966_3.pdf"
+page_image: "archive/03_hokudai/1966/1966_3.jpg"
+fields:
+  - 複素数平面
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]$z=1-i$のとき，$\displaystyle{\left| z-\frac{1}{z} \right|}^2$の値を求めよ．
+\item[(2)]$\displaystyle z+\frac{4}{z}=2$のとき，$\displaystyle\frac{1}{z^2}$を極形式で表わせ．
+\item[(3)]2つのベクトル$\overrightarrow{a}=(3, \, 4)$，$\overrightarrow{b}=(2, \, -1)$が与えられたとき，
+$\overrightarrow{a}+x\overrightarrow{b}$と$\overrightarrow{a}-\overrightarrow{b}$とが直交するように
+実数$x$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1966/1966_3.pdf)

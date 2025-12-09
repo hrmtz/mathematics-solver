@@ -1,0 +1,51 @@
+---
+title: "東京科学大学 ao年 2007_d"
+problem_id: "08_titech-ao-2007_d"
+university: "東京科学大学"
+exam_year: "ao"
+source_tex: "archive/08_titech/ao/2007_d.tex"
+pdf_source: "archive/08_titech/ao/2007_d.pdf"
+page_image: "archive/08_titech/ao/2007_d.jpg"
+fields:
+  - 確率
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　直角二等辺三角形の板が机の上に、長さの等しい辺の一方が真横になっているように置かれているものとする．
+つまり，右の4種類の置き方があることになる．
+　正確なサイコロを用意し，そのサイコロを振って出た目に従い板の置き方を変えていくことにする．
+1か2の目が出れば，上下対称の置き方に，
+3か4の目が出れば，左右対称の置き方に，
+5か6の目が出れば，反時計まわりに${90}^\circ$回転させた置き方に，置き直す．
+　例えば，1の目が出れば，$A_1$を$A_0$に，3の目が出れば，$A_2$を$A_1$に，5の目が出れば，$A_2$を$A_3$に変える．
+　このような操作を$n$回繰り返したとき，$X$の置き方が$Y$の置き方に変わる確率を$P_n(X,Y)$と書くことにする．
+ここで，$X$，$Y$は$A_0$，$A_1$，$A_2$，$A_3$のいずれかとする．
+　このとき，$P_n(A_0,A_0)$，$P_n(A_0,A_1)$，$P_n(A_0,A_2)$，$P_n(A_0,A_3)$の値を求めよ．
+
+
+
+![](../archive/08_titech/ao/fig_2007_d_1.jpg)
+
+
+
+
+![](../archive/08_titech/ao/fig_2007_d_2.jpg)
+
+
+
+
+![](../archive/08_titech/ao/fig_2007_d_3.jpg)
+
+
+
+
+![](../archive/08_titech/ao/fig_2007_d_4.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/ao/2007_d.pdf)

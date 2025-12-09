@@ -1,0 +1,30 @@
+---
+title: "京都大学 1982年 1982_0_5"
+problem_id: "02_kyoto-1982-1982_0_5"
+university: "京都大学"
+exam_year: "1982"
+source_tex: "archive/02_kyoto/1982/1982_0_5.tex"
+pdf_source: "archive/02_kyoto/1982/1982_0_5.pdf"
+page_image: "archive/02_kyoto/1982/1982_0_5.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　平面上に四辺形$ABCD$があって，どの頂点も，残りの頂点の作る三角形の外部にある．
+$\triangle BCD$の重心を$A_1$，$\triangle CDA$の重心を$B_1$，
+$\triangle DAB$の重心を$C_1$，$\triangle ABC$の重心を$D_1$として，
+四辺形$A_1B_1C_1D_1$を作る．
+\begin{description}
+\item[(1)]線分$AA_1$，$BB_1$，$CC_1$，$DD_1$は1点$P$を共有することを示せ．
+\item[(2)](1)において，点$P$は各線分をどのような比に分けるか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1982/1982_0_5.pdf)

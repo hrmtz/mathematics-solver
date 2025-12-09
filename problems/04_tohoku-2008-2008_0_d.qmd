@@ -1,0 +1,26 @@
+---
+title: "東北大学 2008年 2008_0_d"
+problem_id: "04_tohoku-2008-2008_0_d"
+university: "東北大学"
+exam_year: "2008"
+source_tex: "archive/04_tohoku/2008/2008_0_d.tex"
+pdf_source: "archive/04_tohoku/2008/2008_0_d.pdf"
+page_image: "archive/04_tohoku/2008/2008_0_d.jpg"
+fields:
+  - 三角関数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$\displaystyle0<\theta<\frac{\pi}{4}$とし，
+$m$を$\displaystyle\frac{\pi}{4\theta}$に最も近い整数とする．
+ただし，2つある場合はどちらか一方を選ぶとする．
+このとき，$\cos\theta\leqq\sin2m\theta$となることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_0_d.pdf)

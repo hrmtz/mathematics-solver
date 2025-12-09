@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1973年 1973_5"
+problem_id: "05_nagoya-1973-1973_5"
+university: "名古屋大学"
+exam_year: "1973"
+source_tex: "archive/05_nagoya/1973/1973_5.tex"
+pdf_source: "archive/05_nagoya/1973/1973_5.pdf"
+page_image: "archive/05_nagoya/1973/1973_5.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　関数$f(x)$ $(a \leqq x \leqq b)$が正の第2次導関数をもつとき，
+曲線$y=f(x)$の上に点$P$をとって，
+$P$における接線とこの曲線および2直線$x=a$，$x=b$とで囲まれた部分の面積を最小にするには，
+点$P$をどのようにとればよいか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1973/1973_5.pdf)

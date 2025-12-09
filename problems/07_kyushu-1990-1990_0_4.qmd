@@ -1,0 +1,29 @@
+---
+title: "九州大学 1990年 1990_0_4"
+problem_id: "07_kyushu-1990-1990_0_4"
+university: "九州大学"
+exam_year: "1990"
+source_tex: "archive/07_kyushu/1990/1990_0_4.tex"
+pdf_source: "archive/07_kyushu/1990/1990_0_4.pdf"
+page_image: "archive/07_kyushu/1990/1990_0_4.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$，$b$を正の定数とする．
+直線$y=ax$と放物線$y=x^2-bx$との交点で原点と異なるものを$P$とする．
+この放物線と$x$軸で囲まれる部分の面積を$S$とし，
+放物線と$x$軸および$P$を通り$y$軸に平行な直線で囲まれる部分の面積を$T$とする．
+\begin{description}
+\item[(1)]$S$，$T$を$a$，$b$で表せ．
+\item[(2)]$\displaystyle\frac{T}{S}=5$とするとき，$b$を$a$で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_0_4.pdf)

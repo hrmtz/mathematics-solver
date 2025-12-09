@@ -1,0 +1,192 @@
+## 解答
+
+(1)  
+まず，ベクトル方程式
+$$
+\overrightarrow{OP}=s\overrightarrow{OA}+t\overrightarrow{OB}
+$$
+より，$\overrightarrow{OA}=(3,\,1)$，$\overrightarrow{OB}=(1,\,2)$ だから，
+点 $P(x,\,y)$ の座標は  
+$$
+\overrightarrow{OP}=(x,\,y)
+= s(3,\,1)+t(1,\,2)
+=(3s+t,\ s+2t)
+$$
+となる。したがって
+$$
+x=3s+t,\qquad y=s+2t
+$$
+である。
+
+逆に $s,t$ を $x,y$ で表すために，この連立方程式を解く。  
+1本目の式を用いて $t=x-3s$ とおき，これを2本目に代入すると
+$$
+y=s+2(x-3s)=s+2x-6s=2x-5s
+$$
+より
+$$
+5s=2x-y \quad\Rightarrow\quad s=\frac{2x-y}{5}
+$$
+これを $t=x-3s$ に代入して
+$$
+t=x-3\cdot\frac{2x-y}{5}
+=\frac{5x-6x+3y}{5}
+=\frac{-x+3y}{5}
+$$
+したがって
+$$
+s=\frac{2x-y}{5},\qquad t=\frac{-x+3y}{5}
+$$
+となる。
+
+条件
+$$
+-1\le s\le 1,\quad -1\le t\le 1,\quad -1\le s+t\le 1
+$$
+を $x,y$ で書き換える。
+
+まず
+$$
+-1\le s=\frac{2x-y}{5}\le 1
+$$
+より
+$$
+-5\le 2x-y\le 5
+$$
+すなわち
+$$
+2x-y\ge -5,\qquad 2x-y\le 5
+$$
+同様に
+$$
+-1\le t=\frac{-x+3y}{5}\le 1
+$$
+より
+$$
+-5\le -x+3y\le 5
+$$
+すなわち
+$$
+-x+3y\ge -5,\qquad -x+3y\le 5
+$$
+さらに
+$$
+s+t=\frac{2x-y}{5}+\frac{-x+3y}{5}
+=\frac{x+2y}{5}
+$$
+なので
+$$
+-1\le \frac{x+2y}{5}\le 1
+\quad\Rightarrow\quad
+-5\le x+2y\le 5
+$$
+すなわち
+$$
+x+2y\ge -5,\qquad x+2y\le 5
+$$
+
+以上より，$P(x,y)$ の存在範囲 $D$ は，次の6本の直線によって囲まれる部分である。
+
+- $2x-y=5$
+- $2x-y=-5$
+- $-x+3y=5$
+- $-x+3y=-5$
+- $x+2y=5$
+- $x+2y=-5$
+
+これらの交点を求めて，多角形の形を確かめる。
+
+直線 $2x-y=5$ と $-x+3y=5$ の交点は
+$$
+\begin{cases}
+2x-y=5\\
+-x+3y=5
+\end{cases}
+$$
+より，
+1本目から $y=2x-5$ として2本目に代入すると
+$$
+-x+3(2x-5)=5
+\quad\Rightarrow\quad
+-\,x+6x-15=5
+\quad\Rightarrow\quad
+5x=20
+\quad\Rightarrow\quad
+x=4
+$$
+よって $y=2\cdot 4-5=3$ であり，交点は $(4,3)$。
+
+同様に，$2x-y=5$ と $x+2y=5$ の交点は
+$$
+\begin{cases}
+2x-y=5\\
+x+2y=5
+\end{cases}
+$$
+より，1本目から $y=2x-5$ を2本目に代入して
+$$
+x+2(2x-5)=5
+\quad\Rightarrow\quad
+x+4x-10=5
+\quad\Rightarrow\quad
+5x=15
+\quad\Rightarrow\quad
+x=3
+$$
+したがって $y=2\cdot 3-5=1$，交点は $(3,1)=A$ である。
+
+同様に，他の組についても計算すると，$D$ を形作る頂点は
+$$
+A(3,1),\quad B(1,2),\quad C(-1,1),\quad
+D(-4,-3),\quad E(-3,-1),\quad F(1,-2)
+$$
+となり，これらをこの順に結ぶ六角形領域（内部および境界を含む）が $D$ である。
+
+よって，範囲 $D$ は，六角形 $A(3,1),\,B(1,2),\,C(-1,1),\,D(-4,-3),\,E(-3,-1),\,F(1,-2)$ の内部とその境界全体である。  
+（答案ではこれを座標平面上に図示する。）
+
+---
+
+(2)  
+内積
+$$
+\overrightarrow{OP}\cdot \overrightarrow{OC}
+$$
+の最大値とそのときの $P$ を求める。
+
+$\overrightarrow{OC}=(-1,1)$，$\overrightarrow{OP}=(x,y)$ より
+$$
+\overrightarrow{OP}\cdot \overrightarrow{OC}
+=(x,y)\cdot(-1,1)
+=-x+y
+$$
+となる。したがって，問題は
+
+「$P(x,y)$ が(1)の六角形領域 $D$ を動くとき，$-x+y$ の最大値」
+
+を求めることに等しい。
+
+$D$ は凸な多角形であり，線形関数 $-x+y$ の最大値は領域の頂点でとる（線形計画の基本的事実）ので，各頂点における値を調べればよい。
+
+各頂点で $-x+y$ を計算する：
+
+- $A(3,1)$ のとき  
+  $-x+y=-3+1=-2$
+- $B(1,2)$ のとき  
+  $-x+y=-1+2=1$
+- $C(-1,1)$ のとき  
+  $-x+y=1+1=2$
+- $D(-4,-3)$ のとき  
+  $-x+y=4-3=1$
+- $E(-3,-1)$ のとき  
+  $-x+y=3-1=2$
+- $F(1,-2)$ のとき  
+  $-x+y=-1-2=-3$
+
+よって，最大値は $2$ であり，そのときの頂点は $C(-1,1)$ および $E(-3,-1)$ である。
+
+したがって，
+$$
+\overrightarrow{OP}\cdot \overrightarrow{OC}
+$$
+の最大値は $2$，そのときの $P$ の座標は $C(-1,1)$ または $E(-3,-1)$ である。

@@ -1,0 +1,25 @@
+---
+title: "東北大学 1999年 1999_3"
+problem_id: "04_tohoku-1999-1999_3"
+university: "東北大学"
+exam_year: "1999"
+source_tex: "archive/04_tohoku/1999/1999_3.tex"
+pdf_source: "archive/04_tohoku/1999/1999_3.pdf"
+page_image: "archive/04_tohoku/1999/1999_3.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　曲線$y=x^2$の点$(a, \, a^2)$での接線を$l$とする．
+$l$上の点で$x$座標が$a-1$と$a+1$のものをそれぞれ$P$および$Q$とする．
+$a$が$-1 \leqq a \leqq 1$の範囲を動くとき線分$PQ$の動く範囲の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_3.pdf)

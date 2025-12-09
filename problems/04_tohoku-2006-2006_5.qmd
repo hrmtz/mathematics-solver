@@ -1,0 +1,49 @@
+---
+title: "東北大学 2006年 2006_5"
+problem_id: "04_tohoku-2006-2006_5"
+university: "東北大学"
+exam_year: "2006"
+source_tex: "archive/04_tohoku/2006/2006_5.tex"
+pdf_source: "archive/04_tohoku/2006/2006_5.pdf"
+page_image: "archive/04_tohoku/2006/2006_5.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　3次正方行列$A$，$B$，$O$を
+$A=\begin{pmatrix} 0 & 0 & 0 
+
+ 0 & 1 & 0 
+
+ 0 & 0 & 0 \end{pmatrix}$，
+$B=\begin{pmatrix} 0 & 1 & 0 
+
+ 0 & 0 & 1 
+
+ 0 & 0 & 0 \end{pmatrix}$，
+$O=\begin{pmatrix} 0 & 0 & 0 
+
+ 0 & 0 & 0 
+
+ 0 & 0 & 0 \end{pmatrix}$とする．
+以下の問に答えよ．
+\begin{description}
+\item[(1)]2以上の自然数$k$に対して，${(A+B)}^k$を求めよ．
+\item[(2)]すべての自然数$m$，$n$に対して，$A^mB^n$および$B^nA^m$を求めよ．
+\item[(3)]等式$(A+B)X=X(A+B)=O$を満たす3次正方行列
+$X=\begin{pmatrix} x_1 & x_2 & x_3 
+
+ y_1 & y_2 & y_3 
+
+ z_1 & z_2 & z_3 \end{pmatrix}$
+を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2006/2006_5.pdf)

@@ -1,0 +1,287 @@
+## 解答
+
+(1)  
+
+正四面体 $OABC$ は 1 辺の長さが 1 なので，
+  
+$$
+\lvert \overrightarrow{OA}\rvert
+=
+\lvert \overrightarrow{OB}\rvert
+=
+\lvert \overrightarrow{OC}\rvert
+=
+\lvert \overrightarrow{AB}\rvert
+=
+\lvert \overrightarrow{BC}\rvert
+=
+\lvert \overrightarrow{CA}\rvert
+=1
+$$
+
+であり，さらに任意の 2 辺のなす角が $\dfrac{\pi}{3}$ だから  
+$\overrightarrow{OA},\overrightarrow{OB},\overrightarrow{OC}$ について  
+
+$$
+\overrightarrow{OA}\cdot\overrightarrow{OB}
+=
+\overrightarrow{OB}\cdot\overrightarrow{OC}
+=
+\overrightarrow{OC}\cdot\overrightarrow{OA}
+=
+\frac12
+$$
+
+が成り立つ。
+
+辺 $OA$ 上の点 $P$ と辺 $BC$ 上の点 $Q$ を
+$$
+\overrightarrow{OP}=x\overrightarrow{OA}\quad(0\le x\le1),\qquad
+\overrightarrow{OQ}=y\overrightarrow{OB}+z\overrightarrow{OC}\quad(y\ge0,z\ge0,y+z=1)
+$$
+とおく（$Q$ が辺 $BC$ 上にあることから $y+z=1$，さらに $y,z\ge0$）。
+
+このとき
+$$
+\overrightarrow{PQ}=\overrightarrow{OQ}-\overrightarrow{OP}
+=
+(-x)\overrightarrow{OA}+y\overrightarrow{OB}+z\overrightarrow{OC}
+$$
+である。$\lvert \overrightarrow{PQ}\rvert$ を最小にするために  
+$f(x,y)=\lvert \overrightarrow{PQ}\rvert^2$ を最小にする。
+
+まず
+\begin{align*}
+\lvert \overrightarrow{PQ}\rvert^2
+&=\bigl\{(-x)\overrightarrow{OA}+y\overrightarrow{OB}+z\overrightarrow{OC}\bigr\}
+ \cdot
+ \bigl\{(-x)\overrightarrow{OA}+y\overrightarrow{OB}+z\overrightarrow{OC}\bigr\}\\
+&=x^2\lvert \overrightarrow{OA}\rvert^2
++y^2\lvert \overrightarrow{OB}\rvert^2
++z^2\lvert \overrightarrow{OC}\rvert^2
++2(-x)y\,\overrightarrow{OA}\cdot\overrightarrow{OB}
++2yz\,\overrightarrow{OB}\cdot\overrightarrow{OC}
++2(-x)z\,\overrightarrow{OC}\cdot\overrightarrow{OA}\\
+&=x^2+y^2+z^2
+-xy+yz-xz
+\end{align*}
+となる（長さ 1 と内積 $\frac12$ を用いた）。
+
+ここで $z=1-y$ を代入して $x,y$ の 2 変数にする：
+\begin{align*}
+\lvert \overrightarrow{PQ}\rvert^2
+&=x^2+y^2+(1-y)^2-xy+y(1-y)-x(1-y)\\
+&=x^2+y^2+1-2y+y^2-xy+y- y^2-x+x y\\
+&=x^2-x+ y^2-y+1.
+\end{align*}
+
+よって
+$$
+f(x,y)=x^2-x+ y^2-y+1
+$$
+である。平方完成すると
+\begin{align*}
+f(x,y)
+&=(x^2-x+\tfrac14)+(y^2-y+\tfrac14)+1-\tfrac14-\tfrac14\\
+&=(x-\tfrac12)^2+(y-\tfrac12)^2+\tfrac12
+\end{align*}
+となる。
+
+$x,y$ のとりうる範囲は
+$$
+0\le x\le1,\quad 0\le y\le1
+$$
+であり，この長方形内で $(x-\tfrac12)^2+(y-\tfrac12)^2$ は  
+明らかに $x=\dfrac12,\ y=\dfrac12$ のとき最小 $0$ をとる。  
+さらに $z=1-y=\dfrac12$ となり，条件 $y,z\ge0$ も満たすから，  
+この点で $\lvert \overrightarrow{PQ}\rvert$ は最小になる。
+
+したがって
+$$
+x=\frac12,\quad y=\frac12,\quad z=\frac12
+$$
+であり
+$$
+\overrightarrow{OP}=\frac12\overrightarrow{OA},\quad
+\overrightarrow{OQ}=\frac12\overrightarrow{OB}+\frac12\overrightarrow{OC}
+$$
+から
+$$
+\overrightarrow{PQ}
+=
+-\frac12\overrightarrow{OA}
++\frac12\overrightarrow{OB}
++\frac12\overrightarrow{OC}
+$$
+である。
+
+(2)  
+
+(1) の結果より
+$$
+\overrightarrow{PQ}
+=
+\frac12\bigl(-\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}\bigr)
+$$
+である。点 $R$ を
+$$
+\overrightarrow{OR}
+=
+\alpha\overrightarrow{OA}
++\beta\overrightarrow{OB}
++\gamma\overrightarrow{OC}
+$$
+とおく。$R$ は三角形 $ABC$ の内部および辺上を動くので  
+重心座標の性質から
+$$
+\alpha+\beta+\gamma=1,\quad \alpha\ge0,\ \beta\ge0,\ \gamma\ge0
+$$
+が成り立つ。
+
+内積を計算すると
+\begin{align*}
+\overrightarrow{PQ}\cdot\overrightarrow{OR}
+&=\frac12\bigl(-\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}\bigr)
+\cdot
+\bigl(\alpha\overrightarrow{OA}+\beta\overrightarrow{OB}+\gamma\overrightarrow{OC}\bigr)\\
+&=\frac12\Bigl[
+\alpha(-\overrightarrow{OA}\cdot\overrightarrow{OA}
++\overrightarrow{OB}\cdot\overrightarrow{OA}
++\overrightarrow{OC}\cdot\overrightarrow{OA})\\
+&\qquad\quad
++\beta(-\overrightarrow{OA}\cdot\overrightarrow{OB}
++\overrightarrow{OB}\cdot\overrightarrow{OB}
++\overrightarrow{OC}\cdot\overrightarrow{OB})\\
+&\qquad\quad
++\gamma(-\overrightarrow{OA}\cdot\overrightarrow{OC}
++\overrightarrow{OB}\cdot\overrightarrow{OC}
++\overrightarrow{OC}\cdot\overrightarrow{OC})
+\Bigr].
+\end{align*}
+
+$\lvert \overrightarrow{OA}\rvert^2=\lvert \overrightarrow{OB}\rvert^2=\lvert \overrightarrow{OC}\rvert^2=1$,  
+$\overrightarrow{OA}\cdot\overrightarrow{OB}
+=\overrightarrow{OB}\cdot\overrightarrow{OC}
+=\overrightarrow{OC}\cdot\overrightarrow{OA}=\dfrac12$ を用いると
+\begin{align*}
+\overrightarrow{PQ}\cdot\overrightarrow{OR}
+&=\frac12\Bigl[
+\alpha(-1+\tfrac12+\tfrac12)
++\beta(-\tfrac12+1+\tfrac12)
++\gamma(-\tfrac12+\tfrac12+1)
+\Bigr]\\
+&=\frac12\bigl(\alpha\cdot0+\beta\cdot1+\gamma\cdot1\bigr)\\
+&=\frac12(\beta+\gamma).
+\end{align*}
+
+ここで $\alpha+\beta+\gamma=1$ より $\beta+\gamma=1-\alpha$ だから
+$$
+\overrightarrow{PQ}\cdot\overrightarrow{OR}
+=
+\frac12(1-\alpha).
+$$
+
+$R$ は $\triangle ABC$ の内部および辺上を動くので $\alpha\ge0$ であり，  
+$\alpha$ は最小 0 をとる（$R$ が辺 $BC$ 上にあるとき）。  
+したがって $\overrightarrow{PQ}\cdot\overrightarrow{OR}$ の最大値は  
+$\alpha=0$ のとき
+$$
+\max \bigl(\overrightarrow{PQ}\cdot\overrightarrow{OR}\bigr)
+=\frac12
+$$
+である。
+
+次に $\cos\theta$ の範囲を求める。  
+$\theta$ は $\overrightarrow{PQ}$ と $\overrightarrow{OR}$ のなす角なので
+$$
+\cos\theta
+=
+\frac{\overrightarrow{PQ}\cdot\overrightarrow{OR}}
+{\lvert \overrightarrow{PQ}\rvert\,\lvert \overrightarrow{OR}\rvert}
+$$
+である。最大値は分子が最大，かつ分母が最小となるときに生じる。
+
+まず $\lvert \overrightarrow{PQ}\rvert$ を求める。  
+(1) で $x=y=z=\dfrac12$ のときの $\lvert \overrightarrow{PQ}\rvert^2$ は  
+$f(\tfrac12,\tfrac12)=\tfrac12$ であったから
+$$
+\lvert \overrightarrow{PQ}\rvert=\sqrt{\frac12}.
+$$
+
+つぎに $\lvert \overrightarrow{OR}\rvert$ の最小値を調べる。  
+$\overrightarrow{OR}=\alpha\overrightarrow{OA}
++\beta\overrightarrow{OB}
++\gamma\overrightarrow{OC}$,  
+$\alpha+\beta+\gamma=1,\ \alpha,\beta,\gamma\ge0$ の下で
+$$
+g(\alpha,\beta,\gamma)=\lvert \overrightarrow{OR}\rvert^2
+=
+\overrightarrow{OR}\cdot\overrightarrow{OR}
+$$
+を求めると，
+\begin{align*}
+g(\alpha,\beta,\gamma)
+&=
+\alpha^2+\beta^2+\gamma^2
++2\alpha\beta\cdot\frac12
++2\beta\gamma\cdot\frac12
++2\gamma\alpha\cdot\frac12\\
+&=\alpha^2+\beta^2+\gamma^2
++\alpha\beta+\beta\gamma+\gamma\alpha.
+\end{align*}
+
+ここで
+\begin{align*}
+(\alpha+\beta+\gamma)^2
+&=\alpha^2+\beta^2+\gamma^2+2(\alpha\beta+\beta\gamma+\gamma\alpha)\\
+&=1
+\end{align*}
+より
+\begin{align*}
+\alpha\beta+\beta\gamma+\gamma\alpha
+&=\frac{1-(\alpha^2+\beta^2+\gamma^2)}{2},\\
+g(\alpha,\beta,\gamma)
+&=\alpha^2+\beta^2+\gamma^2+\frac{1-(\alpha^2+\beta^2+\gamma^2)}{2}\\
+&=\frac{\alpha^2+\beta^2+\gamma^2+1}{2}.
+\end{align*}
+
+$\alpha^2+\beta^2+\gamma^2$ は  
+$\alpha+\beta+\gamma=1$ の下で最小値をとるのは  
+$\alpha=\beta=\gamma=\dfrac13$ のときであり（対称性と平方和最小の事実），
+そのとき
+$$
+\alpha^2+\beta^2+\gamma^2=
+3\left(\frac13\right)^2=\frac13.
+$$
+したがって
+$$
+\lvert \overrightarrow{OR}\rvert^2_{\min}
+=g\left(\frac13,\frac13,\frac13\right)
+=\frac{\frac13+1}{2}=\frac{2}{3},
+\qquad
+\lvert \overrightarrow{OR}\rvert_{\min}
+=\sqrt{\frac{2}{3}}.
+$$
+
+以上から
+\begin{align*}
+\cos\theta_{\max}
+&=\frac{\max(\overrightarrow{PQ}\cdot\overrightarrow{OR})}
+{\lvert \overrightarrow{PQ}\rvert\,\lvert \overrightarrow{OR}\rvert_{\min}}\\
+&=\frac{\frac12}{\sqrt{\frac12}\,\sqrt{\frac{2}{3}}}
+=\frac{\frac12}{\sqrt{\frac{1}{3}}}
+=\frac12\sqrt{3}
+=\frac{\sqrt{3}}{2}.
+\end{align*}
+
+一方，$\theta$ は 0 から $\pi$ まで変わりうるので  
+$\cos\theta$ は $-1\le \cos\theta\le1$ の範囲をとりうるが，  
+内積が最大となるときには上で求めた最大値 $\dfrac{\sqrt{3}}{2}$ までである。  
+したがって，内積が最大となるような（すなわち最大値を達成しうる）  
+$\cos\theta$ のとりうる値の範囲は
+
+$$
+-\;1\le \cos\theta\le \frac{\sqrt{3}}{2}
+$$
+
+である。

@@ -1,0 +1,29 @@
+---
+title: "九州大学 2023年 2023_5"
+problem_id: "07_kyushu-2023-2023_5"
+university: "九州大学"
+exam_year: "2023"
+source_tex: "archive/07_kyushu/2023/2023_5.tex"
+pdf_source: "archive/07_kyushu/2023/2023_5.pdf"
+page_image: "archive/07_kyushu/2023/2023_5.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$xy$平面上の曲線$C$を，媒介変数$t$を用いて次のように定める。
+\[ x=t+2\sin^2t, \hspace{1zw} y=t+\sin t \hspace{1zw} (0<t<\pi) \]
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]曲線$C$に接する直線のうち$y$軸と平行なものがいくつあるか求めよ。
+\item[(2)]曲線$C$のうち$y \leqq x$の領域にある部分と直線$y=x$で囲まれた図形の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2023/2023_5.pdf)

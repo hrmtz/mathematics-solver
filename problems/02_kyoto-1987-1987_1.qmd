@@ -1,0 +1,32 @@
+---
+title: "京都大学 1987年 1987_1"
+problem_id: "02_kyoto-1987-1987_1"
+university: "京都大学"
+exam_year: "1987"
+source_tex: "archive/02_kyoto/1987/1987_1.tex"
+pdf_source: "archive/02_kyoto/1987/1987_1.pdf"
+page_image: "archive/02_kyoto/1987/1987_1.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$x$の3次式
+\begin{description}
+\item[]$f(x)=ax^3+(a^2+b)x^2+(2ab+c)x+a^2+b^2-a$
+\item[]$g(x)=ax^3+(a^2-b)x^2+(a-1)x+c^2-b^2$
+\end{description}
+および$x$の2次式
+\begin{description}
+\item[]$h(x)=x^2+ax+b$
+\end{description}
+を考える．($a$，$b$，$c$は定数，$a\neq0$)
+　$f(x)$，$g(x)$はともに$h(x)$で割り切れるか，または，ともに$h(x)$では割り切れないかの，いずれかであることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1987/1987_1.pdf)

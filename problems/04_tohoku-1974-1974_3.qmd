@@ -1,0 +1,31 @@
+---
+title: "東北大学 1974年 1974_3"
+problem_id: "04_tohoku-1974-1974_3"
+university: "東北大学"
+exam_year: "1974"
+source_tex: "archive/04_tohoku/1974/1974_3.tex"
+pdf_source: "archive/04_tohoku/1974/1974_3.pdf"
+page_image: "archive/04_tohoku/1974/1974_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xy$平面における曲線$C:y=x^\frac{3}{2}$ $(x\geqq0)$の上を点$P$が次のように動く．
+$P$の加速度の$x$軸方向の成分が，時刻$t$の関数$-4e^{-t}$ $(t\geqq0)$で与えられており，
+$t=0$のときの$P$の位置は原点で，
+このときの$P$の速度の$x$軸方向の成分は4である．
+ただし$e$は自然対数の底である．
+$P$の速度の大きさが最大になる時刻$T$と，
+そのときの速度の大きさを求めよ．
+また$T$までに$P$が通過する$C$の部分の長さを求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1974/1974_3.pdf)

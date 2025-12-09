@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1989年 1989_0_1"
+problem_id: "03_hokudai-1989-1989_0_1"
+university: "北海道大学"
+exam_year: "1989"
+source_tex: "archive/03_hokudai/1989/1989_0_1.tex"
+pdf_source: "archive/03_hokudai/1989/1989_0_1.pdf"
+page_image: "archive/03_hokudai/1989/1989_0_1.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　関数$f(x)=3x^2-2(a+1)x+a^2$について，次の問に答えよ．ただし，$a$は実数とする．
+\begin{description}
+\item[(1)]放物線$y=f(x)$と$x$軸が2点で交わるとき2交点の間の距離が最大となるような$a$の値と，
+そのときの距離を求めよ．
+\item[(2)]$x$についての2次方程式$f(x)=0$が，
+ともに0より大きく1より小さい相異なる実数解をもつための$a$のとりうる値の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1989/1989_0_1.pdf)

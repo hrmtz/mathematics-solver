@@ -1,0 +1,33 @@
+---
+title: "九州大学 2009年 2009_a"
+problem_id: "07_kyushu-2009-2009_a"
+university: "九州大学"
+exam_year: "2009"
+source_tex: "archive/07_kyushu/2009/2009_a.tex"
+pdf_source: "archive/07_kyushu/2009/2009_a.pdf"
+page_image: "archive/07_kyushu/2009/2009_a.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$n$を自然数とする．$x\geqq0$において定義された関数
+\[ f_n(x)=\int_{-x}^1{(\log\frac{1}{t})}^ndt \]
+について，以下の問いに答えよ．
+なお，必要ならば，任意の整数$m$について
+$\displaystyle\lim_{x\to\infty}x^me^{-x}=0$が成り立つことを用いてよい．
+\begin{description}
+\item[(1)]$f_n(x)$の導関数$\displaystyle\frac{df_n(x)}{dx}$を求めよ．
+\item[(2)]関数$f_1(x)$を求めよ．
+\item[(3)]$n>1$のときの$f_n(x)$と$f_{n-1}(x)$の間に成り立つ関係式を求めよ．
+\item[(4)]$\displaystyle\lim_{x\to\infty}f_n(x)$を$n$を用いて表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_a.pdf)

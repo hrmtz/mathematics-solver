@@ -1,0 +1,112 @@
+## 解答
+
+(1)  
+与えられた関数は  
+$$
+f(x)=\sin3x+\sin x
+$$
+である。和積の公式  
+$$
+\sin A+\sin B=2\sin\frac{A+B}{2}\cos\frac{A-B}{2}
+$$
+を用いると，$A=3x,\ B=x$として
+$$
+\sin3x+\sin x
+=2\sin\frac{3x+x}{2}\cos\frac{3x-x}{2}
+=2\sin2x\cos x
+$$
+となる。したがって
+$$
+f(x)=0
+\quad\Longleftrightarrow\quad
+2\sin2x\cos x=0
+$$
+であるから，
+$$
+\sin2x=0 \quad\text{または}\quad \cos x=0
+$$
+となる。
+
+$\sin2x=0$より
+$$
+2x=n\pi\quad(n\in\mathbb{Z}) \quad\Longleftrightarrow\quad x=\frac{n\pi}{2}
+$$
+$\cos x=0$より
+$$
+x=\frac{\pi}{2}+k\pi\quad(k\in\mathbb{Z})
+$$
+を得る。
+
+$x>0$ の最小の解を求める。  
+$x=\dfrac{n\pi}{2}$ のうち $x>0$ となる最小は $n=1$ のときで
+$$
+x=\frac{\pi}{2}
+$$
+である。一方，$x=\dfrac{\pi}{2}+k\pi$ のうち $x>0$ となる最小も，$k=0$ のとき
+$$
+x=\frac{\pi}{2}
+$$
+であり，これはすでに同じ値である。
+
+したがって，$f(x)=0$ を満たす正の実数のうち最小のものは
+$$
+\boxed{\frac{\pi}{2}}
+$$
+である。
+
+---
+
+(2)  
+(1) で求めたように
+$$
+f(x)=0
+\quad\Longleftrightarrow\quad
+x=\frac{n\pi}{2}\ (n\in\mathbb{Z}),\ x>0
+$$
+となる。すなわち，正の解は
+$$
+x_n=\frac{n\pi}{2}\quad(n=1,2,3,\dots)
+$$
+と表せる。
+
+正の整数 $m$ に対し，$m$ 以下の解の個数を $p(m)$ とする。  
+$x_n\le m$ となる $n$ の個数を数えればよいから
+$$
+\frac{n\pi}{2}\le m
+\quad\Longleftrightarrow\quad
+n\le \frac{2m}{\pi}
+$$
+である。$n$ は正の整数なので，
+$$
+p(m)=\left\lfloor \frac{2m}{\pi}\right\rfloor
+$$
+（ここで $\lfloor\ \rfloor$ はガウス記号）と表される。
+
+求める極限は
+$$
+\lim_{m\to\infty}\frac{p(m)}{m}
+=\lim_{m\to\infty}\frac{1}{m}\left\lfloor \frac{2m}{\pi}\right\rfloor
+$$
+である。ガウス記号の性質より
+$$
+0\le \frac{2m}{\pi}-\left\lfloor \frac{2m}{\pi}\right\rfloor<1
+$$
+であるから，両辺を $m$ で割ると
+$$
+0\le \frac{2}{\pi}-\frac{1}{m}\left\lfloor \frac{2m}{\pi}\right\rfloor<\frac{1}{m}
+$$
+となる。ここで $m\to\infty$ とすると右辺の $\dfrac{1}{m}\to0$ なので，はさみうちの原理より
+$$
+\lim_{m\to\infty}\left(\frac{2}{\pi}-\frac{1}{m}\left\lfloor \frac{2m}{\pi}\right\rfloor\right)=0
+$$
+すなわち
+$$
+\lim_{m\to\infty}\frac{1}{m}\left\lfloor \frac{2m}{\pi}\right\rfloor=\frac{2}{\pi}
+$$
+が成り立つ。
+
+ゆえに
+$$
+\boxed{\displaystyle \lim_{m\to\infty}\frac{p(m)}{m}=\frac{2}{\pi}}
+$$
+である。

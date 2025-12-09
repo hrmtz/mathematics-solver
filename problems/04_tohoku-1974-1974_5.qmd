@@ -1,0 +1,32 @@
+---
+title: "東北大学 1974年 1974_5"
+problem_id: "04_tohoku-1974-1974_5"
+university: "東北大学"
+exam_year: "1974"
+source_tex: "archive/04_tohoku/1974/1974_5.tex"
+pdf_source: "archive/04_tohoku/1974/1974_5.pdf"
+page_image: "archive/04_tohoku/1974/1974_5.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$N$，$n$ $(n \leqq N)$は与えられた正の整数とする．
+1から$N$までの番号をつけた$N$枚のカードから任意に$n$枚のカードを取り出したとき，
+それらに書かれている数の和を$S$とする．
+\begin{description}
+\item[(1)]$S$がとりうる値の範囲を求めよ．
+\item[(2)]$S$の最小値を$m$，最大値を$M$とする．
+$S=m+k$となる確率を$p_k$，$S=M-k$となる確率を$q_k$とするとき，
+$p_k=q_k$であることを示せ．
+ただし$k$は$0 \leqq k \leqq M-m$を満たす整数である．
+\item[(3)]$S$の期待値を$N$と$n$で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1974/1974_5.pdf)

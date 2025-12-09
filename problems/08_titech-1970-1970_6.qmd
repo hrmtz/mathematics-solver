@@ -1,0 +1,30 @@
+---
+title: "東京科学大学 1970年 1970_6"
+problem_id: "08_titech-1970-1970_6"
+university: "東京科学大学"
+exam_year: "1970"
+source_tex: "archive/08_titech/1970/1970_6.tex"
+pdf_source: "archive/08_titech/1970/1970_6.pdf"
+page_image: "archive/08_titech/1970/1970_6.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$x$の関数$y$に関する微分方程式
+\[ 3y'-2y=e^x \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AC}} \]
+について，次の問いに答えよ．
+\begin{description}
+\item[(1)]$y=e^{mx}$が$3y'-2y=0$を満たすように定数$m$を定めよ．
+\item[(2)](1)で求めた$m$に対して，
+$y=e^{mx}u(x)$が\ding{"AC}を満たすように$u(x)$を定めよ．
+\item[(3)]$x=0$のとき$y=10$を満たすような\ding{"AC}の解を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1970/1970_6.pdf)

@@ -1,0 +1,27 @@
+---
+title: "大阪大学 2020年 2020_4"
+problem_id: "06_osaka-2020-2020_4"
+university: "大阪大学"
+exam_year: "2020"
+source_tex: "archive/06_osaka/2020/2020_4.tex"
+pdf_source: "archive/06_osaka/2020/2020_4.pdf"
+page_image: "archive/06_osaka/2020/2020_4.jpg"
+fields:
+  - 不等式
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$t$を正の実数とする．$xy$平面において，連立不等式
+\[ x\geqq0, \hspace{1zw} y\geqq0, \hspace{1zw}
+xy\leqq1, \hspace{1zw} x+y \leqq t \]
+の表す領域の面積を$S(t)$とおく．
+極限$\displaystyle\lim_{t\to\infty}(S(t)-2\log t)$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2020/2020_4.pdf)

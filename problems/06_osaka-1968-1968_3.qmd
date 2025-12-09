@@ -1,0 +1,25 @@
+---
+title: "大阪大学 1968年 1968_3"
+problem_id: "06_osaka-1968-1968_3"
+university: "大阪大学"
+exam_year: "1968"
+source_tex: "archive/06_osaka/1968/1968_3.tex"
+pdf_source: "archive/06_osaka/1968/1968_3.pdf"
+page_image: "archive/06_osaka/1968/1968_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>b>0)$がある．
+点$(a, \, 0)$を通り，$x$軸上に中心をもつ円が，
+このだ円と点$(a, \, 0)$以外に異なる2つの交点をもちながら変わるとき，
+このような円の周上にある点の存在する範囲を求め，これを図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1968/1968_3.pdf)

@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 1973年 1973_0_3"
+problem_id: "05_nagoya-1973-1973_0_3"
+university: "名古屋大学"
+exam_year: "1973"
+source_tex: "archive/05_nagoya/1973/1973_0_3.tex"
+pdf_source: "archive/05_nagoya/1973/1973_0_3.pdf"
+page_image: "archive/05_nagoya/1973/1973_0_3.jpg"
+fields:
+  - 整数
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　次のおのおのについて解答せよ．
+\begin{description}
+\item[(1)]整数$3^{333}$の一の位の数字は何か，理由を付して答えよ．
+\item[(2)]1辺の長さが1の正4面体に外接する球の半径を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1973/1973_0_3.pdf)

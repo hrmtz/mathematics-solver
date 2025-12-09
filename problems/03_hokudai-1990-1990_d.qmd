@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1990年 1990_d"
+problem_id: "03_hokudai-1990-1990_d"
+university: "北海道大学"
+exam_year: "1990"
+source_tex: "archive/03_hokudai/1990/1990_d.tex"
+pdf_source: "archive/03_hokudai/1990/1990_d.pdf"
+page_image: "archive/03_hokudai/1990/1990_d.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$m$を与えられた正の整数とする．
+曲線$y=cx^m$，$y=\log x$をそれぞれ$C_1$，$C_2$とし，
+$C_1$と$C_2$は共通の点$P(a, \, b)$で同じ接線をもつとする．
+ただし，$\log x$は自然対数を表す．
+\begin{description}
+\item[(1)]$a$，$b$，$c$を求めよ．
+\item[(2)]$C_1$，$C_2$および$x$軸で囲まれた図形の面積$S$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1990/1990_d.pdf)

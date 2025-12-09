@@ -1,0 +1,30 @@
+---
+title: "九州大学 1964年 1964_4"
+problem_id: "07_kyushu-1964-1964_4"
+university: "九州大学"
+exam_year: "1964"
+source_tex: "archive/07_kyushu/1964/1964_4.tex"
+pdf_source: "archive/07_kyushu/1964/1964_4.pdf"
+page_image: "archive/07_kyushu/1964/1964_4.jpg"
+fields:
+  - 微分法
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$を実数とするとき，$x$の三次式$f(x)=x^3-3\sqrt[3]{4-a^2} \, x+2$について，次の各問に答えよ。
+\begin{description}
+\item[(1)]$f(x)$の極大値を$M(a)$，極小値を$m(a)$とするとき，$M(a)$と$m(a)$とを求めよ．
+\item[(2)]関数$b=M(a)$および$b=m(a)$のグラフを座標平面上にかけ。
+\item[(3)]$a$が変化するとき，$x$の三次方程式$f(x)=0$の実根の個数を調べよ。
+ただし，重根は1根と数えよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1964/1964_4.pdf)

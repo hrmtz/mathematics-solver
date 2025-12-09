@@ -1,0 +1,36 @@
+---
+title: "東北大学 2019年 2019_e"
+problem_id: "04_tohoku-2019-2019_e"
+university: "東北大学"
+exam_year: "2019"
+source_tex: "archive/04_tohoku/2019/2019_e.tex"
+pdf_source: "archive/04_tohoku/2019/2019_e.pdf"
+page_image: "archive/04_tohoku/2019/2019_e.jpg"
+fields:
+  - 数列
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　1枚のコインを投げる試行を繰り返し，数列$\{ a_n \}$ $(n=1, \, 2, \, 3, \, \cdots)$を次のように定める。
+\begin{description}
+\item[(i)]1回目の試行において表が出たとき，$a_1=0$とする。
+\item[(ii)]1回目の試行において裏が出たとき，$a_1=1$とする。
+\item[(iii)]$n\geqq2$について，$n$回目の試行において表が出たとき，$a_n=a_{n-1}$とする。
+\item[(iv)]$n\geqq2$について，$n$回目の試行において裏が出たとき，$a_n=a_{n-1}+2^{n-1}$とする。
+\end{description}
+　以下の問いに答えよ。
+\begin{description}
+\item[(1)]$a_{10}$が$2^{10}$を3で割った商に等しくなったとき，
+1回目から10回目の試行におけるコインの表裏の出方を求めよ。
+\item[(2)]1回目から100回目の試行においてコインの表がちょうど4回出たとき，
+$a_{100}$が$\displaystyle\frac{2^{100}}{3}$より小さくなる条件付き確率を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_e.pdf)

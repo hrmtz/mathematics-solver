@@ -1,0 +1,24 @@
+---
+title: "東北大学 1976年 1976_2"
+problem_id: "04_tohoku-1976-1976_2"
+university: "東北大学"
+exam_year: "1976"
+source_tex: "archive/04_tohoku/1976/1976_2.tex"
+pdf_source: "archive/04_tohoku/1976/1976_2.pdf"
+page_image: "archive/04_tohoku/1976/1976_2.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　半径$\displaystyle\sqrt\frac{5}{2}$の円に内接する3角形$ABC$の面積が1で$2\sin(A+B)\sin C=1$であるとき，
+この3角形の3辺の長さを求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1976/1976_2.pdf)

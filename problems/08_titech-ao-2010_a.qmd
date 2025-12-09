@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 ao年 2010_a"
+problem_id: "08_titech-ao-2010_a"
+university: "東京科学大学"
+exam_year: "ao"
+source_tex: "archive/08_titech/ao/2010_a.tex"
+pdf_source: "archive/08_titech/ao/2010_a.pdf"
+page_image: "archive/08_titech/ao/2010_a.jpg"
+fields:
+  - 平面図形
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面の$n$個の点$\displaystyle \left( \cos\frac{2\pi k}{n}, \sin\frac{2\pi k}{n} \right)$
+$(k=1,2,\cdots,n)$を頂点とする正$n$角形の周および内部を$D_n$とする．
+このとき，$D_3,D_4,D_5,D_6,\cdots$の共通部分の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/ao/2010_a.pdf)

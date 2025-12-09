@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1981年 1981_0_4"
+problem_id: "03_hokudai-1981-1981_0_4"
+university: "北海道大学"
+exam_year: "1981"
+source_tex: "archive/03_hokudai/1981/1981_0_4.tex"
+pdf_source: "archive/03_hokudai/1981/1981_0_4.pdf"
+page_image: "archive/03_hokudai/1981/1981_0_4.jpg"
+fields:
+  - 確率
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　血液型が$A$型の人は全人口の25％であるとする．
+\begin{description}
+\item[(1)]16人を無作為に選んだとき，16人全員が$A$型以外の血液型をもつ確率を求め，
+その値を$\log_{10}2=0.301$，$\log_{10}3=0.477$として計算せよ．
+\item[(2)]18人を無作為に選んだとき，$A$型の血液型をもつ人がちょうど2人である確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1981/1981_0_4.pdf)

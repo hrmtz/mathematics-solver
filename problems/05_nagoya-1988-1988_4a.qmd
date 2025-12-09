@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 1988年 1988_4a"
+problem_id: "05_nagoya-1988-1988_4a"
+university: "名古屋大学"
+exam_year: "1988"
+source_tex: "archive/05_nagoya/1988/1988_4a.tex"
+pdf_source: "archive/05_nagoya/1988/1988_4a.pdf"
+page_image: "archive/05_nagoya/1988/1988_4a.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　多項式$f(x)$は$x>0$の範囲で$f''(x)>0$を満たし，
+$y=f(x)$のグラフ$C$は原点に関して対称とする．
+正の数$a$に対して，$C$を$x$軸方向に$a$，
+$y$軸方向に$f(a)$だけ平行移動して得られる曲線を$C_a$とする．
+\begin{description}
+\item[(1)]$C$と$C_a$とは2点$(0, \, 0)$，$(a, \, f(a))$のみで交わり，
+しかも，$0<x<c$の範囲で$f(x-a)>f(x)-f(a)$であることを証明せよ．
+\item[(2)]$C$と$C_a$とで囲まれた図形の面積がつねに$a^4$となる$f(x)$をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1988/1988_4a.pdf)

@@ -1,0 +1,27 @@
+---
+title: "東北大学 1981年 1981_1"
+problem_id: "04_tohoku-1981-1981_1"
+university: "東北大学"
+exam_year: "1981"
+source_tex: "archive/04_tohoku/1981/1981_1.tex"
+pdf_source: "archive/04_tohoku/1981/1981_1.pdf"
+page_image: "archive/04_tohoku/1981/1981_1.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の2平面が与えられている．
+\[ \alpha:4x+12y-3z=12, \hspace{1zw} \beta:8x-9y+5z=-9 \]
+このとき，平面$\alpha$と$\beta$の交わりの直線方向の単位ベクトル$\overrightarrow{u}$を求めよ．
+また，平面$\alpha$に平行で$\overrightarrow{u}$に垂直な単位ベクトル$\overrightarrow{v}$を求めよ．
+ただし，$\overrightarrow{u}$，$\overrightarrow{v}$の$x$成分はいずれも正とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1981/1981_1.pdf)

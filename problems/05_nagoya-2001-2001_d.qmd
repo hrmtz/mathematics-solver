@@ -1,0 +1,34 @@
+---
+title: "名古屋大学 2001年 2001_d"
+problem_id: "05_nagoya-2001-2001_d"
+university: "名古屋大学"
+exam_year: "2001"
+source_tex: "archive/05_nagoya/2001/2001_d.tex"
+pdf_source: "archive/05_nagoya/2001/2001_d.pdf"
+page_image: "archive/05_nagoya/2001/2001_d.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　ハート，スペード，クラブ，ダイヤそれぞれ13枚からなる52枚のトランプカードがある．
+つぎの各問に答えよ．
+\begin{description}
+\item[(1)]52枚のカードをよくきって，$l$枚のカードを抜き出したとき，
+ハートが$k$枚である確率を求めよ．
+\item[(2)]$n$枚のカードが与えられ，そのうち，ハートが$m$枚であった．
+\begin{description}
+\item[(i)]この$n$枚のカードを無作為に1列に並べるとき，
+$m$枚のハートが連続して並ぶ確率を求めよ．
+\item[(ii)]この$n$枚のカードを無作為に1列に並べるとき，
+どのハートの隣のカードもハート以外である確率を求めよ．
+\end{description}
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_d.pdf)

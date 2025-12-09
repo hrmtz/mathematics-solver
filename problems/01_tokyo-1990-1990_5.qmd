@@ -1,0 +1,26 @@
+---
+title: "東京大学 1990年 1990_5"
+problem_id: "01_tokyo-1990-1990_5"
+university: "東京大学"
+exam_year: "1990"
+source_tex: "archive/01_tokyo/1990/1990_5.tex"
+pdf_source: "archive/01_tokyo/1990/1990_5.pdf"
+page_image: "archive/01_tokyo/1990/1990_5.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　円$x^2+y^2=1$を$C_0$，
+だ円$\displaystyle \frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>0,b>0)$を$C_1$とする．
+$C_1$上のどんな点$P$に対しても，
+$P$を頂点にもち$C_0$に外接して$C_1$に内接する平行四辺形が存在するための必要十分条件を
+$a$，$b$で表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1990/1990_5.pdf)

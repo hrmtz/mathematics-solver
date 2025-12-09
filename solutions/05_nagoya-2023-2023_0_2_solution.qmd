@@ -1,0 +1,343 @@
+## 解答
+
+立方体の1辺の長さを $1$ とし，図のように頂点を $A,B,C,D,E,F,G,H$ とおく。  
+座標を用いて考えるために，
+$$
+A(0,0,0),\ B(1,0,0),\ C(1,1,0),\ D(0,1,0),\\
+E(0,0,1),\ F(1,0,1),\ G(1,1,1),\ H(0,1,1)
+$$
+とおく。辺 $AD$ 上に点 $P$ をとり，$AP=p$ とすると，$AD$ は $y$ 軸方向に長さ $1$ の辺であるから
+$$
+P(0,p,0)
+$$
+と表される。
+
+四角形 $ADGF$ 上で線分 $AG$ と線分 $FP$ の交点を $X$ とする。
+
+---
+
+### (1)
+
+直線 $AG$ は，$A(0,0,0)$ から $G(1,1,1)$ に向かうので，媒介変数 $t$ を用いて
+$$
+AG:\ (x,y,z)=(t,t,t)\quad(0\le t\le 1)
+$$
+と表せる。よって，$AX=t$ となる。
+
+また，直線 $FP$ は $F(1,0,1)$ から $P(0,p,0)$ へ向かうので
+\[
+FP:\ (x,y,z)=(1,0,1)+s\{(0,p,0)-(1,0,1)\}
+\]
+より
+$$
+(x,y,z)=(1-s,ps,1-s)\quad(0\le s\le 1)
+$$
+と表される。
+
+交点 $X$ は $AG$ と $FP$ の共通点なので，
+$$
+(t,t,t)=(1-s,ps,1-s)
+$$
+が成り立つ。これより
+$$
+t=1-s,\quad t=ps
+$$
+を得る。最初の式から $s=1-t$ なので，これを $t=ps$ に代入して
+$$
+t=p(1-t)
+$$
+より
+$$
+t=p-pt,\quad t+pt=p,\quad t(1+p)=p
+$$
+したがって
+$$
+t=\dfrac{p}{1+p}
+$$
+となる。求める $AX$ の長さは $AX=t$ であるから，
+$$
+AX=\dfrac{p}{1+p}
+$$
+となる。
+
+---
+
+### (2)
+
+三角形 $APX$ は，底辺を $AP$，高さを平面上での垂直方向の距離でとる。  
+$A,P,X$ の座標は
+$$
+A(0,0,0),\ P(0,p,0),\ X\left(\dfrac{p}{1+p},\dfrac{p}{1+p},\dfrac{p}{1+p}\right)
+$$
+である。
+
+ベクトルを用いて面積を求める。  
+$\vec{AP}=(0,p,0)$，$\vec{AX}=\left(\dfrac{p}{1+p},\dfrac{p}{1+p},\dfrac{p}{1+p}\right)$ なので，
+三角形 $APX$ の面積は
+$$
+S_{\triangle APX}=\dfrac{1}{2}\,|\vec{AP}\times\vec{AX}|
+$$
+である。
+
+外積 $\vec{AP}\times\vec{AX}$ を計算する。
+
+\[
+\vec{AP}=(0,p,0),\quad \vec{AX}=\left(\dfrac{p}{1+p},\dfrac{p}{1+p},\dfrac{p}{1+p}\right)
+\]
+
+行列式で表すと
+\[
+\vec{AP}\times\vec{AX}
+=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k}\\
+0 & p & 0\\
+\dfrac{p}{1+p} & \dfrac{p}{1+p} & \dfrac{p}{1+p}
+\end{vmatrix}
+=
+\boldsymbol{i}\left(p\cdot\dfrac{p}{1+p}-0\cdot\dfrac{p}{1+p}\right)
+-\boldsymbol{j}\left(0\cdot\dfrac{p}{1+p}-0\cdot\dfrac{p}{1+p}\right)
++\boldsymbol{k}\left(0\cdot\dfrac{p}{1+p}-p\cdot\dfrac{p}{1+p}\right)
+\]
+となるので，
+$$
+\vec{AP}\times\vec{AX}
+=
+\left(\dfrac{p^2}{1+p},\ 0,\ -\dfrac{p^2}{1+p}\right)
+$$
+である。
+
+この大きさは
+\[
+|\vec{AP}\times\vec{AX}|
+=\sqrt{\left(\dfrac{p^2}{1+p}\right)^2+0^2+\left(-\dfrac{p^2}{1+p}\right)^2}
+=\sqrt{2\left(\dfrac{p^2}{1+p}\right)^2}
+=\dfrac{p^2}{1+p}\sqrt{2}
+\]
+となる。したがって，
+$$
+S_{\triangle APX}
+=\dfrac{1}{2}\cdot\dfrac{p^2}{1+p}\sqrt{2}
+=\dfrac{\sqrt{2}}{2}\cdot\dfrac{p^2}{1+p}
+=\dfrac{\sqrt{2}\,p^2}{2(1+p)}
+$$
+である。
+
+---
+
+### (3)
+
+四面体 $ABPX$ と四面体 $EFGX$ の体積の和を $V$ とする。  
+まず，$ABPX$，$EFGX$ それぞれの体積を求める。
+
+#### 四面体 $ABPX$ の体積
+
+底面を三角形 $ABP$，高さを $X$ から底面を含む平面への距離として体積を求めてもよいが，  
+ここではベクトルを用いた公式
+$$
+\text{四面体 }OABC\ \text{の体積}=\dfrac{1}{6}|(\vec{OA}\times\vec{OB})\cdot\vec{OC}|
+$$
+を用いる。$O$ を $A$ に対応させて考えると，
+$$
+\vec{AB}=(1,0,0),\quad \vec{AP}=(0,p,0),\quad 
+\vec{AX}=\left(\dfrac{p}{1+p},\dfrac{p}{1+p},\dfrac{p}{1+p}\right)
+$$
+である。
+
+まず外積 $\vec{AB}\times\vec{AP}$ を求める：
+\[
+\vec{AB}\times\vec{AP}
+=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k}\\
+1 & 0 & 0\\
+0 & p & 0
+\end{vmatrix}
+=
+\boldsymbol{i}(0\cdot0-0\cdot p)
+-\boldsymbol{j}(1\cdot0-0\cdot 0)
++\boldsymbol{k}(1\cdot p-0\cdot 0)
+=(0,0,p)
+\]
+
+次に内積 $(\vec{AB}\times\vec{AP})\cdot\vec{AX}$ を計算する：
+\[
+(0,0,p)\cdot\left(\dfrac{p}{1+p},\dfrac{p}{1+p},\dfrac{p}{1+p}\right)
+=0\cdot\dfrac{p}{1+p}+0\cdot\dfrac{p}{1+p}+p\cdot\dfrac{p}{1+p}
+=\dfrac{p^2}{1+p}
+\]
+
+よって，四面体 $ABPX$ の体積は
+$$
+V_{ABPX}=\dfrac{1}{6}\cdot\dfrac{p^2}{1+p}
+$$
+である。
+
+#### 四面体 $EFGX$ の体積
+
+同様に，$E$ を基準点と考える。  
+$$
+\vec{EF}=(1,0,0),\quad \vec{EG}=(1,1,0),\quad \vec{EX}=\left(\dfrac{p}{1+p},\dfrac{p}{1+p},\dfrac{p}{1+p}-1\right)
+$$
+である。ここで $\vec{EG}=G-E=(1,1,0)$，$\vec{EX}=X-E$ を用いた。
+
+まず外積 $\vec{EF}\times\vec{EG}$ を求める：
+\[
+\vec{EF}\times\vec{EG}
+=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k}\\
+1 & 0 & 0\\
+1 & 1 & 0
+\end{vmatrix}
+=
+\boldsymbol{i}(0\cdot0-0\cdot1)
+-\boldsymbol{j}(1\cdot0-0\cdot1)
++\boldsymbol{k}(1\cdot1-0\cdot1)
+=(0,0,1)
+\]
+
+次に内積 $(\vec{EF}\times\vec{EG})\cdot\vec{EX}$ を計算する：
+\[
+(0,0,1)\cdot\left(\dfrac{p}{1+p},\dfrac{p}{1+p},\dfrac{p}{1+p}-1\right)
+=\dfrac{p}{1+p}-1
+=\dfrac{p-(1+p)}{1+p}
+=-\dfrac{1}{1+p}
+\]
+
+体積は絶対値をとったものの $\dfrac{1}{6}$ 倍なので，
+$$
+V_{EFGX}=\dfrac{1}{6}\left|\,-\dfrac{1}{1+p}\right|
+=\dfrac{1}{6(1+p)}
+$$
+となる。
+
+#### 和 $V$ の計算
+
+$$
+V=V_{ABPX}+V_{EFGX}
+=\dfrac{1}{6}\cdot\dfrac{p^2}{1+p}+\dfrac{1}{6(1+p)}
+=\dfrac{1}{6(1+p)}(p^2+1)
+$$
+したがって，
+$$
+V=\dfrac{p^2+1}{6(1+p)}
+$$
+である。
+
+---
+
+### (4)
+
+$V$ を $p$ の関数とみて，$V$ の最小値を求める。  
+(3) より
+$$
+V(p)=\dfrac{p^2+1}{6(1+p)}
+$$
+であり，$p$ は $0\le p\le 1$ を満たす。
+
+分母は常に正なので，$V$ を最小にするのは
+$$
+f(p)=\dfrac{p^2+1}{1+p}
+$$
+を最小にするときと同じである。
+
+$f(p)$ を計算しやすい形に変形すると，
+\[
+f(p)=\dfrac{p^2+1}{1+p}
+=\dfrac{(p+1)^2-2p}{1+p}
+=(p+1)-\dfrac{2p}{p+1}
+\]
+となる。あるいは微分を用いてもよいが，ここでは平方完成の形で最小値を求める。
+
+次のように書き換える：
+\[
+f(p)=\dfrac{p^2+1}{1+p}
+=\dfrac{(p+1)^2-2p}{1+p}
+\]
+ここで $p\ge 0$ であるから $1+p>0$ であり，  
+さらに次のように式変形する：
+\[
+f(p)=\dfrac{(p+1)^2-2p}{p+1}
+=(p+1)-\dfrac{2p}{p+1}
+\]
+
+$\dfrac{2p}{p+1}$ の最大値を求めれば $f(p)$ の最小値が分かる。  
+$g(p)=\dfrac{2p}{p+1}$ とおくと，
+\[
+g(p)=2-\dfrac{2}{p+1}
+\]
+であるから，$p\ge0$ では $\dfrac{2}{p+1}>0$ なので $g(p)<2$，また $p$ が大きいほど $g(p)$ は $2$ に近づくが $2$ を超えない。したがって
+$$
+g(p)\le 2
+$$
+であり，最大値は $2$（ただし $p\to\infty$ に近づくときの極限値）である。
+
+よって
+\[
+f(p)=(p+1)-g(p)\ge (p+1)-2=p-1
+\]
+のような評価もできるが，$p$ は $0\le p\le 1$ という範囲があるため，別の方法で直接最小値を求める方が明確である。
+
+そこで，$0\le p\le 1$ の範囲で微分を用いて調べる。
+
+$$
+f(p)=\dfrac{p^2+1}{p+1}
+$$
+とおくと，
+\[
+f'(p)=\dfrac{(2p)(p+1)-(p^2+1)\cdot1}{(p+1)^2}
+=\dfrac{2p^2+2p-p^2-1}{(p+1)^2}
+=\dfrac{p^2+2p-1}{(p+1)^2}
+\]
+
+分母は常に正なので，符号は分子で決まる。分子を 0 とおくと
+\[
+p^2+2p-1=0
+\]
+より
+\[
+p=-1\pm\sqrt{1+1}=-1\pm\sqrt{2}
+\]
+となる。このうち $0\le p\le 1$ を満たすのは
+$$
+p=-1+\sqrt{2}
+$$
+である。
+
+この点で極値をとるので，$p=-1+\sqrt{2}$ を $f(p)$ に代入して最小値を求める。
+
+\[
+f(-1+\sqrt{2})
+=\dfrac{(-1+\sqrt{2})^2+1}{1+(-1+\sqrt{2})}
+=\dfrac{(1-2\sqrt{2}+2)+1}{\sqrt{2}}
+=\dfrac{4-2\sqrt{2}}{\sqrt{2}}
+\]
+
+分子を $\sqrt{2}$ でくくると
+\[
+4-2\sqrt{2}
+=2(2-\sqrt{2})
+=2\sqrt{2}\left(\sqrt{2}-1\right)
+\]
+なので，
+\[
+f(-1+\sqrt{2})
+=\dfrac{2\sqrt{2}(\sqrt{2}-1)}{\sqrt{2}}
+=2(\sqrt{2}-1)
+\]
+となる。
+
+したがって，
+\[
+V_{\min}=\dfrac{1}{6}f(-1+\sqrt{2})
+=\dfrac{1}{6}\cdot 2(\sqrt{2}-1)
+=\dfrac{\sqrt{2}-1}{3}
+\]
+である。
+
+よって，$V$ の最小値は
+$$
+\dfrac{\sqrt{2}-1}{3}
+$$
+であり，そのとき $p=-1+\sqrt{2}$ である。

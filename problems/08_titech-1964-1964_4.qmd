@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 1964年 1964_4"
+problem_id: "08_titech-1964-1964_4"
+university: "東京科学大学"
+exam_year: "1964"
+source_tex: "archive/08_titech/1964/1964_4.tex"
+pdf_source: "archive/08_titech/1964/1964_4.pdf"
+page_image: "archive/08_titech/1964/1964_4.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　図は$O$を中心とする四分円であって，$OA=\sqrt3$，$OB=1$である。
+いま，動点$P$が円弧に沿って$A$から$Q$まで進み，さらに$Q$から$B$まで直進する。
+ところが，$P$の弧$AQ$上での速さは2，線分$QB$上での速さは1である。
+この路に沿っての$A$から$B$までの所要時間が最小となるような点$Q$の位置を定めよ。
+
+
+![](../archive/08_titech/1964/fig_1964_4.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1964/1964_4.pdf)

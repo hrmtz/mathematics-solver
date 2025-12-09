@@ -1,0 +1,32 @@
+---
+title: "京都大学 1984年 1984_5"
+problem_id: "02_kyoto-1984-1984_5"
+university: "京都大学"
+exam_year: "1984"
+source_tex: "archive/02_kyoto/1984/1984_5.tex"
+pdf_source: "archive/02_kyoto/1984/1984_5.pdf"
+page_image: "archive/02_kyoto/1984/1984_5.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　つぼの中に$r$個$(r\geqq1)$の赤球と，$s$個$(s\geqq0)$の白球が入っている．
+$A$と$B$の2人が，交互に球を1個ずつとり出し，先に赤球をとり出した者を勝者とするゲームをする．
+ただし，とり出した球は，もとにもどさないものとする．
+\begin{description}
+\item[(1)]ちょうど$i$回目(すなわち$A$，$B$2人のとり出した球の合計が，
+ちょうど$i$個になった時)に勝者がきまる確率を$P_i$とするとき，
+$P_i \geqq P_{i+1}$ $(i=1,2,\cdots)$となることを示せ．
+\item[(2)]このゲームを$A$からはじめるとする．
+任意の$r$，$s$に対して，$A$が勝者となる確率は，$\displaystyle\frac{1}{2}$またはそれ以上であることを示せ．
+また，$A$が勝者となる確率が$\displaystyle\frac{1}{2}$となるための，$r$と$s$の条件を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1984/1984_5.pdf)

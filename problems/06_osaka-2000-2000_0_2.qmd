@@ -1,0 +1,25 @@
+---
+title: "大阪大学 2000年 2000_0_2"
+problem_id: "06_osaka-2000-2000_0_2"
+university: "大阪大学"
+exam_year: "2000"
+source_tex: "archive/06_osaka/2000/2000_0_2.tex"
+pdf_source: "archive/06_osaka/2000/2000_0_2.pdf"
+page_image: "archive/06_osaka/2000/2000_0_2.jpg"
+fields:
+  - 複素数平面
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$p$，$q$を実数，$q \neq 0$とする．
+$p+qi$（$i=\sqrt{-1}$は虚数単位）が方程式$x^3+px+10=0$の解であるとき，
+$p$と$q$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_0_2.pdf)

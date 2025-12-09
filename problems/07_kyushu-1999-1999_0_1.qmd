@@ -1,0 +1,28 @@
+---
+title: "九州大学 1999年 1999_0_1"
+problem_id: "07_kyushu-1999-1999_0_1"
+university: "九州大学"
+exam_year: "1999"
+source_tex: "archive/07_kyushu/1999/1999_0_1.tex"
+pdf_source: "archive/07_kyushu/1999/1999_0_1.pdf"
+page_image: "archive/07_kyushu/1999/1999_0_1.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$k$を実数として
+\[ f(x)=x^2-2kx+\frac{1}{5}(2k-1)(4k-3) \]
+とおく．方程式$f(x)=0$が実数解$\alpha$，$\beta$ $(\alpha \leqq \beta)$をもつとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$\alpha$，$\beta$が$\alpha\leqq1\leqq\beta$をみたすように$k$の値の範囲を定めよ．
+\item[(2)](1)の場合に$f(x)$の最小値がとりうる値の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_0_1.pdf)

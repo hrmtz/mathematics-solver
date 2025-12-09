@@ -1,0 +1,36 @@
+---
+title: "北海道大学 1980年 1980_0_2"
+problem_id: "03_hokudai-1980-1980_0_2"
+university: "北海道大学"
+exam_year: "1980"
+source_tex: "archive/03_hokudai/1980/1980_0_2.tex"
+pdf_source: "archive/03_hokudai/1980/1980_0_2.pdf"
+page_image: "archive/03_hokudai/1980/1980_0_2.jpg"
+fields:
+  - 行列
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\[ A=\begin{pmatrix} a & 1-b 
+
+ 1-a & b \end{pmatrix} \hspace{1zw} (a+b\neq2) \]
+とし，各自然数$n$に対して
+$\begin{pmatrix} x_n 
+
+ y_n \end{pmatrix}=A^n\begin{pmatrix} 1 
+
+ 0 \end{pmatrix}$とおく．
+ただし，$A^n$は$A$の$n$個の積を表す．
+\begin{description}
+\item[(1)]$x_{n+1}$を$x_n$と$a$，$b$で表せ．
+\item[(2)]$x_n$，$y_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1980/1980_0_2.pdf)

@@ -1,0 +1,30 @@
+---
+title: "東京大学 2016年 2016_0_4"
+problem_id: "01_tokyo-2016-2016_0_4"
+university: "東京大学"
+exam_year: "2016"
+source_tex: "archive/01_tokyo/2016/2016_0_4.tex"
+pdf_source: "archive/01_tokyo/2016/2016_0_4.pdf"
+page_image: "archive/01_tokyo/2016/2016_0_4.jpg"
+fields:
+  - 整数
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　以下の問いに答えよ。ただし，(1)については，結論のみを書けばよい。
+\begin{description}
+\item[(1)]$n$を正の整数とし，$3^n$を10で割った余りを$a_n$とする。$a_n$を求めよ。
+\item[(2)]$n$を正の整数とし，$3^n$を4で割った余りを$b_n$とする。$b_n$を求めよ。
+\item[(3)]数列$\{ x_n \}$を次のように定める。
+\[ x_1=1, \hspace{1zw} x_{n+1}=3^{x_n} \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
+$x_{10}$を10で割った余りを求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2016/2016_0_4.pdf)

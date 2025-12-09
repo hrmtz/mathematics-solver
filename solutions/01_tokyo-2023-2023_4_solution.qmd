@@ -1,0 +1,422 @@
+## 解答
+
+(1)  
+与えられた点から，まず各ベクトルを表す。
+
+$$
+\overrightarrow{OA}=(2,0,0),\quad
+\overrightarrow{OB}=(1,1,1),\quad
+\overrightarrow{OC}=(1,2,3).
+$$
+
+点 $P(x,y,z)$ とおくと，  
+$\overrightarrow{OP}=(x,y,z)$ である。
+
+条件 $\overrightarrow{OP}\perp\overrightarrow{OA}$ より，内積が $0$ であるから  
+$$
+\overrightarrow{OP}\cdot\overrightarrow{OA}=0
+\quad\Rightarrow\quad
+(x,y,z)\cdot(2,0,0)=2x=0
+\quad\Rightarrow\quad
+x=0.
+$$
+
+同様に，$\overrightarrow{OP}\perp\overrightarrow{OB}$ より  
+$$
+\overrightarrow{OP}\cdot\overrightarrow{OB}=0
+\quad\Rightarrow\quad
+(x,y,z)\cdot(1,1,1)=x+y+z=0.
+$$
+$x=0$ なので  
+$$
+y+z=0\quad\Rightarrow\quad z=-y.
+$$
+
+さらに，$\overrightarrow{OP}\cdot\overrightarrow{OC}=1$ より  
+$$
+(x,y,z)\cdot(1,2,3)=x+2y+3z=1.
+$$
+$x=0,\ z=-y$ を代入して  
+$$
+2y+3(-y)=2y-3y=-y=1
+\quad\Rightarrow\quad
+y=-1,\ z=1.
+$$
+
+よって，点 $P$ の座標は  
+$$
+P(0,-1,1)
+$$
+である。
+
+---
+
+(2)  
+直線 $AB$ は $A(2,0,0)$ を通り，方向ベクトル $\overrightarrow{AB}$ をもつから，  
+$$
+\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}
+=(1,1,1)-(2,0,0)=(-1,1,1).
+$$
+
+$\overrightarrow{OP}$ は (1) より  
+$$
+\overrightarrow{OP}=(0,-1,1).
+$$
+
+点 $H$ は直線 $AB$ 上にあり，$P$ からの垂線の足なので  
+$$
+\overrightarrow{OH}=\overrightarrow{OA}+t\overrightarrow{AB}
+\quad (t\ \text{は実数}) 
+$$
+とおき，$\overrightarrow{PH}\perp\overrightarrow{AB}$ を用いる。
+
+$\overrightarrow{PH}=\overrightarrow{OH}-\overrightarrow{OP}
+=\overrightarrow{OA}+t\overrightarrow{AB}-\overrightarrow{OP}$ だから，
+垂直条件より  
+$$
+\overrightarrow{PH}\cdot\overrightarrow{AB}=0
+$$
+となる。ここで  
+$$
+\overrightarrow{OA}=(2,0,0),\ 
+\overrightarrow{AB}=(-1,1,1),\ 
+\overrightarrow{OP}=(0,-1,1)
+$$
+を代入する。
+
+まず $\overrightarrow{PH}$ を成分で書くと  
+$$
+\overrightarrow{PH}
+=(2,0,0)+t(-1,1,1)-(0,-1,1)
+=(2,0,0)+(-t,t,t)-(0,-1,1)
+=(2-t,t,t)-(0,-1,1)
+=(2-t,\ t+1,\ t-1).
+$$
+
+したがって  
+$$
+\overrightarrow{PH}\cdot\overrightarrow{AB}
+=(2-t,\ t+1,\ t-1)\cdot(-1,1,1)
+=-(2-t)+(t+1)+(t-1).
+$$
+
+右辺を整理すると  
+$$
+-(2-t)+(t+1)+(t-1)
+=-2+t+t+1+t-1
+=3t-2.
+$$
+
+これが $0$ になるので  
+$$
+3t-2=0\quad\Rightarrow\quad t=\frac{2}{3}.
+$$
+
+よって  
+$$
+\overrightarrow{OH}
+=\overrightarrow{OA}+t\overrightarrow{AB}
+=\overrightarrow{OA}+\frac{2}{3}\overrightarrow{AB}.
+$$
+
+$\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}$ を用いて  
+$$
+\overrightarrow{OH}
+=\overrightarrow{OA}+\frac{2}{3}(\overrightarrow{OB}-\overrightarrow{OA})
+=\overrightarrow{OA}-\frac{2}{3}\overrightarrow{OA}+\frac{2}{3}\overrightarrow{OB}
+=\frac{1}{3}\overrightarrow{OA}+\frac{2}{3}\overrightarrow{OB}.
+$$
+
+したがって，求める表現は  
+$$
+\overrightarrow{OH}
+=\frac{1}{3}\overrightarrow{OA}+\frac{2}{3}\overrightarrow{OB}
+$$
+である。
+
+---
+
+(3)  
+まず点 $Q$ の位置ベクトルを求める。定義より  
+$$
+\overrightarrow{OQ}
+=\frac{3}{4}\overrightarrow{OA}+\overrightarrow{OP}.
+$$
+
+$\overrightarrow{OA}=(2,0,0)$，$\overrightarrow{OP}=(0,-1,1)$ なので  
+$$
+\frac{3}{4}\overrightarrow{OA}
+=\frac{3}{4}(2,0,0)=(\tfrac{3}{2},0,0),
+$$
+よって  
+$$
+\overrightarrow{OQ}
+=(\tfrac{3}{2},0,0)+(0,-1,1)
+=(\tfrac{3}{2},-1,1).
+$$
+
+したがって  
+$$
+Q\left(\tfrac{3}{2},-1,1\right)
+$$
+である。
+
+次に，三角形 $OHB$ の各頂点の位置ベクトルを確認する。
+
+- $O(0,0,0)$ なので $\overrightarrow{OO}=\vec{0}$。
+- (2) より  
+  $$
+  \overrightarrow{OH}
+  =\frac{1}{3}\overrightarrow{OA}+\frac{2}{3}\overrightarrow{OB}.
+  $$
+  成分に直すと  
+  $$
+  \overrightarrow{OA}=(2,0,0),\quad
+  \overrightarrow{OB}=(1,1,1)
+  $$
+  だから  
+  $$
+  \overrightarrow{OH}
+  =\frac{1}{3}(2,0,0)+\frac{2}{3}(1,1,1)
+  =\left(\frac{2}{3},0,0\right)+\left(\frac{2}{3},\frac{2}{3},\frac{2}{3}\right)
+  =\left(\frac{4}{3},\frac{2}{3},\frac{2}{3}\right).
+  $$
+  よって $H\left(\frac{4}{3},\frac{2}{3},\frac{2}{3}\right)$。
+- $B(1,1,1)$ なので $\overrightarrow{OB}=(1,1,1)$。
+
+球面 $S$ の中心は $Q$，半径は $r$ であり，三角形 $OHB$ は平面図形（周と内部）であるから，  
+$S$ が三角形 $OHB$ と共有点をもつための条件は，
+「点 $Q$ から三角形 $OHB$ への距離」が $r$ 以下であること，かつ $r\ge 0$ であること，である。
+
+したがって，
+$$
+\min_{X\in\triangle OHB}|QX|\le r
+$$
+となるような $r$ の範囲を求めればよい。
+
+ここで，$Q$ を通る垂線を三角形の平面におろしたときの足を $R$ とし，  
+$R$ が三角形 $OHB$ の内部または辺上にあれば $|QR|$ が最短距離となる。  
+まず $R$ を求め，その位置を調べる。
+
+### (i) 三角形 $OHB$ の平面への垂線の足 $R$
+
+三角形 $OHB$ の平面は，原点 $O$ を通る 2 ベクトル  
+$$
+\overrightarrow{OH},\ \overrightarrow{OB}
+$$
+によって張られる。したがって，この平面上の点 $R$ の位置ベクトルは  
+$$
+\overrightarrow{OR}
+=s\overrightarrow{OH}+t\overrightarrow{OB}
+\quad (s,t\ \text{は実数})
+$$
+と表せる。
+
+$\overrightarrow{QR}=\overrightarrow{OR}-\overrightarrow{OQ}$ が  
+三角形の平面に垂直であるためには，  
+$\overrightarrow{QR}$ がこの平面の 2 本の方向ベクトル $\overrightarrow{OH},\overrightarrow{OB}$ に共に垂直であればよい。  
+すなわち
+$$
+\overrightarrow{QR}\cdot\overrightarrow{OH}=0,\quad
+\overrightarrow{QR}\cdot\overrightarrow{OB}=0
+$$
+が成り立つ。
+
+まず各ベクトルを成分で書く：
+$$
+\overrightarrow{OH}
+=\left(\frac{4}{3},\frac{2}{3},\frac{2}{3}\right),\quad
+\overrightarrow{OB}=(1,1,1),\quad
+\overrightarrow{OQ}
+=\left(\frac{3}{2},-1,1\right).
+$$
+
+よって  
+$$
+\overrightarrow{OR}
+=s\left(\frac{4}{3},\frac{2}{3},\frac{2}{3}\right)
++t(1,1,1)
+=\left(\frac{4s}{3}+t,\ \frac{2s}{3}+t,\ \frac{2s}{3}+t\right).
+$$
+
+したがって  
+$$
+\overrightarrow{QR}
+=\overrightarrow{OR}-\overrightarrow{OQ}
+=\left(\frac{4s}{3}+t-\frac{3}{2},\ \frac{2s}{3}+t+1,\ \frac{2s}{3}+t-1\right).
+$$
+
+これが $\overrightarrow{OH},\overrightarrow{OB}$ に垂直であるための条件を立てる。
+
+まず  
+$$
+\overrightarrow{QR}\cdot\overrightarrow{OB}=0
+$$
+から求める。計算すると  
+$$
+\overrightarrow{QR}\cdot\overrightarrow{OB}
+=\left(\frac{4s}{3}+t-\frac{3}{2}\right)
++\left(\frac{2s}{3}+t+1\right)
++\left(\frac{2s}{3}+t-1\right).
+$$
+
+右辺を整理すると，
+$s$ に関する項は  
+$$
+\frac{4s}{3}+\frac{2s}{3}+\frac{2s}{3}
+=\frac{8s}{3},
+$$
+$t$ に関する項は $t+t+t=3t$，定数項は $-\frac{3}{2}+1-1=-\frac{3}{2}$ なので
+
+$$
+\overrightarrow{QR}\cdot\overrightarrow{OB}
+=\frac{8s}{3}+3t-\frac{3}{2}.
+$$
+
+したがって
+$$
+\frac{8s}{3}+3t-\frac{3}{2}=0
+\quad\Rightarrow\quad
+8s+9t-\frac{9}{2}=0
+\quad\Rightarrow\quad
+8s+9t=\frac{9}{2}.
+\tag{$\ast$}
+$$
+
+次に
+$$
+\overrightarrow{QR}\cdot\overrightarrow{OH}=0
+$$
+を用いる。内積を計算すると  
+$$
+\overrightarrow{QR}\cdot\overrightarrow{OH}
+=\left(\frac{4s}{3}+t-\frac{3}{2}\right)\frac{4}{3}
++\left(\frac{2s}{3}+t+1\right)\frac{2}{3}
++\left(\frac{2s}{3}+t-1\right)\frac{2}{3}.
+$$
+
+各項を整理する。$s$ に関する係数は  
+$$
+\frac{4}{3}\cdot\frac{4s}{3}
++\frac{2}{3}\cdot\frac{2s}{3}
++\frac{2}{3}\cdot\frac{2s}{3}
+=\frac{16s}{9}+\frac{4s}{9}+\frac{4s}{9}
+=\frac{24s}{9}
+=\frac{8s}{3}.
+$$
+
+$t$ に関する係数は  
+$$
+\frac{4}{3}\cdot t
++\frac{2}{3}\cdot t
++\frac{2}{3}\cdot t
+=\left(\frac{4}{3}+\frac{2}{3}+\frac{2}{3}\right)t
+=\frac{8}{3}t.
+$$
+
+定数項は  
+$$
+\frac{4}{3}\left(-\frac{3}{2}\right)
++\frac{2}{3}\cdot1
++\frac{2}{3}\cdot(-1)
+=-2+\frac{2}{3}-\frac{2}{3}=-2.
+$$
+
+したがって  
+$$
+\overrightarrow{QR}\cdot\overrightarrow{OH}
+=\frac{8s}{3}+\frac{8t}{3}-2.
+$$
+
+これが $0$ なので  
+$$
+\frac{8s}{3}+\frac{8t}{3}-2=0
+\quad\Rightarrow\quad
+8s+8t-6=0
+\quad\Rightarrow\quad
+4s+4t=3.
+\tag{$\ast\ast$}
+$$
+
+連立方程式 $(\ast),(\ast\ast)$ を解く。  
+$(\ast\ast)$ を 2 倍すると  
+$$
+8s+8t=6
+$$
+となるので，これを $(\ast)$ から引くと
+$$
+(8s+9t)-(8s+8t)=\frac{9}{2}-6
+\quad\Rightarrow\quad
+t=-\frac{3}{2}.
+$$
+
+この $t$ を $(\ast\ast)$ に代入すると  
+$$
+4s+4\left(-\frac{3}{2}\right)=3
+\quad\Rightarrow\quad
+4s-6=3
+\quad\Rightarrow\quad
+4s=9
+\quad\Rightarrow\quad
+s=\frac{9}{4}.
+$$
+
+よって  
+$$
+\overrightarrow{OR}
+=\frac{9}{4}\overrightarrow{OH}-\frac{3}{2}\overrightarrow{OB}.
+$$
+
+成分で求めると  
+$$
+\overrightarrow{OH}
+=\left(\frac{4}{3},\frac{2}{3},\frac{2}{3}\right),\ 
+\overrightarrow{OB}=(1,1,1)
+$$
+なので
+$$
+\frac{9}{4}\overrightarrow{OH}
+=\frac{9}{4}\left(\frac{4}{3},\frac{2}{3},\frac{2}{3}\right)
+=\left(3,\frac{3}{2},\frac{3}{2}\right),
+$$
+$$
+\frac{3}{2}\overrightarrow{OB}
+=\left(\frac{3}{2},\frac{3}{2},\frac{3}{2}\right).
+$$
+したがって  
+$$
+\overrightarrow{OR}
+=\left(3,\frac{3}{2},\frac{3}{2}\right)
+-\left(\frac{3}{2},\frac{3}{2},\frac{3}{2}\right)
+=\left(\frac{3}{2},0,0\right).
+$$
+
+一方，$\overrightarrow{OQ}=(\tfrac{3}{2},-1,1)$ であったから  
+$$
+\overrightarrow{QR}
+=\overrightarrow{OR}-\overrightarrow{OQ}
+=\left(\frac{3}{2},0,0\right)-\left(\frac{3}{2},-1,1\right)
+=(0,1,-1).
+$$
+
+よって
+$$
+|QR|=\sqrt{0^2+1^2+(-1)^2}=\sqrt{2}.
+$$
+
+また，$\overrightarrow{OR}=(\tfrac{3}{2},0,0)$ は $x$ 軸上の点なので，
+$R$ は直線 $OA$ 上（従って三角形の辺 $OH$ 上）にあることが分かる。  
+つまり $R$ は三角形 $OHB$ の辺上にあるから，  
+点 $Q$ から三角形 $OHB$ への最短距離は $|QR|=\sqrt{2}$ である。
+
+以上から，球 $S$（中心 $Q$，半径 $r$）が三角形 $OHB$ と交わるためには  
+$$
+r\ge |QR|=\sqrt{2},\quad r\ge 0
+$$
+であることが必要十分である。
+
+したがって，求める $r$ の範囲は  
+$$
+r\ge\sqrt{2}
+$$
+である。

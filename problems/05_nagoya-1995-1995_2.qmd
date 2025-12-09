@@ -1,0 +1,30 @@
+---
+title: "名古屋大学 1995年 1995_2"
+problem_id: "05_nagoya-1995-1995_2"
+university: "名古屋大学"
+exam_year: "1995"
+source_tex: "archive/05_nagoya/1995/1995_2.tex"
+pdf_source: "archive/05_nagoya/1995/1995_2.pdf"
+page_image: "archive/05_nagoya/1995/1995_2.jpg"
+fields:
+  - 数列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　0以上の整数$k$に対し，
+\[ S_k(n)=1^k+2^k+\cdots\cdots+n^k \]
+とおく．
+\begin{description}
+\item[(1)]等式$\displaystyle{(n+1)}^5=1+\sum_{k=0}^4{}_5C_kS_k(n)$が
+すべての正の整数$n$について成り立つことを示せ．
+\item[(2)]$n$の5次多項式として$S_4(n)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1995/1995_2.pdf)

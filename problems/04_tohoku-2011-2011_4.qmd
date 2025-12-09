@@ -1,0 +1,33 @@
+---
+title: "東北大学 2011年 2011_4"
+problem_id: "04_tohoku-2011-2011_4"
+university: "東北大学"
+exam_year: "2011"
+source_tex: "archive/04_tohoku/2011/2011_4.tex"
+pdf_source: "archive/04_tohoku/2011/2011_4.pdf"
+page_image: "archive/04_tohoku/2011/2011_4.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　平面上に長さ3の線分$OA$を考え，
+ベクトル$\overrightarrow{OA}$を$\overrightarrow{a}$で表す．
+$0<t<1$を満たす実数$t$に対して，
+$\overrightarrow{OP}=t\overrightarrow{a}$となるように点$P$を定める．
+大きさ2のベクトル$\overrightarrow{b}$を
+$\overrightarrow{a}$と角$\theta$ $(0<\theta<\pi)$をなすようにとり，
+点$B$を$\overrightarrow{OB}=\overrightarrow{b}$で定める．
+線分$OB$の中点を$Q$とし，線分$AQ$と線分$BP$の交点を$R$とする．
+このとき，どのように$\theta$をとっても
+$\overrightarrow{OR}$と$\overrightarrow{AB}$が垂直にならないような
+$t$の値の範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2011/2011_4.pdf)

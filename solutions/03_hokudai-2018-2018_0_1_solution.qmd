@@ -1,0 +1,156 @@
+## 解答
+
+(1)  
+$\triangle ABC$で，辺の長さは  
+$BC = a = t-1,\ CA = b = \sqrt2,\ AB = c = \sqrt{t^2+1}$  
+とおくと，$\angle ACB$は辺 $AB$ に対する角なので，余弦定理より
+
+$$
+c^2 = a^2 + b^2 - 2ab\cos\angle ACB
+$$
+
+である。与えられた値を代入すると
+
+$$
+t^2+1 = (t-1)^2 + 2 - 2(t-1)\sqrt2\cos\angle ACB
+$$
+
+となる。右辺を展開・整理すると
+
+$$
+t^2+1 = (t^2 - 2t +1) + 2 - 2(t-1)\sqrt2\cos\angle ACB
+      = t^2 - 2t + 3 - 2(t-1)\sqrt2\cos\angle ACB
+$$
+
+これを左辺と比較して
+
+$$
+t^2+1 = t^2 - 2t + 3 - 2(t-1)\sqrt2\cos\angle ACB
+$$
+
+両辺から $t^2$ を消去して
+
+$$
+1 = -2t + 3 - 2(t-1)\sqrt2\cos\angle ACB
+$$
+
+$$
+1 = -2t + 3 - 2(t-1)\sqrt2\cos\angle ACB
+\ \Longrightarrow\ 
+-2 = -2t - 2(t-1)\sqrt2\cos\angle ACB
+$$
+
+両辺を $-2$ で割ると
+
+$$
+1 = t + (t-1)\sqrt2\cos\angle ACB
+$$
+
+したがって
+
+$$
+(t-1)\sqrt2\cos\angle ACB = 1 - t = -(t-1)
+$$
+
+両辺を $(t-1)\sqrt2$ で割ると（$t>1$より $t-1>0$ なので割れる）
+
+$$
+\cos\angle ACB = -\frac1{\sqrt2}
+$$
+
+よって
+
+$$
+\angle ACB = \frac{3\pi}{4}\ (\text{または }135^\circ)
+$$
+
+となる。
+
+---
+
+(2)  
+外心 $O$ は三角形の各頂点から等距離にあるので，$OA=OB=OC$ が成り立つ点である。三角形 $ABC$ における各辺と外接円の半径 $R$ との関係から
+
+$$
+BC = 2R\sin\angle A,\quad
+CA = 2R\sin\angle B,\quad
+AB = 2R\sin\angle C
+$$
+
+が成り立つ。また (1) より $\angle C = \angle ACB=135^\circ$ であるから
+
+$$
+AB = \sqrt{t^2+1} = 2R\sin 135^\circ = 2R\cdot\frac{\sqrt2}{2} = R\sqrt2
+$$
+
+したがって
+
+$$
+R = \frac{\sqrt{t^2+1}}{\sqrt2}
+$$
+
+一方，辺 $AC$ についても同様に
+
+$$
+AC = \sqrt2 = 2R\sin\angle B
+$$
+
+なので
+
+$$
+\sqrt2 = 2R\sin\angle B
+\ \Longrightarrow\ 
+\sin\angle B = \frac{\sqrt2}{2R}
+$$
+
+ここに $R = \dfrac{\sqrt{t^2+1}}{\sqrt2}$ を代入すると
+
+$$
+\sin\angle B
+= \frac{\sqrt2}{2\cdot \dfrac{\sqrt{t^2+1}}{\sqrt2}}
+= \frac{\sqrt2}{\dfrac{2\sqrt{t^2+1}}{\sqrt2}}
+= \frac{2}{2\sqrt{t^2+1}}
+= \frac1{\sqrt{t^2+1}}
+$$
+
+したがって
+
+$$
+\sin\angle B = \frac1{\sqrt{t^2+1}}
+$$
+
+また $\angle C = 135^\circ$ より
+
+$$
+\angle A + \angle B + \angle C = 180^\circ
+\ \Longrightarrow\ 
+\angle A + \angle B = 45^\circ
+$$
+
+ここで，直線 $CO$ が直線 $AB$ と垂直に交わる条件を考える。外心 $O$ から各辺への垂線はその辺の垂直二等分線であり，$CO$ が $AB$ に垂直であるとは，「$CO$ が辺 $AB$ の垂直二等分線である」ことを意味する。すなわち
+
+$$
+OC \perp AB \quad\Longleftrightarrow\quad OC = OA = OB
+$$
+
+が成り立つことから，点 $C$ は辺 $AB$ の垂直二等分線上にある。特に，$OC$ が $AB$ の垂直二等分線であることから，頂点 $C$ は辺 $AB$ の中点を通る直線上にある。これは三角形 $ABC$ が二等辺三角形であること，すなわち
+
+$$
+CA = CB
+$$
+
+を意味する（辺 $AB$ を底辺とする二等辺三角形）。
+
+したがって
+
+$$
+\sqrt2 = t-1
+$$
+
+となり，$t>1$ より
+
+$$
+t = \sqrt2 + 1
+$$
+
+が求める値である。

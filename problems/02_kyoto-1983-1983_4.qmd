@@ -1,0 +1,29 @@
+---
+title: "京都大学 1983年 1983_4"
+problem_id: "02_kyoto-1983-1983_4"
+university: "京都大学"
+exam_year: "1983"
+source_tex: "archive/02_kyoto/1983/1983_4.tex"
+pdf_source: "archive/02_kyoto/1983/1983_4.pdf"
+page_image: "archive/02_kyoto/1983/1983_4.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　3つのベクトル$\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$はたがいに直交している．
+点$O$より直線$BC$，$CA$，$AB$に垂線をひき，その交点をそれぞれ$P$，$Q$，$R$とする．
+\begin{description}
+\item[(1)]四面体$OPQR$の四面体$OABC$に対する体積比を，
+$\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$の長さ$a$，$b$，$c$で表せ．
+\item[(2)]四面体$OPQR$の体積は四面体$OABC$の体積の$\displaystyle\frac{1}{4}$以下であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1983/1983_4.pdf)

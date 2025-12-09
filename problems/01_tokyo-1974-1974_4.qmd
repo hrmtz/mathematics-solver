@@ -1,0 +1,31 @@
+---
+title: "東京大学 1974年 1974_4"
+problem_id: "01_tokyo-1974-1974_4"
+university: "東京大学"
+exam_year: "1974"
+source_tex: "archive/01_tokyo/1974/1974_4.tex"
+pdf_source: "archive/01_tokyo/1974/1974_4.pdf"
+page_image: "archive/01_tokyo/1974/1974_4.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　二つの関数$f(x)$，$g(x)$が次の性質1)，2)，3)，4)を持つものとする．
+\begin{description}
+\item[1)]$f(x)$，$g(x)$は$x=0$において微分可能．
+\item[2)]$f(0)=g(0)=0$．
+\item[3)]原点において，$y=f(x)$および$y=g(x)$のグラフに引いた接線はたがいに直交する．
+\item[4)]実数$a$，$b$，$c$を適当に取ると，
+$\displaystyle f'(0)=\lim_{x \to 0}\frac{ax+bf(x)}{cx+f(x)}$，
+$\displaystyle g'(0)=\lim_{x \to 0}\frac{ax+bg(x)}{cx+g(x)}$が成りたつ．
+\end{description}
+　このとき，$a$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1974/1974_4.pdf)

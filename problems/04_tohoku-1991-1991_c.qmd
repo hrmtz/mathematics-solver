@@ -1,0 +1,31 @@
+---
+title: "東北大学 1991年 1991_c"
+problem_id: "04_tohoku-1991-1991_c"
+university: "東北大学"
+exam_year: "1991"
+source_tex: "archive/04_tohoku/1991/1991_c.tex"
+pdf_source: "archive/04_tohoku/1991/1991_c.pdf"
+page_image: "archive/04_tohoku/1991/1991_c.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　2つの楕円
+\[ C_1:\frac{x^2}{a^2}+\frac{y^2}{b^2}=1, \hspace{1zw} C_2:\frac{x^2}{b^2}+\frac{y^2}{a^2}=1 \]
+に関して次の問に答えよ．ただし$a>b>0$とする．
+\begin{description}
+\item[(1)]第1象限にある$C_1$と$C_2$の交点の$x$座標を
+$b\cos\gamma$ $\displaystyle\left( 0<\gamma<\frac{\pi}{2} \right)$とするとき，
+$\cos\gamma$，$\sin\gamma$を$a$と$b$で表せ．
+\item[(2)]$C_1$の内部と$C_2$の内部の共通部分の面積を$a$，$b$，$\gamma$の整式で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_c.pdf)

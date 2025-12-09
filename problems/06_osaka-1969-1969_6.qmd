@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1969年 1969_6"
+problem_id: "06_osaka-1969-1969_6"
+university: "大阪大学"
+exam_year: "1969"
+source_tex: "archive/06_osaka/1969/1969_6.tex"
+pdf_source: "archive/06_osaka/1969/1969_6.pdf"
+page_image: "archive/06_osaka/1969/1969_6.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$f(x)$はすべての実数に対して定義され、正の値をとる連続関数で
+$\displaystyle g(x)=\int_0^xf(t)dt$とおくとき
+${ \{ f(x) \} }^2-{ \{ g(x) \} }^2=1$を満たすものとする。
+\begin{description}
+\item[(1)]$F(x)=f(x)+g(x)$，$G(x)=f(x)-g(x)$とするとき
+$\displaystyle\frac{d}{dx}F(x)=F(x)$，$\displaystyle\frac{d}{dx}G(x)=-G(x)$となることを証明せよ．
+\item[(2)]$f(x)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1969/1969_6.pdf)

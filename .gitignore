@@ -27,12 +27,8 @@ dist/
 
 # アップロード・生成物
 uploads/
-problems/
-solutions/
 output/
 
 # Docker / Compose 一時ファイル
 *.pid
-uploads/*
-problems/*
 output/*

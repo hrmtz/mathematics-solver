@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1965年 1965_4"
+problem_id: "08_titech-1965-1965_4"
+university: "東京科学大学"
+exam_year: "1965"
+source_tex: "archive/08_titech/1965/1965_4.tex"
+pdf_source: "archive/08_titech/1965/1965_4.pdf"
+page_image: "archive/08_titech/1965/1965_4.jpg"
+fields:
+  - 積分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　次数が3をこえない整式$f(x)$について
+$\displaystyle\frac{1}{h}\int_{-h}^hf(x)dx$を
+$f(0)$，$f(h)$，$f(-h)$で表わす公式を作れ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1965/1965_4.pdf)

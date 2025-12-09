@@ -1,0 +1,25 @@
+---
+title: "京都大学 2007年 2007a_0_4"
+problem_id: "02_kyoto-2007-2007a_0_4"
+university: "京都大学"
+exam_year: "2007"
+source_tex: "archive/02_kyoto/2007/2007a_0_4.tex"
+pdf_source: "archive/02_kyoto/2007/2007a_0_4.pdf"
+page_image: "archive/02_kyoto/2007/2007a_0_4.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　座標空間で点$(3,4,0)$を通りベクトル$\vec{a}=(1,1,1)$に平行な直線を$l$，
+点$(2,-1,0)$を通りベクトル$\vec{b}=(1,-2,0)$に平行な直線を$m$とする．
+点$P$は直線$l$上を，点$Q$は直線$m$上をそれぞれ勝手に動くとき，線分$PQ$の長さの最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2007/2007a_0_4.pdf)

@@ -1,0 +1,25 @@
+---
+title: "東京大学 1996年 1996_0_4"
+problem_id: "01_tokyo-1996-1996_0_4"
+university: "東京大学"
+exam_year: "1996"
+source_tex: "archive/01_tokyo/1996/1996_0_4.tex"
+pdf_source: "archive/01_tokyo/1996/1996_0_4.pdf"
+page_image: "archive/01_tokyo/1996/1996_0_4.jpg"
+fields:
+  - 空間図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xyz$空間において，点$P$を$(1,0,1)$，点$Q$を$(a,a+1,0)$とする．
+線分$PQ$を$z$軸のまわりに1回転して得られる曲面と平面$z=1$および$xy$平面で囲まれる部分の体積を$V(a)$とおく．
+$a$が実数全体を動くときの$V(a)$の最小値およびそれを与える$a$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1996/1996_0_4.pdf)

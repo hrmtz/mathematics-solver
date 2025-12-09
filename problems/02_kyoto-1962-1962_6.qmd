@@ -1,0 +1,26 @@
+---
+title: "京都大学 1962年 1962_6"
+problem_id: "02_kyoto-1962-1962_6"
+university: "京都大学"
+exam_year: "1962"
+source_tex: "archive/02_kyoto/1962/1962_6.tex"
+pdf_source: "archive/02_kyoto/1962/1962_6.pdf"
+page_image: "archive/02_kyoto/1962/1962_6.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　放物線$y=4-x^2$の第1象限にある部分と，
+この部分へ点$(a,0)$から引いた接線と，
+$x$軸とで囲まれる範囲の面積を計算せよ．
+ただし，$a>2$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1962/1962_6.pdf)

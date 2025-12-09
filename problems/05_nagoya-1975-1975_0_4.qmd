@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 1975年 1975_0_4"
+problem_id: "05_nagoya-1975-1975_0_4"
+university: "名古屋大学"
+exam_year: "1975"
+source_tex: "archive/05_nagoya/1975/1975_0_4.tex"
+pdf_source: "archive/05_nagoya/1975/1975_0_4.pdf"
+page_image: "archive/05_nagoya/1975/1975_0_4.jpg"
+fields:
+  - 代数
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　実数$a$，$b$が$0<b<2a-1$を満たすとき，
+2次方程式$x^2-2ax+b=0$について次の(1)，(2)を証明せよ．
+\begin{description}
+\item[(1)]相異なる2実根をもち，一方は0と1の間にあって，他方は1より大きい．
+\item[(2)]さらに，$a$，$b$を正の整数とすれば，すべての正の整数$n$に対して，2根の$n$乗の和は偶数である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1975/1975_0_4.pdf)

@@ -1,0 +1,33 @@
+---
+title: "大阪大学 2017年 2017_3"
+problem_id: "06_osaka-2017-2017_3"
+university: "大阪大学"
+exam_year: "2017"
+source_tex: "archive/06_osaka/2017/2017_3.tex"
+pdf_source: "archive/06_osaka/2017/2017_3.pdf"
+page_image: "archive/06_osaka/2017/2017_3.jpg"
+fields:
+  - 不等式
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$，$b$を自然数とし，不等式
+\[ \left| \frac{a}{b}-\sqrt7 \right| < \frac{2}{b^4} \hspace{1zw}\hspace{1zw}\hspace{1zw} \text{(A)} \]
+を考える．次の問いに答えよ．ただし，$2.645<\sqrt7<2.646$であること，
+$\sqrt7$が無理数であることを用いてよい．
+\begin{description}
+\item[(1)]不等式(A)を満たし$b\geqq2$である自然数$a$，$b$に対して
+\[ \left| \frac{a}{b}+\sqrt7 \right| < 6 \]
+であることを示せ．
+\item[(2)]不等式(A)を満たす自然数$a$，$b$の組のうち，
+$b\geqq2$であるものをすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2017/2017_3.pdf)

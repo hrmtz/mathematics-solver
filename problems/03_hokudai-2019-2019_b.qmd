@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2019年 2019_b"
+problem_id: "03_hokudai-2019-2019_b"
+university: "北海道大学"
+exam_year: "2019"
+source_tex: "archive/03_hokudai/2019/2019_b.tex"
+pdf_source: "archive/03_hokudai/2019/2019_b.pdf"
+page_image: "archive/03_hokudai/2019/2019_b.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$，$t$は実数で，$a$は1以上とする。
+座標平面上の3点$O(0, \, 0)$，$A(a, \, a-1)$，$P(t, \, t^2+1)$を頂点とする三角形の
+重心$G$の座標を$(X, \, Y)$とする。
+\begin{description}
+\item[(1)]$X$と$Y$を，$a$と$t$を用いて表せ。
+\item[(2)]$a=1$とする。$t$が実数全体を動くとき，$G$の軌跡を求め，座標平面上に図示せよ。
+\item[(3)]$a$が1以上の実数全体を，$t$が実数全体を動くとき，$G$が通過する範囲を座標平面上に図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2019/2019_b.pdf)

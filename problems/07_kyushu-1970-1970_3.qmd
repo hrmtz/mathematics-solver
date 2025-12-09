@@ -1,0 +1,22 @@
+---
+title: "九州大学 1970年 1970_3"
+problem_id: "07_kyushu-1970-1970_3"
+university: "九州大学"
+exam_year: "1970"
+source_tex: "archive/07_kyushu/1970/1970_3.tex"
+pdf_source: "archive/07_kyushu/1970/1970_3.pdf"
+page_image: "archive/07_kyushu/1970/1970_3.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　4次方程式$x^4+ax+b=0$（$a$，$b$は実数）が相異なる2実根をもつための必要十分条件を$a$，$b$で表わせ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1970/1970_3.pdf)

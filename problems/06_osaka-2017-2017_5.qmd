@@ -1,0 +1,34 @@
+---
+title: "大阪大学 2017年 2017_5"
+problem_id: "06_osaka-2017-2017_5"
+university: "大阪大学"
+exam_year: "2017"
+source_tex: "archive/06_osaka/2017/2017_5.tex"
+pdf_source: "archive/06_osaka/2017/2017_5.pdf"
+page_image: "archive/06_osaka/2017/2017_5.jpg"
+fields:
+  - 積分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$xy$平面上で放物線$y=x^2$と直線$y=2$で囲まれた図形を，
+$y$軸のまわりに1回転してできる回転体を$L$とおく．
+回転体$L$に含まれる点のうち，
+$xy$平面上の直線$x=1$からの距離が1以下のもの全体がつくる立体を$M$とおく．
+\begin{description}
+\item[(1)]$t$を$0 \leqq t \leqq 2$を満たす実数とする．
+$xy$平面上の点$(0, \, t)$を通り，
+$y$軸に直交する平面による$M$の切り口の面積を$S(t)$とする．
+$t={(2\cos\theta)}^2$ $\displaystyle\left( \frac{\pi}{4}\leqq\theta\leqq\frac{\pi}{2} \right)$のとき，
+$S(t)$を$\theta$を用いてあらわせ．
+\item[(2)]$M$の体積$V$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2017/2017_5.pdf)

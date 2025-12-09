@@ -1,0 +1,34 @@
+---
+title: "京都大学 1989年 1989_f"
+problem_id: "02_kyoto-1989-1989_f"
+university: "京都大学"
+exam_year: "1989"
+source_tex: "archive/02_kyoto/1989/1989_f.tex"
+pdf_source: "archive/02_kyoto/1989/1989_f.pdf"
+page_image: "archive/02_kyoto/1989/1989_f.jpg"
+fields:
+  - 数列
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$\displaystyle F(x)=\frac{ax}{x+1}$とおく．
+ただし，$a$は定数で$0<a\leqq1$である．
+関数の列$\{f_n(x)\}$を次によって定める．
+\begin{description}
+\item[(i)]$f_1(x)=F(x)$
+\item[(ii)]$f_{n+1}(x)=F(f_n(x))$ $(n=1,2,3,\cdots)$
+\end{description}
+\begin{description}
+\item[(1)]$f_n(x)$を$a$，$x$，$n$の式で表せ．
+\item[(2)]次の条件をみたす数列$\{b_n\}$を一つ作れ．($a$の値によって，異なる数列であってもよい．)
+$[$条件$]$$c>0$ならば，数列$\{b_n\cdot f_n(c)\}$は正の数に収束する．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_f.pdf)

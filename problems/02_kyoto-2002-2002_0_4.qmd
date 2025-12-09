@@ -1,0 +1,24 @@
+---
+title: "京都大学 2002年 2002_0_4"
+problem_id: "02_kyoto-2002-2002_0_4"
+university: "京都大学"
+exam_year: "2002"
+source_tex: "archive/02_kyoto/2002/2002_0_4.tex"
+pdf_source: "archive/02_kyoto/2002/2002_0_4.pdf"
+page_image: "archive/02_kyoto/2002/2002_0_4.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$0\leqq\theta<360$とし，$a$は定数とする．
+$\cos3\theta^\circ-\cos2\theta^\circ+3\cos\theta^\circ-1=a$を満たす$\theta$の値はいくつあるか．
+$a$の値によって分類せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_0_4.pdf)

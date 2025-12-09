@@ -1,0 +1,191 @@
+## 解答
+
+$P(x,y,0)$ とおく。原点を $O(0,0,0)$，点 $A(0,-1,1)$ である。
+
+---
+
+(1) 条件 (ii) の整理（$\angle AOP \geqq \dfrac{2}{3}\pi$）
+
+ベクトル  
+$\vec{OA}=(0,-1,1),\ \vec{OP}=(x,y,0)$ とすると，なす角を $\theta$ として  
+$\cos\theta$ は内積の定義より
+$$
+\cos\theta
+=\dfrac{\vec{OA}\cdot\vec{OP}}{|\vec{OA}||\vec{OP}|}
+=\dfrac{(0,-1,1)\cdot(x,y,0)}{\sqrt{0^2+(-1)^2+1^2}\,\sqrt{x^2+y^2}}
+=\dfrac{-y}{\sqrt{2}\,\sqrt{x^2+y^2}}
+$$
+である。
+
+条件 (ii) は $\theta\geqq \dfrac{2}{3}\pi$ であるから  
+$\cos\theta\leqq \cos\!\left(\dfrac{2}{3}\pi\right)=\cos 120^\circ=-\dfrac12$ が必要である。  
+よって
+$$
+\dfrac{-y}{\sqrt{2}\,\sqrt{x^2+y^2}}\leqq -\dfrac12
+\quad\Longleftrightarrow\quad
+\dfrac{y}{\sqrt{2}\,\sqrt{x^2+y^2}}\geqq \dfrac12
+$$
+両辺に $2\sqrt{2}\sqrt{x^2+y^2}$ を掛けて
+$$
+2y \geqq \sqrt{2}\,\sqrt{x^2+y^2}
+\quad\Longleftrightarrow\quad
+4y^2 \geqq 2(x^2+y^2)
+$$
+$$
+\Longleftrightarrow\quad
+4y^2 -2y^2 \geqq 2x^2
+\quad\Longleftrightarrow\quad
+2y^2 \geqq 2x^2
+\quad\Longleftrightarrow\quad
+y^2 \geqq x^2
+$$
+したがって
+$$
+|y|\geqq |x|
+$$
+である。
+
+さらに，$\dfrac{y}{\sqrt{2}\sqrt{x^2+y^2}}\geqq \dfrac12$ から左辺は正であるから $y>0$ が分かる。  
+したがって (ii) は
+$$
+y\geqq 0,\quad y^2\geqq x^2
+\quad\Longleftrightarrow\quad
+y\geqq |x|
+$$
+と書ける。  
+すなわち，平面上で直線 $y=x$ および $y=-x$ のなす角のうち，上側の二等分線を含む領域
+$$
+\{(x,y)\mid y\geqq |x|\}
+$$
+が条件 (ii) を表す。
+
+---
+
+(2) 条件 (iii) の整理（$\angle OAP \leqq \dfrac{\pi}{6}$）
+
+次に，$\vec{AO}$ と $\vec{AP}$ を考える。  
+$$
+\vec{AO}=\vec{O}-\vec{A}=(0,0,0)-(0,-1,1)=(0,1,-1),
+$$
+$$
+\vec{AP}=\vec{P}-\vec{A}=(x,y,0)-(0,-1,1)=(x,y+1,-1)
+$$
+である。
+
+なす角を $\varphi$ とすると  
+内積より
+$$
+\cos\varphi
+= \dfrac{\vec{AO}\cdot\vec{AP}}{|\vec{AO}||\vec{AP}|}
+= \dfrac{(0,1,-1)\cdot(x,y+1,-1)}
+        {\sqrt{0^2+1^2+(-1)^2}\,\sqrt{x^2+(y+1)^2+(-1)^2}}
+$$
+分子を計算すると
+$$
+(0,1,-1)\cdot(x,y+1,-1)
+=0\cdot x+1\cdot(y+1)+(-1)\cdot(-1)
+= y+1+1=y+2
+$$
+分母は
+$$
+|\vec{AO}| = \sqrt{0^2+1^2+(-1)^2}=\sqrt{2},
+$$
+$$
+|\vec{AP}| = \sqrt{x^2+(y+1)^2+(-1)^2}
+= \sqrt{x^2 + (y+1)^2 +1}
+$$
+したがって
+$$
+\cos\varphi
+=\dfrac{y+2}{\sqrt{2}\,\sqrt{x^2+(y+1)^2+1}}
+$$
+
+条件 (iii) は $\varphi\leqq \dfrac{\pi}{6}$，すなわち
+$$
+\cos\varphi\geqq \cos\!\left(\dfrac{\pi}{6}\right)
+=\dfrac{\sqrt{3}}{2}
+$$
+だから
+$$
+\dfrac{y+2}{\sqrt{2}\,\sqrt{x^2+(y+1)^2+1}}
+\;\geqq\;
+\dfrac{\sqrt{3}}{2}
+$$
+両辺に $2\sqrt{2}\sqrt{x^2+(y+1)^2+1}$ を掛けて
+$$
+2(y+2)\;\geqq\; \sqrt{6}\,\sqrt{x^2+(y+1)^2+1}
+$$
+両辺を 2 乗して
+$$
+4(y+2)^2 \;\geqq\; 6\bigl(x^2+(y+1)^2+1\bigr)
+$$
+左辺・右辺を展開する：
+$$
+4(y+2)^2
+=4(y^2+4y+4)=4y^2+16y+16,
+$$
+$$
+6\bigl(x^2+(y+1)^2+1\bigr)
+=6x^2+6(y^2+2y+1)+6
+=6x^2+6y^2+12y+12
+$$
+よって
+$$
+4y^2+16y+16 \;\geqq\; 6x^2+6y^2+12y+12
+$$
+両辺を整理すると
+$$
+0 \;\geqq\; 6x^2+6y^2+12y+12-(4y^2+16y+16)
+$$
+$$
+0 \;\geqq\; 6x^2+6y^2+12y+12-4y^2-16y-16
+$$
+$$
+0 \;\geqq\; 6x^2+2y^2-4y-4
+$$
+両辺を 2 で割ると
+$$
+0 \;\geqq\; 3x^2+y^2-2y-2
+$$
+すなわち
+$$
+3x^2+y^2-2y-2\leqq 0
+$$
+これを $y$ について平方完成すると
+$$
+3x^2+\bigl(y^2-2y+1\bigr)-1-2\leqq 0
+$$
+$$
+3x^2+(y-1)^2-3\leqq 0
+$$
+したがって
+$$
+3x^2+(y-1)^2\leqq 3
+\quad\Longleftrightarrow\quad
+\frac{x^2}{1}+\frac{(y-1)^2}{3}\leqq 1
+$$
+となる。これは中心 $(0,1)$，$x$ 方向の半径 $1$，$y$ 方向の半径 $\sqrt{3}$ の楕円およびその内部を表す。
+
+---
+
+(3) 条件のまとめと図示
+
+条件 (i) は $P\neq O$，すなわち $(x,y)\neq(0,0)$ である。
+
+したがって，$P(x,y,0)$ が満たすべき条件は
+
+- (ii) より　$y\geqq |x|$（直線 $y=x$ と $y=-x$ の間の，上側の領域）
+- (iii) より　$\dfrac{x^2}{1}+\dfrac{(y-1)^2}{3}\leqq 1$（中心 $(0,1)$ の楕円内側）
+- (i) より　原点 $(0,0)$ は除く
+
+の 3 つである。
+
+よって，$xy$ 平面上では，
+
+1. 中心 $(0,1)$，長軸が $y$ 軸方向，短軸が $x$ 軸方向の楕円  
+   $\dfrac{x^2}{1}+\dfrac{(y-1)^2}{3}=1$ を描き，
+2. 直線 $y=x$，$y=-x$ を描く。
+3. これらのうち，楕円の内部（境界を含む）かつ $y\geqq |x|$ を満たす部分を陰影で示し，
+4. ただし原点 $(0,0)$ の点は除く（その点だけを塗りつぶさない）
+
+という領域が，$P$ のとりうる範囲となる。

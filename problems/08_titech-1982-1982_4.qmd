@@ -1,0 +1,26 @@
+---
+title: "東京科学大学 1982年 1982_4"
+problem_id: "08_titech-1982-1982_4"
+university: "東京科学大学"
+exam_year: "1982"
+source_tex: "archive/08_titech/1982/1982_4.tex"
+pdf_source: "archive/08_titech/1982/1982_4.pdf"
+page_image: "archive/08_titech/1982/1982_4.jpg"
+fields:
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　不等式$\displaystyle\frac{x^2}{12}+\frac{y^2}{4}\leqq1$で定まる領域を$D$とする．
+原点を中心とし$D$を正の向きに${45}^\circ$回転させるとき，
+$D$の点が通る点全体は平面上の1つの領域をつくる．
+この領域の第1象限にある部分の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1982/1982_4.pdf)

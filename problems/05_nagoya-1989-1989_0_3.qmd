@@ -1,0 +1,36 @@
+---
+title: "名古屋大学 1989年 1989_0_3"
+problem_id: "05_nagoya-1989-1989_0_3"
+university: "名古屋大学"
+exam_year: "1989"
+source_tex: "archive/05_nagoya/1989/1989_0_3.tex"
+pdf_source: "archive/05_nagoya/1989/1989_0_3.pdf"
+page_image: "archive/05_nagoya/1989/1989_0_3.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]$A=\begin{pmatrix} a & b 
+
+ b & c \end{pmatrix}$の形をした実数の行列で，
+$A^2=A$を満たし
+零行列$\begin{pmatrix} 0 & 0 
+
+ 0 & 0 \end{pmatrix}$でも
+単位行列$\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}$でもないものをすべて求めよ．
+\item[(2)]上のような行列$A$によって定まる1次変換によって，
+平面上のすべての点は，原点を通る一定の直線上にうつされることを証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1989/1989_0_3.pdf)

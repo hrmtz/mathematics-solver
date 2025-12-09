@@ -1,0 +1,26 @@
+---
+title: "京都大学 2016年 2016_3"
+problem_id: "02_kyoto-2016-2016_3"
+university: "京都大学"
+exam_year: "2016"
+source_tex: "archive/02_kyoto/2016/2016_3.tex"
+pdf_source: "archive/02_kyoto/2016/2016_3.pdf"
+page_image: "archive/02_kyoto/2016/2016_3.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　四面体OABCが次の条件を満たすならば，それは正四面体であることを示せ．
+\begin{description}
+\item[条件：]頂点A，B，Cからそれぞれの対面を含む平面へ下ろした垂線は対面の外心を通る．
+\end{description}
+ただし，四面体のある頂点の対面とは，その頂点を除く他の3つの頂点がなす三角形のことをいう．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2016/2016_3.pdf)

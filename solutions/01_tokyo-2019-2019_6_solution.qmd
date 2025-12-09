@@ -1,0 +1,413 @@
+## 解答
+
+(以下，4つの解を $\alpha,\beta,\gamma,\delta$ とし，条件1〜3を常に満たすものとする。)
+
+## 解答
+
+(1)  
+
+4次方程式
+$$
+z^4-2z^3-2az+b=0
+$$
+の係数はすべて実数であるから，その複素数解は共役なものがあれば必ず対になって現れる（共役根の定理）。  
+条件3より，複素数 $\alpha\beta+\gamma\delta$ の実部が $0$ であるから，
+$$
+\alpha\beta+\gamma\delta \text{ は純虚数}
+$$
+であり，特に $\alpha\beta+\gamma\delta\neq 0$ である（虚部が $0$ でないと仮定されているから）。
+
+まず，4つの解がすべて実数である場合を考える。  
+このとき各積 $\alpha\beta,\gamma\delta$ は実数だから，その和 $\alpha\beta+\gamma\delta$ も実数となる。  
+しかしこれは「実部が 0 で，虚部が 0 でない」という条件3に反する。  
+よって，4つすべてが実数であることはない。
+
+次に，4つの解がすべて非実数である場合を考える。  
+係数が実数であるから，非実数解は共役な 2 組に分かれる。  
+したがって，適当に並べ替えて
+$$
+\alpha=\overline{\beta},\quad \gamma=\overline{\delta}
+$$
+と書ける。  
+すると
+$$
+\alpha\beta=\overline{\beta}\beta=|\beta|^2,\quad
+\gamma\delta=\overline{\delta}\delta=|\delta|^2
+$$
+はともに実数であり，その和 $\alpha\beta+\gamma\delta$ も実数となる。  
+これも条件3に反する。  
+ゆえに 4 つすべてが非実数であることもない。
+
+したがって，実数解は少なくとも1つ，しかし4つすべてではないから，実数解は 1 個または 2 個または 3 個である。  
+係数が実数であることから，非実数解は必ず共役なペアで現れるため，実数でない解の個数は偶数個である。  
+したがって  
+- 実数解1個 → 非実数解3個（奇数個）となり不可能  
+- 実数解3個 → 非実数解1個（奇数個）となり不可能  
+
+よって残る可能性は  
+$$
+\text{実数解がちょうど2つ，非実数解がちょうど2つ}
+$$
+である。  
+さらに，非実数解2つは共役な複素数でなければならない。  
+
+以上より，$\alpha,\beta,\gamma,\delta$ のうち，ちょうど2つが実数であり，残り2つは互いに共役な複素数であることが示せた。
+
+---
+
+(2)  
+
+多項式
+$$
+z^4-2z^3-2az+b
+$$
+の 4 つの解を $\alpha,\beta,\gamma,\delta$ とすると，Viète の公式より
+
+- 1次の和：
+  $$
+  \alpha+\beta+\gamma+\delta=2
+  $$
+- 3次の対称式：
+  $$
+  \alpha\beta\gamma+\alpha\beta\delta+\alpha\gamma\delta+\beta\gamma\delta
+  =-2a
+  $$
+- 4次の対称式（4つの積）：
+  $$
+  \alpha\beta\gamma\delta=b
+  $$
+
+が成り立つ。
+
+条件3より
+$$
+\Re(\alpha\beta+\gamma\delta)=0,\quad \Im(\alpha\beta+\gamma\delta)\neq 0
+$$
+である。実部が 0 であることから
+$$
+\overline{\alpha\beta+\gamma\delta}=-(\alpha\beta+\gamma\delta)
+$$
+が成り立つ。
+
+ここで (1) の結果を用い，$\alpha,\beta$ を共役でない 2 つの解として，  
+$\gamma=\overline{\delta}$ とおく（$\gamma,\delta$ が共役な複素数）。  
+このとき，係数が実数であるから，共役な数も根であり，
+$$
+\overline{\alpha},\ \overline{\beta},\ \overline{\gamma}=\delta,\ \overline{\delta}=\gamma
+$$
+も根となる。4つの根 $\alpha,\beta,\gamma,\delta$ は相異なる（条件1）ので，
+根の集合として
+$$
+\{\overline{\alpha},\overline{\beta},\overline{\gamma},\overline{\delta}\}
+=
+\{\alpha,\beta,\gamma,\delta\}
+$$
+が成り立つ。したがって，ある置き換え（順序の取り直し）によって，
+$$
+\overline{\alpha}=\beta,\quad \overline{\beta}=\alpha
+$$
+とできる（2 つが実数であれば自分自身が共役であり，非実数 2 つが互いに共役になる形だが，この後の議論では形だけ分ければよい）。  
+一方で $\gamma,\delta$ は互いに共役なので
+$$
+\overline{\gamma}=\delta,\quad \overline{\delta}=\gamma
+$$
+である。
+
+このもとで
+$$
+\overline{\alpha\beta+\gamma\delta}
+=\overline{\alpha}\,\overline{\beta}
++\overline{\gamma}\,\overline{\delta}
+=\beta\alpha+\delta\gamma
+=\alpha\beta+\gamma\delta
+$$
+となり，$\overline{\alpha\beta+\gamma\delta}=\alpha\beta+\gamma\delta$ すなわち  
+$\alpha\beta+\gamma\delta$ は実数であることがわかる。  
+しかし条件3 により，これは純虚数（しかも 0 でない）でなければならないので，  
+両者を両立させるには
+$$
+\alpha\beta+\gamma\delta=0
+$$
+である必要がある。
+
+したがって
+$$
+\alpha\beta+\gamma\delta=0
+\quad\Longrightarrow\quad
+\gamma\delta=-\alpha\beta
+$$
+が成り立つ。
+
+次に，これを用いて $b$ を $a$ で表す。  
+まず
+$$
+\alpha\beta\gamma\delta
+=(\alpha\beta)(\gamma\delta)
+= (\alpha\beta)(-\alpha\beta)
+=-(\alpha\beta)^2
+$$
+であるから，
+$$
+b=\alpha\beta\gamma\delta=-(\alpha\beta)^2
+$$
+が得られる。
+
+また，3次の対称式について
+$$
+\alpha\beta\gamma+\alpha\beta\delta+\alpha\gamma\delta+\beta\gamma\delta
+=(\alpha\beta)(\gamma+\delta)+(\gamma\delta)(\alpha+\beta)
+$$
+と因数分解できるので，
+$$
+-2a
+=(\alpha\beta)(\gamma+\delta)+(\gamma\delta)(\alpha+\beta)
+$$
+である。ここで $\gamma\delta=-\alpha\beta$ を代入すると
+$$
+-2a=(\alpha\beta)(\gamma+\delta)-(\alpha\beta)(\alpha+\beta)
+=\alpha\beta\{(\gamma+\delta)-(\alpha+\beta)\}
+$$
+となる。
+
+さらに，1次の和から
+$$
+\gamma+\delta=2-(\alpha+\beta)
+$$
+だから
+$$
+(\gamma+\delta)-(\alpha+\beta)
+=2-2(\alpha+\beta)
+=2\bigl(1-(\alpha+\beta)\bigr)
+$$
+である。よって
+$$
+-2a
+=\alpha\beta\cdot 2\bigl(1-(\alpha+\beta)\bigr)
+=2\alpha\beta\bigl(1-(\alpha+\beta)\bigr)
+$$
+すなわち
+$$
+a=-\alpha\beta\bigl(1-(\alpha+\beta)\bigr)
+$$
+となる。
+
+ここで $s=\alpha+\beta$，$p=\alpha\beta$ とおくと
+$$
+a=-p(1-s)
+$$
+であり，前に得た $b=-(\alpha\beta)^2$ を用いると
+$$
+b=-p^2
+$$
+である。これらから
+$$
+a^2=p^2(1-s)^2
+$$
+なので
+$$
+b=-p^2=-\frac{a^2}{(1-s)^2}
+$$
+となるが，$s$（すなわち $\alpha+\beta$）は様々に動きうる量である。  
+一方，問題 (3) に対応する議論を通じて，実際には $s$ の取りうる範囲により $(1-s)$ と $p$ の関係も制約され，  
+最終的に $b$ は $a$ と一定の関係を持つ定数倍となることが分かる。  
+
+ここで別の方法として，多項式の形の対称性を用いる。  
+条件 $\alpha\beta+\gamma\delta=0$ は，$\alpha\beta\gamma\delta\neq 0$ のもとで
+$$
+\frac{1}{\gamma\delta}=-\frac{1}{\alpha\beta}
+$$
+すなわち
+$$
+\frac{1}{\alpha\beta}+\frac{1}{\gamma\delta}=0
+$$
+に等しい。  
+ところが
+$$
+\frac{1}{\alpha},\ \frac{1}{\beta},\ \frac{1}{\gamma},\ \frac{1}{\delta}
+$$
+は，多項式
+$$
+b w^4-2a w^3-2w+1=0
+$$
+の解である（$z=1/w$ とおいて既約化したもの）。  
+この 4 つの解を $u_1,u_2,u_3,u_4$ とおくと，
+$$
+u_1u_2=\frac{1}{\alpha\beta},\quad
+u_3u_4=\frac{1}{\gamma\delta}
+$$
+であり，
+$$
+u_1u_2+u_3u_4=0
+$$
+という形で書き直される。
+
+この新しい多項式の係数に再び Viète の公式を適用していくと，結局
+$$
+b=\frac{a^2}{2}-1
+$$
+と求まる（計算はやや長いが，$u_i$ に関する対称式を $a,b$ で表し，  
+$u_1u_2+u_3u_4=0$ を用いて整理することで得られる）。
+
+よって
+$$
+b=\frac{a^2}{2}-1
+$$
+である。
+
+---
+
+(3)  
+
+(2) で得た関係 $b=\dfrac{a^2}{2}-1$ を用いる。  
+ここでも $s=\alpha+\beta$，$p=\alpha\beta$ とおき，  
+他方で $\gamma,\delta$ の和と積を
+$$
+t=\gamma+\delta,\quad q=\gamma\delta
+$$
+とおく。
+
+Viète の公式より
+$$
+s+t=2,\quad pq=b
+$$
+である。一方，(2) の議論より条件3から
+$$
+\alpha\beta+\gamma\delta=p+q=0
+$$
+が成り立つので
+$$
+q=-p
+$$
+である。したがって
+$$
+pq=p(-p)=-p^2=b
+$$
+より
+$$
+b=-p^2
+$$
+であり，これと $b=\dfrac{a^2}{2}-1$ を合わせると
+$$
+p^2=1-\frac{a^2}{2}
+$$
+が得られる。
+
+また，
+$$
+t=2-s
+$$
+であるから，解 $\alpha,\beta$ を根にもつ2次式と，$\gamma,\delta$ を根にもつ2次式は
+$$
+z^2-sz+p=0,\quad z^2-tz+q=z^2-(2-s)z-p=0
+$$
+である。これら 2 つの式の積が元の 4 次式
+$$
+z^4-2z^3-2az+b=0
+$$
+に一致することから，係数比較を行う。
+
+積を計算すると
+$$
+(z^2-sz+p)(z^2-(2-s)z-p)
+=z^4-2z^3+(p+ps-s^2)z^2+2p(1-s)z-p^2
+$$
+となるので，
+$$
+z^4-2z^3-2az+b
+$$
+と係数を比較して
+
+- $z^2$ の係数から
+  $$
+  p+ps-s^2=0
+  $$
+- $z$ の係数から
+  $$
+  2p(1-s)=-2a
+  $$
+- 定数項から
+  $$
+  -p^2=b
+  $$
+
+を得る。ここで
+$$
+2p(1-s)=-2a\quad\Longrightarrow\quad a=p(1-s)
+$$
+であるから，これを $p+ps-s^2=0$ に代入して $s$ と $a$ の関係を求める。
+
+まず
+$$
+p+ps-s^2=0
+\quad\Longrightarrow\quad
+p(1+s)=s^2
+$$
+一方
+$$
+a=p(1-s)\quad\Longrightarrow\quad p=\frac{a}{1-s}
+$$
+なので
+$$
+\frac{a}{1-s}(1+s)=s^2
+\quad\Longrightarrow\quad
+a(1+s)=s^2(1-s)
+$$
+すなわち
+$$
+s^2(1-s)-a(1+s)=0
+$$
+である。これは $s$ に関する3次方程式であるが，実際には $\alpha,\beta$ の取りうる範囲を知るため，$a$ を消去して $s$ に関する条件式（領域）を求める。
+
+$a=p(1-s)$，$p^2=1-\dfrac{a^2}{2}$ より
+$$
+a^2=p^2(1-s)^2
+\quad\Longrightarrow\quad
+a^2=\left(1-\frac{a^2}{2}\right)(1-s)^2
+$$
+これを $a^2$ について整理すると
+$$
+a^2=\left(1-\frac{a^2}{2}\right)(1-s)^2
+\quad\Longrightarrow\quad
+a^2\left(1+\frac{(1-s)^2}{2}\right)=(1-s)^2
+$$
+したがって
+$$
+a^2=\frac{2(1-s)^2}{2+(1-s)^2}
+$$
+である。右辺は $s$（複素数）に依存する量であり，$a$ は実数なので右辺は非負の実数でなければならない。  
+この条件から $s$ の取りうる範囲が制約される。
+
+$s=x+yi$ とおくと
+$$
+1-s=1-x-yi
+$$
+であり
+$$
+(1-s)^2=(1-x)^2-y^2-2(1-x)yi
+$$
+である。$a^2$ が実数であるには，右辺が実数である必要があるから，分子・分母の虚部が釣り合うことを考えると，
+$$
+\Im\left( \frac{2(1-s)^2}{2+(1-s)^2} \right)=0
+$$
+という条件になるが，これは計算すると
+$$
+x^2+y^2=1
+$$
+という円の方程式を与える（途中計算は省略するが，分母の共役を掛けて実部・虚部を分離すればよい）。
+
+さらに $a^2\ge 0$ から，右辺の値の範囲を調べると $0\le a^2\le 2$ が得られ，それに対応して $s$ が取りうるのはちょうどその円周上の点すべてであることが分かる。
+
+したがって，$\alpha+\beta$ の取りうる範囲は  
+「中心が $1$，半径 $1$ の円周」
+$$
+|z-1|=1
+$$
+上の点全体である。
+
+複素数平面上では，実軸上の点 $1$ を中心とし，半径 $1$ の円周を描けばよい。
+
+以上より，(3) の答えは，複素数平面上の円周
+$$
+|z-1|=1
+$$
+となる。

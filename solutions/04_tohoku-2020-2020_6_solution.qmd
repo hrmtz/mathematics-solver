@@ -1,0 +1,201 @@
+## 解答
+
+(1)  
+まず  
+$$
+A(m,n)=\int_0^{\frac{\pi}{2}}\cos^m x\,\sin^n x\,dx
+$$
+である。
+
+### $A(m,n)=A(n,m)$ の証明
+
+置換積分 $x=\dfrac{\pi}{2}-t$ を用いる。  
+このとき $dx=-dt$，$x=0$ のとき $t=\dfrac{\pi}{2}$，$x=\dfrac{\pi}{2}$ のとき $t=0$，また  
+$\cos x=\cos\!\left(\dfrac{\pi}{2}-t\right)=\sin t$，$\sin x=\sin\!\left(\dfrac{\pi}{2}-t\right)=\cos t$  
+であるから，
+
+$$
+\begin{aligned}
+A(m,n)
+&=\int_0^{\frac{\pi}{2}}\cos^m x\,\sin^n x\,dx \\
+&=\int_{\frac{\pi}{2}}^{0}\sin^m t\,\cos^n t\,(-dt) \\
+&=\int_0^{\frac{\pi}{2}}\sin^m t\,\cos^n t\,dt \\
+&=A(n,m)
+\end{aligned}
+$$
+
+よって $A(m,n)=A(n,m)$ が成り立つ。
+
+### $A(m+2,n)+A(m,n+2)=A(m,n)$ の証明
+
+$$
+A(m+2,n)=\int_0^{\frac{\pi}{2}}\cos^{m+2}x\,\sin^n x\,dx,\quad
+A(m,n+2)=\int_0^{\frac{\pi}{2}}\cos^m x\,\sin^{n+2}x\,dx
+$$
+なので，
+
+$$
+\begin{aligned}
+A(m+2,n)+A(m,n+2)
+&=\int_0^{\frac{\pi}{2}}\left(\cos^{m+2}x\,\sin^n x+\cos^m x\,\sin^{n+2}x\right)dx \\
+&=\int_0^{\frac{\pi}{2}}\cos^m x\,\sin^n x(\cos^2 x+\sin^2 x)\,dx \\
+&=\int_0^{\frac{\pi}{2}}\cos^m x\,\sin^n x\,dx \\
+&=A(m,n)
+\end{aligned}
+$$
+
+ここで $\cos^2 x+\sin^2 x=1$ を用いた。よって求める等式が成り立つ。
+
+---
+
+(2)  
+$A(m,1)=\displaystyle\int_0^{\frac{\pi}{2}}\cos^m x\,\sin x\,dx$ を求める。
+
+置換積分として $t=\cos x$ とおく。  
+すると $dt=-\sin x\,dx$，$x=0$ で $t=1$，$x=\dfrac{\pi}{2}$ で $t=0$ となるから，
+
+$$
+\begin{aligned}
+A(m,1)
+&=\int_0^{\frac{\pi}{2}}\cos^m x\,\sin x\,dx \\
+&=\int_{1}^{0}t^m(-dt) \\
+&=\int_0^{1}t^m\,dt \\
+&=\left[\frac{t^{m+1}}{m+1}\right]_0^1 \\
+&=\frac{1}{m+1}
+\end{aligned}
+$$
+
+よって  
+$$
+A(m,1)=\frac{1}{m+1}
+$$
+である。
+
+---
+
+(3)  
+(1) で得た関係式  
+$$
+A(m+2,n)+A(m,n+2)=A(m,n)
+$$
+を用いる。
+
+この式に対し，$A(n,m)=A(m,n)$（(1)で証明ずみ）を用いて，$m$ と $n$ を入れ替えた式も考えると，
+
+$$
+A(n+2,m)+A(n,m+2)=A(n,m)
+$$
+
+だが，左辺の第1項に $A(m,n)=A(n,m)$ を用いると  
+
+$$
+A(m+2,n)+A(n,m+2)=A(m,n)
+$$
+
+となる。したがって，これらは互いに同じ内容を表している。  
+ここから直接 $A(m,n+2)$ と $A(m+2,n)$ の間の関係を導くには，部分積分を用いる方が明瞭である。
+
+#### 部分積分による直接計算
+
+$$
+A(m,n+2)=\int_0^{\frac{\pi}{2}}\cos^m x\,\sin^{n+2}x\,dx
+$$
+を考える。$\sin^{n+2}x=\sin^{n+1}x\cdot\sin x$ とみなし，  
+部分積分で  
+$$
+u=\sin^{n+1}x,\quad dv=\cos^m x\,\sin x\,dx
+$$
+とおく。すると
+
+$$
+du=(n+1)\sin^n x\cos x\,dx
+$$
+
+一方，(2)の計算と同様に  
+$$
+\int \cos^m x\,\sin x\,dx = -\frac{1}{m+1}\cos^{m+1}x +C
+$$
+であるから，
+
+$$
+v=-\frac{1}{m+1}\cos^{m+1}x
+$$
+
+となる。部分積分の公式  
+$$
+\int_0^{\frac{\pi}{2}}u\,dv=\left[uv\right]_0^{\frac{\pi}{2}}-\int_0^{\frac{\pi}{2}}v\,du
+$$
+を用いると，
+
+$$
+\begin{aligned}
+A(m,n+2)
+&=\int_0^{\frac{\pi}{2}}\sin^{n+1}x\cdot(\cos^m x\,\sin x)\,dx \\
+&=\left[-\frac{1}{m+1}\sin^{n+1}x\,\cos^{m+1}x\right]_0^{\frac{\pi}{2}}
+ +\frac{1}{m+1}\int_0^{\frac{\pi}{2}}\cos^{m+1}x\,(n+1)\sin^n x\cos x\,dx \\
+&=\frac{n+1}{m+1}\int_0^{\frac{\pi}{2}}\cos^{m+2}x\,\sin^n x\,dx
+\end{aligned}
+$$
+
+ここで，境界項は $x=0,\dfrac{\pi}{2}$ のいずれにおいても $\sin^{n+1}x$ または $\cos^{m+1}x$ が $0$ となるため消える。また積分の中身を整理して  
+$$
+\cos^{m+1}x\cdot\cos x=\cos^{m+2}x
+$$
+とした。
+
+したがって
+
+$$
+A(m,n+2)=\frac{n+1}{m+1}A(m+2,n)
+$$
+
+が成り立つ。
+
+---
+
+(4)  
+命題「$m$ または $n$ が奇数ならば $A(m,n)$ は有理数である」を示す。
+
+(3) の結果  
+$$
+A(m,n+2)=\frac{n+1}{m+1}A(m+2,n)
+\quad\Longleftrightarrow\quad
+A(m+2,n)=\frac{m+1}{n+1}A(m,n+2)
+$$
+から，$A(m,n)$ は，$m$ を 2 ずつ増減させたり $n$ を 2 ずつ増減させたりして，他の $A(\cdot,\cdot)$ と有理数倍の関係にあることがわかる。  
+よって，どちらか一方が 1 である場合（$A(k,1)$ または $A(1,k)$）までたどり着ければ，(2) より有理数であることがわかる。
+
+### 場合分け
+
+#### 1. $n$ が奇数の場合
+
+$n$ が奇数のとき，$n=2r+1$（$r$ は非負整数）と書ける。  
+(3) の式を $n$ について逆向きにたどり，下に 2 ずつ減らしていく：
+
+$$
+A(m,2r+1),\ A(m,2r-1),\ \dots,\ A(m,1)
+$$
+
+が，すべて有理数倍の関係で結ばれる。すなわち，(3) を用いて
+
+$$
+A(m,2r+1) = \frac{2r}{m+1}A(m+2,2r-1)
+$$
+
+などと繰り返し変形することで，最終的に $A($何らかの整数$,1)$ に到達する。  
+(2) より  
+$$
+A(k,1)=\frac{1}{k+1}
+$$
+は明らかに有理数であり，また (3) の係数 $\dfrac{n+1}{m+1}$ は有理数であるから，これを有限回掛け合わせても有理数である。  
+したがって，$n$ が奇数のとき $A(m,n)$ は有理数である。
+
+#### 2. $m$ が奇数の場合
+
+(1) で示した $A(m,n)=A(n,m)$ を用いる。  
+$m$ が奇数のとき，$n$ の代わりに $m$，$m$ の代わりに $n$ とみなして上と同様に議論すれば，$A(n,m)$ は有理数であるといえる。  
+ところが $A(n,m)=A(m,n)$ だから，結局 $A(m,n)$ も有理数となる。
+
+---
+
+以上より，$m$ または $n$ が奇数ならば $A(m,n)$ は有理数である。

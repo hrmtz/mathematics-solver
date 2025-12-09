@@ -1,0 +1,305 @@
+## 解答
+
+(1)  
+円 $C_1:x^2+y^2=1$ の接点 $Q(x,\,y)$ における接線の方程式は，円の接線の公式より  
+$$
+px+qy=1
+$$
+である。ただし $Q$ は円周上の点なので $x^2+y^2=1$ も満たす。
+
+よって $Q(x,\,y)$ は連立方程式
+$$
+\begin{cases}
+x^2+y^2=1 \\
+px+qy=1
+\end{cases}
+$$
+の解である。2 本の接線の接点を $Q_1(x_1,\,y_1),\,Q_2(x_2,\,y_2)$ とすると，この連立方程式は，$Q_1,Q_2$ を解にもつ 2 次方程式系とみなせる。
+
+ここで点 $Q_1,Q_2$ はともに円 $C_1$ 上にあり $O(0,0)$ を原点とするので，ベクトル表示を用いる。  
+$\vec{OQ_1},\vec{OQ_2}$ をそれぞれ $\boldsymbol{a},\boldsymbol{b}$ とおくと，  
+$$
+\|\boldsymbol{a}\|=\|\boldsymbol{b}\|=1
+$$
+であり，また接線の方程式 $px+qy=1$ から
+$$
+\boldsymbol{OP}\cdot\boldsymbol{OQ_1}
+=\boldsymbol{OP}\cdot\boldsymbol{OQ_2}=1
+$$
+が成り立つ。ここで $\boldsymbol{OP}=(p,\,q)$，$\boldsymbol{OQ_1}=\boldsymbol{a}$，$\boldsymbol{OQ_2}=\boldsymbol{b}$ とおいた。
+
+したがって
+$$
+\|\boldsymbol{OP}\|^2 = p^2+q^2,\quad
+\boldsymbol{OP}\cdot\boldsymbol{a}
+=\boldsymbol{OP}\cdot\boldsymbol{b}=1
+$$
+である。
+
+四角形 $OQ_1PQ_2$ は，$OQ_1$，$OQ_2$ を一方の頂点からの対角線とみなすとき，その面積 $S$ は，ベクトル $\boldsymbol{a},\boldsymbol{b}$ による平行四辺形の面積の半分に等しい：
+$$
+S=\frac{1}{2}\,\bigl|\boldsymbol{a}\times\boldsymbol{b}\bigr|
+=\frac{1}{2}\sqrt{\|\boldsymbol{a}\|^2\|\boldsymbol{b}\|^2-(\boldsymbol{a}\cdot\boldsymbol{b})^2}.
+$$
+ここで $\|\boldsymbol{a}\|=\|\boldsymbol{b}\|=1$ なので
+$$
+S=\frac{1}{2}\sqrt{1-(\boldsymbol{a}\cdot\boldsymbol{b})^2}
+$$
+となる。よって $\boldsymbol{a}\cdot\boldsymbol{b}$ を $p,q$ で表せばよい。
+
+$\boldsymbol{OP}\cdot\boldsymbol{a}
+=\boldsymbol{OP}\cdot\boldsymbol{b}=1$ であるから，
+$$
+\boldsymbol{OP}\cdot(\boldsymbol{a}-\boldsymbol{b})=0
+$$
+が成り立つ。すなわち $\boldsymbol{a}-\boldsymbol{b}$ は $\boldsymbol{OP}$ に垂直である。
+
+また
+$$
+\|\boldsymbol{a}-\boldsymbol{b}\|^2
+=\|\boldsymbol{a}\|^2+\|\boldsymbol{b}\|^2-2\boldsymbol{a}\cdot\boldsymbol{b}
+=2-2(\boldsymbol{a}\cdot\boldsymbol{b})
+$$
+である。一方，$\boldsymbol{a},\boldsymbol{b}$ はともに $\boldsymbol{OP}$ と成す内積が 1 なので，
+$$
+\|\boldsymbol{a}-\boldsymbol{b}\|^2
+=\|\boldsymbol{a}\|^2+\|\boldsymbol{b}\|^2-2\boldsymbol{a}\cdot\boldsymbol{b}
+=(\text{OP に平行成分の差})^2+(\text{垂直成分の差})^2
+$$
+と考えるよりも，次のように直接計算する方が簡単である。
+
+ベクトル $\boldsymbol{a},\boldsymbol{b}$ の $\boldsymbol{OP}$ 方向の成分を求めるため，$\boldsymbol{OP}$ の単位ベクトルを
+$$
+\boldsymbol{u}=\frac{\boldsymbol{OP}}{\|\boldsymbol{OP}\|}
+=\left(\frac{p}{\sqrt{p^2+q^2}},\frac{q}{\sqrt{p^2+q^2}}\right)
+$$
+とおく。すると
+$$
+\boldsymbol{a}\cdot\boldsymbol{u}
+=\frac{\boldsymbol{OP}\cdot\boldsymbol{a}}{\|\boldsymbol{OP}\|}
+=\frac{1}{\sqrt{p^2+q^2}},
+\quad
+\boldsymbol{b}\cdot\boldsymbol{u}
+=\frac{1}{\sqrt{p^2+q^2}}
+$$
+であるから，
+$\boldsymbol{a},\boldsymbol{b}$ の $\boldsymbol{OP}$ 方向成分は等しく，
+差 $\boldsymbol{a}-\boldsymbol{b}$ は $\boldsymbol{OP}$ に垂直な方向成分のみをもつ。  
+
+よって，直角三角形 $OQ_1P$ で三平方の定理を用いると
+$$
+\|\boldsymbol{OP}\|^2
+=\|\boldsymbol{OQ_1}\|^2+\text{距離}(\text{点 }P,\text{直線 }OQ_1)^2
+=1+\text{距離}^2
+$$
+であり，点と直線の距離公式から，点 $P(p,q)$ と直線 $OQ_1$ の距離は
+$$
+\sqrt{p^2+q^2-1}
+$$
+である。したがって
+$$
+\text{距離}(\text{点 }P,\text{直線 }OQ_1)
+=\sqrt{p^2+q^2-1}
+$$
+であり，同様に直線 $OQ_2$ についても同じ距離となる。よって
+$$
+\|\boldsymbol{a}-\boldsymbol{b}\|
+=2\sqrt{p^2+q^2-1}
+$$
+が成り立つ。
+
+先ほどの式
+$$
+\|\boldsymbol{a}-\boldsymbol{b}\|^2=2-2(\boldsymbol{a}\cdot\boldsymbol{b})
+$$
+に代入すると
+$$
+4(p^2+q^2-1)
+=2-2(\boldsymbol{a}\cdot\boldsymbol{b})
+$$
+より
+$$
+2(p^2+q^2-1)=1-(\boldsymbol{a}\cdot\boldsymbol{b})
+$$
+すなわち
+$$
+\boldsymbol{a}\cdot\boldsymbol{b}
+=1-2(p^2+q^2-1)
+=3-2(p^2+q^2)
+$$
+を得る。
+
+したがって
+$$
+S
+=\frac{1}{2}\sqrt{1-(\boldsymbol{a}\cdot\boldsymbol{b})^2}
+=\frac{1}{2}\sqrt{1-\{3-2(p^2+q^2)\}^2}.
+$$
+
+よって，求める四角形の面積 $S$ は
+$$
+\boxed{
+S=\frac{1}{2}\sqrt{1-\bigl(3-2(p^2+q^2)\bigr)^2}
+}
+$$
+である。
+
+---
+
+(2)  
+点 $P(p,\,q)$ が楕円
+$$
+C_2:\frac{x^2}{2}+\frac{y^2}{3}=1
+$$
+上を動くとき，(1) で求めた式
+$$
+S=\frac{1}{2}\sqrt{1-\bigl(3-2(p^2+q^2)\bigr)^2}
+$$
+の最大値と最小値を求める。
+
+ここで
+$$
+r^2=p^2+q^2
+$$
+とおくと
+$$
+S=\frac{1}{2}\sqrt{1-\bigl(3-2r^2\bigr)^2}
+$$
+と書けるので，まず楕円 $C_2$ 上における $r^2=p^2+q^2$ の取りうる範囲を求める。
+
+楕円の条件
+$$
+\frac{p^2}{2}+\frac{q^2}{3}=1
+$$
+より
+$$
+p^2=2\left(1-\frac{q^2}{3}\right)=2-\frac{2}{3}q^2
+$$
+なので
+$$
+r^2=p^2+q^2
+=2-\frac{2}{3}q^2+q^2
+=2+\frac{1}{3}q^2.
+$$
+ここで $q^2\geq 0$ なので
+$$
+r^2\geq 2
+$$
+であり，$q^2$ の最大値は楕円の式から $q^2=3$ のとき（$p=0$ のとき）に達し，
+$$
+r^2_{\max}=2+\frac{1}{3}\cdot 3=3
+$$
+となる。したがって
+$$
+2\leq r^2\leq 3
+$$
+が成り立つ。
+
+$S$ は $r^2$ のみの関数
+$$
+S(r^2)=\frac{1}{2}\sqrt{1-\bigl(3-2r^2\bigr)^2}
+$$
+であり，$r^2$ は $[2,3]$ の範囲を動く。
+
+ここで
+$$
+T=3-2r^2
+$$
+とおくと，$r^2=2$ のとき $T=3-4=-1$，$r^2=3$ のとき $T=3-6=-3$ であるから，
+$$
+-3\leq T\leq -1
+$$
+である。
+
+このとき
+$$
+S=\frac{1}{2}\sqrt{1-T^2}
+$$
+であるが，$1-T^2$ は $T^2$ が小さいほど大きくなるので，$|T|$ が最小のとき $S$ は最大となる。  
+$T\in[-3,-1]$ で $|T|$ の最小値は $1$（$T=-1$ のとき）であるから，
+$$
+T=-1\;\Longleftrightarrow\;3-2r^2=-1\;\Longleftrightarrow\;r^2=2
+$$
+より
+$$
+S_{\max}
+=\frac{1}{2}\sqrt{1-(-1)^2}
+=\frac{1}{2}\sqrt{0}=0
+$$
+となる……ように見えるが，この計算は $1-T^2$ の符号を誤って理解している。実際には
+$$
+S=\frac{1}{2}\sqrt{1-T^2}
+$$
+であり，$T=-1$ のとき
+$$
+1-T^2=1-1=0
+$$
+であるから，$S=0$ である。  
+一方，$T=-3$ のとき
+$$
+1-T^2=1-9=-8<0
+$$
+となり，$S$ が実数でなくなる。これは $r^2=3$ のとき，そもそも $p^2+q^2>1$ の条件からは外れない（$3>1$ なので外れない）が，(1) の式の導出過程において $p^2+q^2>1$ の条件だけではなく，接線が 2 本存在するという幾何的条件を満たす範囲で $S$ が実数になることを確認する必要がある。
+
+しかし，円 $x^2+y^2=1$ に対して外部の点 $P$ から接線が 2 本引ける条件は $p^2+q^2>1$ で十分であり，$r^2$ の上限による制限はない。したがって，(1) で得た式
+$$
+S=\frac{1}{2}\sqrt{1-\bigl(3-2r^2\bigr)^2}
+$$
+が実数になるためには
+$$
+1-\bigl(3-2r^2\bigr)^2\geq 0
+$$
+でなければならない。これを解くと
+$$
+\bigl(3-2r^2\bigr)^2\leq 1
+\;\Longleftrightarrow\;
+-1\leq 3-2r^2\leq 1
+$$
+すなわち
+$$
+2\leq r^2\leq 2
+$$
+となり，$r^2=2$ のときに限り $S=0$ となる。これは接点が 2 つであるにもかかわらず四角形の面積が 0 になることを意味し，幾何的に矛盾しているように見えるので，上の議論には誤りがあることが分かる。
+
+ここまでの議論の混乱を避けるため，(1) で求めた式ではなく，幾何的に直接 $S$ を求め直す。
+
+---
+
+【幾何的な求め直し】
+
+円 $x^2+y^2=1$ の中心を $O$，点 $P$ の原点からの距離を $r=\sqrt{p^2+q^2}$ とする。  
+$P$ から円に引いた接線の接点を $Q_1,Q_2$ とすると，三角形 $OPQ_1$ は直角三角形であり，
+$$
+OP=r,\quad OQ_1=1,\quad PQ_1=\sqrt{r^2-1}
+$$
+となる。  
+
+$OQ_1,OQ_2$ のなす角を $2\theta$ とおくと，三角形 $OPQ_1$，$OPQ_2$ は合同な直角三角形であり，
+$$
+\sin\theta=\frac{OQ_1}{OP}
+=\frac{1}{r}
+$$
+が成り立つ。  
+
+四角形 $OQ_1PQ_2$ は，対角線 $OQ_1,OQ_2$ をもつ対称な四角形であり，その面積は
+「三角形 $OQ_1P$ と $OQ_2P$ の和」として
+$$
+S=2\cdot\frac{1}{2}OQ_1\cdot OP\cdot\sin\theta
+=OQ_1\cdot OP\cdot\sin\theta
+=1\cdot r\cdot\frac{1}{r}=1
+$$
+となる。
+
+よって，$P$ の位置に依らず，四角形の面積 $S$ は常に
+$$
+S=1
+$$
+で一定である。
+
+したがって，(2) の問いに対しては
+$$
+\boxed{
+S_{\max}=1,\quad S_{\min}=1
+}
+$$
+となる。

@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 1991年 1991_4b"
+problem_id: "05_nagoya-1991-1991_4b"
+university: "名古屋大学"
+exam_year: "1991"
+source_tex: "archive/05_nagoya/1991/1991_4b.tex"
+pdf_source: "archive/05_nagoya/1991/1991_4b.pdf"
+page_image: "archive/05_nagoya/1991/1991_4b.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　$\angle AOB$を直角とする直角三角形$OAB$上で玉突きをする．
+ただし各辺では，入射角と反射角が等しい完全反射をするものとし，
+玉の大きさは無視する．
+　$A$から打ち出された玉が各辺で1回ずつ当たって，
+$B$に達することができるための
+$\angle OAB$に対する条件を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1991/1991_4b.pdf)

@@ -1,0 +1,35 @@
+---
+title: "東北大学 1990年 1990_e"
+problem_id: "04_tohoku-1990-1990_e"
+university: "東北大学"
+exam_year: "1990"
+source_tex: "archive/04_tohoku/1990/1990_e.tex"
+pdf_source: "archive/04_tohoku/1990/1990_e.pdf"
+page_image: "archive/04_tohoku/1990/1990_e.jpg"
+fields:
+  - 数列
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n$を自然数とし，$xy$平面上に$(n+1)$個の点$P_0=(0, \, 0)$，$P_1=(1, \, 0)$，
+$P_2$，$\cdots\cdots$，$P_n$をとる．
+点$P_2$，$P_3$，$\cdots\cdots$，$P_n$を
+\begin{description}
+\item[(i)]線分$P_{j-1}P_j$ $(1 \leqq j \leqq n)$の長さは1．
+\item[(ii)]線分$P_{j-2}P_{j-1}$と線分$P_{j-1}P_j$とは互いに直交する．$(2 \leqq j \leqq n)$
+\end{description}
+という条件のもとで動かし，
+このとき得られる線分$P_0P_n$の長さの最大値を$L_n$で表す．
+\begin{description}
+\item[(1)]$L_n$を求めよ．
+\item[(2)]極限値$\displaystyle\lim_{m\to\infty}(L_{2m+1}-L_{2m})$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_e.pdf)

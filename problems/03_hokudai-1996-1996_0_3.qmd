@@ -1,0 +1,37 @@
+---
+title: "北海道大学 1996年 1996_0_3"
+problem_id: "03_hokudai-1996-1996_0_3"
+university: "北海道大学"
+exam_year: "1996"
+source_tex: "archive/03_hokudai/1996/1996_0_3.tex"
+pdf_source: "archive/03_hokudai/1996/1996_0_3.pdf"
+page_image: "archive/03_hokudai/1996/1996_0_3.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　行列$A=\begin{pmatrix} 8 & 9 
+
+ 9 & a \end{pmatrix}$の表す
+平面の1次変換を$T$とするとき，$T$は次の条件（イ），（ロ）を満たすとする．
+\begin{description}
+\item[（イ）]$T$は格子点を格子点に移す．
+\item[（ロ）]$T$によって格子点に移される点は格子点にかぎる．
+\end{description}
+ここに格子点とは座標が整数の組となる平面の点をいう．
+\begin{description}
+\item[(1)]$a$の値を求めよ．
+\item[(2)]$k$を正の整数とする．4点
+\[ (0, \, 0), \hspace{1zw} (8k, \, 9k), \hspace{1zw} (9k, \, ak), \hspace{1zw} (17k, \, (9+a)k) \]
+を結んでできる平行四辺形の（辺および頂点を除く）内部に含まれる格子点の個数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_0_3.pdf)

@@ -1,0 +1,27 @@
+---
+title: "北海道大学 1980年 1980_1"
+problem_id: "03_hokudai-1980-1980_1"
+university: "北海道大学"
+exam_year: "1980"
+source_tex: "archive/03_hokudai/1980/1980_1.tex"
+pdf_source: "archive/03_hokudai/1980/1980_1.pdf"
+page_image: "archive/03_hokudai/1980/1980_1.jpg"
+fields:
+  - 微分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の条件（イ）、（ロ）を満たす曲線$C$の方程式$y=f(x)$ $(x\geqq0)$を求めよ．
+\begin{description}
+\item[（イ）]点$(0, \, 1)$を通る．
+\item[（ロ）]点$(0, \, 1)$から曲線$C$上の任意の点$(x, \, y)$までの曲線の長さ$s$が$s=e^{2x}+y-2$で与えられる．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1980/1980_1.pdf)

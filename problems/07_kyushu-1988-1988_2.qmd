@@ -1,0 +1,30 @@
+---
+title: "九州大学 1988年 1988_2"
+problem_id: "07_kyushu-1988-1988_2"
+university: "九州大学"
+exam_year: "1988"
+source_tex: "archive/07_kyushu/1988/1988_2.tex"
+pdf_source: "archive/07_kyushu/1988/1988_2.pdf"
+page_image: "archive/07_kyushu/1988/1988_2.jpg"
+fields:
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　座標平面上に点$P(a, \, 0)$ $(-1 \leqq a \leqq 1)$をとり，
+曲線$C:y=x^2-1$ $(x\geqq1)$上に点$Q(t, \, t^2-1)$をとる．
+$x$軸と線分$PQ$および曲線$C$とで囲まれる図形の面積を$S$とする．
+\begin{description}
+\item[(1)]面積$S$を$a$と$t$で表せ．
+\item[(2)]点$P$と点$Q$が関係$t-a=2$を満たしながら動くとき，
+面積$S$を最大にする$P$と$Q$の座標および$S$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1988/1988_2.pdf)

@@ -1,0 +1,25 @@
+---
+title: "京都大学 1998年 1998_3"
+problem_id: "02_kyoto-1998-1998_3"
+university: "京都大学"
+exam_year: "1998"
+source_tex: "archive/02_kyoto/1998/1998_3.tex"
+pdf_source: "archive/02_kyoto/1998/1998_3.pdf"
+page_image: "archive/02_kyoto/1998/1998_3.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　四面体$OABC$の辺$OA$上に点$P$，辺$AB$上に点$Q$，辺$BC$上に点$R$，辺$CO$上に点$S$をとる．
+これらの4点をこの順序で結んで得られる図形が平行四辺形となるとき，
+この平行四辺形$PQRS$の2つの対角線の交点は2つの線分$AC$と$OB$のそれぞれの中点を結ぶ線分上にあることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1998/1998_3.pdf)

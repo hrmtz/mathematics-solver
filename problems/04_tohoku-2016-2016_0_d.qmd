@@ -1,0 +1,29 @@
+---
+title: "東北大学 2016年 2016_0_d"
+problem_id: "04_tohoku-2016-2016_0_d"
+university: "東北大学"
+exam_year: "2016"
+source_tex: "archive/04_tohoku/2016/2016_0_d.tex"
+pdf_source: "archive/04_tohoku/2016/2016_0_d.pdf"
+page_image: "archive/04_tohoku/2016/2016_0_d.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xy$平面において$O(0, \, 0)$，$A(1, \, 0)$，$B(0, \, \sqrt3)$，$C(-1, \, 0)$とする。
+$0<t<1$とし，線分$AB$を$t:1-t$に内分する点を$P$，線分$BC$を$t:1-t$に内分する点を$Q$，
+$\theta=\angle POQ$とする。このとき，以下の問いに答えよ。
+\begin{description}
+\item[(1)]$T=t(1-t)$とするとき，$\cos\theta$を$T$で表せ。
+\item[(2)]$t$が$0<t<1$を動くとき，$\theta$の最小値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_0_d.pdf)

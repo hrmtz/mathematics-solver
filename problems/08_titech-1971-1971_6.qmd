@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 1971年 1971_6"
+problem_id: "08_titech-1971-1971_6"
+university: "東京科学大学"
+exam_year: "1971"
+source_tex: "archive/08_titech/1971/1971_6.tex"
+pdf_source: "archive/08_titech/1971/1971_6.pdf"
+page_image: "archive/08_titech/1971/1971_6.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　何回もくり返す試行において，ある回に事象$E$が起こったとき次の回にも$E$が起こる確率は$\alpha$であり，
+ある回に$E$が起こらなかったとき次の回にも$E$が起こらない確率は$\beta$である．
+ただし，$\alpha$，$\beta$は1より小さい正の数である．このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]第$n$回に$E$の起こる確率を$p_n$と書くとき，$p_{n+1}$を$p_n$で表せ．
+\item[(2)]$n\to\infty$のとき，数列$\{ p_n \}$の極限値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1971/1971_6.pdf)

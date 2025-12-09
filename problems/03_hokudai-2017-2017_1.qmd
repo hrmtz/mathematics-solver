@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2017年 2017_1"
+problem_id: "03_hokudai-2017-2017_1"
+university: "北海道大学"
+exam_year: "2017"
+source_tex: "archive/03_hokudai/2017/2017_1.tex"
+pdf_source: "archive/03_hokudai/2017/2017_1.pdf"
+page_image: "archive/03_hokudai/2017/2017_1.jpg"
+fields:
+  - 整数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　自然数の2乗となる数を平方数という。
+\begin{description}
+\item[(1)]自然数$a$，$n$，$k$に対して，$n(n+1)+a={(n+k)}^2$が成り立つとき，
+\[ a \geqq k^2+2k-1 \]
+が成り立つことを示せ。
+\item[(2)]$n(n+1)+14$が平方数となるような自然数$n$をすべて求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2017/2017_1.pdf)

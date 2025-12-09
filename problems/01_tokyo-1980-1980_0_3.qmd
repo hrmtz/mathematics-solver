@@ -1,0 +1,28 @@
+---
+title: "東京大学 1980年 1980_0_3"
+problem_id: "01_tokyo-1980-1980_0_3"
+university: "東京大学"
+exam_year: "1980"
+source_tex: "archive/01_tokyo/1980/1980_0_3.tex"
+pdf_source: "archive/01_tokyo/1980/1980_0_3.pdf"
+page_image: "archive/01_tokyo/1980/1980_0_3.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$n$，$a$，$b$，$c$，$d$は0または正の整数であって，
+\[ \begin{cases} a^2+b^2+c^2+d^2=n^2-6 
+
+ a+b+c+d \leqq n 
+
+ a \geqq b \geqq c \geqq d \end{cases} \]
+をみたすものとする．このような数の組$(n,a,b,c,d)$をすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1980/1980_0_3.pdf)

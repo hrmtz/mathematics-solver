@@ -1,0 +1,29 @@
+---
+title: "九州大学 1999年 1999_3"
+problem_id: "07_kyushu-1999-1999_3"
+university: "九州大学"
+exam_year: "1999"
+source_tex: "archive/07_kyushu/1999/1999_3.tex"
+pdf_source: "archive/07_kyushu/1999/1999_3.pdf"
+page_image: "archive/07_kyushu/1999/1999_3.jpg"
+fields:
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]実数$k\geqq0$に対し，
+\[ \int_0^{2\pi}\left\{ y\left( x\cos\theta+\frac{1}{2}x^2 \right)-
+{ \left( x\cos\theta+\frac{1}{2}x^2 \right) }^2 \right\}\cos\theta d\theta=2k\pi \]
+をみたす$xy$平面内の曲線の方程式を求めよ．
+\item[(2)](1)で求めた曲線と直線$y=a$との共有点が1個であるような実数$a$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_3.pdf)

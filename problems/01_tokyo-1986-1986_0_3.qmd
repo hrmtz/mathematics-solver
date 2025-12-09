@@ -1,0 +1,25 @@
+---
+title: "東京大学 1986年 1986_0_3"
+problem_id: "01_tokyo-1986-1986_0_3"
+university: "東京大学"
+exam_year: "1986"
+source_tex: "archive/01_tokyo/1986/1986_0_3.tex"
+pdf_source: "archive/01_tokyo/1986/1986_0_3.pdf"
+page_image: "archive/01_tokyo/1986/1986_0_3.jpg"
+fields:
+  - 積分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　三次またはそれ以下の任意の整式$f(x)=ax^3+bx^2+cx+d$に対して，
+常に$\displaystyle\int_{-1}^1f(x)dx=uf(s)+vf(t)$が成立つような定数$u$，$v$，$s$，$t$を求めよ．
+ただし$s<t$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1986/1986_0_3.pdf)

@@ -1,0 +1,35 @@
+---
+title: "九州大学 2005年 2005_4"
+problem_id: "07_kyushu-2005-2005_4"
+university: "九州大学"
+exam_year: "2005"
+source_tex: "archive/07_kyushu/2005/2005_4.tex"
+pdf_source: "archive/07_kyushu/2005/2005_4.pdf"
+page_image: "archive/07_kyushu/2005/2005_4.jpg"
+fields:
+  - 不等式
+  - 三角関数
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　実数$x$に対して，$[x]$は$x$を超えない最大の整数を表す．
+例えば，$\displaystyle \left[ \frac{3}{2} \right]=1$，$[2]=2$である．
+このとき，$0<\theta<\pi$として次の問いに答えよ．
+ただし，必要なら$\displaystyle \sin\alpha=\frac{1}{2\sqrt2}$となる角$\alpha$
+$\displaystyle \left( 0<\alpha<\frac{\pi}{2} \right)$を用いてよい．
+\begin{description}
+\item[(1)]不等式$\displaystyle \log_2 \left[ \frac{5}{2}+\cos\theta \right] \leqq1$を満たす$\theta$の範囲を求めよ．
+\item[(2)]不等式$\displaystyle \left[ \frac{3}{2}+\log_2\sin\theta \right] \geqq1$を満たす$\theta$の範囲を求めよ．
+\item[(3)]不等式
+$\displaystyle \log_2 \left[ \frac{5}{2}+\cos\theta \right] \leqq \left[ \frac{3}{2}+\log_2\sin\theta \right]$
+を満たす$\theta$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_4.pdf)

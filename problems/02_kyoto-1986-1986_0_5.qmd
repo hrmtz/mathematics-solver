@@ -1,0 +1,23 @@
+---
+title: "京都大学 1986年 1986_0_5"
+problem_id: "02_kyoto-1986-1986_0_5"
+university: "京都大学"
+exam_year: "1986"
+source_tex: "archive/02_kyoto/1986/1986_0_5.tex"
+pdf_source: "archive/02_kyoto/1986/1986_0_5.pdf"
+page_image: "archive/02_kyoto/1986/1986_0_5.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n$個のサイコロを同時にふり，出た目の数の最大のものを$M_n$，最小のものを$m_n$とするとき，
+$M_n-m_n>1$となる確率を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1986/1986_0_5.pdf)

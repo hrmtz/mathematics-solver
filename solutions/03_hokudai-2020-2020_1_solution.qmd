@@ -1,0 +1,313 @@
+## 解答
+
+(1)  
+三角形 $ABC$ において，辺の長さは
+$$
+AB = |\overrightarrow{AB}| = 1,\quad
+AC = |\overrightarrow{AC}| = 2,\quad
+BC = |\overrightarrow{BC}| = \sqrt6
+$$
+である。余弦定理を，角 $\angle BAC$ に対して用いると
+$$
+BC^2 = AB^2 + AC^2 - 2\,AB\cdot AC \cos\angle BAC
+$$
+より
+$$
+(\sqrt6)^2 = 1^2 + 2^2 - 2\cdot1\cdot2\cos\angle BAC
+$$
+すなわち
+$$
+6 = 1 + 4 - 4\cos\angle BAC
+$$
+したがって
+$$
+6 = 5 - 4\cos\angle BAC
+\quad\Rightarrow\quad
+4\cos\angle BAC = -1
+\quad\Rightarrow\quad
+\cos\angle BAC = -\frac14.
+$$
+
+内積の定義より
+$$
+\overrightarrow{AB}\cdot\overrightarrow{AC}
+= |\overrightarrow{AB}|\;|\overrightarrow{AC}|\cos\angle BAC
+= 1\cdot2\cdot\left(-\frac14\right)
+= -\frac12.
+$$
+
+よって，
+$$
+\overrightarrow{AB}\cdot\overrightarrow{AC} = -\frac12.
+$$
+
+---
+
+(2)  
+外接円の中心を $O$ とし，直線 $AO$ 上で円と $A$ 以外に交わる点を $P$ とする。$O$ は外心なので，$AO$ は弦 $BC$ の垂直二等分線となる（外心は各辺の垂直二等分線の交点）。したがって，$AP$ は弦 $BC$ の垂直二等分線でもあるから，
+$$
+AB = AP,\quad CB = CP
+$$
+が成り立つ。特に $AP$ は円の直径ではないが，$A$ と $P$ は円周上の 2 点であり，$AO$ を延長した線上に $P$ がある。
+
+ここでは，ベクトルを用いて $P$ を求める。外心 $O$ に対して
+$$
+|\overrightarrow{OB}| = |\overrightarrow{OC}| = |\overrightarrow{OA}|
+$$
+が成り立つので，$\overrightarrow{OA}$ は $\overrightarrow{OB}+\overrightarrow{OC}$ の方向を向くことが知られている。実際に，
+$$
+|\overrightarrow{OB}| = |\overrightarrow{OC}| = |\overrightarrow{OA}| = R
+$$
+とおくと，$\overrightarrow{OA}$ は
+$$
+\overrightarrow{OA}
+= R\cdot\frac{\overrightarrow{OB}+\overrightarrow{OC}}{|\overrightarrow{OB}+\overrightarrow{OC}|}
+$$
+と表せるので，$A,O,P$ は $\overrightarrow{OB}+\overrightarrow{OC}$ に平行な直線上に並ぶ。
+
+一方，円周上の 2 点 $A,P$ に対して，弧 $AB$ と弧 $PB$ が等しいので，$AB = PB$（円周上で等しい弧に対する弦は等しい）。同様に $AC = PC$ も成り立つ。したがって
+$$
+|\overrightarrow{PB}| = |\overrightarrow{AB}| = 1,\quad
+|\overrightarrow{PC}| = |\overrightarrow{AC}| = 2.
+$$
+ここで，$\overrightarrow{AP}$ を $\overrightarrow{AB},\overrightarrow{AC}$ で表すため，
+$$
+\overrightarrow{AP} = s\overrightarrow{AB} + t\overrightarrow{AC}
+$$
+とおく。すると
+$$
+\overrightarrow{PB}
+= \overrightarrow{AB} - \overrightarrow{AP}
+= \overrightarrow{AB} - (s\overrightarrow{AB} + t\overrightarrow{AC})
+= (1-s)\overrightarrow{AB} - t\overrightarrow{AC},
+$$
+$$
+\overrightarrow{PC}
+= \overrightarrow{AC} - \overrightarrow{AP}
+= \overrightarrow{AC} - (s\overrightarrow{AB} + t\overrightarrow{AC})
+= -s\overrightarrow{AB} + (1-t)\overrightarrow{AC}.
+$$
+
+(1) より
+$$
+\overrightarrow{AB}\cdot\overrightarrow{AB} = |\overrightarrow{AB}|^2 = 1,\quad
+\overrightarrow{AC}\cdot\overrightarrow{AC} = |\overrightarrow{AC}|^2 = 4,\quad
+\overrightarrow{AB}\cdot\overrightarrow{AC} = -\frac12
+$$
+である。そこで
+\[
+|\overrightarrow{PB}|^2 = 1,\quad
+|\overrightarrow{PC}|^2 = 4
+\]
+を用いて $s,t$ を求める。
+
+まず，
+$$
+|\overrightarrow{PB}|^2
+= \bigl((1-s)\overrightarrow{AB} - t\overrightarrow{AC}\bigr)\cdot\bigl((1-s)\overrightarrow{AB} - t\overrightarrow{AC}\bigr)
+$$
+$$
+= (1-s)^2(\overrightarrow{AB}\cdot\overrightarrow{AB})
+- 2t(1-s)(\overrightarrow{AB}\cdot\overrightarrow{AC})
++ t^2(\overrightarrow{AC}\cdot\overrightarrow{AC})
+$$
+$$
+= (1-s)^2\cdot1 - 2t(1-s)\left(-\frac12\right) + t^2\cdot4
+$$
+$$
+= (1-s)^2 + t(1-s) + 4t^2.
+$$
+これが 1 に等しいので
+$$
+(1-s)^2 + t(1-s) + 4t^2 = 1. \tag{①}
+$$
+
+同様に
+$$
+|\overrightarrow{PC}|^2
+= \bigl(-s\overrightarrow{AB} + (1-t)\overrightarrow{AC}\bigr)\cdot\bigl(-s\overrightarrow{AB} + (1-t)\overrightarrow{AC}\bigr)
+$$
+$$
+= s^2(\overrightarrow{AB}\cdot\overrightarrow{AB})
+- 2s(1-t)(\overrightarrow{AB}\cdot\overrightarrow{AC})
++ (1-t)^2(\overrightarrow{AC}\cdot\overrightarrow{AC})
+$$
+$$
+= s^2\cdot1 - 2s(1-t)\left(-\frac12\right) + (1-t)^2\cdot4
+$$
+$$
+= s^2 + s(1-t) + 4(1-t)^2.
+$$
+これが 4 に等しいので
+$$
+s^2 + s(1-t) + 4(1-t)^2 = 4. \tag{②}
+$$
+
+①,② を整理する。①より
+$$
+(1-s)^2 + t(1-s) + 4t^2 - 1 = 0
+$$
+$$
+\Rightarrow\quad
+(1 - 2s + s^2) + t - st + 4t^2 - 1 = 0
+$$
+$$
+\Rightarrow\quad
+s^2 - 2s + t - st + 4t^2 = 0. \tag{Ⅰ}
+$$
+
+②より
+$$
+s^2 + s(1-t) + 4(1 - 2t + t^2) - 4 = 0
+$$
+$$
+\Rightarrow\quad
+s^2 + s - st + 4 - 8t + 4t^2 - 4 = 0
+$$
+$$
+\Rightarrow\quad
+s^2 + s - st - 8t + 4t^2 = 0. \tag{Ⅱ}
+$$
+
+(Ⅰ) と (Ⅱ) の差をとると，
+$$
+(Ⅱ) - (Ⅰ):\quad
+(s^2 + s - st - 8t + 4t^2) - (s^2 - 2s + t - st + 4t^2) = 0
+$$
+$$
+\Rightarrow\quad
+s^2 + s - st - 8t + 4t^2 - s^2 + 2s - t + st - 4t^2 = 0
+$$
+$$
+\Rightarrow\quad
+3s - 9t = 0
+\quad\Rightarrow\quad
+s = 3t.
+$$
+
+これを (Ⅰ) に代入する：
+$$
+s = 3t \text{ とおくと，}
+$$
+$$
+s^2 - 2s + t - st + 4t^2 = 0
+$$
+は
+$$
+(3t)^2 - 2(3t) + t - (3t)t + 4t^2 = 0
+$$
+$$
+\Rightarrow\quad
+9t^2 - 6t + t - 3t^2 + 4t^2 = 0
+$$
+$$
+\Rightarrow\quad
+(9t^2 - 3t^2 + 4t^2) + (-6t + t) = 0
+$$
+$$
+\Rightarrow\quad
+10t^2 - 5t = 0
+\quad\Rightarrow\quad
+5t(2t - 1) = 0.
+$$
+したがって $t = 0$ または $t = \dfrac12$ である。
+
+$t=0$ のとき $s=3t=0$ となり，$\overrightarrow{AP}=\vec0$ となるが，$P\neq A$ なのでこれは不適である。よって
+$$
+t = \frac12,\quad s = 3t = \frac32
+$$
+が求める値である。
+
+したがって
+$$
+\overrightarrow{AP}
+= \frac32\,\overrightarrow{AB} + \frac12\,\overrightarrow{AC}.
+$$
+
+---
+
+(3)  
+直線 $AP$ と直線 $BC$ の交点を $D$ とする。$P$ は頂点 $A$ の対頂点（円周上で $A$ と反対側の点）ではないが，$O$ は外心であり，$AO$ は弦 $BC$ の垂直二等分線なので，$AP$ も $BC$ の垂直二等分線である。したがって，$D$ は弦 $BC$ の中点であり，
+$$
+BD = DC = \frac{BC}{2} = \frac{\sqrt6}{2}
+$$
+となる。
+
+線分 $AD$ の長さを求めるため，三角形 $ABD$ を考える。辺の長さは
+$$
+AB = 1,\quad BD = \frac{\sqrt6}{2}
+$$
+であり，さらに角 $\angle ABD$ を求める。角 $\angle ABC$ は，三角形 $ABC$ に余弦定理を用いて求められる。
+
+角 $\angle ABC$ に対して余弦定理を用いると，
+$$
+AC^2 = AB^2 + BC^2 - 2\,AB\cdot BC\cos\angle ABC
+$$
+より
+$$
+2^2 = 1^2 + (\sqrt6)^2 - 2\cdot1\cdot\sqrt6\cos\angle ABC
+$$
+$$
+\Rightarrow\quad
+4 = 1 + 6 - 2\sqrt6\cos\angle ABC
+$$
+$$
+\Rightarrow\quad
+4 = 7 - 2\sqrt6\cos\angle ABC
+$$
+$$
+\Rightarrow\quad
+2\sqrt6\cos\angle ABC = 3
+\quad\Rightarrow\quad
+\cos\angle ABC = \frac{3}{2\sqrt6}.
+$$
+
+点 $D$ は $BC$ の中点であり，$AD$ は $BC$ に垂直なので，
+$$
+\angle ABD + \angle ABC = 90^\circ
+$$
+である（直角の補角の関係）。したがって
+$$
+\cos\angle ABD = \sin\angle ABC.
+$$
+ここで $\cos\angle ABC = \dfrac{3}{2\sqrt6}$ であるから，
+$$
+\sin^2\angle ABC
+= 1 - \cos^2\angle ABC
+= 1 - \left(\frac{3}{2\sqrt6}\right)^2
+= 1 - \frac{9}{24}
+= 1 - \frac{3}{8}
+= \frac{5}{8}.
+$$
+よって
+$$
+\sin\angle ABC = \sqrt{\frac{5}{8}} = \frac{\sqrt{10}}{4}
+$$
+（角は鋭角なので正の値をとる）。したがって
+$$
+\cos\angle ABD = \sin\angle ABC = \frac{\sqrt{10}}{4}.
+$$
+
+三角形 $ABD$ に余弦定理を適用すると，
+$$
+AD^2 = AB^2 + BD^2 - 2\,AB\cdot BD\cos\angle ABD
+$$
+より
+$$
+AD^2
+= 1^2 + \left(\frac{\sqrt6}{2}\right)^2 - 2\cdot1\cdot\frac{\sqrt6}{2}\cdot\frac{\sqrt{10}}{4}
+$$
+$$
+= 1 + \frac{6}{4} - \sqrt6\cdot\frac{\sqrt{10}}{4}
+= 1 + \frac32 - \frac{\sqrt{60}}{4}
+$$
+$$
+= \frac52 - \frac{2\sqrt{15}}{4}
+= \frac52 - \frac{\sqrt{15}}{2}
+= \frac{5 - \sqrt{15}}{2}.
+$$
+
+したがって
+$$
+AD = \sqrt{\frac{5 - \sqrt{15}}{2}}.
+$$

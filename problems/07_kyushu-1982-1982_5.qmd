@@ -1,0 +1,34 @@
+---
+title: "九州大学 1982年 1982_5"
+problem_id: "07_kyushu-1982-1982_5"
+university: "九州大学"
+exam_year: "1982"
+source_tex: "archive/07_kyushu/1982/1982_5.tex"
+pdf_source: "archive/07_kyushu/1982/1982_5.pdf"
+page_image: "archive/07_kyushu/1982/1982_5.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$x\geqq0$で定義された微分可能な関数$y=f(x)$のグラフ$C$は，上に凸であって，$f(0)\geqq0$とする．
+グラフ$C$上に定点$A(\alpha, \, f(\alpha))$と点$P(x, \, f(x))$ $(x>\alpha)$をとるとき，
+原点$O$と$A$，$P$を結ぶ線分$OA$，$OP$とグラフ$C$とによって囲まれる部分の面積を$S(x)$とするとき，
+次の(1)，(2)，(3)に答えよ．
+\begin{description}
+\item[(1)]$S(x)$を定積分$\displaystyle\int_\alpha^xf(t)dt$と$x$，$f(x)$，$\alpha$，$f(\alpha)$とで表せ．
+\item[(2)]$\displaystyle f(x)=\frac{b}{a}\sqrt{a^2-x^2}$ $(a, \, b>0)$の場合に，
+変数$x$を$x=a\sin\theta$ $\displaystyle\left(0\leqq\theta\leqq\frac{1}{2}\pi\right)$とおいて，
+面積$S(x)$の$\theta$に関する変化率を求めよ．
+\item[(3)]$\alpha=0$のとき，$S(x)=x^3\log(x+1)$になる$f(x)$を$f(x)=xg(x)$とおいて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1982/1982_5.pdf)

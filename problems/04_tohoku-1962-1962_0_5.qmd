@@ -1,0 +1,31 @@
+---
+title: "東北大学 1962年 1962_0_5"
+problem_id: "04_tohoku-1962-1962_0_5"
+university: "東北大学"
+exam_year: "1962"
+source_tex: "archive/04_tohoku/1962/1962_0_5.tex"
+pdf_source: "archive/04_tohoku/1962/1962_0_5.pdf"
+page_image: "archive/04_tohoku/1962/1962_0_5.jpg"
+fields:
+  - 指数・対数
+  - 不等式
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　正数$t$の常用対数を$a$，その指標を$n$，その仮数を$k$とするとき，
+次の3条件がすべて成立するという。
+このような$t$の値の全範囲を求めよ。
+\begin{description}
+\item[(i)]$x$の方程式$x^2+nx+a=0$は実根をもつ。
+\item[(ii)]$\displaystyle -1 \leqq a \leqq \frac{11}{2}$
+\item[(iii)]$k$は$\log2$より小さい。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1962/1962_0_5.pdf)

@@ -1,0 +1,27 @@
+---
+title: "東北大学 1983年 1983_0_3"
+problem_id: "04_tohoku-1983-1983_0_3"
+university: "東北大学"
+exam_year: "1983"
+source_tex: "archive/04_tohoku/1983/1983_0_3.tex"
+pdf_source: "archive/04_tohoku/1983/1983_0_3.pdf"
+page_image: "archive/04_tohoku/1983/1983_0_3.jpg"
+fields:
+  - 積分法
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]$f(t)$は$t$の4次式で，任意の実数$x$に対して$\displaystyle\int_{x-1}^xf(t)dt=x^4$を満たすという．
+$f(t)$を求めよ．
+\item[(2)](1)を利用して$\displaystyle\sum_{k=1}^nk^4$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1983/1983_0_3.pdf)

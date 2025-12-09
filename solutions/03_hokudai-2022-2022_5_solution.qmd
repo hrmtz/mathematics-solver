@@ -1,0 +1,193 @@
+## 解答
+
+(1)  
+
+複素数 $z=x+yi\ (x,y\in\mathbb{R})$ とおく。
+
+まず，方程式 $\text{\ding{"AC}}:\ z\bar{z}=4$ について考える。  
+$z\bar{z}=|z|^2$ であるから，
+$$
+z\bar{z}=4 \ \Longleftrightarrow\ |z|^2=4 \ \Longleftrightarrow\ |z|=2
+$$
+となる。これは原点を中心とし半径 $2$ の円を表す。
+
+次に，方程式 $\text{\ding{"AD}}:\ |z|=|z-\sqrt3+i|$ について考える。  
+$z$ の原点からの距離と，点 $\sqrt3-i$（ただし $z-\sqrt3+i$ の実部は $x-\sqrt3$，虚部は $y+1$ なので，対応する点は $(\sqrt3,-1)$）からの距離が等しいことを表すから，原点 $O(0,0)$ と点 $A(\sqrt3,-1)$ を結ぶ線分の垂直二等分線となる。
+
+この直線の方程式を求めるために，両辺を 2 乗する：
+$$
+|z|=|z-\sqrt3+i|
+\ \Longleftrightarrow\ 
+x^2+y^2=(x-\sqrt3)^2+(y+1)^2.
+$$
+右辺を展開すると
+$$
+(x-\sqrt3)^2+(y+1)^2
+=x^2-2\sqrt3\,x+3+y^2+2y+1
+=x^2+y^2-2\sqrt3\,x+2y+4
+$$
+であるから，
+$$
+x^2+y^2 = x^2+y^2-2\sqrt3\,x+2y+4
+$$
+より
+$$
+0=-2\sqrt3\,x+2y+4
+\ \Longleftrightarrow\
+2\sqrt3\,x-2y-4=0
+\ \Longleftrightarrow\
+\sqrt3\,x-y-2=0.
+$$
+したがって $\text{\ding{"AD}}$ の表す図形は，直線
+$$
+\sqrt3\,x-y-2=0
+$$
+である。
+
+以上より，
+
+- $\text{\ding{"AC}}$: 原点中心，半径 $2$ の円
+- $\text{\ding{"AD}}$: 直線 $\sqrt3\,x-y-2=0$
+
+を複素数平面上に図示すればよい。
+
+---
+
+(2)  
+
+(1) でおいた $z=x+yi$ とし，両方の条件を満たす点を求める。
+
+$\text{\ding{"AC}}$ は $x^2+y^2=4$，  
+$\text{\ding{"AD}}$ は $\sqrt3\,x-y-2=0$，
+すなわち
+$$
+y=\sqrt3\,x-2
+$$
+である。これを円の式に代入する：
+$$
+x^2+(\sqrt3\,x-2)^2=4.
+$$
+右辺を展開すると
+$$
+(\sqrt3\,x-2)^2=3x^2-4\sqrt3\,x+4
+$$
+なので，
+$$
+x^2+3x^2-4\sqrt3\,x+4=4
+\ \Longleftrightarrow\
+4x^2-4\sqrt3\,x=0
+\ \Longleftrightarrow\
+4x(x-\sqrt3)=0.
+$$
+よって
+$$
+x=0 \quad \text{または} \quad x=\sqrt3.
+$$
+
+各場合に $y$ を求める：
+
+- $x=0$ のとき  
+  $y=\sqrt3\cdot 0-2=-2$  
+  よって $z=-2i$。
+
+- $x=\sqrt3$ のとき  
+  $y=\sqrt3\cdot\sqrt3-2=3-2=1$  
+  よって $z=\sqrt3+i$。
+
+したがって，共通解は
+$$
+z=-2i,\ \ \ z=\sqrt3+i
+$$
+の 2 個である。
+
+---
+
+(3)  
+
+(2) で求めたすべての複素数の積を $w$ とするので，
+$$
+w=(-2i)(\sqrt3+i)
+$$
+を計算する。  
+分配法則より
+$$
+w=-2i\sqrt3-2i^2=-2\sqrt3\,i-2(-1)=-2\sqrt3\,i+2
+$$
+であるから，
+$$
+w=2-2\sqrt3\,i.
+$$
+
+まず $w$ を極形式に表す。  
+実部が $2$，虚部が $-2\sqrt3$ なので，
+$$
+|w|=\sqrt{2^2+(-2\sqrt3)^2}
+=\sqrt{4+12}
+=\sqrt{16}=4.
+$$
+次に偏角 $\theta$ を求める。  
+$\tan\theta=\dfrac{\text{虚部}}{\text{実部}}=\dfrac{-2\sqrt3}{2}=-\sqrt3$，かつ $w$ は第4象限（実部正，虚部負）にあるから，
+$$
+\theta=-\frac{\pi}{3}
+$$
+とわかる。したがって
+$$
+w=4\left(\cos\left(-\frac{\pi}{3}\right)+i\sin\left(-\frac{\pi}{3}\right)\right)
+$$
+と表せる。
+
+ド・モアブルの定理より
+$$
+w^n
+=4^n\left(\cos\left(-\frac{n\pi}{3}\right)+i\sin\left(-\frac{n\pi}{3}\right)\right).
+$$
+
+$w^n$ が負の実数となる条件は，
+1. 虚部が $0$ すなわち $\sin\left(-\dfrac{n\pi}{3}\right)=0$ であること  
+2. 実部が負，すなわち $\cos\left(-\dfrac{n\pi}{3}\right)<0$ であること  
+
+の 2 つである。$\sin$ は奇関数，$\cos$ は偶関数なので，
+$$
+\sin\left(-\frac{n\pi}{3}\right)=-\sin\left(\frac{n\pi}{3}\right),\quad
+\cos\left(-\frac{n\pi}{3}\right)=\cos\left(\frac{n\pi}{3}\right)
+$$
+であるから，条件は
+$$
+\sin\left(\frac{n\pi}{3}\right)=0,\quad \cos\left(\frac{n\pi}{3}\right)<0
+$$
+と同値である。
+
+まず，
+$$
+\sin\left(\frac{n\pi}{3}\right)=0
+\ \Longleftrightarrow\
+\frac{n\pi}{3}=k\pi\ (k\in\mathbb{Z})
+\ \Longleftrightarrow\
+n=3k\ (k\in\mathbb{Z})
+$$
+である。したがって $n$ は $3$ の倍数である。
+
+次に $n=3k$ とおくと
+$$
+\cos\left(\frac{n\pi}{3}\right)
+=\cos(k\pi)
+=(-1)^k.
+$$
+これが負となるには
+$$
+(-1)^k<0
+\ \Longleftrightarrow\
+k\ \text{は奇数}
+$$
+でなければならない。よって $k=2m+1\ (m\in\mathbb{Z})$ と書けるので，
+$$
+n=3k=3(2m+1)=6m+3\quad (m\in\mathbb{Z})
+$$
+となる。
+
+以上より，
+$$
+w^n\ \text{が負の実数となるための整数}\ n\ \text{の必要十分条件は}
+\quad n\equiv 3\pmod{6}
+$$
+すなわち $n=6m+3\ (m\in\mathbb{Z})$ である。

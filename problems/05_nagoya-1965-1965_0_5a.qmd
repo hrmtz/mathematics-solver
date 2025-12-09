@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 1965年 1965_0_5a"
+problem_id: "05_nagoya-1965-1965_0_5a"
+university: "名古屋大学"
+exam_year: "1965"
+source_tex: "archive/05_nagoya/1965/1965_0_5a.tex"
+pdf_source: "archive/05_nagoya/1965/1965_0_5a.pdf"
+page_image: "archive/05_nagoya/1965/1965_0_5a.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5 (a)
+　三角形の3つの高さがそれぞれ6，4，3であるとき，
+\begin{description}
+\item[(a)]最小頂角の余弦を求めよ。
+\item[(b)]3辺の長さを求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1965/1965_0_5a.pdf)

@@ -1,0 +1,23 @@
+---
+title: "東京科学大学 1962年 1962_1"
+problem_id: "08_titech-1962-1962_1"
+university: "東京科学大学"
+exam_year: "1962"
+source_tex: "archive/08_titech/1962/1962_1.tex"
+pdf_source: "archive/08_titech/1962/1962_1.pdf"
+page_image: "archive/08_titech/1962/1962_1.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　不等式$0 \leqq n<m$を満たす整数$m$，$n$によって
+$5m+n$の形に表わされない正の整数を列挙せよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1962/1962_1.pdf)

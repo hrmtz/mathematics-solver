@@ -1,0 +1,31 @@
+---
+title: "東京大学 1961年 1961_6"
+problem_id: "01_tokyo-1961-1961_6"
+university: "東京大学"
+exam_year: "1961"
+source_tex: "archive/01_tokyo/1961/1961_6.tex"
+pdf_source: "archive/01_tokyo/1961/1961_6.pdf"
+page_image: "archive/01_tokyo/1961/1961_6.jpg"
+fields:
+  - 三角関数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$a$，$b$，$c$は定数であって，
+函数$f(x)=a\sin x+b\cos x+c\sin 2x$は$\displaystyle x=\frac{\pi}{4}$において極大値$6\sqrt2$をとり，
+また$\displaystyle\int_0^{2\pi}f(x)\cos xdx=5\pi$である．
+このとき
+\begin{description}
+\item[(1)]$a$，$b$，$c$を求めよ．
+\item[(2)]$0 \leqq x \leqq 2\pi$の範囲で$f(x)$を最小にする$x$の値とそのときの$f(x)$の値とを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1961/1961_6.pdf)
+元問題スキャン: ![](../archive/01_tokyo/1961/1961_6.jpg)

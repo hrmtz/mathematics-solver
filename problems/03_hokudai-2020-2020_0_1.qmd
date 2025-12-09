@@ -1,0 +1,31 @@
+---
+title: "北海道大学 2020年 2020_0_1"
+problem_id: "03_hokudai-2020-2020_0_1"
+university: "北海道大学"
+exam_year: "2020"
+source_tex: "archive/03_hokudai/2020/2020_0_1.tex"
+pdf_source: "archive/03_hokudai/2020/2020_0_1.pdf"
+page_image: "archive/03_hokudai/2020/2020_0_1.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$k$を正の実数とする。座標平面上に直線$l:y=kx+1$と放物線$C:y=x^2$がある。
+$l$と$C$の交点のうち$x$座標の小さい方をP，大きい方をQとする。
+さらに，線分PQの垂直二等分線を$m$とし，$m$と$C$の交点のうち
+$x$座標の小さい方をR，大きい方をSとする。
+\begin{description}
+\item[(1)]線分PQの中点Mの座標を$k$を用いて表せ。
+\item[(2)]$k$が正の実数を動くとき，線分RSの中点Nの$y$座標が最小となる$k$の値を求めよ。
+また，そのときのPとQの座標を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2020/2020_0_1.pdf)

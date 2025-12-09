@@ -1,0 +1,25 @@
+---
+title: "九州大学 1978年 1978_5"
+problem_id: "07_kyushu-1978-1978_5"
+university: "九州大学"
+exam_year: "1978"
+source_tex: "archive/07_kyushu/1978/1978_5.tex"
+pdf_source: "archive/07_kyushu/1978/1978_5.pdf"
+page_image: "archive/07_kyushu/1978/1978_5.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$\alpha$，$\beta$は$\alpha>\beta>0$を満たす定数とする．
+点$(x, \, y)$が$x>0$，$xy\geqq1$を満たす範囲を動くとき，
+$\alpha(x+y)+\beta(x-y)$を最小にする$x$，$y$の値およびその最小値を$\alpha$，$\beta$で表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1978/1978_5.pdf)

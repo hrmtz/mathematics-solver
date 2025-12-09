@@ -1,0 +1,29 @@
+---
+title: "九州大学 1997年 1997_0_1"
+problem_id: "07_kyushu-1997-1997_0_1"
+university: "九州大学"
+exam_year: "1997"
+source_tex: "archive/07_kyushu/1997/1997_0_1.tex"
+pdf_source: "archive/07_kyushu/1997/1997_0_1.pdf"
+page_image: "archive/07_kyushu/1997/1997_0_1.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　2定点$O(0, \, 0)$，$A(4, \, 2)$と
+円${(x-2)}^2+{(y-2)}^2=4$の周上を動く点$P$がある．
+\begin{description}
+\item[(1)]3点$O$，$A$，$P$が同一直線上にあるとき，$A$と異なる点$P$の座標を求めよ．
+\item[(2)]3点$O$，$A$，$P$が同一直線上にないとき，$\triangle OAP$の重心の軌跡を求めよ．
+\item[(3)]3点$O$，$A$，$P$が同一直線上にないとき，$\triangle OAP$の面積の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_0_1.pdf)

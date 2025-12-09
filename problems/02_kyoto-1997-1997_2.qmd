@@ -1,0 +1,23 @@
+---
+title: "京都大学 1997年 1997_2"
+problem_id: "02_kyoto-1997-1997_2"
+university: "京都大学"
+exam_year: "1997"
+source_tex: "archive/02_kyoto/1997/1997_2.tex"
+pdf_source: "archive/02_kyoto/1997/1997_2.pdf"
+page_image: "archive/02_kyoto/1997/1997_2.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$n$が相異なる素数$p$，$q$の積，$n=pq$，であるとき，
+$(n-1)$個の数${}_nC_k$ $(1 \leqq k \leqq n-1)$の最大公約数は1であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1997/1997_2.pdf)

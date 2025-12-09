@@ -1,0 +1,27 @@
+---
+title: "京都大学 2017年 2017_4"
+problem_id: "02_kyoto-2017-2017_4"
+university: "京都大学"
+exam_year: "2017"
+source_tex: "archive/02_kyoto/2017/2017_4.tex"
+pdf_source: "archive/02_kyoto/2017/2017_4.pdf"
+page_image: "archive/02_kyoto/2017/2017_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$\triangle ABC$は鋭角三角形であり，$\displaystyle \angle A=\frac{\pi}{3}$であるとする．
+また$\triangle ABC$の外接円の半径は1であるとする．
+\begin{description}
+\item[(1)]$\triangle ABC$の内心を$P$とするとき，$\angle BPC$を求めよ．
+\item[(2)]$\triangle ABC$の内接円の半径$r$の取りうる値の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2017/2017_4.pdf)

@@ -1,0 +1,26 @@
+---
+title: "北海道大学 1991年 1991_b"
+problem_id: "03_hokudai-1991-1991_b"
+university: "北海道大学"
+exam_year: "1991"
+source_tex: "archive/03_hokudai/1991/1991_b.tex"
+pdf_source: "archive/03_hokudai/1991/1991_b.pdf"
+page_image: "archive/03_hokudai/1991/1991_b.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　点$(0, \, 0, \, 1)$を通り$x$軸と平行な直線を$l$とし，方程式
+\[ \sqrt5 \, x-3=\sqrt2 \, y-2=z \]
+で定まる直線を$m$とする．
+直線$m$上に中心をもつ球$S$が$y$軸および$l$と接している．
+球$S$の半径と球$S$の中心の座標を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1991/1991_b.pdf)

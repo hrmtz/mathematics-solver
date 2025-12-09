@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1994年 1994_d"
+problem_id: "03_hokudai-1994-1994_d"
+university: "北海道大学"
+exam_year: "1994"
+source_tex: "archive/03_hokudai/1994/1994_d.tex"
+pdf_source: "archive/03_hokudai/1994/1994_d.pdf"
+page_image: "archive/03_hokudai/1994/1994_d.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$n$を正の整数とする．
+1から6までの目が等しい確率で出るサイコロを用いて試行を行う．
+サイコロを連続して投げて出た目を加えていき，その目の和が初めて6の倍数になるか，
+あるいは，$n$回目を投げ終えたとき試行が終了するものとする．
+\begin{description}
+\item[(1)]$1 \leqq k \leqq n$に対して，試行が$k$回目で終了する確率を求めよ．
+\item[(2)]試行が終了するのに要する回数の期待値$E_n$を求めよ．
+また，$\displaystyle\lim_{n\to\infty}E_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_d.pdf)

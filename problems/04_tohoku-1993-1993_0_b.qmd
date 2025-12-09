@@ -1,0 +1,32 @@
+---
+title: "東北大学 1993年 1993_0_b"
+problem_id: "04_tohoku-1993-1993_0_b"
+university: "東北大学"
+exam_year: "1993"
+source_tex: "archive/04_tohoku/1993/1993_0_b.tex"
+pdf_source: "archive/04_tohoku/1993/1993_0_b.pdf"
+page_image: "archive/04_tohoku/1993/1993_0_b.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　原点を$O$とし，2点$A_1(r_1\cos\theta, \, r_1\sin\theta)$，
+$\displaystyle A_2\left(r_2\cos\left(\theta+\frac{\pi}{2}\right), \,
+r_2\sin\left(\theta+\frac{\pi}{2}\right)\right)$が楕円
+\[ \frac{x^2}{a^2}+\frac{y^2}{b^2}=1 \hspace{1zw} (a>0, \, b>0) \]
+の上にあるとする．ただし，$r_1>0$，$r_2>0$とする．
+\begin{description}
+\item[(1)]三角形$OA_1A_2$の面積$S$を$a$，$b$，$\theta$で表せ．
+\item[(2)]$\theta$が$0\leqq\theta\leqq\pi$の範囲で変化するとき，
+$S$の最大値と最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_0_b.pdf)

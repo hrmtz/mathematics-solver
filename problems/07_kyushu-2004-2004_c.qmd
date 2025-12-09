@@ -1,0 +1,30 @@
+---
+title: "九州大学 2004年 2004_c"
+problem_id: "07_kyushu-2004-2004_c"
+university: "九州大学"
+exam_year: "2004"
+source_tex: "archive/07_kyushu/2004/2004_c.tex"
+pdf_source: "archive/07_kyushu/2004/2004_c.pdf"
+page_image: "archive/07_kyushu/2004/2004_c.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　曲線$\displaystyle C:y=\frac{1}{x}$ $(x>0)$と直線$\displaystyle l:y=-x+\frac{5}{2}$について
+次の問いに答えよ．
+\begin{description}
+\item[(1)]$C$上の点$\displaystyle P\left(p, \, \frac{1}{p}\right)$から$l$に下ろした垂線が
+$l$と交わる点を$Q$とする．線分$PQ$の長さを$p$を用いて表せ．
+\item[(2)]$C$と$l$によって囲まれた図形を$l$のまわりに1回転して得られる回転体の体積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2004/2004_c.pdf)

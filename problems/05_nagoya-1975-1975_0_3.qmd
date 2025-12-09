@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 1975年 1975_0_3"
+problem_id: "05_nagoya-1975-1975_0_3"
+university: "名古屋大学"
+exam_year: "1975"
+source_tex: "archive/05_nagoya/1975/1975_0_3.tex"
+pdf_source: "archive/05_nagoya/1975/1975_0_3.pdf"
+page_image: "archive/05_nagoya/1975/1975_0_3.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$x$の3次式$f(x)$でそのグラフが3点$O(0, \, 0)$，$A(1, \, 1)$，$B(3, \, 9)$を通るものを考える．
+次の(1)，(2)を解答せよ．
+\begin{description}
+\item[(1)]2点$O$，$B$でのグラフの接線が平行になるとき，$f(x)$を求めよ．
+\item[(2)]2点$O$，$B$でのグラフの接線が直交するとき，点$O$での接線の方程式を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1975/1975_0_3.pdf)

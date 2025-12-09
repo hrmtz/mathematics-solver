@@ -1,0 +1,180 @@
+## 解答
+
+(1)  
+
+三角形 $ABC$ において，ベクトル方程式を用いる。  
+$\overrightarrow{AB},\overrightarrow{AC}$ を基底ベクトルとして表す。
+
+点 $D$ は辺 $AB$ を $s:1$ に内分するから，内分点の公式より  
+$$
+\overrightarrow{AD}
+=\frac{1}{s+1}\overrightarrow{AB}
+$$
+となる。よって
+$$
+\overrightarrow{CD}
+=\overrightarrow{AD}-\overrightarrow{AC}
+=\frac{1}{s+1}\overrightarrow{AB}-\overrightarrow{AC}.
+$$
+
+同様に，点 $E$ は辺 $BC$ を $s:3$ に内分するから
+$$
+\overrightarrow{BE}=\frac{3}{s+3}\overrightarrow{BC}
+=\frac{3}{s+3}(\overrightarrow{AC}-\overrightarrow{AB})
+$$
+より
+$$
+\overrightarrow{AE}
+=\overrightarrow{AB}+\overrightarrow{BE}
+=\overrightarrow{AB}+\frac{3}{s+3}(\overrightarrow{AC}-\overrightarrow{AB})
+=\frac{s}{s+3}\overrightarrow{AB}+\frac{3}{s+3}\overrightarrow{AC}.
+$$
+
+点 $F$ は $CD$ 上にあり，$\overrightarrow{CF}=t\overrightarrow{CD}$ とおくと
+$$
+\overrightarrow{AF}
+=\overrightarrow{AC}+\overrightarrow{CF}
+=\overrightarrow{AC}+t\left(\frac{1}{s+1}\overrightarrow{AB}-\overrightarrow{AC}\right)
+=\frac{t}{s+1}\overrightarrow{AB}+(1-t)\overrightarrow{AC}
+$$
+と表せる。
+
+また $F$ は $AE$ 上にもあり，$\overrightarrow{AF}=u\overrightarrow{AE}$ とおくと
+$$
+\overrightarrow{AF}
+=u\left(\frac{s}{s+3}\overrightarrow{AB}+\frac{3}{s+3}\overrightarrow{AC}\right)
+=\frac{us}{s+3}\overrightarrow{AB}+\frac{3u}{s+3}\overrightarrow{AC}.
+$$
+
+これら 2 通りの表し方が同じベクトルを表すので，係数比較により
+$$
+\frac{t}{s+1}=\frac{us}{s+3},\quad
+1-t=\frac{3u}{s+3}
+$$
+が成り立つ。第2式から
+$$
+u=\frac{(1-t)(s+3)}{3}
+$$
+とおき，これを第1式に代入すると
+$$
+\frac{t}{s+1}
+=\frac{s}{s+3}\cdot \frac{(1-t)(s+3)}{3}
+=\frac{s(1-t)}{3}
+$$
+すなわち
+$$
+3t=s(1-t)(s+1)
+$$
+となる。右辺を展開して
+$$
+3t=s\bigl((s+1)-t(s+1)\bigr)
+=s(s+1)-s(s+1)t
+$$
+ゆえに
+$$
+3t+s(s+1)t=s(s+1)
+$$
+であり，
+$$
+t\bigl(3+s(s+1)\bigr)=s(s+1)
+$$
+したがって
+$$
+t=\frac{s(s+1)}{s^2+s+3}.
+$$
+
+よって
+$$
+1-t
+=1-\frac{s(s+1)}{s^2+s+3}
+=\frac{s^2+s+3-s^2-s}{s^2+s+3}
+=\frac{3}{s^2+s+3}.
+$$
+
+したがって
+$$
+\overrightarrow{AF}
+=\frac{t}{s+1}\overrightarrow{AB}+(1-t)\overrightarrow{AC}
+=\frac{s}{s^2+s+3}\overrightarrow{AB}
++\frac{3}{s^2+s+3}\overrightarrow{AC}.
+$$
+
+よって求める係数は
+$$
+\alpha=\frac{s}{s^2+s+3},\quad
+\beta=\frac{3}{s^2+s+3}
+$$
+である。
+
+---
+
+(2)  
+
+(1)より
+$$
+\overrightarrow{AF}
+=\alpha\overrightarrow{AB}+\beta\overrightarrow{AC},\quad
+\alpha=\frac{s}{s^2+s+3},\ \beta=\frac{3}{s^2+s+3}
+$$
+である。$FG$ は $F$ から辺 $AC$ へ下ろした垂線であり，その長さは線分 $AC$ への距離である。
+
+ここで，$\overrightarrow{AC}$ の大きさを $c=|\overrightarrow{AC}|$ とおく。  
+三角形 $ABC$ は鋭角三角形なので，辺 $AC$ の垂線に沿った成分を考えるのに支障はない。
+
+点 $F$ の $AC$ に関する座標成分を考えるため，$\overrightarrow{AC}$ 方向とそれに垂直な方向に分解する。  
+$\overrightarrow{AB}$ を $\overrightarrow{AC}$ の成分と垂直成分に分けると
+$$
+\overrightarrow{AB}
+=p\overrightarrow{AC}+\mathbf{v}
+$$
+と書ける。ただし $\mathbf{v}$ は $\overrightarrow{AC}$ に垂直なベクトルである。$p$ は実数である。
+
+このとき
+$$
+\overrightarrow{AF}
+=\alpha\overrightarrow{AB}+\beta\overrightarrow{AC}
+=\alpha(p\overrightarrow{AC}+\mathbf{v})+\beta\overrightarrow{AC}
+=(\alpha p+\beta)\overrightarrow{AC}+\alpha\mathbf{v}.
+$$
+
+したがって，$\overrightarrow{AF}$ のうち，辺 $AC$ に垂直な成分は $\alpha\mathbf{v}$ である。  
+$FG$ の長さは，$\overrightarrow{AF}$ の $AC$ に垂直な成分の大きさ，すなわち $|\alpha\mathbf{v}|$ に等しい。よって
+$$
+FG=|\alpha|\cdot|\mathbf{v}|.
+$$
+
+ここで $\mathbf{v}$ は $s$ に依らない一定ベクトルであり，三角形が鋭角なので $\alpha>0$ であるから，$FG$ の長さを最大にするには $\alpha$ を最大にすればよい。
+
+そこで
+$$
+\alpha=\frac{s}{s^2+s+3}
+$$
+の最大値を求める。分母は $s>0$ のとき常に正なので，実数関数
+$$
+f(s)=\frac{s}{s^2+s+3}\quad(s>0)
+$$
+の最大値を調べればよい。微分して
+$$
+f'(s)=\frac{(s^2+s+3)-s(2s+1)}{(s^2+s+3)^2}
+=\frac{-s^2+3}{(s^2+s+3)^2}.
+$$
+
+分母は正なので，符号は分子 $-s^2+3$ によって決まる。  
+$$
+-s^2+3=0 \quad\Longleftrightarrow\quad s^2=3\quad\Longleftrightarrow\quad s=\sqrt{3}\ (\text{正の解})
+$$
+であり，
+$$
+\begin{cases}
+0<s<\sqrt{3} &\Rightarrow -s^2+3>0\Rightarrow f'(s)>0,\\
+s>\sqrt{3}   &\Rightarrow -s^2+3<0\Rightarrow f'(s)<0.
+\end{cases}
+$$
+
+したがって $s=\sqrt{3}$ で $f(s)$ は増加から減少に変わり，$f(s)$ の最大値は $s=\sqrt{3}$ のときにとられる。
+
+よって $FG$ の長さが最大となるのは
+$$
+s=\sqrt{3}
+$$
+のときである。

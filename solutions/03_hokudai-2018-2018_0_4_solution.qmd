@@ -1,0 +1,263 @@
+## 解答
+
+(1)  
+
+$C_1: y=x^3+px^2+x$ と $C_2: y=x^2$ の共有点は，  
+$$
+x^3+px^2+x=x^2
+$$
+より
+$$
+x^3+(p-1)x^2+x=0
+$$
+の解である。これを
+$$
+x\{x^2+(p-1)x+1\}=0
+$$
+と因数分解できる。したがって共有点の $x$ 座標は  
+$$
+x=0,\quad x^2+(p-1)x+1=0
+$$
+の解である。
+
+$x>0$ の範囲に共有点を 2 個もつ，という条件から次の 2 点に注意する。
+
+- $x=0$ は $x>0$ の範囲に含まれないので，2 個の共有点はいずれも  
+  2 次方程式 $x^2+(p-1)x+1=0$ の正の解でなければならない。
+- 2 次方程式が異なる 2 つの実数解を持ち，しかも両方とも正であることが必要十分である。
+
+まず実数解が 2 つあるための判別式条件：
+$$
+\Delta=(p-1)^2-4>0
+$$
+より
+$$
+(p-1)^2>4
+\Longleftrightarrow p-1>2 \ \text{または}\ p-1<-2
+\Longleftrightarrow p>3 \ \text{または}\ p<-1.
+$$
+
+次に，その 2 解がともに正となる条件を調べる。  
+2 次方程式 $x^2+(p-1)x+1=0$ の両解を $\alpha,\beta$ とすると，  
+解と係数の関係から
+$$
+\alpha+\beta=1-p,\quad \alpha\beta=1.
+$$
+$\alpha\beta=1>0$ なので，2 解は同符号である。  
+さらに $x^2$ の係数が正であるから，2 解がともに正であるためには
+$$
+\alpha+\beta>0
+$$
+であればよい。よって
+$$
+1-p>0 \Longleftrightarrow p<1
+$$
+が必要である。
+
+以上より，
+- $p>3$ のときは $\alpha+\beta=1-p<0$ となり，2 解とも負となる。
+- $p<-1$ のときは $\alpha+\beta=1-p>0$ で，2 解とも正となる。
+
+したがって，「$x>0$ の範囲に共有点を 2 個もつ」ための $p$ の条件は
+$$
+p<-1
+$$
+である。
+
+---
+
+(2)  
+
+(1)より $p<-1$ のとき，$x^2+(p-1)x+1=0$ の 2 つの正の解を  
+小さい方から順に $\alpha,\beta$ とおく。
+
+まず，$C_1$ と $C_2$ の大小関係を調べる。  
+$C_1-C_2$ を見ると
+$$
+C_1 - C_2 = (x^3+px^2+x)-x^2
+= x^3+(p-1)x^2+x
+= x\{x^2+(p-1)x+1\}
+= x(x-\alpha)(x-\beta)
+$$
+と書ける。
+
+$0<\alpha<\beta$ であり，$x$ 軸上の 3 つの零点 $0,\alpha,\beta$ をもつ 3 次関数 $x(x-\alpha)(x-\beta)$ は，  
+最高次の係数が正なので，$x<0$ で負，$x>\beta$ で正となる。符号変化を区間ごとに見ると，
+$$
+\begin{array}{c|cccc}
+x & 0 & (0,\alpha) & (\alpha,\beta) & (\beta,\infty) \\ \hline
+x(x-\alpha)(x-\beta) & 0 & + & - & +
+\end{array}
+$$
+したがって
+- $0<x<\alpha$ では $x(x-\alpha)(x-\beta)>0$，すなわち $C_1>C_2$，
+- $\alpha<x<\beta$ では $x(x-\alpha)(x-\beta)<0$，すなわち $C_1<C_2$
+
+となる。
+
+よって，面積 $S_1,S_2$ は
+$$
+S_1=\int_{0}^{\alpha}(C_1-C_2)\,dx
+=\int_{0}^{\alpha}x(x-\alpha)(x-\beta)\,dx,
+$$
+$$
+S_2=\int_{\alpha}^{\beta}(C_2-C_1)\,dx
+=-\int_{\alpha}^{\beta}x(x-\alpha)(x-\beta)\,dx
+$$
+と表される。
+
+ここで
+$$
+f(x)=x(x-\alpha)(x-\beta)
+$$
+とおくと，$S_1=S_2$ は
+$$
+\int_{0}^{\alpha}f(x)\,dx
+=-\int_{\alpha}^{\beta}f(x)\,dx
+$$
+と同値である。これは
+$$
+\int_{0}^{\beta}f(x)\,dx
+=\int_{0}^{\alpha}f(x)\,dx+\int_{\alpha}^{\beta}f(x)\,dx
+=0
+$$
+と同値である。したがって条件は
+$$
+\int_{0}^{\beta}x(x-\alpha)(x-\beta)\,dx=0
+$$
+となる。
+
+$f(x)$ は 3 次関数なので，点 $\dfrac{\alpha+\beta}{2}$ まわりで対称性を調べる。  
+
+まず $\alpha\beta=1$ と $\alpha+\beta=1-p$ を用いる。  
+$f(x)$ を展開すると
+$$
+f(x)=x^3-(\alpha+\beta)x^2+\alpha\beta x
+=x^3-(\alpha+\beta)x^2+x
+$$
+である。ここで $m=\dfrac{\alpha+\beta}{2}$ とおき，$x=m+t$ とおくと
+$$
+f(m+t)=(m+t)^3-(\alpha+\beta)(m+t)^2+(m+t)
+$$
+を計算する。$m=\dfrac{\alpha+\beta}{2}$ を用いて整理すると，  
+定数項と $t^2$ の項が打ち消し合い，  
+$$
+f(m+t)=-f(m-t)
+$$
+となる（実際に $t$ の奇数次の項のみが残る）。したがって $f(x)$ は $x=m$ を中心とする点対称関数である。
+
+よって，区間 $[0,\beta]$ が $m$ を中心として対称であるとき，
+すなわち
+$$
+m=\frac{\alpha+\beta}{2}=\frac{\beta}{2}
+\Longleftrightarrow \alpha=0
+$$
+であれば
+$$
+\int_{0}^{\beta}f(x)\,dx=0
+$$
+が成り立つが，$\alpha>0$ よりこれは不適である。
+
+そこで実際に積分して条件を求める。  
+$f(x)=x^3-(\alpha+\beta)x^2+x$ なので
+$$
+\int_{0}^{\beta}f(x)\,dx
+=\left[\frac{x^4}{4}-\frac{\alpha+\beta}{3}x^3+\frac{x^2}{2}\right]_{0}^{\beta}
+=\frac{\beta^4}{4}-\frac{\alpha+\beta}{3}\beta^3+\frac{\beta^2}{2}.
+$$
+これが $0$ となる条件は
+$$
+\frac{\beta^4}{4}-\frac{\alpha+\beta}{3}\beta^3+\frac{\beta^2}{2}=0.
+$$
+$\beta>0$ なので両辺を $\beta^2$ で割ると
+$$
+\frac{\beta^2}{4}-\frac{\alpha+\beta}{3}\beta+\frac{1}{2}=0
+$$
+すなわち
+$$
+3\beta^2-4(\alpha+\beta)\beta+6=0
+$$
+である。さらに $\alpha\beta=1$ から $\alpha=\dfrac{1}{\beta}$ を代入すると
+$$
+3\beta^2-4\left(\frac{1}{\beta}+\beta\right)\beta+6
+=3\beta^2-4(1+\beta^2)+6
+=-\beta^2+2=0
+$$
+となるので
+$$
+\beta^2=2 \Longrightarrow \beta=\sqrt{2}\quad(\beta>0),
+$$
+$$
+\alpha=\frac{1}{\beta}=\frac{1}{\sqrt{2}}.
+$$
+
+次に，このときの $p$ を求める。  
+$\alpha,\beta$ は $x^2+(p-1)x+1=0$ の解なので
+$$
+\alpha+\beta=1-p.
+$$
+したがって
+$$
+1-p=\frac{1}{\sqrt{2}}+\sqrt{2}
+\quad\Longrightarrow\quad
+p=1-\left(\frac{1}{\sqrt{2}}+\sqrt{2}\right)
+=1-\frac{1}{\sqrt{2}}-\sqrt{2}.
+$$
+$\sqrt{2}>1$ より $p<-1$ が確かに満たされていることも確認できる。
+
+続いて，このときの $S_1$ を求める。  
+$$
+S_1=\int_{0}^{\alpha}x(x-\alpha)(x-\beta)\,dx
+$$
+であるが，$\alpha\beta=1$ を用いて
+$$
+x(x-\alpha)(x-\beta)
+=x^3-(\alpha+\beta)x^2+x
+$$
+と表せるので
+$$
+S_1=\int_{0}^{\alpha}\left(x^3-(\alpha+\beta)x^2+x\right)\,dx
+=\left[\frac{x^4}{4}-\frac{\alpha+\beta}{3}x^3+\frac{x^2}{2}\right]_{0}^{\alpha}
+=\frac{\alpha^4}{4}-\frac{\alpha+\beta}{3}\alpha^3+\frac{\alpha^2}{2}.
+$$
+ここに
+$$
+\alpha=\frac{1}{\sqrt{2}},\quad \beta=\sqrt{2},\quad
+\alpha+\beta=\frac{1}{\sqrt{2}}+\sqrt{2}
+$$
+を代入する。  
+まず
+$$
+\alpha^2=\frac{1}{2},\quad
+\alpha^3=\frac{1}{2\sqrt{2}},\quad
+\alpha^4=\frac{1}{4}
+$$
+であるから
+$$
+\frac{\alpha^4}{4}=\frac{1}{16},\quad
+\frac{\alpha^2}{2}=\frac{1}{4}
+$$
+となる。また
+$$
+\frac{\alpha+\beta}{3}\alpha^3
+=\frac{1}{3}\left(\frac{1}{\sqrt{2}}+\sqrt{2}\right)\cdot\frac{1}{2\sqrt{2}}
+=\frac{1}{3}\left(\frac{1}{4}+\frac{1}{2}\right)
+=\frac{1}{3}\cdot\frac{3}{4}
+=\frac{1}{4}.
+$$
+したがって
+$$
+S_1=\frac{1}{16}-\frac{1}{4}+\frac{1}{4}
+=\frac{1}{16}.
+$$
+
+以上より，
+$$
+S_1=S_2 \ \text{となる}\ p \text{の値は}\ 
+p=1-\frac{1}{\sqrt{2}}-\sqrt{2},
+$$
+そのときの $S_1$ は
+$$
+S_1=\frac{1}{16}
+$$
+である。

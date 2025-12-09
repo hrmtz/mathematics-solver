@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1985年 1985_3"
+problem_id: "03_hokudai-1985-1985_3"
+university: "北海道大学"
+exam_year: "1985"
+source_tex: "archive/03_hokudai/1985/1985_3.tex"
+pdf_source: "archive/03_hokudai/1985/1985_3.pdf"
+page_image: "archive/03_hokudai/1985/1985_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　曲線$y=x\sqrt{4x-x^2}$を$C$とする．
+\begin{description}
+\item[(1)]$C$上の点と点$(3, \, 0)$との距離の最大値を求めよ．
+\item[(2)]$C$を$x$軸の方向に$-2$だけ平行移動して得られる曲線の方程式を求めよ．
+\item[(3)]$C$と$x$軸で囲まれる部分の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1985/1985_3.pdf)

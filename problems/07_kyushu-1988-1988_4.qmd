@@ -1,0 +1,32 @@
+---
+title: "九州大学 1988年 1988_4"
+problem_id: "07_kyushu-1988-1988_4"
+university: "九州大学"
+exam_year: "1988"
+source_tex: "archive/07_kyushu/1988/1988_4.tex"
+pdf_source: "archive/07_kyushu/1988/1988_4.pdf"
+page_image: "archive/07_kyushu/1988/1988_4.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$を正の実数とする．$x\geqq0$で定義された連続関数$y=f(x)$が$f(0)=1$を満たし，
+かつ次の微分方程式を満たすとする．
+\[ 0<x<a\text{のとき，}y'=y \]
+\[ a<x<a+1\text{のとき，}y'=0 \]
+\[ a+1<x\text{のとき，}y'=a^2y \]
+\begin{description}
+\item[(1)]$f(a)$を求めよ．
+\item[(2)]$a+1<x$において，関数$f(x)$を求めよ．
+\item[(3)]$f(x)={ \{ f(a) \} }^2$を満たす$x$の値を$b$とする．
+$b$を最小にする$a$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1988/1988_4.pdf)

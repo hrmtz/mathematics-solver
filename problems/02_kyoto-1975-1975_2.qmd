@@ -1,0 +1,26 @@
+---
+title: "京都大学 1975年 1975_2"
+problem_id: "02_kyoto-1975-1975_2"
+university: "京都大学"
+exam_year: "1975"
+source_tex: "archive/02_kyoto/1975/1975_2.tex"
+pdf_source: "archive/02_kyoto/1975/1975_2.pdf"
+page_image: "archive/02_kyoto/1975/1975_2.jpg"
+fields:
+  - 不等式
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+\item[(i)]$x\geqq0$のとき$\displaystyle\sqrt{x}\leqq\frac{1}{2}(x+1)$を示せ．
+\item[(ii)]$\displaystyle\int_0^k\sqrt{x}{ \left( 1-\frac{x}{k} \right) }^kdx<1$を示せ($k$は自然数)．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1975/1975_2.pdf)

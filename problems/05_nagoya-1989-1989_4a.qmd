@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 1989年 1989_4a"
+problem_id: "05_nagoya-1989-1989_4a"
+university: "名古屋大学"
+exam_year: "1989"
+source_tex: "archive/05_nagoya/1989/1989_4a.tex"
+pdf_source: "archive/05_nagoya/1989/1989_4a.pdf"
+page_image: "archive/05_nagoya/1989/1989_4a.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　硬貨を$n$回続けて投げるとき，
+表が連続して出ることはない確率を$p_n$とする．
+\begin{description}
+\item[(1)]$p_n$を$p_k$ $(k<n)$を用いて表せ．
+ただし，$n\geqq3$とする．
+\item[(2)]$p_{10}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1989/1989_4a.pdf)

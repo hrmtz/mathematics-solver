@@ -1,0 +1,28 @@
+---
+title: "大阪大学 2004年 2004_0_1"
+problem_id: "06_osaka-2004-2004_0_1"
+university: "大阪大学"
+exam_year: "2004"
+source_tex: "archive/06_osaka/2004/2004_0_1.tex"
+pdf_source: "archive/06_osaka/2004/2004_0_1.pdf"
+page_image: "archive/06_osaka/2004/2004_0_1.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　3次関数$f(x)=x^3+3ax^2+bx+c$に関して以下の問いに答えよ．
+\begin{description}
+\item[(1)]$f(x)$が極値をもつための条件を，$f(x)$の係数を用いて表せ．
+\item[(2)]$f(x)$が$x=\alpha$で極大，$x=\beta$で極小になるとき，
+点$(\alpha, \, f(\alpha))$と点$(\beta, \, f(\beta))$を結ぶ直線の傾き$m$を$f(x)$の係数を用いて表せ．
+また，$y=f(x)$のグラフは平行移動によって$\displaystyle y=x^3+\frac{3}{2}mx$のグラフに移ることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_0_1.pdf)

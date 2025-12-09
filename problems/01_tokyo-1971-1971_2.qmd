@@ -1,0 +1,33 @@
+---
+title: "東京大学 1971年 1971_2"
+problem_id: "01_tokyo-1971-1971_2"
+university: "東京大学"
+exam_year: "1971"
+source_tex: "archive/01_tokyo/1971/1971_2.tex"
+pdf_source: "archive/01_tokyo/1971/1971_2.pdf"
+page_image: "archive/01_tokyo/1971/1971_2.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　正数$x$を与えて，
+\[ 2a_1=x, \hspace{1zw} 2a_2={a_1}^2+1, \hspace{1zw} \cdots\cdots, \hspace{1zw} 2a_{n+1}={a_n}^2+1, \hspace{1zw} \cdots\cdots \]
+のように数列$ \{ a_n \} $を定めるとき，
+\begin{description}
+\item[(1)]$x \neq 2$ならば，$a_1<a_2<\cdots\cdots<a_n<\cdots\cdots$となることを証明せよ．
+\item[(2)]$x<2$ならば，$a_n<1$となることを証明せよ．
+このとき，正数$\epsilon$を$\displaystyle 1-\frac{x}{2}$より小となるようにとって，
+$a_1,a_2,\cdots\cdots,a_n$までが$1-\epsilon$以下となったとすれば，
+個数$n$について次の不等式が成り立つことを証明せよ．
+\[ 2-x>n{\epsilon}^2 \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1971/1971_2.pdf)

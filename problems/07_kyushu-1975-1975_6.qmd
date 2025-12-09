@@ -1,0 +1,26 @@
+---
+title: "九州大学 1975年 1975_6"
+problem_id: "07_kyushu-1975-1975_6"
+university: "九州大学"
+exam_year: "1975"
+source_tex: "archive/07_kyushu/1975/1975_6.tex"
+pdf_source: "archive/07_kyushu/1975/1975_6.pdf"
+page_image: "archive/07_kyushu/1975/1975_6.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$m$個のさいころを同時に振る．このようなことを$n$回くり返すとき
+\begin{description}
+\item[(1)]毎回，少なくとも1個のさいころに1の目が出る確率を求めよ．
+\item[(2)]少なくとも1回，すべてのさいころに1の目が出る確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1975/1975_6.pdf)

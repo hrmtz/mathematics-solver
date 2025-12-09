@@ -1,0 +1,29 @@
+---
+title: "東北大学 1989年 1989_0_3"
+problem_id: "04_tohoku-1989-1989_0_3"
+university: "東北大学"
+exam_year: "1989"
+source_tex: "archive/04_tohoku/1989/1989_0_3.tex"
+pdf_source: "archive/04_tohoku/1989/1989_0_3.pdf"
+page_image: "archive/04_tohoku/1989/1989_0_3.jpg"
+fields:
+  - 数列
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　数列$\{ a_n \}$が$a_1=2$，$a_2=0$，
+$a_{n+2}-2a_{n+1}+a_n=2n-8$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$
+で定義されているとする．
+\begin{description}
+\item[(1)]一般項$a_n$を求めよ．
+\item[(2)]$a_n$が最小となる$n$，および，その最小値$a_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1989/1989_0_3.pdf)

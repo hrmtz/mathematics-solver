@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 1969年 1969_4"
+problem_id: "08_titech-1969-1969_4"
+university: "東京科学大学"
+exam_year: "1969"
+source_tex: "archive/08_titech/1969/1969_4.tex"
+pdf_source: "archive/08_titech/1969/1969_4.pdf"
+page_image: "archive/08_titech/1969/1969_4.jpg"
+fields:
+  - 数列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　数列$\{ a_n \}$は$3a_n>2a_{n-1}$ $(n=2, \, 3, \, \cdots)$を満たしている．
+点$(x, \, y)$が$|x|+|y|\leqq1$の範囲を動くとき
+\[ X=a_nx+2y, \hspace{1zw} Y=a_{n-1}x+3y \]
+で与えられる点$(X, \, Y)$の存在する範囲を$S_n$とする．
+すべての$n$に対して$S_n$の面積が2であるとき，$\displaystyle\lim_{n\to\infty}a_n$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1969/1969_4.pdf)

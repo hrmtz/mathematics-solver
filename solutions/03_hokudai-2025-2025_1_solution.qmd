@@ -1,0 +1,255 @@
+## 解答
+
+(1)  
+等比数列$\{a_n\}$は初項$a_1=\alpha$，公比$r$なので  
+$$
+a_n=\alpha r^{n-1},\quad a_{n+1}=\alpha r^{n}
+$$
+である。したがって
+$$
+b_n=\log_{a_n}(a_{n+1})
+=\frac{\log a_{n+1}}{\log a_n}
+$$
+（底の変換公式）より
+$$
+\log a_n=\log(\alpha r^{\,n-1})=\log\alpha+(n-1)\log r,
+$$
+$$
+\log a_{n+1}=\log(\alpha r^{\,n})=\log\alpha+n\log r.
+$$
+よって
+$$
+b_n=\frac{\log\alpha+n\log r}{\log\alpha+(n-1)\log r}.
+$$
+ここで$\log_\alpha r=\dfrac{\log r}{\log\alpha}$とおくと
+$$
+b_n=\frac{1+n\log_\alpha r}{1+(n-1)\log_\alpha r}.
+$$
+
+---
+
+(2)  
+(1)の結果より，$x=\log_\alpha r$とおくと
+$$
+b_n=\frac{1+nx}{1+(n-1)x}
+$$
+である。これがすべての自然数$n$について
+$$
+b_n=\frac{n+2}{n+1}
+$$
+を満たす条件を求める。
+
+よって
+$$
+\frac{1+nx}{1+(n-1)x}=\frac{n+2}{n+1}
+$$
+がすべての$n\in\mathbb{N}$で成り立つ条件を求めればよい。分母はどちらも正なので交差に掛けて
+$$
+(1+nx)(n+1)=(1+(n-1)x)(n+2)
+$$
+とする。左辺・右辺を展開する：
+\[
+\begin{aligned}
+\text{左辺} &= (1+nx)(n+1)=(n+1)+n(n+1)x,\\
+\text{右辺} &= (1+(n-1)x)(n+2)=(n+2)+(n-1)(n+2)x.
+\end{aligned}
+\]
+よって
+$$
+(n+1)+n(n+1)x=(n+2)+(n-1)(n+2)x.
+$$
+これを$x$について整理する。両辺を移項して
+\[
+\begin{aligned}
+0&=(n+2)-(n+1)+(n-1)(n+2)x-n(n+1)x\\
+&=1+\bigl[(n-1)(n+2)-n(n+1)\bigr]x.
+\end{aligned}
+\]
+括弧内を計算すると
+\[
+(n-1)(n+2)-n(n+1)=(n^2+n-2)-(n^2+n)=-2.
+\]
+したがって
+$$
+0=1-2x
+$$
+より
+$$
+x=\frac12
+$$
+でなければならない。この$x=\log_\alpha r$であったから
+$$
+\log_\alpha r=\frac12
+$$
+が必要十分条件である。対数の定義より
+$$
+\log_\alpha r=\frac12
+\quad\Longleftrightarrow\quad
+r=\alpha^{1/2}=\sqrt{\alpha}
+$$
+である。  
+
+したがって，
+$$
+b_n=\frac{n+2}{n+1}\;\text{がすべての自然数 }n\text{について成り立つための必要十分条件は}\;
+r=\sqrt{\alpha}
+$$
+である。
+
+---
+
+(3)  
+(2)の条件より，$r=\sqrt{\alpha}$ が成り立つ。よって等比数列$\{a_n\}$は  
+$$
+a_n=\alpha r^{n-1}=\alpha(\sqrt{\alpha})^{\,n-1}
+=\alpha^{1+\frac{n-1}{2}}=\alpha^{\frac{n+1}{2}}
+$$
+となる。
+
+すると，積  
+$$
+P_k=a_1a_2\cdots a_k
+$$
+を考えると
+\[
+\begin{aligned}
+P_k
+&=\prod_{n=1}^k a_n
+=\prod_{n=1}^k \alpha^{\frac{n+1}{2}}
+=\alpha^{\sum_{n=1}^k \frac{n+1}{2}}
+=\alpha^{\frac12\sum_{n=1}^k (n+1)}.
+\end{aligned}
+\]
+ここで
+$$
+\sum_{n=1}^k (n+1)=\sum_{n=1}^k n+\sum_{n=1}^k 1
+=\frac{k(k+1)}{2}+k
+=\frac{k(k+3)}{2}
+$$
+なので
+$$
+P_k=\alpha^{\frac12\cdot \frac{k(k+3)}{2}}
+=\alpha^{\frac{k(k+3)}{4}}
+$$
+となる。
+
+問題文より，
+- $P_2=a_1a_2$ の整数部分が2桁  
+- $P_3=a_1a_2a_3$ の整数部分が3桁  
+- $P_4=a_1a_2a_3a_4$ の整数部分が4桁  
+
+となるような$\alpha$の範囲を求める。
+
+$P_k$の整数部分が$m$桁であることは  
+$$
+10^{m-1}\le P_k<10^m
+$$
+と同値である。これを$k=2,3,4$について順に用いる。
+
+まず
+$$
+P_2=\alpha^{\frac{2\cdot5}{4}}=\alpha^{\frac52},\quad
+P_3=\alpha^{\frac{3\cdot6}{4}}=\alpha^{\frac92},\quad
+P_4=\alpha^{\frac{4\cdot7}{4}}=\alpha^{7}
+$$
+である。
+
+### $P_2$ が2桁  
+2桁より
+$$
+10\le P_2<100
+\quad\Longleftrightarrow\quad
+10\le \alpha^{\frac52}<100.
+$$
+$\alpha>1$より$\alpha^{5/2}$は単調増加なので，両辺の$5/2$乗根をとって
+$$
+10^{\frac{2}{5}}\le \alpha<100^{\frac{2}{5}}.
+$$
+ここで $100^{2/5}=(10^2)^{2/5}=10^{4/5}$ だから
+$$
+10^{\frac{2}{5}}\le \alpha<10^{\frac{4}{5}}.
+$$
+
+### $P_3$ が3桁  
+3桁より
+$$
+100\le P_3<1000
+\quad\Longleftrightarrow\quad
+100\le \alpha^{\frac92}<1000.
+$$
+同様に
+$$
+100^{\frac{2}{9}}\le \alpha<1000^{\frac{2}{9}}.
+$$
+$100=10^2,\;1000=10^3$より
+$$
+10^{\frac{4}{9}}\le \alpha<10^{\frac{2}{3}}.
+$$
+
+### $P_4$ が4桁  
+4桁より
+$$
+1000\le P_4<10000
+\quad\Longleftrightarrow\quad
+1000\le \alpha^{7}<10000.
+$$
+よって
+$$
+1000^{\frac{1}{7}}\le \alpha<10000^{\frac{1}{7}}.
+$$
+$1000=10^3,\;10000=10^4$より
+$$
+10^{\frac{3}{7}}\le \alpha<10^{\frac{4}{7}}.
+$$
+
+以上をまとめると$\alpha$は
+\[
+\begin{cases}
+10^{\frac{2}{5}}\le \alpha<10^{\frac{4}{5}},\\[2pt]
+10^{\frac{4}{9}}\le \alpha<10^{\frac{2}{3}},\\[2pt]
+10^{\frac{3}{7}}\le \alpha<10^{\frac{4}{7}}
+\end{cases}
+\]
+を同時に満たす必要がある。したがって，これら3つの区間の共通部分を求める。
+
+左端について  
+$$
+10^{\frac{2}{5}},\;10^{\frac{4}{9}},\;10^{\frac{3}{7}}
+$$
+を比較する。指数だけ比べればよいので
+$$
+\frac{2}{5}=0.4,\quad \frac{4}{9}\approx0.444,\quad \frac{3}{7}\approx0.429
+$$
+より
+$$
+\frac{2}{5}<\frac{3}{7}<\frac{4}{9}
+$$
+となる。よって
+$$
+10^{\frac{4}{9}} \quad\text{が左端の最大値}
+$$
+である。
+
+右端について  
+$$
+10^{\frac{4}{5}},\;10^{\frac{2}{3}},\;10^{\frac{4}{7}}
+$$
+を比較すると，指数は
+$$
+\frac{4}{5}=0.8,\quad \frac{2}{3}\approx0.667,\quad \frac{4}{7}\approx0.571
+$$
+であり
+$$
+\frac{4}{7}<\frac{2}{3}<\frac{4}{5}
+$$
+だから
+$$
+10^{\frac{4}{7}} \quad\text{が右端の最小値}
+$$
+である。
+
+したがって求める$\alpha$の範囲は
+$$
+10^{\frac{4}{9}}\le \alpha<10^{\frac{4}{7}}
+$$
+となる。

@@ -1,0 +1,44 @@
+---
+title: "大阪大学 2005年 2005_5"
+problem_id: "06_osaka-2005-2005_5"
+university: "大阪大学"
+exam_year: "2005"
+source_tex: "archive/06_osaka/2005/2005_5.tex"
+pdf_source: "archive/06_osaka/2005/2005_5.pdf"
+page_image: "archive/06_osaka/2005/2005_5.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n$を正の整数，$a$を正の実数とする．
+曲線$y=x^n$と曲線$y=a\log x$が，
+点$P$で共通の接線をもつとする．
+ただし，対数は自然対数である．
+点$P$の$x$座標を$t$とするとき，
+以下の問いに答えよ．
+\begin{description}
+\item[(1)]$a$，$t$をそれぞれ$n$を用いて表せ．
+\item[(2)]曲線$y=x^n$と$x$軸および直線$x=t$で囲まれる部分の面積を$S_1$とする．
+また，曲線$y=a\log x$と$x$軸および直線$x=t$で囲まれる部分の面積を$S_2$とする．
+このとき，$\displaystyle\frac{S_2}{S_1}$を$n$を用いて表せ．
+\item[(3)]$x\geqq0$のとき，
+不等式$\displaystyle\frac{x^2}{2}-\frac{x^3}{6}\leqq e^{-x}+x-1\leqq\frac{x^2}{2}$が成り立つことを，
+次の(a)，(b)に分けて示せ．
+ただし，$e$は自然対数の底とする．
+\begin{description}
+\item[(a)]$x\geqq0$のとき，不等式$\displaystyle e^{-x}+x-1\leqq\frac{x^2}{2}$が成り立つことを示せ．
+\item[(b)]$x\geqq0$のとき，不等式$\displaystyle\frac{x^2}{2}-\frac{x^3}{6}\leqq e^{-x}+x-1$が成り立つことを示せ．
+\end{description}
+\item[(4)]極限値$\displaystyle\lim_{n\to\infty}\frac{S_2}{S_1}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2005/2005_5.pdf)

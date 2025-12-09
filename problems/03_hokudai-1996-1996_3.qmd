@@ -1,0 +1,32 @@
+---
+title: "北海道大学 1996年 1996_3"
+problem_id: "03_hokudai-1996-1996_3"
+university: "北海道大学"
+exam_year: "1996"
+source_tex: "archive/03_hokudai/1996/1996_3.tex"
+pdf_source: "archive/03_hokudai/1996/1996_3.pdf"
+page_image: "archive/03_hokudai/1996/1996_3.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　平面上で原点$O$と異なる定点を$A(a, \, b)$とする．
+点$P(x, \, y)$は$\overrightarrow{OA}$から$\overrightarrow{OP}$へはかった角$\theta$が
+$\displaystyle0<\theta<\frac{\pi}{2}$となる範囲にあるものとし，
+$\displaystyle w=\frac{ay-bx}{ax+by}$とおく．
+2点$X$，$Y$の間の距離を$XY$で表すものとする．
+\begin{description}
+\item[(1)]$ay-bx$および$w$を$OA$，$OP$，$\theta$で表せ．
+\item[(2)]定数$k$を$0<k<OA$とする．
+$0<AP \leqq k$であるとき，$w$のとりうる値の範囲を$a$，$b$，$k$を用いて表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_3.pdf)

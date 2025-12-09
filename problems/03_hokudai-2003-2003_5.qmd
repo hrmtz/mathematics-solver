@@ -1,0 +1,36 @@
+---
+title: "北海道大学 2003年 2003_5"
+problem_id: "03_hokudai-2003-2003_5"
+university: "北海道大学"
+exam_year: "2003"
+source_tex: "archive/03_hokudai/2003/2003_5.tex"
+pdf_source: "archive/03_hokudai/2003/2003_5.pdf"
+page_image: "archive/03_hokudai/2003/2003_5.jpg"
+fields:
+  - 平面図形
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　半径1の円に内接する正$n$角形が$xy$平面上にある．
+ひとつの辺$AB$が$x$軸に含まれている状態から始めて，
+正$n$角形を図のように$x$軸上をすべらないようにころがし，
+再び点$A$が$x$軸に含まれる状態まで続ける．
+点$A$の描く軌跡の長さを$L(n)$とする．
+ 
+
+![](../archive/03_hokudai/2003/fig_2003_5.jpg)
+
+
+\begin{description}
+\item[(1)]$L(6)$を求めよ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}L(n)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2003/2003_5.pdf)

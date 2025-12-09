@@ -1,0 +1,34 @@
+---
+title: "九州大学 1997年 1997_0_4b"
+problem_id: "07_kyushu-1997-1997_0_4b"
+university: "九州大学"
+exam_year: "1997"
+source_tex: "archive/07_kyushu/1997/1997_0_4b.tex"
+pdf_source: "archive/07_kyushu/1997/1997_0_4b.pdf"
+page_image: "archive/07_kyushu/1997/1997_0_4b.jpg"
+fields:
+  - 複素数平面
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　複素数平面において，点$z$に関する次の条件を考える．
+　「原点と異なる点$\alpha$を中心として点$z$を角$\theta$だけ回転すると，
+移った点の絶対値が$a$の絶対値の$\displaystyle\frac{1}{2}$になる」
+\begin{description}
+\item[(1)]$\alpha=i$，$\theta={90}^\circ$のとき，
+上の条件を満たす点$z$の全体はどんな図形となるか．
+\item[(2)]$(\alpha, \, \theta)$を一組固定したとき，
+上の条件を満たす点$z$の全体はどんな図形となるか．
+\item[(3)]点$\alpha$が実軸上にあるとき，
+(2)の図形が虚軸に接するのは$\theta$が何度のときか．
+ただし，$0^\circ\leqq\theta<{360}^\circ$とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_0_4b.pdf)

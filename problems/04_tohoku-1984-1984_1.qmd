@@ -1,0 +1,35 @@
+---
+title: "東北大学 1984年 1984_1"
+problem_id: "04_tohoku-1984-1984_1"
+university: "東北大学"
+exam_year: "1984"
+source_tex: "archive/04_tohoku/1984/1984_1.tex"
+pdf_source: "archive/04_tohoku/1984/1984_1.pdf"
+page_image: "archive/04_tohoku/1984/1984_1.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　平面上で，行列
+\[ \begin{pmatrix} \displaystyle\frac{3}{4} & \displaystyle\frac{\sqrt3}{4}
+\displaystyle\frac{\sqrt3}{4} & \displaystyle\frac{1}{4} \end{pmatrix} \]
+により与えられる1次変換を$f$，
+原点のまわりに$\displaystyle-\frac{\pi}{3}$回転する1次変換を$g$とする．
+\begin{description}
+\item[(1)]平面上の任意の点が$f$によって，
+ある直線$l$上の点にうつされることを示し，
+$l$の方程式を求めよ．
+\item[(2)]$P(a, \, b)$を$l$上の点とする．
+合成写像$f \circ g$によって，
+$P$にうつされる点全体のつくる図形を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1984/1984_1.pdf)

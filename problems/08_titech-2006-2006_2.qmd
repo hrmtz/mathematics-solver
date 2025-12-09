@@ -1,0 +1,36 @@
+---
+title: "東京科学大学 2006年 2006_2"
+problem_id: "08_titech-2006-2006_2"
+university: "東京科学大学"
+exam_year: "2006"
+source_tex: "archive/08_titech/2006/2006_2.tex"
+pdf_source: "archive/08_titech/2006/2006_2.pdf"
+page_image: "archive/08_titech/2006/2006_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　以下の問いに答えよ．
+\begin{description}
+\item[(1)]$a$，$b$を正の定数とし，$\displaystyle g(t)=\frac{1}{b}t^b-\log t$とおく．
+$t>0$における関数$g(t)$の増減を調べ極値を求めよ．
+\item[(2)]$m$を正の定数とし，$xy$座標平面において条件
+
+(a)　$y>x>0$
+
+(b)　すべての$t>0$に対し$\displaystyle\frac{1}{y}t^x-\log t \geqq m$
+
+を満たす点$(x,y)$からなる領域を$D$とする．$D$の概形を図示せよ．
+\item[(3)](2)の領域$D$の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2006/2006_2.pdf)

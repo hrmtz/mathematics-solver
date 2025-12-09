@@ -1,0 +1,276 @@
+## 解答
+
+(以下，ベクトルはすべて $\overrightarrow{OX}$ を $\vec{OX}$ などと略記する．)
+
+## 解答
+
+(1)  
+
+原点を $O$ とし，  
+$\vec{OA}=\vec{a},\ \vec{OB}=\vec{b},\ \vec{OC}=\vec{c}$ とおく．  
+また，$L,M,N$ は
+$$
+\vec{OL}=s\vec{a},\quad
+\vec{OM}=t\vec{b},\quad
+\vec{ON}=u\vec{c}
+$$
+をみたす．
+
+点 $P$ が平面 $LMN$ 上にあるとは，ある実数 $\lambda,\mu$ を用いて
+$$
+\vec{OP}=\vec{OL}+\lambda(\vec{OM}-\vec{OL})+\mu(\vec{ON}-\vec{OL})
+$$
+と書けることと同値である．これを展開すると
+\[
+\begin{aligned}
+\vec{OP}
+&=\vec{OL}+\lambda\vec{OM}-\lambda\vec{OL}+\mu\vec{ON}-\mu\vec{OL}\\
+&=(1-\lambda-\mu)\vec{OL}+\lambda\vec{OM}+\mu\vec{ON}\\
+&=(1-\lambda-\mu)s\vec{a}+\lambda t\vec{b}+\mu u\vec{c}
+\end{aligned}
+\]
+である．したがって，ある一定のベクトル
+$$
+\vec{OP}=p\vec{a}+q\vec{b}+r\vec{c}\quad(p,q,r\ \text{は定数})
+$$
+が，すべての $s,t,u$（ただし $\dfrac{1}{s}+\dfrac{2}{t}+\dfrac{3}{u}=4$ を満たす）に対して平面 $LMN$ 上にあるための条件は，
+$$
+p\vec{a}+q\vec{b}+r\vec{c}=(1-\lambda-\mu)s\vec{a}+\lambda t\vec{b}+\mu u\vec{c}
+$$
+が成り立つように $\lambda,\mu$ を（$s,t,u$ に依存して）取れることである．
+
+両辺を $\vec{a},\vec{b},\vec{c}$ の係数ごとに比較して
+\[
+\begin{cases}
+p=(1-\lambda-\mu)s\\
+q=\lambda t\\
+r=\mu u
+\end{cases}
+\tag{★}
+\]
+を得る．
+
+ここで $s,t,u$ は
+$$
+\frac{1}{s}+\frac{2}{t}+\frac{3}{u}=4
+$$
+を満たすので，これを $s,t,u$ について整理し，上式 (★) の $\lambda,\mu$ を用いて書き換える：
+
+まず (★) から
+$$
+\lambda=\frac{q}{t},\quad \mu=\frac{r}{u}
+$$
+であり，これを第1式 $p=(1-\lambda-\mu)s$ に代入すると
+$$
+p=(1-\frac{q}{t}-\frac{r}{u})\,s
+$$
+である．両辺を $s$ で割ると
+$$
+\frac{p}{s}=1-\frac{q}{t}-\frac{r}{u}
+$$
+となるから，
+$$
+\frac{p}{s}+\frac{q}{t}+\frac{r}{u}=1
+$$
+が成り立つ．
+
+一方，$s,t,u$ はもともと
+$$
+\frac{1}{s}+\frac{2}{t}+\frac{3}{u}=4
+$$
+を満たすので，すべてのそのような $(s,t,u)$ について上の 2 つの式が両立するように $p,q,r$ を定めたい．  
+ここで
+$$
+\frac{p}{s}+\frac{q}{t}+\frac{r}{u}=1,\quad
+\frac{1}{s}+\frac{2}{t}+\frac{3}{u}=4
+$$
+は，$1/s,1/t,1/u$ を変数と見ると 2 本の「直線関係」である．この 2 つがすべての許される $(1/s,1/t,1/u)$ に対して両立するためには，
+係数ベクトル $(p,q,r)$ が $(1,2,3)$ の定数倍でなければならない．  
+すなわち，ある実数 $k$ が存在して
+$$
+(p,q,r)=k(1,2,3)
+$$
+とおける．
+
+このとき
+$$
+\frac{p}{s}+\frac{q}{t}+\frac{r}{u}
+=
+k\left(\frac{1}{s}+\frac{2}{t}+\frac{3}{u}\right)
+=k\cdot 4
+$$
+となるので，これが $1$ に等しいためには
+$$
+4k=1\quad\Rightarrow\quad k=\frac{1}{4}
+$$
+でなければならない．したがって
+$$
+p=\frac{1}{4},\quad q=\frac{1}{2},\quad r=\frac{3}{4}
+$$
+と定まる．
+
+よって
+$$
+\vec{OP}
+=\frac{1}{4}\vec{a}+\frac{1}{2}\vec{b}+\frac{3}{4}\vec{c}
+=\frac{1}{4}\vec{OA}+\frac{1}{2}\vec{OB}+\frac{3}{4}\vec{OC}
+$$
+とおけば，任意の $s,t,u$（$\dfrac{1}{s}+\dfrac{2}{t}+\dfrac{3}{u}=4$ を満たす）に対して，(★) を満たす $\lambda,\mu$ が存在し，よって $P$ は平面 $LMN$ 上にある．
+
+以上から，条件を満たす任意の $s,t,u$ に対して，点 $P$ は常に平面 $LMN$ 上にあることが示された．
+
+次に，そのような点 $P$ がただ 1 つであることを示す．  
+いま，任意の許される $s,t,u$ に対して常に平面 $LMN$ 上にある点 $P$ を考えると，その位置ベクトル $\vec{OP}$ は $\vec{a},\vec{b},\vec{c}$ の一次結合で一意に表されるので
+$$
+\vec{OP}=p\vec{a}+q\vec{b}+r\vec{c}
+$$
+と書ける．このとき上と同様の議論から
+$$
+\frac{p}{s}+\frac{q}{t}+\frac{r}{u}=1
+$$
+が，あらゆる $(s,t,u)$（$\dfrac{1}{s}+\dfrac{2}{t}+\dfrac{3}{u}=4$ を満たす）について成り立つ必要がある．  
+すると先ほどと同じ理由で $(p,q,r)$ は $(1,2,3)$ の定数倍 $k(1,2,3)$ に限られ，さらに $4k=1$ から $k=1/4$，すなわち
+$$
+(p,q,r)=\left(\frac{1}{4},\frac{1}{2},\frac{3}{4}\right)
+$$
+と一意に定まる．
+
+したがって，そのような点 $P$ はただ 1 つに限られ，
+$$
+\vec{OP}
+=\frac{1}{4}\vec{OA}+\frac{1}{2}\vec{OB}+\frac{3}{4}\vec{OC}
+$$
+で与えられることがわかった．
+
+---
+
+(2)  
+
+四面体 $OABC$ の体積を $V$ とする．  
+これは 3 本の辺ベクトル $\vec{OA}=\vec{a},\ \vec{OB}=\vec{b},\ \vec{OC}=\vec{c}$ を用いて
+$$
+V=\frac{1}{6}\left|[\vec{a},\vec{b},\vec{c}]\right|
+$$
+と表される（ここで $[\vec{a},\vec{b},\vec{c}]$ はスカラー三重積）．
+
+一方，(1) で得た点 $P$ は
+$$
+\vec{OP}=\frac{1}{4}\vec{a}+\frac{1}{2}\vec{b}+\frac{3}{4}\vec{c}
+$$
+であるから，四面体 $PABC$ の体積 $V_P$ は
+$$
+V_P=\frac{1}{6}\left|[\vec{PA},\vec{PB},\vec{PC}]\right|
+$$
+で与えられる．ここで
+\[
+\begin{aligned}
+\vec{PA}&=\vec{OA}-\vec{OP}
+=\vec{a}-\left(\frac{1}{4}\vec{a}+\frac{1}{2}\vec{b}+\frac{3}{4}\vec{c}\right)
+=\frac{3}{4}\vec{a}-\frac{1}{2}\vec{b}-\frac{3}{4}\vec{c},\\[2mm]
+\vec{PB}&=\vec{OB}-\vec{OP}
+=\vec{b}-\left(\frac{1}{4}\vec{a}+\frac{1}{2}\vec{b}+\frac{3}{4}\vec{c}\right)
+=-\frac{1}{4}\vec{a}+\frac{1}{2}\vec{b}-\frac{3}{4}\vec{c},\\[2mm]
+\vec{PC}&=\vec{OC}-\vec{OP}
+=\vec{c}-\left(\frac{1}{4}\vec{a}+\frac{1}{2}\vec{b}+\frac{3}{4}\vec{c}\right)
+=-\frac{1}{4}\vec{a}-\frac{1}{2}\vec{b}+\frac{1}{4}\vec{c}
+\end{aligned}
+\]
+である．
+
+スカラー三重積は 3 本のベクトルの係数行列の行列式に等しいので，
+\[
+\begin{aligned}
+[\vec{PA},\vec{PB},\vec{PC}]
+&=
+\det
+\begin{pmatrix}
+\frac{3}{4} & -\frac{1}{2} & -\frac{3}{4}\\[1mm]
+-\frac{1}{4} & \frac{1}{2} & -\frac{3}{4}\\[1mm]
+-\frac{1}{4} & -\frac{1}{2} & \frac{1}{4}
+\end{pmatrix}
+\cdot
+[\vec{a},\vec{b},\vec{c}]
+\end{aligned}
+\]
+となる．よって，まず係数行列
+$$
+M=
+\begin{pmatrix}
+\frac{3}{4} & -\frac{1}{2} & -\frac{3}{4}\\
+-\frac{1}{4} & \frac{1}{2} & -\frac{3}{4}\\
+-\frac{1}{4} & -\frac{1}{2} & \frac{1}{4}
+\end{pmatrix}
+$$
+の行列式 $\det M$ を計算する．分数を避けるために $4M$ を用いると
+$$
+4M=
+\begin{pmatrix}
+3 & -2 & -3\\
+-1 & 2 & -3\\
+-1 & -2 & 1
+\end{pmatrix}
+$$
+であり，$\det(4M)=4^3\det M=64\det M$ である．
+
+$\det(4M)$ を第1行で展開すると
+\[
+\begin{aligned}
+\det(4M)
+&=
+3
+\begin{vmatrix}
+2 & -3\\
+-2 & 1
+\end{vmatrix}
+-(-2)
+\begin{vmatrix}
+-1 & -3\\
+-1 & 1
+\end{vmatrix}
++(-3)
+\begin{vmatrix}
+-1 & 2\\
+-1 & -2
+\end{vmatrix}\\[2mm]
+&=
+3(2\cdot1-(-3)\cdot(-2))
++2\bigl((-1)\cdot1-(-3)\cdot(-1)\bigr)
+-3\bigl((-1)\cdot(-2)-2\cdot(-1)\bigr)\\[2mm]
+&=
+3(2-6)
++2(-1-3)
+-3(2+2)\\[2mm]
+&=
+3(-4)+2(-4)-3\cdot4
+=-12-8-12\\[1mm]
+&=-32
+\end{aligned}
+\]
+したがって
+$$
+64\det M=-32\quad\Rightarrow\quad \det M=-\frac{1}{2}
+$$
+となる．
+
+よって
+$$
+[\vec{PA},\vec{PB},\vec{PC}]
+=\det M\,[\vec{a},\vec{b},\vec{c}]
+=-\frac{1}{2}[\vec{a},\vec{b},\vec{c}]
+$$
+であり，体積には絶対値を取るので
+\[
+\begin{aligned}
+V_P
+&=\frac{1}{6}\left|[\vec{PA},\vec{PB},\vec{PC}]\right|
+=\frac{1}{6}\left|\,-\frac{1}{2}[\vec{a},\vec{b},\vec{c}]\,\right|\\[1mm]
+&=\frac{1}{2}\cdot\frac{1}{6}\left|[\vec{a},\vec{b},\vec{c}]\right|
+=\frac{1}{2}V
+\end{aligned}
+\]
+
+したがって，求める四面体 $PABC$ の体積は
+$$
+V_P=\frac{1}{2}V
+$$
+である．

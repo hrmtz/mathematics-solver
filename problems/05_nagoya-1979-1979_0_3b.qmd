@@ -1,0 +1,25 @@
+---
+title: "名古屋大学 1979年 1979_0_3b"
+problem_id: "05_nagoya-1979-1979_0_3b"
+university: "名古屋大学"
+exam_year: "1979"
+source_tex: "archive/05_nagoya/1979/1979_0_3b.tex"
+pdf_source: "archive/05_nagoya/1979/1979_0_3b.pdf"
+page_image: "archive/05_nagoya/1979/1979_0_3b.jpg"
+fields:
+  - 積分法
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3 (b)
+　$n$、$p$，$q$を自然数とするとき
+\[ \int_1^n\frac{1}{x}dx<\int_p^q\frac{1}{x}dx<\int_1^{n+1}\frac{1}{x}dx \]
+ならば$p\geqq2$，$q\geqq2n+1$であることを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1979/1979_0_3b.pdf)

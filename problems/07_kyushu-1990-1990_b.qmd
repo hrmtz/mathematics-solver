@@ -1,0 +1,27 @@
+---
+title: "九州大学 1990年 1990_b"
+problem_id: "07_kyushu-1990-1990_b"
+university: "九州大学"
+exam_year: "1990"
+source_tex: "archive/07_kyushu/1990/1990_b.tex"
+pdf_source: "archive/07_kyushu/1990/1990_b.pdf"
+page_image: "archive/07_kyushu/1990/1990_b.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\[ a_1=a, \hspace{1zw} a_{k+1}+ba_k=1, \hspace{1zw} k=1, \, 2, \, \cdots\cdots \]
+によって決められる数列について次の問に答えよ．
+\begin{description}
+\item[(1)]第$k$項を求めよ．
+\item[(2)]$\displaystyle\sum_{k=1}^na_k$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_b.pdf)

@@ -1,0 +1,25 @@
+---
+title: "京都大学 1993年 1993_5"
+problem_id: "02_kyoto-1993-1993_5"
+university: "京都大学"
+exam_year: "1993"
+source_tex: "archive/02_kyoto/1993/1993_5.tex"
+pdf_source: "archive/02_kyoto/1993/1993_5.pdf"
+page_image: "archive/02_kyoto/1993/1993_5.jpg"
+fields:
+  - 確率
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n$を自然数とする．
+さいころを$2n$回投げて$n$回以上偶数の目が出る確率を$p_n$とするとき，
+$\displaystyle p_n\geqq\frac{1}{2}+\frac{1}{4n}$であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1993/1993_5.pdf)

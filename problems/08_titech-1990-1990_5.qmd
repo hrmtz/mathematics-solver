@@ -1,0 +1,31 @@
+---
+title: "東京科学大学 1990年 1990_5"
+problem_id: "08_titech-1990-1990_5"
+university: "東京科学大学"
+exam_year: "1990"
+source_tex: "archive/08_titech/1990/1990_5.tex"
+pdf_source: "archive/08_titech/1990/1990_5.pdf"
+page_image: "archive/08_titech/1990/1990_5.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$xy$平面上の楕円$3x^2+y^2=1$の外にある点$P$からこの楕円に2本の接線を引く．
+その接点を$Q$，$R$とし$Q$と$R$によって分けられた楕円の2つの弧のうち
+$P$に近い方を$\stackrel{\frown}{QR}$とする．
+このとき，次の2つの条件
+\begin{description}
+\item[(i)]$\stackrel{\frown}{QR}$は点$\displaystyle\left(\frac{1}{\sqrt3}, \, 0\right)$を含む
+\item[(ii)]$\angle QPR\geqq{90}^\circ$
+\end{description}
+を満たすような$P$の存在範囲を図示し，その面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1990/1990_5.pdf)

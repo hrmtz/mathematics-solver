@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 2003年 2003_4a"
+problem_id: "05_nagoya-2003-2003_4a"
+university: "名古屋大学"
+exam_year: "2003"
+source_tex: "archive/05_nagoya/2003/2003_4a.tex"
+pdf_source: "archive/05_nagoya/2003/2003_4a.pdf"
+page_image: "archive/05_nagoya/2003/2003_4a.jpg"
+fields:
+  - 平面図形
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+\begin{description}
+\item[(1)]平行四辺形$ABCD$において，$AB=CD=a$，$BC=AD=b$，$BD=c$，$AC=d$とする．
+このとき，$\displaystyle a^2+b^2=\frac{1}{2}(c^2+d^2)$が成り立つことを証明せよ．
+\item[(2)]3つの正数$a$，$b$，$c$ $(0<a \leqq b \leqq c)$が$a^2+b^2>c^2$を満たすとき，
+各面の三角形の辺の長さを$a$，$b$，$c$とする四面体が作れることを証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_4a.pdf)

@@ -1,0 +1,260 @@
+## 解答
+
+(1)  
+
+与えられた連立不等式は  
+$$
+0 \leqq x \leqq \pi,\quad 0 \leqq y \leqq \pi,\quad 
+2\sin(x+y)-2\cos(x+y)\geqq\sqrt2
+$$
+である．
+
+まず，三角関数の式を整理する．  
+$$
+2\sin(x+y)-2\cos(x+y)
+= \sqrt2\bigl(\sqrt2\sin(x+y)-\sqrt2\cos(x+y)\bigr)
+$$
+ここで，
+$$
+\sqrt2\sin\theta-\sqrt2\cos\theta
+= 2\cdot\frac{1}{\sqrt2}\bigl(\sin\theta-\cos\theta\bigr)
+= 2\cdot\sin\Bigl(\theta-\frac{\pi}{4}\Bigr)
+$$
+となることから（加法定理より），  
+$$
+\sin\theta-\cos\theta
+= \sqrt2\sin\Bigl(\theta-\frac{\pi}{4}\Bigr)
+$$
+が成り立つ．したがって
+$$
+2\sin(x+y)-2\cos(x+y)
+= 2\sqrt2\sin\Bigl((x+y)-\frac{\pi}{4}\Bigr)
+$$
+となる．これを用いると，不等式は
+$$
+2\sqrt2\sin\Bigl(x+y-\frac{\pi}{4}\Bigr)\geqq\sqrt2
+$$
+すなわち（両辺を $\sqrt2>0$ で割って）
+$$
+2\sin\Bigl(x+y-\frac{\pi}{4}\Bigr)\geqq1
+\quad\Longleftrightarrow\quad
+\sin\Bigl(x+y-\frac{\pi}{4}\Bigr)\geqq\frac12
+$$
+となる．
+
+ここで
+$$
+t = x + y - \frac{\pi}{4}
+$$
+とおくと，$x,y$ の範囲 $0\leqq x \leqq \pi,\ 0\leqq y \leqq \pi$ から
+$$
+0 \leqq x+y \leqq 2\pi
+\quad\Longrightarrow\quad
+-\frac{\pi}{4} \leqq t \leqq \frac{7\pi}{4}
+$$
+である．
+
+$\sin t \geqq \dfrac12$ を満たす $t$ の区間は，$t$ が $[-\pi/4,\,7\pi/4]$ の範囲内で
+$$
+t \in \left[\frac{\pi}{6},\frac{5\pi}{6}\right]
+\quad\text{または}\quad
+t \in \left[\frac{13\pi}{6},\frac{17\pi}{6}\right]
+$$
+であるが，$t\leqq 7\pi/4 = \dfrac{14\pi}{8}$ であることと，
+$$
+\frac{17\pi}{6} > \frac{7\pi}{4}
+$$
+から，$t \in [\pi/6,\,5\pi/6]$ と $t \in [13\pi/6,\,7\pi/4]$ の2つの区間が有効となる．
+
+元に戻すと
+$$
+x+y-\frac{\pi}{4} \in \left[\frac{\pi}{6},\frac{5\pi}{6}\right]
+\quad\text{または}\quad
+x+y-\frac{\pi}{4} \in \left[\frac{13\pi}{6},\frac{7\pi}{4}\right]
+$$
+より
+\[
+\begin{cases}
+\displaystyle x+y \in \left[\frac{5\pi}{12},\frac{13\pi}{12}\right],\\[4pt]
+\displaystyle x+y \in \left[\frac{35\pi}{12},\frac{15\pi}{8}\right]
+\end{cases}
+\]
+となる．
+
+もともと $x+y$ は $0\leqq x+y\leqq 2\pi$ の範囲を動くので，以上より
+$$
+\frac{5\pi}{12} \leqq x+y \leqq \frac{13\pi}{12}
+\quad\text{または}\quad
+\frac{35\pi}{12} \leqq x+y \leqq \frac{15\pi}{8}
+$$
+となる．また，これに
+$$
+0\leqq x \leqq \pi,\quad 0\leqq y \leqq \pi
+$$
+が同時に課される．
+
+したがって，領域Dは，正方形 $0\leqq x\leqq\pi,\ 0\leqq y\leqq\pi$ の中で，
+$$
+x+y=\frac{5\pi}{12},\ x+y=\frac{13\pi}{12},\ 
+x+y=\frac{35\pi}{12},\ x+y=\frac{15\pi}{8}
+$$
+の4本の直線に挟まれる2つの帯状部分（いずれも $x+y$ が上の2つの範囲にある部分）として図示される．  
+具体的には，$x+y=$一定は傾き $-1$ の直線であり，$0\leqq x,y\leqq\pi$ の正方形領域内において，  
+$x+y=\dfrac{5\pi}{12}$ と $x+y=\dfrac{13\pi}{12}$ の間，および  
+$x+y=\dfrac{35\pi}{12}$ と $x+y=\dfrac{15\pi}{8}$ の間の部分がDである．
+
+
+(2)  
+
+$2x+y$ の最大・最小を，領域D上で求める．
+
+まず $2x+y$ を $x$ と $x+y$ を用いて表す．
+$$
+2x + y = x + (x+y)
+$$
+ここで，$s = x+y$ とおくと
+$$
+2x + y = x + s
+$$
+となる．したがって，ある $s$ が与えられたとき，
+$$
+0\leqq x \leqq \pi,\quad 0\leqq y = s - x \leqq \pi
+$$
+すなわち
+$$
+0\leqq x \leqq \pi,\quad 0\leqq s - x \leqq \pi
+$$
+より
+$$
+\max(0,\, s-\pi) \leqq x \leqq \min(\pi,\,s)
+$$
+となる．この範囲で $x+s$ の最大・最小を調べる．$s$ が一定のとき $x+s$ は $x$ の一次関数であり，$x$ の範囲の端で極値をとる．
+
+まず，$x$ の取り得る範囲を場合分けして整理する．$0\leqq s \leqq2\pi$ のもとで
+
+- $0\leqq s\leqq\pi$ のとき  
+  $s-\pi \leqq 0$ なので
+  $$
+  \max(0,s-\pi)=0,\quad \min(\pi,s)=s
+  $$
+  よって $0\leqq x\leqq s$ となる．
+
+- $\pi\leqq s\leqq2\pi$ のとき  
+  $s-\pi\geqq0$ でありまた $s\geqq\pi$ なので
+  $$
+  \max(0,s-\pi)=s-\pi,\quad \min(\pi,s)=\pi
+  $$
+  よって $s-\pi\leqq x\leqq\pi$ となる．
+
+このとき，$2x+y=x+s$ の最小値と最大値は次のようになる．  
+
+1) $0\leqq s\leqq\pi$ のとき  
+
+- 最小値：$x$ が最小の $x=0$ のとき
+  $$
+  2x+y = 0 + s = s
+  $$
+- 最大値：$x$ が最大の $x=s$ のとき
+  $$
+  2x+y = s + s = 2s
+  $$
+
+2) $\pi\leqq s\leqq2\pi$ のとき  
+
+- 最小値：$x$ が最小の $x = s-\pi$ のとき
+  $$
+  2x+y = (s-\pi)+s = 2s-\pi
+  $$
+- 最大値：$x$ が最大の $x = \pi$ のとき
+  $$
+  2x+y = \pi + s = s+\pi
+  $$
+
+ここで，$s=x+y$ の取り得る範囲は，(1) で求めたとおり
+$$
+\frac{5\pi}{12} \leqq s \leqq \frac{13\pi}{12}
+\quad\text{または}\quad
+\frac{35\pi}{12} \leqq s \leqq \frac{15\pi}{8}
+$$
+である．これを $0\leqq s\leqq\pi$ と $\pi\leqq s\leqq2\pi$ で分けて考える．
+
+まず
+$$
+\frac{5\pi}{12} \leqq s \leqq \frac{13\pi}{12}
+$$
+のうち，$\pi$ を境に分けると
+\[
+\begin{cases}
+\displaystyle \frac{5\pi}{12} \leqq s \leqq \pi, \\[4pt]
+\displaystyle \pi \leqq s \leqq \frac{13\pi}{12}
+\end{cases}
+\]
+となる．一方
+$$
+\frac{35\pi}{12} \leqq s \leqq \frac{15\pi}{8}
+$$
+はすべて $\pi$ より大きい（$35\pi/12> \pi$）ので，$ \pi\leqq s\leqq2\pi$ の場合に属する．
+
+以上を順に調べる．
+
+【A】 $ \dfrac{5\pi}{12} \leqq s \leqq \pi $（$0\leqq s\leqq\pi$ に属する）
+
+- 最小値は $2x+y = s$，この区間での最小は $s=\dfrac{5\pi}{12}$ のとき
+  $$
+  2x+y = \frac{5\pi}{12}
+  $$
+- 最大値は $2x+y = 2s$，この区間での最大は $s=\pi$ のとき
+  $$
+  2x+y = 2\pi
+  $$
+
+【B】 $ \pi \leqq s \leqq \dfrac{13\pi}{12} $（$\pi\leqq s\leqq2\pi$ に属する）
+
+- 最小値は $2x+y = 2s-\pi$，この区間での最小は $s=\pi$ のとき
+  $$
+  2x+y = 2\pi - \pi = \pi
+  $$
+- 最大値は $2x+y = s+\pi$，この区間での最大は $s=\dfrac{13\pi}{12}$ のとき
+  $$
+  2x+y = \frac{13\pi}{12} + \pi = \frac{25\pi}{12}
+  $$
+
+【C】 $ \dfrac{35\pi}{12} \leqq s \leqq \dfrac{15\pi}{8} $（$\pi\leqq s\leqq2\pi$ に属する）
+
+- 最小値は $2x+y = 2s-\pi$，この区間での最小は $s=\dfrac{35\pi}{12}$ のとき
+  $$
+  2x+y = 2\cdot\frac{35\pi}{12} - \pi
+       = \frac{70\pi}{12} - \frac{12\pi}{12}
+       = \frac{58\pi}{12}
+       = \frac{29\pi}{6}
+  $$
+- 最大値は $2x+y = s+\pi$，この区間での最大は $s=\dfrac{15\pi}{8}$ のとき
+  $$
+  2x+y = \frac{15\pi}{8} + \pi
+       = \frac{23\pi}{8}
+  $$
+
+以上より，全体として $2x+y$ の取り得る最小値と最大値を比べると，
+
+- 最小値候補：  
+  $ \dfrac{5\pi}{12},\ \pi,\ \dfrac{29\pi}{6}$ のうち最小は
+  $$
+  \frac{5\pi}{12}
+  $$
+- 最大値候補：  
+  $ 2\pi,\ \dfrac{25\pi}{12},\ \dfrac{23\pi}{8}$ のうち最大は
+  $$
+  \frac{23\pi}{8}
+  $$
+  である（$\dfrac{23\pi}{8} \approx 2.875\pi,\ 2\pi=2.0\pi,\ \dfrac{25\pi}{12}\approx2.083\pi$ なので，$\dfrac{23\pi}{8}$ が最大）．
+
+したがって，  
+点 $(x,y)$ が領域Dを動くとき，$2x+y$ の最小値は
+$$
+\frac{5\pi}{12}
+$$
+最大値は
+$$
+\frac{23\pi}{8}
+$$
+である．

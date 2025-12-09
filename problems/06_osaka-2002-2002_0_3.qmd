@@ -1,0 +1,36 @@
+---
+title: "大阪大学 2002年 2002_0_3"
+problem_id: "06_osaka-2002-2002_0_3"
+university: "大阪大学"
+exam_year: "2002"
+source_tex: "archive/06_osaka/2002/2002_0_3.tex"
+pdf_source: "archive/06_osaka/2002/2002_0_3.pdf"
+page_image: "archive/06_osaka/2002/2002_0_3.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　平面上に原点$O$を中心とする半径1の円$K_1$を考える．
+$K_1$の直径を1つとり，その両端を$A$，$B$とする．
+円$K_1$の周上の任意の点$Q$に対し，線分$QA$を$1:2$の比に内分する点を$R$とする．
+いま$k$を正の定数として，
+$\overrightarrow{p}=\overrightarrow{AQ}+k\overrightarrow{BR}$とおく．
+ただし，$Q=A$のときは$R=A$とする．
+また，$\overrightarrow{OA}=\overrightarrow{a}$，$\overrightarrow{OQ}=\overrightarrow{q}$とおく．
+\begin{description}
+\item[(1)]$\overrightarrow{BR}$を$\overrightarrow{a}$，$\overrightarrow{q}$を用いて表せ．
+\item[(2)]点$Q$が円$K_1$の周上を動くとき，
+$\overrightarrow{OP}=\overrightarrow{p}$となるような点$P$がえがく図形を$K_2$とする．
+$K_2$は円であることを示し，中心の位置ベクトルと半径を求めよ．
+\item[(3)]円$K_2$の内部に点$A$が含まれるような$k$の値の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2002/2002_0_3.pdf)

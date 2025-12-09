@@ -1,0 +1,31 @@
+---
+title: "東北大学 2016年 2016_e"
+problem_id: "04_tohoku-2016-2016_e"
+university: "東北大学"
+exam_year: "2016"
+source_tex: "archive/04_tohoku/2016/2016_e.tex"
+pdf_source: "archive/04_tohoku/2016/2016_e.pdf"
+page_image: "archive/04_tohoku/2016/2016_e.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$z$，$w$を相異なる複素数で$z$の虚部は正，$w$の虚部は負とする。
+このとき，以下の問いに答えよ。
+\begin{description}
+\item[(1)]1，$z$，$-1$，$w$が複素数平面の同一円周上にあるための必要十分条件は
+\[ \frac{(1+w)(1-z)}{(1-w)(1+z)} \]
+が負の実数となることであることを示せ。
+\item[(2)]$z=x+yi$が$x<0$と$y>0$を満たすとする。
+1，$z$，$-1$，$\displaystyle\frac{1+z^2}{2}$が複素数平面の同一円周上にあるとき，
+複素数$z$の軌跡を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_e.pdf)

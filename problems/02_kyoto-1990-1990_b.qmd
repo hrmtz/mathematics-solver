@@ -1,0 +1,24 @@
+---
+title: "京都大学 1990年 1990_b"
+problem_id: "02_kyoto-1990-1990_b"
+university: "京都大学"
+exam_year: "1990"
+source_tex: "archive/02_kyoto/1990/1990_b.tex"
+pdf_source: "archive/02_kyoto/1990/1990_b.pdf"
+page_image: "archive/02_kyoto/1990/1990_b.jpg"
+fields:
+  - 微分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\displaystyle f(x)=\frac{a-\cos x}{x^2}$が$\displaystyle 0<x\leqq\frac{\pi}{2}$の範囲で
+増加関数となるような定数$a$のうち最大のものを求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1990/1990_b.pdf)

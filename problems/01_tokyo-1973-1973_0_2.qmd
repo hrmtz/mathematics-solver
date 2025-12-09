@@ -1,0 +1,30 @@
+---
+title: "東京大学 1973年 1973_0_2"
+problem_id: "01_tokyo-1973-1973_0_2"
+university: "東京大学"
+exam_year: "1973"
+source_tex: "archive/01_tokyo/1973/1973_0_2.tex"
+pdf_source: "archive/01_tokyo/1973/1973_0_2.pdf"
+page_image: "archive/01_tokyo/1973/1973_0_2.jpg"
+fields:
+  - 空間図形
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　図において$AB=2a$とする．
+$AB$を直径とする半円周上に$P$があるとする．
+$P$から$AB$に下した垂線の足を$Q$とする．
+$\triangle APQ$を$AB$のまわりに回転してできる立体の体積の最大値を求めよ．
+
+
+
+![](../archive/01_tokyo/1973/fig_1973_0_2.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1973/1973_0_2.pdf)

@@ -1,0 +1,24 @@
+---
+title: "名古屋大学 1962年 1962_0_4"
+problem_id: "05_nagoya-1962-1962_0_4"
+university: "名古屋大学"
+exam_year: "1962"
+source_tex: "archive/05_nagoya/1962/1962_0_4.tex"
+pdf_source: "archive/05_nagoya/1962/1962_0_4.pdf"
+page_image: "archive/05_nagoya/1962/1962_0_4.jpg"
+fields:
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　常用対数につき
+\[ \log1.4=0.146 \hspace{1zw} \log1.8=0.255 \hspace{1zw} \log2.1=0.322 \]
+であるとして，これから$\log63$の値を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1962/1962_0_4.pdf)

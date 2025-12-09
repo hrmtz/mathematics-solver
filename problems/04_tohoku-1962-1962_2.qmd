@@ -1,0 +1,30 @@
+---
+title: "東北大学 1962年 1962_2"
+problem_id: "04_tohoku-1962-1962_2"
+university: "東北大学"
+exam_year: "1962"
+source_tex: "archive/04_tohoku/1962/1962_2.tex"
+pdf_source: "archive/04_tohoku/1962/1962_2.pdf"
+page_image: "archive/04_tohoku/1962/1962_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　正三角形$ABC$とその内部に1点$P$がある。
+いま$PA$，$PB$，$PC$を3辺とする三角形をえがきたい。
+\begin{description}
+\item[(1)]$BP$を1辺とする正三角形$DBP$を$A$と$D$が直線$BP$に対して同じ側にあるように作る。
+このとき三角形$APD$は題意の三角形にあたることを証明せよ。
+\item[(2)]題意の三角形が特に鋭角三角形であるためには，
+$P$はどんな範囲になければならないか。
+その範囲を正しく図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1962/1962_2.pdf)

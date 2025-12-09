@@ -4,32 +4,34 @@
 - OpenAI Vision による OCR → Quarto 互換の qmd 生成
 - ブラウザ上で qmd をプレビュー・修正
 - OpenAI による模範解答の自動生成
-- 問題＋解答を A4 二段組 PDF のハンドアウトとして出力
+- 問題＋解答を HTML handout として出力（ブラウザ印刷前提）
 
 を行う Flask ベースの小さな Web アプリです。
 
-- バージョン: **0.1.0**（OCR〜問題プレビューまで動作確認済み）
+- バージョン: **0.2.0**（検索画面・ランダム演習・handout HTML 対応）
 ---
 
 ## 機能概要
 1. **画像アップロード (Flask)**  
-	- エンドポイント: `GET /` でアップロードフォーム表示、`POST /upload` で処理開始。
+	- エンドポイント: `GET /upload` でアップロードフォーム表示、`POST /upload` で処理開始。
+	- ルート `/` は問題検索画面 `/search` へリダイレクト。
 	- スマホ/PC から `jpg/jpeg/png` をアップロード可能。
-2. **OCR → 問題 qmd 生成**  
-	- `ocr_to_qmd.py` で OpenAI Vision API を呼び出し、画像から問題文を OCR。  
+2. **OCR → 問題 qmd 生成（画像ベース）**  
+	- `ocr_to_qmd.py` で OpenAI Vision API を呼び出し、アップロード画像から問題文を OCR。  
 	- 出力形式: Quarto 互換 Markdown (`.qmd`)。  
 	- 数式ルール:
 		 - インライン数式: `$...$`
 		 - ディスプレイ数式: `$$ ... $$`（`\[ ... \]` や `\begin{align}` は使わない）
-	 - 自動付与される仮 YAML ヘッダ例:
+	 - 自動付与される仮 YAML ヘッダ例（大学名・年度・分野は後でアプリ側で補完）:
 	```yaml
 	---
 	title: "<problem_id>"
-		 problem_id: "<problem_id>"
-		 format:
-			 html:
-				 math: mathjax
-		 ---
+	problem_id: "<problem_id>"
+	format:
+	  html:
+	    math: mathjax
+	---
+	```
 
 	 - 生成された qmd は `problems/<problem_id>.qmd` に保存。
 3. **HTML プレビュー & 編集**  
@@ -40,51 +42,97 @@
 
 4. **解答生成 (OpenAI)**  
 	 - `solver.py` の `generate_solution_qmd()` が問題 qmd を入力として模範解答 qmd を生成。  
-	 - 解答方針（システムプロンプト）:
+	 - 解答方針（システムプロンプト）：
 		 - 高校数学〜大学入試レベルの模範解答。
 	- 誘導があれば従う。
 	- 途中式を丁寧に書く。
 	- 証明は日本語で論理的に記述。
 		 - 出力は qmd 形式・数式は `$...` / `$$ ... $$`。
-		 - 冒頭に `## 解答` 見出しを付ける。
 	 - 生成された解答 qmd は `solutions/<problem_id>_solution.qmd` に保存。  
 	- テンプレート: `templates/solution_preview.html` で、問題・解答の両方をテキスト＋MathJax プレビュー表示。
+	- モデルが `## 解答` 見出しを付けても、保存時・プレビュー時に自動で除去。
 
-5. **PDF ハンドアウト生成 (Quarto)**  
-	 - `solver.py` の `build_handout_qmd()` で、問題 qmd と解答 qmd を結合したハンドアウト qmd を生成。  
-	 - PDF 用 YAML ヘッダ例:
+5. **handout HTML 生成 (Quarto)**  
+	 - `solver.py` の `build_handout_qmd()` で、問題 qmd と解答 qmd を結合した handout 用 qmd を生成。  
+	 - handout 用 YAML ヘッダ（抜粋）:
 
 		 ```yaml
 		 ---
+		 lang: ja
 		 format:
-			 pdf:
-		 documentclass: article
-		 classoption: ["a4paper", "twocolumn"]
-		 margin: 20mm
+		   html:
+		     theme: default
+		     toc: false
+		     number-sections: false
+		     css: ../static/handout-print.css
 		 ---
+		 ```
 
-	 - `app.py` の `POST /handout/<problem_id>` から `quarto render` を呼び出し、  
-		 `output/<problem_id>_handout.qmd` → `output/<problem_id>_handout.pdf` を生成。  
-	- PDF はそのままダウンロード可能。
+	 - `app.py` の `POST /handout/<problem_id>` から `quarto render --to html` を呼び出し、  
+		 `output/<problem_id>_handout.qmd` → `output/<problem_id>_handout.html` を生成。  
+	- 生成された HTML をブラウザで開き、そのまま印刷 / PDF 化して配布資料に利用。
 
-6. **メタデータ管理 (YAML ヘッダ)**  
+6. **メタデータ管理 (YAML ヘッダ + 検索 UI)**  
 	問題 qmd の YAML ヘッダに以下のようなメタデータを記述しておき、
-	将来的な検索や分類に利用できるようにします（アプリ内の検索 UI は今後実装予定）。
+	トップページ `/search` の検索 UI から大学・年度・分野などでフィルタして利用できます。
 	```yaml
 	---
-	title: "osaka-2024-math-q4"
-	problem_id: "osaka-2024-math-q4"
-	university: "大阪大学"
-	exam_year: 2024
-	exam_type: "前期"
-	subject: "数学"
-	field: "積分法"
-	section: "第4問"
-	 tags: ["置換積分", "最大値最小値", "三角関数"]
-	 format:
-		 html:
-			 math: mathjax
-	 ---
+	title: "東京大学 2024年 2024_4"
+	problem_id: "01_tokyo-2024-2024_4"
+	university: "東京大学"
+	exam_year: "2024"
+	source_tex: "archive/01_tokyo/2024/2024_4.tex"
+	pdf_source: "archive/01_tokyo/2024/2024_4.pdf"
+	page_image: "archive/01_tokyo/2024/2024_4.jpg"
+	fields:
+	  - 微分法
+	  - 平面図形
+	format:
+	  html:
+	    math: mathjax
+	---
+	```
+
+7. **問題検索・ランダム演習 (`/search`)**  
+	- トップページ `/` で問題検索画面 `/search` を表示。
+	- 大学・年度（from/to）・分野でフィルタ可能（年度 from はデフォルトで 2015 年頃から）。
+	- 問題本文の冒頭テキスト（LaTeX 除去済み）をスニペットとして一覧表示。
+	- 「この条件からランダムに10問」ボタンで、絞り込み条件に合う問題からランダムに 10 問を抽出して演習用リストを表示。
+	- 一覧には解答の有無も表示され、その場で「解答を見る」画面へ遷移可能。
+
+8. **TeX アーカイブ → qmd 一括生成 (`archive_import.py`)**  
+	- 旧来の TeX 問題アーカイブ（`archive/<university>/<year>/*.tex`）から `problems/` 配下の qmd を一括生成するユーティリティ。  
+	- TeX の `\begin{document}`〜`\end{document}` だけを抜き出して不要なレイアウト記述やコメントを削除。  
+	- `\includegraphics{...}` を実際の画像ファイル（`fig_*.jpg` 等）にマッピングし、Markdown 画像 `![]()` に変換。  
+	- YAML ヘッダに `university`, `exam_year`, `source_tex`, `pdf_source`, `page_image` などのメタデータを付与。  
+	- 既に同じ `problem_id` の qmd が存在する場合はスキップする安全設計。  
+	- コマンド例:
+		- 全大学・全年度を対象（実際にはかなり時間がかかるので注意）:
+			```bash
+			python archive_import.py
+			```
+		- 東京大学 1961 年分だけ qmd を生成（書き込みあり）:
+			```bash
+			python archive_import.py --university 01_tokyo --year 1961
+			```
+		- 同じ範囲で dry-run（生成内容だけログに出してファイルは書かない）:
+			```bash
+			python archive_import.py --university 01_tokyo --year 1961 --dry-run
+			```
+
+9. **分野タグ自動付与 (`assign_fields.py`)**  
+	- `problems/*.qmd` を走査し、OpenAI ベースの分類器で「微分法」「積分法」「ベクトル」「確率」などの分野タグを推定して YAML ヘッダに `fields:` として追記。  
+	- すでに `fields:` を持つ問題や YAML ヘッダの無いファイルは自動的にスキップ。  
+	- 付与する分野名の候補は `taxonomy.py` の `FIELDS` に定義された一覧を利用。  
+	- コマンド例:
+		- 全問題に対して分野タグを付与（書き込みあり）:
+			```bash
+			python assign_fields.py
+			```
+		- 単一問題だけ対象にし、結果だけ見たい場合:
+			```bash
+			python assign_fields.py --problem-id 01_tokyo-1961-1961_1 --dry-run
+			```
 
 ---
 

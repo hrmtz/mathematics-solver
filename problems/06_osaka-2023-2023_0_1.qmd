@@ -1,0 +1,25 @@
+---
+title: "大阪大学 2023年 2023_0_1"
+problem_id: "06_osaka-2023-2023_0_1"
+university: "大阪大学"
+exam_year: "2023"
+source_tex: "archive/06_osaka/2023/2023_0_1.tex"
+pdf_source: "archive/06_osaka/2023/2023_0_1.pdf"
+page_image: "archive/06_osaka/2023/2023_0_1.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$，$b$を実数とする．$\theta$についての方程式
+\[ \cos2\theta=a\sin\theta=b \]
+が実数解をもつような点$(a, \, b)$の存在範囲を座標平面上に図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2023/2023_0_1.pdf)

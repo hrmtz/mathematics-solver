@@ -1,0 +1,27 @@
+---
+title: "大阪大学 1965年 1965_1"
+problem_id: "06_osaka-1965-1965_1"
+university: "大阪大学"
+exam_year: "1965"
+source_tex: "archive/06_osaka/1965/1965_1.tex"
+pdf_source: "archive/06_osaka/1965/1965_1.pdf"
+page_image: "archive/06_osaka/1965/1965_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$\triangle ABC$において，$AC$の中点を$M$，$\angle A$の二等分線が$BC$，$BM$と交わる点をそれぞれ$D$，$E$とする。
+$BE:EM=\sqrt2:1$であるとき，次の(1)，(2)に答えよ。
+\begin{description}
+\item[(1)]$BD=BE$であることを証明せよ。
+\item[(2)]$\angle MBC$が${45}^\circ$で，$AC=2a$のとき，$BC$の長さを$a$で表わせ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1965/1965_1.pdf)

@@ -1,0 +1,27 @@
+---
+title: "九州大学 1989年 1989_1"
+problem_id: "07_kyushu-1989-1989_1"
+university: "九州大学"
+exam_year: "1989"
+source_tex: "archive/07_kyushu/1989/1989_1.tex"
+pdf_source: "archive/07_kyushu/1989/1989_1.pdf"
+page_image: "archive/07_kyushu/1989/1989_1.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　関数$f(x)$は，$\displaystyle f(x)=\int_0^xf(t)(f(t)-1)dt+\frac{1}{3}$を満たすものとする．
+\begin{description}
+\item[(1)]$f(x)$を求めよ．
+\item[(2)]曲線$y=f(x)$の凹凸および変曲点を調べ，概形を描け．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1989/1989_1.pdf)

@@ -1,0 +1,24 @@
+---
+title: "北海道大学 1998年 1998_b"
+problem_id: "03_hokudai-1998-1998_b"
+university: "北海道大学"
+exam_year: "1998"
+source_tex: "archive/03_hokudai/1998/1998_b.tex"
+pdf_source: "archive/03_hokudai/1998/1998_b.pdf"
+page_image: "archive/03_hokudai/1998/1998_b.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　次の条件で定まる数列$\{ a_n \}$の一般項を求めよ．
+\[ a_1=1, \hspace{1zw} \frac{2^n}{n \, !}=\sum_{k=1}^{n+1}a_ka_{n+2-k}
+\hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1998/1998_b.pdf)

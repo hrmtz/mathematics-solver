@@ -1,0 +1,180 @@
+## 解答
+
+曲線 $y = \log(1+\cos x)$ の $0 \leq x \leq \dfrac{\pi}{2}$ における長さを $L$ とおくと，  
+通常の弧長公式より
+
+$$
+L = \int_{0}^{\pi/2} \sqrt{1+\left(\frac{dy}{dx}\right)^2}\,dx
+$$
+
+である．
+
+まず $y = \log(1+\cos x)$ を $x$ で微分する．  
+対数関数の微分公式より
+
+$$
+\frac{dy}{dx}
+= \frac{1}{1+\cos x}\cdot(-\sin x)
+= -\frac{\sin x}{1+\cos x}
+$$
+
+である．したがって
+
+$$
+\left(\frac{dy}{dx}\right)^2
+= \frac{\sin^2 x}{(1+\cos x)^2}
+$$
+
+であり，これを用いると
+
+$$
+1+\left(\frac{dy}{dx}\right)^2
+= 1 + \frac{\sin^2 x}{(1+\cos x)^2}
+= \frac{(1+\cos x)^2 + \sin^2 x}{(1+\cos x)^2}
+$$
+
+となる．分子を整理する．まず
+
+$$
+(1+\cos x)^2 + \sin^2 x
+= 1 + 2\cos x + \cos^2 x + \sin^2 x
+= 1 + 2\cos x + (\cos^2 x + \sin^2 x)
+= 1 + 2\cos x + 1
+= 2(1+\cos x)
+$$
+
+と変形できる（$\cos^2 x + \sin^2 x = 1$ を用いた）．したがって
+
+$$
+1+\left(\frac{dy}{dx}\right)^2
+= \frac{2(1+\cos x)}{(1+\cos x)^2}
+= \frac{2}{1+\cos x}
+$$
+
+である．よって
+
+$$
+\sqrt{1+\left(\frac{dy}{dx}\right)^2}
+= \sqrt{\frac{2}{1+\cos x}}
+$$
+
+となり，
+
+$$
+L = \int_{0}^{\pi/2} \sqrt{\frac{2}{1+\cos x}}\,dx
+$$
+
+を計算すればよい．
+
+ここで，三角恒等式 $1+\cos x = 2\cos^2\frac{x}{2}$ を用いると，
+
+$$
+\frac{2}{1+\cos x}
+= \frac{2}{2\cos^2\frac{x}{2}}
+= \frac{1}{\cos^2\frac{x}{2}}
+= \sec^2\frac{x}{2}
+$$
+
+である．したがって
+
+$$
+\sqrt{\frac{2}{1+\cos x}}
+= \sqrt{\sec^2\frac{x}{2}}
+= \left|\sec\frac{x}{2}\right|
+= \sec\frac{x}{2}
+$$
+
+となる（$0 \le x \le \dfrac{\pi}{2}$ より $0 \le \dfrac{x}{2} \le \dfrac{\pi}{4}$ なので，$\cos\dfrac{x}{2}>0$ となり，絶対値が外れて $\sec\dfrac{x}{2}$ となる）．
+
+よって弧長は
+
+$$
+L = \int_{0}^{\pi/2} \sec\frac{x}{2}\,dx
+$$
+
+となる．この積分を計算するために，$t = \dfrac{x}{2}$ とおくと $x = 2t$，$dx = 2\,dt$ であり，  
+$x$ の範囲 $0 \le x \le \dfrac{\pi}{2}$ に対応して $t$ の範囲は $0 \le t \le \dfrac{\pi}{4}$ となる．よって
+
+$$
+L
+= \int_{0}^{\pi/2} \sec\frac{x}{2}\,dx
+= \int_{0}^{\pi/4} \sec t \cdot 2\,dt
+= 2\int_{0}^{\pi/4}\sec t\,dt
+$$
+
+となる．
+
+次に $\displaystyle \int \sec t\,dt$ を計算する．既知の積分公式  
+（$\int \sec t\,dt = \log|\sec t + \tan t| + C$）を用いてもよいが，ここでは導出も示す．
+
+被積分関数 $\sec t$ に対して，分母を工夫して
+
+$$
+\sec t 
+= \frac{\sec t(\sec t+\tan t)}{\sec t+\tan t}
+$$
+
+と変形する．分子を展開すると
+
+$$
+\sec t(\sec t+\tan t)
+= \sec^2 t + \sec t \tan t
+$$
+
+であるが，これは $\sec t + \tan t$ の導関数になっていることに注意する．実際，
+
+$$
+\frac{d}{dt}(\sec t + \tan t)
+= \sec t\tan t + \sec^2 t
+$$
+
+である．したがって
+
+$$
+\sec t
+= \frac{\sec^2 t + \sec t\tan t}{\sec t+\tan t}
+= \frac{(\sec t+\tan t)'}{\sec t+\tan t}
+$$
+
+となるので，対数関数の積分公式を用いて
+
+$$
+\int \sec t\,dt
+= \int \frac{(\sec t+\tan t)'}{\sec t+\tan t}\,dt
+= \log|\sec t+\tan t| + C
+$$
+
+と求まる．
+
+これを用いて
+
+$$
+\int_{0}^{\pi/4}\sec t\,dt
+= \left[\,\log|\sec t+\tan t|\,\right]_{t=0}^{t=\pi/4}
+= \log|\sec\frac{\pi}{4}+\tan\frac{\pi}{4}| - \log|\sec 0 + \tan 0|
+$$
+
+を計算する．$\sec\frac{\pi}{4} = \sqrt{2}$，$\tan\frac{\pi}{4} = 1$，$\sec 0 = 1$，$\tan 0 = 0$ なので，
+
+$$
+\int_{0}^{\pi/4}\sec t\,dt
+= \log(\sqrt{2}+1) - \log 1
+= \log(\sqrt{2}+1)
+$$
+
+となる．よって
+
+$$
+L = 2\int_{0}^{\pi/4}\sec t\,dt
+= 2\log(\sqrt{2}+1)
+$$
+
+である．
+
+したがって，求める曲線の長さは
+
+$$
+\boxed{2\log(\sqrt{2}+1)}
+$$
+
+である．

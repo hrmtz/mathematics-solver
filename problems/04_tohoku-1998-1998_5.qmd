@@ -1,0 +1,25 @@
+---
+title: "東北大学 1998年 1998_5"
+problem_id: "04_tohoku-1998-1998_5"
+university: "東北大学"
+exam_year: "1998"
+source_tex: "archive/04_tohoku/1998/1998_5.tex"
+pdf_source: "archive/04_tohoku/1998/1998_5.pdf"
+page_image: "archive/04_tohoku/1998/1998_5.jpg"
+fields:
+  - 平面図形
+  - 不等式
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$x$の方程式$x^2+a|x-1|+b=0$が異なる実数解をちょうど2個もつとき，
+点$(a, \, b)$の存在する範囲を$ab$平面に図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_5.pdf)

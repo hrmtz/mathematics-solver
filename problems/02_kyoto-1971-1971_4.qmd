@@ -1,0 +1,23 @@
+---
+title: "京都大学 1971年 1971_4"
+problem_id: "02_kyoto-1971-1971_4"
+university: "京都大学"
+exam_year: "1971"
+source_tex: "archive/02_kyoto/1971/1971_4.tex"
+pdf_source: "archive/02_kyoto/1971/1971_4.pdf"
+page_image: "archive/02_kyoto/1971/1971_4.jpg"
+fields:
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xy$平面上の曲線$y=\sqrt{|x^2-1|}$と直線$y=2$とが囲む図形を$x$軸のまわりに回転してえられる回転体の体積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1971/1971_4.pdf)

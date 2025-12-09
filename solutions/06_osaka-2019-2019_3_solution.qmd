@@ -1,0 +1,448 @@
+## 解答
+
+(1)  
+点 $(2,\sqrt2)$ が領域Aの点であるとは，ある実数 $s,t$ が存在して
+$$
+\begin{cases}
+s+t=2,\\[2mm]
+st=\sqrt2,\\[2mm]
+s^2+t^2\le 6
+\end{cases}
+$$
+を同時に満たすことをいう．
+
+まず $s+t=2,\ st=\sqrt2$ を満たす $s,t$ が実数として存在するかを調べる．  
+$s$ を変数とみなせば，$t=2-s$ より
+$$
+st = s(2-s) = \sqrt2
+$$
+すなわち
+$$
+-s^2+2s-\sqrt2=0
+$$
+である．両辺に $-1$ をかけて
+$$
+s^2-2s+\sqrt2=0
+$$
+となる．この2次方程式の判別式を $D$ とすると
+$$
+D = (-2)^2-4\cdot1\cdot\sqrt2 = 4-4\sqrt2 = 4(1-\sqrt2)<0
+$$
+となり，実数解をもたない．よって条件を満たす実数 $s,t$ は存在しない．  
+
+したがって $(2,\sqrt2)$ は領域Aの点ではない．
+
+---
+
+(2)  
+$s,t$ が $s^2+t^2\le 6$ を満たすとき，点 $(x,y)=(s+t,st)$ が動く領域をAとする．  
+$s,t$ に関する対称式が現れているので
+$$
+x=s+t,\quad y=st
+$$
+とおく．
+
+まず $s^2+t^2\le 6$ を $x,y$ で表す．  
+恒等式
+$$
+(s+t)^2 = s^2+2st+t^2
+$$
+より
+$$
+s^2+t^2 = (s+t)^2-2st = x^2-2y
+$$
+であるから，条件 $s^2+t^2\le 6$ は
+$$
+x^2-2y\le 6
+$$
+すなわち
+$$
+y\ge \frac{x^2-6}{2}
+$$
+となる．  
+
+次に，任意の $x,y$ に対して，それが実際に $s,t$ から生じうるかを調べる．  
+$s,t$ は和と積が $x,y$ である2数とみなせるから，
+$$
+u^2-xu+y=0
+$$
+を満たす2解を $s,t$ と考えればよい．$s,t$ が実数であるための必要十分条件は，この2次方程式の判別式 $D$ が $0$ 以上であることである．
+
+判別式は
+$$
+D = x^2-4y
+$$
+であるから
+$$
+x^2-4y\ge 0
+$$
+すなわち
+$$
+y\le \frac{x^2}{4}
+$$
+が必要十分条件となる．  
+
+以上より，領域Aは $xy$ 平面において
+$$
+\frac{x^2-6}{2}\le y\le \frac{x^2}{4}
+$$
+を満たす点全体であり，かつこのときの $x$ の範囲を調べる．
+
+2つの放物線
+$$
+y=\frac{x^2-6}{2},\quad y=\frac{x^2}{4}
+$$
+の交点を求めると
+$$
+\frac{x^2-6}{2}=\frac{x^2}{4}
+$$
+すなわち両辺に4をかけて
+$$
+2(x^2-6)=x^2 \quad\Longrightarrow\quad 2x^2-12=x^2
+$$
+より
+$$
+x^2=12 \quad\Longrightarrow\quad x=\pm 2\sqrt3
+$$
+となる．
+
+また，$s^2+t^2\le6$ から直接 $x$ の範囲を調べることもできる．  
+$s^2+t^2\le 6$ より $|s|,|t|\le\sqrt6$ だから
+$$
+|x|=|s+t|\le |s|+|t|\le 2\sqrt6
+$$
+となり，$x$ の取りうる範囲は $[-2\sqrt6,\,2\sqrt6]$ である．  
+
+一方，$y\le x^2/4$ は $x$ に制限を与えない．  
+しかし，先ほど求めた $y\ge (x^2-6)/2$ との「共通部分」が存在するのは $x^2\ge 12$ のときである．実際，
+$$
+\frac{x^2-6}{2}\le \frac{x^2}{4}
+\quad\Longleftrightarrow\quad
+x^2\ge 12
+$$
+であった．したがって，領域Aは
+$$
+-2\sqrt6\le x\le -2\sqrt3,\quad \frac{x^2-6}{2}\le y\le \frac{x^2}{4}
+$$
+および
+$$
+2\sqrt3\le x\le 2\sqrt6,\quad \frac{x^2-6}{2}\le y\le \frac{x^2}{4}
+$$
+を満たす点全体である．
+
+図示すると，右開きの放物線 $y=(x^2-6)/2$ とそれより下に位置する放物線 $y=x^2/4$ によって囲まれる「縦に厚みを持つ帯状の部分」が，$x=\pm2\sqrt3$ から $x=\pm2\sqrt6$ の間にそれぞれ左右対称に2つ現れる領域となる（原点付近には領域は存在しない）．
+
+---
+
+(3)  
+(2)で求めた領域Aを $x$ 軸のまわりに1回転させてできる回転体の体積を求める．  
+
+領域Aの各 $x$ における $y$ の範囲は
+$$
+\frac{x^2-6}{2}\le y\le \frac{x^2}{4}
+$$
+であった．このうち $y\ge 0$ の部分のみが $x$ 軸まわりの回転で体積を生む．
+
+まず $y\ge 0$ となる $x$ の範囲を調べる．  
+上側の境界 $y=x^2/4$ は $x=0$ のとき $y=0$ であり，$x\ne0$ では正である．  
+下側の境界 $y=(x^2-6)/2$ は
+$$
+\frac{x^2-6}{2}\ge 0 \Longleftrightarrow x^2\ge 6 \Longleftrightarrow |x|\ge \sqrt6
+$$
+のとき非負である．
+
+したがって，
+
+- $|x|\ge 2\sqrt3$:  
+  上側 $y=x^2/4$，下側 $y=(x^2-6)/2$ の間すべてが $y\ge0$ であり，この部分が環状の「中抜き円盤」となる．  
+- $\sqrt6\le |x|\le 2\sqrt3$:  
+  下側の放物線は $y<0$ となるので，$y=0$ から $y=x^2/4$ までが体積を与える「完全な円盤」となる．  
+- $|x|<\sqrt6$:  
+  二つの曲線の間に領域A自体が存在しないので，体積なし．  
+
+以上より，体積は
+
+1. 区間 $[\,\sqrt6,\,2\sqrt3\,]$ と $[-2\sqrt3,\,-\sqrt6]$ から得られる「円盤」の体積
+2. 区間 $[\,2\sqrt3,\,2\sqrt6\,]$ と $[-2\sqrt6,\,-2\sqrt3]$ から得られる「中抜き円盤」の体積
+
+の和となる．左右対称なので $x\ge0$ の部分の2倍を計算すればよい．
+
+$x\ge0$ の部分の体積を $V_+$ とすると，
+$$
+V_+ =
+\int_{\sqrt6}^{2\sqrt3}\pi\left(\frac{x^2}{4}\right)^2\,dx
++
+\int_{2\sqrt3}^{2\sqrt6}
+\pi\left[
+\left(\frac{x^2}{4}\right)^2
+-
+\left(\frac{x^2-6}{2}\right)^2
+\right]dx
+$$
+である．
+
+第1項：
+$$
+\int_{\sqrt6}^{2\sqrt3}\pi\left(\frac{x^2}{4}\right)^2\,dx
+=
+\int_{\sqrt6}^{2\sqrt3}\pi\frac{x^4}{16}\,dx
+=
+\frac{\pi}{16}\int_{\sqrt6}^{2\sqrt3}x^4\,dx
+$$
+$$
+\int x^4\,dx = \frac{x^5}{5}
+\ \text{より}\ 
+=
+\frac{\pi}{16}\left[\frac{x^5}{5}\right]_{\sqrt6}^{2\sqrt3}
+=
+\frac{\pi}{80}\left\{(2\sqrt3)^5-(\sqrt6)^5\right\}.
+$$
+それぞれ計算すると
+$$
+(2\sqrt3)^5
+=2^5(\sqrt3)^5
+=32\cdot3^2\sqrt3=288\sqrt3,
+$$
+$$
+(\sqrt6)^5=(\sqrt6)^4\sqrt6=6^2\sqrt6=36\sqrt6,
+$$
+よって
+$$
+\frac{\pi}{80}\left\{288\sqrt3-36\sqrt6\right\}
+=
+\frac{\pi}{80}\cdot36(8\sqrt3-\sqrt6)
+=
+\frac{9\pi}{20}(8\sqrt3-\sqrt6).
+$$
+
+第2項の integrand を整理する．
+$$
+\left(\frac{x^2}{4}\right)^2
+-
+\left(\frac{x^2-6}{2}\right)^2
+=
+\frac{x^4}{16}
+-
+\frac{(x^2-6)^2}{4}
+=
+\frac{1}{16}\left\{x^4-4(x^2-6)^2\right\}
+$$
+$$
+(x^2-6)^2=x^4-12x^2+36
+$$
+より
+$$
+x^4-4(x^2-6)^2
+=
+x^4-4(x^4-12x^2+36)
+=
+x^4-4x^4+48x^2-144
+=
+-3x^4+48x^2-144.
+$$
+したがって
+$$
+\left(\frac{x^2}{4}\right)^2
+-
+\left(\frac{x^2-6}{2}\right)^2
+=
+\frac{-3x^4+48x^2-144}{16}.
+$$
+
+ゆえに第2項は
+$$
+\int_{2\sqrt3}^{2\sqrt6}
+\pi\left[
+\left(\frac{x^2}{4}\right)^2
+-
+\left(\frac{x^2-6}{2}\right)^2
+\right]dx
+=
+\frac{\pi}{16}
+\int_{2\sqrt3}^{2\sqrt6}
+(-3x^4+48x^2-144)\,dx.
+$$
+
+原始関数を求めると
+$$
+\int(-3x^4+48x^2-144)\,dx
+=
+-3\cdot\frac{x^5}{5}
++48\cdot\frac{x^3}{3}
+-144x
+=
+-\frac{3}{5}x^5+16x^3-144x.
+$$
+
+よって
+$$
+\frac{\pi}{16}
+\left[
+-\frac{3}{5}x^5+16x^3-144x
+\right]_{2\sqrt3}^{2\sqrt6}
+$$
+となる．
+
+$x=2\sqrt6$ での値：
+$$
+(2\sqrt6)^3=8(\sqrt6)^3=8\cdot6\sqrt6=48\sqrt6,
+$$
+$$
+(2\sqrt6)^5=32(\sqrt6)^5=32\cdot36\sqrt6=1152\sqrt6,
+$$
+したがって
+$$
+-\frac{3}{5}(2\sqrt6)^5+16(2\sqrt6)^3-144(2\sqrt6)
+=
+-\frac{3}{5}\cdot1152\sqrt6
++16\cdot48\sqrt6
+-288\sqrt6
+$$
+$$
+=
+-\frac{3456}{5}\sqrt6
++768\sqrt6
+-288\sqrt6
+=
+-\frac{3456}{5}\sqrt6
++\frac{480}{1}\sqrt6
+$$
+$$
+=
+\left(-\frac{3456}{5}+480\right)\sqrt6
+=
+\left(-\frac{3456}{5}+\frac{2400}{5}\right)\sqrt6
+=
+-\frac{1056}{5}\sqrt6.
+$$
+
+$x=2\sqrt3$ での値：
+$$
+(2\sqrt3)^3=8(\sqrt3)^3=8\cdot3\sqrt3=24\sqrt3,
+$$
+$$
+(2\sqrt3)^5=32(\sqrt3)^5=32\cdot9\sqrt3=288\sqrt3,
+$$
+したがって
+$$
+-\frac{3}{5}(2\sqrt3)^5+16(2\sqrt3)^3-144(2\sqrt3)
+=
+-\frac{3}{5}\cdot288\sqrt3
++16\cdot24\sqrt3
+-288\sqrt3
+$$
+$$
+=
+-\frac{864}{5}\sqrt3
++384\sqrt3
+-288\sqrt3
+=
+-\frac{864}{5}\sqrt3+96\sqrt3
+=
+\left(-\frac{864}{5}+\frac{480}{5}\right)\sqrt3
+=
+-\frac{384}{5}\sqrt3.
+$$
+
+よって
+$$
+\left[
+-\frac{3}{5}x^5+16x^3-144x
+\right]_{2\sqrt3}^{2\sqrt6}
+=
+-\frac{1056}{5}\sqrt6
+- \left(-\frac{384}{5}\sqrt3\right)
+=
+-\frac{1056}{5}\sqrt6+\frac{384}{5}\sqrt3.
+$$
+
+したがって第2項は
+$$
+\frac{\pi}{16}
+\left(
+-\frac{1056}{5}\sqrt6+\frac{384}{5}\sqrt3
+\right)
+=
+\frac{\pi}{80}
+\left(
+-1056\sqrt6+384\sqrt3
+\right).
+$$
+
+以上より
+$$
+V_+
+=
+\frac{9\pi}{20}(8\sqrt3-\sqrt6)
++
+\frac{\pi}{80}
+(-1056\sqrt6+384\sqrt3).
+$$
+
+分母を80にそろえると
+$$
+\frac{9\pi}{20}(8\sqrt3-\sqrt6)
+=
+\frac{36\pi}{80}(8\sqrt3-\sqrt6)
+=
+\frac{\pi}{80}(288\sqrt3-36\sqrt6),
+$$
+ゆえに
+$$
+V_+
+=
+\frac{\pi}{80}
+\left[
+(288\sqrt3-36\sqrt6)
++
+(-1056\sqrt6+384\sqrt3)
+\right]
+$$
+$$
+=
+\frac{\pi}{80}
+\left[
+(288+384)\sqrt3
+-(36+1056)\sqrt6
+\right]
+$$
+$$
+=
+\frac{\pi}{80}
+\left(
+672\sqrt3-1092\sqrt6
+\right).
+$$
+
+全体の体積 $V$ は $x\ge0$ 部分の2倍なので
+$$
+V = 2V_+
+=
+\frac{\pi}{40}
+\left(
+672\sqrt3-1092\sqrt6
+\right).
+$$
+
+共通因数をくくると
+$$
+672\sqrt3-1092\sqrt6
+=
+168(4\sqrt3-6\sqrt6),
+$$
+よって
+$$
+V
+=
+\frac{\pi}{40}\cdot168(4\sqrt3-6\sqrt6)
+=
+\frac{168}{40}\pi(4\sqrt3-6\sqrt6)
+=
+\frac{21}{5}\pi(4\sqrt3-6\sqrt6).
+$$
+
+したがって，求める回転体の体積は
+$$
+\boxed{\displaystyle V=\frac{21\pi}{5}\,(4\sqrt3-6\sqrt6)}
+$$
+である．

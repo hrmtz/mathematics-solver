@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 2010年 2010_3"
+problem_id: "05_nagoya-2010-2010_3"
+university: "名古屋大学"
+exam_year: "2010"
+source_tex: "archive/05_nagoya/2010/2010_3.tex"
+pdf_source: "archive/05_nagoya/2010/2010_3.pdf"
+page_image: "archive/05_nagoya/2010/2010_3.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　はじめに，$A$が赤玉を1個，$B$が白玉を1個，$C$が青玉を1個持っている．
+表裏の出る確率がそれぞれ$\displaystyle\frac{1}{2}$の硬貨を投げ，
+表が出れば$A$と$B$の玉を交換し，裏が出れば$B$と$C$の玉を交換する，という操作を考える．
+この操作を$n$回 $(n=1,2,3,\cdots)$くり返した後に
+$A$，$B$，$C$が赤玉を持っている確率をそれぞれ$a_n$，$b_n$，$c_n$とおく．
+\begin{description}
+\item[(1)]$a_1$，$b_1$，$c_1$，$a_2$，$b_2$，$c_2$を求めよ．
+\item[(2)]$a_{n+1}$，$b_{n+1}$，$c_{n+1}$を$a_n$，$b_n$，$c_n$で表せ．
+\item[(3)]$a_n$，$b_n$，$c_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2010/2010_3.pdf)

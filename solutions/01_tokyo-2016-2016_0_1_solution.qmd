@@ -1,0 +1,160 @@
+## 解答
+
+3点 $P(x,y)$，$Q(-x,-y)$，$R(1,0)$ が鋭角三角形をなすとは，三つの内角がすべて鋭角，すなわちどの角も $90^\circ$ 未満であることを意味する。  
+ベクトルを用い，各頂点における角が鋭角となる条件を調べる。
+
+3点の位置ベクトルを
+$$
+\vec{OP} = (x,y),\quad
+\vec{OQ} = (-x,-y),\quad
+\vec{OR} = (1,0)
+$$
+とおく。
+
+### 各頂点における角が鋭角となる条件
+
+#### (1) 点 $P$ における角 $\angle QPR$
+
+頂点 $P$ における 2 辺のベクトルは
+$$
+\vec{PQ} = \vec{Q} - \vec{P} = (-x,-y) - (x,y) = (-2x,-2y),
+$$
+$$
+\vec{PR} = \vec{R} - \vec{P} = (1,0) - (x,y) = (1-x,-y)
+$$
+である。  
+$\angle QPR$ が鋭角であるための必要十分条件は  
+$\vec{PQ}\cdot\vec{PR} > 0$ である。
+
+内積を計算すると
+$$
+\vec{PQ}\cdot\vec{PR}
+= (-2x)(1-x)+(-2y)(-y)
+= -2x+2x^2+2y^2
+= 2(x^2+y^2-x)
+$$
+となる。よって
+$$
+\vec{PQ}\cdot\vec{PR} > 0
+\;\Longleftrightarrow\;
+x^2 + y^2 - x > 0
+\;\Longleftrightarrow\;
+x^2 - x + y^2 > 0.
+$$
+ここで平方完成して
+$$
+x^2 - x + y^2
+= \left(x-\frac12\right)^2 + y^2 - \frac14
+$$
+より
+$$
+\left(x-\frac12\right)^2 + y^2 > \frac14
+$$
+となる。
+
+#### (2) 点 $Q$ における角 $\angle PQR$
+
+同様に
+$$
+\vec{QP} = \vec{P} - \vec{Q} = (2x,2y),
+$$
+$$
+\vec{QR} = \vec{R} - \vec{Q} = (1,0) - (-x,-y) = (1+x,y)
+$$
+であるから，
+$$
+\vec{QP}\cdot\vec{QR}
+= (2x)(1+x) + (2y)y
+= 2x+2x^2+2y^2
+= 2(x^2+y^2+x)
+$$
+となる。したがって $\angle PQR$ が鋭角となる条件は
+$$
+\vec{QP}\cdot\vec{QR} > 0
+\;\Longleftrightarrow\;
+x^2 + y^2 + x > 0
+\;\Longleftrightarrow\;
+x^2 + x + y^2 > 0
+$$
+であるが，これは
+$$
+x^2 + x + y^2
+= \left(x+\frac12\right)^2 + y^2 - \frac14
+$$
+より
+$$
+\left(x+\frac12\right)^2 + y^2 > \frac14
+$$
+に等しい。
+
+#### (3) 点 $R$ における角 $\angle PRQ$
+
+頂点 $R$ における 2 辺のベクトルは
+$$
+\vec{RP} = \vec{P} - \vec{R} = (x-1,y),
+\quad
+\vec{RQ} = \vec{Q} - \vec{R} = (-x-1,-y)
+$$
+である。内積は
+$$
+\vec{RP}\cdot\vec{RQ}
+= (x-1)(-x-1) + y(-y)
+= -(x^2-1) - y^2
+= 1 - (x^2 + y^2)
+$$
+となる。よって $\angle PRQ$ が鋭角である条件は
+$$
+\vec{RP}\cdot\vec{RQ} > 0
+\;\Longleftrightarrow\;
+1 - (x^2 + y^2) > 0
+\;\Longleftrightarrow\;
+x^2 + y^2 < 1.
+$$
+
+### 三角形である条件
+
+3点が一直線上に並ぶ場合や，2点が一致する場合は三角形をなさないので除く。  
+ここでは鋭角三角形を考えており，各角を鋭角とする条件をすでに「$>$」でとっているから，内角が $90^\circ$ になったり一直線になったりする場合（内積 $=0$ となる場合）は自動的に除かれている。  
+また $x^2 + y^2 < 1$ となるので，$P$ と $Q$ は原点から距離 1 未満の点であり，$R(1,0)$ と一致することもない。したがって別途の条件は不要である。
+
+### 条件のまとめ
+
+以上より，3つの内角すべてが鋭角となるための $(x,y)$ の条件は
+
+1. $\angle QPR$ が鋭角：  
+   $$
+   \left(x-\frac12\right)^2 + y^2 > \frac14
+   $$
+2. $\angle PQR$ が鋭角：  
+   $$
+   \left(x+\frac12\right)^2 + y^2 > \frac14
+   $$
+3. $\angle PRQ$ が鋭角：  
+   $$
+   x^2 + y^2 < 1
+   $$
+
+の 3 つをすべて満たすことである。
+
+したがって求める条件は
+$$
+\boxed{
+\begin{cases}
+x^2 + y^2 < 1,\\[2mm]
+\left(x-\dfrac12\right)^2 + y^2 > \dfrac14,\\[2mm]
+\left(x+\dfrac12\right)^2 + y^2 > \dfrac14
+\end{cases}
+}
+$$
+となる。
+
+### 図示
+
+これを図示すると，
+
+- 中心が原点，半径 1 の円 $x^2 + y^2 = 1$ の内部
+- 中心が $\left(\dfrac12,0\right)$，半径 $\dfrac12$ の円 $\left(x-\dfrac12\right)^2 + y^2 = \dfrac14$ の外部
+- 中心が $\left(-\dfrac12,0\right)$，半径 $\dfrac12$ の円 $\left(x+\dfrac12\right)^2 + y^2 = \dfrac14$ の外部
+
+の共通部分が，点 $P(x,y)$ の範囲である。  
+境界の 3 つの円周上の点は内角が $90^\circ$ になるので含めない（破線で表す）。

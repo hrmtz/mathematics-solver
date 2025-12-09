@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1969年 1969_4"
+problem_id: "06_osaka-1969-1969_4"
+university: "大阪大学"
+exam_year: "1969"
+source_tex: "archive/06_osaka/1969/1969_4.tex"
+pdf_source: "archive/06_osaka/1969/1969_4.pdf"
+page_image: "archive/06_osaka/1969/1969_4.jpg"
+fields:
+  - 代数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　次数が3より小さくない$x$の多項式$f(x)$を$x-a$（$a$は定数）で割った商を$P(x)$，余りを$p$とし，
+$P(x)$を$x-a$で割った商を$Q(x)$，余りを$q$とし，
+$Q(x)$を$x-a$で割った商を$R(x)$，余りを$r$とする．
+\begin{description}
+\item[(1)]$p=f(a)$，$q=f'(a)$，$\displaystyle r=\frac{1}{2}f''(a)$を証明せよ．
+\item[(2)]$f(x)=x^3-x^2+x-1$とするとき，
+$|p|+|q|+|r|$が最小となるように$a$の値を定めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1969/1969_4.pdf)

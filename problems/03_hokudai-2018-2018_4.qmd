@@ -1,0 +1,32 @@
+---
+title: "北海道大学 2018年 2018_4"
+problem_id: "03_hokudai-2018-2018_4"
+university: "北海道大学"
+exam_year: "2018"
+source_tex: "archive/03_hokudai/2018/2018_4.tex"
+pdf_source: "archive/03_hokudai/2018/2018_4.pdf"
+page_image: "archive/03_hokudai/2018/2018_4.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　座標平面上に3点$O(0, \, 0)$，$\displaystyle A(\frac{15}{2}, \, 0)$，
+$B(11, \, 11)$がある。条件
+\[ BQ \geqq OQ \geqq 2AQ \]
+を満たす点$Q(x, \, y)$の全体を$D$とする。
+\begin{description}
+\item[(1)]$D$を座標平面上に図示せよ。
+また，$BQ=OQ=2AQ$となるすべての点$Q$の座標を求めよ。
+\item[(2)]$0<p\leqq11$とし，$P$を点$(p, \, 11)$とする。
+条件$OQ \geqq PQ$を満たす$D$の点$Q$が存在するような$p$の値の範囲を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2018/2018_4.pdf)

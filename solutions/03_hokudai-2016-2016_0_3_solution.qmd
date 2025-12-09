@@ -1,0 +1,190 @@
+## 解答
+
+(1)  
+$\angle ACB=45^\circ$，$\angle ABC=\beta$，$\angle BAC=180^\circ-45^\circ-\beta=135^\circ-\beta$ である。  
+辺の長さを $a=BC,\ b=CA=1+\sqrt3,\ c=AB=2$ とおくと，余弦定理より
+
+$$
+c^2 = a^2 + b^2 - 2ab\cos\angle ACB
+$$
+
+は用いてもよいが，ここでは角 $\beta$ を含む式を作るために，頂点 $B$ に対する余弦定理を用いる：
+
+$$
+b^2 = a^2 + c^2 - 2ac\cos\beta.
+$$
+
+すなわち
+
+$$
+(1+\sqrt3)^2 = a^2 + 4 - 4a\cos\beta.
+$$
+
+一方，頂点 $C$ に対する余弦定理より
+
+$$
+c^2 = a^2 + b^2 - 2ab\cos45^\circ
+$$
+
+であるから，
+
+$$
+4 = a^2 + (1+\sqrt3)^2 - 2a(1+\sqrt3)\cdot \frac{\sqrt2}{2}
+= a^2 + (1+\sqrt3)^2 - a(1+\sqrt3)\sqrt2.
+$$
+
+これを整理すると
+
+$$
+a^2 - a(1+\sqrt3)\sqrt2 + (1+\sqrt3)^2 - 4 = 0.
+$$
+
+$(1+\sqrt3)^2 = 4+2\sqrt3$ なので
+
+$$
+a^2 - a(1+\sqrt3)\sqrt2 + (4+2\sqrt3-4) =0
+$$
+
+すなわち
+
+$$
+a^2 - a(1+\sqrt3)\sqrt2 + 2\sqrt3 = 0.
+$$
+
+ここでは $a$ を消去したいので，上の式を $a^2$ について解き，それを先ほどの  
+$(1+\sqrt3)^2 = a^2 + 4 - 4a\cos\beta$ に代入する方法もあるが，計算が煩雑になる。
+
+そこで別の方法として，角 $\angle BAC =135^\circ-\beta$ に対する余弦定理を用いる：
+
+$$
+c^2 = a^2 + b^2 - 2ab\cos(135^\circ-\beta).
+$$
+
+左辺 $c^2=4$，右辺に $a^2 + b^2 - 2ab\cos45^\circ$ を用いると
+
+$$
+4 = a^2 + b^2 - 2ab\cos(135^\circ-\beta),
+$$
+
+$$
+4 = a^2 + b^2 - 2ab\left(\cos135^\circ\cos\beta + \sin135^\circ\sin\beta\right).
+$$
+
+また $\angle ACB=45^\circ$ に対する余弦定理から
+
+$$
+4 = a^2 + b^2 - 2ab\cos45^\circ
+$$
+
+も成り立つ。  
+よって両式の右辺を等置すると
+
+$$
+a^2 + b^2 - 2ab\cos45^\circ
+=
+a^2 + b^2 - 2ab\left(\cos135^\circ\cos\beta + \sin135^\circ\sin\beta\right).
+$$
+
+両辺から $a^2 + b^2$ を消去し，両辺を $-2ab$ で割ると
+
+$$
+\cos45^\circ
+=
+\cos135^\circ\cos\beta + \sin135^\circ\sin\beta.
+$$
+
+ここで  
+$\cos45^\circ=\dfrac{\sqrt2}{2}$，$\cos135^\circ=-\dfrac{\sqrt2}{2}$，$\sin135^\circ=\dfrac{\sqrt2}{2}$ を代入すると
+
+$$
+\frac{\sqrt2}{2}
+=
+-\frac{\sqrt2}{2}\cos\beta + \frac{\sqrt2}{2}\sin\beta.
+$$
+
+両辺を $\dfrac{\sqrt2}{2}$ で割って
+
+$$
+1 = -\cos\beta + \sin\beta,
+$$
+
+すなわち
+
+$$
+\sin\beta - \cos\beta = 1.
+$$
+
+両辺を2乗して
+
+$$
+(\sin\beta - \cos\beta)^2 = 1^2
+$$
+
+より
+
+$$
+\sin^2\beta -2\sin\beta\cos\beta + \cos^2\beta = 1.
+$$
+
+$\sin^2\beta + \cos^2\beta =1$ なので
+
+$$
+1 -2\sin\beta\cos\beta = 1.
+$$
+
+したがって
+
+$$
+-2\sin\beta\cos\beta = 0
+$$
+
+より
+
+$$
+\sin\beta\cos\beta = 0.
+$$
+
+従って
+
+$$
+\sin2\beta = 2\sin\beta\cos\beta = 0.
+$$
+
+ここで $\sin\beta - \cos\beta = 1$ であるから，  
+$\sin\beta=0$ または $\cos\beta=0$ のどちらが実際に起こるかを確かめる。
+
+- もし $\sin\beta=0$ ならば $\beta=0^\circ,180^\circ$ だが，三角形の内角なので $0^\circ<\beta<180^\circ$ であり，さらに $\angle ACB=45^\circ$ であるから $\beta=180^\circ$ も成り立たない。したがって $\sin\beta=0$ は不適。
+
+- よって $\cos\beta=0$ でなければならない。$\cos\beta=0$ なら $\beta=90^\circ$ である（$\beta$ は鋭角とも限らないが，三角形なので $0^\circ<\beta<180^\circ$ かつ $\cos\beta=0$ より $\beta=90^\circ$）。
+
+したがって
+
+$$
+\sin\beta = \sin90^\circ = 1,\quad
+\cos2\beta = \cos180^\circ = -1.
+$$
+
+(2)  
+(1) の結果から，$\sin\beta=1$ であり，三角形の内角であるから $0^\circ<\beta<180^\circ$ である。  
+よって $\beta=90^\circ$ ただ1つである。
+
+(3)  
+$\triangle ABC$ が鋭角三角形であるときと条件にあるが，(2) で求めた $\beta=90^\circ$ では鋭角三角形ではない（直角三角形）ので，鋭角三角形の場合は他の解があるのではないか，と一見思われる。
+
+しかし，(1) で用いた式の導き方を見直すと，  
+$\cos\angle ACB= \dfrac{\sqrt2}{2}$，$\cos\angle BAC = \cos(135^\circ-\beta)$ を正しく用いた結果，  
+$\sin\beta -\cos\beta =1$ が必ず成り立つことが分かる。  
+この式から導かれる $\sin\beta\cos\beta=0$ は三角形の条件 $0^\circ<\beta<180^\circ$ と矛盾しないが，  
+さらに $\sin\beta -\cos\beta =1$ を満たすものを調べると，$\cos\beta=0,\ \sin\beta=1$，すなわち $\beta=90^\circ$ のみである。
+
+したがって，もとの条件 $AB=2,\ AC=1+\sqrt3,\ \angle ACB=45^\circ$ を満たす三角形 $\triangle ABC$ は直角三角形（$\angle B=90^\circ$）しか存在しない。  
+ゆえに，$\triangle ABC$ が鋭角三角形である場合は存在せず，問題の仮定を満たす鋭角三角形はない。
+
+従って，$\triangle ABC$ が鋭角三角形であるときに  
+$\overrightarrow{OC}=s\overrightarrow{OA}+t\overrightarrow{OB}$ を満たす実数 $s,t$ は存在しない。
+
+よって
+
+$$
+\text{そのような実数 }s,t\text{ は存在しない。}
+$$

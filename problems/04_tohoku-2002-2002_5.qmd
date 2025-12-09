@@ -1,0 +1,30 @@
+---
+title: "東北大学 2002年 2002_5"
+problem_id: "04_tohoku-2002-2002_5"
+university: "東北大学"
+exam_year: "2002"
+source_tex: "archive/04_tohoku/2002/2002_5.tex"
+pdf_source: "archive/04_tohoku/2002/2002_5.pdf"
+page_image: "archive/04_tohoku/2002/2002_5.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a>b>0$とし，
+$xy$平面の楕円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$の第1象限の部分を$E$とする．
+ただし，第1象限には$x$軸と$y$軸は含まれない．
+$E$上の点$P$における$E$の接線と法線が$y$軸と交わる点の$y$座標をそれぞれ$h$と$k$とし，
+$L=h-k$とおく．
+点$P$が$E$上を動くとき，
+$L$の最小値が存在するための$a$と$b$についての条件と，
+そのときの$L$の最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2002/2002_5.pdf)

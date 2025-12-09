@@ -1,0 +1,28 @@
+---
+title: "京都大学 1994年 1994_f"
+problem_id: "02_kyoto-1994-1994_f"
+university: "京都大学"
+exam_year: "1994"
+source_tex: "archive/02_kyoto/1994/1994_f.tex"
+pdf_source: "archive/02_kyoto/1994/1994_f.pdf"
+page_image: "archive/02_kyoto/1994/1994_f.jpg"
+fields:
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$n$を自然数とし，$\displaystyle I_n=\int_1^e{(\log x)}^ndx$とおく．
+\begin{description}
+\item[(1)]$I_{n+1}$を$I_n$を用いて表せ．
+\item[(2)]すべての$n$に対して，
+$\displaystyle\frac{e-1}{n+1}\leqq I_n\leqq\frac{(n+1)e+1}{(n+1)(n+2)}$が成り立つことを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_f.pdf)

@@ -1,0 +1,24 @@
+---
+title: "東北大学 2019年 2019_1"
+problem_id: "04_tohoku-2019-2019_1"
+university: "東北大学"
+exam_year: "2019"
+source_tex: "archive/04_tohoku/2019/2019_1.tex"
+pdf_source: "archive/04_tohoku/2019/2019_1.pdf"
+page_image: "archive/04_tohoku/2019/2019_1.jpg"
+fields:
+  - 微分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面における曲線$y=\sin x$の2つの接線が直交するとき，
+その交点の$y$座標の値をすべて求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_1.pdf)

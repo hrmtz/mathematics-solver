@@ -1,0 +1,23 @@
+---
+title: "京都大学 2005年 2005_2"
+problem_id: "02_kyoto-2005-2005_2"
+university: "京都大学"
+exam_year: "2005"
+source_tex: "archive/02_kyoto/2005/2005_2.tex"
+pdf_source: "archive/02_kyoto/2005/2005_2.pdf"
+page_image: "archive/02_kyoto/2005/2005_2.jpg"
+fields:
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\displaystyle 2^{10}<(\frac{5}{4})^n<2^{20}$を満たす自然数$n$は何個あるか．
+ただし，$0.301<\log_{10}2<0.3011$である．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_2.pdf)

@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1990年 1990_0_4"
+problem_id: "06_osaka-1990-1990_0_4"
+university: "大阪大学"
+exam_year: "1990"
+source_tex: "archive/06_osaka/1990/1990_0_4.tex"
+pdf_source: "archive/06_osaka/1990/1990_0_4.pdf"
+page_image: "archive/06_osaka/1990/1990_0_4.jpg"
+fields:
+  - 行列
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　座標平面において点$(1, \, 0)$を原点のまわりに角$\alpha$，$\beta$だけ回転した点を
+それぞれ$P(a, \, b)$，$Q(c, \, d)$とする．
+\[ x'=x-2a(ax+by), \hspace{1zw} y'=y-2b(ax+by) \]
+によって点$(x, \, y)$を点$(x', \, y')$に移す1次変換を$f$とし
+\[ x''=x-2c(cx+dy), \hspace{1zw} y''=y-2d(cs+dy) \]
+によって点$(x, \, y)$を点$(x'', \, y'')$に移す1次変換を$g$とする．
+　このとき合成変換$g \circ f$は原点のまわりの角$2(\beta-\alpha)$の回転であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_0_4.pdf)

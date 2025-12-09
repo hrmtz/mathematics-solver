@@ -1,0 +1,28 @@
+---
+title: "京都大学 2007年 2007b_6"
+problem_id: "02_kyoto-2007-2007b_6"
+university: "京都大学"
+exam_year: "2007"
+source_tex: "archive/02_kyoto/2007/2007b_6.tex"
+pdf_source: "archive/02_kyoto/2007/2007b_6.pdf"
+page_image: "archive/02_kyoto/2007/2007b_6.jpg"
+fields:
+  - 微分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　すべての実数で定義され何回でも微分できる関数$f(x)$が$f(0)=0$ $f'(0)=1$を満たし，
+さらに任意の実数$a$，$b$に対して$1+f(a)f(b) \neq 0$であって$\displaystyle f(a+b)=\frac{f(a)+f(b)}{1+f(a)f(b)}$を満たしている．
+\begin{description}
+\item[(1)]任意の実数$a$に対して，$-1<f(a)<1$であることを証明せよ．
+\item[(2)]$y=f(x)$のグラフは$x>0$で上に凸であることを証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2007/2007b_6.pdf)

@@ -1,0 +1,33 @@
+---
+title: "大阪大学 1981年 1981_4"
+problem_id: "06_osaka-1981-1981_4"
+university: "大阪大学"
+exam_year: "1981"
+source_tex: "archive/06_osaka/1981/1981_4.tex"
+pdf_source: "archive/06_osaka/1981/1981_4.pdf"
+page_image: "archive/06_osaka/1981/1981_4.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　平面上の点$P(0, \, a)$ $(a>0)$を中心とし，
+2点$A(-1, \, 0)$，$B(1, \, 0)$を通る円を$C$とする．
+円$C$の$x$軸より下にある部分の弧$\stackrel{\frown}{AB}$上の点の座標を
+$(x, \, f(x))$ $(-1 \leqq x \leqq 1)$とする．
+\begin{description}
+\item[(1)]定積分$\displaystyle I=\int_{-1}^1(1+{ \{ f'(x) \} }^2)dx$を
+$C$の半径$r$を用いて表せ．
+\item[(2)]$I$を$r$の関数と考えて，$\displaystyle\lim_{r\to\infty}I$を求めよ．
+ただし，$\displaystyle\lim_{h\to0}\frac{\log(1+h)}{h}=1$を用いてよい．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1981/1981_4.pdf)

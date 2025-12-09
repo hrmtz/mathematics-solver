@@ -1,0 +1,25 @@
+---
+title: "京都大学 1978年 1978_1"
+problem_id: "02_kyoto-1978-1978_1"
+university: "京都大学"
+exam_year: "1978"
+source_tex: "archive/02_kyoto/1978/1978_1.tex"
+pdf_source: "archive/02_kyoto/1978/1978_1.pdf"
+page_image: "archive/02_kyoto/1978/1978_1.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$，$b$，$c$を正の数とするとき，
+不等式$\displaystyle 2 \left( \frac{a+b}{2}-\sqrt{ab} \right) \leqq 3 \left( \frac{a+b+c}{3}-\sqrt[3]{abc} \right) $
+を証明せよ．
+また，等号が成立するのはどんな場合か．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1978/1978_1.pdf)

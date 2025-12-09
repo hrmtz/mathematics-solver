@@ -1,0 +1,34 @@
+---
+title: "東京科学大学 2010年 2010_2"
+problem_id: "08_titech-2010-2010_2"
+university: "東京科学大学"
+exam_year: "2010"
+source_tex: "archive/08_titech/2010/2010_2.tex"
+pdf_source: "archive/08_titech/2010/2010_2.pdf"
+page_image: "archive/08_titech/2010/2010_2.jpg"
+fields:
+  - 整数
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$を正の整数とする．正の実数$x$についての方程式
+\begin{description}
+\item[(＊)]$\displaystyle x= \left[ \frac{1}{2}\left(x+\frac{a}{x}\right) \right]$
+\end{description}
+が解を持たないような$a$を小さい順に並べたものを$a_1,a_2,a_3,\cdots$とする．
+ここに[　]はガウス記号で，実数$u$に対し，$[u]$は$u$以下の最大の整数を表す．
+\begin{description}
+\item[(1)]$a=7,8,9$の各々について(＊)の解があるかどうかを判定し，
+ある場合は解$x$を求めよ．
+\item[(2)]$a_1$，$a_2$を求めよ．
+\item[(3)]$\displaystyle\sum_{n=1}^\infty\frac{1}{a_n}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2010/2010_2.pdf)

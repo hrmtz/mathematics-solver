@@ -1,0 +1,25 @@
+---
+title: "東北大学 1987年 1987_0_3"
+problem_id: "04_tohoku-1987-1987_0_3"
+university: "東北大学"
+exam_year: "1987"
+source_tex: "archive/04_tohoku/1987/1987_0_3.tex"
+pdf_source: "archive/04_tohoku/1987/1987_0_3.pdf"
+page_image: "archive/04_tohoku/1987/1987_0_3.jpg"
+fields:
+  - 数列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　初項$a_1=r$（$r$は定数）として，数列$\{ a_n \}$を次の式で帰納的に定義する．
+\[ a_{k+1}=ra_k-{(r-1)}^2k \hspace{1zw} (k=1, \, 2, \, 3, \, \cdots\cdots) \]
+$\displaystyle\sum_{k=1}^na_k$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1987/1987_0_3.pdf)

@@ -1,0 +1,29 @@
+---
+title: "東京大学 2016年 2016_6"
+problem_id: "01_tokyo-2016-2016_6"
+university: "東京大学"
+exam_year: "2016"
+source_tex: "archive/01_tokyo/2016/2016_6.tex"
+pdf_source: "archive/01_tokyo/2016/2016_6.pdf"
+page_image: "archive/01_tokyo/2016/2016_6.jpg"
+fields:
+  - 空間図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　座標空間内を，長さ2の線分ABが次の2条件(a)，(b)をみたしながら動く。
+\begin{description}
+\item[(a)]点Aは平面$z=0$上にある。
+\item[(b)]点$C(0, \, 0, \, 1)$が線分AB上にある。
+\end{description}
+このとき，線分ABが通過することのできる範囲を$K$とする。
+$K$と不等式$z \geqq 1$の表す範囲との共通部分の体積を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2016/2016_6.pdf)

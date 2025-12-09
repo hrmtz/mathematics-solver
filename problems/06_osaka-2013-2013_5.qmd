@@ -1,0 +1,34 @@
+---
+title: "大阪大学 2013年 2013_5"
+problem_id: "06_osaka-2013-2013_5"
+university: "大阪大学"
+exam_year: "2013"
+source_tex: "archive/06_osaka/2013/2013_5.tex"
+pdf_source: "archive/06_osaka/2013/2013_5.pdf"
+page_image: "archive/06_osaka/2013/2013_5.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n$を3以上の整数とする．$n$個の球$K_1, \, K_2, \, \cdots\cdots, \, K_n$と
+$n$個の空（から）の箱$H_1, \, H_2, \, \cdots\cdots, \, H_n$がある．
+以下のように，$K_1, \, K_2, \, \cdots\cdots, \, K_n$の順番に，球を箱に1つずつ入れていく．
+　まず，球$K_1$を箱$H_1, \, H_2, \, \cdots\cdots, \, H_n$のどれか1つに無作為に入れる．
+次に，球$K_2$を，箱$H_2$が空ならば箱$H_2$に入れ，
+箱$H_2$が空でなければ残りの$n-1$個の空の箱のどれか1つに無作為に入れる．
+　一般に，$i=2, \, 3, \, \cdots\cdots, \, n$について，
+球$K_i$を，箱$H_i$が空ならば箱$H_i$に入れ，
+箱$H_i$が空でなければ残りの$n-i+1$個の空の箱のどれか1つに無作為に入れる．
+\begin{description}
+\item[(1)]$K_n$が入（はい）る箱は$H_1$または$H_n$である．これを証明せよ．
+\item[(2)]$K_{n-1}$が$H_{n-1}$に入る確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2013/2013_5.pdf)

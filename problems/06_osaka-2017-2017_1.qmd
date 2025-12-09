@@ -1,0 +1,29 @@
+---
+title: "大阪大学 2017年 2017_1"
+problem_id: "06_osaka-2017-2017_1"
+university: "大阪大学"
+exam_year: "2017"
+source_tex: "archive/06_osaka/2017/2017_1.tex"
+pdf_source: "archive/06_osaka/2017/2017_1.pdf"
+page_image: "archive/06_osaka/2017/2017_1.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　双曲線$H:x^2-y^2=1$上の3点$A(-1, \, 0)$，$B(1, \, 0)$，$C(s, \, t)$ $(t\neq0)$を考える．
+\begin{description}
+\item[(1)]点$A$における$H$の接線と直線$BC$の交点を$P$とするとき，$P$の座標を$s$と$t$を用いてあらわせ．
+\item[(2)]点$C$における$H$の接線と直線$AB$の交点を$Q$とするとき，$Q$の座標を$s$と$t$を用いてあらわせ．
+\item[(3)]点$B$における$H$の接線と直線$AC$の交点を$R$とするとき，
+3点$P$，$Q$，$R$は一直線上にあることを証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2017/2017_1.pdf)

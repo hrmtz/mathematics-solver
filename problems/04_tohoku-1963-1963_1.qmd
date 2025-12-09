@@ -1,0 +1,25 @@
+---
+title: "東北大学 1963年 1963_1"
+problem_id: "04_tohoku-1963-1963_1"
+university: "東北大学"
+exam_year: "1963"
+source_tex: "archive/04_tohoku/1963/1963_1.tex"
+pdf_source: "archive/04_tohoku/1963/1963_1.pdf"
+page_image: "archive/04_tohoku/1963/1963_1.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　方程式$x^2+bx+c=0$は実根をもち，方程式$x^2-|b|x-|c|=0$は正根をもつとする。
+はじめの方程式の根の絶対値の小さくない方を$\alpha$，
+あとの方程式の正根を$\beta$とし，
+$|\alpha|$と$\beta$の大小を調べよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1963/1963_1.pdf)

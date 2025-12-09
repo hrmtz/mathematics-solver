@@ -1,0 +1,30 @@
+---
+title: "九州大学 1981年 1981_0_3"
+problem_id: "07_kyushu-1981-1981_0_3"
+university: "九州大学"
+exam_year: "1981"
+source_tex: "archive/07_kyushu/1981/1981_0_3.tex"
+pdf_source: "archive/07_kyushu/1981/1981_0_3.pdf"
+page_image: "archive/07_kyushu/1981/1981_0_3.jpg"
+fields:
+  - 帰納法
+  - 整数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　次の(1)，(2)，(3)に答えよ．
+\begin{description}
+\item[(1)]数学的帰納法を用いて，正の整数$k$に対して$k \, ! \geqq 2^{k-1}$が成立することを示せ．
+\item[(2)]$1 \leqq k \leqq n$を満たす整数$k$，$n$に対して
+$\displaystyle\frac{{}_nC_k}{n^k}\leqq\frac{1}{2^{k-1}}$が成立することを示せ．
+\item[(3)]正の整数$n$に対して$\displaystyle{\left( 1+\frac{1}{n} \right)}^n<3$が成立することを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1981/1981_0_3.pdf)

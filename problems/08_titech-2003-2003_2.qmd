@@ -1,0 +1,30 @@
+---
+title: "東京科学大学 2003年 2003_2"
+problem_id: "08_titech-2003-2003_2"
+university: "東京科学大学"
+exam_year: "2003"
+source_tex: "archive/08_titech/2003/2003_2.tex"
+pdf_source: "archive/08_titech/2003/2003_2.pdf"
+page_image: "archive/08_titech/2003/2003_2.jpg"
+fields:
+  - 整数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　2辺の長さの比が$1:a$ $(a>1)$の長方形がある．
+この長方形から1本の線分にそって切ることにより正方形を取り去る．
+残った図形が正方形でなければ，再び同じ要領で正方形を取り去り，残りが正方形でない限りこの操作を続ける．
+例えば，$a=3$，$\displaystyle a=\frac{3}{2}$の場合はどちらも2回でこの操作は終わる．
+\begin{description}
+\item[(1)]3回でこの操作が終わるような$a$の値をすべて求めよ．
+\item[(2)]$n$回の操作で終わるような$a$の値の最大値と最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2003/2003_2.pdf)

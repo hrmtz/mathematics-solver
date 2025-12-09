@@ -1,0 +1,31 @@
+---
+title: "東北大学 2017年 2017_4"
+problem_id: "04_tohoku-2017-2017_4"
+university: "東北大学"
+exam_year: "2017"
+source_tex: "archive/04_tohoku/2017/2017_4.tex"
+pdf_source: "archive/04_tohoku/2017/2017_4.pdf"
+page_image: "archive/04_tohoku/2017/2017_4.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$s$を正の実数とする。鋭角三角形$ABC$において，辺$AB$を$s:1$に内分する点を$D$とし，
+辺$BC$を$s:3$に内分する点を$E$とする。線分$CD$と線分$AE$の交点を$F$とする。
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]$\overrightarrow{AF}=\alpha\overrightarrow{AB}+\beta\overrightarrow{AC}$とするとき，
+$\alpha$と$\beta$を求めよ。
+\item[(2)]$F$から辺$AC$に下ろした垂線を$FG$とする。
+$FG$の長さが最大となるときの$s$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2017/2017_4.pdf)

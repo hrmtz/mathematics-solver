@@ -1,0 +1,24 @@
+---
+title: "東京科学大学 1965年 1965_2"
+problem_id: "08_titech-1965-1965_2"
+university: "東京科学大学"
+exam_year: "1965"
+source_tex: "archive/08_titech/1965/1965_2.tex"
+pdf_source: "archive/08_titech/1965/1965_2.pdf"
+page_image: "archive/08_titech/1965/1965_2.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　三次方程式$x^3+ax+b=0$の3根を$\alpha$，$\beta$，$\gamma$とし，
+$t_n=\alpha^n+\beta^n+\gamma^n$とおくとき，
+$at_5+bt_4$を$a$，$b$で表わせ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1965/1965_2.pdf)

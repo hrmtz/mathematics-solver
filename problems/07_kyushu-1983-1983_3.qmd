@@ -1,0 +1,30 @@
+---
+title: "九州大学 1983年 1983_3"
+problem_id: "07_kyushu-1983-1983_3"
+university: "九州大学"
+exam_year: "1983"
+source_tex: "archive/07_kyushu/1983/1983_3.tex"
+pdf_source: "archive/07_kyushu/1983/1983_3.pdf"
+page_image: "archive/07_kyushu/1983/1983_3.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$t$の関数$x(t)$と$y(t)$が，それぞれ微分方程式
+\[ \frac{dx}{dt}=x, \hspace{1zw} \frac{dy}{dt}=-2y \]
+を満たしている．このとき，次の(1)，(2)に答えよ．
+\begin{description}
+\item[(1)]関数$z(t)=x(t)+y(t)$は$t=\log2$で極値3をとる．$z(t)$を求めよ．
+\item[(2)](1)で求めた$z(t)$は，任意の$s$，$t$に対して
+\[ z(s) \geqq z(t)+(s-t)z'(t) \]
+を満たすことを証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1983/1983_3.pdf)

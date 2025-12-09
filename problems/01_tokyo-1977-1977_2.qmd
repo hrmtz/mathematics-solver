@@ -1,0 +1,31 @@
+---
+title: "東京大学 1977年 1977_2"
+problem_id: "01_tokyo-1977-1977_2"
+university: "東京大学"
+exam_year: "1977"
+source_tex: "archive/01_tokyo/1977/1977_2.tex"
+pdf_source: "archive/01_tokyo/1977/1977_2.pdf"
+page_image: "archive/01_tokyo/1977/1977_2.jpg"
+fields:
+  - 三角関数
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$xy$平面上の，原点$O$とは異なる2点$A(a_1,a_2)$，$B(b_1,b_2)$に対し，
+$OA=a$，$OB=b$，$\angle AOB=\theta$とおく．
+2点$A$，$B$の座標$a_1$，$a_2$，$b_1$，$b_2$が有理数であるとき
+次の3条件はたがいに同値であることを証明せよ．
+\begin{description}
+\item[i)]$ab$は有理数である．
+\item[ii)]$\cos\theta$は有理数である．
+\item[iii)]$\sin\theta$は有理数である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1977/1977_2.pdf)

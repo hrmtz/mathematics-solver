@@ -1,0 +1,29 @@
+---
+title: "九州大学 2000年 2000_0_4c"
+problem_id: "07_kyushu-2000-2000_0_4c"
+university: "九州大学"
+exam_year: "2000"
+source_tex: "archive/07_kyushu/2000/2000_0_4c.tex"
+pdf_source: "archive/07_kyushu/2000/2000_0_4c.pdf"
+page_image: "archive/07_kyushu/2000/2000_0_4c.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (c)
+　空間内に3点$A(1, \, 0, \, 0)$，$B(0, \, 2, \, 0)$，$C(0, \, 0, \, 3)$をとる．
+\begin{description}
+\item[(1)]空間内の点$P$が$\overrightarrow{AP}\cdot(\overrightarrow{BP}+2\overrightarrow{CP})=0$を
+満たしながら動くとき，この点$P$はある定点$Q$から一定の距離にあることを示せ．
+\item[(2)](1)における定点$Q$は3点$A$，$B$，$C$を通る平面上にあることを示せ．
+\item[(3)](1)における$P$について，四面体$ABCP$の体積の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2000/2000_0_4c.pdf)

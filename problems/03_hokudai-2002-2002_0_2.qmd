@@ -1,0 +1,30 @@
+---
+title: "北海道大学 2002年 2002_0_2"
+problem_id: "03_hokudai-2002-2002_0_2"
+university: "北海道大学"
+exam_year: "2002"
+source_tex: "archive/03_hokudai/2002/2002_0_2.tex"
+pdf_source: "archive/03_hokudai/2002/2002_0_2.pdf"
+page_image: "archive/03_hokudai/2002/2002_0_2.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　関数$f(x)$，$g(x)$を次のように定める．
+\[ f(x)=x^2+ax+b, \hspace{1zw} g(x)=x+c \]
+ただし，$a$，$b$，$c$は定数とする．
+\begin{description}
+\item[(1)]
+\[ \int_0^1f(x)dx=\int_0^1g(x)dx \]
+となるための$a$，$b$，$c$の満たす条件を求めよ．
+\item[(2)](1)の条件のもとで，$0 \leqq x \leqq 1$における2つの関数のグラフの共有点の個数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2002/2002_0_2.pdf)

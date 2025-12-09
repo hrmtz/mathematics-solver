@@ -1,0 +1,26 @@
+---
+title: "大阪大学 2006年 2006_0_3"
+problem_id: "06_osaka-2006-2006_0_3"
+university: "大阪大学"
+exam_year: "2006"
+source_tex: "archive/06_osaka/2006/2006_0_3.tex"
+pdf_source: "archive/06_osaka/2006/2006_0_3.pdf"
+page_image: "archive/06_osaka/2006/2006_0_3.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xy$平面上の点$A(1, \, 2)$を通る直線$l$が$x$軸，$y$軸とそれぞれ点$P$，$Q$で交わるとする．
+点$R$を$\overrightarrow{OP}+\overrightarrow{OQ}=\overrightarrow{OA}+\overrightarrow{OR}$を満たすようにとる．
+ただし，$O$は$xy$平面の原点である．このとき，直線$l$の傾きにかかわらず，
+点$R$はある関数$y=f(x)$のグラフの上にある．関数$f(x)$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2006/2006_0_3.pdf)

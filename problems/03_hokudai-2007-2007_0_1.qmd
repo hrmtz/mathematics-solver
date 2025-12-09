@@ -1,0 +1,30 @@
+---
+title: "北海道大学 2007年 2007_0_1"
+problem_id: "03_hokudai-2007-2007_0_1"
+university: "北海道大学"
+exam_year: "2007"
+source_tex: "archive/03_hokudai/2007/2007_0_1.tex"
+pdf_source: "archive/03_hokudai/2007/2007_0_1.pdf"
+page_image: "archive/03_hokudai/2007/2007_0_1.jpg"
+fields:
+  - 代数
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$，$b$を実数とする．
+方程式$x^2+ax+b=0$が実数解をもち，
+すべての解の絶対値が1以下であるとする．
+\begin{description}
+\item[(1)]この条件を満たす点$(a, \, b)$全体を$ab$平面上に図示せよ．
+\item[(2)]$a+2b$の最大値と最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_0_1.pdf)

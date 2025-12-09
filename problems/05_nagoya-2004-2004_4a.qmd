@@ -1,0 +1,24 @@
+---
+title: "名古屋大学 2004年 2004_4a"
+problem_id: "05_nagoya-2004-2004_4a"
+university: "名古屋大学"
+exam_year: "2004"
+source_tex: "archive/05_nagoya/2004/2004_4a.tex"
+pdf_source: "archive/05_nagoya/2004/2004_4a.pdf"
+page_image: "archive/05_nagoya/2004/2004_4a.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　$C_1$，$C_2$，$C_3$は，半径がそれぞれ$a$，$a$，$2a$の円とする．
+いま，半径1の円$C$にこれらが内接していて，$C_1$，$C_2$，$C_3$は互いに外接しているとき，
+$a$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2004/2004_4a.pdf)

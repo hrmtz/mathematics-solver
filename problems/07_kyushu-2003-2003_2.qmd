@@ -1,0 +1,35 @@
+---
+title: "九州大学 2003年 2003_2"
+problem_id: "07_kyushu-2003-2003_2"
+university: "九州大学"
+exam_year: "2003"
+source_tex: "archive/07_kyushu/2003/2003_2.tex"
+pdf_source: "archive/07_kyushu/2003/2003_2.pdf"
+page_image: "archive/07_kyushu/2003/2003_2.jpg"
+fields:
+  - 不等式
+  - 整数
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　座標平面上で，
+不等式$2|x-4|+|y-5|\leqq3$，
+$2||x|-4|+||y|-5|\leqq3$が表す領域を，
+それぞれ$A$，$B$とする．
+\begin{description}
+\item[(1)]領域$A$を図示せよ．
+\item[(2)]領域$B$を図示せよ．
+\item[(3)]領域$B$の点$(x, \, y)$で，
+$x$が正の整数であり$y$が整数であって，
+$\log_x|y|$が有理数となる点を，
+理由を示してすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_2.pdf)

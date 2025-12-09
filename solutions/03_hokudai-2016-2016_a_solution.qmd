@@ -1,0 +1,328 @@
+## 解答
+
+(1)  
+曲線 $x=\cos^3\theta,\; y=\sin^3\theta\ (0\leq\theta\leq t)$ の長さを $l(t)$ とすると，  
+媒介変数表示された曲線の長さの公式より，
+
+$$
+l(t)=\int_0^t \sqrt{\left(\frac{dx}{d\theta}\right)^2+\left(\frac{dy}{d\theta}\right)^2}\,d\theta
+$$
+
+である。  
+まず微分を計算すると，
+
+$$
+\frac{dx}{d\theta} = 3\cos^2\theta(-\sin\theta) = -3\cos^2\theta\sin\theta,
+$$
+
+$$
+\frac{dy}{d\theta} = 3\sin^2\theta\cos\theta
+$$
+
+となるから，
+
+$$
+\left(\frac{dx}{d\theta}\right)^2
+= 9\cos^4\theta\sin^2\theta,
+$$
+
+$$
+\left(\frac{dy}{d\theta}\right)^2
+= 9\sin^4\theta\cos^2\theta
+$$
+
+であり，
+
+$$
+\left(\frac{dx}{d\theta}\right)^2+\left(\frac{dy}{d\theta}\right)^2
+= 9\cos^2\theta\sin^2\theta(\cos^2\theta+\sin^2\theta)
+= 9\cos^2\theta\sin^2\theta
+$$
+
+となる。したがって，
+
+$$
+\sqrt{\left(\frac{dx}{d\theta}\right)^2+\left(\frac{dy}{d\theta}\right)^2}
+= 3|\cos\theta\sin\theta|
+$$
+
+となる。  
+$0\leq\theta\leq t\leq\frac{\pi}{2}$ より $\cos\theta\ge0,\ \sin\theta\ge0$ なので，  
+$|\cos\theta\sin\theta|=\cos\theta\sin\theta$ である。よって，
+
+$$
+l(t)=\int_0^t 3\cos\theta\sin\theta\,d\theta
+$$
+
+となる。ここで $\sin 2\theta = 2\sin\theta\cos\theta$ を用いると，
+
+$$
+3\cos\theta\sin\theta = \frac{3}{2}\sin 2\theta
+$$
+
+なので，
+
+$$
+l(t)
+= \int_0^t \frac{3}{2}\sin 2\theta\,d\theta
+= \frac{3}{2}\left[-\frac{1}{2}\cos 2\theta\right]_0^t
+= -\frac{3}{4}(\cos 2t - \cos 0)
+= \frac{3}{4}(1-\cos 2t)
+$$
+
+となる。さらに $\cos 2t = 1-2\sin^2 t$ より，
+
+$$
+1-\cos 2t = 2\sin^2 t
+$$
+
+だから，
+
+$$
+l(t) = \frac{3}{4}\cdot 2\sin^2 t = \frac{3}{2}\sin^2 t
+$$
+
+となる。
+
+よって，
+$$
+\boxed{\,l(t)=\dfrac{3}{2}\sin^2 t\,}
+$$
+である。
+
+---
+
+(2)  
+点 $P(\cos^3 t,\ \sin^3 t)$ と原点 $O(0,0)$ の距離を $k(t)$ とすると，距離の公式より，
+
+$$
+k(t)=\sqrt{(\cos^3 t)^2 + (\sin^3 t)^2}
+     =\sqrt{\cos^6 t + \sin^6 t}
+$$
+
+である。したがって，
+
+$$
+\frac{k(t)}{l(t)}
+= \frac{\sqrt{\cos^6 t + \sin^6 t}}{\frac{3}{2}\sin^2 t}
+= \frac{2}{3}\cdot\frac{\sqrt{\cos^6 t + \sin^6 t}}{\sin^2 t}
+\qquad\left(0<t\leq\frac{\pi}{2}\right)
+$$
+
+となる。これの最小値を求める。  
+まず $\cos^6 t + \sin^6 t$ を簡単にする。和の 3 乗の公式から
+
+$$
+a^3+b^3=(a+b)(a^2-ab+b^2)
+$$
+
+を用いて，
+
+$$
+\cos^6 t + \sin^6 t
+= (\cos^2 t)^3 + (\sin^2 t)^3
+= (\cos^2 t + \sin^2 t)\left((\cos^2 t)^2 - \cos^2 t\sin^2 t + (\sin^2 t)^2\right)
+$$
+
+となる。ここで $\cos^2 t + \sin^2 t = 1$ より，
+
+$$
+\cos^6 t + \sin^6 t
+= \cos^4 t - \cos^2 t\sin^2 t + \sin^4 t
+= (\cos^4 t + \sin^4 t) - \cos^2 t\sin^2 t
+$$
+
+である。また，
+
+$$
+\cos^4 t + \sin^4 t
+= (\cos^2 t + \sin^2 t)^2 - 2\cos^2 t\sin^2 t
+= 1 - 2\cos^2 t\sin^2 t
+$$
+
+なので，
+
+$$
+\cos^6 t + \sin^6 t
+= (1 - 2\cos^2 t\sin^2 t) - \cos^2 t\sin^2 t
+= 1 - 3\cos^2 t\sin^2 t
+$$
+
+となる。
+
+次に，$\sin 2t = 2\sin t\cos t$ より，
+
+$$
+\cos^2 t\sin^2 t = \left(\frac{\sin 2t}{2}\right)^2 = \frac{1}{4}\sin^2 2t
+$$
+
+であるから，
+
+$$
+\cos^6 t + \sin^6 t
+= 1 - 3\cdot\frac{1}{4}\sin^2 2t
+= 1 - \frac{3}{4}\sin^2 2t
+$$
+
+となる。ゆえに，
+
+$$
+\frac{k(t)}{l(t)}
+= \frac{2}{3}\cdot\frac{\sqrt{1 - \frac{3}{4}\sin^2 2t}}{\sin^2 t}
+$$
+
+である。  
+ここで $0<t\leq\frac{\pi}{2}$ なので $\sin t>0$ が成り立つ。よって，  
+正の値の大小比較には 2 乗を用いてよく，$\frac{k(t)}{l(t)}$ の最小値を求める代わりに
+
+$$
+\left(\frac{k(t)}{l(t)}\right)^2
+= \left(\frac{2}{3}\right)^2\cdot
+   \frac{1 - \frac{3}{4}\sin^2 2t}{\sin^4 t}
+= \frac{4}{9}\cdot\frac{1 - \frac{3}{4}\sin^2 2t}{\sin^4 t}
+$$
+
+の最小値を求めればよい。
+
+$\sin 2t=2\sin t\cos t$ から，
+
+$$
+\sin^2 2t = 4\sin^2 t\cos^2 t
+$$
+
+であるから，
+
+$$
+1 - \frac{3}{4}\sin^2 2t
+= 1 - \frac{3}{4}\cdot 4\sin^2 t\cos^2 t
+= 1 - 3\sin^2 t\cos^2 t
+$$
+
+となる。よって，
+
+$$
+\left(\frac{k(t)}{l(t)}\right)^2
+= \frac{4}{9}\cdot\frac{1 - 3\sin^2 t\cos^2 t}{\sin^4 t}
+$$
+
+である。ここで $u=\sin^2 t$ とおくと，$0<t\leq\frac{\pi}{2}$ より $0<u\leq1$ が成り立つ。また，
+
+$$
+\cos^2 t = 1-\sin^2 t = 1-u
+$$
+
+なので，
+
+$$
+\sin^2 t\cos^2 t = u(1-u)
+$$
+
+である。したがって，
+
+$$
+\left(\frac{k(t)}{l(t)}\right)^2
+= \frac{4}{9}\cdot\frac{1 - 3u(1-u)}{u^2}
+= \frac{4}{9}\cdot\frac{1 - 3u + 3u^2}{u^2}
+= \frac{4}{9}\left(3 - \frac{3}{u} + \frac{1}{u^2}\right)
+$$
+
+となる。そこで
+
+$$
+F(u)=3 - \frac{3}{u} + \frac{1}{u^2}
+\quad(0<u\leq1)
+$$
+
+とおくと，
+
+$$
+\left(\frac{k(t)}{l(t)}\right)^2 = \frac{4}{9}F(u)
+$$
+
+であり，$\frac{4}{9}$ は正の定数なので，$\left(\frac{k(t)}{l(t)}\right)^2$ の最小値は $F(u)$ の最小値から求められる。
+
+$F(u)$ を微分して増減を調べる。
+
+$$
+F'(u)=\frac{d}{du}\left(3 - 3u^{-1} + u^{-2}\right)
+      = 3u^{-2} - 2u^{-3}
+      = \frac{3u - 2}{u^3}
+$$
+
+である。分母 $u^3>0$ なので，$F'(u)=0$ となるのは
+
+$$
+3u - 2 = 0 \quad\Rightarrow\quad u=\frac{2}{3}
+$$
+
+のときである。$0<u\le1$ の範囲で $F(u)$ の単調性を調べると，
+
+- $0<u<\frac{2}{3}$ では $3u-2<0$ なので $F'(u)<0$，すなわち $F(u)$ は減少。
+- $\frac{2}{3}<u\le1$ では $3u-2>0$ なので $F'(u)>0$，すなわち $F(u)$ は増加。
+
+よって，$u=\frac{2}{3}$ のとき $F(u)$ は最小値をとる。  
+その値は，
+
+$$
+F\left(\frac{2}{3}\right)
+= 3 - \frac{3}{\frac{2}{3}} + \frac{1}{\left(\frac{2}{3}\right)^2}
+= 3 - \frac{9}{2} + \frac{9}{4}
+= \frac{12}{4} - \frac{18}{4} + \frac{9}{4}
+= \frac{3}{4}
+$$
+
+である。したがって，
+
+$$
+\min\left\{\left(\frac{k(t)}{l(t)}\right)^2\right\}
+= \frac{4}{9}\cdot F\left(\frac{2}{3}\right)
+= \frac{4}{9}\cdot\frac{3}{4}
+= \frac{1}{3}
+$$
+
+となるから，
+
+$$
+\min\left\{\frac{k(t)}{l(t)}\right\}
+= \sqrt{\frac{1}{3}}
+= \frac{1}{\sqrt{3}}
+$$
+
+である。
+
+このとき $u=\sin^2 t = \frac{2}{3}$ であるから，
+
+$$
+\sin^2 t = \frac{2}{3},\quad \cos^2 t = 1-\frac{2}{3}=\frac{1}{3}
+$$
+
+である。$0<t\leq\frac{\pi}{2}$ では $\sin t>0,\ \cos t>0$ なので，
+
+$$
+\sin t = \sqrt{\frac{2}{3}},\quad \cos t = \sqrt{\frac{1}{3}}
+$$
+
+となる。したがって点 $P$ の座標は，
+
+$$
+x = \cos^3 t = \left(\sqrt{\frac{1}{3}}\right)^3 = \frac{1}{3\sqrt{3}},
+\quad
+y = \sin^3 t = \left(\sqrt{\frac{2}{3}}\right)^3
+            = \frac{2\sqrt{2}}{3\sqrt{3}}
+$$
+
+である。
+
+以上より，
+
+$$
+\boxed{\ \frac{k(t)}{l(t)}\ \text{の最小値は}\ \frac{1}{\sqrt{3}}\ }
+$$
+
+であり，そのときの $P$ の座標は
+
+$$
+\boxed{\ P\left(\dfrac{1}{3\sqrt{3}},\ \dfrac{2\sqrt{2}}{3\sqrt{3}}\right)\ }
+$$
+
+である。

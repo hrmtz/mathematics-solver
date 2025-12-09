@@ -1,0 +1,23 @@
+---
+title: "京都大学 2021年 2021_4"
+problem_id: "02_kyoto-2021-2021_4"
+university: "京都大学"
+exam_year: "2021"
+source_tex: "archive/02_kyoto/2021/2021_4.tex"
+pdf_source: "archive/02_kyoto/2021/2021_4.pdf"
+page_image: "archive/02_kyoto/2021/2021_4.jpg"
+fields:
+  - 微分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　曲線$y=\log(1+\cos x)$の$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$の部分の長さを求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2021/2021_4.pdf)

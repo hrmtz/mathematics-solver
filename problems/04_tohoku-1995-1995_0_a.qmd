@@ -1,0 +1,41 @@
+---
+title: "東北大学 1995年 1995_0_a"
+problem_id: "04_tohoku-1995-1995_0_a"
+university: "東北大学"
+exam_year: "1995"
+source_tex: "archive/04_tohoku/1995/1995_0_a.tex"
+pdf_source: "archive/04_tohoku/1995/1995_0_a.pdf"
+page_image: "archive/04_tohoku/1995/1995_0_a.jpg"
+fields:
+  - 行列
+  - ベクトル
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　行列$A=\begin{pmatrix} 3 & 1 
+
+ 2 & 4 \end{pmatrix}$および
+ベクトル$\overrightarrow{a}=\begin{pmatrix} 1 
+
+ 2 \end{pmatrix}$，
+$\overrightarrow{p}=\begin{pmatrix} 1 
+
+ t \end{pmatrix}$について，次の問に答えよ．
+ただし，$t>0$とする．
+\begin{description}
+\item[(1)]$A\overrightarrow{p}=\begin{pmatrix} x 
+
+ sx \end{pmatrix}$とするとき，
+不等式$\displaystyle|s-2|\leqq\frac{2}{3}|t-2|$を示せ．
+\item[(2)]$\displaystyle\frac{|A\overrightarrow{p}|}{|\overrightarrow{p}|}\leqq
+\frac{|A\overrightarrow{a}|}{|\overrightarrow{a}|}$となる$t$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_0_a.pdf)

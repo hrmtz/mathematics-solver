@@ -1,0 +1,25 @@
+---
+title: "京都大学 1999年 1999_0_b"
+problem_id: "02_kyoto-1999-1999_0_b"
+university: "京都大学"
+exam_year: "1999"
+source_tex: "archive/02_kyoto/1999/1999_0_b.tex"
+pdf_source: "archive/02_kyoto/1999/1999_0_b.pdf"
+page_image: "archive/02_kyoto/1999/1999_0_b.jpg"
+fields:
+  - 三角関数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\alpha$，$\beta$が$\alpha>0^\circ$，$\beta>0^\circ$，$\alpha+\beta<{180}^\circ$かつ
+$\sin^2\alpha+\sin^2\beta=\sin^2(\alpha+\beta)$を満たすとき，
+$\sin\alpha+\sin\beta$の取りうる範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_0_b.pdf)

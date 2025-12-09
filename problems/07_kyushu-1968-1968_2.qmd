@@ -1,0 +1,24 @@
+---
+title: "九州大学 1968年 1968_2"
+problem_id: "07_kyushu-1968-1968_2"
+university: "九州大学"
+exam_year: "1968"
+source_tex: "archive/07_kyushu/1968/1968_2.tex"
+pdf_source: "archive/07_kyushu/1968/1968_2.pdf"
+page_image: "archive/07_kyushu/1968/1968_2.jpg"
+fields:
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$を正数，その常用対数の指標を$u$とする．
+関係$a^{25}=10^{26u+\frac{36}{u}+12}$が成り立つようなすべての$a$について，
+$\log_{10}a$の値（分数のままでよい）を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1968/1968_2.pdf)

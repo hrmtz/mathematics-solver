@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1978年 1978_5"
+problem_id: "08_titech-1978-1978_5"
+university: "東京科学大学"
+exam_year: "1978"
+source_tex: "archive/08_titech/1978/1978_5.tex"
+pdf_source: "archive/08_titech/1978/1978_5.pdf"
+page_image: "archive/08_titech/1978/1978_5.jpg"
+fields:
+  - 積分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　2つの関数$f(x)=x^4-x$，$g(x)=ax^3+bx^2+cx+d$が$f(1)=g(1)$，$f(-1)=g(-1)$を満たすとき，積分
+\[ \int_{-1}^1{(f(x)-g(x))}^2dx \]
+を最小にする$a, \, b, \, c, \, d$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1978/1978_5.pdf)

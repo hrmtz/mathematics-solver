@@ -1,0 +1,178 @@
+## 解答
+
+(1)  
+
+区間の長さをそろえるために，$t=x^2$ の置換を用いる。  
+$ x^2 = t$ とおくと，$dx = \dfrac{1}{2\sqrt{t}}dt$ であり，積分区間は  
+$x=\sqrt{k\pi} \Rightarrow t=k\pi,\quad x=\sqrt{(k+1)\pi} \Rightarrow t=(k+1)\pi$  
+となるから，
+$$
+A_k
+= \int_{\sqrt{k\pi}}^{\sqrt{(k+1)\pi}}|\sin(x^2)|dx
+= \int_{k\pi}^{(k+1)\pi}|\sin t|\frac{1}{2\sqrt{t}}dt
+$$
+と書ける。
+
+ここで積分区間 $[k\pi,(k+1)\pi]$ では，
+$$
+\frac{1}{2\sqrt{(k+1)\pi}}\le \frac{1}{2\sqrt{t}}\le \frac{1}{2\sqrt{k\pi}}
+$$
+が成り立つ（$\sqrt{t}$ が $t$ の増加関数であるため）。  
+よって，$|\sin t|\ge 0$ であることから積分の評価により
+$$
+\frac{1}{2\sqrt{(k+1)\pi}}\int_{k\pi}^{(k+1)\pi}|\sin t|dt
+\le A_k
+\le \frac{1}{2\sqrt{k\pi}}\int_{k\pi}^{(k+1)\pi}|\sin t|dt
+$$
+が従う。
+
+次に $\displaystyle\int_{k\pi}^{(k+1)\pi}|\sin t|dt$ を求める。  
+$\sin t$ は周期 $2\pi$ の関数であり，$[k\pi,(k+1)\pi]$ の長さは $\pi$ である。また，$k$ が偶数のとき $\sin t$ はこの区間で常に非負，$k$ が奇数のとき常に非正であるが，いずれにせよ
+$$
+\int_{k\pi}^{(k+1)\pi}|\sin t|dt
+=
+\int_{0}^{\pi}\sin u\,du
+=
+[-\cos u]_{0}^{\pi}
+=
+(-\cos\pi)-(-\cos0)
+=
+2
+$$
+となる（$u=t-k\pi$ と置き換えればよい）。
+
+したがって
+$$
+\frac{1}{2\sqrt{(k+1)\pi}}\cdot 2
+\le A_k
+\le \frac{1}{2\sqrt{k\pi}}\cdot 2
+$$
+すなわち
+$$
+\frac{1}{\sqrt{(k+1)\pi}} \le A_k \le \frac{1}{\sqrt{k\pi}}
+$$
+が示された。
+
+(2)  
+
+(1) の結果を $\sqrt{k\pi}$ の区間の和に対して用いる。
+
+まず
+$$
+B_n
+= \frac{1}{\sqrt{n}}\int_{\sqrt{n\pi}}^{\sqrt{2n\pi}}|\sin(x^2)|dx
+= \frac{1}{\sqrt{n}}\sum_{k=n}^{2n-1}\int_{\sqrt{k\pi}}^{\sqrt{(k+1)\pi}}|\sin(x^2)|dx
+= \frac{1}{\sqrt{n}}\sum_{k=n}^{2n-1}A_k
+$$
+と区間を分割して書ける。
+
+(1) より，
+$$
+\frac{1}{\sqrt{(k+1)\pi}} \le A_k \le \frac{1}{\sqrt{k\pi}}
+$$
+であるから，$k=n,n+1,\dots,2n-1$ について和をとると
+$$
+\sum_{k=n}^{2n-1}\frac{1}{\sqrt{(k+1)\pi}}
+\le \sum_{k=n}^{2n-1}A_k
+\le \sum_{k=n}^{2n-1}\frac{1}{\sqrt{k\pi}}
+$$
+となる。両辺を $\sqrt{n}$ で割ると
+$$
+\frac{1}{\sqrt{n}}\sum_{k=n}^{2n-1}\frac{1}{\sqrt{(k+1)\pi}}
+\le B_n
+\le \frac{1}{\sqrt{n}}\sum_{k=n}^{2n-1}\frac{1}{\sqrt{k\pi}}
+$$
+すなわち
+$$
+\frac{1}{\sqrt{\pi}}\cdot\frac{1}{\sqrt{n}}\sum_{k=n}^{2n-1}\frac{1}{\sqrt{k+1}}
+\le B_n
+\le \frac{1}{\sqrt{\pi}}\cdot\frac{1}{\sqrt{n}}\sum_{k=n}^{2n-1}\frac{1}{\sqrt{k}}
+$$
+を得る。
+
+ここで
+$$
+C_n=\frac{1}{\sqrt{n}}\sum_{k=n}^{2n-1}\frac{1}{\sqrt{k}}
+$$
+の極限を調べる。$\dfrac{1}{\sqrt{x}}$ は正で単調減少な関数であるから，和と積分の比較より
+$$
+\int_{n}^{2n}\frac{1}{\sqrt{x}}dx
+\le \sum_{k=n}^{2n-1}\frac{1}{\sqrt{k}}
+\le \int_{n-1}^{2n-1}\frac{1}{\sqrt{x}}dx
+$$
+が成り立つ。よって
+$$
+\frac{1}{\sqrt{n}}\int_{n}^{2n}\frac{1}{\sqrt{x}}dx
+\le C_n
+\le \frac{1}{\sqrt{n}}\int_{n-1}^{2n-1}\frac{1}{\sqrt{x}}dx
+$$
+となる。
+
+積分を計算すると
+$$
+\int_{n}^{2n}\frac{1}{\sqrt{x}}dx
+= \left[2\sqrt{x}\right]_{n}^{2n}
+= 2(\sqrt{2n}-\sqrt{n})
+= 2\sqrt{n}(\sqrt{2}-1),
+$$
+$$
+\int_{n-1}^{2n-1}\frac{1}{\sqrt{x}}dx
+= \left[2\sqrt{x}\right]_{n-1}^{2n-1}
+= 2(\sqrt{2n-1}-\sqrt{n-1}).
+$$
+
+したがって
+$$
+\frac{1}{\sqrt{n}}\int_{n}^{2n}\frac{1}{\sqrt{x}}dx
+= 2(\sqrt{2}-1)
+$$
+および
+$$
+\frac{1}{\sqrt{n}}\int_{n-1}^{2n-1}\frac{1}{\sqrt{x}}dx
+= 2\frac{\sqrt{2n-1}-\sqrt{n-1}}{\sqrt{n}}
+$$
+となる。後者について，分子分母を $\sqrt{n}$ で割ると
+$$
+2\frac{\sqrt{2n-1}-\sqrt{n-1}}{\sqrt{n}}
+= 2\left(\sqrt{2-\frac{1}{n}}-\sqrt{1-\frac{1}{n}}\right)
+$$
+であり，$n\to\infty$ のとき
+$$
+\sqrt{2-\frac{1}{n}}\to\sqrt{2}, \quad \sqrt{1-\frac{1}{n}}\to1
+$$
+だから
+$$
+\lim_{n\to\infty}2\frac{\sqrt{2n-1}-\sqrt{n-1}}{\sqrt{n}}
+=2(\sqrt{2}-1)
+$$
+となる。従ってはさみうちの原理より
+$$
+\lim_{n\to\infty}C_n = 2(\sqrt{2}-1)
+$$
+が得られる。
+
+元の $B_n$ に戻ると，
+$$
+\frac{1}{\sqrt{\pi}}\cdot\frac{1}{\sqrt{n}}\sum_{k=n}^{2n-1}\frac{1}{\sqrt{k+1}}
+\le B_n
+\le \frac{1}{\sqrt{\pi}}\cdot C_n
+$$
+であり，$\dfrac{1}{\sqrt{n}}\sum_{k=n}^{2n-1}\dfrac{1}{\sqrt{k+1}}$ も同様の議論で極限が $2(\sqrt{2}-1)$ となるので，
+$$
+\lim_{n\to\infty}\frac{1}{\sqrt{n}}\sum_{k=n}^{2n-1}\frac{1}{\sqrt{k+1}}
+=
+\lim_{n\to\infty}C_n
+=2(\sqrt{2}-1)
+$$
+である。ゆえに，再びはさみうちの原理により
+$$
+\lim_{n\to\infty}B_n
+= \frac{1}{\sqrt{\pi}}\cdot 2(\sqrt{2}-1)
+$$
+となる。
+
+よって求める極限は
+$$
+\boxed{\displaystyle\lim_{n\to\infty}B_n=\frac{2(\sqrt{2}-1)}{\sqrt{\pi}}}
+$$
+である。

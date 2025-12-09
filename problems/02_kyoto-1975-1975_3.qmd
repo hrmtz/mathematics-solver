@@ -1,0 +1,24 @@
+---
+title: "京都大学 1975年 1975_3"
+problem_id: "02_kyoto-1975-1975_3"
+university: "京都大学"
+exam_year: "1975"
+source_tex: "archive/02_kyoto/1975/1975_3.tex"
+pdf_source: "archive/02_kyoto/1975/1975_3.pdf"
+page_image: "archive/02_kyoto/1975/1975_3.jpg"
+fields:
+  - 数列
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\alpha$，$\beta$，$\gamma$がこの順に等差数列であり，
+$\sin\alpha$，$\sin\beta$，$\sin\gamma$がこの順に等比数列であるのはどのようなときか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1975/1975_3.pdf)

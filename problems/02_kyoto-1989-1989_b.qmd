@@ -1,0 +1,26 @@
+---
+title: "京都大学 1989年 1989_b"
+problem_id: "02_kyoto-1989-1989_b"
+university: "京都大学"
+exam_year: "1989"
+source_tex: "archive/02_kyoto/1989/1989_b.tex"
+pdf_source: "archive/02_kyoto/1989/1989_b.pdf"
+page_image: "archive/02_kyoto/1989/1989_b.jpg"
+fields:
+  - 積分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　放物線$y=x^2$を$y$軸のまわりに回転してできる曲面があり，
+$y$軸が水平面に垂直で$y$軸の正の部分が上方にあるように置いてある．
+その曲面の中に半径$r$ $\displaystyle \left( r>\frac{1}{2} \right)$の球を落とし込む．
+　このとき，この回転面と球面とで囲まれた部分の体積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_b.pdf)

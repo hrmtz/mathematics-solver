@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1990年 1990_a"
+problem_id: "03_hokudai-1990-1990_a"
+university: "北海道大学"
+exam_year: "1990"
+source_tex: "archive/03_hokudai/1990/1990_a.tex"
+pdf_source: "archive/03_hokudai/1990/1990_a.pdf"
+page_image: "archive/03_hokudai/1990/1990_a.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　平面上の直線$y=2(\cos\theta+\sin\theta)x-1-\sin2\theta$を$l_\theta$とする．
+ここで$\theta$は$\displaystyle0\leqq\theta\leqq\frac{3\pi}{4}$を満たす実数とする．
+\begin{description}
+\item[(1)]$a=\cos\theta+\sin\theta$とするとき，$a$の値の範囲を求めよ．
+\item[(2)]$\theta$を動かすとき直線$l_\theta$が通る点全体の集合を$D$とする．$D$を図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1990/1990_a.pdf)

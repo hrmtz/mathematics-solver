@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 1975年 1975_1"
+problem_id: "05_nagoya-1975-1975_1"
+university: "名古屋大学"
+exam_year: "1975"
+source_tex: "archive/05_nagoya/1975/1975_1.tex"
+pdf_source: "archive/05_nagoya/1975/1975_1.pdf"
+page_image: "archive/05_nagoya/1975/1975_1.jpg"
+fields:
+  - 指数・対数
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の(1)，(2)を解答せよ．
+\begin{description}
+\item[(1)]$\log_2 3$と$\log_3 4$の大小を比較せよ．
+\item[(2)]$\displaystyle\cos\frac{2}{9}\pi+\cos\frac{4}{9}\pi+\cos\frac{8}{9}\pi+
+\cos\frac{10}{9}\pi+\cos\frac{14}{9}\pi+\cos\frac{16}{9}\pi$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1975/1975_1.pdf)

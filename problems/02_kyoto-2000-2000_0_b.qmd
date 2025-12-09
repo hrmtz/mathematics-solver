@@ -1,0 +1,24 @@
+---
+title: "京都大学 2000年 2000_0_b"
+problem_id: "02_kyoto-2000-2000_0_b"
+university: "京都大学"
+exam_year: "2000"
+source_tex: "archive/02_kyoto/2000/2000_0_b.tex"
+pdf_source: "archive/02_kyoto/2000/2000_0_b.pdf"
+page_image: "archive/02_kyoto/2000/2000_0_b.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　実数$x$，$y$が$x \geqq y \geqq 1$を満たすとき，次の不等式が成立することを示せ．
+\[ (x+y-1)\log_2(x+y)\geqq(x-1)\log_2x+(y-1)\log_2y+y \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_0_b.pdf)

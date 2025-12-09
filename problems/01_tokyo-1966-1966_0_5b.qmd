@@ -1,0 +1,25 @@
+---
+title: "東京大学 1966年 1966_0_5b"
+problem_id: "01_tokyo-1966-1966_0_5b"
+university: "東京大学"
+exam_year: "1966"
+source_tex: "archive/01_tokyo/1966/1966_0_5b.tex"
+pdf_source: "archive/01_tokyo/1966/1966_0_5b.pdf"
+page_image: "archive/01_tokyo/1966/1966_0_5b.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5 旧
+　点$O$を中心とする定円の円周上に一点$A$を固定し，$O$とも$A$とも異なる点$P$を半径$OA$上にとる．
+点$P$を通り$OA$に垂直な弦の一端における円の接線が，$OA$の延長と交わる点を$Q$とする．
+点$P$が点$A$に近づくときの$\displaystyle\frac{\overline{PQ}}{\overline{PA}}$の極限を求めよ．
+ただし，$\overline{PQ}$，$\overline{PA}$はそれぞれ線分$PQ$，$PA$の長さである．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1966/1966_0_5b.pdf)

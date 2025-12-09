@@ -1,0 +1,30 @@
+---
+title: "東京大学 1970年 1970_3"
+problem_id: "01_tokyo-1970-1970_3"
+university: "東京大学"
+exam_year: "1970"
+source_tex: "archive/01_tokyo/1970/1970_3.tex"
+pdf_source: "archive/01_tokyo/1970/1970_3.pdf"
+page_image: "archive/01_tokyo/1970/1970_3.jpg"
+fields:
+  - 微分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　25m隔てて二地点$P$，$Q$がある．
+いま$A$，$B$二人がそれぞれ$P$，$Q$に立ち，同時に向いあって走り出す．
+走り出してから$t$秒後の$A$，$B$の速度を，
+$P$から$Q$に向う方向を正の向きとしてどれぞれ$u$m/秒，$v$m/秒とすれば，
+$u$は一定で$\displaystyle v=\frac{3}{4}t^2-3t$である．
+このとき，
+$B$が$Q$にかえるまでに$A$が$B$に出あうかまたは追いつくためには，
+$u$が少なくともどれほどの大きさでなければならないか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1970/1970_3.pdf)

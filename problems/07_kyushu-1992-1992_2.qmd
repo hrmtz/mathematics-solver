@@ -1,0 +1,32 @@
+---
+title: "九州大学 1992年 1992_2"
+problem_id: "07_kyushu-1992-1992_2"
+university: "九州大学"
+exam_year: "1992"
+source_tex: "archive/07_kyushu/1992/1992_2.tex"
+pdf_source: "archive/07_kyushu/1992/1992_2.pdf"
+page_image: "archive/07_kyushu/1992/1992_2.jpg"
+fields:
+  - 数列
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　3次曲線$C:y=x^3+9x^2+9x+2$上に点$P_0(x_0, \, y_0)$をとる．ただし，$x_0>0$とする．
+さらに自然数$n$に対して，$C$上の点$P_n(x_n, \, y_n)$を
+「$P_{n-1}$を通る直線が点$P_n$ $(\neq P_{n-1})$で$C$と接する」ように定める．
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$n>0$のとき，関係式$2x_n+x_{n-1}+9=0$が成り立つことを示せ．
+\item[(2)]$x_n$を$x_0$で表せ．
+\item[(3)]点$P_n$は$n$を大きくすると$C$上の定点に近づくことを示し，その定点を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_2.pdf)

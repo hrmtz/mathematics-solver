@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 1989年 1989_3"
+problem_id: "08_titech-1989-1989_3"
+university: "東京科学大学"
+exam_year: "1989"
+source_tex: "archive/08_titech/1989/1989_3.tex"
+pdf_source: "archive/08_titech/1989/1989_3.pdf"
+page_image: "archive/08_titech/1989/1989_3.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数$f(x)$は次の等式
+\[ f(x+y)=f(x)+f(y)+f(x)f(y) \]
+を満たしているとする．
+関数$f(x)$が$x=0$で微分可能であるとき，次の問に答えよ．
+\begin{description}
+\item[(1)]関数$f(x)$はすべての$x$の値で微分可能であることを証明せよ．
+\item[(2)]関数$f(x)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1989/1989_3.pdf)

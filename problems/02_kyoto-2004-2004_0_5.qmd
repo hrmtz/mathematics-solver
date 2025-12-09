@@ -1,0 +1,32 @@
+---
+title: "京都大学 2004年 2004_0_5"
+problem_id: "02_kyoto-2004-2004_0_5"
+university: "京都大学"
+exam_year: "2004"
+source_tex: "archive/02_kyoto/2004/2004_0_5.tex"
+pdf_source: "archive/02_kyoto/2004/2004_0_5.pdf"
+page_image: "archive/02_kyoto/2004/2004_0_5.jpg"
+fields:
+  - 整数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n$，$a$，$b$を0以上の整数とする．$a$，$b$を未知数とする方程式
+\begin{description}
+\item[(＊)]$a^2+b^2=2^n$
+\end{description}
+を考える．
+\begin{description}
+\item[(1)]$n\geqq2$とする．$a$，$b$が方程式(＊)を満たすならば，$a$，$b$はともに偶数であることを証明せよ．
+(ただし，0は偶数に含める．)
+\item[(2)]0以上の整数$n$に対して，方程式(＊)を満たす0以上の整数の組$(a,b)$をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_0_5.pdf)

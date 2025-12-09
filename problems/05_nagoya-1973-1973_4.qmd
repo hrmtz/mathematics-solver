@@ -1,0 +1,23 @@
+---
+title: "名古屋大学 1973年 1973_4"
+problem_id: "05_nagoya-1973-1973_4"
+university: "名古屋大学"
+exam_year: "1973"
+source_tex: "archive/05_nagoya/1973/1973_4.tex"
+pdf_source: "archive/05_nagoya/1973/1973_4.pdf"
+page_image: "archive/05_nagoya/1973/1973_4.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$が1でない実数のとき，方程式$x^2+ax=\sin x$は
+ちょうど2つの実根をもつことを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1973/1973_4.pdf)

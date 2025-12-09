@@ -1,0 +1,30 @@
+---
+title: "九州大学 2022年 2022_3"
+problem_id: "07_kyushu-2022-2022_3"
+university: "九州大学"
+exam_year: "2022"
+source_tex: "archive/07_kyushu/2022/2022_3.tex"
+pdf_source: "archive/07_kyushu/2022/2022_3.pdf"
+page_image: "archive/07_kyushu/2022/2022_3.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　自然数$m, \, n$が
+\[ n^4=1+210m^2 \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \]
+をみたすとき，以下の問いに答えよ。
+\begin{description}
+\item[(1)]$\displaystyle \frac{n^2+1}{2}, \, \frac{n^2-1}{2}$は
+互いに素な整数であることを示せ。
+\item[(2)]$n^2-1$は168の倍数であることを示せ。
+\item[(3)]\ding{"AC}をみたす自然数の組$(m, \, n)$を1つ求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2022/2022_3.pdf)

@@ -1,0 +1,34 @@
+---
+title: "東北大学 2005年 2005_1"
+problem_id: "04_tohoku-2005-2005_1"
+university: "東北大学"
+exam_year: "2005"
+source_tex: "archive/04_tohoku/2005/2005_1.tex"
+pdf_source: "archive/04_tohoku/2005/2005_1.pdf"
+page_image: "archive/04_tohoku/2005/2005_1.jpg"
+fields:
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$\displaystyle0<t<\frac{1}{2}$とし，
+平面上のベクトル$\overrightarrow{a}$，$\overrightarrow{b}$と
+単位ベクトル$\overrightarrow{e}$が
+\begin{description}
+\item[(i)]$(1-t)\overrightarrow{a}+t\overrightarrow{b}=\overrightarrow{e}$
+\item[(ii)]$(1-t)(\overrightarrow{a}+\overrightarrow{e})=t(\overrightarrow{b}+\overrightarrow{e})$
+\end{description}
+を満たすとする．
+さらに平面上のベクトル$\overrightarrow{x}$があって，
+$\overrightarrow{x}-\overrightarrow{a}$と
+$\overrightarrow{x}-\overrightarrow{b}$が垂直で
+長さの比が$t:1-t$となるとする．
+このとき，内積$\overrightarrow{x}\cdot\overrightarrow{e}$を$t$で表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_1.pdf)

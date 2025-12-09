@@ -1,0 +1,31 @@
+---
+title: "東北大学 1991年 1991_0_3"
+problem_id: "04_tohoku-1991-1991_0_3"
+university: "東北大学"
+exam_year: "1991"
+source_tex: "archive/04_tohoku/1991/1991_0_3.tex"
+pdf_source: "archive/04_tohoku/1991/1991_0_3.pdf"
+page_image: "archive/04_tohoku/1991/1991_0_3.jpg"
+fields:
+  - 積分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xyz$空間の4点$(0, \, 0, \, 0)$，$(\cos\theta, \, \sin\theta, \, 0)$，
+$(\cos\theta, \, \sin\theta, \, \theta)$，$(0, \, 0, \, \theta)$を頂点とする長方形を$R_\theta$とし，
+$\theta$が0から$\displaystyle\frac{\pi}{2}$まで変化するとき，
+$R_\theta$が動いてできる立体を$K$とする．
+\begin{description}
+\item[(1)]$K$を平面$z=t$ $\displaystyle\left(0\leqq t \leqq \frac{\pi}{2}\right)$で切ったときの
+切り口の面積を求めよ．
+\item[(2)]$K$の体積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_0_3.pdf)

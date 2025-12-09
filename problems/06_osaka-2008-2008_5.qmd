@@ -1,0 +1,30 @@
+---
+title: "大阪大学 2008年 2008_5"
+problem_id: "06_osaka-2008-2008_5"
+university: "大阪大学"
+exam_year: "2008"
+source_tex: "archive/06_osaka/2008/2008_5.tex"
+pdf_source: "archive/06_osaka/2008/2008_5.pdf"
+page_image: "archive/06_osaka/2008/2008_5.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　1枚の硬貨を繰り返し投げる反復試行を行い，
+表が500回続けて出たときに終わるものとする．
+$n$を500以上の自然数とするとき，
+この反復試行が$n$回目で終わる確率を$p(n)$とする．
+\begin{description}
+\item[(1)]$501 \leqq n \leqq 1000$のとき，$p(n)$は$n$に関係なく一定の値になることを示し，またその値を求めよ．
+\item[(2)]$p(1002)-p(1001)$の値を求めよ．
+\item[(3)]$1002 \leqq n \leqq 1500$のとき，$p(n+1)-p(n)$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2008/2008_5.pdf)

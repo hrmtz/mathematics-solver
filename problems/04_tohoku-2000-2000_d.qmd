@@ -1,0 +1,35 @@
+---
+title: "東北大学 2000年 2000_d"
+problem_id: "04_tohoku-2000-2000_d"
+university: "東北大学"
+exam_year: "2000"
+source_tex: "archive/04_tohoku/2000/2000_d.tex"
+pdf_source: "archive/04_tohoku/2000/2000_d.pdf"
+page_image: "archive/04_tohoku/2000/2000_d.jpg"
+fields:
+  - 整数
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$n$個の$a$と$m$個の$b$を一列に並べるとき，
+同じ文字が連続している部分をその文字の連ということにする．
+たとえば，$n=7$，$m=5$のときの1つの順列
+\[ aababbaaabba \]
+については，$a$の連の個数は4，$b$の連の個数は3で，連の総数は7である．
+次の問いに答えよ．
+\begin{description}
+\item[(1)]全く同じで区別のつかない$h$個の球を，区別のつく$k$個の箱に入れるとき，
+空箱の生じないような入れ方の総数を求めよ，ただし，$h \geqq k$とする．
+\item[(2)]$n=7$，$m=5$として，$a$が$p$ $(1 \leqq p \leqq 6)$個の連をもつとき，$b$の連の個数を調べよ．
+\item[(3)]$n=7$，$m=5$のとき，すべての順列が等しい確率で生ずるとして，
+$a$の連の個数と$b$の連の個数の和が4，7，11となる確率をそれぞれ求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2000/2000_d.pdf)

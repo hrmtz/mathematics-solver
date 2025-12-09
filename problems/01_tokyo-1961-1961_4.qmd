@@ -1,0 +1,30 @@
+---
+title: "東京大学 1961年 1961_4"
+problem_id: "01_tokyo-1961-1961_4"
+university: "東京大学"
+exam_year: "1961"
+source_tex: "archive/01_tokyo/1961/1961_4.tex"
+pdf_source: "archive/01_tokyo/1961/1961_4.pdf"
+page_image: "archive/01_tokyo/1961/1961_4.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$\triangle ABC$の3辺$BC$，$CA$，$AB$の上にそれぞれ点$L$，$M$，$N$をとり
+$\displaystyle \frac{BL}{LC}=\frac{CM}{MA}=\frac{AN}{NB}=\frac{1}{2}$となるようにする．
+$AL$と$CN$の交点を$P$，$AL$と$BM$の交点を$Q$，$BM$と$CN$の交点を$R$とするとき，
+$\triangle PQR$の面積と$\triangle ABC$の面積との比を求めよ．
+
+
+
+![](../archive/01_tokyo/1961/fig_1961_4.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1961/1961_4.pdf)

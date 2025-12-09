@@ -1,0 +1,38 @@
+---
+title: "東京大学 2011年 2011_0_3"
+problem_id: "01_tokyo-2011-2011_0_3"
+university: "東京大学"
+exam_year: "2011"
+source_tex: "archive/01_tokyo/2011/2011_0_3.tex"
+pdf_source: "archive/01_tokyo/2011/2011_0_3.pdf"
+page_image: "archive/01_tokyo/2011/2011_0_3.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$p$，$q$を2つの正の整数とする．
+整数$a$，$b$，$c$で条件
+\[ -q \leqq b \leqq 0 \leqq a \leqq p, \hspace{1zw} b \leqq c \leqq a \]
+を満たすものを考え，
+このような$a$，$b$，$c$を$[a, \, b \, ; \, c]$の形に並べたものを$(p, \, q)$パターンと呼ぶ．
+各$(p, \, q)$パターン$[a \, ,b \, ; \, c]$に対して
+\[ w([a, \, b \, ; \, c])=p-q-(a+b) \]
+とおく．
+\begin{description}
+\item[(1)]$(p, \, q)$パターンのうち，$w([a, \, b \, ; \, c])=-q$となるものの個数を求めよ．
+また，$w([a, \, b \, ; \, c])=p$となる$(p, \, q)$パターンの個数を求めよ．
+\end{description}
+　以下$p=q$の場合を考える．
+\begin{description}
+\item[(2)]$s$を$p$以下の整数とする．
+$(p, \, p)$パターンで$w([a, \, b \, ; \, c])=-p+s$となるものの個数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2011/2011_0_3.pdf)

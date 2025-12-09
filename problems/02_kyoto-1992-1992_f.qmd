@@ -1,0 +1,29 @@
+---
+title: "京都大学 1992年 1992_f"
+problem_id: "02_kyoto-1992-1992_f"
+university: "京都大学"
+exam_year: "1992"
+source_tex: "archive/02_kyoto/1992/1992_f.tex"
+pdf_source: "archive/02_kyoto/1992/1992_f.pdf"
+page_image: "archive/02_kyoto/1992/1992_f.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$\displaystyle a=\frac{1+\sqrt5}{2}$とし，空間内の原点$O$と4つの点
+\[ A(1,1,1), \hspace{1zw} B(-a^{-1},a,0), \hspace{1zw} C(-a,0,a^{-1}), \hspace{1zw} D(0,-a^{-1},a) \]
+について，次の問に答えよ．
+\begin{description}
+\item[(1)]4点$A$，$B$，$C$，$D$は正方形の頂点であることを示せ．
+\item[(2)]四角錐$O-ABCD$を平面$x=0$によって2つの部分$W_1$，$W_2$に分けたとき，$W_1$，$W_2$の体積の比を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_f.pdf)

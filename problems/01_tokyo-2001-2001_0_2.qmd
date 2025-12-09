@@ -1,0 +1,31 @@
+---
+title: "東京大学 2001年 2001_0_2"
+problem_id: "01_tokyo-2001-2001_0_2"
+university: "東京大学"
+exam_year: "2001"
+source_tex: "archive/01_tokyo/2001/2001_0_2.tex"
+pdf_source: "archive/01_tokyo/2001/2001_0_2.pdf"
+page_image: "archive/01_tokyo/2001/2001_0_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　時刻0に原点を出発した2点$A$，$B$が$xy$平面上を動く．
+点$A$の時刻$t$での座標は$(t^2,0)$で与えられる．
+点$B$は，最初は$y$軸上を$y$座標が増加する方向に一定の速さ1で動くが，
+点$C(0,3)$に到達した後は，その点から$x$軸に平行な直線上を$x$座標が増加する方向に同じ速さ1で動く．
+　$t>0$のとき，三角形$ABC$の面積を$S(t)$とおく．
+\begin{description}
+\item[(1)]関数$S(t)$ $(t>0)$のグラフの概形を描け．
+\item[(2)]$u$を正の実数とするとき，$0<t\leqq u$における$S(t)$の最大値を$M(u)$とおく．
+関数$M(u)$ $(u>0)$のグラフの概形を描け．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2001/2001_0_2.pdf)

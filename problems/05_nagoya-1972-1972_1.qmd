@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 1972年 1972_1"
+problem_id: "05_nagoya-1972-1972_1"
+university: "名古屋大学"
+exam_year: "1972"
+source_tex: "archive/05_nagoya/1972/1972_1.tex"
+pdf_source: "archive/05_nagoya/1972/1972_1.pdf"
+page_image: "archive/05_nagoya/1972/1972_1.jpg"
+fields:
+  - ベクトル
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次のおのおのについて解答せよ．
+\begin{description}
+\item[(1)]4辺形$ABCD$と1点$P$がある．
+\[ \overrightarrow{AP}+\overrightarrow{CP}=\overrightarrow{BP}+\overrightarrow{DP} \]
+が成立するならば，この4辺形はどんな4辺形か．
+\item[(2)]$x_k\geqq0$ $(k=1, \, 2, \, \cdots\cdots, \, n)$のとき，
+次の不等式を証明せよ．
+\[ \frac{x_1+x_2+\cdots\cdots+x_n}{1+x_1+x_2+\cdots\cdots+x_n} \geqq
+\frac{1}{n}\left( \frac{x_1}{1+x_1}+\frac{x_2}{1+x_2}+\cdots\cdots+\frac{x_n}{1+x_n} \right) \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1972/1972_1.pdf)

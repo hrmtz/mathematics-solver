@@ -1,0 +1,31 @@
+---
+title: "北海道大学 2000年 2000_0_2"
+problem_id: "03_hokudai-2000-2000_0_2"
+university: "北海道大学"
+exam_year: "2000"
+source_tex: "archive/03_hokudai/2000/2000_0_2.tex"
+pdf_source: "archive/03_hokudai/2000/2000_0_2.pdf"
+page_image: "archive/03_hokudai/2000/2000_0_2.jpg"
+fields:
+  - 確率
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　1から4までの番号を1つずつ書いた4枚のカードがある．
+この中から1枚を抜き取り，番号を記録してもとに戻す．
+これを$n$回繰り返したとき，
+記録された$n$個の数の積が3の倍数である確率を$a_n$，
+4の倍数である確率を$b_n$とおく．
+\begin{description}
+\item[(1)]$a_n$と$b_n$を求めよ．
+\item[(2)]$n\geqq2$のとき，$b_n>a_n$を数学的帰納法を用いて証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2000/2000_0_2.pdf)

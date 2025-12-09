@@ -1,0 +1,31 @@
+---
+title: "東北大学 1996年 1996_0_b"
+problem_id: "04_tohoku-1996-1996_0_b"
+university: "東北大学"
+exam_year: "1996"
+source_tex: "archive/04_tohoku/1996/1996_0_b.tex"
+pdf_source: "archive/04_tohoku/1996/1996_0_b.pdf"
+page_image: "archive/04_tohoku/1996/1996_0_b.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　行列$A=\begin{pmatrix} 2 & x 
+
+ y & z \end{pmatrix}$，
+$B=\begin{pmatrix} 1 & 0 
+
+ 2 & 1 \end{pmatrix}$，
+$C=\begin{pmatrix} 0 & 1 
+
+ 1 & 1 \end{pmatrix}$に対して，
+等式$A^2B=BA^2$，$AC=CA$が成り立つとき，$x$，$y$，$z$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_0_b.pdf)

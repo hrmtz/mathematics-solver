@@ -1,0 +1,27 @@
+---
+title: "京都大学 1996年 1996_0_a"
+problem_id: "02_kyoto-1996-1996_0_a"
+university: "京都大学"
+exam_year: "1996"
+source_tex: "archive/02_kyoto/1996/1996_0_a.tex"
+pdf_source: "archive/02_kyoto/1996/1996_0_a.pdf"
+page_image: "archive/02_kyoto/1996/1996_0_a.jpg"
+fields:
+  - 三角関数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]$\cos5\theta=f(\cos\theta)$をみたす多項式$f(x)$を求めよ．
+\item[(2)]$\displaystyle\cos\frac{\pi}{10}\cos\frac{3\pi}{10}\cos\frac{7\pi}{10}\cos\frac{9\pi}{10}=\frac{5}{16}$
+を示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_0_a.pdf)

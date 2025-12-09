@@ -1,0 +1,28 @@
+---
+title: "九州大学 1971年 1971_1"
+problem_id: "07_kyushu-1971-1971_1"
+university: "九州大学"
+exam_year: "1971"
+source_tex: "archive/07_kyushu/1971/1971_1.tex"
+pdf_source: "archive/07_kyushu/1971/1971_1.pdf"
+page_image: "archive/07_kyushu/1971/1971_1.jpg"
+fields:
+  - 不等式
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]次の不等式を解け．
+\[ \left| x^2-\frac{1}{2} \right| >2x \]
+\item[(2)]次の方程式を解け．ただし，$0\leqq x \leqq2\pi$とする．
+\[ \sin x+\sin2x=\cos x+\cos2x \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1971/1971_1.pdf)

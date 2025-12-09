@@ -1,0 +1,32 @@
+---
+title: "京都大学 1984年 1984_2"
+problem_id: "02_kyoto-1984-1984_2"
+university: "京都大学"
+exam_year: "1984"
+source_tex: "archive/02_kyoto/1984/1984_2.tex"
+pdf_source: "archive/02_kyoto/1984/1984_2.pdf"
+page_image: "archive/02_kyoto/1984/1984_2.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　定数$c$ $(c\neq0)$に対して，
+等式$f(x+c)=f(x)$がすべての$x$について成り立つとき，
+関数$f(x)$は周期関数であるといい，
+またこの等式を満たすような正の数$c$のうちの最小値を$f(x)$の周期という．
+　次の関数は周期関数であるか否かを，理由をつけて答えよ．
+また，周期関数である場合には，その周期を求めよ．
+\begin{description}
+\item[(1)]$f(x)=\sin(\sin x)$
+\item[(2)]$f(x)=\cos(\sin x)$
+\item[(3)]$f(x)=\sin(x^3)$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1984/1984_2.pdf)

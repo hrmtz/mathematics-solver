@@ -1,0 +1,31 @@
+---
+title: "東北大学 2007年 2007_b"
+problem_id: "04_tohoku-2007-2007_b"
+university: "東北大学"
+exam_year: "2007"
+source_tex: "archive/04_tohoku/2007/2007_b.tex"
+pdf_source: "archive/04_tohoku/2007/2007_b.pdf"
+page_image: "archive/04_tohoku/2007/2007_b.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　図のような平行四辺形$ABCD$において$\angle ADB$は直角とする．
+$D$から線分$AC$に下ろした垂線と$AC$との交点を$E$とする．
+$\overrightarrow{AD}=\overrightarrow{a}$，$\overrightarrow{AB}=\overrightarrow{b}$とおき，
+$|\overrightarrow{a}|=1$，$|\overrightarrow{b}|=\sqrt{13}$とする．
+\begin{description}
+\item[(1)]内積$\overrightarrow{a}\cdot\overrightarrow{b}$を求めよ．
+\item[(2)]$\overrightarrow{DE}$を$\overrightarrow{a}$と$\overrightarrow{b}$で表せ．
+\item[(3)]内積$\overrightarrow{DE}\cdot\overrightarrow{DB}$と$\angle EDB$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_b.pdf)

@@ -1,0 +1,30 @@
+---
+title: "北海道大学 2008年 2008_b"
+problem_id: "03_hokudai-2008-2008_b"
+university: "北海道大学"
+exam_year: "2008"
+source_tex: "archive/03_hokudai/2008/2008_b.tex"
+pdf_source: "archive/03_hokudai/2008/2008_b.pdf"
+page_image: "archive/03_hokudai/2008/2008_b.jpg"
+fields:
+  - 三角関数
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　関数$y=\sin x$のグラフ上に3点$P(x_1, \, \sin x_1)$，$Q(x_2, \, \sin x_2)$，$(0<x_1<x_2<\pi)$と$E(\pi, \, 0)$を取る．
+原点を$O$とし，四角形$OPQR$の面積を$S$とする．
+\begin{description}
+\item[(1)]方程式$x\cos x+\sin x=0$は$0<x<\pi$の範囲で解を1つだけもつことを示せ．
+\item[(2)](1)で得られた解を$a$とおき，$Q$を$(a, \, \sin a)$に固定し，点$P$を動かす．
+このとき$S$が最大となる$x_1$とその最大値$S_a$を$a$を用いて表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_b.pdf)

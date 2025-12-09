@@ -1,0 +1,31 @@
+---
+title: "九州大学 1985年 1985_6"
+problem_id: "07_kyushu-1985-1985_6"
+university: "九州大学"
+exam_year: "1985"
+source_tex: "archive/07_kyushu/1985/1985_6.tex"
+pdf_source: "archive/07_kyushu/1985/1985_6.pdf"
+page_image: "archive/07_kyushu/1985/1985_6.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　次の(1)，(2)に答えよ．
+\begin{description}
+\item[(1)]$\displaystyle-\frac{\pi}{2}<t<\frac{\pi}{2}$とするとき，
+座標平面上の点$\displaystyle P=\left(\tan t, \, \frac{\tan3t}{\tan2t}\right)$のグラフをかけ．
+ここで$\displaystyle\frac{\tan3t}{\tan2t}$の$t=0$での値は
+$\displaystyle\lim_{t\to0}\frac{\tan3t}{\tan2t}$とする．
+\item[(2)]$\displaystyle-\frac{\pi}{2}<x<\frac{\pi}{2}$とする．
+実数$a$に対して$\displaystyle a=\frac{\tan3x}{\tan2x}$を満たす$x$の個数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1985/1985_6.pdf)

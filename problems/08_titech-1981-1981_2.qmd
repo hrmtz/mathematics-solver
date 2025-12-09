@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 1981年 1981_2"
+problem_id: "08_titech-1981-1981_2"
+university: "東京科学大学"
+exam_year: "1981"
+source_tex: "archive/08_titech/1981/1981_2.tex"
+pdf_source: "archive/08_titech/1981/1981_2.pdf"
+page_image: "archive/08_titech/1981/1981_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　曲線$y=x^3+3x^2$上に3点$O(0, \, 0)$，$P(-2, \, 4)$，$Q(1, \, 4)$をとり，
+曲線および線分$PQ$で囲まれた領域を$D$とする（$D$は境界を含む）．
+点$R$を第1象限，点$S$を第2象限にとり，$\triangle ORS$が$D$に含まれるように点$R$，$S$を動かすとき，
+$\triangle ORS$の面積の最大値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1981/1981_2.pdf)

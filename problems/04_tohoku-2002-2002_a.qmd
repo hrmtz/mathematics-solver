@@ -1,0 +1,25 @@
+---
+title: "東北大学 2002年 2002_a"
+problem_id: "04_tohoku-2002-2002_a"
+university: "東北大学"
+exam_year: "2002"
+source_tex: "archive/04_tohoku/2002/2002_a.tex"
+pdf_source: "archive/04_tohoku/2002/2002_a.pdf"
+page_image: "archive/04_tohoku/2002/2002_a.jpg"
+fields:
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$p>0$とする．$xy$平面上の点$A$が放物線$y^2=4px$上を動くとき，
+点$A$と$x$軸上の点$(t, \, 0)$の距離の最小値$g(t)$を求めよ．
+さらに，$x\geqq0$のとき，$\displaystyle\int_0^xg(t)dt$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2002/2002_a.pdf)

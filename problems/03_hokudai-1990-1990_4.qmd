@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1990年 1990_4"
+problem_id: "03_hokudai-1990-1990_4"
+university: "北海道大学"
+exam_year: "1990"
+source_tex: "archive/03_hokudai/1990/1990_4.tex"
+pdf_source: "archive/03_hokudai/1990/1990_4.pdf"
+page_image: "archive/03_hokudai/1990/1990_4.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　第1象限にある曲線$C:y=f(x)$が次の条件(i)と(ii)を満たすとき，$f(x)$を求めよ．
+\begin{description}
+\item[(i)]$C$上の任意の点$P$における$C$の接線は$x$軸，$y$軸と交わり，
+その交点をそれぞれ$Q$，$R$とすると，点$P$は線分$QR$を$1:2$に内分する．
+\item[(ii)]原点から$C$上の点への距離の最小値は1である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1990/1990_4.pdf)

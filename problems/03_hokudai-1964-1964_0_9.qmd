@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1964年 1964_0_9"
+problem_id: "03_hokudai-1964-1964_0_9"
+university: "北海道大学"
+exam_year: "1964"
+source_tex: "archive/03_hokudai/1964/1964_0_9.tex"
+pdf_source: "archive/03_hokudai/1964/1964_0_9.pdf"
+page_image: "archive/03_hokudai/1964/1964_0_9.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+9
+　点$A$で$x$軸に接し，軸が$y$軸に平行な放物線と曲線$y=k\sqrt{c-x}$とは点$B$で交わり，
+かつ点$B$における両曲線の接線が互いに直交している。
+ただし$A$，$B$の$x$座標はそれぞれ1，2で，$k$と$c$は正の定数とする。
+\begin{description}
+\item[(1)]$k$の値を求めよ。
+\item[(2)]さらに，この両曲線と$x$軸とで囲まれる図形の面積が1に等しいとき，$c$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_0_9.pdf)

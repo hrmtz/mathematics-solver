@@ -1,0 +1,25 @@
+---
+title: "大阪大学 2025年 2025_3"
+problem_id: "06_osaka-2025-2025_3"
+university: "大阪大学"
+exam_year: "2025"
+source_tex: "archive/06_osaka/2025/2025_3.tex"
+pdf_source: "archive/06_osaka/2025/2025_3.pdf"
+page_image: "archive/06_osaka/2025/2025_3.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　座標空間に3点$O(0, \, 0, \, 0)$，$A(0, \, 1, \, 1)$，$P(x, \, y, \, 0)$がある．
+$\angle OAP={30}^\circ$かつ$y\geqq0$を満たすように点$P$が動くとき，
+$(x+1)(y+1)$の最大値と最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2025/2025_3.pdf)

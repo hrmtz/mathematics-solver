@@ -1,0 +1,31 @@
+---
+title: "東北大学 2010年 2010_b"
+problem_id: "04_tohoku-2010-2010_b"
+university: "東北大学"
+exam_year: "2010"
+source_tex: "archive/04_tohoku/2010/2010_b.tex"
+pdf_source: "archive/04_tohoku/2010/2010_b.pdf"
+page_image: "archive/04_tohoku/2010/2010_b.jpg"
+fields:
+  - 整数
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$b$は$|b|\geqq3$を満たす整数とする．
+2次方程式$x^2+bx+1=0$の解を$\alpha$，$\beta$とする．
+以下の問いに答えよ．
+\begin{description}
+\item[(1)]0以上のすべての整数$n$に対して$\alpha^n+\beta^n$は整数であることを示せ．
+\item[(2)]$|\alpha|>|\beta|$とする．
+$\alpha^n$から最も近い整数と$\alpha^n$との差を$d_n$とする．
+極限$\displaystyle\lim_{n\to\infty}d_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_b.pdf)

@@ -1,0 +1,24 @@
+---
+title: "東京大学 1988年 1988_6"
+problem_id: "01_tokyo-1988-1988_6"
+university: "東京大学"
+exam_year: "1988"
+source_tex: "archive/01_tokyo/1988/1988_6.tex"
+pdf_source: "archive/01_tokyo/1988/1988_6.pdf"
+page_image: "archive/01_tokyo/1988/1988_6.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　空間内の点$O$に対して，4点$A$，$B$，$C$，$D$を
+\[ OA=1, \hspace{1zw} OB=OC=OD=4 \]
+をみたすようにとるとき，四面体$ABCD$の体積の最大値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1988/1988_6.pdf)

@@ -1,0 +1,24 @@
+---
+title: "京都大学 2003年 2003_0_b"
+problem_id: "02_kyoto-2003-2003_0_b"
+university: "京都大学"
+exam_year: "2003"
+source_tex: "archive/02_kyoto/2003/2003_0_b.tex"
+pdf_source: "archive/02_kyoto/2003/2003_0_b.pdf"
+page_image: "archive/02_kyoto/2003/2003_0_b.jpg"
+fields:
+  - 不等式
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　実数$x$に対して3つの数，$2x$，$5-x$，2のうちの最小の数を$f(x)$とおく．さらに$g(x)=xf(x)$とおく．
+このとき，$y=g(x)$のグラフと$x$軸とで囲まれる部分の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2003/2003_0_b.pdf)

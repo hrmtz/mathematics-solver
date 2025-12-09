@@ -1,0 +1,31 @@
+---
+title: "九州大学 1997年 1997_4c"
+problem_id: "07_kyushu-1997-1997_4c"
+university: "九州大学"
+exam_year: "1997"
+source_tex: "archive/07_kyushu/1997/1997_4c.tex"
+pdf_source: "archive/07_kyushu/1997/1997_4c.pdf"
+page_image: "archive/07_kyushu/1997/1997_4c.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (c)
+　$n$個の袋があり，それぞれの袋には金色のカード3枚と銀色のカード$(3n-3)$枚入っている．
+それぞれの袋から1枚ずつカードを抜き出すとき，
+確率変数$X_n$を抜き出された金色のカードの枚数とおく．
+\begin{description}
+\item[(1)]$X_4$が値3をとる確率$P(X_4=3)$，および値2をとる確率$P(X_4=2)$を求めよ．
+\item[(2)]金色のカードを1枚抜き出すごとに賞金100円を受け取る．
+$n=4$のときに受ける賞金の期待値を求めよ．
+\item[(3)]一般の$n$ $(n\geqq3)$について，$X_n$が値3をとる確率$P(X_n=3)$を求めよ．
+\item[(4)]$\displaystyle\lim_{n\to\infty}P(X_n=3)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_4c.pdf)

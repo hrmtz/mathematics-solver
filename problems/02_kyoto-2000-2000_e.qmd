@@ -1,0 +1,29 @@
+---
+title: "京都大学 2000年 2000_e"
+problem_id: "02_kyoto-2000-2000_e"
+university: "京都大学"
+exam_year: "2000"
+source_tex: "archive/02_kyoto/2000/2000_e.tex"
+pdf_source: "archive/02_kyoto/2000/2000_e.pdf"
+page_image: "archive/02_kyoto/2000/2000_e.jpg"
+fields:
+  - 数列
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　0と異なる複素数$\alpha$に対して数列$\{a_n\}$を$a_n=\alpha^n+\alpha^{-n}$で定める．
+すべての自然数$n$について$|a_n|<2$が成立しているとする．
+このとき
+\begin{description}
+\item[(1)]$|\alpha|=1$が成立することを示せ．
+\item[(2)]$|a_m|>1$となる自然数$m$が存在することを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_e.pdf)

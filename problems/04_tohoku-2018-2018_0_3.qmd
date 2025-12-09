@@ -1,0 +1,33 @@
+---
+title: "東北大学 2018年 2018_0_3"
+problem_id: "04_tohoku-2018-2018_0_3"
+university: "東北大学"
+exam_year: "2018"
+source_tex: "archive/04_tohoku/2018/2018_0_3.tex"
+pdf_source: "archive/04_tohoku/2018/2018_0_3.pdf"
+page_image: "archive/04_tohoku/2018/2018_0_3.jpg"
+fields:
+  - 積分法
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　実数$a$は$0<a<4$を満たすとする。
+$xy$平面の直線$l:y=ax$と曲線
+\[ C:y=\begin{cases} -x^2+4x & (x<4\text{のとき})
+9a(x-4) & (x\geqq4\text{のとき}) \end{cases} \]
+を考える。$C$と$l$で囲まれた図形の面積を$S(a)$とおく。
+\begin{description}
+\item[(1)]$C$と$l$の交点の座標を求めよ。
+\item[(2)]$S(a)$を求めよ。
+\item[(3)]$S(a)$の最小値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_0_3.pdf)

@@ -1,0 +1,33 @@
+---
+title: "東北大学 1995年 1995_3"
+problem_id: "04_tohoku-1995-1995_3"
+university: "東北大学"
+exam_year: "1995"
+source_tex: "archive/04_tohoku/1995/1995_3.tex"
+pdf_source: "archive/04_tohoku/1995/1995_3.pdf"
+page_image: "archive/04_tohoku/1995/1995_3.jpg"
+fields:
+  - 確率
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　1から20までの番号札がそれぞれ1枚ずつある．
+これらの20枚の番号札から同時に2枚無作為に取り出し，
+大きい番号を$m$とし，小さい番号を$n$とする．
+実数$a$に対して$[a]$は$a$を超えない最大の整数を表すものとして，
+以下の問に答えよ．
+\begin{description}
+\item[(1)]$\displaystyle\left[ \log_{10}\frac{m}{n} \right]=1$となる
+$m$，$n$の組をすべて求めよ．
+\item[(2)]$\displaystyle\log_{10}\frac{m}{n}<\left[ \log_{10}\frac{m}{n} \right]+\log_{10}2$となる
+確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_3.pdf)

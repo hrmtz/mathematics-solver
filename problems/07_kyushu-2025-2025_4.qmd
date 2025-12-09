@@ -1,0 +1,29 @@
+---
+title: "九州大学 2025年 2025_4"
+problem_id: "07_kyushu-2025-2025_4"
+university: "九州大学"
+exam_year: "2025"
+source_tex: "archive/07_kyushu/2025/2025_4.tex"
+pdf_source: "archive/07_kyushu/2025/2025_4.pdf"
+page_image: "archive/07_kyushu/2025/2025_4.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　半径1の円周上に反時計回りに点$A, \, B, \, C, \, D$を順にとり，
+線分$AD$は直径で，$AC=CD$，$AB=BC$が成り立つとする。
+\begin{description}
+\item[(1)]$\angle ACB$を求めよ。
+\item[(2)]$BC$を求めよ。
+\item[(3)]線分$AC$と線分$BD$の交点を$E$とするとき，三角形$BCE$の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2025/2025_4.pdf)

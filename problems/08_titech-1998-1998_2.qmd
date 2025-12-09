@@ -1,0 +1,33 @@
+---
+title: "東京科学大学 1998年 1998_2"
+problem_id: "08_titech-1998-1998_2"
+university: "東京科学大学"
+exam_year: "1998"
+source_tex: "archive/08_titech/1998/1998_2.tex"
+pdf_source: "archive/08_titech/1998/1998_2.pdf"
+page_image: "archive/08_titech/1998/1998_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$R$を隣りあう2辺の長さ$a$，$b$が$2a>b>a$を満たす長方形とし，$A$を次の性質(P)を持つ半径$x$の円とする．
+
+\begin{center}
+(P)　$R$の内部にあって隣りあう2辺にだけ接する．
+\end{center}
+
+\begin{description}
+\item[(1)]性質(P)を持つ円で円$A$に外接するものが4つ存在するために，
+円$A$の半径$x$が満たすべき条件を$a$，$b$を使って表せ．
+\item[(2)]$x$が(1)の条件を満たすとき，円$A$に外接する4つの円のうち2番目に大きい円を$B$とする．
+$x$が変化するとき円$A$と円$B$の面積の和の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1998/1998_2.pdf)

@@ -1,0 +1,28 @@
+---
+title: "東北大学 2004年 2004_f"
+problem_id: "04_tohoku-2004-2004_f"
+university: "東北大学"
+exam_year: "2004"
+source_tex: "archive/04_tohoku/2004/2004_f.tex"
+pdf_source: "archive/04_tohoku/2004/2004_f.pdf"
+page_image: "archive/04_tohoku/2004/2004_f.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$a$を実数とし，
+\[ z^3=3|z|+a\cdots\cdots\text{（＊）} \]
+を満たす複素数$z$について考える．
+\begin{description}
+\item[(1)]$a$が実数全体を動くとき，$z$の取り得る値を複素数平面上に図示せよ．
+\item[(2)]$-2<a<0$の範囲にある各$a$に対し（＊）を満たす$z$の個数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2004/2004_f.pdf)

@@ -1,0 +1,30 @@
+---
+title: "東北大学 2007年 2007_6"
+problem_id: "04_tohoku-2007-2007_6"
+university: "東北大学"
+exam_year: "2007"
+source_tex: "archive/04_tohoku/2007/2007_6.tex"
+pdf_source: "archive/04_tohoku/2007/2007_6.pdf"
+page_image: "archive/04_tohoku/2007/2007_6.jpg"
+fields:
+  - 積分法
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$a>0$に対し
+$\displaystyle I_0(a)=\int_0^a\sqrt{1+x}dx$，
+$\displaystyle I_n(a)=\int_0^ax^n\sqrt{1+x}dx$ $(n=1,2,\cdots)$とおく．
+\begin{description}
+\item[(1)]$\displaystyle\lim_{a\to\infty}a^{-\frac{3}{2}}I_0(a)$を求めよ．
+\item[(2)]漸化式$\displaystyle I_n(a)=\frac{2}{3+2n}a^n{(1+a)}^\frac{3}{2}-\frac{2n}{3+2n}I_{n-1}(a)$ $(n=1,2,\cdots)$を示せ．
+\item[(3)]自然数$n$に対して，$\displaystyle\lim_{a\to\infty}a^{- \left( \frac{3}{2}+n \right) } I_n(a)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_6.pdf)

@@ -1,0 +1,23 @@
+---
+title: "京都大学 2005年 2005_f"
+problem_id: "02_kyoto-2005-2005_f"
+university: "京都大学"
+exam_year: "2005"
+source_tex: "archive/02_kyoto/2005/2005_f.tex"
+pdf_source: "archive/02_kyoto/2005/2005_f.pdf"
+page_image: "archive/02_kyoto/2005/2005_f.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$n$枚の100円玉と$n+1$枚の500円玉を同時に投げたとき，
+表の出た100円玉の枚数より表の出た500円玉の枚数の方が多い確率を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_f.pdf)

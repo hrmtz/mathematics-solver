@@ -1,0 +1,31 @@
+---
+title: "東京科学大学 2013年 2013_2"
+problem_id: "08_titech-2013-2013_2"
+university: "東京科学大学"
+exam_year: "2013"
+source_tex: "archive/08_titech/2013/2013_2.tex"
+pdf_source: "archive/08_titech/2013/2013_2.pdf"
+page_image: "archive/08_titech/2013/2013_2.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　2次の正方行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$に対して，
+$\Delta (A)=ad-bc$，$t(A)=a+d$と定める．
+\begin{description}
+\item[(1)]2次の正方行列$A$，$B$に対して，$\Delta(AB)=\Delta(A)\Delta(B)$が成り立つことを示せ．
+\item[(2)]$A$の成分がすべて実数で，$A^5=E$が成り立つとき，
+$x=\Delta(A)$と$y=t(A)$の値を求めよ．
+ただし，$E$は2次の単位行列とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2013/2013_2.pdf)

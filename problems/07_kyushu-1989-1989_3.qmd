@@ -1,0 +1,34 @@
+---
+title: "九州大学 1989年 1989_3"
+problem_id: "07_kyushu-1989-1989_3"
+university: "九州大学"
+exam_year: "1989"
+source_tex: "archive/07_kyushu/1989/1989_3.tex"
+pdf_source: "archive/07_kyushu/1989/1989_3.pdf"
+page_image: "archive/07_kyushu/1989/1989_3.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]$a>0$，$b>0$のとき，
+2曲線$\displaystyle y=\cos^2\frac{x}{a}$と$\displaystyle y=\sin^2\frac{x}{b}$の交点の$x$座標で
+最小な正の値を求めよ．
+\item[(2)]$a>0$として，4曲線
+\[ C_1:y=\cos^2\frac{x}{a}, \hspace{1zw} C_2:y=\sin^2\frac{x}{a}, \]
+\[ C_3:y=\cos^2\frac{x}{a+1}, \hspace{1zw} C_4:y=\sin^2\frac{x}{a+1} \]
+を考える．$p$を$C_1$と$C_2$の交点の$x$座標で最小な正の値とし，
+$q$を$C_3$と$C_4$の交点の$x$座標で最小な正の値とするとき，
+$p \leqq x \leqq q$の範囲でこの4曲線によって囲まれる図形の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1989/1989_3.pdf)

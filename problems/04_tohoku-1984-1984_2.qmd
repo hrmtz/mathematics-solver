@@ -1,0 +1,28 @@
+---
+title: "東北大学 1984年 1984_2"
+problem_id: "04_tohoku-1984-1984_2"
+university: "東北大学"
+exam_year: "1984"
+source_tex: "archive/04_tohoku/1984/1984_2.tex"
+pdf_source: "archive/04_tohoku/1984/1984_2.pdf"
+page_image: "archive/04_tohoku/1984/1984_2.jpg"
+fields:
+  - 数列
+  - 不等式
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　数列$\{ a_n \}$において，
+$a_n\geqq0$ $(n=1, \, 2, \, \cdots\cdots)$とし，
+$\displaystyle s_n=\sum_{k=1}^na_k$とおく．
+このとき，次の不等式を数学的帰納法を用いて証明せよ．
+\[ (1+a_1)(1+a_2)\cdots\cdots(1+a_n)\leqq1+s_n+\frac{{s_n}^2}{2 \, !}+\cdots\cdots+\frac{{s_n}^n}{n \, !} \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1984/1984_2.pdf)

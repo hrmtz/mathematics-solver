@@ -1,0 +1,32 @@
+---
+title: "北海道大学 1985年 1985_0_3"
+problem_id: "03_hokudai-1985-1985_0_3"
+university: "北海道大学"
+exam_year: "1985"
+source_tex: "archive/03_hokudai/1985/1985_0_3.tex"
+pdf_source: "archive/03_hokudai/1985/1985_0_3.pdf"
+page_image: "archive/03_hokudai/1985/1985_0_3.jpg"
+fields:
+  - 三角関数
+  - 数列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　数列$x_0, \, x_1, \, x_2, \, \cdots\cdots, \, x_n, \, \cdots\cdots$は
+$\sin3x_{n+1}=\sin x_n$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$を満たすとし，
+$a_n=\sin x_n$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$とおく．
+\begin{description}
+\item[(1)]$a_n$と$a_{n+1}$の間の関係式を求めよ．
+\item[(2)]$\displaystyle S_n=\sum_{k=1}^n 3^{k-1}{a_k}^3$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$とおく．
+すべての自然数$n$に対して，$\displaystyle S_n=\frac{3^n}{4}a_n-\frac{1}{4}a_0$が成り立つことを
+数学的帰納法で示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1985/1985_0_3.pdf)

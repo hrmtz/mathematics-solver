@@ -1,0 +1,30 @@
+---
+title: "東北大学 2002年 2002_0_b"
+problem_id: "04_tohoku-2002-2002_0_b"
+university: "東北大学"
+exam_year: "2002"
+source_tex: "archive/04_tohoku/2002/2002_0_b.tex"
+pdf_source: "archive/04_tohoku/2002/2002_0_b.pdf"
+page_image: "archive/04_tohoku/2002/2002_0_b.jpg"
+fields:
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\displaystyle\frac{1}{2}\leqq a \leqq2$とする．
+$xy$平面上の点$A(1, \, 0)$，$B(-1, \, 0)$，$C(-1, \, -1)$，$D(1, \, -1)$を頂点とする長方形のうち，
+放物線$2y=x^2-a$の下にある部分の面積を$S_1$，上にある部分の面積を$S_2$とする．
+\begin{description}
+\item[(1)]$S_1$を求めよ．
+\item[(2)]$a$が$\displaystyle\frac{1}{2}\leqq a \leqq2$を動くときの
+${S_1}^2+{S_2}^2$の最大値，最小値，およびそれらの値をとるときの$a$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2002/2002_0_b.pdf)

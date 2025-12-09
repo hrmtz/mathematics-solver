@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1970年 1970_1"
+problem_id: "03_hokudai-1970-1970_1"
+university: "北海道大学"
+exam_year: "1970"
+source_tex: "archive/03_hokudai/1970/1970_1.tex"
+pdf_source: "archive/03_hokudai/1970/1970_1.pdf"
+page_image: "archive/03_hokudai/1970/1970_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　放物線$2y=x^2-12x+33$が直線$y=mx+b$より切りとる弦の長さは，
+放物線$y=-x^2$がこの直線より切りとる弦の長さの2倍であるとき，
+次の問いに答えよ．
+\begin{description}
+\item[(1)]$m$の範囲を求めよ．
+\item[(2)]$b$を$m$で表わせ．
+\item[(3)]この直線は，$m$が(1)の範囲にあるときは，
+つねに定点$P$を通ることを証明し，
+$P$の座標を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1970/1970_1.pdf)

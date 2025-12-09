@@ -1,0 +1,29 @@
+---
+title: "京都大学 1976年 1976_4"
+problem_id: "02_kyoto-1976-1976_4"
+university: "京都大学"
+exam_year: "1976"
+source_tex: "archive/02_kyoto/1976/1976_4.tex"
+pdf_source: "archive/02_kyoto/1976/1976_4.pdf"
+page_image: "archive/02_kyoto/1976/1976_4.jpg"
+fields:
+  - 不等式
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　正の数列$a_n$ $(n=1,2,3,\cdots)$が
+不等式$\displaystyle {a_n}^3+3{a_n}^2- \left( 9+\frac{1}{n} \right) a_n+5<0$をみたしているとき，
+次の(i)，(ii)を証明せよ．ただし，(ii)を先に証明してもよい．
+\begin{description}
+\item[(i)]$\displaystyle\lim_{n\to\infty}a_n=1$
+\item[(ii)]$\displaystyle{(a_n-1)}^2<\frac{1}{4n}$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1976/1976_4.pdf)

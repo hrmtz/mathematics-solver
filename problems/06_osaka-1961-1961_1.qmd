@@ -1,0 +1,37 @@
+---
+title: "大阪大学 1961年 1961_1"
+problem_id: "06_osaka-1961-1961_1"
+university: "大阪大学"
+exam_year: "1961"
+source_tex: "archive/06_osaka/1961/1961_1.tex"
+pdf_source: "archive/06_osaka/1961/1961_1.pdf"
+page_image: "archive/06_osaka/1961/1961_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の(1)，(2)，(3)をこの順に解け．
+\begin{description}
+\item[(1)]角$AOB$の辺$OA$上に異なる3点$X_1$，$X_2$，$X_3$
+辺$OB$上に3点$Y_1$，$Y_2$，$Y_3$をとって，
+\[ OX_1+OY_1=OX_2+OY_2=OX_3+OY_3 \]
+のようにすれば，
+$\triangle OX_1Y_1$，$\triangle OX_2Y_2$，$\triangle OX_3Y_3$の面積が
+全部同じであることはない。
+これを証明せよ。
+\item[(2)]四辺形$ABCD$の辺$AD$，$BC$上にそれぞれ点$X$，$Y$をとって，
+折線$XABY$の長さがこの四辺形の周の半分に等しくなるようにすれば，
+$X$，$Y$を結ぶ線分$XY$はつねに四辺形の面積を2等分するという。
+このとき辺$AD$，$BC$は互いに平行であることを証明せよ。
+\item[(3)](2)の四辺形$ABCD$はどんな四辺形か。
+その形を決定せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1961/1961_1.pdf)

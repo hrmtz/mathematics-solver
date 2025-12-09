@@ -1,0 +1,24 @@
+---
+title: "名古屋大学 1984年 1984_3a"
+problem_id: "05_nagoya-1984-1984_3a"
+university: "名古屋大学"
+exam_year: "1984"
+source_tex: "archive/05_nagoya/1984/1984_3a.tex"
+pdf_source: "archive/05_nagoya/1984/1984_3a.pdf"
+page_image: "archive/05_nagoya/1984/1984_3a.jpg"
+fields:
+  - 指数・対数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3 (a)
+　方程式$\log x=-x^2+3x+p$が3個の相異なる実数解をもつための$p$の範囲を求めよ．
+ただし，$\log 2=0.6931\cdots\cdots$．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1984/1984_3a.pdf)

@@ -1,0 +1,33 @@
+---
+title: "東北大学 1962年 1962_1"
+problem_id: "04_tohoku-1962-1962_1"
+university: "東北大学"
+exam_year: "1962"
+source_tex: "archive/04_tohoku/1962/1962_1.tex"
+pdf_source: "archive/04_tohoku/1962/1962_1.pdf"
+page_image: "archive/04_tohoku/1962/1962_1.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の2小問に答えよ。
+\begin{description}
+\item[(1)]$a$，$b$，$c$，$d$は正の実数で$a \geqq b \geqq c+d$とするとき，
+$ad+bc$と$ab$との大小を調べよ。
+\item[(2)]$a$を正の定数とする。
+$y$軸上の定点$A(0, \, a)$および$x$軸上に動点$P(p, \, 0)$をとる。
+$P$を通る$AP$の垂線が$y$軸と交わる点を$Q$とし，
+$P$に関する$Q$の対称点を$R$とする。
+点$P$が$x$軸上を動くとき，$R$はどんな曲線をえがくか。
+その方程式を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1962/1962_1.pdf)

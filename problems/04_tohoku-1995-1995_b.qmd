@@ -1,0 +1,23 @@
+---
+title: "東北大学 1995年 1995_b"
+problem_id: "04_tohoku-1995-1995_b"
+university: "東北大学"
+exam_year: "1995"
+source_tex: "archive/04_tohoku/1995/1995_b.tex"
+pdf_source: "archive/04_tohoku/1995/1995_b.pdf"
+page_image: "archive/04_tohoku/1995/1995_b.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　2つの不等式$3x^2+y^2\leqq3$，$y \geqq x-1$を同時に満たす$xy$の平面の領域の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_b.pdf)

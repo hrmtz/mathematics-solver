@@ -1,0 +1,309 @@
+## 解答
+
+(1)  
+$t=\sin\theta-\cos\theta$ とおくと，
+$$
+t^2=(\sin\theta-\cos\theta)^2
+=\sin^2\theta+\cos^2\theta-2\sin\theta\cos\theta
+=1-\sin2\theta
+$$
+より
+$$
+\sin2\theta=1-t^2
+$$
+となる。
+
+したがって
+$$
+f(\theta)=\frac{1}{\sqrt2}\sin2\theta-\sin\theta+\cos\theta
+=\frac{1}{\sqrt2}(1-t^2)-t
+$$
+であるから，
+$$
+f(\theta)=-\frac{1}{\sqrt2}t^2-t+\frac{1}{\sqrt2}
+$$
+と表される。
+
+(2)  
+(1) の結果を用いる。  
+まず $t=\sin\theta-\cos\theta$ の取り得る範囲を求める。恒等式
+$$
+(\sin\theta-\cos\theta)^2
+=\sin^2\theta+\cos^2\theta-2\sin\theta\cos\theta
+=1-\sin2\theta
+$$
+と $0\le\theta\le\pi$ では $\sin2\theta$ の範囲が $0\le\sin2\theta\le1$ であることから，
+$$
+0\le t^2\le1
+$$
+すなわち
+$$
+-1\le t\le1
+$$
+となる。
+
+(1) より
+$$
+f(t)=-\frac{1}{\sqrt2}t^2-t+\frac{1}{\sqrt2}
+$$
+は $t$ の2次関数であり，係数 $-\frac{1}{\sqrt2}<0$ なので下に凸な放物線である。  
+よって，閉区間 $-1\le t\le1$ 上で最大値は頂点で，最小値は端点 $t=-1,1$ のうちのどちらかでとる。
+
+頂点の $t$ 座標は
+$$
+t=-\frac{b}{2a}
+=-\frac{-1}{2\cdot\left(-\frac{1}{\sqrt2}\right)}
+=-\frac{\sqrt2}{2}
+$$
+であり，これは $-1\le t\le1$ を満たすので，この点で最大値をとる。
+
+$t=-\dfrac{\sqrt2}{2}$ のとき
+$$
+f\!\left(-\frac{\sqrt2}{2}\right)
+=-\frac{1}{\sqrt2}\left(-\frac{\sqrt2}{2}\right)^2
+-\left(-\frac{\sqrt2}{2}\right)
++\frac{1}{\sqrt2}
+$$
+$$
+=-\frac{1}{\sqrt2}\cdot\frac12+\frac{\sqrt2}{2}+\frac{1}{\sqrt2}
+=-\frac{1}{2\sqrt2}+\frac{\sqrt2}{2}+\frac{1}{\sqrt2}
+$$
+$$
+=-\frac{1}{2\sqrt2}+\frac{\sqrt2}{2}+\frac{2}{2\sqrt2}
+=\frac{1}{2\sqrt2}+\frac{\sqrt2}{2}
+=\frac{\sqrt2}{4}+\frac{\sqrt2}{2}
+=\frac{3\sqrt2}{4}
+$$
+となる。よって最大値は $\dfrac{3\sqrt2}{4}$ である。
+
+次に端点での値を求める。
+$$
+f(-1)=-\frac{1}{\sqrt2}(-1)^2-(-1)+\frac{1}{\sqrt2}
+=-\frac{1}{\sqrt2}+1+\frac{1}{\sqrt2}=1
+$$
+$$
+f(1)=-\frac{1}{\sqrt2}(1)^2-1+\frac{1}{\sqrt2}
+=-\frac{1}{\sqrt2}-1+\frac{1}{\sqrt2}=-1
+$$
+ゆえに $-1\le t\le1$ 上での最小値は $-1$ である。
+
+次に，それぞれの値をとる $\theta$ を求める。
+
+まず最大値 $f(\theta)=\dfrac{3\sqrt2}{4}$ は $t=-\dfrac{\sqrt2}{2}$ すなわち
+$$
+\sin\theta-\cos\theta=-\frac{\sqrt2}{2}
+$$
+のときにとる。このとき
+$$
+\sin\theta-\cos\theta
+=\sqrt2\sin\!\left(\theta-\frac{\pi}{4}\right)
+$$
+であるから，
+$$
+\sqrt2\sin\!\left(\theta-\frac{\pi}{4}\right)
+=-\frac{\sqrt2}{2}
+$$
+すなわち
+$$
+\sin\!\left(\theta-\frac{\pi}{4}\right)
+=-\frac12
+$$
+となる。$0\le\theta\le\pi$ なので
+$$
+-\frac{\pi}{4}\le\theta-\frac{\pi}{4}\le\frac{3\pi}{4}
+$$
+となる区間で $\sin(\cdot)=-\frac12$ を満たす角は
+$$
+\theta-\frac{\pi}{4}=-\frac{\pi}{6}
+$$
+のみである。したがって
+$$
+\theta=\frac{\pi}{4}-\frac{\pi}{6}=\frac{\pi}{12}
+$$
+が求める値である。
+
+次に最小値 $f(\theta)=-1$ について，$t=1$ のときにとるので
+$$
+\sin\theta-\cos\theta=1
+$$
+すなわち
+$$
+\sqrt2\sin\!\left(\theta-\frac{\pi}{4}\right)=1
+$$
+より
+$$
+\sin\!\left(\theta-\frac{\pi}{4}\right)=\frac{1}{\sqrt2}
+$$
+となる。$0\le\theta\le\pi$ では
+$$
+-\frac{\pi}{4}\le\theta-\frac{\pi}{4}\le\frac{3\pi}{4}
+$$
+であり，この範囲で $\sin x=\frac{1}{\sqrt2}$ を満たすのは $x=\dfrac{\pi}{4}$ のみだから，
+$$
+\theta-\frac{\pi}{4}=\frac{\pi}{4}
+$$
+すなわち
+$$
+\theta=\frac{\pi}{2}
+$$
+である。
+
+以上より，
+$$
+\text{最大値 } \frac{3\sqrt2}{4} \text{ は } \theta=\frac{\pi}{12} \text{ のとき，}
+$$
+$$
+\text{最小値 } -1 \text{ は } \theta=\frac{\pi}{2} \text{ のときにとる。}
+$$
+
+(3)  
+$f(\theta)=a$ となる $\theta$ がちょうど 2 個であるような $a$ の範囲を求める。
+
+(1) より $t=\sin\theta-\cos\theta$ とおくと
+$$
+f(\theta)=a \quad\Longleftrightarrow\quad
+-\frac{1}{\sqrt2}t^2-t+\frac{1}{\sqrt2}=a
+$$
+すなわち
+$$
+-\frac{1}{\sqrt2}t^2-t+\left(\frac{1}{\sqrt2}-a\right)=0
+$$
+となる。ただし $t$ は $-1\le t\le1$ を満たす必要がある。
+
+この $t$ に関する2次方程式は，実数全体に対しては $a$ の値に応じて 0,1,2 個の解をもつが，ここではそのうち区間 $-1\le t\le1$ に入る解だけが $\theta$ に対応する。さらに，$0\le\theta\le\pi$ における $\sin\theta-\cos\theta$ は単調増加であることを示しておく。
+
+$$
+g(\theta)=\sin\theta-\cos\theta
+$$
+とおくと
+$$
+g'(\theta)=\cos\theta+\sin\theta
+=\sqrt2\sin\!\left(\theta+\frac{\pi}{4}\right)
+$$
+となる。$0\le\theta\le\pi$ では
+$$
+\frac{\pi}{4}\le\theta+\frac{\pi}{4}\le\frac{5\pi}{4}
+$$
+となるが，$\sin x$ は $x=\pi$ を境に符号が変わり，$0\le x\le\pi$ で非負，$\pi\le x\le2\pi$ で非正である。したがって $0\le\theta\le\pi$ のうち
+$$
+0\le\theta\le\frac{3\pi}{4}\quad\text{では }g'(\theta)\ge0,
+\qquad
+\frac{3\pi}{4}\le\theta\le\pi\quad\text{では }g'(\theta)\le0
+$$
+となる。よって $g(\theta)$ は一様単調ではない。このままでは $t$ と $\theta$ が 1 対 1 とは限らない。
+
+そこで，(2) で求めた $\theta$ と $t$ の対応を用いて，区間全体を分けて考える。
+
+(2) より $f(\theta)$ の最小値は $-1$，最大値は $\dfrac{3\sqrt2}{4}$ であるから，
+$$
+-1\le f(\theta)\le\frac{3\sqrt2}{4}
+$$
+であり，この範囲外の $a$ については解が存在しない。
+
+また $f(\theta)$ は連続関数であるから，この間の各値を少なくとも1回はとる。そこで $f(\theta)=a$ の解の個数の変化を調べるために，$f(\theta)$ の増減を解析する。
+
+元の形で微分すると
+$$
+f(\theta)=\frac{1}{\sqrt2}\sin2\theta-\sin\theta+\cos\theta
+$$
+より
+$$
+f'(\theta)=\frac{1}{\sqrt2}\cdot2\cos2\theta-\cos\theta-\sin\theta
+=\sqrt2\cos2\theta-(\cos\theta+\sin\theta)
+$$
+ここで
+$$
+\cos2\theta=\cos^2\theta-\sin^2\theta,\quad
+\cos\theta+\sin\theta=\sqrt2\cos\!\left(\theta-\frac{\pi}{4}\right)
+$$
+などを用いてもよいが，$\cos\theta$ と $\sin\theta$ を $t$ で表す方が見通しがよい。
+
+$t=\sin\theta-\cos\theta$ とおくと
+$$
+(\sin\theta-\cos\theta)^2=t^2
+\quad\Longleftrightarrow\quad
+1-\sin2\theta=t^2
+$$
+より $\sin2\theta=1-t^2$，また
+$$
+\cos\theta+\sin\theta=\sqrt2\cos\!\left(\theta-\frac{\pi}{4}\right)
+$$
+と
+$$
+\sin\theta-\cos\theta=\sqrt2\sin\!\left(\theta-\frac{\pi}{4}\right)=t
+$$
+から，
+$$
+(\cos\theta+\sin\theta)^2+(\sin\theta-\cos\theta)^2
+=2
+$$
+すなわち
+$$
+(\cos\theta+\sin\theta)^2+ t^2=2
+$$
+なので
+$$
+\cos\theta+\sin\theta=\pm\sqrt{2-t^2}
+$$
+となる。$0\le\theta\le\pi$ 全体で符号が変わり得るので，符号を固定して議論するのは複雑になる。  
+
+そこで別の方針をとる。$t$ を用いた形
+$$
+f(t)=-\frac{1}{\sqrt2}t^2-t+\frac{1}{\sqrt2}
+$$
+は $t$ の2次関数であり，グラフは下に凸の放物線である。この放物線と，$t$ の取り得る範囲 $-1\le t\le1$ との関係を図形的に考えればよい。
+
+$f(t)=a$ は
+$$
+-\frac{1}{\sqrt2}t^2-t+\frac{1}{\sqrt2}=a
+$$
+すなわち
+$$
+-\frac{1}{\sqrt2}t^2-t+\left(\frac{1}{\sqrt2}-a\right)=0
+$$
+であり，$t$ に関する2次方程式である。この2次方程式の判別式を $D$ とすると，
+$$
+a=-\frac{1}{\sqrt2},\ b=-1,\ c=\frac{1}{\sqrt2}-a
+$$
+なので
+$$
+D=b^2-4ac
+=1-4\left(-\frac{1}{\sqrt2}\right)\left(\frac{1}{\sqrt2}-a\right)
+$$
+$$
+=1+4\cdot\frac{1}{\sqrt2}\left(\frac{1}{\sqrt2}-a\right)
+=1+4\left(\frac{1}{2}-\frac{a}{\sqrt2}\right)
+=1+2-\frac{4a}{\sqrt2}
+=3-2\sqrt2\,a
+$$
+となる。
+
+この方程式が実数解をもつためには $D\ge0$，すなわち
+$$
+3-2\sqrt2\,a\ge0
+\Longleftrightarrow
+a\le\frac{3}{2\sqrt2}=\frac{3\sqrt2}{4}
+$$
+となる。一方，(2) より $f(\theta)$ の最小値は $-1$ であるから，$a<-1$ では解が存在しない。したがって
+$$
+-1\le a\le\frac{3\sqrt2}{4}
+$$
+の範囲でのみ解が存在しうることがわかる。
+
+さらに，$f(t)$ のグラフと直線 $y=a$ の交点の個数を，$t$ の範囲 $-1\le t\le1$ に限定して考える。$f(t)$ のグラフは $t=-\dfrac{\sqrt2}{2}$ で最大値 $\dfrac{3\sqrt2}{4}$ をとり，$t=-1$ で $f(-1)=1$，$t=1$ で $f(1)=-1$ である。よって
+
+- $a=\dfrac{3\sqrt2}{4}$ のとき：頂点 $t=-\dfrac{\sqrt2}{2}$ でただ1つの解。
+- $-1<a<\dfrac{3\sqrt2}{4}$ のとき：放物線は $y=a$ と 2 点で交わる。ただしそれらの $t$ はいずれも $-1<t<1$ にあるので，対応する $\theta$ も 2 個存在する。
+- $a=-1$ のとき：$y=-1$ は $t=1$ で放物線と接する（$t=1$ が2重解）ので，$t$ の解は 1 個である。
+
+したがって，$f(\theta)=a$ となる $\theta$ がちょうど 2 個であるためには
+$$
+-1<a<\frac{3\sqrt2}{4}
+$$
+であればよい。
+
+よって，求める $a$ の範囲は
+$$
+-1<a<\frac{3\sqrt2}{4}
+$$
+である。

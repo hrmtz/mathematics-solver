@@ -1,0 +1,27 @@
+---
+title: "東北大学 1982年 1982_0_2"
+problem_id: "04_tohoku-1982-1982_0_2"
+university: "東北大学"
+exam_year: "1982"
+source_tex: "archive/04_tohoku/1982/1982_0_2.tex"
+pdf_source: "archive/04_tohoku/1982/1982_0_2.pdf"
+page_image: "archive/04_tohoku/1982/1982_0_2.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　${(a+b+c+d)}^7$の展開式について，次の問に答えよ．
+\begin{description}
+\item[(1)]$p$，$q$，$r$，$s$が$p+q+r+s=7$を満たす負でない整数であるとき，
+項$a^pb^qc^rd^s$の係数を求めよ．
+\item[(2)]係数の最大値を求めよ．またそのときの$p$，$q$，$r$，$s$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1982/1982_0_2.pdf)

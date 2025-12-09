@@ -1,0 +1,23 @@
+---
+title: "京都大学 2011年 2011_6"
+problem_id: "02_kyoto-2011-2011_6"
+university: "京都大学"
+exam_year: "2011"
+source_tex: "archive/02_kyoto/2011/2011_6.tex"
+pdf_source: "archive/02_kyoto/2011/2011_6.pdf"
+page_image: "archive/02_kyoto/2011/2011_6.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　空間内に四面体$ABCD$を考える．
+このとき，4つの頂点$A$，$B$，$C$，$D$を同時に通る球面が存在することを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2011/2011_6.pdf)

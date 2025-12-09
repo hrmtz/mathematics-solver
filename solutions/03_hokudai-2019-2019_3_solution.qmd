@@ -1,0 +1,180 @@
+## 解答
+
+(1)  
+関数  
+$$
+f(x)=\frac{x+t}{x(1-tx)}
+$$
+は $x=0,\ \dfrac1t$ を除くすべての実数で定義されている。極値を調べるため，まず微分する。
+
+分子を $u=x+t$，分母を $v=x(1-tx)$ とおくと，  
+$u'=1,\ v'=1-2tx$ であるから，商の微分法より
+$$
+f'(x)=\frac{u'v-uv'}{v^2}
+=\frac{(1)\cdot x(1-tx)-(x+t)(1-2tx)}{\{x(1-tx)\}^2}
+$$
+となる。分子を計算する。
+\[
+x(1-tx)=x-tx^2,
+\]
+\[
+(x+t)(1-2tx)=x+t-2tx^2-2t^2x.
+\]
+したがって分子は
+\begin{align*}
+x(1-tx)-(x+t)(1-2tx)
+&=(x-tx^2)-(x+t-2tx^2-2t^2x)\\
+&=x-tx^2-x-t+2tx^2+2t^2x\\
+&=tx^2+2t^2x-t\\
+&=t(x^2+2tx-1).
+\end{align*}
+よって
+$$
+f'(x)=\frac{t(x^2+2tx-1)}{\{x(1-tx)\}^2}
+$$
+となる。ここで $0<t<1$ より $t>0$，また定義域では $x(1-tx)\neq 0$ なので分母は常に正である。したがって $f'(x)$ の符号は分子 $x^2+2tx-1$ の符号と一致する。
+
+方程式
+$$
+x^2+2tx-1=0
+$$
+の判別式は
+$$
+D=(2t)^2-4\cdot1\cdot(-1)=4t^2+4=4(t^2+1)>0
+$$
+であるから，実数解を 2 つもつ。その解を $\alpha,\beta$ とすると
+$$
+\alpha,\beta=-t\pm\sqrt{t^2+1}
+$$
+であり，特に
+$$
+\alpha=-t-\sqrt{t^2+1}<\beta=-t+\sqrt{t^2+1}
+$$
+である。
+
+二次式 $x^2+2tx-1$ は上に凸なので，$x$ が $\alpha$ から $\beta$ の間で負，それ以外で正となる。したがって $f'(x)$ の符号変化は
+$$
+x<\alpha:\ f'(x)>0,\quad
+\alpha<x<\beta:\ f'(x)<0,\quad
+x>\beta:\ f'(x)>0
+$$
+となる。ただし $x=0,\dfrac1t$ は定義域外なので，そこではそもそも考えない。
+
+よって $x=\alpha$ で増加から減少に変わり極大値をとり，$x=\beta$ で減少から増加に変わり極小値をとる。  
+このように $f(x)$ は極大値と極小値を 1 つずつもつ。
+
+\medskip
+
+(2)  
+(1) で求めたように
+$$
+\alpha=-t-\sqrt{t^2+1},\quad
+\beta=-t+\sqrt{t^2+1}
+$$
+である。点 $P,Q$ の座標は
+$$
+P(\alpha,f(\alpha)),\quad Q(\beta,f(\beta))
+$$
+であり，線分 $PQ$ の中点 $M$ の座標を $(X,Y)$ とおくと
+$$
+X=\frac{\alpha+\beta}{2},\quad
+Y=\frac{f(\alpha)+f(\beta)}{2}
+$$
+である。
+
+まず $X$ を求める。
+$$
+\alpha+\beta=(-t-\sqrt{t^2+1})+(-t+\sqrt{t^2+1})=-2t
+$$
+したがって
+$$
+X=\frac{\alpha+\beta}{2}=-t.
+$$
+
+次に $f(\alpha),f(\beta)$ を求める。$f(x)$ を部分分数分解するとよい。  
+定数 $A,B,C$ を用いて
+$$
+f(x)=\frac{x+t}{x(1-tx)}=\frac{A}{x}+\frac{B}{1-tx}
+$$
+とおくと
+$$
+\frac{x+t}{x(1-tx)}=\frac{A(1-tx)+Bx}{x(1-tx)}
+=\frac{A+(-At+B)x}{x(1-tx)}
+$$
+であるから，分子の係数比較より
+$$
+A=t,\quad -At+B=1 \quad\Rightarrow\quad -t^2+B=1 \Rightarrow B=1+t^2.
+$$
+したがって
+$$
+f(x)=\frac{t}{x}+\frac{1+t^2}{1-tx}
+$$
+である。
+
+これを $\alpha,\beta$ に代入する。まず
+$$
+\alpha\beta=-1,\quad \alpha+\beta=-2t
+$$
+が成り立つ（二次方程式の解と係数の関係より）。  
+したがって
+$$
+\frac1\alpha+\frac1\beta=\frac{\alpha+\beta}{\alpha\beta}=\frac{-2t}{-1}=2t,
+$$
+また
+$$
+1-t\alpha,\ 1-t\beta
+$$
+については
+\begin{align*}
+(1-t\alpha)(1-t\beta)
+&=1-t(\alpha+\beta)+t^2\alpha\beta\\
+&=1-t(-2t)+t^2(-1)\\
+&=1+2t^2-t^2\\
+&=1+t^2.
+\end{align*}
+よって
+$$
+\frac{1}{1-t\alpha}+\frac{1}{1-t\beta}
+=\frac{(1-t\beta)+(1-t\alpha)}{(1-t\alpha)(1-t\beta)}
+=\frac{2-t(\alpha+\beta)}{1+t^2}
+=\frac{2- t(-2t)}{1+t^2}
+=\frac{2+2t^2}{1+t^2}=2.
+$$
+
+以上を用いると
+\begin{align*}
+f(\alpha)+f(\beta)
+&=\left(\frac{t}{\alpha}+\frac{1+t^2}{1-t\alpha}\right)
+ +\left(\frac{t}{\beta}+\frac{1+t^2}{1-t\beta}\right)\\
+&=t\left(\frac1\alpha+\frac1\beta\right)
+ +(1+t^2)\left(\frac{1}{1-t\alpha}+\frac{1}{1-t\beta}\right)\\
+&=t\cdot 2t+(1+t^2)\cdot 2\\
+&=2t^2+2+2t^2\\
+&=2(1+2t^2).
+\end{align*}
+したがって
+$$
+Y=\frac{f(\alpha)+f(\beta)}{2}=1+2t^2.
+$$
+
+よって中点 $M$ の座標は
+$$
+M\,(X,Y)=(-t,\ 1+2t^2)
+$$
+となる。
+
+ここで $0<t<1$ より $X=-t$ は $-1<X<0$ を動く。$t=-X$ とおくと $0<-X<1$ すなわち $-1<X<0$ の範囲で
+$$
+Y=1+2t^2=1+2(-X)^2=1+2X^2
+$$
+となる。したがって $M$ の軌跡は
+$$
+Y=1+2X^2
+$$
+という放物線のうち，$-1<X<0$ を満たす部分である。  
+
+ただし，問題の記述に合わせて $(x,y)$ を用いれば，軌跡は
+$$
+y=1+2x^2\quad(-1<x<0)
+$$
+である。

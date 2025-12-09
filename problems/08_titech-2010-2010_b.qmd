@@ -1,0 +1,33 @@
+---
+title: "東京科学大学 2010年 2010_b"
+problem_id: "08_titech-2010-2010_b"
+university: "東京科学大学"
+exam_year: "2010"
+source_tex: "archive/08_titech/2010/2010_b.tex"
+pdf_source: "archive/08_titech/2010/2010_b.pdf"
+page_image: "archive/08_titech/2010/2010_b.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　座標平面上で$y={(\log x)}^2$ $(x>0)$の表す曲線を$C$とし，$\alpha>0$に対し，
+点$( \alpha, {(\log\alpha)}^2 )$における$C$の接線を$L(\alpha)$で表す．
+\begin{description}
+\item[(1)]$C$のグラフの概形を描け．
+\item[(2)]$C$と$L(\alpha)$との共通点の個数を$n(\alpha)$とする．
+$n(\alpha)$を求めよ．
+\item[(3)]$0<\alpha<1$とし，
+$C$と$L(\alpha)$および$x$軸とで囲まれる領域の面積を$S(\alpha)$とする．
+$S(\alpha)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2010/2010_b.pdf)

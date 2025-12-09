@@ -1,0 +1,29 @@
+---
+title: "東京大学 2017年 2017_3"
+problem_id: "01_tokyo-2017-2017_3"
+university: "東京大学"
+exam_year: "2017"
+source_tex: "archive/01_tokyo/2017/2017_3.tex"
+pdf_source: "archive/01_tokyo/2017/2017_3.pdf"
+page_image: "archive/01_tokyo/2017/2017_3.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　複素数平面上の原点以外の点$z$に対して，$\displaystyle w=\frac{1}{z}$とする。
+\begin{description}
+\item[(1)]$\alpha$を0でない複素数とし，点$\alpha$と原点$O$を結ぶ線分の垂直二等分線を$L$とする。
+点$z$が直線$L$上を動くとき，点$w$の軌跡は円から1点を除いたものになる。
+この円の中心と半径を求めよ。
+\item[(2)]1の3乗根のうち，虚部が正であるものを$\beta$とする。
+点$\beta$と点$\beta^2$を結ぶ線分上を点$z$が動くときの点$w$の軌跡を求め，複素数平面上に図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2017/2017_3.pdf)

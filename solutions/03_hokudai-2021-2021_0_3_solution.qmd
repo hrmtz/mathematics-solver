@@ -1,0 +1,169 @@
+## 解答
+
+(1)  
+$t=\sin\left(x+\dfrac{\pi}{6}\right)$ とおく。
+
+まず $x+\dfrac{2\pi}{3}$ を $x+\dfrac{\pi}{6}$ を用いて表す。  
+$$
+x+\frac{2\pi}{3}
+= x+\frac{\pi}{6}+\frac{2\pi}{3}-\frac{\pi}{6}
+= x+\frac{\pi}{6}+\frac{\pi}{2}
+$$
+であるから，
+$$
+\sin\left(x+\frac{2\pi}{3}\right)
+= \sin\left\{\left(x+\frac{\pi}{6}\right)+\frac{\pi}{2}\right\}
+= \sin\left(x+\frac{\pi}{6}\right)\cos\frac{\pi}{2}
+ +\cos\left(x+\frac{\pi}{6}\right)\sin\frac{\pi}{2}
+= \cos\left(x+\frac{\pi}{6}\right)
+$$
+となる。よって，
+$$
+\sin^2\left(x+\frac{2\pi}{3}\right)
+= \cos^2\left(x+\frac{\pi}{6}\right)
+= 1-\sin^2\left(x+\frac{\pi}{6}\right)
+= 1-t^2.
+$$
+
+次に $\cos\left(2x+\dfrac{\pi}{3}\right)$ を $t$ で表す。  
+$$
+2x+\frac{\pi}{3}
+= 2\left(x+\frac{\pi}{6}\right)
+$$
+であるから，2倍角の公式より
+$$
+\cos\left(2x+\frac{\pi}{3}\right)
+= \cos\Bigl(2\left(x+\frac{\pi}{6}\right)\Bigr)
+= 1-2\sin^2\left(x+\frac{\pi}{6}\right)
+= 1-2t^2.
+$$
+
+したがって，
+$$
+\sin^2\left(x+\frac{2\pi}{3}\right)=1-t^2,\quad
+\cos\left(2x+\frac{\pi}{3}\right)=1-2t^2
+$$
+である。
+
+(2)  
+(1)の結果を用いて $f(x)$ を $t$ の式に書き換える。  
+$$
+f(x)
+= \sqrt3\sin\left(x+\frac{\pi}{6}\right)
+ +2\sin^2\left(x+\frac{2\pi}{3}\right)
+ +4\cos\left(2x+\frac{\pi}{3}\right)
+$$
+において，
+$$
+t=\sin\left(x+\frac{\pi}{6}\right),\quad
+\sin^2\left(x+\frac{2\pi}{3}\right)=1-t^2,\quad
+\cos\left(2x+\frac{\pi}{3}\right)=1-2t^2
+$$
+を代入すると，
+$$
+\begin{aligned}
+f(x)
+&= \sqrt3\,t + 2(1-t^2) + 4(1-2t^2)\\
+&= \sqrt3\,t +2-2t^2+4-8t^2\\
+&= -10t^2+\sqrt3\,t+6
+\end{aligned}
+$$
+となる。したがって，方程式 $f(x)=0$ は
+$$
+-10t^2+\sqrt3\,t+6=0
+$$
+と同値である。両辺に $-1$ をかけて
+$$
+10t^2-\sqrt3\,t-6=0
+$$
+を解く。判別式は
+$$
+D =(-\sqrt3)^2-4\cdot10\cdot(-6)
+=3+240=243
+$$
+であり，
+$$
+\sqrt{243}=\sqrt{3^5}=9\sqrt3
+$$
+だから，
+$$
+t=\frac{\sqrt3\pm 9\sqrt3}{2\cdot10}
+= \frac{\sqrt3(1\pm 9)}{20}
+$$
+となる。よって
+$$
+t=\frac{\sqrt3}{2},\quad t=-\frac{2\sqrt3}{5}
+$$
+を得る。
+
+ここで $t=\sin\left(x+\dfrac{\pi}{6}\right)$ であるから，  
+$f(x)=0$ は
+$$
+\sin\left(x+\frac{\pi}{6}\right)=\frac{\sqrt3}{2}
+\quad\text{または}\quad
+\sin\left(x+\frac{\pi}{6}\right)=-\frac{2\sqrt3}{5}
+$$
+に帰着する。
+
+ただし，$0\le x\le\pi$ の範囲が与えられているので，
+$$
+0\le x\le\pi
+\;\Longrightarrow\;
+\frac{\pi}{6}\le x+\frac{\pi}{6}\le\frac{7\pi}{6}
+$$
+であり，角度 $\theta=x+\dfrac{\pi}{6}$ は区間
+$$
+\frac{\pi}{6}\le\theta\le\frac{7\pi}{6}
+$$
+を動く。
+
+まず
+$$
+\sin\theta=\frac{\sqrt3}{2}
+$$
+を上の範囲で解く。$\sin\theta=\dfrac{\sqrt3}{2}$ の一般解は
+$$
+\theta=\frac{\pi}{3}+2k\pi,\quad
+\theta=\frac{2\pi}{3}+2k\pi\quad(k\in\mathbb{Z})
+$$
+であるが，$\dfrac{\pi}{6}\le\theta\le\dfrac{7\pi}{6}$ を満たすものは
+$$
+\theta=\frac{\pi}{3},\quad\theta=\frac{2\pi}{3}
+$$
+だけである。従って，
+$$
+x+\frac{\pi}{6}=\frac{\pi}{3},\ \frac{2\pi}{3}
+$$
+より
+$$
+x=\frac{\pi}{6},\ \frac{\pi}{2}
+$$
+を得る。
+
+次に
+$$
+\sin\theta=-\frac{2\sqrt3}{5}
+$$
+を同じ範囲で調べる。  
+$\theta$ の範囲 $\dfrac{\pi}{6}\le\theta\le\dfrac{7\pi}{6}$ は第1象限の途中から第3象限の途中までである。  
+$\sin\theta$ は
+- 第1象限（$0<\theta<\dfrac{\pi}{2}$）では正，
+- 第2象限（$\dfrac{\pi}{2}<\theta<\pi$）でも正，
+- 第3象限（$\pi<\theta<\dfrac{3\pi}{2}$）で負
+
+となる。$\theta\in\left[\dfrac{\pi}{6},\dfrac{7\pi}{6}\right]$ で負になるのは $\theta\in(\pi,\dfrac{7\pi}{6}]$ の部分であるが，この区間に対して $\sin\theta$ は
+$$
+\sin\pi=0,\quad \sin\frac{7\pi}{6}=-\frac12
+$$
+と単調減少し，値域は $[-\frac12,0]$ となる。  
+一方 $-\dfrac{2\sqrt3}{5}\approx -0.69$ であり，これは $-\dfrac12$ より小さい。したがって
+$$
+\sin\theta=-\frac{2\sqrt3}{5}
+$$
+を満たす $\theta$ は，上記の範囲 $\left[\dfrac{\pi}{6},\dfrac{7\pi}{6}\right]$ には存在しない。
+
+以上より，$0\le x\le\pi$ で $f(x)=0$ を満たす解は
+$$
+x=\frac{\pi}{6},\ \frac{\pi}{2}
+$$
+の2つである。

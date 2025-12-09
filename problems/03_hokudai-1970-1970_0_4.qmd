@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1970年 1970_0_4"
+problem_id: "03_hokudai-1970-1970_0_4"
+university: "北海道大学"
+exam_year: "1970"
+source_tex: "archive/03_hokudai/1970/1970_0_4.tex"
+pdf_source: "archive/03_hokudai/1970/1970_0_4.pdf"
+page_image: "archive/03_hokudai/1970/1970_0_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　2点$\displaystyle A \left( 1, \, \frac{\sin\theta}{1+\cos\theta} \right)$，
+$\displaystyle B \left( -1, \, \frac{\sin\theta}{1-\cos\theta} \right)$を通り，
+$x$軸を準線とする放物線がある．
+\begin{description}
+\item[(1)]焦点の座標を$\theta$で表わせ．
+\item[(2)]放物線の方程式を求めよ．
+\item[(3)]$\theta$が変化するとき頂点の軌跡を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1970/1970_0_4.pdf)

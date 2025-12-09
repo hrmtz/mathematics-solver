@@ -1,0 +1,36 @@
+---
+title: "東北大学 1992年 1992_1"
+problem_id: "04_tohoku-1992-1992_1"
+university: "東北大学"
+exam_year: "1992"
+source_tex: "archive/04_tohoku/1992/1992_1.tex"
+pdf_source: "archive/04_tohoku/1992/1992_1.pdf"
+page_image: "archive/04_tohoku/1992/1992_1.jpg"
+fields:
+  - 行列
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$，
+$B=\begin{pmatrix} a & c 
+
+ b & d \end{pmatrix}$について，
+次の問に答えよ．
+\begin{description}
+\item[(1)]等式$AB=BA$が成り立つとき，$A$の成分の間にはどのような関係があるか．
+\item[(2)]$\displaystyle a=\frac{3}{5}$のとき
+$AB=BA=\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}$を満たす行列$A$をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_1.pdf)

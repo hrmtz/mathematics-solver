@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1996年 1996_a"
+problem_id: "03_hokudai-1996-1996_a"
+university: "北海道大学"
+exam_year: "1996"
+source_tex: "archive/03_hokudai/1996/1996_a.tex"
+pdf_source: "archive/03_hokudai/1996/1996_a.pdf"
+page_image: "archive/03_hokudai/1996/1996_a.jpg"
+fields:
+  - 指数・対数
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　範囲$x\geqq0$で定義された関数$f(x)$が$\displaystyle\lim_{x\to\infty}\frac{f(x)}{x}=1$を満たすとき，
+次の問に答えよ．
+\begin{description}
+\item[(1)]$\displaystyle e^x\geqq1+x+\frac{x^2}{2}$ $(x\geqq0)$を示せ．
+\item[(2)]$\displaystyle\lim_{x\to\infty}f(x)e^{-x}=0$を示せ．
+\item[(3)]$\displaystyle\lim_{t\to\infty}\int_0^t\{f(x)-f'(x)\}e^{-x}dx=f(0)$を示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_a.pdf)

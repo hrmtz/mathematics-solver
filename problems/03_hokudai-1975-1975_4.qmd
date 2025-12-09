@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1975年 1975_4"
+problem_id: "03_hokudai-1975-1975_4"
+university: "北海道大学"
+exam_year: "1975"
+source_tex: "archive/03_hokudai/1975/1975_4.tex"
+pdf_source: "archive/03_hokudai/1975/1975_4.pdf"
+page_image: "archive/03_hokudai/1975/1975_4.jpg"
+fields:
+  - 数列
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　次の数列の極限値を求めよ．
+ただし，$[x]$は$x$をこえない最大の整数を示すものとする．
+\begin{description}
+\item[(1)]$\displaystyle\lim_{n\to\infty}\frac{\displaystyle \left[ \frac{n}{3} \right]}{n}$
+\item[(2)]$\displaystyle\lim_{n\to\infty}\left( \sqrt{n^2+\left[ \frac{n}{3} \right]}-n \right)$
+\item[(3)]$\displaystyle\lim_{n\to\infty}\sin\left( 2\pi\sqrt{n^2+\left[ \frac{n}{3} \right]} \right)$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1975/1975_4.pdf)

@@ -1,0 +1,28 @@
+---
+title: "京都大学 1966年 1966_4a"
+problem_id: "02_kyoto-1966-1966_4a"
+university: "京都大学"
+exam_year: "1966"
+source_tex: "archive/02_kyoto/1966/1966_4a.tex"
+pdf_source: "archive/02_kyoto/1966/1966_4a.pdf"
+page_image: "archive/02_kyoto/1966/1966_4a.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 新
+　平面上で，距離$a$の2定点$A$，$B$を始点とする単位ベクトル(大きさが1のベクトル)
+$\overrightarrow{AP}$，$\overrightarrow{BQ}$が
+それぞれ始点のまわりに同じ向きに回転運動をなし，
+$\overrightarrow{AP}$，$\overrightarrow{BQ}$の$\overrightarrow{AB}$から測った回転角は
+それぞれ$2\theta$，$\theta$である．
+$\overrightarrow{PQ}$の大きさの最大値を$a$で表わせ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1966/1966_4a.pdf)

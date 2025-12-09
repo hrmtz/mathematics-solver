@@ -1,0 +1,31 @@
+---
+title: "大阪大学 2001年 2001_0_3"
+problem_id: "06_osaka-2001-2001_0_3"
+university: "大阪大学"
+exam_year: "2001"
+source_tex: "archive/06_osaka/2001/2001_0_3.tex"
+pdf_source: "archive/06_osaka/2001/2001_0_3.pdf"
+page_image: "archive/06_osaka/2001/2001_0_3.jpg"
+fields:
+  - 指数・対数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　各整数$k$に対し，座標平面上の点$\displaystyle P_k\left(\frac{k}{500}, \, 0\right)$，
+$\displaystyle Q_k\left(\frac{k}{500}, \, 1\right)$をとり，
+3点$P_{k-1}$，$P_k$，$Q_k$を頂点とする三角形$T_k$を考える．
+また，各自然数$n$に対し
+\[ f_n(x)=2 \times 10^{-nx} \]
+とおく．
+曲線$y=f_n(x)$上の動点$R$が，点$(0, \, 2)$から出発して$x$座標が大きくなる方向に動くとき，
+三角形$T_k$のうち，$R$が最初にその内部を通過するものが$T_8$となるような$n$をすべて求めよ．
+ただし，$\log_{10}2=0.3010$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2001/2001_0_3.pdf)

@@ -1,0 +1,32 @@
+---
+title: "九州大学 1962年 1962_0_5"
+problem_id: "07_kyushu-1962-1962_0_5"
+university: "九州大学"
+exam_year: "1962"
+source_tex: "archive/07_kyushu/1962/1962_0_5.tex"
+pdf_source: "archive/07_kyushu/1962/1962_0_5.pdf"
+page_image: "archive/07_kyushu/1962/1962_0_5.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　曲線$\displaystyle y=x+4+\frac{4}{x-1}\cdots\cdots\cdots\text{\ding{"AC}}$について次の問に答えよ。
+\begin{description}
+\item[(1)]曲線\ding{"AC}と$x$軸および$y$軸との交点の座標を求めよ。
+\item[(2)]曲線\ding{"AC}上の点$P$の$x$座標を$\alpha$とし
+点$P$におけるこの曲線の接線の傾き，および$y$軸上の切片を，それぞれ$m$，$n$とする。
+$\displaystyle\lim_{\alpha\to\pm\infty}m$，$\displaystyle\lim_{\alpha\to\pm\infty}n$を求め，
+$\alpha\to\pm\infty$のとき点$P$における曲線\ding{"AC}の接線は
+どんな直線に限りなく近づくかを調べてその方程式を求めよ。
+\item[(3)]関数$y$の極大，極小値を求め，また座標平面上に曲線(1)および(2)で求めた直線をかけ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1962/1962_0_5.pdf)

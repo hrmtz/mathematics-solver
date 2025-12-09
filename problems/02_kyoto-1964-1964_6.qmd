@@ -1,0 +1,28 @@
+---
+title: "京都大学 1964年 1964_6"
+problem_id: "02_kyoto-1964-1964_6"
+university: "京都大学"
+exam_year: "1964"
+source_tex: "archive/02_kyoto/1964/1964_6.tex"
+pdf_source: "archive/02_kyoto/1964/1964_6.pdf"
+page_image: "archive/02_kyoto/1964/1964_6.jpg"
+fields:
+  - 微分法
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$y=\cos x$のグラフと$x$軸とで囲まれた図形を$S$とする．
+$S$に含まれ$x$軸上に1辺をもつ長方形および三角形と，
+$S$に含まれ$x$軸上に直径をもつ半円との3種の図形について，
+それぞれの面積の最大値を$A$，$B$，$C$とする．
+　$A$，$B$，$C$の大小関係をしらべよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1964/1964_6.pdf)

@@ -1,0 +1,31 @@
+---
+title: "北海道大学 2004年 2004_d"
+problem_id: "03_hokudai-2004-2004_d"
+university: "北海道大学"
+exam_year: "2004"
+source_tex: "archive/03_hokudai/2004/2004_d.tex"
+pdf_source: "archive/03_hokudai/2004/2004_d.pdf"
+page_image: "archive/03_hokudai/2004/2004_d.jpg"
+fields:
+  - 複素数平面
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$|z|=1$である複素数$z$に対して，
+$z$，$z^2$，$\displaystyle\frac{1}{z}$が定める複素数平面上の3点を考える．
+ただし，$z$の偏角$\theta$は$0\leqq\theta\leqq\pi$の範囲とする．
+\begin{description}
+\item[(1)]3点の内の2点以上が一致するときの$\theta$をすべて求めよ．
+\item[(2)](1)以外のときに，3点を頂点とする三角形の面積$S$を，$\theta$を用いて表せ．
+\item[(3)]$S$が極大値をとるときの$\cos\theta$の値をすべて求めよ．
+\item[(4)]$S$の最大値と，そのときの複素数$z$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2004/2004_d.pdf)

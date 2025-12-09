@@ -1,0 +1,26 @@
+---
+title: "東京大学 1993年 1993_4"
+problem_id: "01_tokyo-1993-1993_4"
+university: "東京大学"
+exam_year: "1993"
+source_tex: "archive/01_tokyo/1993/1993_4.tex"
+pdf_source: "archive/01_tokyo/1993/1993_4.pdf"
+page_image: "archive/01_tokyo/1993/1993_4.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$n$を2以上の自然数とし
+$f(x)=x^n+px+q$ $(p,q\text{は実数})$の形の$n$次関数について
+積分$\displaystyle I=\frac{1}{2}\int_{-1}^1{f(x)}^2dx$を考える．
+$I$を最小にするような$(p,q)$が唯一組存在することを示し，
+そのような$(p,q)$と$I$の最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1993/1993_4.pdf)

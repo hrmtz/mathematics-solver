@@ -1,0 +1,30 @@
+---
+title: "京都大学 1992年 1992_5"
+problem_id: "02_kyoto-1992-1992_5"
+university: "京都大学"
+exam_year: "1992"
+source_tex: "archive/02_kyoto/1992/1992_5.tex"
+pdf_source: "archive/02_kyoto/1992/1992_5.pdf"
+page_image: "archive/02_kyoto/1992/1992_5.jpg"
+fields:
+  - 空間図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　空間内で$zx-$平面上の放物線$z=1-x^2$を$z$軸のまわりに回転して得られる曲面に4点
+\[ (t,0,1-t^2), \hspace{1zw} (-t,0,1-t^2), \hspace{1zw}
+(0,t,1-t^2), \hspace{1zw} (0,-t,1-t^2) \hspace{1zw} (\text{ただし},0<t<1) \]
+で，それぞれ接する4つの平面を考える．
+\begin{description}
+\item[(1)]この4つの接平面と$xy-$平面で囲まれる立体の体積$V(t)$を求めよ．
+\item[(2)]$V(t)$の最小値と，そのときの$t$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_5.pdf)

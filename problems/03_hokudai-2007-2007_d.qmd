@@ -1,0 +1,36 @@
+---
+title: "北海道大学 2007年 2007_d"
+problem_id: "03_hokudai-2007-2007_d"
+university: "北海道大学"
+exam_year: "2007"
+source_tex: "archive/03_hokudai/2007/2007_d.tex"
+pdf_source: "archive/03_hokudai/2007/2007_d.pdf"
+page_image: "archive/03_hokudai/2007/2007_d.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　実数$a$，$b$，$c$，$d$を定数とする．
+行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$
+の定める座標平面上の点の移動を考える．
+\begin{description}
+\item[(1)]実数$\alpha$，$\beta$，$\gamma$を定数とする．
+実数$t$が動くとき，
+点$(\alpha t+\beta, \, t+\gamma)$が$A$による移動で移される点の軌跡は，
+ある1点か，またはある1つの直線になることを示せ．
+\item[(2)]直線$x=1$上の異なる2点が，
+$A$による移動で原点を通らない直線上の異なる2点に移るならば，
+$A$は逆行列をもつことを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_d.pdf)

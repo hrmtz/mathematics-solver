@@ -1,0 +1,30 @@
+---
+title: "東北大学 1994年 1994_a"
+problem_id: "04_tohoku-1994-1994_a"
+university: "東北大学"
+exam_year: "1994"
+source_tex: "archive/04_tohoku/1994/1994_a.tex"
+pdf_source: "archive/04_tohoku/1994/1994_a.pdf"
+page_image: "archive/04_tohoku/1994/1994_a.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面に，曲線$\displaystyle K:\frac{{(x-c)}^2}{a^2}+\frac{3y^2}{c^2-a^2}=1$ $(0<a<c)$がある．
+行列$A=\begin{pmatrix} \cos\theta & -\sin\theta
+
+
+ \sin\theta & \cos\theta \end{pmatrix}$の表す1次変換によって，
+曲線$K$が図形$K'$に移されるとする．
+このとき，$K' \subset \{ (x, \, y)|x<0, \, x+y<0 \}$となるように$\theta$の範囲を定めよ．
+ただし，$0^\circ \leqq \theta < {360}^\circ$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_a.pdf)

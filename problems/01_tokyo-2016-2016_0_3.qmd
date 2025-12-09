@@ -1,0 +1,37 @@
+---
+title: "東京大学 2016年 2016_0_3"
+problem_id: "01_tokyo-2016-2016_0_3"
+university: "東京大学"
+exam_year: "2016"
+source_tex: "archive/01_tokyo/2016/2016_0_3.tex"
+pdf_source: "archive/01_tokyo/2016/2016_0_3.pdf"
+page_image: "archive/01_tokyo/2016/2016_0_3.jpg"
+fields:
+  - 代数
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　座標平面上の2つの放物線
+\begin{description}
+\item[]$A:y=x^2$
+\item[]$B:y=-x^2+px+q$
+\end{description}
+が点$(-1, \, 1)$で接している。ここで，$p$と$q$は実数である。
+さらに，$t$を正の実数とし，放物線$B$を$x$軸の正の向きに$2t$，
+$y$軸の正の向きに$t$だけ平行移動して得られる放物線を$C$とする。
+\begin{description}
+\item[(1)]$p$と$q$の値を求めよ。
+\item[(2)]放物線$A$と$C$が囲む領域の面積を$S(t)$とする。
+ただし，$A$と$C$が領域を囲まないときは$S(t)=0$と定める。$S(t)$を求めよ。
+\item[(3)]$t>0$における$S(t)$の最大値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2016/2016_0_3.pdf)

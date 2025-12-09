@@ -1,0 +1,26 @@
+---
+title: "京都大学 2005年 2005_a"
+problem_id: "02_kyoto-2005-2005_a"
+university: "京都大学"
+exam_year: "2005"
+source_tex: "archive/02_kyoto/2005/2005_a.tex"
+pdf_source: "archive/02_kyoto/2005/2005_a.pdf"
+page_image: "archive/02_kyoto/2005/2005_a.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　曲線$y=x^3$の$x>0$の部分を$C$とする．
+$C$上の点$P$に対し，$P$における$C$の接線と$x$軸との交点を$Q$とし，$P$における$C$の法線と$y$軸との交点を$R$とする．
+$P$が$C$上を動くとき，$\displaystyle\frac{OR}{OQ}$の最小値を求めよ．
+ただし，$O$は原点である．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_a.pdf)

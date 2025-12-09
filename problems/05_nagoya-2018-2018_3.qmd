@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 2018年 2018_3"
+problem_id: "05_nagoya-2018-2018_3"
+university: "名古屋大学"
+exam_year: "2018"
+source_tex: "archive/05_nagoya/2018/2018_3.tex"
+pdf_source: "archive/05_nagoya/2018/2018_3.pdf"
+page_image: "archive/05_nagoya/2018/2018_3.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$p$を素数，$a$，$b$を整数とする。このとき，次の問に答えよ。
+\begin{description}
+\item[(1)]${(a+b)}^p-a^p-b^p$は$p$で割り切れることを示せ。
+\item[(2)]${(a+2)}^p-a^p$は偶数であることを示せ。
+\item[(3)]${(a+2)}^p-a^p$を$2p$で割ったときの余りを求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2018/2018_3.pdf)

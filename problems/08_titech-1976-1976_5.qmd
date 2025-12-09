@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 1976年 1976_5"
+problem_id: "08_titech-1976-1976_5"
+university: "東京科学大学"
+exam_year: "1976"
+source_tex: "archive/08_titech/1976/1976_5.tex"
+pdf_source: "archive/08_titech/1976/1976_5.pdf"
+page_image: "archive/08_titech/1976/1976_5.jpg"
+fields:
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$\vec{a}$，$\vec{b}$，$\vec{c}$を空間のベクトルとする．
+$x^2+2y^2+3z^2=1$を満たすすべての実数$x$，$y$，$z$に対して
+ベクトル$x\vec{a}+y\vec{b}+z\vec{c}$の長さはつねに1であるという．
+\begin{description}
+\item[(1)]$\vec{a}$，$\vec{b}$，$\vec{c}$の長さを求めよ．
+\item[(2)]内積$(\vec{a}, \, \vec{b})$，$(\vec{a}, \, \vec{c})$，$(\vec{b}, \, \vec{c})$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1976/1976_5.pdf)

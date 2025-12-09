@@ -1,0 +1,29 @@
+---
+title: "東北大学 1997年 1997_f"
+problem_id: "04_tohoku-1997-1997_f"
+university: "東北大学"
+exam_year: "1997"
+source_tex: "archive/04_tohoku/1997/1997_f.tex"
+pdf_source: "archive/04_tohoku/1997/1997_f.pdf"
+page_image: "archive/04_tohoku/1997/1997_f.jpg"
+fields:
+  - 微分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　関数$y=x-\sqrt{x+2}$ $(x\geqq-2)$を考える．
+\begin{description}
+\item[(1)]この関数の最小値と，グラフと座標軸との交点を求め，
+$y=x-\sqrt{x+2}$のグラフの概形をかけ．
+\item[(2)]この関数のグラフと，直線$x=-2$，および$x$軸で囲まれた図形を，
+$x$軸の周りに1回転してできる立体の体積$V$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1997/1997_f.pdf)

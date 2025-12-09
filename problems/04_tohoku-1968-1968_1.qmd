@@ -1,0 +1,26 @@
+---
+title: "東北大学 1968年 1968_1"
+problem_id: "04_tohoku-1968-1968_1"
+university: "東北大学"
+exam_year: "1968"
+source_tex: "archive/04_tohoku/1968/1968_1.tex"
+pdf_source: "archive/04_tohoku/1968/1968_1.pdf"
+page_image: "archive/04_tohoku/1968/1968_1.jpg"
+fields:
+  - 不等式
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$x\geqq0$，$y>0$，$z\geqq0$，$a>b>c$で
+\[ {(x+y+z)}^2=ax+by+cz \]
+とする．
+$S=x+y+z$とおくとき，$S$，$a$，$c$の間の大小関係を調べよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1968/1968_1.pdf)

@@ -1,0 +1,31 @@
+---
+title: "九州大学 2008年 2008_b"
+problem_id: "07_kyushu-2008-2008_b"
+university: "九州大学"
+exam_year: "2008"
+source_tex: "archive/07_kyushu/2008/2008_b.tex"
+pdf_source: "archive/07_kyushu/2008/2008_b.pdf"
+page_image: "archive/07_kyushu/2008/2008_b.jpg"
+fields:
+  - 整数
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　右の図1と図2は碁盤の目状の道路とし，すべて等間隔であるとする．
+　以下の問いに答えよ．
+\begin{description}
+\item[(1)]図1において，点$A$から点$B$に行く最短経路は全部で何通りあるか求めよ．
+\item[(2)]図1において，点$A$から点$B$に行く最短経路で，
+点$C$と点$D$のどちらも通らないものは全部で何通りあるか求めよ．
+\item[(3)]図2において，点$A$から点$B$に行く最短経路は全部で何通りあるか求めよ．
+ただし斜線の部分は通れないものとする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2008/2008_b.pdf)

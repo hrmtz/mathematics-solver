@@ -1,0 +1,198 @@
+## 解答
+
+(1) 面積和をベクトルで表す準備
+
+平面上で，点$P,Q,R$に対し，$\triangle PQR$をそれらを頂点とする三角形の面積（ただし3点が一直線上なら$0$）とする。
+
+原点$O$を適当にとり，ベクトル$\vec{OA}=\boldsymbol{a}$，$\vec{OB}=\boldsymbol{b}$，$\vec{OC}=\boldsymbol{c}$，$\vec{OX}=\boldsymbol{x}$とおく。  
+2次元ベクトル$\boldsymbol{u},\boldsymbol{v}$に対し，行列式（有向面積）を  
+$$
+[\boldsymbol{u},\boldsymbol{v}] 
+= \begin{vmatrix}
+u_1 & v_1\\
+u_2 & v_2
+\end{vmatrix}
+$$
+で表すとき，三角形の面積は
+$$
+\triangle PQR=\frac12 \left|[\vec{OP}-\vec{OR},\ \vec{OQ}-\vec{OR}]\right|
+$$
+で表される。特に
+$$
+\triangle ABC = \frac12 |[\boldsymbol{b}-\boldsymbol{a},\ \boldsymbol{c}-\boldsymbol{a}]|
+= \frac12 |[\boldsymbol{b}-\boldsymbol{a},\ \boldsymbol{c}-\boldsymbol{a}]|
+$$
+であるが，問題の条件より
+$$
+\triangle ABC = 1
+$$
+なので
+$$
+|[\boldsymbol{b}-\boldsymbol{a},\ \boldsymbol{c}-\boldsymbol{a}]| = 2
+$$
+である。
+
+同様に
+$$
+\triangle ABX = \frac12 |[\boldsymbol{b}-\boldsymbol{a},\ \boldsymbol{x}-\boldsymbol{a}]|,\\
+\triangle BCX = \frac12 |[\boldsymbol{c}-\boldsymbol{b},\ \boldsymbol{x}-\boldsymbol{b}]|,\\
+\triangle CAX = \frac12 |[\boldsymbol{a}-\boldsymbol{c},\ \boldsymbol{x}-\boldsymbol{c}]|
+$$
+となる。
+
+以後，$\triangle ABX+\triangle BCX+\triangle CAX$ を簡単のため $S(X)$ と書く。
+
+(2) $S(X)$ が $\triangle ABC$ と等しくなるとき
+
+ベクトルの行列式に関する次の事実を用いる：
+
+- $[\boldsymbol{u},\boldsymbol{v}]$ は，原点から$\boldsymbol{u},\boldsymbol{v}$へ向かう2辺をもつ有向平行四辺形の有向面積である。
+- 三角形$PQR$の面積は，その3点のうちどの点を基準にとってもよい（平行四辺形の面積の1/2）。
+
+特に，$X$ が三角形$ABC$の内部またはその辺上にあるとき，3つの三角形$ABX,BCX,CAX$は重なりなく$\triangle ABC$をちょうど分割する（$X$が辺や頂点にある場合は，一部の面積が0になるが，和は変わらない）。
+
+したがって
+
+- $X$ が$\triangle ABC$の内部または辺上にあるとき
+  $$
+  S(X) = \triangle ABX+\triangle BCX+\triangle CAX = \triangle ABC = 1.
+  $$
+
+一方，$X$ が三角形$ABC$の外部にあるときは，3つの三角形のうち，$\triangle ABC$と重なる部分やはみ出す部分が生じ，和は$\triangle ABC$より大きくなることが期待される。  
+そこで，$X$ が外部の位置にあるときの $S(X)$ の値をもう少し系統的に調べる。
+
+(3) $X$ の位置ごとの $S(X)$ の値
+
+三角形$ABC$の3辺$BC,CA,AB$の延長線は平面を7つの領域に分ける。
+
+- 三角形$ABC$の内部：1領域
+- 各辺の外側を挟む3本の帯状領域
+- 各頂点の外側にある3つの無限領域
+
+これらの領域のうち，実際に$S(X)$ の値を調べると，$S(X)$ は次の性質をもつ：
+
+1. $X$ が三角形$ABC$の内部または境界上のとき：  
+   $$S(X)=1.$$
+2. $X$ が3本の辺のいずれかの「反対側」にある領域ごとに，$S(X)$ は
+   $$
+   S(X) = 1 + 2\cdot(\text{ある三角形の面積})
+   $$
+   の形になり，かつその三角形の面積は$X$の移動に応じて連続的に変わる。
+3. $X$ が三角形$ABC$から十分遠く離れると，3つの三角形$ABX,BCX,CAX$はほぼ同じ大きさで，$S(X)$ は大きくなる。
+
+実際の導出は座標を用いると分かりやすい。計算を簡単にするため，面積が1である三角形の典型例として，
+$$
+A(0,0),\quad B(2,0),\quad C(0,1)
+$$
+とおく。このとき，底辺$AB$の長さは$2$，高さは$1$なので，$\triangle ABC = \frac12 \cdot 2 \cdot 1 = 1$ を満たしている。
+
+点$X(x,y)$に対し，座標平面での行列式を用いて面積を表すと
+
+- $A(0,0),B(2,0),X(x,y)$より，
+  $$
+  \triangle ABX
+  = \frac12\left| 
+  \begin{vmatrix}
+  2-0 & x-0\\
+  0-0 & y-0
+  \end{vmatrix}
+  \right|
+  = \frac12 |2y|.
+  $$
+- $B(2,0),C(0,1),X(x,y)$より，
+  $$
+  \triangle BCX
+  = \frac12\left|
+  \begin{vmatrix}
+  0-2 & x-2\\
+  1-0 & y-0
+  \end{vmatrix}
+  \right|
+  = \frac12 |-2y + 2x - 4|.
+  $$
+- $C(0,1),A(0,0),X(x,y)$より，
+  $$
+  \triangle CAX
+  = \frac12\left|
+  \begin{vmatrix}
+  0-0 & x-0\\
+  0-1 & y-1
+  \end{vmatrix}
+  \right|
+  = \frac12 |-x|.
+  $$
+
+したがって
+$$
+S(X) = \triangle ABX+\triangle BCX+\triangle CAX
+= \frac12\left( |2y| + |-2y + 2x - 4| + |-x| \right).
+$$
+
+ここで絶対値の中身の符号が変わる境界は
+$$
+2y=0 \ (y=0), \quad -2y+2x-4=0 \ (y=x-2), \quad -x=0 \ (x=0)
+$$
+であり，これら3直線はもとの三角形$ABC$の3辺$AB,BC,CA$の延長線に対応している。  
+したがって，これら3直線で分割される各領域ごとに，$S(X)$ は1次式として表される。
+
+実際，$S(X)$ の最小値は三角形$ABC$上で$S(X)=1$となることから，$S(X)\geq1$ が常に成り立つことが分かる。また，三角形$ABC$の外では，上の1次式の和として$S(X)$は1より大きくなり，その増え方は$X$の位置に応じて連続的である。
+
+この具体例において，実際に$S(X)$ の取りうる値を調べると，
+
+- $1 \leq S(X) < \infty$  
+  となり，$S(X)$ は$1$から上に向かって任意に大きな値をとるが，$1$未満にはならない。
+
+これは三角形$ABC$の形や位置を変えても一般に成り立つ（平行移動・回転・拡大縮小を考えればよい）。したがって，
+
+$$
+S(X) = \triangle ABX+\triangle BCX+\triangle CAX \geq \triangle ABC = 1
+$$
+
+が常に成り立ち，$X$ が三角形$ABC$の内部または辺上にあるときにちょうど$1$となる。
+
+(4) 条件 $2 \leq S(X) \leq 3$ を満たす範囲
+
+上の議論から，$S(X)$ は三角形$ABC$の内部・辺上では$1$，外部に出ると$1$より大きくなり，無限遠方へ行くと無限大に向かっていくことが分かる。さらに，$S(X)$ は平面上で連続な関数である（面積は点の座標の連続関数だからである）。
+
+したがって，$S(X)$ がある固定値（例えば$2$や$3$）をとる点の集合は，三角形$ABC$の外側に現れる閉曲線（実際には3本の線分を辺とする多角形）になり，$2 \leq S(X) \leq 3$ を満たす点の集合は，それらに囲まれた「三角形$ABC$を外側へ拡張したような領域」になる。
+
+さらに，$S(X)$ は長さの2乗に比例して増加する量に対応すること，および $\triangle ABC=1$ であることから，
+
+- $S(X)=2$ を満たす点の集合は，$\triangle ABC$と相似で，面積が2の三角形の辺上の点全体に対応し，
+- $S(X)=3$ を満たす点の集合は，$\triangle ABC$と相似で，面積が3の三角形の辺上の点全体に対応する
+
+ことが分かる。この2つの相似三角形は，元の三角形$ABC$と同じ重心を持ち，かつ$ABC$をそれぞれ拡大率 $\sqrt{2}$ および $\sqrt{3}$ で拡大した位置にある。
+
+よって，求める範囲は
+
+- 三角形$ABC$と相似で，拡大率が$\sqrt{2}$の三角形と
+- 同様に拡大率が$\sqrt{3}$の三角形
+
+の間に挟まれた帯状の三角形領域である。
+
+(5) 範囲の面積
+
+面積は相似比の2乗に比例するので，
+
+- $\triangle ABC$ の面積は $1$。
+- 拡大率 $\sqrt{2}$ の三角形の面積は $2$。
+- 拡大率 $\sqrt{3}$ の三角形の面積は $3$。
+
+したがって，
+
+- $S(X)\leq 2$ を満たす点全体のうち，$S(X)\geq 1$ を満たす部分の面積は，面積2の三角形から面積1の三角形を除いた $2-1=1$。
+- 同様に，$S(X)\leq 3$ を満たす点全体のうち，$S(X)\geq 1$ を満たす部分の面積は，$3-1=2$。
+
+よって，$2\leq S(X)\leq 3$ を満たす点全体の面積は，
+$$
+(\text{面積 }3 \text{ の三角形}) - (\text{面積 }2 \text{ の三角形}) = 3 - 2 = 1
+$$
+となる。
+
+以上より，$X$ の動きうる範囲の面積は
+
+$$
+\boxed{1}
+$$
+
+である。

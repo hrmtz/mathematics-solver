@@ -1,0 +1,30 @@
+---
+title: "北海道大学 2024年 2024_4"
+problem_id: "03_hokudai-2024-2024_4"
+university: "北海道大学"
+exam_year: "2024"
+source_tex: "archive/03_hokudai/2024/2024_4.tex"
+pdf_source: "archive/03_hokudai/2024/2024_4.pdf"
+page_image: "archive/03_hokudai/2024/2024_4.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　三角形$OAB$が，$|\overrightarrow{OA}|=3$，$|\overrightarrow{AB}|=5$，
+$\overrightarrow{OA}\cdot\overrightarrow{OB}=10$をみたしているとする。
+三角形$OAB$の内接円の中心を$I$とし，この内接円と辺$OA$の接点を$H$とする。
+\begin{description}
+\item[(1)]辺$OB$の長さを求めよ。
+\item[(2)]$\overrightarrow{OI}$を$\overrightarrow{OA}$と$\overrightarrow{OB}$を用いて表せ。
+\item[(3)]$\overrightarrow{HI}$を$\overrightarrow{OA}$と$\overrightarrow{OB}$を用いて表せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2024/2024_4.pdf)

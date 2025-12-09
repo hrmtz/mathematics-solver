@@ -1,0 +1,30 @@
+---
+title: "東京科学大学 2016年 2016_1"
+problem_id: "08_titech-2016-2016_1"
+university: "東京科学大学"
+exam_year: "2016"
+source_tex: "archive/08_titech/2016/2016_1.tex"
+pdf_source: "archive/08_titech/2016/2016_1.pdf"
+page_image: "archive/08_titech/2016/2016_1.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$を正の定数とし，放物線$\displaystyle y=\frac{x^2}{4}$を$C_1$とする．
+\begin{description}
+\item[(1)]点$P$が$C_1$上を動くとき，$P$と点$\displaystyle Q \left( 2a, \,
+\frac{a^2}{4}-2 \right)$の距離の最小値を求めよ．
+\item[(2)]$Q$を中心とする円$\displaystyle {(x-2a)}^2+
+{ \left( y-\frac{a^2}{4}+2 \right) }^2=2a^2$を$C_2$とする．
+$P$が$C_1$上を動き，点$R$が$C_2$上を動くとき，$P$と$R$の距離の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2016/2016_1.pdf)

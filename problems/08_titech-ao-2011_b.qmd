@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 ao年 2011_b"
+problem_id: "08_titech-ao-2011_b"
+university: "東京科学大学"
+exam_year: "ao"
+source_tex: "archive/08_titech/ao/2011_b.tex"
+pdf_source: "archive/08_titech/ao/2011_b.pdf"
+page_image: "archive/08_titech/ao/2011_b.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　正の数$a$，$b$，$c$が三角形の3辺の長さとなるように動くとき，
+\[ \frac{a^2+b^2+c^2}{ab+bc+ca} \]
+の取り得る値の範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/ao/2011_b.pdf)

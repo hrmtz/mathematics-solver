@@ -1,0 +1,27 @@
+---
+title: "北海道大学 1994年 1994_1"
+problem_id: "03_hokudai-1994-1994_1"
+university: "北海道大学"
+exam_year: "1994"
+source_tex: "archive/03_hokudai/1994/1994_1.tex"
+pdf_source: "archive/03_hokudai/1994/1994_1.pdf"
+page_image: "archive/03_hokudai/1994/1994_1.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　1次変換$f$は$x$軸を$x$軸に移し，格子点を格子点に移すとする．
+また，原点$O$，$(1, \, 0)$，$(1, \, 1)$，$(0, \, 1)$を頂点とする正方形の
+$f$による像の面積は1であるとする．
+$f$を表す行列を$A$とするとき，$A^2$の形を決定せよ．
+ただし，$x$，$y$ともに整数である点$P(x, \, y)$を格子点という．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_1.pdf)

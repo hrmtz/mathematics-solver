@@ -1,0 +1,36 @@
+---
+title: "東北大学 2008年 2008_0_4"
+problem_id: "04_tohoku-2008-2008_0_4"
+university: "東北大学"
+exam_year: "2008"
+source_tex: "archive/04_tohoku/2008/2008_0_4.tex"
+pdf_source: "archive/04_tohoku/2008/2008_0_4.pdf"
+page_image: "archive/04_tohoku/2008/2008_0_4.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　点$P$が次のルール(i)，(ii)に従って数直線上を移動するものとする．
+\begin{description}
+\item[(i)]$1, \, 2, \, 3, \, 4, \, 5, \, 6$の目が同じ割合で出るサイコロを振り，
+出た目の数を$k$とする．
+$P$の座標$a$について，$a>0$ならば座標$a-k$の点へ移動し，$a<0$ならば座標$a+k$の点へ移動する．
+\item[(ii)]原点に移動したら終了し，そうでなければ(i)を繰り返す．
+\end{description}
+　このとき，以下の問いに答えよ．
+\begin{description}
+\item[(1)]$P$の座標が$1, \, 2, \, \cdots, \, 6$のいずれかであるとき，
+ちょうど2回サイコロを振って原点で終了する確率を求めよ．
+\item[(2)]$P$の座標が$1, \, 2, \, \cdots, \, 6$のいずれかであるとき，
+ちょうど3回サイコロを振って原点で終了する確率を求めよ．
+\item[(3)]$P$の座標が7であるとき，ちょうど$n$回サイコロを振って原点で終了する確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_0_4.pdf)

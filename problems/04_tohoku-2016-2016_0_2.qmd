@@ -1,0 +1,28 @@
+---
+title: "東北大学 2016年 2016_0_2"
+problem_id: "04_tohoku-2016-2016_0_2"
+university: "東北大学"
+exam_year: "2016"
+source_tex: "archive/04_tohoku/2016/2016_0_2.tex"
+pdf_source: "archive/04_tohoku/2016/2016_0_2.pdf"
+page_image: "archive/04_tohoku/2016/2016_0_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　放物線$\displaystyle C:y=-\frac{1}{2}x^2$を考える。以下の問いに答えよ。
+\begin{description}
+\item[(1)]関数$y=-2|x|+k$のグラフが放物線$C$と共有点をもつような実数$k$の範囲を求めよ。
+\item[(2)]$a, \, b$を実数とする。関数$y=-2|x-a|+b$のグラフが放物線$C$と共有点をちょうど4個もつような
+点$(a, \, b)$全体のなす領域$D$を$xy$平面に図示せよ。
+\item[(3)](2)で求めた領域$D$の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_0_2.pdf)

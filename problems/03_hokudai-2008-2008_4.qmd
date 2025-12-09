@@ -1,0 +1,34 @@
+---
+title: "北海道大学 2008年 2008_4"
+problem_id: "03_hokudai-2008-2008_4"
+university: "北海道大学"
+exam_year: "2008"
+source_tex: "archive/03_hokudai/2008/2008_4.tex"
+pdf_source: "archive/03_hokudai/2008/2008_4.pdf"
+page_image: "archive/03_hokudai/2008/2008_4.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xyz$空間の原点$O$と，$O$を中心とし半径1の球面上の異なる4点$A$，$B$，$C$，$D$を考える．
+点$A \displaystyle \left( \cos\frac{\alpha}{2}, \, \sin\frac{\alpha}{2}, \, 0 \right)$，
+$B \displaystyle \left( \cos \left( -\frac{\alpha}{2} \right), \, \sin \left( -\frac{\alpha}{2} \right), \, 0 \right)$，
+$(0<\alpha<\pi)$とする．
+点$C$，$D$は$\angle COA=\angle COB=\angle DOA=\angle DOB$を満たし，
+点$C$の$z$座標は正，点$D$の$z$座標は負とする．
+\begin{description}
+\item[(1)]点$C$の座標を$\alpha$と$\theta=\angle COA$ $(0<\theta<\pi)$で表せ．
+\item[(2)]ベクトル$\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$，$\overrightarrow{OD}$の
+相異なる2つのベクトルのなす角がすべて等しいとき，
+点$C$の座標を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_4.pdf)

@@ -1,0 +1,27 @@
+---
+title: "北海道大学 1998年 1998_1"
+problem_id: "03_hokudai-1998-1998_1"
+university: "北海道大学"
+exam_year: "1998"
+source_tex: "archive/03_hokudai/1998/1998_1.tex"
+pdf_source: "archive/03_hokudai/1998/1998_1.pdf"
+page_image: "archive/03_hokudai/1998/1998_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　中心がそれぞれ，$(-2, \, 0)$，$(2, \, 0)$である半径1の円$A$，$B$を考える．
+円$C$が，$A$を内側に含み，$B$の外側にあり，しかも，$A$，$B$の両方に接しながら動くとき，次の問いに答えよ．
+\begin{description}
+\item[(1)]円$C$の中心の軌跡を求めよ．
+\item[(2)]円$C$が直線$y=2$に接するとき，$C$の半径を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1998/1998_1.pdf)

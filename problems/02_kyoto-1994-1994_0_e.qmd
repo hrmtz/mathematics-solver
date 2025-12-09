@@ -1,0 +1,23 @@
+---
+title: "京都大学 1994年 1994_0_e"
+problem_id: "02_kyoto-1994-1994_0_e"
+university: "京都大学"
+exam_year: "1994"
+source_tex: "archive/02_kyoto/1994/1994_0_e.tex"
+pdf_source: "archive/02_kyoto/1994/1994_0_e.pdf"
+page_image: "archive/02_kyoto/1994/1994_0_e.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　2次式$f(x)=3x^2+2ax+1$に対し，
+$\displaystyle\int_{-2}^2(x+2)f(x)dx=4\int_c^2f(x)dx$を満たす$c$が$-2<c<2$の範囲に存在することを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_0_e.pdf)

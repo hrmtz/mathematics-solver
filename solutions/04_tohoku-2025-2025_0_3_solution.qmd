@@ -1,0 +1,346 @@
+## 解答
+
+(1)  
+四面体 $OABC$ の体積を $V$ とするとき，  
+同じ底面 $OAB$ をもち，高さが $OC$ の 2 倍になっている四面体 $OABD$ の体積は
+
+$$
+V_{OABD}
+= \frac{1}{6}\left|\overrightarrow{OA}\cdot(\overrightarrow{OB}\times\overrightarrow{OD})\right|
+$$
+
+である。$\overrightarrow{OD}$ を $\overrightarrow{a},\overrightarrow{b},\overrightarrow{c}$ で表すのは(2)で行うが，ここでは先に体積比で考える。
+
+まず，$\overrightarrow{AD}=3\overrightarrow{AB}+2\overrightarrow{AC}$ より  
+$\overrightarrow{AB}=\overrightarrow{b}-\overrightarrow{a}$，$\overrightarrow{AC}=\overrightarrow{c}-\overrightarrow{a}$ を用いて
+
+$$
+\overrightarrow{AD}
+=3(\overrightarrow{b}-\overrightarrow{a})+2(\overrightarrow{c}-\overrightarrow{a})
+=3\overrightarrow{b}+2\overrightarrow{c}-5\overrightarrow{a}
+$$
+
+となるので，
+
+$$
+\overrightarrow{OD}=\overrightarrow{OA}+\overrightarrow{AD}
+=\overrightarrow{a}+3\overrightarrow{b}+2\overrightarrow{c}-5\overrightarrow{a}
+=3\overrightarrow{b}+2\overrightarrow{c}-4\overrightarrow{a}
+$$
+
+である。
+
+したがって
+
+$$
+\overrightarrow{OD}-\overrightarrow{OA}
+= (3\overrightarrow{b}+2\overrightarrow{c}-4\overrightarrow{a})-\overrightarrow{a}
+=3\overrightarrow{b}+2\overrightarrow{c}-5\overrightarrow{a}
+=3\overrightarrow{AB}+2\overrightarrow{AC}
+$$
+
+である。  
+底面 $OAB$ を固定するとき，高さは $C$ から平面 $OAB$ への距離に比例し，同様に $D$ から平面 $OAB$ への距離にも比例するので，
+
+$$
+\frac{V_{OABD}}{V_{OABC}}
+= \frac{\text{高さ} \, (D \text{ から } OAB)}{\text{高さ} \, (C \text{ から } OAB)}
+= \frac{\overrightarrow{OA}\cdot(\overrightarrow{OB}\times\overrightarrow{OD})}
+       {\overrightarrow{OA}\cdot(\overrightarrow{OB}\times\overrightarrow{OC})}
+$$
+
+である。この比を計算するため，スカラー三重積について線形性を用いる。
+
+$$
+\overrightarrow{OA}\cdot(\overrightarrow{OB}\times\overrightarrow{OD})
+= \overrightarrow{a}\cdot\bigl(\overrightarrow{b}\times(3\overrightarrow{b}+2\overrightarrow{c}-4\overrightarrow{a})\bigr)
+$$
+
+ここで $\overrightarrow{b}\times\overrightarrow{b}=\vec{0}$ なので
+
+$$
+\overrightarrow{b}\times(3\overrightarrow{b}+2\overrightarrow{c}-4\overrightarrow{a})
+=2\,\overrightarrow{b}\times\overrightarrow{c}-4\,\overrightarrow{b}\times\overrightarrow{a}
+$$
+
+よって
+
+$$
+\overrightarrow{a}\cdot(\overrightarrow{b}\times\overrightarrow{OD})
+=2\,\overrightarrow{a}\cdot(\overrightarrow{b}\times\overrightarrow{c})
+-4\,\overrightarrow{a}\cdot(\overrightarrow{b}\times\overrightarrow{a})
+$$
+
+だが $\overrightarrow{b}\times\overrightarrow{a}$ は $\overrightarrow{a}$ と直交するので  
+$\overrightarrow{a}\cdot(\overrightarrow{b}\times\overrightarrow{a})=0$ であり，
+
+$$
+\overrightarrow{a}\cdot(\overrightarrow{b}\times\overrightarrow{OD})
+=2\,\overrightarrow{a}\cdot(\overrightarrow{b}\times\overrightarrow{c})
+$$
+
+よって
+
+$$
+\frac{V_{OABD}}{V_{OABC}}
+=\frac{\overrightarrow{a}\cdot(\overrightarrow{b}\times\overrightarrow{OD})}
+       {\overrightarrow{a}\cdot(\overrightarrow{b}\times\overrightarrow{c})}
+=2
+$$
+
+したがって
+
+$$
+V_{OABD}=2V
+$$
+
+となる。
+
+次に，四角錐 $OABDC$ の体積は，四面体 $OABC$ と四面体 $OABD$ の和であるから
+
+$$
+V_{OABDC}=V_{OABC}+V_{OABD}=V+2V=3V
+$$
+
+よって，求める体積は $3V$ である。
+
+(2)  
+(1) の途中で求めたように，
+
+$$
+\overrightarrow{AD}
+=3\overrightarrow{AB}+2\overrightarrow{AC}
+=3(\overrightarrow{b}-\overrightarrow{a})+2(\overrightarrow{c}-\overrightarrow{a})
+=3\overrightarrow{b}+2\overrightarrow{c}-5\overrightarrow{a}
+$$
+
+であるから
+
+$$
+\overrightarrow{OD}
+=\overrightarrow{OA}+\overrightarrow{AD}
+=\overrightarrow{a} + (3\overrightarrow{b}+2\overrightarrow{c}-5\overrightarrow{a})
+=3\overrightarrow{b}+2\overrightarrow{c}-4\overrightarrow{a}
+$$
+
+(3)  
+線分 $BC$ 上の点 $P$ は，ある実数 $u,v$ を用いて
+
+$$
+\overrightarrow{OP}=u\overrightarrow{b}+v\overrightarrow{c}
+$$
+
+と表せる。また，$P$ は線分 $AD$ 上にもあるから，ある実数 $s$ に対して
+
+$$
+\overrightarrow{OP}
+=\overrightarrow{OA}+s\,\overrightarrow{AD}
+=\overrightarrow{a}+s(3\overrightarrow{AB}+2\overrightarrow{AC})
+$$
+
+となる。$\overrightarrow{AB}=\overrightarrow{b}-\overrightarrow{a}$，$\overrightarrow{AC}=\overrightarrow{c}-\overrightarrow{a}$ を代入すると
+
+$$
+\overrightarrow{OP}
+=\overrightarrow{a}+s\{3(\overrightarrow{b}-\overrightarrow{a})+2(\overrightarrow{c}-\overrightarrow{a})\}
+=\overrightarrow{a}+s(3\overrightarrow{b}+2\overrightarrow{c}-5\overrightarrow{a})
+$$
+
+よって
+
+$$
+\overrightarrow{OP}
+=(1-5s)\overrightarrow{a}+3s\overrightarrow{b}+2s\overrightarrow{c}
+$$
+
+一方，$\overrightarrow{OP}$ は $\overrightarrow{b},\overrightarrow{c}$ のみで表せるから，  
+係数比較より $\overrightarrow{a}$ の係数が $0$ でなければならない。したがって
+
+$$
+1-5s=0 \quad\Rightarrow\quad s=\frac{1}{5}
+$$
+
+これを上の式に代入すると
+
+$$
+\overrightarrow{OP}
+=3\cdot\frac{1}{5}\,\overrightarrow{b}
++2\cdot\frac{1}{5}\,\overrightarrow{c}
+=\frac{3}{5}\overrightarrow{b}+\frac{2}{5}\overrightarrow{c}
+$$
+
+よって
+
+$$
+\overrightarrow{OP}
+=\frac{3}{5}\overrightarrow{b}+\frac{2}{5}\overrightarrow{c}
+$$
+
+(4)  
+四面体 $OABC$ が 1 辺の長さ 1 の正四面体であるから，
+
+$$
+|\overrightarrow{OA}|=|\overrightarrow{OB}|=|\overrightarrow{OC}|=1,
+\qquad |\overrightarrow{OB}-\overrightarrow{OC}|=1
+$$
+
+などが成り立つ。正四面体では，任意の 2 辺のなす角が等しく，  
+内積を用いると
+
+$$
+\overrightarrow{a}\cdot\overrightarrow{b}
+=\overrightarrow{b}\cdot\overrightarrow{c}
+=\overrightarrow{c}\cdot\overrightarrow{a}
+=\frac{1}{2}\{|\overrightarrow{a}|^2+|\overrightarrow{b}|^2-|\overrightarrow{a}-\overrightarrow{b}|^2\}
+=\frac{1}{2}(1+1-1)=\frac{1}{2}
+$$
+
+ではなく，実は
+
+$$
+|\overrightarrow{a}-\overrightarrow{b}|^2
+=|\overrightarrow{a}|^2+|\overrightarrow{b}|^2-2\overrightarrow{a}\cdot\overrightarrow{b}
+$$
+
+に $|\overrightarrow{a}-\overrightarrow{b}|=1,\ |\overrightarrow{a}|=|\overrightarrow{b}|=1$ を代入すると
+
+$$
+1=1+1-2\overrightarrow{a}\cdot\overrightarrow{b}
+\quad\Rightarrow\quad
+2\overrightarrow{a}\cdot\overrightarrow{b}=1
+\quad\Rightarrow\quad
+\overrightarrow{a}\cdot\overrightarrow{b}=\frac{1}{2}
+$$
+
+は誤りである。  
+正四面体の 2 辺のなす角を $\theta$ とすると，  
+余弦定理より
+
+$$
+1^2=1^2+1^2-2\cdot1\cdot1\cos\theta
+\quad\Rightarrow\quad
+1=2-2\cos\theta
+\quad\Rightarrow\quad
+\cos\theta=\frac{1}{2}
+$$
+
+となる。よって
+
+$$
+\overrightarrow{a}\cdot\overrightarrow{b}=|\overrightarrow{a}||\overrightarrow{b}|\cos\theta
+=1\cdot1\cdot\frac{1}{2}=\frac{1}{2}
+$$
+
+となる……と一見思えるが，これは「三角形」の場合の議論であり，  
+正四面体の頂点 $O,A,B,C$ では，$AB,BC,CA$ などが 1 である一方，  
+$OA,OB,OC$ のなす角は三角形とは異なる。
+
+そこで座標を用いて配置する。  
+中心が原点である正四面体の頂点として
+
+$$
+O\left(-\frac{1}{\sqrt{3}},-\frac{1}{\sqrt{3}},-\frac{1}{\sqrt{3}}\right),\quad
+A\left(\frac{1}{\sqrt{3}},\frac{1}{\sqrt{3}},-\frac{1}{\sqrt{3}}\right),
+$$
+
+$$
+B\left(\frac{1}{\sqrt{3}},-\frac{1}{\sqrt{3}},\frac{1}{\sqrt{3}}\right),\quad
+C\left(-\frac{1}{\sqrt{3}},\frac{1}{\sqrt{3}},\frac{1}{\sqrt{3}}\right)
+$$
+
+とおくと，
+
+$$
+|\overrightarrow{OA}|^2
+=\left(\frac{2}{\sqrt{3}}\right)^2+\left(\frac{2}{\sqrt{3}}\right)^2+0^2
+=\frac{8}{3}
+$$
+
+などとなってしまい，辺の長さを 1 に合わせるためにはさらに調整が必要である。
+
+ここで，より直接的に内積を決める。  
+正四面体 $OABC$ において，
+
+$$
+|\overrightarrow{OA}|=|\overrightarrow{OB}|=|\overrightarrow{OC}|=1,\quad
+|\overrightarrow{AB}|=|\overrightarrow{BC}|=|\overrightarrow{CA}|=1
+$$
+
+が成り立つ。$\overrightarrow{AB}=\overrightarrow{b}-\overrightarrow{a}$ について
+
+$$
+|\overrightarrow{b}-\overrightarrow{a}|^2
+=|\overrightarrow{b}|^2+|\overrightarrow{a}|^2-2\overrightarrow{a}\cdot\overrightarrow{b}
+=1+1-2\overrightarrow{a}\cdot\overrightarrow{b}
+$$
+
+これが 1 に等しいので
+
+$$
+1=2-2\overrightarrow{a}\cdot\overrightarrow{b}
+\quad\Rightarrow\quad
+\overrightarrow{a}\cdot\overrightarrow{b}=\frac{1}{2}
+$$
+
+となる。同様に
+
+$$
+\overrightarrow{b}\cdot\overrightarrow{c}
+=\overrightarrow{c}\cdot\overrightarrow{a}
+=\frac{1}{2}
+$$
+
+である。
+
+(2) より
+
+$$
+\overrightarrow{OD}
+=3\overrightarrow{b}+2\overrightarrow{c}-4\overrightarrow{a}
+$$
+
+なので，
+
+$$
+|\overrightarrow{OD}|^2
+=(3\overrightarrow{b}+2\overrightarrow{c}-4\overrightarrow{a})
+\cdot(3\overrightarrow{b}+2\overrightarrow{c}-4\overrightarrow{a})
+$$
+
+を計算する。内積の分配法則を用いると
+
+$$
+|\overrightarrow{OD}|^2
+=9|\overrightarrow{b}|^2+4|\overrightarrow{c}|^2+16|\overrightarrow{a}|^2
++2\cdot 3\cdot 2\,\overrightarrow{b}\cdot\overrightarrow{c}
+-2\cdot 3\cdot 4\,\overrightarrow{b}\cdot\overrightarrow{a}
+-2\cdot 2\cdot 4\,\overrightarrow{c}\cdot\overrightarrow{a}
+$$
+
+ここで $|\overrightarrow{a}|=|\overrightarrow{b}|=|\overrightarrow{c}|=1$，  
+$\overrightarrow{a}\cdot\overrightarrow{b}
+=\overrightarrow{b}\cdot\overrightarrow{c}
+=\overrightarrow{c}\cdot\overrightarrow{a}
+=\dfrac{1}{2}$ を代入すると
+
+$$
+|\overrightarrow{OD}|^2
+=9\cdot 1+4\cdot 1+16\cdot 1
++12\cdot\frac{1}{2}
+-24\cdot\frac{1}{2}
+-16\cdot\frac{1}{2}
+$$
+
+$$
+=9+4+16+6-12-8
+=35-20
+=15
+$$
+
+したがって
+
+$$
+|\overrightarrow{OD}|=\sqrt{15}
+$$
+
+よって，線分 $OD$ の長さは $\sqrt{15}$ である。

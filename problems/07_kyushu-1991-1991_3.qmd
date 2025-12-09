@@ -1,0 +1,29 @@
+---
+title: "九州大学 1991年 1991_3"
+problem_id: "07_kyushu-1991-1991_3"
+university: "九州大学"
+exam_year: "1991"
+source_tex: "archive/07_kyushu/1991/1991_3.tex"
+pdf_source: "archive/07_kyushu/1991/1991_3.pdf"
+page_image: "archive/07_kyushu/1991/1991_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　3次関数$f(x)=x(x^2+px+q)$は$x=\alpha$ $(\alpha\neq0)$で極大値0をとり，$x=\beta$で極小値$-32$をとるとする．
+次の問に答えよ．
+\begin{description}
+\item[(1)]$\alpha$，$\beta$，$p$，$q$を求めよ．
+\item[(2)]$f(x)$を$x$軸の正の方向へ$c$ $(c>0)$だけ平行移動した関数を$g(x)$とするとき，
+2つの曲線$y=f(x)$と$y=g(x)$で囲まれる部分の面積を$c$で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1991/1991_3.pdf)

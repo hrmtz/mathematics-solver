@@ -1,0 +1,43 @@
+---
+title: "東北大学 2003年 2003_1"
+problem_id: "04_tohoku-2003-2003_1"
+university: "東北大学"
+exam_year: "2003"
+source_tex: "archive/04_tohoku/2003/2003_1.tex"
+pdf_source: "archive/04_tohoku/2003/2003_1.pdf"
+page_image: "archive/04_tohoku/2003/2003_1.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$a$，$b$，$c$，$d$に対し，
+$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$，
+$E=\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}$とおく．
+\begin{description}
+\item[(1)]$A^2=\begin{pmatrix} \alpha & \beta 
+
+ \gamma & \delta \end{pmatrix}$のとき，
+$\alpha\delta-\beta\gamma\geqq0$を示せ．
+\item[(2)]$A$が$A^4=E$を満たすならば，
+$A^2=E$または$A^2=-E$となることを示せ．
+\item[(3)]$B=\begin{pmatrix} 0 & 1 
+
+ 1 & 0 \end{pmatrix}$とする．
+$A$が$A^2=-E$および$BA=-AB$を満たすとき，
+$b$，$c$，$d$を$a$の式で表せ．
+また，このとき$AB=A^mBA^n$が成立するような整数の組$(m,n)$で
+$1 \leqq m \leqq 3$，$1 \leqq n \leqq 3$の範囲にあるものをすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_1.pdf)

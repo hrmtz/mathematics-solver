@@ -1,0 +1,35 @@
+---
+title: "東北大学 2016年 2016_5"
+problem_id: "04_tohoku-2016-2016_5"
+university: "東北大学"
+exam_year: "2016"
+source_tex: "archive/04_tohoku/2016/2016_5.tex"
+pdf_source: "archive/04_tohoku/2016/2016_5.pdf"
+page_image: "archive/04_tohoku/2016/2016_5.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　空間内に，直線$l$で交わる2平面$\alpha, \, \beta$と交線$l$上の1点$O$がある。
+さらに，平面$\alpha$上の直線$m$と平面$\beta$上の直線$n$を，
+どちらも点$O$を通り$l$に垂直にとる。
+$m, \, n$上にそれぞれ点$P, \, Q$があり，
+\[ OP=\sqrt3, \hspace{1zw} OQ=2, \hspace{1zw} PQ=1 \]
+であるとする。
+線分$PQ$上の動点$T$について，$PT=t$とおく。
+点$T$を中心とした半径$\sqrt2$の球$S$を考える。
+このとき，以下の問いに答えよ。
+\begin{description}
+\item[(1)]$S$の平面$\alpha$による切り口の面積を$t$を用いて表せ。
+\item[(2)]$S$の平面$\alpha$による切り口の面積と$S$の平面$\beta$による切り口の面積の和を$f(t)$とおく。
+$T$が線分$PQ$上を動くとき，$f(t)$の最大値と，そのときの$t$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_5.pdf)

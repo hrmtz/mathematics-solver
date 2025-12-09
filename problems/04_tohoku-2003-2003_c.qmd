@@ -1,0 +1,29 @@
+---
+title: "東北大学 2003年 2003_c"
+problem_id: "04_tohoku-2003-2003_c"
+university: "東北大学"
+exam_year: "2003"
+source_tex: "archive/04_tohoku/2003/2003_c.tex"
+pdf_source: "archive/04_tohoku/2003/2003_c.pdf"
+page_image: "archive/04_tohoku/2003/2003_c.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　平面において，点$P(s, \, t)$は原点$O$を中心とする半径1の円周上にあり，
+点$Q(u, \, v)$は点$(1, \, 0)$を中心とする半径1の円周上にある．
+$P$と$Q$が$PQ=1$を保ちながら動くとき，次の問いに答えよ．
+\begin{description}
+\item[(1)]$s\neq1$のとき，$u$，$v$を$s$と$t$の式で表せ．
+\item[(2)]線分$PQ$の中点の軌跡を図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_c.pdf)

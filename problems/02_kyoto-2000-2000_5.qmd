@@ -1,0 +1,30 @@
+---
+title: "京都大学 2000年 2000_5"
+problem_id: "02_kyoto-2000-2000_5"
+university: "京都大学"
+exam_year: "2000"
+source_tex: "archive/02_kyoto/2000/2000_5.tex"
+pdf_source: "archive/02_kyoto/2000/2000_5.pdf"
+page_image: "archive/02_kyoto/2000/2000_5.jpg"
+fields:
+  - 数列
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　数列$\{c_n\}$を次の式で定める．
+\[ c_n=(n+1)\int_0^1x^n\cos\pi xdx \hspace{1zw} (n=1,2,\cdots) \]
+　このとき
+\begin{description}
+\item[(1)]$c_n$と$c_{n+2}$の関係を求めよ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}c_n$を求めよ．
+\item[(3)](2)で求めた極限値を$c$とするとき，$\displaystyle\lim_{n\to\infty}\frac{c_{n+1}-c}{c_n-c}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_5.pdf)

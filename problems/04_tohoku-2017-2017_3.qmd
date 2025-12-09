@@ -1,0 +1,28 @@
+---
+title: "東北大学 2017年 2017_3"
+problem_id: "04_tohoku-2017-2017_3"
+university: "東北大学"
+exam_year: "2017"
+source_tex: "archive/04_tohoku/2017/2017_3.tex"
+pdf_source: "archive/04_tohoku/2017/2017_3.pdf"
+page_image: "archive/04_tohoku/2017/2017_3.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$，$b$，$c$を1以上7以下の互いに異なる整数とする。
+\begin{description}
+\item[(1)]2次方程式$ax^2+bx+c=0$が有理数解をもつような組$(a, \, b, \, c)$の総数を求めよ。
+\item[(2)]2次方程式$ax^2+bx+c=0$が少なくとも一つの整数解をもつような
+組$(a, \, b, \, c)$の総数を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2017/2017_3.pdf)

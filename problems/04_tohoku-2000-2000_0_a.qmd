@@ -1,0 +1,29 @@
+---
+title: "東北大学 2000年 2000_0_a"
+problem_id: "04_tohoku-2000-2000_0_a"
+university: "東北大学"
+exam_year: "2000"
+source_tex: "archive/04_tohoku/2000/2000_0_a.tex"
+pdf_source: "archive/04_tohoku/2000/2000_0_a.pdf"
+page_image: "archive/04_tohoku/2000/2000_0_a.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$\angle ABC=\angle ACB={15}^\circ$である三角形$ABC$について，
+線分$AB$を点$A$の側へ延長して，その上に点$D$をとり，$AD=BC$となるようにする．
+このとき，次の問いに答えよ．
+\begin{description}
+\item[(1)]$\sin{15}^\circ$，$\cos{15}^\circ$，$\tan{15}^\circ$を求めよ．
+\item[(2)]$\angle ADC=\theta$とおくとき，$\sin\theta$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2000/2000_0_a.pdf)

@@ -1,0 +1,24 @@
+---
+title: "京都大学 2014年 2014_3"
+problem_id: "02_kyoto-2014-2014_3"
+university: "京都大学"
+exam_year: "2014"
+source_tex: "archive/02_kyoto/2014/2014_3.tex"
+pdf_source: "archive/02_kyoto/2014/2014_3.pdf"
+page_image: "archive/02_kyoto/2014/2014_3.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\triangle ABC$は，条件$\angle B=2\angle A$，$BC=1$を満たす三角形のうちで面積が最大のものであるとする．
+このとき，$\cos\angle B$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2014/2014_3.pdf)

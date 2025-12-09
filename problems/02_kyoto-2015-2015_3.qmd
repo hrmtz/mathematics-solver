@@ -1,0 +1,30 @@
+---
+title: "京都大学 2015年 2015_3"
+problem_id: "02_kyoto-2015-2015_3"
+university: "京都大学"
+exam_year: "2015"
+source_tex: "archive/02_kyoto/2015/2015_3.tex"
+pdf_source: "archive/02_kyoto/2015/2015_3.pdf"
+page_image: "archive/02_kyoto/2015/2015_3.jpg"
+fields:
+  - 指数・対数
+  - 数列
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]$a$を実数とするとき，$(a, \, 0)$を通り，
+$y=e^x+1$に接する直線がただ1つ存在することを示せ．
+\item[(2)]$a_1=1$として，$n=1, \, 2, \, \cdots$について，$(a_n, \, 0)$を通り，
+$y=e^x+1$に接する直線の接点の$x$座標を$a_{n+1}$とする．
+このとき，$\displaystyle\lim_{n\to\infty}(a_{n+1}-a_n)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2015/2015_3.pdf)

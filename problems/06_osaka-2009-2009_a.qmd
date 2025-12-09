@@ -1,0 +1,38 @@
+---
+title: "大阪大学 2009年 2009_a"
+problem_id: "06_osaka-2009-2009_a"
+university: "大阪大学"
+exam_year: "2009"
+source_tex: "archive/06_osaka/2009/2009_a.tex"
+pdf_source: "archive/06_osaka/2009/2009_a.pdf"
+page_image: "archive/06_osaka/2009/2009_a.jpg"
+fields:
+  - 数列
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$r$，$s$，$\alpha$，$\beta$を実数とする．ただし$\alpha\neq\beta$とする．
+$a_1=\alpha$，$b_1=\beta$として，数列$\{ a_n \}$，$\{ b_n \}$を次のように定める．
+\[ \begin{pmatrix} a_{n+1} 
+
+ b_{n+1} \end{pmatrix}=
+\begin{pmatrix} 1-r & r 
+
+ s & 1-s \end{pmatrix}\begin{pmatrix} a_n 
+
+ b_n \end{pmatrix}, \hspace{1zw}
+n=1, \, 2, \, \cdots \]
+\begin{description}
+\item[(1)]$n\to\infty$のとき$a_n-b_n\to0$となるための$r$，$s$の満たすべき条件を求めよ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}(a_n-b_n)=0$となるとき
+$\displaystyle\lim_{n\to\infty}a_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2009/2009_a.pdf)

@@ -1,0 +1,29 @@
+---
+title: "大阪大学 1989年 1989_0_3"
+problem_id: "06_osaka-1989-1989_0_3"
+university: "大阪大学"
+exam_year: "1989"
+source_tex: "archive/06_osaka/1989/1989_0_3.tex"
+pdf_source: "archive/06_osaka/1989/1989_0_3.pdf"
+page_image: "archive/06_osaka/1989/1989_0_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数$f(x)=ax^3+bx^2+cx+d$は$x=3$のとき極小値0をとり，
+曲線$y=f(x)$上の点$(1, \, 8)$における接線が$(3, \, 0)$を通るとする．
+このとき，
+\begin{description}
+\item[(1)]定数$a$，$b$，$c$，$d$の値を求めよ．
+\item[(2)]$y=f(x)$と$x$軸とで囲まれる部分の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1989/1989_0_3.pdf)

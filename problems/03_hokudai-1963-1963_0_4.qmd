@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1963年 1963_0_4"
+problem_id: "03_hokudai-1963-1963_0_4"
+university: "北海道大学"
+exam_year: "1963"
+source_tex: "archive/03_hokudai/1963/1963_0_4.tex"
+pdf_source: "archive/03_hokudai/1963/1963_0_4.pdf"
+page_image: "archive/03_hokudai/1963/1963_0_4.jpg"
+fields:
+  - 代数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$x$の二次関数$\displaystyle f(x)=x^2+(2a-1)x+a^2+a+\frac{1}{a}+2$について，
+次の問に答えよ。ただし，文字はすべて実数とする。
+\begin{description}
+\item[(1)]$f(x)$の最小値$M$を求めよ。
+\item[(2)]$\displaystyle\frac{1}{3}\leqq a \leqq1$なるとき，$M$の最小値と最大値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1963/1963_0_4.pdf)

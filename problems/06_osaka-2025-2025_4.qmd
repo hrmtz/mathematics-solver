@@ -1,0 +1,32 @@
+---
+title: "大阪大学 2025年 2025_4"
+problem_id: "06_osaka-2025-2025_4"
+university: "大阪大学"
+exam_year: "2025"
+source_tex: "archive/06_osaka/2025/2025_4.tex"
+pdf_source: "archive/06_osaka/2025/2025_4.pdf"
+page_image: "archive/06_osaka/2025/2025_4.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　次の問いに答えよ．
+\begin{description}
+\item[(1)]$t>0$のとき
+\[ -\frac{1}{t}<\int_t^{2t}\frac{\sin x}{x^2}dx<\frac{1}{t} \]
+が成り立つことを示せ．
+\item[(2)]$\displaystyle\lim_{t\to\infty}\int_t^{2t}\frac{\cos x}{x}dx=0$を示せ．
+\item[(3)]$\displaystyle f(x)=\sin\left(\frac{3x}{2}\right)\sin\left(\frac{x}{2}\right)$とおく．
+\[ \lim_{t\to\infty}\int_1^t\frac{f(x)}{x}dx=\frac{1}{2}\int_1^2\frac{\cos x}{x}dx \]
+を示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2025/2025_4.pdf)

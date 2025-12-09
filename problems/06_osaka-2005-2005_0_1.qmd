@@ -1,0 +1,29 @@
+---
+title: "大阪大学 2005年 2005_0_1"
+problem_id: "06_osaka-2005-2005_0_1"
+university: "大阪大学"
+exam_year: "2005"
+source_tex: "archive/06_osaka/2005/2005_0_1.tex"
+pdf_source: "archive/06_osaka/2005/2005_0_1.pdf"
+page_image: "archive/06_osaka/2005/2005_0_1.jpg"
+fields:
+  - 不等式
+  - 整数
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の問いに答えよ．
+\begin{description}
+\item[(1)]不等式${10}^{2x}\leqq{10}^{6-x}$をみたす実数$x$の範囲を求めよ．
+\item[(2)]${10}^{2x}\leqq y \leqq{10}^{5x}$と$y\leqq{10}^{6-x}$を同時にみたす
+整数の組$(x, \, y)$の個数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2005/2005_0_1.pdf)

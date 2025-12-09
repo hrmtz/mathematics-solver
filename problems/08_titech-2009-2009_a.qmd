@@ -1,0 +1,26 @@
+---
+title: "東京科学大学 2009年 2009_a"
+problem_id: "08_titech-2009-2009_a"
+university: "東京科学大学"
+exam_year: "2009"
+source_tex: "archive/08_titech/2009/2009_a.tex"
+pdf_source: "archive/08_titech/2009/2009_a.pdf"
+page_image: "archive/08_titech/2009/2009_a.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$が与えられた実数のとき，
+$xyz$空間の点$C(a,0,3)$から出た光が
+球$x^2+y^2+{(z-1)}^2\leqq1$でさえぎられてできる$xy$平面上の影を$S$とする．
+点$(X,Y,0)$が$S$に含まれる条件を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2009/2009_a.pdf)

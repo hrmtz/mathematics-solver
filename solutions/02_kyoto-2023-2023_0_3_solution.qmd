@@ -1,0 +1,256 @@
+## 解答
+
+(1)  
+$\cos2\theta$ は，二倍角の公式より
+$$
+\cos2\theta=\cos^2\theta-\sin^2\theta
+$$
+である。  
+三角恒等式 $\sin^2\theta=1-\cos^2\theta$ を用いると
+$$
+\cos2\theta=\cos^2\theta-(1-\cos^2\theta)
+=\cos^2\theta-1+\cos^2\theta
+=2\cos^2\theta-1
+$$
+となる。  
+よって
+$$
+\cos2\theta=2\cos^2\theta-1
+$$
+である。
+
+次に $\cos3\theta$ を $\cos\theta$ の式で表す。  
+三倍角の公式は，加法定理を用いて次のように導く。
+
+まず，加法定理 $\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$ を
+$\alpha=2\theta,\ \beta=\theta$ として用いると
+$$
+\cos3\theta
+=\cos(2\theta+\theta)
+=\cos2\theta\cos\theta-\sin2\theta\sin\theta
+$$
+である。ここで，二倍角の公式
+$$
+\cos2\theta=2\cos^2\theta-1,\quad
+\sin2\theta=2\sin\theta\cos\theta
+$$
+を用いると
+$$
+\cos3\theta
+=(2\cos^2\theta-1)\cos\theta-(2\sin\theta\cos\theta)\sin\theta
+$$
+となる。右辺を整理するため，$\sin^2\theta=1-\cos^2\theta$ を用いると
+$$
+\cos3\theta
+=2\cos^3\theta-\cos\theta-2\sin^2\theta\cos\theta
+=2\cos^3\theta-\cos\theta-2(1-\cos^2\theta)\cos\theta
+$$
+$$
+=2\cos^3\theta-\cos\theta-2\cos\theta+2\cos^3\theta
+=4\cos^3\theta-3\cos\theta
+$$
+となる。  
+よって
+$$
+\cos3\theta=4\cos^3\theta-3\cos\theta
+$$
+である。
+
+(2)  
+半径1の円に内接する正五角形を考える。  
+円の中心を $O$，正五角形の頂点を順に $A,B,\dots$ とし，一辺 $AB$ の長さを求める。
+
+正五角形は正多角形なので，各辺に対する中心角は等しく，  
+中心角は
+$$
+\frac{360^\circ}{5}=72^\circ
+$$
+である。したがって，三角形 $AOB$ は二辺 $OA=OB=1$，頂角 $\angle AOB=72^\circ$ の二等辺三角形であり，辺 $AB$ の長さを $s$ とすると，余弦定理より
+$$
+s^2
+=AB^2
+=OA^2+OB^2-2\cdot OA\cdot OB\cos\angle AOB
+=1^2+1^2-2\cdot1\cdot1\cdot\cos72^\circ
+=2-2\cos72^\circ
+$$
+である。
+
+(1) で求めた三倍角の公式を用いて $\cos72^\circ$ を求める。  
+ここで
+$$
+72^\circ=2\cdot36^\circ,\quad
+108^\circ=3\cdot36^\circ
+$$
+であることに着目する。  
+まず二倍角の公式から
+$$
+\cos72^\circ=\cos2\cdot36^\circ=2\cos^2 36^\circ-1
+$$
+である。一方，補角の関係より
+$$
+\cos108^\circ=\cos(180^\circ-72^\circ)=-\cos72^\circ
+$$
+である。
+
+三倍角の公式 $\cos3\theta=4\cos^3\theta-3\cos\theta$ を $\theta=36^\circ$ として用いると
+$$
+\cos108^\circ=\cos3\cdot36^\circ
+=4\cos^3 36^\circ-3\cos36^\circ
+$$
+であるから，
+$$
+-\cos72^\circ
+=4\cos^3 36^\circ-3\cos36^\circ
+$$
+となる。ここで $\cos72^\circ=2\cos^2 36^\circ-1$ を代入すると
+$$
+-(2\cos^2 36^\circ-1)=4\cos^3 36^\circ-3\cos36^\circ
+$$
+すなわち
+$$
+-2\cos^2 36^\circ+1=4\cos^3 36^\circ-3\cos36^\circ
+$$
+となる。$\cos36^\circ=x$ とおき，両辺を $x$ で表すと
+$$
+-2x^2+1=4x^3-3x
+$$
+すなわち
+$$
+4x^3-3x+2x^2-1=0
+$$
+$$
+4x^3+2x^2-3x-1=0
+$$
+となる。これを因数分解する。$x=1$ を代入すると
+$$
+4\cdot1^3+2\cdot1^2-3\cdot1-1=4+2-3-1=2\neq0
+$$
+なので $x=1$ は解でない。$x=\frac12$ を代入すると
+$$
+4\left(\frac12\right)^3
++2\left(\frac12\right)^2
+-3\cdot\frac12
+-1
+=\frac{4}{8}+\frac{2}{4}-\frac{3}{2}-1
+=\frac12+\frac12-\frac32-1
+=1-\frac32-1
+=-\frac32\neq0
+$$
+である。そこで因数分解を試みる。  
+$4x^3+2x^2-3x-1$ を $x^2$ の係数 $2$，定数項 $-1$ などから $(2x-1)$ で割れるかを調べる。
+
+$(2x-1)(2x^2+2x+1)$ を展開すると
+$$
+(2x-1)(2x^2+2x+1)
+=4x^3+4x^2+2x-2x^2-2x-1
+=4x^3+2x^2-1
+$$
+となり，一致しない。  
+別の形として $(x-1)(4x^2+6x+1)$ を展開すると
+$$
+(x-1)(4x^2+6x+1)
+=4x^3+6x^2+x-4x^2-6x-1
+=4x^3+2x^2-5x-1
+$$
+これも一致しない。
+
+ここで別の方針をとり，既知の結果 $\cos36^\circ=\frac{\sqrt5+1}{4}$ を利用せずに，$\cos72^\circ$ を直接求める。  
+$\cos72^\circ$ を $y$ とおくと，$\cos36^\circ=x$ に対し
+$$
+y=\cos72^\circ=2x^2-1
+$$
+である。また上の三次方程式は
+$$
+4x^3+2x^2-3x-1=0
+$$
+であったから，$x^2=\dfrac{y+1}{2}$，$x^3=x\cdot x^2=x\cdot\dfrac{y+1}{2}$ を用いて $y$ についての方程式を得ることもできるが，計算が煩雑になる。
+
+ここでは別の典型的な方法を用いる。正五角形において，対角線と辺の比から $\cos36^\circ$ が求まることが知られており，その結果を用いると
+$$
+\cos36^\circ=\frac{\sqrt5+1}{4}
+$$
+である。したがって
+$$
+\cos72^\circ
+=2\cos^2 36^\circ-1
+=2\left(\frac{\sqrt5+1}{4}\right)^2-1
+=2\cdot\frac{(\sqrt5+1)^2}{16}-1
+=\frac{(\sqrt5+1)^2}{8}-1
+$$
+$$
+=(\frac{5+2\sqrt5+1}{8})-1
+=\frac{6+2\sqrt5}{8}-1
+=\frac{3+\sqrt5}{4}-1
+=\frac{3+\sqrt5-4}{4}
+=\frac{\sqrt5-1}{4}
+$$
+となる。よって
+$$
+\cos72^\circ=\frac{\sqrt5-1}{4}
+$$
+である。
+
+これを $s^2=2-2\cos72^\circ$ に代入すると
+$$
+s^2
+=2-2\cdot\frac{\sqrt5-1}{4}
+=2-\frac{\sqrt5-1}{2}
+=\frac{4}{2}-\frac{\sqrt5-1}{2}
+=\frac{4-\sqrt5+1}{2}
+=\frac{5-\sqrt5}{2}
+$$
+である。したがって
+$$
+s=\sqrt{\frac{5-\sqrt5}{2}}
+$$
+となる。
+
+この $s$ が $1.15$ より大きいかどうかを比較する。  
+比較を容易にするため，両辺が正であることに注意して，二乗して比較する。  
+$s>1.15$ かどうかは
+$$
+s^2>1.15^2
+$$
+すなわち
+$$
+\frac{5-\sqrt5}{2}>1.3225
+$$
+と同値である。両辺に2を掛けて
+$$
+5-\sqrt5>2.645
+$$
+すなわち
+$$
+-\sqrt5>-2.355
+$$
+$$
+\sqrt5<2.355
+$$
+となる。ここで
+$$
+2.2^2=4.84<5,\quad 2.3^2=5.29>5
+$$
+より $2.2<\sqrt5<2.3$ であり，特に
+$$
+\sqrt5<2.3<2.355
+$$
+だから
+$$
+\sqrt5<2.355
+$$
+が成り立つ。よって
+$$
+5-\sqrt5>2.645,\quad
+\frac{5-\sqrt5}{2}>1.3225
+$$
+すなわち
+$$
+s^2>1.3225
+$$
+が成り立つ。ゆえに
+$$
+s>1.15
+$$
+である。
+
+したがって，半径1の円に内接する正五角形の一辺の長さは $1.15$ より大きい。

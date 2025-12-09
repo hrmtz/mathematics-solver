@@ -1,0 +1,29 @@
+---
+title: "東京大学 2023年 2023_2"
+problem_id: "01_tokyo-2023-2023_2"
+university: "東京大学"
+exam_year: "2023"
+source_tex: "archive/01_tokyo/2023/2023_2.tex"
+pdf_source: "archive/01_tokyo/2023/2023_2.pdf"
+page_image: "archive/01_tokyo/2023/2023_2.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　黒玉3個，赤玉4個，白玉5個が入っている袋から玉を1個ずつ取り出し，
+取り出した玉を順に横一列に12個すべて並べる。
+ただし，袋から個々の玉が取り出される確率は等しいものとする。
+\begin{description}
+\item[(1)]どの赤玉も隣り合わない確率$p$を求めよ。
+\item[(2)]どの赤玉も隣り合わないとき，
+どの黒玉も隣り合わない条件付き確率$q$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2023/2023_2.pdf)

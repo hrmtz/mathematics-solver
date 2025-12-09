@@ -1,0 +1,40 @@
+---
+title: "東北大学 2019年 2019_0_d"
+problem_id: "04_tohoku-2019-2019_0_d"
+university: "東北大学"
+exam_year: "2019"
+source_tex: "archive/04_tohoku/2019/2019_0_d.tex"
+pdf_source: "archive/04_tohoku/2019/2019_0_d.pdf"
+page_image: "archive/04_tohoku/2019/2019_0_d.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$k$，$n$を正の整数とする。整数$a_1, \, a_2, \, \cdots, \, a_k$と
+整数$b_1, \, b_2, \, \cdots, \, b_k$を並べた次のような表を考える。
+
+
+![](../archive/04_tohoku/2019/fig_2019_d.jpg)
+
+
+　以下の条件(i)，(ii)，(iii)を同時に満たすようなすべての表の個数を$A_{n,k}$とする。
+\begin{description}
+\item[(i)]$1 \leqq a_1 \leqq a_2 \leqq \cdots \leqq a_k \leqq n $
+\item[(ii)]$1 \leqq b_1 \leqq b_2 \leqq \cdots \leqq b_k \leqq n $
+\item[(iii)]$a_i<b_i$と$a_j>b_j$を満たすような$i$，$j$が存在する。
+\end{description}
+　以下の問いに答えよ。
+\begin{description}
+\item[(1)]$A_{n,2}$を求めよ。
+\item[(2)]$A_{n,k}$が偶数であることを示せ。
+\item[(3)]$A_{3,3}$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_0_d.pdf)

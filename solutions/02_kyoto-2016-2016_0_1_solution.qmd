@@ -1,0 +1,129 @@
+## 解答
+
+領域は，円$x^2+y^2\leqq 2$かつ帯$|x|\leqq 1$の共通部分のうち，曲線$C:y=x^3+x^2-x$の上側にある部分である．  
+面積を$x$についての定積分で表すことを考える．
+
+### (1) 領域の $x$ の範囲
+
+もともと$|x|\leqq 1$であるから，$x$の範囲は$-1\leqq x\leqq 1$となる．  
+この区間で，円の上側の境界は
+$$
+y=\sqrt{2-x^2}
+$$
+曲線$C$は
+$$
+y=f(x)=x^3+x^2-x
+$$
+であるから，求める面積$S$は
+$$
+S=\int_{-1}^{1}\{\sqrt{2-x^2}-f(x)\}\,dx
+=\int_{-1}^{1}\left(\sqrt{2-x^2}-x^3-x^2+x\right)dx
+$$
+となる．
+
+### (2) 偶奇性を利用した簡略化
+
+被積分関数を偶奇で分けて整理する．
+
+まず
+$$
+f(x)=x^3+x^2-x
+$$
+について，奇関数部分と偶関数部分を分けると
+$$
+x^3-x \quad(\text{奇関数}),\qquad x^2 \quad(\text{偶関数})
+$$
+であるから
+$$
+\sqrt{2-x^2}-x^3-x^2+x
+=\bigl(\sqrt{2-x^2}-x^2\bigr)-\bigl(x^3-x\bigr)
+$$
+右辺第1項$\sqrt{2-x^2}-x^2$は$x$の偶関数であり，第2項$x^3-x$は$x$の奇関数である．  
+よって
+$$
+S=\int_{-1}^{1}\bigl(\sqrt{2-x^2}-x^2\bigr)\,dx
+-\int_{-1}^{1}(x^3-x)\,dx
+$$
+ここで，奇関数の$[-1,1]$での積分は0であるので
+$$
+\int_{-1}^{1}(x^3-x)\,dx=0
+$$
+したがって
+$$
+S=\int_{-1}^{1}\bigl(\sqrt{2-x^2}-x^2\bigr)\,dx
+$$
+
+さらに，被積分関数は偶関数であるから
+$$
+S=2\int_{0}^{1}\bigl(\sqrt{2-x^2}-x^2\bigr)\,dx
+$$
+
+### (3) 積分の計算
+
+$$
+S=2\left(\int_{0}^{1}\sqrt{2-x^2}\,dx-\int_{0}^{1}x^2\,dx\right)
+$$
+
+まず
+$$
+\int_{0}^{1}x^2\,dx
+=\left[\frac{x^3}{3}\right]_{0}^{1}
+=\frac{1}{3}
+$$
+
+次に
+$$
+\int_{0}^{1}\sqrt{2-x^2}\,dx
+$$
+を計算する．これは半径$\sqrt{2}$の円の上半分の一部であるから，三角関数への置換を用いる．  
+$x=\sqrt{2}\sin\theta$とおくと，$dx=\sqrt{2}\cos\theta\,d\theta$となり，
+$$
+2-x^2=2-2\sin^2\theta=2\cos^2\theta
+$$
+なので
+$$
+\sqrt{2-x^2}=\sqrt{2}\cos\theta
+$$
+
+$x$の範囲$x:0\to 1$に対し，
+$$
+x=\sqrt{2}\sin\theta
+\quad\Rightarrow\quad
+\sin\theta=\frac{x}{\sqrt{2}}
+$$
+より
+$$
+x=0\Rightarrow\sin\theta=0\Rightarrow\theta=0,\qquad
+x=1\Rightarrow\sin\theta=\frac{1}{\sqrt{2}}\Rightarrow\theta=\frac{\pi}{4}
+$$
+
+したがって
+$$
+\int_{0}^{1}\sqrt{2-x^2}\,dx
+=\int_{0}^{\pi/4}\sqrt{2}\cos\theta\cdot\sqrt{2}\cos\theta\,d\theta
+=\int_{0}^{\pi/4}2\cos^2\theta\,d\theta
+$$
+
+$\cos^2\theta=\dfrac{1+\cos 2\theta}{2}$ を用いると
+$$
+\int_{0}^{\pi/4}2\cos^2\theta\,d\theta
+=\int_{0}^{\pi/4}\bigl(1+\cos 2\theta\bigr)\,d\theta
+=\left[\theta+\frac{\sin 2\theta}{2}\right]_{0}^{\pi/4}
+$$
+$$
+=\left(\frac{\pi}{4}+\frac{\sin(\pi/2)}{2}\right)-\left(0+\frac{\sin 0}{2}\right)
+=\frac{\pi}{4}+\frac{1}{2}
+$$
+
+以上より
+$$
+S=2\left(\frac{\pi}{4}+\frac{1}{2}-\frac{1}{3}\right)
+=2\left(\frac{\pi}{4}+\frac{1}{6}\right)
+=\frac{\pi}{2}+\frac{1}{3}
+$$
+
+したがって，求める面積は
+$$
+\boxed{\frac{\pi}{2}+\frac{1}{3}}
+$$
+である。

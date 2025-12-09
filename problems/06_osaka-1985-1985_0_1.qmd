@@ -1,0 +1,29 @@
+---
+title: "大阪大学 1985年 1985_0_1"
+problem_id: "06_osaka-1985-1985_0_1"
+university: "大阪大学"
+exam_year: "1985"
+source_tex: "archive/06_osaka/1985/1985_0_1.tex"
+pdf_source: "archive/06_osaka/1985/1985_0_1.pdf"
+page_image: "archive/06_osaka/1985/1985_0_1.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$k$を正数とし，$f(x)=x^3-10x^2+kx$とする．
+\begin{description}
+\item[(1)]方程式$f(x)=0$が3個の実数解をもち，
+それらの解が互いに1以上離れているための$k$の条件を求めよ．
+\item[(2)]曲線$y=f(x)$がある点で$x$軸に接するとき，
+$k$の値および曲線$y=f(x)$と$x$軸とによって囲まれる図形の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1985/1985_0_1.pdf)

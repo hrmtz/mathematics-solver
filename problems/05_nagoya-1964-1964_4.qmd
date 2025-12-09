@@ -1,0 +1,25 @@
+---
+title: "名古屋大学 1964年 1964_4"
+problem_id: "05_nagoya-1964-1964_4"
+university: "名古屋大学"
+exam_year: "1964"
+source_tex: "archive/05_nagoya/1964/1964_4.tex"
+pdf_source: "archive/05_nagoya/1964/1964_4.pdf"
+page_image: "archive/05_nagoya/1964/1964_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　1辺の長さが$a$の正三角形の中に，
+図のように4円$O$，$O_1$，$O_2$，$O_3$が接している。
+ただし円$O$はこの正三角形の重心を中心とする半径$r$の円である。
+$r$が変化するとき，これら4円の面積の和の最大値および最小値を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1964/1964_4.pdf)

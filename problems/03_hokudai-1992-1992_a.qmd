@@ -1,0 +1,26 @@
+---
+title: "北海道大学 1992年 1992_a"
+problem_id: "03_hokudai-1992-1992_a"
+university: "北海道大学"
+exam_year: "1992"
+source_tex: "archive/03_hokudai/1992/1992_a.tex"
+pdf_source: "archive/03_hokudai/1992/1992_a.pdf"
+page_image: "archive/03_hokudai/1992/1992_a.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xyz$空間で，次の条件(C)を満たす球面$S$の中心が描く図形の方程式を求めよ．
+\begin{description}
+\item[(C):]$S$は原点を通り，$S$と球面$x^2+y^2+z^2=1$との共通部分は
+半径$\displaystyle\frac{1}{2}$の円である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1992/1992_a.pdf)

@@ -1,0 +1,23 @@
+---
+title: "東京科学大学 1967年 1967_2"
+problem_id: "08_titech-1967-1967_2"
+university: "東京科学大学"
+exam_year: "1967"
+source_tex: "archive/08_titech/1967/1967_2.tex"
+pdf_source: "archive/08_titech/1967/1967_2.pdf"
+page_image: "archive/08_titech/1967/1967_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　点$P(2, \, 1)$を通り，だ円（長円）$3x^2+2y^2=6$と2点$Q$，$R$で交わる直線を引く．
+このとき，積$\overline{PQ}\cdot\overline{PR}$のとりうる値の範囲を定めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1967/1967_2.pdf)

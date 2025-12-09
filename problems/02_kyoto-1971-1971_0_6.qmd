@@ -1,0 +1,24 @@
+---
+title: "京都大学 1971年 1971_0_6"
+problem_id: "02_kyoto-1971-1971_0_6"
+university: "京都大学"
+exam_year: "1971"
+source_tex: "archive/02_kyoto/1971/1971_0_6.tex"
+pdf_source: "archive/02_kyoto/1971/1971_0_6.pdf"
+page_image: "archive/02_kyoto/1971/1971_0_6.jpg"
+fields:
+  - 微分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　3次関数$f(x)=x^3-ax$ $(a\text{は実数})$の絶対値$|f(x)|$の$0 \leqq x \leqq 1$における最大値は，
+$a$の値が何であっても，つねに$\displaystyle\frac{1}{4}$より小さくないことを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1971/1971_0_6.pdf)

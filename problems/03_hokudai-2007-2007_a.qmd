@@ -1,0 +1,32 @@
+---
+title: "北海道大学 2007年 2007_a"
+problem_id: "03_hokudai-2007-2007_a"
+university: "北海道大学"
+exam_year: "2007"
+source_tex: "archive/03_hokudai/2007/2007_a.tex"
+pdf_source: "archive/03_hokudai/2007/2007_a.pdf"
+page_image: "archive/03_hokudai/2007/2007_a.jpg"
+fields:
+  - 三角関数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$k$を実数とし，関数$f(x)$を
+\[ f(x)=\sqrt3 \, \sin2x-\cos2x+k(\sqrt3 \, \sin x+\cos x) \]
+とする．
+\begin{description}
+\item[(1)]$t=\sqrt3 \, \sin x+\cos x$とおくとき，
+$f(x)$を$t$の2次式で表せ．
+\item[(2)]$\displaystyle k=-\frac{1}{\sqrt3}$のとき，
+$0<x<\pi$の範囲で方程式$f(x)=0$の解を求めよ．
+\item[(3)]$0<x<\pi$の範囲で方程式$f(x)=0$は任意の実数$k$に対して解をもつことを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_a.pdf)

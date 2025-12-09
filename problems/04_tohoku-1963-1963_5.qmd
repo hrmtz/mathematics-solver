@@ -1,0 +1,28 @@
+---
+title: "東北大学 1963年 1963_5"
+problem_id: "04_tohoku-1963-1963_5"
+university: "東北大学"
+exam_year: "1963"
+source_tex: "archive/04_tohoku/1963/1963_5.tex"
+pdf_source: "archive/04_tohoku/1963/1963_5.pdf"
+page_image: "archive/04_tohoku/1963/1963_5.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　長さ$2a$の線分$AB$を直径とする半円と，
+$AB$を1辺とする長方形$ABCD$があり，
+辺$CD$は半円と交わっている。
+長方形の外側にある半円の部分と，
+半円の外側にある長方形の部分の面積の和を最小にしたい。
+辺$AD$の長さをいくらにすればよいか。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1963/1963_5.pdf)

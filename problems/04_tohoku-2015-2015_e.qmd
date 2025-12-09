@@ -1,0 +1,38 @@
+---
+title: "東北大学 2015年 2015_e"
+problem_id: "04_tohoku-2015-2015_e"
+university: "東北大学"
+exam_year: "2015"
+source_tex: "archive/04_tohoku/2015/2015_e.tex"
+pdf_source: "archive/04_tohoku/2015/2015_e.pdf"
+page_image: "archive/04_tohoku/2015/2015_e.jpg"
+fields:
+  - 複素数平面
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$\alpha, \, \beta, \, \gamma$を複素数として、$f(t)=\alpha t^2+\beta t+\gamma$とおく。
+実部と虚部がどちらも整数である複素数全体の集合を$R$とする。また、$i$を虚数単位とする。
+\begin{description}
+\item[(1)]次の2条件(a)，(b)は同値であることを示せ。
+\begin{description}
+\item[(a)]すべての整数$n$に対し、$f(n)$は$R$の要素である。
+\item[(b)]$2\alpha, \, \beta-\alpha, \, \gamma$はすべて$R$の要素である。
+\end{description}
+\item[(2)]$x$が$R$の要素ならば、
+$\displaystyle\frac{x(x+1)}{1-i}$は$R$の要素であることを示せ。
+\item[(3)]次の2条件(c)，(d)は同値であることを示せ。
+\begin{description}
+\item[(c)]すべての$R$の要素$x$に対し、$f(x)$は$R$の要素である。
+\item[(d)]$(1-i)\alpha, \, \beta-\alpha, \, \gamma$はすべて$R$の要素である。
+\end{description}
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2015/2015_e.pdf)

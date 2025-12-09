@@ -1,0 +1,30 @@
+---
+title: "大阪大学 2010年 2010_2"
+problem_id: "06_osaka-2010-2010_2"
+university: "大阪大学"
+exam_year: "2010"
+source_tex: "archive/06_osaka/2010/2010_2.tex"
+pdf_source: "archive/06_osaka/2010/2010_2.pdf"
+page_image: "archive/06_osaka/2010/2010_2.jpg"
+fields:
+  - 平面図形
+  - 微分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\displaystyle 0<\theta<\frac{\pi}{2}$とする．2つの曲線
+\[ C_1:x^2+3y^2=3, \hspace{1zw} C_2:\frac{x^2}{{\cos}^2\theta}-\frac{y^2}{{\sin}^2\theta}=2 \]
+の交点のうち，$x$座標と$y$座標がともに正であるものを$P$とする．
+$P$における$C_1$，$C_2$の接線をそれぞれ$l_1$，$l_2$とし，
+$y$軸と$l_1$，$l_2$の交点をそれぞれ$Q$，$R$とする．
+$\theta$が$\displaystyle0<\theta<\frac{\pi}{2}$の範囲を動くとき，
+線分$QR$の長さの最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2010/2010_2.pdf)

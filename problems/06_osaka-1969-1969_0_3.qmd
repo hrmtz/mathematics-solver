@@ -1,0 +1,26 @@
+---
+title: "大阪大学 1969年 1969_0_3"
+problem_id: "06_osaka-1969-1969_0_3"
+university: "大阪大学"
+exam_year: "1969"
+source_tex: "archive/06_osaka/1969/1969_0_3.tex"
+pdf_source: "archive/06_osaka/1969/1969_0_3.pdf"
+page_image: "archive/06_osaka/1969/1969_0_3.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　不等式$\{\log_4(x^2+y^2)-\log_8(x^3-y^3)\} \{\log_2y-\log_4(x^2-2y+y^2)\}>0$を満たす
+点$(x, \, y)$の存在する範囲を図示せよ．
+また，その面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1969/1969_0_3.pdf)

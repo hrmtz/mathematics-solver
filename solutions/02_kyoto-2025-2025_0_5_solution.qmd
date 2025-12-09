@@ -1,0 +1,139 @@
+## 解答
+
+原点を $O$ とおき，位置ベクトルを用いて議論する．  
+$\overrightarrow{OA}, \overrightarrow{OB}, \overrightarrow{OC}$ は同一直線上にも同一平面上にもないので，3本のベクトルは一次独立であり，空間の基底をなす．
+
+点 $L, M, N$ は
+$$
+\overrightarrow{OL} = s\overrightarrow{OA},\quad
+\overrightarrow{OM} = t\overrightarrow{OB},\quad
+\overrightarrow{ON} = u\overrightarrow{OC}
+$$
+で与えられている．
+
+問題の条件より
+$$
+\frac{1}{s} + \frac{2}{t} + \frac{3}{u} = 4
+$$
+が成り立つ．この式を変形して，平面 $LMN$ を表すベクトル方程式に結びつける．
+
+### (1) 条件式の変形
+
+$\dfrac{1}{s} = \dfrac{1}{\|\overrightarrow{OL}\|/\|\overrightarrow{OA}\|}$ のような長さで考えるのではなく，そのままベクトルに掛ける形へ変形する．  
+$\overrightarrow{OL} = s\overrightarrow{OA}$ より，$s\neq 0$ なので
+$$
+\overrightarrow{OA} = \frac{1}{s}\,\overrightarrow{OL}
+$$
+同様に
+$$
+\overrightarrow{OB} = \frac{1}{t}\,\overrightarrow{OM},\quad
+\overrightarrow{OC} = \frac{1}{u}\,\overrightarrow{ON}
+$$
+が成り立つ．
+
+これらを用いて，次のベクトルを考える：
+$$
+\frac{1}{s}\overrightarrow{OL} + \frac{2}{t}\overrightarrow{OM} + \frac{3}{u}\overrightarrow{ON}.
+$$
+先ほどの表現を代入すると
+$$
+\frac{1}{s}\overrightarrow{OL}
+= \overrightarrow{OA},\quad
+\frac{2}{t}\overrightarrow{OM}
+= 2\overrightarrow{OB},\quad
+\frac{3}{u}\overrightarrow{ON}
+= 3\overrightarrow{OC}
+$$
+ゆえに
+$$
+\frac{1}{s}\overrightarrow{OL} + \frac{2}{t}\overrightarrow{OM} + \frac{3}{u}\overrightarrow{ON}
+= \overrightarrow{OA} + 2\overrightarrow{OB} + 3\overrightarrow{OC}.
+$$
+
+一方もとの条件 $\dfrac{1}{s} + \dfrac{2}{t} + \dfrac{3}{u} = 4$ を用いると，
+$$
+\frac{1}{s}\overrightarrow{OL} + \frac{2}{t}\overrightarrow{OM} + \frac{3}{u}\overrightarrow{ON}
+= \left(\frac{1}{s} + \frac{2}{t} + \frac{3}{u}\right)\,\vec{X}
+\quad\text{という形を目指す．}
+$$
+そこで，ある定ベクトル $\vec{P}$ を用いて
+$$
+\overrightarrow{OP}
+= \frac{1}{4}\bigl(\overrightarrow{OA} + 2\overrightarrow{OB} + 3\overrightarrow{OC}\bigr)
+$$
+とおく．すると上式より
+$$
+\overrightarrow{OA} + 2\overrightarrow{OB} + 3\overrightarrow{OC}
+= 4\,\overrightarrow{OP}
+$$
+だから，
+$$
+\frac{1}{s}\overrightarrow{OL} + \frac{2}{t}\overrightarrow{OM} + \frac{3}{u}\overrightarrow{ON}
+= 4\,\overrightarrow{OP}
+$$
+が成り立つ．
+
+ここで $\dfrac{1}{s} + \dfrac{2}{t} + \dfrac{3}{u} = 4$ なので，
+$$
+\frac{1}{s}\overrightarrow{OL} + \frac{2}{t}\overrightarrow{OM} + \frac{3}{u}\overrightarrow{ON}
+= \left(\frac{1}{s} + \frac{2}{t} + \frac{3}{u}\right)\overrightarrow{OP}.
+$$
+
+### (2) 平面 $LMN$ の通る一定点の発見
+
+上で得た等式を整理する．
+$$
+\frac{1}{s}\overrightarrow{OL} + \frac{2}{t}\overrightarrow{OM} + \frac{3}{u}\overrightarrow{ON}
+= \left(\frac{1}{s} + \frac{2}{t} + \frac{3}{u}\right)\overrightarrow{OP}.
+$$
+両辺を $\dfrac{1}{s} + \dfrac{2}{t} + \dfrac{3}{u} \;(=4)\neq 0$ で割ると，
+$$
+\overrightarrow{OP}
+= \frac{\dfrac{1}{s}}{\dfrac{1}{s} + \dfrac{2}{t} + \dfrac{3}{u}}\overrightarrow{OL}
++ \frac{\dfrac{2}{t}}{\dfrac{1}{s} + \dfrac{2}{t} + \dfrac{3}{u}}\overrightarrow{OM}
++ \frac{\dfrac{3}{u}}{\dfrac{1}{s} + \dfrac{2}{t} + \dfrac{3}{u}}\overrightarrow{ON}.
+$$
+
+ここで，係数
+$$
+\alpha = \frac{\dfrac{1}{s}}{\dfrac{1}{s} + \dfrac{2}{t} + \dfrac{3}{u}},\quad
+\beta = \frac{\dfrac{2}{t}}{\dfrac{1}{s} + \dfrac{2}{t} + \dfrac{3}{u}},\quad
+\gamma = \frac{\dfrac{3}{u}}{\dfrac{1}{s} + \dfrac{2}{t} + \dfrac{3}{u}}
+$$
+とおくと，
+$$
+\alpha + \beta + \gamma
+= \frac{\dfrac{1}{s} + \dfrac{2}{t} + \dfrac{3}{u}}{\dfrac{1}{s} + \dfrac{2}{t} + \dfrac{3}{u}}
+= 1
+$$
+であり，さらに
+$$
+\overrightarrow{OP} = \alpha\overrightarrow{OL} + \beta\overrightarrow{OM} + \gamma\overrightarrow{ON}
+$$
+が成り立つ．
+
+ここで，3点 $L, M, N$ に対する「重心座標」（アフィン結合）の性質を用いると，係数の和が $1$ であるとき，その線形結合で表されるベクトルは，実際に $L, M, N$ を通る平面内の点を表す．すなわち，ある点 $P'$ が存在して
+$$
+\overrightarrow{OP'} = \alpha\overrightarrow{OL} + \beta\overrightarrow{OM} + \gamma\overrightarrow{ON}
+$$
+ならば，$P'$ は平面 $LMN$ 上にある．
+
+今の場合，まさに
+$$
+\overrightarrow{OP} = \alpha\overrightarrow{OL} + \beta\overrightarrow{OM} + \gamma\overrightarrow{ON}
+$$
+であり，$\alpha + \beta + \gamma = 1$ なので，点 $P$ は平面 $LMN$ 上にあると結論できる．
+
+しかも $\overrightarrow{OP} = \dfrac{1}{4}(\overrightarrow{OA} + 2\overrightarrow{OB} + 3\overrightarrow{OC})$ により $P$ は $s, t, u$ に依存せず，$O, A, B, C$ のみから一意に定まる点である．
+
+したがって，$s, t, u$ が条件
+$$
+\frac{1}{s} + \frac{2}{t} + \frac{3}{u} = 4
+$$
+を満たす範囲であらゆる値をとるときでも，平面 $LMN$ は常に同じ点
+$$
+P\;\Bigl(\overrightarrow{OP} = \frac{1}{4}(\overrightarrow{OA} + 2\overrightarrow{OB} + 3\overrightarrow{OC})\Bigr)
+$$
+を通る．
+
+以上より，3点 $L, M, N$ の定める平面 $LMN$ は，$s, t, u$ の値に無関係な一定の点 $P$ を通ることが示された．

@@ -1,0 +1,33 @@
+---
+title: "東北大学 2018年 2018_5"
+problem_id: "04_tohoku-2018-2018_5"
+university: "東北大学"
+exam_year: "2018"
+source_tex: "archive/04_tohoku/2018/2018_5.tex"
+pdf_source: "archive/04_tohoku/2018/2018_5.pdf"
+page_image: "archive/04_tohoku/2018/2018_5.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$\alpha$を複素数とする。複素数$z$の方程式
+\[ z^2-\alpha z+2i=0 \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \]
+について，以下の問いに答えよ。
+ただし，$i$は虚数単位である。
+\begin{description}
+\item[(1)]方程式\ding{"AC}が実数解をもつように$\alpha$が動くとき，
+点$\alpha$が複素数平面上に描く図形を図示せよ。
+\item[(2)]方程式\ding{"AC}が絶対値1の複素数を解にもつように$\alpha$が動くとする。
+原点を中心に$\alpha$を$\displaystyle\frac{\pi}{4}$回転させた点
+を表す複素数を$\beta$とするとき，
+点$\beta$が複素数平面上に描く図形を図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_5.pdf)

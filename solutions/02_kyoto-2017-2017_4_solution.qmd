@@ -1,0 +1,242 @@
+## 解答
+
+(1)  
+
+三角形の内心 $P$ に関するよく知られた性質として  
+「内心 $P$ と頂点 $B,C$ を結んだ角 $\angle BPC$ は，  
+$$
+\angle BPC = \pi - \frac{1}{2}\angle A
+$$
+となる」ことがある（証明も付しておく）。
+
+$\triangle ABC$ において，内心を $P$ とすると，
+$P$ は3本の角の二等分線の交点であるから，
+$$
+\angle CBP = \frac{1}{2}\angle B, \quad
+\angle BCP = \frac{1}{2}\angle C
+$$
+である。したがって，三角形 $PBC$ の内角の和より
+$$
+\angle BPC + \angle CBP + \angle BCP = \pi
+$$
+なので，
+$$
+\angle BPC
+= \pi - \angle CBP - \angle BCP
+= \pi - \frac{1}{2}\angle B - \frac{1}{2}\angle C.
+$$
+ここで $\triangle ABC$ の内角の和 $\angle A + \angle B + \angle C = \pi$ より
+$$
+\angle B + \angle C = \pi - \angle A
+$$
+だから
+$$
+\angle BPC
+= \pi - \frac{1}{2}(\angle B + \angle C)
+= \pi - \frac{1}{2}(\pi - \angle A)
+= \frac{\pi}{2} + \frac{1}{2}\angle A
+= \frac{\pi}{2} + \frac{1}{2}\cdot\frac{\pi}{3}
+= \frac{2\pi}{3}.
+$$
+
+よって  
+$$
+\angle BPC = \frac{2\pi}{3}
+$$
+である。
+
+---
+
+(2)  
+
+与えられた条件  
+・外接円半径 $R = 1$  
+・$\angle A = \dfrac{\pi}{3}$（一定）  
+・$\triangle ABC$ は鋭角三角形  
+
+のもとで，内接円の半径 $r$ の取りうる範囲を求める。
+
+まず外接円半径と辺の長さの関係式
+$$
+a = 2R\sin A,\quad b = 2R\sin B,\quad c = 2R\sin C
+$$
+（ここで $a = BC,\ b = CA,\ c = AB$）を用いる。
+$R=1,\ \angle A = \dfrac{\pi}{3}$ だから
+$$
+a = 2\cdot 1 \cdot \sin\frac{\pi}{3} = \sqrt{3}
+$$
+となり，辺 $a=BC$ は一定の長さ $\sqrt{3}$ である。
+
+また，面積 $S$ と外接円半径・内接円半径の関係式
+$$
+S = \frac{abc}{4R} = r\cdot s
+$$
+（$s$ は半周長 $s=\dfrac{a+b+c}{2}$）を用いる。  
+$R=1$ より
+$$
+S = \frac{abc}{4}.
+$$
+したがって
+$$
+r = \frac{S}{s} = \frac{\dfrac{abc}{4}}{\dfrac{a+b+c}{2}}
+ = \frac{abc}{2(a+b+c)}.
+$$
+ここで $a=\sqrt{3}$ は一定であるから
+$$
+r = \frac{\sqrt{3}\,bc}{2(\sqrt{3} + b + c)} \quad (\ast)
+$$
+となる。
+
+次に，$\triangle ABC$ が鋭角三角形である条件を整理する。  
+外接円半径 $R=1$ のもとで
+$$
+b = 2\sin B,\quad c = 2\sin C,
+$$
+また内角の和より
+$$
+B + C = \pi - A = \pi - \frac{\pi}{3} = \frac{2\pi}{3}.
+$$
+よって $C = \dfrac{2\pi}{3} - B$ であり，
+$$
+c = 2\sin C = 2\sin\Bigl(\frac{2\pi}{3} - B\Bigr)
+= 2\Bigl(\sin\frac{2\pi}{3}\cos B - \cos\frac{2\pi}{3}\sin B\Bigr)
+= 2\left(\frac{\sqrt{3}}{2}\cos B + \frac{1}{2}\sin B\right)
+= \sqrt{3}\cos B + \sin B.
+$$
+一方
+$$
+b = 2\sin B.
+$$
+
+鋭角三角形であることから
+$$
+0 < A < \frac{\pi}{2},\quad 0 < B < \frac{\pi}{2},\quad 0 < C < \frac{\pi}{2}
+$$
+である。ここで $A=\dfrac{\pi}{3}$ はすでに鋭角で一定，  
+$B + C = \dfrac{2\pi}{3}$ であるから $B,C > 0$ をみたすとき
+$$
+0 < B < \frac{2\pi}{3},\quad 0 < C < \frac{2\pi}{3}
+$$
+であるが，さらに $B<\dfrac{\pi}{2}$ かつ $C<\dfrac{\pi}{2}$ が必要。  
+$C = \dfrac{2\pi}{3} - B < \dfrac{\pi}{2}$ より
+$$
+\frac{2\pi}{3} - B < \frac{\pi}{2}
+\ \Longleftrightarrow\
+B > \frac{\pi}{6}.
+$$
+また $B<\dfrac{\pi}{2}$ も要るので全体として
+$$
+\frac{\pi}{6} < B < \frac{\pi}{2}.
+$$
+
+この範囲で $r$ の値を調べる。  
+$(\ast)$ に $b=2\sin B,\ c=\sqrt{3}\cos B + \sin B$ を代入して
+$$
+r(B) = \frac{\sqrt{3}\cdot (2\sin B)\cdot(\sqrt{3}\cos B + \sin B)}
+         {2\bigl(\sqrt{3} + 2\sin B + \sqrt{3}\cos B + \sin B\bigr)}.
+$$
+分子・分母を整理する。分子は
+$$
+\sqrt{3}\cdot 2\sin B \cdot (\sqrt{3}\cos B + \sin B)
+= 2\sin B \bigl(3\cos B + \sqrt{3}\sin B\bigr).
+$$
+分母は
+$$
+2\bigl(\sqrt{3} + 2\sin B + \sqrt{3}\cos B + \sin B\bigr)
+= 2\bigl(\sqrt{3} + 3\sin B + \sqrt{3}\cos B\bigr).
+$$
+よって
+$$
+r(B) = \frac{\sin B\bigl(3\cos B + \sqrt{3}\sin B\bigr)}
+            {\sqrt{3} + 3\sin B + \sqrt{3}\cos B},
+\quad \frac{\pi}{6} < B < \frac{\pi}{2}.
+$$
+
+$r(B)$ のとりうる値の範囲を求めるため，まず端に近づけたときの極限を見る。
+
+・$B\to \dfrac{\pi}{6}+0$ のとき  
+$\sin\dfrac{\pi}{6}=\dfrac12,\ \cos\dfrac{\pi}{6}=\dfrac{\sqrt{3}}{2}$ を代入すると
+$$
+\text{分子} = \frac12\left(3\cdot\frac{\sqrt{3}}{2} + \sqrt{3}\cdot\frac12\right)
+= \frac12\left(\frac{3\sqrt{3}}{2} + \frac{\sqrt{3}}{2}\right)
+= \frac12\cdot\frac{4\sqrt{3}}{2}
+= \sqrt{3},
+$$
+$$
+\text{分母} = \sqrt{3} + 3\cdot\frac12 + \sqrt{3}\cdot\frac{\sqrt{3}}{2}
+= \sqrt{3} + \frac32 + \frac{3}{2}
+= \sqrt{3} + 3.
+$$
+したがって
+$$
+\lim_{B\to\frac{\pi}{6}+0}r(B)
+= \frac{\sqrt{3}}{\sqrt{3}+3}.
+$$
+
+・$B\to \dfrac{\pi}{2}-0$ のとき  
+$\sin\dfrac{\pi}{2}=1,\ \cos\dfrac{\pi}{2}=0$ より
+$$
+\text{分子} = 1\cdot(3\cdot 0 + \sqrt{3}\cdot 1) = \sqrt{3},
+$$
+$$
+\text{分母} = \sqrt{3} + 3\cdot 1 + \sqrt{3}\cdot 0 = \sqrt{3} + 3.
+$$
+よって
+$$
+\lim_{B\to\frac{\pi}{2}-0}r(B)
+= \frac{\sqrt{3}}{\sqrt{3}+3}.
+$$
+
+したがって，区間の両端に近づけるといずれも同じ値
+$$
+\frac{\sqrt{3}}{\sqrt{3}+3}
+$$
+に近づく。これは，もともとの鋭角条件を「等号なし」で課しているため，  
+$B=\dfrac{\pi}{6}$ または $B=\dfrac{\pi}{2}$ のときは「鋭角三角形」でなくなるが，  
+その極限で $r$ がこの値に近づくことを表している。
+
+次に区間内部における振る舞いを見る。$r(B)$ の形が複雑であるが，  
+$B$ の範囲 $\left(\dfrac{\pi}{6},\dfrac{\pi}{2}\right)$ は有界な開区間であり，  
+$r(B)$ はこの区間で連続であるから，中間値の定理より  
+$r(B)$ はある最大値と最小値の間の全ての値をとる。  
+ただし，両端で同じ極限値をとり，しかも三角形の形は  
+$B=\dfrac{\pi}{6}$ 付近と $B=\dfrac{\pi}{2}$ 付近で互いに異なる（$B$ と $C$ の入れ替わり）ことから，  
+区間内で $r(B)$ は一度極大か極小をとるが，それ自体の大小関係は調べる必要がある。
+
+実は，$B=\dfrac{\pi}{3}$ すなわち $B=C$ の等腰（三角形全体としては正三角形）に近い形が  
+「最もバランスがよく」，$r$ を最大にすることが予想される。  
+$B=\dfrac{\pi}{3}$ のときは $A=B=C=\dfrac{\pi}{3}$ で正三角形であり，鋭角三角形だから許される。  
+このときは外接円半径 $R=1$ の正三角形であるから，  
+一辺の長さ $s$ は
+$$
+s = R\sqrt{3} = \sqrt{3}
+$$
+であり，内接円半径 $r$ は正三角形の公式 $r = \dfrac{\sqrt{3}}{6}s$ から
+$$
+r = \frac{\sqrt{3}}{6}\cdot\sqrt{3} = \frac{3}{6} = \frac12
+$$
+となる。よって
+$$
+r = \frac12
+$$
+は実際に達成される値である。
+
+一方，先ほど求めた端の極限値
+$$
+\frac{\sqrt{3}}{\sqrt{3}+3}
+= \frac{3}{3+3\sqrt{3}}
+< \frac12
+$$
+であるから，$r$ の最小値はこの端の極限に近づくが，  
+鋭角である条件から等号はつかない。  
+よって $r$ の取りうる範囲は
+$$
+\frac{\sqrt{3}}{\sqrt{3}+3} < r \leq \frac12
+$$
+となる。
+
+以上より，(2) の答えは
+$$
+\boxed{\ \dfrac{\sqrt{3}}{\sqrt{3}+3} < r \le \dfrac12\ }
+$$
+である。

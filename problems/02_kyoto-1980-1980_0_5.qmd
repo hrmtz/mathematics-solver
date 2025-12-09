@@ -1,0 +1,27 @@
+---
+title: "京都大学 1980年 1980_0_5"
+problem_id: "02_kyoto-1980-1980_0_5"
+university: "京都大学"
+exam_year: "1980"
+source_tex: "archive/02_kyoto/1980/1980_0_5.tex"
+pdf_source: "archive/02_kyoto/1980/1980_0_5.pdf"
+page_image: "archive/02_kyoto/1980/1980_0_5.jpg"
+fields:
+  - 数列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　互いに異なる$n$個$(n \geqq 3)$の正の数の集合$S=\{a_1,a_2,\cdots\cdots,a_n\}$が次の性質をもつという．
+\begin{center}
+「$S$から相異なる要素$a_i$，$a_j$をとれば$a_i-a_j$，$a_j-a_i$の少くとも一方は必ず$S$に属する」
+\end{center}
+このとき，$a_1,a_2,\cdots,a_n$の順序を適当に変えれば等差数列になることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1980/1980_0_5.pdf)

@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 1971年 1971_0_5a"
+problem_id: "05_nagoya-1971-1971_0_5a"
+university: "名古屋大学"
+exam_year: "1971"
+source_tex: "archive/05_nagoya/1971/1971_0_5a.tex"
+pdf_source: "archive/05_nagoya/1971/1971_0_5a.pdf"
+page_image: "archive/05_nagoya/1971/1971_0_5a.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5 (a)
+　すべての$x$に対して微分できる関数$f(x)$で
+\begin{description}
+\item[(A)]$x\leqq1$では$f'(x)=a^2x$，$x\geqq1$では$f'(x)=-2ax+8$
+\item[(B)]$f(0)=0$
+\end{description}
+を満たすものが存在するように正の定数$a$の値を定めよ．
+次に，$y=f(x)$のグラフをかけ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1971/1971_0_5a.pdf)

@@ -1,0 +1,26 @@
+---
+title: "東京科学大学 1970年 1970_4"
+problem_id: "08_titech-1970-1970_4"
+university: "東京科学大学"
+exam_year: "1970"
+source_tex: "archive/08_titech/1970/1970_4.tex"
+pdf_source: "archive/08_titech/1970/1970_4.pdf"
+page_image: "archive/08_titech/1970/1970_4.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　同じ円に内接する正$n$辺形，正$2n$辺形，正$3n$辺形の面積を
+それぞれ$S_n$，$S_{2n}$，$S_{3n}$で表わす．
+不等式$\displaystyle\frac{\sqrt3}{2}S_{2n}>S_n>\frac{2}{3}S_{3n}$が成り立つのは
+$n$がどんな値のときか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1970/1970_4.pdf)

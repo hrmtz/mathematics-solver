@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 2004年 2004_1"
+problem_id: "05_nagoya-2004-2004_1"
+university: "名古屋大学"
+exam_year: "2004"
+source_tex: "archive/05_nagoya/2004/2004_1.tex"
+pdf_source: "archive/05_nagoya/2004/2004_1.pdf"
+page_image: "archive/05_nagoya/2004/2004_1.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　サイコロの出た目の数だけ数直線を正の方向に移動するゲームを考える．
+ただし，8をゴールとしてちょうど8の位置へ移動したときにゲームを終了し，
+8をこえた分についてはその数だけ戻る．
+たとえば，7の位置で3が出た場合，8から2戻って6へ移動する．
+なお，サイコロは1から6までの目が等確率で出るものとする．
+原点から始めて，サイコロを$n$回投げ終えたときに8へ移動してゲームを終了する確率を$p_n$とおく．
+\begin{description}
+\item[(1)]$p_2$を求めよ．
+\item[(2)]$p_3$を求めよ．
+\item[(3)]4以上のすべての$n$に対して$p_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2004/2004_1.pdf)

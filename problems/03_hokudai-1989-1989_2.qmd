@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1989年 1989_2"
+problem_id: "03_hokudai-1989-1989_2"
+university: "北海道大学"
+exam_year: "1989"
+source_tex: "archive/03_hokudai/1989/1989_2.tex"
+pdf_source: "archive/03_hokudai/1989/1989_2.pdf"
+page_image: "archive/03_hokudai/1989/1989_2.jpg"
+fields:
+  - 三角関数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　次の関数$f(\theta)$について，以下の問に答えよ．
+\[ f(\theta)=-\frac{1}{2}+\frac{\displaystyle\sin\frac{5}{2}\theta}{\displaystyle2\sin\frac{\theta}{2}}
+\hspace{1zw} (0<\theta<\pi) \]
+\begin{description}
+\item[(1)]$f(\theta)$を$\cos\theta$の多項式で表せ．
+\item[(2)]曲線$y=a\cos\theta+a$が曲線$y=f(\theta)$と少なくとも1点で交わるような実数$a$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1989/1989_2.pdf)

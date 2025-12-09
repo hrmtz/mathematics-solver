@@ -1,0 +1,25 @@
+---
+title: "名古屋大学 1977年 1977_0_5"
+problem_id: "05_nagoya-1977-1977_0_5"
+university: "名古屋大学"
+exam_year: "1977"
+source_tex: "archive/05_nagoya/1977/1977_0_5.tex"
+pdf_source: "archive/05_nagoya/1977/1977_0_5.pdf"
+page_image: "archive/05_nagoya/1977/1977_0_5.jpg"
+fields:
+  - 空間図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$x$軸上に中心をもつ半径$r$ $(0<r<1)$の円が半直線$\displaystyle y=\frac{1}{\sqrt3}x$ $(x\geqq0)$に接している．
+この円内で直線$x=1$の左側にある部分を$x$軸のまわりに1回転させてできる立体の体積を求めよ．
+また，この体積を最大にする$r$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1977/1977_0_5.pdf)

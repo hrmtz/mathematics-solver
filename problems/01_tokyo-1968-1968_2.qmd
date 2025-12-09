@@ -1,0 +1,25 @@
+---
+title: "東京大学 1968年 1968_2"
+problem_id: "01_tokyo-1968-1968_2"
+university: "東京大学"
+exam_year: "1968"
+source_tex: "archive/01_tokyo/1968/1968_2.tex"
+pdf_source: "archive/01_tokyo/1968/1968_2.pdf"
+page_image: "archive/01_tokyo/1968/1968_2.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　正方形$ABCD$を底面とし，
+$V$を原点とする正四角錐において，
+底面と斜面のなす二面角が45$^\circ$のとき，
+となりあう二つの斜面のなす二面角を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1968/1968_2.pdf)

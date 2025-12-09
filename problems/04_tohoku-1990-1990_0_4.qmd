@@ -1,0 +1,26 @@
+---
+title: "東北大学 1990年 1990_0_4"
+problem_id: "04_tohoku-1990-1990_0_4"
+university: "東北大学"
+exam_year: "1990"
+source_tex: "archive/04_tohoku/1990/1990_0_4.tex"
+pdf_source: "archive/04_tohoku/1990/1990_0_4.pdf"
+page_image: "archive/04_tohoku/1990/1990_0_4.jpg"
+fields:
+  - 数列
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　正の数から成る数列$a_1, \, a_2, \, a_3, \, \cdots\cdots$の一般項$a_n$と，
+初項から第$n$項までの和$S_n$の間に，
+\[ \sum_{k=1}^n\frac{4S_k}{a_k+2}=S_n \]
+という関係があるものとする．$a_n$と$S_n$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_0_4.pdf)

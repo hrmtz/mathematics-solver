@@ -1,0 +1,187 @@
+## 解答
+
+(1)  
+与えられた条件より  
+$|\overrightarrow{OA}|=3,\ |\overrightarrow{AB}|=5,\ \overrightarrow{OA}\cdot\overrightarrow{OB}=10$ である。  
+また，$\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}$ なので，  
+ベクトルの内積の性質から
+$$
+|\overrightarrow{AB}|^2
+=|\overrightarrow{OB}-\overrightarrow{OA}|^2
+=|\overrightarrow{OB}|^2+|\overrightarrow{OA}|^2-2\,\overrightarrow{OA}\cdot\overrightarrow{OB}
+$$
+である。  
+左辺に $|\overrightarrow{AB}|=5$，右辺に $|\overrightarrow{OA}|=3,\ \overrightarrow{OA}\cdot\overrightarrow{OB}=10$ を代入すると
+$$
+5^2 = |\overrightarrow{OB}|^2 + 3^2 -2\cdot 10
+$$
+$$
+25 = |\overrightarrow{OB}|^2 + 9 -20
+$$
+$$
+25 = |\overrightarrow{OB}|^2 -11
+$$
+したがって
+$$
+|\overrightarrow{OB}|^2 = 36
+$$
+よって
+$$
+|\overrightarrow{OB}| = 6.
+$$
+
+(2)  
+三角形 $OAB$ の内接円の中心 $I$ は，各辺の内角二等分線の交点であり，内心と呼ばれる。  
+内心は，各頂点の位置ベクトルの，それぞれに対する「対辺の長さ」を重みとする加重平均で表されることより
+$$
+\overrightarrow{OI}
+=\frac{a\,\overrightarrow{OA}+b\,\overrightarrow{OB}+c\,\overrightarrow{OC}}{a+b+c}
+$$
+が成り立つ。ただし，$a=BC,\ b=CA,\ c=AB$ とし，$C$ は三角形の 3 つ目の頂点である。  
+ここでは三角形 $OAB$ なので，頂点と辺の対応を
+$$
+O \leftrightarrow AB,\quad A \leftrightarrow OB,\quad B \leftrightarrow OA
+$$
+とすると，
+$$
+a=|\overrightarrow{AB}|=5,\quad
+b=|OB|=|\overrightarrow{OB}|=6,\quad
+c=|OA|=|\overrightarrow{OA}|=3
+$$
+である。さらに $C$ に対応する点は存在しない代わりに $O$ を原点とみなしているから $\overrightarrow{OO}=\vec{0}$ となり，
+$$
+\overrightarrow{OI}
+=\frac{\,|AB|\,\overrightarrow{OO}+|OB|\,\overrightarrow{OA}+|OA|\,\overrightarrow{OB}}{|AB|+|OB|+|OA|}
+$$
+すなわち
+$$
+\overrightarrow{OI}
+=\frac{6\,\overrightarrow{OA}+3\,\overrightarrow{OB}}{5+6+3}
+=\frac{6\,\overrightarrow{OA}+3\,\overrightarrow{OB}}{14}
+$$
+となる。よって
+$$
+\overrightarrow{OI}
+=\frac{3}{7}\,\overrightarrow{OA}+\frac{3}{14}\,\overrightarrow{OB}.
+$$
+
+(3)  
+点 $H$ は内接円と辺 $OA$ の接点であるから，$H$ は辺 $OA$ 上の点である。  
+したがって，ある実数 $t$ を用いて
+$$
+\overrightarrow{OH}=t\,\overrightarrow{OA}
+$$
+と表せる。
+
+内接円の中心 $I$ は角の二等分線上にあるので，特に頂点 $O$ における角 $\angle AOB$ の二等分線上にある。  
+したがって，ベクトルの角二等分線の性質より，ある正の実数 $k$ を用いて
+$$
+\overrightarrow{OI}=k\left(\frac{\overrightarrow{OA}}{|\overrightarrow{OA}|}+\frac{\overrightarrow{OB}}{|\overrightarrow{OB}|}\right)
+$$
+と表される。これは，大きさ 1 の方向ベクトル $\dfrac{\overrightarrow{OA}}{|\overrightarrow{OA}|}$ と $\dfrac{\overrightarrow{OB}}{|\overrightarrow{OB}|}$ の和の方向が双方となす角を等分する性質を用いている。
+
+ここで，(2) の結果
+$$
+\overrightarrow{OI}
+=\frac{3}{7}\,\overrightarrow{OA}+\frac{3}{14}\,\overrightarrow{OB}
+$$
+および $|\overrightarrow{OA}|=3,\ |\overrightarrow{OB}|=6$ を用いると
+$$
+\overrightarrow{OI}
+=k\left(\frac{1}{3}\,\overrightarrow{OA}+\frac{1}{6}\,\overrightarrow{OB}\right)
+$$
+と一致するはずである。  
+よって，$\overrightarrow{OA}$ の係数を比較して
+$$
+\frac{3}{7}=\frac{k}{3}
+\quad\Longrightarrow\quad
+k=\frac{9}{7}
+$$
+これを $\overrightarrow{OB}$ の係数で確かめると
+$$
+\frac{3}{14}=\frac{k}{6}=\frac{9}{7}\cdot\frac{1}{6}=\frac{3}{14}
+$$
+となり整合する。
+
+したがって
+$$
+\overrightarrow{OI}
+=\frac{9}{7}\left(\frac{1}{3}\,\overrightarrow{OA}+\frac{1}{6}\,\overrightarrow{OB}\right)
+=\frac{3}{7}\,\overrightarrow{OA}+\frac{3}{14}\,\overrightarrow{OB}
+$$
+であり，この表現は角二等分線の形とも一致している。
+
+次に $\overrightarrow{HI}$ を求める。  
+ベクトルの加法より
+$$
+\overrightarrow{HI}=\overrightarrow{OI}-\overrightarrow{OH}
+$$
+であるから，
+$$
+\overrightarrow{HI}
+=\left(\frac{3}{7}\,\overrightarrow{OA}+\frac{3}{14}\,\overrightarrow{OB}\right)-t\,\overrightarrow{OA}
+=\left(\frac{3}{7}-t\right)\overrightarrow{OA}+\frac{3}{14}\,\overrightarrow{OB}.
+$$
+ここで $t$ を決める。
+
+点 $H$ は内接円の接点であるから，線分 $IH$ は辺 $OA$ に垂直である。  
+したがって，$\overrightarrow{HI}$ は $\overrightarrow{OA}$ と直交し，内積が 0 となる：
+$$
+\overrightarrow{HI}\cdot\overrightarrow{OA}=0.
+$$
+上で求めた $\overrightarrow{HI}$ を用いて計算すると
+$$
+\left\{\left(\frac{3}{7}-t\right)\overrightarrow{OA}+\frac{3}{14}\,\overrightarrow{OB}\right\}\cdot\overrightarrow{OA}=0
+$$
+内積の分配法則より
+$$
+\left(\frac{3}{7}-t\right)\,|\overrightarrow{OA}|^2 + \frac{3}{14}\,(\overrightarrow{OB}\cdot\overrightarrow{OA})=0
+$$
+ここに $|\overrightarrow{OA}|^2=3^2=9,\ \overrightarrow{OA}\cdot\overrightarrow{OB}=10$ を代入すると
+$$
+\left(\frac{3}{7}-t\right)\cdot 9 + \frac{3}{14}\cdot 10 = 0
+$$
+$$
+9\left(\frac{3}{7}-t\right) + \frac{30}{14} = 0
+$$
+$$
+9\left(\frac{3}{7}-t\right) + \frac{15}{7} = 0
+$$
+$$
+\frac{27}{7} - 9t + \frac{15}{7} = 0
+$$
+$$
+\frac{42}{7} - 9t = 0
+$$
+$$
+6 - 9t = 0
+$$
+よって
+$$
+t=\frac{2}{3}.
+$$
+
+したがって
+$$
+\overrightarrow{OH}=\frac{2}{3}\,\overrightarrow{OA}
+$$
+であり，
+$$
+\overrightarrow{HI}
+=\overrightarrow{OI}-\overrightarrow{OH}
+=\left(\frac{3}{7}-\frac{2}{3}\right)\overrightarrow{OA}+\frac{3}{14}\,\overrightarrow{OB}
+$$
+$$
+\frac{3}{7}-\frac{2}{3}=\frac{9-14}{21}=-\frac{5}{21}
+$$
+なので，
+$$
+\overrightarrow{HI}
+=-\frac{5}{21}\,\overrightarrow{OA}+\frac{3}{14}\,\overrightarrow{OB}.
+$$
+
+以上より，
+(1) $|OB|=6$  
+(2) $\displaystyle \overrightarrow{OI}=\frac{3}{7}\,\overrightarrow{OA}+\frac{3}{14}\,\overrightarrow{OB}$  
+(3) $\displaystyle \overrightarrow{HI}=-\frac{5}{21}\,\overrightarrow{OA}+\frac{3}{14}\,\overrightarrow{OB}$  
+となる。

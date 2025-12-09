@@ -1,0 +1,31 @@
+---
+title: "東京大学 2023年 2023_1"
+problem_id: "01_tokyo-2023-2023_1"
+university: "東京大学"
+exam_year: "2023"
+source_tex: "archive/01_tokyo/2023/2023_1.tex"
+pdf_source: "archive/01_tokyo/2023/2023_1.pdf"
+page_image: "archive/01_tokyo/2023/2023_1.jpg"
+fields:
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]正の整数$k$に対し，
+\[ A_k=\int_{\sqrt{k\pi}}^{\sqrt{(k+1)\pi}}|\sin(x^2)|dx \]
+とおく。次の不等式が成り立つことを示せ。
+\[ \frac{1}{\sqrt{(k+1)\pi}} \leqq A_k \leqq \frac{1}{\sqrt{k\pi}} \]
+\item[(2)]正の整数$n$に対し，
+\[ B_n=\frac{1}{\sqrt{n}}\int_{\sqrt{n\pi}}^{\sqrt{2n\pi}}|\sin(x^2)|dx \]
+とおく。極限$\displaystyle\lim_{n\to\infty}B_n$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2023/2023_1.pdf)

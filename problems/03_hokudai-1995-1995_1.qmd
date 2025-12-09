@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1995年 1995_1"
+problem_id: "03_hokudai-1995-1995_1"
+university: "北海道大学"
+exam_year: "1995"
+source_tex: "archive/03_hokudai/1995/1995_1.tex"
+pdf_source: "archive/03_hokudai/1995/1995_1.pdf"
+page_image: "archive/03_hokudai/1995/1995_1.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　1次変換$f$は点$(1, \, 2)$を点$P(a, \, 1-a)$に移す．
+また点$(-2, \, 1)$の像を$Q$とするとき，
+$\angle POQ$は直角で，
+線分$OP$と$OQ$の長さは等しいとする．
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$f$を表す行列$A$を$a$を用いて表せ．
+\item[(2)]$f$が回転となるとき，$A$を定めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1995/1995_1.pdf)

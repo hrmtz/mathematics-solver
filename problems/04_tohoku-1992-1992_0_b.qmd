@@ -1,0 +1,28 @@
+---
+title: "東北大学 1992年 1992_0_b"
+problem_id: "04_tohoku-1992-1992_0_b"
+university: "東北大学"
+exam_year: "1992"
+source_tex: "archive/04_tohoku/1992/1992_0_b.tex"
+pdf_source: "archive/04_tohoku/1992/1992_0_b.pdf"
+page_image: "archive/04_tohoku/1992/1992_0_b.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　行列$\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$で表される1次変換$f$によって，
+円$x^2+y^2=1$が円$x^2+y^2=2$に変換され，
+双曲線$xy=1$が双曲線$x^2-y^2=4$に変換されるとき，
+この行列を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_0_b.pdf)

@@ -1,0 +1,30 @@
+---
+title: "九州大学 1996年 1996_0_3"
+problem_id: "07_kyushu-1996-1996_0_3"
+university: "九州大学"
+exam_year: "1996"
+source_tex: "archive/07_kyushu/1996/1996_0_3.tex"
+pdf_source: "archive/07_kyushu/1996/1996_0_3.pdf"
+page_image: "archive/07_kyushu/1996/1996_0_3.jpg"
+fields:
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　実数$\alpha$と$\beta$は$\alpha\leqq\beta$，$\alpha\neq0$，$\beta>0$を満たし
+\[ f(x)=\frac{3}{\alpha\beta}(x-\alpha)(x-\beta), \hspace{1zw} F(x)=\int_0^xf(t)dt \]
+とする．次の問に答えよ．
+\begin{description}
+\item[(1)]$\displaystyle\int_0^\beta|f(x)|dx$を$F(\alpha)$と$F(\beta)$で表せ．
+\item[(2)]$\alpha=\beta^2$のとき，
+$\displaystyle\int_0^\beta|f(x)|dx$を最小にする$\beta$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1996/1996_0_3.pdf)

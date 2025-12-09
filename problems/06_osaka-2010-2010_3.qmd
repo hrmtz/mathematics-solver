@@ -1,0 +1,25 @@
+---
+title: "大阪大学 2010年 2010_3"
+problem_id: "06_osaka-2010-2010_3"
+university: "大阪大学"
+exam_year: "2010"
+source_tex: "archive/06_osaka/2010/2010_3.tex"
+pdf_source: "archive/06_osaka/2010/2010_3.pdf"
+page_image: "archive/06_osaka/2010/2010_3.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$l$，$m$，$n$を3以上の整数とする．
+等式$\displaystyle \left( \frac{n}{m}-\frac{n}{2}+1 \right) l=2$
+を満たす$l$，$m$，$n$の組をすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2010/2010_3.pdf)

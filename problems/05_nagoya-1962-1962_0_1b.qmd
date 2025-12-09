@@ -1,0 +1,41 @@
+---
+title: "名古屋大学 1962年 1962_0_1b"
+problem_id: "05_nagoya-1962-1962_0_1b"
+university: "名古屋大学"
+exam_year: "1962"
+source_tex: "archive/05_nagoya/1962/1962_0_1b.tex"
+pdf_source: "archive/05_nagoya/1962/1962_0_1b.pdf"
+page_image: "archive/05_nagoya/1962/1962_0_1b.jpg"
+fields:
+  - 平面図形
+  - 空間図形
+  - 複素数平面
+  - 数列
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1 (b)
+　空欄に適当な数，式，言葉を入れよ。
+\begin{description}
+\item[(1)]三角形$ABC$の内部に点$P$があって，
+三角形$PBC$，$PCA$，$PAB$の面積の比が，
+3辺$BC$，$CA$，$AB$の長さの比に等しいとき，
+$P$は三角形$ABC$の（ア）□である。
+\item[(2)]空間で，定線分$AB$に対し，
+$\angle APB$が鈍角になるような点$P$の存在範囲は（イ）□である。
+\item[(3)]3乗すると8になる複素数は（ウ）□である。
+\item[(4)]次の無限級数に和があるのは（エ）□の場合で，
+そのとき，和は（オ）□である。
+\[ x+x(1-x)+x{(1-x)}^2+\cdots+x{(1-x)}^n+\cdots \]
+\item[(5)]$\displaystyle\frac{d}{dx}(x\sin3x)=\text{（カ）□}$
+\item[(6)]2つの線$y=\sqrt{x}$，$y=x$で囲まれる部分の面積は（キ）□である。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1962/1962_0_1b.pdf)

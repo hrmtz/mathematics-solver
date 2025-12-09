@@ -1,0 +1,33 @@
+---
+title: "九州大学 1998年 1998_0_4c"
+problem_id: "07_kyushu-1998-1998_0_4c"
+university: "九州大学"
+exam_year: "1998"
+source_tex: "archive/07_kyushu/1998/1998_0_4c.tex"
+pdf_source: "archive/07_kyushu/1998/1998_0_4c.pdf"
+page_image: "archive/07_kyushu/1998/1998_0_4c.jpg"
+fields:
+  - 確率
+  - 統計
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (c)
+　1から$n$までの数字を書いた玉がそれぞれ2個ずつ，
+全部で$2n$個入っている袋がある．
+この袋から2個の玉を同時に取り出すことを考える．
+取り出した玉の数字の大きい方を$X$，小さい方を$Y$とする．
+ただし同じ数字のときはその数字を$X$および$Y$（すなわち$X=Y$）とする．
+\begin{description}
+\item[(1)]確率$P(X \leqq k)$および$P(Y \geqq k)$ $(k=1, \, 2, \, \cdots\cdots, \, n)$を求めよ．
+\item[(2)]確率$P(X=k)$および$P(Y=k)$ $(k=1, \, 2, \, \cdots\cdots, \, n)$を求めよ．
+\item[(3)]$n=4$のとき$X-Y$の期待値$E(X-Y)$を求めよ．
+\item[(4)]一般の$n$について$X+Y$の期待値$E(X+Y)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_0_4c.pdf)

@@ -1,0 +1,32 @@
+---
+title: "東京大学 2023年 2023_0_2"
+problem_id: "01_tokyo-2023-2023_0_2"
+university: "東京大学"
+exam_year: "2023"
+source_tex: "archive/01_tokyo/2023/2023_0_2.tex"
+pdf_source: "archive/01_tokyo/2023/2023_0_2.pdf"
+page_image: "archive/01_tokyo/2023/2023_0_2.jpg"
+fields:
+  - 積分法
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　座標平面上の放物線$y=3x^2-4x$を$C$とおき，直線$y=2x$を$l$とおく。
+実数$t$に対し，$C$上の点$P(t, \, 3t^2-4t)$と$l$の距離を$f(t)$とする。
+\begin{description}
+\item[(1)]$-1 \leqq a \leqq 2$の範囲の実数$a$に対し，定積分
+\[ g(a)=\int_{-1}^a f(t) dt \]
+を求めよ。
+\item[(2)]$a$が$0 \leqq a \leqq 2$の範囲を動くとき，
+$g(a)-f(a)$の最大値および最小値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2023/2023_0_2.pdf)

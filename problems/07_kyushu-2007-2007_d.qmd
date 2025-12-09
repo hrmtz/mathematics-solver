@@ -1,0 +1,30 @@
+---
+title: "九州大学 2007年 2007_d"
+problem_id: "07_kyushu-2007-2007_d"
+university: "九州大学"
+exam_year: "2007"
+source_tex: "archive/07_kyushu/2007/2007_d.tex"
+pdf_source: "archive/07_kyushu/2007/2007_d.pdf"
+page_image: "archive/07_kyushu/2007/2007_d.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　1つのさいころを振り偶数の目が出たら持ち点を2倍にし，
+奇数の目が出たら持ち点を0.5倍して小数点以下を切り捨てる．
+このとき以下の問いに答えよ．
+\begin{description}
+\item[(1)]初めの持ち点を10点とする．
+さいころを7回投げた後に持ち点が50点以上である確率$P$を求めよ．
+\item[(2)]初めの持ち点を3点とする．
+さいころを5回投げた後に持ち点が5点以上である確率$Q$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_d.pdf)

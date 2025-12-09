@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1966年 1966_0_4"
+problem_id: "05_nagoya-1966-1966_0_4"
+university: "名古屋大学"
+exam_year: "1966"
+source_tex: "archive/05_nagoya/1966/1966_0_4.tex"
+pdf_source: "archive/05_nagoya/1966/1966_0_4.pdf"
+page_image: "archive/05_nagoya/1966/1966_0_4.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　直径$AB$の半円がある．
+この半円に図のように台形$ABQP$を内接させるとき，
+その台形の面積の最大値を求めよ．
+ただし$AB=2r$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1966/1966_0_4.pdf)

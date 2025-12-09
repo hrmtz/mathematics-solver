@@ -1,0 +1,33 @@
+---
+title: "東北大学 2006年 2006_d"
+problem_id: "04_tohoku-2006-2006_d"
+university: "東北大学"
+exam_year: "2006"
+source_tex: "archive/04_tohoku/2006/2006_d.tex"
+pdf_source: "archive/04_tohoku/2006/2006_d.pdf"
+page_image: "archive/04_tohoku/2006/2006_d.jpg"
+fields:
+  - 微分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$は正の定数とし，$-1<x<1$において定義される関数
+\[ f(x)=ax-(1+x)\log(1+x)-(1-x)\log(1-x) \]
+に関して以下の問に答えよ．
+ただし，対数は自然対数とする．
+\begin{description}
+\item[(1)]$-1<x<1$において第2次導関数$f''(x)$は$f''(0)<0$であることを示せ．
+\item[(2)]$-1<x<1$において$f(x)$の最大値を与える$x$の値$x_0$を$a$を用いて表せ．
+\item[(3)]$a=1$の場合，$0<x_1<1$であって$f(x_1)=0$となる$x_1$が存在することを示せ．
+なお，必要ならば$\displaystyle\lim_{t\to+0}t\log t=0$は既知としてよい．
+\item[(4)]$a=1$の場合の，$-1<x<1$におけるグラフ$y=f(x)$の概形をかけ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2006/2006_d.pdf)

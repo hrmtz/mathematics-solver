@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1989年 1989_0_4"
+problem_id: "03_hokudai-1989-1989_0_4"
+university: "北海道大学"
+exam_year: "1989"
+source_tex: "archive/03_hokudai/1989/1989_0_4.tex"
+pdf_source: "archive/03_hokudai/1989/1989_0_4.pdf"
+page_image: "archive/03_hokudai/1989/1989_0_4.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　関数$f(x)=ax^4+a^2x$について，次の問に答えよ．だたし，$a$は実数で$a\neq0$とする．
+\begin{description}
+\item[(1)]曲線$y=f(x)$上の原点$O$以外の点$P$における接線が$y$軸と交わる点を$Q$，
+$P$を通り$y$軸に平行な直線が，直線$y=a^2x$と交わる点を$R$とするとき，
+$OQ$と$PR$の比を求めよ．
+\item[(2)]曲線$y=f(x)$と直線$y=x$との交点の$y$座標が関数$f(x)$の最大値であるとき，$a$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1989/1989_0_4.pdf)

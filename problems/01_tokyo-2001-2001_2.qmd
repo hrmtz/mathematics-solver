@@ -1,0 +1,28 @@
+---
+title: "東京大学 2001年 2001_2"
+problem_id: "01_tokyo-2001-2001_2"
+university: "東京大学"
+exam_year: "2001"
+source_tex: "archive/01_tokyo/2001/2001_2.tex"
+pdf_source: "archive/01_tokyo/2001/2001_2.pdf"
+page_image: "archive/01_tokyo/2001/2001_2.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　次の等式を満たす関数$f(x)$ $(0 \leqq x \leqq 2\pi)$がただ一つ定まるための
+実数$a$，$b$の条件を求めよ．
+また，そのときの$f(x)$を決定せよ．
+\[ f(x)=\frac{a}{2\pi}\int_0^{2\pi}\sin(x+y)f(y)dy+
+\frac{b}{2\pi}\int_0^{2\pi}\cos(x-y)f(y)dy+\sin x+\cos x \]
+ただし，$f(x)$は区間$0 \leqq x \leqq 2\pi$で連続な関数とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2001/2001_2.pdf)

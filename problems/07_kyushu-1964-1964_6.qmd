@@ -1,0 +1,33 @@
+---
+title: "九州大学 1964年 1964_6"
+problem_id: "07_kyushu-1964-1964_6"
+university: "九州大学"
+exam_year: "1964"
+source_tex: "archive/07_kyushu/1964/1964_6.tex"
+pdf_source: "archive/07_kyushu/1964/1964_6.pdf"
+page_image: "archive/07_kyushu/1964/1964_6.jpg"
+fields:
+  - 微分法
+  - 数列
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+\begin{description}
+\item[(1)]$a$，$b$は定数であり，$a^2 \neq b^2$とする。
+$\displaystyle\lim_{x\to0}\frac{1-\cos ax\cos bx}{x^2}$の値を求めよ。
+\item[(2)]$\displaystyle S_n=\lim_{x\to0}\frac{1}{x^2}
+\left( n-\sum_{k=1}^n\cos\frac{x}{2^{k-1}}\cos\frac{x}{2^k} \right)$とするとき，次の値を求めよ。
+\begin{description}
+\item[（イ）]$S_2$の値
+\item[（ロ）]$\displaystyle\lim_{n\to\infty}S_n$の値
+\end{description}
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1964/1964_6.pdf)

@@ -1,0 +1,31 @@
+---
+title: "九州大学 1994年 1994_0_4"
+problem_id: "07_kyushu-1994-1994_0_4"
+university: "九州大学"
+exam_year: "1994"
+source_tex: "archive/07_kyushu/1994/1994_0_4.tex"
+pdf_source: "archive/07_kyushu/1994/1994_0_4.pdf"
+page_image: "archive/07_kyushu/1994/1994_0_4.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　画びょうを投げる試行を続け，針が先に上を4回向けば太郎君の勝ち，
+先に下を3回向けば太郎君の負けとする．
+画びょうが上を向く確率を$\displaystyle\frac{2}{3}$とするとき，
+次の問に答えよ．
+\begin{description}
+\item[(1)]太郎君の勝つ確率を求めよ．
+\item[(2)]5回目で勝負が決まったときに，太郎君が勝った確率はいくらか．
+\item[(3)]各回の試行で針が上を向くと太郎君は1点をもらい，下を向くと1点を失う．
+この勝負で太郎君の平均得点はいくらか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1994/1994_0_4.pdf)

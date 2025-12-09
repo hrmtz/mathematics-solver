@@ -1,0 +1,25 @@
+---
+title: "東京大学 1976年 1976_0_4b"
+problem_id: "01_tokyo-1976-1976_0_4b"
+university: "東京大学"
+exam_year: "1976"
+source_tex: "archive/01_tokyo/1976/1976_0_4b.tex"
+pdf_source: "archive/01_tokyo/1976/1976_0_4b.pdf"
+page_image: "archive/01_tokyo/1976/1976_0_4b.jpg"
+fields:
+  - 代数
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4 旧
+　$a$を整数とする．
+整式$f(x)=x^5-ax-1$が整数を係数とする2つの(正の次数の)整式の積に表わされるような$a$を求めよ．
+またそのような$a$について$f(x)$を上のような積に分解せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1976/1976_0_4b.pdf)

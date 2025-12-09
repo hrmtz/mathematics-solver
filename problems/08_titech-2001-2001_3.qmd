@@ -1,0 +1,30 @@
+---
+title: "東京科学大学 2001年 2001_3"
+problem_id: "08_titech-2001-2001_3"
+university: "東京科学大学"
+exam_year: "2001"
+source_tex: "archive/08_titech/2001/2001_3.tex"
+pdf_source: "archive/08_titech/2001/2001_3.pdf"
+page_image: "archive/08_titech/2001/2001_3.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　箱の中に1から$N$までの番号が一つずつ書かれた$N$枚のカードが入っている．
+この箱から無作為にカードを1枚取り出して戻すという試行を$k$回行う．
+このとき，はじめから$j$回目$(j=1,\cdots\cdots,k)$までに取り出したカードの番号の和を$X_j$とし，
+$X_1,\cdots\cdots,X_k$のうちのどれかが$k$となる確率を$P_N(k)$とする．
+\begin{description}
+\item[(1)]$N \geqq 3$のとき$P_N(1)$，$P_N(2)$，$P_N(3)$を$N$で表せ．
+\item[(2)]$P_3(4)$，$P_3(5)$を求めよ．
+\item[(3)]$k \leqq N$のとき，$P_N(k)$を$N$と$k$で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2001/2001_3.pdf)

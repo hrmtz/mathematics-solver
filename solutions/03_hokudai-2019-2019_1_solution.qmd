@@ -1,0 +1,241 @@
+## 解答
+
+(1)  
+平面 $\alpha$ は 3 点 $O(0,0,0),\,A(-1,2,0),\,B(2,-2,1)$ を通るから，まずその法線ベクトルを求める。
+
+  
+$\overrightarrow{OA}=(-1,\,2,\,0)$，$\overrightarrow{OB}=(2,\,-2,\,1)$ なので，  
+外積 $\overrightarrow{OA}\times\overrightarrow{OB}$ を計算する。
+
+$$
+\overrightarrow{OA}\times\overrightarrow{OB}
+=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k}\\
+-1 & 2 & 0\\
+2 & -2 & 1
+\end{vmatrix}
+=
+(2\cdot 1-0\cdot(-2),\; 0\cdot 2-(-1)\cdot 1,\; (-1)\cdot(-2)-2\cdot 2)
+=
+(2,\;1,\;-2)
+$$
+
+よって，$\alpha$ の法線ベクトルとして $\vec{n}=(2,\,1,\,-2)$ をとることができる。
+
+平面 $\alpha$ は原点 $O(0,0,0)$ を通るので，平面の方程式は  
+$\vec{n}\cdot (x,y,z)=0$，すなわち
+
+$$
+2x + y - 2z = 0
+$$
+
+である。
+
+点 $P(p,-1,2)$ から平面 $\alpha$ に下ろした垂線の足 $Q(x,y,z)$ は，  
+$\overrightarrow{PQ}$ が法線ベクトル $\vec{n}$ に平行であることから，
+
+$$
+\overrightarrow{PQ} = t\vec{n} = t(2,\,1,\,-2)
+$$
+
+とおける（$t$ は実数）。したがって，
+
+$$
+Q = P + t\vec{n}
+= (p,-1,2) + t(2,1,-2)
+= (p+2t,\,-1+t,\;2-2t)
+$$
+
+となる。
+
+$Q$ は平面 $\alpha$ 上の点なので，その座標は平面の方程式を満たす：
+
+$$
+2(p+2t) + (-1+t) - 2(2-2t) = 0
+$$
+
+左辺を整理すると，
+
+$$
+2p+4t -1 + t -4 +4t
+= 2p + (4t+t+4t) -5
+= 2p + 9t -5
+$$
+
+したがって，
+
+$$
+2p + 9t - 5 = 0
+\quad\Longrightarrow\quad
+t = \frac{5-2p}{9}
+$$
+
+これを $Q$ の式に代入する：
+
+\[
+\begin{aligned}
+Q
+&= \Bigl(p+2\cdot\frac{5-2p}{9},\ -1+\frac{5-2p}{9},\ 2-2\cdot\frac{5-2p}{9}\Bigr)\\
+&= \left(\frac{p}{1}+\frac{10-4p}{9},\ \frac{-9+5-2p}{9},\ \frac{18-10+4p}{9}\right)\\
+&= \left(\frac{9p+10-4p}{9},\ \frac{-4-2p}{9},\ \frac{8+4p}{9}\right)\\
+&= \left(\frac{5p+10}{9},\ -\frac{2p+4}{9},\ \frac{4p+8}{9}\right)
+\end{aligned}
+\]
+
+よって，点 $Q$ の座標は
+
+$$
+Q\left(\frac{5p+10}{9},\ -\frac{2p+4}{9},\ \frac{4p+8}{9}\right)
+$$
+
+である。
+
+---
+
+(2)  
+点 $Q$ が $\triangle OAB$ の周または内部にある条件を求める。  
+空間内の点でも，平面 $\alpha$ 上に射影した点で議論すればよいので，  
+$\triangle OAB$ を含む平面 $\alpha$ を 2 次元平面とみなし，  
+平面ベクトルの内分表現を用いる。
+
+$\triangle OAB$ の内部または辺上の点は，  
+2 つの辺 $\overrightarrow{OA}, \overrightarrow{OB}$ の非負係数の一次結合
+
+$$
+\overrightarrow{OQ} = s\overrightarrow{OA} + t\overrightarrow{OB}
+\quad (s\ge0,\ t\ge0,\ s+t\le1)
+$$
+
+で表される。この条件を満たす $s,t$ が存在するような $p$ の範囲を求めればよい。
+
+  
+$\overrightarrow{OA}=(-1,2,0)$，$\overrightarrow{OB}=(2,-2,1)$，  
+(1) より $Q\bigl(\dfrac{5p+10}{9},\ -\dfrac{2p+4}{9},\ \dfrac{4p+8}{9}\bigr)$ なので，
+
+$$
+\overrightarrow{OQ}
+=
+\left(\frac{5p+10}{9},\ -\frac{2p+4}{9},\ \frac{4p+8}{9}\right)
+=
+s(-1,2,0) + t(2,-2,1)
+$$
+
+となる。これを成分ごとに等しいとして連立方程式を立てる：
+
+\[
+\begin{cases}
+-\,s + 2t = \dfrac{5p+10}{9} \\
+2s - 2t = -\dfrac{2p+4}{9} \\
+0\cdot s + 1\cdot t = \dfrac{4p+8}{9}
+\end{cases}
+\]
+
+第 3 式から，
+
+$$
+t = \frac{4p+8}{9}
+$$
+
+これを第 1 式に代入すると，
+
+\[
+\begin{aligned}
+-\,s + 2\cdot\frac{4p+8}{9}
+&= \frac{5p+10}{9} \\
+-\,s + \frac{8p+16}{9}
+&= \frac{5p+10}{9} \\
+-\,s
+&= \frac{5p+10}{9} - \frac{8p+16}{9}
+= \frac{-3p-6}{9}
+= -\frac{p+2}{3}
+\end{aligned}
+\]
+
+したがって，
+
+$$
+s = \frac{p+2}{3}
+$$
+
+第 2 式も確かめると，
+
+\[
+\begin{aligned}
+2s - 2t
+&= 2\cdot\frac{p+2}{3} - 2\cdot\frac{4p+8}{9} \\
+&= \frac{2p+4}{3} - \frac{8p+16}{9}
+= \frac{3(2p+4) - (8p+16)}{9}
+= \frac{6p+12-8p-16}{9}
+= -\frac{2p+4}{9}
+\end{aligned}
+\]
+
+であり，第 2 式も満たしている。
+
+よって，
+
+$$
+s = \frac{p+2}{3},\quad t = \frac{4p+8}{9}
+$$
+
+となる。
+
+点 $Q$ が $\triangle OAB$ の周または内部にあるための必要十分条件は
+
+$$
+s\ge0,\quad t\ge0,\quad s+t\le1
+$$
+
+であるから，これを $p$ に直す。
+
+  
+まず $s\ge0$ より，
+
+$$
+\frac{p+2}{3}\ge0 \quad\Longrightarrow\quad p+2\ge0 \quad\Longrightarrow\quad p\ge-2
+$$
+
+次に $t\ge0$ より，
+
+$$
+\frac{4p+8}{9}\ge0 \quad\Longrightarrow\quad 4p+8\ge0 \quad\Longrightarrow\quad p\ge-2
+$$
+
+最後に $s+t\le1$ より，
+
+\[
+\begin{aligned}
+\frac{p+2}{3} + \frac{4p+8}{9} &\le 1\\
+\frac{3(p+2) + (4p+8)}{9} &\le 1\\
+\frac{7p+14}{9} &\le 1\\
+7p+14 &\le 9\\
+7p &\le -5\\
+p &\le -\frac{5}{7}
+\end{aligned}
+\]
+
+よって，$s\ge0, t\ge0, s+t\le1$ をすべて満たすためには
+
+$$
+p\ge-2,\quad p\le-\frac{5}{7}
+$$
+
+が必要であり，この 2 つを合わせて
+
+$$
+-2 \le p \le -\frac{5}{7}
+$$
+
+となる。
+
+ただし問題文より $p$ は負の実数であるから，この条件とも矛盾しない。
+
+  
+以上より，点 $Q$ が $\triangle OAB$ の周または内部にあるような $p$ の範囲は
+
+$$
+-2 \le p \le -\frac{5}{7}
+$$
+
+である。

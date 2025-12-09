@@ -1,0 +1,32 @@
+---
+title: "東北大学 1996年 1996_0_2"
+problem_id: "04_tohoku-1996-1996_0_2"
+university: "東北大学"
+exam_year: "1996"
+source_tex: "archive/04_tohoku/1996/1996_0_2.tex"
+pdf_source: "archive/04_tohoku/1996/1996_0_2.pdf"
+page_image: "archive/04_tohoku/1996/1996_0_2.jpg"
+fields:
+  - ベクトル
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\overrightarrow{p_1}=(1, \, 0)$とする．
+ベクトル$\overrightarrow{p_n}$に対し，
+これを正の向きに角$\theta$だけ回転し，
+さらにその大きさを$\alpha$倍したベクトルを$\overrightarrow{p_{n+1}}$とする．
+ただし，$0<\alpha<1$，$n=1, \, 2, \, 3, \, \cdots\cdots$とする．
+\begin{description}
+\item[(1)]$\overrightarrow{p_n}$と同じ向きをもつ単位ベクトル$\overrightarrow{e_n}$を求めよ．
+\item[(2)]$\displaystyle\theta=\frac{2}{3}\pi$のとき，
+$\displaystyle\sum_{n=1}^{99}\overrightarrow{p_n}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_0_2.pdf)

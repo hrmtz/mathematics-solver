@@ -1,0 +1,25 @@
+---
+title: "東北大学 1975年 1975_3"
+problem_id: "04_tohoku-1975-1975_3"
+university: "東北大学"
+exam_year: "1975"
+source_tex: "archive/04_tohoku/1975/1975_3.tex"
+pdf_source: "archive/04_tohoku/1975/1975_3.pdf"
+page_image: "archive/04_tohoku/1975/1975_3.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　2次関数$y=f(x)$のグラフが2点$P(p, \, 1)$，$Q(q, \, 1)$を通っている．
+ただし，$p<q$である．このとき
+\[ \int_p^qf(x)dx=(q-p)f(r) \]
+となる$r$を$p$，$q$で表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1975/1975_3.pdf)

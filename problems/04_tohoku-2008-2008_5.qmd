@@ -1,0 +1,30 @@
+---
+title: "東北大学 2008年 2008_5"
+problem_id: "04_tohoku-2008-2008_5"
+university: "東北大学"
+exam_year: "2008"
+source_tex: "archive/04_tohoku/2008/2008_5.tex"
+pdf_source: "archive/04_tohoku/2008/2008_5.pdf"
+page_image: "archive/04_tohoku/2008/2008_5.jpg"
+fields:
+  - 行列
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a$を実数として，2次の正方行列$A$，$B$を次のように定める．
+\[ A=\begin{pmatrix} 1 & a+1 
+
+ 0 & -1 \end{pmatrix}, \hspace{1zw} B=\begin{pmatrix} a & 0 
+
+ 2 & -a\end{pmatrix} \]
+　このとき，${((\cos t)A+(\sin t)B)}^2=O$をみたす実数$t$が存在するような$a$の範囲を求めよ．
+ただし，$O$は零行列とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_5.pdf)

@@ -1,0 +1,25 @@
+---
+title: "東京大学 2011年 2011_4"
+problem_id: "01_tokyo-2011-2011_4"
+university: "東京大学"
+exam_year: "2011"
+source_tex: "archive/01_tokyo/2011/2011_4.tex"
+pdf_source: "archive/01_tokyo/2011/2011_4.pdf"
+page_image: "archive/01_tokyo/2011/2011_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　座標平面上の1点$P \displaystyle \left( \frac{1}{2},\frac{1}{4} \right)$をとる．
+放物線$y=x^2$上の2点$Q(\alpha,{\alpha}^2)$，$R(\beta,{\beta}^2)$を，
+3点$P$，$Q$，$R$が$QR$を底辺とする二等辺三角形をなすように動かすとき，
+$\triangle PQR$の重心$G(X,Y)$の軌跡を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2011/2011_4.pdf)

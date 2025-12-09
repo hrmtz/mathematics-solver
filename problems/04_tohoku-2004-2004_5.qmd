@@ -1,0 +1,28 @@
+---
+title: "東北大学 2004年 2004_5"
+problem_id: "04_tohoku-2004-2004_5"
+university: "東北大学"
+exam_year: "2004"
+source_tex: "archive/04_tohoku/2004/2004_5.tex"
+pdf_source: "archive/04_tohoku/2004/2004_5.pdf"
+page_image: "archive/04_tohoku/2004/2004_5.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$z$を絶対値が1の複素数とする．このとき以下の問いに答えよ．
+\begin{description}
+\item[(1)]$z^3-z$の実部が0となるような$z$をすべて求めよ．
+\item[(2)]$z^5+z$の絶対値が1となるような$z$をすべて求めよ．
+\item[(3)]$n$を自然数とする．
+$z^n+1$の絶対値が1となるような$z$をすべてかけ合わせて得られる複素数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2004/2004_5.pdf)

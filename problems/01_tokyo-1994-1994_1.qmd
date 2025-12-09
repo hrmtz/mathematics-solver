@@ -1,0 +1,29 @@
+---
+title: "東京大学 1994年 1994_1"
+problem_id: "01_tokyo-1994-1994_1"
+university: "東京大学"
+exam_year: "1994"
+source_tex: "archive/01_tokyo/1994/1994_1.tex"
+pdf_source: "archive/01_tokyo/1994/1994_1.pdf"
+page_image: "archive/01_tokyo/1994/1994_1.jpg"
+fields:
+  - 代数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\[ f(x)=x^4+x^3+\frac{1}{2}x^2+\frac{1}{6}x+\frac{1}{24} \hspace{1zw}
+g(x)=x^5+x^4+\frac{1}{2}x^3+\frac{1}{6}x^2+\frac{1}{24}x+\frac{1}{120} \]
+とする．このとき，以下のことが成り立つことを示せ．
+\begin{description}
+\item[(1)]任意の実数$x$に対し，$f(x)>0$である．
+\item[(2)]方程式$g(x)=0$はただひとつの実数解$\alpha$をもち，$-1<\alpha<0$となる．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1994/1994_1.pdf)

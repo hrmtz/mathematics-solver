@@ -1,0 +1,34 @@
+---
+title: "九州大学 1998年 1998_0_4b"
+problem_id: "07_kyushu-1998-1998_0_4b"
+university: "九州大学"
+exam_year: "1998"
+source_tex: "archive/07_kyushu/1998/1998_0_4b.tex"
+pdf_source: "archive/07_kyushu/1998/1998_0_4b.pdf"
+page_image: "archive/07_kyushu/1998/1998_0_4b.jpg"
+fields:
+  - 代数
+  - 複素数平面
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　$k$を正の実数とするとき，方程式
+\[ x^3-(2k+1)x^2+(4k^2+2k)x-4k^2=0 \]
+の3個の解を$z_1$，$z_2$，$z_3$とし，それらを複素数平面上の点と見なす．
+\begin{description}
+\item[(1)]$x=1$は上の方程式の解であるかどうかを調べよ．
+\item[(2)]3点$z_1$，$z_2$，$z_3$が一直線上にあるような$k$の値を求めよ．
+\item[(3)]3点$z_1$，$z_2$，$z_3$が直角三角形をなすような$k$の値を求めよ．
+\item[(4)]3点$z_1$，$z_2$，$z_3$を原点のまわりに角$\theta$だけ回転してえられる3点を$w_1$，$w_2$，$w_3$とする．
+$w_1$，$w_2$，$w_3$およびそれらと共役な点$\overline{w_1}$，$\overline{w_2}$，$\overline{w_3}$とが，
+原点中心の正六角形の頂点となるとき，$k$および$\theta$ $(0^\circ \leqq \theta \leqq {180}^\circ)$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_0_4b.pdf)

@@ -1,0 +1,36 @@
+---
+title: "大阪大学 2003年 2003_b"
+problem_id: "06_osaka-2003-2003_b"
+university: "大阪大学"
+exam_year: "2003"
+source_tex: "archive/06_osaka/2003/2003_b.tex"
+pdf_source: "archive/06_osaka/2003/2003_b.pdf"
+page_image: "archive/06_osaka/2003/2003_b.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　平面上において，点$O$を始点とする2つの半直線を$l_1$，$l_2$とし，
+それらのなす角は鋭角$\theta$ $\displaystyle\left( 0<\theta<\frac{\pi}{2} \right)$とする．
+点$A$は$l_1$上の点で$OA=1$，点$B$は$l_2$上の点で$OB=b$とする．
+次に，直線$AB$上に点$O$からおろした垂線と直線$AB$の交点を$P$とする．
+\begin{description}
+\item[(1)]ベクトル$\overrightarrow{OA}$，$\overrightarrow{OB}$により
+ベクトル$\overrightarrow{OP}$を
+\[ \overrightarrow{OP}=t\overrightarrow{OA}+(1-t)\overrightarrow{OB} \]
+とするとき，$t$を$b$と$\theta$を用いて表せ．
+\item[(2)]$\theta$を固定し，$b$を$b>0$の範囲で動かすとき，
+点$P$が$l_1$，$l_2$ではさまれる部分（ただし$l_1$，$l_2$も含む）にあるための$b$の範囲を求めよ．
+\item[(3)]$b$が(2)で求めた範囲で動くとき，
+点$P$の描く軌跡と$l_1$，$l_2$で囲まれる部分の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_b.pdf)

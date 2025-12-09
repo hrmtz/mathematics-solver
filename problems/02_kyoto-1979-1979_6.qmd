@@ -1,0 +1,42 @@
+---
+title: "京都大学 1979年 1979_6"
+problem_id: "02_kyoto-1979-1979_6"
+university: "京都大学"
+exam_year: "1979"
+source_tex: "archive/02_kyoto/1979/1979_6.tex"
+pdf_source: "archive/02_kyoto/1979/1979_6.pdf"
+page_image: "archive/02_kyoto/1979/1979_6.jpg"
+fields:
+  - ベクトル
+  - 数列
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　平面上に動点$P$がある．時刻$t$ $(t\geqq0)$のときの$P$の座標$(x,y)$は次の式で与えられる．
+\[ \begin{pmatrix} x 
+
+ y \end{pmatrix} = e^{-at}
+\begin{pmatrix} \cos bt & -\sin bt 
+
+ \sin bt & \cos bt \end{pmatrix} \begin{pmatrix} c_1 
+
+ c_2 \end{pmatrix} \]
+　ただし，$a$，$b$，$c_1$，$c_2$は定数であって，$a>0$，$b>0$であり，定点$C(c_1,c_2)$は原点$O(0,0)$とは異なるものとする．
+このとき
+\begin{description}
+\item[(i)]動点$P$の速度ベクトルと動径$OP$とのなす角は一定であることを示せ．
+\item[(ii)]動点$P$が$C$を出発したのち，線分$OC$と最初に交わる点を$C_1$，第2回目に交わる点を$C_2$とする．
+一般に，第$k$回目に$OC$と交わる点を$C_k$とする．
+$P$の経過した道のり
+$\stackrel{\frown}{CC_1},\stackrel{\frown}{C_1C_2},\cdots,\stackrel{\frown}{C_kC_{k+1}},\cdots$
+は等比数列であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1979/1979_6.pdf)

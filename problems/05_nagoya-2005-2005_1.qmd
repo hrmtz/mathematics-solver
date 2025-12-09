@@ -1,0 +1,30 @@
+---
+title: "名古屋大学 2005年 2005_1"
+problem_id: "05_nagoya-2005-2005_1"
+university: "名古屋大学"
+exam_year: "2005"
+source_tex: "archive/05_nagoya/2005/2005_1.tex"
+pdf_source: "archive/05_nagoya/2005/2005_1.pdf"
+page_image: "archive/05_nagoya/2005/2005_1.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　放物線$R:y=-x^2+3$と直線$l:y=2x$との交点を$A$，$B$とする．
+直線$y=2x+t$ $(t>0)$は放物線$R$と相異なる2点$C(t)$，$D(t)$で交わるものとする．
+\begin{description}
+\item[(1)]放物線$R$と直線$l$とで囲まれた図形の面積$T$を求めよ．
+\item[(2)]4つの点$A, \, B, \, C(t), \, D(t)$を頂点とする台形の面積を$S(t)$とし，
+$\displaystyle f(t)=\frac{S(t)}{T}$とおく．
+$f(t)$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2005/2005_1.pdf)

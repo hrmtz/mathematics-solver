@@ -1,0 +1,29 @@
+---
+title: "京都大学 2016年 2016_1"
+problem_id: "02_kyoto-2016-2016_1"
+university: "京都大学"
+exam_year: "2016"
+source_tex: "archive/02_kyoto/2016/2016_1.tex"
+pdf_source: "archive/02_kyoto/2016/2016_1.pdf"
+page_image: "archive/02_kyoto/2016/2016_1.jpg"
+fields:
+  - 三角関数
+  - 微分法
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]$n$を2以上の自然数とするとき，関数
+\[ f_n(\theta)=(1+\cos\theta)\sin^{n-1}\theta \]
+の$\displaystyle 0 \leqq \theta \leqq \frac{\pi}{2}$における最大値$M_n$を求めよ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}{(M_n)}^n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2016/2016_1.pdf)

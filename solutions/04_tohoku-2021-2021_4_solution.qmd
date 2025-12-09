@@ -1,0 +1,366 @@
+## 解答
+
+(1)  
+直線 $l$ の傾きは $1$ なので，ある実数 $b$ を用いて  
+$$
+l:\ y=x+b
+$$
+とおける。直線 $l$ と曲線 $y=x^3-2x$ の交点の $x$ 座標を $\alpha,\beta,\gamma$ とすると，これらは
+$$
+x^3-2x = x + b
+$$
+すなわち
+$$
+x^3 -3x - b = 0
+$$
+の 3 つの実数解である。題意より $x$ 座標が小さい方から
+$$
+\alpha < \beta < \gamma
+$$
+であり，$P,Q,R$ の $x$ 座標がそれぞれ $\alpha,\beta,\gamma$ である。
+
+また，$R$ の座標は $(a,\,a^3-2a)$ であるから，$x$ 座標が $\gamma=a$ である。よって
+$$
+x^3 -3x - b = 0
+$$
+の 3 つの解を $\alpha,\beta,a$ と表せる。
+
+ここで，3 次方程式
+$$
+x^3 - 3x - b = 0
+$$
+の解の和は Viète の公式より
+$$
+\alpha + \beta + a = 0
+$$
+である。したがって
+$$
+\alpha + \beta = -a.
+$$
+
+点 $P,Q$ の座標は
+$$
+P(\alpha,\,\alpha^3-2\alpha),\quad
+Q(\beta,\,\beta^3-2\beta)
+$$
+であるから，線分 $PQ$ の中点 $S$ の座標は
+$$
+S\left(\frac{\alpha+\beta}{2},\ \frac{\alpha^3-2\alpha+\beta^3-2\beta}{2}\right)
+$$
+である。
+
+まず $x$ 座標は
+$$
+\frac{\alpha+\beta}{2} = \frac{-a}{2} = -\frac{a}{2}
+$$
+となる。
+
+次に $y$ 座標を求める。$\alpha,\beta,a$ は
+$$
+x^3-3x-b=0
+$$
+の解なので
+$$
+\alpha^3-3\alpha-b=0,\quad
+\beta^3-3\beta-b=0,\quad
+a^3-3a-b=0
+$$
+が成り立つ。これより
+$$
+\alpha^3 = 3\alpha + b,\quad
+\beta^3 = 3\beta + b
+$$
+であるから，
+$$
+\alpha^3 -2\alpha = (3\alpha + b) - 2\alpha = \alpha + b,
+$$
+$$
+\beta^3 -2\beta = (3\beta + b) - 2\beta = \beta + b
+$$
+となる。したがって
+$$
+\alpha^3-2\alpha+\beta^3-2\beta
+= (\alpha + b) + (\beta + b)
+= \alpha + \beta + 2b
+= -a + 2b.
+$$
+ゆえに $S$ の $y$ 座標は
+$$
+\frac{-a+2b}{2}
+$$
+である。
+
+一方，$R(a,\,a^3-2a)$ は直線 $y=x+b$ 上にあるから
+$$
+a^3 - 2a = a + b
+$$
+が成り立ち，これより
+$$
+b = a^3 - 3a
+$$
+を得る。これを $y$ 座標の式に代入すると
+$$
+\frac{-a + 2b}{2}
+= \frac{-a + 2(a^3-3a)}{2}
+= \frac{2a^3 -7a}{2}
+$$
+となる。
+
+以上より，点 $S$ の座標は
+$$
+S\left(-\frac{a}{2},\ \frac{2a^3-7a}{2}\right)
+$$
+である。
+
+---
+
+(2)  
+(1) で求めたとおり，$R(a,\,a^3-2a)$ に対する $S$ の座標は
+$$
+x_S = -\frac{a}{2},\quad y_S = \frac{2a^3-7a}{2}
+$$
+である。これを $a$ で媒介した軌跡の式として整理する。
+
+まず
+$$
+x = -\frac{a}{2}
+$$
+とおくと，$a = -2x$ であるから
+$$
+y = \frac{2(-2x)^3 - 7(-2x)}{2}
+= \frac{2(-8x^3) + 14x}{2}
+= \frac{-16x^3 +14x}{2}
+= -8x^3 + 7x
+$$
+となる。したがって，点 $S$ の軌跡は
+$$
+y = -8x^3 + 7x
+$$
+という $x$ に関する 1 つの関係式で表される。
+
+次に，この軌跡に現れる $x$ の範囲を調べる。条件(＊)より，直線 $y=x+b$ が曲線 $y=x^3-2x$ と異なる 3 点で交わるためには，3 次方程式
+$$
+x^3 -3x -b = 0
+$$
+が異なる 3 つの実数解をもつ必要がある。
+
+そこで $f(x)=x^3-3x-b$ とおくと，
+$$
+f'(x)=3x^2-3=3(x^2-1)
+$$
+より，極値をとる点は $x=\pm1$ である。  
+それぞれにおける値は
+$$
+f(1)=1^3-3\cdot1-b=-2-b,\quad
+f(-1)=(-1)^3-3(-1)-b=2-b
+$$
+である。
+
+$f(-1)$ は極大値，$f(1)$ は極小値であり，$f(x)=0$ が異なる 3 実数解をもつためには
+$$
+f(-1)>0,\quad f(1)<0
+$$
+が必要十分である。よって
+$$
+2-b>0 \quad\Leftrightarrow\quad b<2,
+$$
+$$
+-2-b<0 \quad\Leftrightarrow\quad b>-2
+$$
+が必要である。ゆえに
+$$
+-2 < b < 2
+$$
+である。
+
+一方 $S$ の $x$ 座標は $x=-\frac{a}{2}$ であり，$b=a^3-3a$ なので
+$$
+b = a^3 -3a = (-2x)^3 -3(-2x) = -8x^3 +6x
+$$
+と書ける。したがって
+$$
+-2 < -8x^3 + 6x < 2
+$$
+が $S$ の $x$ 座標に対する条件である。
+
+以上より，点 $S$ の軌跡は
+$$
+y = -8x^3 + 7x
+$$
+ただし
+$$
+-2 < -8x^3 + 6x < 2
+$$
+を満たす点全体である。
+
+---
+
+(3)  
+ある直線 $l:y=x+b$ に対して，直線と曲線の交点 $P,Q$ の $x$ 座標を $\alpha,\beta$ とすると，(1) で用いた記号と同様に
+$$
+\alpha < \beta < a,\quad
+\alpha+\beta+a=0
+$$
+が成り立つ。また $P,Q$ の座標は
+$$
+P(\alpha,\,\alpha^3-2\alpha),\quad
+Q(\beta,\,\beta^3-2\beta)
+$$
+であり，$S$ は $PQ$ の中点なので
+$$
+S\left(\frac{\alpha+\beta}{2},\ \frac{\alpha^3-2\alpha+\beta^3-2\beta}{2}\right)
+$$
+である。
+
+線分 $PS$ は $P$ を一端とし，$PQ$ の中点 $S$ を他端とする線分であり，その長さは
+$$
+|PS| = \frac{1}{2}|PQ|
+$$
+である。よって，各直線 $l$ ごとにできる線分 $PS$ の長さの変化を調べればよい。
+
+$PQ$ の長さを求める。まず $x$ 座標の差は $\beta-\alpha$，$y$ 座標の差は
+$$
+(\beta^3-2\beta) - (\alpha^3-2\alpha)
+= (\beta^3-\alpha^3) -2(\beta-\alpha)
+= (\beta-\alpha)(\beta^2+\alpha\beta+\alpha^2) -2(\beta-\alpha)
+$$
+である。したがって
+$$
+PQ^2
+= (\beta-\alpha)^2 + \left[(\beta-\alpha)(\beta^2+\alpha\beta+\alpha^2) -2(\beta-\alpha)\right]^2
+$$
+$$
+= (\beta-\alpha)^2\left\{1 + \left(\beta^2+\alpha\beta+\alpha^2-2\right)^2\right\}
+$$
+である。
+
+ここで $t=\beta-\alpha$ とおくと，3 つの解 $\alpha,\beta,a$ が
+$$
+x^3-3x-b=0
+$$
+の解であることから，Viète の公式より
+$$
+\alpha+\beta+a=0,\quad
+\alpha\beta+\beta a + a\alpha = -3,\quad
+\alpha\beta a = b
+$$
+が成り立つ。$\alpha+\beta=-a$ なので
+$$
+(\alpha+\beta)^2 = \alpha^2+\beta^2+2\alpha\beta = a^2
+$$
+より
+$$
+\alpha^2+\beta^2 = a^2 -2\alpha\beta
+$$
+である。したがって
+$$
+\alpha^2+\alpha\beta+\beta^2
+= (\alpha^2+\beta^2) + \alpha\beta
+= a^2 -\alpha\beta.
+$$
+また
+$$
+\alpha\beta+\beta a + a\alpha = -3
+$$
+より
+$$
+\alpha\beta + a(\alpha+\beta) = -3
+\quad\Rightarrow\quad
+\alpha\beta + a(-a) = -3
+\quad\Rightarrow\quad
+\alpha\beta = a^2 -3
+$$
+となる。よって
+$$
+\alpha^2+\alpha\beta+\beta^2
+= a^2 - (a^2-3) = 3
+$$
+となる。
+
+したがって
+$$
+\beta^2+\alpha\beta+\alpha^2 - 2 = 3-2 = 1
+$$
+が成り立ち，これを $PQ^2$ の式に代入すると
+$$
+PQ^2 = (\beta-\alpha)^2\{1 + 1^2\} = 2(\beta-\alpha)^2
+$$
+となる。よって
+$$
+|PQ| = \sqrt{2}\,|\beta-\alpha|
+$$
+であるから
+$$
+|PS| = \frac{1}{2}|PQ| = \frac{\sqrt{2}}{2}|\beta-\alpha|
+$$
+である。
+
+次に $|\beta-\alpha|$ を $a$ で表す。  
+$\beta-\alpha$ の 2 乗は
+$$
+(\beta-\alpha)^2
+= (\alpha+\beta)^2 - 4\alpha\beta
+= a^2 -4(a^2-3)
+= a^2 -4a^2 +12
+= 12 -3a^2
+$$
+である。したがって
+$$
+|PS| = \frac{\sqrt{2}}{2}\sqrt{12-3a^2}
+= \frac{\sqrt{2}}{2}\cdot\sqrt{3(4-a^2)}
+= \sqrt{\frac{3}{2}}\sqrt{4-a^2}
+$$
+となる。
+
+ここで，条件(＊)より $-2<b<2$ が成り立つが，$b=a^3-3a$ であるから，$a$ の取り得る範囲を求める必要がある。  
+$f(a)=a^3-3a$ とおくと，$f'(a)=3a^2-3=3(a^2-1)$ より極値は $a=\pm1$ であり，
+$$
+f(1)=-2,\quad f(-1)=2
+$$
+である。$f(a)$ は奇関数で 3 次であるから，$a$ が $-1$ から $1$ へ増加すると $f(a)$ は $2$ から $-2$ へ単調減少する。したがって $-2<b<2$ のとき
+$$
+-1 < a < 1
+$$
+となる。
+
+よって $a^2<1$ であり，$4-a^2$ は常に正である。$a$ の取り得る範囲は $-1<a<1$ なので，$PS$ の長さ $|PS|$ は $a$ の変化により
+$$
+|PS| = \sqrt{\frac{3}{2}}\sqrt{4-a^2}
+$$
+という値をとる。
+
+$a^2$ の最小値は $0$（$a=0$ のとき），最大値は $1$ に近づく（$a\to\pm1$ のとき）から，
+$$
+4-a^2 \quad\text{は}\quad 3 < 4-a^2 \le 4
+$$
+を満たす。したがって
+$$
+\sqrt{4-a^2} \quad\text{は}\quad \sqrt{3} < \sqrt{4-a^2} \le 2
+$$
+となるので，
+$$
+|PS| \quad\text{は}\quad
+\sqrt{\frac{3}{2}}\sqrt{3} < |PS| \le \sqrt{\frac{3}{2}}\cdot 2
+$$
+すなわち
+$$
+\frac{3}{\sqrt{2}} < |PS| \le \sqrt{6}
+$$
+である。
+
+線分 $PS$ が動いてできる図形は，原点 $P=(0,0)$ を共有端とし，長さが $\frac{3}{\sqrt{2}}<r\le\sqrt{6}$ の線分が，何らかの角度範囲で回転してできる「円環状の部分（環）」である。さらに，直線 $l$ の傾きは常に $1$ で，曲線 $y=x^3-2x$ は原点に対して点対称であり，$P$ は原点で固定されているので，$PS$ の向きは原点のまわりに $0$ から $2\pi$ まで全方向をとることが分かる（曲線と直線の配置から，対称性により全周が実現される）。
+
+したがって，$PS$ が動いてできる領域は，中心を原点とし，内半径 $r_1=\dfrac{3}{\sqrt{2}}$，外半径 $r_2=\sqrt{6}$ の円環であり，その面積は
+$$
+\pi r_2^2 - \pi r_1^2
+= \pi\left(6 - \frac{9}{2}\right)
+= \pi\cdot\frac{12-9}{2}
+= \frac{3\pi}{2}
+$$
+となる。
+
+よって，求める面積は
+$$
+\frac{3\pi}{2}
+$$
+である。

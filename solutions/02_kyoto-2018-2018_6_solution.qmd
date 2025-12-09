@@ -1,0 +1,144 @@
+## 解答
+
+(1)  
+
+辺の中点を用いるので，ベクトルを用いて示す。
+
+点 $A$ を原点とみなし，  
+$\vec{AB}=\mathbf{b},\ \vec{AC}=\mathbf{c},\ \vec{AD}=\mathbf{d}$ とおく。
+
+中点 $P,Q$ は
+$$
+\vec{AP}=\frac{\vec{AB}}{2}=\frac{\mathbf{b}}{2},\quad
+\vec{AQ}=\frac{\vec{AC}+\vec{AD}}{2}=\frac{\mathbf{c}+\mathbf{d}}{2}
+$$
+より，  
+線分 $PQ$ の向きベクトルは
+$$
+\vec{PQ}=\vec{AQ}-\vec{AP}
+=\frac{\mathbf{c}+\mathbf{d}}{2}-\frac{\mathbf{b}}{2}
+=\frac{\mathbf{c}+\mathbf{d}-\mathbf{b}}{2}
+$$
+である。
+
+条件 $AC=BD,\ AD=BC$ から内積を用いると
+$$
+|\vec{AC}|^2 = |\vec{BD}|^2,\quad |\vec{AD}|^2 = |\vec{BC}|^2
+$$
+すなわち
+$$
+|\mathbf{c}|^2 = |\mathbf{d}-\mathbf{b}|^2,\quad
+|\mathbf{d}|^2 = |\mathbf{c}-\mathbf{b}|^2
+$$
+が成り立つ。
+
+右辺を展開すると
+$$
+|\mathbf{c}|^2 = |\mathbf{d}|^2 + |\mathbf{b}|^2 - 2\mathbf{d}\cdot\mathbf{b},
+$$
+$$
+|\mathbf{d}|^2 = |\mathbf{c}|^2 + |\mathbf{b}|^2 - 2\mathbf{c}\cdot\mathbf{b}
+$$
+となる。これらをそれぞれ変形すると
+$$
+2\,\mathbf{d}\cdot\mathbf{b} = |\mathbf{d}|^2 + |\mathbf{b}|^2 - |\mathbf{c}|^2,
+$$
+$$
+2\,\mathbf{c}\cdot\mathbf{b} = |\mathbf{c}|^2 + |\mathbf{b}|^2 - |\mathbf{d}|^2
+$$
+を得る。
+
+これらを加えると
+$$
+2(\mathbf{c}\cdot\mathbf{b} + \mathbf{d}\cdot\mathbf{b})
+= (|\mathbf{c}|^2 + |\mathbf{b}|^2 - |\mathbf{d}|^2)
++ (|\mathbf{d}|^2 + |\mathbf{b}|^2 - |\mathbf{c}|^2)
+= 2|\mathbf{b}|^2
+$$
+ゆえに
+$$
+\mathbf{b}\cdot(\mathbf{c}+\mathbf{d}) = |\mathbf{b}|^2
+$$
+を得る。したがって
+$$
+\mathbf{b}\cdot(\mathbf{c}+\mathbf{d}-\mathbf{b})
+= \mathbf{b}\cdot(\mathbf{c}+\mathbf{d}) - \mathbf{b}\cdot\mathbf{b}
+= |\mathbf{b}|^2 - |\mathbf{b}|^2 = 0
+$$
+である。ここで $\vec{AB}=\mathbf{b},\ \vec{PQ}\parallel \mathbf{c}+\mathbf{d}-\mathbf{b}$ なので
+$$
+\vec{AB}\cdot\vec{PQ}=0
+$$
+すなわち，辺 $AB$ と線分 $PQ$ は垂直である。
+
+以上より (1) が示された。
+
+---
+
+(2)  
+
+四面体の体積は「底面積 × 高さ × $\dfrac{1}{3}$」で表されることを用いる。
+
+(1) より，線分 $PQ$ を含む平面 $\alpha$ は辺 $AB$ と垂直である。  
+したがって，平面 $\alpha$ を「底面」とみなすと，$AB$ はその底面に下ろした高さの方向とみなせる。
+
+$P,Q$ はそれぞれ $AB,CD$ の中点であり，$\alpha$ は $P,Q$ を含むから，
+平面 $\alpha$ は線分 $AB$ を中点 $P$ で，線分 $CD$ を中点 $Q$ で切っている。
+
+四面体 $ABCD$ を平面 $\alpha$ で切ったときにできる 2 つの部分のうち，  
+$AB$ を含む方の体積を $V_1$，$CD$ を含む方の体積を $V_2$ とする。
+
+平面 $\alpha$ から頂点 $A,B$ までの距離は等しく，その共通の値を $h_1$ とおく。  
+また，平面 $\alpha$ から頂点 $C,D$ までの距離も等しく，その共通の値を $h_2$ とおく。
+
+ここで，$P$ が $AB$ の中点であり，$\alpha$ が $AB$ と垂直であることから，
+$A$ から $\alpha$ までの距離と $B$ から $\alpha$ までの距離は等しくなり，  
+したがって $P$ は $A$ と $B$ の中点であるから，
+$$
+AP = PB,\quad \text{かつ } \alpha \perp AB
+$$
+より，$A,B$ は平面 $\alpha$ に関して対称な位置にある。  
+よって $A,B$ と $\alpha$ との距離が等しいのである。$C,D$ についても同様である。
+
+次に，四面体 $ABCD$ の体積を $\alpha$ を底面と考えて表すと，
+高さは「平面 $\alpha$ から $A,B,C,D$ までの距離のうち，最大のもの」だが，  
+今回必要なのは，部分四面体についての表現である。
+
+部分 $V_1$（$AB$ を含む方）は，底面が $\alpha$，高さが $h_1$ の「錐体」であり，  
+部分 $V_2$（$CD$ を含む方）は，底面が $\alpha$，高さが $h_2$ の錐体である。  
+ゆえに
+$$
+V_1 = \frac{1}{3} S_\alpha h_1,\quad
+V_2 = \frac{1}{3} S_\alpha h_2
+$$
+と書ける。ただし $S_\alpha$ は切り口（$\alpha$ と四面体の共通部分）の面積である。
+
+一方，$P$ は $AB$ の中点，$Q$ は $CD$ の中点であり，
+$AB$ と $CD$ はそれぞれ一直線ではないが，  
+高さ方向は $AB$ に直交する共通の方向であるから，
+$P$ が $AB$ の中点であることは，  
+$A$ と $B$ の $\alpha$ からの距離が等しいことを意味し，
+同様に $Q$ が $CD$ の中点であることは，
+$C$ と $D$ の $\alpha$ からの距離が等しいことを意味する。
+
+さらに，四面体 $ABCD$ の重心 $G$ を考える。  
+四面体の重心は，全ての頂点から等距離にあるのではなく，
+各頂点から対向面への線分を $3:1$ に内分する点である。  
+ここで重要なのは，直線 $AB$ 上の中点 $P$ と直線 $CD$ 上の中点 $Q$ を結ぶと，  
+その中点 $\dfrac{P+Q}{2}$ が四面体の重心 $G$ になることである。  
+（これは，四面体の重心が 4 頂点の位置ベクトルの平均で与えられることから分かる。）
+
+$\alpha$ は $P,Q$ を含むので，その中点 $G$ も平面 $\alpha$ 上にある。  
+一方，四面体の重心 $G$ は，四面体を一様な密度の立体とみなしたときの「重さの中心」であるから，  
+重心を通る平面で切ると，2 つの部分の体積は等しくなる。  
+（重心は，体積に関する「平均位置」にあたる点であり，重心を通る平面で分けたとき，  
+一方の部分にある「符号付き体積のモーメント」と他方のそれが打ち消し合うからである。）
+
+したがって，重心 $G$ を通る平面 $\alpha$ によって，  
+四面体 $ABCD$ は体積が等しい 2 つの部分に分けられる。すなわち
+$$
+V_1 = V_2
+$$
+である。
+
+以上より (2) が示された。

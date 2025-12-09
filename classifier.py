@@ -1,5 +1,6 @@
 from typing import List, Optional
 
+import env  # noqa: F401  # .env を自動読み込み
 from openai import OpenAI
 
 from taxonomy import FIELDS

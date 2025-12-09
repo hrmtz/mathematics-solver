@@ -1,0 +1,32 @@
+---
+title: "九州大学 2017年 2017_1"
+problem_id: "07_kyushu-2017-2017_1"
+university: "九州大学"
+exam_year: "2017"
+source_tex: "archive/07_kyushu/2017/2017_1.tex"
+pdf_source: "archive/07_kyushu/2017/2017_1.pdf"
+page_image: "archive/07_kyushu/2017/2017_1.jpg"
+fields:
+  - 三角関数
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　定数$a>0$に対し，曲線$y=a\tan x$の$\displaystyle 0 \leqq x < \frac{\pi}{2}$の部分を$C_1$，
+曲線$y=\sin2x$の$\displaystyle 0 \leqq x < \frac{\pi}{2}$の部分を$C_2$とする。
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]$C_1$と$C_2$が原点以外に交点をもつための$a$の条件を求めよ。
+\item[(2)]$a$が(1)の条件を満たすとき，原点以外の$C_1$と$C_2$の交点を$P$とし，$P$の$x$座標を$p$とする。
+$P$における$C_1$と$C_2$のそれぞれの接線が直交するとき，$a$および$\cos2p$の値を求めよ。
+\item[(3)]$a$が(2)で求めた値のとき，$C_1$と$C_2$で囲まれた図形の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_1.pdf)

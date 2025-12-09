@@ -1,0 +1,29 @@
+---
+title: "東京大学 2012年 2012_2"
+problem_id: "01_tokyo-2012-2012_2"
+university: "東京大学"
+exam_year: "2012"
+source_tex: "archive/01_tokyo/2012/2012_2.tex"
+pdf_source: "archive/01_tokyo/2012/2012_2.pdf"
+page_image: "archive/01_tokyo/2012/2012_2.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　図のように，正三角形を9つの部屋に辺で区切り，部屋$P$，$Q$を定める。
+1つの球が部屋$P$を出発し，1秒ごとに，そのままその部屋にとどまることなく，
+辺を共有する隣の部屋に等確率で移動する。
+球が$n$秒後に部屋$Q$にある確率を求めよ。
+
+
+
+![](../archive/01_tokyo/2012/fig_2012_2.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2012/2012_2.pdf)

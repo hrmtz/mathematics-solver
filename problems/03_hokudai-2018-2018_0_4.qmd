@@ -1,0 +1,34 @@
+---
+title: "北海道大学 2018年 2018_0_4"
+problem_id: "03_hokudai-2018-2018_0_4"
+university: "北海道大学"
+exam_year: "2018"
+source_tex: "archive/03_hokudai/2018/2018_0_4.tex"
+pdf_source: "archive/03_hokudai/2018/2018_0_4.pdf"
+page_image: "archive/03_hokudai/2018/2018_0_4.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$p$を実数とする。
+関数$y=x^3+px^2+x$のグラフ$C_1$と関数$y=x^2$のグラフ$C_2$は，
+$x>0$の範囲に共有点を2個もつとする。
+\begin{description}
+\item[(1)]このような$p$の値の範囲を求めよ。
+\item[(2)]$C_1$と$C_2$の$x>0$の範囲にある共有点の$x$座標を
+それぞれ$\alpha$，$\beta$ $(\alpha<\beta)$とし，
+$0 \leqq x \leqq \alpha$と$\alpha \leqq x \leqq \beta$の範囲で
+$C_1$と$C_2$が囲む部分の面積をそれぞれ$S_1$，$S_2$とする。
+$S_1=S_2$となるような$p$の値を求めよ。
+また，このときの$S_1$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2018/2018_0_4.pdf)

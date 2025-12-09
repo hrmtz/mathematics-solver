@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 2003年 2003_0_3a"
+problem_id: "05_nagoya-2003-2003_0_3a"
+university: "名古屋大学"
+exam_year: "2003"
+source_tex: "archive/05_nagoya/2003/2003_0_3a.tex"
+pdf_source: "archive/05_nagoya/2003/2003_0_3a.pdf"
+page_image: "archive/05_nagoya/2003/2003_0_3a.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3 (a)
+　$n$を自然数とするとき，$m \leqq n$で$m$と$n$の最大公約数が1となる自然数$m$の個数を$f(n)$とする．
+\begin{description}
+\item[(1)]$f(15)$を求めよ．
+\item[(2)]$p$，$q$を互いに異なる素数とする．このとき$f(pq)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_0_3a.pdf)

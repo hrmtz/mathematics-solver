@@ -1,0 +1,29 @@
+---
+title: "東京大学 2013年 2013_0_1"
+problem_id: "01_tokyo-2013-2013_0_1"
+university: "東京大学"
+exam_year: "2013"
+source_tex: "archive/01_tokyo/2013/2013_0_1.tex"
+pdf_source: "archive/01_tokyo/2013/2013_0_1.pdf"
+page_image: "archive/01_tokyo/2013/2013_0_1.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　関数$y=x(x-1)(x-3)$のグラフを$C$，原点$O$を通る傾き$t$の直線を$l$とし，
+$C$と$l$が$O$以外に共有点をもつとする。
+$C$と$l$の共有点を$O$，$P$，$Q$とし，
+$|\overrightarrow{OP}|$と$|\overrightarrow{OQ}|$の積を$g(t)$とおく．
+ただし，それら共有点の1つが接点である場合は，
+$O$，$P$，$Q$のうちの2つが一致して，その接点であるとする。
+関数$g(t)$の増減を調べ，その極値を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2013/2013_0_1.pdf)

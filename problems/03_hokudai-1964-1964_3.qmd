@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1964年 1964_3"
+problem_id: "03_hokudai-1964-1964_3"
+university: "北海道大学"
+exam_year: "1964"
+source_tex: "archive/03_hokudai/1964/1964_3.tex"
+pdf_source: "archive/03_hokudai/1964/1964_3.pdf"
+page_image: "archive/03_hokudai/1964/1964_3.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$x$，$y$についての不等式$x^2-y^2+m \leqq 1+m(x+y)\cdots\cdots$(A)において
+\begin{description}
+\item[(1)]$m=0$の場合と，$m=1$の場合の2つの不等式を同時に満足する$x$，$y$を座標とする点の
+存在する範囲を斜線を引いて図示せよ。
+\item[(2)]$m$のどんな値に対しても(A)の不等式を満足する$x$，$y$の間にどんな関係があるか，
+それを図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_3.pdf)

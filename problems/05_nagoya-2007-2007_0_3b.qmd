@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 2007年 2007_0_3b"
+problem_id: "05_nagoya-2007-2007_0_3b"
+university: "名古屋大学"
+exam_year: "2007"
+source_tex: "archive/05_nagoya/2007/2007_0_3b.tex"
+pdf_source: "archive/05_nagoya/2007/2007_0_3b.pdf"
+page_image: "archive/05_nagoya/2007/2007_0_3b.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3 (b)
+　袋の中に赤と白の玉が1個ずつ入っている．
+「この袋から玉を1個取り出して戻し，出た玉と同じ色の玉を袋の中に1個追加する」
+という操作を$N$回繰り返した後，
+赤の玉が袋の中に$m$個ある確率を$p_N(m)$とする．
+\begin{description}
+\item[(1)]$p_3(m)$を求めよ．
+\item[(2)]一般の$N$に対し$p_N(m)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2007/2007_0_3b.pdf)

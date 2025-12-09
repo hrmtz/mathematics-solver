@@ -1,7 +1,9 @@
 from pathlib import Path
 from typing import Optional
 import os
+import re
 
+import env  # noqa: F401  # .env を自動読み込み
 from openai import OpenAI
 
 
@@ -20,12 +22,37 @@ SOLUTION_SYSTEM_PROMPT = """あなたは高校数学〜大学入試レベルの�
   - ディスプレイ数式は $$ ... $$ を用い、前後を空行で囲む。
   - \[ ... \] や \begin{align} などの環境は使用しない。
 - 問題本文をそのまま繰り返さず、「解答」だけを記述します。
-- 見出しとして `## 解答` を最初に置いてください。
 
 # 重要
 - 解答が複数の小問に分かれる場合は、(1),(2),... のようなラベルを明示してください。
 - 定義や定理を使うときは、何を用いたかを文章で簡潔に述べてください。
 """
+
+
+def _strip_solution_heading(text: str) -> str:
+    """先頭に付いた "## 解答" 見出しを取り除く。
+
+    既存の解答ファイルやモデル出力の先頭に付くことがあるので、
+    プレビューや handout では冗長な見出しを隠す目的で使う。
+    """
+
+    if not text:
+        return text
+
+    lines = text.splitlines()
+    i = 0
+    # 先頭の空行をスキップ
+    while i < len(lines) and not lines[i].strip():
+        i += 1
+
+    if i < len(lines) and lines[i].lstrip().startswith("## 解答"):
+        i += 1
+        # 見出し直後の空行も飛ばす
+        while i < len(lines) and not lines[i].strip():
+            i += 1
+        return "\n".join(lines[i:]).lstrip("\n")
+
+    return text
 
 
 def generate_solution_qmd(problem_qmd: str, problem_id: str, model: Optional[str] = None) -> str:
@@ -54,9 +81,9 @@ def generate_solution_qmd(problem_qmd: str, problem_id: str, model: Optional[str
 
     content = resp.choices[0].message.content
     if content is None:
-        return "## 解答\n\n(解答生成に失敗しました。)"
+        return "(解答生成に失敗しました。)"
 
-    return content
+    return _strip_solution_heading(content)
 
 
 HANDOUT_YAML_HEADER = """---
@@ -70,6 +97,47 @@ format:
 ---
 
 """
+
+
+def _sanitize_tex_for_handout(text: str) -> str:
+    """MathJax / Quarto で問題になりやすい TeX を handout 用に軽くサニタイズする。
+
+    現状は、OCR 由来で頻出する ``\hspace{1zw}`` などの ``zw`` 単位を
+    MathJax が理解できる ``\quad`` に置き換えるだけ。
+    """
+
+    if not text:
+        return text
+
+    # \hspace{...zw} → \quad に変換
+    t = re.sub(r"\\hspace\{[^}]*zw\}", r"\\quad ", text)
+
+    # LaTeX の description 環境を、問題プレビューと同様のロジックで
+    # シンプルな段落（HTML）に変換する
+    lines = t.splitlines()
+    out_lines = []
+    for line in lines:
+        stripped = line.strip()
+
+        if stripped.startswith(r"\begin{description}"):
+            continue
+        if stripped.startswith(r"\end{description}"):
+            continue
+
+        m = re.match(r"^\\item\[(.*?)\](.*)$", stripped)
+        if m:
+            label = m.group(1).strip()
+            body = m.group(2).strip()
+            if label:
+                # 問題プレビュー同様、ラベルを太字にした段落として出力
+                out_lines.append(f"<p><strong>{label}</strong> {body}</p>")
+            else:
+                out_lines.append(f"<p>{body}</p>")
+            continue
+
+        out_lines.append(line)
+
+    return "\n".join(out_lines)
 
 
 def build_handout_qmd(problem_qmd_path: Path, solution_qmd_path: Path, problem_id: str) -> str:
@@ -105,6 +173,7 @@ def build_handout_qmd(problem_qmd_path: Path, solution_qmd_path: Path, problem_i
             continue
         filtered_lines.append(line)
     body = "\n".join(filtered_lines).strip()
+    body = _sanitize_tex_for_handout(body)
 
     parts = [
         HANDOUT_YAML_HEADER.strip(),
@@ -120,7 +189,7 @@ def build_handout_qmd(problem_qmd_path: Path, solution_qmd_path: Path, problem_i
         "<section id=\"solution-section\">",
         "# 解答",
         "",
-        solution_qmd.strip(),
+        _sanitize_tex_for_handout(_strip_solution_heading(solution_qmd.strip())),
         "</section>",
         "",
         "</div>",

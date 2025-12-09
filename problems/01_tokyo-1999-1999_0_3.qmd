@@ -1,0 +1,24 @@
+---
+title: "東京大学 1999年 1999_0_3"
+problem_id: "01_tokyo-1999-1999_0_3"
+university: "東京大学"
+exam_year: "1999"
+source_tex: "archive/01_tokyo/1999/1999_0_3.tex"
+pdf_source: "archive/01_tokyo/1999/1999_0_3.pdf"
+page_image: "archive/01_tokyo/1999/1999_0_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$c$を$\displaystyle c>\frac{1}{4}$を満たす実数とする．
+$xy$平面上の放物線$y=x^2$を$A$とし，直線$y=x-c$に関して$A$と対称な放物線を$B$とする．
+点$P$が放物線$A$上を動き，点$Q$が放物線$B$上を動くとき，線分$PQ$の長さの最小値を$c$を用いて表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1999/1999_0_3.pdf)

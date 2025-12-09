@@ -1,0 +1,28 @@
+---
+title: "東北大学 1997年 1997_e"
+problem_id: "04_tohoku-1997-1997_e"
+university: "東北大学"
+exam_year: "1997"
+source_tex: "archive/04_tohoku/1997/1997_e.tex"
+pdf_source: "archive/04_tohoku/1997/1997_e.pdf"
+page_image: "archive/04_tohoku/1997/1997_e.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　曲線$y=x^2$ $(-2 \leqq x \leqq 1)$上の相異なる3点を
+$P(a, \, a^2)$，$Q(b, \, b^2)$，$R(c, \, c^2)$ $(-2 \leqq a<b<c\leqq1)$とする．このとき
+\begin{description}
+\item[(1)]三角形$PQR$の面積$S$を$a$，$b$，$c$で表せ．
+\item[(2)]$a$，$b$，$c$を上の条件の下で動かすとき，$S$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1997/1997_e.pdf)

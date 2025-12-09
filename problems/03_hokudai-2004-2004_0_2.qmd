@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2004年 2004_0_2"
+problem_id: "03_hokudai-2004-2004_0_2"
+university: "北海道大学"
+exam_year: "2004"
+source_tex: "archive/03_hokudai/2004/2004_0_2.tex"
+pdf_source: "archive/03_hokudai/2004/2004_0_2.pdf"
+page_image: "archive/03_hokudai/2004/2004_0_2.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$を正の実数とし，関数$\displaystyle F(x)=\int_x^{x+a}||t|-1|dt$を考える．
+\begin{description}
+\item[(1)]$F(x)$の導関数$F'(x)$を求めよ．
+さらに，$F'(x)=0$となる$x$の値をすべて求めよ．
+\item[(2)]$0<a<2$のとき，$F(x)$の極大値および極小値と，それらを与える$x$の値を求めよ．
+\item[(3)]$a>2$のとき，$F(x)$の極小値と，それを与える$x$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2004/2004_0_2.pdf)

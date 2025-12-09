@@ -1,0 +1,30 @@
+---
+title: "東北大学 1977年 1977_5"
+problem_id: "04_tohoku-1977-1977_5"
+university: "東北大学"
+exam_year: "1977"
+source_tex: "archive/04_tohoku/1977/1977_5.tex"
+pdf_source: "archive/04_tohoku/1977/1977_5.pdf"
+page_image: "archive/04_tohoku/1977/1977_5.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$400l$の水が入っている水槽がある．
+はじめに排水口を閉じたまま，この水槽に$1l$につき0.2kgの塩を含む塩水を，毎分$10l$の割合で注ぐ．
+このように塩水を注ぎ続けながら，10分後からは排水口をあけて毎分$10l$の割合で混合液を流出させる．
+ただし，水槽内の塩水の濃度はつねに一様に保たれており，混合液は水槽からあふれないものとする．
+\begin{description}
+\item[(1)]塩水を注ぎはじめてから$t$分後の水槽内の塩の量を$x$kgとする．
+そのとき塩水の濃度（kg/$l$）を$t$と$x$を用いて表せ．
+\item[(2)]塩水を注ぎはじめてから1時間後の水槽内の塩の量はいくらか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1977/1977_5.pdf)

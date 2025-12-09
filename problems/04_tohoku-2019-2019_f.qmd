@@ -1,0 +1,34 @@
+---
+title: "東北大学 2019年 2019_f"
+problem_id: "04_tohoku-2019-2019_f"
+university: "東北大学"
+exam_year: "2019"
+source_tex: "archive/04_tohoku/2019/2019_f.tex"
+pdf_source: "archive/04_tohoku/2019/2019_f.pdf"
+page_image: "archive/04_tohoku/2019/2019_f.jpg"
+fields:
+  - 複素数平面
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　複素数平面上の互いに異なる4点$A(z_1)$，$B(w_1)$，$C(z_2)$，$D(w_2)$を考える。
+\begin{description}
+\item[(1)]次の等式が成立することを示せ。
+\[ {|z_1w_1+z_2w_2|}^2=({|z_1|}^2+{|z_2|}^2)({|w_1|}^2+{|w_2|}^2)-
+{|z_1\overline{w_2}-z_2\overline{w_1}|}^2 \]
+\item[(2)]2つの等式
+\[ {|z_1w_1+z_2w_2|}^2=({|z_1|}^2+{|z_2|}^2)({|w_1|}^2+{|w_2|}^2) \cdots\cdots\text{\ding{"AC}} \]
+\[  |z_1|=|w_1| \cdots\cdots\text{\ding{"AD}} \]
+が成り立つとき，2つの直線$AB$と$CD$は平行であることを示せ。
+\item[(3)]2つの等式\ding{"AC}，\ding{"AD}が成り立ち，4点$A$，$B$，$C$，$D$が同一直線上にないならば，
+これらの4点はある直線に関して対称な四角形の頂点となることを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_f.pdf)

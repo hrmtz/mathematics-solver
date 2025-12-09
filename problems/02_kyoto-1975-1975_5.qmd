@@ -1,0 +1,30 @@
+---
+title: "京都大学 1975年 1975_5"
+problem_id: "02_kyoto-1975-1975_5"
+university: "京都大学"
+exam_year: "1975"
+source_tex: "archive/02_kyoto/1975/1975_5.tex"
+pdf_source: "archive/02_kyoto/1975/1975_5.pdf"
+page_image: "archive/02_kyoto/1975/1975_5.jpg"
+fields:
+  - 整数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n$と$a_1,a_2,\cdots,a_n$は自然数であって，
+不等式$2 \leqq a_1 \leqq a_2 \leqq \cdots \leqq a_n$，
+$\displaystyle \sum_{i=1}^n \left( 1-\frac{1}{a_i} \right) -2>0$をみたすものとする．
+$\displaystyle S=\sum_{i=1}^n \left( 1-\frac{1}{a_i} \right) -2$とおく．
+\begin{description}
+\item[(i)]とくに$n=3$として，$S$を最小にする$(a_1,a_2,a_3)$を求めよ．
+\item[(ii)]$n$も自由に動かした可能なすべての組$(n,a_1,a_2,\cdots,a_n)$のうちで，$S$を最小にするものを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1975/1975_5.pdf)

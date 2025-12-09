@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 1987年 1987_4a"
+problem_id: "05_nagoya-1987-1987_4a"
+university: "名古屋大学"
+exam_year: "1987"
+source_tex: "archive/05_nagoya/1987/1987_4a.tex"
+pdf_source: "archive/05_nagoya/1987/1987_4a.pdf"
+page_image: "archive/05_nagoya/1987/1987_4a.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　$a$，$b$，$c$を正の数とする．
+$xyz$空間内で点$(0, \, 0, \, 0)$，$(a, \, 0, \, 0)$，$(0, \, b, \, 0)$，$(0, \, 0, \, c)$，
+$(a, \, b, \, 0)$，$(a, \, 0, \, c)$，$(0, \, b, \, c)$，$(a, \, b, \, c)$を頂点とする直方体を$A$とする．
+$A$の点$P$から平面$x+y+z=0$へ垂線を引き，
+その平面との交点を$Q$とする．
+$P$が$A$を動くとき，
+$Q$の動く範囲$B$の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1987/1987_4a.pdf)

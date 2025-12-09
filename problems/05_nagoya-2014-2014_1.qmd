@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 2014年 2014_1"
+problem_id: "05_nagoya-2014-2014_1"
+university: "名古屋大学"
+exam_year: "2014"
+source_tex: "archive/05_nagoya/2014/2014_1.tex"
+pdf_source: "archive/05_nagoya/2014/2014_1.pdf"
+page_image: "archive/05_nagoya/2014/2014_1.jpg"
+fields:
+  - 空間図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　空間内にある半径1の球（内部を含む）を$B$とする。
+直線$l$と$B$が交わっており，その交わりは長さ$\sqrt3$の線分である。
+\begin{description}
+\item[(1)]$B$の中心と$l$との距離を求めよ。
+\item[(2)]$l$のまわりに$B$を1回転してできる立体の体積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2014/2014_1.pdf)

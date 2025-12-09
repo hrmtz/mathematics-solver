@@ -1,0 +1,26 @@
+---
+title: "東北大学 2001年 2001_0_c"
+problem_id: "04_tohoku-2001-2001_0_c"
+university: "東北大学"
+exam_year: "2001"
+source_tex: "archive/04_tohoku/2001/2001_0_c.tex"
+pdf_source: "archive/04_tohoku/2001/2001_0_c.pdf"
+page_image: "archive/04_tohoku/2001/2001_0_c.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$は定数で，$-{90}^\circ<t<{90}^\circ$とする．2点
+\[ P \left( \frac{1}{2}\sin t+\cos2t, \, \tan t \right), \hspace{1zw}
+Q(\sin2t+a\cos t, \, 3\sin t-2\cos t+a+2) \]
+がある$t$に対して同じ点となるとき，
+定数$a$の値およびそのときの$t$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_0_c.pdf)

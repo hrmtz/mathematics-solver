@@ -74,11 +74,18 @@
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
       font-size: 0.85rem;
       background: #f9fafb;
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
     }
 
     .preview-box {
       white-space: pre-wrap;
       min-height: 220px;
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      overflow-wrap: anywhere;
     }
 
     .btn {
@@ -93,6 +100,8 @@
       color: #fff;
       transition: background 0.15s ease, box-shadow 0.15s ease, transform 0.05s ease;
       margin-right: 0.5rem;
+      text-decoration: none;
+      display: inline-block;
     }
 
     .btn:hover {
@@ -126,22 +135,7 @@
     {% endwith %}
 
     <div class="container">
-    <div class="row">
-      <div class="pane">
-        <h2>問題 (qmd)</h2>
-        <pre>{{ problem_qmd }}</pre>
-      </div>
-      <div class="pane">
-        <h2>解答 (qmd)</h2>
-        {% if solution_qmd %}
-          <pre>{{ solution_qmd }}</pre>
-        {% else %}
-          <p>まだ解答が生成されていません。「解答を生成」ボタンを押してください。</p>
-        {% endif %}
-      </div>
-    </div>
-
-    <div class="row">
+    <div class="container">
       <div class="pane">
         <h2>問題プレビュー</h2>
         <div id="problem_preview" class="preview-box" data-qmd="{{ problem_qmd | e }}"></div>
@@ -150,8 +144,6 @@
         <h2>解答プレビュー</h2>
         <div id="solution_preview" class="preview-box" data-qmd="{{ solution_qmd | e }}"></div>
       </div>
-    </div>
-
     <div style="margin-top: 1rem;">
       <form action="{{ url_for('solve', problem_id=problem_id) }}" method="post" style="display: inline-block;">
         <button class="btn" type="submit">解答を生成</button>
@@ -163,12 +155,35 @@
     </div>
   </div>
 
+      <a href="{{ url_for('open_problem', problem_id=problem_id) }}" class="btn btn-secondary">ソースを編集</a>
+
   <script>
+    // サーバ側から QMD テキストをそのまま JS 文字列として受け取る
+    const PROBLEM_QMD = {{ problem_qmd | tojson }};
+    const SOLUTION_QMD = {{ solution_qmd | tojson }};
+
     function renderMath() {
       if (window.MathJax) {
         MathJax.typesetClear();
         MathJax.typesetPromise();
       }
+    }
+
+    // 先頭の「## 解答」見出しを非表示にするためのヘルパ
+    function stripSolutionHeading(text) {
+      const lines = (text || '').split(/\r?\n/);
+      let i = 0;
+      // 先頭の空行をスキップ
+      while (i < lines.length && !lines[i].trim()) i++;
+
+      if (i < lines.length && /^##\s*解答\s*$/.test(lines[i].trim())) {
+        i++;
+        // 見出し直後の空行も飛ばす
+        while (i < lines.length && !lines[i].trim()) i++;
+      } else {
+        i = 0;
+      }
+      return lines.slice(i).join('\n');
     }
 
     function stripYaml(text) {
@@ -182,12 +197,64 @@
       return lines.slice(i + 1).join('\n');
     }
 
-    function qmdToHtml(text) {
-      const withoutYaml = stripYaml(text || '');
-      const lines = withoutYaml.split(/\r?\n/);
+    function sanitizeTeX(text) {
+      if (!text) return '';
+      let t = text;
+      // MathJax が未対応の \\hspace{...zw} を安全なスペースに変換
+      t = t.replace(/\\hspace\{[^}]*zw\}/g, '\\quad ');
+
+      // OCR 由来の pmatrix で、行ごとが空行で区切られている場合に行末に \\ を補う
+      t = t.replace(/\\begin{pmatrix}([\s\S]*?)\\end{pmatrix}/g, (match, inner) => {
+        const fixedInner = inner.replace(/\n\s*\n/g, '\\\\\n');
+        return '\\begin{pmatrix}' + fixedInner + '\\end{pmatrix}';
+      });
+
+      return t;
+    }
+
+    function escapeHtml(text) {
+      if (!text) return '';
+      return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    function qmdToHtml(text, stripSolutionHeadingFlag) {
+      let src = text || '';
+      if (stripSolutionHeadingFlag) {
+        src = stripSolutionHeading(src);
+      }
+
+      const withoutYaml = stripYaml(src);
+      const sanitized = sanitizeTeX(withoutYaml);
+      const lines = sanitized.split(/\r?\n/);
       const htmlLines = lines.map(line => {
         const trimmed = line.trim();
         if (!trimmed) return '';
+
+        // LaTeX の description 環境は MathJax が解釈できないので、簡易HTMLに変換
+        if (/^\\begin{description}/.test(trimmed) || /^\\end{description}/.test(trimmed)) {
+          return '';
+        }
+        const itemMatch = trimmed.match(/^\\item\[(.*?)\](.*)$/);
+        if (itemMatch) {
+          const label = escapeHtml(itemMatch[1].trim());
+          const body = escapeHtml(itemMatch[2].trim());
+          if (label) {
+            return `<p><strong>${label}</strong> ${body}</p>`;
+          }
+          // ラベルなしの \item[] は普通の段落として表示
+          return `<p>${body}</p>`;
+        }
+
+        // Markdown 見出し行 (### など) を HTML 見出しに変換
+        const headingMatch = trimmed.match(/^(#{1,6})\s+(.*)$/);
+        if (headingMatch) {
+          const level = Math.min(headingMatch[1].length, 6);
+          const content = escapeHtml(headingMatch[2].trim());
+          return `<h${level}>${content}</h${level}>`;
+        }
         // 画像行: ![](url)
         const imgOnly = trimmed.match(/^!\[[^\]]*\]\(([^)]+)\)/);
         if (imgOnly) {
@@ -198,7 +265,7 @@
         // 単純なリンク行: [text](url)
         const linkOnly = trimmed.match(/^\[([^\]]+)\]\(([^)]+)\)/);
         if (linkOnly) {
-          const text = linkOnly[1];
+          const text = escapeHtml(linkOnly[1]);
           const href = linkOnly[2];
           return `<a href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`;
         }
@@ -207,7 +274,7 @@
         if (trimmed.startsWith('元問題 PDF:')) {
           const m = trimmed.match(/\[([^\]]+)\]\(([^)]+)\)/);
           if (m) {
-            const text = m[1];
+            const text = escapeHtml(m[1]);
             const href = m[2];
             return `元問題 PDF: <a href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`;
           }
@@ -222,21 +289,23 @@
           }
         }
 
-        // 余計なタグを付けず、そのまま MathJax に渡す
-        return trimmed;
+        // 上記のどれにも当てはまらない行は、HTML をエスケープして返す
+        // これにより 0<t<5/2 のような不等号を含む TeX も安全に埋め込める
+        return escapeHtml(trimmed);
       });
       return htmlLines.join('\n');
     }
 
-    function setPreview(id) {
-      const el = document.getElementById(id);
-      const raw = el.dataset.qmd || '';
-      el.innerHTML = qmdToHtml(raw);
+    function setPreview(el, raw, stripSolutionHeadingFlag) {
+      el.innerHTML = qmdToHtml(raw || '', stripSolutionHeadingFlag);
     }
 
     window.onload = function() {
-      setPreview('problem_preview');
-      setPreview('solution_preview');
+      const problemEl = document.getElementById('problem_preview');
+      const solutionEl = document.getElementById('solution_preview');
+      // 問題側はそのまま、解答側は先頭の「## 解答」を非表示にする
+      setPreview(problemEl, PROBLEM_QMD, false);
+      setPreview(solutionEl, SOLUTION_QMD, true);
       renderMath();
     };
   </script>

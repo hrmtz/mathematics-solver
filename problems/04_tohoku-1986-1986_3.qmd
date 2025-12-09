@@ -1,0 +1,33 @@
+---
+title: "東北大学 1986年 1986_3"
+problem_id: "04_tohoku-1986-1986_3"
+university: "東北大学"
+exam_year: "1986"
+source_tex: "archive/04_tohoku/1986/1986_3.tex"
+pdf_source: "archive/04_tohoku/1986/1986_3.pdf"
+page_image: "archive/04_tohoku/1986/1986_3.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]行列$A=\begin{pmatrix} a & b 
+
+ 1 & a \end{pmatrix}$ $(a>0, \, b>0)$について，
+$A^3=A$が成立するように$a$，$b$を定めよ．
+\item[(2)](1)の$a$，$b$に対して，
+1次変換$\begin{cases} x'=ax+by 
+
+ y'=x+ay \end{cases}$を考える．
+この1次変換による円$x^2+y^2=1$の像を図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1986/1986_3.pdf)

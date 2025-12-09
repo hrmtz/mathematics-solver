@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1977年 1977_5"
+problem_id: "03_hokudai-1977-1977_5"
+university: "北海道大学"
+exam_year: "1977"
+source_tex: "archive/03_hokudai/1977/1977_5.tex"
+pdf_source: "archive/03_hokudai/1977/1977_5.pdf"
+page_image: "archive/03_hokudai/1977/1977_5.jpg"
+fields:
+  - 指数・対数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　関数$f(x)$は$\displaystyle\frac{f'(x)}{f(x)}=\frac{2}{x^3}$，$f(0)=0$を満たし，
+$\displaystyle\lim_{x\to+\infty}f(x)=1$，$\displaystyle\lim_{x\to-\infty}f(x)=1$であるとする．
+\begin{description}
+\item[(1)]すべての正数$x$について$e^x \geqq ax^2$が成り立つような$a$の範囲を求めよ．
+\item[(2)]$x\neq0$のとき，$f(x)$を求めよ．
+\item[(3)]微分係数の定義と(1)とを用いて$f'(0)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1977/1977_5.pdf)

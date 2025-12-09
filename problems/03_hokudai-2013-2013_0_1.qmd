@@ -1,0 +1,28 @@
+---
+title: "北海道大学 2013年 2013_0_1"
+problem_id: "03_hokudai-2013-2013_0_1"
+university: "北海道大学"
+exam_year: "2013"
+source_tex: "archive/03_hokudai/2013/2013_0_1.tex"
+pdf_source: "archive/03_hokudai/2013/2013_0_1.pdf"
+page_image: "archive/03_hokudai/2013/2013_0_1.jpg"
+fields:
+  - 三角関数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$f(x)=\sqrt2 \, \sin x\cos x+\sin x+\cos x$ $(0 \leqq x \leqq 2\pi)$とする。
+\begin{description}
+\item[(1)]$t=\sin x+\cos x$とおき，$f(x)$を$t$の関数で表せ。
+\item[(2)]$t$の取り得る値の範囲を求めよ。
+\item[(3)]$f(x)$の最大値と最小値，およびそのときの$x$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2013/2013_0_1.pdf)

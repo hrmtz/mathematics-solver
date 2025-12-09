@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 2003年 2003_3"
+problem_id: "05_nagoya-2003-2003_3"
+university: "名古屋大学"
+exam_year: "2003"
+source_tex: "archive/05_nagoya/2003/2003_3.tex"
+pdf_source: "archive/05_nagoya/2003/2003_3.pdf"
+page_image: "archive/05_nagoya/2003/2003_3.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　サイコロを$n$回投げて，3の倍数が$k$回出る確率を$P_n(k)$とする．
+各$n$について，$P_n(k)$を最大にする$k$を$N(n)$とする．
+ただし，このような$k$が複数あるときは，
+最も大きいものを$N(n)$とする．
+\begin{description}
+\item[(1)]$\displaystyle\frac{P_n(k+1)}{P_n(k)}$を求めよ．
+\item[(2)]$n\geqq2$のとき，
+$\displaystyle\frac{N(n)}{n}$を最小にする$n$と，
+そのときの$\displaystyle\frac{N(n)}{n}$の値を求めよ．
+\item[(3)]$\displaystyle\lim_{n\to\infty}\frac{N(n)}{n}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_3.pdf)

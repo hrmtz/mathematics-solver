@@ -1,0 +1,38 @@
+---
+title: "大阪大学 2019年 2019_4"
+problem_id: "06_osaka-2019-2019_4"
+university: "大阪大学"
+exam_year: "2019"
+source_tex: "archive/06_osaka/2019/2019_4.tex"
+pdf_source: "archive/06_osaka/2019/2019_4.pdf"
+page_image: "archive/06_osaka/2019/2019_4.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　下の図は，$\displaystyle\frac{1}{1}$から始めて
+分数$\displaystyle\frac{p}{q}$の
+左下に分数$\displaystyle\frac{p}{p+q}$，
+右下に分数$\displaystyle\frac{p+q}{q}$を
+配置するという規則でできた樹形図の一部である．
+このとき以下の問いに答えよ．
+\begin{description}
+\item[(1)]この樹形図に現れる分数はすべて既約分数であることを示せ．
+ただし整数$\displaystyle\frac{n}{1}$は既約分数とみなす．
+\item[(2)]すべての正の有理数がこの樹形図に現れることを示せ．
+\item[(3)]この樹形図に現れる有理数はすべて異なることを示せ．
+\item[(4)]$\displaystyle\frac{19}{44}$はこの樹形図の上から何段目の左から何番目に配置されるか答えよ．
+たとえば，$\displaystyle\frac{3}{1}$は上から3段目の左から4番目である．
+\end{description}
+
+
+![](../archive/06_osaka/2019/fig_2019_4.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2019/2019_4.pdf)

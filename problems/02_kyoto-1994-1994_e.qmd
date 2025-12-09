@@ -1,0 +1,27 @@
+---
+title: "京都大学 1994年 1994_e"
+problem_id: "02_kyoto-1994-1994_e"
+university: "京都大学"
+exam_year: "1994"
+source_tex: "archive/02_kyoto/1994/1994_e.tex"
+pdf_source: "archive/02_kyoto/1994/1994_e.pdf"
+page_image: "archive/02_kyoto/1994/1994_e.jpg"
+fields:
+  - 平面図形
+  - 微分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　実数$r$は$2 \pi r > 1$を満たすとする．
+半径$r$の円の周上に2点$P$，$Q$を，弧$PQ$の長さが1になるようにとる．
+点$R$が弧$PQ$上を$P$から$Q$まで動くとき，弦$PR$が動いて通過する部分の面積を$S(r)$とする．
+　$r$が変化するとき，面積$S(r)$の最大値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_e.pdf)

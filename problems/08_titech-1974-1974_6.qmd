@@ -1,0 +1,24 @@
+---
+title: "東京科学大学 1974年 1974_6"
+problem_id: "08_titech-1974-1974_6"
+university: "東京科学大学"
+exam_year: "1974"
+source_tex: "archive/08_titech/1974/1974_6.tex"
+pdf_source: "archive/08_titech/1974/1974_6.pdf"
+page_image: "archive/08_titech/1974/1974_6.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$\displaystyle F(a)=\int_0^\frac{\pi}{2}|\sin x-a\cos x|dx$を
+最小にする$a$の値およびそのときの$F(a)$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1974/1974_6.pdf)

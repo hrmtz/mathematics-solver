@@ -1,0 +1,34 @@
+---
+title: "北海道大学 1969年 1969_0_3"
+problem_id: "03_hokudai-1969-1969_0_3"
+university: "北海道大学"
+exam_year: "1969"
+source_tex: "archive/03_hokudai/1969/1969_0_3.tex"
+pdf_source: "archive/03_hokudai/1969/1969_0_3.pdf"
+page_image: "archive/03_hokudai/1969/1969_0_3.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　右の図は空間の直交座標の原点$O$および座標軸上に頂点をもつ3角すい$OABC$で，
+$AB=2a$，$AC=3a$，$\angle BAC={60}^\circ$である．
+ 
+
+![](../archive/03_hokudai/1969/fig_1969_0_3.jpg)
+
+
+\begin{description}
+\item[(1)]この3角すいの体積を求めよ．
+\item[(2)]$O$から平面$ABC$までの距離を求めよ．
+\item[(3)]$O$から辺$AB$におろした垂線の足を$H$とするとき，$CH$の長さを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1969/1969_0_3.pdf)

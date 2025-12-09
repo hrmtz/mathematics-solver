@@ -1,0 +1,30 @@
+---
+title: "東北大学 1963年 1963_2"
+problem_id: "04_tohoku-1963-1963_2"
+university: "東北大学"
+exam_year: "1963"
+source_tex: "archive/04_tohoku/1963/1963_2.tex"
+pdf_source: "archive/04_tohoku/1963/1963_2.pdf"
+page_image: "archive/04_tohoku/1963/1963_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　長さ$2R$の線分$BC$を直径とする半円周上の1点を$A$とし，
+弦$AB$，$AC$の中点をそれぞれ$E$，$F$とする。
+点$E$で弦$AB$に接し，かつ弧$AB$に接する円の半径を$\alpha$とし，
+点$F$で弦$AC$に接し，かつ弧$AC$に接する円の半径を$\beta$とする。
+$\triangle ABC$の内接円の半径を$r$として，次の等式を証明せよ。
+\begin{description}
+\item[(1)]$2(\alpha+\beta)=R-r$
+\item[(2)]$8\alpha\beta=r^2$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1963/1963_2.pdf)

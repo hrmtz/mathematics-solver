@@ -1,0 +1,30 @@
+---
+title: "京都大学 1988年 1988_6"
+problem_id: "02_kyoto-1988-1988_6"
+university: "京都大学"
+exam_year: "1988"
+source_tex: "archive/02_kyoto/1988/1988_6.tex"
+pdf_source: "archive/02_kyoto/1988/1988_6.pdf"
+page_image: "archive/02_kyoto/1988/1988_6.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　単位をcmとする．
+$\displaystyle y=\frac{a}{x}+b$，$0 \leqq y \leqq 8$で表される曲線を
+$y$軸のまわりに回転させて作った曲面を側面にもつような，底の平らな容器がある．
+ただし，上面の半径は1cm，底面の半径は5cmである．
+\begin{description}
+\item[(1)]この容器に深さ6cmまで水を入れたときの水の体積を求めよ．
+\item[(2)]この容器に毎秒$k\text{cm}^3$の割合で水を入れるとき，深さ3cmのときの水面の上昇速度を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1988/1988_6.pdf)

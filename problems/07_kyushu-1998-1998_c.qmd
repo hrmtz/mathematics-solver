@@ -1,0 +1,28 @@
+---
+title: "九州大学 1998年 1998_c"
+problem_id: "07_kyushu-1998-1998_c"
+university: "九州大学"
+exam_year: "1998"
+source_tex: "archive/07_kyushu/1998/1998_c.tex"
+pdf_source: "archive/07_kyushu/1998/1998_c.pdf"
+page_image: "archive/07_kyushu/1998/1998_c.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数$f(x)=e^x-e^{-x}$について，次の問に答えよ．
+\begin{description}
+\item[(1)]$x=-1$から$x=2$までの$f(x)$の定積分を求めよ．
+\item[(2)]$\displaystyle d_j=1+\frac{j-1}{m}$とし，
+$\displaystyle G_m=\frac{1}{m}\sum_{j=1}^mf(d_j)$とする．
+このとき，$\displaystyle\lim_{m\to\infty}G_m$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_c.pdf)

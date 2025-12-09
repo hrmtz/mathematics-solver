@@ -1,0 +1,30 @@
+---
+title: "東北大学 2023年 2023_6"
+problem_id: "04_tohoku-2023-2023_6"
+university: "東北大学"
+exam_year: "2023"
+source_tex: "archive/04_tohoku/2023/2023_6.tex"
+pdf_source: "archive/04_tohoku/2023/2023_6.pdf"
+page_image: "archive/04_tohoku/2023/2023_6.jpg"
+fields:
+  - 微分法
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　関数$\displaystyle f(x)=-\frac{1}{2}x-\frac{4}{6x+1}$について，以下の問いに答えよ。
+\begin{description}
+\item[(1)]曲線$y=f(x)$の接線で，傾きが1であり，かつ接点の$x$座標が正であるものの方程式を求めよ。
+\item[(2)]座標平面上の2点$P(x, \, f(x))$，$Q(x+1, \, f(x)+1)$を考える。
+$x$が$0 \leqq x \leqq 2$の範囲を動くとき，線分$PQ$が通過してできる図形$S$の概形を描け。
+また$S$の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2023/2023_6.pdf)

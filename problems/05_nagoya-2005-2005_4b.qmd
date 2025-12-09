@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 2005年 2005_4b"
+problem_id: "05_nagoya-2005-2005_4b"
+university: "名古屋大学"
+exam_year: "2005"
+source_tex: "archive/05_nagoya/2005/2005_4b.tex"
+pdf_source: "archive/05_nagoya/2005/2005_4b.pdf"
+page_image: "archive/05_nagoya/2005/2005_4b.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+\begin{description}
+\item[(1)]連続関数$f(x)$が，すべての実数$x$について$f(\pi-x)=f(x)$をみたすとき，
+$\displaystyle\int_0^\pi\left(x-\frac{\pi}{2}\right)f(x)dx=0$がなりたつことを証明せよ．
+\item[(2)]$\displaystyle\int_0^\pi\frac{x{\sin}^3x}{4-{\cos}^2x}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2005/2005_4b.pdf)

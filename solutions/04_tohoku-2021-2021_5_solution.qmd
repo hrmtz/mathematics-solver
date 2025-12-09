@@ -1,0 +1,291 @@
+## 解答
+
+(1)  
+$z=x+yi$ とおく。ただし $x,y$ は実数である。  
+$A(z)$, $B(z^2)$ の座標はそれぞれ  
+$$
+A(x,y),\quad B(x^2-y^2,\,2xy)
+$$
+である。
+
+3点 $O(0,0),A(x,y),B(x^2-y^2,2xy)$ が同一直線上にあるための必要十分条件は，  
+ベクトル $\overrightarrow{OA}=(x,y)$ と $\overrightarrow{OB}=(x^2-y^2,2xy)$ が一次従属であること，すなわち
+$$
+x\cdot 2xy - y\cdot (x^2-y^2)=0
+$$
+である。
+
+左辺を計算する：
+$$
+2x^2y - x^2y + y^3 = x^2y + y^3 = y(x^2+y^2).
+$$
+したがって
+$$
+y(x^2+y^2)=0
+$$
+となる。
+
+ここで $x^2+y^2=0$ なら $x=y=0$ となり $z=0$ であるが，この場合 $O$ と $A$ は同一点になり，$O,A,B$ が「3点」とは言いにくいため除く（ただし，直線上にあること自体は満たしている）。  
+よって，$z\neq 0$ のもとで 3点が同一直線上にあるための条件は
+$$
+y=0
+$$
+すなわち
+$$
+z \text{ が実数 }
+$$
+である。
+
+結論として，3点 $O,A,B$ が同一直線上にあるための $z$ の必要十分条件は  
+「$z$ が実数であること」である。
+
+---
+
+(2)  
+三角形 $OAB$ が二等辺三角形になる条件を考える。  
+辺の長さを複素数の絶対値で表すと，
+$$
+OA = |z|,\quad OB = |z^2| = |z|^2,\quad AB = |z^2 - z|
+$$
+である。二等辺三角形になるには，3つの辺のうち少なくとも2つの長さが等しい。
+
+場合分けして調べる。
+
+(i) $OA=OB$ の場合  
+$$
+|z| = |z|^2
+$$
+より
+$$
+|z|(|z|-1)=0.
+$$
+$z=0$ のときは3点が同一点となるので除く。よって
+$$
+|z|=1
+$$
+すなわち $z$ は単位円上の点。
+
+(ii) $OA=AB$ の場合  
+$$
+|z| = |z^2 - z| = |z(z-1)| = |z|\cdot|z-1|
+$$
+であり，$z\neq 0$ とすれば
+$$
+1 = |z-1|
+$$
+が得られる。よって $z$ は中心 $1$，半径 $1$ の円周上の点。
+
+(iii) $OB=AB$ の場合  
+$$
+|z|^2 = |z^2 - z| = |z|\cdot|z-1|
+$$
+より，$z\neq 0$ ならば
+$$
+|z| = |z-1|
+$$
+となる。これは $z$ が $0$ と $1$ からの距離が等しい点，すなわち線分 $[0,1]$ の垂直二等分線上にあることを意味する。  
+この垂直二等分線は複素数平面上で実部 $1/2$ の直線だから，
+$$
+\operatorname{Re}(z) = \frac{1}{2}
+$$
+と表される。
+
+以上より，求める $z$ 全体は
+
+- 単位円 $|z|=1$ 上の点（ただし $z=0$ は除外するとしてよい），
+- 円 $|z-1|=1$ 上の点，
+- 直線 $\operatorname{Re}(z)=\dfrac{1}{2}$ 上の点（ただし $z=0$ はこの直線上にないので特に除外不要）
+
+の和集合である。
+
+---
+
+(3)  
+$z$ の偏角を $\theta$，絶対値を $r$ とおくと，
+$$
+z = r(\cos\theta + i\sin\theta),\quad r=|z|,\quad 0\le\theta\le\frac{\pi}{3}
+$$
+である。$z^2$ は
+$$
+z^2 = r^2(\cos 2\theta + i\sin 2\theta)
+$$
+であるから，
+$$
+OA = r,\quad OB = r^2
+$$
+であり，2ベクトルのなす角は $2\theta - \theta = \theta$ である。
+
+三角形 $OAB$ の面積 $S$ は，2辺 $OA,OB$ とそのあいだの角 $\theta$ を用いて
+$$
+S = \frac{1}{2}\,OA\cdot OB\cdot \sin\theta
+= \frac{1}{2}\,r\cdot r^2\cdot \sin\theta
+= \frac{1}{2}r^3\sin\theta
+$$
+となる。
+
+ここで，(2)より $OAB$ が二等辺三角形となるために $z$ が満たすべき条件は
+
+1. $|z|=1$（単位円），  
+2. $|z-1|=1$，  
+3. $\operatorname{Re}(z)=\dfrac{1}{2}$
+
+のいずれかである。ただし，問題の条件 $0\le\theta\le\frac{\pi}{3}$ を合わせて考える。
+
+まず，それぞれの条件のもとで $r$ を求める。
+
+(i) $|z|=1$ のとき  
+$r=1$，したがって
+$$
+S = \frac{1}{2}\sin\theta.
+$$
+
+(ii) $|z-1|=1$ のとき  
+$z = r(\cos\theta + i\sin\theta)$ として
+$$
+|z-1|^2 = (r\cos\theta -1)^2 + (r\sin\theta)^2 = 1^2
+$$
+を用いると
+$$
+r^2(\cos^2\theta + \sin^2\theta) - 2r\cos\theta + 1 = 1
+$$
+すなわち
+$$
+r^2 -2r\cos\theta = 0.
+$$
+$r\neq 0$ だから
+$$
+r = 2\cos\theta.
+$$
+したがって面積は
+$$
+S = \frac{1}{2}r^3\sin\theta
+= \frac{1}{2}(2\cos\theta)^3\sin\theta
+= 4\cos^3\theta\,\sin\theta.
+$$
+
+(iii) $\operatorname{Re}(z)=\dfrac{1}{2}$ のとき  
+$r\cos\theta = \dfrac{1}{2}$ より
+$$
+r = \frac{1}{2\cos\theta}
+$$
+である（$\cos\theta>0$ は $0\le\theta\le\frac{\pi}{3}$ から従う）。  
+したがって
+$$
+S = \frac{1}{2}r^3\sin\theta
+= \frac{1}{2}\left(\frac{1}{2\cos\theta}\right)^3\sin\theta
+= \frac{1}{16}\cdot\frac{\sin\theta}{\cos^3\theta}.
+$$
+
+以下，それぞれの場合について $0\le\theta\le\frac{\pi}{3}$ の範囲で $S$ の最大値を求める。
+
+---
+
+(i) の場合：$S = \dfrac{1}{2}\sin\theta$  
+$\sin\theta$ は $[0,\pi/3]$ で単調増加なので，最大値は $\theta=\dfrac{\pi}{3}$ のとき
+$$
+S_{\max}^{(i)} = \frac{1}{2}\sin\frac{\pi}{3}
+= \frac{1}{2}\cdot\frac{\sqrt{3}}{2}
+= \frac{\sqrt{3}}{4}.
+$$
+このとき $z$ は
+$$
+z = e^{i\theta} = e^{i\pi/3} = \frac12 + \frac{\sqrt{3}}{2}i.
+$$
+
+(ii) の場合：$S = 4\cos^3\theta\,\sin\theta$  
+$0\le\theta\le\frac{\pi}{3}$ で定義された関数
+$$
+f(\theta) = 4\cos^3\theta\,\sin\theta
+$$
+の最大値を調べる。微分して
+$$
+f'(\theta)
+= 4\left(3\cos^2\theta(-\sin\theta)\sin\theta + \cos^3\theta\cos\theta\right)
+= 4\cos^2\theta\left(-3\sin^2\theta + \cos^2\theta\right).
+$$
+よって
+$$
+f'(\theta)=0
+\quad\Longleftrightarrow\quad
+\cos^2\theta=0\ \text{または}\ -3\sin^2\theta+\cos^2\theta=0.
+$$
+$0\le\theta\le\frac{\pi}{3}$ で $\cos^2\theta=0$ は起こらないので，
+$$
+\cos^2\theta = 3\sin^2\theta
+$$
+より
+$$
+\tan^2\theta = \frac{1}{3},\quad 0\le\theta\le\frac{\pi}{3}
+$$
+から
+$$
+\theta = \frac{\pi}{6}
+$$
+が得られる。また端点 $\theta=0,\frac{\pi}{3}$ も調べる。
+
+- $\theta=0$ のとき $f(0)=0$  
+- $\theta=\dfrac{\pi}{6}$ のとき  
+  $$
+  f\!\left(\frac{\pi}{6}\right)
+  = 4\cos^3\frac{\pi}{6}\,\sin\frac{\pi}{6}
+  = 4\left(\frac{\sqrt{3}}{2}\right)^3\cdot\frac{1}{2}
+  = 4\cdot\frac{3\sqrt{3}}{8}\cdot\frac{1}{2}
+  = \frac{3\sqrt{3}}{4}.
+  $$
+- $\theta=\dfrac{\pi}{3}$ のとき  
+  $$
+  f\!\left(\frac{\pi}{3}\right)
+  = 4\left(\frac{1}{2}\right)^3\cdot\frac{\sqrt{3}}{2}
+  = \frac{\sqrt{3}}{4}.
+  $$
+
+したがって $S_{\max}^{(ii)} = \dfrac{3\sqrt{3}}{4}$ であり，これは $\theta=\dfrac{\pi}{6}$ のときに達成される。
+
+このとき $r = 2\cos\theta = 2\cdot\frac{\sqrt{3}}{2}=\sqrt{3}$ なので，
+$$
+z = r(\cos\theta + i\sin\theta)
+= \sqrt{3}\left(\frac{\sqrt{3}}{2} + i\cdot\frac{1}{2}\right)
+= \frac{3}{2} + \frac{\sqrt{3}}{2}i.
+$$
+
+(iii) の場合：$S = \dfrac{1}{16}\dfrac{\sin\theta}{\cos^3\theta}$  
+$0\le\theta\le\frac{\pi}{3}$ で
+$$
+g(\theta) = \frac{\sin\theta}{\cos^3\theta}
+$$
+を考える。導関数を求めると
+$$
+g'(\theta)
+= \frac{\cos\theta\cos^3\theta - \sin\theta\cdot 3\cos^2\theta(-\sin\theta)}{\cos^6\theta}
+= \frac{\cos^4\theta + 3\sin^2\theta\cos^2\theta}{\cos^6\theta}
+= \frac{\cos^2\theta + 3\sin^2\theta}{\cos^4\theta}.
+$$
+分子・分母ともに $0\le\theta\le\dfrac{\pi}{3}$ で正なので，$g'(\theta)>0$ が成り立つ。  
+したがって $g(\theta)$ はこの区間で単調増加し，最大値は $\theta=\dfrac{\pi}{3}$ のときにとられる。よって
+$$
+S_{\max}^{(iii)}
+= \frac{1}{16}g\!\left(\frac{\pi}{3}\right)
+= \frac{1}{16}\cdot\frac{\sin\frac{\pi}{3}}{\cos^3\frac{\pi}{3}}
+= \frac{1}{16}\cdot\frac{\frac{\sqrt{3}}{2}}{\left(\frac{1}{2}\right)^3}
+= \frac{1}{16}\cdot\frac{\frac{\sqrt{3}}{2}}{\frac{1}{8}}
+= \frac{1}{16}\cdot4\sqrt{3}
+= \frac{\sqrt{3}}{4}.
+$$
+
+---
+
+以上より，3つの場合のうち最大の面積は (ii) の
+$$
+S = \frac{3\sqrt{3}}{4}
+$$
+であり，このとき $z=\dfrac{3}{2} + \dfrac{\sqrt{3}}{2}i$ である。
+
+したがって，条件 $0\le\theta\le\dfrac{\pi}{3}$ のもとで，三角形 $OAB$ の面積の最大値は
+$$
+\boxed{\dfrac{3\sqrt{3}}{4}}
+$$
+であり，そのときの $z$ の値は
+$$
+\boxed{z = \dfrac{3}{2} + \dfrac{\sqrt{3}}{2}i}
+$$
+である。

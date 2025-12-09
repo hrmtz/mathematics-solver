@@ -1,0 +1,111 @@
+## 解答
+
+(1)  
+1 回の試行で当たる確率を $p$ とおくと，当たりくじが 2 本，全部で $n$ 本であるから  
+$$
+p=\frac{2}{n}
+$$  
+である。各回の試行は独立であり，$n$ 回の試行後の当たりの回数を $X$ とすると，$X$ は試行回数 $n$，成功確率 $2/n$ の二項分布に従う。
+
+持ち点は「当たるたびに 1 点加算」なので，$n$ 回終了時の持ち点は「当たり回数」と一致する。したがって，$X=k$ となる確率が $p_n(k)$ であるから  
+$$
+p_n(k)
+= \Pr(X=k)
+= \binom{n}{k}\left(\frac{2}{n}\right)^k\left(1-\frac{2}{n}\right)^{\,n-k}
+\qquad (k=0,1,2,\dots,n)
+$$
+と求まる。
+
+(2)  
+(1) の式  
+$$
+p_n(k)=\binom{n}{k}\left(\frac{2}{n}\right)^k\left(1-\frac{2}{n}\right)^{\,n-k}
+$$
+の $n\to\infty$ の極限を求める。
+
+まず  
+$$
+\left(1-\frac{2}{n}\right)^n \xrightarrow[n\to\infty]{} e^{-2}
+$$  
+が与えられている。また  
+$$
+\left(1-\frac{2}{n}\right)^{-k} \xrightarrow[n\to\infty]{} 1
+$$  
+であるから  
+$$
+\left(1-\frac{2}{n}\right)^{\,n-k}
+=\left(1-\frac{2}{n}\right)^n\left(1-\frac{2}{n}\right)^{-k}
+\xrightarrow[n\to\infty]{} e^{-2}\cdot 1=e^{-2}
+$$
+となる。
+
+次に  
+$$
+\binom{n}{k}\left(\frac{2}{n}\right)^k
+=\frac{n(n-1)\cdots(n-k+1)}{k!}\left(\frac{2}{n}\right)^k
+=\frac{2^k}{k!}\cdot\frac{n}{n}\cdot\frac{n-1}{n}\cdots\frac{n-k+1}{n}
+$$
+である。ここで各因子を調べると，$n\to\infty$ のとき  
+$$
+\frac{n-j}{n}\xrightarrow[n\to\infty]{}1 \qquad (j=0,1,\dots,k-1)
+$$
+なので  
+$$
+\binom{n}{k}\left(\frac{2}{n}\right)^k
+\xrightarrow[n\to\infty]{}\frac{2^k}{k!}
+$$
+となる。
+
+以上を掛け合わせると  
+$$
+\lim_{n\to\infty}p_n(k)
+=\left(\lim_{n\to\infty}\binom{n}{k}\left(\frac{2}{n}\right)^k\right)
+\left(\lim_{n\to\infty}\left(1-\frac{2}{n}\right)^{\,n-k}\right)
+=\frac{2^k}{k!}\cdot e^{-2}
+$$
+である。よって  
+$$
+\lim_{n\to\infty}p_n(k)=\frac{2^k}{k!}e^{-2}
+$$
+となる。
+
+(3)  
+(2) より  
+$$
+p(k)=\lim_{n\to\infty}p_n(k)=\frac{2^k}{k!}e^{-2}
+$$  
+である。$e^{-2}$ は $k$ によらない定数なので，$p(k)$ の大小は  
+$$
+a_k=\frac{2^k}{k!}
+$$
+の大小と同じである。そこで，隣接する項の比を調べると  
+$$
+\frac{a_{k+1}}{a_k}
+=\frac{2^{k+1}/(k+1)!}{2^k/k!}
+=\frac{2}{k+1}
+$$
+である。
+
+この比が 1 以上か以下かを調べると  
+$$
+\frac{a_{k+1}}{a_k}\ge 1 \iff \frac{2}{k+1}\ge 1 \iff k+1\le 2 \iff k\le 1,
+$$
+$$
+\frac{a_{k+1}}{a_k}\le 1 \iff \frac{2}{k+1}\le 1 \iff k+1\ge 2 \iff k\ge 1.
+$$
+したがって  
+- $k=0$ のとき $a_1/a_0=2>1$ なので $a_1>a_0$。  
+- $k=1$ のとき $a_2/a_1=1$ なので $a_2=a_1$。  
+- $k\ge 2$ のとき $a_{k+1}/a_k\le 1$ なので $a_k$ は $k=1$ 以降単調に減少する。
+
+よって $a_k$ は $k=1,2$ で最大値をとり，それ以外ではそれより小さい。したがって $p(k)$ も  
+$$
+p(1)=p(2)=\frac{2^1}{1!}e^{-2}=\frac{2^2}{2!}e^{-2}
+$$
+が最大であり，$k=1,2$ で最大となる。
+
+結論として，値 $p(k)$ が最大となる $k$ は  
+$$
+k=1,\ 2
+$$
+である。

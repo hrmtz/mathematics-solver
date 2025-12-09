@@ -1,0 +1,24 @@
+---
+title: "東京科学大学 1998年 1998_1"
+problem_id: "08_titech-1998-1998_1"
+university: "東京科学大学"
+exam_year: "1998"
+source_tex: "archive/08_titech/1998/1998_1.tex"
+pdf_source: "archive/08_titech/1998/1998_1.pdf"
+page_image: "archive/08_titech/1998/1998_1.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a>0$とし，$x$，$y$が4つの不等式$x \geqq 0$，$y \geqq 0$，$2x+3y \leqq 12$，
+$\displaystyle ax+ \left( 4-\frac{3}{2}a \right) y \leqq 8$を同時に満たしているとする．
+このとき$x+y$の最大値$f(a)$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1998/1998_1.pdf)

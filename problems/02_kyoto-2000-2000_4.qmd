@@ -1,0 +1,24 @@
+---
+title: "京都大学 2000年 2000_4"
+problem_id: "02_kyoto-2000-2000_4"
+university: "京都大学"
+exam_year: "2000"
+source_tex: "archive/02_kyoto/2000/2000_4.tex"
+pdf_source: "archive/02_kyoto/2000/2000_4.pdf"
+page_image: "archive/02_kyoto/2000/2000_4.jpg"
+fields:
+  - 複素数平面
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$p$を素数，$a$，$b$を互いに素な正の整数とするとき，${(a+bi)}^p$は実数ではないことを示せ．
+ただし$i$は虚数単位を表す．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_4.pdf)

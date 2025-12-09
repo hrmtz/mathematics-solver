@@ -1,0 +1,33 @@
+---
+title: "九州大学 1986年 1986_0_1"
+problem_id: "07_kyushu-1986-1986_0_1"
+university: "九州大学"
+exam_year: "1986"
+source_tex: "archive/07_kyushu/1986/1986_0_1.tex"
+pdf_source: "archive/07_kyushu/1986/1986_0_1.pdf"
+page_image: "archive/07_kyushu/1986/1986_0_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　図のように，直線$l$と半径$a$，$b$ $(0<a<b)$の2個の円$C_1$，$C_2$が互いに接している．
+$l$と$C_1$，$C_2$との接点をそれぞれ$P$，$Q$とする．
+このとき次の(1)，(2)に答えよ．
+ 
+
+![](../archive/07_kyushu/1986/fig_1986_0_1.jpg)
+
+
+\begin{description}
+\item[(1)]線分$PQ$の長さを$a$，$b$で表せ．
+\item[(2)]$C_1$，$C_2$と異なり，$l$と$C_1$，$C_2$に同時に接する2個の円の半径の積を$a$，$b$で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1986/1986_0_1.pdf)

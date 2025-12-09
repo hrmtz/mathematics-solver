@@ -1,0 +1,24 @@
+---
+title: "名古屋大学 1968年 1968_4"
+problem_id: "05_nagoya-1968-1968_4"
+university: "名古屋大学"
+exam_year: "1968"
+source_tex: "archive/05_nagoya/1968/1968_4.tex"
+pdf_source: "archive/05_nagoya/1968/1968_4.pdf"
+page_image: "archive/05_nagoya/1968/1968_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　4辺形$ABCD$が半径$r$の円に内接し，
+$\displaystyle\frac{AB}{4}=\frac{BC}{3}=\frac{CD}{2}=\frac{DA}{1}$を満たすとき，
+辺$AB$の長さを求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1968/1968_4.pdf)

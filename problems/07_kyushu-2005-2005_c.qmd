@@ -1,0 +1,31 @@
+---
+title: "九州大学 2005年 2005_c"
+problem_id: "07_kyushu-2005-2005_c"
+university: "九州大学"
+exam_year: "2005"
+source_tex: "archive/07_kyushu/2005/2005_c.tex"
+pdf_source: "archive/07_kyushu/2005/2005_c.pdf"
+page_image: "archive/07_kyushu/2005/2005_c.jpg"
+fields:
+  - 数列
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数$f(x)=x^2+2px+q$を用いて，数列$\{ a_n \}$を
+\[ a_1=0, \hspace{1zw} a_{n+1}=-rf'(a_n)+a_n \hspace{1zw} (n=1, \, 2, \, \cdots\cdots) \]
+と定める．ただし，$p$，$q$，$r$は実数で，$p\neq0$かつ$\displaystyle0<r<\frac{1}{2}$とする．
+\begin{description}
+\item[(1)]数列$\{ a_n \}$の一般項を求めよ．
+\item[(2)]$\displaystyle\sum_{n=1}^\infty|a_{n+1}-a_n|$を求めよ．
+\item[(3)]$m$を$f(x)$の最小値とする．
+任意の$n$について$|f(a_{n+1})-m|<|f(a_n)-m|$が成り立つことを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_c.pdf)

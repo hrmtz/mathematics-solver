@@ -1,0 +1,29 @@
+---
+title: "東北大学 1996年 1996_4"
+problem_id: "04_tohoku-1996-1996_4"
+university: "東北大学"
+exam_year: "1996"
+source_tex: "archive/04_tohoku/1996/1996_4.tex"
+pdf_source: "archive/04_tohoku/1996/1996_4.pdf"
+page_image: "archive/04_tohoku/1996/1996_4.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　2つのさいころを同時に振るという試行を独立に3回行う．
+1回目に出た目を$a_1$，$b_1$，
+2回目に出た目を$a_2$，$b_2$，
+3回目に出た目を$a_3$，$b_3$とする．
+\begin{description}
+\item[(i)]$(a_1-b_1)(a_2-b_2)(a_3-b_3)=0$となる確率を求めよ．
+\item[(ii)]$(a_1+b_1)(a_2+b_2)(a_3+b_3)=100$となる確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_4.pdf)

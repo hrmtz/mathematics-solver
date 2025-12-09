@@ -1,0 +1,26 @@
+---
+title: "東京科学大学 2009年 2009_b"
+problem_id: "08_titech-2009-2009_b"
+university: "東京科学大学"
+exam_year: "2009"
+source_tex: "archive/08_titech/2009/2009_b.tex"
+pdf_source: "archive/08_titech/2009/2009_b.pdf"
+page_image: "archive/08_titech/2009/2009_b.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$p>0$，$q>0$であるような点$P(p,q)$から
+双曲線$\displaystyle y=-\frac{1}{x}$へ引いた2本の接線の接点を$A$，$B$とする．
+$pq$を$t$とおいて，三角形$PAB$の面積を$t$の式として表せ．
+また，この面積の最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2009/2009_b.pdf)

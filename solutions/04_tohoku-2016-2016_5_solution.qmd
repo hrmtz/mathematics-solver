@@ -1,0 +1,242 @@
+## 解答
+
+(図形の位置関係を明確にするため，まず座標を設定する。)
+
+2平面 $\alpha,\,\beta$ は直線 $l$ で交わり，$O$ は $l$ 上の点である。  
+平面 $\alpha$ 上の直線 $m$，平面 $\beta$ 上の直線 $n$ は，いずれも $O$ を通り $l$ に垂直である。
+
+ここで，$l$ を $z$ 軸，点 $O$ を原点とし，平面 $\alpha$ を $xz$ 平面とおく。すると
+$m$ は $xz$ 平面内で $z$ 軸に垂直な直線であるから，$x$ 軸を $m$ としてよい。  
+よって，$P$ は $x$ 軸上で $OP=\sqrt3$ より
+$$
+P(\sqrt3,\,0,\,0)
+$$
+とおける。
+
+平面 $\beta$ は $z$ 軸を含み，$m$ に垂直であるから，$yz$ 平面とみなしてよい。  
+$n$ はこの平面内で $z$ 軸に垂直な直線であるから，$y$ 軸を $n$ とできる。  
+$OQ=2$ より
+$$
+Q(0,\,2,\,0)
+$$
+とおける。
+
+線分 $PQ$ 上の点 $T$ で $PT=t$ とおく。  
+$PQ$ の長さは
+$$
+PQ=\sqrt{(\sqrt3-0)^2+(0-2)^2+0^2}
+=\sqrt{3+4}=\sqrt7
+$$
+である。
+
+点 $P$ から $Q$ の方向ベクトルは
+$$
+\overrightarrow{PQ} = Q-P = (-\sqrt3,\,2,\,0)
+$$
+であり，その大きさは $\sqrt7$ であるから，単位ベクトルは
+$$
+\frac{1}{\sqrt7}(-\sqrt3,\,2,\,0)
+$$
+である。  
+したがって，$PT=t$ より
+$$
+\overrightarrow{PT} = \frac{t}{\sqrt7}(-\sqrt3,\,2,\,0)
+$$
+となるので，点 $T$ の座標は
+$$
+T = P + \overrightarrow{PT}
+= \left(\sqrt3 - \frac{\sqrt3}{\sqrt7}t,\ \frac{2}{\sqrt7}t,\ 0\right)
+$$
+である。
+
+以下，この座標設定に基づいて解く。
+
+---
+
+### (1)
+
+球 $S$ は中心 $T$，半径 $\sqrt2$ である。  
+平面 $\alpha$ は $xz$ 平面，すなわち $y=0$ であり，球の中心 $T$ の $y$ 座標は $\dfrac{2}{\sqrt7}t$ であるから，  
+球の中心から平面 $\alpha$ までの距離 $d_\alpha$ は
+$$
+d_\alpha = \left|\frac{2}{\sqrt7}t\right| = \frac{2}{\sqrt7}\,t
+\quad (t\ge0\ \text{なのでそのまま})
+$$
+である。
+
+半径 $R=\sqrt2$ の球と，その中心から距離 $d$ の平面との交わりは，半径
+$$
+r = \sqrt{R^2 - d^2}
+$$
+の円となる（直角三角形を用いる基本事実）。  
+したがって，$S$ と平面 $\alpha$ の切り口は半径
+$$
+r_\alpha = \sqrt{(\sqrt2)^2 - d_\alpha^2}
+= \sqrt{2 - \left(\frac{2}{\sqrt7}t\right)^2}
+= \sqrt{2 - \frac{4}{7}t^2}
+$$
+の円であり，その面積 $S_\alpha$ は
+$$
+S_\alpha = \pi r_\alpha^2
+= \pi\left(2 - \frac{4}{7}t^2\right)
+$$
+となる。
+
+よって，求める面積は
+$$
+\boxed{\,S_\alpha = \pi\left(2 - \frac{4}{7}t^2\right)\,}
+$$
+である。
+
+---
+
+### (2)
+
+同様に，平面 $\beta$ は $yz$ 平面，すなわち $x=0$ である。  
+球の中心 $T$ の $x$ 座標は
+$$
+x_T = \sqrt3 - \frac{\sqrt3}{\sqrt7}t = \sqrt3\left(1-\frac{t}{\sqrt7}\right)
+$$
+であるから，$T$ から平面 $\beta$ までの距離 $d_\beta$ は
+$$
+d_\beta = \left|x_T\right|
+= \sqrt3\left|1-\frac{t}{\sqrt7}\right|
+$$
+である。
+
+このとき，平面 $\beta$ による切り口は半径
+$$
+r_\beta = \sqrt{(\sqrt2)^2 - d_\beta^2}
+= \sqrt{2 - 3\left(1-\frac{t}{\sqrt7}\right)^2}
+$$
+の円であり，その面積 $S_\beta$ は
+$$
+S_\beta = \pi r_\beta^2
+= \pi\left\{2 - 3\left(1-\frac{t}{\sqrt7}\right)^2\right\}
+$$
+となる。
+
+よって
+$$
+f(t) = S_\alpha + S_\beta
+= \pi\left(2 - \frac{4}{7}t^2\right)
++ \pi\left\{2 - 3\left(1-\frac{t}{\sqrt7}\right)^2\right\}.
+$$
+
+これを整理する。  
+まず
+$$
+3\left(1-\frac{t}{\sqrt7}\right)^2
+= 3\left(1 - \frac{2}{\sqrt7}t + \frac{t^2}{7}\right)
+= 3 - \frac{6}{\sqrt7}t + \frac{3}{7}t^2
+$$
+だから
+$$
+2 - 3\left(1-\frac{t}{\sqrt7}\right)^2
+= 2 - \left(3 - \frac{6}{\sqrt7}t + \frac{3}{7}t^2\right)
+= -1 + \frac{6}{\sqrt7}t - \frac{3}{7}t^2.
+$$
+
+したがって
+$$
+\begin{aligned}
+f(t)
+&= \pi\left(2 - \frac{4}{7}t^2\right)
+  + \pi\left(-1 + \frac{6}{\sqrt7}t - \frac{3}{7}t^2\right)\\
+&= \pi\left(2-1\right)
+  + \pi\left(\frac{6}{\sqrt7}t\right)
+  + \pi\left(-\frac{4}{7}t^2 - \frac{3}{7}t^2\right)\\
+&= \pi + \frac{6\pi}{\sqrt7}t - \pi t^2.
+\end{aligned}
+$$
+
+ここで，$f(t)$ が定義される $t$ の範囲を確認する。  
+球の半径は $\sqrt2$ であるから，切り口が存在するためには，それぞれ
+$$
+d_\alpha \le \sqrt2,\quad d_\beta \le \sqrt2
+$$
+でなければならない。
+
+1つ目：
+$$
+d_\alpha = \frac{2}{\sqrt7}t \le \sqrt2
+\quad\Longrightarrow\quad
+t^2 \le \frac{7}{2}\cdot 2 = 7
+\quad\Longrightarrow\quad
+0 \le t \le \sqrt7.
+$$
+
+2つ目：
+$$
+d_\beta = \sqrt3\left|1-\frac{t}{\sqrt7}\right| \le \sqrt2
+\quad\Longrightarrow\quad
+3\left(1-\frac{t}{\sqrt7}\right)^2 \le 2.
+$$
+ところが
+$$
+r_\beta^2 = 2 - 3\left(1-\frac{t}{\sqrt7}\right)^2
+$$
+であったから，$r_\beta^2 \ge 0$ より
+$$
+3\left(1-\frac{t}{\sqrt7}\right)^2 \le 2
+$$
+と同値であり，すでにこの条件を使っている。  
+ここから得られる $t$ の範囲は
+$$
+\left|1-\frac{t}{\sqrt7}\right|
+\le \sqrt{\frac{2}{3}}
+$$
+であるが，$PQ=\sqrt7$ なので，$T$ は線分 $PQ$ 上を動くとき
+$$
+0 \le t \le \sqrt7
+$$
+であるから，この区間内で切り口が存在する点だけを考えればよい。
+
+問題では「$T$ が線分 $PQ$ 上を動くとき」とあるので，$t$ の取りうる範囲は
+$$
+0 \le t \le \sqrt7
+$$
+である。この範囲で二次関数
+$$
+f(t) = -\pi t^2 + \frac{6\pi}{\sqrt7}t + \pi
+$$
+の最大値を求める。
+
+$f(t)$ は $t$ の二次関数で，係数 $-\pi<0$ なので下に凸な放物線であり，最大値は頂点でとる。  
+頂点の $t$ 座標は，一般に $at^2+bt+c$ で $a<0$ のとき $t=-\dfrac{b}{2a}$ であるから，
+$$
+a=-\pi,\ b=\frac{6\pi}{\sqrt7}
+$$
+より
+$$
+t = -\frac{b}{2a}
+= -\frac{\frac{6\pi}{\sqrt7}}{2(-\pi)}
+= \frac{6/\sqrt7}{2}
+= \frac{3}{\sqrt7}
+$$
+である。これは $0 \le \dfrac{3}{\sqrt7} \le \sqrt7$ を満たすので，求める範囲内に頂点がある。
+
+このときの $f(t)$ を計算する：
+$$
+\begin{aligned}
+f\!\left(\frac{3}{\sqrt7}\right)
+&= -\pi\left(\frac{3}{\sqrt7}\right)^2
+  + \frac{6\pi}{\sqrt7}\cdot \frac{3}{\sqrt7}
+  + \pi \\
+&= -\pi\cdot \frac{9}{7}
+  + \pi\cdot \frac{18}{7}
+  + \pi \\
+&= \pi\left(-\frac{9}{7} + \frac{18}{7} + 1\right)
+= \pi\left(\frac{9}{7} + 1\right)
+= \pi\cdot \frac{16}{7}
+= \frac{16}{7}\pi.
+\end{aligned}
+$$
+
+よって，$f(t)$ の最大値は $\dfrac{16}{7}\pi$，そのときの $t$ の値は $\dfrac{3}{\sqrt7}$ である。
+
+したがって
+$$
+\boxed{\,f(t)\ \text{の最大値は}\ \frac{16}{7}\pi,\ \text{そのとき}\ t=\frac{3}{\sqrt7}\,}
+$$
+となる。

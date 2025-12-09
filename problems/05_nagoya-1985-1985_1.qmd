@@ -1,0 +1,22 @@
+---
+title: "名古屋大学 1985年 1985_1"
+problem_id: "05_nagoya-1985-1985_1"
+university: "名古屋大学"
+exam_year: "1985"
+source_tex: "archive/05_nagoya/1985/1985_1.tex"
+pdf_source: "archive/05_nagoya/1985/1985_1.pdf"
+page_image: "archive/05_nagoya/1985/1985_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面上で，曲線$y=x^2-4$と$x$軸とで囲まれた図形（境界を含む）に含まれる最長の線分の長さを求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1985/1985_1.pdf)

@@ -1,0 +1,24 @@
+---
+title: "京都大学 2005年 2005_0_a"
+problem_id: "02_kyoto-2005-2005_0_a"
+university: "京都大学"
+exam_year: "2005"
+source_tex: "archive/02_kyoto/2005/2005_0_a.tex"
+pdf_source: "archive/02_kyoto/2005/2005_0_a.pdf"
+page_image: "archive/02_kyoto/2005/2005_0_a.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　放物線$y=ax^2+bx+c$が3直線$y=x$，$y=2x-1$，$y=3x-3$のすべてと接するとき，
+$a$，$b$，$c$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_0_a.pdf)

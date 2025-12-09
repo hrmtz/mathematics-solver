@@ -1,0 +1,32 @@
+---
+title: "東京大学 1982年 1982_3"
+problem_id: "01_tokyo-1982-1982_3"
+university: "東京大学"
+exam_year: "1982"
+source_tex: "archive/01_tokyo/1982/1982_3.tex"
+pdf_source: "archive/01_tokyo/1982/1982_3.pdf"
+page_image: "archive/01_tokyo/1982/1982_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xy$平面において，点$A$は原点$O$を中心とする半径1の円周の第1象限にある部分を動き，点$B$は$x$軸上を動く．
+ただし，線分$AB$の長さは1であり，線分$AB$は両端$A$，$B$以外の点$C$で円周と交わるものとする．
+\begin{description}
+\item[(1)]$\theta=\angle AOB$の取りうる値の範囲を求めよ．
+\item[(2)]$BC$の長さを$\theta$で表せ．
+\item[(3)]線分$OB$の中点を$M$とするとき，線分$CM$の長さの範囲を求めよ．
+\end{description}
+
+
+
+![](../archive/01_tokyo/1982/fig_1982_3.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1982/1982_3.pdf)

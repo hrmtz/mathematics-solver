@@ -1,0 +1,33 @@
+---
+title: "東北大学 2017年 2017_a"
+problem_id: "04_tohoku-2017-2017_a"
+university: "東北大学"
+exam_year: "2017"
+source_tex: "archive/04_tohoku/2017/2017_a.tex"
+pdf_source: "archive/04_tohoku/2017/2017_a.pdf"
+page_image: "archive/04_tohoku/2017/2017_a.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面において，原点を中心とする半径1の円を$C$とする。
+$a$と$b$を実数とし，放物線$D:y=x^2+ax+b$の頂点$(p, \, q)$が円$C$上にあるとする。
+このとき，次の問いに答えよ。
+\begin{description}
+\item[(1)]$(p, \, q)=(\cos\theta, \, \sin\theta)$ $(0\leqq\theta<2\pi)$と表すとき，
+$a$と$b$を$\theta$を用いて表せ。
+\item[(2)]放物線$D$の$x=1$における接線が円$C$の周を2等分するような$a$，$b$の組$(a, \, b)$を
+すべて求めよ。
+\item[(3)]放物線$D$の接線で円$C$の周を2等分することを考える。
+そのような接線がただ一つ存在するような$a$，$b$の組$(a, \, b)$をすべて求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2017/2017_a.pdf)

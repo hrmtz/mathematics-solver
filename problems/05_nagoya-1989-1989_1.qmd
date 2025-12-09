@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 1989年 1989_1"
+problem_id: "05_nagoya-1989-1989_1"
+university: "名古屋大学"
+exam_year: "1989"
+source_tex: "archive/05_nagoya/1989/1989_1.tex"
+pdf_source: "archive/05_nagoya/1989/1989_1.pdf"
+page_image: "archive/05_nagoya/1989/1989_1.jpg"
+fields:
+  - 指数・対数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　曲線$y=ax^2$と曲線$y=\log x+b$がただ1つの点で交わり，
+その交点で共通の接線をもつものとする．
+\begin{description}
+\item[(1)]$b$を$a$を用いて表せ．
+\item[(2)]$\displaystyle a=\frac{1}{2}$のとき，
+これらの曲線と$x$軸で囲まれた部分の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1989/1989_1.pdf)

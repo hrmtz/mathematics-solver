@@ -1,0 +1,30 @@
+---
+title: "九州大学 1978年 1978_6"
+problem_id: "07_kyushu-1978-1978_6"
+university: "九州大学"
+exam_year: "1978"
+source_tex: "archive/07_kyushu/1978/1978_6.tex"
+pdf_source: "archive/07_kyushu/1978/1978_6.pdf"
+page_image: "archive/07_kyushu/1978/1978_6.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　曲線$y=e^x$上の点$(a, \, e^a)$における法線（この点における接線に垂直な直線で，この点を通るもの）と
+$y$軸との交点の$y$座標を$F(a)$とする．このとき次の問に答えよ．
+\begin{description}
+\item[(1)]$F(a)=e^a$となる$a$の値を求めよ．
+\item[(2)]2つの曲線$y=F(x)$，$y=e^x$と直線$x=b$ $(b\neq0)$とで囲まれる部分の面積$G(b)$を求めよ．
+\item[(3)]$b>0$のとき，$G(b)$は$G(-b)$より小さいことを証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1978/1978_6.pdf)

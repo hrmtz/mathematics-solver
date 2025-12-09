@@ -1,0 +1,35 @@
+---
+title: "北海道大学 1989年 1989_4"
+problem_id: "03_hokudai-1989-1989_4"
+university: "北海道大学"
+exam_year: "1989"
+source_tex: "archive/03_hokudai/1989/1989_4.tex"
+pdf_source: "archive/03_hokudai/1989/1989_4.pdf"
+page_image: "archive/03_hokudai/1989/1989_4.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$f(x)$は$x \geqq a$で定義された連続な増加関数で，$x>a$のとき$f(x)>0$とする．
+この$f(x)$に対して，
+\[ g(x)=\frac{1}{x-a}\int_a^xf(t)dt \hspace{1zw} (x>a) \]
+とおく．
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]すべての$x$ $(x>a)$に対して，
+\[ (x-a)g'(x)=f(x)-g(x) \]
+が成り立つことを証明せよ．
+\item[(2)]$g(x)$は$x>a$で増加関数であることを証明せよ．
+\item[(3)]すべての$x$ $(x>a)$に対して，
+$2f(x)=3g(x)$を満たす関数$f(x)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1989/1989_4.pdf)

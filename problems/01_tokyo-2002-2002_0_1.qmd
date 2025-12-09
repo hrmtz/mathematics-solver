@@ -1,0 +1,27 @@
+---
+title: "東京大学 2002年 2002_0_1"
+problem_id: "01_tokyo-2002-2002_0_1"
+university: "東京大学"
+exam_year: "2002"
+source_tex: "archive/01_tokyo/2002/2002_0_1.tex"
+pdf_source: "archive/01_tokyo/2002/2002_0_1.pdf"
+page_image: "archive/01_tokyo/2002/2002_0_1.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　2つの放物線
+\[ y=2\sqrt3{(x-\cos\theta)}^2+\sin\theta \]
+\[ y=-2\sqrt3{(x+\cos\theta)}^2-\sin\theta \]
+が相異なる2点で交わるような$\theta$の範囲を求めよ．
+ただし，$0^\circ \leqq \theta < {360}^\circ$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2002/2002_0_1.pdf)

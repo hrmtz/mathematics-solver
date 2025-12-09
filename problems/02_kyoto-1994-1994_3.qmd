@@ -1,0 +1,32 @@
+---
+title: "京都大学 1994年 1994_3"
+problem_id: "02_kyoto-1994-1994_3"
+university: "京都大学"
+exam_year: "1994"
+source_tex: "archive/02_kyoto/1994/1994_3.tex"
+pdf_source: "archive/02_kyoto/1994/1994_3.pdf"
+page_image: "archive/02_kyoto/1994/1994_3.jpg"
+fields:
+  - 空間図形
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　正4面体の4つの頂点を$A$，$B$，$C$，$D$とする．
+$s$，$t$を$0<s<1$，$0<t<1$を満たす実数とし，
+\begin{description}
+\item[]線分$AB$を$s:1-s$に内分する点を$E$，
+\item[]線分$AC$を$t:1-t$に内分する点を$F$，
+\item[]線分$AD$を$t:1-t$に内分する点を$G$
+\end{description}
+とおく．
+3点$E$，$F$，$G$を通る平面が，3点$B$，$C$，$D$を通る円と共有点を持つために$s$，$t$の満たすべき条件を求め，
+点$(s,t)$の範囲を平面上に図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_3.pdf)

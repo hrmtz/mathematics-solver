@@ -1,0 +1,30 @@
+---
+title: "九州大学 2001年 2001_1"
+problem_id: "07_kyushu-2001-2001_1"
+university: "九州大学"
+exam_year: "2001"
+source_tex: "archive/07_kyushu/2001/2001_1.tex"
+pdf_source: "archive/07_kyushu/2001/2001_1.pdf"
+page_image: "archive/07_kyushu/2001/2001_1.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　関数$\displaystyle f(x)=\frac{2}{3}ax^3+(a+b)x^2+(b+1)x$を考える．
+\begin{description}
+\item[(1)]関数$f(x)$がつねに増加するための$a$，$b$の条件を求め，
+その範囲を$ab$平面上に図示せよ．
+\item[(2)]$a=0$のとき，関数$f(x)$が$x>-1$においてつねに増加するための$b$の条件を求めよ．
+\item[(3)]関数$f(x)$が$x>-1$においてつねに増加するための$a$，$b$の条件を求め，
+その範囲を$ab$平面上に図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_1.pdf)

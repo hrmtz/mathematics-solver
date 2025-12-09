@@ -1,0 +1,33 @@
+---
+title: "名古屋大学 2006年 2006_0_2"
+problem_id: "05_nagoya-2006-2006_0_2"
+university: "名古屋大学"
+exam_year: "2006"
+source_tex: "archive/05_nagoya/2006/2006_0_2.tex"
+pdf_source: "archive/05_nagoya/2006/2006_0_2.pdf"
+page_image: "archive/05_nagoya/2006/2006_0_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$xy$平面上に点$A(2, \, 4)$がある．
+平面上の直線$l$に関して点$A$と対称な点が$x$軸上にあるとき，
+直線$l$をピッタリ直線と呼ぶことにする．
+\begin{description}
+\item[(1)]点$P(p, \, q)$を通るピッタリ直線$l$があるとし，
+$l$に関して$A$と対称な点を$A'(t, \, 0)$とするとき，
+$p$，$q$，$t$の間に成り立つ関係式を求めよ．
+\item[(2)]ピッタリ直線が2本通る点$P(p, \, q)$の存在範囲を求め，
+それを図示せよ．
+\item[(3)]点$P(p, \, q)$を通る2本のピッタリ直線が直交するような点$P(p, \, q)$の存在範囲を求め，
+それを図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2006/2006_0_2.pdf)

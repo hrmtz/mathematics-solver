@@ -1,0 +1,26 @@
+---
+title: "京都大学 2007年 2007a_0_2"
+problem_id: "02_kyoto-2007-2007a_0_2"
+university: "京都大学"
+exam_year: "2007"
+source_tex: "archive/02_kyoto/2007/2007a_0_2.tex"
+pdf_source: "archive/02_kyoto/2007/2007a_0_2.pdf"
+page_image: "archive/02_kyoto/2007/2007a_0_2.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　3次関数$y=x^3-2x^2-x+2$のグラフ上の点$(1,0)$における接線を$l$とする．
+この3次関数のグラフと接線$l$で囲まれた部分を$x$軸の周りに回転して立体を作る．
+その立体の体積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2007/2007a_0_2.pdf)

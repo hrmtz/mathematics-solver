@@ -1,0 +1,32 @@
+---
+title: "東北大学 1969年 1969_0_4"
+problem_id: "04_tohoku-1969-1969_0_4"
+university: "東北大学"
+exam_year: "1969"
+source_tex: "archive/04_tohoku/1969/1969_0_4.tex"
+pdf_source: "archive/04_tohoku/1969/1969_0_4.pdf"
+page_image: "archive/04_tohoku/1969/1969_0_4.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　平面上のベクトル$\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$，
+$\overrightarrow{OD}$，$\overrightarrow{OE}$が，次の2式を満たしているとする．
+\[ 2\overrightarrow{OA}+4\overrightarrow{OC}=3(\overrightarrow{OB}+\overrightarrow{OD}) \hspace{1zw} ;
+\hspace{1zw} 2\overrightarrow{OA}+\overrightarrow{OC}=3\overrightarrow{OE} \]
+\begin{description}
+\item[(1)]4角形$BCDE$はどんな4角形か．
+\item[(2)]4角形$BCDE$がひし形になるための条件を
+$\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$を用いて
+ベクトルの内積の形でかけ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1969/1969_0_4.pdf)

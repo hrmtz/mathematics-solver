@@ -1,0 +1,32 @@
+---
+title: "九州大学 2004年 2004_a"
+problem_id: "07_kyushu-2004-2004_a"
+university: "九州大学"
+exam_year: "2004"
+source_tex: "archive/07_kyushu/2004/2004_a.tex"
+pdf_source: "archive/07_kyushu/2004/2004_a.pdf"
+page_image: "archive/07_kyushu/2004/2004_a.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の問いに答えよ．
+\begin{description}
+\item[(1)]1個のサイコロを繰り返し投げる．
+1の目が出た時点で投げるのをやめる．
+たとえ1の目が出ないとしても，$n$回サイコロを投げた時点で投げるのをやめる．
+このとき，サイコロを投げる回数の期待値を求めよ．
+\item[(2)]1個のサイコロを繰り返し投げる．
+合計2回1の目が出た時点で投げるのをやめる．
+たとえ1の目が出た回数の合計が2回に達しなくても，$n$回サイコロを投げた時点で投げるのをやめる．
+このとき，サイコロを投げる回数の期待値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2004/2004_a.pdf)

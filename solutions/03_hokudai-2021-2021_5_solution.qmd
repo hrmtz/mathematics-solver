@@ -1,0 +1,266 @@
+## 解答
+
+(1)  
+媒介変数表示
+$$
+x=(1+\cos\theta)\cos\theta,\quad y=\sin\theta\quad(0\leq\theta\leq\pi)
+$$
+で与えられているので，$\theta$ を変数として $x$ の最小値を求める。
+
+まず
+$$
+x(\theta)=(1+\cos\theta)\cos\theta=\cos\theta+\cos^2\theta
+$$
+とおく。$\theta$ に関して微分すると
+$$
+\frac{dx}{d\theta}=-\sin\theta+2\cos\theta(-\sin\theta)=-\sin\theta(1+2\cos\theta)
+$$
+となる。
+
+$x(\theta)$ が極値をとるのは
+$$
+\frac{dx}{d\theta}=0
+$$
+となるときであり，
+$$
+\sin\theta=0\quad\text{または}\quad 1+2\cos\theta=0
+$$
+である。$0\leq\theta\leq\pi$ より，
+$$
+\sin\theta=0\ \Rightarrow\ \theta=0,\pi,\qquad 1+2\cos\theta=0\ \Rightarrow\ \cos\theta=-\frac12\ \Rightarrow\ \theta=\frac{2\pi}{3}
+$$
+を得る。
+
+これらでの $x$ の値を調べると
+$$
+\theta=0:\ x=(1+1)\cdot1=2, \qquad
+\theta=\pi:\ x=(1-1)\cdot(-1)=0,
+$$
+$$
+\theta=\frac{2\pi}{3}:\ \cos\frac{2\pi}{3}=-\frac12
+\ \Rightarrow\ 
+x=\Bigl(1-\frac12\Bigr)\Bigl(-\frac12\Bigr)=-\frac14.
+$$
+
+よって $0\leq\theta\leq\pi$ における $x$ の最小値は $x=-\dfrac14$ である。したがって
+$$
+a=-\frac14
+$$
+となる。
+
+---
+
+(2)  
+(1) より，$A$ は
+$$
+A\left(a,\ y_A\right)=\left(-\frac14,\ \sin\frac{2\pi}{3}\right)
+=\left(-\frac14,\ \frac{\sqrt3}{2}\right)
+$$
+であり，$B=(a,0)=\left(-\dfrac14,0\right)$，$O=(0,0)$ である。
+
+問題の「線分 $AB$ と線分 $OB$ と $C$ で囲まれた部分」とは，$C$ 上の点 $A$ から出発して曲線 $C$ に沿って原点 $O$ まで，次に線分 $OB$，線分 $BA$ で囲まれる部分である。したがって，$C$ 上で $x=-\dfrac14$ となる点 $A$ に対応する媒介変数は $\theta=\dfrac{2\pi}{3}$ であり，$O$ は $\theta=\pi$ に対応するから，$C$ に沿う部分は
+$$
+\theta=\frac{2\pi}{3}\ \text{から}\ \theta=\pi
+$$
+の間の曲線である。
+
+この部分の面積を $S$ とする。媒介変数表示 $x(\theta),y(\theta)$ で与えられる曲線と $x$ 軸で囲まれた面積を求める公式
+$$
+\text{面積}=\int y\,dx=\int_{\theta=\alpha}^{\beta} y(\theta)\,x'(\theta)\,d\theta
+$$
+を用いる。ただし，向きは $x$ 軸正方向に沿う向き（すなわち $\theta$ の増加方向に対応）にとり，絶対値を適宜考慮する。
+
+ここで，求めたい部分は「曲線 $AO$ と線分 $OB$ と線分 $BA$ で囲まれる図形」である。これを次のように分けて考える。
+
+1. 曲線 $AO$ と $x$ 軸で囲まれる部分の面積
+2. 線分 $OB$ と $x$ 軸で囲まれる長方形の面積
+3. 三角形 $AOB$ の面積
+
+図形をよくみると，求める面積 $S$ は
+
+- 曲線と $x$ 軸で囲まれる面積（1）に，
+- 三角形 $AOB$ の面積（3）を加え，
+
+さらにそこで余計に加わった長方形 $OB$ と $x$ 軸の部分（2）を引くと求められる，という対応になっている。  
+しかし実際には以下のように整理すると簡単である。
+
+曲線 $AO$ と $x$ 軸で囲まれる符号付き面積を
+$$
+I=\int_{\theta=2\pi/3}^{\pi} y(\theta)\,\frac{dx}{d\theta}d\theta
+$$
+とおく。この $I$ は，図形的には $x$ 軸の上と下の部分を符号付きで合算したものに対応する。実際，$2\pi/3<\theta<\pi$ では $\sin\theta>0,\ \frac{dx}{d\theta}>0$ なので，被積分関数は正であり，$I$ は曲線 $AO$ と $x$ 軸で囲まれる部分の通常の面積に一致する。
+
+次に，$x$ 軸上の区間 $[a,0]$ の長さは $|a-0|=|a|=\dfrac14$ なので，この区間と $x$ 軸で囲まれる「長方形」（実際には底辺 $\dfrac14$，高さ $0$ の退化した図形だが面積としては $0$）は考える必要がない。  
+結局，求める面積 $S$ は
+$$
+S=I-\text{三角形 }AOB\text{ の面積}
+$$
+または
+$$
+S=\text{三角形 }AOB\text{ の面積}-I
+$$
+のいずれかになるが，符号を吟味して決める。
+
+実際の計算に移る。まず
+$$
+x=(1+\cos\theta)\cos\theta,\quad y=\sin\theta
+$$
+より
+$$
+\frac{dx}{d\theta}=-\sin\theta(1+2\cos\theta)
+$$
+であったから，
+$$
+I=\int_{2\pi/3}^{\pi} y\frac{dx}{d\theta}\,d\theta
+=\int_{2\pi/3}^{\pi} \sin\theta\cdot\bigl[-\sin\theta(1+2\cos\theta)\bigr]\,d\theta
+$$
+$$
+=-\int_{2\pi/3}^{\pi} \sin^2\theta(1+2\cos\theta)\,d\theta
+$$
+となる。ここで
+$$
+\sin^2\theta=1-\cos^2\theta
+$$
+を用いると
+$$
+\sin^2\theta(1+2\cos\theta)=(1-\cos^2\theta)(1+2\cos\theta)
+$$
+$$
+=(1+2\cos\theta)-(\cos^2\theta+2\cos^3\theta)
+=1+2\cos\theta-\cos^2\theta-2\cos^3\theta
+$$
+であるから
+$$
+I=-\int_{2\pi/3}^{\pi}\{1+2\cos\theta-\cos^2\theta-2\cos^3\theta\}\,d\theta
+$$
+となる。これを各項に分けて計算する。
+
+まず
+$$
+\int 1\,d\theta=\theta,\quad \int 2\cos\theta\,d\theta=2\sin\theta
+$$
+である。
+
+次に
+$$
+\cos^2\theta=\frac{1+\cos2\theta}{2}
+$$
+より
+$$
+\int \cos^2\theta\,d\theta=\int \frac{1+\cos2\theta}{2}d\theta
+=\frac12\theta+\frac14\sin2\theta
+$$
+となる。
+
+さらに $\cos^3\theta$ については
+$$
+\cos^3\theta=\cos\theta(1-\sin^2\theta)
+$$
+などから積分してもよいが，以下の公式を用いるとよい：
+$$
+\cos^3\theta=\frac{3\cos\theta+\cos3\theta}{4}.
+$$
+したがって
+$$
+\int \cos^3\theta\,d\theta=\int \frac{3\cos\theta+\cos3\theta}{4}\,d\theta
+=\frac34\sin\theta+\frac{1}{12}\sin3\theta.
+$$
+
+以上を用いて
+$$
+I=-\left[
+\theta+2\sin\theta-\left(\frac12\theta+\frac14\sin2\theta\right)
+-2\left(\frac34\sin\theta+\frac{1}{12}\sin3\theta\right)
+\right]_{2\pi/3}^{\pi}
+$$
+と書ける。中括弧の中を整理すると
+$$
+\theta+2\sin\theta-\frac12\theta-\frac14\sin2\theta-\frac32\sin\theta-\frac16\sin3\theta
+$$
+$$
+=\frac12\theta+\frac12\sin\theta-\frac14\sin2\theta-\frac16\sin3\theta
+$$
+となる。よって
+$$
+I=-\left[\frac12\theta+\frac12\sin\theta-\frac14\sin2\theta-\frac16\sin3\theta\right]_{2\pi/3}^{\pi}
+$$
+である。さらに計算するために，$\theta=\pi,\ \theta=2\pi/3$ を代入する。
+
+まず $\theta=\pi$ のとき，
+$$
+\sin\pi=0,\ \sin2\pi=0,\ \sin3\pi=0
+$$
+なので
+$$
+\left.\left(\frac12\theta+\frac12\sin\theta-\frac14\sin2\theta-\frac16\sin3\theta\right)\right|_{\theta=\pi}
+=\frac12\pi.
+$$
+
+次に $\theta=\dfrac{2\pi}{3}$ のとき，
+$$
+\sin\frac{2\pi}{3}=\frac{\sqrt3}{2},\quad
+\sin\frac{4\pi}{3}=-\frac{\sqrt3}{2},\quad
+\sin 2\pi=0
+$$
+であるから
+$$
+\left.\left(\frac12\theta+\frac12\sin\theta-\frac14\sin2\theta-\frac16\sin3\theta\right)\right|_{\theta=2\pi/3}
+=\frac12\cdot\frac{2\pi}{3}+\frac12\cdot\frac{\sqrt3}{2}-\frac14\cdot\left(-\frac{\sqrt3}{2}\right)-\frac16\cdot 0
+$$
+$$
+=\frac{\pi}{3}+\frac{\sqrt3}{4}+\frac{\sqrt3}{8}
+=\frac{\pi}{3}+\frac{2\sqrt3}{8}+\frac{\sqrt3}{8}
+=\frac{\pi}{3}+\frac{3\sqrt3}{8}.
+$$
+
+したがって
+$$
+I=-\left[\frac12\pi-\left(\frac{\pi}{3}+\frac{3\sqrt3}{8}\right)\right]
+= -\left(\frac{\pi}{2}-\frac{\pi}{3}-\frac{3\sqrt3}{8}\right)
+$$
+$$
+= -\left(\frac{\pi}{6}-\frac{3\sqrt3}{8}\right)
+= -\frac{\pi}{6}+\frac{3\sqrt3}{8}.
+$$
+
+$2\pi/3\leq\theta\leq\pi$ では $y=\sin\theta\geq0,\ dx/d\theta\geq0$ であるから，$I$ は曲線 $AO$ と $x$ 軸で囲まれる通常の面積になっている。数値的には
+$$
+\frac{3\sqrt3}{8}\approx0.6495,\ \frac{\pi}{6}\approx0.5236
+$$
+より $I>0$ である。
+
+次に三角形 $AOB$ の面積を求める。  
+$A\left(-\dfrac14,\dfrac{\sqrt3}{2}\right),\ B\left(-\dfrac14,0\right),\ O(0,0)$ であるから，底辺を $OB$ とみなすと
+$$
+OB=\left|0-(-\frac14)\right|=\frac14,\quad
+AB=\frac{\sqrt3}{2},\quad
+\text{高さ}=AB=\frac{\sqrt3}{2}
+$$
+あるいは底辺を $AB$ とみなしてもよいが，ここでは底辺 $OB$，高さを $A$ の $x$ 軸からの距離と考えると
+$$
+\text{高さ}=\frac{\sqrt3}{2}
+$$
+なので，三角形の面積は
+$$
+S_{\triangle AOB}=\frac12\cdot OB\cdot\text{高さ}
+=\frac12\cdot\frac14\cdot\frac{\sqrt3}{2}
+=\frac{\sqrt3}{16}
+$$
+である。
+
+求める領域は，$x$ 軸の上側で，曲線 $AO$ と線分 $OB$ と線分 $BA$ に囲まれた部分である。曲線 $AO$ と $x$ 軸で囲まれる面積 $I$ から，$x$ 軸と辺 $OB,BA$ で囲まれる三角形 $AOB$ の面積を除くと，ちょうど求める部分が残る（図形を描くとわかる）。したがって
+$$
+S=I-S_{\triangle AOB}
+=\left(-\frac{\pi}{6}+\frac{3\sqrt3}{8}\right)-\frac{\sqrt3}{16}
+$$
+$$
+=-\frac{\pi}{6}+\left(\frac{3\sqrt3}{8}-\frac{\sqrt3}{16}\right)
+=-\frac{\pi}{6}+\frac{6\sqrt3-\sqrt3}{16}
+=-\frac{\pi}{6}+\frac{5\sqrt3}{16}.
+$$
+
+よって，求める面積は
+$$
+\boxed{\displaystyle S=\frac{5\sqrt3}{16}-\frac{\pi}{6}}
+$$
+である。

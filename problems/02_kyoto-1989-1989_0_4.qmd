@@ -1,0 +1,28 @@
+---
+title: "京都大学 1989年 1989_0_4"
+problem_id: "02_kyoto-1989-1989_0_4"
+university: "京都大学"
+exam_year: "1989"
+source_tex: "archive/02_kyoto/1989/1989_0_4.tex"
+pdf_source: "archive/02_kyoto/1989/1989_0_4.pdf"
+page_image: "archive/02_kyoto/1989/1989_0_4.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　関数$y=x^3-ax$のグラフ上の点$P$における接線$T_P$がこのグラフと再び交わる点を$Q$とする．
+ただし，$T_P$がこのグラフと共有する点が$P$以外にないときは$Q=P$と定める．
+\begin{description}
+\item[(1)]$P$の$x$座標を$c$として，$Q$の座標を求めよ．
+\item[(2)]点$Q$におけるこのグラフへの接線が$T_P$と直交するような$P$は何個あるか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_0_4.pdf)

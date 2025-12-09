@@ -1,0 +1,37 @@
+---
+title: "東京大学 2010年 2010_0_1"
+problem_id: "01_tokyo-2010-2010_0_1"
+university: "東京大学"
+exam_year: "2010"
+source_tex: "archive/01_tokyo/2010/2010_0_1.tex"
+pdf_source: "archive/01_tokyo/2010/2010_0_1.pdf"
+page_image: "archive/01_tokyo/2010/2010_0_1.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$O$を原点とする座標平面上に点$A(-3,0)$をとり，
+$0^\circ<\theta<{120}^\circ$の範囲にある$\theta$に対して，
+次の条件(i)，(ii)をみたす2点$B$，$C$を考える．
+\begin{description}
+\item[(i)]$B$は$y>0$の部分にあり，$OB=2$かつ$\angle AOB={180}^\circ-\theta$である．
+\item[(ii)]$c$は$y<0$の部分にあり，$OC=1$かつ$\angle BOC={120}^\circ$である．
+ただし$\triangle ABC$は$O$を含むものとする．
+\end{description}
+　以下の問(1)，(2)に答えよ．
+\begin{description}
+\item[(1)]$\triangle OAB$と$\triangle OAC$の面積が等しいとき，$\theta$の値を求めよ．
+\item[(2)]$\theta$を$0^\circ<\theta<{120}^\circ$の範囲で動かすとき，
+$\triangle OAB$と$\triangle OAC$の面積の和の最大値と，
+そのときの$\sin\theta$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2010/2010_0_1.pdf)

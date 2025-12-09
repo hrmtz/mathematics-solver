@@ -1,0 +1,32 @@
+---
+title: "東京大学 1994年 1994_4"
+problem_id: "01_tokyo-1994-1994_4"
+university: "東京大学"
+exam_year: "1994"
+source_tex: "archive/01_tokyo/1994/1994_4.tex"
+pdf_source: "archive/01_tokyo/1994/1994_4.pdf"
+page_image: "archive/01_tokyo/1994/1994_4.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$0<c<1$とする．$0 \leqq x < 1$において連続な関数$f(x)$に対して
+\[ f_1(x)=f(x)+\int_0^cf(t)dt, \hspace{1zw} f_2(x)=f(x)+\int_0^cf_1(t)dt \]
+とおく．以下，関数$f_3(x),f_4(x),\cdots\cdots$を順次
+\[ f_n(x)=f(x)+\int_0^cf_{n-1}(t)dt \hspace{1zw} (n=3,4,\cdots\cdots) \]
+により定める．また，
+\[ g(c)=\int_0^cf(t)dt \text{とし，} n=1,2,3,\cdots\cdots \text{に対し} g_n(c)=\int_0^cf_n(t)dt \]
+とおく．
+このとき，
+$0<x<1$を満たす任意の$x$に対し$\displaystyle xf(x)=g(x)+x\lim_{n\to\infty}g_n(x)$が成り立ち，
+さらに$f(0)=1$となるような$f(x)$を定めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1994/1994_4.pdf)

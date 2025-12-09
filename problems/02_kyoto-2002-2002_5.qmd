@@ -1,0 +1,27 @@
+---
+title: "京都大学 2002年 2002_5"
+problem_id: "02_kyoto-2002-2002_5"
+university: "京都大学"
+exam_year: "2002"
+source_tex: "archive/02_kyoto/2002/2002_5.tex"
+pdf_source: "archive/02_kyoto/2002/2002_5.pdf"
+page_image: "archive/02_kyoto/2002/2002_5.jpg"
+fields:
+  - 代数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a$，$b$，$c$を実数とする．
+$y=x^3+3ax^2+3bx$と$y=c$のグラフが相異なる3つの交点を持つという．
+このとき$a^2>b$が成立することを示し，
+さらにこれらの交点の$x$座標のすべては
+開区間$(-a-2\sqrt{a^2-b},-a+2\sqrt{a^2-b})$に含まれていることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_5.pdf)

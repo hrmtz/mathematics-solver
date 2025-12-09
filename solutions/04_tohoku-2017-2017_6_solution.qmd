@@ -1,0 +1,337 @@
+## 解答
+
+(1)  
+部分積分を用いる。  
+$I(a,b)=\displaystyle\int_0^{\pi/2} e^{ax}\cos bx\,dx$ とおく。
+
+まず $u=e^{ax}$, $dv=\cos bx\,dx$ とおくと  
+$du=a e^{ax}dx$, $v=\dfrac{\sin bx}{b}$ であるから，
+$$
+I(a,b)
+=\left[ e^{ax}\frac{\sin bx}{b} \right]_0^{\pi/2}
+-\int_0^{\pi/2}\frac{\sin bx}{b}\,a e^{ax}\,dx
+=\left[ e^{ax}\frac{\sin bx}{b} \right]_0^{\pi/2}
+-\frac{a}{b}\int_0^{\pi/2}e^{ax}\sin bx\,dx.
+$$
+
+ここで
+$$
+K(a,b)=\int_0^{\pi/2}e^{ax}\sin bx\,dx
+$$
+とおくと，
+$$
+I(a,b)=\left[ e^{ax}\frac{\sin bx}{b} \right]_0^{\pi/2}-\frac{a}{b}K(a,b)
+$$
+を得る。
+
+次に $K(a,b)$ を部分積分で求める。  
+$u=e^{ax}$, $dv=\sin bx\,dx$ とおくと  
+$du=a e^{ax}dx$, $v=-\dfrac{\cos bx}{b}$ なので，
+$$
+K(a,b)
+=\left[ -e^{ax}\frac{\cos bx}{b} \right]_0^{\pi/2}
+-\int_0^{\pi/2}\left(-\frac{\cos bx}{b}\right) a e^{ax}dx
+=\left[ -e^{ax}\frac{\cos bx}{b} \right]_0^{\pi/2}
++\frac{a}{b}\int_0^{\pi/2}e^{ax}\cos bx\,dx.
+$$
+したがって
+$$
+K(a,b)
+=\left[ -e^{ax}\frac{\cos bx}{b} \right]_0^{\pi/2}
++\frac{a}{b}I(a,b).
+$$
+
+以上より，
+$$
+I(a,b)
+=\left[ e^{ax}\frac{\sin bx}{b} \right]_0^{\pi/2}
+-\frac{a}{b}\left\{
+\left[ -e^{ax}\frac{\cos bx}{b} \right]_0^{\pi/2}
++\frac{a}{b}I(a,b)
+\right\}
+$$
+となる。これを整理する。
+
+右辺を展開して
+$$
+I(a,b)
+=\left[ e^{ax}\frac{\sin bx}{b} \right]_0^{\pi/2}
++\frac{a}{b}\left[ e^{ax}\frac{\cos bx}{b} \right]_0^{\pi/2}
+-\frac{a^2}{b^2}I(a,b).
+$$
+
+よって両辺を一方にまとめると
+$$
+\left(1+\frac{a^2}{b^2}\right)I(a,b)
+=\left[ e^{ax}\frac{\sin bx}{b} \right]_0^{\pi/2}
++\frac{a}{b}\left[ e^{ax}\frac{\cos bx}{b} \right]_0^{\pi/2}.
+$$
+
+左辺の係数は
+$$
+1+\frac{a^2}{b^2}=\frac{a^2+b^2}{b^2}
+$$
+なので，
+$$
+I(a,b)=\frac{b^2}{a^2+b^2}
+\left\{
+\left[ e^{ax}\frac{\sin bx}{b} \right]_0^{\pi/2}
++\frac{a}{b}\left[ e^{ax}\frac{\cos bx}{b} \right]_0^{\pi/2}
+\right\}.
+$$
+
+さらに $x=0,\ \pi/2$ を代入すると
+$$
+\left[ e^{ax}\frac{\sin bx}{b} \right]_0^{\pi/2}
+=\frac{e^{a\pi/2}\sin\frac{b\pi}{2}}{b}-\frac{\sin 0}{b}
+=\frac{e^{a\pi/2}\sin\frac{b\pi}{2}}{b},
+$$
+$$
+\left[ e^{ax}\frac{\cos bx}{b} \right]_0^{\pi/2}
+=\frac{e^{a\pi/2}\cos\frac{b\pi}{2}}{b}-\frac{\cos 0}{b}
+=\frac{e^{a\pi/2}\cos\frac{b\pi}{2}-1}{b}.
+$$
+
+したがって
+$$
+I(a,b)=\frac{b^2}{a^2+b^2}
+\left\{
+\frac{e^{a\pi/2}\sin\frac{b\pi}{2}}{b}
++\frac{a}{b}\cdot\frac{e^{a\pi/2}\cos\frac{b\pi}{2}-1}{b}
+\right\}.
+$$
+分母分子を整理すると
+$$
+I(a,b)=\frac{1}{a^2+b^2}
+\left\{
+b e^{a\pi/2}\sin\frac{b\pi}{2}
++a\left(e^{a\pi/2}\cos\frac{b\pi}{2}-1\right)
+\right\}.
+$$
+
+よって
+$$
+I(a,b)=\frac{e^{a\pi/2}\bigl(a\cos\frac{b\pi}{2}
++b\sin\frac{b\pi}{2}\bigr)-a}{a^2+b^2}
+\quad (a\neq0).
+$$
+
+---
+
+(2)  
+三角恒等式を用いて $J(a,b,c)$ を変形する。  
+$\sin bx\sin cx$ に積和の公式
+$$
+\sin\alpha\sin\beta
+=\frac{1}{2}\{\cos(\alpha-\beta)-\cos(\alpha+\beta)\}
+$$
+を適用すると，
+$$
+\sin bx\sin cx
+=\frac{1}{2}\{\cos(bx-cx)-\cos(bx+cx)\}
+=\frac{1}{2}\{\cos((b-c)x)-\cos((b+c)x)\}
+$$
+である。
+
+したがって
+$$
+J(a,b,c)
+=\int_0^{\pi/2}e^{ax}\sin bx\sin cx\,dx
+=\frac{1}{2}\int_0^{\pi/2}e^{ax}\{\cos((b-c)x)-\cos((b+c)x)\}\,dx.
+$$
+
+積分は線形であるから
+$$
+J(a,b,c)
+=\frac{1}{2}\left(
+\int_0^{\pi/2}e^{ax}\cos((b-c)x)\,dx
+-\int_0^{\pi/2}e^{ax}\cos((b+c)x)\,dx
+\right).
+$$
+
+これは $I(a,\cdot)$ の定義
+$$
+I(a,d)=\int_0^{\pi/2}e^{ax}\cos dx\,dx
+$$
+を用いると
+$$
+J(a,b,c)=\frac{1}{2}\{I(a,b-c)-I(a,b+c)\}
+$$
+と表される。
+
+---
+
+(3)  
+与えられた積分を $J$ を用いて表す。  
+積分の中身は
+$$
+e^x\sin tx\sin 2tx\cos 3tx\cos 4tx
+$$
+である。まず余弦部分に積和の公式
+$$
+\cos\alpha\cos\beta
+=\frac{1}{2}\{\cos(\alpha-\beta)+\cos(\alpha+\beta)\}
+$$
+を用いる：
+$$
+\cos 3tx\cos 4tx
+=\frac{1}{2}\{\cos(3tx-4tx)+\cos(3tx+4tx)\}
+=\frac{1}{2}\{\cos(-tx)+\cos 7tx\}
+=\frac{1}{2}\{\cos tx+\cos 7tx\}.
+$$
+
+したがって
+$$
+\sin tx\sin 2tx\cos 3tx\cos 4tx
+=\sin tx\sin 2tx\cdot\frac{1}{2}(\cos tx+\cos 7tx)
+$$
+となり，
+$$
+8\int_0^{\pi/2}e^x\sin tx\sin 2tx\cos 3tx\cos 4tx\,dx
+=8\int_0^{\pi/2}e^x\sin tx\sin 2tx\cdot\frac{1}{2}(\cos tx+\cos 7tx)\,dx
+$$
+なので
+$$
+=4\int_0^{\pi/2}e^x\sin tx\sin 2tx\cos tx\,dx
++4\int_0^{\pi/2}e^x\sin tx\sin 2tx\cos 7tx\,dx.
+$$
+
+ここで $\sin 2tx\cos tx$ 等を再度積和に変形する必要はなく，$J$ の形にまとめることを目指す。  
+$\cos tx=\dfrac{\sin 2tx}{2\sin tx}$ のような変形は $x$ 依存で扱いにくいので，別の積和公式を使う。
+
+まず $\sin tx\cos tx$ に公式
+$$
+\sin\alpha\cos\beta
+=\frac{1}{2}\{\sin(\alpha+\beta)+\sin(\alpha-\beta)\}
+$$
+を使えば
+$$
+\sin tx\cos tx
+=\frac{1}{2}\{\sin(2tx)+\sin 0\}
+=\frac{1}{2}\sin 2tx
+$$
+であるから
+$$
+\sin tx\sin 2tx\cos tx
+=\sin 2tx\cdot\sin tx\cos tx
+=\sin 2tx\cdot\frac{1}{2}\sin 2tx
+=\frac{1}{2}\sin^2 2tx.
+$$
+
+同様に
+$$
+\sin tx\cos 7tx
+=\frac{1}{2}\{\sin(8tx)+\sin(-6tx)\}
+=\frac{1}{2}\{\sin 8tx-\sin 6tx\}
+$$
+より
+$$
+\sin tx\sin 2tx\cos 7tx
+=\sin 2tx\cdot\frac{1}{2}\{\sin 8tx-\sin 6tx\}
+=\frac{1}{2}\{\sin 2tx\sin 8tx-\sin 2tx\sin 6tx\}.
+$$
+
+したがって，元の式は
+$$
+8\int_0^{\pi/2}e^x\sin tx\sin 2tx\cos 3tx\cos 4tx\,dx
+$$
+$$
+=4\int_0^{\pi/2}e^x\cdot\frac{1}{2}\sin^2 2tx\,dx
++4\int_0^{\pi/2}e^x\cdot\frac{1}{2}\{\sin 2tx\sin 8tx-\sin 2tx\sin 6tx\}\,dx
+$$
+$$
+=2\int_0^{\pi/2}e^x\sin^2 2tx\,dx
++2\int_0^{\pi/2}e^x\sin 2tx\sin 8tx\,dx
+-2\int_0^{\pi/2}e^x\sin 2tx\sin 6tx\,dx.
+$$
+
+ここで，$J(a,b,c)$ の定義に $a=1$ を入れると
+$$
+J(1,p,q)=\int_0^{\pi/2}e^x\sin px\sin qx\,dx
+$$
+なので，上の各項は
+$$
+2\int_0^{\pi/2}e^x\sin^2 2tx\,dx=2J(1,2t,2t),
+$$
+$$
+2\int_0^{\pi/2}e^x\sin 2tx\sin 8tx\,dx=2J(1,2t,8t),
+$$
+$$
+2\int_0^{\pi/2}e^x\sin 2tx\sin 6tx\,dx=2J(1,2t,6t)
+$$
+と書ける。
+
+ゆえに
+$$
+8\int_0^{\pi/2}e^x\sin tx\sin 2tx\cos 3tx\cos 4tx\,dx
+=2J(1,2t,2t)+2J(1,2t,8t)-2J(1,2t,6t)
+$$
+となる。
+
+(2) の結果
+$$
+J(1,p,q)=\frac12\{I(1,p-q)-I(1,p+q)\}
+$$
+を用いると，
+$$
+2J(1,2t,2t)=2\cdot\frac12\{I(1,0)-I(1,4t)\}=I(1,0)-I(1,4t),
+$$
+$$
+2J(1,2t,8t)=2\cdot\frac12\{I(1,-6t)-I(1,10t)\}
+=I(1,-6t)-I(1,10t),
+$$
+$$
+2J(1,2t,6t)=2\cdot\frac12\{I(1,-4t)-I(1,8t)\}
+=I(1,-4t)-I(1,8t).
+$$
+
+したがって全体は
+$$
+I(1,0)-I(1,4t)+I(1,-6t)-I(1,10t)-I(1,-4t)+I(1,8t)
+$$
+となる。よって求める極限は
+$$
+\lim_{t\to\infty}\{I(1,0)-I(1,4t)+I(1,-6t)-I(1,10t)-I(1,-4t)+I(1,8t)\}
+$$
+である。
+
+ここで $I(1,0)$ は $t$ に依存しない定数である：
+$$
+I(1,0)=\int_0^{\pi/2}e^x\cos 0\,dx=\int_0^{\pi/2}e^x\,dx=e^{\pi/2}-1.
+$$
+
+また $b\neq0$ のときの一般形から $a=1$ を代入すると
+$$
+I(1,b)=\int_0^{\pi/2}e^x\cos bx\,dx
+=\frac{e^{\pi/2}\bigl(\cos\frac{b\pi}{2}
++b\sin\frac{b\pi}{2}\bigr)-1}{1+b^2}
+$$
+であり，分母 $1+b^2$ は $|b|\to\infty$ で $\infty$ へ発散する一方，分子は $e^{\pi/2}$ と三角関数および定数からなり有界であるから，
+$$
+\lim_{|b|\to\infty}I(1,b)=0
+$$
+が従う。
+
+ゆえに
+$$
+\lim_{t\to\infty}I(1,4t)
+=\lim_{t\to\infty}I(1,-6t)
+=\lim_{t\to\infty}I(1,10t)
+=\lim_{t\to\infty}I(1,-4t)
+=\lim_{t\to\infty}I(1,8t)=0
+$$
+である。
+
+したがって
+$$
+\lim_{t\to\infty} 8 \int_0^{\pi/2}e^x \sin tx \sin 2tx
+\cos 3tx \cos 4tx \, dx
+=\lim_{t\to\infty}\bigl\{I(1,0)+(\text{0 へ収束する項})\bigr\}
+=I(1,0)=e^{\pi/2}-1.
+$$
+
+答えは
+$$
+e^{\pi/2}-1
+$$
+である。

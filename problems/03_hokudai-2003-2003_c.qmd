@@ -1,0 +1,37 @@
+---
+title: "北海道大学 2003年 2003_c"
+problem_id: "03_hokudai-2003-2003_c"
+university: "北海道大学"
+exam_year: "2003"
+source_tex: "archive/03_hokudai/2003/2003_c.tex"
+pdf_source: "archive/03_hokudai/2003/2003_c.pdf"
+page_image: "archive/03_hokudai/2003/2003_c.jpg"
+fields:
+  - 空間図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xyz$空間において，
+\[ \text{半球面}A:z=\sqrt{1-x^2-y^2}, \hspace{1zw} x^2+y^2\leqq1 \]
+と
+\[ \text{円板}B:z=0, \hspace{1zw} x^2+y^2\leqq1 \]
+を考える．
+\begin{description}
+\item[(1)]$A$と$B$で囲まれる立体内に中心をもち，
+$A$と$B$にそれぞれ一点で接する球面を$C$とおく．
+$C$の中心の座標を$(x_0, \, y_0, \, z_0)$とするとき，
+$z_0$を$x_0$，$y_0$の式で表せ．
+\item[(2)](1)で得た式を$z_0=f(x_0, \, y_0)$とする．
+このとき，不等式
+\[ f(x, \, y) \leqq z \leqq \sqrt{1-x^2-y^2}, \hspace{1zw} x^2+y^2\leqq1 \]
+で定まる立体の体積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2003/2003_c.pdf)

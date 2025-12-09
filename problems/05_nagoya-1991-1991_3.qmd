@@ -1,0 +1,30 @@
+---
+title: "名古屋大学 1991年 1991_3"
+problem_id: "05_nagoya-1991-1991_3"
+university: "名古屋大学"
+exam_year: "1991"
+source_tex: "archive/05_nagoya/1991/1991_3.tex"
+pdf_source: "archive/05_nagoya/1991/1991_3.pdf"
+page_image: "archive/05_nagoya/1991/1991_3.jpg"
+fields:
+  - 積分法
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数$f_n(x)$ $(n=1, \, 2, \, \cdots\cdots)$を次によって定める．
+\[ f_1(x)=x, \, f_n(x)=x+\frac{1}{2}\int_0^1e^{-x+y}f_{n-1}(y)dy \hspace{1zw} (n=2, \, 3, \, \cdots\cdots) \]
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$f_2(x)$を求めよ．
+\item[(2)]$f_n(x)$を求めよ．
+\item[(3)]$\displaystyle\lim_{n\to\infty}f_n(x)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1991/1991_3.pdf)

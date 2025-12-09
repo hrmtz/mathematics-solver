@@ -1,0 +1,28 @@
+---
+title: "北海道大学 2001年 2001_a"
+problem_id: "03_hokudai-2001-2001_a"
+university: "北海道大学"
+exam_year: "2001"
+source_tex: "archive/03_hokudai/2001/2001_a.tex"
+pdf_source: "archive/03_hokudai/2001/2001_a.pdf"
+page_image: "archive/03_hokudai/2001/2001_a.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　平面上の4点$O(0, \, 0)$，$A(0, \, 3)$，$B(1, \, 0)$，$C(3, \, 0)$についてつぎの問いに答えよ．
+\begin{description}
+\item[(1)]$\sin \angle BAC$を求めよ．
+\item[(2)]点$P$が線分$OA$上を動くとき，
+$\sin \angle BPC$の最大値とそれを与える点$P$の座標を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2001/2001_a.pdf)

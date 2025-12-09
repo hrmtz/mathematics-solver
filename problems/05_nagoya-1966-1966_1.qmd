@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 1966年 1966_1"
+problem_id: "05_nagoya-1966-1966_1"
+university: "名古屋大学"
+exam_year: "1966"
+source_tex: "archive/05_nagoya/1966/1966_1.tex"
+pdf_source: "archive/05_nagoya/1966/1966_1.pdf"
+page_image: "archive/05_nagoya/1966/1966_1.jpg"
+fields:
+  - 三角関数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$A$，$B$，$C$が鋭角であって
+\[ \tan A+\tan B \geqq \tan C \]
+ならば
+\[ \sec A+\sec B > \sec C \]
+であることを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1966/1966_1.pdf)

@@ -1,0 +1,33 @@
+---
+title: "九州大学 2003年 2003_0_1"
+problem_id: "07_kyushu-2003-2003_0_1"
+university: "九州大学"
+exam_year: "2003"
+source_tex: "archive/07_kyushu/2003/2003_0_1.tex"
+pdf_source: "archive/07_kyushu/2003/2003_0_1.pdf"
+page_image: "archive/07_kyushu/2003/2003_0_1.jpg"
+fields:
+  - 代数
+  - 不等式
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$a$，$c$を係数とする関数$f(x)=ax^2+c$について，次の条件を考える．
+\begin{description}
+\item[（＊）]$0 \leqq x \leqq 1$の範囲で$f(x)\geqq{(x+1)}^2$が成立する．
+\end{description}
+\begin{description}
+\item[(1)]$a\geqq2$のとき，条件（＊）を満たす最小の$c$の値は$\displaystyle\frac{a}{a-1}$であることを示せ．
+\item[(2)]$a\leqq2$のとき，条件（＊）を満たす最小の$c$の値は$4-a$であることを示せ．
+\item[(3)]関数$f(x)$が条件（＊）を満たしているとき，
+定積分$\displaystyle\int_0^1f(x)dx$を最小にする$a$，$c$と，そのときの定積分の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_0_1.pdf)

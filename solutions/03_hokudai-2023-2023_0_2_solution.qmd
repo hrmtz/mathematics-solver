@@ -1,0 +1,265 @@
+## 解答
+
+(ベクトル $\vec{OA},\vec{OB}$ をそれぞれ $\vec{a},\vec{b}$ とおく。)
+
+## 解答
+
+(1)  
+点 $P$ は線分 $AB$ 上にあり，$\angle AOP$ と $\angle POB$ が等しいので，角の2等分線の性質から  
+$\overrightarrow{OP}$ は $\overrightarrow{OA},\overrightarrow{OB}$ の係数が大きさに比例する形で表される。  
+すなわち，ある $s,t>0$ を用いて
+$$
+\overrightarrow{OP}=s\vec{a}+t\vec{b},\quad
+\frac{s}{t}=\frac{|\vec{OA}|}{|\vec{OB}|}=\frac{3}{5}
+$$
+より，$s=3k,\ t=5k$ とおける。したがって
+$$
+\overrightarrow{OP}=3k\vec{a}+5k\vec{b}=k(3\vec{a}+5\vec{b})
+$$
+と書ける。
+
+一方，$P$ は直線 $AB$ 上にあるから
+$$
+\overrightarrow{OP}=\overrightarrow{OA}+u\,\overrightarrow{AB}
+=\vec{a}+u(\vec{b}-\vec{a})=(1-u)\vec{a}+u\vec{b}
+$$
+と表される。よって
+$$
+(1-u)\vec{a}+u\vec{b}=k(3\vec{a}+5\vec{b})
+$$
+が成り立つ。$\vec{a},\vec{b}$ は一次独立なので係数を比較して
+$$
+1-u=3k,\quad u=5k
+$$
+となる。2つ目から $u=5k$ を 1つ目に代入して
+$$
+1-5k=3k\ \Rightarrow\ 1=8k\ \Rightarrow\ k=\frac18
+$$
+となる。したがって
+$$
+\overrightarrow{OP}=\frac18(3\vec{a}+5\vec{b})
+$$
+である。
+
+次に $|\overrightarrow{OP}|$ を求める。まず内積を用いて $\vec{a}\cdot\vec{b}$ を求める。  
+三角形 $OAB$ について余弦定理より
+$$
+AB^2=OA^2+OB^2-2\,OA\cdot OB\cos\angle AOB
+$$
+すなわち
+$$
+7^2=3^2+5^2-2\cdot3\cdot5\cos\angle AOB
+$$
+であるから
+$$
+49=9+25-30\cos\angle AOB
+\ \Rightarrow\ 49=34-30\cos\angle AOB
+$$
+$$
+\Rightarrow\ 30\cos\angle AOB=34-49=-15
+\ \Rightarrow\ \cos\angle AOB=-\frac12
+$$
+となる。よって
+$$
+\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|\cos\angle AOB
+=3\cdot5\cdot\left(-\frac12\right)=-\frac{15}{2}
+$$
+である。
+
+したがって
+$$
+\begin{aligned}
+|\overrightarrow{OP}|^2
+&=\left|\frac18(3\vec{a}+5\vec{b})\right|^2
+=\frac1{64}|3\vec{a}+5\vec{b}|^2 \\
+&=\frac1{64}\bigl(9|\vec{a}|^2+25|\vec{b}|^2+2\cdot3\cdot5\,\vec{a}\cdot\vec{b}\bigr)\\
+&=\frac1{64}\bigl(9\cdot9+25\cdot25+30\cdot\vec{a}\cdot\vec{b}\bigr)\\
+&=\frac1{64}\bigl(81+625+30\cdot(-\tfrac{15}{2})\bigr)\\
+&=\frac1{64}\bigl(706-225\bigr)
+=\frac1{64}\cdot481
+\end{aligned}
+$$
+より
+$$
+|\overrightarrow{OP}|=\frac{\sqrt{481}}{8}
+$$
+である。
+
+まとめると
+$$
+\overrightarrow{OP}=\frac18(3\overrightarrow{OA}+5\overrightarrow{OB}),\quad
+|\overrightarrow{OP}|=\frac{\sqrt{481}}{8}
+$$
+となる。
+
+---
+
+(2)  
+$B$ における外角の2等分線を考える。$\angle ABO$ の外角は，三角形の外角定理より  
+$\angle B_{\text{ext}}=\angle BAO+\angle AOB$ であり，これを2等分する直線上の点 $Q$ は  
+「角の2等分線上の点は両辺からの距離が等しい」という性質から
+$$
+d(Q,BA)=d(Q,BO)
+$$
+を満たす。ただし $d(Q,\ell)$ は点 $Q$ から直線 $\ell$ への距離を表す。
+
+ここで，$BA$ は点 $B$ と点 $A$ を通る直線であるから，
+$$
+d(Q,BA)=d(QA,\ \text{直線 }BAの垂線の長さ)
+$$
+と表せるが，実際には $Q$ が直線 $OP$ 上にあることとベクトルの計算を用いて処理する。
+
+まず，$Q$ は直線 $OP$ 上にあるので，ある実数 $r>0$ を用いて
+$$
+\overrightarrow{OQ}=r\,\overrightarrow{OP}
+=r\cdot\frac18(3\vec{a}+5\vec{b})
+=\frac{r}{8}(3\vec{a}+5\vec{b})
+$$
+とおける。
+
+次に，外角の2等分線の性質をベクトルで表す。  
+点 $Q$ の直線 $BA$ からの距離は，ベクトル $\overrightarrow{AQ}$ を直線 $BA$ に垂直な方向に射影した長さで表され，  
+点 $Q$ の直線 $BO$ からの距離は，ベクトル $\overrightarrow{BQ}$ を直線 $BO$ に垂直な方向に射影した長さで表される。  
+
+しかし，このままでは式が煩雑になるので，より直接的に  
+「角の2等分線は，2本の辺の単位ベクトルの和（または差）の方向に一致する」  
+という性質を用いる。
+
+$\angle AB O$（頂点 $B$ における内角）の2等分線の方向は  
+$$
+\frac{\overrightarrow{BA}}{|\overrightarrow{BA}|}
++\frac{\overrightarrow{BO}}{|\overrightarrow{BO}|}
+$$
+で与えられる。一方，$B$ における外角の2等分線は，  
+このベクトルと直角二等分の関係を持つ方向，すなわち
+$$
+\frac{\overrightarrow{BA}}{|\overrightarrow{BA}|}
+-\frac{\overrightarrow{BO}}{|\overrightarrow{BO}|}
+$$
+の方向と一致する。
+
+したがって，$B$ を始点とする外角の2等分線上のベクトルは
+$$
+\overrightarrow{BQ}
+=\lambda\left(\frac{\overrightarrow{BA}}{|\overrightarrow{BA}|}
+-\frac{\overrightarrow{BO}}{|\overrightarrow{BO}|}\right)
+$$
+と表せる（ただし $\lambda$ は実数）。  
+ここで
+$$
+\overrightarrow{BA}=\vec{a}-\vec{b},\quad
+\overrightarrow{BO}=-\vec{b}
+$$
+かつ $|\overrightarrow{BA}|=AB=7,\ |\overrightarrow{BO}|=5$ なので
+$$
+\overrightarrow{BQ}
+=\lambda\left(\frac{\vec{a}-\vec{b}}{7}
+-\frac{-\vec{b}}{5}\right)
+=\lambda\left(\frac{\vec{a}-\vec{b}}{7}
++\frac{\vec{b}}{5}\right)
+=\lambda\left(\frac{1}{7}\vec{a}+\left(-\frac{1}{7}+\frac{1}{5}\right)\vec{b}\right)
+$$
+$$
+=-\lambda\left(-\frac{1}{7}\vec{a}+\frac{2}{35}\vec{b}\right)
+\quad\text{などと書き換えられるが，このまま用いる。}
+$$
+
+一方，$\overrightarrow{BQ}$ は
+$$
+\overrightarrow{BQ}=\overrightarrow{BO}+\overrightarrow{OQ}
+=-\vec{b}+\overrightarrow{OQ}
+$$
+とも表せる。よって
+$$
+-\vec{b}+\overrightarrow{OQ}
+=\lambda\left(\frac{\vec{a}-\vec{b}}{7}
++\frac{\vec{b}}{5}\right)
+$$
+である。さらに $\overrightarrow{OQ}=\dfrac{r}{8}(3\vec{a}+5\vec{b})$ を代入すると
+$$
+-\vec{b}+\frac{r}{8}(3\vec{a}+5\vec{b})
+=\lambda\left(\frac{1}{7}\vec{a}+\left(-\frac{1}{7}+\frac{1}{5}\right)\vec{b}\right)
+=\lambda\left(\frac{1}{7}\vec{a}+\frac{2}{35}\vec{b}\right)
+$$
+となる。
+
+左辺を $\vec{a},\vec{b}$ で整理すると
+$$
+-\vec{b}+\frac{r}{8}(3\vec{a}+5\vec{b})
+=\frac{3r}{8}\vec{a}+\left(-1+\frac{5r}{8}\right)\vec{b}
+$$
+であるから，
+$$
+\frac{3r}{8}\vec{a}+\left(-1+\frac{5r}{8}\right)\vec{b}
+=\lambda\cdot\frac{1}{7}\vec{a}
++\lambda\cdot\frac{2}{35}\vec{b}
+$$
+が得られる。ここでも $\vec{a},\vec{b}$ は一次独立なので，係数を比較して
+$$
+\frac{3r}{8}=\frac{\lambda}{7},\quad
+-1+\frac{5r}{8}=\frac{2\lambda}{35}
+$$
+となる。1つ目から $\lambda=\dfrac{21r}{8}$ を得るので，これを2つ目に代入して
+$$
+-1+\frac{5r}{8}=\frac{2}{35}\cdot\frac{21r}{8}
+=\frac{42r}{280}
+=\frac{3r}{20}
+$$
+となる。よって
+$$
+-1+\frac{5r}{8}=\frac{3r}{20}
+\ \Rightarrow\ \frac{5r}{8}-\frac{3r}{20}=1
+$$
+左辺を通分すると
+$$
+\frac{25r-6r}{40}=1
+\ \Rightarrow\ \frac{19r}{40}=1
+\ \Rightarrow\ r=\frac{40}{19}
+$$
+となる。
+
+したがって
+$$
+\overrightarrow{OQ}
+=\frac{r}{8}(3\vec{a}+5\vec{b})
+=\frac{40}{19\cdot8}(3\vec{a}+5\vec{b})
+=\frac{5}{19}(3\vec{a}+5\vec{b})
+$$
+である。もとの記号に戻すと
+$$
+\overrightarrow{OQ}
+=\frac{5}{19}\bigl(3\overrightarrow{OA}+5\overrightarrow{OB}\bigr)
+$$
+となる。
+
+次に $|\overrightarrow{OQ}|$ を求める。すでに
+$$
+\vec{a}\cdot\vec{b}=-\frac{15}{2},\quad
+|\vec{a}|=3,\quad|\vec{b}|=5
+$$
+を求めてあるので
+$$
+\begin{aligned}
+|\overrightarrow{OQ}|^2
+&=\left|\frac{5}{19}(3\vec{a}+5\vec{b})\right|^2
+=\frac{25}{19^2}|3\vec{a}+5\vec{b}|^2\\
+&=\frac{25}{361}\bigl(9|\vec{a}|^2+25|\vec{b}|^2+2\cdot3\cdot5\,\vec{a}\cdot\vec{b}\bigr)\\
+&=\frac{25}{361}\bigl(9\cdot9+25\cdot25+30\cdot(-\tfrac{15}{2})\bigr)\\
+&=\frac{25}{361}(81+625-225)
+=\frac{25}{361}\cdot481
+\end{aligned}
+$$
+となる。よって
+$$
+|\overrightarrow{OQ}|=\frac{5\sqrt{481}}{19}
+$$
+である。
+
+まとめると
+$$
+\overrightarrow{OQ}
+=\frac{5}{19}(3\overrightarrow{OA}+5\overrightarrow{OB}),\quad
+|\overrightarrow{OQ}|
+=\frac{5\sqrt{481}}{19}
+$$
+となる。

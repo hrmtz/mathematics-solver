@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1966年 1966_5"
+problem_id: "03_hokudai-1966-1966_5"
+university: "北海道大学"
+exam_year: "1966"
+source_tex: "archive/03_hokudai/1966/1966_5.tex"
+pdf_source: "archive/03_hokudai/1966/1966_5.pdf"
+page_image: "archive/03_hokudai/1966/1966_5.jpg"
+fields:
+  - 積分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+\begin{description}
+\item[(1)]$\displaystyle\frac{3x-7}{(2x+1)(x^2+4)}=\frac{A}{2x+1}+\frac{Bx+C}{x^2+4}$が成り立つように
+定数$A$，$B$，$C$を定めよ．
+\item[(2)]$\displaystyle\int_0^2\frac{dx}{x^2+4}$を求めよ．
+\item[(3)]$\displaystyle\int_0^2 \left\{ \frac{3x-7}{(2x+1)(x^2+4)}+xe^x \right\} dx$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1966/1966_5.pdf)

@@ -1,0 +1,28 @@
+---
+title: "東北大学 1994年 1994_0_a"
+problem_id: "04_tohoku-1994-1994_0_a"
+university: "東北大学"
+exam_year: "1994"
+source_tex: "archive/04_tohoku/1994/1994_0_a.tex"
+pdf_source: "archive/04_tohoku/1994/1994_0_a.pdf"
+page_image: "archive/04_tohoku/1994/1994_0_a.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xyz$空間において，
+\[ \text{球面}S:x^2-2ax+y^2+z^2+a^2-4=0 \]
+と
+\[ \text{平面}\alpha:x+2y+az-1=0 \]
+を考える．
+$S$と$\alpha$が交わってできる円の面積が最小となるように実数$a$を定めよ．
+また，そのときの円の中心の座標を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_0_a.pdf)

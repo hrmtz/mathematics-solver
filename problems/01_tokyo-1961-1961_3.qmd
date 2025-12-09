@@ -1,0 +1,26 @@
+---
+title: "東京大学 1961年 1961_3"
+problem_id: "01_tokyo-1961-1961_3"
+university: "東京大学"
+exam_year: "1961"
+source_tex: "archive/01_tokyo/1961/1961_3.tex"
+pdf_source: "archive/01_tokyo/1961/1961_3.pdf"
+page_image: "archive/01_tokyo/1961/1961_3.jpg"
+fields:
+  - 微分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　あたえられた半径$a$の半球に外接する直円錐をつくり，
+その全表面積(側面積と底面積の和)をもっとも小さくするには，
+その高さをなにほどにすればよいか，
+ただし直円錐の底面は半球の底面とおなじ平面上にあるものとする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1961/1961_3.pdf)

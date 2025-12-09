@@ -1,0 +1,27 @@
+---
+title: "京都大学 1990年 1990_0_a"
+problem_id: "02_kyoto-1990-1990_0_a"
+university: "京都大学"
+exam_year: "1990"
+source_tex: "archive/02_kyoto/1990/1990_0_a.tex"
+pdf_source: "archive/02_kyoto/1990/1990_0_a.pdf"
+page_image: "archive/02_kyoto/1990/1990_0_a.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$O$を原点とし，$y=x^3-x$のグラフを$C$とする．
+$C$上の2点$P$，$P'$は線分$OP$と$OP'$が直交するように$C$上を動き，$P$は第1象限，$P'$は第2象限にある．
+$C$と$OP$で囲まれた部分の面積を$S$，$C$と$OP'$で囲まれた部分の面積を$S'$とする．
+$\displaystyle\frac{S}{S'}$の最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1990/1990_0_a.pdf)

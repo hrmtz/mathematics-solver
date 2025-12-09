@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 2000年 2000_4b"
+problem_id: "05_nagoya-2000-2000_4b"
+university: "名古屋大学"
+exam_year: "2000"
+source_tex: "archive/05_nagoya/2000/2000_4b.tex"
+pdf_source: "archive/05_nagoya/2000/2000_4b.pdf"
+page_image: "archive/05_nagoya/2000/2000_4b.jpg"
+fields:
+  - 代数
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　実数を係数とする3次方程式
+\[ x^3+px^2+qx+r=0 \]
+は，相異なる虚数解$\alpha$，$\beta$と実数解$\gamma$をもつとする．
+\begin{description}
+\item[(1)]$\beta=\overline{\alpha}$が成り立つことを証明せよ．
+ここで，$\overline{\alpha}$は$\alpha$と共役な複素数を表す．
+\item[(2)]$\alpha$，$\beta$，$\gamma$が等式$\alpha\beta+\beta\gamma+\gamma\alpha=3$を満たし，
+さらに複素数平面上で$\alpha$，$\beta$，$\gamma$を表す3点は1辺の長さが$\sqrt3$の正三角形をなすものとする．
+このとき，実数の組$(p, \, q, \, r)$をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2000/2000_4b.pdf)

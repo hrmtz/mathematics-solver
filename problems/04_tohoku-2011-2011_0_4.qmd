@@ -1,0 +1,29 @@
+---
+title: "東北大学 2011年 2011_0_4"
+problem_id: "04_tohoku-2011-2011_0_4"
+university: "東北大学"
+exam_year: "2011"
+source_tex: "archive/04_tohoku/2011/2011_0_4.tex"
+pdf_source: "archive/04_tohoku/2011/2011_0_4.pdf"
+page_image: "archive/04_tohoku/2011/2011_0_4.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　放物線$y=x^2$の2本の接線$l$，$m$は垂直であるとする。
+\begin{description}
+\item[(1)]$l$の接点の座標が$(a, \, a^2)$で与えられるとき，
+$l$，$m$の交点の座標を$a$を用いて表せ。
+\item[(2)]$l$，$m$が$y$軸に関して対称なとき，
+$l$，$m$および放物線$y=x^2$で囲まれる部分の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2011/2011_0_4.pdf)

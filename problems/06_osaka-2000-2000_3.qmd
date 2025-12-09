@@ -1,0 +1,22 @@
+---
+title: "大阪大学 2000年 2000_3"
+problem_id: "06_osaka-2000-2000_3"
+university: "大阪大学"
+exam_year: "2000"
+source_tex: "archive/06_osaka/2000/2000_3.tex"
+pdf_source: "archive/06_osaka/2000/2000_3.pdf"
+page_image: "archive/06_osaka/2000/2000_3.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　どのような負でない2つの整数$m$と$n$をもちいても$x=5m+3n$とは表すことができない正の整数$x$をすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_3.pdf)

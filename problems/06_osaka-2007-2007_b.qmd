@@ -1,0 +1,32 @@
+---
+title: "大阪大学 2007年 2007_b"
+problem_id: "06_osaka-2007-2007_b"
+university: "大阪大学"
+exam_year: "2007"
+source_tex: "archive/06_osaka/2007/2007_b.tex"
+pdf_source: "archive/06_osaka/2007/2007_b.pdf"
+page_image: "archive/06_osaka/2007/2007_b.jpg"
+fields:
+  - 指数・対数
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　関数$y=\log x$と$\displaystyle y=\frac{a}{x^2}$を考える．
+ただし，対数は自然対数とし，$a>0$とする．
+\begin{description}
+\item[(1)]2つの曲線$y=\log x$と$\displaystyle y=\frac{a}{x^2}$の交点の$x$座標を$p$で表すとき，
+$a$を$p$を用いて表せ．
+\item[(2)]$y=\log x$，$\displaystyle y=\frac{a}{x^2}$，$x=1$，$x=2$で囲まれる部分の面積$S$を
+$p$を用いて表せ．
+\item[(3)]$a$を動かすとき，$S$の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2007/2007_b.pdf)

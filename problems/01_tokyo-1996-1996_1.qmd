@@ -1,0 +1,29 @@
+---
+title: "東京大学 1996年 1996_1"
+problem_id: "01_tokyo-1996-1996_1"
+university: "東京大学"
+exam_year: "1996"
+source_tex: "archive/01_tokyo/1996/1996_1.tex"
+pdf_source: "archive/01_tokyo/1996/1996_1.pdf"
+page_image: "archive/01_tokyo/1996/1996_1.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面において，
+行列$\begin{pmatrix} a & -b 
+
+ b & a \end{pmatrix}$で表される1次変換を$f$とし，
+点$(1,0)$を中心とする半径$\displaystyle\frac{1}{3}$の円を$C$とする．
+$f$による$C$の像が直線$\displaystyle x=\frac{2}{3}$に接し，
+かつ領域$D=\{(x,y)|x>0\}$に含まれるような$(a,b)$全体のなす図形を$ab$平面上に図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1996/1996_1.pdf)

@@ -1,0 +1,27 @@
+---
+title: "京都大学 2019年 2019_0_3"
+problem_id: "02_kyoto-2019-2019_0_3"
+university: "京都大学"
+exam_year: "2019"
+source_tex: "archive/02_kyoto/2019/2019_0_3.tex"
+pdf_source: "archive/02_kyoto/2019/2019_0_3.pdf"
+page_image: "archive/02_kyoto/2019/2019_0_3.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$，$b$，$c$は実数とする。次の命題が成立するための，$a$と$c$がみたすべき必要十分条件を求めよ。
+さらに，この$(a, \, c)$の範囲を図示せよ。
+\begin{description}
+\item[命題：]すべての実数$b$に対して，ある実数$x$が不等式$ax^2+bx+c<0$をみたす。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2019/2019_0_3.pdf)

@@ -1,0 +1,31 @@
+---
+title: "名古屋大学 2018年 2018_2"
+problem_id: "05_nagoya-2018-2018_2"
+university: "名古屋大学"
+exam_year: "2018"
+source_tex: "archive/05_nagoya/2018/2018_2.tex"
+pdf_source: "archive/05_nagoya/2018/2018_2.pdf"
+page_image: "archive/05_nagoya/2018/2018_2.jpg"
+fields:
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$を1より大きい実数とする。このとき，次の問に答えよ。
+\begin{description}
+\item[(1)]関数$y=a^x$と$y=\log_ax$のグラフの共有点は，
+存在すれば直線$y=x$上にあることを示せ。
+\item[(2)]関数$y=a^x$と$y=\log_ax$のグラフの共有点は
+2個以下であることを示せ。
+\item[(3)]関数$y=a^x$と$y=\log_ax$のグラフの共有点は
+1個であるとする。
+このときの共有点の座標と$a$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2018/2018_2.pdf)

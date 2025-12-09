@@ -1,0 +1,192 @@
+## 解答
+
+(1)  
+放物線 $C$ 上の点 $P$ を  
+$$
+P(t,\, t^2) \quad(-1 \leqq t \leqq 1)
+$$
+とおく。このとき，原点 $O(0,0)$ から $P$ へのベクトルは  
+$$
+\overrightarrow{OP}=(t,\, t^2)
+$$
+である。条件 $\overrightarrow{OQ}=2\overrightarrow{OP}$ より，  
+$$
+\overrightarrow{OQ}=2(t,\, t^2)=(2t,\, 2t^2)
+$$
+となるから，点 $Q$ は  
+$$
+Q(2t,\, 2t^2)
+$$
+と表される。ここで $x$ 座標を $X$，$y$ 座標を $Y$ とおくと  
+$$
+X=2t,\quad Y=2t^2
+$$
+であるから，$t=\dfrac{X}{2}$ を用いて  
+$$
+Y=2\left(\frac{X}{2}\right)^2=\frac{X^2}{2}
+$$
+を得る。また，$t$ の範囲 $-1 \leqq t \leqq 1$ から  
+$$
+-2 \leqq X \leqq 2
+$$
+である。
+
+よって，点 $Q$ の軌跡は  
+$$
+Y=\frac{X^2}{2},\quad -2 \leqq X \leqq 2
+$$
+で表される放物線の一部である。
+
+(2)  
+(1) と同様に，点 $P$ を $P(t,\, t^2)$（$-1 \leqq t \leqq 1$）とおく。  
+また，$R$ は線分 $OA$ 上を動くので，$R$ を  
+$$
+R(u,\, 0)\quad(0 \leqq u \leqq 1)
+$$
+とおける。すると  
+$$
+\overrightarrow{OP}=(t,\, t^2),\quad \overrightarrow{OR}=(u,\, 0)
+$$
+であり，  
+$$
+\overrightarrow{OS}=2\overrightarrow{OP}+\overrightarrow{OR}
+$$
+より，  
+$$
+\overrightarrow{OS}=(2t+u,\, 2t^2)
+$$
+となる。したがって，点 $S$ の座標を $(x,\, y)$ とすれば  
+$$
+x=2t+u,\quad y=2t^2
+$$
+と書ける。ここで $t$ と $u$ を消去して $x,y$ の関係を求める。
+
+まず $y=2t^2$ より  
+$$
+t^2=\frac{y}{2}
+$$
+である。$t$ の範囲 $-1 \leqq t \leqq 1$ より，$t^2 \leqq 1$ だから  
+$$
+\frac{y}{2} \leqq 1 \quad\Rightarrow\quad y \leqq 2
+$$
+また $t^2 \geqq 0$ より $y \geqq 0$ であるから  
+$$
+0 \leqq y \leqq 2
+$$
+となる。
+
+次に，$x=2t+u$ で $0 \leqq u \leqq 1$ なので，$x$ は  
+$$
+2t \leqq x \leqq 2t+1
+$$
+を満たす。ここで $2t$ を $y$ で表すため，$t^2=\dfrac{y}{2}$ を用いると  
+$$
+-\sqrt{\frac{y}{2}} \leqq t \leqq \sqrt{\frac{y}{2}}
+$$
+より  
+$$
+-2\sqrt{\frac{y}{2}} \leqq 2t \leqq 2\sqrt{\frac{y}{2}}
+$$
+すなわち  
+$$
+-2\sqrt{\frac{y}{2}} \leqq 2t \leqq 2\sqrt{\frac{y}{2}}.
+$$
+
+このとき，$x$ は各 $t$ ごとに $2t \leqq x \leqq 2t+1$ の範囲をとるので，$t$ 全体について $x$ の取り得る最小値と最大値を調べる：
+
+- $x$ の最小値は $x=2t$ の最小値で与えられ，それは $t=-\sqrt{\dfrac{y}{2}}$ のとき  
+  $$
+  x_{\min} = 2\cdot\left(-\sqrt{\frac{y}{2}}\right) = -2\sqrt{\frac{y}{2}}
+  $$
+- $x$ の最大値は $x=2t+1$ の最大値で与えられ，それは $t=\sqrt{\dfrac{y}{2}}$ のとき  
+  $$
+  x_{\max} = 2\cdot\sqrt{\frac{y}{2}}+1 = 1+2\sqrt{\frac{y}{2}}
+  $$
+
+したがって，点 $S(x,\,y)$ が動く領域は  
+$$
+0 \leqq y \leqq 2,\quad -2\sqrt{\frac{y}{2}} \leqq x \leqq 1+2\sqrt{\frac{y}{2}}
+$$
+で表される。
+
+これを $x$ を $y$ の関数として書き直すと，左側の境界は  
+$$
+x=-2\sqrt{\frac{y}{2}}
+$$
+すなわち  
+$$
+x^2 = 4\cdot\frac{y}{2}=2y \quad\Rightarrow\quad y=\frac{x^2}{2}
+$$
+となり，右側の境界は  
+$$
+x=1+2\sqrt{\frac{y}{2}}
+$$
+より  
+$$
+x-1=2\sqrt{\frac{y}{2}}
+$$
+両辺を2乗して  
+$$
+(x-1)^2 = 4\cdot\frac{y}{2}=2y
+$$
+すなわち  
+$$
+y=\frac{(x-1)^2}{2}
+$$
+である。いずれも上に開いた放物線で，$y$ の範囲は $0 \leqq y \leqq 2$ である。
+
+以上から，点 $S$ の動く領域は，放物線  
+$$
+y=\frac{x^2}{2},\quad y=\frac{(x-1)^2}{2}
+$$
+および直線 $y=0$ によって囲まれる部分である（上側の交点は $y=2$ であり，その点では 2 つの放物線が交わる）。
+
+次にこの領域の面積を求める。$y$ を固定したときの横の長さは  
+$$
+\left(1+2\sqrt{\frac{y}{2}}\right)-\left(-2\sqrt{\frac{y}{2}}\right)
+=1+4\sqrt{\frac{y}{2}}
+$$
+であるから，面積 $S$ は  
+$$
+S=\int_{0}^{2} \left(1+4\sqrt{\frac{y}{2}}\right) \, dy
+$$
+である。これを計算する。まず  
+$$
+\sqrt{\frac{y}{2}}=\frac{1}{\sqrt{2}}\sqrt{y}
+$$
+であるから  
+$$
+S=\int_{0}^{2} 1\,dy + 4\int_{0}^{2} \sqrt{\frac{y}{2}}\,dy
+=\left[ y \right]_{0}^{2}
++4\cdot\frac{1}{\sqrt{2}} \int_{0}^{2} \sqrt{y}\,dy.
+$$
+ここで  
+$$
+\int_{0}^{2} \sqrt{y}\,dy = \int_{0}^{2} y^{1/2} dy
+= \left[ \frac{2}{3} y^{3/2} \right]_{0}^{2}
+= \frac{2}{3}\cdot 2^{3/2}
+= \frac{2}{3}\cdot 2\sqrt{2}
+= \frac{4\sqrt{2}}{3}
+$$
+となるので  
+$$
+4\cdot\frac{1}{\sqrt{2}} \int_{0}^{2} \sqrt{y}\,dy
+=4\cdot\frac{1}{\sqrt{2}}\cdot\frac{4\sqrt{2}}{3}
+=4\cdot\frac{4}{3}
+=\frac{16}{3}
+$$
+である。また  
+$$
+\left[ y \right]_{0}^{2}=2
+$$
+だから  
+$$
+S=2+\frac{16}{3}=\frac{6}{3}+\frac{16}{3}=\frac{22}{3}
+$$
+となる。
+
+よって，点 $S$ の動く領域は，放物線 $y=\dfrac{x^2}{2}$，$y=\dfrac{(x-1)^2}{2}$，直線 $y=0$ に囲まれる部分であり，その面積は  
+$$
+\frac{22}{3}
+$$
+である。

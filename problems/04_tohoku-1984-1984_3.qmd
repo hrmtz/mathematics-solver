@@ -1,0 +1,28 @@
+---
+title: "東北大学 1984年 1984_3"
+problem_id: "04_tohoku-1984-1984_3"
+university: "東北大学"
+exam_year: "1984"
+source_tex: "archive/04_tohoku/1984/1984_3.tex"
+pdf_source: "archive/04_tohoku/1984/1984_3.pdf"
+page_image: "archive/04_tohoku/1984/1984_3.jpg"
+fields:
+  - 三角関数
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　正の数$\alpha$，$\beta$，$m$，$n$が次の条件を満たしている．
+\[ 2\alpha+\beta=\frac{\pi}{4}, \hspace{1zw} \tan\alpha=\frac{1}{m}, \hspace{1zw} \tan\beta=\frac{1}{n} \]
+\begin{description}
+\item[(1)]$m$を用いて$n$を表せ．
+\item[(2)]$m$，$n$がともに整数であるとき，$m$と$n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1984/1984_3.pdf)

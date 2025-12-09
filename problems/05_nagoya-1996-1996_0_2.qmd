@@ -1,0 +1,24 @@
+---
+title: "名古屋大学 1996年 1996_0_2"
+problem_id: "05_nagoya-1996-1996_0_2"
+university: "名古屋大学"
+exam_year: "1996"
+source_tex: "archive/05_nagoya/1996/1996_0_2.tex"
+pdf_source: "archive/05_nagoya/1996/1996_0_2.pdf"
+page_image: "archive/05_nagoya/1996/1996_0_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$xy$平面上に，原点$O$を1つの頂点とし，
+$\angle P$を直角とする直角二等辺三角形$\triangle OPR$がある．
+頂点$R$が曲線$xy=1$ $(x>0)$を動くときの頂点$P$の軌跡を図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1996/1996_0_2.pdf)

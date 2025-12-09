@@ -1,0 +1,28 @@
+---
+title: "東京大学 1987年 1987_2"
+problem_id: "01_tokyo-1987-1987_2"
+university: "東京大学"
+exam_year: "1987"
+source_tex: "archive/01_tokyo/1987/1987_2.tex"
+pdf_source: "archive/01_tokyo/1987/1987_2.pdf"
+page_image: "archive/01_tokyo/1987/1987_2.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　点$(x,y)$を点$(x+a,y+b)$にうつす平行移動によって
+曲線$y=x^2$を移動して得られる曲線を$C$とする．
+$C$と曲線$\displaystyle y=\frac{1}{x}$，$x>0$が接するような$a$，$b$を座標とする
+点$(a,b)$の存在する範囲の概形を図示せよ．
+　また，この二曲線が接する点以外に共有点を持たないような$a$，$b$の値を求めよ．
+ただし，二曲線がある点で接するとは，その点で共通の接線を持つことである．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1987/1987_2.pdf)

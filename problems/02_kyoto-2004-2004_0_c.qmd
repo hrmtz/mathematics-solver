@@ -1,0 +1,27 @@
+---
+title: "京都大学 2004年 2004_0_c"
+problem_id: "02_kyoto-2004-2004_0_c"
+university: "京都大学"
+exam_year: "2004"
+source_tex: "archive/02_kyoto/2004/2004_0_c.tex"
+pdf_source: "archive/02_kyoto/2004/2004_0_c.pdf"
+page_image: "archive/02_kyoto/2004/2004_0_c.jpg"
+fields:
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数$f(x)$が次の2つの性質(1)，(2)を持つという．
+\begin{description}
+\item[(1)]任意の実数$x$，$y$に対して，$f(x+y)=f(x)f(y)$が成り立つ．
+\item[(2)]$f(3)=8$
+\end{description}
+このとき，$f(1)=2$であることを証明せよ．(ただし，$f(x)$は実数であるとする．)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_0_c.pdf)

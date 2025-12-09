@@ -1,0 +1,205 @@
+## 解答
+
+(1)  
+$x=\cos\theta+\sin\theta$ とおくと，  
+$\cos\theta+\sin\theta=x$ を平方して
+$$
+\cos^2\theta+\sin^2\theta+2\sin\theta\cos\theta=x^2
+$$
+より，$\cos^2\theta+\sin^2\theta=1$ から
+$$
+1+2\sin\theta\cos\theta=x^2
+$$
+となる。したがって
+$$
+\sin\theta\cos\theta=\frac{x^2-1}{2}
+$$
+である。
+
+求める $f(\theta)$ は
+$$
+f(\theta)=\frac{1}{2+\cos\theta}+\frac{1}{2+\sin\theta}
+=\frac{(2+\sin\theta)+(2+\cos\theta)}{(2+\cos\theta)(2+\sin\theta)}
+$$
+なので，分子は
+$$
+(2+\sin\theta)+(2+\cos\theta)=4+\sin\theta+\cos\theta=4+x
+$$
+である。一方，分母は
+$$
+(2+\cos\theta)(2+\sin\theta)
+=4+2(\cos\theta+\sin\theta)+\sin\theta\cos\theta
+=4+2x+\frac{x^2-1}{2}
+$$
+となる。これを整理すると
+$$
+4+2x+\frac{x^2-1}{2}
+=\frac{8+4x+x^2-1}{2}
+=\frac{x^2+4x+7}{2}
+$$
+なので
+$$
+f(\theta)=\frac{4+x}{\dfrac{x^2+4x+7}{2}}
+=\frac{2(4+x)}{x^2+4x+7}.
+$$
+
+よって
+$$
+f(\theta)=\frac{2(x+4)}{x^2+4x+7}
+\quad\text{ただし }x=\cos\theta+\sin\theta
+$$
+と表せる。
+
+---
+
+(2)  
+まず $x=\cos\theta+\sin\theta$ の取りうる値の範囲を求める。
+
+$\cos\theta+\sin\theta$ について，恒等式
+$$
+\cos^2\theta+\sin^2\theta=1
+$$
+を用いると
+$$
+(\cos\theta+\sin\theta)^2
+=\cos^2\theta+\sin^2\theta+2\sin\theta\cos\theta
+=1+2\sin\theta\cos\theta
+$$
+であるが，一般に $\cos\theta+\sin\theta$ はよく知られた変形
+$$
+\cos\theta+\sin\theta=\sqrt{2}\sin\left(\theta+\frac{\pi}{4}\right)
+$$
+より
+$$
+-\,\sqrt{2}\le\cos\theta+\sin\theta\le\sqrt{2}
+$$
+となる。したがって
+$$
+-\sqrt{2}\le x\le\sqrt{2}
+$$
+である。
+
+(1) で得た
+$$
+f(\theta)=\frac{2(x+4)}{x^2+4x+7}
+$$
+を $x$ の関数とみなし，$x\in[-\sqrt{2},\sqrt{2}]$ における最大・最小を求める。
+
+まず分母を平方完成すると
+$$
+x^2+4x+7=(x+2)^2+3>0
+$$
+が任意の実数 $x$ で成り立つので，分母は常に正である。よって $f(x)$ の増減は $f'(x)$ の符号で調べられる。
+
+$$
+f(x)=\frac{2(x+4)}{x^2+4x+7}
+$$
+とおくと，
+$$
+f'(x)=\frac{2(x^2+4x+7)-2(x+4)(2x+4)}{(x^2+4x+7)^2}
+$$
+となる（商の微分公式を用いた）。分子を計算すると
+$$
+2(x^2+4x+7)-2(x+4)(2x+4)
+=2x^2+8x+14-2(2x^2+12x+16)
+$$
+$$
+=2x^2+8x+14-4x^2-24x-32
+=-2x^2-16x-18
+=-2(x^2+8x+9)
+$$
+である。したがって
+$$
+f'(x)=-\,\frac{2(x^2+8x+9)}{(x^2+4x+7)^2}
+$$
+となる。
+
+ここで $x^2+8x+9$ を平方完成すると
+$$
+x^2+8x+9=(x+4)^2-7
+$$
+である。方程式 $x^2+8x+9=0$ の解は
+$$
+x=\frac{-8\pm\sqrt{64-36}}{2}
+=\frac{-8\pm\sqrt{28}}{2}
+=-4\pm\sqrt{7}
+$$
+であり，これらはいずれも $[-\sqrt{2},\sqrt{2}]$ の外側である
+（$-4-\sqrt{7}<-4<-2<-\sqrt{2}$，また $-4+\sqrt{7}<0$ かつ $|-4+\sqrt{7}|>\sqrt{2}$ となる）。  
+よって，区間 $[-\sqrt{2},\sqrt{2}]$ では $x^2+8x+9>0$ であり，また分母 $(x^2+4x+7)^2>0$ だから
+$$
+f'(x)<0
+$$
+が $x\in[-\sqrt{2},\sqrt{2}]$ の全域で成り立つ。したがって $f(x)$ はこの区間で単調減少である。
+
+よって
+$$
+x=-\sqrt{2} \text{ のとき } f(x)\text{ は最大},\quad
+x=\sqrt{2} \text{ のとき } f(x)\text{ は最小}
+$$
+となる。
+
+それぞれ代入して値を求める。
+
+まず $x=-\sqrt{2}$ のとき
+$$
+f_{\max}=f(-\sqrt{2})
+=\frac{2(-\sqrt{2}+4)}{(-\sqrt{2})^2+4(-\sqrt{2})+7}
+=\frac{2(4-\sqrt{2})}{2-4\sqrt{2}+7}
+=\frac{2(4-\sqrt{2})}{9-4\sqrt{2}}.
+$$
+分母を有理化するために $9+4\sqrt{2}$ をかけると
+$$
+f_{\max}
+=\frac{2(4-\sqrt{2})(9+4\sqrt{2})}{(9-4\sqrt{2})(9+4\sqrt{2})}
+=\frac{2(4-\sqrt{2})(9+4\sqrt{2})}{81-32}
+=\frac{2(4-\sqrt{2})(9+4\sqrt{2})}{49}.
+$$
+分子を展開して
+$$
+(4-\sqrt{2})(9+4\sqrt{2})
+=36+16\sqrt{2}-9\sqrt{2}-8
+=28+7\sqrt{2}
+=7(4+\sqrt{2})
+$$
+となるので
+$$
+f_{\max}
+=\frac{2\cdot7(4+\sqrt{2})}{49}
+=\frac{2(4+\sqrt{2})}{7}.
+$$
+
+次に $x=\sqrt{2}$ のとき
+$$
+f_{\min}=f(\sqrt{2})
+=\frac{2(\sqrt{2}+4)}{(\sqrt{2})^2+4\sqrt{2}+7}
+=\frac{2(\sqrt{2}+4)}{2+4\sqrt{2}+7}
+=\frac{2(\sqrt{2}+4)}{9+4\sqrt{2}}.
+$$
+同様に分母を有理化して
+$$
+f_{\min}
+=\frac{2(\sqrt{2}+4)(9-4\sqrt{2})}{(9+4\sqrt{2})(9-4\sqrt{2})}
+=\frac{2(\sqrt{2}+4)(9-4\sqrt{2})}{81-32}
+=\frac{2(\sqrt{2}+4)(9-4\sqrt{2})}{49}.
+$$
+分子を展開すると
+$$
+(\sqrt{2}+4)(9-4\sqrt{2})
+=9\sqrt{2}-8+36-16\sqrt{2}
+=28-7\sqrt{2}
+=7(4-\sqrt{2})
+$$
+なので
+$$
+f_{\min}
+=\frac{2\cdot7(4-\sqrt{2})}{49}
+=\frac{2(4-\sqrt{2})}{7}.
+$$
+
+以上より，
+$$
+\boxed{f(\theta)\text{ の最大値 }=\frac{2(4+\sqrt{2})}{7},\quad
+\text{最小値 }=\frac{2(4-\sqrt{2})}{7}}
+$$
+である。

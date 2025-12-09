@@ -1,0 +1,27 @@
+---
+title: "九州大学 2018年 2018_3"
+problem_id: "07_kyushu-2018-2018_3"
+university: "九州大学"
+exam_year: "2018"
+source_tex: "archive/07_kyushu/2018/2018_3.tex"
+pdf_source: "archive/07_kyushu/2018/2018_3.pdf"
+page_image: "archive/07_kyushu/2018/2018_3.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　1から4までの数字を1つずつ書いた4枚のカードが箱に入っている。
+箱の中から1枚カードを取り出してもとに戻す試行を$n$回続けて行う。
+$k$回目に取り出したカードの数字を$X_k$とし，
+積$X_1X_2\cdots X_n$を4で割った余りが0，1，2，3である確率をそれぞれ
+$p_n$，$q_n$，$r_n$，$s_n$とする。
+$p_n$，$q_n$，$r_n$，$s_n$を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2018/2018_3.pdf)

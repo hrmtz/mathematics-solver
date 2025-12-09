@@ -1,0 +1,25 @@
+---
+title: "東北大学 1967年 1967_1"
+problem_id: "04_tohoku-1967-1967_1"
+university: "東北大学"
+exam_year: "1967"
+source_tex: "archive/04_tohoku/1967/1967_1.tex"
+pdf_source: "archive/04_tohoku/1967/1967_1.pdf"
+page_image: "archive/04_tohoku/1967/1967_1.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$X$，$Y$，$Z$ 3人が協力すれば$a$時間でできる仕事がある．
+この仕事を単独でする場合，$X$の所要時間は$Y$の所要時間の$p$倍より$b$時間少なく，$Z$の所要時間の$q$倍より$b$時間少ない．
+$X$の所要時間を求めよ．
+ただし，$a$，$b$，$p$，$q$は正の数とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1967/1967_1.pdf)

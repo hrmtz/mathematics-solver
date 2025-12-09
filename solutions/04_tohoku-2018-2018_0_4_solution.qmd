@@ -1,0 +1,224 @@
+## 解答
+
+(1)  
+与えられた条件
+$$
+\overrightarrow{GA}+\overrightarrow{GB}+(t-2)\overrightarrow{GC}+t\overrightarrow{GD}
+=\overrightarrow{0}
+$$
+を，すべて点 $D$ を始点とするベクトルで表す。  
+各ベクトルは
+$$
+\overrightarrow{GA}=\overrightarrow{DA}-\overrightarrow{DG},\quad
+\overrightarrow{GB}=\overrightarrow{DB}-\overrightarrow{DG},\quad
+\overrightarrow{GC}=\overrightarrow{DC}-\overrightarrow{DG},\quad
+\overrightarrow{GD}=\overrightarrow{0}
+$$
+であるから，代入して整理すると
+$$
+(\overrightarrow{DA}-\overrightarrow{DG})
++(\overrightarrow{DB}-\overrightarrow{DG})
++(t-2)(\overrightarrow{DC}-\overrightarrow{DG})
++t\overrightarrow{0}
+=\overrightarrow{0}
+$$
+すなわち
+$$
+\overrightarrow{DA}+\overrightarrow{DB}+(t-2)\overrightarrow{DC}
+-\{2+(t-2)\}\overrightarrow{DG}
+=\overrightarrow{0}
+$$
+となる。ここで $2+(t-2)=t$ なので
+$$
+\overrightarrow{DA}+\overrightarrow{DB}+(t-2)\overrightarrow{DC}
+-t\,\overrightarrow{DG}
+=\overrightarrow{0}
+$$
+より
+$$
+t\,\overrightarrow{DG}
+=\overrightarrow{DA}+\overrightarrow{DB}+(t-2)\overrightarrow{DC}
+$$
+と変形できる。よって
+$$
+\boxed{
+\overrightarrow{DG}
+=\frac{1}{t}\overrightarrow{DA}
++\frac{1}{t}\overrightarrow{DB}
++\frac{t-2}{t}\overrightarrow{DC}
+}
+$$
+となる。
+
+(2)  
+$N$ は辺 $CD$ の中点なので，
+$$
+\overrightarrow{DN}
+=\frac{1}{2}\overrightarrow{DC}
+$$
+である。一方 (1) より
+$$
+\overrightarrow{DG}
+=\frac{1}{t}\overrightarrow{DA}
++\frac{1}{t}\overrightarrow{DB}
++\frac{t-2}{t}\overrightarrow{DC}
+$$
+である。
+
+もし点 $G$ が点 $N$ と一致すると仮定すると，$\overrightarrow{DG}=\overrightarrow{DN}$ だから
+$$
+\frac{1}{t}\overrightarrow{DA}
++\frac{1}{t}\overrightarrow{DB}
++\frac{t-2}{t}\overrightarrow{DC}
+=\frac{1}{2}\overrightarrow{DC}
+$$
+が成り立つ。これを変形すると
+$$
+\frac{1}{t}(\overrightarrow{DA}+\overrightarrow{DB})
++\left(\frac{t-2}{t}-\frac{1}{2}\right)\overrightarrow{DC}
+=\overrightarrow{0}
+$$
+すなわち
+$$
+\frac{1}{t}(\overrightarrow{DA}+\overrightarrow{DB})
++\frac{t-4}{2t}\,\overrightarrow{DC}
+=\overrightarrow{0}
+$$
+である。$A,B,C,D$ は同一直線上にないので，  
+$\overrightarrow{DA},\overrightarrow{DB},\overrightarrow{DC}$ は同一直線上になく，  
+特に $\overrightarrow{DA}+\overrightarrow{DB}$ と $\overrightarrow{DC}$ は一般に一次独立とみなせるため，
+上式が成り立つには
+$$
+\frac{1}{t}=0
+$$
+が必要になってしまう。これは $t\neq 0$ に矛盾する。
+
+したがって，点 $G$ は点 $N$ と一致しない。
+
+(3)  
+まず，$M$ は辺 $AB$ の中点なので
+$$
+\overrightarrow{DM}
+=\overrightarrow{DA}+\overrightarrow{AM}
+=\overrightarrow{DA}+\frac{1}{2}\overrightarrow{AB}
+=\overrightarrow{DA}+\frac{1}{2}(\overrightarrow{DB}-\overrightarrow{DA})
+=\frac{1}{2}\overrightarrow{DA}+\frac{1}{2}\overrightarrow{DB}
+$$
+である。また
+$$
+\overrightarrow{MC}
+=\overrightarrow{DC}-\overrightarrow{DM}
+=\overrightarrow{DC}-\frac{1}{2}\overrightarrow{DA}-\frac{1}{2}\overrightarrow{DB}
+$$
+となる。
+
+一方，(1) の式
+$$
+\overrightarrow{DG}
+=\frac{1}{t}\overrightarrow{DA}
++\frac{1}{t}\overrightarrow{DB}
++\frac{t-2}{t}\overrightarrow{DC}
+$$
+と $\overrightarrow{DN}=\dfrac12\overrightarrow{DC}$ を用いて
+$$
+\overrightarrow{NG}
+=\overrightarrow{DG}-\overrightarrow{DN}
+=\frac{1}{t}\overrightarrow{DA}
++\frac{1}{t}\overrightarrow{DB}
++\left(\frac{t-2}{t}-\frac{1}{2}\right)\overrightarrow{DC}
+$$
+$$
+=\frac{1}{t}(\overrightarrow{DA}+\overrightarrow{DB})
++\frac{t-4}{2t}\overrightarrow{DC}
+$$
+を得る。
+
+ここで $\overrightarrow{MC}$ を用いて $\overrightarrow{NG}$ を表す。  
+さきに
+$$
+\overrightarrow{MC}
+=\overrightarrow{DC}-\frac{1}{2}\overrightarrow{DA}-\frac{1}{2}\overrightarrow{DB}
+$$
+より
+$$
+-\overrightarrow{MC}
+=\frac{1}{2}(\overrightarrow{DA}+\overrightarrow{DB})-\overrightarrow{DC}
+$$
+だから
+$$
+\overrightarrow{DA}+\overrightarrow{DB}
+=-2\overrightarrow{MC}+2\overrightarrow{DC}
+$$
+と書ける。これを $\overrightarrow{NG}$ に代入すると
+$$
+\overrightarrow{NG}
+=\frac{1}{t}\{-2\overrightarrow{MC}+2\overrightarrow{DC}\}
++\frac{t-4}{2t}\overrightarrow{DC}
+$$
+$$
+=-\frac{2}{t}\overrightarrow{MC}
++\left(\frac{2}{t}+\frac{t-4}{2t}\right)\overrightarrow{DC}
+$$
+となるが，かっこ内は
+$$
+\frac{2}{t}+\frac{t-4}{2t}
+=\frac{4+t-4}{2t}
+=\frac{t}{2t}
+=\frac{1}{2}
+$$
+なので
+$$
+\overrightarrow{NG}
+=-\frac{2}{t}\overrightarrow{MC}
++\frac{1}{2}\overrightarrow{DC}
+$$
+となる。
+
+ここで，$\overrightarrow{DC}$ は点 $M$ を通らない方向ベクトルであり，  
+直線 $MC$ の方向は $\overrightarrow{MC}$ で表される。  
+上式から，$\overrightarrow{NG}$ は $\overrightarrow{MC}$ と $\overrightarrow{DC}$ の和として表されているが，  
+とくに $\overrightarrow{NG}$ のうち $\overrightarrow{MC}$ の成分は $-\dfrac{2}{t}\overrightarrow{MC}$ であり，  
+これは $\overrightarrow{MC}$ と同一直線上のベクトルである。
+
+より直接的には，$\overrightarrow{NG}$ と $\overrightarrow{MC}$ の関係式から  
+$\overrightarrow{NG}+\dfrac{2}{t}\overrightarrow{MC}=\dfrac{1}{2}\overrightarrow{DC}$ と書けるので，  
+$\overrightarrow{NG}$ と $\overrightarrow{MC}$ は一次従属である（両者を含む平面内で，  
+片方に他方と $\overrightarrow{DC}$ を加えて表されているため，  
+$\overrightarrow{DC}$ を固定するとき，$\overrightarrow{NG}$ と $\overrightarrow{MC}$ は比例する）  
+と考えてもよいが，より分かりやすく次のように見る。
+
+点 $C$ を始点としたベクトルで考えると
+$$
+\overrightarrow{CM}
+=-\overrightarrow{MC}
+$$
+であり，したがって
+$$
+\overrightarrow{NG}
+=-\frac{2}{t}\overrightarrow{MC}+\frac{1}{2}\overrightarrow{DC}
+=\frac{2}{t}\overrightarrow{CM}+\frac{1}{2}\overrightarrow{DC}
+$$
+である。ここで $C$ を通る直線 $NG$ の方向ベクトルは
+$$
+\overrightarrow{CG}
+=\overrightarrow{CN}+\overrightarrow{NG}
+$$
+であり，$\overrightarrow{CN}=-\dfrac12\overrightarrow{DC}$ だから
+$$
+\overrightarrow{CG}
+=-\frac{1}{2}\overrightarrow{DC}
++\left(\frac{2}{t}\overrightarrow{CM}+\frac{1}{2}\overrightarrow{DC}\right)
+=\frac{2}{t}\overrightarrow{CM}
+$$
+となる。よって
+$$
+\overrightarrow{CG}
+=\frac{2}{t}\overrightarrow{CM}
+$$
+すなわち $\overrightarrow{CG}$ は $\overrightarrow{CM}$ に比例している。  
+ゆえに，$C$ を通る直線 $CG$ は $CM$ と同一直線上であり，  
+直線 $NG$ の方向も直線 $CM$ の方向と一致するので，
+$$
+\text{直線 }NG\parallel \text{直線 }MC
+$$
+が示された。

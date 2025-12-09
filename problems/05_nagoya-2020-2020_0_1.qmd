@@ -1,0 +1,31 @@
+---
+title: "名古屋大学 2020年 2020_0_1"
+problem_id: "05_nagoya-2020-2020_0_1"
+university: "名古屋大学"
+exam_year: "2020"
+source_tex: "archive/05_nagoya/2020/2020_0_1.tex"
+pdf_source: "archive/05_nagoya/2020/2020_0_1.pdf"
+page_image: "archive/05_nagoya/2020/2020_0_1.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$を実数として$f(x)=2x^2-2ax-a^2$とおく。以下の問に答えよ。
+\begin{description}
+\item[(1)]方程式$f(x)=0$の解$t$が，必ず$-1 \leqq t \leqq 1$をみたすための$a$の条件を求めよ。
+\item[(2)](1)で求めた条件をみたす$a$に対して
+\[ S(a)=\int_{-1}^1|f(x)|dx \]
+とおく。$S(a)$の値を求めよ。
+\item[(3)]$S(a)$の値が最小となる$a$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2020/2020_0_1.pdf)

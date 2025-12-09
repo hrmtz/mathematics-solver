@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 2003年 2003_b"
+problem_id: "08_titech-2003-2003_b"
+university: "東京科学大学"
+exam_year: "2003"
+source_tex: "archive/08_titech/2003/2003_b.tex"
+pdf_source: "archive/08_titech/2003/2003_b.pdf"
+page_image: "archive/08_titech/2003/2003_b.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$m$を0以上の整数とする．
+直線$2x+3y=m$上の点$(x,y)$で，$x$，$y$がともに0以上の整数であるものの個数を$N(m)$とする．
+\begin{description}
+\item[(1)]$N(m+6)=N(m)+1$を証明せよ．
+\item[(2)]$\displaystyle N(m)=1-m+ \left[ \frac{m}{2} \right] + \left[ \frac{2m}{3} \right] $を証明せよ．
+ただし，$[a]$は$a$以下の最大の整数を表すものとする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2003/2003_b.pdf)

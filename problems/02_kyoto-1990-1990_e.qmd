@@ -1,0 +1,29 @@
+---
+title: "京都大学 1990年 1990_e"
+problem_id: "02_kyoto-1990-1990_e"
+university: "京都大学"
+exam_year: "1990"
+source_tex: "archive/02_kyoto/1990/1990_e.tex"
+pdf_source: "archive/02_kyoto/1990/1990_e.pdf"
+page_image: "archive/02_kyoto/1990/1990_e.jpg"
+fields:
+  - 平面図形
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　平面上に2つの円$C$，$C'$がある．1次変換$f$は逆変換をもち，かつ$C$を$C'$にうつしている．
+\begin{description}
+\item[(1)]$l$を$C$上の1点$P$における接線とする．
+このとき$l$の$f$による像$l'$は点$f(P)$における$C'$の接線である．
+この理由を述べよ．
+\item[(2)]$A$を$C$の中心とすれば，$f(A)$は$C'$の中心となる．この理由を述べよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1990/1990_e.pdf)

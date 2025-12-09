@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1976年 1976_6"
+problem_id: "03_hokudai-1976-1976_6"
+university: "北海道大学"
+exam_year: "1976"
+source_tex: "archive/03_hokudai/1976/1976_6.tex"
+pdf_source: "archive/03_hokudai/1976/1976_6.pdf"
+page_image: "archive/03_hokudai/1976/1976_6.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$a$，$b$，$c$を実数とし，$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$とする．
+\begin{description}
+\item[(1)]$A^2=A$であるとき，$a$，$c$を用いないで$A$を表せ．
+\item[(2)]$E$を単位行列とする．
+$A^2=A$であるとき，$A-tE$が逆行列をもたないような$t$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1976/1976_6.pdf)

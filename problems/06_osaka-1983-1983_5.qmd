@@ -1,0 +1,32 @@
+---
+title: "大阪大学 1983年 1983_5"
+problem_id: "06_osaka-1983-1983_5"
+university: "大阪大学"
+exam_year: "1983"
+source_tex: "archive/06_osaka/1983/1983_5.tex"
+pdf_source: "archive/06_osaka/1983/1983_5.pdf"
+page_image: "archive/06_osaka/1983/1983_5.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　つぼの中に1から4までの番号を書いた球が1個ずつ合計4個入っている．
+つぼから無作為に1個を取り出してその番号を記録し，
+つぼに戻す試行を考える．
+\begin{description}
+\item[(1)]この試行をくり返し$n$回行う．
+こうして得られる$n$個の数字のうち$k$個が同じ値で，
+残りの$(n-k)$個はそれよりも小さい値である事象を$A_k$とする$(1 \leqq k \leqq n)$．
+$A_k$の確率$P(A_k)$を求めよ．
+\item[(2)](1)のおける個数$k$の平均$\displaystyle\sum_{k=1}^nkP(A_k)$を$E_n$とおく．
+$\displaystyle\lim_{n\to\infty}\frac{E_n}{n}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1983/1983_5.pdf)

@@ -1,0 +1,30 @@
+---
+title: "北海道大学 2011年 2011_5"
+problem_id: "03_hokudai-2011-2011_5"
+university: "北海道大学"
+exam_year: "2011"
+source_tex: "archive/03_hokudai/2011/2011_5.tex"
+pdf_source: "archive/03_hokudai/2011/2011_5.pdf"
+page_image: "archive/03_hokudai/2011/2011_5.jpg"
+fields:
+  - 積分法
+  - 微分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$0 < a < 2\pi$とする．$0 < x < 2\pi$に対して
+$\displaystyle F(x)=\int_x^{x+a}\sqrt{1-\cos\theta}d\theta$と定める．
+\begin{description}
+\item[(1)]$F'(x)$を求めよ．
+\item[(2)]$F'(x) \leqq 0$となる$x$の範囲を求めよ．
+\item[(3)]$F(x)$の極大値および極小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2011/2011_5.pdf)

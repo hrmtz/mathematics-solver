@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2019年 2019_0_2"
+problem_id: "03_hokudai-2019-2019_0_2"
+university: "北海道大学"
+exam_year: "2019"
+source_tex: "archive/03_hokudai/2019/2019_0_2.tex"
+pdf_source: "archive/03_hokudai/2019/2019_0_2.pdf"
+page_image: "archive/03_hokudai/2019/2019_0_2.jpg"
+fields:
+  - ベクトル
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$x$を正の実数とし，座標平面上に3点$A(x, \, 0)$，$B(-2, \, 2)$，$C(-3, \, 3)$をとる。
+直線ABと直線ACのなす角を$\theta$とする。
+ただし，$\displaystyle 0<\theta<\frac{\pi}{2}$とする。
+\begin{description}
+\item[(1)]$\tan\theta$を$x$で表せ。
+\item[(2)]$x>0$における$\tan\theta$の最大値およびそのときの$x$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2019/2019_0_2.pdf)

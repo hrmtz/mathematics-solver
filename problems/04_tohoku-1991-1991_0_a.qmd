@@ -1,0 +1,36 @@
+---
+title: "東北大学 1991年 1991_0_a"
+problem_id: "04_tohoku-1991-1991_0_a"
+university: "東北大学"
+exam_year: "1991"
+source_tex: "archive/04_tohoku/1991/1991_0_a.tex"
+pdf_source: "archive/04_tohoku/1991/1991_0_a.pdf"
+page_image: "archive/04_tohoku/1991/1991_0_a.jpg"
+fields:
+  - 行列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$x$に対し，行列$A(x)$を
+$A(x)=\begin{pmatrix} x-1 & 1 
+
+ -1 & x+1 \end{pmatrix}$と定義する．
+\begin{description}
+\item[(1)]
+\[ A(x)A(y)=A(xy)+(x+y-1)A(0) \]
+を証明せよ．
+\item[(2)]$n$が2以上の整数のとき
+\[ {A(x)}^n=A(x^n)+(nx^{n-1}-1)A(0) \]
+が成り立つことを証明せよ．ただし
+\[ {A(x)}^1=A(x), \hspace{1zw} {A(x)}^n=A(x){A(x)}^{n-1} \hspace{1zw} (n\geqq2) \]
+とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_0_a.pdf)

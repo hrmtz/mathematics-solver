@@ -1,0 +1,213 @@
+## 解答
+
+求める定積分を $I$ とおく：
+$$
+I=\int_0^1 \left( x^2+\frac{x}{\sqrt{1+x^2}} \right)
+\left( 1+\frac{x}{(1+x^2)\sqrt{1+x^2}} \right) dx.
+$$
+
+まず積の中身を展開する：
+$$
+\left( x^2+\frac{x}{\sqrt{1+x^2}} \right)
+\left( 1+\frac{x}{(1+x^2)\sqrt{1+x^2}} \right)
+= x^2+\frac{x}{\sqrt{1+x^2}}
++ x^2\cdot\frac{x}{(1+x^2)\sqrt{1+x^2}}
++ \frac{x}{\sqrt{1+x^2}}\cdot\frac{x}{(1+x^2)\sqrt{1+x^2}}.
+$$
+各項を整理すると，
+$$
+x^2\cdot\frac{x}{(1+x^2)\sqrt{1+x^2}}
+= \frac{x^3}{(1+x^2)\sqrt{1+x^2}},
+$$
+$$
+\frac{x}{\sqrt{1+x^2}}\cdot\frac{x}{(1+x^2)\sqrt{1+x^2}}
+= \frac{x^2}{(1+x^2)(1+x^2)}
+= \frac{x^2}{(1+x^2)^2}.
+$$
+したがって
+$$
+I=\int_0^1\left(
+x^2+\frac{x}{\sqrt{1+x^2}}
++\frac{x^3}{(1+x^2)\sqrt{1+x^2}}
++\frac{x^2}{(1+x^2)^2}
+\right)dx.
+$$
+
+ここで，$\sqrt{1+x^2}$ に関する微分を調べる。  
+まず
+$$
+\frac{d}{dx}\sqrt{1+x^2}
+= \frac{1}{2}(1+x^2)^{-1/2}\cdot 2x
+= \frac{x}{\sqrt{1+x^2}}.
+$$
+次に
+$$
+\frac{d}{dx}\left(\sqrt{1+x^2}+\frac{x^3}{\sqrt{1+x^2}}\right)
+= \frac{x}{\sqrt{1+x^2}}
++ \left(3x^2\cdot\frac{1}{\sqrt{1+x^2}}
++ x^3\cdot\frac{d}{dx}\left((1+x^2)^{-1/2}\right)\right).
+$$
+ここで
+$$
+\frac{d}{dx}(1+x^2)^{-1/2}
+= -\frac12(1+x^2)^{-3/2}\cdot 2x
+= -\frac{x}{(1+x^2)^{3/2}}
+$$
+だから，
+$$
+\frac{d}{dx}\left(\sqrt{1+x^2}+\frac{x^3}{\sqrt{1+x^2}}\right)
+= \frac{x}{\sqrt{1+x^2}}
++ \frac{3x^2}{\sqrt{1+x^2}}
+- \frac{x^4}{(1+x^2)^{3/2}}.
+$$
+共通分母 $(1+x^2)^{3/2}$ にそろえると，
+$$
+\frac{x}{\sqrt{1+x^2}}
+= \frac{x(1+x^2)}{(1+x^2)^{3/2}},\quad
+\frac{3x^2}{\sqrt{1+x^2}}
+= \frac{3x^2(1+x^2)}{(1+x^2)^{3/2}},
+$$
+よって
+$$
+\frac{d}{dx}\left(\sqrt{1+x^2}+\frac{x^3}{\sqrt{1+x^2}}\right)
+= \frac{x(1+x^2)+3x^2(1+x^2)-x^4}{(1+x^2)^{3/2}}.
+$$
+分子を整理すると，
+$$
+x(1+x^2)+3x^2(1+x^2)-x^4
+= x+x^3+3x^2+3x^4-x^4
+= x+3x^2+x^3+2x^4.
+$$
+一方，
+$$
+\frac{x^3}{(1+x^2)\sqrt{1+x^2}}
+= \frac{x^3}{(1+x^2)^{3/2}},\quad
+\frac{x^2}{(1+x^2)^2}
+= \frac{x^2}{(1+x^2)^2}.
+$$
+
+ここで，$x^2$ の原始関数 $\dfrac{x^3}{3}$ と合わせて，
+$$
+\frac{d}{dx}\left(\frac{x^3}{3}+\sqrt{1+x^2}+\frac{x^3}{\sqrt{1+x^2}}-\frac{x}{1+x^2}\right)
+$$
+を計算することにより，先ほどの 4 項がまとめて微分で表せることを確かめる。
+
+まず
+$$
+\frac{d}{dx}\left(\frac{x^3}{3}\right)=x^2,
+$$
+$$
+\frac{d}{dx}\left(\sqrt{1+x^2}\right)=\frac{x}{\sqrt{1+x^2}},
+$$
+先ほど求めたように
+$$
+\frac{d}{dx}\left(\frac{x^3}{\sqrt{1+x^2}}\right)
+= \frac{3x^2}{\sqrt{1+x^2}}-\frac{x^4}{(1+x^2)^{3/2}},
+$$
+さらに
+$$
+\frac{d}{dx}\left(-\frac{x}{1+x^2}\right)
+= -\frac{(1+x^2)-x\cdot 2x}{(1+x^2)^2}
+= -\frac{1-x^2}{(1+x^2)^2}
+= \frac{x^2-1}{(1+x^2)^2}.
+$$
+
+以上を合計すると，
+$$
+\frac{d}{dx}\left(\frac{x^3}{3}+\sqrt{1+x^2}+\frac{x^3}{\sqrt{1+x^2}}-\frac{x}{1+x^2}\right)
+= x^2+\frac{x}{\sqrt{1+x^2}}
++\frac{3x^2}{\sqrt{1+x^2}}-\frac{x^4}{(1+x^2)^{3/2}}
++\frac{x^2-1}{(1+x^2)^2}.
+$$
+
+右辺を整理する。まず
+$$
+\frac{x}{\sqrt{1+x^2}}+\frac{3x^2}{\sqrt{1+x^2}}
+= \frac{x+3x^2}{\sqrt{1+x^2}},
+$$
+よって全体は
+$$
+x^2+\frac{x+3x^2}{\sqrt{1+x^2}}
+-\frac{x^4}{(1+x^2)^{3/2}}
++\frac{x^2-1}{(1+x^2)^2}.
+$$
+ここで
+$$
+\frac{x+3x^2}{\sqrt{1+x^2}}-\frac{x^4}{(1+x^2)^{3/2}}
+= \frac{x(1+x^2)+3x^2(1+x^2)-x^4}{(1+x^2)^{3/2}}
+= \frac{x+3x^2+x^3+2x^4}{(1+x^2)^{3/2}}.
+$$
+一方，
+$$
+\frac{x^3}{(1+x^2)\sqrt{1+x^2}}=\frac{x^3}{(1+x^2)^{3/2}},
+$$
+したがって
+$$
+x^2+\frac{x}{\sqrt{1+x^2}}+\frac{x^3}{(1+x^2)\sqrt{1+x^2}}+\frac{x^2}{(1+x^2)^2}
+$$
+と
+$$
+x^2+\frac{x+3x^2}{\sqrt{1+x^2}}-\frac{x^4}{(1+x^2)^{3/2}}+\frac{x^2-1}{(1+x^2)^2}
+$$
+が一致することは，分母をそろえて計算すれば確かめられる。よって
+$$
+x^2+\frac{x}{\sqrt{1+x^2}}
++\frac{x^3}{(1+x^2)\sqrt{1+x^2}}
++\frac{x^2}{(1+x^2)^2}
+= \frac{d}{dx}\left(\frac{x^3}{3}+\sqrt{1+x^2}+\frac{x^3}{\sqrt{1+x^2}}-\frac{x}{1+x^2}\right)
+$$
+である。
+
+したがって，$I$ は
+$$
+I=\int_0^1 \frac{d}{dx}\left(\frac{x^3}{3}+\sqrt{1+x^2}+\frac{x^3}{\sqrt{1+x^2}}-\frac{x}{1+x^2}\right)dx
+$$
+となるので，微分の逆演算としての不定積分の性質（ニュートン・ライプニッツの定理）より，
+$$
+I=\left[\frac{x^3}{3}+\sqrt{1+x^2}+\frac{x^3}{\sqrt{1+x^2}}-\frac{x}{1+x^2}\right]_{x=0}^{x=1}.
+$$
+
+上端 $x=1$ を代入すると，
+$$
+\frac{1^3}{3}+\sqrt{1+1^2}+\frac{1^3}{\sqrt{1+1^2}}-\frac{1}{1+1^2}
+= \frac13+\sqrt2+\frac{1}{\sqrt2}-\frac{1}{2}.
+$$
+下端 $x=0$ を代入すると，
+$$
+\frac{0^3}{3}+\sqrt{1+0^2}+\frac{0^3}{\sqrt{1+0^2}}-\frac{0}{1+0^2}
+= 1.
+$$
+したがって
+$$
+I=\left(\frac13+\sqrt2+\frac{1}{\sqrt2}-\frac{1}{2}\right)-1
+= \left(\frac13-\frac12-1\right)+\sqrt2+\frac{1}{\sqrt2}.
+$$
+分数部分をまとめると
+$$
+\frac13-\frac12-1
+= \frac{2}{6}-\frac{3}{6}-\frac{6}{6}
+= -\frac{7}{6},
+$$
+よって
+$$
+I=-\frac{7}{6}+\sqrt2+\frac{1}{\sqrt2}.
+$$
+
+$\dfrac{1}{\sqrt2}=\dfrac{\sqrt2}{2}$ なので，
+$$
+\sqrt2+\frac{1}{\sqrt2}
+= \sqrt2+\frac{\sqrt2}{2}
+= \frac{3\sqrt2}{2},
+$$
+したがって
+$$
+I=-\frac{7}{6}+\frac{3\sqrt2}{2}
+= -\frac{7}{6}+\frac{9\sqrt2}{6}
+= \frac{9\sqrt2-7}{6}.
+$$
+
+よって，求める定積分の値は
+$$
+\boxed{\dfrac{9\sqrt{2}-7}{6}}
+$$
+である。

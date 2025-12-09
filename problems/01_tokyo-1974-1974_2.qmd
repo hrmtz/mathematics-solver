@@ -1,0 +1,25 @@
+---
+title: "東京大学 1974年 1974_2"
+problem_id: "01_tokyo-1974-1974_2"
+university: "東京大学"
+exam_year: "1974"
+source_tex: "archive/01_tokyo/1974/1974_2.tex"
+pdf_source: "archive/01_tokyo/1974/1974_2.pdf"
+page_image: "archive/01_tokyo/1974/1974_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　長さ$l$の線分が，その両端を放物線$y=x^2$の上にのせて動く．
+この線分の中点$M$が$x$軸にもっとも近い場合の$M$の座標を求めよ．
+ただし$l \geqq 1$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1974/1974_2.pdf)

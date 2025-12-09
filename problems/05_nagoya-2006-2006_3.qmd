@@ -1,0 +1,33 @@
+---
+title: "名古屋大学 2006年 2006_3"
+problem_id: "05_nagoya-2006-2006_3"
+university: "名古屋大学"
+exam_year: "2006"
+source_tex: "archive/05_nagoya/2006/2006_3.tex"
+pdf_source: "archive/05_nagoya/2006/2006_3.pdf"
+page_image: "archive/05_nagoya/2006/2006_3.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　座標平面上に3点$O(0, \, 0)$，$A(4, \, 2)$，$B(6, \, 0)$を考える．
+平面上の直線$l$に関して点$A$と対称な点が線分$OB$上にあるとき，
+直線$l$をピッタリ直線と呼ぶことにする．
+\begin{description}
+\item[(1)]点$P(p ,\, q)$を通るピッタリ直線$l$があるとし，
+$l$に関して$A$と対象な点を$A'(t, \, 0)$ $(0 \leqq t \leqq 6)$とするとき，
+$p$，$q$，$t$の間に成り立つ関係式を求めよ．
+\item[(2)]ピッタリ直線が2本通る点$P(p, \, q)$の存在範囲を求め，それを図示せよ．
+図には三角形$OAB$も書いておくこと．
+\item[(3)]点$P(p, \, q)$を通る2本のピッタリ直線が直交するような点$P(p, \, q)$の存在範囲を求め，それを図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2006/2006_3.pdf)

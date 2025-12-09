@@ -1,0 +1,29 @@
+---
+title: "東京大学 1993年 1993_7"
+problem_id: "01_tokyo-1993-1993_7"
+university: "東京大学"
+exam_year: "1993"
+source_tex: "archive/01_tokyo/1993/1993_7.tex"
+pdf_source: "archive/01_tokyo/1993/1993_7.pdf"
+page_image: "archive/01_tokyo/1993/1993_7.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$n$を3以上の自然数とする．
+$xy$平面上，原点を中心とし，
+点$(1,0)$をひとつの頂点にもつ正$n$角形を$P$とする．
+\begin{description}
+\item[(1)]$P$の像が$P$に完全に重なるような1次変換を表す行列をすべて求めよ．
+\item[(2)](1)で求めた行列すべての和を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1993/1993_7.pdf)

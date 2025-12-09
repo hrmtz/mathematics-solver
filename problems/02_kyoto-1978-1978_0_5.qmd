@@ -1,0 +1,35 @@
+---
+title: "京都大学 1978年 1978_0_5"
+problem_id: "02_kyoto-1978-1978_0_5"
+university: "京都大学"
+exam_year: "1978"
+source_tex: "archive/02_kyoto/1978/1978_0_5.tex"
+pdf_source: "archive/02_kyoto/1978/1978_0_5.pdf"
+page_image: "archive/02_kyoto/1978/1978_0_5.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$f(x)$は実数を係数とする$x$の多項式とする．
+\begin{description}
+\item[(i)]すべての整数$k$について，
+$f(k)$が整数であるための必要十分条件は，
+$f(0)$が整数であって，
+すべての整数$k$について，
+$f(k)-f(k-1)$が整数となることである．
+これを証明せよ．
+\item[(ii)]$f(x)=ax^2+bx+c$のとき，
+すべての整数$k$について，
+$f(k)$が整数となるために，
+係数$a$，$b$，$c$がみたすべき必要十分条件を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1978/1978_0_5.pdf)

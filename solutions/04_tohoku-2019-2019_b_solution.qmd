@@ -1,0 +1,187 @@
+## 解答
+
+(1)  
+左辺を展開して示す。
+
+まず，$\cos(kx)\sin\frac{x}{2}$ を積和の公式
+$$
+\sin A\cos B=\frac{1}{2}\{\sin(A+B)+\sin(A-B)\}
+$$
+により変形する。$A=\dfrac{x}{2}$，$B=kx$ とおくと，
+$$
+\cos(kx)\sin\frac{x}{2}
+=\frac{1}{2}\left\{\sin\left(\left(k+\frac{1}{2}\right)x\right)+\sin\left(\left(\frac{1}{2}-k\right)x\right)\right\}
+$$
+であるから，
+$$
+2\cos(kx)\sin\frac{x}{2}
+=\sin\left(\left(k+\frac{1}{2}\right)x\right)+\sin\left(\left(\frac{1}{2}-k\right)x\right)
+$$
+となる。したがって
+$$
+\begin{aligned}
+&\left\{1+2\sum_{k=1}^n\cos(kx)\right\}\sin\frac{x}{2}\\
+&=\sin\frac{x}{2}+2\sum_{k=1}^n\cos(kx)\sin\frac{x}{2}\\
+&=\sin\frac{x}{2}
++\sum_{k=1}^n\left\{\sin\left(\left(k+\frac{1}{2}\right)x\right)+\sin\left(\left(\frac{1}{2}-k\right)x\right)\right\}.
+\end{aligned}
+$$
+
+ここで，$\sin\frac{x}{2}$ を $\sin\left(\left(0+\frac{1}{2}\right)x\right)$ と書き，添字をそろえると，
+$$
+\begin{aligned}
+&\left\{1+2\sum_{k=1}^n\cos(kx)\right\}\sin\frac{x}{2}\\
+&=\sum_{k=0}^n\sin\left(\left(k+\frac{1}{2}\right)x\right)
++\sum_{k=1}^n\sin\left(\left(\frac{1}{2}-k\right)x\right)
+\end{aligned}
+$$
+となる。
+
+第2項の和について，$\sin(-\theta)=-\sin\theta$ を用いると
+$$
+\sin\left(\left(\frac{1}{2}-k\right)x\right)
+=\sin\left(-\left(k-\frac{1}{2}\right)x\right)
+=-\sin\left(\left(k-\frac{1}{2}\right)x\right)
+$$
+であるから，
+$$
+\sum_{k=1}^n\sin\left(\left(\frac{1}{2}-k\right)x\right)
+=-\sum_{k=1}^n\sin\left(\left(k-\frac{1}{2}\right)x\right)
+=-\sum_{j=0}^{n-1}\sin\left(\left(j+\frac{1}{2}\right)x\right)
+$$
+（ここで $j=k-1$ とおいた）となる。よって
+$$
+\begin{aligned}
+&\left\{1+2\sum_{k=1}^n\cos(kx)\right\}\sin\frac{x}{2}\\
+&=\sum_{k=0}^n\sin\left(\left(k+\frac{1}{2}\right)x\right)
+-\sum_{j=0}^{n-1}\sin\left(\left(j+\frac{1}{2}\right)x\right)\\
+&=\sin\left(\left(n+\frac{1}{2}\right)x\right)
+\end{aligned}
+$$
+となる。求める等式が成り立つ。
+
+---
+
+(2)  
+方程式
+$$
+\sum_{k=1}^n\cos(kx)=0
+$$
+の解を求める。
+
+(1) の結果を用いると，
+$$
+\left\{1+2\sum_{k=1}^n\cos(kx)\right\}\sin\frac{x}{2}
+=\sin\left(\left(n+\frac{1}{2}\right)x\right)
+$$
+であるから，これを
+$$
+2\sum_{k=1}^n\cos(kx)
+=-1+\frac{\sin\left(\left(n+\frac{1}{2}\right)x\right)}{\sin\frac{x}{2}}
+$$
+と変形し，両辺を $2$ で割ると
+$$
+\sum_{k=1}^n\cos(kx)
+=-\frac{1}{2}
++\frac{1}{2}\cdot\frac{\sin\left(\left(n+\frac{1}{2}\right)x\right)}{\sin\frac{x}{2}}
+$$
+となる。
+
+よって
+$$
+\sum_{k=1}^n\cos(kx)=0
+$$
+は
+$$
+-\frac{1}{2}
++\frac{1}{2}\cdot\frac{\sin\left(\left(n+\frac{1}{2}\right)x\right)}{\sin\frac{x}{2}}
+=0
+$$
+すなわち
+$$
+\frac{\sin\left(\left(n+\frac{1}{2}\right)x\right)}{\sin\frac{x}{2}}=1
+$$
+と同値である。ただし $\sin\frac{x}{2}\neq 0$ の場合である。
+
+ここで場合分けする。
+
+### (i) $\sin\frac{x}{2}=0$ の場合
+
+$\sin\frac{x}{2}=0$ より
+$$
+\frac{x}{2}=m\pi\quad(m\in\mathbb{Z})
+$$
+すなわち
+$$
+x=2m\pi
+$$
+である。このとき
+$$
+\cos(kx)=\cos(2km\pi)=1
+$$
+だから
+$$
+\sum_{k=1}^n\cos(kx)=\sum_{k=1}^n 1=n\neq 0
+$$
+となる。したがってこの場合に解は存在しない。
+
+### (ii) $\sin\frac{x}{2}\neq 0$ の場合
+
+(i) を除いてよいので，上の同値変形から
+$$
+\sin\left(\left(n+\frac{1}{2}\right)x\right)=\sin\frac{x}{2}
+$$
+を解けばよい。
+
+三角方程式 $\sin\alpha=\sin\beta$ の解の一般形
+$$
+\alpha=\beta+2\pi m\quad\text{または}\quad\alpha=\pi-\beta+2\pi m
+\quad(m\in\mathbb{Z})
+$$
+を用いると，$\alpha=\left(n+\dfrac{1}{2}\right)x$，$\beta=\dfrac{x}{2}$ として
+
+1つ目の条件：
+$$
+\left(n+\frac{1}{2}\right)x=\frac{x}{2}+2\pi m
+$$
+より
+$$
+nx=2\pi m\quad\Rightarrow\quad x=\frac{2\pi m}{n}\quad(m\in\mathbb{Z})
+$$
+
+2つ目の条件：
+$$
+\left(n+\frac{1}{2}\right)x=\pi-\frac{x}{2}+2\pi m
+$$
+より
+$$
+\left(n+1\right)x=\pi+2\pi m=\pi(2m+1)
+$$
+したがって
+$$
+x=\frac{\pi(2m+1)}{n+1}\quad(m\in\mathbb{Z})
+$$
+となる。
+
+ここで，(i) で除いた $\sin\frac{x}{2}=0$ の場合が含まれていないか確認する。
+
+- $x=\dfrac{2\pi m}{n}$ のとき  
+  $\displaystyle \frac{x}{2}=\frac{\pi m}{n}$ なので，  
+  $\sin\frac{x}{2}=0$ となるのは $\dfrac{\pi m}{n}=k\pi$，すなわち $m=kn$ のときである。  
+  このとき $x=2k\pi$ となり，(i) で除外した値であるから，これらは解から除く。
+
+- $x=\dfrac{\pi(2m+1)}{n+1}$ のとき  
+  $\displaystyle \frac{x}{2}=\frac{\pi(2m+1)}{2(n+1)}$ は常に $\pi$ の整数倍にはならないので，
+  $\sin\frac{x}{2}=0$ となることはない。よってすべて許される。
+
+以上より，元の方程式の解は次のようになる。
+
+$$
+\begin{cases}
+x=\dfrac{2\pi m}{n}\quad (m\in\mathbb{Z},\ m\not\equiv 0\pmod{n})\\[4pt]
+\text{または}\\[4pt]
+x=\dfrac{\pi(2m+1)}{n+1}\quad (m\in\mathbb{Z})
+\end{cases}
+$$
+
+すなわち，$x=2k\pi$ を除く $x=\dfrac{2\pi m}{n}$ の解と，すべての $x=\dfrac{\pi(2m+1)}{n+1}$ が解である。

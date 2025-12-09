@@ -1,0 +1,37 @@
+---
+title: "東京大学 2014年 2014_1"
+problem_id: "01_tokyo-2014-2014_1"
+university: "東京大学"
+exam_year: "2014"
+source_tex: "archive/01_tokyo/2014/2014_1.tex"
+pdf_source: "archive/01_tokyo/2014/2014_1.pdf"
+page_image: "archive/01_tokyo/2014/2014_1.jpg"
+fields:
+  - 空間図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　1辺の長さが1の正方形を底面とする四角柱$OABC-DEFG$を考える。
+3点$P$，$Q$，$R$を，それぞれ辺$AE$，辺$BF$，辺$CG$上に，
+4点$O$，$P$，$Q$，$R$が同一平面上にあるようにとる。
+四角形$OPQR$の面積を$S$とおく。
+また，$\angle AOP$を$\alpha$，$\angle COR$を$\beta$とおく。
+\begin{description}
+\item[(1)]$S$を$\tan\alpha$と$\tan\beta$を用いて表せ。
+\item[(2)]$\displaystyle\alpha+\beta=\frac{\pi}{4}$，$\displaystyle S=\frac{7}{6}$であるとき，
+$\tan\alpha+\tan\beta$の値を求めよ。
+さらに，$\alpha \leqq \beta$のとき，$\tan\alpha$の値を求めよ。
+\end{description}
+
+
+
+![](../archive/01_tokyo/2014/fig_2014_1.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2014/2014_1.pdf)

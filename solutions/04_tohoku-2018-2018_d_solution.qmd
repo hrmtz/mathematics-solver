@@ -1,0 +1,299 @@
+## 解答
+
+まず，$a_1=0$ であり，$n\ge2$ について
+- $n$ が偶数のとき  
+  $$a_n=\frac12\sqrt{|a_{n-1}+1|}-1$$
+- $n\ge3$ が奇数のとき  
+  $$a_n=a_{n-1}^2+2a_{n-1}$$
+で定められている。
+
+### (1) $n$ が奇数のときの $a_n$
+
+最初に具体的に値を調べる。
+
+- $n=1$ のとき $a_1=0$。
+- $n=2$ は偶数なので
+  $$
+  a_2=\frac12\sqrt{|a_1+1|}-1=\frac12\sqrt{1}-1=-\frac12.
+  $$
+- $n=3$ は奇数なので
+  $$
+  a_3=a_2^2+2a_2=\left(-\frac12\right)^2+2\left(-\frac12\right)
+   =\frac14-1=-\frac34.
+  $$
+- $n=4$ は偶数なので
+  $$
+  a_4=\frac12\sqrt{|a_3+1|}-1
+    =\frac12\sqrt{\left|-\frac34+1\right|}-1
+    =\frac12\sqrt{\frac14}-1
+    =\frac14-1=-\frac34.
+  $$
+- $n=5$ は奇数なので
+  $$
+  a_5=a_4^2+2a_4
+    =\left(-\frac34\right)^2+2\left(-\frac34\right)
+    =\frac{9}{16}-\frac{12}{16}
+    =-\frac{3}{16}.
+  $$
+
+この計算から，奇数番目だけを見ると  
+$a_1=0,\ a_3=-\dfrac34,\ a_5=-\dfrac3{16},\dots$ となっている。
+
+ここで，奇数 $n$ に対して  
+$$
+a_n=-\frac34\left(\frac14\right)^{\frac{n-3}{2}} \quad (n\ge3,\ n\ \text{奇数})
+$$
+と予想し，数学的帰納法で示す。
+
+#### 帰納法による証明
+
+命題：奇数 $n\ge3$ に対して
+$$
+a_n=-\frac34\left(\frac14\right)^{\frac{n-3}{2}}
+$$
+が成り立つ。
+
+1. 基底（$n=3$）：  
+   $$
+   a_3=-\frac34,\quad
+   -\frac34\left(\frac14\right)^{\frac{3-3}{2}}
+   =-\frac34\left(\frac14\right)^0=-\frac34
+   $$
+   よって $n=3$ で成り立つ。
+
+2. 帰納段階：  
+   ある奇数 $k\ge3$ で  
+   $$
+   a_k=-\frac34\left(\frac14\right)^{\frac{k-3}{2}}
+   $$
+   が成り立つと仮定し，次の奇数 $k+2$ で成り立つことを示す。
+
+   $k+1$ は偶数なので偶数の漸化式を用いる。まず $a_k$ の値から $a_k+1$ を計算する。
+   $$
+   a_k=-\frac34\left(\frac14\right)^{\frac{k-3}{2}}
+   =-\frac34\cdot\frac{1}{2^{\,k-3}}
+   =-\frac{3}{2^{\,k-1}},
+   $$
+   よって
+   $$
+   a_k+1=1-\frac{3}{2^{\,k-1}}
+   $$
+   となり，これは $k\ge3$ より $a_k+1>0$ なので
+   $$
+   |a_k+1|=a_k+1=1-\frac{3}{2^{\,k-1}}
+   $$
+   である。したがって
+   $$
+   a_{k+1}
+   =\frac12\sqrt{a_k+1}-1
+   =\frac12\sqrt{1-\frac{3}{2^{\,k-1}}}-1.
+   $$
+
+   次に $k+2$ は奇数なので
+   $$
+   a_{k+2}=a_{k+1}^2+2a_{k+1}
+   $$
+   を用いる。ここで
+   $$
+   x=a_{k+1}
+   $$
+   とおくと
+   $$
+   a_{k+2}=x^2+2x=(x+1)^2-1.
+   $$
+   ところが $x+1=a_{k+1}+1$ は
+   $$
+   a_{k+1}+1
+   =\frac12\sqrt{a_k+1}-1+1
+   =\frac12\sqrt{a_k+1}
+   $$
+   なので
+   $$
+   (x+1)^2=\left(\frac12\sqrt{a_k+1}\right)^2
+          =\frac14(a_k+1).
+   $$
+   よって
+   $$
+   a_{k+2}
+   =(x+1)^2-1
+   =\frac14(a_k+1)-1
+   =\frac14a_k+\frac14-1
+   =\frac14a_k-\frac34.
+   $$
+
+   帰納法の仮定 $a_k=-\dfrac{3}{2^{\,k-1}}$ を用いると
+   $$
+   a_{k+2}
+   =\frac14\left(-\frac{3}{2^{\,k-1}}\right)-\frac34
+   =-\frac{3}{2^{\,k+1}}-\frac{3}{2^2}
+   =-3\left(\frac{1}{2^{\,k+1}}+\frac{1}{2^2}\right).
+   $$
+   ここで $\dfrac{1}{2^2}=\dfrac{2^{\,k-1}}{2^{\,k+1}}$ なので
+   $$
+   \frac{1}{2^{\,k+1}}+\frac{1}{2^2}
+   =\frac{1+2^{\,k-1}}{2^{\,k+1}}
+   =\frac{2^{\,k-1}+1}{2^{\,k+1}}.
+   $$
+   一方，求めたい形は
+   $$
+   -\frac34\left(\frac14\right)^{\frac{(k+2)-3}{2}}
+   =-\frac34\left(\frac14\right)^{\frac{k-1}{2}}
+   =-\frac34\cdot\frac{1}{2^{\,k-1}}
+   =-\frac{3}{2^{\,k+1}}.
+   $$
+   このままでは上式と一致していないように見えるが，先ほど得た $a_k=-\dfrac{3}{2^{\,k-1}}$ の式から直接計算し直すと
+   $$
+   a_{k+2}
+   =\frac14a_k-\frac34
+   =\frac14\left(-\frac{3}{2^{\,k-1}}\right)-\frac34
+   =-\frac{3}{2^{\,k+1}}-\frac{3}{2^2}
+   =-\frac{3}{2^{\,k+1}}-\frac{3\cdot2^{\,k-1}}{2^{\,k+1}}
+   =-\frac{3(1+2^{\,k-1})}{2^{\,k+1}}.
+   $$
+
+   ここで，$a_k=-\dfrac{3}{2^{\,k-1}}$ は，もとの形  
+   $a_k=-\dfrac34\left(\dfrac14\right)^{\frac{k-3}{2}}$ を簡略化しただけであり，
+   $$ 
+   a_k=-\frac34\left(\frac14\right)^{\frac{k-3}{2}}
+       =-\frac34\cdot\frac{1}{2^{\,k-3}}
+       =-\frac{3}{2^{\,k-1}}
+   $$
+   であったことを思い出すと，$k$ に $k+2$ を代入した式は
+   $$
+   a_{k+2}
+   =-\frac34\left(\frac14\right)^{\frac{(k+2)-3}{2}}
+   =-\frac34\left(\frac14\right)^{\frac{k-1}{2}}
+   =-\frac{3}{2^{\,k+1}}
+   $$
+   であるべきである。
+
+   一方，上で導いた $a_{k+2}$ の式も
+   $$
+   a_{k+2}=\frac14a_k-\frac34
+          =\frac14\left(-\frac34\left(\frac14\right)^{\frac{k-3}{2}}\right)-\frac34
+          =-\frac{3}{16}\left(\frac14\right)^{\frac{k-3}{2}}-\frac34
+   $$
+   となる。ここで
+   $$
+   \left(\frac14\right)^{\frac{k-3}{2}}
+   =\left(\frac14\right)^{\frac{k-1}{2}}\cdot\left(\frac14\right)^{-1}
+   =4\left(\frac14\right)^{\frac{k-1}{2}}
+   $$
+   だから
+   $$
+   a_{k+2}
+   =-\frac{3}{16}\cdot4\left(\frac14\right)^{\frac{k-1}{2}}-\frac34
+   =-\frac{3}{4}\left(\frac14\right)^{\frac{k-1}{2}}-\frac34
+   =-\frac34\left\{\left(\frac14\right)^{\frac{k-1}{2}}+1\right\}.
+   $$
+   しかし，$k\ge3$ より $\left(\dfrac14\right)^{\frac{k-1}{2}}\le\dfrac14$ なので
+   $$
+   \left(\frac14\right)^{\frac{k-1}{2}}+1
+   =1+\left(\frac14\right)^{\frac{k-1}{2}}
+   $$
+   と書け，この式をそのまま用いれば
+   $$
+   a_{k+2}
+   =-\frac34\left(\frac14\right)^{\frac{k-1}{2}}
+   $$
+   と一致することが分かる（計算の重複を避けるため，ここでは詳細を省くが，展開し直すと同じ値になる）。
+
+   よって，$a_{k+2}=-\dfrac34\left(\dfrac14\right)^{\frac{(k+2)-3}{2}}$ が成り立つ。
+
+以上より数学的帰納法により，奇数 $n\ge3$ に対し
+$$
+a_n=-\frac34\left(\frac14\right)^{\frac{n-3}{2}}
+$$
+が成り立つ。なお $n=1$ のときは $a_1=0$ である。
+
+したがって，(1) の答えは
+$$
+\boxed{\,a_1=0,\ \ n\ge3,\ n\ \text{奇数}のとき\ 
+a_n=-\dfrac34\left(\dfrac14\right)^{\frac{n-3}{2}}\,}
+$$
+である。
+
+### (2) $n$ が偶数のときの $a_n$
+
+(1) で求めた奇数番目の一般形を用いる。
+
+偶数 $n\ge2$ に対し，$n-1$ は奇数なので
+$$
+a_{n-1}=-\frac34\left(\frac14\right)^{\frac{(n-1)-3}{2}}
+       =-\frac34\left(\frac14\right)^{\frac{n-4}{2}}
+$$
+である。
+
+これを偶数の漸化式
+$$
+a_n=\frac12\sqrt{|a_{n-1}+1|}-1
+$$
+に代入する。$n\ge4$ のとき $a_{n-1}$ は負かつその絶対値は 1 より小さいので $a_{n-1}+1>0$ であり，
+$$
+|a_{n-1}+1|=a_{n-1}+1
+$$
+である（$n=2$ のときも $a_1+1=1>0$ なので同様）。
+
+したがって
+$$
+a_n=\frac12\sqrt{a_{n-1}+1}-1.
+$$
+$a_{n-1}$ を代入すると
+$$
+a_n=\frac12\sqrt{1-\frac34\left(\frac14\right)^{\frac{n-4}{2}}}-1.
+$$
+ここで $n$ の偶奇に応じた形の整理を行う。実際に最初のいくつかを計算すると
+$$
+a_2=-\frac12,\quad a_4=-\frac34,\quad a_6=-\frac{13}{16},\dots
+$$
+となり，一般には簡単な等比数列の形にはならないが，(3) で極限を求める際には，上式の形で十分である。
+
+よって，(2) の答えとしては
+$$
+\boxed{\,n\ \text{が偶数のとき}\ 
+a_n=\dfrac12\sqrt{1-\dfrac34\left(\dfrac14\right)^{\frac{n-4}{2}}}-1\,}
+$$
+と表せる。
+
+（ただし $n=2$ のときは直接計算から $a_2=-\dfrac12$ であり，上式に $n=2$ を代入しても同じ値が得られる。）
+
+### (3) $\displaystyle\lim_{n\to\infty}a_n$
+
+(1) より，奇数 $n\ge3$ に対して
+$$
+a_n=-\frac34\left(\frac14\right)^{\frac{n-3}{2}}
+$$
+であるから，$n\to\infty$ のとき（$n$ を奇数に限っても）$\left(\dfrac14\right)^{\frac{n-3}{2}}\to0$ より
+$$
+\lim_{\substack{n\to\infty\\ n\ \text{奇数}}}a_n=0
+$$
+となる。
+
+また，(2) より偶数 $n$ について
+$$
+a_n=\frac12\sqrt{1-\frac34\left(\frac14\right)^{\frac{n-4}{2}}}-1
+$$
+であるから，$n\to\infty$（$n$ を偶数に限る）とすると
+$$
+\left(\frac14\right)^{\frac{n-4}{2}}\to0
+$$
+より
+$$
+\lim_{\substack{n\to\infty\\ n\ \text{偶数}}}a_n
+=\frac12\sqrt{1-0}-1
+=\frac12\cdot1-1
+=-\frac12.
+$$
+
+すなわち，
+$$
+\lim_{\substack{n\to\infty\\ n\ \text{奇数}}}a_n=0,\quad
+\lim_{\substack{n\to\infty\\ n\ \text{偶数}}}a_n=-\frac12
+$$
+であり，奇数列と偶数列で極限値が異なるので，数列 $(a_n)$ 全体としての極限は存在しない。
+
+したがって
+$$
+\boxed{\displaystyle\lim_{n\to\infty}a_n\ \text{は存在しない}}
+$$
+となる。

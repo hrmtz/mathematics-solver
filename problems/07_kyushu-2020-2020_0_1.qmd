@@ -1,0 +1,31 @@
+---
+title: "九州大学 2020年 2020_0_1"
+problem_id: "07_kyushu-2020-2020_0_1"
+university: "九州大学"
+exam_year: "2020"
+source_tex: "archive/07_kyushu/2020/2020_0_1.tex"
+pdf_source: "archive/07_kyushu/2020/2020_0_1.pdf"
+page_image: "archive/07_kyushu/2020/2020_0_1.jpg"
+fields:
+  - 代数
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a\geqq0$とする。
+2つの放物線$C_1:y=x^2$，$C_2:y=3{(x-a)}^2+a^3-40$を考える。
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]$C_1$と$C_2$が異なる2点で交わるような定数$a$の値の範囲を求めよ。
+\item[(2)]$a$が(1)で求めた範囲を動くとき，
+$C_1$と$C_2$で囲まれた図形の面積$S$の最大値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2020/2020_0_1.pdf)

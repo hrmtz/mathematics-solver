@@ -1,0 +1,187 @@
+## 解答
+
+(1)  
+方程式  
+$$
+z^2 - \alpha z + 2i = 0
+$$
+が実数解をもつとする。解の公式より，解を $z$ とすると
+$$
+z = \frac{\alpha \pm \sqrt{\alpha^2 - 8i}}{2}
+$$
+である。$z$ が実数であるとき，$z$ は虚部が $0$ であるから，$z=x$（$x$は実数）としてよい。
+
+したがって，$z=x$ を代入すると
+$$
+x^2 - \alpha x + 2i = 0
+$$
+である。ここから $\alpha$ を $x$ で表すと
+$$
+\alpha x = x^2 + 2i
+$$
+より
+$$
+\alpha = \frac{x^2 + 2i}{x} = x + \frac{2i}{x}
+$$
+となる。ただし，$x \neq 0$ である（$x=0$ なら左辺は $2i \neq 0$ で矛盾）。
+
+ここで $\alpha$ を複素数平面上の点とし，$\alpha = X + Yi$ とおくと，
+$$
+X = x,\quad Y = \frac{2}{x}
+$$
+である。$x$ は $0$ でない任意の実数なので，$X \neq 0$ であり，$Y = 2/X$ となる。よって
+$$
+XY = 2
+$$
+が成り立つ。
+
+したがって，求める図形は，$XY=2$ をみたす双曲線であり，$X=0$ の点は含まれない。  
+（すなわち複素数平面において，実軸・虚軸を座標軸としたときの双曲線 $xy=2$ のグラフ。）
+
+
+(2)  
+方程式
+$$
+z^2 - \alpha z + 2i = 0
+$$
+が絶対値1の複素数を解にもつとする。絶対値1の解を $z$ とおき，$|z|=1$ とする。
+
+このとき，$z$ はこの2次方程式の解であるから，
+$$
+z^2 - \alpha z + 2i = 0
+$$
+が成り立つ。ここから
+$$
+\alpha z = z^2 + 2i
+$$
+より
+$$
+\alpha = \frac{z^2 + 2i}{z}
+$$
+となる。ここで $|z|=1$ なので $\overline{z} = 1/z$（複素数の共役と絶対値1の性質）より，
+$$
+\alpha = (z^2 + 2i)\overline{z}
+$$
+と書ける。
+
+また，2次方程式の係数と解の関係（Vieta の公式）より，2つの解を $z,\ w$ とすると
+$$
+z + w = \alpha,\quad zw = 2i
+$$
+である。ここで $z$ が $|z|=1$ をみたす解の1つであるから，もう一つの解 $w$ は
+$$
+w = \frac{2i}{z}
+$$
+である。
+
+さらに $|z|=1$ から $1/z = \overline{z}$ なので
+$$
+w = 2i \cdot \overline{z}
+$$
+となる。したがって
+$$
+\alpha = z + w = z + 2i\overline{z}
+$$
+と書ける。ここから $\alpha$ の軌跡を求める。
+
+ここで便利のため，$z$ を極形式であらわす。$|z|=1$ なので
+$$
+z = e^{i\theta} = \cos\theta + i\sin\theta
+$$
+とおける（$\theta$ は実数）。すると，共役は
+$$
+\overline{z} = e^{-i\theta} = \cos\theta - i\sin\theta
+$$
+であるから，
+$$
+\alpha = z + 2i\overline{z}
+  = (\cos\theta + i\sin\theta) + 2i(\cos\theta - i\sin\theta)
+$$
+を計算する：
+\[
+\begin{aligned}
+\alpha &= \cos\theta + i\sin\theta + 2i\cos\theta - 2i^2\sin\theta \\
+       &= \cos\theta + i\sin\theta + 2i\cos\theta + 2\sin\theta \quad (i^2=-1)\\
+       &= (\cos\theta + 2\sin\theta) + i(\sin\theta + 2\cos\theta).
+\end{aligned}
+\]
+よって，$\alpha = X + Yi$ とおくと
+$$
+X = \cos\theta + 2\sin\theta,\quad
+Y = \sin\theta + 2\cos\theta
+$$
+となる。
+
+ここから $\alpha$ を $\theta$ で媒介表示したものがわかった。  
+次に，$\beta$ は「原点を中心に $\alpha$ を $\pi/4$ 回転させた点」であるから，複素平面での回転の性質より
+$$
+\beta = e^{i\pi/4}\alpha
+$$
+である。回転は長さと内積を保つので，$\beta$ の描く図形（軌跡）は，$\alpha$ の描く図形を原点のまわりに $\pi/4$ 回転させたものである。
+
+したがって，まず $\alpha$ の描く図形を求める。  
+$X,Y$ に対して $X^2+Y^2$ を計算すると
+\[
+\begin{aligned}
+X^2 + Y^2
+&= (\cos\theta + 2\sin\theta)^2 + (\sin\theta + 2\cos\theta)^2 \\
+&= (\cos^2\theta + 4\sin\theta\cos\theta + 4\sin^2\theta)
+  + (\sin^2\theta + 4\sin\theta\cos\theta + 4\cos^2\theta) \\
+&= (\cos^2\theta + \sin^2\theta) + 4(\sin^2\theta + \cos^2\theta)
+  + 8\sin\theta\cos\theta \\
+&= 1 + 4\cdot 1 + 8\sin\theta\cos\theta \\
+&= 5 + 8\sin\theta\cos\theta.
+\end{aligned}
+\]
+ここで $\sin2\theta = 2\sin\theta\cos\theta$ より $8\sin\theta\cos\theta = 4\sin2\theta$ となるから
+$$
+X^2 + Y^2 = 5 + 4\sin2\theta.
+$$
+
+さらに，$XY$ も求める：
+\[
+\begin{aligned}
+XY &= (\cos\theta + 2\sin\theta)(\sin\theta + 2\cos\theta) \\
+   &= \cos\theta\sin\theta + 2\cos^2\theta + 2\sin^2\theta + 4\sin\theta\cos\theta \\
+   &= 2(\cos^2\theta + \sin^2\theta) + (\cos\theta\sin\theta + 4\sin\theta\cos\theta) \\
+   &= 2 + 5\sin\theta\cos\theta.
+\end{aligned}
+\]
+よって
+$$
+\sin\theta\cos\theta = \frac{XY - 2}{5}
+$$
+となる。これを $X^2+Y^2$ の式に代入すると
+\[
+\begin{aligned}
+X^2 + Y^2
+&= 5 + 8\sin\theta\cos\theta \\
+&= 5 + 8\cdot \frac{XY - 2}{5} \\
+&= 5 + \frac{8XY -16}{5} \\
+&= \frac{25 + 8XY - 16}{5} \\
+&= \frac{8XY + 9}{5}.
+\end{aligned}
+\]
+
+したがって
+$$
+5(X^2 + Y^2) = 8XY + 9
+$$
+すなわち
+$$
+5X^2 - 8XY + 5Y^2 = 9
+$$
+という関係を得る。よって，$\alpha$ の描く図形は，原点中心の楕円ではなく，一般の2次曲線
+$$
+5x^2 - 8xy + 5y^2 = 9
+$$
+で表される曲線である（実際には原点を中心とする半径 $\sqrt{5\pm 4}$ の円を回転させた楕円になるが，式の形としてはこの2次曲線でよい）。
+
+最後に，$\beta$ の軌跡は，この曲線
+$$
+5X^2 - 8XY + 5Y^2 = 9
+$$
+を原点のまわりに角 $\pi/4$ だけ回転させた図形となる。
+
+したがって，図示すべき図形は，上の2次曲線 $5x^2 - 8xy + 5y^2 = 9$ を，原点を中心に $\pi/4$ 回転させた曲線である。  
+（すなわち，$\alpha$ の軌跡をそのまま $\pi/4$ 回転させたものが $\beta$ の軌跡である。）

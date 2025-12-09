@@ -1,0 +1,25 @@
+---
+title: "東北大学 2009年 2009_0_4"
+problem_id: "04_tohoku-2009-2009_0_4"
+university: "東北大学"
+exam_year: "2009"
+source_tex: "archive/04_tohoku/2009/2009_0_4.tex"
+pdf_source: "archive/04_tohoku/2009/2009_0_4.pdf"
+page_image: "archive/04_tohoku/2009/2009_0_4.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　不等式$2y>x+1+3|x-1|$が表す座標平面上の領域を$D$とする．
+実数$a$に対して，放物線$C$を$y=x^2-2ax+a^2+a+2$で定める．
+このとき，$C$上の点がすべて$D$の点となるような$a$の範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2009/2009_0_4.pdf)

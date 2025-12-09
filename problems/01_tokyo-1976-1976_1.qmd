@@ -1,0 +1,32 @@
+---
+title: "東京大学 1976年 1976_1"
+problem_id: "01_tokyo-1976-1976_1"
+university: "東京大学"
+exam_year: "1976"
+source_tex: "archive/01_tokyo/1976/1976_1.tex"
+pdf_source: "archive/01_tokyo/1976/1976_1.pdf"
+page_image: "archive/01_tokyo/1976/1976_1.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　負でない実数$r$，$l$に対して，
+$xy$平面上の曲線$y=
+\begin{cases}
+x^2 & (0 \leqq x \leqq r)
+r^2 & (r \leqq x \leqq l+r)
+(x-l-2r)^2 & (l+r \leqq x \leqq l+2r)
+\end{cases}$
+を考え，
+これを$x$軸のまわりに回転してできる回転体の体積を$V$とする．
+$r^2$と$l$の和が正の定数$c$になるように$r$と$l$を変化させるとき，
+$V$の最大値を与えるような$r$と$l$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1976/1976_1.pdf)

@@ -1,0 +1,32 @@
+---
+title: "東北大学 1993年 1993_6"
+problem_id: "04_tohoku-1993-1993_6"
+university: "東北大学"
+exam_year: "1993"
+source_tex: "archive/04_tohoku/1993/1993_6.tex"
+pdf_source: "archive/04_tohoku/1993/1993_6.pdf"
+page_image: "archive/04_tohoku/1993/1993_6.jpg"
+fields:
+  - 不等式
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　方程式$x\cos x=2$の$0 \leqq x \leqq 2\pi$における解を$a$とする．
+\begin{description}
+\item[(1)]2つの不等式$\displaystyle\frac{3}{2}\pi<a<2\pi$，
+$\displaystyle\sqrt{a^2-4}\geqq\frac{4}{5}a$が成り立つことを示せ．
+\item[(2)]2つの曲線$y=\sin x$，$\displaystyle y=\frac{x}{4}\sin2x$で囲まれる図形で，
+$0 \leqq x \leqq \pi$に対応する部分の面積を$S$，
+$\pi \leqq x \leqq a$に対応する部分の面積を$T$とするとき，
+$S>T$であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_6.pdf)

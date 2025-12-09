@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 1974年 1974_0_5b"
+problem_id: "05_nagoya-1974-1974_0_5b"
+university: "名古屋大学"
+exam_year: "1974"
+source_tex: "archive/05_nagoya/1974/1974_0_5b.tex"
+pdf_source: "archive/05_nagoya/1974/1974_0_5b.pdf"
+page_image: "archive/05_nagoya/1974/1974_0_5b.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5 (b)
+　$\displaystyle f(x)=ax^2+bx+\frac{1}{a}$ $(a>0)$について
+$\displaystyle\int_{-\pi}^\pi f(x)\sin xdx=0$が成り立つとき，
+$a$，$b$の満たすべき条件を求めよ．
+またその条件のもとで
+積分$\displaystyle\int_{-\pi}^\pi{ \{ f(x) \} }^2dx$の最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1974/1974_0_5b.pdf)

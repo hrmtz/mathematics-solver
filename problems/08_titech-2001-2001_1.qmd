@@ -1,0 +1,26 @@
+---
+title: "東京科学大学 2001年 2001_1"
+problem_id: "08_titech-2001-2001_1"
+university: "東京科学大学"
+exam_year: "2001"
+source_tex: "archive/08_titech/2001/2001_1.tex"
+pdf_source: "archive/08_titech/2001/2001_1.pdf"
+page_image: "archive/08_titech/2001/2001_1.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a>0$，$t>0$に対して定積分$\displaystyle S(a,t)=\int_0^a \left| e^{-x}-\frac{1}{t} \right| dx$を考える．
+\begin{description}
+\item[(1)]$a$を固定したとき，$t$の関数$S(a,t)$の最小値$m(a)$を求めよ．
+\item[(2)]$\displaystyle\lim_{a \to 0}\frac{m(a)}{a^2}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2001/2001_1.pdf)

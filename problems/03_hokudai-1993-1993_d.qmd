@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1993年 1993_d"
+problem_id: "03_hokudai-1993-1993_d"
+university: "北海道大学"
+exam_year: "1993"
+source_tex: "archive/03_hokudai/1993/1993_d.tex"
+pdf_source: "archive/03_hokudai/1993/1993_d.pdf"
+page_image: "archive/03_hokudai/1993/1993_d.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　楕円$\displaystyle\frac{x^2}{3}+y^2=1$上に2点$P(\sqrt3 \, \cos\alpha, \, \sin\alpha)$，
+$Q(\sqrt3 \, \cos\beta, \, \sin\beta)$を
+$\overrightarrow{OP}$と$\overrightarrow{OQ}$が直交するようにとる．
+ただし，$O$は原点であり，$\displaystyle0<\alpha<\frac{\pi}{2}<\beta<\pi$とする．
+\begin{description}
+\item[(1)]$\theta=\beta-\alpha$とおくとき，$\tan\theta$を$\alpha$の関数として表せ．
+\item[(2)]$\alpha$が$\displaystyle0<\alpha<\frac{\pi}{2}$の範囲を動くときの
+$\theta$の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1993/1993_d.pdf)

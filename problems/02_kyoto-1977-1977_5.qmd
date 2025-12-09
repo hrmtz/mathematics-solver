@@ -1,0 +1,27 @@
+---
+title: "京都大学 1977年 1977_5"
+problem_id: "02_kyoto-1977-1977_5"
+university: "京都大学"
+exam_year: "1977"
+source_tex: "archive/02_kyoto/1977/1977_5.tex"
+pdf_source: "archive/02_kyoto/1977/1977_5.pdf"
+page_image: "archive/02_kyoto/1977/1977_5.jpg"
+fields:
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+\begin{description}
+\item[(i)]底辺の長さ$a$が一定で，他の2辺の和$m$も一定$(m>a)$であるような三角形のうち，
+面積最大のものは，二等辺三角形であることを示せ．
+\item[(ii)]周囲の長さが一定な四辺形のうち，面積最大のものは正方形であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1977/1977_5.pdf)

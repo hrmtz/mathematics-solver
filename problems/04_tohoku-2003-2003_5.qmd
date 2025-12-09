@@ -1,0 +1,25 @@
+---
+title: "東北大学 2003年 2003_5"
+problem_id: "04_tohoku-2003-2003_5"
+university: "東北大学"
+exam_year: "2003"
+source_tex: "archive/04_tohoku/2003/2003_5.tex"
+pdf_source: "archive/04_tohoku/2003/2003_5.pdf"
+page_image: "archive/04_tohoku/2003/2003_5.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　複素数平面上で，相異なる3点1，$\alpha$，${\alpha}^2$は
+実軸上に中心をもつ同一円周上にある．
+このような$\alpha$の存在する範囲を複素数平面上に図示せよ．
+さらに，この円の半径を$|\alpha|を用いて表せ．$
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_5.pdf)

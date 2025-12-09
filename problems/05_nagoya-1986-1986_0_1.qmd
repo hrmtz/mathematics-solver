@@ -1,0 +1,33 @@
+---
+title: "名古屋大学 1986年 1986_0_1"
+problem_id: "05_nagoya-1986-1986_0_1"
+university: "名古屋大学"
+exam_year: "1986"
+source_tex: "archive/05_nagoya/1986/1986_0_1.tex"
+pdf_source: "archive/05_nagoya/1986/1986_0_1.pdf"
+page_image: "archive/05_nagoya/1986/1986_0_1.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　自然数$n$に対して
+${\begin{pmatrix} 1 & 2 
+
+ 2 & 1 \end{pmatrix}}^n=
+\begin{pmatrix} a_n & c_n 
+
+ b_n & d_n \end{pmatrix}$
+とおくとき，次の(1)，(2)に答えよ．
+\begin{description}
+\item[(1)]$a_n=d_n$，$b_n=c_n$を示せ．
+\item[(2)]$a_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1986/1986_0_1.pdf)

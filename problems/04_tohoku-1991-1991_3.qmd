@@ -1,0 +1,30 @@
+---
+title: "東北大学 1991年 1991_3"
+problem_id: "04_tohoku-1991-1991_3"
+university: "東北大学"
+exam_year: "1991"
+source_tex: "archive/04_tohoku/1991/1991_3.tex"
+pdf_source: "archive/04_tohoku/1991/1991_3.pdf"
+page_image: "archive/04_tohoku/1991/1991_3.jpg"
+fields:
+  - 平面図形
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]円$x^2+y^2=1$に内接する正方形の1つの頂点の座標を$(p, \, q)$とするとき，
+残りの頂点の座標を$p$と$q$で表せ．
+\item[(2)]$f(x)=ax^3+bx^2+cx+d$ $(a\neq0)$とする．
+曲線$y=f(x)$は円$x^2+y^2=1$と4点のみを共有し，
+これらの4点は，ある正方形の頂点になっている．
+$f(x)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_3.pdf)

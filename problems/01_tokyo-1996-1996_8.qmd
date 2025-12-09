@@ -1,0 +1,35 @@
+---
+title: "東京大学 1996年 1996_8"
+problem_id: "01_tokyo-1996-1996_8"
+university: "東京大学"
+exam_year: "1996"
+source_tex: "archive/01_tokyo/1996/1996_8.tex"
+pdf_source: "archive/01_tokyo/1996/1996_8.pdf"
+page_image: "archive/01_tokyo/1996/1996_8.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　3辺の長さが$BC=2a$，$CA=2b$，$AB=2c$であるような鋭角三角形$\triangle ABC$の
+3辺$BC$，$CA$，$AB$の中点をそれぞれ$L$，$M$，$N$とする．
+線分$LM$，$MN$，$NL$に沿って三角形を折り曲げ，四面体をつくる．
+その際，線分$BL$と$CL$，$CM$と$AM$，$AN$と$BN$はそれぞれ同一視されて，
+長さが$a$，$b$，$c$の辺になるものとする．
+\begin{description}
+\item[(1)]線分$MN$，$BL$の中点をそれぞれ$P$，$Q$とする．
+四面体を組み立てたとき，空間内の線分$PQ$の長さを求めよ．
+\item[(2)]この四面体の体積を$a$，$b$，$c$を用いて表せ．
+\end{description}
+
+
+
+![](../archive/01_tokyo/1996/fig_1996_8.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1996/1996_8.pdf)

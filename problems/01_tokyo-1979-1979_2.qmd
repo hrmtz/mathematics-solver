@@ -1,0 +1,33 @@
+---
+title: "東京大学 1979年 1979_2"
+problem_id: "01_tokyo-1979-1979_2"
+university: "東京大学"
+exam_year: "1979"
+source_tex: "archive/01_tokyo/1979/1979_2.tex"
+pdf_source: "archive/01_tokyo/1979/1979_2.pdf"
+page_image: "archive/01_tokyo/1979/1979_2.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　図のように，半径1の球が，
+ある円錐の内部にはめこまれる形で接しているとする．
+球と円錐面が接する点の全体は円をなすが，
+その円を含む平面を$\alpha$とする．
+　円錐の頂点を$P$とし，$\alpha$に関して$P$と同じ側にある球の部分を$K$とする．
+また，$\alpha$に関して$P$と同じ側にある球面の部分および円錐面の部分で囲まれる立体を$D$とする．
+いま，$D$の体積が球の体積の半分に等しいという．
+　そのときの$K$の体積を求めよ．
+
+
+
+![](../archive/01_tokyo/1979/fig_1979_2.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1979/1979_2.pdf)

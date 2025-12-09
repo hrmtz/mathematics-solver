@@ -1,0 +1,170 @@
+## 解答
+
+(1)  
+点 $P(\cos 2t,\cos t)$ と点 $Q(\sin t,\sin 2t)$ が一致するための条件は  
+$$
+\cos 2t=\sin t,\quad \cos t=\sin 2t
+$$
+が同時に成り立つことである。
+
+まず $\cos t=\sin 2t$ から考える。  
+$\sin 2t=2\sin t\cos t$ であるから，
+$$
+\cos t=2\sin t\cos t
+$$
+となる。ここで，$\cos t=0$ の場合とそうでない場合に分ける。
+
+1) $\cos t=0$ の場合  
+$\cos t=0$ より $t=\dfrac{\pi}{2}+k\pi\ (k\in\mathbb{Z})$ である。  
+このとき $\cos 2t=\cos(\pi+2k\pi)=-1$，$\sin t=\sin\left(\dfrac{\pi}{2}+k\pi\right)=(-1)^k$ であるから，
+$$
+\cos 2t=\sin t
+$$
+より
+$$
+-1=(-1)^k
+$$
+となる。したがって $(-1)^k=-1$，すなわち $k$ は奇数である。  
+よって
+$$
+t=\frac{\pi}{2}+k\pi,\ k\ \text{奇数}
+$$
+となる。$k=2m+1$ とおくと
+$$
+t=\frac{\pi}{2}+(2m+1)\pi=\frac{\pi}{2}+2m\pi+\pi=\frac{3\pi}{2}+2m\pi
+$$
+であるから，  
+$$
+t=\frac{3\pi}{2}+2m\pi\quad(m\in\mathbb{Z})
+$$
+がこの場合の解である。
+
+2) $\cos t\neq0$ の場合  
+$\cos t\neq0$ なので，上の式を $\cos t$ で割ることができ，
+$$
+1=2\sin t
+$$
+すなわち
+$$
+\sin t=\frac{1}{2}
+$$
+となる。したがって
+$$
+t=\frac{\pi}{6}+2k\pi,\ \frac{5\pi}{6}+2k\pi\quad(k\in\mathbb{Z})
+$$
+である。
+
+このときもう一方の条件 $\cos 2t=\sin t$ を満たすものだけを選ぶ。
+
+(i) $t=\dfrac{\pi}{6}+2k\pi$ のとき  
+$\sin t=\sin\dfrac{\pi}{6}=\dfrac{1}{2}$，  
+$\cos 2t=\cos\dfrac{\pi}{3}=\dfrac{1}{2}$ なので
+$$
+\cos 2t=\sin t
+$$
+も満たされる。したがって $t=\dfrac{\pi}{6}+2k\pi$ は解である。
+
+(ii) $t=\dfrac{5\pi}{6}+2k\pi$ のとき  
+$\sin t=\sin\dfrac{5\pi}{6}=\dfrac{1}{2}$，  
+$\cos 2t=\cos\dfrac{5\pi}{3}=\cos\left(2\pi-\dfrac{\pi}{3}\right)=\cos\dfrac{\pi}{3}=\dfrac{1}{2}$ だから，同様に
+$$
+\cos 2t=\sin t
+$$
+を満たす。したがって $t=\dfrac{5\pi}{6}+2k\pi$ も解である。
+
+以上より，点 $P$ と点 $Q$ が一致する $t$ の値は
+$$
+t=\frac{\pi}{6}+2k\pi,\ \frac{5\pi}{6}+2k\pi,\ \frac{3\pi}{2}+2k\pi\quad(k\in\mathbb{Z})
+$$
+である。
+
+---
+
+(2)  
+点 $P$ の座標は
+$$
+(x,y)=(\cos 2t,\cos t)
+$$
+である。$t$ を消去して $x,y$ の関係式を求める。
+
+$\cos 2t$ の公式
+$$
+\cos 2t=2\cos^2 t-1
+$$
+を用いると，
+$$
+x=\cos 2t=2\cos^2 t-1
+$$
+であるから，
+$$
+x+1=2\cos^2 t
+$$
+となる。ここで
+$$
+y=\cos t
+$$
+なので，
+$$
+x+1=2y^2
+$$
+すなわち
+$$
+x=2y^2-1
+$$
+を得る。この式と $y=\cos t$ の取り得る値の範囲 $-1\le y\le1$ を合わせて，
+点 $P$ の軌跡は
+$$
+x=2y^2-1,\quad -1\le y\le1
+$$
+で表される。
+
+次に，$x$ 軸・$y$ 軸との共有点の座標を求める。
+
+1) $x$ 軸との共有点（$y=0$）  
+$y=0$ を $x=2y^2-1$ に代入すると
+$$
+x=2\cdot0^2-1=-1
+$$
+なので，$x$ 軸との共有点は $(-1,0)$ である。  
+これは $y=\cos t=0$ となる $t=\dfrac{\pi}{2},\dfrac{3\pi}{2}$ のときに対応し，  
+実際に $x=\cos2t=\cos\pi=-1,\ \cos3\pi=-1$ となるので矛盾はない。
+
+2) $y$ 軸との共有点（$x=0$）  
+$x=0$ を $x=2y^2-1$ に代入すると
+$$
+0=2y^2-1
+$$
+より
+$$
+2y^2=1,\quad y^2=\frac{1}{2},\quad y=\pm\frac{\sqrt{2}}{2}
+$$
+である。したがって，$y$ 軸との共有点は
+$$
+\left(0,\ \frac{\sqrt{2}}{2}\right),\quad \left(0,\ -\frac{\sqrt{2}}{2}\right)
+$$
+である。  
+このとき $x=\cos2t=0$ なので，$2t=\dfrac{\pi}{2}+k\pi$，$t=\dfrac{\pi}{4}+\dfrac{k\pi}{2}$ である。  
+$0<t<2\pi$ を満たす $t$ を調べると
+$$
+t=\frac{\pi}{4},\ \frac{3\pi}{4},\ \frac{5\pi}{4},\ \frac{7\pi}{4}
+$$
+が得られ，それぞれ
+$$
+y=\cos t=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2},\quad
+\cos\frac{3\pi}{4}=-\frac{\sqrt{2}}{2},\quad
+\cos\frac{5\pi}{4}=-\frac{\sqrt{2}}{2},\quad
+\cos\frac{7\pi}{4}=\frac{\sqrt{2}}{2}
+$$
+となるので，上で求めた 2 点と一致している。
+
+以上をまとめると，$0<t<2\pi$ のときの点 $P$ の軌跡は，放物線
+$$
+x=2y^2-1
+$$
+のうち，$y$ の範囲が $-1\le y\le1$ に制限された部分であり，$x$ 軸との共有点は $(-1,0)$，$y$ 軸との共有点は
+$$
+\left(0,\ \frac{\sqrt{2}}{2}\right),\ \left(0,\ -\frac{\sqrt{2}}{2}\right)
+$$
+である。
+
+（図示の際には，左に開いた放物線 $x=2y^2-1$ を描き，$y=-1$ から $y=1$ までの部分を強調し，上記 3 点の座標を図中に記す。）

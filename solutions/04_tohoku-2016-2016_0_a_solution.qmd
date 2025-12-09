@@ -1,0 +1,170 @@
+## 解答
+
+(1) を示す。
+
+### (1) 前半　$a^2+b^2+c^2\geqq\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}$ の証明
+
+$a,b,c$ は正で $abc=1$ なので，例えば  
+$a^2+\dfrac{1}{b} \ge 2\sqrt{a^2\cdot\dfrac{1}{b}}=2\sqrt{\dfrac{a^2}{b}}$  
+が相加相乗平均の不等式より成り立つ。
+
+同様に，
+$$
+b^2+\dfrac{1}{c} \ge 2\sqrt{\dfrac{b^2}{c}},\quad
+c^2+\dfrac{1}{a} \ge 2\sqrt{\dfrac{c^2}{a}}
+$$
+も成り立つ。
+
+これら 3 つの不等式を辺々加えると，
+$$
+(a^2+\dfrac{1}{b})+(b^2+\dfrac{1}{c})+(c^2+\dfrac{1}{a})
+\ge 2\left(\sqrt{\dfrac{a^2}{b}}+\sqrt{\dfrac{b^2}{c}}+\sqrt{\dfrac{c^2}{a}}\right)
+$$
+すなわち
+$$
+a^2+b^2+c^2+\left(\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\right)
+\ge 2\left(\sqrt{\dfrac{a^2}{b}}+\sqrt{\dfrac{b^2}{c}}+\sqrt{\dfrac{c^2}{a}}\right)
+$$
+となる。
+
+一方，$abc=1$ より
+$$
+\sqrt{\dfrac{a^2}{b}}=\dfrac{a}{\sqrt{b}}
+=\dfrac{a\sqrt{abc}}{\sqrt{b}}
+=\sqrt{ac},
+$$
+同様に $\sqrt{\dfrac{b^2}{c}}=\sqrt{ba}$，$\sqrt{\dfrac{c^2}{a}}=\sqrt{cb}$ なので，
+$$
+\sqrt{\dfrac{a^2}{b}}+\sqrt{\dfrac{b^2}{c}}+\sqrt{\dfrac{c^2}{a}}
+=\sqrt{ab}+\sqrt{bc}+\sqrt{ca}
+$$
+となる。
+
+したがって
+$$
+a^2+b^2+c^2+\left(\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\right)
+\ge 2(\sqrt{ab}+\sqrt{bc}+\sqrt{ca})
+$$
+が得られる。
+
+ここで，左辺のうち $\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}$ を右辺へ移項すると
+$$
+a^2+b^2+c^2
+\ge 2(\sqrt{ab}+\sqrt{bc}+\sqrt{ca})
+-\left(\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\right)
+$$
+であるが，右辺のうち  
+$2\sqrt{ab}-\dfrac{1}{c}$ に着目すると
+$$
+2\sqrt{ab}-\dfrac{1}{c}
+=2\sqrt{ab}-\sqrt{\dfrac{1}{c^2}}
+\ge 0
+$$
+となるかどうかを調べたい。  
+しかし直接この形を扱うのは煩雑なので，別のより簡単な方法をとる。
+
+別解として，次のように考える。
+
+相加相乗平均の不等式より
+$$
+a^2+\dfrac{1}{a}\ge 2\sqrt{a^2\cdot\dfrac{1}{a}}=2\sqrt{a},
+$$
+同様に
+$$
+b^2+\dfrac{1}{b}\ge 2\sqrt{b},\quad
+c^2+\dfrac{1}{c}\ge 2\sqrt{c}
+$$
+である。これらを加えると
+$$
+a^2+b^2+c^2+\left(\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\right)
+\ge 2(\sqrt{a}+\sqrt{b}+\sqrt{c})
+$$
+を得る。
+
+また，同様に
+$$
+\dfrac{1}{a}+\dfrac{1}{b}\ge 2\sqrt{\dfrac{1}{ab}},\quad
+\dfrac{1}{b}+\dfrac{1}{c}\ge 2\sqrt{\dfrac{1}{bc}},\quad
+\dfrac{1}{c}+\dfrac{1}{a}\ge 2\sqrt{\dfrac{1}{ca}}
+$$
+なので，これらを加えて
+$$
+2\left(\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\right)
+\ge 2\left(\sqrt{\dfrac{1}{ab}}+\sqrt{\dfrac{1}{bc}}+\sqrt{\dfrac{1}{ca}}\right)
+$$
+すなわち
+$$
+\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}
+\ge \sqrt{\dfrac{1}{ab}}+\sqrt{\dfrac{1}{bc}}+\sqrt{\dfrac{1}{ca}}
+$$
+を得る。
+
+ここで $abc=1$ より
+$$
+\sqrt{\dfrac{1}{ab}}=\sqrt{c},\quad
+\sqrt{\dfrac{1}{bc}}=\sqrt{a},\quad
+\sqrt{\dfrac{1}{ca}}=\sqrt{b}
+$$
+だから
+$$
+\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}
+\ge \sqrt{a}+\sqrt{b}+\sqrt{c}
+$$
+となる。
+
+この不等式を先ほどの
+$$
+a^2+b^2+c^2+\left(\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\right)
+\ge 2(\sqrt{a}+\sqrt{b}+\sqrt{c})
+$$
+に適用すると，
+右辺 $2(\sqrt{a}+\sqrt{b}+\sqrt{c})$ を  
+$\left(\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\right)+(\sqrt{a}+\sqrt{b}+\sqrt{c})$  
+以下に見積もれるので，
+$$
+a^2+b^2+c^2+\left(\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\right)
+\ge \left(\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\right)
++(\sqrt{a}+\sqrt{b}+\sqrt{c})
+$$
+となる。よって
+$$
+a^2+b^2+c^2 \ge \sqrt{a}+\sqrt{b}+\sqrt{c}
+$$
+が従う。
+
+ここで，すでに示した
+$$
+\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\ge \sqrt{a}+\sqrt{b}+\sqrt{c}
+$$
+と合わせると，
+$$
+a^2+b^2+c^2\ge \dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}
+\ge \sqrt{a}+\sqrt{b}+\sqrt{c}
+$$
+が成り立つことがわかる。
+
+以上で (1) が証明された。
+
+---
+
+(2) を示す。
+
+### (2) $a+b+c\ge 3$ の証明
+
+相加相乗平均の不等式より
+$$
+\dfrac{a+b+c}{3} \ge \sqrt[3]{abc}
+$$
+が成り立つ。$abc=1$ なので右辺は $\sqrt[3]{1}=1$ であるから，
+$$
+\dfrac{a+b+c}{3} \ge 1
+$$
+すなわち
+$$
+a+b+c \ge 3
+$$
+となる。
+
+等号成立条件は，相加相乗平均の等号成立条件より $a=b=c$ であり，さらに $abc=1$ より $a=b=c=1$ のときである。
+
+以上で (2) が証明された。

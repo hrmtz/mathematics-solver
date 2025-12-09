@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1997年 1997_0_1"
+problem_id: "05_nagoya-1997-1997_0_1"
+university: "名古屋大学"
+exam_year: "1997"
+source_tex: "archive/05_nagoya/1997/1997_0_1.tex"
+pdf_source: "archive/05_nagoya/1997/1997_0_1.pdf"
+page_image: "archive/05_nagoya/1997/1997_0_1.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　正三角形$ABC$上に時速$u$，$v$，$w$で等速運動する3点があって，
+それぞれ$A$から辺$AB$に沿って$B$へ，$B$から辺$BC$に沿って$C$へ，$C$から辺$CA$に沿って$A$へ同時に出発したとする．
+$t$時間後のそれらの位置をそれぞれ$P(t)$，$Q(t)$，$R(t)$とする．
+いずれかの点が次の頂点に到達するまでの間，$\triangle P(t)Q(t)R(t)$の重心が動かないための条件を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1997/1997_0_1.pdf)

@@ -1,0 +1,23 @@
+---
+title: "京都大学 1972年 1972_0_4"
+problem_id: "02_kyoto-1972-1972_0_4"
+university: "京都大学"
+exam_year: "1972"
+source_tex: "archive/02_kyoto/1972/1972_0_4.tex"
+pdf_source: "archive/02_kyoto/1972/1972_0_4.pdf"
+page_image: "archive/02_kyoto/1972/1972_0_4.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　3次方程式$\displaystyle x^3-ax^2+ax-\frac{a^2}{9}=0$が相異なる3実根をもつために，
+実の定数$a$のみたすべき必要十分条件を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1972/1972_0_4.pdf)

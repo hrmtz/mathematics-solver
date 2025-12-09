@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1996年 1996_4"
+problem_id: "03_hokudai-1996-1996_4"
+university: "北海道大学"
+exam_year: "1996"
+source_tex: "archive/03_hokudai/1996/1996_4.tex"
+pdf_source: "archive/03_hokudai/1996/1996_4.pdf"
+page_image: "archive/03_hokudai/1996/1996_4.jpg"
+fields:
+  - 帰納法
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　次の問いに答えよ．
+\begin{description}
+\item[(1)]数学的帰納法により次の不等式を証明せよ．
+ただし，$n=1, \, 2, \, 3, \, \cdots\cdots$とする．
+\[ \sum_{k=1}^{2^n}\frac{1}{k}\geqq\frac{n}{2}+1 \]
+\item[(2)]次の命題は真か偽か．
+真ならば証明し，偽ならばその例をあげ理由を説明せよ．
+\[ \lim_{n\to\infty}(a_{n+1}-a_n)=0 \text{ならば数列} \{ a_n \} \text{は収束する．} \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_4.pdf)

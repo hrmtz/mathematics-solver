@@ -1,0 +1,30 @@
+---
+title: "京都大学 1998年 1998_f"
+problem_id: "02_kyoto-1998-1998_f"
+university: "京都大学"
+exam_year: "1998"
+source_tex: "archive/02_kyoto/1998/1998_f.tex"
+pdf_source: "archive/02_kyoto/1998/1998_f.pdf"
+page_image: "archive/02_kyoto/1998/1998_f.jpg"
+fields:
+  - 積分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　自然数$n$にたいし，$\displaystyle I_n=\int_0^{\displaystyle\frac{\pi}{4}}\cos^n2\theta\sin^3\theta d\theta$とする．
+\begin{description}
+\item[(1)]$I_2$の値を求めよ．
+\item[(2)]$xy$平面上で原点$O$から点$P(x,y)$への距離を$r$，$x$軸の正の方向と半直線$OP$のなす(弧度法による)角を$\theta$とする．
+方程式$r=\sin2\theta$，$\displaystyle\left(0\leqq\theta\leqq\frac{\pi}{2}\right)$で表される曲線を，
+直線$y=x$の周りに回転して得られる曲面が囲む立体の体積を$V$とするとき，
+$V=3\pi I_3+2\pi I_2$と表されることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1998/1998_f.pdf)

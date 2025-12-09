@@ -1,0 +1,288 @@
+## 解答
+
+(1)  
+放物線 $y=x^2+bx+c$ が $(p,0),(q,0)$ を通るから，
+$$
+p^2+bp+c=0,\quad q^2+bq+c=0
+$$
+これらを用いて $p,q$ と $b,c$ の関係を求める。  
+2式の差をとると
+$$
+(q^2-p^2)+b(q-p)=0
+$$
+より
+$$
+(q-p)(q+p+b)=0
+$$
+$p<q$ なので $q-p\neq0$ より
+$$
+q+p=-\,b \quad\text{(1)}
+$$
+また $p^2+bp+c=0$ より
+$$
+c=-p^2-bp
+$$
+(1) から $p=-b-q$ を代入して整理すると
+$$
+c=q^2+bq \quad\text{(2)}
+$$
+さらに $p+q=-b$ を用いれば
+$$
+pq=c
+$$
+を得る。
+
+ここで
+$$
+r=\frac{1+t}{2}p+\frac{1-t}{2}q,\quad
+s=\frac{1-t}{2}p+\frac{1+t}{2}q
+$$
+であるから，まず $q-s,r-p$ を求める。
+
+\[
+\begin{aligned}
+q-s
+&=q-\left(\frac{1-t}{2}p+\frac{1+t}{2}q\right)\\
+&=\left(1-\frac{1+t}{2}\right)q-\frac{1-t}{2}p\\
+&=\frac{1-t}{2}(q-p)
+\end{aligned}
+\]
+また
+\[
+\begin{aligned}
+r-p
+&=\left(\frac{1+t}{2}p+\frac{1-t}{2}q\right)-p\\
+&=\left(\frac{1+t}{2}-1\right)p+\frac{1-t}{2}q\\
+&=-\frac{1-t}{2}p+\frac{1-t}{2}q\\
+&=\frac{1-t}{2}(q-p)
+\end{aligned}
+\]
+よって
+$$
+q-s=r-p=\frac{1-t}{2}(q-p)
+$$
+
+次に $s+r,s-r$ を求める。
+\[
+\begin{aligned}
+s+r
+&=\left(\frac{1-t}{2}p+\frac{1+t}{2}q\right)+\left(\frac{1+t}{2}p+\frac{1-t}{2}q\right)\\
+&=(1)p+(1)q\\
+&=p+q=-b
+\end{aligned}
+\]
+\[
+\begin{aligned}
+s-r
+&=\left(\frac{1-t}{2}p+\frac{1+t}{2}q\right)-\left(\frac{1+t}{2}p+\frac{1-t}{2}q\right)\\
+&=\left(\frac{1-t}{2}-\frac{1+t}{2}\right)p+\left(\frac{1+t}{2}-\frac{1-t}{2}\right)q\\
+&=-tp+tq\\
+&=t(q-p)
+\end{aligned}
+\]
+
+ここで $q-p$ を $b,c$ で表す。  
+$(q-p)^2=(q+p)^2-4pq$ を用いて
+\[
+\begin{aligned}
+(q-p)^2
+&=(p+q)^2-4pq\\
+&=(-b)^2-4c\\
+&=b^2-4c
+\end{aligned}
+\]
+したがって
+$$
+q-p=\sqrt{\,b^2-4c\,}
+$$
+（$p<q$ より $q-p>0$ なので正の平方根をとる）。
+
+以上から，
+\[
+\boxed{
+\begin{aligned}
+q-s&=\dfrac{1-t}{2}\sqrt{b^2-4c},\\[2mm]
+r-p&=\dfrac{1-t}{2}\sqrt{b^2-4c},\\[2mm]
+s+r&=-b,\\[2mm]
+s-r&=t\sqrt{b^2-4c}
+\end{aligned}
+}
+\]
+
+(2)  
+(1) で求めた $s+r=-b$ と $sq=pq=c$ を用いる。  
+まず $sr$ を求める。
+
+\[
+\begin{aligned}
+sr
+&=\left(\frac{1-t}{2}p+\frac{1+t}{2}q\right)\left(\frac{1+t}{2}p+\frac{1-t}{2}q\right)\\
+&=\frac{1-t^2}{4}(p^2+q^2)+\frac{1+t^2}{2}pq
+\end{aligned}
+\]
+
+ここで
+\[
+p^2+q^2=(p+q)^2-2pq=(-b)^2-2c=b^2-2c
+\]
+および $pq=c$ なので
+\[
+\begin{aligned}
+sr
+&=\frac{1-t^2}{4}(b^2-2c)+\frac{1+t^2}{2}c\\
+&=\frac{1-t^2}{4}b^2-\frac{1-t^2}{2}c+\frac{1+t^2}{2}c\\
+&=\frac{1-t^2}{4}b^2+\frac{2t^2}{2}c\\
+&=\frac{1-t^2}{4}b^2+t^2c
+\end{aligned}
+\]
+したがって
+$$
+\boxed{sr=\frac{1-t^2}{4}b^2+t^2c}
+$$
+
+次に $s^2+r^2$ を求める。  
+恒等式 $(s+r)^2=s^2+r^2+2sr$ より
+\[
+s^2+r^2=(s+r)^2-2sr
+\]
+(1) の結果 $s+r=-b$ と，いま求めた $sr$ を用いると
+\[
+\begin{aligned}
+s^2+r^2
+&=(-b)^2-2\left(\frac{1-t^2}{4}b^2+t^2c\right)\\
+&=b^2-\frac{1-t^2}{2}b^2-2t^2c\\
+&=\frac{1+t^2}{2}b^2-2t^2c
+\end{aligned}
+\]
+したがって
+$$
+\boxed{s^2+r^2=\frac{1+t^2}{2}b^2-2t^2c}
+$$
+
+(3)  
+放物線 $y=f(x)=x^2+bx+c$ は $x=p,q$ で $x$ 軸と交わる。  
+また $0<t\le1$ より
+$$
+r=\frac{1+t}{2}p+\frac{1-t}{2}q,\quad
+s=\frac{1-t}{2}p+\frac{1+t}{2}q
+$$
+から $p<r<s<q$ が成り立つ（$r,s$ は $p,q$ の内分点である）。
+
+求めるのは，$x=r,x=s$，放物線 $y=f(x)$，$x$ 軸で囲まれた領域の面積 $S$ である。  
+これは
+$$
+S=\int_r^s (x^2+bx+c)\,dx
+$$
+で与えられる。原始関数をとると
+$$
+\int (x^2+bx+c)\,dx=\frac{x^3}{3}+\frac{b}{2}x^2+cx
+$$
+なので
+\[
+\begin{aligned}
+S
+&=\left[\frac{x^3}{3}+\frac{b}{2}x^2+cx\right]_r^s\\
+&=\left(\frac{s^3-r^3}{3}\right)+\frac{b}{2}(s^2-r^2)+c(s-r)
+\end{aligned}
+\]
+
+これを $(s-r),(s+r)$ などで整理する。  
+$s^3-r^3=(s-r)(s^2+sr+r^2)$，$s^2-r^2=(s-r)(s+r)$ なので
+\[
+\begin{aligned}
+S
+&=(s-r)\left(\frac{s^2+sr+r^2}{3}\right)
++\frac{b}{2}(s-r)(s+r)+c(s-r)\\
+&=(s-r)\left[\frac{s^2+r^2}{3}+\frac{sr}{3}+\frac{b}{2}(s+r)+c\right]
+\end{aligned}
+\]
+
+ここで (1)(2) の結果を用いる。  
+$s+r=-b$ より
+$$
+\frac{b}{2}(s+r)=-\frac{b^2}{2}
+$$
+また
+\[
+\begin{aligned}
+\frac{s^2+r^2}{3}
+&=\frac{1}{3}\left(\frac{1+t^2}{2}b^2-2t^2c\right),\\[1mm]
+\frac{sr}{3}
+&=\frac{1}{3}\left(\frac{1-t^2}{4}b^2+t^2c\right)
+\end{aligned}
+\]
+
+したがって角括弧内を
+\[
+\begin{aligned}
+A
+&:=\frac{s^2+r^2}{3}+\frac{sr}{3}+\frac{b}{2}(s+r)+c\\
+&=\frac{1}{3}\left(\frac{1+t^2}{2}b^2-2t^2c\right)
++\frac{1}{3}\left(\frac{1-t^2}{4}b^2+t^2c\right)
+-\frac{b^2}{2}+c
+\end{aligned}
+\]
+とおき，$b^2$ の項と $c$ の項に分けて整理する。
+
+まず $b^2$ の係数は
+\[
+\frac{1}{3}\cdot\frac{1+t^2}{2}+\frac{1}{3}\cdot\frac{1-t^2}{4}-\frac{1}{2}
+\]
+であり，これを通分すると
+\[
+\begin{aligned}
+&\frac{1+t^2}{6}+\frac{1-t^2}{12}-\frac{1}{2}\\
+&=\frac{2(1+t^2)+(1-t^2)}{12}-\frac{6}{12}\\
+&=\frac{3+t^2}{12}-\frac{6}{12}
+=\frac{t^2-3}{12}
+\end{aligned}
+\]
+次に $c$ の係数は
+\[
+\frac{1}{3}(-2t^2)+\frac{1}{3}t^2+1=-\frac{t^2}{3}+1=\frac{3-t^2}{3}
+\]
+
+よって
+\[
+A=\frac{t^2-3}{12}b^2+\frac{3-t^2}{3}c
+\]
+となる。
+
+一方，(1) より
+$$
+s-r=t\sqrt{b^2-4c}
+$$
+であるから，求める面積 $S$ は
+\[
+\begin{aligned}
+S
+&=(s-r)\,A\\
+&=t\sqrt{b^2-4c}\left(\frac{t^2-3}{12}b^2+\frac{3-t^2}{3}c\right)
+\end{aligned}
+\]
+
+ここで $(t^2-3)=-(3-t^2)$ を用いて $(3-t^2)$ でくくると
+\[
+\begin{aligned}
+\frac{t^2-3}{12}b^2+\frac{3-t^2}{3}c
+&=-(3-t^2)\left(\frac{b^2}{12}-\frac{c}{3}\right)\\
+&=(3-t^2)\left(-\frac{b^2}{12}+\frac{c}{3}\right)\\
+&=(3-t^2)\cdot\frac{4c-b^2}{12}
+\end{aligned}
+\]
+したがって
+\[
+\begin{aligned}
+S
+&=t\sqrt{b^2-4c}\cdot(3-t^2)\cdot\frac{4c-b^2}{12}\\
+&=t(3-t^2)\cdot\frac{(4c-b^2)\sqrt{b^2-4c}}{12}
+\end{aligned}
+\]
+
+よって面積は
+$$
+\boxed{
+S=\dfrac{t(3-t^2)}{12}\,(4c-b^2)\sqrt{\,b^2-4c\,}
+}
+$$
+と表される。

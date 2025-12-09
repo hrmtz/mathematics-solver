@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1970年 1970_2"
+problem_id: "03_hokudai-1970-1970_2"
+university: "北海道大学"
+exam_year: "1970"
+source_tex: "archive/03_hokudai/1970/1970_2.tex"
+pdf_source: "archive/03_hokudai/1970/1970_2.pdf"
+page_image: "archive/03_hokudai/1970/1970_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　4点$O(0, \, 0)$，$A(4, \, 0)$，$B(4, \, 3)$，$C(0, \, 3)$を頂点とする
+長方形$OABC$の辺$AB$，$BC$上にそれぞれ点$P(4, \, y)$，$Q(x, \, 3)$があり，
+$\angle POQ={45}^\circ$であるとき，
+次の問いに答えよ．
+\begin{description}
+\item[(1)]$y$を$x$で表わし，かつ$x$の範囲を求めよ．
+\item[(2)]$\triangle OPQ$の面積の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1970/1970_2.pdf)

@@ -1,0 +1,153 @@
+## 解答
+
+三角形 $ABC$ において，$\angle ABC$ を $\theta$ とおくと，$\angle ACB = 3\theta$ であるから，三角形の内角の和より  
+$\angle BAC = \pi - \theta - 3\theta = \pi - 4\theta$ である。
+
+(1) まず，$\theta$ の取り得る範囲を調べる。  
+三角形の内角はすべて $0$ と $\pi$ の間にあるから，
+$$
+0 < \theta,\quad 0 < 3\theta < \pi,\quad 0 < \pi-4\theta < \pi
+$$
+となる。特に
+$$
+3\theta < \pi,\quad \pi - 4\theta > 0
+$$
+より
+$$
+\theta < \frac{\pi}{3},\quad \theta < \frac{\pi}{4}
+$$
+を得る。したがって
+$$
+0 < \theta < \frac{\pi}{4}
+$$
+が成り立つ。よって
+$$
+0 < 2\theta < \frac{\pi}{2}
+$$
+も成り立つ。
+
+(2) 次に，余弦定理を用いて $b^2, c^2$ を表す。  
+辺 $AB$ の長さは $c$，辺 $CA$ の長さは $b$ であったから，
+
+- 辺 $b=CA$ に対する向かいの角は $\angle ABC=\theta$ である。
+- 辺 $c=AB$ に対する向かいの角は $\angle ACB=3\theta$ である。
+
+そこで，辺 $AC=b$ について余弦定理を用いると
+$$
+b^2 = a^2 + c^2 - 2ac\cos\theta
+$$
+であり，辺 $AB=c$ について余弦定理を用いると
+$$
+c^2 = a^2 + b^2 - 2ab\cos(3\theta)
+$$
+が成り立つ。ただし $a=BC$ とおいた。
+
+(3) 目標は $c < 3b$ を示すことであるから，これと同値な
+$$
+\frac{c}{b} < 3
+$$
+を示せばよい。$b,c>0$ なので，
+$$
+\frac{c}{b} < 3 \quad\Longleftrightarrow\quad c^2 < 9b^2
+$$
+である。したがって
+$$
+c^2 - 9b^2 < 0
+$$
+を示せば十分である。
+
+そこで，上で得た 2 つの余弦定理の式を用いて $c^2-9b^2$ を $a,b,c,\cos\theta,\cos(3\theta)$ で表す。
+
+まず
+$$
+c^2 - 9b^2 = c^2 - 9(a^2 + c^2 - 2ac\cos\theta)
+$$
+と $b^2$ を置き換えると
+$$
+c^2 - 9b^2
+= c^2 - 9a^2 - 9c^2 + 18ac\cos\theta
+= -8c^2 - 9a^2 + 18ac\cos\theta
+$$
+となる。
+
+次に $c^2$ を $a^2,b^2,\cos(3\theta)$ で置き換える：
+$$
+c^2 = a^2 + b^2 - 2ab\cos(3\theta)
+$$
+を代入すると
+$$
+\begin{aligned}
+c^2 - 9b^2
+&= -8(a^2 + b^2 - 2ab\cos(3\theta)) - 9a^2 + 18ac\cos\theta \\
+&= -8a^2 - 8b^2 + 16ab\cos(3\theta) - 9a^2 + 18ac\cos\theta \\
+&= -17a^2 - 8b^2 + 16ab\cos(3\theta) + 18ac\cos\theta.
+\end{aligned}
+$$
+
+ここで $a>0$ であるから，全体を $a^2$ で割って
+$$
+\frac{c^2 - 9b^2}{a^2}
+= -17 - 8\left(\frac{b}{a}\right)^2 + 16\frac{b}{a}\cos(3\theta)
++ 18\frac{c}{a}\cos\theta
+$$
+と書けるが，このままでは扱いにくい。  
+そこで別の方針として，角度に関する三角関数の性質を直接用いる。
+
+(4) 三角不等式（正弦定理）を用いる。  
+正弦定理より
+$$
+\frac{a}{\sin(\angle A)}=\frac{b}{\sin(\angle B)}=\frac{c}{\sin(\angle C)}
+$$
+であるから
+$$
+\frac{c}{b} = \frac{\sin(\angle C)}{\sin(\angle B)}
+= \frac{\sin(3\theta)}{\sin\theta}
+$$
+となる。よって $c<3b$ を示すことは
+$$
+\frac{\sin(3\theta)}{\sin\theta} < 3
+$$
+を示すことと同値である。$\sin\theta>0$（$\theta\in(0,\frac{\pi}{4})$ より）なので，これは
+$$
+\sin(3\theta) < 3\sin\theta
+$$
+を示すことに帰着される。
+
+(5) 三倍角の公式を用いて $\sin(3\theta)$ を $\sin\theta$ で表す。  
+三倍角の公式
+$$
+\sin(3\theta) = 3\sin\theta - 4\sin^3\theta
+$$
+より
+$$
+\sin(3\theta) < 3\sin\theta
+\quad\Longleftrightarrow\quad
+3\sin\theta - 4\sin^3\theta < 3\sin\theta
+$$
+となり，両辺から $3\sin\theta$ を引くと
+$$
+-4\sin^3\theta < 0
+$$
+を得る。$\theta\in(0,\frac{\pi}{4})$ なので $\sin\theta>0$ であり，
+$$
+-4\sin^3\theta = -4(\sin\theta)^3 < 0
+$$
+が成り立つ。したがって
+$$
+\sin(3\theta) < 3\sin\theta
+$$
+が成り立つ。
+
+これより
+$$
+\frac{\sin(3\theta)}{\sin\theta} < 3
+$$
+すなわち
+$$
+\frac{c}{b} < 3
+$$
+となるから
+$$
+c < 3b
+$$
+が示された。

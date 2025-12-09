@@ -1,0 +1,27 @@
+---
+title: "京都大学 1991年 1991_c"
+problem_id: "02_kyoto-1991-1991_c"
+university: "京都大学"
+exam_year: "1991"
+source_tex: "archive/02_kyoto/1991/1991_c.tex"
+pdf_source: "archive/02_kyoto/1991/1991_c.pdf"
+page_image: "archive/02_kyoto/1991/1991_c.jpg"
+fields:
+  - ベクトル
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　空間に原点を始点とする長さ1のベクトル$\vec{a}$，$\vec{b}$，$\vec{c}$がある．
+$\vec{a}$，$\vec{b}$のなす角を$\gamma$，$\vec{b}$，$\vec{c}$のなす角を$\alpha$，
+$\vec{c}$，$\vec{a}$のなす角を$\beta$とするとき，つぎの関係の成立することを示せ．
+またここで等号の成立するのはどのような場合か．
+\[ 0\leqq\cos^2\alpha+\cos^2\beta+\cos^2\gamma-2\cos\alpha\cos\beta\cos\gamma\leqq1 \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_c.pdf)

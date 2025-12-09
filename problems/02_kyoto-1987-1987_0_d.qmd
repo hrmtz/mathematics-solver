@@ -1,0 +1,26 @@
+---
+title: "京都大学 1987年 1987_0_d"
+problem_id: "02_kyoto-1987-1987_0_d"
+university: "京都大学"
+exam_year: "1987"
+source_tex: "archive/02_kyoto/1987/1987_0_d.tex"
+pdf_source: "archive/02_kyoto/1987/1987_0_d.pdf"
+page_image: "archive/02_kyoto/1987/1987_0_d.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　3次関数$f(x)=x^3+ax^2+b$が区間$0 \leqq x \leqq 1$において，
+つねに正の値をとるのは，
+点$(a,b)$が座標平面のどの範囲にあるときかを，
+図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1987/1987_0_d.pdf)

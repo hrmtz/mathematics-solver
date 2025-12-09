@@ -32,6 +32,34 @@ def iter_problem_qmds(problem_id: Optional[str] = None) -> Iterable[Path]:
         yield path
 
 
+def needs_fields(qmd_text: str) -> bool:
+    """YAML ヘッダに fields がまだ無いファイルかどうかを判定する。
+
+    - YAML ヘッダが無い / 閉じていない場合は False（何もしない）。
+    - ヘッダ内に既に fields: があれば False。
+    - それ以外は True（fields 付与対象）。
+    """
+
+    lines = qmd_text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return False
+
+    end = None
+    for i in range(1, len(lines)):
+        if lines[i].strip() == "---":
+            end = i
+            break
+    if end is None:
+        return False
+
+    header = lines[1:end]
+    for line in header:
+        if line.strip().startswith("fields:"):
+            return False
+
+    return True
+
+
 def add_fields_to_yaml(qmd_text: str, fields: List[str]) -> str:
     """YAML ヘッダに fields を追記して新しいテキストを返す。
 
@@ -84,6 +112,12 @@ def add_fields_to_yaml(qmd_text: str, fields: List[str]) -> str:
 def assign_fields(problem_id: Optional[str], dry_run: bool) -> None:
     for path in iter_problem_qmds(problem_id):
         text = path.read_text(encoding="utf-8")
+
+        # すでに fields を持っている / YAML が無いファイルは分類 API を呼ばずスキップ
+        if not needs_fields(text):
+            print(f"[skip] {path.name}: already has fields or no yaml header")
+            continue
+
         fields = classify_problem_fields(text)
         if not fields:
             print(f"[skip] {path.name}: no fields suggested")

@@ -1,0 +1,159 @@
+## 解答
+
+(1)  
+
+点 $P(t,3t^2-4t)$ から直線 $l: y=2x$ への距離 $f(t)$ は，点と直線の距離の公式
+$\dfrac{|Ax_0+By_0+C|}{\sqrt{A^2+B^2}}$（直線 $Ax+By+C=0$ への距離）を用いると
+
+直線 $y=2x$ は $2x-y=0$ と書けるから，
+$$
+f(t)
+=\frac{|2\cdot t - (3t^2-4t)|}{\sqrt{2^2+(-1)^2}}
+=\frac{|2t-3t^2+4t|}{\sqrt5}
+=\frac{|6t-3t^2|}{\sqrt5}
+=\frac{3|t(2-t)|}{\sqrt5}
+$$
+となる。
+
+$t(2-t)$ の符号変化に注意する。  
+$t(2-t)\ge0$ は $0\le t\le 2$ のとき，$t(2-t)\le0$ は $t\le0$ または $t\ge2$ のときだから，
+区間 $[-1,2]$ では
+- $-1\le t\le 0$ では $t(2-t)\le0$ より
+  $f(t)=\dfrac{3(-t)(2-t)}{\sqrt5}=\dfrac{3t^2-6t}{\sqrt5}$，
+- $0\le t\le 2$ では $t(2-t)\ge0$ より
+  $f(t)=\dfrac{3t(2-t)}{\sqrt5}=\dfrac{6t-3t^2}{\sqrt5}$
+
+である。
+
+したがって $-1\le a\le2$ に対し
+$$
+g(a)=\int_{-1}^a f(t)\,dt
+$$
+を，$a$ の位置により場合分けして求める。
+
+### ① $-1\le a\le0$ のとき
+
+このとき積分区間全体で $f(t)=\dfrac{3t^2-6t}{\sqrt5}$ なので
+$$
+g(a)=\int_{-1}^a \frac{3t^2-6t}{\sqrt5}\,dt
+=\frac1{\sqrt5}\int_{-1}^a (3t^2-6t)\,dt
+$$
+$$
+=\frac1{\sqrt5}\left[\ t^3-3t^2\ \right]_{t=-1}^{t=a}
+=\frac1{\sqrt5}\Bigl((a^3-3a^2)-((-1)^3-3(-1)^2)\Bigr)
+$$
+$$
+=\frac1{\sqrt5}\Bigl(a^3-3a^2-(-1-3)\Bigr)
+=\frac{a^3-3a^2+4}{\sqrt5}.
+$$
+
+### ② $0\le a\le2$ のとき
+
+このとき $[-1,0]$ と $[0,a]$ で $f$ の形が変わるので
+$$
+g(a)=\int_{-1}^0 f(t)\,dt+\int_0^a f(t)\,dt.
+$$
+前半は①の結果を $a=0$ としたものなので
+$$
+\int_{-1}^0 f(t)\,dt=g(0)=\frac{0^3-3\cdot0^2+4}{\sqrt5}=\frac4{\sqrt5}.
+$$
+後半は $0\le t\le a$ では $f(t)=\dfrac{6t-3t^2}{\sqrt5}$ より
+$$
+\int_0^a f(t)\,dt
+=\frac1{\sqrt5}\int_0^a (6t-3t^2)\,dt
+=\frac1{\sqrt5}\left[\ 3t^2-t^3\ \right]_{t=0}^{t=a}
+=\frac{3a^2-a^3}{\sqrt5}.
+$$
+したがって
+$$
+g(a)=\frac4{\sqrt5}+\frac{3a^2-a^3}{\sqrt5}
+=\frac{-a^3+3a^2+4}{\sqrt5}.
+$$
+
+以上より
+$$
+g(a)=
+\begin{cases}
+\dfrac{a^3-3a^2+4}{\sqrt5} & (-1\le a\le0),\\[4mm]
+\dfrac{-a^3+3a^2+4}{\sqrt5} & (0\le a\le2).
+\end{cases}
+$$
+
+---
+
+(2)  
+
+(1) で求めた $g(a)$ と $f(a)$ を用いて，$0\le a\le2$ で $g(a)-f(a)$ を調べる。
+
+$0\le a\le2$ のとき
+$$
+g(a)=\frac{-a^3+3a^2+4}{\sqrt5},\quad
+f(a)=\frac{3a(2-a)}{\sqrt5}=\frac{6a-3a^2}{\sqrt5}
+$$
+であるから
+$$
+g(a)-f(a)
+=\frac{-a^3+3a^2+4}{\sqrt5}-\frac{6a-3a^2}{\sqrt5}
+=\frac{-a^3+6a^2-6a+4}{\sqrt5}.
+$$
+分母 $\sqrt5>0$ は定数なので，分子
+$$
+h(a)=-a^3+6a^2-6a+4
+$$
+の最大・最小を調べればよい。
+
+導関数を求めると
+$$
+h'(a)=-3a^2+12a-6,
+$$
+これを 0 とおくと
+$$
+-3a^2+12a-6=0
+\ \Longleftrightarrow\
+a^2-4a+2=0
+\ \Longleftrightarrow\
+a=2\pm\sqrt2.
+$$
+区間 $0\le a\le2$ 内に入るのは $a=2-\sqrt2$ のみである。
+
+端点 $a=0,2$ とこの点 $a=2-\sqrt2$ で $h(a)$ を計算する。
+$$
+h(0)=-0+0-0+4=4,
+$$
+$$
+h(2)=-8+24-12+4=8,
+$$
+$$
+h(2-\sqrt2)
+=-(2-\sqrt2)^3+6(2-\sqrt2)^2-6(2-\sqrt2)+4.
+$$
+$(2-\sqrt2)^2=6-4\sqrt2,\ (2-\sqrt2)^3=(2-\sqrt2)(6-4\sqrt2)=20-14\sqrt2$ より
+$$
+h(2-\sqrt2)
+=-(20-14\sqrt2)+6(6-4\sqrt2)-6(2-\sqrt2)+4
+$$
+$$
+=-20+14\sqrt2+36-24\sqrt2-12+6\sqrt2+4
+$$
+$$
+=(-20+36-12+4)+(14-24+6)\sqrt2
+=8-4\sqrt2.
+$$
+
+したがって
+$$
+\min_{0\le a\le2} h(a)=8-4\sqrt2,\quad
+\max_{0\le a\le2} h(a)=8.
+$$
+よって
+$$
+\min_{0\le a\le2} (g(a)-f(a))
+=\frac{8-4\sqrt2}{\sqrt5},\quad
+\max_{0\le a\le2} (g(a)-f(a))
+=\frac8{\sqrt5}
+$$
+となる。
+
+答えは，
+- 最大値：$\dfrac{8}{\sqrt5}$，
+- 最小値：$\dfrac{8-4\sqrt2}{\sqrt5}$。

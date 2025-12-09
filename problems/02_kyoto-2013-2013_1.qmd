@@ -1,0 +1,26 @@
+---
+title: "京都大学 2013年 2013_1"
+problem_id: "02_kyoto-2013-2013_1"
+university: "京都大学"
+exam_year: "2013"
+source_tex: "archive/02_kyoto/2013/2013_1.tex"
+pdf_source: "archive/02_kyoto/2013/2013_1.pdf"
+page_image: "archive/02_kyoto/2013/2013_1.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　平行四辺形$ABCD$において，辺$AB$を$1:1$に内分する点を$E$，
+辺$BC$を$2:1$に内分する点を$F$，辺$CD$を$3:1$に内分する点を$G$とする．
+線分$CE$と線分$FG$の交点を$P$とし，線分$AP$を延長した直線と辺$BC$の交点を$Q$とするとき，
+比$AP:PQ$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2013/2013_1.pdf)

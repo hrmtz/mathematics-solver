@@ -1,0 +1,28 @@
+---
+title: "京都大学 1989年 1989_0_e"
+problem_id: "02_kyoto-1989-1989_0_e"
+university: "京都大学"
+exam_year: "1989"
+source_tex: "archive/02_kyoto/1989/1989_0_e.tex"
+pdf_source: "archive/02_kyoto/1989/1989_0_e.pdf"
+page_image: ""
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n$は3以上の自然数である．
+赤玉と白玉合わせて$n$個ずつ入ったつぼが$\displaystyle\frac{n(n-1)}{2}$個あり，
+その内訳は次のようになっている．
+　各$m=1,2,\cdots,n-1$について，
+$m$個の赤玉と$n-m$個の白玉の入っているつぼがちょうど$m$個ある．
+　いま，これらのつぼの一つを無作為にとり，さらにそのつぼの中から一つの玉を無作為に取り出すとき，
+その玉が白玉である確率を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_0_e.pdf)

@@ -1,0 +1,33 @@
+---
+title: "九州大学 2014年 2014_0_1"
+problem_id: "07_kyushu-2014-2014_0_1"
+university: "九州大学"
+exam_year: "2014"
+source_tex: "archive/07_kyushu/2014/2014_0_1.tex"
+pdf_source: "archive/07_kyushu/2014/2014_0_1.pdf"
+page_image: "archive/07_kyushu/2014/2014_0_1.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　座標平面上の直線$y=-1$を$l_1$，直線$y=1$を$l_2$とし，
+$x$軸上の2点$O(0, \, 0)$，$A(a, \, 0)$を考える。
+点$P(x, \, y)$について，次の条件を考える。
+\[ d(P, \, l_1) \geqq PO \hspace{1zw} \text{かつ} \hspace{1zw} d(P, \, l_2) \geqq PA
+\hspace{1zw} \cdots\cdots\cdots \text{\ding{"AC}} \]
+ただし，$d(P, \, l)$は点$P$と直線$l$の距離である。
+\begin{description}
+\item[(1)]条件\ding{"AC}を満たす点$P$が存在するような$a$の値の範囲を求めよ。
+\item[(2)]条件\ding{"AC}を満たす点$P$全体がなす図形の面積$S$を$a$を用いて表せ。
+ただし，$a$の値は(1)で求めた範囲にあるとする。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2014/2014_0_1.pdf)

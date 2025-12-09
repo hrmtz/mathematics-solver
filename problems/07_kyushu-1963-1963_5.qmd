@@ -1,0 +1,35 @@
+---
+title: "九州大学 1963年 1963_5"
+problem_id: "07_kyushu-1963-1963_5"
+university: "九州大学"
+exam_year: "1963"
+source_tex: "archive/07_kyushu/1963/1963_5.tex"
+pdf_source: "archive/07_kyushu/1963/1963_5.pdf"
+page_image: "archive/07_kyushu/1963/1963_5.jpg"
+fields:
+  - 積分法
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　関数列$f_0(x), \, f_1(x), \, f_2(x), \, \cdots\cdots, \, f_n(x), \, \cdots\cdots$を次のように作る。
+\[ f_0(x)=1, \hspace{1zw} f_1(x)=1+\int_0^x\{ f_0(t)+t{f_0}'(t) \}dt, \]
+\[ f_2(x)=1+\int_0^x\{ f_1(t)+t{f_1}'(t) \}dt, \]
+\[ \cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \]
+\[ f_n(x)=1+\int_0^x\{ f_{n-1}(t)+t{f_{n-1}}'(t) \}dt, \]
+\[ \cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \]
+　このとき
+\begin{description}
+\item[(1)]$f_1(x)$，$f_2(x)$，$f_3(x)$を計算せよ。
+\item[(2)]$f_n(x)$の一般形を，数学的帰納法により求めよ。
+\item[(3)]$|x|<1$なるとき，$\displaystyle f(x)=\lim_{n\to\infty}f_n(x)$を求め，
+かつ$f'(x)={ \{ f(x) \} }^2$が成り立つことを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1963/1963_5.pdf)

@@ -1,0 +1,26 @@
+---
+title: "京都大学 1999年 1999_2"
+problem_id: "02_kyoto-1999-1999_2"
+university: "京都大学"
+exam_year: "1999"
+source_tex: "archive/02_kyoto/1999/1999_2.tex"
+pdf_source: "archive/02_kyoto/1999/1999_2.pdf"
+page_image: "archive/02_kyoto/1999/1999_2.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　平面上に2定点$A$，$B$をとる．
+$c$は正の定数として，
+平面上の点$P$が$|\overrightarrow{PA}||\overrightarrow{PB}|+\overrightarrow{PA}\cdot\overrightarrow{PB}=c$を満たすとき，
+点$P$の軌跡を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_2.pdf)

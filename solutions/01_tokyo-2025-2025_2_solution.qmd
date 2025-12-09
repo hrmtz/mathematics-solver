@@ -1,0 +1,98 @@
+## 解答
+
+(1)  
+$f(x)=\log x-(x-1)$ とおく。ただし，$\log$ は自然対数とする。
+
+$x>0$ で  
+$$
+f'(x)=\frac{1}{x}-1=\frac{1-x}{x}
+$$
+であるから，
+
+- $0<x<1$ では $1-x>0$ より $f'(x)>0$（単調増加），  
+- $x>1$ では $1-x<0$ より $f'(x)<0$（単調減少）
+
+となる。したがって，$f(x)$ は $x=1$ で最大値をとる関数である。
+
+$f(1)=\log 1-(1-1)=0$ であるから，すべての $x>0$ について
+$$
+f(x)\leqq f(1)=0
+$$
+すなわち
+$$
+\log x-(x-1)\leqq 0
+$$
+よって
+$$
+\log x\leqq x-1
+$$
+が成り立つ。
+
+(2)  
+与えられた極限を  
+$$
+L=\lim_{n\to\infty}n\int_1^2\log\left(\frac{1+x^{1/n}}{2}\right)\,dx
+$$
+とおく。
+
+まず，$n\to\infty$ のとき $x^{1/n}\to 1$ なので，被積分関数は $1$ 付近での近似を用いて評価する。  
+$x^{1/n}=e^{\frac{1}{n}\log x}$ より，指数関数のテイラー展開（$e^t=1+t+O(t^2)$）を用いて
+$$
+x^{1/n}=1+\frac{\log x}{n}+O\!\left(\frac{(\log x)^2}{n^2}\right)
+$$
+が $n\to\infty$ のとき成り立つ。これを用いて
+$$
+\frac{1+x^{1/n}}{2}
+=\frac{1+\left(1+\frac{\log x}{n}+O\left(\frac{(\log x)^2}{n^2}\right)\right)}{2}
+=1+\frac{\log x}{2n}+O\!\left(\frac{(\log x)^2}{n^2}\right)
+$$
+となる。
+
+ここで $\log(1+u)=u+O(u^2)$（$u\to 0$）を用いると，
+$$
+\log\left(\frac{1+x^{1/n}}{2}\right)
+=\log\left(1+\frac{\log x}{2n}+O\left(\frac{(\log x)^2}{n^2}\right)\right)
+=\frac{\log x}{2n}+O\!\left(\frac{(\log x)^2}{n^2}\right)
+$$
+となる。ゆえに
+$$
+n\log\left(\frac{1+x^{1/n}}{2}\right)
+=\frac{1}{2}\log x+O\!\left(\frac{(\log x)^2}{n}\right)
+$$
+が $n\to\infty$ で成り立つ。
+
+したがって
+$$
+n\int_1^2\log\left(\frac{1+x^{1/n}}{2}\right)\,dx
+=\int_1^2 n\log\left(\frac{1+x^{1/n}}{2}\right)\,dx
+=\int_1^2\left(\frac{1}{2}\log x+O\!\left(\frac{(\log x)^2}{n}\right)\right)dx.
+$$
+
+ここで，$x\in[1,2]$ では $\log x$ が有界であることから，  
+$O\!\left(\frac{(\log x)^2}{n}\right)$ の $x$ に関する積分は $O\!\left(\frac{1}{n}\right)$ となり，$n\to\infty$ で $0$ に収束する。よって極限と積分を入れ替えて
+$$
+\lim_{n\to\infty}n\int_1^2\log\left(\frac{1+x^{1/n}}{2}\right)\,dx
+=\int_1^2\frac{1}{2}\log x\,dx
+$$
+が得られる。
+
+あとはこの積分を計算する。部分積分を用いると（$\int\log x\,dx = x\log x - x +C$）  
+$$
+\int_1^2\log x\,dx
+=\left[x\log x -x\right]_1^2
+=(2\log 2-2)-\left(1\cdot\log 1-1\right)
+=2\log 2-2+1
+=2\log 2-1.
+$$
+したがって
+$$
+\int_1^2\frac{1}{2}\log x\,dx
+=\frac{1}{2}\left(2\log 2-1\right)
+=\log 2-\frac{1}{2}.
+$$
+
+よって求める極限値は
+$$
+\boxed{\log 2-\dfrac{1}{2}}
+$$
+である。

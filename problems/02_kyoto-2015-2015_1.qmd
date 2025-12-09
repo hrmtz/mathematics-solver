@@ -1,0 +1,27 @@
+---
+title: "京都大学 2015年 2015_1"
+problem_id: "02_kyoto-2015-2015_1"
+university: "京都大学"
+exam_year: "2015"
+source_tex: "archive/02_kyoto/2015/2015_1.tex"
+pdf_source: "archive/02_kyoto/2015/2015_1.pdf"
+page_image: "archive/02_kyoto/2015/2015_1.jpg"
+fields:
+  - 積分法
+  - 三角関数
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　2つの関数$\displaystyle y=\sin\left(x+\frac{\pi}{8}\right)$と$y=\sin2x$のグラフの
+$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$の部分で囲まれる領域を，
+$x$軸のまわりに1回転させてできる立体の体積を求めよ．
+　ただし，$x=0$と$\displaystyle x=\frac{\pi}{2}$は領域を囲む線とは考えない．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2015/2015_1.pdf)

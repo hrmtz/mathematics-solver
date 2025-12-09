@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1967年 1967_4"
+problem_id: "06_osaka-1967-1967_4"
+university: "大阪大学"
+exam_year: "1967"
+source_tex: "archive/06_osaka/1967/1967_4.tex"
+pdf_source: "archive/06_osaka/1967/1967_4.pdf"
+page_image: "archive/06_osaka/1967/1967_4.jpg"
+fields:
+  - 空間図形
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$\triangle ABC$を底面，$V$を頂点とする3角すいにおいて，
+$V$から底面におろした垂線の足$H$が$\triangle ABC$の内心に一致しているとする．
+\begin{description}
+\item[(1)]$V$から辺$AB$，$BC$，$CA$におろした垂線の足をそれぞれ$D$，$E$，$F$とするとき，
+$VD=VE=VF$を示せ．
+\item[(2)]さらに$\angle AVB={105}^\circ$，$\angle BVC={75}^\circ$，$\angle CVA={90}^\circ$であるとき，
+$VA:VB:VC$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1967/1967_4.pdf)

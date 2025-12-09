@@ -1,0 +1,34 @@
+---
+title: "九州大学 2001年 2001_d"
+problem_id: "07_kyushu-2001-2001_d"
+university: "九州大学"
+exam_year: "2001"
+source_tex: "archive/07_kyushu/2001/2001_d.tex"
+pdf_source: "archive/07_kyushu/2001/2001_d.pdf"
+page_image: "archive/07_kyushu/2001/2001_d.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　1から$n$までの異なる番号が付けられた$n$個の箱がある．各箱には，それが番号$k$の箱ならば，
+白のボール$k$個と黒のボール$n+1-k$個のあわせて$n+1$個のボールが入っている．
+ランダムに1箱を選び，その箱から1個のボールを取り出してボールの色を確認してからもとに戻す．
+この操作を同じ箱について$r$回繰り返して，白のボールが取り出された回数を確率変数$T$とする．
+以下の設問に答えよ．
+\begin{description}
+\item[(1)]整数$k$と$i$を$1 \leqq k \leqq n$，$0 \leqq i \leqq r$とする．
+番号$k$の箱が選び出され，かつ，$T=i$となる確率を求めよ．
+\item[(2)]整数$i$を$0 \leqq i \leqq r$とする．
+$T=i$となる確率$P(T=i)$を求めよ．
+\item[(3)]整数$i$を$0 \leqq i \leqq r$とする．
+極限値$\displaystyle\lim_{n\to\infty}P(T=i)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_d.pdf)

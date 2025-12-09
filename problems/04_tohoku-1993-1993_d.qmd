@@ -1,0 +1,28 @@
+---
+title: "東北大学 1993年 1993_d"
+problem_id: "04_tohoku-1993-1993_d"
+university: "東北大学"
+exam_year: "1993"
+source_tex: "archive/04_tohoku/1993/1993_d.tex"
+pdf_source: "archive/04_tohoku/1993/1993_d.pdf"
+page_image: "archive/04_tohoku/1993/1993_d.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　次の問に答えよ．
+\begin{description}
+\item[(1)]白い玉を2個，黒い玉を2個，全部で4個の玉を円周上に並べる．
+このとき，同じ色の玉が隣りあわない確率を求めよ．
+\item[(2)]赤い玉を2個，青い玉を2個，黄色い玉を2個，全部で6個の玉を円周上に並べる．
+このとき，同じ色の玉が隣りあわない確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_d.pdf)

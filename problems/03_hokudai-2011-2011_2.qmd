@@ -1,0 +1,37 @@
+---
+title: "北海道大学 2011年 2011_2"
+problem_id: "03_hokudai-2011-2011_2"
+university: "北海道大学"
+exam_year: "2011"
+source_tex: "archive/03_hokudai/2011/2011_2.tex"
+pdf_source: "archive/03_hokudai/2011/2011_2.pdf"
+page_image: "archive/03_hokudai/2011/2011_2.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　行列
+$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$
+について，以下の3つの条件を考える．
+\begin{description}
+\item[(i)]$a+d=ad-bc=0$
+\item[(ii)]$A^2=O$
+\item[(iii)]ある自然数$n$に対して$A^n=O$
+\end{description}
+　このとき，次の問いに答えよ．
+\begin{description}
+\item[(1)](i)ならば(ii)であることを示せ．
+\item[(2)](iii)ならば$ad-bc=0$であることを示せ．
+\item[(3)](iii)ならば(i)であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2011/2011_2.pdf)

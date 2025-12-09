@@ -1,0 +1,29 @@
+---
+title: "京都大学 1972年 1972_5"
+problem_id: "02_kyoto-1972-1972_5"
+university: "京都大学"
+exam_year: "1972"
+source_tex: "archive/02_kyoto/1972/1972_5.tex"
+pdf_source: "archive/02_kyoto/1972/1972_5.pdf"
+page_image: "archive/02_kyoto/1972/1972_5.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a,b>0)$の上の点$P(x,y)$を媒介変数$u$をつかって，
+\[ x=a\cos u, \hspace{1zw} y=b\sin u, \hspace{1zw} (0 \leqq u<2\pi) \]
+で表わす．
+時間を$t$とし，$P$は$t$の変化につれて次のように移動する．
+時刻$t=0$のとき点$P$は$(a,0)$にあり，その後このだ円上を時計の針の進行方向と逆の方向に動く．
+時刻$t$ $(>0)$までに線分$OP$の通過した部分の面積を$S$とする．
+つねに$\displaystyle\frac{dS}{dt}=1$であるとき，$u$を$t$の関数として表わせ．($O$は原点である．)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1972/1972_5.pdf)

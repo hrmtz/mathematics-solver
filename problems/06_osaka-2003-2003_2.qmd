@@ -1,0 +1,32 @@
+---
+title: "大阪大学 2003年 2003_2"
+problem_id: "06_osaka-2003-2003_2"
+university: "大阪大学"
+exam_year: "2003"
+source_tex: "archive/06_osaka/2003/2003_2.tex"
+pdf_source: "archive/06_osaka/2003/2003_2.pdf"
+page_image: "archive/06_osaka/2003/2003_2.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+\item[(1)]$0<t<1$のとき，不等式
+$\displaystyle\frac{\log t}{2}<-\frac{1-t}{1+t}$
+が成り立つことを示せ．
+\item[(2)]$k$を正の定数とする．
+$a>0$とし，曲線$C:y=e^{kx}$上の2点$P(a, \, e^{ka})$，$Q(-a, \, e^{-ka})$を考える．
+このとき$P$における$C$の接線と$Q$における$C$の接線の交点の$x$座標は
+常に正であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_2.pdf)

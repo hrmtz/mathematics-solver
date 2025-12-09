@@ -1,0 +1,42 @@
+---
+title: "北海道大学 1993年 1993_5"
+problem_id: "03_hokudai-1993-1993_5"
+university: "北海道大学"
+exam_year: "1993"
+source_tex: "archive/03_hokudai/1993/1993_5.tex"
+pdf_source: "archive/03_hokudai/1993/1993_5.pdf"
+page_image: "archive/03_hokudai/1993/1993_5.jpg"
+fields:
+  - 確率
+  - 統計
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　袋の中に1から25までの自然数を1つずつ書いた25枚のカードが入っている．
+袋の中からカードを1枚取りだして板（図1）の対応する数字の上におくという操作を3回くり返し，
+板上に3枚のカードをおく，だたし，1度取りだしたカードはもとに戻さない．
+このとき，事象$K_i$ $(i=1, \, 2, \, \cdots\cdots, \, 25)$と$A$を次のように定める．
+\begin{description}
+\item[]$K_i$：最初に取り出したカードに書かれた数が$i$である．
+\item[]$A$：カードが3枚ともある1つの行または列の上にのっている．
+\end{description}
+
+
+![](../archive/03_hokudai/1993/fig_1993_5.jpg)
+
+
+\begin{description}
+\item[(1)]事象$A \cap K_i$の起こる確率$P(A \cap K_i)$と
+事象$A$の起こる確率$P(A)$を求めよ．
+\item[(2)]$A$が起こったときは最初に取りだしたカードに書かれた数の2乗，
+$A$が起こらなかったときは最初に取りだしたカードに書かれた数を値にとる確率変数を$X$とする．
+$X$の期待値$E(X)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1993/1993_5.pdf)

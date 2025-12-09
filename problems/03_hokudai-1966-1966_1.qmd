@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1966年 1966_1"
+problem_id: "03_hokudai-1966-1966_1"
+university: "北海道大学"
+exam_year: "1966"
+source_tex: "archive/03_hokudai/1966/1966_1.tex"
+pdf_source: "archive/03_hokudai/1966/1966_1.pdf"
+page_image: "archive/03_hokudai/1966/1966_1.jpg"
+fields:
+  - 代数
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$x$，$y$，$z$は実数で，かつ$xyz \neq 0$とする．
+$5x+4y+2z=0$，$8x^3+27y^3+125z^3-90xyz=0$のとき
+\begin{description}
+\item[(1)]$x:y:z$を求めよ．
+\item[(2)]$\displaystyle\log_8\left|\frac{xy+yz+zx}{x^2+y^2+z^2}\right|$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1966/1966_1.pdf)

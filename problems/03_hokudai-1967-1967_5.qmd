@@ -1,0 +1,33 @@
+---
+title: "北海道大学 1967年 1967_5"
+problem_id: "03_hokudai-1967-1967_5"
+university: "北海道大学"
+exam_year: "1967"
+source_tex: "archive/03_hokudai/1967/1967_5.tex"
+pdf_source: "archive/03_hokudai/1967/1967_5.pdf"
+page_image: "archive/03_hokudai/1967/1967_5.jpg"
+fields:
+  - 微分法
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$t$ $(t\geqq0)$を時刻を表わす変数とするとき，
+2つの動点$A(2t^2+1, \, t^3)$，$\displaystyle B \left( t^2+1, \, -\frac{t^3}{9} \right)$がある．
+\begin{description}
+\item[(1)]$A$のえがく曲線の方程式は$y=$□であり，
+$B$のえがく曲線の方程式は$y=$□である．
+この空欄を適当に埋めよ．
+\item[(2)]$t>0$のとき，$A$の速度ベクトルと$B$の速度ベクトルが
+互いに垂直になる時刻$t$を求めよ．
+\item[(3)]$t=0$から$t=1$までの間に$A$が動いた道程を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1967/1967_5.pdf)

@@ -1,0 +1,32 @@
+---
+title: "大阪大学 1999年 1999_c"
+problem_id: "06_osaka-1999-1999_c"
+university: "大阪大学"
+exam_year: "1999"
+source_tex: "archive/06_osaka/1999/1999_c.tex"
+pdf_source: "archive/06_osaka/1999/1999_c.pdf"
+page_image: "archive/06_osaka/1999/1999_c.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　次の問いに答えよ．
+\begin{description}
+\item[(1)]$p$，$q$，$a$，$b$は定数で$p>0$，$q>0$とする．
+$x$と$y$が$x \geqq y$を満たしながら動くとき，
+\[ -px^2-qy^2+ax+by \]
+の最大値，およびそのときの$x$，$y$を求めよ．
+\item[(2)]$a$，$b$，$c$を定数とする．
+$x$，$y$および$z$が$x \geqq y \geqq z$を満たしながら動くとき，
+\[ -x^2-y^2-z^2+ax+by+cz \]
+の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1999/1999_c.pdf)

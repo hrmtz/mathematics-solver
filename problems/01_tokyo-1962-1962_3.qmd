@@ -1,0 +1,33 @@
+---
+title: "東京大学 1962年 1962_3"
+problem_id: "01_tokyo-1962-1962_3"
+university: "東京大学"
+exam_year: "1962"
+source_tex: "archive/01_tokyo/1962/1962_3.tex"
+pdf_source: "archive/01_tokyo/1962/1962_3.pdf"
+page_image: "archive/01_tokyo/1962/1962_3.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　図で，$g$は水平面に対する傾き$\tan\alpha$が1/2であるような定直線とし，
+$OA$，$AB$は$A$で(ちょうつがいで)連結された長さの等しい棒で，
+その端$O$は$g$上の定点に固定され，
+$OA$は$g$を含む鉛直面内で自由に回転し，
+他の端$B$は$g$上を動くことができるようになっている．
+　このとき，折れ線$OAB$の重心$G$($OA$，$AB$の中点を結ぶ線分の中点)が最低になるのは，
+$OA$の水平面となす傾き$\tan\theta$がいくらになるときか．
+
+
+
+![](../archive/01_tokyo/1962/fig_1962_3.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1962/1962_3.pdf)

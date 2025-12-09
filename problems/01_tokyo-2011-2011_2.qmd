@@ -1,0 +1,41 @@
+---
+title: "東京大学 2011年 2011_2"
+problem_id: "01_tokyo-2011-2011_2"
+university: "東京大学"
+exam_year: "2011"
+source_tex: "archive/01_tokyo/2011/2011_2.tex"
+pdf_source: "archive/01_tokyo/2011/2011_2.pdf"
+page_image: "archive/01_tokyo/2011/2011_2.jpg"
+fields:
+  - 数列
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　実数$x$の小数部分を，$0 \leqq y < 1$かつ$x-y$が整数となる実数$y$のこととし，
+これを記号$\langle x \rangle$で表す．
+実数$a$に対して，無限数列$\{ a_n \}$の各項$a_n$ $(n=1,2,3,\cdots)$を次のように順次定める．
+\begin{description}
+\item[(i)]$a_1 = \langle a \rangle$
+\item[(ii)]$\begin{cases}
+a_n \neq 0 \text{のとき，} a_{n+1}= \left\langle\displaystyle\frac{1}{a_n}\right\rangle
+a_n = 0 \text{のとき，} a_{n+1} = 0
+\end{cases}$
+\end{description}
+\begin{description}
+\item[(1)]$a=\sqrt2$のとき，数列$\{ a_n \}$を求めよ．
+\item[(2)]任意の自然数$n$に対して$a_n=a$となるような
+$\displaystyle\frac{1}{3}$以上の実数$a$をすべて求めよ．
+\item[(3)]$a$が有理数であるとする．
+$a$を整数$p$と自然数$q$を用いて$a=\displaystyle\frac{p}{q}$と表すとき，
+$q$以上のすべての自然数$n$に対して，
+$a_n=0$であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2011/2011_2.pdf)

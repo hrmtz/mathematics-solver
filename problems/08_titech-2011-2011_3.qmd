@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 2011年 2011_3"
+problem_id: "08_titech-2011-2011_3"
+university: "東京科学大学"
+exam_year: "2011"
+source_tex: "archive/08_titech/2011/2011_3.tex"
+pdf_source: "archive/08_titech/2011/2011_3.pdf"
+page_image: "archive/08_titech/2011/2011_3.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　定数$k$は$k>1$をみたすとする．
+$xy$平面上の点$A$ $(1,0)$を通り$x$軸に垂直な直線の第1象限に含まれる部分を，
+2点$X$，$Y$が$AY=kAX$をみたしながら動いている．
+原点$O$ $(0,0)$を中心とする半径1の円と線分$OX$，$OY$が交わる点を
+それぞれ$P$，$Q$とするとき，
+$\triangle OPQ$の面積の最大値を$k$を用いて表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2011/2011_3.pdf)

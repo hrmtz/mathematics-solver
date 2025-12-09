@@ -1,0 +1,25 @@
+---
+title: "北海道大学 1996年 1996_5"
+problem_id: "03_hokudai-1996-1996_5"
+university: "北海道大学"
+exam_year: "1996"
+source_tex: "archive/03_hokudai/1996/1996_5.tex"
+pdf_source: "archive/03_hokudai/1996/1996_5.pdf"
+page_image: "archive/03_hokudai/1996/1996_5.jpg"
+fields:
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a$を$0 \leqq a<1$の範囲の数とする．
+$\displaystyle F(a)=\int_1^2|\log(x-a)|dx$とおくとき，
+$F(a)$の最小値とそれを与える$a$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_5.pdf)

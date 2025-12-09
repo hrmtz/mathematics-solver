@@ -1,0 +1,27 @@
+---
+title: "東京大学 1981年 1981_0_3"
+problem_id: "01_tokyo-1981-1981_0_3"
+university: "東京大学"
+exam_year: "1981"
+source_tex: "archive/01_tokyo/1981/1981_0_3.tex"
+pdf_source: "archive/01_tokyo/1981/1981_0_3.pdf"
+page_image: "archive/01_tokyo/1981/1981_0_3.jpg"
+fields:
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　2つの放物線$y=2x^2+1\cdots\cdots$\ding{"AC}　$y=-x^2+c\cdots\cdots$\ding{"AD}　の共通部分の方程式を求めよ．
+ただし$c$は定数で，$c<1$をみたすものとする．
+つぎに，共通接線と放物線\ding{"AC}で囲まれた部分の面積を$S_1$，
+共通接線と放物線\ding{"AD}で囲まれた部分の面積を$S_2$としたとき，
+$\displaystyle\frac{S_1}{S_2}$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1981/1981_0_3.pdf)

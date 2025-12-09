@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 2022年 2022_1"
+problem_id: "08_titech-2022-2022_1"
+university: "東京科学大学"
+exam_year: "2022"
+source_tex: "archive/08_titech/2022/2022_1.tex"
+pdf_source: "archive/08_titech/2022/2022_1.pdf"
+page_image: "archive/08_titech/2022/2022_1.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a, \, b$を実数とし，$f(z)=z^2+az+b$とする．$a, \, b$が
+\[ |a|\leqq1, \hspace{1zw} |b|\leqq1 \]
+を満たしながら動くとき，$f(z)=0$を満たす複素数$z$が
+とりうる値の範囲を複素数平面上に図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2022/2022_1.pdf)

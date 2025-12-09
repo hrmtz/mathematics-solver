@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1977年 1977_3"
+problem_id: "03_hokudai-1977-1977_3"
+university: "北海道大学"
+exam_year: "1977"
+source_tex: "archive/03_hokudai/1977/1977_3.tex"
+pdf_source: "archive/03_hokudai/1977/1977_3.pdf"
+page_image: "archive/03_hokudai/1977/1977_3.jpg"
+fields:
+  - 数列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　数列$\{ a_n \}$は次の関係式を満たすものとする．
+\[ a_1=2a, \hspace{1zw} a_n=2a-\frac{a^2}{a_{n-1}} \hspace{1zw} (n=2, \, 3, \, \cdots\cdots) \]
+ただし，$a\neq0$とする．
+\begin{description}
+\item[(1)]$a_n \neq a$ $(n=1, \, 2, \, \cdots\cdots)$を証明せよ．
+\item[(2)]$\displaystyle b_n=\frac{1}{a_n-a}$とするとき，$b_n$を$b_{n-1}$で表せ．
+\item[(3)]$a_n$を$n$の式で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1977/1977_3.pdf)

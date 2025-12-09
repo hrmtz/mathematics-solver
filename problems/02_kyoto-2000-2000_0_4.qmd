@@ -1,0 +1,34 @@
+---
+title: "京都大学 2000年 2000_0_4"
+problem_id: "02_kyoto-2000-2000_0_4"
+university: "京都大学"
+exam_year: "2000"
+source_tex: "archive/02_kyoto/2000/2000_0_4.tex"
+pdf_source: "archive/02_kyoto/2000/2000_0_4.pdf"
+page_image: "archive/02_kyoto/2000/2000_0_4.jpg"
+fields:
+  - 整数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　三角形$ABC$において辺$BC$，$CA$，$AB$の長さをそれぞれ$a$，$b$，$c$とする．
+この三角形$ABC$は次の条件(イ)，(ロ)，(ハ)を満たすとする．
+\begin{description}
+\item[(イ)]ともに2以上である自然数$p$と$q$が存在して，$a=p+q$，$b=pq+p$，$c=pq+1$となる．
+\item[(ロ)]自然数$n$が存在して$a$，$b$，$c$のいずれかは$2^n$である．
+\item[(ハ)]$\angle A$，$\angle B$，$\angle C$のいずれかは${60}^\circ$である．
+\end{description}
+　このとき次の問に答えよ．
+\begin{description}
+\item[(1)]$\angle A$，$\angle B$，$\angle C$を大きさの順に並べよ．
+\item[(2)]$a$，$b$，$c$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_0_4.pdf)

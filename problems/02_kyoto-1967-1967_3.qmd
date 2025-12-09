@@ -1,0 +1,29 @@
+---
+title: "京都大学 1967年 1967_3"
+problem_id: "02_kyoto-1967-1967_3"
+university: "京都大学"
+exam_year: "1967"
+source_tex: "archive/02_kyoto/1967/1967_3.tex"
+pdf_source: "archive/02_kyoto/1967/1967_3.pdf"
+page_image: "archive/02_kyoto/1967/1967_3.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　双曲線$\displaystyle\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ $(a>0,b>0)$上の1点
+$P(x_1,y_1)$ $(x_1>0,y_1>0)$をとる．
+この双曲線の$P$における接線が$x$軸と交わる点を$Q$とし，座標の原点を$O$とする．
+\begin{description}
+\item[(i)]$\triangle OPQ$の面積を$x_1$を用いて表わせ．
+\item[(ii)]$x_1\to+\infty$のとき，$\triangle OPQ$の面積の極限値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1967/1967_3.pdf)

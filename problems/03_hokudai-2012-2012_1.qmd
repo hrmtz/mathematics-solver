@@ -1,0 +1,37 @@
+---
+title: "北海道大学 2012年 2012_1"
+problem_id: "03_hokudai-2012-2012_1"
+university: "北海道大学"
+exam_year: "2012"
+source_tex: "archive/03_hokudai/2012/2012_1.tex"
+pdf_source: "archive/03_hokudai/2012/2012_1.pdf"
+page_image: "archive/03_hokudai/2012/2012_1.jpg"
+fields:
+  - 行列
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$k$は実数，$a$，$b$，$c$，$d$は$ad-bc=1$を満たす実数とする。行列
+$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$
+の表す移動は以下の3条件を満たすとする。
+\begin{description}
+\item[(イ)]直線$y=x$上の点は直線$y=x$上の点に移る。
+\item[(ロ)]直線$y=-x$上の点は直線$y=-x$上の点に移る。
+\item[(ハ)]$x$軸上の点は直線$y=kx$上の点に移る。
+\end{description}
+\begin{description}
+\item[(1)]$k$のとりうる値の範囲を求めよ。
+\item[(2)]$A$を$k$で表せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2012/2012_1.pdf)

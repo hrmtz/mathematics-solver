@@ -1,0 +1,35 @@
+---
+title: "九州大学 1963年 1963_2"
+problem_id: "07_kyushu-1963-1963_2"
+university: "九州大学"
+exam_year: "1963"
+source_tex: "archive/07_kyushu/1963/1963_2.tex"
+pdf_source: "archive/07_kyushu/1963/1963_2.pdf"
+page_image: "archive/07_kyushu/1963/1963_2.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+
+ 
+
+![](../archive/07_kyushu/1963/fig_1963_2.jpg)
+
+
+斜辺$BC$が定長$l$に等しい直角二等辺三角形が図の位置にある。
+$OX$，$OY$を直角座標軸として，
+\begin{description}
+\item[(1)]頂点$A$の座標$(x, \, y)$を$l$と$\theta$で表わせ。
+\item[(2)]いま$B$，$C$がそれぞれ$OY$，$OX$の正の部分を動くとき，
+点$A$の動く範囲を求め，かつ図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1963/1963_2.pdf)

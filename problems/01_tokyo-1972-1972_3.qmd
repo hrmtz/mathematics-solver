@@ -1,0 +1,34 @@
+---
+title: "東京大学 1972年 1972_3"
+problem_id: "01_tokyo-1972-1972_3"
+university: "東京大学"
+exam_year: "1972"
+source_tex: "archive/01_tokyo/1972/1972_3.tex"
+pdf_source: "archive/01_tokyo/1972/1972_3.pdf"
+page_image: "archive/01_tokyo/1972/1972_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　たがいに外接する定円$C$，$C'$が共通接線$l$の同じ側にあるとする．
+図のように
+\begin{description}
+\item[]$C$，$C'$，$l$に接する円を$C_1$，　$C$，$C_1$，$l$に接する円を$C_2$，$\cdots\cdots$
+\item[]$C$，$C_{n-1}$，$l$に接する円を$C_n$，$\cdots\cdots$
+\end{description}
+とする．
+このとき円$C_n$の半径を$r_n$として，極限値$\displaystyle\lim_{n\to\infty}n^2r_n$を，
+円$C$の半径$R$と円$C'$の半径$R'$とを用いてあらわせ．
+
+
+
+![](../archive/01_tokyo/1972/fig_1972_3.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1972/1972_3.pdf)

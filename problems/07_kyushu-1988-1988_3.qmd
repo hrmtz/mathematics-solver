@@ -1,0 +1,34 @@
+---
+title: "九州大学 1988年 1988_3"
+problem_id: "07_kyushu-1988-1988_3"
+university: "九州大学"
+exam_year: "1988"
+source_tex: "archive/07_kyushu/1988/1988_3.tex"
+pdf_source: "archive/07_kyushu/1988/1988_3.pdf"
+page_image: "archive/07_kyushu/1988/1988_3.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\alpha$，$\beta$は定数で，$0<\alpha<\beta<1$を満たすとし，
+$f(x)=x+(x-\alpha)(x-\beta)$とする．
+数列$\{ x_n \}$を$x_1=\alpha\beta$，$x_n=f(x_{n-1})$ $(n\geqq2)$で定める．
+\begin{description}
+\item[(1)]$0<x<\alpha$のとき，次の不等式が成り立つことを示せ．
+\begin{description}
+\item[(a)]$x<f(x)<\alpha$
+\item[(b)]$\displaystyle\frac{\alpha-f(x)}{\alpha-x}<1+\alpha-\beta$
+\end{description}
+\item[(2)]すべての自然数$n$に対し，$0<x_n<\alpha$であることを示せ．
+\item[(3)]$\displaystyle\lim_{n\to\infty}(\alpha-x_n)=0$を示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1988/1988_3.pdf)

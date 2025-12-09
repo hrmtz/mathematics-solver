@@ -1,0 +1,33 @@
+---
+title: "北海道大学 1964年 1964_6"
+problem_id: "03_hokudai-1964-1964_6"
+university: "北海道大学"
+exam_year: "1964"
+source_tex: "archive/03_hokudai/1964/1964_6.tex"
+pdf_source: "archive/03_hokudai/1964/1964_6.pdf"
+page_image: "archive/03_hokudai/1964/1964_6.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　座標平面上を運動する点$P$がある。
+$t$秒後$(t\geqq0)$の点$P$の座標$x$，$y$は，
+次の2つの式で与えられている。
+\[ (x-2)(y+x-1)=t-1, \hspace{1zw} x(y-x+1)=t+1 \]
+\begin{description}
+\item[(1)]点$P$のえがく曲線を求め，それを図示せよ。
+\item[(2)]点$P$を通り$x$軸に平行な直線，
+直線$x=1$
+および(1)で求めた曲線で囲まれる部分の面積$S$の
+$t$に関する変化率を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_6.pdf)

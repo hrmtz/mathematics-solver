@@ -1,0 +1,33 @@
+---
+title: "大阪大学 2020年 2020_0_2"
+problem_id: "06_osaka-2020-2020_0_2"
+university: "大阪大学"
+exam_year: "2020"
+source_tex: "archive/06_osaka/2020/2020_0_2.tex"
+pdf_source: "archive/06_osaka/2020/2020_0_2.pdf"
+page_image: "archive/06_osaka/2020/2020_0_2.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　円周を3等分する点を時計回りにA，B，Cとおく．
+点QはAから出発し，A，B，Cを以下のように移動する．
+1個のさいころを投げて，1の目が出た場合は時計回りに隣の点に移動し，
+2の目が出た場合は反時計回りに隣の点に移動し，その他の目が出た場合は移動しない．
+さいころを$n$回投げたあとにQがAに位置する確率を$p_n$とする．
+以下の問いに答えよ．
+\begin{description}
+\item[(1)]$p_2$を求めよ．
+\item[(2)]$p_{n+1}$を$p_n$を用いて表せ．
+\item[(3)]$p_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2020/2020_0_2.pdf)

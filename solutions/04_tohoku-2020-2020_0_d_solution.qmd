@@ -1,0 +1,282 @@
+## 解答
+
+(1)  
+表が $s$ 枚，裏が $t$ 枚で $s+t=6$ である。  
+与えられた定義より
+$$
+\overrightarrow{p}
+= s(2,-1)+t(-1,2)
+=(2s - t,\,-s + 2t)
+$$
+であるから，
+$$
+x = 2s - t,\quad y = -s + 2t
+$$
+となる。よって
+$$
+x+y = (2s - t) + (-s + 2t) = s + t = 6
+$$
+したがって，$x+y=6$ である。
+
+---
+
+(2)  
+$\overrightarrow{p}=(0,6)$ となる条件を求める。
+
+(1)より $\overrightarrow{p}=(x,y)=(2s - t,\,-s + 2t)$ だから，
+$$
+\begin{cases}
+2s - t = 0\\
+-s + 2t = 6
+\end{cases}
+$$
+を解けばよい。
+
+第1式から $t = 2s$。これを第2式に代入して
+$$
+-s + 2(2s) = 6
+\quad\Longrightarrow\quad
+-s + 4s = 6
+\quad\Longrightarrow\quad
+3s = 6
+\quad\Longrightarrow\quad
+s = 2
+$$
+よって $t = 2s = 4$ となる。
+
+6枚の硬貨を投げるとき，表が出る枚数の確率は二項分布に従い，
+$s=2$ となる確率は
+$$
+\Pr(s=2)
+=\binom{6}{2}\left(\frac12\right)^2\left(\frac12\right)^4
+=\binom{6}{2}\left(\frac12\right)^6
+=\frac{15}{64}
+$$
+したがって，$\overrightarrow{p}=(0,6)$ となる確率は
+$$
+\frac{15}{64}
+$$
+である。
+
+---
+
+(3)  
+$\overrightarrow{p}$ と $\overrightarrow{q}=(3,1)$ のなす角を $\theta$ とするとき，
+なす角の定義より
+$$
+\cos\theta
+= \frac{\overrightarrow{p}\cdot\overrightarrow{q}}{|\overrightarrow{p}||\overrightarrow{q}|}
+$$
+である。ここで
+$$
+\overrightarrow{p}=(2s - t,\,-s + 2t),\quad
+\overrightarrow{q}=(3,1)
+$$
+だから
+$$
+\overrightarrow{p}\cdot\overrightarrow{q}
+= (2s - t)\cdot 3 + (-s + 2t)\cdot 1
+= 6s - 3t - s + 2t
+= 5s - t
+$$
+また
+$$
+|\overrightarrow{p}|^2
+= (2s - t)^2 + (-s + 2t)^2
+= (4s^2 - 4st + t^2) + (s^2 - 4st + 4t^2)
+= 5s^2 - 8st + 5t^2
+$$
+したがって
+$$
+|\overrightarrow{p}| = \sqrt{5s^2 - 8st + 5t^2}
+$$
+一方
+$$
+|\overrightarrow{q}| = \sqrt{3^2 + 1^2} = \sqrt{10}
+$$
+である。
+
+なす角が $\dfrac{\pi}{6}$ 以下とは
+$$
+0 \leq \theta \leq \frac{\pi}{6}
+$$
+であり，この範囲では $\cos\theta$ は単調減少であるから，
+$$
+\theta \leq \frac{\pi}{6}
+\quad\Longleftrightarrow\quad
+\cos\theta \geq \cos\frac{\pi}{6} = \frac{\sqrt{3}}{2}
+$$
+である。また $\overrightarrow{p}$ と $\overrightarrow{q}$ はどちらも零ベクトルではないので，
+$$
+\frac{\overrightarrow{p}\cdot\overrightarrow{q}}{|\overrightarrow{p}||\overrightarrow{q}|}
+\geq \frac{\sqrt{3}}{2}
+$$
+すなわち
+$$
+\frac{5s - t}{\sqrt{5s^2 - 8st + 5t^2}\,\sqrt{10}}
+\geq \frac{\sqrt{3}}{2}
+$$
+が必要である。
+
+ここで $s+t=6$ なので $t = 6 - s$ とおき，$s=0,1,2,3,4,5,6$ を順に調べる。
+
+まず
+$$
+5s - t = 5s - (6 - s) = 6s - 6
+$$
+また
+$$
+|\overrightarrow{p}|^2
+= 5s^2 - 8s(6-s) + 5(6-s)^2
+$$
+を計算する：
+$$
+5s^2 - 8s(6-s) + 5(6-s)^2
+=5s^2 -48s +8s^2 +5(36 -12s + s^2)
+$$
+$$
+=13s^2 -48s +180 -60s +5s^2
+=18s^2 -108s +180
+$$
+よって
+$$
+|\overrightarrow{p}| = \sqrt{18s^2 -108s +180}
+$$
+
+このとき
+$$
+\cos\theta
+= \frac{5s - t}{|\overrightarrow{p}||\overrightarrow{q}|}
+= \frac{6s - 6}{\sqrt{18s^2 -108s +180}\,\sqrt{10}}
+$$
+であるから，各 $s$ について $\cos\theta$ を求める。
+
+- $s=0$ のとき：$t=6$  
+  $5s - t = -6 < 0$ なので $\cos\theta < 0$，$\theta > \dfrac{\pi}{2}$ となり条件を満たさない。
+
+- $s=1$ のとき：$t=5$  
+  $5s - t = 0$ なので $\cos\theta = 0$，$\theta = \dfrac{\pi}{2}$ となり条件を満たさない。
+
+- $s=2$ のとき：$t=4$  
+  $5s - t = 6$，$|\overrightarrow{p}|^2 = 18\cdot 4 -108\cdot 2 +180 = 24$ より $|\overrightarrow{p}|=\sqrt{24}$  
+  よって
+  $$
+  \cos\theta = \frac{6}{\sqrt{24}\,\sqrt{10}}
+  =\frac{6}{\sqrt{240}}
+  =\frac{6}{4\sqrt{15}}
+  =\frac{3}{2\sqrt{15}}
+  $$
+  一方
+  $$
+  \cos\frac{\pi}{6} = \frac{\sqrt{3}}{2}
+  $$
+  であるから，両辺を比較するため平方して
+  $$
+  \left(\frac{3}{2\sqrt{15}}\right)^2
+  =\frac{9}{60}
+  =\frac{3}{20},\quad
+  \left(\frac{\sqrt{3}}{2}\right)^2
+  =\frac{3}{4}
+  $$
+  となり
+  $$
+  \frac{3}{20} < \frac{3}{4}
+  $$
+  よって
+  $$
+  \frac{3}{2\sqrt{15}} < \frac{\sqrt{3}}{2}
+  $$
+  従って $\cos\theta < \cos\dfrac{\pi}{6}$，すなわち $\theta > \dfrac{\pi}{6}$ であり，条件を満たさない。
+
+- $s=3$ のとき：$t=3$  
+  $5s - t = 12$，$|\overrightarrow{p}|^2 = 18\cdot 9 -108\cdot 3 +180 = 18$ より $|\overrightarrow{p}|=\sqrt{18}$  
+  よって
+  $$
+  \cos\theta
+  =\frac{12}{\sqrt{18}\,\sqrt{10}}
+  =\frac{12}{\sqrt{180}}
+  =\frac{12}{6\sqrt{5}}
+  =\frac{2}{\sqrt{5}}
+  $$
+  比較のため平方すると
+  $$
+  \left(\frac{2}{\sqrt{5}}\right)^2 = \frac{4}{5},\quad
+  \left(\frac{\sqrt{3}}{2}\right)^2 = \frac{3}{4}
+  $$
+  であり，
+  $$
+  \frac{4}{5} = 0.8 > 0.75 = \frac{3}{4}
+  $$
+  よって
+  $$
+  \frac{2}{\sqrt{5}} > \frac{\sqrt{3}}{2}
+  $$
+  したがって $\cos\theta > \cos\dfrac{\pi}{6}$，すなわち
+  $$
+  \theta < \frac{\pi}{6}
+  $$
+  であり，条件を満たす。
+
+- $s=4$ のとき：$t=2$  
+  対称性から $s=2$ の場合と同様に $\cos\theta = \dfrac{3}{2\sqrt{15}} < \dfrac{\sqrt{3}}{2}$ となり，条件を満たさない。
+
+- $s=5$ のとき：$t=1$  
+  $5s - t = 24$，$|\overrightarrow{p}|^2 = 18\cdot 25 -108\cdot 5 +180 = 90$ より $|\overrightarrow{p}|=\sqrt{90}$  
+  よって
+  $$
+  \cos\theta
+  =\frac{24}{\sqrt{90}\,\sqrt{10}}
+  =\frac{24}{\sqrt{900}}
+  =\frac{24}{30}
+  =\frac{4}{5}
+  $$
+  であり，
+  $$
+  \frac{4}{5} > \frac{\sqrt{3}}{2}
+  $$
+  が成り立つ（平方してもよい）。したがって
+  $$
+  \cos\theta > \cos\frac{\pi}{6}
+  \quad\Longrightarrow\quad
+  \theta < \frac{\pi}{6}
+  $$
+  であり，条件を満たす。
+
+- $s=6$ のとき：$t=0$  
+  $5s - t = 30$，$|\overrightarrow{p}|^2 = 18\cdot 36 -108\cdot 6 +180 = 180$ より $|\overrightarrow{p}|=\sqrt{180}$  
+  よって
+  $$
+  \cos\theta
+  =\frac{30}{\sqrt{180}\,\sqrt{10}}
+  =\frac{30}{\sqrt{1800}}
+  =\frac{30}{30\sqrt{2}}
+  =\frac{1}{\sqrt{2}}
+  $$
+  であり，
+  $$
+  \frac{1}{\sqrt{2}} > \frac{\sqrt{3}}{2}
+  $$
+  となる（平方して $\dfrac12 > \dfrac34$ は成り立たないため，実際には
+  $\dfrac{1}{\sqrt{2}} \approx 0.707 < 0.866 = \dfrac{\sqrt{3}}{2}$，従ってこの場合は条件を満たさないことが分かる）。  
+  よって $\cos\theta < \cos\dfrac{\pi}{6}$，すなわち $\theta > \dfrac{\pi}{6}$ であり，条件を満たさない。
+
+以上を整理すると，$\theta \le \dfrac{\pi}{6}$ となるのは $s=3,5$ のときである。
+
+硬貨6枚を投げたとき，表が $s$ 枚となる確率は
+$$
+\Pr(s) = \binom{6}{s}\left(\frac12\right)^6
+$$
+であるから，求める確率は
+$$
+\Pr(s=3 \text{ または } 5)
+= \left[\binom{6}{3} + \binom{6}{5}\right]\left(\frac12\right)^6
+= (20+6)\cdot\frac{1}{64}
+= \frac{26}{64}
+= \frac{13}{32}
+$$
+
+したがって，$\overrightarrow{p}$ と $\overrightarrow{q}$ のなす角が $\dfrac{\pi}{6}$ 以下となる確率は
+$$
+\frac{13}{32}
+$$
+である。

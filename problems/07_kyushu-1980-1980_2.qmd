@@ -1,0 +1,27 @@
+---
+title: "九州大学 1980年 1980_2"
+problem_id: "07_kyushu-1980-1980_2"
+university: "九州大学"
+exam_year: "1980"
+source_tex: "archive/07_kyushu/1980/1980_2.tex"
+pdf_source: "archive/07_kyushu/1980/1980_2.pdf"
+page_image: "archive/07_kyushu/1980/1980_2.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$f(x)$は7次式であって，$5f(x)-3$は${(x-1)}^4$で割り切れ，
+また$7f(x)-5$は${(x+1)}^4$で割り切れるとする．このとき
+\begin{description}
+\item[(1)]$f'(x)$はどのような形の関数か．
+\item[(2)]$f(x)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1980/1980_2.pdf)

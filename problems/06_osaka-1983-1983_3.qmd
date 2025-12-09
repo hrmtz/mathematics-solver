@@ -1,0 +1,27 @@
+---
+title: "大阪大学 1983年 1983_3"
+problem_id: "06_osaka-1983-1983_3"
+university: "大阪大学"
+exam_year: "1983"
+source_tex: "archive/06_osaka/1983/1983_3.tex"
+pdf_source: "archive/06_osaka/1983/1983_3.pdf"
+page_image: "archive/06_osaka/1983/1983_3.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　1辺の長さが1の正4面体の内部に互いに外接する2つの球$P$，$Q$がある．
+球$P$は正4面体の4面全部に接し，球$Q$は正4面体の3面に接しているとする．
+\begin{description}
+\item[(1)]球$P$の半径を求めよ．
+\item[(2)]球$Q$の半径を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1983/1983_3.pdf)

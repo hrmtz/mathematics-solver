@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1991年 1991_c"
+problem_id: "03_hokudai-1991-1991_c"
+university: "北海道大学"
+exam_year: "1991"
+source_tex: "archive/03_hokudai/1991/1991_c.tex"
+pdf_source: "archive/03_hokudai/1991/1991_c.pdf"
+page_image: "archive/03_hokudai/1991/1991_c.jpg"
+fields:
+  - 三角関数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　曲線$y=\sin x$ $\displaystyle\left( -\frac{\pi}{2}<x<\frac{\pi}{2} \right)$上の
+点$P(x, \, \sin x)$と$x$軸の点$Q(q, \, 0)$は長さ1の線分で結ばれ，
+$q \leqq x$を満たしながら移動している．
+\begin{description}
+\item[(1)]$q$を$x$で表せ．
+\item[(2)]点$P$が速さ1で右方向に動いているとき，点$Q$の速さを$x$で表せ．
+とくに，点$P$が原点を通る瞬間の点$Q$の速さを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1991/1991_c.pdf)

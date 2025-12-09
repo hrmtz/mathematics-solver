@@ -1,0 +1,29 @@
+---
+title: "大阪大学 1968年 1968_0_4"
+problem_id: "06_osaka-1968-1968_0_4"
+university: "大阪大学"
+exam_year: "1968"
+source_tex: "archive/06_osaka/1968/1968_0_4.tex"
+pdf_source: "archive/06_osaka/1968/1968_0_4.pdf"
+page_image: "archive/06_osaka/1968/1968_0_4.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　すべての実数$x$に対し
+\[ \begin{cases} \displaystyle f(x)=1-\int_0^x \{ f'(t)-g(t) \} dt
+
+
+ \displaystyle g(x)=x^2+x-\int_0^1 \{ f(t)+g'(t) \} dt \end{cases} \]
+を満足するような関数$f(x)$，$g(x)$を求めよ．
+ただし，$f'(t)$，$g'(t)$はそれぞれ$f(t)$，$g(t)$の導関数を表わす．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1968/1968_0_4.pdf)

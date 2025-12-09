@@ -1,0 +1,31 @@
+---
+title: "東北大学 1973年 1973_3"
+problem_id: "04_tohoku-1973-1973_3"
+university: "東北大学"
+exam_year: "1973"
+source_tex: "archive/04_tohoku/1973/1973_3.tex"
+pdf_source: "archive/04_tohoku/1973/1973_3.pdf"
+page_image: "archive/04_tohoku/1973/1973_3.jpg"
+fields:
+  - 数列
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　数列$\{ \theta_n \}$は
+\[ \theta_1=0, \hspace{1zw} \sin\theta_{n+1}=a\sin\theta_n+b\cos\theta_n \hspace{1zw} (n=1, \, 2, \, \cdots\cdots) \]
+であたえられ，
+$\displaystyle-\frac{\pi}{2}\leqq\theta_n\leqq\frac{\pi}{2}$
+を満たすとする．
+ここで，$a$，$b$は正数で，$a^2+b^2=1$である．このとき
+\[ s_n=\frac{\sin\theta_1+\cdots\cdots+\sin\theta_n}{n} \]
+によって定められた数列$\{ s_n \}$は収束することを示せ．
+また$\displaystyle b=\frac{1}{2}$のとき，$\{ s_n \}$の極限値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1973/1973_3.pdf)

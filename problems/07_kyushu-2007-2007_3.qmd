@@ -1,0 +1,39 @@
+---
+title: "九州大学 2007年 2007_3"
+problem_id: "07_kyushu-2007-2007_3"
+university: "九州大学"
+exam_year: "2007"
+source_tex: "archive/07_kyushu/2007/2007_3.tex"
+pdf_source: "archive/07_kyushu/2007/2007_3.pdf"
+page_image: "archive/07_kyushu/2007/2007_3.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$，$b$を正の数とし，
+空間内の3点$A(a, \, -a, \, b)$，$B(-a, \, a, \, b)$，$C(a, \, a, \, -b)$を考える．
+$A$，$B$，$C$を通る平面を$\alpha$，
+原点$O$を中心とし$A$，$B$，$C$を通る球面を$S$とおく．
+このとき，次の問いに答えよ．
+\begin{description}
+\item[(1)]線分$AB$の中点を$D$とするとき，
+$\overrightarrow{DC}\perp\overrightarrow{AB}$および$\overrightarrow{DO}\perp\overrightarrow{AB}$であることを示せ．
+また$\triangle ABC$の面積を求めよ．
+\item[(2)]ベクトル$\overrightarrow{DC}$と$\overrightarrow{DO}$のなす角を$\theta$とするとき
+$\sin\theta$を求めよ．
+また，平面$\alpha$に垂直で原点$O$を通る直線と平面$\alpha$との交点を$H$とするとき，
+線分$OH$の長さを求めよ．
+\item[(3)]点$P$が球面$S$上を動くとき，
+四面体$ABCP$の体積の最大値を求めよ．
+ただし，$P$は平面$\alpha$上にはないものとする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_3.pdf)

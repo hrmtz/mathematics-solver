@@ -1,0 +1,27 @@
+---
+title: "京都大学 1984年 1984_3"
+problem_id: "02_kyoto-1984-1984_3"
+university: "京都大学"
+exam_year: "1984"
+source_tex: "archive/02_kyoto/1984/1984_3.tex"
+pdf_source: "archive/02_kyoto/1984/1984_3.pdf"
+page_image: "archive/02_kyoto/1984/1984_3.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　実数$t$の値によって定まる点$P(t+1,t)$と$Q(t-1,-t)$がある．
+\begin{description}
+\item[(1)]$t$がすべての実数を動くとき，直線$PQ$が通過する範囲を図示せよ．
+\item[(2)]$t$が区間$[0,1]=\{t|0 \leqq t \leqq1\}$を動くとき，線分$PQ$が通過する範囲の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1984/1984_3.pdf)

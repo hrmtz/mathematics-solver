@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 2008年 2008_1"
+problem_id: "08_titech-2008-2008_1"
+university: "東京科学大学"
+exam_year: "2008"
+source_tex: "archive/08_titech/2008/2008_1.tex"
+pdf_source: "archive/08_titech/2008/2008_1.pdf"
+page_image: "archive/08_titech/2008/2008_1.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　正の実数$a$，$b$に対し，$x>0$で定義された2つの関数$x^a$と$\log bx$のグラフが1点で接するとする．
+\begin{description}
+\item[(1)]接点の座標$(s,t)$を$a$を用いて表せ．また，$b$を$a$の関数として表せ．
+\item[(2)]$0<h<s$をみたす$h$に対し，直線$x=h$および2つの曲線$y=x^a$，$y=\log bx$で囲まれる領域の面積を$A(h)$とする．
+$\displaystyle\lim_{h \to 0}A(h)$を$a$で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2008/2008_1.pdf)

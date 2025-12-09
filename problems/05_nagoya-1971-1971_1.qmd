@@ -1,0 +1,31 @@
+---
+title: "名古屋大学 1971年 1971_1"
+problem_id: "05_nagoya-1971-1971_1"
+university: "名古屋大学"
+exam_year: "1971"
+source_tex: "archive/05_nagoya/1971/1971_1.tex"
+pdf_source: "archive/05_nagoya/1971/1971_1.pdf"
+page_image: "archive/05_nagoya/1971/1971_1.jpg"
+fields:
+  - 平面図形
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次のおのおのを証明せよ．
+\begin{description}
+\item[(1)]$n$ $(\geqq4)$個の点があって，
+その中からどの4個の点をとってもそれらを通る円がかけるとき，
+この$n$個の点は1つの円周上にある．
+\item[(2)]平面上に4角形$S$があって，
+$S$の任意の2点の距離が1をこえないならば，
+$S$の面積は$\displaystyle\frac{1}{2}$をこえない．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1971/1971_1.pdf)

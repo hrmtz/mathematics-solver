@@ -1,0 +1,29 @@
+---
+title: "京都大学 1992年 1992_b"
+problem_id: "02_kyoto-1992-1992_b"
+university: "京都大学"
+exam_year: "1992"
+source_tex: "archive/02_kyoto/1992/1992_b.tex"
+pdf_source: "archive/02_kyoto/1992/1992_b.pdf"
+page_image: "archive/02_kyoto/1992/1992_b.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　一辺の長さが$n$の立方体$ABCD-PQRS$がある．
+ただし，2つの正方形$ABCD$，$PQRS$は立方体の向かい合った面で$AP$，$BQ$，$CR$，$DS$は，それぞれ，立方体の辺である．
+　立方体の各面は一辺の長さ1の正方形に碁盤目(ごばんめ)状に区切られているとする．
+そこで，頂点$A$から頂点$R$へ碁盤目上の辺をたどっていくときの最短径路を考える．
+\begin{description}
+\item[(1)]辺$BC$上の点を通過する最短径路は全部で何通りあるか．
+\item[(2)]頂点$A$から頂点$R$への最短径路は全部で何通りあるか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_b.pdf)

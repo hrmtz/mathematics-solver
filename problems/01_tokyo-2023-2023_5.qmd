@@ -1,0 +1,29 @@
+---
+title: "東京大学 2023年 2023_5"
+problem_id: "01_tokyo-2023-2023_5"
+university: "東京大学"
+exam_year: "2023"
+source_tex: "archive/01_tokyo/2023/2023_5.tex"
+pdf_source: "archive/01_tokyo/2023/2023_5.pdf"
+page_image: "archive/01_tokyo/2023/2023_5.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　整式$f(x)={(x-1)}^2(x-2)$を考える。
+\begin{description}
+\item[(1)]$g(x)$を実数を係数とする整式とし，$g(x)$を$f(x)$で割った余りを$r(x)$とおく。
+${g(x)}^7$を$f(x)$で割った余りと${r(x)}^7$を$f(x)$で割った余りが等しいことを示せ。
+\item[(2)]$a$，$b$を実数とし，$h(x)=x^2+ax+b$とおく。
+${h(x)}^7$を$f(x)$で割った余りを$h_1(x)$とおき，${h_1(x)}^7$を$f(x)$で割った余りを$h_2(x)$とおく。
+$h_2(x)$が$h(x)$に等しくなるような$a$，$b$の組をすべて求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2023/2023_5.pdf)

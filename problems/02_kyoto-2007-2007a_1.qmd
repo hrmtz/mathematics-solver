@@ -1,0 +1,35 @@
+---
+title: "京都大学 2007年 2007a_1"
+problem_id: "02_kyoto-2007-2007a_1"
+university: "京都大学"
+exam_year: "2007"
+source_tex: "archive/02_kyoto/2007/2007a_1.tex"
+pdf_source: "archive/02_kyoto/2007/2007a_1.pdf"
+page_image: "archive/02_kyoto/2007/2007a_1.jpg"
+fields:
+  - 行列
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の各問にそれぞれ答えよ．
+\begin{description}
+\item[(1)]$A=\begin{pmatrix} 2 & 4 
+
+ -1 & -1 \end{pmatrix}$，
+$E=\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}$とするとき，
+$A^6+2A^4+2A^3+2A^2+2A+3E$を求めよ．
+\item[(2)]得点$1,2,\cdots,n$が等しい確率で得られるゲームを独立に3回くり返す．
+このとき，2回目の得点が1回目の得点以上であり，
+さらに3回目の得点が2回目の得点以上となる確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2007/2007a_1.pdf)

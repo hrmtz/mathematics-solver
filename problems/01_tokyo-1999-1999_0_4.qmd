@@ -1,0 +1,29 @@
+---
+title: "東京大学 1999年 1999_0_4"
+problem_id: "01_tokyo-1999-1999_0_4"
+university: "東京大学"
+exam_year: "1999"
+source_tex: "archive/01_tokyo/1999/1999_0_4.tex"
+pdf_source: "archive/01_tokyo/1999/1999_0_4.pdf"
+page_image: "archive/01_tokyo/1999/1999_0_4.jpg"
+fields:
+  - 確率
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+\begin{description}
+\item[(1)]四面体$ABCD$の各辺はそれぞれ確率$\displaystyle\frac{1}{2}$で電流を通すものとする．
+このとき，頂点$A$から$B$に電流が流れる確率を求めよ．
+ただし，各辺が電流を通すか通さないかは独立で，辺以外は電流を通さないものとする．
+\item[(2)](1)で考えたような2つの四面体$ABCD$と$EFGH$を図のように頂点$A$と$E$でつないだとき，
+頂点$B$から$F$に電流が流れる確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1999/1999_0_4.pdf)

@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 1971年 1971_5"
+problem_id: "08_titech-1971-1971_5"
+university: "東京科学大学"
+exam_year: "1971"
+source_tex: "archive/08_titech/1971/1971_5.tex"
+pdf_source: "archive/08_titech/1971/1971_5.pdf"
+page_image: "archive/08_titech/1971/1971_5.jpg"
+fields:
+  - 不等式
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+\begin{description}
+\item[(1)]$x>0$のとき，不等式$e^{-x}>1-x$が成り立つことを証明せよ．
+\item[(2)]次の極限値を求めよ．
+\[ \lim_{n\to\infty}\left(1-\frac{1}{1+\sqrt2}\right)\left(1-\frac{1}{\sqrt2+\sqrt3}\right)
+\cdots\left(1-\frac{1}{\sqrt{n-1}+\sqrt{n}}\right) \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1971/1971_5.pdf)

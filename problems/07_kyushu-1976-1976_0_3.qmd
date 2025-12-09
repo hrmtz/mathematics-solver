@@ -1,0 +1,24 @@
+---
+title: "九州大学 1976年 1976_0_3"
+problem_id: "07_kyushu-1976-1976_0_3"
+university: "九州大学"
+exam_year: "1976"
+source_tex: "archive/07_kyushu/1976/1976_0_3.tex"
+pdf_source: "archive/07_kyushu/1976/1976_0_3.pdf"
+page_image: "archive/07_kyushu/1976/1976_0_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　2点$A(-2, \, 0)$，$B(1, \, 0)$に対し$\displaystyle\frac{\overline{PB}}{\overline{PA}}=\frac{1}{2}$となる点$P$で，
+直線$y=x-2$の上にあるものをすべて求めよ．
+ただし，$\overline{PA}$，$\overline{PB}$はそれぞれ線分$PA$，$PB$の長さを表す．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1976/1976_0_3.pdf)

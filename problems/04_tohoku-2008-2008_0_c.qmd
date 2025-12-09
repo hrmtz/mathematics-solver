@@ -1,0 +1,29 @@
+---
+title: "東北大学 2008年 2008_0_c"
+problem_id: "04_tohoku-2008-2008_0_c"
+university: "東北大学"
+exam_year: "2008"
+source_tex: "archive/04_tohoku/2008/2008_0_c.tex"
+pdf_source: "archive/04_tohoku/2008/2008_0_c.pdf"
+page_image: "archive/04_tohoku/2008/2008_0_c.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　数直線上を点$P$が1ステップごとに，+1または-1だけそれぞれ$\displaystyle\frac{1}{2}$の確率で移動する．
+数直線上の値が3の点を$A$として，$P$が$A$にたどり着くと停止する．
+このとき，以下の問いに答えよ．
+\begin{description}
+\item[(1)]$P$が原点$O$から出発して，ちょうど5ステップで$A$にたどり着く確率を求めよ．
+\item[(2)]$P$が原点$O$から出発して，ちょうど6ステップで値が2の点$B$にたどり着く確率を求めよ．
+\item[(3)]$P$が原点$O$から出発して，8ステップ以上移動する確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_0_c.pdf)

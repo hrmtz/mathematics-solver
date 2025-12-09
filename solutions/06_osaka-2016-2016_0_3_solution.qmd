@@ -1,0 +1,183 @@
+## 解答
+
+(1)  
+$a=2,\,b=3$ のとき，定義より順に計算する。
+
+まず  
+$$
+f_1(x)=\sin(\pi x)
+$$
+
+（イ）より  
+$$
+f_2(x)=f_1\!\left(\frac{1}{a}+\frac{1}{b}-x\right)
+=f_1\!\left(\frac{1}{2}+\frac{1}{3}-x\right)
+=f_1\!\left(\frac{5}{6}-x\right)
+=\sin\!\bigl(\pi(\tfrac{5}{6}-x)\bigr)
+$$
+
+（ウ）より  
+$$
+f_3(x)=f_2(-x)
+=\sin\!\bigl(\pi(\tfrac{5}{6}-(-x))\bigr)
+=\sin\!\bigl(\pi(\tfrac{5}{6}+x)\bigr)
+$$
+
+（イ）より  
+$$
+f_4(x)=f_3\!\left(\frac{5}{6}-x\right)
+=\sin\!\bigl(\pi(\tfrac{5}{6}+\tfrac{5}{6}-x)\bigr)
+=\sin\!\bigl(\pi(\tfrac{5}{3}-x)\bigr)
+$$
+
+（ウ）より  
+$$
+f_5(x)=f_4(-x)
+=\sin\!\bigl(\pi(\tfrac{5}{3}-(-x))\bigr)
+=\sin\!\bigl(\pi(\tfrac{5}{3}+x)\bigr)
+$$
+
+したがって  
+$$
+f_5(0)=\sin\!\left(\pi\cdot\frac{5}{3}\right)
+=\sin\!\left(\frac{5\pi}{3}\right)
+=-\frac{\sqrt{3}}{2}
+$$
+
+よって  
+$$
+f_5(0)=-\frac{\sqrt{3}}{2}
+$$
+
+---
+
+(2)  
+一般の $a,b$ について，$f_n(0)$ を追って $f_6(0)$ を求める。
+
+まず  
+$$
+f_1(x)=\sin(\pi x)
+\quad\Rightarrow\quad
+f_1(0)=\sin 0=0
+$$
+
+（イ）より  
+$$
+f_2(x)=f_1\!\left(\frac{1}{a}+\frac{1}{b}-x\right)
+\Rightarrow
+f_2(0)=f_1\!\left(\frac{1}{a}+\frac{1}{b}\right)
+=\sin\!\left(\pi\Bigl(\frac{1}{a}+\frac{1}{b}\Bigr)\right)
+$$
+
+（ウ）より  
+$$
+f_3(x)=f_2(-x)
+\Rightarrow
+f_3(0)=f_2(0)
+=\sin\!\left(\pi\Bigl(\frac{1}{a}+\frac{1}{b}\Bigr)\right)
+$$
+
+（イ）より  
+$$
+f_4(x)=f_3\!\left(\frac{1}{a}+\frac{1}{b}-x\right)
+\Rightarrow
+f_4(0)=f_3\!\left(\frac{1}{a}+\frac{1}{b}\right)
+=\sin\!\left(\pi\Bigl(\frac{1}{a}+\frac{1}{b}+\frac{1}{a}+\frac{1}{b}\Bigr)\right)
+=\sin\!\left(2\pi\Bigl(\frac{1}{a}+\frac{1}{b}\Bigr)\right)
+$$
+
+（ウ）より  
+$$
+f_5(x)=f_4(-x)
+\Rightarrow
+f_5(0)=f_4(0)
+=\sin\!\left(2\pi\Bigl(\frac{1}{a}+\frac{1}{b}\Bigr)\right)
+$$
+
+（イ）より  
+$$
+f_6(x)=f_5\!\left(\frac{1}{a}+\frac{1}{b}-x\right)
+\Rightarrow
+f_6(0)=f_5\!\left(\frac{1}{a}+\frac{1}{b}\right)
+=\sin\!\left(2\pi\Bigl(\frac{1}{a}+\frac{1}{b}+\frac{1}{a}+\frac{1}{b}\Bigr)\right)
+=\sin\!\left(4\pi\Bigl(\frac{1}{a}+\frac{1}{b}\Bigr)\right)
+$$
+
+したがって  
+$$
+f_6(0)=0
+\quad\Longleftrightarrow\quad
+\sin\!\left(4\pi\Bigl(\frac{1}{a}+\frac{1}{b}\Bigr)\right)=0
+$$
+
+三角関数の性質より  
+$$
+\sin \theta =0 \Longleftrightarrow \theta=k\pi\quad(k\in\mathbb{Z})
+$$
+であるから，
+$$
+4\pi\Bigl(\frac{1}{a}+\frac{1}{b}\Bigr)=k\pi
+\quad(k\in\mathbb{Z})
+$$
+すなわち  
+$$
+\frac{1}{a}+\frac{1}{b}=\frac{k}{4}
+\quad(k\in\mathbb{Z})
+$$
+
+$a,b$ は $1,2,3,4,5,6$ のいずれかなので，左辺の値を列挙する。  
+$a\le b$ として考えれば十分である。
+
+$a,b$ の組と $\dfrac{1}{a}+\dfrac{1}{b}$ は次の通り（同じ値はまとめて記す）。
+
+- $\dfrac{1}{1}+\dfrac{1}{1}=2$
+- $\dfrac{1}{1}+\dfrac{1}{2}=\dfrac{3}{2}$
+- $\dfrac{1}{1}+\dfrac{1}{3}=\dfrac{4}{3}$
+- $\dfrac{1}{1}+\dfrac{1}{4}=\dfrac{5}{4}$
+- $\dfrac{1}{1}+\dfrac{1}{5}=\dfrac{6}{5}$
+- $\dfrac{1}{1}+\dfrac{1}{6}=\dfrac{7}{6}$
+- $\dfrac{1}{2}+\dfrac{1}{2}=1$
+- $\dfrac{1}{2}+\dfrac{1}{3}=\dfrac{5}{6}$
+- $\dfrac{1}{2}+\dfrac{1}{4}=\dfrac{3}{4}$
+- $\dfrac{1}{2}+\dfrac{1}{5}=\dfrac{7}{10}$
+- $\dfrac{1}{2}+\dfrac{1}{6}=\dfrac{2}{3}$
+- $\dfrac{1}{3}+\dfrac{1}{3}=\dfrac{2}{3}$
+- $\dfrac{1}{3}+\dfrac{1}{4}=\dfrac{7}{12}$
+- $\dfrac{1}{3}+\dfrac{1}{5}=\dfrac{8}{15}$
+- $\dfrac{1}{3}+\dfrac{1}{6}=\dfrac{1}{2}$
+- $\dfrac{1}{4}+\dfrac{1}{4}=\dfrac{1}{2}$
+- $\dfrac{1}{4}+\dfrac{1}{5}=\dfrac{9}{20}$
+- $\dfrac{1}{4}+\dfrac{1}{6}=\dfrac{5}{12}$
+- $\dfrac{1}{5}+\dfrac{1}{5}=\dfrac{2}{5}$
+- $\dfrac{1}{5}+\dfrac{1}{6}=\dfrac{11}{30}$
+- $\dfrac{1}{6}+\dfrac{1}{6}=\dfrac{1}{3}$
+
+これらの中で $\dfrac{k}{4}$ の形（$k$ は整数）になるものを探す。
+
+分母を $4$ にした分数を調べると，該当するのは  
+$$
+\frac{1}{2}=\frac{2}{4}
+$$
+のみである。よって
+$$
+\frac{1}{a}+\frac{1}{b}=\frac{1}{2}
+$$
+となる $(a,b)$ を調べる。
+
+上の表から，  
+$$
+\frac{1}{3}+\frac{1}{6}=\frac{1}{2},\quad
+\frac{1}{4}+\frac{1}{4}=\frac{1}{2}
+$$
+より，  
+$(a,b)=(3,6),(6,3),(4,4)$ の 3 組が条件を満たす。
+
+さいころを 2 回投げるとき，出る目の組 $(a,b)$ は全部で $6\times6=36$ 通りで，それぞれ等確率であるから，
+$$
+P(f_6(0)=0)=\frac{3}{36}=\frac{1}{12}
+$$
+
+よって，求める確率は  
+$$
+\frac{1}{12}
+$$

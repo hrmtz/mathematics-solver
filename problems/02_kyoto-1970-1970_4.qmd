@@ -1,0 +1,25 @@
+---
+title: "京都大学 1970年 1970_4"
+problem_id: "02_kyoto-1970-1970_4"
+university: "京都大学"
+exam_year: "1970"
+source_tex: "archive/02_kyoto/1970/1970_4.tex"
+pdf_source: "archive/02_kyoto/1970/1970_4.pdf"
+page_image: "archive/02_kyoto/1970/1970_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　半径$r$の円$O$の定弦を$AB$とし，その長さを$2l$とする．
+円$O$の周上の動点$P$について，
+積$AP \cdot BP$が$2r(r-\sqrt{r^2-l^2})$となるのは，
+$P$がどの位置にあるときか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1970/1970_4.pdf)

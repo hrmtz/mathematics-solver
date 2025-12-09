@@ -1,0 +1,24 @@
+---
+title: "名古屋大学 1978年 1978_0_5a"
+problem_id: "05_nagoya-1978-1978_0_5a"
+university: "名古屋大学"
+exam_year: "1978"
+source_tex: "archive/05_nagoya/1978/1978_0_5a.tex"
+pdf_source: "archive/05_nagoya/1978/1978_0_5a.pdf"
+page_image: "archive/05_nagoya/1978/1978_0_5a.jpg"
+fields:
+  - 積分法
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+5 (a)
+　定積分$\displaystyle I(p)=\int_0^1|x^{n+1}-p^nx|dx$ $(p>0)$が最小となるような$p$の値を求めよ．
+ただし，$n$は自然数とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1978/1978_0_5a.pdf)

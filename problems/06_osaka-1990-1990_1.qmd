@@ -1,0 +1,28 @@
+---
+title: "大阪大学 1990年 1990_1"
+problem_id: "06_osaka-1990-1990_1"
+university: "大阪大学"
+exam_year: "1990"
+source_tex: "archive/06_osaka/1990/1990_1.tex"
+pdf_source: "archive/06_osaka/1990/1990_1.pdf"
+page_image: "archive/06_osaka/1990/1990_1.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]$g(x)$を整式，$h(x)$を2次式とし$f(x)=g(h(x))$とおく．
+このとき，関数$y=f(x)$のグラフは$y$軸または$y$軸に平行なある直線に関して対称であることを示せ．
+\item[(2)]$f(x)$は整式で，関数$y=f(x)$のグラフは$y$軸または$y$軸に平行なある直線に関して対称であるとする．
+このとき，$f(x)$は，ある整式$g(x)$とある2次式$h(x)$を用いて$f(x)=g(h(x))$と書けることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_1.pdf)

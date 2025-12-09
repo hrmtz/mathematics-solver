@@ -1,0 +1,30 @@
+---
+title: "東京大学 2006年 2006_6"
+problem_id: "01_tokyo-2006-2006_6"
+university: "東京大学"
+exam_year: "2006"
+source_tex: "archive/01_tokyo/2006/2006_6.tex"
+pdf_source: "archive/01_tokyo/2006/2006_6.pdf"
+page_image: "archive/01_tokyo/2006/2006_6.jpg"
+fields:
+  - 指数・対数
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$x>0$を定義域とする関数$\displaystyle f(x)=\frac{12(e^{3x}-3e^x)}{e^{2x}-1}$について，以下の問いに答えよ．
+\begin{description}
+\item[(1)]関数$y=f(x)$ $(x>0)$は，実数全体を定義域とする逆関数を持つことを示せ．
+すなわち，任意の実数$a$に対して，$f(x)=a$となる$x>0$がただ1つ存在することを示せ．
+\item[(2)]前問(1)で定められた逆関数を$y=g(x)$ $(-\infty<x<\infty)$とする．
+このとき，定積分$\displaystyle\int_8^{27}g(x)dx$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2006/2006_6.pdf)

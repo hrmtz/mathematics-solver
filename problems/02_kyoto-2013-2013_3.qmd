@@ -1,0 +1,24 @@
+---
+title: "京都大学 2013年 2013_3"
+problem_id: "02_kyoto-2013-2013_3"
+university: "京都大学"
+exam_year: "2013"
+source_tex: "archive/02_kyoto/2013/2013_3.tex"
+pdf_source: "archive/02_kyoto/2013/2013_3.pdf"
+page_image: "archive/02_kyoto/2013/2013_3.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$n$を自然数とし，整式$x^n$を整式$x^2-2x-1$で割った余りを$ax+b$とする．
+このとき$a$と$b$は整数であり，さらにそれらをともに割り切る素数は存在しないことを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2013/2013_3.pdf)

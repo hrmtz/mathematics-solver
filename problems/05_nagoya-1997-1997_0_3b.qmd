@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1997年 1997_0_3b"
+problem_id: "05_nagoya-1997-1997_0_3b"
+university: "名古屋大学"
+exam_year: "1997"
+source_tex: "archive/05_nagoya/1997/1997_0_3b.tex"
+pdf_source: "archive/05_nagoya/1997/1997_0_3b.pdf"
+page_image: "archive/05_nagoya/1997/1997_0_3b.jpg"
+fields:
+  - 整数
+  - 帰納法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3 (b)
+　多項式$f(x)=x^3+ax^2+bx+c$（$a$，$b$，$c$は実数）を考える．
+$f(-1)$，$f(0)$，$f(1)$がすべて整数ならば，
+すべての整数$n$に対し，$f(n)$は整数であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1997/1997_0_3b.pdf)

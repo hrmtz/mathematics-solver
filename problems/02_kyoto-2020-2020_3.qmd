@@ -1,0 +1,31 @@
+---
+title: "京都大学 2020年 2020_3"
+problem_id: "02_kyoto-2020-2020_3"
+university: "京都大学"
+exam_year: "2020"
+source_tex: "archive/02_kyoto/2020/2020_3.tex"
+pdf_source: "archive/02_kyoto/2020/2020_3.pdf"
+page_image: "archive/02_kyoto/2020/2020_3.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$k$を正の実数とする．座標空間において，
+原点$O$を中心とする半径1の球面上の4点$A, \, B, \, C, \, D$が次の関係式を満たしている．
+\[ \overrightarrow{OA}\cdot\overrightarrow{OB}=\overrightarrow{OC}\cdot\overrightarrow{OD}=\frac{1}{2}, \]
+\[ \overrightarrow{OA}\cdot\overrightarrow{OC}=\overrightarrow{OB}\cdot\overrightarrow{OC}=
+-\frac{\sqrt6}{4}, \]
+\[ \overrightarrow{OA}\cdot\overrightarrow{OD}=\overrightarrow{OB}\cdot\overrightarrow{OD}=k \]
+このとき，$k$の値を求めよ．ただし，座標空間の点$X, \, Y$に対して，
+$\overrightarrow{OX}\cdot\overrightarrow{OY}$は，
+$\overrightarrow{OX}$と$\overrightarrow{OY}$の内積を表す．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2020/2020_3.pdf)

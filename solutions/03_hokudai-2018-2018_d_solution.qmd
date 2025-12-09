@@ -1,0 +1,331 @@
+## 解答
+
+(準備)  
+与えられた関数は
+$$
+f(x)=\frac12(e^x+e^{-x})
+$$
+である。これは双曲線余弦関数 $\cosh x$ に等しいが，ここでは指数関数の形で扱う。
+
+---
+
+### (1)
+
+曲線 $y=f(x)$ の $x=0$ から $x=\log s$ までの長さを $L(s)$ とする。  
+一般に，曲線 $y=f(x)$ の $x=a$ から $x=b$ までの弧長は
+$$
+\int_a^b \sqrt{1+(f'(x))^2}\,dx
+$$
+で与えられる。
+
+まず $f'(x)$ を求める。
+$$
+f(x)=\frac12(e^x+e^{-x}) \quad\Rightarrow\quad
+f'(x)=\frac12(e^x-e^{-x})
+$$
+よって
+$$
+\{f'(x)\}^2=\frac14(e^x-e^{-x})^2
+=\frac14(e^{2x}-2+e^{-2x})
+$$
+であり，
+$$
+1+\{f'(x)\}^2
+=1+\frac14(e^{2x}-2+e^{-2x})
+=\frac14(e^{2x}+e^{-2x}+2)
+=\frac14(e^x+e^{-x})^2
+$$
+したがって
+$$
+\sqrt{1+\{f'(x)\}^2}
+=\frac12\,(e^x+e^{-x})
+=f(x).
+$$
+
+よって弧長 $L(s)$ は
+$$
+L(s)=\int_0^{\log s} \sqrt{1+\{f'(x)\}^2}\,dx
+=\int_0^{\log s} f(x)\,dx
+=\int_0^{\log s} \frac12(e^x+e^{-x})\,dx
+$$
+となる。これを積分すると
+$$
+\int \frac12(e^x+e^{-x})\,dx
+=\frac12(e^x-e^{-x})+C
+$$
+だから
+$$
+L(s)=\left[\frac12(e^x-e^{-x})\right]_0^{\log s}
+=\frac12\bigl(e^{\log s}-e^{-\log s}\bigr)
+-\frac12\bigl(e^0-e^0\bigr)
+$$
+$$
+=\frac12\left(s-\frac1s\right).
+$$
+
+したがって
+$$
+\boxed{L(s)=\frac12\left(s-\frac1s\right)}
+$$
+である。
+
+---
+
+### (2)
+
+点 $P$ は $x=\log s$ に対応する $C$ 上の点なので
+$$
+P\bigl(\log s,\ f(\log s)\bigr)
+=\left(\log s,\ \frac12\Bigl(e^{\log s}+e^{-\log s}\Bigr)\right)
+=\left(\log s,\ \frac12\left(s+\frac1s\right)\right)
+$$
+である。
+
+次に，この点での接線 $l$ の方程式を求める。  
+傾きは $f'(\log s)$ だから
+$$
+f'(x)=\frac12(e^x-e^{-x})\quad\Rightarrow\quad
+f'(\log s)=\frac12\Bigl(e^{\log s}-e^{-\log s}\Bigr)
+=\frac12\left(s-\frac1s\right).
+$$
+よって接線 $l$ は
+$$
+y-f(\log s)=f'(\log s)\,(x-\log s)
+$$
+すなわち
+$$
+y-\frac12\left(s+\frac1s\right)
+=\frac12\left(s-\frac1s\right)\,(x-\log s)
+$$
+である。
+
+点 $Q(v,w)$ はこの直線 $l$ 上にあり，かつ $v<\log s$，$PQ=L(s)$ を満たす。  
+直線上にあるから
+$$
+w-\frac12\left(s+\frac1s\right)
+=\frac12\left(s-\frac1s\right)\,(v-\log s)
+\tag{＊}
+$$
+が成り立つ。
+
+次に $PQ=L(s)$ を条件として用いる。  
+2点 $P(\log s,\frac12(s+1/s))$ と $Q(v,w)$ の距離は
+$$
+PQ=\sqrt{(v-\log s)^2+\left(w-\frac12\left(s+\frac1s\right)\right)^2}
+$$
+である。これが
+$$
+L(s)=\frac12\left(s-\frac1s\right)
+$$
+に等しいので
+$$
+\sqrt{(v-\log s)^2+\left(w-\frac12\left(s+\frac1s\right)\right)^2}
+=\frac12\left(s-\frac1s\right)
+$$
+両辺を2乗すると
+$$
+(v-\log s)^2+\left(w-\frac12\left(s+\frac1s\right)\right)^2
+=\frac14\left(s-\frac1s\right)^2
+\tag{＊＊}
+$$
+
+ここで，(＊) より
+$$
+w-\frac12\left(s+\frac1s\right)
+=\frac12\left(s-\frac1s\right)\,(v-\log s)
+$$
+であるから，これを (＊＊) に代入すると
+$$
+(v-\log s)^2
++\left[\frac12\left(s-\frac1s\right)\,(v-\log s)\right]^2
+=\frac14\left(s-\frac1s\right)^2
+$$
+左辺を $(v-\log s)^2$ でくくると
+$$
+(v-\log s)^2\left\{1+\frac14\left(s-\frac1s\right)^2\right\}
+=\frac14\left(s-\frac1s\right)^2
+$$
+ここで
+$$
+1+\frac14\left(s-\frac1s\right)^2
+=1+\frac14\left(s^2-2+\frac1{s^2}\right)
+=\frac14\left(s^2+2+\frac1{s^2}\right)
+=\frac14\left(s+\frac1s\right)^2
+$$
+であるから
+$$
+(v-\log s)^2\cdot\frac14\left(s+\frac1s\right)^2
+=\frac14\left(s-\frac1s\right)^2
+$$
+$$
+\Rightarrow\quad
+(v-\log s)^2
+=\frac{\left(s-\frac1s\right)^2}{\left(s+\frac1s\right)^2}.
+$$
+
+ここで $v<\log s$ なので $v-\log s<0$ であり，右辺は正であるから
+$$
+v-\log s=-\,\frac{s-\frac1s}{s+\frac1s}.
+$$
+右辺を簡単にすると
+$$
+\frac{s-\frac1s}{s+\frac1s}
+=\frac{\frac{s^2-1}{s}}{\frac{s^2+1}{s}}
+=\frac{s^2-1}{s^2+1}
+$$
+なので
+$$
+v-\log s=-\,\frac{s^2-1}{s^2+1}
+\quad\Rightarrow\quad
+v=\log s-\frac{s^2-1}{s^2+1}.
+$$
+
+次に $w$ を求めるため，(＊) を用いる。  
+$$
+w-\frac12\left(s+\frac1s\right)
+=\frac12\left(s-\frac1s\right)\,(v-\log s)
+$$
+に $v-\log s=-\dfrac{s^2-1}{s^2+1}$ を代入すると
+$$
+w-\frac12\left(s+\frac1s\right)
+=\frac12\left(s-\frac1s\right)\left(-\frac{s^2-1}{s^2+1}\right)
+=-\,\frac12\left(s-\frac1s\right)\frac{s^2-1}{s^2+1}
+$$
+ここで
+$$
+s-\frac1s=\frac{s^2-1}{s}
+$$
+なので
+$$
+\left(s-\frac1s\right)(s^2-1)
+=\frac{s^2-1}{s}(s^2-1)
+=\frac{(s^2-1)^2}{s}
+$$
+したがって
+$$
+w-\frac12\left(s+\frac1s\right)
+=-\,\frac12\cdot\frac{(s^2-1)^2}{s(s^2+1)}
+$$
+となる。  
+また
+$$
+\frac12\left(s+\frac1s\right)
+=\frac12\cdot\frac{s^2+1}{s}
+=\frac{s^2+1}{2s}
+$$
+なので
+$$
+w=\frac{s^2+1}{2s}
+-\frac12\cdot\frac{(s^2-1)^2}{s(s^2+1)}.
+$$
+
+右辺を通分して整理する。  
+分母を $2s(s^2+1)$ にそろえると
+$$
+w=\frac{(s^2+1)^2}{2s(s^2+1)}
+-\frac{(s^2-1)^2}{2s(s^2+1)}
+=\frac{(s^2+1)^2-(s^2-1)^2}{2s(s^2+1)}.
+$$
+分子は平方の差として
+$$
+(s^2+1)^2-(s^2-1)^2
+=\bigl\{(s^2+1)-(s^2-1)\bigr\}\bigl\{(s^2+1)+(s^2-1)\bigr\}
+=2\cdot 2s^2=4s^2
+$$
+となるから
+$$
+w=\frac{4s^2}{2s(s^2+1)}=\frac{2s}{s^2+1}.
+$$
+
+以上より，
+$$
+\boxed{v=\log s-\frac{s^2-1}{s^2+1},\quad
+w=\frac{2s}{s^2+1}}
+$$
+である。
+
+---
+
+### (3)
+
+点 $R$ は
+$$
+R(-v+\log s,\ w)
+$$
+と定義されている。(2) の結果を代入する。
+
+まず $-v+\log s$ を求める。  
+$$
+v=\log s-\frac{s^2-1}{s^2+1}
+$$
+なので
+$$
+-v+\log s
+=-\left(\log s-\frac{s^2-1}{s^2+1}\right)+\log s
+=\frac{s^2-1}{s^2+1}.
+$$
+また
+$$
+w=\frac{2s}{s^2+1}
+$$
+であるから，$R$ の座標は
+$$
+R\left(\frac{s^2-1}{s^2+1},\ \frac{2s}{s^2+1}\right)
+$$
+とかける。ここで $s>1$ で任意の実数である。
+
+この軌跡を調べるために，$x,y$ を
+$$
+x=\frac{s^2-1}{s^2+1},\quad
+y=\frac{2s}{s^2+1}
+$$
+とおく。両者から $x^2+y^2$ を計算すると
+$$
+x^2+y^2
+=\left(\frac{s^2-1}{s^2+1}\right)^2
++\left(\frac{2s}{s^2+1}\right)^2
+=\frac{(s^2-1)^2+4s^2}{(s^2+1)^2}.
+$$
+分子は
+$$
+(s^2-1)^2+4s^2
+=(s^4-2s^2+1)+4s^2
+=s^4+2s^2+1
+=(s^2+1)^2
+$$
+であるから
+$$
+x^2+y^2
+=\frac{(s^2+1)^2}{(s^2+1)^2}=1.
+$$
+
+よって点 $R$ は常に円
+$$
+x^2+y^2=1
+$$
+上にある。
+
+さらに，$s>1$ のときの位置を調べる。  
+$y=\dfrac{2s}{s^2+1}$ について，$s>0$ なので $y>0$ が成り立ち，したがって $R$ は $x$ 軸の上側にある。  
+また，$s\to 1^+$ のとき
+$$
+x\to \frac{1-1}{1+1}=0,\quad
+y\to \frac{2}{2}=1
+$$
+となり，$s\to +\infty$ のとき
+$$
+x\to \frac{s^2}{s^2}=1,\quad
+y\to \frac{2s}{s^2}=\frac{2}{s}\to 0^+
+$$
+となる。
+
+したがって，$s$ を $1$ より大きい実数とするとき，点 $R$ の軌跡は  
+「原点を中心とする半径1の円 $x^2+y^2=1$ のうち，上半分のうちで，点 $(0,1)$ より右側，点 $(1,0)$ に近づく弧」  
+である。すなわち，
+
+- 円 $x^2+y^2=1$ 上
+- $y>0$（上半円）
+- $(0,1)$ は含まれず（$s>1$ のため極限値）
+- $(1,0)$ も含まれず（$s\to\infty$ の極限）
+
+である点の集合として図示すればよい。

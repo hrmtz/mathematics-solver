@@ -1,0 +1,22 @@
+---
+title: "東京科学大学 1993年 1993_a"
+problem_id: "08_titech-1993-1993_a"
+university: "東京科学大学"
+exam_year: "1993"
+source_tex: "archive/08_titech/1993/1993_a.tex"
+pdf_source: "archive/08_titech/1993/1993_a.pdf"
+page_image: "archive/08_titech/1993/1993_a.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　一辺の長さが1の立方体を，中心を通る対角線のうちの一本を軸として回転させたとき，この立方体が通過する部分の体積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1993/1993_a.pdf)

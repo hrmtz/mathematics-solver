@@ -1,0 +1,27 @@
+---
+title: "東北大学 1994年 1994_0_c"
+problem_id: "04_tohoku-1994-1994_0_c"
+university: "東北大学"
+exam_year: "1994"
+source_tex: "archive/04_tohoku/1994/1994_0_c.tex"
+pdf_source: "archive/04_tohoku/1994/1994_0_c.pdf"
+page_image: "archive/04_tohoku/1994/1994_0_c.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　実数$t$に対して，$xy$平面上の直線$l_t$を次のように定義する．
+\[ l_t:y=\frac{1}{t^2+1}(4tx+t^2-1) \]
+\begin{description}
+\item[(1)]$t$が実数全体を動くとき，$l_t$の通りうる範囲を図示せよ．
+\item[(2)]$t$が$t\geqq0$のすべてを動くとき，$l_t$の通りうる範囲を図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_0_c.pdf)

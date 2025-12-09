@@ -1,0 +1,32 @@
+---
+title: "大阪大学 2018年 2018_5"
+problem_id: "06_osaka-2018-2018_5"
+university: "大阪大学"
+exam_year: "2018"
+source_tex: "archive/06_osaka/2018/2018_5.tex"
+pdf_source: "archive/06_osaka/2018/2018_5.pdf"
+page_image: "archive/06_osaka/2018/2018_5.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$p$，$q$を$0<p<1$，$0<q<1$を満たす実数とし，$n$を2以上の整数とする．
+2つのチームA，Bが野球の試合を$n$回行う．
+1試合目にAが勝つ確率は$p$であるとする．
+また，Aが勝った試合の次の試合にAが勝つ確率は$p$であり，
+Bが勝った試合の次の試合にAが勝つ確率は$q$であるとする．
+なお，試合結果に引き分けはなく，勝敗が決まるとする．
+\begin{description}
+\item[(1)]$n$試合目にAが勝つ確率$a_n$を求めよ．
+\item[(2)]$n\geqq3$とする．Bが連勝せずにちょうど2試合に勝つ確率$b_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2018/2018_5.pdf)

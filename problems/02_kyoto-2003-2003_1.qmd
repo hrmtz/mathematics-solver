@@ -1,0 +1,28 @@
+---
+title: "京都大学 2003年 2003_1"
+problem_id: "02_kyoto-2003-2003_1"
+university: "京都大学"
+exam_year: "2003"
+source_tex: "archive/02_kyoto/2003/2003_1.tex"
+pdf_source: "archive/02_kyoto/2003/2003_1.pdf"
+page_image: "archive/02_kyoto/2003/2003_1.jpg"
+fields:
+  - 数列
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　正の数からなる数列$\{ a_n \}$が次の条件(i)，(ii)をみたすとき，
+$\displaystyle\sum_{k=1}^n a_k$を求めよ．
+\begin{description}
+\item[(i)]$a_1=1$
+\item[(ii)]$\log a_n - \log a_{n-1} = \log(n-1)-\log(n+1)$ $(n \geqq 2)$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2003/2003_1.pdf)

@@ -1,0 +1,150 @@
+## 解答
+
+求める無限級数を $S$ とおく：
+$$
+S = \sum_{n=0}^\infty \left( \frac{1}{2} \right)^n \cos\frac{n\pi}{6}.
+$$
+
+複素数を用いて，オイラーの公式
+$$
+e^{i\theta} = \cos\theta + i\sin\theta
+$$
+を利用する。
+
+まず，
+$$
+\left( \frac{1}{2} \right)^n \cos\frac{n\pi}{6}
+= \Re \left[ \left( \frac{1}{2} \right)^n e^{i\frac{n\pi}{6}} \right]
+= \Re \left[ \left( \frac{1}{2} e^{i\frac{\pi}{6}} \right)^n \right]
+$$
+であるから，
+$$
+S = \sum_{n=0}^\infty \left( \frac{1}{2} \right)^n \cos\frac{n\pi}{6}
+= \Re \left[ \sum_{n=0}^\infty \left( \frac{1}{2} e^{i\frac{\pi}{6}} \right)^n \right].
+$$
+
+ここで，公比 $r = \dfrac{1}{2}e^{i\pi/6}$ は
+$$
+|r| = \left|\frac{1}{2}e^{i\pi/6}\right| = \frac{1}{2} < 1
+$$
+なので，等比級数の和の公式
+$$
+\sum_{n=0}^\infty r^n = \frac{1}{1-r} \quad (|r|<1)
+$$
+を用いることができる。したがって
+$$
+\sum_{n=0}^\infty \left( \frac{1}{2} e^{i\frac{\pi}{6}} \right)^n
+= \frac{1}{1 - \frac{1}{2} e^{i\frac{\pi}{6}} }.
+$$
+
+よって
+$$
+S = \Re \left[ \frac{1}{1 - \frac{1}{2} e^{i\frac{\pi}{6}} } \right].
+$$
+
+次に，分母を実数表示するために $e^{i\pi/6}$ を三角関数で表す：
+$$
+e^{i\frac{\pi}{6}}
+= \cos\frac{\pi}{6} + i\sin\frac{\pi}{6}
+= \frac{\sqrt{3}}{2} + i\cdot\frac{1}{2}.
+$$
+したがって
+$$
+\frac{1}{2}e^{i\frac{\pi}{6}}
+= \frac{1}{2}\left(\frac{\sqrt{3}}{2} + i\cdot\frac{1}{2}\right)
+= \frac{\sqrt{3}}{4} + i\cdot\frac{1}{4}.
+$$
+
+よって分母は
+$$
+1 - \frac{1}{2}e^{i\frac{\pi}{6}}
+= 1 - \left(\frac{\sqrt{3}}{4} + i\cdot\frac{1}{4}\right)
+= \left(1 - \frac{\sqrt{3}}{4}\right) - i\cdot\frac{1}{4}.
+$$
+
+この逆数を実部と虚部がわかる形にするため，共役をかけて計算する：
+$$
+\frac{1}{1 - \frac{1}{2} e^{i\frac{\pi}{6}}}
+= \frac{1}{\left(1 - \frac{\sqrt{3}}{4}\right) - i\cdot\frac{1}{4}}
+= \frac{\left(1 - \frac{\sqrt{3}}{4}\right) + i\cdot\frac{1}{4}}
+{\left(1 - \frac{\sqrt{3}}{4}\right)^2 + \left(\frac{1}{4}\right)^2}.
+$$
+
+ここで分母を計算する：
+$$
+\left(1 - \frac{\sqrt{3}}{4}\right)^2
+= 1 - 2\cdot 1 \cdot \frac{\sqrt{3}}{4} + \left(\frac{\sqrt{3}}{4}\right)^2
+= 1 - \frac{\sqrt{3}}{2} + \frac{3}{16},
+$$
+したがって
+$$
+\left(1 - \frac{\sqrt{3}}{4}\right)^2 + \left(\frac{1}{4}\right)^2
+= \left(1 - \frac{\sqrt{3}}{2} + \frac{3}{16}\right) + \frac{1}{16}
+= 1 - \frac{\sqrt{3}}{2} + \frac{4}{16}
+= 1 - \frac{\sqrt{3}}{2} + \frac{1}{4}.
+$$
+
+さらに $1 = \dfrac{4}{4}$ とおくと，
+$$
+1 - \frac{\sqrt{3}}{2} + \frac{1}{4}
+= \frac{4}{4} - \frac{2\sqrt{3}}{4} + \frac{1}{4}
+= \frac{5 - 2\sqrt{3}}{4}.
+$$
+
+したがって
+$$
+\frac{1}{1 - \frac{1}{2} e^{i\frac{\pi}{6}}}
+= \frac{\left(1 - \frac{\sqrt{3}}{4}\right) + i\cdot\frac{1}{4}}
+{\dfrac{5 - 2\sqrt{3}}{4}}
+= \frac{4\left(1 - \frac{\sqrt{3}}{4}\right) + i}{5 - 2\sqrt{3}}.
+$$
+
+分子の実部を整理すると
+$$
+4\left(1 - \frac{\sqrt{3}}{4}\right) = 4 - \sqrt{3}
+$$
+であるから，
+$$
+\frac{1}{1 - \frac{1}{2} e^{i\frac{\pi}{6}}}
+= \frac{(4 - \sqrt{3}) + i}{5 - 2\sqrt{3}}.
+$$
+
+求める和 $S$ はこの実部なので，
+$$
+S = \Re\left[\frac{(4 - \sqrt{3}) + i}{5 - 2\sqrt{3}}\right]
+= \frac{4 - \sqrt{3}}{5 - 2\sqrt{3}}.
+$$
+
+分母を有理化する。分子分母に共役 $5 + 2\sqrt{3}$ をかけると，
+$$
+S = \frac{4 - \sqrt{3}}{5 - 2\sqrt{3}}
+= \frac{(4 - \sqrt{3})(5 + 2\sqrt{3})}{(5 - 2\sqrt{3})(5 + 2\sqrt{3})}.
+$$
+
+分母は
+$$
+(5 - 2\sqrt{3})(5 + 2\sqrt{3}) = 25 - (2\sqrt{3})^2 = 25 - 12 = 13,
+$$
+分子は
+$$
+(4 - \sqrt{3})(5 + 2\sqrt{3})
+= 4\cdot 5 + 4\cdot 2\sqrt{3} - \sqrt{3}\cdot 5 - \sqrt{3}\cdot 2\sqrt{3}
+$$
+$$
+= 20 + 8\sqrt{3} - 5\sqrt{3} - 6
+= (20 - 6) + (8\sqrt{3} - 5\sqrt{3})
+= 14 + 3\sqrt{3}.
+$$
+
+よって
+$$
+S = \frac{14 + 3\sqrt{3}}{13}.
+$$
+
+以上より，求める無限級数の和は
+
+$$
+\boxed{\displaystyle \frac{14 + 3\sqrt{3}}{13}}
+$$
+
+である。

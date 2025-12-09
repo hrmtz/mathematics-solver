@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1997年 1997_0_3"
+problem_id: "06_osaka-1997-1997_0_3"
+university: "大阪大学"
+exam_year: "1997"
+source_tex: "archive/06_osaka/1997/1997_0_3.tex"
+pdf_source: "archive/06_osaka/1997/1997_0_3.pdf"
+page_image: "archive/06_osaka/1997/1997_0_3.jpg"
+fields:
+  - 微分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　縦，横，高さがそれぞれ$x$，$x$，$y$で，
+これらの和$x+x+y$が一定値$a$である直方体を考える．
+次の問に答えよ．
+\begin{description}
+\item[(1)]直方体の体積$V$が最大となるように$x$，$y$の値を定めよ．
+\item[(2)]$a=1$とする．直方体の表面積を$S$とするとき，
+$\displaystyle V-\frac{1}{2}S$が最小となる$x$，$y$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1997/1997_0_3.pdf)

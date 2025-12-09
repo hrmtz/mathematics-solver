@@ -1,0 +1,33 @@
+---
+title: "東北大学 2019年 2019_6"
+problem_id: "04_tohoku-2019-2019_6"
+university: "東北大学"
+exam_year: "2019"
+source_tex: "archive/04_tohoku/2019/2019_6.tex"
+pdf_source: "archive/04_tohoku/2019/2019_6.pdf"
+page_image: "archive/04_tohoku/2019/2019_6.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　10個の玉が入っている袋から1個の玉を無作為に取り出し，
+新たに白玉1個を袋に入れるという試行を繰り返す。
+初めに，袋には赤玉5個と白玉5個が入っているとする。
+この試行を$m$回繰り返したとき，
+取り出した赤玉が全部で$k$個である確率を$p(m, \, k)$とする。
+2以上の整数$n$に対して，以下の問いに答えよ。
+\begin{description}
+\item[(1)]$p(n+1, \, 2)$を$p(n, \, 2)$と$p(n, \, 1)$を用いて表せ。
+\item[(2)]$p(n, \, 1)$を求めよ。
+\item[(3)]$p(n, \, 2)$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_6.pdf)

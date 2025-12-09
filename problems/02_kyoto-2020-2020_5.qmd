@@ -1,0 +1,28 @@
+---
+title: "京都大学 2020年 2020_5"
+problem_id: "02_kyoto-2020-2020_5"
+university: "京都大学"
+exam_year: "2020"
+source_tex: "archive/02_kyoto/2020/2020_5.tex"
+pdf_source: "archive/02_kyoto/2020/2020_5.pdf"
+page_image: "archive/02_kyoto/2020/2020_5.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　縦4個，横4個のマス目のそれぞれに1，2，3，4の数字を入れていく．
+このマス目の横の並びを行といい，縦の並びを列という．
+どの行にも，どの列にも同じ数字が1回しか現れない入れ方は何通りあるか求めよ．
+下図はこのような入れ方の1例である．
+ 
+
+![](../archive/02_kyoto/2020/fig_2020_5.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2020/2020_5.pdf)

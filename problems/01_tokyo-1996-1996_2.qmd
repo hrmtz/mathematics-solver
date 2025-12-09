@@ -1,0 +1,29 @@
+---
+title: "東京大学 1996年 1996_2"
+problem_id: "01_tokyo-1996-1996_2"
+university: "東京大学"
+exam_year: "1996"
+source_tex: "archive/01_tokyo/1996/1996_2.tex"
+pdf_source: "archive/01_tokyo/1996/1996_2.pdf"
+page_image: "archive/01_tokyo/1996/1996_2.jpg"
+fields:
+  - 不等式
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$，$b$，$c$，$d$を正の数とする．
+不等式$\begin{cases} s(1-a)-tb>0 
+
+ -sc+t(1-d)>0 \end{cases}$を同時に満たす正の数$s$，$t$があるとき，
+2次方程式
+\[ x^2-(a+d)x+(ad-bc)=0 \]
+は$-1<x<1$の範囲に異なる2つの実数解をもつことを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1996/1996_2.pdf)

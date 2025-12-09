@@ -1,0 +1,23 @@
+---
+title: "京都大学 1979年 1979_0_5"
+problem_id: "02_kyoto-1979-1979_0_5"
+university: "京都大学"
+exam_year: "1979"
+source_tex: "archive/02_kyoto/1979/1979_0_5.tex"
+pdf_source: "archive/02_kyoto/1979/1979_0_5.pdf"
+page_image: "archive/02_kyoto/1979/1979_0_5.jpg"
+fields:
+  - 整数
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$\displaystyle\frac{2^n}{n}>n$をみたす自然数$n$の範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1979/1979_0_5.pdf)

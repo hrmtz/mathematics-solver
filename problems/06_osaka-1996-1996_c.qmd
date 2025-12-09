@@ -1,0 +1,31 @@
+---
+title: "大阪大学 1996年 1996_c"
+problem_id: "06_osaka-1996-1996_c"
+university: "大阪大学"
+exam_year: "1996"
+source_tex: "archive/06_osaka/1996/1996_c.tex"
+pdf_source: "archive/06_osaka/1996/1996_c.pdf"
+page_image: "archive/06_osaka/1996/1996_c.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$n$を正の整数とする．
+1から6までの目が等しい確率で出るサイコロ2つを同時に投げるという試行を$n$回くり返す．
+$i$番目の試行$(1 \leqq i \leqq n)$で出た2つの目の和を$X_i$とする．
+また，$X_1, \, X_2, \, \cdots\cdots, \, X_n$のうち最大値を$M(n)$，最小値を$m(n)$とする．
+\begin{description}
+\item[(1)]$M(2)>m(2)$となる確率を求めよ．
+\item[(2)]$M(n)=5$となる確率を求めよ．
+\item[(3)]$m(n)$の期待値を$a_n$とかくとき，
+$\displaystyle\lim_{n\to\infty}a_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1996/1996_c.pdf)

@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2015年 2015_c"
+problem_id: "03_hokudai-2015-2015_c"
+university: "北海道大学"
+exam_year: "2015"
+source_tex: "archive/03_hokudai/2015/2015_c.tex"
+pdf_source: "archive/03_hokudai/2015/2015_c.pdf"
+page_image: "archive/03_hokudai/2015/2015_c.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　方程式$\displaystyle\frac{x^2}{2}+y^2=1$で定まる楕円$E$とその焦点$F(1, \, 0)$がある。
+$E$上に点$P$をとり，直線$PF$と$E$との交点のうち$P$と異なる点を$Q$とする。
+$F$を通り直線$PF$と垂直な直線と$E$との2つの交点を$R$，$S$とする。
+\begin{description}
+\item[(1)]$r$を正の実数，$\theta$を実数とする。
+点$(r\cos\theta+1, \, r\sin\theta)$が$E$上にあるとき，$r$を$\theta$で表せ。
+\item[(2)]$P$が$E$上を動くとき，$PF+QF+RF+SF$の最小値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2015/2015_c.pdf)

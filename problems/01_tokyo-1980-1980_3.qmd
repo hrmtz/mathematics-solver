@@ -1,0 +1,37 @@
+---
+title: "東京大学 1980年 1980_3"
+problem_id: "01_tokyo-1980-1980_3"
+university: "東京大学"
+exam_year: "1980"
+source_tex: "archive/01_tokyo/1980/1980_3.tex"
+pdf_source: "archive/01_tokyo/1980/1980_3.pdf"
+page_image: "archive/01_tokyo/1980/1980_3.jpg"
+fields:
+  - 行列
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\alpha$を実数，
+$A=\begin{pmatrix} 1 & -1 
+
+ 1 & 1 \end{pmatrix}$とし，
+正整数$n$について$\begin{pmatrix} p_n 
+
+ q_n \end{pmatrix}=A^n\begin{pmatrix} \alpha 
+
+ 1 \end{pmatrix}$とおく．
+\begin{description}
+\item[(1)]ある$n$について$q_n=0$となるような$\alpha$の値をすべて求めよ．
+\item[(2)]すべての$n$について$q_n \neq 0$となるような$\alpha$を考える．
+そのとき，$\displaystyle a_n=\frac{p_n}{q_n}$を$\alpha$を用いて表し，
+また，$a_1,a_2,\cdots,a_n,\cdots$の値のうちで異なるものの個数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1980/1980_3.pdf)

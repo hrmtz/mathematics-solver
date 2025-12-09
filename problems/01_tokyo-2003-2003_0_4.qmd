@@ -1,0 +1,32 @@
+---
+title: "東京大学 2003年 2003_0_4"
+problem_id: "01_tokyo-2003-2003_0_4"
+university: "東京大学"
+exam_year: "2003"
+source_tex: "archive/01_tokyo/2003/2003_0_4.tex"
+pdf_source: "archive/01_tokyo/2003/2003_0_4.pdf"
+page_image: "archive/01_tokyo/2003/2003_0_4.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　さいころを振り，出た目の数で17を割った余りを$X_1$とする．
+ただし，1で割った余りは0である．
+さらにさいころを振り、出た目の数で$X_1$を割った余りを$X_2$とする．
+以下同様にして，$X_n$が決まればさいころを振り，出た目の数で$X_n$を割った余りを$X_{n+1}$とする．
+　このようにして，$X_n$，$n=1,2,\cdots$を定める．
+\begin{description}
+\item[(1)]$X_3=0$となる確率を求めよ．
+\item[(2)]各$n$に対し，$X_n=5$となる確率を求めよ．
+\item[(3)]各$n$に対し，$X_n=1$となる確率を求めよ．
+\end{description}
+　(注意)さいころは1から6までの目が等確率で出るものとする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2003/2003_0_4.pdf)

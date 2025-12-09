@@ -1,0 +1,26 @@
+---
+title: "北海道大学 2015年 2015_0_4"
+problem_id: "03_hokudai-2015-2015_0_4"
+university: "北海道大学"
+exam_year: "2015"
+source_tex: "archive/03_hokudai/2015/2015_0_4.tex"
+pdf_source: "archive/03_hokudai/2015/2015_0_4.pdf"
+page_image: "archive/03_hokudai/2015/2015_0_4.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　ジョーカーを除く1組52枚のトランプのカードを1列に並べる試行を考える。
+\begin{description}
+\item[(1)]番号7のカードが4枚連続して並ぶ確率を求めよ。
+\item[(2)]番後7のカードが2枚ずつ隣り合い，4枚連続しては並ばない確率を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2015/2015_0_4.pdf)

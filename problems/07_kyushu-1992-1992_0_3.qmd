@@ -1,0 +1,31 @@
+---
+title: "九州大学 1992年 1992_0_3"
+problem_id: "07_kyushu-1992-1992_0_3"
+university: "九州大学"
+exam_year: "1992"
+source_tex: "archive/07_kyushu/1992/1992_0_3.tex"
+pdf_source: "archive/07_kyushu/1992/1992_0_3.pdf"
+page_image: "archive/07_kyushu/1992/1992_0_3.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　三角形$ABC$の辺$AB$上に点$P$をとる．
+$\angle PCA=x$，$s=1+\tan x$とおく．
+$\displaystyle \angle PCB=\frac{\pi}{4}$，$\angle ABC=2x$，$BC=1$のとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$A$から$BC$に下ろした垂線を$AH$とする．
+$BH$の長さ$y$を$s$で表せ．
+\item[(2)]$\displaystyle\frac{\pi}{8}\leqq x \leqq\frac{\pi}{6}$の範囲で，
+$\displaystyle\frac{1-y}{y}$の最大値およびそのときの$x$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_0_3.pdf)

@@ -1,0 +1,26 @@
+---
+title: "京都大学 2017年 2017_6"
+problem_id: "02_kyoto-2017-2017_6"
+university: "京都大学"
+exam_year: "2017"
+source_tex: "archive/02_kyoto/2017/2017_6.tex"
+pdf_source: "archive/02_kyoto/2017/2017_6.pdf"
+page_image: "archive/02_kyoto/2017/2017_6.jpg"
+fields:
+  - 確率
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$n$を自然数とする．$n$個の箱すべてに，
+1，2，3，4，5の5種類のカードがそれぞれ1枚ずつ計5枚入っている．
+各々の箱から1枚ずつカードを取り出し，取り出した順に左から並べて$n$桁の数$X$を作る．
+このとき，$X$が3で割り切れる確率を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2017/2017_6.pdf)

@@ -1,0 +1,28 @@
+---
+title: "九州大学 1966年 1966_0_5"
+problem_id: "07_kyushu-1966-1966_0_5"
+university: "九州大学"
+exam_year: "1966"
+source_tex: "archive/07_kyushu/1966/1966_0_5.tex"
+pdf_source: "archive/07_kyushu/1966/1966_0_5.pdf"
+page_image: "archive/07_kyushu/1966/1966_0_5.jpg"
+fields:
+  - 三角関数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+\begin{description}
+\item[(1)]$\displaystyle\sin\theta=\frac{4}{5}$のとき，$\cos\theta$，$\tan(\pi-\theta)$の値を求めよ．
+\item[(2)]$n$が自然数のとき，関数$f_n(x)$は次式で定義されるものとする．
+\[ f_n(x)={(1-x+x^2)}^n \]
+このとき${f_n}'(0)=-n$であることを，数学的帰納法によって証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1966/1966_0_5.pdf)

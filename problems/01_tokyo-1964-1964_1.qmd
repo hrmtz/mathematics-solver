@@ -1,0 +1,25 @@
+---
+title: "東京大学 1964年 1964_1"
+problem_id: "01_tokyo-1964-1964_1"
+university: "東京大学"
+exam_year: "1964"
+source_tex: "archive/01_tokyo/1964/1964_1.tex"
+pdf_source: "archive/01_tokyo/1964/1964_1.pdf"
+page_image: "archive/01_tokyo/1964/1964_1.jpg"
+fields:
+  - 代数
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$，$b$，$c$を相異なる数，$x$，$y$，$z$を連立方程式
+\[ x+ay+a^2z=a^3, \hspace{1zw} x+by+b^2z=b^3, \hspace{1zw} x+cy+c^2z=c^3 \]
+の根とするとき，$a^3+b^3+c^3$を$x$，$y$，$z$で表わせ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1964/1964_1.pdf)

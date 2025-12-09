@@ -1,0 +1,35 @@
+---
+title: "北海道大学 2011年 2011_b"
+problem_id: "03_hokudai-2011-2011_b"
+university: "北海道大学"
+exam_year: "2011"
+source_tex: "archive/03_hokudai/2011/2011_b.tex"
+pdf_source: "archive/03_hokudai/2011/2011_b.pdf"
+page_image: "archive/03_hokudai/2011/2011_b.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$を実数とする。
+$xyz$空間内の4点を$A(0, \, a, \, 4)$，$B(-2, \, 0, \, 3)$，
+$C(1, \, 0, \, 2)$，$D(0, \, 2, \, 3)$とし，
+点$P(1, \, 0, \, 6)$に光源をおく。
+\begin{description}
+\item[(1)]光源が$xy$平面上につくる点$A$の影の座標を求めよ。
+また，$a$が実数全体にわたって変化するとき，その影がつくる直線の方程式を求めよ。
+\item[(2)]光源が$xy$平面上につくる三角形$BCD$の影は三角形となる。
+この三角形の頂点の座標を求めよ。
+\item[(3)]$a<5$とする。
+光源が$xy$平面上につくる四面体$ABCD$の影を考える。
+この影が三角形となるような$a$の範囲を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2011/2011_b.pdf)

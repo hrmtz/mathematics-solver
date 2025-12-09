@@ -1,0 +1,25 @@
+---
+title: "大阪大学 1967年 1967_2"
+problem_id: "06_osaka-1967-1967_2"
+university: "大阪大学"
+exam_year: "1967"
+source_tex: "archive/06_osaka/1967/1967_2.tex"
+pdf_source: "archive/06_osaka/1967/1967_2.pdf"
+page_image: "archive/06_osaka/1967/1967_2.jpg"
+fields:
+  - 整数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　直線$y=x$と放物線$y=2^{-100}x^2$とによって囲まれる図形を$F$とする．
+座標が$(2^m, \, 2^n)$であるような点は$F$の内部に何個あるか．
+ただし，$m$，$n$は正の整数とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1967/1967_2.pdf)

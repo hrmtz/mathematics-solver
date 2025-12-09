@@ -1,0 +1,27 @@
+---
+title: "東京大学 2007年 2007_0_1"
+problem_id: "01_tokyo-2007-2007_0_1"
+university: "東京大学"
+exam_year: "2007"
+source_tex: "archive/01_tokyo/2007/2007_0_1.tex"
+pdf_source: "archive/01_tokyo/2007/2007_0_1.pdf"
+page_image: "archive/01_tokyo/2007/2007_0_1.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　連立不等式$y(y-|x^2-5|+4)\leqq0$，$y+x^2-2x-3\leqq0$の表す領域を$D$とする．
+\begin{description}
+\item[(1)]$D$を図示せよ．
+\item[(2)]$D$の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2007/2007_0_1.pdf)

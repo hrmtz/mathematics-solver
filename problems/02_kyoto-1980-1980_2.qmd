@@ -1,0 +1,29 @@
+---
+title: "京都大学 1980年 1980_2"
+problem_id: "02_kyoto-1980-1980_2"
+university: "京都大学"
+exam_year: "1980"
+source_tex: "archive/02_kyoto/1980/1980_2.tex"
+pdf_source: "archive/02_kyoto/1980/1980_2.pdf"
+page_image: "archive/02_kyoto/1980/1980_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　放物線$y=ax^2+bx$で，次の性質をもつものを考える．
+\begin{description}
+\item[\ding{"AC}]$a<0$，$b>0$
+\item[\ding{"AD}]放物線の頂点は直線$y=-2x+5$上にある
+\end{description}
+　このような放物線のうち，それと$x$軸とが囲む面積が最大になるのは，$b$がどのような値をとるときか．
+また，そのときの面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1980/1980_2.pdf)

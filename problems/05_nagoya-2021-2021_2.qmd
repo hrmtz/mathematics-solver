@@ -1,0 +1,33 @@
+---
+title: "名古屋大学 2021年 2021_2"
+problem_id: "05_nagoya-2021-2021_2"
+university: "名古屋大学"
+exam_year: "2021"
+source_tex: "archive/05_nagoya/2021/2021_2.tex"
+pdf_source: "archive/05_nagoya/2021/2021_2.pdf"
+page_image: "archive/05_nagoya/2021/2021_2.jpg"
+fields:
+  - 指数・対数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　4つの実数を$\alpha=\log_23$，$\beta=\log_35$，$\gamma=\log_52$，
+$\displaystyle\delta=\frac{3}{2}$とおく。以下の問に答えよ。
+\begin{description}
+\item[(1)]$\alpha\beta\gamma=1$を示せ。
+\item[(2)]$\alpha, \, \beta, \, \gamma, \, \delta$を小さい順に並べよ。
+\item[(3)]$p=\alpha+\beta+\gamma$，
+$\displaystyle q=\frac{1}{\alpha}+\frac{1}{\beta}+\frac{1}{\gamma}$とし，
+$f(x)=x^3+px^2+qx+1$とする。
+このとき$\displaystyle f \left( -\frac{1}{2} \right)$，$f(-1)$
+および$\displaystyle f \left( -\frac{3}{2} \right)$の正負を判定せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2021/2021_2.pdf)

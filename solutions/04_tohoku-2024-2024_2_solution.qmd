@@ -1,0 +1,228 @@
+## 解答
+
+(1)  
+
+$t>1$ とする。底が $t$ の対数は単調増加であることに注意する。
+
+まず，条件 (b) より
+$$
+x\geqq 2\log_tx
+$$
+が成り立つ。ここで正の数同士の割り算を考えるため，$x>0$ なので両辺を $2x$ で割ると
+$$
+\frac{1}{2}\geqq \frac{\log_tx}{x}
+$$
+が得られる。
+
+次に，条件 (a) より
+$$
+x>\frac{1}{\sqrt{t}-1}
+$$
+であるから，両辺に $1$ を足して
+$$
+x+1>\frac{1}{\sqrt{t}-1}+1=\frac{1+\sqrt{t}-1}{\sqrt{t}-1}
+=\frac{\sqrt{t}}{\sqrt{t}-1}
+$$
+となる。右辺は正であるから，これに逆数を取ると不等号の向きが反転し，
+$$
+\frac{1}{x+1}<\frac{\sqrt{t}-1}{\sqrt{t}}
+$$
+を得る。
+
+ここで
+$$
+\log_t(x+1)=\log_t x+\log_t\!\left(1+\frac{1}{x}\right)
+$$
+と変形する。これは $\log_t(AB)=\log_tA+\log_tB$ の公式を $A=x,\ B=1+\frac{1}{x}$ に適用したものである。したがって
+$$
+x+1>2\log_t(x+1)
+$$
+を示すには，次を示せばよい：
+$$
+x+1>2\log_tx+2\log_t\!\left(1+\frac{1}{x}\right).
+$$
+これを
+$$
+\underbrace{x-2\log_tx}_{(I)}\ >\ \underbrace{2\log_t\!\left(1+\frac{1}{x}\right)-1}_{(II)}
+$$
+と書き直す。
+
+まず，(I) については条件 (b) より
+$$
+x\geqq 2\log_tx
+$$
+なので
+$$
+x-2\log_tx\geqq 0
+$$
+が成り立つ。よって
+$$
+(I)\geqq 0
+$$
+である。
+
+次に (II) を評価する。$u>0$ に対して，対数の性質より
+$$
+\log_t u\leqq u-1
+$$
+が成り立つ（これは $y=\log_t x$ と $y=x-1$ を比較するか，あるいは $t^y\geqq 1+y\log t$ という指数関数の凸性から従う）。  
+これを $u=1+\frac{1}{x}$ に適用すると
+$$
+\log_t\!\left(1+\frac{1}{x}\right)\leqq \left(1+\frac{1}{x}\right)-1=\frac{1}{x}
+$$
+となるから，
+$$
+2\log_t\!\left(1+\frac{1}{x}\right)\leqq \frac{2}{x}
+$$
+である。
+
+一方，条件 (a) から求めた不等式
+$$
+\frac{1}{x+1}<\frac{\sqrt{t}-1}{\sqrt{t}}
+$$
+より，$\dfrac{1}{x}<\dfrac{1}{x+1}$ に注意すると
+$$
+\frac{1}{x}<\frac{\sqrt{t}-1}{\sqrt{t}}
+$$
+が成り立つ。したがって
+$$
+\frac{2}{x}<\frac{2(\sqrt{t}-1)}{\sqrt{t}}\leqq 1
+$$
+が成り立つ（最後の $\leqq 1$ は，$t>1$ より $\sqrt{t}>1$ なので $2(\sqrt{t}-1)\leqq \sqrt{t}$ が成り立つことから従う）。  
+ゆえに
+$$
+2\log_t\!\left(1+\frac{1}{x}\right)\leqq \frac{2}{x}\leqq 1
+$$
+すなわち
+$$
+(II)=2\log_t\!\left(1+\frac{1}{x}\right)-1\leqq 0
+$$
+となる。
+
+以上より
+$$
+(I)\geqq 0,\quad (II)\leqq 0
+$$
+だから
+$$
+(I)>(II)
+$$
+すなわち
+$$
+x-2\log_tx>2\log_t\!\left(1+\frac{1}{x}\right)-1
+$$
+が従う。この不等式は
+$$
+x+1>2\log_tx+2\log_t\!\left(1+\frac{1}{x}\right)
+=2\log_t(x+1)
+$$
+と同値であるから，求める
+$$
+x+1>2\log_t(x+1)
+$$
+が示された。
+
+\medskip
+
+(2)  
+
+$n$ を正の整数として
+$$
+n\leqq 2\log_2n
+$$
+を満たすものを求める。底の変換公式より
+$$
+2\log_2n=\frac{2\ln n}{\ln 2}
+$$
+であるが，ここでは指数の形に書き換えて考える。$2\log_2n=y$ とおくと
+$$
+\log_2n=\frac{y}{2}
+$$
+より
+$$
+n=2^{y/2}
+$$
+であるから，$n\leqq 2\log_2n$ は
+$$
+n\leqq 2\log_2n
+\quad\Longleftrightarrow\quad
+n\leqq 2\log_2n\ \text{かつ}\ n=2^{\log_2n}
+$$
+という関係にあり，一般には解析的に扱う方が簡単なので，関数
+$$
+f(x)=2\log_2x-x
+$$
+を考える。$x>0$ における $f(x)$ の符号を調べ，そのうち $x$ が正の整数となるものを列挙する。
+
+まず，底の変換公式
+$$
+\log_2x=\frac{\ln x}{\ln 2}
+$$
+を用いると
+$$
+f(x)=\frac{2\ln x}{\ln 2}-x
+$$
+である。これを微分すると
+$$
+f'(x)=\frac{2}{x\ln 2}-1
+$$
+となる。$f'(x)=0$ より
+$$
+\frac{2}{x\ln 2}-1=0
+\quad\Longleftrightarrow\quad
+x=\frac{2}{\ln 2}
+$$
+で極値をとる。$\ln 2\approx 0.693$ より
+$$
+\frac{2}{\ln 2}\approx 2.885
+$$
+である。
+
+$f'(x)$ の符号は
+$$
+f'(x)>0 \iff \frac{2}{x\ln 2}>1 \iff x<\frac{2}{\ln 2},\\
+f'(x)<0 \iff x>\frac{2}{\ln 2}
+$$
+であるから，$x=\dfrac{2}{\ln 2}$ で最大値をとることが分かる。そこで $f$ の最大値を求める：
+$$
+f\!\left(\frac{2}{\ln 2}\right)
+=2\log_2\!\left(\frac{2}{\ln 2}\right)-\frac{2}{\ln 2}.
+$$
+計算の見通しを立てるため，近似値で評価する。$\ln 2\approx 0.693$ より
+$$
+\frac{2}{\ln 2}\approx 2.885
+$$
+であり，
+$$
+\log_2\!\left(\frac{2}{\ln 2}\right)
+=\frac{\ln(2/\ln 2)}{\ln 2}
+\approx \frac{\ln(2.885)}{0.693}
+\approx \frac{1.061}{0.693}\approx 1.53
+$$
+と見積もられる。したがって
+$$
+f\!\left(\frac{2}{\ln 2}\right)
+\approx 2\times1.53-2.885\approx 3.06-2.885\approx 0.18>0
+$$
+である。よって $f(x)$ は $x>0$ で一度だけ正の値をとり，$x\to 0^+$ および $x\to\infty$ のとき $f(x)\to -\infty$ であるから，$f(x)=0$ を満たす $x$ は 2 個存在し，その間の $x$ では $f(x)\geqq 0$ が成り立つことが分かる。
+
+次に，具体的な整数について $f(n)$ の値を調べる：
+\[
+\begin{aligned}
+&n=1:\quad &&f(1)=2\log_2 1-1=0-1=-1<0,\\
+&n=2:\quad &&f(2)=2\log_2 2-2=2-2=0,\\
+&n=3:\quad &&f(3)=2\log_2 3-3\approx 2\times1.585-3\approx 3.17-3=0.17>0,\\
+&n=4:\quad &&f(4)=2\log_2 4-4=2\times2-4=0,\\
+&n=5:\quad &&f(5)=2\log_25-5\approx 2\times2.322-5\approx 4.64-5=-0.36<0.
+\end{aligned}
+\]
+$f(x)$ は $x=\dfrac{2}{\ln 2}\approx 2.885$ で最大値をとり，それより大きい $x$ では単調減少であるから，$x\geqq 5$ では $f(x)<0$ となる。したがって $n\geqq 5$ の整数で $f(n)\geqq 0$ を満たすものは存在しない。
+
+以上より，$f(n)\geqq 0$ を満たす正の整数は $n=2,3,4$ だけである。  
+もとの不等式は $f(n)\geqq 0$ と同値であるから，求める $n$ は
+
+$$
+\boxed{2,\ 3,\ 4}
+$$
+
+である。

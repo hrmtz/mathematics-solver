@@ -1,0 +1,36 @@
+---
+title: "名古屋大学 2001年 2001_b"
+problem_id: "05_nagoya-2001-2001_b"
+university: "名古屋大学"
+exam_year: "2001"
+source_tex: "archive/05_nagoya/2001/2001_b.tex"
+pdf_source: "archive/05_nagoya/2001/2001_b.pdf"
+page_image: "archive/05_nagoya/2001/2001_b.jpg"
+fields:
+  - 数列
+  - 積分法
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a_1=1$，$a_2=1$，$a_{n+1}=a_n+a_{n-1}$ $(n=2, \, 3, \, 4, \, \cdots\cdots)$で定まる
+数列$\{ a_n \}$に関して，つぎの各問に答えよ．
+\begin{description}
+\item[(1)]$\displaystyle\sum_{n=2}^\infty\frac{a_n}{a_{n-1}a_{n+1}}$の値を求めよ．
+\item[(2)]$n=1, \, 2, \, 3$のそれぞれについて，
+\[ a_{2n+2}={a_{n+1}}^2+2a_{n+1}a_n \]
+が成り立つことを確かめよ．さらに，$a_{2n+1}$を$a_{n+1}$，$a_n$で表す式を推測せよ．
+\item[(3)]自然数$n$に関する1組の式
+\[ \begin{cases} \text{(2)で推測した式} 
+
+ a_{2n+2}={a_{n+1}}^2+2a_{n+1}a_n \end{cases} \]
+がすべての自然数$n$に対して成り立つことを数学的帰納法を用いて証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_b.pdf)

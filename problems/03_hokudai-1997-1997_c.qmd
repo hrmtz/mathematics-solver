@@ -1,0 +1,25 @@
+---
+title: "北海道大学 1997年 1997_c"
+problem_id: "03_hokudai-1997-1997_c"
+university: "北海道大学"
+exam_year: "1997"
+source_tex: "archive/03_hokudai/1997/1997_c.tex"
+pdf_source: "archive/03_hokudai/1997/1997_c.pdf"
+page_image: "archive/03_hokudai/1997/1997_c.jpg"
+fields:
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$を正の実数とし，
+\[ f(x)=-x+\log(a+x)-\log(a-x) \]
+とおく．ただし，対数は自然対数とする．
+$x$の方程式$f(x)=0$について，$-a<x<a$の範囲にある異なる実数解の個数を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_c.pdf)

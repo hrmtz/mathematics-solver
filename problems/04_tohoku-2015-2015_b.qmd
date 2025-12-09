@@ -1,0 +1,31 @@
+---
+title: "東北大学 2015年 2015_b"
+problem_id: "04_tohoku-2015-2015_b"
+university: "東北大学"
+exam_year: "2015"
+source_tex: "archive/04_tohoku/2015/2015_b.tex"
+pdf_source: "archive/04_tohoku/2015/2015_b.pdf"
+page_image: "archive/04_tohoku/2015/2015_b.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a, \, b$を実数とする。$xy$平面において、連立不等式
+\[ 3x-4y+4\geqq0, \hspace{1zw} 4x+3y-28\leqq0, \hspace{1zw}
+x\geqq0, \hspace{1zw} y\geqq0 \]
+の表す領域を$D$とし、
+不等式${(x-a)}^2+{(y-b)}^2\leqq1$の表す領域を$E$とする。
+\begin{description}
+\item[(1)]$E$のすべての点が$D$の点となるような点$(a, \, b)$全体のなす図形の面積を求めよ。
+\item[(2)]$E$のいずれかの点が$D$の点となるような点$(a, \, b)$全体のなす図形の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2015/2015_b.pdf)

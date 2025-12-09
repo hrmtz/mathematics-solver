@@ -1,0 +1,31 @@
+---
+title: "東京科学大学 1992年 1992_4"
+problem_id: "08_titech-1992-1992_4"
+university: "東京科学大学"
+exam_year: "1992"
+source_tex: "archive/08_titech/1992/1992_4.tex"
+pdf_source: "archive/08_titech/1992/1992_4.pdf"
+page_image: "archive/08_titech/1992/1992_4.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　変数$0 \leqq x<1$の関数$f(x)$を次のように定義する．
+\[ f(x)= \begin{cases} 2x & 0 \leqq x < \frac{1}{2} 
+
+ 2x-1 & \frac{1}{2} \leqq x < 1 \end{cases} \]
+さらに$f_1(x)=f(x)$とおき，$f_n(x)$を$f_n(x)=f(f_{n-1}(x))$ $(n=2,3,4,\cdots\cdots)$と定義する．
+\begin{description}
+\item[(1)]$f_3(x)$のグラフを描き，$f_3(x)$を式で表せ．
+\item[(2)]$k$と$m$を$1 \leqq k \leqq 2^m - 1$を満たす自然数とし$\displaystyle p = \frac{k}{2^m}$とおく．
+極限値$\displaystyle\lim_{n\to\infty}\frac{f_1(p)+\cdots\cdots+f_n(p)}{n}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1992/1992_4.pdf)

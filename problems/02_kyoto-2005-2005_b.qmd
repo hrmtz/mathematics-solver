@@ -1,0 +1,24 @@
+---
+title: "京都大学 2005年 2005_b"
+problem_id: "02_kyoto-2005-2005_b"
+university: "京都大学"
+exam_year: "2005"
+source_tex: "archive/02_kyoto/2005/2005_b.tex"
+pdf_source: "archive/02_kyoto/2005/2005_b.pdf"
+page_image: "archive/02_kyoto/2005/2005_b.jpg"
+fields:
+  - 複素数平面
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\displaystyle\frac{2z+2i}{z+2i}=\bar{z}$を満たす複素数$z$をすべて求めよ．
+(ただし，$i$は虚数単位，$\bar{z}$は$z$に共役な複素数である．)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_b.pdf)

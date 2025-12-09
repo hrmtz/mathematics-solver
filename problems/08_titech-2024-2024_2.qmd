@@ -1,0 +1,35 @@
+---
+title: "東京科学大学 2024年 2024_2"
+problem_id: "08_titech-2024-2024_2"
+university: "東京科学大学"
+exam_year: "2024"
+source_tex: "archive/08_titech/2024/2024_2.tex"
+pdf_source: "archive/08_titech/2024/2024_2.pdf"
+page_image: "archive/08_titech/2024/2024_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　実数全体を定義域にもつ微分可能な関数$f(t)$，$g(t)$が次の6つの条件を満たしているとする．
+\[ f'(t)=-f(t)g(t), \hspace{1zw} g'(t)={ \{ f(t) \} }^2,  \]
+\[ f(t)>0, \hspace{1zw} |g(t)|<1, \hspace{1zw} f(0)=1, \hspace{1zw} g(0)=0. \]
+このとき
+\[ p(t)={ \{ f(t) \} }^2+{ \{ g(t) \} }^2, \hspace{1zw} q(t)=\log\frac{1+g(t)}{1-g(t)} \]
+とおく．
+\begin{description}
+\item[(1)]$p'(t)$を求めよ．
+\item[(2)]$q'(t)$は定数関数であることを示せ．
+\item[(3)]$\displaystyle\lim_{t\to\infty}g(t)$を求めよ．
+\item[(4)]$f(T)=g(T)$となる正の実数$T$に対して，媒介変数表示された
+平面曲線$(x, \, y)=(f(t), \, g(t))$ $(0 \leqq t \leqq T)$の長さを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2024/2024_2.pdf)

@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1984年 1984_5"
+problem_id: "03_hokudai-1984-1984_5"
+university: "北海道大学"
+exam_year: "1984"
+source_tex: "archive/03_hokudai/1984/1984_5.tex"
+pdf_source: "archive/03_hokudai/1984/1984_5.pdf"
+page_image: "archive/03_hokudai/1984/1984_5.jpg"
+fields:
+  - 指数・対数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　点$P$が曲線$\displaystyle y=\frac{e^x+e^{-x}}{2}$の上を運動している．
+その速さはつねに毎秒1であり，速度ベクトルの$x$成分はつねに正である．
+ただし，$e$は自然対数の底である．
+\begin{description}
+\item[(1)]点$P$が点$(0, \, 1)$を通過してから$t$秒後の点$P$の$x$座標を$t$で表せ．
+\item[(2)]点$P$におけるこの曲線の接線と$x$軸との交点を$Q$とする．
+点$P$が点$(0, \, 1)$を通過してから2秒後の点$Q$の速さを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1984/1984_5.pdf)

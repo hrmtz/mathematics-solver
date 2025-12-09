@@ -1,0 +1,253 @@
+## 解答
+
+(1)  
+複素数平面で，$\alpha$ が点1を中心とする半径1の円周上にある，という条件は  
+$\alpha$ を表す複素数として  
+$$
+|\alpha - 1| = 1
+$$
+が成り立つことを意味する。
+
+両辺を2乗すると  
+$$
+|\alpha - 1|^2 = (\alpha - 1)(\overline{\alpha} - 1) = 1
+$$
+である。左辺を展開すると  
+$$
+(\alpha - 1)(\overline{\alpha} - 1)
+= \alpha\overline{\alpha} - \alpha - \overline{\alpha} + 1
+$$
+となるので，これが $1$ に等しいから  
+$$
+\alpha\overline{\alpha} - \alpha - \overline{\alpha} + 1 = 1
+$$
+すなわち  
+$$
+\alpha\overline{\alpha} - \alpha - \overline{\alpha} = 0
+$$
+よって  
+$$
+\alpha\overline{\alpha} = \alpha + \overline{\alpha}
+$$
+が得られる。  
+したがって  
+$$
+\alpha + \overline{\alpha} = \alpha\overline{\alpha}
+$$
+が示された。
+
+(2)  
+$\alpha,\overline{\alpha},\beta,\overline{\beta}$ を根にもつ4次方程式  
+$$
+x^4 - px^3 + qx^2 - rx + s = 0
+$$
+を考える。実数係数であり，根が共役な組でそろっているから，この多項式は  
+$$
+(x-\alpha)(x-\overline{\alpha})(x-\beta)(x-\overline{\beta})
+$$
+と因数分解できる。
+
+まず  
+$$
+(x-\alpha)(x-\overline{\alpha})
+= x^2 - (\alpha+\overline{\alpha})x + \alpha\overline{\alpha},
+$$
+同様に  
+$$
+(x-\beta)(x-\overline{\beta})
+= x^2 - (\beta+\overline{\beta})x + \beta\overline{\beta}
+$$
+である。ここで $t = \alpha+\overline{\alpha}$，$u = \beta+\overline{\beta}$ とおく。また (1) より  
+$$
+\alpha\overline{\alpha} = t,\quad \beta\overline{\beta} = u
+$$
+である。よって  
+$$
+(x-\alpha)(x-\overline{\alpha}) = x^2 - tx + t,
+$$
+$$
+(x-\beta)(x-\overline{\beta}) = x^2 - ux + u
+$$
+となる。
+
+したがってもとの多項式は  
+$$
+(x^2 - tx + t)(x^2 - ux + u)
+$$
+に等しい。これを展開する：
+\begin{align*}
+(x^2 - tx + t)(x^2 - ux + u)
+&= x^2(x^2 - ux + u) - t x(x^2 - ux + u) + t(x^2 - ux + u)\\
+&= x^4 - u x^3 + u x^2 - t x^3 + tu x^2 - tu x \\
+&\qquad + t x^2 - tu x + tu.
+\end{align*}
+同類項をまとめると  
+$$
+x^4 - (t+u)x^3 + (u + tu + t)x^2 - 2tu\,x + tu.
+$$
+
+一方与えられた多項式は  
+$$
+x^4 - px^3 + qx^2 - rx + s
+$$
+であるから，係数比較により
+$$
+p = t+u,
+\quad
+q = u + tu + t,
+\quad
+r = 2tu,
+\quad
+s = tu
+$$
+となる。
+
+(3)  
+(2) の結果から，平面上の点 $(p,s)$ は  
+$$
+p = t+u,\quad s = tu
+$$
+を満たす。ここで $t,u$ は  
+$$
+t = \alpha + \overline{\alpha},\quad
+u = \beta + \overline{\beta}
+$$
+であり，$\alpha,\beta$ はいずれも「点1を中心とする半径1の円周」上の複素数である。
+
+$\alpha$ を $\alpha = x + yi$（$x,y$ は実数）とおくと，$\overline{\alpha} = x - yi$ なので  
+$$
+t = \alpha + \overline{\alpha} = 2x
+$$
+である。また，$\alpha$ が円 $|\alpha-1|=1$ 上にあるという条件から  
+$$
+|\alpha - 1|^2 = (x-1)^2 + y^2 = 1
+$$
+が成り立つ。したがって  
+$$
+(x-1)^2 + y^2 = 1
+\iff x^2 - 2x + 1 + y^2 = 1
+\iff x^2 + y^2 = 2x.
+$$
+右辺を移項すると  
+$$
+x^2 + y^2 - 2x = 0
+\iff (x^2 - 2x + 1) + y^2 = 1
+\iff (x-1)^2 + y^2 = 1,
+$$
+これは元に戻るが，重要なのは $x$ の取りうる範囲である。
+
+$(x-1)^2 + y^2 = 1$ から $(x-1)^2 \le 1$ より  
+$$
+-1 \le x-1 \le 1 \quad\Rightarrow\quad 0 \le x \le 2
+$$
+となる。よって  
+$$
+t = 2x
+$$
+は  
+$$
+0 \le t \le 4
+$$
+を満たす。同様に，$\beta$ についても同じ議論が成り立つので  
+$$
+0 \le u \le 4
+$$
+である。
+
+したがって $t,u$ はともに $[0,4]$ の実数であり，これら全ての組 $(t,u)$ に対して  
+$$
+(p,s) = (t+u,\; tu)
+$$
+が対応する。この対応を調べる。
+
+$t,u$ を $p,s$ で表すために，$t+u=p$，$tu=s$ から  
+$$
+X^2 - pX + s = 0
+$$
+という2次方程式を考えると，その2つの解が $t,u$ である。  
+$t,u$ が実数であるための必要十分条件は判別式が非負であることであるから  
+$$
+\Delta = p^2 - 4s \ge 0
+\quad\Rightarrow\quad
+s \le \frac{p^2}{4}.
+$$
+また，$t,u \in [0,4]$ であることは，次の3つに分けて表せる：
+
+- $t \ge 0,\ u \ge 0$ より，和と積について  
+  $$
+  p = t+u \ge 0,\quad s = tu \ge 0
+  $$
+- $t \le 4,\ u \le 4$ より  
+  $$
+  t+u \le 8 \quad\Rightarrow\quad p \le 8.
+  $$
+
+さらに「各解が $[0,4]$ に含まれる」という条件を2次方程式の観点から書き換える。  
+2次方程式 $X^2 - pX + s = 0$ の2つの実数解がともに区間 $[0,4]$ に入るための条件は：
+
+1. 実数解をもつ：$p^2 - 4s \ge 0$（上で得た）。
+2. 積 $s \ge 0$（上で得た）。
+3. 各解が $[0,4]$ に入ることを表すために，「$X=0$ と $X=4$ での値が同符号で，かつ頂点が区間内にある」ことを利用する。
+
+多項式 $f(X) = X^2 - pX + s$ の値は  
+$$
+f(0) = s,\quad f(4) = 16 - 4p + s.
+$$
+$t,u$ が $[0,4]$ の中間にある2つの実数解であるには，放物線 $y=f(X)$ が $X$ 軸を $[0,4]$ 内で2点で切り，$X=0$ と $X=4$ で同符号（上方に開いているので正）である必要があるから  
+$$
+f(0) \ge 0 \ (\Leftrightarrow s \ge 0),\quad
+f(4) \ge 0 \ (\Leftrightarrow 16 - 4p + s \ge 0)
+$$
+が必要十分である。ただし $s \ge 0$ はすでに用いている。
+
+よって条件は  
+$$
+s \ge 0,\quad 16 - 4p + s \ge 0
+\quad\Rightarrow\quad s \ge 0,\ s \ge 4p -16
+$$
+と書ける。
+
+以上をまとめると，点 $(p,s)$ が取りうる条件は
+\[
+\begin{cases}
+0 \le p \le 8,\\[2mm]
+0 \le s \le \dfrac{p^2}{4},\\[3mm]
+s \ge 4p -16.
+\end{cases}
+\]
+
+これを座標平面上に図示すると，
+
+- $p$ 軸上で $p=0$ から $p=8$ の間に限定される。
+- 上側の境界は放物線 $s = \dfrac{p^2}{4}$。
+- 下側の境界は直線 $s = 4p - 16$ と $s=0$ で，$p$ の値によってどちらかが有効になる。
+
+直線 $s = 4p -16$ と $s = 0$ の交点は $4p -16 = 0$ から $p=4$。  
+また放物線 $s = \dfrac{p^2}{4}$ と直線 $s = 4p -16$ の交点は
+$$
+\frac{p^2}{4} = 4p -16
+$$
+より
+$$
+p^2 = 16p -64
+\iff p^2 -16p +64 = 0
+\iff (p-8)^2 = 0
+$$
+したがって $p=8$，このとき $s = \dfrac{64}{4} = 16$ である。
+
+したがって図形的には，
+
+- $0 \le p \le 4$ では，$0 \le s \le \dfrac{p^2}{4}$ の部分（$p$ 軸と放物線で囲まれた領域）
+- $4 \le p \le 8$ では，$4p -16 \le s \le \dfrac{p^2}{4}$ の部分（直線と放物線にはさまれた領域）
+
+の和として表される。
+
+以上を図示すると，
+
+- 横軸を $p$，縦軸を $s$ とする。
+- 放物線 $s = \dfrac{p^2}{4}$ を $0 \le p \le 8$ の範囲で描く。
+- 直線 $s = 4p -16$ を $4 \le p \le 8$ の範囲で描く。
+- $p$ 軸（$s=0$）を $0 \le p \le 4$ まで描く。
+- これらに囲まれた領域が，点 $(p,s)$ の取りうる範囲である。
+
+この領域を塗りつぶして示せばよい。

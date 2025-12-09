@@ -1,0 +1,30 @@
+---
+title: "東京大学 2004年 2004_2"
+problem_id: "01_tokyo-2004-2004_2"
+university: "東京大学"
+exam_year: "2004"
+source_tex: "archive/01_tokyo/2004/2004_2.tex"
+pdf_source: "archive/01_tokyo/2004/2004_2.pdf"
+page_image: "archive/01_tokyo/2004/2004_2.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　自然数の2乗になる数を平方数という．以下の問いに答えよ．
+\begin{description}
+\item[(1)]10進法で表して3桁以上の平方数に対し，
+10の位の数を$a$，1の位の数を$b$とおいたとき，
+$a+b$が偶数となるならば，$b$は0または4であることを示せ．
+\item[(2)]10進法で表して5桁以上の平方数に対し，
+1000の位の数，100の位の数，10の位の数，および1の位の数の4つすべてが同じ数となるならば，
+その平方数は10000で割り切れることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2004/2004_2.pdf)

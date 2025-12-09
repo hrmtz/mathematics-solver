@@ -1,0 +1,31 @@
+---
+title: "大阪大学 1984年 1984_0_1"
+problem_id: "06_osaka-1984-1984_0_1"
+university: "大阪大学"
+exam_year: "1984"
+source_tex: "archive/06_osaka/1984/1984_0_1.tex"
+pdf_source: "archive/06_osaka/1984/1984_0_1.pdf"
+page_image: "archive/06_osaka/1984/1984_0_1.jpg"
+fields:
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　座標平面上に3点$A(0, \, 1)$，$B(-1, \, 0)$，$C(1, \, 0)$がある．
+$x$軸上の動点$P(t, \, 0)$ $(t>1)$に対して，
+線分$AC$上の点$Q$を$\displaystyle\frac{QC}{AQ}=\frac{t-1}{2t-1}$であるようにとる．
+\begin{description}
+\item[(1)]2点$P$，$Q$を通る直線は，すべて定点を通ることを示せ．
+\item[(2)]2点$P$，$Q$を通る直線と線分$AB$の交点を$R$とする．
+$\triangle AQR$の面積$S(t)$を求めよ．
+\item[(3)]$\displaystyle\frac{1}{3}<S(t)<\frac{4}{9}$ $(t>1)$を証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1984/1984_0_1.pdf)

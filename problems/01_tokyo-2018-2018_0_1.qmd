@@ -1,0 +1,35 @@
+---
+title: "東京大学 2018年 2018_0_1"
+problem_id: "01_tokyo-2018-2018_0_1"
+university: "東京大学"
+exam_year: "2018"
+source_tex: "archive/01_tokyo/2018/2018_0_1.tex"
+pdf_source: "archive/01_tokyo/2018/2018_0_1.pdf"
+page_image: "archive/01_tokyo/2018/2018_0_1.jpg"
+fields:
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　座標平面上に放物線$C$を
+\[ y=x^2-3x+4 \]
+で定め，領域$D$を
+\[ y \geqq x^2-3x+4 \]
+で定める。原点をとおる2直線$l$，$m$は$C$に接するものとする。
+\begin{description}
+\item[(1)]放物線$C$上を動く点$A$と直線$l$，$m$の距離をそれぞれ$L$，$M$とする。
+$\sqrt{L}+\sqrt{M}$が最小値をとるときの点$A$の座標を求めよ。
+\item[(2)]次の条件をみたす点$P(p, \, q)$の動きうる範囲を求め，
+座標平面上に図示せよ。
+　条件：領域$D$のすべての点$(x, \, y)$に対し
+不等式$px+qy\leqq0$がなりたつ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2018/2018_0_1.pdf)

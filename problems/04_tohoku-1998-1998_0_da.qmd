@@ -1,0 +1,30 @@
+---
+title: "東北大学 1998年 1998_0_da"
+problem_id: "04_tohoku-1998-1998_0_da"
+university: "東北大学"
+exam_year: "1998"
+source_tex: "archive/04_tohoku/1998/1998_0_da.tex"
+pdf_source: "archive/04_tohoku/1998/1998_0_da.pdf"
+page_image: "archive/04_tohoku/1998/1998_0_da.jpg"
+fields:
+  - 確率
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　赤，黄，緑の色紙があり，同じ色の色紙は区別しないものとする．
+\begin{description}
+\item[(1)]重複を許すものとして合計6枚をとるとき，何通りの選び方があるか．
+\item[(2)]上記3種の色紙からそれぞれ2枚ずつとってきて立方体の各面に1枚ずつ貼（は）るとする．
+このとき異なる配色をもつ立方体はいくつ作れるか．
+略図を描いて答えよ．
+ただし，回転によって同じ配色となるものは同じとみなす．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_0_da.pdf)

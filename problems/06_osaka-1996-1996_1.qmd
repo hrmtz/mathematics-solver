@@ -1,0 +1,27 @@
+---
+title: "大阪大学 1996年 1996_1"
+problem_id: "06_osaka-1996-1996_1"
+university: "大阪大学"
+exam_year: "1996"
+source_tex: "archive/06_osaka/1996/1996_1.tex"
+pdf_source: "archive/06_osaka/1996/1996_1.pdf"
+page_image: "archive/06_osaka/1996/1996_1.jpg"
+fields:
+  - 整数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の2条件(イ)，(ロ)を同時にみたす整数$a$，$b$の組$(a, \, b)$をすべて求めよ．
+\begin{description}
+\item[(イ)]2次方程式$X^2+aX+b=0$の2つの解が共に2以上の整数である．
+\item[(ロ)]不等式$3a+2b\leqq0$が成り立つ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1996/1996_1.pdf)

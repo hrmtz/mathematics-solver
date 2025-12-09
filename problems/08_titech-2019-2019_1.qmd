@@ -1,0 +1,34 @@
+---
+title: "東京科学大学 2019年 2019_1"
+problem_id: "08_titech-2019-2019_1"
+university: "東京科学大学"
+exam_year: "2019"
+source_tex: "archive/08_titech/2019/2019_1.tex"
+pdf_source: "archive/08_titech/2019/2019_1.pdf"
+page_image: "archive/08_titech/2019/2019_1.jpg"
+fields:
+  - 不等式
+  - 平面図形
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]$h>0$とする．座標平面上の点O$(0, \, 0)$，点P$(h, \, s)$，点Q$(h, \, t)$に対して，
+三角形OPQの面積をSとする．ただし，$s<t$とする．
+三角形OPQの辺OP，OQ，PQの長さをそれぞれ$p, \, q, \, r$とするとき，不等式
+\[ p^2+q^2+r^2\geqq4\sqrt3 \, S \]
+が成り立つことを示せ．また，等号が成立するときの$s, \, t$の値を求めよ．
+\item[(2)]四面体ABCDの表面積をT，辺BC，CA，ABの長さをそれぞれ$a, \, b, \, c$とし，
+辺AD，BD，CDの長さをそれぞれ$l, \, m, \, n$とする．このとき，不等式
+\[  a^2+b^2+c^2+l^2+m^2+n^2\geqq2\sqrt3 \, T \]
+が成り立つことを示せ．また，等号が成立するのは四面体ABCDがどのような四面体のときか答えよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2019/2019_1.pdf)

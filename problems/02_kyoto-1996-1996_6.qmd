@@ -1,0 +1,30 @@
+---
+title: "京都大学 1996年 1996_6"
+problem_id: "02_kyoto-1996-1996_6"
+university: "京都大学"
+exam_year: "1996"
+source_tex: "archive/02_kyoto/1996/1996_6.tex"
+pdf_source: "archive/02_kyoto/1996/1996_6.pdf"
+page_image: "archive/02_kyoto/1996/1996_6.jpg"
+fields:
+  - 指数・対数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　ガソリンを$x$kg積んだ状態で時速$v$kmで走るとき，
+毎時$\displaystyle\frac{100+x}{100}e^{kv}$kgのガソリンを消費する車がある．
+ここで$k$は正の定数である．
+この車を用いて100km離れた地点へ一定速度で行くとき，
+ガソリンの消費量を最小にするには，
+最初に積むガソリンの量と走行速度をどのようにすればよいか．
+ただし，
+ガソリンが無くなれば車は直ちに停止するものとする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_6.pdf)

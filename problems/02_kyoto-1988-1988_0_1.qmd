@@ -1,0 +1,28 @@
+---
+title: "京都大学 1988年 1988_0_1"
+problem_id: "02_kyoto-1988-1988_0_1"
+university: "京都大学"
+exam_year: "1988"
+source_tex: "archive/02_kyoto/1988/1988_0_1.tex"
+pdf_source: "archive/02_kyoto/1988/1988_0_1.pdf"
+page_image: "archive/02_kyoto/1988/1988_0_1.jpg"
+fields:
+  - 代数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$は実数とする．
+\begin{description}
+\item[(1)]方程式$x^4+2ax^2-a+2$が実数解をもたないような$a$の範囲を求めよ．
+\item[(2)]$x^4+2ax^2-a+2$の最小値を$m(a)$とする．
+$a$が(1)の範囲内にあるとき，$m(a)$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1988/1988_0_1.pdf)

@@ -1,0 +1,32 @@
+---
+title: "北海道大学 1977年 1977_4"
+problem_id: "03_hokudai-1977-1977_4"
+university: "北海道大学"
+exam_year: "1977"
+source_tex: "archive/03_hokudai/1977/1977_4.tex"
+pdf_source: "archive/03_hokudai/1977/1977_4.pdf"
+page_image: "archive/03_hokudai/1977/1977_4.jpg"
+fields:
+  - 積分法
+  - 微分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　関数$f(x)$は
+$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$では
+$\displaystyle f(x)\sin x=2\int_0^x\cos^2tdt$を満たし，
+また$x=0$で連続とする．
+\begin{description}
+\item[(1)]$\displaystyle 0<x\leqq\frac{\pi}{2}$で$f(x)$を求めよ．
+\item[(2)]$f(0)$の値を求めよ．
+\item[(3)]$f(x)$の$\displaystyle0<x<\frac{\pi}{2}$での増減状態を調べよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1977/1977_4.pdf)

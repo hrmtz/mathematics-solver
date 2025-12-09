@@ -1,0 +1,32 @@
+---
+title: "九州大学 2016年 2016_0_1"
+problem_id: "07_kyushu-2016-2016_0_1"
+university: "九州大学"
+exam_year: "2016"
+source_tex: "archive/07_kyushu/2016/2016_0_1.tex"
+pdf_source: "archive/07_kyushu/2016/2016_0_1.pdf"
+page_image: "archive/07_kyushu/2016/2016_0_1.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　座標平面において，$x$軸上に3点$(0, \, 0)$，
+$(\alpha, \, 0)$，$(\beta, \, 0)$ $(0<\alpha<\beta)$があり，
+曲線$C:y=x^3+ax^2+bx$が$x$軸とこの3点で交わっているものとする。
+ただし，$a$，$b$は実数である。このとき，以下の問いに答えよ。
+\begin{description}
+\item[(1)]曲線$C$と$x$軸で囲まれた2つの部分の面積の和を$S$とする。
+$S$を$\alpha$と$\beta$の式で表せ。
+\item[(2)]$\beta$の値を固定して，$0<\alpha<\beta$の範囲で$\alpha$を動かすとき，
+$S$を最小とする$\alpha$を$\beta$の式で表せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2016/2016_0_1.pdf)

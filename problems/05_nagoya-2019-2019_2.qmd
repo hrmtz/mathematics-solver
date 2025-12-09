@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 2019年 2019_2"
+problem_id: "05_nagoya-2019-2019_2"
+university: "名古屋大学"
+exam_year: "2019"
+source_tex: "archive/05_nagoya/2019/2019_2.tex"
+pdf_source: "archive/05_nagoya/2019/2019_2.pdf"
+page_image: "archive/05_nagoya/2019/2019_2.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　空間内に$\displaystyle \angle BAC=\frac{\pi}{2}$の直角二等辺三角形ABCと平面Pがある。
+点AはP上にあり，点Bと点CはP上にはなく，Pに関して同じ側に位置している。
+点B，CからPに下ろした垂線とPとの交点をそれぞれB'，C'とする。
+\begin{description}
+\item[(1)]$\overrightarrow{AB'}\cdot\overrightarrow{AC'}+
+\overrightarrow{B'B}\cdot\overrightarrow{C'C}=0$を示せ。
+\item[(2)]$\displaystyle\angle B'AC'>\frac{\pi}{2}$を示せ。
+\item[(3)]P上の三角形AB'C'の辺の長さは短いものから4，$\sqrt{21}$，7であった。
+このとき，辺ABの長さを求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2019/2019_2.pdf)

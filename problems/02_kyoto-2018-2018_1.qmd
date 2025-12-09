@@ -1,0 +1,35 @@
+---
+title: "京都大学 2018年 2018_1"
+problem_id: "02_kyoto-2018-2018_1"
+university: "京都大学"
+exam_year: "2018"
+source_tex: "archive/02_kyoto/2018/2018_1.tex"
+pdf_source: "archive/02_kyoto/2018/2018_1.pdf"
+page_image: "archive/02_kyoto/2018/2018_1.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　0でない実数$a$，$b$，$c$は
+次の条件(i)と(ii)を満たしながら動くものとする．
+\begin{description}
+\item[(i)]$1+c^2\leqq2a$．
+\item[(ii)]2つの放物線$C_1:y=ax^2$と
+$C_2:y=b{(x-1)}^2+c$は接している．
+\end{description}
+ただし，2つの曲線が接するとは，
+ある共有点において共通の接線をもつことであり，その共有点を接点という．
+\begin{description}
+\item[(1)]$C_1$と$C_2$の接点の座標を$a$と$c$を用いて表せ．
+\item[(2)]$C_1$と$C_2$の接点が動く範囲を求め，その範囲を図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2018/2018_1.pdf)

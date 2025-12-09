@@ -1,0 +1,35 @@
+---
+title: "北海道大学 2018年 2018_5"
+problem_id: "03_hokudai-2018-2018_5"
+university: "北海道大学"
+exam_year: "2018"
+source_tex: "archive/03_hokudai/2018/2018_5.tex"
+pdf_source: "archive/03_hokudai/2018/2018_5.pdf"
+page_image: "archive/03_hokudai/2018/2018_5.jpg"
+fields:
+  - 不等式
+  - 三角関数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　2つの関数
+\[ f(x)=\cos x, \hspace{1zw}
+g(x)=\sqrt{\frac{\pi^2}{2}-x^2}-\frac{\pi}{2} \]
+がある。
+\begin{description}
+\item[(1)]$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$のとき，
+不等式$\displaystyle\frac{2}{\pi}x\leqq\sin x$が成り立つことを示せ。
+\item[(2)]$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$のとき，
+不等式$g(x) \leqq f(x)$が成り立つことを示せ。
+\item[(3)]$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$の範囲において，
+2つの曲線$y=f(x)$，$y=g(x)$および$y$軸が囲む部分の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2018/2018_5.pdf)

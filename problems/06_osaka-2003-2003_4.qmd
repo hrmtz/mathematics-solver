@@ -1,0 +1,34 @@
+---
+title: "大阪大学 2003年 2003_4"
+problem_id: "06_osaka-2003-2003_4"
+university: "大阪大学"
+exam_year: "2003"
+source_tex: "archive/06_osaka/2003/2003_4.tex"
+pdf_source: "archive/06_osaka/2003/2003_4.pdf"
+page_image: "archive/06_osaka/2003/2003_4.jpg"
+fields:
+  - 数列
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　数列$\{ a_k \}$が$a_k<a_{k+1}$ $(k=1, \, 2, \, \cdots\cdots)$
+および$a_{kl}=a_k+a_l$，$k=1, \, 2, \, \cdots\cdots$，$l=1, \, 2, \, \cdots\cdots$
+をみたすとする．
+\begin{description}
+\item[(1)]$k$，$l$を2以上の自然数とする．
+自然数$n$が与えられたとき
+$l^{m-1} \leqq k^n<l^m$をみたす自然数$m$が存在することを示せ．
+\item[(2)]$k$，$l$を2以上の自然数とするとき
+$\displaystyle-\frac{1}{n}<\frac{a_k}{a_l}-\frac{\log k}{\log l}<\frac{1}{n}$，
+$n=1, \, 2, \, \cdots\cdots$が成り立つことを示せ．
+\item[(3)]$a_2=a$とするとき，数列$\{ a_k \}$の一般項を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_4.pdf)

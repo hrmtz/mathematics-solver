@@ -1,0 +1,44 @@
+---
+title: "九州大学 2007年 2007_2"
+problem_id: "07_kyushu-2007-2007_2"
+university: "九州大学"
+exam_year: "2007"
+source_tex: "archive/07_kyushu/2007/2007_2.tex"
+pdf_source: "archive/07_kyushu/2007/2007_2.pdf"
+page_image: "archive/07_kyushu/2007/2007_2.jpg"
+fields:
+  - 行列
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$p$を$0<p<1$を満たす数とし，行列$A$，$B$，$C$をそれぞれ
+\[ A=\begin{pmatrix} 1 & 1 
+
+ -1 & -1 \end{pmatrix}, \hspace{1zw}
+B=\begin{pmatrix} 1 & 1 
+
+ 0 & 1+p \end{pmatrix}, \hspace{1zw}
+C=\begin{pmatrix} 0 & -1 
+
+ -1-p & 0 \end{pmatrix} \]
+とおく．
+さらに，行列$A_n$ $(n=1, \, 2, \, 3, \, \cdots)$を
+$A_1=A$，$A_{n+1}=A_nB-BA_n+C$ $(n=1, \, 2, \, 3, \, \cdots)$で定める．
+このとき，次の問いに答えよ．
+\begin{description}
+\item[(1)]$A_2$，$A_3$を求めよ．
+\item[(2)]$A_n=\begin{pmatrix} a_n & b_n 
+
+ c_n & d_n \end{pmatrix}$，
+$\Delta_n=a_nd_n-b_nc_n$とおくとき，
+$\displaystyle\lim_{n\to\infty}\Delta_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_2.pdf)

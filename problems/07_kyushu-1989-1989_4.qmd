@@ -1,0 +1,28 @@
+---
+title: "九州大学 1989年 1989_4"
+problem_id: "07_kyushu-1989-1989_4"
+university: "九州大学"
+exam_year: "1989"
+source_tex: "archive/07_kyushu/1989/1989_4.tex"
+pdf_source: "archive/07_kyushu/1989/1989_4.pdf"
+page_image: "archive/07_kyushu/1989/1989_4.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$m$枚の硬貨を同時に投げて，表が$k$枚出るとき$X=a^k$ $(a>0)$とする．
+\begin{description}
+\item[(1)]確率変数$X$の期待値$E(X)$と分散$V(X)$に対して，
+$\displaystyle\frac{\sqrt{V(X)}}{E(X)}=\sqrt{\frac{2^m{(1+a^2)}^m}{{(1+a)}^{2m}}-1}$が成り立つことを示せ．
+\item[(2)]$a$が，$a>0$の範囲を動くとき，
+$\displaystyle\frac{\sqrt{V(X)}}{E(X)}$のとりうる値の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1989/1989_4.pdf)

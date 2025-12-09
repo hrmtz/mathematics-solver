@@ -1,0 +1,30 @@
+---
+title: "東北大学 1999年 1999_c"
+problem_id: "04_tohoku-1999-1999_c"
+university: "東北大学"
+exam_year: "1999"
+source_tex: "archive/04_tohoku/1999/1999_c.tex"
+pdf_source: "archive/04_tohoku/1999/1999_c.pdf"
+page_image: "archive/04_tohoku/1999/1999_c.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　1から$n$までの番号をつけた$n$枚のカードがある．
+これら$n$枚のカードを$A$，$B$，$C$の3つの箱に分けて入れる．
+ただし，どの箱にも少なくとも1枚は入れるものとする．
+\begin{description}
+\item[(1)]入れ方は全部で何通りあるか．
+\item[(2)]自然数$l$は$2l \leqq n$をみたすとする．
+$1 \leqq k \leqq l$である各整数$k$について$2k-1$と$2k$の番号のカードをペアと考える．
+どれかの箱に少なくとも1つのペアが入る場合の数を$n$と$l$を用いて表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_c.pdf)

@@ -1,0 +1,28 @@
+---
+title: "東北大学 1964年 1964_6"
+problem_id: "04_tohoku-1964-1964_6"
+university: "東北大学"
+exam_year: "1964"
+source_tex: "archive/04_tohoku/1964/1964_6.tex"
+pdf_source: "archive/04_tohoku/1964/1964_6.pdf"
+page_image: "archive/04_tohoku/1964/1964_6.jpg"
+fields:
+  - 積分法
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$n$を正の整数，$a$を$x$に無関係な実数として
+$\displaystyle f_n(a)=\int_0^\pi{(\sin x-a\cos2nx)}^2dx$とおく。
+\begin{description}
+\item[(1)]$f_n(a)$を最小にする$a$の値を求めよ。
+\item[(2)](1)で求めた$a$の値を$a_n$として$\displaystyle\sum_{n=1}^\infty a_n$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1964/1964_6.pdf)

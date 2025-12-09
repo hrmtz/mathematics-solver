@@ -1,0 +1,30 @@
+---
+title: "京都大学 1980年 1980_6"
+problem_id: "02_kyoto-1980-1980_6"
+university: "京都大学"
+exam_year: "1980"
+source_tex: "archive/02_kyoto/1980/1980_6.tex"
+pdf_source: "archive/02_kyoto/1980/1980_6.pdf"
+page_image: "archive/02_kyoto/1980/1980_6.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　0，1のいずれとも異なる2整数$a$，$b$ $(a \neq b)$を考え，$f(x)=x(x-1)(x-a)(x-b)+1$とおく．
+$g(x)$，$h(x)$が整数係数の多項式で$f(x)=g(x)h(x)$であると仮定する．
+このとき，
+\begin{description}
+\item[(i)]$g(0)=h(0)$を示せ．
+\item[(ii)]$g(x)$，$h(x)$のどちらも定数でないならば$g(x)=h(x)$であることを示せ．
+\item[(iii)](ii)の場合が起こるような$a$，$b$の例を一組求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1980/1980_6.pdf)

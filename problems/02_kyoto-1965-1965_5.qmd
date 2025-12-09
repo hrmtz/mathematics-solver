@@ -1,0 +1,27 @@
+---
+title: "京都大学 1965年 1965_5"
+problem_id: "02_kyoto-1965-1965_5"
+university: "京都大学"
+exam_year: "1965"
+source_tex: "archive/02_kyoto/1965/1965_5.tex"
+pdf_source: "archive/02_kyoto/1965/1965_5.pdf"
+page_image: "archive/02_kyoto/1965/1965_5.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　「函数(関数)$f(x)$の$x=a$における微分係数」の定義をのべよ．
+　また，その定義にしたがって，次の二つの函数の$x=1$における微分係数を求めよ．
+\begin{description}
+\item[(ア)]$\displaystyle\frac{1}{x^3}$
+\item[(イ)]$\sqrt{1+x+x^2}$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1965/1965_5.pdf)

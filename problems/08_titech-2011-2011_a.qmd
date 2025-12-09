@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 2011年 2011_a"
+problem_id: "08_titech-2011-2011_a"
+university: "東京科学大学"
+exam_year: "2011"
+source_tex: "archive/08_titech/2011/2011_a.tex"
+pdf_source: "archive/08_titech/2011/2011_a.pdf"
+page_image: "archive/08_titech/2011/2011_a.jpg"
+fields:
+  - 空間図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　正の実数$t$に対して，
+座標空間における4点$O(0,0,0)$，$A(t,0,0)$，$B(0,1,0)$，$C(0,0,1)$を考える．
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]四面体$OABC$のすべての面に内接する球$P$の半径$r$を$t$を用いて表せ．
+\item[(2)]$t$が動くとき，球$P$の体積を四面体$OABC$の体積で割った値の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2011/2011_a.pdf)

@@ -1,0 +1,261 @@
+## 解答
+
+(1)  
+点の位置ベクトルは  
+$OA=\displaystyle\left(-\frac{\sqrt3}{2},\,\frac12,\,0\right)$，  
+$OB=(0,\,0,\,1)$，  
+$OC=\displaystyle\left(-\frac12,\,-\frac{\sqrt3}{2},\,-1\right)$，  
+$OD=\displaystyle\left(\frac12,\,\frac{\sqrt3}{2},\,-1\right)$  
+である。
+
+まず $\overrightarrow{p}$ を成分で表す。
+$$
+\overrightarrow{p}
+=(1-t)OA+t\,OB
+=(1-t)\left(-\frac{\sqrt3}{2},\,\frac12,\,0\right)+t(0,\,0,\,1)
+$$
+より  
+$$
+\overrightarrow{p}
+=\left(-\frac{\sqrt3}{2}(1-t),\,\frac12(1-t),\,t\right).
+$$
+
+同様に
+$$
+\overrightarrow{q}
+=(1-s)OC+s\,OD
+$$
+なので
+$$
+\overrightarrow{q}
+=(1-s)\left(-\frac12,\,-\frac{\sqrt3}{2},\,-1\right)
++s\left(\frac12,\,\frac{\sqrt3}{2},\,-1\right)
+$$
+各成分を計算すると
+\[
+\begin{aligned}
+x\text{成分} &:\ 
+(1-s)\Bigl(-\frac12\Bigr)+s\Bigl(\frac12\Bigr)
+=-\frac12+\frac12 s+\frac12 s
+=-\frac12+s,\\
+y\text{成分} &:\ 
+(1-s)\Bigl(-\frac{\sqrt3}{2}\Bigr)+s\Bigl(\frac{\sqrt3}{2}\Bigr)
+=-\frac{\sqrt3}{2}+\frac{\sqrt3}{2}s+\frac{\sqrt3}{2}s
+=-\frac{\sqrt3}{2}+\sqrt3\,s,\\
+z\text{成分} &:\ 
+(1-s)(-1)+s(-1)
+=-1+s-s=-1.
+\end{aligned}
+\]
+よって
+$$
+\overrightarrow{q}
+=\left(-\frac12+s,\,-\frac{\sqrt3}{2}+\sqrt3 s,\,-1\right).
+$$
+
+これより大きさを求める。
+$$
+|\overrightarrow{p}|^2
+=\left(-\frac{\sqrt3}{2}(1-t)\right)^2
++\left(\frac12(1-t)\right)^2
++t^2
+=\frac34(1-t)^2+\frac14(1-t)^2+t^2
+=(1-t)^2+t^2.
+$$
+したがって
+$$
+|\overrightarrow{p}|=\sqrt{(1-t)^2+t^2}.
+$$
+
+同様に
+\[
+\begin{aligned}
+|\overrightarrow{q}|^2
+&=\left(-\frac12+s\right)^2
++\left(-\frac{\sqrt3}{2}+\sqrt3 s\right)^2+(-1)^2\\
+&=\left(s-\frac12\right)^2
++\left(\sqrt3 s-\frac{\sqrt3}{2}\right)^2+1\\
+&=(s-\tfrac12)^2+3(s-\tfrac12)^2+1
+=4(s-\tfrac12)^2+1.
+\end{aligned}
+\]
+よって
+$$
+|\overrightarrow{q}|=\sqrt{\,4(s-\tfrac12)^2+1\,}.
+$$
+
+次に内積を求める。
+\[
+\begin{aligned}
+\overrightarrow{p}\cdot\overrightarrow{q}
+&=\left(-\frac{\sqrt3}{2}(1-t)\right)\left(-\frac12+s\right)
++\left(\frac12(1-t)\right)\left(-\frac{\sqrt3}{2}+\sqrt3 s\right)
++t\cdot(-1)\\
+&=\frac{\sqrt3}{2}(1-t)\left(\frac12-s\right)
++\frac12(1-t)\left(-\frac{\sqrt3}{2}+\sqrt3 s\right)
+-t.
+\end{aligned}
+\]
+
+右辺を整理する。
+
+第1項：
+\[
+\frac{\sqrt3}{2}(1-t)\left(\frac12-s\right)
+=\frac{\sqrt3}{4}(1-t)-\frac{\sqrt3}{2}s(1-t).
+\]
+
+第2項：
+\[
+\begin{aligned}
+\frac12(1-t)\left(-\frac{\sqrt3}{2}+\sqrt3 s\right)
+&=-\frac{\sqrt3}{4}(1-t)+\frac{\sqrt3}{2}s(1-t).
+\end{aligned}
+\]
+
+よって第1項と第2項はちょうど打ち消し合い，
+$$
+\overrightarrow{p}\cdot\overrightarrow{q}=-t
+$$
+となる。
+
+以上より  
+$$
+|\overrightarrow{p}|=\sqrt{(1-t)^2+t^2},\quad
+|\overrightarrow{q}|=\sqrt{\,4(s-\tfrac12)^2+1\,},\quad
+\overrightarrow{p}\cdot\overrightarrow{q}=-t
+$$
+である。
+
+---
+
+(2)  
+なす角を $\theta$ とすると，定義より
+$$
+\cos\theta=\dfrac{\overrightarrow{p}\cdot\overrightarrow{q}}
+{|\overrightarrow{p}|\,|\overrightarrow{q}|}
+$$
+である。$\theta=\dfrac{3}{4}\pi$ なので
+$$
+\cos\frac{3}{4}\pi=-\frac{\sqrt2}{2}
+$$
+を用いる。
+
+まず $t=\dfrac12$ のとき
+\[
+\begin{aligned}
+\overrightarrow{p}\cdot\overrightarrow{q}
+&=-t=-\frac12,\\
+|\overrightarrow{p}|
+&=\sqrt{(1-\tfrac12)^2+(\tfrac12)^2}
+=\sqrt{\left(\frac12\right)^2+\left(\frac12\right)^2}
+=\sqrt{\frac12}
+=\frac{1}{\sqrt2},\\
+|\overrightarrow{q}|
+&=\sqrt{\,4(s-\tfrac12)^2+1\,}.
+\end{aligned}
+\]
+
+よって
+$$
+\cos\theta
+=\dfrac{-\frac12}{\frac{1}{\sqrt2}\,\sqrt{\,4(s-\tfrac12)^2+1\,}}
+=-\frac{\sqrt2}{2}\cdot\dfrac{1}{\sqrt{\,4(s-\tfrac12)^2+1\,}}.
+$$
+
+これが $-\dfrac{\sqrt2}{2}$ に等しいので
+$$
+-\frac{\sqrt2}{2}
+=-\frac{\sqrt2}{2}\cdot\dfrac{1}{\sqrt{\,4(s-\tfrac12)^2+1\,}}
+$$
+両辺を $-\dfrac{\sqrt2}{2}$ で割ると
+$$
+1=\dfrac{1}{\sqrt{\,4(s-\tfrac12)^2+1\,}}
+$$
+したがって
+$$
+\sqrt{\,4(s-\tfrac12)^2+1\,}=1
+\quad\Longrightarrow\quad
+4(s-\tfrac12)^2+1=1.
+$$
+よって
+$$
+4(s-\tfrac12)^2=0
+\quad\Longrightarrow\quad
+s-\tfrac12=0
+\quad\Longrightarrow\quad
+s=\frac12.
+$$
+
+したがって求める $s$ の値は $s=\dfrac12$ である。
+
+---
+
+(3)  
+ベクトルの差の大きさについて
+$$
+|\overrightarrow{p}-\overrightarrow{q}|^2
+=(\overrightarrow{p}-\overrightarrow{q})\cdot(\overrightarrow{p}-\overrightarrow{q})
+=|\overrightarrow{p}|^2+|\overrightarrow{q}|^2-2\,\overrightarrow{p}\cdot\overrightarrow{q}
+$$
+が成り立つ（内積の性質を用いた）。
+
+(1) の結果を用いると
+\[
+\begin{aligned}
+|\overrightarrow{p}-\overrightarrow{q}|^2
+&=\bigl((1-t)^2+t^2\bigr)
++\bigl(4(s-\tfrac12)^2+1\bigr)
+-2(-t)\\
+&=(1-t)^2+t^2+4(s-\tfrac12)^2+1+2t.
+\end{aligned}
+\]
+
+ここで $t$ を含む部分と $s$ を含む部分に分ける。
+まず $t$ を含む部分を整理する：
+\[
+\begin{aligned}
+(1-t)^2+t^2+2t
+&=(1-2t+t^2)+t^2+2t
+=2t^2+2.
+\end{aligned}
+\]
+
+したがって
+$$
+|\overrightarrow{p}-\overrightarrow{q}|^2
+=2t^2+2+4(s-\tfrac12)^2
+=2\bigl(t^2+1+2(s-\tfrac12)^2\bigr).
+$$
+
+右辺は $t$ と $s$ についての和であり，
+それぞれ平方の形 $t^2$，$2(s-\tfrac12)^2$ を含む。  
+$t$ と $s$ は任意の実数なので，
+$$
+t^2\ge0,\quad (s-\tfrac12)^2\ge0
+$$
+が成り立ち，したがって
+$$
+t^2+1+2(s-\tfrac12)^2\ge1
+$$
+である。等号は
+$$
+t^2=0,\quad (s-\tfrac12)^2=0
+$$
+すなわち
+$$
+t=0,\quad s=\frac12
+$$
+のときに成立する。
+
+よって
+$$
+|\overrightarrow{p}-\overrightarrow{q}|^2
+\ge 2\cdot1=2
+$$
+であり，最小値は $2$，したがって
+$$
+|\overrightarrow{p}-\overrightarrow{q}|
+\text{ の最小値}=\sqrt2
+$$
+となる。

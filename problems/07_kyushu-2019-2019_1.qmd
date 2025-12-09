@@ -1,0 +1,25 @@
+---
+title: "九州大学 2019年 2019_1"
+problem_id: "07_kyushu-2019-2019_1"
+university: "九州大学"
+exam_year: "2019"
+source_tex: "archive/07_kyushu/2019/2019_1.tex"
+pdf_source: "archive/07_kyushu/2019/2019_1.pdf"
+page_image: "archive/07_kyushu/2019/2019_1.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$n$を自然数とする。$x$，$y$がすべての実数を動くとき，定積分
+\[ \int_0^1{(\sin(2n\pi t)-xt-y)}^2dt \]
+の最小値を$I_n$とおく。極限$\displaystyle\lim_{n\to\infty}I_n$を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2019/2019_1.pdf)

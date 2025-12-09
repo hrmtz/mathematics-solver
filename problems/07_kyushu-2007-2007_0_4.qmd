@@ -1,0 +1,32 @@
+---
+title: "九州大学 2007年 2007_0_4"
+problem_id: "07_kyushu-2007-2007_0_4"
+university: "九州大学"
+exam_year: "2007"
+source_tex: "archive/07_kyushu/2007/2007_0_4.tex"
+pdf_source: "archive/07_kyushu/2007/2007_0_4.pdf"
+page_image: "archive/07_kyushu/2007/2007_0_4.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　3辺の長さがそれぞれ$\sqrt{x^2-2x}$，$4-x$，2で表される三角形がある．
+長さ$\sqrt{x^2-2x}$の辺は他の2辺より長さが短くないとする．
+このとき，次の問いに答えよ．
+\begin{description}
+\item[(1)]このような三角形が描けるための$x$の満たす範囲を求めよ．
+\item[(2)]この三角形の最短の辺と向かい合った角の大きさを$\theta$とするとき，
+$\cos\theta$を$x$を用いて表せ．
+\item[(3)]$x$が(1)で求めた範囲にあるときの$\cos\theta$の最小値と，
+その最小値を与える$x$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_0_4.pdf)

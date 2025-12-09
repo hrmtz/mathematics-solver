@@ -1,0 +1,32 @@
+---
+title: "東京大学 1984年 1984_3"
+problem_id: "01_tokyo-1984-1984_3"
+university: "東京大学"
+exam_year: "1984"
+source_tex: "archive/01_tokyo/1984/1984_3.tex"
+pdf_source: "archive/01_tokyo/1984/1984_3.pdf"
+page_image: "archive/01_tokyo/1984/1984_3.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　2以上の自然数$k$に対して$f_k(x)=x^k-kx+k-1$とおく．
+このとき，次のことを証明せよ．
+\begin{description}
+\item[i)]$n$次多項式$g(x)$が$(x-1)^2$で割り切れるためには，
+$g(x)$が定数$a_2,\cdots,a_n$を用いて$\displaystyle g(x)=\sum_{k=2}^n a_k f_k(x)$の形に
+表されることが必要十分である．
+\item[ii)]$n$次多項式$g(x)$が$(x-1)^3$で割り切れるためには，
+$g(x)$が関係式$\displaystyle \sum_{k=2}^n \frac{k(k-1)}{2}a_k=0$をみたす定数$a_2,\cdots,a_n$を用いて
+$\displaystyle g(x)=\sum_{k=2}^n a_k f_k(x)$の形に
+表されることが必要十分である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1984/1984_3.pdf)

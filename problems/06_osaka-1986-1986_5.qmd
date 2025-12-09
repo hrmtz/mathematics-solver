@@ -1,0 +1,33 @@
+---
+title: "大阪大学 1986年 1986_5"
+problem_id: "06_osaka-1986-1986_5"
+university: "大阪大学"
+exam_year: "1986"
+source_tex: "archive/06_osaka/1986/1986_5.tex"
+pdf_source: "archive/06_osaka/1986/1986_5.pdf"
+page_image: "archive/06_osaka/1986/1986_5.jpg"
+fields:
+  - 確率
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　袋$A$には1から$n$までの番号のついた$n$枚のカードが入っており，
+袋$B$には1から$m$までの番号のついた$m$枚のカードが入っている．
+ただし，$m>n$とする．
+　$n$人の人が1回目に袋$A$から無作為にカードを1枚ずつ取り，
+2回目に袋$B$から無作為にカードを1枚ずつ取る．
+ただし，取り出したカードはもとに戻さないものとする．
+\begin{description}
+\item[(1)]すべての人について2回目のカードの番号のほうが1回目のカードの番号より大きいという事象の確率$P_{n,m}$を求めよ．
+\item[(2)]$m=2n$のときの$P_{n,2n}$に対して，
+$\displaystyle\lim_{n\to\infty}\frac{1}{n}\log P_{n,2n}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1986/1986_5.pdf)

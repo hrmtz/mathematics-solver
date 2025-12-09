@@ -1,0 +1,25 @@
+---
+title: "京都大学 1998年 1998_0_c"
+problem_id: "02_kyoto-1998-1998_0_c"
+university: "京都大学"
+exam_year: "1998"
+source_tex: "archive/02_kyoto/1998/1998_0_c.tex"
+pdf_source: "archive/02_kyoto/1998/1998_0_c.pdf"
+page_image: "archive/02_kyoto/1998/1998_0_c.jpg"
+fields:
+  - 積分法
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数$f_n(x)$，$(n=1,2,3,\cdots)$は，$f_1(x)=4x^2+1$
+\[ f_n(x)=3x^2\int_0^1t{f_{n-1}}'(t)dt+3\int_0^1f_{n-1}(t)dt, \hspace{1zw} (n=2,3,\cdots) \]
+で帰納的に定義されている．この$f_n(x)$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1998/1998_0_c.pdf)

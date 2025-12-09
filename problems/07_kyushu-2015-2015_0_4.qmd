@@ -1,0 +1,28 @@
+---
+title: "九州大学 2015年 2015_0_4"
+problem_id: "07_kyushu-2015-2015_0_4"
+university: "九州大学"
+exam_year: "2015"
+source_tex: "archive/07_kyushu/2015/2015_0_4.tex"
+pdf_source: "archive/07_kyushu/2015/2015_0_4.pdf"
+page_image: "archive/07_kyushu/2015/2015_0_4.jpg"
+fields:
+  - 整数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　以下の問いに答えよ。
+\begin{description}
+\item[(1)]$n$が正の偶数のとき，$2^n-1$は3の倍数であることを示せ。
+\item[(2)]$p$を素数とし，$k$を0以上の整数とする。
+$2^{p-1}-1=p^k$を満たす$p, \, k$の組をすべて求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2015/2015_0_4.pdf)

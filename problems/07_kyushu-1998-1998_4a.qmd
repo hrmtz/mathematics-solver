@@ -1,0 +1,31 @@
+---
+title: "九州大学 1998年 1998_4a"
+problem_id: "07_kyushu-1998-1998_4a"
+university: "九州大学"
+exam_year: "1998"
+source_tex: "archive/07_kyushu/1998/1998_4a.tex"
+pdf_source: "archive/07_kyushu/1998/1998_4a.pdf"
+page_image: "archive/07_kyushu/1998/1998_4a.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+\begin{description}
+\item[(1)]$x \geqq y \geqq 0$のとき，
+不等式$\displaystyle\frac{x}{1+x}\geqq\frac{y}{1+y}$が成り立つことを示せ．
+\item[(2)]
+\begin{description}
+\item[(i)]不等式$\displaystyle\frac{|x|}{1+|x|}+\frac{|y|}{1+|y|}+\frac{|z|}{1+|z|}
+\geqq\frac{|x+y+z|}{1+|x+y+z|}$が成り立つことを示せ．
+\item[(ii)](i)の不等式で等号が成り立つのはどのような場合か調べよ．
+\end{description}
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_4a.pdf)

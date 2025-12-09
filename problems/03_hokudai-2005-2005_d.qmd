@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2005年 2005_d"
+problem_id: "03_hokudai-2005-2005_d"
+university: "北海道大学"
+exam_year: "2005"
+source_tex: "archive/03_hokudai/2005/2005_d.tex"
+pdf_source: "archive/03_hokudai/2005/2005_d.pdf"
+page_image: "archive/03_hokudai/2005/2005_d.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　四面体$ABCD$において，
+辺$AB$と辺$CD$が垂直ならば，
+頂点$A$から平面$BCD$へ下ろした垂線と，
+頂点$B$から平面$CDA$へ下ろした垂線は交わることを示せ．
+ 
+
+![](../archive/03_hokudai/2005/fig_2005_d.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2005/2005_d.pdf)

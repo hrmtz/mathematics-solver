@@ -1,0 +1,27 @@
+---
+title: "東北大学 1981年 1981_0_1"
+problem_id: "04_tohoku-1981-1981_0_1"
+university: "東北大学"
+exam_year: "1981"
+source_tex: "archive/04_tohoku/1981/1981_0_1.tex"
+pdf_source: "archive/04_tohoku/1981/1981_0_1.pdf"
+page_image: "archive/04_tohoku/1981/1981_0_1.jpg"
+fields:
+  - 行列
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$O$を原点とする平面の1次変換$f$があって，
+任意の点$P$がうつされる点を$Q$とするとき，
+線分$OQ$の長さは線分$OP$の長さの2倍になっている．
+とくに$f$は点$(1, \, 0)$を点$(\sqrt3, \, -1)$にうつす．
+このような1次変換$f$を表す行列$A$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1981/1981_0_1.pdf)

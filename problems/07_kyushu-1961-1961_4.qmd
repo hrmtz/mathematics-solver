@@ -1,0 +1,33 @@
+---
+title: "九州大学 1961年 1961_4"
+problem_id: "07_kyushu-1961-1961_4"
+university: "九州大学"
+exam_year: "1961"
+source_tex: "archive/07_kyushu/1961/1961_4.tex"
+pdf_source: "archive/07_kyushu/1961/1961_4.pdf"
+page_image: "archive/07_kyushu/1961/1961_4.jpg"
+fields:
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　右図で$O$は半径$r$の定円，四辺形$ABCD$はそれに外接するものとする。
+ 
+
+![](../archive/07_kyushu/1961/fig_1961_4.jpg)
+
+
+\begin{description}
+\item[(1)]四辺形$ABCD$の面積$S$を$r$および角$A$，$B$，$C$，$D$を用いて表わせ。
+\item[(2)]とくに$AD // BC$であるとき(1)で求めた$S$の式を用いて，
+不等式$S\geqq4r^2$が成り立つことを証明せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1961/1961_4.pdf)

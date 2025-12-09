@@ -1,0 +1,34 @@
+---
+title: "京都大学 1996年 1996_1"
+problem_id: "02_kyoto-1996-1996_1"
+university: "京都大学"
+exam_year: "1996"
+source_tex: "archive/02_kyoto/1996/1996_1.tex"
+pdf_source: "archive/02_kyoto/1996/1996_1.pdf"
+page_image: "archive/02_kyoto/1996/1996_1.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面の原点$O$を中心とし半径1の円$C$上に定点$A$をとる．
+同じ円上の点$X$に対し，
+平面上の点$Y$を
+$\overrightarrow{OY}=\overrightarrow{OA}-2(\overrightarrow{OA}\cdot\overrightarrow{OX})\overrightarrow{OX}$
+で定める．
+ただし，$\overrightarrow{OA}\cdot\overrightarrow{OX}$は$\overrightarrow{OA}$と$\overrightarrow{OX}$の内積である．
+このとき
+\begin{description}
+\item[(1)]$|\overrightarrow{OY}|=1$であることを示せ．
+\item[(2)]$\overrightarrow{OY}=-\overrightarrow{OA}$となる点$X$をすべて求めよ．
+\item[(3)]点$X$が円$C$を1回まわるとき，点$Y$は同じ円を2回まわることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_1.pdf)

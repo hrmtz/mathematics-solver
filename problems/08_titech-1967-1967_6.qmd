@@ -1,0 +1,23 @@
+---
+title: "東京科学大学 1967年 1967_6"
+problem_id: "08_titech-1967-1967_6"
+university: "東京科学大学"
+exam_year: "1967"
+source_tex: "archive/08_titech/1967/1967_6.tex"
+pdf_source: "archive/08_titech/1967/1967_6.pdf"
+page_image: "archive/08_titech/1967/1967_6.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　放物線$y=-2x^2+x+1$上の1点における接線と放物線$y=x^2$とによって囲まれた部分の面積の最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1967/1967_6.pdf)

@@ -1,0 +1,32 @@
+---
+title: "東京科学大学 2021年 2021_3"
+problem_id: "08_titech-2021-2021_3"
+university: "東京科学大学"
+exam_year: "2021"
+source_tex: "archive/08_titech/2021/2021_3.tex"
+pdf_source: "archive/08_titech/2021/2021_3.pdf"
+page_image: "archive/08_titech/2021/2021_3.jpg"
+fields:
+  - 整数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　以下の問いに答えよ．
+\begin{description}
+\item[(1)]正の整数$n$に対して，二項係数に関する次の等式を示せ．
+\[ n \, {}_{2n}C_n=(n+1) \, {}_{2n}C_{n-1} \]
+また，これを用いて${}_{2n}C_n$は$n+1$の倍数であることを示せ．
+\item[(2)]正の整数$n$に対して，
+\[ a_n=\frac{{}_{2n}C_n}{n+1} \]
+とおく．このとき，$n\geqq4$ならば$a_n>n+2$であることを示せ．
+\item[(3)]$a_n$が素数となる正の整数$n$をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2021/2021_3.pdf)

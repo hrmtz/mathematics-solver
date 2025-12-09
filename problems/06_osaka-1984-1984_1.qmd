@@ -1,0 +1,28 @@
+---
+title: "大阪大学 1984年 1984_1"
+problem_id: "06_osaka-1984-1984_1"
+university: "大阪大学"
+exam_year: "1984"
+source_tex: "archive/06_osaka/1984/1984_1.tex"
+pdf_source: "archive/06_osaka/1984/1984_1.pdf"
+page_image: "archive/06_osaka/1984/1984_1.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　平行でない2直線
+\[ l_1:p_1x+q_1y+1=0 \]
+\[ l_2:p_2x+q_2y+1=0 \]
+と，1次変換$f$が与えられている．
+$f$が$l_1$を$l_2$にうつし$l_2$を$l_1$にうつす変換であるとき，
+合成変換$f \cdot f$は恒等変換であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1984/1984_1.pdf)

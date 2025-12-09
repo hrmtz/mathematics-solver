@@ -1,0 +1,27 @@
+---
+title: "東京大学 1964年 1964_4"
+problem_id: "01_tokyo-1964-1964_4"
+university: "東京大学"
+exam_year: "1964"
+source_tex: "archive/01_tokyo/1964/1964_4.tex"
+pdf_source: "archive/01_tokyo/1964/1964_4.pdf"
+page_image: "archive/01_tokyo/1964/1964_4.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　4点$A_1(0,0)$，$A_2(1,0)$，$A_3(2,2)$，$A_4(0,2)$を頂点とする四辺形がある．
+この平面上に4点$P_1$，$P_2$，$P_3$，$P_4$をとって，
+　点$P_1$は$P_4A_4$の中点，点$P_2$は$P_1A_1$の中点，
+点$P_3$は$P_2A_2$の中点，点$P_4$は$P_3A_3$の中点となるようにする．
+　4点$P_1$，$P_2$，$P_3$，$P_4$の座標および四辺形$P_1P_2P_3P_4$の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1964/1964_4.pdf)

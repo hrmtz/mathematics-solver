@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1992年 1992_5"
+problem_id: "03_hokudai-1992-1992_5"
+university: "北海道大学"
+exam_year: "1992"
+source_tex: "archive/03_hokudai/1992/1992_5.tex"
+pdf_source: "archive/03_hokudai/1992/1992_5.pdf"
+page_image: "archive/03_hokudai/1992/1992_5.jpg"
+fields:
+  - 積分法
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+\begin{description}
+\item[(1)]正の実数$p$，$q$に対して，
+$\displaystyle\int_0^1x^p{(1-x)}^qdx\leqq\frac{1}{q+1}$を示せ．
+\item[(2)]第$n$項$a_n$が次式であたえられるとき，
+無限級数の和$\displaystyle\sum_{n=1}^\infty a_n$を求めよ．
+ただし，$s$は1より大きい実数とする．
+\[ a_n=\frac{1}{n^{s+1}}\int_0^nx^s{\left( 1-\frac{x}{n} \right)}^ndx \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1992/1992_5.pdf)

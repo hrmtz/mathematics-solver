@@ -1,0 +1,29 @@
+---
+title: "京都大学 2025年 2025_0_2"
+problem_id: "02_kyoto-2025-2025_0_2"
+university: "京都大学"
+exam_year: "2025"
+source_tex: "archive/02_kyoto/2025/2025_0_2.tex"
+pdf_source: "archive/02_kyoto/2025/2025_0_2.pdf"
+page_image: "archive/02_kyoto/2025/2025_0_2.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　実数$a, \, b$についての次の条件(＊)を考える．
+\begin{description}
+\item[(＊)]ある実数係数の2次式$f(x)$と，ある実数$c$に対して，$x$についての恒等式
+\[ \frac{1}{8}x^4+ax^3+bx^2=f(f(x))+c \]
+が成り立つ．
+\end{description}
+この条件(＊)を満たす点$(a, \, b)$全体の集合を座標平面上に図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2025/2025_0_2.pdf)

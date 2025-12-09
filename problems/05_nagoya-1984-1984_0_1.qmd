@@ -1,0 +1,34 @@
+---
+title: "名古屋大学 1984年 1984_0_1"
+problem_id: "05_nagoya-1984-1984_0_1"
+university: "名古屋大学"
+exam_year: "1984"
+source_tex: "archive/05_nagoya/1984/1984_0_1.tex"
+pdf_source: "archive/05_nagoya/1984/1984_0_1.pdf"
+page_image: "archive/05_nagoya/1984/1984_0_1.jpg"
+fields:
+  - 行列
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$で
+次の2つの条件を満たすものをすべて求めよ．
+\begin{description}
+\item[(i)]$a+d=1$
+\item[(ii)]任意のベクトル$\overrightarrow{p}=\begin{pmatrix} x 
+
+ y \end{pmatrix}$に対して，
+$\overrightarrow{p}$と$A^2\overrightarrow{p}$は直交する．
+ここで，$A^2=AA$とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1984/1984_0_1.pdf)

@@ -1,0 +1,24 @@
+---
+title: "東京科学大学 1963年 1963_2"
+problem_id: "08_titech-1963-1963_2"
+university: "東京科学大学"
+exam_year: "1963"
+source_tex: "archive/08_titech/1963/1963_2.tex"
+pdf_source: "archive/08_titech/1963/1963_2.pdf"
+page_image: "archive/08_titech/1963/1963_2.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$x>0$，$y>0$，$a>0$のとき，
+$x+y\leqq1+a$，$\displaystyle\frac{1}{x}+\frac{1}{y}\leqq4(1+a)$ならば，
+${(2x-1)}^2<4a(1+a)$が成り立つことを示せ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1963/1963_2.pdf)

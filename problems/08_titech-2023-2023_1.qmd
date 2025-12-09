@@ -1,0 +1,23 @@
+---
+title: "東京科学大学 2023年 2023_1"
+problem_id: "08_titech-2023-2023_1"
+university: "東京科学大学"
+exam_year: "2023"
+source_tex: "archive/08_titech/2023/2023_1.tex"
+pdf_source: "archive/08_titech/2023/2023_1.pdf"
+page_image: "archive/08_titech/2023/2023_1.jpg"
+fields:
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$\displaystyle\int_0^{2023}\frac{2}{x+e^x}dx$の整数部分を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2023/2023_1.pdf)

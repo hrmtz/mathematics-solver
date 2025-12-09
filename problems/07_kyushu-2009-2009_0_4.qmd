@@ -1,0 +1,32 @@
+---
+title: "九州大学 2009年 2009_0_4"
+problem_id: "07_kyushu-2009-2009_0_4"
+university: "九州大学"
+exam_year: "2009"
+source_tex: "archive/07_kyushu/2009/2009_0_4.tex"
+pdf_source: "archive/07_kyushu/2009/2009_0_4.pdf"
+page_image: "archive/07_kyushu/2009/2009_0_4.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　曲線$y=x^2$の点$P(a, \, a^2)$における接線と
+点$Q(b, \, b^2)$における接線が点$R$で交わるとする．
+ただし，$a<0<b$とする．このとき，次の問いに答えよ．
+\begin{description}
+\item[(1)]点$R$の座標および三角形$PRQ$の面積を求めよ．
+\item[(2)]線分$PR$と線分$QR$を2辺とする平行四辺形を$PRQS$とする．
+折れ線$PSQ$と曲線$y=x^2$で囲まれた図形の面積を求めよ．
+\item[(3)]$\angle PRQ={90}^\circ$を満たしながら$P$と$Q$が動くとき，
+(2)で求めた面積の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_0_4.pdf)

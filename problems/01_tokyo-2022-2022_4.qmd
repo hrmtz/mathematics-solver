@@ -1,0 +1,36 @@
+---
+title: "東京大学 2022年 2022_4"
+problem_id: "01_tokyo-2022-2022_4"
+university: "東京大学"
+exam_year: "2022"
+source_tex: "archive/01_tokyo/2022/2022_4.tex"
+pdf_source: "archive/01_tokyo/2022/2022_4.pdf"
+page_image: "archive/01_tokyo/2022/2022_4.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　座標平面上の曲線
+\[ C:y=x^3-x \]
+を考える。
+\begin{description}
+\item[(1)]座標平面上のすべての点$P$が次の条件(i)を満たすことを示せ。
+\begin{description}
+\item[(i)]点$P$を通る直線$l$で，曲線$C$と相異なる3点で交わるものが存在する。
+\end{description}
+\item[(2)]次の条件(ii)を満たす点$P$のとりうる範囲を座標平面上に図示せよ。
+\begin{description}
+\item[(ii)]点$P$を通る直線$l$で，曲線$C$と相異なる3点で交わり，かつ，
+直線$l$と曲線$C$で囲まれた2つの部分の面積が等しくなるものが存在する。
+\end{description}
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2022/2022_4.pdf)

@@ -1,0 +1,27 @@
+---
+title: "京都大学 2012年 2012_0_5"
+problem_id: "02_kyoto-2012-2012_0_5"
+university: "京都大学"
+exam_year: "2012"
+source_tex: "archive/02_kyoto/2012/2012_0_5.tex"
+pdf_source: "archive/02_kyoto/2012/2012_0_5.pdf"
+page_image: "archive/02_kyoto/2012/2012_0_5.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　次の条件(＊)を満たす正の実数の組$(a,b)$の範囲を求め，座標平面上に図示せよ．
+\begin{description}
+\item[(＊)]$\cos a\theta = \cos b \theta$かつ$0 < \theta \leqq \pi$
+となる$\theta$がちょうど1つある．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2012/2012_0_5.pdf)

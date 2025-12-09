@@ -1,0 +1,31 @@
+---
+title: "東北大学 1998年 1998_3"
+problem_id: "04_tohoku-1998-1998_3"
+university: "東北大学"
+exam_year: "1998"
+source_tex: "archive/04_tohoku/1998/1998_3.tex"
+pdf_source: "archive/04_tohoku/1998/1998_3.pdf"
+page_image: "archive/04_tohoku/1998/1998_3.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　ある1面だけに印のついた立方体が水平な平面に置かれている．
+平面に接する面(底面)の4辺のうち1辺を選んでこの辺を軸にしてこの立方体を横に倒す，という操作を行う．
+ただし，どの辺が選ばれるかは同様に確からしいとし，印のついた面が最初は上面にあるとする．
+この操作を$n$回続けて行ったとき，印のついた面が立方体の側面にくる確率を$a_n$，底面にくる確率を$b_n$とおく．
+\begin{description}
+\item[(1)]$a_2$を求めよ．
+\item[(2)]$a_{n+1}$と$a_n$の関係式を導け．
+\item[(3)]$b_n$を$n$の式で表し，$\displaystyle\lim_{n\to\infty}b_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_3.pdf)

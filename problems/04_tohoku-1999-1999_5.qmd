@@ -1,0 +1,34 @@
+---
+title: "東北大学 1999年 1999_5"
+problem_id: "04_tohoku-1999-1999_5"
+university: "東北大学"
+exam_year: "1999"
+source_tex: "archive/04_tohoku/1999/1999_5.tex"
+pdf_source: "archive/04_tohoku/1999/1999_5.pdf"
+page_image: "archive/04_tohoku/1999/1999_5.jpg"
+fields:
+  - 数列
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　正$n$角形$P_n$を次のようにして定義する．
+\begin{description}
+\item[(i)]$P_3$は面積が1の正三角形である．
+\item[(ii)]$P_n$と同じ面積をもつ円を$D_n$とする．
+$P_{n+1}$は$D_n$と周の長さが等しい正$n+1$角形である．
+\end{description}
+$n=3, \, 4, \, 5, \, \cdots$について$P_n$の面積を$a_n$としたとき次の各問いに答えよ．
+\begin{description}
+\item[(1)]$n\geqq4$について$\displaystyle\frac{a_{n-1}}{n}$を$n$を用いて表せ．
+\item[(2)]極限$\displaystyle\lim_{n\to\infty}n^2\left(\frac{a_{n-1}}{a_n}-\frac{n}{\pi}\sin\frac{\pi}{n}\right)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_5.pdf)

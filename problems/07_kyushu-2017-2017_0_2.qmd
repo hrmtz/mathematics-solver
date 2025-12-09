@@ -1,0 +1,29 @@
+---
+title: "九州大学 2017年 2017_0_2"
+problem_id: "07_kyushu-2017-2017_0_2"
+university: "九州大学"
+exam_year: "2017"
+source_tex: "archive/07_kyushu/2017/2017_0_2.tex"
+pdf_source: "archive/07_kyushu/2017/2017_0_2.pdf"
+page_image: "archive/07_kyushu/2017/2017_0_2.jpg"
+fields:
+  - 平面図形
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　座標平面上に原点$O$，点$A(1, \, a)$，点$B(s, \, t)$がある。以下の問いに答えよ。
+\begin{description}
+\item[(1)]$a=1$のとき，$\triangle OAB$が正三角形となるような$(s, \, t)$をすべて求めよ。
+\item[(2)]$\sqrt3$は無理数であることを証明せよ。
+\item[(3)]$\triangle OAB$が正三角形であり，$a$が無理数であるとき，
+$s$と$t$のうち少なくとも1つは無理数であることを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_0_2.pdf)

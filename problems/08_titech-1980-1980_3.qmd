@@ -1,0 +1,23 @@
+---
+title: "東京科学大学 1980年 1980_3"
+problem_id: "08_titech-1980-1980_3"
+university: "東京科学大学"
+exam_year: "1980"
+source_tex: "archive/08_titech/1980/1980_3.tex"
+pdf_source: "archive/08_titech/1980/1980_3.pdf"
+page_image: "archive/08_titech/1980/1980_3.jpg"
+fields:
+  - 指数・対数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　曲線$y=e^x$に点$(a, \, b)$から引きうる接線の個数を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1980/1980_3.pdf)

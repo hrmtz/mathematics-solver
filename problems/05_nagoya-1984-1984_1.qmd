@@ -1,0 +1,31 @@
+---
+title: "名古屋大学 1984年 1984_1"
+problem_id: "05_nagoya-1984-1984_1"
+university: "名古屋大学"
+exam_year: "1984"
+source_tex: "archive/05_nagoya/1984/1984_1.tex"
+pdf_source: "archive/05_nagoya/1984/1984_1.pdf"
+page_image: "archive/05_nagoya/1984/1984_1.jpg"
+fields:
+  - 数列
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　数列$\{ a_n \}$，$\{ b_n \}$をそれぞれ
+$\displaystyle a_n=\int_0^{n\pi}x\sin xdx$，$\displaystyle b_n=\sum_{k=1}^na_k$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$で
+定義する．
+\begin{description}
+\item[(1)]$a_n$を求めよ．
+\item[(2)]$b_n$を求めよ．
+\item[(3)]$\displaystyle\lim_{n\to\infty}\frac{b_{2n-1}}{2n-1}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1984/1984_1.pdf)

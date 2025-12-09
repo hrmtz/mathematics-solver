@@ -1,0 +1,55 @@
+---
+title: "九州大学 2013年 2013_c"
+problem_id: "07_kyushu-2013-2013_c"
+university: "九州大学"
+exam_year: "2013"
+source_tex: "archive/07_kyushu/2013/2013_c.tex"
+pdf_source: "archive/07_kyushu/2013/2013_c.pdf"
+page_image: "archive/07_kyushu/2013/2013_c.jpg"
+fields:
+  - 数列
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　数列$\{ a_n \}$，$\{ b_n \}$を次式により定める。
+\[ \begin{pmatrix} a_1 
+
+ b_1 \end{pmatrix}=\begin{pmatrix} 2 
+
+ 0 \end{pmatrix}, \hspace{1zw}
+\begin{pmatrix} a_{n+1} 
+
+ b_{n+1} \end{pmatrix}=
+\begin{pmatrix} 3 & 4 
+
+ 2 & 3 \end{pmatrix}\begin{pmatrix} a_n 
+
+ b_n \end{pmatrix} \hspace{1zw}
+(n=1, \, 2, \, 3, \, \cdots) \]
+このとき，以下の問いに答えよ。
+\begin{description}
+\item[(1)]すべての$n$に対して，$xy$平面上の点$(a_n, \, b_n)$が
+双曲線$x^2-2y^2=4$の上にあることを証明せよ。
+\item[(2)]$r$，$s$，$t$は正の実数とし，
+行列$A=\begin{pmatrix} r & -r 
+
+ 1 & 1 \end{pmatrix}$が次の関係式を満たすとする。
+\[ A^{-1}\begin{pmatrix} 3 & 4 
+
+ 2 & 3 \end{pmatrix}A=
+\begin{pmatrix} s & 0 
+
+ 0 & t \end{pmatrix} \]
+このとき，$r$，$s$，$t$を求めよ。
+\item[(3)]数列$\{ a_n \}$，$\{ b_n \}$の一般項を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2013/2013_c.pdf)

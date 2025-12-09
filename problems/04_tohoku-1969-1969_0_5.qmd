@@ -1,0 +1,27 @@
+---
+title: "東北大学 1969年 1969_0_5"
+problem_id: "04_tohoku-1969-1969_0_5"
+university: "東北大学"
+exam_year: "1969"
+source_tex: "archive/04_tohoku/1969/1969_0_5.tex"
+pdf_source: "archive/04_tohoku/1969/1969_0_5.pdf"
+page_image: "archive/04_tohoku/1969/1969_0_5.jpg"
+fields:
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+\begin{description}
+\item[(1)]$\displaystyle f(a)=\int_0^1|(x-a)(x-3a)|dx$を求めよ．
+ただし，$0 \leqq a \leqq 1$とする．
+\item[(2)]$f(a)$の最大値と最小値とを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1969/1969_0_5.pdf)

@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1969年 1969_0_4b"
+problem_id: "05_nagoya-1969-1969_0_4b"
+university: "名古屋大学"
+exam_year: "1969"
+source_tex: "archive/05_nagoya/1969/1969_0_4b.tex"
+pdf_source: "archive/05_nagoya/1969/1969_0_4b.pdf"
+page_image: "archive/05_nagoya/1969/1969_0_4b.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　$a$ $(>1)$を奇数，$m$ $(>1)$を整数とするとき，次のことを証明せよ．
+\begin{description}
+\item[（イ）]$m$が偶数ならば$a^m+1$は4で割り切れない．
+\item[（ロ）]$m$が奇数ならば$a^m+1$は1より大きな奇数で割り切れる．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1969/1969_0_4b.pdf)

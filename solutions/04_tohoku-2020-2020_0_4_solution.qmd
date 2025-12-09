@@ -1,0 +1,223 @@
+## 解答
+
+(1)  
+表が $s$ 枚，裏が $t$ 枚なので，硬貨は全部で $6$ 枚より  
+$$
+s+t=6
+$$
+である。  
+$\overrightarrow{p}=(x,\,y)$ を
+$$
+\overrightarrow{p}=s(2,\,-1)+t(-1,\,2)
+$$
+で定めるとき，成分ごとに計算すると
+$$
+\overrightarrow{p}
+=(2s-t,\,-s+2t)
+$$
+だから
+$$
+x=2s-t,\quad y=-s+2t
+$$
+となる。よって  
+$$
+x+y=(2s-t)+(-s+2t)=s+t=6
+$$
+したがって，$x+y=6$ である。
+
+---
+
+(2)  
+$\overrightarrow{p}=(0,\,6)$ とおくと
+$$
+(2s-t,\,-s+2t)=(0,\,6)
+$$
+より連立方程式
+$$
+\begin{cases}
+2s-t=0\\
+-s+2t=6
+\end{cases}
+$$
+を得る。  
+第1式から $t=2s$，これを第2式に代入して
+$$
+-s+2(2s)=6 \\
+- s + 4s = 6 \\
+3s=6
+$$
+より
+$$
+s=2,\quad t=2s=4
+$$
+である。
+
+硬貨6枚を投げたとき，表が $s=2$ 枚，裏が $t=4$ 枚となる確率は二項分布より
+$$
+\binom{6}{2}\left(\frac12\right)^6
+=\frac{15}{64}
+$$
+したがって，$\overrightarrow{p}=(0,\,6)$ となる確率は $\displaystyle \frac{15}{64}$ である。
+
+---
+
+(3)  
+$\overrightarrow{p}=(2s-t,\,-s+2t)$，$\overrightarrow{q}=(3,\,1)$ とする。  
+2 乗和を用いて大きさを求めると
+$$
+\lVert \overrightarrow{q} \rVert^2
+=3^2+1^2=10
+$$
+また
+$$
+\lVert \overrightarrow{p} \rVert^2
+=(2s-t)^2+(-s+2t)^2
+=(4s^2-4st+t^2)+(s^2-4st+4t^2) \\
+=5s^2-8st+5t^2
+$$
+さらに内積
+$$
+\overrightarrow{p}\cdot\overrightarrow{q}
+=(2s-t,\, -s+2t)\cdot(3,\,1)
+=3(2s-t)+(-s+2t)
+=6s-3t-s+2t=5s- t
+$$
+
+2 ベクトルのなす角を $\theta$ とすると，内積の定義より
+$$
+\cos \theta
+=\frac{\overrightarrow{p}\cdot\overrightarrow{q}}{\lVert\overrightarrow{p}\rVert\lVert\overrightarrow{q}\rVert}
+=\frac{5s-t}{\sqrt{(5s^2-8st+5t^2)\cdot 10}}
+$$
+である。  
+なす角が $\dfrac{\pi}{6}$ 以下である条件は
+$$
+\theta\le \frac{\pi}{6}
+\quad\Longleftrightarrow\quad
+\cos\theta\ge \cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}
+$$
+なので
+$$
+\frac{5s-t}{\sqrt{(5s^2-8st+5t^2)\cdot 10}}\ge \frac{\sqrt{3}}{2}
+$$
+が必要十分条件である。ただし $s,t$ は表・裏の枚数であり $s+t=6$，$s,t$ は $0,1,2,3,4,5,6$ の整数である。  
+個々に調べるため $t=6-s$ とおいて $\overrightarrow{p}$ を直接計算する方が簡単である。
+
+$t=6-s$ を代入して
+$$
+\overrightarrow{p}
+=s(2,\,-1)+(6-s)(-1,\,2)
+=(2s-6+s,\,-s+12-2s) \\
+=(3s-6,\,-3s+12)
+=3(s-2,\,-s+4)
+$$
+したがって
+$$
+\lVert\overrightarrow{p}\rVert
+=3\sqrt{(s-2)^2+(-s+4)^2}
+=3\sqrt{2s^2-12s+20}
+$$
+また
+$$
+\overrightarrow{p}\cdot\overrightarrow{q}
+=3(s-2,\,-s+4)\cdot(3,\,1)
+=3\{3(s-2)+(-s+4)\} \\
+=3(2s-2)=6s-6
+$$
+よって
+$$
+\cos\theta
+=\frac{6s-6}{3\sqrt{2s^2-12s+20}\,\sqrt{10}}
+=\frac{2(s-1)}{\sqrt{2s^2-12s+20}\,\sqrt{10}}
+$$
+
+これが $\dfrac{\sqrt{3}}{2}$ 以上となる $s$ を調べる。  
+まず $s=0,1$ では分子 $2(s-1)\le 0$ なので $\cos\theta\le 0<\dfrac{\sqrt{3}}{2}$ で条件を満たさない。
+
+$s\ge 2$ のとき
+$$
+\frac{2(s-1)}{\sqrt{2s^2-12s+20}\,\sqrt{10}} \ge \frac{\sqrt{3}}{2}
+$$
+両辺正なので 2 乗して
+$$
+\frac{4(s-1)^2}{(2s^2-12s+20)\cdot 10}\ge \frac{3}{4}
+$$
+すなわち
+$$
+16(s-1)^2 \ge 30(2s^2-12s+20)
+$$
+展開すると
+$$
+16(s^2-2s+1)\ge 60s^2-360s+600 \\
+16s^2-32s+16\ge 60s^2-360s+600
+$$
+両辺を移項して
+$$
+0\ge 44s^2-328s+584
+$$
+よって
+$$
+44s^2-328s+584\le 0
+$$
+両辺を 4 で割って
+$$
+11s^2-82s+146\le 0
+$$
+これを満たす整数 $s$ を調べる。判別式は
+$$
+\Delta=82^2-4\cdot 11\cdot 146
+=6724-6424=300
+$$
+したがって 2 つの実数解は
+$$
+s=\frac{82\pm\sqrt{300}}{22}
+=\frac{82\pm 10\sqrt{3}}{22}
+=\frac{41\pm 5\sqrt{3}}{11}
+$$
+であり，数値的に
+$$
+\frac{41-5\sqrt{3}}{11}\approx 1.9,\quad
+\frac{41+5\sqrt{3}}{11}\approx 6.8
+$$
+よって
+$$
+1.9\lesssim s\lesssim 6.8
+$$
+を満たす整数 $s$ は
+$$
+s=2,3,4,5,6
+$$
+である。ただし，$s=0,\dots,6$ の範囲に限られることも考慮している。
+
+先ほど述べたように $s=0,1$ は除外されるので，条件 $\theta\le \dfrac{\pi}{6}$ を満たすのは
+$$
+s=2,3,4,5,6
+$$
+である。
+
+このときの確率を求める。表が $s$ 枚出る確率は
+$$
+\binom{6}{s}\left(\frac12\right)^6
+$$
+だから求める確率 $P$ は
+$$
+P=\left\{\binom{6}{2}+\binom{6}{3}+\binom{6}{4}+\binom{6}{5}+\binom{6}{6}\right\}\left(\frac12\right)^6
+$$
+二項係数を計算して
+$$
+\binom{6}{2}=15,\quad
+\binom{6}{3}=20,\quad
+\binom{6}{4}=15,\quad
+\binom{6}{5}=6,\quad
+\binom{6}{6}=1
+$$
+より
+$$
+P=\frac{15+20+15+6+1}{64}
+=\frac{57}{64}
+$$
+したがって，なす角が $\displaystyle \frac{\pi}{6}$ 以下となる確率は
+$$
+\frac{57}{64}
+$$
+である。

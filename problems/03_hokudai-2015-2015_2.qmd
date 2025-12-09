@@ -1,0 +1,30 @@
+---
+title: "北海道大学 2015年 2015_2"
+problem_id: "03_hokudai-2015-2015_2"
+university: "北海道大学"
+exam_year: "2015"
+source_tex: "archive/03_hokudai/2015/2015_2.tex"
+pdf_source: "archive/03_hokudai/2015/2015_2.pdf"
+page_image: "archive/03_hokudai/2015/2015_2.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$p$，$q$は正の実数とし，
+$a_1=0$，$a_{n+1}=pa_n+{(-q)}^{n+1}$ $(n=1, \, 2, \, 3, \, \cdots)$によって定まる数列$\{ a_n \}$がある。
+\begin{description}
+\item[(1)]$\displaystyle b_n=\frac{a_n}{p^n}$とする。
+数列$\{ b_n \}$の一般項を$p$，$q$，$n$で表せ。
+\item[(2)]$q=1$とする。
+すべての自然数$n$について$a_{n+1} \geqq a_n$となるような$p$の値の範囲を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2015/2015_2.pdf)

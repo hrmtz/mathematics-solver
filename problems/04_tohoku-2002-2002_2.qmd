@@ -1,0 +1,28 @@
+---
+title: "東北大学 2002年 2002_2"
+problem_id: "04_tohoku-2002-2002_2"
+university: "東北大学"
+exam_year: "2002"
+source_tex: "archive/04_tohoku/2002/2002_2.tex"
+pdf_source: "archive/04_tohoku/2002/2002_2.pdf"
+page_image: "archive/04_tohoku/2002/2002_2.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$xy$平面上に，媒介変数$t$により表示された曲線
+$C:x=e^t-e^{-t}$，$y=e^{3t}+e^{-3t}$がある．
+\begin{description}
+\item[(1)]$x$の関数$y$の増減と凹凸を調べ，曲線$C$の概形を描け．
+\item[(2)]曲線$C$，$x$軸、2直線$x=\pm1$で囲まれる部分の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2002/2002_2.pdf)

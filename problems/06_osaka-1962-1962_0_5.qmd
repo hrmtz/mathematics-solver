@@ -1,0 +1,24 @@
+---
+title: "大阪大学 1962年 1962_0_5"
+problem_id: "06_osaka-1962-1962_0_5"
+university: "大阪大学"
+exam_year: "1962"
+source_tex: "archive/06_osaka/1962/1962_0_5.tex"
+pdf_source: "archive/06_osaka/1962/1962_0_5.pdf"
+page_image: "archive/06_osaka/1962/1962_0_5.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$\displaystyle f(x)=\int_0^x(\cos t+\sin2t)dt$とするとき，
+関数$y=f(x)$のグラフをえがけ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1962/1962_0_5.pdf)

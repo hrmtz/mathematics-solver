@@ -1,0 +1,35 @@
+---
+title: "東京大学 2022年 2022_0_2"
+problem_id: "01_tokyo-2022-2022_0_2"
+university: "東京大学"
+exam_year: "2022"
+source_tex: "archive/01_tokyo/2022/2022_0_2.tex"
+pdf_source: "archive/01_tokyo/2022/2022_0_2.pdf"
+page_image: "archive/01_tokyo/2022/2022_0_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$y=x^3-x$により定まる座標平面上の曲線を$C$とする。
+$C$上の点$P(\alpha, \, \alpha^3-\alpha)$を通り，
+点$P$における$C$の接線と垂直に交わる直線を$l$とする。
+$C$と$l$は相異なる3点で交わるとする。
+\begin{description}
+\item[(1)]$\alpha$のとりうる値の範囲を求めよ。
+\item[(2)]$C$と$l$の点$P$以外の2つの交点の$x$座標を$\beta, \, \gamma$とする。
+ただし$\beta<\gamma$とする。
+$\beta^2+\beta\gamma+\gamma^2-1 \neq 0$となることを示せ。
+\item[(3)](2)の$\beta, \, \gamma$を用いて，
+\[ u=4\alpha^3+\frac{1}{\beta^2+\beta\gamma+\gamma^2-1} \]
+と定める。このとき，$u$のとりうる値の範囲を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2022/2022_0_2.pdf)

@@ -1,0 +1,24 @@
+---
+title: "京都大学 2004年 2004_1"
+problem_id: "02_kyoto-2004-2004_1"
+university: "京都大学"
+exam_year: "2004"
+source_tex: "archive/02_kyoto/2004/2004_1.tex"
+pdf_source: "archive/02_kyoto/2004/2004_1.pdf"
+page_image: "archive/02_kyoto/2004/2004_1.jpg"
+fields:
+  - 三角関数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$f(\theta)=\cos 4\theta-4{\sin}^2\theta$とする．
+$\displaystyle 0 \leqq \theta \leqq \frac{3\pi}{4}$における$f(\theta)$の最大値および最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_1.pdf)

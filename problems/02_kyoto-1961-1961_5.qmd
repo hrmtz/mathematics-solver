@@ -1,0 +1,24 @@
+---
+title: "京都大学 1961年 1961_5"
+problem_id: "02_kyoto-1961-1961_5"
+university: "京都大学"
+exam_year: "1961"
+source_tex: "archive/02_kyoto/1961/1961_5.tex"
+pdf_source: "archive/02_kyoto/1961/1961_5.pdf"
+page_image: "archive/02_kyoto/1961/1961_5.jpg"
+fields:
+  - 整数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n$が整数であるとき$S=|n-1|+|n-2|+\cdots\cdots+|n-100|$の最小値を求めよ．
+また，そのときの$n$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1961/1961_5.pdf)

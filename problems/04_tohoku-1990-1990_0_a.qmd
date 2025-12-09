@@ -1,0 +1,35 @@
+---
+title: "東北大学 1990年 1990_0_a"
+problem_id: "04_tohoku-1990-1990_0_a"
+university: "東北大学"
+exam_year: "1990"
+source_tex: "archive/04_tohoku/1990/1990_0_a.tex"
+pdf_source: "archive/04_tohoku/1990/1990_0_a.pdf"
+page_image: "archive/04_tohoku/1990/1990_0_a.jpg"
+fields:
+  - 平面図形
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　図形
+\[ C:7x^2+3y^2-4\sqrt3 \, xy=9 \]
+について，次の問に答えよ．
+\begin{description}
+\item[(1)]図形$C$を原点のまわりに${30}^\circ$だけ回転した図形の方程式を求めよ．
+\item[(2)]図形$C$を円$x^2+y^2=1$に移す1次変換を表す行列
+\[ A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix} \hspace{1zw}
+(a, \, b, \, c, \, d\text{は実数}, \, ad-bc>0) \]
+で，点$(\sqrt3, \, 1)$を点$\displaystyle\left( 1, \, \frac{1}{\sqrt3} \right)$に
+移すものを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_0_a.pdf)

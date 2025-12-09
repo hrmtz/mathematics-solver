@@ -1,0 +1,32 @@
+---
+title: "九州大学 1976年 1976_6"
+problem_id: "07_kyushu-1976-1976_6"
+university: "九州大学"
+exam_year: "1976"
+source_tex: "archive/07_kyushu/1976/1976_6.tex"
+pdf_source: "archive/07_kyushu/1976/1976_6.pdf"
+page_image: "archive/07_kyushu/1976/1976_6.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　1つの袋に3個の白玉と5個の赤玉が入っている．
+この袋から2個の玉を任意に取り出して手もとに残す．
+このとき，取り出された2個の玉の色が同じであれば，その玉と同色の玉を4個，
+異なれば白玉，赤玉それぞれ2個ずつをあらたに袋に入れる．
+さらにこの袋から任意に2個の玉を取り出す．
+このとき次の問に答えよ．
+\begin{description}
+\item[(1)]2回目に取り出された2個の玉がともに赤である確率を求めよ．
+\item[(2)]2回にわたって取り出された4個の玉のうち，
+ちょうど1個が白である確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1976/1976_6.pdf)

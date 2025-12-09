@@ -1,0 +1,32 @@
+---
+title: "九州大学 1998年 1998_3"
+problem_id: "07_kyushu-1998-1998_3"
+university: "九州大学"
+exam_year: "1998"
+source_tex: "archive/07_kyushu/1998/1998_3.tex"
+pdf_source: "archive/07_kyushu/1998/1998_3.pdf"
+page_image: "archive/07_kyushu/1998/1998_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　平面上の曲線$C$が媒介変数$t$を用いて
+$x=\sin t-t\cos t$，$y=\cos t+t\sin t$ $(0 \leqq t \leqq \pi)$で与えられている．
+\begin{description}
+\item[(1)]曲線$C$の長さを求めよ．
+\item[(2)]曲線$C$上の各点$P$において，$P$における接線と$P$で直交する直線を考える．
+この直線上の点で原点までの距離が最短となる点は，$P$を動かすときどんな図形を描くか．
+\item[(3)]$\displaystyle\int_0^{\pi}t\sin2tdt$を求めよ．
+\item[(4)]曲線$C$と$y$軸および直線$y=-1$で囲まれる図形の面積$S$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_3.pdf)

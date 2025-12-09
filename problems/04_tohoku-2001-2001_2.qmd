@@ -1,0 +1,31 @@
+---
+title: "東北大学 2001年 2001_2"
+problem_id: "04_tohoku-2001-2001_2"
+university: "東北大学"
+exam_year: "2001"
+source_tex: "archive/04_tohoku/2001/2001_2.tex"
+pdf_source: "archive/04_tohoku/2001/2001_2.pdf"
+page_image: "archive/04_tohoku/2001/2001_2.jpg"
+fields:
+  - 微分法
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　関数$\displaystyle f(x)=\frac{\sqrt{1+2x}-1}{x}$ $(x \neq 0)$について，
+$\displaystyle a=\lim_{x\to0}f(x)$，$\displaystyle b=\lim_{x\to0}f'(x)$とおく．
+\begin{description}
+\item[(1)]$a$，$b$の値を求めよ．
+\item[(2)]$\displaystyle -\frac{1}{2}\leqq x$の範囲で，
+3つの関数$\sqrt{1+2x}$，$1+ax$，$1+ax+bx^2$の大小関係を調べ，
+これらの関数のグラフを同一の$xy$平面上に描け．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_2.pdf)

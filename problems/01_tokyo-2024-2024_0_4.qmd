@@ -1,0 +1,25 @@
+---
+title: "東京大学 2024年 2024_0_4"
+problem_id: "01_tokyo-2024-2024_0_4"
+university: "東京大学"
+exam_year: "2024"
+source_tex: "archive/01_tokyo/2024/2024_0_4.tex"
+pdf_source: "archive/01_tokyo/2024/2024_0_4.pdf"
+page_image: "archive/01_tokyo/2024/2024_0_4.jpg"
+fields:
+  - 確率
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$n$を5以上の奇数とする。平面上の点$O$を中心とする円をとり，それに内接する正$n$角形を考える。
+$n$個の頂点から異なる4点を同時に選ぶ。ただし，どの4点も等確率で選ばれるものとする。
+選んだ4点を頂点とする四角形が$O$を内部に含む確率$p_n$を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2024/2024_0_4.pdf)

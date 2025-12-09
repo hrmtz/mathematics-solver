@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2009年 2009_a"
+problem_id: "03_hokudai-2009-2009_a"
+university: "北海道大学"
+exam_year: "2009"
+source_tex: "archive/03_hokudai/2009/2009_a.tex"
+pdf_source: "archive/03_hokudai/2009/2009_a.pdf"
+page_image: "archive/03_hokudai/2009/2009_a.jpg"
+fields:
+  - 複素数平面
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$\alpha$，$\beta$，$\gamma$を$\alpha+\beta+\gamma=0$をみたす複素数とする．
+$z=\alpha^2+\beta^2+\gamma^2$とおく．
+このとき，以下の問いに答えよ．
+\begin{description}
+\item[(1)]$\alpha\beta+\beta\gamma+\gamma\alpha$を$z$で表せ．
+\item[(2)]$\alpha^4+\beta^4+\gamma^4$を$z$で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2009/2009_a.pdf)

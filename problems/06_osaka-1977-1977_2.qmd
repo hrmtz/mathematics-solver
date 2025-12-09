@@ -1,0 +1,26 @@
+---
+title: "大阪大学 1977年 1977_2"
+problem_id: "06_osaka-1977-1977_2"
+university: "大阪大学"
+exam_year: "1977"
+source_tex: "archive/06_osaka/1977/1977_2.tex"
+pdf_source: "archive/06_osaka/1977/1977_2.pdf"
+page_image: "archive/06_osaka/1977/1977_2.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　点$P(\alpha, \, \beta)$は曲線$C:xy=k^2$ $(x>0)$上にあり，
+点$A(2, \, 2)$から曲線$C$上の点までの距離が最小となる点とする．
+このとき，$k$と$\alpha$はどのような関係にあるか．
+また，$k$が動くとき，点$(k, \, \alpha)$はどのような図形上にあるか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1977/1977_2.pdf)

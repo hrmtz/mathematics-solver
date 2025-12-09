@@ -1,0 +1,33 @@
+---
+title: "東北大学 2019年 2019_c"
+problem_id: "04_tohoku-2019-2019_c"
+university: "東北大学"
+exam_year: "2019"
+source_tex: "archive/04_tohoku/2019/2019_c.tex"
+pdf_source: "archive/04_tohoku/2019/2019_c.pdf"
+page_image: "archive/04_tohoku/2019/2019_c.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　1辺の長さが1の正四面体$OABC$を考える。
+\begin{description}
+\item[(1)]辺$OA$上を動く点$P$と辺$BC$上を動く点$Q$に対して，
+線分$PQ$の長さが最小となるとき，
+ベクトル$\overrightarrow{PQ}$を
+$\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$で表せ。
+\item[(2)]点$R$が$\triangle ABC$の内部および辺上を動くとする。
+(1)で求めた$\overrightarrow{PQ}$と$\overrightarrow{OR}$のなす角を$\theta$とする。
+内積$\overrightarrow{PQ}\cdot\overrightarrow{OR}$が最大となるような
+$\cos\theta$のとりうる値の範囲を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_c.pdf)

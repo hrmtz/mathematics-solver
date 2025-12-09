@@ -1,0 +1,31 @@
+---
+title: "名古屋大学 1987年 1987_4b"
+problem_id: "05_nagoya-1987-1987_4b"
+university: "名古屋大学"
+exam_year: "1987"
+source_tex: "archive/05_nagoya/1987/1987_4b.tex"
+pdf_source: "archive/05_nagoya/1987/1987_4b.pdf"
+page_image: "archive/05_nagoya/1987/1987_4b.jpg"
+fields:
+  - ベクトル
+  - 整数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　$O$を原点とする平面上の点$A(3, \, 5)$と点$P(m, \, n)$（$m$，$n$は整数を動く）を考える．
+ただし3点$O$，$A$，$P$は同一直線上にないものとする．
+\begin{description}
+\item[(1)]$OA$，$OP$を2辺とする平行四辺形の面積の最小値を求めよ．
+\item[(2)]その最小値を与える$P$は2直線上にある．
+この2直線を求めよ．
+\item[(3)]その最小値を与える$P$をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1987/1987_4b.pdf)

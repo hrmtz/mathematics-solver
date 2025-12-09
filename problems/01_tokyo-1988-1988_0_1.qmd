@@ -1,0 +1,26 @@
+---
+title: "東京大学 1988年 1988_0_1"
+problem_id: "01_tokyo-1988-1988_0_1"
+university: "東京大学"
+exam_year: "1988"
+source_tex: "archive/01_tokyo/1988/1988_0_1.tex"
+pdf_source: "archive/01_tokyo/1988/1988_0_1.pdf"
+page_image: "archive/01_tokyo/1988/1988_0_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　直線$l$上に10メートル離れた2定点$A$，$B$があり，
+$l$に平行な直線$m$上を点$P$が秒速1メートルで一定の向きに動いている．
+$A$，$P$間の距離と$B$，$P$間の距離の和は，
+ある時刻に測ったとき15メートル，その5秒後に測ったときも15メートルであった．
+2直線$l$，$m$のあいだの距離は何メートルか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1988/1988_0_1.pdf)

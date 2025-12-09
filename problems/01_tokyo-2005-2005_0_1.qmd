@@ -1,0 +1,31 @@
+---
+title: "東京大学 2005年 2005_0_1"
+problem_id: "01_tokyo-2005-2005_0_1"
+university: "東京大学"
+exam_year: "2005"
+source_tex: "archive/01_tokyo/2005/2005_0_1.tex"
+pdf_source: "archive/01_tokyo/2005/2005_0_1.pdf"
+page_image: "archive/01_tokyo/2005/2005_0_1.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$f(x)$を$f(0)=0$を満たす2次関数とする．
+$a$，$b$を実数として，関数$g(x)$を次で与える．
+\[ g(x)=\begin{cases} ax & (x\leqq0) 
+
+ bx & (x>0) \end{cases} \]
+$a$，$b$をいろいろ変化させ
+$\displaystyle \int_{-1}^0{ \{ f'(x)-g'(x) \} }^2dx+\int_0^1{ \{ f'(x)-g'(x) \} }^2dx $
+が最小になるようにする．
+このとき，$g(-1)=f(-1)$，$g(1)=f(1)$であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2005/2005_0_1.pdf)

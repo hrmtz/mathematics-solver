@@ -1,0 +1,290 @@
+## 解答
+
+まず，$a>0$ とする．  
+与えられた関数を整理するために，絶対値の中身を平方完成する．
+
+\[
+x^2-\left(ax+\frac34 a^2\right)
+= x^2 - ax - \frac34 a^2
+= \left(x-\frac a2\right)^2 - \left(\frac a2\right)^2 - \frac34 a^2
+= \left(x-\frac a2\right)^2 - a^2.
+\]
+
+したがって
+\[
+f(x)
+= \left|\left(x-\frac a2\right)^2-a^2\right|+ax+\frac34a^2.
+\]
+
+ここで
+\[
+\left(x-\frac a2\right)^2 - a^2
+= \left(x-\frac a2-a\right)\left(x-\frac a2+a\right)
+= (x-\tfrac32a)(x+\tfrac12a)
+\]
+なので，絶対値の中身の符号は $x=-\frac12a,\;\frac32a$ を境に変わる．  
+よって区間 $-1\le x\le1$ における $-\frac12a,\frac32a$ の位置関係によって場合分けする。
+
+---
+
+### 場合分けの準備（区間と根の位置）
+
+区間は $[-1,1]$ である．
+
+1. $x=-\frac12a$ が $[-1,1]$ に入る条件  
+   \[
+   -1 \le -\frac12 a \le 1
+   \;\Longleftrightarrow\;
+   -2 \le -a \le 2
+   \;\Longleftrightarrow\;
+   -2 \ge a \ge -2
+   \]
+   となるが $a>0$ なので意味を持つのは
+   \[
+   -\frac12a \ge -1 \Longleftrightarrow a \le 2
+   \]
+   のみである．すなわち $a\le2$ のとき $-\frac12a\in[-1,1]$．
+
+2. $x=\frac32a$ が $[-1,1]$ に入る条件  
+   \[
+   -1 \le \frac32 a \le 1
+   \]
+   だが $a>0$ だから左側は自動的に成り立つ．右側から
+   \[
+   \frac32 a \le 1 \Longleftrightarrow a \le \frac23.
+   \]
+
+以上から
+
+- $0<a\le \dfrac23$ のとき：$-\dfrac12a,\;\dfrac32a$ の両方が区間 $[-1,1]$ に入る．
+- $\dfrac23< a \le 2$ のとき：$-\dfrac12a$ は $[-1,1]$ に入るが，$\dfrac32a>1$ となり区間外．
+- $a>2$ のとき：$-\dfrac12a<-1$ となり，どちらの根も区間外．
+
+これに従って $f(x)$ を場合分けして最大値を求める。
+
+---
+
+### 1. $0<a\le \dfrac23$ のとき
+
+このとき $-1\le -\dfrac12a < \dfrac32a \le1$ であり，
+\[
+\left(x-\frac a2\right)^2-a^2
+\begin{cases}
+>0 & ( -1\le x<-\frac12a,\;\frac32a<x\le1),\\
+\le0 & (-\frac12a\le x\le\frac32a)
+\end{cases}
+\]
+となる．よって
+
+- 区間 $-1\le x\le -\dfrac12a$ および $\dfrac32a\le x\le1$ では
+  \[
+  f(x)=\left(x-\frac a2\right)^2-a^2+ax+\frac34a^2.
+  \]
+- 区間 $-\dfrac12a\le x\le \dfrac32a$ では
+  \[
+  f(x)=-\left\{\left(x-\frac a2\right)^2-a^2\right\}+ax+\frac34a^2
+  = -\left(x-\frac a2\right)^2+a^2+ax+\frac34a^2.
+  \]
+
+前者を展開すると
+\[
+f(x)=x^2-ax+\frac14a^2-a^2+ax+\frac34a^2=x^2.
+\]
+後者を展開すると
+\[
+f(x)= -x^2+ax-\frac14a^2+a^2+ax+\frac34a^2
+= -x^2+2ax+\frac32a^2.
+\]
+
+したがって
+\[
+f(x)=
+\begin{cases}
+x^2 & (-1\le x\le -\frac12a,\; \frac32a\le x\le1),\\[2mm]
+ -x^2+2ax+\dfrac32a^2 & (-\frac12a\le x\le\frac32a).
+\end{cases}
+\]
+
+各区間で最大値を調べる。
+
+#### (i) $f(x)=x^2$ の部分
+
+$x^2$ は $|x|$ が大きいほど大きいから，
+- 区間 $[-1,-\frac12a]$ では端点 $x=-1$ で最大：$f(-1)=1$．
+- 区間 $[\frac32a,1]$ では端点 $x=1$ で最大：$f(1)=1$．
+
+したがって $f(x)=x^2$ の範囲での最大値は $1$．
+
+#### (ii) $f(x)=-x^2+2ax+\dfrac32a^2$ の部分
+
+これは下に凸の2次関数であり，軸は
+\[
+x=\frac{-2a}{2(-1)}=a
+\]
+なので，$x=a$ で最大値をとる．
+
+$a$ は $0<a\le\frac23$ なので $a\in[-\frac12a,\frac32a]$ の内部にあるから，この区間での最大値は
+\[
+f(a)
+= -(a)^2+2a\cdot a+\frac32a^2
+= -a^2+2a^2+\frac32a^2
+= \frac52 a^2.
+\]
+
+よって，区間全体 $[-1,1]$ における $f(x)$ の最大値は
+\[
+\max\left\{1,\ \frac52 a^2\right\}.
+\]
+
+$a$ の範囲 $0<a\le\frac23$ の中でどちらが大きいかを比較する．
+\[
+\frac52 a^2 \ge 1
+\;\Longleftrightarrow\;
+a^2\ge \frac25
+\;\Longleftrightarrow\;
+a\ge \sqrt{\frac25}.
+\]
+
+したがって
+
+- $0<a\le\sqrt{\dfrac25}$ のとき：最大値は $1$．
+- $\sqrt{\dfrac25}\le a\le\dfrac23$ のとき：最大値は $\dfrac52 a^2$．
+
+---
+
+### 2. $\dfrac23< a\le 2$ のとき
+
+このとき $-\dfrac12a\in[-1,1]$ だが $\dfrac32a>1$ なので，  
+$\left(x-\frac a2\right)^2-a^2$ は
+
+\[
+\begin{cases}
+>0 & (-1\le x<-\frac12a),\\
+\le0 & (-\frac12a\le x\le 1)
+\end{cases}
+\]
+となる．よって
+
+- 区間 $-1\le x\le -\dfrac12a$ では
+  \[
+  f(x)=\left(x-\frac a2\right)^2-a^2+ax+\frac34a^2=x^2.
+  \]
+- 区間 $-\dfrac12a\le x\le1$ では
+  \[
+  f(x)=-\left(x-\frac a2\right)^2+a^2+ax+\frac34a^2
+  = -x^2+2ax+\frac32a^2.
+  \]
+
+したがって
+\[
+f(x)=
+\begin{cases}
+x^2 & (-1\le x\le -\frac12a),\\[1mm]
+-x^2+2ax+\dfrac32a^2 & (-\frac12a\le x\le 1).
+\end{cases}
+\]
+
+#### (i) $f(x)=x^2$ の部分
+
+$-1\le x\le -\dfrac12a$ の範囲で $x^2$ は $x=-1$ で最大となり
+\[
+f(-1)=1.
+\]
+
+#### (ii) $f(x)=-x^2+2ax+\dfrac32a^2$ の部分
+
+先ほどと同様に，$x=a$ で最大となる．  
+$a$ は $\dfrac23<a\le2$ なので $a\in[-\dfrac12a,1]$ の内部に含まれ，この区間での最大値は
+\[
+f(a)=\frac52 a^2.
+\]
+
+したがって全体の最大値は
+\[
+\max\left\{1,\ \frac52 a^2\right\}.
+\]
+
+ここで $a>\dfrac23$ なら
+\[
+\frac52 a^2 > \frac52\cdot\left(\frac23\right)^2
+= \frac52\cdot\frac49
+= \frac{10}{9} >1
+\]
+となるので，この範囲では常に $\frac52 a^2>1$ である．
+
+よって
+\[
+\frac23<a\le 2 \quad\text{では最大値は}\quad \frac52 a^2.
+\]
+
+---
+
+### 3. $a>2$ のとき
+
+このとき $-\dfrac12a<-1$ かつ $\dfrac32a>1$ なので，$[-1,1]$ で
+\[
+\left(x-\frac a2\right)^2-a^2<0
+\]
+となる．よってすべての $x\in[-1,1]$ で
+\[
+f(x)=-\left(x-\frac a2\right)^2+a^2+ax+\frac34a^2
+= -x^2+2ax+\frac32a^2.
+\]
+
+この2次関数は $x=a$ で最大をとるが，$a>2$ なので $x=a$ は区間 $[-1,1]$ 外にある．  
+係数が $-1<0$ なので下に凸であり，区間の端点で最大値をとるかどうかを調べる．
+
+\[
+f(-1) = -(-1)^2+2a(-1)+\frac32a^2 = -1-2a+\frac32a^2, 
+\]
+\[
+f(1)  = -(1)^2+2a(1)+\frac32a^2 = -1+2a+\frac32a^2.
+\]
+
+$f(1)-f(-1)=4a>0$ なので $f(1)>f(-1)$ となり，$x=1$ で最大値をとる．
+
+\[
+f(1) = -1+2a+\frac32a^2.
+\]
+
+したがって $a>2$ のとき最大値は $-1+2a+\dfrac32a^2$ である．
+
+---
+
+### 4. 場合分けの整理
+
+以上を $a$ の範囲ごとにまとめると，
+
+1. $0<a\le \sqrt{\dfrac25}$ のとき  
+   区間 $[-1,1]$ での最大値：$1$．
+
+2. $\sqrt{\dfrac25}\le a\le 2$ のとき  
+   区間 $[-1,1]$ での最大値：$\dfrac52 a^2$．
+
+3. $a>2$ のとき  
+   区間 $[-1,1]$ での最大値：$-1+2a+\dfrac32a^2$．
+
+なお，$a=\sqrt{\dfrac25}$ および $a=2$ の境界では，
+\[
+\left.\frac52 a^2\right|_{a=\sqrt{2/5}} = \frac52\cdot\frac25 = 1,
+\quad
+\left.\left(-1+2a+\frac32a^2\right)\right|_{a=2} = -1+4+6=9,
+\quad
+\left.\frac52a^2\right|_{a=2} = \frac52\cdot4=10,
+\]
+となり，いずれも連続に接続していることが確認できる．
+
+---
+
+以上より，求める最大値は次のように表される。
+
+\[
+\boxed{
+\text{最大値}=
+\begin{cases}
+1 & \left(0<a\le \sqrt{\dfrac25}\right),\\[2mm]
+\dfrac52 a^2 & \left(\sqrt{\dfrac25}\le a\le 2\right),\\[3mm]
+-1+2a+\dfrac32a^2 & \left(a>2\right).
+\end{cases}
+}
+\]

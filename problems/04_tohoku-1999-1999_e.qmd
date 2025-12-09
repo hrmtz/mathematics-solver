@@ -1,0 +1,37 @@
+---
+title: "東北大学 1999年 1999_e"
+problem_id: "04_tohoku-1999-1999_e"
+university: "東北大学"
+exam_year: "1999"
+source_tex: "archive/04_tohoku/1999/1999_e.tex"
+pdf_source: "archive/04_tohoku/1999/1999_e.pdf"
+page_image: "archive/04_tohoku/1999/1999_e.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+\begin{description}
+\item[(1)]実数を成分とする2次正方行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$が，
+ある実数$p$，$q$ $(q\neq0)$について，
+$A^3=\begin{pmatrix} p & q 
+
+ -q & p \end{pmatrix}$をみたせば
+$a=d$，$b=-c$であることを示せ．
+\item[(2)]実数を成分とする2次正方行列$A=\begin{pmatrix} a & b 
+
+ -b & a \end{pmatrix}$で，
+$A^3=\begin{pmatrix} 2 & 2 
+
+ -2 & 2 \end{pmatrix}$をみたすものをすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_e.pdf)

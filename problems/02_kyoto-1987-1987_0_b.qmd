@@ -1,0 +1,30 @@
+---
+title: "京都大学 1987年 1987_0_b"
+problem_id: "02_kyoto-1987-1987_0_b"
+university: "京都大学"
+exam_year: "1987"
+source_tex: "archive/02_kyoto/1987/1987_0_b.tex"
+pdf_source: "archive/02_kyoto/1987/1987_0_b.pdf"
+page_image: "archive/02_kyoto/1987/1987_0_b.jpg"
+fields:
+  - 行列
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$が次の条件(＊)をみたすのは，
+$a$，$b$，$c$，$d$にどのような関係があるときか．
+\begin{description}
+\item[(＊)]「$(x,y)$と$(z,w)$が直交するベクトルであれば，$(x,y)A$と$(z,w)A$も直交するベクトルである．
+ただし，零ベクトル$(0,0)$はどんなベクトルとも直交するものとみなす．」
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1987/1987_0_b.pdf)

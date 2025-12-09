@@ -1,0 +1,31 @@
+---
+title: "九州大学 2010年 2010_1"
+problem_id: "07_kyushu-2010-2010_1"
+university: "九州大学"
+exam_year: "2010"
+source_tex: "archive/07_kyushu/2010/2010_1.tex"
+pdf_source: "archive/07_kyushu/2010/2010_1.pdf"
+page_image: "archive/07_kyushu/2010/2010_1.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　三角形$ABC$の3辺の長さを$a=BC$，$b=CA$，$c=AB$とする．
+実数$t\geqq0$を与えたとき，$A$を始点とし$B$を通る半直線上に$AP=tc$となるように点$P$をとる．
+次の問いに答えよ．
+\begin{description}
+\item[(1)]${CP}^2$を$a$，$b$，$c$，$t$を用いて表せ．
+\item[(2)]点$P$が$CP=a$を満たすとき，$t$を求めよ．
+\item[(3)](2)の条件を満たす点$P$が辺$AB$上にちょうど2つあるとき，
+$\angle A$と$\angle B$に関する条件を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2010/2010_1.pdf)

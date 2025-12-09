@@ -1,0 +1,38 @@
+---
+title: "名古屋大学 2017年 2017_4"
+problem_id: "05_nagoya-2017-2017_4"
+university: "名古屋大学"
+exam_year: "2017"
+source_tex: "archive/05_nagoya/2017/2017_4.tex"
+pdf_source: "archive/05_nagoya/2017/2017_4.pdf"
+page_image: "archive/05_nagoya/2017/2017_4.jpg"
+fields:
+  - 複素数平面
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$n$を自然数とする。0でない複素数からなる集合$M$が
+次の条件(I)，(II)，(III)を満たしている。
+\begin{description}
+\item[(I)]集合$M$は$n$個の要素からなる。
+\item[(II)]集合$M$の要素$z$に対して，
+$\displaystyle\frac{1}{z}$と$-z$はともに集合$M$の要素である。
+\item[(III)]集合$M$の要素$z$，$w$に対して，その積$zw$は集合$M$の要素である。
+ただし，$z=w$の場合も含める。
+\end{description}
+このとき，次の問に答えよ。
+\begin{description}
+\item[(1)]1および$-1$は集合$M$の要素であることを示せ。
+\item[(2)]$n$は偶数であることを示せ。
+\item[(3)]$n=4$のとき，集合$M$は一通りに定まることを示し，その要素をすべて求めよ。
+\item[(4)]$n=6$のとき，集合$M$は一通りに定まることを示し，その要素をすべて求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2017/2017_4.pdf)

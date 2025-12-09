@@ -1,0 +1,24 @@
+---
+title: "名古屋大学 1987年 1987_1"
+problem_id: "05_nagoya-1987-1987_1"
+university: "名古屋大学"
+exam_year: "1987"
+source_tex: "archive/05_nagoya/1987/1987_1.tex"
+pdf_source: "archive/05_nagoya/1987/1987_1.pdf"
+page_image: "archive/05_nagoya/1987/1987_1.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$c$を正の数とし，2曲線$y=cx^\frac{3}{2}$と$y=\sqrt{x}$の原点でない交点を$P$とする．
+それぞれの曲線の$P$における接線のなす角を$\theta$ $\displaystyle\left(0\leqq\theta\leqq\frac{\pi}{2}\right)$とする．
+$c$が正の数を動くとき，$\theta$はどのような範囲を動くか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1987/1987_1.pdf)

@@ -1,0 +1,31 @@
+---
+title: "京都大学 2003年 2003_0_3"
+problem_id: "02_kyoto-2003-2003_0_3"
+university: "京都大学"
+exam_year: "2003"
+source_tex: "archive/02_kyoto/2003/2003_0_3.tex"
+pdf_source: "archive/02_kyoto/2003/2003_0_3.pdf"
+page_image: "archive/02_kyoto/2003/2003_0_3.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　四面体$OABC$は次の2つの条件
+\begin{description}
+\item[(i)]$\overrightarrow{OA}\bot\overrightarrow{BC}$，
+$\overrightarrow{OB}\bot\overrightarrow{AC}$，
+$\overrightarrow{OC}\bot\overrightarrow{AB}$
+\item[(ii)]4つの面の面積がすべて等しい
+\end{description}
+をみたしている．
+このとき，この四面体は正四面体であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2003/2003_0_3.pdf)

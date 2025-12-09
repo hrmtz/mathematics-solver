@@ -1,0 +1,27 @@
+---
+title: "東京大学 2008年 2008_4"
+problem_id: "01_tokyo-2008-2008_4"
+university: "東京大学"
+exam_year: "2008"
+source_tex: "archive/01_tokyo/2008/2008_4.tex"
+pdf_source: "archive/01_tokyo/2008/2008_4.pdf"
+page_image: "archive/01_tokyo/2008/2008_4.jpg"
+fields:
+  - 平面図形
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　放物線$y=x^2$上に2点$P$，$Q$がある．線分$PQ$の中点の$y$座標を$h$とする．
+\begin{description}
+\item[(1)]線分$PQ$の長さ$L$と傾き$m$で，$h$を表せ．
+\item[(2)]$L$を固定したとき，$h$がとりうる値の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2008/2008_4.pdf)

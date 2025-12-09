@@ -1,0 +1,35 @@
+---
+title: "東京大学 1962年 1962_0_4"
+problem_id: "01_tokyo-1962-1962_0_4"
+university: "東京大学"
+exam_year: "1962"
+source_tex: "archive/01_tokyo/1962/1962_0_4.tex"
+pdf_source: "archive/01_tokyo/1962/1962_0_4.pdf"
+page_image: "archive/01_tokyo/1962/1962_0_4.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　図のような$xy$平面上の図形において，
+\[ OE=OF=1, \hspace{1zw} \angle EOF={90}^\circ, \hspace{1zw} \tan\alpha=\sqrt2 \]
+とし，$ABCD$は$\angle EOF$の中にある長方形で$AB=1$，$BC=\sqrt2$なるものとする．
+　この長方形の頂点$A$が$OE$上を$E$から$O$に向って動き，
+頂点$B$が$OF$上を$O$から$F$に向って動くとき，
+\begin{description}
+\item[(i)]$\angle CBF$を$\theta$として頂点$C$の座標を$\theta$で表わせ．
+\item[(ii)]$C$はどのような曲線をえがくか．
+\end{description}
+
+
+
+![](../archive/01_tokyo/1962/fig_1962_0_4.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1962/1962_0_4.pdf)

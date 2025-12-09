@@ -1,0 +1,42 @@
+---
+title: "東京大学 1978年 1978_4"
+problem_id: "01_tokyo-1978-1978_4"
+university: "東京大学"
+exam_year: "1978"
+source_tex: "archive/01_tokyo/1978/1978_4.tex"
+pdf_source: "archive/01_tokyo/1978/1978_4.pdf"
+page_image: "archive/01_tokyo/1978/1978_4.jpg"
+fields:
+  - 行列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　行列$A=\begin{pmatrix} 1/3 & 5 
+
+ 0 & 3 \end{pmatrix}$に対し，次の問に答えよ．
+　任意の整数$n>0$に対して，$A^n$を数学的帰納法を用いて求めよ．
+　また，与えられた$\begin{pmatrix} a 
+
+ b \end{pmatrix}$に対し
+$A^n\begin{pmatrix} a 
+
+ b \end{pmatrix}=\begin{pmatrix} a_n 
+
+ b_n \end{pmatrix}$
+$(n=1,2,\cdots)$とおくとき，
+極限$\displaystyle u=\lim_{n\to\infty}\frac{a_n}{\sqrt{{a_n}^2+{b_n}^2}}$，
+$\displaystyle v=\lim_{n\to\infty}\frac{b_n}{\sqrt{{a_n}^2+{b_n}^2}}$を求めよ．
+ただし$\begin{pmatrix} a 
+
+ b \end{pmatrix} \neq \begin{pmatrix} 0 
+
+ 0 \end{pmatrix}$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1978/1978_4.pdf)

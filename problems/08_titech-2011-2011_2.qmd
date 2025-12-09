@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 2011年 2011_2"
+problem_id: "08_titech-2011-2011_2"
+university: "東京科学大学"
+exam_year: "2011"
+source_tex: "archive/08_titech/2011/2011_2.tex"
+pdf_source: "archive/08_titech/2011/2011_2.pdf"
+page_image: "archive/08_titech/2011/2011_2.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　実数$x$に対して
+\[ f(x)=\int_0^{\displaystyle\frac{\pi}{2}}|\cos t-x\sin 2t|dt \]
+とおく．
+\begin{description}
+\item[(1)]関数$f(x)$の最小値を求めよ．
+\item[(2)]定積分$\displaystyle\int_0^1f(x)dx$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2011/2011_2.pdf)

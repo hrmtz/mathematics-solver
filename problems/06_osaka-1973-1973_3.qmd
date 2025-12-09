@@ -1,0 +1,29 @@
+---
+title: "大阪大学 1973年 1973_3"
+problem_id: "06_osaka-1973-1973_3"
+university: "大阪大学"
+exam_year: "1973"
+source_tex: "archive/06_osaka/1973/1973_3.tex"
+pdf_source: "archive/06_osaka/1973/1973_3.pdf"
+page_image: "archive/06_osaka/1973/1973_3.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$f(x)=x^3+6ax^2-12x+1$とする（$a$は実数）．
+\begin{description}
+\item[(1)]関数$y=f(x)$は，極大値および極小値をそれぞれ1つずつもつ．
+その理由を述べよ．
+\item[(2)]関数$y=f(x)$のグラフ上で，極大，極小を与える点を結ぶ線分の3等分点を$P$，$Q$とする．
+線分$PQ$（両端を含む）が$y$軸と交わるような$a$の値の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1973/1973_3.pdf)

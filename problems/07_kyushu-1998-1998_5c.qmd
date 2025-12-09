@@ -1,0 +1,34 @@
+---
+title: "九州大学 1998年 1998_5c"
+problem_id: "07_kyushu-1998-1998_5c"
+university: "九州大学"
+exam_year: "1998"
+source_tex: "archive/07_kyushu/1998/1998_5c.tex"
+pdf_source: "archive/07_kyushu/1998/1998_5c.pdf"
+page_image: "archive/07_kyushu/1998/1998_5c.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5 (c)
+　3桁の自然数$N=100a+10b+c$（$a$，$b$，$c$は，
+$1 \leqq a \leqq 9$，$0 \leqq b \leqq 9$，$0 \leqq c \leqq 9$を満たす整数）を考える．
+\begin{description}
+\item[(1)]平方数かつ奇数である$N$で，
+2次関数$y=ax^2+bx+c$のグラフが$x$軸と接するようなものをすべて求めよ．
+\item[(2)]命題「$N$および$a$が平方数のとき2次関数$y=ax^2+bx+c$のグラフは$x$軸と接する．」
+は正しいか．
+正しければそれを示し，正しくなければ反例をあげよ．
+\item[(3)]ある$N$について，2次関数$y=ax^2+bx+c$のグラフは座標が整数である相異なる2点で$x$軸と交わり，
+グラフと$x$軸とで囲まれる部分の面積が4となる．
+このときの$N$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_5c.pdf)

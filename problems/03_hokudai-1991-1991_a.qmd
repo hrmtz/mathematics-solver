@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1991年 1991_a"
+problem_id: "03_hokudai-1991-1991_a"
+university: "北海道大学"
+exam_year: "1991"
+source_tex: "archive/03_hokudai/1991/1991_a.tex"
+pdf_source: "archive/03_hokudai/1991/1991_a.pdf"
+page_image: "archive/03_hokudai/1991/1991_a.jpg"
+fields:
+  - 代数
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]$x$の3次方程式
+\[ x^3-(4p+1)x^2+(p^2+4p+1)x-(p^2+1)=0 \]
+の解で，すべての実数$p$に共通なものを求めよ．
+\item[(2)]上の方程式の解がすべて実数であるような$p$の範囲で，
+(1)の共通解以外の2つの解を$\tan\alpha$，$\tan\beta$としたとき，
+$\tan(\alpha+\beta)$の最大値と最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1991/1991_a.pdf)

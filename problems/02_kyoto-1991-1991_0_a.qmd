@@ -1,0 +1,26 @@
+---
+title: "京都大学 1991年 1991_0_a"
+problem_id: "02_kyoto-1991-1991_0_a"
+university: "京都大学"
+exam_year: "1991"
+source_tex: "archive/02_kyoto/1991/1991_0_a.tex"
+pdf_source: "archive/02_kyoto/1991/1991_0_a.pdf"
+page_image: "archive/02_kyoto/1991/1991_0_a.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　原点$O$を中心とする単位円周上に相異なる点$P_1$，$P_2$，$P_3$，$P_4$があって
+$\overrightarrow{OP_1}+\overrightarrow{OP_2}+\overrightarrow{OP_3}+\overrightarrow{OP_4}=\vec{0}$
+となっている．
+このとき$P_1$，$P_2$，$P_3$，$P_4$はある長方形の頂点となることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_0_a.pdf)

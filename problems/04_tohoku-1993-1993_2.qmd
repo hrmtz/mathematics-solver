@@ -1,0 +1,29 @@
+---
+title: "東北大学 1993年 1993_2"
+problem_id: "04_tohoku-1993-1993_2"
+university: "東北大学"
+exam_year: "1993"
+source_tex: "archive/04_tohoku/1993/1993_2.tex"
+pdf_source: "archive/04_tohoku/1993/1993_2.pdf"
+page_image: "archive/04_tohoku/1993/1993_2.jpg"
+fields:
+  - 指数・対数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　曲線$C:y=\log(x+1)+1$を考える．
+ただし，対数は自然対数とする．
+$C$上の点$P$から$x$軸に下ろした垂線，
+$P$における$C$の法線，
+および$x$軸で囲まれる三角形の面積を$S$とする．
+$P$の$x$座標が負でないとき，
+$S$の最大値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_2.pdf)

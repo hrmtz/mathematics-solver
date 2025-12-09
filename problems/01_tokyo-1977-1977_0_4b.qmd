@@ -1,0 +1,24 @@
+---
+title: "東京大学 1977年 1977_0_4b"
+problem_id: "01_tokyo-1977-1977_0_4b"
+university: "東京大学"
+exam_year: "1977"
+source_tex: "archive/01_tokyo/1977/1977_0_4b.tex"
+pdf_source: "archive/01_tokyo/1977/1977_0_4b.pdf"
+page_image: "archive/01_tokyo/1977/1977_0_4b.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4 旧
+　$a$を実数の定数とするとき，
+$a\cos 2\theta-4(a-2)\cos\theta-a+4=0$をみたす相異なる$\theta$は，
+$0\leqq\theta<2\pi$の範囲にいくつあるか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1977/1977_0_4b.pdf)

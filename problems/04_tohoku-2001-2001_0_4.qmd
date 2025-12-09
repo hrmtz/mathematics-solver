@@ -1,0 +1,38 @@
+---
+title: "東北大学 2001年 2001_0_4"
+problem_id: "04_tohoku-2001-2001_0_4"
+university: "東北大学"
+exam_year: "2001"
+source_tex: "archive/04_tohoku/2001/2001_0_4.tex"
+pdf_source: "archive/04_tohoku/2001/2001_0_4.pdf"
+page_image: "archive/04_tohoku/2001/2001_0_4.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　四面体$OABC$において，$\overrightarrow{a}=\overrightarrow{OA}$，
+$\overrightarrow{b}=\overrightarrow{OB}$，
+$\overrightarrow{c}=\overrightarrow{OC}$とおく．
+線分$OA$，$OB$，$OC$，$BC$，$CA$，$AB$の中点をそれぞれ，$L$，$M$，$N$，$P$，$Q$，$R$とし，
+$\overrightarrow{p}=\overrightarrow{LP}$，
+$\overrightarrow{q}=\overrightarrow{MQ}$，
+$\overrightarrow{r}=\overrightarrow{NR}$とおく．
+\begin{description}
+\item[(1)]線分$LP$，$MQ$，$NR$は1点で交わることを示せ．
+\item[(2)]$\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{c}$を
+$\overrightarrow{p}$，$\overrightarrow{q}$，$\overrightarrow{r}$を用いて表せ．
+\item[(3)]直線$LP$，$MQ$，$NR$が互いに直交するとする．
+$X$を$\overrightarrow{AX}=\overrightarrow{LP}$となる空間の点とするとき，
+四面体XABCの体積を
+$|\overrightarrow{p}|$，$|\overrightarrow{q}|$，$|\overrightarrow{r}|$を用いて表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_0_4.pdf)

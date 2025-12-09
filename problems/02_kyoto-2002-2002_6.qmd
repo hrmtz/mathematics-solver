@@ -1,0 +1,31 @@
+---
+title: "京都大学 2002年 2002_6"
+problem_id: "02_kyoto-2002-2002_6"
+university: "京都大学"
+exam_year: "2002"
+source_tex: "archive/02_kyoto/2002/2002_6.tex"
+pdf_source: "archive/02_kyoto/2002/2002_6.pdf"
+page_image: "archive/02_kyoto/2002/2002_6.jpg"
+fields:
+  - 複素数平面
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$0<\theta<90$とし，$a$は正の数とする．
+複素数平面上の点$z_0,z_1,z_2,\cdots$をつぎの条件(i)，(ii)を満たすように定める．
+\begin{description}
+\item[(i)]$z_0=0$，$z_1=a$
+\item[(ii)]$n \geqq 1$のとき，
+点$z_n-z_{n-1}$を原点のまわりに$\theta^\circ$回転すると点$z_{n+1}-z_n$に一致する．
+\end{description}
+　このとき点$z_n$ $(n \geqq 1)$が点$z_0$と一致するような$n$が存在するための必要十分条件は，
+$\theta$が有理数であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_6.pdf)

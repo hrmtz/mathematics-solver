@@ -1,0 +1,32 @@
+---
+title: "大阪大学 1977年 1977_4"
+problem_id: "06_osaka-1977-1977_4"
+university: "大阪大学"
+exam_year: "1977"
+source_tex: "archive/06_osaka/1977/1977_4.tex"
+pdf_source: "archive/06_osaka/1977/1977_4.pdf"
+page_image: "archive/06_osaka/1977/1977_4.jpg"
+fields:
+  - 数列
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　半径$r_n$の円$S_n$ $(n=1, \, 2, \, \cdots\cdots)$があり，
+各$n$に対して，
+円$S_n$に内接する正$2^{n+2}$角形の1つおいて隣り合う2辺の延長の交点を頂点とする正$2^{n+2}$角形は
+円$S_{n+1}$に内接している．
+次の問に答えよ．
+\begin{description}
+\item[(1)]$\displaystyle r_{n+1}\cos\left(\frac{\pi}{2^{n+1}}\right)=
+r_n\cos\left(\frac{\pi}{2^{n+2}}\right)$を示せ．
+\item[(2)]$r_1=1$のとき，$\displaystyle\lim_{n\to\infty}r_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1977/1977_4.pdf)

@@ -1,0 +1,25 @@
+---
+title: "東北大学 1983年 1983_0_2"
+problem_id: "04_tohoku-1983-1983_0_2"
+university: "東北大学"
+exam_year: "1983"
+source_tex: "archive/04_tohoku/1983/1983_0_2.tex"
+pdf_source: "archive/04_tohoku/1983/1983_0_2.pdf"
+page_image: "archive/04_tohoku/1983/1983_0_2.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　空間内の4点$O(0, \, 0, \, 0)$，$A(0, \, 1, \, -1)$，
+$P(-2t, \, 0, \, 0)$，$Q(t, \, t+1, \, t-1)$ $(t\neq0)$を考える．
+3点$O$，$P$，$Q$を通る平面が3点$A$，$P$，$Q$を通る平面に垂直になるように$t$を定めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1983/1983_0_2.pdf)

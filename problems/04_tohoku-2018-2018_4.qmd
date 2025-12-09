@@ -1,0 +1,33 @@
+---
+title: "東北大学 2018年 2018_4"
+problem_id: "04_tohoku-2018-2018_4"
+university: "東北大学"
+exam_year: "2018"
+source_tex: "archive/04_tohoku/2018/2018_4.tex"
+pdf_source: "archive/04_tohoku/2018/2018_4.pdf"
+page_image: "archive/04_tohoku/2018/2018_4.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　三角形$ABC$の内接円の半径を$r$，外接円の半径を$R$とし，
+$\displaystyle h=\frac{r}{R}$とする。
+また，$\angle A=2\alpha$，$\angle B=2\beta$，$\angle C=2\gamma$とおく。
+\begin{description}
+\item[(1)]$h=4\sin\alpha\sin\beta\sin\gamma$となることを示せ。
+\item[(2)]三角形$ABC$が直角三角形のとき$h\leqq\sqrt2-1$が成り立つことを示せ。
+また，等号が成り立つのはどのような場合か。
+\item[(3)]一般の三角形$ABC$に対して
+$\displaystyle h\leqq\frac{1}{2}$が成り立つことを示せ。
+また，等号が成り立つのはどのような場合か。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_4.pdf)

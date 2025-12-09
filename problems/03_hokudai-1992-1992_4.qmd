@@ -1,0 +1,26 @@
+---
+title: "北海道大学 1992年 1992_4"
+problem_id: "03_hokudai-1992-1992_4"
+university: "北海道大学"
+exam_year: "1992"
+source_tex: "archive/03_hokudai/1992/1992_4.tex"
+pdf_source: "archive/03_hokudai/1992/1992_4.pdf"
+page_image: "archive/03_hokudai/1992/1992_4.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　次の条件$P$を満たす定数$C$の中で最小なものを求めよ．
+ただし，対数は自然対数であり，その底$e$の値は$2.718\cdots\cdots$である．
+　$P:2 \leqq x \leqq y$を満たすすべての実数$x$，$y$に対して
+不等式$\displaystyle \frac{\log y}{y} \leqq C\frac{\log x}{x}$が成り立つ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1992/1992_4.pdf)

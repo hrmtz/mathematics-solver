@@ -1,0 +1,30 @@
+---
+title: "九州大学 2024年 2024_5"
+problem_id: "07_kyushu-2024-2024_5"
+university: "九州大学"
+exam_year: "2024"
+source_tex: "archive/07_kyushu/2024/2024_5.tex"
+pdf_source: "archive/07_kyushu/2024/2024_5.pdf"
+page_image: "archive/07_kyushu/2024/2024_5.jpg"
+fields:
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　自然数$m, \, n$に対して
+\[ I(m, \, n)=\int_1^ex^me^x{(\log x)}^ndx \]
+とする。以下の問いに答えよ。
+\begin{description}
+\item[(1)]$I(m+1, \, n+1)$を$I(m, \, n+1), \, I(m, \, n), \, m, \, n$を用いて表せ。
+\item[(2)]すべての自然数$m$に対して，
+$\displaystyle\lim_{n\to\infty}I(m, \, n)=0$が成り立つことを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2024/2024_5.pdf)

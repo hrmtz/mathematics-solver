@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 1974年 1974_4"
+problem_id: "05_nagoya-1974-1974_4"
+university: "名古屋大学"
+exam_year: "1974"
+source_tex: "archive/05_nagoya/1974/1974_4.tex"
+pdf_source: "archive/05_nagoya/1974/1974_4.pdf"
+page_image: "archive/05_nagoya/1974/1974_4.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$p\geqq0$，$q\geqq0$，$p \neq q$である$p$，$q$に対して
+\[ |\log(p+1)-\log(q+1)|<|p-q| \]
+が成立することを証明せよ．
+次に，$k$を$0<k<1$である定数とすると
+$|\log(p+1)-\log(q+1)|<k|p-q|$が成立しないような
+$p\geqq0$、$q\geqq0$，$p \neq q$が存在することを示せ．
+ここで$\log$は自然対数を表すものとする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1974/1974_4.pdf)

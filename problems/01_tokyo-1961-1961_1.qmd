@@ -1,0 +1,34 @@
+---
+title: "東京大学 1961年 1961_1"
+problem_id: "01_tokyo-1961-1961_1"
+university: "東京大学"
+exam_year: "1961"
+source_tex: "archive/01_tokyo/1961/1961_1.tex"
+pdf_source: "archive/01_tokyo/1961/1961_1.pdf"
+page_image: "archive/01_tokyo/1961/1961_1.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　点$O$で60$^\circ$の角をなす半直線$OX$，$OY$と$\angle XOY$の二等分線$OZ$があり，
+$OX$，$OY$上に$O$から1cmの距離にそれぞれ点$A$，$B$がある．
+いま動点$P$，$Q$，$R$がそれぞれ$A$，$O$，$B$から同時に出発して
+半直線$OX$，$OZ$，$OY$上をそれぞれ毎秒1cm，$\sqrt3$cm，2cmの速さで$O$から遠ざかる．
+(i)　3点$P$，$Q$，$R$が一直線上にくるまでの時間
+　および
+(ii)　$\triangle PQR$の面積が$\triangle AOB$の面積に等しくなるまでの時間
+　を求めよ．
+
+
+
+![](../archive/01_tokyo/1961/fig_1961_1.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1961/1961_1.pdf)

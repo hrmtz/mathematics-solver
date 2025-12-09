@@ -1,0 +1,29 @@
+---
+title: "東北大学 2019年 2019_b"
+problem_id: "04_tohoku-2019-2019_b"
+university: "東北大学"
+exam_year: "2019"
+source_tex: "archive/04_tohoku/2019/2019_b.tex"
+pdf_source: "archive/04_tohoku/2019/2019_b.pdf"
+page_image: "archive/04_tohoku/2019/2019_b.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$n$を正の整数とする。
+\begin{description}
+\item[(1)]次の等式が成り立つことを示せ。
+\[ \left\{ 1+2\sum_{k=1}^n\cos(kx) \right\} \sin\frac{x}{2} =
+\sin \left( \left( n+\frac{1}{2} \right) x \right) \]
+\item[(2)]次の方程式の解$x$をすべて求めよ。
+\[ \sum_{k=1}^n\cos(kx)=0 \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_b.pdf)

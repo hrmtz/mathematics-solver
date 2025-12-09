@@ -1,0 +1,30 @@
+---
+title: "東北大学 1984年 1984_0_3"
+problem_id: "04_tohoku-1984-1984_0_3"
+university: "東北大学"
+exam_year: "1984"
+source_tex: "archive/04_tohoku/1984/1984_0_3.tex"
+pdf_source: "archive/04_tohoku/1984/1984_0_3.pdf"
+page_image: "archive/04_tohoku/1984/1984_0_3.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　空間に3点$\displaystyle A \left( -2, \, 2, \, -\frac{1}{2} \right)$，
+$\displaystyle B \left( 1, \, 0, \, \frac{1}{2} \right)$，$P(2p, \, p, \, 3p)$がある．
+\begin{description}
+\item[(1)]$O$を原点とするとき，
+2つのベクトル$\overrightarrow{AB}$，$\overrightarrow{OP}$のなす角を求めよ．
+ただし，$p\neq0$とする．
+\item[(2)]点$P$より直線$AB$に下ろした垂線の長さが$\displaystyle\frac{\sqrt5}{2}$になるように$p$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1984/1984_0_3.pdf)

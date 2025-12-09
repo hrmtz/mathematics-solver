@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1998年 1998_c"
+problem_id: "03_hokudai-1998-1998_c"
+university: "北海道大学"
+exam_year: "1998"
+source_tex: "archive/03_hokudai/1998/1998_c.tex"
+pdf_source: "archive/03_hokudai/1998/1998_c.pdf"
+page_image: "archive/03_hokudai/1998/1998_c.jpg"
+fields:
+  - 微分法
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　曲線$y=x^2$上の異なる2点$P(a, \, a^2)$，$Q(b, \, b^2)$における接線を，それぞれ，$l$，$m$とする．
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$l$と$m$の交点$R$の座標を，$a$，$b$を用いて表せ．
+\item[(2)]$\theta=\angle PRQ$とする．
+$R$が$\displaystyle\left( \frac{\sqrt3+1}{2}, \, \frac{2\sqrt3+3}{4} \right)$に一致するとき，
+${(\tan\theta)}^2$および${(\tan2\theta)}^2$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1998/1998_c.pdf)

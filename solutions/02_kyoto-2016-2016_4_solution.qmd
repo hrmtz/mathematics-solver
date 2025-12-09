@@ -1,0 +1,130 @@
+## 解答
+
+平面 $y=z$ の中での図形 $D$ は，$y$ 軸のまわりに 1 回転させるので，$y$ 軸を回転軸とする回転体になる。  
+$y$ の範囲は $0 \leqq y \leqq \log a$ であり，各 $y$ に対して $x$ は
+$$
+|x| \leqq \frac{e^y + e^{-y}}{2} - 1
+$$
+を満たすから，このときの断面（$y$ 一定での $x$–$z$ 平面に平行な平面での切り口）は，$x$–$z$ 平面で見ると，$x$ 軸上の区間
+$$
+-\left(\frac{e^y + e^{-y}}{2} - 1\right) \leqq x \leqq \frac{e^y + e^{-y}}{2} - 1
+$$
+を $y$ 軸のまわりに回転させてできる円（円盤）となる。
+
+この円の半径 $r(y)$ は
+$$
+r(y) = \frac{e^y + e^{-y}}{2} - 1
+$$
+であり，断面積 $S(y)$ は
+$$
+S(y) = \pi \, r(y)^2
+     = \pi \left( \frac{e^y + e^{-y}}{2} - 1 \right)^2
+$$
+である。  
+したがって，求める回転体の体積 $V$ は，断面積の積分として
+$$
+V = \int_{y=0}^{\log a} S(y) \, dy
+  = \pi \int_0^{\log a} \left( \frac{e^y + e^{-y}}{2} - 1 \right)^2 dy
+$$
+となる。
+
+以下この積分を計算する。
+
+まず
+$$
+\left( \frac{e^y + e^{-y}}{2} - 1 \right)^2
+= \left( \frac{e^y + e^{-y}}{2} \right)^2 - 2 \cdot \frac{e^y + e^{-y}}{2} + 1
+$$
+であり，
+$$
+\left( \frac{e^y + e^{-y}}{2} \right)^2
+= \frac{e^{2y} + 2 + e^{-2y}}{4}
+$$
+なので
+$$
+\left( \frac{e^y + e^{-y}}{2} - 1 \right)^2
+= \frac{e^{2y} + 2 + e^{-2y}}{4} - (e^y + e^{-y}) + 1.
+$$
+
+右辺を整理すると
+$$
+\frac{e^{2y}}{4} + \frac{1}{2} + \frac{e^{-2y}}{4} - e^y - e^{-y} + 1
+= \frac{e^{2y}}{4} + \frac{e^{-2y}}{4} - e^y - e^{-y} + \frac{3}{2}
+$$
+となる。したがって
+$$
+V = \pi \int_0^{\log a}
+\left(
+\frac{e^{2y}}{4} + \frac{e^{-2y}}{4} - e^y - e^{-y} + \frac{3}{2}
+\right) dy
+$$
+である。
+
+各項を積分すると，
+- $\displaystyle \int \frac{e^{2y}}{4} dy = \frac{1}{4} \cdot \frac{e^{2y}}{2} = \frac{e^{2y}}{8}$,
+- $\displaystyle \int \frac{e^{-2y}}{4} dy = \frac{1}{4} \cdot \left( \frac{e^{-2y}}{-2} \right) = -\frac{e^{-2y}}{8}$,
+- $\displaystyle \int (-e^y) dy = -e^y$,
+- $\displaystyle \int (-e^{-y}) dy = -(-e^{-y}) = e^{-y}$,
+- $\displaystyle \int \frac{3}{2} dy = \frac{3}{2} y$
+
+となるので，
+$$
+V
+= \pi \left[
+\frac{e^{2y}}{8} - \frac{e^{-2y}}{8} - e^y + e^{-y} + \frac{3}{2} y
+\right]_{y=0}^{y=\log a}.
+$$
+
+$y = \log a$ を代入すると
+\[
+\begin{aligned}
+e^{2y} &= e^{2\log a} = a^2, \\
+e^{-2y} &= e^{-2\log a} = a^{-2}, \\
+e^{y} &= e^{\log a} = a, \\
+e^{-y} &= e^{-\log a} = a^{-1},
+\end{aligned}
+\]
+なので
+$$
+\left.
+\left(
+\frac{e^{2y}}{8} - \frac{e^{-2y}}{8} - e^y + e^{-y} + \frac{3}{2} y
+\right)
+\right|_{y=\log a}
+=
+\frac{a^2}{8} - \frac{a^{-2}}{8} - a + a^{-1} + \frac{3}{2} \log a.
+$$
+
+次に $y=0$ を代入すると
+\[
+e^{2\cdot0} = 1,\quad e^{-2\cdot0} = 1,\quad e^0 = 1,\quad e^{-0} = 1,\quad y = 0
+\]
+より
+$$
+\left.
+\left(
+\frac{e^{2y}}{8} - \frac{e^{-2y}}{8} - e^y + e^{-y} + \frac{3}{2} y
+\right)
+\right|_{y=0}
+=
+\frac{1}{8} - \frac{1}{8} - 1 + 1 + 0 = 0
+$$
+である。
+
+したがって
+$$
+V = \pi \left(
+\frac{a^2}{8} - \frac{a^{-2}}{8} - a + a^{-1} + \frac{3}{2} \log a - 0
+\right).
+$$
+
+よって，求める体積は
+$$
+\boxed{
+V
+= \pi \left(
+\frac{a^2 - a^{-2}}{8} - a + a^{-1} + \frac{3}{2} \log a
+\right)
+}
+$$
+である。

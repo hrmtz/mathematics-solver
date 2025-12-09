@@ -1,0 +1,26 @@
+---
+title: "東北大学 1966年 1966_3"
+problem_id: "04_tohoku-1966-1966_3"
+university: "東北大学"
+exam_year: "1966"
+source_tex: "archive/04_tohoku/1966/1966_3.tex"
+pdf_source: "archive/04_tohoku/1966/1966_3.pdf"
+page_image: "archive/04_tohoku/1966/1966_3.jpg"
+fields:
+  - 不等式
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$0 \leqq x \leqq 2\pi$，$0 \leqq y \leqq 2\pi$の範囲で，
+次の不等式を満足する点$(x, \, y)$の存在する範囲を斜線をつけて図示せよ．
+\[ \cos x-\cos y\cos(x+y)>0 \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1966/1966_3.pdf)

@@ -1,0 +1,26 @@
+---
+title: "京都大学 2017年 2017_0_3"
+problem_id: "02_kyoto-2017-2017_0_3"
+university: "京都大学"
+exam_year: "2017"
+source_tex: "archive/02_kyoto/2017/2017_0_3.tex"
+pdf_source: "archive/02_kyoto/2017/2017_0_3.pdf"
+page_image: "archive/02_kyoto/2017/2017_0_3.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　座標空間において原点$O$と点$A(0, \, -1, \, 1)$を通る直線を$l$とし，
+点$B(0, \, 2, \, 1)$と点$C(-2, \, 2, \, -3)$を通る直線を$m$とする．
+$l$上の2点$P$，$Q$と，$m$上の点$R$を$\triangle PQR$が正三角形となるようにとる．
+このとき，$\triangle PQR$の面積が最小となるような$P$，$Q$，$R$の座標を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2017/2017_0_3.pdf)

@@ -1,0 +1,32 @@
+---
+title: "東京科学大学 2004年 2004_2"
+problem_id: "08_titech-2004-2004_2"
+university: "東京科学大学"
+exam_year: "2004"
+source_tex: "archive/08_titech/2004/2004_2.tex"
+pdf_source: "archive/08_titech/2004/2004_2.pdf"
+page_image: "archive/08_titech/2004/2004_2.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　次の問いに答えよ．
+\begin{description}
+\item[(1)]$f(x)$，$g(x)$を連続な偶関数，$m$を正の整数とするとき，
+$\displaystyle \int_0^{mx}f(\sin x)g(\cos x)dx=m\int_0^{\pi}f(\sin x)g(\cos x)dx$を証明せよ．
+\item[(2)]正の整数$m$，$n$が$m\pi \leqq n < (m+1)\pi$を満たしているとき，
+\[ \frac{m}{(m+1)\pi}\int_0^{\pi}\frac{\sin x}{(1+\cos^2 x)^2}dx \leqq
+\int_0^1\frac{|\sin nx|}{(1+\cos^2 nx)^2}dx \leqq \frac{m+1}{m\pi}\int_0^{\pi}\frac{\sin x}{(1+\cos^2 x)^2}dx \]
+を証明せよ．
+\item[(3)]極限値$\displaystyle\lim_{n \to \infty}\int_0^1\frac{|\sin nx|}{(1+\cos^2 nx)^2}dx$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2004/2004_2.pdf)

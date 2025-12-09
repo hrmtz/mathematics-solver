@@ -1,0 +1,37 @@
+---
+title: "東京大学 1973年 1973_3"
+problem_id: "01_tokyo-1973-1973_3"
+university: "東京大学"
+exam_year: "1973"
+source_tex: "archive/01_tokyo/1973/1973_3.tex"
+pdf_source: "archive/01_tokyo/1973/1973_3.pdf"
+page_image: "archive/01_tokyo/1973/1973_3.jpg"
+fields:
+  - 微分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　区間$1 \leqq x \leqq 3$において次のように定義された関数$f(x)$がある．
+\[
+f(x)=
+\begin{cases}
+1 & (1 \leqq x \leqq 2),
+x-1 & (2 \leqq x \leqq 3).
+\end{cases}
+\]
+いま実数$a$に対して，
+区間$1 \leqq x \leqq 3$における関数$f(x)-ax$の最大値から最小値を引いた値を$V(a)$とおく．
+このとき次の問に答えよ．
+\begin{description}
+\item[(i)]$a$がすべての実数にわたって動くとき，$V(a)$の最小値を求めよ．
+\item[(ii)]$V(a)$の最小値を与えるような$a$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1973/1973_3.pdf)

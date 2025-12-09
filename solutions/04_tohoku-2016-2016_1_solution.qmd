@@ -1,0 +1,223 @@
+## 解答
+
+(1)  四角形 $BCEF$ および $AFHE$ が円に内接することを示す。
+
+### 四角形 $BCEF$ について
+
+$\triangle ABC$ は鋭角三角形であり，$AD,\,BE,\,CF$ はそれぞれ対辺に下ろした垂線であるから，
+  
+- $AD \perp BC$ より，$D$ は $BC$ 上の $A$ からの垂足，
+- $BE \perp AC$ より，$E$ は $AC$ 上の $B$ からの垂足，
+- $CF \perp AB$ より，$F$ は $AB$ 上の $C$ からの垂足
+
+である。
+
+ここで四角形 $BCEF$ に注目する。
+
+点 $E$ は $AC$ 上にあり，$BE \perp AC$ だから，とくに $BE \perp CE$ である。  
+したがって，
+$$
+\angle BEC = 90^\circ
+$$
+である。
+
+同様に，点 $F$ は $AB$ 上にあり，$CF \perp AB$ だから，とくに $CF \perp BF$ である。  
+よって，
+$$
+\angle BFC = 90^\circ
+$$
+である。
+
+以上より，
+$$
+\angle BEC = \angle BFC = 90^\circ
+$$
+であり，四角形 $BCEF$ の 2 つの頂点 $E,\,F$ において，$\angle BEC$ と $\angle BFC$ が等しい。
+
+一般に，「四角形の 2 頂点で，他の 2 点を見込む角が等しいとき，その 4 点は同一円周上にある」  
+すなわち「同じ弧 $BC$ を見込む角が等しい」ことから，$B,\,C,\,E,\,F$ は同一円周上にある。
+
+よって，四角形 $BCEF$ は円に内接する。
+
+### 四角形 $AFHE$ について
+
+次に四角形 $AFHE$ を考える。垂心 $H$ は，各高さ $AD,\,BE,\,CF$ の交点であるから，
+
+- $H$ は直線 $AD$ 上にあるので $AH \perp BC$，
+- $H$ は直線 $BE$ 上にあるので $BH \perp AC$，
+- $H$ は直線 $CF$ 上にあるので $CH \perp AB$
+
+が成り立つ。
+
+とくに，
+
+- $CF \perp AB$ かつ $CH \perp AB$ より，直線 $CF$ と $CH$ はともに $AB$ に垂直であるから，$F,\,C,\,H$ は一直線上にある。
+- 同様に，$BE \perp AC$ かつ $BH \perp AC$ より，$B,\,E,\,H$ は一直線上にある。
+
+したがって，$H$ は $CF$ 上にもあり，$F$ は $AB$ と $CH$ の交点であることから，
+$$
+\angle AFH = \angle AFB
+$$
+である（$A,\,F,\,B$ は一直線上にあるので，$\angle AFH$ と $\angle AFB$ は同じ頂点 $F$，同じ辺 $FA$ を共有し，もう一方の辺がともに $FB$ と一直線上の $FH$ であるから等しい）。
+
+また，$\triangle ABC$ において，$CF \perp AB$ であるから，
+$$
+\angle AFB = 90^\circ
+$$
+である。ゆえに，
+$$
+\angle AFH = 90^\circ
+$$
+が得られる。
+
+同様に，$E$ は $AC$ と $BH$ の交点であるから，
+$$
+\angle AEH = \angle AEB
+$$
+である。ところが，$BE \perp AC$ より，
+$$
+\angle AEB = 90^\circ
+$$
+であるから，
+$$
+\angle AEH = 90^\circ
+$$
+となる。
+
+以上より，
+$$
+\angle AFH = \angle AEH = 90^\circ
+$$
+である。四角形 $AFHE$ の 2 頂点 $F,\,E$ において，他の 2 点 $A,\,H$ を見込む角が等しいので，  
+先ほどと同じ円周角の定理の逆を用いて，$A,\,F,\,H,\,E$ は同一円周上にある。
+
+したがって，四角形 $AFHE$ も円に内接する。
+
+---
+
+(2)  $\angle ADE = \angle ADF$ であることを示す。
+
+(1) より，四角形 $BCEF$ は円に内接する。そこでこの円を考える。
+
+円に内接する四角形 $BCEF$ について，円周角の定理を用いると，
+
+- 弧 $BE$ に対する円周角は，点 $C$ および点 $F$ でそれぞれ
+  $$
+  \angle BCE,\ \angle BFE
+  $$
+  であるから，
+  $$
+  \angle BCE = \angle BFE
+  $$
+  が成り立つ。
+- 弧 $BF$ に対する円周角は，点 $C$ および点 $E$ でそれぞれ
+  $$
+  \angle BCF,\ \angle BEF
+  $$
+  であるから，
+  $$
+  \angle BCF = \angle BEF
+  $$
+  が成り立つ。
+
+いま，$\triangle ABC$ において，$AD$ は $BC$ に垂直であるから，$D$ は $BC$ の上にある。よって，
+
+- 点 $E$ は辺 $AC$ 上にあるので，角 $\angle ADE$ は頂点 $D$ を $A$ から見た角であり，
+  $$
+  \angle ADE = \angle CDE
+  $$
+  である（$A,\,C,\,D$ が一直線上にあり，頂点が $D$ である角として等しい）。
+- 同様に，点 $F$ は辺 $AB$ 上にあるので，
+  $$
+  \angle ADF = \angle BDF
+  $$
+  である。
+
+したがって，示すべき $\angle ADE = \angle ADF$ は，
+$$
+\angle CDE = \angle BDF
+$$
+と同値である。
+
+ここで，$\triangle CDE$ と $\triangle BDF$ に注目する。
+
+まず，$AD \perp BC$ であるから，
+$$
+\angle CDE = \angle BDF = 90^\circ
+$$
+である。また，$DE$ は $BE$ の一部，$DF$ は $CF$ の一部であるから，
+
+- $BE \perp AC$ より，特に $DE \perp AC$ なので，
+  $$
+  \angle DCE = 90^\circ
+  $$
+- $CF \perp AB$ より，特に $DF \perp AB$ なので，
+  $$
+  \angle DBF = 90^\circ
+  $$
+
+となる。ゆえに，
+$$
+\angle DCE = \angle DBF = 90^\circ
+$$
+である。
+
+以上から，三角形 $CDE$ と三角形 $BDF$ では，
+
+- $\angle CDE = \angle BDF = 90^\circ$，
+- $\angle DCE = \angle DBF = 90^\circ$
+
+となり，2つの角がそれぞれ等しいので，三角形の合同条件（$AA$条件）により，
+$$
+\triangle CDE \cong \triangle BDF
+$$
+が成り立つ。
+
+したがって，対応する角は等しいから，
+$$
+\angle CED = \angle DBF
+$$
+が成り立つ。
+
+一方，円に内接する四角形 $BCEF$ については，
+弧 $EF$ に対する円周角として，
+$$
+\angle BEF,\ \angle BCF
+$$
+があり，円周角の定理より
+$$
+\angle BEF = \angle BCF
+$$
+である。
+
+ところで，
+$$
+\angle BCF = \angle DCF = 90^\circ
+$$
+かつ
+$$
+\angle BEF = \angle DEH = 90^\circ
+$$
+であるので，これらを補って考えると，$E,\,D,\,F$ の位置関係から
+$$
+\angle CED = \angle DEF,\quad \angle DBF = \angle DFE
+$$
+となることがわかる（いずれも一直線上の点をはさむ対頂角に対応）。
+
+先に得た $\angle CED = \angle DBF$ と合わせて，
+$$
+\angle DEF = \angle DFE
+$$
+が従う。
+
+したがって，$\triangle DEF$ において
+$$
+\angle EDF = \angle ADE,\quad \angle FDE = \angle ADF
+$$
+であることから，
+$$
+\angle ADE = \angle ADF
+$$
+が成り立つ。
+
+よって，$\angle ADE = \angle ADF$ が示された。

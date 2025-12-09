@@ -1,0 +1,173 @@
+## 解答
+
+### 問1
+
+$0<\theta<\dfrac{\pi}{2}$ で，$\cos\theta$ は無理数，かつ $\cos2\theta,\ \cos3\theta$ がともに有理数となる $\theta$ を求める。
+
+まず，三角の倍角・三倍角の公式を用いると
+$$
+\cos2\theta=2\cos^2\theta-1,\qquad
+\cos3\theta=4\cos^3\theta-3\cos\theta
+$$
+である。
+
+ここで，$x=\cos\theta$ とおくと，$\cos2\theta,\ \cos3\theta$ がともに有理数であるという条件から，
+$$
+2x^2-1,\quad 4x^3-3x
+$$
+はいずれも有理数である。
+
+有理数全体を $\mathbb{Q}$ と書くとすると，$2x^2-1\in\mathbb{Q},\ 4x^3-3x\in\mathbb{Q}$ であるから，$2x^2,4x^3$ も有理数である。よって
+$$
+x^2=\frac{2x^2}{2}\in\mathbb{Q},\quad x^3=\frac{4x^3}{4}\in\mathbb{Q}
+$$
+となる。したがって $x^2,x^3$ はともに有理数である。
+
+ここで
+$$
+x=\frac{x^3}{x^2}
+$$
+と書ける。分子 $x^3$，分母 $x^2$ はともに有理数であり，$x=\cos\theta$ なので $0<\theta<\dfrac{\pi}{2}$ より $0<x\le1$ であり，特に $x\ne0$ だから $x^2\ne0$ である。よって分数の性質から $x$ も有理数となる。
+
+ところが，これは「$\cos\theta$ は有理数ではない」という条件に反する。したがって，$\cos2\theta,\ \cos3\theta$ がともに有理数となるような $\theta$ は存在しない。
+
+以上より，
+$$
+\boxed{\text{条件を満たす }0<\theta<\frac{\pi}{2}\text{ は存在しない。}}
+$$
+
+---
+
+### 問2
+
+#### (1) $\displaystyle \int_0^{\frac{\pi}{4}}\frac{x}{\cos^2x}\,dx$
+
+部分積分を用いる。$u=x,\ dv=\dfrac{1}{\cos^2x}dx=\sec^2x\,dx$ とおくと，
+$$
+du=dx,\quad v=\tan x
+$$
+であるから，部分積分の公式
+$$
+\int u\,dv=uv-\int v\,du
+$$
+より
+$$
+\int_0^{\frac{\pi}{4}}\frac{x}{\cos^2x}\,dx
+=\int_0^{\frac{\pi}{4}}x\sec^2x\,dx
+=\Bigl[x\tan x\Bigr]_0^{\frac{\pi}{4}}-\int_0^{\frac{\pi}{4}}\tan x\,dx
+$$
+となる。
+
+まず
+$$
+\Bigl[x\tan x\Bigr]_0^{\frac{\pi}{4}}
+=\frac{\pi}{4}\tan\frac{\pi}{4}-0\cdot\tan0
+=\frac{\pi}{4}\cdot1-0
+=\frac{\pi}{4}
+$$
+である。
+
+次に $\int_0^{\frac{\pi}{4}}\tan x\,dx$ を求める。$\tan x=\dfrac{\sin x}{\cos x}$ に対し，$t=\cos x$ とおく（置換積分）。すると
+$$
+dt=-\sin x\,dx \quad\Rightarrow\quad \sin x\,dx=-dt
+$$
+であり，積分区間は
+$$
+x=0\Rightarrow t=\cos0=1,\quad
+x=\frac{\pi}{4}\Rightarrow t=\cos\frac{\pi}{4}=\frac{\sqrt2}{2}
+$$
+であるから，
+$$
+\int_0^{\frac{\pi}{4}}\tan x\,dx
+=\int_0^{\frac{\pi}{4}}\frac{\sin x}{\cos x}\,dx
+=\int_{t=1}^{t=\frac{\sqrt2}{2}}\frac{1}{t}(-dt)
+=-\int_1^{\frac{\sqrt2}{2}}\frac{1}{t}\,dt
+=\int_{\frac{\sqrt2}{2}}^{1}\frac{1}{t}\,dt
+$$
+となる。したがって
+$$
+\int_0^{\frac{\pi}{4}}\tan x\,dx
+=\Bigl[\ln t\Bigr]_{t=\frac{\sqrt2}{2}}^{t=1}
+=\ln1-\ln\frac{\sqrt2}{2}
+=-\ln\frac{\sqrt2}{2}
+$$
+である。ここで
+$$
+\frac{\sqrt2}{2}=2^{-1/2} \quad\Rightarrow\quad
+\ln\frac{\sqrt2}{2}=\ln2^{-1/2}=-\frac12\ln2
+$$
+より
+$$
+-\ln\frac{\sqrt2}{2}
+=\frac12\ln2
+$$
+が得られる。よって
+$$
+\int_0^{\frac{\pi}{4}}\tan x\,dx=\frac{1}{2}\ln2
+$$
+である。
+
+以上をまとめると
+$$
+\int_0^{\frac{\pi}{4}}\frac{x}{\cos^2x}\,dx
+=\frac{\pi}{4}-\frac12\ln2
+$$
+となる。
+
+従って
+$$
+\boxed{\displaystyle \int_0^{\frac{\pi}{4}}\frac{x}{\cos^2x}\,dx
+=\frac{\pi}{4}-\frac12\ln2}
+$$
+
+---
+
+#### (2) $\displaystyle \int_0^{\frac{\pi}{4}}\frac{dx}{\cos x}$
+
+$\dfrac{1}{\cos x}=\sec x$ の不定積分は，よく知られている公式
+$$
+\int\sec x\,dx=\ln\left|\sec x+\tan x\right|+C
+$$
+で表される。この結果を用いるか，あるいは積分計算によって導いてもよいが，ここでは既知の結果として用いる。
+
+したがって
+$$
+\int_0^{\frac{\pi}{4}}\frac{dx}{\cos x}
+=\int_0^{\frac{\pi}{4}}\sec x\,dx
+=\Bigl[\ln\left(\sec x+\tan x\right)\Bigr]_0^{\frac{\pi}{4}}
+$$
+となる。
+
+ここで
+$$
+\sec\frac{\pi}{4}=\frac{1}{\cos\frac{\pi}{4}}=\sqrt2,\quad
+\tan\frac{\pi}{4}=1
+$$
+より
+$$
+\sec\frac{\pi}{4}+\tan\frac{\pi}{4}=\sqrt2+1
+$$
+また
+$$
+\sec0=\frac{1}{\cos0}=1,\quad
+\tan0=0
+$$
+より
+$$
+\sec0+\tan0=1
+$$
+である。
+
+よって
+$$
+\int_0^{\frac{\pi}{4}}\frac{dx}{\cos x}
+=\ln(\sqrt2+1)-\ln1
+=\ln(\sqrt2+1)
+$$
+となる。
+
+したがって
+$$
+\boxed{\displaystyle \int_0^{\frac{\pi}{4}}\frac{dx}{\cos x}
+=\ln(\sqrt2+1)}
+$$

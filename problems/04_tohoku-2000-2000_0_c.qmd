@@ -1,0 +1,27 @@
+---
+title: "東北大学 2000年 2000_0_c"
+problem_id: "04_tohoku-2000-2000_0_c"
+university: "東北大学"
+exam_year: "2000"
+source_tex: "archive/04_tohoku/2000/2000_0_c.tex"
+pdf_source: "archive/04_tohoku/2000/2000_0_c.pdf"
+page_image: "archive/04_tohoku/2000/2000_0_c.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$，$b$，$c$は$a^2-3b^2=c^2$を満たす整数とするとき，次のことを証明せよ．
+\begin{description}
+\item[(1)]$a$，$b$の少なくとも一方は偶数である．
+\item[(2)]$a$，$b$が共に偶数なら，少なくとも一方は4の倍数である．
+\item[(3)]$a$が奇数なら$b$は4の倍数である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2000/2000_0_c.pdf)

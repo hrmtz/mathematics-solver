@@ -37,6 +37,22 @@ def normalize_one(path: Path, dry_run: bool = False) -> bool:
 
     changed = False
 
+    # 一部のファイルで `title::` / `university::` のようにコロンが重複しているものを正規化
+    fixed_yaml_lines = []
+    for line in yaml_lines:
+        original = line
+        stripped = line.lstrip()
+        if stripped.startswith("title::"):
+            # 最初の `::` を `:` に直す
+            line = line.replace("title::", "title:", 1)
+        if stripped.startswith("university::"):
+            line = line.replace("university::", "university:", 1)
+        if line is not original:
+            changed = True
+        fixed_yaml_lines.append(line)
+
+    yaml_lines = fixed_yaml_lines
+
     # university: の値をコード → 漢字に置換
     for idx, line in enumerate(yaml_lines):
         stripped = line.strip()

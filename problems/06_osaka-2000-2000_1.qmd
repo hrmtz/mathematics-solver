@@ -1,0 +1,25 @@
+---
+title: "大阪大学 2000年 2000_1"
+problem_id: "06_osaka-2000-2000_1"
+university: "大阪大学"
+exam_year: "2000"
+source_tex: "archive/06_osaka/2000/2000_1.tex"
+pdf_source: "archive/06_osaka/2000/2000_1.pdf"
+page_image: "archive/06_osaka/2000/2000_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a>b>0$とする．
+円$x^2+y^2=a^2$上の点$(b, \, \sqrt{a^2-b^2})$における接線と$x$軸との交点を$P$とする．
+また，円の外部の点$(b, \, c)$からこの円に2本の接線を引き，接点を$Q$，$R$とする．
+このとき，2点$Q$，$R$を通る直線は$P$を通ることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_1.pdf)

@@ -1,0 +1,438 @@
+## 解答
+
+(関数の定義を，場合分けの区切り点をはっきりさせて書き直しておく。)
+
+$$
+f(x)=
+\begin{cases}
+0 & (x<-2 \text{ のとき})\\
+(x-a)(x+2) & (-2 \leqq x \leqq a \text{ のとき})\\
+2(x-a)(x-3) & (a \leqq x \leqq 3 \text{ のとき})\\
+0 & (x>3 \text{ のとき})
+\end{cases}
+$$
+
+ただし $-2\leqq a\leqq 3$ である。
+
+---
+
+## 解答
+
+(1)  
+
+曲線 $y=f(x)$ と $x$ 軸で囲まれる図形の面積 $S(a)$ は，$f(x)$ の符号に注意して  
+絶対値をとった積分で表される。
+
+まず各区間での $f(x)$ の符号を調べる。
+
+- 区間 $[-2,a]$ では $x+2\ge 0$ である。  
+  また $x=a$ で $(x-a)=0$，$x=-2$ で $(x+2)=0$ なので，$f(x)$ は $x=-2,a$ で 0 になり，  
+  それ以外では $(x-a)$ と $(x+2)$ は異符号となるから
+  $$f(x)=(x-a)(x+2)\le 0 \quad(-2<x<a).$$
+
+- 区間 $[a,3]$ では $x-a\ge 0,\ x-3\le 0$ なので
+  $$(x-a)(x-3)\le 0,$$
+  従って
+  $$f(x)=2(x-a)(x-3)\le 0 \quad(a<x<3).$$
+
+したがって，$-2\le x\le 3$ では $f(x)\le 0$ なので，面積 $S(a)$ は
+
+$$
+S(a)= -\int_{-2}^{a}(x-a)(x+2)\,dx
+      -\int_{a}^{3}2(x-a)(x-3)\,dx
+$$
+
+と表される。
+
+それぞれを展開して計算する。
+
+まず
+$$
+(x-a)(x+2)=x^2+(2-a)x-2a
+$$
+
+なので
+
+$$
+\int_{-2}^{a}(x-a)(x+2)\,dx
+=\int_{-2}^{a}\bigl(x^2+(2-a)x-2a\bigr)\,dx
+$$
+
+を計算する。原始関数は
+$$
+\int x^2\,dx=\frac{x^3}{3},\quad
+\int x\,dx=\frac{x^2}{2},\quad
+\int 1\,dx=x
+$$
+より
+
+$$
+\int\bigl(x^2+(2-a)x-2a\bigr)\,dx
+=\frac{x^3}{3}+(2-a)\frac{x^2}{2}-2ax.
+$$
+
+よって
+
+$$
+\int_{-2}^{a}(x-a)(x+2)\,dx
+=\left[\frac{x^3}{3}+(2-a)\frac{x^2}{2}-2ax\right]_{x=-2}^{x=a}.
+$$
+
+上端 $x=a$ での値は
+
+\[
+\begin{aligned}
+&\frac{a^3}{3}+(2-a)\frac{a^2}{2}-2a\cdot a \\
+&=\frac{a^3}{3}+\left(\frac{2}{2}-\frac{a}{2}\right)a^2-2a^2 \\
+&=\frac{a^3}{3}+\left(1-\frac{a}{2}\right)a^2-2a^2 \\
+&=\frac{a^3}{3}+a^2-\frac{a^3}{2}-2a^2 \\
+&=\left(\frac{1}{3}-\frac{1}{2}\right)a^3-(a^2) \\
+&=-\frac{1}{6}a^3-a^2.
+\end{aligned}
+\]
+
+下端 $x=-2$ での値は
+
+\[
+\begin{aligned}
+&\frac{(-2)^3}{3}+(2-a)\frac{(-2)^2}{2}-2a(-2)\\
+&=-\frac{8}{3}+(2-a)\cdot 2+4a\\
+&=-\frac{8}{3}+(4-2a)+4a\\
+&=-\frac{8}{3}+4+2a\\
+&=-\frac{8}{3}+ \frac{12}{3}+2a\\
+&=\frac{4}{3}+2a.
+\end{aligned}
+\]
+
+したがって
+
+\[
+\begin{aligned}
+\int_{-2}^{a}(x-a)(x+2)\,dx
+&=\bigl(-\tfrac{1}{6}a^{3}-a^{2}\bigr)-\bigl(\tfrac{4}{3}+2a\bigr)\\
+&=-\frac{1}{6}a^3-a^2-2a-\frac{4}{3}.
+\end{aligned}
+\]
+
+よって
+
+$$
+-\int_{-2}^{a}(x-a)(x+2)\,dx
+=\frac{1}{6}a^3+a^2+2a+\frac{4}{3}.
+\tag{★}
+$$
+
+次に第2項を計算する。  
+$2(x-a)(x-3)$ を展開すると
+
+$$
+2(x-a)(x-3)=2\bigl(x^2-(a+3)x+3a\bigr)
+=2x^2-2(a+3)x+6a
+$$
+
+であるから
+
+\[
+\int_{a}^{3}2(x-a)(x-3)\,dx
+=\int_{a}^{3}\bigl(2x^2-2(a+3)x+6a\bigr)\,dx.
+\]
+
+原始関数は
+
+\[
+\begin{aligned}
+\int\bigl(2x^2-2(a+3)x+6a\bigr)\,dx
+&=\frac{2}{3}x^3-(a+3)x^2+6ax.
+\end{aligned}
+\]
+
+よって
+
+\[
+\int_{a}^{3}2(x-a)(x-3)\,dx
+=\left[\frac{2}{3}x^3-(a+3)x^2+6ax\right]_{x=a}^{x=3}.
+\]
+
+上端 $x=3$ での値は
+
+\[
+\begin{aligned}
+&\frac{2}{3}\cdot 27-(a+3)\cdot 9+6a\cdot 3\\
+&=18-9a-27+18a\\
+&=-9+9a.
+\end{aligned}
+\]
+
+下端 $x=a$ での値は
+
+\[
+\begin{aligned}
+&\frac{2}{3}a^3-(a+3)a^2+6a^2\\
+&=\frac{2}{3}a^3-\bigl(a^3+3a^2\bigr)+6a^2\\
+&=\frac{2}{3}a^3-a^3+3a^2\\
+&=-\frac{1}{3}a^3+3a^2.
+\end{aligned}
+\]
+
+したがって
+
+\[
+\begin{aligned}
+\int_{a}^{3}2(x-a)(x-3)\,dx
+&=\bigl(-9+9a\bigr)-\bigl(-\tfrac{1}{3}a^3+3a^2\bigr)\\
+&=-9+9a+\frac{1}{3}a^3-3a^2.
+\end{aligned}
+\]
+
+従って
+
+$$
+-\int_{a}^{3}2(x-a)(x-3)\,dx
+=9-9a-\frac{1}{3}a^3+3a^2.
+\tag{★★}
+$$
+
+(★)，(★★) を足して
+
+\[
+\begin{aligned}
+S(a)
+&=\left(\frac{1}{6}a^3+a^2+2a+\frac{4}{3}\right)
+ +\left(9-9a-\frac{1}{3}a^3+3a^2\right)\\
+&=\left(\frac{1}{6}-\frac{1}{3}\right)a^3+(1+3)a^2+(2-9)a+\left(\frac{4}{3}+9\right)\\
+&=-\frac{1}{6}a^3+4a^2-7a+\frac{31}{3}.
+\end{aligned}
+\]
+
+よって
+
+$$
+\boxed{\,S(a)=-\frac{1}{6}a^3+4a^2-7a+\frac{31}{3}\,}\quad(-2\leqq a\leqq 3).
+$$
+
+---
+
+(2)  
+
+$-2\leqq a\leqq 3$ における $S(a)$ の最大・最小値を求める。  
+$S(a)$ は3次関数なので，まず微分して増減を調べる。
+
+$$
+S(a)=-\frac{1}{6}a^3+4a^2-7a+\frac{31}{3}
+$$
+
+より
+
+$$
+S'(a)=-\frac{1}{2}a^2+8a-7.
+$$
+
+これが 0 となる $a$ を求める。
+
+\[
+\begin{aligned}
+-\frac{1}{2}a^2+8a-7&=0\\
+\Leftrightarrow\quad
+a^2-16a+14&=0
+\quad(\text{両辺に $-2$ を掛けた})\\
+\Leftrightarrow\quad
+a&=\frac{16\pm\sqrt{16^2-4\cdot 1\cdot 14}}{2}\\
+&=\frac{16\pm\sqrt{256-56}}{2}
+=\frac{16\pm\sqrt{200}}{2}
+=\frac{16\pm 10\sqrt{2}}{2}\\
+&=8\pm 5\sqrt{2}.
+\end{aligned}
+\]
+
+ここで $8+5\sqrt{2}>8+5\cdot 1=13>3$ より，$a=8+5\sqrt{2}$ は範囲 $-2\leqq a\leqq 3$ の外である。  
+一方 $8-5\sqrt{2}$ については，$\sqrt{2}\approx 1.4$ より
+
+$$
+8-5\sqrt{2}\approx 8-5\cdot 1.4=8-7=1
+$$
+
+であり，確かに $-2\leqq 8-5\sqrt{2}\leqq 3$ を満たす。
+
+したがって，区間 $-2\leqq a\leqq 3$ における $S(a)$ の極値の候補は
+
+- $a=-2$
+- $a=8-5\sqrt{2}$
+- $a=3$
+
+の3点である。これらでの $S(a)$ を計算して比較する。
+
+まず $a=-2$ のとき
+
+\[
+\begin{aligned}
+S(-2)
+&=-\frac{1}{6}(-2)^3+4(-2)^2-7(-2)+\frac{31}{3}\\
+&=\frac{8}{6}+16+14+\frac{31}{3}\\
+&=\frac{4}{3}+30+\frac{31}{3}\\
+&=\left(\frac{4}{3}+\frac{31}{3}\right)+30\\
+&=\frac{35}{3}+30
+=\frac{35}{3}+\frac{90}{3}
+=\frac{125}{3}.
+\end{aligned}
+\]
+
+次に $a=3$ のとき
+
+\[
+\begin{aligned}
+S(3)
+&=-\frac{1}{6}\cdot 27+4\cdot 9-7\cdot 3+\frac{31}{3}\\
+&=-\frac{27}{6}+36-21+\frac{31}{3}\\
+&=-\frac{9}{2}+15+\frac{31}{3}.
+\end{aligned}
+\]
+
+共通分母6にそろえると
+
+\[
+\begin{aligned}
+-\frac{9}{2}+15+\frac{31}{3}
+&=-\frac{27}{6}+\frac{90}{6}+\frac{62}{6}\\
+&=\frac{-27+90+62}{6}
+=\frac{125}{6}.
+\end{aligned}
+\]
+
+最後に $a=8-5\sqrt{2}$ のとき
+
+$$
+S(a)=-\frac{1}{6}a^3+4a^2-7a+\frac{31}{3}
+$$
+
+に代入して計算する。計算を簡単にするため $t=\sqrt{2}$ とおいておくと  
+$a=8-5t$ であり，$t^2=2$ を用いて展開する。
+
+まず
+
+\[
+\begin{aligned}
+a^2&=(8-5t)^2=64-80t+25t^2
+=64-80t+25\cdot 2
+=114-80t,
+\end{aligned}
+\]
+
+\[
+\begin{aligned}
+a^3&=a\cdot a^2=(8-5t)(114-80t)\\
+&=8\cdot 114-8\cdot 80t-5t\cdot 114+5t\cdot 80t\\
+&=912-640t-570t+400t^2\\
+&=912-1210t+400\cdot 2\\
+&=1712-1210t.
+\end{aligned}
+\]
+
+したがって
+
+\[
+\begin{aligned}
+-\frac{1}{6}a^3
+&=-\frac{1}{6}(1712-1210t)
+=-\frac{1712}{6}+\frac{1210}{6}t
+=-\frac{856}{3}+\frac{605}{3}t,
+\end{aligned}
+\]
+
+\[
+\begin{aligned}
+4a^2
+&=4(114-80t)
+=456-320t,
+\end{aligned}
+\]
+
+\[
+\begin{aligned}
+-7a
+&=-7(8-5t)
+=-56+35t.
+\end{aligned}
+\]
+
+よって
+
+\[
+\begin{aligned}
+S(8-5t)
+&=\left(-\frac{856}{3}+\frac{605}{3}t\right)
+  +(456-320t)
+  +(-56+35t)
+  +\frac{31}{3}.
+\end{aligned}
+\]
+
+まず $t$ を含まない項をまとめる。
+
+\[
+\begin{aligned}
+-\frac{856}{3}+456-56+\frac{31}{3}
+&=-\frac{856}{3}+\frac{400}{1}+\frac{31}{3}\\
+&=-\frac{856}{3}+\frac{1200}{3}+\frac{31}{3}\\
+&=\frac{-856+1200+31}{3}\\
+&=\frac{375}{3}.
+\end{aligned}
+\]
+
+$t$ を含む項は
+
+\[
+\frac{605}{3}t-320t+35t
+=\frac{605}{3}t-285t
+=\frac{605}{3}t-\frac{855}{3}t
+=-\frac{250}{3}t.
+\]
+
+したがって
+
+\[
+S(8-5\sqrt{2})=
+S(8-5t)
+=\frac{375}{3}-\frac{250}{3}t
+=\frac{375-250\sqrt{2}}{3}.
+\]
+
+ここで $\sqrt{2}\approx 1.4$ より
+
+\[
+375-250\sqrt{2}\approx 375-250\cdot 1.4=375-350=25,
+\]
+
+したがって
+
+\[
+S(8-5\sqrt{2})\approx \frac{25}{3}\approx 8.3,
+\]
+一方
+
+\[
+S(3)=\frac{125}{6}\approx 20.8,\quad
+S(-2)=\frac{125}{3}\approx 41.7.
+\]
+
+よって
+
+- 最大値は $a=-2$ のとき $S(-2)=125/3$，
+- 最小値は $a=8-5\sqrt{2}$ のとき $S(8-5\sqrt{2})=(375-250\sqrt{2})/3$
+
+となる。
+
+まとめると，
+
+- $S(a)$ が最大となるのは $a=-2$ のときで，そのときの面積は $\dfrac{125}{3}$。
+- $S(a)$ が最小となるのは $a=8-5\sqrt{2}$ のときで，そのときの面積は $\dfrac{375-250\sqrt{2}}{3}$。
+
+したがって
+
+$$
+\boxed{
+\begin{aligned}
+&\text{最大：}\ a=-2,\quad S_{\max}=\dfrac{125}{3},\\
+&\text{最小：}\ a=8-5\sqrt{2},\quad S_{\min}=\dfrac{375-250\sqrt{2}}{3}.
+\end{aligned}
+}
+$$

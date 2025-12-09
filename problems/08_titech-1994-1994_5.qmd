@@ -1,0 +1,23 @@
+---
+title: "東京科学大学 1994年 1994_5"
+problem_id: "08_titech-1994-1994_5"
+university: "東京科学大学"
+exam_year: "1994"
+source_tex: "archive/08_titech/1994/1994_5.tex"
+pdf_source: "archive/08_titech/1994/1994_5.pdf"
+page_image: "archive/08_titech/1994/1994_5.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　放物線$y=x^2$上の点$P$と，放物線$y=-x^2-16x-65$上の点$Q$に対して，線分$PQ$を考える．
+このとき線分$PQ$の長さの最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1994/1994_5.pdf)

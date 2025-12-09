@@ -1,0 +1,24 @@
+---
+title: "京都大学 1986年 1986_0_2"
+problem_id: "02_kyoto-1986-1986_0_2"
+university: "京都大学"
+exam_year: "1986"
+source_tex: "archive/02_kyoto/1986/1986_0_2.tex"
+pdf_source: "archive/02_kyoto/1986/1986_0_2.pdf"
+page_image: "archive/02_kyoto/1986/1986_0_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　曲線$y=x^3+ax^2$を$C$とし，$C$上の点$P=(u,v)$を通り，傾きが$b$の直線を$L$とする．
+$-1<u<1$となる任意の$u$に対し，$C$と$L$が点$P$以外に共通点をもつような点$(a,b)$の範囲を図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1986/1986_0_2.pdf)

@@ -1,0 +1,31 @@
+---
+title: "九州大学 1992年 1992_0_4"
+problem_id: "07_kyushu-1992-1992_0_4"
+university: "九州大学"
+exam_year: "1992"
+source_tex: "archive/07_kyushu/1992/1992_0_4.tex"
+pdf_source: "archive/07_kyushu/1992/1992_0_4.pdf"
+page_image: "archive/07_kyushu/1992/1992_0_4.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　仲の良い4人の友達$A$，$B$，$C$，$D$がクリスマスパーティーでプレゼントを交換する．
+つまり，4人の持ち寄ったプレゼントを公平な抽選で分けるのである．
+これについて，次の問に答えよ．
+\begin{description}
+\item[(1)]$A$君が自分自身の持ってきたプレゼントに当たる確率を求めよ．
+\item[(2)]$A$君には$B$君の持ってきたプレゼントが当たり，
+残りの$B$，$C$，$D$のうちの誰かが自分自身の持ってきた
+プレゼントに当たる確率を求めよ．
+\item[(3)]自分自身の持ってきたプレゼントに誰も当たらない確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_0_4.pdf)

@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 1997年 1997_3"
+problem_id: "08_titech-1997-1997_3"
+university: "東京科学大学"
+exam_year: "1997"
+source_tex: "archive/08_titech/1997/1997_3.tex"
+pdf_source: "archive/08_titech/1997/1997_3.pdf"
+page_image: "archive/08_titech/1997/1997_3.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]$\displaystyle \frac{1}{x}+\frac{1}{y}=\frac{1}{2}$を満たす自然数$x$，$y$の組$(x,y)$をすべて求めよ．
+\item[(2)]$n$を自然数，$r$を正の有理数とする．このとき
+\[ \sum_{k=1}^n\frac{1}{x_k}=r \]
+を満たす自然数$x_k$の組$(x_1,\cdots\cdots,x_n)$の個数は有限であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1997/1997_3.pdf)

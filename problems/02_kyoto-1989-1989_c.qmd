@@ -1,0 +1,25 @@
+---
+title: "京都大学 1989年 1989_c"
+problem_id: "02_kyoto-1989-1989_c"
+university: "京都大学"
+exam_year: "1989"
+source_tex: "archive/02_kyoto/1989/1989_c.tex"
+pdf_source: "archive/02_kyoto/1989/1989_c.pdf"
+page_image: "archive/02_kyoto/1989/1989_c.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　座標平面において，
+つぎの条件をみたす$\triangle ABC$と半平面$H=\{(x,y)|x\geqq0\}$との共通部分の面積の最大値を求めよ．
+　$\triangle ABC$は$AB=AC$であるような二等辺三角形であって，$BC$は$y$軸に平行で，$A$の座標は$(-1,0)$である．
+また，$AB$と$y$軸との交点を$D$とすると，$DB=2\sqrt3$である．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_c.pdf)

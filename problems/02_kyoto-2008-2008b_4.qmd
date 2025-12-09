@@ -1,0 +1,25 @@
+---
+title: "京都大学 2008年 2008b_4"
+problem_id: "02_kyoto-2008-2008b_4"
+university: "京都大学"
+exam_year: "2008"
+source_tex: "archive/02_kyoto/2008/2008b_4.tex"
+pdf_source: "archive/02_kyoto/2008/2008b_4.pdf"
+page_image: "archive/02_kyoto/2008/2008b_4.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　定数$a$は実数であるとする．
+関数$y=|x^2-2|$と$y=|2x^2+ax-1|$のグラフの共有点はいくつあるか．
+$a$の値によって分類せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2008/2008b_4.pdf)

@@ -1,0 +1,27 @@
+---
+title: "京都大学 2019年 2019_3"
+problem_id: "02_kyoto-2019-2019_3"
+university: "京都大学"
+exam_year: "2019"
+source_tex: "archive/02_kyoto/2019/2019_3.tex"
+pdf_source: "archive/02_kyoto/2019/2019_3.pdf"
+page_image: "archive/02_kyoto/2019/2019_3.jpg"
+fields:
+  - 平面図形
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　鋭角三角形ABCを考え，その面積をSとする。
+$0<t<1$をみたす実数$t$に対し，線分ACを$t:1-t$に内分する点をQ，
+線分BQを$t:1-t$に内分する点をPとする。
+実数$t$がこの範囲を動くときに点Pの描く曲線と，
+線分BCによって囲まれる部分の面積を，Sを用いて表せ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2019/2019_3.pdf)

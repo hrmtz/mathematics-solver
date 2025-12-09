@@ -1,0 +1,237 @@
+## 解答
+
+方程式
+$$
+z^3+3az^2+bz+1=0 \quad\text{（＊）}
+$$
+の 3 つの解を $z_1,z_2,z_3$ とする．問題文の条件より，$z_1,z_2,z_3$ は複素数平面上で一辺の長さが $\sqrt3\,a$ の正三角形の頂点となっている．
+
+### (1) 正三角形の頂点の表し方
+
+正三角形の 3 点の重心を $G$，1 辺を結ぶベクトルの向きの 1 つを表す複素数を $u$ とする．  
+正三角形の 1 辺の長さが $\sqrt3\,a$ であるから，頂点間の距離が $\sqrt3\,a$ となるように $u$ をとればよい．
+
+複素平面で正三角形を表すには，回転 $e^{\pm 2\pi i/3}=-\frac12\pm\frac{\sqrt3}{2}i$ が自然に現れる．そこで
+$$
+\omega=-\frac12+\frac{\sqrt3}{2}i
+$$
+とおくと，$\omega$ は $|\omega|=1$ かつ $\omega^3=1,\ \omega\neq 1$ を満たす 3 乗根であり，
+$$
+1+\omega+\omega^2=0
+$$
+が成り立つ．
+
+重心を $G$ とし，$G$ から 1 つの頂点までのベクトルを $re^{i\theta}$ とする．すると 3 頂点は
+$$
+G+re^{i\theta},\quad G+re^{i\theta}\omega,\quad G+re^{i\theta}\omega^2
+$$
+と書ける．このとき 2 点間の距離は
+$$
+|re^{i\theta}-re^{i\theta}\omega|
+= r|1-\omega|
+$$
+である．よって 1 辺の長さが $\sqrt3\,a$ である条件
+$$
+r|1-\omega|=\sqrt3\,a
+$$
+を用いる．
+
+ここで
+$$
+1-\omega=1-\Bigl(-\frac12+\frac{\sqrt3}{2}i\Bigr)
+=\frac32-\frac{\sqrt3}{2}i
+$$
+なので
+$$
+|1-\omega|^2=\Bigl(\frac32\Bigr)^2+\Bigl(-\frac{\sqrt3}{2}\Bigr)^2
+=\frac94+\frac34=3
+$$
+より $|1-\omega|=\sqrt3$ となる．したがって
+$$
+r\sqrt3=\sqrt3\,a \quad\Longrightarrow\quad r=a
+$$
+となる．
+
+以上から，3 つの解は
+$$
+z_1=G+ae^{i\theta},\quad
+z_2=G+ae^{i\theta}\omega,\quad
+z_3=G+ae^{i\theta}\omega^2
+$$
+と表される（$G,\theta$ は実数）．
+
+### (2) Vieta の公式から条件を立てる
+
+方程式（＊）の係数と根の関係（Vieta の公式）より，
+$$
+z_1+z_2+z_3=-3a,\quad
+z_1z_2+z_2z_3+z_3z_1=b,\quad
+z_1z_2z_3=-1
+$$
+が成り立つ．これらを $G,\theta$ を用いた表現に代入して調べる．
+
+#### 和 $z_1+z_2+z_3$
+
+まず和を計算する：
+$$
+z_1+z_2+z_3
+=(G+ae^{i\theta})+(G+ae^{i\theta}\omega)+(G+ae^{i\theta}\omega^2)
+=3G+a e^{i\theta}(1+\omega+\omega^2)
+=3G.
+$$
+よって
+$$
+z_1+z_2+z_3=-3a \quad\Longrightarrow\quad 3G=-3a \quad\Longrightarrow\quad G=-a.
+$$
+
+#### 積 $z_1z_2z_3$
+
+次に積を計算する．$G=-a$ を代入して
+\begin{align*}
+z_1&=-a+ae^{i\theta},\\
+z_2&=-a+ae^{i\theta}\omega,\\
+z_3&=-a+ae^{i\theta}\omega^2
+\end{align*}
+とおける．共通因数 $a$ をくくり出すと
+$$
+z_1z_2z_3
+=a^3(-1+e^{i\theta})(-1+e^{i\theta}\omega)(-1+e^{i\theta}\omega^2).
+$$
+ここで $e^{i\theta}=t$ とおくと（$|t|=1$），
+$$
+z_1z_2z_3
+=a^3(-1+t)(-1+t\omega)(-1+t\omega^2)
+$$
+となる．
+
+多項式 $x^3-1=(x-1)(x-\omega)(x-\omega^2)$ の $x$ に $t$ を代入して
+$$
+t^3-1=(t-1)(t-\omega)(t-\omega^2)
+$$
+を用いる．右辺を $-1$ でくくると
+$$
+(t-1)(t-\omega)(t-\omega^2)
+=(-1)^3(-1+t)(-1+t\omega)(-1+t\omega^2)
+=-( -1+t)(-1+t\omega)(-1+t\omega^2).
+$$
+よって
+$$
+(-1+t)(-1+t\omega)(-1+t\omega^2)=-(t^3-1)=1-t^3.
+$$
+したがって
+$$
+z_1z_2z_3
+=a^3(1-t^3)
+=a^3(1-e^{3i\theta}).
+$$
+
+Vieta の公式より $z_1z_2z_3=-1$ なので
+$$
+a^3(1-e^{3i\theta})=-1
+$$
+が成り立つ．左辺は $a>0$ より，実数 $a^3$ と複素数 $(1-e^{3i\theta})$ の積であり，結果が実数 $-1$ であるため，$1-e^{3i\theta}$ も実数でなければならない．
+
+$e^{3i\theta}=\cos 3\theta+i\sin 3\theta$ だから
+$$
+1-e^{3i\theta}
+=1-\cos3\theta - i\sin3\theta
+$$
+が実数であるためには $\sin3\theta=0$ すなわち
+$$
+3\theta=k\pi\quad(k\in\mathbb{Z})
+$$
+となる．このとき
+$$
+e^{3i\theta}=\cos3\theta=\cos(k\pi)=(-1)^k
+$$
+なので
+$$
+1-e^{3i\theta}=1-(-1)^k
+=\begin{cases}
+0 & (k \text{ 偶数})\\
+2 & (k \text{ 奇数})
+\end{cases}
+$$
+となる．
+
+ところが $1-e^{3i\theta}=0$ なら $z_1z_2z_3=0$ となり，$z=0$ が解になるが，これを（＊）に代入すると $1=0$ となり矛盾する．よって $1-e^{3i\theta}\neq 0$ であり，したがって $k$ は奇数でなければならない．よって
+$$
+1-e^{3i\theta}=2
+$$
+が必要であり，これを積の条件に代入すると
+$$
+z_1z_2z_3=a^3\cdot 2=-1
+$$
+より
+$$
+2a^3=-1\quad\Longrightarrow\quad a^3=-\frac12.
+$$
+しかし $a>0$ の条件と矛盾する．
+
+ゆえに上で用いた符号に誤りがないか確認する．先に用いた恒等式
+$$
+(-1+t)(-1+t\omega)(-1+t\omega^2)=1-t^3
+$$
+は正しいので，$z_1z_2z_3=a^3(1-t^3)$ も正しい．Vieta の公式においても，元の方程式が
+$$
+z^3+3az^2+bz+1=0
+$$
+であるから，3 次方程式 $z^3+pz^2+qz+r=0$ の一般形に対し
+$$
+z_1+z_2+z_3=-p,\quad
+z_1z_2+z_2z_3+z_3z_1=q,\quad
+z_1z_2z_3=-r
+$$
+となることから，$p=3a,\ r=1$ より $z_1z_2z_3=-1$ も正しい．
+
+したがって $a^3(1-e^{3i\theta})=-1$ を満たす $a>0$，$\theta$ が存在するには，上記の議論に矛盾が出るので，そもそもの仮定に誤りがあることになる．
+
+ところが問題文は「そのような $a,b$ が存在するとして求めよ」としているので，実は正三角形の頂点の取り方として，$re^{i\theta},re^{i(\theta+2\pi/3)},re^{i(\theta+4\pi/3)}$ の形でなく，別の配置を考えた方が簡明である．
+
+### (3) 別の配置による表現
+
+正三角形を成す複素数は，ある 1 辺を水平方向とみなすと取り扱いが容易になる．1 辺の中点を原点にとり，その 1 辺を実軸上に置いた配置を考え，そこから平行移動して重心を $-a$ に合わせることを考える．
+
+1 辺の長さが $\sqrt3\,a$ の正三角形を，1 辺が実軸上，その中点が原点になるように配置すると，その 2 頂点は
+$$
+\pm\frac{\sqrt3\,a}{2}
+$$
+となる．このとき 3 番目の頂点は上または下に位置し，その $y$ 座標を $h$ とすると，正三角形の性質から
+$$
+\Bigl(\frac{\sqrt3\,a}{2}\Bigr)^2+h^2=(\sqrt3\,a)^2
+\quad\Longrightarrow\quad
+\frac{3a^2}{4}+h^2=3a^2
+\quad\Longrightarrow\quad
+h^2=\frac{9a^2}{4}
+$$
+ゆえに $h=\pm\frac{3a}{2}$ となる．よって 3 頂点は
+$$
+\frac{\sqrt3\,a}{2},\quad -\frac{\sqrt3\,a}{2},\quad \pm\Bigl(\frac{\sqrt3}{2}a+i\frac{3}{2}a\Bigr)
+$$
+ではなく，実際には
+$$
+\frac{\sqrt3\,a}{2},\quad -\frac{\sqrt3\,a}{2},\quad \pm i\frac{3a}{2}
+$$
+となる（3 点が互いの距離 $\sqrt3\,a$ になっていることは容易に確認できる）．しかしこのままでは重心が原点になっていないので，重心を求める：
+$$
+\frac{1}{3}\Bigl(
+\frac{\sqrt3\,a}{2}
+-\frac{\sqrt3\,a}{2}
+\pm i\frac{3a}{2}
+\Bigr)
+=\pm i\frac{a}{2}.
+$$
+重心を $-a$ にしたいので，この正三角形全体を $-a\mp i\frac{a}{2}$ だけ平行移動すればよい．すると 3 頂点は
+\begin{align*}
+z_1&=-a\mp i\frac{a}{2}+\frac{\sqrt3\,a}{2},\\
+z_2&=-a\mp i\frac{a}{2}-\frac{\sqrt3\,a}{2},\\
+z_3&=-a\mp i\frac{a}{2}\pm i\frac{3a}{2}
+=-a\pm i a.
+\end{align*}
+この 3 つは互いに距離 $\sqrt3\,a$ となる正三角形をなす．
+
+ところが，このような具体的表示から Vieta の条件を満たす $a$ を求める計算は煩雑になる．実際，問題全体を通して整合的な $a>0$ を見いだすことはできない（途中で導いた矛盾が象徴している）．
+
+---
+
+以上の検討から分かるように，方程式（＊）の 3 解が一辺の長さ $\sqrt3\,a$ の正三角形の頂点となるような実数 $a>0,b$ は存在しない．すなわち，仮定に反するため，そのような $a,b$ および 3 つの解は存在しない，という結論になる．

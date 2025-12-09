@@ -1,0 +1,29 @@
+---
+title: "京都大学 1999年 1999_0_4"
+problem_id: "02_kyoto-1999-1999_0_4"
+university: "京都大学"
+exam_year: "1999"
+source_tex: "archive/02_kyoto/1999/1999_0_4.tex"
+pdf_source: "archive/02_kyoto/1999/1999_0_4.pdf"
+page_image: "archive/02_kyoto/1999/1999_0_4.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　相異なる4つの複素数$z_1$，$z_2$，$z_3$，$z_4$に対して
+$\displaystyle w=\frac{(z_1-z_3)(z_2-z_4)}{(z_1-z_4)(z_2-z_3)}$と置く．
+このとき，以下を証明せよ．
+\begin{description}
+\item[(1)]複素数$z$が単位円上にあるための必要十分条件は$\displaystyle\bar{z}=\frac{1}{z}$である．
+\item[(2)]$z_1$，$z_2$，$z_3$，$z_4$が単位円上にあるとき，$w$は実数である．
+\item[(3)]$z_1$，$z_2$，$z_3$が単位円上にあり，$w$が実数であれば，$z_4$は単位円上にある．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_0_4.pdf)

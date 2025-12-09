@@ -1,0 +1,34 @@
+---
+title: "北海道大学 2005年 2005_a"
+problem_id: "03_hokudai-2005-2005_a"
+university: "北海道大学"
+exam_year: "2005"
+source_tex: "archive/03_hokudai/2005/2005_a.tex"
+pdf_source: "archive/03_hokudai/2005/2005_a.pdf"
+page_image: "archive/03_hokudai/2005/2005_a.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の問いに答えよ．
+\begin{description}
+\item[(1)]すべての整数$m$に対して
+$\displaystyle\frac{pm}{m^2-m-1}$がつねに整数となるような
+定数$p$を求めよ．
+\item[(2)]$a$，$b$を定数として整式$f(x)$を
+\[ f(x)=x^4+ax^2+bx-a-2 \]
+によって定義する．
+すべての整数$m$に対して
+$\displaystyle\frac{f(m)}{m^2-m-1}$がつねに整数となるための
+必要十分条件を$a$，$b$を用いて表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2005/2005_a.pdf)

@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1977年 1977_1"
+problem_id: "03_hokudai-1977-1977_1"
+university: "北海道大学"
+exam_year: "1977"
+source_tex: "archive/03_hokudai/1977/1977_1.tex"
+pdf_source: "archive/03_hokudai/1977/1977_1.pdf"
+page_image: "archive/03_hokudai/1977/1977_1.jpg"
+fields:
+  - 平面図形
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$x$，$y$が$x^2-2xy+y^2-\sqrt3x-\sqrt3y+12=0$を満たすとき，次の最小値を求めよ．
+\begin{description}
+\item[(1)]$x+y$
+\item[(2)]$xy$
+\item[(3)]$x^3+y^3$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1977/1977_1.pdf)

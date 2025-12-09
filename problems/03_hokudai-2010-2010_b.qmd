@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2010年 2010_b"
+problem_id: "03_hokudai-2010-2010_b"
+university: "北海道大学"
+exam_year: "2010"
+source_tex: "archive/03_hokudai/2010/2010_b.tex"
+pdf_source: "archive/03_hokudai/2010/2010_b.pdf"
+page_image: "archive/03_hokudai/2010/2010_b.jpg"
+fields:
+  - 指数・対数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$c$を実数として，以下の問いに答えよ．
+\begin{description}
+\item[(1)]すべての実数$x$に対して$cx^2\geqq\log(1+x^2)$となるような$c$の範囲を求めよ．
+\item[(2)]$c$は(1)で求めた範囲にあるものとする．
+2つの曲線$y=cx^2$と$y=\log(1+x^2)$，および，2つの直線$x=1$と$x=-1$で囲まれる図形の面積が
+4となる$c$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2010/2010_b.pdf)

@@ -1,0 +1,29 @@
+---
+title: "京都大学 2024年 2024_3"
+problem_id: "02_kyoto-2024-2024_3"
+university: "京都大学"
+exam_year: "2024"
+source_tex: "archive/02_kyoto/2024/2024_3.tex"
+pdf_source: "archive/02_kyoto/2024/2024_3.pdf"
+page_image: "archive/02_kyoto/2024/2024_3.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　座標空間の4点O，A，B，Cは同一平面上にないとする．
+線分OAの中点をP，線分ABの中点をQとする．
+実数$x$，$y$に対して，直線OC上の点Xと，直線BC上の点Yを次のように定める．
+\[ \overrightarrow{OX}=x\overrightarrow{OC}, \hspace{1zw}
+\overrightarrow{BY}=y\overrightarrow{BC} \]
+このとき，直線QYと直線PXがねじれの位置にあるための
+$x, \, y$に関する必要十分条件を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2024/2024_3.pdf)

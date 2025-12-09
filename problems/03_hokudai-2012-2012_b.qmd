@@ -1,0 +1,30 @@
+---
+title: "北海道大学 2012年 2012_b"
+problem_id: "03_hokudai-2012-2012_b"
+university: "北海道大学"
+exam_year: "2012"
+source_tex: "archive/03_hokudai/2012/2012_b.tex"
+pdf_source: "archive/03_hokudai/2012/2012_b.pdf"
+page_image: "archive/03_hokudai/2012/2012_b.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$xy$平面上に2点$A(1, \, 0)$，$B(-1, \, 0)$をとる。
+$A$，$B$と異なる点$P(x, \, y)$は，
+$\angle APB$が${45}^\circ$または${135}^\circ$となるように動くものとする。
+\begin{description}
+\item[(1)]$t=x^2-1$とおく。$x$と$y$の満たす条件を$t$と$y$の式で表せ。
+\item[(2)]点$P$の軌跡を図示せよ。
+\item[(3)]点$Q(4, \, 4)$を考える。線分$PQ$の長さの最小値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2012/2012_b.pdf)

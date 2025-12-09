@@ -1,0 +1,28 @@
+---
+title: "九州大学 2025年 2025_5"
+problem_id: "07_kyushu-2025-2025_5"
+university: "九州大学"
+exam_year: "2025"
+source_tex: "archive/07_kyushu/2025/2025_5.tex"
+pdf_source: "archive/07_kyushu/2025/2025_5.pdf"
+page_image: "archive/07_kyushu/2025/2025_5.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　1個のさいころを3回続けて投げ，出る目を順に$a, \, b, \, c$とする。整式
+\[ f(x)=(x^2-ax+b)(x-c) \]
+について，以下の問いに答えよ。
+\begin{description}
+\item[(1)]$f(x)=0$をみたす実数$x$の個数が1個である確率を求めよ。
+\item[(2)]$f(x)=0$をみたす自然数$x$の個数が3個である確率を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2025/2025_5.pdf)

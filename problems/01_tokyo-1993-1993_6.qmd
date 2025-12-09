@@ -1,0 +1,33 @@
+---
+title: "東京大学 1993年 1993_6"
+problem_id: "01_tokyo-1993-1993_6"
+university: "東京大学"
+exam_year: "1993"
+source_tex: "archive/01_tokyo/1993/1993_6.tex"
+pdf_source: "archive/01_tokyo/1993/1993_6.pdf"
+page_image: "archive/01_tokyo/1993/1993_6.jpg"
+fields:
+  - 微分法
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　時刻$t$における座標が
+$x=2\cos t+\cos 2t$，$y=\sin 2t$で表される
+$xy$平面上の点$P$の運動を考える．
+\begin{description}
+\item[(1)]$P$の速さ，
+すなわち速度ベクトル$\displaystyle \left( \frac{dx}{dt},\frac{dy}{dt} \right)$の大きさの
+最大値と最小値を求めよ．
+\item[(2)]$t$が$0 \leqq t < 2\pi$の範囲を動く間に$P$が2回以上通過する点が唯一つ存在することを示し，
+その点を通過する各々の時刻での速度ベクトルを求め図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1993/1993_6.pdf)

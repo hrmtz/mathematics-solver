@@ -1,0 +1,28 @@
+---
+title: "大阪大学 1990年 1990_0_1"
+problem_id: "06_osaka-1990-1990_0_1"
+university: "大阪大学"
+exam_year: "1990"
+source_tex: "archive/06_osaka/1990/1990_0_1.tex"
+pdf_source: "archive/06_osaka/1990/1990_0_1.pdf"
+page_image: "archive/06_osaka/1990/1990_0_1.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$S$を半径1の球面とし，その中心を$O$とする．
+頂点$A$を共有し，大きさの異なる2つの正四面体$ABCD$，$APQR$が次の2条件を満たすとする．
+\begin{description}
+\item[(i)]点$O$，$B$，$C$，$D$は同一平面上にある．
+\item[(ii)]点$B$，$C$，$D$，$P$，$Q$，$R$は球面$S$上にある．
+\end{description}
+このとき，線分$AB$と線分$AP$の長さを求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_0_1.pdf)

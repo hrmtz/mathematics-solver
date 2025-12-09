@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 1984年 1984_0_2"
+problem_id: "05_nagoya-1984-1984_0_2"
+university: "名古屋大学"
+exam_year: "1984"
+source_tex: "archive/05_nagoya/1984/1984_0_2.tex"
+pdf_source: "archive/05_nagoya/1984/1984_0_2.pdf"
+page_image: "archive/05_nagoya/1984/1984_0_2.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+\item[(1)]放物線$y=b-ax^2$ $(a>0, \, b<1)$が，
+折れ線$y=1-|x|$と接するための条件を求めよ．
+\item[(2)](1)の放物線と折れ線が接するとき，
+これらの囲む部分の面積を$a$を用いて表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1984/1984_0_2.pdf)

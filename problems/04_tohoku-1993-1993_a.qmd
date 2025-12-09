@@ -1,0 +1,33 @@
+---
+title: "東北大学 1993年 1993_a"
+problem_id: "04_tohoku-1993-1993_a"
+university: "東北大学"
+exam_year: "1993"
+source_tex: "archive/04_tohoku/1993/1993_a.tex"
+pdf_source: "archive/04_tohoku/1993/1993_a.pdf"
+page_image: "archive/04_tohoku/1993/1993_a.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　2つの数列$\{ a_k \}$，$\{ b_k \}$をそれぞれ
+\[ a_k=\frac{1}{k \, !} \hspace{1zw} (k=1, \, 2, \, \cdots\cdots) \]
+\[ b_k=\frac{1}{k(k+1)} \hspace{1zw} (k=1, \, 2, \, \cdots\cdots) \]
+と定める．また，$n=1, \, 2, \, \cdots\cdots$に対して
+\[ s_n=\sum_{k=1}^n{(-1)}^ka_k, \hspace{1zw} t_n=\sum_{k=1}^nb_k, \hspace{1zw} u_n=\sum_{k=1}^na_k \]
+とおく．このとき，任意の$n$について，次の(1)，(2)，(3)を証明せよ．
+\begin{description}
+\item[(1)]$s_n<0$
+\item[(2)]$t_n<1$
+\item[(3)]$u_n<2$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_a.pdf)

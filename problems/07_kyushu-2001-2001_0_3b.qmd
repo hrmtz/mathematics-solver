@@ -1,0 +1,30 @@
+---
+title: "九州大学 2001年 2001_0_3b"
+problem_id: "07_kyushu-2001-2001_0_3b"
+university: "九州大学"
+exam_year: "2001"
+source_tex: "archive/07_kyushu/2001/2001_0_3b.tex"
+pdf_source: "archive/07_kyushu/2001/2001_0_3b.pdf"
+page_image: "archive/07_kyushu/2001/2001_0_3b.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3 (b)
+\begin{description}
+\item[(1)]自然数$a$，$b$が互いに素であるとはどういうことか．
+\item[(2)]自然数$a$，$b$が互いに素であるなら$a^2$，$b^2$は互いに素であることを示せ．
+\item[(3)]$n$を自然数とする．
+もしも$\sqrt{n}$が有理数ならば，$\sqrt{n}$は自然数であることを示せ．
+ただし，有理数とは分母と分子がともに整数で表される分数のことである．
+\item[(4)]$n$が自然数のとき，$\sqrt{n}$，$\sqrt{n+1}$，$\sqrt{n+2}$のうち
+少なくとも2つは無理数であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_0_3b.pdf)

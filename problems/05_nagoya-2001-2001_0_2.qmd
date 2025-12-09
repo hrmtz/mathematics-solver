@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 2001年 2001_0_2"
+problem_id: "05_nagoya-2001-2001_0_2"
+university: "名古屋大学"
+exam_year: "2001"
+source_tex: "archive/05_nagoya/2001/2001_0_2.tex"
+pdf_source: "archive/05_nagoya/2001/2001_0_2.pdf"
+page_image: "archive/05_nagoya/2001/2001_0_2.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$，$b$，$c$は定数とし，$a>0$とする．
+\begin{description}
+\item[(1)]曲線$y=-ax^3+bx+c$の接線で点$(0, \, t)$（$t$は実数）を通るものがただ一本存在することを示せ．
+\item[(2)](1)の接線が正の傾きを持つための$t$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_0_2.pdf)

@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 1972年 1972_6"
+problem_id: "08_titech-1972-1972_6"
+university: "東京科学大学"
+exam_year: "1972"
+source_tex: "archive/08_titech/1972/1972_6.tex"
+pdf_source: "archive/08_titech/1972/1972_6.pdf"
+page_image: "archive/08_titech/1972/1972_6.jpg"
+fields:
+  - 数列
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+\begin{description}
+\item[(1)]初項$a$，公差$d$の等差数列$\{ a_n \}$に対して，
+級数$\displaystyle\sum_{n=1}^\infty e^{a_n}$が収束するための必要十分な条件を求めよ．
+\item[(2)]次の関係を満たす関数$f(x)$を求めよ．
+\[ f(x)=x+\int_0^\pi f(t)\sin t dt \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1972/1972_6.pdf)

@@ -1,0 +1,34 @@
+---
+title: "北海道大学 2023年 2023_1"
+problem_id: "03_hokudai-2023-2023_1"
+university: "北海道大学"
+exam_year: "2023"
+source_tex: "archive/03_hokudai/2023/2023_1.tex"
+pdf_source: "archive/03_hokudai/2023/2023_1.pdf"
+page_image: "archive/03_hokudai/2023/2023_1.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　複素数平面上における図形$C_1, \, C_2, \, \cdots\cdots, \, C_n, \, \cdots\cdots$は
+次の条件(A)と(B)をみたすとする。ただし，$i$は虚数単位とする。
+\begin{description}
+\item[(A)]$C_1$は原点$O$を中心とする半径2の円である。
+\item[(B)]自然数$n$に対して，$z$が$C_n$上を動くとき
+$2w=z+1+i$で定まる$w$の描く図形が$C_{n+1}$である。
+\end{description}
+\begin{description}
+\item[(1)]すべての自然数$n$に対して，$C_n$は円であることを示し，
+その中心を表す複素数$\alpha_n$と半径$r_n$を求めよ。
+\item[(2)]$C_n$上の点と$O$との距離の最小値を$d_n$とする。このとき，$d_n$を求めよ。
+また，$\displaystyle\lim_{n\to\infty}d_n$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2023/2023_1.pdf)

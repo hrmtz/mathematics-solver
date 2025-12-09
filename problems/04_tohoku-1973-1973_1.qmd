@@ -1,0 +1,27 @@
+---
+title: "東北大学 1973年 1973_1"
+problem_id: "04_tohoku-1973-1973_1"
+university: "東北大学"
+exam_year: "1973"
+source_tex: "archive/04_tohoku/1973/1973_1.tex"
+pdf_source: "archive/04_tohoku/1973/1973_1.pdf"
+page_image: "archive/04_tohoku/1973/1973_1.jpg"
+fields:
+  - 不等式
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$x$，$y$，$z$を実数とするとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$\displaystyle\sqrt\frac{x^2+y^2+z^2}{3}$，$\displaystyle\frac{x+y+z}{3}$の大小を比較せよ．
+\item[(2)]$a\geqq3$のとき，$x+y+z=x^2+y^2+z^2=a$を満たす$x$，$y$，$z$の値を調べよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1973/1973_1.pdf)

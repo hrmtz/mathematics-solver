@@ -1,0 +1,24 @@
+---
+title: "東北大学 1998年 1998_c"
+problem_id: "04_tohoku-1998-1998_c"
+university: "東北大学"
+exam_year: "1998"
+source_tex: "archive/04_tohoku/1998/1998_c.tex"
+pdf_source: "archive/04_tohoku/1998/1998_c.pdf"
+page_image: "archive/04_tohoku/1998/1998_c.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\displaystyle\left\{\frac{1}{a_n}\right\}$は，
+初項$\displaystyle\frac{1}{a}$，公差$d$の等差数列とする．
+このとき，$\displaystyle\lim_{n\to\infty}(a_1a_2+a_2a_3+\cdots\cdots+a_na_{n+1})$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_c.pdf)

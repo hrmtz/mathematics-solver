@@ -1,0 +1,31 @@
+---
+title: "北海道大学 2014年 2014_b"
+problem_id: "03_hokudai-2014-2014_b"
+university: "北海道大学"
+exam_year: "2014"
+source_tex: "archive/03_hokudai/2014/2014_b.tex"
+pdf_source: "archive/03_hokudai/2014/2014_b.pdf"
+page_image: "archive/03_hokudai/2014/2014_b.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$f(x)=ax(1-x)$に対し，$g(x)=f(f(x))$とする。
+ここで$a$は正の実数とする。
+\begin{description}
+\item[(1)]$\displaystyle g\left(\frac{1}{2}\right)$を$a$の関数とみなす。
+その関数の最大値，およびそのときの$a$を求めよ。
+\item[(2)]$0 \leqq x \leqq 1$において，
+$g(x)$が$\displaystyle x=\frac{1}{2}$で最大値をとるような$a$の範囲を求めよ。
+\item[(3)]$a$が(2)で求めた範囲を動くとき，
+$\displaystyle g\left(\frac{1}{2}\right)$の値が最大となる$a$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2014/2014_b.pdf)

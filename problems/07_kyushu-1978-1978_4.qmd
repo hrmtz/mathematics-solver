@@ -1,0 +1,32 @@
+---
+title: "九州大学 1978年 1978_4"
+problem_id: "07_kyushu-1978-1978_4"
+university: "九州大学"
+exam_year: "1978"
+source_tex: "archive/07_kyushu/1978/1978_4.tex"
+pdf_source: "archive/07_kyushu/1978/1978_4.pdf"
+page_image: "archive/07_kyushu/1978/1978_4.jpg"
+fields:
+  - 数列
+  - 三角関数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　次の問に答えよ．
+\begin{description}
+\item[(1)]$\displaystyle y=\frac{x\cos\theta-\sin\theta}{x\sin\theta+\cos\theta}$，
+$\displaystyle z=\frac{y\cos\varphi-\sin\varphi}{y\sin\varphi+\cos\varphi}$であるとき，
+$z$を$x$，$\theta$，$\varphi$を用いて表せ．
+\item[(2)]$\displaystyle y_1=\frac{x\cos\theta-\sin\theta}{x\sin\theta+\cos\theta}$，
+$\displaystyle y_n=\frac{y_{n-1}\cos\theta-\sin\theta}{y_{n-1}\sin\theta+\cos\theta}$ $(n\geqq2)$であるとき，
+$y_n$を$x$，$\theta$，$n$を用いて表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1978/1978_4.pdf)

@@ -1,0 +1,28 @@
+---
+title: "東北大学 1975年 1975_0_3"
+problem_id: "04_tohoku-1975-1975_0_3"
+university: "東北大学"
+exam_year: "1975"
+source_tex: "archive/04_tohoku/1975/1975_0_3.tex"
+pdf_source: "archive/04_tohoku/1975/1975_0_3.pdf"
+page_image: "archive/04_tohoku/1975/1975_0_3.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$，$b$は正の数，$m$，$n$は正の整数とする．
+このとき，次の数の大小を比較せよ．
+\begin{description}
+\item[(1)]$2(a^{m+n}+b^{m+n})$と$(a^m+b^m)(a^n+b^n)$
+\item[(2)]${(a+b)}^n$と$2^{n-1}(a^n+b^n)$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1975/1975_0_3.pdf)

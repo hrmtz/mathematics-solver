@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1997年 1997_1"
+problem_id: "03_hokudai-1997-1997_1"
+university: "北海道大学"
+exam_year: "1997"
+source_tex: "archive/03_hokudai/1997/1997_1.tex"
+pdf_source: "archive/03_hokudai/1997/1997_1.pdf"
+page_image: "archive/03_hokudai/1997/1997_1.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$x$に対して，$x$以下の整数のうちで最大のものを$[x]$と書くことにする．
+$c>1$として，$\displaystyle a_n=\frac{[nc]}{3}$ $(n=1, \, 2, \, \cdots\cdots)$とおく．
+以下の(1)，(2)，(3)を証明せよ．
+\begin{description}
+\item[(1)]すべての$n$に対して，$[a_n]$は$n$または$n-1$に等しい．
+\item[(2)]$c$が有理数のときは，$[a_n]=n$となる$n$が存在する．
+\item[(3)]$c$が無理数のときは，すべての$n$に対して$[a_n]=n-1$となる．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_1.pdf)

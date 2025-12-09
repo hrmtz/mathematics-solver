@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1991年 1991_b"
+problem_id: "08_titech-1991-1991_b"
+university: "東京科学大学"
+exam_year: "1991"
+source_tex: "archive/08_titech/1991/1991_b.tex"
+pdf_source: "archive/08_titech/1991/1991_b.pdf"
+page_image: "archive/08_titech/1991/1991_b.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　原点$O$を中心とする半径2の円$K$の内部に，一辺の長さが2で対角線の交点が$O$となるような正方形$ABCD$をとる．
+$K$上の点$P$において，線分$PO$と角$\theta$で交わる2本の半直線を引く．
+このとき，$P$が$K$上どのような位置にあっても，これら2本の半直線が正方形$ABCD$を通るような$\theta$の最大値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1991/1991_b.pdf)

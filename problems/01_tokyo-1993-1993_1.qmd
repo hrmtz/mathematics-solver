@@ -1,0 +1,27 @@
+---
+title: "東京大学 1993年 1993_1"
+problem_id: "01_tokyo-1993-1993_1"
+university: "東京大学"
+exam_year: "1993"
+source_tex: "archive/01_tokyo/1993/1993_1.tex"
+pdf_source: "archive/01_tokyo/1993/1993_1.pdf"
+page_image: "archive/01_tokyo/1993/1993_1.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　すべての面が合同な四面体$ABCD$がある．
+頂点$A$，$B$，$C$はそれぞれ$x$，$y$，$z$軸上の正の部分にあり，
+辺の長さは$AB=2l-1$，$BC=2l$，$CA=2l+1$ $(l>2)$である．
+四面体$ABCD$の体積を$V(l)$とするとき，
+次の極限値を求めよ．
+\[ \lim_{l\to2}\frac{V(l)}{\sqrt{l-2}} \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1993/1993_1.pdf)

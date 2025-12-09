@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 ao年 2010_b"
+problem_id: "08_titech-ao-2010_b"
+university: "東京科学大学"
+exam_year: "ao"
+source_tex: "archive/08_titech/ao/2010_b.tex"
+pdf_source: "archive/08_titech/ao/2010_b.pdf"
+page_image: "archive/08_titech/ao/2010_b.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$x$の5次式$f(x)$のグラフ$C:y=f(x)$が
+平行な2直線$L$，$M$のそれぞれと2点で接しているような
+$C$，$L$，$M$の実例を1つみつけよ．
+また，その例について，
+$C$と$L$の交点と2つの接点との3点により$L$から切り取られる2つの線分の長さの比を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/ao/2010_b.pdf)

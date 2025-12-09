@@ -1,0 +1,234 @@
+## 解答
+
+(1)  
+二項定理を用いて展開する。  
+$P(x)$ の定義より
+$$
+P(x)=\frac{(x+i)^7-(x-i)^7}{2i}
+$$
+である。ここで $(x+i)^7$ を二項定理で展開すると，
+$$
+(x+i)^7=\sum_{k=0}^7 \binom{7}{k} x^{7-k} i^k,
+\qquad
+(x-i)^7=\sum_{k=0}^7 \binom{7}{k} x^{7-k} (-i)^k
+$$
+となる。したがって
+$$
+(x+i)^7-(x-i)^7
+=\sum_{k=0}^7 \binom{7}{k} x^{7-k} \bigl(i^k-(-i)^k\bigr)
+$$
+である。
+
+$i^k-(-i)^k$ を調べる。$k$ が偶数のとき，$(-i)^k=i^k$ なので $i^k-(-i)^k=0$。  
+$k$ が奇数のとき，$(-i)^k=-i^k$ なので $i^k-(-i)^k=2i^k$。  
+よって奇数の項だけが残り
+$$
+(x+i)^7-(x-i)^7
+=\sum_{\substack{k=0\\ k\ \text{奇数}}}^7
+\binom{7}{k} x^{7-k} \cdot 2i^k
+$$
+となる。したがって
+$$
+P(x)=\frac{1}{2i}\bigl((x+i)^7-(x-i)^7\bigr)
+=\sum_{\substack{k=1,3,5,7}} \binom{7}{k} x^{7-k}\,\frac{2i^k}{2i}
+=\sum_{\substack{k=1,3,5,7}} \binom{7}{k} x^{7-k}\, i^{k-1}
+$$
+となる。
+
+ここで $i^{k-1}$ を具体的に求める。  
+$k=1,3,5,7$ について
+\[
+\begin{array}{c|c|c}
+k & i^{k-1} & \binom{7}{k} \\
+\hline
+1 & i^{0}=1  & \binom{7}{1}=7 \\
+3 & i^{2}=-1 & \binom{7}{3}=35 \\
+5 & i^{4}=1  & \binom{7}{5}=21 \\
+7 & i^{6}=-1 & \binom{7}{7}=1
+\end{array}
+\]
+
+よって
+\[
+\begin{aligned}
+P(x)
+&= \binom{7}{1} x^{6}\cdot 1
+   + \binom{7}{3} x^{4}\cdot(-1)
+   + \binom{7}{5} x^{2}\cdot 1
+   + \binom{7}{7} x^{0}\cdot(-1) \\
+&= 7x^{6}-35x^{4}+21x^{2}-1
+\end{aligned}
+\]
+である。これを
+$$
+P(x)=a_0x^7+a_1x^6+a_2x^5+a_3x^4+a_4x^3+a_5x^2+a_6x+a_7
+$$
+と比較すると，
+\[
+\begin{aligned}
+&a_0=0,\ a_1=7,\ a_2=0,\ a_3=-35,\\
+&a_4=0,\ a_5=21,\ a_6=0,\ a_7=-1
+\end{aligned}
+\]
+となる。
+
+---
+
+(2)  
+$0<\theta<\pi$ とする。複素数の極形式とオイラーの公式
+$$
+\cos\theta=\frac{e^{i\theta}+e^{-i\theta}}{2},\quad
+\sin\theta=\frac{e^{i\theta}-e^{-i\theta}}{2i}
+$$
+を用いると，
+$$
+\cos\theta+i\sin\theta=e^{i\theta},\quad
+\cos\theta-i\sin\theta=e^{-i\theta}
+$$
+が成り立つ。
+
+$\dfrac{\cos\theta}{\sin\theta}$ を $P(x)$ に代入する：
+$$
+P\!\left(\frac{\cos\theta}{\sin\theta}\right)
+=\frac{\left(\frac{\cos\theta}{\sin\theta}+i\right)^7
+      -\left(\frac{\cos\theta}{\sin\theta}-i\right)^7}{2i}.
+$$
+分数をまとめるために
+$$
+\frac{\cos\theta}{\sin\theta}\pm i
+=\frac{\cos\theta\pm i\sin\theta}{\sin\theta}
+$$
+なので
+$$
+\left(\frac{\cos\theta}{\sin\theta}\pm i\right)^7
+=\frac{(\cos\theta\pm i\sin\theta)^7}{\sin^7\theta}
+$$
+となる。したがって
+\[
+\begin{aligned}
+P\!\left(\frac{\cos\theta}{\sin\theta}\right)
+&=\frac{
+\frac{(\cos\theta+i\sin\theta)^7}{\sin^7\theta}
+-\frac{(\cos\theta-i\sin\theta)^7}{\sin^7\theta}
+}{2i}   \\
+&=\frac{
+(\cos\theta+i\sin\theta)^7-(\cos\theta-i\sin\theta)^7
+}{2i\,\sin^7\theta}.
+\end{aligned}
+\]
+ここで $\cos\theta\pm i\sin\theta=e^{\pm i\theta}$ より
+$$
+(\cos\theta+i\sin\theta)^7=e^{i7\theta},\quad
+(\cos\theta-i\sin\theta)^7=e^{-i7\theta}
+$$
+である。したがって
+\[
+\begin{aligned}
+P\!\left(\frac{\cos\theta}{\sin\theta}\right)
+&=\frac{e^{i7\theta}-e^{-i7\theta}}{2i\,\sin^7\theta}.
+\end{aligned}
+\]
+ここで正弦の定義
+$$
+\sin 7\theta=\frac{e^{i7\theta}-e^{-i7\theta}}{2i}
+$$
+を用いると，
+$$
+P\!\left(\frac{\cos\theta}{\sin\theta}\right)
+=\frac{\sin7\theta}{\sin^7\theta}
+$$
+が得られる。
+
+---
+
+(3)  
+(1) より $a_1=7,\ a_3=-35,\ a_5=21,\ a_7=-1$ であったから，
+$$
+Q(x)=a_1x^3+a_3x^2+a_5x+a_7
+=7x^3-35x^2+21x-1
+$$
+である。
+
+また $\theta=\dfrac{\pi}{7}$ とし，$k=1,2,3$ に対し
+$$
+x_k=\frac{\cos^2k\theta}{\sin^2k\theta}=\cot^2(k\theta)
+$$
+とおく。
+
+(2) の結果を用いる。$0<k\theta<\pi$ が $k=1,2,3$ で成り立つので，
+(2) の式に $\theta$ の代わりに $k\theta$ を代入でき，
+$$
+P\!\left(\frac{\cos k\theta}{\sin k\theta}\right)
+=\frac{\sin 7k\theta}{\sin^7 k\theta}
+$$
+となる。左辺は
+$$
+P\!\left(\frac{\cos k\theta}{\sin k\theta}\right)
+=7\left(\frac{\cos k\theta}{\sin k\theta}\right)^6
+-35\left(\frac{\cos k\theta}{\sin k\theta}\right)^4
++21\left(\frac{\cos k\theta}{\sin k\theta}\right)^2
+-1
+$$
+であるが，$\dfrac{\cos^2k\theta}{\sin^2k\theta}=x_k$ なので
+$$
+\left(\frac{\cos k\theta}{\sin k\theta}\right)^2=x_k,\quad
+\left(\frac{\cos k\theta}{\sin k\theta}\right)^4=x_k^2,\quad
+\left(\frac{\cos k\theta}{\sin k\theta}\right)^6=x_k^3
+$$
+が成り立つ。したがって
+\[
+\begin{aligned}
+P\!\left(\frac{\cos k\theta}{\sin k\theta}\right)
+&=7x_k^3-35x_k^2+21x_k-1 \\
+&=Q(x_k)
+\end{aligned}
+\]
+となるので，
+$$
+Q(x_k)=\frac{\sin 7k\theta}{\sin^7k\theta}
+$$
+が分かる。
+
+ここで $\theta=\dfrac{\pi}{7}$ なので
+$$
+7k\theta=7k\cdot\frac{\pi}{7}=k\pi
+$$
+となる。したがって
+$$
+\sin 7k\theta=\sin(k\pi)=0\quad (k=1,2,3)
+$$
+であるから，
+$$
+Q(x_k)=\frac{\sin 7k\theta}{\sin^7k\theta}
+=0
+$$
+となり，$Q(x_k)=0$ が示された。
+
+次に $x_1+x_2+x_3$ を求める。  
+$Q(x)$ は 3 次多項式であり，$x_1,x_2,x_3$ はその 3 つの根である。係数を $7$ で割って
+$$
+\frac{1}{7}Q(x)=x^3-5x^2+3x-\frac{1}{7}
+$$
+とおくと，この多項式の根も $x_1,x_2,x_3$ である。一般に，
+$$
+x^3+px^2+qx+r=0
+$$
+の 3 つの根を $\alpha,\beta,\gamma$ とするとき，ヴィエタの公式より
+$$
+\alpha+\beta+\gamma=-p
+$$
+である。ここで
+$$
+x^3-5x^2+3x-\frac{1}{7}=0
+$$
+と比較すると $p=-5$ であるから，
+$$
+x_1+x_2+x_3=-(-5)=5
+$$
+となる。
+
+よって
+$$
+x_1+x_2+x_3=5
+$$
+である。

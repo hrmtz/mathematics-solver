@@ -1,0 +1,31 @@
+---
+title: "名古屋大学 2010年 2010_0_2"
+problem_id: "05_nagoya-2010-2010_0_2"
+university: "名古屋大学"
+exam_year: "2010"
+source_tex: "archive/05_nagoya/2010/2010_0_2.tex"
+pdf_source: "archive/05_nagoya/2010/2010_0_2.pdf"
+page_image: "archive/05_nagoya/2010/2010_0_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　関数$f(x)$を$f(x)=\begin{cases} 1 & (x\geqq0) 
+
+ 0 & (x<0) \end{cases}$により定める．
+\begin{description}
+\item[(1)]$a$，$b$は実数とする．
+$y=ax+b$のグラフと$y=f(x)$のグラフがちょうど2つの交点を持つための$a$，$b$に対する条件を求めよ．
+\item[(2)]$p$，$q$は実数で$p>0$とする．
+$y=x^3+6px^2+9p^2x+q$のグラフと$y=f(x)$のグラフがちょうど4つの交点を持つための
+$p$，$q$に対する条件を求め，$pq$平面上に図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2010/2010_0_2.pdf)

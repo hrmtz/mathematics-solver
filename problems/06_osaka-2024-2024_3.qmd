@@ -1,0 +1,24 @@
+---
+title: "大阪大学 2024年 2024_3"
+problem_id: "06_osaka-2024-2024_3"
+university: "大阪大学"
+exam_year: "2024"
+source_tex: "archive/06_osaka/2024/2024_3.tex"
+pdf_source: "archive/06_osaka/2024/2024_3.pdf"
+page_image: "archive/06_osaka/2024/2024_3.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　空間内の2直線$l, \, m$はねじれの位置にあるとする．
+$l$と$m$の両方に直交する直線がただ1つ存在することを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2024/2024_3.pdf)

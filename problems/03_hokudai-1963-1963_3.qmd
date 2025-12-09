@@ -1,0 +1,27 @@
+---
+title: "北海道大学 1963年 1963_3"
+problem_id: "03_hokudai-1963-1963_3"
+university: "北海道大学"
+exam_year: "1963"
+source_tex: "archive/03_hokudai/1963/1963_3.tex"
+pdf_source: "archive/03_hokudai/1963/1963_3.pdf"
+page_image: "archive/03_hokudai/1963/1963_3.jpg"
+fields:
+  - 代数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$x$の二次関数$f(x)=x^2+ax+b$の最小値を$M$とする。
+$0 \leqq f(0) \leqq 5$，$1 \leqq f(1) \leqq 3$なるとき，
+$M$の最大値と最小値をそれぞれ数値で求め，
+またそれらを与える$x$の数値を求めよ。
+ただし文字はすべて実数とする。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1963/1963_3.pdf)

@@ -1,0 +1,36 @@
+---
+title: "東北大学 1998年 1998_a"
+problem_id: "04_tohoku-1998-1998_a"
+university: "東北大学"
+exam_year: "1998"
+source_tex: "archive/04_tohoku/1998/1998_a.tex"
+pdf_source: "archive/04_tohoku/1998/1998_a.pdf"
+page_image: "archive/04_tohoku/1998/1998_a.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　行列$A=\begin{pmatrix} 4a+1 & b 
+
+ 4 & 4c-1 \end{pmatrix}$において
+$a$，$b$，$c$はすべて整数であり，$A^2=E$（$E$は単位行列）とする．
+\begin{description}
+\item[(1)]$b$および$c$を$a$の式で表せ．
+\item[(2)]行列$P=\begin{pmatrix} p & q 
+
+ r & s \end{pmatrix}$が存在して，
+$AP=P\begin{pmatrix} 1 & 0 
+
+ 0 & -1 \end{pmatrix}$が成り立つとき，
+行列$P$の成分を$a$の式で表せ．
+ただし，$p$，$q$，$r$，$s$はすべて整数で$ps-qr=1$とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_a.pdf)

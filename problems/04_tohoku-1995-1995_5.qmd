@@ -1,0 +1,32 @@
+---
+title: "東北大学 1995年 1995_5"
+problem_id: "04_tohoku-1995-1995_5"
+university: "東北大学"
+exam_year: "1995"
+source_tex: "archive/04_tohoku/1995/1995_5.tex"
+pdf_source: "archive/04_tohoku/1995/1995_5.pdf"
+page_image: "archive/04_tohoku/1995/1995_5.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n$を0または正の整数とし，
+\[ I_n=\int_{-\pi}^{\pi}x^n\cos xdx, \hspace{1zw} J_n=\int_{-\pi}^{\pi}x^n\sin xdx \]
+とする．
+\begin{description}
+\item[(1)]$n\geqq1$のとき，$I_n$と$J_{n-1}$の関係式，
+および$J_n$と$I_{n-1}$の関係式を求めよ．
+\item[(2)]$n=0, \, 1, \, 2, \, 3, \, 4$に対して$I_n$の値を求めよ．
+\item[(3)]$n=0, \, 1, \, 2$に対し，
+$\displaystyle \int_{-\pi}^{\pi}x^nf(x)\cos xdx=4\pi$を
+同時に満たす$x$の2次式$f(x)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_5.pdf)

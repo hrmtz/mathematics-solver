@@ -1,0 +1,26 @@
+---
+title: "東北大学 1996年 1996_0_3"
+problem_id: "04_tohoku-1996-1996_0_3"
+university: "東北大学"
+exam_year: "1996"
+source_tex: "archive/04_tohoku/1996/1996_0_3.tex"
+pdf_source: "archive/04_tohoku/1996/1996_0_3.pdf"
+page_image: "archive/04_tohoku/1996/1996_0_3.jpg"
+fields:
+  - 空間図形
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　球面$S:{(x-3)}^2+{(y-2)}^2+{(z-1)}^2=1$と点$P(-1, \, 6, \, 3)$が与えられている．
+点$P$を通り球面$S$に接するすべての直線からなる図形と$S$との共通部分として定まる円を$C$とする．
+円$C$の中心$A$の座標および半径$r$を求めよ．
+また，円$C$を含む平面$\alpha$の方程式を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_0_3.pdf)

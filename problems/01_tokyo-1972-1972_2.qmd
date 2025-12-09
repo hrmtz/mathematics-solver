@@ -1,0 +1,35 @@
+---
+title: "東京大学 1972年 1972_2"
+problem_id: "01_tokyo-1972-1972_2"
+university: "東京大学"
+exam_year: "1972"
+source_tex: "archive/01_tokyo/1972/1972_2.tex"
+pdf_source: "archive/01_tokyo/1972/1972_2.pdf"
+page_image: "archive/01_tokyo/1972/1972_2.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　平面上の三角形$ABC$において，
+頂点$A$を通り辺$AB$，$AC$に垂直な直線をそれぞれ$h$，$k$とする．
+$B$の$k$に関する対称点を$B'$，$C$の$h$に関する対称点を$C'$とする．
+ベクトル$\mathbf{b}=\overrightarrow{AB}$，
+$\mathbf{c}=\overrightarrow{AC}$，
+$\mathbf{b'}=\overrightarrow{AB'}$，
+$\mathbf{c'}=\overrightarrow{AC'}$の間に
+$\mathbf{b'}=\mathbf{b}+\mathbf{c}$，
+$\mathbf{c'}=m\mathbf{b}+\mathbf{c}$($m$は正の整数)，
+$|\mathbf{b}|=1$が成り立つとき，
+$m$，$\angle BAC$，および$|\mathbf{c}|$を求めよ．
+ただし$|\mathbf{a}|$はベクトル$\mathbf{a}$の長さをあらわす．
+また$0<\angle BAC<\pi$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1972/1972_2.pdf)

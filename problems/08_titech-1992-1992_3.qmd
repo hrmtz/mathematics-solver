@@ -1,0 +1,24 @@
+---
+title: "東京科学大学 1992年 1992_3"
+problem_id: "08_titech-1992-1992_3"
+university: "東京科学大学"
+exam_year: "1992"
+source_tex: "archive/08_titech/1992/1992_3.tex"
+pdf_source: "archive/08_titech/1992/1992_3.pdf"
+page_image: "archive/08_titech/1992/1992_3.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$c>1$を定数とする．$xy$平面で，点$(1,c)$を通る直線$l$と放物線$y=x^2$で囲まれる図形の面積を最小にする$l$の傾きを求めよ．
+またその最小面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1992/1992_3.pdf)

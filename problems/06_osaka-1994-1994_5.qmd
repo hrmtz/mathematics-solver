@@ -1,0 +1,34 @@
+---
+title: "大阪大学 1994年 1994_5"
+problem_id: "06_osaka-1994-1994_5"
+university: "大阪大学"
+exam_year: "1994"
+source_tex: "archive/06_osaka/1994/1994_5.tex"
+pdf_source: "archive/06_osaka/1994/1994_5.pdf"
+page_image: "archive/06_osaka/1994/1994_5.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　袋の中に白球が1個，赤玉が2個はいっている．
+この状態から始めて，次のような試行をくりかえす．
+袋の中から無作為に球を1個取り出し，
+それが白球であれば袋の中に戻し，
+赤球であればそれを戻さずに代わりに白球を2個袋の中に入れる．
+$k$を2以上の自然数とする．
+ただし，$0<a<1$を満たす数$a$に対し
+$\displaystyle\lim_{n\to\infty}na^n=0$であることは用いてよい．
+\begin{description}
+\item[(1)]ちょうど$k$回の試行の後に，
+袋の中の球の個数がはじめて5になる確率$p(k)$を求めよ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}\sum_{k=2}^nkp(k)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1994/1994_5.pdf)

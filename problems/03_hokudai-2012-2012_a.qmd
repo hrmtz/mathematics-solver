@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2012年 2012_a"
+problem_id: "03_hokudai-2012-2012_a"
+university: "北海道大学"
+exam_year: "2012"
+source_tex: "archive/03_hokudai/2012/2012_a.tex"
+pdf_source: "archive/03_hokudai/2012/2012_a.pdf"
+page_image: "archive/03_hokudai/2012/2012_a.jpg"
+fields:
+  - 整数
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$n$を3以上の整数とする。
+1から$3n$までの番号が書かれた$3n$枚のカードを$A$さん，$B$さん，$C$さんの3人に$n$枚ずつ配る。
+\begin{description}
+\item[(1)]カードの配り方は何通りあるか。
+\item[(2)]$A$さんのカードの番号の最小値が$n+1$で，
+$B$さんのカードの番号の最小値が$2n-1$である配り方は何通りあるか。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2012/2012_a.pdf)

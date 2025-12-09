@@ -1,0 +1,235 @@
+## 解答
+
+(1)  
+$\alpha=\log_2 3,\ \beta=\log_3 5,\ \gamma=\log_5 2$ であるから，底の変換公式を用いると  
+任意の正の底 $a\,(a\neq 1)$ に対し
+$$
+\log_b c=\frac{\log_a c}{\log_a b}
+$$
+より
+$$
+\alpha=\frac{\log_a3}{\log_a2},\quad
+\beta=\frac{\log_a5}{\log_a3},\quad
+\gamma=\frac{\log_a2}{\log_a5}
+$$
+と書ける。したがって
+$$
+\alpha\beta\gamma
+=\frac{\log_a3}{\log_a2}\cdot\frac{\log_a5}{\log_a3}\cdot\frac{\log_a2}{\log_a5}
+=1
+$$
+となる。
+
+---
+
+(2)  
+まず (1) より $\alpha\beta\gamma=1$ なので，$\gamma=\dfrac{1}{\alpha\beta}$ である。  
+さらに
+$$
+\beta=\log_3 5=\frac{\log_2 5}{\log_2 3},\quad
+\gamma=\log_5 2=\frac{\log_2 2}{\log_2 5}=\frac{1}{\log_2 5}
+$$
+と書けるから，これを用いて比較する。
+
+$\alpha=\log_2 3$，$\beta=\dfrac{\log_2 5}{\log_2 3}$，$\gamma=\dfrac{1}{\log_2 5}$ を比較する。
+
+1. $\alpha$ と $\beta$ の比較  
+
+$\log_2 3<\log_2 5$ なので
+$$
+\alpha=\log_2 3<\log_2 5
+$$
+である。一方 $\log_2 3>1$ であるから，分母を正の数で割ると
+$$
+\log_2 5<\frac{\log_2 5}{\log_2 3}=\beta
+$$
+となる。よって
+$$
+\alpha<\log_2 5<\beta
+$$
+特に
+$$
+\alpha<\beta
+$$
+が分かる。
+
+2. $\beta$ と $\gamma$ の比較  
+
+$\beta\gamma=\dfrac{\log_2 5}{\log_2 3}\cdot\dfrac{1}{\log_2 5}
+=\dfrac{1}{\log_2 3}<1$ であるから
+$$
+\beta\gamma<1
+$$
+すなわち
+$$
+\gamma<\frac{1}{\beta}
+$$
+となる。一方 $\alpha\beta\gamma=1$ より $\dfrac{1}{\beta}=\alpha\gamma$ だから
+$$
+\gamma<\alpha\gamma
+$$
+ここで $\gamma>0$ なので両辺を $\gamma$ で割ると
+$$
+1<\alpha
+$$
+を得るが，これは既知である（$2<3$ より $\log_2 3>1$）。したがって  
+$\beta\gamma<1$ から直接
+$$
+\gamma<\frac{1}{\beta}
+$$
+が分かり，さらに $\beta>1$ なので
+$$
+\gamma<1<\beta
+$$
+となる。よって
+$$
+\gamma<\beta
+$$
+が成立する。
+
+3. $\alpha$ と $\gamma$ の比較  
+
+$\alpha\gamma=\dfrac{\log_2 3}{\log_2 5}=\log_5 3$ である。$3>2$ より
+$$
+\log_5 3> \log_5 2=\gamma
+$$
+すなわち
+$$
+\alpha\gamma>\gamma
+$$
+である。$\gamma>0$ なので両辺を $\gamma$ で割ると
+$$
+\alpha>1
+$$
+となる。さらに，$\gamma=\log_5 2<1$（$2<5$ より）であるから
+$$
+\gamma<1<\alpha
+$$
+したがって
+$$
+\gamma<\alpha
+$$
+となる。
+
+以上より
+$$
+\gamma<\alpha<\beta
+$$
+が分かった。最後に $\delta=\dfrac{3}{2}$ を比較する。
+
+$\alpha=\log_2 3$ について，$2^{1.5}=\sqrt{8}\approx2.828<3$ だから
+$$
+\log_2 3>1.5=\frac{3}{2}=\delta
+$$
+すなわち
+$$
+\delta<\alpha
+$$
+が分かる。したがって，小さい順に
+$$
+\gamma<\delta<\alpha<\beta
+$$
+である。
+
+---
+
+(3)  
+$p=\alpha+\beta+\gamma,\ q=\dfrac{1}{\alpha}+\dfrac{1}{\beta}+\dfrac{1}{\gamma}$，  
+$f(x)=x^3+px^2+qx+1$ とおく。  
+
+(1) より $\alpha\beta\gamma=1$ であるから，3次方程式
+$$
+(x+\alpha)(x+\beta)(x+\gamma)
+$$
+を展開すると，和と積の公式により
+$$
+(x+\alpha)(x+\beta)(x+\gamma)
+=x^3+(\alpha+\beta+\gamma)x^2+(\alpha\beta+\beta\gamma+\gamma\alpha)x+\alpha\beta\gamma
+$$
+となる。
+
+一方
+$$
+\alpha\beta+\beta\gamma+\gamma\alpha
+=\alpha\beta+\beta\gamma+\gamma\alpha
+=\alpha\beta\gamma\left(\frac{1}{\gamma}+\frac{1}{\alpha}+\frac{1}{\beta}\right)
+=1\cdot\left(\frac{1}{\alpha}+\frac{1}{\beta}+\frac{1}{\gamma}\right)
+=q
+$$
+であるから
+$$
+(x+\alpha)(x+\beta)(x+\gamma)
+=x^3+px^2+qx+1=f(x)
+$$
+となる。したがって
+$$
+f(x)=(x+\alpha)(x+\beta)(x+\gamma)
+$$
+が成り立つ。
+
+これを用いて，求める値の符号だけを調べる。
+
+1. $f\!\left(-\dfrac{1}{2}\right)$ の符号  
+
+$$
+f\!\left(-\frac{1}{2}\right)
+=\left(-\frac{1}{2}+\alpha\right)
+ \left(-\frac{1}{2}+\beta\right)
+ \left(-\frac{1}{2}+\gamma\right)
+$$
+
+(2) より $\gamma<\dfrac{1}{2}<\delta=\dfrac{3}{2}<\alpha<\beta$ であるから
+$$
+\gamma-\frac{1}{2}<0,\quad
+\alpha-\frac{1}{2}>0,\quad
+\beta-\frac{1}{2}>0
+$$
+よって，符号は
+$$
+f\!\left(-\frac{1}{2}\right)
+=\left(\alpha-\frac{1}{2}\right)
+ \left(\beta-\frac{1}{2}\right)
+ \left(\gamma-\frac{1}{2}\right)
+>0\cdot0\cdot(<0)\ \Rightarrow\ f\!\left(-\frac{1}{2}\right)<0
+$$
+
+2. $f(-1)$ の符号  
+
+$$
+f(-1)=(-1+\alpha)(-1+\beta)(-1+\gamma)
+$$
+
+$\alpha=\log_2 3>1$ より $\alpha-1>0$，  
+$\beta> \alpha>1$ より $\beta-1>0$，  
+$\gamma=\log_5 2<1$ より $\gamma-1<0$ であるから
+$$
+f(-1)=(\alpha-1)(\beta-1)(\gamma-1)<0
+$$
+
+3. $f\!\left(-\dfrac{3}{2}\right)$ の符号  
+
+$$
+f\!\left(-\frac{3}{2}\right)
+=\left(-\frac{3}{2}+\alpha\right)
+ \left(-\frac{3}{2}+\beta\right)
+ \left(-\frac{3}{2}+\gamma\right)
+$$
+
+(2) より $\gamma<\dfrac{3}{2}$ なので $\gamma-\dfrac{3}{2}<0$，  
+また $\alpha>\dfrac{3}{2}$，$\beta>\dfrac{3}{2}$ なので
+$\alpha-\dfrac{3}{2}>0,\ \beta-\dfrac{3}{2}>0$ である。よって
+$$
+f\!\left(-\frac{3}{2}\right)
+=\left(\alpha-\frac{3}{2}\right)
+ \left(\beta-\frac{3}{2}\right)
+ \left(\gamma-\frac{3}{2}\right)
+>0\cdot0\cdot(<0)\ \Rightarrow\ f\!\left(-\frac{3}{2}\right)<0
+$$
+
+以上より，
+$$
+f\!\left(-\frac{1}{2}\right)<0,\quad
+f(-1)<0,\quad
+f\!\left(-\frac{3}{2}\right)<0
+$$
+である。

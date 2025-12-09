@@ -1,0 +1,34 @@
+---
+title: "北海道大学 1997年 1997_2"
+problem_id: "03_hokudai-1997-1997_2"
+university: "北海道大学"
+exam_year: "1997"
+source_tex: "archive/03_hokudai/1997/1997_2.tex"
+pdf_source: "archive/03_hokudai/1997/1997_2.pdf"
+page_image: "archive/03_hokudai/1997/1997_2.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+\item[(1)]$p$を正の定数とし，点$F(0, \, p)$を焦点にもち，$y=-p$を準線とする放物線を$C$とする．
+$C$上の点$Q(x_0, \, y_0)$（ただし$x_0\neq0$）を考え，
+点$Q$と$F$を通る直線を$l_1$，点$Q$を通り放物線$C$の主軸に平行な直線を$l_2$とする．
+このとき点$Q$における$C$の接線$l$は，$l_1$と$l_2$のなす角を2等分することを示せ．
+\item[(2)]放物線$y=x^2-2\sqrt2 \, x+4$上の点$R(a, \, b)$ $(a>\sqrt2)$における接線と
+直線$x=a$のなす角を
+$\theta$ $(0^\circ<\theta<{90}^\circ)$とする．
+点$R$を通り傾きが$\displaystyle\frac{1-\tan^2\theta}{2\tan\theta}$である直線は
+$a$によらない定点を通ることを示し，
+その定点の座標を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_2.pdf)

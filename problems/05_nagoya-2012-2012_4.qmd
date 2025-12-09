@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 2012年 2012_4"
+problem_id: "05_nagoya-2012-2012_4"
+university: "名古屋大学"
+exam_year: "2012"
+source_tex: "archive/05_nagoya/2012/2012_4.tex"
+pdf_source: "archive/05_nagoya/2012/2012_4.pdf"
+page_image: "archive/05_nagoya/2012/2012_4.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$m$，$p$を3以上の奇数とし，$m$は$p$で割り切れないとする。
+\begin{description}
+\item[(1)]${(x-1)}^{101}$の展開式における$x^2$の項の係数を求めよ。
+\item[(2)]${(p-1)}^m+1$は$p$で割り切れることを示せ。
+\item[(3)]${(p-1)}^m+1$は$p^2$で割り切れないことを示せ。
+\item[(4)]$r$を正の整数とし，$s=3^{r-1}m$とする。
+$2^s+1$は$3^r$で割り切れることを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2012/2012_4.pdf)

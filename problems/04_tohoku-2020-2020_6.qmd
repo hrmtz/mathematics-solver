@@ -1,0 +1,32 @@
+---
+title: "東北大学 2020年 2020_6"
+problem_id: "04_tohoku-2020-2020_6"
+university: "東北大学"
+exam_year: "2020"
+source_tex: "archive/04_tohoku/2020/2020_6.tex"
+pdf_source: "archive/04_tohoku/2020/2020_6.pdf"
+page_image: "archive/04_tohoku/2020/2020_6.jpg"
+fields:
+  - 積分法
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　正の整数$m, \, n$に対して実数$A(m, \, n)$を次の定積分で定める。
+\[ A(m, \, n)=\int_0^\frac{\pi}{2}\cos^mx\sin^nxdx \]
+\begin{description}
+\item[(1)]次の等式が成り立つことを示せ。
+\[ A(m, \, n)=A(n, \, m), \hspace{1zw} A(m+2, \, n)+A(m, \, n+2)=A(m, \, n) \]
+\item[(2)]$A(m, \, 1)$を求めよ。
+\item[(3)]次の等式が成り立つことを示せ。
+\[ A(m, \, n+2)=\frac{n+1}{m+1}A(m+2, \, n) \]
+\item[(4)]$m$または$n$が奇数ならば，$A(m, \, n)$は有理数であることを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_6.pdf)

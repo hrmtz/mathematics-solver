@@ -1,0 +1,28 @@
+---
+title: "京都大学 1980年 1980_1"
+problem_id: "02_kyoto-1980-1980_1"
+university: "京都大学"
+exam_year: "1980"
+source_tex: "archive/02_kyoto/1980/1980_1.tex"
+pdf_source: "archive/02_kyoto/1980/1980_1.pdf"
+page_image: "archive/02_kyoto/1980/1980_1.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　二つの行列$A=\begin{pmatrix} 0 & 0 
+
+ 1 & 0 \end{pmatrix}$，
+$B=\begin{pmatrix} 0 & 1 
+
+ 0 & 0 \end{pmatrix}$だけを使い，
+乗法で得られる行列($A$，$B$いずれも何回も使ってよい)全部を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1980/1980_1.pdf)

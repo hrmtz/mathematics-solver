@@ -1,0 +1,25 @@
+---
+title: "京都大学 1996年 1996_0_d"
+problem_id: "02_kyoto-1996-1996_0_d"
+university: "京都大学"
+exam_year: "1996"
+source_tex: "archive/02_kyoto/1996/1996_0_d.tex"
+pdf_source: "archive/02_kyoto/1996/1996_0_d.pdf"
+page_image: "archive/02_kyoto/1996/1996_0_d.jpg"
+fields:
+  - 不等式
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$は負でない実数とする．
+　$\displaystyle-\frac{1}{2}\leqq\frac{x-y}{x+y}\leqq\frac{1}{2}$をみたすすべての正の実数$x$，$y$に対し，
+$x^3-3a^2xy^2+2y^3\geqq0$が成り立つような$a$の範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_0_d.pdf)

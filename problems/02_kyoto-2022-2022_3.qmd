@@ -1,0 +1,23 @@
+---
+title: "京都大学 2022年 2022_3"
+problem_id: "02_kyoto-2022-2022_3"
+university: "京都大学"
+exam_year: "2022"
+source_tex: "archive/02_kyoto/2022/2022_3.tex"
+pdf_source: "archive/02_kyoto/2022/2022_3.pdf"
+page_image: "archive/02_kyoto/2022/2022_3.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$n$を自然数とする．
+3つの整数$n^2+2, \, n^4+2, \, n^6+2$の最大公約数$A_n$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2022/2022_3.pdf)

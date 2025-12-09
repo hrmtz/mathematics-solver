@@ -1,0 +1,34 @@
+---
+title: "九州大学 1968年 1968_1"
+problem_id: "07_kyushu-1968-1968_1"
+university: "九州大学"
+exam_year: "1968"
+source_tex: "archive/07_kyushu/1968/1968_1.tex"
+pdf_source: "archive/07_kyushu/1968/1968_1.pdf"
+page_image: "archive/07_kyushu/1968/1968_1.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\[ \begin{cases} 4x+5y\leqq4 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AC}}
+4x+y\leqq2 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AD}}
+x+2y\geqq1 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AE}}
+\displaystyle{\left(x-\frac{1}{2}\right)}^2+{\left(y-\frac{1}{2}\right)}^2\leqq\frac{1}{4} \hspace{1zw}
+\cdots\cdots\cdots\text{\ding{"AF}} \end{cases} \]
+\begin{description}
+\item[(1)]上の4つの条件を同時に満足する$x$，$y$を座標とする点の存在する範囲を斜線を引いて図示せよ．
+\item[(2)]この範囲における$x+y$の最大値を求めよ．
+\end{description}
+
+
+![](../archive/07_kyushu/1968/fig_1968_1.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1968/1968_1.pdf)

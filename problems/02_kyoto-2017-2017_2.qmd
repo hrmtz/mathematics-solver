@@ -1,0 +1,33 @@
+---
+title: "京都大学 2017年 2017_2"
+problem_id: "02_kyoto-2017-2017_2"
+university: "京都大学"
+exam_year: "2017"
+source_tex: "archive/02_kyoto/2017/2017_2.tex"
+pdf_source: "archive/02_kyoto/2017/2017_2.pdf"
+page_image: "archive/02_kyoto/2017/2017_2.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　四面体$OABC$を考える．
+点$D, \, E, \, F, \, G, \, H, \, I$は，
+それぞれ辺$OA, \, AB, \, BC, \, CO, \, OB, \, AC$上にあり，
+頂点ではないとする．
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$\overrightarrow{DG}$と$\overrightarrow{EF}$が平行ならば
+$AE:EB=CF:FB$であることを示せ．
+\item[(2)]$D, \, E, \, F, \, G, \, H, \, I$が正八面体の頂点となっているとき，
+これらの点は$OABC$の各辺の中点であり，$OABC$は正四面体であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2017/2017_2.pdf)

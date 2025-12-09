@@ -1,0 +1,29 @@
+---
+title: "九州大学 2022年 2022_0_1"
+problem_id: "07_kyushu-2022-2022_0_1"
+university: "九州大学"
+exam_year: "2022"
+source_tex: "archive/07_kyushu/2022/2022_0_1.tex"
+pdf_source: "archive/07_kyushu/2022/2022_0_1.pdf"
+page_image: "archive/07_kyushu/2022/2022_0_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$を$-3<a<13$をみたす実数とし，次の曲線$C$と直線$l$が接しているとする。
+\[ C:y=|x^2+(3-a)x-3a|, \hspace{1zw} l:y=-x+13 \]
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]$a$の値を求めよ。
+\item[(2)]曲線$C$と直線$l$で囲まれた2つの図形のうち，
+点$(a, \, 0)$が境界線上にある図形の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2022/2022_0_1.pdf)

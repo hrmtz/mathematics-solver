@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 2002年 2002_1"
+problem_id: "05_nagoya-2002-2002_1"
+university: "名古屋大学"
+exam_year: "2002"
+source_tex: "archive/05_nagoya/2002/2002_1.tex"
+pdf_source: "archive/05_nagoya/2002/2002_1.pdf"
+page_image: "archive/05_nagoya/2002/2002_1.jpg"
+fields:
+  - 指数・対数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]$x$を正数とするとき，
+$\displaystyle\log\left( 1+\frac{1}{x} \right)$と
+$\displaystyle\frac{1}{x+1}$の大小を比較せよ．
+\item[(2)]$\displaystyle{\left( 1+\frac{2001}{2002} \right)}^{\displaystyle\frac{2002}{2001}}$，
+$\displaystyle{\left( 1+\frac{2002}{2001} \right)}^{\displaystyle\frac{2001}{2002}}$の大小を比較せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2002/2002_1.pdf)

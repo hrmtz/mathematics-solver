@@ -1,0 +1,25 @@
+---
+title: "東京大学 1991年 1991_5"
+problem_id: "01_tokyo-1991-1991_5"
+university: "東京大学"
+exam_year: "1991"
+source_tex: "archive/01_tokyo/1991/1991_5.tex"
+pdf_source: "archive/01_tokyo/1991/1991_5.pdf"
+page_image: "archive/01_tokyo/1991/1991_5.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$xy$平面上，$x$座標，$y$座標がともに整数であるような点$(m,n)$を格子点とよぶ．
+　各格子点を中心として半径$r$の円がえがかれており，
+傾き$\displaystyle\frac{2}{5}$の任意の直線はこれらの円のどれかと共有点をもつという．
+このような性質をもつ実数$r$の最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1991/1991_5.pdf)

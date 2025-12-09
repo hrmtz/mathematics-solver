@@ -1,0 +1,34 @@
+---
+title: "名古屋大学 1993年 1993_4b"
+problem_id: "05_nagoya-1993-1993_4b"
+university: "名古屋大学"
+exam_year: "1993"
+source_tex: "archive/05_nagoya/1993/1993_4b.tex"
+pdf_source: "archive/05_nagoya/1993/1993_4b.pdf"
+page_image: "archive/05_nagoya/1993/1993_4b.jpg"
+fields:
+  - 帰納法
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　$M=\{ 1, \, 2, \, \cdots\cdots, \, n \}$を1から$n$までの自然数の集合，
+$f$を$M$から$M$への写像とし，
+\[ f_1=f, \hspace{1zw} f_2=f \circ f_1=f \circ f, \hspace{1zw} f_3=f \circ f_2=f \circ f \circ f, \hspace{1zw} \cdots\cdots, \]
+\[ f_k=f \circ f_{k-1}=f \circ f \circ \cdots\cdots \circ f(k\text{個の合成}), \hspace{1zw} \cdots\cdots \]
+とする．次の(1)，(2)を証明せよ．
+\begin{description}
+\item[(1)]$1, \, 2, \, \cdots\cdots, \, n, \, n+1$の中から
+異なる2つの$p$，$q$を選び，
+$f_p(1)=f_q(1)$とすることができる．
+\item[(2)]$f_1(1), \, f_2(1), \, \cdots\cdots, \, f_n(1)$がずべて互いに異なるならば，
+$f_n(1)=1$である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1993/1993_4b.pdf)

@@ -1,0 +1,27 @@
+---
+title: "九州大学 1966年 1966_1"
+problem_id: "07_kyushu-1966-1966_1"
+university: "九州大学"
+exam_year: "1966"
+source_tex: "archive/07_kyushu/1966/1966_1.tex"
+pdf_source: "archive/07_kyushu/1966/1966_1.pdf"
+page_image: "archive/07_kyushu/1966/1966_1.jpg"
+fields:
+  - 微分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]2次関数$x^2-2x-8$を導関数にもつ3次関数の，極大値と極小値の差を求めよ．
+\item[(2)]${(0.8)}^n$が初めて0.1より小さくなるような整数$n$を求めよ．
+ただし，$\log_{10}2=0.30103$である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1966/1966_1.pdf)

@@ -1,0 +1,395 @@
+## 解答
+
+(1)  
+
+$g(t)=\dfrac{e^t+e^{-t}}{2}$ について示す。
+
+$t\geqq 0$ のとき，$e^t>0$ より $e^t$ で割ることができるから，
+$$
+2g(t)=e^t+e^{-t}
+= e^t + \frac1{e^t}.
+$$
+ここで実数 $u>0$ に対して不等式  
+$u+\dfrac1u\ge 2$（等号成立条件は $u=1$）が成り立つ（相加相乗平均の不等式，あるいは $(u-1)^2\ge0$ より従う）。
+
+$u=e^t>0$ とおくと
+$$
+e^t+\frac1{e^t} \ge 2
+$$
+となるので，
+$$
+2g(t) \ge 2 \quad\Longrightarrow\quad g(t)\ge 1
+$$
+が得られる。
+
+よって $g(t)\ge1$ が示された。
+
+---
+
+(2)  
+
+$a>0$ とする。まず $g(t)$ の導関数を求める。
+$$
+g(t)=\frac{e^t+e^{-t}}{2}
+\quad\Longrightarrow\quad
+g'(t)=\frac{e^t - e^{-t}}{2}.
+$$
+
+(1) で $g(t)\ge1$ を示したから，$t\in[0,a]$ では $g(t)\ge1$ であり，また $g(t)$ は連続なので，合成関数 $f(g(t))$ が定義される。
+
+積分
+$$
+\int_0^a f(g(t))\,g'(t)\,dt
+$$
+を計算する。ここで $f(x)=\sqrt{x^2-1}$ であるから，
+$$
+f(g(t))=\sqrt{g(t)^2-1}.
+$$
+
+このとき，置換積分を用いる。  
+$ x=g(t)$ とおくと，$dx=g'(t)\,dt$ となる。
+
+$t$ が $0$ から $a$ まで動くとき，$x=g(t)$ は
+$$
+t=0 \Longrightarrow x=g(0)=\frac{e^0+e^0}{2}=1,
+\quad
+t=a \Longrightarrow x=g(a)=\frac{e^a+e^{-a}}{2}
+$$
+と変化する。
+
+したがって
+$$
+\int_0^a f(g(t))\,g'(t)\,dt
+=
+\int_{x=1}^{x=g(a)} f(x)\,dx
+=
+\int_1^{g(a)} \sqrt{x^2-1}\,dx.
+$$
+
+ここで $\displaystyle\int\sqrt{x^2-1}\,dx$ を計算する。部分積分または標準的な積分公式を用いる。  
+$\sqrt{x^2-1}$ の原始関数として
+$$
+\int \sqrt{x^2-1}\,dx
+=
+\frac12\Bigl(x\sqrt{x^2-1}-\ln\bigl|x+\sqrt{x^2-1}\bigr|\Bigr)+C
+$$
+が成り立つことを用いる（証明は例えば $x=\cosh u$ などの置換で導出できる）。
+
+よって
+$$
+\int_1^{g(a)} \sqrt{x^2-1}\,dx
+=
+\left[
+\frac12\Bigl(x\sqrt{x^2-1}-\ln\bigl(x+\sqrt{x^2-1}\bigr)\Bigr)
+\right]_{x=1}^{x=g(a)}.
+$$
+
+$g(a)\ge1$ より絶対値記号は外せて
+$$
+=
+\frac12\Bigl(
+g(a)\sqrt{g(a)^2-1}
+-\ln\bigl(g(a)+\sqrt{g(a)^2-1}\bigr)
+\Bigr)
+-\frac12\Bigl(
+1\cdot\sqrt{1^2-1}
+-\ln\bigl(1+\sqrt{1^2-1}\bigr)
+\Bigr).
+$$
+
+$\sqrt{1^2-1}=0$ なので
+$$
+\sqrt{1^2-1}=0,\quad
+\ln\bigl(1+\sqrt{1^2-1}\bigr)=\ln1=0
+$$
+となり，したがって
+$$
+\int_0^a f(g(t))\,g'(t)\,dt
+=
+\frac12\Bigl(
+g(a)\sqrt{g(a)^2-1}
+-\ln\bigl(g(a)+\sqrt{g(a)^2-1}\bigr)
+\Bigr).
+$$
+
+ここで $g(a)=\dfrac{e^a+e^{-a}}{2}$ であり，
+$$
+g(a)^2-1
+=
+\left(\frac{e^a+e^{-a}}{2}\right)^2-1
+=
+\frac{e^{2a}+2+e^{-2a}}{4}-1
+=
+\frac{e^{2a}+e^{-2a}-2}{4}
+=
+\left(\frac{e^a-e^{-a}}{2}\right)^2
+$$
+なので
+$$
+\sqrt{g(a)^2-1}=\frac{e^a-e^{-a}}{2}
+$$
+と書ける（$a>0$ より $e^a-e^{-a}>0$ であるため，正の平方根をとる）。
+
+したがって
+$$
+g(a)\sqrt{g(a)^2-1}
+=
+\left(\frac{e^a+e^{-a}}{2}\right)
+\left(\frac{e^a-e^{-a}}{2}\right)
+=
+\frac{e^{2a}-e^{-2a}}{4},
+$$
+また
+$$
+g(a)+\sqrt{g(a)^2-1}
+=
+\frac{e^a+e^{-a}}{2}+\frac{e^a-e^{-a}}{2}
+= e^a.
+$$
+
+これらを代入すると
+$$
+\int_0^a f(g(t))\,g'(t)\,dt
+=
+\frac12\left(
+\frac{e^{2a}-e^{-2a}}{4}
+-\ln e^a
+\right)
+=
+\frac18\bigl(e^{2a}-e^{-2a}\bigr)
+-\frac12\cdot a.
+$$
+
+よって
+$$
+\int_0^a f(g(t))\,g'(t)\,dt
+=
+\frac18\bigl(e^{2a}-e^{-2a}\bigr)-\frac a2
+$$
+である。
+
+---
+
+(3)  
+
+曲線 $C: y=f(x)=\sqrt{x^2-1}$ 上の点 $(p,f(p))$ における接線 $l$ を求め，$C$，$l$，$x$軸で囲まれた図形の面積 $S$ を $p$ の関数として表す。
+
+まず $f(x)$ の導関数を求める。$x>1$ として
+$$
+f(x)=\sqrt{x^2-1}=(x^2-1)^{1/2}
+$$
+だから，合成関数の微分法より
+$$
+f'(x)=\frac12(x^2-1)^{-1/2}\cdot 2x
+=\frac{x}{\sqrt{x^2-1}}.
+$$
+
+したがって点 $(p,f(p))$ における接線 $l$ の傾きは $f'(p)=\dfrac{p}{\sqrt{p^2-1}}$ である。  
+点傾きの式より，接線 $l$ の方程式は
+$$
+y-f(p)=f'(p)\,(x-p)
+$$
+すなわち
+$$
+y-\sqrt{p^2-1}
+=\frac{p}{\sqrt{p^2-1}}(x-p).
+$$
+
+これを整理し，$x$軸との交点を求める。$y=0$ とおくと
+$$
+-\sqrt{p^2-1}
+=\frac{p}{\sqrt{p^2-1}}(x-p).
+$$
+
+両辺に $\sqrt{p^2-1}>0$ を掛けて
+$$
+-(p^2-1)=p(x-p).
+$$
+
+右辺を展開すると
+$$
+-(p^2-1)=px-p^2
+\quad\Longrightarrow\quad
+-p^2+1=px-p^2.
+$$
+
+両辺に $p^2$ を加えると
+$$
+1=px
+\quad\Longrightarrow\quad
+x=\frac1p.
+$$
+
+したがって接線 $l$ は $x$軸と点 $\left(\dfrac1p,\,0\right)$ で交わる。
+
+一方，曲線 $C$ と $x$軸との交点は $y=0$ として
+$$
+\sqrt{x^2-1}=0 \quad\Longrightarrow\quad x^2-1=0 \quad\Longrightarrow\quad x=\pm1
+$$
+である。$p>1$ なので，$C$，$l$，$x$軸で囲まれる図形は $x\ge0$ の側でできる図形であり，$x$座標は $1/p$ から $p$ の間にある部分を考えればよい。
+
+実際，区間 $[1/p,\,1]$ では直線 $l$ が $x$軸の上側にあり，  
+区間 $[1,\,p]$ では曲線 $C$ が $x$軸の上側にある。
+
+したがって求める面積 $S$ は
+$$
+S
+=
+\int_{x=1/p}^{1} l(x)\,dx
++\int_{x=1}^{p} f(x)\,dx
+$$
+と表せる。ただし $l(x)$ は接線 $l$ の $y$座標である。
+
+$l$ の式を $y$ について解くと
+$$
+y
+=\frac{p}{\sqrt{p^2-1}}(x-p)+\sqrt{p^2-1}
+=\frac{p}{\sqrt{p^2-1}}x
+-\frac{p^2}{\sqrt{p^2-1}}
++\sqrt{p^2-1}.
+$$
+
+定数項をまとめると
+$$
+-\frac{p^2}{\sqrt{p^2-1}}+\sqrt{p^2-1}
+=\frac{-p^2+p^2-1}{\sqrt{p^2-1}}
+=-\frac1{\sqrt{p^2-1}},
+$$
+したがって
+$$
+l(x)=\frac{p}{\sqrt{p^2-1}}x-\frac1{\sqrt{p^2-1}}
+=\frac{px-1}{\sqrt{p^2-1}}.
+$$
+
+よって
+$$
+S
+=
+\int_{1/p}^{1} \frac{px-1}{\sqrt{p^2-1}}\,dx
++\int_{1}^{p} \sqrt{x^2-1}\,dx.
+$$
+
+第1項を計算すると，
+$$
+\int_{1/p}^{1} \frac{px-1}{\sqrt{p^2-1}}\,dx
+=
+\frac1{\sqrt{p^2-1}}\int_{1/p}^{1}(px-1)\,dx
+$$
+であり，
+$$
+\int(px-1)\,dx
+=\frac{p}{2}x^2-x,
+$$
+だから
+$$
+\int_{1/p}^{1}(px-1)\,dx
+=
+\left[\frac{p}{2}x^2-x\right]_{1/p}^{1}
+=
+\left(\frac{p}{2}\cdot1^2-1\right)
+-\left(\frac{p}{2}\cdot\frac1{p^2}-\frac1p\right).
+$$
+
+それぞれ計算して
+$$
+\frac{p}{2}-1
+=\frac{p-2}{2},
+\quad
+\frac{p}{2}\cdot\frac1{p^2}-\frac1p
+=\frac1{2p}-\frac1p
+=-\frac1{2p},
+$$
+したがって
+$$
+\int_{1/p}^{1}(px-1)\,dx
+=
+\frac{p-2}{2}-\left(-\frac1{2p}\right)
+=\frac{p-2}{2}+\frac1{2p}
+=\frac12\left(p-2+\frac1p\right).
+$$
+
+よって
+$$
+\int_{1/p}^{1} \frac{px-1}{\sqrt{p^2-1}}\,dx
+=
+\frac1{\sqrt{p^2-1}}\cdot\frac12\left(p-2+\frac1p\right)
+=
+\frac12\cdot\frac{p+\frac1p-2}{\sqrt{p^2-1}}.
+$$
+
+次に第2項 $\displaystyle \int_{1}^{p} \sqrt{x^2-1}\,dx$ を計算する。  
+(2) で求めた原始関数を用いればよい：
+$$
+\int \sqrt{x^2-1}\,dx
+=
+\frac12\Bigl(x\sqrt{x^2-1}-\ln\bigl(x+\sqrt{x^2-1}\bigr)\Bigr)+C.
+$$
+
+したがって
+$$
+\int_{1}^{p} \sqrt{x^2-1}\,dx
+=
+\left[
+\frac12\Bigl(x\sqrt{x^2-1}-\ln\bigl(x+\sqrt{x^2-1}\bigr)\Bigr)
+\right]_{1}^{p}.
+$$
+
+$x=1$ のとき $\sqrt{1^2-1}=0$ より
+$$
+\frac12\Bigl(1\cdot0-\ln(1+0)\Bigr)
+=0
+$$
+となるので
+$$
+\int_{1}^{p} \sqrt{x^2-1}\,dx
+=
+\frac12\Bigl(
+p\sqrt{p^2-1}
+-\ln\bigl(p+\sqrt{p^2-1}\bigr)
+\Bigr).
+$$
+
+以上をまとめると
+$$
+S
+=
+\frac12\cdot\frac{p+\frac1p-2}{\sqrt{p^2-1}}
++\frac12\Bigl(
+p\sqrt{p^2-1}
+-\ln\bigl(p+\sqrt{p^2-1}\bigr)
+\Bigr).
+$$
+
+これを少し整理する。まず
+$$
+\frac{p+\frac1p-2}{\sqrt{p^2-1}}
+=
+\frac{p^2+1-2p}{p\sqrt{p^2-1}}
+=
+\frac{(p-1)^2}{p\sqrt{p^2-1}}.
+$$
+
+よって
+$$
+S
+=
+\frac12\left(
+\frac{(p-1)^2}{p\sqrt{p^2-1}}
++p\sqrt{p^2-1}
+-\ln\bigl(p+\sqrt{p^2-1}\bigr)
+\right).
+$$
+
+この形で $p$ による表現が得られた。
+
+したがって，求める面積 $S$ は
+$$
+S
+=
+\frac12\left(
+\frac{(p-1)^2}{p\sqrt{p^2-1}}
++p\sqrt{p^2-1}
+-\ln\bigl(p+\sqrt{p^2-1}\bigr)
+\right)
+$$
+である。

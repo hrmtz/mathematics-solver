@@ -1,0 +1,34 @@
+---
+title: "大阪大学 1991年 1991_a"
+problem_id: "06_osaka-1991-1991_a"
+university: "大阪大学"
+exam_year: "1991"
+source_tex: "archive/06_osaka/1991/1991_a.tex"
+pdf_source: "archive/06_osaka/1991/1991_a.pdf"
+page_image: "archive/06_osaka/1991/1991_a.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　2次の正方行列$A$，$B$は$AB=-BA$，$A^2=B^2=E$を満たしているとする．
+ここで，$E=\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}$である．
+\begin{description}
+\item[(1)]${(3A+B)}^{100}$を計算せよ．
+\item[(2)]$A=\begin{pmatrix} 0 & 1 
+
+ 1 & 0 \end{pmatrix}$のとき，
+$B$の表す1次変換により曲線$x^2-y^2=1$はどのような曲線に移るか．
+その曲線の方程式を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1991/1991_a.pdf)

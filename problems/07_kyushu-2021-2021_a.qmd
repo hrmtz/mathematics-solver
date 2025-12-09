@@ -1,0 +1,32 @@
+---
+title: "九州大学 2021年 2021_a"
+problem_id: "07_kyushu-2021-2021_a"
+university: "九州大学"
+exam_year: "2021"
+source_tex: "archive/07_kyushu/2021/2021_a.tex"
+pdf_source: "archive/07_kyushu/2021/2021_a.pdf"
+page_image: "archive/07_kyushu/2021/2021_a.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　三角形$ABC$の辺$AB$，$BC$，$AC$の長さをそれぞれ5，7，6とし，
+点$P$と点$Q$はそれぞれ$\overrightarrow{AP}=2\overrightarrow{AB}$
+および$\overrightarrow{BQ}=2\overrightarrow{BC}$を満たす点とする。
+さらに，点$A$から線分$PQ$に下ろした垂線と線分$PQ$の交点を$H$，
+線分$AH$と線分$BC$の交点を$R$とする。以下の問いに答えよ。
+\begin{description}
+\item[(1)]$BR:RC$を求めよ。
+\item[(2)]$AR:RH$を求めよ。
+\item[(3)]三角形$RHC$の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_a.pdf)

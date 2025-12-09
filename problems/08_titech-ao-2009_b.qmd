@@ -1,0 +1,24 @@
+---
+title: "東京科学大学 ao年 2009_b"
+problem_id: "08_titech-ao-2009_b"
+university: "東京科学大学"
+exam_year: "ao"
+source_tex: "archive/08_titech/ao/2009_b.tex"
+pdf_source: "archive/08_titech/ao/2009_b.pdf"
+page_image: "archive/08_titech/ao/2009_b.jpg"
+fields:
+  - 数列
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　漸化式$c_{n+1}=8c_n-7$ $(n=1,2,3,\cdots)$を満たす数列$c_1,c_2,c_3,\cdots$を考える．
+数列$c_1,c_2,c_3,\cdots$に素数がただ1つだけ現れるような正の整数$c_1$を2つ求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/ao/2009_b.pdf)

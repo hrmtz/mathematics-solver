@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 1998年 1998_3"
+problem_id: "05_nagoya-1998-1998_3"
+university: "名古屋大学"
+exam_year: "1998"
+source_tex: "archive/05_nagoya/1998/1998_3.tex"
+pdf_source: "archive/05_nagoya/1998/1998_3.pdf"
+page_image: "archive/05_nagoya/1998/1998_3.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　平面上に放物線$y=x^2$と直線$l:y=k$を考える．
+\begin{description}
+\item[(1)]放物線上の点$(a, \, a^2)$での法線と直線$l$との交点を$P$とし，その$x$座標を$b$とする．
+$b$を$a$と$k$で表わせ．
+\item[(2)]直線$l$上の点$P(b, \, k)$を放物線の異なる3法線が通るような$b$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1998/1998_3.pdf)

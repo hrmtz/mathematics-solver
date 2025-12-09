@@ -1,0 +1,24 @@
+---
+title: "北海道大学 1991年 1991_0_3"
+problem_id: "03_hokudai-1991-1991_0_3"
+university: "北海道大学"
+exam_year: "1991"
+source_tex: "archive/03_hokudai/1991/1991_0_3.tex"
+pdf_source: "archive/03_hokudai/1991/1991_0_3.pdf"
+page_image: "archive/03_hokudai/1991/1991_0_3.jpg"
+fields:
+  - 不等式
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$n$は2以上の自然数とする．数学的帰納法を用いて次の不等式を証明せよ．
+\[ \frac{1}{\sqrt2}+\frac{1}{\sqrt3}+\cdots\cdots+\frac{1}{\sqrt{n}}<2\sqrt{n}-2 \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1991/1991_0_3.pdf)

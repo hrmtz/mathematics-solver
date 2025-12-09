@@ -1,0 +1,23 @@
+---
+title: "名古屋大学 1962年 1962_2"
+problem_id: "05_nagoya-1962-1962_2"
+university: "名古屋大学"
+exam_year: "1962"
+source_tex: "archive/05_nagoya/1962/1962_2.tex"
+pdf_source: "archive/05_nagoya/1962/1962_2.pdf"
+page_image: "archive/05_nagoya/1962/1962_2.jpg"
+fields:
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$y>x^2$，かつ$y<x+1$のとき，$x+y$はどんな範囲の値をとるか。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1962/1962_2.pdf)

@@ -1,0 +1,24 @@
+---
+title: "京都大学 2003年 2003_d"
+problem_id: "02_kyoto-2003-2003_d"
+university: "京都大学"
+exam_year: "2003"
+source_tex: "archive/02_kyoto/2003/2003_d.tex"
+pdf_source: "archive/02_kyoto/2003/2003_d.pdf"
+page_image: "archive/02_kyoto/2003/2003_d.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$\{ a_n \}$を正の数からなる数列とし，$p$を正の実数とする．
+このとき$\displaystyle a_{n+1}>\frac{1}{2}a_n-p$をみたす番号$n$が存在することを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2003/2003_d.pdf)

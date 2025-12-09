@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1964年 1964_5"
+problem_id: "03_hokudai-1964-1964_5"
+university: "北海道大学"
+exam_year: "1964"
+source_tex: "archive/03_hokudai/1964/1964_5.tex"
+pdf_source: "archive/03_hokudai/1964/1964_5.pdf"
+page_image: "archive/03_hokudai/1964/1964_5.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　関数$f(x)$の導関数$f'(x)$は$x(x^2-a)$であり，
+$f(0)=b$であるとき，
+次の問にそれぞれ答えよ。
+\begin{description}
+\item[(1)]$f(x)$が極大値をもたないとき，$a$はどんな範囲の値か。
+\item[(2)]$f(x)$が$-1<x<1$で極小値をもたないとき，$a$はどんな範囲の値か。
+\item[(3)]$-1<x<1$であるようなすべての$x$に対して$f(x)<0$となるとき，
+点$(a, \, b)$の存在する範囲を図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_5.pdf)

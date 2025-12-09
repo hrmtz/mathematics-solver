@@ -1,0 +1,32 @@
+---
+title: "東京大学 1980年 1980_4"
+problem_id: "01_tokyo-1980-1980_4"
+university: "東京大学"
+exam_year: "1980"
+source_tex: "archive/01_tokyo/1980/1980_4.tex"
+pdf_source: "archive/01_tokyo/1980/1980_4.pdf"
+page_image: "archive/01_tokyo/1980/1980_4.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xy$平面上の動点$P$の座標$(x,y)$は，時刻$t$を用いて
+$\begin{cases}
+x= \sin t+\cos t
+y = k \sin^2 t \cos^2 t
+\end{cases}$
+$(-\infty <t< \infty)$
+と表されるものとする．
+ただし$k$は正の定数である．
+このとき原点と$P$との間の距離の2乗の最大値および最小値を，
+$k$を用いて表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1980/1980_4.pdf)

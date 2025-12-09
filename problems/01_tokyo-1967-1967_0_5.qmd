@@ -1,0 +1,26 @@
+---
+title: "東京大学 1967年 1967_0_5"
+problem_id: "01_tokyo-1967-1967_0_5"
+university: "東京大学"
+exam_year: "1967"
+source_tex: "archive/01_tokyo/1967/1967_0_5.tex"
+pdf_source: "archive/01_tokyo/1967/1967_0_5.pdf"
+page_image: "archive/01_tokyo/1967/1967_0_5.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　楕円$\displaystyle\frac{x^2}{a}+ay^2=1$ $(a>0)$を考える．
+$a$がすべての正の実数をとってうごくとき，
+これらの楕円の上にある点全体はどのような範囲にあるか，
+その範囲を決定せよ．
+なお，それを図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1967/1967_0_5.pdf)

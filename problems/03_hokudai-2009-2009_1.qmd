@@ -1,0 +1,25 @@
+---
+title: "北海道大学 2009年 2009_1"
+problem_id: "03_hokudai-2009-2009_1"
+university: "北海道大学"
+exam_year: "2009"
+source_tex: "archive/03_hokudai/2009/2009_1.tex"
+pdf_source: "archive/03_hokudai/2009/2009_1.pdf"
+page_image: "archive/03_hokudai/2009/2009_1.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　図はある三角錐$V$の展開図である．
+ここで$AB=4$，$AC=3$，$BC=5$，$\angle ACD={90}^\circ$で
+$\triangle ABE$は正三角形である．
+このとき，$V$の体積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2009/2009_1.pdf)

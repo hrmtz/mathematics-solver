@@ -1,0 +1,24 @@
+---
+title: "大阪大学 2013年 2013_3"
+problem_id: "06_osaka-2013-2013_3"
+university: "大阪大学"
+exam_year: "2013"
+source_tex: "archive/06_osaka/2013/2013_3.tex"
+pdf_source: "archive/06_osaka/2013/2013_3.pdf"
+page_image: "archive/06_osaka/2013/2013_3.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　4個の整数
+\[ n+1, \hspace{1zw} n^3+3, \hspace{1zw} n^5+5, \hspace{1zw} n^7+7 \]
+がすべて素数となるような正の整数$n$は存在しない．これを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2013/2013_3.pdf)

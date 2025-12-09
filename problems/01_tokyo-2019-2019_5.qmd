@@ -1,0 +1,33 @@
+---
+title: "東京大学 2019年 2019_5"
+problem_id: "01_tokyo-2019-2019_5"
+university: "東京大学"
+exam_year: "2019"
+source_tex: "archive/01_tokyo/2019/2019_5.tex"
+pdf_source: "archive/01_tokyo/2019/2019_5.pdf"
+page_image: "archive/01_tokyo/2019/2019_5.jpg"
+fields:
+  - 微分法
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　以下の問いに答えよ。
+\begin{description}
+\item[(1)]$n$を1以上の整数とする。$x$についての方程式
+\[ x^{2n-1}=\cos x \]
+は，ただ一つの実数解$a_n$をもつことを示せ。
+\item[(2)](1)で定まる$a_n$に対し，$\cos a_n>\cos 1$を示せ。
+\item[(3)](1)で定まる数列$a_1, \, a_2, \, a_3, \, \cdots\cdots, \, a_n, \, \cdots\cdots$に対し，
+\[ a=\lim_{n\to\infty}a_n, \hspace{1zw} b=\lim_{n\to\infty}{a_n}^n, \hspace{1zw}
+c=\lim_{n\to\infty}\frac{{a_n}^n-b}{a_n-a} \]
+を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2019/2019_5.pdf)

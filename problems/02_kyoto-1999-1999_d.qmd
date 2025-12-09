@@ -1,0 +1,23 @@
+---
+title: "京都大学 1999年 1999_d"
+problem_id: "02_kyoto-1999-1999_d"
+university: "京都大学"
+exam_year: "1999"
+source_tex: "archive/02_kyoto/1999/1999_d.tex"
+pdf_source: "archive/02_kyoto/1999/1999_d.pdf"
+page_image: "archive/02_kyoto/1999/1999_d.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$\triangle ABC$は鋭角三角形とする．
+このとき，各面すべてが$\triangle ABC$と合同な四面体が存在することを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_d.pdf)

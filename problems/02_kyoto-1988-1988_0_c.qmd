@@ -1,0 +1,25 @@
+---
+title: "京都大学 1988年 1988_0_c"
+problem_id: "02_kyoto-1988-1988_0_c"
+university: "京都大学"
+exam_year: "1988"
+source_tex: "archive/02_kyoto/1988/1988_0_c.tex"
+pdf_source: "archive/02_kyoto/1988/1988_0_c.pdf"
+page_image: "archive/02_kyoto/1988/1988_0_c.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$上の点$P$における接線$l$と，
+原点$O$を通り$l$と直交する直線$l'$との交点を$Q$とする．
+$\theta=\angle POQ$とするとき，$\cos\theta$の最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1988/1988_0_c.pdf)

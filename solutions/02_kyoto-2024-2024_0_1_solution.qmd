@@ -1,0 +1,200 @@
+## 解答
+
+四面体 $OABC$ をベクトルで扱うため，  
+$\vec{OA}=\vec{a},\ \vec{OB}=\vec{b},\ \vec{OC}=\vec{c}$ とおく。
+
+与えられた条件は次のように書き換えられる。
+
+- $OA=OB=OC=1$ より  
+  $$|\vec{a}|=|\vec{b}|=|\vec{c}|=1.$$
+- $\angle AOB=90^\circ$ より  
+  $$\vec{a}\cdot\vec{b}=0.$$
+- $\angle COA=\angle COB$ より，  
+  $$\vec{a}\cdot\vec{c}=\vec{b}\cdot\vec{c}$$
+  が成り立つ（ともに $|\vec{c}|\cos$ の形になり等しいため）。
+- $\angle COA=\angle ACB$ より，$\angle COA$ と $\angle ACB$ の余弦が等しいので，
+  $$\cos\angle COA=\cos\angle ACB.$$
+
+$\cos\angle COA$ は，内積より
+$$
+\cos\angle COA
+=\frac{\vec{a}\cdot\vec{c}}{|\vec{a}||\vec{c}|}
+=\vec{a}\cdot\vec{c}
+$$
+となる（ともに長さ1であるため）。
+
+また，$\cos\angle ACB$ は，三角形 $ABC$ において
+$$
+\cos\angle ACB
+=\frac{\vec{CA}\cdot\vec{CB}}{|\vec{CA}||\vec{CB}|}
+$$
+である。ここで  
+$\vec{CA}=\vec{A}-\vec{C}=\vec{a}-\vec{c},\quad \vec{CB}=\vec{b}-\vec{c}$ なので，
+\[
+\vec{CA}\cdot\vec{CB}
+=(\vec{a}-\vec{c})\cdot(\vec{b}-\vec{c})
+= \vec{a}\cdot\vec{b} - \vec{a}\cdot\vec{c} - \vec{b}\cdot\vec{c} + \vec{c}\cdot\vec{c}.
+\]
+ここで $\vec{a}\cdot\vec{b}=0,\ \vec{a}\cdot\vec{c}=\vec{b}\cdot\vec{c}$，および $|\vec{c}|=1$ より $\vec{c}\cdot\vec{c}=1$ を用いると，
+\[
+\vec{CA}\cdot\vec{CB}
+= 0 - \vec{a}\cdot\vec{c} - \vec{a}\cdot\vec{c} + 1
+= 1 - 2(\vec{a}\cdot\vec{c}).
+\]
+
+さらに
+\[
+|\vec{CA}|^2 = |\vec{a}-\vec{c}|^2
+=|\vec{a}|^2 + |\vec{c}|^2 - 2\vec{a}\cdot\vec{c}
+= 1 + 1 - 2(\vec{a}\cdot\vec{c})
+= 2 - 2(\vec{a}\cdot\vec{c}),
+\]
+同様に
+\[
+|\vec{CB}|^2
+=|\vec{b}-\vec{c}|^2
+=|\vec{b}|^2+|\vec{c}|^2-2\vec{b}\cdot\vec{c}
+=2-2(\vec{b}\cdot\vec{c})
+=2-2(\vec{a}\cdot\vec{c})
+\]
+（$\vec{a}\cdot\vec{c}=\vec{b}\cdot\vec{c}$ に注意）なので，
+\[
+|\vec{CA}|=|\vec{CB}|=\sqrt{2-2(\vec{a}\cdot\vec{c})}.
+\]
+
+よって
+\[
+\cos\angle ACB
+=\frac{\vec{CA}\cdot\vec{CB}}{|\vec{CA}||\vec{CB}|}
+=\frac{1-2(\vec{a}\cdot\vec{c})}{2-2(\vec{a}\cdot\vec{c})}.
+\]
+
+ここで $\cos\angle COA=\cos\angle ACB$ より
+\[
+\vec{a}\cdot\vec{c}
+=\frac{1-2(\vec{a}\cdot\vec{c})}{2-2(\vec{a}\cdot\vec{c})}.
+\]
+
+$\vec{a}\cdot\vec{c}=t$ とおいて整理すると，
+\[
+t = \frac{1-2t}{2-2t}.
+\]
+両辺に $2-2t$ を掛けて
+\[
+t(2-2t)=1-2t
+\]
+\[
+2t-2t^2=1-2t
+\]
+\[
+-2t^2+4t-1=0
+\]
+\[
+2t^2-4t+1=0.
+\]
+これを解の公式で解くと
+\[
+t=\frac{4\pm\sqrt{(-4)^2-4\cdot2\cdot1}}{2\cdot2}
+=\frac{4\pm\sqrt{16-8}}{4}
+=\frac{4\pm\sqrt{8}}{4}
+=\frac{4\pm2\sqrt{2}}{4}
+=1\pm\frac{\sqrt{2}}{2}.
+\]
+
+しかし $t=\vec{a}\cdot\vec{c}=\cos\angle COA$ であり，$\cos\theta$ の値は $-1\le\cos\theta\le1$ を満たす。  
+$1+\frac{\sqrt{2}}{2}>1$ は不適なので，
+\[
+\vec{a}\cdot\vec{c}=t=1-\frac{\sqrt{2}}{2}
+\]
+となる。
+
+同様に $\vec{b}\cdot\vec{c}=\vec{a}\cdot\vec{c}=1-\frac{\sqrt{2}}{2}$ が成り立つ。
+
+---
+
+四面体 $OABC$ の体積 $V$ は，ベクトルの混合積を用いると
+\[
+V=\frac{1}{6}\left| \det(\vec{a},\vec{b},\vec{c}) \right|
+\]
+で与えられる。ここで
+\[
+\det(\vec{a},\vec{b},\vec{c})^2
+\]
+は，グラム行列の行列式を用いて次のように計算できる：
+
+\[
+G=
+\begin{pmatrix}
+\vec{a}\cdot\vec{a} & \vec{a}\cdot\vec{b} & \vec{a}\cdot\vec{c} \\
+\vec{b}\cdot\vec{a} & \vec{b}\cdot\vec{b} & \vec{b}\cdot\vec{c} \\
+\vec{c}\cdot\vec{a} & \vec{c}\cdot\vec{b} & \vec{c}\cdot\vec{c}
+\end{pmatrix}
+=
+\begin{pmatrix}
+1 & 0 & t \\
+0 & 1 & t \\
+t & t & 1
+\end{pmatrix},\quad t=1-\frac{\sqrt{2}}{2}.
+\]
+
+ベクトルの混合積の二乗はこの行列式に等しいので，
+\[
+\det(\vec{a},\vec{b},\vec{c})^2=\det G.
+\]
+
+行列式を計算すると
+\[
+\det G
+=1\cdot
+\begin{vmatrix}
+1 & t\\
+t & 1
+\end{vmatrix}
+-0\cdot(\cdots)
++t\cdot
+\begin{vmatrix}
+0 & 1\\
+t & t
+\end{vmatrix}
+\]
+\[
+=1(1-t^2)+t(0- t)
+=1-t^2 - t^2
+=1-2t^2.
+\]
+
+$t=1-\dfrac{\sqrt{2}}{2}$ を代入して
+\[
+t^2
+=\left(1-\frac{\sqrt{2}}{2}\right)^2
+=1-\sqrt{2}+\frac{1}{2}
+=\frac{3}{2}-\sqrt{2},
+\]
+よって
+\[
+2t^2=3-2\sqrt{2},
+\]
+したがって
+\[
+\det G
+=1-2t^2
+=1-(3-2\sqrt{2})
+=-2+2\sqrt{2}
+=2(\sqrt{2}-1).
+\]
+
+よって
+\[
+\det(\vec{a},\vec{b},\vec{c})^2=2(\sqrt{2}-1)
+\]
+であり，体積は
+\[
+V=\frac{1}{6}\sqrt{\,\det(\vec{a},\vec{b},\vec{c})^2\,}
+=\frac{1}{6}\sqrt{2(\sqrt{2}-1)}.
+\]
+
+以上より，求める四面体 $OABC$ の体積は
+\[
+\boxed{\displaystyle \frac{1}{6}\sqrt{2(\sqrt{2}-1)}}
+\]
+である。

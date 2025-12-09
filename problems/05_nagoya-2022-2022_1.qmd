@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 2022年 2022_1"
+problem_id: "05_nagoya-2022-2022_1"
+university: "名古屋大学"
+exam_year: "2022"
+source_tex: "archive/05_nagoya/2022/2022_1.tex"
+pdf_source: "archive/05_nagoya/2022/2022_1.pdf"
+page_image: "archive/05_nagoya/2022/2022_1.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a, \, b$を実数とする。
+\begin{description}
+\item[(1)]整式$x^3$を2次式${(x-a)}^2$で割ったときの余りを求めよ。
+\item[(2)]実数を係数とする2次式$f(x)=x^2+\alpha x+\beta$で
+整式$x^3$を割ったときの余りが$3x+b$とする。
+$b$の値に応じて，このような$f(x)$が何個あるかを求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2022/2022_1.pdf)

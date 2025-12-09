@@ -1,0 +1,26 @@
+---
+title: "九州大学 1962年 1962_0_2"
+problem_id: "07_kyushu-1962-1962_0_2"
+university: "九州大学"
+exam_year: "1962"
+source_tex: "archive/07_kyushu/1962/1962_0_2.tex"
+pdf_source: "archive/07_kyushu/1962/1962_0_2.pdf"
+page_image: "archive/07_kyushu/1962/1962_0_2.jpg"
+fields:
+  - 代数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\displaystyle\frac{x+y}{2}=\frac{y+z}{3}=\frac{z+x}{7}$なる関係を満たすすべての実数値$x$，$y$，$z$に対して，
+つねに
+\[ x^2+y^2+z^2+a(x+y+z)>-1 \]
+となるような定数$a$のとりうる実数値の範囲を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1962/1962_0_2.pdf)

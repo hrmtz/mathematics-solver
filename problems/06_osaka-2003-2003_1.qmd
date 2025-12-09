@@ -1,0 +1,31 @@
+---
+title: "大阪大学 2003年 2003_1"
+problem_id: "06_osaka-2003-2003_1"
+university: "大阪大学"
+exam_year: "2003"
+source_tex: "archive/06_osaka/2003/2003_1.tex"
+pdf_source: "archive/06_osaka/2003/2003_1.pdf"
+page_image: "archive/06_osaka/2003/2003_1.jpg"
+fields:
+  - 複素数平面
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$を正の実数，$w=a(\cos5^\circ+i\sin5^\circ)$とする．
+ただし$i$は虚数単位である．
+また，複素数の列$\{ z_n \}$を$z_1=w$，$z_{n+1}=z_nw^{2n+1}$ $(n=1, \, 2, \, \cdots)$で定める．
+\begin{description}
+\item[(1)]$z_n$が実数になるための必要十分条件は$n$が6の倍数であることを示せ．
+\item[(2)]複素数平面で原点を$O$とし$z_n$を表す点を$P_n$とする．
+$1 \leqq n \leqq 17$であるような$n$について，
+$\triangle OP_nP_{n+1}$が直角二等辺三角形となるような$n$と$a$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_1.pdf)

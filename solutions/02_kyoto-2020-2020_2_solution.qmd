@@ -1,0 +1,139 @@
+## 解答
+
+(1)  
+
+方程式 $x^2-2px-1=0$ の 2 つの解を $\alpha,\beta$ とすると，解と係数の関係より  
+$$
+\alpha+\beta=2p,\quad \alpha\beta=-1
+$$
+が成り立つ．また $p$ は整数なので，$\alpha+\beta,\ \alpha\beta$ はともに整数である．
+
+ここで列 $u_n=\alpha^n+\beta^n$ を考える．$\alpha,\beta$ はどちらも方程式
+$$
+x^2=2px+1
+$$
+を満たすから，
+$$
+\alpha^2=2p\alpha+1,\quad \beta^2=2p\beta+1
+$$
+が成り立つ．これを用いて $\alpha^{n+2},\beta^{n+2}$ を $\alpha^{n+1},\alpha^n$ の式に書き直すと，
+$$
+\alpha^{n+2}=\alpha^n\alpha^2=\alpha^n(2p\alpha+1)=2p\alpha^{n+1}+\alpha^n,
+$$
+$$
+\beta^{n+2}=\beta^n\beta^2=\beta^n(2p\beta+1)=2p\beta^{n+1}+\beta^n
+$$
+であるから，加えて
+$$
+u_{n+2}=\alpha^{n+2}+\beta^{n+2}
+=2p(\alpha^{n+1}+\beta^{n+1})+(\alpha^n+\beta^n)
+=2pu_{n+1}+u_n
+$$
+を得る．したがって $(u_n)$ は
+$$
+u_{n+2}=2pu_{n+1}+u_n
+$$
+という線形漸化式を満たす．初期値は
+$$
+u_0=\alpha^0+\beta^0=1+1=2,\quad
+u_1=\alpha+\beta=2p
+$$
+であり，いずれも整数である．  
+漸化式の右辺 $2pu_{n+1}+u_n$ は $u_{n+1},u_n$ が整数ならば整数だから，帰納法によりすべての正の整数 $n$ について $u_n=\alpha^n+\beta^n$ は整数である．
+
+次に偶奇を調べる．$u_0=2,\ u_1=2p$ はともに偶数である．いま $u_n,u_{n+1}$ がともに偶数であると仮定すると，
+$$
+u_{n+2}=2pu_{n+1}+u_n
+$$
+の右辺は偶数同士の和なので偶数になる．したがって数学的帰納法により，すべての $n\ge 0$ について $u_n$ は偶数である．  
+特にすべての正の整数 $n$ について，$\alpha^n+\beta^n$ は整数かつ偶数である．
+
+(2)  
+
+まず $\alpha\beta=-1$ から
+$$
+\beta=-\dfrac{1}{\alpha}
+$$
+である．(1) で示したように $u_n=\alpha^n+\beta^n$ は整数なので，
+$$
+\alpha^n+\beta^n=k_n
+$$
+とおくと，$k_n$ は整数である．このとき
+$$
+\alpha^n+\beta^n=\alpha^n-\frac{1}{\alpha^n}=k_n
+$$
+より
+$$
+\alpha^n-\frac{1}{\alpha^n}=k_n
+\quad\Longrightarrow\quad
+\frac{1}{\alpha^n}=\alpha^n-k_n.
+$$
+ここで $k_n$ は整数なので，
+$$
+\alpha^n\pi = k_n\pi + \frac{\pi}{\alpha^n}
+$$
+と書ける．$\sin$ の加法定理と $\sin(m\pi+\theta)=(-1)^m\sin\theta$（$m$ 整数）を用いると，
+$$
+\sin(\alpha^n\pi)
+=\sin\!\left(k_n\pi + \frac{\pi}{\alpha^n}\right)
+=\sin(k_n\pi)\cos\frac{\pi}{\alpha^n}
++\cos(k_n\pi)\sin\frac{\pi}{\alpha^n}
+$$
+だが，$\sin(k_n\pi)=0,\ \cos(k_n\pi)=(-1)^{k_n}$ だから
+$$
+\sin(\alpha^n\pi)
+=(-1)^{k_n}\sin\frac{\pi}{\alpha^n}
+$$
+となる．よって
+$$
+(-\alpha)^n\sin(\alpha^n\pi)
+=(-1)^n\alpha^n\cdot(-1)^{k_n}\sin\frac{\pi}{\alpha^n}
+=(-1)^{n+k_n}\,\alpha^n\sin\frac{\pi}{\alpha^n}.
+$$
+
+ここで $t=\dfrac{\pi}{\alpha^n}$ とおくと，$|\alpha|>1$ より $|\alpha|^n\to\infty$ だから $t\to 0$ である．
+$\lim_{t\to 0}\dfrac{\sin t}{t}=1$ を用いると
+$$
+\alpha^n\sin\frac{\pi}{\alpha^n}
+=\alpha^n\cdot\frac{\pi}{\alpha^n}\cdot\frac{\sin(\pi/\alpha^n)}{\pi/\alpha^n}
+=\pi\cdot\frac{\sin(\pi/\alpha^n)}{\pi/\alpha^n}
+\longrightarrow \pi
+\quad(n\to\infty)
+$$
+となる．したがって大きさは
+$$
+\left|(-\alpha)^n\sin(\alpha^n\pi)\right|
+=\left|\alpha^n\sin\frac{\pi}{\alpha^n}\right|\longrightarrow \pi
+$$
+である．一方，符号は $(-1)^{n+k_n}$ によって決まり，$n$ に依存して振動し，極限値に収束しない可能性がある．
+
+実際，この符号は収束しない．$\alpha>1,\ \beta=-1/\alpha<0$ であることに注意する（2 次方程式の解で一方の絶対値が 1 より大きければ，他方は絶対値 1 より小さく，かつ積が $-1$ なので符号が反対である）．
+$\beta^n=(-1)^n/\alpha^n$ だから
+$$
+\alpha^n+\beta^n=\alpha^n+\frac{(-1)^n}{\alpha^n}
+$$
+であり，$n$ が偶数のときは
+$$
+\alpha^n+\beta^n=\alpha^n+\frac{1}{\alpha^n} >0,
+$$
+$n$ が奇数のときは
+$$
+\alpha^n+\beta^n=\alpha^n-\frac{1}{\alpha^n} >0
+$$
+で，いずれも正である．したがって $k_n=\alpha^n+\beta^n$ は常に正の偶整数であり，特に $k_n$ は偶数であるから $(-1)^{k_n}=1$ である．すると
+$$
+(-1)^{n+k_n}=(-1)^n
+$$
+となり，
+$$
+(-\alpha)^n\sin(\alpha^n\pi)
+=(-1)^n\,\alpha^n\sin\frac{\pi}{\alpha^n}
+\longrightarrow (-1)^n\pi
+$$
+と振動し，極限は存在しない．
+
+したがって
+$$
+\lim_{n\to\infty}{(-\alpha)}^n\sin(\alpha^n\pi)
+$$
+は存在しない。

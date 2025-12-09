@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 1986年 1986_5"
+problem_id: "08_titech-1986-1986_5"
+university: "東京科学大学"
+exam_year: "1986"
+source_tex: "archive/08_titech/1986/1986_5.tex"
+pdf_source: "archive/08_titech/1986/1986_5.pdf"
+page_image: "archive/08_titech/1986/1986_5.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$m$，$n$を自然数とする．
+第1象限内の曲線$x^\frac{1}{m}+y^\frac{1}{n}=1$と$x$軸，$y$軸とで囲まれる部分の面積を$A(m, \, n)$とする．
+\begin{description}
+\item[(1)]$A(m, \, 1)$を求めよ．
+\item[(2)]$\displaystyle A(m, \, n+1)=\frac{n+1}{m+1}A(m+1, \, n)$であることを示せ．
+\item[(3)]$A(m, \, n)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1986/1986_5.pdf)

@@ -1,0 +1,34 @@
+---
+title: "北海道大学 2004年 2004_1"
+problem_id: "03_hokudai-2004-2004_1"
+university: "北海道大学"
+exam_year: "2004"
+source_tex: "archive/03_hokudai/2004/2004_1.tex"
+pdf_source: "archive/03_hokudai/2004/2004_1.pdf"
+page_image: "archive/03_hokudai/2004/2004_1.jpg"
+fields:
+  - 複素数平面
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の漸化式で定義される複素数の数列
+$z_1=1$，$\displaystyle z_{n+1}=\frac{1+i\sqrt3}{2}z_n+1$ $(n=1,2,\cdots)$
+を考える．
+ただし，$i$は虚数単位である．
+\begin{description}
+\item[(1)]$z_2$，$z_3$を求めよ．
+\item[(2)]上の漸化式を
+$\displaystyle z_{n+1}-\alpha=\frac{1+i\sqrt3}{2}(z_n-\alpha)$
+と表したとき，複素数$\alpha$を求めよ．
+\item[(3)]一般項$z_n$を求めよ．
+\item[(4)]$\displaystyle z_n=-\frac{1-i\sqrt3}{2}$となるような自然数$n$をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2004/2004_1.pdf)

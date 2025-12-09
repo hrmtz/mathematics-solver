@@ -1,0 +1,323 @@
+## 解答
+
+### 問1
+
+複素数 $z$ が絶対値 $2$ の複素数全体を動く，すなわち $|z|=2$ をみたすとき  
+$$
+\left|z-\frac{i}{z}\right|
+$$
+の最大値と最小値を求める。
+
+$|z|=2$ より $z\neq0$ であるから，$w=\dfrac{i}{z}$ とおくことができる。  
+このとき
+$$
+|w|=\left|\frac{i}{z}\right|=\frac{|i|}{|z|}=\frac{1}{2}
+$$
+であり，さらに
+$$
+zw=i
+$$
+が成り立つ。したがって $z$ と $w$ はともに複素平面上の点とみなすとき，  
+原点を中心とする円
+$$
+|z|=2,\quad |w|=\frac12
+$$
+上にあり，かつ積が $i$ である関係をもつ。
+
+ここで
+$$
+\left|z-\frac{i}{z}\right|=|z-w|
+$$
+である。したがって，問題は
+
+> 原点中心の円 $|z|=2$ 上の点 $z$ と，原点中心の円 $|w|=\dfrac12$ 上の点 $w$ で $zw=i$ をみたすとき，距離 $|z-w|$ の最大値・最小値を求める
+
+という問題になっている。
+
+$zw=i$ は極形式で表すと理解しやすい。  
+$z=2(\cos\theta+i\sin\theta)$ とおくと
+$$
+z=2e^{i\theta}\quad (\theta\in\mathbb{R})
+$$
+と書ける。すると
+$$
+w=\frac{i}{z}=\frac{e^{\frac{\pi}{2}i}}{2e^{i\theta}}
+=\frac12 e^{i\left(\frac{\pi}{2}-\theta\right)}.
+$$
+よって $w$ もまた原点中心半径 $\dfrac12$ の円周上にあり，$z$ と $w$ の偏角の関係は
+$$
+\arg z=\theta,\quad \arg w=\frac{\pi}{2}-\theta
+$$
+である。
+
+したがって，複素平面上でベクトルとしてみると
+$$
+\overrightarrow{OZ}=2e^{i\theta},\quad
+\overrightarrow{OW}=\frac12 e^{i\left(\frac{\pi}{2}-\theta\right)}.
+$$
+
+このとき，2点間の距離 $|z-w|$ は余弦定理から求められる。  
+三角形 $OZW$ について
+- $OZ=|z|=2$
+- $OW=|w|=\dfrac12$
+- $\angle ZOW$ は，$\arg z=\theta$，$\arg w=\dfrac{\pi}{2}-\theta$ より
+  $$
+  \angle ZOW=\left(\frac{\pi}{2}-\theta\right)-\theta=\frac{\pi}{2}-2\theta
+  $$
+
+よって余弦定理により
+$$
+|z-w|^2=OZ^2+OW^2-2\cdot OZ\cdot OW\cos\angle ZOW
+$$
+すなわち
+$$
+|z-w|^2
+=2^2+\left(\frac12\right)^2-2\cdot2\cdot\frac12\cos\left(\frac{\pi}{2}-2\theta\right)
+=4+\frac14-2\cos\left(\frac{\pi}{2}-2\theta\right).
+$$
+ここで $\cos\left(\dfrac{\pi}{2}-2\theta\right)=\sin2\theta$ であるから
+$$
+|z-w|^2
+=4+\frac14-2\sin2\theta
+=\frac{17}{4}-2\sin2\theta.
+$$
+
+したがって，$|z-w|^2$ は実数 $\sin2\theta$ の一次式で表されている。  
+$\sin2\theta$ は $-1\le\sin2\theta\le1$ をみたすから，$|z-w|^2$ は
+
+- 最大値：$\sin2\theta=-1$ のとき
+  $$
+  |z-w|^2_{\max}
+  =\frac{17}{4}-2(-1)
+  =\frac{17}{4}+2
+  =\frac{17}{4}+\frac{8}{4}
+  =\frac{25}{4}
+  $$
+  よって
+  $$
+  |z-w|_{\max}=\sqrt{\frac{25}{4}}=\frac52
+  $$
+
+- 最小値：$\sin2\theta=1$ のとき
+  $$
+  |z-w|^2_{\min}
+  =\frac{17}{4}-2
+  =\frac{17}{4}-\frac{8}{4}
+  =\frac{9}{4}
+  $$
+  よって
+  $$
+  |z-w|_{\min}=\sqrt{\frac{9}{4}}=\frac32
+  $$
+
+となる。
+
+したがって
+$$
+\left|z-\frac{i}{z}\right| \text{ の最大値は } \frac52,\quad
+\left|z-\frac{i}{z}\right| \text{ の最小値は } \frac32
+$$
+である。
+
+---
+
+### 問2
+
+#### (1)
+
+$$
+\int_0^{\sqrt3}\frac{x\sqrt{x^2+1}+2x^3+1}{x^2+1}\,dx
+$$
+を計算する。
+
+まず分数を分ける：
+$$
+\frac{x\sqrt{x^2+1}+2x^3+1}{x^2+1}
+=\frac{x\sqrt{x^2+1}}{x^2+1}+\frac{2x^3+1}{x^2+1}.
+$$
+
+第2項を多項式と真分数に分解する。  
+割り算を用いて
+$$
+\frac{2x^3+1}{x^2+1}
+=2x-\frac{2x}{x^2+1}+\frac{1}{x^2+1}
+$$
+である（実際に展開して確認すると
+$2x(x^2+1)=2x^3+2x$ なので  
+$2x^3+1=(2x^3+2x)+(-2x+1)$，よって  
+$\dfrac{2x^3+1}{x^2+1}=2x+\dfrac{-2x+1}{x^2+1}
+=2x-\dfrac{2x}{x^2+1}+\dfrac{1}{x^2+1}$）。
+
+したがって
+$$
+\frac{x\sqrt{x^2+1}+2x^3+1}{x^2+1}
+=\frac{x\sqrt{x^2+1}}{x^2+1}+2x-\frac{2x}{x^2+1}+\frac{1}{x^2+1}.
+$$
+
+よって積分は
+$$
+\int_0^{\sqrt3}\frac{x\sqrt{x^2+1}+2x^3+1}{x^2+1}\,dx
+=\int_0^{\sqrt3}\frac{x\sqrt{x^2+1}}{x^2+1}\,dx
++\int_0^{\sqrt3}2x\,dx
+-\int_0^{\sqrt3}\frac{2x}{x^2+1}\,dx
++\int_0^{\sqrt3}\frac{1}{x^2+1}\,dx
+$$
+となる。
+
+それぞれを計算する。
+
+1つ目の積分では置換積分を用いる。  
+$u=x^2+1$ とおけば $du=2x\,dx$，よって $x\,dx=\dfrac12 du$ であり，
+$$
+\frac{x\sqrt{x^2+1}}{x^2+1}\,dx
+=\frac{\sqrt{x^2+1}}{x^2+1}\cdot x\,dx
+=\frac{\sqrt{u}}{u}\cdot\frac12\,du
+=\frac12 u^{-\frac12}\,du.
+$$
+このとき，$x=0$ のとき $u=1$，$x=\sqrt3$ のとき $u=3+1=4$ なので
+$$
+\int_0^{\sqrt3}\frac{x\sqrt{x^2+1}}{x^2+1}\,dx
+=\int_{1}^{4}\frac12 u^{-\frac12}\,du
+=\frac12\cdot\left[2u^{\frac12}\right]_{u=1}^{u=4}
+=\left[\sqrt{u}\right]_{1}^{4}
+=2-1=1.
+$$
+
+2つ目の積分は
+$$
+\int_0^{\sqrt3}2x\,dx
+=\left[x^2\right]_0^{\sqrt3}
+=(\sqrt3)^2-0=3.
+$$
+
+3つ目の積分は，同じく置換積分または基本形を用いて
+$$
+\int_0^{\sqrt3}\frac{2x}{x^2+1}\,dx
+=\left[\ln(x^2+1)\right]_0^{\sqrt3}
+=\ln(3+1)-\ln(0+1)
+=\ln4-\ln1=\ln4.
+$$
+
+4つ目の積分は $\dfrac{1}{x^2+1}$ の原始関数が $\arctan x$ であることから
+$$
+\int_0^{\sqrt3}\frac{1}{x^2+1}\,dx
+=\left[\arctan x\right]_0^{\sqrt3}
+=\arctan(\sqrt3)-\arctan(0)
+=\frac{\pi}{3}-0
+=\frac{\pi}{3}.
+$$
+
+以上をまとめると
+$$
+\int_0^{\sqrt3}\frac{x\sqrt{x^2+1}+2x^3+1}{x^2+1}\,dx
+=1+3-\ln4+\frac{\pi}{3}
+=4-\ln4+\frac{\pi}{3}
+$$
+である。
+
+よって
+$$
+\boxed{\displaystyle \int_0^{\sqrt3}\frac{x\sqrt{x^2+1}+2x^3+1}{x^2+1}\,dx
+=4-\ln4+\frac{\pi}{3}}
+$$
+となる。
+
+---
+
+#### (2)
+
+$$
+\int_0^{\frac{\pi}{2}}\sqrt{\frac{1-\cos x}{1+\cos x}}\,dx
+$$
+を計算する。
+
+まず三角恒等式
+$$
+1-\cos x=2\sin^2\frac{x}{2},\qquad
+1+\cos x=2\cos^2\frac{x}{2}
+$$
+を用いると
+$$
+\frac{1-\cos x}{1+\cos x}
+=\frac{2\sin^2\frac{x}{2}}{2\cos^2\frac{x}{2}}
+=\tan^2\frac{x}{2}.
+$$
+したがって，被積分関数は
+$$
+\sqrt{\frac{1-\cos x}{1+\cos x}}
+=\sqrt{\tan^2\frac{x}{2}}.
+$$
+
+ここで平方根の性質から $\sqrt{y^2}=|y|$ であることに注意する。  
+したがって
+$$
+\sqrt{\tan^2\frac{x}{2}}=\left|\tan\frac{x}{2}\right|
+$$
+である。積分区間 $0\le x\le\dfrac{\pi}{2}$ では $0\le\dfrac{x}{2}\le\dfrac{\pi}{4}$ であり，  
+この範囲で $\tan\frac{x}{2}\ge0$ なので
+$$
+\left|\tan\frac{x}{2}\right|=\tan\frac{x}{2}
+$$
+が成り立つ。よって
+$$
+\sqrt{\frac{1-\cos x}{1+\cos x}}=\tan\frac{x}{2}
+$$
+である。
+
+したがって積分は
+$$
+\int_0^{\frac{\pi}{2}}\sqrt{\frac{1-\cos x}{1+\cos x}}\,dx
+=\int_0^{\frac{\pi}{2}}\tan\frac{x}{2}\,dx
+$$
+となる。
+
+ここで置換積分を用いる。  
+$t=\dfrac{x}{2}$ とおくと $x=2t$，$dx=2\,dt$ であり，  
+$x=0$ のとき $t=0$，$x=\dfrac{\pi}{2}$ のとき $t=\dfrac{\pi}{4}$ であるから
+$$
+\int_0^{\frac{\pi}{2}}\tan\frac{x}{2}\,dx
+=\int_0^{\frac{\pi}{4}}\tan t\cdot2\,dt
+=2\int_0^{\frac{\pi}{4}}\tan t\,dt.
+$$
+
+$\tan t$ の原始関数は
+$$
+\int\tan t\,dt
+=\int\frac{\sin t}{\cos t}\,dt
+=-\ln|\cos t|+C
+$$
+であるから
+$$
+2\int_0^{\frac{\pi}{4}}\tan t\,dt
+=2\left[-\ln|\cos t|\right]_0^{\frac{\pi}{4}}
+=2\left(-\ln\cos\frac{\pi}{4}+\ln\cos0\right).
+$$
+
+$\cos\dfrac{\pi}{4}=\dfrac{\sqrt2}{2}$，$\cos0=1$ より
+$$
+-2\ln\cos\frac{\pi}{4}+2\ln\cos0
+=-2\ln\frac{\sqrt2}{2}+2\ln1
+=-2\ln\frac{1}{\sqrt2}
+=-2(-\ln\sqrt2)
+=2\ln\sqrt2.
+$$
+さらに $\ln\sqrt2=\dfrac12\ln2$ であるから
+$$
+2\ln\sqrt2=2\cdot\frac12\ln2=\ln2.
+$$
+
+よって
+$$
+\boxed{\displaystyle \int_0^{\frac{\pi}{2}}\sqrt{\frac{1-\cos x}{1+\cos x}}\,dx=\ln2}
+$$
+となる。
+
+---
+
+以上より，問1および問2の解答は
+
+- 問1：最大値 $\dfrac52$，最小値 $\dfrac32$
+- 問2(1)：$4-\ln4+\dfrac{\pi}{3}$
+- 問2(2)：$\ln2$
+
+である。

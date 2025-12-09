@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 1981年 1981_4"
+problem_id: "08_titech-1981-1981_4"
+university: "東京科学大学"
+exam_year: "1981"
+source_tex: "archive/08_titech/1981/1981_4.tex"
+pdf_source: "archive/08_titech/1981/1981_4.pdf"
+page_image: "archive/08_titech/1981/1981_4.jpg"
+fields:
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　区間$0<t\leqq1$において
+$\displaystyle F(t)=\frac{1}{t}\int_0^{\frac{\pi}{2}t}|\cos2x|dx$とおく．
+\begin{description}
+\item[(1)]$\displaystyle\lim_{t\to0}F(t)$を求めよ．
+\item[(2)]$F(t)\geqq1$となる$t$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1981/1981_4.pdf)

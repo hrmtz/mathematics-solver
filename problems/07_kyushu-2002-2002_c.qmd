@@ -1,0 +1,31 @@
+---
+title: "九州大学 2002年 2002_c"
+problem_id: "07_kyushu-2002-2002_c"
+university: "九州大学"
+exam_year: "2002"
+source_tex: "archive/07_kyushu/2002/2002_c.tex"
+pdf_source: "archive/07_kyushu/2002/2002_c.pdf"
+page_image: "archive/07_kyushu/2002/2002_c.jpg"
+fields:
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$を実数とし$\displaystyle f(a)=\int_{-1}^1|e^x-a|dx$とおく．
+\begin{description}
+\item[(1)]上記右辺の定積分を求めよ．
+\item[(2)]$a$がすべての実数の値をとって動くとき，
+$f(a)$を最小にする$a$の値と$f(a)$の最小値を求めよ．
+\item[(3)]$2.7<e<2.8$であることを用いて$\displaystyle\frac{2}{3}<\log2<\frac{4}{5}$を示せ．
+さらにこの結果を利用して，区間$0 \leqq a \leqq 2$における$f(a)$の最大値を求めよ．
+ただし，$\log$は自然対数を表す．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2002/2002_c.pdf)

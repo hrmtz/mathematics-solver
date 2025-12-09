@@ -1,0 +1,24 @@
+---
+title: "大阪大学 2020年 2020_0_3"
+problem_id: "06_osaka-2020-2020_0_3"
+university: "大阪大学"
+exam_year: "2020"
+source_tex: "archive/06_osaka/2020/2020_0_3.tex"
+pdf_source: "archive/06_osaka/2020/2020_0_3.pdf"
+page_image: "archive/06_osaka/2020/2020_0_3.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　三角形$ABC$において，辺$AB$の長さを$c$，辺$CA$の長さを$b$で表す．
+$\angle ACB=3\angle ABC$であるとき，$c<3b$を示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2020/2020_0_3.pdf)

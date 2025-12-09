@@ -1,0 +1,31 @@
+---
+title: "大阪大学 1972年 1972_3"
+problem_id: "06_osaka-1972-1972_3"
+university: "大阪大学"
+exam_year: "1972"
+source_tex: "archive/06_osaka/1972/1972_3.tex"
+pdf_source: "archive/06_osaka/1972/1972_3.pdf"
+page_image: "archive/06_osaka/1972/1972_3.jpg"
+fields:
+  - 複素数平面
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$x$に関する2次方程式$x^2-4x\sin\theta+2\tan\theta=0$
+（ただし，$\displaystyle-\frac{\pi}{2}<\theta<\frac{\pi}{2}$とする）がある．
+複素平面において，上の方程式の2根を表す点を$P$，$Q$とし，
+原点を$O$とするとき
+\begin{description}
+\item[(1)]平面上のベクトル$\overrightarrow{OP}$と$\overrightarrow{OQ}$の内積を$\theta$を用いて表せ．
+\item[(2)]3角形$OPQ$が直角3角形になるように$\theta$の値を定めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1972/1972_3.pdf)

@@ -1,0 +1,25 @@
+---
+title: "九州大学 2019年 2019_0_2"
+problem_id: "07_kyushu-2019-2019_0_2"
+university: "九州大学"
+exam_year: "2019"
+source_tex: "archive/07_kyushu/2019/2019_0_2.tex"
+pdf_source: "archive/07_kyushu/2019/2019_0_2.pdf"
+page_image: "archive/07_kyushu/2019/2019_0_2.jpg"
+fields:
+  - 微分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$k$を実数とする。3次関数$y=x^3-kx^2+kx+1$が極大値と極小値をもち，
+極大値から極小値を引いた値が$4{|k|}^3$になるとする。
+このとき，$k$の値を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2019/2019_0_2.pdf)

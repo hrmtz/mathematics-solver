@@ -1,0 +1,27 @@
+---
+title: "京都大学 2020年 2020_1"
+problem_id: "02_kyoto-2020-2020_1"
+university: "京都大学"
+exam_year: "2020"
+source_tex: "archive/02_kyoto/2020/2020_1.tex"
+pdf_source: "archive/02_kyoto/2020/2020_1.pdf"
+page_image: "archive/02_kyoto/2020/2020_1.jpg"
+fields:
+  - 複素数平面
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a, \, b$は実数で，$a>0$とする．$z$に関する方程式
+\[ z^3+3az^2+bz+1=0 \hspace{1zw} \text{（＊）} \]
+は3つの相異なる解を持ち，
+それらは複素数平面上で一辺の長さが$\sqrt3 \, a$の正三角形の頂点となっているとする．
+このとき，$a, \, b$と（＊）の3つの解を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2020/2020_1.pdf)

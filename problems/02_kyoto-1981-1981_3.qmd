@@ -1,0 +1,25 @@
+---
+title: "京都大学 1981年 1981_3"
+problem_id: "02_kyoto-1981-1981_3"
+university: "京都大学"
+exam_year: "1981"
+source_tex: "archive/02_kyoto/1981/1981_3.tex"
+pdf_source: "archive/02_kyoto/1981/1981_3.pdf"
+page_image: "archive/02_kyoto/1981/1981_3.jpg"
+fields:
+  - 不等式
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$k$は定数，$m$は一つの自然数とする．
+　$x>0$のとき，つねに$x^m-1 \leqq k(x^{m+1}-1)$であるならば，
+$\displaystyle k=\frac{m}{m+1}$であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1981/1981_3.pdf)

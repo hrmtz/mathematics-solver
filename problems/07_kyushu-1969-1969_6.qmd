@@ -1,0 +1,30 @@
+---
+title: "九州大学 1969年 1969_6"
+problem_id: "07_kyushu-1969-1969_6"
+university: "九州大学"
+exam_year: "1969"
+source_tex: "archive/07_kyushu/1969/1969_6.tex"
+pdf_source: "archive/07_kyushu/1969/1969_6.pdf"
+page_image: "archive/07_kyushu/1969/1969_6.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　曲線$y=\log x$（ただし，$\log$は自然対数）と，
+3つの直線$y=x$，$x=a$，$x=a+1$（ただし$a>0$）で囲まれる部分の面積を$S$とする．
+\begin{description}
+\item[(1)]$S$を$a$で表わせ．
+\item[(2)]$S$を最小にする$a$の値を求めよ．
+また，$S$の最小値を次の形にかいたとき，$k$を自然対数の底$e$を使って表わせ．
+\[ S\text{の最小値}=\frac{1}{2}+\log k \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1969/1969_6.pdf)

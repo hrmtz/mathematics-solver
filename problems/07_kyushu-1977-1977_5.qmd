@@ -1,0 +1,32 @@
+---
+title: "九州大学 1977年 1977_5"
+problem_id: "07_kyushu-1977-1977_5"
+university: "九州大学"
+exam_year: "1977"
+source_tex: "archive/07_kyushu/1977/1977_5.tex"
+pdf_source: "archive/07_kyushu/1977/1977_5.pdf"
+page_image: "archive/07_kyushu/1977/1977_5.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　関数$f(x)$が
+$f(x)=\begin{cases} x & (0\leqq x \leqq1\text{のとき}) 
+
+ 2-x & (1\leqq x \leqq2\text{のとき}) \end{cases}$
+と定義されているとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$\displaystyle S_0=\int_0^2f(x)e^{-x}dx$を求めよ．
+\item[(2)]$\displaystyle S_n=\int_{2n}^{2n+2}f(x-2n)e^{-x}dx$を求めよ．
+ただし，$n$は正整数とする．
+\item[(3)]無限級数$\displaystyle\sum_{n=0}^\infty S_n$の和を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1977/1977_5.pdf)

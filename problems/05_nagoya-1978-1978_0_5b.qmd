@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1978年 1978_0_5b"
+problem_id: "05_nagoya-1978-1978_0_5b"
+university: "名古屋大学"
+exam_year: "1978"
+source_tex: "archive/05_nagoya/1978/1978_0_5b.tex"
+pdf_source: "archive/05_nagoya/1978/1978_0_5b.pdf"
+page_image: "archive/05_nagoya/1978/1978_0_5b.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5 (b)
+　$y$軸に平行な2直線$x=a$，$x=b$ $(0<a<b<\pi)$と曲線$y=\sin x$の交点をそれぞれ$A$，$B$とする．
+直線$y=px+q$がこの曲線と$A$，$B$の間で接し，
+かつ定積分$\displaystyle I=\int_a^b(px+q-\sin x)dx$が最小となるような$p$および$q$を求めよ．
+また，そのときの$I$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1978/1978_0_5b.pdf)

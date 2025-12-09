@@ -1,0 +1,28 @@
+---
+title: "九州大学 2017年 2017_3"
+problem_id: "07_kyushu-2017-2017_3"
+university: "九州大学"
+exam_year: "2017"
+source_tex: "archive/07_kyushu/2017/2017_3.tex"
+pdf_source: "archive/07_kyushu/2017/2017_3.pdf"
+page_image: "archive/07_kyushu/2017/2017_3.jpg"
+fields:
+  - 整数
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　初項$a_1=1$，公差4の等差数列$\{ a_n \}$を考える。以下の問いに答えよ。
+\begin{description}
+\item[(1)]$\{ a_n \}$の初項から第600項のうち，7の倍数である項の個数を求めよ。
+\item[(2)]$\{ a_n \}$の初項から第600項のうち，$7^2$の倍数である項の個数を求めよ。
+\item[(3)]初項から第$n$項までの積$a_1a_2\cdots a_n$が$7^{45}$の倍数となる最小の自然数$n$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_3.pdf)

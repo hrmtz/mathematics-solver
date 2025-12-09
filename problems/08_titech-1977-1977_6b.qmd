@@ -1,0 +1,31 @@
+---
+title: "東京科学大学 1977年 1977_6b"
+problem_id: "08_titech-1977-1977_6b"
+university: "東京科学大学"
+exam_year: "1977"
+source_tex: "archive/08_titech/1977/1977_6b.tex"
+pdf_source: "archive/08_titech/1977/1977_6b.pdf"
+page_image: "archive/08_titech/1977/1977_6b.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+6 (b)
+　$\begin{pmatrix} r\cos\theta & -r\sin\theta
+r\sin\theta & r\cos\theta \end{pmatrix}$ $(r>0)$の形の
+相異なる3個の行列からなる集合$S$が，
+　条件：$S$に属する任意の行列の積はふたたび$S$に属する．
+を満たすとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$\begin{pmatrix} r\cos\theta & -r\sin\theta
+r\sin\theta & r\cos\theta \end{pmatrix} \in S$のとき，$r$を求めよ．
+\item[(2)]$S$を定めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1977/1977_6b.pdf)

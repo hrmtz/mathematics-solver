@@ -1,0 +1,33 @@
+---
+title: "東京大学 2018年 2018_5"
+problem_id: "01_tokyo-2018-2018_5"
+university: "東京大学"
+exam_year: "2018"
+source_tex: "archive/01_tokyo/2018/2018_5.tex"
+pdf_source: "archive/01_tokyo/2018/2018_5.pdf"
+page_image: "archive/01_tokyo/2018/2018_5.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　複素数平面上の原点を中心とする半径1の円を$C$とする。
+点$P(z)$は$C$上にあり，点$A(1)$とは異なるとする。
+点$P$における円$C$の接線に関して，点$A$と対称な点を$Q(u)$とする。
+$\displaystyle w=\frac{1}{1-u}$とおき，$w$と共役な複素数を$\overline{w}$で表す。
+\begin{description}
+\item[(1)]$u$と$\displaystyle\frac{\overline{w}}{w}$を
+$z$についての整式として表し，
+絶対値の商$\displaystyle\frac{|w+\overline{w}-1|}{|w|}$を求めよ。
+\item[(2)]$C$のうち実部が$\displaystyle\frac{1}{2}$以下の複素数で
+表される部分を$C'$とする。
+点$P(z)$が$C'$上を動くときの点$R(w)$の軌跡を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2018/2018_5.pdf)

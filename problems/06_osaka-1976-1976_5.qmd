@@ -1,0 +1,37 @@
+---
+title: "大阪大学 1976年 1976_5"
+problem_id: "06_osaka-1976-1976_5"
+university: "大阪大学"
+exam_year: "1976"
+source_tex: "archive/06_osaka/1976/1976_5.tex"
+pdf_source: "archive/06_osaka/1976/1976_5.pdf"
+page_image: "archive/06_osaka/1976/1976_5.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　4けたの自然数$A$の平方根を求めるために次の手順がある．
+\begin{description}
+\item[(i)]下から2けた目と3けた目の間に仕切りを入れ，
+上2けた，下2けたの表す数をそれぞれ$a$，$b$とする$(10\leqq a<100, \, 0 \leqq b<100)$．
+\item[(ii)]$\alpha$は$a\geqq\alpha^2$であるような最大の整数とする．
+\item[(iii)]$c=a-\alpha^2$，$d=c \times 100+b$とする．
+\item[(iv)]$\beta$は$d\geqq(\alpha \times 20+\beta)\times\beta$であるような最大の整数とする．
+\item[(v)]$B=\alpha\times10+\beta$，$e=d-(\alpha\times20+\beta)\times\beta$とする．
+\end{description}
+この手順による計算に対し，次のことを証明せよ．
+\begin{description}
+\item[(1)]$\beta\leqq9$
+\item[(2)]${(B+1)}^2>A\geqq B^2$
+\item[(3)]$A$がある自然数の2乗であるための必要十分条件は$e=0$である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1976/1976_5.pdf)

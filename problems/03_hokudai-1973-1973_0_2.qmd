@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1973年 1973_0_2"
+problem_id: "03_hokudai-1973-1973_0_2"
+university: "北海道大学"
+exam_year: "1973"
+source_tex: "archive/03_hokudai/1973/1973_0_2.tex"
+pdf_source: "archive/03_hokudai/1973/1973_0_2.pdf"
+page_image: "archive/03_hokudai/1973/1973_0_2.jpg"
+fields:
+  - 複素数平面
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+\item[(1)]$z=-1+ti$，ただし$i=\sqrt{-1}$，$t>0$とする．
+数列$z, \, z^2, \, \cdots\cdots, \, z^n, \, \cdots\cdots$のうちで
+最初に実数となる項が$z^{12}$であるとき
+$z$の偏角$\theta$を求めよ．
+\item[(2)]$t$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1973/1973_0_2.pdf)

@@ -1,0 +1,37 @@
+---
+title: "北海道大学 1962年 1962_1"
+problem_id: "03_hokudai-1962-1962_1"
+university: "北海道大学"
+exam_year: "1962"
+source_tex: "archive/03_hokudai/1962/1962_1.tex"
+pdf_source: "archive/03_hokudai/1962/1962_1.pdf"
+page_image: "archive/03_hokudai/1962/1962_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]図のように2点$A$，$B$と直線$l$とが与えられている。
+この2点を通り$l$に接する円をかけ。（作図のみでよい）
+ 
+
+![](../archive/03_hokudai/1962/fig_1962_1_1.jpg)
+
+
+
+
+![](../archive/03_hokudai/1962/fig_1962_1_2.jpg)
+
+
+\item[(2)]図のように2点$C$，$D$と円$O$とが与えられている。
+この円の1つの直径$PQ$を引き$PC=QD$になるようにせよ。（作図のみでよい）
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1962/1962_1.pdf)

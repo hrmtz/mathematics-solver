@@ -1,0 +1,31 @@
+---
+title: "大阪大学 2007年 2007_a"
+problem_id: "06_osaka-2007-2007_a"
+university: "大阪大学"
+exam_year: "2007"
+source_tex: "archive/06_osaka/2007/2007_a.tex"
+pdf_source: "archive/06_osaka/2007/2007_a.pdf"
+page_image: "archive/06_osaka/2007/2007_a.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　自然数$r$と負でない整数$a_1, \, a_2, \, \cdots, \, a_r$が次の4つの条件を満たすとする．
+\[ \text{\ding{"AC}} \hspace{1zw} r\geqq3 \hspace{1zw}
+\text{\ding{"AD}} \hspace{1zw} \sum_{k=1}^rka_k=24 \hspace{1zw}
+\text{\ding{"AE}} \hspace{1zw} a_1+a_2+\cdots+a_r\geqq20 \hspace{1zw}
+\text{\ding{"AF}} \hspace{1zw} a_r>0 \]
+\begin{description}
+\item[(1)]$a_2+2a_3+\cdots+(r-1)a_r\leqq4$を示せ．
+\item[(2)]$r\leqq5$を示せ．
+\item[(3)]条件を満たす$r$とそのときの$a_1, \, a_2, \, \cdots, \, a_r$の組をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2007/2007_a.pdf)

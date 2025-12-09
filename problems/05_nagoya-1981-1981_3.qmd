@@ -1,0 +1,25 @@
+---
+title: "名古屋大学 1981年 1981_3"
+problem_id: "05_nagoya-1981-1981_3"
+university: "名古屋大学"
+exam_year: "1981"
+source_tex: "archive/05_nagoya/1981/1981_3.tex"
+pdf_source: "archive/05_nagoya/1981/1981_3.pdf"
+page_image: "archive/05_nagoya/1981/1981_3.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$n$を3以上の自然数とし，
+関数$\displaystyle f(x)=\left| \frac{x(x-n)}{x^2+1} \right|$の
+$x\geqq0$における最大値を$a_n$とする．
+$\displaystyle\lim_{n\to\infty}\frac{a_n}{n}$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1981/1981_3.pdf)

@@ -1,0 +1,34 @@
+---
+title: "大阪大学 2021年 2021_1"
+problem_id: "06_osaka-2021-2021_1"
+university: "大阪大学"
+exam_year: "2021"
+source_tex: "archive/06_osaka/2021/2021_1.tex"
+pdf_source: "archive/06_osaka/2021/2021_1.pdf"
+page_image: "archive/06_osaka/2021/2021_1.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a, \, b$を$ab<1$をみたす正の実数とする．
+$xy$平面上の点$P(a, \, b)$から，
+曲線$\displaystyle y=\frac{1}{x}$ $(x>0)$に2本の接線を引き，
+その接点を$\displaystyle Q \left( s, \, \frac{1}{s} \right)$,
+$\displaystyle R \left( t, \, \frac{1}{t} \right)$とする．
+ただし，$s<t$とする．
+\begin{description}
+\item[(1)]$s$および$t$を$a, \, b$を用いて表せ．
+\item[(2)]点$P(a, \, b)$が曲線$\displaystyle y=\frac{9}{4}-3x^2$上の
+$x>0$，$y>0$をみたす部分を動くとき，
+$\displaystyle\frac{t}{s}$の最小値とそのときの$a$，$b$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2021/2021_1.pdf)

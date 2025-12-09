@@ -1,0 +1,38 @@
+---
+title: "九州大学 2005年 2005_e"
+problem_id: "07_kyushu-2005-2005_e"
+university: "九州大学"
+exam_year: "2005"
+source_tex: "archive/07_kyushu/2005/2005_e.tex"
+pdf_source: "archive/07_kyushu/2005/2005_e.pdf"
+page_image: "archive/07_kyushu/2005/2005_e.jpg"
+fields:
+  - 行列
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$t$と$\theta$を実数，
+$J=\begin{pmatrix} 0 & 1 
+
+ -1 & 0 \end{pmatrix}$，
+$E=\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}$，
+$O=\begin{pmatrix} 0 & 0 
+
+ 0 & 0 \end{pmatrix}$とする．
+ただし，$0<\theta<\pi$とする．
+\begin{description}
+\item[(1)]$t(PJ+J)+P-E=O$を満たす行列$P$を求めよ．
+\item[(2)]$\displaystyle t=\tan\frac{\theta}{2}$のとき，$\theta$を用いて(1)の$P$を表せ．
+\item[(3)](2)の$P$に対して，$P^3=E$となる$\theta$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_e.pdf)

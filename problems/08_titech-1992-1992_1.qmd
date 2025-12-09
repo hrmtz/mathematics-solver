@@ -1,0 +1,23 @@
+---
+title: "東京科学大学 1992年 1992_1"
+problem_id: "08_titech-1992-1992_1"
+university: "東京科学大学"
+exam_year: "1992"
+source_tex: "archive/08_titech/1992/1992_1.tex"
+pdf_source: "archive/08_titech/1992/1992_1.pdf"
+page_image: "archive/08_titech/1992/1992_1.jpg"
+fields:
+  - 代数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$x$の関数$\displaystyle\frac{x^2-2x+k^2}{x^2+2x+k^2}$ $(k \geqq 0)$が1以外の整数値をとらないような定数$k$の値の範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1992/1992_1.pdf)

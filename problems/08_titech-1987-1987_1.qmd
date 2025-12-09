@@ -1,0 +1,24 @@
+---
+title: "東京科学大学 1987年 1987_1"
+problem_id: "08_titech-1987-1987_1"
+university: "東京科学大学"
+exam_year: "1987"
+source_tex: "archive/08_titech/1987/1987_1.tex"
+pdf_source: "archive/08_titech/1987/1987_1.pdf"
+page_image: "archive/08_titech/1987/1987_1.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$1>a>0$，$b \geqq c>0$とする．
+3次方程式$x^3+ax^2+bx+c=0$が3実数解$\alpha$，$\beta$，$\gamma$をもつならば
+$-1<\alpha, \, \beta, \, \gamma<0$となることを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1987/1987_1.pdf)

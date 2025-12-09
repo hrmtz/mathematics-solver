@@ -1,0 +1,34 @@
+---
+title: "東京大学 2002年 2002_7"
+problem_id: "01_tokyo-2002-2002_7"
+university: "東京大学"
+exam_year: "2002"
+source_tex: "archive/01_tokyo/2002/2002_7.tex"
+pdf_source: "archive/01_tokyo/2002/2002_7.pdf"
+page_image: "archive/01_tokyo/2002/2002_7.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数全体で定義された関数$f(x)=xe^{-x^3}$を考える．
+\begin{description}
+\item[(1)]$f(x)$の増減・凹凸を調べ$f(x)$のグラフの概形を図示せよ．
+\item[(2)]正の数$C$に対して$y=f(x)$と$x$軸，および$x=C$で囲まれた領域を$D_1$とする．
+$D_1$を$x$軸のまわりに回転させてえられる立体の体積を$V_1(C)$とおくとき
+\[ \lim_{C\to\infty}V_1(C) \]
+を求めよ．
+\item[(3)]$y=f(x)$の$x \geqq 0$における最大値を$M$とするとき
+$y=f(x)$と$y$軸，および$y=M$で囲まれた領域を$D_2$とおく．
+$D_2$を$y$軸のまわりに回転させてえられる立体の体積$V_2$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2002/2002_7.pdf)

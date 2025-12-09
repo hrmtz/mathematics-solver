@@ -1,0 +1,237 @@
+## 解答
+
+(1)  
+曲線 $C:y=-x^2+b$ と円 $x^2+y^2=1$ の交点を求めるため，$y=-x^2+b$ を円の式に代入する。
+
+$$
+x^2+(-x^2+b)^2=1
+$$
+
+展開して整理すると，
+
+$$
+x^2+x^4-2bx^2+b^2-1=0
+$$
+
+よって
+
+$$
+x^4-(2b-1)x^2+(b^2-1)=0
+$$
+
+ここで $X=x^2$ とおくと，これは
+
+$$
+X^2-(2b-1)X+(b^2-1)=0
+$$
+
+という 2 次方程式になる。  
+この方程式の判別式 $D$ を求めると，
+
+$$
+D=(2b-1)^2-4(b^2-1)=4b^2-4b+1-4b^2+4=-4b+5=5-4b
+$$
+
+である。
+
+交点が 4 個あるためには，$x$ 座標が $2$ 組の正負の対になって存在する必要があるから，$X=x^2$ に関する 2 次方程式が
+
+1. 異なる 2 つの実数解をもつ（$D>0$），
+2. その 2 解がともに正である
+
+ことが必要十分である。
+
+まず $D>0$ より
+
+$$
+5-4b>0 \quad\Longrightarrow\quad b<\dfrac{5}{4}
+$$
+
+次に 2 解の積と和に着目する。2 解を $X_1,X_2$ とすると，
+
+- 積：$X_1X_2=b^2-1$
+- 和：$X_1+X_2=2b-1$
+
+である。$X_1,X_2>0$ であるためには，積 $>0$ かつ 和 $>0$ が必要である。
+
+積 $>0$ より
+
+$$
+b^2-1>0 \quad\Longrightarrow\quad b>1 \ \text{または}\ b<-1
+$$
+
+和 $>0$ より
+
+$$
+2b-1>0 \quad\Longrightarrow\quad b>\dfrac{1}{2}
+$$
+
+ここで，$b<-1$ のときは和 $2b-1<0$ となり矛盾するので除く。  
+したがって $X_1,X_2>0$ となる条件は
+
+$$
+b>1
+$$
+
+さらに $D>0$ を併せると
+
+$$
+1<b<\dfrac{5}{4}
+$$
+
+となる。
+
+よって，曲線 $C$ と円が異なる 4 個の交点をもつための $b$ の範囲は
+
+$$
+1<b<\dfrac{5}{4}
+$$
+
+である。
+
+---
+
+(2)  
+(1) より $1<b<\dfrac{5}{4}$ とする。このとき，$x^4-(2b-1)x^2+(b^2-1)=0$ の $x^2$ に関する 2 解を $X=\alpha^2,\beta^2$（$0<\beta<\alpha$）とおくと，  
+曲線 $C$ と円の交点の $x$ 座標は $\pm\alpha,\pm\beta$ である。
+
+$X^2-(2b-1)X+(b^2-1)=0$ の 2 解の和と積を用いると
+
+$$
+\alpha^2+\beta^2=2b-1,\quad \alpha^2\beta^2=b^2-1
+$$
+
+次に，曲線 $C:y=-x^2+b$ と直線 $y=f(\alpha),y=f(\beta)$ の交点の $x$ 座標を求める。
+
+$f(\alpha)=-\alpha^2+b$ と $y=-x^2+b$ を等しいとおくと，
+
+$$
+-x^2+b=-\alpha^2+b \quad\Longrightarrow\quad x^2=\alpha^2
+$$
+
+したがって $x=\pm\alpha$ である。同様に
+
+$$
+-x^2+b=-\beta^2+b \quad\Longrightarrow\quad x^2=\beta^2
+$$
+
+より $x=\pm\beta$ である。
+
+したがって，曲線 $C$ と直線 $y=f(\alpha),y=f(\beta)$ で囲まれた領域は，$x$ の範囲が $-\alpha\le x\le\alpha$，$y$ の範囲が $f(\alpha)\le y\le f(x)$ の部分と，$-\beta\le x\le\beta$，$f(x)\le y\le f(\beta)$ の部分から成る領域である。  
+
+この領域を $y$ 軸のまわりに 1 回転させた立体の体積を求める。  
+回転軸が $y$ 軸であるから，$x$ を変数とする「円筒殻の方法」（シェルの方法）を用いる。
+
+1 本の薄い円筒殻は，半径 $|x|$，高さ（$y$ の長さ）$h(x)$，厚さ $dx$ であり，体積要素は
+
+$$
+dV=2\pi|x|\,h(x)\,dx
+$$
+
+となる。領域は $y$ 軸に関して対称なので，$x\ge0$ の部分の体積を求めて 2 倍すればよい。
+
+$x$ の区間を $[0,\beta]$ と $[\beta,\alpha]$ に分けて考える。
+
+- $0\le x\le\beta$ では，上端 $y=f(\beta)$，下端 $y=f(\alpha)$ なので，高さは
+
+  $$
+  h(x)=f(\beta)-f(\alpha)=(-\beta^2+b)-(-\alpha^2+b)=\alpha^2-\beta^2
+  $$
+
+  で一定である。
+
+- $\beta\le x\le\alpha$ では，上端 $y=f(x)$，下端 $y=f(\alpha)$ なので，高さは
+
+  $$
+  h(x)=f(x)-f(\alpha)=(-x^2+b)-(-\alpha^2+b)=\alpha^2-x^2
+  $$
+
+よって，体積 $V$ は
+
+$$
+V=2\cdot 2\pi\left\{ \int_{0}^{\beta} x(\alpha^2-\beta^2)\,dx+\int_{\beta}^{\alpha} x(\alpha^2-x^2)\,dx\right\}
+$$
+
+と表される。まず定数をまとめて
+
+$$
+V=4\pi\left\{(\alpha^2-\beta^2)\int_{0}^{\beta} x\,dx+\int_{\beta}^{\alpha} (\alpha^2x-x^3)\,dx\right\}
+$$
+
+各積分を計算する。
+
+まず，
+
+$$
+\int_{0}^{\beta} x\,dx=\left[\dfrac{x^2}{2}\right]_{0}^{\beta}=\dfrac{\beta^2}{2}
+$$
+
+次に，
+
+$$
+\int_{\beta}^{\alpha} (\alpha^2x-x^3)\,dx
+=\left[\dfrac{\alpha^2 x^2}{2}-\dfrac{x^4}{4}\right]_{\beta}^{\alpha}
+=\left(\dfrac{\alpha^4}{2}-\dfrac{\alpha^4}{4}\right)-\left(\dfrac{\alpha^2\beta^2}{2}-\dfrac{\beta^4}{4}\right)
+$$
+
+$$
+=\dfrac{\alpha^4}{4}-\dfrac{\alpha^2\beta^2}{2}+\dfrac{\beta^4}{4}
+$$
+
+したがって
+
+$$
+V=4\pi\left\{(\alpha^2-\beta^2)\dfrac{\beta^2}{2}+\dfrac{\alpha^4}{4}-\dfrac{\alpha^2\beta^2}{2}+\dfrac{\beta^4}{4}\right\}
+$$
+
+まず波括弧内を整理する。第 1 項を展開すると
+
+$$
+(\alpha^2-\beta^2)\dfrac{\beta^2}{2}=\dfrac{\alpha^2\beta^2}{2}-\dfrac{\beta^4}{2}
+$$
+
+よって
+
+$$
+\{\ \} = \dfrac{\alpha^2\beta^2}{2}-\dfrac{\beta^4}{2}+\dfrac{\alpha^4}{4}-\dfrac{\alpha^2\beta^2}{2}+\dfrac{\beta^4}{4}
+=\dfrac{\alpha^4}{4}-\dfrac{\beta^4}{4}
+$$
+
+したがって
+
+$$
+V=4\pi\cdot\dfrac{\alpha^4-\beta^4}{4}
+=\pi(\alpha^4-\beta^4)
+$$
+
+ここで $\alpha^4-\beta^4=(\alpha^2-\beta^2)(\alpha^2+\beta^2)$ であるから，
+
+$$
+\alpha^4-\beta^4
+=(\alpha^2+\beta^2)^2-2\alpha^2\beta^2
+$$
+
+(1) で求めた関係 $\alpha^2+\beta^2=2b-1,\ \alpha^2\beta^2=b^2-1$ を代入すると，
+
+$$
+\alpha^4-\beta^4
+=(2b-1)^2-2(b^2-1)
+=4b^2-4b+1-2b^2+2
+=2b^2-4b+3
+$$
+
+よって体積 $V$ は
+
+$$
+V=\pi(\alpha^4-\beta^4)=\pi(2b^2-4b+3)
+$$
+
+となる。
+
+したがって，求める体積は
+
+$$
+V=\pi(2b^2-4b+3)
+$$
+
+である。

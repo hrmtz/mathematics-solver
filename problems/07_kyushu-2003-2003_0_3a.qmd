@@ -1,0 +1,31 @@
+---
+title: "九州大学 2003年 2003_0_3a"
+problem_id: "07_kyushu-2003-2003_0_3a"
+university: "九州大学"
+exam_year: "2003"
+source_tex: "archive/07_kyushu/2003/2003_0_3a.tex"
+pdf_source: "archive/07_kyushu/2003/2003_0_3a.pdf"
+page_image: "archive/07_kyushu/2003/2003_0_3a.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3 (a)
+　$a$，$b$，$c$を実数とし，$a>0$とする．
+$f(x)=ax^2+bx+c$とおく．
+実数$p$に対し，$x$の関数$px-f(x)$の最大値を$g(p)$とおく．
+\begin{description}
+\item[(1)]2つの関数$y=f(x)$と$y=g(x)$が一致するとき，$f(x)$を求めよ．
+\item[(2)]実数$x$に対し，$p$の関数$xp-g(p)$の最大値を$h(x)$とおく．$h(x)$を求めよ．
+\item[(3)]直線$y=px+q$が点$(t, \, f(t))$で$y=f(x)$のグラフに接するための必要十分条件は
+\[ g(p)=pt-f(t) \hspace{1zw} \text{かつ} \hspace{1zw} q=-g(p) \]
+であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_0_3a.pdf)

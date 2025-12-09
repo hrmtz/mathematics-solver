@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1982年 1982_3"
+problem_id: "05_nagoya-1982-1982_3"
+university: "名古屋大学"
+exam_year: "1982"
+source_tex: "archive/05_nagoya/1982/1982_3.tex"
+pdf_source: "archive/05_nagoya/1982/1982_3.pdf"
+page_image: "archive/05_nagoya/1982/1982_3.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$AB=AC=5$，$BC=6$なる3角形の紙片$ABC$がある．
+辺$BC$上に2点$P$，$Q$を$BP=QC$ $(BP<3)$となるようにとり，
+線分$AP$，$AQ$を折り目として折り曲げ，
+辺$AB$，$AC$を張り合わせて3角すい状の容器をつくる．
+この容積を最大にするには$BP$の長さをどのようにすればよいか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1982/1982_3.pdf)

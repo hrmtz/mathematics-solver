@@ -1,0 +1,30 @@
+---
+title: "北海道大学 2013年 2013_5"
+problem_id: "03_hokudai-2013-2013_5"
+university: "北海道大学"
+exam_year: "2013"
+source_tex: "archive/03_hokudai/2013/2013_5.tex"
+pdf_source: "archive/03_hokudai/2013/2013_5.pdf"
+page_image: "archive/03_hokudai/2013/2013_5.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　区間$-\infty<x<\infty$で定義された連続関数$f(x)$に対して
+\[ F(x)=\int_0^{2x}tf(2x-t)dt \]
+とおく。
+\begin{description}
+\item[(1)]$\displaystyle F\left(\frac{x}{2}\right)=\int_0^x(x-s)f(s)ds$となることを示せ。
+\item[(2)]2次導関数$F''$を$f$で表せ。
+\item[(3)]$F$が3次多項式で$F(1)=f(1)=1$となるとき，$f$と$F$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2013/2013_5.pdf)

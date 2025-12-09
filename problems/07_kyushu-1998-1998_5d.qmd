@@ -1,0 +1,32 @@
+---
+title: "九州大学 1998年 1998_5d"
+problem_id: "07_kyushu-1998-1998_5d"
+university: "九州大学"
+exam_year: "1998"
+source_tex: "archive/07_kyushu/1998/1998_5d.tex"
+pdf_source: "archive/07_kyushu/1998/1998_5d.pdf"
+page_image: "archive/07_kyushu/1998/1998_5d.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5 (d)
+\begin{description}
+\item[(1)]平面上に半径が$R$，$r$ $(R>r)$の2円があり，
+それらの中心間の距離が$l$であるとする．
+これらの2円の円周が共有点をもつための必要十分条件を$R$，$r$，$l$を用いて表せ．
+\item[(2)]座標平面上で$x$軸を準線とし，定点$A(0, \, a)$を通る放物線について考える．
+ただし，$a>0$とする．
+\begin{description}
+\item[(i)]そのような放物線の焦点$F(s, \, t)$の全体はどのような図形を描くか．
+\item[(ii)]$x$軸上にない点$P(p, \, q)$がそのような放物線上の点であるための必要十分条件を求めよ．
+\end{description}
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_5d.pdf)

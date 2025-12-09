@@ -1,0 +1,23 @@
+---
+title: "大阪大学 1968年 1968_0_2"
+problem_id: "06_osaka-1968-1968_0_2"
+university: "大阪大学"
+exam_year: "1968"
+source_tex: "archive/06_osaka/1968/1968_0_2.tex"
+pdf_source: "archive/06_osaka/1968/1968_0_2.pdf"
+page_image: "archive/06_osaka/1968/1968_0_2.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　2次式$f(x)=x^2+ax+b$で，任意の自然数$n$について，$f(x^n)$が$f(x)$で割り切れるものをすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1968/1968_0_2.pdf)

@@ -1,0 +1,25 @@
+---
+title: "京都大学 2001年 2001_0_2"
+problem_id: "02_kyoto-2001-2001_0_2"
+university: "京都大学"
+exam_year: "2001"
+source_tex: "archive/02_kyoto/2001/2001_0_2.tex"
+pdf_source: "archive/02_kyoto/2001/2001_0_2.pdf"
+page_image: "archive/02_kyoto/2001/2001_0_2.jpg"
+fields:
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$xy$平面内の相異なる4点$P_1$，$P_2$，$P_3$，$P_4$とベクトル$\vec{v}$に対し，
+$k \neq m$のとき$\overrightarrow{P_kP_m}\cdot\vec{v}\neq0$が成り立っているとする．
+このとき，$k$と異なるすべての$m$に対し$\overrightarrow{P_kP_m}\cdot\vec{v}<0$が
+成り立つような点$P_k$が存在することを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2001/2001_0_2.pdf)

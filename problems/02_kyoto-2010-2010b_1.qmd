@@ -1,0 +1,28 @@
+---
+title: "京都大学 2010年 2010b_1"
+problem_id: "02_kyoto-2010-2010b_1"
+university: "京都大学"
+exam_year: "2010"
+source_tex: "archive/02_kyoto/2010/2010b_1.tex"
+pdf_source: "archive/02_kyoto/2010/2010b_1.pdf"
+page_image: "archive/02_kyoto/2010/2010b_1.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　四面体$ABCD$において$\overrightarrow{CA}$と$\overrightarrow{CB}$，
+$\overrightarrow{DA}$と$\overrightarrow{DB}$，
+$\overrightarrow{AB}$と$\overrightarrow{CD}$は
+それぞれ垂直であるとする．
+このとき，頂点$A$，頂点$B$および辺$CD$の中点$M$の3点を通る平面は
+辺$CD$と直交することを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2010/2010b_1.pdf)

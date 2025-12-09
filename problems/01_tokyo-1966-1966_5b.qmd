@@ -1,0 +1,25 @@
+---
+title: "東京大学 1966年 1966_5b"
+problem_id: "01_tokyo-1966-1966_5b"
+university: "東京大学"
+exam_year: "1966"
+source_tex: "archive/01_tokyo/1966/1966_5b.tex"
+pdf_source: "archive/01_tokyo/1966/1966_5b.pdf"
+page_image: "archive/01_tokyo/1966/1966_5b.jpg"
+fields:
+  - 積分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5 旧
+　二つの一次式$3ax+2$，$2x+b$に対して，
+$\displaystyle\int_0^1(3ax+2)(2x+b)dx=0$が成り立つとき，
+$a+b$はどのような範囲にあるか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1966/1966_5b.pdf)

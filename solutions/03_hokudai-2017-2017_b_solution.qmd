@@ -1,0 +1,123 @@
+## 解答
+
+(1)  
+二項定理より  
+$$(z+z^{-1})^{2n}=\sum_{k=0}^{2n} {}_{2n}C_k\, z^{2n-k}(z^{-1})^k$$  
+となる。右辺を整理すると  
+$$z^{2n-k}(z^{-1})^k=z^{2n-k-k}=z^{2n-2k}$$  
+であるから  
+$$(z+z^{-1})^{2n}=\sum_{k=0}^{2n} {}_{2n}C_k\, z^{2n-2k}$$  
+となる。
+
+---
+
+(2)  
+$z=\cos\theta+i\sin\theta$ とおくと，ド・モアブルの定理より  
+$$z^m=\cos(m\theta)+i\sin(m\theta)$$  
+が成り立つ。また  
+$$z^{-1}=\cos(-\theta)+i\sin(-\theta)=\cos\theta-i\sin\theta$$  
+であり，$z+z^{-1}$ を計算すると  
+\[
+z+z^{-1}=(\cos\theta+i\sin\theta)+(\cos\theta-i\sin\theta)
+=2\cos\theta
+\]
+である。したがって  
+$$(z+z^{-1})^{2n}=(2\cos\theta)^{2n}$$  
+である。
+
+一方(1)より  
+$$(z+z^{-1})^{2n}=\sum_{k=0}^{2n} {}_{2n}C_k\, z^{2n-2k}$$  
+であり，さらに $z^{2n-2k}=\cos((2n-2k)\theta)+i\sin((2n-2k)\theta)$ なので  
+\[
+(z+z^{-1})^{2n}
+=\sum_{k=0}^{2n} {}_{2n}C_k\left\{\cos((2n-2k)\theta)+i\sin((2n-2k)\theta)\right\}
+\]
+となる。
+
+左辺は $(2\cos\theta)^{2n}$ で実数であるから，右辺の虚部は $0$，実部は $(2\cos\theta)^{2n}$ に等しい。したがって実部を比較して  
+\[
+(2\cos\theta)^{2n}
+=\sum_{k=0}^{2n} {}_{2n}C_k\,\cos((2n-2k)\theta)
+\]
+すなわち  
+\[
+{(2\cos\theta)}^{2n}={}_{2n}C_0\cos(2n\theta)+{}_{2n}C_1\cos(2(n-1)\theta)+\cdots+{}_{2n}C_k\cos(2(n-k)\theta)+\cdots+{}_{2n}C_{2n}\cos(-2n\theta)
+\]
+が成り立つ。
+
+---
+
+(3)  
+(2)で得た等式を用いる。  
+まず  
+\[
+{(2\cos\theta)}^{2n}
+=\sum_{k=0}^{2n} {}_{2n}C_k\,\cos((2n-2k)\theta)
+\]
+の両辺を $0$ から $\dfrac{\pi}{2}$ まで積分する。すると  
+\[
+\int_0^{\pi/2} (2\cos\theta)^{2n}\,d\theta
+=\sum_{k=0}^{2n} {}_{2n}C_k \int_0^{\pi/2} \cos((2n-2k)\theta)\,d\theta
+\]
+となる。
+
+右辺の各項を調べる。$m$ を整数として  
+\[
+\int_0^{\pi/2} \cos(m\theta)\,d\theta=
+\begin{cases}
+\displaystyle \frac{1}{m}\sin\left(m\frac{\pi}{2}\right) & (m\neq 0),\\[4mm]
+\displaystyle \frac{\pi}{2} & (m=0)
+\end{cases}
+\]
+である。ここで $m=2n-2k$ は偶数である。$m\neq0$ のとき $m=2\ell$ とおくと  
+\[
+\sin\left(m\frac{\pi}{2}\right)=\sin(\ell\pi)=0
+\]
+なので  
+\[
+\int_0^{\pi/2} \cos((2n-2k)\theta)\,d\theta=0\quad (2n-2k\neq0)
+\]
+となる。一方，$2n-2k=0$ すなわち $k=n$ のときは  
+\[
+\int_0^{\pi/2} \cos(0\cdot\theta)\,d\theta=\int_0^{\pi/2} 1\,d\theta=\frac{\pi}{2}
+\]
+である。したがって右辺で $k=n$ の項だけが残り  
+\[
+\int_0^{\pi/2} (2\cos\theta)^{2n}\,d\theta
+={}_{2n}C_n \cdot \frac{\pi}{2}
+\]
+となる。
+
+一方，左辺は  
+\[
+\int_0^{\pi/2} (2\cos\theta)^{2n}\,d\theta
+=2^{2n}\int_0^{\pi/2} (\cos\theta)^{2n}\,d\theta
+\]
+であるから，両辺を等しいとして  
+\[
+2^{2n}\int_0^{\pi/2} (\cos\theta)^{2n}\,d\theta
+={}_{2n}C_n \cdot \frac{\pi}{2}
+\]
+すなわち  
+\[
+\int_0^{\pi/2} (\cos\theta)^{2n}\,d\theta
+=\frac{{}_{2n}C_n}{2^{2n+1}}\,\pi
+\]
+を得る。
+
+ここで二項係数の定義より  
+\[
+{}_{2n}C_n=\frac{(2n)!}{n!\,n!}=\frac{(2n)!}{(n!)^2}
+\]
+であるから  
+\[
+\int_0^{\pi/2} (\cos\theta)^{2n}\,d\theta
+=\frac{(2n)!}{(n!)^2}\cdot\frac{\pi}{2^{2n+1}}
+=\frac{(2n)!\,\pi}{2^{2n+1}(n!)^2}
+\]
+となり，示すべき等式  
+\[
+\int_0^{\pi/2}{(\cos\theta)}^{2n} \, d\theta=
+\frac{(2n)!\,\pi}{2^{2n+1}{(n!)}^2}
+\]
+が証明された。

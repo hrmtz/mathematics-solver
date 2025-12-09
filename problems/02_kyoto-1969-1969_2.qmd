@@ -1,0 +1,25 @@
+---
+title: "京都大学 1969年 1969_2"
+problem_id: "02_kyoto-1969-1969_2"
+university: "京都大学"
+exam_year: "1969"
+source_tex: "archive/02_kyoto/1969/1969_2.tex"
+pdf_source: "archive/02_kyoto/1969/1969_2.pdf"
+page_image: "archive/02_kyoto/1969/1969_2.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　定円の直径$CD$と，その上の点$P$(ただし，$P \neq C$，$P \neq D$)で交わる弦$AB$とを考え，
+$\angle ACD=\alpha$，$\angle BCD=\beta$とする．
+$\displaystyle\tan\alpha\cdot\tan\beta=\frac{\triangle ADB}{\triangle ACB}=\frac{DP}{CP}$を証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1969/1969_2.pdf)

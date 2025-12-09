@@ -1,0 +1,25 @@
+---
+title: "京都大学 2024年 2024_0_3"
+problem_id: "02_kyoto-2024-2024_0_3"
+university: "京都大学"
+exam_year: "2024"
+source_tex: "archive/02_kyoto/2024/2024_0_3.tex"
+pdf_source: "archive/02_kyoto/2024/2024_0_3.pdf"
+page_image: "archive/02_kyoto/2024/2024_0_3.jpg"
+fields:
+  - 微分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$は正の定数とする．次の関数の最大値を求めよ．
+\[ f(x)=\left| x^2-\left( ax+\frac{3}{4}a^2 \right) \right| +ax+\frac{3}{4}a^2 \hspace{1zw}
+(-1 \leqq x \leqq 1) \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2024/2024_0_3.pdf)

@@ -1,0 +1,23 @@
+---
+title: "東北大学 2000年 2000_0_b"
+problem_id: "04_tohoku-2000-2000_0_b"
+university: "東北大学"
+exam_year: "2000"
+source_tex: "archive/04_tohoku/2000/2000_0_b.tex"
+pdf_source: "archive/04_tohoku/2000/2000_0_b.pdf"
+page_image: "archive/04_tohoku/2000/2000_0_b.jpg"
+fields:
+  - 代数
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　3次方程式$x^3-(p-3)x^2-3x+p-1=0$の3つの解がすべて整数となるような実数$p$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2000/2000_0_b.pdf)

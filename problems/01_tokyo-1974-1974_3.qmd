@@ -1,0 +1,30 @@
+---
+title: "東京大学 1974年 1974_3"
+problem_id: "01_tokyo-1974-1974_3"
+university: "東京大学"
+exam_year: "1974"
+source_tex: "archive/01_tokyo/1974/1974_3.tex"
+pdf_source: "archive/01_tokyo/1974/1974_3.pdf"
+page_image: "archive/01_tokyo/1974/1974_3.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　下の図は線分$AB$の投影図で，その各部の寸法は図に記入してある通りである．
+　この線分の上端$A$を通り，$AB$となす角が60$^\circ$，
+平画面に対する傾きが30$^\circ$であるような直線の，平画面上の跡を$C$とする．
+点$B$の平面図$b$を原点とし，$ab$を$x$軸，$bb'$を$y$軸として，点$C$の座標を求めよ．
+
+
+
+![](../archive/01_tokyo/1974/fig_1974_3.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1974/1974_3.pdf)

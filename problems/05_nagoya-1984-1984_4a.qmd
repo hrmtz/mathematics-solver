@@ -1,0 +1,30 @@
+---
+title: "名古屋大学 1984年 1984_4a"
+problem_id: "05_nagoya-1984-1984_4a"
+university: "名古屋大学"
+exam_year: "1984"
+source_tex: "archive/05_nagoya/1984/1984_4a.tex"
+pdf_source: "archive/05_nagoya/1984/1984_4a.pdf"
+page_image: "archive/05_nagoya/1984/1984_4a.jpg"
+fields:
+  - 行列
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$が与えられている．
+ベクトル$\overrightarrow{x}=\begin{pmatrix} x 
+
+ y \end{pmatrix}$が
+条件$x^2+y^2=1$を満たしながら動くとき，
+$\overrightarrow{x}$と$A\overrightarrow{x}$との内積の最大値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1984/1984_4a.pdf)

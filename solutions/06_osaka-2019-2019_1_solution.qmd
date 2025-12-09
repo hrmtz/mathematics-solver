@@ -1,0 +1,303 @@
+## 解答
+
+(1)  
+関数  
+$$
+f(x)=\int_x^be^{-\frac{t^2}{2}}\,dt-\frac{x}{x^2+1}e^{-\frac{x^2}{2}}
+$$
+を考える．$f$ が単調減少であることを示すには，導関数 $f'(x)\le 0$ がすべての実数 $x$ で成り立つことを示せばよい．
+
+まず，定積分の微分に関する公式より  
+$$
+\frac{d}{dx}\left(\int_x^be^{-\frac{t^2}{2}}\,dt\right)
+=-e^{-\frac{x^2}{2}}
+$$
+となる．
+
+次に  
+$$
+g(x)=\frac{x}{x^2+1}e^{-\frac{x^2}{2}}
+$$
+とおくと，積の微分と合成関数の微分を用いて
+$$
+g'(x)=\left(\frac{x}{x^2+1}\right)'e^{-\frac{x^2}{2}}
++\frac{x}{x^2+1}\left(e^{-\frac{x^2}{2}}\right)'
+$$
+となる．  
+ここで
+$$
+\left(\frac{x}{x^2+1}\right)
+=\frac{x}{x^2+1},\quad
+\left(\frac{x}{x^2+1}\right)'
+=\frac{(x^2+1)\cdot 1 - x\cdot 2x}{(x^2+1)^2}
+=\frac{-x^2+1}{(x^2+1)^2},
+$$
+また
+$$
+\left(e^{-\frac{x^2}{2}}\right)'=e^{-\frac{x^2}{2}}\cdot\left(-\frac{x^2}{2}\right)'=-x\,e^{-\frac{x^2}{2}}
+$$
+より，
+$$
+g'(x)
+=\frac{-x^2+1}{(x^2+1)^2}e^{-\frac{x^2}{2}}
++\frac{x}{x^2+1}(-x)e^{-\frac{x^2}{2}}
+$$
+$$
+=\left\{\frac{-x^2+1}{(x^2+1)^2}
+-\frac{x^2}{x^2+1}\right\}e^{-\frac{x^2}{2}}.
+$$
+右辺のかっこ内を通分して整理すると
+$$
+\frac{-x^2+1}{(x^2+1)^2}
+-\frac{x^2}{x^2+1}
+=\frac{-x^2+1}{(x^2+1)^2}
+-\frac{x^2(x^2+1)}{(x^2+1)^2}
+$$
+$$
+=\frac{-x^2+1 -x^4 -x^2}{(x^2+1)^2}
+=\frac{-x^4-2x^2+1}{(x^2+1)^2}
+$$
+となるので，
+$$
+g'(x)=\frac{-x^4-2x^2+1}{(x^2+1)^2}e^{-\frac{x^2}{2}}
+$$
+を得る．
+
+したがって
+$$
+f'(x)=\frac{d}{dx}\left(\int_x^be^{-\frac{t^2}{2}}dt\right)-g'(x)
+=-e^{-\frac{x^2}{2}}-\frac{-x^4-2x^2+1}{(x^2+1)^2}e^{-\frac{x^2}{2}}
+$$
+$$
+=e^{-\frac{x^2}{2}}\left\{-1-\frac{-x^4-2x^2+1}{(x^2+1)^2}\right\}
+=e^{-\frac{x^2}{2}}\left\{-1+\frac{x^4+2x^2-1}{(x^2+1)^2}\right\}.
+$$
+かっこ内をさらに整理すると
+$$
+-1+\frac{x^4+2x^2-1}{(x^2+1)^2}
+=\frac{-(x^2+1)^2 + x^4+2x^2-1}{(x^2+1)^2}
+$$
+$$
+=\frac{-(x^4+2x^2+1) + x^4+2x^2-1}{(x^2+1)^2}
+=\frac{-2}{(x^2+1)^2}.
+$$
+よって
+$$
+f'(x)=e^{-\frac{x^2}{2}}\cdot\frac{-2}{(x^2+1)^2}
+=-\frac{2}{(x^2+1)^2}e^{-\frac{x^2}{2}}
+$$
+となる．
+
+ここで，任意の実数 $x$ に対し $(x^2+1)^2>0$ かつ $e^{-\frac{x^2}{2}}>0$ であるから，
+$$
+f'(x)=-\frac{2}{(x^2+1)^2}e^{-\frac{x^2}{2}}\le 0
+$$
+がすべての実数 $x$ で成り立つ．したがって $f(x)$ は全実数上で単調に減少する．
+
+---
+
+(2)  
+(1)で示したように，実数 $b$ を固定した関数
+$$
+f(x)=\int_x^be^{-\frac{t^2}{2}}dt-\frac{x}{x^2+1}e^{-\frac{x^2}{2}}
+$$
+は $x$ について単調減少である．
+
+ここでは $a\le b$ を満たす正の実数 $a,b$ を考えるので，区間 $[a,b]$ 上で $f$ は減少関数であり，
+$$
+f(a)\ge f(b)
+$$
+が成り立つ．この不等式をもとに，左右の評価を導く．
+
+### 左側の不等式
+
+$f(a)\ge f(b)$ より
+$$
+\int_a^be^{-\frac{t^2}{2}}dt-\frac{a}{a^2+1}e^{-\frac{a^2}{2}}
+\;\ge\;
+\int_b^be^{-\frac{t^2}{2}}dt-\frac{b}{b^2+1}e^{-\frac{b^2}{2}}
+$$
+となる．右辺の積分は $0$ であるから
+$$
+\int_a^be^{-\frac{t^2}{2}}dt-\frac{a}{a^2+1}e^{-\frac{a^2}{2}}
+\ge
+-\frac{b}{b^2+1}e^{-\frac{b^2}{2}}
+$$
+すなわち
+$$
+\int_a^be^{-\frac{t^2}{2}}dt
+\ge
+\frac{a}{a^2+1}e^{-\frac{a^2}{2}}
+-\frac{b}{b^2+1}e^{-\frac{b^2}{2}}
+$$
+を得る．これは示すべき不等式の左側である．
+
+### 右側の不等式
+
+関数 $e^{-\frac{t^2}{2}}$ の単調性を調べる．
+$$
+\left(e^{-\frac{t^2}{2}}\right)'=-t\,e^{-\frac{t^2}{2}}
+$$
+であり，$t>0$ では $-t<0$ かつ $e^{-\frac{t^2}{2}}>0$ なので
+$$
+\left(e^{-\frac{t^2}{2}}\right)'<0
+$$
+となる．したがって $t>0$ では $e^{-\frac{t^2}{2}}$ は単調減少であり，$0<a\le t\le b$ から
+$$
+e^{-\frac{t^2}{2}}\le e^{-\frac{a^2}{2}}
+$$
+が成り立つ．よって
+$$
+\int_a^be^{-\frac{t^2}{2}}dt
+\le
+\int_a^b e^{-\frac{a^2}{2}}dt
+=e^{-\frac{a^2}{2}}(b-a)
+$$
+となり，右側の不等式も示された．
+
+以上より
+$$
+\frac{a}{a^2+1}e^{-\frac{a^2}{2}}-\frac{b}{b^2+1}e^{-\frac{b^2}{2}}
+\le
+\int_a^be^{-\frac{t^2}{2}}dt
+\le
+e^{-\frac{a^2}{2}}(b-a)
+$$
+が成り立つ．
+
+---
+
+(3)  
+$$
+I_n=\int_1^2e^{-\frac{nt^2}{2}}dt
+$$
+とおく．求める極限は
+$$
+\lim_{n\to\infty}\frac{1}{n}\log I_n
+$$
+である．(2)の不等式を利用して，$I_n$ を上から，下から評価する．
+
+(2)で得た不等式において，$a=1,\ b=2,\ n$ を用いて
+$$
+\int_1^2e^{-\frac{nt^2}{2}}dt
+$$
+を評価したい．(2)の不等式は
+$$
+\frac{a}{a^2+1}e^{-\frac{a^2}{2}}-\frac{b}{b^2+1}e^{-\frac{b^2}{2}}
+\le
+\int_a^be^{-\frac{t^2}{2}}dt
+\le
+e^{-\frac{a^2}{2}}(b-a)
+$$
+であったから，ここで $t$ を $\sqrt{n}\,t$ などと変形するよりも，$n$ を含んだ形に合わせて，指数部を $-\frac{nt^2}{2}$ に揃える．
+
+具体的には，(2) の不等式において指数の $\frac{1}{2}$ を $\frac{n}{2}$ に読み替えればよい．つまり，任意の $n$ について
+$$
+\frac{a}{a^2+1}e^{-\frac{na^2}{2}}-\frac{b}{b^2+1}e^{-\frac{nb^2}{2}}
+\le
+\int_a^be^{-\frac{nt^2}{2}}dt
+\le
+e^{-\frac{na^2}{2}}(b-a)
+$$
+が成り立つ（ただし $a\le b,\ a>0$）．これは $(1)$ の証明の際に $e^{-\frac{t^2}{2}}$ を $e^{-\frac{nt^2}{2}}$ に置き換えても同様に議論できることから従う．
+
+ここで $a=1,\ b=2$ とおくと
+$$
+\frac{1}{1^2+1}e^{-\frac{n\cdot1^2}{2}}-\frac{2}{2^2+1}e^{-\frac{n\cdot2^2}{2}}
+\le
+I_n
+\le
+e^{-\frac{n\cdot1^2}{2}}(2-1)
+$$
+すなわち
+$$
+\frac{1}{2}e^{-\frac{n}{2}}-\frac{2}{5}e^{-2n}
+\le
+I_n
+\le
+e^{-\frac{n}{2}}
+$$
+が成り立つ．ここで $n\to\infty$ とすると $e^{-2n}$ は $e^{-\frac{n}{2}}$ よりも速く $0$ に収束するので，十分大きな $n$ では
+$$
+0<\frac{1}{2}e^{-\frac{n}{2}}-\frac{2}{5}e^{-2n}<I_n\le e^{-\frac{n}{2}}
+$$
+が成り立つ．
+
+この不等式の各辺の対数をとり，$n$ で割って極限を考える．まず上からの評価より
+$$
+I_n\le e^{-\frac{n}{2}}
+\quad\Rightarrow\quad
+\log I_n\le -\frac{n}{2}
+$$
+であるから
+$$
+\frac{1}{n}\log I_n\le -\frac{1}{2}
+$$
+となる．よって
+$$
+\limsup_{n\to\infty}\frac{1}{n}\log I_n\le -\frac{1}{2}.
+$$
+
+一方，下からの評価より
+$$
+I_n\ge \frac{1}{2}e^{-\frac{n}{2}}-\frac{2}{5}e^{-2n}
+=e^{-\frac{n}{2}}\left(\frac{1}{2}-\frac{2}{5}e^{-\frac{3n}{2}}\right)
+$$
+である．$n$ が十分大きければ $\frac{2}{5}e^{-\frac{3n}{2}}$ は非常に小さくなるので，括弧内は正である．そこで
+$$
+\log I_n
+\ge
+\log\left\{e^{-\frac{n}{2}}\left(\frac{1}{2}-\frac{2}{5}e^{-\frac{3n}{2}}\right)\right\}
+=-\frac{n}{2}
++\log\left(\frac{1}{2}-\frac{2}{5}e^{-\frac{3n}{2}}\right)
+$$
+と書ける．したがって
+$$
+\frac{1}{n}\log I_n
+\ge
+-\frac{1}{2}
++\frac{1}{n}\log\left(\frac{1}{2}-\frac{2}{5}e^{-\frac{3n}{2}}\right).
+$$
+
+ここで
+$$
+0<\frac{1}{2}-\frac{2}{5}e^{-\frac{3n}{2}}<\frac{1}{2}
+$$
+より，その対数は有界である．特に
+$$
+\left|\log\left(\frac{1}{2}-\frac{2}{5}e^{-\frac{3n}{2}}\right)\right|
+\le C
+$$
+となる定数 $C$ が存在するので
+$$
+\left|\frac{1}{n}\log\left(\frac{1}{2}-\frac{2}{5}e^{-\frac{3n}{2}}\right)\right|
+\le \frac{C}{n}\to 0
+\quad(n\to\infty)
+$$
+となる．よって
+$$
+\liminf_{n\to\infty}\frac{1}{n}\log I_n
+\ge -\frac{1}{2}.
+$$
+
+以上より
+$$
+-\frac{1}{2}
+\le
+\liminf_{n\to\infty}\frac{1}{n}\log I_n
+\le
+\limsup_{n\to\infty}\frac{1}{n}\log I_n
+\le
+-\frac{1}{2}
+$$
+となるので，
+$$
+\lim_{n\to\infty}\frac{1}{n}\log I_n=-\frac{1}{2}
+$$
+である．
+
+したがって，答えは
+$$
+\boxed{-\frac{1}{2}}
+$$
+となる．

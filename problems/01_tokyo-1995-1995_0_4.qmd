@@ -1,0 +1,27 @@
+---
+title: "東京大学 1995年 1995_0_4"
+problem_id: "01_tokyo-1995-1995_0_4"
+university: "東京大学"
+exam_year: "1995"
+source_tex: "archive/01_tokyo/1995/1995_0_4.tex"
+pdf_source: "archive/01_tokyo/1995/1995_0_4.pdf"
+page_image: "archive/01_tokyo/1995/1995_0_4.jpg"
+fields:
+  - 空間図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　半径$1cm$の半球形の器が水平から角$\theta$だけ傾けて固定されている．
+ただし，$\displaystyle 0<\theta<\frac{\pi}{2}$とする．
+この器に毎秒$\displaystyle\frac{\pi}{18}{cm}^3$の割合で水を入れるとき，
+入れはじめてから$3+\cos^2\theta$秒後に器から水が流れだした．
+このときの$\theta$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1995/1995_0_4.pdf)

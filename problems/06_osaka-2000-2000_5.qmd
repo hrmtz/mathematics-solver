@@ -1,0 +1,31 @@
+---
+title: "大阪大学 2000年 2000_5"
+problem_id: "06_osaka-2000-2000_5"
+university: "大阪大学"
+exam_year: "2000"
+source_tex: "archive/06_osaka/2000/2000_5.tex"
+pdf_source: "archive/06_osaka/2000/2000_5.pdf"
+page_image: "archive/06_osaka/2000/2000_5.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　立方体$X$と球$Y$があって，両者の体積は等しいとする．
+このとき，次の問いに答えよ．ただし，円周率は$\pi=3.14\cdots\cdots$である．
+\begin{description}
+\item[(1)]立方体$X$と球$Y$を動かして，
+立方体$X$のなるべく多くの頂点が球$Y$の内部に含まれるようにしたい．
+最大何個の頂点が含まれるようにできるか．
+\item[(2)]立方体$X$と球$Y$を動かして，
+立方体$X$のなるべく多くの辺が球$Y$の内部と共通の点を持つようにしたい．
+最大何個の辺が\underline{共通の点}を持つようにできるか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_5.pdf)

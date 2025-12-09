@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1999年 1999_0_2"
+problem_id: "06_osaka-1999-1999_0_2"
+university: "大阪大学"
+exam_year: "1999"
+source_tex: "archive/06_osaka/1999/1999_0_2.tex"
+pdf_source: "archive/06_osaka/1999/1999_0_2.pdf"
+page_image: "archive/06_osaka/1999/1999_0_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　放物線$\displaystyle C:y=\frac{1}{2}x^2$上の原点以外の点$P$における$C$の接線を$l_1$とし，
+$P$を通り$l_1$と直交する直線を$l_2$とする．
+また，$l_2$と$C$が再び交わる点を$Q$とし，$Q$における$C$の接線を$l_3$とする．
+さらに，$l_1$と$l_3$との交点を$R$とする．
+\begin{description}
+\item[(1)]点$R(x, \, y)$について，$y$を$x$の式で表せ．
+\item[(2)]$PR \geqq PQ$となる点$P$の$x$座標の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1999/1999_0_2.pdf)

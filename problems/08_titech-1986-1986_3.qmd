@@ -1,0 +1,32 @@
+---
+title: "東京科学大学 1986年 1986_3"
+problem_id: "08_titech-1986-1986_3"
+university: "東京科学大学"
+exam_year: "1986"
+source_tex: "archive/08_titech/1986/1986_3.tex"
+pdf_source: "archive/08_titech/1986/1986_3.pdf"
+page_image: "archive/08_titech/1986/1986_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　微分可能な関数$y=f(x)$が，区間$0 \leqq x \leqq 1$で正の値をとり，
+次の2条件(i)，(ii)を満たすとする．
+\begin{description}
+\item[(i)]$f(0)=2$，$f(1)=1$
+\item[(ii)]$0 \leqq a < x \leqq 1$である任意の$a$と$x$とに対して，
+4点$A(a, \, f(a))$，$B(a, \, 0)$，$C(x, \, 0)$，$D(x, \, f(x))$を頂点とする四辺形$ABCD$の面積と，
+関数$y=f(x)$のグラフと線分$AB$，$BC$および$CD$で囲まれる部分の面積との比が，
+$a$と$x$とによらず一定である．
+\end{description}
+　このような関数$y=f(x)$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1986/1986_3.pdf)

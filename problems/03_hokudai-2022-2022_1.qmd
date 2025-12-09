@@ -1,0 +1,30 @@
+---
+title: "北海道大学 2022年 2022_1"
+problem_id: "03_hokudai-2022-2022_1"
+university: "北海道大学"
+exam_year: "2022"
+source_tex: "archive/03_hokudai/2022/2022_1.tex"
+pdf_source: "archive/03_hokudai/2022/2022_1.pdf"
+page_image: "archive/03_hokudai/2022/2022_1.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$0 \leqq a \leqq b \leqq 1$をみたす$a, \, b$に対し，関数
+\[ f(x)=|x(x-1)|+|(x-a)(x-b)| \]
+を考える。$x$が実数の範囲を動くとき，$f(x)$は最小値$m$をもつとする。
+\begin{description}
+\item[(1)]$x<0$および$x>1$では$f(x)>m$となることを示せ。
+\item[(2)]$m=f(0)$または$m=f(1)$であることを示せ。
+\item[(3)]$a, \, b$が$0 \leqq a \leqq b \leqq 1$をみたして動くとき，$m$の最大値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2022/2022_1.pdf)

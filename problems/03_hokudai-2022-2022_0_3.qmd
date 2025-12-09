@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2022年 2022_0_3"
+problem_id: "03_hokudai-2022-2022_0_3"
+university: "北海道大学"
+exam_year: "2022"
+source_tex: "archive/03_hokudai/2022/2022_0_3.tex"
+pdf_source: "archive/03_hokudai/2022/2022_0_3.pdf"
+page_image: "archive/03_hokudai/2022/2022_0_3.jpg"
+fields:
+  - 平面図形
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\angle A={90}^\circ, \, \angle B={60}^\circ$である直角三角形$ABC$において，
+その内接円の中心を$O$，半径を$r$とおく。また$a=BC$とする。
+\begin{description}
+\item[(1)]$r$を$a$で表せ。
+\item[(2)]次の条件をみたす負でない整数$k, \, l, \, m, \, n$の組を一つ求めよ。
+\[ OA:OB=1:k+\sqrt{l}, \hspace{1zw} OA:OC=1:m+\sqrt{n} \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2022/2022_0_3.pdf)

@@ -1,0 +1,24 @@
+---
+title: "京都大学 1989年 1989_3"
+problem_id: "02_kyoto-1989-1989_3"
+university: "京都大学"
+exam_year: "1989"
+source_tex: "archive/02_kyoto/1989/1989_3.tex"
+pdf_source: "archive/02_kyoto/1989/1989_3.pdf"
+page_image: "archive/02_kyoto/1989/1989_3.jpg"
+fields:
+  - 微分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$f(x)$は$x$の3次式で，$f(x)$をその導関数$f'(x)$で割ったときの余りは定数である．
+　このとき方程式$f(x)=0$をみたす実数$x$はただ一つであることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_3.pdf)

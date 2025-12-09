@@ -1,0 +1,29 @@
+---
+title: "大阪大学 1996年 1996_0_1"
+problem_id: "06_osaka-1996-1996_0_1"
+university: "大阪大学"
+exam_year: "1996"
+source_tex: "archive/06_osaka/1996/1996_0_1.tex"
+pdf_source: "archive/06_osaka/1996/1996_0_1.pdf"
+page_image: "archive/06_osaka/1996/1996_0_1.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$，$b$，$c$を0以上の実数とする．
+次の問に答えよ．
+\begin{description}
+\item[(1)]$2^a+2^b\leqq1+2^{a+b}$を示せ．
+\item[(2)]$a$，$b$，$c$が$a+b+c=3$をみたしながら動くとき$2^a+2^b+2^c$の最大値を求めよ．
+また，最大値を与える$a$，$b$，$c$の組$(a, \, b, \, c)$をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1996/1996_0_1.pdf)

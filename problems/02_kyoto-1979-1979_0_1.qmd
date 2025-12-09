@@ -1,0 +1,26 @@
+---
+title: "京都大学 1979年 1979_0_1"
+problem_id: "02_kyoto-1979-1979_0_1"
+university: "京都大学"
+exam_year: "1979"
+source_tex: "archive/02_kyoto/1979/1979_0_1.tex"
+pdf_source: "archive/02_kyoto/1979/1979_0_1.pdf"
+page_image: "archive/02_kyoto/1979/1979_0_1.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　平面上に6つの定点$A_1$，$A_2$，$A_3$，$A_4$，$A_5$，$A_6$があって，どの3点も一直線上にはない．
+この6点のうちから3点を任意にえらぶ．
+えらんだ3点を頂点とする三角形の重心と，残りの3点を頂点とする三角形の重心とを通る直線は，
+3点のえらびかたに無関係な一定の点を通ることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1979/1979_0_1.pdf)

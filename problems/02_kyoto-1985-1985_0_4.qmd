@@ -1,0 +1,33 @@
+---
+title: "京都大学 1985年 1985_0_4"
+problem_id: "02_kyoto-1985-1985_0_4"
+university: "京都大学"
+exam_year: "1985"
+source_tex: "archive/02_kyoto/1985/1985_0_4.tex"
+pdf_source: "archive/02_kyoto/1985/1985_0_4.pdf"
+page_image: "archive/02_kyoto/1985/1985_0_4.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$f(x)$は多項式で，
+曲線$y=f(x)$の点$P_1(x_1,f(x_1))$における接線は点$P_2(x_2,f(x_2))$における接線に一致し，
+その共通接線の方程式を$y=g(x)$とする．
+ただし，$x_1 \neq x_2$
+\begin{description}
+\item[(i)]このとき，多項式$f(x)-g(x)$は${(x-x_i)}^2$で割り切れる$(i=1,2)$．
+その理由を，微係数および接線の定義に即して述べよ．
+\item[(ii)]$f(x)$が4次式で，$x^4$の係数は1，$x^3$の係数は0であるとき，
+$y=f(x)$と$y=g(x)$で囲まれた部分の面積$S$を$x_1$を用いてあらわせ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1985/1985_0_4.pdf)

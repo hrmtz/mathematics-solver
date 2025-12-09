@@ -1,0 +1,33 @@
+---
+title: "九州大学 1964年 1964_3"
+problem_id: "07_kyushu-1964-1964_3"
+university: "九州大学"
+exam_year: "1964"
+source_tex: "archive/07_kyushu/1964/1964_3.tex"
+pdf_source: "archive/07_kyushu/1964/1964_3.pdf"
+page_image: "archive/07_kyushu/1964/1964_3.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]$abc(a+b+c)\neq0$とする。
+$a{(x-p)}^2+b{(x-q)}^2+c{(x-r)}^2$が$x$の完全平方式となるとき，
+$\displaystyle\frac{1}{a}{(q-r)}^2+\frac{1}{b}{(r-p)}^2+\frac{1}{c}{(p-q)}^2$の値を求めよ。
+\item[(2)]$abc(a+b+c)\neq0$，$(a-c)(p-r)\neq0$とする。
+$a{(x-p)}^2+b{(x-q)}^2+c{(x-r)}^2$，$c{(x-p)}^2+b{(x-q)}^2+a{(x-r)}^2$が2式とも$x$の完全平方式となるとき，
+次の2式が成立することを証明せよ。
+\begin{description}
+\item[（イ）]$2q=p+r$
+\item[（ロ）]$\displaystyle\frac{1}{a}+\frac{4}{b}+\frac{1}{c}=0$
+\end{description}
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1964/1964_3.pdf)

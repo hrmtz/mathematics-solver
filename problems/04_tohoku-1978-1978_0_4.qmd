@@ -1,0 +1,32 @@
+---
+title: "東北大学 1978年 1978_0_4"
+problem_id: "04_tohoku-1978-1978_0_4"
+university: "東北大学"
+exam_year: "1978"
+source_tex: "archive/04_tohoku/1978/1978_0_4.tex"
+pdf_source: "archive/04_tohoku/1978/1978_0_4.pdf"
+page_image: "archive/04_tohoku/1978/1978_0_4.jpg"
+fields:
+  - 平面図形
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$を正の定数とする．
+$O$を原点とする平面上に，点$P(a, \, p)$ $(p>0)$がある．
+\begin{description}
+\item[(1)]$x$軸を軸とし，$O$と$P$を通る放物線の方程式を求めよ．
+\item[(2)]$x$軸上に中心をもち，$O$と$P$を通る円の半径$r$を，$a$と$p$で表せ．
+\item[(3)]$y\geqq0$の範囲で，(1)の放物線の弧$OP$と，
+(2)の円弧$OP$とで囲まれる部分を$S$とする．
+$S$を$x$軸のまわりに回転して得られる立体の体積は，
+$p$の値に関係なく一定であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1978/1978_0_4.pdf)

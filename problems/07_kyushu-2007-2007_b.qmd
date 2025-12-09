@@ -1,0 +1,33 @@
+---
+title: "九州大学 2007年 2007_b"
+problem_id: "07_kyushu-2007-2007_b"
+university: "九州大学"
+exam_year: "2007"
+source_tex: "archive/07_kyushu/2007/2007_b.tex"
+pdf_source: "archive/07_kyushu/2007/2007_b.pdf"
+page_image: "archive/07_kyushu/2007/2007_b.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　平面上の点の移動（1次変換）に関する以下の問いに答えよ．
+\begin{description}
+\item[(1)]直線$y=-x$に関する対称移動を表す行列$A$を求めよ．
+\item[(2)]点$P$を原点を中心として正の向き（反時計回り）に60度回転し，
+さらに直線$y=-x$に関して対称移動したときの点を$P'$とする．
+点$P$を$P'$に移す移動を表す行列$B$を求めよ．
+\item[(3)]点$Q(1, \, 0)$に対して$B$で表される移動を3回行った点を$R$とする．
+点$R$の座標を求めよ．
+\item[(4)]$B$で表される移動により点$S$が点$(1, \, 1)$に移動したとする．
+点$S$の座標を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_b.pdf)

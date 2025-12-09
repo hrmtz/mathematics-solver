@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1965年 1965_0_3"
+problem_id: "03_hokudai-1965-1965_0_3"
+university: "北海道大学"
+exam_year: "1965"
+source_tex: "archive/03_hokudai/1965/1965_0_3.tex"
+pdf_source: "archive/03_hokudai/1965/1965_0_3.pdf"
+page_image: "archive/03_hokudai/1965/1965_0_3.jpg"
+fields:
+  - 指数・対数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\displaystyle\log\frac{\sqrt{x}}{10}$および$\displaystyle\log\frac{{10}^3}{x}$の指標を
+それぞれ$m$，$n$，仮数をそれぞれ$\alpha$，$\beta$とする。
+（ただし対数は常用対数である）。
+\begin{description}
+\item[(1)]$2\alpha+\beta$の値を求めよ。
+\item[(2)]$m+2=n$のとき，$x$のとりうる値の範囲を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1965/1965_0_3.pdf)

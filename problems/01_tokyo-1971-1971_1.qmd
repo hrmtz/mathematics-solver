@@ -1,0 +1,27 @@
+---
+title: "東京大学 1971年 1971_1"
+problem_id: "01_tokyo-1971-1971_1"
+university: "東京大学"
+exam_year: "1971"
+source_tex: "archive/01_tokyo/1971/1971_1.tex"
+pdf_source: "archive/01_tokyo/1971/1971_1.pdf"
+page_image: "archive/01_tokyo/1971/1971_1.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　変数$t$が0から$\pi$まで動くとき，
+\[ x = 2 \cos \left( t-\frac{\pi}{6} \right) , \hspace{1zw}
+y = \cos \left( t+\frac{\pi}{3} \right) \]
+によってあらわされる点$(x,y)$と原点$(0,0)$との間の距離の最大値，最小値
+およびそれらをとる$t$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1971/1971_1.pdf)

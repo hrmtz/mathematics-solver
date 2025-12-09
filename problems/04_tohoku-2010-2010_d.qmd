@@ -1,0 +1,35 @@
+---
+title: "東北大学 2010年 2010_d"
+problem_id: "04_tohoku-2010-2010_d"
+university: "東北大学"
+exam_year: "2010"
+source_tex: "archive/04_tohoku/2010/2010_d.tex"
+pdf_source: "archive/04_tohoku/2010/2010_d.pdf"
+page_image: "archive/04_tohoku/2010/2010_d.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$f(x)=\sqrt{x+2}$として，数列$x_1, \, x_2, \, x_3, \, \cdots$を
+\[ x_1=0, \hspace{1zw} x_n=f(x_{n-1}) \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
+で定義する．以下の問いに答えよ．
+\begin{description}
+\item[(1)]すべての自然数$n$に対して
+\[ 2-{(\frac{1}{2})}^{n-1}<x_n<x_{n+1}<2 \]
+が成り立つことを示せ．
+\item[(2)]すべての自然数$n$に対して
+\[ x_n<2-{(\frac{1}{4})}^n \]
+が成り立つことを示せ．
+\item[(3)]すべての自然数$n$に対して$x_n<2-\alpha^n$を満たす正の定数$\alpha$のうち，
+最大のものを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_d.pdf)

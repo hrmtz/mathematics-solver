@@ -1,0 +1,248 @@
+## 解答
+
+(1) 座標・ベクトルの設定
+
+点 $O$ を原点とし，  
+$\overrightarrow{OA}=\vec a,\ \overrightarrow{OB}=\vec b,\ \overrightarrow{OC}=\vec c$  
+とおく．$O,A,B,C$ は同一平面上にないので，$\vec a,\vec b,\vec c$ は同一平面上になく，したがって一次独立である（原点を共有する 3 点 $A,B,C$ が同一平面上にないことと同値）．
+
+中点 $P,Q$ は  
+$$
+\overrightarrow{OP}=\frac12\vec a,\quad
+\overrightarrow{OQ}=\frac{\vec a+\vec b}{2}
+$$
+で与えられる．
+
+また
+$$
+\overrightarrow{OX}=x\vec c,\quad
+\overrightarrow{BY}=y\overrightarrow{BC}=y(\vec c-\vec b)
+$$
+より
+$$
+\overrightarrow{OY}
+=\overrightarrow{OB}+\overrightarrow{BY}
+=\vec b+y(\vec c-\vec b)
+=(1-y)\vec b+y\vec c
+$$
+である．
+
+(2) 直線 $PX$，$QY$ の方向ベクトルと 1 点の位置ベクトル
+
+直線 $PX$ の方向ベクトルは
+$$
+\overrightarrow{PX}
+=\overrightarrow{OX}-\overrightarrow{OP}
+=x\vec c-\frac12\vec a
+=-\frac12\vec a+x\vec c
+$$
+
+直線 $QY$ の方向ベクトルは
+$$
+\overrightarrow{QY}
+=\overrightarrow{OY}-\overrightarrow{OQ}
+=\bigl((1-y)\vec b+y\vec c\bigr)-\frac{\vec a+\vec b}{2}
+$$
+$$
+=\,-\frac12\vec a+\Bigl(1-y-\frac12\Bigr)\vec b+y\vec c
+=-\frac12\vec a+\Bigl(\frac12-y\Bigr)\vec b+y\vec c
+$$
+
+さらに，ねじれの位置を考えるには 2 直線を通る 1 点ずつが共平面かどうかを調べればよいので，基準として点 $P$ と直線 $QY$ 上の点 $Q$ を用いる．  
+したがって，$PQ$ のベクトルは
+$$
+\overrightarrow{PQ}
+=\overrightarrow{OQ}-\overrightarrow{OP}
+=\frac{\vec a+\vec b}{2}-\frac12\vec a
+=\frac12\vec b
+$$
+である．
+
+要約すると，
+$$
+\overrightarrow{PX}=-\frac12\vec a+x\vec c,\quad
+\overrightarrow{QY}=-\frac12\vec a+\Bigl(\frac12-y\Bigr)\vec b+y\vec c,\quad
+\overrightarrow{PQ}=\frac12\vec b
+$$
+となる．
+
+(3) ねじれの位置でない場合（平行または交わる）の条件
+
+空間内の 2 直線 $l_1,l_2$ がねじれでないとき，  
+(i) 平行である，または (ii) 交わる（同一直線を含む）  
+のいずれかである．  
+逆にいずれでもなければ「ねじれの位置」である．
+
+したがって，「ねじれの位置であるための必要十分条件」は，  
+「平行でも交わりもしない」条件を求めればよい．
+
+### Ⅰ. 直線 $PX$ と直線 $QY$ が平行である条件
+
+方向ベクトルが一次従属であることと同値だから，
+$$
+\overrightarrow{PX},\ \overrightarrow{QY}\ \text{が平行}
+\ \Longleftrightarrow\
+\overrightarrow{QY}=k\,\overrightarrow{PX}
+\ \text{となる実数}\ k\ \text{が存在}
+$$
+
+すなわち
+$$
+-\frac12\vec a+\Bigl(\frac12-y\Bigr)\vec b+y\vec c
+=k\Bigl(-\frac12\vec a+x\vec c\Bigr)
+$$
+である．$\vec a,\vec b,\vec c$ は一次独立なので，係数を比較する．
+
+$\vec a$ の係数：
+$$
+-\frac12=-\frac12k\ \Longrightarrow\ k=1
+$$
+
+$\vec b$ の係数：
+$$
+\frac12-y=0\ \Longrightarrow\ y=\frac12
+$$
+
+$\vec c$ の係数：
+$$
+y=kx \ \ (\text{ただし }k=1)\ \Longrightarrow\ y=x
+$$
+
+以上より，矛盾なく成り立つためには
+$$
+k=1,\quad y=\frac12,\quad y=x
+$$
+が必要十分であるから，
+$$
+x=y=\frac12
+$$
+のとき，かつそのときに限り $PX\parallel QY$ となる．
+
+### Ⅱ. 直線 $PX$ と直線 $QY$ が交わる条件
+
+直線 $PX$ 上の点をパラメータ $s$，直線 $QY$ 上の点をパラメータ $t$ で表すと，
+$$
+\overrightarrow{OP(s)}=\overrightarrow{OP}+s\,\overrightarrow{PX}
+=\frac12\vec a+s\Bigl(-\frac12\vec a+x\vec c\Bigr)
+$$
+
+$$
+\overrightarrow{OQ(t)}=\overrightarrow{OQ}+t\,\overrightarrow{QY}
+=\frac{\vec a+\vec b}{2}
++t\Bigl(-\frac12\vec a+\Bigl(\frac12-y\Bigr)\vec b+y\vec c\Bigr)
+$$
+
+交点が存在することと，ある実数 $s,t$ について
+$$
+\overrightarrow{OP(s)}=\overrightarrow{OQ(t)}
+$$
+が成り立つことは同値なので，
+$$
+\frac12\vec a+s\Bigl(-\frac12\vec a+x\vec c\Bigr)
+=\frac{\vec a+\vec b}{2}
++t\Bigl(-\frac12\vec a+\Bigl(\frac12-y\Bigr)\vec b+y\vec c\Bigr)
+$$
+となる $s,t$ が存在する条件を調べる．
+
+両辺を整理し，$\vec a,\vec b,\vec c$ の係数で比較する．
+
+左辺：
+$$
+\frac12\vec a+s\Bigl(-\frac12\vec a+x\vec c\Bigr)
+=\Bigl(\frac12-\frac{s}{2}\Bigr)\vec a+0\cdot\vec b+sx\vec c
+$$
+
+右辺：
+$$
+\frac{\vec a+\vec b}{2}
++t\Bigl(-\frac12\vec a+\Bigl(\frac12-y\Bigr)\vec b+y\vec c\Bigr)
+$$
+$$
+=\Bigl(\frac12-\frac{t}{2}\Bigr)\vec a
++\Bigl(\frac12+t\Bigl(\frac12-y\Bigr)\Bigr)\vec b
++ty\vec c
+$$
+
+よって
+$$
+\Bigl(\frac12-\frac{s}{2}\Bigr)\vec a+0\cdot\vec b+sx\vec c
+=
+\Bigl(\frac12-\frac{t}{2}\Bigr)\vec a
++\Bigl(\frac12+t\Bigl(\frac12-y\Bigr)\Bigr)\vec b
++ty\vec c
+$$
+これが成り立つためには，係数を成分ごとに一致させて
+
+(ア) $\vec a$ の係数：
+$$
+\frac12-\frac{s}{2}=\frac12-\frac{t}{2}
+\ \Longrightarrow\ s=t
+$$
+
+(イ) $\vec b$ の係数：
+$$
+0=\frac12+t\Bigl(\frac12-y\Bigr)
+$$
+
+(ウ) $\vec c$ の係数：
+$$
+sx=ty
+$$
+
+が同時に成り立つ必要がある．(ア) より $s=t$ なので，(ウ) は
+$$
+sx=sy
+\ \Longrightarrow\ s(x-y)=0
+$$
+となる．したがって，
+
+- $s\ne0$ の場合：$x-y=0\ \Longrightarrow\ x=y$  
+- $s=0$ の場合：このとき (イ) より  
+  $0=\dfrac12+0\cdot\Bigl(\dfrac12-y\Bigr)$ すなわち $\dfrac12=0$ であり，矛盾．  
+
+よって $s=0$ は不可能であり，$s\ne0$ なので $x=y$ が必然となる．
+
+一方，(イ) は
+$$
+0=\frac12+t\Bigl(\frac12-y\Bigr)
+\ \Longrightarrow\
+t\Bigl(\frac12-y\Bigr)=-\frac12
+$$
+であるが，$t=s\ne0$ なので，$\dfrac12-y\ne0$（さもなくば左辺 0）であり，
+$$
+t=-\frac{1}{2(\frac12-y)}=\frac{1}{2y-1}
+$$
+と求まる．
+
+以上をまとめると，
+
+- $x=y$ であれば，$t=\dfrac{1}{2y-1}$ とおくことで，上の 3 式を満たす $s=t$ が存在する（ただし $y\ne\dfrac12$ に注意）．  
+- $x\ne y$ ならば $sx=sy$ より $s=0$ となるが，これは (イ) と矛盾するので実現不能．
+
+したがって
+
+- $x=y\ne\dfrac12$ のとき，直線 $PX$，$QY$ は交わる．  
+- $x=y=\dfrac12$ のときは，既に Ⅰ. より平行である（この場合も交わらないが，ねじれではない）．
+
+(4) ねじれの位置となる条件
+
+まとめると，直線 $PX$ と直線 $QY$ が
+
+- 平行となるのは $x=y=\dfrac12$ のとき，
+- 交わるのは $x=y\ne\dfrac12$ のとき，
+
+である．
+
+従って，2 直線が平行でも交わりもしない（＝ねじれの位置にある）のは
+
+$$
+x\ne y
+$$
+
+が成り立つ場合に限る．
+
+よって，求める必要十分条件は
+$$
+\boxed{x\ne y}
+$$
+である．

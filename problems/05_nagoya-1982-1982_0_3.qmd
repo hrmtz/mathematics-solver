@@ -1,0 +1,24 @@
+---
+title: "名古屋大学 1982年 1982_0_3"
+problem_id: "05_nagoya-1982-1982_0_3"
+university: "名古屋大学"
+exam_year: "1982"
+source_tex: "archive/05_nagoya/1982/1982_0_3.tex"
+pdf_source: "archive/05_nagoya/1982/1982_0_3.pdf"
+page_image: "archive/05_nagoya/1982/1982_0_3.jpg"
+fields:
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　2曲線$y=1-x^2$，$y=x^2-x^4$で囲まれた図形の概形をかき，
+この図形を$x$軸のまわりに回転して得られる回転体の体積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1982/1982_0_3.pdf)

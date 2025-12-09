@@ -1,0 +1,32 @@
+---
+title: "京都大学 1964年 1964_5"
+problem_id: "02_kyoto-1964-1964_5"
+university: "京都大学"
+exam_year: "1964"
+source_tex: "archive/02_kyoto/1964/1964_5.tex"
+pdf_source: "archive/02_kyoto/1964/1964_5.pdf"
+page_image: "archive/02_kyoto/1964/1964_5.jpg"
+fields:
+  - 数列
+  - 三角関数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a_1,a_2,\cdots,a_n,\cdots$を数列とし，
+$\displaystyle f_n(x)=\cos \left( x+\frac{a_{n+1}+a_n}{2} \right) \sin\frac{a_{n+1}-a_n}{2}$ $(n=1,2,\cdots\cdots)$とおく．
+\begin{description}
+\item[(イ)]すべての$x$の値について，$\displaystyle\sum_{n=1}^\infty f_n(x)$が収束するためには，
+数列$a_1,a_2,\cdots,a_n,\cdots$がどのような条件をみたすことが必要十分であるか．
+\item[(ロ)](イ)の条件がみたされているときについて，和$\displaystyle F(x)=\sum_{n=1}^\infty f_n(x)$を求め，
+$\displaystyle\int_0^\frac{\pi}{2}F(x)dx$と
+級数の和$\displaystyle\sum_{n=1}^\infty \left( \int_0^\frac{\pi}{2}f_n(x)dx \right)$とを比較せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1964/1964_5.pdf)

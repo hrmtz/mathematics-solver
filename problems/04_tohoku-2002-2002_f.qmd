@@ -1,0 +1,26 @@
+---
+title: "東北大学 2002年 2002_f"
+problem_id: "04_tohoku-2002-2002_f"
+university: "東北大学"
+exam_year: "2002"
+source_tex: "archive/04_tohoku/2002/2002_f.tex"
+pdf_source: "archive/04_tohoku/2002/2002_f.pdf"
+page_image: "archive/04_tohoku/2002/2002_f.jpg"
+fields:
+  - 微分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$a$は実数とする．関数
+\[ f(x)=2x^2\log x-x^2-ax(x-2) \]
+の$x>1$のおける極小値の個数を求めよ（極小値そのものは求める必要はない）．
+ただし，$\log$は自然対数とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2002/2002_f.pdf)

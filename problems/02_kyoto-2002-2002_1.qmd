@@ -1,0 +1,24 @@
+---
+title: "京都大学 2002年 2002_1"
+problem_id: "02_kyoto-2002-2002_1"
+university: "京都大学"
+exam_year: "2002"
+source_tex: "archive/02_kyoto/2002/2002_1.tex"
+pdf_source: "archive/02_kyoto/2002/2002_1.pdf"
+page_image: "archive/02_kyoto/2002/2002_1.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　数列$\{ a_n \}$の初項$a_1$から第$n$項$a_n$までの和を$S_n$と表す．
+この数列が$a_1=1$，$\displaystyle\lim_{n\to\infty}S_n=1$，$n(n-2)a_{n+2}=S_n$ $(n \geqq 1)$を満たすとき，
+一般項$a_n$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_1.pdf)

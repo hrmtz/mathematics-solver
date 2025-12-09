@@ -1,0 +1,26 @@
+---
+title: "東京科学大学 1962年 1962_2"
+problem_id: "08_titech-1962-1962_2"
+university: "東京科学大学"
+exam_year: "1962"
+source_tex: "archive/08_titech/1962/1962_2.tex"
+pdf_source: "archive/08_titech/1962/1962_2.pdf"
+page_image: "archive/08_titech/1962/1962_2.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　1つの時計がある。
+その短針の先端と長針の先端との距離が2時には4cm，2時半には6cmであった。
+4時には両針の先端間の距離が何cmとなるか，
+その近似値を小数第1位まで求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1962/1962_2.pdf)

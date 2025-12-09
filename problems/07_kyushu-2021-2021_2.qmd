@@ -1,0 +1,36 @@
+---
+title: "九州大学 2021年 2021_2"
+problem_id: "07_kyushu-2021-2021_2"
+university: "九州大学"
+exam_year: "2021"
+source_tex: "archive/07_kyushu/2021/2021_2.tex"
+pdf_source: "archive/07_kyushu/2021/2021_2.pdf"
+page_image: "archive/07_kyushu/2021/2021_2.jpg"
+fields:
+  - 複素数平面
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\theta$を$\displaystyle 0<\theta<\frac{\pi}{4}$をみたす定数とし，$x$の2次方程式
+\[ x^2-(4\cos\theta)x+\frac{1}{\tan\theta}=0 \hspace{1zw} \cdots\cdots\text{(＊)} \]
+を考える。以下の問いに答えよ。
+\begin{description}
+\item[(1)]2次方程式(＊)が実数解をもたないような$\theta$の値の範囲を求めよ。
+\item[(2)]$\theta$が(1)で求めた範囲にあるとし，
+(＊)の2つの虚数解を$\alpha$，$\beta$とする。
+ただし，$\alpha$の虚部は$\beta$の虚部より大きいとする。
+複素数平面上の3点$A(\alpha)$，$B(\beta)$，$O(0)$を通る円の中心を$C(\gamma)$とするとき，
+$\theta$を用いて$\gamma$を表せ。
+\item[(3)]点$O$，$A$，$C$を(2)のように定めるとき，
+三角形$OAC$が直角三角形になるような$\theta$に対する$\tan\theta$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_2.pdf)

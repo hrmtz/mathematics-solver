@@ -1,0 +1,36 @@
+---
+title: "東京大学 1981年 1981_4"
+problem_id: "01_tokyo-1981-1981_4"
+university: "東京大学"
+exam_year: "1981"
+source_tex: "archive/01_tokyo/1981/1981_4.tex"
+pdf_source: "archive/01_tokyo/1981/1981_4.pdf"
+page_image: "archive/01_tokyo/1981/1981_4.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　実数$\alpha$
+$\displaystyle \left( \text{ただし} 0 \leqq \alpha < \frac{\pi}{2} \right)$と，
+空間の点$A(1,1,0)$，$B(1,-1,0)$，$C(0,0,0)$を与えて，
+つぎの4条件をみたす点$P(x,y,z)$を考える．
+\begin{description}
+\item[(イ)]$z>0$
+\item[(ロ)]2点$P$，$A$を通る直線と，$A$を通り$z$軸と平行な直線のつくる角は$\pi / 4$
+\item[(ハ)]2点$P$，$B$を通る直線と，$B$を通り$z$軸と平行な直線のつくる角は$\pi / 4$
+\item[(ニ)]2点$P$，$C$を通る直線と，$C$を通り$z$軸と平行な直線のつくる角は$\alpha$
+\end{description}
+　このような点$P$の個数を求めよ．
+また，$P$が1個以上存在するとき，
+それぞれの場合について，
+$z$の値を，
+$\alpha$を用いて表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1981/1981_4.pdf)

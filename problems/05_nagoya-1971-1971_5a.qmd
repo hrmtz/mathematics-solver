@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 1971年 1971_5a"
+problem_id: "05_nagoya-1971-1971_5a"
+university: "名古屋大学"
+exam_year: "1971"
+source_tex: "archive/05_nagoya/1971/1971_5a.tex"
+pdf_source: "archive/05_nagoya/1971/1971_5a.pdf"
+page_image: "archive/05_nagoya/1971/1971_5a.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+5 (a)
+\begin{description}
+\item[(1)]$\displaystyle y=\frac{\log x}{x^3}$ $(x>0)$の増減を調べ，
+グラフの概形をかけ．
+\item[(2)]$\displaystyle\int_1^t\frac{\log x}{x^3}dx$を求め，
+$t\to+\infty$のときの極限値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1971/1971_5a.pdf)

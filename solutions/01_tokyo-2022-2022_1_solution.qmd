@@ -1,0 +1,294 @@
+## 解答
+
+(1)  
+まず $f(x)$ を微分する。積分区間の上端が $x$ である項に対しては微分積分学の基本定理を用いる。
+
+与えられた関数は  
+$$
+f(x)=(\cos x)\log(\cos x)-\cos x+
+\int_0^x(\cos t)\log(\cos t)\,dt
+\quad
+\left( 0 \leqq x < \frac{\pi}{2} \right)
+$$
+であるから，$0\le x<\dfrac{\pi}{2}$ で $\cos x>0$ なので $\log(\cos x)$ は定義されている。
+
+$f(x)$ の導関数 $f'(x)$ を求める。  
+まず
+$$
+(\cos x)\log(\cos x)
+$$
+を積の微分法で微分すると，
+$$
+\frac{d}{dx}\bigl((\cos x)\log(\cos x)\bigr)
+= (-\sin x)\log(\cos x)
++(\cos x)\cdot\frac{1}{\cos x}\cdot(-\sin x)
+= -\sin x\log(\cos x)-\sin x
+$$
+となる。また
+$$
+\frac{d}{dx}(-\cos x)=\sin x,
+$$
+さらに
+$$
+\frac{d}{dx}\left(\int_0^x(\cos t)\log(\cos t)\,dt\right)
+=(\cos x)\log(\cos x)
+$$
+である。これらをまとめると
+$$
+\begin{aligned}
+f'(x)
+&= \bigl(-\sin x\log(\cos x)-\sin x\bigr)
++ \sin x
++ (\cos x)\log(\cos x)\\
+&= -\sin x\log(\cos x)+(\cos x)\log(\cos x)\\
+&= (\cos x - \sin x)\log(\cos x)
+\end{aligned}
+$$
+となる。
+
+次に $f'(x)$ の符号を調べる。  
+$0\le x<\dfrac{\pi}{2}$ では $\cos x>0$ より $\log(\cos x)\le 0$ である（$\cos x\le 1$ なので）。  
+また
+$$
+\cos x - \sin x = 0 \iff \cos x = \sin x \iff x = \frac{\pi}{4}
+$$
+であり，
+$$
+0\le x < \frac{\pi}{4} \quad\text{では}\quad \cos x - \sin x > 0,
+$$
+$$
+\frac{\pi}{4} < x < \frac{\pi}{2} \quad\text{では}\quad \cos x - \sin x < 0
+$$
+となる。
+
+これと $\log(\cos x)\le 0$ を組み合わせると
+- $0\le x<\dfrac{\pi}{4}$ では  
+  $\cos x - \sin x>0$, $\log(\cos x)\le 0$ より  
+  $f'(x)=(\cos x-\sin x)\log(\cos x)\le 0$，
+- $\dfrac{\pi}{4}<x<\dfrac{\pi}{2}$ では  
+  $\cos x - \sin x<0$, $\log(\cos x)\le 0$ より  
+  $f'(x)=(\cos x-\sin x)\log(\cos x)\ge 0$
+
+となる。さらに $x=\dfrac{\pi}{4}$ では $\cos x=\sin x$ より
+$$
+f'\left(\frac{\pi}{4}\right)
+= (\cos \tfrac{\pi}{4}-\sin \tfrac{\pi}{4})
+\log(\cos \tfrac{\pi}{4})=0
+$$
+である。
+
+したがって
+- $0\le x\le \dfrac{\pi}{4}$ で $f(x)$ は単調減少，
+- $\dfrac{\pi}{4}\le x<\dfrac{\pi}{2}$ で $f(x)$ は単調増加
+
+であり，$x=\dfrac{\pi}{4}$ で減少から増加に変わるから，$f(x)$ は区間 $0\le x<\dfrac{\pi}{2}$ で $x=\dfrac{\pi}{4}$ において最小値をとる。
+
+よって，$f(x)$ は区間 $0\le x<\dfrac{\pi}{2}$ において最小値を持つ。
+
+(2)  
+(1) より $x=\dfrac{\pi}{4}$ が最小値を与えるので，
+$$
+f\left(\frac{\pi}{4}\right)
+= \left(\cos\frac{\pi}{4}\right)\log\left(\cos\frac{\pi}{4}\right)
+- \cos\frac{\pi}{4}
++ \int_0^{\pi/4} (\cos t)\log(\cos t)\,dt
+$$
+を計算する。
+
+ここで
+$$
+\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}
+$$
+だから，
+$$
+\left(\cos\frac{\pi}{4}\right)\log\left(\cos\frac{\pi}{4}\right)
+= \frac{\sqrt{2}}{2}\log\frac{\sqrt{2}}{2},
+\quad
+-\cos\frac{\pi}{4}=-\frac{\sqrt{2}}{2}
+$$
+である。したがって
+$$
+f\left(\frac{\pi}{4}\right)
+= \frac{\sqrt{2}}{2}\log\frac{\sqrt{2}}{2}
+- \frac{\sqrt{2}}{2}
++ \int_0^{\pi/4} (\cos t)\log(\cos t)\,dt
+$$
+となる。よって $\displaystyle \int_0^{\pi/4} (\cos t)\log(\cos t)\,dt$ を求めればよい。
+
+この積分に部分積分を用いる。  
+$$
+I=\int_0^{\pi/4} (\cos t)\log(\cos t)\,dt
+$$
+とおき，
+$$
+u=\log(\cos t),\quad dv=\cos t\,dt
+$$
+とすると，
+$$
+du = -\tan t\,dt,\quad v=\sin t
+$$
+であるから，部分積分の公式
+$$
+\int u\,dv = uv - \int v\,du
+$$
+より
+$$
+\begin{aligned}
+I
+&= \left[\sin t\,\log(\cos t)\right]_0^{\pi/4}
+- \int_0^{\pi/4} \sin t\cdot(-\tan t)\,dt\\
+&= \left[\sin t\,\log(\cos t)\right]_0^{\pi/4}
++ \int_0^{\pi/4} \sin t\,\tan t\,dt.
+\end{aligned}
+$$
+
+まず境界の項を計算する。  
+$t=\dfrac{\pi}{4}$ で
+$$
+\sin\frac{\pi}{4} = \frac{\sqrt{2}}{2},\quad
+\cos\frac{\pi}{4} = \frac{\sqrt{2}}{2}
+$$
+なので
+$$
+\sin\frac{\pi}{4}\,\log\left(\cos\frac{\pi}{4}\right)
+= \frac{\sqrt{2}}{2}\log\frac{\sqrt{2}}{2}
+$$
+である。また $t=0$ で
+$$
+\sin 0 = 0,\ \cos 0=1,\ \log 1=0
+$$
+より
+$$
+\sin 0\,\log(\cos 0) = 0
+$$
+だから，
+$$
+\left[\sin t\,\log(\cos t)\right]_0^{\pi/4}
+= \frac{\sqrt{2}}{2}\log\frac{\sqrt{2}}{2}
+$$
+となる。
+
+次に
+$$
+\int_0^{\pi/4} \sin t\,\tan t\,dt
+$$
+を計算する。$\tan t = \dfrac{\sin t}{\cos t}$ なので
+$$
+\sin t\,\tan t = \frac{\sin^2 t}{\cos t}
+$$
+である。ここで $\sin^2 t = 1-\cos^2 t$ を用いて
+$$
+\frac{\sin^2 t}{\cos t} = \frac{1-\cos^2 t}{\cos t}
+= \frac{1}{\cos t}-\cos t = \sec t - \cos t
+$$
+と変形する。したがって
+$$
+\int_0^{\pi/4} \sin t\,\tan t\,dt
+= \int_0^{\pi/4}\left(\frac{1}{\cos t}-\cos t\right)\,dt
+= \int_0^{\pi/4}\sec t\,dt - \int_0^{\pi/4}\cos t\,dt
+$$
+である。
+
+ここで $\displaystyle \int\sec t\,dt = \log|\sec t + \tan t| + C$ を用いると，
+$$
+\int_0^{\pi/4}\sec t\,dt
+= \left[\log(\sec t+\tan t)\right]_0^{\pi/4},
+\quad
+\int_0^{\pi/4}\cos t\,dt = \left[\sin t\right]_0^{\pi/4}
+$$
+となる。よって
+$$
+\begin{aligned}
+\int_0^{\pi/4} \sin t\,\tan t\,dt
+&= \left[\log(\sec t+\tan t)\right]_0^{\pi/4} - \left[\sin t\right]_0^{\pi/4}\\
+&= \log(\sec \tfrac{\pi}{4} + \tan \tfrac{\pi}{4})
+- \log(\sec 0 + \tan 0)
+- \left( \sin \tfrac{\pi}{4} - \sin 0 \right).
+\end{aligned}
+$$
+
+各値を計算すると，
+$$
+\sec\frac{\pi}{4}=\frac{1}{\cos\frac{\pi}{4}}=\sqrt{2},\quad
+\tan\frac{\pi}{4}=1,\quad
+\sec 0 = 1,\quad
+\tan 0=0,
+$$
+$$
+\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2},\quad
+\sin 0=0
+$$
+なので，
+$$
+\begin{aligned}
+\int_0^{\pi/4} \sin t\,\tan t\,dt
+&= \log(\sqrt{2}+1) - \log 1
+- \left( \frac{\sqrt{2}}{2} - 0 \right)\\
+&= \log(\sqrt{2}+1) - \frac{\sqrt{2}}{2}.
+\end{aligned}
+$$
+
+以上より
+$$
+\begin{aligned}
+I
+&= \left[\sin t\,\log(\cos t)\right]_0^{\pi/4}
++ \int_0^{\pi/4} \sin t\,\tan t\,dt\\
+&= \frac{\sqrt{2}}{2}\log\frac{\sqrt{2}}{2}
++ \left(\log(\sqrt{2}+1) - \frac{\sqrt{2}}{2}\right)\\
+&= \frac{\sqrt{2}}{2}\log\frac{\sqrt{2}}{2}
++ \log(\sqrt{2}+1) - \frac{\sqrt{2}}{2}.
+\end{aligned}
+$$
+
+したがって
+$$
+\begin{aligned}
+f\left(\frac{\pi}{4}\right)
+&= \frac{\sqrt{2}}{2}\log\frac{\sqrt{2}}{2}
+- \frac{\sqrt{2}}{2}
++ I\\
+&= \frac{\sqrt{2}}{2}\log\frac{\sqrt{2}}{2}
+- \frac{\sqrt{2}}{2}
++ \left(\frac{\sqrt{2}}{2}\log\frac{\sqrt{2}}{2}
++ \log(\sqrt{2}+1) - \frac{\sqrt{2}}{2}\right)\\
+&= \sqrt{2}\log\frac{\sqrt{2}}{2}
++ \log(\sqrt{2}+1) - \sqrt{2}.
+\end{aligned}
+$$
+
+ここで $\dfrac{\sqrt{2}}{2} = \dfrac{1}{\sqrt{2}}$ なので
+$$
+\log\frac{\sqrt{2}}{2} = \log\left(\frac{1}{\sqrt{2}}\right)
+= -\log\sqrt{2},
+$$
+よって
+$$
+\sqrt{2}\log\frac{\sqrt{2}}{2}
+= \sqrt{2}\cdot(-\log\sqrt{2})
+= -\sqrt{2}\log\sqrt{2}.
+$$
+したがって
+$$
+f\left(\frac{\pi}{4}\right)
+= -\sqrt{2}\log\sqrt{2}
++ \log(\sqrt{2}+1) - \sqrt{2}.
+$$
+また $\log\sqrt{2} = \dfrac12\log 2$ だから
+$$
+-\sqrt{2}\log\sqrt{2}
+= -\sqrt{2}\cdot\frac12\log 2
+= -\frac{\sqrt{2}}{2}\log 2
+$$
+となる。これより
+$$
+f\left(\frac{\pi}{4}\right)
+= \log(\sqrt{2}+1) - \frac{\sqrt{2}}{2}\log 2 - \sqrt{2}
+$$
+と表せる。
+
+以上から，$f(x)$ は区間 $0\le x<\dfrac{\pi}{2}$ において $x=\dfrac{\pi}{4}$ で最小値をとり，その最小値は
+$$
+\boxed{\,\log(\sqrt{2}+1) - \frac{\sqrt{2}}{2}\log 2 - \sqrt{2}\,}
+$$
+である。

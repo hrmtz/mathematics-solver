@@ -1,0 +1,32 @@
+---
+title: "九州大学 2001年 2001_0_4a"
+problem_id: "07_kyushu-2001-2001_0_4a"
+university: "九州大学"
+exam_year: "2001"
+source_tex: "archive/07_kyushu/2001/2001_0_4a.tex"
+pdf_source: "archive/07_kyushu/2001/2001_0_4a.pdf"
+page_image: "archive/07_kyushu/2001/2001_0_4a.jpg"
+fields:
+  - 複素数平面
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　複素数平面上の点$z$を考える．
+\begin{description}
+\item[(1)]実数$a$，$c$と複素数$b$が${|b|}^2-ac>0$をみたすとき
+\[ az\bar{z}+\bar{b}z+b\bar{z}+c=0 \]
+をみたす点$z$は$a \neq 0$のとき，どのような図形を描くか．
+ただし，$\bar{z}$は$z$に共役な複素数を表す．
+\item[(2)]0でない複素数$d$に対して
+\[ dz(\overline{z}+1)=\overline{d}\overline{z}(z+1) \]
+をみたす点$z$はどのような図形を描くか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_0_4a.pdf)

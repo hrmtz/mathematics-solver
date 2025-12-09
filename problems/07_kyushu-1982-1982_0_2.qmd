@@ -1,0 +1,30 @@
+---
+title: "九州大学 1982年 1982_0_2"
+problem_id: "07_kyushu-1982-1982_0_2"
+university: "九州大学"
+exam_year: "1982"
+source_tex: "archive/07_kyushu/1982/1982_0_2.tex"
+pdf_source: "archive/07_kyushu/1982/1982_0_2.pdf"
+page_image: "archive/07_kyushu/1982/1982_0_2.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　整数を係数とする3次の整式
+\[ f(x)=x^3+ax^2+bx+c \]
+について，次の(1)，(2)を証明せよ．
+\begin{description}
+\item[(1)]有理数$\alpha$が方程式$f(x)=0$の1つの解ならば，$\alpha$は整数である．
+\item[(2)]ある自然数$k$ $(>1)$に対して，
+$k$個の整数$f(1), \, f(2), \, \cdots\cdots, \, f(k)$のどれもが$k$で割り切れなければ，
+方程式$f(x)=0$は有理数の解をもたない．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1982/1982_0_2.pdf)

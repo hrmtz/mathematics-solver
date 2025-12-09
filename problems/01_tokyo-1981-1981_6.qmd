@@ -1,0 +1,35 @@
+---
+title: "東京大学 1981年 1981_6"
+problem_id: "01_tokyo-1981-1981_6"
+university: "東京大学"
+exam_year: "1981"
+source_tex: "archive/01_tokyo/1981/1981_6.tex"
+pdf_source: "archive/01_tokyo/1981/1981_6.pdf"
+page_image: "archive/01_tokyo/1981/1981_6.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$a$，$b$，$c$，$d$を実数の定数として，関数$f(x)=ax^3+bx^2+cx+d$を考える．
+\begin{description}
+\item[(1)]関数$f(x)$が3条件
+\begin{description}
+\item[(イ)]$f(-1)=0$
+\item[(ロ)]$f(1)=0$
+\item[(ハ)]$|x|\leqq1$のとき$f(x)\geqq1-|x|$
+\end{description}
+をみたすのは，定数$a$，$b$，$c$，$d$がどのような条件をみたすときか．
+\item[(2)]条件(イ)，(ロ)，(ハ)をみたす関数$f(x)$のうちで，
+積分$\displaystyle\int_{-1}^1 { \{ f'(x)-x \} }^2 dx$の値を最小にするものを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1981/1981_6.pdf)

@@ -1,0 +1,39 @@
+---
+title: "東京大学 1998年 1998_0_3"
+problem_id: "01_tokyo-1998-1998_0_3"
+university: "東京大学"
+exam_year: "1998"
+source_tex: "archive/01_tokyo/1998/1998_0_3.tex"
+pdf_source: "archive/01_tokyo/1998/1998_0_3.pdf"
+page_image: "archive/01_tokyo/1998/1998_0_3.jpg"
+fields:
+  - 三角関数
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]$x$は$0^\circ \leqq x \leqq {90}^\circ$を満たす角とする．
+\[ \begin{cases} \sin y=|\sin 4x| 
+
+ \cos y=|\cos 4x| 
+
+ 0^\circ \leqq y \leqq {90}^\circ \end{cases} \]
+となる$y$を$x$で表し，そのグラフを$xy$平面上に図示せよ．
+\item[(2)]$\alpha$は$0^\circ \leqq \alpha \leqq {90}^\circ$を満たす角とする．
+$0^\circ \leqq \theta_n \leqq {90}^\circ$を満たす角$\theta_n$，$n=1,2,\cdots$を
+\[ \begin{cases} \theta_1=\alpha 
+
+ \sin\theta_{n+1}=|\sin 4\theta_n| 
+
+ \cos\theta_{n+1}=|\cos 4\theta_n| \end{cases} \]
+で定める．$k$を2以上の整数として，$\theta_k=0^\circ$となる$\alpha$の個数を$k$で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1998/1998_0_3.pdf)

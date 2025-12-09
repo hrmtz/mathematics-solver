@@ -1,0 +1,23 @@
+---
+title: "北海道大学 1964年 1964_0_4"
+problem_id: "03_hokudai-1964-1964_0_4"
+university: "北海道大学"
+exam_year: "1964"
+source_tex: "archive/03_hokudai/1964/1964_0_4.tex"
+pdf_source: "archive/03_hokudai/1964/1964_0_4.pdf"
+page_image: "archive/03_hokudai/1964/1964_0_4.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$x$についての不等式$\displaystyle\frac{x-a}{\sqrt{a^2-x^2}}\geqq\frac{x-b}{\sqrt{b^2-x^2}}$を解け。
+ただし，$a>0$，$b>0$，$a \neq b$とする。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_0_4.pdf)

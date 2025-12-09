@@ -1,0 +1,32 @@
+---
+title: "東北大学 2007年 2007_c"
+problem_id: "04_tohoku-2007-2007_c"
+university: "東北大学"
+exam_year: "2007"
+source_tex: "archive/04_tohoku/2007/2007_c.tex"
+pdf_source: "archive/04_tohoku/2007/2007_c.pdf"
+page_image: "archive/04_tohoku/2007/2007_c.jpg"
+fields:
+  - 確率
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　あるグループの各人が独立に一問のクイズに答え，
+グループの人数の半数以上が正解すればグループは合格とする．
+ただし，一人一人の正解する確率は$p$ $(0 \leqq p \leqq 1)$とする．
+グループの人数が$2n$であるときグループが合格する確率を$a_n(p)$とする．
+\begin{description}
+\item[(1)]2以上の自然数$n$に対して，
+$a_n(p)$は文字$p$についての多項式として$p^n$で割り切れ，
+$a_n(p)-a_{n-1}(p)$は文字$p$についての多項式として${(1-p)}^n$で割り切れることを示せ．
+\item[(2)]$a_3(p) \geqq a_2(p)$となる$p$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_c.pdf)

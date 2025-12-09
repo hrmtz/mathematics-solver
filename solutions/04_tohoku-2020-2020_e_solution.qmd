@@ -1,0 +1,185 @@
+## 解答
+
+(1)  
+
+原点 $0$ と直線 $l$ との対称な点が $\alpha$ であるということは，  
+直線 $l$ が線分 $0\alpha$ の垂直二等分線であることを意味する。
+
+したがって，直線 $l$ 上の任意の点 $z$ について，
+点 $z$ は $0$ と $\alpha$ から等距離にあり，かつ線分 $0\alpha$ に垂直な線上にある。
+
+複素数平面での距離は絶対値で表されるので，
+  
+$$
+|z| = |z - \alpha|
+$$
+
+が成り立つ。これを両辺 2 乗すると，
+
+$$
+|z|^2 = |z - \alpha|^2
+$$
+
+となる。右辺を展開するために，複素数のノルムの性質  
+$|w|^2 = w\overline{w}$ を用いると，
+
+$$
+|z-\alpha|^2 = (z-\alpha)(\overline{z}-\overline{\alpha})
+= z\overline{z} - z\overline{\alpha} - \alpha\overline{z} + \alpha\overline{\alpha}
+$$
+
+である。これを用いて
+
+$$
+|z|^2 = |z-\alpha|^2
+$$
+
+に代入すると，
+
+$$
+z\overline{z}
+= z\overline{z} - z\overline{\alpha} - \alpha\overline{z} + \alpha\overline{\alpha}
+$$
+
+となる。両辺から $z\overline{z}$ を引くと，
+
+$$
+0 = - z\overline{\alpha} - \alpha\overline{z} + \alpha\overline{\alpha}
+$$
+
+すなわち
+
+$$
+z\overline{\alpha} + \alpha\overline{z} = |\alpha|^2
+$$
+
+を得る。ここで $\overline{\alpha}$ と $z$ の積は可換なので，
+
+$$
+\overline{\alpha}z + \alpha\overline{z} = |\alpha|^2
+$$
+
+となる。よって，直線 $l$ 上の点 $z$ は常に  
+$\overline{\alpha}z + \alpha\overline{z} = |\alpha|^2$ を満たすことが示された。
+
+---
+
+(2)  
+
+まず，(1) と同様にして，直線 $m$ 上の点 $z$ に対しても，  
+原点と対称な点が $\beta$ であることから，
+
+$$
+\overline{\beta}z + \beta\overline{z} = |\beta|^2
+$$
+
+が成り立つ。
+
+### 必要十分条件の証明
+
+$l$ と $m$ が交点をもつとは，両方の直線上にある複素数 $z$ が存在することである。  
+したがって，そのような $z$ は次の連立方程式を満たす：
+
+$$
+\begin{cases}
+\overline{\alpha}z + \alpha\overline{z} = |\alpha|^2 \\
+\overline{\beta}z + \beta\overline{z} = |\beta|^2
+\end{cases}
+$$
+
+ここで $z$ と $\overline{z}$ を未知数とみなして，  
+この 2 本の一次方程式から解が存在する条件を調べる。
+
+この連立方程式の係数行列の行列式を考えると，
+
+$$
+D = 
+\begin{vmatrix}
+\overline{\alpha} & \alpha \\
+\overline{\beta} & \beta
+\end{vmatrix}
+= \overline{\alpha}\,\beta - \alpha\,\overline{\beta}
+$$
+
+である。行列式 $D \neq 0$ のとき，連立方程式は  
+一意な解 $z$ をもち，したがって $l$ と $m$ は交点をもつ。
+
+ここで，複素数 $\overline{\alpha}\beta$ とその共役 $\alpha\overline{\beta}$ を比べると，
+
+$$
+\overline{\overline{\alpha}\beta} = \alpha\overline{\beta}
+$$
+
+だから，
+
+$$
+D = \overline{\alpha}\beta - \alpha\overline{\beta}
+= \overline{\alpha}\beta - \overline{\overline{\alpha}\beta}
+$$
+
+となる。一般に，複素数 $w$ に対して  
+$w - \overline{w} = 0$ となるのは $w$ が実数のときに限るので，
+
+$$
+D = 0 \quad\Longleftrightarrow\quad \overline{\alpha}\beta \text{ が実数}
+$$
+
+が成り立つ。よって，
+
+$$
+D \neq 0 \quad\Longleftrightarrow\quad \overline{\alpha}\beta \text{ が実数でない}
+$$
+
+である。
+
+行列式 $D \neq 0$ のときにのみ連立方程式が解を持ち，  
+そのときに限り $l$ と $m$ は交点を持つので，
+
+$$
+\overline{\alpha}\beta \text{ が実数でないこと}
+$$
+
+が $l$ と $m$ が交点をもつための必要十分条件である。
+
+### 交点の表式
+
+次に，$D \neq 0$ のとき，すなわち $l$ と $m$ が交わるときの  
+交点 $z$ を $\alpha,\beta$ を用いて求める。
+
+上の連立方程式
+
+$$
+\begin{cases}
+\overline{\alpha}z + \alpha\overline{z} = |\alpha|^2 \\
+\overline{\beta}z + \beta\overline{z} = |\beta|^2
+\end{cases}
+$$
+
+を $z,\overline{z}$ について解く。  
+クラメルの公式を用いると，
+
+分母は先ほどの行列式
+
+$$
+D = \overline{\alpha}\beta - \alpha\overline{\beta}
+$$
+
+であり，分子は
+
+$$
+\begin{vmatrix}
+|\alpha|^2 & \alpha \\
+|\beta|^2 & \beta
+\end{vmatrix}
+= |\alpha|^2\beta - \alpha|\beta|^2
+$$
+
+だから，
+
+$$
+z = \frac{|\alpha|^2\beta - \alpha|\beta|^2}{\overline{\alpha}\beta - \alpha\overline{\beta}}
+$$
+
+となる。これが，$l$ と $m$ の交点の複素数表示である。
+
+以上で示すべきことがすべて示された。

@@ -1,0 +1,307 @@
+## 解答
+
+(座標を用いて解くことにする。)
+
+半直線 $OX$ を $x$ 軸の正の向き，半直線 $OY$ を原点 $O$ を中心として $60^\circ$ だけ回転した方向とし，$\angle XOY$ の二等分線 $OZ$ は $30^\circ$ 方向の半直線とする。原点 $O$ を座標の原点とする。
+
+$OX$，$OY$ 上に $O$ から 1cm の点 $A$，$B$ があるから，
+  
+- $A(1,0)$
+- $B(\cos 60^\circ,\ \sin 60^\circ) = \left(\dfrac12,\ \dfrac{\sqrt3}{2}\right)$
+
+である。
+
+動点 $P,Q,R$ の位置を時間 $t$ 秒後で表す。
+
+- $P$ は $A$ から $OX$ 上を毎秒 $1$cm の速さで $O$ から遠ざかるので，$P$ の $x$ 座標は $t$ 秒後に $1 + t$，$y$ 座標は $0$。  
+  よって  
+  $$P(1+t,\ 0)$$
+
+- $Q$ は $O$ から $OZ$（$30^\circ$ 方向）に毎秒 $\sqrt3$cm の速さで進むので，$t$ 秒後の $Q$ の座標は，極座標的に長さ $\sqrt3 t$，角度 $30^\circ$ だから  
+  $$
+  Q\bigl(\sqrt3 t\cos30^\circ,\ \sqrt3 t\sin30^\circ\bigr)
+  =\left(\sqrt3 t\cdot\dfrac{\sqrt3}{2},\ \sqrt3 t\cdot\dfrac12\right)
+  =\left(\dfrac{3t}{2},\ \dfrac{\sqrt3 t}{2}\right)
+  $$
+
+- $R$ は $B$ から $OY$（$60^\circ$ 方向）に毎秒 $2$cm の速さで進む。  
+  $OY$ 方向の単位ベクトルは $(\cos60^\circ,\ \sin60^\circ)=\left(\dfrac12,\ \dfrac{\sqrt3}{2}\right)$ なので，$t$ 秒後に $B$ から進むベクトルは  
+  $$2t\left(\dfrac12,\ \dfrac{\sqrt3}{2}\right)=(t,\ \sqrt3 t)$$
+  したがって
+  $$
+  R = B + (t,\ \sqrt3 t)
+    = \left(\dfrac12 + t,\ \dfrac{\sqrt3}{2} + \sqrt3 t\right)
+  $$
+
+---
+
+### (i) 3点 $P,Q,R$ が一直線上に来るまでの時間
+
+3点 $P,Q,R$ が一直線上にあることと，ベクトル $\overrightarrow{PQ}$ と $\overrightarrow{PR}$ が平行であることは同値である。  
+したがって，$\overrightarrow{PQ}$ と $\overrightarrow{PR}$ の成分を計算して，比例関係から $t$ を求めればよい。
+
+まず
+$$
+\overrightarrow{PQ} = Q - P
+ = \left(\dfrac{3t}{2} - (1+t),\ \dfrac{\sqrt3 t}{2} - 0\right)
+ = \left(\dfrac{t}{2}-1,\ \dfrac{\sqrt3 t}{2}\right)
+$$
+次に
+$$
+\overrightarrow{PR} = R - P
+ = \left(\dfrac12 + t - (1+t),\ \dfrac{\sqrt3}{2} + \sqrt3 t - 0\right)
+ = \left(-\dfrac12,\ \dfrac{\sqrt3}{2} + \sqrt3 t\right)
+$$
+
+これらが平行であるための必要十分条件は，2次元ベクトルの成分が同じ比になること，すなわち
+
+$$
+\dfrac{\dfrac{t}{2} - 1}{-\dfrac12}
+= \dfrac{\dfrac{\sqrt3 t}{2}}{\dfrac{\sqrt3}{2} + \sqrt3 t}
+$$
+
+である。左辺・右辺をそれぞれ簡単にすると，
+
+左辺：
+$$
+\dfrac{\dfrac{t}{2} - 1}{-\dfrac12}
+= \left(\dfrac{t}{2} - 1\right)\cdot\left(-2\right)
+= -t + 2
+$$
+
+右辺：
+$$
+\dfrac{\dfrac{\sqrt3 t}{2}}{\dfrac{\sqrt3}{2} + \sqrt3 t}
+= \dfrac{\dfrac{\sqrt3 t}{2}}{\sqrt3\left(\dfrac12 + t\right)}
+= \dfrac{\sqrt3 t}{2}\cdot \dfrac{1}{\sqrt3\left(\dfrac12 + t\right)}
+= \dfrac{t}{2\left(\dfrac12 + t\right)}
+= \dfrac{t}{1+2t}
+$$
+
+よって
+$$
+-t + 2 = \dfrac{t}{1 + 2t}
+$$
+両辺に $1+2t$ をかけて
+$$
+(-t+2)(1+2t) = t
+$$
+左辺を展開すると
+$$
+(-t+2)(1+2t) = -t -2t^2 + 2 + 4t = -2t^2 + 3t + 2
+$$
+したがって
+$$
+-2t^2 + 3t + 2 = t
+\quad\Longrightarrow\quad
+-2t^2 + 2t + 2 = 0
+$$
+両辺を $-1$ 倍して
+$$
+2t^2 - 2t - 2 = 0
+\quad\Longrightarrow\quad
+t^2 - t - 1 = 0
+$$
+
+2次方程式の解の公式を用いると
+$$
+t = \dfrac{1 \pm \sqrt{1 + 4}}{2}
+  = \dfrac{1 \pm \sqrt5}{2}
+$$
+
+時間 $t$ は正でなければならないから，
+$$
+t = \dfrac{1 + \sqrt5}{2}\ \text{(秒)}
+$$
+が求める時間である。
+
+---
+
+### (ii) $\triangle PQR$ の面積が $\triangle AOB$ の面積に等しくなるまでの時間
+
+まず $\triangle AOB$ の面積を求める。  
+$A(1,0)$，$B\left(\dfrac12,\ \dfrac{\sqrt3}{2}\right)$ なので，
+
+$$
+\overrightarrow{OA} = (1,0),\quad
+\overrightarrow{OB} = \left(\dfrac12,\ \dfrac{\sqrt3}{2}\right)
+$$
+
+2点 $O(0,0)$，$A(1,0)$，$B\left(\dfrac12,\ \dfrac{\sqrt3}{2}\right)$ による三角形の面積は，行列式を用いて
+
+$$
+S_{\triangle AOB}
+= \dfrac12 \left| 1\cdot\dfrac{\sqrt3}{2} - 0\cdot\dfrac12 \right|
+= \dfrac12 \cdot \dfrac{\sqrt3}{2}
+= \dfrac{\sqrt3}{4}
+$$
+
+である。
+
+次に $\triangle PQR$ の面積 $S_{\triangle PQR}$ を $t$ の式で表す。  
+3点 $P,Q,R$ のうち，任意の1点を基準に，その点からの2本の辺で作る平行四辺形の面積の半分をとればよい。ここでは，頂点 $P$ を基準にして，ベクトル $\overrightarrow{PQ}$，$\overrightarrow{PR}$ を用いる。
+
+既に求めたように
+$$
+\overrightarrow{PQ}
+ = \left(\dfrac{t}{2}-1,\ \dfrac{\sqrt3 t}{2}\right),\quad
+\overrightarrow{PR}
+ = \left(-\dfrac12,\ \dfrac{\sqrt3}{2} + \sqrt3 t\right)
+$$
+
+平行四辺形の面積は，2ベクトルの成分を用いた行列式の絶対値であり，三角形の面積はその半分であるから，
+
+$$
+S_{\triangle PQR}
+= \dfrac12 \left| 
+\left(\dfrac{t}{2}-1\right)\left(\dfrac{\sqrt3}{2} + \sqrt3 t\right)
+ - \left(\dfrac{\sqrt3 t}{2}\right)\left(-\dfrac12\right)
+\right|
+$$
+
+右辺を整理する。
+
+まず
+$$
+\left(\dfrac{t}{2}-1\right)\left(\dfrac{\sqrt3}{2} + \sqrt3 t\right)
+= \left(\dfrac{t}{2}-1\right)\sqrt3\left(\dfrac12 + t\right)
+= \sqrt3\left(\dfrac{t}{2}-1\right)\left(\dfrac12 + t\right)
+$$
+
+ここで
+$$
+\left(\dfrac{t}{2}-1\right)\left(\dfrac12 + t\right)
+= \dfrac{t}{2}\left(\dfrac12 + t\right) - 1\left(\dfrac12 + t\right)
+= \left(\dfrac{t}{4} + \dfrac{t^2}{2}\right) - \left(\dfrac12 + t\right)
+$$
+$$
+= \dfrac{t^2}{2} + \dfrac{t}{4} - t - \dfrac12
+= \dfrac{t^2}{2} - \dfrac{3t}{4} - \dfrac12
+$$
+
+したがって
+$$
+\left(\dfrac{t}{2}-1\right)\left(\dfrac{\sqrt3}{2} + \sqrt3 t\right)
+= \sqrt3\left(\dfrac{t^2}{2} - \dfrac{3t}{4} - \dfrac12\right)
+$$
+
+また
+$$
+\left(\dfrac{\sqrt3 t}{2}\right)\left(-\dfrac12\right)
+= -\dfrac{\sqrt3 t}{4}
+$$
+
+よって行列式の中身（絶対値をとる前の値）は
+
+$$
+\sqrt3\left(\dfrac{t^2}{2} - \dfrac{3t}{4} - \dfrac12\right)
+ - \left(-\dfrac{\sqrt3 t}{4}\right)
+= \sqrt3\left(\dfrac{t^2}{2} - \dfrac{3t}{4} - \dfrac12\right)
+ + \dfrac{\sqrt3 t}{4}
+$$
+
+右辺を $\sqrt3$ でまとめると，
+
+$$
+= \sqrt3\left(
+\dfrac{t^2}{2} - \dfrac{3t}{4} - \dfrac12 + \dfrac{t}{4}
+\right)
+= \sqrt3\left(
+\dfrac{t^2}{2} - \dfrac{2t}{4} - \dfrac12
+\right)
+= \sqrt3\left(
+\dfrac{t^2}{2} - \dfrac{t}{2} - \dfrac12
+\right)
+$$
+
+ここで
+$$
+\dfrac{t^2}{2} - \dfrac{t}{2} - \dfrac12
+= \dfrac{1}{2}(t^2 - t - 1)
+$$
+
+したがって
+$$
+\text{行列式} = \sqrt3 \cdot \dfrac{1}{2}(t^2 - t - 1)
+= \dfrac{\sqrt3}{2}(t^2 - t - 1)
+$$
+
+ゆえに
+$$
+S_{\triangle PQR}
+= \dfrac12 \left| \dfrac{\sqrt3}{2}(t^2 - t - 1) \right|
+= \dfrac{\sqrt3}{4} \left| t^2 - t - 1 \right|
+$$
+
+これが $\triangle AOB$ の面積 $\dfrac{\sqrt3}{4}$ に等しくなるときの $t$ を求めるには，
+
+$$
+\dfrac{\sqrt3}{4} \left| t^2 - t - 1 \right|
+= \dfrac{\sqrt3}{4}
+$$
+
+両辺を $\dfrac{\sqrt3}{4}$ で割ると
+
+$$
+\left| t^2 - t - 1 \right| = 1
+$$
+
+絶対値の方程式は
+
+$$
+t^2 - t - 1 = 1
+\quad\text{または}\quad
+t^2 - t - 1 = -1
+$$
+
+に分かれる。
+
+1つめ：
+$$
+t^2 - t - 1 = 1
+\quad\Longrightarrow\quad
+t^2 - t - 2 = 0
+$$
+これを解くと
+$$
+t = \dfrac{1 \pm \sqrt{1 + 8}}{2}
+  = \dfrac{1 \pm 3}{2}
+$$
+より
+$$
+t = 2,\ -1
+$$
+時間なので $t>0$ として $t=2$ を採る。
+
+2つめ：
+$$
+t^2 - t - 1 = -1
+\quad\Longrightarrow\quad
+t^2 - t = 0
+\quad\Longrightarrow\quad
+t(t-1) = 0
+$$
+より
+$$
+t = 0,\ 1
+$$
+
+$t=0$ は出発時刻であり，このとき $\triangle PQR = \triangle AOB$ となっていることも確認できる（$P=A, Q=O, R=B$）。  
+したがって，出発後に再び $\triangle PQR$ の面積が $\triangle AOB$ の面積に等しくなるのは
+
+$$
+t = 1,\ 2
+$$
+
+のときである。
+
+---
+
+以上をまとめると，
+
+- (i) $3$ 点 $P,Q,R$ が一直線上にくるまでの時間は  
+  $$t = \dfrac{1 + \sqrt5}{2}\ \text{秒}$$
+- (ii) $\triangle PQR$ の面積が $\triangle AOB$ の面積に等しくなるまでの時間は  
+  $$t = 1\ \text{秒},\quad 2\ \text{秒}$$
+
+である。

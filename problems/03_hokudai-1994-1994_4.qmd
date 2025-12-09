@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1994年 1994_4"
+problem_id: "03_hokudai-1994-1994_4"
+university: "北海道大学"
+exam_year: "1994"
+source_tex: "archive/03_hokudai/1994/1994_4.tex"
+pdf_source: "archive/03_hokudai/1994/1994_4.pdf"
+page_image: "archive/03_hokudai/1994/1994_4.jpg"
+fields:
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　連続関数$f(x)$は$f(0)=1$であり，任意の実数$x$について
+$\displaystyle \int_{-x}^x f(t) dt=a\sin x+b\cos x$を満たしているとする．
+\begin{description}
+\item[(1)]定数$a$，$b$の値を求めよ．
+\item[(2)]$g(x)=f(x)-\cos x$とおくとき，
+$g(x)$は奇関数であることを示せ．
+\item[(3)]$x\geqq0$のとき，不等式
+$\displaystyle \int_{-x}^x{ \{ f(t) \} }^2dt\geqq\int_{-x}^x\cos^2tdt$を証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_4.pdf)

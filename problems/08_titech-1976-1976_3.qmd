@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1976年 1976_3"
+problem_id: "08_titech-1976-1976_3"
+university: "東京科学大学"
+exam_year: "1976"
+source_tex: "archive/08_titech/1976/1976_3.tex"
+pdf_source: "archive/08_titech/1976/1976_3.pdf"
+page_image: "archive/08_titech/1976/1976_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　1辺の長さが$a$の正方形の内部にあって，
+正方形の中心までの距離と，
+正方形の辺までの最短距離が等しいような点$P$を考える．
+このような点$P$全体のつくる図形によって囲まれる部分の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1976/1976_3.pdf)

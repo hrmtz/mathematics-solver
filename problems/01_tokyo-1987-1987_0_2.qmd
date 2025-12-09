@@ -1,0 +1,26 @@
+---
+title: "東京大学 1987年 1987_0_2"
+problem_id: "01_tokyo-1987-1987_0_2"
+university: "東京大学"
+exam_year: "1987"
+source_tex: "archive/01_tokyo/1987/1987_0_2.tex"
+pdf_source: "archive/01_tokyo/1987/1987_0_2.pdf"
+page_image: "archive/01_tokyo/1987/1987_0_2.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$を正の定数とし，
+$x$の関数$f(x)=x^3-ax^2-a^2x$のグラフを$C$とする．
+$f(x)$が極大となる$x$の値を$b$とするとき，
+点$(b,f(b))$における$C$の接線と$C$とによって囲まれる部分の面積を$a$で表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1987/1987_0_2.pdf)

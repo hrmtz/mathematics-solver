@@ -1,0 +1,26 @@
+---
+title: "東京大学 1998年 1998_6"
+problem_id: "01_tokyo-1998-1998_6"
+university: "東京大学"
+exam_year: "1998"
+source_tex: "archive/01_tokyo/1998/1998_6.tex"
+pdf_source: "archive/01_tokyo/1998/1998_6.pdf"
+page_image: "archive/01_tokyo/1998/1998_6.jpg"
+fields:
+  - 空間図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$xyz$空間に5点$A(1,1,0)$，$B(-1,1,0)$，$C(-1,-1,0)$，$D(1,-1,0)$，$P(0,0,3)$をとる．
+四角錐$PABCD$の
+\[ x^2+y^2\geqq1 \]
+を満たす部分の体積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1998/1998_6.pdf)

@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1991年 1991_5"
+problem_id: "03_hokudai-1991-1991_5"
+university: "北海道大学"
+exam_year: "1991"
+source_tex: "archive/03_hokudai/1991/1991_5.tex"
+pdf_source: "archive/03_hokudai/1991/1991_5.pdf"
+page_image: "archive/03_hokudai/1991/1991_5.jpg"
+fields:
+  - 空間図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$xyz$空間に3点$O(0, \, 0, \, 0)$，$A(\sqrt2, \, 0, \, 0)$，$B(0, \, \sqrt2, \, 0)$と半径$\sqrt6$の球$S$がある．
+球$S$は$z$座標正の中心をもち，3つの線分$OA$，$OB$，$AB$に接している．
+\begin{description}
+\item[(1)]球$S$の中心の座標を求めよ．
+\item[(2)]球$S$の$xy$平面より上にある部分の体積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1991/1991_5.pdf)

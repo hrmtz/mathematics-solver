@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 1995年 1995_3"
+problem_id: "08_titech-1995-1995_3"
+university: "東京科学大学"
+exam_year: "1995"
+source_tex: "archive/08_titech/1995/1995_3.tex"
+pdf_source: "archive/08_titech/1995/1995_3.pdf"
+page_image: "archive/08_titech/1995/1995_3.jpg"
+fields:
+  - 微分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$n$を自然数とする．
+\begin{description}
+\item[(1)]$\displaystyle f(x)=\frac{x^2}{n^2}+e^{2x}-1$の増減を調べ，グラフの概形をえがけ，
+\item[(2)]楕円$\displaystyle \frac{x^2}{n^2}+n^2 y^2=1$と曲線$\displaystyle y=\frac{1}{n}e^x$の交点のうち
+$\displaystyle \left( 0,\frac{1}{n} \right)$でない方の座標を$(x_n,y_n)$とおく．
+このとき$\displaystyle\lim_{n\to\infty}\frac{x_n}{n}=-1$であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1995/1995_3.pdf)

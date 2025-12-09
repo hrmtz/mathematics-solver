@@ -1,0 +1,32 @@
+---
+title: "東京大学 1984年 1984_0_2"
+problem_id: "01_tokyo-1984-1984_0_2"
+university: "東京大学"
+exam_year: "1984"
+source_tex: "archive/01_tokyo/1984/1984_0_2.tex"
+pdf_source: "archive/01_tokyo/1984/1984_0_2.pdf"
+page_image: "archive/01_tokyo/1984/1984_0_2.jpg"
+fields:
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$xy$平面上に，海を隔てて2国$A$，$B$がある．
+$A$の領土は不等式$x^2+{(y-7)}^2\leqq4$で表される領域であり，
+$B$の領土は不等式$y\leqq0$で表される領域であるという．
+　いま$A$の領海を次の3条件(1)，(2)，(3)を満たす点$P$全体の集合と定める:
+\begin{description}
+\item[(1)]$P$は$A$，$B$いずれの領土にも含まれない．
+\item[(2)]$P$と$A$の領土との間の最短距離は4より小さい．
+\item[(3)]$P$と$A$の領土との間の最短距離は，$P$と$B$の領土との間の最短距離より小さい．
+\end{description}
+$A$の領海の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1984/1984_0_2.pdf)

@@ -1,0 +1,26 @@
+---
+title: "東京大学 2016年 2016_1"
+problem_id: "01_tokyo-2016-2016_1"
+university: "東京大学"
+exam_year: "2016"
+source_tex: "archive/01_tokyo/2016/2016_1.tex"
+pdf_source: "archive/01_tokyo/2016/2016_1.pdf"
+page_image: "archive/01_tokyo/2016/2016_1.jpg"
+fields:
+  - 指数・対数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$e$を自然対数の底，
+すなわち$\displaystyle e=\lim_{t\to\infty}{\left( 1+\frac{1}{t} \right)}^t$とする。
+すべての正の実数$x$に対し，次の不等式が成り立つことを示せ。
+\[ {\left( 1+\frac{1}{x} \right)}^x<e<{\left( 1+\frac{1}{x} \right)}^{x+\frac{1}{2}} \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2016/2016_1.pdf)

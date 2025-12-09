@@ -1,0 +1,34 @@
+---
+title: "東京科学大学 2018年 2018_3"
+problem_id: "08_titech-2018-2018_3"
+university: "東京科学大学"
+exam_year: "2018"
+source_tex: "archive/08_titech/2018/2018_3.tex"
+pdf_source: "archive/08_titech/2018/2018_3.pdf"
+page_image: "archive/08_titech/2018/2018_3.jpg"
+fields:
+  - 指数・対数
+  - 三角関数
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　方程式
+\[ e^x(1-\sin x)=1 \]
+について，次の問に答えよ．
+\begin{description}
+\item[(1)]この方程式は負の実数解を持たないことを示せ．
+また，正の実数解を無限個持つことを示せ．
+\item[(2)]この方程式の正の実数解を小さい方から順に並べて
+$a_1, \, a_2, \, a_3, \, \cdots$とし，
+$\displaystyle S_n=\sum_{k=1}^na_k$とおく．
+このとき極限値$\displaystyle\lim_{n\to\infty}\frac{S_n}{n^2}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2018/2018_3.pdf)

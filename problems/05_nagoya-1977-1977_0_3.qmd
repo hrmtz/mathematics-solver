@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 1977年 1977_0_3"
+problem_id: "05_nagoya-1977-1977_0_3"
+university: "名古屋大学"
+exam_year: "1977"
+source_tex: "archive/05_nagoya/1977/1977_0_3.tex"
+pdf_source: "archive/05_nagoya/1977/1977_0_3.pdf"
+page_image: "archive/05_nagoya/1977/1977_0_3.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xy$平面上に動点$P$がある．
+さいころを投げて，奇数の目が出れば$x$軸の正の方向へ1だけ進み，
+偶数の目が出れば$y$軸の正の方向へ1だけ進むものとする．
+動点$P$は最初原点にあるものとし，
+さいころを8回投げたとき，
+原点から$P$までの距離が6以下となる確率を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1977/1977_0_3.pdf)

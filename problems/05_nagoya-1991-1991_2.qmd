@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 1991年 1991_2"
+problem_id: "05_nagoya-1991-1991_2"
+university: "名古屋大学"
+exam_year: "1991"
+source_tex: "archive/05_nagoya/1991/1991_2.tex"
+pdf_source: "archive/05_nagoya/1991/1991_2.pdf"
+page_image: "archive/05_nagoya/1991/1991_2.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\displaystyle f(t)=\int_0^\frac{\pi}{2}|\cos x-t\sin x|dx$とおく．
+\begin{description}
+\item[(1)]$\cos\theta=t\sin\theta$ $\displaystyle\left(0<\theta<\frac{\pi}{2}, \, t>0\right)$のとき，
+$\sin\theta$，$\cos\theta$を$t$で表せ．
+\item[(2)]関数$f(t)$の$t>0$における最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1991/1991_2.pdf)

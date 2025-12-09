@@ -1,0 +1,31 @@
+---
+title: "東北大学 2021年 2021_5"
+problem_id: "04_tohoku-2021-2021_5"
+university: "東北大学"
+exam_year: "2021"
+source_tex: "archive/04_tohoku/2021/2021_5.tex"
+pdf_source: "archive/04_tohoku/2021/2021_5.pdf"
+page_image: "archive/04_tohoku/2021/2021_5.jpg"
+fields:
+  - 複素数平面
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$z$を複素数とする。複素数平面上の3点$O(0)$，$A(z)$，$B(z^2)$について，以下の問いに答えよ。
+\begin{description}
+\item[(1)]3点$O, \, A, \, B$が同一直線上にあるための$z$の必要十分条件を求めよ。
+\item[(2)]3点$O, \, A, \, B$が二等辺三角形の頂点になるような
+$z$全体を複素数平面上に図示せよ。
+\item[(3)]3点$O, \, A, \, B$が二等辺三角形の頂点であり，
+かつ$z$の偏角$\theta$が$\displaystyle 0\leqq\theta\leqq\frac{\pi}{3}$を満たすとき，
+三角形$OAB$の面積の最大値とそのときの$z$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2021/2021_5.pdf)

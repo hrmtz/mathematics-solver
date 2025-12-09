@@ -1,0 +1,31 @@
+---
+title: "東京大学 1996年 1996_3"
+problem_id: "01_tokyo-1996-1996_3"
+university: "東京大学"
+exam_year: "1996"
+source_tex: "archive/01_tokyo/1996/1996_3.tex"
+pdf_source: "archive/01_tokyo/1996/1996_3.pdf"
+page_image: "archive/01_tokyo/1996/1996_3.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　空間内の点$O$を中心とする一辺の長さが$l$の立方体の頂点を$A_1,A_2,\cdots\cdots,A_8$とする．
+また，$O$を中心とする半径$r$の球面を$S$とする．
+\begin{description}
+\item[(1)]$S$上のすべての点から$A_1,A_2,\cdots\cdots,A_8$のうち少なくとも1点が見えるための必要十分条件を
+$l$と$r$で表せ．
+\item[(2)]$S$上のすべての点から$A_1,A_2,\cdots\cdots,A_8$のうち少なくとも2点が見えるための必要十分条件を
+$l$と$r$で表せ．
+\end{description}
+　ただし，$S$上の点$P$から$A_k$が見えるとは，
+$A_k$が$S$の外側にあり，線分$PA_k$と$S$との共有点が$P$のみであることとする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1996/1996_3.pdf)

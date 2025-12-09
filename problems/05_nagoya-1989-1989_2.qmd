@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 1989年 1989_2"
+problem_id: "05_nagoya-1989-1989_2"
+university: "名古屋大学"
+exam_year: "1989"
+source_tex: "archive/05_nagoya/1989/1989_2.tex"
+pdf_source: "archive/05_nagoya/1989/1989_2.pdf"
+page_image: "archive/05_nagoya/1989/1989_2.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　空間に2点$F_1$，$F_2$がある．
+その間の距離を2とし，中点を$O$とする．
+次の条件(i)，(ii)を満たす点$P$全体のなす立体の体積を求めよ．
+\begin{description}
+\item[(i)]$OP\geqq r$（ただし，$r$は$2\sqrt2\leqq r \leqq3$を満たす定数）
+\item[(ii)]$PF_1+PF_2\leqq6$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1989/1989_2.pdf)

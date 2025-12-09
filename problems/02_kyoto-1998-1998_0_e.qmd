@@ -1,0 +1,27 @@
+---
+title: "京都大学 1998年 1998_0_e"
+problem_id: "02_kyoto-1998-1998_0_e"
+university: "京都大学"
+exam_year: "1998"
+source_tex: "archive/02_kyoto/1998/1998_0_e.tex"
+pdf_source: "archive/02_kyoto/1998/1998_0_e.pdf"
+page_image: "archive/02_kyoto/1998/1998_0_e.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a$，$b$，$p$，$q$はすべて自然数で，$\displaystyle\frac{p^2+q^2}{a}=\frac{pq}{b}$を満たしている．
+$a$と$b$の最大公約数が1のとき以下の問に答えよ．
+\begin{description}
+\item[(1)]$pq$は$b$で割り切れることを示せ．
+\item[(2)]$\sqrt{a+2b}$は自然数であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1998/1998_0_e.pdf)

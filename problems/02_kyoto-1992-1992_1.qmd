@@ -1,0 +1,27 @@
+---
+title: "京都大学 1992年 1992_1"
+problem_id: "02_kyoto-1992-1992_1"
+university: "京都大学"
+exam_year: "1992"
+source_tex: "archive/02_kyoto/1992/1992_1.tex"
+pdf_source: "archive/02_kyoto/1992/1992_1.pdf"
+page_image: "archive/02_kyoto/1992/1992_1.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　空間内の6つの点
+$A(1,0,0)$，$B(0,1,0)$，$C(-1,0,0)$，$D(0,-1,0)$，$E(0,0,1)$，$F(0,0,-1)$
+を頂点とする正八面体を，
+平面$\displaystyle\frac{x}{a}+\frac{y}{b}+\frac{z}{c}=0$で切るとき，
+切り口の多角形の頂点の座標を求めよ．
+ただし，$a$，$b$，$c$は正の定数とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_1.pdf)

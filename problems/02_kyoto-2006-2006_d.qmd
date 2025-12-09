@@ -1,0 +1,23 @@
+---
+title: "京都大学 2006年 2006_d"
+problem_id: "02_kyoto-2006-2006_d"
+university: "京都大学"
+exam_year: "2006"
+source_tex: "archive/02_kyoto/2006/2006_d.tex"
+pdf_source: "archive/02_kyoto/2006/2006_d.pdf"
+page_image: "archive/02_kyoto/2006/2006_d.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　平面上の点$O$を中心とし半径1の円周上に相異なる3点$A$，$B$，$C$がある．
+$\triangle ABC$の内接円の半径$r$は$\displaystyle\frac{1}{2}$以下であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2006/2006_d.pdf)

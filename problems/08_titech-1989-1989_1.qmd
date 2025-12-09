@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 1989年 1989_1"
+problem_id: "08_titech-1989-1989_1"
+university: "東京科学大学"
+exam_year: "1989"
+source_tex: "archive/08_titech/1989/1989_1.tex"
+pdf_source: "archive/08_titech/1989/1989_1.pdf"
+page_image: "archive/08_titech/1989/1989_1.jpg"
+fields:
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面上の点$P$から放物線$y=x^2$へ2本の異なる接線を引き，それらの接点を$Q$，$R$とする．
+\begin{description}
+\item[(1)]点$P$が次の3つの不等式$y \leqq x-1$，$y \leqq -x+1$，$-1 \leqq y$を同時に満たす範囲を動くとき，
+線分$QR$の中点が動く範囲を図示せよ．
+\item[(2)]三角形$PQR$の面積が2に等しくなる点$P$はどんな曲線上にあるか．
+その方程式を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1989/1989_1.pdf)

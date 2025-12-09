@@ -1,0 +1,30 @@
+---
+title: "北海道大学 2014年 2014_0_3"
+problem_id: "03_hokudai-2014-2014_0_3"
+university: "北海道大学"
+exam_year: "2014"
+source_tex: "archive/03_hokudai/2014/2014_0_3.tex"
+pdf_source: "archive/03_hokudai/2014/2014_0_3.pdf"
+page_image: "archive/03_hokudai/2014/2014_0_3.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\triangle  ABC$を線分$BC$を斜辺とする直角二等辺三角形とし，その外接円の中心を$O$とする。
+正の実数$p$に対して，$BC$を$(p+1):p$に外分する点を$D$とし，
+線分$AD$と$\triangle ABC$の外接円との交点で$A$と異なる点を$X$とする。
+\begin{description}
+\item[(1)]ベクトル$\overrightarrow{OD}$を$\overrightarrow{OC}$，$p$を用いて表せ。
+\item[(2)]ベクトル$\overrightarrow{OX}$を
+$\overrightarrow{OA}$，$\overrightarrow{OC}$，$p$を用いて表せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2014/2014_0_3.pdf)

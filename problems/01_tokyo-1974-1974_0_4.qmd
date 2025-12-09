@@ -1,0 +1,28 @@
+---
+title: "東京大学 1974年 1974_0_4"
+problem_id: "01_tokyo-1974-1974_0_4"
+university: "東京大学"
+exam_year: "1974"
+source_tex: "archive/01_tokyo/1974/1974_0_4.tex"
+pdf_source: "archive/01_tokyo/1974/1974_0_4.pdf"
+page_image: "archive/01_tokyo/1974/1974_0_4.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$\alpha>0$とし，$xy$平面上において，不等式
+$\displaystyle y\leqq\frac{-1}{\alpha^2}x^2+\frac{2\alpha-1}{\alpha^2}x-1+\frac{1}{\alpha}$
+をみたす点$(x,y)$全体からなる集合を$A$とする．
+$A$と第一象限との共通部分を$B$とするとき，
+$B$の面積を$\alpha$の関数として表わし，
+そのグラフを描け．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1974/1974_0_4.pdf)

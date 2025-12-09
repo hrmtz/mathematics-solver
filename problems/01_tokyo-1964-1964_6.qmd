@@ -1,0 +1,30 @@
+---
+title: "東京大学 1964年 1964_6"
+problem_id: "01_tokyo-1964-1964_6"
+university: "東京大学"
+exam_year: "1964"
+source_tex: "archive/01_tokyo/1964/1964_6.tex"
+pdf_source: "archive/01_tokyo/1964/1964_6.pdf"
+page_image: "archive/01_tokyo/1964/1964_6.jpg"
+fields:
+  - 積分法
+  - 不等式
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　函数$f(x)=x^3+ax^2+bx$は次の条件を満たすものとする．
+\begin{description}
+\item[(1)]$f(1)=4$
+\item[(2)]$x \geqq 0$のとき$f(x) \geqq 0$
+\end{description}
+　このとき$\displaystyle\int_0^1 f(x)dx$の値を最大にする$a$，$b$の値，
+最小にする$a$，$b$の値をそれぞれ求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1964/1964_6.pdf)

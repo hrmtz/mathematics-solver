@@ -1,0 +1,23 @@
+---
+title: "京都大学 2001年 2001_0_5"
+problem_id: "02_kyoto-2001-2001_0_5"
+university: "京都大学"
+exam_year: "2001"
+source_tex: "archive/02_kyoto/2001/2001_0_5.tex"
+pdf_source: "archive/02_kyoto/2001/2001_0_5.pdf"
+page_image: "archive/02_kyoto/2001/2001_0_5.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$xy$平面内の$-1 \leqq y \leqq 1$で定められる領域$D$と，中心が$P$で原点$O$を通る円$C$を考える．
+$C$が$D$に含まれるという条件のもとで，$P$が動きうる範囲を図示し，その面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2001/2001_0_5.pdf)

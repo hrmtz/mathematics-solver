@@ -1,0 +1,37 @@
+---
+title: "北海道大学 1997年 1997_5a"
+problem_id: "03_hokudai-1997-1997_5a"
+university: "北海道大学"
+exam_year: "1997"
+source_tex: "archive/03_hokudai/1997/1997_5a.tex"
+pdf_source: "archive/03_hokudai/1997/1997_5a.pdf"
+page_image: "archive/03_hokudai/1997/1997_5a.jpg"
+fields:
+  - 複素数平面
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5 (a)
+　複素数$\alpha$，$\beta$（ただし，$\alpha\beta\neq0$）が与えられている．
+\[ \alpha=a+bi, \hspace{1zw} \beta=c+di \hspace{1zw} (a, \, b, \, c, \, d \text{は実数}, \, i=\sqrt{-1}) \]
+とおく．
+\begin{description}
+\item[(1)]複素数$z_0$を$\overline{\alpha}+\beta\neq0$の場合は$z_0=(b-d)+(a+c)i$と定め，
+$\overline{\alpha}+\beta=0$の場合は$z_0=-a+bi$と定める．
+$|\alpha|=|\beta|$のとき，
+$z_0$は$z$の方程式$\alpha z+\beta\overline{z}=0$の解であって，
+$z_0\neq0$となることを示せ．
+\item[(2)]$|\alpha|\neq|\beta|$のとき，$z$の方程式
+\[ \alpha z+\beta\overline{z}+1=0 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AC}} \]
+の解の実部と虚部を$a$，$b$，$c$，$d$で表せ．
+\item[(3)]$|\alpha|=|\beta|$かつ方程式\ding{"AC}がある複素数$z_1$を解にもつとする．
+このとき，\ding{"AC}は$z_1$と異なる解をもつことを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_5a.pdf)

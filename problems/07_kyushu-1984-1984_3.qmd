@@ -1,0 +1,30 @@
+---
+title: "九州大学 1984年 1984_3"
+problem_id: "07_kyushu-1984-1984_3"
+university: "九州大学"
+exam_year: "1984"
+source_tex: "archive/07_kyushu/1984/1984_3.tex"
+pdf_source: "archive/07_kyushu/1984/1984_3.pdf"
+page_image: "archive/07_kyushu/1984/1984_3.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　空間の点$P(0, \, 0, \, 1)$を中心とする半径1の球面$S$上の点$N(0, \, 0, \, 2)$を考える．
+\begin{description}
+\item[(1)]点$N$を通り，ベクトル$(a, \, b, \, -1)$に平行な直線$l$の方程式を求めよ．
+\item[(2)]上の直線$l$が球面$S$と交わる$N$以外の点$Q$の座標，
+および直線$l$と$xy$平面との交点$R$の座標を求めよ．
+\item[(3)]球面$S$と平面$\displaystyle y=\frac{1}{2}$の交わりを$C$とする．
+点$Q$が$C$上を動くとき，点$R$の描く図形の方程式を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1984/1984_3.pdf)

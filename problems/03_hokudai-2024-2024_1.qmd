@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2024年 2024_1"
+problem_id: "03_hokudai-2024-2024_1"
+university: "北海道大学"
+exam_year: "2024"
+source_tex: "archive/03_hokudai/2024/2024_1.tex"
+pdf_source: "archive/03_hokudai/2024/2024_1.pdf"
+page_image: "archive/03_hokudai/2024/2024_1.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$t$を実数とし，$xy$平面上の点$P(\cos2t, \, \cos t)$および
+点$Q(\sin t, \, \sin2t)$を考える。
+\begin{description}
+\item[(1)]点$P$と点$Q$が一致するような$t$の値をすべて求めよ。
+\item[(2)]$t$が$0<t<2\pi$の範囲で変化するとき，点$P$の軌跡を$xy$平面上に図示せよ。
+ただし，$x$軸，$y$軸との共有点がある場合は，それらの座標を求め，図中に記せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2024/2024_1.pdf)

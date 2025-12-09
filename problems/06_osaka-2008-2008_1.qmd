@@ -1,0 +1,37 @@
+---
+title: "大阪大学 2008年 2008_1"
+problem_id: "06_osaka-2008-2008_1"
+university: "大阪大学"
+exam_year: "2008"
+source_tex: "archive/06_osaka/2008/2008_1.tex"
+pdf_source: "archive/06_osaka/2008/2008_1.pdf"
+page_image: "archive/06_osaka/2008/2008_1.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　2次の正方行列$A_0, \, A_1, \, A_2, \, A_3, \, \cdots\cdots$を
+\[ A_0=O, \hspace{1zw} A_n=B+A_{n-1}C \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]
+で定める．
+ただし，$O$は2次の零行列，$B$と$C$は2次の正方行列とする．
+\begin{description}
+\item[(1)]$A_n(E-C)$を$B$と$C$を用いて表せ．
+ここで$E$は2次の単位行列とする．
+\item[(2)]$B$と$C$を
+$B=\begin{pmatrix} 0 & 1 
+
+ 1 & 0 \end{pmatrix}$，
+$C=\begin{pmatrix} 1 & 3 
+
+ -1 & 1 \end{pmatrix}$とするとき，
+$A_{3n}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2008/2008_1.pdf)

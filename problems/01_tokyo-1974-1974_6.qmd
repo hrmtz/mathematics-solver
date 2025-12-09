@@ -1,0 +1,30 @@
+---
+title: "東京大学 1974年 1974_6"
+problem_id: "01_tokyo-1974-1974_6"
+university: "東京大学"
+exam_year: "1974"
+source_tex: "archive/01_tokyo/1974/1974_6.tex"
+pdf_source: "archive/01_tokyo/1974/1974_6.pdf"
+page_image: "archive/01_tokyo/1974/1974_6.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　あるスポーツにおいて，$A$，$B$二チームが試合をして，さきに三回勝った方を優勝とする．
+一回の試合で$A$が勝つ確率を$p$，$B$が勝つ確率を$q$ $(p+q=1,p>0,q>0)$とする．
+このとき，$A$が優勝する確率を$P$，$B$が優勝する確率を$Q$とし，
+また，優勝チームがきまるまでの試合数を$N$として，次の問に答えよ．
+\begin{description}
+\item[(1)]$p>q$のとき，$P-Q$と$p-q$とはどちらが大きいか．
+\item[(2)]$P-p$を最大にする$p$の値を求めよ．
+\item[(3)]$N$の期待値を最大にする$p$の値およびそのときの$N$の期待値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1974/1974_6.pdf)

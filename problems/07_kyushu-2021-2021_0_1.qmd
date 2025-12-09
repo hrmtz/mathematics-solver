@@ -1,0 +1,29 @@
+---
+title: "九州大学 2021年 2021_0_1"
+problem_id: "07_kyushu-2021-2021_0_1"
+university: "九州大学"
+exam_year: "2021"
+source_tex: "archive/07_kyushu/2021/2021_0_1.tex"
+pdf_source: "archive/07_kyushu/2021/2021_0_1.pdf"
+page_image: "archive/07_kyushu/2021/2021_0_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　座標平面上の3点$O(0, \, 0)$，$A(1, \, 0)$，$B(0, \, 2)$を考える。以下の問いに答えよ。
+\begin{description}
+\item[(1)]三角形$OAB$に内接する円の中心の座標を求めよ。
+\item[(2)]中心が第1象限にあり，$x$軸と$y$軸の両方に接し，
+直線$AB$と異なる2つの交点をもつような円を考える。
+この2つの交点を$P$，$Q$とするとき，
+線分$PQ$の長さの最大値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_0_1.pdf)

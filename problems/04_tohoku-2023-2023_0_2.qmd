@@ -1,0 +1,28 @@
+---
+title: "東北大学 2023年 2023_0_2"
+problem_id: "04_tohoku-2023-2023_0_2"
+university: "東北大学"
+exam_year: "2023"
+source_tex: "archive/04_tohoku/2023/2023_0_2.tex"
+pdf_source: "archive/04_tohoku/2023/2023_0_2.pdf"
+page_image: "archive/04_tohoku/2023/2023_0_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　平面上の半径1の円$C$の中心$O$から距離4だけ離れた点$L$をとる。
+点$L$を通る円$C$の2本の接線を考え，この2本の接線と円$C$の接点をそれぞれ$M$，$N$とする。
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]三角形$LMN$の面積を求めよ。
+\item[(2)]三角形$LMN$の内接円の半径$r$と，三角形$LMN$の外接円の半径$R$をそれぞれ求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2023/2023_0_2.pdf)

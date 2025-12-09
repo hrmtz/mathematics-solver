@@ -1,0 +1,25 @@
+---
+title: "京都大学 2010年 2010b_4"
+problem_id: "02_kyoto-2010-2010b_4"
+university: "京都大学"
+exam_year: "2010"
+source_tex: "archive/02_kyoto/2010/2010b_4.tex"
+pdf_source: "archive/02_kyoto/2010/2010b_4.pdf"
+page_image: "archive/02_kyoto/2010/2010b_4.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$1<a<2$とする．
+3辺の長さが$\sqrt3$，$a$，$b$である鋭角三角形の外接円の半径が1であるとする．
+このとき$a$を用いて$b$を表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2010/2010b_4.pdf)

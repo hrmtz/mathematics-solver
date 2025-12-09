@@ -1,0 +1,35 @@
+---
+title: "名古屋大学 2022年 2022_0_3"
+problem_id: "05_nagoya-2022-2022_0_3"
+university: "名古屋大学"
+exam_year: "2022"
+source_tex: "archive/05_nagoya/2022/2022_0_3.tex"
+pdf_source: "archive/05_nagoya/2022/2022_0_3.pdf"
+page_image: "archive/05_nagoya/2022/2022_0_3.jpg"
+fields:
+  - 代数
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a, \, b$を実数とし，放物線$\displaystyle y=\frac{1}{2}x^2$を$C_1$，
+放物線$y=-{ (x-a) }^2+b$を$C_2$とする。
+\begin{description}
+\item[(1)]$C_1$と$C_2$が異なる2点で交わるための$a, \, b$の条件を求めよ。
+\end{description}
+　以下，$C_1$と$C_2$は異なる2点で交わるとし，
+$C_1$と$C_2$で囲まれた図形の面積を$S$とする。
+\begin{description}
+\item[(2)]$S=16$となるための$a, \, b$の条件を求めよ。
+\item[(3)]$a, \, b$は$b \leqq a+3$を満たすとする。
+このとき$S$の最大値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2022/2022_0_3.pdf)

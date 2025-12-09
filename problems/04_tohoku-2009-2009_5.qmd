@@ -1,0 +1,34 @@
+---
+title: "東北大学 2009年 2009_5"
+problem_id: "04_tohoku-2009-2009_5"
+university: "東北大学"
+exam_year: "2009"
+source_tex: "archive/04_tohoku/2009/2009_5.tex"
+pdf_source: "archive/04_tohoku/2009/2009_5.pdf"
+page_image: "archive/04_tohoku/2009/2009_5.jpg"
+fields:
+  - 行列
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a$，$b$，$c$，$d$，$p$，$q$は$ad-bc>0$，$p>0$，$q>0$を満たす実数とする．
+2つの行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$と
+$P=\begin{pmatrix} p & 0 
+
+ 0 & q \end{pmatrix}$が$APA=P^2$を満たすとする．
+このとき，以下の問いに答えよ．
+\begin{description}
+\item[(1)]$P^3A=AP^3$が成り立つことを示せ．
+\item[(2)]$A$を$p$と$q$で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2009/2009_5.pdf)

@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 2003年 2003_0_3b"
+problem_id: "05_nagoya-2003-2003_0_3b"
+university: "名古屋大学"
+exam_year: "2003"
+source_tex: "archive/05_nagoya/2003/2003_0_3b.tex"
+pdf_source: "archive/05_nagoya/2003/2003_0_3b.pdf"
+page_image: "archive/05_nagoya/2003/2003_0_3b.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3 (b)
+　一つの箱の中に1から10までの数が書かれたカードが4枚ずつ計40枚入っている．
+この箱から$k$枚$(3 \leqq k \leqq 12)$のカードを同時に取り出す．
+このうちの3枚のカードが同じ数で残りはこれとは違う互いに異なる数となる確率を$p(k)$とする．
+\begin{description}
+\item[(1)]$p(k)$を求めよ．
+\item[(2)]$4 \leqq k \leqq 12$のとき，$\displaystyle f(k)=\frac{p(k-1)}{p(k)}$を求めよ．
+\item[(3)]$p(k)$を最大にする$k$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_0_3b.pdf)

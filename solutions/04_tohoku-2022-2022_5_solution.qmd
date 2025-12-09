@@ -1,0 +1,207 @@
+## 解答
+
+(1)  
+まず，直線 $l, l'$ をそれぞれ  
+$$
+l : \vec{r} = s\vec{a} \quad (s\in\mathbb{R}), \qquad
+l' : \vec{r} = t\vec{b} + \vec{c} \quad (t\in\mathbb{R})
+$$
+と書く。ここで  
+$$
+\vec{a}=(1,2,1),\quad \vec{b}=(1,1,-1),\quad \vec{c}=(0,0,1)
+$$
+である。
+
+一般の $k$ について，$A_k(s_k\vec{a})$ から $l'$ に下ろした垂線の足を $B_k(t_k\vec{b}+\vec{c})$ としているから，  
+ベクトルの内積を用いて
+$$
+\overrightarrow{A_kB_k}\cdot\vec{b}=0
+$$
+が成り立つ。
+
+$\overrightarrow{A_kB_k}$ を計算すると
+$$
+\overrightarrow{A_kB_k}
+= (t_k\vec{b}+\vec{c})-s_k\vec{a}
+= t_k\vec{b}+\vec{c}-s_k\vec{a}
+$$
+なので
+$$
+(t_k\vec{b}+\vec{c}-s_k\vec{a})\cdot\vec{b}=0
+$$
+すなわち
+$$
+t_k(\vec{b}\cdot\vec{b}) + \vec{c}\cdot\vec{b} - s_k(\vec{a}\cdot\vec{b})=0
+$$
+となる。内積を計算すると
+$$
+\vec{a}\cdot\vec{b}=1\cdot1+2\cdot1+1\cdot(-1)=2,\quad
+\vec{b}\cdot\vec{b}=1^2+1^2+(-1)^2=3,\quad
+\vec{c}\cdot\vec{b}=0\cdot1+0\cdot1+1\cdot(-1)=-1
+$$
+であるから
+$$
+3t_k -1 -2s_k=0
+$$
+となり
+$$
+t_k=\frac{2s_k+1}{3}
+$$
+を得る。
+
+次に，$B_k(t_k\vec{b}+\vec{c})$ から $l$ に下ろした垂線の足を $A_{k+1}(s_{k+1}\vec{a})$ としているから，同様に
+$$
+\overrightarrow{B_kA_{k+1}}\cdot\vec{a}=0
+$$
+が成り立つ。  
+$\overrightarrow{B_kA_{k+1}}=s_{k+1}\vec{a}-(t_k\vec{b}+\vec{c})$ なので
+$$
+(s_{k+1}\vec{a}-(t_k\vec{b}+\vec{c}))\cdot\vec{a}=0
+$$
+すなわち
+$$
+s_{k+1}(\vec{a}\cdot\vec{a}) - t_k(\vec{b}\cdot\vec{a}) - \vec{c}\cdot\vec{a}=0
+$$
+となる。  
+さらに
+$$
+\vec{a}\cdot\vec{a}=1^2+2^2+1^2=6,\quad
+\vec{b}\cdot\vec{a}=\vec{a}\cdot\vec{b}=2,\quad
+\vec{c}\cdot\vec{a}=0\cdot1+0\cdot2+1\cdot1=1
+$$
+であるから
+$$
+6s_{k+1}-2t_k-1=0
+$$
+よって
+$$
+s_{k+1}=\frac{2t_k+1}{6}
+$$
+となる。ここに $t_k=\dfrac{2s_k+1}{3}$ を代入すれば
+$$
+s_{k+1}
+=\frac{2\cdot\frac{2s_k+1}{3}+1}{6}
+=\frac{\frac{4s_k+2}{3}+1}{6}
+=\frac{4s_k+5}{18}
+$$
+よって，求める関係式は
+$$
+\boxed{\,s_{n+1}=\dfrac{4s_n+5}{18}\,}
+$$
+である。
+
+---
+
+(2)  
+(1) より，数列 $\{s_n\}$ は
+$$
+s_{n+1}=\frac{4}{18}s_n+\frac{5}{18}=\frac{2}{9}s_n+\frac{5}{18}
+$$
+という一次漸化式を満たす。係数 $\dfrac{2}{9}$ は $|2/9|<1$ なので，この漸化式の極限 $S=\lim_{n\to\infty}s_n$ は存在し，かつ  
+極限をとっても等式が成り立つ（収束列の性質）から
+$$
+S=\frac{2}{9}S+\frac{5}{18}
+$$
+が成り立つ。これを解くと
+$$
+S-\frac{2}{9}S=\frac{5}{18}
+\quad\Rightarrow\quad
+\frac{7}{9}S=\frac{5}{18}
+\quad\Rightarrow\quad
+S=\frac{5}{18}\cdot\frac{9}{7}=\frac{5}{14}
+$$
+となる。
+
+次に $t_n$ の極限 $T=\lim_{n\to\infty}t_n$ を求める。  
+(1) の結果 $t_n=\dfrac{2s_n+1}{3}$ より，$n\to\infty$ として
+$$
+T=\lim_{n\to\infty}t_n
+=\lim_{n\to\infty}\frac{2s_n+1}{3}
+=\frac{2S+1}{3}
+=\frac{2\cdot\frac{5}{14}+1}{3}
+=\frac{\frac{10}{14}+\frac{14}{14}}{3}
+=\frac{\frac{24}{14}}{3}
+=\frac{24}{42}
+=\frac{4}{7}
+$$
+となる。よって
+$$
+\boxed{\,S=\dfrac{5}{14},\quad T=\dfrac{4}{7}\,}
+$$
+である。
+
+---
+
+(3)  
+(2) で求めた $S=\dfrac{5}{14},\ T=\dfrac{4}{7}$ に対し，
+$$
+A(S\vec{a}),\quad B(T\vec{b}+\vec{c})
+$$
+とおく。直線 $AB$ の方向ベクトルは
+$$
+\overrightarrow{AB}
+=(T\vec{b}+\vec{c})-S\vec{a}
+=T\vec{b}+\vec{c}-S\vec{a}
+$$
+である。直線 $l$ の方向ベクトルは $\vec{a}$，直線 $l'$ の方向ベクトルは $\vec{b}$ であるから，
+直線 $AB$ が $l$ および $l'$ の両方と直交することを示すには
+$$
+\overrightarrow{AB}\cdot\vec{a}=0,\quad \overrightarrow{AB}\cdot\vec{b}=0
+$$
+を示せばよい。
+
+まず $\overrightarrow{AB}\cdot\vec{a}$ を計算する：
+$$
+\overrightarrow{AB}\cdot\vec{a}
+=(T\vec{b}+\vec{c}-S\vec{a})\cdot\vec{a}
+=T(\vec{b}\cdot\vec{a})+\vec{c}\cdot\vec{a}-S(\vec{a}\cdot\vec{a})
+$$
+である。既に計算した内積
+$$
+\vec{b}\cdot\vec{a}=2,\quad
+\vec{c}\cdot\vec{a}=1,\quad
+\vec{a}\cdot\vec{a}=6
+$$
+および $S=\dfrac{5}{14},\ T=\dfrac{4}{7}$ を用いると
+$$
+\overrightarrow{AB}\cdot\vec{a}
+= T\cdot2 + 1 - S\cdot6
+= 2\cdot\frac{4}{7}+1-6\cdot\frac{5}{14}
+= \frac{8}{7}+1-\frac{30}{14}
+$$
+ここで $1=\dfrac{14}{14},\ \dfrac{8}{7}=\dfrac{16}{14}$ として
+$$
+\overrightarrow{AB}\cdot\vec{a}
+=\frac{16}{14}+\frac{14}{14}-\frac{30}{14}
+=\frac{30}{14}-\frac{30}{14}=0
+$$
+よって $\overrightarrow{AB}$ は $\vec{a}$ と直交し，したがって $AB\perp l$ である。
+
+次に $\overrightarrow{AB}\cdot\vec{b}$ を計算する：
+$$
+\overrightarrow{AB}\cdot\vec{b}
+=(T\vec{b}+\vec{c}-S\vec{a})\cdot\vec{b}
+=T(\vec{b}\cdot\vec{b})+\vec{c}\cdot\vec{b}-S(\vec{a}\cdot\vec{b})
+$$
+先に求めた
+$$
+\vec{b}\cdot\vec{b}=3,\quad
+\vec{c}\cdot\vec{b}=-1,\quad
+\vec{a}\cdot\vec{b}=2
+$$
+および $S=\dfrac{5}{14},\ T=\dfrac{4}{7}$ を用いると
+$$
+\overrightarrow{AB}\cdot\vec{b}
+=3T-1-2S
+=3\cdot\frac{4}{7}-1-2\cdot\frac{5}{14}
+=\frac{12}{7}-1-\frac{10}{14}
+$$
+ここで $1=\dfrac{7}{7}$，さらに $\dfrac{12}{7}=\dfrac{24}{14},\ \dfrac{7}{7}=\dfrac{14}{14}$ として
+$$
+\overrightarrow{AB}\cdot\vec{b}
+=\frac{24}{14}-\frac{14}{14}-\frac{10}{14}
+=\frac{24-14-10}{14}=0
+$$
+したがって $\overrightarrow{AB}$ は $\vec{b}$ とも直交し，$AB\perp l'$ である。
+
+以上より，点 $A(S\vec{a})$ と点 $B(T\vec{b}+\vec{c})$ を結ぶ直線 $AB$ は，直線 $l$ および $l'$ の両方と直交することが示された。

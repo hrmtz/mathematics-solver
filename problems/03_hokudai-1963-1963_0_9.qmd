@@ -1,0 +1,33 @@
+---
+title: "北海道大学 1963年 1963_0_9"
+problem_id: "03_hokudai-1963-1963_0_9"
+university: "北海道大学"
+exam_year: "1963"
+source_tex: "archive/03_hokudai/1963/1963_0_9.tex"
+pdf_source: "archive/03_hokudai/1963/1963_0_9.pdf"
+page_image: "archive/03_hokudai/1963/1963_0_9.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+9
+　次の4つの条件をすべて満たす四次関数
+\[ f(x)=ax^4+bx^3+cx^2+dx+e \]
+の係数を求めよ。
+\begin{description}
+\item[(1)]$\displaystyle\lim_{x\to\infty}f(x)=-\infty$
+\item[(2)]$y=f(x)$のグラフは$y$軸に関して対称である。
+\item[(3)]円$x^2+y^2=1$上の点$\displaystyle\left(\frac{1}{\sqrt2}, \, \frac{1}{\sqrt2}\right)$における
+この円の接線はこの点で$y=f(x)$のグラフに接する。
+\item[(4)]$\displaystyle\int_0^1f(x)dx=\frac{a+e^2}{5}+\frac{c}{3}$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1963/1963_0_9.pdf)

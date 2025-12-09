@@ -1,0 +1,367 @@
+## 解答
+
+関数
+$$
+f(x)=\int_0^\pi|\sin(t-x)-\sin2t|\,dt
+$$
+を考える。積分の中身を整理するため，まず被積分関数を変形する。
+
+\[
+\sin(t-x)-\sin2t
+\]
+を角度の和差の公式や三角恒等式を用いて変形する。
+
+まず
+$$
+\sin(t-x)=\sin t\cos x-\cos t\sin x,\quad
+\sin2t=2\sin t\cos t
+$$
+より
+$$
+\sin(t-x)-\sin2t=\sin t\cos x-\cos t\sin x-2\sin t\cos t.
+$$
+ここで $\sin t$，$\cos t$ で整理するため，以下の形にまとめる：
+$$
+\sin(t-x)-\sin2t
+=\sin t(\cos x-2\cos t)-\sin x\cos t.
+$$
+
+さらに簡単な形を得るために，和積の公式を用いる。  
+和積の公式より
+$$
+\sin(t-x)-\sin2t = 2\cos\frac{t-x+2t}{2}\,\sin\frac{t-x-2t}{2}
+= 2\cos\left(\frac{3t-x}{2}\right)\sin\left(\frac{-x-t}{2}\right).
+$$
+$\sin(-\theta)=-\sin\theta$ を用いると
+$$
+\sin(t-x)-\sin2t
+=-2\cos\left(\frac{3t-x}{2}\right)\sin\left(\frac{x+t}{2}\right).
+$$
+したがって
+$$
+|\sin(t-x)-\sin2t|
+=2\left|\cos\left(\frac{3t-x}{2}\right)\sin\left(\frac{x+t}{2}\right)\right|.
+$$
+
+従って
+$$
+f(x)=\int_0^\pi|\sin(t-x)-\sin2t|\,dt
+=2\int_0^\pi\left|\cos\left(\frac{3t-x}{2}\right)\sin\left(\frac{x+t}{2}\right)\right|dt.
+$$
+
+このままでは絶対値が扱いにくいので，まず $\sin(t-x)-\sin2t$ の符号の変化を調べる。
+
+### 1. 被積分関数の零点と符号
+
+$\sin(t-x)-\sin2t=0$ を解く：
+$$
+\sin(t-x)=\sin2t.
+$$
+$\sin\alpha=\sin\beta$ の一般解は
+$$
+\alpha=\beta+2k\pi \quad\text{または}\quad \alpha=\pi-\beta+2k\pi
+$$
+であるから，
+$$
+t-x=2t+2k\pi\quad\text{または}\quad
+t-x=\pi-2t+2k\pi
+$$
+となる。これを $0\le t\le\pi$ において調べる。
+
+#### (i) $t-x=2t+2k\pi$
+
+$$
+t-x=2t+2k\pi \iff -x=t+2k\pi \iff t=-x-2k\pi.
+$$
+$x\in[0,\pi]$，$t\in[0,\pi]$ なので $t\ge0$ より
+$$
+-x-2k\pi\ge0 \implies -2k\pi\ge x\ge0 \implies k\le0.
+$$
+一方 $t\le\pi$ より
+$$
+-x-2k\pi\le\pi \implies -2k\pi\le\pi+x\le2\pi.
+$$
+$k$ は整数なので調べると，$k=0$ のとき $t=-x\le0$ で範囲外，$k=-1$ のとき $t=-x+2\pi> \pi$ となり，$t\in[0,\pi]$ を満たす解は存在しない。
+
+#### (ii) $t-x=\pi-2t+2k\pi$
+
+$$
+t-x=\pi-2t+2k\pi
+\iff 3t=\pi+x+2k\pi
+\iff t=\frac{\pi+x+2k\pi}{3}.
+$$
+これが $0\le t\le\pi$ を満たす $k$ を調べる。
+
+$t\ge0$ より
+$$
+\pi+x+2k\pi\ge0\implies2k\pi\ge-(\pi+x)\ge-2\pi
+\implies k\ge -1.
+$$
+また $t\le\pi$ より
+$$
+\pi+x+2k\pi\le3\pi
+\implies 2k\pi\le 3\pi-(\pi+x)=2\pi-x<2\pi
+\implies k\le0.
+$$
+よって $k=-1,0$ のみが可能である。
+
+- $k=0$ のとき  
+  $t=\dfrac{\pi+x}{3}$
+
+- $k=-1$ のとき  
+  $t=\dfrac{\pi+x-2\pi}{3}=\dfrac{x-\pi}{3}$
+
+$x\in[0,\pi]$ のとき，
+$$
+\dfrac{x-\pi}{3}\le 0,\quad
+\dfrac{\pi+x}{3}\in\left[\dfrac{\pi}{3},\dfrac{2\pi}{3}\right]\subset[0,\pi]
+$$
+なので，区間 $[0,\pi]$ 内の零点は
+$$
+t_1=\frac{\pi+x}{3}
+$$
+だけである。
+
+次に，$t\in[0,\pi]$ 上での符号を調べる。$t=0,\pi$ における値を計算する：
+
+- $t=0$ で
+  $$
+  \sin(0-x)-\sin0=\sin(-x)=-\sin x.
+  $$
+- $t=\pi$ で
+  $$
+  \sin(\pi-x)-\sin2\pi
+  =\sin(\pi-x)-0
+  =\sin(\pi-x)=\sin x.
+  $$
+
+したがって，$0\le x\le\pi$ では $\sin x\ge0$ より
+$$
+\sin(t-x)-\sin2t
+\text{ は }t=0\text{ で }-\sin x\le0,\quad
+t=\pi\text{ で }\sin x\ge0.
+$$
+$t$ に関する連続関数であり，零点は $t_1=(\pi+x)/3$ の1個だけなので，
+
+- $0\le t<\dfrac{\pi+x}{3}$ では $\sin(t-x)-\sin2t\le0$，
+- $\dfrac{\pi+x}{3}<t\le\pi$ では $\sin(t-x)-\sin2t\ge0$
+
+となる（中間値の性質と零点の一意性より符号は変わらない）。
+
+よって絶対値を外せて
+$$
+|\sin(t-x)-\sin2t|=
+\begin{cases}
+-(\sin(t-x)-\sin2t) & 0\le t\le\dfrac{\pi+x}{3},\\[4pt]
+\ \ \sin(t-x)-\sin2t & \dfrac{\pi+x}{3}\le t\le\pi.
+\end{cases}
+$$
+
+### 2. 積分の分割と計算
+
+上の結果から
+$$
+f(x)
+=\int_0^{(\pi+x)/3}[-(\sin(t-x)-\sin2t)]\,dt
++\int_{(\pi+x)/3}^\pi[\sin(t-x)-\sin2t]\,dt.
+$$
+
+両方の積分を合わせて整理すると
+$$
+f(x)
+= -\int_0^{(\pi+x)/3}(\sin(t-x)-\sin2t)\,dt
++\int_{(\pi+x)/3}^\pi(\sin(t-x)-\sin2t)\,dt.
+$$
+右辺を一つの積分にまとめると
+$$
+f(x)
+= -\int_0^{(\pi+x)/3}(\sin(t-x)-\sin2t)\,dt
++\int_0^\pi(\sin(t-x)-\sin2t)\,dt
+-\int_0^{(\pi+x)/3}(\sin(t-x)-\sin2t)\,dt,
+$$
+すなわち
+$$
+f(x)
+=\int_0^\pi(\sin(t-x)-\sin2t)\,dt
+-2\int_0^{(\pi+x)/3}(\sin(t-x)-\sin2t)\,dt.
+$$
+
+まず
+$$
+I:=\int_0^\pi(\sin(t-x)-\sin2t)\,dt
+$$
+を計算する。線形性より
+$$
+I=\int_0^\pi\sin(t-x)\,dt-\int_0^\pi\sin2t\,dt.
+$$
+
+- 第1項：$u=t-x$ とおけば $du=dt$ であり，$t=0\Rightarrow u=-x$，$t=\pi\Rightarrow u=\pi-x$ より
+  $$
+  \int_0^\pi\sin(t-x)\,dt
+  =\int_{-x}^{\pi-x}\sin u\,du
+  =[-\cos u]_{-x}^{\pi-x}
+  =-\cos(\pi-x)+\cos(-x).
+  $$
+  ここで $\cos(\pi-x)=-\cos x$，$\cos(-x)=\cos x$ より
+  $$
+  -\cos(\pi-x)+\cos(-x)=-(-\cos x)+\cos x=\cos x+\cos x=2\cos x.
+  $$
+
+- 第2項：
+  $$
+  \int_0^\pi\sin2t\,dt
+  =\left[-\frac12\cos2t\right]_0^\pi
+  =-\frac12(\cos2\pi-\cos0)
+  =-\frac12(1-1)=0.
+  $$
+
+よって
+$$
+I=2\cos x.
+$$
+
+次に
+$$
+J(x):=\int_0^{(\pi+x)/3}(\sin(t-x)-\sin2t)\,dt
+$$
+を計算する。同様に
+$$
+J(x)=\int_0^{(\pi+x)/3}\sin(t-x)\,dt-\int_0^{(\pi+x)/3}\sin2t\,dt.
+$$
+
+- 第1項：再び $u=t-x$ とおくと $t=0\Rightarrow u=-x$，$t=\dfrac{\pi+x}{3}\Rightarrow u=\dfrac{\pi+x}{3}-x=\dfrac{\pi-2x}{3}$ より
+  $$
+  \int_0^{(\pi+x)/3}\sin(t-x)\,dt
+  =\int_{-x}^{(\pi-2x)/3}\sin u\,du
+  =[-\cos u]_{-x}^{(\pi-2x)/3}
+  =-\cos\frac{\pi-2x}{3}+\cos(-x)
+  =-\cos\frac{\pi-2x}{3}+\cos x.
+  $$
+
+- 第2項：
+  $$
+  \int_0^{(\pi+x)/3}\sin2t\,dt
+  =\left[-\frac12\cos2t\right]_0^{(\pi+x)/3}
+  =-\frac12\cos\frac{2(\pi+x)}{3}+\frac12
+  =-\frac12\cos\left(\frac{2\pi+2x}{3}\right)+\frac12.
+  $$
+
+したがって
+$$
+J(x)
+=-\cos\frac{\pi-2x}{3}+\cos x
++\frac12\cos\left(\frac{2\pi+2x}{3}\right)-\frac12.
+$$
+
+これより
+$$
+f(x)
+=I-2J(x)
+=2\cos x-2\left(-\cos\frac{\pi-2x}{3}+\cos x
++\frac12\cos\left(\frac{2\pi+2x}{3}\right)-\frac12\right).
+$$
+展開して整理すると
+\begin{align*}
+f(x)
+&=2\cos x
++2\cos\frac{\pi-2x}{3}
+-2\cos x
+-\cos\left(\frac{2\pi+2x}{3}\right)
++1\\
+&=2\cos\frac{\pi-2x}{3}
+-\cos\left(\frac{2\pi+2x}{3}\right)
++1.
+\end{align*}
+ここで
+$$
+\frac{\pi-2x}{3}=\frac{\pi}{3}-\frac{2x}{3},\qquad
+\frac{2\pi+2x}{3}=\frac{2\pi}{3}+\frac{2x}{3}
+$$
+である。
+
+次に $\cos$ の角度を整理する。$\cos(\pi-\theta)=-\cos\theta$ を用いると，
+$$
+\frac{2\pi+2x}{3}=\pi-\frac{\pi-2x}{3}
+$$
+なので
+$$
+\cos\left(\frac{2\pi+2x}{3}\right)
+=\cos\left(\pi-\frac{\pi-2x}{3}\right)
+=-\cos\frac{\pi-2x}{3}.
+$$
+
+従って
+$$
+f(x)
+=2\cos\frac{\pi-2x}{3}
+-\left(-\cos\frac{\pi-2x}{3}\right)
++1
+=3\cos\frac{\pi-2x}{3}+1.
+$$
+
+よって，$0\le x\le\pi$ において
+$$
+f(x)=3\cos\frac{\pi-2x}{3}+1
+$$
+と表される。
+
+### 3. 最大値・最小値
+
+$\theta=\dfrac{\pi-2x}{3}$ とおくと，$x$ の範囲 $0\le x\le\pi$ から
+$$
+x=0\Rightarrow\theta=\frac{\pi}{3},\quad
+x=\pi\Rightarrow\theta=\frac{\pi-2\pi}{3}=-\frac{\pi}{3}
+$$
+となるので，$\theta$ は
+$$
+-\frac{\pi}{3}\le\theta\le\frac{\pi}{3}
+$$
+を動く。
+
+このとき
+$$
+f(x)=3\cos\theta+1
+$$
+であり，$\cos\theta$ は $\theta\in[-\pi/3,\pi/3]$ において単調に減少し，最大値 $1$（$\theta=0$），最小値 $\cos(\pi/3)=1/2$（$\theta=\pm\pi/3$）をとる。
+
+したがって
+\[
+\cos\theta\in\left[\frac12,1\right]
+\]
+より
+$$
+f(x)=3\cos\theta+1
+\quad\text{の最大値は}\quad
+3\cdot1+1=4,
+$$
+$$
+\text{最小値は}\quad
+3\cdot\frac12+1=\frac32+1=\frac52.
+$$
+
+これが $x$ のどの値で実現するかを見ると，
+
+- $\cos\theta=1$ は $\theta=0$ すなわち
+  $$
+  \frac{\pi-2x}{3}=0\iff x=\frac{\pi}{2}
+  $$
+  のときであるから，$x=\dfrac{\pi}{2}$ において $f(x)=4$（最大値）。
+
+- $\cos\theta=\dfrac12$ は $\theta=\pm\dfrac{\pi}{3}$ すなわち
+  $$
+  \frac{\pi-2x}{3}=\frac{\pi}{3}\iff\pi-2x=\pi\iff x=0,
+  $$
+  または
+  $$
+  \frac{\pi-2x}{3}=-\frac{\pi}{3}\iff\pi-2x=-\pi\iff x=\pi
+  $$
+  のときであるから，$x=0,\pi$ において $f(x)=\dfrac52$（最小値）。
+
+以上より，
+
+- 区間 $0\le x\le\pi$ における $f(x)$ の最大値は $4$（$x=\dfrac{\pi}{2}$ で達成）。
+- 最小値は $\dfrac52$（$x=0,\pi$ で達成）。
+
+\[
+\boxed{\text{最大値 }4,\quad\text{最小値 }\frac52}
+\]

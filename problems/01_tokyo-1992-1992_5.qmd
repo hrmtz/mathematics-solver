@@ -1,0 +1,32 @@
+---
+title: "東京大学 1992年 1992_5"
+problem_id: "01_tokyo-1992-1992_5"
+university: "東京大学"
+exam_year: "1992"
+source_tex: "archive/01_tokyo/1992/1992_5.tex"
+pdf_source: "archive/01_tokyo/1992/1992_5.pdf"
+page_image: "archive/01_tokyo/1992/1992_5.jpg"
+fields:
+  - 微分法
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$xy$平面において，
+曲線$\displaystyle y=\frac{x^3}{6}+\frac{1}{2x}$上の点，$\displaystyle\left(1,\frac{2}{3}\right)$を出発し，
+この曲線上を進む点$P$がある．
+出発してから$t$秒後の$P$の速度$\vec{v}$の大きさは$\displaystyle\frac{t}{2}$に等しく，
+$\vec{v}$の$x$成分はつねに正または0であるとする．
+\begin{description}
+\item[(1)]出発してから$t$秒後の$P$の位置を$(x,y)$として，$x$と$t$の間の関係式を求めよ．
+\item[(2)]$\vec{v}$がベクトル$(8,15)$と平行になるのは出発してから何秒後か．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1992/1992_5.pdf)

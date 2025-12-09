@@ -1,0 +1,29 @@
+---
+title: "東京大学 1994年 1994_0_1"
+problem_id: "01_tokyo-1994-1994_0_1"
+university: "東京大学"
+exam_year: "1994"
+source_tex: "archive/01_tokyo/1994/1994_0_1.tex"
+pdf_source: "archive/01_tokyo/1994/1994_0_1.pdf"
+page_image: "archive/01_tokyo/1994/1994_0_1.jpg"
+fields:
+  - 指数・対数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面上で，次の条件を満たす点$(x,y)$の範囲を$D$とする．
+\[ \log_2x\leqq2+\log_2y\leqq\log_2x+\log_2(4-2x) \]
+\begin{description}
+\item[(1)]$D$を$xy$平面上に図示せよ．
+\item[(2)]$s<1$のとき，$y-sx$の$D$上での最大値$f(s)$を求め，
+関数$t=f(s)$のグラフを$st$平面上に図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1994/1994_0_1.pdf)

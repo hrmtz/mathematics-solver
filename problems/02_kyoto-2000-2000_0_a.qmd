@@ -1,0 +1,24 @@
+---
+title: "京都大学 2000年 2000_0_a"
+problem_id: "02_kyoto-2000-2000_0_a"
+university: "京都大学"
+exam_year: "2000"
+source_tex: "archive/02_kyoto/2000/2000_0_a.tex"
+pdf_source: "archive/02_kyoto/2000/2000_0_a.pdf"
+page_image: "archive/02_kyoto/2000/2000_0_a.jpg"
+fields:
+  - 複素数平面
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　複素数$\alpha$は$|\alpha|=1$を満たしている．
+このとき，$|\alpha^m+\alpha^{-m}|>1$となる自然数$m$が存在することを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_0_a.pdf)

@@ -1,0 +1,139 @@
+## 解答
+
+(1)  
+$\overrightarrow{OP}=\vec{p},\ \overrightarrow{OQ}=\vec{q}$ より，線分 $PQ$ の中点 $R$ に対して  
+$\overrightarrow{OR}=\dfrac{\vec{p}+\vec{q}}{2}$ である。  
+また $\overrightarrow{OA}=\vec{a}$ だから
+$\overrightarrow{AR}=\overrightarrow{OR}-\overrightarrow{OA}=\dfrac{\vec{p}+\vec{q}}{2}-\vec{a}$ となる。
+
+したがって  
+$$
+|\overrightarrow{AR}|^2
+=\left(\dfrac{\vec{p}+\vec{q}}{2}-\vec{a}\right)\cdot\left(\dfrac{\vec{p}+\vec{q}}{2}-\vec{a}\right)
+$$
+を計算すればよい。
+
+条件より $P,Q$ は円 $C$ 上の点なので $|\vec{p}|=|\vec{q}|=1$ であり，また  
+$\overrightarrow{AP}\perp\overrightarrow{AQ}$ だから
+$(\vec{p}-\vec{a})\cdot(\vec{q}-\vec{a})=0$ が成り立つ。
+
+一般にベクトルの内積について  
+$$
+(\vec{p}-\vec{a})\cdot(\vec{q}-\vec{a})
+=\vec{p}\cdot\vec{q}-\vec{p}\cdot\vec{a}-\vec{a}\cdot\vec{q}+\vec{a}\cdot\vec{a}
+$$
+であるから，これを $0$ とおいて
+$$
+\vec{p}\cdot\vec{a}+\vec{a}\cdot\vec{q}
+=\vec{p}\cdot\vec{q}+|\vec{a}|^2
+=\vec{p}\cdot\vec{q}+r^2
+$$
+となる。
+
+一方
+$$
+|\overrightarrow{AR}|^2
+=\dfrac{1}{4}|\vec{p}+\vec{q}|^2- (\vec{p}+\vec{q})\cdot\vec{a}+|\vec{a}|^2
+$$
+である。ここで
+$$
+|\vec{p}+\vec{q}|^2
+=|\vec{p}|^2+|\vec{q}|^2+2\vec{p}\cdot\vec{q}
+=1+1+2\vec{p}\cdot\vec{q}
+=2+2\vec{p}\cdot\vec{q}
+$$
+また
+$$
+(\vec{p}+\vec{q})\cdot\vec{a}
+=\vec{p}\cdot\vec{a}+\vec{q}\cdot\vec{a}
+=\vec{p}\cdot\vec{a}+\vec{a}\cdot\vec{q}
+=\vec{p}\cdot\vec{q}+r^2
+$$
+より，これらを代入して
+$$
+\begin{aligned}
+|\overrightarrow{AR}|^2
+&=\dfrac14(2+2\vec{p}\cdot\vec{q})
+-(\vec{p}\cdot\vec{q}+r^2)+r^2\\
+&=\dfrac12+\dfrac12\vec{p}\cdot\vec{q}-\vec{p}\cdot\vec{q}\\
+&=\dfrac12-\dfrac12\vec{p}\cdot\vec{q}
+\end{aligned}
+$$
+したがって
+$$
+|\overrightarrow{AR}|^2=\frac12\bigl(1-\vec{p}\cdot\vec{q}\bigr)
+$$
+である。
+
+(2)  
+直線 $OA$ 上の点 $B$ を $OB=s\vec{a}$ とおく。ただし実数 $s$ は未定とする。  
+このとき
+$$
+\overrightarrow{OB}=s\vec{a},\quad
+\overrightarrow{BR}=\overrightarrow{OR}-\overrightarrow{OB}
+=\frac{\vec{p}+\vec{q}}{2}-s\vec{a}
+$$
+より
+$$
+|\overrightarrow{BR}|^2
+=\left(\frac{\vec{p}+\vec{q}}{2}-s\vec{a}\right)\cdot
+\left(\frac{\vec{p}+\vec{q}}{2}-s\vec{a}\right)
+=\frac14|\vec{p}+\vec{q}|^2
+-s(\vec{p}+\vec{q})\cdot\vec{a}
++s^2|\vec{a}|^2
+$$
+となる。
+
+(1) で用いた値を再び用いると
+$$
+|\vec{p}+\vec{q}|^2=2+2\vec{p}\cdot\vec{q},\quad
+(\vec{p}+\vec{q})\cdot\vec{a}=\vec{p}\cdot\vec{q}+r^2,\quad
+|\vec{a}|^2=r^2
+$$
+なので
+$$
+\begin{aligned}
+|\overrightarrow{BR}|^2
+&=\frac14(2+2\vec{p}\cdot\vec{q})
+-s(\vec{p}\cdot\vec{q}+r^2)+s^2r^2\\
+&=\left(\frac12-s\right)\vec{p}\cdot\vec{q}
++\frac12-sr^2+s^2r^2
+\end{aligned}
+$$
+
+ここで $P,Q$ の位置によらず一定であるためには，
+$\vec{p}\cdot\vec{q}$ を含む項が $0$ でなければならない。したがって
+$$
+\frac12-s=0
+$$
+より
+$$
+s=\frac12
+$$
+となる。
+
+よって
+$$
+\overrightarrow{OB}=\frac12\vec{a},\quad
+\text{すなわち }B\text{ は }OA\text{ を }2:1\text{ に内分する点}
+$$
+である。
+
+このときの $|\overrightarrow{BR}|^2$ は
+$s=\dfrac12$ を代入して
+$$
+|\overrightarrow{BR}|^2
+=\frac12-\frac12r^2+\frac14r^2
+=\frac12-\frac14r^2
+$$
+となる。
+
+まとめると，
+
+- 条件を満たす点 $B$ は $\overrightarrow{OB}=\dfrac12\vec{a}$ を満たす点，
+  すなわち $OA$ を $2:1$ に内分する点であり，
+- そのときの ${|\overrightarrow{BR}|}^2$ の値は
+  $$
+  |\overrightarrow{BR}|^2=\frac12-\frac14r^2
+  $$
+  である。

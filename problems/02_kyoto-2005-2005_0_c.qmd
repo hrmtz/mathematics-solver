@@ -1,0 +1,25 @@
+---
+title: "京都大学 2005年 2005_0_c"
+problem_id: "02_kyoto-2005-2005_0_c"
+university: "京都大学"
+exam_year: "2005"
+source_tex: "archive/02_kyoto/2005/2005_0_c.tex"
+pdf_source: "archive/02_kyoto/2005/2005_0_c.pdf"
+page_image: "archive/02_kyoto/2005/2005_0_c.jpg"
+fields:
+  - 三角関数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　角$\alpha$，$\beta$，$\gamma$が$\alpha+\beta+\gamma={180}^\circ$，
+$\alpha\geqq0^\circ$，$\beta\geqq0^\circ$，$\gamma\geqq0^\circ$を満たすとき，
+$\cos\alpha+\cos\beta+\cos\gamma\geqq1$を示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_0_c.pdf)

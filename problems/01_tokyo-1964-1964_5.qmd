@@ -1,0 +1,28 @@
+---
+title: "東京大学 1964年 1964_5"
+problem_id: "01_tokyo-1964-1964_5"
+university: "東京大学"
+exam_year: "1964"
+source_tex: "archive/01_tokyo/1964/1964_5.tex"
+pdf_source: "archive/01_tokyo/1964/1964_5.pdf"
+page_image: "archive/01_tokyo/1964/1964_5.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　曲線$xy=1$の第1象限の部分に定点$P(a,b)$があり，同じ曲線の第3象限の部分に動点$Q$がある．
+\begin{description}
+\item[(1)]線分$QP$の長さの最小値を$a$で表わせ．
+\item[(2)]線分$QP$の長さが最小になるとき，
+$QP$が$x$軸の正の方向と30$^\circ$の角をなすような$a$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1964/1964_5.pdf)

@@ -1,0 +1,35 @@
+---
+title: "九州大学 1992年 1992_e"
+problem_id: "07_kyushu-1992-1992_e"
+university: "九州大学"
+exam_year: "1992"
+source_tex: "archive/07_kyushu/1992/1992_e.tex"
+pdf_source: "archive/07_kyushu/1992/1992_e.pdf"
+page_image: "archive/07_kyushu/1992/1992_e.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　2つのサイコロを同時に投げる試行を$n$回行う．
+2つのサイコロの出た目の和が$a$以下であるという事象を$A$とし，
+事象$A$の起こる確率を$p$とする．
+　$n$回の試行のうち，事象$A$の起こる回数を$X$とし，
+$X=r$となる確率を$q(r)$とする．
+ただし，$a$，$r$は整数で，$2 \leqq a \leqq 12$とする．
+\begin{description}
+\item[(1)]$X$の期待値を$n$，$p$で表せ．
+\item[(2)]整数$a$を用いて$p$を表せ．
+\item[(3)]比$\displaystyle\frac{q(r+1)}{q(r)}$を$n$，$p$，$r$で表せ．
+これを利用して，$q(r)$が$r=r_0$ $(1 \leqq r_0 \leqq n-1)$で最大となるためには
+$\displaystyle\frac{r_0}{n+1}<p<\frac{r_0+1}{n+1}$が成り立つことが必要十分であることを示せ．
+\item[(4)]$n=10$のとき，$q(r)$が$r=7$で最大となる整数$a$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_e.pdf)

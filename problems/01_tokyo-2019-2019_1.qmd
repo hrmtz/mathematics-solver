@@ -1,0 +1,24 @@
+---
+title: "東京大学 2019年 2019_1"
+problem_id: "01_tokyo-2019-2019_1"
+university: "東京大学"
+exam_year: "2019"
+source_tex: "archive/01_tokyo/2019/2019_1.tex"
+pdf_source: "archive/01_tokyo/2019/2019_1.pdf"
+page_image: "archive/01_tokyo/2019/2019_1.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の定積分を求めよ。
+\[ \int_0^1 \left( x^2+\frac{x}{\sqrt{1+x^2}} \right)
+\left( 1+\frac{x}{(1+x^2)\sqrt{1+x^2}} \right) dx \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2019/2019_1.pdf)

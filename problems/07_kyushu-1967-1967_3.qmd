@@ -1,0 +1,33 @@
+---
+title: "九州大学 1967年 1967_3"
+problem_id: "07_kyushu-1967-1967_3"
+university: "九州大学"
+exam_year: "1967"
+source_tex: "archive/07_kyushu/1967/1967_3.tex"
+pdf_source: "archive/07_kyushu/1967/1967_3.pdf"
+page_image: "archive/07_kyushu/1967/1967_3.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　複素平面上で，図のように，原点を中心とし半径が1の円に内接する正方形$z_1z_2z_3z_4$がある．
+ 
+
+![](../archive/07_kyushu/1967/fig_1967_3.jpg)
+
+
+\begin{description}
+\item[(1)]$z_1$の偏角を$\theta$として，${z_1}^k$，${z_2}^k$，${z_3}^k$，${z_4}^k$を極形式で表わせ．
+ただし$k$は正の整数とする．
+\item[(2)]点${z_1}^k$，${z_2}^k$，${z_3}^k$，${z_4}^k$のうちで相異なるものは何個あるか．
+$k=2, \, 3, \, 4, \, 5, \, 100$の各場合につき理由を述べて答えよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1967/1967_3.pdf)

@@ -1,0 +1,25 @@
+---
+title: "東北大学 1996年 1996_1"
+problem_id: "04_tohoku-1996-1996_1"
+university: "東北大学"
+exam_year: "1996"
+source_tex: "archive/04_tohoku/1996/1996_1.tex"
+pdf_source: "archive/04_tohoku/1996/1996_1.pdf"
+page_image: "archive/04_tohoku/1996/1996_1.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　3次関数$f(x)=x^3-px$は$x=a$において極大値$b$をとるとする．
+点$P(a, \, b)$を原点を中心に正の向きに${90}^\circ$回転した点を$Q$とする．
+曲線$y=f(x)$が点$Q$を通るような$p$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_1.pdf)

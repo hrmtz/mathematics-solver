@@ -1,0 +1,29 @@
+---
+title: "東北大学 2019年 2019_3"
+problem_id: "04_tohoku-2019-2019_3"
+university: "東北大学"
+exam_year: "2019"
+source_tex: "archive/04_tohoku/2019/2019_3.tex"
+pdf_source: "archive/04_tohoku/2019/2019_3.pdf"
+page_image: "archive/04_tohoku/2019/2019_3.jpg"
+fields:
+  - 数列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$を実数とし，数列$\{ x_n \}$を次の漸化式によって定める。
+\[ x_1=a, \hspace{1zw} x_{n+1}=x_n+{x_n}^2 \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
+\begin{description}
+\item[(1)]$a>0$のとき，数列$\{ x_n \}$が発散することを示せ。
+\item[(2)]$-1<a<0$のとき，すべての正の整数$n$に対して$-1<x_n<0$が成り立つことを示せ。
+\item[(3)]$-1<a<0$のとき，数列$\{ x_n \}$の極限を調べよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_3.pdf)

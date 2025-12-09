@@ -1,0 +1,246 @@
+## 解答
+
+(1)  
+円 $C$ の方程式は，中心が複素数 $\alpha$，半径が $r$ であるから  
+点 $z$ が $C$ 上を動くことは  
+$$
+|z-\alpha|=r
+$$
+と表される。
+
+ここで $w=\dfrac{1}{z}$ とおくと，$z=\dfrac{1}{w}$ であり，$z$ が $C$ 上を動くとき $w$ は $C'$ 上を動く。  
+したがって，上の式に $z=\dfrac{1}{w}$ を代入すると
+$$
+\left|\frac{1}{w}-\alpha\right|=r
+$$
+となる。両辺に $|w|$ を掛けると
+$$
+|1-\alpha w|=r|w|
+$$
+である。
+
+ここで，$\alpha$ および $w$ を
+$$
+\alpha=a+bi,\quad w=x+yi
+$$
+とおき，実部と虚部を用いて表す。  
+ただし $a,b,x,y$ は実数とし，$i^2=-1$ である。
+
+まず
+$$
+\alpha w=(a+bi)(x+yi)=(ax-by)+(ay+bx)i
+$$
+であるから
+$$
+1-\alpha w
+=1-(ax-by)-(ay+bx)i
+=\{1-(ax-by)\}-(ay+bx)i
+$$
+となる。よって
+$$
+|1-\alpha w|^2=\{1-(ax-by)\}^2+(ay+bx)^2
+$$
+である。
+
+一方
+$$
+|w|^2=x^2+y^2
+$$
+であるので，$|1-\alpha w|=r|w|$ の両辺を 2 乗して
+$$
+\{1-(ax-by)\}^2+(ay+bx)^2=r^2(x^2+y^2)
+$$
+を得る。
+
+左辺を展開する。まず
+$$
+1-(ax-by)=1-ax+by
+$$
+なので
+$$
+\{1-(ax-by)\}^2
+= (1-ax+by)^2
+=1-2ax+2by+a^2x^2-2abxy+b^2y^2
+$$
+である。
+
+また
+$$
+(ay+bx)^2=a^2y^2+2abxy+b^2x^2
+$$
+であるから，左辺は
+$$
+\{1-(ax-by)\}^2+(ay+bx)^2
+=1-2ax+2by+a^2x^2-2abxy+b^2y^2 +a^2y^2+2abxy+b^2x^2
+$$
+となる。ここで $-2abxy$ と $2abxy$ が打ち消し合い，
+$$
+=1-2ax+2by+a^2x^2+a^2y^2+b^2x^2+b^2y^2
+$$
+となる。$a^2x^2+a^2y^2=a^2(x^2+y^2)$，$b^2x^2+b^2y^2=b^2(x^2+y^2)$ より
+$$
+\{1-(ax-by)\}^2+(ay+bx)^2
+=1-2ax+2by+(a^2+b^2)(x^2+y^2)
+$$
+と整理できる。
+
+したがって
+$$
+1-2ax+2by+(a^2+b^2)(x^2+y^2)
+=r^2(x^2+y^2)
+$$
+であり，両辺から $(x^2+y^2)$ に関する項をまとめると
+$$
+1-2ax+2by+\bigl(a^2+b^2-r^2\bigr)(x^2+y^2)=0
+$$
+となる。
+
+ここで，$a^2+b^2-r^2\ne0$ であることを確認しておく。  
+$\alpha$ の原点からの距離は $|\alpha|=\sqrt{a^2+b^2}$ である。  
+仮に $a^2+b^2-r^2=0$ すなわち $|\alpha|=r$ であるとすると，半径 $r$ の円 $C$ の中心が原点から距離 $r$ の点 $\alpha$ であるから，円 $C$ は原点を通ることになる。  
+しかし問題文で「$C$ は原点を通らない」としているので，この場合は起こらない。  
+よって
+$$
+a^2+b^2-r^2\ne 0
+$$
+が成り立つ。
+
+したがって，上の式を $a^2+b^2-r^2$ で割ることができ，
+$$
+(x^2+y^2) -\frac{2a}{a^2+b^2-r^2}x +\frac{2b}{a^2+b^2-r^2}y +\frac{1}{a^2+b^2-r^2}=0
+$$
+となる。これを平方完成して円の方程式の形に直す。
+
+まず $x$ に関して
+$$
+x^2-\frac{2a}{a^2+b^2-r^2}x
+=\left(x-\frac{a}{a^2+b^2-r^2}\right)^2
+  -\left(\frac{a}{a^2+b^2-r^2}\right)^2
+$$
+同様に $y$ に関して
+$$
+y^2+\frac{2b}{a^2+b^2-r^2}y
+=\left(y+\frac{b}{a^2+b^2-r^2}\right)^2
+  -\left(\frac{b}{a^2+b^2-r^2}\right)^2
+$$
+となるので，
+$$
+\begin{aligned}
+&x^2+y^2-\frac{2a}{a^2+b^2-r^2}x+\frac{2b}{a^2+b^2-r^2}y
+  +\frac{1}{a^2+b^2-r^2}=0 \\
+&\quad\Longleftrightarrow\ 
+\left(x-\frac{a}{a^2+b^2-r^2}\right)^2
++\left(y+\frac{b}{a^2+b^2-r^2}\right)^2 \\
+&\qquad
+=\left(\frac{a}{a^2+b^2-r^2}\right)^2
++\left(\frac{b}{a^2+b^2-r^2}\right)^2
+-\frac{1}{a^2+b^2-r^2}.
+\end{aligned}
+$$
+
+右辺を整理すると
+$$
+\left(\frac{a}{A}\right)^2+\left(\frac{b}{A}\right)^2-\frac{1}{A}
+=\frac{a^2+b^2}{A^2}-\frac{1}{A}
+=\frac{a^2+b^2-A}{A^2}
+=\frac{r^2}{A^2}
+$$
+となる。ただし $A=a^2+b^2-r^2=|\alpha|^2-r^2$ とおいた。  
+
+したがって
+$$
+\left(x-\frac{a}{|\alpha|^2-r^2}\right)^2
++\left(y+\frac{b}{|\alpha|^2-r^2}\right)^2
+=\left(\frac{r}{|\alpha|^2-r^2}\right)^2
+$$
+が得られる。
+
+これは，中心
+$$
+\left(\frac{a}{|\alpha|^2-r^2},\ -\frac{b}{|\alpha|^2-r^2}\right)
+$$
+半径
+$$
+\frac{r}{|\,|\alpha|^2-r^2\,|}
+$$
+の円の方程式である（右辺は 2 乗であるから半径は絶対値でとる）。  
+ここで，複素数として書き直すと，$C'$ の中心の複素数は
+$$
+\frac{a}{|\alpha|^2-r^2}-\frac{b}{|\alpha|^2-r^2}i
+=\frac{a-bi}{|\alpha|^2-r^2}
+=\frac{\overline{\alpha}}{|\alpha|^2-r^2}
+$$
+となる。よって，$w$ の描く図形 $C'$ は円であり，その中心は
+$$
+\frac{\overline{\alpha}}{|\alpha|^2-r^2}
+$$
+半径は
+$$
+\frac{r}{\bigl|\,|\alpha|^2-r^2\,\bigr|}
+$$
+である。
+
+(2)  
+$C$ と $C'$ が一致するとき，中心と半径が等しいので，中心の複素数に注目する。
+
+円 $C$ の中心は $\alpha$，円 $C'$ の中心は (1) より
+$$
+\frac{\overline{\alpha}}{|\alpha|^2-r^2}
+$$
+であるから，
+$$
+\alpha=\frac{\overline{\alpha}}{|\alpha|^2-r^2}
+$$
+が成り立つ。
+
+両辺に $|\alpha|^2-r^2$ を掛けて
+$$
+\alpha(|\alpha|^2-r^2)=\overline{\alpha}
+$$
+を得る。
+
+ここで $\alpha\ne0$ であることを確認しておく。  
+もし $\alpha=0$ ならば，円 $C$ は中心が原点で半径 $r$ の円となり，明らかに原点を通る。  
+しかし，問題文で $C$ は原点を通らないとあるから，$\alpha\ne0$ である。
+
+したがって $\alpha$ で割って
+$$
+|\alpha|^2-r^2=\frac{\overline{\alpha}}{\alpha}
+$$
+が成り立つ。
+
+左辺 $|\alpha|^2-r^2$ は実数である。一方，右辺 $\dfrac{\overline{\alpha}}{\alpha}$ は，複素数 $\alpha$ を極形式 $\alpha=\rho(\cos\theta+i\sin\theta)$ と書けば
+$$
+\frac{\overline{\alpha}}{\alpha}
+=\frac{\rho(\cos\theta-i\sin\theta)}{\rho(\cos\theta+i\sin\theta)}
+=\frac{\cos\theta-i\sin\theta}{\cos\theta+i\sin\theta}
+=e^{-2i\theta}
+$$
+と表せ，これは複素平面上の単位円上の点である。  
+
+さらに，$|\alpha|^2-r^2$ は実数であるから，$\dfrac{\overline{\alpha}}{\alpha}=e^{-2i\theta}$ も実数でなければならない。  
+単位円上の複素数 $e^{i\phi}$ が実数であるのは $\phi=0$ または $\phi=\pi$ のときに限るので，
+$$
+e^{-2i\theta}=\pm 1
+$$
+である。
+
+したがって
+$$
+\frac{\overline{\alpha}}{\alpha}=\pm 1
+$$
+となる。  
+
+$\dfrac{\overline{\alpha}}{\alpha}=1$ のとき  
+$$
+\overline{\alpha}=\alpha
+$$
+であり，これは $\alpha$ が実数であることを意味するから，$\alpha$ は実軸上にある。
+
+$\dfrac{\overline{\alpha}}{\alpha}=-1$ のとき  
+$$
+\overline{\alpha}=-\alpha
+$$
+であり，これは $\alpha$ が純虚数であることを意味するので，$\alpha$ は虚軸上にある。
+
+以上より，$C$ と $C'$ が一致するとき，円 $C$ の中心 $\alpha$ は実軸上または虚軸上にある。

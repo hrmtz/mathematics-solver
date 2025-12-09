@@ -1,0 +1,223 @@
+## 解答
+
+(1)  
+円 $C$ の半径を $1$ とし，その中心を $O$，接点を $M,N$，接点を通る接線の交点を $L$ とする。  
+点 $L$ から円の中心 $O$ までの距離は $LO=4$，半径は $OM=ON=1$ である。
+
+接線と半径は直交するので，$\angle OML=\angle ONL=90^\circ$ である。  
+四角形 $OMLN$ を考えると，$OM=ON$，$\angle OML=\angle ONL=90^\circ$ より，$OMLN$ は点 $O$ を通る対角線 $MN$ について対称な形になる。
+
+三角形 $OML$ について，直角三角形の辺の関係から
+$$
+LM^2=LO^2-OM^2=4^2-1^2=16-1=15
+$$
+より
+$$
+LM=\sqrt{15}
+$$
+同様に $LN=\sqrt{15}$ である。
+
+また三角形 $MON$ について，$OM=ON=1$ であり，$\angle MON=\theta$ とおくと，三角形 $OML$ において
+$$
+\tan\angle MOL = \frac{ML}{OM} = \frac{\sqrt{15}}{1}=\sqrt{15}
+$$
+であるから
+$$
+\angle MOL = \arctan(\sqrt{15})
+$$
+一方，$\angle MON = 2\angle MOL$ なので
+$$
+\angle MON = 2\arctan(\sqrt{15})
+$$
+ここで三角関数の2倍角の公式
+$$
+\tan 2\alpha = \frac{2\tan\alpha}{1-\tan^2\alpha}
+$$
+に $\alpha=\arctan(\sqrt{15})$ を代入すると
+$$
+\tan\angle MON = \tan(2\arctan(\sqrt{15}))
+= \frac{2\sqrt{15}}{1-(\sqrt{15})^2}
+= \frac{2\sqrt{15}}{1-15}
+= \frac{2\sqrt{15}}{-14}
+= -\frac{\sqrt{15}}{7}
+$$
+よって $\angle MON$ は第2象限の角であり，
+$$
+\sin\angle MON = \frac{\tan\angle MON}{\sqrt{1+\tan^2\angle MON}}
+= \frac{-\frac{\sqrt{15}}{7}}{\sqrt{1+\left(\frac{\sqrt{15}}{7}\right)^2}}
+= \frac{-\frac{\sqrt{15}}{7}}{\sqrt{\frac{49+15}{49}}}
+= \frac{-\frac{\sqrt{15}}{7}}{\frac{8}{7}}
+= -\frac{\sqrt{15}}{8}
+$$
+よって
+$$
+\sin\angle MON = \frac{\sqrt{15}}{8} \quad(\angle MON\text{ は }90^\circ<\angle MON<180^\circ\text{ より正の値をとる})
+$$
+
+三角形 $MON$ の面積は
+$$
+S_{MON} = \frac12 OM\cdot ON \sin\angle MON
+= \frac12 \cdot1\cdot1\cdot\frac{\sqrt{15}}{8}
+= \frac{\sqrt{15}}{16}
+$$
+
+次に四角形 $OMLN$ の面積について考える。  
+$OMLN$ を対角線 $MN$ で分けると，$\triangle OML$ と $\triangle ONL$ は合同な直角三角形であるから，
+$$
+S_{OMLN} = S_{OML} + S_{ONL} = 2S_{OML}
+$$
+三角形 $OML$ は直角三角形であり，斜辺 $OL=4$，一方の直角辺 $OM=1$ なので
+$$
+S_{OML} = \frac12\cdot OM\cdot ML
+= \frac12\cdot1\cdot\sqrt{15}
+= \frac{\sqrt{15}}{2}
+$$
+したがって
+$$
+S_{OMLN} = 2\cdot \frac{\sqrt{15}}{2} = \sqrt{15}
+$$
+
+三角形 $LMN$ の面積は，四角形 $OMLN$ の面積から三角形 $MON$ の面積を引けばよい。  
+したがって
+$$
+S_{LMN} = S_{OMLN} - S_{MON}
+= \sqrt{15} - \frac{\sqrt{15}}{16}
+= \sqrt{15}\left(1 - \frac{1}{16}\right)
+= \sqrt{15}\cdot\frac{15}{16}
+= \frac{15\sqrt{15}}{16}
+$$
+
+よって，三角形 $LMN$ の面積は
+$$
+\boxed{\dfrac{15\sqrt{15}}{16}}
+$$
+である。
+
+(2)  
+三角形 $LMN$ の内接円の半径を $r$，外接円の半径を $R$ とする。  
+三角形の内接円の半径 $r$ と面積 $S$，周の長さ（周長）$a+b+c$ との関係
+$$
+S = r\cdot \frac{a+b+c}{2}
+$$
+を用いる。また外接円の半径 $R$ と辺の長さ $a,b,c$，面積 $S$ の関係
+$$
+S = \frac{abc}{4R}
+$$
+も用いる。
+
+まず三角形 $LMN$ の各辺の長さを求める。  
+(1)より $LM=LN=\sqrt{15}$ である。
+
+次に $MN$ の長さを求める。  
+三角形 $MON$ において，余弦定理を用いると
+$$
+MN^2 = OM^2 + ON^2 - 2\cdot OM\cdot ON\cos\angle MON
+= 1^2 + 1^2 - 2\cdot1\cdot1\cdot\cos\angle MON
+= 2 - 2\cos\angle MON
+$$
+ここで
+$$
+\sin\angle MON = \frac{\sqrt{15}}{8}
+$$
+より，三角関数の関係 $\sin^2\theta+\cos^2\theta=1$ を用いて
+$$
+\cos^2\angle MON = 1 - \sin^2\angle MON
+= 1 - \left(\frac{\sqrt{15}}{8}\right)^2
+= 1 - \frac{15}{64}
+= \frac{49}{64}
+$$
+$\angle MON$ は鈍角なので $\cos\angle MON<0$ であり，
+$$
+\cos\angle MON = -\frac{7}{8}
+$$
+よって
+$$
+MN^2 = 2 - 2\cdot\left(-\frac{7}{8}\right)
+= 2 + \frac{7}{4}
+= \frac{8}{4} + \frac{7}{4}
+= \frac{15}{4}
+$$
+したがって
+$$
+MN = \frac{\sqrt{15}}{2}
+$$
+
+よって三角形 $LMN$ の3辺の長さは
+$$
+LM = LN = \sqrt{15},\quad MN = \frac{\sqrt{15}}{2}
+$$
+であり，(1)で求めた面積は
+$$
+S_{LMN} = \frac{15\sqrt{15}}{16}
+$$
+である。
+
+まず内接円の半径 $r$ を求める。  
+三角形 $LMN$ の周長は
+$$
+LM + MN + NL
+= \sqrt{15} + \frac{\sqrt{15}}{2} + \sqrt{15}
+= \left(1 + \frac12 + 1\right)\sqrt{15}
+= \frac52\sqrt{15}
+$$
+したがって半周長（$\dfrac{a+b+c}{2}$）は
+$$
+\frac{\frac52\sqrt{15}}{2} = \frac54\sqrt{15}
+$$
+である。  
+面積と内接円半径の関係
+$$
+S = r\cdot\frac{a+b+c}{2}
+$$
+を用いると
+$$
+\frac{15\sqrt{15}}{16}
+= r\cdot \frac54\sqrt{15}
+$$
+両辺を $\sqrt{15}$ で割ると
+$$
+\frac{15}{16} = r\cdot\frac54
+$$
+よって
+$$
+r = \frac{15}{16}\cdot\frac{4}{5}
+= \frac{60}{80}
+= \frac34
+$$
+
+次に外接円の半径 $R$ を求める。  
+3辺の長さを $a=LM=\sqrt{15}$，$b=MN=\dfrac{\sqrt{15}}{2}$，$c=NL=\sqrt{15}$ とおき，面積 $S$ を用いると
+$$
+S = \frac{abc}{4R}
+$$
+より
+$$
+\frac{15\sqrt{15}}{16}
+= \frac{\sqrt{15}\cdot\frac{\sqrt{15}}{2}\cdot\sqrt{15}}{4R}
+$$
+右辺の分子を整理すると
+$$
+\sqrt{15}\cdot\frac{\sqrt{15}}{2}\cdot\sqrt{15}
+= \frac{(\sqrt{15})^3}{2}
+= \frac{15\sqrt{15}}{2}
+$$
+よって
+$$
+\frac{15\sqrt{15}}{16}
+= \frac{\frac{15\sqrt{15}}{2}}{4R}
+= \frac{15\sqrt{15}}{8R}
+$$
+両辺から $15\sqrt{15}$ を約分すると
+$$
+\frac{1}{16} = \frac{1}{8R}
+$$
+したがって
+$$
+8R = 16 \quad\Longrightarrow\quad R = 2
+$$
+
+よって，三角形 $LMN$ の内接円の半径と外接円の半径は
+$$
+\boxed{r=\dfrac{3}{4},\quad R=2}
+$$
+である。

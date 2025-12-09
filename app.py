@@ -3,8 +3,11 @@ from werkzeug.utils import secure_filename
 from pathlib import Path
 import uuid
 import os
+import re
+import random
 import yaml
 
+import env  # noqa: F401  # .env を自動読み込み
 from ocr_to_qmd import image_to_qmd
 from solver import generate_solution_qmd, build_handout_qmd
 from taxonomy import FIELDS as FIELD_CATEGORIES
@@ -74,6 +77,36 @@ def _load_problem_index():
 
         has_solution = (SOLUTION_FOLDER / f"{problem_id}_solution.qmd").exists()
 
+        # 本文の最初の数文字を検索結果に出すためのスニペットを生成
+        body_lines = lines[end + 1 :]
+        # 先頭の空行をスキップ
+        while body_lines and not body_lines[0].strip():
+            body_lines.pop(0)
+        body = "\n".join(body_lines).strip()
+        # 改行・連続空白を 1 つのスペースにまとめる
+        body_compact = " ".join(body.split())
+
+        # LaTeX/MathJax 記法をざっくり削除してプレーンテキストにする
+        def strip_math(s: str) -> str:
+            if not s:
+                return ""
+            # display 数式 $$ ... $$ や \[ ... \]
+            s = re.sub(r"\$\$.*?\$\$", " ", s)
+            s = re.sub(r"\\\[.*?\\\]", " ", s)
+            # inline 数式 $ ... $ や \( ... \)
+            s = re.sub(r"\$.*?\$", " ", s)
+            s = re.sub(r"\\\(.*?\\\)", " ", s)
+            # \alpha や \frac などのコマンド名を削除
+            s = re.sub(r"\\[A-Za-z]+", "", s)
+            # 中括弧など構文用の記号を削る
+            s = s.replace("{", "").replace("}", "")
+            return s
+
+        plain = strip_math(body_compact)
+        plain_compact = " ".join(plain.split())
+        # 問題文の冒頭 20 文字だけを検索結果に表示
+        snippet = plain_compact[:20]
+
         items.append(
             {
                 "problem_id": problem_id,
@@ -82,6 +115,7 @@ def _load_problem_index():
                 "exam_year": exam_year,
                 "fields": fields,
                 "has_solution": has_solution,
+                "snippet": snippet,
             }
         )
 
@@ -109,23 +143,31 @@ def get_problem_index(force_reload: bool = False):
 
 @app.route("/", methods=["GET"])
 def index():
-    return render_template("upload.html")
+    # トップページでは問題検索をメインにする
+    return redirect(url_for("search"))
 
 
-@app.route("/upload", methods=["POST"])
+@app.route("/upload", methods=["GET", "POST"])
 def upload():
+    """問題画像のアップロードフォーム表示とアップロード処理。"""
+
+    # GET: アップロードフォームを表示
+    if request.method == "GET":
+        return render_template("upload.html")
+
+    # POST: 実際のファイルアップロード処理
     if "file" not in request.files:
         flash("ファイルが選択されていません。")
-        return redirect(url_for("index"))
+        return redirect(url_for("upload"))
 
     file = request.files["file"]
     if file.filename == "":
         flash("ファイル名が空です。")
-        return redirect(url_for("index"))
+        return redirect(url_for("upload"))
 
     if not allowed_file(file.filename):
         flash("jpg/jpeg/png 形式のファイルのみアップロードできます。")
-        return redirect(url_for("index"))
+        return redirect(url_for("upload"))
 
     filename = secure_filename(file.filename)
     problem_id = uuid.uuid4().hex[:12]
@@ -133,8 +175,17 @@ def upload():
     upload_path = UPLOAD_FOLDER / saved_name
     file.save(upload_path)
 
+    # フォームから大学名・年度を受け取り、YAML ヘッダに反映させる
+    university = request.form.get("university") or None
+    exam_year = request.form.get("exam_year") or None
+
     # OpenAI Vision で OCR → qmd
-    qmd_text = image_to_qmd(image_path=upload_path, problem_id=problem_id)
+    qmd_text = image_to_qmd(
+        image_path=upload_path,
+        problem_id=problem_id,
+        university=university,
+        exam_year=exam_year,
+    )
 
     problem_qmd_path = PROBLEM_FOLDER / f"{problem_id}.qmd"
     problem_qmd_path.write_text(qmd_text, encoding="utf-8")
@@ -247,16 +298,30 @@ def search():
 
     all_items = get_problem_index(force_reload=force_reload)
 
+    # solutions/ 配下の最新状態を見て has_solution フラグを更新する
+    for item in all_items:
+        pid = item.get("problem_id")
+        if not pid:
+            item["has_solution"] = False
+            continue
+        solution_path = SOLUTION_FOLDER / f"{pid}_solution.qmd"
+        item["has_solution"] = solution_path.exists()
+
     # フィルタ UI 用の候補
     universities = sorted({item["university"] for item in all_items if item["university"]})
     years = [item["exam_year"] for item in all_items if item["exam_year"] is not None]
     year_min = min(years) if years else None
     year_max = max(years) if years else None
+    year_options = []
+    if year_min is not None and year_max is not None:
+        # 新しい年度から古い年度へ降順で並べる
+        year_options = list(range(year_max, year_min - 1, -1))
 
     selected_university = request.args.get("university", "")
     year_from_raw = request.args.get("year_from", "")
     year_to_raw = request.args.get("year_to", "")
     selected_field = request.args.get("field", "")
+    mode = request.args.get("mode", "search")  # "search" or "random"
 
     def _parse_year(s: str):
         try:
@@ -264,7 +329,16 @@ def search():
         except Exception:
             return None
 
-    year_from = _parse_year(year_from_raw) if year_from_raw else None
+    # 年度 from は、指定がなければデフォルトで 2015 年以降に絞る
+    DEFAULT_YEAR_FROM = 2015
+    if year_from_raw:
+        year_from = _parse_year(year_from_raw)
+    else:
+        if year_min is not None:
+            year_from = max(DEFAULT_YEAR_FROM, year_min)
+            year_from_raw = str(year_from)
+        else:
+            year_from = None
     year_to = _parse_year(year_to_raw) if year_to_raw else None
 
     results = []
@@ -279,7 +353,13 @@ def search():
             continue
         results.append(item)
 
-    results.sort(key=lambda x: (x["university"], x["exam_year"] or 0, x["problem_id"]))
+    # 通常検索: 新しい問題が上に来るように降順で並べる
+    if mode != "random":
+        results.sort(key=lambda x: (x["university"], x["exam_year"] or 0, x["problem_id"]), reverse=True)
+    else:
+        # ランダムモード: フィルタ結果から最大 10 問を無作為抽出
+        random.shuffle(results)
+        results = results[:10]
 
     return render_template(
         "search.html",
@@ -292,6 +372,7 @@ def search():
         selected_field=selected_field,
         year_min=year_min,
         year_max=year_max,
+        year_options=year_options,
     )
 
 

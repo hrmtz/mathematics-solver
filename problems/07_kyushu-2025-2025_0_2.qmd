@@ -1,0 +1,23 @@
+---
+title: "九州大学 2025年 2025_0_2"
+problem_id: "07_kyushu-2025-2025_0_2"
+university: "九州大学"
+exam_year: "2025"
+source_tex: "archive/07_kyushu/2025/2025_0_2.tex"
+pdf_source: "archive/07_kyushu/2025/2025_0_2.pdf"
+page_image: "archive/07_kyushu/2025/2025_0_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　半径1の円周$C$上の2点$A, \, B$は$AB=\sqrt3$をみたすとする。
+点$P$が円周$C$上を動くとき，${AP}^2+{BP}^2$の最大値を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2025/2025_0_2.pdf)

@@ -1,0 +1,34 @@
+---
+title: "東北大学 2014年 2014_c"
+problem_id: "04_tohoku-2014-2014_c"
+university: "東北大学"
+exam_year: "2014"
+source_tex: "archive/04_tohoku/2014/2014_c.tex"
+pdf_source: "archive/04_tohoku/2014/2014_c.pdf"
+page_image: "archive/04_tohoku/2014/2014_c.jpg"
+fields:
+  - 不等式
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$n$を自然数とする。次の連立不等式が表す$xy$平面の領域を$D_n$とする。
+\[ \begin{cases} 0 \leqq x \leqq 3n 
+
+ 0 \leqq 3y \leqq 2x+3 \end{cases} \]
+$D_n$に含まれ，$x$座標，$y$座標ともに整数である点$(x, \, y)$の個数を$a_n$とする。
+\begin{description}
+\item[(1)]$a_1$を求めよ。
+\item[(2)]$a_{n+1}$を$a_n$を用いて表せ。
+\item[(3)]$a_n$を求めよ。
+\item[(4)]$D_n$の面積を$S_n$とする。次の極限値を求めよ。
+\[ \lim_{n\to\infty}n\left(\frac{a_n}{S_n}-1\right) \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2014/2014_c.pdf)

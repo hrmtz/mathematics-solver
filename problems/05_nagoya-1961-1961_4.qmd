@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 1961年 1961_4"
+problem_id: "05_nagoya-1961-1961_4"
+university: "名古屋大学"
+exam_year: "1961"
+source_tex: "archive/05_nagoya/1961/1961_4.tex"
+pdf_source: "archive/05_nagoya/1961/1961_4.pdf"
+page_image: "archive/05_nagoya/1961/1961_4.jpg"
+fields:
+  - 三角関数
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　直線上を動く点があって，時刻$t$におけるその座標$x$は
+\[ x=\sin t+3\sin2t \]
+で与えられている。
+\begin{description}
+\item[(1)]時刻$t=0$におけるこの点の速度および加速度を求めよ。
+\item[(2)]$0 \leqq t \leqq \pi$のとき，点の動く範囲を求めよ。
+\item[(3)]時刻$t$における速度を$v$とするとき
+$\displaystyle\int_0^\pi v^2dt$を計算せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1961/1961_4.pdf)

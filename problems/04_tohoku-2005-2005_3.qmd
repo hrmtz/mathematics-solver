@@ -1,0 +1,31 @@
+---
+title: "東北大学 2005年 2005_3"
+problem_id: "04_tohoku-2005-2005_3"
+university: "東北大学"
+exam_year: "2005"
+source_tex: "archive/04_tohoku/2005/2005_3.tex"
+pdf_source: "archive/04_tohoku/2005/2005_3.pdf"
+page_image: "archive/04_tohoku/2005/2005_3.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　1から$n$までの数字を1つずつ書いた$n$枚のカードが箱に入っている．
+この箱から無作為にカードを1枚取り出して数字を記録し，箱に戻すという操作を繰り返す．
+ただし，$k$回目の操作で直前のカードと同じ数字か直前のカードよりも小さい数字のカードを取り出した場合に，
+$k$を得点として終了する．
+\begin{description}
+\item[(1)]$2\leqq k \leqq n+1$を満たす自然数$k$について，
+得点が$k$となる確率を求めよ．
+\item[(2)]得点の期待値を$n$で表した式を$f(n)$とするとき，
+$f(n)$および極限値$\displaystyle\lim_{n\to\infty}f(n)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_3.pdf)

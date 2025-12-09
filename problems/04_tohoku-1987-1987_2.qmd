@@ -1,0 +1,32 @@
+---
+title: "東北大学 1987年 1987_2"
+problem_id: "04_tohoku-1987-1987_2"
+university: "東北大学"
+exam_year: "1987"
+source_tex: "archive/04_tohoku/1987/1987_2.tex"
+pdf_source: "archive/04_tohoku/1987/1987_2.pdf"
+page_image: "archive/04_tohoku/1987/1987_2.jpg"
+fields:
+  - 微分法
+  - 数列
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$，$b$を正の整数とする．関数
+\[ f(x)=4x^3-ax^2+2bx-8 \]
+が次の3つの条件を同時に満たすような$a$，$b$の組をすべて求めよ．
+\begin{description}
+\item[(i)]$f(1)>0$
+\item[(ii)]$f(x)$は極値をもつ．
+\item[(iii)]$\displaystyle c_n=\int_0^{2^{n-1}}f(x)dx$ $(n=1, \, 2, \, 3)$で定義される$c_1$，$c_2$，$c_3$が
+等比数列をなす．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1987/1987_2.pdf)

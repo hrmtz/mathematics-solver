@@ -1,0 +1,24 @@
+---
+title: "北海道大学 1968年 1968_1"
+problem_id: "03_hokudai-1968-1968_1"
+university: "北海道大学"
+exam_year: "1968"
+source_tex: "archive/03_hokudai/1968/1968_1.tex"
+pdf_source: "archive/03_hokudai/1968/1968_1.pdf"
+page_image: "archive/03_hokudai/1968/1968_1.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$x$，$y$が$x^2+y^2=1$であるとき，
+$\sqrt3x^2+2xy-\sqrt3y^2$の最大値とそのときの$x$，$y$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1968/1968_1.pdf)

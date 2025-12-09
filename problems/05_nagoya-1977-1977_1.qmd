@@ -1,0 +1,30 @@
+---
+title: "名古屋大学 1977年 1977_1"
+problem_id: "05_nagoya-1977-1977_1"
+university: "名古屋大学"
+exam_year: "1977"
+source_tex: "archive/05_nagoya/1977/1977_1.tex"
+pdf_source: "archive/05_nagoya/1977/1977_1.pdf"
+page_image: "archive/05_nagoya/1977/1977_1.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　空間に5点$O(0, \, 0, \, 0)$，$A(3, \, 1, \, 5)$，$B(1, \, 2, \, 4)$，
+$C(2, \, -1, \, -1)$，$D(3, \, 1, \, 2)$がある．
+2点$A$，$B$を通る直線上に動点$P$をとり，
+2点$C$，$D$を通る直線上に動点$Q$をとる．
+\begin{description}
+\item[(1)]$\overrightarrow{PQ}=\overrightarrow{OR}$を満たす点$R$全体の集合はどのような図形を表すか．
+\item[(2)]線分$PQ$の長さの最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1977/1977_1.pdf)

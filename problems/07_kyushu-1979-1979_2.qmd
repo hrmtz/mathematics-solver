@@ -1,0 +1,28 @@
+---
+title: "九州大学 1979年 1979_2"
+problem_id: "07_kyushu-1979-1979_2"
+university: "九州大学"
+exam_year: "1979"
+source_tex: "archive/07_kyushu/1979/1979_2.tex"
+pdf_source: "archive/07_kyushu/1979/1979_2.pdf"
+page_image: "archive/07_kyushu/1979/1979_2.jpg"
+fields:
+  - 指数・対数
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\displaystyle p=\frac{\sqrt5-1}{2}$，$q=1-p$とする．
+\begin{description}
+\item[(1)]$\displaystyle\frac{\log p}{\log q}$の値を求めよ．
+\item[(2)]与えられた自然数$k$に対して，
+$q^k \leqq p^mq^n$を満たす自然数$m$，$n$の組$(m, \, n)$の個数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1979/1979_2.pdf)

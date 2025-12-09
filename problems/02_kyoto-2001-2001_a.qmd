@@ -1,0 +1,22 @@
+---
+title: "京都大学 2001年 2001_a"
+problem_id: "02_kyoto-2001-2001_a"
+university: "京都大学"
+exam_year: "2001"
+source_tex: "archive/02_kyoto/2001/2001_a.tex"
+pdf_source: "archive/02_kyoto/2001/2001_a.pdf"
+page_image: "archive/02_kyoto/2001/2001_a.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　方程式$x^2+2y^2+2z^2-2xy-2xz+2yz-5=0$をみたす正の整数の組$(x,y,z)$をすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2001/2001_a.pdf)

@@ -1,0 +1,26 @@
+---
+title: "東北大学 1970年 1970_2"
+problem_id: "04_tohoku-1970-1970_2"
+university: "東北大学"
+exam_year: "1970"
+source_tex: "archive/04_tohoku/1970/1970_2.tex"
+pdf_source: "archive/04_tohoku/1970/1970_2.pdf"
+page_image: "archive/04_tohoku/1970/1970_2.jpg"
+fields:
+  - 代数
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a_0, \, a_1, \, a_2, \, \cdots\cdots, \, a_n$がすべて正の実数であるとき，
+$n$次方程式
+\[ a_0x^n-a_1x^{n-1}-a_2x^{n-2}-\cdots\cdots-a_n=0 \]
+の正の根の個数を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1970/1970_2.pdf)

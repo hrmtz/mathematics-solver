@@ -1,0 +1,29 @@
+---
+title: "京都大学 1973年 1973_3"
+problem_id: "02_kyoto-1973-1973_3"
+university: "京都大学"
+exam_year: "1973"
+source_tex: "archive/02_kyoto/1973/1973_3.tex"
+pdf_source: "archive/02_kyoto/1973/1973_3.pdf"
+page_image: "archive/02_kyoto/1973/1973_3.jpg"
+fields:
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　正三角形$ABC$がある．
+点$O$を直線$AB$に関して$C$と反対側にとって$\angle AOB={60}^\circ$となるようにし，
+ベクトル$\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$を
+それぞれ$\mathbf{a}$，$\mathbf{b}$，$\mathbf{c}$で表わす．
+このとき
+\[ \mathbf{c}=\frac{|\mathbf{b}|}{|\mathbf{a}|}\mathbf{a}+\frac{|\mathbf{a}|}{|\mathbf{b}|}\mathbf{b} \]
+であることを証明せよ．
+ただし$|\mathbf{a}|$，$|\mathbf{b}|$はそれぞれ$\mathbf{a}$，$\mathbf{b}$の大きさを示す．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1973/1973_3.pdf)

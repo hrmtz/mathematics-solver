@@ -1,0 +1,29 @@
+---
+title: "九州大学 2021年 2021_5"
+problem_id: "07_kyushu-2021-2021_5"
+university: "九州大学"
+exam_year: "2021"
+source_tex: "archive/07_kyushu/2021/2021_5.tex"
+pdf_source: "archive/07_kyushu/2021/2021_5.pdf"
+page_image: "archive/07_kyushu/2021/2021_5.jpg"
+fields:
+  - 整数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　以下の問いに答えよ。
+\begin{description}
+\item[(1)]自然数$n$，$k$が$2 \leqq k \leqq n-2$をみたすとき，
+${}_nC_k>n$であることを示せ。
+\item[(2)]$p$を素数とする。$k \leqq n$をみたす自然数の組$(n, \, k)$で
+${}_nC_k=p$となるものをすべて求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_5.pdf)

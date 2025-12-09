@@ -1,0 +1,25 @@
+---
+title: "名古屋大学 1968年 1968_0_5a"
+problem_id: "05_nagoya-1968-1968_0_5a"
+university: "名古屋大学"
+exam_year: "1968"
+source_tex: "archive/05_nagoya/1968/1968_0_5a.tex"
+pdf_source: "archive/05_nagoya/1968/1968_0_5a.pdf"
+page_image: "archive/05_nagoya/1968/1968_0_5a.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5 (a)
+　$0 \leqq x<1$で定義された連続関数$f(x)$があって，
+$f(0)=0$，かつ，$x_1<x_2$ならば，$f(x_1) \leqq f(x_2)$である．
+このとき，つねに$\displaystyle f(x)\geqq\int_0^xf(t)dt$が成り立つことを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1968/1968_0_5a.pdf)

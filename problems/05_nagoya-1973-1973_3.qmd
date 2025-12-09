@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1973年 1973_3"
+problem_id: "05_nagoya-1973-1973_3"
+university: "名古屋大学"
+exam_year: "1973"
+source_tex: "archive/05_nagoya/1973/1973_3.tex"
+pdf_source: "archive/05_nagoya/1973/1973_3.pdf"
+page_image: "archive/05_nagoya/1973/1973_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　放物線$y=x^2$の上に2点$P$，$Q$があって，
+線分$PQ$の中点が直線$y=x+1$の上にあるとき，
+このような直線$PQ$は，
+すべてある一定の放物線$y=ax^2+bx+c$に接することを示し，
+$a$，$b$，$c$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1973/1973_3.pdf)

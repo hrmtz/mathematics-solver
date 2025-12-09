@@ -1,0 +1,29 @@
+---
+title: "大阪大学 1967年 1967_3"
+problem_id: "06_osaka-1967-1967_3"
+university: "大阪大学"
+exam_year: "1967"
+source_tex: "archive/06_osaka/1967/1967_3.tex"
+pdf_source: "archive/06_osaka/1967/1967_3.pdf"
+page_image: "archive/06_osaka/1967/1967_3.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$x$の3次式$f(x)=x^3+ax^2+bx+c$と2次式$g(x)=x^2+px+q$において，
+関数$y=f(x)$が極値をもたず，$y=f(x)$のグラフと$y=g(x)$のグラフとがただ1点$A(0, \, 1)$を共有し，
+$A$において共通の接線をもつとする。
+\begin{description}
+\item[(1)]$p$のとりうる値の範囲を求めよ。
+\item[(2)]放物線$y=g(x)$の頂点はどのような図形をえがくか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1967/1967_3.pdf)

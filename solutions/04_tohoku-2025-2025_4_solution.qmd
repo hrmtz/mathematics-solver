@@ -1,0 +1,192 @@
+## 解答
+
+(ただし，$\log$ は自然対数とする。)
+
+## 解答
+
+(1)  
+共有点を $x=t\,(>0)$ とおくと，$y$ 座標は一致するから  
+$$
+n\log t = a t^n \quad\cdots (1)
+$$
+である。また，接線が一致するので，$x=t$ における微分係数も等しい。
+
+まず微分すると
+$$
+f'(x)=\frac{n}{x},\quad g'(x)=anx^{\,n-1}
+$$
+なので，$x=t$ で
+$$
+\frac{n}{t} = an t^{\,n-1}
+$$
+となる。これを整理すると
+$$
+\frac{n}{t} = an t^{\,n-1}
+\ \Longrightarrow\ 
+\frac{n}{t} = an t^{\,n-1}
+\ \Longrightarrow\ 
+1 = a t^{\,n}
+$$
+ゆえに
+$$
+a = \frac{1}{t^n}.
+$$
+
+これを (1) に代入すると
+$$
+n\log t = a t^n = \frac{1}{t^n} t^n = 1
+$$
+より
+$$
+\log t = \frac{1}{n}
+\ \Longrightarrow\ 
+t = e^{1/n}.
+$$
+したがって
+$$
+a = \frac{1}{t^n} = \frac{1}{\left(e^{1/n}\right)^n} = \frac{1}{e}.
+$$
+
+よって，求める $a$ の値は
+$$
+a=\frac{1}{e}
+$$
+である。
+
+---
+
+(2)  
+(1) より $a=\dfrac{1}{e}$ なので
+$$
+f(x)=n\log x,\quad g(x)=\frac{1}{e}x^n
+$$
+である。
+
+(1) の議論から，接点（共有点）は $x=t=e^{1/n}$ である。  
+また，$x>0$ において
+$$
+f'(x)=\frac{n}{x}>0,\quad g'(x)=\frac{n}{e}x^{n-1}>0
+$$
+であるから，両曲線は単調増加する。$x=t$ で $f(t)=g(t)$ かつ $f'(t)=g'(t)$ であり，その前後での大小関係は，例えば $x\to +0$ で
+$$
+f(x)=n\log x \to -\infty,\quad g(x)=\frac{1}{e}x^n \to 0
+$$
+より $x$ が小さいところでは $g(x)>f(x)$ となる。よって $0<x<t$ では
+$$
+g(x) > f(x)
+$$
+である。さらに $x>t$ で再度交わることは（接していることから）なく，この接点 $x=t$ が $x>0$ における唯一の交点である。
+
+したがって，$2$ つの曲線と $x$ 軸で囲まれた部分は，原点 $O(0,0)$，交点 $A(t,f(t))$ を結ぶ形で，区間 $0\le x\le t$ において，上側が $g(x)$，下側が $f(x)$ の領域となる。よって面積 $S_n$ は
+$$
+S_n = \int_{0}^{t} \bigl(g(x)-f(x)\bigr)\,dx
+      = \int_{0}^{e^{1/n}}\left(\frac{1}{e}x^n - n\log x\right)dx
+$$
+である。
+
+まず
+$$
+\int_{0}^{e^{1/n}}\frac{1}{e}x^n\,dx
+= \frac{1}{e}\cdot\left[\frac{x^{n+1}}{n+1}\right]_{0}^{e^{1/n}}
+= \frac{1}{e}\cdot\frac{(e^{1/n})^{n+1}}{n+1}
+= \frac{1}{e}\cdot\frac{e^{(n+1)/n}}{n+1}
+= \frac{e^{1/n}}{n+1}.
+$$
+
+次に，積分 $\displaystyle\int n\log x\,dx$ は部分積分により  
+（例えば $u=\log x,\ dv=dx$ とおく）求められる：
+$$
+\int n\log x\,dx
+= n\left(x\log x - x\right) + C.
+$$
+したがって
+$$
+\int_{0}^{e^{1/n}} n\log x\,dx
+= n\bigl[x\log x - x\bigr]_{0}^{e^{1/n}}.
+$$
+
+$x\to 0^+$ のとき $x\log x \to 0$ である（$x\log x$ は $0$ に収束することを用いる）。よって
+$$
+\bigl[x\log x - x\bigr]_{0}^{e^{1/n}}
+= \left(e^{1/n}\cdot\frac{1}{n} - e^{1/n}\right) - (0-0)
+= e^{1/n}\left(\frac{1}{n} - 1\right).
+$$
+したがって
+$$
+\int_{0}^{e^{1/n}} n\log x\,dx
+= n \cdot e^{1/n}\left(\frac{1}{n} - 1\right)
+= e^{1/n}(1 - n).
+$$
+
+以上より
+$$
+S_n
+= \int_{0}^{e^{1/n}}\left(\frac{1}{e}x^n - n\log x\right)dx
+= \frac{e^{1/n}}{n+1} - e^{1/n}(1-n).
+$$
+
+右辺をまとめると
+$$
+S_n
+= e^{1/n}\left(\frac{1}{n+1} - (1-n)\right)
+= e^{1/n}\left(\frac{1}{n+1} - 1 + n\right).
+$$
+分数部分を通分して整理すると
+$$
+\frac{1}{n+1} - 1 + n
+= \frac{1}{n+1} - \frac{n+1}{n+1} + \frac{n(n+1)}{n+1}
+= \frac{1 - (n+1) + n(n+1)}{n+1}
+= \frac{n^2}{n+1}.
+$$
+ゆえに
+$$
+S_n = e^{1/n}\cdot\frac{n^2}{n+1}.
+$$
+
+したがって
+$$
+S_n = \frac{n^2}{n+1}e^{1/n}
+$$
+である。
+
+---
+
+(3)  
+(2) の結果より
+$$
+S_n = \frac{n^2}{n+1}e^{1/n}
+$$
+であるから
+$$
+\lim_{n\to\infty} S_n
+= \left(\lim_{n\to\infty}\frac{n^2}{n+1}\right)
+  \left(\lim_{n\to\infty}e^{1/n}\right)
+$$
+と分けて考えられる（両方の極限が存在することを用いる）。
+
+まず
+$$
+\frac{n^2}{n+1}
+= \frac{n^2}{n(1+1/n)}
+= \frac{n}{1+1/n}
+$$
+より，$n\to\infty$ とすると分母は $1+1/n\to 1$，分子は $n\to\infty$ なので
+$$
+\lim_{n\to\infty}\frac{n^2}{n+1} = \infty.
+$$
+
+また
+$$
+\lim_{n\to\infty} e^{1/n} = e^{0} = 1
+$$
+であるから，
+$$
+\lim_{n\to\infty} S_n
+= \infty \cdot 1 = \infty.
+$$
+
+したがって
+$$
+\lim_{n\to\infty} S_n = \infty
+$$
+となる。

@@ -1,0 +1,30 @@
+---
+title: "東北大学 2023年 2023_3"
+problem_id: "04_tohoku-2023-2023_3"
+university: "東北大学"
+exam_year: "2023"
+source_tex: "archive/04_tohoku/2023/2023_3.tex"
+pdf_source: "archive/04_tohoku/2023/2023_3.pdf"
+page_image: "archive/04_tohoku/2023/2023_3.jpg"
+fields:
+  - 数列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$s$を実数とし，数列$\{ a_n \}$を
+\[ a_1=s, \hspace{1zw} (n+2)a_{n+1}=na_n+2 \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
+で定める。以下の問いに答えよ。
+\begin{description}
+\item[(1)]$a_n$を$n$と$s$を用いて表せ。
+\item[(2)]ある正の整数$m$に対して$\displaystyle\sum_{n=1}^ma_n=0$が成り立つとする。
+$s$を$m$を用いて表せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2023/2023_3.pdf)

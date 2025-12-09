@@ -1,0 +1,208 @@
+## 解答
+
+(1)  
+区間 $0\leqq x\leqq2\pi$ で $f''(x)>0$ であるから，$f$ はこの区間で下に凸であり，任意の $a<b$ と $t\in(0,1)$ に対して  
+(あるいは $x=ta+(1-t)b$ と書いて)
+$$
+f\bigl(tx+(1-t)y\bigr)<tf(x)+(1-t)f(y)
+$$
+が成り立つ（凸関数の定義より）。
+
+区間 $0\leqq x\leqq\pi$ で
+$$
+F(x)=f(x)-f(\pi-x)-f(\pi+x)+f(2\pi-x)
+$$
+とおく。  
+$0\leqq x\leqq\frac{\pi}{2}$ とすると，
+$$
+0\leqq x\leqq\frac{\pi}{2}\quad\Longrightarrow\quad
+0\leqq x<\pi-x\leqq\pi<\pi+x<2\pi-x\leqq2\pi
+$$
+が成り立つ。よって，$[0,\pi-x]$，$[\pi+x,2\pi-x]$ はいずれも $[0,2\pi]$ の部分区間である。
+
+まず区間 $[0,\pi-x]$ 上の凸性から，
+$$
+f\!\left(\frac{x+(\pi-x)}{2}\right)
+<f(x)\cdot\frac12+f(\pi-x)\cdot\frac12
+$$
+すなわち
+$$
+f\!\left(\frac{\pi}{2}\right)<\frac{1}{2}\bigl(f(x)+f(\pi-x)\bigr)
+$$
+が得られる。同様に区間 $[\pi+x,2\pi-x]$ 上の凸性から，
+$$
+f\!\left(\frac{(\pi+x)+(2\pi-x)}{2}\right)
+<f(\pi+x)\cdot\frac12+f(2\pi-x)\cdot\frac12
+$$
+すなわち
+$$
+f\!\left(\frac{3\pi}{2}\right)<\frac{1}{2}\bigl(f(\pi+x)+f(2\pi-x)\bigr)
+$$
+が得られる。
+
+これらをそれぞれ整理すると
+$$
+f(x)+f(\pi-x)>2f\!\left(\frac{\pi}{2}\right),\qquad
+f(\pi+x)+f(2\pi-x)>2f\!\left(\frac{3\pi}{2}\right)
+$$
+である。よって
+$$
+\begin{aligned}
+F(x)
+&=f(x)-f(\pi-x)-f(\pi+x)+f(2\pi-x)\\
+&=\bigl(f(x)+f(\pi-x)\bigr)-\bigl(f(\pi+x)+f(2\pi-x)\bigr)\\
+&>2f\!\left(\frac{\pi}{2}\right)-2f\!\left(\frac{3\pi}{2}\right).
+\end{aligned}
+$$
+
+次に，区間 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$ 上での凸性を用いる。  
+$\frac{\pi}{2}<\pi<\frac{3\pi}{2}$ より，$\pi$ は $\frac{\pi}{2},\frac{3\pi}{2}$ の間にあるので，
+ある $t\in(0,1)$ を用いて
+$$
+\pi=t\cdot\frac{\pi}{2}+(1-t)\cdot\frac{3\pi}{2}
+$$
+と表せる（実際には $t=\frac12$ であるが，一般の形で述べてもよい）。  
+したがって凸性より
+$$
+f(\pi)<t\,f\!\left(\frac{\pi}{2}\right)+(1-t)\,f\!\left(\frac{3\pi}{2}\right)
+$$
+が成り立つ。特に $t=\frac12$ を用いると
+$$
+f(\pi)<\frac12\left(f\!\left(\frac{\pi}{2}\right)+f\!\left(\frac{3\pi}{2}\right)\right)
+$$
+であり，これを変形して
+$$
+2f(\pi)<f\!\left(\frac{\pi}{2}\right)+f\!\left(\frac{3\pi}{2}\right)
+$$
+さらに
+$$
+2\bigl(f\!\left(\tfrac{\pi}{2}\right)-f(\pi)\bigr)
+>2\bigl(f(\pi)-f\!\left(\tfrac{3\pi}{2}\right)\bigr)
+$$
+が得られる。左辺は右辺より大きいから，特に
+$$
+2\bigl(f\!\left(\tfrac{\pi}{2}\right)-f\!\left(\tfrac{3\pi}{2}\right)\bigr)\geqq0
+$$
+である。
+
+以上より
+$$
+F(x)>2f\!\left(\frac{\pi}{2}\right)-2f\!\left(\frac{3\pi}{2}\right)\geqq0
+$$
+が従う。境界 $x=0,\frac{\pi}{2}$ も連続性から含めて  
+$0\leqq x\leqq\frac{\pi}{2}$ で $F(x)\geqq0$ が成り立つ。
+
+よって示された。
+
+---
+
+(2)  
+(1) で用いた $f$ を考える。積分区間を左右に分け，$[0,\pi]$ と $[\pi,2\pi]$ で積分する：
+$$
+\int_0^{2\pi}f(x)\cos x\,dx
+=\int_0^{\pi}f(x)\cos x\,dx+\int_{\pi}^{2\pi}f(x)\cos x\,dx.
+$$
+
+第2項について，$x=\pi+t$ とおくと $dx=dt$，$x=\pi\Rightarrow t=0$，$x=2\pi\Rightarrow t=\pi$ であり，
+さらに $\cos(\pi+t)=-\cos t$ であるから
+$$
+\int_{\pi}^{2\pi}f(x)\cos x\,dx
+=\int_0^{\pi}f(\pi+t)\cos(\pi+t)\,dt
+=-\int_0^{\pi}f(\pi+t)\cos t\,dt.
+$$
+したがって
+$$
+\int_0^{2\pi}f(x)\cos x\,dx
+=\int_0^{\pi}\bigl(f(x)-f(\pi+x)\bigr)\cos x\,dx.
+$$
+
+次にこの積分を $[0,\frac{\pi}{2}]$ と $[\frac{\pi}{2},\pi]$ に分ける：
+$$
+\int_0^{\pi}\bigl(f(x)-f(\pi+x)\bigr)\cos x\,dx
+=\int_0^{\frac{\pi}{2}}\bigl(f(x)-f(\pi+x)\bigr)\cos x\,dx
++\int_{\frac{\pi}{2}}^{\pi}\bigl(f(x)-f(\pi+x)\bigr)\cos x\,dx.
+$$
+
+第2項について $x=\pi-t$ とおくと $dx=-dt$，$x=\frac{\pi}{2}\Rightarrow t=\frac{\pi}{2}$，$x=\pi\Rightarrow t=0$ であり，
+また
+$$
+f(x)-f(\pi+x)
+=f(\pi-t)-f(2\pi-t),\quad
+\cos x=\cos(\pi-t)=-\cos t
+$$
+より
+$$
+\begin{aligned}
+\int_{\frac{\pi}{2}}^{\pi}\bigl(f(x)-f(\pi+x)\bigr)\cos x\,dx
+&=\int_{\frac{\pi}{2}}^{\pi}\bigl(f(\pi-t)-f(2\pi-t)\bigr)\,(-\cos t)\,(-dt)\\
+&=\int_{0}^{\frac{\pi}{2}}\bigl(f(\pi-t)-f(2\pi-t)\bigr)\cos t\,dt.
+\end{aligned}
+$$
+
+以上をまとめると
+$$
+\begin{aligned}
+\int_0^{2\pi}f(x)\cos x\,dx
+&=\int_0^{\frac{\pi}{2}}\bigl(f(x)-f(\pi+x)\bigr)\cos x\,dx
++\int_0^{\frac{\pi}{2}}\bigl(f(\pi-x)-f(2\pi-x)\bigr)\cos x\,dx\\
+&=\int_0^{\frac{\pi}{2}}\bigl(f(x)-f(\pi-x)-f(\pi+x)+f(2\pi-x)\bigr)\cos x\,dx\\
+&=\int_0^{\frac{\pi}{2}}F(x)\cos x\,dx.
+\end{aligned}
+$$
+
+ここで (1) より $0\leqq x\leqq\frac{\pi}{2}$ で $F(x)\geqq0$，また $0\leqq x\leqq\frac{\pi}{2}$ では
+$\cos x\geqq0$ であるから，被積分関数 $F(x)\cos x$ はこの区間で常に $0$ 以上である。  
+よって
+$$
+\int_0^{2\pi}f(x)\cos x\,dx
+=\int_0^{\frac{\pi}{2}}F(x)\cos x\,dx\geqq0
+$$
+が成立する。
+
+---
+
+(3)  
+$g$ は $[0,2\pi]$ 上で導関数をもち $g'(x)<0$ であるから，$g$ はこの区間で単調減少である。  
+すなわち $0\leqq a<b\leqq2\pi$ に対して $g(a)>g(b)$ が成り立つ。
+
+積分を $[0,\pi]$ と $[\pi,2\pi]$ に分けて変形する：
+$$
+\int_0^{2\pi}g(x)\sin x\,dx
+=\int_0^{\pi}g(x)\sin x\,dx+\int_{\pi}^{2\pi}g(x)\sin x\,dx.
+$$
+
+第2項について $x=\pi+t$ とおくと $dx=dt$，$x=\pi\Rightarrow t=0$，$x=2\pi\Rightarrow t=\pi$，また
+$\sin(\pi+t)=-\sin t$ より
+$$
+\int_{\pi}^{2\pi}g(x)\sin x\,dx
+=\int_0^{\pi}g(\pi+t)\sin(\pi+t)\,dt
+=-\int_0^{\pi}g(\pi+t)\sin t\,dt.
+$$
+したがって
+$$
+\int_0^{2\pi}g(x)\sin x\,dx
+=\int_0^{\pi}\bigl(g(x)-g(\pi+x)\bigr)\sin x\,dx.
+$$
+
+$0\leqq x\leqq\pi$ に対して $x<\pi+x\leqq2\pi$ であるから，$g$ の単調減少性より
+$$
+g(x)\geqq g(\pi+x)
+$$
+が成り立つ。よって
+$$
+g(x)-g(\pi+x)\geqq0\qquad(0\leqq x\leqq\pi)
+$$
+である。一方，$0\leqq x\leqq\pi$ では $\sin x\geqq0$ だから，被積分関数
+$$
+\bigl(g(x)-g(\pi+x)\bigr)\sin x
+$$
+は $[0,\pi]$ 上で常に $0$ 以上である。
+
+したがって
+$$
+\int_0^{2\pi}g(x)\sin x\,dx
+=\int_0^{\pi}\bigl(g(x)-g(\pi+x)\bigr)\sin x\,dx\geqq0
+$$
+となる。
+
+以上より (1),(2),(3) がすべて示された。

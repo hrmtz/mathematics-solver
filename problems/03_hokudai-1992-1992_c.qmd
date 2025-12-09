@@ -1,0 +1,32 @@
+---
+title: "北海道大学 1992年 1992_c"
+problem_id: "03_hokudai-1992-1992_c"
+university: "北海道大学"
+exam_year: "1992"
+source_tex: "archive/03_hokudai/1992/1992_c.tex"
+pdf_source: "archive/03_hokudai/1992/1992_c.pdf"
+page_image: "archive/03_hokudai/1992/1992_c.jpg"
+fields:
+  - 確率
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$m$ $(\geqq2)$個の硬貨を同時に投げる試行を考える．
+\begin{description}
+\item[(1)]少なくとも$m-1$個表が出るという事象を$A$とし，
+表も裏も少なくとも1個出るという事象を$B$とする．
+このとき2つの事象$A$と$B$が独立となるような$m$の値を求めよ．
+\item[(2)]確率変数$X$を，表が$k$個出るとき$X=2^k$で定義する．
+$X$の期待値$E(X)$を求めよ．
+さらに，$E(X)>100$となるような最小の$m$を求めよ．
+ただし，$\log_{10}2=0.301$，$\log_{10}3=0.477$として計算せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1992/1992_c.pdf)

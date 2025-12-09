@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 2004年 2004_4b"
+problem_id: "05_nagoya-2004-2004_4b"
+university: "名古屋大学"
+exam_year: "2004"
+source_tex: "archive/05_nagoya/2004/2004_4b.tex"
+pdf_source: "archive/05_nagoya/2004/2004_4b.pdf"
+page_image: "archive/05_nagoya/2004/2004_4b.jpg"
+fields:
+  - 整数
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　正の整数$a$と$b$が互いに素であるとき，
+正の整数からなる数列$\{ x_n \}$を
+$x_1=x_2=1$，$x_{n+1}=ax_n+bx_{n-1}$ $(n\geqq2)$で定める．
+このときすべての正の整数$n$に対して
+$x_{n+1}$と$x_n$が互いに素であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2004/2004_4b.pdf)

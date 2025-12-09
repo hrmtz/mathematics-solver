@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1985年 1985_0_3"
+problem_id: "05_nagoya-1985-1985_0_3"
+university: "名古屋大学"
+exam_year: "1985"
+source_tex: "archive/05_nagoya/1985/1985_0_3.tex"
+pdf_source: "archive/05_nagoya/1985/1985_0_3.pdf"
+page_image: "archive/05_nagoya/1985/1985_0_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　だ円$\displaystyle\frac{x^2}{4}+y^2=1$と定点$A(a, \, 0)$がある．
+ただし$0<a<2$とする．
+点$A$を通る直線$l$とこのだ円の交点を$P$，$Q$とし，
+線分$PQ$の中点を$M$とする．
+$l$を動かすときに$M$の描く曲線（軌跡）を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1985/1985_0_3.pdf)

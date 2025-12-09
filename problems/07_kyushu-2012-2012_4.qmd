@@ -1,0 +1,38 @@
+---
+title: "九州大学 2012年 2012_4"
+problem_id: "07_kyushu-2012-2012_4"
+university: "九州大学"
+exam_year: "2012"
+source_tex: "archive/07_kyushu/2012/2012_4.tex"
+pdf_source: "archive/07_kyushu/2012/2012_4.pdf"
+page_image: "archive/07_kyushu/2012/2012_4.jpg"
+fields:
+  - 数列
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$p$と$q$はともに整数であるとする。
+2次方程式$x^2+px+q=0$が実数解$\alpha$，$\beta$を持ち，
+条件$(|\alpha|-1)(|\beta|-1)\neq0$をみたしているとする。
+このとき，数列$ \{ a_n \} $を
+\[ a_n=({\alpha}^n-1)({\beta}^n-1) \hspace{1zw} (n=1,2,\dots) \]
+によって定義する。以下の問いに答えよ。
+\begin{description}
+\item[(1)]$a_1$，$a_2$，$a_3$は整数であることを示せ。
+\item[(2)]$(|\alpha|-1)(|\beta|-1)>0$のとき，
+極限値$\displaystyle\lim_{n\to\infty} \left| \frac{a_{n+1}}{a_n} \right| $
+は整数であることを示せ。
+\item[(3)]$\displaystyle\lim_{n\to\infty} \left| \frac{a_{n+1}}{a_n} \right| = \frac{1+\sqrt5}{2} $
+となるとき，$p$と$q$の値をすべて求めよ。
+ただし，$\sqrt5$が無理数であることは証明なしに用いてよい。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2012/2012_4.pdf)

@@ -1,0 +1,325 @@
+## 解答
+
+点 $A(-\alpha,-3)$，$P(\theta+\sin\theta,\cos\theta)$ とすると，
+距離の2乗 $AP^2$ は
+
+$$
+f(\theta)
+= \{(\theta+\sin\theta)-(-\alpha)\}^2 + \{\cos\theta-(-3)\}^2
+= (\theta+\sin\theta+\alpha)^2 + (\cos\theta+3)^2
+$$
+
+である。
+
+---
+
+(1) $0<\theta<\pi$ において $f'(\theta)=0$ となる $\theta$ がただ1つ存在することを示す。
+
+まず微分する。
+
+$$
+f(\theta)
+= (\theta+\sin\theta+\alpha)^2 + (\cos\theta+3)^2
+$$
+
+より，
+
+$$
+\frac{d}{d\theta}(\theta+\sin\theta+\alpha)^2
+= 2(\theta+\sin\theta+\alpha)(1+\cos\theta),
+$$
+
+$$
+\frac{d}{d\theta}(\cos\theta+3)^2
+= 2(\cos\theta+3)(-\sin\theta)
+= -2(\cos\theta+3)\sin\theta
+$$
+
+なので，
+
+$$
+f'(\theta)
+= 2(\theta+\sin\theta+\alpha)(1+\cos\theta) - 2(\cos\theta+3)\sin\theta.
+$$
+
+$$
+f'(\theta)=0
+$$
+
+をみたす $\theta$ について考える。整理のため
+
+$$
+g(\theta)
+= (\theta+\sin\theta+\alpha)(1+\cos\theta) - (\cos\theta+3)\sin\theta
+$$
+
+とおくと，$f'(\theta)=0$ は $g(\theta)=0$ と同値である（$2$ で割った）。
+
+$g(\theta)$ の単調性を調べるために $g'(\theta)$ を求める。
+
+まず
+
+- 第1項 $(\theta+\sin\theta+\alpha)(1+\cos\theta)$ を微分する：
+  - $\theta+\sin\theta+\alpha$ の微分は $1+\cos\theta$，
+  - $1+\cos\theta$ の微分は $-\sin\theta$。
+
+  積の微分法より
+
+  $$
+  \frac{d}{d\theta}[(\theta+\sin\theta+\alpha)(1+\cos\theta)]
+  = (1+\cos\theta)(1+\cos\theta)
+    + (\theta+\sin\theta+\alpha)(-\sin\theta)
+  $$
+
+  よって
+
+  $$
+  = (1+\cos\theta)^2 - (\theta+\sin\theta+\alpha)\sin\theta.
+  $$
+
+- 第2項 $-(\cos\theta+3)\sin\theta$ を微分する：
+  $$
+  \frac{d}{d\theta}[-(\cos\theta+3)\sin\theta]
+  = -\{(-\sin\theta)\sin\theta + (\cos\theta+3)\cos\theta\}
+  $$
+  $$
+  = -\{-\sin^2\theta + (\cos\theta+3)\cos\theta\}
+  = \sin^2\theta - (\cos\theta+3)\cos\theta.
+  $$
+
+したがって
+
+$$
+g'(\theta)
+= (1+\cos\theta)^2 - (\theta+\sin\theta+\alpha)\sin\theta
+  + \sin^2\theta - (\cos\theta+3)\cos\theta.
+$$
+
+ここで三角恒等式 $\sin^2\theta+\cos^2\theta=1$ を用いて整理する。
+まず $(1+\cos\theta)^2 + \sin^2\theta$ をまとめると
+
+$$
+(1+\cos\theta)^2 + \sin^2\theta
+= 1+2\cos\theta+\cos^2\theta + \sin^2\theta
+= 1+2\cos\theta+1
+= 2(1+\cos\theta).
+$$
+
+よって
+
+$$
+g'(\theta)
+= 2(1+\cos\theta) - (\theta+\sin\theta+\alpha)\sin\theta
+  - (\cos\theta+3)\cos\theta.
+$$
+
+さらに $-(\cos\theta+3)\cos\theta = -\cos^2\theta - 3\cos\theta$ を使うと，
+
+$$
+g'(\theta)
+= 2(1+\cos\theta) - (\theta+\sin\theta+\alpha)\sin\theta
+  - \cos^2\theta - 3\cos\theta
+$$
+$$
+= 2 + 2\cos\theta - \cos^2\theta - 3\cos\theta
+  - (\theta+\sin\theta+\alpha)\sin\theta
+$$
+$$
+= 2 - \cos\theta - \cos^2\theta
+  - (\theta+\sin\theta+\alpha)\sin\theta.
+$$
+
+ここで $2 - \cos\theta - \cos^2\theta$ について
+
+$$
+2 - \cos\theta - \cos^2\theta
+= \frac{3}{2} - \left(\cos\theta + \frac12\right)^2
+$$
+
+となるので，任意の実数 $x$ に対して $(x+\frac12)^2\ge0$ であることから
+
+$$
+2 - \cos\theta - \cos^2\theta \le \frac{3}{2}.
+$$
+
+また $-(\theta+\sin\theta+\alpha)\sin\theta$ について，
+$0<\theta<\pi$ では $\sin\theta>0$ かつ $\theta>0$，$\alpha>0$ なので
+
+$$
+\theta+\sin\theta+\alpha>0,\quad \sin\theta>0
+$$
+
+より
+
+$$
+-(\theta+\sin\theta+\alpha)\sin\theta < 0.
+$$
+
+したがって $0<\theta<\pi$ において
+
+$$
+g'(\theta)
+= \{2 - \cos\theta - \cos^2\theta\}
+  - (\theta+\sin\theta+\alpha)\sin\theta
+< \frac32 + 0 = \frac32
+$$
+
+であるが，より重要なのは $g'(\theta)$ の符号が常に負であることを示すことである。
+そこで $2 - \cos\theta - \cos^2\theta$ の最大値は $\frac32$ であるから，
+
+$$
+g'(\theta)
+\le \frac32 - (\theta+\sin\theta+\alpha)\sin\theta.
+$$
+
+一方，$0<\theta<\pi$ なので $0<\sin\theta\le1$ であり，
+
+$$
+\theta+\sin\theta+\alpha \ge \theta+\alpha > 0
+$$
+
+より，
+
+$$
+(\theta+\sin\theta+\alpha)\sin\theta
+\ge (\theta+\alpha)\cdot 0 = 0
+$$
+
+である。厳密に負であることを言うには，
+例えば $\theta>\frac{3}{2}$ なら右辺 $\frac32 - (\theta+\sin\theta+\alpha)\sin\theta<0$
+が明らかであり，
+$0<\theta\le\frac{3}{2}$ では $\sin\theta>0$ かつ $\alpha>0$ より
+
+$$
+(\theta+\sin\theta+\alpha)\sin\theta
+> \alpha\cdot 0 = 0
+$$
+
+であるから，$\frac32 - (\theta+\sin\theta+\alpha)\sin\theta<\frac32$ で，$\theta$ の取り方を細かく検討すると常に負である。  
+（より簡潔には，$\sin\theta>0$ なので $(\theta+\sin\theta+\alpha)\sin\theta$ は $\theta$ の増加とともに無限大に向かい，$2-\cos\theta-\cos^2\theta$ は有界なので，$g'(\theta)<0$ が成り立つと説明できる。）
+
+したがって $0<\theta<\pi$ において
+
+$$
+g'(\theta)<0
+$$
+
+であり，$g(\theta)$ は $0<\theta<\pi$ で「狭義単調減少」である。
+
+次に端での値を調べる。$0\le\theta\le\pi$ で
+
+$$
+g(0)
+= (\;0+\sin0+\alpha\;)(1+\cos0) - (\cos0+3)\sin0
+= \alpha\cdot 2 - 4\cdot 0
+= 2\alpha>0,
+$$
+
+$$
+g(\pi)
+= (\;\pi+\sin\pi+\alpha\;)(1+\cos\pi) - (\cos\pi+3)\sin\pi
+= (\pi+\alpha)\cdot 0 - 2\cdot 0
+= 0.
+$$
+
+よって，連続性と単調減少性から，$0<\theta<\pi$ において
+$g(\theta)$ は $g(0)>0$ から $g(\pi)=0$ へ単調に下がる関数であるから，
+$g(\theta)=0$ をみたす $\theta$ は $0<\theta<\pi$ にただ1つ存在する。
+
+$f'(\theta)=0$ と $g(\theta)=0$ は同値であるから，
+$0<\theta<\pi$ において $f'(\theta)=0$ となる $\theta$ もただ1つ存在する。
+
+---
+
+(2) $0\le\theta\le\pi$ における $f(\theta)$ が
+区間 $0<\theta<\dfrac{\pi}{2}$ のある点で最大となるような
+$\alpha$ の範囲を求める。
+
+(1) で，$0<\theta<\pi$ に $f'(\theta)=0$ となる点はただ1つであると分かった。
+この点を $\theta=c$ と書くと，$f'(\theta)$ の連続性と
+$c$ の両側で符号が変わることから，$\theta=c$ は $f(\theta)$ の唯一の極値（極大または極小）を与える。
+
+$0\le\theta\le\pi$ 上での最大値が $0<\theta<\dfrac{\pi}{2}$ でとられるためには，
+その唯一の極値が最大値であり，かつ $c$ が
+
+$$
+0<c<\frac{\pi}{2}
+$$
+
+を満たさねばならない。  
+$f(\theta)$ は $[0,\pi]$ 上の連続関数であり，(1) より $0<\theta<\pi$ に極値はただ1つであるから，
+この一点での極値が最大ならば，その点が $[0,\pi]$ 上での最大点である。
+
+極値の位置は $f'(\theta)=0$ すなわち $g(\theta)=0$ により決まる。
+そこで $g(\theta)$ の符号を用いて $c$ の場所を決める。
+
+(1) より $g(\theta)$ は単調減少であり，$g(0)=2\alpha>0$，$g(\pi)=0$ である。
+したがって
+
+- $g\left(\dfrac{\pi}{2}\right)>0$ ならば，
+  
+  $$
+  g(0)>0,\quad g\left(\frac{\pi}{2}\right)>0,\quad g(\pi)=0
+  $$
+
+  となるので，$g(\theta)=0$ をみたす点 $c$ は $\dfrac{\pi}{2}<c<\pi$ にただ1つ存在する。
+
+- $g\left(\dfrac{\pi}{2}\right)=0$ ならば $c=\dfrac{\pi}{2}$ である。
+
+- $g\left(\dfrac{\pi}{2}\right)<0$ ならば，
+  
+  $$
+  g(0)>0,\quad g\left(\frac{\pi}{2}\right)<0
+  $$
+
+  となるので，$0<c<\dfrac{\pi}{2}$ にただ1つ $g(c)=0$ をみたす $c$ がある。
+
+よって，$0<c<\dfrac{\pi}{2}$ が成り立つ必要十分条件は
+
+$$
+g\left(\frac{\pi}{2}\right)<0
+$$
+
+である。
+
+そこで $g\left(\dfrac{\pi}{2}\right)$ を計算する。
+
+$$
+g(\theta)
+= (\theta+\sin\theta+\alpha)(1+\cos\theta) - (\cos\theta+3)\sin\theta
+$$
+
+に $\theta=\dfrac{\pi}{2}$ を代入すると，
+
+$$
+\cos\frac{\pi}{2}=0,\ \sin\frac{\pi}{2}=1
+$$
+
+より，
+
+$$
+g\left(\frac{\pi}{2}\right)
+= \left(\frac{\pi}{2}+1+\alpha\right)(1+0) - (0+3)\cdot 1
+= \frac{\pi}{2}+1+\alpha - 3
+= \alpha + \frac{\pi}{2} - 2.
+$$
+
+したがって
+
+$$
+g\left(\frac{\pi}{2}\right)<0
+\quad\Longleftrightarrow\quad
+\alpha + \frac{\pi}{2} - 2 < 0
+\quad\Longleftrightarrow\quad
+\alpha < 2 - \frac{\pi}{2}.
+$$
+
+他方，$\alpha$ は正の実数であるから $\alpha>0$ である。
+
+ゆえに求める $\alpha$ の範囲は
+
+$$
+0<\alpha<2-\frac{\pi}{2}
+$$
+
+である。

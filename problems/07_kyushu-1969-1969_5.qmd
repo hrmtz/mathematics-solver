@@ -1,0 +1,35 @@
+---
+title: "九州大学 1969年 1969_5"
+problem_id: "07_kyushu-1969-1969_5"
+university: "九州大学"
+exam_year: "1969"
+source_tex: "archive/07_kyushu/1969/1969_5.tex"
+pdf_source: "archive/07_kyushu/1969/1969_5.pdf"
+page_image: "archive/07_kyushu/1969/1969_5.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　図において，ベクトル$\overrightarrow{AB}$，$\overrightarrow{BC}$，$\overrightarrow{CD}$の
+成分表示をそれぞれ$(6, \, 1)$，$(x, \, y)$，$(-2, \, -3)$とする．
+ 
+
+![](../archive/07_kyushu/1969/fig_1969_5.jpg)
+
+
+\begin{description}
+\item[(1)]ベクトル$\overrightarrow{BC}$と$\overrightarrow{DA}$とが平行であるとき，
+$x$，$y$の間にはどんな関係があるか．
+\item[(2)]このとき，さらに，ベクトル$\overrightarrow{AC}$と$\overrightarrow{BD}$とが垂直であれば，
+$x$，$y$の値はいくらか．また4辺形$ABCD$の面積はいくらか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1969/1969_5.pdf)

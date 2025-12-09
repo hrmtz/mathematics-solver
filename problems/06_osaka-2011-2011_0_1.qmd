@@ -1,0 +1,25 @@
+---
+title: "大阪大学 2011年 2011_0_1"
+problem_id: "06_osaka-2011-2011_0_1"
+university: "大阪大学"
+exam_year: "2011"
+source_tex: "archive/06_osaka/2011/2011_0_1.tex"
+pdf_source: "archive/06_osaka/2011/2011_0_1.pdf"
+page_image: "archive/06_osaka/2011/2011_0_1.jpg"
+fields:
+  - 指数・対数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数の組$(x, \, y, \, z)$で，どのような整数$l$，$m$，$n$に対しても，等式
+\[ l \cdot {10}^{x-y}-nx+l \cdot {10}^{y-z}+m \cdot {10}^{x-z}=13l+36m+ny \]
+が成り立つようなものをすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2011/2011_0_1.pdf)

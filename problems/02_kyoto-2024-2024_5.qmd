@@ -1,0 +1,31 @@
+---
+title: "京都大学 2024年 2024_5"
+problem_id: "02_kyoto-2024-2024_5"
+university: "京都大学"
+exam_year: "2024"
+source_tex: "archive/02_kyoto/2024/2024_5.tex"
+pdf_source: "archive/02_kyoto/2024/2024_5.pdf"
+page_image: "archive/02_kyoto/2024/2024_5.jpg"
+fields:
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a$は$a\geqq1$を満たす定数とする．
+座標平面上で，次の4つの不等式が表す領域を$D_a$とする．
+\[ x\geqq0, \hspace{1zw} \frac{e^x-e^{-x}}{2}\leqq y, \hspace{1zw}
+y \leqq\frac{e^x+e^{-x}}{2}, \hspace{1zw} y\leqq a \]
+次の問いに答えよ．
+\begin{description}
+\item[(1)]$D_a$の面積$S_a$を求めよ．
+\item[(2)]$\displaystyle\lim_{a\to\infty}S_a$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2024/2024_5.pdf)

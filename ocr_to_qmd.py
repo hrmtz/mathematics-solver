@@ -3,7 +3,9 @@ import os
 from typing import Optional
 import base64
 
+import env  # noqa: F401  # .env を自動読み込み
 from openai import OpenAI
+import yaml
 
 from classifier import classify_problem_fields
 
@@ -90,7 +92,8 @@ def image_to_qmd(
     else:
         raw_qmd = content or ""
 
-    # ここで university / exam_year / fields を YAML ヘッダに追記する
+    # ここで university / exam_year / fields を YAML ヘッダに追記し、
+    # 既存の problems ディレクトリと同じ書式に整える
     if not raw_qmd.strip():
         return raw_qmd
 
@@ -102,40 +105,36 @@ def image_to_qmd(
         header_lines = lines[1:i]
         body_lines = lines[i + 1 :] if i < len(lines) else []
 
-        # 既存ヘッダがあれば上書き／追記する簡易処理
-        def upsert_field(key: str, value: Optional[str]) -> None:
-            nonlocal header_lines
-            if not value:
-                return
-            key_prefix = f"  {key}:"
-            for idx, line in enumerate(header_lines):
-                if line.strip().startswith(f"{key}:") or line.startswith(key_prefix):
-                    header_lines[idx] = f"  {key}: \"{value}\""
-                    break
-            else:
-                header_lines.append(f"  {key}: \"{value}\"")
+        header_text = "\n".join(header_lines)
+        try:
+            meta = yaml.safe_load(header_text) or {}
+        except Exception:
+            meta = {}
+        if not isinstance(meta, dict):
+            meta = {}
 
-        upsert_field("university", university)
-        upsert_field("exam_year", exam_year)
+        # problem_id / title は最低限そろえておく
+        meta["problem_id"] = str(meta.get("problem_id") or problem_id)
+        if not str(meta.get("title", "")).strip():
+            meta["title"] = meta["problem_id"]
 
-        # 分野タグを自動分類して fields に保存
+        # 大学名・年度があれば現在のフォーマットに合わせて付与
+        if university:
+            meta["university"] = university
+        if exam_year:
+            meta["exam_year"] = str(exam_year)
+
+        # 分野タグを自動分類して fields に保存（リスト形式に統一）
         try:
             fields = classify_problem_fields(raw_qmd)
         except Exception:
             fields = []
         if fields:
-            # 既存の fields があれば上書き
-            field_line = "  fields: [" + ", ".join(f'"{f}"' for f in fields) + "]"
-            replaced = False
-            for idx, line in enumerate(header_lines):
-                if line.strip().startswith("fields:") or line.startswith("  fields:"):
-                    header_lines[idx] = field_line
-                    replaced = True
-                    break
-            if not replaced:
-                header_lines.append(field_line)
+            meta["fields"] = list(fields)
 
-        new_lines = ["---", *header_lines, "---", *body_lines]
+        # YAML を problems/ と同様のスタイルで書き出す（トップレベルキー + 配列）
+        new_header = yaml.safe_dump(meta, sort_keys=False, allow_unicode=True).strip()
+        new_lines = ["---", *new_header.splitlines(), "---", *body_lines]
         return "\n".join(new_lines).strip() + "\n"
 
     return raw_qmd

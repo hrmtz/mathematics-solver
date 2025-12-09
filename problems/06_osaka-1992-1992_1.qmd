@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1992年 1992_1"
+problem_id: "06_osaka-1992-1992_1"
+university: "大阪大学"
+exam_year: "1992"
+source_tex: "archive/06_osaka/1992/1992_1.tex"
+pdf_source: "archive/06_osaka/1992/1992_1.pdf"
+page_image: "archive/06_osaka/1992/1992_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$f(x)$，$g(x)$を2次関数とし，2つの放物線
+\[ F:y=f(x) \hspace{1zw} G:y=g(x) \]
+を考える．ただし，$F$は下に凸で原点$O$を頂点とし，
+$G$は上に凸でその頂点$A$は$O$と異なるものとする．
+$G$の上の点$P$を直線$OA$上にはないようにとる．
+点$O$を通り直線$AP$に平行な直線と$F$との交点のうち，
+$O$以外の点を$Q$とする．
+さらに，直線$OA$と直線$PQ$の交点を$R$とする．
+　このとき，線分の長さの比$\displaystyle\frac{AR}{OR}$は点$P$のとり方に関係なく一定であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1992/1992_1.pdf)

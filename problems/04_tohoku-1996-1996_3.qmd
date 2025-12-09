@@ -1,0 +1,33 @@
+---
+title: "東北大学 1996年 1996_3"
+problem_id: "04_tohoku-1996-1996_3"
+university: "東北大学"
+exam_year: "1996"
+source_tex: "archive/04_tohoku/1996/1996_3.tex"
+pdf_source: "archive/04_tohoku/1996/1996_3.pdf"
+page_image: "archive/04_tohoku/1996/1996_3.jpg"
+fields:
+  - 平面図形
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xy$平面の点$(0, \, 1)$を中心とする半径1の円を$C$とし，
+第1象限にあって$x$軸と$C$に接する円$C_1$を考える．
+次に，$x$軸，$C$，$C_1$で囲まれた部分にあって，
+$x$軸とこれら2円に接する円を$C_2$とする．
+以下同様に，$C_n$ $(n=2, \, 3, \, \cdots)$を
+$x$軸，$C$，$C_{n-1}$で囲まれた部分にあって，
+これらに接する円とする．
+\begin{description}
+\item[(i)]$C_1$の中心の$x$座標を$a$とするとき，$C_1$の半径$r_1$を$a$を用いて表せ．
+\item[(ii)]$C_n$の半径$r_n$を$a$と$n$を用いて表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_3.pdf)

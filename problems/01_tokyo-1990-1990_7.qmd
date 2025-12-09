@@ -1,0 +1,24 @@
+---
+title: "東京大学 1990年 1990_7"
+problem_id: "01_tokyo-1990-1990_7"
+university: "東京大学"
+exam_year: "1990"
+source_tex: "archive/01_tokyo/1990/1990_7.tex"
+pdf_source: "archive/01_tokyo/1990/1990_7.pdf"
+page_image: "archive/01_tokyo/1990/1990_7.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面上の4点$O(0,0)$，$A(2,0)$，$B(2,2)$，$C(0,2)$を頂点とする正方形を$Q$とする．
+このとき，次の条件を満たす$xy$平面上の点$P$の存在する範囲を図示し，その部分の面積を求めよ．
+(条件)点$P$を通って，$Q$の面積4を1と3に切り分けるような直線を引くことができない．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1990/1990_7.pdf)

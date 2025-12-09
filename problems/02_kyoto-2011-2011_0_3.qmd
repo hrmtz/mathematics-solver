@@ -1,0 +1,24 @@
+---
+title: "京都大学 2011年 2011_0_3"
+problem_id: "02_kyoto-2011-2011_0_3"
+university: "京都大学"
+exam_year: "2011"
+source_tex: "archive/02_kyoto/2011/2011_0_3.tex"
+pdf_source: "archive/02_kyoto/2011/2011_0_3.pdf"
+page_image: "archive/02_kyoto/2011/2011_0_3.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　実数$a$が変化するとき，
+3次関数$y=x^3-4x^2+6x$と直線$y=x+a$のグラフの交点の個数はどのように変化するか．
+$a$の値によって分類せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2011/2011_0_3.pdf)

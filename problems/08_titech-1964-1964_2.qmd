@@ -1,0 +1,31 @@
+---
+title: "東京科学大学 1964年 1964_2"
+problem_id: "08_titech-1964-1964_2"
+university: "東京科学大学"
+exam_year: "1964"
+source_tex: "archive/08_titech/1964/1964_2.tex"
+pdf_source: "archive/08_titech/1964/1964_2.pdf"
+page_image: "archive/08_titech/1964/1964_2.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a, \, b, \, c, \, d$は正数とする。
+\begin{description}
+\item[(1)]次の2つの不等式を証明せよ。
+\[ \frac{a+b+c}{3}\geqq\sqrt[3]{abc} \, ; \hspace{1zw}
+\frac{a+b+c+d}{4}\geqq\sqrt[4]{abcd} \]
+\item[(2)]次の式で与えられる$P, \, Q, \, R, \, S$の大小を比較せよ。
+\[ P=\frac{a+b+c+d}{4}, \hspace{1zw} Q=\sqrt[4]{abcd}, \]
+\[ R=\frac{\sqrt{ab}+\sqrt{ac}+\sqrt{ad}+\sqrt{bc}+\sqrt{bd}+\sqrt{cd}}{6}, \]
+\[ S=\frac{\sqrt[3]{abc}+\sqrt[3]{abd}+\sqrt[3]{acd}+\sqrt[3]{bcd}}{4} \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1964/1964_2.pdf)

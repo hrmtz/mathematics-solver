@@ -143,6 +143,9 @@
   </div>
 
   <script>
+    // 初期の qmd テキストを JS 文字列として受け取る
+    const INITIAL_QMD = {{ qmd_text | tojson }};
+
     function renderMath() {
       if (window.MathJax) {
         MathJax.typesetClear();
@@ -161,12 +164,60 @@
       return lines.slice(i + 1).join('\n');
     }
 
+    function sanitizeTeX(text) {
+      if (!text) return '';
+      let t = text;
+      // MathJax が未対応の \\hspace{...zw} を安全なスペースに変換
+      t = t.replace(/\\hspace\{[^}]*zw\}/g, '\\quad ');
+
+      // OCR 由来の pmatrix で、行ごとが空行で区切られている場合に行末に \\ を補う
+      // 例: \begin{pmatrix} 1 & a & 0 \n\n 0 & 1 & 0 ...
+      t = t.replace(/\\begin{pmatrix}([\s\S]*?)\\end{pmatrix}/g, (match, inner) => {
+        const fixedInner = inner.replace(/\n\s*\n/g, '\\\\\n');
+        return '\\begin{pmatrix}' + fixedInner + '\\end{pmatrix}';
+      });
+
+      return t;
+    }
+
+    function escapeHtml(text) {
+      if (!text) return '';
+      return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
     function qmdToHtml(text) {
       const withoutYaml = stripYaml(text || '');
-      const lines = withoutYaml.split(/\r?\n/);
+      const sanitized = sanitizeTeX(withoutYaml);
+      const lines = sanitized.split(/\r?\n/);
       const htmlLines = lines.map(line => {
         const trimmed = line.trim();
         if (!trimmed) return '';
+
+        // LaTeX の description 環境は MathJax が解釈できないので、簡易HTMLに変換
+        if (/^\\begin{description}/.test(trimmed) || /^\\end{description}/.test(trimmed)) {
+          return '';
+        }
+        const itemMatch = trimmed.match(/^\\item\[(.*?)\](.*)$/);
+        if (itemMatch) {
+          const label = escapeHtml(itemMatch[1].trim());
+          const body = escapeHtml(itemMatch[2].trim());
+          if (label) {
+            return `<p><strong>${label}</strong> ${body}</p>`;
+          }
+          // ラベルなしの \item[] は普通の段落として表示
+          return `<p>${body}</p>`;
+        }
+
+        // Markdown 見出し行 (### など) を HTML 見出しに変換
+        const headingMatch = trimmed.match(/^(#{1,6})\s+(.*)$/);
+        if (headingMatch) {
+          const level = Math.min(headingMatch[1].length, 6);
+          const content = escapeHtml(headingMatch[2].trim());
+          return `<h${level}>${content}</h${level}>`;
+        }
         // 画像行: ![](url)
         const imgOnly = trimmed.match(/^!\[[^\]]*\]\(([^)]+)\)/);
         if (imgOnly) {
@@ -177,7 +228,7 @@
         // 単純なリンク行: [text](url)
         const linkOnly = trimmed.match(/^\[([^\]]+)\]\(([^)]+)\)/);
         if (linkOnly) {
-          const text = linkOnly[1];
+          const text = escapeHtml(linkOnly[1]);
           const href = linkOnly[2];
           return `<a href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`;
         }
@@ -186,7 +237,7 @@
         if (trimmed.startsWith('元問題 PDF:')) {
           const m = trimmed.match(/\[([^\]]+)\]\(([^)]+)\)/);
           if (m) {
-            const text = m[1];
+            const text = escapeHtml(m[1]);
             const href = m[2];
             return `元問題 PDF: <a href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`;
           }
@@ -201,8 +252,9 @@
           }
         }
 
-        // 余計なタグを付けず、そのまま MathJax に渡す
-        return trimmed;
+        // 上記のどれにも当てはまらない行は、HTML をエスケープして返す
+        // これにより 0<t<5/2 のような不等号を含む TeX も安全に埋め込める
+        return escapeHtml(trimmed);
       });
       return htmlLines.join('\n');
     }
@@ -219,8 +271,10 @@
 
     window.onload = function() {
       const previewEl = document.getElementById('preview');
-      const initial = previewEl.dataset.qmd || '';
-      previewEl.innerHTML = qmdToHtml(initial);
+      // サーバから渡された元の qmd をそのまま使う
+      previewEl.innerHTML = qmdToHtml(INITIAL_QMD);
+      // テキストエリア側も同じ内容で初期化しておく
+      document.getElementById('qmd_text').value = INITIAL_QMD;
       renderMath();
     };
   </script>

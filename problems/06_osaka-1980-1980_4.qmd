@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1980年 1980_4"
+problem_id: "06_osaka-1980-1980_4"
+university: "大阪大学"
+exam_year: "1980"
+source_tex: "archive/06_osaka/1980/1980_4.tex"
+pdf_source: "archive/06_osaka/1980/1980_4.pdf"
+page_image: "archive/06_osaka/1980/1980_4.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　2つの袋があって，そのどちらにも，赤玉1つ白玉1つの計2個ずつの玉が入っている．
+両方の袋からでたらめに（無作為に）玉を1つずつ取り出して入れ替える．
+この操作を$n$回引き続いて行ったとき，
+はじめのように各袋に赤玉と白玉が1つずつ入っている確率を$p_n$とする．
+\begin{description}
+\item[(1)]$n\geqq2$として，$p_{n-1}$と$p_n$との関係式を求めよ．
+\item[(2)]$p_n$を求め，さらに$\displaystyle\lim_{n\to\infty}p_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1980/1980_4.pdf)

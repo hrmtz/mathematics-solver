@@ -1,0 +1,116 @@
+## 解答
+
+(1)  
+与えられた漸化式  
+$$(n+2)a_{n+1}=na_n+2 \quad (n=1,2,3,\dots)$$  
+を変形して  
+$$a_{n+1}=\frac{n}{n+2}a_n+\frac{2}{n+2}$$  
+と書ける。
+
+ここで $b_n=a_n-1$ とおくと
+\[
+a_{n+1}-1=\frac{n}{n+2}a_n+\frac{2}{n+2}-1
+\]
+左辺は $b_{n+1}$ となり，右辺を整理すると
+\[
+b_{n+1}
+=\frac{n}{n+2}a_n+\frac{2-(n+2)}{n+2}
+=\frac{n}{n+2}a_n-\frac{n}{n+2}
+=\frac{n}{n+2}(a_n-1)
+=\frac{n}{n+2}b_n
+\]
+となる。初項は
+\[
+b_1=a_1-1=s-1
+\]
+である。  
+よって数列 $\{b_n\}$ は
+\[
+b_{n+1}=\frac{n}{n+2}b_n
+\]
+を満たすので，これを用いて一般項を求める。帰納的に積をとると
+\[
+b_n=b_1\cdot\prod_{k=1}^{n-1}\frac{k}{k+2}
+\]
+となる。したがって
+\[
+b_n=(s-1)\cdot\prod_{k=1}^{n-1}\frac{k}{k+2}
+\]
+である。この積を具体的に計算する。分子・分母を書き並べると
+\[
+\prod_{k=1}^{n-1}\frac{k}{k+2}
+=\frac{1\cdot 2\cdot 3\cdots (n-1)}{3\cdot 4\cdot 5\cdots (n+1)}
+\]
+分母を  
+$3\cdot 4\cdot \dots \cdot (n+1)=\dfrac{(n+1)!}{2!}$  
+と，分子を $1\cdot 2\cdot \dots \cdot (n-1)=(n-1)!$ と書けるから
+\[
+\prod_{k=1}^{n-1}\frac{k}{k+2}
+=\frac{(n-1)!}{(n+1)!/2}
+=\frac{2}{n(n+1)}
+\]
+となる。よって
+\[
+b_n=(s-1)\cdot\frac{2}{n(n+1)}
+\]
+したがって $a_n=b_n+1$ より
+\[
+a_n=1+\frac{2(s-1)}{n(n+1)}
+\]
+これが $a_n$ の一般項である。
+
+(2)  
+(1) で求めた一般項
+\[
+a_n=1+\frac{2(s-1)}{n(n+1)}
+\]
+を用いる。  
+$\displaystyle\sum_{n=1}^ma_n=0$ と仮定すると
+\[
+\sum_{n=1}^ma_n
+=\sum_{n=1}^m\left(1+\frac{2(s-1)}{n(n+1)}\right)
+=0
+\]
+左辺をまとめると
+\[
+\sum_{n=1}^m 1 + 2(s-1)\sum_{n=1}^m\frac{1}{n(n+1)}=0
+\]
+である。まず
+\[
+\sum_{n=1}^m 1=m
+\]
+であり，また
+\[
+\frac{1}{n(n+1)}=\frac{1}{n}-\frac{1}{n+1}
+\]
+と部分分数分解できるので，これを用いて
+\[
+\sum_{n=1}^m\frac{1}{n(n+1)}
+=\sum_{n=1}^m\left(\frac{1}{n}-\frac{1}{n+1}\right)
+=\left(1-\frac12\right)+\left(\frac12-\frac13\right)+\cdots+\left(\frac1m-\frac1{m+1}\right)
+=1-\frac1{m+1}
+=\frac{m}{m+1}
+\]
+を得る。したがって
+\[
+m+2(s-1)\cdot\frac{m}{m+1}=0
+\]
+となる。両辺を $m+1$ 倍すると
+\[
+m(m+1)+2m(s-1)=0
+\]
+これを整理して $s$ について解くと
+\[
+2m(s-1)=-m(m+1)
+\]
+\[
+s-1=-\frac{m+1}{2}
+\]
+\[
+s=1-\frac{m+1}{2}=\frac{2-(m+1)}{2}=\frac{1-m}{2}
+\]
+ゆえに，条件 $\displaystyle\sum_{n=1}^ma_n=0$ が成り立つとき
+\[
+s=\frac{1-m}{2}
+\]
+である。

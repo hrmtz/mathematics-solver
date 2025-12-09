@@ -1,0 +1,36 @@
+---
+title: "九州大学 1989年 1989_5"
+problem_id: "07_kyushu-1989-1989_5"
+university: "九州大学"
+exam_year: "1989"
+source_tex: "archive/07_kyushu/1989/1989_5.tex"
+pdf_source: "archive/07_kyushu/1989/1989_5.pdf"
+page_image: "archive/07_kyushu/1989/1989_5.jpg"
+fields:
+  - 数列
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　ある公園に，同一地点$P$を通る1周1kmのジョギングコース$A$と1周2kmのジョギングコース$B$，$C$がある．
+各コースはそれぞれ定められた方向にのみ走るものとして，
+$P$を出発点とし$P$をゴールとする$n$kmのコースを考え，$n$kmコースの総数を$f_n$とする．
+ 
+
+![](../archive/07_kyushu/1989/fig_1989_5.jpg)
+
+
+\begin{description}
+\item[(1)]2次方程式$t^2-t-2=0$の2つの解を$\alpha$，$\beta$とし，
+$g_n=f_n-\alpha f_{n-1}$とおくと，$n\geqq2$のとき$g_{n+1}=\beta g_n$が成り立つことを示せ．
+\item[(2)]$f_n$を求めよ．
+\item[(3)]$\displaystyle\lim_{n\to\infty}\frac{\log f_n}{n}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1989/1989_5.pdf)

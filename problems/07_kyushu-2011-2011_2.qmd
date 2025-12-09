@@ -1,0 +1,32 @@
+---
+title: "九州大学 2011年 2011_2"
+problem_id: "07_kyushu-2011-2011_2"
+university: "九州大学"
+exam_year: "2011"
+source_tex: "archive/07_kyushu/2011/2011_2.tex"
+pdf_source: "archive/07_kyushu/2011/2011_2.pdf"
+page_image: "archive/07_kyushu/2011/2011_2.jpg"
+fields:
+  - 微分法
+  - 不等式
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$を正の定数とする．以下の問いに答えよ．
+\begin{description}
+\item[(1)]関数$f(x)=(x^2+2x+2-a^2)e^{-x}$の極大値および極小値を求めよ．
+\item[(2)]$x\geqq3$のとき，不等式$x^3e^{-x}\leqq27e^{-3}$が成り立つことを示せ．
+さらに，極限値$\displaystyle\lim_{x\to\infty}x^2e^{-x}$を求めよ．
+\item[(3)]$k$を定数とする．
+$y=x^2+2x+2$のグラフと$y=ke^x+a^2$のグラフが
+異なる3点で交わるための必要十分条件を，$a$と$k$を用いて表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2011/2011_2.pdf)

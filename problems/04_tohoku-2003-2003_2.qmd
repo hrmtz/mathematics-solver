@@ -1,0 +1,31 @@
+---
+title: "東北大学 2003年 2003_2"
+problem_id: "04_tohoku-2003-2003_2"
+university: "東北大学"
+exam_year: "2003"
+source_tex: "archive/04_tohoku/2003/2003_2.tex"
+pdf_source: "archive/04_tohoku/2003/2003_2.pdf"
+page_image: "archive/04_tohoku/2003/2003_2.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　2つの関数を
+\[ t=\cos\theta+\sqrt3\sin\theta, \hspace{1zw}
+y=-4\cos3\theta+\cos2\theta-\sqrt3\sin2\theta+2\cos\theta+2\sqrt3\sin\theta \]
+とする．
+\begin{description}
+\item[(1)]$\cos3\theta$を$t$の関数で表せ．
+\item[(2)]$y$を$t$の関数で表せ．
+\item[(3)]$0^\circ\leqq\theta\leqq{180}^\circ$のとき，
+$y$の最大値，最小値とそのときの$\theta$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_2.pdf)

@@ -1,0 +1,24 @@
+---
+title: "東北大学 1966年 1966_6"
+problem_id: "04_tohoku-1966-1966_6"
+university: "東北大学"
+exam_year: "1966"
+source_tex: "archive/04_tohoku/1966/1966_6.tex"
+pdf_source: "archive/04_tohoku/1966/1966_6.pdf"
+page_image: "archive/04_tohoku/1966/1966_6.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$\displaystyle\int_0^\frac{\pi}{2}|a\sin x-\cos x|dx$ $(a>0)$を求めよ．
+また，これが最小となる$a$の値はいくらか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1966/1966_6.pdf)

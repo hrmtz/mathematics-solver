@@ -1,0 +1,29 @@
+---
+title: "大阪大学 1976年 1976_3"
+problem_id: "06_osaka-1976-1976_3"
+university: "大阪大学"
+exam_year: "1976"
+source_tex: "archive/06_osaka/1976/1976_3.tex"
+pdf_source: "archive/06_osaka/1976/1976_3.pdf"
+page_image: "archive/06_osaka/1976/1976_3.jpg"
+fields:
+  - 微分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　点$P(x, \, y)$ $(x>0)$は，曲線$y=x^3$上の点とする．
+$P$を通るこの曲線の2本の接線が$x$軸と交わる点を$A$，$B$とし，
+$\angle APB=\theta$ $\displaystyle \left( 0<\theta<\frac{\pi}{2} \right)$とおく．
+\begin{description}
+\item[(1)]$\cos\theta$を$x$を用いて表せ．
+\item[(2)]$\tan\theta$が最大となる$x$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1976/1976_3.pdf)

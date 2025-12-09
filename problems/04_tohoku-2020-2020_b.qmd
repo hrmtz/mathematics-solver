@@ -1,0 +1,27 @@
+---
+title: "東北大学 2020年 2020_b"
+problem_id: "04_tohoku-2020-2020_b"
+university: "東北大学"
+exam_year: "2020"
+source_tex: "archive/04_tohoku/2020/2020_b.tex"
+pdf_source: "archive/04_tohoku/2020/2020_b.pdf"
+page_image: "archive/04_tohoku/2020/2020_b.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$m$を整数とする。
+\begin{description}
+\item[(1)]$m$が3の倍数でないならば，$(m+2)(m+1)$が6の倍数であることを示せ。
+\item[(2)]$m$が奇数ならば，$(m+3)(m+1)$が8の倍数であることを示せ。
+\item[(3)]$(m+3)(m+2)(m+1)$が24の倍数でないならば，$m$が偶数であることを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_b.pdf)

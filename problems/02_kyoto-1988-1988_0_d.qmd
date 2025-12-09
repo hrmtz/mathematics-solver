@@ -1,0 +1,24 @@
+---
+title: "京都大学 1988年 1988_0_d"
+problem_id: "02_kyoto-1988-1988_0_d"
+university: "京都大学"
+exam_year: "1988"
+source_tex: "archive/02_kyoto/1988/1988_0_d.tex"
+pdf_source: "archive/02_kyoto/1988/1988_0_d.pdf"
+page_image: "archive/02_kyoto/1988/1988_0_d.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　3次曲線$y=-x^3+2x^2$上の，原点以外の点における接線が原点を通るとき，この接線と，もとの曲線とで囲まれる領域の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1988/1988_0_d.pdf)

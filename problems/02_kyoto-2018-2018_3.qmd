@@ -1,0 +1,31 @@
+---
+title: "京都大学 2018年 2018_3"
+problem_id: "02_kyoto-2018-2018_3"
+university: "京都大学"
+exam_year: "2018"
+source_tex: "archive/02_kyoto/2018/2018_3.tex"
+pdf_source: "archive/02_kyoto/2018/2018_3.pdf"
+page_image: "archive/02_kyoto/2018/2018_3.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\alpha$は$\displaystyle0<\alpha\leqq\frac{\pi}{2}$を満たす定数とし，
+四角形$ABCD$に関する次の2つの条件を考える．
+\begin{description}
+\item[(i)]四角形$ABCD$は半径1の円に内接する．
+\item[(ii)]$\angle ABC=\angle DAB=\alpha$．
+\end{description}
+　条件(i)と(ii)を満たす四角形のなかで，4辺の長さの積
+\[ k=AB \cdot BC \cdot CD \cdot DA \]
+が最大となるものについて，$k$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2018/2018_3.pdf)

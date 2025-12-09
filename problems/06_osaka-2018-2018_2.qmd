@@ -1,0 +1,34 @@
+---
+title: "大阪大学 2018年 2018_2"
+problem_id: "06_osaka-2018-2018_2"
+university: "大阪大学"
+exam_year: "2018"
+source_tex: "archive/06_osaka/2018/2018_2.tex"
+pdf_source: "archive/06_osaka/2018/2018_2.pdf"
+page_image: "archive/06_osaka/2018/2018_2.jpg"
+fields:
+  - 代数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$，$b$を正の実数とし，$f(x)=x^4-ax^3+bx^2-ax+1$とする．
+\begin{description}
+\item[(1)]$c$を実数とし，$f(x)$が$x-c$で割り切れるとする．
+このとき，$c>0$であり，$f(x)$は$\displaystyle(x-c)\left(x-\frac{1}{c}\right)$で
+割り切れることを示せ．
+\item[(2)]$f(x)$がある実数$s$，$t$，$u$，$v$を用いて
+\[ f(x)=(x-s)(x-t)(x-u)(x-v) \]
+と因数分解できるとき，$a\geqq4$が成り立つことを示せ．
+\item[(3)]$a=5$とする．$f(x)$がある実数$s$，$t$，$u$，$v$を用いて
+\[ f(x)=(x-s)(x-t)(x-u)(x-v) \]
+と因数分解できるような自然数$b$の値をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2018/2018_2.pdf)

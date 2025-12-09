@@ -1,0 +1,27 @@
+---
+title: "大阪大学 1981年 1981_2"
+problem_id: "06_osaka-1981-1981_2"
+university: "大阪大学"
+exam_year: "1981"
+source_tex: "archive/06_osaka/1981/1981_2.tex"
+pdf_source: "archive/06_osaka/1981/1981_2.pdf"
+page_image: "archive/06_osaka/1981/1981_2.jpg"
+fields:
+  - 複素数平面
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　実数$t$が$0 \leqq t \leqq \pi$の範囲を動くとき，
+座標が$\displaystyle x=\frac{\cos t-a}{1-2a\cos t+a^2}$，
+$\displaystyle y=\frac{\sin t}{1-2a\cos t+a^2}$で与えられる
+平面上の点$P(x, \, y)$はどのような図形を描くか．
+ただし，$a$は定数で，$|a|<1$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1981/1981_2.pdf)

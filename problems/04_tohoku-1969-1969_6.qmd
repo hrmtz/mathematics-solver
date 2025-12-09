@@ -1,0 +1,31 @@
+---
+title: "東北大学 1969年 1969_6"
+problem_id: "04_tohoku-1969-1969_6"
+university: "東北大学"
+exam_year: "1969"
+source_tex: "archive/04_tohoku/1969/1969_6.tex"
+pdf_source: "archive/04_tohoku/1969/1969_6.pdf"
+page_image: "archive/04_tohoku/1969/1969_6.jpg"
+fields:
+  - 指数・対数
+  - 微分法
+  - 積分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　曲線$y=ae^x$ $(a>0)$と中心$(2, \, 0)$，半径$\sqrt2$の円が点$(b, \, c)$で接するものとする．
+すなわち，$(b, \, c)$において同一の接線をもつものとする．
+\begin{description}
+\item[(1)]$a$，$b$，$c$の値を求めよ．
+\item[(2)]$0 \leqq x \leqq b$において，
+この2つの曲線の部分と$x$軸および$y$軸とで囲まれた図形を$x$軸のまわりに回転してできる立体の体積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1969/1969_6.pdf)

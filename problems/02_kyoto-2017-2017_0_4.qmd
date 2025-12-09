@@ -1,0 +1,33 @@
+---
+title: "京都大学 2017年 2017_0_4"
+problem_id: "02_kyoto-2017-2017_0_4"
+university: "京都大学"
+exam_year: "2017"
+source_tex: "archive/02_kyoto/2017/2017_0_4.tex"
+pdf_source: "archive/02_kyoto/2017/2017_0_4.pdf"
+page_image: "archive/02_kyoto/2017/2017_0_4.jpg"
+fields:
+  - 三角関数
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$p$，$q$を自然数，$\alpha$，$\beta$を
+\[ \tan\alpha=\frac{1}{p}, \hspace{1zw} \tan\beta=\frac{1}{q} \]
+を満たす実数とする．このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]次の条件
+\[ \text{(A)} \hspace{1zw} \tan(\alpha+2\beta)=2 \]
+を満たす$p$，$q$の組$(p, \, q)$のうち，
+$q\leqq3$であるものをすべて求めよ．
+\item[(2)]条件(A)を満たす$p$，$q$の組$(p, \, q)$で，
+$q>3$であるものは存在しないことを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2017/2017_0_4.pdf)

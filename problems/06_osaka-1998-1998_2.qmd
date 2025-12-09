@@ -1,0 +1,27 @@
+---
+title: "大阪大学 1998年 1998_2"
+problem_id: "06_osaka-1998-1998_2"
+university: "大阪大学"
+exam_year: "1998"
+source_tex: "archive/06_osaka/1998/1998_2.tex"
+pdf_source: "archive/06_osaka/1998/1998_2.pdf"
+page_image: "archive/06_osaka/1998/1998_2.jpg"
+fields:
+  - 微分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$n$を1以上の整数とする．
+$n$次の整式$f(x)=a_0x^n+a_1x^{n-1}+a_2x^{n-2}+\cdots+a_kx^{n-k}+\cdots+a_{n-1}x+a_n$とその導関数$f'(x)$の間に
+$nf(x)=(x+p)f'(x)$という関係があるとする．
+ただし，$p$は定数である．
+このとき，$f(x)=a_0{(x+p)}^n$であることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1998/1998_2.pdf)

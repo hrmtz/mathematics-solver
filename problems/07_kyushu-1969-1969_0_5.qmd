@@ -1,0 +1,28 @@
+---
+title: "九州大学 1969年 1969_0_5"
+problem_id: "07_kyushu-1969-1969_0_5"
+university: "九州大学"
+exam_year: "1969"
+source_tex: "archive/07_kyushu/1969/1969_0_5.tex"
+pdf_source: "archive/07_kyushu/1969/1969_0_5.pdf"
+page_image: "archive/07_kyushu/1969/1969_0_5.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　2つの曲線$y=x(x-5)$，$y=x(x-1)(x-3)$と，
+2つの直線$x=a$，$x=a+1$（ただし，$a\geqq1$）で囲まれる部分の面積を$S$とする．
+\begin{description}
+\item[(1)]$S$を$a$で表わせ．
+\item[(2)]$S$を最小にする$a$の値を求めよ．また，$S$の最小値を計算せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1969/1969_0_5.pdf)

@@ -1,0 +1,25 @@
+---
+title: "北海道大学 1979年 1979_3"
+problem_id: "03_hokudai-1979-1979_3"
+university: "北海道大学"
+exam_year: "1979"
+source_tex: "archive/03_hokudai/1979/1979_3.tex"
+pdf_source: "archive/03_hokudai/1979/1979_3.pdf"
+page_image: "archive/03_hokudai/1979/1979_3.jpg"
+fields:
+  - 整数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　3辺の長さが正の整数値である3角形のうち，
+1辺の長さが$n$で，他の2辺の長さが$n$以下のものはいくつあるか．
+ただし，合同なものは同じものとみなす．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1979/1979_3.pdf)

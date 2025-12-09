@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 2011年 2011_3"
+problem_id: "05_nagoya-2011-2011_3"
+university: "名古屋大学"
+exam_year: "2011"
+source_tex: "archive/05_nagoya/2011/2011_3.tex"
+pdf_source: "archive/05_nagoya/2011/2011_3.pdf"
+page_image: "archive/05_nagoya/2011/2011_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xy$平面上に3点$O(0,0)$，$A(1,0)$，$B(0,1)$がある．
+\begin{description}
+\item[(1)]$a>0$とする．
+$OP:AP=1:a$を満たす点$P$の軌跡を求めよ．
+\item[(2)]$a>0$，$b>0$とする．
+$OP:AP:BP=1:a:b$を満たす点$P$が存在するための$a$，$b$に対する条件を求め，$ab$平面上に図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2011/2011_3.pdf)

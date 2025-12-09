@@ -1,0 +1,43 @@
+---
+title: "東北大学 1975年 1975_0_4"
+problem_id: "04_tohoku-1975-1975_0_4"
+university: "東北大学"
+exam_year: "1975"
+source_tex: "archive/04_tohoku/1975/1975_0_4.tex"
+pdf_source: "archive/04_tohoku/1975/1975_0_4.pdf"
+page_image: "archive/04_tohoku/1975/1975_0_4.jpg"
+fields:
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+\begin{description}
+\item[(1)]長方形$PQRS$の辺$PS$の垂直2等分線を軸にもち，
+かつ$Q$，$R$および線分$PS$の中点を通る図のような放物線がある．
+この放物線と辺$QR$とで囲まれる部分の面積を求めよ．
+ただし，$PQ=p$，$QR=q$とする．
+ 
+
+![](../archive/04_tohoku/1975/fig_1975_0_4_1.jpg)
+
+
+\item[(2)]図のように，正3角形$ABC$の角辺の両端を通り，
+その辺の垂直2等分線が対象軸であるような，
+合同な3つの放物線弧を3角形$ABC$の外側につくる．
+図において，$D$，$E$，$F$はそれぞれの放物線の頂点である．
+$BC=a$，$AD=b$とするとき，この3つの放物線弧で囲まれた全体の面積を求めよ．
+ 
+
+![](../archive/04_tohoku/1975/fig_1975_0_4_2.jpg)
+
+
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1975/1975_0_4.pdf)

@@ -1,0 +1,31 @@
+---
+title: "東京大学 1979年 1979_0_3"
+problem_id: "01_tokyo-1979-1979_0_3"
+university: "東京大学"
+exam_year: "1979"
+source_tex: "archive/01_tokyo/1979/1979_0_3.tex"
+pdf_source: "archive/01_tokyo/1979/1979_0_3.pdf"
+page_image: "archive/01_tokyo/1979/1979_0_3.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　ある硬貨を投げるとき，表と裏がおのおの確率$\displaystyle\frac{1}{2}$で出るものとする．
+　この硬貨を8回くり返して投げ，
+$n$回目に表が出れば$X_n=1$，
+裏が出れば$X_n=-1$とし，
+$S_n=X_1+X_2+\cdots+X_n$ $(1 \leqq n \leqq 8)$とおく．
+　このとき次の確率を求めよ．
+\begin{description}
+\item[(1)]$S_n\neq0$かつ$S_8=2$となる確率．
+\item[(2)]$S_4=0$かつ$S_8=2$となる確率．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1979/1979_0_3.pdf)

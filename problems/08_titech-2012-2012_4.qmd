@@ -1,0 +1,34 @@
+---
+title: "東京科学大学 2012年 2012_4"
+problem_id: "08_titech-2012-2012_4"
+university: "東京科学大学"
+exam_year: "2012"
+source_tex: "archive/08_titech/2012/2012_4.tex"
+pdf_source: "archive/08_titech/2012/2012_4.pdf"
+page_image: "archive/08_titech/2012/2012_4.jpg"
+fields:
+  - 数列
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$n$を正の整数とする．
+数列$ \{ a_k \} $を
+\[ a_1=\frac{1}{n(n+1)}, \hspace{1zw}
+a_{k+1}=-\frac{1}{k+n+1}+\frac{n}{k}\sum_{i=1}^k a_i  \hspace{1zw}
+(k=1,2,3,\cdots)\]
+によって定める．
+\begin{description}
+\item[(1)]$a_2$および$a_3$を求めよ．
+\item[(2)]一般項$a_k$を求めよ．
+\item[(3)]$b_n=\displaystyle\sum_{k=1}^n \sqrt{a_k}$とおくとき，
+$\displaystyle\lim_{n \to \infty}b_n=\log2$を示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2012/2012_4.pdf)

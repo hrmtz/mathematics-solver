@@ -1,0 +1,26 @@
+---
+title: "東北大学 1990年 1990_c"
+problem_id: "04_tohoku-1990-1990_c"
+university: "東北大学"
+exam_year: "1990"
+source_tex: "archive/04_tohoku/1990/1990_c.tex"
+pdf_source: "archive/04_tohoku/1990/1990_c.pdf"
+page_image: "archive/04_tohoku/1990/1990_c.jpg"
+fields:
+  - 空間図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xyz$空間の中の2点$A(1, \, 0, \, 1)$，$B(-1, \, 0, \, 1)$を結ぶ直線を$L$とし，
+$xy$平面における円$x^2+y^2\leqq1$を$D$とする．
+点$P$が$L$上を動き，点$Q$が$D$上を動くとき，線分$PQ$が動いてできる立体を$H$とする．
+　平面$z=t$ $(0 \leqq t \leqq 1)$による立体$H$の切り口$H_t$の面積$S_t$と，$H$の体積$V$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_c.pdf)

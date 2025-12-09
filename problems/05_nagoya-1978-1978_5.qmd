@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 1978年 1978_5"
+problem_id: "05_nagoya-1978-1978_5"
+university: "名古屋大学"
+exam_year: "1978"
+source_tex: "archive/05_nagoya/1978/1978_5.tex"
+pdf_source: "archive/05_nagoya/1978/1978_5.pdf"
+page_image: "archive/05_nagoya/1978/1978_5.jpg"
+fields:
+  - 指数・対数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$p$，$q$は区間$a \leqq x \leqq b$ $(0<a<b)$で$px+q\geqq\log x$を満たすものとする．
+このとき，定積分
+\[ I=\int_a^b(px+q-\log x)dx \]
+が最小となるような$p$および$q$を求めよ．
+また，そのときの$I$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1978/1978_5.pdf)

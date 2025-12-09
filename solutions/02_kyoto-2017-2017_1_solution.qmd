@@ -1,0 +1,193 @@
+## 解答
+
+$w$ は $w\neq 0$ の複素数であり，
+  
+$$
+w+\frac{1}{w}=x+yi
+$$
+
+を満たす実数 $x,y$ を考える。
+
+---
+
+### (1)
+
+$|w|=R\ (R>1)$ を満たす複素数 $w$ 全体を動かすときの $(x,y)$ の軌跡を求める。
+
+$w$ を極形式で $w=R(\cos\theta+i\sin\theta)$ とおくと，  
+$|w|=R$ より $|1/w|=1/R$ であり，
+
+$$
+\frac{1}{w}=\frac{1}{R}(\cos(-\theta)+i\sin(-\theta))=\frac{1}{R}(\cos\theta-i\sin\theta)
+$$
+
+である。したがって
+
+$$
+w+\frac{1}{w}
+=R(\cos\theta+i\sin\theta)+\frac{1}{R}(\cos\theta-i\sin\theta)
+$$
+
+$$
+=\left(R+\frac{1}{R}\right)\cos\theta
++i\left(R-\frac{1}{R}\right)\sin\theta
+$$
+
+となる。これが $x+yi$ に等しいので，
+
+$$
+x=\left(R+\frac{1}{R}\right)\cos\theta,\quad
+y=\left(R-\frac{1}{R}\right)\sin\theta
+$$
+
+である。ここで
+
+$$
+\frac{x}{R+\frac{1}{R}}=\cos\theta,\quad
+\frac{y}{R-\frac{1}{R}}=\sin\theta
+$$
+
+と表せるから，三角関数の恒等式 $\cos^2\theta+\sin^2\theta=1$ を用いると，
+
+$$
+\left(\frac{x}{R+\frac{1}{R}}\right)^2
++\left(\frac{y}{R-\frac{1}{R}}\right)^2=1
+$$
+
+を得る。よって，$w$ が $|w|=R$ を満たすすべての複素数を動くとき，  
+点 $(x,y)$ の軌跡は，原点を中心とし，長半径 $R+\dfrac{1}{R}$，短半径 $R-\dfrac{1}{R}$ の楕円
+
+$$
+\boxed{
+\left(\frac{x}{R+\frac{1}{R}}\right)^2
++\left(\frac{y}{R-\frac{1}{R}}\right)^2=1
+}
+$$
+
+である。
+
+---
+
+### (2)
+
+$\arg w=\alpha\ (0<\alpha<\frac{\pi}{2})$ を満たす複素数 $w$ 全体を動かすときの $(x,y)$ の軌跡を求める。
+
+$w$ の偏角が一定 $\alpha$ であるから，$w$ を
+
+$$
+w=r(\cos\alpha+i\sin\alpha)
+$$
+
+とおく。ただし $r>0$ は $w$ の絶対値であり，$r$ が $0$ より大きい任意の実数として動く。  
+このとき $1/w$ は
+
+$$
+\frac{1}{w}
+=\frac{1}{r}(\cos(-\alpha)+i\sin(-\alpha))
+=\frac{1}{r}(\cos\alpha-i\sin\alpha)
+$$
+
+であるから，
+
+$$
+w+\frac{1}{w}
+=r(\cos\alpha+i\sin\alpha)
++\frac{1}{r}(\cos\alpha-i\sin\alpha)
+$$
+
+$$
+=\left(r+\frac{1}{r}\right)\cos\alpha
++i\left(r-\frac{1}{r}\right)\sin\alpha
+$$
+
+となる。したがって
+
+$$
+x=\left(r+\frac{1}{r}\right)\cos\alpha,\quad
+y=\left(r-\frac{1}{r}\right)\sin\alpha
+$$
+
+である。ここで $r>0$ なので，$t=r+\dfrac{1}{r}$ とおくと
+
+$$
+t\ge 2
+$$
+
+が成り立つ（相加相乗平均の不等式，あるいは $(r-1)^2\ge 0$ より $r+\dfrac{1}{r}\ge 2$）。  
+また
+
+$$
+r-\frac{1}{r}
+=\sqrt{\left(r+\frac{1}{r}\right)^2-4}
+=\sqrt{t^2-4}
+$$
+
+が $r>0$ に対し非負である（$r-\dfrac{1}{r}$ は $r>1$ なら正，$0<r<1$ なら負だが，  
+後では二乗した式のみを用いるので符号は問題にならない）。  
+$x,y$ の式は
+
+$$
+x=t\cos\alpha,\quad
+y=\sqrt{t^2-4}\,\sin\alpha
+$$
+
+と書けるので，
+
+$$
+\frac{x}{\cos\alpha}=t,\quad
+\frac{y}{\sin\alpha}=\pm\sqrt{t^2-4}
+$$
+
+（$r-\dfrac{1}{r}$ の符号に応じて $\pm$ のいずれか）となり，よって
+
+$$
+\left(\frac{y}{\sin\alpha}\right)^2
+=\left(\frac{x}{\cos\alpha}\right)^2-4
+$$
+
+すなわち
+
+$$
+\frac{y^2}{\sin^2\alpha}
+=\frac{x^2}{\cos^2\alpha}-4
+$$
+
+が成り立つ。これを整理すると
+
+$$
+\frac{x^2}{\cos^2\alpha}
+-\frac{y^2}{\sin^2\alpha}=4
+$$
+
+を得る。ここで $t\ge 2$ であるから $x=t\cos\alpha$ は
+
+$$
+|x|=|t\cos\alpha|\ge 2\cos\alpha>0
+$$
+
+を満たし，したがって $x\neq 0$ である。また $0<\alpha<\dfrac{\pi}{2}$ より $\cos\alpha>0$ であるため，
+
+$$
+|x|\ge 2\cos\alpha
+$$
+
+が必要条件となる。逆に，この条件を満たす点は，適当な $r>0$ に対応して実現されることが計算からわかる。
+
+以上より，点 $(x,y)$ の軌跡は，
+
+$$
+\boxed{
+\frac{x^2}{\cos^2\alpha}
+-\frac{y^2}{\sin^2\alpha}=4,\quad
+|x|\ge 2\cos\alpha
+}
+$$
+
+すなわち，原点を中心とし，$x$ 軸方向に開いた双曲線
+
+$$
+\frac{x^2}{(2\cos\alpha)^2}
+-\frac{y^2}{(2\sin\alpha)^2}=1
+$$
+
+であり，$x$ 座標が $|x|\ge 2\cos\alpha$ の部分である。

@@ -1,0 +1,35 @@
+---
+title: "九州大学 2012年 2012_a"
+problem_id: "07_kyushu-2012-2012_a"
+university: "九州大学"
+exam_year: "2012"
+source_tex: "archive/07_kyushu/2012/2012_a.tex"
+pdf_source: "archive/07_kyushu/2012/2012_a.pdf"
+page_image: "archive/07_kyushu/2012/2012_a.jpg"
+fields:
+  - 三角関数
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　以下の問いに答えよ。
+\begin{description}
+\item[(1)]$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$のとき，
+$\sin x-x\leqq0$が成り立つことを示せ。
+\item[(2)]$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$のとき，
+$\sin x-x+ax^3\geqq0$が成り立つような正の数$a$を1つ定めよ。
+\item[(3)]$\displaystyle 0 < |x| \leqq \frac{\pi}{2}$のとき，
+\[ \left| \frac{\sin x}{x}-1 \right| \leqq ax^2 \]
+が成り立つことを示せ。ただし，$a$は(2)で定めた値とする。
+\item[(4)]曲線$y=\sin x$と直線$y=x$および$\displaystyle x=\frac{\pi}{2}$で囲まれた図形を
+$x$軸のまわりに1回転してできる回転体の体積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2012/2012_a.pdf)

@@ -1,0 +1,226 @@
+## 解答
+
+示すべき不等式は，すべての正の実数 $x$ について
+$$
+\left(1+\frac{1}{x}\right)^x < e < \left(1+\frac{1}{x}\right)^{x+\frac{1}{2}}
+$$
+である。自然対数 $\log$ を用いて，関数を定義して考える。
+
+(1) 左側の不等式 $\displaystyle \left(1+\frac{1}{x}\right)^x<e$ の証明
+
+関数
+$$
+f(x)=x\log\left(1+\frac{1}{x}\right) \quad (x>0)
+$$
+を考える。求める不等式は
+$$
+\left(1+\frac{1}{x}\right)^x<e
+\quad\Longleftrightarrow\quad
+x\log\left(1+\frac{1}{x}\right)<1
+\quad\Longleftrightarrow\quad
+f(x)<1
+$$
+であるから，$f(x)<1$ を示せばよい。
+
+まず $\displaystyle \lim_{x\to\infty} f(x)$ を求める。$t=\frac{1}{x}$ とおくと $x\to\infty$ のとき $t\to 0$ であり，
+$$
+f(x)=x\log\left(1+\frac{1}{x}\right)
+=\frac{\log(1+t)}{t}
+$$
+となる。よく知られた極限
+$$
+\lim_{t\to 0}\frac{\log(1+t)}{t}=1
+$$
+より，
+$$
+\lim_{x\to\infty} f(x)=1
+$$
+である。
+
+次に $f(x)$ の単調性を調べる。$y=1/x$ とおいて
+$$
+f(x)=\frac{\log(1+y)}{y}
+$$
+と書き，$y>0$ で
+$$
+g(y)=\frac{\log(1+y)}{y}
+$$
+とおく（$f(x)=g(1/x)$ である）。$g(y)$ を微分すると，
+$$
+g'(y)
+=\frac{y\cdot\frac{1}{1+y}-\log(1+y)}{y^2}
+=\frac{\displaystyle \frac{y}{1+y}-\log(1+y)}{y^2}
+$$
+である。分子を
+$$
+h(y)=\frac{y}{1+y}-\log(1+y)
+$$
+とおくと，$h(0)=0$ であり，
+$$
+h'(y)=\frac{1}{(1+y)^2}-\frac{1}{1+y}
+=-\frac{y}{(1+y)^2}\le 0 \quad (y>0)
+$$
+だから，$h(y)$ は $y>0$ で減少し，$h(0)=0$ より
+$$
+h(y)<0\quad (y>0)
+$$
+となる。したがって $g'(y)=h(y)/y^2<0$，すなわち $g(y)$ は $y>0$ で減少関数である。
+
+一方，$x>0$ に対して $y=1/x>0$ なので，$x_1<x_2$ なら $1/x_1>1/x_2$ となり，$g$ が減少であることから
+$$
+x_1<x_2\quad\Longrightarrow\quad g\!\left(\frac{1}{x_1}\right)>g\!\left(\frac{1}{x_2}\right).
+$$
+よって $f(x)=g(1/x)$ は $x>0$ で増加関数である。
+
+$f(x)$ は増加し，$\displaystyle \lim_{x\to\infty} f(x)=1$ であるから，
+$$
+f(x)<1\quad (x>0)
+$$
+が成り立つ。すなわち
+$$
+x\log\left(1+\frac{1}{x}\right)<1
+\quad\Longrightarrow\quad
+\left(1+\frac{1}{x}\right)^x<e
+$$
+が任意の $x>0$ で成り立つ。
+
+(2) 右側の不等式 $\displaystyle e<\left(1+\frac{1}{x}\right)^{x+\frac{1}{2}}$ の証明
+
+同様に，関数
+$$
+F(x)=\left(x+\frac{1}{2}\right)\log\left(1+\frac{1}{x}\right) \quad (x>0)
+$$
+を考える。示すべき不等式は
+$$
+e<\left(1+\frac{1}{x}\right)^{x+\frac{1}{2}}
+\quad\Longleftrightarrow\quad
+1<\left(x+\frac{1}{2}\right)\log\left(1+\frac{1}{x}\right)
+\quad\Longleftrightarrow\quad
+1<F(x)
+$$
+であるから，$F(x)>1$ を示せばよい。
+
+まず極限値を求める。$t=\frac{1}{x}$ とおくと $x\to\infty$ のとき $t\to 0$ であり，
+$$
+F(x)
+=\left(x+\frac{1}{2}\right)\log\left(1+\frac{1}{x}\right)
+=\left(\frac{1}{t}+\frac{1}{2}\right)\log(1+t)
+=\frac{\log(1+t)}{t}+\frac{1}{2}\log(1+t)
+$$
+となる。先に用いた極限と $\log(1+t)\to 0$ を用いると，
+$$
+\lim_{x\to\infty}F(x)
+=\lim_{t\to 0}\left(\frac{\log(1+t)}{t}+\frac{1}{2}\log(1+t)\right)
+=1+0=1
+$$
+である。
+
+次に $F(x)$ の単調性を調べる。$y=1/x$ とおくと
+$$
+F(x)=\left(\frac{1}{y}+\frac{1}{2}\right)\log(1+y)
+$$
+となる。$y>0$ で
+$$
+G(y)=\left(\frac{1}{y}+\frac{1}{2}\right)\log(1+y)
+$$
+とおくと，$F(x)=G(1/x)$ である。$G(y)$ を微分すると，
+$$
+G'(y)
+=\left(-\frac{1}{y^2}\right)\log(1+y)
++\left(\frac{1}{y}+\frac{1}{2}\right)\cdot\frac{1}{1+y}
+$$
+である。これを一つの分数にまとめると，
+$$
+G'(y)
+=\frac{1}{y^2(1+y)}\left\{
+-y(1+y)\log(1+y)
++y+\frac{y^2}{2}
+\right\}.
+$$
+分子を
+$$
+k(y)=-y(1+y)\log(1+y)+y+\frac{y^2}{2}
+$$
+とおく。$k(0)=0$ であり，$k'(y)$ を求めると
+\begin{align*}
+k'(y)
+&=-(1+y)\log(1+y)-y\cdot\frac{1}{1+y}-y\log(1+y)+1+y \\
+&=-(1+2y)\log(1+y)-\frac{y}{1+y}+1+y .
+\end{align*}
+さらに $k''(y)$ を求めると，
+\begin{align*}
+k''(y)
+&=-2\log(1+y)-(1+2y)\cdot\frac{1}{1+y}-\frac{1}{(1+y)^2}+1 \\
+&=-2\log(1+y)-\frac{1+2y}{1+y}-\frac{1}{(1+y)^2}+1.
+\end{align*}
+計算を整理するため，$z=1+y>1$ とおくと，
+\begin{align*}
+k''(y)
+&=-2\log z-\frac{2z-1}{z}-\frac{1}{z^2}+1 \\
+&=-2\log z-2+\frac{1}{z}-\frac{1}{z^2}+1 \\
+&=-2\log z-1+\frac{1}{z}-\frac{1}{z^2}.
+\end{align*}
+ここで，$z>1$ に対し基本的な不等式
+$$
+\log z<z-1-\frac{(z-1)^2}{2z}
+$$
+が成り立つ（たとえば $t> -1$ で $\log(1+t)<t-\frac{t^2}{2(1+t)}$ を用いてよい）。$z>1$，すなわち $t=z-1>0$ の場合にこれを用いると，
+$$
+-2\log z>-2\left(z-1-\frac{(z-1)^2}{2z}\right)
+=-2z+2+\frac{(z-1)^2}{z}.
+$$
+したがって
+\begin{align*}
+k''(y)
+&>-2z+2+\frac{(z-1)^2}{z}-1+\frac{1}{z}-\frac{1}{z^2} \\
+&=-2z+1+\frac{(z-1)^2}{z}+\frac{1}{z}-\frac{1}{z^2} \\
+&=-2z+1+\frac{z^2-2z+1+1}{z}-\frac{1}{z^2} \\
+&=-2z+1+\frac{z^2-2z+2}{z}-\frac{1}{z^2} \\
+&=-z+1+\frac{2}{z}-\frac{1}{z^2}.
+\end{align*}
+右辺を $z$ について整理すると，
+$$
+-z+1+\frac{2}{z}-\frac{1}{z^2}
+=-\left(z-\frac{1}{z}\right)^2\le 0.
+$$
+よって $k''(y)\le 0$，したがって $k'(y)$ は $y>0$ で減少関数である。さらに $y\to 0$ とすると先の極限計算から $k'(0)=0$ と分かるので，
+$$
+k'(y)<0\quad (y>0)
+$$
+が従い，$k(y)$ は $y>0$ で減少し，$k(0)=0$ より
+$$
+k(y)<0\quad (y>0)
+$$
+となる。
+
+これより $G'(y)=k(y)/\{y^2(1+y)\}<0$，すなわち $G(y)$ は $y>0$ で減少関数である。
+
+一方，$x>0$ に対し $y=1/x>0$ であり，$x_1<x_2$ なら $1/x_1>1/x_2$ だから，$G$ が減少であることから
+$$
+x_1<x_2\quad\Longrightarrow\quad G\!\left(\frac{1}{x_1}\right)>G\!\left(\frac{1}{x_2}\right).
+$$
+したがって $F(x)=G(1/x)$ は $x>0$ で増加関数である。
+
+$F(x)$ は増加し，かつ
+$$
+\lim_{x\to\infty}F(x)=1
+$$
+であるから，
+$$
+1<F(x)\quad (x>0)
+$$
+が成り立つ。すなわち
+$$
+1<\left(x+\frac{1}{2}\right)\log\left(1+\frac{1}{x}\right)
+\quad\Longrightarrow\quad
+e<\left(1+\frac{1}{x}\right)^{x+\frac{1}{2}}
+$$
+が任意の $x>0$ で成り立つ。
+
+(3) まとめ
+
+(1), (2) より，すべての正の実数 $x$ に対し
+$$
+\left(1+\frac{1}{x}\right)^x<e<\left(1+\frac{1}{x}\right)^{x+\frac{1}{2}}
+$$
+が成り立つことが示された。

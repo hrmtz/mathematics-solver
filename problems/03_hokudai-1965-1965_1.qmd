@@ -1,0 +1,34 @@
+---
+title: "北海道大学 1965年 1965_1"
+problem_id: "03_hokudai-1965-1965_1"
+university: "北海道大学"
+exam_year: "1965"
+source_tex: "archive/03_hokudai/1965/1965_1.tex"
+pdf_source: "archive/03_hokudai/1965/1965_1.pdf"
+page_image: "archive/03_hokudai/1965/1965_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　半径1の円に内接する四辺形$ABCD$がある。
+ 
+
+![](../archive/03_hokudai/1965/fig_1965_1.jpg)
+
+
+\begin{description}
+\item[(1)]点$P$，$Q$がそれぞれ辺$AD$，$BC$上を動くとき，
+線分$PQ$の中心はどんな範囲を動くか。
+その範囲を斜線を引いて図示せよ。
+\item[(2)]$BC=CD$，$BD=2$，$AC=\sqrt3$で$\angle D$が鈍角のとき，
+$AD$の長さと，(1)の範囲の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1965/1965_1.pdf)

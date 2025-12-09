@@ -1,0 +1,24 @@
+---
+title: "東北大学 1964年 1964_4"
+problem_id: "04_tohoku-1964-1964_4"
+university: "東北大学"
+exam_year: "1964"
+source_tex: "archive/04_tohoku/1964/1964_4.tex"
+pdf_source: "archive/04_tohoku/1964/1964_4.pdf"
+page_image: "archive/04_tohoku/1964/1964_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　焦点$F$，準線$l$の放物線上の点$P$をとり，
+$F$を通って$FP$に垂直な直線と$l$との交点を$Q$とする。
+$Q$を通り$P$において$FP$に接する円の中心は$l$上にあることを証明せよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1964/1964_4.pdf)

@@ -1,0 +1,30 @@
+---
+title: "九州大学 2021年 2021_1"
+problem_id: "07_kyushu-2021-2021_1"
+university: "九州大学"
+exam_year: "2021"
+source_tex: "archive/07_kyushu/2021/2021_1.tex"
+pdf_source: "archive/07_kyushu/2021/2021_1.pdf"
+page_image: "archive/07_kyushu/2021/2021_1.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　座標空間内の4点$O(0, \, 0, \, 0)$，$A(1, \, 0, \, 0)$，
+$B(0, \, 1, \, 0)$，$C(0, \, 0, \, 2)$を考える。
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]四面体$OABC$に内接する球の中心の座標を求めよ。
+\item[(2)]中心の$x$座標，$y$座標，$z$座標がすべて正の実数であり，
+$xy$平面，$yz$平面，$zx$平面のすべてと接する球を考える。
+この球が平面$ABC$と交わるとき，その交わりとしてできる円の面積の最大値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_1.pdf)

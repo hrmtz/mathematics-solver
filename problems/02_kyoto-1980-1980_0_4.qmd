@@ -1,0 +1,29 @@
+---
+title: "京都大学 1980年 1980_0_4"
+problem_id: "02_kyoto-1980-1980_0_4"
+university: "京都大学"
+exam_year: "1980"
+source_tex: "archive/02_kyoto/1980/1980_0_4.tex"
+pdf_source: "archive/02_kyoto/1980/1980_0_4.pdf"
+page_image: "archive/02_kyoto/1980/1980_0_4.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　A君は次のように考えた．
+　「サイコロを6回ふることにする．
+$m=1,2,3,4,5,6$のおのおのについて，$m$回目に1の目が出る確率は$\displaystyle\frac{1}{6}$である．
+したがって，6回のうちに少くとも1回1の目が出る確率は
+$\displaystyle\frac{1}{6}+\frac{1}{6}+\frac{1}{6}+\frac{1}{6}+\frac{1}{6}+\frac{1}{6}=1$である．
+すなわち，サイコロを6回ふれば少くとも1回は1の目が出る．」
+　A君の考えは正しいかどうかをいえ．
+もし正しくないならば，誤りの原因を，なるべく簡潔に指摘せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1980/1980_0_4.pdf)

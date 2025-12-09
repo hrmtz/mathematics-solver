@@ -1,0 +1,32 @@
+---
+title: "大阪大学 2002年 2002_0_2"
+problem_id: "06_osaka-2002-2002_0_2"
+university: "大阪大学"
+exam_year: "2002"
+source_tex: "archive/06_osaka/2002/2002_0_2.tex"
+pdf_source: "archive/06_osaka/2002/2002_0_2.pdf"
+page_image: "archive/06_osaka/2002/2002_0_2.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　平面上に3つの放物線
+\[ C_1:y=-x(x-1), \hspace{1zw} C_2:y=x(x-1), \hspace{1zw} C:y=\frac{1}{2}x^2+ax+b \]
+を考える．いま実数$t$に対して，$C$は$C_1$上の点$(t, \, -t^2+t)$を通り，
+その点で$C_1$と共通の接線をもつとする．
+\begin{description}
+\item[(1)]$a$，$b$を$t$を用いて表せ．
+\item[(2)]2つの放物線$C$，$C_2$で囲まれた部分の面積$S$を$t$を用いて表せ．
+\item[(3)]$t$を動かすとき，$S$の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2002/2002_0_2.pdf)

@@ -1,0 +1,24 @@
+---
+title: "京都大学 1975年 1975_0_5"
+problem_id: "02_kyoto-1975-1975_0_5"
+university: "京都大学"
+exam_year: "1975"
+source_tex: "archive/02_kyoto/1975/1975_0_5.tex"
+pdf_source: "archive/02_kyoto/1975/1975_0_5.pdf"
+page_image: "archive/02_kyoto/1975/1975_0_5.jpg"
+fields:
+  - 代数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$f(x)=x^3-5x^2+3x+a$とする．
+$x$の正の値に対し，つねに$f(x)>0$となるのはどのようなときか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1975/1975_0_5.pdf)

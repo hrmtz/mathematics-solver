@@ -1,0 +1,34 @@
+---
+title: "大阪大学 1982年 1982_5"
+problem_id: "06_osaka-1982-1982_5"
+university: "大阪大学"
+exam_year: "1982"
+source_tex: "archive/06_osaka/1982/1982_5.tex"
+pdf_source: "archive/06_osaka/1982/1982_5.pdf"
+page_image: "archive/06_osaka/1982/1982_5.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+\begin{description}
+\item[(1)]$k>1$のとき
+\[ x\log x\geqq(1+\log k)(x-k)+k\log k \]
+が$x\geqq1$に対して成り立つことを示せ．
+\item[(2)]$n$を2以上の整数とする．このとき
+\[ a_n=\sum_{k=2}^nk\log k \]
+とおけば，次の不等式が成り立つことを示せ．
+\[ a_n<\int_{\frac{3}{2}}^{n+\frac{1}{2}}x\log xdx
+<\frac{1}{2}{\left(n+\frac{1}{2}\right)}^2\left\{\log\left(n+\frac{1}{2}\right)-\frac{1}{2}\right\}+1 \]
+ただし，対数はすべて自然対数とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1982/1982_5.pdf)

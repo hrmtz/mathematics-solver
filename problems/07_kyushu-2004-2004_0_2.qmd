@@ -1,0 +1,31 @@
+---
+title: "九州大学 2004年 2004_0_2"
+problem_id: "07_kyushu-2004-2004_0_2"
+university: "九州大学"
+exam_year: "2004"
+source_tex: "archive/07_kyushu/2004/2004_0_2.tex"
+pdf_source: "archive/07_kyushu/2004/2004_0_2.pdf"
+page_image: "archive/07_kyushu/2004/2004_0_2.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　複素数平面上に複素数$z=\cos\theta+i\sin\theta$ $(0^\circ<\theta<{180}^\circ)$をとり，
+$\alpha=z+1$，$\beta=z-1$とおく．
+\begin{description}
+\item[(1)]$\displaystyle|\beta|=2\sin\left(\frac{\theta}{2}\right)$を示せ．
+\item[(2)]$\displaystyle\arg\beta=\frac{\theta}{2}+{90}^\circ$を示せ．
+ただし，$0^\circ\leqq\arg\beta<{360}^\circ$とする．
+\item[(3)]$\theta={60}^\circ$とする．
+9つの複素数$\alpha^m\beta^n$ $(m, \, n=1, \, 2, \, 3)$の虚部の最小値を求め，
+その最小値を与える$(m, \, n)$のすべてを決定せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2004/2004_0_2.pdf)

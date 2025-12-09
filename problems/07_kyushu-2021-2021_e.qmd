@@ -1,0 +1,38 @@
+---
+title: "九州大学 2021年 2021_e"
+problem_id: "07_kyushu-2021-2021_e"
+university: "九州大学"
+exam_year: "2021"
+source_tex: "archive/07_kyushu/2021/2021_e.tex"
+pdf_source: "archive/07_kyushu/2021/2021_e.pdf"
+page_image: "archive/07_kyushu/2021/2021_e.jpg"
+fields:
+  - 複素数平面
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$f(x)$を次の条件を満たす3次の多項式とする。
+\begin{description}
+\item[(a)]$x^3$の係数は1である。
+\item[(b)]$0, \, 1, \, -1$ではない複素数$\omega$が存在して，
+すべての自然数$n$について$f(\omega^n)=0$となる
+\end{description}
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]$\displaystyle\omega=-\frac{1}{2}+\frac{\sqrt3}{2}i$または
+$\displaystyle\omega=-\frac{1}{2}-\frac{\sqrt3}{2}i$であることを示せ。
+ただし，$i$は虚数単位とする。
+\item[(2)]$f(x)$を求めよ。
+\item[(3)]$g(x)$を次の多項式とする。
+\[ g(x)=\sum_{n=0}^{2021}x^n=x^{2021}+x^{2020}+\cdots+1 \]
+$g(x)$を$f(x)$で割ったときの余りを求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_e.pdf)

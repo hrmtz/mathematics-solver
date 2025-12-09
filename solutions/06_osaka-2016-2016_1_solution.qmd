@@ -1,0 +1,243 @@
+## 解答
+
+(1)  
+
+$a=2,\,b=3$ のとき，定義に従って順に計算する．  
+
+まず  
+$$
+f_1(x)=\sin(\pi x)
+$$
+
+（イ）より  
+$$
+f_2(x)=f_1\!\left(\frac{1}{2}+\frac{1}{3}-x\right)
+=f_1\!\left(\frac{5}{6}-x\right)
+=\sin\!\left(\pi\left(\frac{5}{6}-x\right)\right)
+$$
+
+（ウ）より  
+$$
+f_3(x)=f_2(-x)
+=f_1\!\left(\frac{5}{6}+x\right)
+=\sin\!\left(\pi\left(\frac{5}{6}+x\right)\right)
+$$
+
+（イ）より  
+$$
+f_4(x)=f_3\!\left(\frac{5}{6}-x\right)
+=\sin\!\left(\pi\left(\frac{5}{6}+\frac{5}{6}-x\right)\right)
+=\sin\!\left(\pi\left(\frac{5}{3}-x\right)\right)
+$$
+
+（ウ）より  
+$$
+f_5(x)=f_4(-x)
+=\sin\!\left(\pi\left(\frac{5}{3}+x\right)\right)
+$$
+
+したがって  
+$$
+f_5(0)=\sin\!\left(\pi\cdot\frac{5}{3}\right)
+=\sin\!\left(\frac{5\pi}{3}\right)
+=-\frac{\sqrt{3}}{2}
+$$
+
+よって  
+$$
+f_5(0)=-\frac{\sqrt{3}}{2}
+$$
+
+---
+
+(2)  
+
+$a=1,\,b=6$ のとき $\dfrac{1}{a}+\dfrac{1}{b}=1+\dfrac{1}{6}=\dfrac{7}{6}$ であるから
+
+$$
+f_{2n}(x)=f_{2n-1}\!\left(\frac{7}{6}-x\right),\quad
+f_{2n+1}(x)=f_{2n}(-x)
+$$
+
+まず $x=0$ について具体的に計算する．  
+
+$$
+f_1(x)=\sin(\pi x)
+$$
+
+（イ）より  
+$$
+f_2(0)=f_1\!\left(\frac{7}{6}\right)
+=\sin\!\left(\pi\cdot\frac{7}{6}\right)
+=\sin\!\left(\frac{7\pi}{6}\right)
+=-\frac{1}{2}
+$$
+
+（ウ）より  
+$$
+f_3(0)=f_2(0)=-\frac{1}{2}
+$$
+
+次に  
+$$
+f_4(0)=f_3\!\left(\frac{7}{6}\right)
+=f_2\!\left(-\frac{7}{6}\right)
+=f_1\!\left(\frac{7}{6}+\frac{7}{6}\right)
+=\sin\!\left(\pi\cdot\frac{7}{3}\right)
+$$
+であるが，$\dfrac{7\pi}{3}=\dfrac{2\pi}{3}+2\pi$ より
+$$
+\sin\!\left(\frac{7\pi}{3}\right)=\sin\!\left(\frac{2\pi}{3}\right)=\frac{\sqrt{3}}{2}
+$$
+したがって
+$$
+f_4(0)=\frac{\sqrt{3}}{2}
+$$
+
+（ウ）より  
+$$
+f_5(0)=f_4(0)=\frac{\sqrt{3}}{2}
+$$
+
+続いて  
+$$
+f_6(0)=f_5\!\left(\frac{7}{6}\right)
+=f_4\!\left(-\frac{7}{6}\right)
+=f_3\!\left(\frac{7}{6}+\frac{7}{6}\right)
+=f_2\!\left(-\frac{7}{3}\right)
+=f_1\!\left(\frac{7}{6}+\frac{7}{3}\right)
+=\sin\!\left(\pi\cdot\frac{7}{2}\right)
+$$
+であるが，$\dfrac{7\pi}{2}=\dfrac{3\pi}{2}+2\pi$ より
+$$
+\sin\!\left(\frac{7\pi}{2}\right)=\sin\!\left(\frac{3\pi}{2}\right)=-1
+$$
+したがって
+$$
+f_6(0)=-1
+$$
+
+（ウ）より  
+$$
+f_7(0)=f_6(0)=-1
+$$
+
+さらに  
+$$
+f_8(0)=f_7\!\left(\frac{7}{6}\right)
+=f_6\!\left(\frac{7}{6}\right)
+=f_5\!\left(-\frac{7}{6}\right)
+=f_4\!\left(\frac{7}{6}\right)
+=f_3\!\left(-\frac{7}{6}\right)
+=f_2\!\left(\frac{7}{6}\right)
+=f_1\!\left(\frac{7}{6}+\frac{7}{6}\right)
+=\sin\!\left(\pi\cdot\frac{7}{3}\right)
+=\frac{\sqrt{3}}{2}
+$$
+
+ここまでをまとめると
+$$
+f_2(0)=-\frac{1}{2},\quad
+f_4(0)=\frac{\sqrt{3}}{2},\quad
+f_6(0)=-1,\quad
+f_8(0)=\frac{\sqrt{3}}{2}
+$$
+となる．同様の規則から，$f_{2k}(0)$ は $k$ を $4$ で割った余りだけに依存し，  
+$$
+k\equiv1\pmod 4 \Rightarrow f_{2k}(0)=-\frac{1}{2},\quad
+k\equiv2\pmod 4 \Rightarrow f_{2k}(0)=\frac{\sqrt{3}}{2},
+$$
+$$
+k\equiv3\pmod 4 \Rightarrow f_{2k}(0)=-1,\quad
+k\equiv0\pmod 4 \Rightarrow f_{2k}(0)=\frac{\sqrt{3}}{2}
+$$
+となることが分かる．
+
+求める和は
+$$
+\sum_{k=1}^{100}(-1)^k f_{2k}(0)
+$$
+であり，$k$ を $4$ 周期でグループ分けする．
+
+1周期（$k=1,2,3,4$）について  
+\[
+\begin{array}{c|c|c}
+k & f_{2k}(0) & (-1)^k f_{2k}(0)\\ \hline
+1 & -\dfrac12 & -\left(-\dfrac12\right)=\dfrac12\\
+2 & \dfrac{\sqrt3}{2} & \dfrac{\sqrt3}{2}\\
+3 & -1 & -(-1)=1\\
+4 & \dfrac{\sqrt3}{2} & \dfrac{\sqrt3}{2}
+\end{array}
+\]
+
+よって 1周期分の和は
+$$
+\frac{1}{2}+\frac{\sqrt{3}}{2}+1+\frac{\sqrt{3}}{2}
+= \left(\frac{1}{2}+1\right)+\left(\frac{\sqrt{3}}{2}+\frac{\sqrt{3}}{2}\right)
+=\frac{3}{2}+\sqrt{3}
+$$
+
+$k=1$ から $100$ までには $4$ の周期が $25$ 回あるので
+$$
+\sum_{k=1}^{100}(-1)^k f_{2k}(0)
+=25\left(\frac{3}{2}+\sqrt{3}\right)
+=\frac{75}{2}+25\sqrt{3}
+$$
+
+よって
+$$
+\sum_{k=1}^{100}(-1)^k f_{2k}(0)=\frac{75}{2}+25\sqrt{3}
+$$
+
+---
+
+(3)  
+
+1回目の出る目を $a$，2回目の出る目を $b$ とする．  
+$a,\,b$ はそれぞれ $1,2,3,4,5,6$ の一様独立な乱数であり，全事象数は $6\times 6=36$ 通りである．
+
+与えられた $a,\,b$ に対して，$f_6(0)=0$ となる条件を調べる．  
+まず一般の $a,b$ で $f_n(0)$ を順に表す．
+
+$$
+f_1(x)=\sin(\pi x)
+$$
+
+（イ）より  
+$$
+f_2(0)=f_1\!\left(\frac{1}{a}+\frac{1}{b}\right)
+=\sin\!\left(\pi\left(\frac{1}{a}+\frac{1}{b}\right)\right)
+$$
+
+（ウ）より  
+$$
+f_3(0)=f_2(0)
+=\sin\!\left(\pi\left(\frac{1}{a}+\frac{1}{b}\right)\right)
+$$
+
+（イ）より  
+$$
+f_4(0)=f_3\!\left(\frac{1}{a}+\frac{1}{b}\right)
+=f_2\!\left(\frac{1}{a}+\frac{1}{b}\right)
+=f_1(0)=\sin 0=0
+$$
+
+（ウ）より  
+$$
+f_5(0)=f_4(0)=0
+$$
+
+（イ）より  
+$$
+f_6(0)=f_5\!\left(\frac{1}{a}+\frac{1}{b}\right)=0
+$$
+
+すなわち，$a,b$ の値によらず常に $f_6(0)=0$ となる．
+
+したがって，$f_6(0)=0$ となる確率は，全 36 通りのすべての場合で成り立つから
+
+$$
+\frac{36}{36}=1
+$$
+
+よって，求める確率は $1$ である．

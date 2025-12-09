@@ -1,0 +1,25 @@
+---
+title: "東北大学 1965年 1965_0_6"
+problem_id: "04_tohoku-1965-1965_0_6"
+university: "東北大学"
+exam_year: "1965"
+source_tex: "archive/04_tohoku/1965/1965_0_6.tex"
+pdf_source: "archive/04_tohoku/1965/1965_0_6.pdf"
+page_image: "archive/04_tohoku/1965/1965_0_6.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　2点$P$，$Q$が直線$y=-\sqrt3 \, x$に関して対称であるとき，
+$Q$の座標を$P$の座標$(u, \, v)$で表わせ。
+次に，点$Q$が方程式$-\sqrt3(x-4)y+{(x-4)}^2+1=0$で表わされる曲線上を動くとき，
+点$P$がえがく図形の方程式を求め，そのグラフをえがけ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1965/1965_0_6.pdf)

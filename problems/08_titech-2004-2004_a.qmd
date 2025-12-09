@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 2004年 2004_a"
+problem_id: "08_titech-2004-2004_a"
+university: "東京科学大学"
+exam_year: "2004"
+source_tex: "archive/08_titech/2004/2004_a.tex"
+pdf_source: "archive/08_titech/2004/2004_a.pdf"
+page_image: "archive/08_titech/2004/2004_a.jpg"
+fields:
+  - 整数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　場所1から場所$n$に異なる$n$個のものが並んでいる．
+これらを並べ替えてどれもが元の位置にならないようにする方法の総数を$D(n)$とする．
+ただし$n \geqq 2$とする．
+\begin{description}
+\item[(1)]$n=4$の場合の並べ替え方をすべて書き出して，$D(4)$を求めよ．
+\item[(2)]$n \geqq 4$に対して$D(n)=(n-1) \{ D(n-2)+D(n-1) \}$を証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2004/2004_a.pdf)

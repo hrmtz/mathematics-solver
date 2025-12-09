@@ -1,0 +1,23 @@
+---
+title: "九州大学 1970年 1970_2"
+problem_id: "07_kyushu-1970-1970_2"
+university: "九州大学"
+exam_year: "1970"
+source_tex: "archive/07_kyushu/1970/1970_2.tex"
+pdf_source: "archive/07_kyushu/1970/1970_2.pdf"
+page_image: "archive/07_kyushu/1970/1970_2.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　${}_nC_r$を相異なる$n$個のものから$r$個とり出す組合せの数とする．
+$np=1$であるとき$\displaystyle\lim_{n\to\infty}{}_nC_rp^r{(1-p)}^{n-r}$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1970/1970_2.pdf)

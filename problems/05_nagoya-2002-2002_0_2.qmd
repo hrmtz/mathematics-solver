@@ -1,0 +1,34 @@
+---
+title: "名古屋大学 2002年 2002_0_2"
+problem_id: "05_nagoya-2002-2002_0_2"
+university: "名古屋大学"
+exam_year: "2002"
+source_tex: "archive/05_nagoya/2002/2002_0_2.tex"
+pdf_source: "archive/05_nagoya/2002/2002_0_2.pdf"
+page_image: "archive/05_nagoya/2002/2002_0_2.jpg"
+fields:
+  - 数列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　次の様に円$C_n$を定める．
+まず，$C_0$は$\displaystyle\left(0, \, \frac{1}{2}\right)$を中心とする半径$\displaystyle\frac{1}{2}$の円，
+$C_1$は$\displaystyle\left(1, \, \frac{1}{2}\right)$を中心とする半径$\displaystyle\frac{1}{2}$の円とする．
+次に$C_0$，$C_1$に外接し$x$軸に接する円を$C_2$とする．
+さらに，$n=3, \, 4, \, 5, \, \cdots\cdots$に対し，
+順に，$C_0$，$C_{n-1}$に外接し$x$軸に接する円で$C_{n-2}$でないものを$C_n$とする．
+$C_n$ $(n\geqq1)$の中心の座標を$(a_n, \, b_n)$とするとき，次の問いに答えよ．
+ただし，2つの円が外接するとは，中心間の距離がそれぞれの円の半径の和に等しいことをいう．
+\begin{description}
+\item[(1)]$n\geqq1$に対し，$\displaystyle b_n=\frac{{a_n}^2}{2}$を示せ．
+\item[(2)]$a_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2002/2002_0_2.pdf)

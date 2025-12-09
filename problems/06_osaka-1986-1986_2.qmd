@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1986年 1986_2"
+problem_id: "06_osaka-1986-1986_2"
+university: "大阪大学"
+exam_year: "1986"
+source_tex: "archive/06_osaka/1986/1986_2.tex"
+pdf_source: "archive/06_osaka/1986/1986_2.pdf"
+page_image: "archive/06_osaka/1986/1986_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$xy$平面内の曲線$\displaystyle C:y=\frac{1}{x}$，
+$x>0$上の相異なる2点$\displaystyle P\left(a,\,\frac{1}{a}\right)$，
+$\displaystyle Q\left(b,\,\frac{1}{b}\right)$（ただし，$0<a<b$）に対し，
+$\displaystyle R\left(b,\,\frac{1}{a}\right)$とおく．
+　いま，点$P$，$Q$が，$\triangle PQR$と$\triangle OPQ$の面積の比が一定値$k$，
+すなわち$\displaystyle\frac{\triangle PQR}{\triangle OPQ}=k$であるように曲線$C$上を動くとき，
+点$P$，$Q$における曲線$C$の接線の交点$S$の軌跡を求めよ．
+ただし，$O$は原点である．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1986/1986_2.pdf)

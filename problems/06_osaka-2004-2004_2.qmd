@@ -1,0 +1,27 @@
+---
+title: "大阪大学 2004年 2004_2"
+problem_id: "06_osaka-2004-2004_2"
+university: "大阪大学"
+exam_year: "2004"
+source_tex: "archive/06_osaka/2004/2004_2.tex"
+pdf_source: "archive/06_osaka/2004/2004_2.pdf"
+page_image: "archive/06_osaka/2004/2004_2.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　素数$p$，$q$に対して$a_n=p^n-4{(-q)}^n$ $(n=1, \, 2, \, 3, \, \cdots)$によって整数$a_n$を定める．
+ただし，$p>2q$とする．
+\begin{description}
+\item[(1)]$a_1$と$a_2$が1より大きい公約数$m$をもつならば，$m=3$であることを示せ．
+\item[(2)]$a_n$がすべて3の倍数であるような$p$，$q$のうちで積$pq$が最小となるものを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_2.pdf)

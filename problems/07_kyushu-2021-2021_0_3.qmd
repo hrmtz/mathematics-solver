@@ -1,0 +1,29 @@
+---
+title: "九州大学 2021年 2021_0_3"
+problem_id: "07_kyushu-2021-2021_0_3"
+university: "九州大学"
+exam_year: "2021"
+source_tex: "archive/07_kyushu/2021/2021_0_3.tex"
+pdf_source: "archive/07_kyushu/2021/2021_0_3.pdf"
+page_image: "archive/07_kyushu/2021/2021_0_3.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$を正の実数とし，放物線
+\[ C:y=-x^2-2ax-a^3+10a \]
+を考える。以下の問いに答えよ。
+\begin{description}
+\item[(1)]放物線$C$と直線$l:y=8x+6$が接するような$a$の値を求めよ。
+\item[(2)]$a$が(1)で求めた値のとき，放物線$C$，直線$l$，$y$軸で囲まれた図形の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_0_3.pdf)

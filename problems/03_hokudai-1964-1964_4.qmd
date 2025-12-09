@@ -1,0 +1,32 @@
+---
+title: "北海道大学 1964年 1964_4"
+problem_id: "03_hokudai-1964-1964_4"
+university: "北海道大学"
+exam_year: "1964"
+source_tex: "archive/03_hokudai/1964/1964_4.tex"
+pdf_source: "archive/03_hokudai/1964/1964_4.pdf"
+page_image: "archive/03_hokudai/1964/1964_4.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　放物線$\displaystyle y=x^2-\frac{1}{2}$上の相異なる2点$P(x_1, \, y_1)$，$Q(x_2, \, y_2)$を通り，
+それぞれ$P$，$Q$における接線に垂直な2つの直線を$l_1$，$l_2$とする。
+\begin{description}
+\item[(1)]$l_1$とこの放物線との交点の$x$座標を$x_1$を用いて表わせ。
+\item[(2)]$l_1$と$l_2$がこの放物線上で交わるとき，
+$x_1$と$x_2$の関係式を求めよ。
+\item[(3)]$P$と$Q$が(2)の関係を満足しながらこの放物線上を動くとき，
+線分$PQ$の中点$M$はどんな曲線上を動くか。
+かつその限界を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_4.pdf)

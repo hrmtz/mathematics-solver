@@ -1,0 +1,30 @@
+---
+title: "東京大学 2007年 2007_2"
+problem_id: "01_tokyo-2007-2007_2"
+university: "東京大学"
+exam_year: "2007"
+source_tex: "archive/01_tokyo/2007/2007_2.tex"
+pdf_source: "archive/01_tokyo/2007/2007_2.pdf"
+page_image: "archive/01_tokyo/2007/2007_2.jpg"
+fields:
+  - 数列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$n$を2以上の整数とする．
+平面上に$n+2$個の点$O$，$P_0$，$P_1$，$\cdots$，$P_n$があり，次の2つの条件をみたしている．
+\begin{description}
+\item[\ding{"AC}]$\displaystyle \angle P_{k-1}OP_k = \frac{\pi}{n}$ $(1 \leqq k \leqq n)$，
+$\angle OP_{k-1}P_k = \angle OP_0P_1$ $(2 \leqq k \leqq n)$
+\item[\ding{"AD}]線分$OP_0$の長さは1，線分$OP_1$の長さは$\displaystyle 1+\frac{1}{n}$である．
+\end{description}
+線分$P_{k-1}P_k$の長さを$a_k$とし，$\displaystyle s_n=\sum_{k=1}^na_k$とおくとき，$\displaystyle\lim_{n\to\infty}s_n$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2007/2007_2.pdf)

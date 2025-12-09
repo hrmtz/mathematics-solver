@@ -1,0 +1,26 @@
+---
+title: "東京科学大学 1961年 1961_5"
+problem_id: "08_titech-1961-1961_5"
+university: "東京科学大学"
+exam_year: "1961"
+source_tex: "archive/08_titech/1961/1961_5.tex"
+pdf_source: "archive/08_titech/1961/1961_5.pdf"
+page_image: "archive/08_titech/1961/1961_5.jpg"
+fields:
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　三次関数$f(t)=t^3+pt^2+qt+r$に対し，
+\[ 2\int_0^xf(t)dt\leqq\int_0^{x+y}f(t)dt+\int_0^{x-y}f(t)dt \]
+がすべての$x$，$y$について成り立つという。
+このとき$f(t)$の係数が満たすべき条件を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1961/1961_5.pdf)

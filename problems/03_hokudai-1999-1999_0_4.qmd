@@ -1,0 +1,43 @@
+---
+title: "北海道大学 1999年 1999_0_4"
+problem_id: "03_hokudai-1999-1999_0_4"
+university: "北海道大学"
+exam_year: "1999"
+source_tex: "archive/03_hokudai/1999/1999_0_4.tex"
+pdf_source: "archive/03_hokudai/1999/1999_0_4.pdf"
+page_image: "archive/03_hokudai/1999/1999_0_4.jpg"
+fields:
+  - 整数
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　図のような碁盤の目状の道路がある．
+$S$地点を出発して，道路上を東または北に進んで$G$地点に到達する経路を考える．
+（図1の太線はそのような経路の一例である．）
+\begin{description}
+\item[(1)]$S$地点から$G$地点に至る経路は何通りあるか．
+\item[(2)]$S$地点から$G$地点に至る経路のうち，図2の$A$地点と$B$地点をともに通る経路は何通りあるか．
+\item[(3)]図3の$a$の部分が通行止めのとき，$S$地点から$G$地点に至る経路は何通りあるか．
+\end{description}
+
+
+![](../archive/03_hokudai/1999/fig_1999_0_4_1.jpg)
+
+
+
+
+![](../archive/03_hokudai/1999/fig_1999_0_4_2.jpg)
+
+
+
+
+![](../archive/03_hokudai/1999/fig_1999_0_4_3.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1999/1999_0_4.pdf)

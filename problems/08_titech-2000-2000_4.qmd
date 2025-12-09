@@ -1,0 +1,30 @@
+---
+title: "東京科学大学 2000年 2000_4"
+problem_id: "08_titech-2000-2000_4"
+university: "東京科学大学"
+exam_year: "2000"
+source_tex: "archive/08_titech/2000/2000_4.tex"
+pdf_source: "archive/08_titech/2000/2000_4.pdf"
+page_image: "archive/08_titech/2000/2000_4.jpg"
+fields:
+  - 指数・対数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$n$は2以上の自然数とする．関数$y=e^x\cdots\cdots$(ア)，$y=e^{nx}-1\cdots\cdots$(イ)について以下の問いに答えよ．
+\begin{description}
+\item[(1)](ア)と(イ)のグラフは第1象限においてただひとつの交点を持つことを示せ．
+\item[(2)](1)で得られた交点の座標を$(a_n,b_n)$としたとき
+$\displaystyle\lim_{n \to \infty}a_n$と$\displaystyle\lim_{n \to \infty}na_n$を求めよ．
+\item[(3)]第1象限内で(ア)と(イ)のグラフおよび$y$軸で囲まれた部分の面積を$S_n$とおく．
+このとき$\displaystyle\lim_{n \to \infty}nS_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2000/2000_4.pdf)

@@ -1,0 +1,31 @@
+---
+title: "東京大学 1983年 1983_1"
+problem_id: "01_tokyo-1983-1983_1"
+university: "東京大学"
+exam_year: "1983"
+source_tex: "archive/01_tokyo/1983/1983_1.tex"
+pdf_source: "archive/01_tokyo/1983/1983_1.pdf"
+page_image: "archive/01_tokyo/1983/1983_1.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$が表す$xy$平面の1次変換$f$が，
+次の条件(1)，(2)をみたすとする．
+\begin{description}
+\item[(1)]$f$は，任意の三角形をそれと相似な三角形にうつす．
+\item[(2)]$f$は，点$(1,\sqrt3)$を点$(-2,2\sqrt3)$にうつす．
+\end{description}
+このような行列$A$をすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1983/1983_1.pdf)

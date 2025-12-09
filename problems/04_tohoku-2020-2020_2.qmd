@@ -1,0 +1,31 @@
+---
+title: "東北大学 2020年 2020_2"
+problem_id: "04_tohoku-2020-2020_2"
+university: "東北大学"
+exam_year: "2020"
+source_tex: "archive/04_tohoku/2020/2020_2.tex"
+pdf_source: "archive/04_tohoku/2020/2020_2.pdf"
+page_image: "archive/04_tohoku/2020/2020_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$を0でない実数とする。
+$xy$平面において，円$C:x^2-2ax+y^2-4y+4=0$，
+直線$L:-4x+3y+a=0$，直線$M:3x+4y-7a=0$を考える。
+\begin{description}
+\item[(1)]$L$と$M$の交点が$C$上にあるような$a$の値を求めよ。
+\item[(2)]$C$と$L$が異なる2つの共有点をもつような$a$の値の範囲を求めよ。
+\item[(3)]集合$\{P \, | \, \text{点}P\text{は}C\text{と}L\text{の共有点}\} \, \cup \,
+\{ P \, | \, \text{点}P\text{は}C\text{と}M\text{の共有点} \}$の要素の個数が
+3となるような$a$の値をすべて求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_2.pdf)

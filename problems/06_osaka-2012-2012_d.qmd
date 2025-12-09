@@ -1,0 +1,36 @@
+---
+title: "大阪大学 2012年 2012_d"
+problem_id: "06_osaka-2012-2012_d"
+university: "大阪大学"
+exam_year: "2012"
+source_tex: "archive/06_osaka/2012/2012_d.tex"
+pdf_source: "archive/06_osaka/2012/2012_d.pdf"
+page_image: "archive/06_osaka/2012/2012_d.jpg"
+fields:
+  - 数列
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$を1以上の実数とする．$x$についての方程式
+\[ (4x^3-1)(x-a)-3a^2+1=0 \]
+の最大の実数解を$s(a)$とし，$s(a)$の小数部分を$r(a)$とする．
+すなわち$s(a)$以下の最大の整数を$[s(a)]$とするとき，
+等式$r(a)=s(a)-[s(a)]$によって$r(a)$を定める．
+\begin{description}
+\item[(1)]$a<s(a)<a+1$を示せ．
+\item[(2)]自然数$n$に対し$b_n=s(n)r(n)$とおく．
+$\displaystyle\lim_{n\to\infty}b_n$を求めよ．
+\item[(3)]次の条件(P)をみたす実数$c$の範囲を求めよ．
+\begin{description}
+\item[(P)]すべての自然数$n$に対して$s(n)r(n)<c$が成り立つ．
+\end{description}
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2012/2012_d.pdf)

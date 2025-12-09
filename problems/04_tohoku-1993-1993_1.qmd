@@ -1,0 +1,36 @@
+---
+title: "東北大学 1993年 1993_1"
+problem_id: "04_tohoku-1993-1993_1"
+university: "東北大学"
+exam_year: "1993"
+source_tex: "archive/04_tohoku/1993/1993_1.tex"
+pdf_source: "archive/04_tohoku/1993/1993_1.pdf"
+page_image: "archive/04_tohoku/1993/1993_1.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　行列$A=\begin{pmatrix} 1 & a 
+
+ 0 & 1 \end{pmatrix}$ $(a\neq0)$，
+$E=\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}$，
+$N=A^n-E$（$n$は自然数）について，次の問に答えよ．
+\begin{description}
+\item[(1)]$N^2$，$(E+N)(E-N)$を求めよ．
+\item[(2)]$E-N$が逆行列をもつことを示し，${(E-N)}^{-1}$を求めよ．
+\item[(3)]等式$X^2=N$を満たす行列$X=\begin{pmatrix} x & y 
+
+ z & w \end{pmatrix}$は
+存在しないことを証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_1.pdf)

@@ -1,0 +1,36 @@
+---
+title: "東京大学 1970年 1970_4"
+problem_id: "01_tokyo-1970-1970_4"
+university: "東京大学"
+exam_year: "1970"
+source_tex: "archive/01_tokyo/1970/1970_4.tex"
+pdf_source: "archive/01_tokyo/1970/1970_4.pdf"
+page_image: "archive/01_tokyo/1970/1970_4.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　図のように鉛直な側面をもった水槽が水平な床の上におかれており，
+水面の高さは床から$a$cmである．
+いま側面に小さな穴をあけて水を水平方向に噴出させる．
+\begin{description}
+\item[(1)]穴の位置を水面から$h$cmにするとき，噴流は床の上のどの点に落ちるか．
+\item[(2)]噴流が穴の真下の床上の点から最も遠くに落ちるためには，穴の位置をどこにすればよいか．
+\item[(3)]穴の位置を一鉛直線上いろいろに変えるときの，噴流の通過する範囲を求めよ．
+\end{description}
+　ただし，噴出した水は水平方向には等速度運動をし，
+鉛直方向には加速度$g$cm/$\text{秒}^2$の等加速度運動をする．
+また水面から$h$cmの深さの穴から噴出する水の初速度は$\sqrt{2gh}$cm/秒である．
+
+
+
+![](../archive/01_tokyo/1970/fig_1970_4.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1970/1970_4.pdf)

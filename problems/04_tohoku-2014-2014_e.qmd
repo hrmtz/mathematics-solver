@@ -1,0 +1,30 @@
+---
+title: "東北大学 2014年 2014_e"
+problem_id: "04_tohoku-2014-2014_e"
+university: "東北大学"
+exam_year: "2014"
+source_tex: "archive/04_tohoku/2014/2014_e.tex"
+pdf_source: "archive/04_tohoku/2014/2014_e.pdf"
+page_image: "archive/04_tohoku/2014/2014_e.jpg"
+fields:
+  - 代数
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a$を実数とする。
+$xy$平面上の2つの曲線$C_1:y=x^3$と$C_2:y=2x^2-ax$を考える。
+\begin{description}
+\item[(1)]2曲線$C_1$，$C_2$が異なる3つの交点をもつための$a$の条件を求めよ。
+\item[(2)]2曲線$C_1$，$C_2$が異なる3つの交点をもち，
+$C_1$と$C_2$で囲まれる2つの部分の面積が等しくなるような$a$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2014/2014_e.pdf)

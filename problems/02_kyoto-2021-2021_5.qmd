@@ -1,0 +1,31 @@
+---
+title: "京都大学 2021年 2021_5"
+problem_id: "02_kyoto-2021-2021_5"
+university: "京都大学"
+exam_year: "2021"
+source_tex: "archive/02_kyoto/2021/2021_5.tex"
+pdf_source: "archive/02_kyoto/2021/2021_5.pdf"
+page_image: "archive/02_kyoto/2021/2021_5.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$xy$平面において，2点$B(-\sqrt3, \, -1)$，$C(\sqrt3, \, -1)$に対し，
+点$A$は次の条件(＊)を満たすとする．
+\begin{description}
+\item[(＊)]$\displaystyle \angle BAC=\frac{\pi}{3}$かつ点$A$の$y$座標は正．
+\end{description}
+　次の各問に答えよ．
+\begin{description}
+\item[(1)]$\triangle ABC$の外心の座標を求めよ．
+\item[(2)]点$A$が条件(＊)を満たしながら動くとき，$\triangle ABC$の垂心の軌跡を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2021/2021_5.pdf)

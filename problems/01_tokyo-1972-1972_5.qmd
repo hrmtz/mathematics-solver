@@ -1,0 +1,34 @@
+---
+title: "東京大学 1972年 1972_5"
+problem_id: "01_tokyo-1972-1972_5"
+university: "東京大学"
+exam_year: "1972"
+source_tex: "archive/01_tokyo/1972/1972_5.tex"
+pdf_source: "archive/01_tokyo/1972/1972_5.pdf"
+page_image: "archive/01_tokyo/1972/1972_5.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$h(x)$は$-\infty<x<\infty$で2回微分可能なある関数で，
+$f(x)$がどのような一次関数であっても，
+$\displaystyle u(x)=\int_0^x h(t)f(t)dt+h(x)\int_x^1 f(t)dt$とおけば，
+\begin{description}
+\item[(1)]$\displaystyle\frac{d^2u}{dx^2}=f(x)$
+\end{description}
+および
+\begin{description}
+\item[(2)]$u(0)=0$
+\end{description}
+が成り立つ．
+このとき，$h(x)$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1972/1972_5.pdf)

@@ -1,0 +1,29 @@
+---
+title: "東北大学 1962年 1962_3"
+problem_id: "04_tohoku-1962-1962_3"
+university: "東北大学"
+exam_year: "1962"
+source_tex: "archive/04_tohoku/1962/1962_3.tex"
+pdf_source: "archive/04_tohoku/1962/1962_3.pdf"
+page_image: "archive/04_tohoku/1962/1962_3.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　中心の位置および半径を変えながら移動する円がある。
+時刻$t$ $(t\geqq0)$における中心の座標は$(at+1, \, 0)$半径は$\displaystyle\frac{r}{\sqrt{at+1}}$である。
+ただし$a$および$r$は$t$に無関係な正数とする。
+　このとき点$A(2, \, 1)$が，いかなる時刻$t$ $(t\geqq0)$においても，
+この移動する円の外側にあるための$r$の値の範囲を求めよ。
+また$r$がそのような1つの値であるときに，
+点$A$が動円を見こむ角を最大にする$t$の値を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1962/1962_3.pdf)

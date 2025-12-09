@@ -1,0 +1,42 @@
+---
+title: "名古屋大学 1962年 1962_0_1a"
+problem_id: "05_nagoya-1962-1962_0_1a"
+university: "名古屋大学"
+exam_year: "1962"
+source_tex: "archive/05_nagoya/1962/1962_0_1a.tex"
+pdf_source: "archive/05_nagoya/1962/1962_0_1a.pdf"
+page_image: "archive/05_nagoya/1962/1962_0_1a.jpg"
+fields:
+  - 平面図形
+  - 空間図形
+  - 複素数平面
+  - 指数・対数
+  - 三角関数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1 (a)
+　空欄に適当な数，式，言葉を入れよ。
+\begin{description}
+\item[(1)]三角形$ABC$の内部に点$P$があって，
+三角形$PBC$，$PCA$，$PAB$の面積の比が，
+3辺$BC$，$CA$，$AB$の長さの比に等しいとき，
+$P$は三角形$ABC$の（ア）□である。
+\item[(2)]空間で，定線分$AB$に対し，
+$\angle APB$が鈍角になるような点$P$の存在範囲は（イ）□である。
+\item[(3)]3乗すると8になる複素数は（ウ）□である。
+\item[(4)]$x$の方程式$2^x+2^{-x}=a$に根があるための$a$の値の範囲は（エ）□で，
+そのとき$x=$（オ）□である。
+\item[(5)]$\cos3x$のグラフは，$\sin3x$のグラフを$x$軸の負の向きに（カ）□だけ，平行移動したものである。
+このことは，（キ）□という関係式によってわかる。
+\item[(6)]$\displaystyle p+q=\frac{1}{2}$，$\displaystyle p^2+q^2=\frac{1}{3}$のとき
+$p^3+q^3=\text{（ク）□}$である。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1962/1962_0_1a.pdf)

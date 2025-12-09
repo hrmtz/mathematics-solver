@@ -1,0 +1,290 @@
+## 解答
+
+(1)  
+
+条件より，$\forall x\in\mathbb R$ で $f''(x)>0$ であるから，導関数 $f'(x)$ は全域で増加関数である。
+
+ここで $a<c<b$ を満たす任意の実数 $c$ をとる。  
+関数
+$$
+h(x)=f'(x)-c
+$$
+を考える。
+
+与えられた極限
+$$
+\lim_{x\to -\infty} f'(x)=a,\quad \lim_{x\to \infty} f'(x)=b
+$$
+より，
+$$
+\lim_{x\to -\infty} h(x)=a-c<0,\quad
+\lim_{x\to \infty} h(x)=b-c>0
+$$
+となる。
+
+$f'$ は連続である（$f$ が 2 回微分可能なので），よって $h(x)$ も連続である。  
+このとき中間値の定理より，ある実数 $x_0$ が存在して
+$$
+h(x_0)=0,\quad すなわち\quad f'(x_0)=c
+$$
+が成り立つ。
+
+さらに $f''(x)>0$ より $f'$ は狭義単調増加であるから，$f'(x)=c$ を満たす $x$ は高々 1 個である。すでに 1 個 $x_0$ の存在を示したので，それはただ 1 つである。
+
+次に
+$$
+g(x)=cx-f(x)
+$$
+の極値を考える。$g'(x)=0$ を満たす点で極値をとりうるが，
+$$
+g'(x)=c-f'(x)
+$$
+であるから，$g'(x)=0$ は $f'(x)=c$ と同値である。よって $g'(x)=0$ を満たす点は，先ほど求めたただ 1 つの $x_0$ のみである。
+
+また
+$$
+g''(x)=-f''(x)
+$$
+であり，$\forall x$ で $f''(x)>0$ だから
+$$
+\forall x\in\mathbb R,\quad g''(x)<0
+$$
+が成り立つ。すなわち $g$ は全域で下に凸（上に凸でなく，グラフが下に向かって曲がる）ではなく，上に凸（凹関数）であり，$x_0$ は $g$ の極大点となる。
+
+したがって，$a<c<b$ をみたす任意の実数 $c$ に対し，$g(x)$ を最大にする $x=x_0$ がただ 1 つ存在する。
+
+以上より示された。
+
+---
+
+(2)  
+
+与えられた関数
+$$
+f(x)=\log\left(\frac{e^x+e^{-x}}{2}\right)
+$$
+について微分を行う。
+
+まず
+$$
+u(x)=\frac{e^x+e^{-x}}{2}
+$$
+とおくと
+$$
+f(x)=\log u(x)
+$$
+であり，合成関数の微分より
+$$
+f'(x)=\frac{u'(x)}{u(x)}
+$$
+となる。$u'(x)$ を計算すると
+$$
+u'(x)=\frac{e^x - e^{-x}}{2}
+$$
+なので
+$$
+f'(x)=\frac{\dfrac{e^x-e^{-x}}{2}}{\dfrac{e^x+e^{-x}}{2}}
+= \frac{e^x-e^{-x}}{e^x+e^{-x}}
+$$
+となる。
+
+さらに $f'(x)$ を微分して $f''(x)$ を求める。分数の微分公式
+$$
+\left(\frac{P}{Q}\right)' = \frac{P'Q - PQ'}{Q^2}
+$$
+を用いる。  
+ここで
+$$
+P(x)=e^x-e^{-x},\quad Q(x)=e^x+e^{-x}
+$$
+とおくと
+$$
+P'(x)=e^x+e^{-x},\quad Q'(x)=e^x-e^{-x}
+$$
+であるから
+$$
+f''(x)=\frac{P'(x)Q(x)-P(x)Q'(x)}{Q(x)^2}
+=\frac{(e^x+e^{-x})(e^x+e^{-x})-(e^x-e^{-x})(e^x-e^{-x})}{(e^x+e^{-x})^2}
+$$
+となる。分子を計算すると
+\[
+\begin{aligned}
+&(e^x+e^{-x})^2-(e^x-e^{-x})^2 \\
+&= (e^{2x}+2+e^{-2x}) - (e^{2x}-2+e^{-2x}) \\
+&= 4
+\end{aligned}
+\]
+であるから
+$$
+f''(x)=\frac{4}{(e^x+e^{-x})^2}
+$$
+を得る。分母 $(e^x+e^{-x})^2$ はすべての実数 $x$ に対し正であるので，
+$$
+\forall x\in\mathbb R,\quad f''(x)>0
+$$
+が成り立つ。
+
+次に，小問(1) の $a,b$ を求めるために
+$$
+\lim_{x\to -\infty} f'(x),\quad \lim_{x\to \infty} f'(x)
+$$
+を計算する。すでに
+$$
+f'(x)=\frac{e^x-e^{-x}}{e^x+e^{-x}}
+$$
+であった。
+
+$x\to\infty$ のとき $e^x\to\infty$，$e^{-x}\to 0$ なので
+$$
+\lim_{x\to\infty} f'(x)
+=\lim_{x\to\infty} \frac{e^x-e^{-x}}{e^x+e^{-x}}
+=\lim_{x\to\infty} \frac{e^x(1-e^{-2x})}{e^x(1+e^{-2x})}
+= \lim_{x\to\infty} \frac{1-e^{-2x}}{1+e^{-2x}}= \frac{1-0}{1+0}=1
+$$
+となる。
+
+$x\to -\infty$ のときは $e^x\to 0$，$e^{-x}\to\infty$ であるから
+$$
+\lim_{x\to -\infty} f'(x)
+=\lim_{x\to -\infty} \frac{e^x-e^{-x}}{e^x+e^{-x}}
+=\lim_{x\to -\infty} \frac{e^{-x}(e^{2x}-1)}{e^{-x}(e^{2x}+1)}
+=\lim_{x\to -\infty} \frac{e^{2x}-1}{e^{2x}+1}
+= \frac{0-1}{0+1}=-1
+$$
+となる。
+
+したがって
+$$
+a=-1,\quad b=1
+$$
+である。
+
+---
+
+(3)  
+
+小問(2) の $f$ および $a=-1,\ b=1$ を用いる。  
+$a<c<b$ すなわち $-1<c<1$ をみたす任意の実数 $c$ に対し，小問(1) における $x_0$（$g(x)=cx-f(x)$ を最大にする点）と $g(x_0)$ を $c$ を用いて表す。
+
+小問(1) の議論より，$x_0$ は
+$$
+f'(x_0)=c
+$$
+を満たす唯一の実数である。小問(2) の結果から
+$$
+f'(x)=\frac{e^x-e^{-x}}{e^x+e^{-x}}
+$$
+なので，$x_0$ は
+$$
+\frac{e^{x_0}-e^{-x_0}}{e^{x_0}+e^{-x_0}} = c
+$$
+を満たす。
+
+ここで $t=e^{x_0}>0$ とおくと
+$$
+\frac{t-\frac{1}{t}}{t+\frac{1}{t}} = \frac{t^2-1}{t^2+1} = c
+$$
+となる。両辺に $t^2+1$ をかけて整理すると
+$$
+t^2-1 = c(t^2+1)
+$$
+すなわち
+$$
+t^2-1 = ct^2 + c
+$$
+これを $t^2$ についてまとめると
+$$
+(1-c)t^2 = 1+c
+$$
+となる。ここで $-1<c<1$ より $1-c>0$，$1+c>0$ なので
+$$
+t^2 = \frac{1+c}{1-c}
+$$
+が得られ，$t>0$ より
+$$
+t = e^{x_0} = \sqrt{\frac{1+c}{1-c}}
+$$
+となる。
+
+したがって
+$$
+x_0 = \log t = \log\left(\sqrt{\frac{1+c}{1-c}}\right)
+= \frac{1}{2}\log\left(\frac{1+c}{1-c}\right)
+$$
+である。
+
+次に $g(x_0)$ を求める。$g(x)=cx-f(x)$ であり，
+$$
+f(x) = \log\left(\frac{e^x+e^{-x}}{2}\right)
+$$
+であったから
+$$
+g(x_0) = c x_0 - f(x_0)
+$$
+を計算する。まず $f(x_0)$ を $c$ で表す。
+
+先ほどの $t=e^{x_0}$ を用いると
+$$
+f(x_0)
+= \log\left(\frac{t+\dfrac{1}{t}}{2}\right)
+= \log\left(\frac{t^2+1}{2t}\right)
+$$
+である。$t^2=\dfrac{1+c}{1-c}$ を代入すると
+\[
+\begin{aligned}
+\frac{t^2+1}{2t}
+&= \frac{\dfrac{1+c}{1-c}+1}{2t}
+= \frac{\dfrac{1+c+1-c}{1-c}}{2t}
+= \frac{\dfrac{2}{1-c}}{2t}
+= \frac{1}{(1-c)t}
+\end{aligned}
+\]
+となる。したがって
+$$
+f(x_0) = \log\left(\frac{1}{(1-c)t}\right)
+= -\log(1-c) - \log t
+$$
+である。一方で $\log t = x_0$ だから
+$$
+f(x_0) = -\log(1-c) - x_0
+$$
+が得られる。
+
+ゆえに
+\[
+\begin{aligned}
+g(x_0)
+&= c x_0 - f(x_0) \\
+&= c x_0 -\bigl(-\log(1-c)-x_0\bigr) \\
+&= c x_0 + \log(1-c) + x_0 \\
+&= (c+1)x_0 + \log(1-c)
+\end{aligned}
+\]
+となる。ここに $x_0=\dfrac12\log\left(\dfrac{1+c}{1-c}\right)$ を代入すると
+\[
+\begin{aligned}
+g(x_0)
+&= (c+1)\cdot \frac12\log\left(\frac{1+c}{1-c}\right) + \log(1-c) \\[2mm]
+&= \frac{c+1}{2}\left\{\log(1+c)-\log(1-c)\right\} + \log(1-c).
+\end{aligned}
+\]
+
+さらに整理してもよい。  
+$\log(1-c)$ の係数をまとめると
+\[
+\begin{aligned}
+g(x_0)
+&= \frac{c+1}{2}\log(1+c) - \frac{c+1}{2}\log(1-c) + \log(1-c) \\
+&= \frac{c+1}{2}\log(1+c) + \left(1-\frac{c+1}{2}\right)\log(1-c) \\
+&= \frac{c+1}{2}\log(1+c) + \frac{1-c}{2}\log(1-c).
+\end{aligned}
+\]
+
+したがって
+$$
+x_0 = \frac12\log\left(\frac{1+c}{1-c}\right),
+$$
+$$
+g(x_0) = \frac{1+c}{2}\log(1+c) + \frac{1-c}{2}\log(1-c)
+$$
+と表される。

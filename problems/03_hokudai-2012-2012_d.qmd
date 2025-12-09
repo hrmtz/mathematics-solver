@@ -1,0 +1,33 @@
+---
+title: "北海道大学 2012年 2012_d"
+problem_id: "03_hokudai-2012-2012_d"
+university: "北海道大学"
+exam_year: "2012"
+source_tex: "archive/03_hokudai/2012/2012_d.tex"
+pdf_source: "archive/03_hokudai/2012/2012_d.pdf"
+page_image: "archive/03_hokudai/2012/2012_d.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　次の問に答えよ。
+\begin{description}
+\item[(1)]$x\leqq0$のとき，
+$\displaystyle 1+x \leqq e^x \leqq 1+x+\frac{x^2}{2}$であることを示せ。
+\item[(2)]$n$を自然数とする。正の数$a$が$\displaystyle a^{{10}^n}=\frac{1}{2}$を満たすとき，不等式
+\[ e^{-0.70 \times {10}^{-n}}<a<e^{-0.69 \times {10}^{-n}} \]
+を示せ。必要ならば，2の自然対数$\log2$が$0.69<\log2<0.70$を満たすことを用いてもよい。
+\item[(3)](2)で与えた$a$について，不等式
+\[ 0.9 \cdots 93<a<0.9 \cdots 94 \]
+を示せ。ここで，$0.9 \cdots 93$は，小数点以下に9が$n$個続き，その次に3が現れる小数である。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2012/2012_d.pdf)

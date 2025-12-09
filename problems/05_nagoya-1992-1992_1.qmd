@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 1992年 1992_1"
+problem_id: "05_nagoya-1992-1992_1"
+university: "名古屋大学"
+exam_year: "1992"
+source_tex: "archive/05_nagoya/1992/1992_1.tex"
+pdf_source: "archive/05_nagoya/1992/1992_1.pdf"
+page_image: "archive/05_nagoya/1992/1992_1.jpg"
+fields:
+  - 行列
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の条件を満たす実数の組$(a, \,b)$が動く範囲を図示せよ．
+\begin{description}
+\item[条件：]行列$A=\begin{pmatrix} a & b 
+
+ b & a \end{pmatrix}$に対して，
+行列$X=\begin{pmatrix} p & q 
+
+ r & s \end{pmatrix}$（$p$，$q$，$r$，$s$は実数）で，
+$X^2=A$となるものが存在する．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1992/1992_1.pdf)

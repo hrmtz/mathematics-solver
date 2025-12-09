@@ -1,0 +1,342 @@
+## 解答
+
+(1)  
+曲線 $C : y=\left| \dfrac{1}{2}x^2-6 \right|-2x$ は  
+$\dfrac{1}{2}x^2-6 \ge 0$ のとき，すなわち $x^2 \ge 12$（$x \le -2\sqrt3$ または $x \ge 2\sqrt3$）では  
+$$
+y=\dfrac{1}{2}x^2-6-2x,
+$$  
+$\dfrac{1}{2}x^2-6<0$ のとき，すなわち $-2\sqrt3 < x < 2\sqrt3$ では  
+$$
+y=-\left(\dfrac{1}{2}x^2-6\right)-2x=-\dfrac{1}{2}x^2+6-2x
+$$  
+となる．
+
+直線 $L : y=-x+t$ との交点を求めるため，各部分ごとに連立する．
+
+(i) $x \le -2\sqrt3$ または $x \ge 2\sqrt3$ の部分：  
+$$
+\dfrac{1}{2}x^2-6-2x=-x+t
+$$
+より
+$$
+\dfrac{1}{2}x^2- x -6 - t=0
+$$
+すなわち
+$$
+x^2 -2x -12 -2t=0
+$$
+と書ける．この2次方程式の判別式は
+$$
+D_1 = (-2)^2 -4\cdot 1\cdot(-12-2t)=4+48+8t=52+8t.
+$$
+実数解をもつには $D_1>0$ が必要であり，
+$$
+52+8t>0 \;\Longleftrightarrow\; t>- \dfrac{13}{2}
+$$
+となる．
+
+(ii) $-2\sqrt3 < x < 2\sqrt3$ の部分：  
+$$
+-\dfrac{1}{2}x^2+6-2x=-x+t
+$$
+より
+$$
+-\dfrac{1}{2}x^2+6 -x - t=0
+$$
+すなわち
+$$
+x^2+2x+2t-12=0
+$$
+と書ける．この2次方程式の判別式は
+$$
+D_2 = 2^2 -4\cdot1\cdot(2t-12)=4-8t+48=52-8t.
+$$
+実数解をもつには $D_2>0$ が必要であり，
+$$
+52-8t>0 \;\Longleftrightarrow\; t<\dfrac{13}{2}
+$$
+となる．
+
+ここで，$C$ と $L$ が異なる4点で交わるためには，  
+外側の2次方程式（$x^2-2x-12-2t=0$）から2点，内側の2次方程式（$x^2+2x+2t-12=0$）から2点，合計4つの相異なる実数解が必要である．  
+したがって
+$$
+- \dfrac{13}{2} < t < \dfrac{13}{2}
+$$
+が必要条件となる．
+
+さらに，外側の解が $x\le -2\sqrt3$ または $x\ge 2\sqrt3$ に，内側の解が $-2\sqrt3<x<2\sqrt3$ に1つずつ現れるかどうかを確認する．  
+外側の放物線 $y=\dfrac{1}{2}x^2-6-2x$ は上に凸で頂点は $x=2$，
+内側の放物線 $y=-\dfrac{1}{2}x^2+6-2x$ は下に凸で頂点は $x=-2$ であり，  
+直線 $y=-x+t$ の傾きは $-1$ であるから，$t$ を変化させるとき，$t$ が上の範囲にある限り，  
+外側・内側それぞれの領域で2点ずつの交点が生じることがわかる（判別式が正であり，絶対値の境界 $x=\pm 2\sqrt3$ での不連続はない）．
+
+ゆえに，$C$ と $L$ が異なる4点で交わるための条件は  
+$$
+- \dfrac{13}{2} < t < \dfrac{13}{2}
+$$
+である．
+
+---
+
+(2)  
+(1) の範囲で $t$ をとり，$C$ と $L$ の交点を求める．  
+まず，外側（$x^2\ge 12$）の部分での連立から得られる方程式
+$$
+x^2-2x-12-2t=0
+$$
+の解を $\alpha,\beta$ とすると，
+$$
+\alpha+\beta=2,\quad \alpha\beta=-12-2t
+$$
+である．これらは $x\le -2\sqrt3$ と $x\ge 2\sqrt3$ に1つずつ存在する．  
+$x$ 座標が小さい方を $\alpha$，大きい方を $\beta$ としておく．
+
+次に，内側（$x^2<12$）の部分での連立から得られる方程式
+$$
+x^2+2x+2t-12=0
+$$
+の解を $\gamma,\delta$ とすると，
+$$
+\gamma+\delta=-2,\quad \gamma\delta=2t-12
+$$
+であり，$-2\sqrt3<\gamma<\delta<2\sqrt3$ である．
+
+$x$ 座標の小さい順に並べると
+$$
+P_1(\alpha),\;P_2(\gamma),\;P_3(\delta),\;P_4(\beta)
+$$
+となる．  
+ベクトルの大きさ $|\overrightarrow{P_iP_j}|$ は，$P_i$，$P_j$ の $x$ 座標を $x_i,x_j$ とすると
+$$
+|\overrightarrow{P_iP_j}|=\sqrt{(x_j-x_i)^2+(y_j-y_i)^2}
+$$
+であるが，$P_i,P_j$ はいずれも直線 $y=-x+t$ 上にあるので，$y=-x+t$ を用いると
+$$
+y_j-y_i = \{-(x_j)+t\}-\{-(x_i)+t\}=x_i-x_j
+$$
+より
+$$
+|\overrightarrow{P_iP_j}|=\sqrt{(x_j-x_i)^2+(x_i-x_j)^2}
+=\sqrt{2}\,|x_j-x_i|
+$$
+となる．したがって与えられた比は
+$$
+\frac{|\overrightarrow{P_1P_2}|+|\overrightarrow{P_3P_4}|}
+{|\overrightarrow{P_2P_3}|}
+=
+\frac{\sqrt{2}\,(\gamma-\alpha)+\sqrt{2}\,(\beta-\delta)}
+{\sqrt{2}\,(\delta-\gamma)}
+=
+\frac{(\gamma-\alpha)+(\beta-\delta)}{\delta-\gamma}
+$$
+となる．条件より
+$$
+\frac{(\gamma-\alpha)+(\beta-\delta)}{\delta-\gamma}=4.
+$$
+
+分子を整理する．  
+$$
+(\gamma-\alpha)+(\beta-\delta)
+=
+(\gamma+\beta)-(\alpha+\delta).
+$$
+ここで，
+$$
+\gamma+\beta=(\gamma+\delta)+(\beta-\delta)= -2 +(\beta-\delta),\\
+\alpha+\delta=(\alpha+\beta)+(\delta-\beta)= 2 +(\delta-\beta),
+$$
+ではなく，直接，和と差を用いずに次のように考える方が簡単である．  
+
+$\alpha+\beta=2,\;\gamma+\delta=-2$ なので
+$$
+(\gamma-\alpha)+(\beta-\delta)
+=(\gamma+\beta)-(\alpha+\delta)
+$$
+のうち，
+$$
+(\gamma+\beta)+(\alpha+\delta)=(\alpha+\beta)+(\gamma+\delta)=2+(-2)=0
+$$
+ゆえに
+$$
+(\gamma+\beta)=-(\alpha+\delta).
+$$
+よって
+$$
+(\gamma-\alpha)+(\beta-\delta)
+=(\gamma+\beta)-(\alpha+\delta)
+=-(\alpha+\delta)-(\alpha+\delta)
+=-2(\alpha+\delta).
+$$
+また分母は
+$$
+\delta-\gamma.
+$$
+したがって条件式は
+$$
+\frac{-2(\alpha+\delta)}{\delta-\gamma}=4
+$$
+となる．両辺を $\delta-\gamma$ 倍して
+$$
+-2(\alpha+\delta)=4(\delta-\gamma)
+$$
+より
+$$
+-2\alpha-2\delta=4\delta-4\gamma
+$$
+すなわち
+$$
+-2\alpha-6\delta+4\gamma=0.
+$$
+
+ここで $\alpha,\gamma,\delta$ を $t$ で表すのは煩雑なので，別の方法で整理する．  
+上式を $\delta$ について解く方針でなく，もとの分数に戻って，$x$ 座標の対称性に注目する．
+
+別の立て方として，$P_1P_2,P_2P_3,P_3P_4$ の $x$ 座標差に直接着目する．  
+$x$ 座標のみで考えると，長さの比は
+$$
+\frac{(\gamma-\alpha)+(\beta-\delta)}{\delta-\gamma}=4
+$$
+なので
+$$
+\gamma-\alpha+\beta-\delta =4(\delta-\gamma)
+$$
+すなわち
+$$
+\beta-\alpha -(\delta-\gamma) =4(\delta-\gamma)
+$$
+より
+$$
+\beta-\alpha =5(\delta-\gamma).
+$$
+
+ここで
+$$
+\beta-\alpha =\sqrt{(\alpha+\beta)^2-4\alpha\beta}
+=\sqrt{2^2 -4(-12-2t)}
+=\sqrt{4+48+8t}
+=\sqrt{52+8t},
+$$
+$$
+\delta-\gamma =\sqrt{(\gamma+\delta)^2-4\gamma\delta}
+=\sqrt{(-2)^2 -4(2t-12)}
+=\sqrt{4-8t+48}
+=\sqrt{52-8t}
+$$
+である．したがって
+$$
+\sqrt{52+8t}=5\sqrt{52-8t}
+$$
+が成り立つ．両辺を2乗して
+$$
+52+8t=25(52-8t)
+$$
+すなわち
+$$
+52+8t=1300-200t
+$$
+より
+$$
+208t=1248,\quad t=\dfrac{1248}{208}=\dfrac{78}{13}=6.
+$$
+
+この $t=6$ は (1) で求めた範囲 $- \dfrac{13}{2}<t<\dfrac{13}{2}$ に含まれるので，求める値は
+$$
+t=6
+$$
+である．
+
+---
+
+(3)  
+$t=6$ のとき，$C$ と $L$ の交点の $x$ 座標を求める．
+
+外側部分の方程式
+$$
+x^2-2x-12-2t=0
+$$
+に $t=6$ を代入すると
+$$
+x^2-2x-24=0
+$$
+これを解くと
+$$
+x=\dfrac{2\pm\sqrt{4+96}}{2}
+=\dfrac{2\pm10}{2}
+\quad\Rightarrow\quad x=-4,\;6.
+$$
+内側部分の方程式
+$$
+x^2+2x+2t-12=0
+$$
+に $t=6$ を代入すると
+$$
+x^2+2x=0
+$$
+より
+$$
+x(x+2)=0
+$$
+したがって
+$$
+x=-2,\;0.
+$$
+
+$x$ 座標の小さい順に $P_1(-4),P_2(-2),P_3(0),P_4(6)$ となるので，  
+線分 $P_2P_3$ は $x=-2$ から $x=0$ の部分である．この区間は $|\,\cdot\,|$ の中身 $\dfrac12x^2-6$ が負の範囲（$x^2<12$）に入っており，$C$ の方程式は
+$$
+y=-\dfrac12x^2+6-2x
+$$
+となる．また直線 $L$ は $y=-x+t$ で $t=6$ より
+$$
+y=-x+6
+$$
+である．
+
+求める図形は，$x=-2$ から $x=0$ の間で，曲線 $C$ と線分 $P_2P_3$（直線 $y=-x+6$ の一部）に囲まれる部分である．  
+この区間で上側にくるのは直線 $y=-x+6$，下側にくるのは曲線 $y=-\dfrac12x^2+6-2x$ である．  
+よって面積 $S$ は
+$$
+S=\int_{-2}^{0}\left[(-x+6)-\left(-\dfrac12x^2+6-2x\right)\right]dx
+$$
+となる．
+
+被積分関数を整理すると
+$$
+(-x+6)-\left(-\dfrac12x^2+6-2x\right)
+=-x+6+\dfrac12x^2-6+2x
+=\dfrac12x^2+x.
+$$
+したがって
+$$
+S=\int_{-2}^{0}\left(\dfrac12x^2+x\right)dx
+=\left[\dfrac12\cdot\dfrac{x^3}{3}+\dfrac{x^2}{2}\right]_{-2}^{0}
+=\left[\dfrac{x^3}{6}+\dfrac{x^2}{2}\right]_{-2}^{0}.
+$$
+
+上端 $x=0$ では
+$$
+\dfrac{0^3}{6}+\dfrac{0^2}{2}=0,
+$$
+下端 $x=-2$ では
+$$
+\dfrac{(-2)^3}{6}+\dfrac{(-2)^2}{2}
+=\dfrac{-8}{6}+\dfrac{4}{2}
+=-\dfrac{4}{3}+2
+=\dfrac{2}{3}.
+$$
+ゆえに
+$$
+S=0-\dfrac{2}{3}=-\dfrac{2}{3}
+$$
+となるが，面積は正であるから
+$$
+S=\dfrac{2}{3}.
+$$
+
+したがって，求める面積は
+$$
+\dfrac{2}{3}
+$$
+である。

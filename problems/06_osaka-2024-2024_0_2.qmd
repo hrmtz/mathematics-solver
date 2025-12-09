@@ -1,0 +1,24 @@
+---
+title: "大阪大学 2024年 2024_0_2"
+problem_id: "06_osaka-2024-2024_0_2"
+university: "大阪大学"
+exam_year: "2024"
+source_tex: "archive/06_osaka/2024/2024_0_2.tex"
+pdf_source: "archive/06_osaka/2024/2024_0_2.pdf"
+page_image: "archive/06_osaka/2024/2024_0_2.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　座標空間内の直線$l$と$z$軸はねじれの位置にあるとする．
+$l$と$z$軸の両方に直交する直線がただ1つ存在することを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2024/2024_0_2.pdf)

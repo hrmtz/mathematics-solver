@@ -1,0 +1,28 @@
+---
+title: "大阪大学 1971年 1971_4"
+problem_id: "06_osaka-1971-1971_4"
+university: "大阪大学"
+exam_year: "1971"
+source_tex: "archive/06_osaka/1971/1971_4.tex"
+pdf_source: "archive/06_osaka/1971/1971_4.pdf"
+page_image: "archive/06_osaka/1971/1971_4.jpg"
+fields:
+  - 整数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+\begin{description}
+\item[(1)]1円，5円，10円の硬貨をとり混ぜて合計$10n$円にするしかたは
+${(n+1)}^2$通りあることを証明せよ．ただし，$n$は正の整数とする．
+\item[(2)]さらに50円の硬貨を加えて，
+これら4種類の硬貨をとり混ぜて合計1000円にするしかたはいく通りあるか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1971/1971_4.pdf)

@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1966年 1966_6"
+problem_id: "03_hokudai-1966-1966_6"
+university: "北海道大学"
+exam_year: "1966"
+source_tex: "archive/03_hokudai/1966/1966_6.tex"
+pdf_source: "archive/03_hokudai/1966/1966_6.pdf"
+page_image: "archive/03_hokudai/1966/1966_6.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　曲線$y=f(x)$上の任意の点$P(x, \, y)$における接線は
+この点を通る曲線$y=ax^3$のこの点における接線と直交するという．
+\begin{description}
+\item[(1)]$a$を消去して$x$，$y$および$\displaystyle\frac{dy}{dx}$に関する微分方程式をつくれ．
+ただし$y=f(x)$，$\displaystyle\frac{dy}{dx}=\frac{df(x)}{dx}$とする．
+\item[(2)](1)の微分方程式を解け．
+\item[(3)](2)の解のうち，点$(-2,\,1)$を通るものを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1966/1966_6.pdf)

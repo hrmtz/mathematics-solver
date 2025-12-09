@@ -1,0 +1,28 @@
+---
+title: "東北大学 1979年 1979_6"
+problem_id: "04_tohoku-1979-1979_6"
+university: "東北大学"
+exam_year: "1979"
+source_tex: "archive/04_tohoku/1979/1979_6.tex"
+pdf_source: "archive/04_tohoku/1979/1979_6.pdf"
+page_image: "archive/04_tohoku/1979/1979_6.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　底面の半径$r$の直円柱のタンクに，
+高さ$h$まで水が入っているとする．
+いまタンクの底に亀裂（きれつ）が生じ，
+水もれが起こったとする．
+流出する水量の速さは水面の高さに比例し，
+1時間後には全体の$\alpha$％が流出したとする．
+$t$時間後にタンクに残っている水量はいくらか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1979/1979_6.pdf)

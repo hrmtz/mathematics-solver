@@ -1,0 +1,30 @@
+---
+title: "東京大学 1985年 1985_0_4"
+problem_id: "01_tokyo-1985-1985_0_4"
+university: "東京大学"
+exam_year: "1985"
+source_tex: "archive/01_tokyo/1985/1985_0_4.tex"
+pdf_source: "archive/01_tokyo/1985/1985_0_4.pdf"
+page_image: "archive/01_tokyo/1985/1985_0_4.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$t$を正の数とする．
+$xyz$空間において，点$(t,t,0)$を$P$とし，$x$軸を含み点$(t,t,1)$を通る平面に関して$P$と対称な点を$Q$，
+$y$軸を含み点$(t,t,1)$を通る平面に関して$P$と対称な点を$R$とする．
+また，原点を$O$とする．
+\begin{description}
+\item[(1)]$Q$，$R$の座標を求めよ．
+\item[(2)]4点$O$，$P$，$Q$，$R$を頂点とする4面体の体積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1985/1985_0_4.pdf)

@@ -1,0 +1,31 @@
+---
+title: "東北大学 1967年 1967_5"
+problem_id: "04_tohoku-1967-1967_5"
+university: "東北大学"
+exam_year: "1967"
+source_tex: "archive/04_tohoku/1967/1967_5.tex"
+pdf_source: "archive/04_tohoku/1967/1967_5.pdf"
+page_image: "archive/04_tohoku/1967/1967_5.jpg"
+fields:
+  - 微分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　次の条件を満たす関数を$f(x)$で表わす．
+\begin{description}
+\item[（イ）]$f(x)$は$x$の4次の整式である．
+\item[（ロ）]曲線$y=f(x)$は2点$O(0, \, 0)$，$\displaystyle A \left( 1, \, \frac{1}{12} \right)$を通る．
+\item[（ハ）]曲線$y=f(x)$の，点$O$における接線は$x$軸で，点$A$における接線は$x$軸に平行である．
+\end{description}
+このとき，点$(p, \, f(p))$における$y=f(x)$の接線の傾きが，
+$f(x)$のえらび方に無関係な定数となるように，$p$の値を定めよ．
+ただし，$p \neq0, \, 1$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1967/1967_5.pdf)

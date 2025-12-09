@@ -1,0 +1,25 @@
+---
+title: "京都大学 2002年 2002_c"
+problem_id: "02_kyoto-2002-2002_c"
+university: "京都大学"
+exam_year: "2002"
+source_tex: "archive/02_kyoto/2002/2002_c.tex"
+pdf_source: "archive/02_kyoto/2002/2002_c.pdf"
+page_image: "archive/02_kyoto/2002/2002_c.jpg"
+fields:
+  - 空間図形
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　各面が鋭角三角形からなる四面体$ABCD$において，辺$AB$と辺$CD$は垂直ではないとする．
+このとき辺$AB$を含む平面$\alpha$に点$C$，点$D$から下ろした垂線の足をそれぞれ$C'$，$D'$とするとき，
+4点$A$，$B$，$C'$，$D'$がすべて相異なり，しかも同一円周上にあるように$\alpha$がとれることを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_c.pdf)

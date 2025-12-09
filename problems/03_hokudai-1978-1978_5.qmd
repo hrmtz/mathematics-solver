@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1978年 1978_5"
+problem_id: "03_hokudai-1978-1978_5"
+university: "北海道大学"
+exam_year: "1978"
+source_tex: "archive/03_hokudai/1978/1978_5.tex"
+pdf_source: "archive/03_hokudai/1978/1978_5.pdf"
+page_image: "archive/03_hokudai/1978/1978_5.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$\displaystyle f(x)=\frac{ax^2+bx+a+1}{x^2+1}$は$x=-\sqrt3$で極小値0をとるものとする．
+\begin{description}
+\item[(1)]$a$，$b$を求めよ．
+\item[(2)]$f(x)$が極大となる$x$の値$c$を求めよ．
+曲線$y=f(x)$，$x$軸，$y$軸および直線$x=c$で囲まれた部分の面積$S$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1978/1978_5.pdf)

@@ -1,0 +1,30 @@
+---
+title: "京都大学 1993年 1993_4"
+problem_id: "02_kyoto-1993-1993_4"
+university: "京都大学"
+exam_year: "1993"
+source_tex: "archive/02_kyoto/1993/1993_4.tex"
+pdf_source: "archive/02_kyoto/1993/1993_4.pdf"
+page_image: "archive/02_kyoto/1993/1993_4.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　自然数$n$に対して，
+\[ a_n=\int_0^1{(1+x)}^{-n-1}e^{x^2}dx \]
+\[ b_n=\int_0^1{(1+x)}^{-n}xe^{x^2}dx \]
+とおく．
+\begin{description}
+\item[(1)]$\displaystyle b_n \leqq e\cdot\int_0^1{(1+x)}^{-n}dx$が成り立つことを示し，
+$\displaystyle\lim_{n\to\infty}b_n$を求めよ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}na_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1993/1993_4.pdf)

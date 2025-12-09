@@ -1,0 +1,36 @@
+---
+title: "東京科学大学 1976年 1976_6"
+problem_id: "08_titech-1976-1976_6"
+university: "東京科学大学"
+exam_year: "1976"
+source_tex: "archive/08_titech/1976/1976_6.tex"
+pdf_source: "archive/08_titech/1976/1976_6.pdf"
+page_image: "archive/08_titech/1976/1976_6.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　行列$\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$で表される平面上の1次変換を$f$，
+直線$y=mx$ $(m\neq0)$を$l$とし，
+$f$は次の2条件を満たすとする．
+\begin{description}
+\item[(i)]$f$は$l$の各点を動かさない．
+\item[(ii)]$f$は点$P(1, \, 0)$を，この点$P$を通り$l$に平行な直線上にうつす．
+\end{description}
+このとき
+\begin{description}
+\item[(1)]$ad-bc$を求めよ．
+\item[(2)]$f$により平面上の任意の点$Q$は，$Q$を通り$l$に平行な直線上の点にうつることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1976/1976_6.pdf)

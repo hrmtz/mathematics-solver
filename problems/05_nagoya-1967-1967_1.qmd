@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1967年 1967_1"
+problem_id: "05_nagoya-1967-1967_1"
+university: "名古屋大学"
+exam_year: "1967"
+source_tex: "archive/05_nagoya/1967/1967_1.tex"
+pdf_source: "archive/05_nagoya/1967/1967_1.pdf"
+page_image: "archive/05_nagoya/1967/1967_1.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　図のように線分$AB$，$AC$と直線$g$とがあって
+$AB=14$，$AC=3$，$AB \perp AC$，$AB \perp g$とする．
+点$P$は線分$AB$上を，点$Q$は直線$g$上を$\angle CPQ={90}^\circ$となるように動くとき，
+3角形$CPQ$の面積の最大値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1967/1967_1.pdf)

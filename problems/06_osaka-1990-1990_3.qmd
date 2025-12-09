@@ -1,0 +1,26 @@
+---
+title: "大阪大学 1990年 1990_3"
+problem_id: "06_osaka-1990-1990_3"
+university: "大阪大学"
+exam_year: "1990"
+source_tex: "archive/06_osaka/1990/1990_3.tex"
+pdf_source: "archive/06_osaka/1990/1990_3.pdf"
+page_image: "archive/06_osaka/1990/1990_3.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　点$(a, \, 0)$を通り，
+曲線$y=x^4-2x^2+1$に接する直線が
+$x$軸以外にただ1本存在するような
+$a$の値をすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_3.pdf)

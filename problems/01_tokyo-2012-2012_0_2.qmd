@@ -1,0 +1,26 @@
+---
+title: "東京大学 2012年 2012_0_2"
+problem_id: "01_tokyo-2012-2012_0_2"
+university: "東京大学"
+exam_year: "2012"
+source_tex: "archive/01_tokyo/2012/2012_0_2.tex"
+pdf_source: "archive/01_tokyo/2012/2012_0_2.pdf"
+page_image: "archive/01_tokyo/2012/2012_0_2.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　実数$t$は$0<t<1$を満たすとし，座標平面上の4点
+$O(0,0)$，$A(0,1)$，$B(1,0)$，$C(t,0)$を考える。
+また線分$AB$上の点$D$を$\angle ACO = \angle BCD$となるように定める。
+　$t$を動かしたときの三角形$ACD$の面積の最大値を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2012/2012_0_2.pdf)

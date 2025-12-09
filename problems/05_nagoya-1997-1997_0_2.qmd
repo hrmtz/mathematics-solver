@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 1997年 1997_0_2"
+problem_id: "05_nagoya-1997-1997_0_2"
+university: "名古屋大学"
+exam_year: "1997"
+source_tex: "archive/05_nagoya/1997/1997_0_2.tex"
+pdf_source: "archive/05_nagoya/1997/1997_0_2.pdf"
+page_image: "archive/05_nagoya/1997/1997_0_2.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　原点$O$を通る3次曲線$y=x^3$と$O$を通る直線$l:y=tx$ $(t>0)$を考える．
+$x>0$での曲線と$l$との交点を$P$とする．
+\begin{description}
+\item[(1)]$x\geqq0$の範囲で曲線と$l$とで囲まれる領域の面積を求めよ．
+\item[(2)]点$Q$が曲線上を$O$から$P$まで動くとき$\triangle OPQ$の面積の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1997/1997_0_2.pdf)

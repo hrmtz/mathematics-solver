@@ -1,0 +1,33 @@
+---
+title: "東京大学 1994年 1994_0_3"
+problem_id: "01_tokyo-1994-1994_0_3"
+university: "東京大学"
+exam_year: "1994"
+source_tex: "archive/01_tokyo/1994/1994_0_3.tex"
+pdf_source: "archive/01_tokyo/1994/1994_0_3.pdf"
+page_image: "archive/01_tokyo/1994/1994_0_3.jpg"
+fields:
+  - 行列
+  - ベクトル
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$0<a\leqq1$に対し，行列$A=\begin{pmatrix} 1 & 1 
+
+ 1 & 1+2a \end{pmatrix}$を考える．
+　$\vec{u}=\begin{pmatrix} \cos\theta 
+
+ \sin\theta \end{pmatrix}$のとき，
+ベクトル$A\vec{u}$の長さ$|A\vec{u}|$について，
+次の不等式が成り立つことを示せ．
+\[ (2-\sqrt2)a \leqq |A\vec{u}| \leqq 2+\sqrt2 \]
+　ただし$0 \leqq \theta \leqq 2\pi$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1994/1994_0_3.pdf)

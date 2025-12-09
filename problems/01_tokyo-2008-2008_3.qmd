@@ -1,0 +1,28 @@
+---
+title: "東京大学 2008年 2008_3"
+problem_id: "01_tokyo-2008-2008_3"
+university: "東京大学"
+exam_year: "2008"
+source_tex: "archive/01_tokyo/2008/2008_3.tex"
+pdf_source: "archive/01_tokyo/2008/2008_3.pdf"
+page_image: "archive/01_tokyo/2008/2008_3.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]正八面体のひとつの面を下にして水平な台の上に置く．
+この八面体を真上から見た図(平面図)を描け．
+\item[(2)]正八面体の互いに平行な2つの面をとり，それぞれの面の重心を$G_1$，$G_2$とする．
+$G_1$，$G_2$を通る直線を軸としてこの八面体を1回転させてできる立体の体積を求めよ．
+ただし八面体は内部も含むものとし，各辺の長さは1とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2008/2008_3.pdf)

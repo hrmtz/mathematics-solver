@@ -1,0 +1,25 @@
+---
+title: "名古屋大学 2001年 2001_2"
+problem_id: "05_nagoya-2001-2001_2"
+university: "名古屋大学"
+exam_year: "2001"
+source_tex: "archive/05_nagoya/2001/2001_2.tex"
+pdf_source: "archive/05_nagoya/2001/2001_2.pdf"
+page_image: "archive/05_nagoya/2001/2001_2.jpg"
+fields:
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　閉区間$[ 0, \, 2\pi ]$上で定義された$x$の関数
+$\displaystyle f(x)=\int_0^\pi \sin \left( |t-x|+\frac{\pi}{4} \right) dt$
+の最大値および最小値とそのときの$x$の値をそれぞれ求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_2.pdf)

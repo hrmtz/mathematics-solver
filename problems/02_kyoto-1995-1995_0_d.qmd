@@ -1,0 +1,33 @@
+---
+title: "京都大学 1995年 1995_0_d"
+problem_id: "02_kyoto-1995-1995_0_d"
+university: "京都大学"
+exam_year: "1995"
+source_tex: "archive/02_kyoto/1995/1995_0_d.tex"
+pdf_source: "archive/02_kyoto/1995/1995_0_d.pdf"
+page_image: "archive/02_kyoto/1995/1995_0_d.jpg"
+fields:
+  - 整数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　自然数$n$の関数$f(n)$，$g(n)$を
+\begin{description}
+\item[]$f(n)=n$を7で割った余り，
+\item[]$\displaystyle g(n)=3f \left( \sum_{k=1}^7k^n \right)$
+\end{description}
+によって定める．
+\begin{description}
+\item[(1)]すべての自然数$n$に対して$f(n^7)=f(n)$を示せ．
+\item[(2)]あなたの好きな自然数$n$を一つ決めて$g(n)$を求めよ．
+その$g(n)$の値をこの設問(2)におけるあなたの得点とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1995/1995_0_d.pdf)

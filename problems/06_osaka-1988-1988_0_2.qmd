@@ -1,0 +1,23 @@
+---
+title: "大阪大学 1988年 1988_0_2"
+problem_id: "06_osaka-1988-1988_0_2"
+university: "大阪大学"
+exam_year: "1988"
+source_tex: "archive/06_osaka/1988/1988_0_2.tex"
+pdf_source: "archive/06_osaka/1988/1988_0_2.pdf"
+page_image: "archive/06_osaka/1988/1988_0_2.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$x$，$y$が$x\geqq0$，$y\geqq0$，$x^3+y^3=1$を満たしながら変わるとき，
+$x+y$がとりうる値の範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1988/1988_0_2.pdf)

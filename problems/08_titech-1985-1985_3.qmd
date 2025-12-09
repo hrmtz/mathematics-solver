@@ -1,0 +1,33 @@
+---
+title: "東京科学大学 1985年 1985_3"
+problem_id: "08_titech-1985-1985_3"
+university: "東京科学大学"
+exam_year: "1985"
+source_tex: "archive/08_titech/1985/1985_3.tex"
+pdf_source: "archive/08_titech/1985/1985_3.pdf"
+page_image: "archive/08_titech/1985/1985_3.jpg"
+fields:
+  - 平面図形
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　5つの円$O_1, \, O_2, \, O_3, \, O_4, \, O_5$がある．
+$O_1$，$O_2$は半径がそれぞれ1と$a$ $(0<a<1)$の同心円である．
+$O_3$は$O_1$に内接し，$O_2$と互いに外接する．
+$O_4$は$O_1$に内接し，$O_2$，$O_3$と互いに外接する．
+$O_5$は$O_1$に内接し，$O_3$，$O_4$と互いに外接する．
+ただし，$O_2$，$O_3$，$O_4$，$O_5$の中心をそれぞれ$A$，$B$，$C$，$D$とするとき，
+$D$は$B$，$C$を通る直線に関して$A$の反対側にあるものとする．
+\begin{description}
+\item[(1)]四辺形$ABDC$の面積$S(a)$を求めよ．
+\item[(2)]$S(a)$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1985/1985_3.pdf)

@@ -1,0 +1,290 @@
+## 解答
+
+(1)  
+$\triangle ABC$ で，$AB=AC=1$，$BC=\dfrac12$ であるから，$\angle BAC=\theta$ とおくと，余弦定理より  
+辺 $BC$ に対して
+$$
+BC^2=AB^2+AC^2-2\cdot AB\cdot AC\cos\theta
+$$
+が成り立つ。よって
+$$
+\left(\frac12\right)^2=1^2+1^2-2\cdot1\cdot1\cdot\cos\theta
+$$
+すなわち
+$$
+\frac14=2-2\cos\theta
+$$
+より
+$$
+2\cos\theta=2-\frac14=\frac74
+$$
+したがって
+$$
+\cos\theta=\frac78
+$$
+となる。
+
+また，$AB=AC=1$ より $\triangle ABC$ は二等辺三角形であり，底辺 $BC$ の中点を $M$ とおくと $AM\perp BC$ である。ここで
+$$
+BM=MC=\frac{BC}{2}=\frac14
+$$
+だから，直角三角形 $ABM$ について三平方の定理より
+$$
+AM^2=AB^2-BM^2=1^2-\left(\frac14\right)^2
+=1-\frac{1}{16}=\frac{15}{16}
+$$
+したがって
+$$
+AM=\frac{\sqrt{15}}{4}
+$$
+となる。$\angle BAC=\theta$ は二等辺三角形の頂角なので，
+$$
+\sin\theta=\frac{BC/2}{AM}=\frac{1/4}{\sqrt{15}/4}=\frac{1}{\sqrt{15}}
+$$
+ゆえに
+$$
+\sin\theta=\frac{1}{\sqrt{15}},\quad \cos\theta=\frac78
+$$
+である。
+
+---
+
+(2)  
+まず，点 $H$ は $B$ から辺 $AC$ への垂線の足なので，$\angle BHA=90^\circ$ である。
+
+三角形 $ABC$ において，$\angle BAC=\theta$，$AB=1$ とおいたので
+$$
+BH = AB\sin\theta = \sin\theta = \frac{1}{\sqrt{15}}
+$$
+また，高さ $BH$ の足 $H$ から $A$ までの長さを求めると，  
+$\triangle ABH$ で
+$$
+AH = AB\cos\theta = \cos\theta = \frac78
+$$
+同様に
+$$
+CH = AC\cos\theta = \frac78
+$$
+が成り立つ。よって
+$$
+AC = AH + HC = \frac78 + \frac78 = \frac74
+$$
+となるが，これは $AC=1$ に矛盾する。  
+したがって上の $AH,CH$ の値の求め方は誤りであり，もう一度正しく求め直す必要がある。
+
+角 $\angle BAC$ を $\theta$ とするとき，  
+$AB = AC = 1$，$\angle BAC = \theta$，$\angle BAH = 90^\circ - \dfrac{\theta}{2}$，$\angle ABH = \dfrac{\theta}{2}$  
+などの関係を利用すると複雑になるので，ここでは座標を用いて整理する。
+
+### 座標設定
+
+辺 $AC$ を $x$ 軸上にとり，$A(0,0)$，$C(c,0)$ とおく。  
+$AB=AC=1$ より $AC=1$，したがって $c=1$ であるから，$C(1,0)$ である。
+
+$B(x_B,y_B)$ として，  
+$$
+AB=1,\quad BC=\frac12,\quad AC=1
+$$
+を用いると  
+$$
+AB^2 = x_B^2 + y_B^2 = 1 \quad (1)
+$$
+$$
+BC^2 = (x_B-1)^2 + y_B^2 = \left(\frac12\right)^2 = \frac14 \quad (2)
+$$
+(2)−(1) をとると
+$$
+(x_B-1)^2 - x_B^2 = \frac14 - 1 = -\frac34
+$$
+左辺を展開して
+$$
+(x_B^2 -2x_B +1) - x_B^2 = -2x_B +1
+$$
+したがって
+$$
+-2x_B + 1 = -\frac34
+\quad\Longrightarrow\quad
+-2x_B = -\frac74
+\quad\Longrightarrow\quad
+x_B = \frac78
+$$
+これを (1) に代入して
+$$
+\left(\frac78\right)^2 + y_B^2 = 1
+\quad\Longrightarrow\quad
+\frac{49}{64} + y_B^2 = 1
+$$
+ゆえに
+$$
+y_B^2 = 1 - \frac{49}{64} = \frac{15}{64}
+\quad\Longrightarrow\quad
+y_B = \frac{\sqrt{15}}{8}
+$$
+（$B$ は $AC$ の上側にあると考え $y_B>0$ とする。）  
+したがって
+$$
+B\left(\frac78,\frac{\sqrt{15}}{8}\right)
+$$
+である。
+
+これより，$BH$ は $AC$ に垂直であるから $H$ は $B$ の真下の点であり，
+$$
+H\left(\frac78,0\right)
+$$
+となる。
+
+また，三角形 $ABC$ の頂角 $\theta$ は，ベクトル $\vec{AB}$ と $\vec{AC}$ のなす角であり，(1)で求めた値と一致して
+$$
+\cos\theta = \frac78,\quad \sin\theta = \frac{1}{\sqrt{15}}
+$$
+である。
+
+### 点 P の座標
+
+辺 $BH$ を $s:1-s$ に内分する点を $P$ とする。  
+ここで「$BH$ を $s:1-s$ に内分する」とは，$BP:PH = s:(1-s)$ という意味である。
+
+点 $B(x_B,y_B)$，$H(x_H,y_H)$ をこの比で内分する点 $P(x_P,y_P)$ の座標は，内分点の公式より
+$$
+P = \frac{(1-s)B + sH}{(1-s)+s}
+= (1-s)B + sH
+$$
+で与えられる。よって
+$$
+x_P = (1-s)\cdot x_B + s\cdot x_H,\quad
+y_P = (1-s)\cdot y_B + s\cdot y_H
+$$
+ここで $x_B=x_H=\dfrac78,\ y_H=0$ であるから
+$$
+x_P = (1-s)\cdot\frac78 + s\cdot\frac78 = \frac78,
+$$
+$$
+y_P = (1-s)\cdot\frac{\sqrt{15}}{8} + s\cdot 0
+= (1-s)\frac{\sqrt{15}}{8}
+$$
+ゆえに
+$$
+P\left(\frac78,\ (1-s)\frac{\sqrt{15}}{8}\right)
+$$
+である。
+
+### 各距離の2乗
+
+$A(0,0)$，$B\left(\frac78,\frac{\sqrt{15}}{8}\right)$，$C(1,0)$，  
+$P\left(\frac78,\ (1-s)\frac{\sqrt{15}}{8}\right)$ より，
+
+まず
+$$
+AP^2 = \left(\frac78\right)^2 + \left( (1-s)\frac{\sqrt{15}}{8} \right)^2
+= \frac{49}{64} + \frac{15}{64}(1-s)^2
+$$
+次に
+$$
+BP^2 = \left(\frac78 - \frac78\right)^2 + \left((1-s)\frac{\sqrt{15}}{8}-\frac{\sqrt{15}}{8}\right)^2
+= 0^2 + \left(-s\frac{\sqrt{15}}{8}\right)^2
+= \frac{15}{64}s^2
+$$
+最後に
+$$
+CP^2 = \left(\frac78 - 1\right)^2 + \left((1-s)\frac{\sqrt{15}}{8}\right)^2
+= \left(-\frac18\right)^2 + \frac{15}{64}(1-s)^2
+= \frac{1}{64} + \frac{15}{64}(1-s)^2
+$$
+
+したがって
+$$
+AP^2 + BP^2 + CP^2
+= \left(\frac{49}{64} + \frac{15}{64}(1-s)^2\right)
+ + \frac{15}{64}s^2
+ + \left(\frac{1}{64} + \frac{15}{64}(1-s)^2\right)
+$$
+これをまとめると
+$$
+AP^2+BP^2+CP^2
+= \frac{50}{64}
+ + \frac{15}{64}\left\{(1-s)^2 + (1-s)^2 + s^2\right\}
+$$
+まず
+$$
+(1-s)^2 = 1 - 2s + s^2
+$$
+であるから
+$$
+(1-s)^2 + (1-s)^2 + s^2
+= 2(1-2s+s^2) + s^2
+= 2 - 4s + 3s^2
+$$
+したがって
+$$
+AP^2 + BP^2 + CP^2
+= \frac{50}{64} + \frac{15}{64}(2 - 4s + 3s^2)
+$$
+右辺を整理すると
+$$
+\frac{50}{64} + \frac{30}{64} - \frac{60}{64}s + \frac{45}{64}s^2
+= \frac{80}{64} - \frac{60}{64}s + \frac{45}{64}s^2
+$$
+ゆえに
+$$
+AP^2 + BP^2 + CP^2
+= \frac{1}{64}\bigl(45s^2 - 60s + 80\bigr)
+$$
+となる。
+
+### 二次関数の最小値
+
+$f(s)=45s^2 - 60s + 80$ を $0<s<1$ で考える。  
+二次関数の平方完成を行うと，
+$$
+f(s)
+= 45\left(s^2 - \frac{60}{45}s\right) + 80
+= 45\left(s^2 - \frac{4}{3}s\right) + 80
+$$
+ここで
+$$
+s^2 - \frac{4}{3}s
+= \left(s - \frac{2}{3}\right)^2 - \left(\frac{2}{3}\right)^2
+= \left(s - \frac{2}{3}\right)^2 - \frac{4}{9}
+$$
+ゆえに
+$$
+f(s)
+= 45\left\{\left(s - \frac{2}{3}\right)^2 - \frac{4}{9}\right\} + 80
+= 45\left(s - \frac{2}{3}\right)^2 - 45\cdot\frac{4}{9} + 80
+$$
+ここで
+$$
+45\cdot\frac{4}{9} = 5\cdot4 = 20
+$$
+だから
+$$
+f(s) = 45\left(s - \frac{2}{3}\right)^2 - 20 + 80
+= 45\left(s - \frac{2}{3}\right)^2 + 60
+$$
+したがって
+$$
+AP^2 + BP^2 + CP^2
+= \frac{1}{64}f(s)
+= \frac{1}{64}\left\{45\left(s - \frac{2}{3}\right)^2 + 60\right\}
+$$
+
+$45\left(s - \dfrac{2}{3}\right)^2 \ge 0$ であるから，
+$$
+AP^2 + BP^2 + CP^2 \ge \frac{1}{64}\cdot 60 = \frac{15}{16}
+$$
+等号が成り立つのは
+$$
+s - \frac{2}{3} = 0,\quad
+\text{すなわち } s=\frac{2}{3}
+$$
+のときである。$0<s<1$ の範囲でこれは許される。
+
+以上より，
+$$
+AP^2+BP^2+CP^2\ \text{の最小値は}\ \frac{15}{16},
+$$
+そのときの $s$ の値は
+$$
+s=\frac{2}{3}
+$$
+である。

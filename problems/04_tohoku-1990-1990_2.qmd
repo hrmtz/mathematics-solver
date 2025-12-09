@@ -1,0 +1,32 @@
+---
+title: "東北大学 1990年 1990_2"
+problem_id: "04_tohoku-1990-1990_2"
+university: "東北大学"
+exam_year: "1990"
+source_tex: "archive/04_tohoku/1990/1990_2.tex"
+pdf_source: "archive/04_tohoku/1990/1990_2.pdf"
+page_image: "archive/04_tohoku/1990/1990_2.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$xyz$空間における球面
+\[ B:{(x-3)}^2+{(y-4)}^2+{(z-12)}^2={13}^2 \]
+について考える．
+\begin{description}
+\item[(1)]球面$B$上の点$O(0, \, 0, \, 0)$を通り，
+球面$B$に接する平面$H$の方程式を求めよ．
+\item[(2)]平面$H$上の点$P$を，$P$を中心とする半径1の球面が$B$と交わるように動かす．
+点$T(9, \, 12, \, 36)$と点$P$とを結んでできる線分全体がつくる立体
+（$T$を頂点とする錐体）を$E$とする．
+$E$の体積$V$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_2.pdf)

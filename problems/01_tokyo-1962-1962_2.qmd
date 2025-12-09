@@ -1,0 +1,29 @@
+---
+title: "東京大学 1962年 1962_2"
+problem_id: "01_tokyo-1962-1962_2"
+university: "東京大学"
+exam_year: "1962"
+source_tex: "archive/01_tokyo/1962/1962_2.tex"
+pdf_source: "archive/01_tokyo/1962/1962_2.pdf"
+page_image: "archive/01_tokyo/1962/1962_2.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\triangle ABC$において$\angle A=90^\circ$，$AB=AC=2$とする．
+点$B$，$C$から直線$BC$に関して$A$と同じ側に辺$BC$に垂直な半直線$BX$，$CY$を引く．
+半直線$BX$，辺$AB$，$BC$，$CA$，半直線$CY$の上にそれぞれ点$P$，$Q$，$R$，$S$，$T$をとり，
+\[ PQ // BC, \hspace{1zw} \frac{\cos\angle BQP}{\cos\angle AQR}=\sqrt2, \hspace{1zw}
+\angle BRQ = \angle CRS, \hspace{1zw} \frac{\cos\angle CST}{\cos\angle ASR}=\sqrt2 \]
+となるようにする．
+　$BP=x$，$CT=y$とするとき，$x$と$y$との間にはどのような関係式を成り立つか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1962/1962_2.pdf)

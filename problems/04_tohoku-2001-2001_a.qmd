@@ -1,0 +1,29 @@
+---
+title: "東北大学 2001年 2001_a"
+problem_id: "04_tohoku-2001-2001_a"
+university: "東北大学"
+exam_year: "2001"
+source_tex: "archive/04_tohoku/2001/2001_a.tex"
+pdf_source: "archive/04_tohoku/2001/2001_a.pdf"
+page_image: "archive/04_tohoku/2001/2001_a.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a>1$とする．$xy$平面上の領域
+\[ D:1 \leqq x \leqq a, \hspace{1zw} 0 \leqq y \leqq \frac{1}{\sqrt{x}} \]
+を，$y$軸に平行な$n-1$本の直線
+\[ x=a_k \hspace{1zw} (k=1, \, 2, \, \cdots\cdots, \, n-1, \, 1<a_1<a_2<\cdots\cdots<a_{n-1}<a) \]
+により分割し，$D$の面積を$n$等分する．$a_n=a$として，極限
+\[ \lim_{n\to\infty}\frac{1}{n}\left( \frac{1}{\sqrt{a_1}}+\frac{1}{\sqrt{a_2}}+
+\cdots\cdots+\frac{1}{\sqrt{a_n}} \right) \]
+を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_a.pdf)

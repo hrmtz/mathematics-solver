@@ -1,0 +1,24 @@
+---
+title: "東京科学大学 1988年 1988_3"
+problem_id: "08_titech-1988-1988_3"
+university: "東京科学大学"
+exam_year: "1988"
+source_tex: "archive/08_titech/1988/1988_3.tex"
+pdf_source: "archive/08_titech/1988/1988_3.pdf"
+page_image: "archive/08_titech/1988/1988_3.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xy$平面上の曲線$\displaystyle y=\cos\left( \sqrt{\frac{\pi}{2}}x \right)$と，
+原点を中心とする半径$r$の円との共有点の個数$N(r)$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1988/1988_3.pdf)

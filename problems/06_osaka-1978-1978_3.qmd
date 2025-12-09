@@ -1,0 +1,34 @@
+---
+title: "大阪大学 1978年 1978_3"
+problem_id: "06_osaka-1978-1978_3"
+university: "大阪大学"
+exam_year: "1978"
+source_tex: "archive/06_osaka/1978/1978_3.tex"
+pdf_source: "archive/06_osaka/1978/1978_3.pdf"
+page_image: "archive/06_osaka/1978/1978_3.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　2つの1次変換$f$，$g$の行列をそれぞれ
+$F=\begin{pmatrix} 1 & 2 
+
+ -2 & 1 \end{pmatrix}$，
+$G=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$とし，
+$g$を行った後に$f$を行う変換を$f \circ g$で表し，
+$f$を行った後に$g$を行う変換を$g \circ f$で表す．
+$f \circ g$によって直線$l:3x+2y+1=0$上の点は$y$軸上にうつり，
+$g \circ f$によって$l$上の点は直線$y=5$上にうつる．
+行列$G$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1978/1978_3.pdf)

@@ -1,0 +1,25 @@
+---
+title: "東京大学 1984年 1984_0_1"
+problem_id: "01_tokyo-1984-1984_0_1"
+university: "東京大学"
+exam_year: "1984"
+source_tex: "archive/01_tokyo/1984/1984_0_1.tex"
+pdf_source: "archive/01_tokyo/1984/1984_0_1.pdf"
+page_image: "archive/01_tokyo/1984/1984_0_1.jpg"
+fields:
+  - 微分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$t$を実数の定数として，関数$f(x)=(x^2-3x+2)(x-t)$を考える．
+いま$f'(x)=0$の2個の解を$\alpha$，$\beta$ $(\alpha<\beta)$と書くことにすれば，これらは$t$の関数とみなすことができる．
+　$t$の関数$|t-\alpha|+|t-\beta|$の$1\leqq t \leqq3$の範囲における最大値および最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1984/1984_0_1.pdf)

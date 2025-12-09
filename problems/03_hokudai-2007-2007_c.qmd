@@ -1,0 +1,31 @@
+---
+title: "北海道大学 2007年 2007_c"
+problem_id: "03_hokudai-2007-2007_c"
+university: "北海道大学"
+exam_year: "2007"
+source_tex: "archive/03_hokudai/2007/2007_c.tex"
+pdf_source: "archive/03_hokudai/2007/2007_c.pdf"
+page_image: "archive/03_hokudai/2007/2007_c.jpg"
+fields:
+  - 空間図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xyz$空間において連立方程式
+\[ 0\leqq x \leqq1, \hspace{1zw} 0\leqq y \leqq1, \hspace{1zw} 0\leqq z \leqq1 \]
+\[ x^2+y^2+z^2-2xy-1\geqq0 \]
+を表す立体を考える．
+\begin{description}
+\item[(1)]この立体を平面$z=t$で切ったときの断面を$xy$平面に図示し，
+この断面の面積$S(t)$を求めよ．
+\item[(2)]この立体の体積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_c.pdf)

@@ -1,0 +1,28 @@
+---
+title: "東北大学 2000年 2000_6"
+problem_id: "04_tohoku-2000-2000_6"
+university: "東北大学"
+exam_year: "2000"
+source_tex: "archive/04_tohoku/2000/2000_6.tex"
+pdf_source: "archive/04_tohoku/2000/2000_6.pdf"
+page_image: "archive/04_tohoku/2000/2000_6.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　数列$\{ \alpha_n \}$を初項$\displaystyle\frac{4}{5}$，公比2の等比数列，
+数列$\{ \beta_n \}$を初項$\displaystyle\frac{1}{5}$，公比$\displaystyle-\frac{1}{2}$の等比数列とする．
+\begin{description}
+\item[(1)]$n=1, \, 2, \, 3, \, 4, \, 5$のとき，$\alpha_n$の少数部分を求めよ．
+\item[(2)]$a_n=\alpha_n+\beta_n$の少数部分$b_n$を求めよ．
+\item[(3)]数列$\{ b_n \}$の初項から第100項までの和の整数部分を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2000/2000_6.pdf)

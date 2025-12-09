@@ -1,0 +1,31 @@
+---
+title: "東北大学 1972年 1972_3"
+problem_id: "04_tohoku-1972-1972_3"
+university: "東北大学"
+exam_year: "1972"
+source_tex: "archive/04_tohoku/1972/1972_3.tex"
+pdf_source: "archive/04_tohoku/1972/1972_3.pdf"
+page_image: "archive/04_tohoku/1972/1972_3.jpg"
+fields:
+  - 複素数平面
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　複素平面上で，複素数$1+\sqrt3 \, i$の表す点を$A$，原点を$O$とする．
+また，$|z+2|=1$であるような複素数$z$の表す点を$P$とする．
+$OA$，$OP$をとなり合う2辺とする平行4辺形$OAQP$をつくり，
+その対角線$OQ$を1辺とする正3角形$OQR$をつくる．
+$P$が$|z+2|=1$の表す図形上を動くとき
+\begin{description}
+\item[(1)]点$Q$はどのような図形を描くか．
+\item[(2)]点$R$はどのような図形を描くか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1972/1972_3.pdf)

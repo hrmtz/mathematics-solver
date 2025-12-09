@@ -1,0 +1,29 @@
+---
+title: "京都大学 1971年 1971_0_5"
+problem_id: "02_kyoto-1971-1971_0_5"
+university: "京都大学"
+exam_year: "1971"
+source_tex: "archive/02_kyoto/1971/1971_0_5.tex"
+pdf_source: "archive/02_kyoto/1971/1971_0_5.pdf"
+page_image: "archive/02_kyoto/1971/1971_0_5.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　空間に正方形がある．
+これを一つの平面上に正射影したとき，
+2辺の長さおよび一つの頂角がそれぞれ，$2\sqrt2$，$\sqrt6$および${30}^\circ$であるような平行四辺形がえられた．
+\begin{description}
+\item[(i)]平行四辺形の二つの対角線の長さを求めよ．
+\item[(ii)]もとの正方形の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1971/1971_0_5.pdf)

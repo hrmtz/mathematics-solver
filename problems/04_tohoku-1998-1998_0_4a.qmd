@@ -1,0 +1,32 @@
+---
+title: "東北大学 1998年 1998_0_4a"
+problem_id: "04_tohoku-1998-1998_0_4a"
+university: "東北大学"
+exam_year: "1998"
+source_tex: "archive/04_tohoku/1998/1998_0_4a.tex"
+pdf_source: "archive/04_tohoku/1998/1998_0_4a.pdf"
+page_image: "archive/04_tohoku/1998/1998_0_4a.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　白玉3個，赤玉4個があるとし，同じ色の玉は区別できないものとする．
+\begin{description}
+\item[(1)]上の7個を2つの区別のついた袋$A$，$B$に分けて入れる．
+入れる方法は何通りあるか．
+ただし，いずれの袋にも7個のうち少なくとも1個は入れるものとする．
+\item[(2)]6段の引き出しのついたタンスが2つあり，
+その中に上記の玉7個を分けて入れたい．
+ただし，どの引き出しにも1個しか入れないものとする．
+各タンスの引き出しは上から何段目か区別がつくが，
+2つのタンスは区別しないものとすれば，入れる方法は何通りあるか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_0_4a.pdf)

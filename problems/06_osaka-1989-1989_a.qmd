@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1989年 1989_a"
+problem_id: "06_osaka-1989-1989_a"
+university: "大阪大学"
+exam_year: "1989"
+source_tex: "archive/06_osaka/1989/1989_a.tex"
+pdf_source: "archive/06_osaka/1989/1989_a.pdf"
+page_image: "archive/06_osaka/1989/1989_a.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$x$の3次関数$f(x)=x^3+ax^2+bx+c$は，次の条件を満たしているものとする．
+\begin{description}
+\item[(i)]$y=f(x)$のグラフと放物線$y=x^2$とは
+相異なる3点$P(-1, \, y_1)$，$\displaystyle Q \left( \frac{1}{2}, \, y_2 \right)$，$R(x_3, \, y_3)$で
+交わる．
+\item[(ii)]直線$PQ$と$QR$は直交する．
+\end{description}
+　このとき，$a$，$b$，$c$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1989/1989_a.pdf)

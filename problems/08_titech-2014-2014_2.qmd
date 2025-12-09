@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 2014年 2014_2"
+problem_id: "08_titech-2014-2014_2"
+university: "東京科学大学"
+exam_year: "2014"
+source_tex: "archive/08_titech/2014/2014_2.tex"
+pdf_source: "archive/08_titech/2014/2014_2.pdf"
+page_image: "archive/08_titech/2014/2014_2.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a>1$とし，次の不等式を考える．
+\[ \text{（＊）} \hspace{1zw} \frac{e^t-1}{t}\geqq e^\frac{t}{a} \]
+\begin{description}
+\item[(1)]$a=2$のとき，すべての$t>0$に対して上の不等式（＊）が成り立つことを示せ．
+\item[(2)]すべての$t>0$に対して上の不等式（＊）が成り立つような$a$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2014/2014_2.pdf)

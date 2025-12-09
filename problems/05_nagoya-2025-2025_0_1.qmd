@@ -1,0 +1,34 @@
+---
+title: "名古屋大学 2025年 2025_0_1"
+problem_id: "05_nagoya-2025-2025_0_1"
+university: "名古屋大学"
+exam_year: "2025"
+source_tex: "archive/05_nagoya/2025/2025_0_1.tex"
+pdf_source: "archive/05_nagoya/2025/2025_0_1.pdf"
+page_image: "archive/05_nagoya/2025/2025_0_1.jpg"
+fields:
+  - 代数
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$b, \, c$に対し，放物線$y=f(x)=x^2+bx+c$が
+2点$(p, \, 0)$，$(q, \, 0)$を通ると仮定する(ただし$p<q$)。
+また，条件$0<t\leqq1$をみたす実数$t$に対し実数$r, \, s$を次のように定める。
+\[ r=\frac{1+t}{2}p+\frac{1-t}{2}q, \hspace{1zw} s=\frac{1-t}{2}p+\frac{1+t}{2}q \]
+　以下の問に答えよ。
+\begin{description}
+\item[(1)]$q-s, \, r-p, \, s+r, \, s-r$のそれぞれを$b, \, c, \, t$を用いて表せ。
+\item[(2)]$sr$および$s^2+r^2$を$b, \, c, \, t$を用いて表せ。
+\item[(3)]放物線$y=f(x)$，直線$x=r, \, x=s$および$x$軸が囲む領域の面積を
+$b, \, c, \, t$を用いて表せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2025/2025_0_1.pdf)

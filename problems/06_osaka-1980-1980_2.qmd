@@ -1,0 +1,29 @@
+---
+title: "大阪大学 1980年 1980_2"
+problem_id: "06_osaka-1980-1980_2"
+university: "大阪大学"
+exam_year: "1980"
+source_tex: "archive/06_osaka/1980/1980_2.tex"
+pdf_source: "archive/06_osaka/1980/1980_2.pdf"
+page_image: "archive/06_osaka/1980/1980_2.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　整数$a$，$b$を係数とする2次式$f(x)=x^2+ax+b$を考える．
+$f(\alpha)=0$となるような有理数$\alpha$が存在するとき，
+以下のことを証明せよ．
+\begin{description}
+\item[(1)]$\alpha$は整数である．
+\item[(2)]任意の整数$l$と任意の自然数$n$に対して，
+$n$個の整数$f(l), \, f(l+1), \, \cdots\cdots, \, f(l+n-1)$のうち少なくとも1つは$n$で割り切れる．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1980/1980_2.pdf)

@@ -1,0 +1,37 @@
+---
+title: "北海道大学 2000年 2000_b"
+problem_id: "03_hokudai-2000-2000_b"
+university: "北海道大学"
+exam_year: "2000"
+source_tex: "archive/03_hokudai/2000/2000_b.tex"
+pdf_source: "archive/03_hokudai/2000/2000_b.pdf"
+page_image: "archive/03_hokudai/2000/2000_b.jpg"
+fields:
+  - 微分法
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$n$を自然数とする．
+\[ f_n(x)=x^2-2\left( n+\frac{1}{n} \right)x+n^2-1+e^{-x} \]
+に対して，次の問いに答えよ．
+\begin{description}
+\item[(1)]$\displaystyle n+\frac{1}{n}-2 \leqq x \leqq n+\frac{1}{n}$の範囲において，
+$f_n(x)=0$の解がただ1つ存在することを示せ．
+\item[(2)]$\displaystyle x \geqq n+\frac{1}{n}$の範囲において，
+$f_n(x)=0$の解がただ1つ存在することを示せ．
+\item[(3)]$a_n$を(1)の解，$b_n$を(2)の解とする．さらに，2次方程式
+\[ x^2-2\left( n+\frac{1}{n} \right)x+n^2-1=0 \]
+の2つの解を$p_n$，$q_n$ $(p_n \leqq q_n)$とするとき
+\[ \lim_{n\to\infty}(a_n-p_n)=0, \hspace{1zw} \lim_{n\to\infty}(b_n-q_n)=0 \]
+を示せ．
+\item[(4)]極限$\displaystyle\lim_{n\to\infty}(b_n-a_n)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2000/2000_b.pdf)

@@ -1,0 +1,28 @@
+---
+title: "東北大学 1965年 1965_6"
+problem_id: "04_tohoku-1965-1965_6"
+university: "東北大学"
+exam_year: "1965"
+source_tex: "archive/04_tohoku/1965/1965_6.tex"
+pdf_source: "archive/04_tohoku/1965/1965_6.pdf"
+page_image: "archive/04_tohoku/1965/1965_6.jpg"
+fields:
+  - 積分法
+  - 微分法
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$a$は正の定数とする。
+曲線$\displaystyle y=\frac{a}{a^2+1}\sin^2\frac{x}{a}$ $\displaystyle\left( 0 \leqq x \leqq \frac{5a\pi}{12} \right)$と
+直線$\displaystyle x=\frac{5a\pi}{12}$と$x$軸とで囲まれる部分を，
+$x$軸のまわりに回線してできる立体の体積$V$を$a$で表わせ。
+　次に，正数$a$を変化させるとき$V$の最大値はいくらか。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1965/1965_6.pdf)

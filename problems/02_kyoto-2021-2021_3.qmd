@@ -1,0 +1,24 @@
+---
+title: "京都大学 2021年 2021_3"
+problem_id: "02_kyoto-2021-2021_3"
+university: "京都大学"
+exam_year: "2021"
+source_tex: "archive/02_kyoto/2021/2021_3.tex"
+pdf_source: "archive/02_kyoto/2021/2021_3.pdf"
+page_image: "archive/02_kyoto/2021/2021_3.jpg"
+fields:
+  - 数列
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　無限級数$\displaystyle\sum_{n=0}^\infty { \left( \frac{1}{2} \right) }^n
+\cos\frac{n\pi}{6}$の和を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2021/2021_3.pdf)

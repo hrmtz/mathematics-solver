@@ -1,0 +1,28 @@
+---
+title: "京都大学 1974年 1974_4"
+problem_id: "02_kyoto-1974-1974_4"
+university: "京都大学"
+exam_year: "1974"
+source_tex: "archive/02_kyoto/1974/1974_4.tex"
+pdf_source: "archive/02_kyoto/1974/1974_4.pdf"
+page_image: "archive/02_kyoto/1974/1974_4.jpg"
+fields:
+  - 微分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$F(x)$，$g(x)$が$x$の多項式で，次の三条件をみたすものとする．$F(x)$および$g(x)$を求めよ．
+\begin{description}
+\item[(イ)]$\displaystyle\frac{dF(x)}{dx}=g(x)$．
+\item[(ロ)]$F(x)$は$g(x)$で割りきれる．
+\item[(ハ)]$g(x)$は$n$次式で，$x^n$の係数は1，$x^{n-1}$の係数は0である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1974/1974_4.pdf)

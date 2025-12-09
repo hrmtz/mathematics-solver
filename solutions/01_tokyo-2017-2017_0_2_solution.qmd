@@ -1,0 +1,198 @@
+## 解答
+
+正六角形 $ABCDEF$ の一辺の長さを $1$ とする。座標平面を用いて考える。
+
+正六角形の各頂点を次のようにおく（左回り）：
+$$
+A(1,0),\ B\!\left(\tfrac12,\tfrac{\sqrt3}{2}\right),\ 
+C\!\left(-\tfrac12,\tfrac{\sqrt3}{2}\right),\ 
+D(-1,0),\ E\!\left(-\tfrac12,-\tfrac{\sqrt3}{2}\right),\ 
+F\!\left(\tfrac12,-\tfrac{\sqrt3}{2}\right).
+$$
+
+点 $P$ は辺 $AB$ 上、点 $Q$ は辺 $CD$ 上を自由に動く。  
+$P,Q$ を辺の内分で表すために、辺 $AB,CD$ 上のパラメータを導入する。
+
+辺 $AB$ 上で、$A$ から $B$ に向かう向きにパラメータ $s\ (0\le s\le1)$ をとると，
+$$
+\vec{AP}=s\vec{AB}\quad\Longrightarrow\quad
+P = (1,0)+ s\!\left(\tfrac12-1,\ \tfrac{\sqrt3}{2}-0\right)
+= \left(1-\tfrac{s}{2},\ \tfrac{\sqrt3}{2}s\right).
+$$
+
+同様に辺 $CD$ 上で，$C$ から $D$ に向かう向きにパラメータ $t\ (0\le t\le1)$ をとると，
+$$
+\vec{CQ}=t\vec{CD}\quad\Longrightarrow\quad
+Q = \left(-\tfrac12,\tfrac{\sqrt3}{2}\right)
+ + t\!\left(-1+\tfrac12,\ 0-\tfrac{\sqrt3}{2}\right)
+= \left(-\tfrac12-\tfrac{t}{2},\ \tfrac{\sqrt3}{2}(1-t)\right).
+$$
+
+線分 $PQ$ を $2:1$ に内分する点 $R$ は，内分点の公式より
+$$
+\vec{R}=\frac{1\cdot\vec{P}+2\cdot\vec{Q}}{1+2}
+      =\frac{\vec{P}+2\vec{Q}}{3}
+$$
+で与えられる。したがって，$R$ の座標 $(x,y)$ は
+$$
+x=\frac{1}{3}\left\{\left(1-\tfrac{s}{2}\right)
++2\left(-\tfrac12-\tfrac{t}{2}\right)\right\},
+\quad
+y=\frac{1}{3}\left\{\tfrac{\sqrt3}{2}s
++2\cdot\tfrac{\sqrt3}{2}(1-t)\right\}
+$$
+となる。これを計算する。
+
+まず $x$ 座標：
+\[
+\begin{aligned}
+x
+&=\frac{1}{3}\left(1-\frac{s}{2}-1-t\right)
+ =\frac{1}{3}\left(-\frac{s}{2}-t\right)  \\
+&=-\frac{1}{6}s-\frac{1}{3}t.
+\end{aligned}
+\]
+
+次に $y$ 座標：
+\[
+\begin{aligned}
+y
+&=\frac{1}{3}\left(\frac{\sqrt3}{2}s
+ +\sqrt3(1-t)\right)
+ =\frac{\sqrt3}{3}\left(\frac{s}{2}+1-t\right).
+\end{aligned}
+\]
+
+したがって
+$$
+R(x,y)=\left(
+-\frac{1}{6}s-\frac{1}{3}t,\ 
+\frac{\sqrt3}{3}\left(\frac{s}{2}+1-t\right)
+\right),
+\quad 0\le s\le1,\ 0\le t\le1.
+$$
+
+点 $R$ の動く範囲は，$(s,t)$ が単位正方形 $[0,1]\times[0,1]$ を動くときの写像
+$(s,t)\mapsto(x,y)$ の像である。  
+これは線形変換と平行移動を含むアフィン変換なので，像は四角形（平行四辺形）となる。
+
+まず，$s,t$ の 4 つの組 $(0,0),(1,0),(0,1),(1,1)$ に対応する $R$ を求めて，その頂点を求める。
+
+- $(s,t)=(0,0)$ のとき
+  \[
+  x=-\frac{1}{6}\cdot0-\frac{1}{3}\cdot0=0,\quad
+  y=\frac{\sqrt3}{3}\left(0+1-0\right)=\frac{\sqrt3}{3}.
+  \]
+  よって $R_1(0,\ \tfrac{\sqrt3}{3})$。
+
+- $(s,t)=(1,0)$ のとき
+  \[
+  x=-\frac{1}{6}\cdot1-\frac{1}{3}\cdot0=-\frac{1}{6},\quad
+  y=\frac{\sqrt3}{3}\left(\frac12+1-0\right)
+   =\frac{\sqrt3}{3}\cdot\frac32=\frac{\sqrt3}{2}.
+  \]
+  よって $R_2\!\left(-\tfrac{1}{6},\ \tfrac{\sqrt3}{2}\right)$。
+
+- $(s,t)=(0,1)$ のとき
+  \[
+  x=-\frac{1}{6}\cdot0-\frac{1}{3}\cdot1=-\frac{1}{3},\quad
+  y=\frac{\sqrt3}{3}\left(0+1-1\right)=0.
+  \]
+  よって $R_3\!\left(-\tfrac{1}{3},\ 0\right)$。
+
+- $(s,t)=(1,1)$ のとき
+  \[
+  x=-\frac{1}{6}\cdot1-\frac{1}{3}\cdot1
+   =-\frac{1}{6}-\frac{1}{3}=-\frac{1}{2},\quad
+  y=\frac{\sqrt3}{3}\left(\frac12+1-1\right)
+   =\frac{\sqrt3}{3}\cdot\frac12=\frac{\sqrt3}{6}.
+  \]
+  よって $R_4\!\left(-\tfrac{1}{2},\ \tfrac{\sqrt3}{6}\right)$。
+
+これら 4 点 $R_1,R_2,R_3,R_4$ の位置関係を調べる。
+
+ベクトルを用いると，
+\[
+\vec{R_1R_2}
+=R_2-R_1
+=\left(-\tfrac{1}{6},\ \tfrac{\sqrt3}{2}-\tfrac{\sqrt3}{3}\right)
+=\left(-\tfrac{1}{6},\ \tfrac{\sqrt3}{6}\right),
+\]
+\[
+\vec{R_3R_4}
+=R_4-R_3
+=\left(-\tfrac{1}{2}+\tfrac{1}{3},\ \tfrac{\sqrt3}{6}-0\right)
+=\left(-\tfrac{1}{6},\ \tfrac{\sqrt3}{6}\right)
+\]
+となり，
+$$
+\vec{R_1R_2}=\vec{R_3R_4}
+$$
+であるから，$R_1R_2$ と $R_3R_4$ は平行かつ等長である。
+
+また
+\[
+\vec{R_1R_3}
+=R_3-R_1
+=\left(-\tfrac{1}{3}-0,\ 0-\tfrac{\sqrt3}{3}\right)
+=\left(-\tfrac{1}{3},\ -\tfrac{\sqrt3}{3}\right),
+\]
+\[
+\vec{R_2R_4}
+=R_4-R_2
+=\left(-\tfrac{1}{2}+\tfrac{1}{6},\ \tfrac{\sqrt3}{6}-\tfrac{\sqrt3}{2}\right)
+=\left(-\tfrac{1}{3},\ -\tfrac{\sqrt3}{3}\right)
+\]
+より
+$$
+\vec{R_1R_3}=\vec{R_2R_4}
+$$
+だから，$R_1R_3$ と $R_2R_4$ も平行かつ等長である。  
+したがって $R_1,R_2,R_4,R_3$（あるいは $R_1,R_2,R_3,R_4$ の順）を頂点とする四角形は平行四辺形であり，これが $R$ の動きうる領域となる。
+
+この平行四辺形の面積を求める。
+
+隣り合う 2 辺のベクトルとして $\vec{R_1R_2},\vec{R_1R_3}$ をとると，
+\[
+\vec{R_1R_2}=\left(-\tfrac{1}{6},\ \tfrac{\sqrt3}{6}\right),
+\quad
+\vec{R_1R_3}=\left(-\tfrac{1}{3},\ -\tfrac{\sqrt3}{3}\right).
+\]
+平行四辺形の面積は，これら 2 ベクトルの外積の大きさで与えられる。  
+2 次元ベクトル $(a,b),(c,d)$ の外積の大きさは $|ad-bc|$ であるから，
+\[
+\begin{aligned}
+S
+&=\left|
+\det
+\begin{pmatrix}
+-\frac{1}{6} & -\frac{1}{3} \\
+\frac{\sqrt3}{6} & -\frac{\sqrt3}{3}
+\end{pmatrix}
+\right|
+=
+\left|
+\left(-\frac{1}{6}\right)\left(-\frac{\sqrt3}{3}\right)
+-
+\left(-\frac{1}{3}\right)\left(\frac{\sqrt3}{6}\right)
+\right| \\
+&=
+\left|
+\frac{\sqrt3}{18}
++
+\frac{\sqrt3}{18}
+\right|
+=
+\left|
+\frac{2\sqrt3}{18}
+\right|
+=
+\frac{\sqrt3}{9}.
+\end{aligned}
+\]
+
+ゆえに，点 $R$ が通りうる範囲の面積は
+$$
+\boxed{\dfrac{\sqrt3}{9}}
+$$
+である。

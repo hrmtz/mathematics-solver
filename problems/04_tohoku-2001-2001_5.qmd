@@ -1,0 +1,24 @@
+---
+title: "東北大学 2001年 2001_5"
+problem_id: "04_tohoku-2001-2001_5"
+university: "東北大学"
+exam_year: "2001"
+source_tex: "archive/04_tohoku/2001/2001_5.tex"
+pdf_source: "archive/04_tohoku/2001/2001_5.pdf"
+page_image: "archive/04_tohoku/2001/2001_5.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　複素数$z=x+yi$，$w=u+vi$（ただし，$x$，$y$，$u$，$v$は実数）は
+$|z|=|w|=1$を満たし，$yv<0$とする．
+$|1+z+w|<1$となるための必要十分条件を$x$と$u$を用いて表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_5.pdf)

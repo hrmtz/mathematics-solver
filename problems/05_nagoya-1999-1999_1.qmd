@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 1999年 1999_1"
+problem_id: "05_nagoya-1999-1999_1"
+university: "名古屋大学"
+exam_year: "1999"
+source_tex: "archive/05_nagoya/1999/1999_1.tex"
+pdf_source: "archive/05_nagoya/1999/1999_1.pdf"
+page_image: "archive/05_nagoya/1999/1999_1.jpg"
+fields:
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]ベクトル$\overrightarrow{a}=(a_1, \, a_2)$が次の条件（＊）をみたすとき，
+点$(a_1, \, a_2)$の存在範囲を図示せよ．
+\begin{description}
+\item[（＊）]あるベクトル$\overrightarrow{b}=(b_1, \, b_2)$が存在して，
+${(\overrightarrow{a}\cdot\overrightarrow{p})}^2+{(\overrightarrow{b}\cdot\overrightarrow{p})}^2={|\overrightarrow{p}|}^2$が
+任意のベクトル$\overrightarrow{p}$に対して成り立つ．
+\end{description}
+\item[(2)](1)で求めた$\overrightarrow{a}=(a_1, \, a_2)$に対して，
+条件（＊）にあるベクトル$\overrightarrow{b}=(b_1, \, b_2)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1999/1999_1.pdf)

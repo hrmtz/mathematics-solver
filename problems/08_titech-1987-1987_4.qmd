@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 1987年 1987_4"
+problem_id: "08_titech-1987-1987_4"
+university: "東京科学大学"
+exam_year: "1987"
+source_tex: "archive/08_titech/1987/1987_4.tex"
+pdf_source: "archive/08_titech/1987/1987_4.pdf"
+page_image: "archive/08_titech/1987/1987_4.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$を正数とし，媒介変数$t$によって表示された曲線
+\[ C:x=t+e^{at}, \hspace{1zw} y=-t+e^{at} \hspace{1zw} (-\infty<t<\infty) \]
+が$x$軸に接しているとする．このとき次の問に答えよ．
+\begin{description}
+\item[(1)]$a$の値を求めよ．
+\item[(2)]2直線$y=0$，$y=x$および曲線$C$によって囲まれた部分の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1987/1987_4.pdf)

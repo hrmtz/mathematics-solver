@@ -1,0 +1,30 @@
+---
+title: "九州大学 2005年 2005_0_4"
+problem_id: "07_kyushu-2005-2005_0_4"
+university: "九州大学"
+exam_year: "2005"
+source_tex: "archive/07_kyushu/2005/2005_0_4.tex"
+pdf_source: "archive/07_kyushu/2005/2005_0_4.pdf"
+page_image: "archive/07_kyushu/2005/2005_0_4.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　1つのさいころを4回投げて，出た目の数を順に$x_1$，$x_2$，$x_3$，$x_4$とする．
+このとき次の問いに答えよ．
+\begin{description}
+\item[(1)]$x_1<x_2$となる確率を求めよ．
+\item[(2)]$x_1<x_2<x_3$となる確率を求めよ．
+\item[(3)]$x_1<x_2$かつ$x_2 \geqq x_3$となる確率を求めよ．
+\item[(4)]$x_k \geqq x_{k+1}$となる最小の自然数$k$の期待値を求めよ．
+ただし，$x_1<x_2<x_3<x_4$のときは$k=4$と定める．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_0_4.pdf)

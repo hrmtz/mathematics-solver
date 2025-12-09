@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1961年 1961_2"
+problem_id: "08_titech-1961-1961_2"
+university: "東京科学大学"
+exam_year: "1961"
+source_tex: "archive/08_titech/1961/1961_2.tex"
+pdf_source: "archive/08_titech/1961/1961_2.pdf"
+page_image: "archive/08_titech/1961/1961_2.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　関数$f(x)=a+b\cos x+c\sin x$のグラフが
+2点$(0, \, 1)$，$\displaystyle\left( \frac{\pi}{2}, \, 1 \right)$を通り，
+かつ$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$で$|f(x)|\leqq2$であるとき
+$a$の値はどのような範囲にあるか。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1961/1961_2.pdf)

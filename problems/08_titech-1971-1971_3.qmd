@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 1971年 1971_3"
+problem_id: "08_titech-1971-1971_3"
+university: "東京科学大学"
+exam_year: "1971"
+source_tex: "archive/08_titech/1971/1971_3.tex"
+pdf_source: "archive/08_titech/1971/1971_3.pdf"
+page_image: "archive/08_titech/1971/1971_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$f(x)$，$g(x)$は$x$の3次関数で$f(0)=g(0)$，$f(2)=g(2)$，$f(3)=g(3)$，
+$f'''(x)=18$，$g'''(x)=12$を満たすとし，
+$\displaystyle F(\theta)=\cos^2\theta\int_1^3f(x)dx+\sin^2\theta\int_1^3g(x)dx$とおく．
+区間$[0, \, 2\pi]$において$F(\theta)$を最大とする$\theta$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1971/1971_3.pdf)

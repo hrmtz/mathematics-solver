@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1988年 1988_1"
+problem_id: "06_osaka-1988-1988_1"
+university: "大阪大学"
+exam_year: "1988"
+source_tex: "archive/06_osaka/1988/1988_1.tex"
+pdf_source: "archive/06_osaka/1988/1988_1.pdf"
+page_image: "archive/06_osaka/1988/1988_1.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$n$は正の整数とする．
+$n$次式$x^n$を2次式$f(x)=x^2-ax+b$で割った余りを$r_nx+s_n$とおく．
+\begin{description}
+\item[(1)]すべての正の整数$m$，$n$について次の式が成り立つことを示せ．
+\[ r_{m+n}=r_ms_n+r_ns_m+ar_mr_n, \hspace{1zw} s_{m+n}=s_ms_n-br_mr_n \]
+\item[(2)]${(a-x)}^n$を$f(x)$で割った余りを$t_nx+u_n$とおくとき，
+次の式が成り立つことを示せ．
+\[ t_n=-r_n, \hspace{1zw} u_n=ar_n+s_n \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1988/1988_1.pdf)

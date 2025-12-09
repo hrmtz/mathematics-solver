@@ -1,0 +1,33 @@
+---
+title: "東京大学 1990年 1990_6"
+problem_id: "01_tokyo-1990-1990_6"
+university: "東京大学"
+exam_year: "1990"
+source_tex: "archive/01_tokyo/1990/1990_6.tex"
+pdf_source: "archive/01_tokyo/1990/1990_6.pdf"
+page_image: "archive/01_tokyo/1990/1990_6.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　一つのサイコロを続けて投げて，
+最初の$n$回に出た目の数をその順序のまま小数点以下に並べてできる実数を$a_n$とおく．
+たとえば，
+出た目の数が$5,2,6,\cdots\cdots$であれば，
+$a_1=0.5,a_2=0.52,a_3=0.526,\cdots\cdots$である．
+実数$\alpha$に対して$a_n\leqq\alpha$となる確率を$p_n(\alpha)$とおく．
+\begin{description}
+\item[(1)]$\displaystyle\lim_{n\to\infty}p_n \left( \frac{41}{333} \right)$を求めよ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}p_n(\alpha)=\frac{1}{2}$となるのは
+$\alpha$がどのような範囲にあるときか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1990/1990_6.pdf)

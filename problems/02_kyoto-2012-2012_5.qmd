@@ -1,0 +1,30 @@
+---
+title: "京都大学 2012年 2012_5"
+problem_id: "02_kyoto-2012-2012_5"
+university: "京都大学"
+exam_year: "2012"
+source_tex: "archive/02_kyoto/2012/2012_5.tex"
+pdf_source: "archive/02_kyoto/2012/2012_5.pdf"
+page_image: "archive/02_kyoto/2012/2012_5.jpg"
+fields:
+  - 平面図形
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　次の命題(p),(q)のそれぞれについて，正しいかどうか答えよ．
+正しければ証明し，正しくなければ反例を挙げて正しくないことを説明せよ．
+\begin{description}
+\item[(p)]正$n$角形の頂点から3点を選んで内角の1つが$60^\circ$である
+三角形を作ることができるならば，$n$は3の倍数である．
+\item[(q)]$\triangle ABC$と$\triangle ABD$において，
+$AC<AD$かつ$BC<BD$ならば，$\angle C > \angle D$である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2012/2012_5.pdf)

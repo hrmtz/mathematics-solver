@@ -1,0 +1,24 @@
+---
+title: "東京大学 1964年 1964_0_5"
+problem_id: "01_tokyo-1964-1964_0_5"
+university: "東京大学"
+exam_year: "1964"
+source_tex: "archive/01_tokyo/1964/1964_0_5.tex"
+pdf_source: "archive/01_tokyo/1964/1964_0_5.pdf"
+page_image: "archive/01_tokyo/1964/1964_0_5.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　曲線$y=ax^3+bx^2+cx+d$ $(a\neq0)$と$y$軸との交点を$A$とする．
+この曲線上の点$P(x,y)$における曲線の接線と$y$軸との交点を$Q$とするとき，
+$\displaystyle\lim_{x\to0}\frac{{AQ}^2}{{AP}^2}$，$\displaystyle\lim_{x\to+\infty}\frac{{AQ}^2}{{AP}^2}$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1964/1964_0_5.pdf)

@@ -1,0 +1,24 @@
+---
+title: "京都大学 2013年 2013_0_1"
+problem_id: "02_kyoto-2013-2013_0_1"
+university: "京都大学"
+exam_year: "2013"
+source_tex: "archive/02_kyoto/2013/2013_0_1.tex"
+pdf_source: "archive/02_kyoto/2013/2013_0_1.pdf"
+page_image: "archive/02_kyoto/2013/2013_0_1.jpg"
+fields:
+  - 代数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$を2以上の実数とし，$f(x)=(x+a)(x+2)$とする．
+このとき$f(f(x))>0$がすべての実数$x$に対して成り立つような$a$の範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2013/2013_0_1.pdf)

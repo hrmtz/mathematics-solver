@@ -1,0 +1,257 @@
+## 解答
+
+(＊)　$z\bar{z}+\alpha z+\beta\bar{z}+\gamma=0$
+
+### (1)
+
+(＊)の両辺を共役にすると，
+$$
+\overline{z\bar{z}}+\overline{\alpha z}+\overline{\beta\bar{z}}+\overline{\gamma}=0
+$$
+となる。ここで，$\overline{z\bar{z}}=\bar{z}z=z\bar{z}$，$\overline{\alpha z}=\bar{\alpha}\bar{z}$，$\overline{\beta\bar{z}}=\bar{\beta}z$ であるから，
+$$
+z\bar{z}+\bar{\alpha}\bar{z}+\bar{\beta}z+\bar{\gamma}=0
+$$
+を得る。
+
+(＊)からこの式を引くと，
+$$
+(z\bar{z}+\alpha z+\beta\bar{z}+\gamma)-
+(z\bar{z}+\bar{\alpha}\bar{z}+\bar{\beta}z+\bar{\gamma})=0
+$$
+より，
+$$
+\alpha z+\beta\bar{z}+\gamma-\bar{\alpha}\bar{z}-\bar{\beta}z-\bar{\gamma}=0
+$$
+すなわち，
+$$
+(\alpha-\bar{\beta})z-(\bar{\alpha}-\beta)\bar{z}+\gamma-\bar{\gamma}=0
+$$
+となる。求める式が示された。
+
+### (2)
+
+条件より $|\alpha|=|\beta|\neq 0$，$\gamma$ は負の実数である。
+
+(1) で得た式
+$$
+(\alpha-\bar{\beta})z-(\bar{\alpha}-\beta)\bar{z}+\gamma-\bar{\gamma}=0
+\tag{1}
+$$
+を用いる。ここで $\gamma$ は実数なので $\gamma-\bar{\gamma}=0$ であり，
+$$
+(\alpha-\bar{\beta})z-(\bar{\alpha}-\beta)\bar{z}=0
+$$
+となる。
+
+係数を調べると，
+$$
+\overline{\alpha-\bar{\beta}}=\bar{\alpha}-\beta
+$$
+が成り立つから，この式は
+$$
+(\alpha-\bar{\beta})z-\overline{\alpha-\bar{\beta}}\;\bar{z}=0
+\tag{2}
+$$
+と書ける。
+
+#### (a) $\alpha-\bar{\beta}\neq 0$ の場合
+
+$\alpha-\bar{\beta}\neq 0$ と仮定すると，(2) より
+$$
+(\alpha-\bar{\beta})z=\overline{\alpha-\bar{\beta}}\;\bar{z}
+$$
+となる。ここで $w=\alpha-\bar{\beta}$ とおくと，
+$$
+wz=\bar{w}\,\bar{z}
+$$
+であり，$z\neq 0$ のとき両辺を $z$ で割ると
+$$
+w=\bar{w}\,\frac{\bar{z}}{z}
+$$
+となる。よって
+$$
+\frac{\bar{z}}{z}=\frac{w}{\bar{w}}
+$$
+が成り立つ。左辺は $z\neq 0$ のとき絶対値 1 の複素数である（$\left|\frac{\bar{z}}{z}\right|=\frac{|z|}{|z|}=1$）から，右辺も絶対値 1 である。したがって $|w|=|\bar{w}|$ より $|w|=|w|$ は自明に成り立つが，この条件から，
+$$
+\frac{\bar{z}}{z}=\frac{w}{\bar{w}}
+$$
+は $z$ の偏角を $w$ によって一意に決める関係を与える。すなわち，(2) は $z$ を原点を通るある直線上に制約する条件である。
+
+さらに $\alpha,\beta,\gamma$ の条件を用いて (＊) を実数表示で考えるため，$z=x+yi$ とおく。すると
+$$
+z\bar{z}=x^2+y^2
+$$
+であり，(＊) は
+$$
+x^2+y^2+\alpha z+\beta\bar{z}+\gamma=0
+\tag{3}
+$$
+を表す。この式は複素数平面上で中心が原点でない「円」あるいは「点」や「解なし」を表す 2 次曲線になる。
+
+一方，(2) は $z$ と $\bar{z}$ の間の一次関係式であり，幾何的には直線を表す。したがって，(＊) を満たす $z$ は，「(3) で表される円」と「(2) で表される直線」の交点として解釈できる。
+
+$|\alpha|=|\beta|\neq 0$ かつ $\alpha-\bar{\beta}\neq 0$ のもとで，(3) が原点を中心とする円になるかどうかを調べる。
+
+$\alpha,\beta$ を用いて
+$$
+\alpha z+\beta\bar{z}=
+\alpha(x+yi)+\beta(x-yi)
+=(\alpha+\beta)x+(\alpha-\beta)yi
+$$
+であり，これを実部と虚部に分解すると，(＊) の実部が 0 でなければならない。ところが，円の一般形
+$$
+x^2+y^2+ux+vy+c=0
+$$
+と比較すると，円の中心は
+$$
+\left(-\frac{u}{2},-\frac{v}{2}\right)
+$$
+で与えられる。ここで $u,v$ は実数でなければならない。すなわち $(\alpha+\beta)$ および $(\alpha-\beta)i$ の係数がともに実数となるには，$\alpha$ と $\beta$ の実部・虚部に一定の関係が必要である。
+
+以下，(＊) が円を表し，それと (2) が 2 点で交わる条件を求めるのが目標だが，ここで，実際に解の個数を判定するには，(＊) に (2) による制約を代入して 2 次方程式を得て，その判別式を考えるのが有効である。
+
+(2) は $z$ と $\bar{z}$ の一次従属を与えるから，$z$ を $t$（実数）を用いて一次式で表せる。そこで $z=re^{i\theta}$ の形で考える。$w=\alpha-\bar{\beta}$ とおくと (2) より
+$$
+wz-\bar{w}\bar{z}=0
+\quad\Rightarrow\quad
+wre^{i\theta}-\bar{w}re^{-i\theta}=0
+$$
+したがって $r\neq 0$ のとき
+$$
+we^{i\theta}-\bar{w}e^{-i\theta}=0
+\quad\Rightarrow\quad
+we^{i\theta}=\bar{w}e^{-i\theta}
+\quad\Rightarrow\quad
+e^{2i\theta}=\frac{\bar{w}}{w}
+$$
+であり，右辺は絶対値 1 の複素数なので，$\theta$ は 2 通りに定まる。したがって，(2) を満たす $z$ は，原点を通る直線上（すなわち $\theta$ が 2 通りのいずれか）にある。
+
+よって (＊) を満たす $z$ がちょうど 2 個であるには，
+
+- (3) が半径をもつ円（すなわち実際に円であり，点や解なしではない）であり，
+- その円が原点中心の円（$x^2+y^2=R^2$ の形）となっており，
+- その円と直線 (2) が 2 点で交わる
+
+ことが必要十分である。
+
+(3) において，$\alpha z+\beta\bar{z}$ の「$x$ および $y$ の一次の項」が 0 であれば，中心は原点となる。したがって
+$$
+\alpha z+\beta\bar{z}
+$$
+の係数が 0，すなわち
+$$
+\alpha+\beta=0
+$$
+および
+$$
+\alpha-\beta=0
+$$
+の両方が必要となるが，これらを同時に満たすのは $\alpha=\beta=0$ のみであり，これは $|\alpha|=|\beta|\neq 0$ に反する。よって中心が原点にはならない。
+
+ここで方針を改め，実際に次数条件に基づいて議論する。$z$ と $\bar{z}$ は独立な変数のように扱えるが，(＊) は $z\bar{z}$ の形で 2 次である。これと (2) の一次独立な条件を併せると，通常は有限個の解を持つことが期待される。
+
+そこで，$\alpha-\bar{\beta}\neq 0$ のもとで，(2) より
+$$
+\bar{z}=\frac{\alpha-\bar{\beta}}{\bar{\alpha}-\beta}\,z
+$$
+と書くことができる。ここで
+$$
+\lambda=\frac{\alpha-\bar{\beta}}{\bar{\alpha}-\beta}
+$$
+とおくと，$\bar{z}=\lambda z$ である。これを (＊) に代入すると，
+$$
+z\bar{z}+\alpha z+\beta\bar{z}+\gamma=0
+\quad\Rightarrow\quad
+z(\lambda z)+\alpha z+\beta(\lambda z)+\gamma=0
+$$
+すなわち
+$$
+\lambda z^2+(\alpha+\beta\lambda)z+\gamma=0
+\tag{4}
+$$
+を得る。ただし $\lambda\neq 0$ であり，(4) は $z$ に関する 2 次方程式である。
+
+(＊) を満たす $z$ がちょうど 2 個あるとは，(4) の判別式が正であり，かつ $z\neq 0$ が 2 個存在することと同値である。判別式 $D$ を
+$$
+D=(\alpha+\beta\lambda)^2-4\lambda\gamma
+$$
+とおく。$\gamma$ は負の実数であり，$\lambda\neq 0$ なので $-4\lambda\gamma$ の実部が正になるように $\lambda$ が実数負であれば必ず $D>0$ など，具体的な形は $\alpha,\beta$ に依存する。
+
+ここで $\lambda$ の定義に戻ると，
+$$
+\lambda=\frac{\alpha-\bar{\beta}}{\bar{\alpha}-\beta}
+$$
+であるが，$|\alpha|=|\beta|$ より $|\alpha-\bar{\beta}|=|\bar{\alpha}-\beta|$ が成り立つかどうかを調べる。両辺を 2 乗すると
+$$
+|\alpha-\bar{\beta}|^2
+=(\alpha-\bar{\beta})(\bar{\alpha}-\beta)
+=|\alpha|^2- \alpha\beta-\bar{\alpha}\bar{\beta}+|\beta|^2
+$$
+同様に
+$$
+|\bar{\alpha}-\beta|^2
+=(\bar{\alpha}-\beta)(\alpha-\bar{\beta})
+=|\alpha|^2- \alpha\beta-\bar{\alpha}\bar{\beta}+|\beta|^2
+$$
+であり，両者は等しい。したがって，
+$$
+|\alpha-\bar{\beta}|=|\bar{\alpha}-\beta|
+$$
+となり，従って $|\lambda|=1$ がいえる。
+
+ゆえに (4) の係数は，$|\lambda|=1$，$\gamma<0$，$|\alpha|=|\beta|\neq 0$ という条件のもとで決まる。
+
+2 次方程式 (4) がちょうど 2 個の解を持つための必要十分条件は，判別式 $D$ が 0 でなく，かつ $\lambda\neq 0$ であること，すなわち
+$$
+(\alpha+\beta\lambda)^2-4\lambda\gamma\neq 0
+$$
+である。$\lambda$ を $\alpha,\beta$ で戻せば，
+$$
+\lambda=\frac{\alpha-\bar{\beta}}{\bar{\alpha}-\beta}
+$$
+であるから，
+$$
+\left(\alpha+\beta\frac{\alpha-\bar{\beta}}{\bar{\alpha}-\beta}\right)^2
+-4\frac{\alpha-\bar{\beta}}{\bar{\alpha}-\beta}\gamma\neq 0
+$$
+がちょうど 2 個の解を持つための必要十分条件である。
+
+#### (b) $\alpha-\bar{\beta}=0$ の場合
+
+$\alpha-\bar{\beta}=0$ すなわち $\alpha=\bar{\beta}$ のとき，(2) は恒等的に $0=0$ となるから，(＊) のみが条件である。このとき $|\alpha|=|\beta|$ は自動的に成り立ち，(＊) は
+$$
+z\bar{z}+\alpha z+\bar{\alpha}\bar{z}+\gamma=0
+$$
+となる。ここで $\alpha=a+bi$ とすると，
+$$
+\alpha z+\bar{\alpha}\bar{z}
+=(a+bi)(x+yi)+(a-bi)(x-yi)=2(ax-by)
+$$
+は実数であるから，(＊) は
+$$
+x^2+y^2+2(ax-by)+\gamma=0
+$$
+という $x,y$ に関する円の方程式（あるいはその退化形）を表す。
+
+この円が複素数平面と交わる点の個数は，円が実在し（半径が正），しかも一点でなく 2 点で原点を通る直線など特定の直線と交わる状況に依存するが，ここでは直線条件がないので，一般には無数の解を持つ。そのため，「解がちょうど 2 個」という状況は起こらない。したがって，$\alpha-\bar{\beta}=0$ の場合は除外される。
+
+---
+
+以上をまとめると，$|\alpha|=|\beta|\neq 0$，$\gamma<0$ のもとで (＊) を満たす $z$ がちょうど 2 個あるための必要十分条件は
+
+- $\alpha\neq\bar{\beta}$（すなわち $\alpha-\bar{\beta}\neq 0$）であり，
+- そのとき $\lambda=\dfrac{\alpha-\bar{\beta}}{\bar{\alpha}-\beta}$ とおけば，判別式
+  $$
+  D=(\alpha+\beta\lambda)^2-4\lambda\gamma
+  $$
+  が $0$ でないこと，
+
+すなわち
+$$
+\alpha\neq\bar{\beta},\quad
+\left(\alpha+\beta\frac{\alpha-\bar{\beta}}{\bar{\alpha}-\beta}\right)^2
+\neq 4\frac{\alpha-\bar{\beta}}{\bar{\alpha}-\beta}\gamma
+$$
+である。これが求める条件である。

@@ -1,0 +1,26 @@
+---
+title: "北海道大学 1982年 1982_0_2"
+problem_id: "03_hokudai-1982-1982_0_2"
+university: "北海道大学"
+exam_year: "1982"
+source_tex: "archive/03_hokudai/1982/1982_0_2.tex"
+pdf_source: "archive/03_hokudai/1982/1982_0_2.pdf"
+page_image: "archive/03_hokudai/1982/1982_0_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+\item[(1)]$|X|+|Y|\leqq2$を満たす点$P(X, \, Y)$の存在する範囲を$XY$平面に図示せよ．
+\item[(2)]$x=X-Y$，$y=XY$とおく．
+点$P(X, \, Y)$が(1)の範囲を動くとき，点$Q(x, \, y)$の動く範囲を求め，これを$xy$平面に図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1982/1982_0_2.pdf)

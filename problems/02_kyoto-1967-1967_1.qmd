@@ -1,0 +1,27 @@
+---
+title: "京都大学 1967年 1967_1"
+problem_id: "02_kyoto-1967-1967_1"
+university: "京都大学"
+exam_year: "1967"
+source_tex: "archive/02_kyoto/1967/1967_1.tex"
+pdf_source: "archive/02_kyoto/1967/1967_1.pdf"
+page_image: "archive/02_kyoto/1967/1967_1.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(i)]$x$についての方程式$x(x-3)(x+3)+3k(x-1)(x+1)=0$ $(k>0)$は
+3実根をもつことを証明せよ．
+\item[(ii)]上の方程式の正の根はただ1つで，
+1と$\displaystyle 1+\frac{2}{k}$との間にあることを証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1967/1967_1.pdf)

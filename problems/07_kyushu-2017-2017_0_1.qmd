@@ -1,0 +1,30 @@
+---
+title: "九州大学 2017年 2017_0_1"
+problem_id: "07_kyushu-2017-2017_0_1"
+university: "九州大学"
+exam_year: "2017"
+source_tex: "archive/07_kyushu/2017/2017_0_1.tex"
+pdf_source: "archive/07_kyushu/2017/2017_0_1.pdf"
+page_image: "archive/07_kyushu/2017/2017_0_1.jpg"
+fields:
+  - 平面図形
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　定数$a<1$に対し，放物線$C_1:y=2x^2+1$，$C_2:y=-x^2+a$を考える。以下の問いに答えよ。
+\begin{description}
+\item[(1)]放物線$C_1$，$C_2$の両方に接する2つの直線の方程式をそれぞれ$a$を用いて表せ。
+\item[(2)]$C_1$と(1)で求めた2つの直線で囲まれた図形の面積を$S_1$，
+$C_2$と(1)で求めた2つの直線で囲まれた図形の面積を$S_2$とするとき，
+$\displaystyle\frac{S_2}{S_1}$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_0_1.pdf)

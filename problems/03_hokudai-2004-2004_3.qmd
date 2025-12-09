@@ -1,0 +1,33 @@
+---
+title: "北海道大学 2004年 2004_3"
+problem_id: "03_hokudai-2004-2004_3"
+university: "北海道大学"
+exam_year: "2004"
+source_tex: "archive/03_hokudai/2004/2004_3.tex"
+pdf_source: "archive/03_hokudai/2004/2004_3.pdf"
+page_image: "archive/03_hokudai/2004/2004_3.jpg"
+fields:
+  - 指数・対数
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$を1以上の実数，$b$を正の実数とする．
+\begin{description}
+\item[(1)]0以上のすべての実数$x$について，
+不等式$e^x-a(x+2b)\geqq0$が成り立つための，
+$a$，$b$の満たすべき条件を求めよ．
+ただし，$e$は自然対数の底とする．
+\item[(2)]$a$，$b$が(1)で求めた範囲を動くとき，
+定積分$\displaystyle\frac{1}{ae^b}\int_0^1\frac{1}{x+2b}dx$の値を最小にする$a$，$b$と，
+その最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2004/2004_3.pdf)

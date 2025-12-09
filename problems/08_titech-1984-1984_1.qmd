@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 1984年 1984_1"
+problem_id: "08_titech-1984-1984_1"
+university: "東京科学大学"
+exam_year: "1984"
+source_tex: "archive/08_titech/1984/1984_1.tex"
+pdf_source: "archive/08_titech/1984/1984_1.pdf"
+page_image: "archive/08_titech/1984/1984_1.jpg"
+fields:
+  - 不等式
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$，$b$を正の整数とする．
+\begin{description}
+\item[(1)]$c=a+b$，$d=a^2-ab+b^2$とおくとき，
+不等式$\displaystyle1<\frac{c^2}{d}\leqq4$が成り立つことを示せ．
+\item[(2)]$a^3+b^3$が素数の整数乗になる$a$，$b$をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1984/1984_1.pdf)

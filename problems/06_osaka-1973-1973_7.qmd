@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1973年 1973_7"
+problem_id: "06_osaka-1973-1973_7"
+university: "大阪大学"
+exam_year: "1973"
+source_tex: "archive/06_osaka/1973/1973_7.tex"
+pdf_source: "archive/06_osaka/1973/1973_7.pdf"
+page_image: "archive/06_osaka/1973/1973_7.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+7
+\begin{description}
+\item[(1)]$\sin A\sin C=\sin B\sin D$のとき，
+4角形$ABCD$は台形であることを証明せよ．
+\item[(2)]台形$ABCD$において，辺$BC$，辺$DA$の長さをそれぞれ$x$ cm，$y$ cm，
+直線$AB$と直線$CD$の交点から辺$BC$に下ろした垂線の長さを$z$ cmとする．
+$\sqrt{x}-\sqrt{y}=2$，$\displaystyle x=\frac{z+1}{2}$，$\displaystyle y=\frac{15-z}{2}$であるとき，
+台形$ABCD$の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1973/1973_7.pdf)

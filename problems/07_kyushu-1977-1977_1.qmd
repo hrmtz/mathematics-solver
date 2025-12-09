@@ -1,0 +1,31 @@
+---
+title: "九州大学 1977年 1977_1"
+problem_id: "07_kyushu-1977-1977_1"
+university: "九州大学"
+exam_year: "1977"
+source_tex: "archive/07_kyushu/1977/1977_1.tex"
+pdf_source: "archive/07_kyushu/1977/1977_1.pdf"
+page_image: "archive/07_kyushu/1977/1977_1.jpg"
+fields:
+  - 不等式
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$f(x, \, y)=(x+y)(x^4+y^4)-(x^2+y^2)(x^3+y^3)$とおくとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$x$，$y$が異なる正数のとき，$f(x, \, y)$の値は正数か負数かを調べよ．
+\item[(2)]相異なる正数$a$，$b$，$c$に対して
+\[ p=(a+b+c)(a^4+b^4+c^4), \]
+\[ q=(a^2+b^2+c^2)(a^3+b^3+c^3) \]
+とおくとき，$p-q$を$f(a, \, b)$，$f(b, \, c)$，$f(c, \, a)$を用いて表せ．
+またこの結果から，$p$と$q$との大小を比べよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1977/1977_1.pdf)

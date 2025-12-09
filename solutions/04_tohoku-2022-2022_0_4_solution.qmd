@@ -1,0 +1,171 @@
+## 解答
+
+(1)  
+まず，3点 $O(0,0,0)$，$A(1,\sqrt2,\sqrt3)$，$B(-\sqrt3,0,1)$ を含む平面の方程式を求める。
+
+ベクトル $\vec{OA}, \vec{OB}$ は  
+$$
+\vec{OA}=(1,\sqrt2,\sqrt3),\quad
+\vec{OB}=(-\sqrt3,0,1)
+$$
+であるから，この平面の法線ベクトル $\vec{n}$ は外積
+$$
+\vec{n}=\vec{OA}\times\vec{OB}
+=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k}\\
+1 & \sqrt2 & \sqrt3\\
+-\sqrt3 & 0 & 1
+\end{vmatrix}
+$$
+により求められ，
+$$
+\vec{n}
+=
+(\sqrt2\cdot1-\sqrt3\cdot0)\,\boldsymbol{i}
+-
+(1\cdot1-\sqrt3\cdot(-\sqrt3))\,\boldsymbol{j}
++
+(1\cdot0-(-\sqrt3)\cdot\sqrt2)\,\boldsymbol{k}
+=
+(\sqrt2,-2, \sqrt6)
+$$
+となる。
+
+点 $O(0,0,0)$ を通るので，この平面の方程式は
+$$
+\sqrt2\,x -2y +\sqrt6\,z = 0
+$$
+と表せる。
+
+この平面から距離が $1$ である点 $(x,y,z)$ は，平面との距離の公式より
+$$
+\frac{|\sqrt2\,x-2y+\sqrt6\,z|}{\sqrt{(\sqrt2)^2+(-2)^2+(\sqrt6)^2}}
+=
+1
+$$
+を満たす。分母を計算すると
+$$
+(\sqrt2)^2+(-2)^2+(\sqrt6)^2 = 2+4+6=12,\quad \sqrt{12}=2\sqrt3
+$$
+だから
+$$
+\frac{|\sqrt2\,x-2y+\sqrt6\,z|}{2\sqrt3}=1
+$$
+すなわち
+$$
+\sqrt2\,x-2y+\sqrt6\,z = \pm 2\sqrt3
+$$
+である。
+
+点 $O$ に最も近い点は，点 $O$ からこの平面に垂直な直線上にあり，かつ距離が $1$ である点であるから，$O$ から法線方向のベクトル $\vec{n}$ または $-\vec{n}$ の向きに長さ $1$ だけ進んだ点となる。
+
+$\vec{n}=(\sqrt2,-2,\sqrt6)$ の長さは
+$$
+|\vec{n}|=\sqrt{(\sqrt2)^2+(-2)^2+(\sqrt6)^2}
+=2\sqrt3
+$$
+なので，$\vec{n}$ の向きの単位ベクトルは
+$$
+\frac{\vec{n}}{|\vec{n}|}
+=
+\left(\frac{\sqrt2}{2\sqrt3},\,-\frac{2}{2\sqrt3},\,\frac{\sqrt6}{2\sqrt3}\right)
+=
+\left(\frac{1}{\sqrt6},\, -\frac{1}{\sqrt3},\,\frac{\sqrt2}{\sqrt3}\right)
+$$
+である。
+
+距離 $1$ だけ離れ，かつ点 $O$ に最も近い点は，原点からこの単位ベクトルの向きに長さ $1$ だけ進んだ点なので
+$$
+H\left(\frac{1}{\sqrt6},\,-\frac{1}{\sqrt3},\,\frac{\sqrt2}{\sqrt3}\right)
+$$
+である。$x$ 座標は $\frac{1}{\sqrt6}>0$ であり，条件を満たす。
+
+よって
+$$
+H\left(\frac{1}{\sqrt6},\, -\frac{1}{\sqrt3},\,\frac{\sqrt2}{\sqrt3}\right)
+$$
+である。
+
+---
+
+(2)  
+(1) で求めた平面の方程式
+$$
+\sqrt2\,x -2y +\sqrt6\,z = 0
+$$
+と点 $C(\sqrt6,-\sqrt3,\sqrt2)$ の距離を求める。
+
+距離の公式より
+$$
+\text{距離}
+=
+\frac{|\sqrt2\cdot\sqrt6 -2\cdot(-\sqrt3) +\sqrt6\cdot\sqrt2|}
+{\sqrt{(\sqrt2)^2+(-2)^2+(\sqrt6)^2}}
+$$
+となる。分子は
+$$
+\sqrt2\cdot\sqrt6 = \sqrt{12}=2\sqrt3,\quad
+-2\cdot(-\sqrt3)=2\sqrt3,\quad
+\sqrt6\cdot\sqrt2=2\sqrt3
+$$
+より
+$$
+2\sqrt3+2\sqrt3+2\sqrt3=6\sqrt3
+$$
+である。分母は (1) で求めたように $2\sqrt3$ だから
+$$
+\text{距離}
+=
+\frac{6\sqrt3}{2\sqrt3}=3
+$$
+となる。
+
+よって，3点 $OAB$ を含む平面と点 $C$ との距離は $3$ である。
+
+---
+
+(3)  
+四面体 $OABC$ の体積を，底面 $OAB$，高さとして点 $C$ からこの平面への距離を用いて求める。
+
+まず，底面三角形 $OAB$ の面積を求める。三角形の面積は，辺に対応する 2 つのベクトルの外積の大きさの半分であるから，
+$$
+S_{\triangle OAB}
+=
+\frac{1}{2}\,|\vec{OA}\times\vec{OB}|
+$$
+である。(1) で
+$$
+\vec{OA}\times\vec{OB}=(\sqrt2,-2,\sqrt6)
+$$
+と求めているので，その大きさは
+$$
+|\vec{OA}\times\vec{OB}|
+=
+\sqrt{(\sqrt2)^2+(-2)^2+(\sqrt6)^2}
+=
+\sqrt{2+4+6}
+=
+2\sqrt3
+$$
+したがって
+$$
+S_{\triangle OAB}
+=
+\frac{1}{2}\cdot 2\sqrt3
+=
+\sqrt3
+$$
+である。
+
+(2) より，点 $C$ から平面 $OAB$ への距離は $3$ であるから，四面体の体積 $V$ は
+$$
+V=\frac{1}{3}\times (\text{底面積})\times (\text{高さ})
+=
+\frac{1}{3}\times \sqrt3 \times 3
+=
+\sqrt3
+$$
+となる。
+
+よって，四面体 $OABC$ の体積は $\sqrt3$ である。

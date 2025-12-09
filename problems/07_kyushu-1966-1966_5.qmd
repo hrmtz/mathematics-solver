@@ -1,0 +1,32 @@
+---
+title: "九州大学 1966年 1966_5"
+problem_id: "07_kyushu-1966-1966_5"
+university: "九州大学"
+exam_year: "1966"
+source_tex: "archive/07_kyushu/1966/1966_5.tex"
+pdf_source: "archive/07_kyushu/1966/1966_5.pdf"
+page_image: "archive/07_kyushu/1966/1966_5.jpg"
+fields:
+  - ベクトル
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$O$を原点とする座標平面上の，2点$A(2, \, 1)$，$B(2, \, -1)$を終点とする
+ベクトル$\overrightarrow{OA}$，$\overrightarrow{OB}$を，
+それぞれ$\overrightarrow{u}$，$\overrightarrow{v}$とする．
+　このとき，時刻を$t$として，ベクトル
+\[ \overrightarrow{OP}=(\sin2\pi t)\overrightarrow{u}+(\cos2\pi t)\overrightarrow{v} \]
+の終点$P$の運動を考える．
+\begin{description}
+\item[(1)]$P$はどのような曲線を描くか．その方程式を求めよ．
+\item[(2)]$P$の速さの最大値，最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1966/1966_5.pdf)

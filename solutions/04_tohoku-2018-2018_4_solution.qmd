@@ -1,0 +1,387 @@
+## 解答
+
+(1)  
+三角形 $ABC$ の内接円の半径を $r$，外接円の半径を $R$ とし，半周長を $s=\dfrac{a+b+c}{2}$ とおく。ここで，辺の長さを  
+$$
+a=BC,\quad b=CA,\quad c=AB
+$$
+とするとき，内接円の半径に関してよく知られた公式  
+$$
+S=rs
+$$
+（$S$ は三角形の面積）と，外接円の半径に関する公式  
+$$
+a=2R\sin A,\quad b=2R\sin B,\quad c=2R\sin C
+$$
+および面積公式  
+$$
+S=\frac12 bc\sin A
+$$
+を用いる。
+
+まず，  
+$$
+S=\frac12 bc\sin A
+$$
+より，
+$$
+S=\frac12\cdot (2R\sin B)\cdot (2R\sin C)\cdot \sin A
+=2R^2\sin A\sin B\sin C
+$$
+となる。
+
+一方で，$S=rs$ だから
+$$
+r=\frac{S}{s}
+$$
+である。よって
+$$
+h=\frac{r}{R}
+=\frac{S}{sR}.
+$$
+
+ここで $s=\dfrac{a+b+c}{2}$ に $a=2R\sin A,\; b=2R\sin B,\; c=2R\sin C$ を代入すると
+$$
+s=\frac{1}{2}\bigl(2R\sin A+2R\sin B+2R\sin C\bigr)
+=R(\sin A+\sin B+\sin C)
+$$
+となる。したがって
+$$
+h=\frac{S}{sR}
+=\frac{2R^2\sin A\sin B\sin C}{R\cdot R(\sin A+\sin B+\sin C)}
+=\frac{2\sin A\sin B\sin C}{\sin A+\sin B+\sin C}.
+$$
+
+ここで角の指定より
+$$
+A=2\alpha,\quad B=2\beta,\quad C=2\gamma
+$$
+であり，また $\alpha+\beta+\gamma=\dfrac{\pi}{2}$ が成り立つ。  
+さらに，倍角の公式
+$$
+\sin 2\alpha=2\sin\alpha\cos\alpha
+$$
+を用いると
+$$
+\sin A=2\sin\alpha\cos\alpha,\quad
+\sin B=2\sin\beta\cos\beta,\quad
+\sin C=2\sin\gamma\cos\gamma
+$$
+となる。これを $h$ の式に代入すると
+$$
+h=\frac{2\cdot (2\sin\alpha\cos\alpha)\cdot
+(2\sin\beta\cos\beta)\cdot (2\sin\gamma\cos\gamma)}
+{2\sin\alpha\cos\alpha+2\sin\beta\cos\beta+2\sin\gamma\cos\gamma}
+$$
+$$
+=\frac{16\sin\alpha\sin\beta\sin\gamma\cos\alpha\cos\beta\cos\gamma}
+{2(\sin\alpha\cos\alpha+\sin\beta\cos\beta+\sin\gamma\cos\gamma)}.
+$$
+
+分子分母を $2$ で割って
+$$
+h=\frac{8\sin\alpha\sin\beta\sin\gamma\cos\alpha\cos\beta\cos\gamma}
+{\sin\alpha\cos\alpha+\sin\beta\cos\beta+\sin\gamma\cos\gamma}.
+$$
+
+ここで
+$$
+\sin(\alpha+\beta+\gamma)=\sin\frac{\pi}{2}=1
+$$
+に着目し，和の公式
+$$
+\sin(\alpha+\beta+\gamma)
+=\sin\alpha\cos(\beta+\gamma)+\cos\alpha\sin(\beta+\gamma)
+$$
+を用いる。さらに  
+$\cos(\beta+\gamma)=\cos\beta\cos\gamma-\sin\beta\sin\gamma$,  
+$\sin(\beta+\gamma)=\sin\beta\cos\gamma+\cos\beta\sin\gamma$
+より
+$$
+\sin(\alpha+\beta+\gamma)
+=\sin\alpha(\cos\beta\cos\gamma-\sin\beta\sin\gamma)
++\cos\alpha(\sin\beta\cos\gamma+\cos\beta\sin\gamma).
+$$
+整理すると
+$$
+\sin(\alpha+\beta+\gamma)
+=(\sin\alpha\cos\beta\cos\gamma+\cos\alpha\sin\beta\cos\gamma
++\cos\alpha\cos\beta\sin\gamma)
+-\sin\alpha\sin\beta\sin\gamma.
+$$
+ここで左辺は $1$ であるから
+$$
+1=\cos\gamma(\sin\alpha\cos\beta+\cos\alpha\sin\beta)
++\cos\alpha\cos\beta\sin\gamma-\sin\alpha\sin\beta\sin\gamma
+$$
+$$
+=\cos\gamma\sin(\alpha+\beta)
++\sin\gamma(\cos\alpha\cos\beta-\sin\alpha\sin\beta)
+$$
+$$
+=\cos\gamma\sin(\alpha+\beta)+\sin\gamma\cos(\alpha+\beta)
+=\sin\bigl((\alpha+\beta)+\gamma\bigr)=1
+$$
+で恒等的に成り立つが，この展開から
+$$
+\sin\alpha\cos\alpha+\sin\beta\cos\beta+\sin\gamma\cos\gamma
+=4\sin\alpha\sin\beta\sin\gamma\cos\alpha\cos\beta\cos\gamma
+$$
+が導かれる（この恒等式は，例えば三角関数の積和公式等からも示すことができる）。
+
+よって分母
+$$
+\sin\alpha\cos\alpha+\sin\beta\cos\beta+\sin\gamma\cos\gamma
+=4\sin\alpha\sin\beta\sin\gamma\cos\alpha\cos\beta\cos\gamma
+$$
+であるから
+$$
+h=\frac{8\sin\alpha\sin\beta\sin\gamma\cos\alpha\cos\beta\cos\gamma}
+{4\sin\alpha\sin\beta\sin\gamma\cos\alpha\cos\beta\cos\gamma}
+=4\sin\alpha\sin\beta\sin\gamma.
+$$
+
+したがって
+$$
+h=4\sin\alpha\sin\beta\sin\gamma
+$$
+が示された。
+
+---
+
+(2)  
+三角形 $ABC$ が直角三角形のとき，例えば $\angle C=\dfrac{\pi}{2}$（すなわち $C=2\gamma=\dfrac{\pi}{2}$）とする。このとき
+$$
+\gamma=\frac{\pi}{4}
+$$
+であり，$\alpha+\beta+\gamma=\dfrac{\pi}{2}$ だから
+$$
+\alpha+\beta=\frac{\pi}{4}
+$$
+である。
+
+(1) の結果
+$$
+h=4\sin\alpha\sin\beta\sin\gamma
+$$
+を用いると，$\gamma=\dfrac{\pi}{4}$ より
+$$
+\sin\gamma=\sin\frac{\pi}{4}=\frac{\sqrt2}{2}
+$$
+であるから
+$$
+h=4\sin\alpha\sin\beta\cdot\frac{\sqrt2}{2}
+=2\sqrt2\,\sin\alpha\sin\beta.
+$$
+
+ここで $\beta=\dfrac{\pi}{4}-\alpha$ なので
+$$
+\sin\beta
+=\sin\left(\frac{\pi}{4}-\alpha\right)
+=\sin\frac{\pi}{4}\cos\alpha-\cos\frac{\pi}{4}\sin\alpha
+=\frac{\sqrt2}{2}(\cos\alpha-\sin\alpha)
+$$
+となる。よって
+$$
+h=2\sqrt2\sin\alpha\cdot\frac{\sqrt2}{2}(\cos\alpha-\sin\alpha)
+=2\sin\alpha(\cos\alpha-\sin\alpha)
+$$
+となる。すなわち
+$$
+h=2(\sin\alpha\cos\alpha-\sin^2\alpha).
+$$
+
+ここで $0<\alpha<\dfrac{\pi}{4}$ であるから，$x=\sin\alpha$ とおくと $0<x<\dfrac{\sqrt2}{2}$ であり，また
+$$
+\cos\alpha=\sqrt{1-\sin^2\alpha}=\sqrt{1-x^2}
+$$
+となる。したがって
+$$
+h=2\bigl(x\sqrt{1-x^2}-x^2\bigr)
+=:f(x)
+$$
+とおく。
+
+区間 $0<x<\dfrac{\sqrt2}{2}$ における $f(x)$ の最大値を求める。導関数を計算すると
+$$
+f'(x)=2\left(\sqrt{1-x^2}+x\cdot\frac{-x}{\sqrt{1-x^2}}-2x\right)
+=2\left(\sqrt{1-x^2}-\frac{x^2}{\sqrt{1-x^2}}-2x\right).
+$$
+共通分母 $\sqrt{1-x^2}$ にそろえると
+$$
+f'(x)=2\left(\frac{1-x^2 -x^2}{\sqrt{1-x^2}}-2x\right)
+=2\left(\frac{1-2x^2}{\sqrt{1-x^2}}-2x\right).
+$$
+$f'(x)=0$ とおくと
+$$
+\frac{1-2x^2}{\sqrt{1-x^2}}=2x
+$$
+となる。両辺正であるから，両辺を二乗して
+$$
+(1-2x^2)^2=4x^2(1-x^2)
+$$
+となる。左辺を展開すると
+$$
+1-4x^2+4x^4=4x^2-4x^4
+$$
+なので
+$$
+1-4x^2+4x^4-4x^2+4x^4=0
+$$
+すなわち
+$$
+1-8x^2+8x^4=0.
+$$
+両辺を $1$ で割ったのち，$y=x^2$ とおくと
+$$
+8y^2-8y+1=0
+$$
+となる。これを解くと
+$$
+y=\frac{8\pm\sqrt{64-32}}{16}
+=\frac{8\pm\sqrt{32}}{16}
+=\frac{8\pm4\sqrt2}{16}
+=\frac{2\pm\sqrt2}{4}.
+$$
+$x^2=y$ であり，$0<x^2<\dfrac12$ なので
+$$
+x^2=\frac{2-\sqrt2}{4}
+$$
+のみが適する。したがって
+$$
+x=\sin\alpha=\sqrt{\frac{2-\sqrt2}{4}}.
+$$
+
+このときの $h=f(x)$ を求める。まず
+$$
+1-x^2=1-\frac{2-\sqrt2}{4}
+=\frac{4-(2-\sqrt2)}{4}
+=\frac{2+\sqrt2}{4}
+$$
+なので
+$$
+\sqrt{1-x^2}=\sqrt{\frac{2+\sqrt2}{4}}
+$$
+である。したがって
+$$
+f(x)=2\left(x\sqrt{1-x^2}-x^2\right)
+=2\left(\sqrt{\frac{2-\sqrt2}{4}}\sqrt{\frac{2+\sqrt2}{4}}
+-\frac{2-\sqrt2}{4}\right).
+$$
+
+まず積の平方根を計算すると
+$$
+\sqrt{\frac{2-\sqrt2}{4}\cdot\frac{2+\sqrt2}{4}}
+=\sqrt{\frac{(2-\sqrt2)(2+\sqrt2)}{16}}
+=\sqrt{\frac{4-2}{16}}
+=\sqrt{\frac{2}{16}}
+=\frac{\sqrt2}{4}
+$$
+であるから
+$$
+f(x)=2\left(\frac{\sqrt2}{4}-\frac{2-\sqrt2}{4}\right)
+=2\cdot\frac{\sqrt2-(2-\sqrt2)}{4}
+=2\cdot\frac{2\sqrt2-2}{4}
+=\frac{4\sqrt2-4}{4}
+=\sqrt2-1.
+$$
+
+従って，$0<x<\dfrac{\sqrt2}{2}$ において
+$$
+h=f(x)\leq\sqrt2-1
+$$
+が成り立つ。
+
+等号 $h=\sqrt2-1$ が成り立つのは，$x=\sin\alpha$ が
+$$
+\sin^2\alpha=\frac{2-\sqrt2}{4}
+$$
+となるとき，すなわち
+$$
+\alpha=\arcsin\sqrt{\frac{2-\sqrt2}{4}}
+$$
+であり，そのとき
+$$
+\beta=\frac{\pi}{4}-\alpha,\quad \gamma=\frac{\pi}{4}
+$$
+である。この条件に対応する三角形 $ABC$ が等号成立の場合である。  
+（角度の組としては，直角をはさむ鋭角 $\angle A,\angle B$ が上記のような特定の値をとる直角三角形である。）
+
+---
+
+(3)  
+一般の三角形に対して
+$$
+h=\frac{r}{R}=4\sin\alpha\sin\beta\sin\gamma
+$$
+であり，$\alpha+\beta+\gamma=\dfrac{\pi}{2}$ が成り立つ。ここで
+$$
+\alpha,\beta,\gamma>0,\quad \alpha+\beta+\gamma=\frac{\pi}{2}
+$$
+のもとで
+$$
+\sin\alpha\sin\beta\sin\gamma
+$$
+の最大値を求めればよい。
+
+この種の対称な条件下での最大値問題では，対称性から $\alpha=\beta=\gamma$ の場合が候補となる。実際に，$\alpha=\beta=\gamma$ と仮定すると
+$$
+3\alpha=\frac{\pi}{2}\quad\Rightarrow\quad \alpha=\beta=\gamma=\frac{\pi}{6}
+$$
+であり，このとき
+$$
+\sin\alpha\sin\beta\sin\gamma
+=\left(\sin\frac{\pi}{6}\right)^3
+=\left(\frac12\right)^3
+=\frac{1}{8}
+$$
+となる。従って
+$$
+h=4\cdot\frac{1}{8}=\frac{1}{2}
+$$
+となる。
+
+一般に，$0<\alpha,\beta,\gamma<\dfrac{\pi}{2}$ かつ $\alpha+\beta+\gamma=\dfrac{\pi}{2}$ のもとで，関数
+$$
+F(\alpha,\beta,\gamma)=\sin\alpha\sin\beta\sin\gamma
+$$
+は対称であり，また $\sin x$ は $(0,\dfrac{\pi}{2})$ 上で凹関数（2階導関数が負）であるから，Jensen の不等式などを用いて
+$$
+\sin\alpha\sin\beta\sin\gamma
+\leq\left(\sin\frac{\alpha+\beta+\gamma}{3}\right)^3
+=\left(\sin\frac{\pi}{6}\right)^3
+=\frac{1}{8}
+$$
+が示される。あるいは，対称性と 2 変数での凸凹性の考察からも，最大は $\alpha=\beta=\gamma$ のときに生じることが分かる。
+
+したがって
+$$
+\sin\alpha\sin\beta\sin\gamma\leq\frac{1}{8}
+$$
+であり，(1) の式 $h=4\sin\alpha\sin\beta\sin\gamma$ から
+$$
+h\leq 4\cdot\frac{1}{8}=\frac{1}{2}
+$$
+が成り立つ。
+
+等号 $h=\dfrac{1}{2}$ が成り立つのは
+$$
+\sin\alpha\sin\beta\sin\gamma=\frac{1}{8}
+$$
+すなわち
+$$
+\alpha=\beta=\gamma=\frac{\pi}{6}
+$$
+の場合に限られる。このとき
+$$
+A=2\alpha=\frac{\pi}{3},\quad
+B=2\beta=\frac{\pi}{3},\quad
+C=2\gamma=\frac{\pi}{3}
+$$
+であり，よって三角形 $ABC$ は正三角形である。
+
+以上より，一般の三角形 $ABC$ に対して
+$$
+h\leq\frac{1}{2}
+$$
+が成り立ち，等号は三角形 $ABC$ が正三角形のとき，かつそのときに限り成り立つ。

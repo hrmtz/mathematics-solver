@@ -1,0 +1,23 @@
+---
+title: "東北大学 1991年 1991_1"
+problem_id: "04_tohoku-1991-1991_1"
+university: "東北大学"
+exam_year: "1991"
+source_tex: "archive/04_tohoku/1991/1991_1.tex"
+pdf_source: "archive/04_tohoku/1991/1991_1.pdf"
+page_image: "archive/04_tohoku/1991/1991_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　曲線$C:xy+\sqrt5 \, (x-y)+4=0$の原点を通る2つの接線を$l_1$，$l_2$とする．
+$C$と$l_1$，$l_2$とによって囲まれる図形の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_1.pdf)

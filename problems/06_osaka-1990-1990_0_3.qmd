@@ -1,0 +1,32 @@
+---
+title: "大阪大学 1990年 1990_0_3"
+problem_id: "06_osaka-1990-1990_0_3"
+university: "大阪大学"
+exam_year: "1990"
+source_tex: "archive/06_osaka/1990/1990_0_3.tex"
+pdf_source: "archive/06_osaka/1990/1990_0_3.pdf"
+page_image: "archive/06_osaka/1990/1990_0_3.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$を$-1<a<1$を満たす定数とし$f(x)=(x^2-1){(x-a)}^2$とおく．
+関数$y=f(x)$のグラフと$x$軸によって囲まれた図形のうち，
+$x \leqq a$の範囲にある部分の面積を$S_1(a)$，
+$x \geqq a$の範囲にある部分の面積を$S_2(a)$とする．
+\begin{description}
+\item[(1)]$S_1(a)+S_2(a)$を求めよ．
+\item[(2)]次のことを示せ．
+\[ -1<a<0 \hspace{1zw} \text{のとき} \hspace{1zw} S_1(a)<S_2(a) \]
+\[ a=0 \hspace{1zw} \text{のとき} \hspace{1zw} S_1(a)=S_2(a) \]
+\[ 0<a<1 \hspace{1zw} \text{のとき} \hspace{1zw} S_1(a)>S_2(a) \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_0_3.pdf)

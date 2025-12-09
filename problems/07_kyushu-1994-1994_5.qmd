@@ -1,0 +1,34 @@
+---
+title: "九州大学 1994年 1994_5"
+problem_id: "07_kyushu-1994-1994_5"
+university: "九州大学"
+exam_year: "1994"
+source_tex: "archive/07_kyushu/1994/1994_5.tex"
+pdf_source: "archive/07_kyushu/1994/1994_5.pdf"
+page_image: "archive/07_kyushu/1994/1994_5.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　3つのタイプからなる合計10枚の同じ形状のカードがある．
+第1のタイプは3枚で両面が黒，第2のタイプは3枚で両面が白，第3のタイプは4枚で片面が白で他面が黒である．
+これらのカードの中から1枚を無作為に取り出すとき，次の問に答えよ．
+\begin{description}
+\item[(1)]上面が白であったとき，下面が黒である確率を求めよ．
+\item[(2)]下面のカードの色を言い当てるゲームをするとき，
+\begin{description}
+\item[(i)]上面と同じ色を答える
+\item[(ii)]上面と異なる色を答える
+\item[(iii)]上面の色と無関係に平等な確率で白または黒と答える
+\end{description}
+場合を考える．それぞれの場合に答が当たる確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1994/1994_5.pdf)

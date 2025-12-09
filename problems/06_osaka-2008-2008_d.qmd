@@ -1,0 +1,32 @@
+---
+title: "大阪大学 2008年 2008_d"
+problem_id: "06_osaka-2008-2008_d"
+university: "大阪大学"
+exam_year: "2008"
+source_tex: "archive/06_osaka/2008/2008_d.tex"
+pdf_source: "archive/06_osaka/2008/2008_d.pdf"
+page_image: "archive/06_osaka/2008/2008_d.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xy$平面の単位円上に点$P(\cos t, \, \sin t)$ $(0 \leqq t \leqq \pi)$がある．
+点$Q$は$PQ=d$を満たす$x$軸の正の部分にある点とする．
+ただし，$d$は定数で$d>1$とする．
+点$R$を線分$PQ$の中点とする．
+\begin{description}
+\item[(1)]$R$の座標を求めよ．
+\item[(2)]$t$が$0 \leqq t \leqq \pi$の範囲を動くときに$R$の描く曲線と
+$x$軸で囲まれる部分の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2008/2008_d.pdf)

@@ -1,0 +1,29 @@
+---
+title: "九州大学 2024年 2024_0_1"
+problem_id: "07_kyushu-2024-2024_0_1"
+university: "九州大学"
+exam_year: "2024"
+source_tex: "archive/07_kyushu/2024/2024_0_1.tex"
+pdf_source: "archive/07_kyushu/2024/2024_0_1.pdf"
+page_image: "archive/07_kyushu/2024/2024_0_1.jpg"
+fields:
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　2つの放物線
+\[ C_1 : y=2x^2, \hspace{1zw} C_2:y=2x^2-8x+16 \]
+の両方に接する直線を$l$とする。以下の問いに答えよ。
+\begin{description}
+\item[(1)]直線$l$の方程式を求めよ。
+\item[(2)]2つの放物線$C_1, \, C_2$と直線$l$で囲まれた図形の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2024/2024_0_1.pdf)

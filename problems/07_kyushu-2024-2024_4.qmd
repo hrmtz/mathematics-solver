@@ -1,0 +1,30 @@
+---
+title: "九州大学 2024年 2024_4"
+problem_id: "07_kyushu-2024-2024_4"
+university: "九州大学"
+exam_year: "2024"
+source_tex: "archive/07_kyushu/2024/2024_4.tex"
+pdf_source: "archive/07_kyushu/2024/2024_4.pdf"
+page_image: "archive/07_kyushu/2024/2024_4.jpg"
+fields:
+  - 平面図形
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$n$を3以上の整数とする。
+座標平面上の点のうち，$x$座標と$y$座標がともに1以上$n$以下の整数であるものを考える。
+これら$n^2$個の点のうち3点以上を通る直線の個数を$L(n)$とする。以下の問いに答えよ。
+\begin{description}
+\item[(1)]$L(3)$を求めよ。
+\item[(2)]$L(4)$を求めよ。
+\item[(3)]$L(5)$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2024/2024_4.pdf)

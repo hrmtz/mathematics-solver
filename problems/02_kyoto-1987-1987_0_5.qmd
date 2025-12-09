@@ -1,0 +1,27 @@
+---
+title: "京都大学 1987年 1987_0_5"
+problem_id: "02_kyoto-1987-1987_0_5"
+university: "京都大学"
+exam_year: "1987"
+source_tex: "archive/02_kyoto/1987/1987_0_5.tex"
+pdf_source: "archive/02_kyoto/1987/1987_0_5.pdf"
+page_image: "archive/02_kyoto/1987/1987_0_5.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　長さ1の針金を二つに切り，その一つで円周を作り，残りで2辺の長さの比が$1:k$($k$は正の定数)の長方形を作る．
+\begin{description}
+\item[(1)]この円と長方形の面積の和を最小にするためには，針金をどのように切ればよいか．
+\item[(2)]$k$をいろいろ変えたとき，(1)の円と長方形の面積の和の最小値$S(k)$が最大になるような$k$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1987/1987_0_5.pdf)

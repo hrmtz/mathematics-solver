@@ -1,0 +1,24 @@
+---
+title: "北海道大学 1986年 1986_0_4"
+problem_id: "03_hokudai-1986-1986_0_4"
+university: "北海道大学"
+exam_year: "1986"
+source_tex: "archive/03_hokudai/1986/1986_0_4.tex"
+pdf_source: "archive/03_hokudai/1986/1986_0_4.pdf"
+page_image: "archive/03_hokudai/1986/1986_0_4.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　直線$\displaystyle\frac{x-3}{2}=y-3=z$を$g$とする．
+原点を通り，$g$と交わり，その交角が${60}^\circ$となる直線の方程式を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1986/1986_0_4.pdf)

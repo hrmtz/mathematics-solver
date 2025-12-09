@@ -1,0 +1,27 @@
+---
+title: "東北大学 1968年 1968_5"
+problem_id: "04_tohoku-1968-1968_5"
+university: "東北大学"
+exam_year: "1968"
+source_tex: "archive/04_tohoku/1968/1968_5.tex"
+pdf_source: "archive/04_tohoku/1968/1968_5.pdf"
+page_image: "archive/04_tohoku/1968/1968_5.jpg"
+fields:
+  - 数列
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　原点を中心とし，$x$軸上に両端をもち$y\geqq0$なる部分にある半径$a$の半円周を考える．
+これを$n$等分し，分点の座標を順に$(x_0, \, y_0)=(a, \, 0)$，$(x_1, \, y_1)$，$\cdots$，
+$(x_{n-1}, \, y_{n-1})$，$(x_n, \, y_n)=(-a, \, 0)$とし，
+これらを順に結ぶ折れ線の1辺の長さを$l_n$とする．
+このとき，極限値$\displaystyle\lim_{n\to\infty}l_n\sum_{i=0}^n({y_i}^2+2{x_i}^2y_i)$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1968/1968_5.pdf)

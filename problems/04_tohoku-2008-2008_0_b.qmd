@@ -1,0 +1,34 @@
+---
+title: "東北大学 2008年 2008_0_b"
+problem_id: "04_tohoku-2008-2008_0_b"
+university: "東北大学"
+exam_year: "2008"
+source_tex: "archive/04_tohoku/2008/2008_0_b.tex"
+pdf_source: "archive/04_tohoku/2008/2008_0_b.pdf"
+page_image: "archive/04_tohoku/2008/2008_0_b.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$と$b$を実数とし，曲線$C:y=x^2+2ax+b$と
+平面上の4点$O(0, \, 0)$，$P(2, \, 4)$，$Q(2, \, 5)$，$R(0, \, 1)$を頂点とする
+平行四辺形を考える．
+直線$OP$は曲線$C$の接線であり，その接点は線分$OP$上にあるとする．
+曲線$C$の上側と平行四辺形$OPQR$の内部の共通部分の面積を$S(a)$とおく．
+このとき，以下の問いに答えよ．
+\begin{description}
+\item[(1)]$b$を$a$で表せ．また，$a$の値の範囲を求めよ．
+\item[(2)]曲線$C$が線分$OR$と交わるとき，$a$の値の範囲を求め，$S(a)$を$a$で表せ．
+\item[(3)]$a$が(1)で求めた範囲を動くとき，$S(a)$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_0_b.pdf)

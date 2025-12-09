@@ -1,0 +1,243 @@
+## 解答
+
+(1)  
+
+曲線 $C$ は，中心 $\dfrac12$，半径 $\dfrac12$ の円周から原点を除いたものであるから，  
+$C$ 上の複素数 $z$ は  
+$$
+\left|z-\frac12\right|=\frac12,\quad z\ne 0
+$$
+を満たす。
+
+$z=x+yi\ (x,y\in\mathbb{R})$ とおくと，
+$$
+\left|z-\frac12\right|=\frac12
+\quad\Longleftrightarrow\quad
+\left(x-\frac12\right)^2+y^2=\left(\frac12\right)^2
+$$
+である。左辺を展開すると
+$$
+x^2- x +\frac14 + y^2 = \frac14
+$$
+となり，両辺から $\dfrac14$ を引けば
+$$
+x^2 + y^2 - x = 0
+$$
+すなわち
+$$
+x^2 + y^2 = x
+$$
+を得る。  
+
+一方，$z\neq 0$ なので
+$$
+\frac{1}{z} = \frac{1}{x+yi} = \frac{x-yi}{x^2+y^2}
+$$
+と表せる。したがって $\dfrac{1}{z}$ の実部は
+$$
+\operatorname{Re}\left(\frac{1}{z}\right) = \frac{x}{x^2+y^2}
+$$
+である。ここで $x^2+y^2 = x$ を用いると
+$$
+\operatorname{Re}\left(\frac{1}{z}\right)
+= \frac{x}{x^2+y^2}
+= \frac{x}{x}
+= 1
+$$
+となる。よって，曲線 $C$ 上の任意の $z$ に対して $\dfrac{1}{z}$ の実部は $1$ である。
+
+---
+
+(2)  
+
+(1) より，$C$ 上の $z$ について $\dfrac{1}{z}$ の実部は常に $1$ であるから，
+$$
+\frac{1}{z} = 1 + it \quad (t\in\mathbb{R})
+$$
+とおける。したがって
+$$
+z = \frac{1}{1+it}
+= \frac{1-it}{1+t^2}
+$$
+であり，これが $C$ 上のすべての点を表している。
+
+ここで $\alpha,\beta$ を $C$ 上の相異なる複素数とし，
+$$
+\frac{1}{\alpha} = 1+is,\quad \frac{1}{\beta} = 1+it
+\quad (s,t\in\mathbb{R},\ s\ne t)
+$$
+とおく。すると
+$$
+\frac{1}{\alpha^2} = (1+is)^2 = 1 - s^2 + 2is,\quad
+\frac{1}{\beta^2} = (1+it)^2 = 1 - t^2 + 2it
+$$
+であるから，
+$$
+\frac{1}{\alpha^2} + \frac{1}{\beta^2}
+= (1-s^2+2is) + (1-t^2+2it)
+= 2 - (s^2+t^2) + 2i(s+t)
+$$
+となる。ここで
+$$
+w = \frac{1}{\alpha^2} + \frac{1}{\beta^2} = X + iY
+$$
+とおけば，
+$$
+X = 2 - (s^2 + t^2),\quad Y = 2(s+t)
+$$
+である。
+
+$s,t\in\mathbb{R}$ で相異なる ($s\ne t$) という条件のもとで，$X,Y$ がとりうる範囲を調べる。
+
+まず
+$$
+Y = 2(s+t)
+\quad\Longrightarrow\quad
+s+t = \frac{Y}{2}
+$$
+である。実数 $s,t$ に対しては，一般に
+$$
+s^2+t^2 \ge \frac{(s+t)^2}{2}
+$$
+（平方完成または $(s-t)^2\ge0$ より）なので，
+$$
+s^2 + t^2 \ge \frac{(s+t)^2}{2} = \frac{Y^2}{8}
+$$
+となる。したがって
+$$
+X = 2 - (s^2 + t^2) \le 2 - \frac{Y^2}{8}
+$$
+が成り立つ。  
+
+$s^2 + t^2$ は $s\ne t$ の条件のもとで任意に大きくとれるので，$X$ には下限はない。  
+一方，$s^2 + t^2$ が固定された $s+t$ に対して最小になるのは $s=t$ のときであるから，上で示した不等式は $s\ne t$ の場合には
+$$
+s^2 + t^2 > \frac{Y^2}{8}
+\quad\Longrightarrow\quad
+X < 2 - \frac{Y^2}{8}
+$$
+となる。  
+
+以上より，点 $w=X+iY$ の満たす条件は
+$$
+X < 2 - \frac{Y^2}{8}
+$$
+であり，これは放物線
+$$
+X = 2 - \frac{Y^2}{8}
+$$
+の内側（放物線よりも左側）の開領域である。  
+
+従って，
+$$
+\frac{1}{\alpha^2}+\frac{1}{\beta^2}
+$$
+のとりうる範囲は，複素数平面上で  
+頂点 $(2,0)$，軸が虚軸に平行な放物線
+$$
+X = 2 - \frac{Y^2}{8}
+$$
+の左側の内部全体（放物線上の点を含まない開領域）である。これを図示すればよい。
+
+---
+
+(3)  
+
+(2) で求めた範囲に属さない複素数 $\gamma$ は，上で得た開領域の外側，すなわち  
+その閉包の外側または境界上にあるから，
+$$
+\operatorname{Re}\left(\frac{1}{\gamma^2}\right)
+\ge 2 - \frac{1}{8}\left(\operatorname{Im}\left(\frac{1}{\gamma^2}\right)\right)^2
+$$
+が成り立つ。
+
+ここで
+$$
+u = \frac{1}{\gamma} = x+yi\quad (x,y\in\mathbb{R})
+$$
+とおくと，
+$$
+u^2 = \frac{1}{\gamma^2} = (x+yi)^2 = (x^2-y^2) + 2xy\,i
+$$
+であるから，
+$$
+\operatorname{Re}\left(\frac{1}{\gamma^2}\right)=x^2 - y^2,\quad
+\operatorname{Im}\left(\frac{1}{\gamma^2}\right)=2xy
+$$
+となる。これを上の不等式に代入すると
+$$
+x^2 - y^2 \ge 2 - \frac{1}{8}(2xy)^2
+= 2 - \frac{1}{2}x^2 y^2
+$$
+すなわち
+$$
+x^2 - y^2 + \frac{1}{2}x^2 y^2 - 2 \ge 0
+$$
+となる。
+
+この条件のもとで，$x=\operatorname{Re}\left(\dfrac{1}{\gamma}\right)$ のとりうる範囲を求める。  
+適当な変形のために $p = x^2,\ q = y^2$ とおくと，$p\ge0,\ q\ge0$ であり，
+$$
+p - q + \frac{1}{2}pq - 2 \ge 0
+$$
+である。これを $q$ について解くと
+$$
+q\left(\frac{p}{2} - 1\right) \ge 2 - p
+$$
+となる。
+
+ここで $p$ の値に応じて場合分けする。
+
+- $p<2$ のとき：  
+  $\dfrac{p}{2}-1<0$ なので，$q\ge0$ と両立させるには右辺 $2-p>0$ を  
+  負の係数で割ることになり，$q$ は負の値をとらねばならず矛盾する。  
+  よってこの場合は解なし。
+
+- $p=2$ のとき：  
+  不等式は
+  $$
+  p - q + \frac{1}{2}pq - 2
+  = 2 - q + \frac12\cdot 2q - 2
+  = 0
+  $$
+  となり，任意の $q\ge0$ について等号が成り立つ。したがって $p=2$ は許される。
+
+- $p>2$ のとき：  
+  $\dfrac{p}{2}-1>0$ であり，
+  $$
+  q \ge \frac{2-p}{\frac{p}{2}-1}
+  $$
+  となるが，右辺は
+  $$
+  \frac{2-p}{\frac{p}{2}-1}
+  = \frac{-(p-2)}{\frac{1}{2}(p-2)}
+  = -2
+  $$
+  である。よって $q\ge -2$ となり，$q\ge0$ と合わせればすべての $q\ge0$ が許される。
+
+以上より，$p=x^2$ が満たす条件は
+$$
+x^2 \ge 2
+$$
+である。したがって
+$$
+|x| \ge \sqrt{2}
+$$
+が必要十分条件となる。  
+
+このとき，$y^2=q$ については $p>2$ なら任意の非負実数が可能であり，$p=2$ でも任意の非負実数が可能であるから，実際に $|x|\ge\sqrt2$ の任意の $x$ に対して，適当な $y$ を選べば条件を満たす $\gamma$ が存在する。
+
+よって
+$$
+\operatorname{Re}\left(\frac{1}{\gamma}\right) = x
+$$
+のとりうる値は
+$$
+x\le -\sqrt{2}\quad\text{または}\quad x\ge \sqrt{2}
+$$
+である。したがって
+
+- 最大値は $+\sqrt{2}$，
+- 最小値は $-\sqrt{2}$
+
+となる。

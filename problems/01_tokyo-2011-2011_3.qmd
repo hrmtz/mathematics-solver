@@ -1,0 +1,33 @@
+---
+title: "東京大学 2011年 2011_3"
+problem_id: "01_tokyo-2011-2011_3"
+university: "東京大学"
+exam_year: "2011"
+source_tex: "archive/01_tokyo/2011/2011_3.tex"
+pdf_source: "archive/01_tokyo/2011/2011_3.pdf"
+page_image: "archive/01_tokyo/2011/2011_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$L$を正定数とする．
+座標平面の$x$軸上の正の部分にある点$P(t,0)$に対し，
+原点$O$を中心とし点$P$を通る円周上を，
+$P$から出発して反時計回りに道のり$L$だけ進んだ点を$Q(u(t),v(t))$と表す．
+\begin{description}
+\item[(1)]$u(t)$，$v(t)$を求めよ．
+\item[(2)]$0<a<1$の範囲の実数$a$に対し，積分
+\[ f(a) = \int_a^1 \sqrt{ {\{u'(t)\}}^2+{\{v'(t)\}}^2 } dt \]
+を求めよ．
+\item[(3)]極限$\displaystyle\lim_{a\to+0}\frac{f(a)}{\log a}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2011/2011_3.pdf)

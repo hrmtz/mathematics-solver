@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1967年 1967_3"
+problem_id: "03_hokudai-1967-1967_3"
+university: "北海道大学"
+exam_year: "1967"
+source_tex: "archive/03_hokudai/1967/1967_3.tex"
+pdf_source: "archive/03_hokudai/1967/1967_3.pdf"
+page_image: "archive/03_hokudai/1967/1967_3.jpg"
+fields:
+  - 複素数平面
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　数列$z_1, \, z_2, \, \cdots\cdots, \, z_n, \, \cdots\cdots$は
+初項48，公比$\displaystyle\frac{1}{4}(\sqrt6+\sqrt2 \, i)$の等比（複素）数列である．
+\begin{description}
+\item[(1)]$z_4$を求めよ．
+\item[(2)]この数列の項で実数であるものを初めから順に
+$a_1, \, a_2, \, \cdots\cdots, \, a_n, \, \cdots\cdots$とするとき，$a_3$を求めよ．
+\item[(3)]無限級数$a_1+a_2+\cdots\cdots+a_n+\cdots\cdots$の和を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1967/1967_3.pdf)

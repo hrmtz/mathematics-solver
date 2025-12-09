@@ -1,0 +1,31 @@
+---
+title: "北海道大学 2012年 2012_3"
+problem_id: "03_hokudai-2012-2012_3"
+university: "北海道大学"
+exam_year: "2012"
+source_tex: "archive/03_hokudai/2012/2012_3.tex"
+pdf_source: "archive/03_hokudai/2012/2012_3.pdf"
+page_image: "archive/03_hokudai/2012/2012_3.jpg"
+fields:
+  - 三角関数
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　次の問に答えよ。
+\begin{description}
+\item[(1)]$x\geqq0$のとき，
+$\displaystyle x-\frac{x^3}{6}\leqq\sin x\leqq x$を示せ。
+\item[(2)]$x\geqq0$のとき，
+$\displaystyle \frac{x^3}{3}-\frac{x^5}{30}\leqq\int_0^x t\sin tdt\leqq\frac{x^3}{3}$を示せ。
+\item[(3)]極限値$\displaystyle\lim_{x\to0}\frac{\sin x-x\cos x}{x^3}$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2012/2012_3.pdf)

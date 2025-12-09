@@ -1,0 +1,29 @@
+---
+title: "東京大学 1976年 1976_4"
+problem_id: "01_tokyo-1976-1976_4"
+university: "東京大学"
+exam_year: "1976"
+source_tex: "archive/01_tokyo/1976/1976_4.tex"
+pdf_source: "archive/01_tokyo/1976/1976_4.pdf"
+page_image: "archive/01_tokyo/1976/1976_4.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$0<t<1$であるような$t$のおのおのの値に対して，
+$x$の関数$\displaystyle f(x)=\frac{x+t}{x(1-tx)}$を考える．
+\begin{description}
+\item[(i)]区間$0<x<1$において$f(x)$の最小値を与える$x$の値$\alpha$は$t$に関係して定まる数である．
+$t$が0から1に向って動くとき，点$(\alpha,f(\alpha))$はどのように動くかを図示せよ．
+\item[(ii)]区間$0<x \leqq t$において$f(x)$の最小値を与える$x$の値を$\beta$とする．
+$t$が0から1に向かって動くとき，点$(\beta,f(\beta))$はどのように動くかを図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1976/1976_4.pdf)

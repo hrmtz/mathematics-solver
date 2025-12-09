@@ -1,0 +1,31 @@
+---
+title: "北海道大学 2021年 2021_3"
+problem_id: "03_hokudai-2021-2021_3"
+university: "北海道大学"
+exam_year: "2021"
+source_tex: "archive/03_hokudai/2021/2021_3.tex"
+pdf_source: "archive/03_hokudai/2021/2021_3.pdf"
+page_image: "archive/03_hokudai/2021/2021_3.jpg"
+fields:
+  - 指数・対数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　正の実数$x, \, y$が，方程式
+\[ \frac{9^{4x}+9^{y^2+1}}{6}=3^{4x+y^2} \hspace{1zw} \cdots\cdots\text{(★)} \]
+を満たすとする。
+\begin{description}
+\item[(1)]$y^2$を$x$を用いて表せ。
+\item[(2)]正の実数$x, \, y$が(★)および$\displaystyle1-\frac{x}{y}>0$を満たしながら動くとき，
+\[ \frac{1}{\log_{1+\frac{x}{y}}4}+\frac{1}{\log_{1-\frac{x}{y}}4} \]
+の最大値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2021/2021_3.pdf)

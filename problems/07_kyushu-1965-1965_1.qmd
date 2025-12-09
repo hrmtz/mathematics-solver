@@ -1,0 +1,33 @@
+---
+title: "九州大学 1965年 1965_1"
+problem_id: "07_kyushu-1965-1965_1"
+university: "九州大学"
+exam_year: "1965"
+source_tex: "archive/07_kyushu/1965/1965_1.tex"
+pdf_source: "archive/07_kyushu/1965/1965_1.pdf"
+page_image: "archive/07_kyushu/1965/1965_1.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　四面体$ABCD$において$AC=BC=l$，$AD=BD=m$，$AB=n$とし，
+平面$ABC$と平面$ABD$とは垂直であるとする。
+ 
+
+![](../archive/07_kyushu/1965/fig_1965_1.jpg)
+
+
+\begin{description}
+\item[(1)]$CD$を$l$，$m$，$n$で表わせ。
+\item[(2)]辺$AB$と辺$CD$との共通垂線の長さを$l$，$m$，$n$で表わせ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1965/1965_1.pdf)

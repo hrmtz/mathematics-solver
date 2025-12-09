@@ -1,0 +1,34 @@
+---
+title: "名古屋大学 2005年 2005_c"
+problem_id: "05_nagoya-2005-2005_c"
+university: "名古屋大学"
+exam_year: "2005"
+source_tex: "archive/05_nagoya/2005/2005_c.tex"
+pdf_source: "archive/05_nagoya/2005/2005_c.pdf"
+page_image: "archive/05_nagoya/2005/2005_c.jpg"
+fields:
+  - 積分法
+  - 三角関数
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$f(x)=|e^{-x}\sin x|$とする．
+　曲線$y=f(x)$の$(n-1)\pi \leqq x \leqq n\pi$（$n$は自然数）の部分と
+$x$軸で囲まれる図形の面積を$S_n$とする．
+つぎの各問に答えよ．
+\begin{description}
+\item[(1)]$0 \leqq x \leqq 2\pi$の範囲で，
+$f(x)=0$を満たす$x$の値および$f(x)$の極大値を与える$x$の値を求めよ．
+\item[(2)]不定積分$\displaystyle \int e^{-x}\sin xdx$を求めよ．
+\item[(3)]面積$S_n$を求めよ．
+\item[(4)]無限級数の和$\displaystyle\sum_{n=1}^\infty S_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2005/2005_c.pdf)

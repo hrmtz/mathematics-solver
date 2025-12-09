@@ -1,0 +1,27 @@
+---
+title: "京都大学 1993年 1993_0_c"
+problem_id: "02_kyoto-1993-1993_0_c"
+university: "京都大学"
+exam_year: "1993"
+source_tex: "archive/02_kyoto/1993/1993_0_c.tex"
+pdf_source: "archive/02_kyoto/1993/1993_0_c.pdf"
+page_image: "archive/02_kyoto/1993/1993_0_c.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　数列$\{a_n\}$を次のように定義する．
+\[ \begin{cases} a_1=1, & 
+
+ \displaystyle a_{n+1}=\frac{1}{2}a_n+\frac{1}{n+1} & (n=1,2,\cdots\cdots) \end{cases} \]
+このとき，各自然数$n$に対して不等式$\displaystyle a_n\leqq\frac{4}{n}$が成り立つことを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1993/1993_0_c.pdf)

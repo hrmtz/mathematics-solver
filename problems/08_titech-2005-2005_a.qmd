@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 2005年 2005_a"
+problem_id: "08_titech-2005-2005_a"
+university: "東京科学大学"
+exam_year: "2005"
+source_tex: "archive/08_titech/2005/2005_a.tex"
+pdf_source: "archive/08_titech/2005/2005_a.pdf"
+page_image: "archive/08_titech/2005/2005_a.jpg"
+fields:
+  - 数列
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　数列$\{ a_m \}$(ただし$a_m=m$とする)に対し$\displaystyle b_n=\sum_{m=1}^n a_m$とおく．
+\begin{description}
+\item[(1)]$0<r<1$とするとき，$\displaystyle\lim_{n \to \infty}nr^n=0$および$\displaystyle\lim_{n \to \infty}n^2r^n=0$となることを証明せよ．
+\item[(2)]$S_m=a_1r+a_2r^2+\cdots+a_mr^m$，$T_n=b_1r+b_2r^2+\cdots+b_nr^n$とおくとき，
+$\displaystyle\lim_{m\to\infty}S_m$および$\displaystyle\lim_{n\to\infty}T_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2005/2005_a.pdf)

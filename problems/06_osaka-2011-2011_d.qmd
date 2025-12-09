@@ -1,0 +1,31 @@
+---
+title: "大阪大学 2011年 2011_d"
+problem_id: "06_osaka-2011-2011_d"
+university: "大阪大学"
+exam_year: "2011"
+source_tex: "archive/06_osaka/2011/2011_d.tex"
+pdf_source: "archive/06_osaka/2011/2011_d.pdf"
+page_image: "archive/06_osaka/2011/2011_d.jpg"
+fields:
+  - 平面図形
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　座標平面上に原点$O$を中心とする半径1の円$C$がある．
+点$A(-2, \, 0)$を通る直線が$y>0$の範囲にある点$P$において円$C$と接するとする．
+自然数$n\geqq2$に対して点$A$を通る$(n-1)$本の直線で$\angle OAP$を$n$等分する．
+これらの直線を直線$AO$となす角が小さいものから順に$l_1, \, \cdots, \, l_{n-1}$とし，
+直線$l_k$と円$C$の2つの交点のうち点$A$に近い方を$Q_k$，他方を$R_k$とする．
+\begin{description}
+\item[(1)]${AR_k}^2-{AQ_k}^2$を$n$と$k$を用いて表せ．
+\item[(2)]極限値$\displaystyle\lim_{n\to\infty}\frac{1}{n}\sum_{k=1}^{n-1}({AR_k}^2-{AQ_k}^2)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2011/2011_d.pdf)

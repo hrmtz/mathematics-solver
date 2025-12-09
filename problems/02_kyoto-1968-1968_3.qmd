@@ -1,0 +1,34 @@
+---
+title: "京都大学 1968年 1968_3"
+problem_id: "02_kyoto-1968-1968_3"
+university: "京都大学"
+exam_year: "1968"
+source_tex: "archive/02_kyoto/1968/1968_3.tex"
+pdf_source: "archive/02_kyoto/1968/1968_3.pdf"
+page_image: "archive/02_kyoto/1968/1968_3.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$m \leqq l$である2数$l$，$m$に対して，
+不等式$m \leqq x \leqq l$を満たすすべての数$x$の集合$S$が，
+\begin{center}
+条件：　$x$が$S$に属しているときには，$x^2$もまた$S$に属している
+\end{center}
+を満たすとする．このとき，
+\begin{description}
+\item[(1)]$0 \leqq l \leqq 1$であることを示せ．
+\item[(2)]$m=1$，または$m \leqq 0$であることを示せ．
+\item[(3)]$m=1$であるとき，$S$はどのような集合か．
+\item[(4)]$m \neq 1$であるとき，与えられた数$l$ $(0 \leqq l \leqq 1)$に対して，
+$m$のとりうる値の範囲を定めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1968/1968_3.pdf)

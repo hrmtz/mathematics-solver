@@ -1,0 +1,43 @@
+---
+title: "東京科学大学 1999年 1999_b"
+problem_id: "08_titech-1999-1999_b"
+university: "東京科学大学"
+exam_year: "1999"
+source_tex: "archive/08_titech/1999/1999_b.tex"
+pdf_source: "archive/08_titech/1999/1999_b.pdf"
+page_image: "archive/08_titech/1999/1999_b.jpg"
+fields:
+  - 数列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+\item[(1)]半径1の円に内接する6個の半径の等しい円を図1のように描く，
+さらに図2のように6個の小さな半径の等しい円を描く，
+この操作を無限にくり返したとき，
+6個ずつ次々に描かれる円の面積の総和$S_2$と，
+それらの円の円周の長さの総和$C_2$を求めよ．
+\item[(2)](1)で6個の円を次々に描いていった．
+一般に，自然数$n \geqq 2$に対して$3n$個の円を用いて同様の操作を行うとき，
+描かれる円の面積の総和$S_n$と，
+それらの円の円周の長さの総和$C_n$を求めよ．
+\item[(3)]数列$S_2$，$S_3$，$S_4$，$\cdots$の極限値を求めよ．
+\end{description}
+
+
+
+![](../archive/08_titech/1999/fig_1999_b_1.jpg)
+
+
+
+
+![](../archive/08_titech/1999/fig_1999_b_2.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1999/1999_b.pdf)

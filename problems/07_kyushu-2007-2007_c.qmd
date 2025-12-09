@@ -1,0 +1,39 @@
+---
+title: "九州大学 2007年 2007_c"
+problem_id: "07_kyushu-2007-2007_c"
+university: "九州大学"
+exam_year: "2007"
+source_tex: "archive/07_kyushu/2007/2007_c.tex"
+pdf_source: "archive/07_kyushu/2007/2007_c.pdf"
+page_image: "archive/07_kyushu/2007/2007_c.jpg"
+fields:
+  - 指数・対数
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数
+\[ f(x)=\begin{cases} x\log x & (x>0) 
+
+ 0 & (x=0) 
+
+ |x\log|x|| & (x<0) \end{cases} \]
+について，以下の問いに答えよ．
+\begin{description}
+\item[(1)]$t\geqq0$のとき，
+不等式$\displaystyle e^t\geqq1+t+\frac{t^2}{2}$が成り立つことを証明せよ．
+\item[(2)]$\displaystyle\lim_{t\to+\infty}\frac{e^t}{t}=+\infty$と
+$\displaystyle\lim_{x\to+0}x\log x=0$を証明せよ．
+\item[(3)]$a$を実数の定数とするとき，
+$x$についての方程式$f(x)=a$の異なる実数解の個数を求めよ．
+\item[(4)]$\displaystyle S=\lim_{c\to+0}\int_c^1|f(x)|dx$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_c.pdf)

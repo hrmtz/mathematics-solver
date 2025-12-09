@@ -1,0 +1,29 @@
+---
+title: "九州大学 2014年 2014_c"
+problem_id: "07_kyushu-2014-2014_c"
+university: "九州大学"
+exam_year: "2014"
+source_tex: "archive/07_kyushu/2014/2014_c.tex"
+pdf_source: "archive/07_kyushu/2014/2014_c.pdf"
+page_image: "archive/07_kyushu/2014/2014_c.jpg"
+fields:
+  - 指数・対数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$を正の定数，関数$f(x)$，$g(x)$をそれぞれ$f(x)=xe^x$，$g(x)=ax$とする。
+このとき以下の問いに答えよ。
+\begin{description}
+\item[(1)]$y=f(x)$と$y=g(x)$のグラフが$0<x<1$の範囲において交点を持つための$a$の範囲を求めよ。
+\item[(2)]$\displaystyle h(a)=\int_0^1|f(x)-g(x)|dx$とおく。
+$h(a)$を最小にする$a$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2014/2014_c.pdf)

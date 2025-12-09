@@ -1,0 +1,34 @@
+---
+title: "北海道大学 1982年 1982_2"
+problem_id: "03_hokudai-1982-1982_2"
+university: "北海道大学"
+exam_year: "1982"
+source_tex: "archive/03_hokudai/1982/1982_2.tex"
+pdf_source: "archive/03_hokudai/1982/1982_2.pdf"
+page_image: "archive/03_hokudai/1982/1982_2.jpg"
+fields:
+  - 行列
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a+b=c+d$を満たす行列$\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$全体の集合を$R$とする．
+ただし$a$，$b$，$c$，$d$は実数とする．
+\begin{description}
+\item[(1)]$A$，$B \in R$のとき，$AB \in R$であることを示せ．
+\item[(2)]$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix} \in R$とする．
+$b\neq0$または$c\neq0$のとき，
+$A\overrightarrow{u}=k\overrightarrow{u}$を満たす実数$k$と単位ベクトル$\overrightarrow{u}$の組をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1982/1982_2.pdf)

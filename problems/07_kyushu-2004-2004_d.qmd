@@ -1,0 +1,31 @@
+---
+title: "九州大学 2004年 2004_d"
+problem_id: "07_kyushu-2004-2004_d"
+university: "九州大学"
+exam_year: "2004"
+source_tex: "archive/07_kyushu/2004/2004_d.tex"
+pdf_source: "archive/07_kyushu/2004/2004_d.pdf"
+page_image: "archive/07_kyushu/2004/2004_d.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　初項$a_1=1$と漸化式
+\[ a_n=2a_{n-1}+n-3 \hspace{1zw} (n=2, \, 3, \, \cdots\cdots) \]
+によって与えられる数列$\{ a_n \}$について次の問いに答えよ．
+\begin{description}
+\item[(1)]一般項$a_n$を求めよ．
+\item[(2)]$\{ a_n \}$の第$k$項から第$2k$項までの$(k+1)$個の項の和$P_k$を求めよ．
+\item[(3)]整数$k>1$を選んだとき，
+$2^{k-1}-a_k\leqq25$かつ$2^{2k}-2^{k-1}-P_k\geqq25$が成立しない$k$の範囲を示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2004/2004_d.pdf)

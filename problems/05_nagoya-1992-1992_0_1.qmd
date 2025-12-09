@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 1992年 1992_0_1"
+problem_id: "05_nagoya-1992-1992_0_1"
+university: "名古屋大学"
+exam_year: "1992"
+source_tex: "archive/05_nagoya/1992/1992_0_1.tex"
+pdf_source: "archive/05_nagoya/1992/1992_0_1.pdf"
+page_image: "archive/05_nagoya/1992/1992_0_1.jpg"
+fields:
+  - 複素数平面
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　複素数$\displaystyle\alpha=\frac{1-\sqrt7 \, i}{2}$，$\displaystyle\beta=\frac{1+\sqrt7 \, i}{2}$について
+(1)と(2)を証明せよ．
+\begin{description}
+\item[(1)]すべての正整数$n$に対して次の等式が成り立つ．
+\[ \alpha^{n+1}+\beta^{n+1}=\alpha^n+\beta^n-2(\alpha^{n-1}+\beta^{n-1}) \]
+\item[(2)]すべての正整数$n$に対して$\alpha^n+\beta^n$は奇数である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1992/1992_0_1.pdf)

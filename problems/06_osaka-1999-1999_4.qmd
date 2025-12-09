@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1999年 1999_4"
+problem_id: "06_osaka-1999-1999_4"
+university: "大阪大学"
+exam_year: "1999"
+source_tex: "archive/06_osaka/1999/1999_4.tex"
+pdf_source: "archive/06_osaka/1999/1999_4.pdf"
+page_image: "archive/06_osaka/1999/1999_4.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xyz$空間内に2つの立体$K$と$L$がある．
+どのような$a$に対しても，平面$z=a$による立体$K$の切り口は3点
+$(0, \, 0, \, a)$，$(1, \, 0, \, a)$，
+$\displaystyle\left(\frac{1}{2}, \, \frac{\sqrt3}{2}, \, a \right)$を頂点とする正三角形である．
+また，どのような$a$に対しても，
+平面$y=a$による立体$L$の切り口は3点$(0, \, a, \, 0)$，
+$\displaystyle\left(0, \, a, \, \frac{2}{\sqrt3}\right)$，$\displaystyle\left(1, \, a, \, \frac{1}{\sqrt3}\right)$
+を頂点とする正三角形である．
+　このとき，立体$K$と$L$の共通部分の体積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1999/1999_4.pdf)

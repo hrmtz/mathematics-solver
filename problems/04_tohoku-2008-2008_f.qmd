@@ -1,0 +1,30 @@
+---
+title: "東北大学 2008年 2008_f"
+problem_id: "04_tohoku-2008-2008_f"
+university: "東北大学"
+exam_year: "2008"
+source_tex: "archive/04_tohoku/2008/2008_f.tex"
+pdf_source: "archive/04_tohoku/2008/2008_f.pdf"
+page_image: "archive/04_tohoku/2008/2008_f.jpg"
+fields:
+  - 整数
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$n$を整数とし，$p$を2以上の整数で素数とする．3次方程式
+\[ x^3+nx^2+n^2x=p \]
+が正の整数$x=\alpha$を解にもつとき，以下の問いに答えよ．
+\begin{description}
+\item[(1)]$\alpha=1$であることを示せ．
+\item[(2)]上の3次方程式が$k+\sqrt2 \, i$（$k$は実数）を解にもつとき，$p$の値を求めよ．
+ここで，$i$は虚数単位とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_f.pdf)

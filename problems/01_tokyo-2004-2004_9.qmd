@@ -1,0 +1,32 @@
+---
+title: "東京大学 2004年 2004_9"
+problem_id: "01_tokyo-2004-2004_9"
+university: "東京大学"
+exam_year: "2004"
+source_tex: "archive/01_tokyo/2004/2004_9.tex"
+pdf_source: "archive/01_tokyo/2004/2004_9.pdf"
+page_image: "archive/01_tokyo/2004/2004_9.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xy$平面に点$(-1,0)$を中心とする半径1の円$A$と，
+点$(1,0)$を中心とする半径1の円$B$をとる．
+円$A$の内部を$D$，円$B$の内部を$E$とする．
+次の問に答えよ．
+\begin{description}
+\item[(1)]点$(-1+\cos\theta,\sin\theta)$における円$A$の接線を$l$とする．
+円$B$の接線$m$が$l$と直交するとき，$l$と$m$の交点$P$の座標を$\theta$を用いて表せ．
+\item[(2)]領域$D$にも$E$にも重ならないように1辺の長さが2の正方形を$xy$平面内で動かすとき，
+この正方形が通りえない部分の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2004/2004_9.pdf)

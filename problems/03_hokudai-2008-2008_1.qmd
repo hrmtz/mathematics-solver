@@ -1,0 +1,30 @@
+---
+title: "北海道大学 2008年 2008_1"
+problem_id: "03_hokudai-2008-2008_1"
+university: "北海道大学"
+exam_year: "2008"
+source_tex: "archive/03_hokudai/2008/2008_1.tex"
+pdf_source: "archive/03_hokudai/2008/2008_1.pdf"
+page_image: "archive/03_hokudai/2008/2008_1.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$\alpha$，$\beta$を$0<\alpha<\beta<2$を満たす実数とし，
+$0 \leqq x \leqq 2$の範囲で定義された関数$f(x)$を$f(x)=|(x-\alpha)(x-\beta)|$とする．
+\begin{description}
+\item[(1)]$f(x)$の最大値を$M$とする．
+$f(x)=M$となる$x$がちょうど3つあるとき，
+実数$\alpha$，$\beta$と$M$の値を求めよ．
+\item[(2)](1)で求めた$\alpha$，$\beta$について，
+$f(x)-mx=0$が異なる3つの解をもつような実数$m$の値の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_1.pdf)

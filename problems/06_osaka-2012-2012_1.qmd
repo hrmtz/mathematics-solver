@@ -1,0 +1,32 @@
+---
+title: "大阪大学 2012年 2012_1"
+problem_id: "06_osaka-2012-2012_1"
+university: "大阪大学"
+exam_year: "2012"
+source_tex: "archive/06_osaka/2012/2012_1.tex"
+pdf_source: "archive/06_osaka/2012/2012_1.pdf"
+page_image: "archive/06_osaka/2012/2012_1.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a>0$とする．
+$C_1$を曲線$\displaystyle x^2+\frac{y^2}{a^2}=1$，
+$C_2$を直線$y=2ax-3a$とする．
+このとき，以下の問いに答えよ．
+\begin{description}
+\item[(1)]点$P$が$C_1$上を動き，点$Q$が$C_2$上を動くとき，
+線分$PQ$の長さの最小値を$f(a)$とする．
+$f(a)$を$a$を用いて表せ．
+\item[(2)]極限値$\displaystyle\lim_{a\to\infty}f(a)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2012/2012_1.pdf)

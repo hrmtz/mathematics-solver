@@ -1,0 +1,32 @@
+---
+title: "北海道大学 1962年 1962_0_2"
+problem_id: "03_hokudai-1962-1962_0_2"
+university: "北海道大学"
+exam_year: "1962"
+source_tex: "archive/03_hokudai/1962/1962_0_2.tex"
+pdf_source: "archive/03_hokudai/1962/1962_0_2.pdf"
+page_image: "archive/03_hokudai/1962/1962_0_2.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$x$について次の2つの二次関数がある。
+\[ y=ax^2+4x+3a\cdots\cdots\cdots\text{（イ）} \]
+\[ y=x^2+2(b+2)x+b^2+3b\cdots\cdots\cdots\text{（ロ）} \]
+\begin{description}
+\item[(1)]（イ）の値が$x$のどんな値に対しても3より大きくないとき，
+$a$はどのような範囲の値であるか。
+\item[(2)]（イ）が(1)を満たすとき，（イ）のグラフを左に（$x$軸に負の向きに）1だけ平行移動すると，
+このグラフの頂点と（ロ）のグラフの頂点とは$x$軸に関して対称になるという。
+$a$，$b$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1962/1962_0_2.pdf)

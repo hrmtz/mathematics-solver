@@ -1,0 +1,30 @@
+---
+title: "東北大学 2001年 2001_0_3"
+problem_id: "04_tohoku-2001-2001_0_3"
+university: "東北大学"
+exam_year: "2001"
+source_tex: "archive/04_tohoku/2001/2001_0_3.tex"
+pdf_source: "archive/04_tohoku/2001/2001_0_3.pdf"
+page_image: "archive/04_tohoku/2001/2001_0_3.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　袋の中に赤の玉と白の玉が合計4個入っている．
+1回の試行では袋から1個の玉を無作為に取り出し，
+それが白であれば袋に戻し，赤の玉の場合は戻さずに別に用意した白の玉1個を袋に入れる．
+\begin{description}
+\item[(1)]最初は赤の玉と白の玉が2個ずつであるとして，
+3回以下の試行で袋の中が白の玉4個となる確率を求めよ．
+\item[(2)]最初は赤の玉が3個，白の玉が1個であるとして，
+5回以下の試行で袋の中が白の玉4個となる確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_0_3.pdf)

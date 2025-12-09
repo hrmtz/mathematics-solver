@@ -1,0 +1,179 @@
+## 解答
+
+関数
+$$
+f(x)=\frac{x}{\sin x}+\cos x \quad (0<x<\pi)
+$$
+について考える。
+
+### (1) 導関数と増減
+
+まず $f(x)$ を微分する。$x/\sin x$ は積の微分あるいは商の微分を用いて
+
+$$
+\left(\frac{x}{\sin x}\right)'
+=\frac{\sin x - x\cos x}{\sin^2 x}
+$$
+
+となる。また $(\cos x)'=-\sin x$ であるから，
+
+$$
+f'(x)
+=\left(\frac{x}{\sin x}\right)'+(\cos x)'
+=\frac{\sin x - x\cos x}{\sin^2 x}-\sin x.
+$$
+
+右辺を整理する。共通分母 $\sin^2 x$ をとると
+
+$$
+f'(x)
+=\frac{\sin x - x\cos x-\sin^3 x}{\sin^2 x}
+=\frac{\sin x(1-\sin^2 x)-x\cos x}{\sin^2 x}
+=\frac{\sin x\cos^2 x-x\cos x}{\sin^2 x}.
+$$
+
+さらに $\cos x$ をくくり出すと
+
+$$
+f'(x)
+=\frac{\cos x(\sin x\cos x-x)}{\sin^2 x}
+=\frac{\cos x}{\sin^2 x}(\sin x\cos x-x).
+$$
+
+分母の $\sin^2 x$ は，$0<x<\pi$ では $\sin x>0$ なので常に正である。したがって $f'(x)$ の符号は
+
+$$
+\cos x \quad \text{と} \quad \sin x\cos x-x
+$$
+
+の符号で決まる。
+
+ここで
+$$
+g(x)=\sin x\cos x-x
+$$
+とおくと，
+$$
+g'(x)=\cos^2 x-\sin^2 x-1=\cos 2x-1.
+$$
+三角恒等式 $\cos 2x-1=-2\sin^2 x$ を用いると，
+
+$$
+g'(x)=-2\sin^2 x<0 \quad (0<x<\pi)
+$$
+
+となり，$g(x)$ は $(0,\pi)$ で単調減少である。
+
+さらに $x\to+0$ のとき，
+$$
+g(0)=\sin 0\cdot\cos 0-0=0
+$$
+より，連続性から $0<x<\pi$ では $g(x)<0$ が成り立つ。
+
+したがって
+$$
+\sin x\cos x-x=g(x)<0 \quad (0<x<\pi)
+$$
+である。
+
+よって $f'(x)$ の符号は，分母は正，$\sin x\cos x-x<0$ なので，
+$$
+f'(x)\ \text{の符号} = -\cos x\ \text{の符号}
+$$
+となる。したがって
+
+- $0<x<\dfrac{\pi}{2}$ では $\cos x>0$ より $f'(x)<0$（減少）
+- $\dfrac{\pi}{2}<x<\pi$ では $\cos x<0$ より $f'(x)>0$（増加）
+
+となる。
+
+以上より増減表は次のようになる：
+
+- 区間 $(0,\dfrac{\pi}{2})$ で減少，
+- $x=\dfrac{\pi}{2}$ で極小，
+- 区間 $(\dfrac{\pi}{2},\pi)$ で増加。
+
+（端点 $0,\pi$ は定義域に含まれないので，増減表では「開区間での極限値」をあわせて記す。）
+
+### (2) $x\to+0$，$x\to\pi-0$ の極限
+
+まず $x\to+0$ のときの $\dfrac{x}{\sin x}$ を求める。既知の極限
+
+$$
+\lim_{x\to 0}\frac{\sin x}{x}=1
+$$
+より，
+$$
+\lim_{x\to 0}\frac{x}{\sin x}
+=\left(\lim_{x\to 0}\frac{\sin x}{x}\right)^{-1}
+=1.
+$$
+
+また $\cos x$ は連続なので
+$$
+\lim_{x\to 0}\cos x=\cos 0=1.
+$$
+
+したがって
+$$
+\lim_{x\to+0}f(x)
+=\lim_{x\to+0}\left(\frac{x}{\sin x}+\cos x\right)
+=1+1=2.
+$$
+
+次に $x\to\pi-0$ のときの極限を調べる。$x\to\pi$ で $\sin x\to 0$ となるので，$\dfrac{x}{\sin x}$ の発散の様子を見る。
+
+$\sin x$ は $x=\pi$ の近くで
+$$
+\sin x=\sin(\pi-(\pi-x))=\sin(\pi-x)
+$$
+と書ける。$t=\pi-x$ とおくと $t\to+0$ であり，
+
+$$
+\sin x=\sin(\pi-x)=\sin t \sim t
+$$
+
+であるから
+$$
+\frac{x}{\sin x}
+=\frac{\pi-t}{\sin t}
+=\frac{\pi-t}{t}\cdot\frac{t}{\sin t}
+$$
+となる。$t\to+0$ で
+$$
+\frac{t}{\sin t}\to 1,\quad \frac{\pi-t}{t}\to+\infty
+$$
+ゆえ，
+$$
+\lim_{x\to\pi-0}\frac{x}{\sin x}=+\infty.
+$$
+
+一方，
+$$
+\lim_{x\to\pi-0}\cos x=\cos\pi=-1
+$$
+であるから
+
+$$
+\lim_{x\to\pi-0}f(x)
+=\lim_{x\to\pi-0}\left(\frac{x}{\sin x}+\cos x\right)
+=+\infty+(-1)=+\infty
+$$
+
+となる。
+
+### (3) まとめ（増減表）
+
+以上をまとめると，
+
+- $\displaystyle \lim_{x\to+0}f(x)=2$
+- $\displaystyle \lim_{x\to\pi-0}f(x)=+\infty$
+- $0<x<\dfrac{\pi}{2}$ で減少，$\dfrac{\pi}{2}<x<\pi$ で増加
+
+であり，増減表は概略的に
+
+- $x\to+0$ で $f(x)\to 2$ から始まり，
+- $x=\dfrac{\pi}{2}$ で極小値 $f\!\left(\dfrac{\pi}{2}\right)$ をとり，
+- そこから $x\to\pi-0$ に向かって $f(x)\to+\infty$ と増加していく
+
+という形になる。

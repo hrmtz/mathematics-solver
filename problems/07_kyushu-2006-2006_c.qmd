@@ -1,0 +1,32 @@
+---
+title: "九州大学 2006年 2006_c"
+problem_id: "07_kyushu-2006-2006_c"
+university: "九州大学"
+exam_year: "2006"
+source_tex: "archive/07_kyushu/2006/2006_c.tex"
+pdf_source: "archive/07_kyushu/2006/2006_c.pdf"
+page_image: "archive/07_kyushu/2006/2006_c.jpg"
+fields:
+  - 数列
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　数列$\{ a_n \}$を
+\[ a_1=1, \hspace{1zw} a_{n+1}=\frac{2a_n}{5a_n+c} \hspace{1zw} (n=1, \, 2, \, \cdots) \]
+と定める．ただし，$c$は$0 \leqq c<2$を満たす定数とする．
+\begin{description}
+\item[(1)]$\displaystyle b_n=\frac{1}{a_n}$とおくとき，
+\[ b_{n+1}-pb_n=q \hspace{1zw} (n=1, \, 2, \, \cdots) \]
+となる定数$p$，$q$を$c$の式で表せ．
+\item[(2)]$a_n$を$n$と$c$の式で表せ．
+\item[(3)]$\displaystyle\lim_{n\to\infty}a_n$を$c$の式で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2006/2006_c.pdf)

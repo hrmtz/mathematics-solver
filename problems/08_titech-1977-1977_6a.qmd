@@ -1,0 +1,29 @@
+---
+title: "東京科学大学 1977年 1977_6a"
+problem_id: "08_titech-1977-1977_6a"
+university: "東京科学大学"
+exam_year: "1977"
+source_tex: "archive/08_titech/1977/1977_6a.tex"
+pdf_source: "archive/08_titech/1977/1977_6a.pdf"
+page_image: "archive/08_titech/1977/1977_6a.jpg"
+fields:
+  - 数列
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+6 (a)
+　数列$a_1, \, a_2, \, \cdots\cdots, \, a_n, \, \cdots\cdots$が
+関係$a_{n+1}=2{a_n}^2-1$ $(n\geqq1)$を満たしているとする．
+$a_N=1$を満たす$N$（ただし$N\geqq2$）があるとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$|a_1|\leqq1$を証明せよ．
+\item[(2)]$\displaystyle a_1=\cos\frac{k\pi}{2^{N-2}}$（$k$はある整数）を証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1977/1977_6a.pdf)

@@ -1,0 +1,39 @@
+---
+title: "九州大学 1990年 1990_1"
+problem_id: "07_kyushu-1990-1990_1"
+university: "九州大学"
+exam_year: "1990"
+source_tex: "archive/07_kyushu/1990/1990_1.tex"
+pdf_source: "archive/07_kyushu/1990/1990_1.pdf"
+page_image: "archive/07_kyushu/1990/1990_1.jpg"
+fields:
+  - 行列
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　平面上の2点$P(a, \, c)$，$Q(b, \, d)$に対して，1次変換
+$\begin{pmatrix} x' 
+
+ y' \end{pmatrix}=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}\begin{pmatrix} x 
+
+ y \end{pmatrix}$
+を考える．原点$O$を中心とする単位円$x^2+y^2=1$を$C$とする．
+\begin{description}
+\item[(1)]$P$，$Q$がともに$C$上にあり，ベクトル$\overrightarrow{OP}$と$\overrightarrow{OQ}$が直交するとき，
+この1次変換は$C$上の任意の点を$C$上に移すことを示せ．
+\item[(2)]逆に，この1次変換が$C$上の任意の点を$C$上に移すならば，
+$P$，$Q$はともに$C$上の点であり，
+かつベクトル$\overrightarrow{OP}$と$\overrightarrow{OQ}$は直交していることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_1.pdf)

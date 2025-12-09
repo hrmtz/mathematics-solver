@@ -1,0 +1,275 @@
+## 解答
+
+(1)  
+
+点の座標は
+$$
+O(0,0),\ A(1,0),\ B(1,1),\ C(0,1),
+$$
+$$
+P(p,0)\ (0\le p\le 1),\ Q(0,q)\ (0\le q\le 1),\ R(r,1)\ (0\le r\le 1)
+$$
+である。
+
+まず，三角形$OPQ$の面積が$\dfrac13$である条件を用いる。  
+$O(0,0),P(p,0),Q(0,q)$より，底辺を$OP$，高さを$Q$の$y$座標$q$とみれば，
+$$
+\text{面積}=\frac12\cdot OP\cdot q=\frac12\cdot p\cdot q=\frac13
+$$
+であるから，
+$$
+pq=\frac{2}{3}\tag{1}
+$$
+を得る。
+
+次に，三角形$PQR$の面積が$\dfrac13$である条件を用いる。  
+3点$P(p,0),Q(0,q),R(r,1)$の座標を用いて，ベクトルの外積（平行四辺形の面積）の公式から，
+$$
+\text{面積}=\frac12\left| 
+\det
+\begin{pmatrix}
+-\,p & q\\
+r-p & 1
+\end{pmatrix}
+\right|
+=
+\frac12\left|(-p)\cdot 1 - q(r-p)\right|
+=\frac12\left|-p - qr + pq\right|.
+$$
+これが$\dfrac13$に等しいので，
+$$
+\frac12\left|-p - qr + pq\right|=\frac13
+\quad\Longrightarrow\quad
+\left|-p - qr + pq\right|=\frac{2}{3}.
+$$
+ここで(1)より$pq=\dfrac23$なので，
+$$
+-p - qr + \frac23 = -\left(p+qr-\frac23\right)
+$$
+となり，
+$$
+\left|p+qr-\frac23\right|=\frac23\tag{2}
+$$
+を得る。
+
+$(2)$式の絶対値をはずすと，次の2つの場合に分かれる。
+\[
+\begin{cases}
+p+qr-\dfrac23=\dfrac23 &\Longrightarrow\ p+qr=\dfrac43 \\
+p+qr-\dfrac23=-\dfrac23 &\Longrightarrow\ p+qr=0
+\end{cases}
+\]
+
+しかし$q\ge 0,\ r\ge 0,\ p\ge 0$であるから，$p+qr=0$であれば
+$$
+p=0,\quad qr=0
+$$
+が必要である。ところが(1)$pq=\dfrac23$より，$p=0$ならば$0\cdot q=\dfrac23$となり矛盾する。  
+したがって $p+qr=0$ は起こり得ず，常に
+$$
+p+qr=\frac{4}{3}\tag{3}
+$$
+が成り立つ。
+
+ここで(1)より $q=\dfrac{2}{3p}$ と表せるので，(3)に代入して
+$$
+p + r\cdot\frac{2}{3p} = \frac{4}{3}
+$$
+となる。両辺に$3p$を掛けて整理すると，
+$$
+3p^2 + 2r = 4p
+\quad\Longrightarrow\quad
+2r = -3p^2 + 4p
+\quad\Longrightarrow\quad
+r = -\frac{3}{2}p^2 + 2p\tag{4}
+$$
+となる。
+
+また$q$は
+$$
+q = \frac{2}{3p}\tag{5}
+$$
+と表される。
+
+次に，$p,q,r$の取りうる範囲を求める。  
+$P,Q,R$はいずれも正方形の辺上にあるので，座標条件から
+$$
+0\le p\le 1,\quad 0\le q\le 1,\quad 0\le r\le 1
+$$
+が必要である。これに(4)(5)を組み合わせて考える。
+
+まず$q\le 1$より
+$$
+\frac{2}{3p}\le 1 \quad\Longrightarrow\quad 2\le 3p \quad\Longrightarrow\quad p\ge \frac{2}{3}.
+$$
+また$p>0$でないと(1)より$pq=\dfrac23$を満たせないので$p>0$であり，さらに$p\le 1$であるから，
+$$
+\frac{2}{3}\le p\le 1 \tag{6}
+$$
+となる。
+
+次に$r$について，(4)より
+$$
+r = -\frac{3}{2}p^2 + 2p
+$$
+である。$r\ge 0$と$r\le 1$の条件を調べる。
+
+$r\ge 0$より，
+$$
+-\frac{3}{2}p^2 + 2p \ge 0
+\quad\Longrightarrow\quad
+p\left(-\frac{3}{2}p + 2\right)\ge 0.
+$$
+$p>0$なので，$-\dfrac{3}{2}p + 2\ge 0$すなわち
+$$
+p\le \frac{4}{3}
+$$
+が必要である。これは(6)の $p\le 1$ に比べてゆるい条件なので，新たな制約にはならない。
+
+次に$r\le 1$より，
+$$
+-\frac{3}{2}p^2 + 2p \le 1
+\quad\Longrightarrow\quad
+-3p^2 + 4p - 2 \le 0
+\quad\Longrightarrow\quad
+3p^2 - 4p + 2 \ge 0.
+$$
+これは2次方程式 $3p^2 - 4p + 2 = 0$ の判別式
+$$
+D = (-4)^2 - 4\cdot 3\cdot 2 = 16 - 24 = -8 < 0
+$$
+より，常に正である（実数解をもたないので，放物線は上に開いて$x$軸と交わらない）。  
+したがって $3p^2 - 4p + 2>0$ が任意の$p$で成り立ち，特に(6)の範囲で常に$r\le 1$が満たされる。
+
+よって$p$の取りうる範囲は
+$$
+\frac{2}{3}\le p\le 1
+$$
+であり，このとき
+$$
+q = \frac{2}{3p},\quad r = -\frac{3}{2}p^2 + 2p
+$$
+で，それぞれの範囲は
+$$
+p=\frac{2}{3}\ \Rightarrow\ q=1,\ r=\frac{4}{3}-\frac{2}{3}= \frac{2}{3},\quad
+p=1\ \Rightarrow\ q=\frac{2}{3},\ r=\frac{1}{2}
+$$
+である。$q,r$は$p$の連続関数なので，$p$が$\dfrac{2}{3}$から$1$まで動くと$q,r$はそれぞれ対応する区間を連続的に動く。したがって
+$$
+\frac{2}{3}\le q\le 1,\quad \frac{1}{2}\le r\le \frac{2}{3}
+$$
+となる。
+
+以上より，
+\[
+\boxed{
+\begin{cases}
+q = \dfrac{2}{3p},\quad r = -\dfrac{3}{2}p^2 + 2p,\\[2mm]
+\dfrac{2}{3}\le p\le 1,\quad \dfrac{2}{3}\le q\le 1,\quad \dfrac{1}{2}\le r\le \dfrac{2}{3}
+\end{cases}
+}
+\]
+である。
+
+---
+
+(2)  
+
+$CR$は$C(0,1)$と$R(r,1)$の距離であるから，
+$$
+CR = r.
+$$
+また$OQ$は$O(0,0)$と$Q(0,q)$の距離であるから，
+$$
+OQ = q.
+$$
+よって
+$$
+\frac{CR}{OQ} = \frac{r}{q}
+$$
+である。(1)で求めた
+$$
+q = \frac{2}{3p},\quad r = -\frac{3}{2}p^2 + 2p,\quad \frac{2}{3}\le p\le 1
+$$
+を用いると，
+$$
+\frac{r}{q}
+= \left(-\frac{3}{2}p^2 + 2p\right)\Big/\frac{2}{3p}
+= \left(-\frac{3}{2}p^2 + 2p\right)\cdot\frac{3p}{2}
+$$
+となる。計算すると，
+$$
+\frac{r}{q}
+= \frac{3p}{2}\left(-\frac{3}{2}p^2 + 2p\right)
+= \frac{3p}{2}\cdot\left(-\frac{3}{2}p^2\right)
+  + \frac{3p}{2}\cdot 2p
+= -\frac{9}{4}p^3 + 3p^2.
+$$
+したがって
+$$
+f(p)=\frac{CR}{OQ} = -\frac{9}{4}p^3 + 3p^2
+\quad\left(\frac{2}{3}\le p\le 1\right)
+$$
+の最大値・最小値を求めればよい。
+
+$f(p)$は3次関数で，区間$\left[\dfrac{2}{3},1\right]$で連続かつ微分可能であるから，  
+端点および導関数が0となる点での値を調べれば最大・最小が求められる。
+
+導関数を求めると
+$$
+f'(p) = -\frac{27}{4}p^2 + 6p
+= p\left(-\frac{27}{4}p + 6\right).
+$$
+$f'(p)=0$となるのは
+$$
+p=0,\quad -\frac{27}{4}p + 6=0\ \Longrightarrow\ p=\frac{24}{27}=\frac{8}{9}
+$$
+であるが，対象の区間は$\dfrac{2}{3}\le p\le 1$であるから，内部の臨界点は
+$$
+p=\frac{8}{9}
+$$
+のみである。
+
+そこで，$p=\dfrac{2}{3}, \dfrac{8}{9}, 1$のときの値を計算する。
+\[
+\begin{aligned}
+f\!\left(\frac{2}{3}\right)
+&= -\frac{9}{4}\left(\frac{2}{3}\right)^3 + 3\left(\frac{2}{3}\right)^2
+= -\frac{9}{4}\cdot\frac{8}{27} + 3\cdot\frac{4}{9} \\
+&= -\frac{72}{108} + \frac{12}{9}
+= -\frac{2}{3} + \frac{4}{3}
+= \frac{2}{3}, \\[2mm]
+f\!\left(\frac{8}{9}\right)
+&= -\frac{9}{4}\left(\frac{8}{9}\right)^3 + 3\left(\frac{8}{9}\right)^2
+= -\frac{9}{4}\cdot\frac{512}{729} + 3\cdot\frac{64}{81} \\
+&= -\frac{4608}{2916} + \frac{192}{81}
+= -\frac{4608}{2916} + \frac{6912}{2916}
+= \frac{2304}{2916}
+= \frac{64}{81}, \\[2mm]
+f(1)
+&= -\frac{9}{4}\cdot 1^3 + 3\cdot 1^2
+= -\frac{9}{4} + 3
+= \frac{3}{4}.
+\end{aligned}
+\]
+
+これらを比較すると
+$$
+\frac{2}{3}=\frac{54}{81},\quad \frac{3}{4}=\frac{60}{81},\quad \frac{64}{81},
+$$
+より
+$$
+\frac{2}{3}<\frac{3}{4}<\frac{64}{81}
+$$
+である。したがって
+$$
+\text{最小値}=\frac{2}{3},\quad \text{最大値}=\frac{64}{81}
+$$
+となる。
+
+よって，
+\[
+\boxed{
+\frac{CR}{OQ} \text{ の最小値は } \frac{2}{3},\ \text{最大値は } \frac{64}{81}\ \text{である。}
+}
+\]

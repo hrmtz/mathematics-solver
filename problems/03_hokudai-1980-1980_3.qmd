@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1980年 1980_3"
+problem_id: "03_hokudai-1980-1980_3"
+university: "北海道大学"
+exam_year: "1980"
+source_tex: "archive/03_hokudai/1980/1980_3.tex"
+pdf_source: "archive/03_hokudai/1980/1980_3.pdf"
+page_image: "archive/03_hokudai/1980/1980_3.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　空間に3点$O(0, \, 0, \, 0)$，$N(0, \, 0, \, 1)$，$S(0, \, 0, \, -1)$がある．
+点$Q(r\cos\theta, \, r\sin\theta, \, 0)$ $(r>0)$に対し
+直線$OQ$上に点$\displaystyle R \left( \frac{1}{r}\cos\theta, \, \frac{1}{r}\sin\theta, \, 0 \right)$をとり，
+直線$NQ$と直線$SR$の交点を$P$とする．
+$r$，$\theta$が$0<r$，$0\leqq\theta\leqq2\pi$の範囲を動くとき，
+$P$はどのような図形の上を動くか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1980/1980_3.pdf)

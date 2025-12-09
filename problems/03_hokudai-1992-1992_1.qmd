@@ -1,0 +1,32 @@
+---
+title: "北海道大学 1992年 1992_1"
+problem_id: "03_hokudai-1992-1992_1"
+university: "北海道大学"
+exam_year: "1992"
+source_tex: "archive/03_hokudai/1992/1992_1.tex"
+pdf_source: "archive/03_hokudai/1992/1992_1.pdf"
+page_image: "archive/03_hokudai/1992/1992_1.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　行列$\displaystyle A=\frac{1}{3}\begin{pmatrix} 4 & 3 
+
+ -7 & -6 \end{pmatrix}$
+によって表される1次変換を$f$とする．
+\begin{description}
+\item[(1)]円$x^2+y^2=1$上の点$P$の$f$による像を$Q$とする．
+$P$と$Q$を通る直線が原点を通るとき，点$P$を求めよ．
+\item[(2)]正の整数$n$に対して，
+行列$A^n$で表される1次変換による点$(2, \, 2)$の像を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1992/1992_1.pdf)

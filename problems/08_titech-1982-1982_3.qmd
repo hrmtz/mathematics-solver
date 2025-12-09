@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 1982年 1982_3"
+problem_id: "08_titech-1982-1982_3"
+university: "東京科学大学"
+exam_year: "1982"
+source_tex: "archive/08_titech/1982/1982_3.tex"
+pdf_source: "archive/08_titech/1982/1982_3.pdf"
+page_image: "archive/08_titech/1982/1982_3.jpg"
+fields:
+  - 微分法
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　曲線$y=x^4-6x^2$を$C$とし，
+不等式$y>x^4-6x^2$で定まる領域内の点$P(\alpha, \, \beta)$から
+異なる4本の接線が$C$に引けるとする．
+このとき点$P$の動きうる領域$D$を求め図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1982/1982_3.pdf)

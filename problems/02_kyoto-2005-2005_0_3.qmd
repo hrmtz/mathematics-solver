@@ -1,0 +1,26 @@
+---
+title: "京都大学 2005年 2005_0_3"
+problem_id: "02_kyoto-2005-2005_0_3"
+university: "京都大学"
+exam_year: "2005"
+source_tex: "archive/02_kyoto/2005/2005_0_3.tex"
+pdf_source: "archive/02_kyoto/2005/2005_0_3.pdf"
+page_image: "archive/02_kyoto/2005/2005_0_3.jpg"
+fields:
+  - 複素数平面
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\alpha$，$\beta$は0でない相異なる複素数で，
+$\displaystyle\frac{\alpha}{\beta}+\frac{\bar{\alpha}}{\bar{\beta}}=2$を満たすとする．
+このとき，0，$\alpha$，$\beta$の表す複素平面上の3点を結んで得られる三角形はどのような三角形か．
+(ただし，複素数$z$に対し，$\bar{z}$は$z$に共役な複素数である．また，複素平面を複素数平面ともいう．)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_0_3.pdf)

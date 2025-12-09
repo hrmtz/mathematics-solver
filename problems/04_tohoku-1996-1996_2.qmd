@@ -1,0 +1,33 @@
+---
+title: "東北大学 1996年 1996_2"
+problem_id: "04_tohoku-1996-1996_2"
+university: "東北大学"
+exam_year: "1996"
+source_tex: "archive/04_tohoku/1996/1996_2.tex"
+pdf_source: "archive/04_tohoku/1996/1996_2.pdf"
+page_image: "archive/04_tohoku/1996/1996_2.jpg"
+fields:
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\displaystyle0<\theta<\frac{\pi}{2}$とし，行列$A$，$E$を
+$A=\begin{pmatrix} \cos^2\theta & \sin^2\theta 
+
+ \cos^22\theta & \sin^22\theta \end{pmatrix}$，
+$E=\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}$
+によって定める．
+\begin{description}
+\item[(i)]行列$A-tE$の逆行列が存在しないとき，$t$を求めよ．
+\item[(ii)](i)で求めた$t$がすべて正の数となるような$\theta$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_2.pdf)

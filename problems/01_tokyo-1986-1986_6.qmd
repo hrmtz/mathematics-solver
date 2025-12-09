@@ -1,0 +1,43 @@
+---
+title: "東京大学 1986年 1986_6"
+problem_id: "01_tokyo-1986-1986_6"
+university: "東京大学"
+exam_year: "1986"
+source_tex: "archive/01_tokyo/1986/1986_6.tex"
+pdf_source: "archive/01_tokyo/1986/1986_6.pdf"
+page_image: "archive/01_tokyo/1986/1986_6.jpg"
+fields:
+  - 空間図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　直円\ruby{錐}{すい}形のグラスに水が満ちている．
+水面の円の半径は1，深さも1である．
+\begin{description}
+\item[(1)]このグラスを右の図のように角度$\alpha$だけ傾けたとき，
+できる水面は\ruby{楕}{だ}円である．
+この楕円の中心からグラスのふちを含む平面までの距離$l$と，
+楕円の長半径$a$および短半径$b$を，
+$m=\tan\alpha$で表せ．
+ただし楕円の長半径，短半径とは，それぞれ長軸，短軸の長さの$\displaystyle\frac{1}{2}$のことである．
+\item[(2)]傾けたときこぼれた水の量が，
+最初の水の量の$\displaystyle\frac{1}{2}$であるとき，
+$m=\tan\alpha$の値を求めよ．
+ただしグラスの円錐の頂点から，
+新しい水面までの距離を$h$とするとき，
+残った水の量は，
+$\displaystyle\frac{1}{3}\pi abh$に等しいことを用いよ．
+\end{description}
+
+
+
+![](../archive/01_tokyo/1986/fig_1986_6.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1986/1986_6.pdf)

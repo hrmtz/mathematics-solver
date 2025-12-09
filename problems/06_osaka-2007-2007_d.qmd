@@ -1,0 +1,33 @@
+---
+title: "大阪大学 2007年 2007_d"
+problem_id: "06_osaka-2007-2007_d"
+university: "大阪大学"
+exam_year: "2007"
+source_tex: "archive/06_osaka/2007/2007_d.tex"
+pdf_source: "archive/06_osaka/2007/2007_d.pdf"
+page_image: "archive/06_osaka/2007/2007_d.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　媒介変数$t$ $(t>0)$を用いて，$x=f(t)$，$y=g(t)$と表される曲線を$C$とする．
+ここで，$\displaystyle f(t)=a\frac{t-t^{-1}}{2}$，$\displaystyle g(t)=b\frac{t+t^{-1}}{2}$．
+ただし，$a$，$b$は正の定数である．
+\begin{description}
+\item[(1)]次の等式が成り立つことを示せ．
+\[ \frac{\displaystyle\frac{dy}{dt}}{\displaystyle\frac{dx}{dt}}=\frac{b^2}{a^2}\frac{f(t)}{g(t)} \]
+\item[(2)]点$P(u, \, v)$を通る$C$の接線が2本引ける$P(u, \, v)$の領域を図示せよ．
+\item[(3)]点$P(u, \, v)$を通る2本の接線が直交する場合を考える．
+このような$P(u, \, v)$が存在するための$a$，$b$の条件，
+およびそのときの$P(u, \, v)$の軌跡を図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2007/2007_d.pdf)

@@ -1,0 +1,31 @@
+---
+title: "九州大学 1992年 1992_4"
+problem_id: "07_kyushu-1992-1992_4"
+university: "九州大学"
+exam_year: "1992"
+source_tex: "archive/07_kyushu/1992/1992_4.tex"
+pdf_source: "archive/07_kyushu/1992/1992_4.pdf"
+page_image: "archive/07_kyushu/1992/1992_4.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　立方体$ABCD-EFGH$の辺$AE$，$CG$の中点を，それぞれ，$L$，$M$とする．
+点$X$が辺$AB$上を動くとき，3点$L$，$M$，$X$を通る平面によるこの立方体の切り口を$K_X$とし，
+この多角形$K_X$の周の長さが最小となる点を$X_0$とする．
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$AB=2$，$AX=2t$として，$K_X$の周の長さ$s(t)$を表す式を求めよ．
+\item[(2)]$X_0$は辺$AB$の中点であることを示せ．
+\item[(3)]直線$DF$は$L$，$M$，$X_0$を通る平面に垂直であることを証明せよ．
+\item[(4)]$\angle LX_0M$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_4.pdf)

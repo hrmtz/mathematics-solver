@@ -1,0 +1,33 @@
+---
+title: "東京科学大学 2012年 2012_5"
+problem_id: "08_titech-2012-2012_5"
+university: "東京科学大学"
+exam_year: "2012"
+source_tex: "archive/08_titech/2012/2012_5.tex"
+pdf_source: "archive/08_titech/2012/2012_5.pdf"
+page_image: "archive/08_titech/2012/2012_5.jpg"
+fields:
+  - 行列
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$で定まる1次変換を$f$とする．
+原点$O(0,0)$と異なる任意の2点$P$，$Q$に対して
+$\displaystyle\frac{OP'}{OP}=\displaystyle\frac{OQ'}{OQ}$が成り立つ．
+ただし，$P'$，$Q'$はそれぞれ$P$，$Q$の$f$による像を表す．
+\begin{description}
+\item[(1)]$a^2+c^2=b^2+d^2$を示せ．
+\item[(2)]1次変換$f$により，点$(1,\sqrt3)$が点$(-4,0)$に移るとき，$A$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2012/2012_5.pdf)

@@ -1,0 +1,33 @@
+---
+title: "東北大学 1985年 1985_1"
+problem_id: "04_tohoku-1985-1985_1"
+university: "東北大学"
+exam_year: "1985"
+source_tex: "archive/04_tohoku/1985/1985_1.tex"
+pdf_source: "archive/04_tohoku/1985/1985_1.pdf"
+page_image: "archive/04_tohoku/1985/1985_1.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　三角形$\triangle ABC$において，
+$\overrightarrow{CA}\cdot\overrightarrow{AB}=a$，
+$\overrightarrow{AB}\cdot\overrightarrow{BC}=b$，
+$\overrightarrow{BC}\cdot\overrightarrow{CA}=c$とおく．
+ここで$\cdot$はベクトルの内積を表す．
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$abc=0$のとき，$\triangle ABC$はどのような三角形となるか．
+\item[(2)]$(a-b)(b-c)(c-a)=0$のとき，$\triangle ABC$はどのような三角形となるか．
+\item[(3)]$\triangle ABC$の面積は$\displaystyle\frac{1}{2}\sqrt{ab+bc+ca}$であることを証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1985/1985_1.pdf)

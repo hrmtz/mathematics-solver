@@ -1,0 +1,26 @@
+---
+title: "東京科学大学 2023年 2023_4"
+problem_id: "08_titech-2023-2023_4"
+university: "東京科学大学"
+exam_year: "2023"
+source_tex: "archive/08_titech/2023/2023_4.tex"
+pdf_source: "archive/08_titech/2023/2023_4.pdf"
+page_image: "archive/08_titech/2023/2023_4.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xyz$空間において，$x$軸を軸とする半径2の円柱から，$|y|<1$かつ$|z|<1$で表される
+角柱の内部を取り除いたものをAとする．
+また，Aを$x$軸のまわりに${45}^\circ$回転してから
+$z$軸のまわりに${90}^\circ$回転したものをBとする．
+AとBの共通部分の体積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2023/2023_4.pdf)

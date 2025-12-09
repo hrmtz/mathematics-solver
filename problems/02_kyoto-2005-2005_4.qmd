@@ -1,0 +1,23 @@
+---
+title: "京都大学 2005年 2005_4"
+problem_id: "02_kyoto-2005-2005_4"
+university: "京都大学"
+exam_year: "2005"
+source_tex: "archive/02_kyoto/2005/2005_4.tex"
+pdf_source: "archive/02_kyoto/2005/2005_4.pdf"
+page_image: "archive/02_kyoto/2005/2005_4.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a^3-b^3=217$を満たす整数の組$(a,b)$をすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_4.pdf)

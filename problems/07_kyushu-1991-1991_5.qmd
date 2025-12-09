@@ -1,0 +1,26 @@
+---
+title: "九州大学 1991年 1991_5"
+problem_id: "07_kyushu-1991-1991_5"
+university: "九州大学"
+exam_year: "1991"
+source_tex: "archive/07_kyushu/1991/1991_5.tex"
+pdf_source: "archive/07_kyushu/1991/1991_5.pdf"
+page_image: "archive/07_kyushu/1991/1991_5.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$f(x)=ax+e^{-x}\sin x$，$g(x)=e^{-x}(\cos x-\sin x)$とする．
+\begin{description}
+\item[(1)]$y=g(x)$ $(x\geqq0)$のグラフの概形を描け．
+\item[(2)]$f(x)$が区間$0<x<2\pi$内で極値として極大値のみを1つだけもつとき，$a$の範囲を定めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1991/1991_5.pdf)

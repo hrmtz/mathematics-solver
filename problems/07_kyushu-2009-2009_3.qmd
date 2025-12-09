@@ -1,0 +1,39 @@
+---
+title: "九州大学 2009年 2009_3"
+problem_id: "07_kyushu-2009-2009_3"
+university: "九州大学"
+exam_year: "2009"
+source_tex: "archive/07_kyushu/2009/2009_3.tex"
+pdf_source: "archive/07_kyushu/2009/2009_3.pdf"
+page_image: "archive/07_kyushu/2009/2009_3.jpg"
+fields:
+  - 微分法
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　曲線$\displaystyle C_1:y=\frac{x^2}{2}$の
+点$P \displaystyle \left( a, \, \frac{a^2}{2} \right)$における法線と
+点$Q \displaystyle \left( b, \, \frac{b^2}{2} \right)$における法線の
+交点を$R$とする．
+ただし，$b \neq a$とする．
+このとき，次の問いに答えよ．
+\begin{description}
+\item[(1)]$b$が$a$に限りなく近づくとき，
+$R$はある点$A$に限りなく近づく．
+$A$の座標を$a$で表せ．
+\item[(2)]点$P$が曲線$C_1$上を動くとき，
+(1)で求めた点$A$が描く軌跡を$C_2$とする．
+曲線$C_1$と軌跡$C_2$の概形を描き，
+$C_1$と$C_2$の交点の座標を求めよ．
+\item[(3)]曲線$C_1$と軌跡$C_2$で囲まれた部分の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_3.pdf)

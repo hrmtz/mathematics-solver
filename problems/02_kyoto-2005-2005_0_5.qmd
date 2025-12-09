@@ -1,0 +1,25 @@
+---
+title: "京都大学 2005年 2005_0_5"
+problem_id: "02_kyoto-2005-2005_0_5"
+university: "京都大学"
+exam_year: "2005"
+source_tex: "archive/02_kyoto/2005/2005_0_5.tex"
+pdf_source: "archive/02_kyoto/2005/2005_0_5.pdf"
+page_image: "archive/02_kyoto/2005/2005_0_5.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　1から$n$までの番号のついた$n$枚の札が袋に入っている．
+ただし$n\geqq3$とし，同じ番号の札はないとする．
+この袋から3枚の札を取り出して，札の番号を大きさの順に並べるとき，等差数列になっている確率を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_0_5.pdf)

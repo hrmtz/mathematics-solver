@@ -1,0 +1,25 @@
+---
+title: "京都大学 1970年 1970_0_3"
+problem_id: "02_kyoto-1970-1970_0_3"
+university: "京都大学"
+exam_year: "1970"
+source_tex: "archive/02_kyoto/1970/1970_0_3.tex"
+pdf_source: "archive/02_kyoto/1970/1970_0_3.pdf"
+page_image: "archive/02_kyoto/1970/1970_0_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$BC$は円$O$の定弦で，その長さは$a$，また$A$はこの円の周上の動点とする．
+このような$\triangle ABC$において，
+頂点$A$，$B$，$C$から対辺におろした垂線の長さをそれぞれ$h$，$k$，$l$とするとき，
+$kl/h$は一定であることを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1970/1970_0_3.pdf)

@@ -1,0 +1,29 @@
+---
+title: "京都大学 2022年 2022_0_4"
+problem_id: "02_kyoto-2022-2022_0_4"
+university: "京都大学"
+exam_year: "2022"
+source_tex: "archive/02_kyoto/2022/2022_0_4.tex"
+pdf_source: "archive/02_kyoto/2022/2022_0_4.pdf"
+page_image: "archive/02_kyoto/2022/2022_0_4.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a, \, b$を正の実数とする．
+直線$L:ax+by=1$と曲線$\displaystyle y=-\frac{1}{x}$との2つの交点のうち，
+$y$座標が正のものを$P$，負のものを$Q$とする．
+また，$L$と$x$軸との交点を$R$とし，$L$と$y$軸との交点を$S$とする．
+$a, \, b$が条件
+\[ \frac{PQ}{RS}=\sqrt2 \]
+を満たしながら動くとき，線分$PQ$の中点の軌跡を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2022/2022_0_4.pdf)

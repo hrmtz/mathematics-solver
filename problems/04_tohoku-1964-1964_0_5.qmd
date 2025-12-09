@@ -1,0 +1,25 @@
+---
+title: "東北大学 1964年 1964_0_5"
+problem_id: "04_tohoku-1964-1964_0_5"
+university: "東北大学"
+exam_year: "1964"
+source_tex: "archive/04_tohoku/1964/1964_0_5.tex"
+pdf_source: "archive/04_tohoku/1964/1964_0_5.pdf"
+page_image: "archive/04_tohoku/1964/1964_0_5.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$\displaystyle 0<\alpha<\frac{\pi}{2}$，$\displaystyle 0<\beta<\frac{\pi}{2}$として
+$\tan x=\sqrt{\tan\alpha\cdot\tan\beta}$とおくとき
+$\sqrt[3]{\sin3x\sin^3x+\cos3x\cos^3x}$を
+$\cos(\alpha+\beta)$と$\cos(\alpha-\beta)$を用いて表わせ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1964/1964_0_5.pdf)

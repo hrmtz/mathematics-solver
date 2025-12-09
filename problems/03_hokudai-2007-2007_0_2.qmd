@@ -1,0 +1,31 @@
+---
+title: "北海道大学 2007年 2007_0_2"
+problem_id: "03_hokudai-2007-2007_0_2"
+university: "北海道大学"
+exam_year: "2007"
+source_tex: "archive/03_hokudai/2007/2007_0_2.tex"
+pdf_source: "archive/03_hokudai/2007/2007_0_2.pdf"
+page_image: "archive/03_hokudai/2007/2007_0_2.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　方程式$x^2+y^2-4y+2=0$で定義される円$C$を考える．
+\begin{description}
+\item[(1)]点$A(-\sqrt2,0)$と点$O(0,0)$を通り
+中心の座標が$\displaystyle\left(-\frac{\sqrt2}{2}, \, 0\right)$および
+$\displaystyle\left(-\frac{\sqrt2}{2}, \, 2\right)$である2つの円は，
+どちらも円$C$に接することを示せ．
+\item[(2)]点$P$が円$C$上を動くとき，
+$\cos\angle APO$の最大値と最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_0_2.pdf)

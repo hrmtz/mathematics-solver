@@ -1,0 +1,35 @@
+---
+title: "東京科学大学 1990年 1990_b"
+problem_id: "08_titech-1990-1990_b"
+university: "東京科学大学"
+exam_year: "1990"
+source_tex: "archive/08_titech/1990/1990_b.tex"
+pdf_source: "archive/08_titech/1990/1990_b.pdf"
+page_image: "archive/08_titech/1990/1990_b.jpg"
+fields:
+  - 三角関数
+  - 帰納法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$n$を2以上の整数とする．
+\begin{description}
+\item[(1)]$n-1$次多項式$P_n(x)$と$n$次多項式$Q_n(x)$ですべての実数$\theta$に対して
+\[ \sin(2n\theta)=n\sin(2\theta)P_n(\sin^2\theta), \hspace{1zw}
+\cos(2n\theta)=Q_n(\sin^2\theta) \]
+を満たすものが存在することを帰納法を用いて示せ．
+\item[(2)]$k=1, \, 2, \, \cdots\cdots, \, n-1$に対して
+$\displaystyle\alpha_k={\left( \sin\frac{k\pi}{2n} \right)}^{-2}$とおくと
+\[ P_n(x)=(1-\alpha_1x)(1-\alpha_2x)\cdots\cdots(1-\alpha_{n-1}x) \]
+となることを示せ．
+\item[(3)]$\displaystyle\sum_{k=1}^{n-1}\alpha_k=\frac{2n^2-2}{3}$を示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1990/1990_b.pdf)

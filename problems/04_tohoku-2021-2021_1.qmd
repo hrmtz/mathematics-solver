@@ -1,0 +1,24 @@
+---
+title: "東北大学 2021年 2021_1"
+problem_id: "04_tohoku-2021-2021_1"
+university: "東北大学"
+exam_year: "2021"
+source_tex: "archive/04_tohoku/2021/2021_1.tex"
+pdf_source: "archive/04_tohoku/2021/2021_1.pdf"
+page_image: "archive/04_tohoku/2021/2021_1.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a, \, b$を実数とする。
+曲線$y=ax^2+bx+1$が$x$軸の正の部分と共有点をもたないような点$(a, \, b)$の領域を図示せよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2021/2021_1.pdf)

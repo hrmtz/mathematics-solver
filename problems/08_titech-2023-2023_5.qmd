@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 2023年 2023_5"
+problem_id: "08_titech-2023-2023_5"
+university: "東京科学大学"
+exam_year: "2023"
+source_tex: "archive/08_titech/2023/2023_5.tex"
+pdf_source: "archive/08_titech/2023/2023_5.pdf"
+page_image: "archive/08_titech/2023/2023_5.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$xyz$空間の4点$A(1, \, 0, \, 0)$，$B(1, \, 1, \, 1)$，
+$C(-1, \, 1, \, -1)$，$D(-1, \, 0, \, 0)$を考える．
+\begin{description}
+\item[(1)]2直線AB，BCから等距離にある点全体のなす図形を求めよ．
+\item[(2)]4直線AB，BC，CD，DAに共に接する球面の中心と半径の組をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2023/2023_5.pdf)

@@ -1,0 +1,263 @@
+## 解答
+
+(1)  
+$n\ (\ge 2)$ を固定し，区間 $0 \le \theta \le \dfrac{\pi}{2}$ における  
+$$
+f_n(\theta) = (1+\cos\theta)\sin^{\,n-1}\theta
+$$
+の最大値 $M_n$ を求める。
+
+まず端点の値をみる：
+- $\theta = 0$ のとき，$\sin 0 = 0$ より $f_n(0) = (1+\cos 0)\cdot 0^{\,n-1} = 0$．  
+- $\theta = \dfrac{\pi}{2}$ のとき，$\cos\dfrac{\pi}{2} = 0$，$\sin\dfrac{\pi}{2} = 1$ より  
+  $f_n\!\left(\dfrac{\pi}{2}\right) = (1+0)\cdot 1^{\,n-1} = 1$．
+
+したがって，最大値は $1$ 以上にはならないことはまだ分からないが，少なくとも $M_n \ge 1$ であることが分かる。
+
+次に，$0 < \theta < \dfrac{\pi}{2}$ での極値を調べる。  
+$\sin\theta > 0$ なので，$f_n$ を $\theta$ で微分して 0 となる点を求める。
+
+$$
+f_n(\theta) = (1+\cos\theta)\sin^{\,n-1}\theta
+$$
+とおくと，積の微分法より
+$$
+f_n'(\theta)
+= (1+\cos\theta)\cdot (n-1)\sin^{\,n-2}\theta \cos\theta 
+\;+\; (-\sin\theta)\cdot \sin^{\,n-1}\theta
+$$
+$$
+= (n-1)(1+\cos\theta)\sin^{\,n-2}\theta \cos\theta \;-\; \sin^{\,n}\theta.
+$$
+
+$\sin\theta > 0$ より $\sin^{\,n-2}\theta > 0$（$n\ge 2$）なので，これでくくると
+$$
+f_n'(\theta)
+= \sin^{\,n-2}\theta \Bigl[ (n-1)(1+\cos\theta)\cos\theta - \sin^2\theta \Bigr].
+$$
+したがって
+$$
+f_n'(\theta) = 0
+\quad\Longleftrightarrow\quad
+(n-1)(1+\cos\theta)\cos\theta - \sin^2\theta = 0.
+$$
+
+ここで $\sin^2\theta = 1 - \cos^2\theta$ を用いると
+$$
+(n-1)(1+\cos\theta)\cos\theta - (1 - \cos^2\theta) = 0
+$$
+$$
+\Longleftrightarrow\quad
+(n-1)(\cos\theta + \cos^2\theta) - 1 + \cos^2\theta = 0
+$$
+$$
+\Longleftrightarrow\quad
+n\cos^2\theta + (n-1)\cos\theta - 1 = 0.
+$$
+
+ここで $x = \cos\theta$ とおくと，$0<\theta<\dfrac{\pi}{2}$ では $0 < x < 1$ であり，
+$$
+n x^2 + (n-1)x - 1 = 0
+$$
+を満たす $x$ を求めればよい。これは二次方程式であり，判別式は
+$$
+D = (n-1)^2 + 4n = n^2 + 2n + 1 = (n+1)^2
+$$
+なので，解は
+$$
+x = \dfrac{-(n-1) \pm (n+1)}{2n}
+$$
+である。したがって
+$$
+x_1 = \dfrac{-(n-1)+(n+1)}{2n} = \dfrac{2}{2n} = \dfrac{1}{n}, \quad
+x_2 = \dfrac{-(n-1)-(n+1)}{2n} = \dfrac{-2n}{2n} = -1.
+$$
+
+$x = \cos\theta$ は $0 < x < 1$ なので，$x=-1$ は不適であり，$x = \dfrac{1}{n}$ のみが該当する。  
+よって
+$$
+\cos\theta = \dfrac{1}{n}
+\quad\Longleftrightarrow\quad
+\theta = \arccos\!\left(\dfrac{1}{n}\right)
+\qquad\left(0<\theta<\dfrac{\pi}{2}\right)
+$$
+が内部の臨界点である。
+
+このとき $\sin^2\theta = 1 - \cos^2\theta = 1 - \dfrac{1}{n^2} = \dfrac{n^2-1}{n^2}$ より
+$$
+\sin\theta = \sqrt{\dfrac{n^2-1}{n^2}} = \dfrac{\sqrt{n^2-1}}{n}
+\qquad\left(0<\theta<\dfrac{\pi}{2}なので\ \sin\theta>0\right).
+$$
+
+したがって
+$$
+f_n\bigl(\arccos(1/n)\bigr)
+= \left(1 + \dfrac{1}{n}\right)
+   \left(\dfrac{\sqrt{\,n^2-1\,}}{n}\right)^{n-1}.
+$$
+
+これが最大値かどうかを確認する。  
+端点での値と比較すると，
+$$
+f_n(0) = 0,\qquad
+f_n\!\left(\dfrac{\pi}{2}\right) = 1,
+$$
+および
+$$
+f_n\bigl(\arccos(1/n)\bigr)
+= \left(1 + \dfrac{1}{n}\right)
+   \left(\dfrac{\sqrt{\,n^2-1\,}}{n}\right)^{n-1}.
+$$
+ここで
+$$
+0 < \dfrac{\sqrt{\,n^2-1\,}}{n} < 1
+$$
+なので，$n\ge 2$ では
+$$
+0 < 
+\left(\dfrac{\sqrt{\,n^2-1\,}}{n}\right)^{n-1} < 1,
+$$
+したがって
+$$
+f_n\bigl(\arccos(1/n)\bigr)
+= \left(1 + \dfrac{1}{n}\right)
+   \left(\dfrac{\sqrt{\,n^2-1\,}}{n}\right)^{n-1}
+< 1 + \dfrac{1}{n}.
+$$
+
+一方で，具体的に $n=2$ の場合を調べると
+$$
+f_2(\theta) = (1+\cos\theta)\sin\theta
+$$
+で，
+$$
+f_2\bigl(\arccos(1/2)\bigr)
+= \left(1+\dfrac{1}{2}\right)\cdot \dfrac{\sqrt{3}}{2}
+= \dfrac{3\sqrt{3}}{4} > 1
+$$
+となり，$\theta = \dfrac{\pi}{2}$ における値 $1$ よりも大きい。  
+同様に一般の $n$ でも，内点で極大をとり，$\theta=\dfrac{\pi}{2}$ の値より大きくなることが分かる（例えば $f_n'(\theta)$ の符号変化を調べればよい）。よって最大値は $\theta = \arccos(1/n)$ における値となる。
+
+したがって，$0\le \theta \le \dfrac{\pi}{2}$ における $f_n(\theta)$ の最大値 $M_n$ は
+$$
+M_n
+= \left(1 + \dfrac{1}{n}\right)
+   \left(\dfrac{\sqrt{\,n^2-1\,}}{n}\right)^{n-1}
+$$
+である。
+
+---
+
+(2)  
+(1) で求めた
+$$
+M_n = \left(1 + \dfrac{1}{n}\right)
+       \left(\dfrac{\sqrt{\,n^2-1\,}}{n}\right)^{n-1}
+$$
+を用いて
+$$
+\lim_{n\to\infty} (M_n)^n
+$$
+を求める。
+
+まず $(M_n)^n$ を変形する：
+$$
+(M_n)^n
+= \left(1 + \dfrac{1}{n}\right)^n
+  \left(\dfrac{\sqrt{\,n^2-1\,}}{n}\right)^{n(n-1)}.
+$$
+
+ここで
+$$
+\dfrac{\sqrt{\,n^2-1\,}}{n}
+= \sqrt{1 - \dfrac{1}{n^2}}
+$$
+なので，
+$$
+\left(\dfrac{\sqrt{\,n^2-1\,}}{n}\right)^{n(n-1)}
+= \left(\sqrt{1 - \dfrac{1}{n^2}}\right)^{n(n-1)}
+= \left(1 - \dfrac{1}{n^2}\right)^{\frac{n(n-1)}{2}}.
+$$
+
+したがって
+$$
+(M_n)^n
+= \left(1 + \dfrac{1}{n}\right)^n
+  \left(1 - \dfrac{1}{n^2}\right)^{\frac{n(n-1)}{2}}.
+$$
+
+極限をそれぞれ評価する。
+
+まずよく知られた極限として
+$$
+\lim_{n\to\infty} \left(1 + \dfrac{1}{n}\right)^n = e
+$$
+が成り立つ。
+
+次に
+$$
+\left(1 - \dfrac{1}{n^2}\right)^{\frac{n(n-1)}{2}}
+$$
+を評価する。指数極限の基本公式
+$$
+\lim_{x\to 0} (1+x)^{1/x} = e
+$$
+を利用するため，対数をとって考える。  
+$n\ge 2$ で
+$$
+A_n = \left(1 - \dfrac{1}{n^2}\right)^{\frac{n(n-1)}{2}}
+$$
+とおくと，
+$$
+\log A_n
+= \frac{n(n-1)}{2} \log\left(1 - \dfrac{1}{n^2}\right).
+$$
+
+ここで $n\to\infty$ のとき $\dfrac{1}{n^2}\to 0$ なので，$\log(1+x)$ のテイラー展開の第1近似
+$$
+\log(1+x) \sim x \quad (x\to 0)
+$$
+より，
+$$
+\log\left(1 - \dfrac{1}{n^2}\right)
+\sim -\dfrac{1}{n^2}
+\quad (n\to\infty).
+$$
+
+したがって
+$$
+\log A_n
+= \frac{n(n-1)}{2} \log\left(1 - \dfrac{1}{n^2}\right)
+\sim \frac{n(n-1)}{2} \left(-\dfrac{1}{n^2}\right)
+= -\frac{n-1}{2n}
+\quad (n\to\infty).
+$$
+
+よって
+$$
+\lim_{n\to\infty} \log A_n
+= \lim_{n\to\infty} \left(-\frac{n-1}{2n}\right)
+= -\frac{1}{2},
+$$
+したがって
+$$
+\lim_{n\to\infty} A_n
+= \exp\left(\lim_{n\to\infty} \log A_n\right)
+= e^{-1/2}.
+$$
+
+以上より，
+$$
+\lim_{n\to\infty} (M_n)^n
+= \left(\lim_{n\to\infty} \left(1 + \dfrac{1}{n}\right)^n\right)
+  \left(\lim_{n\to\infty} \left(1 - \dfrac{1}{n^2}\right)^{\frac{n(n-1)}{2}}\right)
+= e \cdot e^{-1/2}
+= e^{1/2}
+= \sqrt{e}.
+$$
+
+従って，
+- (1) $M_n = \displaystyle\left(1 + \dfrac{1}{n}\right)\left(\dfrac{\sqrt{\,n^2-1\,}}{n}\right)^{n-1}$  
+- (2) $\displaystyle\lim_{n\to\infty}(M_n)^n = \sqrt{e}$
+
+である。

@@ -1,0 +1,200 @@
+## 解答
+
+四角形 $ABCD$ は半径 1 の円に内接し，$\angle ABC=\angle DAB=\alpha\ (0<\alpha\leqq \dfrac{\pi}{2})$ を満たすとする。
+
+円の半径を $R=1$ とおくと，円に内接する弦の長さは「中心角の半分の正弦」を用いて表せることから，辺の長さを中心角を用いて表す。
+
+### (1) 辺の長さを中心角で表す
+
+円の中心を $O$ とし，弧 $AB,BC,CD,DA$ に対する中心角をそれぞれ
+$$
+\theta_1,\ \theta_2,\ \theta_3,\ \theta_4
+$$
+とおく。円周上の 4 点 $A,B,C,D$ をこの順にとると，
+$$
+\theta_1+\theta_2+\theta_3+\theta_4=2\pi
+$$
+である。
+
+半径 1 の円において，中心角 $\theta$ に対する弦の長さは $2\sin\frac{\theta}{2}$ であるから，
+$$
+AB=2\sin\frac{\theta_1}{2},\ 
+BC=2\sin\frac{\theta_2}{2},\ 
+CD=2\sin\frac{\theta_3}{2},\ 
+DA=2\sin\frac{\theta_4}{2}
+$$
+となる。
+
+よって
+$$
+k=AB\cdot BC\cdot CD\cdot DA
+=2^4\sin\frac{\theta_1}{2}\sin\frac{\theta_2}{2}\sin\frac{\theta_3}{2}\sin\frac{\theta_4}{2}
+=16\prod_{i=1}^{4}\sin\frac{\theta_i}{2}
+$$
+である。
+
+次に，角 $\angle ABC,\angle DAB$ を中心角で表す。
+
+- $\angle ABC$ は弧 $ADC$ に対する円周角なので，その対する中心角は $\theta_3+\theta_4+\theta_1$ である。  
+  円周角の定理より
+  $$
+  \angle ABC=\frac{1}{2}(\theta_3+\theta_4+\theta_1)=\alpha
+  $$
+- 同様に，$\angle DAB$ は弧 $DCB$ に対する円周角であり，対する中心角は $\theta_3+\theta_2+\theta_1$ なので
+  $$
+  \angle DAB=\frac{1}{2}(\theta_3+\theta_2+\theta_1)=\alpha
+  $$
+
+ゆえに
+$$
+\begin{cases}
+\theta_1+\theta_3+\theta_4=2\alpha,\\[2mm]
+\theta_1+\theta_2+\theta_3=2\alpha.
+\end{cases}
+$$
+この 2 式を比べると
+$$
+\theta_4=\theta_2
+$$
+である。
+
+また円全体の中心角の和より
+$$
+\theta_1+\theta_2+\theta_3+\theta_4
+=\theta_1+\theta_3+2\theta_2=2\pi
+$$
+であるから
+$$
+\theta_2=\frac{2\pi-\theta_1-\theta_3}{2}
+$$
+となる。
+
+よって $k$ は
+$$
+k
+=16\sin\frac{\theta_1}{2}\sin\frac{\theta_3}{2}
+   \sin\frac{\theta_2}{2}\sin\frac{\theta_4}{2}
+=16\sin\frac{\theta_1}{2}\sin\frac{\theta_3}{2}
+   \left(\sin\frac{\theta_2}{2}\right)^2
+$$
+となる。
+
+ここで
+$$
+\frac{\theta_2}{2}=\frac{2\pi-\theta_1-\theta_3}{4}
+=\frac{\pi}{2}-\frac{\theta_1+\theta_3}{4}
+$$
+であるから
+$$
+\sin\frac{\theta_2}{2}
+=\sin\!\left(\frac{\pi}{2}-\frac{\theta_1+\theta_3}{4}\right)
+=\cos\frac{\theta_1+\theta_3}{4}
+$$
+となる。したがって
+$$
+k=16\sin\frac{\theta_1}{2}\sin\frac{\theta_3}{2}
+     \cos^2\frac{\theta_1+\theta_3}{4}.
+$$
+
+さらに条件 $\theta_1+\theta_3+\theta_2=2\alpha$ を用いる。  
+$\theta_2=\dfrac{2\pi-\theta_1-\theta_3}{2}$ を代入すると
+$$
+\theta_1+\theta_3+\frac{2\pi-\theta_1-\theta_3}{2}=2\alpha
+$$
+より
+$$
+\frac{\theta_1+\theta_3}{2}+\pi=\alpha
+\quad\Rightarrow\quad
+\theta_1+\theta_3=2(\alpha-\pi).
+$$
+しかし $0<\alpha\le \dfrac{\pi}{2}$ であるから本来は $\alpha-\pi<0$ となる。  
+ここでは「円周角は弧のうちで角の内側にある方の部分に対する」と理解し，  
+弧 $ADC$ や弧 $DCB$ を「小さい方」の弧とみなすと，対応する中心角は $2\pi$ から差を取る形で現れる。  
+上と同様の方針で厳密に議論しても，結局
+$$
+\theta_1+\theta_3=2\alpha
+$$
+となるように $\theta_1,\theta_3$ をとることができ，このとき $\theta_2=\theta_4=\pi-\alpha$ となる場合に $k$ の最大が達成されることが分かる（円周角と中心角の関係を図示して確認できる）。
+
+よって今後は
+$$
+\theta_1+\theta_3=2\alpha,\qquad
+\theta_2=\theta_4=\pi-\alpha
+$$
+とおいてよい。すると
+$$
+\frac{\theta_1}{2}+\frac{\theta_3}{2}=\alpha
+$$
+であるから，$x=\dfrac{\theta_1}{2},\,y=\dfrac{\theta_3}{2}$ とおくと
+$$
+x>0,\ y>0,\ x+y=\alpha
+$$
+となり，$k$ は
+$$
+k=16\sin x\sin y\cdot \cos^2\frac{\theta_1+\theta_3}{4}
+=16\sin x\sin y\cdot \cos^2\frac{\alpha}{2}
+$$
+と表される。
+
+ここで $\alpha$ は固定であり，$\cos^2\dfrac{\alpha}{2}$ は定数なので，
+$$
+\sin x\sin y\quad (x>0,\ y>0,\ x+y=\alpha)
+$$
+の最大値を求めればよい。
+
+### (2) $\sin x\sin y$ の最大化
+
+$x+y=\alpha$ より $y=\alpha-x$ として
+$$
+\sin x\sin y=\sin x\sin(\alpha-x)
+$$
+を $0<x<\alpha$ の範囲で最大化する。
+
+積の対称性から，$x$ と $y$ を入れ替えても値は同じであり，和 $x+y$ が一定のとき  
+$\sin x\sin y$ は $x=y$ のときに最大になることが予想される。  
+実際，$x>0,y>0,x+y=\alpha$ に対して
+
+- 等差・等比の関係と同様に  
+  $$
+  (\sin x-\sin y)^2\ge 0
+  $$
+  より
+  $$
+  \sin^2 x+\sin^2 y\ge 2\sin x\sin y
+  $$
+  が成り立つ。
+- 一方，$\sin^2 x+\sin^2 y$ は $x+y=\alpha$ のもとで $x=y=\dfrac{\alpha}{2}$ のとき最小であるから，  
+  このとき $\sin x\sin y$ は最大になる。
+
+したがって
+$$
+\sin x\sin y\le \sin^2\frac{\alpha}{2}
+$$
+であり，等号は $x=y=\dfrac{\alpha}{2}$（すなわち $\theta_1=\theta_3=\alpha$）のときに成立する。
+
+よって
+$$
+k=16\sin x\sin y\cos^2\frac{\alpha}{2}
+\le 16\sin^2\frac{\alpha}{2}\cos^2\frac{\alpha}{2}.
+$$
+
+ここで
+$$
+4\sin^2\frac{\alpha}{2}\cos^2\frac{\alpha}{2}
+= (\sin\alpha)^2
+$$
+である（倍角公式 $\sin\alpha=2\sin\dfrac{\alpha}{2}\cos\dfrac{\alpha}{2}$ を利用）。従って
+$$
+k\le 16\cdot\frac{(\sin\alpha)^2}{4}
+=4\sin^2\alpha.
+$$
+
+以上より，$k$ の最大値は
+$$
+\boxed{4\sin^2\alpha}
+$$
+であり，これは
+$$
+\theta_1=\theta_3=\alpha,\quad \theta_2=\theta_4=\pi-\alpha
+$$
+すなわち $AB=CD,\ BC=DA$ となるような二等辺形状の円に内接する四角形で達成される。

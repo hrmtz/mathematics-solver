@@ -1,0 +1,29 @@
+---
+title: "大阪大学 1985年 1985_5"
+problem_id: "06_osaka-1985-1985_5"
+university: "大阪大学"
+exam_year: "1985"
+source_tex: "archive/06_osaka/1985/1985_5.tex"
+pdf_source: "archive/06_osaka/1985/1985_5.pdf"
+page_image: "archive/06_osaka/1985/1985_5.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　右図のような，1辺の長さが1の立方体$ABCD-EFGO$を考え，
+$A$を頂点とし三角形$OFG$を底面とする三角すいと，
+$C$を頂点とし三角形$OFE$を底面とする三角すいとの
+共通部分を$V$とする．
+\begin{description}
+\item[(1)]平面$z=a$による$V$の切り口の面積の最大値を求めよ．
+\item[(2)]$V$の体積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1985/1985_5.pdf)

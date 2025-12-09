@@ -1,0 +1,24 @@
+---
+title: "大阪大学 2006年 2006_0_1"
+problem_id: "06_osaka-2006-2006_0_1"
+university: "大阪大学"
+exam_year: "2006"
+source_tex: "archive/06_osaka/2006/2006_0_1.tex"
+pdf_source: "archive/06_osaka/2006/2006_0_1.pdf"
+page_image: "archive/06_osaka/2006/2006_0_1.jpg"
+fields:
+  - 代数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$を実数とし，関数$f(x)=x^3-3ax+a$を考える．
+$0 \leqq x \leqq 1$において$f(x)\geqq0$となるような$a$の範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2006/2006_0_1.pdf)

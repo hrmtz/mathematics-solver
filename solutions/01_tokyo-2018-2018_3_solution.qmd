@@ -1,0 +1,131 @@
+## 解答
+
+点 $P$ は放物線 $C : y = x^2$ 上で $-1 \leq x \leq 1$ の範囲を動くので，$P(t) = (t,\,t^2)\ (-1\le t\le 1)$ とおくことができる。  
+点 $Q$ は線分 $OA$ 上を動くから，$Q(u)=(u,\,0)\ (0\le u\le 1)$ と表せる。
+
+与えられた条件
+$$
+\overrightarrow{OR}=\frac{1}{k}\overrightarrow{OP}+k\overrightarrow{OQ}
+$$
+より，  
+$P(t)=(t, t^2)$，$Q(u)=(u,0)$ を代入すると
+$$
+R(x,y)=\frac{1}{k}(t,t^2)+k(u,0)
+=\left(\frac{t}{k}+ku,\ \frac{t^2}{k}\right)
+$$
+と書ける。ここで $-1\le t\le 1,\ 0\le u\le 1,\ k>0$ である。
+
+### (1) 動点 $R$ の領域の求め方
+
+$R$ の座標を $(x,y)$ とすると
+$$
+x=\frac{t}{k}+ku,\quad y=\frac{t^2}{k}
+$$
+である。まず $y$ について整理する。
+
+$t$ が $-1\le t\le 1$ を動くとき $t^2$ は $0\le t^2\le 1$ を動くから，
+$$
+0\le y=\frac{t^2}{k}\le \frac{1}{k}
+$$
+すなわち
+$$
+0\le y\le \frac{1}{k}
+$$
+が成り立つ。
+
+次に $x$ の範囲を調べる。$y=\dfrac{t^2}{k}$ から $t^2=ky$ であり，$t$ は正負両方を取りうるので
+$$
+t=\pm\sqrt{ky}
+$$
+である。したがって
+$$
+x=\frac{t}{k}+ku
+=\frac{\pm\sqrt{ky}}{k}+ku
+=\pm\sqrt{\frac{y}{k}}+ku
+$$
+となる。ここで $u$ の範囲は $0\le u\le 1$ なので
+$$
+0\le ku\le k
+$$
+より
+$$
+x\ \text{は}\quad
+\pm\sqrt{\frac{y}{k}}+0\ \text{から}\ \pm\sqrt{\frac{y}{k}}+k \ \text{まで}
+$$
+を動く。すなわち，固定した $y$ に対して $R$ の $x$ 座標の取りうる範囲は
+$$
+x_{\min}(y)=k-\sqrt{\frac{y}{k}},\quad
+x_{\max}(y)=\sqrt{\frac{y}{k}}+k
+$$
+（$t$ の符号を変えることで，$\pm\sqrt{\frac{y}{k}}$ が両側に現れ，区間全体を埋める）である。
+
+したがって，動点 $R$ の領域は
+$$
+0\le y\le \frac{1}{k},\quad
+k-\sqrt{\frac{y}{k}}\le x\le k+\sqrt{\frac{y}{k}}
+$$
+で表される領域となる。
+
+このとき，固定した $y$ における $x$ の長さ（横幅）は
+$$
+\bigl(\sqrt{\tfrac{y}{k}}+k\bigr)-\bigl(k-\sqrt{\tfrac{y}{k}}\bigr)
+=2\sqrt{\frac{y}{k}}
+$$
+であるから，$S(k)$ は
+$$
+S(k)=\int_{y=0}^{1/k}2\sqrt{\frac{y}{k}}\ dy
+$$
+で与えられる。
+
+計算すると
+$$
+S(k)=\frac{2}{\sqrt{k}}\int_{0}^{1/k}\sqrt{y}\ dy
+=\frac{2}{\sqrt{k}}\cdot\left[\frac{2}{3}y^{3/2}\right]_{0}^{1/k}
+=\frac{2}{\sqrt{k}}\cdot\frac{2}{3}\left(\frac{1}{k}\right)^{3/2}
+$$
+となる。ここで
+$$
+\left(\frac{1}{k}\right)^{3/2}=\frac{1}{k^{3/2}}
+$$
+なので
+$$
+S(k)=\frac{4}{3}\cdot\frac{1}{\sqrt{k}}\cdot\frac{1}{k^{3/2}}
+=\frac{4}{3}\cdot\frac{1}{k^2}
+$$
+を得る。よって
+$$
+S(k)=\frac{4}{3k^2}
+$$
+である。
+
+### (2) 極限 $\displaystyle\lim_{k\to+0}S(k)$，$\displaystyle\lim_{k\to\infty}S(k)$
+
+先に求めた式
+$$
+S(k)=\frac{4}{3k^2}
+$$
+から直接計算できる。
+
+まず $k\to+0$ のとき，
+$$
+\lim_{k\to+0}S(k)
+=\lim_{k\to+0}\frac{4}{3k^2}
+=+\infty
+$$
+である。
+
+次に $k\to\infty$ のとき，
+$$
+\lim_{k\to\infty}S(k)
+=\lim_{k\to\infty}\frac{4}{3k^2}
+=0
+$$
+となる。
+
+以上より，
+$$
+S(k)=\frac{4}{3k^2},\quad
+\lim_{k\to+0}S(k)=+\infty,\quad
+\lim_{k\to\infty}S(k)=0
+$$
+である。

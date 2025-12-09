@@ -1,0 +1,34 @@
+---
+title: "九州大学 2020年 2020_2"
+problem_id: "07_kyushu-2020-2020_2"
+university: "九州大学"
+exam_year: "2020"
+source_tex: "archive/07_kyushu/2020/2020_2.tex"
+pdf_source: "archive/07_kyushu/2020/2020_2.pdf"
+page_image: "archive/07_kyushu/2020/2020_2.jpg"
+fields:
+  - 複素数平面
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a, \, b, \, c, \, d$を整数とし，$i$を虚数単位とする。
+整式$f(x)=x^4+ax^3+bx^2+cx+d$が
+$\displaystyle f\left(\frac{1+\sqrt3 \, i}{2}\right)=0$をみたすとき，
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]$c, \, d$を$a, \, b$を用いて表せ。
+\item[(2)]$f(1)$を7で割ると1余り，11で割ると10余るとする。
+また，$f(-1)$を7で割ると3余り，11で割ると10余るとする。
+$a$の絶対値と$b$の絶対値がともに40以下であるとき，
+方程式$f(x)=0$の解をすべて求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2020/2020_2.pdf)

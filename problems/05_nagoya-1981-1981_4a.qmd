@@ -1,0 +1,25 @@
+---
+title: "名古屋大学 1981年 1981_4a"
+problem_id: "05_nagoya-1981-1981_4a"
+university: "名古屋大学"
+exam_year: "1981"
+source_tex: "archive/05_nagoya/1981/1981_4a.tex"
+pdf_source: "archive/05_nagoya/1981/1981_4a.pdf"
+page_image: "archive/05_nagoya/1981/1981_4a.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　$p$，$n$は自然数で$p\geqq2$とする．
+$p^n$より小さい自然数$l$を，$\displaystyle l=\sum_{k=0}^{n-1}a_kp^k$（$a_k$は$0 \leqq a_k \leqq p-1$なる整数）と表し，
+$\displaystyle s(l)=\sum_{k=0}^{n-1}a_k$とおく．
+このとき，$s(l)+s(p^n-l)$ $(1 \leqq l \leqq p^n-1)$の最小値とそれを与える自然数$l$をすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1981/1981_4a.pdf)

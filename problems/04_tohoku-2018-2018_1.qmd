@@ -1,0 +1,30 @@
+---
+title: "東北大学 2018年 2018_1"
+problem_id: "04_tohoku-2018-2018_1"
+university: "東北大学"
+exam_year: "2018"
+source_tex: "archive/04_tohoku/2018/2018_1.tex"
+pdf_source: "archive/04_tohoku/2018/2018_1.pdf"
+page_image: "archive/04_tohoku/2018/2018_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$xy$平面における2つの放物線$C:y={(x-a)}^2+b$，
+$D:y=-x^2$を考える。
+\begin{description}
+\item[(1)]$C$と$D$が異なる2点で交わり，
+その2交点の$x$座標の差が1となるように実数$a$，$b$が動くとき，
+$C$の頂点$(a, \, b)$の軌跡を図示せよ。
+\item[(2)]実数$a$，$b$が(1)の条件を満たしながら動くとき，
+$C$と$D$の2交点を結ぶ直線が通過する範囲を求め，図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_1.pdf)

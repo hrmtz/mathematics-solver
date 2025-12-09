@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1979年 1979_0_1"
+problem_id: "03_hokudai-1979-1979_0_1"
+university: "北海道大学"
+exam_year: "1979"
+source_tex: "archive/03_hokudai/1979/1979_0_1.tex"
+pdf_source: "archive/03_hokudai/1979/1979_0_1.pdf"
+page_image: "archive/03_hokudai/1979/1979_0_1.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　行列
+$\begin{pmatrix} \cos\theta & -\sin\theta 
+
+ t\sin\theta & t\cos\theta \end{pmatrix}$
+を$A$とする．
+　行列$A$による1次変換は，原点を中心とする半径$r$の円周をどんな図形にうつすか．この図形をかけ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1979/1979_0_1.pdf)

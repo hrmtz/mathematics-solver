@@ -1,0 +1,128 @@
+## 解答
+
+三角形 $ABC$ において，$\angle ABC=B$，$\angle ACB=C$ とおく．  
+条件より $C=nB$ であり，また内角の和より
+$$
+A+B+C=\pi
+$$
+だから
+$$
+A=\pi-(B+C)=\pi-(n+1)B
+$$
+である．ここで $n\ge2$ なので $n+1\ge3$ であり，三角形の内角であるから
+$$
+A>0,\quad B>0,\quad C>0
+$$
+である．したがって
+$$
+0 < B < \frac{\pi}{n+1} \le \frac{\pi}{3}
+$$
+が成り立つ．よって
+$$
+0<\frac B2<\frac{\pi}{6}
+$$
+となる．
+
+ここで正弦関数の増加性と，$0<x<\dfrac{\pi}{2}$ で成り立つ不等式
+$$
+\sin x < x
+$$
+（例えば，$0<x<\dfrac{\pi}{2}$ で $\tan x > x$ かつ $\sin x < \tan x$ を用いるなどして示される）
+を用いる．
+
+$0<\dfrac B2<\dfrac{\pi}{6}<\dfrac{\pi}{2}$ より，上記の不等式が $x=\dfrac B2$ について適用できて
+$$
+\sin\frac B2 < \frac B2
+$$
+となる．一方，$\dfrac B2>0$ なので単調増加性から
+$$
+\sin\frac B2 < \sin\left(n\cdot\frac B2\right)
+=\sin\frac{nB}{2}
+$$
+も成り立つ（$0<\dfrac B2<\dfrac{nB}{2}<\dfrac{\pi}{2}$ に注意）．
+
+以上より
+$$
+\sin\frac B2 < \frac B2 < \frac n2\,B
+$$
+かつ
+$$
+\sin\frac B2 < \sin\frac{nB}{2}
+$$
+なので
+$$
+\sin\frac B2
+<
+\min\left\{\frac n2\,B,\ \sin\frac{nB}{2}\right\}
+\le
+\frac n{\sin\frac{nB}{2}}\,\sin^2\frac B2
+$$
+が従い，特に
+$$
+\sin\frac B2
+<
+\frac n{\sin\frac{nB}{2}}\,\sin^2\frac B2
+$$
+が成り立つ．ただしここでは $\sin\dfrac{nB}{2}>0$ を用いている（$0<nB<\pi$ であるため）．
+
+両辺を正の数 $\sin\dfrac{nB}{2}\sin\dfrac B2$ で割ると
+$$
+\frac{\sin\frac B2}{\sin\frac{nB}{2}\sin\frac B2}
+<
+\frac n{\sin\frac{nB}{2}}\,\frac{\sin^2\frac B2}{\sin\frac{nB}{2}\sin\frac B2}
+$$
+すなわち
+$$
+\frac1{\sin\frac{nB}{2}}
+<
+n\,\frac{\sin\frac B2}{\sin\frac{nB}{2}}
+$$
+が得られる．したがって
+$$
+\frac{\sin\frac{nB}{2}}{\sin\frac B2}
+<
+n
+$$
+となる．
+
+ここで，正弦の二倍角の公式
+$$
+\sin\theta = 2\sin\frac\theta2\cos\frac\theta2
+$$
+を用いると
+$$
+\frac{\sin C}{\sin B}
+=
+\frac{\sin (nB)}{\sin B}
+=
+\frac{2\sin\frac{nB}{2}\cos\frac{nB}{2}}{2\sin\frac B2\cos\frac B2}
+=
+\frac{\sin\frac{nB}{2}}{\sin\frac B2}\cdot\frac{\cos\frac{nB}{2}}{\cos\frac B2}
+$$
+である．$0<\dfrac B2<\dfrac{nB}{2}<\dfrac{\pi}{2}$ より，$\cos$ も正であり，さらに $0<x<\dfrac{\pi}{2}$ で $\cos x$ は単調減少なので
+$$
+\frac{\cos\frac{nB}{2}}{\cos\frac B2}<1
+$$
+が成り立つ．したがって
+$$
+\frac{\sin C}{\sin B}
+<
+\frac{\sin\frac{nB}{2}}{\sin\frac B2}
+<
+n
+$$
+が得られる．
+
+最後に正弦定理
+$$
+\frac c{\sin C}=\frac b{\sin B}
+$$
+より
+$$
+\frac c b = \frac{\sin C}{\sin B} < n
+$$
+が従い，これを変形して
+$$
+c < n b
+$$
+となる．よって，求める不等式 $c<nb$ が示された．

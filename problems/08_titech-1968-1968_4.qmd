@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1968年 1968_4"
+problem_id: "08_titech-1968-1968_4"
+university: "東京科学大学"
+exam_year: "1968"
+source_tex: "archive/08_titech/1968/1968_4.tex"
+pdf_source: "archive/08_titech/1968/1968_4.pdf"
+page_image: "archive/08_titech/1968/1968_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$\theta$が0から$2\pi$まで変わるとき，
+平面上の2点$P(\cos^2\theta, \, \cos^2\theta)$，
+$Q(\sin^2\theta, \, -\sin^2\theta)$を結ぶ直線が
+通らない点全体の範囲を図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1968/1968_4.pdf)

@@ -1,0 +1,34 @@
+---
+title: "北海道大学 1971年 1971_2"
+problem_id: "03_hokudai-1971-1971_2"
+university: "北海道大学"
+exam_year: "1971"
+source_tex: "archive/03_hokudai/1971/1971_2.tex"
+pdf_source: "archive/03_hokudai/1971/1971_2.pdf"
+page_image: "archive/03_hokudai/1971/1971_2.jpg"
+fields:
+  - 行列
+  - ベクトル
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$x$，$y$に関する連立方程式（ただし，$a$，$b$，$c$は実数で$b\neq0$）
+\[ \begin{cases} ax+by=kx 
+
+ bx+cy=ky \end{cases} \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \]
+\begin{description}
+\item[(1)]\ding{"AC}が$x=y=0$以外にも解をもつときの条件を$a$，$b$，$c$，$k$の関係式で示せ．
+\item[(2)](1)で求めた関係式は，$k$の相異なる2個の実数値について成立することを証明せよ．
+\item[(3)](2)の$k$の実数値を$k_1$，$k_2$とする．
+$k=k_i$ $(i=1, \, 2)$のときの\ding{"AC}の$x=y=0$以外の任意の1組の解を$x_i$，$y_i$とする．
+このときベクトル$(x_1, \, y_1)$とベクトル$(x_2, \, y_2)$はつねに垂直であることを証明せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1971/1971_2.pdf)

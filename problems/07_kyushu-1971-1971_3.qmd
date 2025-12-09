@@ -1,0 +1,25 @@
+---
+title: "九州大学 1971年 1971_3"
+problem_id: "07_kyushu-1971-1971_3"
+university: "九州大学"
+exam_year: "1971"
+source_tex: "archive/07_kyushu/1971/1971_3.tex"
+pdf_source: "archive/07_kyushu/1971/1971_3.pdf"
+page_image: "archive/07_kyushu/1971/1971_3.jpg"
+fields:
+  - 代数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$x$の関数$f(x)=x^3-2x^2+(1-a)x$において，$a$は正の定数とする．
+方程式$f(x)=0$の実根のうちで最大のものを$b$とするとき，
+$\displaystyle\int_0^bf(x)dx=0$となるように，$a$の値を定めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1971/1971_3.pdf)

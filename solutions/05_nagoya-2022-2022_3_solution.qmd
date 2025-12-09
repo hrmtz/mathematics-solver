@@ -1,0 +1,158 @@
+## 解答
+
+(準備)  
+複素数平面上の原点 $O$ を頂点の1つとする正六角形 $OABCDE$ は，辺の長さを $1$ とするとき，その頂点は  
+$$
+O=0,\quad A=1,\quad B=\omega,\quad C=\omega^2,\quad D=\omega^3=-1,\quad E=\omega^4
+$$
+とおくことができる。ただし  
+$$
+\omega = \cos\frac{\pi}{3}+i\sin\frac{\pi}{3}=\frac{1}{2}+ \frac{\sqrt{3}}{2}i
+$$
+である。よって各頂点は $6$ 乗して $1$ になる複素数（および $0$）であり，  
+$$
+\{0,\,1,\,\omega,\,\omega^2,\,\omega^3,\omega^4\}
+$$
+が頂点全体である。
+
+---
+
+### (1)
+
+与えられた条件  
+$$
+4\alpha^2-2\alpha\beta+\beta^2=0,\quad
+0\le \arg\!\left(\frac{\beta}{\alpha}\right)\le \pi
+$$
+から $\dfrac{\beta}{\alpha}$ を求める。
+
+まず $\alpha\neq 0$ なので，両辺を $\alpha^2$ で割ると
+$$
+4 - 2\frac{\beta}{\alpha} + \left(\frac{\beta}{\alpha}\right)^2 = 0
+$$
+となる。ここで
+$$
+x=\frac{\beta}{\alpha}
+$$
+とおくと
+$$
+x^2 - 2x + 4 = 0
+$$
+を得る。判別式は
+$$
+D = (-2)^2 - 4\cdot 1\cdot 4 = 4-16 = -12<0
+$$
+より，解は複素数で
+$$
+x = \frac{2\pm\sqrt{-12}}{2} = 1\pm i\sqrt{3}
+$$
+である。したがって
+$$
+\frac{\beta}{\alpha} = 1\pm i\sqrt{3}
+$$
+のいずれか。
+
+ここで $1\pm i\sqrt{3}$ の偏角を調べる。  
+極形式に直すと
+$$
+\left|1\pm i\sqrt{3}\right|
+=\sqrt{1^2+(\sqrt{3})^2}=\sqrt{4}=2
+$$
+であり，角度は
+$$
+\arg(1+i\sqrt{3}) = \frac{\pi}{3},\quad
+\arg(1-i\sqrt{3}) = -\frac{\pi}{3}
+$$
+である。条件 $0\le \arg(\beta/\alpha)\le \pi$ より
+$$
+\arg\left(\frac{\beta}{\alpha}\right) = \frac{\pi}{3}
+$$
+でなければならないから
+$$
+\frac{\beta}{\alpha} = 1+i\sqrt{3}
+$$
+が成り立つ。
+
+さらに，$1+i\sqrt{3}$ を先ほどの頂点で表すと  
+$$
+1+i\sqrt{3}
+=2\left(\frac12+\frac{\sqrt{3}}{2}i\right)
+=2\omega
+$$
+である。したがって
+$$
+\frac{\beta}{\alpha}=2\omega
+$$
+となる。
+
+ここで $\alpha,\beta$ はともに正六角形 $OABCDE$ の頂点のいずれか（$0$ も含むが $\alpha,\beta\neq 0$）なので，
+$$
+\alpha,\beta \in \{1,\ \omega,\ \omega^2,\ \omega^3,\ \omega^4\}
+$$
+であり，かつ $\beta/\alpha = 2\omega$ を満たさねばならない。しかし右辺の大きさは
+$$
+\left|2\omega\right| = 2
+$$
+である一方，$\alpha,\beta$ はいずれも単位円上の点であるから $|\beta/\alpha| = 1$ でなければならない。  
+よって
+$$
+\frac{\beta}{\alpha}=2\omega
+$$
+は，この条件とは両立しない。したがって
+
+- 数式条件だけからは $\dfrac{\beta}{\alpha} = 1+i\sqrt{3} = 2\omega$
+- しかし頂点の取り方の条件（$|\alpha|=|\beta|=1$）と両立する組 $(\alpha,\beta)$ は存在しない
+
+という結論となる。
+
+この意味で，「$\alpha,\beta$ がそれぞれどの頂点か」を満たす組は存在しない。ただし，問(2)での $\gamma$ に関する条件との兼ね合いから，矛盾を確認しつつ組を列挙することになる。
+
+---
+
+### (2)
+
+(1) の結果より  
+$$
+\frac{\beta}{\alpha} = 1+i\sqrt{3}=2\omega
+$$
+であるから，これを
+$$
+\beta = (1+i\sqrt{3})\alpha
+$$
+と書く。
+
+さらに，$\gamma$ は
+$$
+2\gamma^2-(3\alpha+\beta+2)\gamma+(\alpha+1)(\alpha+\beta)=0
+$$
+を満たすから，これを $\gamma$ の2次方程式とみなして解く。  
+2次方程式 $2\gamma^2-(3\alpha+\beta+2)\gamma+(\alpha+1)(\alpha+\beta)=0$ の解の公式より
+$$
+\gamma
+=\frac{(3\alpha+\beta+2)\pm \sqrt{(3\alpha+\beta+2)^2-8(\alpha+1)(\alpha+\beta)}}{4}
+$$
+である。
+
+ここで $\beta = (1+i\sqrt{3})\alpha$ を代入して整理する必要があるが，$\alpha,\beta,\gamma$ はいずれも $OABCDE$ の頂点であるから，候補は有限個である。  
+実際には
+
+- $\alpha \in \{1,\omega,\omega^2,\omega^3,\omega^4\}$
+- $\beta = (1+i\sqrt{3})\alpha$ が $\{1,\omega,\omega^2,\omega^3,\omega^4\}$ のいずれかになり得るか
+- さらに，そのとき上の2次方程式の解 $\gamma$ が頂点のいずれかになり得るか
+
+を確かめればよい。
+
+しかし，(1) で述べた通り，$\dfrac{\beta}{\alpha} = 1+i\sqrt{3}$ の絶対値は $2$ であり，$\alpha,\beta$ がいずれも単位円上の点であることと矛盾する。したがって，  
+$$
+\alpha,\beta \in \{1,\omega,\omega^2,\omega^3,\omega^4\},\ \alpha\neq\beta
+$$
+をみたす $\alpha,\beta$ は存在しない。
+
+よって，この条件を満たす $(\alpha,\beta,\gamma)$ の組も存在しない。
+
+従って，
+
+- 条件をすべて満たす $(\alpha,\beta,\gamma)$ は存在しない。
+- よって，そのような組に対応する正六角形 $OABCDE$ を図示することもできない。
+
+以上である。

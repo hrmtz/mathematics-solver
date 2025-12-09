@@ -1,0 +1,29 @@
+---
+title: "名古屋大学 2023年 2023_3"
+problem_id: "05_nagoya-2023-2023_3"
+university: "名古屋大学"
+exam_year: "2023"
+source_tex: "archive/05_nagoya/2023/2023_3.tex"
+pdf_source: "archive/05_nagoya/2023/2023_3.pdf"
+page_image: "archive/05_nagoya/2023/2023_3.jpg"
+fields:
+  - 指数・対数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]方程式$\displaystyle e^x=\frac{2x^3}{x-1}$の負の実数解の個数を求めよ。
+\item[(2)]$y=x(x^2-3)$と$y=e^x$のグラフの$x<0$における共有点の個数を求めよ。
+\item[(3)]$a$を正の実数とし，関数$f(x)=x(x^2-a)$を考える。
+$y=f(x)$と$y=e^x$のグラフの$x<0$における共有点は1個のみであるとする。
+このような$a$がただ1つ存在することを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2023/2023_3.pdf)

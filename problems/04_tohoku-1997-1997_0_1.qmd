@@ -1,0 +1,29 @@
+---
+title: "東北大学 1997年 1997_0_1"
+problem_id: "04_tohoku-1997-1997_0_1"
+university: "東北大学"
+exam_year: "1997"
+source_tex: "archive/04_tohoku/1997/1997_0_1.tex"
+pdf_source: "archive/04_tohoku/1997/1997_0_1.pdf"
+page_image: "archive/04_tohoku/1997/1997_0_1.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　2次方程式$x^2+ax+b=0$が2つの解をもち，
+かつその差が1であるとする．
+\begin{description}
+\item[(1)]$b$を$a$で表せ．
+\item[(2)]2次関数$y=x^2+ax+b$のグラフが，
+領域$2x+y<0$を通らないような$a$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1997/1997_0_1.pdf)

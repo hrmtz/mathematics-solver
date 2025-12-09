@@ -1,0 +1,33 @@
+---
+title: "北海道大学 2017年 2017_3"
+problem_id: "03_hokudai-2017-2017_3"
+university: "北海道大学"
+exam_year: "2017"
+source_tex: "archive/03_hokudai/2017/2017_3.tex"
+pdf_source: "archive/03_hokudai/2017/2017_3.pdf"
+page_image: "archive/03_hokudai/2017/2017_3.jpg"
+fields:
+  - 複素数平面
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　複素数平面上に3点$O$，$A$，$B$を頂点とする$\triangle OAB$がある。
+ただし，$O$は原点とする。
+$\triangle OAB$の外心を$P$とする。
+3点$A$，$B$，$P$が表す複素数を，それぞれ$\alpha$，$\beta$，$z$とするとき，
+\[ \alpha\beta=z \]
+が成り立つとする。
+\begin{description}
+\item[(1)]複素数$\alpha$の満たすべき条件を求め，
+点$A(\alpha)$が描く図形を複素数平面上に図示せよ。
+\item[(2)]点$P(z)$の存在範囲を求め，複素数平面上に図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2017/2017_3.pdf)

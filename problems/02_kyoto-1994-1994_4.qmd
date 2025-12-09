@@ -1,0 +1,23 @@
+---
+title: "京都大学 1994年 1994_4"
+problem_id: "02_kyoto-1994-1994_4"
+university: "京都大学"
+exam_year: "1994"
+source_tex: "archive/02_kyoto/1994/1994_4.tex"
+pdf_source: "archive/02_kyoto/1994/1994_4.pdf"
+page_image: "archive/02_kyoto/1994/1994_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xy$平面上で，3点$A(-1,0)$，$B(1,0)$，$P(t,2t^2+1)$を考え，$\angle APB$の2等分線と$x$軸との交点を$Q$とする．
+$t$がすべての実数値を動くとき，$\displaystyle\frac{QB}{AQ}$の最大値，最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_4.pdf)

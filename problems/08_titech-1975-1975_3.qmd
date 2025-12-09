@@ -1,0 +1,23 @@
+---
+title: "東京科学大学 1975年 1975_3"
+problem_id: "08_titech-1975-1975_3"
+university: "東京科学大学"
+exam_year: "1975"
+source_tex: "archive/08_titech/1975/1975_3.tex"
+pdf_source: "archive/08_titech/1975/1975_3.pdf"
+page_image: "archive/08_titech/1975/1975_3.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$x$の不等式$\displaystyle\log_a\frac{x-2}{x-1}>\log_a\frac{3-x}{x}$を解け．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1975/1975_3.pdf)

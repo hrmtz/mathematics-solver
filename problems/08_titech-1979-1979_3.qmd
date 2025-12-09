@@ -1,0 +1,32 @@
+---
+title: "東京科学大学 1979年 1979_3"
+problem_id: "08_titech-1979-1979_3"
+university: "東京科学大学"
+exam_year: "1979"
+source_tex: "archive/08_titech/1979/1979_3.tex"
+pdf_source: "archive/08_titech/1979/1979_3.pdf"
+page_image: "archive/08_titech/1979/1979_3.jpg"
+fields:
+  - 三角関数
+  - 積分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]$p(x)$，$q(x)$を$x$の3次以下の多項式とする．
+すべての$x$に対して$p(x)\cos x=q(x)\sin x$が成り立つならば，
+$p(x)$，$q(x)$は恒等的に0に等しいことを示せ．
+\item[(2)]$P(x)$，$Q(x)$を$x$の3次以下の多項式とする．
+すべての$x$に対して
+\[ P(x)\cos x+\int_0^xQ(t)\sin tdt=(x^2+2x+3)\sin x \]
+が成り立つとき，$P(x)$，$Q(x)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1979/1979_3.pdf)

@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 2005年 2005_3"
+problem_id: "08_titech-2005-2005_3"
+university: "東京科学大学"
+exam_year: "2005"
+source_tex: "archive/08_titech/2005/2005_3.tex"
+pdf_source: "archive/08_titech/2005/2005_3.pdf"
+page_image: "archive/08_titech/2005/2005_3.jpg"
+fields:
+  - 空間図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$D$を半径1の円盤，$C$を$xy$平面の原点を中心とする半径1の円周とする．
+$D$がつぎの条件(a)，(b)を共に満たしながら$xyz$空間内を動くとき，$D$が通過する部分の体積を求めよ．
+\begin{description}
+\item[(a)]$D$の中心は$C$上にある．
+\item[(b)]$D$が乗っている平面は常にベクトル$(0,1,0)$と直交する．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2005/2005_3.pdf)

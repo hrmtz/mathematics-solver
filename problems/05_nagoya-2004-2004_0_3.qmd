@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 2004年 2004_0_3"
+problem_id: "05_nagoya-2004-2004_0_3"
+university: "名古屋大学"
+exam_year: "2004"
+source_tex: "archive/05_nagoya/2004/2004_0_3.tex"
+pdf_source: "archive/05_nagoya/2004/2004_0_3.pdf"
+page_image: "archive/05_nagoya/2004/2004_0_3.jpg"
+fields:
+  - 複素数平面
+  - 数列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$i$を虚数単位とする．
+　$z_1=3$および，漸化式$z_{n+1}=(1+i)z_n+i$ $(n\geqq1)$によって定まる複素数からなる数列$\{ z_n \}$について，
+以下の問いに答えよ．
+\begin{description}
+\item[(1)]$z_n$を求めよ．
+\item[(2)]すべての正の整数$m$について，$z_{8m-7}=2^{4m-2}-1$となることを示せ．
+\item[(3)]複素数$z_n$が表す複素数平面の点を$P_n$とする．
+$P_n$，$P_{n+1}$，$P_{n+2}$を3頂点とする三角形の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2004/2004_0_3.pdf)

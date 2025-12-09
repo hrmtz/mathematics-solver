@@ -1,0 +1,34 @@
+---
+title: "九州大学 1966年 1966_3"
+problem_id: "07_kyushu-1966-1966_3"
+university: "九州大学"
+exam_year: "1966"
+source_tex: "archive/07_kyushu/1966/1966_3.tex"
+pdf_source: "archive/07_kyushu/1966/1966_3.pdf"
+page_image: "archive/07_kyushu/1966/1966_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数$f(x)=ax^2+bx$が，2条件
+\[ f(1)\geqq{\{ f''(1) \}}^2 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AC}} \]
+\[ 1\leqq\int_0^1x^2f(x)dx\leqq2 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AD}} \]
+を満足するとき
+\begin{description}
+\item[(1)]そのような点$(a, \, b)$の存在する領域を求め図示せよ．
+\item[(2)]$f'(0)$を最大にする$(a, \, b)$を求めよ．
+\end{description}
+
+
+![](../archive/07_kyushu/1966/fig_1966_3.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1966/1966_3.pdf)

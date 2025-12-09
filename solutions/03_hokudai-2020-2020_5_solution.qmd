@@ -1,0 +1,174 @@
+## 解答
+
+(1)  
+条件より，すべての実数 $x$ について  
+$$
+0<f(x)<1,\quad \int_0^x\frac{f'(t)}{\{ 1-f(t) \} f(t)}dt=ax
+$$
+が成り立つ。
+
+左辺の積分を，合成関数の微分を用いて計算する。  
+$0<f(t)<1$ より，被積分関数は定義されている。
+
+まず
+$$
+\frac{1}{(1-f)f}=\frac{1}{f}+\frac{1}{1-f}
+$$
+と部分分数分解できるから，
+$$
+\int_0^x\frac{f'(t)}{\{ 1-f(t) \} f(t)}dt
+=\int_0^x\left(\frac{f'(t)}{f(t)}+\frac{f'(t)}{1-f(t)}\right)dt
+$$
+となる。
+
+ここで，
+$$
+\frac{d}{dt}\bigl(\log f(t)\bigr)=\frac{f'(t)}{f(t)},\quad
+\frac{d}{dt}\bigl(-\log(1-f(t))\bigr)=\frac{f'(t)}{1-f(t)}
+$$
+であるから，  
+原始関数は
+$$
+\log f(t)-\log(1-f(t))
+$$
+と書ける。よって
+$$
+\int_0^x\frac{f'(t)}{\{ 1-f(t) \} f(t)}dt
+=\Bigl[\log f(t)-\log(1-f(t))\Bigr]_{t=0}^{t=x}
+=\log\frac{f(x)}{1-f(x)}-\log\frac{f(0)}{1-f(0)}
+$$
+となる。
+
+これが条件より $ax$ に等しいので
+$$
+\log\frac{f(x)}{1-f(x)}-\log\frac{f(0)}{1-f(0)}=ax
+$$
+すなわち
+$$
+\log\frac{f(x)}{1-f(x)}=ax+\log\frac{f(0)}{1-f(0)}
+$$
+となる。
+
+初期条件 $f(0)=\dfrac13$ より
+$$
+\frac{f(0)}{1-f(0)}=\frac{\tfrac13}{1-\tfrac13}
+=\frac{\tfrac13}{\tfrac23}
+=\frac12
+$$
+だから，
+$$
+\log\frac{f(x)}{1-f(x)}=ax+\log\frac12
+$$
+となる。両辺の指数をとると
+$$
+\frac{f(x)}{1-f(x)}=\exp\!\left(ax+\log\frac12\right)
+=\frac12 e^{ax}
+$$
+である。これを $f(x)$ について解くと
+$$
+f(x)=\frac12 e^{ax}\{1-f(x)\}
+$$
+より
+$$
+f(x)+\frac12 e^{ax}f(x)=\frac12 e^{ax}
+$$
+すなわち
+$$
+f(x)\left(1+\frac12 e^{ax}\right)=\frac12 e^{ax}
+$$
+したがって
+$$
+f(x)=\frac{\tfrac12 e^{ax}}{1+\tfrac12 e^{ax}}
+=\frac{e^{ax}}{2+e^{ax}}
+$$
+である。
+
+よって
+$$
+f(x)=\frac{e^{ax}}{e^{ax}+2}
+$$
+となる。
+
+---
+
+(2)  
+曲線 $y=f(x)$ と $x$ 軸および直線 $x=0,\,x=1$ で囲まれる図形の面積 $S(a)$ は
+$$
+S(a)=\int_0^1 f(x)\,dx=\int_0^1\frac{e^{ax}}{e^{ax}+2}\,dx
+$$
+である。
+
+$u=e^{ax}$ とおくと，$du=a e^{ax}dx=a u\,dx$ より $dx=\dfrac{du}{au}$。  
+また，$x=0$ のとき $u=e^{0}=1$，$x=1$ のとき $u=e^{a}$ だから
+$$
+S(a)=\int_0^1\frac{e^{ax}}{e^{ax}+2}\,dx
+=\int_{u=1}^{u=e^{a}}\frac{u}{u+2}\cdot\frac{du}{au}
+=\frac1a\int_1^{e^{a}}\frac{1}{u+2}\,du
+$$
+となる。よって
+$$
+S(a)=\frac1a\Bigl[\log(u+2)\Bigr]_{u=1}^{u=e^{a}}
+=\frac1a\left(\log(e^{a}+2)-\log3\right)
+$$
+すなわち
+$$
+S(a)=\frac{1}{a}\log\frac{e^{a}+2}{3}
+$$
+である。
+
+次に $\displaystyle\lim_{a\to+0}S(a)$ を求める。  
+$a\to+0$ のとき $e^a\to 1$ だが，$S(a)$ は $a\to 0$ で $0/0$ 型になるので，テイラー展開を用いる。
+
+$a\to 0$ で
+$$
+e^{a}=1+a+\frac{a^2}{2}+\cdots
+$$
+だから
+$$
+e^{a}+2=3+a+\frac{a^2}{2}+\cdots
+$$
+となり，
+$$
+\frac{e^{a}+2}{3}
+=1+\frac{a}{3}+\frac{a^2}{6}+\cdots
+$$
+である。$\log(1+x)$ の展開 $\log(1+x)=x-\dfrac{x^2}{2}+\cdots$ を用いると
+$$
+\log\frac{e^{a}+2}{3}
+=\log\Bigl(1+\frac{a}{3}+O(a^2)\Bigr)
+=\frac{a}{3}+O(a^2)
+$$
+となる。よって
+$$
+S(a)=\frac{1}{a}\log\frac{e^{a}+2}{3}
+=\frac{1}{a}\left(\frac{a}{3}+O(a^2)\right)
+=\frac13+O(a)
+$$
+となり，
+$$
+\lim_{a\to+0}S(a)=\frac13
+$$
+である。
+
+（ロピタルの定理を用いる方法：  
+$$
+S(a)=\frac{\log(e^{a}+2)-\log3}{a}
+$$
+とおくと，$a\to 0$ で分子も分母も $0$ に収束するのでロピタルの定理が使える。  
+分子の微分は
+$$
+\frac{d}{da}\bigl(\log(e^{a}+2)-\log3\bigr)=\frac{e^{a}}{e^{a}+2}
+$$
+分母の微分は $1$ だから，
+$$
+\lim_{a\to+0}S(a)=\lim_{a\to+0}\frac{e^{a}}{e^{a}+2}
+=\frac{1}{1+2}=\frac13
+$$
+となる。）
+
+以上より，
+$$
+S(a)=\frac{1}{a}\log\frac{e^{a}+2}{3},\quad
+\lim_{a\to+0}S(a)=\frac13
+$$
+である。

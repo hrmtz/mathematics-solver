@@ -1,0 +1,123 @@
+## 解答
+
+(1)  
+$\cos(3\theta)$は三角関数の加法定理を用いて  
+$\cos(3\theta)=\cos(2\theta+\theta)$ とおくと，
+  
+まず $\cos(2\theta)$ を  
+$$
+\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1
+$$
+と表せる．また $\sin(2\theta)=2\sin\theta\cos\theta$ である．
+
+加法定理 $\cos(A+B)=\cos A\cos B-\sin A\sin B$ より，
+$$
+\cos(3\theta)
+=\cos(2\theta+\theta)
+=\cos(2\theta)\cos\theta-\sin(2\theta)\sin\theta
+$$
+$$
+=(2\cos^2\theta-1)\cos\theta-(2\sin\theta\cos\theta)\sin\theta
+$$
+ここで $\sin^2\theta=1-\cos^2\theta$ を用いると
+$$
+\cos(3\theta)
+=(2\cos^3\theta-\cos\theta)-2(1-\cos^2\theta)\cos\theta
+$$
+$$
+=2\cos^3\theta-\cos\theta-2\cos\theta+2\cos^3\theta
+=4\cos^3\theta-3\cos\theta
+$$
+したがって
+$$
+\cos(3\theta)=4\cos^3\theta-3\cos\theta
+$$
+である．
+
+同様に，$\cos(4\theta)=\cos(2\theta+2\theta)$ とおくと，加法定理より
+$$
+\cos(4\theta)
+=\cos(2\theta)\cos(2\theta)-\sin(2\theta)\sin(2\theta)
+=\cos^2(2\theta)-\sin^2(2\theta)
+$$
+ここで $\sin^2(2\theta)=1-\cos^2(2\theta)$ を用いると
+$$
+\cos(4\theta)
+=2\cos^2(2\theta)-1
+$$
+さらに $\cos(2\theta)=2\cos^2\theta-1$ なので
+$$
+\cos(4\theta)=2(2\cos^2\theta-1)^2-1
+$$
+と変形できる．これを展開して
+$$
+\cos(4\theta)
+=2(4\cos^4\theta-4\cos^2\theta+1)-1
+=8\cos^4\theta-8\cos^2\theta+1
+$$
+したがって
+$$
+\cos(4\theta)=8\cos^4\theta-8\cos^2\theta+1
+$$
+である．
+
+---
+
+(2)  
+$\cos\theta=\dfrac{1}{p}$ とする．ここで $p\ge 3$ は素数である．
+
+(1) の結果を用いて，$\cos(3\theta)$ と $\cos(4\theta)$ を具体的に計算する．  
+$\cos\theta=\dfrac{1}{p}$ を $x=\cos\theta$ とおきなおすと，(1) より
+$$
+\cos(3\theta)=4x^3-3x,\quad \cos(4\theta)=8x^4-8x^2+1
+$$
+であるから，
+$$
+\cos(3\theta)=4\left(\frac{1}{p}\right)^3-3\cdot\frac{1}{p}
+=\frac{4-3p^2}{p^3}
+$$
+$$
+\cos(4\theta)
+=8\left(\frac{1}{p}\right)^4-8\left(\frac{1}{p}\right)^2+1
+=\frac{8-8p^2+p^4}{p^4}
+$$
+
+ここで  
+$\theta=\dfrac{m}{n}\pi$ となる正の整数 $m,n$ が存在すると仮定して矛盾を導く．  
+このとき $m,n$ を既約になるようにとれば，$\dfrac{m}{n}$ は既約分数とできる．
+
+まず，$\cos\theta=\cos\left(\dfrac{m}{n}\pi\right)$ である．  
+一般に，$\cos(k\pi)$（$k$ は有理数）が有理数となるときの値は非常に制限されることが知られているが，ここでは $\cos(3\theta)$ および $\cos(4\theta)$ の取りうる値の範囲と有理性から矛盾を導く．
+
+$\theta=\dfrac{m}{n}\pi$ であれば，$3\theta=\dfrac{3m}{n}\pi$，$4\theta=\dfrac{4m}{n}\pi$ も有理数倍の $\pi$ であり，したがって $\cos(3\theta)$，$\cos(4\theta)$ はともに代数的整数の範囲で扱える．一方，右辺の  
+$\displaystyle\cos(3\theta)=\dfrac{4-3p^2}{p^3}$，$\displaystyle\cos(4\theta)=\dfrac{8-8p^2+p^4}{p^4}$  
+はいずれも有理数である．
+
+ここで，$\cos\phi$ が有理数となる $\phi$ のうち，$\phi/\pi$ が有理数である場合には，  
+$$
+\cos\phi\in\left\{1,\;0,\;-\frac{1}{2},\;-\!1\right\}
+$$
+しか起こらないことが知られている（チェビシェフ多項式とユニティ根の性質から従う事実）．
+
+そこで，$\cos\theta=\dfrac{1}{p}$ がこの4つの値のいずれかと一致する可能性を調べる．  
+$p\ge 3$ は素数なので  
+$$
+\frac{1}{p}\in(0,\tfrac{1}{3}]\subset(-\tfrac{1}{2},\tfrac{1}{2})
+$$
+である．したがって
+$$
+\frac{1}{p}\neq 1,\quad
+\frac{1}{p}\neq 0,\quad
+\frac{1}{p}\neq -\frac{1}{2},\quad
+\frac{1}{p}\neq -1
+$$
+である．よって，$\cos\theta=\dfrac{1}{p}$ は，$\cos\phi$ が有理数となるときに許される値のいずれとも一致しない．
+
+以上より，$\cos\theta=\dfrac{1}{p}$ であり，かつ $\theta=\dfrac{m}{n}\pi$（$m,n$ は正の整数）となるような $\theta$ は存在しない．
+
+従って，
+
+- $\cos\theta=\dfrac{1}{p}$ のとき，
+- $\theta=\dfrac{m}{n}\pi$ となるような正の整数 $m,n$ は存在しない
+
+と判定できる．

@@ -1,0 +1,38 @@
+---
+title: "北海道大学 2010年 2010_0_3"
+problem_id: "03_hokudai-2010-2010_0_3"
+university: "北海道大学"
+exam_year: "2010"
+source_tex: "archive/03_hokudai/2010/2010_0_3.tex"
+pdf_source: "archive/03_hokudai/2010/2010_0_3.pdf"
+page_image: "archive/03_hokudai/2010/2010_0_3.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\displaystyle a_n=\frac{1}{n(n+1)}$を第$n$項とする数列を，
+次のように奇数個ずつの群に分ける．
+\[ \{ a_1 \}, \hspace{1zw}
+\{ a_2, \, a_3, \, a_4 \}, \hspace{1zw}
+\{ a_5, \, a_6, \, a_7, \, a_8, \, a_9 \}, \hspace{1zw}
+\cdots\cdots \]
+\[ \text{第1群} \hspace{1zw}\hspace{1zw}\hspace{1zw}
+\text{第2群} \hspace{1zw}\hspace{1zw}\hspace{1zw}\hspace{1zw}\hspace{1zw}
+\text{第3群} \hspace{1zw}\hspace{1zw}\hspace{1zw}\hspace{1zw}
+\cdots\cdots \]
+$k$を自然数として，以下の問いに答えよ．
+\begin{description}
+\item[(1)]第$k$群の最初の項を求めよ．
+\item[(2)]第$k$群に含まれるすべての項の和$S_k$を求めよ．
+\item[(3)]$\displaystyle(k^2+1)S_k\leqq\frac{1}{100}$を満たす最小の自然数$k$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2010/2010_0_3.pdf)

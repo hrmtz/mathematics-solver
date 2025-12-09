@@ -1,0 +1,30 @@
+---
+title: "東北大学 1996年 1996_5"
+problem_id: "04_tohoku-1996-1996_5"
+university: "東北大学"
+exam_year: "1996"
+source_tex: "archive/04_tohoku/1996/1996_5.tex"
+pdf_source: "archive/04_tohoku/1996/1996_5.pdf"
+page_image: "archive/04_tohoku/1996/1996_5.jpg"
+fields:
+  - 指数・対数
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　直線$l$は曲線$C_1:y=e^x$，$C_2:y=e^{ax}$ $(a>1)$の両方に接するとする．
+\begin{description}
+\item[(i)]$l$と$C_1$との接点$P$の$x$座標を$s$とし，
+$l$と$C_2$との接点$Q$の$x$座標を$t$とする．
+このとき，$s$，$t$を$a$を用いて表せ．
+\item[(ii)]$a=2$のとき$l$と$C_1$，$C_2$で囲まれた図形の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_5.pdf)

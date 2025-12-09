@@ -1,0 +1,25 @@
+---
+title: "東北大学 2010年 2010_c"
+problem_id: "04_tohoku-2010-2010_c"
+university: "東北大学"
+exam_year: "2010"
+source_tex: "archive/04_tohoku/2010/2010_c.tex"
+pdf_source: "archive/04_tohoku/2010/2010_c.pdf"
+page_image: "archive/04_tohoku/2010/2010_c.jpg"
+fields:
+  - 平面図形
+  - 行列
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xy$平面上で，原点を中心とする角$\theta$ $(0\leqq\theta<2\pi)$の回転を行い，
+さらに直線$y=x$に関する対称移動を行う．
+これが直線$y=\sqrt3 \, x$に関する対称移動と一致するとき，$\theta$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_c.pdf)

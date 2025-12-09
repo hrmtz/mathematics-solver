@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1999年 1999_0_1"
+problem_id: "03_hokudai-1999-1999_0_1"
+university: "北海道大学"
+exam_year: "1999"
+source_tex: "archive/03_hokudai/1999/1999_0_1.tex"
+pdf_source: "archive/03_hokudai/1999/1999_0_1.pdf"
+page_image: "archive/03_hokudai/1999/1999_0_1.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　面積1の三角形$ABC$の各辺の長さをそれぞれ$AB=2$，$BC=a$，$CA=b$とする．
+さらに，$C$から直線$AB$へ下ろした垂線の足$D$が線分$AB$上にあるとする．
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$AD=x$とするとき，$a^2+(2\sqrt3-1)b^2$を，$x$を用いて表せ．
+\item[(2)]$a^2+(2\sqrt3-1)b^2$を最小にする$x$を求めよ．
+また，そのときの$\angle BAC$の大きさを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1999/1999_0_1.pdf)

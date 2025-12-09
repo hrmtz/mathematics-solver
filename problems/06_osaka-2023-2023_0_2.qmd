@@ -1,0 +1,30 @@
+---
+title: "大阪大学 2023年 2023_0_2"
+problem_id: "06_osaka-2023-2023_0_2"
+university: "大阪大学"
+exam_year: "2023"
+source_tex: "archive/06_osaka/2023/2023_0_2.tex"
+pdf_source: "archive/06_osaka/2023/2023_0_2.pdf"
+page_image: "archive/06_osaka/2023/2023_0_2.jpg"
+fields:
+  - 指数・対数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　正の実数$a$，$x$に対して，
+\[ y={(\log_{\frac{1}{2}}x)}^3+a(\log_{\sqrt2}x)(\log_4x^3) \]
+とする．
+\begin{description}
+\item[(1)]$t=\log_2x$とするとき，$y$を$a$，$t$を用いて表せ．
+\item[(2)]$x$が$\displaystyle \frac{1}{2} \leqq x \leqq 8$の範囲を動くとき，
+$y$の最大値$M$を$a$を用いて表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2023/2023_0_2.pdf)

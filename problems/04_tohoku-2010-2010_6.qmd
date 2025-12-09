@@ -1,0 +1,40 @@
+---
+title: "東北大学 2010年 2010_6"
+problem_id: "04_tohoku-2010-2010_6"
+university: "東北大学"
+exam_year: "2010"
+source_tex: "archive/04_tohoku/2010/2010_6.tex"
+pdf_source: "archive/04_tohoku/2010/2010_6.pdf"
+page_image: "archive/04_tohoku/2010/2010_6.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$xy$平面において，
+原点を中心とし$P(1,0)$を頂点の1つとする正6角形を$X$とする．
+$A$を2次の正方行列とし，$X$の各頂点$(x,y)$に対して，行列$A$の表す移動
+\[ \begin{pmatrix} x' 
+
+ y' \end{pmatrix} = A \begin{pmatrix} x 
+
+ y \end{pmatrix} \]
+で得られる点$(x',y')$は$X$の辺上の点（頂点を含む）であるとする．
+以下の問いに答えよ．
+\begin{description}
+\item[(1)]点$P$が行列$A$の表す移動で$P$自身に移るとき，
+$X$の各頂点は$X$のいずれかの頂点に移ることを示せ．
+また，そのときの行列$A$を求めよ．
+\item[(2)]点$P$が行列$A$の表す移動で$X$のある頂点に移るとき，
+$X$の各頂点は$X$のいずれかの頂点に移ることを示せ．
+また，そのときの行列$A$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_6.pdf)

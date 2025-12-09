@@ -1,0 +1,30 @@
+---
+title: "大阪大学 2017年 2017_4"
+problem_id: "06_osaka-2017-2017_4"
+university: "大阪大学"
+exam_year: "2017"
+source_tex: "archive/06_osaka/2017/2017_4.tex"
+pdf_source: "archive/06_osaka/2017/2017_4.pdf"
+page_image: "archive/06_osaka/2017/2017_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$b$，$c$を実数とする．2次関数$f(x)=-x^2+bx+c$が
+\[ 0 \leqq f(1) \leqq 2, \hspace{1zw} 5 \leqq f(3) \leqq 6 \]
+を満たすとする。
+\begin{description}
+\item[(1)]$f(4)$のとりうる値の範囲を求めよ。
+\item[(2)]放物線$y=f(x)$の頂点の$y$座標$q$のとりうる値の範囲を求めよ．
+\item[(3)]放物線$y=f(x)$の頂点の$y$座標が6のとき，
+放物線$y=f(x)$と$x$軸で囲まれた部分の面積$S$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2017/2017_4.pdf)

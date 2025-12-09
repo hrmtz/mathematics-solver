@@ -1,0 +1,29 @@
+---
+title: "北海道大学 2006年 2006_b"
+problem_id: "03_hokudai-2006-2006_b"
+university: "北海道大学"
+exam_year: "2006"
+source_tex: "archive/03_hokudai/2006/2006_b.tex"
+pdf_source: "archive/03_hokudai/2006/2006_b.pdf"
+page_image: "archive/03_hokudai/2006/2006_b.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　実数$a$，$b$，$n$は$0<b<1<a$かつ$n\geqq2$をみたすとし
+\[ f(a)=\int_1^ax^{-n}dx, \hspace{1zw} g(b)=\int_b^1x^{-n}dx \]
+とおく．
+\begin{description}
+\item[(1)]$\displaystyle\lim_{a\to\infty}\frac{f(a)}{g(b)}<1$となる$n$の範囲を求めよ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}
+\frac{\displaystyle f(1+\frac{1}{n})}{\displaystyle g(1-\frac{1}{n})}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2006/2006_b.pdf)

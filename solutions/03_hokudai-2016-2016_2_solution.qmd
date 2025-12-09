@@ -1,0 +1,310 @@
+## 解答
+
+(1)  
+与えられた関数 $f(x)$ は，次の関係をみたす：
+$$
+f(x)=\int_{-a}^a\left\{\frac{e^{-x}}{2a}+f(t)\sin t\right\}dt
+$$
+ここで，被積分関数のうち $x$ を含むのは $\dfrac{e^{-x}}{2a}$ だけであり，$t$ による積分では定数とみなせる。よって，まず各項に分けて積分すると
+$$
+f(x)=\int_{-a}^a \frac{e^{-x}}{2a}\,dt + \int_{-a}^a f(t)\sin t\,dt
+$$
+となる。
+
+第1項は
+$$
+\int_{-a}^a \frac{e^{-x}}{2a}\,dt = \frac{e^{-x}}{2a}\int_{-a}^a dt = \frac{e^{-x}}{2a}\cdot (a-(-a)) = e^{-x}
+$$
+である。したがって
+$$
+f(x) = e^{-x} + \int_{-a}^a f(t)\sin t\,dt
+$$
+となる。ここで
+$$
+g(a) = \int_{-a}^a f(t)\sin t\,dt
+$$
+とおくと，上式は
+$$
+f(x) = e^{-x} + g(a)
+$$
+と書ける。すなわち，$f(x)$ は $x$ に関して
+$$
+f(x) = e^{-x} + C\quad (C \text{ は定数})
+$$
+という形で表される。ただし，この $C$ は実際には $a$ に依存しており，$C=g(a)$ である。
+
+以上より，
+$$
+f(x)=e^{-x}+g(a)
+$$
+と求まる。
+
+(2)  
+(1) で得た $f(t) = e^{-t} + g(a)$ を用いて
+$$
+g(a)=\int_{-a}^a f(t)\sin t\,dt
+$$
+を計算する。代入すると
+$$
+g(a)=\int_{-a}^a \{e^{-t}+g(a)\}\sin t\,dt
+= \int_{-a}^a e^{-t}\sin t\,dt + g(a)\int_{-a}^a \sin t\,dt
+$$
+となる。ここで
+$$
+\int_{-a}^a \sin t\,dt = [-\cos t]_{-a}^a = -\cos a -(-\cos(-a)) = -\cos a + \cos a = 0
+$$
+であるから，第2項は 0 となり
+$$
+g(a) = \int_{-a}^a e^{-t}\sin t\,dt
+$$
+となる。
+
+この積分を求める。$e^{-t}\sin t$ の不定積分を部分積分により求める。  
+まず
+$$
+I = \int e^{-t}\sin t\,dt
+$$
+とおき，部分積分を2回行う。
+
+1回目の部分積分：  
+$u=\sin t,\ dv=e^{-t}dt$ とおくと，$du=\cos t\,dt,\ v=-e^{-t}$ なので
+$$
+I = uv - \int v\,du
+= -e^{-t}\sin t - \int(-e^{-t})\cos t\,dt
+= -e^{-t}\sin t + \int e^{-t}\cos t\,dt
+$$
+と書ける。ここで
+$$
+J = \int e^{-t}\cos t\,dt
+$$
+とおく。
+
+2回目の部分積分：  
+$J$ について，$u=\cos t,\ dv=e^{-t}dt$ とおくと，$du=-\sin t\,dt,\ v=-e^{-t}$ なので
+$$
+J = uv - \int v\,du
+= -e^{-t}\cos t - \int(-e^{-t})(-\sin t)\,dt
+= -e^{-t}\cos t - \int e^{-t}\sin t\,dt
+= -e^{-t}\cos t - I
+$$
+となる。これを $I$ の式に代入する：
+$$
+I = -e^{-t}\sin t + J
+= -e^{-t}\sin t + (-e^{-t}\cos t - I)
+$$
+よって
+$$
+I = -e^{-t}\sin t - e^{-t}\cos t - I
+$$
+となり，両辺に $I$ を加えると
+$$
+2I = -e^{-t}(\sin t + \cos t)
+$$
+したがって
+$$
+I = \int e^{-t}\sin t\,dt = -\frac{1}{2}e^{-t}(\sin t + \cos t) + C
+$$
+となる。
+
+以上より，定積分は
+$$
+\int_{-a}^a e^{-t}\sin t\,dt
+= \left[-\frac{1}{2}e^{-t}(\sin t + \cos t)\right]_{t=-a}^{t=a}
+$$
+となるので，これを計算する。
+
+上端 $t=a$ での値：
+$$
+-\frac{1}{2}e^{-a}(\sin a+\cos a)
+$$
+下端 $t=-a$ での値：
+$$
+-\frac{1}{2}e^{a}(\sin(-a)+\cos(-a))
+= -\frac{1}{2}e^{a}(-\sin a+\cos a)
+= \frac{1}{2}e^{a}\sin a - \frac{1}{2}e^{a}\cos a
+$$
+
+したがって
+$$
+g(a) = \int_{-a}^a e^{-t}\sin t\,dt
+= \left(-\frac{1}{2}e^{-a}(\sin a+\cos a)\right)
+ -\left(\frac{1}{2}e^{a}\sin a - \frac{1}{2}e^{a}\cos a\right)
+$$
+$$
+= -\frac{1}{2}e^{-a}\sin a - \frac{1}{2}e^{-a}\cos a
+ -\frac{1}{2}e^{a}\sin a + \frac{1}{2}e^{a}\cos a
+$$
+ここで $\sin a$ の項と $\cos a$ の項に分けて整理すると
+$$
+g(a) = -\frac{1}{2}(e^{-a}+e^{a})\sin a
++\frac{1}{2}(e^{a}-e^{-a})\cos a
+$$
+すなわち
+$$
+g(a)=\frac{1}{2}\left\{(e^{a}-e^{-a})\cos a-(e^{a}+e^{-a})\sin a\right\}
+$$
+である。
+
+この $g(a)$ の $0<a\leqq 2\pi$ における最小値を求める。
+
+まず三角関数の形にまとめるため，係数を双曲線関数を用いて書き換える：
+$$
+e^{a}+e^{-a}=2\cosh a,\quad e^{a}-e^{-a}=2\sinh a
+$$
+だから
+$$
+g(a)=\frac{1}{2}\{2\sinh a\cos a-2\cosh a\sin a\}
+=\sinh a\cos a-\cosh a\sin a
+$$
+と書ける。
+
+ここで，$\sinh a\cos a-\cosh a\sin a$ は，$\sin,\cos$ の一次結合の形なので，1つの正弦（または余弦）にまとめることができる。  
+一般に
+$$
+p\cos a + q\sin a = \sqrt{p^2+q^2}\,\sin(a+\varphi)
+$$
+などと表せるが，ここでは次の恒等変形を用いる：
+$$
+\sinh a\cos a-\cosh a\sin a
+= \sqrt{\sinh^2 a+\cosh^2 a}\left(
+\frac{\sinh a}{\sqrt{\sinh^2 a+\cosh^2 a}}\cos a
+-\frac{\cosh a}{\sqrt{\sinh^2 a+\cosh^2 a}}\sin a
+\right)
+$$
+ここで
+$$
+R=\sqrt{\sinh^2 a+\cosh^2 a}>0
+$$
+とおき，
+$$
+\cos\theta = \frac{\sinh a}{R},\quad \sin\theta = \frac{\cosh a}{R}
+$$
+とおけば，$\cos^2\theta+\sin^2\theta=1$ が成り立つので，そのような $\theta$ が存在する。すると
+$$
+g(a)
+= R(\cos\theta\cos a-\sin\theta\sin a)
+= R\cos(a+\theta)
+$$
+と表すことができる。
+
+ここで $R>0$ であり，$\cos(a+\theta)$ の値域は $[-1,1]$ だから，
+$$
+g(a) = R\cos(a+\theta) \geq -R = -\sqrt{\sinh^2 a+\cosh^2 a}
+$$
+が成り立つ。また $\cos(a+\theta)=-1$ となるような $a$ の値が存在すれば，そのときこの下限値 $-R$ が実際にとられる。この条件
+$$
+\cos(a+\theta)=-1
+$$
+は
+$$
+a+\theta = \pi + 2k\pi\quad(k\in\mathbb{Z})
+$$
+となることであり，$0<a\leqq 2\pi$ の範囲で少なくとも1つは解をもつ（例えば，$k=0$ で $a=\pi-\theta$ が $0<a\leq 2\pi$ のどこかに存在する）。
+
+したがって，固定した $a$ に対し $g(a)$ の最小値は
+$$
+g(a)_{\min} = -\sqrt{\sinh^2 a+\cosh^2 a}
+$$
+であることがわかる。しかし問題では $0<a\leqq 2\pi$ の範囲での $g(a)$ の最小値（$a$ に関する）を求めるので，$g(a)$ 自体を直接調べる。
+
+先ほど得た
+$$
+g(a)=\frac{1}{2}\left\{(e^{a}-e^{-a})\cos a-(e^{a}+e^{-a})\sin a\right\}
+$$
+に対して，このまま $a$ に関して微分して最小値を求める。
+
+まず $g(a)$ を微分する。積の微分と和の微分の公式を用いて計算する：
+$$
+g(a)=\frac{1}{2}\{(e^{a}-e^{-a})\cos a-(e^{a}+e^{-a})\sin a\}
+$$
+より
+\[
+\begin{aligned}
+g'(a)
+&= \frac{1}{2}\Bigl\{(e^{a}+e^{-a})\cos a + (e^{a}-e^{-a})(-\sin a) \\
+&\qquad\quad - (e^{a}-e^{-a})\sin a - (e^{a}+e^{-a})\cos a\Bigr\}
+\end{aligned}
+\]
+となるが，第1項と第4項が打ち消し合い
+\[
+\begin{aligned}
+g'(a)
+&= \frac{1}{2}\{-(e^{a}-e^{-a})\sin a - (e^{a}-e^{-a})\sin a\} \\
+&= \frac{1}{2}\{-2(e^{a}-e^{-a})\sin a\} \\
+&= -(e^{a}-e^{-a})\sin a
+\end{aligned}
+\]
+となる。
+
+ここで $e^{a}-e^{-a}>0$ は $a>0$ で常に成り立つので，
+$$
+g'(a)=0 \quad\Longleftrightarrow\quad \sin a = 0
+$$
+である。したがって
+$$
+0<a\leqq 2\pi \text{ における臨界点は } a=\pi,\,2\pi
+$$
+となる。（$a=0$ は定義域の外。）
+
+この2点と端点 $a\to 0^+$ の値も含めて，$g(a)$ の値を比較する。
+
+まず $a=\pi$ のとき：
+$$
+g(\pi)=\int_{-\pi}^{\pi} e^{-t}\sin t\,dt
+$$
+であるが，先に求めた公式を用いると
+\[
+\begin{aligned}
+g(\pi)
+&=\frac{1}{2}\Bigl\{(e^{\pi}-e^{-\pi})\cos\pi-(e^{\pi}+e^{-\pi})\sin\pi\Bigr\} \\
+&=\frac{1}{2}\{(e^{\pi}-e^{-\pi})(-1)- (e^{\pi}+e^{-\pi})\cdot 0\} \\
+&=-\frac{1}{2}(e^{\pi}-e^{-\pi})
+\end{aligned}
+\]
+となる。
+
+次に $a=2\pi$ のとき：
+\[
+\begin{aligned}
+g(2\pi)
+&=\frac{1}{2}\Bigl\{(e^{2\pi}-e^{-2\pi})\cos 2\pi-(e^{2\pi}+e^{-2\pi})\sin 2\pi\Bigr\} \\
+&=\frac{1}{2}\{(e^{2\pi}-e^{-2\pi})\cdot 1- (e^{2\pi}+e^{-2\pi})\cdot 0\}\\
+&=\frac{1}{2}(e^{2\pi}-e^{-2\pi})>0
+\end{aligned}
+\]
+である。
+
+また，$a\to 0^+$ のとき，区間 $[-a,a]$ が短くなることから
+$$
+g(a)=\int_{-a}^a e^{-t}\sin t\,dt \to 0
+$$
+である。したがって $a$ が小さいところでは $g(a)$ は 0 に近い正または負の値であるが，$a=\pi$ で $g(\pi)=-\dfrac{1}{2}(e^{\pi}-e^{-\pi})<0$，$a=2\pi$ では $g(2\pi)>0$ となっている。
+
+さらに $g'(a)=-(e^{a}-e^{-a})\sin a$ の符号を調べることで増減を判定する。$e^{a}-e^{-a}>0$ より，
+$$
+\operatorname{sgn}(g'(a)) = -\operatorname{sgn}(\sin a)
+$$
+である。したがって
+
+- $0<a<\pi$ では $\sin a>0$ より $g'(a)<0$，$g(a)$ は減少。
+- $\pi<a<2\pi$ では $\sin a<0$ より $g'(a)>0$，$g(a)$ は増加。
+
+ゆえに，$0<a\leqq 2\pi$ において $g(a)$ は $a=\pi$ で最小値をとる。
+
+したがって，$0<a\leqq 2\pi$ における $g(a)$ の最小値は
+$$
+g(\pi)=-\frac{1}{2}(e^{\pi}-e^{-\pi})
+$$
+であり，そのときの $a$ の値は $a=\pi$ である。
+
+---
+
+まとめると，
+
+- (1) $f(x)=e^{-x}+g(a)$  
+  （ただし $g(a)=\displaystyle\int_{-a}^{a}f(t)\sin t\,dt$）
+- (2) $0<a\leqq 2\pi$ における $g(a)$ の最小値は
+  $$
+  -\frac{1}{2}(e^{\pi}-e^{-\pi})
+  $$
+  であり，そのとき $a=\pi$ である。

@@ -1,0 +1,33 @@
+---
+title: "京都大学 1985年 1985_3"
+problem_id: "02_kyoto-1985-1985_3"
+university: "京都大学"
+exam_year: "1985"
+source_tex: "archive/02_kyoto/1985/1985_3.tex"
+pdf_source: "archive/02_kyoto/1985/1985_3.pdf"
+page_image: "archive/02_kyoto/1985/1985_3.jpg"
+fields:
+  - 複素数平面
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$b$，$c$は実数とし，$x^2+2bx+c=0$の2根を$\alpha$，$\beta$とする．
+\begin{description}
+\item[(i)]$b^2-c<0$，$b\neq0$とすれば，
+いかなる複素数$\gamma$に対しても$\gamma=t\alpha+u\beta$となる実数$t$，$u$が存在することを示せ．
+\item[(ii)]$f(x)=x^2+2(b-1)x+5-c$とおくとき，
+次の条件(*)を満たす点$(b,c)$全体の集合$D$を決定し，
+図示せよ．
+\begin{description}
+\item[(*)]$t$，$u$がともに実数なら，$f(t\alpha+u\beta)\neq0$
+\end{description}
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1985/1985_3.pdf)

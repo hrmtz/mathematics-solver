@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1981年 1981_4"
+problem_id: "03_hokudai-1981-1981_4"
+university: "北海道大学"
+exam_year: "1981"
+source_tex: "archive/03_hokudai/1981/1981_4.tex"
+pdf_source: "archive/03_hokudai/1981/1981_4.pdf"
+page_image: "archive/03_hokudai/1981/1981_4.jpg"
+fields:
+  - 数列
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$n$を自然数とする．
+数直線上で点$\displaystyle\frac{1}{2^{n+2}}$と点$\displaystyle\frac{1}{n(n+1)}$を両端とする線分を$A_n$とする．
+\begin{description}
+\item[(1)]どんな$n$に対しても$A_n$と$A_{n+1}$は交わることを証明せよ．
+\item[(2)]線分$A_n \cap A_{n+1}$の長さを$d_n$とするとき，
+$\displaystyle\sum_{n=1}^\infty d_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1981/1981_4.pdf)

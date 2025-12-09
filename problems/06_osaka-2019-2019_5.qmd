@@ -1,0 +1,32 @@
+---
+title: "大阪大学 2019年 2019_5"
+problem_id: "06_osaka-2019-2019_5"
+university: "大阪大学"
+exam_year: "2019"
+source_tex: "archive/06_osaka/2019/2019_5.tex"
+pdf_source: "archive/06_osaka/2019/2019_5.pdf"
+page_image: "archive/06_osaka/2019/2019_5.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　座標空間内の2つの球面
+\[ S_1:{(x-1)}^2+{(y-1)}^2+{(z-1)}^2=7 \]
+と
+\[ S_2:{(x-2)}^2+{(y-3)}^2+{(z-3)}^2=1 \]
+を考える．$S_1$と$S_2$の共通部分を$C$とする．このとき以下の問いに答えよ．
+\begin{description}
+\item[(1)]$S_1$との共通部分が$C$となるような球面のうち，
+半径が最小となる球面の方程式を求めよ．
+\item[(2)]$S_1$との共通部分が$C$となるような球面のうち，
+半径が$\sqrt3$となる球面の方程式を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2019/2019_5.pdf)

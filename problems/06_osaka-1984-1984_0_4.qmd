@@ -1,0 +1,37 @@
+---
+title: "大阪大学 1984年 1984_0_4"
+problem_id: "06_osaka-1984-1984_0_4"
+university: "大阪大学"
+exam_year: "1984"
+source_tex: "archive/06_osaka/1984/1984_0_4.tex"
+pdf_source: "archive/06_osaka/1984/1984_0_4.pdf"
+page_image: "archive/06_osaka/1984/1984_0_4.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$r>0$，$0\leqq\theta<2\pi$として，行列
+\[ A=\begin{pmatrix} r\cos\theta & -r\sin\theta 
+
+ r\sin\theta & r\cos\theta \end{pmatrix} \]
+を考える．
+$A^6=I$であって，$1\leqq n<6$に対しては$A^n \neq I$であるとき，次の問に答えよ．
+ただし$I$は単位行列$\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}$を表す．
+\begin{description}
+\item[(1)]$r$および$\theta$を求めよ．
+\item[(2)]原点を通らない1つの直線を$l$とし，
+行列$A^n$で表される1次変換によって$l$をうつした直線を$l_n$とする．
+6本の直線$l, \, l_1, \, \cdots\cdots, \, l_5$の交点の個数を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1984/1984_0_4.pdf)

@@ -1,0 +1,24 @@
+---
+title: "京都大学 2000年 2000_0_5"
+problem_id: "02_kyoto-2000-2000_0_5"
+university: "京都大学"
+exam_year: "2000"
+source_tex: "archive/02_kyoto/2000/2000_0_5.tex"
+pdf_source: "archive/02_kyoto/2000/2000_0_5.pdf"
+page_image: "archive/02_kyoto/2000/2000_0_5.jpg"
+fields:
+  - 積分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$a$を実数とする．
+$x$の2次方程式$\displaystyle x^2-ax=2\int_0^1|t^2-at|dt$は$0 \leqq x \leqq 1$の範囲にいくつの解をもつか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_0_5.pdf)

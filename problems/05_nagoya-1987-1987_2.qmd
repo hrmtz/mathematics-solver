@@ -1,0 +1,31 @@
+---
+title: "名古屋大学 1987年 1987_2"
+problem_id: "05_nagoya-1987-1987_2"
+university: "名古屋大学"
+exam_year: "1987"
+source_tex: "archive/05_nagoya/1987/1987_2.tex"
+pdf_source: "archive/05_nagoya/1987/1987_2.pdf"
+page_image: "archive/05_nagoya/1987/1987_2.jpg"
+fields:
+  - 積分法
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　原点$O$を中心とする半径1の円周の第1象限の部分を$C$とする．
+$C$上を動く点$P(\cos\theta, \, \sin\theta)$ $\displaystyle\left(0<\theta<\frac{\pi}{2}\right)$を考え，
+線分$OP$と$x$軸と曲線$C$とで囲まれたおうぎ形の面積を$S_1(\theta)$とし，
+点$P$を通り$C$に接する直線と$y$軸と曲線$C$とで囲まれた部分の面積を$S_2(\theta)$とする．
+$S_1(\theta)$と$S_2(\theta)$の小さいほうの値を$S(\theta)$とおく．
+$\theta=0$または$\displaystyle\frac{\pi}{2}$のときは
+$\displaystyle S(0)=S\left(\frac{\pi}{2}\right)=0$とする．
+このとき，積分$\displaystyle\int_0^\frac{\pi}{2}S(\theta)\sin\theta d\theta$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1987/1987_2.pdf)

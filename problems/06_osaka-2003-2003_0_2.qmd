@@ -1,0 +1,35 @@
+---
+title: "大阪大学 2003年 2003_0_2"
+problem_id: "06_osaka-2003-2003_0_2"
+university: "大阪大学"
+exam_year: "2003"
+source_tex: "archive/06_osaka/2003/2003_0_2.tex"
+pdf_source: "archive/06_osaka/2003/2003_0_2.pdf"
+page_image: "archive/06_osaka/2003/2003_0_2.jpg"
+fields:
+  - 整数
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　自然数$m$に対して，$m$の相異なる素因数をすべてかけあわせたものを$f(m)$で表すことにする．
+たとえば$f(72)=6$である．ただし$f(1)=1$とする．
+\begin{description}
+\item[(1)]$m$，$n$を自然数，$d$を$m$，$n$の最大公約数とするとき
+\[ f(d)f(mn)=f(m)f(n) \]
+となることを示せ．
+\item[(2)]2つの箱$A$，$B$のそれぞれに1番から10番までの番号札が1枚ずつ10枚入っている．
+箱$A$，$B$から1枚ずつ札を取り出す．
+箱$A$から取り出した札の番号を$m$，箱$B$から取り出した札の番号を$n$とするとき
+\[ f(mn)=f(m)f(n)\text{となる確率}p_1\text{と} \]
+\[ 2f(mn)=f(m)f(n)\text{となる確率}p_2 \]
+を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_0_2.pdf)

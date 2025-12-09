@@ -1,0 +1,24 @@
+---
+title: "東京大学 1989年 1989_4"
+problem_id: "01_tokyo-1989-1989_4"
+university: "東京大学"
+exam_year: "1989"
+source_tex: "archive/01_tokyo/1989/1989_4.tex"
+pdf_source: "archive/01_tokyo/1989/1989_4.pdf"
+page_image: "archive/01_tokyo/1989/1989_4.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$\displaystyle\frac{10^{210}}{10^{10}+3}$の整数部分のけた数と，
+1の位の数字を求めよ．
+ただし，$3^{21}=10460353203$を用いてよい．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1989/1989_4.pdf)

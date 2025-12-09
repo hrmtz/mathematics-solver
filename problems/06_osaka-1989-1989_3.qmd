@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1989年 1989_3"
+problem_id: "06_osaka-1989-1989_3"
+university: "大阪大学"
+exam_year: "1989"
+source_tex: "archive/06_osaka/1989/1989_3.tex"
+pdf_source: "archive/06_osaka/1989/1989_3.pdf"
+page_image: "archive/06_osaka/1989/1989_3.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　鋭角三角形$ABC$が与えられている．
+点$A$を1つの頂点とする長方形$ADEF$が，次の条件(i)，(ii)を満たしながら変化するものとする．
+\begin{description}
+\item[(i)]辺$DE$上に点$B$がある．
+\item[(ii)]辺$EF$上に点$C$がある．
+\end{description}
+　このとき，長方形$ADEF$の面積の最大値を$\theta$，$b$，$c$を用いて表せ．
+ただし$\theta=\angle BAC$，$b=CA$，$c=AB$である．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1989/1989_3.pdf)

@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1973年 1973_0_4"
+problem_id: "03_hokudai-1973-1973_0_4"
+university: "北海道大学"
+exam_year: "1973"
+source_tex: "archive/03_hokudai/1973/1973_0_4.tex"
+pdf_source: "archive/03_hokudai/1973/1973_0_4.pdf"
+page_image: "archive/03_hokudai/1973/1973_0_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+\begin{description}
+\item[(1)]点$(k, \, 0)$ $(|k|<3)$を通り，
+$x$軸に垂直なだ円$\displaystyle\frac{x^2}{9}+\frac{y^2}{4}=1$の弦がある．
+この弦を直径とする円の方程式を求めよ．
+\item[(2)]1点$P(a, \, b)$が与えられたとき，
+(1)で求めた円のうちで点$P$を通るものが存在するための必要十分な条件を求め，
+さらに点$P$の存在する領域を図示せよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1973/1973_0_4.pdf)

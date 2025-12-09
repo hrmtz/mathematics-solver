@@ -1,0 +1,214 @@
+## 解答
+
+直方体 $OABC-DEFG$ の各点の座標は
+$$
+O(0,0,0),\ A(1,0,0),\ B(1,2,0),\ C(0,2,0),\\
+D(0,0,3),\ E(1,0,3),\ F(1,2,3),\ G(0,2,3)
+$$
+である．
+
+辺 $AE$ 上の点 $P$，辺 $CG$ 上の点 $Q$ を，それぞれ媒介変数を用いて
+$$
+P(1,0,t),\quad Q(0,2,s)
+$$
+とおく．ただし $AE,\ CG$ はともに $z$ 軸方向に長さ $3$ の線分であるから，$0 \le t \le 3,\ 0 \le s \le 3$ が必要である．
+
+O，F，P，Q の 4 点が同一平面上にあるという条件は，ベクトルの一次独立性を用いて
+$$
+\overrightarrow{OP},\ \overrightarrow{OF},\ \overrightarrow{OQ}
+$$
+の 3 本が同一平面内にある（すなわち一次従属である）ことに等しい．
+
+各ベクトルは
+$$
+\overrightarrow{OP}=(1,0,t),\quad
+\overrightarrow{OF}=(1,2,3),\quad
+\overrightarrow{OQ}=(0,2,s)
+$$
+である．3 本が一次従属であることは，この 3 つを並べた行列の行列式が $0$ になることと同値である．すなわち
+$$
+\det
+\begin{pmatrix}
+1 & 0 & t \\
+1 & 2 & 3 \\
+0 & 2 & s
+\end{pmatrix}
+=0
+$$
+を満たす必要がある．計算すると
+\[
+\begin{aligned}
+\det
+\begin{pmatrix}
+1 & 0 & t \\
+1 & 2 & 3 \\
+0 & 2 & s
+\end{pmatrix}
+&=1\cdot\det\begin{pmatrix}2 & 3 \\ 2 & s\end{pmatrix}
+-0\cdot\det\begin{pmatrix}1 & 3 \\ 0 & s\end{pmatrix}
++t\cdot\det\begin{pmatrix}1 & 2 \\ 0 & 2\end{pmatrix} \\
+&=1(2s-6)+t(2) \\
+&=2s-6+2t .
+\end{aligned}
+\]
+したがって
+$$
+2s-6+2t=0
+$$
+すなわち
+$$
+s+t=3
+$$
+が同一平面条件である．
+
+以上より，$t,s$ は
+$$
+0\le t\le 3,\quad 0\le s\le 3,\quad s+t=3
+$$
+を満たす．よって $s=3-t$ とおけるので，
+$$
+P(1,0,t),\quad Q(0,2,3-t)\quad (0\le t\le 3)
+$$
+と表せる．
+
+---
+
+次に四角形 $OPFQ$ の面積 $S$ を $t$ の関数として求める．$OPFQ$ は 4 点が同一平面内にある凸四角形なので，対角線 $OF$ によって 2 つの三角形 $OPF,\ OQF$ に分割できる．よって
+$$
+S = [\triangle OPF] + [\triangle OQF]
+$$
+である．ここで，原点 $O$ を共有する三角形の面積は，外積の大きさを用いて
+$$
+[\triangle OPF]=\frac12\left|\overrightarrow{OP}\times\overrightarrow{OF}\right|,\quad
+[\triangle OQF]=\frac12\left|\overrightarrow{OQ}\times\overrightarrow{OF}\right|
+$$
+と書ける．
+
+まず
+$$
+\overrightarrow{OP}=(1,0,t),\quad \overrightarrow{OF}=(1,2,3)
+$$
+より，外積を計算すると
+\[
+\begin{aligned}
+\overrightarrow{OP}\times\overrightarrow{OF}
+&=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k} \\
+1 & 0 & t \\
+1 & 2 & 3
+\end{vmatrix} \\
+&=\boldsymbol{i}(0\cdot 3 - t\cdot 2)
+-\boldsymbol{j}(1\cdot 3 - t\cdot 1)
++\boldsymbol{k}(1\cdot 2 - 0\cdot 1) \\
+&=(-2t,\ -3+t,\ 2) .
+\end{aligned}
+\]
+この大きさの 2 乗は
+\[
+\begin{aligned}
+\left|\overrightarrow{OP}\times\overrightarrow{OF}\right|^2
+&=(-2t)^2+(-3+t)^2+2^2 \\
+&=4t^2+(t-3)^2+4 \\
+&=4t^2+t^2-6t+9+4 \\
+&=5t^2-6t+13 .
+\end{aligned}
+\]
+
+同様に
+$$
+\overrightarrow{OQ}=(0,2,3-t),\quad \overrightarrow{OF}=(1,2,3)
+$$
+について
+\[
+\begin{aligned}
+\overrightarrow{OQ}\times\overrightarrow{OF}
+&=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k} \\
+0 & 2 & 3-t \\
+1 & 2 & 3
+\end{vmatrix} \\
+&=\boldsymbol{i}(2\cdot 3-(3-t)\cdot 2)
+-\boldsymbol{j}(0\cdot 3-(3-t)\cdot 1)
++\boldsymbol{k}(0\cdot 2-2\cdot 1) \\
+&=(2t,\ 3-t,\ -2) .
+\end{aligned}
+\]
+この大きさの 2 乗は
+\[
+\begin{aligned}
+\left|\overrightarrow{OQ}\times\overrightarrow{OF}\right|^2
+&=(2t)^2+(3-t)^2+(-2)^2 \\
+&=4t^2+(t-3)^2+4 \\
+&=4t^2+t^2-6t+9+4 \\
+&=5t^2-6t+13 .
+\end{aligned}
+\]
+
+したがって
+$$
+\left|\overrightarrow{OP}\times\overrightarrow{OF}\right|
+=\left|\overrightarrow{OQ}\times\overrightarrow{OF}\right|
+=\sqrt{5t^2-6t+13}
+$$
+となり，三角形の面積は
+\[
+\begin{aligned}
+[\triangle OPF]&=\frac12\sqrt{5t^2-6t+13},\\
+[\triangle OQF]&=\frac12\sqrt{5t^2-6t+13}
+\end{aligned}
+\]
+であるから，
+\[
+\begin{aligned}
+S
+&=[\triangle OPF]+[\triangle OQF] \\
+&=\frac12\sqrt{5t^2-6t+13}+\frac12\sqrt{5t^2-6t+13} \\
+&=\sqrt{5t^2-6t+13}.
+\end{aligned}
+\]
+
+よって $S$ を最小にするには，2 次関数
+$$
+f(t)=5t^2-6t+13
+$$
+を最小にすればよい．これは上に凸の放物線であり，頂点の $t$ 座標は
+$$
+t=\frac{6}{2\cdot 5}=\frac{3}{5}
+$$
+である．この $t=\dfrac35$ は $0\le t\le 3$ を満たすので，許容範囲内である．
+
+$t=\dfrac35$ のとき
+\[
+\begin{aligned}
+f\left(\frac35\right)
+&=5\left(\frac{9}{25}\right)-6\left(\frac35\right)+13 \\
+&=\frac{9}{5}-\frac{18}{5}+13 \\
+&=-\frac{9}{5}+13 \\
+&=\frac{-9+65}{5}=\frac{56}{5}.
+\end{aligned}
+\]
+したがって
+$$
+S_{\min}=\sqrt{f\left(\frac35\right)}=\sqrt{\frac{56}{5}}
+=\frac{\sqrt{56}}{\sqrt{5}}=\frac{2\sqrt{14}}{\sqrt{5}}
+=\frac{2\sqrt{70}}{5}.
+$$
+
+このとき
+$$
+t=\frac35,\quad s=3-t=3-\frac35=\frac{12}{5}
+$$
+であるから，$P,Q$ の座標は
+\[
+\begin{aligned}
+P\left(1,\,0,\,\frac35\right),\quad
+Q\left(0,\,2,\,\frac{12}{5}\right)
+\end{aligned}
+\]
+であり，このとき四角形 $OPFQ$ の面積は
+$$
+S_{\min}=\frac{2\sqrt{70}}{5}
+$$
+である．

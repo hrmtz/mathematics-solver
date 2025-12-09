@@ -1,0 +1,29 @@
+---
+title: "大阪大学 1963年 1963_1"
+problem_id: "06_osaka-1963-1963_1"
+university: "大阪大学"
+exam_year: "1963"
+source_tex: "archive/06_osaka/1963/1963_1.tex"
+pdf_source: "archive/06_osaka/1963/1963_1.pdf"
+page_image: "archive/06_osaka/1963/1963_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　円$O$外の1点$P$から，この円に2つの接線を引き，その接点を$A$，$B$とする。
+線分$PA$の中点$M$と$B$とを結ぶ線分$MB$が円$O$と交わる点を$C$とし，
+直線$PC$が円$O$と再び交わる点を$D$とする。
+\begin{description}
+\item[(1)]$\angle APD=\angle PDB$であることを証明せよ。
+\item[(2)]円$O$の半径を1，$\angle APB={45}^\circ$とするとき，
+線分$BD$の長さを求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1963/1963_1.pdf)

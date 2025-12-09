@@ -1,0 +1,28 @@
+---
+title: "北海道大学 2012年 2012_c"
+problem_id: "03_hokudai-2012-2012_c"
+university: "北海道大学"
+exam_year: "2012"
+source_tex: "archive/03_hokudai/2012/2012_c.tex"
+pdf_source: "archive/03_hokudai/2012/2012_c.pdf"
+page_image: "archive/03_hokudai/2012/2012_c.jpg"
+fields:
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　実数$a>0$について，$\displaystyle I(a)=\int_1^e|\log ax|dx$とする。
+ただし，$e=2.7182\cdots$は自然対数の底とする。
+\begin{description}
+\item[(1)]$I(a)$を$a$を用いて表せ。
+\item[(2)]$I(a)$の最小値，およびそのときの$a$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2012/2012_c.pdf)

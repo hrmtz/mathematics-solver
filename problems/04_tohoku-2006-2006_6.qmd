@@ -1,0 +1,31 @@
+---
+title: "東北大学 2006年 2006_6"
+problem_id: "04_tohoku-2006-2006_6"
+university: "東北大学"
+exam_year: "2006"
+source_tex: "archive/04_tohoku/2006/2006_6.tex"
+pdf_source: "archive/04_tohoku/2006/2006_6.pdf"
+page_image: "archive/04_tohoku/2006/2006_6.jpg"
+fields:
+  - 不等式
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　連立不等式$1 \leqq x \leqq 2$，$y\leqq0$が表す$xy$平面内の領域を$D$とする．
+また，$a$を定数とし，不等式$y \geqq x^2-3ax+2a^2$が表す$xy$平面内の領域を$E$とする．
+以下の問に答えよ．
+\begin{description}
+\item[(1)]$D$と$E$とが共通点をもつような実数$a$の範囲を求めよ．
+\item[(2)](1)の範囲の$a$に対して，$D$と$E$との共通部分の面積$S(a)$を求めよ．
+\item[(3)](2)で求めた$S(a)$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2006/2006_6.pdf)

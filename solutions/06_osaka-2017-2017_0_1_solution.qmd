@@ -1,0 +1,152 @@
+## 解答
+
+放物線 $P:y=-x^2+bx+c$ の頂点の $y$ 座標が $q$ である，という条件を用いる。
+
+一般に $y=ax^2+bx+c$ の頂点の $y$ 座標は，平方完成して求めると
+$$
+-\frac{b^2-4ac}{4a}
+$$
+である。ここで $a=-1$ を代入すると，放物線 $P$ の頂点の $y$ 座標は
+
+$$
+-\frac{b^2-4(-1)c}{4(-1)}
+= -\frac{b^2+4c}{-4}
+= \frac{b^2+4c}{4}
+$$
+
+となる。これが $q$ に等しいから，
+$$
+\frac{b^2+4c}{4}=q
+$$
+すなわち
+$$
+b^2+4c=4q
+$$
+が成り立つ。
+
+次に，放物線 $P$ と $x$ 軸で囲まれた部分の面積 $S$ を求める。
+
+放物線 $P$ と $x$ 軸との交点を $x=\alpha,\ x=\beta\ (\alpha<\beta)$ とすると，
+$$
+-y=x^2-bx-c=0
+$$
+より
+$$
+x^2-bx-c=0
+$$
+の2つの実数解が $\alpha,\beta$ である。よって，
+2次方程式の解と係数の関係から
+$$
+\alpha+\beta=b,\quad \alpha\beta=-c
+$$
+が成り立つ。
+
+放物線 $P$ と $x$ 軸で囲まれた部分の面積 $S$ は，$y=-x^2+bx+c$ を
+$x=\alpha$ から $x=\beta$ まで積分して求められる：
+
+$$
+S=\int_{\alpha}^{\beta}(-x^2+bx+c)\,dx.
+$$
+
+これを計算する。
+まず不定積分を求めると，
+$$
+\int(-x^2+bx+c)\,dx=-\frac{x^3}{3}+\frac{b}{2}x^2+cx + C
+$$
+なので，
+$$
+S
+= \left[-\frac{x^3}{3}+\frac{b}{2}x^2+cx\right]_{x=\alpha}^{x=\beta}
+= \left(-\frac{\beta^3}{3}+\frac{b}{2}\beta^2+c\beta\right)
+ -\left(-\frac{\alpha^3}{3}+\frac{b}{2}\alpha^2+c\alpha\right).
+$$
+
+まとめて
+$$
+S
+= -\frac{\beta^3-\alpha^3}{3}
+ +\frac{b}{2}(\beta^2-\alpha^2)
+ +c(\beta-\alpha)
+$$
+となる。ここで
+$$
+\beta^3-\alpha^3=(\beta-\alpha)(\beta^2+\alpha\beta+\alpha^2),\quad
+\beta^2-\alpha^2=(\beta-\alpha)(\beta+\alpha)
+$$
+を用いると，
+$$
+S
+= (\beta-\alpha)\left\{
+ -\frac{\beta^2+\alpha\beta+\alpha^2}{3}
+ +\frac{b}{2}(\beta+\alpha)
+ +c\right\}
+$$
+と因数分解できる。さらに，$\alpha+\beta=b,\ \alpha\beta=-c$ を代入して
+括弧内を整理する。
+
+まず $\beta^2+\alpha^2$ は
+$$
+\beta^2+\alpha^2=(\alpha+\beta)^2-2\alpha\beta
+=b^2-2(-c)=b^2+2c
+$$
+なので，
+$$
+\beta^2+\alpha\beta+\alpha^2
+=(\beta^2+\alpha^2)+\alpha\beta
+=(b^2+2c)+(-c)
+=b^2+c
+$$
+である。また $\beta+\alpha=b$ なので，
+$$
+ -\frac{\beta^2+\alpha\beta+\alpha^2}{3}
+ +\frac{b}{2}(\beta+\alpha)
+ +c
+= -\frac{b^2+c}{3}+\frac{b^2}{2}+c.
+$$
+
+この右辺を通分して整理する：
+$$
+-\frac{b^2+c}{3}+\frac{b^2}{2}+c
+= -\frac{2(b^2+c)}{6}+\frac{3b^2}{6}+\frac{6c}{6}
+= \frac{-2b^2-2c+3b^2+6c}{6}
+= \frac{b^2+4c}{6}.
+$$
+
+したがって
+$$
+S=(\beta-\alpha)\cdot\frac{b^2+4c}{6}
+$$
+となる。
+
+ここで，$b^2+4c=4q$ であったから，
+$$
+S=(\beta-\alpha)\cdot\frac{4q}{6}
+=\frac{2}{3}q(\beta-\alpha)
+$$
+が得られる。
+
+さらに，$\beta-\alpha$ を $q$ で表す。$x^2-bx-c=0$ の判別式 $D$ は
+$$
+D=b^2-4\cdot1\cdot(-c)=b^2+4c
+$$
+である。また2つの解の差は
+$$
+\beta-\alpha=\sqrt{D}=\sqrt{b^2+4c}
+$$
+だから，
+$$
+\beta-\alpha=\sqrt{b^2+4c}=\sqrt{4q}=2\sqrt{q}
+$$
+となる。よって
+$$
+S=\frac{2}{3}q(\beta-\alpha)
+=\frac{2}{3}q\cdot 2\sqrt{q}
+=\frac{4}{3}q\sqrt{q}
+$$
+である。
+
+したがって，求める面積 $S$ は
+$$
+S=\frac{4}{3}q\sqrt{q}
+$$
+である。

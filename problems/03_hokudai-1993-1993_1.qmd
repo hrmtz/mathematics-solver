@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1993年 1993_1"
+problem_id: "03_hokudai-1993-1993_1"
+university: "北海道大学"
+exam_year: "1993"
+source_tex: "archive/03_hokudai/1993/1993_1.tex"
+pdf_source: "archive/03_hokudai/1993/1993_1.pdf"
+page_image: "archive/03_hokudai/1993/1993_1.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a<0$，$c>0$として，2次関数$f(x)=ax^2+bx+c$について，次の問に答えよ．
+\begin{description}
+\item[(1)]$f(x+1)+f(x-1)-2f(x)$を計算せよ．
+\item[(2)]ある数$p$について，集合$\{ f(p-1), \, f(p), \, f(p+1) \}$が
+集合$\{ p-2, \, p, \, p+2 \}$と一致しているとき，
+$f(p)=p+2$を示し，このときの$a$の値を求めよ．
+\item[(3)]$p$が整数で(2)の条件を満たし，
+さらに$f(p+1)=p$，$f(p-1)=p-2$となっているとき，
+$b$，$c$および$p$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1993/1993_1.pdf)

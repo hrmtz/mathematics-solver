@@ -1,0 +1,25 @@
+---
+title: "大阪大学 2014年 2014_0_3"
+problem_id: "06_osaka-2014-2014_0_3"
+university: "大阪大学"
+exam_year: "2014"
+source_tex: "archive/06_osaka/2014/2014_0_3.tex"
+pdf_source: "archive/06_osaka/2014/2014_0_3.pdf"
+page_image: "archive/06_osaka/2014/2014_0_3.jpg"
+fields:
+  - 代数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数$f(x)=px^3+qx^2+rx+s$は，$x=0$のとき極大値$M$をとり，$x=\alpha$のとき極小値$m$をとるという．
+ただし$\alpha\neq0$とする．
+このとき，$p, \, q, \, r, \, s$を$\alpha, \, M, \, m$で表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2014/2014_0_3.pdf)

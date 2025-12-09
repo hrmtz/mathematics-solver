@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 1974年 1974_2"
+problem_id: "08_titech-1974-1974_2"
+university: "東京科学大学"
+exam_year: "1974"
+source_tex: "archive/08_titech/1974/1974_2.tex"
+pdf_source: "archive/08_titech/1974/1974_2.pdf"
+page_image: "archive/08_titech/1974/1974_2.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$x^2$の係数が1である実係数の3次式$f(x)$について，
+$\alpha$が方程式$f(x)=0$の根ならば，$\alpha^2$も根であるという．
+このとき，次の問に答えよ．
+\begin{description}
+\item[(1)]方程式$f(x)=0$の根の絶対値は0または1であることを証明せよ．
+\item[(2)]この方程式が異なる3つの根をもつとき，$f(x)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1974/1974_2.pdf)

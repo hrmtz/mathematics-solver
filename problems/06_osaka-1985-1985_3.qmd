@@ -1,0 +1,31 @@
+---
+title: "大阪大学 1985年 1985_3"
+problem_id: "06_osaka-1985-1985_3"
+university: "大阪大学"
+exam_year: "1985"
+source_tex: "archive/06_osaka/1985/1985_3.tex"
+pdf_source: "archive/06_osaka/1985/1985_3.pdf"
+page_image: "archive/06_osaka/1985/1985_3.jpg"
+fields:
+  - 三角関数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$を実数とするとき，関数
+\[ f(x)=a\tan\left(\frac{\pi}{4}x\right)-x-a+1 \]
+について，次の問に答えよ．
+\begin{description}
+\item[(1)]$f(x)$が$0<x<1$において極値をもつような$a$の範囲を求め，
+このとき極値は$0 \leqq x \leqq 1$における$f(x)$の最小値であることを示せ．
+\item[(2)]方程式$f(x)=0$が$0<x<1$において解をもつような$a$の範囲を求め，
+このときの解はただ1つに限ることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1985/1985_3.pdf)

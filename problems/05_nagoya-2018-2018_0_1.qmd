@@ -1,0 +1,34 @@
+---
+title: "名古屋大学 2018年 2018_0_1"
+problem_id: "05_nagoya-2018-2018_0_1"
+university: "名古屋大学"
+exam_year: "2018"
+source_tex: "archive/05_nagoya/2018/2018_0_1.tex"
+pdf_source: "archive/05_nagoya/2018/2018_0_1.pdf"
+page_image: "archive/05_nagoya/2018/2018_0_1.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$，$b$を実数とし，少なくとも一方は0でないとする。
+このとき，次の問に答えよ。
+\begin{description}
+\item[(1)]連立不等式
+\[ 3x+2y+4\geqq0, \hspace{1zw} x-2y+4\geqq0, \hspace{1zw} ax+by\geqq0 \]
+の表す領域，または連立不等式
+\[ 3x+2y+4\geqq0, \hspace{1zw} x-2y+4\geqq0, \hspace{1zw} ax+by\leqq0 \]
+の表す領域が三角形であるために$a$，$b$がみたすべき条件を求めよ。
+さらに，その条件をみたす点$(a, \, b)$の範囲を座標平面上に図示せよ。
+\item[(2)](1)の三角形の面積を$S$とするとき，$S$を$a$，$b$を用いて表せ。
+\item[(3)]$S\geqq4$を示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2018/2018_0_1.pdf)

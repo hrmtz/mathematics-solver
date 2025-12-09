@@ -1,0 +1,27 @@
+---
+title: "京都大学 1991年 1991_0_c"
+problem_id: "02_kyoto-1991-1991_0_c"
+university: "京都大学"
+exam_year: "1991"
+source_tex: "archive/02_kyoto/1991/1991_0_c.tex"
+pdf_source: "archive/02_kyoto/1991/1991_0_c.pdf"
+page_image: "archive/02_kyoto/1991/1991_0_c.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$C$を3次曲線$y=x^3+3x^2$とする．$C$上の点$P(p,q)$に対し
+\begin{description}
+\item[]「$C$上の点$Q$が存在して，$C$の$P$における接線は$C$の$Q$における接線と直交する」
+\end{description}
+となるような$p$の範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_0_c.pdf)

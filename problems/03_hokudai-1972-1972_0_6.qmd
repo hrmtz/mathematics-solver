@@ -1,0 +1,32 @@
+---
+title: "北海道大学 1972年 1972_0_6"
+problem_id: "03_hokudai-1972-1972_0_6"
+university: "北海道大学"
+exam_year: "1972"
+source_tex: "archive/03_hokudai/1972/1972_0_6.tex"
+pdf_source: "archive/03_hokudai/1972/1972_0_6.pdf"
+page_image: "archive/03_hokudai/1972/1972_0_6.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　放物線$y=x^2$上に2定点$A$，$B$がある．
+$P$は放物線上で$A$と$B$との間にある点で，
+放物線と弦$AP$とで囲まれる図形の面積$S_1$と，
+放物線と弦$PB$とで囲まれる図形の面積$S_2$との和が
+最小になるようにとった点である．
+\begin{description}
+\item[(1)]$S_1$と$S_2$の比を求めよ．
+\item[(2)]点$P$での放物線の接線に垂直な直線と，
+$A$，$B$を通る直線とのなす角を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1972/1972_0_6.pdf)

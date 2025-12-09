@@ -1,0 +1,37 @@
+---
+title: "九州大学 1997年 1997_0_4a"
+problem_id: "07_kyushu-1997-1997_0_4a"
+university: "九州大学"
+exam_year: "1997"
+source_tex: "archive/07_kyushu/1997/1997_0_4a.tex"
+pdf_source: "archive/07_kyushu/1997/1997_0_4a.pdf"
+page_image: "archive/07_kyushu/1997/1997_0_4a.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　$\triangle OAB$において，
+点$G$を$\overrightarrow{OG}=k(\overrightarrow{OA}+\overrightarrow{OB})$である点とする．
+　また，2点$P$，$Q$を
+\[ \overrightarrow{OP}=p\overrightarrow{OA}, \hspace{1zw}
+\overrightarrow{OQ}=q\overrightarrow{OB} \hspace{1zw} (0<p<1, \, 0<q<1) \]
+である点とする．
+\begin{description}
+\item[(1)]点$G$が$\triangle OAB$の内部にあるとき，$k$の満たすべき条件を求めよ．
+ただし，$\triangle OAB$の内部とは，$\triangle OAB$で囲まれる部分からその周を除いた部分をさす．
+\item[(2)]$\triangle OAB$と$\triangle OPQ$の面積をそれぞれ$S$，$S'$とするとき，
+$\displaystyle\frac{S'}{S}$を$p$，$q$を用いて表せ．
+\item[(3)]3点$G$，$P$，$Q$が同一直線上にあるとき，$k$を$p$，$q$を用いて表せ．
+\item[(4)]$\displaystyle k=\frac{1}{4}$であって，3点$G$，$P$，$Q$が同一直線上にあるとき，
+$\displaystyle\frac{S'}{S}$の最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_0_4a.pdf)

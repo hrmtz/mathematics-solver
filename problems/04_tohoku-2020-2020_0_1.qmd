@@ -1,0 +1,32 @@
+---
+title: "東北大学 2020年 2020_0_1"
+problem_id: "04_tohoku-2020-2020_0_1"
+university: "東北大学"
+exam_year: "2020"
+source_tex: "archive/04_tohoku/2020/2020_0_1.tex"
+pdf_source: "archive/04_tohoku/2020/2020_0_1.pdf"
+page_image: "archive/04_tohoku/2020/2020_0_1.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$を$-2 \leqq a \leqq 3$を満たす実数とする。次の性質をもつ関数$f(x)$を考える。
+\[ f(x)=\begin{cases} 0 & (x<-2\text{のとき})
+(x-a)(x+2) & (-2 \leqq x \leqq a \text{のとき})
+2(x-a)(x-3) & (a \leqq x \leqq 3 \text{のとき})
+0 & (x>3\text{のとき}) \end{cases} \]
+曲線$y=f(x)$と$x$軸で囲まれる図形の面積を$S(a)$とおく。
+\begin{description}
+\item[(1)]$S(a)$を求めよ。
+\item[(2)]$S(a)$が最大となる$a$の値を求めよ。また，$S(a)$が最小となる$a$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_0_1.pdf)

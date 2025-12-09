@@ -1,0 +1,29 @@
+---
+title: "東京大学 1965年 1965_4"
+problem_id: "01_tokyo-1965-1965_4"
+university: "東京大学"
+exam_year: "1965"
+source_tex: "archive/01_tokyo/1965/1965_4.tex"
+pdf_source: "archive/01_tokyo/1965/1965_4.pdf"
+page_image: "archive/01_tokyo/1965/1965_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　右の図において$ABC$は長さ2の線分$AB$を直径とし，$O$を中心とする半円周，
+$P$は$AB$に垂直な半径$OC$上の動点とする．
+　$k$を正の定数とし，線分$PO$を$k:1$に内分する点$Q$を通って$AB$に平行な弦を$RS$とすれば，
+$P$をどこにとったとき四辺形$ROSP$の面積が最大になるか．
+
+
+
+![](../archive/01_tokyo/1965/fig_1965_4.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1965/1965_4.pdf)

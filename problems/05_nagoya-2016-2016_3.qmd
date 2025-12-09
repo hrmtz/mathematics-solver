@@ -1,0 +1,32 @@
+---
+title: "名古屋大学 2016年 2016_3"
+problem_id: "05_nagoya-2016-2016_3"
+university: "名古屋大学"
+exam_year: "2016"
+source_tex: "archive/05_nagoya/2016/2016_3.tex"
+pdf_source: "archive/05_nagoya/2016/2016_3.pdf"
+page_image: "archive/05_nagoya/2016/2016_3.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　玉が2個ずつ入った2つの袋A，Bがあるとき，
+袋Bから玉を1個取り出して袋Aに入れ，次に袋Aから玉を1個取り出して袋Bに入れる，
+という操作を1回の操作と数えることにする。
+Aに赤玉が2個，Bに白玉が2個入った状態から始め，
+この操作を$n$回繰り返した後に
+袋Bに入っている赤玉の個数が$k$個である確率を$P_n(k)$ $(n=1, \, 2, \, 3, \, \cdots)$とする。
+このとき，次の問に答えよ。
+\begin{description}
+\item[(1)]$k=0, \, 1, \, 2$に対する$P_1(k)$を求めよ。
+\item[(2)]$k=0, \, 1, \, 2$に対する$P_n(k)$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2016/2016_3.pdf)

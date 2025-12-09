@@ -1,0 +1,36 @@
+---
+title: "東北大学 1991年 1991_6"
+problem_id: "04_tohoku-1991-1991_6"
+university: "東北大学"
+exam_year: "1991"
+source_tex: "archive/04_tohoku/1991/1991_6.tex"
+pdf_source: "archive/04_tohoku/1991/1991_6.pdf"
+page_image: "archive/04_tohoku/1991/1991_6.jpg"
+fields:
+  - ベクトル
+  - 行列
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$a$を実数とし，点$(1, \, -1)$を点$(\sqrt2, \, -\sqrt2)$に，
+点$(1, \, 1)$を点$(2a-\sqrt2, \, 2\sqrt2-2a)$に移す1次変換を$f$とする．
+さらに，直線$l:x+y=1$上の点$P_n$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$を次のように帰納的に定める．
+\begin{description}
+\item[(i)]点$\displaystyle\left( \frac{1}{2}, \, \frac{1}{2} \right)$を$P_1$とする．
+\item[(ii)]$P_n$を$f$で移した点を${P_n}'$とし，
+原点$O$と${P_n}'$を通る直線が$l$と交わる点を$P_{n+1}$とする．
+\end{description}
+　このとき
+\begin{description}
+\item[(1)]$|\overrightarrow{P_nP_{n+1}}|$を$a$と$n$で表せ．
+\item[(2)]$\displaystyle|\overrightarrow{P_1P_8}|=\frac{635}{\sqrt2}$となるような$a$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_6.pdf)

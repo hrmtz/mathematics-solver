@@ -1,0 +1,37 @@
+---
+title: "東北大学 1988年 1988_2"
+problem_id: "04_tohoku-1988-1988_2"
+university: "東北大学"
+exam_year: "1988"
+source_tex: "archive/04_tohoku/1988/1988_2.tex"
+pdf_source: "archive/04_tohoku/1988/1988_2.pdf"
+page_image: "archive/04_tohoku/1988/1988_2.jpg"
+fields:
+  - 三角関数
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　点$O$を中心とする半径1の円を
+中心角$4\theta$ $\displaystyle\left(0<\theta<\frac{\pi}{4}\right)$で切ったおうぎ形に，
+右の図のように内接する長方形$ABCD$を考える．
+ 
+
+![](../archive/04_tohoku/1988/fig_1988_2.jpg)
+
+
+\begin{description}
+\item[(1)]$\angle AOB=2x$として，$ABCD$の面積$S_\theta(x)$を求めよ．
+\item[(2)]$S_\theta(x)$を最大にする$x$の値と，最大値$M(\theta)$を求めよ．
+\item[(3)]$\theta$が$\displaystyle0<\theta<\frac{\pi}{4}$の範囲で変化するとき，
+関数$M(\theta)$のグラフをかけ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1988/1988_2.pdf)

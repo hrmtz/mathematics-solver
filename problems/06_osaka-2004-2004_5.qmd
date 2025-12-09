@@ -1,0 +1,37 @@
+---
+title: "大阪大学 2004年 2004_5"
+problem_id: "06_osaka-2004-2004_5"
+university: "大阪大学"
+exam_year: "2004"
+source_tex: "archive/06_osaka/2004/2004_5.tex"
+pdf_source: "archive/06_osaka/2004/2004_5.pdf"
+page_image: "archive/06_osaka/2004/2004_5.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　座標平面上に直線$l:x\sin\theta+y\cos\theta=1$
+$\displaystyle \left( 0<\theta<\frac{\pi}{2} \right)$がある．
+不等式$x\geqq0, \, y\geqq0, \, x\sin\theta+y\cos\theta\geqq1$が表す領域を$D$，
+不等式$x\geqq0, \, y\geqq0, \, x\sin\theta+y\cos\theta\leqq1$が表す領域を$D'$とする．
+　$D$内に半径$R$の2つの円$C_1$，$C_2$を，
+$C_1$は$l$と$y$軸に接し，$C_2$は$l$と$x$軸に接し，
+さらに$C_1$と$C_2$が外接するようにとる．
+また$D'$内に半径$r$の2つの円${C_1}'$，${C_2}'$を，
+${C_1}'$は$l$と$y$軸に接し，${C_2}'$は$l$と$x$軸に接し，
+さらに${C_1}'$と${C_2}'$が外接するようにとる．
+\begin{description}
+\item[(1)]$\displaystyle\frac{r}{R}$を$\theta$で表せ．
+\item[(2)]$\theta$が$\displaystyle0<\theta<\frac{\pi}{2}$の範囲を動くとき，
+$\displaystyle\frac{r}{R}$のとりうる値の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_5.pdf)

@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 2017年 2017_1"
+problem_id: "08_titech-2017-2017_1"
+university: "東京科学大学"
+exam_year: "2017"
+source_tex: "archive/08_titech/2017/2017_1.tex"
+pdf_source: "archive/08_titech/2017/2017_1.pdf"
+page_image: "archive/08_titech/2017/2017_1.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の条件(i)，(ii)をともに満たす正の整数$N$をすべて求めよ．
+\begin{description}
+\item[(i)]$N$の正の約数は12個．
+\item[(ii)]$N$の正の約数を小さい方から順に並べたとき，7番目の数は12．
+\end{description}
+ただし，$N$の約数には1と$N$も含める．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2017/2017_1.pdf)

@@ -1,0 +1,29 @@
+---
+title: "東北大学 2020年 2020_5"
+problem_id: "04_tohoku-2020-2020_5"
+university: "東北大学"
+exam_year: "2020"
+source_tex: "archive/04_tohoku/2020/2020_5.tex"
+pdf_source: "archive/04_tohoku/2020/2020_5.pdf"
+page_image: "archive/04_tohoku/2020/2020_5.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　実数$t$に対して複素数$\displaystyle z=\frac{-1}{t+i}$を考える。
+ただし，$i$は虚数単位とする。
+\begin{description}
+\item[(1)]$z$の実部と虚部をそれぞれ$t$を用いて表せ。
+\item[(2)]絶対値$\displaystyle\left| z-\frac{i}{2} \right|$を求めよ。
+\item[(3)]実数$t$が$-1 \leqq t \leqq 1$の範囲を動くとき，
+点$z$はどのような図形を描くか，複素数平面上に図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_5.pdf)

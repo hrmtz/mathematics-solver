@@ -1,0 +1,27 @@
+---
+title: "東北大学 1965年 1965_3"
+problem_id: "04_tohoku-1965-1965_3"
+university: "東北大学"
+exam_year: "1965"
+source_tex: "archive/04_tohoku/1965/1965_3.tex"
+pdf_source: "archive/04_tohoku/1965/1965_3.pdf"
+page_image: "archive/04_tohoku/1965/1965_3.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　円$x^2+y^2=1$の周上の点$P(\cos\alpha, \, \sin\alpha)$における接線が$x$軸，$y$軸と交わる2点を頂点とし
+原点を中心とする楕円の方程式を求めよ。
+次に，$\displaystyle 0<\alpha<\frac{\pi}{2}$の範囲のすべての$\alpha$に対して
+この楕円は定点を通ることを示せ。
+さらに，このような楕円のどれかの周上にあり得る点の範囲を図示せよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1965/1965_3.pdf)

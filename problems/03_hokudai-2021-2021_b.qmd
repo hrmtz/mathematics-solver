@@ -1,0 +1,34 @@
+---
+title: "北海道大学 2021年 2021_b"
+problem_id: "03_hokudai-2021-2021_b"
+university: "北海道大学"
+exam_year: "2021"
+source_tex: "archive/03_hokudai/2021/2021_b.tex"
+pdf_source: "archive/03_hokudai/2021/2021_b.pdf"
+page_image: "archive/03_hokudai/2021/2021_b.jpg"
+fields:
+  - ベクトル
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\theta$を$\displaystyle0<\theta<\frac{\pi}{2}$を満たす実数とし，
+平面上の点$P$と点$Q$を
+\[ P \left( \frac{1}{2} \{ 1-\cos\theta-\sqrt3(\tan\theta-\sin\theta) \} , \,
+\frac{1}{2} \{ \sqrt3(1-\cos\theta)+\tan\theta-\sin\theta \} \right) \]
+\[ Q \left( \frac{1}{2} \{ 1+\cos\theta-\sqrt3(\tan\theta+\sin\theta) \} , \,
+\frac{1}{2} \{ \sqrt3(1+\cos\theta)+\tan\theta+\sin\theta \} \right) \]
+で定める。$M$を線分$PQ$の中点とし，$O$を原点$(0, \, 0)$とする。
+\begin{description}
+\item[(1)]$\overrightarrow{PQ}$と$\overrightarrow{OM}$を求めよ。
+\item[(2)]3点$O$，$P$，$Q$は同一直線上にあることを示せ。
+\item[(3)]$|\overrightarrow{OP}|=|\overrightarrow{PM}|$となるような$\theta$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2021/2021_b.pdf)

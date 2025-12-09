@@ -1,0 +1,31 @@
+---
+title: "東京科学大学 ao年 2008_a"
+problem_id: "08_titech-ao-2008_a"
+university: "東京科学大学"
+exam_year: "ao"
+source_tex: "archive/08_titech/ao/2008_a.tex"
+pdf_source: "archive/08_titech/ao/2008_a.pdf"
+page_image: "archive/08_titech/ao/2008_a.jpg"
+fields:
+  - 空間図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$0<\alpha<\pi$とする．
+$xyz-$空間上の3点$A$，$B$，$C$は次の条件(i)，(ii)，(iii)をみたすように配置してあるとする．
+\begin{description}
+\item[(i)]$A$，$B$は原点を中心とする$xy-$平面上の半径1の円周上にある．
+\item[(ii)]$C$は$z-$軸の正の部分にある．
+\item[(iii)]$\angle ACB=\alpha$．
+\end{description}
+(i)，(ii)，(iii)を満たす$A$，$B$，$C$と原点$O$が作る4面体$OABC$のうち体積が最大のものの体積を$V(\alpha)$とする．
+このとき極限値$\displaystyle\lim_{\alpha\to0}\alpha V(\alpha)$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/ao/2008_a.pdf)

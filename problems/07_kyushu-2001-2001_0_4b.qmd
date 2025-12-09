@@ -1,0 +1,31 @@
+---
+title: "九州大学 2001年 2001_0_4b"
+problem_id: "07_kyushu-2001-2001_0_4b"
+university: "九州大学"
+exam_year: "2001"
+source_tex: "archive/07_kyushu/2001/2001_0_4b.tex"
+pdf_source: "archive/07_kyushu/2001/2001_0_4b.pdf"
+page_image: "archive/07_kyushu/2001/2001_0_4b.jpg"
+fields:
+  - 確率
+  - 統計
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　サイコロを$n$回振って，出た目を小さい方から順に並べ，
+第$i$番目を$X_i$ $(i=1,\cdots,n)$とする．
+\begin{description}
+\item[(1)]$n=7$のとき，3の目が3回，5の目が2回出たとする．
+このとき$X_4$のとりうる値をすべて求めよ．
+\item[(2)]一般の$n$に対して，$X_1=2$となる確率$P$ $(X_1=2)$を求めよ．
+\item[(3)]一般の$n$に対して，$X_1$の期待値$E(X_1)$を求めよ．
+\item[(4)]一般の$n$に対して，期待値$E(X_1+X_n)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_0_4b.pdf)

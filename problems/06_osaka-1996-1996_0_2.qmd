@@ -1,0 +1,33 @@
+---
+title: "大阪大学 1996年 1996_0_2"
+problem_id: "06_osaka-1996-1996_0_2"
+university: "大阪大学"
+exam_year: "1996"
+source_tex: "archive/06_osaka/1996/1996_0_2.tex"
+pdf_source: "archive/06_osaka/1996/1996_0_2.pdf"
+page_image: "archive/06_osaka/1996/1996_0_2.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\triangle OAB$の辺$OA$，$AB$，$BO$のおのおのを$t:1-t$の比に内分する点をそれぞれ$P$，$Q$，$R$とする．
+ここで$t$は$0<t<1$を満たす実数とする．次の問に答えよ．
+\begin{description}
+\item[(1)]$\overrightarrow{OA}=\overrightarrow{a}$，
+$\overrightarrow{OB}=\overrightarrow{b}$とするとき，
+$\overrightarrow{PQ}$，$\overrightarrow{PR}$を
+$t$，$\overrightarrow{a}$，$\overrightarrow{b}$を用いて表せ．
+\item[(2)]$\displaystyle\frac{|\overrightarrow{PQ}|}{|\overrightarrow{PR}|}=
+\frac{|\overrightarrow{b}|}{|\overrightarrow{a}|}$が$t$の値によらず成り立つのは
+$\triangle OAB$がどのような三角形のときか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1996/1996_0_2.pdf)

@@ -1,0 +1,33 @@
+---
+title: "北海道大学 1984年 1984_0_2"
+problem_id: "03_hokudai-1984-1984_0_2"
+university: "北海道大学"
+exam_year: "1984"
+source_tex: "archive/03_hokudai/1984/1984_0_2.tex"
+pdf_source: "archive/03_hokudai/1984/1984_0_2.pdf"
+page_image: "archive/03_hokudai/1984/1984_0_2.jpg"
+fields:
+  - 行列
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$f$を行列$\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$で表される1次変換とする．
+\begin{description}
+\item[(1)]変換$f$が第1象限，すなわち集合$\{(x, \, y)|x>0, \, y>0\}$，の任意の点を
+第1象限の点にうつすならば，
+$a\geqq0$，$b\geqq0$，$c\geqq0$，$d\geqq0$であることを示せ．
+\item[(2)]$ad-bc\neq0$であり，かつ変換$f$とその逆変換$f^{-1}$がともに第1象限の任意の点を第1象限の点にうつすための
+$a$，$b$，$c$，$d$に関する条件を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1984/1984_0_2.pdf)

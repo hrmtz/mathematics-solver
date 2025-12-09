@@ -1,0 +1,25 @@
+---
+title: "九州大学 2025年 2025_0_1"
+problem_id: "07_kyushu-2025-2025_0_1"
+university: "九州大学"
+exam_year: "2025"
+source_tex: "archive/07_kyushu/2025/2025_0_1.tex"
+pdf_source: "archive/07_kyushu/2025/2025_0_1.pdf"
+page_image: "archive/07_kyushu/2025/2025_0_1.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　2つの曲線
+\[ y=x^3+x^2-x-1, \hspace{1zw} y=x^2 \]
+の両方に接するすべての直線の方程式を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2025/2025_0_1.pdf)

@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 1976年 1976_1"
+problem_id: "08_titech-1976-1976_1"
+university: "東京科学大学"
+exam_year: "1976"
+source_tex: "archive/08_titech/1976/1976_1.tex"
+pdf_source: "archive/08_titech/1976/1976_1.pdf"
+page_image: "archive/08_titech/1976/1976_1.jpg"
+fields:
+  - 代数
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$p(x)$を$x$に関する3次式とする．
+$x^4$と$x^5$を$p(x)$で割った余りは等しくて，0ではないとする．
+$x$の整式$f(x)$が$p(x)$で割り切れず，$xf(x)$は$p(x)$で割り切れるとき，
+$f(x)$を$p(x)$で割った余り$r(x)$を求めよ．
+ただし$r(x)$の最高次の係数は1となるものとする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1976/1976_1.pdf)

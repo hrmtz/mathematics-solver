@@ -1,0 +1,26 @@
+---
+title: "九州大学 1961年 1961_5"
+problem_id: "07_kyushu-1961-1961_5"
+university: "九州大学"
+exam_year: "1961"
+source_tex: "archive/07_kyushu/1961/1961_5.tex"
+pdf_source: "archive/07_kyushu/1961/1961_5.pdf"
+page_image: "archive/07_kyushu/1961/1961_5.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+\begin{description}
+\item[(1)]2つの放物線$y=x^2$と$y=k(x^2-1)$ $(k>1)$で囲まれる部分の面積$S$を求めよ。
+\item[(2)](1)で求めた$S$を最小にする$k$の値およびそのときの$S$の値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1961/1961_5.pdf)

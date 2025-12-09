@@ -1,0 +1,31 @@
+---
+title: "京都大学 2021年 2021_0_4"
+problem_id: "02_kyoto-2021-2021_0_4"
+university: "京都大学"
+exam_year: "2021"
+source_tex: "archive/02_kyoto/2021/2021_0_4.tex"
+pdf_source: "archive/02_kyoto/2021/2021_0_4.pdf"
+page_image: "archive/02_kyoto/2021/2021_0_4.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　空間の8点
+\[ O(0, \, 0, \, 0), \hspace{1zw} A(1, \, 0, \, 0), \hspace{1zw}
+B(1, \, 2, \, 0), \hspace{1zw} C(0, \, 2, \, 0), \]
+\[ D(0, \, 0, \, 3), \hspace{1zw} E(1, \, 0, \, 3), \hspace{1zw}
+F(1, \, 2, \, 3), \hspace{1zw} G(0, \, 2, \, 3) \]
+を頂点とする直方体OABC-DEFGを考える，
+点O，点F，辺AE上の点P，および辺CG上の点Qの4点が同一平面上にあるとする．
+このとき，四角形OPFQの面積Sを最小にするような点Pおよび点Qの座標を求めよ．
+また，そのときのSの値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2021/2021_0_4.pdf)

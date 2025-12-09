@@ -1,0 +1,305 @@
+## 解答
+
+(準備)  
+$X_k$ のとり方より，
+- 目が1のとき $X_k=1$，
+- 目が2のとき $X_k=-1$，
+- その他(3,4,5,6)のとき $X_k=0$
+
+であり，それぞれの確率は
+$$
+P(X_k=1)=\frac16,\quad P(X_k=-1)=\frac16,\quad P(X_k=0)=\frac{4}{6}=\frac{2}{3}
+$$
+である．
+
+定義より
+$$
+Y_k=\cos\left(\frac{\pi}{3}X_k\right)+i\sin\left(\frac{\pi}{3}X_k\right)
+$$
+だから，オイラーの公式 $e^{i\theta}=\cos\theta+i\sin\theta$ を用いると
+$$
+Y_k=e^{i\frac{\pi}{3}X_k}
+$$
+となる．したがって
+$$
+Z_n=Y_1Y_2\cdots Y_n
+=e^{i\frac{\pi}{3}(X_1+X_2+\cdots+X_n)}
+$$
+である．よって $Z_n$ が実数であることと，$\dfrac{\pi}{3}(X_1+\cdots+X_n)$ が $\pi$ の整数倍であることは同値である．  
+すなわち
+$$
+Z_n\ \text{が実数} \quad\Longleftrightarrow\quad X_1+\cdots+X_n\equiv 0\pmod{3}
+$$
+が成り立つ．
+
+以下この事実を用いて解く．
+
+---
+
+### (1)
+
+$Z_2$ が実数でない確率を求める．
+
+$Z_2$ が実数であるための条件は
+$$
+X_1+X_2\equiv 0\pmod{3}
+$$
+であるから，場合分けして求める．
+
+$X_1,X_2$ はそれぞれ独立に
+$$
+1,\ -1,\ 0
+$$
+を確率 $\dfrac16,\dfrac16,\dfrac23$ でとるので，$X_1+X_2\equiv 0\pmod{3}$ となる組は次の3通りである：
+- $(X_1,X_2)=(1,-1)$
+- $(X_1,X_2)=(-1,1)$
+- $(X_1,X_2)=(0,0)$
+
+それぞれの確率を求めると
+\[
+\begin{aligned}
+P(X_1=1,\ X_2=-1)&=\frac16\cdot\frac16=\frac{1}{36},\\
+P(X_1=-1,\ X_2=1)&=\frac16\cdot\frac16=\frac{1}{36},\\
+P(X_1=0,\ X_2=0)&=\frac23\cdot\frac23=\frac{4}{9}.
+\end{aligned}
+\]
+よって
+\[
+\begin{aligned}
+P(Z_2\ \text{が実数})
+&=P(X_1+X_2\equiv 0\pmod{3})\\
+&=\frac{1}{36}+\frac{1}{36}+\frac{4}{9}
+=\frac{2}{36}+\frac{16}{36}=\frac{18}{36}=\frac12.
+\end{aligned}
+\]
+従って
+$$
+P(Z_2\ \text{が実数でない})=1-\frac12=\frac12.
+$$
+
+---
+
+### (2)
+
+$Z_k$ が実数でないとは
+$$
+X_1+\cdots+X_k\not\equiv 0\pmod{3}
+$$
+であることと同値である．
+
+ここで
+$$
+S_k=X_1+X_2+\cdots+X_k
+$$
+とおき，その $3$ で割った余りに注目する．$S_k$ の余りに応じて状態を3種類に分ける：
+
+- 状態 $0$：$S_k\equiv 0\pmod{3}$
+- 状態 $1$：$S_k\equiv 1\pmod{3}$
+- 状態 $2$：$S_k\equiv -1\equiv 2\pmod{3}$
+
+$X_k$ は $\pm1,0$ しかとらないので，遷移確率は次のようになる：
+
+- $X_{k+1}=0$ のとき ($\frac23$ の確率)：
+  
+  $S_{k+1}\equiv S_k\pmod{3}$ なので，同じ状態にとどまる．
+
+- $X_{k+1}=1$ のとき ($\frac16$ の確率)：
+  
+  $S_{k+1}\equiv S_k+1\pmod{3}$，すなわち状態が $0\to1,\ 1\to2,\ 2\to0$ と移る．
+
+- $X_{k+1}=-1$ のとき ($\frac16$ の確率)：
+  
+  $S_{k+1}\equiv S_k-1\equiv S_k+2\pmod{3}$，すなわち状態が $0\to2,\ 1\to0,\ 2\to1$ と移る．
+
+したがって，各状態から次の状態への確率は以下の表でまとめられる：
+
+- 状態 $0$ から：
+  - $0$ へ：$\dfrac23$（$X_{k+1}=0$）
+  - $1$ へ：$\dfrac16$（$X_{k+1}=1$）
+  - $2$ へ：$\dfrac16$（$X_{k+1}=-1$）
+
+- 状態 $1$ から：
+  - $1$ へ：$\dfrac23$
+  - $2$ へ：$\dfrac16$
+  - $0$ へ：$\dfrac16$
+
+- 状態 $2$ から：
+  - $2$ へ：$\dfrac23$
+  - $0$ へ：$\dfrac16$
+  - $1$ へ：$\dfrac16$
+
+初期状態は，$S_0=0$ と考えると「状態 0」から始まる．
+
+一方で求めたいのは
+$$
+Z_1,Z_2,\dots,Z_n\ \text{がいずれも実数でない}
+$$
+すなわち
+$$
+S_1,S_2,\dots,S_n\ \text{がいずれも} \not\equiv 0\pmod{3}
+$$
+である確率である．
+
+最初に $Z_1$ が実数でない (= $S_1\not\equiv 0$) ための確率をまず求める．$S_1=X_1$ なので，
+$$
+P(S_1\equiv 0)=P(X_1=0)=\frac23,\quad
+P(S_1\not\equiv 0)=P(X_1=\pm1)=\frac13.
+$$
+よって $Z_1$ が実数でない確率は $\dfrac13$ であり，そのとき $S_1\equiv 1$ または $2$ であるが，
+$$
+P(X_1=1)=\frac16,\ P(X_1=-1)=\frac16
+$$
+より，条件付き確率を計算すると
+$$
+P(S_1\equiv1\,|\,S_1\not\equiv0)=\frac{\frac16}{\frac13}=\frac12,\quad
+P(S_1\equiv2\,|\,S_1\not\equiv0)=\frac12
+$$
+となる．
+
+そこで，状態 $1,2$ のみを扱い，「状態 0 に一度も到達しない」確率を求めればよい．
+
+状態が $1$ または $2$ にあるときのみを考えると：
+
+- 状態 $1$ から次に状態 $0$ に移る確率は $\dfrac16$，
+- 状態 $2$ から次に状態 $0$ に移る確率も $\dfrac16$．
+
+一度でも状態 $0$ に移ったら，その時点で「$Z_k$ が実数」となり，条件「いずれも実数でない」は崩れるので，状態 $0$ への遷移が起こらない確率を考える．
+
+したがって，$k\ge1$ について「状態 $1$ または $2$ にあるとき，次も $1$ または $2$ にいる」確率は
+$$
+1-\frac16=\frac56
+$$
+であり，この確率は状態が $1$ であるか $2$ であるかに依存しない．
+
+よって，
+
+- まず $S_1\not\equiv0$ である確率が $\dfrac13$，
+- その後 $S_2,\dots,S_n$ も 0 にならない，すなわち「$n-1$ 回連続で状態 0 に遷移しない」確率が $\left(\dfrac56\right)^{n-1}$
+
+であるから，求める確率は
+$$
+\frac13\left(\frac56\right)^{n-1}
+$$
+となる．
+
+---
+
+### (3)
+
+$Z_n$ が実数となる確率 $p_n$ を求める．これは
+$$
+p_n=P(S_n\equiv0\pmod{3})
+$$
+である．
+
+$S_k$ の余りの状態遷移が先ほど求めた通りなので，確率ベクトル
+$$
+\boldsymbol{v}_k=(a_k,b_k,c_k)
+$$
+を
+$$
+a_k=P(S_k\equiv0),\quad b_k=P(S_k\equiv1),\quad c_k=P(S_k\equiv2)
+$$
+として表す．
+
+$d_k=a_k-b_k$ とおくと，先の状態遷移から $d_k$ の漸化式を導くことができる．
+
+まず遷移から
+\[
+\begin{aligned}
+a_{k+1}&=\frac23a_k+\frac16b_k+\frac16c_k,\\
+b_{k+1}&=\frac16a_k+\frac23b_k+\frac16c_k,\\
+c_{k+1}&=\frac16a_k+\frac16b_k+\frac23c_k.
+\end{aligned}
+\]
+ここで $a_k+b_k+c_k=1$ なので $c_k=1-a_k-b_k$ を用いると，
+\[
+\begin{aligned}
+a_{k+1}
+&=\frac23a_k+\frac16b_k+\frac16(1-a_k-b_k)\\
+&=\left(\frac23-\frac16\right)a_k+\left(\frac16-\frac16\right)b_k+\frac16\\
+&=\frac12a_k+\frac16,\\
+b_{k+1}
+&=\frac16a_k+\frac23b_k+\frac16(1-a_k-b_k)\\
+&=\left(\frac16-\frac16\right)a_k+\left(\frac23-\frac16\right)b_k+\frac16\\
+&=\frac12b_k+\frac16.
+\end{aligned}
+\]
+したがって
+\[
+\begin{aligned}
+d_{k+1}=a_{k+1}-b_{k+1}
+&=\left(\frac12a_k+\frac16\right)-\left(\frac12b_k+\frac16\right)
+=\frac12(a_k-b_k)
+=\frac12d_k.
+\end{aligned}
+\]
+
+初期条件を求めると，$S_0=0$ なので
+$$
+a_0=1,\quad b_0=0,\quad c_0=0
+$$
+である．よって
+$$
+d_0=a_0-b_0=1.
+$$
+ゆえに
+$$
+d_k=\left(\frac12\right)^k
+$$
+が得られる．
+
+さらに $a_k+b_k+c_k=1$ と $b_k=c_k$（対称性から明らか，もしくは同様に $b_{k+1}-c_{k+1}=\frac12(b_k-c_k)$ かつ $b_0-c_0=0$ から従う）より，
+$$
+a_k+2b_k=1,\quad a_k-b_k=d_k=\left(\frac12\right)^k
+$$
+の連立方程式を解けばよい．
+
+これを解くと，
+\[
+\begin{aligned}
+(a_k+2b_k)-(a_k-b_k)&=1-\left(\frac12\right)^k\\
+3b_k&=1-\left(\frac12\right)^k\\
+b_k&=\frac13-\frac{1}{3\cdot2^k},
+\end{aligned}
+\]
+したがって
+\[
+\begin{aligned}
+a_k&=d_k+b_k=\left(\frac12\right)^k+\left(\frac13-\frac{1}{3\cdot2^k}\right)\\
+&=\frac13+\left(1-\frac13\right)\frac{1}{2^k}
+=\frac13+\frac{2}{3}\cdot\frac{1}{2^k}.
+\end{aligned}
+\]
+
+ゆえに
+$$
+p_n=P(S_n\equiv0)=a_n=\frac13+\frac{2}{3\cdot2^n}
+=\frac13+\frac{2}{3}\cdot\frac{1}{2^n}.
+$$
+
+最後に極限を求める．$n\to\infty$ のとき $\dfrac{1}{2^n}\to0$ だから，
+$$
+\lim_{n\to\infty}p_n
+=\lim_{n\to\infty}\left(\frac13+\frac{2}{3}\cdot\frac{1}{2^n}\right)
+=\frac13.
+$$
+
+---
+
+以上をまとめると，
+
+- (1) $Z_2$ が実数でない確率は
+  $$
+  \frac12
+  $$
+- (2) $Z_1,Z_2,\dots,Z_n$ がいずれも実数でない確率は
+  $$
+  \frac13\left(\frac56\right)^{n-1}
+  $$
+- (3) $Z_n$ が実数となる確率は
+  $$
+  p_n=\frac13+\frac{2}{3\cdot2^n},\qquad
+  \lim_{n\to\infty}p_n=\frac13
+  $$
+である．

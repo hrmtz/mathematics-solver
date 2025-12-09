@@ -1,0 +1,34 @@
+---
+title: "北海道大学 1995年 1995_2"
+problem_id: "03_hokudai-1995-1995_2"
+university: "北海道大学"
+exam_year: "1995"
+source_tex: "archive/03_hokudai/1995/1995_2.tex"
+pdf_source: "archive/03_hokudai/1995/1995_2.pdf"
+page_image: "archive/03_hokudai/1995/1995_2.jpg"
+fields:
+  - 三角関数
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　平面において，次の2本の直線$l$と$m$を考える．
+ただし$\displaystyle\frac{\pi}{4}<\theta<\frac{\pi}{2}$である．
+\begin{description}
+\item[]$l$：$\displaystyle y=\tan\left( \theta+\frac{\pi}{4} \right)x$，
+\item[]$m$：$\displaystyle y=-x+\sqrt2 \left( 1-\frac{2}{\pi}\theta \right)$
+\end{description}
+$l$と$m$の交点を$(x(\theta), \, y(\theta))$とするとき，次の問に答えよ．
+\begin{description}
+\item[(1)]$y(\theta)$を求めよ．
+\item[(2)]$\displaystyle\lim_{t\to0}\frac{\displaystyle1+\tan\left( \frac{3\pi}{4}-\frac{\pi}{2}t \right)}{t}$を求めよ．
+\item[(3)]$\displaystyle\lim_{\theta\to\frac{\pi}{2}}y(\theta)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1995/1995_2.pdf)

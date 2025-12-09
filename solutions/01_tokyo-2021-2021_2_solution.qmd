@@ -1,0 +1,233 @@
+## 解答
+
+(1)  
+$f(z)=az^2+bz+c$ とおく。  
+条件より
+$$
+f(0)=c=\alpha,
+$$
+$$
+f(1)=a+b+c=\beta,
+$$
+$$
+f(i)=ai^2+bi+c=-a+bi+c=\gamma
+$$
+が成り立つ。
+
+まず $c=\alpha$ より
+$$
+a+b=\beta-\alpha
+$$
+である。次に $c=\alpha$ を用いて
+$$
+-a+bi+\alpha=\gamma
+$$
+より
+$$
+-a+bi=\gamma-\alpha
+$$
+となる。ここで $a$ は実数とは限らないが，$1$ と $i$ は一次独立な複素数であるから，
+$$
+a(1+i)=\frac{1}{2}\bigl((a+b)+(-a+bi)\bigr)
+     =\frac{1}{2}\bigl((\beta-\alpha)+(\gamma-\alpha)\bigr)
+     =\frac{\beta+\gamma-2\alpha}{2}
+$$
+と変形できる（右辺は $a(1+i)$ を $a+b$ と $-a+bi$ の和として表したものである）。したがって
+$$
+a=\frac{\beta+\gamma-2\alpha}{2(1+i)}
+$$
+となる。同様に，
+$$
+b(1-i)=\frac{1}{2}\bigl((a+b)-(-a+bi)\bigr)
+     =\frac{1}{2}\bigl((\beta-\alpha)-(\gamma-\alpha)\bigr)
+     =\frac{\beta-\gamma}{2}
+$$
+より
+$$
+b=\frac{\beta-\gamma}{2(1-i)}
+$$
+となる。よって
+$$
+a=\frac{\beta+\gamma-2\alpha}{2(1+i)},\quad
+b=\frac{\beta-\gamma}{2(1-i)},\quad
+c=\alpha
+$$
+である。
+
+---
+
+(2)  
+(1)の結果を用いる。$f(0),f(1),f(i)$ はいずれも $1$ 以上 $2$ 以下の実数とする。  
+新たに
+$$
+p=f(0),\quad q=f(1),\quad r=f(i)
+$$
+とおくと，条件は
+$$
+1\le p\le 2,\quad 1\le q\le 2,\quad 1\le r\le 2
+$$
+となる。これらはすべて実数である。
+
+(1)より
+$$
+a=\frac{q+r-2p}{2(1+i)},\quad
+b=\frac{q-r}{2(1-i)},\quad
+c=p
+$$
+である。したがって
+$$
+f(2)=4a+2b+c
+$$
+を $p,q,r$ で表せばよい。
+
+まず
+$$
+4a=\frac{4(q+r-2p)}{2(1+i)}=\frac{2(q+r-2p)}{1+i},
+$$
+$$
+2b=\frac{2(q-r)}{2(1-i)}=\frac{q-r}{1-i}
+$$
+である。ここで
+$$
+\frac{1}{1+i}=\frac{1-i}{(1+i)(1-i)}=\frac{1-i}{2},\quad
+\frac{1}{1-i}=\frac{1+i}{(1-i)(1+i)}=\frac{1+i}{2}
+$$
+を用いると，
+$$
+4a=(q+r-2p)(1-i),\quad
+2b=\frac{q-r}{2}(1+i)
+$$
+となる。よって
+$$
+\begin{aligned}
+f(2)
+&=4a+2b+c\\
+&=(q+r-2p)(1-i)+\frac{q-r}{2}(1+i)+p.
+\end{aligned}
+$$
+
+右辺を実部と虚部に分けて整理する。まず
+$$
+(q+r-2p)(1-i)=(q+r-2p)-i(q+r-2p),
+$$
+$$
+\frac{q-r}{2}(1+i)=\frac{q-r}{2}+i\frac{q-r}{2}
+$$
+であるので
+$$
+\begin{aligned}
+f(2)
+&=\bigl[(q+r-2p)+\frac{q-r}{2}+p\bigr]
+ +i\bigl[-(q+r-2p)+\frac{q-r}{2}\bigr].
+\end{aligned}
+$$
+
+実部 $X$，虚部 $Y$ を
+$$
+f(2)=X+iY
+$$
+とおけば，
+$$
+X=(q+r-2p)+\frac{q-r}{2}+p
+$$
+および
+$$
+Y=-(q+r-2p)+\frac{q-r}{2}
+$$
+である。これを整理する。
+
+まず実部 $X$：
+$$
+\begin{aligned}
+X
+&=q+r-2p+\frac{q-r}{2}+p\\
+&=(q+r-2p+p)+\frac{q-r}{2}\\
+&=(q+r-p)+\frac{q-r}{2}\\
+&=\frac{2(q+r-p)+q-r}{2}\\
+&=\frac{3q+r-2p}{2}.
+\end{aligned}
+$$
+
+次に虚部 $Y$：
+$$
+\begin{aligned}
+Y
+&=-(q+r-2p)+\frac{q-r}{2}\\
+&=-q-r+2p+\frac{q-r}{2}\\
+&=\frac{-2q-2r+4p+q-r}{2}\\
+&=\frac{-q-3r+4p}{2}.
+\end{aligned}
+$$
+
+したがって
+$$
+f(2)=\frac{3q+r-2p}{2}+i\cdot\frac{-q-3r+4p}{2}
+$$
+と表される。
+
+ここで $p,q,r$ は実数で，それぞれ $1\le p,q,r\le 2$ の範囲を動く。$f(2)$ は $p,q,r$ に関する一次式であるから，$f(2)$ の取りうる値の集合は凸集合となり，四面体の頂点（ここでは $p,q,r$ が端点 $1$ または $2$ をとるとき）を対応させた像の凸包になる。
+
+よって，$p,q,r$ が
+$$
+(1,1,1),\ (2,1,1),\ (1,2,1),\ (1,1,2),\ (2,2,1),\ (2,1,2),\ (1,2,2),\ (2,2,2)
+$$
+の 8 通りの場合の $f(2)$ を求めれば，その 8 点を頂点とする凸多角形が求める図形となる。
+
+それぞれ計算する：
+
+1. $(p,q,r)=(1,1,1)$ のとき  
+   $$
+   f(2)=\frac{3\cdot1+1-2\cdot1}{2}+i\cdot\frac{-1-3\cdot1+4\cdot1}{2}
+        =\frac{2}{2}+i\cdot\frac{0}{2}=1.
+   $$
+
+2. $(2,1,1)$ のとき  
+   $$
+   f(2)=\frac{3\cdot1+1-2\cdot2}{2}+i\cdot\frac{-1-3\cdot1+4\cdot2}{2}
+        =\frac{0}{2}+i\cdot\frac{4}{2}=2i.
+   $$
+
+3. $(1,2,1)$ のとき  
+   $$
+   f(2)=\frac{3\cdot2+1-2\cdot1}{2}+i\cdot\frac{-2-3\cdot1+4\cdot1}{2}
+        =\frac{5}{2}+i\cdot\frac{-1}{2}.
+   $$
+
+4. $(1,1,2)$ のとき  
+   $$
+   f(2)=\frac{3\cdot1+2-2\cdot1}{2}+i\cdot\frac{-1-3\cdot2+4\cdot1}{2}
+        =\frac{3}{2}+i\cdot\frac{-3}{2}.
+   $$
+
+5. $(2,2,1)$ のとき  
+   $$
+   f(2)=\frac{3\cdot2+1-2\cdot2}{2}+i\cdot\frac{-2-3\cdot1+4\cdot2}{2}
+        =\frac{3}{2}+i\cdot\frac{3}{2}.
+   $$
+
+6. $(2,1,2)$ のとき  
+   $$
+   f(2)=\frac{3\cdot1+2-2\cdot2}{2}+i\cdot\frac{-1-3\cdot2+4\cdot2}{2}
+        =\frac{1}{2}+i\cdot\frac{1}{2}.
+   $$
+
+7. $(2,2,2)$ のとき  
+   $$
+   f(2)=\frac{3\cdot2+2-2\cdot2}{2}+i\cdot\frac{-2-3\cdot2+4\cdot2}{2}
+        =2+i.
+   $$
+
+8. $(1,2,2)$ のとき  
+   $$
+   f(2)=\frac{3\cdot2+2-2\cdot1}{2}+i\cdot\frac{-2-3\cdot2+4\cdot1}{2}
+        =3+i\cdot(-2).
+   $$
+
+以上より，$f(2)$ の取りうる値は，複素平面上で次の 8 点
+$$
+1,\ 2i,\ \frac{5}{2}-\frac{1}{2}i,\ \frac{3}{2}-\frac{3}{2}i,\ 
+\frac{3}{2}+\frac{3}{2}i,\ \frac{1}{2}+\frac{1}{2}i,\ 2+i,\ 3-2i
+$$
+を頂点とする凸多角形（8 角形）の内部およびその境界全体である。
+
+したがって，複素平面上では，これら 8 点をプロットし，それらを直線で結んでできる凸多角形を塗りつぶした領域が $f(2)$ のとりうる範囲である。

@@ -1,0 +1,29 @@
+---
+title: "京都大学 2002年 2002_0_2"
+problem_id: "02_kyoto-2002-2002_0_2"
+university: "京都大学"
+exam_year: "2002"
+source_tex: "archive/02_kyoto/2002/2002_0_2.tex"
+pdf_source: "archive/02_kyoto/2002/2002_0_2.pdf"
+page_image: "archive/02_kyoto/2002/2002_0_2.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　四角形$ABCD$を底面とする四角錐$OABCD$は
+$\overrightarrow{OA}+\overrightarrow{OC}=\overrightarrow{OB}+\overrightarrow{OD}$を満たしており，
+0と異なる4つの実数$p$，$q$，$r$，$s$に対して4点$P$，$Q$，$R$，$S$を
+$\overrightarrow{OP}=p\overrightarrow{OA}$，$\overrightarrow{OQ}=q\overrightarrow{OB}$，
+$\overrightarrow{OR}=r\overrightarrow{OC}$，$\overrightarrow{OS}=s\overrightarrow{OD}$によって定める．
+このとき$P$，$Q$，$R$，$S$が同一平面上にあれば
+$\displaystyle\frac{1}{p}+\frac{1}{r}=\frac{1}{q}+\frac{1}{s}$が成立することを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_0_2.pdf)

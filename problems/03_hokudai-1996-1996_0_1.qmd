@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1996年 1996_0_1"
+problem_id: "03_hokudai-1996-1996_0_1"
+university: "北海道大学"
+exam_year: "1996"
+source_tex: "archive/03_hokudai/1996/1996_0_1.tex"
+pdf_source: "archive/03_hokudai/1996/1996_0_1.pdf"
+page_image: "archive/03_hokudai/1996/1996_0_1.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$p$，$q$は実数で$p>0$とし，$f(x)=x^3-3p^2x+q$とおく．
+方程式$f(x)=0$が実数解$\alpha$，$\beta$で$\alpha<\beta$かつ$\alpha$が重複解となるものをもつとき，
+次の問に答えよ．
+\begin{description}
+\item[(1)]$q$，$\alpha$，$\beta$をそれぞれ$p$を使って表せ．
+\item[(2)]$x$軸と曲線$y=f(x)$，$(\alpha\leqq x \leqq\beta)$で囲まれた図形の面積が$2p$に等しいとき，
+$p$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_0_1.pdf)

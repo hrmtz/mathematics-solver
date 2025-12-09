@@ -1,0 +1,37 @@
+---
+title: "九州大学 1968年 1968_5"
+problem_id: "07_kyushu-1968-1968_5"
+university: "九州大学"
+exam_year: "1968"
+source_tex: "archive/07_kyushu/1968/1968_5.tex"
+pdf_source: "archive/07_kyushu/1968/1968_5.pdf"
+page_image: "archive/07_kyushu/1968/1968_5.jpg"
+fields:
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　空間に$x$成分，$y$成分，$z$成分として次のような座標をもつ6点
+$A(0, \, 9, \, 2)$，$B(6, \, 7, \, 4)$，$C(-6, \, -5, \, 10)$，$D(-9, \, -3, \, 14)$，
+$P(a, \, b, \, c)$，$Q(f, \, g, \, h)$があってベクトルの間に
+$\overrightarrow{AP}=s\overrightarrow{AB}$，$\overrightarrow{OQ}=t\overrightarrow{CD}$という関係があるとする．
+ここに，$s$，$t$は0と異なる実数とする．
+このとき次の問いに答えよ．
+\begin{description}
+\item[(1)]ベクトル$\overrightarrow{AP}$，$\overrightarrow{CQ}$，$\overrightarrow{PQ}$の各成分を
+$s$と$t$とで表わし下の表に記入せよ．
+\item[(2)]ベクトル$\overrightarrow{PQ}$と$\overrightarrow{AP}$の内積
+およびベクトル$\overrightarrow{PQ}$と$\overrightarrow{OQ}$の内積が
+同時に0になるとき，$s$と$t$の値およびベクトル$\overrightarrow{PQ}$の大きさを求めよ．
+\end{description}
+
+
+![](../archive/07_kyushu/1968/fig_1968_5.jpg)
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1968/1968_5.pdf)

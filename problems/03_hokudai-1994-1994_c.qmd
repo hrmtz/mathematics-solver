@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1994年 1994_c"
+problem_id: "03_hokudai-1994-1994_c"
+university: "北海道大学"
+exam_year: "1994"
+source_tex: "archive/03_hokudai/1994/1994_c.tex"
+pdf_source: "archive/03_hokudai/1994/1994_c.pdf"
+page_image: "archive/03_hokudai/1994/1994_c.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　三角形$ABC$に対して，その内接円の半径を1，$\triangle ABC$の面積を$V$とする．
+半径$d$の円の中心がこの三角形の周上をすべて動くとき，その円が通る図形を$S$とする．
+ただし，$0<d<1$とする．
+\begin{description}
+\item[(1)]$\angle A=\alpha$，$\angle B=\beta$，$\angle C=\gamma$として，
+$V$を$\alpha$，$\beta$，$\gamma$で表せ．
+\item[(2)]$S$の面積を$V$と$d$で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_c.pdf)

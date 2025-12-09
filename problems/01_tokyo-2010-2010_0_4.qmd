@@ -1,0 +1,23 @@
+---
+title: "東京大学 2010年 2010_0_4"
+problem_id: "01_tokyo-2010-2010_0_4"
+university: "東京大学"
+exam_year: "2010"
+source_tex: "archive/01_tokyo/2010/2010_0_4.tex"
+pdf_source: ""
+page_image: ""
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+\begin{description}
+\item[(1)]
+\item[(2)]
+\item[(3)]
+\end{description}
+
+---
+

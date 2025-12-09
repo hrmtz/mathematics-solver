@@ -1,0 +1,34 @@
+---
+title: "東京大学 1974年 1974_5"
+problem_id: "01_tokyo-1974-1974_5"
+university: "東京大学"
+exam_year: "1974"
+source_tex: "archive/01_tokyo/1974/1974_5.tex"
+pdf_source: "archive/01_tokyo/1974/1974_5.pdf"
+page_image: "archive/01_tokyo/1974/1974_5.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　原点$O$に中心をもつ半径2の固定された円板を$A$とする．
+半径1の円板$B$を，その中心$C$が点$(3,0)$に重なるように置くとき，
+点$(4,0)$に重なる$B$の周上の点を$M$とする．
+$B$を，$A$の周囲に沿って滑らないようにころがして，
+$OC$が$x$軸の正の方向となす角が$\theta$になったときの，
+$M$の位置の座標を$(X,Y)$とする．
+　$\theta$が0から$\displaystyle\frac{\pi}{2}$まで動くとして，次の問に答えよ．
+\begin{description}
+\item[(1)]$X$と$Y$とを$\theta$の関数として表わせ．
+\item[(2)]$Y$の最大値を求めよ．
+\item[(3)]$M$の描く曲線の弧の長さを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1974/1974_5.pdf)

@@ -1,0 +1,194 @@
+## 解答
+
+(1)  
+
+複素数平面上で，$z=x+yi$，$\alpha=a+bi$ とおく。ただし，$z\neq 0$ である。
+
+点$\alpha(a,b)$と原点$O(0,0)$を結ぶ線分の中点は  
+$$
+M\left(\frac{a}{2},\frac{b}{2}\right)
+$$  
+であり，線分$O\alpha$の傾きが，$a\neq 0$ のとき $\dfrac{b}{a}$ なので，その垂直二等分線$L$の傾きは $-\dfrac{a}{b}$ である（$b\neq 0$ の場合）。  
+一般に，線分$O\alpha$の垂直二等分線は  
+「点$z$と$O$からの距離と，点$z$と$\alpha$からの距離が等しい点の集合」  
+すなわち
+$$
+|z| = |z-\alpha|
+$$
+で表される直線になる。
+
+したがって，$z$が$L$上を動くという条件は
+$$
+|z| = |z-\alpha|
+$$
+である。
+
+このとき，$w=\dfrac{1}{z}$ とおくと，$z=\dfrac{1}{w}$ であり，$w\neq 0$ である。  
+上の条件式に $z=\dfrac{1}{w}$ を代入すると
+$$
+\left|\frac{1}{w}\right| = \left|\frac{1}{w} - \alpha\right|
+$$
+となる。両辺に $|w|$ を掛けると
+$$
+1 = \left|1-\alpha w\right|
+$$
+すなわち
+$$
+|1-\alpha w| = 1
+$$
+が得られる。
+
+ここで，$\alpha$を固定し，$w$を変数とみると，この式は
+$$
+|w - \tfrac{1}{\alpha}| = \frac{1}{|\alpha|}
+$$
+と書けることを示そう。
+
+まず，
+$$
+|1-\alpha w| = 1
+$$
+の両辺を $|\alpha|$ で割ると
+$$
+\left|\frac{1}{\alpha} - w\right| = \frac{1}{|\alpha|}
+$$
+となる。複素数の絶対値は順序を入れ替えても同じなので，
+$$
+|w - \tfrac{1}{\alpha}| = \frac{1}{|\alpha|}
+$$
+と書き換えられる。  
+
+これは「中心が $\dfrac{1}{\alpha}$，半径が $\dfrac{1}{|\alpha|}$ の円」を表す。
+
+ただし，もとの条件では $z\neq 0$ であったから，対応する $w$ で $z=\dfrac{1}{w}$ が定義できない点 $w=0$ は除かれる。$w=0$ はこの円の内部にあるか外部にあるかを確認しておく：
+
+$$
+\left|0-\frac{1}{\alpha}\right| = \frac{1}{|\alpha|} 
+$$
+であるから，$w=0$ はまさにこの円周上の点である。したがって，軌跡は
+「中心 $\dfrac{1}{\alpha}$，半径 $\dfrac{1}{|\alpha|}$ の円から，点 $0$ を除いたもの」
+となる。
+
+以上より，求める円の  
+中心は $\displaystyle \frac{1}{\alpha}$，半径は $\displaystyle \frac{1}{|\alpha|}$ である。
+
+---
+
+(2)  
+
+1の3乗根で虚部が正のものを$\beta$とする。  
+$1$の3乗根は $1,\ \omega,\ \omega^2$ と書け，$\omega=\cos\frac{2\pi}{3}+i\sin\frac{2\pi}{3}=-\frac{1}{2}+\frac{\sqrt{3}}{2}i$ である。  
+虚部が正なのは $\omega$ のみなので
+$$
+\beta = -\frac{1}{2} + \frac{\sqrt{3}}{2}i,\quad \beta^2 = -\frac{1}{2} - \frac{\sqrt{3}}{2}i
+$$
+である（$\beta^3=1$ より $\beta^2=\overline{\beta}$ でもわかる）。
+
+点$\beta$と点$\beta^2$を結ぶ線分は，実部が $-\dfrac{1}{2}$ で，虚部が $-\dfrac{\sqrt{3}}{2}$ から $\dfrac{\sqrt{3}}{2}$ まで動く縦の線分である。  
+したがって，$z=x+iy$ とおくと，$z$がこの線分上を動く条件は
+$$
+x = -\frac{1}{2},\quad -\frac{\sqrt{3}}{2} \le y \le \frac{\sqrt{3}}{2}
+$$
+である。
+
+$w=\dfrac{1}{z}$ とおくと，$z\neq 0$ に注意しつつ，$w=u+vi$ とおき，$z$を$w$で表すと
+$$
+z = \frac{1}{w} = \frac{u-vi}{u^2+v^2}
+$$
+であるから，$z$の実部は
+$$
+\operatorname{Re}(z) = \frac{u}{u^2+v^2}
+$$
+である。
+
+条件 $x=-\dfrac{1}{2}$ を用いると
+$$
+\frac{u}{u^2+v^2} = -\frac{1}{2}
+$$
+すなわち
+$$
+2u = -(u^2+v^2)
+$$
+これを整理すると
+$$
+u^2+2u+v^2 = 0
+$$
+左辺を平方完成すると
+$$
+(u+1)^2 + v^2 = 1
+$$
+となる。  
+
+したがって，$w$は「中心 $(-1,0)$，半径1の円周」上の点である。
+
+次に，線分上の範囲 $-\dfrac{\sqrt{3}}{2}\le y\le \dfrac{\sqrt{3}}{2}$ が，円周上のどの部分に対応するかを調べる。  
+
+$z$の虚部は
+$$
+\operatorname{Im}(z) = -\frac{v}{u^2+v^2}
+$$
+であり，先ほど $u^2+v^2=-2u$ が成り立つから（$z\neq 0$ より $w\neq 0$ なので $u^2+v^2>0$），これを用いて
+$$
+\operatorname{Im}(z) = -\frac{v}{-2u} = \frac{v}{2u}
+$$
+となる。よって
+$$
+-\frac{\sqrt{3}}{2} \le \frac{v}{2u} \le \frac{\sqrt{3}}{2}
+$$
+である。ここで，$z$は実部が $-\dfrac{1}{2}$ であるから，$u^2+v^2>0$ のもとで $u=\operatorname{Re}(w)$ を調べると，上の円の方程式 $(u+1)^2 + v^2 = 1$ において $u+1$ と $v$ がともに有限なので，$u$は $-2\le u\le 0$ の範囲にあり，特に $u<0$ が成り立つ。したがって $2u<0$ であるから，不等式の向きをそろえるために注意して変形する。
+
+$$
+-\frac{\sqrt{3}}{2} \le \frac{v}{2u}
+\quad\Longleftrightarrow\quad
+-\frac{\sqrt{3}}{2}\cdot 2u \ge v
+\quad\Longleftrightarrow\quad
+-\sqrt{3}u \ge v
+$$
+同様に
+$$
+\frac{v}{2u} \le \frac{\sqrt{3}}{2}
+\quad\Longleftrightarrow\quad
+v \ge \sqrt{3}u
+$$
+となる。よって
+$$
+\sqrt{3}u \le v \le -\sqrt{3}u
+$$
+が成り立つ。
+
+ここで，円周 $(u+1)^2+v^2=1$ のうち，この不等式を満たす部分を読む。  
+
+この円上の2点
+$$
+A(-\tfrac{1}{2}, \tfrac{\sqrt{3}}{2}),\quad B(-\tfrac{1}{2}, -\tfrac{\sqrt{3}}{2})
+$$
+を調べると，$A$に対して
+$$
+v = \frac{\sqrt{3}}{2} = \sqrt{3}\cdot\Bigl(-\frac{1}{2}\Bigr)\quad\Longrightarrow\quad v = \sqrt{3}u
+$$
+$B$に対して
+$$
+v = -\frac{\sqrt{3}}{2} = -\sqrt{3}\cdot\Bigl(-\frac{1}{2}\Bigr)\quad\Longrightarrow\quad v = -\sqrt{3}u
+$$
+となるので，2本の直線 $v=\sqrt{3}u$，$v=-\sqrt{3}u$ は，この円をちょうど2点 $A,B$ で切り，円周を3等分する位置（中心 $(-1,0)$ を原点に平行移動すると，それぞれ偏角 $\pm \dfrac{\pi}{3}$ に対応）にある。
+
+したがって，上の不等式
+$$
+\sqrt{3}u \le v \le -\sqrt{3}u
+$$
+を満たすのは，円周上で $A$ から $B$ まで，$u<0$ かつ $v$ が上から下まで変わる右側の弧にあたる。これは，  
+「中心 $(-1,0)$，半径1の円の右側半分の円弧」すなわち，$A(-\tfrac{1}{2},\tfrac{\sqrt{3}}{2})$ と $B(-\tfrac{1}{2},-\tfrac{\sqrt{3}}{2})$ を結ぶ円周のうち，$x$座標が $-1\le x\le -\tfrac{1}{2}$ の部分である。
+
+また，線分の両端 $\beta,\beta^2$ も含んで動くので，対応する $w=\dfrac{1}{\beta},\dfrac{1}{\beta^2}$ も軌跡に含まれる。このとき
+$$
+\frac{1}{\beta} = \overline{\beta^2} = -\frac{1}{2} + \frac{\sqrt{3}}{2}i,\quad
+\frac{1}{\beta^2} = \overline{\beta} = -\frac{1}{2} - \frac{\sqrt{3}}{2}i
+$$
+であり，先ほどの点 $A,B$ と一致している。
+
+よって，求める軌跡は  
+「円 $(x+1)^2+y^2=1$ のうち，点 $(-\tfrac{1}{2},\tfrac{\sqrt{3}}{2})$ から $(-\tfrac{1}{2},-\tfrac{\sqrt{3}}{2})$ までの右側半円弧」  
+である。
+
+【図示】  
+複素数平面上で，中心が $(-1,0)$，半径1の円を描き，そのうち $x\ge -1$ を満たす右半分の円弧が軌跡になる。円周上の点 $(-\tfrac{1}{2},\tfrac{\sqrt{3}}{2})$ および $(-\tfrac{1}{2},-\tfrac{\sqrt{3}}{2})$ を明示しておく。

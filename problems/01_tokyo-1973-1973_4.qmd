@@ -1,0 +1,27 @@
+---
+title: "東京大学 1973年 1973_4"
+problem_id: "01_tokyo-1973-1973_4"
+university: "東京大学"
+exam_year: "1973"
+source_tex: "archive/01_tokyo/1973/1973_4.tex"
+pdf_source: "archive/01_tokyo/1973/1973_4.pdf"
+page_image: "archive/01_tokyo/1973/1973_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　平面上に1辺の長さが1の正方形$S$がある．
+この平面上で$S$を平行移動して得られる正方形で，
+点$P$を中心にもつものを$T(P)$とする．
+このとき，
+共通部分$S \cap T (P)$の面積が$\displaystyle\frac{1}{2}$以上となるような点$P$の存在範囲を図示せよ．
+またこの範囲の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1973/1973_4.pdf)

@@ -1,0 +1,35 @@
+---
+title: "九州大学 1999年 1999_4a"
+problem_id: "07_kyushu-1999-1999_4a"
+university: "九州大学"
+exam_year: "1999"
+source_tex: "archive/07_kyushu/1999/1999_4a.tex"
+pdf_source: "archive/07_kyushu/1999/1999_4a.pdf"
+page_image: "archive/07_kyushu/1999/1999_4a.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　関数$f(x)=1-x^2$について，次の問に答えよ．
+\begin{description}
+\item[(1)]$f(a)=a$をみたす正の実数$a$を求めよ．
+\item[(2)]$a$を(1)で求めた実数とする．
+$\displaystyle x\geqq\frac{1}{2}$ならば，
+$\displaystyle|f(x)-f(a)|\geqq\frac{\sqrt5}{2}|x-a|$となることを示せ．
+\item[(3)]$a$を(1)で求めた実数とする．
+$\displaystyle\frac{1}{2} \leqq x_1 \leqq 1$として，
+\[ x_{n+1}=f(x_n), \hspace{1zw} n=1, \, 2, \, 3, \, \cdots\cdots, \]
+で決まる数列$\{ x_n \}$を考える．
+すべての$n$に対して$\displaystyle\frac{1}{2} \leqq x_n \leqq 1$がなりたつならば，
+$x_1=a$であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_4a.pdf)

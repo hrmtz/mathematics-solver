@@ -1,0 +1,29 @@
+---
+title: "大阪大学 1972年 1972_6"
+problem_id: "06_osaka-1972-1972_6"
+university: "大阪大学"
+exam_year: "1972"
+source_tex: "archive/06_osaka/1972/1972_6.tex"
+pdf_source: "archive/06_osaka/1972/1972_6.pdf"
+page_image: "archive/06_osaka/1972/1972_6.jpg"
+fields:
+  - 平面図形
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　関数$\displaystyle f(x)=\frac{1}{2}(x+1-|x-1|)$のグラフが，
+直線$x=a$を軸とする放物線$y=g(x)$と2つの点で接するという．
+\begin{description}
+\item[(1)]関数$g(x)$を求めよ．
+\item[(2)]$g(x)$のグラフが$x$軸から切り取る線分の長さを求めよ．
+\item[(3)]$f(x)$のグラフと$g(x)$のグラフとによって囲まれた図形の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1972/1972_6.pdf)

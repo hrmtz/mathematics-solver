@@ -1,0 +1,34 @@
+---
+title: "北海道大学 2019年 2019_d"
+problem_id: "03_hokudai-2019-2019_d"
+university: "北海道大学"
+exam_year: "2019"
+source_tex: "archive/03_hokudai/2019/2019_d.tex"
+pdf_source: "archive/03_hokudai/2019/2019_d.pdf"
+page_image: "archive/03_hokudai/2019/2019_d.jpg"
+fields:
+  - 指数・対数
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　関数$f(x)=\sqrt{x^2-1}$ $(x\geqq1)$と
+関数$\displaystyle g(t)=\frac{e^t+e^{-t}}{2}$ $(t\geqq0)$を考える。
+ただし，$e$は自然対数の底とする。
+\begin{description}
+\item[(1)]$g(t)\geqq1$を示せ。
+\item[(2)]$a>0$とする。定積分$\displaystyle\int_0^af(g(t))g'(t)dt$を求めよ。
+\item[(3)]座標平面上の曲線$y=f(x)$を$C$とする。
+$p>1$とし，$C$上の点$(p, \, f(p))$における接線を$l$とする。
+このとき，曲線$C$，直線$l$，$x$軸で囲まれた図形の面積$S$を$p$で表せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2019/2019_d.pdf)

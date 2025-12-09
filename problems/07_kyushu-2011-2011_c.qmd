@@ -1,0 +1,32 @@
+---
+title: "九州大学 2011年 2011_c"
+problem_id: "07_kyushu-2011-2011_c"
+university: "九州大学"
+exam_year: "2011"
+source_tex: "archive/07_kyushu/2011/2011_c.tex"
+pdf_source: "archive/07_kyushu/2011/2011_c.pdf"
+page_image: "archive/07_kyushu/2011/2011_c.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　座標平面上の楕円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>b>0)$について，
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]$x$座標が小さい方の焦点$F$を極とし，
+$F$から$x$軸の正の方向へ向かう半直線を始線とする極座標$(r, \, \theta)$で表された
+楕円の極方程式$r=f(\theta)$を求めよ。
+\item[(2)]座標平面上の原点$O(0, \, 0)$と楕円上の2点$P_1$，$P_2$について，
+線分$OP_1$と線分$OP_2$とが互いに直交する位置にあるとする。
+線分$OP_1$および$OP_2$の長さをそれぞれ$r_1$，$r_2$とするとき，
+$\displaystyle\frac{1}{{r_1}^2}+\frac{1}{{r_2}^2}$の値は定数となることを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2011/2011_c.pdf)

@@ -1,0 +1,28 @@
+---
+title: "東京科学大学 2005年 2005_b"
+problem_id: "08_titech-2005-2005_b"
+university: "東京科学大学"
+exam_year: "2005"
+source_tex: "archive/08_titech/2005/2005_b.tex"
+pdf_source: "archive/08_titech/2005/2005_b.pdf"
+page_image: "archive/08_titech/2005/2005_b.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$C$を半径1の円とし，その周上に長さ$\theta$の円弧$PQ$をおく．
+$C$と$P$で接し$C$の内部にある円を$A$，$C$と$Q$で接し，$A$にも接する円を$B$とする．
+\begin{description}
+\item[(1)]$A$と$B$の面積の和の最小値$S_\theta$を$\theta$で表せ．
+\item[(2)]$\theta$が0から2$\pi$まで動くとき，$S_\theta$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2005/2005_b.pdf)

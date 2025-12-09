@@ -1,0 +1,26 @@
+---
+title: "九州大学 1975年 1975_0_3"
+problem_id: "07_kyushu-1975-1975_0_3"
+university: "九州大学"
+exam_year: "1975"
+source_tex: "archive/07_kyushu/1975/1975_0_3.tex"
+pdf_source: "archive/07_kyushu/1975/1975_0_3.pdf"
+page_image: "archive/07_kyushu/1975/1975_0_3.jpg"
+fields:
+  - 三角関数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]$x=\sin{10}^\circ$は3次方程式$8x^3-6x+1=0$の根であることを証明せよ．
+\item[(2)]この3次方程式の2根を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1975/1975_0_3.pdf)

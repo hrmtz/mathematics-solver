@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1994年 1994_0_1"
+problem_id: "03_hokudai-1994-1994_0_1"
+university: "北海道大学"
+exam_year: "1994"
+source_tex: "archive/03_hokudai/1994/1994_0_1.tex"
+pdf_source: "archive/03_hokudai/1994/1994_0_1.pdf"
+page_image: "archive/03_hokudai/1994/1994_0_1.jpg"
+fields:
+  - 行列
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$を0でない実数とし，$P$を直線$y=ax$上の原点$O$以外の点とする．
+1次変換$f$が次の条件（イ）と（ロ）を満たすとする．
+\begin{description}
+\item[（イ）]$f$は点$(1, \, 0)$を点$(2, \, 0)$に移す．
+\item[（ロ）]$Q=f(P)$とすると，$\angle POQ$が直角となり，
+$\triangle POQ$の面積が$OP$の長さの2乗に等しい．
+\end{description}
+　このとき，$f$を表す行列$A$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_0_1.pdf)

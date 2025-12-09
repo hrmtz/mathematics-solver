@@ -1,0 +1,33 @@
+---
+title: "北海道大学 1987年 1987_2"
+problem_id: "03_hokudai-1987-1987_2"
+university: "北海道大学"
+exam_year: "1987"
+source_tex: "archive/03_hokudai/1987/1987_2.tex"
+pdf_source: "archive/03_hokudai/1987/1987_2.pdf"
+page_image: "archive/03_hokudai/1987/1987_2.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　平面上に2直線
+\[ l_1:y\cos\alpha-x\sin\alpha=0, \hspace{1zw} l_2:y\cos\beta-x\sin\beta=0 \]
+が与えられている．
+直線$l_1$，$l_2$に関する対称移動を表す行列をそれぞれ$A$，$B$とする．
+\begin{description}
+\item[(1)]行列$A$を求めよ．
+\item[(2)]$\alpha-\beta=\theta$とおくとき，
+積$AB$を$\theta$を用いて表せ．
+\item[(3)]${(AB)}^2=BA$を満たす$\theta$の値を求めよ．
+ただし，$0<\theta<\pi$とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1987/1987_2.pdf)

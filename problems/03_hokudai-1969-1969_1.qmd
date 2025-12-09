@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1969年 1969_1"
+problem_id: "03_hokudai-1969-1969_1"
+university: "北海道大学"
+exam_year: "1969"
+source_tex: "archive/03_hokudai/1969/1969_1.tex"
+pdf_source: "archive/03_hokudai/1969/1969_1.pdf"
+page_image: "archive/03_hokudai/1969/1969_1.jpg"
+fields:
+  - 代数
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$，$k$が実数であるとき，2次方程式
+\[ 3(k+1)x^2-3(k+3a)x+k+a=0 \hspace{1zw} \cdots\cdots\text{（イ）} \]
+について
+\begin{description}
+\item[(1)]$k$をいろいろかえても（イ）の2根の積が一定であるとき，$a$の値を求めよ．
+\item[(2)]$a$が(1)で求めた値で（イ）の2根が$\sin\theta$，$\cos\theta$であるとき，$k$の値を求めよ．
+\item[(3)]（イ）が(1)の条件を満たし，$k$が$|k|<1$の範囲で変わるとき（イ）の実根のとりうる値の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1969/1969_1.pdf)

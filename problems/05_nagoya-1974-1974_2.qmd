@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 1974年 1974_2"
+problem_id: "05_nagoya-1974-1974_2"
+university: "名古屋大学"
+exam_year: "1974"
+source_tex: "archive/05_nagoya/1974/1974_2.tex"
+pdf_source: "archive/05_nagoya/1974/1974_2.pdf"
+page_image: "archive/05_nagoya/1974/1974_2.jpg"
+fields:
+  - 空間図形
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\alpha$を空間内のある定まった平面とし，
+空間内の3点$A$，$B$，$C$の$\alpha$への正射影をそれぞれ$A'$，$B'$，$C'$とする．
+$AB=BC=CA=1$であり，かつ，$A'$，$B'$が定点であるように3点$A$，$B$，$C$が動くとき，
+$C'$はどんな図形を描くか．
+ただし$A'B'=\cos\theta$ $\displaystyle\left( 0\leqq\theta\leqq\frac{\pi}{2} \right)$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1974/1974_2.pdf)

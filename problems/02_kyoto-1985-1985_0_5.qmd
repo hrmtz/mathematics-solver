@@ -1,0 +1,37 @@
+---
+title: "京都大学 1985年 1985_0_5"
+problem_id: "02_kyoto-1985-1985_0_5"
+university: "京都大学"
+exam_year: "1985"
+source_tex: "archive/02_kyoto/1985/1985_0_5.tex"
+pdf_source: "archive/02_kyoto/1985/1985_0_5.pdf"
+page_image: "archive/02_kyoto/1985/1985_0_5.jpg"
+fields:
+  - 確率
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　正六角形の頂点を反時計まわりの順に，$A_0,A_1,\cdots\cdots,A_5$とし，
+次のルール\ding{"AC}，\ding{"AD}，\ding{"AE}に従ってゲームを行う．
+\begin{description}
+\item[\ding{"AC}]$A_0$を出発点とする．
+\item[\ding{"AD}]コインを投げ，表が出たら反時計まわりに隣の頂点に移動し，
+裏が出たら，時計まわりに隣の頂点に移動する．
+\item[\ding{"AE}]$A_0$の反対側の頂点$A_3$に到達したらゲームは終了する．
+\end{description}
+　整数$n$ $(n\geqq0)$に対して，
+\begin{description}
+\item[]$p_n$=$(2n+1)$回コインを投げ移動を行ってもゲームの終了しない確率
+\item[]$q_n$=ちょうど$(2n+1)$回目の移動によってゲームの終了する確率
+\end{description}
+とする．コインを投げたとき，表裏の出る確率はそれぞれ$\displaystyle\frac{1}{2}$ずつである．
+$p_n$および$q_n$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1985/1985_0_5.pdf)

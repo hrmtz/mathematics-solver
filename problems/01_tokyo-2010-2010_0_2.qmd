@@ -1,0 +1,26 @@
+---
+title: "東京大学 2010年 2010_0_2"
+problem_id: "01_tokyo-2010-2010_0_2"
+university: "東京大学"
+exam_year: "2010"
+source_tex: "archive/01_tokyo/2010/2010_0_2.tex"
+pdf_source: "archive/01_tokyo/2010/2010_0_2.pdf"
+page_image: "archive/01_tokyo/2010/2010_0_2.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　2次関数$f(x)=x^2+ax+b$に対して
+\[ f(x+1)=c\int_0^1(3x^2+4xt)f'(t)dt \]
+が$x$についての恒等式になるような定数$a$，$b$，$c$の組をすべて求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2010/2010_0_2.pdf)

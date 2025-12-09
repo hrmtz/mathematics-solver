@@ -1,0 +1,35 @@
+---
+title: "東京大学 1998年 1998_8"
+problem_id: "01_tokyo-1998-1998_8"
+university: "東京大学"
+exam_year: "1998"
+source_tex: "archive/01_tokyo/1998/1998_8.tex"
+pdf_source: "archive/01_tokyo/1998/1998_8.pdf"
+page_image: "archive/01_tokyo/1998/1998_8.jpg"
+fields:
+  - 三角関数
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　パラメタ$r$，$\theta$ $\displaystyle \left( r>0,0\leqq\theta\leqq\frac{\pi}{4} \right)$に対して$x$の関数
+\[ f(x)=r\sin(x+\theta) \]
+を考える．
+\begin{description}
+\item[(1)]$r$，$\theta$が等式
+\[ \int_0^{2\pi}{(\sin x-f(x))}^2dx=\int_0^{2\pi}{\sin}^2xdx \hspace{1zw} \cdots\cdots(E) \]
+を満たしているとき，$r$を$\theta$の関数として表せ．
+\item[(2)]式$(E)$を満たしながら$r$，$\theta$を動かしたとき，
+$0 \leqq x \leqq \pi$における$y=f(x)$のグラフは$xy$平面上を動く．
+これらのグラフが動く範囲$D$を求め，図示せよ．
+\item[(3)]図形$D$の面積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1998/1998_8.pdf)

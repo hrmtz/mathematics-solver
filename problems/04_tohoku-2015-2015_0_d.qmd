@@ -1,0 +1,28 @@
+---
+title: "東北大学 2015年 2015_0_d"
+problem_id: "04_tohoku-2015-2015_0_d"
+university: "東北大学"
+exam_year: "2015"
+source_tex: "archive/04_tohoku/2015/2015_0_d.tex"
+pdf_source: "archive/04_tohoku/2015/2015_0_d.pdf"
+page_image: "archive/04_tohoku/2015/2015_0_d.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xy$平面において、次の連立不等式が表す領域を$D$とする。
+\[ y\geqq|x^2-1|, \hspace{1zw} x\geqq|y-6|-5 \]
+\begin{description}
+\item[(1)]領域$D$を図示せよ。
+\item[(2)]領域$D$の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2015/2015_0_d.pdf)

@@ -1,0 +1,172 @@
+## 解答
+
+(1) 各点の座標を求める。
+
+直線 $L:ax+by=1$ と $x$ 軸との交点 $R$ は $y=0$ を代入して
+$$
+ax=1 \quad\Rightarrow\quad x=\frac1a
+$$
+より
+$$
+R\left(\frac1a,\,0\right)
+$$
+同様に $y$ 軸との交点 $S$ は $x=0$ より
+$$
+by=1 \quad\Rightarrow\quad y=\frac1b
+$$
+したがって
+$$
+S\left(0,\,\frac1b\right)
+$$
+である。
+
+曲線 $y=-\frac1x$ と直線 $ax+by=1$ の交点 $(x,y)$ は，$y=-\frac1x$ を直線の式に代入して
+$$
+ax+b\left(-\frac1x\right)=1
+$$
+すなわち
+$$
+ax-\frac{b}{x}=1
+$$
+両辺に $x$ を掛けて
+$$
+ax^2-x-b=0
+$$
+となる。これは $x$ についての 2 次方程式であり，解を $x_1,x_2$ とすると，対応する $y$ 座標は
+$$
+y_1=-\frac1{x_1},\quad y_2=-\frac1{x_2}
+$$
+である。曲線 $y=-\frac1x$ 上では $x>0$ のとき $y<0$，$x<0$ のとき $y>0$ なので，$y>0$ の交点 $P$ は $x<0$ 側，$y<0$ の交点 $Q$ は $x>0$ 側である。
+
+2 次方程式 $ax^2-x-b=0$ について，解と係数の関係より
+$$
+x_1+x_2=\frac1a,\qquad x_1x_2=-\frac{b}{a}
+$$
+を得る。
+
+(2) 線分 $PQ,RS$ の長さを求める。
+
+まず $RS$ の長さは，$R\left(\frac1a,0\right),\,S\left(0,\frac1b\right)$ より
+$$
+RS=\sqrt{\left(\frac1a-0\right)^2+\left(0-\frac1b\right)^2}
+=\sqrt{\frac1{a^2}+\frac1{b^2}}
+$$
+
+次に $PQ$ を求める。$P(x_1,y_1),Q(x_2,y_2)$ であり，$y_i=-1/x_i$ だから
+$$
+PQ=\sqrt{(x_1-x_2)^2+\left(-\frac1{x_1}+\frac1{x_2}\right)^2}
+$$
+と書ける。ここで
+$$
+\frac1{x_2}-\frac1{x_1}=\frac{x_1-x_2}{x_1x_2}
+$$
+なので
+$$
+PQ=\sqrt{(x_1-x_2)^2+\left(\frac{x_1-x_2}{x_1x_2}\right)^2}
+=|x_1-x_2|\sqrt{1+\frac1{(x_1x_2)^2}}
+$$
+
+一方
+$$
+(x_1-x_2)^2=(x_1+x_2)^2-4x_1x_2
+$$
+であるから，先ほどの関係 $x_1+x_2=\frac1a,\ x_1x_2=-\frac{b}{a}$ を代入して
+$$
+(x_1-x_2)^2=\left(\frac1a\right)^2-4\left(-\frac{b}{a}\right)
+=\frac1{a^2}+\frac{4b}{a}
+$$
+また
+$$
+(x_1x_2)^2=\left(-\frac{b}{a}\right)^2=\frac{b^2}{a^2}
+\quad\Rightarrow\quad
+1+\frac1{(x_1x_2)^2}
+=1+\frac{a^2}{b^2}
+=\frac{a^2+b^2}{b^2}
+$$
+したがって
+$$
+PQ=\sqrt{\frac1{a^2}+\frac{4b}{a}}\;\sqrt{\frac{a^2+b^2}{b^2}}
+$$
+
+(3) 条件 $\dfrac{PQ}{RS}=\sqrt2$ から $a,b$ の関係式を求める。
+
+$$
+\frac{PQ}{RS}
+=\frac{\sqrt{\frac1{a^2}+\frac{4b}{a}}\;\sqrt{\frac{a^2+b^2}{b^2}}}
+{\sqrt{\frac1{a^2}+\frac1{b^2}}}
+$$
+ここで $RS=\sqrt{\frac1{a^2}+\frac1{b^2}}
+=\dfrac{\sqrt{a^2+b^2}}{ab}$ なので，
+$$
+\frac{PQ}{RS}
+=\sqrt{\frac1{a^2}+\frac{4b}{a}}\;\sqrt{\frac{a^2+b^2}{b^2}}\;\frac{ab}{\sqrt{a^2+b^2}}
+= a\sqrt{\frac1{a^2}+\frac{4b}{a}}\cdot\frac{\sqrt{a^2+b^2}}{b}\cdot\frac{b}{\sqrt{a^2+b^2}}
+= a\sqrt{\frac1{a^2}+\frac{4b}{a}}
+$$
+ゆえに条件
+$$
+\frac{PQ}{RS}=\sqrt2
+$$
+は
+$$
+a\sqrt{\frac1{a^2}+\frac{4b}{a}}=\sqrt2
+$$
+と同値である。両辺を 2 乗して
+$$
+a^2\left(\frac1{a^2}+\frac{4b}{a}\right)=2
+\quad\Rightarrow\quad
+1+4ab=2
+\quad\Rightarrow\quad
+ab=\frac14
+$$
+を得る。
+
+したがって，$a,b$ は常に $ab=\dfrac14$ を満たしながら動く。
+
+(4) 線分 $PQ$ の中点 $M$ の座標を求め，その軌跡を求める。
+
+$P(x_1,y_1),Q(x_2,y_2)$ の中点 $M$ の座標を $(X,Y)$ とおくと
+$$
+X=\frac{x_1+x_2}{2},\qquad Y=\frac{y_1+y_2}{2}
+$$
+2 次方程式の解と係数の関係より $x_1+x_2=\dfrac1a$ なので
+$$
+X=\frac{1}{2a}
+$$
+
+次に $Y$ を求める。$y_i=-\dfrac1{x_i}$ であるから
+$$
+Y=\frac{y_1+y_2}{2}
+=\frac{-\frac1{x_1}-\frac1{x_2}}{2}
+=-\frac{x_1+x_2}{2x_1x_2}
+$$
+ここで $x_1+x_2=\dfrac1a,\ x_1x_2=-\dfrac{b}{a}$ なので
+$$
+Y=-\frac{\frac1a}{2\cdot\left(-\frac{b}{a}\right)}
+=\frac1{2b}
+$$
+
+よって，中点 $M$ の座標は
+$$
+M\left(\frac1{2a},\,\frac1{2b}\right)
+$$
+である。ここで $a,b>0$ かつ $ab=\dfrac14$ だから
+$$
+\left(\frac1{2a}\right)\left(\frac1{2b}\right)
+=\frac1{4ab}
+=\frac1{4\cdot\frac14}
+=1
+$$
+すなわち $M(X,Y)$ は
+$$
+XY=1
+$$
+を満たす。
+
+また $a,b>0$ より $X=\dfrac1{2a}>0,\ Y=\dfrac1{2b}>0$ であるから，$M$ は第 1 象限上にある。
+
+したがって，線分 $PQ$ の中点の軌跡は
+$$
+XY=1,\quad X>0,\ Y>0
+$$
+すなわち第 1 象限における双曲線 $xy=1$ である。

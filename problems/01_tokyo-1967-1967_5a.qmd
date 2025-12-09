@@ -1,0 +1,24 @@
+---
+title: "東京大学 1967年 1967_5a"
+problem_id: "01_tokyo-1967-1967_5a"
+university: "東京大学"
+exam_year: "1967"
+source_tex: "archive/01_tokyo/1967/1967_5a.tex"
+pdf_source: "archive/01_tokyo/1967/1967_5a.pdf"
+page_image: "archive/01_tokyo/1967/1967_5a.jpg"
+fields:
+  - 指数・対数
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5 新
+　$y=ax^2$のグラフが$y=\log_ex$のグラフに接するように定数$a$の値を定めよ．
+なお，そのときこれらのグラフと$x$軸とで囲まれる図形の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1967/1967_5a.pdf)

@@ -1,0 +1,31 @@
+---
+title: "東北大学 2004年 2004_0_1"
+problem_id: "04_tohoku-2004-2004_0_1"
+university: "東北大学"
+exam_year: "2004"
+source_tex: "archive/04_tohoku/2004/2004_0_1.tex"
+pdf_source: "archive/04_tohoku/2004/2004_0_1.pdf"
+page_image: "archive/04_tohoku/2004/2004_0_1.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　曲線$C:y=x^2-2$と直線$L:y=x$があり，
+曲線$D:y=-{(x-a)}^2+b$が$L$と接している．
+$C$と$L$の2つの交点を結ぶ線分上に$D$と$L$の接点があるとき，
+以下の問いに答えよ．
+\begin{description}
+\item[(1)]$b$を$a$で表し，$a$の取り得る値の範囲を求めよ．
+\item[(2)]2つの曲線$C$と$D$によって囲まれる図形の面積$S(a)$を求めよ．
+\item[(3)]$a$が動くとき，(2)の面積$S(a)$の最大値と最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2004/2004_0_1.pdf)

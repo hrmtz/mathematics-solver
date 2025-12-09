@@ -1,0 +1,40 @@
+---
+title: "東京大学 2020年 2020_4"
+problem_id: "01_tokyo-2020-2020_4"
+university: "東京大学"
+exam_year: "2020"
+source_tex: "archive/01_tokyo/2020/2020_4.tex"
+pdf_source: "archive/01_tokyo/2020/2020_4.pdf"
+page_image: "archive/01_tokyo/2020/2020_4.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$n$，$k$を，$1 \leqq k \leqq n$を満たす整数とする。$n$個の整数
+\[ 2^m \hspace{1zw} (m=0, \, 1, \, 2, \, \cdots\cdots, \, n-1) \]
+から異なる$k$個を選んでそれらの積をとる。
+$k$個の整数の選び方すべてに対しこのように積をとることにより得られる
+${}_nC_k$個の整数の和を$a_{n,k}$とおく。例えば，
+\[ a_{4,3}=2^0 \cdot 2^1 \cdot 2^2+2^0 \cdot 2^1 \cdot 2^3+
+2^0 \cdot 2^2 \cdot 2^3+2^1 \cdot 2^2 \cdot 2^3=120 \]
+である。
+\begin{description}
+\item[(1)]2以上の整数$n$に対し，$a_{n,2}$を求めよ。
+\item[(2)]1以上の整数$n$に対し，$x$についての整式
+\[ f_n(x)=1+a_{n,1}x+a_{n,2}x^2+\cdots\cdots+a_{n,n}x^n \]
+を考える。
+$\displaystyle\frac{f_{n+1}(x)}{f_n(x)}$と
+$\displaystyle\frac{f_{n+1}(x)}{f_n(2x)}$を
+$x$についての整式として表せ。
+\item[(3)]$\displaystyle\frac{a_{n+1,k+1}}{a_{n,k}}$を$n$，$k$で表せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2020/2020_4.pdf)

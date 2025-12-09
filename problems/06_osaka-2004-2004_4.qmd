@@ -1,0 +1,33 @@
+---
+title: "大阪大学 2004年 2004_4"
+problem_id: "06_osaka-2004-2004_4"
+university: "大阪大学"
+exam_year: "2004"
+source_tex: "archive/06_osaka/2004/2004_4.tex"
+pdf_source: "archive/06_osaka/2004/2004_4.pdf"
+page_image: "archive/06_osaka/2004/2004_4.jpg"
+fields:
+  - 数列
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　実数$a$，$r$に対し数列$\{ x_n \}$を
+$\begin{cases} x_1=a, & 
+
+ x_{n+1}=rx_n(1-x_n) & (n=1, \, 2, \, 3, \, \cdots) \end{cases}$
+で定める．
+\begin{description}
+\item[(1)]すべての$n$について$x_n=a$となるような$a$を求めよ．
+\item[(2)]$x_2 \neq a$，$x_3=a$となるような$a$の個数を求めよ．
+\item[(3)]$0 \leqq a \leqq 1$となるすべての$a$について
+$0 \leqq x_n \leqq 1$ $(n=2, \, 3, \, 4, \, \cdots)$が成り立つような$r$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_4.pdf)

@@ -1,0 +1,34 @@
+---
+title: "東京大学 2013年 2013_0_2"
+problem_id: "01_tokyo-2013-2013_0_2"
+university: "東京大学"
+exam_year: "2013"
+source_tex: "archive/01_tokyo/2013/2013_0_2.tex"
+pdf_source: "archive/01_tokyo/2013/2013_0_2.pdf"
+page_image: "archive/01_tokyo/2013/2013_0_2.jpg"
+fields:
+  - 平面図形
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　座標平面上の3点
+\[ P(0, \, -\sqrt2), \hspace{1zw} Q(0, \, 2), \hspace{1zw} A(a, \, \sqrt{a^2+1}) \hspace{1zw}
+(0 \leqq a \leqq 1) \]
+を考える。
+\begin{description}
+\item[(1)]2つの線分の長さの差$PA-AQ$は$a$によらない定数であることを示し，その値を求めよ。
+\item[(2)]$Q$を端点とし$A$を通る半直線と放物線$\displaystyle y=\frac{\sqrt2}{8}x^2$との交点を$B$とする。
+点$B$から直線$y=2$へ下ろした垂線と直線$y=2$との交点を$C$とする。
+このとき，線分の長さの和
+\[ PA+AB+BC \]
+は$a$によらない定数であることを示し，その値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2013/2013_0_2.pdf)

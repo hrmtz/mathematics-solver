@@ -1,0 +1,30 @@
+---
+title: "大阪大学 1987年 1987_3"
+problem_id: "06_osaka-1987-1987_3"
+university: "大阪大学"
+exam_year: "1987"
+source_tex: "archive/06_osaka/1987/1987_3.tex"
+pdf_source: "archive/06_osaka/1987/1987_3.pdf"
+page_image: "archive/06_osaka/1987/1987_3.jpg"
+fields:
+  - 微分法
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$a$，$b$を定数とし，$f(x)={(x-a)}^2e^{-x^2+b}$とおく．
+\begin{description}
+\item[(1)]関数$f(x)$が極大値をとる$x$の値$\alpha$，$\beta$ $(\alpha<\beta)$と，
+極小値をとる$x$の値$\gamma$を求めよ．
+\item[(2)]曲線$y=f(x)$上の3点$A(\alpha, \, f(\alpha))$，$B(\beta, \, f(\beta))$，$C(\gamma,\,f(\gamma))$について，
+ベクトル$\overrightarrow{CA}$，$\overrightarrow{CB}$の内積を$a$，$b$を用いて表せ．
+\item[(3)]$\angle ACB$が鋭角となるための$a$，$b$についての条件を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1987/1987_3.pdf)

@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1967年 1967_2"
+problem_id: "03_hokudai-1967-1967_2"
+university: "北海道大学"
+exam_year: "1967"
+source_tex: "archive/03_hokudai/1967/1967_2.tex"
+pdf_source: "archive/03_hokudai/1967/1967_2.pdf"
+page_image: "archive/03_hokudai/1967/1967_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　放物線$y^2=6x$において
+\begin{description}
+\item[(1)]この放物線上の原点と異なる点$A(a, \, b)$における法線
+（接点を通り接線に垂直な直線）
+と$x$軸との交点の座標を$a$で表わせ．
+\item[(2)]この放物線の焦点を通る任意の弦$AB$の両端$A$，$B$における法線が
+$x$軸と交わる点をそれぞれ$P$，$Q$とするとき
+$\displaystyle\frac{1}{{AP}^2}+\frac{1}{{BQ}^2}$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1967/1967_2.pdf)

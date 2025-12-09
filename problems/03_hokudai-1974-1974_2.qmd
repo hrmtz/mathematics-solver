@@ -1,0 +1,34 @@
+---
+title: "北海道大学 1974年 1974_2"
+problem_id: "03_hokudai-1974-1974_2"
+university: "北海道大学"
+exam_year: "1974"
+source_tex: "archive/03_hokudai/1974/1974_2.tex"
+pdf_source: "archive/03_hokudai/1974/1974_2.pdf"
+page_image: "archive/03_hokudai/1974/1974_2.jpg"
+fields:
+  - 複素数平面
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$n$を自然数とし，$\theta$は
+\[ (\cos\theta+i\sin\theta)(\cos2\theta+i\sin2\theta)\cdot\cdots\cdots\cdot(\cos n\theta+i\sin n\theta)=1 \]
+を満たすものとする．
+ただし$i$は虚数単位とする．
+\begin{description}
+\item[(1)]このような$\theta$は，$0<\theta\leqq2\pi$の範囲内に何個存在するか．
+\item[(2)](1)で存在する$\theta$の最小な値を$\theta_n$とし
+\[ z_n=(\cos\theta_1+i\sin\theta_1)(\cos\theta_2+i\sin\theta_2)\cdot\cdots\cdots\cdot(\cos\theta_n+i\sin\theta_n) \]
+とおく．
+$z_n$を極形式で表せ．
+\item[(3)]$z_n$が純虚数となるときの$n$の値と，そのときの$z_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1974/1974_2.pdf)

@@ -1,0 +1,24 @@
+---
+title: "北海道大学 1961年 1961_0_2"
+problem_id: "03_hokudai-1961-1961_0_2"
+university: "北海道大学"
+exam_year: "1961"
+source_tex: "archive/03_hokudai/1961/1961_0_2.tex"
+pdf_source: "archive/03_hokudai/1961/1961_0_2.pdf"
+page_image: "archive/03_hokudai/1961/1961_0_2.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\[ 2x+ay=2\cdots\cdots\cdots\text{（イ）}, \hspace{1zw} (a+2)x-y=a+6\cdots\cdots\cdots\text{（ロ）} \]
+（イ），（ロ）を同時に満たす整数$x$，$y$があるように$a$の値を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1961/1961_0_2.pdf)

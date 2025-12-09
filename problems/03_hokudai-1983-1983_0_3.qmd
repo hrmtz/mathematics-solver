@@ -1,0 +1,29 @@
+---
+title: "北海道大学 1983年 1983_0_3"
+problem_id: "03_hokudai-1983-1983_0_3"
+university: "北海道大学"
+exam_year: "1983"
+source_tex: "archive/03_hokudai/1983/1983_0_3.tex"
+pdf_source: "archive/03_hokudai/1983/1983_0_3.pdf"
+page_image: "archive/03_hokudai/1983/1983_0_3.jpg"
+fields:
+  - 指数・対数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+\begin{description}
+\item[(1)]$t$が$t>1$の範囲を動くとき，
+関数$f(t)=\log_2t+\log_t4$の最小値を求めよ．
+\item[(2)]$t>1$なるすべての$t$に対して，不等式
+\[ k\log_2t<{(\log_2t)}^2-\log_2t+2 \]
+が成り立つような$k$の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1983/1983_0_3.pdf)

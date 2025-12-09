@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 1975年 1975_0_2"
+problem_id: "05_nagoya-1975-1975_0_2"
+university: "名古屋大学"
+exam_year: "1975"
+source_tex: "archive/05_nagoya/1975/1975_0_2.tex"
+pdf_source: "archive/05_nagoya/1975/1975_0_2.pdf"
+page_image: "archive/05_nagoya/1975/1975_0_2.jpg"
+fields:
+  - 指数・対数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　次の(1)，(2)を解答せよ．
+\begin{description}
+\item[(1)]$\log_23$と$\displaystyle\frac{3}{2}$の大小を比較せよ．
+\item[(2)]3角形$ABC$において$\angle C=3\angle B$ならば$b<c<3b$であることを証明せよ．
+ただし$b=CA$，$c=AB$とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1975/1975_0_2.pdf)

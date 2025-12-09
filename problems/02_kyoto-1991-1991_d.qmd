@@ -1,0 +1,37 @@
+---
+title: "京都大学 1991年 1991_d"
+problem_id: "02_kyoto-1991-1991_d"
+university: "京都大学"
+exam_year: "1991"
+source_tex: "archive/02_kyoto/1991/1991_d.tex"
+pdf_source: "archive/02_kyoto/1991/1991_d.pdf"
+page_image: "archive/02_kyoto/1991/1991_d.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　平面上で次の方程式\ding{"AC}を満たす点全体の集合を$C_1$，
+\ding{"AD}を満たす点全体の集合を$C_2$とする．
+\begin{description}
+\item[\ding{"AC}]$x^2+y^2-1=0$
+\item[\ding{"AD}]$10x^2+14xy+5y^2=1$
+\end{description}
+\begin{description}
+\item[(1)]$a$，$b$，$c$，$d$は負でない整数で$ad-bc>0$を満たしている．
+さらに$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$の定める1次変換$f$が$C_2$を$C_1$に写している，
+すなわち$f(C_2)=C_1$である．
+このとき$a$，$b$，$c$，$d$を求めよ．
+\item[(2)]$C_2$上の点で$x$座標，$y$座標とも整数であるものは何個あるか．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_d.pdf)

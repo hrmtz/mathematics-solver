@@ -1,0 +1,34 @@
+---
+title: "京都大学 2000年 2000_6"
+problem_id: "02_kyoto-2000-2000_6"
+university: "京都大学"
+exam_year: "2000"
+source_tex: "archive/02_kyoto/2000/2000_6.tex"
+pdf_source: "archive/02_kyoto/2000/2000_6.pdf"
+page_image: "archive/02_kyoto/2000/2000_6.jpg"
+fields:
+  - 確率
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$n$，$k$は整数で，$n\geqq2$，$0\leqq k \leqq4$とする．
+サイコロを$n$回投げて出た目の和を5で割ったときの余りが$k$に等しくなる確率を$p_n(k)$とする．
+\begin{description}
+\item[(1)]$p_{n+1}(0),\cdots,p_{n+1}(4)$を$p_n(0),\cdots,p_n(4)$を用いて表せ．
+\item[(2)]$p_n(0),\cdots,p_n(4)$の最大値を$M_n$，最小値を$m_n$とするとき次の(イ)，(ロ)が成立することを示せ．
+\begin{description}
+\item[(イ)]$\displaystyle m_n \leqq \frac{1}{5} \leqq M_n$．
+\item[(ロ)]任意の$k$，$l$ $(0 \leqq k,l \leqq 4)$に対し
+$\displaystyle p_{n+1}(k)-p_{n+1}(l)\leqq\frac{1}{6}(M_n-m_n)$．
+\end{description}
+\item[(3)]$\displaystyle\lim_{n\to\infty}p_n(k)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_6.pdf)

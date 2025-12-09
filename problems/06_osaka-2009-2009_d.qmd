@@ -1,0 +1,28 @@
+---
+title: "大阪大学 2009年 2009_d"
+problem_id: "06_osaka-2009-2009_d"
+university: "大阪大学"
+exam_year: "2009"
+source_tex: "archive/06_osaka/2009/2009_d.tex"
+pdf_source: "archive/06_osaka/2009/2009_d.pdf"
+page_image: "archive/06_osaka/2009/2009_d.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$，$b$，$c$を実数とする．$f(x)=ax^2+bx+c$，$g(x)=x^3$とおく．
+2つの関数$y=f(x)$，$y=g(x)$のグラフが異なる2点$P$，$Q$を共有している．
+さらに点$P$での2つのグラフの接線が一致し，点$Q$での2つのグラフの接線は直交しているとする．
+これらの条件を満たすように$a$，$b$，$c$を変化させるとき，
+2つのグラフで囲まれた部分の面積$S$の最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2009/2009_d.pdf)

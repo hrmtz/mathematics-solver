@@ -1,0 +1,30 @@
+---
+title: "東北大学 2013年 2013_d"
+problem_id: "04_tohoku-2013-2013_d"
+university: "東北大学"
+exam_year: "2013"
+source_tex: "archive/04_tohoku/2013/2013_d.tex"
+pdf_source: "archive/04_tohoku/2013/2013_d.pdf"
+page_image: "archive/04_tohoku/2013/2013_d.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　袋の中に1，2，3，4，5の番号が1つずつ書かれた5つの玉が入っている。
+この中から無作為に1個の玉を取り出し，玉に書かれている数字を記録したのち袋に戻すという操作を行う。
+その操作を繰り返し，記録された数字の和が3の倍数になった時点で終了する。
+ただし，1回目で3の倍数が出た場合は，その時点で終了とする。
+$n$回目の操作で終了する確率を$p_n$とする。
+\begin{description}
+\item[(1)]$p_1$，$p_2$を求めよ。
+\item[(2)]$n\geqq3$のとき，$p_n$を$n$の式で表せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2013/2013_d.pdf)

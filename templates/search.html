@@ -84,6 +84,11 @@
       margin-top: 0.3rem;
     }
 
+    .btn-secondary {
+      background: #e5e7eb;
+      color: #111827;
+    }
+
     table {
       width: 100%;
       border-collapse: collapse;
@@ -127,8 +132,15 @@
 </head>
 <body>
   <div class="page">
-    <h1>問題検索</h1>
-    <p class="text-muted">アーカイブ済みの問題を、大学・年度・分野で絞り込みます。</p>
+    <div style="display:flex; justify-content:space-between; align-items:baseline; gap:1rem;">
+      <div>
+        <h1>問題検索</h1>
+        <p class="text-muted">アーカイブ済みの問題を、大学・年度・分野で絞り込みます。</p>
+      </div>
+      <div>
+        <a href="{{ url_for('upload') }}" style="font-size:0.85rem; text-decoration:none; color:var(--accent);">新しい問題をアップロード &raquo;</a>
+      </div>
+    </div>
 
     <div class="card">
       <form method="get" action="{{ url_for('search') }}">
@@ -144,11 +156,21 @@
           </div>
           <div>
             <label>年度 (from)</label>
-            <input type="number" name="year_from" min="{{ year_min or '' }}" max="{{ year_max or '' }}" value="{{ year_from }}" placeholder="{{ year_min or '' }}">
+            <select name="year_from">
+              <option value="">すべて</option>
+              {% for y in year_options %}
+                <option value="{{ y }}" {% if year_from and year_from|int == y %}selected{% endif %}>{{ y }}</option>
+              {% endfor %}
+            </select>
           </div>
           <div>
             <label>年度 (to)</label>
-            <input type="number" name="year_to" min="{{ year_min or '' }}" max="{{ year_max or '' }}" value="{{ year_to }}" placeholder="{{ year_max or '' }}">
+            <select name="year_to">
+              <option value="">すべて</option>
+              {% for y in year_options %}
+                <option value="{{ y }}" {% if year_to and year_to|int == y %}selected{% endif %}>{{ y }}</option>
+              {% endfor %}
+            </select>
           </div>
           <div>
             <label>分野</label>
@@ -160,7 +182,10 @@
             </select>
           </div>
         </div>
-        <button class="btn" type="submit">検索</button>
+        <button class="btn" type="submit" name="mode" value="search">検索</button>
+        <button class="btn btn-secondary" type="submit" name="mode" value="random" style="margin-left:0.5rem;">
+          この条件からランダムに10問
+        </button>
       </form>
     </div>
 
@@ -170,8 +195,8 @@
           <tr>
             <th style="width: 18%;">大学</th>
             <th style="width: 8%;">年度</th>
-            <th style="width: 12%;">問題ID</th>
             <th>タイトル</th>
+            <th style="width: 18%;">本文</th>
             <th style="width: 22%;">分野</th>
             <th style="width: 12%;">状態</th>
             <th style="width: 10%;"></th>
@@ -182,8 +207,8 @@
             <tr>
               <td>{{ item.university }}</td>
               <td>{% if item.exam_year %}{{ item.exam_year }}{% endif %}</td>
-              <td>{{ item.problem_id }}</td>
               <td>{{ item.title }}</td>
+              <td>{{ item.snippet or '' }}</td>
               <td>
                 {% for f in item.fields %}
                   <span class="pill">{{ f }}</span>

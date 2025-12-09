@@ -1,0 +1,29 @@
+---
+title: "大阪大学 2022年 2022_2"
+problem_id: "06_osaka-2022-2022_2"
+university: "大阪大学"
+exam_year: "2022"
+source_tex: "archive/06_osaka/2022/2022_2.tex"
+pdf_source: "archive/06_osaka/2022/2022_2.pdf"
+page_image: "archive/06_osaka/2022/2022_2.jpg"
+fields:
+  - 三角関数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\displaystyle\alpha=\frac{2\pi}{7}$とする．以下の問いに答えよ．
+\begin{description}
+\item[(1)]$\cos4\alpha=\cos3\alpha$であることを示せ．
+\item[(2)]$f(x)=8x^3+4x^2-4x-1$とするとき，
+$f(\cos\alpha)=0$が成り立つことを示せ．
+\item[(3)]$\cos\alpha$は無理数であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2022/2022_2.pdf)

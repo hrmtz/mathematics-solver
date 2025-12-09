@@ -1,0 +1,25 @@
+---
+title: "京都大学 1993年 1993_d"
+problem_id: "02_kyoto-1993-1993_d"
+university: "京都大学"
+exam_year: "1993"
+source_tex: "archive/02_kyoto/1993/1993_d.tex"
+pdf_source: "archive/02_kyoto/1993/1993_d.pdf"
+page_image: "archive/02_kyoto/1993/1993_d.jpg"
+fields:
+  - 不等式
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$は正の定数とする．
+不等式$a^x \geqq ax$がすべての正の数$x$に対して成り立つという．
+このとき$a$はどのようなものか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1993/1993_d.pdf)

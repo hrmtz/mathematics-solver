@@ -1,0 +1,30 @@
+---
+title: "東北大学 2018年 2018_d"
+problem_id: "04_tohoku-2018-2018_d"
+university: "東北大学"
+exam_year: "2018"
+source_tex: "archive/04_tohoku/2018/2018_d.tex"
+pdf_source: "archive/04_tohoku/2018/2018_d.pdf"
+page_image: "archive/04_tohoku/2018/2018_d.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　数列$a_1, \, a_2, \, \cdots, \, a_n, \, \cdots$は，次を満たすとする。
+\[ a_n=\begin{cases} 0 & (n=1\text{のとき})
+\displaystyle\frac{1}{2}\sqrt{|a_{n-1}+1|}-1 & (n\text{が偶数のとき})
+a_{n-1}^2+2a_{n-1} & (n\text{が奇数で}n\geqq3\text{のとき}) \end{cases} \]
+\begin{description}
+\item[(1)]$n$が奇数のとき，$a_n$を求めよ。
+\item[(2)]$n$が偶数のとき，$a_n$を求めよ。
+\item[(3)]$\displaystyle\lim_{n\to\infty}a_n$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_d.pdf)

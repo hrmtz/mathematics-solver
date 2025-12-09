@@ -1,0 +1,26 @@
+---
+title: "大阪大学 1989年 1989_2"
+problem_id: "06_osaka-1989-1989_2"
+university: "大阪大学"
+exam_year: "1989"
+source_tex: "archive/06_osaka/1989/1989_2.tex"
+pdf_source: "archive/06_osaka/1989/1989_2.pdf"
+page_image: "archive/06_osaka/1989/1989_2.jpg"
+fields:
+  - 数列
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　正の整数$n$に対して
+$x_n=r^n\sin n\theta$ $\displaystyle\left(\text{ただし}r>0, \, 0<\theta<\frac{\pi}{2}\right)$とおく．
+$\displaystyle x_1=\frac{\sqrt3}{4}$，$\displaystyle x_2=\frac{\sqrt3}{8}$であるとき
+$\displaystyle\sum_{n=1}^\infty x_n$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1989/1989_2.pdf)

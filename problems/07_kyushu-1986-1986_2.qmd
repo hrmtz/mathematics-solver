@@ -1,0 +1,30 @@
+---
+title: "九州大学 1986年 1986_2"
+problem_id: "07_kyushu-1986-1986_2"
+university: "九州大学"
+exam_year: "1986"
+source_tex: "archive/07_kyushu/1986/1986_2.tex"
+pdf_source: "archive/07_kyushu/1986/1986_2.pdf"
+page_image: "archive/07_kyushu/1986/1986_2.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　1辺の長さが1cmの正四面体$ABCD$の辺$AB$，$AC$，$AD$上を，
+それぞれ点$P$，$Q$，$R$が毎秒1cm，2cm，4cmの速さで往復している．
+3点$P$，$Q$，$R$は同時に点$A$を出発したとして，
+$t$秒後の点$P$，$Q$，$R$について，次の(1)，(2)に答えよ．
+\begin{description}
+\item[(1)]$\overline{AP}=\overline{AQ}=\overline{AR}$となるときの$t$の値を求めよ．
+\item[(2)]$\displaystyle\frac{1}{4}\leqq t \leqq\frac{1}{2}$において，
+$\overline{PQ}^2+\overline{QR}^2+\overline{RP}^2$の最大値と最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1986/1986_2.pdf)

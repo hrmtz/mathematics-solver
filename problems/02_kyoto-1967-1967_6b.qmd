@@ -1,0 +1,27 @@
+---
+title: "京都大学 1967年 1967_6b"
+problem_id: "02_kyoto-1967-1967_6b"
+university: "京都大学"
+exam_year: "1967"
+source_tex: "archive/02_kyoto/1967/1967_6b.tex"
+pdf_source: "archive/02_kyoto/1967/1967_6b.pdf"
+page_image: "archive/02_kyoto/1967/1967_6b.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6 旧
+　長さの単位をセンチメートル，時間$t$の単位を秒とする．
+曲線$y=x^2$の軸を鉛直にして，この曲線を軸のまわりに回転してえられる曲面を内面とする容器がある．
+ある時刻$(t=0)$に水をこの容器に入れ始め，任意の$t$ $(>0)$に対して，
+$t$秒後の水面の上昇速度が$t^2cm/sec$であるようにするには，
+水の注入速度(単位は${cm}^3/sec$)をどのようにすればよいか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1967/1967_6b.pdf)

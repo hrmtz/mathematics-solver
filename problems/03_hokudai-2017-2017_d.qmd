@@ -1,0 +1,34 @@
+---
+title: "北海道大学 2017年 2017_d"
+problem_id: "03_hokudai-2017-2017_d"
+university: "北海道大学"
+exam_year: "2017"
+source_tex: "archive/03_hokudai/2017/2017_d.tex"
+pdf_source: "archive/03_hokudai/2017/2017_d.pdf"
+page_image: "archive/03_hokudai/2017/2017_d.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a$，$b$を実数とし，放物線$y={(x-a)}^2+b$を$Q$とおく。
+また，直線$y=x-1$を$l$とおく。
+$Q$と$l$は共有点を持たないか，あるいは1点で接しているとする。
+\begin{description}
+\item[(1)]$a$，$b$の満たす条件を求めよ。
+\item[(2)]$Q$上の点のうち$l$までの距離が最小となるものを$A$とおく。
+また，$Q$上の点$B$における$Q$の接線は，点$C$において$l$と垂直に交わっているとする。
+このとき，3点$A$，$B$，$C$の座標を$a$，$b$を用いて表せ。
+\item[(3)]$a$，$b$がさらに条件
+\[ a\geqq0, \hspace{1zw} b\leqq2, \hspace{1zw} b\leqq2a+1 \]
+を満たすとき，(2)で求めた3点を頂点とする$\triangle ABC$の面積の最大値と最小値を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2017/2017_d.pdf)

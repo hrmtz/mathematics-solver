@@ -1,0 +1,33 @@
+---
+title: "名古屋大学 1986年 1986_1"
+problem_id: "05_nagoya-1986-1986_1"
+university: "名古屋大学"
+exam_year: "1986"
+source_tex: "archive/05_nagoya/1986/1986_1.tex"
+pdf_source: "archive/05_nagoya/1986/1986_1.pdf"
+page_image: "archive/05_nagoya/1986/1986_1.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]だ円$\displaystyle\frac{x^2}{4}+{(y-2)}^2=1$を
+行列$\displaystyle\begin{pmatrix} \displaystyle\frac{1}{2} & -1 
+
+ \displaystyle\frac{1}{2} & 1 \end{pmatrix}$によって
+変換して得られる曲線の方程式を求めよ．
+\item[(2)](1)で得られた曲線上の点$P$に対して，
+原点$O$から出て$P$を通る半直線上に$\overline{OP}\cdot\overline{OQ}=8$を満たすように点$Q$をとる．
+$P$がこの曲線上を動くときに$Q$が描く曲線の方程式を求めよ．
+ただし，$\overline{OP}$は線分$OP$の長さを表す．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1986/1986_1.pdf)

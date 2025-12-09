@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 1974年 1974_3"
+problem_id: "05_nagoya-1974-1974_3"
+university: "名古屋大学"
+exam_year: "1974"
+source_tex: "archive/05_nagoya/1974/1974_3.tex"
+pdf_source: "archive/05_nagoya/1974/1974_3.pdf"
+page_image: "archive/05_nagoya/1974/1974_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　底辺$a$，高さ$h$の2等辺3角形がある．
+\begin{description}
+\item[(1)]この3角形の内接円の半径$r$を$a$と$h$を用いて表せ．
+\item[(2)]$n$が0でない整数で，$ah^n=1$を満たしながら$a$，$h$が変化するとき，
+$\displaystyle\lim_{a\to\infty}\frac{r}{a}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1974/1974_3.pdf)

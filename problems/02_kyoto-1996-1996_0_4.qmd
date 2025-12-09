@@ -1,0 +1,28 @@
+---
+title: "京都大学 1996年 1996_0_4"
+problem_id: "02_kyoto-1996-1996_0_4"
+university: "京都大学"
+exam_year: "1996"
+source_tex: "archive/02_kyoto/1996/1996_0_4.tex"
+pdf_source: "archive/02_kyoto/1996/1996_0_4.pdf"
+page_image: "archive/02_kyoto/1996/1996_0_4.jpg"
+fields:
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　正の実数$a$に対し，
+実数全体で定義される関数$g(x)$を$\displaystyle g(x)=\int_{-2}^2|x-t|(t^2-a^2)dt$で定める．
+このとき，
+$g(x)$が最小値を持つような$a$の範囲を求めよ．
+また$a$がそのような範囲にあるとき，
+$g(x)$の最小値を$a$を用いて表せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_0_4.pdf)

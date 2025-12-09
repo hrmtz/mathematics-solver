@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1961年 1961_4"
+problem_id: "08_titech-1961-1961_4"
+university: "東京科学大学"
+exam_year: "1961"
+source_tex: "archive/08_titech/1961/1961_4.tex"
+pdf_source: "archive/08_titech/1961/1961_4.pdf"
+page_image: "archive/08_titech/1961/1961_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　定線分$AB$上に任意の点$C$をとり，
+$AC$，$BC$を直径とする2円の共通外接線を引いて，
+両円との接点をそれぞれ$P$，$Q$とするとき，
+線分$PQ$の中点$M$の軌跡を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1961/1961_4.pdf)

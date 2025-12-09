@@ -1,0 +1,35 @@
+---
+title: "九州大学 1986年 1986_0_2"
+problem_id: "07_kyushu-1986-1986_0_2"
+university: "九州大学"
+exam_year: "1986"
+source_tex: "archive/07_kyushu/1986/1986_0_2.tex"
+pdf_source: "archive/07_kyushu/1986/1986_0_2.pdf"
+page_image: "archive/07_kyushu/1986/1986_0_2.jpg"
+fields:
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{c}$を空間内の単位ベクトルとし，
+任意の単位ベクトル$\overrightarrow{d}$に対して，
+${(\overrightarrow{a}\cdot\overrightarrow{d})}^2+
+{(\overrightarrow{b}\cdot\overrightarrow{d})}^2+
+{(\overrightarrow{c}\cdot\overrightarrow{d})}^2$が
+一定の値$k$をとるとする．
+ただし，$\overrightarrow{s}\cdot\overrightarrow{t}$は
+ベクトル$\overrightarrow{s}$，$\overrightarrow{t}$の内積を表す．
+このとき，次の(1)，(2)に答えよ．
+\begin{description}
+\item[(1)]$k$を求めよ．
+\item[(2)]$\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{c}$は
+互いに直交することを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1986/1986_0_2.pdf)

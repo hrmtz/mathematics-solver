@@ -1,0 +1,28 @@
+---
+title: "東京大学 1982年 1982_0_2"
+problem_id: "01_tokyo-1982-1982_0_2"
+university: "東京大学"
+exam_year: "1982"
+source_tex: "archive/01_tokyo/1982/1982_0_2.tex"
+pdf_source: "archive/01_tokyo/1982/1982_0_2.pdf"
+page_image: "archive/01_tokyo/1982/1982_0_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$xy$平面上の曲線$y=x^2$上の3点を，$x$座標の小さいものから順に$A$，$B$，$C$とする．
+$A$と$B$との$x$座標の差は$a$ $(a\text{は正の定数})$，
+$B$と$C$との$x$座標の差は1，
+という関係を保ちながら3点$A$，$B$，$C$が動く．
+　$\angle CAB$が最大になるときの，点$A$の$x$座標を$a$で表わせ．
+また，$\angle CAB$が最大になるときに，$\angle ABC$が直角になるような$a$の値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1982/1982_0_2.pdf)

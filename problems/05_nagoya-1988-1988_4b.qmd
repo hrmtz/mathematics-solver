@@ -1,0 +1,36 @@
+---
+title: "名古屋大学 1988年 1988_4b"
+problem_id: "05_nagoya-1988-1988_4b"
+university: "名古屋大学"
+exam_year: "1988"
+source_tex: "archive/05_nagoya/1988/1988_4b.tex"
+pdf_source: "archive/05_nagoya/1988/1988_4b.pdf"
+page_image: "archive/05_nagoya/1988/1988_4b.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (b)
+　1から順に7まで番号をつけた箱がある．
+1つの球を次の規則に従って1つの箱から他の箱に移す試行をくり返すものとする．
+球の入っている箱の番号を$a$とし，
+サイコロを振って出た目の数を$b$とする．
+$a>b$ならば$a-1$番の箱に移し，
+$a \leqq b$ならば$a+1$番の箱に移す．
+最初は4番の箱に球が入っている．
+$2n$回（偶数回）の試行後，球が4番の箱に入っている確率を$p_n$，
+2番の箱に入っている確率を$q_n$，6番の箱に入っている確率を$r_n$とする．
+\begin{description}
+\item[(1)]$p_1$，$q_1$，$r_1$を求めよ．
+\item[(2)]$n\geqq2$に対して，$p_n$，$q_n$，$r_n$を求めよ．
+\item[(3)]$\displaystyle \lim_{n\to\infty}p_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1988/1988_4b.pdf)

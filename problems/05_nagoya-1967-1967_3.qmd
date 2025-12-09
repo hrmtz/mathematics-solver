@@ -1,0 +1,30 @@
+---
+title: "名古屋大学 1967年 1967_3"
+problem_id: "05_nagoya-1967-1967_3"
+university: "名古屋大学"
+exam_year: "1967"
+source_tex: "archive/05_nagoya/1967/1967_3.tex"
+pdf_source: "archive/05_nagoya/1967/1967_3.pdf"
+page_image: "archive/05_nagoya/1967/1967_3.jpg"
+fields:
+  - 平面図形
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　方程式$x^{2n}+y^{2n}=1$（$n$は正の整数）の表わす曲線を$C_n$とするとき，
+次のことを証明せよ．
+\begin{description}
+\item[(1)]直線$y=ax$ $(a\neq0)$と$C_n$との交点は2つで，
+原点から等距離にある．
+\item[(2)]その交点間の距離を$d_n$とすれば，
+$d_n<d_{n+1}$である．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1967/1967_3.pdf)

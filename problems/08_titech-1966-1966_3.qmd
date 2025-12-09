@@ -1,0 +1,23 @@
+---
+title: "東京科学大学 1966年 1966_3"
+problem_id: "08_titech-1966-1966_3"
+university: "東京科学大学"
+exam_year: "1966"
+source_tex: "archive/08_titech/1966/1966_3.tex"
+pdf_source: "archive/08_titech/1966/1966_3.pdf"
+page_image: "archive/08_titech/1966/1966_3.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$\displaystyle\frac{1}{p}+\frac{1}{q}=1$，$p>0$，$q>0$のとき，
+$x\geqq0$において，$x$と$\displaystyle\frac{1}{p}x^p+\frac{1}{q}$との大小を比較せよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1966/1966_3.pdf)

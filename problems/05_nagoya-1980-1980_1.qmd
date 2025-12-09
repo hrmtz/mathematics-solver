@@ -1,0 +1,33 @@
+---
+title: "名古屋大学 1980年 1980_1"
+problem_id: "05_nagoya-1980-1980_1"
+university: "名古屋大学"
+exam_year: "1980"
+source_tex: "archive/05_nagoya/1980/1980_1.tex"
+pdf_source: "archive/05_nagoya/1980/1980_1.pdf"
+page_image: "archive/05_nagoya/1980/1980_1.jpg"
+fields:
+  - 行列
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　行列$A=\begin{pmatrix} a & b 
+
+ 0 & \displaystyle\frac{1}{a} \end{pmatrix}$が
+$A^3=\begin{pmatrix} a^3 & 1 
+
+ 0 & \displaystyle\frac{1}{a^3} \end{pmatrix}$を満たすとき，
+次の(1)，(2)を解答せよ．
+\begin{description}
+\item[(1)]$b$を$a$の式で表せ．
+\item[(2)]$a$が$a>0$の範囲で変化するとき，$b$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1980/1980_1.pdf)

@@ -1,0 +1,28 @@
+---
+title: "北海道大学 2001年 2001_3"
+problem_id: "03_hokudai-2001-2001_3"
+university: "北海道大学"
+exam_year: "2001"
+source_tex: "archive/03_hokudai/2001/2001_3.tex"
+pdf_source: "archive/03_hokudai/2001/2001_3.pdf"
+page_image: "archive/03_hokudai/2001/2001_3.jpg"
+fields:
+  - 平面図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$xy$平面上の円$x^2+y^2=1$へ，この円の外部の点$P(a,b)$から2本の接線を引き，
+その接点を$A$，$B$とし，線分$AB$の中点を$Q$とする．
+\begin{description}
+\item[(1)]点$Q$の座標を$a$，$b$を用いて表せ．
+\item[(2)]点$P$が円${(x-3)}^2+y^2=1$の上を動くとき，点$Q$の軌跡を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2001/2001_3.pdf)

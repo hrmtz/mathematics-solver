@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1999年 1999_2"
+problem_id: "05_nagoya-1999-1999_2"
+university: "名古屋大学"
+exam_year: "1999"
+source_tex: "archive/05_nagoya/1999/1999_2.tex"
+pdf_source: "archive/05_nagoya/1999/1999_2.pdf"
+page_image: "archive/05_nagoya/1999/1999_2.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　曲線$C:y=x^3$上を動く点$P(t, \, t^3)$（ただし，$t\neq0$）がある．
+点$P$における$C$の接線と$C$とのもう1つの交点を$Q$とし，
+点$Q$における$C$の接線と$C$とのもう1つの交点を$R$とする．
+このとき，$\cos\angle PQR$のとりうる値の範囲を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1999/1999_2.pdf)

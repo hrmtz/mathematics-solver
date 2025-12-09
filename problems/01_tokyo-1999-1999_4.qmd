@@ -1,0 +1,28 @@
+---
+title: "東京大学 1999年 1999_4"
+problem_id: "01_tokyo-1999-1999_4"
+university: "東京大学"
+exam_year: "1999"
+source_tex: "archive/01_tokyo/1999/1999_4.tex"
+pdf_source: "archive/01_tokyo/1999/1999_4.pdf"
+page_image: "archive/01_tokyo/1999/1999_4.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$xyz$空間において$xy$平面上に円板$A$があり$xz$平面上に円板$B$があって以下の2条件を満たしているものとする．
+\begin{description}
+\item[(a)]$A$，$B$は原点からの距離が1以下の領域に含まれる．
+\item[(b)]$A$，$B$は一点$P$のみを共有し，$P$はそれぞれの円周上にある．
+\end{description}
+　このような円板$A$と$B$の半径の和の最大値を求めよ．
+ただし，円板とは円の内部と円周をあわせたものを意味する．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1999/1999_4.pdf)

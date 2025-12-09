@@ -1,0 +1,31 @@
+---
+title: "北海道大学 1964年 1964_1"
+problem_id: "03_hokudai-1964-1964_1"
+university: "北海道大学"
+exam_year: "1964"
+source_tex: "archive/03_hokudai/1964/1964_1.tex"
+pdf_source: "archive/03_hokudai/1964/1964_1.pdf"
+page_image: "archive/03_hokudai/1964/1964_1.jpg"
+fields:
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　高さが1の正三角形$ABC$内の1点$P$より
+3辺$BC$，$CA$，$AB$におろした垂線の長さをそれぞれ$x_1$，$x_2$，$x_3$とする．
+\begin{description}
+\item[(1)]$x_1+x_2+x_3$の値はいくらか。
+\item[(2)]$x_2$と$x_3$との間に$x_2+2x_3=1$の関係があるような点$P$はどのような線上にあるか。
+その線を図示せよ。
+\item[(3)]$x_1$，$x_2$，$x_3$が3つの不等式$x_2+2x_3\leqq1$，$x_3+2x_1\geqq1$，$3x_1+x_2+x_3\leqq2$
+を満足するような点$P$の存在する範囲を図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_1.pdf)

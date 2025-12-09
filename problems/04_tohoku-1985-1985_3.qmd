@@ -1,0 +1,27 @@
+---
+title: "東北大学 1985年 1985_3"
+problem_id: "04_tohoku-1985-1985_3"
+university: "東北大学"
+exam_year: "1985"
+source_tex: "archive/04_tohoku/1985/1985_3.tex"
+pdf_source: "archive/04_tohoku/1985/1985_3.pdf"
+page_image: "archive/04_tohoku/1985/1985_3.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$[x]$によって実数$x$をこえない最大の整数を表し，
+$\displaystyle f(x)=\left| x-2\left[ \frac{x+1}{2} \right] \right|$とおく．
+\begin{description}
+\item[(1)]$y=f(x)$のグラフを描け．
+\item[(2)]$\displaystyle\lim_{n\to\infty}\int_0^{2n}e^{-2x}f(x)dx$の値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1985/1985_3.pdf)

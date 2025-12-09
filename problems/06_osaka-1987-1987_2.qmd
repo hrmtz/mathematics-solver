@@ -1,0 +1,34 @@
+---
+title: "大阪大学 1987年 1987_2"
+problem_id: "06_osaka-1987-1987_2"
+university: "大阪大学"
+exam_year: "1987"
+source_tex: "archive/06_osaka/1987/1987_2.tex"
+pdf_source: "archive/06_osaka/1987/1987_2.pdf"
+page_image: "archive/06_osaka/1987/1987_2.jpg"
+fields:
+  - 平面図形
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　座標平面上に，点$A(p\sin\theta, \, p\cos\theta)$と
+直線$l:x\sin\theta+y\cos\theta+p=0$が与えられたとき，
+$A$までの距離と，$l$までの距離が等しいような点$P$の軌跡を$C$とする．
+ただし，$p>0$，$\displaystyle0<\theta<\frac{\pi}{2}$である．
+\begin{description}
+\item[(1)]$C$を原点のまわりに$\theta$だけ回転して得られる曲線の方程式を求めよ．
+\item[(2)]$C$と$x$軸とによって囲まれた部分の面積を$S$とする．
+$S$を$p$と$\theta$を用いて表せ．
+\item[(3)]$p$と$\theta$が関係$p=\cos^2\theta$を満たし，
+$\theta$が$\displaystyle0<\theta<\frac{\pi}{2}$の範囲を動くとき，
+$S$の最大値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1987/1987_2.pdf)

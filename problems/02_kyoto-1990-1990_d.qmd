@@ -1,0 +1,29 @@
+---
+title: "京都大学 1990年 1990_d"
+problem_id: "02_kyoto-1990-1990_d"
+university: "京都大学"
+exam_year: "1990"
+source_tex: "archive/02_kyoto/1990/1990_d.tex"
+pdf_source: "archive/02_kyoto/1990/1990_d.pdf"
+page_image: "archive/02_kyoto/1990/1990_d.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　座標空間に3点$P$，$Q$，$R$があって毎秒1の速さで，それぞれ
+\begin{description}
+\item[]点$P$は原点$(0,0,0)$を出発して$x$軸上を正の方向へ，
+\item[]点$Q$は点$(2,0,0)$を出発して$y$軸と平行に正の方向へ，
+\item[]点$R$は点$(2,2,0)$を出発して$z$軸と平行に正の方向へ
+\end{description}
+進む．このとき三角形$PQR$の面積$S$が最小となるのは何秒後か．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1990/1990_d.pdf)

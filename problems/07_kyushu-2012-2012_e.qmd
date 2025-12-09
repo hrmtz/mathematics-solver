@@ -1,0 +1,45 @@
+---
+title: "九州大学 2012年 2012_e"
+problem_id: "07_kyushu-2012-2012_e"
+university: "九州大学"
+exam_year: "2012"
+source_tex: "archive/07_kyushu/2012/2012_e.tex"
+pdf_source: "archive/07_kyushu/2012/2012_e.pdf"
+page_image: "archive/07_kyushu/2012/2012_e.jpg"
+fields:
+  - 行列
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　数直線上に2点$X_1$，$X_2$を取り，それぞれの座標を$a_1$および$a_2$とする。ただし，$0<a_1<a_2$とする。
+線分$X_1X_2$を$s:1-s$に内分する点を$X_3$，線分$X_2X_3$を$s:1-s$に内分する点を$X_4$，
+同様に自然数$k$に対して線分$X_kX_{k+1}$を$s:1-s$に内分する点を$X_{k+2}$とする。ただし，$0<s<1$とする。
+このとき，以下の問いに答えよ。
+\begin{description}
+\item[(1)]2点$X_{2n-1}$，$X_{2n}$の座標を並べて
+ベクトル$\begin{pmatrix} a_{2n-1} 
+
+ a_{2n} \end{pmatrix}$で表し，
+\[ \begin{pmatrix} a_{2n+1} 
+
+ a_{2n+2} \end{pmatrix}=A\begin{pmatrix} a_{2n-1} 
+
+ a_{2n} \end{pmatrix} \]
+と書くとき，行列$A$を$s$を用いて表せ。ただし，$n$は自然数である。
+\item[(2)]行列$P$を
+\[ P=\begin{pmatrix} 1 & 1 
+
+ s-1 & 1 \end{pmatrix} \]
+とし，行列$B$を$B=P^{-1}AP$とする。行列$B$を求めよ。
+\item[(3)]座標$a_{2n+1}$および$a_{2n+2}$を$n$，$s$，$a_1$，$a_2$を用いて表せ。
+\item[(4)]点$X_k$の座標$a_k$の極限$\displaystyle\lim_{k\to\infty}a_k$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2012/2012_e.pdf)

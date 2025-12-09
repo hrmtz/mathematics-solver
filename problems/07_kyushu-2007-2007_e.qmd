@@ -1,0 +1,31 @@
+---
+title: "九州大学 2007年 2007_e"
+problem_id: "07_kyushu-2007-2007_e"
+university: "九州大学"
+exam_year: "2007"
+source_tex: "archive/07_kyushu/2007/2007_e.tex"
+pdf_source: "archive/07_kyushu/2007/2007_e.pdf"
+page_image: "archive/07_kyushu/2007/2007_e.jpg"
+fields:
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　三角形$ABC$において，辺$AB$の長さを$x$，辺$BC$の長さを$y$，辺$AC$の長さを$z$とする．
+このとき以下の問いに答えよ．
+\begin{description}
+\item[(1)]$y=4$，$z=4$とする．
+$x$が4から7までの値をとるとき，
+三角形$ABC$の面積の最大値と最小値を求めよ．
+\item[(2)]$x$，$y$，$z$がいずれも4から7までの値をとるとき，
+三角形$ABC$の面積の最大値と最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_e.pdf)

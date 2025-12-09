@@ -1,0 +1,39 @@
+---
+title: "東京大学 1977年 1977_5a"
+problem_id: "01_tokyo-1977-1977_5a"
+university: "東京大学"
+exam_year: "1977"
+source_tex: "archive/01_tokyo/1977/1977_5a.tex"
+pdf_source: "archive/01_tokyo/1977/1977_5a.pdf"
+page_image: "archive/01_tokyo/1977/1977_5a.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5 新
+　$\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}=I$，
+$\begin{pmatrix} 0 & -1 
+
+ 1 & 0 \end{pmatrix}=J$と書く．
+行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$と実数$t$に対し
+$A(I-tJ)=I+tJ$という関係が成り立つとき，$a$，$b$，$c$，$d$を$t$の式で表せ．
+　また$t$が実数全体を動くとき，
+関係$\begin{pmatrix} x 
+
+ y \end{pmatrix}=A\begin{pmatrix} 3 
+
+ 4 \end{pmatrix}$
+で定まる点$(x,y)$が動いてできる図形を求め，これを図示せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1977/1977_5a.pdf)

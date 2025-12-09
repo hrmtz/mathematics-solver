@@ -1,0 +1,187 @@
+## 解答
+
+点 $A,\,P$ の座標は
+$$
+A\left(0,\,0,\,\frac{\sqrt2}{4}\right),\quad
+P\left(\cos\theta,\,\sin\theta,\,\frac12\cos\theta\right)
+$$
+である．直線 $AP$ を媒介変数 $t$ を用いて表すと，
+$$
+\overrightarrow{AP}
+=
+\left(\cos\theta,\,\sin\theta,\,\frac12\cos\theta-\frac{\sqrt2}{4}\right)
+$$
+なので
+$$
+\begin{aligned}
+x &= 0 + t\cos\theta,\\
+y &= 0 + t\sin\theta,\\
+z &= \frac{\sqrt2}{4} + t\left(\frac12\cos\theta-\frac{\sqrt2}{4}\right)
+\end{aligned}
+\qquad (t\in\mathbb{R})
+$$
+と表される．
+
+$Q$ は直線 $AP$ と $xy$ 平面（$z=0$）との交点なので，$z=0$ を満たす $t$ を求める：
+$$
+\frac{\sqrt2}{4} + t\left(\frac12\cos\theta-\frac{\sqrt2}{4}\right)=0.
+$$
+$\displaystyle -\frac{\pi}{4}<\theta<\frac{\pi}{4}$ では $\cos\theta>0$ なので分母が 0 にはならず，
+$$
+t
+=
+-\frac{\dfrac{\sqrt2}{4}}{\dfrac12\cos\theta-\dfrac{\sqrt2}{4}}
+=
+-\frac{\sqrt2}{2\cos\theta-\sqrt2}
+=
+-\frac{\sqrt2}{2(\cos\theta-\tfrac{\sqrt2}{2})}.
+$$
+
+これを $x,y$ の式に代入すると，
+$$
+x = t\cos\theta
+= -\frac{\sqrt2\cos\theta}{2(\cos\theta-\tfrac{\sqrt2}{2})},
+\qquad
+y = t\sin\theta
+= -\frac{\sqrt2\sin\theta}{2(\cos\theta-\tfrac{\sqrt2}{2})}.
+$$
+
+ここで
+$$
+X = x+\frac{\sqrt2}{2},\quad Y = y
+$$
+とおくと，
+$$
+\begin{aligned}
+X
+&= -\frac{\sqrt2\cos\theta}{2(\cos\theta-\tfrac{\sqrt2}{2})}
+   +\frac{\sqrt2}{2} \\
+&= \frac{\sqrt2}{2}\left(
+   -\frac{\cos\theta}{\cos\theta-\tfrac{\sqrt2}{2}}+1\right) \\
+&= \frac{\sqrt2}{2}\cdot
+   \frac{-\cos\theta+\cos\theta-\tfrac{\sqrt2}{2}}{\cos\theta-\tfrac{\sqrt2}{2}}
+= -\frac{1}{2}\cdot\frac{\sqrt2}{\cos\theta-\tfrac{\sqrt2}{2}},\\[4mm]
+Y
+&= -\frac{\sqrt2\sin\theta}{2(\cos\theta-\tfrac{\sqrt2}{2})}.
+\end{aligned}
+$$
+したがって
+$$
+\frac{Y}{X}
+=
+\frac{-\dfrac{\sqrt2\sin\theta}{2(\cos\theta-\tfrac{\sqrt2}{2})}}
+     {-\dfrac{1}{2}\cdot\dfrac{\sqrt2}{\cos\theta-\tfrac{\sqrt2}{2}}}
+=
+\sin\theta,
+$$
+また
+$$
+X^2+Y^2
+=
+\left(\frac{1}{2}\cdot\frac{\sqrt2}{\cos\theta-\tfrac{\sqrt2}{2}}\right)^2
++
+\left(\frac{\sqrt2\sin\theta}{2(\cos\theta-\tfrac{\sqrt2}{2})}\right)^2
+=
+\frac{1}{2}\cdot\frac{1}{(\cos\theta-\tfrac{\sqrt2}{2})^2}.
+$$
+
+ここで
+$$
+\cos\theta-\frac{\sqrt2}{2}
+= -\left(\frac{\sqrt2}{2}-\cos\theta\right),
+$$
+かつ
+$$
+\left(\frac{\sqrt2}{2}-\cos\theta\right)^2
+=
+\left(\frac{\sqrt2}{2}\right)^2+\cos^2\theta-\sqrt2\cos\theta
+=
+\frac12+1-\sqrt2\cos\theta
+=
+\frac32-\sqrt2\cos\theta.
+$$
+したがって
+$$
+X^2+Y^2
+=
+\frac{1}{2}\cdot\frac{1}{\left(\cos\theta-\tfrac{\sqrt2}{2}\right)^2}
+=
+\frac{1}{2}\cdot\frac{1}{\tfrac32-\sqrt2\cos\theta}.
+$$
+よって
+$$
+3-2(X^2+Y^2)\sqrt2\cos\theta =1
+$$
+などと整理していってもよいが，ここでは別の方針を取る．
+
+別の見方として，ベクトルを用いて $Q$ の幾何的条件を求める．  
+$Q=(x,y,0)$ とおき，$Q$ が直線 $AP$ 上にあることは，ある実数 $s$ を用いて
+$$
+\overrightarrow{AQ}
+=
+s\,\overrightarrow{AP}
+$$
+と書けることと同値である．すなわち
+$$
+(x,\,y,\,-\tfrac{\sqrt2}{4})
+=
+s\left(\cos\theta,\,\sin\theta,\,\tfrac12\cos\theta-\tfrac{\sqrt2}{4}\right).
+$$
+第3成分から
+$$
+-\frac{\sqrt2}{4}
+=
+s\left(\frac12\cos\theta-\frac{\sqrt2}{4}\right)
+$$
+となるので
+$$
+s
+=
+-\frac{\dfrac{\sqrt2}{4}}{\dfrac12\cos\theta-\dfrac{\sqrt2}{4}}
+=
+-\frac{\sqrt2}{2(\cos\theta-\tfrac{\sqrt2}{2})}
+$$
+を得る．これは先ほどの $t$ と同じである．
+
+すると
+$$
+(x,y)
+=
+s(\cos\theta,\sin\theta)
+=
+-\frac{\sqrt2}{2(\cos\theta-\tfrac{\sqrt2}{2})}(\cos\theta,\sin\theta)
+$$
+より
+$$
+(x,y)
+=
+\lambda(\cos\theta,\sin\theta)
+\quad\text{ただし}\quad
+\lambda
+=
+-\frac{\sqrt2}{2(\cos\theta-\tfrac{\sqrt2}{2})}.
+$$
+したがって $Q$ は原点から角度 $\theta$ の方向（$x$ 軸となす角が $\theta$）上にある．
+
+ここで，$AP$ が $xy$ 平面と交わるためには，$A$ と $P$ の $z$ 座標の符号が異なる必要がある．
+$A$ の $z$ 座標は $\dfrac{\sqrt2}{4}>0$，$P$ の $z$ 座標は $\dfrac12\cos\theta$ なので，
+$$
+\frac12\cos\theta<0
+\quad\Longrightarrow\quad
+\cos\theta<0
+$$
+であれば直線は $xy$ 平面と交わる．しかし与えられた範囲
+$$
+-\frac{\pi}{4}<\theta<\frac{\pi}{4}
+$$
+では $\cos\theta>0$ であるから，$P$ の $z$ 座標は常に正である．  
+よって，直線 $AP$ は常に $z>0$ の半空間にあり，$z=0$ の $xy$ 平面とは交わらない．
+
+したがって，条件を満たす点 $Q$ は存在せず，「軌跡」は空集合となる．
+
+以上より，
+
+- 与えられた範囲 $-\dfrac{\pi}{4}<\theta<\dfrac{\pi}{4}$ のもとでは点 $Q$ は存在しないので，
+- 点 $Q$ の軌跡は空集合であり，$xy$ 平面上には描くべき図形はない，
+
+と結論づけられる．

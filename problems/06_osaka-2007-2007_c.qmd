@@ -1,0 +1,27 @@
+---
+title: "大阪大学 2007年 2007_c"
+problem_id: "06_osaka-2007-2007_c"
+university: "大阪大学"
+exam_year: "2007"
+source_tex: "archive/06_osaka/2007/2007_c.tex"
+pdf_source: "archive/06_osaka/2007/2007_c.pdf"
+page_image: "archive/06_osaka/2007/2007_c.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　空間に8個の点$A(0, \, 0, \, 0)$，$B(1, \, 0, \, 0)$，$C(1, \, 1, \, 0)$，$D(0, \, 1, \, 0)$，
+$E(0, \, 0, \, 1)$，$F(1, \, 0, \, 1)$，$G(1, \, 1, \, 1)$，$H(0, \, 1, \, 1)$をとる．
+\begin{description}
+\item[(1)]四面体$ACFH$を平面$z=t$ $(0 \leqq t \leqq 1)$で切断したとき，切断面の面積を$t$で表せ．
+\item[(2)]四面体$ACFH$と四面体$BDEG$の重なり合う部分の体積を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2007/2007_c.pdf)

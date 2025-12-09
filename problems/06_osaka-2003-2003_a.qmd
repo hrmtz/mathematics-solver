@@ -1,0 +1,24 @@
+---
+title: "大阪大学 2003年 2003_a"
+problem_id: "06_osaka-2003-2003_a"
+university: "大阪大学"
+exam_year: "2003"
+source_tex: "archive/06_osaka/2003/2003_a.tex"
+pdf_source: "archive/06_osaka/2003/2003_a.pdf"
+page_image: "archive/06_osaka/2003/2003_a.jpg"
+fields:
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　定数$p$，$q$，$r$は$p>q>r$をみたしている．
+3次方程式$x^3+px^2+qx+r=0$の解は，連続する3つの整数$n-1$，$n$，$n+1$であるとする．
+このとき，$n$の値と$p$，$q$，$r$を定めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_a.pdf)

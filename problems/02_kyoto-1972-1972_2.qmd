@@ -1,0 +1,25 @@
+---
+title: "京都大学 1972年 1972_2"
+problem_id: "02_kyoto-1972-1972_2"
+university: "京都大学"
+exam_year: "1972"
+source_tex: "archive/02_kyoto/1972/1972_2.tex"
+pdf_source: "archive/02_kyoto/1972/1972_2.pdf"
+page_image: "archive/02_kyoto/1972/1972_2.jpg"
+fields:
+  - 積分法
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　次の式で定められる関数$F(x)$に対して，
+$\displaystyle\lim_{x\to+\infty}[F(x)-\log x]$を求めよ．
+\[ F(x)=\int_0^x\frac{t}{(t+1)(t+3)}dt \hspace{1zw} (x>0) \]
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1972/1972_2.pdf)

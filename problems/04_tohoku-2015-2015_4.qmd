@@ -1,0 +1,35 @@
+---
+title: "東北大学 2015年 2015_4"
+problem_id: "04_tohoku-2015-2015_4"
+university: "東北大学"
+exam_year: "2015"
+source_tex: "archive/04_tohoku/2015/2015_4.tex"
+pdf_source: "archive/04_tohoku/2015/2015_4.pdf"
+page_image: "archive/04_tohoku/2015/2015_4.jpg"
+fields:
+  - 不等式
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　$a>0$を実数とする。$n=1, \, 2, \, 3, \, \dots$に対し、座標平面の3点
+\[ \left(2n\pi, \, 0\right), \hspace{1zw} \left((2n+\frac{1}{2})\pi, \,
+\frac{1}{{\{(2n+\frac{1}{2})\pi\}}^a}\right), \hspace{1zw} \left((2n+1)\pi, \, 0\right) \]
+を頂点とする三角形の面積を$A_n$とし、
+\[ B_n=\int_{2n\pi}^{(2n+1)\pi}\frac{\sin x}{x^a}dx, \hspace{1zw}
+C_n=\int_{2n\pi}^{(2n+1)\pi}\frac{\sin^2x}{x^a}dx \]
+とおく。
+\begin{description}
+\item[(1)]$n=1, \, 2, \, 3, \, \dots$に対し、次の不等式が成り立つことを示せ。
+\[ \frac{2}{{\{ (2n+1)\pi \}}^a} \leqq B_n \leqq \frac{2}{{(2n\pi)}^a} \]
+\item[(2)]極限値$\displaystyle\lim_{n\to\infty}\frac{A_n}{B_n}$を求めよ。
+\item[(3)]極限値$\displaystyle\lim_{n\to\infty}\frac{A_n}{C_n}$を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2015/2015_4.pdf)

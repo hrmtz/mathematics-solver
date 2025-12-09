@@ -1,0 +1,23 @@
+---
+title: "東北大学 2008年 2008_0_a"
+problem_id: "04_tohoku-2008-2008_0_a"
+university: "東北大学"
+exam_year: "2008"
+source_tex: "archive/04_tohoku/2008/2008_0_a.tex"
+pdf_source: "archive/04_tohoku/2008/2008_0_a.pdf"
+page_image: "archive/04_tohoku/2008/2008_0_a.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$を$0 \leqq a \leqq 1$の範囲にある実数とするとき，
+$y=|x-a|+|x-1|$のグラフと直線$y=x$の交点の個数と交点の座標を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_0_a.pdf)

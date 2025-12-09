@@ -1,0 +1,32 @@
+---
+title: "九州大学 2017年 2017_c"
+problem_id: "07_kyushu-2017-2017_c"
+university: "九州大学"
+exam_year: "2017"
+source_tex: "archive/07_kyushu/2017/2017_c.tex"
+pdf_source: "archive/07_kyushu/2017/2017_c.pdf"
+page_image: "archive/07_kyushu/2017/2017_c.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　座標空間内に点$A(0, \, 0, \, 2)$，点$B(2, \, 0, \, 0)$，
+点$C(0, \, 0, \, -2)$，点$D(0, \, -2, \, 0)$がある。
+線分$AC$を$1:3$に内分する点を$E$とし，線分$AD$を$1:3$に内分する点を$F$とする。
+直線$BC$と平面$\displaystyle x=\frac{3}{2}$の交点を$G$とする。
+直線$BD$と平面$EFG$の交点を$H$とする。
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]点$E$，$F$，$G$，$H$の座標をそれぞれ求めよ。
+\item[(2)]三角形$FGH$の面積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_c.pdf)

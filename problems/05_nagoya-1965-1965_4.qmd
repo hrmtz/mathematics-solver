@@ -1,0 +1,26 @@
+---
+title: "名古屋大学 1965年 1965_4"
+problem_id: "05_nagoya-1965-1965_4"
+university: "名古屋大学"
+exam_year: "1965"
+source_tex: "archive/05_nagoya/1965/1965_4.tex"
+pdf_source: "archive/05_nagoya/1965/1965_4.pdf"
+page_image: "archive/05_nagoya/1965/1965_4.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　半径$a$の円$O$がある。
+その直径$AB$の一端$A$を中心として円周上の1点$C$を通る円をえがき，
+直径$AB$との交点を$D$とする。
+点$C$が円$O$の周上を動くとき，
+円$A$の弦$CD$の長さの最大値を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1965/1965_4.pdf)

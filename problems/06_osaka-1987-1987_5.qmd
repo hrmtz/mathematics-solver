@@ -1,0 +1,33 @@
+---
+title: "大阪大学 1987年 1987_5"
+problem_id: "06_osaka-1987-1987_5"
+university: "大阪大学"
+exam_year: "1987"
+source_tex: "archive/06_osaka/1987/1987_5.tex"
+pdf_source: "archive/06_osaka/1987/1987_5.pdf"
+page_image: "archive/06_osaka/1987/1987_5.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　袋の中に赤玉が$a$個，白玉が$b$個入っている．
+この袋から無作為に1個の玉を取り出し，その色を記録して袋に戻す．
+この試行をくり返し，同じ色の玉が2回続けて出るか，または試行の回数が$2N$に達したとき，試行を止める．
+ただし，$N$は2以上の一定の自然数とする．
+この試行がちょうど$k$回で終わる確率を$P_k$ $(k=2, \, 3, \, \cdots\cdots, \, 2N)$とし，
+$\displaystyle p=\frac{a}{a+b}$，$\displaystyle q=\frac{b}{a+b}$，$r=pq$とおく．
+\begin{description}
+\item[(1)]$P_{2l}$，$P_{2l+1}$ $(l=1, \, 2, \, \cdots\cdots, \, N-1)$および$P_{2N}$を$r$を用いて表せ．
+\item[(2)]試行の回数の期待値$\displaystyle E=\sum_{k=2}^{2N}kP_k$は，
+定数$A$，$B$を用いて，$E=A+B(r+r^2+\cdots\cdots+r^{N-1})$と表されることを示し，$A$，$B$を求めよ．
+\item[(3)]$E<3$を示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1987/1987_5.pdf)

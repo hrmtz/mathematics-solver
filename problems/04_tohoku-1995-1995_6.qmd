@@ -1,0 +1,28 @@
+---
+title: "東北大学 1995年 1995_6"
+problem_id: "04_tohoku-1995-1995_6"
+university: "東北大学"
+exam_year: "1995"
+source_tex: "archive/04_tohoku/1995/1995_6.tex"
+pdf_source: "archive/04_tohoku/1995/1995_6.pdf"
+page_image: "archive/04_tohoku/1995/1995_6.jpg"
+fields:
+  - 三角関数
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$\displaystyle0<u<\frac{\pi}{4}$，$\displaystyle0<\theta<\frac{\pi}{2}$とする．
+\begin{description}
+\item[(1)]$\displaystyle\frac{1}{\tan u}-\frac{1}{\tan2u}$を簡単にせよ．
+\item[(2)]無限級数$\displaystyle\sum_{n=1}^\infty\frac{1}{2^n}\tan\frac{\theta}{2^n}$の和を求めよ．
+ただし，$\displaystyle\lim_{x\to0}\frac{\tan x}{x}=1$を用いてよい．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_6.pdf)

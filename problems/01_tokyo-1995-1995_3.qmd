@@ -1,0 +1,32 @@
+---
+title: "東京大学 1995年 1995_3"
+problem_id: "01_tokyo-1995-1995_3"
+university: "東京大学"
+exam_year: "1995"
+source_tex: "archive/01_tokyo/1995/1995_3.tex"
+pdf_source: "archive/01_tokyo/1995/1995_3.pdf"
+page_image: "archive/01_tokyo/1995/1995_3.jpg"
+fields:
+  - 数列
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　二辺の長さが1と2の長方形と一辺の長さが2の正方形の2種類のタイルがある．
+縦2，横$n$の長方形の部屋をこれらのタイルで過不足なく敷きつめることを考える．
+そのような並べ方の総数を$A_n$で表す．
+ただし$n$は正の整数である．
+たとえば$A_1=1$，$A_2=3$，$A_3=5$である．
+このとき以下の問いに答えよ．
+\begin{description}
+\item[(1)]$n\geqq3$のとき，$A_n$を$A_{n-1}$，$A_{n-2}$を用いて表せ．
+\item[(2)]$A_n$を$n$で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1995/1995_3.pdf)

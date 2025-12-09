@@ -1,0 +1,24 @@
+---
+title: "京都大学 2019年 2019_6"
+problem_id: "02_kyoto-2019-2019_6"
+university: "京都大学"
+exam_year: "2019"
+source_tex: "archive/02_kyoto/2019/2019_6.tex"
+pdf_source: "archive/02_kyoto/2019/2019_6.pdf"
+page_image: "archive/02_kyoto/2019/2019_6.jpg"
+fields:
+  - 複素数平面
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$i$は虚数単位とする。
+${(1+i)}^n+{(1-i)}^n>{10}^{10}$をみたす最小の正の整数$n$を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2019/2019_6.pdf)

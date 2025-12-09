@@ -1,0 +1,34 @@
+---
+title: "東北大学 2012年 2012_2"
+problem_id: "04_tohoku-2012-2012_2"
+university: "東北大学"
+exam_year: "2012"
+source_tex: "archive/04_tohoku/2012/2012_2.tex"
+pdf_source: "archive/04_tohoku/2012/2012_2.pdf"
+page_image: "archive/04_tohoku/2012/2012_2.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$m$を実数とする。
+座標平面上で直線$y=x$に関する対称移動を表す1次変換を$f$とし，
+直線$y=mx$に関する対称移動を表す1次変換を$g$とする。
+以下の問いに答えよ。
+\begin{description}
+\item[(1)]1次変換$g$を表す行列$A$を求めよ。
+\item[(2)]合成変換$g \circ f$を表す行列$B$を求めよ。
+\item[(3)]$B^3=\begin{pmatrix} 1 & 0 
+
+ 0 & 1 \end{pmatrix}$
+となる$m$をすべて求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2012/2012_2.pdf)

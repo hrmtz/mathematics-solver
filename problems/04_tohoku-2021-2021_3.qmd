@@ -1,0 +1,33 @@
+---
+title: "東北大学 2021年 2021_3"
+problem_id: "04_tohoku-2021-2021_3"
+university: "東北大学"
+exam_year: "2021"
+source_tex: "archive/04_tohoku/2021/2021_3.tex"
+pdf_source: "archive/04_tohoku/2021/2021_3.pdf"
+page_image: "archive/04_tohoku/2021/2021_3.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　正八角形$A_1A_2 \cdots A_8$について，以下の問いに答えよ。
+\begin{description}
+\item[(1)]3個の頂点を結んでできる三角形のうち，
+直角三角形であるものの個数を求めよ。
+\item[(2)]3個の頂点を結んでできる三角形のうち，
+直角三角形でも二等辺三角形でもないものの個数を求めよ。
+\item[(3)]4個の頂点を結んでできる四角形のうち，
+次の条件(＊)を満たすものの個数を求めよ。
+\begin{description}
+\item[(＊)]四角形の4個の頂点から3点を選んで直角三角形を作れる。
+\end{description}
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2021/2021_3.pdf)

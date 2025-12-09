@@ -1,0 +1,28 @@
+---
+title: "京都大学 1985年 1985_6"
+problem_id: "02_kyoto-1985-1985_6"
+university: "京都大学"
+exam_year: "1985"
+source_tex: "archive/02_kyoto/1985/1985_6.tex"
+pdf_source: "archive/02_kyoto/1985/1985_6.pdf"
+page_image: "archive/02_kyoto/1985/1985_6.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　定数$a$ $(a\geqq0)$および$b$が与えられている．
+$x\geqq0$で定義された関数$y=f(x)$で，下の2条件\ding{"AC}，\ding{"AD}を満たすものを決定せよ．
+\begin{description}
+\item[(1)]$f(x)$は$x\geqq0$で連続，$x>0$で微分可能
+\item[(2)]$\displaystyle b\int_a^x f(t)dt=xf(x)$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1985/1985_6.pdf)

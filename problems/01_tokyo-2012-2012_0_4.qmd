@@ -1,0 +1,30 @@
+---
+title: "東京大学 2012年 2012_0_4"
+problem_id: "01_tokyo-2012-2012_0_4"
+university: "東京大学"
+exam_year: "2012"
+source_tex: "archive/01_tokyo/2012/2012_0_4.tex"
+pdf_source: "archive/01_tokyo/2012/2012_0_4.pdf"
+page_image: "archive/01_tokyo/2012/2012_0_4.jpg"
+fields:
+  - 微分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+\begin{description}
+　座標平面上の放物線$C$を$y=x^2+1$で定める。
+$s$，$t$は実数とし$t<0$を満たすとする。
+点$(s,t)$から放物線$C$へ引いた接線を$l_1$，$l_2$とする。
+\item[(1)]$l_1$，$l_2$の方程式を求めよ。
+\item[(2)]$a$を正の実数とする。
+放物線$C$と直線$l_1$，$l_2$で囲まれる領域の面積が$a$となる$(s,t)$を全て求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2012/2012_0_4.pdf)

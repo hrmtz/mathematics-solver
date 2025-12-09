@@ -1,0 +1,27 @@
+---
+title: "北海道大学 1968年 1968_0_1"
+problem_id: "03_hokudai-1968-1968_0_1"
+university: "北海道大学"
+exam_year: "1968"
+source_tex: "archive/03_hokudai/1968/1968_0_1.tex"
+pdf_source: "archive/03_hokudai/1968/1968_0_1.pdf"
+page_image: "archive/03_hokudai/1968/1968_0_1.jpg"
+fields:
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+\begin{description}
+\item[(1)]$0<a$，$a\neq1$，$0<b$のとき$b^x=a^\text{□}$である．
+この空欄をうめよ．
+\item[(2)]方程式$2^{\log x}x^{\log2}-3x^{\log2}-2^{1+\log x}+4=0$を解け．
+ただし，対数は常用対数とする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1968/1968_0_1.pdf)

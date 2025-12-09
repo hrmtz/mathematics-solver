@@ -1,0 +1,298 @@
+## 解答
+
+(1)  
+まず，$0\le x\le1$ のとき，被積分関数に含まれる絶対値をはずすために，積分区間を $[0,x]$ と $[x,1]$ に分ける。
+
+$t\in[0,x]$ のとき $t\le x$ より $|t-x|=x-t$，  
+$t\in[x,1]$ のとき $t\ge x$ より $|t-x|=t-x$ であるから，
+$$
+f(x)=\int_0^1 \frac{|t-x|}{1+t^2}\,dt
+=\int_0^x \frac{x-t}{1+t^2}\,dt+\int_x^1 \frac{t-x}{1+t^2}\,dt
+$$
+となる。
+
+第1項を
+$$
+\int_0^x \frac{x-t}{1+t^2}\,dt
+=\int_0^x \frac{x}{1+t^2}\,dt-\int_0^x \frac{t}{1+t^2}\,dt
+$$
+第2項を
+$$
+\int_x^1 \frac{t-x}{1+t^2}\,dt
+=\int_x^1 \frac{t}{1+t^2}\,dt-\int_x^1 \frac{x}{1+t^2}\,dt
+$$
+と分けて整理する。
+
+まず
+$$
+\int_0^x \frac{x}{1+t^2}\,dt
+= x\int_0^x \frac{1}{1+t^2}\,dt
+= x\bigl[\arctan t\bigr]_0^x
+= x\arctan x
+$$
+また
+$$
+\int_0^x \frac{t}{1+t^2}\,dt
+= \frac12\int_0^x \frac{2t}{1+t^2}\,dt
+= \frac12\bigl[\log(1+t^2)\bigr]_0^x
+= \frac12\log(1+x^2)
+$$
+よって
+$$
+\int_0^x \frac{x-t}{1+t^2}\,dt
+= x\arctan x - \frac12\log(1+x^2)
+$$
+
+同様に，
+$$
+\int_x^1 \frac{t}{1+t^2}\,dt
+= \frac12\bigl[\log(1+t^2)\bigr]_x^1
+= \frac12\bigl(\log2-\log(1+x^2)\bigr),
+$$
+$$
+\int_x^1 \frac{x}{1+t^2}\,dt
+= x\int_x^1 \frac{1}{1+t^2}\,dt
+= x\bigl[\arctan t\bigr]_x^1
+= x\bigl(\tfrac{\pi}{4}-\arctan x\bigr)
+$$
+なので
+$$
+\int_x^1 \frac{t-x}{1+t^2}\,dt
+= \frac12\bigl(\log2-\log(1+x^2)\bigr)
+- x\Bigl(\frac{\pi}{4}-\arctan x\Bigr)
+$$
+
+以上より
+\begin{align*}
+f(x)
+&= \Bigl(x\arctan x - \frac12\log(1+x^2)\Bigr)
+ + \Bigl(\frac12(\log2-\log(1+x^2)) - x\Bigl(\frac{\pi}{4}-\arctan x\Bigr)\Bigr)\\
+&= 2x\arctan x - \frac{\pi}{4}x
+ - \log(1+x^2) + \frac12\log2.
+\end{align*}
+
+よって，$0<x<1$ における導関数は
+$$
+f'(x) = \frac{d}{dx}\Bigl(2x\arctan x\Bigr)
+        -\frac{\pi}{4}-\frac{d}{dx}\bigl(\log(1+x^2)\bigr)
+$$
+となる。積の微分と $\frac{d}{dx}\arctan x = \frac{1}{1+x^2}$，$\frac{d}{dx}\log(1+x^2)=\frac{2x}{1+x^2}$ を用いて
+\begin{align*}
+\frac{d}{dx}(2x\arctan x)
+&= 2\arctan x + 2x\cdot\frac{1}{1+x^2},\\
+\frac{d}{dx}\log(1+x^2)
+&= \frac{2x}{1+x^2},
+\end{align*}
+よって
+$$
+f'(x)
+= \Bigl(2\arctan x + \frac{2x}{1+x^2}\Bigr)
+  -\frac{\pi}{4}-\frac{2x}{1+x^2}
+= 2\arctan x - \frac{\pi}{4}.
+$$
+
+ここで $0<\alpha<\frac{\pi}{4}$ とし，$x=\tan\alpha$ とおくと，$\alpha\in(0,\tfrac{\pi}{4})$ なので $\tan\alpha\in(0,1)$ であり，この範囲で上の式が成り立つ。  
+したがって
+$$
+f'(\tan\alpha)=0
+\iff 2\arctan(\tan\alpha)-\frac{\pi}{4}=0.
+$$
+$0<\alpha<\frac{\pi}{4}$ では $\arctan(\tan\alpha)=\alpha$ であるから，
+$$
+2\alpha-\frac{\pi}{4}=0\iff \alpha=\frac{\pi}{8}.
+$$
+
+よって求める $\alpha$ は
+$$
+\alpha=\frac{\pi}{8}
+$$
+である。
+
+---
+
+(2)  
+(1) で求めた $\alpha=\frac{\pi}{8}$ に対し，$\tan\alpha$ を求める。  
+半角の公式
+$$
+\tan\frac{\theta}{2}
+= \frac{1-\cos\theta}{\sin\theta}
+= \frac{\sin\theta}{1+\cos\theta}
+$$
+を用いる。ここでは $\theta=\frac{\pi}{4}$ とする。
+
+$$
+\sin\frac{\pi}{4}=\frac{\sqrt2}{2},\quad
+\cos\frac{\pi}{4}=\frac{\sqrt2}{2}
+$$
+より
+$$
+\tan\frac{\pi}{8}
+= \frac{\sin\frac{\pi}{4}}{1+\cos\frac{\pi}{4}}
+= \frac{\frac{\sqrt2}{2}}{1+\frac{\sqrt2}{2}}
+= \frac{\sqrt2}{2+\sqrt2}.
+$$
+分母を有理化すると
+$$
+\tan\frac{\pi}{8}
+= \frac{\sqrt2}{2+\sqrt2}\cdot\frac{2-\sqrt2}{2-\sqrt2}
+= \frac{\sqrt2(2-\sqrt2)}{4-2}
+= \sqrt2-\;1.
+$$
+
+したがって
+$$
+\tan\alpha = \sqrt2-1
+$$
+である。
+
+---
+
+(3)  
+$f(x)$ は $[0,1]$ 上で積分により定義された連続関数であるから，その区間で最大値・最小値をとる。  
+(1) で求めた導関数
+$$
+f'(x)=2\arctan x-\frac{\pi}{4}
+$$
+を用いて単調性を調べる。
+
+$0\le x\le1$ で $\arctan x$ は増加関数であり，
+$$
+f'(x)=0 \iff \arctan x=\frac{\pi}{8} \iff x=\tan\frac{\pi}{8}=\sqrt2-1
+$$
+である。
+
+また
+$$
+x=0 のとき\ f'(0)=2\arctan0-\frac{\pi}{4}=-\frac{\pi}{4}<0,
+$$
+$$
+x=1 のとき\ f'(1)=2\arctan1-\frac{\pi}{4}
+               =2\cdot\frac{\pi}{4}-\frac{\pi}{4}
+               =\frac{\pi}{4}>0
+$$
+であり，かつ $f'(x)$ は $x$ の増加とともに増加する（$\arctan x$ が増加関数であるため）。  
+したがって
+$$
+0\le x<\sqrt2-1 \ \text{で}\ f'(x)<0,\qquad
+\sqrt2-1<x\le1 \ \text{で}\ f'(x)>0
+$$
+となる。よって
+$$
+x=\sqrt2-1
+$$
+で $f(x)$ は極小値をとり，端点 $x=0,1$ での値と比較して最大・最小を決定すればよい。
+
+まず $f(0),f(1)$ を求める。
+
+$f(x)=\int_0^1 \frac{|t-x|}{1+t^2}\,dt$ から，$x=0$ のとき
+$$
+f(0)=\int_0^1 \frac{|t|}{1+t^2}\,dt=\int_0^1 \frac{t}{1+t^2}\,dt
+$$
+であり，(1) で用いた計算より
+$$
+f(0)=\frac12\log2.
+$$
+
+$x=1$ のときは，$t\in[0,1]$ で $t\le1$ だから $|t-1|=1-t$ となり，
+$$
+f(1)=\int_0^1 \frac{1-t}{1+t^2}\,dt
+=\int_0^1 \frac{1}{1+t^2}\,dt - \int_0^1 \frac{t}{1+t^2}\,dt.
+$$
+したがって
+$$
+\int_0^1 \frac{1}{1+t^2}\,dt=\bigl[\arctan t\bigr]_0^1=\frac{\pi}{4},
+$$
+$$
+\int_0^1 \frac{t}{1+t^2}\,dt=\frac12\log2
+$$
+より
+$$
+f(1)=\frac{\pi}{4}-\frac12\log2.
+$$
+
+次に $x=\sqrt2-1$ のときの値を求める。  
+(1) で得た式
+$$
+f(x)=2x\arctan x - \frac{\pi}{4}x - \log(1+x^2) + \frac12\log2
+$$
+に $x=\sqrt2-1$ を代入する。
+
+(2) より $\arctan(\sqrt2-1)=\frac{\pi}{8}$ であり，
+$$
+1+(\sqrt2-1)^2 = 1+(2-2\sqrt2+1)=4-2\sqrt2
+$$
+である。ここで
+$$
+4-2\sqrt2
+=2\bigl(2-\sqrt2\bigr)
+=2\cdot\frac{1}{\sqrt2-1}
+\quad(\text{両辺に }\sqrt2+1\text{ を掛けて確かめてもよい})
+$$
+から
+$$
+\log(1+(\sqrt2-1)^2)
+=\log(4-2\sqrt2)
+=\log2 + \log\frac{1}{\sqrt2-1}
+=\log2 - \log(\sqrt2-1).
+$$
+
+したがって
+\begin{align*}
+f(\sqrt2-1)
+&= 2(\sqrt2-1)\cdot\frac{\pi}{8}
+ - \frac{\pi}{4}(\sqrt2-1)
+ - \bigl(\log2-\log(\sqrt2-1)\bigr)
+ + \frac12\log2\\
+&= \frac{\pi}{4}(\sqrt2-1)
+ - \frac{\pi}{4}(\sqrt2-1)
+ - \log2 + \log(\sqrt2-1)
+ + \frac12\log2\\
+&= -\frac12\log2 + \log(\sqrt2-1).
+\end{align*}
+
+この値と $f(0),f(1)$ を比較する。  
+$0.69<\log2<0.7$ より
+$$
+f(0) = \frac12\log2 \quad\text{は}\quad 0.345< f(0) < 0.35
+$$
+である。
+
+$f(1)$ については
+$$
+f(1)=\frac{\pi}{4}-\frac12\log2
+$$
+であり，$\frac{\pi}{4}\approx 0.785$，$\frac12\log2\approx0.345$ より
+$$
+f(1)\approx 0.785-0.345=0.44
+$$
+となり，$f(1)>f(0)$ と分かる。
+
+$f(\sqrt2-1)$ は
+$$
+f(\sqrt2-1)=-\frac12\log2+\log(\sqrt2-1)
+=\log\frac{\sqrt2-1}{\sqrt2}
+$$
+であり，$\sqrt2\approx1.414$ から $\sqrt2-1\approx0.414$，したがって
+$$
+\frac{\sqrt2-1}{\sqrt2}\approx\frac{0.414}{1.414}\approx0.293<1
+$$
+となるため，その対数は負である。よって
+$$
+f(\sqrt2-1)<0<f(0)<f(1)
+$$
+が成り立つ。
+
+以上より，$[0,1]$ における最小値は $x=\sqrt2-1$ における値，最大値は $x=1$ における値である。
+
+したがって
+- 最小値は
+  $$
+  f(\sqrt2-1)
+  = -\frac12\log2 + \log(\sqrt2-1)
+  = \log\frac{\sqrt2-1}{\sqrt2},
+  $$
+- 最大値は
+  $$
+  f(1)=\frac{\pi}{4}-\frac12\log2
+  $$
+である。

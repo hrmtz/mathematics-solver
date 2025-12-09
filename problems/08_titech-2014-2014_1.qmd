@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 2014年 2014_1"
+problem_id: "08_titech-2014-2014_1"
+university: "東京科学大学"
+exam_year: "2014"
+source_tex: "archive/08_titech/2014/2014_1.tex"
+pdf_source: "archive/08_titech/2014/2014_1.pdf"
+page_image: "archive/08_titech/2014/2014_1.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　3以上の奇数$n$に対して，$a_n$と$b_n$を次のように定める．
+\[ a_n=\frac{1}{6}\sum_{k=1}^{n-1}(k-1)k(k+1), \hspace{1zw} b_n=\frac{n^2-1}{8} \]
+\begin{description}
+\item[(1)]$a_n$と$b_n$はどちらも整数であることを示せ．
+\item[(2)]$a_n-b_n$は4の倍数であることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/2014/2014_1.pdf)

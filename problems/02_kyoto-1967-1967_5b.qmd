@@ -1,0 +1,24 @@
+---
+title: "京都大学 1967年 1967_5b"
+problem_id: "02_kyoto-1967-1967_5b"
+university: "京都大学"
+exam_year: "1967"
+source_tex: "archive/02_kyoto/1967/1967_5b.tex"
+pdf_source: "archive/02_kyoto/1967/1967_5b.pdf"
+page_image: "archive/02_kyoto/1967/1967_5b.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5 旧
+　$\triangle ABC$の周上の2点$P$，$Q$を結ぶ線分$PQ$で3角形の面積を2等分する．
+このような線分$PQ$の長さの最小値を求めよ．
+ただし$BC$，$CA$，$AB$の長さをそれぞれ$a$，$b$，$c$とし，また$a>b>c$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1967/1967_5b.pdf)

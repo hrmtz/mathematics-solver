@@ -1,0 +1,30 @@
+---
+title: "北海道大学 1973年 1973_6"
+problem_id: "03_hokudai-1973-1973_6"
+university: "北海道大学"
+exam_year: "1973"
+source_tex: "archive/03_hokudai/1973/1973_6.tex"
+pdf_source: "archive/03_hokudai/1973/1973_6.pdf"
+page_image: "archive/03_hokudai/1973/1973_6.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　箱の中に$1, \, 2, \, \cdots\cdots, \, 9$の数字を1つずつ書いた同形同質のカードが9枚入っている．
+この箱から1枚のカードを無作為に取り出し，その数字を調べてから，もとの箱に戻す．
+これを3回くり返して，取り出したカードの数字の最大値を$X$とする．
+\begin{description}
+\item[(1)]$X=1$となる確率は□で，$X\leqq3$となる確率は□であり，
+また$X=3$となる確率は□である．これらの空欄を埋めよ．
+\item[(2)]$X=k$となる確率を求めよ．ただし$k$は$2 \leqq k \leqq 9$なる整数である．
+\item[(3)]$X$の期待値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1973/1973_6.pdf)

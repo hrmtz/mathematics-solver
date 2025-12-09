@@ -1,0 +1,28 @@
+---
+title: "大阪大学 2007年 2007_0_2"
+problem_id: "06_osaka-2007-2007_0_2"
+university: "大阪大学"
+exam_year: "2007"
+source_tex: "archive/06_osaka/2007/2007_0_2.tex"
+pdf_source: "archive/06_osaka/2007/2007_0_2.pdf"
+page_image: "archive/06_osaka/2007/2007_0_2.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$n$を2以上の自然数とする．
+1つのさいころを$n$回投げ，
+第1回目から第$n$回目までに出た目の最大公約数を$G$とする．
+\begin{description}
+\item[(1)]$G=3$となる確率を$n$の式で表せ．
+\item[(2)]$G$の期待値を$n$の式で表せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2007/2007_0_2.pdf)

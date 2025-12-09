@@ -1,0 +1,26 @@
+---
+title: "東北大学 2005年 2005_0_4"
+problem_id: "04_tohoku-2005-2005_0_4"
+university: "東北大学"
+exam_year: "2005"
+source_tex: "archive/04_tohoku/2005/2005_0_4.tex"
+pdf_source: "archive/04_tohoku/2005/2005_0_4.pdf"
+page_image: "archive/04_tohoku/2005/2005_0_4.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　2つの曲線$C:y=-x^2$と$D:y={(x-a)}^2+b$が1点で接している．曲線$D$と曲線
+\[ E:y=\frac{1}{2}{(x-1)}^2+1 \]
+によって囲まれる部分の面積$S$が最小となるように実数$a$，$b$を定め，そのときの$S$を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_0_4.pdf)

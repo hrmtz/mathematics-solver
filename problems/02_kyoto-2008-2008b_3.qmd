@@ -1,0 +1,24 @@
+---
+title: "京都大学 2008年 2008b_3"
+problem_id: "02_kyoto-2008-2008b_3"
+university: "京都大学"
+exam_year: "2008"
+source_tex: "archive/02_kyoto/2008/2008b_3.tex"
+pdf_source: "archive/02_kyoto/2008/2008b_3.pdf"
+page_image: "archive/02_kyoto/2008/2008b_3.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　空間の1点$O$を通る4直線で，どの3直線も同一平面上にないようなものを考える．
+このとき，4直線のいずれとも$O$以外の点で交わる平面で，4つの交点が平行四辺形の頂点になるようなものが存在することを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2008/2008b_3.pdf)

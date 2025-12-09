@@ -1,0 +1,22 @@
+---
+title: "京都大学 2006年 2006_f"
+problem_id: "02_kyoto-2006-2006_f"
+university: "京都大学"
+exam_year: "2006"
+source_tex: "archive/02_kyoto/2006/2006_f.tex"
+pdf_source: "archive/02_kyoto/2006/2006_f.pdf"
+page_image: "archive/02_kyoto/2006/2006_f.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$\tan1^\circ$は有理数か．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2006/2006_f.pdf)

@@ -1,0 +1,23 @@
+---
+title: "名古屋大学 1966年 1966_0_5a"
+problem_id: "05_nagoya-1966-1966_0_5a"
+university: "名古屋大学"
+exam_year: "1966"
+source_tex: "archive/05_nagoya/1966/1966_0_5a.tex"
+pdf_source: "archive/05_nagoya/1966/1966_0_5a.pdf"
+page_image: "archive/05_nagoya/1966/1966_0_5a.jpg"
+fields:
+  - 指数・対数
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5 (a)
+　$0<x<1$のとき$\displaystyle\log_e(1+x)<\frac{x}{1-x}$が成り立つことを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1966/1966_0_5a.pdf)

@@ -1,0 +1,32 @@
+---
+title: "東京大学 2000年 2000_8"
+problem_id: "01_tokyo-2000-2000_8"
+university: "東京大学"
+exam_year: "2000"
+source_tex: "archive/01_tokyo/2000/2000_8.tex"
+pdf_source: "archive/01_tokyo/2000/2000_8.pdf"
+page_image: "archive/01_tokyo/2000/2000_8.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　正整数$l$を与える．各正整数$n$に対して，関数
+\[ y=x^l\sin nx, \hspace{1zw} 0 \leqq x \leqq 2\pi \]
+のグラフと$x$軸で囲まれる図形を$C_n$とする．
+\begin{description}
+\item[(1)]$C_n$を$x$軸のまわりに回転させてできる回転体の体積を$V_n$とするとき，極限値
+\[ \lim_{n\to\infty}V_n \]
+を求めよ．
+\item[(2)]$C_n$を$y$軸のまわりに回転させてできる回転体の体積を$W_n$とするとき，極限値
+\[ \lim_{n\to\infty}W_n \]
+を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2000/2000_8.pdf)

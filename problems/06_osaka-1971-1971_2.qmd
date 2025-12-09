@@ -1,0 +1,28 @@
+---
+title: "大阪大学 1971年 1971_2"
+problem_id: "06_osaka-1971-1971_2"
+university: "大阪大学"
+exam_year: "1971"
+source_tex: "archive/06_osaka/1971/1971_2.tex"
+pdf_source: "archive/06_osaka/1971/1971_2.pdf"
+page_image: "archive/06_osaka/1971/1971_2.jpg"
+fields:
+  - 複素数平面
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$a$を実数とし，$z=\cos2a\pi+i\sin2a\pi$とおく（ただし，$i=\sqrt{-1}$）．
+\begin{description}
+\item[(1)]$a$が有理数であるとき，
+複素数$z, \, z^2, \, \cdots, \, z^n, \, \cdots$のうちで相異なるものはいくつあるか．
+\item[(2)]$a$が無理数のとき，
+$z, \, z^2, \, \cdots, \, z^n, \, \cdots$はすべて相異なることを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1971/1971_2.pdf)

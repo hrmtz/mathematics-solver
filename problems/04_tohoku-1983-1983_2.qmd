@@ -1,0 +1,41 @@
+---
+title: "東北大学 1983年 1983_2"
+problem_id: "04_tohoku-1983-1983_2"
+university: "東北大学"
+exam_year: "1983"
+source_tex: "archive/04_tohoku/1983/1983_2.tex"
+pdf_source: "archive/04_tohoku/1983/1983_2.pdf"
+page_image: "archive/04_tohoku/1983/1983_2.jpg"
+fields:
+  - 行列
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　行列$A=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}$は，
+任意のベクトル$\overrightarrow{u}=\begin{pmatrix} x 
+
+ y \end{pmatrix}$に対して
+$\displaystyle A\overrightarrow{u}\cdot\overrightarrow{u}=\overrightarrow{u}\cdot\overrightarrow{u}=
+\frac{1}{4} A\overrightarrow{u} \cdot A\overrightarrow{u}$を満たす．
+ただし，$\overrightarrow{u}\cdot\overrightarrow{v}$は
+ベクトル$\overrightarrow{u}$，$\overrightarrow{v}$の内積を表す．
+\begin{description}
+\item[(1)]$A$を求めよ．
+\item[(2)]$\overrightarrow{u}$が零ベクトルでないとき，
+$\overrightarrow{u}$，$A\overrightarrow{u}$のなす角を求めよ．
+\item[(3)]$A$の定める1次変換によって，円弧
+\[ \{ (x, \, y)|x^2+y^2=1, \, x\geqq0, \, y\leqq0 \} \]
+はどのような図形にうつされるか．図によって示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1983/1983_2.pdf)

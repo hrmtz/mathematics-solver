@@ -1,0 +1,25 @@
+---
+title: "東京科学大学 1972年 1972_4"
+problem_id: "08_titech-1972-1972_4"
+university: "東京科学大学"
+exam_year: "1972"
+source_tex: "archive/08_titech/1972/1972_4.tex"
+pdf_source: "archive/08_titech/1972/1972_4.pdf"
+page_image: "archive/08_titech/1972/1972_4.jpg"
+fields:
+  - 微分法
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　区間$a \leqq x \leqq b$において，
+$f'(x)>0$を満たす関数$f(x)$に対して$\displaystyle F(x)=\int_a^b|f(t)-f(x)|dt$とおくとき，
+$F(x)$は$x$のどんな値に対して最小となるか．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1972/1972_4.pdf)

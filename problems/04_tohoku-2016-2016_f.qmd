@@ -1,0 +1,28 @@
+---
+title: "東北大学 2016年 2016_f"
+problem_id: "04_tohoku-2016-2016_f"
+university: "東北大学"
+exam_year: "2016"
+source_tex: "archive/04_tohoku/2016/2016_f.tex"
+pdf_source: "archive/04_tohoku/2016/2016_f.pdf"
+page_image: "archive/04_tohoku/2016/2016_f.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　以下の問いに答えよ。
+\begin{description}
+\item[(1)]$n$を正の整数として，次の定積分を求めよ。
+\[ \int_0^{2\pi}x^2\cos nx \, dx \]
+\item[(2)]次の積分値$I$を最小にする実数$a$の値と，その最小値を求めよ。
+\[ I=\int_0^{2\pi}{ (x^2-a\cos 2x) }^2 \, dx \]
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_f.pdf)

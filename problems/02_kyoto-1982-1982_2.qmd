@@ -1,0 +1,25 @@
+---
+title: "京都大学 1982年 1982_2"
+problem_id: "02_kyoto-1982-1982_2"
+university: "京都大学"
+exam_year: "1982"
+source_tex: "archive/02_kyoto/1982/1982_2.tex"
+pdf_source: "archive/02_kyoto/1982/1982_2.pdf"
+page_image: "archive/02_kyoto/1982/1982_2.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　次の性質をもつ実数$a$は，どのような範囲にあるか．
+二次方程式$t^2-2at+3a-2=0$は実根$\alpha$，$\beta$をもち，$\alpha\geqq\beta$とするとき，
+不等式$y \leqq x$，$y \geqq -x$，$ay\geqq3(x-\beta)$で定まる領域は，三角形になる．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1982/1982_2.pdf)

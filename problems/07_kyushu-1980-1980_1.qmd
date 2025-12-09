@@ -1,0 +1,34 @@
+---
+title: "九州大学 1980年 1980_1"
+problem_id: "07_kyushu-1980-1980_1"
+university: "九州大学"
+exam_year: "1980"
+source_tex: "archive/07_kyushu/1980/1980_1.tex"
+pdf_source: "archive/07_kyushu/1980/1980_1.pdf"
+page_image: "archive/07_kyushu/1980/1980_1.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　空間における2直線$l$，$m$のベクトル方程式をそれぞれ
+$l:\overrightarrow{p}=\overrightarrow{a}+s\overrightarrow{u}$，
+$m:\overrightarrow{p}=\overrightarrow{b}+t\overrightarrow{v}$とする．
+ただし$s$，$t$は媒介変数とし，また$|\overrightarrow{u}|=1$としておく．
+$m$上の点$P$から$l$に下ろした垂線$PQ$（$Q$は垂線の足）を$k:1-k$の比に分ける点を$R$とする．
+そうして$P$が$m$上を動いたときの点$R$の集合を$l_k$と名づける．このとき
+\begin{description}
+\item[(1)]$l_k$のベクトル方程式を求めよ．
+\item[(2)]とくに$\overrightarrow{a}=(0, \, 1, \, 0)$，$\overrightarrow{b}=(0, \, 0, \, 0)$，
+$\overrightarrow{u}=(1, \, 0, \, 0)$，$\overrightarrow{v}=(1, \, 1, \, 1)$ととったとき，
+原点から$l_k$までの最短距離を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1980/1980_1.pdf)

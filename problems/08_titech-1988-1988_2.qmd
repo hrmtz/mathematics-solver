@@ -1,0 +1,27 @@
+---
+title: "東京科学大学 1988年 1988_2"
+problem_id: "08_titech-1988-1988_2"
+university: "東京科学大学"
+exam_year: "1988"
+source_tex: "archive/08_titech/1988/1988_2.tex"
+pdf_source: "archive/08_titech/1988/1988_2.pdf"
+page_image: "archive/08_titech/1988/1988_2.jpg"
+fields:
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　関数$f(x)=ax^2+bx+c$は$|x|\leqq1$で$|f(x)|\leqq1$を満たしている．
+このとき，$f(x)$の導関数$f'(x)$について，
+\begin{description}
+\item[(1)]$|f'(1)|\leqq4$を示せ．
+\item[(2)]$|f'(1)|=4$となる$f(x)$をすべて求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1988/1988_2.pdf)

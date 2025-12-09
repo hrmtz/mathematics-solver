@@ -1,0 +1,24 @@
+---
+title: "東京大学 1990年 1990_0_4"
+problem_id: "01_tokyo-1990-1990_0_4"
+university: "東京大学"
+exam_year: "1990"
+source_tex: "archive/01_tokyo/1990/1990_0_4.tex"
+pdf_source: "archive/01_tokyo/1990/1990_0_4.pdf"
+page_image: "archive/01_tokyo/1990/1990_0_4.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　平面$\pi$の上に等辺の長さが1であるような直角二等辺三角形がある．
+$\pi$上の直線でこの直角二等辺三角形と頂点または一辺のみを共有するものを軸として，
+その三角形を回転させるときできる立体の体積の最大値，最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1990/1990_0_4.pdf)

@@ -1,0 +1,39 @@
+---
+title: "東北大学 1998年 1998_2"
+problem_id: "04_tohoku-1998-1998_2"
+university: "東北大学"
+exam_year: "1998"
+source_tex: "archive/04_tohoku/1998/1998_2.tex"
+pdf_source: "archive/04_tohoku/1998/1998_2.pdf"
+page_image: "archive/04_tohoku/1998/1998_2.jpg"
+fields:
+  - 行列
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　2次正方行列$X=\begin{pmatrix} s & t 
+
+ u & v \end{pmatrix}$に対し，
+$s+v$を$X$のトレースという．
+$A=\begin{pmatrix} a & b 
+
+ -b & c \end{pmatrix}$と
+$A^2$のトレースがともに$-1$であるとする．
+\begin{description}
+\item[(1)]$A^3=E$を示せ．ただし，$E$は単位行列である．
+\item[(2)]連立1次方程式
+${(A+E)}^4\begin{pmatrix} x 
+
+ y \end{pmatrix}=\begin{pmatrix} b 
+
+ -a \end{pmatrix}$を解け．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_2.pdf)

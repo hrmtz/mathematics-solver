@@ -1,0 +1,31 @@
+---
+title: "名古屋大学 2000年 2000_4a"
+problem_id: "05_nagoya-2000-2000_4a"
+university: "名古屋大学"
+exam_year: "2000"
+source_tex: "archive/05_nagoya/2000/2000_4a.tex"
+pdf_source: "archive/05_nagoya/2000/2000_4a.pdf"
+page_image: "archive/05_nagoya/2000/2000_4a.jpg"
+fields:
+  - 空間図形
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (a)
+　座標空間内の6つの平面
+\[ x=0, \hspace{1zw} x=1, \hspace{1zw} y=0, \hspace{1zw} y=1, \hspace{1zw} z=0, \hspace{1zw} z=1 \]
+で囲まれた立方体を$C$とする．
+$\overrightarrow{l}=(-a_1, \, -a_2, \, -a_3)$を
+$a_1>0$，$a_2>0$，$a_3>0$を満たし，大きさが1のベクトルとする．
+$H$を原点$O$を通りベクトル$\overrightarrow{l}$に垂直な平面とする．
+　このとき，ベクトル$\overrightarrow{l}$を進行方向にもつ光線により平面$H$に生じる立方体$C$の影の面積を，
+$a_1$，$a_2$，$a_3$を用いて表せ．
+ここに，$C$の影とは$C$内の点から平面$H$へひいた垂線の足全体のなす図形である．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2000/2000_4a.pdf)

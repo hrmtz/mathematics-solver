@@ -1,0 +1,27 @@
+---
+title: "東北大学 1992年 1992_2"
+problem_id: "04_tohoku-1992-1992_2"
+university: "東北大学"
+exam_year: "1992"
+source_tex: "archive/04_tohoku/1992/1992_2.tex"
+pdf_source: "archive/04_tohoku/1992/1992_2.pdf"
+page_image: "archive/04_tohoku/1992/1992_2.jpg"
+fields:
+  - ベクトル
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　短針の長さが1，長針の長さが2の時計がある．
+短針を$\overrightarrow{a}$，長針を$\overrightarrow{b}$とするとき，
+点$(|\overrightarrow{a}+\overrightarrow{b}|, \, \overrightarrow{a}\cdot\overrightarrow{b})$の動く範囲を求め，
+それを図示せよ．
+ただし$|\overrightarrow{a}+\overrightarrow{b}|$はベクトル$\overrightarrow{a}+\overrightarrow{b}$の大きさ，
+$\overrightarrow{a}\cdot\overrightarrow{b}$はベクトル$\overrightarrow{a}$と$\overrightarrow{b}$の内積を表す．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_2.pdf)

@@ -1,0 +1,220 @@
+## 解答
+
+(1)  
+$F$は直線$OA$上にあり，かつ$BF\perp OA$であるから，$\overrightarrow{OF}$は$\overrightarrow{a}$方向のベクトルである。  
+よってある実数$t$を用いて
+$$
+\overrightarrow{OF}=t\overrightarrow{a}
+$$
+とかける。
+
+$BF\perp OA$より，$\overrightarrow{BF}\cdot\overrightarrow{a}=0$であるから，
+$$
+(\overrightarrow{OF}-\overrightarrow{OB})\cdot\overrightarrow{a}=0
+$$
+すなわち
+$$
+(t\overrightarrow{a}-\overrightarrow{b})\cdot\overrightarrow{a}=0
+$$
+となる。内積の性質より
+$$
+t|\overrightarrow{a}|^2-\overrightarrow{b}\cdot\overrightarrow{a}=0
+$$
+であるから，
+$$
+t=\frac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{a}|^2}
+     =\frac{6}{4^2}
+     =\frac{6}{16}
+     =\frac{3}{8}
+$$
+となる。
+
+したがって，
+$$
+\overrightarrow{OF}=\frac{3}{8}\overrightarrow{a}
+$$
+である。
+
+(2)  
+$D$は$AB$を$2:1$に内分する点であるから，内分点の公式より
+$$
+\overrightarrow{OD}
+=\frac{1\cdot\overrightarrow{A} + 2\cdot\overrightarrow{B}}{1+2}
+=\frac{\overrightarrow{a}+2\overrightarrow{b}}{3}
+$$
+である。
+
+また，$E$は直線$OA$に関して$D$と対称な点であるから，$OA$を含む直線を軸とした鏡映を考えると  
+「鏡映前の点の原点からのベクトル $\overrightarrow{OD}$ を，$\overrightarrow{a}$ 方向成分とそれに垂直な成分に分解し，垂直成分の符号を反転させる」と表せる。すなわち
+
+- $F'$を$D$から直線$OA$に下ろした垂線の足とすると，$F'$は$OA$上にあり  
+  従って $\overrightarrow{OF'}$ は $\overrightarrow{a}$ 方向のベクトルである。
+- $\overrightarrow{OF'}$ は $\overrightarrow{OD}$ の $OA$ 方向への射影なので，(1)と同様に  
+  $$
+  \overrightarrow{OF'}=\frac{\overrightarrow{a}\cdot\overrightarrow{OD}}{|\overrightarrow{a}|^2}\,\overrightarrow{a}
+  $$
+  である。
+- $D,E$ は $OA$ に関して対称なので，中点は $F'$ であり
+  $$
+  \overrightarrow{OF'}=\frac{\overrightarrow{OD}+\overrightarrow{OE}}{2}
+  $$
+  が成り立つ。
+
+これらを用いて $\overrightarrow{OE}$ を求める。
+
+まず
+$$
+\overrightarrow{a}\cdot\overrightarrow{OD}
+=\overrightarrow{a}\cdot\frac{\overrightarrow{a}+2\overrightarrow{b}}{3}
+=\frac{|\overrightarrow{a}|^2 + 2(\overrightarrow{a}\cdot\overrightarrow{b})}{3}
+=\frac{16+2\cdot6}{3}
+=\frac{28}{3}
+$$
+なので，
+$$
+\overrightarrow{OF'}
+=\frac{\frac{28}{3}}{|\overrightarrow{a}|^2}\,\overrightarrow{a}
+=\frac{\frac{28}{3}}{16}\,\overrightarrow{a}
+=\frac{7}{12}\overrightarrow{a}
+$$
+である。
+
+一方，中点の関係より
+$$
+\overrightarrow{OF'}=\frac{\overrightarrow{OD}+\overrightarrow{OE}}{2}
+$$
+だから，
+$$
+\overrightarrow{OD}+\overrightarrow{OE}=2\overrightarrow{OF'}=\frac{7}{6}\overrightarrow{a}
+$$
+となる。これより
+$$
+\overrightarrow{OE}
+=\frac{7}{6}\overrightarrow{a}-\overrightarrow{OD}
+=\frac{7}{6}\overrightarrow{a}-\frac{\overrightarrow{a}+2\overrightarrow{b}}{3}
+$$
+となり，右辺を通分して
+$$
+\overrightarrow{OE}
+=\left(\frac{7}{6}-\frac{1}{3}\right)\overrightarrow{a}-\frac{2}{3}\overrightarrow{b}
+=\frac{5}{6}\overrightarrow{a}-\frac{2}{3}\overrightarrow{b}
+$$
+を得る。
+
+よって，
+$$
+\overrightarrow{OE}=\frac{5}{6}\overrightarrow{a}-\frac{2}{3}\overrightarrow{b}
+$$
+である。
+
+(3)  
+三角形の面積は，2辺を表すベクトルの外積の大きさの半分で与えられることを用いる。  
+三角形$BDE$において，頂点$B$を基準にとると
+$$
+\overrightarrow{BD}=\overrightarrow{OD}-\overrightarrow{OB}
+=\frac{\overrightarrow{a}+2\overrightarrow{b}}{3}-\overrightarrow{b}
+=\frac{\overrightarrow{a}-\overrightarrow{b}}{3},
+$$
+$$
+\overrightarrow{BE}=\overrightarrow{OE}-\overrightarrow{OB}
+=\left(\frac{5}{6}\overrightarrow{a}-\frac{2}{3}\overrightarrow{b}\right)-\overrightarrow{b}
+=\frac{5}{6}\overrightarrow{a}-\frac{5}{3}\overrightarrow{b}
+$$
+である。
+
+したがって三角形$BDE$の面積$S$は
+$$
+S=\frac12\bigl|\overrightarrow{BD}\times\overrightarrow{BE}\bigr|
+$$
+である。$\overrightarrow{BD},\overrightarrow{BE}$ を係数付きで書き直すと
+$$
+\overrightarrow{BD}=\frac13(\overrightarrow{a}-\overrightarrow{b}),\quad
+\overrightarrow{BE}=\frac{5}{6}\left(\overrightarrow{a}-2\overrightarrow{b}\right)
+$$
+なので，外積のスカラー倍の性質より
+$$
+\bigl|\overrightarrow{BD}\times\overrightarrow{BE}\bigr|
+=\frac13\cdot\frac56\,\bigl|(\overrightarrow{a}-\overrightarrow{b})\times(\overrightarrow{a}-2\overrightarrow{b})\bigr|
+=\frac{5}{18}\,\bigl|(\overrightarrow{a}-\overrightarrow{b})\times(\overrightarrow{a}-2\overrightarrow{b})\bigr|
+$$
+となる。
+
+ここで外積を展開すると
+$$
+(\overrightarrow{a}-\overrightarrow{b})\times(\overrightarrow{a}-2\overrightarrow{b})
+=\overrightarrow{a}\times\overrightarrow{a}
+-2\overrightarrow{a}\times\overrightarrow{b}
+-\overrightarrow{b}\times\overrightarrow{a}
++2\overrightarrow{b}\times\overrightarrow{b}
+$$
+であり，$\overrightarrow{a}\times\overrightarrow{a}=\overrightarrow{0}$，$\overrightarrow{b}\times\overrightarrow{b}=\overrightarrow{0}$，および $\overrightarrow{b}\times\overrightarrow{a}=-(\overrightarrow{a}\times\overrightarrow{b})$ を用いると
+$$
+(\overrightarrow{a}-\overrightarrow{b})\times(\overrightarrow{a}-2\overrightarrow{b})
+=-2\overrightarrow{a}\times\overrightarrow{b}
++\overrightarrow{a}\times\overrightarrow{b}
+=-(\overrightarrow{a}\times\overrightarrow{b})
+$$
+となる。よって
+$$
+\bigl|(\overrightarrow{a}-\overrightarrow{b})\times(\overrightarrow{a}-2\overrightarrow{b})\bigr|
+=|\overrightarrow{a}\times\overrightarrow{b}|
+$$
+である。
+
+以上より
+$$
+S=\frac12\cdot\frac{5}{18}\,|\overrightarrow{a}\times\overrightarrow{b}|
+=\frac{5}{36}\,|\overrightarrow{a}\times\overrightarrow{b}|
+$$
+となる。
+
+ここで，2つのベクトルの外積の大きさは
+$$
+|\overrightarrow{a}\times\overrightarrow{b}|^2
+=|\overrightarrow{a}|^2|\overrightarrow{b}|^2-(\overrightarrow{a}\cdot\overrightarrow{b})^2
+$$
+で与えられる（内積と外積の関係）。したがって
+$$
+|\overrightarrow{a}\times\overrightarrow{b}|
+=\sqrt{|\overrightarrow{a}|^2|\overrightarrow{b}|^2-(\overrightarrow{a}\cdot\overrightarrow{b})^2}
+=\sqrt{16|\overrightarrow{b}|^2-6^2}
+=\sqrt{16|\overrightarrow{b}|^2-36}
+$$
+となる。
+
+問題の条件より $S=\dfrac{5}{9}$ なので，
+$$
+\frac{5}{9}
+=\frac{5}{36}\,|\overrightarrow{a}\times\overrightarrow{b}|
+$$
+すなわち
+$$
+|\overrightarrow{a}\times\overrightarrow{b}|=\frac{5}{9}\cdot\frac{36}{5}=4
+$$
+である。これと上の式を比較して
+$$
+4=\sqrt{16|\overrightarrow{b}|^2-36}
+$$
+となるから，両辺を2乗して
+$$
+16=16|\overrightarrow{b}|^2-36
+$$
+すなわち
+$$
+16|\overrightarrow{b}|^2=52
+$$
+よって
+$$
+|\overrightarrow{b}|^2=\frac{52}{16}=\frac{13}{4}
+$$
+となる。$|\overrightarrow{b}|>0$ であるから
+$$
+|\overrightarrow{b}|=\frac{\sqrt{13}}{2}
+$$
+である。
+
+したがって，
+$$
+|\overrightarrow{b}|=\frac{\sqrt{13}}{2}
+$$
+となる。

@@ -1,0 +1,23 @@
+---
+title: "京都大学 2004年 2004_0_1"
+problem_id: "02_kyoto-2004-2004_0_1"
+university: "京都大学"
+exam_year: "2004"
+source_tex: "archive/02_kyoto/2004/2004_0_1.tex"
+pdf_source: "archive/02_kyoto/2004/2004_0_1.pdf"
+page_image: "archive/02_kyoto/2004/2004_0_1.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$f(\theta)=\cos 4\theta-4\sin^2\theta$とする．
+$0^\circ \leqq \theta \leqq {90}^\circ$における$f(\theta)$の最大値および最小値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_0_1.pdf)

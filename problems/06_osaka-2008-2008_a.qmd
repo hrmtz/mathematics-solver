@@ -1,0 +1,32 @@
+---
+title: "大阪大学 2008年 2008_a"
+problem_id: "06_osaka-2008-2008_a"
+university: "大阪大学"
+exam_year: "2008"
+source_tex: "archive/06_osaka/2008/2008_a.tex"
+pdf_source: "archive/06_osaka/2008/2008_a.pdf"
+page_image: "archive/06_osaka/2008/2008_a.jpg"
+fields:
+  - 整数
+  - 数列
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$n$を自然数とする．
+\begin{description}
+\item[(1)]$4^n-1$が15の倍数となるような$n$をすべて求めよ．
+\item[(2)](1)で求めた$n$を小さい順に並べた数列を$a_1, \, a_2, \, \cdots$とする．
+自然数$k$に対して
+\[ A_k=\{ x|x\text{は}a_k \leqq \log_4x \leqq a_{k+1}\text{を満たす自然数} \} \]
+とするとき，$A_k$に属する3の倍数の和$S_k$を求めよ．
+\item[(3)]$\displaystyle\lim_{k\to\infty}\frac{S_k}{4^{4k}}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2008/2008_a.pdf)

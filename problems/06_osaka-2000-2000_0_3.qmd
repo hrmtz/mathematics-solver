@@ -1,0 +1,24 @@
+---
+title: "大阪大学 2000年 2000_0_3"
+problem_id: "06_osaka-2000-2000_0_3"
+university: "大阪大学"
+exam_year: "2000"
+source_tex: "archive/06_osaka/2000/2000_0_3.tex"
+pdf_source: "archive/06_osaka/2000/2000_0_3.pdf"
+page_image: "archive/06_osaka/2000/2000_0_3.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数$f(x)=x-2+3|x-1|$を考える．$0 \leqq x \leqq 2$の範囲で，関数
+\[ g(x)=\left| \int_0^x f(t)dt \right|+\left| \int_x^2 f(t)dt \right| \]
+の最大値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_0_3.pdf)

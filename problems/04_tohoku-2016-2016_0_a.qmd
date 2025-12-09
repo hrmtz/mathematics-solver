@@ -1,0 +1,28 @@
+---
+title: "東北大学 2016年 2016_0_a"
+problem_id: "04_tohoku-2016-2016_0_a"
+university: "東北大学"
+exam_year: "2016"
+source_tex: "archive/04_tohoku/2016/2016_0_a.tex"
+pdf_source: "archive/04_tohoku/2016/2016_0_a.pdf"
+page_image: "archive/04_tohoku/2016/2016_0_a.jpg"
+fields:
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$a$，$b$，$c$を正の実数で，$abc=1$を満たすものとする。
+このとき，次の(1)，(2)の不等式を示せ。
+\begin{description}
+\item[(1)]$\displaystyle a^2+b^2+c^2\geqq\frac{1}{a}+\frac{1}{b}+\frac{1}{c}
+\geqq\sqrt{a}+\sqrt{b}+\sqrt{c}$
+\item[(2)]$a+b+c\geqq3$
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_0_a.pdf)

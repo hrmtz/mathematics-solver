@@ -1,0 +1,142 @@
+## 解答
+
+(1)  
+
+平行四辺形 $ABCD$ において，$\angle ABC=\dfrac{\pi}{6}$，$AB=a$，$BC=b$ とする。  
+直線 $BC$ を $G$ まで延長したとき，条件より $B \in FG$，$C \in GH$ であり，$EFGH$ は長方形だから，各辺は互いに平行・垂直の関係にある。
+
+ここで，$\angle BCG=\theta$ とおくと，$\overrightarrow{CG}$ は $\overrightarrow{CB}$ を延長した方向にあるから，
+直線 $CG$ は直線 $CB$ と一直線であり，
+$$
+\angle BCG=\theta
+$$
+は，直線 $CB$ から直線 $CH$ への角度（すなわち，$CG$ と $CH$ がなす内角）を意味する。  
+よって，直角である $\angle CGH$ を用いて
+$$
+\angle BCH = \angle BCG = \theta,\quad
+\angle GCH = \dfrac{\pi}{2}-\theta
+$$
+が成り立つ（$G$ が $B$ の延長側にあるため $\angle BCH=\theta$ となる）。
+
+さらに，平行四辺形 $ABCD$ において
+$$
+\angle ABC = \dfrac{\pi}{6}
+$$
+であるから，隣接頂点 $B,C$ で作る角の和が $\pi$ であることより
+$$
+\angle BCD = \pi - \angle ABC = \pi - \dfrac{\pi}{6} = \dfrac{5\pi}{6}
+$$
+が成り立つ。
+
+長方形 $EFGH$ の対辺は平行であるから，
+$$
+\overrightarrow{CH} \parallel \overrightarrow{AB},\quad
+\overrightarrow{CB} \parallel \overrightarrow{AD}
+$$
+より，平行線の性質から
+$$
+\angle DCB = \angle BCH = \theta
+$$
+が成り立つ（$DC$ は $CB$ と同一直線上にあるので，$D$，$C$，$B$ は一直線上にあり，$\angle DCB$ と $\angle BCH$ は向きが同じ角度となる）。
+
+三角形 $BCD$ において，2辺 $BC=b$，$CD=a$ とその間の角 $\angle BCD=\dfrac{5\pi}{6}$ より，余弦定理を用いると
+$$
+BD^2 = BC^2 + CD^2 - 2\cdot BC \cdot CD \cos\angle BCD
+= b^2 + a^2 - 2ab\cos\dfrac{5\pi}{6}
+$$
+である。$\cos\dfrac{5\pi}{6} = -\dfrac{\sqrt{3}}{2}$ だから，
+$$
+BD^2 = a^2 + b^2 + ab\sqrt{3}
+$$
+したがって
+$$
+BD = \sqrt{a^2 + b^2 + ab\sqrt{3}}
+$$
+である。
+
+また，三角形 $BCD$ において，辺 $BC,CD,BD$ に対する角はそれぞれ $\angle BCD=\dfrac{5\pi}{6}$, $\angle DBC$, $\angle CDB$ である。  
+ここで，$\angle DCB=\theta$ なので，
+$$
+\angle DBC = \pi - \angle BCD - \angle DCB
+= \pi - \dfrac{5\pi}{6} - \theta
+= \dfrac{\pi}{6} - \theta
+$$
+となる。
+
+長方形 $EFGH$ の 1 辺の長さを求めるため，三角形 $BCD$ で正弦定理を用いる：
+$$
+\frac{BD}{\sin \angle BCD}
+= \frac{BC}{\sin \angle CDB}
+= \frac{CD}{\sin \angle DBC}
+$$
+ここで必要なのは $BD$ を斜辺とみなしたときの $\sin \angle DBC$ であるから，
+$$
+\frac{BD}{\sin \dfrac{5\pi}{6}} = \frac{CD}{\sin \angle DBC}
+\quad\Rightarrow\quad
+\sin \angle DBC
+= \frac{CD}{BD} \sin \dfrac{5\pi}{6}
+= \frac{a}{BD} \cdot \frac{1}{2}
+= \frac{a}{2\sqrt{a^2 + b^2 + ab\sqrt{3}}}
+$$
+一方 $\angle DBC = \dfrac{\pi}{6} - \theta$ であるから
+$$
+\sin\!\Bigl(\dfrac{\pi}{6} - \theta\Bigr)
+= \frac{a}{2\sqrt{a^2 + b^2 + ab\sqrt{3}}}
+$$
+である。
+
+さて，長方形 $EFGH$ は，平行四辺形 $ABCD$ を対角線 $BD$ を含む方向と，それに直交する方向に射影したものとみなせる。  
+すなわち，$EFGH$ の 1 辺（例えば $FG$）は，対角線 $BD$ を $BC$ と $CD$ の方向に沿って「直角に張り出した」長さに等しく，その長さ $L$ は
+$$
+L = BC \sin\angle DBC = b\sin\!\Bigl(\dfrac{\pi}{6} - \theta\Bigr)
+$$
+である。同様に隣辺（例えば $FG$ に直交する方）の長さは，$BD$ 上での $BC$ と $CD$ の合成により決まり，結局 $BD$ の長さに等しく
+$$
+W = BD = \sqrt{a^2 + b^2 + ab\sqrt{3}}
+$$
+となる。したがって長方形 $EFGH$ の面積 $S$ は
+$$
+S = L \cdot W
+= b\sin\!\Bigl(\dfrac{\pi}{6} - \theta\Bigr)
+\cdot \sqrt{a^2 + b^2 + ab\sqrt{3}}
+$$
+となる。
+
+よって，
+$$
+\boxed{
+S = b\sqrt{a^2 + b^2 + ab\sqrt{3}}\,
+\sin\!\Bigl(\dfrac{\pi}{6} - \theta\Bigr)
+}
+$$
+である。
+
+(2)  
+
+(1) の結果より
+$$
+S = b\sqrt{a^2 + b^2 + ab\sqrt{3}}\,
+\sin\!\Bigl(\dfrac{\pi}{6} - \theta\Bigr)
+$$
+である。ここで $a,\;b$ は定数なので，$S$ の大きさは
+$$
+\sin\!\Bigl(\dfrac{\pi}{6} - \theta\Bigr)
+$$
+の取りうる範囲によって決まる。
+
+長方形 $EFGH$ が存在するための幾何的条件から，$\theta$ はある範囲を動くが，$\sin\!\bigl(\dfrac{\pi}{6} - \theta\bigr)$ がとりうる最大値は $1$ である（正弦の最大値は 1 である）。  
+したがって，$S$ の最大値は
+$$
+S_{\max}
+= b\sqrt{a^2 + b^2 + ab\sqrt{3}}\cdot 1
+= b\sqrt{a^2 + b^2 + ab\sqrt{3}}
+$$
+となる。
+
+よって，$S$ のとりうる値の最大値は
+$$
+\boxed{
+S_{\max} = b\sqrt{a^2 + b^2 + ab\sqrt{3}}
+}
+$$
+である。

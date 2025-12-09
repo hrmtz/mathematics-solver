@@ -1,0 +1,290 @@
+## 解答
+
+(1)  
+曲線 $C:y=a-1-\log x$ の接線を求める。
+
+$y=a-1-\log x$ より，微分して
+$$
+\frac{dy}{dx}=-\frac1x
+$$
+である。点 $P(s,a-1-\log s)$ における接線の傾きは $x=s$ を代入して
+$$
+\left.\frac{dy}{dx}\right|_{x=s}=-\frac1s
+$$
+となるから，点傾き式より接線の方程式は
+$$
+y-(a-1-\log s)=-\frac1s(x-s)
+$$
+すなわち
+$$
+y=-\frac1s x+\left(a-1-\log s+1\right)
+=-\frac1s x+(a-\log s)
+$$
+である。
+
+$x$軸との交点 $(u(s),0)$ は $y=0$ を代入して求める：
+$$
+0=-\frac1s u(s)+(a-\log s)
+$$
+より
+$$
+u(s)=s(a-\log s).
+$$
+
+$y$軸との交点 $(0,v(s))$ は $x=0$ を代入して求める：
+$$
+v(s)=a-\log s.
+$$
+
+したがって
+$$
+u(s)=s(a-\log s),\quad v(s)=a-\log s
+$$
+である。
+
+---
+
+(2)  
+$t=u(s)=s(a-\log s)$，$t=v(s)=a-\log s$ を $st$ 平面上で調べる。
+
+まず $t=v(s)=a-\log s$ について調べる。
+
+$s>0$ において
+$$
+v'(s)=-\frac1s<0,\quad
+v''(s)=\frac1{s^2}>0
+$$
+より，$t=v(s)$ は $s$ の減少関数で，常に上に凸である。
+
+$s\to+0$ のとき $\log s\to -\infty$ より $v(s)=a-\log s\to+\infty$，
+$s\to+\infty$ のとき $\log s\to+\infty$ より $v(s)\to-\infty$ となる。
+
+次に $t=u(s)=s(a-\log s)$ を調べる。
+
+$$
+u'(s)=\frac{d}{ds}\{s(a-\log s)\}
+=(a-\log s)+s\left(-\frac1s\right)=a-\log s-1,
+$$
+$$
+u''(s)=\frac{d}{ds}(a-\log s-1)=-\frac1s<0
+$$
+であるから，$t=u(s)$ は全体として上に凸であり，増減は
+$$
+u'(s)=0\ \Longleftrightarrow\ a-\log s-1=0
+\ \Longleftrightarrow\ \log s=a-1
+\ \Longleftrightarrow\ s=e^{a-1}
+$$
+で変わる。$s<e^{a-1}$ で $u'(s)>0$，$s>e^{a-1}$ で $u'(s)<0$ なので，
+
+- $0<s<e^{a-1}$ で増加
+- $s>e^{a-1}$ で減少
+
+となり，$s=e^{a-1}$ で最大値をとる。  
+そのとき
+$$
+u(e^{a-1})=e^{a-1}\bigl(a-\log(e^{a-1})\bigr)
+=e^{a-1}\bigl(a-(a-1)\bigr)=e^{a-1}.
+$$
+
+両端での挙動を調べる。$s\to+0$ のとき
+$$
+u(s)=s(a-\log s)=sa-s\log s.
+$$
+ここで $s\to+0$ で $sa\to0$，また $x\log x\to0\ (x\to+0)$ を用いると
+$s\log s\to0$ なので $u(s)\to0$ である。  
+また $s\to+\infty$ のとき $\log s\ll s$ なので
+$$
+u(s)=s(a-\log s)\sim -s\log s\to-\infty.
+$$
+
+次に 2 つのグラフの交点を求める。  
+$t=u(s)$ と $t=v(s)$ の交点では
+$$
+s(a-\log s)=a-\log s
+$$
+が成り立つ。$a-\log s$ で場合分けする。
+
+- $a-\log s=0$ の場合：$\log s=a$，すなわち $s=e^a$ である。このとき
+  $$
+  t=v(e^a)=a-\log(e^a)=a-a=0
+  $$
+  である。
+
+- $a-\log s\neq0$ の場合は，両辺を $a-\log s$ で割ると $s=1$ となる。
+  このとき
+  $$
+  t=v(1)=a-\log1=a.
+  $$
+
+したがって交点は
+$$
+(s,t)=(1,a),\quad (e^a,0)
+$$
+の 2 点である。
+
+増減・凹凸とあわせてまとめると，
+
+- $t=v(s)=a-\log s$ は単調減少・上に凸で，$s\to0^+$ で $t\to+\infty$，
+  $s\to+\infty$ で $t\to-\infty$。
+- $t=u(s)=s(a-\log s)$ は $s\to0^+$ で $t\to0$，$s\to+\infty$ で $t\to-\infty$，
+  $s=e^{a-1}$ で頂点 $(e^{a-1},e^{a-1})$ を持つ上に凸のグラフ。
+- 2 つのグラフは $(1,a)$ と $(e^a,0)$ で交わる。
+
+これらをもとに $st$ 平面上に 2 曲線を描き，交点 $(1,a)$，$(e^a,0)$ と
+頂点 $(e^{a-1},e^{a-1})$ を示し，それぞれの増減・凹凸の様子が分かるように図示する。
+
+---
+
+(3)  
+$t$ 軸まわりに 1 回転させてできる回転体の体積を求める。
+
+2 つの曲線で囲まれた領域は，$s$ の範囲で見ると $s=1$ から $s=e^a$ の間にあり，
+この区間で $v(s)=a-\log s$ の方が上（大きい）で，$u(s)=s(a-\log s)$ が下となる。  
+
+したがって，任意の $s\in[1,e^a]$ において
+
+- 外側の半径（$t$ 軸から外側の曲線まで）は $R(s)=v(s)=a-\log s$，
+- 内側の半径（$t$ 軸から内側の曲線まで）は $r(s)=u(s)=s(a-\log s)$
+
+である。$s$ を軸に垂直な方向の長さとみなし，ワッシャー法（円環法）を用いると，
+微小部分の体積は
+$$
+\pi\bigl(R(s)^2-r(s)^2\bigr)\,ds
+=\pi\bigl\{(a-\log s)^2-\bigl(s(a-\log s)\bigr)^2\bigr\}\,ds
+$$
+であるから，全体の体積 $V$ は
+$$
+V=\int_{s=1}^{e^a}\pi\bigl(R(s)^2-r(s)^2\bigr)\,ds
+=\pi\int_{1}^{e^a}(a-\log s)^2\bigl(1-s^2\bigr)\,ds
+$$
+となる。
+
+ここで積分を行う。$a-\log s$ をそのままおいて計算してもよいが，
+置換積分により簡単にする。  
+$t=a-\log s$ とおくと，$\log s=a-t$ より $s=e^{a-t}$，微分して
+$$
+dt=-\frac1s\,ds\quad\Longrightarrow\quad ds=-s\,dt=-e^{a-t}\,dt
+$$
+である。また
+$$
+s^2=e^{2(a-t)}
+$$
+なので
+$$
+1-s^2=1-e^{2(a-t)}
+$$
+となる。
+
+$s$ の範囲 $1\le s\le e^a$ に対し，$t$ の範囲は
+
+- $s=1$ のとき $\log1=0$ より $t=a-0=a$，
+- $s=e^a$ のとき $\log(e^a)=a$ より $t=a-a=0$
+
+であるから $t$ は $a$ から $0$ まで減少する。ゆえに
+$$
+V=\pi\int_{1}^{e^a}(a-\log s)^2(1-s^2)\,ds
+=\pi\int_{t=a}^{0}t^2\bigl(1-e^{2(a-t)}\bigr)\bigl(-e^{a-t}\bigr)\,dt.
+$$
+
+右辺を整理する。$-e^{a-t}$ を分配して
+$$
+t^2\bigl(1-e^{2(a-t)}\bigr)\bigl(-e^{a-t}\bigr)
+=-t^2e^{a-t}+t^2e^{a-t}e^{2(a-t)}
+=-t^2e^{a-t}+t^2e^{3a-3t}.
+$$
+したがって
+$$
+V=\pi\int_{a}^{0}\bigl(-t^2e^{a-t}+t^2e^{3a-3t}\bigr)\,dt.
+$$
+積分区間を $0$ から $a$ に並べ替えると符号が変わるので
+$$
+V=\pi\int_{0}^{a}\bigl(t^2e^{a-t}-t^2e^{3a-3t}\bigr)\,dt
+=\pi\left\{e^{a}\int_{0}^{a}t^2e^{-t}\,dt
+-e^{3a}\int_{0}^{a}t^2e^{-3t}\,dt\right\}.
+$$
+
+それぞれ部分積分を用いて求める。一般に
+$$
+\int t^2e^{-\lambda t}\,dt
+$$
+は 2 回の部分積分で計算できる。ここでは定積分を直接計算する。
+
+まず $\displaystyle\int_{0}^{a}t^2e^{-t}\,dt$ を計算する。  
+$u=t^2,\ dv=e^{-t}dt$ とおくと $du=2t\,dt,\ v=-e^{-t}$ だから
+$$
+\int_{0}^{a}t^2e^{-t}\,dt
+=\left[-t^2e^{-t}\right]_{0}^{a}+\int_{0}^{a}2te^{-t}\,dt
+=-a^2e^{-a}+\int_{0}^{a}2te^{-t}\,dt.
+$$
+次に $\int_{0}^{a}2te^{-t}\,dt$ を同様に部分積分する。  
+$u=2t,\ dv=e^{-t}dt$ とおくと $du=2\,dt,\ v=-e^{-t}$ より
+$$
+\int_{0}^{a}2te^{-t}\,dt
+=\left[-2te^{-t}\right]_{0}^{a}+\int_{0}^{a}2e^{-t}\,dt
+=-2ae^{-a}+\left[-2e^{-t}\right]_{0}^{a}
+=-2ae^{-a}+(-2e^{-a}+2).
+$$
+これをまとめると
+$$
+\int_{0}^{a}t^2e^{-t}\,dt
+=-a^2e^{-a}-2ae^{-a}-2e^{-a}+2
+=2-(a^2+2a+2)e^{-a}.
+$$
+
+同様に $\displaystyle\int_{0}^{a}t^2e^{-3t}\,dt$ を計算する。  
+$u=t^2,\ dv=e^{-3t}dt$ とおくと $du=2t\,dt,\ v=-\frac13e^{-3t}$ なので
+$$
+\int_{0}^{a}t^2e^{-3t}\,dt
+=\left[-\frac13t^2e^{-3t}\right]_{0}^{a}
++\frac{2}{3}\int_{0}^{a}te^{-3t}\,dt
+=-\frac13a^2e^{-3a}+\frac{2}{3}\int_{0}^{a}te^{-3t}\,dt.
+$$
+さらに $\int_{0}^{a}te^{-3t}\,dt$ について，$u=t,\ dv=e^{-3t}dt$ とおくと
+$du=dt,\ v=-\frac13e^{-3t}$ より
+$$
+\int_{0}^{a}te^{-3t}\,dt
+=\left[-\frac13te^{-3t}\right]_{0}^{a}
++\frac{1}{3}\int_{0}^{a}e^{-3t}\,dt
+=-\frac13ae^{-3a}+\frac{1}{3}\left[-\frac13e^{-3t}\right]_{0}^{a}
+=-\frac13ae^{-3a}+\frac{1}{9}(1-e^{-3a}).
+$$
+したがって
+$$
+\int_{0}^{a}t^2e^{-3t}\,dt
+=-\frac13a^2e^{-3a}+\frac{2}{3}\left\{-\frac13ae^{-3a}+\frac{1}{9}(1-e^{-3a})\right\}.
+$$
+右辺を整理すると
+$$
+\int_{0}^{a}t^2e^{-3t}\,dt
+=-\frac13a^2e^{-3a}-\frac{2}{9}ae^{-3a}+\frac{2}{27}(1-e^{-3a})
+=\frac{2}{27}-\left(\frac{1}{3}a^2+\frac{2}{9}a+\frac{2}{27}\right)e^{-3a}.
+$$
+
+以上から
+$$
+V=\pi\left\{e^{a}\left(2-(a^2+2a+2)e^{-a}\right)
+-e^{3a}\left(\frac{2}{27}-\left(\frac{1}{3}a^2+\frac{2}{9}a+\frac{2}{27}\right)e^{-3a}\right)\right\}.
+$$
+それぞれ分配して
+$$
+V=\pi\left\{2e^{a}-(a^2+2a+2)
+-\frac{2}{27}e^{3a}
++\left(\frac{1}{3}a^2+\frac{2}{9}a+\frac{2}{27}\right)\right\}.
+$$
+定数項をまとめると
+$$
+-(a^2+2a+2)+\left(\frac{1}{3}a^2+\frac{2}{9}a+\frac{2}{27}\right)
+=-\frac{2}{3}a^2-\frac{16}{9}a-\frac{52}{27}.
+$$
+よって
+$$
+V=\pi\left(2e^{a}-\frac{2}{27}e^{3a}-\frac{2}{3}a^2-\frac{16}{9}a-\frac{52}{27}\right).
+$$
+
+共通因数 $2$ をくくり出すと
+$$
+V=2\pi\left(e^{a}-\frac{1}{27}e^{3a}-\frac{1}{3}a^2-\frac{8}{9}a-\frac{26}{27}\right)
+$$
+となる。
+
+以上が求める立体の体積である。

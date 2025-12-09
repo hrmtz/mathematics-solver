@@ -1,0 +1,33 @@
+---
+title: "東京大学 2004年 2004_5"
+problem_id: "01_tokyo-2004-2004_5"
+university: "東京大学"
+exam_year: "2004"
+source_tex: "archive/01_tokyo/2004/2004_5.tex"
+pdf_source: "archive/01_tokyo/2004/2004_5.pdf"
+page_image: "archive/01_tokyo/2004/2004_5.jpg"
+fields:
+  - 空間図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$r$を正の実数とする．
+$xyz$空間内の原点$O(0,0,0)$を中心とする半径1の球を$A$，
+点$P(r,0,0)$を中心とする半径1の球を$B$とする．
+球$A$と球$B$の和集合の体積を$V$とする．
+ただし，球$A$と球$B$の和集合とは，
+球$A$または球$B$の少なくとも一方に含まれる点全体よりなる立体のことである．
+\begin{description}
+\item[(1)]$V$を$r$の関数として表し，そのグラフの概形をかけ．
+\item[(2)]$V=8$となるとき，$r$の値はいくらか．四捨五入して小数第1位まで求めよ．
+\end{description}
+注意：円周率$\pi$は$3.14<\pi<3.15$をみたす．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2004/2004_5.pdf)

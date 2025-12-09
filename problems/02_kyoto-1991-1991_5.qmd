@@ -1,0 +1,32 @@
+---
+title: "京都大学 1991年 1991_5"
+problem_id: "02_kyoto-1991-1991_5"
+university: "京都大学"
+exam_year: "1991"
+source_tex: "archive/02_kyoto/1991/1991_5.tex"
+pdf_source: "archive/02_kyoto/1991/1991_5.pdf"
+page_image: "archive/02_kyoto/1991/1991_5.jpg"
+fields:
+  - 確率
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　袋の中に$N$個の白玉と3個の赤玉がある．
+「袋の中の$(N+3)$個の玉から無作為に1個を取り出し，つぎに(外部にある)白玉を1個袋に入れる」という試行をくり返す．
+$n$回目の試行で赤玉をとり出す確率を$P_n$とする．
+また$n$回目の試行を行なう前，袋の中に赤玉が$i$個$(i=1,2,3)$あり，
+かつ$n$回目の試行で赤玉をとり出す確率を$P_{i,n}$ $(i=1,2,3)$とする．
+従って$P_n=P_{1,n}+P_{2,n}+P_{3,n}$である．
+\begin{description}
+\item[(1)]$P_{1,n+1}$，$P_{2,n+1}$，$P_{3,n+1}$を$P_{1,n}$，$P_{2,n}$，$P_{3,n}$で表す式(漸化式)を求めよ．
+\item[(2)]$P_{n+1}$を$P_n$で表す式を求め，$P_n$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_5.pdf)

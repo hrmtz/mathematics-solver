@@ -1,0 +1,33 @@
+---
+title: "九州大学 2003年 2003_4c"
+problem_id: "07_kyushu-2003-2003_4c"
+university: "九州大学"
+exam_year: "2003"
+source_tex: "archive/07_kyushu/2003/2003_4c.tex"
+pdf_source: "archive/07_kyushu/2003/2003_4c.pdf"
+page_image: "archive/07_kyushu/2003/2003_4c.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+4 (c)
+　座標平面上に$(0, \, 0), \, (1, \, 0), \, (1, \, 1), \, (0, \, 1)$を頂点とする正方形がある．
+ボールはこの正方形の中のすべての点に同様に確からしく落ちて，
+$y \leqq x(a-x)$の部分に落ちれば当たりとする．
+ただし，$0<a\leqq2$とする．
+\begin{description}
+\item[(1)]ボールを1回落とす．当たる確率を求めよ．
+\item[(2)]1回目は$\displaystyle a=\frac{1}{2}$，2回目は$\displaystyle a=\frac{3}{2}$として，
+ボールを2回落とす．1回だけ当たる確率を求めよ．
+\item[(3)]$a$の値を変えずにボールを3回落とす．
+少なくとも1回は当たる確率が$\displaystyle\frac{19}{27}$以上であり，
+当たりの数の期待値が$\displaystyle\frac{3}{2}$以下になるような$a$の値の範囲を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_4c.pdf)

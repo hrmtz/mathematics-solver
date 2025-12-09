@@ -1,0 +1,25 @@
+---
+title: "名古屋大学 1973年 1973_2"
+problem_id: "05_nagoya-1973-1973_2"
+university: "名古屋大学"
+exam_year: "1973"
+source_tex: "archive/05_nagoya/1973/1973_2.tex"
+pdf_source: "archive/05_nagoya/1973/1973_2.pdf"
+page_image: "archive/05_nagoya/1973/1973_2.jpg"
+fields:
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$n$を定まった正の整数とし，$1 \leqq k \leqq n$なる整数$k$のおのおのに，
+$1 \leqq r \leqq n$なる整数$r$を対応させる関数$r=f(k)$があって，
+$k_1<k_2$ならばつねに$f(k_1) \leqq f(k_2)$であるとする．
+このとき，$f(m)=m$となる整数$m$が存在することを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1973/1973_2.pdf)

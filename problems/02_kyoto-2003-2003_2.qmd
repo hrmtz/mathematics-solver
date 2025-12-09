@@ -1,0 +1,28 @@
+---
+title: "京都大学 2003年 2003_2"
+problem_id: "02_kyoto-2003-2003_2"
+university: "京都大学"
+exam_year: "2003"
+source_tex: "archive/02_kyoto/2003/2003_2.tex"
+pdf_source: "archive/02_kyoto/2003/2003_2.pdf"
+page_image: "archive/02_kyoto/2003/2003_2.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$f(x)=x\sin x$ $(x \geqq 0)$とする．
+点$\displaystyle \left( \frac{\pi}{2},\frac{\pi}{2} \right)$における$y=f(x)$の法線と，
+$y=f(x)$のグラフの$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$の部分，
+および$y$軸とで囲まれる図形を考える．
+この図形を$x$軸の回りに回転して得られる回転体の体積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2003/2003_2.pdf)

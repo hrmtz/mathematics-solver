@@ -1,0 +1,34 @@
+---
+title: "北海道大学 1997年 1997_b"
+problem_id: "03_hokudai-1997-1997_b"
+university: "北海道大学"
+exam_year: "1997"
+source_tex: "archive/03_hokudai/1997/1997_b.tex"
+pdf_source: "archive/03_hokudai/1997/1997_b.pdf"
+page_image: "archive/03_hokudai/1997/1997_b.jpg"
+fields:
+  - 平面図形
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　座標平面において，$x$軸上に3個の点$P_0(0, \, 0)$，$P_1(c, \, 0)$，$P_2(2, \, 0)$をとり，
+直線$y=1$上に$(n+1)$個の点$Q_0(0, \, 1)$，$Q_1(1, \, 1)$，$Q_2(2, \, 1)$，$\cdots\cdots$，
+$Q_n(n, \, 1)$をとる$(n\geqq1)$．ただし，$c$は$0<c<2$なる無理数とする．
+点$P_i$と点$Q_j$を結ぶ線分を$P_iQ_j$ $(i=0, \, 1, \, 2;j=0, \, 1, \, \cdots\cdots, \, n)$とし，
+これら$3(n+1)$本の線分から生じる交点の総数を$a_n$とする．
+ただし，$P_i(i=0, \, 1, \, 2)$，$Q_j(j=0, \, 1, \, \cdots\cdots, \, n)$は交点とはみなさない．
+\begin{description}
+\item[(1)]どの交点においても，これらの線分の中の3本が同時に交わることはない．
+このことを証明せよ．
+\item[(2)]$a_n-a_{n-1}$ $(n\geqq2)$を求めよ．
+\item[(3)]$a_n$ $(n\geqq1)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_b.pdf)

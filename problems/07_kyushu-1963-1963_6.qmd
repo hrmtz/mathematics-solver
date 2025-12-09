@@ -1,0 +1,29 @@
+---
+title: "九州大学 1963年 1963_6"
+problem_id: "07_kyushu-1963-1963_6"
+university: "九州大学"
+exam_year: "1963"
+source_tex: "archive/07_kyushu/1963/1963_6.tex"
+pdf_source: "archive/07_kyushu/1963/1963_6.pdf"
+page_image: "archive/07_kyushu/1963/1963_6.jpg"
+fields:
+  - 積分法
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+\begin{description}
+\item[(1)]$y=(x^2-2)+|x^2-2|\cdots\cdots\cdots\text{\ding{"AC}}$のグラフをえがけ。
+\item[(2)]\ding{"AC}が$y$軸のまわりに回転してできる回転面の囲む体積$V$を，$y \leqq h$の範囲で求めよ。
+\item[(3)]$y$軸を鉛直にしたとき，(2)の回転面を内壁とする容器に，
+毎秒1ccの割合で水を注入すれば，$t$秒後の水面の高さおよび水面の上昇速度はどうなるか。
+なお座標の単位はcmとする。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1963/1963_6.pdf)

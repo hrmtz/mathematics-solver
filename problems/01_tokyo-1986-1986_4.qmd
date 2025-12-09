@@ -1,0 +1,30 @@
+---
+title: "東京大学 1986年 1986_4"
+problem_id: "01_tokyo-1986-1986_4"
+university: "東京大学"
+exam_year: "1986"
+source_tex: "archive/01_tokyo/1986/1986_4.tex"
+pdf_source: "archive/01_tokyo/1986/1986_4.pdf"
+page_image: "archive/01_tokyo/1986/1986_4.jpg"
+fields:
+  - 代数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　二次方程式$ax^2-2bx+c=0$の係数$a$，$b$，$c$が，それぞれ次の範囲を動くものとする．
+\[ 0.9 \leqq a \leqq 1.1, \hspace{1zw} 2.7 \leqq b \leqq 3.3, \hspace{1zw} 4.5 \leqq c \leqq 5.4 \]
+\begin{description}
+\item[(1)]このとき$\displaystyle u=\frac{b}{a}$，$\displaystyle v=\frac{c}{a}$
+を座標とする点$P(u,v)$の動く範囲を定め，図示せよ．
+\item[(2)]上の二次方程式の二つの解のうち，大きい方を$z$とする．
+$a$，$b$，$c$が上の範囲を動くときの，$z$の最大値，最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1986/1986_4.pdf)

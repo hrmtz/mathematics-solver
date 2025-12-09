@@ -1,0 +1,30 @@
+---
+title: "名古屋大学 1976年 1976_1"
+problem_id: "05_nagoya-1976-1976_1"
+university: "名古屋大学"
+exam_year: "1976"
+source_tex: "archive/05_nagoya/1976/1976_1.tex"
+pdf_source: "archive/05_nagoya/1976/1976_1.pdf"
+page_image: "archive/05_nagoya/1976/1976_1.jpg"
+fields:
+  - 不等式
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　次の(1)，(2)を解答せよ．
+\begin{description}
+\item[(1)]1より大きい自然数$n$について，
+不等式$\displaystyle 2^n<\frac{(2n) \, !}{{(n \, !)}^2}<2^{2n}$を証明せよ．
+\item[(2)]実数$x_1, \, x_2, \, \cdots\cdots, \, x_n$が
+${x_1}^2+{x_2}^2+\cdots\cdots+{x_n}^2=1$を満たすとき，
+${x_1}^2+2{x_2}^2+\cdots\cdots+n{x_n}^2$の最大値と最小値を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1976/1976_1.pdf)

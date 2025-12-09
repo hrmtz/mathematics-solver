@@ -1,0 +1,27 @@
+---
+title: "北海道大学 1961年 1961_0_5"
+problem_id: "03_hokudai-1961-1961_0_5"
+university: "北海道大学"
+exam_year: "1961"
+source_tex: "archive/03_hokudai/1961/1961_0_5.tex"
+pdf_source: "archive/03_hokudai/1961/1961_0_5.pdf"
+page_image: "archive/03_hokudai/1961/1961_0_5.jpg"
+fields:
+  - 平面図形
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+\begin{description}
+\item[(1)]$f(x)=x^2+x-2$として，$\displaystyle g(x)=\frac{|f(x)|-f(x)}{2}$のグラフをかけ。
+\item[(2)]$a>0$のとき，直線$y=ax+b$と曲線$y=g(x)$が相異なる3点で交わるとき，
+$a$，$b$の関係を式で表わし，その式を満たす$a$，$b$を座標とする点の存在範囲を図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1961/1961_0_5.pdf)

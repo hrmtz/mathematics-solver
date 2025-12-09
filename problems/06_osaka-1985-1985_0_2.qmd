@@ -1,0 +1,32 @@
+---
+title: "大阪大学 1985年 1985_0_2"
+problem_id: "06_osaka-1985-1985_0_2"
+university: "大阪大学"
+exam_year: "1985"
+source_tex: "archive/06_osaka/1985/1985_0_2.tex"
+pdf_source: "archive/06_osaka/1985/1985_0_2.pdf"
+page_image: "archive/06_osaka/1985/1985_0_2.jpg"
+fields:
+  - 行列
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　平面上の1次変換
+$\begin{pmatrix} u' 
+
+ v' \end{pmatrix}=\begin{pmatrix} a & b 
+
+ c & d \end{pmatrix}\begin{pmatrix} u 
+
+ v \end{pmatrix}$
+によって，ある直線$l$が同じ直線$l$にうつされるとき，
+2次方程式$x^2-(a+d)x+ad-bc=0$は実数解をもつことを示せ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/06_osaka/1985/1985_0_2.pdf)

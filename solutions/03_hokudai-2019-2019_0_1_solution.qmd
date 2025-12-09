@@ -1,0 +1,216 @@
+## 解答
+
+(1)  
+まず，ベクトルを求める。  
+点 $O(0,0,0),\ A(-1,2,0),\ B(2,-2,1),\ P(p,-1,2)$ より
+
+$$
+\overrightarrow{OA}=(-1,\,2,\,0),\quad
+\overrightarrow{OB}=(2,\,-2,\,1),\quad
+\overrightarrow{OP}=(p,\,-1,\,2)
+$$
+
+と表せる。点 $Q$ は平面 $\alpha$ 上にあり，$\overrightarrow{OQ}=a\overrightarrow{OA}+b\overrightarrow{OB}$ と書けるから，
+
+$$
+\overrightarrow{OQ}
+=a(-1,\,2,\,0)+b(2,\,-2,\,1)
+=(-a+2b,\,2a-2b,\,b)
+$$
+
+である。  
+また，$\overrightarrow{QP}$ が平面 $\alpha$ に垂直であるので，平面 $\alpha$ 内の 2 本の独立なベクトル $\overrightarrow{OA},\overrightarrow{OB}$ に直交する。したがって
+
+$$
+\overrightarrow{QP}\cdot\overrightarrow{OA}=0,\quad
+\overrightarrow{QP}\cdot\overrightarrow{OB}=0
+$$
+
+が成り立つ。$\overrightarrow{QP}=\overrightarrow{OP}-\overrightarrow{OQ}$ なので，
+
+$$
+\overrightarrow{QP}=(p,\,-1,\,2)-(-a+2b,\,2a-2b,\,b)
+=(p+a-2b,\,-1-2a+2b,\,2-b)
+$$
+
+である。
+
+まず $\overrightarrow{QP}\cdot\overrightarrow{OA}=0$ より，
+
+$$
+(p+a-2b,\,-1-2a+2b,\,2-b)\cdot(-1,\,2,\,0)=0
+$$
+
+$$
+-(p+a-2b)+2(-1-2a+2b)=0
+$$
+
+$$
+-p-a+2b-2-4a+4b=0
+$$
+
+$$
+-p-5a+6b-2=0
+$$
+
+よって
+
+$$
+-p-5a+6b-2=0\quad\cdots(1)
+$$
+
+次に $\overrightarrow{QP}\cdot\overrightarrow{OB}=0$ より，
+
+$$
+(p+a-2b,\,-1-2a+2b,\,2-b)\cdot(2,\,-2,\,1)=0
+$$
+
+$$
+2(p+a-2b)-2(-1-2a+2b)+(2-b)=0
+$$
+
+$$
+2p+2a-4b+2+4a-4b+2-b=0
+$$
+
+$$
+2p+6a-9b+4=0
+$$
+
+よって
+
+$$
+2p+6a-9b+4=0\quad\cdots(2)
+$$
+
+(1)，(2) を連立して $a,b$ を求める。(1) より
+
+$$
+5a=6b-p-2 \quad\Rightarrow\quad a=\frac{6b-p-2}{5}
+$$
+
+これを (2) に代入すると，
+
+$$
+2p+6\cdot\frac{6b-p-2}{5}-9b+4=0
+$$
+
+$$
+10p+6(6b-p-2)-45b+20=0
+$$
+
+$$
+10p+36b-6p-12-45b+20=0
+$$
+
+$$
+4p-9b+8=0
+$$
+
+よって
+
+$$
+9b=4p+8\quad\Rightarrow\quad b=\frac{4p+8}{9}
+$$
+
+これを $a=\dfrac{6b-p-2}{5}$ に代入すると，
+
+$$
+a=\frac{6\cdot\dfrac{4p+8}{9}-p-2}{5}
+=\frac{\dfrac{24p+48}{9}-p-2}{5}
+=\frac{24p+48-9p-18}{45}
+=\frac{15p+30}{45}
+=\frac{p+2}{3}
+$$
+
+以上より，
+
+$$
+a=\frac{p+2}{3},\quad b=\frac{4p+8}{9}
+$$
+
+となる。
+
+---
+
+(2)  
+点 $Q$ が $\triangle OAB$ の周または内部にある条件は，ベクトル表示
+
+$$
+\overrightarrow{OQ}=s\,\overrightarrow{OA}+t\,\overrightarrow{OB}
+$$
+
+において
+
+$$
+s\ge0,\ t\ge0,\ s+t\le1
+$$
+
+が成り立つことである（これは「重心座標」や「凸結合」の条件である）。(1) より $s=a,\ t=b$ であるから，
+
+$$
+a\ge0,\quad b\ge0,\quad a+b\le1
+$$
+
+を $p$ についての条件に直す。
+
+(1) より
+
+$$
+a=\frac{p+2}{3},\quad b=\frac{4p+8}{9}
+$$
+
+なので，
+
+1. $a\ge0$ より
+   $$
+   \frac{p+2}{3}\ge0\ \Rightarrow\ p+2\ge0\ \Rightarrow\ p\ge-2
+   $$
+
+2. $b\ge0$ より
+   $$
+   \frac{4p+8}{9}\ge0\ \Rightarrow\ 4p+8\ge0\ \Rightarrow\ p\ge-2
+   $$
+
+3. $a+b\le1$ より
+   $$
+   \frac{p+2}{3}+\frac{4p+8}{9}\le1
+   $$
+
+   左辺を通分すると
+
+   $$
+   \frac{3(p+2)+4p+8}{9}\le1
+   $$
+
+   $$
+   \frac{7p+14}{9}\le1
+   $$
+
+   $$
+   7p+14\le9
+   $$
+
+   $$
+   7p\le-5\ \Rightarrow\ p\le-\frac{5}{7}
+   $$
+
+よって $p$ は
+
+$$
+p\ge-2,\quad p\le-\frac{5}{7}
+$$
+
+を同時に満たす。さらに $p$ はもともと「負の実数」とされているので，$p<0$ である。このとき
+
+$$
+-2\le p\le -\frac{5}{7}
+$$
+
+の範囲はすべて負の数であり，$p<0$ の条件とは矛盾しない。したがって求める範囲は
+
+$$
+-2\le p\le -\frac{5}{7}
+$$
+
+である。

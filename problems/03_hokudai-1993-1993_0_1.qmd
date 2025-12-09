@@ -1,0 +1,28 @@
+---
+title: "北海道大学 1993年 1993_0_1"
+problem_id: "03_hokudai-1993-1993_0_1"
+university: "北海道大学"
+exam_year: "1993"
+source_tex: "archive/03_hokudai/1993/1993_0_1.tex"
+pdf_source: "archive/03_hokudai/1993/1993_0_1.pdf"
+page_image: "archive/03_hokudai/1993/1993_0_1.jpg"
+fields:
+  - 整数
+  - 帰納法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　整数$n\geqq0$に対し，$b(n)=2^n$，$a_n=2^{b(n)}+1$とする．
+\begin{description}
+\item[(1)]数学的帰納法を用いて，$a_0a_1\cdots\cdots a_n=2^{b(n+1)}-1$ $(n\geqq1)$を示せ．
+\item[(2)]$a_{n+1}=a_0a_1\cdots\cdots a_n+2$ $(n\geqq1)$を示し，
+$l>m\geqq1$のとき，$a_l$と$a_m$は1より大きい公約数を持たないことを示せ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/1993/1993_0_1.pdf)

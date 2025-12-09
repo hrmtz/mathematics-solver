@@ -1,0 +1,28 @@
+---
+title: "東北大学 1972年 1972_5"
+problem_id: "04_tohoku-1972-1972_5"
+university: "東北大学"
+exam_year: "1972"
+source_tex: "archive/04_tohoku/1972/1972_5.tex"
+pdf_source: "archive/04_tohoku/1972/1972_5.pdf"
+page_image: "archive/04_tohoku/1972/1972_5.jpg"
+fields:
+  - 積分法
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$\displaystyle f(x)=\int_0^xe^{-t}\sin^5tdt$とするとき，
+$\displaystyle f(\pi)=\frac{3}{13}(1+e^{-\pi})$であることが知られている．
+$n$を正の整数とするとき
+\begin{description}
+\item[(1)]$f((n+1)\pi)-f(n\pi)$を求めよ．
+\item[(2)]$\displaystyle\lim_{n\to\infty}f(n\pi)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1972/1972_5.pdf)

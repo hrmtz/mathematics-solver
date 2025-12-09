@@ -1,0 +1,28 @@
+---
+title: "名古屋大学 1997年 1997_2"
+problem_id: "05_nagoya-1997-1997_2"
+university: "名古屋大学"
+exam_year: "1997"
+source_tex: "archive/05_nagoya/1997/1997_2.tex"
+pdf_source: "archive/05_nagoya/1997/1997_2.pdf"
+page_image: "archive/05_nagoya/1997/1997_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　座標平面上で，1つの円が放物線$y=x^2$に右側から接し，
+かつ$x$軸に上から接している．
+放物線との接点$A$の$x$座標を$a$ $(>0)$とするとき，
+円の中心$C$の座標を求めよ．
+　ただし，円と放物線がある点で接するとは，
+その点で両者が交わり，
+かつその点における両者の接線が一致することをいう．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1997/1997_2.pdf)

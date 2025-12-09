@@ -1,0 +1,34 @@
+---
+title: "東北大学 1976年 1976_4"
+problem_id: "04_tohoku-1976-1976_4"
+university: "東北大学"
+exam_year: "1976"
+source_tex: "archive/04_tohoku/1976/1976_4.tex"
+pdf_source: "archive/04_tohoku/1976/1976_4.pdf"
+page_image: "archive/04_tohoku/1976/1976_4.jpg"
+fields:
+  - 確率
+  - 指数・対数
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　動点$P$は数直線上の原点から出発し，
+正しい貨幣を投げて，
+表が出たら正の方向に1進み，
+裏が出たら負の方向に1進むものとする．
+これを$2n$回繰り返したとき，
+点$P$の座標が2である確率を$p_n$とする．
+また$2n-1$回目に点$P$の座標が1で，
+$2n$回目に点$P$の座標が2である確率を$q_n$とする．
+\begin{description}
+\item[(1)]$p_n$，$q_n$を求めよ．
+\item[(2)]$\displaystyle\sum_{n=2}^8\log_2\frac{p_n}{p_n-q_n}$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/04_tohoku/1976/1976_4.pdf)

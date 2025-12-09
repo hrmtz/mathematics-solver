@@ -1,0 +1,34 @@
+---
+title: "九州大学 2014年 2014_0_3"
+problem_id: "07_kyushu-2014-2014_0_3"
+university: "九州大学"
+exam_year: "2014"
+source_tex: "archive/07_kyushu/2014/2014_0_3.tex"
+pdf_source: "archive/07_kyushu/2014/2014_0_3.pdf"
+page_image: "archive/07_kyushu/2014/2014_0_3.jpg"
+fields:
+  - 三角関数
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　鋭角三角形$\triangle ABC$について，$\angle A$，$\angle B$，$\angle C$の大きさを，
+それぞれ$A, \, B, \, C$とする。
+$\triangle ABC$の重心を$G$，外心を$O$とし，外接円の半径を$R$とする。
+\begin{description}
+\item[(1)]$A$と$O$から辺$BC$に下ろした垂線を，それぞれ$AD$，$OE$とする。このとき，
+\[ AD=2R\sin B\sin C, \hspace{1zw} OE=R\cos A \]
+を証明せよ。
+\item[(2)]$G$と$O$が一致するならば$\triangle ABC$は正三角形であることを証明せよ。
+\item[(3)]$\triangle ABC$が正三角形でないとし，さらに$OG$が$BC$と平行であるとする。このとき，
+\[ AD=3OE, \hspace{1zw} \tan B\tan C=3 \]
+を証明せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/2014/2014_0_3.pdf)

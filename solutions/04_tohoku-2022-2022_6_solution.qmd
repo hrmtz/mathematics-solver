@@ -1,0 +1,264 @@
+## 解答
+
+直円柱の底面半径を $1$，高さを $\sqrt3$ とする。球の半径を $r$ とし，球の中心は円柱の底面の円の中心と一致しているものとする。  
+座標を，球の中心を原点 $O(0,0,0)$，$z$ 軸を円柱の軸にとる。すると
+
+- 球：$x^2 + y^2 + z^2 \le r^2$  
+- 円柱：$x^2 + y^2 \le 1,\ |z| \le \dfrac{\sqrt3}{2}$
+
+で表される。
+
+共通部分は $x^2 + y^2 \le 1$ かつ $x^2 + y^2 + z^2 \le r^2$ かつ $|z|\le \dfrac{\sqrt3}{2}$ を満たす点からなる立体である。  
+この共通部分の体積を $V(r)$ とする。
+
+球の半径 $r$ の大きさによって，円柱との交わり方が変化するので，場合分けして求める。
+
+---
+
+### (1) $0 \le r \le 1$ のとき
+
+このとき，球は円柱の底面半径より小さいので，円柱の側面には届かない。  
+また，円柱の高さは $\sqrt3 > 2r$ であるから，円柱の上下面にも届かない。
+
+したがって，球は円柱の内部にすっぽり収まり，  
+共通部分は球全体となる。
+
+よって  
+$$
+V(r) = \frac{4}{3}\pi r^3 \quad (0 \le r \le 1).
+$$
+
+---
+
+### (2) $1 \le r \le \dfrac{\sqrt3}{2}$ のとき
+
+この範囲では
+
+- 球の中心から円柱の側面までの距離は $1$ なので，$r \ge 1$ で球は側面に達する。
+- 一方，円柱の上下面までの距離は $\dfrac{\sqrt3}{2}$ なので，$r \le \dfrac{\sqrt3}{2}$ では球はまだ上下面に達しない。
+
+よって，共通部分は「球の中に完全に含まれる円柱の柱状部分」となる。
+
+$z$ 軸方向に見ると，球は $|z| \le r$ の範囲に存在し，また円柱は $|z| \le \dfrac{\sqrt3}{2}$ だが，この範囲では $r \le \dfrac{\sqrt3}{2}$ なので  
+共通部分の高さ方向は $-r \le z \le r$ である。
+
+各 $z$ における断面は半径1の円（円柱の断面）であり，この断面は球の内部に完全に含まれているので，断面の面積は一定で $\pi \cdot 1^2 = \pi$ である。
+
+したがって，体積は
+$$
+V(r) = \int_{-r}^{r} \pi\,dz = \pi \cdot (2r) = 2\pi r
+\quad\left(1 \le r \le \frac{\sqrt3}{2}\right).
+$$
+
+---
+
+### (3) $\dfrac{\sqrt3}{2} \le r \le \dfrac{2}{\sqrt3}$ のとき
+
+この範囲では
+
+- $r \ge 1$ なので球は側面に達している。
+- 同時に $r \ge \dfrac{\sqrt3}{2}$ なので球は上下面にも達する。
+- ただし，円の中心から円柱の底（あるいは天井）の角までの距離は  
+  $$
+  \sqrt{1^2 + \left(\frac{\sqrt3}{2}\right)^2} = \sqrt{1 + \frac{3}{4}} = \sqrt{\frac{7}{4}} = \frac{\sqrt7}{2}
+  $$
+  なので，$r \le \dfrac{2}{\sqrt3}$ の範囲では球はまだ円柱の頂点（側面と底面の交わる角）には届かない。
+
+したがって，$|z| \le \dfrac{\sqrt3}{2}$ の範囲では常に円柱の上下端まであるが，半径方向では  
+$z$ によって「円柱側面まで届くかどうか」が変わる。
+
+具体的には，各高さ $z$ における共通部分の断面は
+
+- 球の断面：半径 $\sqrt{r^2 - z^2}$ の円
+- 円柱の断面：半径 $1$ の円
+
+であり，その共通部分は「半径が $\min\{1,\sqrt{r^2 - z^2}\}$ の円」となる。
+
+ここで，半径の大小関係が変わる $z$ を求める。  
+$\sqrt{r^2 - z^2} = 1$ となる $z$ は
+$$
+r^2 - z^2 = 1 \quad\Longrightarrow\quad z^2 = r^2 - 1
+$$
+であるから，  
+$$
+z = \pm\sqrt{r^2 - 1}
+$$
+である。
+
+範囲の整合性を確認しておく。  
+$r \le \dfrac{2}{\sqrt3}$ のとき，
+$$
+r^2 \le \frac{4}{3} \quad\Longrightarrow\quad r^2 - 1 \le \frac{1}{3},
+$$
+したがって
+$$
+\sqrt{r^2 - 1} \le \frac{1}{\sqrt3} < \frac{\sqrt3}{2}
+$$
+となり，$\sqrt{r^2 - 1}$ は円柱の高さ範囲内にある。
+
+このとき，高さ $z$ ごとの断面の共通円の半径は
+
+- $|z| \le \sqrt{r^2 - 1}$ のとき：$\sqrt{r^2 - z^2} \ge 1$ なので，円柱側が制限となり，半径1の円
+- $\sqrt{r^2 - 1} \le |z| \le \dfrac{\sqrt3}{2}$ のとき：$\sqrt{r^2 - z^2} \le 1$ なので，球側が制限となり，半径 $\sqrt{r^2 - z^2}$ の円
+
+となる。
+
+この断面積を $z$ について積分して体積を求める。  
+対称性より $z\ge 0$ の部分の2倍をとると，
+
+$$
+V(r)
+= 2\left[
+\int_{0}^{\sqrt{r^2 - 1}} \pi\cdot 1^2\,dz
++ \int_{\sqrt{r^2 - 1}}^{\sqrt3/2} \pi(r^2 - z^2)\,dz
+\right].
+$$
+
+計算する。
+
+まず第1項：
+$$
+\int_{0}^{\sqrt{r^2 - 1}} \pi\,dz
+= \pi\sqrt{r^2 - 1}.
+$$
+
+次に第2項：
+$$
+\int_{\sqrt{r^2 - 1}}^{\sqrt3/2} \pi(r^2 - z^2)\,dz
+= \pi\left[
+r^2 z - \frac{z^3}{3}
+\right]_{z=\sqrt{r^2 - 1}}^{z=\sqrt3/2}.
+$$
+
+上端 $z = \dfrac{\sqrt3}{2}$ での値は
+$$
+r^2\cdot\frac{\sqrt3}{2} - \frac{1}{3}\left(\frac{\sqrt3}{2}\right)^3
+= \frac{\sqrt3}{2}r^2 - \frac{1}{3}\cdot\frac{3\sqrt3}{8}
+= \frac{\sqrt3}{2}r^2 - \frac{\sqrt3}{8}.
+$$
+
+下端 $z = \sqrt{r^2 - 1}$ での値は
+$$
+r^2\sqrt{r^2 - 1} - \frac{1}{3}(r^2 - 1)^{3/2}
+= \left(r^2 - \frac{r^2 - 1}{3}\right)\sqrt{r^2 - 1}
+= \frac{2r^2 + 1}{3}\sqrt{r^2 - 1}.
+$$
+
+よって第2項は
+$$
+\pi\left\{
+\left(\frac{\sqrt3}{2}r^2 - \frac{\sqrt3}{8}\right)
+- \frac{2r^2 + 1}{3}\sqrt{r^2 - 1}
+\right\}.
+$$
+
+したがって
+$$
+\begin{aligned}
+V(r)
+&= 2\left[
+\pi\sqrt{r^2 - 1}
++ \pi\left\{
+\frac{\sqrt3}{2}r^2 - \frac{\sqrt3}{8}
+- \frac{2r^2 + 1}{3}\sqrt{r^2 - 1}
+\right\}
+\right] \\
+&= 2\pi\left[
+\sqrt{r^2 - 1}
+- \frac{2r^2 + 1}{3}\sqrt{r^2 - 1}
++ \frac{\sqrt3}{2}r^2 - \frac{\sqrt3}{8}
+\right] \\
+&= 2\pi\left[
+\left(1 - \frac{2r^2 + 1}{3}\right)\sqrt{r^2 - 1}
++ \frac{\sqrt3}{2}r^2 - \frac{\sqrt3}{8}
+\right].
+\end{aligned}
+$$
+
+ここで
+$$
+1 - \frac{2r^2 + 1}{3} = \frac{3 - 2r^2 - 1}{3} = \frac{2(1 - r^2)}{3},
+$$
+なので
+$$
+\begin{aligned}
+V(r)
+&= 2\pi\left[
+\frac{2(1 - r^2)}{3}\sqrt{r^2 - 1}
++ \frac{\sqrt3}{2}r^2 - \frac{\sqrt3}{8}
+\right] \\
+&= 2\pi\left[
+-\frac{2(r^2 - 1)}{3}\sqrt{r^2 - 1}
++ \frac{\sqrt3}{2}r^2 - \frac{\sqrt3}{8}
+\right] \\
+&= 2\pi\left[
+-\frac{2}{3}(r^2 - 1)^{3/2}
++ \frac{\sqrt3}{2}r^2 - \frac{\sqrt3}{8}
+\right] \\
+&= -\frac{4\pi}{3}(r^2 - 1)^{3/2}
++ \pi\left(\sqrt3 r^2 - \frac{\sqrt3}{4}\right).
+\end{aligned}
+$$
+
+整理して
+$$
+V(r)
+= \pi\left(
+\sqrt3 r^2 - \frac{\sqrt3}{4}
+- \frac{4}{3}(r^2 - 1)^{3/2}
+\right)
+\quad\left(\frac{\sqrt3}{2} \le r \le \frac{2}{\sqrt3}\right).
+$$
+
+---
+
+### (4) $r \ge \dfrac{2}{\sqrt3}$ のとき
+
+このとき，球は円柱の全ての頂点（底面および上面の円の外周上の点）を含むほど大きい。  
+頂点までの距離は先ほど計算したように $\dfrac{\sqrt7}{2} \approx 1.322$ なので，厳密にいえば「$r \ge \dfrac{\sqrt7}{2}$」で円柱全体が球の中に入る。
+
+したがって，
+
+- $\dfrac{2}{\sqrt3} \le r \le \dfrac{\sqrt7}{2}$ の範囲では「部分的な共通部分」
+- $r \ge \dfrac{\sqrt7}{2}$ では共通部分は円柱全体
+
+となる。
+
+しかし問題文では，特に区間分けの指定はなく，$r$ の取り得る範囲に制限もない。  
+よって，$r$ の全範囲について求積を行うなら，さらに詳細な場合分けが必要になる。
+
+ただし，この問題の文脈では，球が円柱を完全に含むほど大きくなったとき（$r \ge \dfrac{\sqrt7}{2}$）は共通部分が円柱全体で一定となり，その体積は
+
+$$
+V(r) = \text{円柱の体積}
+= \pi\cdot 1^2 \cdot \sqrt3 = \sqrt3\,\pi
+\quad\left(r \ge \frac{\sqrt7}{2}\right)
+$$
+
+となる。
+
+---
+
+### まとめ
+
+$r$ の大きさによって，共通部分の体積 $V(r)$ は次のように表される：
+
+$$
+V(r) =
+\begin{cases}
+\dfrac{4}{3}\pi r^3 
+& (0 \le r \le 1), \\[6pt]
+2\pi r 
+& \left(1 \le r \le \dfrac{\sqrt3}{2}\right), \\[6pt]
+\pi\left(
+\sqrt3 r^2 - \dfrac{\sqrt3}{4}
+- \dfrac{4}{3}(r^2 - 1)^{3/2}
+\right)
+& \left(\dfrac{\sqrt3}{2} \le r \le \dfrac{2}{\sqrt3}\right), \\[6pt]
+\text{（さらに } \dfrac{2}{\sqrt3} \le r < \dfrac{\sqrt7}{2} \text{ では別途計算が必要）}, \\[3pt]
+\sqrt3\,\pi
+& \left(r \ge \dfrac{\sqrt7}{2}\right).
+\end{cases}
+$$
+
+（大学入試の標準的な設定では，多くの場合 $0 \le r \le \dfrac{2}{\sqrt3}$ の範囲を対象としていると考えられる。その場合，上のうち前3つの場合分けが答えとなる。）

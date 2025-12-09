@@ -1,0 +1,324 @@
+## 解答
+
+(1)  
+平面 $P$ 上に，原点 $O$ をとり，平面 $P$ 内に互いに直交する単位ベクトルを $\vec{e}_1,\vec{e}_2$ とする。  
+また，平面 $P$ に垂直な方向の単位ベクトルを $\vec{n}$ とする。
+
+このとき，点 $A,B',C'$ は平面 $P$ 上にあるから，ある実数 $a_1,a_2,b_1,b_2,c_1,c_2$ を用いて
+
+$$
+\vec{OA}=a_1\vec{e}_1+a_2\vec{e}_2,\quad
+\vec{OB'}=b_1\vec{e}_1+b_2\vec{e}_2,\quad
+\vec{OC'}=c_1\vec{e}_1+c_2\vec{e}_2
+$$
+
+と表せる。一方，$B',C'$ はそれぞれ $B,C$ を平面 $P$ に正射影した点であるから，ある実数 $u,v\,(>0)$ を用いて
+
+$$
+\vec{OB}=\vec{OB'}+u\vec{n},\quad
+\vec{OC}=\vec{OC'}+v\vec{n}
+$$
+
+と表せる。ここで $B,C$ は平面 $P$ と同じ側にあるとしたので，$u,v>0$ とおいた。
+
+このとき
+
+$$
+\vec{AB'}=\vec{OB'}-\vec{OA},\quad
+\vec{AC'}=\vec{OC'}-\vec{OA},\quad
+\vec{B'B}=u\vec{n},\quad
+\vec{C'C}=v\vec{n}
+$$
+
+である。したがって
+
+$$
+\vec{AB'}\cdot\vec{AC'}+
+\vec{B'B}\cdot\vec{C'C}
+=(\vec{OB'}-\vec{OA})\cdot(\vec{OC'}-\vec{OA})
++(u\vec{n})\cdot(v\vec{n}).
+$$
+
+まず直角二等辺三角形 $ABC$ の条件をベクトルで書く。  
+$\angle BAC=\dfrac{\pi}{2}$ より，内積の定義から
+
+$$
+\vec{AB}\cdot\vec{AC}=0
+$$
+
+であり，また $AB=AC$ だから
+
+$$
+|\vec{AB}|^2=|\vec{AC}|^2
+$$
+
+が成り立つ。これらを座標表示を用いて書き直す。
+
+$\vec{AB}=\vec{OB}-\vec{OA}
+=(\vec{OB'}+u\vec{n})-\vec{OA}$，  
+$\vec{AC}=\vec{OC}-\vec{OA}
+=(\vec{OC'}+v\vec{n})-\vec{OA}$
+
+なので，
+
+$$
+\vec{AB}\cdot\vec{AC}
+=(\vec{OB'}-\vec{OA}+u\vec{n})\cdot(\vec{OC'}-\vec{OA}+v\vec{n})
+$$
+
+を計算する。$\vec{e}_1,\vec{e}_2$ は平面 $P$ にあり，$\vec{n}$ は $P$ の法線ベクトルだから互いに直交し，
+
+$$
+(\text{P内のベクトル})\cdot\vec{n}=0,\quad
+\vec{n}\cdot\vec{n}=1
+$$
+
+が成り立つ。よって
+
+$$
+\begin{aligned}
+\vec{AB}\cdot\vec{AC}
+&=(\vec{OB'}-\vec{OA})\cdot(\vec{OC'}-\vec{OA})
++u\vec{n}\cdot(\vec{OC'}-\vec{OA})
++v\vec{n}\cdot(\vec{OB'}-\vec{OA})
++uv\,\vec{n}\cdot\vec{n} \\
+&=(\vec{OB'}-\vec{OA})\cdot(\vec{OC'}-\vec{OA})
++uv,
+\end{aligned}
+$$
+
+となる。ここで $\vec{AB}\cdot\vec{AC}=0$ だから
+
+$$
+(\vec{OB'}-\vec{OA})\cdot(\vec{OC'}-\vec{OA})+uv=0
+$$
+
+すなわち
+
+$$
+\vec{AB'}\cdot\vec{AC'}+uv=0
+$$
+
+が成り立つ。一方
+
+$$
+\vec{B'B}\cdot\vec{C'C}=(u\vec{n})\cdot(v\vec{n})=uv
+$$
+
+であるから，以上をまとめると
+
+$$
+\vec{AB'}\cdot\vec{AC'}+\vec{B'B}\cdot\vec{C'C}=0
+$$
+
+が示された。
+
+---
+
+(2)  
+(1) の結果
+
+$$
+\vec{AB'}\cdot\vec{AC'}+\vec{B'B}\cdot\vec{C'C}=0
+$$
+
+を用いる。内積の定義より
+
+$$
+\vec{AB'}\cdot\vec{AC'}=|\vec{AB'}||\vec{AC'}|\cos\angle B'AC',\quad
+\vec{B'B}\cdot\vec{C'C}=|\vec{B'B}||\vec{C'C}|\cos\angle B'BC'
+$$
+
+である。ここで $\vec{B'B}$ と $\vec{C'C}$ はともに平面 $P$ に垂直な同じ向きのベクトルであるから，なす角は $0$ であり，
+
+$$
+\cos\angle B'BC'=\cos 0=1
+$$
+
+となる。従って
+
+$$
+|\vec{AB'}||\vec{AC'}|\cos\angle B'AC'+|\vec{B'B}||\vec{C'C}|=0
+$$
+
+すなわち
+
+$$
+\cos\angle B'AC'=-\frac{|\vec{B'B}||\vec{C'C}|}{|\vec{AB'}||\vec{AC'}|}
+$$
+
+を得る。右辺は，長さはすべて正であるから負の実数である。よって
+
+$$
+\cos\angle B'AC'<0
+$$
+
+となるので，
+
+$$
+\angle B'AC'>\frac{\pi}{2}
+$$
+
+が従う。
+
+---
+
+(3)  
+平面 $P$ 上の三角形 $AB'C'$ について，辺の長さを短い方から順に
+
+$$
+AB'=4,\quad AC'=\sqrt{21},\quad B'C'=7
+$$
+
+とおく。このとき (2) より $\angle B'AC'>\dfrac{\pi}{2}$ である。また，$B',C'$ はそれぞれ $B,C$ の $P$ への垂足であるから，
+
+$$
+AB'^2=AB^2-B'B^2,\quad
+AC'^2=AC^2-C'C^2
+$$
+
+が成り立つ。ここで $AB=AC$ であるから，
+
+$$
+AB^2-B'B^2=AC^2-C'C^2
+$$
+
+すなわち
+
+$$
+B'B^2=C'C^2
+$$
+
+となる。$B'B,C'C>0$ であるから
+
+$$
+B'B=C'C\quad (>0)
+$$
+
+が分かる。
+
+(1) より
+
+$$
+\vec{AB'}\cdot\vec{AC'}+\vec{B'B}\cdot\vec{C'C}=0
+$$
+
+であり，$B'B=C'C$ を用いると
+
+$$
+\vec{AB'}\cdot\vec{AC'}+B'B^2=0
+$$
+
+すなわち
+
+$$
+\vec{AB'}\cdot\vec{AC'}=-B'B^2
+$$
+
+となる。内積を長さとなす角で表すと
+
+$$
+|\vec{AB'}||\vec{AC'}|\cos\angle B'AC'=-B'B^2
+$$
+
+である。ここで $|\vec{AB'}|=4,\ |\vec{AC'}|=\sqrt{21}$ を代入して
+
+$$
+4\sqrt{21}\cos\angle B'AC'=-B'B^2
+$$
+
+すなわち
+
+$$
+\cos\angle B'AC'=-\frac{B'B^2}{4\sqrt{21}}
+$$
+
+を得る。
+
+次に，平面内の三角形 $AB'C'$ に余弦定理を用いる。頂点 $A$ に対する余弦定理より
+
+$$
+B'C'^2=AB'^2+AC'^2-2\cdot AB'\cdot AC'\cdot\cos\angle B'AC'
+$$
+
+であるから，$AB'=4,\ AC'=\sqrt{21},\ B'C'=7$ を代入して
+
+$$
+7^2=4^2+(\sqrt{21})^2-2\cdot 4\cdot\sqrt{21}\cdot\cos\angle B'AC'
+$$
+
+すなわち
+
+$$
+49=16+21-8\sqrt{21}\cos\angle B'AC'
+$$
+
+となる。右辺の $16+21=37$ だから
+
+$$
+49=37-8\sqrt{21}\cos\angle B'AC'
+$$
+
+従って
+
+$$
+-8\sqrt{21}\cos\angle B'AC'=12
+$$
+
+よって
+
+$$
+\cos\angle B'AC'=-\frac{12}{8\sqrt{21}}=-\frac{3}{2\sqrt{21}}
+$$
+
+となる。
+
+一方で先ほど得た式
+
+$$
+\cos\angle B'AC'=-\frac{B'B^2}{4\sqrt{21}}
+$$
+
+と比較すると，
+
+$$
+-\frac{B'B^2}{4\sqrt{21}}=-\frac{3}{2\sqrt{21}}
+$$
+
+だから
+
+$$
+\frac{B'B^2}{4\sqrt{21}}=\frac{3}{2\sqrt{21}}
+\quad\Longrightarrow\quad
+B'B^2=4\cdot\frac{3}{2}=6
+$$
+
+よって
+
+$$
+B'B=\sqrt{6},\quad C'C=\sqrt{6}
+$$
+
+である。
+
+最後に $AB$ の長さを求める。先に用いた関係
+
+$$
+AB^2=AB'^2+B'B^2
+$$
+
+に $AB'=4,\ B'B=\sqrt{6}$ を代入して
+
+$$
+AB^2=4^2+(\sqrt{6})^2=16+6=22
+$$
+
+従って
+
+$$
+AB=\sqrt{22}
+$$
+
+となる。
+
+以上より，求める辺 $AB$ の長さは $\sqrt{22}$ である。

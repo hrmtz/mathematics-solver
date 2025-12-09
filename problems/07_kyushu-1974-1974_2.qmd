@@ -1,0 +1,29 @@
+---
+title: "九州大学 1974年 1974_2"
+problem_id: "07_kyushu-1974-1974_2"
+university: "九州大学"
+exam_year: "1974"
+source_tex: "archive/07_kyushu/1974/1974_2.tex"
+pdf_source: "archive/07_kyushu/1974/1974_2.pdf"
+page_image: "archive/07_kyushu/1974/1974_2.jpg"
+fields:
+  - 複素数平面
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+\begin{description}
+\item[(1)]2次方程式$x^2-\sqrt2 \, x+1=0$の2根を，それぞれ極形式で表せ．
+ただし極形式の偏角は$-\pi$と$\pi$との間にあるものを用いよ．
+\item[(2)]次に，$n$を1より大きい整数とし，
+$x^{2n}-\sqrt2 \, x^n+1$が$x^2-\sqrt2 \, x+1$で割り切れるような$n$の値のうち，
+最小のものを求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1974/1974_2.pdf)

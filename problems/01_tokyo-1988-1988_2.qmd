@@ -1,0 +1,27 @@
+---
+title: "東京大学 1988年 1988_2"
+problem_id: "01_tokyo-1988-1988_2"
+university: "東京大学"
+exam_year: "1988"
+source_tex: "archive/01_tokyo/1988/1988_2.tex"
+pdf_source: "archive/01_tokyo/1988/1988_2.pdf"
+page_image: "archive/01_tokyo/1988/1988_2.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　空間内に平面$\alpha$がある．
+一辺の長さ1の正四面体$V$の$\alpha$上への正射影の面積を$S$とし，
+$V$がいろいろと位置を変えるときの$S$の最大値と最小値を求めよ．
+　だたし，
+空間の点$P$を通って$\alpha$に垂直な直線が$\alpha$と交わる点を$P$の$\alpha$上への正射影といい，
+空間図形$V$の各点の$\alpha$上への正射影全体のつくる$\alpha$上の図形を$V$の$\alpha$上への正射影という．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1988/1988_2.pdf)

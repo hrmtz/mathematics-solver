@@ -1,0 +1,32 @@
+---
+title: "北海道大学 2012年 2012_0_1"
+problem_id: "03_hokudai-2012-2012_0_1"
+university: "北海道大学"
+exam_year: "2012"
+source_tex: "archive/03_hokudai/2012/2012_0_1.tex"
+pdf_source: "archive/03_hokudai/2012/2012_0_1.pdf"
+page_image: "archive/03_hokudai/2012/2012_0_1.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　$m>0$，$n>0$，$0<x<1$とする。
+$\triangle OAB$の辺$OA$を$m:n$に内分する点を$P$，
+辺$OB$を$n:m$に内分する点を$Q$とする。
+また，線分$AQ$を$1:x$に外分する点を$S$，
+線分$BP$を$1:x$に外分する点を$T$とする。
+\begin{description}
+\item[(1)]$\overrightarrow{OA}=\overrightarrow{a}$，$\overrightarrow{OB}=\overrightarrow{b}$とするとき，
+$\overrightarrow{OS}$を$\overrightarrow{a}$，$\overrightarrow{b}$，$m$，$n$，$x$で表せ。
+\item[(2)]3点$O$，$S$，$T$が一直線上にあるとき，$x$を$m$，$n$で表せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/03_hokudai/2012/2012_0_1.pdf)

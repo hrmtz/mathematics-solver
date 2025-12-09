@@ -1,0 +1,31 @@
+---
+title: "東京大学 2021年 2021_2"
+problem_id: "01_tokyo-2021-2021_2"
+university: "東京大学"
+exam_year: "2021"
+source_tex: "archive/01_tokyo/2021/2021_2.tex"
+pdf_source: "archive/01_tokyo/2021/2021_2.pdf"
+page_image: "archive/01_tokyo/2021/2021_2.jpg"
+fields:
+  - 複素数平面
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　複素数$a, \, b, \, c$に対して整式$f(z)=az^2+bz+c$を考える。
+$i$を虚数単位とする。
+\begin{description}
+\item[(1)]$\alpha, \, \beta, \, \gamma$を複素数とする。
+$f(0)=\alpha$，$f(1)=\beta$，$f(i)=\gamma$が成り立つとき，
+$a, \, b, \, c$をそれぞれ$\alpha, \, \beta, \, \gamma$で表せ。
+\item[(2)]$f(0)$，$f(1)$，$f(i)$がいずれも1以上2以下の実数であるとき，
+$f(2)$のとりうる範囲を複素平面上に図示せよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2021/2021_2.pdf)

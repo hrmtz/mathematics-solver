@@ -1,0 +1,32 @@
+---
+title: "東京大学 1984年 1984_6"
+problem_id: "01_tokyo-1984-1984_6"
+university: "東京大学"
+exam_year: "1984"
+source_tex: "archive/01_tokyo/1984/1984_6.tex"
+pdf_source: "archive/01_tokyo/1984/1984_6.pdf"
+page_image: "archive/01_tokyo/1984/1984_6.jpg"
+fields:
+  - 不等式
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+6
+　$xy$平面において，
+不等式$x^2 \leqq y$の表す領域を$D$とし，
+不等式$(x-4)^2 \leqq y$の表す領域を$E$とする．
+　このとき，次の条件(＊)を満たす点$P(a,b)$全体の集合を求め，これを図示せよ．
+\begin{description}
+\item[(＊)]$P(a,b)$に関して$D$と対称な領域を$U$とするとき，
+\[ D \cap U \neq \phi, \hspace{1zw} E \cap U \neq \phi, \hspace{1zw} D \cap E \cap U = \phi \]
+が同時に成り立つ．
+ただし，$\phi$は空集合を表すものとする．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1984/1984_6.pdf)

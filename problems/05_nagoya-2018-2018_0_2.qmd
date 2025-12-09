@@ -1,0 +1,33 @@
+---
+title: "名古屋大学 2018年 2018_0_2"
+problem_id: "05_nagoya-2018-2018_0_2"
+university: "名古屋大学"
+exam_year: "2018"
+source_tex: "archive/05_nagoya/2018/2018_0_2.tex"
+pdf_source: "archive/05_nagoya/2018/2018_0_2.pdf"
+page_image: "archive/05_nagoya/2018/2018_0_2.jpg"
+fields:
+  - 整数
+  - 代数
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　次の問に答えよ。
+\begin{description}
+\item[(1)]整数$\alpha$，$\beta$の少なくとも一方が奇数のとき，
+$\alpha^2+\alpha\beta+\beta^2$は奇数であることを示せ。
+\item[(2)]$n$を奇数とする。
+このとき$\alpha^2+\alpha\beta+\beta^2=2n$をみたす整数$\alpha$，$\beta$は
+存在しないことを示せ。
+\item[(3)]$c$を実数とする。
+このとき3次方程式$x^3-2018x+c=0$の解のうち整数であるものは
+1個以下であることを示せ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2018/2018_0_2.pdf)

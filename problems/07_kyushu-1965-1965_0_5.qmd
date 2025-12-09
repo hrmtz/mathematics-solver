@@ -1,0 +1,24 @@
+---
+title: "九州大学 1965年 1965_0_5"
+problem_id: "07_kyushu-1965-1965_0_5"
+university: "九州大学"
+exam_year: "1965"
+source_tex: "archive/07_kyushu/1965/1965_0_5.tex"
+pdf_source: "archive/07_kyushu/1965/1965_0_5.pdf"
+page_image: "archive/07_kyushu/1965/1965_0_5.jpg"
+fields:
+  - 三角関数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$k$は$\displaystyle\frac{\pi}{2}$の倍数ではないとして，
+\[ \cos2k\cos(x-k)-\cos(x+k)=\sin2k \]
+を満たすすべての$x$を求めよ。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1965/1965_0_5.pdf)

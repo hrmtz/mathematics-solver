@@ -1,0 +1,24 @@
+---
+title: "名古屋大学 2016年 2016_1"
+problem_id: "05_nagoya-2016-2016_1"
+university: "名古屋大学"
+exam_year: "2016"
+source_tex: "archive/05_nagoya/2016/2016_1.tex"
+pdf_source: "archive/05_nagoya/2016/2016_1.pdf"
+page_image: "archive/05_nagoya/2016/2016_1.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　曲線$y=x^2$上に2点$A(-2, \, 4)$，$B(b, \, b^2)$をとる。ただし$b>-2$とする。
+このとき，次の条件を満たす$b$の範囲を求めよ。
+　条件：$y=x^2$上の点$T(t, \, t^2)$ $(-2<t<b)$で，$\angle ATB$が直角になるものが存在する。
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/2016/2016_1.pdf)

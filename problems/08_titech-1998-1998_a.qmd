@@ -1,0 +1,23 @@
+---
+title: "東京科学大学 1998年 1998_a"
+problem_id: "08_titech-1998-1998_a"
+university: "東京科学大学"
+exam_year: "1998"
+source_tex: "archive/08_titech/1998/1998_a.tex"
+pdf_source: "archive/08_titech/1998/1998_a.pdf"
+page_image: "archive/08_titech/1998/1998_a.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　実数$a$，$b$に対し$\displaystyle x_n= \frac{1}{n^b} \left\{ \frac{1}{n^a}+\frac{1}{(n+1)^a}+\dots+\frac{1}{(2n-1)^a} \right\}$，$n=1,2,3,\cdots$とおく．
+$n \to \infty$のとき$x_n$が収束するための$a$，$b$の条件およびそのときの極限値を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/08_titech/1998/1998_a.pdf)

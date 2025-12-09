@@ -1,0 +1,26 @@
+---
+title: "京都大学 2006年 2006_3"
+problem_id: "02_kyoto-2006-2006_3"
+university: "京都大学"
+exam_year: "2006"
+source_tex: "archive/02_kyoto/2006/2006_3.tex"
+pdf_source: "archive/02_kyoto/2006/2006_3.pdf"
+page_image: "archive/02_kyoto/2006/2006_3.jpg"
+fields:
+  - 微分法
+  - 積分法
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　関数$y=f(x)$のグラフは，座標平面で原点に関して点対称である．
+さらにこのグラフの$x \leqq 0$の部分は，軸が$y$軸に平行で，点$\displaystyle\left(-\frac{1}{2},\frac{1}{4}\right)$を頂点とし，原点を通る放物線と一致している．
+このとき$x=-1$におけるこの関数のグラフの接線とこの関数のグラフによって囲まれる図形の面積を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/2006/2006_3.pdf)

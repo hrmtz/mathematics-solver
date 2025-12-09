@@ -1,0 +1,27 @@
+---
+title: "名古屋大学 1968年 1968_5"
+problem_id: "05_nagoya-1968-1968_5"
+university: "名古屋大学"
+exam_year: "1968"
+source_tex: "archive/05_nagoya/1968/1968_5.tex"
+pdf_source: "archive/05_nagoya/1968/1968_5.pdf"
+page_image: "archive/05_nagoya/1968/1968_5.jpg"
+fields:
+  - 積分法
+  - 不等式
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$0 \leqq x<1$で定義された連続関数$f(x)$があって，
+$f(0)=0$，かつ，$x_1<x_2$ならば，つねに$f(x_1) \leqq f(x_2)$である．
+このとき，もしすべての$0 \leqq x<1$について
+$\displaystyle f(x)\leqq\int_0^xf(t)dt$が成り立てば，
+$f(x)$は恒等的に0であることを証明せよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1968/1968_5.pdf)

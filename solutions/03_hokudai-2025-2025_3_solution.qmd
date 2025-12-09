@@ -1,0 +1,169 @@
+## 解答
+
+(1)  
+部分積分を用いる。  
+$I(a,n)=\displaystyle\int_0^{2\pi}e^{ax}\sin(nx)\,dx$ で  
+$u=e^{ax},\ dv=\sin(nx)\,dx$ とおくと，
+$du=a e^{ax}\,dx,\ v=-\dfrac{1}{n}\cos(nx)$ であるから
+
+$$
+I(a,n)
+=\left[-\frac{1}{n}e^{ax}\cos(nx)\right]_{0}^{2\pi}
++\frac{a}{n}\int_0^{2\pi}e^{ax}\cos(nx)\,dx
+$$
+
+と書ける。ここで
+
+$$
+J(a,n)=\int_0^{2\pi}e^{ax}\cos(nx)\,dx
+$$
+
+とおく。
+
+同様に $J(a,n)$ に部分積分を行う。  
+$u=e^{ax},\ dv=\cos(nx)\,dx$ とおくと，
+$du=a e^{ax}\,dx,\ v=\dfrac{1}{n}\sin(nx)$ なので
+
+$$
+J(a,n)
+=\left[\frac{1}{n}e^{ax}\sin(nx)\right]_{0}^{2\pi}
+-\frac{a}{n}\int_0^{2\pi}e^{ax}\sin(nx)\,dx
+=\left[\frac{1}{n}e^{ax}\sin(nx)\right]_{0}^{2\pi}
+-\frac{a}{n}I(a,n)
+$$
+
+となる。  
+これを最初の式に代入する。
+
+まず $I(a,n)$ の式は
+
+$$
+I(a,n)
+=\left[-\frac{1}{n}e^{ax}\cos(nx)\right]_{0}^{2\pi}
++\frac{a}{n}J(a,n)
+$$
+
+であり，ここに
+
+$$
+J(a,n)
+=\left[\frac{1}{n}e^{ax}\sin(nx)\right]_{0}^{2\pi}
+-\frac{a}{n}I(a,n)
+$$
+
+を代入すると
+
+$$
+I(a,n)
+=\left[-\frac{1}{n}e^{ax}\cos(nx)\right]_{0}^{2\pi}
++\frac{a}{n}
+\left\{
+\left[\frac{1}{n}e^{ax}\sin(nx)\right]_{0}^{2\pi}
+-\frac{a}{n}I(a,n)
+\right\}
+$$
+
+となる。整理して
+
+$$
+I(a,n)
+=-\frac{1}{n}e^{ax}\cos(nx)\Big|_{0}^{2\pi}
++\frac{a}{n^2}e^{ax}\sin(nx)\Big|_{0}^{2\pi}
+-\frac{a^2}{n^2}I(a,n)
+$$
+
+すなわち
+
+$$
+I(a,n)+\frac{a^2}{n^2}I(a,n)
+=-\frac{1}{n}e^{ax}\cos(nx)\Big|_{0}^{2\pi}
++\frac{a}{n^2}e^{ax}\sin(nx)\Big|_{0}^{2\pi}
+$$
+
+$$
+I(a,n)\left(1+\frac{a^2}{n^2}\right)
+=-\frac{1}{n}\left(e^{a\cdot 2\pi}\cos(2n\pi)-e^{0}\cos 0\right)
++\frac{a}{n^2}\left(e^{a\cdot 2\pi}\sin(2n\pi)-e^{0}\sin 0\right)
+$$
+
+となる。ここで $\cos(2n\pi)=1,\ \sin(2n\pi)=0,\ \cos 0=1,\ \sin 0=0$ より
+
+$$
+I(a,n)\left(1+\frac{a^2}{n^2}\right)
+=-\frac{1}{n}(e^{2\pi a}-1)+\frac{a}{n^2}\cdot 0
+=-\frac{1}{n}(e^{2\pi a}-1)
+$$
+
+したがって
+
+$$
+I(a,n)
+=\frac{-\dfrac{1}{n}(e^{2\pi a}-1)}{1+\dfrac{a^2}{n^2}}
+=-\frac{n}{n^2+a^2}(e^{2\pi a}-1)
+=\frac{n(1-e^{2\pi a})}{n^2+a^2}
+$$
+
+を得る。
+
+(2)  
+$a_n=\dfrac{\log n}{2\pi}$ とおくと，(1) の結果から
+
+$$
+I(a_n,n)
+=\frac{n\left(1-e^{2\pi a_n}\right)}{n^2+a_n^2}
+$$
+
+である。$a_n=\dfrac{\log n}{2\pi}$ なので
+
+$$
+2\pi a_n=\log n,\quad e^{2\pi a_n}=e^{\log n}=n
+$$
+
+だから
+
+$$
+I(a_n,n)
+=\frac{n(1-n)}{n^2+a_n^2}
+=-\frac{n(n-1)}{n^2+a_n^2}
+$$
+
+となる。分母分子を $n^2$ で割ると
+
+$$
+I(a_n,n)
+=-\frac{1-\dfrac{1}{n}}{1+\dfrac{a_n^2}{n^2}}
+$$
+
+である。ここで $a_n=\dfrac{\log n}{2\pi}$ より
+
+$$
+\frac{a_n^2}{n^2}
+=\frac{(\log n)^2}{4\pi^2 n^2}
+=\frac{1}{4\pi^2}\left(\frac{\log n}{n}\right)^2
+$$
+
+となるが，$\displaystyle\lim_{n\to\infty}\dfrac{\log n}{n}=0$ だから
+
+$$
+\lim_{n\to\infty}\frac{a_n^2}{n^2}
+=\frac{1}{4\pi^2}\cdot 0^2
+=0
+$$
+
+である。また $\displaystyle\lim_{n\to\infty}\left(1-\dfrac{1}{n}\right)=1$ であるから
+
+$$
+\lim_{n\to\infty}I(a_n,n)
+=-\frac{\displaystyle\lim_{n\to\infty}\left(1-\dfrac{1}{n}\right)}
+{\displaystyle\lim_{n\to\infty}\left(1+\dfrac{a_n^2}{n^2}\right)}
+=-\frac{1}{1+0}
+=-1
+$$
+
+よって，
+
+$$
+\boxed{\lim_{n\to\infty}I(a_n,n)=-1}
+$$
+
+である。

@@ -1,0 +1,24 @@
+---
+title: "京都大学 1981年 1981_1"
+problem_id: "02_kyoto-1981-1981_1"
+university: "京都大学"
+exam_year: "1981"
+source_tex: "archive/02_kyoto/1981/1981_1.tex"
+pdf_source: "archive/02_kyoto/1981/1981_1.pdf"
+page_image: "archive/02_kyoto/1981/1981_1.jpg"
+fields:
+  - 平面図形
+  - 微分法
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　座標平面上で，点(4,5)を通る直線が放物線$\displaystyle y=\frac{1}{4}x^2$と2点$P$，$Q$で交わっているとき，
+線分$PQ$の長さが最小となるような直線の傾きと，そのときの線分$PQ$の長さを求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1981/1981_1.pdf)

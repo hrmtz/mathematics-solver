@@ -1,0 +1,242 @@
+## 解答
+
+(1)　
+
+円 $x^2+y^2=1$ 上の点 $P(\cos\theta,\sin\theta)$ における接線は，中心 $(0,0)$ からの半径と接線が直交することより  
+内積 $(\cos\theta,\sin\theta)\cdot(X-\cos\theta,\,Y-\sin\theta)=0$ から
+$$
+\cos\theta\,X+\sin\theta\,Y=1
+$$
+すなわち
+$$
+\cos\theta\,x+\sin\theta\,y=1
+$$
+である。同様に点 $Q(-\cos\theta,\sin\theta)$ における接線は
+$$
+-\cos\theta\,x+\sin\theta\,y=1
+$$
+である。
+
+これらの直線が放物線 $C:y=ax^2+bx+c$ の接線でもあるから，接点 $P,Q$ は放物線上にあり，接線の傾きも一致する。
+
+まず $P(\cos\theta,\sin\theta)$ が $C$ 上にあるから
+$$
+a\cos^2\theta+b\cos\theta+c=\sin\theta
+$$
+同様に $Q(-\cos\theta,\sin\theta)$ が $C$ 上にあるから
+$$
+a\cos^2\theta-b\cos\theta+c=\sin\theta
+$$
+よってこれらを辺々加えると
+$$
+2a\cos^2\theta+2c=2\sin\theta
+$$
+すなわち
+$$
+a\cos^2\theta+c=\sin\theta \tag{①}
+$$
+また辺々引くと
+$$
+2b\cos\theta=0
+$$
+より
+$$
+b=0 \tag{②}
+$$
+
+次に接線の傾きを用いる。放物線 $y=ax^2+bx+c$ の接線の傾きは微分より $y'=2ax+b$ で与えられる。よって点 $P(\cos\theta,\sin\theta)$ における接線の傾きは
+$$
+2a\cos\theta+b
+$$
+である。一方，円の接線 $\cos\theta\,x+\sin\theta\,y=1$ を $y$ について解くと
+$$
+\sin\theta\,y=1-\cos\theta\,x
+$$
+$$
+y=-\frac{\cos\theta}{\sin\theta}x+\frac{1}{\sin\theta}
+$$
+したがってその傾きは $-\dfrac{\cos\theta}{\sin\theta}$ である。
+
+これが放物線の接線の傾きと等しいから
+$$
+2a\cos\theta+b=-\frac{\cos\theta}{\sin\theta}
+$$
+②で $b=0$ なので
+$$
+2a\cos\theta=-\frac{\cos\theta}{\sin\theta}
+$$
+$\cos\theta\neq0$ なので両辺を $\cos\theta$ で割って
+$$
+2a=-\frac{1}{\sin\theta}
+$$
+よって
+$$
+a=-\frac{1}{2\sin\theta} \tag{③}
+$$
+
+① に ③ を代入する。$\cos^2\theta=1-\sin^2\theta$ を用いると
+$$
+-\frac{1}{2\sin\theta}\cos^2\theta+c=\sin\theta
+$$
+より
+$$
+c=\sin\theta+\frac{1}{2\sin\theta}\cos^2\theta
+=\sin\theta+\frac{1}{2\sin\theta}(1-\sin^2\theta)
+$$
+$$
+c=\sin\theta+\frac{1}{2\sin\theta}-\frac{\sin\theta}{2}
+=\frac{\sin\theta}{2}+\frac{1}{2\sin\theta}
+$$
+
+ここで $s=\sin\theta$ とおくと，
+$$
+a=-\frac{1}{2s},\quad b=0,\quad c=\frac{s}{2}+\frac{1}{2s}
+$$
+となる。
+
+(2)　
+
+放物線 $C$ の方程式は
+$$
+y=ax^2+bx+c=-\frac{1}{2s}x^2+\left(\frac{s}{2}+\frac{1}{2s}\right)
+$$
+である。
+
+放物線 $C$ と $x$ 軸との交点は $y=0$ とおいて求める：
+$$
+-\frac{1}{2s}x^2+\left(\frac{s}{2}+\frac{1}{2s}\right)=0
+$$
+両辺に $2s$ を掛けて
+$$
+-x^2+s^2+1=0
+$$
+$$
+x^2=s^2+1
+$$
+よって交点の $x$ 座標は $x=\pm\sqrt{s^2+1}$ である。
+
+放物線と $x$ 軸で囲まれた図形は，$x=-\sqrt{s^2+1}$ から $x=\sqrt{s^2+1}$ までの放物線と $x$ 軸にはさまれた部分であり，その面積 $A$ は
+$$
+A=\int_{-\sqrt{s^2+1}}^{\sqrt{s^2+1}}\left(-\frac{1}{2s}x^2+\frac{s}{2}+\frac{1}{2s}\right)\,dx
+$$
+で与えられる。
+
+被積分関数は偶関数であるから，積分区間の対称性より
+$$
+A=2\int_{0}^{\sqrt{s^2+1}}\left(-\frac{1}{2s}x^2+\frac{s}{2}+\frac{1}{2s}\right)\,dx
+$$
+
+それぞれ積分すると
+$$
+\int_{0}^{\sqrt{s^2+1}}x^2\,dx=\left[\frac{x^3}{3}\right]_{0}^{\sqrt{s^2+1}}
+=\frac{1}{3}(s^2+1)^{\frac{3}{2}},
+$$
+$$
+\int_{0}^{\sqrt{s^2+1}}dx=\sqrt{s^2+1}
+$$
+であるから
+$$
+A=2\left(-\frac{1}{2s}\cdot\frac{1}{3}(s^2+1)^{\frac{3}{2}}
++\left(\frac{s}{2}+\frac{1}{2s}\right)\sqrt{s^2+1}\right)
+$$
+これを整理すると
+$$
+A=-\frac{1}{3s}(s^2+1)^{\frac{3}{2}}
++\left(s+\frac{1}{s}\right)\sqrt{s^2+1}
+$$
+であり，共通因子 $\dfrac{\sqrt{s^2+1}}{s}$ をくくり出すと
+$$
+A=\frac{\sqrt{s^2+1}}{s}\left\{-\frac{1}{3}(s^2+1)+\left(s^2+1\right)\right\}
+$$
+$$
+=\frac{\sqrt{s^2+1}}{s}\cdot\frac{2}{3}(s^2+1)
+=\frac{2}{3}\,\frac{(s^2+1)^{\frac{3}{2}}}{s}
+$$
+よって
+$$
+A=\frac{2}{3}\cdot\frac{(1+s^2)^{3/2}}{s}
+$$
+である。
+
+(3)　
+
+(2)で求めた $A$ を
+$$
+A=\frac{2}{3}\cdot\frac{(1+s^2)^{3/2}}{s}\quad (0<s<1)
+$$
+とおく。ここで $0^\circ<\theta<90^\circ$ より $0<s=\sin\theta<1$ である。
+
+不等式 $A\geq\sqrt3$ を示したいので，まず両辺を $3/2>0$ 倍し，
+さらに $s>0$ であることに注意して両辺に $s$ を掛けると，
+$$
+(1+s^2)^{3/2}\geq\frac{3\sqrt3}{2}\,s
+$$
+を示せばよい。
+
+両辺とも非負なので，両辺を二乗しても不等号の向きは変わらない。よって
+$$
+(1+s^2)^3\geq\left(\frac{3\sqrt3}{2}\,s\right)^2
+=\frac{27}{4}s^2
+$$
+を示せばよい。
+
+左辺を展開すると
+$$
+(1+s^2)^3
+=1+3s^2+3s^4+s^6
+$$
+したがって不等式は
+$$
+1+3s^2+3s^4+s^6\geq\frac{27}{4}s^2
+$$
+すなわち
+$$
+1+3s^2+3s^4+s^6-\frac{27}{4}s^2\geq0
+$$
+$$
+1-\frac{15}{4}s^2+3s^4+s^6\geq0
+$$
+となる。左辺を $4$ 倍して
+$$
+4-15s^2+12s^4+4s^6\geq0
+$$
+これを因数分解する。まず
+$$
+4s^6+12s^4-15s^2+4
+=(s^2+4)(4s^4-3s^2+1)
+$$
+と分解できるが，さらに
+$$
+4s^4-3s^2+1=(2s^2-1)(2s^2-1)=(2s^2-1)^2
+$$
+であるから
+$$
+4s^6+12s^4-15s^2+4=(s^2+4)(2s^2-1)^2
+$$
+となる。よって
+$$
+4-15s^2+12s^4+4s^6=(s^2+4)(2s^2-1)^2
+$$
+である。
+
+ここで $s^2+4>0$ かつ $(2s^2-1)^2\geq0$ であるから
+$$
+4-15s^2+12s^4+4s^6=(s^2+4)(2s^2-1)^2\geq0
+$$
+従って
+$$
+1+3s^2+3s^4+s^6\geq\frac{27}{4}s^2
+$$
+が成り立ち，そこから
+$$
+(1+s^2)^3\geq\frac{27}{4}s^2
+$$
+ひいて
+$$
+(1+s^2)^{3/2}\geq\frac{3\sqrt3}{2}\,s
+$$
+となる。よって
+$$
+A=\frac{2}{3}\cdot\frac{(1+s^2)^{3/2}}{s}\geq\sqrt3
+$$
+が示された。

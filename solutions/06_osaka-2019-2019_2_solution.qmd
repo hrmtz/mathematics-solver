@@ -1,0 +1,316 @@
+## 解答
+
+(1)  
+$a=4,\ b=3$ のとき  
+$$
+w=\cos\frac{4\pi}{3+3}+i\sin\frac{4\pi}{3+3}
+=\cos\frac{2\pi}{3}+i\sin\frac{2\pi}{3}
+=-\frac12+\frac{\sqrt3}{2}i
+$$
+である．
+
+与えられた漸化式
+$$
+z_n=(1-w)z_{n-1}+wz_{n-2}
+$$
+の係数について
+$$
+(1-w)+w=1
+$$
+であるから，この数列は線形漸化式であり，その一般論から  
+「$z_n$ の一般項は形 $C+D\cdot r^{\,n}$ の和で書ける」ことが予想される．  
+実際に，$z_n$ が等比的に変化する解 $z_n=r^n$ を仮定すると，
+$$
+r^n=(1-w)r^{n-1}+wr^{n-2}
+$$
+より
+$$
+r^2-(1-w)r-w=0
+$$
+すなわち
+$$
+r^2-(1-w)r-w=0
+$$
+を満たす $r$ を求めればよい．
+
+この 2 次方程式は
+$$
+r=1,\quad r=-w
+$$
+を根にもつことが容易に確かめられる（実際に代入すればよい）ので，一般解は
+$$
+z_n=\alpha\cdot 1^{\,n}+\beta\cdot(-w)^n
+=\alpha+\beta(-w)^n
+$$
+の形になる．
+
+初期条件 $z_1=1,\ z_2=1-w$ を用いて $\alpha,\beta$ を求める．
+
+$n=1$ のとき
+$$
+z_1=\alpha+\beta(-w)=1 \quad\cdots(1)
+$$
+$n=2$ のとき
+$$
+z_2=\alpha+\beta(-w)^2=1-w \quad\cdots(2)
+$$
+
+(2)−(1) を計算すると
+$$
+\beta\bigl((-w)^2-(-w)\bigr)=(1-w)-1=-w
+$$
+左辺を整理すると
+$$
+(-w)^2-(-w)=w^2+w=w(w+1)
+$$
+ゆえに
+$$
+\beta\cdot w(w+1)=-w
+$$
+であるから $w\neq 0$ に注意して
+$$
+\beta=-\frac{1}{w+1}
+$$
+となる．これを (1) 式に代入すると
+$$
+\alpha-\frac{-w}{w+1}=1
+\quad\Longrightarrow\quad
+\alpha+\frac{w}{w+1}=1
+$$
+よって
+$$
+\alpha=1-\frac{w}{w+1}
+=\frac{w+1-w}{w+1}
+=\frac{1}{w+1}
+$$
+であり，
+$$
+\alpha=\frac{1}{w+1},\quad
+\beta=-\frac{1}{w+1}
+$$
+が得られる．したがって
+$$
+z_n=\frac{1}{w+1}-\frac{1}{w+1}(-w)^n
+=\frac{1-(-w)^n}{w+1}
+$$
+である．
+
+これを $w=-\dfrac12+\dfrac{\sqrt3}{2}i$ の場合に用いる．
+
+まず $w+1$ を求めると
+$$
+w+1=1-\frac12+\frac{\sqrt3}{2}i
+=\frac12+\frac{\sqrt3}{2}i
+=\cos\frac{\pi}{3}+i\sin\frac{\pi}{3}
+$$
+と書ける．また
+$$
+-w=\frac12-\frac{\sqrt3}{2}i
+=\cos\frac{\pi}{3}-i\sin\frac{\pi}{3}
+=\cos\Bigl(-\frac{\pi}{3}\Bigr)
++i\sin\Bigl(-\frac{\pi}{3}\Bigr)
+$$
+である．よって
+$$
+(-w)^n=\cos\Bigl(-\frac{n\pi}{3}\Bigr)
++i\sin\Bigl(-\frac{n\pi}{3}\Bigr)
+$$
+となり，
+$$
+z_n=\frac{1-(-w)^n}{w+1}
+=\frac{1-
+\{\cos(-\tfrac{n\pi}{3})+i\sin(-\tfrac{n\pi}{3})\}
+}{\cos(\tfrac{\pi}{3})+i\sin(\tfrac{\pi}{3})}
+$$
+である．
+
+ここで，$w+1$ は原点を中心とする半径 1 の円周上の点であり，  
+複素数の割り算は回転に対応するので，$z_n$ は「$1$ から $(-w)^n$ へ向かうベクトルを  
+$\dfrac{\pi}{3}$ だけ回転させたもの」と解釈できる．
+
+実際に $n=1$ から $7$ まで計算するには，$(-w)^n$ は中心角が $-\dfrac{\pi}{3}$ の等間隔点であることと，  
+$1$ からその点へのベクトルを $\dfrac{\pi}{3}$ 回転させた向き・長さを利用すればよい．  
+計算すると，$z_1,z_2,\dots,z_7$ は正六角形とその中心を結ぶ星形状の 7 点となり，  
+$z_1=1$ を始点として順に線分で結ぶと，  
+「正六角形の各頂点を星形に結んだ図形（正六角形の一辺を対角線状にたどる星形多角形）」  
+が得られる．  
+（※答案としては，この形を複素数平面上に作図して示す．）
+
+---
+
+(2)  
+$a=2,\ b=1$ のとき
+$$
+w=\cos\frac{2\pi}{3}+i\sin\frac{2\pi}{3}
+=-\frac12+\frac{\sqrt3}{2}i
+$$
+であり，(1) と同じ $w$ になる．したがって (1) で得た一般式
+$$
+z_n=\frac{1-(-w)^n}{w+1}
+$$
+がそのまま使える．
+
+先ほどと同様に
+$$
+w+1=\cos\frac{\pi}{3}+i\sin\frac{\pi}{3},\quad
+-w=\cos\Bigl(-\frac{\pi}{3}\Bigr)
++i\sin\Bigl(-\frac{\pi}{3}\Bigr)
+$$
+だから
+$$
+(-w)^{63}
+=\cos\Bigl(-\frac{63\pi}{3}\Bigr)
++i\sin\Bigl(-\frac{63\pi}{3}\Bigr)
+=\cos(-21\pi)+i\sin(-21\pi)
+$$
+である．$\cos$ は偶関数，$\sin$ は奇関数なので
+$$
+\cos(-21\pi)=\cos(21\pi),\quad
+\sin(-21\pi)=-\sin(21\pi)
+$$
+さらに $\cos(21\pi)=\cos(\pi+20\pi)=-\cos(20\pi)=-1,\ \sin(21\pi)=0$ から
+$$
+(-w)^{63}=-1
+$$
+となる．よって
+$$
+z_{63}=\frac{1-(-w)^{63}}{w+1}
+=\frac{1-(-1)}{w+1}
+=\frac{2}{w+1}
+$$
+である．
+
+ここで
+$$
+w+1=\frac12+\frac{\sqrt3}{2}i
+$$
+だから
+$$
+z_{63}=\frac{2}{\frac12+\frac{\sqrt3}{2}i}
+=2\cdot\frac{1}{\frac12+\frac{\sqrt3}{2}i}
+$$
+分母分子に共役複素数 $\dfrac12-\dfrac{\sqrt3}{2}i$ を掛けると
+$$
+\frac{1}{\frac12+\frac{\sqrt3}{2}i}
+=\frac{\frac12-\frac{\sqrt3}{2}i}{\left(\frac12\right)^2+\left(\frac{\sqrt3}{2}\right)^2}
+=\frac{\frac12-\frac{\sqrt3}{2}i}{\frac14+\frac34}
+=\frac{\frac12-\frac{\sqrt3}{2}i}{1}
+=\frac12-\frac{\sqrt3}{2}i
+$$
+したがって
+$$
+z_{63}=2\left(\frac12-\frac{\sqrt3}{2}i\right)
+=1-\sqrt3\,i
+$$
+である．
+
+---
+
+(3)  
+さいころを 2 回投げて，1 回目の目を $a$，2 回目の目を $b$ とする．  
+このとき $a,b$ はそれぞれ $1,2,3,4,5,6$ のいずれかをとり，  
+組 $(a,b)$ の全事象数は $6\times 6=36$ 通りである（同様に確からしい）．
+
+一般の自然数 $a,b$ に対して
+$$
+w=\cos\frac{a\pi}{3+b}+i\sin\frac{a\pi}{3+b}
+$$
+とおき，同様の計算を行う．(1) と同じ議論により，一般に
+$$
+z_n=\frac{1-(-w)^n}{w+1}
+$$
+が成り立つ．  
+したがって $z_{63}=0$ となる条件は
+$$
+\frac{1-(-w)^{63}}{w+1}=0
+$$
+であり，分母 $w+1\neq 0$ （$w=-1$ となるには $\dfrac{a\pi}{3+b}=\pi+2k\pi$ を満たす必要があるが，$a,b$ は $1$ 以上 $6$ 以下なので起こらない）であるから，
+$$
+1-(-w)^{63}=0
+\quad\Longleftrightarrow\quad
+(-w)^{63}=1
+$$
+である．
+
+$w=\cos\theta+i\sin\theta$ とおくと，$\theta=\dfrac{a\pi}{3+b}$ であるから
+$$
+-w=\cos(\theta+\pi)+i\sin(\theta+\pi)
+$$
+であり，
+$$
+(-w)^{63}=\{\cos(\theta+\pi)+i\sin(\theta+\pi)\}^{63}
+=\cos\bigl(63(\theta+\pi)\bigr)+i\sin\bigl(63(\theta+\pi)\bigr)
+$$
+である．これが $1$ となるのは，偏角が $2\pi$ の整数倍になるとき，すなわち
+$$
+63(\theta+\pi)=2k\pi\quad(k\in\mathbb{Z})
+$$
+すなわち
+$$
+\theta+\pi=\frac{2k\pi}{63}
+\quad\Longleftrightarrow\quad
+\theta=\frac{2k\pi}{63}-\pi
+$$
+である．
+
+一方，$\theta=\dfrac{a\pi}{3+b}$ だから
+$$
+\frac{a\pi}{3+b}=\frac{2k\pi}{63}-\pi
+$$
+すなわち両辺を $\pi$ で割って
+$$
+\frac{a}{3+b}=\frac{2k}{63}-1=\frac{2k-63}{63}
+$$
+よって
+$$
+a=\frac{3+b}{63}(2k-63)
+$$
+である．
+
+ここで $a,b$ は $1,2,3,4,5,6$ のいずれかなので，  
+$3+b$ は $4,5,6,7,8,9$ のいずれかである．  
+$a$ が 1 以上 6 以下の整数になるような $(k,b)$ が存在するかを調べる．
+
+$$
+1\le a=\frac{3+b}{63}(2k-63)\le 6,\quad
+b=1,2,3,4,5,6
+$$
+
+$3+b\le 9$ なので
+$$
+\frac{3+b}{63}\le \frac{9}{63}=\frac{1}{7}
+$$
+であるから，$a\ge 1$ ならば
+$$
+\frac{3+b}{63}(2k-63)\ge 1
+\quad\Longrightarrow\quad
+2k-63\ge \frac{63}{3+b}\ge \frac{63}{9}=7
+$$
+よって $2k\ge 70$，すなわち $k\ge 35$ となる．
+
+一方 $a\le 6$ より
+$$
+\frac{3+b}{63}(2k-63)\le 6
+\quad\Longrightarrow\quad
+2k-63\le \frac{6\cdot 63}{3+b}\le \frac{6\cdot 63}{4}=\frac{378}{4}=94.5
+$$
+ゆえに
+$$
+2k-63\le 94\quad\Longrightarrow\quad 2k\le 157\quad\Longrightarrow\quad k\le 78
+$$
+したがって $k$ は $35\le k\le 78$ の範囲にある整数となるが，  
+この範囲で各 $b=1,\dots,6$ について
+$$
+a=\frac{3+b}{63}(2k-63)
+$$
+が整数かつ $1\le a\le 6$ となるものを実際に調べると，  
+どの場合も $a$ は 1 から 6 の範囲に入らない（もしくは整数でない）ことが分かる．
+
+よって，$1\le a,b\le 6$ のもとで $(-w)^{63}=1$ となるような組 $(a,b)$ は存在しない．  
+したがって $z_{63}=0$ となる場合は 1 つもない．
+
+求める確率は
+$$
+\frac{0}{36}=0
+$$
+である．

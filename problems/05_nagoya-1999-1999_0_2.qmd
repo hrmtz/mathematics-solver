@@ -1,0 +1,30 @@
+---
+title: "名古屋大学 1999年 1999_0_2"
+problem_id: "05_nagoya-1999-1999_0_2"
+university: "名古屋大学"
+exam_year: "1999"
+source_tex: "archive/05_nagoya/1999/1999_0_2.tex"
+pdf_source: "archive/05_nagoya/1999/1999_0_2.pdf"
+page_image: "archive/05_nagoya/1999/1999_0_2.jpg"
+fields:
+  - 確率
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　$A$と$B$がゲームをくり返す．
+それぞれ最初の持ち点は2で，
+ゲームごとに勝者は敗者から1点をもらい，
+どちらか一方の持ち点が0になるまで続ける．
+ただし，各ゲームにおいて，$A$が勝つ確率を$p$，$B$が勝つ確率を$1-p$とする．
+\begin{description}
+\item[(1)]ちょうど4回目のゲームでどちらか一方の持ち点が0になる確率を求めよ．
+\item[(2)]$2n$回目までのゲームで，$A$の持ち点が0になる確率を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1999/1999_0_2.pdf)

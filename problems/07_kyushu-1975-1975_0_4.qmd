@@ -1,0 +1,29 @@
+---
+title: "九州大学 1975年 1975_0_4"
+problem_id: "07_kyushu-1975-1975_0_4"
+university: "九州大学"
+exam_year: "1975"
+source_tex: "archive/07_kyushu/1975/1975_0_4.tex"
+pdf_source: "archive/07_kyushu/1975/1975_0_4.pdf"
+page_image: "archive/07_kyushu/1975/1975_0_4.jpg"
+fields:
+  - 数列
+format:
+  html:
+    math: mathjax
+---
+
+
+4
+　無限数列$a_1, \, a_2, \, a_3, \, \cdots\cdots, \, a_n, \, \cdots\cdots$が
+\[ 3a_n-4a_{n-1}+a_{n-2}=0 \hspace{1zw} (n=3, \, 4, \, \cdots\cdots) \]
+という関係式を満たすとする．このとき
+\begin{description}
+\item[(1)]$a_n-a_{n-1}$ $(n\geqq3)$を$a_2-a_1$，$n$で表せ．
+\item[(2)]$a_n$ $(n\geqq3)$を$a_1$，$a_2$，$n$で表せ．
+\item[(3)]$a_1=1$，$\displaystyle\lim_{n\to\infty}a_n=0$のとき$a_n$ $(n\geqq2)$を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/07_kyushu/1975/1975_0_4.pdf)

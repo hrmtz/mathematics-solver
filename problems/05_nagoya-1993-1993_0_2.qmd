@@ -1,0 +1,25 @@
+---
+title: "名古屋大学 1993年 1993_0_2"
+problem_id: "05_nagoya-1993-1993_0_2"
+university: "名古屋大学"
+exam_year: "1993"
+source_tex: "archive/05_nagoya/1993/1993_0_2.tex"
+pdf_source: "archive/05_nagoya/1993/1993_0_2.pdf"
+page_image: "archive/05_nagoya/1993/1993_0_2.jpg"
+fields:
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+2
+　長さ$2a$の線分の中点$M$が1辺の長さ$l$の正方形$ABCD$の内部にあり，
+その線分が$ABCD$と2点で交わるとき，
+点$M$の存在する範囲を図示せよ．
+ただし，$2a<l$とする．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/05_nagoya/1993/1993_0_2.pdf)

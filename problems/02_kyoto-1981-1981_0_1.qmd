@@ -1,0 +1,33 @@
+---
+title: "京都大学 1981年 1981_0_1"
+problem_id: "02_kyoto-1981-1981_0_1"
+university: "京都大学"
+exam_year: "1981"
+source_tex: "archive/02_kyoto/1981/1981_0_1.tex"
+pdf_source: "archive/02_kyoto/1981/1981_0_1.pdf"
+page_image: "archive/02_kyoto/1981/1981_0_1.jpg"
+fields:
+  - ベクトル
+  - 平面図形
+format:
+  html:
+    math: mathjax
+---
+
+
+1
+　座標平面上に，原点と異なる3点$A$，$B$，$C$を考える．
+$A$は$x$軸上にあり，$B$は$y$軸上にあるものとする．
+$O$を原点とするとき，1次変換$f$が$f(\overrightarrow{OA})=\overrightarrow{OB}$，
+$f(\overrightarrow{OB})=\overrightarrow{OC}$，$f(\overrightarrow{OC})=\overrightarrow{OA}$をみたすものとする．
+このとき，次の(1)，(2)が成り立つことを示せ．
+\begin{description}
+\item[(1)]$\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\vec{0}$
+\item[(2)]$|\overrightarrow{OA}|=|\overrightarrow{OB}|$なるとき，
+平面上の点$P$で，$\overrightarrow{OP}$と$f(\overrightarrow{OP})$とが直交するならば，点$P$は$x$軸上にある．
+ただし，$|\hspace{1zw}|$はベクトルの大きさを表わす．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1981/1981_0_1.pdf)

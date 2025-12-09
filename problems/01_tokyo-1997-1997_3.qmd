@@ -1,0 +1,34 @@
+---
+title: "東京大学 1997年 1997_3"
+problem_id: "01_tokyo-1997-1997_3"
+university: "東京大学"
+exam_year: "1997"
+source_tex: "archive/01_tokyo/1997/1997_3.tex"
+pdf_source: "archive/01_tokyo/1997/1997_3.pdf"
+page_image: "archive/01_tokyo/1997/1997_3.jpg"
+fields:
+  - ベクトル
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+3
+　$r$は$0<r<1$を満たす実数とする．
+$xyz$空間に原点$O(0,0,0)$と2点$A(1,0,0)$，$B(0,1,0)$をとる．
+\begin{description}
+\item[(1)]$xyz$空間の点$P$で条件
+\[ |\overrightarrow{PA}|=|\overrightarrow{PB}|=r|\overrightarrow{PO}| \]
+を満たすものが存在するような$r$の範囲を求めよ．
+\item[(2)]点$P$が(1)の条件を満たして動くとき，
+内積$\overrightarrow{PA}\cdot\overrightarrow{PB}$の最大値，最小値を$r$の関数と考えて
+それぞれ$M(r)$，$m(r)$で表す．このとき，左からの極限
+\[ \lim_{r\to1-0}{(1-r)}^2\{M(r)-m(r)\} \]
+を求めよ．
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/1997/1997_3.pdf)

@@ -1,0 +1,29 @@
+---
+title: "東京大学 2020年 2020_5"
+problem_id: "01_tokyo-2020-2020_5"
+university: "東京大学"
+exam_year: "2020"
+source_tex: "archive/01_tokyo/2020/2020_5.tex"
+pdf_source: "archive/01_tokyo/2020/2020_5.pdf"
+page_image: "archive/01_tokyo/2020/2020_5.jpg"
+fields:
+  - 空間図形
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　座標空間において，$xy$平面上の原点を中心とする半径1の円を考える。
+この円を底面とし，点$(0, \, 0, \, 2)$を頂点とする円錐（内部を含む）をSとする。
+また，点$A(1, \, 0, \, 2)$を考える。
+\begin{description}
+\item[(1)]点PがSの底面を動くとき，線分APが通過する部分をTとする。
+平面$z=1$によるSの切り口および，平面$z=1$によるTの切り口を同一平面上に図示せよ。
+\item[(2)]点PがSを動くとき，線分APが通過する部分の体積を求めよ。
+\end{description}
+
+---
+
+元問題 PDF: [こちらを開く](../archive/01_tokyo/2020/2020_5.pdf)

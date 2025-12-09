@@ -1,0 +1,24 @@
+---
+title: "京都大学 1993年 1993_e"
+problem_id: "02_kyoto-1993-1993_e"
+university: "京都大学"
+exam_year: "1993"
+source_tex: "archive/02_kyoto/1993/1993_e.tex"
+pdf_source: "archive/02_kyoto/1993/1993_e.pdf"
+page_image: "archive/02_kyoto/1993/1993_e.jpg"
+fields:
+  - 整数
+format:
+  html:
+    math: mathjax
+---
+
+
+5
+　$n\geqq3$とする．
+$1,2,\cdots,n$のうちから重複を許して6個の数字をえらびそれを並べた順列を考える．
+このような順列のうちで，どの数字もそれ以外の5つの数字のどれかに等しくなっているようなものの個数を求めよ．
+
+---
+
+元問題 PDF: [こちらを開く](../archive/02_kyoto/1993/1993_e.pdf)
