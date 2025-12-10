@@ -1,0 +1,196 @@
+## 解答
+
+(1)  
+$t>0$ とする．不等式
+$$
+-\frac{1}{t}<\int_t^{2t}\frac{\sin x}{x^2}\,dx<\frac{1}{t}
+$$
+を示す．
+
+まず関数 $\dfrac{\sin x}{x^2}$ は，すべての $x>0$ に対して
+$$
+\left|\frac{\sin x}{x^2}\right|\le \frac{1}{x^2}
+$$
+が成り立つ（$\sin x$ の絶対値は常に $1$ 以下であるため）．したがって，積分の絶対値に関する評価
+$$
+\left|\int_t^{2t}\frac{\sin x}{x^2}\,dx\right|
+\le \int_t^{2t}\left|\frac{\sin x}{x^2}\right|\,dx
+\le \int_t^{2t}\frac{1}{x^2}\,dx
+$$
+が成り立つ．右辺の積分は初等的に計算できて，
+$$
+\int_t^{2t}\frac{1}{x^2}\,dx
+= \left[-\frac{1}{x}\right]_{x=t}^{x=2t}
+= -\frac{1}{2t}-\left(-\frac{1}{t}\right)
+= \frac{1}{2t}
+$$
+となる．よって
+$$
+\left|\int_t^{2t}\frac{\sin x}{x^2}\,dx\right|\le \frac{1}{2t}
+$$
+が得られる．特に $\dfrac{1}{2t}<\dfrac{1}{t}$ なので
+$$
+-\frac{1}{t}<\int_t^{2t}\frac{\sin x}{x^2}\,dx<\frac{1}{t}
+$$
+が成り立つ．(1) は示された．
+
+---
+
+(2)  
+$$
+\lim_{t\to\infty}\int_t^{2t}\frac{\cos x}{x}\,dx=0
+$$
+を示す．(1) の結果を利用するため，部分積分を行う．
+
+関数
+$$
+F(t)=\int_t^{2t}\frac{\cos x}{x}\,dx
+$$
+を考える．ここで $u=\dfrac{1}{x}$, $dv=\cos x\,dx$ とおいて部分積分をすると，
+$$
+\int \frac{\cos x}{x}\,dx
+= \frac{\sin x}{x} + \int \frac{\sin x}{x^2}\,dx
+$$
+であるから，$x=t$ から $x=2t$ までの定積分について
+\begin{align*}
+\int_t^{2t}\frac{\cos x}{x}\,dx
+&= \left[\frac{\sin x}{x}\right]_{x=t}^{x=2t}
+   +\int_t^{2t}\frac{\sin x}{x^2}\,dx\\
+&= \frac{\sin(2t)}{2t}-\frac{\sin t}{t}
+   +\int_t^{2t}\frac{\sin x}{x^2}\,dx
+\end{align*}
+となる．
+
+したがって
+\begin{align*}
+\left|F(t)\right|
+&=\left|\frac{\sin(2t)}{2t}-\frac{\sin t}{t}
+   +\int_t^{2t}\frac{\sin x}{x^2}\,dx\right|\\
+&\le \left|\frac{\sin(2t)}{2t}\right|
+     +\left|\frac{\sin t}{t}\right|
+     +\left|\int_t^{2t}\frac{\sin x}{x^2}\,dx\right|
+\end{align*}
+が成り立つ（三角不等式を用いた）．
+
+ここで $|\sin(2t)|\le 1$, $|\sin t|\le 1$ より
+$$
+\left|\frac{\sin(2t)}{2t}\right|\le \frac{1}{2t},\quad
+\left|\frac{\sin t}{t}\right|\le \frac{1}{t}
+$$
+である．また (1) より
+$$
+\left|\int_t^{2t}\frac{\sin x}{x^2}\,dx\right|
+<\frac{1}{t}
+$$
+が成り立つ．したがって
+$$
+\left|F(t)\right|
+\le \frac{1}{2t}+\frac{1}{t}+\frac{1}{t}
+= \frac{5}{2t}
+$$
+を得る．右辺 $\dfrac{5}{2t}$ は $t\to\infty$ のとき $0$ に収束するから，はさみうちの原理より
+$$
+\lim_{t\to\infty}\int_t^{2t}\frac{\cos x}{x}\,dx
+= \lim_{t\to\infty}F(t)=0
+$$
+が従う．(2) は示された．
+
+---
+
+(3)  
+関数
+$$
+f(x)=\sin\left(\frac{3x}{2}\right)\sin\left(\frac{x}{2}\right)
+$$
+について
+$$
+\lim_{t\to\infty}\int_1^t\frac{f(x)}{x}\,dx
+=\frac{1}{2}\int_1^2\frac{\cos x}{x}\,dx
+$$
+を示す．
+
+まず三角恒等式
+$$
+\sin A\,\sin B
+=\frac{1}{2}\bigl(\cos(A-B)-\cos(A+B)\bigr)
+$$
+を用いる．$A=\dfrac{3x}{2}$, $B=\dfrac{x}{2}$ とおくと
+$$
+A-B=x,\quad A+B=2x
+$$
+なので，
+\begin{align*}
+f(x)
+&=\sin\left(\frac{3x}{2}\right)\sin\left(\frac{x}{2}\right)\\
+&=\frac{1}{2}\bigl(\cos x-\cos(2x)\bigr)
+\end{align*}
+と変形できる．よって
+\begin{align*}
+\int_1^t\frac{f(x)}{x}\,dx
+&=\int_1^t\frac{1}{2}\cdot\frac{\cos x-\cos(2x)}{x}\,dx\\
+&=\frac{1}{2}\left(
+    \int_1^t\frac{\cos x}{x}\,dx
+   -\int_1^t\frac{\cos(2x)}{x}\,dx
+  \right)
+\end{align*}
+となる．
+
+つぎに第2項の積分を変数変換で書き換える．$u=2x$ とおき，$du=2\,dx$ すなわち $dx=\dfrac{du}{2}$ とすると，
+$x=1$ のとき $u=2$, $x=t$ のとき $u=2t$ なので
+\begin{align*}
+\int_1^t\frac{\cos(2x)}{x}\,dx
+&=\int_{u=2}^{2t}\frac{\cos u}{u/2}\cdot\frac{du}{2}\\
+&=\int_2^{2t}\frac{\cos u}{u}\,du
+\end{align*}
+となる（途中で $2$ が約分される）．
+
+よって
+\begin{align*}
+\int_1^t\frac{f(x)}{x}\,dx
+&=\frac{1}{2}\left(
+   \int_1^t\frac{\cos x}{x}\,dx
+  -\int_2^{2t}\frac{\cos x}{x}\,dx
+ \right).
+\end{align*}
+
+ここで積分区間をそろえるために
+$$
+\int_1^t\frac{\cos x}{x}\,dx
+=\int_1^2\frac{\cos x}{x}\,dx
+ +\int_2^t\frac{\cos x}{x}\,dx
+$$
+と分解し，また
+$$
+\int_2^{2t}\frac{\cos x}{x}\,dx
+=\int_2^t\frac{\cos x}{x}\,dx
+ +\int_t^{2t}\frac{\cos x}{x}\,dx
+$$
+と書けるので，これを代入して整理すると
+\begin{align*}
+&\int_1^t\frac{f(x)}{x}\,dx\\
+&=\frac{1}{2}\left(
+   \int_1^2\frac{\cos x}{x}\,dx
+  +\int_2^t\frac{\cos x}{x}\,dx
+  -\int_2^t\frac{\cos x}{x}\,dx
+  -\int_t^{2t}\frac{\cos x}{x}\,dx
+ \right)\\
+&=\frac{1}{2}\int_1^2\frac{\cos x}{x}\,dx
+  -\frac{1}{2}\int_t^{2t}\frac{\cos x}{x}\,dx
+\end{align*}
+を得る．
+
+両辺の $t\to\infty$ での極限をとる．左辺は求めたい極限であり，右辺は
+$$
+\frac{1}{2}\int_1^2\frac{\cos x}{x}\,dx
+-\frac{1}{2}\lim_{t\to\infty}\int_t^{2t}\frac{\cos x}{x}\,dx
+$$
+となる．(2) より
+$$
+\lim_{t\to\infty}\int_t^{2t}\frac{\cos x}{x}\,dx=0
+$$
+なので，
+$$
+\lim_{t\to\infty}\int_1^t\frac{f(x)}{x}\,dx
+=\frac{1}{2}\int_1^2\frac{\cos x}{x}\,dx
+$$
+が従う．(3) は示された．

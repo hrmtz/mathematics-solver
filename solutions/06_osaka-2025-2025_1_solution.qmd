@@ -1,0 +1,75 @@
+## 解答
+
+(1)  
+点$C$は$A$から直線$OB$に下ろした垂線と$OB$との交点であり，$OC=1$，$OB=t$であるから，直線$OB$上で  
+$$\cos\angle AOB=\frac{OC}{OA}=\frac{1}{3}$$  
+が成り立つ．  
+内積の定義より  
+$$\overrightarrow{OA}\cdot\overrightarrow{OB}=|\overrightarrow{OA}||\overrightarrow{OB}|\cos\angle AOB=3\cdot t\cdot\frac{1}{3}=t$$  
+となる．
+
+よって  
+$$\overrightarrow{OA}\cdot\overrightarrow{OB}=t$$  
+である．
+
+---
+
+(2)  
+$\overrightarrow{OP}$を$\overrightarrow{OA},\overrightarrow{OB}$で表す．  
+$P$は線分$AB$を$A$から$B$へ$2:1$に内分する点であるから，ベクトルの内分の公式より  
+$$\overrightarrow{OP}=\frac{1\cdot\overrightarrow{OA}+2\cdot\overrightarrow{OB}}{1+2}
+=\frac{\overrightarrow{OA}+2\overrightarrow{OB}}{3}$$  
+となる．
+
+ここで，$\angle AOP$は鋭角であるから，点$A$から直線$OP$に下ろした垂線の足を$H$とおくと，ベクトルの射影の性質より  
+$$\overrightarrow{OH}
+=\frac{\overrightarrow{OA}\cdot\overrightarrow{OP}}{|\overrightarrow{OP}|^2}\,\overrightarrow{OP}$$  
+が成り立つ．
+
+また，$R$はこの垂線と直線$OB$との交点であり，$O,B,R$は一直線上にあるから，ある実数$s$を用いて  
+$$\overrightarrow{OR}=s\,\overrightarrow{OB}$$  
+とおける．
+
+一方，$H$は直線$OP$上，$R$は直線$OB$上にあり，$A$からの垂線は1本しか引けないから，  
+$$\overrightarrow{OH}=\overrightarrow{OR}$$  
+が成り立つ．したがって，$\overrightarrow{OH}$は$\overrightarrow{OB}$方向ベクトルであり，  
+$$\overrightarrow{OH}=\frac{\overrightarrow{OA}\cdot\overrightarrow{OB}}{|\overrightarrow{OB}|^2}\,\overrightarrow{OB}$$  
+とも表せる（これはベクトル$\overrightarrow{OA}$を直線$OB$上に正射影したベクトルの公式である）．
+
+(1)より$\overrightarrow{OA}\cdot\overrightarrow{OB}=t$，また$|\overrightarrow{OB}|=t$より$|\overrightarrow{OB}|^2=t^2$であるから  
+$$\overrightarrow{OH}=\frac{t}{t^2}\,\overrightarrow{OB}=\frac{1}{t}\,\overrightarrow{OB}$$  
+となる．
+
+よって  
+$$\overrightarrow{OR}=\overrightarrow{OH}=\frac{1}{t}\,\overrightarrow{OB}$$  
+だから，$|\overrightarrow{OR}|$は  
+$$OR=\left|\frac{1}{t}\,\overrightarrow{OB}\right|
+=\frac{1}{t}|\overrightarrow{OB}|
+=\frac{1}{t}\cdot t=1$$  
+となる．
+
+したがって  
+$$OR=1$$  
+であり，これは$t$によらず一定である．
+
+---
+
+(3)  
+$OB=t$であり，その中点を$M$とすると，$OM=\dfrac{t}{2}$である．  
+(2)より$OR=1$であり，$O,B,R$は一直線上にあるから，$R$は$OB$上で$OR=1$を満たす点である．  
+したがって，$R$が線分$MB$上にあるとは，直線上での位置関係から  
+$$OM\leq OR\leq OB$$  
+であることと同値である．すなわち  
+$$\frac{t}{2}\leq 1\leq t$$  
+となる．
+
+また，$\angle AOB$は鋭角であり，$OC=1$，$OB=t$から，$O,C,B$はこの順に並び，$1< t$が必要である（$OC<OB$より）．  
+したがって，条件を整理すると  
+$$\frac{t}{2}\le 1,\quad 1\le t,\quad t>1$$  
+であるが，$\frac{t}{2}\le1$は$t\le 2$と同値であるから，結局  
+$$1<t\le2$$  
+となる．
+
+よって，$t$のとりうる値の範囲は  
+$$1<t\le2$$  
+である．

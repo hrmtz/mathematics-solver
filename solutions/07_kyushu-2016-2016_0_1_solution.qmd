@@ -1,0 +1,226 @@
+## 解答
+
+(1)  
+
+曲線 $C:y=x^3+ax^2+bx$ が $x$ 軸と $(0,0),(\alpha,0),(\beta,0)$ で交わるから，
+多項式 $x^3+ax^2+bx$ は $x=0,\alpha,\beta$ を根にもつ。よって
+
+$$
+x^3+ax^2+bx = kx(x-\alpha)(x-\beta)
+$$
+
+と書けるが，左辺の $x^3$ の係数は $1$ なので $k=1$ である。したがって
+
+$$
+x^3+ax^2+bx = x(x-\alpha)(x-\beta)
+$$
+
+であり，$C$ の方程式は
+
+$$
+y = x(x-\alpha)(x-\beta)
+$$
+
+と表せる。
+
+$0<\alpha<\beta$ なので，$x(x-\alpha)(x-\beta)$ の符号を調べると，
+
+- $0<x<\alpha$ では  
+  $x>0,\ x-\alpha<0,\ x-\beta<0$ より $y>0$，
+- $\alpha<x<\beta$ では  
+  $x>0,\ x-\alpha>0,\ x-\beta<0$ より $y<0$
+
+となる。よって $x$ 軸と曲線 $C$ に囲まれた 2 つの部分の面積の和 $S$ は
+
+$$
+S=\int_0^{\alpha} x(x-\alpha)(x-\beta)\,dx
+    -\int_{\alpha}^{\beta} x(x-\alpha)(x-\beta)\,dx
+$$
+
+で与えられる。
+
+ここで $f(x)=x(x-\alpha)(x-\beta)$ とおくと
+
+$$
+f(x)=x^3-(\alpha+\beta)x^2+\alpha\beta x
+$$
+
+だから，
+
+$$
+\begin{aligned}
+\int_0^{\alpha} f(x)\,dx
+&=\left[\frac{x^4}{4}-\frac{\alpha+\beta}{3}x^3+\frac{\alpha\beta}{2}x^2\right]_0^{\alpha}\\
+&=\frac{\alpha^4}{4}-\frac{\alpha+\beta}{3}\alpha^3+\frac{\alpha\beta}{2}\alpha^2\\
+&=\frac{\alpha^4}{4}-\frac{\alpha^4+\alpha^3\beta}{3}+\frac{\alpha^3\beta}{2},
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+\int_{\alpha}^{\beta} f(x)\,dx
+&=\left[\frac{x^4}{4}-\frac{\alpha+\beta}{3}x^3+\frac{\alpha\beta}{2}x^2\right]_{\alpha}^{\beta}\\
+&=\left(\frac{\beta^4}{4}-\frac{\alpha+\beta}{3}\beta^3+\frac{\alpha\beta}{2}\beta^2\right)
+ -\left(\frac{\alpha^4}{4}-\frac{\alpha+\beta}{3}\alpha^3+\frac{\alpha\beta}{2}\alpha^2\right).
+\end{aligned}
+$$
+
+したがって
+
+$$
+\begin{aligned}
+S
+&=\int_0^{\alpha} f(x)\,dx - \int_{\alpha}^{\beta} f(x)\,dx\\
+&=2\int_0^{\alpha} f(x)\,dx - \int_0^{\beta} f(x)\,dx.
+\end{aligned}
+$$
+
+先に $\int_0^{\beta} f(x)\,dx$ を計算すると，
+
+$$
+\begin{aligned}
+\int_0^{\beta} f(x)\,dx
+&=\left[\frac{x^4}{4}-\frac{\alpha+\beta}{3}x^3+\frac{\alpha\beta}{2}x^2\right]_0^{\beta}\\
+&=\frac{\beta^4}{4}-\frac{\alpha+\beta}{3}\beta^3+\frac{\alpha\beta}{2}\beta^2\\
+&=\frac{\beta^4}{4}-\frac{\alpha\beta^3}{3}-\frac{\beta^4}{3}+\frac{\alpha\beta^3}{2}\\
+&=-\frac{\beta^4}{12}+\frac{\alpha\beta^3}{6}.
+\end{aligned}
+$$
+
+また
+
+$$
+\begin{aligned}
+\int_0^{\alpha} f(x)\,dx
+&=\frac{\alpha^4}{4}-\frac{\alpha^4}{3}-\frac{\alpha^3\beta}{3}+\frac{\alpha^3\beta}{2}\\
+&=-\frac{\alpha^4}{12}+\frac{\alpha^3\beta}{6}.
+\end{aligned}
+$$
+
+よって
+
+$$
+\begin{aligned}
+S
+&=2\left(-\frac{\alpha^4}{12}+\frac{\alpha^3\beta}{6}\right)
+   -\left(-\frac{\beta^4}{12}+\frac{\alpha\beta^3}{6}\right)\\
+&=-\frac{\alpha^4}{6}+\frac{\alpha^3\beta}{3}
+   +\frac{\beta^4}{12}-\frac{\alpha\beta^3}{6}.
+\end{aligned}
+$$
+
+これを整理して因数分解すると，
+
+$$
+\begin{aligned}
+S
+&=\frac{1}{12}\bigl(-2\alpha^4+4\alpha^3\beta+\beta^4-2\alpha\beta^3\bigr)\\
+&=\frac{1}{12}\bigl(-2\alpha^4+4\alpha^3\beta-2\alpha^2\beta^2
+                     +2\alpha^2\beta^2-2\alpha\beta^3+\beta^4\bigr)\\
+&=\frac{1}{12}\left\{-2\alpha^2(\alpha-\beta)^2+\beta^2(\beta-2\alpha)^2\right\}.
+\end{aligned}
+$$
+
+さらに $\beta^2(\beta-2\alpha)^2-2\alpha^2(\alpha-\beta)^2
+=\beta^2(\beta-2\alpha)^2-2\alpha^2(\beta-\alpha)^2$ であるから，  
+$\beta-2\alpha=-(2\alpha-\beta)$，$\beta-\alpha=-(\alpha-\beta)$ を用いて
+
+$$
+\begin{aligned}
+S
+&=\frac{1}{12}(\beta-2\alpha)^2\{\beta^2+2\alpha^2\}\\
+&=\frac{(\beta-2\alpha)^2(\beta^2+2\alpha^2)}{12}.
+\end{aligned}
+$$
+
+したがって
+
+$$
+S=\dfrac{(\beta-2\alpha)^2(\beta^2+2\alpha^2)}{12}
+$$
+
+である。
+
+(2)  
+
+$\beta$ を定数とみなし，$0<\alpha<\beta$ で $S$ の最小値を求める。  
+(1) の結果より
+
+$$
+S(\alpha)=\frac{1}{12}(\beta-2\alpha)^2(\beta^2+2\alpha^2)
+$$
+
+である。$\dfrac{1}{12}>0$ なので，$S$ を最小にする $\alpha$ は
+
+$$
+T(\alpha)=(\beta-2\alpha)^2(\beta^2+2\alpha^2)
+$$
+
+を最小にする $\alpha$ と一致する。
+
+$T(\alpha)$ を微分すると，
+
+$$
+\begin{aligned}
+T(\alpha)
+&=(\beta-2\alpha)^2(\beta^2+2\alpha^2),\\
+T'(\alpha)
+&=2(\beta-2\alpha)(-2)(\beta^2+2\alpha^2)
+  +(\beta-2\alpha)^2\cdot 4\alpha\\
+&=4(\beta-2\alpha)\bigl\{- (\beta^2+2\alpha^2)+\alpha(\beta-2\alpha)\bigr\}\\
+&=4(\beta-2\alpha)\{-\beta^2-2\alpha^2+\alpha\beta-2\alpha^2\}\\
+&=4(\beta-2\alpha)(-5\alpha^2+\alpha\beta-\beta^2).
+\end{aligned}
+$$
+
+よって
+
+$$
+T'(\alpha)=0
+\quad\Longleftrightarrow\quad
+\beta-2\alpha=0 \ \text{または}\ -5\alpha^2+\alpha\beta-\beta^2=0.
+$$
+
+すなわち
+
+$$
+\alpha=\frac{\beta}{2}
+\quad\text{または}\quad
+5\alpha^2-\alpha\beta+\beta^2=0.
+$$
+
+後者 $5\alpha^2-\alpha\beta+\beta^2=0$ の判別式は
+
+$$
+D=(-\beta)^2-4\cdot5\cdot\beta^2=\beta^2-20\beta^2=-19\beta^2<0
+$$
+
+となり，実数解をもたない。したがって $0<\alpha<\beta$ での臨界点は
+
+$$
+\alpha=\frac{\beta}{2}
+$$
+
+のみである。
+
+また $T(\alpha)\ge 0$ であり，$\alpha=\beta/2$ のとき
+
+$$
+T\left(\frac{\beta}{2}\right)
+=\left(\beta-2\cdot\frac{\beta}{2}\right)^2\left(\beta^2+2\left(\frac{\beta}{2}\right)^2\right)
+=0
+$$
+
+だから，この点で $T(\alpha)$ は最小値 $0$ をとる。したがって $S(\alpha)$ も
+
+$$
+S\left(\frac{\beta}{2}\right)=\frac{1}{12}T\left(\frac{\beta}{2}\right)=0
+$$
+
+となり，$0<\alpha<\beta$ の範囲で $S$ を最小（最小値 $0$）にする $\alpha$ は
+
+$$
+\alpha=\frac{\beta}{2}
+$$
+
+である。

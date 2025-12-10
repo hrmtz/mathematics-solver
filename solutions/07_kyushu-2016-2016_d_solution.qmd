@@ -1,0 +1,290 @@
+## 解答
+
+(1)  
+
+$a,b>0$ とする。まず $G(a,b)\le A(a,b)$ を示す。  
+
+$$
+A(a,b)-G(a,b)
+=\frac{a+b}{2}-\sqrt{ab}
+=\frac{(\sqrt a-\sqrt b)^2}{2}\ge 0
+$$
+
+よって $G(a,b)\le A(a,b)$ が成り立つ。  
+
+次に，$a\le b$ の場合を考える（$a\ge b$ の場合も同様）。  
+このとき $\min(a,b)=a,\ \max(a,b)=b$ であるから，
+ 
+$$
+a\le \sqrt{ab}\le \frac{a+b}{2}\le b
+$$
+
+を示せばよい。  
+
+まず $a\le\sqrt{ab}$ について，$a>0$ より両辺を $a$ で割ると
+
+$$
+1\le \sqrt{\frac ba}
+$$
+
+となる。両辺を 2 乗して $1\le \dfrac ba$，したがって $a\le b$ がもともと成り立つので  
+$a\le\sqrt{ab}$ が従う。  
+
+次に $\sqrt{ab}\le \dfrac{a+b}{2}$ はすでに示した $G(a,b)\le A(a,b)$ から従う。  
+
+最後に $\dfrac{a+b}{2}\le b$ について，
+
+$$
+\frac{a+b}{2}\le b
+\iff a+b\le 2b
+\iff a\le b
+$$
+
+となり，これは仮定より成り立つ。  
+
+以上より，$a\le b$ のとき
+
+$$
+\min(a,b)=a\le G(a,b)\le A(a,b)\le b=\max(a,b)
+$$
+
+が成り立つ。$a\ge b$ のときも同様にして示せるので，
+
+$$
+\min(a,b)\le G(a,b)\le A(a,b)\le \max(a,b)
+$$
+
+が成り立つ。
+
+---
+
+(2)  
+
+$a>b>0$，$a_0=a,\ b_0=b$ とし，
+
+$$
+a_{n+1}=\frac{a_n+b_n}{2},\quad
+b_{n+1}=\sqrt{a_nb_n},\quad
+c_{n+1}=\frac{a_n-b_n}{2}
+$$
+
+で定められた数列を考える。  
+
+(1)より正の実数 $a_n,b_n$ に対して
+
+$$
+\min(a_n,b_n)\le \sqrt{a_nb_n}\le \frac{a_n+b_n}{2}\le \max(a_n,b_n)
+$$
+
+が成り立つ。初期条件 $a_0=a>b=b_0$ から推論により $a_n\ge b_n$ がすべての $n$ で成り立つので，
+
+$$
+b_n\le b_{n+1}\le a_{n+1}\le a_n
+$$
+
+すなわち
+
+$$
+b_n\le b_{n+1},\quad a_{n+1}\le a_n,\quad b_n\le a_n
+$$
+
+がすべての $n$ で成り立つ。  
+
+したがって，数列 $\{a_n\}$ は単調減少で下に有界（下界は $b$），  
+数列 $\{b_n\}$ は単調増加で上に有界（上界は $a$）であるから，  
+それぞれ収束する（単調有界列の収束性）。  
+
+それぞれの極限を
+
+$$
+\lim_{n\to\infty}a_n=\alpha,\quad
+\lim_{n\to\infty}b_n=\beta
+$$
+
+とおく。  
+漸化式 $a_{n+1}=\dfrac{a_n+b_n}{2}$，$b_{n+1}=\sqrt{a_nb_n}$ の両辺に極限をとると
+
+$$
+\alpha=\frac{\alpha+\beta}{2},\quad
+\beta=\sqrt{\alpha\beta}
+$$
+
+が得られる。第1式より
+
+$$
+2\alpha=\alpha+\beta\quad\Rightarrow\quad \alpha=\beta
+$$
+
+したがって $b_n$ の極限値も $\alpha$ である。  
+
+よって，数列 $\{a_n\}$ と $\{b_n\}$ は同じ極限値 $\alpha$ に収束する。
+
+---
+
+(3)  
+
+(2) の定義より，
+
+$$
+a_{n+1}=\frac{a_n+b_n}{2},\quad
+b_{n+1}=\sqrt{a_nb_n}
+$$
+
+である。これから $a_{n+2}$ を $a_n,b_n$ の式で表す。  
+
+まず
+
+$$
+a_{n+2}=\frac{a_{n+1}+b_{n+1}}{2}
+$$
+
+なので，$a_{n+1},b_{n+1}$ を代入すると
+
+$$
+a_{n+2}
+=\frac{1}{2}\left(\frac{a_n+b_n}{2}+\sqrt{a_nb_n}\right)
+=\frac{(a_n+b_n)+2\sqrt{a_nb_n}}{4}
+$$
+
+右辺を平方の形にまとめると
+
+$$
+(a_n+b_n)+2\sqrt{a_nb_n}
+=(\sqrt{a_n}+\sqrt{b_n})^2
+$$
+
+であるから，
+
+$$
+a_{n+2}=\frac{(\sqrt{a_n}+\sqrt{b_n})^2}{4}
+$$
+
+となる。これが $a_{n+2}$ を $a_n,b_n$ で表した式である。
+
+---
+
+(4)  
+
+(2) より
+
+$$
+c_{n+1}=\frac{a_n-b_n}{2},\quad
+c_{n+2}=\frac{a_{n+1}-b_{n+1}}{2}
+$$
+
+である。まず $c_{n+2}$ を $a_n,b_n$ を用いて表す。  
+
+$$
+c_{n+2}
+=\frac{1}{2}\left(a_{n+1}-b_{n+1}\right)
+=\frac{1}{2}\left(\frac{a_n+b_n}{2}-\sqrt{a_nb_n}\right)
+=\frac{(a_n+b_n)-2\sqrt{a_nb_n}}{4}
+$$
+
+右辺を平方の形で表すと
+
+$$
+(a_n+b_n)-2\sqrt{a_nb_n}
+=(\sqrt{a_n}-\sqrt{b_n})^2
+$$
+
+であるから，
+
+$$
+c_{n+2}=\frac{(\sqrt{a_n}-\sqrt{b_n})^2}{4}
+$$
+
+となる。  
+
+一方，
+
+$$
+c_{n+1}=\frac{a_n-b_n}{2}
+$$
+
+より，
+
+$$
+c_{n+1}^2=\frac{(a_n-b_n)^2}{4}
+$$
+
+である。よって
+
+$$
+\left(\frac{1}{2\sqrt{\alpha}}c_{n+1}\right)^2
+=
+\frac{1}{4\alpha}\,c_{n+1}^2
+=\frac{1}{4\alpha}\cdot\frac{(a_n-b_n)^2}{4}
+=\frac{(a_n-b_n)^2}{16\alpha}
+$$
+
+となる。  
+
+そこで，$c_{n+2}<\left(\dfrac{1}{2\sqrt{\alpha}}c_{n+1}\right)^2$ を示すために
+
+$$
+\frac{(\sqrt{a_n}-\sqrt{b_n})^2}{4}
+<
+\frac{(a_n-b_n)^2}{16\alpha}
+$$
+
+を示せばよい。両辺に $16\alpha\ (>\!0)$ を掛けると，同値な不等式
+
+$$
+4\alpha(\sqrt{a_n}-\sqrt{b_n})^2<(a_n-b_n)^2
+$$
+
+を得る。$(a_n-b_n)=(\sqrt{a_n}-\sqrt{b_n})(\sqrt{a_n}+\sqrt{b_n})$ に注意すると，  
+両辺を $(\sqrt{a_n}-\sqrt{b_n})^2(>0)$ で割ることができて，
+
+$$
+4\alpha<(\sqrt{a_n}+\sqrt{b_n})^2
+$$
+
+と変形できる。すなわち
+
+$$
+2\sqrt{\alpha}<\sqrt{a_n}+\sqrt{b_n}
+$$
+
+を示せばよいことになる。  
+
+ここで，(2) より $a_n\to\alpha,\ b_n\to\alpha$ であり，したがって
+
+$$
+\sqrt{a_n}\to\sqrt{\alpha},\quad
+\sqrt{b_n}\to\sqrt{\alpha}
+$$
+
+である（平方根関数の連続性より）。ゆえに
+
+$$
+\sqrt{a_n}+\sqrt{b_n}\to 2\sqrt{\alpha}
+$$
+
+が成り立つ。$a>b$ で $a_0\ne b_0$ なので $a_n\ne b_n$ がすべての $n$ で成り立ち，  
+したがって $\sqrt{a_n}+\sqrt{b_n}>0$ である。また $a_n>b_n$ より $\sqrt{a_n}>\sqrt{b_n}$ である。  
+
+$n$ を十分大きくとると，$\sqrt{a_n}$ と $\sqrt{b_n}$ はそれぞれ $\sqrt{\alpha}$ に十分近づくが，  
+$a_n>b_n$ が常に成り立つため，$\sqrt{a_n}$ と $\sqrt{b_n}$ は互いに異なり，
+
+$$
+\sqrt{a_n}+\sqrt{b_n}>2\sqrt{\alpha}
+$$
+
+が成り立つことがわかる（和が $2\sqrt{\alpha}$ になるならば，極限値の一意性より  
+$\sqrt{a_n}=\sqrt{b_n}=\sqrt{\alpha}$ になってしまうが，これは $a_n>b_n$ に反する）。  
+
+したがって十分大きな $n$ に対して
+
+$$
+2\sqrt{\alpha}<\sqrt{a_n}+\sqrt{b_n}
+$$
+
+が成り立ち，前の議論より
+
+$$
+c_{n+2}<\left(\frac{1}{2\sqrt{\alpha}}c_{n+1}\right)^2
+$$
+
+が従う。以上で示すべき不等式が成り立つ。

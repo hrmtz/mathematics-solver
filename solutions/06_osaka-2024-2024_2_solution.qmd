@@ -1,0 +1,288 @@
+## 解答
+
+(1)  
+
+まず，$f(z)=z^2+\alpha z+\beta$ なので  
+$z=1,\;i,\;1+i$ を代入して表す。
+
+$z=1$ のとき
+$$
+f(1)=1^2+\alpha\cdot1+\beta=1+\alpha+\beta
+$$
+より，条件 $|f(1)-3|\leqq1$ は
+$$
+|1+\alpha+\beta-3|\leqq1,\quad\text{すなわち}\quad|\alpha+\beta-2|\leqq1
+$$
+となる。
+
+$z=i$ のとき（$i^2=-1$ を用いる）  
+$$
+f(i)=i^2+\alpha i+\beta=-1+\alpha i+\beta
+$$
+より，条件 $|f(i)-1|\leqq3$ は
+$$
+|-1+\alpha i+\beta-1|\leqq3,\quad\text{すなわち}\quad|\beta-2+\alpha i|\leqq3
+$$
+となる。
+
+次に $z=1+i$ のとき
+$$
+(1+i)^2=1+2i+i^2=1+2i-1=2i
+$$
+だから
+$$
+f(1+i)=(1+i)^2+\alpha(1+i)+\beta
+=2i+\alpha(1+i)+\beta.
+$$
+ここで，$u=\alpha+\beta-2$ とおくと，先の2つの条件は
+$$
+|u|\leqq1, \qquad|u+\alpha i|\leqq3
+$$
+と書ける。  
+$f(1+i)$ を $u$ で表すと
+$$
+\begin{aligned}
+f(1+i)
+&=2i+\alpha(1+i)+\beta  \\
+&=2i+(\alpha+\beta)+\alpha i \\
+&=2i+(u+2)+\alpha i \\
+&=(u+2)+(2+\alpha)i.
+\end{aligned}
+$$
+
+一方，
+$$
+u+\alpha i=f(i)-1
+$$
+であるから
+$$
+u+\alpha i \quad\text{は} \quad |u+\alpha i|\leqq3
+$$
+を満たし，これは複素平面上で原点を中心とする半径3の円板を表す。  
+ここで新たに
+$$
+w = u+\alpha i
+$$
+とおくと
+$$
+|w|\leqq3
+$$
+であり，また
+$$
+\alpha i = w-u
+$$
+なので
+$$
+2+\alpha i = 2+w-u.
+$$
+
+したがって
+$$
+\begin{aligned}
+f(1+i)
+&=(u+2)+(2+\alpha i)i \\
+&=(u+2)+\bigl(2+w-u\bigr)i \\
+&=u+2+(2+w-u)i.
+\end{aligned}
+$$
+
+ここで $u$ は $|u|\leqq1$，$w$ は $|w|\leqq3$ を満たす複素数であり，$u$ と $w$ の間にはほかの制約はない（もともと $\alpha,\beta$ から出てきた 2 つの条件を $u,w$ に置き換えただけである）。  
+したがって，$u$ と $w$ はそれぞれ独立に
+$$
+|u|\leqq1,\quad |w|\leqq3
+$$
+の範囲を動く。
+
+$f(1+i)$ の実部と虚部に着目して
+$$
+f(1+i) = \underbrace{u+2}_{\text{実部}} + \underbrace{(2+w-u)}_{\text{虚部}}\,i
+$$
+と見ると，$u$ と $w$ が取りうる範囲から，  
+実部 $\Re f(1+i)$ は
+$$
+\Re f(1+i)=2+u,\quad |u|\leqq1
+$$
+より
+$$
+1 \leqq \Re f(1+i)\leqq 3
+$$
+となる。
+
+虚部 $\Im f(1+i)$ は
+$$
+\Im f(1+i)=2+w-u
+$$
+であり，ここで $|w|\leqq3,\,|u|\leqq1$ から
+$$
+-3\leqq \Re w\leqq 3,\quad -3\leqq \Im w\leqq 3,
+$$
+に注意しつつ，$w$ と $u$ は独立に原点中心の円板内を動く。  
+よって $w-u$ の取りうる範囲も原点中心半径 $3+1=4$ の円板となり，
+$$
+|w-u|\leqq 4.
+$$
+したがって
+$$
+|\Im f(1+i)-2| = |w-u|\leqq4
+$$
+より
+$$
+-2 \leqq \Im f(1+i)\leqq 6
+$$
+が得られる。
+
+以上より，$f(1+i)$ の取りうる値の集合は  
+実部が $1\leqq x\leqq3$，虚部が $-2\leqq y\leqq6$ を満たす長方形領域の内部である。  
+
+よって，複素数平面上では  
+点 $1-2i,\;3-2i,\;3+6i,\;1+6i$ を頂点とする長方形（その内部と境界）として図示される。
+
+---
+
+(2)  
+
+条件 $f(1+i)=0$ を用いる。  
+$f(1+i)$ は
+$$
+f(1+i)=(1+i)^2+\alpha(1+i)+\beta=2i+\alpha(1+i)+\beta
+$$
+なので
+$$
+2i+\alpha(1+i)+\beta=0
+$$
+すなわち
+$$
+\alpha(1+i)+\beta=-2i
+$$
+が成り立つ。
+
+また (1) で得た 2 つの不等式
+$$
+|\alpha+\beta-2|\leqq1,\qquad |\beta-2+\alpha i|\leqq3
+$$
+を使う。
+
+まず $\beta$ を $\alpha$ で表す。  
+$f(1+i)=0$ より
+$$
+\beta=-2i-\alpha(1+i).
+$$
+したがって
+$$
+\alpha+\beta-2
+=\alpha-2i-\alpha(1+i)-2
+=\alpha-2i-\alpha-\alpha i-2
+=-2i-\alpha i-2,
+$$
+よって
+$$
+\alpha+\beta-2 = -2-(\alpha+2)i,
+$$
+これの絶対値は
+$$
+|\alpha+\beta-2|
+=|-2-(\alpha+2)i|
+$$
+であり，条件 $|\alpha+\beta-2|\leqq1$ は
+$$
+|-2-(\alpha+2)i|\leqq1
+$$
+となる。
+
+次に
+$$
+\beta-2+\alpha i
+=(-2i-\alpha(1+i))-2+\alpha i
+=-2i-\alpha-\alpha i-2+\alpha i
+=-\alpha-2i-2.
+$$
+よって
+$$
+\beta-2+\alpha i = -(\alpha+2i+2)
+$$
+であり，絶対値は
+$$
+|\beta-2+\alpha i|=|\alpha+2i+2|.
+$$
+条件 $|\beta-2+\alpha i|\leqq3$ は
+$$
+|\alpha+2+2i|\leqq3
+$$
+となる。
+
+ここで，$\alpha$ を $x+yi$ とおく（$x,y$ は実数）。  
+すると
+$$
+\alpha+2+2i=(x+2)+(y+2)i
+$$
+だから
+$$
+|\alpha+2+2i|\leqq3
+\quad\Longleftrightarrow\quad
+(x+2)^2+(y+2)^2\leqq9.
+$$
+また
+$$
+-2-(\alpha+2)i=-2-(x+yi+2)i
+=-2-(x i +y i^2+2i)
+=-2-xi-y(-1)-2i
+=(y-2)-x i-2i
+=(y-2)-(x+2)i,
+$$
+したがって
+$$
+|-2-(\alpha+2)i|^2=(y-2)^2+(x+2)^2.
+$$
+よって
+$$
+|-2-(\alpha+2)i|\leqq1
+\quad\Longleftrightarrow\quad
+(x+2)^2+(y-2)^2\leqq1.
+$$
+
+ゆえに $\alpha=x+yi$ は，複素平面上で
+
+- 中心 $(-2,-2)$，半径 $3$ の円板  
+  $$(x+2)^2+(y+2)^2\leqq9,$$
+- 中心 $(-2,2)$，半径 $1$ の円板  
+  $$(x+2)^2+(y-2)^2\leqq1$$
+
+の共通部分に属する。
+
+ところが，後者は中心 $(-2,2)$ 半径 $1$ の小円であり，前者は中心 $(-2,-2)$ 半径 $3$ の大円である。  
+この 2 円の中心間距離は $4$ であり，半径の和は $1+3=4$ なので，両円はちょうど 1 点で接する。その接点は 2 円の中心を結ぶ直線上で，上側の小円と下側の大円が接する点であるから，小円の中心 $(-2,2)$ から下へ半径 $1$ だけ進んだ点
+$$
+(-2,1)
+$$
+である。
+
+ゆえに，両方の条件を同時に満たす $\alpha$ はただ 1 つ，
+$$
+\alpha=-2+i
+$$
+である。
+
+最後に $\beta$ を求める。  
+$$
+\beta=-2i-\alpha(1+i)
+$$
+に $\alpha=-2+i$ を代入して
+$$
+\begin{aligned}
+\alpha(1+i)
+&=(-2+i)(1+i) \\
+&=-2-2i+i+i^2 \\
+&=-2-2i+i-1 \\
+&=-3-i,
+\end{aligned}
+$$
+したがって
+$$
+\beta=-2i-(-3-i)=-2i+3+i=3-i.
+$$
+
+よって
+$$
+\alpha=-2+i,\quad \beta=3-i
+$$
+である。

@@ -1,0 +1,291 @@
+## 解答
+
+(1)  
+$0\le x\le 1$ とする．与えられた式の中括弧内を整理する．
+
+まず
+$$
+\frac{1}{x+1}-1=\frac{1-(x+1)}{x+1}=-\frac{x}{x+1}
+$$
+であるから，
+$$
+\frac{1}{x+1}-1-\sum_{k=2}^n(-x)^{k-1}
+=-\frac{x}{x+1}-\sum_{k=2}^n(-x)^{k-1}.
+$$
+
+ここで
+$$
+\sum_{k=1}^n(-x)^{k-1}
+=1+\sum_{k=2}^n(-x)^{k-1}
+=\frac{1-(-x)^n}{1-(-x)}=\frac{1-(-x)^n}{1+x}
+$$
+（等比数列の和の公式）なので，
+$$
+\sum_{k=2}^n(-x)^{k-1}
+=\frac{1-(-x)^n}{1+x}-1
+=\frac{1-(-x)^n-(1+x)}{1+x}
+=\frac{-x-(-x)^n}{1+x}.
+$$
+したがって
+\begin{align*}
+\frac{1}{x+1}-1-\sum_{k=2}^n(-x)^{k-1}
+&=-\frac{x}{x+1}-\frac{-x-(-x)^n}{1+x}\\
+&=\frac{-x+x+(-x)^n}{1+x}
+=\frac{(-x)^n}{1+x}.
+\end{align*}
+
+ゆえに
+$$
+(-1)^n\left\{\frac{1}{x+1}-1-\sum_{k=2}^n(-x)^{k-1}\right\}
+=(-1)^n\cdot \frac{(-x)^n}{1+x}
+=\frac{x^n}{1+x}.
+$$
+
+したがって，示すべき不等式は
+$$
+\frac{1}{2}x^n\le \frac{x^n}{1+x}\le x^n-\frac{1}{2}x^{n+1}
+\qquad(0\le x\le 1)
+$$
+と同値である（$x\ge0$ なので $x^n\ge0$）．
+
+両辺を $x^n$ で割ると（$x=0$ のときは，全て $0$ になり自明に成り立つので問題ない），
+$$
+\frac{1}{2}\le \frac{1}{1+x}\le 1-\frac{1}{2}x
+\qquad(0<x\le 1)
+$$
+を示せばよい．
+
+まず左の不等式：
+$$
+\frac{1}{1+x}\ge \frac12
+\;\Longleftrightarrow\;
+2\ge 1+x
+\;\Longleftrightarrow\;
+1\ge x.
+$$
+これは $0\le x\le1$ の条件から明らかに成り立つ．
+
+次に右の不等式：
+$$
+\frac{1}{1+x}\le 1-\frac12x
+\;\Longleftrightarrow\;
+1\le (1+x)\Bigl(1-\frac12x\Bigr)
+$$
+であり，右辺を展開すると
+$$
+(1+x)\Bigl(1-\frac12x\Bigr)
+=1+\frac12x-\frac12x^2
+=1+\frac12x(1-x)\ge1
+$$
+（$0\le x\le1$ なので $x\ge0$ かつ $1-x\ge0$ より $x(1-x)\ge0$）．従って右不等式も成り立つ．
+
+以上より
+$$
+\frac{1}{2}x^n \leqq {(-1)}^n \left\{ \frac{1}{x+1}-1-
+\sum_{k=2}^n {(-x)}^{k-1} \right\} \leqq x^n-\frac{1}{2}x^{n+1}
+$$
+が $0\le x\le1$ で成り立つことが示された．
+
+---
+
+(2)  
+$a_n=\displaystyle\sum_{k=1}^n\frac{(-1)^{k-1}}{k}$ とおく．まず
+$$
+\log(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots
+=\sum_{k=1}^\infty\frac{(-1)^{k-1}}{k}x^k
+\qquad(|x|<1)
+$$
+という級数展開を用いる．
+
+(1)で得た恒等式
+$$
+(-1)^n\left\{\frac{1}{x+1}-1-\sum_{k=2}^n(-x)^{k-1}\right\}
+=\frac{x^n}{1+x}
+$$
+を，$x\ne0$ として両辺を $x$ で割ると
+$$
+(-1)^n\left\{\frac{1}{x(1+x)}-\frac{1}{x}-\sum_{k=2}^n(-x)^{k-2}\right\}
+=\frac{x^{n-1}}{1+x}
+$$
+となるが，ここでは別の形に書き直す方が便利である．
+
+(1)の結果
+$$
+\frac{x^n}{1+x}
+= (-1)^n\left\{\frac{1}{x+1}-1-\sum_{k=2}^n(-x)^{k-1}\right\}
+$$
+において，右辺の和を $k=1$ からに直すと
+\begin{align*}
+\frac{x^n}{1+x}
+&=(-1)^n\left\{\frac{1}{1+x}-\sum_{k=1}^n(-x)^{k-1}\right\}.
+\end{align*}
+ここで
+$$
+\sum_{k=1}^\infty(-x)^{k-1}=\frac{1}{1+x}\quad(|x|<1)
+$$
+であるから，括弧内は「無限級数と $n$ 項までの部分和の差」であり，
+$$
+\frac{1}{1+x}-\sum_{k=1}^n(-x)^{k-1}
+=\sum_{k=n+1}^\infty(-x)^{k-1}.
+$$
+よって
+$$
+\sum_{k=n+1}^\infty(-x)^{k-1}
+=(-1)^n\frac{x^n}{1+x}.
+$$
+両辺を $x$ で割ると
+$$
+\sum_{k=n+1}^\infty(-x)^{k-2}
+=(-1)^n\frac{x^{n-1}}{1+x}.
+$$
+
+一方，$\log(1+x)$ の級数を書き換えると
+$$
+\log(1+x)=\sum_{k=1}^\infty\frac{(-1)^{k-1}}{k}x^k,
+\quad
+\log2=\log(1+1)
+=\sum_{k=1}^\infty\frac{(-1)^{k-1}}{k},
+$$
+よって
+$$
+a_n=\sum_{k=1}^n\frac{(-1)^{k-1}}{k},
+\quad
+\log2-a_n=\sum_{k=n+1}^\infty\frac{(-1)^{k-1}}{k}.
+$$
+ここで $k\ge n+1$ として
+$$
+\frac{(-1)^{k-1}}{k}
+=\frac{(-1)^{k-2}}{k}\cdot(-1)
+=\frac{(-1)^{k-2}x^{k-2}}{k}\cdot\frac{(-1)}{x^{k-2}}
+$$
+とし，$x=1$ の近くで評価するために，一般に
+$$
+\sum_{k=n+1}^\infty\frac{(-1)^{k-2}}{k}x^{\,k-2}
+$$
+を考える．この和を
+$$
+f_n(x)=\sum_{k=n+1}^\infty\frac{(-1)^{k-2}}{k}x^{\,k-2}
+$$
+とおくと，$x\in(0,1)$ では
+$$
+f_n'(x)=\sum_{k=n+1}^\infty(-1)^{k-2}x^{\,k-3}
+=\sum_{k=n-1}^\infty(-1)^kx^{\,k-1}.
+$$
+一方，上で得た等式
+$$
+\sum_{k=n+1}^\infty(-x)^{k-2}=(-1)^n\frac{x^{n-1}}{1+x}
+$$
+から
+$$
+\sum_{k=n+1}^\infty(-1)^{k-2}x^{\,k-2}
+=(-1)^n\frac{x^{n-1}}{1+x}
+$$
+が分かる．従って
+$$
+f_n'(x)=\sum_{k=n+1}^\infty(-1)^{k-2}x^{\,k-3}
+=\frac{1}{x^2}\sum_{k=n+1}^\infty(-1)^{k-2}x^{\,k-1}
+=\frac{1}{x^2}\cdot(-1)^n\frac{x^{n+1}}{1+x}
+=(-1)^n\frac{x^{n-1}}{1+x}.
+$$
+（厳密には和と微分の交換を正当化するが，収束は十分速く，$|x|<1$ で一様収束するから可能であるとみなしてよい．）
+
+したがって
+$$
+f_n'(x)=(-1)^n\frac{x^{n-1}}{1+x}.
+$$
+
+ここで $x$ を $0$ から $1$ まで積分する：
+$$
+f_n(1)-f_n(0)=\int_0^1f_n'(x)\,dx
+=\int_0^1(-1)^n\frac{x^{n-1}}{1+x}\,dx.
+$$
+
+左辺を計算する．
+$$
+f_n(1)=\sum_{k=n+1}^\infty\frac{(-1)^{k-2}}{k},
+\quad
+f_n(0)=0 \quad (k-2\ge n-1\ge1より\,x^{k-2}の$x=0$での値は0)．
+$$
+ゆえに
+$$
+\sum_{k=n+1}^\infty\frac{(-1)^{k-2}}{k}
+=\int_0^1(-1)^n\frac{x^{n-1}}{1+x}\,dx.
+$$
+両辺に $-1$ を掛けると
+$$
+\sum_{k=n+1}^\infty\frac{(-1)^{k-1}}{k}
+=(-1)^n\int_0^1\frac{x^{n-1}}{1+x}\,dx.
+$$
+
+従って
+$$
+\log2-a_n=(-1)^n\int_0^1\frac{x^{n-1}}{1+x}\,dx.
+$$
+これを用いると
+\begin{align*}
+(-1)^nn(a_n-\log2)
+&=(-1)^n\cdot n\bigl(a_n-\log2\bigr)\\
+&=(-1)^n\cdot n\bigl(-(\log2-a_n)\bigr)\\
+&=-n\cdot(-1)^n(\log2-a_n)\\
+&=-n\cdot(-1)^n\cdot(-1)^n\int_0^1\frac{x^{n-1}}{1+x}\,dx\\
+&=-n\int_0^1\frac{x^{n-1}}{1+x}\,dx.
+\end{align*}
+
+よって求める極限は
+$$
+\lim_{n\to\infty}(-1)^nn(a_n-\log2)
+=\lim_{n\to\infty}\left(-n\int_0^1\frac{x^{n-1}}{1+x}\,dx\right)
+=-\lim_{n\to\infty}n\int_0^1\frac{x^{n-1}}{1+x}\,dx.
+$$
+
+ここで，積分の中身は $n$ が大きいとき $x$ が $1$ 付近でのみ拡がることを利用する．$x\in[0,1]$ で
+$$
+\frac{1}{2}\le \frac{1}{1+x}\le 1
+$$
+であるから
+$$
+\frac{1}{2}n\int_0^1x^{n-1}dx
+\le n\int_0^1\frac{x^{n-1}}{1+x}dx
+\le n\int_0^1x^{n-1}dx.
+$$
+$ \int_0^1x^{n-1}dx=\dfrac{1}{n} $ より
+$$
+\frac{1}{2}n\cdot\frac{1}{n}
+\le n\int_0^1\frac{x^{n-1}}{1+x}dx
+\le n\cdot\frac{1}{n},
+$$
+したがって
+$$
+\frac12\le n\int_0^1\frac{x^{n-1}}{1+x}dx\le1.
+$$
+
+$n\to\infty$ で左右がともに一定値に挟まれているが，より精密には，$x$ が $1$ に近いところで $1/(1+x)\to1/2$ であることから，極限が $1/2$ に収束することが知られている．
+
+例えば，任意の $\varepsilon>0$ に対し，$x\in[1-\delta,1]$ では
+$$
+\left|\frac{1}{1+x}-\frac12\right|<\varepsilon
+$$
+となる $\delta>0$ がとれるので，
+\begin{align*}
+n\int_0^1\frac{x^{n-1}}{1+x}dx
+&=n\int_0^1\left(\frac{1}{1+x}-\frac12\right)x^{n-1}dx
++\frac12n\int_0^1x^{n-1}dx\\
+&=n\int_0^1\left(\frac{1}{1+x}-\frac12\right)x^{n-1}dx+\frac12.
+\end{align*}
+前の積分は $x^{n-1}$ が $1$ 付近に集中することから $n\to\infty$ で $0$ に収束し（厳密には区間分割と評価で示せる），したがって全体の極限は $1/2$ となる．
+
+ゆえに
+$$
+\lim_{n\to\infty}n\int_0^1\frac{x^{n-1}}{1+x}dx=\frac12.
+$$
+これを用いると
+$$
+\lim_{n\to\infty}(-1)^nn(a_n-\log2)
+=-\frac12.
+$$
+
+よって求める極限値は
+$$
+\boxed{-\dfrac12}
+$$
+である．

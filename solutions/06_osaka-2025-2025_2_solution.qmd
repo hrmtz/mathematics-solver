@@ -1,0 +1,189 @@
+## 解答
+
+(1)  
+関数  
+$$
+f(x)=x^3+3px^2+3mx
+$$
+の導関数は
+$$
+f'(x)=3x^2+6px+3m=3(x^2+2px+m)
+$$
+である。極値は $f'(x)=0$ の解であり，$x=\alpha$ で極大，$x=\beta$ で極小をとるから，
+$\alpha,\beta$ は二次方程式
+$$
+x^2+2px+m=0
+$$
+の2つの実数解である。
+
+よって，解と係数の関係より
+$$
+\alpha+\beta=-2p,\quad \alpha\beta=m
+$$
+が成り立つ。
+
+$f(x)$ においても解と係数の関係を用いて，$f(\alpha),f(\beta)$ を $\alpha,\beta$ で整理する。
+まず
+$$
+f(x)=x^3+3px^2+3mx=x^3+3px^2+3\alpha\beta x
+$$
+であるが，$\alpha,\beta$ は $x^2+2px+m=0$ の解であるから
+$$
+x^2+2px+m=(x-\alpha)(x-\beta)
+$$
+である。これを用いるより，直接 $f(\alpha),f(\beta)$ を計算する方が簡単であるのでそうする。
+
+$\alpha^2+2p\alpha+m=0$ より $m=-(\alpha^2+2p\alpha)$，同様に $\beta^2+2p\beta+m=0$ より $m=-(\beta^2+2p\beta)$ である。
+
+まず $f(\alpha)$ について，
+$$
+f(\alpha)=\alpha^3+3p\alpha^2+3m\alpha
+$$
+に $m=-(\alpha^2+2p\alpha)$ を代入すると，
+$$
+\begin{aligned}
+f(\alpha)
+&=\alpha^3+3p\alpha^2+3\alpha\bigl(-(\alpha^2+2p\alpha)\bigr)\\
+&=\alpha^3+3p\alpha^2-3\alpha^3-6p\alpha^2\\
+&=-2\alpha^3-3p\alpha^2
+\end{aligned}
+$$
+となる。同様に
+$$
+f(\beta)=\beta^3+3p\beta^2+3m\beta
+$$
+に $m=-(\beta^2+2p\beta)$ を代入して
+$$
+f(\beta)=-2\beta^3-3p\beta^2
+$$
+を得る。
+
+したがって
+$$
+\begin{aligned}
+f(\alpha)-f(\beta)
+&=\bigl(-2\alpha^3-3p\alpha^2\bigr)-\bigl(-2\beta^3-3p\beta^2\bigr)\\
+&=-2(\alpha^3-\beta^3)-3p(\alpha^2-\beta^2)\\
+&=-(\alpha-\beta)\bigl(2(\alpha^2+\alpha\beta+\beta^2)+3p(\alpha+\beta)\bigr)
+\end{aligned}
+$$
+となる。
+
+ここで，$\alpha+\beta=-2p,\ \alpha\beta=m$ より
+$$
+\alpha^2+\alpha\beta+\beta^2=(\alpha+\beta)^2-\alpha\beta
+=4p^2-m
+$$
+だから，
+$$
+\begin{aligned}
+2(\alpha^2+\alpha\beta+\beta^2)+3p(\alpha+\beta)
+&=2(4p^2-m)+3p(-2p)\\
+&=8p^2-2m-6p^2\\
+&=2p^2-2m
+\end{aligned}
+$$
+である。したがって
+$$
+f(\alpha)-f(\beta)=-(\alpha-\beta)\cdot 2(p^2-m)
+=2(\beta-\alpha)(p^2-m)
+$$
+となる。
+
+さらに $\alpha,\beta$ は $x^2+2px+m=0$ の解だから，解の差の公式より
+$$
+\beta-\alpha=\sqrt{(\alpha+\beta)^2-4\alpha\beta}
+=\sqrt{(-2p)^2-4m}=\sqrt{4(p^2-m)}=2\sqrt{p^2-m}
+$$
+である（極大・極小をもつので $p^2-m>0$ が成り立つ）。よって
+$$
+\begin{aligned}
+f(\alpha)-f(\beta)
+&=2\cdot 2\sqrt{p^2-m}\cdot(p^2-m)\\
+&=4(p^2-m)^{3/2}
+\end{aligned}
+$$
+となる。
+
+答えとしては $p,m$ を用いた式でよいので，
+$$
+f(\alpha)-f(\beta)=4(p^2-m)^{3/2}
+$$
+である。
+
+(2)  
+曲線 $y=f(x)$ の変曲点は $f''(x)=0$ を満たす点である。  
+$f'(x)=3(x^2+2px+m)$ より
+$$
+f''(x)=6x+6p
+$$
+であり，これが 0 となる $x$ の値は
+$$
+6x+6p=0\ \Longrightarrow\ x=-p
+$$
+したがって変曲点の $x$ 座標は常に $x=-p$ である。
+
+変曲点の $y$ 座標を求めるために，$x=-p$ を $f(x)$ に代入する：
+$$
+\begin{aligned}
+f(-p)
+&=(-p)^3+3p(-p)^2+3m(-p)\\
+&=-p^3+3p^3-3mp\\
+&=2p^3-3mp
+\end{aligned}
+$$
+よって変曲点は
+$$
+\bigl(-p,\ 2p^3-3mp\bigr)
+$$
+で表される。
+
+次に条件 $f(\alpha)-f(\beta)=4$ を用いる。  
+(1) より
+$$
+f(\alpha)-f(\beta)=4(p^2-m)^{3/2}=4
+$$
+であるから，両辺を 4 で割ると
+$$
+(p^2-m)^{3/2}=1
+$$
+となる。ここで $p^2-m>0$ なので，両辺を 2 乗しても同値であり，
+$$
+p^2-m=1
+$$
+すなわち
+$$
+m=p^2-1
+$$
+が得られる。
+
+したがって変曲点の座標
+$$
+\bigl(X,Y\bigr)=\bigl(-p,\ 2p^3-3mp\bigr)
+$$
+に $m=p^2-1$ を代入すると
+$$
+\begin{aligned}
+X&=-p,\\
+Y&=2p^3-3(p^2-1)p
+   =2p^3-3p^3+3p
+   =-p^3+3p
+\end{aligned}
+$$
+となる。
+
+これを $X,Y$ だけで表す。$X=-p$ より $p=-X$ だから，
+$$
+Y=-(-X)^3+3(-X)=-(-X^3)-3X=X^3-3X
+$$
+となる。
+
+ゆえに，$p$ と $m$ が条件 $f(\alpha)-f(\beta)=4$ を満たしながら動くとき，変曲点の軌跡は
+$$
+Y=X^3-3X
+$$
+すなわち
+$$
+y=x^3-3x
+$$
+である。

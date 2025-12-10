@@ -1,0 +1,328 @@
+## 解答
+
+(1)  
+曲線 $C_1 : y=\log x$ と $C_2 : y=(x-1)(x-a)$ が $x=1,\;x=n+1$ で交わるから，  
+$x=1$ のとき
+$$
+\log 1 = (1-1)(1-a)=0
+$$
+より，この条件は自動的に満たされている。
+
+$x=n+1$ のとき
+$$
+\log (n+1) = (n+1-1)(n+1-a)=n(n+1-a)
+$$
+であるから，これを $a$ について解くと
+$$
+n+1-a = \frac{\log (n+1)}{n}
+$$
+より
+$$
+a = n+1-\frac{\log (n+1)}{n}
+$$
+を得る。
+
+ここで $\log$ は自然対数とする。$\log (n+1)>0$ であるから
+$$
+a = n+1-\frac{\log (n+1)}{n} > n+1-\frac{n+1}{n}
+= n+1-\left(1+\frac{1}{n}\right)
+= n-\frac{1}{n}.
+$$
+一方，$n$ は自然数なので $n\ge1$ であり，$n-\dfrac{1}{n}\ge1-\dfrac{1}{1}=0$ だが，$n\ge2$ なら明らかに $n-\dfrac{1}{n}>1$ である。また $n=1$ のときは
+$$
+a = 2-\log 2 > 2-1 =1
+$$
+となる（$\log 2<1$ を用いた）。よって，すべての自然数 $n$ について $a>1$ がいえる。
+
+(2)  
+点 $P(1,0)$，$Q(n+1,\log(n+1))$ であるから，直線 $PQ$ の傾きは
+$$
+\frac{\log(n+1)-0}{(n+1)-1} = \frac{\log(n+1)}{n}
+$$
+であり，$x=1$ を通るので，直線 $PQ$ の方程式は
+$$
+y = \frac{\log(n+1)}{n}(x-1)
+$$
+である。
+
+まず $S_n$ を求める。$S_n$ は曲線 $C_1: y=\log x$ と直線 $PQ$ によって $x=1$ から $x=n+1$ の間に囲まれる領域の面積である。$C_1$ の方が上側にあるか下側にあるかを調べると，$x=1$ では両者とも $y=0$，$x=n+1$ では $y=\log(n+1)$ で等しい。また $x\in(1,n+1)$ で
+$$
+f(x)=\log x - \frac{\log(n+1)}{n}(x-1)
+$$
+とおくと，$f(1)=f(n+1)=0$ であり，二階微分
+$$
+f''(x) = -\frac{1}{x^2}<0
+$$
+だから $f$ は上に凸であり，$x=1$ と $x=n+1$ の間で直線より上にある。したがって，上側が $y=\log x$，下側が直線であるから
+$$
+S_n = \int_{1}^{n+1} \left(\log x - \frac{\log(n+1)}{n}(x-1)\right)\,dx
+$$
+となる。
+
+まず
+$$
+\int_{1}^{n+1}\log x\,dx
+$$
+を計算する。部分積分により
+$$
+\int \log x\,dx = x\log x - x + C
+$$
+であるから
+$$
+\int_{1}^{n+1}\log x\,dx
+= \left[x\log x - x\right]_{1}^{n+1}
+= \bigl((n+1)\log(n+1)-(n+1)\bigr)-\bigl(1\cdot0-1\bigr)
+= (n+1)\log(n+1)-n.
+$$
+
+次に
+$$
+\int_{1}^{n+1}\frac{\log(n+1)}{n}(x-1)\,dx
+= \frac{\log(n+1)}{n}\int_{1}^{n+1}(x-1)\,dx
+$$
+であり，
+$$
+\int_{1}^{n+1}(x-1)\,dx
+= \left[\frac{(x-1)^2}{2}\right]_{1}^{n+1}
+= \frac{n^2}{2}
+$$
+だから
+$$
+\int_{1}^{n+1}\frac{\log(n+1)}{n}(x-1)\,dx
+= \frac{\log(n+1)}{n}\cdot\frac{n^2}{2}
+= \frac{n}{2}\log(n+1)
+$$
+となる。よって
+$$
+S_n = (n+1)\log(n+1)-n - \frac{n}{2}\log(n+1)
+= \left(n+1-\frac{n}{2}\right)\log(n+1)-n
+= \left(\frac{n}{2}+1\right)\log(n+1)-n.
+$$
+
+次に $T_n$ を求める。$T_n$ は曲線 $C_2: y=(x-1)(x-a)$ と直線 $PQ$ で $x=1$ から $x=n+1$ の間に囲まれる面積である。$C_1$ と $C_2$ はこの区間の両端で一致し，その間で対称的な位置関係をもつので，$C_1$ が直線より上にあるとき，$C_2$ は直線より下にある（具体的には $C_2$ と $C_1$ は同じ2点で交わり，$C_2$ は二次関数で，端点で接しないため，$C_2$ は $C_1$ と直線の反対側に位置する）。したがって，$T_n$ は
+$$
+T_n = \int_{1}^{n+1} \left(\frac{\log(n+1)}{n}(x-1) - (x-1)(x-a)\right)\,dx
+$$
+と表される。
+
+共通因子 $(x-1)$ を括ると
+$$
+\frac{\log(n+1)}{n}(x-1)-(x-1)(x-a)
+= (x-1)\left(\frac{\log(n+1)}{n}-(x-a)\right)
+$$
+である。ここで $(1)$ で求めた
+$$
+a = n+1-\frac{\log(n+1)}{n}
+$$
+を用いると
+$$
+\frac{\log(n+1)}{n}-(x-a)
+= \frac{\log(n+1)}{n}-x+n+1-\frac{\log(n+1)}{n}
+= n+1-x.
+$$
+したがって
+$$
+\frac{\log(n+1)}{n}(x-1)-(x-1)(x-a)
+= (x-1)(n+1-x)
+$$
+となり，
+$$
+T_n = \int_{1}^{n+1}(x-1)(n+1-x)\,dx
+$$
+となる。
+
+被積分関数を展開すると
+$$
+(x-1)(n+1-x)
+= (x-1)\bigl((n+2)-x\bigr)
+= (n+2)(x-1)-x(x-1)
+= (n+2)x-(n+2)-x^2+x
+= -x^2+(n+3)x-(n+2).
+$$
+よって
+$$
+T_n = \int_{1}^{n+1}\left(-x^2+(n+3)x-(n+2)\right)\,dx
+$$
+である。積分して
+$$
+\int\left(-x^2+(n+3)x-(n+2)\right)\,dx
+= -\frac{x^3}{3}+\frac{n+3}{2}x^2-(n+2)x + C
+$$
+なので
+$$
+T_n
+= \left[-\frac{x^3}{3}+\frac{n+3}{2}x^2-(n+2)x\right]_{1}^{n+1}.
+$$
+
+上端 $x=n+1$ では
+$$
+-\frac{(n+1)^3}{3}+\frac{n+3}{2}(n+1)^2-(n+2)(n+1)
+$$
+であり，下端 $x=1$ では
+$$
+-\frac{1}{3}+\frac{n+3}{2}\cdot1^2-(n+2)\cdot1
+= -\frac{1}{3}+\frac{n+3}{2}-(n+2).
+$$
+よって
+$$
+T_n = \left\{-\frac{(n+1)^3}{3}+\frac{n+3}{2}(n+1)^2-(n+2)(n+1)\right\}
+-\left\{-\frac{1}{3}+\frac{n+3}{2}-(n+2)\right\}.
+$$
+
+計算を整理する。まず $\{ \cdots \}$ の前半をまとめる。$m=n+1$ とおくと
+$$
+-\frac{m^3}{3}+\frac{n+3}{2}m^2-(n+2)m
+= -\frac{m^3}{3}+\frac{(n+3)m^2}{2}-(n+2)m.
+$$
+ここで $n=m-1$ なので
+$$
+n+3 = m+2,\quad n+2 = m+1
+$$
+となり，
+$$
+-\frac{m^3}{3}+\frac{m+2}{2}m^2-(m+1)m
+= -\frac{m^3}{3}+\left(\frac{1}{2}m^3+m^2\right)-m^2-m
+= -\frac{m^3}{3}+\frac{1}{2}m^3-m
+= \left(-\frac{1}{3}+\frac{1}{2}\right)m^3 - m
+= \frac{1}{6}m^3 - m.
+$$
+よって
+$$
+-\frac{(n+1)^3}{3}+\frac{n+3}{2}(n+1)^2-(n+2)(n+1)
+= \frac{1}{6}(n+1)^3 - (n+1).
+$$
+
+次に後半を計算する：
+$$
+-\frac{1}{3}+\frac{n+3}{2}-(n+2)
+= -\frac{1}{3}+\frac{n+3-2n-4}{2}
+= -\frac{1}{3}+\frac{-n-1}{2}
+= -\frac{2}{6}-\frac{3n+3}{6}
+= -\frac{3n+5}{6}.
+$$
+
+したがって
+$$
+T_n = \left(\frac{1}{6}(n+1)^3-(n+1)\right) -\left(-\frac{3n+5}{6}\right)
+= \frac{1}{6}(n+1)^3-(n+1)+\frac{3n+5}{6}.
+$$
+ここで
+$$
+-(n+1)+\frac{3n+5}{6}
+= \frac{-6n-6+3n+5}{6}
+= -\frac{3n+1}{6}
+$$
+なので
+$$
+T_n = \frac{1}{6}(n+1)^3 - \frac{3n+1}{6}
+= \frac{(n+1)^3-(3n+1)}{6}.
+$$
+分子を展開すると
+$$
+(n+1)^3 = n^3+3n^2+3n+1
+$$
+だから
+$$
+(n+1)^3-(3n+1)
+= n^3+3n^2+3n+1-3n-1
+= n^3+3n^2
+= n^2(n+3)
+$$
+となる。したがって
+$$
+T_n = \frac{n^2(n+3)}{6}
+$$
+である。
+
+以上より，
+$$
+S_n = \left(\frac{n}{2}+1\right)\log(n+1)-n,\quad
+T_n = \frac{n^2(n+3)}{6}
+$$
+と求まる。
+
+(3)  
+(2) の結果を用いて
+$$
+\frac{S_n}{n\log T_n}
+= \frac{\left(\dfrac{n}{2}+1\right)\log(n+1)-n}{n\log\left(\dfrac{n^2(n+3)}{6}\right)}
+$$
+を考える。
+
+まず分母の $\log T_n$ を展開する：
+$$
+T_n = \frac{n^2(n+3)}{6}
+= n^3\cdot\frac{1+3/n}{6}
+$$
+なので
+$$
+\log T_n
+= \log n^3 + \log\left(\frac{1+3/n}{6}\right)
+= 3\log n + \log\left(\frac{1+3/n}{6}\right).
+$$
+$n\to\infty$ のとき $\dfrac{1+3/n}{6}\to\dfrac{1}{6}$ より，$\log\left(\dfrac{1+3/n}{6}\right)$ は有限な定数に収束し，主な増加は $3\log n$ に支配される。したがって
+$$
+\log T_n \sim 3\log n \quad (n\to\infty)
+$$
+とみなせる。
+
+次に分子 $S_n$ の漸近を調べる。$S_n$ は
+$$
+S_n = \left(\frac{n}{2}+1\right)\log(n+1)-n
+$$
+である。ここで $\log(n+1)=\log n + \log\left(1+\frac{1}{n}\right)$ を用いると
+$$
+S_n
+= \left(\frac{n}{2}+1\right)\left(\log n + \log\left(1+\frac{1}{n}\right)\right)-n
+= \left(\frac{n}{2}+1\right)\log n + \left(\frac{n}{2}+1\right)\log\left(1+\frac{1}{n}\right)-n.
+$$
+$\log\left(1+\dfrac{1}{n}\right)$ に対しては，テイラー展開より
+$$
+\log\left(1+\frac{1}{n}\right)
+= \frac{1}{n} - \frac{1}{2n^2} + O\left(\frac{1}{n^3}\right)
+\quad (n\to\infty)
+$$
+である。したがって
+$$
+\left(\frac{n}{2}+1\right)\log\left(1+\frac{1}{n}\right)
+= \left(\frac{n}{2}+1\right)\left(\frac{1}{n} - \frac{1}{2n^2} + O\left(\frac{1}{n^3}\right)\right)
+$$
+を計算すると
+$$
+\left(\frac{n}{2}+1\right)\frac{1}{n}
+= \frac{1}{2}+\frac{1}{n},
+$$
+$$
+\left(\frac{n}{2}+1\right)\frac{1}{2n^2}
+= \frac{1}{4n}+\frac{1}{2n^2},
+$$
+より
+$$
+\left(\frac{n}{2}+1\right)\log\left(1+\frac{1}{n}\right)
+= \left(\frac{1}{2}+\frac{1}{n}\right) - \left(\frac{1}{4n}+\frac{1}{2n^2}\right)
++ O\left(\frac{1}{n^2}\right)
+= \frac{1}{2} + O\left(\frac{1}{n}\right).
+$$
+
+したがって
+$$
+S_n = \left(\frac{n}{2}+1\right)\log n + \frac{1}{2} + O\left(\frac{1}{n}\right) - n.
+$$
+ここで主要な項は $\dfrac{n}{2}\log n$ である。すなわち
+$$
+S_n \sim \frac{n}{2}\log n \quad (n\to\infty)
+$$
+とみなせる。
+
+以上より
+$$
+\frac{S_n}{n\log T_n}
+\sim \frac{\dfrac{n}{2}\log n}{n\cdot 3\log n}
+= \frac{1}{6}
+\quad (n\to\infty)
+$$
+となる。よって
+$$
+\lim_{n\to\infty}\frac{S_n}{n\log T_n} = \frac{1}{6}
+$$
+である。

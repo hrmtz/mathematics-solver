@@ -1,0 +1,184 @@
+## 解答
+
+(1)  
+関数  
+$$
+f_n(x)=1-\frac{1}{2}e^{nx}+\cos\frac{x}{3}\quad (x\geqq0)
+$$
+について考える．
+
+まず，$x=0$のとき
+$$
+f_n(0)=1-\frac{1}{2}e^{0}+\cos 0=1-\frac{1}{2}+1=\frac{3}{2}>0
+$$
+である．
+
+一方，$x\to\infty$ のとき，指数関数 $e^{nx}$ は無限大に発散し，$\cos \dfrac{x}{3}$ は $-1\le \cos \dfrac{x}{3}\le 1$ より有界なので，
+$$
+f_n(x)=1-\frac{1}{2}e^{nx}+\cos\frac{x}{3}\to -\infty
+$$
+となる．
+
+次に，$x>0$ での単調性を調べるため，導関数を求める．  
+$f_n(x)$ を $x$ で微分すると，
+$$
+f_n'(x)=-\frac{1}{2}\cdot ne^{nx}-\frac{1}{3}\sin\frac{x}{3}
+$$
+となる．ここで $ne^{nx}>0$，また $\sin\frac{x}{3}$ は $-1\le \sin\frac{x}{3}\le 1$ であるから，
+$$
+-\frac{1}{2}ne^{nx}<0,\quad -\frac{1}{3}\sin\frac{x}{3}\le \frac{1}{3}
+$$
+より
+$$
+f_n'(x)\le -\frac{1}{2}ne^{nx}+\frac{1}{3}<0 \quad (x>0)
+$$
+が成り立つ（$e^{nx}\ge e^{0}=1$ より $-\dfrac{1}{2}ne^{nx}\le -\dfrac{1}{2}n\le -\dfrac{1}{2}<-\dfrac{1}{3}$ となるので，右辺は負になる）．
+
+したがって，$f_n(x)$ は $x>0$ で単調減少である．
+
+以上より，$x=0$ で $f_n(0)>0$ かつ $x\to\infty$ で $f_n(x)\to -\infty$ であり，その間で $f_n(x)$ は連続かつ単調減少なので，中間値の定理と単調性から，$f_n(x)=0$ は $x\ge0$ でただ1つの実数解をもつことがわかる．
+
+(2)  
+(1) の解を $a_n$ とすると，
+$$
+f_n(a_n)=0
+$$
+より
+$$
+1-\frac{1}{2}e^{na_n}+\cos\frac{a_n}{3}=0
+$$
+すなわち
+$$
+\frac{1}{2}e^{na_n}=1+\cos\frac{a_n}{3}
+$$
+である．
+
+ここで $x\ge0$ に対して $-1\le \cos\dfrac{x}{3}\le 1$ なので
+$$
+0\le 1+\cos\frac{a_n}{3}\le 2
+$$
+より
+$$
+0\le \frac{1}{2}e^{na_n}\le 2
+$$
+が成り立つ．したがって
+$$
+0\le e^{na_n}\le 4
+$$
+となる．$e^{na_n}>0$ より
+$$
+e^{na_n}\le 4
+$$
+から
+$$
+na_n\le \ln 4
+$$
+すなわち
+$$
+a_n\le \frac{\ln 4}{n}
+$$
+を得る．よって $n\to\infty$ とすると
+$$
+0\le a_n\le \frac{\ln 4}{n}\to 0
+$$
+であるから，はさみうちの原理より
+$$
+\lim_{n\to\infty}a_n=0
+$$
+となる．
+
+(3)  
+(2) より $\displaystyle\lim_{n\to\infty}a_n=0$ なので，$n\to\infty$ のとき $a_n\to0$ である．この極限を用いるため，$\cos\dfrac{a_n}{3}$ をテイラー展開の近似（あるいは $\cos x$ の連続性）から扱う．
+
+まず $f_n(a_n)=0$ より
+$$
+\frac{1}{2}e^{na_n}=1+\cos\frac{a_n}{3}
+$$
+と書ける．$a_n\to0$ なので，$\cos x$ の展開
+$$
+\cos x=1-\frac{x^2}{2}+o(x^2)\quad (x\to0)
+$$
+より，$x=\dfrac{a_n}{3}$ とすると
+$$
+\cos\frac{a_n}{3}=1-\frac{1}{2}\left(\frac{a_n}{3}\right)^2+o(a_n^2)
+=1-\frac{a_n^2}{18}+o(a_n^2)
+$$
+である．したがって
+$$
+1+\cos\frac{a_n}{3}
+=2-\frac{a_n^2}{18}+o(a_n^2)
+=2\left(1-\frac{a_n^2}{36}+o(a_n^2)\right)
+$$
+となる．
+
+一方，指数関数の展開
+$$
+e^{na_n}=1+na_n+\frac{(na_n)^2}{2}+o((na_n)^2)
+$$
+を用いると，
+$$
+\frac{1}{2}e^{na_n}
+=\frac{1}{2}\left(1+na_n+\frac{(na_n)^2}{2}+o((na_n)^2)\right)
+=\frac{1}{2}+\frac{na_n}{2}+\frac{(na_n)^2}{4}+o((na_n)^2)
+$$
+である．
+
+これらを等式
+$$
+\frac{1}{2}e^{na_n}=1+\cos\frac{a_n}{3}
+$$
+に代入すると，
+$$
+\frac{1}{2}+\frac{na_n}{2}+\frac{(na_n)^2}{4}+o((na_n)^2)
+=
+2\left(1-\frac{a_n^2}{36}+o(a_n^2)\right)
+=2-\frac{a_n^2}{18}+o(a_n^2)
+$$
+となる．両辺から $\dfrac{1}{2}$ を引いて
+$$
+\frac{na_n}{2}+\frac{(na_n)^2}{4}+o((na_n)^2)
+=\frac{3}{2}-\frac{a_n^2}{18}+o(a_n^2)
+$$
+を得る．ここで $a_n\to0$ であり，$na_n$ は有界（後に値が決まる）であると考えられるので，$a_n^2$ は $(na_n)^2$ に比べて $1/n^2$ 倍程度の大きさであり，高次の小さい項として無視できる．そこで，主要な項だけを比べるため，高次の小さい項 $o((na_n)^2)$，$o(a_n^2)$ および $a_n^2$ をまとめて無視すると，
+$$
+\frac{na_n}{2}\approx \frac{3}{2}
+$$
+すなわち
+$$
+na_n\approx 3
+$$
+と推定できる．
+
+これを厳密に扱うため，$x_n=na_n$ とおき，$n\to\infty$ での極限を $L=\lim_{n\to\infty}x_n$ と仮定して求める方法をとる．
+
+まず (2) で $a_n\le \dfrac{\ln4}{n}$ を得ているので，$x_n=na_n\le \ln4$ となり，$\{x_n\}$ は有界である．したがって，収束部分列を取り出せるので，任意の収束部分列の極限値は一意に決まることを示せば，全体の極限も同じ値となる．
+
+$a_n=\dfrac{x_n}{n}$ とおき，前と同じ等式
+$$
+\frac{1}{2}e^{na_n}=1+\cos\frac{a_n}{3}
+$$
+に $a_n=\dfrac{x_n}{n}$ を代入する．
+
+左辺は
+$$
+\frac{1}{2}e^{na_n}=\frac{1}{2}e^{x_n}
+$$
+右辺は $a_n\to0$ より $\dfrac{a_n}{3}=\dfrac{x_n}{3n}\to0$ だから，
+$$
+\cos\frac{a_n}{3}=\cos\frac{x_n}{3n}\to \cos 0=1
+$$
+となる．よって $n\to\infty$ とすると，両辺の極限から
+$$
+\frac{1}{2}e^{L}=1+1=2
+$$
+が得られるので，
+$$
+e^{L}=4\quad\Rightarrow\quad L=\ln 4
+$$
+となる．
+
+したがって
+$$
+\lim_{n\to\infty}na_n=L=\ln 4
+$$
+と結論できる．

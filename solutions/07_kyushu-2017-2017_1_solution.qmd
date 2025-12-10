@@ -1,0 +1,207 @@
+## 解答
+
+(1)  
+$C_1$と$C_2$の交点は，$0 \leqq x < \dfrac{\pi}{2}$において
+$$
+a\tan x = \sin 2x
+$$
+を満たす点である。$\sin 2x = 2\sin x \cos x$，$\tan x = \dfrac{\sin x}{\cos x}$より，
+$$
+a\tan x = \sin 2x
+\;\Longleftrightarrow\;
+a\frac{\sin x}{\cos x} = 2\sin x \cos x
+$$
+となる。両辺を$\sin x$で割る（$\sin x = 0$は$x=0$で，これは原点に対応するので原点以外を考えるときは$\sin x \neq 0$が成り立つ）と，
+$$
+a\frac{1}{\cos x} = 2\cos x
+$$
+すなわち
+$$
+a = 2\cos^2 x
+$$
+を得る。ここで$0<x<\dfrac{\pi}{2}$なので$\cos x>0$であり，したがって
+$$
+0< \cos^2 x \leqq 1
+$$
+である。ゆえに
+$$
+0 < a \leqq 2
+$$
+が成り立つときに，原点以外に交点をもつ。
+
+よって，求める条件は
+$$
+0 < a \leqq 2
+$$
+である。
+
+(2)  
+(1)の条件を満たす$a$について，原点以外の交点$P$の$x$座標を$p$とする。  
+$P$は$C_1$と$C_2$の交点であるから，
+$$
+a\tan p = \sin 2p
+$$
+が成り立つ。(1)と同様に変形して
+$$
+a = 2\cos^2 p
+$$
+を得る。
+
+次に接線の傾きを求める。  
+$C_1: y = a\tan x$ とおくと
+$$
+\frac{dy}{dx} = a\sec^2 x
+$$
+ゆえに，点$P$における$C_1$の接線の傾きは
+$$
+m_1 = a\sec^2 p
+$$
+である。  
+同様に，$C_2: y=\sin 2x$について
+$$
+\frac{dy}{dx} = 2\cos 2x
+$$
+ゆえに，点$P$での$C_2$の接線の傾きは
+$$
+m_2 = 2\cos 2p
+$$
+となる。
+
+2つの接線が直交するための条件として，2本の直線の傾きの積が$-1$となることを用いると，
+$$
+m_1 m_2 = -1
+$$
+すなわち
+$$
+a\sec^2 p \cdot 2\cos 2p = -1
+$$
+である。ここで$\sec^2 p = \dfrac{1}{\cos^2 p}$，また$a = 2\cos^2 p$を用いると，
+$$
+a\sec^2 p = a\frac{1}{\cos^2 p} 
+= \frac{2\cos^2 p}{\cos^2 p} = 2
+$$
+となるので，
+$$
+2 \cdot 2\cos 2p = -1
+$$
+すなわち
+$$
+4\cos 2p = -1
+$$
+より
+$$
+\cos 2p = -\frac{1}{4}
+$$
+を得る。これを$a = 2\cos^2 p$に用いる。  
+$\cos 2p = 2\cos^2 p -1 = -\dfrac{1}{4}$より，
+$$
+2\cos^2 p -1 = -\frac{1}{4}
+$$
+したがって
+$$
+2\cos^2 p = 1 - \frac{1}{4} = \frac{3}{4}
+$$
+よって
+$$
+\cos^2 p = \frac{3}{8}
+$$
+であるから
+$$
+a = 2\cos^2 p = 2\cdot \frac{3}{8} = \frac{3}{4}
+$$
+となる。
+
+以上より，
+$$
+a = \frac{3}{4},\quad \cos 2p = -\frac{1}{4}
+$$
+である。
+
+(3)  
+(2)より$a = \dfrac{3}{4}$とする。このとき$C_1: y = \dfrac{3}{4}\tan x$，$C_2: y=\sin 2x$である。  
+$0 \leqq x < \dfrac{\pi}{2}$において，原点以外の交点$P$の$x$座標は$p$であり，(2)で求めた条件から
+$$
+a = 2\cos^2 p \quad (a = \frac{3}{4})
+$$
+より
+$$
+\frac{3}{4} = 2\cos^2 p
+\;\Longrightarrow\;
+\cos^2 p = \frac{3}{8}
+$$
+また$\cos 2p = -\dfrac{1}{4}$である。
+
+$0<p<\dfrac{\pi}{2}$では，$\sin x>0$かつ$\cos x>0$なので，$\tan x>0$であり，$\sin 2x = 2\sin x\cos x >0$である。  
+$P$は$a\tan x$と$\sin 2x$の原点以外の交点であるから，$0<p<\dfrac{\pi}{2}$で
+$$
+\frac{3}{4}\tan p = \sin 2p
+$$
+が成り立つ。この区間での2曲線で囲まれた図形は，$x=0$から$x=p$までの間で$C_2$が上側，$C_1$が下側となる（$x$が小さいところでは$\tan x \approx x$，$\sin 2x \approx 2x$より$\sin 2x > a\tan x$であることから分かる）。
+
+したがって，囲まれた図形の面積$S$は
+$$
+S = \int_{0}^{p} \bigl(\sin 2x - \frac{3}{4}\tan x\bigr)\,dx
+$$
+である。これを計算する。
+
+まず
+$$
+\int \sin 2x\,dx = -\frac{1}{2}\cos 2x + C
+$$
+また
+$$
+\int \tan x\,dx = -\log|\cos x| + C
+$$
+であるから，
+$$
+\int_{0}^{p} \sin 2x\,dx
+= \left[-\frac{1}{2}\cos 2x \right]_{0}^{p}
+= -\frac{1}{2}\cos 2p + \frac{1}{2}\cos 0
+= -\frac{1}{2}\cos 2p + \frac{1}{2}
+$$
+さらに
+$$
+\int_{0}^{p} \frac{3}{4}\tan x\,dx
+= \frac{3}{4}\int_{0}^{p} \tan x\,dx
+= \frac{3}{4}\left[-\log(\cos x)\right]_{0}^{p}
+= \frac{3}{4}\bigl(-\log(\cos p) + \log(\cos 0)\bigr)
+$$
+ここで$0<p<\dfrac{\pi}{2}$なので$\cos x>0$であり，絶対値は外してよい。また$\cos 0 = 1$より$\log(\cos 0)=0$であるから，
+$$
+\int_{0}^{p} \frac{3}{4}\tan x\,dx
+= -\frac{3}{4}\log(\cos p)
+$$
+となる。したがって
+$$
+S
+= \left(-\frac{1}{2}\cos 2p + \frac{1}{2}\right) - \left(-\frac{3}{4}\log(\cos p)\right)
+= -\frac{1}{2}\cos 2p + \frac{1}{2} + \frac{3}{4}\log(\cos p)
+$$
+である。
+
+ここで，(2)から$\cos 2p = -\dfrac{1}{4}$なので，
+$$
+-\frac{1}{2}\cos 2p = -\frac{1}{2}\cdot\left(-\frac{1}{4}\right) = \frac{1}{8}
+$$
+したがって
+$$
+S = \frac{1}{8} + \frac{1}{2} + \frac{3}{4}\log(\cos p)
+= \frac{5}{8} + \frac{3}{4}\log(\cos p)
+$$
+となる。
+
+次に$\cos p$を求める。$\cos^2 p = \dfrac{3}{8}$より$0<p<\dfrac{\pi}{2}$で$\cos p>0$なので
+$$
+\cos p = \sqrt{\frac{3}{8}} = \frac{\sqrt{3}}{2\sqrt{2}} = \frac{\sqrt{6}}{4}
+$$
+である。これを代入すると，
+$$
+S = \frac{5}{8} + \frac{3}{4}\log\left(\frac{\sqrt{6}}{4}\right)
+$$
+となる。さらに簡単にしてもよいが，この形で面積は求まっている。
+
+よって，求める面積は
+$$
+S = \frac{5}{8} + \frac{3}{4}\log\left(\frac{\sqrt{6}}{4}\right)
+$$
+である。

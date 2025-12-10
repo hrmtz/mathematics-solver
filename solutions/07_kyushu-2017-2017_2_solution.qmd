@@ -1,0 +1,175 @@
+## 解答
+
+(1)  
+まず，線分 $CD$ 上の点を媒介変数 $t$ を用いて  
+$$
+C(0,0,1),\ D(a,b,1)
+$$
+より
+$$
+G(ta,\ tb,\ 1)
+$$
+とおく（$0\le t\le 1$）。
+
+点 $A(a,0,0)$ から $G(ta,tb,1)$ に向かうベクトルは
+$$
+\overrightarrow{AG}
+= (ta-a,\ tb-0,\ 1-0)
+= (a(t-1),\ bt,\ 1)
+$$
+である。
+
+$G$ は，$A$ から線分 $CD$ におろした垂線と $CD$ の交点であるから，
+$\overrightarrow{AG}$ は直線 $CD$ に垂直である。  
+直線 $CD$ の方向ベクトルは
+$$
+\overrightarrow{CD} = (a,b,0)
+$$
+なので，内積が $0$ となる条件
+$$
+\overrightarrow{AG}\cdot \overrightarrow{CD} = 0
+$$
+を用いると，
+$$
+(a(t-1),\ bt,\ 1)\cdot (a,b,0)
+= a^2(t-1) + b^2 t + 0 = 0
+$$
+より
+$$
+a^2(t-1) + b^2 t = 0
+$$
+$$
+(a^2 + b^2)t - a^2 = 0
+$$
+したがって
+$$
+t = \frac{a^2}{a^2 + b^2}
+$$
+となる。
+
+よって，$G$ の座標は
+$$
+G\left(\frac{a^3}{a^2 + b^2},\ \frac{a^2 b}{a^2 + b^2},\ 1\right)
+$$
+である。
+
+---
+
+(2)  
+同様に，線分 $CD$ 上の点を $H(sa,sb,1)$ とおく（$0\le s\le 1$）。
+
+点 $B(0,b,0)$ から $H(sa,sb,1)$ に向かうベクトルは
+$$
+\overrightarrow{BH}
+= (sa-0,\ sb-b,\ 1-0)
+= (as,\ b(s-1),\ 1)
+$$
+であり，$H$ は $B$ から線分 $CD$ におろした垂線と $CD$ の交点なので，
+やはり
+$$
+\overrightarrow{BH}\cdot \overrightarrow{CD} = 0
+$$
+が成り立つ。したがって
+$$
+(as,\ b(s-1),\ 1)\cdot (a,b,0)
+= a^2 s + b^2 (s-1) + 0 = 0
+$$
+より
+$$
+(a^2 + b^2)s - b^2 = 0
+$$
+したがって
+$$
+s = \frac{b^2}{a^2 + b^2}
+$$
+となる。
+
+よって $H$ の座標は
+$$
+H\left(\frac{a b^2}{a^2 + b^2},\ \frac{b^3}{a^2 + b^2},\ 1\right)
+$$
+である。
+
+次に $\cos\theta$ を求める。  
+(1) の結果より
+$$
+\overrightarrow{AG}
+= G - A
+= \left(\frac{a^3}{a^2 + b^2} - a,\ \frac{a^2 b}{a^2 + b^2} - 0,\ 1 - 0\right)
+$$
+$$
+= \left(-\frac{a b^2}{a^2 + b^2},\ \frac{a^2 b}{a^2 + b^2},\ 1\right)
+$$
+また
+$$
+\overrightarrow{BH}
+= H - B
+= \left(\frac{a b^2}{a^2 + b^2} - 0,\ \frac{b^3}{a^2 + b^2} - b,\ 1 - 0\right)
+$$
+$$
+= \left(\frac{a b^2}{a^2 + b^2},\ -\frac{a^2 b}{a^2 + b^2},\ 1\right)
+$$
+となる。
+
+ここで
+$$
+\overrightarrow{AG} = \left(-x,\ y,\ 1\right),\quad
+\overrightarrow{BH} = \left(x,\ -y,\ 1\right)
+$$
+とおくと，今の場合
+$$
+x = \frac{a b^2}{a^2 + b^2},\quad
+y = \frac{a^2 b}{a^2 + b^2}
+$$
+である。
+
+内積と大きさを計算すると，
+$$
+\overrightarrow{AG}\cdot \overrightarrow{BH}
+= (-x)x + y(-y) + 1\cdot 1
+= -x^2 - y^2 + 1
+$$
+$$
+|\overrightarrow{AG}|^2
+= (-x)^2 + y^2 + 1^2
+= x^2 + y^2 + 1
+$$
+$$
+|\overrightarrow{BH}|^2
+= x^2 + (-y)^2 + 1^2
+= x^2 + y^2 + 1
+$$
+なので，
+$$
+\cos\theta
+= \frac{\overrightarrow{AG}\cdot \overrightarrow{BH}}
+       {|\overrightarrow{AG}||\overrightarrow{BH}|}
+= \frac{-x^2 - y^2 + 1}{x^2 + y^2 + 1}
+$$
+
+ここで $x^2 + y^2$ を $a,b$ で表すと，
+$$
+x^2 + y^2
+= \left(\frac{a b^2}{a^2 + b^2}\right)^2
+ + \left(\frac{a^2 b}{a^2 + b^2}\right)^2
+= \frac{a^2 b^4 + a^4 b^2}{(a^2 + b^2)^2}
+= \frac{a^2 b^2 (a^2 + b^2)}{(a^2 + b^2)^2}
+= \frac{a^2 b^2}{a^2 + b^2}
+$$
+
+したがって
+$$
+\cos\theta
+= \frac{1 - \dfrac{a^2 b^2}{a^2 + b^2}}
+       {1 + \dfrac{a^2 b^2}{a^2 + b^2}}
+= \frac{\dfrac{a^2 + b^2 - a^2 b^2}{a^2 + b^2}}
+       {\dfrac{a^2 + b^2 + a^2 b^2}{a^2 + b^2}}
+= \frac{a^2 + b^2 - a^2 b^2}{a^2 + b^2 + a^2 b^2}
+$$
+
+よって，
+$$
+\cos\theta
+= \frac{a^2 + b^2 - a^2 b^2}{a^2 + b^2 + a^2 b^2}
+$$
+である。

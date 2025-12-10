@@ -1,0 +1,343 @@
+## 解答
+
+点 $O(0,0,0)$，$A(0,1,1)$，$P(x,y,0)$ とし，$\angle OAP={30}^\circ$，$y\geqq0$ を満たすときの $(x+1)(y+1)$ の最大値・最小値を求める。
+
+まずベクトルを用いて条件式を立てる。  
+$\overrightarrow{AO}=(0-0,\;0-1,\;0-1)=(0,-1,-1)$，  
+$\overrightarrow{AP}=(x-0,\;y-1,\;0-1)=(x,y-1,-1)$ である。
+
+$\angle OAP={30}^\circ$ なので，2つのベクトルのなす角の定義より
+$$
+\cos 30^\circ
+=\frac{\overrightarrow{AO}\cdot\overrightarrow{AP}}
+{\lVert\overrightarrow{AO}\rVert\;\lVert\overrightarrow{AP}\rVert}
+$$
+が成り立つ。ここで計算すると
+$$
+\overrightarrow{AO}\cdot\overrightarrow{AP}
+=(0)\cdot x+(-1)\cdot(y-1)+(-1)\cdot(-1)
+=-(y-1)+1
+=-y+2,
+$$
+$$
+\lVert\overrightarrow{AO}\rVert
+=\sqrt{0^2+(-1)^2+(-1)^2}
+=\sqrt2,
+$$
+$$
+\lVert\overrightarrow{AP}\rVert
+=\sqrt{x^2+(y-1)^2+(-1)^2}
+=\sqrt{x^2+(y-1)^2+1}.
+$$
+また $\cos30^\circ=\dfrac{\sqrt3}{2}$ であるから，
+$$
+\frac{\sqrt3}{2}
+=\frac{-y+2}{\sqrt2\sqrt{x^2+(y-1)^2+1}}.
+$$
+
+両辺を2乗して
+$$
+\frac{3}{4}
+=\frac{(-y+2)^2}{2\bigl(x^2+(y-1)^2+1\bigr)}
+$$
+より
+$$
+3\bigl(x^2+(y-1)^2+1\bigr)=2(-y+2)^2
+$$
+となる。展開して整理する。
+
+左辺は
+$$
+3\bigl(x^2+(y-1)^2+1\bigr)
+=3x^2+3(y-1)^2+3
+=3x^2+3(y^2-2y+1)+3
+=3x^2+3y^2-6y+6,
+$$
+右辺は
+$$
+2(-y+2)^2
+=2(y^2-4y+4)
+=2y^2-8y+8.
+$$
+
+したがって
+$$
+3x^2+3y^2-6y+6=2y^2-8y+8
+$$
+となり，両辺を移項して
+$$
+3x^2+3y^2-6y+6-2y^2+8y-8=0
+$$
+$$
+3x^2+y^2+2y-2=0
+$$
+を得る。これを $y$ について平方完成すると
+$$
+3x^2+y^2+2y-2
+=3x^2+\bigl(y^2+2y+1\bigr)-1-2
+=3x^2+(y+1)^2-3,
+$$
+したがって
+$$
+3x^2+(y+1)^2-3=0
+\quad\Longrightarrow\quad
+3x^2+(y+1)^2=3.
+$$
+
+よって点 $(x,y)$ は $y\geqq0$ のもとで楕円
+$$
+3x^2+(y+1)^2=3
+$$
+上を動くことが分かる。
+
+---
+
+次に，この条件のもとで $(x+1)(y+1)$ の最大値・最小値を求める。  
+$X=x+1,\;Y=y+1$ とおくと，求める量は $XY$ である。楕円の方程式を $X,Y$ で書き直すと，
+$$
+3(x^2)+(y+1)^2=3,\quad y=Y-1
+$$
+だから
+$$
+3(x^2)+Y^2=3
+\quad\Longrightarrow\quad
+x^2=\frac{3-Y^2}{3}.
+$$
+また $y\geqq0$ は $Y=y+1\geqq1$ となる。
+
+ここで $X=x+1$ の範囲を調べる。$x^2\geq0$ より
+$$
+3-Y^2\geq0\quad\Longrightarrow\quad Y^2\leq3,
+$$
+したがって
+$$
+1\leq Y\leq\sqrt3.
+$$
+
+一方，$x^2=\dfrac{3-Y^2}{3}$ より
+$$
+x=\pm\sqrt{\frac{3-Y^2}{3}},
+$$
+したがって
+$$
+X=x+1=1\pm\sqrt{\frac{3-Y^2}{3}}.
+$$
+
+よって
+$$
+XY=Y\bigl(1\pm\sqrt{\tfrac{3-Y^2}{3}}\bigr)
+=Y\pm Y\sqrt{\frac{3-Y^2}{3}}
+\quad(1\leq Y\leq\sqrt3)
+$$
+となる。このうち，$+$ をとったときが最大値，$-$ をとったときが最小値になると考えられるが，より直接的に解析するため，元の変数 $x,y$ に戻って考える。
+
+楕円の条件式
+$$
+3x^2+(y+1)^2=3
+$$
+を $p=x+1,\;q=y+1$ で表すと，
+$$
+3(p-1)^2+q^2=3,
+\quad q\geq1.
+$$
+求めたいのは $pq$ の最大・最小である。
+
+ここで，2変数関数の極値問題としてラグランジュの未定乗数法を用いる。制約
+$$
+3x^2+(y+1)^2=3
+$$
+のもとで $f(x,y)=(x+1)(y+1)$ の極値を求める。
+
+$$
+F(x,y,\lambda)=(x+1)(y+1)-\lambda\bigl(3x^2+(y+1)^2-3\bigr)
+$$
+とおくと，
+$$
+\frac{\partial F}{\partial x}=y+1-6\lambda x=0,
+$$
+$$
+\frac{\partial F}{\partial y}=x+1-2\lambda (y+1)=0,
+$$
+$$
+3x^2+(y+1)^2-3=0
+$$
+が成り立つ。
+
+第1式より
+$$
+y+1=6\lambda x \quad\cdots (1)
+$$
+第2式より
+$$
+x+1=2\lambda (y+1) \quad\cdots (2)
+$$
+(1) を (2) に代入すると
+$$
+x+1=2\lambda\cdot6\lambda x=12\lambda^2 x.
+$$
+これを整理して
+$$
+x+1=12\lambda^2 x
+\quad\Longrightarrow\quad
+1=(12\lambda^2-1)x.
+$$
+よって $x\neq0$ であり，
+$$
+x=\frac{1}{12\lambda^2-1}.
+$$
+
+また (1) より
+$$
+y+1=6\lambda x
+=6\lambda\cdot\frac{1}{12\lambda^2-1}
+=\frac{6\lambda}{12\lambda^2-1}.
+$$
+
+制約条件
+$$
+3x^2+(y+1)^2=3
+$$
+に代入すると
+$$
+3\left(\frac{1}{12\lambda^2-1}\right)^2
++\left(\frac{6\lambda}{12\lambda^2-1}\right)^2=3.
+$$
+左辺をまとめると
+$$
+\frac{3}{(12\lambda^2-1)^2}
++\frac{36\lambda^2}{(12\lambda^2-1)^2}
+=\frac{3+36\lambda^2}{(12\lambda^2-1)^2}
+=3.
+$$
+したがって
+$$
+3+36\lambda^2=3(12\lambda^2-1)^2.
+$$
+右辺を展開すると
+$$
+3(144\lambda^4-24\lambda^2+1)
+=432\lambda^4-72\lambda^2+3.
+$$
+よって
+$$
+3+36\lambda^2
+=432\lambda^4-72\lambda^2+3,
+$$
+両辺から 3 を消すと
+$$
+36\lambda^2
+=432\lambda^4-72\lambda^2.
+$$
+これを整理すると
+$$
+0=432\lambda^4-108\lambda^2
+=108\lambda^2(4\lambda^2-1).
+$$
+したがって
+$$
+\lambda^2=0 \quad\text{または}\quad \lambda^2=\frac14.
+$$
+
+$\lambda^2=0$ の場合は $\lambda=0$ であり，(1) より $y+1=0$，すなわち $y=-1$ となるが，これは $y\geqq0$ に反するので不適。
+
+よって
+$$
+\lambda^2=\frac14
+\quad\Longrightarrow\quad
+\lambda=\frac12\ \text{または}\ \lambda=-\frac12.
+$$
+
+(1)，(2) に代入して $x,y$ を求める。
+
+まず $\lambda=\dfrac12$ のとき，(1) より
+$$
+y+1=6\cdot\frac12\,x=3x,
+$$
+(2) より
+$$
+x+1=2\cdot\frac12\,(y+1)=y+1.
+$$
+したがって
+$$
+y+1=x+1 \quad\Longrightarrow\quad y=x.
+$$
+これを $y+1=3x$ に代入すると
+$$
+x+1=3x
+\quad\Longrightarrow\quad 2x=1
+\quad\Longrightarrow\quad x=\frac12,
+$$
+よって $y=x=\dfrac12$ となる。このとき
+$$
+(x+1)(y+1)=\left(\frac12+1\right)^2
+=\left(\frac32\right)^2
+=\frac94.
+$$
+
+次に $\lambda=-\dfrac12$ のとき，(1) より
+$$
+y+1=6\cdot\left(-\frac12\right)x=-3x,
+$$
+(2) より
+$$
+x+1=2\cdot\left(-\frac12\right)(y+1)=-(y+1).
+$$
+したがって
+$$
+x+1=-(y+1)
+\quad\Longrightarrow\quad x+y+2=0
+\quad\Longrightarrow\quad y=-x-2.
+$$
+これを $y+1=-3x$ に代入すると
+$$
+(-x-2)+1=-3x
+\quad\Longrightarrow\quad -x-1=-3x
+\quad\Longrightarrow\quad 2x=1
+\quad\Longrightarrow\quad x=\frac12,
+$$
+よって $y=-\dfrac12-2=-\dfrac52$ となる。これは $y\geqq0$ の条件を満たさないので不適。
+
+したがって，$y\geqq0$ を満たす範囲で $(x+1)(y+1)$ が極値をとるのは $x=y=\dfrac12$ のときのみであり，
+$$
+\max (x+1)(y+1)=\frac94
+$$
+が得られる。
+
+一方，最小値について考える。楕円
+$$
+3x^2+(y+1)^2=3
+$$
+で $y\geqq0$ だから，$y$ の最小値は $y=0$ のときである。このとき
+$$
+3x^2+(0+1)^2=3
+\quad\Longrightarrow\quad
+3x^2+1=3
+\quad\Longrightarrow\quad
+3x^2=2
+\quad\Longrightarrow\quad
+x=\pm\sqrt{\frac23}.
+$$
+それぞれの場合に $(x+1)(y+1)$ を計算すると，
+$$
+y=0,\ x=\sqrt{\frac23}\ \Rightarrow\ (x+1)(y+1)=\sqrt{\frac23}+1,
+$$
+$$
+y=0,\ x=-\sqrt{\frac23}\ \Rightarrow\ (x+1)(y+1)=-\sqrt{\frac23}+1.
+$$
+
+2つを比べると
+$$
+-\sqrt{\frac23}+1<\sqrt{\frac23}+1
+$$
+なので，より小さい値は
+$$
+1-\sqrt{\frac23}
+$$
+である。これが最小値になるかどうかを確認するため，先ほど求めた内点での極値 $\dfrac94$ と比較すると明らかに小さい。また楕円の $y\geqq0$ の部分は閉じた有界な集合であり，連続関数 $(x+1)(y+1)$ はそこで最大値・最小値を必ずとるので，上で得た値がそれぞれ最大値・最小値である。
+
+よって求める最大値・最小値は
+$$
+\max (x+1)(y+1)=\frac94,\quad
+\min (x+1)(y+1)=1-\sqrt{\frac23}
+$$
+である。
