@@ -3,6 +3,7 @@ title: "東北大学 1993年 1993_5"
 problem_id: "04_tohoku-1993-1993_5"
 university: "東北大学"
 exam_year: "1993"
+problem_number: 5
 source_tex: "archive/04_tohoku/1993/1993_5.tex"
 pdf_source: "archive/04_tohoku/1993/1993_5.pdf"
 page_image: "archive/04_tohoku/1993/1993_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　原点$(0, \, 0)$を$O$とし，
+原点$(0, \, 0)$を$O$とし，
 行列$A=\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$によって表される1次変換を$f$とする．

@@ -3,6 +3,7 @@ title: "東北大学 1991年 1991_6"
 problem_id: "04_tohoku-1991-1991_6"
 university: "東北大学"
 exam_year: "1991"
+problem_number: 6
 source_tex: "archive/04_tohoku/1991/1991_6.tex"
 pdf_source: "archive/04_tohoku/1991/1991_6.pdf"
 page_image: "archive/04_tohoku/1991/1991_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　$a$を実数とし，点$(1, \, -1)$を点$(\sqrt2, \, -\sqrt2)$に，
+$a$を実数とし，点$(1, \, -1)$を点$(\sqrt2, \, -\sqrt2)$に，
 点$(1, \, 1)$を点$(2a-\sqrt2, \, 2\sqrt2-2a)$に移す1次変換を$f$とする．
 さらに，直線$l:x+y=1$上の点$P_n$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$を次のように帰納的に定める．
 \begin{description}

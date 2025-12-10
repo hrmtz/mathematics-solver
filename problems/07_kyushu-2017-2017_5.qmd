@@ -3,6 +3,7 @@ title: "九州大学 2017年 2017_5"
 problem_id: "07_kyushu-2017-2017_5"
 university: "九州大学"
 exam_year: "2017"
+problem_number: 5
 source_tex: "archive/07_kyushu/2017/2017_5.tex"
 pdf_source: "archive/07_kyushu/2017/2017_5.pdf"
 page_image: "archive/07_kyushu/2017/2017_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　2つの複素数$\alpha=10000+10000i$と$\displaystyle w=\frac{\sqrt3}{4}+\frac{1}{4}i$を用いて，
+2つの複素数$\alpha=10000+10000i$と$\displaystyle w=\frac{\sqrt3}{4}+\frac{1}{4}i$を用いて，
 複素数平面上の点$P_n(z_n)$を$z_n=\alpha w^n$ $(n=1, \, 2, \, \cdots)$により定める。
 ただし，$i$は虚数単位を表す。
 2と3の常用対数を$\log_{10}2=0.301$，$\log_{10}3=0.477$として，以下の問いに答えよ。

@@ -3,6 +3,7 @@ title: "大阪大学 1997年 1997_a"
 problem_id: "06_osaka-1997-1997_a"
 university: "大阪大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/06_osaka/1997/1997_a.tex"
 pdf_source: "archive/06_osaka/1997/1997_a.pdf"
 page_image: "archive/06_osaka/1997/1997_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　行列$A=\begin{pmatrix} 0 & 1 
+行列$A=\begin{pmatrix} 0 & 1 
 
  -1 & 0 \end{pmatrix}$，
 $E=\begin{pmatrix} 1 & 0 

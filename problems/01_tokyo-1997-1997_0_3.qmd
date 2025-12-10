@@ -3,6 +3,7 @@ title: "東京大学 1997年 1997_0_3"
 problem_id: "01_tokyo-1997-1997_0_3"
 university: "東京大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/01_tokyo/1997/1997_0_3.tex"
 pdf_source: "archive/01_tokyo/1997/1997_0_3.pdf"
 page_image: "archive/01_tokyo/1997/1997_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$r$を正の数とする．
+$r$を正の数とする．
 $xyz$空間に原点$O(0,0,0)$と3点$A(1,0,0)$，$B(0,1,0)$，$C(0,0,1)$をとる．
 $xyz$空間の点$P$で
 \[ |\overrightarrow{PA}|=|\overrightarrow{PB}|=r|\overrightarrow{PO}|, \hspace{1zw}

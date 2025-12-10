@@ -3,6 +3,7 @@ title: "東北大学 2005年 2005_c"
 problem_id: "04_tohoku-2005-2005_c"
 university: "東北大学"
 exam_year: "2005"
+problem_number: 3
 source_tex: "archive/04_tohoku/2005/2005_c.tex"
 pdf_source: "archive/04_tohoku/2005/2005_c.pdf"
 page_image: "archive/04_tohoku/2005/2005_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$n$を2以上の整数とする．中の見えない袋に$2n$個の玉が入っていて，そのうち3個が赤で残りが白とする．
+$n$を2以上の整数とする．中の見えない袋に$2n$個の玉が入っていて，そのうち3個が赤で残りが白とする．
 $A$君と$B$君が交互に1個ずつ玉を取り出して，先に赤の玉を取り出した方が勝ちとする．
 取り出した玉は袋には戻さないとする．
 $A$君が先に取り始めるとき，$B$君が勝つ確率を求めよ．

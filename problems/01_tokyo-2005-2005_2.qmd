@@ -3,6 +3,7 @@ title: "東京大学 2005年 2005_2"
 problem_id: "01_tokyo-2005-2005_2"
 university: "東京大学"
 exam_year: "2005"
+problem_number: 2
 source_tex: "archive/01_tokyo/2005/2005_2.tex"
 pdf_source: "archive/01_tokyo/2005/2005_2.pdf"
 page_image: "archive/01_tokyo/2005/2005_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$\displaystyle |z|>\frac{5}{4}$となるどのような複素数$z$に対しても$w=z^2-2z$とは表されない複素数$w$全体の集合を$T$とする．
+$\displaystyle |z|>\frac{5}{4}$となるどのような複素数$z$に対しても$w=z^2-2z$とは表されない複素数$w$全体の集合を$T$とする．
 すなわち，
 
 \begin{center}

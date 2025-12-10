@@ -3,6 +3,7 @@ title: "九州大学 1964年 1964_0_2"
 problem_id: "07_kyushu-1964-1964_0_2"
 university: "九州大学"
 exam_year: "1964"
+problem_number: 2
 source_tex: "archive/07_kyushu/1964/1964_0_2.tex"
 pdf_source: "archive/07_kyushu/1964/1964_0_2.pdf"
 page_image: "archive/07_kyushu/1964/1964_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　1辺が定長$a$の菱形の形をいろいろ変えるとき，次の各問に答えよ。
+1辺が定長$a$の菱形の形をいろいろ変えるとき，次の各問に答えよ。
  
 
 ![](../archive/07_kyushu/1964/fig_1964_0_2.jpg)

@@ -3,6 +3,7 @@ title: "東北大学 1988年 1988_1"
 problem_id: "04_tohoku-1988-1988_1"
 university: "東北大学"
 exam_year: "1988"
+problem_number: 1
 source_tex: "archive/04_tohoku/1988/1988_1.tex"
 pdf_source: "archive/04_tohoku/1988/1988_1.pdf"
 page_image: "archive/04_tohoku/1988/1988_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　平面上に点$O$を中心とする半径5の円がある．
+平面上に点$O$を中心とする半径5の円がある．
 その周上に4点$A$，$B$，$C$，$D$がこの順序にあり，
 $\overrightarrow{OA}=-\overrightarrow{OD}$が成り立つ．
 線分$AC$と$BD$の交点を$P$とし，$\angle APB=\theta$とする．

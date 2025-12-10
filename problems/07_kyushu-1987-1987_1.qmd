@@ -3,6 +3,7 @@ title: "九州大学 1987年 1987_1"
 problem_id: "07_kyushu-1987-1987_1"
 university: "九州大学"
 exam_year: "1987"
+problem_number: 1
 source_tex: "archive/07_kyushu/1987/1987_1.tex"
 pdf_source: "archive/07_kyushu/1987/1987_1.pdf"
 page_image: "archive/07_kyushu/1987/1987_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　曲線$C:x^2+xy+y^2=k^2$ $(k>0)$と，
+曲線$C:x^2+xy+y^2=k^2$ $(k>0)$と，
 行列$A=\begin{pmatrix} 0 & -1 
 
  1 & 1 \end{pmatrix}$によって定義される1次変換$f$について，

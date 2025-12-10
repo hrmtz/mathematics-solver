@@ -3,6 +3,7 @@ title: "名古屋大学 2024年 2024_4"
 problem_id: "05_nagoya-2024-2024_4"
 university: "名古屋大学"
 exam_year: "2024"
+problem_number: 4
 source_tex: "archive/05_nagoya/2024/2024_4.tex"
 pdf_source: "archive/05_nagoya/2024/2024_4.pdf"
 page_image: "archive/05_nagoya/2024/2024_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　袋の中にいくつかの赤玉と白玉が入っている。
+袋の中にいくつかの赤玉と白玉が入っている。
 すべての玉に対する赤玉の割合を$p$ $(0 \leqq p \leqq 1)$とする。
 袋から無作為に玉を一つ取り出して袋に戻す試行を行う。
 試行を$n$回行うとき，赤玉を$k$回以上取り出す確率を$f(k)$とおく。

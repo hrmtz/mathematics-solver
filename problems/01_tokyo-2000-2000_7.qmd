@@ -3,6 +3,7 @@ title: "東京大学 2000年 2000_7"
 problem_id: "01_tokyo-2000-2000_7"
 university: "東京大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/01_tokyo/2000/2000_7.tex"
 pdf_source: "archive/01_tokyo/2000/2000_7.pdf"
 page_image: "archive/01_tokyo/2000/2000_7.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$k$を正整数とし，$x$を変数とする$k$次多項式$P_k(x)$について次の条件
+$k$を正整数とし，$x$を変数とする$k$次多項式$P_k(x)$について次の条件
 \[ \text{(C)} \hspace{1zw} \begin{cases} P_k(x)-P_k(x-1)=x^{k-1} 
 
  P_k(0)=0 \end{cases} \]

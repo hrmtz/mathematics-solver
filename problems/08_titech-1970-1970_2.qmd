@@ -3,6 +3,7 @@ title: "東京科学大学 1970年 1970_2"
 problem_id: "08_titech-1970-1970_2"
 university: "東京科学大学"
 exam_year: "1970"
+problem_number: 2
 source_tex: "archive/08_titech/1970/1970_2.tex"
 pdf_source: "archive/08_titech/1970/1970_2.pdf"
 page_image: "archive/08_titech/1970/1970_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>b>0)$について次の問いに答えよ．
+だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>b>0)$について次の問いに答えよ．
 \begin{description}
 \item[(1)]その焦点$F(ae, \, 0)$（ただし$e>0$とする）を極，
 $x$軸の正の方向を始線（原線）とする極方程式を求めよ．

@@ -3,6 +3,7 @@ title: "大阪大学 2003年 2003_3"
 problem_id: "06_osaka-2003-2003_3"
 university: "大阪大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/06_osaka/2003/2003_3.tex"
 pdf_source: "archive/06_osaka/2003/2003_3.pdf"
 page_image: "archive/06_osaka/2003/2003_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$f(x)$を$x$の整式とし，
 $\{ a_k \}$は$a_k<a_{k+1}$ $(k=1, \, 2, \, \cdots\cdots)$

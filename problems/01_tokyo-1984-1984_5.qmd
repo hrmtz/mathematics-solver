@@ -3,6 +3,7 @@ title: "東京大学 1984年 1984_5"
 problem_id: "01_tokyo-1984-1984_5"
 university: "東京大学"
 exam_year: "1984"
+problem_number: 5
 source_tex: "archive/01_tokyo/1984/1984_5.tex"
 pdf_source: "archive/01_tokyo/1984/1984_5.pdf"
 page_image: "archive/01_tokyo/1984/1984_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　各世代ごとに，各個体が，他の個体とは独立に，
+各世代ごとに，各個体が，他の個体とは独立に，
 確率$p$で1個，確率$1-p$で2個の新しい個体を次の世代に残し，
 それ自身は消滅する細胞がある．
 いま，第0世代に1個であった細胞が，

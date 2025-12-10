@@ -3,6 +3,7 @@ title: "東京科学大学 2005年 2005_2"
 problem_id: "08_titech-2005-2005_2"
 university: "東京科学大学"
 exam_year: "2005"
+problem_number: 2
 source_tex: "archive/08_titech/2005/2005_2.tex"
 pdf_source: "archive/08_titech/2005/2005_2.pdf"
 page_image: "archive/08_titech/2005/2005_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　1から6までの目が$\displaystyle\frac{1}{6}$の確率で出るサイコロを振り，1回目に出る目を$\alpha$，2回目に出る目を$\beta$とする．
+1から6までの目が$\displaystyle\frac{1}{6}$の確率で出るサイコロを振り，1回目に出る目を$\alpha$，2回目に出る目を$\beta$とする．
 2次式$(x-\alpha)(x-\beta)=x^2+sx+t$を$f(x)$とおき$f(x)^2=x^4+ax^3+bx^2+cx+d$とする．
 \begin{description}
 \item[(1)]$s$および$t$の期待値を求めよ．

@@ -3,6 +3,7 @@ title: "東京大学 1995年 1995_0_2"
 problem_id: "01_tokyo-1995-1995_0_2"
 university: "東京大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/01_tokyo/1995/1995_0_2.tex"
 pdf_source: "archive/01_tokyo/1995/1995_0_2.pdf"
 page_image: "archive/01_tokyo/1995/1995_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　自然数$k$に対し，$xy$平面上のベクトル
+自然数$k$に対し，$xy$平面上のベクトル
 \[ \vec{v}_k= \left( \cos\frac{k\pi}{4},\sin\frac{k\pi}{4} \right) \]
 を考える．$a$，$b$を正の数とし，平面上の点$P_0,P_1,\cdots,P_8$を
 \begin{description}

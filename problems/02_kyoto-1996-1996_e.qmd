@@ -3,6 +3,7 @@ title: "京都大学 1996年 1996_e"
 problem_id: "02_kyoto-1996-1996_e"
 university: "京都大学"
 exam_year: "1996"
+problem_number: 5
 source_tex: "archive/02_kyoto/1996/1996_e.tex"
 pdf_source: "archive/02_kyoto/1996/1996_e.pdf"
 page_image: "archive/02_kyoto/1996/1996_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$a$は与えられた実数で，$0<a\leqq1$をみたすものとする．
+$a$は与えられた実数で，$0<a\leqq1$をみたすものとする．
 $xyz$空間内に1辺の長さ$2a$の正三角形$\triangle PQR$を考える．
 辺$PQ$は$xy$平面上にあり，$\triangle PQR$を含む平面は$xy$平面と垂直で，さらに点$R$の$z$座標は正であるとする．
 \begin{description}

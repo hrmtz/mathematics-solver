@@ -3,6 +3,7 @@ title: "名古屋大学 1963年 1963_2"
 problem_id: "05_nagoya-1963-1963_2"
 university: "名古屋大学"
 exam_year: "1963"
+problem_number: 2
 source_tex: "archive/05_nagoya/1963/1963_2.tex"
 pdf_source: "archive/05_nagoya/1963/1963_2.pdf"
 page_image: "archive/05_nagoya/1963/1963_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　正方形$ABCD$とその内部の1点$P$がある。
+正方形$ABCD$とその内部の1点$P$がある。
 線分$AP$，$BP$，$CP$の長さがそれぞれ7，5，1であるとき，
 この正方形の面積を求めよ。
 

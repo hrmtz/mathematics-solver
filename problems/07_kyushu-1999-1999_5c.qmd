@@ -3,6 +3,7 @@ title: "九州大学 1999年 1999_5c"
 problem_id: "07_kyushu-1999-1999_5c"
 university: "九州大学"
 exam_year: "1999"
+problem_number: 5
 source_tex: "archive/07_kyushu/1999/1999_5c.tex"
 pdf_source: "archive/07_kyushu/1999/1999_5c.pdf"
 page_image: "archive/07_kyushu/1999/1999_5c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (c)
-　大きさ1の空間ベクトル$\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{c}$が
+大きさ1の空間ベクトル$\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{c}$が
 \[ \overrightarrow{a}\cdot\overrightarrow{b}=
 \overrightarrow{b}\cdot\overrightarrow{c}=-\frac{1}{2}, \hspace{1zw}
 \overrightarrow{a}\cdot\overrightarrow{c}=0 \]

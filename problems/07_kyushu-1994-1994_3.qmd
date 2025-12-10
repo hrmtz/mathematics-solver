@@ -3,6 +3,7 @@ title: "九州大学 1994年 1994_3"
 problem_id: "07_kyushu-1994-1994_3"
 university: "九州大学"
 exam_year: "1994"
+problem_number: 3
 source_tex: "archive/07_kyushu/1994/1994_3.tex"
 pdf_source: "archive/07_kyushu/1994/1994_3.pdf"
 page_image: "archive/07_kyushu/1994/1994_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$xy$座標平面で点$P$は点$A(1, \, 0)$を始点として，
+$xy$座標平面で点$P$は点$A(1, \, 0)$を始点として，
 原点$O$を中心とする半径1の円周上を正の向きに一定の速さで回転する．
 点$Q$は動径$OP$上を原点$O$から出発して一定の速さで$P$に向かって進み，
 点$P$が円を1周して点$A$に戻ってきた時にちょうど点$P$に到達するとする．

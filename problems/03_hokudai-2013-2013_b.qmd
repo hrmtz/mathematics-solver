@@ -3,6 +3,7 @@ title: "北海道大学 2013年 2013_b"
 problem_id: "03_hokudai-2013-2013_b"
 university: "北海道大学"
 exam_year: "2013"
+problem_number: 2
 source_tex: "archive/03_hokudai/2013/2013_b.tex"
 pdf_source: "archive/03_hokudai/2013/2013_b.pdf"
 page_image: "archive/03_hokudai/2013/2013_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$2 \times 2$行列$A$と$B$が$AB=BA$をみたすとき，$A$と$B$は交換可能であるという。
+$2 \times 2$行列$A$と$B$が$AB=BA$をみたすとき，$A$と$B$は交換可能であるという。
 \begin{description}
 \item[(1)]$A$と$B$が交換可能ならば，$AB$と$B$は交換可能であることを示せ。
 \item[(2)]行列$X$，$C$，$E$を

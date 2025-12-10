@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_c"
 problem_id: "07_kyushu-2000-2000_c"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 3
 source_tex: "archive/07_kyushu/2000/2000_c.tex"
 pdf_source: "archive/07_kyushu/2000/2000_c.pdf"
 page_image: "archive/07_kyushu/2000/2000_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　半直線$l$を図のように原点$O$から出る半直線とし，
+半直線$l$を図のように原点$O$から出る半直線とし，
 $x$軸となす角度を$\theta$とする（ただし，$0^\circ<\theta\leqq{90}^\circ$）．
 $A(1, \, 0)$，$B(2, \, 0)$は$x$軸上の点，$P$は$l$上の点とし，$r=OP$とおく．
 以下の問いに答えよ．

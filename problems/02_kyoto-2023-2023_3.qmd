@@ -3,6 +3,7 @@ title: "京都大学 2023年 2023_3"
 problem_id: "02_kyoto-2023-2023_3"
 university: "京都大学"
 exam_year: "2023"
+problem_number: 3
 source_tex: "archive/02_kyoto/2023/2023_3.tex"
 pdf_source: "archive/02_kyoto/2023/2023_3.pdf"
 page_image: "archive/02_kyoto/2023/2023_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$n$を自然数とする．
+$n$を自然数とする．
 1個のさいころを$n$回投げ，出た目を順に$X_1, \, X_2, \, \cdots\cdots, \, X_n$とし，
 $n$個の数の積$X_1 X_2 \cdots \cdots X_n$を$Y$とする．
 \begin{description}

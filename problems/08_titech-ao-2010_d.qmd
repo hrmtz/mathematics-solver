@@ -3,6 +3,7 @@ title: "東京科学大学 ao年 2010_d"
 problem_id: "08_titech-ao-2010_d"
 university: "東京科学大学"
 exam_year: "ao"
+problem_number: 4
 source_tex: "archive/08_titech/ao/2010_d.tex"
 pdf_source: "archive/08_titech/ao/2010_d.pdf"
 page_image: "archive/08_titech/ao/2010_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$xyz$空間内の3つの部分集合
+$xyz$空間内の3つの部分集合
 \[ A=\{(x,y,z)||x|\leqq1,y^2+z^2\leqq1\} \]
 \[ B=\{(x,y,z)||y|\leqq1,x^2+z^2\leqq1\} \]
 \[ C=\{(x,y,z)||z|\leqq1,x^2+y^2\leqq1\} \]

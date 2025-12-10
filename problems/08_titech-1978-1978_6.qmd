@@ -3,6 +3,7 @@ title: "東京科学大学 1978年 1978_6"
 problem_id: "08_titech-1978-1978_6"
 university: "東京科学大学"
 exam_year: "1978"
+problem_number: 6
 source_tex: "archive/08_titech/1978/1978_6.tex"
 pdf_source: "archive/08_titech/1978/1978_6.pdf"
 page_image: "archive/08_titech/1978/1978_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　積分
+積分
 \[ I(a)=\int_{-1}^1|x-a|e^xdx \]
 の$|a|\leqq1$における最大値を求めよ．
 

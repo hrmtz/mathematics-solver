@@ -3,6 +3,7 @@ title: "東京大学 1977年 1977_6b"
 problem_id: "01_tokyo-1977-1977_6b"
 university: "東京大学"
 exam_year: "1977"
+problem_number: 6
 source_tex: "archive/01_tokyo/1977/1977_6b.tex"
 pdf_source: "archive/01_tokyo/1977/1977_6b.pdf"
 page_image: "archive/01_tokyo/1977/1977_6b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6 旧
-　$a$を正の定数とし，$0 \leqq x \leqq 2\pi$の範囲で
+$a$を正の定数とし，$0 \leqq x \leqq 2\pi$の範囲で
 関数$\displaystyle f(x)=-\cos x-\frac{a}{4}\cos 2x$を考える．
 \begin{description}
 \item[i)]$f(x)$の最大値，最小値を求めよ．

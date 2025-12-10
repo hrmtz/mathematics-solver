@@ -3,6 +3,7 @@ title: "名古屋大学 1988年 1988_0_1"
 problem_id: "05_nagoya-1988-1988_0_1"
 university: "名古屋大学"
 exam_year: "1988"
+problem_number: 1
 source_tex: "archive/05_nagoya/1988/1988_0_1.tex"
 pdf_source: "archive/05_nagoya/1988/1988_0_1.pdf"
 page_image: "archive/05_nagoya/1988/1988_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$A$，$B$は$A^2-2AB+B^2=O$を満たす2次の正方行列とする．
+$A$，$B$は$A^2-2AB+B^2=O$を満たす2次の正方行列とする．
 ただし，$O$は零行列，$A$，$B$の各成分は実数とする．
 このとき，次の(1)，(2)を証明し，(3)に答えよ．
 \begin{description}

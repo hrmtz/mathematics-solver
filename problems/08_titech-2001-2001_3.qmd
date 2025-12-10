@@ -3,6 +3,7 @@ title: "東京科学大学 2001年 2001_3"
 problem_id: "08_titech-2001-2001_3"
 university: "東京科学大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/08_titech/2001/2001_3.tex"
 pdf_source: "archive/08_titech/2001/2001_3.pdf"
 page_image: "archive/08_titech/2001/2001_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　箱の中に1から$N$までの番号が一つずつ書かれた$N$枚のカードが入っている．
+箱の中に1から$N$までの番号が一つずつ書かれた$N$枚のカードが入っている．
 この箱から無作為にカードを1枚取り出して戻すという試行を$k$回行う．
 このとき，はじめから$j$回目$(j=1,\cdots\cdots,k)$までに取り出したカードの番号の和を$X_j$とし，
 $X_1,\cdots\cdots,X_k$のうちのどれかが$k$となる確率を$P_N(k)$とする．

@@ -3,6 +3,7 @@ title: "北海道大学 2004年 2004_c"
 problem_id: "03_hokudai-2004-2004_c"
 university: "北海道大学"
 exam_year: "2004"
+problem_number: 3
 source_tex: "archive/03_hokudai/2004/2004_c.tex"
 pdf_source: "archive/03_hokudai/2004/2004_c.pdf"
 page_image: "archive/03_hokudai/2004/2004_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$x=\sqrt{\cos2t} \, \cos t$，$y=\sqrt{\cos2t} \, \sin t$ $\displaystyle
+$x=\sqrt{\cos2t} \, \cos t$，$y=\sqrt{\cos2t} \, \sin t$ $\displaystyle
 \left( -\frac{\pi}{4} \leqq t \leqq \frac{\pi}{4} \right)$と
 媒介変数$t$で表される曲線を$C$とする．
 \begin{description}

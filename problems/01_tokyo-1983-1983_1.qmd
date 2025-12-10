@@ -3,6 +3,7 @@ title: "東京大学 1983年 1983_1"
 problem_id: "01_tokyo-1983-1983_1"
 university: "東京大学"
 exam_year: "1983"
+problem_number: 1
 source_tex: "archive/01_tokyo/1983/1983_1.tex"
 pdf_source: "archive/01_tokyo/1983/1983_1.pdf"
 page_image: "archive/01_tokyo/1983/1983_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　行列$A=\begin{pmatrix} a & b 
+行列$A=\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$が表す$xy$平面の1次変換$f$が，
 次の条件(1)，(2)をみたすとする．

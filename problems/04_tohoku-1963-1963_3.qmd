@@ -3,6 +3,7 @@ title: "東北大学 1963年 1963_3"
 problem_id: "04_tohoku-1963-1963_3"
 university: "東北大学"
 exam_year: "1963"
+problem_number: 3
 source_tex: "archive/04_tohoku/1963/1963_3.tex"
 pdf_source: "archive/04_tohoku/1963/1963_3.pdf"
 page_image: "archive/04_tohoku/1963/1963_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　次の不等式が$0 \leqq x \leqq 1$でつねに成り立つような$p$，$q$の値の範囲を求めよ。
+次の不等式が$0 \leqq x \leqq 1$でつねに成り立つような$p$，$q$の値の範囲を求めよ。
 \[ 1+px \leqq \frac{x^3+x^2+3x+1}{x+1} \leqq 1+qx \]
 
 ---

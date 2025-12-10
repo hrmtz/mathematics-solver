@@ -3,6 +3,7 @@ title: "京都大学 1988年 1988_0_1"
 problem_id: "02_kyoto-1988-1988_0_1"
 university: "京都大学"
 exam_year: "1988"
+problem_number: 1
 source_tex: "archive/02_kyoto/1988/1988_0_1.tex"
 pdf_source: "archive/02_kyoto/1988/1988_0_1.pdf"
 page_image: "archive/02_kyoto/1988/1988_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$は実数とする．
+$a$は実数とする．
 \begin{description}
 \item[(1)]方程式$x^4+2ax^2-a+2$が実数解をもたないような$a$の範囲を求めよ．
 \item[(2)]$x^4+2ax^2-a+2$の最小値を$m(a)$とする．

@@ -3,6 +3,7 @@ title: "九州大学 2014年 2014_1"
 problem_id: "07_kyushu-2014-2014_1"
 university: "九州大学"
 exam_year: "2014"
+problem_number: 1
 source_tex: "archive/07_kyushu/2014/2014_1.tex"
 pdf_source: "archive/07_kyushu/2014/2014_1.pdf"
 page_image: "archive/07_kyushu/2014/2014_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　関数$f(x)=x-\sin x$ $\displaystyle\left( 0 \leqq x \leqq \frac{\pi}{2} \right)$を考える。
+関数$f(x)=x-\sin x$ $\displaystyle\left( 0 \leqq x \leqq \frac{\pi}{2} \right)$を考える。
 曲線$y=f(x)$の接線で傾きが$\displaystyle\frac{1}{2}$となるものを$l$とする。
 \begin{description}
 \item[(1)]$l$の方程式と接点の座標$(a, \, b)$を求めよ。

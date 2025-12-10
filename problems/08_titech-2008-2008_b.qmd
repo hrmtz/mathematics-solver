@@ -3,6 +3,7 @@ title: "東京科学大学 2008年 2008_b"
 problem_id: "08_titech-2008-2008_b"
 university: "東京科学大学"
 exam_year: "2008"
+problem_number: 2
 source_tex: "archive/08_titech/2008/2008_b.tex"
 pdf_source: "archive/08_titech/2008/2008_b.pdf"
 page_image: "archive/08_titech/2008/2008_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　自然数$n$に対して
+自然数$n$に対して
 \[ I_n = \int_0^1 x^2 |\sin n \pi x| dx \]
 とおく．極限値$\displaystyle\lim_{n\to\infty}I_n$を求めよ．
 

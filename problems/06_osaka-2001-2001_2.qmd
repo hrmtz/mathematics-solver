@@ -3,6 +3,7 @@ title: "大阪大学 2001年 2001_2"
 problem_id: "06_osaka-2001-2001_2"
 university: "大阪大学"
 exam_year: "2001"
+problem_number: 2
 source_tex: "archive/06_osaka/2001/2001_2.tex"
 pdf_source: "archive/06_osaka/2001/2001_2.pdf"
 page_image: "archive/06_osaka/2001/2001_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$f(x)=x^4+x^3-3x^2$とおく．
+$f(x)=x^4+x^3-3x^2$とおく．
 曲線$y=f(x)$に点$(0,a)$から接線がただひとつ引けるとし，
 しかもその接線はただ1点でこの曲線に接するとする．
 このときの$a$の値を求めよ．

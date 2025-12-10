@@ -3,6 +3,7 @@ title: "京都大学 2013年 2013_0_3"
 problem_id: "02_kyoto-2013-2013_0_3"
 university: "京都大学"
 exam_year: "2013"
+problem_number: 3
 source_tex: "archive/02_kyoto/2013/2013_0_3.tex"
 pdf_source: "archive/02_kyoto/2013/2013_0_3.pdf"
 page_image: "archive/02_kyoto/2013/2013_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$n$と$k$を自然数とし，整式$x^n$を整式$(x-k)(x-k-1)$で割った余りを$ax+b$とする．
+$n$と$k$を自然数とし，整式$x^n$を整式$(x-k)(x-k-1)$で割った余りを$ax+b$とする．
 \begin{description}
 \item[(1)]$a$と$b$は整数であることを示せ．
 \item[(2)]$a$と$b$をともに割り切る素数は存在しないことを示せ．

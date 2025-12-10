@@ -3,6 +3,7 @@ title: "大阪大学 1997年 1997_0_2"
 problem_id: "06_osaka-1997-1997_0_2"
 university: "大阪大学"
 exam_year: "1997"
+problem_number: 2
 source_tex: "archive/06_osaka/1997/1997_0_2.tex"
 pdf_source: "archive/06_osaka/1997/1997_0_2.pdf"
 page_image: "archive/06_osaka/1997/1997_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$は1より小さい正の定数とする．
+$a$は1より小さい正の定数とする．
 $xy$平面の第1象限に，原点$O$からの距離が$a$の点$P$をとる．
 点$P$を中心に半径1の円をえがき，
 $x$軸との交点を$A$，$C$，$y$軸との交点を$B$，$D$とする．

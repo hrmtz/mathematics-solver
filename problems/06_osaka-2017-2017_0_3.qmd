@@ -3,6 +3,7 @@ title: "大阪大学 2017年 2017_0_3"
 problem_id: "06_osaka-2017-2017_0_3"
 university: "大阪大学"
 exam_year: "2017"
+problem_number: 3
 source_tex: "archive/06_osaka/2017/2017_0_3.tex"
 pdf_source: "archive/06_osaka/2017/2017_0_3.pdf"
 page_image: "archive/06_osaka/2017/2017_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　次の条件によって定められる数列$\{ a_n \}$がある．
+次の条件によって定められる数列$\{ a_n \}$がある．
 \[ a_1=2, \hspace{1zw} a_{n+1}=8{a_n}^2 \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
 \begin{description}
 \item[(1)]$b_n=\log_2a_n$とおく．$b_{n+1}$を$b_n$を用いてあらわせ．

@@ -3,6 +3,7 @@ title: "大阪大学 2010年 2010_0_2"
 problem_id: "06_osaka-2010-2010_0_2"
 university: "大阪大学"
 exam_year: "2010"
+problem_number: 2
 source_tex: "archive/06_osaka/2010/2010_0_2.tex"
 pdf_source: "archive/06_osaka/2010/2010_0_2.pdf"
 page_image: "archive/06_osaka/2010/2010_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　連立方程式$\begin{cases} 2^x+3^y=43 
+連立方程式$\begin{cases} 2^x+3^y=43 
 
  \log_2x-\log_3y=1 \end{cases}$を考える．
 \begin{description}

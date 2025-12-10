@@ -3,6 +3,7 @@ title: "東京大学 1963年 1963_1"
 problem_id: "01_tokyo-1963-1963_1"
 university: "東京大学"
 exam_year: "1963"
+problem_number: 1
 source_tex: "archive/01_tokyo/1963/1963_1.tex"
 pdf_source: "archive/01_tokyo/1963/1963_1.pdf"
 page_image: "archive/01_tokyo/1963/1963_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　直方体の一つの頂点$O$から出る三つの辺を$OA$，$OB$，$OC$とし，
+直方体の一つの頂点$O$から出る三つの辺を$OA$，$OB$，$OC$とし，
 $O$から最も遠い頂点を$D$とする．
 $BC=a$，$CA=b$，$AB=c$とするとき，$OD$の長さを$a$，$b$，$c$で表わせ．
 また，$a=5$，$b=3$のとき，$c$のとりうる値の範囲を求めよ．

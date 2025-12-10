@@ -3,6 +3,7 @@ title: "東京大学 1984年 1984_1"
 problem_id: "01_tokyo-1984-1984_1"
 university: "東京大学"
 exam_year: "1984"
+problem_number: 1
 source_tex: "archive/01_tokyo/1984/1984_1.tex"
 pdf_source: "archive/01_tokyo/1984/1984_1.pdf"
 page_image: "archive/01_tokyo/1984/1984_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　空間内の点の集合$\{ (x,y,z)| 0\leqq y,0\leqq z \}$に含まれ，
+空間内の点の集合$\{ (x,y,z)| 0\leqq y,0\leqq z \}$に含まれ，
 原点$O$において$x$軸に接し，
 $xy$平面と45$^\circ$の傾きをなす，
 半径1の円板$C$がある．

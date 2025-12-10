@@ -3,6 +3,7 @@ title: "東北大学 2015年 2015_4"
 problem_id: "04_tohoku-2015-2015_4"
 university: "東北大学"
 exam_year: "2015"
+problem_number: 4
 source_tex: "archive/04_tohoku/2015/2015_4.tex"
 pdf_source: "archive/04_tohoku/2015/2015_4.pdf"
 page_image: "archive/04_tohoku/2015/2015_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a>0$を実数とする。$n=1, \, 2, \, 3, \, \dots$に対し、座標平面の3点
+$a>0$を実数とする。$n=1, \, 2, \, 3, \, \dots$に対し、座標平面の3点
 \[ \left(2n\pi, \, 0\right), \hspace{1zw} \left((2n+\frac{1}{2})\pi, \,
 \frac{1}{{\{(2n+\frac{1}{2})\pi\}}^a}\right), \hspace{1zw} \left((2n+1)\pi, \, 0\right) \]
 を頂点とする三角形の面積を$A_n$とし、

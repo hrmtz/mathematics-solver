@@ -3,6 +3,7 @@ title: "九州大学 1992年 1992_b"
 problem_id: "07_kyushu-1992-1992_b"
 university: "九州大学"
 exam_year: "1992"
+problem_number: 2
 source_tex: "archive/07_kyushu/1992/1992_b.tex"
 pdf_source: "archive/07_kyushu/1992/1992_b.pdf"
 page_image: "archive/07_kyushu/1992/1992_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　1辺の長さが1である正三角形$\triangle ABC$において，
+1辺の長さが1である正三角形$\triangle ABC$において，
 辺$AB$上に点$P_0, \, P_1, \, \cdots\cdots, \, P_n, \, \cdots\cdots$，
 辺$BC$上に点$Q_0, \, Q_1, \, \cdots\cdots, \, Q_n, \, \cdots\cdots$，
 辺$CA$上に点$R_0, \, R_1, \, \cdots\cdots, \, R_n, \, \cdots\cdots$が，

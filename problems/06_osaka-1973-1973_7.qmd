@@ -3,6 +3,7 @@ title: "大阪大学 1973年 1973_7"
 problem_id: "06_osaka-1973-1973_7"
 university: "大阪大学"
 exam_year: "1973"
+problem_number: 7
 source_tex: "archive/06_osaka/1973/1973_7.tex"
 pdf_source: "archive/06_osaka/1973/1973_7.pdf"
 page_image: "archive/06_osaka/1973/1973_7.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-7
 \begin{description}
 \item[(1)]$\sin A\sin C=\sin B\sin D$のとき，
 4角形$ABCD$は台形であることを証明せよ．

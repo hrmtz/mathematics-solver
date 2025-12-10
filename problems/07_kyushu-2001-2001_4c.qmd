@@ -3,6 +3,7 @@ title: "九州大学 2001年 2001_4c"
 problem_id: "07_kyushu-2001-2001_4c"
 university: "九州大学"
 exam_year: "2001"
+problem_number: 4
 source_tex: "archive/07_kyushu/2001/2001_4c.tex"
 pdf_source: "archive/07_kyushu/2001/2001_4c.pdf"
 page_image: "archive/07_kyushu/2001/2001_4c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (c)
-　$m$，$n$を自然数とする．次の算法を考える．
+$m$，$n$を自然数とする．次の算法を考える．
 \begin{description}
 \item[(a)]$i=m$，$j=n$，$k=0$．
 \item[(b)]$i=1$ならば$Ans=k+j$として終了する．

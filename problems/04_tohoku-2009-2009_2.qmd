@@ -3,6 +3,7 @@ title: "東北大学 2009年 2009_2"
 problem_id: "04_tohoku-2009-2009_2"
 university: "東北大学"
 exam_year: "2009"
+problem_number: 2
 source_tex: "archive/04_tohoku/2009/2009_2.tex"
 pdf_source: "archive/04_tohoku/2009/2009_2.pdf"
 page_image: "archive/04_tohoku/2009/2009_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$L$を2以上の自然数，$a$を$0<a<1$を満たす実数とする．
+$L$を2以上の自然数，$a$を$0<a<1$を満たす実数とする．
 縦$1cm$，横$(L+1)cm$の長方形の紙を用いて，
 次のように長方形$A$，$B$を作る．
 　長方形$A$の作り方．

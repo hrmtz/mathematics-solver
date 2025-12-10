@@ -3,6 +3,7 @@ title: "東京科学大学 2007年 2007_2"
 problem_id: "08_titech-2007-2007_2"
 university: "東京科学大学"
 exam_year: "2007"
+problem_number: 2
 source_tex: "archive/08_titech/2007/2007_2.tex"
 pdf_source: "archive/08_titech/2007/2007_2.pdf"
 page_image: "archive/08_titech/2007/2007_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　正数$a$に対して，放物線$y=x^2$上の点$A(a,a^2)$における接線を，$A$を中心に$-30^\circ$回転した直線を$l$とする．
+正数$a$に対して，放物線$y=x^2$上の点$A(a,a^2)$における接線を，$A$を中心に$-30^\circ$回転した直線を$l$とする．
 $l$と$y=x^2$との交点で$A$でない方を$B$とする．
 さらに点$(a,0)$を$C$，原点を$O$とする．
 \begin{description}

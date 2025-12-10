@@ -3,6 +3,7 @@ title: "大阪大学 2008年 2008_0_2"
 problem_id: "06_osaka-2008-2008_0_2"
 university: "大阪大学"
 exam_year: "2008"
+problem_number: 2
 source_tex: "archive/06_osaka/2008/2008_0_2.tex"
 pdf_source: "archive/06_osaka/2008/2008_0_2.pdf"
 page_image: "archive/06_osaka/2008/2008_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　実数$a$，$b$を係数に含む3次式$P(x)=x^3+3ax^2+3ax+b$を考える．
+実数$a$，$b$を係数に含む3次式$P(x)=x^3+3ax^2+3ax+b$を考える．
 $P(x)$の複素数の範囲における因数分解を$P(x)=(x-\alpha)(x-\beta)(x-\gamma)$とする．
 $\alpha$，$\beta$，$\gamma$の間に$\alpha+\gamma=2\beta$という関係があるとき，
 以下の問いに答えよ．

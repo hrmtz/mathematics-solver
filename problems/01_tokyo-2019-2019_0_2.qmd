@@ -3,6 +3,7 @@ title: "東京大学 2019年 2019_0_2"
 problem_id: "01_tokyo-2019-2019_0_2"
 university: "東京大学"
 exam_year: "2019"
+problem_number: 2
 source_tex: "archive/01_tokyo/2019/2019_0_2.tex"
 pdf_source: "archive/01_tokyo/2019/2019_0_2.pdf"
 page_image: "archive/01_tokyo/2019/2019_0_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$O$を原点とする座標平面において，点$A(2, \, 2)$を通り，線分$OA$と垂直な直線を$l$とする。
+$O$を原点とする座標平面において，点$A(2, \, 2)$を通り，線分$OA$と垂直な直線を$l$とする。
 座標平面上を点$P(p, \, q)$が次の2つの条件をみたしながら動く。
 \begin{description}
 \item[条件1：]$8 \leqq \overrightarrow{OA}\cdot\overrightarrow{OP} \leqq 17$

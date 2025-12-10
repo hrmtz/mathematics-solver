@@ -3,6 +3,7 @@ title: "京都大学 1970年 1970_0_5"
 problem_id: "02_kyoto-1970-1970_0_5"
 university: "京都大学"
 exam_year: "1970"
+problem_number: 5
 source_tex: "archive/02_kyoto/1970/1970_0_5.tex"
 pdf_source: "archive/02_kyoto/1970/1970_0_5.pdf"
 page_image: "archive/02_kyoto/1970/1970_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　点$(a,b)$は直線$y=2x-2$の上にある，直線$y=2ax-b$と放物線$y=x^2$との囲む部分の面積を求めよ．
+点$(a,b)$は直線$y=2x-2$の上にある，直線$y=2ax-b$と放物線$y=x^2$との囲む部分の面積を求めよ．
 また，この面積を最小にする$a$の値を定めよ．
 
 ---

@@ -3,6 +3,7 @@ title: "九州大学 1991年 1991_b"
 problem_id: "07_kyushu-1991-1991_b"
 university: "九州大学"
 exam_year: "1991"
+problem_number: 2
 source_tex: "archive/07_kyushu/1991/1991_b.tex"
 pdf_source: "archive/07_kyushu/1991/1991_b.pdf"
 page_image: "archive/07_kyushu/1991/1991_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$f_n(\theta)=\cos n\theta$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$とおく．
+$f_n(\theta)=\cos n\theta$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$とおく．
 \begin{description}
 \item[(1)]$f_{n+2}(\theta)+f_n(\theta)=2f_1(\theta)f_{n+1}(\theta)$を示せ．
 \item[(2)]$f_n(\theta)$ $(n\geqq1)$は$\cos\theta$の$n$次式であることを示せ．

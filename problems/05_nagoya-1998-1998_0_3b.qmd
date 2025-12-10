@@ -3,6 +3,7 @@ title: "名古屋大学 1998年 1998_0_3b"
 problem_id: "05_nagoya-1998-1998_0_3b"
 university: "名古屋大学"
 exam_year: "1998"
+problem_number: 3
 source_tex: "archive/05_nagoya/1998/1998_0_3b.tex"
 pdf_source: "archive/05_nagoya/1998/1998_0_3b.pdf"
 page_image: "archive/05_nagoya/1998/1998_0_3b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3 (b)
-　2つの実数$a$，$b$ $\displaystyle\left( a\neq-\frac{1}{2} \right)$に対し，
+2つの実数$a$，$b$ $\displaystyle\left( a\neq-\frac{1}{2} \right)$に対し，
 $A_1=\begin{pmatrix} a & 0 
 
  b & a \end{pmatrix}$とし，

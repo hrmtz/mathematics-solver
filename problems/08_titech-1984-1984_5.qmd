@@ -3,6 +3,7 @@ title: "東京科学大学 1984年 1984_5"
 problem_id: "08_titech-1984-1984_5"
 university: "東京科学大学"
 exam_year: "1984"
+problem_number: 5
 source_tex: "archive/08_titech/1984/1984_5.tex"
 pdf_source: "archive/08_titech/1984/1984_5.pdf"
 page_image: "archive/08_titech/1984/1984_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　2つの曲線$y=\tan x$，$y=\cos x$ $\displaystyle\left( -\frac{\pi}{2}<x<\frac{\pi}{2} \right)$の
+2つの曲線$y=\tan x$，$y=\cos x$ $\displaystyle\left( -\frac{\pi}{2}<x<\frac{\pi}{2} \right)$の
 交点における曲線$y=\tan x$の接線を$l$とするとき，
 第1象限にあって，$l$と$x$軸および曲線$y=\tan x$により囲まれる部分の面積を求めよ．
 

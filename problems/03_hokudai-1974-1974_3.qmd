@@ -3,6 +3,7 @@ title: "北海道大学 1974年 1974_3"
 problem_id: "03_hokudai-1974-1974_3"
 university: "北海道大学"
 exam_year: "1974"
+problem_number: 3
 source_tex: "archive/03_hokudai/1974/1974_3.tex"
 pdf_source: "archive/03_hokudai/1974/1974_3.pdf"
 page_image: "archive/03_hokudai/1974/1974_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　各項が正である数列$\{ a_n \}$が，すべての自然数$n$について
+各項が正である数列$\{ a_n \}$が，すべての自然数$n$について
 \[ 2a_{2n}=a_{2n-1}+a_{2n+1}\cdots\cdots\text{\ding{"AC}} \]
 \[ {a_{2n+1}}^2=a_{2n}a_{2n+2}\cdots\cdots\text{\ding{"AD}} \]
 を満たすものとする．

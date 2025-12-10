@@ -3,6 +3,7 @@ title: "東北大学 2024年 2024_2"
 problem_id: "04_tohoku-2024-2024_2"
 university: "東北大学"
 exam_year: "2024"
+problem_number: 2
 source_tex: "archive/04_tohoku/2024/2024_2.tex"
 pdf_source: "archive/04_tohoku/2024/2024_2.pdf"
 page_image: "archive/04_tohoku/2024/2024_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　以下の問いに答えよ。
+以下の問いに答えよ。
 \begin{description}
 \item[(1)]$t$を$t>1$を満たす実数とする。正の実数$x$が2つの条件
 \begin{description}

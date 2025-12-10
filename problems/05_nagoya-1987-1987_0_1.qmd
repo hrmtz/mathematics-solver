@@ -3,6 +3,7 @@ title: "名古屋大学 1987年 1987_0_1"
 problem_id: "05_nagoya-1987-1987_0_1"
 university: "名古屋大学"
 exam_year: "1987"
+problem_number: 1
 source_tex: "archive/05_nagoya/1987/1987_0_1.tex"
 pdf_source: "archive/05_nagoya/1987/1987_0_1.pdf"
 page_image: "archive/05_nagoya/1987/1987_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$を実数で$b\geqq0$とする．
+$a$，$b$を実数で$b\geqq0$とする．
 関数$f(x)=ax-bx^2$が次の2つの条件を満たすとする．
 \begin{description}
 \item[(i)]$0 \leqq x \leqq 1$に対して$f(x)\geqq0$

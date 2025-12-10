@@ -3,6 +3,7 @@ title: "大阪大学 1989年 1989_0_3"
 problem_id: "06_osaka-1989-1989_0_3"
 university: "大阪大学"
 exam_year: "1989"
+problem_number: 3
 source_tex: "archive/06_osaka/1989/1989_0_3.tex"
 pdf_source: "archive/06_osaka/1989/1989_0_3.pdf"
 page_image: "archive/06_osaka/1989/1989_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　関数$f(x)=ax^3+bx^2+cx+d$は$x=3$のとき極小値0をとり，
+関数$f(x)=ax^3+bx^2+cx+d$は$x=3$のとき極小値0をとり，
 曲線$y=f(x)$上の点$(1, \, 8)$における接線が$(3, \, 0)$を通るとする．
 このとき，
 \begin{description}

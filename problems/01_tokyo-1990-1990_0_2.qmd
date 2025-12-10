@@ -3,6 +3,7 @@ title: "東京大学 1990年 1990_0_2"
 problem_id: "01_tokyo-1990-1990_0_2"
 university: "東京大学"
 exam_year: "1990"
+problem_number: 2
 source_tex: "archive/01_tokyo/1990/1990_0_2.tex"
 pdf_source: "archive/01_tokyo/1990/1990_0_2.pdf"
 page_image: "archive/01_tokyo/1990/1990_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　3次方程式$x^3+3x^2-1=0$の一つの解を$\alpha$とする．
+3次方程式$x^3+3x^2-1=0$の一つの解を$\alpha$とする．
 \begin{description}
 \item[(1)]${(2\alpha^2+5\alpha-1)}^2$を$a\alpha^2+b\alpha+c$の形の式で表せ．
 ただし$a$，$b$，$c$は有理数とする．

@@ -3,6 +3,7 @@ title: "九州大学 2002年 2002_1"
 problem_id: "07_kyushu-2002-2002_1"
 university: "九州大学"
 exam_year: "2002"
+problem_number: 1
 source_tex: "archive/07_kyushu/2002/2002_1.tex"
 pdf_source: "archive/07_kyushu/2002/2002_1.pdf"
 page_image: "archive/07_kyushu/2002/2002_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　平面上を運動する点$P(x, \, y)$の時刻$t$での$x$座標と$y$座標が
+平面上を運動する点$P(x, \, y)$の時刻$t$での$x$座標と$y$座標が
 \[ x=\frac{e^t-e^{-t}}{2}, \hspace{1zw} y=\frac{e^t+e^{-t}}{2} \]
 で表されている．
 ただし，$e$は自然対数の底である．

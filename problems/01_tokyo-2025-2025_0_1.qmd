@@ -3,6 +3,7 @@ title: "東京大学 2025年 2025_0_1"
 problem_id: "01_tokyo-2025-2025_0_1"
 university: "東京大学"
 exam_year: "2025"
+problem_number: 1
 source_tex: "archive/01_tokyo/2025/2025_0_1.tex"
 pdf_source: "archive/01_tokyo/2025/2025_0_1.pdf"
 page_image: "archive/01_tokyo/2025/2025_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$を正の実数とする。
+$a$を正の実数とする。
 座標平面において，
 放物線$C:y=x^2$上の点$P(a, \, a^2)$における$C$の接線と直交し，
 $P$を通る直線を$l$とおく。

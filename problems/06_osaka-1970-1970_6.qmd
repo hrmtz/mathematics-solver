@@ -3,6 +3,7 @@ title: "大阪大学 1970年 1970_6"
 problem_id: "06_osaka-1970-1970_6"
 university: "大阪大学"
 exam_year: "1970"
+problem_number: 6
 source_tex: "archive/06_osaka/1970/1970_6.tex"
 pdf_source: "archive/06_osaka/1970/1970_6.pdf"
 page_image: "archive/06_osaka/1970/1970_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　整数$a$，$b$を係数とする2次方程式
+整数$a$，$b$を係数とする2次方程式
 \[ x^2+ax+b=0 \]
 の2根を$\alpha$，$\beta$とする．
 和$\displaystyle\sum_{r=0}^n\alpha^{n-r}\beta^r$は，

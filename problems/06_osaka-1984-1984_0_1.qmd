@@ -3,6 +3,7 @@ title: "大阪大学 1984年 1984_0_1"
 problem_id: "06_osaka-1984-1984_0_1"
 university: "大阪大学"
 exam_year: "1984"
+problem_number: 1
 source_tex: "archive/06_osaka/1984/1984_0_1.tex"
 pdf_source: "archive/06_osaka/1984/1984_0_1.pdf"
 page_image: "archive/06_osaka/1984/1984_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標平面上に3点$A(0, \, 1)$，$B(-1, \, 0)$，$C(1, \, 0)$がある．
+座標平面上に3点$A(0, \, 1)$，$B(-1, \, 0)$，$C(1, \, 0)$がある．
 $x$軸上の動点$P(t, \, 0)$ $(t>1)$に対して，
 線分$AC$上の点$Q$を$\displaystyle\frac{QC}{AQ}=\frac{t-1}{2t-1}$であるようにとる．
 \begin{description}

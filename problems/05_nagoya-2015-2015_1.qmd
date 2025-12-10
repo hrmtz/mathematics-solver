@@ -3,6 +3,7 @@ title: "名古屋大学 2015年 2015_1"
 problem_id: "05_nagoya-2015-2015_1"
 university: "名古屋大学"
 exam_year: "2015"
+problem_number: 1
 source_tex: "archive/05_nagoya/2015/2015_1.tex"
 pdf_source: "archive/05_nagoya/2015/2015_1.pdf"
 page_image: "archive/05_nagoya/2015/2015_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の問に答えよ。
+次の問に答えよ。
 \begin{description}
 \item[(1)]関数$f(x)=x^{-2}2^x$ $(x \neq 0)$について，$f'(x)>0$となるための$x$に関する条件を求めよ。
 \item[(2)]方程式$2^x=x^2$は相異なる3個の実数解をもつことを示せ。

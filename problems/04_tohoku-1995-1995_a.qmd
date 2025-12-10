@@ -3,6 +3,7 @@ title: "東北大学 1995年 1995_a"
 problem_id: "04_tohoku-1995-1995_a"
 university: "東北大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/04_tohoku/1995/1995_a.tex"
 pdf_source: "archive/04_tohoku/1995/1995_a.pdf"
 page_image: "archive/04_tohoku/1995/1995_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　空間に3点
+空間に3点
 \[ A(\sqrt2, \, \sqrt2, \, 0), \hspace{1zw} B(1, \, -1, \, \sqrt2), \hspace{1zw} C(-1, \, 1, \, \sqrt2) \]
 が与えられている．
 \begin{description}

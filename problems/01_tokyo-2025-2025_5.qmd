@@ -3,6 +3,7 @@ title: "東京大学 2025年 2025_5"
 problem_id: "01_tokyo-2025-2025_5"
 university: "東京大学"
 exam_year: "2025"
+problem_number: 5
 source_tex: "archive/01_tokyo/2025/2025_5.tex"
 pdf_source: "archive/01_tokyo/2025/2025_5.pdf"
 page_image: "archive/01_tokyo/2025/2025_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$n$を2以上の整数とする。1から$n$までの数字が書かれた札が各1枚ずつ合計$n$枚あり，横一列におかれている。
+$n$を2以上の整数とする。1から$n$までの数字が書かれた札が各1枚ずつ合計$n$枚あり，横一列におかれている。
 1以上$(n-1)$以下の整数$i$に対して，次の操作$(T_i)$を考える。
 \begin{description}
 \item[($T_i$)]左から$i$番目の札の数字が，左から$(i+1)$番目の札の数字よりも大きければ，

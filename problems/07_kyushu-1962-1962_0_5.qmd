@@ -3,6 +3,7 @@ title: "九州大学 1962年 1962_0_5"
 problem_id: "07_kyushu-1962-1962_0_5"
 university: "九州大学"
 exam_year: "1962"
+problem_number: 5
 source_tex: "archive/07_kyushu/1962/1962_0_5.tex"
 pdf_source: "archive/07_kyushu/1962/1962_0_5.pdf"
 page_image: "archive/07_kyushu/1962/1962_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　曲線$\displaystyle y=x+4+\frac{4}{x-1}\cdots\cdots\cdots\text{\ding{"AC}}$について次の問に答えよ。
+曲線$\displaystyle y=x+4+\frac{4}{x-1}\cdots\cdots\cdots\text{\ding{"AC}}$について次の問に答えよ。
 \begin{description}
 \item[(1)]曲線\ding{"AC}と$x$軸および$y$軸との交点の座標を求めよ。
 \item[(2)]曲線\ding{"AC}上の点$P$の$x$座標を$\alpha$とし

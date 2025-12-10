@@ -3,6 +3,7 @@ title: "名古屋大学 1966年 1966_4"
 problem_id: "05_nagoya-1966-1966_4"
 university: "名古屋大学"
 exam_year: "1966"
+problem_number: 4
 source_tex: "archive/05_nagoya/1966/1966_4.tex"
 pdf_source: "archive/05_nagoya/1966/1966_4.pdf"
 page_image: "archive/05_nagoya/1966/1966_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　和が1である無限等比級数の第$n$項がとりうる値の範囲を求めよ．
+和が1である無限等比級数の第$n$項がとりうる値の範囲を求めよ．
 
 ---
 

@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_6"
 problem_id: "02_kyoto-1995-1995_6"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 6
 source_tex: "archive/02_kyoto/1995/1995_6.tex"
 pdf_source: "archive/02_kyoto/1995/1995_6.pdf"
 page_image: "archive/02_kyoto/1995/1995_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　深さ$h$の容器がある．
+深さ$h$の容器がある．
 底は半径$a$ $(>0)$の円板，側面は$x=f(y)$，$0 \leqq y \leqq h$のグラフを$y$軸のまわりに回転したものである．
 ただし$f(y)$は正の連続関数で$f(0)=a$とする．
 この容器に単位時間当り$V$(一定)の割合で水を入れたとき，$T$時間後に一杯になり，

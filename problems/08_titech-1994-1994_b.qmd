@@ -3,6 +3,7 @@ title: "東京科学大学 1994年 1994_b"
 problem_id: "08_titech-1994-1994_b"
 university: "東京科学大学"
 exam_year: "1994"
+problem_number: 2
 source_tex: "archive/08_titech/1994/1994_b.tex"
 pdf_source: "archive/08_titech/1994/1994_b.pdf"
 page_image: "archive/08_titech/1994/1994_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　自然数$n=1,2,3,\cdots\cdots$に対して，$(2-\sqrt{3})^n$という形の数を考える．
+自然数$n=1,2,3,\cdots\cdots$に対して，$(2-\sqrt{3})^n$という形の数を考える．
 これらの数はいずれも，それぞれ適当な自然数$m$が存在して$\sqrt{m}-\sqrt{m-1}$という表示をもつことを示せ．
 
 ---

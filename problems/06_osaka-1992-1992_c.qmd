@@ -3,6 +3,7 @@ title: "大阪大学 1992年 1992_c"
 problem_id: "06_osaka-1992-1992_c"
 university: "大阪大学"
 exam_year: "1992"
+problem_number: 3
 source_tex: "archive/06_osaka/1992/1992_c.tex"
 pdf_source: "archive/06_osaka/1992/1992_c.pdf"
 page_image: "archive/06_osaka/1992/1992_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　赤玉，白玉，青玉が各々$a$，$b$，$c$ $(0 < a \leqq b \leqq c)$個入った箱から
+赤玉，白玉，青玉が各々$a$，$b$，$c$ $(0 < a \leqq b \leqq c)$個入った箱から
 2個の玉を同時に取り出すことを考える．
 \begin{description}
 \item[(1)]　$n=a+b+c$，$s=a^2+b^2+c^2$とする．

@@ -3,6 +3,7 @@ title: "東北大学 1982年 1982_5"
 problem_id: "04_tohoku-1982-1982_5"
 university: "東北大学"
 exam_year: "1982"
+problem_number: 5
 source_tex: "archive/04_tohoku/1982/1982_5.tex"
 pdf_source: "archive/04_tohoku/1982/1982_5.pdf"
 page_image: "archive/04_tohoku/1982/1982_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　行列$A=\begin{pmatrix} 2a & b 
+行列$A=\begin{pmatrix} 2a & b 
 
  b & a \end{pmatrix}$ $\displaystyle \left( a\leqq\frac{1}{2}, \, b\geqq0 \right)$について，
 次の問に答えよ．

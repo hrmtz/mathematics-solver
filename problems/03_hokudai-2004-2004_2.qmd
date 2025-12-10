@@ -3,6 +3,7 @@ title: "北海道大学 2004年 2004_2"
 problem_id: "03_hokudai-2004-2004_2"
 university: "北海道大学"
 exam_year: "2004"
+problem_number: 2
 source_tex: "archive/03_hokudai/2004/2004_2.tex"
 pdf_source: "archive/03_hokudai/2004/2004_2.pdf"
 page_image: "archive/03_hokudai/2004/2004_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$A$を2次の正方行列$A=\begin{pmatrix} a & b 
+$A$を2次の正方行列$A=\begin{pmatrix} a & b 
 
  c & -a \end{pmatrix}$(ただし，$bc\neq0$)，
 $k$を実数とする．

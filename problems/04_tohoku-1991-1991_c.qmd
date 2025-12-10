@@ -3,6 +3,7 @@ title: "東北大学 1991年 1991_c"
 problem_id: "04_tohoku-1991-1991_c"
 university: "東北大学"
 exam_year: "1991"
+problem_number: 3
 source_tex: "archive/04_tohoku/1991/1991_c.tex"
 pdf_source: "archive/04_tohoku/1991/1991_c.pdf"
 page_image: "archive/04_tohoku/1991/1991_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2つの楕円
+2つの楕円
 \[ C_1:\frac{x^2}{a^2}+\frac{y^2}{b^2}=1, \hspace{1zw} C_2:\frac{x^2}{b^2}+\frac{y^2}{a^2}=1 \]
 に関して次の問に答えよ．ただし$a>b>0$とする．
 \begin{description}

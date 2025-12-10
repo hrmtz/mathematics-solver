@@ -3,6 +3,7 @@ title: "京都大学 2015年 2015_0_5"
 problem_id: "02_kyoto-2015-2015_0_5"
 university: "京都大学"
 exam_year: "2015"
+problem_number: 5
 source_tex: "archive/02_kyoto/2015/2015_0_5.tex"
 pdf_source: "archive/02_kyoto/2015/2015_0_5.pdf"
 page_image: "archive/02_kyoto/2015/2015_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$a, \, b, \, c, \, d, \, e$を正の有理数として整式
+$a, \, b, \, c, \, d, \, e$を正の有理数として整式
 \[ f(x)=ax^2+bx+c \]
 \[ g(x)=dx+e \]
 を考える．すべての正の整数$n$に対して$\displaystyle\frac{f(n)}{g(n)}$は整数であるとする．

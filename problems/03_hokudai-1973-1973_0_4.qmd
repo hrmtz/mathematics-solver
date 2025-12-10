@@ -3,6 +3,7 @@ title: "北海道大学 1973年 1973_0_4"
 problem_id: "03_hokudai-1973-1973_0_4"
 university: "北海道大学"
 exam_year: "1973"
+problem_number: 4
 source_tex: "archive/03_hokudai/1973/1973_0_4.tex"
 pdf_source: "archive/03_hokudai/1973/1973_0_4.pdf"
 page_image: "archive/03_hokudai/1973/1973_0_4.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-4
 \begin{description}
 \item[(1)]点$(k, \, 0)$ $(|k|<3)$を通り，
 $x$軸に垂直なだ円$\displaystyle\frac{x^2}{9}+\frac{y^2}{4}=1$の弦がある．

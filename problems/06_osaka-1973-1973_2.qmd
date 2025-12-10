@@ -3,6 +3,7 @@ title: "大阪大学 1973年 1973_2"
 problem_id: "06_osaka-1973-1973_2"
 university: "大阪大学"
 exam_year: "1973"
+problem_number: 2
 source_tex: "archive/06_osaka/1973/1973_2.tex"
 pdf_source: "archive/06_osaka/1973/1973_2.pdf"
 page_image: "archive/06_osaka/1973/1973_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標平面上に3点$A(a, \, b)$，$B(0, \, 0)$，$C(c, \, 0)$ $(abc\neq0)$がある．
+座標平面上に3点$A(a, \, b)$，$B(0, \, 0)$，$C(c, \, 0)$ $(abc\neq0)$がある．
 いま，$M_1$は$AC$の中点，$A_1$は半直線$BM_1$上で，$BM_1:BA_1=2:3$を満たす点，
 $M_2$は$A_1C$の中点，$A_2$は半直線$BM_2$上で，$BM_2:BA_2=2:3$を満たす点とし，
 以下同様に$M_3$，$A_3$，$M_4$，$A_4$，$\cdots\cdots$をとり，

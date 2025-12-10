@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_5b"
 problem_id: "07_kyushu-1997-1997_5b"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 5
 source_tex: "archive/07_kyushu/1997/1997_5b.tex"
 pdf_source: "archive/07_kyushu/1997/1997_5b.pdf"
 page_image: "archive/07_kyushu/1997/1997_5b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5 (b)
-　双曲線$\displaystyle\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ $(a, \, b>0)$の接線$y=mx+n$に
+双曲線$\displaystyle\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ $(a, \, b>0)$の接線$y=mx+n$に
 この双曲線の焦点$F(c, \, 0)$，$F'(-c, \, 0)$ $(c>0)$より垂線$FH$，$F'H'$をひく．
 \begin{description}
 \item[(1)]$n$を$m$で表せ．

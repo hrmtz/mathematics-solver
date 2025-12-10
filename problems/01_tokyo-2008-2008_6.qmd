@@ -3,6 +3,7 @@ title: "東京大学 2008年 2008_6"
 problem_id: "01_tokyo-2008-2008_6"
 university: "東京大学"
 exam_year: "2008"
+problem_number: 6
 source_tex: "archive/01_tokyo/2008/2008_6.tex"
 pdf_source: "archive/01_tokyo/2008/2008_6.pdf"
 page_image: "archive/01_tokyo/2008/2008_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　座標平面において，媒介変数$t$を用いて
+座標平面において，媒介変数$t$を用いて
 \[ \begin{cases} x=\cos 2t 
 
  y=t\sin t \end{cases} (0 \leqq t \leqq 2\pi) \]

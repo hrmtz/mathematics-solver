@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_0_2"
 problem_id: "04_tohoku-1999-1999_0_2"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 2
 source_tex: "archive/04_tohoku/1999/1999_0_2.tex"
 pdf_source: "archive/04_tohoku/1999/1999_0_2.pdf"
 page_image: "archive/04_tohoku/1999/1999_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$を正の定数とする．
+$a$を正の定数とする．
 \[ f(x)=ax+\int_0^1{ \{ f(t) \} }^2dt \]
 をみたす関数$f(x)$がただ1つしか存在しないように定数$a$の値を定めよ．
 また，そのときの$f(x)$を求めよ．

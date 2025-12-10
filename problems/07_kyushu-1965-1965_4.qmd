@@ -3,6 +3,7 @@ title: "九州大学 1965年 1965_4"
 problem_id: "07_kyushu-1965-1965_4"
 university: "九州大学"
 exam_year: "1965"
+problem_number: 4
 source_tex: "archive/07_kyushu/1965/1965_4.tex"
 pdf_source: "archive/07_kyushu/1965/1965_4.pdf"
 page_image: "archive/07_kyushu/1965/1965_4.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-4
 \begin{description}
 \item[(1)]次の定積分を計算せよ。
 \[ \int_0^\pi{(3\sin x+\cos2x)}^2dx \]

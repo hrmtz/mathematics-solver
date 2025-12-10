@@ -3,6 +3,7 @@ title: "東京大学 1964年 1964_2"
 problem_id: "01_tokyo-1964-1964_2"
 university: "東京大学"
 exam_year: "1964"
+problem_number: 2
 source_tex: "archive/01_tokyo/1964/1964_2.tex"
 pdf_source: "archive/01_tokyo/1964/1964_2.pdf"
 page_image: "archive/01_tokyo/1964/1964_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上に2つの曲線
+平面上に2つの曲線
 \begin{equation} y=x^2 \end{equation}
 \begin{equation} y=3x^2+24x+50 \end{equation}
 がある．

@@ -3,6 +3,7 @@ title: "東北大学 1996年 1996_b"
 problem_id: "04_tohoku-1996-1996_b"
 university: "東北大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/04_tohoku/1996/1996_b.tex"
 pdf_source: "archive/04_tohoku/1996/1996_b.pdf"
 page_image: "archive/04_tohoku/1996/1996_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　頂点から底面に下ろした垂線の足が底面の円の中心に一致する円すいを直円すいと呼ぶ．
+頂点から底面に下ろした垂線の足が底面の円の中心に一致する円すいを直円すいと呼ぶ．
 側面積が$6\pi$である直円すいのなかで体積が最大となるものを考える．
 このとき，底面の半径および高さを求めよ．
 

@@ -3,6 +3,7 @@ title: "東北大学 1996年 1996_e"
 problem_id: "04_tohoku-1996-1996_e"
 university: "東北大学"
 exam_year: "1996"
+problem_number: 5
 source_tex: "archive/04_tohoku/1996/1996_e.tex"
 pdf_source: "archive/04_tohoku/1996/1996_e.pdf"
 page_image: "archive/04_tohoku/1996/1996_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$f(x)$を連続な関数とする．すべての$x$に対して
+$f(x)$を連続な関数とする．すべての$x$に対して
 \[ f(x)=\sin x+\frac{1}{\pi}\int_0^\pi f(t)\cos(x-t)dt \]
 が成り立つとき，$f(x)$を求めよ．
 

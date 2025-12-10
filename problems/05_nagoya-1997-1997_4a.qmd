@@ -3,6 +3,7 @@ title: "名古屋大学 1997年 1997_4a"
 problem_id: "05_nagoya-1997-1997_4a"
 university: "名古屋大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/05_nagoya/1997/1997_4a.tex"
 pdf_source: "archive/05_nagoya/1997/1997_4a.pdf"
 page_image: "archive/05_nagoya/1997/1997_4a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (a)
-　均質な材質で出来た直方体の各面に1から6までの数を1つずつ書いて
+均質な材質で出来た直方体の各面に1から6までの数を1つずつ書いて
 サイコロの代わりにする（1の反対側が6とはかぎらない）．
 ある数の出る確率が$\displaystyle\frac{1}{9}$であり，
 別のある数が出る確率が$\displaystyle\frac{1}{4}$であるとする．

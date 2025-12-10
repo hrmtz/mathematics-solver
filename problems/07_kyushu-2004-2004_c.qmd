@@ -3,6 +3,7 @@ title: "九州大学 2004年 2004_c"
 problem_id: "07_kyushu-2004-2004_c"
 university: "九州大学"
 exam_year: "2004"
+problem_number: 3
 source_tex: "archive/07_kyushu/2004/2004_c.tex"
 pdf_source: "archive/07_kyushu/2004/2004_c.pdf"
 page_image: "archive/07_kyushu/2004/2004_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　曲線$\displaystyle C:y=\frac{1}{x}$ $(x>0)$と直線$\displaystyle l:y=-x+\frac{5}{2}$について
+曲線$\displaystyle C:y=\frac{1}{x}$ $(x>0)$と直線$\displaystyle l:y=-x+\frac{5}{2}$について
 次の問いに答えよ．
 \begin{description}
 \item[(1)]$C$上の点$\displaystyle P\left(p, \, \frac{1}{p}\right)$から$l$に下ろした垂線が

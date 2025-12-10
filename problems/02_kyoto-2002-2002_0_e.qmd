@@ -3,6 +3,7 @@ title: "京都大学 2002年 2002_0_e"
 problem_id: "02_kyoto-2002-2002_0_e"
 university: "京都大学"
 exam_year: "2002"
+problem_number: 5
 source_tex: "archive/02_kyoto/2002/2002_0_e.tex"
 pdf_source: "archive/02_kyoto/2002/2002_0_e.pdf"
 page_image: "archive/02_kyoto/2002/2002_0_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$xyz$空間内に半径と高さがともに1である直円柱があり，
+$xyz$空間内に半径と高さがともに1である直円柱があり，
 この直円柱の下底は$xy$平面上にあって，
 その中心は原点と一致している．
 点$P$，点$Q$は点$A(1,0,1)$，点$B(0,1,0)$を出発し，

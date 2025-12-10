@@ -3,6 +3,7 @@ title: "北海道大学 1998年 1998_5b"
 problem_id: "03_hokudai-1998-1998_5b"
 university: "北海道大学"
 exam_year: "1998"
+problem_number: 5
 source_tex: "archive/03_hokudai/1998/1998_5b.tex"
 pdf_source: "archive/03_hokudai/1998/1998_5b.pdf"
 page_image: "archive/03_hokudai/1998/1998_5b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5 (b)
-　無作為に13人を選ぶとき，
+無作為に13人を選ぶとき，
 日曜日生まれの人の数を$X$，
 土曜日生まれの人の数を$Y$とする．
 このとき，次の問いに答えよ．

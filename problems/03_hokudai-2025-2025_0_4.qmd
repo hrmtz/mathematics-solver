@@ -3,6 +3,7 @@ title: "北海道大学 2025年 2025_0_4"
 problem_id: "03_hokudai-2025-2025_0_4"
 university: "北海道大学"
 exam_year: "2025"
+problem_number: 4
 source_tex: "archive/03_hokudai/2025/2025_0_4.tex"
 pdf_source: "archive/03_hokudai/2025/2025_0_4.pdf"
 page_image: "archive/03_hokudai/2025/2025_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f(x)$は，すべての実数$x$およびすべての整数$n$について
+関数$f(x)$は，すべての実数$x$およびすべての整数$n$について
 $f(nx)= { \{ f(x) \} }^n$を満たし，さらに$f(1)=2$を満たすとする。
 ただし，$f(x)$のとりうる値は0でない実数とする。
 \begin{description}

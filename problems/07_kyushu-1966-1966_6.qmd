@@ -3,6 +3,7 @@ title: "九州大学 1966年 1966_6"
 problem_id: "07_kyushu-1966-1966_6"
 university: "九州大学"
 exam_year: "1966"
+problem_number: 6
 source_tex: "archive/07_kyushu/1966/1966_6.tex"
 pdf_source: "archive/07_kyushu/1966/1966_6.pdf"
 page_image: "archive/07_kyushu/1966/1966_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　1つのサイコロを何回も振る試行において，
+1つのサイコロを何回も振る試行において，
 初めて1の目が出たら，1の目が出る限り振り続け，
 1の目が出なくなったとき振ることをやめるものとする．
 ただし，振る回数は全体で$n$を越えないものとする．

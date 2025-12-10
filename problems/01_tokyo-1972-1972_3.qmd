@@ -3,6 +3,7 @@ title: "東京大学 1972年 1972_3"
 problem_id: "01_tokyo-1972-1972_3"
 university: "東京大学"
 exam_year: "1972"
+problem_number: 3
 source_tex: "archive/01_tokyo/1972/1972_3.tex"
 pdf_source: "archive/01_tokyo/1972/1972_3.pdf"
 page_image: "archive/01_tokyo/1972/1972_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　たがいに外接する定円$C$，$C'$が共通接線$l$の同じ側にあるとする．
+たがいに外接する定円$C$，$C'$が共通接線$l$の同じ側にあるとする．
 図のように
 \begin{description}
 \item[]$C$，$C'$，$l$に接する円を$C_1$，　$C$，$C_1$，$l$に接する円を$C_2$，$\cdots\cdots$

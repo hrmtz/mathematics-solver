@@ -3,6 +3,7 @@ title: "京都大学 1996年 1996_a"
 problem_id: "02_kyoto-1996-1996_a"
 university: "京都大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/02_kyoto/1996/1996_a.tex"
 pdf_source: "archive/02_kyoto/1996/1996_a.pdf"
 page_image: "archive/02_kyoto/1996/1996_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$n$は自然数とする．
+$n$は自然数とする．
 \begin{description}
 \item[(1)]すべての実数$\theta$に対し
 \[ \cos n\theta=f_n(\cos\theta), \hspace{1zw} \sin n\theta=g_n(\cos\theta)\sin\theta \]

@@ -3,6 +3,7 @@ title: "東京科学大学 2018年 2018_1"
 problem_id: "08_titech-2018-2018_1"
 university: "東京科学大学"
 exam_year: "2018"
+problem_number: 1
 source_tex: "archive/08_titech/2018/2018_1.tex"
 pdf_source: "archive/08_titech/2018/2018_1.pdf"
 page_image: "archive/08_titech/2018/2018_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$a$，$b$，$c$を実数とし，3つの2次方程式
+$a$，$b$，$c$を実数とし，3つの2次方程式
 \[ x^2+ax+1=0 \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \]
 \[ x^2+bx+2=0 \hspace{1zw} \cdots\cdots\text{\ding{"AD}} \]
 \[ x^2+cx+3=0 \hspace{1zw} \cdots\cdots\text{\ding{"AE}} \]

@@ -3,6 +3,7 @@ title: "東京大学 1990年 1990_8"
 problem_id: "01_tokyo-1990-1990_8"
 university: "東京大学"
 exam_year: "1990"
+problem_number: 2
 source_tex: "archive/01_tokyo/1990/1990_8.tex"
 pdf_source: "archive/01_tokyo/1990/1990_8.pdf"
 page_image: "archive/01_tokyo/1990/1990_8.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$A=\begin{pmatrix} \displaystyle\frac{1}{2} & \displaystyle-\frac{\sqrt3}{2}
+$A=\begin{pmatrix} \displaystyle\frac{1}{2} & \displaystyle-\frac{\sqrt3}{2}
 \displaystyle\frac{\sqrt3}{2} & \displaystyle\frac{1}{2} \end{pmatrix}$とし，
 $P_0$を$xy$平面上の原点とする．
 $i=1,\cdots,6$に対して，

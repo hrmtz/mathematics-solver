@@ -3,6 +3,7 @@ title: "大阪大学 2001年 2001_c"
 problem_id: "06_osaka-2001-2001_c"
 university: "大阪大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/06_osaka/2001/2001_c.tex"
 pdf_source: "archive/06_osaka/2001/2001_c.pdf"
 page_image: "archive/06_osaka/2001/2001_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　座標平面上において，点$P$と点$Q$は時刻0から$\pi$まで，次の条件にしたがって動く．
+座標平面上において，点$P$と点$Q$は時刻0から$\pi$まで，次の条件にしたがって動く．
 　点$P$は点$A(-1, \, 0)$を出発し，原点$O$を中心とする半径1の円周上を時計回りに動く．
 ただし，時刻$t$で$P$は$\angle POA=t$ $(0 \leqq t \leqq \pi)$をみたす．
 点$P$を通り$x$軸に垂直な直線が直線$y=-1$と交わる点を$H$とする．

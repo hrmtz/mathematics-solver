@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_6"
 problem_id: "04_tohoku-1999-1999_6"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 6
 source_tex: "archive/04_tohoku/1999/1999_6.tex"
 pdf_source: "archive/04_tohoku/1999/1999_6.pdf"
 page_image: "archive/04_tohoku/1999/1999_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　長方形$ABCD$内を減速しながら進む点を考える，
+長方形$ABCD$内を減速しながら進む点を考える，
 時刻$t=0$に初速$v$で発射させた点$P$は，時刻$t$では速さ$ve^{-t}$で直進するとする．
 ただし，$P$がいずれかの辺に来たときは等しい入射角と反射角で反射するとし，
 頂点$A$，$B$，$C$，$D$のいずれかに来たときはそこで停止するとする．

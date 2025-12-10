@@ -3,6 +3,7 @@ title: "東北大学 2005年 2005_0_d"
 problem_id: "04_tohoku-2005-2005_0_d"
 university: "東北大学"
 exam_year: "2005"
+problem_number: 4
 source_tex: "archive/04_tohoku/2005/2005_0_d.tex"
 pdf_source: "archive/04_tohoku/2005/2005_0_d.pdf"
 page_image: "archive/04_tohoku/2005/2005_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　三角形$ABC$の辺$AB$上の点$M$と辺$AC$上の点$N$とを結ぶ線分$MN$上に，三角形$ABC$の重心$G$がある．
+三角形$ABC$の辺$AB$上の点$M$と辺$AC$上の点$N$とを結ぶ線分$MN$上に，三角形$ABC$の重心$G$がある．
 $MG:GN=3:2$のとき，以下の問いに答えよ．
 \begin{description}
 \item[(1)]$AM:MB$と$AN:NC$を求めよ．

@@ -3,6 +3,7 @@ title: "東京大学 2005年 2005_7"
 problem_id: "01_tokyo-2005-2005_7"
 university: "東京大学"
 exam_year: "2005"
+problem_number: 1
 source_tex: "archive/01_tokyo/2005/2005_7.tex"
 pdf_source: "archive/01_tokyo/2005/2005_7.pdf"
 page_image: "archive/01_tokyo/2005/2005_7.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$xy$平面の原点を$O$として，2点$P(\cos\theta,\sin\theta)$，$Q(1,0)$をとる．
+$xy$平面の原点を$O$として，2点$P(\cos\theta,\sin\theta)$，$Q(1,0)$をとる．
 ただし，$0<\theta<\pi$とする．
 点$A$は線分$PQ$上を，また点$B$は線分$OQ$上を動き，
 線分$AB$は$\triangle OPQ$の面積を二等分しているとする．

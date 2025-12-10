@@ -3,6 +3,7 @@ title: "名古屋大学 1961年 1961_2"
 problem_id: "05_nagoya-1961-1961_2"
 university: "名古屋大学"
 exam_year: "1961"
+problem_number: 2
 source_tex: "archive/05_nagoya/1961/1961_2.tex"
 pdf_source: "archive/05_nagoya/1961/1961_2.pdf"
 page_image: "archive/05_nagoya/1961/1961_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　次の各問に答えよ。
+次の各問に答えよ。
 \begin{description}
 \item[(1)]平面上で座標の原点を$O$とし，第1象限内にある点$A$の座標を$(a, \, b)$とする。
 $A$を通って$x$軸の正の部分，$y$軸の正の部分とそれぞれ$P$，$Q$で交わる直線を引いて，

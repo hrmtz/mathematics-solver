@@ -3,6 +3,7 @@ title: "九州大学 1999年 1999_b"
 problem_id: "07_kyushu-1999-1999_b"
 university: "九州大学"
 exam_year: "1999"
+problem_number: 2
 source_tex: "archive/07_kyushu/1999/1999_b.tex"
 pdf_source: "archive/07_kyushu/1999/1999_b.pdf"
 page_image: "archive/07_kyushu/1999/1999_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　関数$\displaystyle f(x)=x+\frac{1}{x}$について以下の問いに答えよ．
+関数$\displaystyle f(x)=x+\frac{1}{x}$について以下の問いに答えよ．
 \begin{description}
 \item[(1)]曲線$y=f(x)$の接線のうち，傾きが$a$であるものは$a<1$のとき2つ存在する．
 その2つの方程式を求めよ．

@@ -3,6 +3,7 @@ title: "名古屋大学 1981年 1981_2"
 problem_id: "05_nagoya-1981-1981_2"
 university: "名古屋大学"
 exam_year: "1981"
+problem_number: 2
 source_tex: "archive/05_nagoya/1981/1981_2.tex"
 pdf_source: "archive/05_nagoya/1981/1981_2.pdf"
 page_image: "archive/05_nagoya/1981/1981_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xy$平面上で次の条件を満たす点$P$全体の集合を求め，これを図示せよ．
+$xy$平面上で次の条件を満たす点$P$全体の集合を求め，これを図示せよ．
 　点$P$を通る直線$l$で，$l$と曲線$y=x^2$とで囲まれた部分の面積が$\displaystyle\frac{1}{6}$となるものがある．
 
 ---

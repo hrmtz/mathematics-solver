@@ -3,6 +3,7 @@ title: "九州大学 2011年 2011_d"
 problem_id: "07_kyushu-2011-2011_d"
 university: "九州大学"
 exam_year: "2011"
+problem_number: 4
 source_tex: "archive/07_kyushu/2011/2011_d.tex"
 pdf_source: "archive/07_kyushu/2011/2011_d.pdf"
 page_image: "archive/07_kyushu/2011/2011_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f(x)=-x\sin x$ $(0 \leqq x \leqq \pi)$について，以下の問いに答えよ。
+関数$f(x)=-x\sin x$ $(0 \leqq x \leqq \pi)$について，以下の問いに答えよ。
 \begin{description}
 \item[(1)]$0<x<\pi$の範囲で，方程式$f''(x)=0$がただ1つの解$x=a$をもつことを示せ。
 \item[(2)]上の(1)で存在が示された$a$に対して，$a<x<\pi$の範囲で，

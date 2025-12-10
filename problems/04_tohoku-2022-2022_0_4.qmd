@@ -3,6 +3,7 @@ title: "東北大学 2022年 2022_0_4"
 problem_id: "04_tohoku-2022-2022_0_4"
 university: "東北大学"
 exam_year: "2022"
+problem_number: 4
 source_tex: "archive/04_tohoku/2022/2022_0_4.tex"
 pdf_source: "archive/04_tohoku/2022/2022_0_4.pdf"
 page_image: "archive/04_tohoku/2022/2022_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xyz$空間内の点$O(0, \, 0, \, 0)$，$A(1, \, \sqrt2, \, \sqrt3)$，
+$xyz$空間内の点$O(0, \, 0, \, 0)$，$A(1, \, \sqrt2, \, \sqrt3)$，
 $B(-\sqrt3, \, 0, \, 1)$，$C(\sqrt6, \, -\sqrt3, \, \sqrt2)$を頂点とする四面体$OABC$を考える。
 3点$OAB$を含む平面からの距離が1の点のうち，点$O$に最も近く，$x$座標が正のものを$H$とする。
 \begin{description}

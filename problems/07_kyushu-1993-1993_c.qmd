@@ -3,6 +3,7 @@ title: "九州大学 1993年 1993_c"
 problem_id: "07_kyushu-1993-1993_c"
 university: "九州大学"
 exam_year: "1993"
+problem_number: 3
 source_tex: "archive/07_kyushu/1993/1993_c.tex"
 pdf_source: "archive/07_kyushu/1993/1993_c.pdf"
 page_image: "archive/07_kyushu/1993/1993_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　次図のように，$xy-$平面の$x$軸上に底辺があり，
+次図のように，$xy-$平面の$x$軸上に底辺があり，
 曲線$\displaystyle y=\frac{1}{x}$上に頂点がある正三角形が隣接しながら無限に並んでおり，
 その最左端の頂点は原点であるとする．
 そして，左から$n$番目の正三角形の辺の長さは$2a_n$であるとし，

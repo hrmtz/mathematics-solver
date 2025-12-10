@@ -3,6 +3,7 @@ title: "東京大学 1980年 1980_0_3"
 problem_id: "01_tokyo-1980-1980_0_3"
 university: "東京大学"
 exam_year: "1980"
+problem_number: 3
 source_tex: "archive/01_tokyo/1980/1980_0_3.tex"
 pdf_source: "archive/01_tokyo/1980/1980_0_3.pdf"
 page_image: "archive/01_tokyo/1980/1980_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$n$，$a$，$b$，$c$，$d$は0または正の整数であって，
+$n$，$a$，$b$，$c$，$d$は0または正の整数であって，
 \[ \begin{cases} a^2+b^2+c^2+d^2=n^2-6 
 
  a+b+c+d \leqq n 

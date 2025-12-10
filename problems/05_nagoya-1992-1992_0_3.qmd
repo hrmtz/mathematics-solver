@@ -3,6 +3,7 @@ title: "名古屋大学 1992年 1992_0_3"
 problem_id: "05_nagoya-1992-1992_0_3"
 university: "名古屋大学"
 exam_year: "1992"
+problem_number: 3
 source_tex: "archive/05_nagoya/1992/1992_0_3.tex"
 pdf_source: "archive/05_nagoya/1992/1992_0_3.pdf"
 page_image: "archive/05_nagoya/1992/1992_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　実数$a$，$b$に対して$\displaystyle f(a, \, b)=\int_0^1{(x^2+ax+b)}^2dx$とおく．
+実数$a$，$b$に対して$\displaystyle f(a, \, b)=\int_0^1{(x^2+ax+b)}^2dx$とおく．
 \begin{description}
 \item[(1)]$f(a, \, b)$を求めよ．
 \item[(2)]$f(a, \, b)$の最小値と，それを与える$a$，$b$の値を求めよ．

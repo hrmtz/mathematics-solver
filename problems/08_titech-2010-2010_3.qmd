@@ -3,6 +3,7 @@ title: "東京科学大学 2010年 2010_3"
 problem_id: "08_titech-2010-2010_3"
 university: "東京科学大学"
 exam_year: "2010"
+problem_number: 3
 source_tex: "archive/08_titech/2010/2010_3.tex"
 pdf_source: "archive/08_titech/2010/2010_3.pdf"
 page_image: "archive/08_titech/2010/2010_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　1から$n$までの数字がもれなく一つずつ書かれた$n$枚のカードの束から同時に2枚のカードを引く．
+1から$n$までの数字がもれなく一つずつ書かれた$n$枚のカードの束から同時に2枚のカードを引く．
 このとき，引いたカードの数字のうち小さい方が3の倍数である確率を$p(n)$とする．
 \begin{description}
 \item[(1)]$p(8)$を求めよ．

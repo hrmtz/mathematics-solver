@@ -3,6 +3,7 @@ title: "九州大学 1995年 1995_d"
 problem_id: "07_kyushu-1995-1995_d"
 university: "九州大学"
 exam_year: "1995"
+problem_number: 4
 source_tex: "archive/07_kyushu/1995/1995_d.tex"
 pdf_source: "archive/07_kyushu/1995/1995_d.pdf"
 page_image: "archive/07_kyushu/1995/1995_d.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　図のように，上部のみが開いている高さ$h$，幅$b$，奥行1の直方体容器が水平な台の上に置かれていて，
+図のように，上部のみが開いている高さ$h$，幅$b$，奥行1の直方体容器が水平な台の上に置かれていて，
 中に水が一杯満たしてある．
 図の$PQ$を軸にして容器をゆっくり回転させ，水を容器の外に流出させる．
 台と容器の底面とのなす角を$\theta$とする．

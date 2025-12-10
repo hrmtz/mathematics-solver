@@ -3,6 +3,7 @@ title: "東京大学 1993年 1993_5"
 problem_id: "01_tokyo-1993-1993_5"
 university: "東京大学"
 exam_year: "1993"
+problem_number: 5
 source_tex: "archive/01_tokyo/1993/1993_5.tex"
 pdf_source: "archive/01_tokyo/1993/1993_5.pdf"
 page_image: "archive/01_tokyo/1993/1993_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　1と0を5個ならべた列10110をある人が繰返し書き写すとする．
+1と0を5個ならべた列10110をある人が繰返し書き写すとする．
 ただしこの列を$S$で表し，
 これの第1回の写しを$S_1$で表すとき，
 第2回目に書き写すときは$S_1$を書き写す．

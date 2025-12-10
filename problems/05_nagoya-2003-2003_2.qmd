@@ -3,6 +3,7 @@ title: "名古屋大学 2003年 2003_2"
 problem_id: "05_nagoya-2003-2003_2"
 university: "名古屋大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/05_nagoya/2003/2003_2.tex"
 pdf_source: "archive/05_nagoya/2003/2003_2.pdf"
 page_image: "archive/05_nagoya/2003/2003_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$O$を原点とする座標平面上の，
+$O$を原点とする座標平面上の，
 半径1の円周$A:x^2+y^2=1$と
 直線$l:y=d$ $(0<d<1)$との
 交点を$P$，$Q$とする．

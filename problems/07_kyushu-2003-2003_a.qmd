@@ -3,6 +3,7 @@ title: "九州大学 2003年 2003_a"
 problem_id: "07_kyushu-2003-2003_a"
 university: "九州大学"
 exam_year: "2003"
+problem_number: 1
 source_tex: "archive/07_kyushu/2003/2003_a.tex"
 pdf_source: "archive/07_kyushu/2003/2003_a.pdf"
 page_image: "archive/07_kyushu/2003/2003_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　関数$\displaystyle f(x)=\frac{x^3-x}{x^2-4}$について，次の問いに答えよ．
+関数$\displaystyle f(x)=\frac{x^3-x}{x^2-4}$について，次の問いに答えよ．
 \begin{description}
 \item[(1)]不等式$bf(a)<0$をみたす点$(a, \, b)$の集合を座標平面上に図示せよ．
 \item[(2)]$y=f(x)$の極値を与える$x$座標を求めよ．

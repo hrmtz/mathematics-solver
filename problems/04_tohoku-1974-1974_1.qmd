@@ -3,6 +3,7 @@ title: "東北大学 1974年 1974_1"
 problem_id: "04_tohoku-1974-1974_1"
 university: "東北大学"
 exam_year: "1974"
+problem_number: 1
 source_tex: "archive/04_tohoku/1974/1974_1.tex"
 pdf_source: "archive/04_tohoku/1974/1974_1.pdf"
 page_image: "archive/04_tohoku/1974/1974_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　関数$\displaystyle f(x)=\frac{ax+b}{cx+d}$において$ac\neq0$とする．
+関数$\displaystyle f(x)=\frac{ax+b}{cx+d}$において$ac\neq0$とする．
 \begin{description}
 \item[(1)]$ad-bc=1$，$\displaystyle\left| x+\frac{d}{c} \right|<r$とするとき，
 $\displaystyle\left| f(x)-\frac{a}{c} \right|>\frac{1}{c^2r}$となることを示せ．

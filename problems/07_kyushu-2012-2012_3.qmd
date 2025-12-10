@@ -3,6 +3,7 @@ title: "九州大学 2012年 2012_3"
 problem_id: "07_kyushu-2012-2012_3"
 university: "九州大学"
 exam_year: "2012"
+problem_number: 3
 source_tex: "archive/07_kyushu/2012/2012_3.tex"
 pdf_source: "archive/07_kyushu/2012/2012_3.pdf"
 page_image: "archive/07_kyushu/2012/2012_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　実数$a$と自然数$n$に対して，$x$の方程式
+実数$a$と自然数$n$に対して，$x$の方程式
 \[ a(x^2+|x+1|+n-1)=\sqrt{n}(x+1) \]
 を考える。以下の問いに答えよ。
 \begin{description}

@@ -3,6 +3,7 @@ title: "名古屋大学 2023年 2023_4"
 problem_id: "05_nagoya-2023-2023_4"
 university: "名古屋大学"
 exam_year: "2023"
+problem_number: 4
 source_tex: "archive/05_nagoya/2023/2023_4.tex"
 pdf_source: "archive/05_nagoya/2023/2023_4.pdf"
 page_image: "archive/05_nagoya/2023/2023_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$を正の整数とし，$n$次の整式$P_n(x)=x(x+1)\cdots(x+n-1)$を展開して
+$n$を正の整数とし，$n$次の整式$P_n(x)=x(x+1)\cdots(x+n-1)$を展開して
 $\displaystyle P_n(x)=\sum_{m=1}^n {}_nB_m x^m$と表す。
 \begin{description}
 \item[(1)]等式$\displaystyle \sum_{m=1}^n {}_nB_m = n \, !$を示せ。

@@ -3,6 +3,7 @@ title: "京都大学 2010年 2010b_6"
 problem_id: "02_kyoto-2010-2010b_6"
 university: "京都大学"
 exam_year: "2010"
+problem_number: 6
 source_tex: "archive/02_kyoto/2010/2010b_6.tex"
 pdf_source: "archive/02_kyoto/2010/2010b_6.pdf"
 page_image: "archive/02_kyoto/2010/2010b_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$n$個のボールを$2n$個の箱へ投げ入れる．
+$n$個のボールを$2n$個の箱へ投げ入れる．
 各ボールはいずれかの箱に入るものとし，どの箱に入る確率も等しいとする．
 どの箱にも1個以下のボールしか入っていない確率を$p_n$とする．
 このとき，極限値$\displaystyle\lim_{n\to\infty}\frac{\log p_n}{n}$を求めよ．

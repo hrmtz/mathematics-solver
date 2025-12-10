@@ -3,6 +3,7 @@ title: "東北大学 2007年 2007_5"
 problem_id: "04_tohoku-2007-2007_5"
 university: "東北大学"
 exam_year: "2007"
+problem_number: 5
 source_tex: "archive/04_tohoku/2007/2007_5.tex"
 pdf_source: "archive/04_tohoku/2007/2007_5.pdf"
 page_image: "archive/04_tohoku/2007/2007_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$xyz$空間において，点(1,0,1)と点(1,0,2)を結ぶ線分を$l$とし，
+$xyz$空間において，点(1,0,1)と点(1,0,2)を結ぶ線分を$l$とし，
 $l$を$z$軸のまわりに一回転してできる図形を$A$とする．
 $A$を$x$軸のまわりに一回転してできる立体の体積を求めよ．
 

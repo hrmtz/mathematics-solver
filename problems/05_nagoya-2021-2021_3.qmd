@@ -3,6 +3,7 @@ title: "名古屋大学 2021年 2021_3"
 problem_id: "05_nagoya-2021-2021_3"
 university: "名古屋大学"
 exam_year: "2021"
+problem_number: 3
 source_tex: "archive/05_nagoya/2021/2021_3.tex"
 pdf_source: "archive/05_nagoya/2021/2021_3.pdf"
 page_image: "archive/05_nagoya/2021/2021_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　1から12までの数字が下の図のように並べて書かれている。
+1から12までの数字が下の図のように並べて書かれている。
 以下のルール(a)，(b)と（終了条件）を用いたゲームを行う。
 ゲームを開始すると最初に(a)を行い，（終了条件）が満たされたならゲームを終了する。
 そうでなければ（終了条件）が満たされるまで(b)の操作を繰り返す。

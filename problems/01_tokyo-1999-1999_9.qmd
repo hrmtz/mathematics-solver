@@ -3,6 +3,7 @@ title: "東京大学 1999年 1999_9"
 problem_id: "01_tokyo-1999-1999_9"
 university: "東京大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/01_tokyo/1999/1999_9.tex"
 pdf_source: "archive/01_tokyo/1999/1999_9.pdf"
 page_image: "archive/01_tokyo/1999/1999_9.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　座標平面上にある2つの四角形$ABCD$と$A'B'C'D'$が相似であるとは，
+座標平面上にある2つの四角形$ABCD$と$A'B'C'D'$が相似であるとは，
 対応する4つの頂点における内角がそれぞれ等しく，
 かつ対応する辺の長さの比がすべて等しいこととする．
 このとき

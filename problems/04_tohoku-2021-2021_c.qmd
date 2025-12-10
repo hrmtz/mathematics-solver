@@ -3,6 +3,7 @@ title: "東北大学 2021年 2021_c"
 problem_id: "04_tohoku-2021-2021_c"
 university: "東北大学"
 exam_year: "2021"
+problem_number: 3
 source_tex: "archive/04_tohoku/2021/2021_c.tex"
 pdf_source: "archive/04_tohoku/2021/2021_c.pdf"
 page_image: "archive/04_tohoku/2021/2021_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　実数$\theta, \, a$は$\displaystyle -\frac{\pi}{2}<\theta<\frac{\pi}{2}, \, a>0$を満たすとし，
+実数$\theta, \, a$は$\displaystyle -\frac{\pi}{2}<\theta<\frac{\pi}{2}, \, a>0$を満たすとし，
 2つの円$C_1, \, C_2$の方程式を以下で定める。
 \[ C_1:{(x-\tan\theta)}^2+{(y-\tan\theta)}^2=9 \]
 \[ C_2:{(x-a\cos\theta+1)}^2+{(y-a\sin\theta-1)}^2=1 \]

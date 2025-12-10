@@ -3,6 +3,7 @@ title: "北海道大学 1998年 1998_3"
 problem_id: "03_hokudai-1998-1998_3"
 university: "北海道大学"
 exam_year: "1998"
+problem_number: 3
 source_tex: "archive/03_hokudai/1998/1998_3.tex"
 pdf_source: "archive/03_hokudai/1998/1998_3.pdf"
 page_image: "archive/03_hokudai/1998/1998_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　ある駅の待合室に，$n$個のいすが横一列に並んでいる．
+ある駅の待合室に，$n$個のいすが横一列に並んでいる．
 $k$人が，どの二人も隣り合わないように，いすにすわる場合の数を，$f(n, \, k)$とする．
 $n\geqq2k-1$のとき，次を証明せよ．
 \[ f(n, \, k)={}_{n-k+1}C_k \text{×} (k \, !) \]

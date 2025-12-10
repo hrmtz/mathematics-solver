@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_1"
 problem_id: "02_kyoto-1995-1995_1"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/02_kyoto/1995/1995_1.tex"
 pdf_source: "archive/02_kyoto/1995/1995_1.pdf"
 page_image: "archive/02_kyoto/1995/1995_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　行列$\begin{pmatrix} a & b 
+行列$\begin{pmatrix} a & b 
 
  0 & a \end{pmatrix}$で表される1次変換を$f$とする．
 平面上の1点を$P$，原点を$O$とする．

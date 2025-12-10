@@ -3,6 +3,7 @@ title: "東京科学大学 1978年 1978_2"
 problem_id: "08_titech-1978-1978_2"
 university: "東京科学大学"
 exam_year: "1978"
+problem_number: 2
 source_tex: "archive/08_titech/1978/1978_2.tex"
 pdf_source: "archive/08_titech/1978/1978_2.pdf"
 page_image: "archive/08_titech/1978/1978_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$a, \, b, \, c$は$1<a<b<c$を満たす整数とし，
+$a, \, b, \, c$は$1<a<b<c$を満たす整数とし，
 $(ab-1)(bc-1)(ca-1)$は$abc$で割り切れるとする．
 このとき次の問に答えよ．
 \begin{description}

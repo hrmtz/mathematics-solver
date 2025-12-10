@@ -3,6 +3,7 @@ title: "大阪大学 2005年 2005_1"
 problem_id: "06_osaka-2005-2005_1"
 university: "大阪大学"
 exam_year: "2005"
+problem_number: 1
 source_tex: "archive/06_osaka/2005/2005_1.tex"
 pdf_source: "archive/06_osaka/2005/2005_1.pdf"
 page_image: "archive/06_osaka/2005/2005_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$f(x)=2x^3+x^2-3$とおく．
+$f(x)=2x^3+x^2-3$とおく．
 直線$y=mx$が曲線$y=f(x)$と相異なる3点で交わるような実数$m$の範囲を求めよ．
 
 ---

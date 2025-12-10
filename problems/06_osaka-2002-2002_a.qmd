@@ -3,6 +3,7 @@ title: "大阪大学 2002年 2002_a"
 problem_id: "06_osaka-2002-2002_a"
 university: "大阪大学"
 exam_year: "2002"
+problem_number: 1
 source_tex: "archive/06_osaka/2002/2002_a.tex"
 pdf_source: "archive/06_osaka/2002/2002_a.pdf"
 page_image: "archive/06_osaka/2002/2002_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　図のような平行六面体$ABCD-EFGH$を考える．
+図のような平行六面体$ABCD-EFGH$を考える．
 　$\overrightarrow{AB}=\overrightarrow{a}$，$\overrightarrow{AD}=\overrightarrow{b}$，
 $\overrightarrow{AE}=\overrightarrow{c}$とおく．
 点$P$，$Q$，$R$，$S$をそれぞれ辺$AB$，$EH$，$HG$，$CG$上に

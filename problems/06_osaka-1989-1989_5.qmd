@@ -3,6 +3,7 @@ title: "大阪大学 1989年 1989_5"
 problem_id: "06_osaka-1989-1989_5"
 university: "大阪大学"
 exam_year: "1989"
+problem_number: 5
 source_tex: "archive/06_osaka/1989/1989_5.tex"
 pdf_source: "archive/06_osaka/1989/1989_5.pdf"
 page_image: "archive/06_osaka/1989/1989_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$xy$平面上の点集合$\{(i, \, j)|i=0, \, 1, \, \cdots\cdots, \, n;j=0, \, 1, \, 2, \, 3\}$を$S$とする．
+$xy$平面上の点集合$\{(i, \, j)|i=0, \, 1, \, \cdots\cdots, \, n;j=0, \, 1, \, 2, \, 3\}$を$S$とする．
 ただし$n$は正の整数である．
 両端が$S$の点であるような長さ1の線分の集合を$M$とする．
 \begin{description}

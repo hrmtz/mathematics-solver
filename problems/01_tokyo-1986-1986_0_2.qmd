@@ -3,6 +3,7 @@ title: "東京大学 1986年 1986_0_2"
 problem_id: "01_tokyo-1986-1986_0_2"
 university: "東京大学"
 exam_year: "1986"
+problem_number: 2
 source_tex: "archive/01_tokyo/1986/1986_0_2.tex"
 pdf_source: "archive/01_tokyo/1986/1986_0_2.pdf"
 page_image: "archive/01_tokyo/1986/1986_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　四点$A$，$B$，$C$，$D$を頂点とする四面体$T$において，各辺の長さが
+四点$A$，$B$，$C$，$D$を頂点とする四面体$T$において，各辺の長さが
 \[ AB=x, \hspace{1zw} AC=AD=BC=BD=5, \hspace{1zw} CD=4 \]
 であるとき，$T$の体積$V$を求めよ．
 またこのような四面体が存在するような$x$の範囲を求めよ．

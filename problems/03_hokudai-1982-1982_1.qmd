@@ -3,6 +3,7 @@ title: "北海道大学 1982年 1982_1"
 problem_id: "03_hokudai-1982-1982_1"
 university: "北海道大学"
 exam_year: "1982"
+problem_number: 1
 source_tex: "archive/03_hokudai/1982/1982_1.tex"
 pdf_source: "archive/03_hokudai/1982/1982_1.pdf"
 page_image: "archive/03_hokudai/1982/1982_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　平面の2定点を$A(1, \, 0)$，$B(2, \, 0)$とし，
+平面の2定点を$A(1, \, 0)$，$B(2, \, 0)$とし，
 直線$y=mx$ $(m\neq0)$を$l$とする．
 \begin{description}
 \item[(1)]直線$l$に関する点$B$の対称点を求めよ．

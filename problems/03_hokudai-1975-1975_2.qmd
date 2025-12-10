@@ -3,6 +3,7 @@ title: "北海道大学 1975年 1975_2"
 problem_id: "03_hokudai-1975-1975_2"
 university: "北海道大学"
 exam_year: "1975"
+problem_number: 2
 source_tex: "archive/03_hokudai/1975/1975_2.tex"
 pdf_source: "archive/03_hokudai/1975/1975_2.pdf"
 page_image: "archive/03_hokudai/1975/1975_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　空間に4点$A(1, \, 1, \, 1)$，$B(3, \, 4, \, 2)$，$C(2, \, 3, \, 2)$，$D(2, \, 2, \, 4)$がある．
+空間に4点$A(1, \, 1, \, 1)$，$B(3, \, 4, \, 2)$，$C(2, \, 3, \, 2)$，$D(2, \, 2, \, 4)$がある．
 \begin{description}
 \item[(1)]ベクトル$\overrightarrow{AB}$，$\overrightarrow{AC}$に垂直な
 単位ベクトル$\overrightarrow{e}$の成分を求めよ．

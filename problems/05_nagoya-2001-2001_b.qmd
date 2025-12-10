@@ -3,6 +3,7 @@ title: "名古屋大学 2001年 2001_b"
 problem_id: "05_nagoya-2001-2001_b"
 university: "名古屋大学"
 exam_year: "2001"
+problem_number: 2
 source_tex: "archive/05_nagoya/2001/2001_b.tex"
 pdf_source: "archive/05_nagoya/2001/2001_b.pdf"
 page_image: "archive/05_nagoya/2001/2001_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$a_1=1$，$a_2=1$，$a_{n+1}=a_n+a_{n-1}$ $(n=2, \, 3, \, 4, \, \cdots\cdots)$で定まる
+$a_1=1$，$a_2=1$，$a_{n+1}=a_n+a_{n-1}$ $(n=2, \, 3, \, 4, \, \cdots\cdots)$で定まる
 数列$\{ a_n \}$に関して，つぎの各問に答えよ．
 \begin{description}
 \item[(1)]$\displaystyle\sum_{n=2}^\infty\frac{a_n}{a_{n-1}a_{n+1}}$の値を求めよ．

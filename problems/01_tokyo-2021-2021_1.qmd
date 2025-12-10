@@ -3,6 +3,7 @@ title: "東京大学 2021年 2021_1"
 problem_id: "01_tokyo-2021-2021_1"
 university: "東京大学"
 exam_year: "2021"
+problem_number: 1
 source_tex: "archive/01_tokyo/2021/2021_1.tex"
 pdf_source: "archive/01_tokyo/2021/2021_1.pdf"
 page_image: "archive/01_tokyo/2021/2021_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$a$，$b$を実数とする。座標平面上の放物線
+$a$，$b$を実数とする。座標平面上の放物線
 \[ C:y=x^2+ax+b \]
 は放物線$y=-x^2$と2つの共有点を持ち，
 一方の共有点の$x$座標は$-1<x<0$を満たし，

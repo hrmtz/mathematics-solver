@@ -3,6 +3,7 @@ title: "京都大学 1967年 1967_1"
 problem_id: "02_kyoto-1967-1967_1"
 university: "京都大学"
 exam_year: "1967"
+problem_number: 1
 source_tex: "archive/02_kyoto/1967/1967_1.tex"
 pdf_source: "archive/02_kyoto/1967/1967_1.pdf"
 page_image: "archive/02_kyoto/1967/1967_1.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(i)]$x$についての方程式$x(x-3)(x+3)+3k(x-1)(x+1)=0$ $(k>0)$は
 3実根をもつことを証明せよ．

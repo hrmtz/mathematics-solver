@@ -3,6 +3,7 @@ title: "九州大学 2013年 2013_e"
 problem_id: "07_kyushu-2013-2013_e"
 university: "九州大学"
 exam_year: "2013"
+problem_number: 5
 source_tex: "archive/07_kyushu/2013/2013_e.tex"
 pdf_source: "archive/07_kyushu/2013/2013_e.pdf"
 page_image: "archive/07_kyushu/2013/2013_e.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$O$を原点とする$xy$平面上の曲線$y=e^{-x}|\sin x|$ $(x\geqq0)$を$C$とする。
+$O$を原点とする$xy$平面上の曲線$y=e^{-x}|\sin x|$ $(x\geqq0)$を$C$とする。
 このとき，以下の問いに答えよ。
 \begin{description}
 \item[(1)]$n=1, \, 2, \, 3, \, \cdots$に対し，

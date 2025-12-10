@@ -3,6 +3,7 @@ title: "名古屋大学 2021年 2021_2"
 problem_id: "05_nagoya-2021-2021_2"
 university: "名古屋大学"
 exam_year: "2021"
+problem_number: 2
 source_tex: "archive/05_nagoya/2021/2021_2.tex"
 pdf_source: "archive/05_nagoya/2021/2021_2.pdf"
 page_image: "archive/05_nagoya/2021/2021_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　4つの実数を$\alpha=\log_23$，$\beta=\log_35$，$\gamma=\log_52$，
+4つの実数を$\alpha=\log_23$，$\beta=\log_35$，$\gamma=\log_52$，
 $\displaystyle\delta=\frac{3}{2}$とおく。以下の問に答えよ。
 \begin{description}
 \item[(1)]$\alpha\beta\gamma=1$を示せ。

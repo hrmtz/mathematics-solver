@@ -3,6 +3,7 @@ title: "大阪大学 1979年 1979_2"
 problem_id: "06_osaka-1979-1979_2"
 university: "大阪大学"
 exam_year: "1979"
+problem_number: 2
 source_tex: "archive/06_osaka/1979/1979_2.tex"
 pdf_source: "archive/06_osaka/1979/1979_2.pdf"
 page_image: "archive/06_osaka/1979/1979_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　2つの数列$\{ a_n \}$，$\{ b_n \}$の一般項をそれぞれ
+2つの数列$\{ a_n \}$，$\{ b_n \}$の一般項をそれぞれ
 \[ a_n=2^n, \hspace{1zw} b_n=3n+2 \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]
 とする．
 $\{ a_n \}$の項のうち$\{ b_n \}$の項でもあるものを小さいものから順に並べて得られる数列を

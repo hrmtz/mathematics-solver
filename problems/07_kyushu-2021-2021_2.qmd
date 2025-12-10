@@ -3,6 +3,7 @@ title: "九州大学 2021年 2021_2"
 problem_id: "07_kyushu-2021-2021_2"
 university: "九州大学"
 exam_year: "2021"
+problem_number: 2
 source_tex: "archive/07_kyushu/2021/2021_2.tex"
 pdf_source: "archive/07_kyushu/2021/2021_2.pdf"
 page_image: "archive/07_kyushu/2021/2021_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$\theta$を$\displaystyle 0<\theta<\frac{\pi}{4}$をみたす定数とし，$x$の2次方程式
+$\theta$を$\displaystyle 0<\theta<\frac{\pi}{4}$をみたす定数とし，$x$の2次方程式
 \[ x^2-(4\cos\theta)x+\frac{1}{\tan\theta}=0 \hspace{1zw} \cdots\cdots\text{(＊)} \]
 を考える。以下の問いに答えよ。
 \begin{description}

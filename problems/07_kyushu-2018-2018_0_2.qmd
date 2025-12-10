@@ -3,6 +3,7 @@ title: "九州大学 2018年 2018_0_2"
 problem_id: "07_kyushu-2018-2018_0_2"
 university: "九州大学"
 exam_year: "2018"
+problem_number: 2
 source_tex: "archive/07_kyushu/2018/2018_0_2.tex"
 pdf_source: "archive/07_kyushu/2018/2018_0_2.pdf"
 page_image: "archive/07_kyushu/2018/2018_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　以下の問いに答えよ。
+以下の問いに答えよ。
 \begin{description}
 \item[(1)]$n$を自然数とするとき，$2^n$を7で割った余りを求めよ。
 \item[(2)]自然数$m$は，2進法で101が6回連続する表示

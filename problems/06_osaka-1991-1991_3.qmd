@@ -3,6 +3,7 @@ title: "大阪大学 1991年 1991_3"
 problem_id: "06_osaka-1991-1991_3"
 university: "大阪大学"
 exam_year: "1991"
+problem_number: 3
 source_tex: "archive/06_osaka/1991/1991_3.tex"
 pdf_source: "archive/06_osaka/1991/1991_3.pdf"
 page_image: "archive/06_osaka/1991/1991_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　座標平面上で半径$r$ $(0<r<1)$の円板$D$が，
+座標平面上で半径$r$ $(0<r<1)$の円板$D$が，
 原点を中心とする半径1の円に内接しながらすべらずにころがるとき，
 $D$上の定点$P$の動きを調べる．
 ただし$D$の中心は原点のまわりを反時計まわりに進むものとする．

@@ -3,6 +3,7 @@ title: "北海道大学 2005年 2005_a"
 problem_id: "03_hokudai-2005-2005_a"
 university: "北海道大学"
 exam_year: "2005"
+problem_number: 1
 source_tex: "archive/03_hokudai/2005/2005_a.tex"
 pdf_source: "archive/03_hokudai/2005/2005_a.pdf"
 page_image: "archive/03_hokudai/2005/2005_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]すべての整数$m$に対して
 $\displaystyle\frac{pm}{m^2-m-1}$がつねに整数となるような

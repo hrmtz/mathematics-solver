@@ -3,6 +3,7 @@ title: "大阪大学 2002年 2002_4"
 problem_id: "06_osaka-2002-2002_4"
 university: "大阪大学"
 exam_year: "2002"
+problem_number: 4
 source_tex: "archive/06_osaka/2002/2002_4.tex"
 pdf_source: "archive/06_osaka/2002/2002_4.pdf"
 page_image: "archive/06_osaka/2002/2002_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$n$を$n\geqq7$を満たす整数とし，
+$n$を$n\geqq7$を満たす整数とし，
 1つのさいころを投げる試行を$n$回くり返す．
 このとき，$2 \leqq k \leqq n$を満たす整数$k$に対し，
 「$n$回の試行のうち，同じ目が出るどの2つの試行も$k$以上離れている」

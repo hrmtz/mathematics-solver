@@ -3,6 +3,7 @@ title: "東京科学大学 1971年 1971_1"
 problem_id: "08_titech-1971-1971_1"
 university: "東京科学大学"
 exam_year: "1971"
+problem_number: 1
 source_tex: "archive/08_titech/1971/1971_1.tex"
 pdf_source: "archive/08_titech/1971/1971_1.pdf"
 page_image: "archive/08_titech/1971/1971_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$xy$平面上の格子点$(x, \, y)$ $(x=0, \, \pm1, \, \pm2, \, \cdots \, ; \,
+$xy$平面上の格子点$(x, \, y)$ $(x=0, \, \pm1, \, \pm2, \, \cdots \, ; \,
 y=0, \, \pm1, \, \pm2, \, \cdots)$に対して実数$f(x, \, y)$が定まり，
 $f(x, \, y)$は$|y|>10$のとき0であるとする．
 格子点$(p, \, q)$が直線$2x+y=1$上を動くとき

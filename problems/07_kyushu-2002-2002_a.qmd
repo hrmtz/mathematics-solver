@@ -3,6 +3,7 @@ title: "九州大学 2002年 2002_a"
 problem_id: "07_kyushu-2002-2002_a"
 university: "九州大学"
 exam_year: "2002"
+problem_number: 1
 source_tex: "archive/07_kyushu/2002/2002_a.tex"
 pdf_source: "archive/07_kyushu/2002/2002_a.pdf"
 page_image: "archive/07_kyushu/2002/2002_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$p$，$q$を実数の定数とし，
+$p$，$q$を実数の定数とし，
 \[ y=px^4+5(p-q)x^3+qx^2+4(p+q)x+p \]
 で表される曲線を$C_1$とする．
 この曲線と原点に関して対称な曲線を$C_2$，

@@ -3,6 +3,7 @@ title: "東京科学大学 2008年 2008_4"
 problem_id: "08_titech-2008-2008_4"
 university: "東京科学大学"
 exam_year: "2008"
+problem_number: 4
 source_tex: "archive/08_titech/2008/2008_4.tex"
 pdf_source: "archive/08_titech/2008/2008_4.pdf"
 page_image: "archive/08_titech/2008/2008_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面の原点$O$を端点とし，
+平面の原点$O$を端点とし，
 $x$軸となす角がそれぞれ$-\alpha$，$\alpha$(ただし$\displaystyle 0<\alpha<\frac{\pi}{3}$)である半直線を$L_1$，$L_2$とする．
 $L_1$上に点$P$，$L_2$上に点$Q$を線分$PQ$の長さが1となるようにとり，
 点$R$を，直線$PQ$に対し原点$O$の反対側に$\triangle PQR$が正三角形になるようにとる．

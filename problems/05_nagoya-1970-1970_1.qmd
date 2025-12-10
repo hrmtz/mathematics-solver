@@ -3,6 +3,7 @@ title: "名古屋大学 1970年 1970_1"
 problem_id: "05_nagoya-1970-1970_1"
 university: "名古屋大学"
 exam_year: "1970"
+problem_number: 1
 source_tex: "archive/05_nagoya/1970/1970_1.tex"
 pdf_source: "archive/05_nagoya/1970/1970_1.pdf"
 page_image: "archive/05_nagoya/1970/1970_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$a$，$b$，$c$を複素数とするとき，次のことは正しいか．
+$a$，$b$，$c$を複素数とするとき，次のことは正しいか．
 正しいものは証明し，正しくないものについては反例（成り立たない例）をあげよ．
 \begin{description}
 \item[(1)]$ab$，$bc$，$ca$がすべて0ならば，$a$，$b$，$c$はすべて0である．

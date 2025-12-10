@@ -3,6 +3,7 @@ title: "大阪大学 2011年 2011_4"
 problem_id: "06_osaka-2011-2011_4"
 university: "大阪大学"
 exam_year: "2011"
+problem_number: 4
 source_tex: "archive/06_osaka/2011/2011_4.tex"
 pdf_source: "archive/06_osaka/2011/2011_4.pdf"
 page_image: "archive/06_osaka/2011/2011_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$，$b$，$c$を正の定数とし，$x$の関数$f(x)=x^3+ax^2+bx+c$を考える．
+$a$，$b$，$c$を正の定数とし，$x$の関数$f(x)=x^3+ax^2+bx+c$を考える．
 以下，定数はすべて実数とする．
 \begin{description}
 \item[(1)]定数$p$，$q$に対し，次をみたす定数$r$が存在することを示せ．

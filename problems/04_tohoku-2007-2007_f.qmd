@@ -3,6 +3,7 @@ title: "東北大学 2007年 2007_f"
 problem_id: "04_tohoku-2007-2007_f"
 university: "東北大学"
 exam_year: "2007"
+problem_number: 6
 source_tex: "archive/04_tohoku/2007/2007_f.tex"
 pdf_source: "archive/04_tohoku/2007/2007_f.pdf"
 page_image: "archive/04_tohoku/2007/2007_f.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　楕円$\displaystyle\frac{x^2}{4}+\frac{y^2}{9}=1$上に
+楕円$\displaystyle\frac{x^2}{4}+\frac{y^2}{9}=1$上に
 点$P_k(k=1, \, 2, \, \cdots, \, n)$を$\displaystyle\angle P_kOA=\frac{k}{n}\pi$を満たすようにとる．
 ただし，$O=(0, \, 0)$，$A=(2, \, 0)$とする．このとき，
 \[ \lim_{n\to\infty}\frac{1}{n}(\frac{1}{{OP_1}^2}+\frac{1}{{OP_2}^2}+\cdots+\frac{1}{{OP_n}^2}) \]

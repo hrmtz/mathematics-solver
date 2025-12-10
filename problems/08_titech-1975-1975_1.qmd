@@ -3,6 +3,7 @@ title: "東京科学大学 1975年 1975_1"
 problem_id: "08_titech-1975-1975_1"
 university: "東京科学大学"
 exam_year: "1975"
+problem_number: 1
 source_tex: "archive/08_titech/1975/1975_1.tex"
 pdf_source: "archive/08_titech/1975/1975_1.pdf"
 page_image: "archive/08_titech/1975/1975_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$を整数とする．
+$a$，$b$を整数とする．
 $x$，$y$の連立方程式
 \[ \begin{cases} ax+3by=1 
 

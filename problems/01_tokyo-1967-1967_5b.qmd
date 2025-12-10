@@ -3,6 +3,7 @@ title: "東京大学 1967年 1967_5b"
 problem_id: "01_tokyo-1967-1967_5b"
 university: "東京大学"
 exam_year: "1967"
+problem_number: 5
 source_tex: "archive/01_tokyo/1967/1967_5b.tex"
 pdf_source: "archive/01_tokyo/1967/1967_5b.pdf"
 page_image: "archive/01_tokyo/1967/1967_5b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5 旧
-　$y=2\sin x$のグラフと$y=a-\cos 2x$のグラフとが接するように定数$a$の値を定めよ．
+$y=2\sin x$のグラフと$y=a-\cos 2x$のグラフとが接するように定数$a$の値を定めよ．
 なお，そのときの図をかけ．
 ただし，$0 \leqq x \leqq 2\pi$の区間についてだけでよい．
 

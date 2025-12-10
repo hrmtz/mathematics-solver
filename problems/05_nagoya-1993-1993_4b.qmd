@@ -3,6 +3,7 @@ title: "名古屋大学 1993年 1993_4b"
 problem_id: "05_nagoya-1993-1993_4b"
 university: "名古屋大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/05_nagoya/1993/1993_4b.tex"
 pdf_source: "archive/05_nagoya/1993/1993_4b.pdf"
 page_image: "archive/05_nagoya/1993/1993_4b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　$M=\{ 1, \, 2, \, \cdots\cdots, \, n \}$を1から$n$までの自然数の集合，
+$M=\{ 1, \, 2, \, \cdots\cdots, \, n \}$を1から$n$までの自然数の集合，
 $f$を$M$から$M$への写像とし，
 \[ f_1=f, \hspace{1zw} f_2=f \circ f_1=f \circ f, \hspace{1zw} f_3=f \circ f_2=f \circ f \circ f, \hspace{1zw} \cdots\cdots, \]
 \[ f_k=f \circ f_{k-1}=f \circ f \circ \cdots\cdots \circ f(k\text{個の合成}), \hspace{1zw} \cdots\cdots \]

@@ -3,6 +3,7 @@ title: "東北大学 2020年 2020_c"
 problem_id: "04_tohoku-2020-2020_c"
 university: "東北大学"
 exam_year: "2020"
+problem_number: 3
 source_tex: "archive/04_tohoku/2020/2020_c.tex"
 pdf_source: "archive/04_tohoku/2020/2020_c.pdf"
 page_image: "archive/04_tohoku/2020/2020_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$\displaystyle c=\frac{20-\sqrt{526}}{6}$として，
+$\displaystyle c=\frac{20-\sqrt{526}}{6}$として，
 数列$a_1, \, a_2, \, a_3, \, \cdots$を
 \[ a_k=\int_c^k(12x-40)dx \]
 で定め，$n=1, \, 2, \, 3, \, \cdots$に対し，

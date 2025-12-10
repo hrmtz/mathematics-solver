@@ -3,6 +3,7 @@ title: "九州大学 2007年 2007_0_3"
 problem_id: "07_kyushu-2007-2007_0_3"
 university: "九州大学"
 exam_year: "2007"
+problem_number: 3
 source_tex: "archive/07_kyushu/2007/2007_0_3.tex"
 pdf_source: "archive/07_kyushu/2007/2007_0_3.pdf"
 page_image: "archive/07_kyushu/2007/2007_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　図のような1辺の長さが1の正方形$ABCD$がある．
+図のような1辺の長さが1の正方形$ABCD$がある．
 この正方形の辺上の点$Q$を，コインを投げて表が出れば反時計まわりに1，
 裏が出れば時計まわりに1動かす試行を考える．
 点$Q$が頂点$A$から出発してこの試行が繰り返し行われるものとする．

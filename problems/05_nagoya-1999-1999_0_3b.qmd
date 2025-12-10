@@ -3,6 +3,7 @@ title: "名古屋大学 1999年 1999_0_3b"
 problem_id: "05_nagoya-1999-1999_0_3b"
 university: "名古屋大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/05_nagoya/1999/1999_0_3b.tex"
 pdf_source: "archive/05_nagoya/1999/1999_0_3b.pdf"
 page_image: "archive/05_nagoya/1999/1999_0_3b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (b)
-　複素数$z$ $(z\neq-1)$に対し，$\displaystyle f(z)=\frac{z-1}{z+1}$とおく．
+複素数$z$ $(z\neq-1)$に対し，$\displaystyle f(z)=\frac{z-1}{z+1}$とおく．
 このとき，以下の問に答えよ．
 \begin{description}
 \item[(1)]$f(f(z))=z+1$をみたす$z$を求めよ．

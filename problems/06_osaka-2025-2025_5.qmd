@@ -3,6 +3,7 @@ title: "大阪大学 2025年 2025_5"
 problem_id: "06_osaka-2025-2025_5"
 university: "大阪大学"
 exam_year: "2025"
+problem_number: 5
 source_tex: "archive/06_osaka/2025/2025_5.tex"
 pdf_source: "archive/06_osaka/2025/2025_5.pdf"
 page_image: "archive/06_osaka/2025/2025_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　投げたときに表と裏の出る確率がそれぞれ$\displaystyle\frac{1}{2}$のコインがある．
+投げたときに表と裏の出る確率がそれぞれ$\displaystyle\frac{1}{2}$のコインがある．
 A，B，Cの3文字をBACのように1個ずつすべて並べて得られる文字列に対して，コインを投げて次の操作を行う．
 \begin{description}
 \item[●]表が出たら文字列の左から1文字目と2文字目を入れかえる．

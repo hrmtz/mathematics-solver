@@ -3,6 +3,7 @@ title: "大阪大学 2006年 2006_0_2"
 problem_id: "06_osaka-2006-2006_0_2"
 university: "大阪大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/06_osaka/2006/2006_0_2.tex"
 pdf_source: "archive/06_osaka/2006/2006_0_2.pdf"
 page_image: "archive/06_osaka/2006/2006_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　自然数$m$，$n$と$0<a<1$を満たす実数$a$を，
+自然数$m$，$n$と$0<a<1$を満たす実数$a$を，
 等式$\displaystyle\log_26=m+\frac{1}{n+a}$が成り立つようにとる．
 　以下の問いに答えよ．
 \begin{description}

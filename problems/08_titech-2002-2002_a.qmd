@@ -3,6 +3,7 @@ title: "東京科学大学 2002年 2002_a"
 problem_id: "08_titech-2002-2002_a"
 university: "東京科学大学"
 exam_year: "2002"
+problem_number: 1
 source_tex: "archive/08_titech/2002/2002_a.tex"
 pdf_source: "archive/08_titech/2002/2002_a.pdf"
 page_image: "archive/08_titech/2002/2002_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$n$を自然数とする．
+$n$を自然数とする．
 \begin{description}
 \item[(1)]実数$x$に対して，$\displaystyle \sum_{k=0}^n (-1)^k x^{2k} - \frac{1}{1+x^2}$を求めよ．
 \item[(2)]不等式$\displaystyle \left| \sum_{k=0}^n \frac{(-1)^k}{2k+1} - \int_0^1 \frac{dx}{1+x^2} \right| \leqq \frac{1}{2n+3} $

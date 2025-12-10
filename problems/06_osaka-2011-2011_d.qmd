@@ -3,6 +3,7 @@ title: "大阪大学 2011年 2011_d"
 problem_id: "06_osaka-2011-2011_d"
 university: "大阪大学"
 exam_year: "2011"
+problem_number: 4
 source_tex: "archive/06_osaka/2011/2011_d.tex"
 pdf_source: "archive/06_osaka/2011/2011_d.pdf"
 page_image: "archive/06_osaka/2011/2011_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　座標平面上に原点$O$を中心とする半径1の円$C$がある．
+座標平面上に原点$O$を中心とする半径1の円$C$がある．
 点$A(-2, \, 0)$を通る直線が$y>0$の範囲にある点$P$において円$C$と接するとする．
 自然数$n\geqq2$に対して点$A$を通る$(n-1)$本の直線で$\angle OAP$を$n$等分する．
 これらの直線を直線$AO$となす角が小さいものから順に$l_1, \, \cdots, \, l_{n-1}$とし，

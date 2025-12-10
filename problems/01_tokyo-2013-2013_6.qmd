@@ -3,6 +3,7 @@ title: "東京大学 2013年 2013_6"
 problem_id: "01_tokyo-2013-2013_6"
 university: "東京大学"
 exam_year: "2013"
+problem_number: 6
 source_tex: "archive/01_tokyo/2013/2013_6.tex"
 pdf_source: "archive/01_tokyo/2013/2013_6.pdf"
 page_image: "archive/01_tokyo/2013/2013_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　座標空間において，$xy$平面内で不等式$|x|\leqq1$，$|y|\leqq1$により定まる正方形$S$の4つの頂点を
+座標空間において，$xy$平面内で不等式$|x|\leqq1$，$|y|\leqq1$により定まる正方形$S$の4つの頂点を
 $A(-1, \, 1, \, 0)$，$B(1, \, 1, \, 0)$，$C(1, \, -1, \, 0)$，$D(-1, \, -1, 0)$とする。
 正方形$S$を，直線$BD$を軸として回転させてできる立体を$V_1$，直線$AC$を軸として回転させてできる立体を$V_2$とする。
 \begin{description}

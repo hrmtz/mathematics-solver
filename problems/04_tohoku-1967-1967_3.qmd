@@ -3,6 +3,7 @@ title: "東北大学 1967年 1967_3"
 problem_id: "04_tohoku-1967-1967_3"
 university: "東北大学"
 exam_year: "1967"
+problem_number: 3
 source_tex: "archive/04_tohoku/1967/1967_3.tex"
 pdf_source: "archive/04_tohoku/1967/1967_3.pdf"
 page_image: "archive/04_tohoku/1967/1967_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　直角3角形$ABC$の斜辺$BC$の中点を$M$とする．
+直角3角形$ABC$の斜辺$BC$の中点を$M$とする．
 辺$AB$，$AC$上にそれぞれ点$P$，$Q$をとり，
 点$P$，$Q$から辺$BC$におろした垂線の足を$P'$，$Q'$とする．
 このとき点$P'$，$Q'$は$\displaystyle P'Q'=\frac{1}{2}BC$を満たしているものとする．

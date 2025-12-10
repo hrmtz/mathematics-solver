@@ -3,6 +3,7 @@ title: "東北大学 2018年 2018_6"
 problem_id: "04_tohoku-2018-2018_6"
 university: "東北大学"
 exam_year: "2018"
+problem_number: 6
 source_tex: "archive/04_tohoku/2018/2018_6.tex"
 pdf_source: "archive/04_tohoku/2018/2018_6.pdf"
 page_image: "archive/04_tohoku/2018/2018_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　$xy$平面内の図形
+$xy$平面内の図形
 \[ S:\begin{cases} x+y^2\leqq2 
 
  x+y\geqq0 

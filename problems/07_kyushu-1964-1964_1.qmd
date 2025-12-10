@@ -3,6 +3,7 @@ title: "九州大学 1964年 1964_1"
 problem_id: "07_kyushu-1964-1964_1"
 university: "九州大学"
 exam_year: "1964"
+problem_number: 1
 source_tex: "archive/07_kyushu/1964/1964_1.tex"
 pdf_source: "archive/07_kyushu/1964/1964_1.pdf"
 page_image: "archive/07_kyushu/1964/1964_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$BC=a$，$CA=b$，$AC=c$，$\angle ACB={90}^\circ$である定直角三角形$ABC$の辺$BC$上に点$B$，$C$と異なる点$P$をとる。
+$BC=a$，$CA=b$，$AC=c$，$\angle ACB={90}^\circ$である定直角三角形$ABC$の辺$BC$上に点$B$，$C$と異なる点$P$をとる。
 点$P$を通り辺$AB$と垂直な直線が，辺$AC$の延長および辺$AB$と交わる点をそれぞれ$Q$，$R$とする。
 このとき，次の各問に答えよ。
  

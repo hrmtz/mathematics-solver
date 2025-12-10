@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_b"
 problem_id: "07_kyushu-1998-1998_b"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 2
 source_tex: "archive/07_kyushu/1998/1998_b.tex"
 pdf_source: "archive/07_kyushu/1998/1998_b.pdf"
 page_image: "archive/07_kyushu/1998/1998_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$f(x)=x-1$とする．$n$を任意の正の整数とするとき，関数
+$f(x)=x-1$とする．$n$を任意の正の整数とするとき，関数
 \[ g_n(x)=\int_0^x{(x-y)}^{n-1}f(y)dy \]
 の増減を調べ，極値を求めよ．
 

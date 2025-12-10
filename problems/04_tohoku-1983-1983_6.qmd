@@ -3,6 +3,7 @@ title: "東北大学 1983年 1983_6"
 problem_id: "04_tohoku-1983-1983_6"
 university: "東北大学"
 exam_year: "1983"
+problem_number: 6
 source_tex: "archive/04_tohoku/1983/1983_6.tex"
 pdf_source: "archive/04_tohoku/1983/1983_6.pdf"
 page_image: "archive/04_tohoku/1983/1983_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$P(x, \, y)$は第1象限を$y$座標が増加する方向に動く点で，時刻$t$のとき，その位置は
+$P(x, \, y)$は第1象限を$y$座標が増加する方向に動く点で，時刻$t$のとき，その位置は
 \[ x=4-2f(t), \hspace{1zw} y=f(t) \]
 で与えられ，その速さは$xy$に等しいという．
 \begin{description}

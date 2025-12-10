@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_d"
 problem_id: "07_kyushu-1998-1998_d"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/07_kyushu/1998/1998_d.tex"
 pdf_source: "archive/07_kyushu/1998/1998_d.pdf"
 page_image: "archive/07_kyushu/1998/1998_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　曲線$\displaystyle y=\frac{\log x}{x}$を$l_1$，原点を通り$l_1$に接する直線を$l_2$とする．
+曲線$\displaystyle y=\frac{\log x}{x}$を$l_1$，原点を通り$l_1$に接する直線を$l_2$とする．
 曲線$l_1$，直線$l_2$および$x$軸で囲まれる図形を，
 点$(1, \, 0)$を通る直線によってその面積を二等分するように分けたとき，
 $l_1$と$l_2$の接点の側にある図形を$S$とする．

@@ -3,6 +3,7 @@ title: "東京大学 2000年 2000_0_2"
 problem_id: "01_tokyo-2000-2000_0_2"
 university: "東京大学"
 exam_year: "2000"
+problem_number: 2
 source_tex: "archive/01_tokyo/2000/2000_0_2.tex"
 pdf_source: "archive/01_tokyo/2000/2000_0_2.pdf"
 page_image: "archive/01_tokyo/2000/2000_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xy$平面内の領域
+$xy$平面内の領域
 \[ -1 \leqq x \leqq 1, \hspace{1zw} -1 \leqq y \leqq 1 \]
 において
 \[ 1-ax-by-axy \]

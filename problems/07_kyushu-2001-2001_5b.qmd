@@ -3,6 +3,7 @@ title: "九州大学 2001年 2001_5b"
 problem_id: "07_kyushu-2001-2001_5b"
 university: "九州大学"
 exam_year: "2001"
+problem_number: 5
 source_tex: "archive/07_kyushu/2001/2001_5b.tex"
 pdf_source: "archive/07_kyushu/2001/2001_5b.pdf"
 page_image: "archive/07_kyushu/2001/2001_5b.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-5 (b)
 \begin{description}
 \item[(1)]$e$を自然対数の底とし，
 \[ f(x)=e^x- \left( 1+x+\frac{1}{2}x^2 \right) \]

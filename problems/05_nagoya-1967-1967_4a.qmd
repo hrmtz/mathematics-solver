@@ -3,6 +3,7 @@ title: "名古屋大学 1967年 1967_4a"
 problem_id: "05_nagoya-1967-1967_4a"
 university: "名古屋大学"
 exam_year: "1967"
+problem_number: 4
 source_tex: "archive/05_nagoya/1967/1967_4a.tex"
 pdf_source: "archive/05_nagoya/1967/1967_4a.pdf"
 page_image: "archive/05_nagoya/1967/1967_4a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (a)
-　相異なる3点$P_1(x_1, \, y_1)$，$P_2(x_2, \, y_2)$，$P_3(x_3, \, y_3)$がある．
+相異なる3点$P_1(x_1, \, y_1)$，$P_2(x_2, \, y_2)$，$P_3(x_3, \, y_3)$がある．
 $P_2$，$P_3$は直線$x_1x+y_1y=1$の上にあり，
 $P_3$は直線$x_2x+y_2y=1$の上にもある．
 原点を$O$とするとき，次のことを証明せよ．

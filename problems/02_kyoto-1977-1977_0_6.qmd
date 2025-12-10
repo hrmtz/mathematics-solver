@@ -3,6 +3,7 @@ title: "京都大学 1977年 1977_0_6"
 problem_id: "02_kyoto-1977-1977_0_6"
 university: "京都大学"
 exam_year: "1977"
+problem_number: 6
 source_tex: "archive/02_kyoto/1977/1977_0_6.tex"
 pdf_source: "archive/02_kyoto/1977/1977_0_6.pdf"
 page_image: "archive/02_kyoto/1977/1977_0_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$AB>AC$であるような$\triangle ABC$において，辺$BC$の三等分点$M$，$N$をとる$(BM=MN=NC)$．このとき，
+$AB>AC$であるような$\triangle ABC$において，辺$BC$の三等分点$M$，$N$をとる$(BM=MN=NC)$．このとき，
 \begin{description}
 \item[(i)]$AM$と$AN$の大小関係をしらべよ．
 \item[(ii)]$\angle BAM$と$\angle CAN$との大小関係をしらべよ．

@@ -3,6 +3,7 @@ title: "名古屋大学 1999年 1999_3"
 problem_id: "05_nagoya-1999-1999_3"
 university: "名古屋大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/05_nagoya/1999/1999_3.tex"
 pdf_source: "archive/05_nagoya/1999/1999_3.pdf"
 page_image: "archive/05_nagoya/1999/1999_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$N$個$(N\geqq2)$の箱の中に1回に1つずつ無作為に玉を入れてゆく．
+$N$個$(N\geqq2)$の箱の中に1回に1つずつ無作為に玉を入れてゆく．
 玉が2つ入った箱ができたら，
 そこでその手続きを中止する．
 ちょうど$k$回目で玉が2つ入った箱ができる確率を$P(N, \, k)$とする．

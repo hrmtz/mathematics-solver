@@ -3,6 +3,7 @@ title: "東京大学 2014年 2014_3"
 problem_id: "01_tokyo-2014-2014_3"
 university: "東京大学"
 exam_year: "2014"
+problem_number: 3
 source_tex: "archive/01_tokyo/2014/2014_3.tex"
 pdf_source: "archive/01_tokyo/2014/2014_3.pdf"
 page_image: "archive/01_tokyo/2014/2014_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$u$を実数とする。座標平面上の2つの放物線
+$u$を実数とする。座標平面上の2つの放物線
 \[ C_1:y=-x^2+1 \]
 \[ C_2:y={(x-u)}^2+u \]
 を考える。

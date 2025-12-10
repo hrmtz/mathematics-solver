@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_1"
 problem_id: "07_kyushu-1997-1997_1"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/07_kyushu/1997/1997_1.tex"
 pdf_source: "archive/07_kyushu/1997/1997_1.pdf"
 page_image: "archive/07_kyushu/1997/1997_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　座標平面上を運動する点$P$の時刻$t$における座標$(x, \, y)$が
+座標平面上を運動する点$P$の時刻$t$における座標$(x, \, y)$が
 $x=r(t)\cos t$，$y=r(t)\sin t$で与えられている．
 ただし，$r(t)=1+\cos t$であるとする．
 \begin{description}

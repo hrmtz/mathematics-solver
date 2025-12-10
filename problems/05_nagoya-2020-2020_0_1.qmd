@@ -3,6 +3,7 @@ title: "名古屋大学 2020年 2020_0_1"
 problem_id: "05_nagoya-2020-2020_0_1"
 university: "名古屋大学"
 exam_year: "2020"
+problem_number: 1
 source_tex: "archive/05_nagoya/2020/2020_0_1.tex"
 pdf_source: "archive/05_nagoya/2020/2020_0_1.pdf"
 page_image: "archive/05_nagoya/2020/2020_0_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$a$を実数として$f(x)=2x^2-2ax-a^2$とおく。以下の問に答えよ。
+$a$を実数として$f(x)=2x^2-2ax-a^2$とおく。以下の問に答えよ。
 \begin{description}
 \item[(1)]方程式$f(x)=0$の解$t$が，必ず$-1 \leqq t \leqq 1$をみたすための$a$の条件を求めよ。
 \item[(2)](1)で求めた条件をみたす$a$に対して

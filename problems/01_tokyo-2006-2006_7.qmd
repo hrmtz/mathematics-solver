@@ -3,6 +3,7 @@ title: "東京大学 2006年 2006_7"
 problem_id: "01_tokyo-2006-2006_7"
 university: "東京大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/01_tokyo/2006/2006_7.tex"
 pdf_source: "archive/01_tokyo/2006/2006_7.pdf"
 page_image: "archive/01_tokyo/2006/2006_7.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$xy$平面上で$t$を変数とする媒介変数表示$\begin{cases} x=2t+t^2 
+$xy$平面上で$t$を変数とする媒介変数表示$\begin{cases} x=2t+t^2 
 
  y=t+2t^2 \end{cases}$
 で表される曲線を$C$とする．次の問に答えよ．

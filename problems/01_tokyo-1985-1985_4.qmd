@@ -3,6 +3,7 @@ title: "東京大学 1985年 1985_4"
 problem_id: "01_tokyo-1985-1985_4"
 university: "東京大学"
 exam_year: "1985"
+problem_number: 4
 source_tex: "archive/01_tokyo/1985/1985_4.tex"
 pdf_source: "archive/01_tokyo/1985/1985_4.pdf"
 page_image: "archive/01_tokyo/1985/1985_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$，$b$を実数とし，
+$a$，$b$を実数とし，
 $A=\begin{pmatrix} a & 0 
 
  a-b & b \end{pmatrix}$とおく．

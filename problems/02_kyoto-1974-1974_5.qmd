@@ -3,6 +3,7 @@ title: "京都大学 1974年 1974_5"
 problem_id: "02_kyoto-1974-1974_5"
 university: "京都大学"
 exam_year: "1974"
+problem_number: 5
 source_tex: "archive/02_kyoto/1974/1974_5.tex"
 pdf_source: "archive/02_kyoto/1974/1974_5.pdf"
 page_image: "archive/02_kyoto/1974/1974_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　正の定数$a$，$b$に対し，不等式$\displaystyle 4m<n^2<4m+\frac{a}{\sqrt{m}}+\frac{b}{m}$を考え，
+正の定数$a$，$b$に対し，不等式$\displaystyle 4m<n^2<4m+\frac{a}{\sqrt{m}}+\frac{b}{m}$を考え，
 次の問いに答えよ．
 \begin{description}
 \item[(イ)]$m>0$，かつ$m$，$n$ともに整数であって，

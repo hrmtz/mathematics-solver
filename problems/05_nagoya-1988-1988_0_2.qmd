@@ -3,6 +3,7 @@ title: "名古屋大学 1988年 1988_0_2"
 problem_id: "05_nagoya-1988-1988_0_2"
 university: "名古屋大学"
 exam_year: "1988"
+problem_number: 2
 source_tex: "archive/05_nagoya/1988/1988_0_2.tex"
 pdf_source: "archive/05_nagoya/1988/1988_0_2.pdf"
 page_image: "archive/05_nagoya/1988/1988_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　1辺の長さ1，$\angle A=\angle C={120}^\circ$のひし形$ABCD$がある．
+1辺の長さ1，$\angle A=\angle C={120}^\circ$のひし形$ABCD$がある．
 $a$，$b$を$\displaystyle 0<a\leqq\frac{\sqrt3}{2}$，$0<b\leqq1$の数とし，
 ひし形$ABCD$に含まれる次の4つのおうぎ形$P_1$，$P_2$，$P_3$，$P_4$を考える．
 それらは中心$A$，半径$a$，中心角${120}^\circ$のおうぎ形$P_1$，

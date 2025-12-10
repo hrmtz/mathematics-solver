@@ -3,6 +3,7 @@ title: "北海道大学 2021年 2021_1"
 problem_id: "03_hokudai-2021-2021_1"
 university: "北海道大学"
 exam_year: "2021"
+problem_number: 1
 source_tex: "archive/03_hokudai/2021/2021_1.tex"
 pdf_source: "archive/03_hokudai/2021/2021_1.pdf"
 page_image: "archive/03_hokudai/2021/2021_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　三角形$OAB$において，辺$AB$を$2:1$に内分する点を$D$とし，
+三角形$OAB$において，辺$AB$を$2:1$に内分する点を$D$とし，
 直線$OA$に関して点$D$と対称な点を$E$とする。
 $\overrightarrow{OA}=\overrightarrow{a}$，$\overrightarrow{OB}=\overrightarrow{b}$とし，
 $|\overrightarrow{a}|=4$，$\overrightarrow{a}\cdot\overrightarrow{b}=6$を満たすとする。

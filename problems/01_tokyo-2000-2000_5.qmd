@@ -3,6 +3,7 @@ title: "東京大学 2000年 2000_5"
 problem_id: "01_tokyo-2000-2000_5"
 university: "東京大学"
 exam_year: "2000"
+problem_number: 5
 source_tex: "archive/01_tokyo/2000/2000_5.tex"
 pdf_source: "archive/01_tokyo/2000/2000_5.pdf"
 page_image: "archive/01_tokyo/2000/2000_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　次の条件を満たす正の整数全体の集合を$S$とおく．
+次の条件を満たす正の整数全体の集合を$S$とおく．
 \begin{center}
 「各けたの数字はたがいに異なり，どの2つのけたの数字の和も9にならない．」
 \end{center}

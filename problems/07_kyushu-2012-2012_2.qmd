@@ -3,6 +3,7 @@ title: "九州大学 2012年 2012_2"
 problem_id: "07_kyushu-2012-2012_2"
 university: "九州大学"
 exam_year: "2012"
+problem_number: 2
 source_tex: "archive/07_kyushu/2012/2012_2.tex"
 pdf_source: "archive/07_kyushu/2012/2012_2.pdf"
 page_image: "archive/07_kyushu/2012/2012_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　2次の正方行列$A$，$B$はそれぞれ
+2次の正方行列$A$，$B$はそれぞれ
 \[ A\begin{pmatrix} -3 
 
  5 \end{pmatrix} = \begin{pmatrix} 0 

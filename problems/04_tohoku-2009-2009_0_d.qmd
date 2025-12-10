@@ -3,6 +3,7 @@ title: "東北大学 2009年 2009_0_d"
 problem_id: "04_tohoku-2009-2009_0_d"
 university: "東北大学"
 exam_year: "2009"
+problem_number: 4
 source_tex: "archive/04_tohoku/2009/2009_0_d.tex"
 pdf_source: "archive/04_tohoku/2009/2009_0_d.pdf"
 page_image: "archive/04_tohoku/2009/2009_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$t$を$t\geqq0$を満たす実数とする．
+$t$を$t\geqq0$を満たす実数とする．
 座標平面において，不等式$x^2+y^2+2y-1\leqq0$が表す領域を$A$，
 不等式$x^2+y^2-2(t+1)x-2t^2y+t^4+2t-1\leqq0$が表す領域を$B$，
 不等式$x^2+y^2+2(t+1)x-2t^2y+t^4+t^2+2t-1\leqq0$が表す領域を$C$とする．

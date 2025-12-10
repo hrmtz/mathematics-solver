@@ -3,6 +3,7 @@ title: "東京大学 2003年 2003_7"
 problem_id: "01_tokyo-2003-2003_7"
 university: "東京大学"
 exam_year: "2003"
+problem_number: 1
 source_tex: "archive/01_tokyo/2003/2003_7.tex"
 pdf_source: "archive/01_tokyo/2003/2003_7.pdf"
 page_image: "archive/01_tokyo/2003/2003_7.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]$x\geqq0$のとき，次の不等式を示せ．
 \[ x-\frac{x^3}{3 \, !} \leqq \sin x\leqq x-\frac{x^3}{3 \, !}+\frac{x^5}{5 \, !} \]

@@ -3,6 +3,7 @@ title: "九州大学 1990年 1990_d"
 problem_id: "07_kyushu-1990-1990_d"
 university: "九州大学"
 exam_year: "1990"
+problem_number: 4
 source_tex: "archive/07_kyushu/1990/1990_d.tex"
 pdf_source: "archive/07_kyushu/1990/1990_d.pdf"
 page_image: "archive/07_kyushu/1990/1990_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xy-$平面上の第1象限に，図のように，
+$xy-$平面上の第1象限に，図のように，
 両端$A$，$B$がそれぞれ$x$軸，$y$軸上を動く長さ1の線分がある．
 $\angle OAB=\theta$ $\displaystyle\left(0<\theta<\frac{\pi}{2}\right)$のときの，
 2点$A$，$B$を通る直線を$L_\theta$で表す．

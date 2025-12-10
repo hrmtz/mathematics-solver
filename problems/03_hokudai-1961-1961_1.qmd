@@ -3,6 +3,7 @@ title: "北海道大学 1961年 1961_1"
 problem_id: "03_hokudai-1961-1961_1"
 university: "北海道大学"
 exam_year: "1961"
+problem_number: 1
 source_tex: "archive/03_hokudai/1961/1961_1.tex"
 pdf_source: "archive/03_hokudai/1961/1961_1.pdf"
 page_image: "archive/03_hokudai/1961/1961_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　三角形$ABC$の$\angle A$の2等分線が辺$BC$と交わる点を$D$とし，
+三角形$ABC$の$\angle A$の2等分線が辺$BC$と交わる点を$D$とし，
 辺$BC$，$CA$，$AB$の長さをそれぞれ$a$，$b$，$c$で表わすとき，
 次の問に答えよ。
 \begin{description}

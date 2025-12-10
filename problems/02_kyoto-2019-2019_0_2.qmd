@@ -3,6 +3,7 @@ title: "京都大学 2019年 2019_0_2"
 problem_id: "02_kyoto-2019-2019_0_2"
 university: "京都大学"
 exam_year: "2019"
+problem_number: 2
 source_tex: "archive/02_kyoto/2019/2019_0_2.tex"
 pdf_source: "archive/02_kyoto/2019/2019_0_2.pdf"
 page_image: "archive/02_kyoto/2019/2019_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$は実数とし，$b$は正の定数とする。
+$a$は実数とし，$b$は正の定数とする。
 $x$の関数$f(x)=x^2+2(ax+b|x|)$の最小値$m$を求めよ。
 さらに，$a$の値が変化するとき，$a$の値を横軸に，$m$の値を縦軸にとって$m$のグラフをかけ。
 

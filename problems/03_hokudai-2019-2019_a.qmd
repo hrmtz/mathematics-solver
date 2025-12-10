@@ -3,6 +3,7 @@ title: "北海道大学 2019年 2019_a"
 problem_id: "03_hokudai-2019-2019_a"
 university: "北海道大学"
 exam_year: "2019"
+problem_number: 1
 source_tex: "archive/03_hokudai/2019/2019_a.tex"
 pdf_source: "archive/03_hokudai/2019/2019_a.pdf"
 page_image: "archive/03_hokudai/2019/2019_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$n$を3以上の自然数とする。当たりくじ2本を含む$n$本のくじがある。
+$n$を3以上の自然数とする。当たりくじ2本を含む$n$本のくじがある。
 くじを引いて，当たりなら持ち点に1を加算し，はずれなら持ち点は変わらないとする。
 最初の持ち点は0とし，くじを引いてはもどすという試行を$n$回繰り返す。
 　$k$を0以上の整数とする。$n$回の試行が終了した時点の持ち点が$k$となる確率を$p_n(k)$とする。

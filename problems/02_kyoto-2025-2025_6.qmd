@@ -3,6 +3,7 @@ title: "京都大学 2025年 2025_6"
 problem_id: "02_kyoto-2025-2025_6"
 university: "京都大学"
 exam_year: "2025"
+problem_number: 6
 source_tex: "archive/02_kyoto/2025/2025_6.tex"
 pdf_source: "archive/02_kyoto/2025/2025_6.pdf"
 page_image: "archive/02_kyoto/2025/2025_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$n$は2以上の整数とする．1枚の硬貨を続けて$n$回投げる．
+$n$は2以上の整数とする．1枚の硬貨を続けて$n$回投げる．
 このとき，$k$回目$(1 \leqq k \leqq n)$に表が出たら$X_k=1$，裏が出たら$X_k=0$として，
 $X_1, \, X_2, \, \cdots, \, X_n$を定める．
 \[ Y_n=\sum_{k=2}^nX_{k-1}X_k \]

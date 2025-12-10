@@ -3,6 +3,7 @@ title: "名古屋大学 2006年 2006_0_2"
 problem_id: "05_nagoya-2006-2006_0_2"
 university: "名古屋大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/05_nagoya/2006/2006_0_2.tex"
 pdf_source: "archive/05_nagoya/2006/2006_0_2.pdf"
 page_image: "archive/05_nagoya/2006/2006_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$xy$平面上に点$A(2, \, 4)$がある．
+$xy$平面上に点$A(2, \, 4)$がある．
 平面上の直線$l$に関して点$A$と対称な点が$x$軸上にあるとき，
 直線$l$をピッタリ直線と呼ぶことにする．
 \begin{description}

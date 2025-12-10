@@ -3,6 +3,7 @@ title: "東京科学大学 2000年 2000_b"
 problem_id: "08_titech-2000-2000_b"
 university: "東京科学大学"
 exam_year: "2000"
+problem_number: 2
 source_tex: "archive/08_titech/2000/2000_b.tex"
 pdf_source: "archive/08_titech/2000/2000_b.pdf"
 page_image: "archive/08_titech/2000/2000_b.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]$m \geqq 0$，$n \geqq 1$である整数$m$，$n$にたいし
 $\displaystyle a_{m,n}=\int_0^\pi \theta^m \cos n\theta d\theta$，

@@ -3,6 +3,7 @@ title: "大阪大学 2018年 2018_3"
 problem_id: "06_osaka-2018-2018_3"
 university: "大阪大学"
 exam_year: "2018"
+problem_number: 3
 source_tex: "archive/06_osaka/2018/2018_3.tex"
 pdf_source: "archive/06_osaka/2018/2018_3.pdf"
 page_image: "archive/06_osaka/2018/2018_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　2つの関数
+2つの関数
 \[ f(t)=2\sin t+\cos2t, \hspace{1zw} g(t)=2\cos t+\sin2t \]
 を用いて定義される座標平面上の曲線
 \[ C:x=f(t), \hspace{1zw} y=g(t) \hspace{1zw}

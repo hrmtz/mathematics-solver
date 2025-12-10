@@ -3,6 +3,7 @@ title: "九州大学 2016年 2016_2"
 problem_id: "07_kyushu-2016-2016_2"
 university: "九州大学"
 exam_year: "2016"
+problem_number: 2
 source_tex: "archive/07_kyushu/2016/2016_2.tex"
 pdf_source: "archive/07_kyushu/2016/2016_2.pdf"
 page_image: "archive/07_kyushu/2016/2016_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$t$を$0<t<1$を満たす実数とする。
+$t$を$0<t<1$を満たす実数とする。
 面積が1である三角形$ABC$において，辺$AB$，$BC$，$CA$を
 それぞれ$2:1$，$t:1-t$，$1:3$に内分する点を$D$，$E$，$F$とする。
 また，$AE$と$BF$，$BF$と$CD$，$CD$と$AE$の交点をそれぞれ$P$，$Q$，$R$とする。

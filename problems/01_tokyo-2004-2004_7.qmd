@@ -3,6 +3,7 @@ title: "東京大学 2004年 2004_7"
 problem_id: "01_tokyo-2004-2004_7"
 university: "東京大学"
 exam_year: "2004"
+problem_number: 1
 source_tex: "archive/01_tokyo/2004/2004_7.tex"
 pdf_source: "archive/01_tokyo/2004/2004_7.pdf"
 page_image: "archive/01_tokyo/2004/2004_7.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$r$は正の実数とし，角$\theta$は$\displaystyle 0<\theta<\frac{\pi}{2}$を満たすとする．
+$r$は正の実数とし，角$\theta$は$\displaystyle 0<\theta<\frac{\pi}{2}$を満たすとする．
 $xy$平面の原点$O$を$P_0$，$(1,0)$を$P_1$として，点$P_2,P_3,\cdots$を，
 以下の条件(a)，(b)，(c)が$n=0,1,2,\cdots$に対して満たされるようにとる．
 \begin{description}

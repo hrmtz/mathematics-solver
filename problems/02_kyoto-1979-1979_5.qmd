@@ -3,6 +3,7 @@ title: "京都大学 1979年 1979_5"
 problem_id: "02_kyoto-1979-1979_5"
 university: "京都大学"
 exam_year: "1979"
+problem_number: 5
 source_tex: "archive/02_kyoto/1979/1979_5.tex"
 pdf_source: "archive/02_kyoto/1979/1979_5.pdf"
 page_image: "archive/02_kyoto/1979/1979_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　中心が$O$である定円の周上に相異なる6つの定点$A_1,A_2,A_3,A_4,A_5,A_6$がある．
+中心が$O$である定円の周上に相異なる6つの定点$A_1,A_2,A_3,A_4,A_5,A_6$がある．
 このとき
 \begin{description}
 \item[(i)]$\overrightarrow{OA_1}+\overrightarrow{OA_2}+\overrightarrow{OA_3}=\overrightarrow{OH}$となるように

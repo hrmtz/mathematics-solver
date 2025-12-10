@@ -3,6 +3,7 @@ title: "東北大学 1990年 1990_4"
 problem_id: "04_tohoku-1990-1990_4"
 university: "東北大学"
 exam_year: "1990"
+problem_number: 4
 source_tex: "archive/04_tohoku/1990/1990_4.tex"
 pdf_source: "archive/04_tohoku/1990/1990_4.pdf"
 page_image: "archive/04_tohoku/1990/1990_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　サイコロを5回投げ，1が5と6より先に出た場合を勝ち，
+サイコロを5回投げ，1が5と6より先に出た場合を勝ち，
 5か6が1より先に出た場合を負けとし，
 それ以外は引き分けとする．
 勝つ確率，負ける確率，引き分ける確率を求めよ．

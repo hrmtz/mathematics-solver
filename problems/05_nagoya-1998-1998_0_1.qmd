@@ -3,6 +3,7 @@ title: "名古屋大学 1998年 1998_0_1"
 problem_id: "05_nagoya-1998-1998_0_1"
 university: "名古屋大学"
 exam_year: "1998"
+problem_number: 1
 source_tex: "archive/05_nagoya/1998/1998_0_1.tex"
 pdf_source: "archive/05_nagoya/1998/1998_0_1.pdf"
 page_image: "archive/05_nagoya/1998/1998_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標平面上に放物線$y=-x^2+4$と直線$l:y=x+k$を考える．
+座標平面上に放物線$y=-x^2+4$と直線$l:y=x+k$を考える．
 \begin{description}
 \item[(1)]放物線と直線$l$が異なる2個の共有点を持つような$k$の範囲を求めよ．
 \item[(2)]$k$は(1)で求めた条件を満たすとして，さらに$k>0$とする．

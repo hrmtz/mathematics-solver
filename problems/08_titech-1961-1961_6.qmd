@@ -3,6 +3,7 @@ title: "東京科学大学 1961年 1961_6"
 problem_id: "08_titech-1961-1961_6"
 university: "東京科学大学"
 exam_year: "1961"
+problem_number: 6
 source_tex: "archive/08_titech/1961/1961_6.tex"
 pdf_source: "archive/08_titech/1961/1961_6.pdf"
 page_image: "archive/08_titech/1961/1961_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　すべての$x$に対して$\displaystyle|f'(x)|<\frac{1}{2}$なるとき，
+すべての$x$に対して$\displaystyle|f'(x)|<\frac{1}{2}$なるとき，
 \begin{description}
 \item[(i)]方程式$f(x)-x=0$がただ1つの実根をもつことを証明せよ。
 \item[(ii)]この実根を$\alpha$とするとき，無限数列$\{a_n\}$が

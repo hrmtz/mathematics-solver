@@ -3,6 +3,7 @@ title: "九州大学 1974年 1974_5"
 problem_id: "07_kyushu-1974-1974_5"
 university: "九州大学"
 exam_year: "1974"
+problem_number: 5
 source_tex: "archive/07_kyushu/1974/1974_5.tex"
 pdf_source: "archive/07_kyushu/1974/1974_5.pdf"
 page_image: "archive/07_kyushu/1974/1974_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　方程式$x^2-ax+b=0$の2根を$\alpha$，$\beta$とし，
+方程式$x^2-ax+b=0$の2根を$\alpha$，$\beta$とし，
 方程式$x^2-bx+c=0$の2根を$\gamma$，$\delta$とする．
 いま，集合$M=\{ \alpha, \, \beta, \, \gamma, \, \delta \}$から，2つの集合
 \[ S=\{ x | x=u+v, \, u \in M, \, v \in M, \, u \neq v \} \]

@@ -3,6 +3,7 @@ title: "名古屋大学 1997年 1997_0_2"
 problem_id: "05_nagoya-1997-1997_0_2"
 university: "名古屋大学"
 exam_year: "1997"
+problem_number: 2
 source_tex: "archive/05_nagoya/1997/1997_0_2.tex"
 pdf_source: "archive/05_nagoya/1997/1997_0_2.pdf"
 page_image: "archive/05_nagoya/1997/1997_0_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　原点$O$を通る3次曲線$y=x^3$と$O$を通る直線$l:y=tx$ $(t>0)$を考える．
+原点$O$を通る3次曲線$y=x^3$と$O$を通る直線$l:y=tx$ $(t>0)$を考える．
 $x>0$での曲線と$l$との交点を$P$とする．
 \begin{description}
 \item[(1)]$x\geqq0$の範囲で曲線と$l$とで囲まれる領域の面積を求めよ．

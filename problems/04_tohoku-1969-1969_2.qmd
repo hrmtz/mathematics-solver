@@ -3,6 +3,7 @@ title: "東北大学 1969年 1969_2"
 problem_id: "04_tohoku-1969-1969_2"
 university: "東北大学"
 exam_year: "1969"
+problem_number: 2
 source_tex: "archive/04_tohoku/1969/1969_2.tex"
 pdf_source: "archive/04_tohoku/1969/1969_2.pdf"
 page_image: "archive/04_tohoku/1969/1969_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$\displaystyle0<\alpha<\frac{3}{5}\pi$，$\displaystyle0<\beta<\frac{2}{5}\pi$のとき，
+$\displaystyle0<\alpha<\frac{3}{5}\pi$，$\displaystyle0<\beta<\frac{2}{5}\pi$のとき，
 次の式を満たす$\alpha$，$\beta$の値を求めよ．
 \[ {(\cos\alpha+i\sin\beta)}^2=\frac{1}{2\sqrt2}+i(\sqrt2+2\sin\alpha\cos\beta) \]
 ただし，$i=\sqrt{-1}$とする．

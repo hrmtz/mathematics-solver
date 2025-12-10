@@ -3,6 +3,7 @@ title: "東京科学大学 2006年 2006_b"
 problem_id: "08_titech-2006-2006_b"
 university: "東京科学大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/08_titech/2006/2006_b.tex"
 pdf_source: "archive/08_titech/2006/2006_b.pdf"
 page_image: "archive/08_titech/2006/2006_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　自然数$a$，$b$，$c$が
+自然数$a$，$b$，$c$が
 \[ 3a=b^3, \hspace{1zw} 5a=c^2 \]
 を満たし，$d^6$が$a$を割り切るような自然数$d$は$d=1$に限るとする．
 \begin{description}

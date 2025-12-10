@@ -3,6 +3,7 @@ title: "九州大学 2001年 2001_3"
 problem_id: "07_kyushu-2001-2001_3"
 university: "九州大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/07_kyushu/2001/2001_3.tex"
 pdf_source: "archive/07_kyushu/2001/2001_3.pdf"
 page_image: "archive/07_kyushu/2001/2001_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　空間内に以下のような円柱と正四角柱を考える．
+空間内に以下のような円柱と正四角柱を考える．
 円柱の中心軸は$x$軸で，中心軸に直交する平面による切り口は半径$r$の円である．
 正四角柱の中心軸は$z$軸で，
 $xy$平面による切り口は一辺の長さが$\displaystyle\frac{2\sqrt2}{r}$の正方形で，

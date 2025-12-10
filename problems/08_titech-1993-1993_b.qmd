@@ -3,6 +3,7 @@ title: "東京科学大学 1993年 1993_b"
 problem_id: "08_titech-1993-1993_b"
 university: "東京科学大学"
 exam_year: "1993"
+problem_number: 2
 source_tex: "archive/08_titech/1993/1993_b.tex"
 pdf_source: "archive/08_titech/1993/1993_b.pdf"
 page_image: "archive/08_titech/1993/1993_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$A= \begin{pmatrix} 2 & 1 
+$A= \begin{pmatrix} 2 & 1 
 
  0 & 2 \end{pmatrix}$とし，
 正の整数$n$に対し$A^n = \begin{pmatrix} a_n & b_n 

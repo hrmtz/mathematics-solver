@@ -3,6 +3,7 @@ title: "名古屋大学 1984年 1984_0_2"
 problem_id: "05_nagoya-1984-1984_0_2"
 university: "名古屋大学"
 exam_year: "1984"
+problem_number: 2
 source_tex: "archive/05_nagoya/1984/1984_0_2.tex"
 pdf_source: "archive/05_nagoya/1984/1984_0_2.pdf"
 page_image: "archive/05_nagoya/1984/1984_0_2.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]放物線$y=b-ax^2$ $(a>0, \, b<1)$が，
 折れ線$y=1-|x|$と接するための条件を求めよ．

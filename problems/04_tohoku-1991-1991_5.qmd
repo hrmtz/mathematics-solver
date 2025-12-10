@@ -3,6 +3,7 @@ title: "東北大学 1991年 1991_5"
 problem_id: "04_tohoku-1991-1991_5"
 university: "東北大学"
 exam_year: "1991"
+problem_number: 5
 source_tex: "archive/04_tohoku/1991/1991_5.tex"
 pdf_source: "archive/04_tohoku/1991/1991_5.pdf"
 page_image: "archive/04_tohoku/1991/1991_5.jpg"
@@ -17,7 +18,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(1)]$0<x<1$のとき，次の不等式が成り立つことを証明せよ．
 \[ \log x>2\left( 1-\frac{1}{\sqrt x} \right) \]

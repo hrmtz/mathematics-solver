@@ -3,6 +3,7 @@ title: "京都大学 1977年 1977_0_5"
 problem_id: "02_kyoto-1977-1977_0_5"
 university: "京都大学"
 exam_year: "1977"
+problem_number: 5
 source_tex: "archive/02_kyoto/1977/1977_0_5.tex"
 pdf_source: "archive/02_kyoto/1977/1977_0_5.pdf"
 page_image: "archive/02_kyoto/1977/1977_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$p$が素数であれば，どんな自然数$n$についても$n^p-n$は$p$で割り切れる．
+$p$が素数であれば，どんな自然数$n$についても$n^p-n$は$p$で割り切れる．
 このことを，$n$についての数学的帰納法で証明せよ．
 
 ---

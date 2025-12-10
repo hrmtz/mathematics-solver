@@ -3,6 +3,7 @@ title: "大阪大学 1981年 1981_3"
 problem_id: "06_osaka-1981-1981_3"
 university: "大阪大学"
 exam_year: "1981"
+problem_number: 3
 source_tex: "archive/06_osaka/1981/1981_3.tex"
 pdf_source: "archive/06_osaka/1981/1981_3.pdf"
 page_image: "archive/06_osaka/1981/1981_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　空間内の平面$\pi:x+y+z=1$，球面$S:x^2+y^2+z^2=1$を考え，原点を$O$とする．
+空間内の平面$\pi:x+y+z=1$，球面$S:x^2+y^2+z^2=1$を考え，原点を$O$とする．
 $\pi$上の点$P(a, \, b, \, c)$に対して，
 線分$OP$またはその$P$のほうへの延長と$S$との交点を$Q$，
 $Q$を通り$\pi$に垂直な直線と$\pi$との交点を$R$とし，

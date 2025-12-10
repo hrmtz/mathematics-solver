@@ -3,6 +3,7 @@ title: "京都大学 2011年 2011_4"
 problem_id: "02_kyoto-2011-2011_4"
 university: "京都大学"
 exam_year: "2011"
+problem_number: 4
 source_tex: "archive/02_kyoto/2011/2011_4.tex"
 pdf_source: "archive/02_kyoto/2011/2011_4.pdf"
 page_image: "archive/02_kyoto/2011/2011_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$は2以上の整数であり，
+$n$は2以上の整数であり，
 $\displaystyle\frac{1}{2}<a_j<1$ $(j=1,2,\cdots,n)$であるとき，不等式
 \[ (1-a_1)(1-a_2)\cdots(1-a_n)>1-\left(a_1+\frac{a_2}{2}+\cdots+\frac{a_n}{2^{n-1}}\right) \]
 が成立することを示せ．

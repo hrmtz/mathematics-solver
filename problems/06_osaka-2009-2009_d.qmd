@@ -3,6 +3,7 @@ title: "大阪大学 2009年 2009_d"
 problem_id: "06_osaka-2009-2009_d"
 university: "大阪大学"
 exam_year: "2009"
+problem_number: 4
 source_tex: "archive/06_osaka/2009/2009_d.tex"
 pdf_source: "archive/06_osaka/2009/2009_d.pdf"
 page_image: "archive/06_osaka/2009/2009_d.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$a$，$b$，$c$を実数とする．$f(x)=ax^2+bx+c$，$g(x)=x^3$とおく．
+$a$，$b$，$c$を実数とする．$f(x)=ax^2+bx+c$，$g(x)=x^3$とおく．
 2つの関数$y=f(x)$，$y=g(x)$のグラフが異なる2点$P$，$Q$を共有している．
 さらに点$P$での2つのグラフの接線が一致し，点$Q$での2つのグラフの接線は直交しているとする．
 これらの条件を満たすように$a$，$b$，$c$を変化させるとき，

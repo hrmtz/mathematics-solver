@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_2"
 problem_id: "07_kyushu-2000-2000_2"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 2
 source_tex: "archive/07_kyushu/2000/2000_2.tex"
 pdf_source: "archive/07_kyushu/2000/2000_2.pdf"
 page_image: "archive/07_kyushu/2000/2000_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　定数$a$，$b$を係数とする2次関数$y=-ax^2+b$のグラフが，
+定数$a$，$b$を係数とする2次関数$y=-ax^2+b$のグラフが，
 原点を中心とする半径1の円と異なる2点で接しているとする．
 ただし，$a>0$とする．
 \begin{description}

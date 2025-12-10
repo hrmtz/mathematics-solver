@@ -3,6 +3,7 @@ title: "名古屋大学 1993年 1993_2"
 problem_id: "05_nagoya-1993-1993_2"
 university: "名古屋大学"
 exam_year: "1993"
+problem_number: 2
 source_tex: "archive/05_nagoya/1993/1993_2.tex"
 pdf_source: "archive/05_nagoya/1993/1993_2.pdf"
 page_image: "archive/05_nagoya/1993/1993_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　点$(-2, \, 0, \, 1)$と点$(r\cos\theta, \, r\sin\theta, \, -1)$とを通る直線が
+点$(-2, \, 0, \, 1)$と点$(r\cos\theta, \, r\sin\theta, \, -1)$とを通る直線が
 球面$x^2+y^2+z^2=1$に接している．
 $r>0$として，$r$を$\theta$の関数で表せ．
 

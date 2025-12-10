@@ -3,6 +3,7 @@ title: "名古屋大学 1998年 1998_c"
 problem_id: "05_nagoya-1998-1998_c"
 university: "名古屋大学"
 exam_year: "1998"
+problem_number: 3
 source_tex: "archive/05_nagoya/1998/1998_c.tex"
 pdf_source: "archive/05_nagoya/1998/1998_c.pdf"
 page_image: "archive/05_nagoya/1998/1998_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$A$，$B$，$C$の3人が，それぞれさいころを振り，出た目の大きい順に順位を決めるものとする．
+$A$，$B$，$C$の3人が，それぞれさいころを振り，出た目の大きい順に順位を決めるものとする．
 ただし，同じ目が出た場合は同順位とする．
 例えば，$A$と$B$が5を出し$C$が3なら，$A$と$B$が1位で$C$は3位とする．
 $A$が5を出し$B$と$C$が3なら，$A$が1位で$B$と$C$は2位とする．

@@ -3,6 +3,7 @@ title: "九州大学 2012年 2012_5"
 problem_id: "07_kyushu-2012-2012_5"
 university: "九州大学"
 exam_year: "2012"
+problem_number: 5
 source_tex: "archive/07_kyushu/2012/2012_5.tex"
 pdf_source: "archive/07_kyushu/2012/2012_5.pdf"
 page_image: "archive/07_kyushu/2012/2012_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　いくつかの玉が入った箱$A$と箱$B$があるとき，
+いくつかの玉が入った箱$A$と箱$B$があるとき，
 次の試行Tを考える。
 \begin{description}
 \item[(試行T)]箱$A$から2個の玉を取り出して箱$B$に入れ，その後，

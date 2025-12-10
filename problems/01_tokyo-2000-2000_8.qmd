@@ -3,6 +3,7 @@ title: "東京大学 2000年 2000_8"
 problem_id: "01_tokyo-2000-2000_8"
 university: "東京大学"
 exam_year: "2000"
+problem_number: 2
 source_tex: "archive/01_tokyo/2000/2000_8.tex"
 pdf_source: "archive/01_tokyo/2000/2000_8.pdf"
 page_image: "archive/01_tokyo/2000/2000_8.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　正整数$l$を与える．各正整数$n$に対して，関数
+正整数$l$を与える．各正整数$n$に対して，関数
 \[ y=x^l\sin nx, \hspace{1zw} 0 \leqq x \leqq 2\pi \]
 のグラフと$x$軸で囲まれる図形を$C_n$とする．
 \begin{description}

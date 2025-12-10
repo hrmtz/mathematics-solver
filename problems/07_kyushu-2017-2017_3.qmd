@@ -3,6 +3,7 @@ title: "九州大学 2017年 2017_3"
 problem_id: "07_kyushu-2017-2017_3"
 university: "九州大学"
 exam_year: "2017"
+problem_number: 3
 source_tex: "archive/07_kyushu/2017/2017_3.tex"
 pdf_source: "archive/07_kyushu/2017/2017_3.pdf"
 page_image: "archive/07_kyushu/2017/2017_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　初項$a_1=1$，公差4の等差数列$\{ a_n \}$を考える。以下の問いに答えよ。
+初項$a_1=1$，公差4の等差数列$\{ a_n \}$を考える。以下の問いに答えよ。
 \begin{description}
 \item[(1)]$\{ a_n \}$の初項から第600項のうち，7の倍数である項の個数を求めよ。
 \item[(2)]$\{ a_n \}$の初項から第600項のうち，$7^2$の倍数である項の個数を求めよ。

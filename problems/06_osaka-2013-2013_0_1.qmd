@@ -3,6 +3,7 @@ title: "大阪大学 2013年 2013_0_1"
 problem_id: "06_osaka-2013-2013_0_1"
 university: "大阪大学"
 exam_year: "2013"
+problem_number: 1
 source_tex: "archive/06_osaka/2013/2013_0_1.tex"
 pdf_source: "archive/06_osaka/2013/2013_0_1.pdf"
 page_image: "archive/06_osaka/2013/2013_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$xy$平面において，点$(x_0, \, y_0)$と直線$ax+by+c=0$の距離は
+$xy$平面において，点$(x_0, \, y_0)$と直線$ax+by+c=0$の距離は
 \[ \frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}} \]
 である．これを証明せよ．
 

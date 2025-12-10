@@ -3,6 +3,7 @@ title: "北海道大学 1991年 1991_0_2"
 problem_id: "03_hokudai-1991-1991_0_2"
 university: "北海道大学"
 exam_year: "1991"
+problem_number: 2
 source_tex: "archive/03_hokudai/1991/1991_0_2.tex"
 pdf_source: "archive/03_hokudai/1991/1991_0_2.pdf"
 page_image: "archive/03_hokudai/1991/1991_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上に3点$O(0, \, 0)$，$A(1, \, 0)$，$B(-1, \, 0)$があり，
+平面上に3点$O(0, \, 0)$，$A(1, \, 0)$，$B(-1, \, 0)$があり，
 点$P$は内積に関する条件
 \[ (\overrightarrow{PA}, \, \overrightarrow{PB})=3(\overrightarrow{OA}, \, \overrightarrow{OB})=0 \]
 を満たしながら平面上を動いている．

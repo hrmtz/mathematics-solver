@@ -3,6 +3,7 @@ title: "名古屋大学 2000年 2000_1"
 problem_id: "05_nagoya-2000-2000_1"
 university: "名古屋大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/05_nagoya/2000/2000_1.tex"
 pdf_source: "archive/05_nagoya/2000/2000_1.pdf"
 page_image: "archive/05_nagoya/2000/2000_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　座標平面上に，双曲線$C:x^2-y^2=1$と点$A(2, \, 0)$がある．
+座標平面上に，双曲線$C:x^2-y^2=1$と点$A(2, \, 0)$がある．
 \begin{description}
 \item[(1)]点$A$を通り双曲線$C$と1点のみで交わる直線を求めよ．
 \item[(2)]直線$l$が点$A$を通り双曲線$C$と相異なる2点で交わるように動くとき，

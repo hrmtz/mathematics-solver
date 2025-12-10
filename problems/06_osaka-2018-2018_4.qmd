@@ -3,6 +3,7 @@ title: "大阪大学 2018年 2018_4"
 problem_id: "06_osaka-2018-2018_4"
 university: "大阪大学"
 exam_year: "2018"
+problem_number: 4
 source_tex: "archive/06_osaka/2018/2018_4.tex"
 pdf_source: "archive/06_osaka/2018/2018_4.pdf"
 page_image: "archive/06_osaka/2018/2018_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　座標空間に6点
+座標空間に6点
 \[ A(0, \, 0, \, 1), \hspace{1zw} B(1, \, 0, \, 0), \hspace{1zw}
 C(0, \, 1, \, 0), \hspace{1zw} D(-1, \, 0, \, 0), \hspace{1zw}
 E(0, \, -1, \, 0), \hspace{1zw} F(0, \, 0, \, -1) \]

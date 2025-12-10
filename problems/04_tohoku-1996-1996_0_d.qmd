@@ -3,6 +3,7 @@ title: "東北大学 1996年 1996_0_d"
 problem_id: "04_tohoku-1996-1996_0_d"
 university: "東北大学"
 exam_year: "1996"
+problem_number: 4
 source_tex: "archive/04_tohoku/1996/1996_0_d.tex"
 pdf_source: "archive/04_tohoku/1996/1996_0_d.pdf"
 page_image: "archive/04_tohoku/1996/1996_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　1次変換$f$による，円$C_1:{(x-2)}^2+y^2=1$の像が，
+1次変換$f$による，円$C_1:{(x-2)}^2+y^2=1$の像が，
 円$C_2:x^2+{(y-t)}^2=4$ $(t>0)$に一致するとき，
 $f$を表す行列$A$および$t$の値を求めよ．
 

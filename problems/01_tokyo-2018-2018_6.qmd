@@ -3,6 +3,7 @@ title: "東京大学 2018年 2018_6"
 problem_id: "01_tokyo-2018-2018_6"
 university: "東京大学"
 exam_year: "2018"
+problem_number: 6
 source_tex: "archive/01_tokyo/2018/2018_6.tex"
 pdf_source: "archive/01_tokyo/2018/2018_6.pdf"
 page_image: "archive/01_tokyo/2018/2018_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　座標空間内の4点$O(0, \, 0, \, 0)$，$A(1, \, 0, \, 0)$，
+座標空間内の4点$O(0, \, 0, \, 0)$，$A(1, \, 0, \, 0)$，
 $B(1, \, 1, \, 0)$，$C(1, \, 1, \, 1)$を考える。
 　$\displaystyle\frac{1}{2}<r<1$とする。
 点$P$が線分$OA$，$AB$，$BC$上を動くときに

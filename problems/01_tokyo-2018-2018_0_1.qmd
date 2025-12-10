@@ -3,6 +3,7 @@ title: "東京大学 2018年 2018_0_1"
 problem_id: "01_tokyo-2018-2018_0_1"
 university: "東京大学"
 exam_year: "2018"
+problem_number: 1
 source_tex: "archive/01_tokyo/2018/2018_0_1.tex"
 pdf_source: "archive/01_tokyo/2018/2018_0_1.pdf"
 page_image: "archive/01_tokyo/2018/2018_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標平面上に放物線$C$を
+座標平面上に放物線$C$を
 \[ y=x^2-3x+4 \]
 で定め，領域$D$を
 \[ y \geqq x^2-3x+4 \]

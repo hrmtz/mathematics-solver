@@ -3,6 +3,7 @@ title: "大阪大学 1996年 1996_b"
 problem_id: "06_osaka-1996-1996_b"
 university: "大阪大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/06_osaka/1996/1996_b.tex"
 pdf_source: "archive/06_osaka/1996/1996_b.pdf"
 page_image: "archive/06_osaka/1996/1996_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$0<a\leqq1$とする．点$(a, \, 0)$を中心とする半径1の円周を$C$とする．
+$0<a\leqq1$とする．点$(a, \, 0)$を中心とする半径1の円周を$C$とする．
 原点$(0, \, 0)$を通り傾き$m$の直線と$C$との交点を$P$，$Q$とし，その中点を$R$とする．
 \begin{description}
 \item[(1)]$m$を動かすとき，$R$が描く軌跡$D$を求めよ．

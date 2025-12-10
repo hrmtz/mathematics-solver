@@ -3,6 +3,7 @@ title: "京都大学 2011年 2011_5"
 problem_id: "02_kyoto-2011-2011_5"
 university: "京都大学"
 exam_year: "2011"
+problem_number: 5
 source_tex: "archive/02_kyoto/2011/2011_5.tex"
 pdf_source: "archive/02_kyoto/2011/2011_5.pdf"
 page_image: "archive/02_kyoto/2011/2011_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$xyz$空間で，原点$O$を中心とする半径$\sqrt6$の球面$S$と
+$xyz$空間で，原点$O$を中心とする半径$\sqrt6$の球面$S$と
 3点$(4,0,0)$，$(0,4,0)$，$(0,0,4)$を通る平面$\alpha$が共有点を持つことを示し，
 点$(x,y,z)$がその共有点全体の集合を動くとき，
 積$xyz$が取り得る値の範囲を求めよ．

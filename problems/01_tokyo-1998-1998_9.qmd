@@ -3,6 +3,7 @@ title: "東京大学 1998年 1998_9"
 problem_id: "01_tokyo-1998-1998_9"
 university: "東京大学"
 exam_year: "1998"
+problem_number: 3
 source_tex: "archive/01_tokyo/1998/1998_9.tex"
 pdf_source: "archive/01_tokyo/1998/1998_9.pdf"
 page_image: "archive/01_tokyo/1998/1998_9.jpg"
@@ -12,8 +13,7 @@ format:
 ---
 
 
-3
-　グラフ$G=(V,W)$とは有限個の頂点の集合$V=\{P_1,\cdots,P_n\}$と
+グラフ$G=(V,W)$とは有限個の頂点の集合$V=\{P_1,\cdots,P_n\}$と
 それらの間を結ぶ辺の集合$W=\{E_1,\cdots,E_m\}$からなる図形をする．
 各辺$E_j$は丁度2つの頂点$P_{i_1}$，$P_{i_2}$ $(i_1 \neq i_2)$を持つ．
 頂点以外での辺同士の交わりは考えない．

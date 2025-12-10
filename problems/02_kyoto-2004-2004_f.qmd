@@ -3,6 +3,7 @@ title: "京都大学 2004年 2004_f"
 problem_id: "02_kyoto-2004-2004_f"
 university: "京都大学"
 exam_year: "2004"
+problem_number: 6
 source_tex: "archive/02_kyoto/2004/2004_f.tex"
 pdf_source: "archive/02_kyoto/2004/2004_f.pdf"
 page_image: "archive/02_kyoto/2004/2004_f.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$n$を自然数とする．
+$n$を自然数とする．
 $xy$平面内の，原点を中心とする半径$n$の円の，内部と周をあわせたものを$C_n$であらわす．
 次の条件(＊)を満たす1辺の長さが1の正方形の数を$N(n)$とする．
 \begin{description}

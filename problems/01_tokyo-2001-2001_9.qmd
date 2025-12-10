@@ -3,6 +3,7 @@ title: "東京大学 2001年 2001_9"
 problem_id: "01_tokyo-2001-2001_9"
 university: "東京大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/01_tokyo/2001/2001_9.tex"
 pdf_source: "archive/01_tokyo/2001/2001_9.pdf"
 page_image: "archive/01_tokyo/2001/2001_9.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　整数を係数とする2次方程式$f(x)$で2次の項の係数が正であるものが与えられている．
+整数を係数とする2次方程式$f(x)$で2次の項の係数が正であるものが与えられている．
 任意の実数$x$に対して，平面上の原点を中心とし半径が1である単位円$C$上の点$P(x)$を
 \[ P(x)=(\cos 2\pi f(x),\sin 2\pi f(x)) \]
 によって定める．

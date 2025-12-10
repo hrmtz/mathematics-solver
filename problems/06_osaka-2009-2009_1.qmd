@@ -3,6 +3,7 @@ title: "大阪大学 2009年 2009_1"
 problem_id: "06_osaka-2009-2009_1"
 university: "大阪大学"
 exam_year: "2009"
+problem_number: 1
 source_tex: "archive/06_osaka/2009/2009_1.tex"
 pdf_source: "archive/06_osaka/2009/2009_1.pdf"
 page_image: "archive/06_osaka/2009/2009_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　放物線$C:y=x^2$上の点$A_1(a_1, \, {a_1}^2), \, A_2(a_2, \, {a_2}^2), \, A_3(a_3, \, {a_3}^2), \, \cdots$を，
+放物線$C:y=x^2$上の点$A_1(a_1, \, {a_1}^2), \, A_2(a_2, \, {a_2}^2), \, A_3(a_3, \, {a_3}^2), \, \cdots$を，
 $A_{k+2}$ $(k\geqq1)$における$C$の接線が直線$A_kA_{k+1}$に平行であるようにとる．
 ただし，$a_1<a_2$とする．
 三角形$A_kA_{k+1}A_{k+2}$の面積を$T_k$とし，直線$A_1A_2$と$C$で囲まれた部分の面積を$S$とする．

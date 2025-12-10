@@ -3,6 +3,7 @@ title: "九州大学 1972年 1972_0_2"
 problem_id: "07_kyushu-1972-1972_0_2"
 university: "九州大学"
 exam_year: "1972"
+problem_number: 2
 source_tex: "archive/07_kyushu/1972/1972_0_2.tex"
 pdf_source: "archive/07_kyushu/1972/1972_0_2.pdf"
 page_image: "archive/07_kyushu/1972/1972_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　だ円$\displaystyle\frac{x^2}{25}+\frac{y^2}{16}=1$上の点$P(5\cos\theta, \, 4\sin\theta)$と，
+だ円$\displaystyle\frac{x^2}{25}+\frac{y^2}{16}=1$上の点$P(5\cos\theta, \, 4\sin\theta)$と，
 このだ円の焦点$F(3, \, 0)$，$F'(-3, \, 0)$とを結ぶ
 2つの線分$PF$，$PF'$の長さをそれぞれ$\cos\theta$を用いて表せ．
 また座標の原点を$O$とするとき，3つの線分$PO$，$PF$，$PF'$の長さの間に

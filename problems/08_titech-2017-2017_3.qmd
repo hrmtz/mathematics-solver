@@ -3,6 +3,7 @@ title: "東京科学大学 2017年 2017_3"
 problem_id: "08_titech-2017-2017_3"
 university: "東京科学大学"
 exam_year: "2017"
+problem_number: 3
 source_tex: "archive/08_titech/2017/2017_3.tex"
 pdf_source: "archive/08_titech/2017/2017_3.pdf"
 page_image: "archive/08_titech/2017/2017_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$a$を1以上の実数とする．図のような長方形の折り紙$ABCD$が机の上に置かれている．
+$a$を1以上の実数とする．図のような長方形の折り紙$ABCD$が机の上に置かれている．
 ただし$AD=1$，$AB=a$である．$P$を辺$AB$上の点とし，$AP=x$とする．
 頂点$D$を持ち上げて$P$と一致するように折り紙を一回折ったとき，
 もとの長方形$ABCD$からはみ出る部分の面積を$S$とする．

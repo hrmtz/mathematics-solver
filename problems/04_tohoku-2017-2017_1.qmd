@@ -3,6 +3,7 @@ title: "東北大学 2017年 2017_1"
 problem_id: "04_tohoku-2017-2017_1"
 university: "東北大学"
 exam_year: "2017"
+problem_number: 1
 source_tex: "archive/04_tohoku/2017/2017_1.tex"
 pdf_source: "archive/04_tohoku/2017/2017_1.pdf"
 page_image: "archive/04_tohoku/2017/2017_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$a$，$b$を実数とする。$y=|x^2-4|$で表される曲線を$C$とし，
+$a$，$b$を実数とする。$y=|x^2-4|$で表される曲線を$C$とし，
 $y=ax+b$で表される直線を$l$とする。
 \begin{description}
 \item[(1)]$l$が点$(-2, \, 0)$を通り，$l$と$C$がちょうど3つの共有点をもつような$a$，$b$の条件を求めよ。

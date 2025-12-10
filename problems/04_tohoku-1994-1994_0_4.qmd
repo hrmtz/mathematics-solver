@@ -3,6 +3,7 @@ title: "東北大学 1994年 1994_0_4"
 problem_id: "04_tohoku-1994-1994_0_4"
 university: "東北大学"
 exam_year: "1994"
+problem_number: 4
 source_tex: "archive/04_tohoku/1994/1994_0_4.tex"
 pdf_source: "archive/04_tohoku/1994/1994_0_4.pdf"
 page_image: "archive/04_tohoku/1994/1994_0_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　2次関数$f_n(x)$ $(n=1, \, 2, \, \cdots\cdots)$を次のように定義する．
+2次関数$f_n(x)$ $(n=1, \, 2, \, \cdots\cdots)$を次のように定義する．
 \[ f_1(x)=3x^2, \hspace{1zw} f_2(x)=3x^2+4x, \]
 \[ f_n(x)=3x^2+4x\int_0^1f_{n-1}(t)dt-\int_0^1f_{n-2}(t)dt \hspace{1zw} (n\geqq3) \]
 \begin{description}

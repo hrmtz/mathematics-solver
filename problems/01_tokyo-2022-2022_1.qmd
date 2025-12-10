@@ -3,6 +3,7 @@ title: "東京大学 2022年 2022_1"
 problem_id: "01_tokyo-2022-2022_1"
 university: "東京大学"
 exam_year: "2022"
+problem_number: 1
 source_tex: "archive/01_tokyo/2022/2022_1.tex"
 pdf_source: "archive/01_tokyo/2022/2022_1.pdf"
 page_image: "archive/01_tokyo/2022/2022_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　次の関数$f(x)$を考える。
+次の関数$f(x)$を考える。
 \[ f(x)=(\cos x)\log(\cos x)-\cos x+
 \int_0^x(\cos t)\log(\cos t)dt \hspace{1zw}
 \left( 0 \leqq x < \frac{\pi}{2} \right) \]

@@ -3,6 +3,7 @@ title: "北海道大学 2019年 2019_5"
 problem_id: "03_hokudai-2019-2019_5"
 university: "北海道大学"
 exam_year: "2019"
+problem_number: 5
 source_tex: "archive/03_hokudai/2019/2019_5.tex"
 pdf_source: "archive/03_hokudai/2019/2019_5.pdf"
 page_image: "archive/03_hokudai/2019/2019_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$f(x)$を区間$ [ 0, \, \pi ] $で連続な関数とする。
+$f(x)$を区間$ [ 0, \, \pi ] $で連続な関数とする。
 関数$f_1(x), \, f_2(x), \, \cdots\cdots$を関係式
 \[ f_1(x)=f(x), \]
 \[ f_{n+1}(x)=2\cos x+\frac{2}{\pi}\int_0^\pi f_n(t)\sin(x-t)dt \hspace{1zw}

@@ -3,6 +3,7 @@ title: "東京科学大学 1980年 1980_2"
 problem_id: "08_titech-1980-1980_2"
 university: "東京科学大学"
 exam_year: "1980"
+problem_number: 2
 source_tex: "archive/08_titech/1980/1980_2.tex"
 pdf_source: "archive/08_titech/1980/1980_2.pdf"
 page_image: "archive/08_titech/1980/1980_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　2等辺3角形$ABC$の底辺$BC$の長さを1とする．
+2等辺3角形$ABC$の底辺$BC$の長さを1とする．
 底角$\angle B$の2等分線が対辺$AC$と交わる点を$D$とする．
 線分$BD$の長さのとりうる範囲を求めよ．
 

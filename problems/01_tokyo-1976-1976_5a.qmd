@@ -3,6 +3,7 @@ title: "東京大学 1976年 1976_5a"
 problem_id: "01_tokyo-1976-1976_5a"
 university: "東京大学"
 exam_year: "1976"
+problem_number: 5
 source_tex: "archive/01_tokyo/1976/1976_5a.tex"
 pdf_source: "archive/01_tokyo/1976/1976_5a.pdf"
 page_image: "archive/01_tokyo/1976/1976_5a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5 新
-　$z$軸を軸とする半径1の円柱の側面で，
+$z$軸を軸とする半径1の円柱の側面で，
 $xy$平面より上($z$軸の正の方向)にあり，
 平面$x-\sqrt3y+z=1$より下($z$軸の負の方向)にある部分を$D$とする．
 $D$の面積を求めよ．

@@ -3,6 +3,7 @@ title: "京都大学 2004年 2004_2"
 problem_id: "02_kyoto-2004-2004_2"
 university: "京都大学"
 exam_year: "2004"
+problem_number: 2
 source_tex: "archive/02_kyoto/2004/2004_2.tex"
 pdf_source: "archive/02_kyoto/2004/2004_2.pdf"
 page_image: "archive/02_kyoto/2004/2004_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a>0$とし，$x>0$で定義された関数
+$a>0$とし，$x>0$で定義された関数
 $\displaystyle f(x)= \left( \frac{e}{x^a}-1 \right) \frac{\log x}{x}$を考える．
 $y=f(x)$のグラフより下側で$x$軸より上側の部分の面積を$a$であらわせ．
 ただし，$e$は自然対数の底である．

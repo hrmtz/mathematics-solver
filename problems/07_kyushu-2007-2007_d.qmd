@@ -3,6 +3,7 @@ title: "九州大学 2007年 2007_d"
 problem_id: "07_kyushu-2007-2007_d"
 university: "九州大学"
 exam_year: "2007"
+problem_number: 4
 source_tex: "archive/07_kyushu/2007/2007_d.tex"
 pdf_source: "archive/07_kyushu/2007/2007_d.pdf"
 page_image: "archive/07_kyushu/2007/2007_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　1つのさいころを振り偶数の目が出たら持ち点を2倍にし，
+1つのさいころを振り偶数の目が出たら持ち点を2倍にし，
 奇数の目が出たら持ち点を0.5倍して小数点以下を切り捨てる．
 このとき以下の問いに答えよ．
 \begin{description}

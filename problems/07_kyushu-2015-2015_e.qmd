@@ -3,6 +3,7 @@ title: "九州大学 2015年 2015_e"
 problem_id: "07_kyushu-2015-2015_e"
 university: "九州大学"
 exam_year: "2015"
+problem_number: 5
 source_tex: "archive/07_kyushu/2015/2015_e.tex"
 pdf_source: "archive/07_kyushu/2015/2015_e.pdf"
 page_image: "archive/07_kyushu/2015/2015_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　座標平面上の直線$l:y=-1$と点$F(0, \, 2)$を考える。以下の問いに答えよ。
+座標平面上の直線$l:y=-1$と点$F(0, \, 2)$を考える。以下の問いに答えよ。
 \begin{description}
 \item[(1)]直線$l$上を動く点を$D$とする。点$P$を，線分$DP$と線分$FP$の長さが等しく，
 かつ線分$DP$が$y$軸と平行となるように定める。このとき，点$P$の軌跡$C$を求めよ。

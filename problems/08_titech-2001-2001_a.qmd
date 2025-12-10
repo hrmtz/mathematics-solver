@@ -3,6 +3,7 @@ title: "東京科学大学 2001年 2001_a"
 problem_id: "08_titech-2001-2001_a"
 university: "東京科学大学"
 exam_year: "2001"
+problem_number: 1
 source_tex: "archive/08_titech/2001/2001_a.tex"
 pdf_source: "archive/08_titech/2001/2001_a.pdf"
 page_image: "archive/08_titech/2001/2001_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$n=1,2,3,\cdots$に対して$a_n=\tan(11n)$とおく．
+$n=1,2,3,\cdots$に対して$a_n=\tan(11n)$とおく．
 このとき，次の(1)～(4)を示せ．ただし，$\pi=3.14159265\cdots$は円周率である．
 \begin{description}
 \item[(1)]$\displaystyle \frac{\pi}{711}<11-\frac{7\pi}{2}<\frac{\pi}{709}$．

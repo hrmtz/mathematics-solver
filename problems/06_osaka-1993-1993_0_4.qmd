@@ -3,6 +3,7 @@ title: "大阪大学 1993年 1993_0_4"
 problem_id: "06_osaka-1993-1993_0_4"
 university: "大阪大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/06_osaka/1993/1993_0_4.tex"
 pdf_source: "archive/06_osaka/1993/1993_0_4.pdf"
 page_image: "archive/06_osaka/1993/1993_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　1辺の長さ2の正四面体$ABCD$と，
+1辺の長さ2の正四面体$ABCD$と，
 $\angle APB>{90}^\circ$を満たす空間内の点$P$全体のなす集合$S$を考える．
 \begin{description}
 \item[(1)]$S$はどんな集合か．

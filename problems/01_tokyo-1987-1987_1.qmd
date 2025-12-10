@@ -3,6 +3,7 @@ title: "東京大学 1987年 1987_1"
 problem_id: "01_tokyo-1987-1987_1"
 university: "東京大学"
 exam_year: "1987"
+problem_number: 1
 source_tex: "archive/01_tokyo/1987/1987_1.tex"
 pdf_source: "archive/01_tokyo/1987/1987_1.pdf"
 page_image: "archive/01_tokyo/1987/1987_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　行列$A=\begin{pmatrix} a & -b 
+行列$A=\begin{pmatrix} a & -b 
 
  b & a \end{pmatrix}$の表す$xy$平面の一次変換が，
 直線$y=2x+1$を直線$y=-3x-1$へうつすとする．

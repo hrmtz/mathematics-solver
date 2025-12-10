@@ -3,6 +3,7 @@ title: "東北大学 1965年 1965_2"
 problem_id: "04_tohoku-1965-1965_2"
 university: "東北大学"
 exam_year: "1965"
+problem_number: 2
 source_tex: "archive/04_tohoku/1965/1965_2.tex"
 pdf_source: "archive/04_tohoku/1965/1965_2.pdf"
 page_image: "archive/04_tohoku/1965/1965_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　線分$AB$を直径とする円の中心を$O$，半径を$a$とする。
+線分$AB$を直径とする円の中心を$O$，半径を$a$とする。
 この円周上に$A$，$B$と異なる点$C$をとり，
 $C$における接線が$A$および$B$における接線と交わる点をそれぞれ$P$および$Q$とする。
 線分$AP$の長さを$x$として，

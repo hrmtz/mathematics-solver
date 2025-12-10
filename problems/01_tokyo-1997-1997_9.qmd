@@ -3,6 +3,7 @@ title: "東京大学 1997年 1997_9"
 problem_id: "01_tokyo-1997-1997_9"
 university: "東京大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/01_tokyo/1997/1997_9.tex"
 pdf_source: "archive/01_tokyo/1997/1997_9.pdf"
 page_image: "archive/01_tokyo/1997/1997_9.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　ボタンを1回押す毎に，
+ボタンを1回押す毎に，
 1以上$N$以下の整数を，
 同じ確率で1つずつ発生する機械がある．
 複数回ボタンを押した場合，

@@ -3,6 +3,7 @@ title: "大阪大学 1986年 1986_3"
 problem_id: "06_osaka-1986-1986_3"
 university: "大阪大学"
 exam_year: "1986"
+problem_number: 3
 source_tex: "archive/06_osaka/1986/1986_3.tex"
 pdf_source: "archive/06_osaka/1986/1986_3.pdf"
 page_image: "archive/06_osaka/1986/1986_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　正の数$\theta_1$，$\theta_2$，$\theta_3$，$\theta_4$，$\theta_5$が
+正の数$\theta_1$，$\theta_2$，$\theta_3$，$\theta_4$，$\theta_5$が
 $\theta_1+\theta_2+\theta_3+\theta_4+\theta_5=2\pi$を満たしながら変わるとき
 \[ \sin\theta_1+\sin\theta_2+\sin\theta_3+\sin\theta_4+\sin\theta_5 \]
 の最大値を，次の手順で求めよ．

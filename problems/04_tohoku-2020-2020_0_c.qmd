@@ -3,6 +3,7 @@ title: "東北大学 2020年 2020_0_c"
 problem_id: "04_tohoku-2020-2020_0_c"
 university: "東北大学"
 exam_year: "2020"
+problem_number: 3
 source_tex: "archive/04_tohoku/2020/2020_0_c.tex"
 pdf_source: "archive/04_tohoku/2020/2020_0_c.pdf"
 page_image: "archive/04_tohoku/2020/2020_0_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$a$を0でない実数とする。$xy$平面において，
+$a$を0でない実数とする。$xy$平面において，
 円$C:x^2-2ax+y^2-4y+4=0$，直線$L:-4x+3y+a=0$，直線$M:3x+4y-7a=0$を考える。
 \begin{description}
 \item[(1)]$L$と$M$の交点が$C$上にあるような$a$の値を求めよ。

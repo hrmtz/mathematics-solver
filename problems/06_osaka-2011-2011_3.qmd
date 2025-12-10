@@ -3,6 +3,7 @@ title: "大阪大学 2011年 2011_3"
 problem_id: "06_osaka-2011-2011_3"
 university: "大阪大学"
 exam_year: "2011"
+problem_number: 3
 source_tex: "archive/06_osaka/2011/2011_3.tex"
 pdf_source: "archive/06_osaka/2011/2011_3.pdf"
 page_image: "archive/06_osaka/2011/2011_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　実数の組$(p,q)$に対し，$f(x)={(x-p)}^2+q$とおく．
+実数の組$(p,q)$に対し，$f(x)={(x-p)}^2+q$とおく．
 \begin{description}
 \item[(1)]放物線$y=f(x)$が点$(0,1)$を通り，しかも直線$y=x$の$x>0$の部分と接するような
 実数の組$(p,q)$と接点の座標を求めよ．

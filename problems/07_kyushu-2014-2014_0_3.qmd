@@ -3,6 +3,7 @@ title: "九州大学 2014年 2014_0_3"
 problem_id: "07_kyushu-2014-2014_0_3"
 university: "九州大学"
 exam_year: "2014"
+problem_number: 3
 source_tex: "archive/07_kyushu/2014/2014_0_3.tex"
 pdf_source: "archive/07_kyushu/2014/2014_0_3.pdf"
 page_image: "archive/07_kyushu/2014/2014_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　鋭角三角形$\triangle ABC$について，$\angle A$，$\angle B$，$\angle C$の大きさを，
+鋭角三角形$\triangle ABC$について，$\angle A$，$\angle B$，$\angle C$の大きさを，
 それぞれ$A, \, B, \, C$とする。
 $\triangle ABC$の重心を$G$，外心を$O$とし，外接円の半径を$R$とする。
 \begin{description}

@@ -3,6 +3,7 @@ title: "東北大学 2014年 2014_2"
 problem_id: "04_tohoku-2014-2014_2"
 university: "東北大学"
 exam_year: "2014"
+problem_number: 2
 source_tex: "archive/04_tohoku/2014/2014_2.tex"
 pdf_source: "archive/04_tohoku/2014/2014_2.pdf"
 page_image: "archive/04_tohoku/2014/2014_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　下図のような平行六面体$OABC-DEFG$が$xyz$空間内にあり，
+下図のような平行六面体$OABC-DEFG$が$xyz$空間内にあり，
 $O(0, \, 0, \, 0)$，$A(2, \, 0, \, 0)$，$C(0, \, 3, \, 0)$，$D(-1, \, 0, \, \sqrt6)$とする。
 辺$AB$の中点を$M$とし，辺$DG$上の点$N$を$MN=4$かつ$DN<GN$を満たすように定める。
 \begin{description}

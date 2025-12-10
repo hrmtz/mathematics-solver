@@ -3,6 +3,7 @@ title: "東京科学大学 2012年 2012_1"
 problem_id: "08_titech-2012-2012_1"
 university: "東京科学大学"
 exam_year: "2012"
+problem_number: 1
 source_tex: "archive/08_titech/2012/2012_1.tex"
 pdf_source: "archive/08_titech/2012/2012_1.pdf"
 page_image: "archive/08_titech/2012/2012_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]辺の長さが1である正四面体$OABC$において
 辺$AB$の中点を$D$，辺$OC$の中点を$E$とする．

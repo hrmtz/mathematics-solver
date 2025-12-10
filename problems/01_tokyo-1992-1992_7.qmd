@@ -3,6 +3,7 @@ title: "東京大学 1992年 1992_7"
 problem_id: "01_tokyo-1992-1992_7"
 university: "東京大学"
 exam_year: "1992"
+problem_number: 1
 source_tex: "archive/01_tokyo/1992/1992_7.tex"
 pdf_source: "archive/01_tokyo/1992/1992_7.pdf"
 page_image: "archive/01_tokyo/1992/1992_7.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　定数$a$に対して，曲線$\displaystyle y=\sqrt{x^2-1}+\frac{a}{x}$の$x\geqq1$の部分を$C(a)$とおく．
+定数$a$に対して，曲線$\displaystyle y=\sqrt{x^2-1}+\frac{a}{x}$の$x\geqq1$の部分を$C(a)$とおく．
 \begin{description}
 \item[(1)]$C(a)$が直線$y=x$の下部$y<x$に含まれるような実数$a$の最大値$a_0$を求めよ．
 \item[(2)]$\displaystyle0<\theta<\frac{\pi}{2}$のとき，

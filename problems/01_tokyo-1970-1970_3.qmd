@@ -3,6 +3,7 @@ title: "東京大学 1970年 1970_3"
 problem_id: "01_tokyo-1970-1970_3"
 university: "東京大学"
 exam_year: "1970"
+problem_number: 3
 source_tex: "archive/01_tokyo/1970/1970_3.tex"
 pdf_source: "archive/01_tokyo/1970/1970_3.pdf"
 page_image: "archive/01_tokyo/1970/1970_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　25m隔てて二地点$P$，$Q$がある．
+25m隔てて二地点$P$，$Q$がある．
 いま$A$，$B$二人がそれぞれ$P$，$Q$に立ち，同時に向いあって走り出す．
 走り出してから$t$秒後の$A$，$B$の速度を，
 $P$から$Q$に向う方向を正の向きとしてどれぞれ$u$m/秒，$v$m/秒とすれば，

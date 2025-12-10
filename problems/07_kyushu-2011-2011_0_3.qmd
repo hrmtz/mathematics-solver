@@ -3,6 +3,7 @@ title: "九州大学 2011年 2011_0_3"
 problem_id: "07_kyushu-2011-2011_0_3"
 university: "九州大学"
 exam_year: "2011"
+problem_number: 3
 source_tex: "archive/07_kyushu/2011/2011_0_3.tex"
 pdf_source: "archive/07_kyushu/2011/2011_0_3.pdf"
 page_image: "archive/07_kyushu/2011/2011_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　平面上に直角三角形$ABC$があり，その斜辺$BC$の長さを2とする。
+平面上に直角三角形$ABC$があり，その斜辺$BC$の長さを2とする。
 また，点$O$は$4\overrightarrow{OA}-\overrightarrow{OB}-\overrightarrow{OC}=\overrightarrow{0}$を
 みたしているとする。
 このとき，以下の問いに答えよ。

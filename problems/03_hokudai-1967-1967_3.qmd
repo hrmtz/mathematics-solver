@@ -3,6 +3,7 @@ title: "北海道大学 1967年 1967_3"
 problem_id: "03_hokudai-1967-1967_3"
 university: "北海道大学"
 exam_year: "1967"
+problem_number: 3
 source_tex: "archive/03_hokudai/1967/1967_3.tex"
 pdf_source: "archive/03_hokudai/1967/1967_3.pdf"
 page_image: "archive/03_hokudai/1967/1967_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　数列$z_1, \, z_2, \, \cdots\cdots, \, z_n, \, \cdots\cdots$は
+数列$z_1, \, z_2, \, \cdots\cdots, \, z_n, \, \cdots\cdots$は
 初項48，公比$\displaystyle\frac{1}{4}(\sqrt6+\sqrt2 \, i)$の等比（複素）数列である．
 \begin{description}
 \item[(1)]$z_4$を求めよ．

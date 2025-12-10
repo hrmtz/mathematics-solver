@@ -3,6 +3,7 @@ title: "北海道大学 1990年 1990_b"
 problem_id: "03_hokudai-1990-1990_b"
 university: "北海道大学"
 exam_year: "1990"
+problem_number: 2
 source_tex: "archive/03_hokudai/1990/1990_b.tex"
 pdf_source: "archive/03_hokudai/1990/1990_b.pdf"
 page_image: "archive/03_hokudai/1990/1990_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上に点$O(0, \, 0)$，$A(1, \, \sqrt2)$，$B(-1, \, \sqrt2)$をとり，
+平面上に点$O(0, \, 0)$，$A(1, \, \sqrt2)$，$B(-1, \, \sqrt2)$をとり，
 $O$と$A$を通る直線を$l$，$O$と$B$を通る直線を$m$とする．
 \begin{description}
 \item[(1)]行列$\begin{pmatrix} a & b 

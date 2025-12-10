@@ -3,6 +3,7 @@ title: "東北大学 2024年 2024_6"
 problem_id: "04_tohoku-2024-2024_6"
 university: "東北大学"
 exam_year: "2024"
+problem_number: 6
 source_tex: "archive/04_tohoku/2024/2024_6.tex"
 pdf_source: "archive/04_tohoku/2024/2024_6.pdf"
 page_image: "archive/04_tohoku/2024/2024_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$xyz$空間内の$xy$平面上にある円$C:x^2+y^2=1$および円板$D:x^2+y^2\leqq1$を考える。
+$xyz$空間内の$xy$平面上にある円$C:x^2+y^2=1$および円板$D:x^2+y^2\leqq1$を考える。
 $D$を底面とし点$P(0, \, 0, \, 1)$を頂点とする円錐を$K$とする。
 $A(0, \, -1, \, 0)$，$B(0, \, 1, \, 0)$とする。$xyz$空間内の平面$H:z=x$を考える。
 すなわち，$H$は$xz$平面上の直線$z=x$と線分$AB$をともに含む平面である。

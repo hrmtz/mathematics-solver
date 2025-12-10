@@ -3,6 +3,7 @@ title: "大阪大学 1993年 1993_1"
 problem_id: "06_osaka-1993-1993_1"
 university: "大阪大学"
 exam_year: "1993"
+problem_number: 1
 source_tex: "archive/06_osaka/1993/1993_1.tex"
 pdf_source: "archive/06_osaka/1993/1993_1.pdf"
 page_image: "archive/06_osaka/1993/1993_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　負でない整数の組$x_0$，$x_1$，$x_2$，$x_3$が$x_{n+1}={x_n}^3+1$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$を
+負でない整数の組$x_0$，$x_1$，$x_2$，$x_3$が$x_{n+1}={x_n}^3+1$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$を
 満たすとき，以下のことを示せ．
 \begin{description}
 \item[(1)]$0 \leqq n \leqq 2$に対し，$x_nx_{n+1}$は2で割り切れる．

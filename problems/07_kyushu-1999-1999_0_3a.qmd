@@ -3,6 +3,7 @@ title: "九州大学 1999年 1999_0_3a"
 problem_id: "07_kyushu-1999-1999_0_3a"
 university: "九州大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/07_kyushu/1999/1999_0_3a.tex"
 pdf_source: "archive/07_kyushu/1999/1999_0_3a.pdf"
 page_image: "archive/07_kyushu/1999/1999_0_3a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (a)
-　実数$p$，自然数$q$に対して，数列$\{a_n\}$，$\{b_n\}$をそれぞれ
+実数$p$，自然数$q$に対して，数列$\{a_n\}$，$\{b_n\}$をそれぞれ
 \[ a_1=1, \hspace{1zw} a_{n+1}=pa_n-p, \]
 \[ b_1=q, \hspace{1zw} b_{n+1}=b_n+{(-1)}^{n+1}q \]
 と定める．

@@ -3,6 +3,7 @@ title: "北海道大学 2015年 2015_4"
 problem_id: "03_hokudai-2015-2015_4"
 university: "北海道大学"
 exam_year: "2015"
+problem_number: 4
 source_tex: "archive/03_hokudai/2015/2015_4.tex"
 pdf_source: "archive/03_hokudai/2015/2015_4.pdf"
 page_image: "archive/03_hokudai/2015/2015_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　初めに赤玉2個と白玉2個が入った袋がある。その袋に対して以下の試行を繰り返す。
+初めに赤玉2個と白玉2個が入った袋がある。その袋に対して以下の試行を繰り返す。
 \begin{description}
 \item[(i)]まず同時に2個の玉を取り出す。
 \item[(ii)]その2個の玉が同色であればそのまま袋に戻し，色違いであれば赤玉2個を袋に入れる。

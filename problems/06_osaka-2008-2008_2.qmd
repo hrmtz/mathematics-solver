@@ -3,6 +3,7 @@ title: "大阪大学 2008年 2008_2"
 problem_id: "06_osaka-2008-2008_2"
 university: "大阪大学"
 exam_year: "2008"
+problem_number: 2
 source_tex: "archive/06_osaka/2008/2008_2.tex"
 pdf_source: "archive/06_osaka/2008/2008_2.pdf"
 page_image: "archive/06_osaka/2008/2008_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　点$O$で交わる2つの半直線$OX$，$OY$があって$\angle XOY={60}^\circ$とする．
+点$O$で交わる2つの半直線$OX$，$OY$があって$\angle XOY={60}^\circ$とする．
 2点$A$，$B$が$OX$上に$O, \, A, \, B$の順に，
 また，2点$C$，$D$が$OY$上に$O, \, C, \, D$の順に並んでいるとして，
 線分$AC$の中点を$M$，線分$BD$の中点を$N$とする．

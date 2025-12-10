@@ -3,6 +3,7 @@ title: "大阪大学 1977年 1977_0_4"
 problem_id: "06_osaka-1977-1977_0_4"
 university: "大阪大学"
 exam_year: "1977"
+problem_number: 4
 source_tex: "archive/06_osaka/1977/1977_0_4.tex"
 pdf_source: "archive/06_osaka/1977/1977_0_4.pdf"
 page_image: "archive/06_osaka/1977/1977_0_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　放物線$y=x^2-2x-2$を$C$とする．
+放物線$y=x^2-2x-2$を$C$とする．
 放物線$y=2x^2$上の点$(a, \, 2a^2)$における接線を$l$とするとき
 \begin{description}
 \item[(1)]$l$と$C$はつねに2点で交わることを示せ．

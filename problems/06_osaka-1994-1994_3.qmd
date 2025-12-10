@@ -3,6 +3,7 @@ title: "大阪大学 1994年 1994_3"
 problem_id: "06_osaka-1994-1994_3"
 university: "大阪大学"
 exam_year: "1994"
+problem_number: 3
 source_tex: "archive/06_osaka/1994/1994_3.tex"
 pdf_source: "archive/06_osaka/1994/1994_3.pdf"
 page_image: "archive/06_osaka/1994/1994_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$\alpha$，$\beta$を$0<\alpha<\beta<\pi$を満たす定数とし，$t$を変数とする．
+$\alpha$，$\beta$を$0<\alpha<\beta<\pi$を満たす定数とし，$t$を変数とする．
 空間内の曲線$(x(t), \, y(t), \, z(t))$を
 \[ x(t)=\sin(t+\alpha), \]
 \[ y(t)=\sin(t+\beta), \]

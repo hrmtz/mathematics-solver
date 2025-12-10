@@ -3,6 +3,7 @@ title: "京都大学 2018年 2018_0_5"
 problem_id: "02_kyoto-2018-2018_0_5"
 university: "京都大学"
 exam_year: "2018"
+problem_number: 5
 source_tex: "archive/02_kyoto/2018/2018_0_5.tex"
 pdf_source: "archive/02_kyoto/2018/2018_0_5.pdf"
 page_image: "archive/02_kyoto/2018/2018_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　整数が書かれている球がいくつか入っている袋に対して，次の一連の操作を考える．
+整数が書かれている球がいくつか入っている袋に対して，次の一連の操作を考える．
 ただし各球に書かれている整数は1つのみとする．
 \begin{description}
 \item[(i)]袋から無作為に球を1個取り出し，その球に書かれている整数を$k$とする．

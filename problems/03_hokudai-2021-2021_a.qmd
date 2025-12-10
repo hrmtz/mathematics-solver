@@ -3,6 +3,7 @@ title: "北海道大学 2021年 2021_a"
 problem_id: "03_hokudai-2021-2021_a"
 university: "北海道大学"
 exam_year: "2021"
+problem_number: 1
 source_tex: "archive/03_hokudai/2021/2021_a.tex"
 pdf_source: "archive/03_hokudai/2021/2021_a.pdf"
 page_image: "archive/03_hokudai/2021/2021_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$f(x)=x^4+6x^3-24x^2$とし，曲線$C:y=f(x)$を考える。
+$f(x)=x^4+6x^3-24x^2$とし，曲線$C:y=f(x)$を考える。
 \begin{description}
 \item[(1)]$C$の変曲点をすべて求めよ。
 \item[(2)]$C$の変曲点のうち$x$座標の値が最大のものを$P$とする。

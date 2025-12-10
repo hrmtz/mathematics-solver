@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_0_d"
 problem_id: "04_tohoku-1999-1999_0_d"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/04_tohoku/1999/1999_0_d.tex"
 pdf_source: "archive/04_tohoku/1999/1999_0_d.pdf"
 page_image: "archive/04_tohoku/1999/1999_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$\overrightarrow{u_1}=(1, \, 0)$，$\overrightarrow{u_2}=(0, \, 1)$，$\overrightarrow{u_3}=(-1, \, -1)$とする．
+$\overrightarrow{u_1}=(1, \, 0)$，$\overrightarrow{u_2}=(0, \, 1)$，$\overrightarrow{u_3}=(-1, \, -1)$とする．
 \begin{description}
 \item[(1)]負でない整数の組$(l, \, m)$で，
 ベクトル$l\overrightarrow{u_1}+m\overrightarrow{u_2}+\overrightarrow{u_3}$の大きさが3以下となるものは

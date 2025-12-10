@@ -3,6 +3,7 @@ title: "北海道大学 1997年 1997_5b"
 problem_id: "03_hokudai-1997-1997_5b"
 university: "北海道大学"
 exam_year: "1997"
+problem_number: 5
 source_tex: "archive/03_hokudai/1997/1997_5b.tex"
 pdf_source: "archive/03_hokudai/1997/1997_5b.pdf"
 page_image: "archive/03_hokudai/1997/1997_5b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (b)
-　3個のさいころを同時に振る試行において，
+3個のさいころを同時に振る試行において，
 出た目の数の積が4で割り切れる事象を$A$とする．
 \begin{description}
 \item[(1)]事象$A$が起こる確率$P(A)$を求めよ．

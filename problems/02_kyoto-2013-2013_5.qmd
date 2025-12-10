@@ -3,6 +3,7 @@ title: "京都大学 2013年 2013_5"
 problem_id: "02_kyoto-2013-2013_5"
 university: "京都大学"
 exam_year: "2013"
+problem_number: 5
 source_tex: "archive/02_kyoto/2013/2013_5.tex"
 pdf_source: "archive/02_kyoto/2013/2013_5.pdf"
 page_image: "archive/02_kyoto/2013/2013_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$xy$平面内で，$y$軸上の点$P$を中心とする円$C$が2つの曲線
+$xy$平面内で，$y$軸上の点$P$を中心とする円$C$が2つの曲線
 \[ C_1:y=\sqrt3 \, \log(1+x), \hspace{1zw} C_2:y=\sqrt3 \, \log(1-x) \]
 とそれぞれ点$A$，点$B$で接しているとする．
 さらに$\triangle PAB$は$A$と$B$が$y$軸に関して対称な位置にある正三角形であるとする．

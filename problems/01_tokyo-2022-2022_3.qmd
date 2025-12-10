@@ -3,6 +3,7 @@ title: "東京大学 2022年 2022_3"
 problem_id: "01_tokyo-2022-2022_3"
 university: "東京大学"
 exam_year: "2022"
+problem_number: 3
 source_tex: "archive/01_tokyo/2022/2022_3.tex"
 pdf_source: "archive/01_tokyo/2022/2022_3.pdf"
 page_image: "archive/01_tokyo/2022/2022_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$O$を原点とする座標平面上で考える。
+$O$を原点とする座標平面上で考える。
 座標平面上の2点$S(x_1, \, y_1)$，$T(x_2, \, y_2)$に対し，
 点$S$が点$T$から十分離れているとは，
 \[ |x_1-x_2|\geqq1 \hspace{1zw} \text{または} \hspace{1zw} |y_1-y_2|\geqq1 \]

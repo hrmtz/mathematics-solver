@@ -3,6 +3,7 @@ title: "東京大学 2002年 2002_0_3"
 problem_id: "01_tokyo-2002-2002_0_3"
 university: "東京大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/01_tokyo/2002/2002_0_3.tex"
 pdf_source: "archive/01_tokyo/2002/2002_0_3.pdf"
 page_image: "archive/01_tokyo/2002/2002_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2つの関数
+2つの関数
 \[ f(x)=ax^3+bx^2+cx \]
 \[ g(x)=px^3+qx^2+rx \]
 が次の5つの条件を満たしているとする．

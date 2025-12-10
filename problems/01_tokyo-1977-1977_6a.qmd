@@ -3,6 +3,7 @@ title: "東京大学 1977年 1977_6a"
 problem_id: "01_tokyo-1977-1977_6a"
 university: "東京大学"
 exam_year: "1977"
+problem_number: 6
 source_tex: "archive/01_tokyo/1977/1977_6a.tex"
 pdf_source: "archive/01_tokyo/1977/1977_6a.pdf"
 page_image: "archive/01_tokyo/1977/1977_6a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6 新
-　座標の定められた空間において，
+座標の定められた空間において，
 直線$l$は2点$(1,1,0)$，$(2,1,1)$を通り，
 直線$m$は2点$(1,1,1)$，$(1,3,2)$を通る．
 \begin{description}

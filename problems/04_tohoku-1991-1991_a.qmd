@@ -3,6 +3,7 @@ title: "東北大学 1991年 1991_a"
 problem_id: "04_tohoku-1991-1991_a"
 university: "東北大学"
 exam_year: "1991"
+problem_number: 1
 source_tex: "archive/04_tohoku/1991/1991_a.tex"
 pdf_source: "archive/04_tohoku/1991/1991_a.pdf"
 page_image: "archive/04_tohoku/1991/1991_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　傾きが正の直線$l$が2つの放物線
+傾きが正の直線$l$が2つの放物線
 \[ C_1:y=ax^2+\frac{1}{3a^3}, \hspace{1zw} C_2:y=bx^2+\frac{1}{3b^3} \hspace{1zw}
 (a>0, \, b>0, \, a \neq b) \]
 に接している．このとき次の問に答えよ．

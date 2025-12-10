@@ -3,6 +3,7 @@ title: "北海道大学 2023年 2023_0_1"
 problem_id: "03_hokudai-2023-2023_0_1"
 university: "北海道大学"
 exam_year: "2023"
+problem_number: 1
 source_tex: "archive/03_hokudai/2023/2023_0_1.tex"
 pdf_source: "archive/03_hokudai/2023/2023_0_1.pdf"
 page_image: "archive/03_hokudai/2023/2023_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$P(x)$を$x$についての整式とし，$P(x)P(-x)=P(x^2)$は$x$についての恒等式であるとする。
+$P(x)$を$x$についての整式とし，$P(x)P(-x)=P(x^2)$は$x$についての恒等式であるとする。
 \begin{description}
 \item[(1)]$P(0)=0$または$P(0)=1$であることを示せ。
 \item[(2)]$P(x)$が$x-1$で割り切れないならば，

@@ -3,6 +3,7 @@ title: "京都大学 1991年 1991_f"
 problem_id: "02_kyoto-1991-1991_f"
 university: "京都大学"
 exam_year: "1991"
+problem_number: 6
 source_tex: "archive/02_kyoto/1991/1991_f.tex"
 pdf_source: "archive/02_kyoto/1991/1991_f.pdf"
 page_image: "archive/02_kyoto/1991/1991_f.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(1)]任意の定数$a$に対して$e^x \geqq e^a+(x-a)e^a$が成り立つことを示せ．
 \item[(2)]$\displaystyle\int_0^1e^{\sin\pi x}dx\geqq e^\frac{2}{\pi}$を示せ．

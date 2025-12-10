@@ -3,6 +3,7 @@ title: "大阪大学 1991年 1991_0_2"
 problem_id: "06_osaka-1991-1991_0_2"
 university: "大阪大学"
 exam_year: "1991"
+problem_number: 2
 source_tex: "archive/06_osaka/1991/1991_0_2.tex"
 pdf_source: "archive/06_osaka/1991/1991_0_2.pdf"
 page_image: "archive/06_osaka/1991/1991_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$xyz$空間において，点$(0, \, 0, \, 2)$を中心とする半径1の球面を$S_1$，
+$xyz$空間において，点$(0, \, 0, \, 2)$を中心とする半径1の球面を$S_1$，
 点$(0, \, 0, \, -2)$を中心とする半径1の球面を$S_2$，
 点$(2, \, 0, \, 0)$を中心とする半径3の球面を$S_3$とする．
 \begin{description}

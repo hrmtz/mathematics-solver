@@ -3,6 +3,7 @@ title: "東京大学 1996年 1996_1"
 problem_id: "01_tokyo-1996-1996_1"
 university: "東京大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/01_tokyo/1996/1996_1.tex"
 pdf_source: "archive/01_tokyo/1996/1996_1.pdf"
 page_image: "archive/01_tokyo/1996/1996_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$xy$平面において，
+$xy$平面において，
 行列$\begin{pmatrix} a & -b 
 
  b & a \end{pmatrix}$で表される1次変換を$f$とし，

@@ -3,6 +3,7 @@ title: "東京大学 1990年 1990_3"
 problem_id: "01_tokyo-1990-1990_3"
 university: "東京大学"
 exam_year: "1990"
+problem_number: 3
 source_tex: "archive/01_tokyo/1990/1990_3.tex"
 pdf_source: "archive/01_tokyo/1990/1990_3.pdf"
 page_image: "archive/01_tokyo/1990/1990_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$V$を一辺の長さが1の正8面体，
+$V$を一辺の長さが1の正8面体，
 すなわち$xyz$空間において$\displaystyle |x|+|y|+|z| \leqq \frac{1}{\sqrt2}$をみたす
 点$(x,y,z)$の集合と合同な立体とする．
 \begin{description}

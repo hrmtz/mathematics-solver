@@ -3,6 +3,7 @@ title: "北海道大学 1975年 1975_3"
 problem_id: "03_hokudai-1975-1975_3"
 university: "北海道大学"
 exam_year: "1975"
+problem_number: 3
 source_tex: "archive/03_hokudai/1975/1975_3.tex"
 pdf_source: "archive/03_hokudai/1975/1975_3.pdf"
 page_image: "archive/03_hokudai/1975/1975_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　初項$\alpha$，公差$\beta$の等差数列$\{ \alpha_n \}$に対し，
+初項$\alpha$，公差$\beta$の等差数列$\{ \alpha_n \}$に対し，
 数列$\{ \sin\alpha_n \}$は等比数列をなすものとする．
 ただし，$\alpha$，$\beta$は実数で$\sin\alpha\neq0$である．
 \begin{description}

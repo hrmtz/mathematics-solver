@@ -3,6 +3,7 @@ title: "大阪大学 1995年 1995_b"
 problem_id: "06_osaka-1995-1995_b"
 university: "大阪大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/06_osaka/1995/1995_b.tex"
 pdf_source: "archive/06_osaka/1995/1995_b.pdf"
 page_image: "archive/06_osaka/1995/1995_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　空間内に方程式$x+y+z=3$で表される平面$H$がある．
+空間内に方程式$x+y+z=3$で表される平面$H$がある．
 $xy$平面上の点$A_1$が与えられたとき$H$上の点$B_1$，$B_2$，$\cdots\cdots$，
 $xy$平面上の点$A_2$，$A_3$，$\cdots\cdots$を順次以下のように定める．
 $A_1$をとおり$H$に垂直な直線と$H$との交点を$B_1$とし，

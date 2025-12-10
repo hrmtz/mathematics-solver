@@ -3,6 +3,7 @@ title: "名古屋大学 1983年 1983_0_3b"
 problem_id: "05_nagoya-1983-1983_0_3b"
 university: "名古屋大学"
 exam_year: "1983"
+problem_number: 3
 source_tex: "archive/05_nagoya/1983/1983_0_3b.tex"
 pdf_source: "archive/05_nagoya/1983/1983_0_3b.pdf"
 page_image: "archive/05_nagoya/1983/1983_0_3b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3 (b)
-　1辺の長さが1cmの正3角形$ABC$がある．
+1辺の長さが1cmの正3角形$ABC$がある．
 動点$P$，$Q$，$R$が，それぞれ$A$，$B$，$C$を同時に出発して
 毎秒1cm，2cm，3cmの速さで，この3角形の周上を
 $A \to B \to C \to A$の向きにまわっている．

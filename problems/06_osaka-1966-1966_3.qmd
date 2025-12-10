@@ -3,6 +3,7 @@ title: "大阪大学 1966年 1966_3"
 problem_id: "06_osaka-1966-1966_3"
 university: "大阪大学"
 exam_year: "1966"
+problem_number: 3
 source_tex: "archive/06_osaka/1966/1966_3.tex"
 pdf_source: "archive/06_osaka/1966/1966_3.pdf"
 page_image: "archive/06_osaka/1966/1966_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　実数$a$，$b$，$c$の関係式
+実数$a$，$b$，$c$の関係式
 \[ a^2+b^2+c^2-10a-11=0 \hspace{1zw} a^2-bc-4a-5=0 \]
 について，次の問に答えよ。
 \begin{description}

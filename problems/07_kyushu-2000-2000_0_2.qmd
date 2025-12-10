@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_0_2"
 problem_id: "07_kyushu-2000-2000_0_2"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 2
 source_tex: "archive/07_kyushu/2000/2000_0_2.tex"
 pdf_source: "archive/07_kyushu/2000/2000_0_2.pdf"
 page_image: "archive/07_kyushu/2000/2000_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　実数$p$，$q$，$r$を係数とする関数$f(x)=px^2+qx+r$をここでは高々2次の関数とよぶことにする．
+実数$p$，$q$，$r$を係数とする関数$f(x)=px^2+qx+r$をここでは高々2次の関数とよぶことにする．
 また，$a$，$b$，$c$は異なる3つの実数とする．
 \begin{description}
 \item[(1)]$f(a)=1$，$f(b)=0$，$f(c)=0$を満たす高々2次の関数$f(x)$を求めよ．

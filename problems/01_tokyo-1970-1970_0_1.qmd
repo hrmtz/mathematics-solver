@@ -3,6 +3,7 @@ title: "東京大学 1970年 1970_0_1"
 problem_id: "01_tokyo-1970-1970_0_1"
 university: "東京大学"
 exam_year: "1970"
+problem_number: 1
 source_tex: "archive/01_tokyo/1970/1970_0_1.tex"
 pdf_source: "archive/01_tokyo/1970/1970_0_1.pdf"
 page_image: "archive/01_tokyo/1970/1970_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の文を読んで後の設問に答えよ．
+次の文を読んで後の設問に答えよ．
 　$k$を2から10までの任意の整数とするとき，正の整数はすべて
 \[ a_n \times k^n + \cdots\cdots + a_1 \times k + a_0 \]
 のように書くことができる．

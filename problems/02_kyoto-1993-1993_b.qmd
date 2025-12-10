@@ -3,6 +3,7 @@ title: "京都大学 1993年 1993_b"
 problem_id: "02_kyoto-1993-1993_b"
 university: "京都大学"
 exam_year: "1993"
+problem_number: 2
 source_tex: "archive/02_kyoto/1993/1993_b.tex"
 pdf_source: "archive/02_kyoto/1993/1993_b.pdf"
 page_image: "archive/02_kyoto/1993/1993_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　実数$a$に対して，$f(x)=x^3-3ax$とおく．
+実数$a$に対して，$f(x)=x^3-3ax$とおく．
 \begin{description}
 \item[(1)]$t$を実数とする．方程式$f(x)=t$が相異なる3個の実数解を持つために$a$と$t$が満たすべき条件を求めよ．
 \item[(2)]$g(x)=f(f(x))$とおく．方程式$g(x)=0$が相異なる9個の実数解を持つような$a$の範囲を求めよ．

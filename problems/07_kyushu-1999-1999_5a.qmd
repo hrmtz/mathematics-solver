@@ -3,6 +3,7 @@ title: "九州大学 1999年 1999_5a"
 problem_id: "07_kyushu-1999-1999_5a"
 university: "九州大学"
 exam_year: "1999"
+problem_number: 5
 source_tex: "archive/07_kyushu/1999/1999_5a.tex"
 pdf_source: "archive/07_kyushu/1999/1999_5a.pdf"
 page_image: "archive/07_kyushu/1999/1999_5a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5 (a)
-　$A$，$B$の2名で次のゲームを行う．
+$A$，$B$の2名で次のゲームを行う．
 $A$，$B$はそれぞれ表に1から$n$までの数字がひとつずつ書かれた$n$枚のカードを持っている
 （裏には何も書かれていない）．
 $A$は自分のすべてのカードを表を下にしてならべる．

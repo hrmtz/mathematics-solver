@@ -3,6 +3,7 @@ title: "北海道大学 1994年 1994_0_1"
 problem_id: "03_hokudai-1994-1994_0_1"
 university: "北海道大学"
 exam_year: "1994"
+problem_number: 1
 source_tex: "archive/03_hokudai/1994/1994_0_1.tex"
 pdf_source: "archive/03_hokudai/1994/1994_0_1.pdf"
 page_image: "archive/03_hokudai/1994/1994_0_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$a$を0でない実数とし，$P$を直線$y=ax$上の原点$O$以外の点とする．
+$a$を0でない実数とし，$P$を直線$y=ax$上の原点$O$以外の点とする．
 1次変換$f$が次の条件（イ）と（ロ）を満たすとする．
 \begin{description}
 \item[（イ）]$f$は点$(1, \, 0)$を点$(2, \, 0)$に移す．

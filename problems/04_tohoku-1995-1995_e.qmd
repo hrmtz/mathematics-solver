@@ -3,6 +3,7 @@ title: "東北大学 1995年 1995_e"
 problem_id: "04_tohoku-1995-1995_e"
 university: "東北大学"
 exam_year: "1995"
+problem_number: 5
 source_tex: "archive/04_tohoku/1995/1995_e.tex"
 pdf_source: "archive/04_tohoku/1995/1995_e.pdf"
 page_image: "archive/04_tohoku/1995/1995_e.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$a>2$とし，$f(x)=x^2e^{-|x-a|}$とする．
+$a>2$とし，$f(x)=x^2e^{-|x-a|}$とする．
 \begin{description}
 \item[(1)]$f(x)$の極値を求めよ．
 \item[(2)]極限値$\displaystyle\lim_{a\to+\infty}\frac{1}{a^2}\int_{-a}^af(x)dx$を求めよ．

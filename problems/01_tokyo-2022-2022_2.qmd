@@ -3,6 +3,7 @@ title: "東京大学 2022年 2022_2"
 problem_id: "01_tokyo-2022-2022_2"
 university: "東京大学"
 exam_year: "2022"
+problem_number: 2
 source_tex: "archive/01_tokyo/2022/2022_2.tex"
 pdf_source: "archive/01_tokyo/2022/2022_2.pdf"
 page_image: "archive/01_tokyo/2022/2022_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　数列$\{ a_n \}$を次のように定める。
+数列$\{ a_n \}$を次のように定める。
 \[ a_1=1, \hspace{1zw} a_{n+1}={a_n}^2+1 \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]
 \begin{description}
 \item[(1)]正の整数$n$が3の倍数のとき，$a_n$は5の倍数となることを示せ。

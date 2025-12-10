@@ -3,6 +3,7 @@ title: "東京科学大学 2007年 2007_3"
 problem_id: "08_titech-2007-2007_3"
 university: "東京科学大学"
 exam_year: "2007"
+problem_number: 3
 source_tex: "archive/08_titech/2007/2007_3.tex"
 pdf_source: "archive/08_titech/2007/2007_3.pdf"
 page_image: "archive/08_titech/2007/2007_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　一辺の長さが1の正八角形$A_1 A_2 \cdots A_8$の周上を3点$P$，$Q$，$R$が動くとする．
+一辺の長さが1の正八角形$A_1 A_2 \cdots A_8$の周上を3点$P$，$Q$，$R$が動くとする．
 \begin{description}
 \item[(1)]$\triangle PQR$の面積の最大値を求めよ．
 \item[(2)]$Q$が正八角形の頂点$A_1$に一致し，$\angle PQR = 90^\circ$となるとき$\triangle PQR$の面積の最大値を求めよ．

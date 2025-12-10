@@ -3,6 +3,7 @@ title: "九州大学 1984年 1984_0_1"
 problem_id: "07_kyushu-1984-1984_0_1"
 university: "九州大学"
 exam_year: "1984"
+problem_number: 1
 source_tex: "archive/07_kyushu/1984/1984_0_1.tex"
 pdf_source: "archive/07_kyushu/1984/1984_0_1.pdf"
 page_image: "archive/07_kyushu/1984/1984_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$，$c$を実数とするとき，次の不等式を示せ．
+$a$，$b$，$c$を実数とするとき，次の不等式を示せ．
 \begin{description}
 \item[(1)]$\displaystyle\int_{-1}^1{(x^3+ax^2+bx+c)}^2dx\geqq\int_{-1}^1{(x^3+bx)}^2dx$
 \item[(2)]$\displaystyle\int_{-1}^1{(x^3+bx)}^2dx\geqq

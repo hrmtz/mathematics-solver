@@ -3,6 +3,7 @@ title: "北海道大学 2023年 2023_5"
 problem_id: "03_hokudai-2023-2023_5"
 university: "北海道大学"
 exam_year: "2023"
+problem_number: 5
 source_tex: "archive/03_hokudai/2023/2023_5.tex"
 pdf_source: "archive/03_hokudai/2023/2023_5.pdf"
 page_image: "archive/03_hokudai/2023/2023_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$a$，$b$を$a^2+b^2<1$をみたす正の実数とする。また，座標平面上で原点を中心とする半径1の円を$C$とし，
+$a$，$b$を$a^2+b^2<1$をみたす正の実数とする。また，座標平面上で原点を中心とする半径1の円を$C$とし，
 $C$の内部にある2点$A(a, \, 0)$，$B(0, \, b)$を考える。
 $\displaystyle 0<\theta<\frac{\pi}{2}$に対して$C$上の点$P(\cos\theta, \, \sin\theta)$を考え，
 $P$における$C$の接線に関して$B$と対称な点を$D$とおく。

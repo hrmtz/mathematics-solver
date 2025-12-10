@@ -3,6 +3,7 @@ title: "北海道大学 1979年 1979_4"
 problem_id: "03_hokudai-1979-1979_4"
 university: "北海道大学"
 exam_year: "1979"
+problem_number: 4
 source_tex: "archive/03_hokudai/1979/1979_4.tex"
 pdf_source: "archive/03_hokudai/1979/1979_4.pdf"
 page_image: "archive/03_hokudai/1979/1979_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　自然数$n$に対し，$f_n(x)=n^pxe^{-nx^2}$とする．
+自然数$n$に対し，$f_n(x)=n^pxe^{-nx^2}$とする．
 \begin{description}
 \item[(1)]$\displaystyle A_n=\lim_{a\to+\infty}\int_0^af_n(x)dx$を求めよ．
 \item[(2)]次の（イ）、（ロ）を同時に満たす$p$の範囲を求めよ．

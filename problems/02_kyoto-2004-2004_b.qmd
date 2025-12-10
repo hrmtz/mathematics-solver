@@ -3,6 +3,7 @@ title: "京都大学 2004年 2004_b"
 problem_id: "02_kyoto-2004-2004_b"
 university: "京都大学"
 exam_year: "2004"
+problem_number: 2
 source_tex: "archive/02_kyoto/2004/2004_b.tex"
 pdf_source: "archive/02_kyoto/2004/2004_b.pdf"
 page_image: "archive/02_kyoto/2004/2004_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　複素数$z$の絶対値を$|z|$であらわす．
+複素数$z$の絶対値を$|z|$であらわす．
 $|(1+i)t+1+\alpha|\leqq1$を満たす実数$t$が存在するような複素数$\alpha$の範囲を，複素平面上で図示せよ．
 (ただし，$i$は虚数単位をあらわす．)
 (注意：複素平面のことを複素数平面ともいう)

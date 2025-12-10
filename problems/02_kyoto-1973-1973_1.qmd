@@ -3,6 +3,7 @@ title: "京都大学 1973年 1973_1"
 problem_id: "02_kyoto-1973-1973_1"
 university: "京都大学"
 exam_year: "1973"
+problem_number: 1
 source_tex: "archive/02_kyoto/1973/1973_1.tex"
 pdf_source: "archive/02_kyoto/1973/1973_1.pdf"
 page_image: "archive/02_kyoto/1973/1973_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　10進法で3けたの整数$\alpha$ $(\geqq0)$をとり，
+10進法で3けたの整数$\alpha$ $(\geqq0)$をとり，
 $\alpha$の一位の数と百位の数をいれかえてできる数を$\alpha'$とする．
 ただし，1けたの数，2けたの数もそれぞれその前に00および0をつけて3けたの数とみなす．
 　$\alpha$が0から999までのすべての整数をとるとき，

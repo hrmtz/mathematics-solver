@@ -3,6 +3,7 @@ title: "北海道大学 1976年 1976_4"
 problem_id: "03_hokudai-1976-1976_4"
 university: "北海道大学"
 exam_year: "1976"
+problem_number: 4
 source_tex: "archive/03_hokudai/1976/1976_4.tex"
 pdf_source: "archive/03_hokudai/1976/1976_4.pdf"
 page_image: "archive/03_hokudai/1976/1976_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$-\pi \leqq x \leqq \pi$のとき，無限級数
+$-\pi \leqq x \leqq \pi$のとき，無限級数
 \[ \sin^2x+\sin^2x\cos^3x+\sin^2x\cos^6x+\cdots\cdots+\sin^2x\cos^{3(n-1)}x+\cdots\cdots \]
 の和を$f(x)$とする．
 \begin{description}

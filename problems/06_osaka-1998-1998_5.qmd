@@ -3,6 +3,7 @@ title: "大阪大学 1998年 1998_5"
 problem_id: "06_osaka-1998-1998_5"
 university: "大阪大学"
 exam_year: "1998"
+problem_number: 5
 source_tex: "archive/06_osaka/1998/1998_5.tex"
 pdf_source: "archive/06_osaka/1998/1998_5.pdf"
 page_image: "archive/06_osaka/1998/1998_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　座標空間において，
+座標空間において，
 \begin{description}
 \item[]平面$z=\sqrt2$上にある半径$\sqrt2$，中心$(0, \, 0, \, \sqrt2)$の円を$C_1$
 \item[]平面$z=-\sqrt2$上にある半径$\sqrt2$，中心$(0, \, 0, \, -\sqrt2)$の円を$C_2$

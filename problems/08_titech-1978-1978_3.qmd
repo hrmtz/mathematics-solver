@@ -3,6 +3,7 @@ title: "東京科学大学 1978年 1978_3"
 problem_id: "08_titech-1978-1978_3"
 university: "東京科学大学"
 exam_year: "1978"
+problem_number: 3
 source_tex: "archive/08_titech/1978/1978_3.tex"
 pdf_source: "archive/08_titech/1978/1978_3.pdf"
 page_image: "archive/08_titech/1978/1978_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　平面上の原点を中心とする半径$r$の円に
+平面上の原点を中心とする半径$r$の円に
 $\displaystyle\left(\frac{r}{\sqrt2}, \, \frac{r}{\sqrt2}\right)$で接する直線を$L$とし，
 $L$上に接点と異なる1点$P(a, \, b)$をとる．
 \begin{description}

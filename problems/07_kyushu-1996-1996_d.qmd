@@ -3,6 +3,7 @@ title: "九州大学 1996年 1996_d"
 problem_id: "07_kyushu-1996-1996_d"
 university: "九州大学"
 exam_year: "1996"
+problem_number: 4
 source_tex: "archive/07_kyushu/1996/1996_d.tex"
 pdf_source: "archive/07_kyushu/1996/1996_d.pdf"
 page_image: "archive/07_kyushu/1996/1996_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$T$を正の定数とする．
+$T$を正の定数とする．
 $0 \leqq t$で定義された連続関数$y(t)$は，$k=0, \, 1, \, 2, \, \cdots\cdots$に対し
 \[ kT<t<\left(k+\frac{1}{2}\right)T\text{のとき}, \, \frac{dy}{dt}+y=1 \]
 \[ \left(k+\frac{1}{2}\right)T<t<(k+1)T\text{のとき}, \, \frac{dy}{dt}+y=0 \]

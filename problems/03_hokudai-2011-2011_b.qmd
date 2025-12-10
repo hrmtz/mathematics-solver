@@ -3,6 +3,7 @@ title: "北海道大学 2011年 2011_b"
 problem_id: "03_hokudai-2011-2011_b"
 university: "北海道大学"
 exam_year: "2011"
+problem_number: 2
 source_tex: "archive/03_hokudai/2011/2011_b.tex"
 pdf_source: "archive/03_hokudai/2011/2011_b.pdf"
 page_image: "archive/03_hokudai/2011/2011_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$を実数とする。
+$a$を実数とする。
 $xyz$空間内の4点を$A(0, \, a, \, 4)$，$B(-2, \, 0, \, 3)$，
 $C(1, \, 0, \, 2)$，$D(0, \, 2, \, 3)$とし，
 点$P(1, \, 0, \, 6)$に光源をおく。

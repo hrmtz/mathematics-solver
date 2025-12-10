@@ -3,6 +3,7 @@ title: "九州大学 1966年 1966_2"
 problem_id: "07_kyushu-1966-1966_2"
 university: "九州大学"
 exam_year: "1966"
+problem_number: 2
 source_tex: "archive/07_kyushu/1966/1966_2.tex"
 pdf_source: "archive/07_kyushu/1966/1966_2.pdf"
 page_image: "archive/07_kyushu/1966/1966_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　点$A$，$B$にある2つの車庫に，それぞれ$m_1$両，$m_2$両のバスがある．
+点$A$，$B$にある2つの車庫に，それぞれ$m_1$両，$m_2$両のバスがある．
 線分$AB$上に修理所を設けて車両検査を行なうとき，
 全部の車両を各1回検査するのに，要する総運搬費を最小にするには，修理所をどこにおけばよいか．
 点$A$からの距離を求めよ，ただし$AB$間の距離を$l$とし，バスは線分$AB$上を動くものとする．

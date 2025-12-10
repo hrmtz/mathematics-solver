@@ -3,6 +3,7 @@ title: "東京科学大学 2007年 2007_a"
 problem_id: "08_titech-2007-2007_a"
 university: "東京科学大学"
 exam_year: "2007"
+problem_number: 1
 source_tex: "archive/08_titech/2007/2007_a.tex"
 pdf_source: "archive/08_titech/2007/2007_a.pdf"
 page_image: "archive/08_titech/2007/2007_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　1から6までの目がそれぞれ$\displaystyle\frac{1}{6}$の確率で出るサイコロを3回振って出た目を順に$n_1$，$n_2$，$n_3$とし，
+1から6までの目がそれぞれ$\displaystyle\frac{1}{6}$の確率で出るサイコロを3回振って出た目を順に$n_1$，$n_2$，$n_3$とし，
 次の3次方程式を考える．
 \[ x^3-n_1x+(-1)^{n_2}n_3=0 \]
 \begin{description}

@@ -3,6 +3,7 @@ title: "東北大学 1972年 1972_4"
 problem_id: "04_tohoku-1972-1972_4"
 university: "東北大学"
 exam_year: "1972"
+problem_number: 4
 source_tex: "archive/04_tohoku/1972/1972_4.tex"
 pdf_source: "archive/04_tohoku/1972/1972_4.pdf"
 page_image: "archive/04_tohoku/1972/1972_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　曲線$y=x^3-x^2$上の1点$P_0$からこの曲線に$P_0$を接点としない接線を引き，接点を$P_1$とする．
+曲線$y=x^3-x^2$上の1点$P_0$からこの曲線に$P_0$を接点としない接線を引き，接点を$P_1$とする．
 点$P_1$からこの曲線に$P_1$を接点としない接戦を引き，接点を$P_2$とする．
 このようにして順に点$P_3, \, P_4, \, \cdots\cdots, \, P_n, \, \cdots\cdots$をつくる．
 点$P_0, \, P_1, \, \cdots\cdots, \, P_n, \, \cdots\cdots$の$x$座標を

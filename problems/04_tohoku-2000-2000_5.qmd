@@ -3,6 +3,7 @@ title: "東北大学 2000年 2000_5"
 problem_id: "04_tohoku-2000-2000_5"
 university: "東北大学"
 exam_year: "2000"
+problem_number: 5
 source_tex: "archive/04_tohoku/2000/2000_5.tex"
 pdf_source: "archive/04_tohoku/2000/2000_5.pdf"
 page_image: "archive/04_tohoku/2000/2000_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$0<t<1$として，頂点が$O(0, \, 0)$，$A(t, \, 0)$，$B(0, \, 1)$である三角形と，
+$0<t<1$として，頂点が$O(0, \, 0)$，$A(t, \, 0)$，$B(0, \, 1)$である三角形と，
 頂点が$O$，$P(1-t, \, 0)$，$Q(1-t, \, 1-t)$，$R(0, \, 1-t)$である正方形の共通部分の面積を$S$とするとき，
 $S$を$t$の式で表せ．
 また，$S$を最大にする$t$の値を求めよ．

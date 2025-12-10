@@ -3,6 +3,7 @@ title: "名古屋大学 2001年 2001_4a"
 problem_id: "05_nagoya-2001-2001_4a"
 university: "名古屋大学"
 exam_year: "2001"
+problem_number: 4
 source_tex: "archive/05_nagoya/2001/2001_4a.tex"
 pdf_source: "archive/05_nagoya/2001/2001_4a.pdf"
 page_image: "archive/05_nagoya/2001/2001_4a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (a)
-　$n$を3以上の自然数とする．
+$n$を3以上の自然数とする．
 有限複素数列$z_1,z_2,\cdots,z_n$の各項はいずれも方程式$z^6=1$の解の一つであり，
 かつ，関係式$z_1+z_2+\cdots+z_n=0$を満たしているとする．
 \begin{description}

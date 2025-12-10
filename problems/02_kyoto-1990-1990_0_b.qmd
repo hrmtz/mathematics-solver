@@ -3,6 +3,7 @@ title: "京都大学 1990年 1990_0_b"
 problem_id: "02_kyoto-1990-1990_0_b"
 university: "京都大学"
 exam_year: "1990"
+problem_number: 2
 source_tex: "archive/02_kyoto/1990/1990_0_b.tex"
 pdf_source: "archive/02_kyoto/1990/1990_0_b.pdf"
 page_image: "archive/02_kyoto/1990/1990_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上の2定点$A$，$B$に対し，点$C$は線分$AB$を直径とする円周上を動く．
+平面上の2定点$A$，$B$に対し，点$C$は線分$AB$を直径とする円周上を動く．
 直線$AB$に関して$C$と同じ側に3点$A'$，$B'$，$C'$を次の2条件をみたすようにとる．
 \begin{description}
 \item[(イ)]$\triangle CBA'$，$\triangle ACB'$，$\triangle ABC'$はいずれも正三角形である．

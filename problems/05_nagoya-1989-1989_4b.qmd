@@ -3,6 +3,7 @@ title: "名古屋大学 1989年 1989_4b"
 problem_id: "05_nagoya-1989-1989_4b"
 university: "名古屋大学"
 exam_year: "1989"
+problem_number: 4
 source_tex: "archive/05_nagoya/1989/1989_4b.tex"
 pdf_source: "archive/05_nagoya/1989/1989_4b.pdf"
 page_image: "archive/05_nagoya/1989/1989_4b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　四面体$ABCD$において，
+四面体$ABCD$において，
 $AB=CD$，$AC=BD$，$AD=BC$が成立するならば，
 三角形$ABC$は鋭角三角形であることを証明せよ．
 

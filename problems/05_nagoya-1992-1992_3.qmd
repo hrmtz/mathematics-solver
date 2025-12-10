@@ -3,6 +3,7 @@ title: "名古屋大学 1992年 1992_3"
 problem_id: "05_nagoya-1992-1992_3"
 university: "名古屋大学"
 exam_year: "1992"
+problem_number: 3
 source_tex: "archive/05_nagoya/1992/1992_3.tex"
 pdf_source: "archive/05_nagoya/1992/1992_3.pdf"
 page_image: "archive/05_nagoya/1992/1992_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面上の図形
+$xy$平面上の図形
 \[ S=\left\{ (u, \, (2\sin u-1)v) \, | \, 0 \leqq u \leqq \frac{\pi}{2}, \, 0 \leqq v \leqq u \right\} \]
 の面積を求めよ．
 

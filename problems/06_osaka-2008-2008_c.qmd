@@ -3,6 +3,7 @@ title: "大阪大学 2008年 2008_c"
 problem_id: "06_osaka-2008-2008_c"
 university: "大阪大学"
 exam_year: "2008"
+problem_number: 3
 source_tex: "archive/06_osaka/2008/2008_c.tex"
 pdf_source: "archive/06_osaka/2008/2008_c.pdf"
 page_image: "archive/06_osaka/2008/2008_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　媒介変数$t$によって
+媒介変数$t$によって
 \[ x=\cos t, \hspace{1zw} y=\cos nt \hspace{1zw} (0 \leqq t \leqq \pi) \]
 と表される曲線を$y=f_n(x)$ $(-1 \leqq x \leqq 1)$とする．
 ただし，$n$は自然数である．

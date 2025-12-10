@@ -3,6 +3,7 @@ title: "北海道大学 1983年 1983_3"
 problem_id: "03_hokudai-1983-1983_3"
 university: "北海道大学"
 exam_year: "1983"
+problem_number: 3
 source_tex: "archive/03_hokudai/1983/1983_3.tex"
 pdf_source: "archive/03_hokudai/1983/1983_3.pdf"
 page_image: "archive/03_hokudai/1983/1983_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$x$の方程式$x=\log x+\log n$について，次の問に答えよ．
+$x$の方程式$x=\log x+\log n$について，次の問に答えよ．
 ただし，$n$は$n\geqq3$なる自然数である．
 \begin{description}
 \item[(1)]上の方程式の解$x$で$\displaystyle\frac{1}{n}\leqq x \leqq\frac{e}{n}$なるものは

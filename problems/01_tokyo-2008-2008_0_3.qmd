@@ -3,6 +3,7 @@ title: "東京大学 2008年 2008_0_3"
 problem_id: "01_tokyo-2008-2008_0_3"
 university: "東京大学"
 exam_year: "2008"
+problem_number: 3
 source_tex: "archive/01_tokyo/2008/2008_0_3.tex"
 pdf_source: "archive/01_tokyo/2008/2008_0_3.pdf"
 page_image: "archive/01_tokyo/2008/2008_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　座標平面上の3点$A(1,0)$，$B(-1,0)$，$C(0,-1)$に対し，$\angle APC=\angle BPC$をみたす点$P$の軌跡を求めよ．
+座標平面上の3点$A(1,0)$，$B(-1,0)$，$C(0,-1)$に対し，$\angle APC=\angle BPC$をみたす点$P$の軌跡を求めよ．
 ただし$P \neq A,B,C$とする．
 
 ---

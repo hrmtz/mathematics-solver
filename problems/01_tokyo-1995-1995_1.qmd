@@ -3,6 +3,7 @@ title: "東京大学 1995年 1995_1"
 problem_id: "01_tokyo-1995-1995_1"
 university: "東京大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/01_tokyo/1995/1995_1.tex"
 pdf_source: "archive/01_tokyo/1995/1995_1.pdf"
 page_image: "archive/01_tokyo/1995/1995_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　すべての正の実数$x$，$y$に対し
+すべての正の実数$x$，$y$に対し
 \[ \sqrt{x}+\sqrt{y} \leqq k\sqrt{2x+y} \]
 が成り立つような実数$k$の最小値を求めよ．
 

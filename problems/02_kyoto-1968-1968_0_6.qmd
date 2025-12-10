@@ -3,6 +3,7 @@ title: "京都大学 1968年 1968_0_6"
 problem_id: "02_kyoto-1968-1968_0_6"
 university: "京都大学"
 exam_year: "1968"
+problem_number: 6
 source_tex: "archive/02_kyoto/1968/1968_0_6.tex"
 pdf_source: "archive/02_kyoto/1968/1968_0_6.pdf"
 page_image: "archive/02_kyoto/1968/1968_0_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$x$の関数$y=x^3$と，$y=ax^2+bx+c$ $(a<0)$のグラフが，点$(1,1)$で接し，
+$x$の関数$y=x^3$と，$y=ax^2+bx+c$ $(a<0)$のグラフが，点$(1,1)$で接し，
 さらに，これら2つのグラフと$y$軸とで囲まれた$x\geqq0$の部分の面積が1である．
 このとき，$a$，$b$，$c$の値を求めよ．
 

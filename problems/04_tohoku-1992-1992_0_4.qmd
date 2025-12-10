@@ -3,6 +3,7 @@ title: "東北大学 1992年 1992_0_4"
 problem_id: "04_tohoku-1992-1992_0_4"
 university: "東北大学"
 exam_year: "1992"
+problem_number: 4
 source_tex: "archive/04_tohoku/1992/1992_0_4.tex"
 pdf_source: "archive/04_tohoku/1992/1992_0_4.pdf"
 page_image: "archive/04_tohoku/1992/1992_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　自然数$n\geqq1$について，2種類のすべて相異なる命題$P(n)$，$Q(n)$がある．
+自然数$n\geqq1$について，2種類のすべて相異なる命題$P(n)$，$Q(n)$がある．
 いま$P(n)$が正しいならば，$Q(n+1)$が正しく，$Q(n)$が正しいならば$P(n+1)$も正しいことが証明されたとする．
 このとき，次の問に理由をつけて答えよ．
 \begin{description}

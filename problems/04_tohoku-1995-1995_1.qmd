@@ -3,6 +3,7 @@ title: "東北大学 1995年 1995_1"
 problem_id: "04_tohoku-1995-1995_1"
 university: "東北大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/04_tohoku/1995/1995_1.tex"
 pdf_source: "archive/04_tohoku/1995/1995_1.pdf"
 page_image: "archive/04_tohoku/1995/1995_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$A=\begin{pmatrix} a & b 
+$A=\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$とする．
 $A^2$が角$\theta$ $(0<\theta<\pi)$の回転を表す行列であれば，

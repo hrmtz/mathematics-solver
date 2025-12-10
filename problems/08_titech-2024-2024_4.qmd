@@ -3,6 +3,7 @@ title: "東京科学大学 2024年 2024_4"
 problem_id: "08_titech-2024-2024_4"
 university: "東京科学大学"
 exam_year: "2024"
+problem_number: 4
 source_tex: "archive/08_titech/2024/2024_4.tex"
 pdf_source: "archive/08_titech/2024/2024_4.pdf"
 page_image: "archive/08_titech/2024/2024_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$n$を正の整数とし，$C_1, \, \cdots, \, C_n$を$n$枚の硬貨とする．
+$n$を正の整数とし，$C_1, \, \cdots, \, C_n$を$n$枚の硬貨とする．
 各$k=1, \, \cdots, \, n$に対し，
 硬貨$C_k$を投げて表が出る確率を$p_k$，裏が出る確率を$1-p_k$とする．
 この$n$枚の硬貨を同時に投げ，表が出た硬貨の枚数が奇数であれば成功，

@@ -3,6 +3,7 @@ title: "北海道大学 2015年 2015_5"
 problem_id: "03_hokudai-2015-2015_5"
 university: "北海道大学"
 exam_year: "2015"
+problem_number: 5
 source_tex: "archive/03_hokudai/2015/2015_5.tex"
 pdf_source: "archive/03_hokudai/2015/2015_5.pdf"
 page_image: "archive/03_hokudai/2015/2015_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$n$は自然数，$a$は$\displaystyle a>\frac{3}{2}$をみたす実数とし，実数$x$の関数
+$n$は自然数，$a$は$\displaystyle a>\frac{3}{2}$をみたす実数とし，実数$x$の関数
 \[ f(x)=\int_0^x (x-\theta)(a\sin^{n+1}\theta-\sin^{n-1}\theta) d\theta \]
 を考える。ただし，$n=1$のときは$\sin^{n-1}\theta=1$とする。
 \begin{description}

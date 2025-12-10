@@ -3,6 +3,7 @@ title: "名古屋大学 1968年 1968_3"
 problem_id: "05_nagoya-1968-1968_3"
 university: "名古屋大学"
 exam_year: "1968"
+problem_number: 3
 source_tex: "archive/05_nagoya/1968/1968_3.tex"
 pdf_source: "archive/05_nagoya/1968/1968_3.pdf"
 page_image: "archive/05_nagoya/1968/1968_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]平面上に2定点$A$，$B$がある．
 $t$が$0 \leqq t \leqq 1$の範囲を動くとき

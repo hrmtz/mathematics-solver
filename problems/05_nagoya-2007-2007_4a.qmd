@@ -3,6 +3,7 @@ title: "名古屋大学 2007年 2007_4a"
 problem_id: "05_nagoya-2007-2007_4a"
 university: "名古屋大学"
 exam_year: "2007"
+problem_number: 4
 source_tex: "archive/05_nagoya/2007/2007_4a.tex"
 pdf_source: "archive/05_nagoya/2007/2007_4a.pdf"
 page_image: "archive/05_nagoya/2007/2007_4a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (a)
-　原点$O(0, \, 0)$を中心とする半径1の円に，
+原点$O(0, \, 0)$を中心とする半径1の円に，
 円外の点$P(x_0, \, y_0)$から2本の接線を引く．
 \begin{description}
 \item[(1)]2つの接点の中点を$Q$とするとき，

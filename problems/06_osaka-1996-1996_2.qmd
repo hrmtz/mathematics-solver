@@ -3,6 +3,7 @@ title: "大阪大学 1996年 1996_2"
 problem_id: "06_osaka-1996-1996_2"
 university: "大阪大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/06_osaka/1996/1996_2.tex"
 pdf_source: "archive/06_osaka/1996/1996_2.pdf"
 page_image: "archive/06_osaka/1996/1996_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$を正の数として，2平面$\alpha$，$\beta$
+$a$を正の数として，2平面$\alpha$，$\beta$
 \[ \alpha:\frac{x}{a}+\frac{y}{a}+z=1, \hspace{1zw} \beta:\frac{x}{a}+\frac{y}{a}-z=1 \]
 と2点$A(a, \, 0, \, 0)$，$B(0, \, a, \, 0)$を考える．
 次の問いに答えよ．

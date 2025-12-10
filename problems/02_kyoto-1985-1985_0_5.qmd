@@ -3,6 +3,7 @@ title: "京都大学 1985年 1985_0_5"
 problem_id: "02_kyoto-1985-1985_0_5"
 university: "京都大学"
 exam_year: "1985"
+problem_number: 5
 source_tex: "archive/02_kyoto/1985/1985_0_5.tex"
 pdf_source: "archive/02_kyoto/1985/1985_0_5.pdf"
 page_image: "archive/02_kyoto/1985/1985_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　正六角形の頂点を反時計まわりの順に，$A_0,A_1,\cdots\cdots,A_5$とし，
+正六角形の頂点を反時計まわりの順に，$A_0,A_1,\cdots\cdots,A_5$とし，
 次のルール\ding{"AC}，\ding{"AD}，\ding{"AE}に従ってゲームを行う．
 \begin{description}
 \item[\ding{"AC}]$A_0$を出発点とする．

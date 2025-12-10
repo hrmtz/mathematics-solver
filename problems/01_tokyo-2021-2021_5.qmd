@@ -3,6 +3,7 @@ title: "東京大学 2021年 2021_5"
 problem_id: "01_tokyo-2021-2021_5"
 university: "東京大学"
 exam_year: "2021"
+problem_number: 5
 source_tex: "archive/01_tokyo/2021/2021_5.tex"
 pdf_source: "archive/01_tokyo/2021/2021_5.pdf"
 page_image: "archive/01_tokyo/2021/2021_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$\alpha$を正の実数とする。$0 \leqq \theta \leqq \pi$における$\theta$の関数$f(\theta)$を，
+$\alpha$を正の実数とする。$0 \leqq \theta \leqq \pi$における$\theta$の関数$f(\theta)$を，
 座標平面上の2点$A(-\alpha, \, -3)$，
 $P(\theta+\sin\theta, \, \cos\theta)$間の距離$AP$の2乗として定める。
 \begin{description}

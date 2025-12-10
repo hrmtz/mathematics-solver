@@ -3,6 +3,7 @@ title: "九州大学 2019年 2019_3"
 problem_id: "07_kyushu-2019-2019_3"
 university: "九州大学"
 exam_year: "2019"
+problem_number: 3
 source_tex: "archive/07_kyushu/2019/2019_3.tex"
 pdf_source: "archive/07_kyushu/2019/2019_3.pdf"
 page_image: "archive/07_kyushu/2019/2019_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　1個のサイコロを3回投げて出た目を順に$a, \, b, \, c$とする。2次方程式
+1個のサイコロを3回投げて出た目を順に$a, \, b, \, c$とする。2次方程式
 \[ ax^2+bx+c=0 \]
 の2つの解$z_1$，$z_2$を表す複素数平面上の点をそれぞれ$P_1(z_1)$，$P_2(z_2)$とする。
 また，複素数平面上の原点を$O$とする。以下の問いに答えよ。

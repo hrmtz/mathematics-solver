@@ -3,6 +3,7 @@ title: "九州大学 2012年 2012_c"
 problem_id: "07_kyushu-2012-2012_c"
 university: "九州大学"
 exam_year: "2012"
+problem_number: 3
 source_tex: "archive/07_kyushu/2012/2012_c.tex"
 pdf_source: "archive/07_kyushu/2012/2012_c.pdf"
 page_image: "archive/07_kyushu/2012/2012_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2個のサイコロを投げて，$xy$平面上の点$P$を移動させる次の試行を考える。
+2個のサイコロを投げて，$xy$平面上の点$P$を移動させる次の試行を考える。
 試行：2個のサイコロを同時に投げて，大きい目の数を$X$，小さい目の数を$Y$とする。
 ただし，同じ目が出た場合は，$X$，$Y$の両者をその目の数とする。このとき，
 \begin{description}

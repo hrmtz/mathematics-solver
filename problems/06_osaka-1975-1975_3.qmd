@@ -3,6 +3,7 @@ title: "大阪大学 1975年 1975_3"
 problem_id: "06_osaka-1975-1975_3"
 university: "大阪大学"
 exam_year: "1975"
+problem_number: 3
 source_tex: "archive/06_osaka/1975/1975_3.tex"
 pdf_source: "archive/06_osaka/1975/1975_3.pdf"
 page_image: "archive/06_osaka/1975/1975_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　曲線$y=x^3+ax^2+bx+c$が$x$軸に接し，
+曲線$y=x^3+ax^2+bx+c$が$x$軸に接し，
 また，この曲線と直線$y=d$との交点の$x$座標が連続した3整数である．
 このとき，この曲線と$x$軸とによって囲まれる図形の面積を求めよ．
 

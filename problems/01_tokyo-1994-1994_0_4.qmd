@@ -3,6 +3,7 @@ title: "東京大学 1994年 1994_0_4"
 problem_id: "01_tokyo-1994-1994_0_4"
 university: "東京大学"
 exam_year: "1994"
+problem_number: 4
 source_tex: "archive/01_tokyo/1994/1994_0_4.tex"
 pdf_source: "archive/01_tokyo/1994/1994_0_4.pdf"
 page_image: "archive/01_tokyo/1994/1994_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$0<c<1$とする．3次関数$f(x)=-4x^3+3x^2$に対し，
+$0<c<1$とする．3次関数$f(x)=-4x^3+3x^2$に対し，
 \[ f_1(x)=f(x)+\int_0^cf(t)dt, \hspace{1zw} f_2(x)=f(x)+\int_0^cf_1(t)dt \]
 とおく．以下，関数$f_3(x)$，$f_4(x)$，$\cdots\cdots$を順次
 \[ f_n(x)=f(x)+\int_0^cf_{n-1}(t)dt \hspace{1zw} (n=3,4,\cdots\cdots) \]

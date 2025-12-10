@@ -3,6 +3,7 @@ title: "九州大学 1972年 1972_6"
 problem_id: "07_kyushu-1972-1972_6"
 university: "九州大学"
 exam_year: "1972"
+problem_number: 6
 source_tex: "archive/07_kyushu/1972/1972_6.tex"
 pdf_source: "archive/07_kyushu/1972/1972_6.pdf"
 page_image: "archive/07_kyushu/1972/1972_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　平面上を運動している動点$P$がある．
+平面上を運動している動点$P$がある．
 動き始めてから$t$時間後の動点$P$の$x$，$y$座標はそれぞれ
 $x=t^3-5t^2-4at+3$，$y=t^3+t^2+(8a-72)t+1$とする．
 ただし，$t\geqq0$，$a$は$t$に関係のない定数である．

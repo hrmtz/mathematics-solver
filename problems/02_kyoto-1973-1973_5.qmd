@@ -3,6 +3,7 @@ title: "京都大学 1973年 1973_5"
 problem_id: "02_kyoto-1973-1973_5"
 university: "京都大学"
 exam_year: "1973"
+problem_number: 5
 source_tex: "archive/02_kyoto/1973/1973_5.tex"
 pdf_source: "archive/02_kyoto/1973/1973_5.pdf"
 page_image: "archive/02_kyoto/1973/1973_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n$は自然数とし，$\displaystyle f(x)=1+\frac{x^2}{1\cdot2}+\frac{x^3}{2\cdot3}+\cdots\cdots+
+$n$は自然数とし，$\displaystyle f(x)=1+\frac{x^2}{1\cdot2}+\frac{x^3}{2\cdot3}+\cdots\cdots+
 \frac{x^{n+1}}{n(n+1)}$とする．
 このとき，$-1 \leqq x \leqq 1$において$1 \leqq f(x)<2$であることを証明せよ．
 

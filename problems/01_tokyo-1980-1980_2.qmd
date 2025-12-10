@@ -3,6 +3,7 @@ title: "東京大学 1980年 1980_2"
 problem_id: "01_tokyo-1980-1980_2"
 university: "東京大学"
 exam_year: "1980"
+problem_number: 2
 source_tex: "archive/01_tokyo/1980/1980_2.tex"
 pdf_source: "archive/01_tokyo/1980/1980_2.pdf"
 page_image: "archive/01_tokyo/1980/1980_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　長さ2の線分$NS$を直径とする球面$K$がある．
+長さ2の線分$NS$を直径とする球面$K$がある．
 点$S$において球面$K$に接する平面の上で，
 $S$を中心とする半径2の四分円(円周の$\displaystyle\frac{1}{4}$の長さをもつ円弧)
 $\stackrel{\frown}{AB}$と線分$AB$をあわせて得られる曲線上を，点$P$が1周する．

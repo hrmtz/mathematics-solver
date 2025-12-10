@@ -3,6 +3,7 @@ title: "東京大学 2002年 2002_7"
 problem_id: "01_tokyo-2002-2002_7"
 university: "東京大学"
 exam_year: "2002"
+problem_number: 1
 source_tex: "archive/01_tokyo/2002/2002_7.tex"
 pdf_source: "archive/01_tokyo/2002/2002_7.pdf"
 page_image: "archive/01_tokyo/2002/2002_7.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　実数全体で定義された関数$f(x)=xe^{-x^3}$を考える．
+実数全体で定義された関数$f(x)=xe^{-x^3}$を考える．
 \begin{description}
 \item[(1)]$f(x)$の増減・凹凸を調べ$f(x)$のグラフの概形を図示せよ．
 \item[(2)]正の数$C$に対して$y=f(x)$と$x$軸，および$x=C$で囲まれた領域を$D_1$とする．

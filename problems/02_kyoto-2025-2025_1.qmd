@@ -3,6 +3,7 @@ title: "京都大学 2025年 2025_1"
 problem_id: "02_kyoto-2025-2025_1"
 university: "京都大学"
 exam_year: "2025"
+problem_number: 1
 source_tex: "archive/02_kyoto/2025/2025_1.tex"
 pdf_source: "archive/02_kyoto/2025/2025_1.pdf"
 page_image: "archive/02_kyoto/2025/2025_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の各問に答えよ．
+次の各問に答えよ．
 \begin{description}
 \item[問1]$i$は虚数単位とする．複素数$z$が，絶対値が2である複素数全体を動くとき，
 $\displaystyle \left| z-\frac{i}{z} \right|$の最大値と最小値を求めよ．

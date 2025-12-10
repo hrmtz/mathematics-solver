@@ -3,6 +3,7 @@ title: "東京大学 2004年 2004_4"
 problem_id: "01_tokyo-2004-2004_4"
 university: "東京大学"
 exam_year: "2004"
+problem_number: 4
 source_tex: "archive/01_tokyo/2004/2004_4.tex"
 pdf_source: "archive/01_tokyo/2004/2004_4.pdf"
 page_image: "archive/01_tokyo/2004/2004_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f_n(x)$ $(n=1,2,3,\cdots)$を次のように定める．
+関数$f_n(x)$ $(n=1,2,3,\cdots)$を次のように定める．
 \[ f_1(x)=x^3-3x \hspace{1zw} f_2(x)= { \{ f_1(x) \} }^3-3f_1(x) \hspace{1zw} f_3(x)= { \{ f_2(x) \} }^3-3f_2(x) \]
 以下同様に，$n \geqq 3$に対して関数$f_n(x)$が定まったならば，
 関数$f_{n+1}(x)$を$f_{n+1}(x)={ \{ f_n(x) \} }^3-3f_n(x)$で定める．

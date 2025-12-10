@@ -3,6 +3,7 @@ title: "北海道大学 2003年 2003_4"
 problem_id: "03_hokudai-2003-2003_4"
 university: "北海道大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/03_hokudai/2003/2003_4.tex"
 pdf_source: "archive/03_hokudai/2003/2003_4.pdf"
 page_image: "archive/03_hokudai/2003/2003_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　点$P$は数直線上を原点$O$を出発点として，
+点$P$は数直線上を原点$O$を出発点として，
 確率がそれぞれ$\displaystyle\frac{1}{2}$で正の向きに1進み，または負の向きに1進むとする．
 $n$回移動したときの$P$の座標を$X(n)$で表す．
 \begin{description}

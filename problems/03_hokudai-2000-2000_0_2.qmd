@@ -3,6 +3,7 @@ title: "北海道大学 2000年 2000_0_2"
 problem_id: "03_hokudai-2000-2000_0_2"
 university: "北海道大学"
 exam_year: "2000"
+problem_number: 2
 source_tex: "archive/03_hokudai/2000/2000_0_2.tex"
 pdf_source: "archive/03_hokudai/2000/2000_0_2.pdf"
 page_image: "archive/03_hokudai/2000/2000_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　1から4までの番号を1つずつ書いた4枚のカードがある．
+1から4までの番号を1つずつ書いた4枚のカードがある．
 この中から1枚を抜き取り，番号を記録してもとに戻す．
 これを$n$回繰り返したとき，
 記録された$n$個の数の積が3の倍数である確率を$a_n$，

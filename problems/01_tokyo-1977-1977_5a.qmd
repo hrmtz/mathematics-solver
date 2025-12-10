@@ -3,6 +3,7 @@ title: "東京大学 1977年 1977_5a"
 problem_id: "01_tokyo-1977-1977_5a"
 university: "東京大学"
 exam_year: "1977"
+problem_number: 5
 source_tex: "archive/01_tokyo/1977/1977_5a.tex"
 pdf_source: "archive/01_tokyo/1977/1977_5a.pdf"
 page_image: "archive/01_tokyo/1977/1977_5a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 新
-　$\begin{pmatrix} 1 & 0 
+$\begin{pmatrix} 1 & 0 
 
  0 & 1 \end{pmatrix}=I$，
 $\begin{pmatrix} 0 & -1 

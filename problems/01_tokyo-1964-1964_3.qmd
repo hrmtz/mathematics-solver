@@ -3,6 +3,7 @@ title: "東京大学 1964年 1964_3"
 problem_id: "01_tokyo-1964-1964_3"
 university: "東京大学"
 exam_year: "1964"
+problem_number: 3
 source_tex: "archive/01_tokyo/1964/1964_3.tex"
 pdf_source: "archive/01_tokyo/1964/1964_3.pdf"
 page_image: "archive/01_tokyo/1964/1964_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　点$V$を頂点とし，正方形$ABCD$を底面とする四角錐$V\cdot ABCD$があって，
+点$V$を頂点とし，正方形$ABCD$を底面とする四角錐$V\cdot ABCD$があって，
 その4つの側面はいずれも底辺20cm,高さ40cmの二等辺三角形である．
 　辺$VA$上に$VP:PA=3:1$なる点$P$をとり，
 3点$P$，$B$，$C$を通る平面でこの四角錐を切るとき，切り口の面積を求めよ．

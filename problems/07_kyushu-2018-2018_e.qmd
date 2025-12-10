@@ -3,6 +3,7 @@ title: "九州大学 2018年 2018_e"
 problem_id: "07_kyushu-2018-2018_e"
 university: "九州大学"
 exam_year: "2018"
+problem_number: 5
 source_tex: "archive/07_kyushu/2018/2018_e.tex"
 pdf_source: "archive/07_kyushu/2018/2018_e.pdf"
 page_image: "archive/07_kyushu/2018/2018_e.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　2つの関数$f(x)$，$g(x)$をそれぞれ$f(x)=(a+1)x$，$g(x)=ax^2$とする。
+2つの関数$f(x)$，$g(x)$をそれぞれ$f(x)=(a+1)x$，$g(x)=ax^2$とする。
 ただし，$a$は正の実数とする。以下の問いに答えよ。
 \begin{description}
 \item[(1)]$y=f(x)$のグラフと$y=g(x)$のグラフで囲まれた図形を座標平面上に図示せよ。

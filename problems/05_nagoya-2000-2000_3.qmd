@@ -3,6 +3,7 @@ title: "名古屋大学 2000年 2000_3"
 problem_id: "05_nagoya-2000-2000_3"
 university: "名古屋大学"
 exam_year: "2000"
+problem_number: 3
 source_tex: "archive/05_nagoya/2000/2000_3.tex"
 pdf_source: "archive/05_nagoya/2000/2000_3.pdf"
 page_image: "archive/05_nagoya/2000/2000_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　図のように，平面上に点$A_0, \, A_1, \, A_2, \, \cdots\cdots$
+図のように，平面上に点$A_0, \, A_1, \, A_2, \, \cdots\cdots$
 および$B_0, \, B_1, \, B_2, \, \cdots\cdots$が並んでいる．
 点$P$は$A_0$から出発し，次の規則に従いこれらの点の上を移動する．
 　$P$が$A_n$にいるときには1秒後に$A_{n+1}$または$B_n$に，

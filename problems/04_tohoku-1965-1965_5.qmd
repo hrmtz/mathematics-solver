@@ -3,6 +3,7 @@ title: "東北大学 1965年 1965_5"
 problem_id: "04_tohoku-1965-1965_5"
 university: "東北大学"
 exam_year: "1965"
+problem_number: 5
 source_tex: "archive/04_tohoku/1965/1965_5.tex"
 pdf_source: "archive/04_tohoku/1965/1965_5.pdf"
 page_image: "archive/04_tohoku/1965/1965_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$\triangle A_1B_1C_1$の内接円が辺$B_1C_1$，$C_1A_1$，$A_1B_1$と接する点をそれぞれ$A_2$，$B_2$，$C_2$とする。
+$\triangle A_1B_1C_1$の内接円が辺$B_1C_1$，$C_1A_1$，$A_1B_1$と接する点をそれぞれ$A_2$，$B_2$，$C_2$とする。
 以下$n=2, \, 3, \, 4, \, \cdots\cdots$として順に，
 $\triangle A_nB_nC_n$の内接円が辺$B_nC_n$，$C_nA_n$，$A_nB_n$と接する点をそれぞれ$A_{n+1}$，$B_{n+1}$，$C_{n+1}$とする。
 $\triangle A_nB_nC_n$の内角$A_n$，$B_n$，$C_n$の大きさをそれぞれ$\alpha_n$，$\beta_n$，$\gamma_n$とし，

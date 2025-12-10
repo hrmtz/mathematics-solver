@@ -3,6 +3,7 @@ title: "東京科学大学 1994年 1994_3"
 problem_id: "08_titech-1994-1994_3"
 university: "東京科学大学"
 exam_year: "1994"
+problem_number: 3
 source_tex: "archive/08_titech/1994/1994_3.tex"
 pdf_source: "archive/08_titech/1994/1994_3.pdf"
 page_image: "archive/08_titech/1994/1994_3.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]定積分$\displaystyle \int_0^\pi e^{-x} \sin x dx$を求めよ．
 \item[(2)]極限値$\displaystyle \lim_{n\to\infty} \int_0^{n\pi} e^{-x} |\sin x| dx$を求めよ．

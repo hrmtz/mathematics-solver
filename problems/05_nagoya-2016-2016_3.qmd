@@ -3,6 +3,7 @@ title: "名古屋大学 2016年 2016_3"
 problem_id: "05_nagoya-2016-2016_3"
 university: "名古屋大学"
 exam_year: "2016"
+problem_number: 3
 source_tex: "archive/05_nagoya/2016/2016_3.tex"
 pdf_source: "archive/05_nagoya/2016/2016_3.pdf"
 page_image: "archive/05_nagoya/2016/2016_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　玉が2個ずつ入った2つの袋A，Bがあるとき，
+玉が2個ずつ入った2つの袋A，Bがあるとき，
 袋Bから玉を1個取り出して袋Aに入れ，次に袋Aから玉を1個取り出して袋Bに入れる，
 という操作を1回の操作と数えることにする。
 Aに赤玉が2個，Bに白玉が2個入った状態から始め，

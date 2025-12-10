@@ -3,6 +3,7 @@ title: "名古屋大学 2003年 2003_3"
 problem_id: "05_nagoya-2003-2003_3"
 university: "名古屋大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/05_nagoya/2003/2003_3.tex"
 pdf_source: "archive/05_nagoya/2003/2003_3.pdf"
 page_image: "archive/05_nagoya/2003/2003_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　サイコロを$n$回投げて，3の倍数が$k$回出る確率を$P_n(k)$とする．
+サイコロを$n$回投げて，3の倍数が$k$回出る確率を$P_n(k)$とする．
 各$n$について，$P_n(k)$を最大にする$k$を$N(n)$とする．
 ただし，このような$k$が複数あるときは，
 最も大きいものを$N(n)$とする．

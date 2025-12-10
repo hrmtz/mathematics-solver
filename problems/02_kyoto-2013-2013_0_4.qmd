@@ -3,6 +3,7 @@ title: "京都大学 2013年 2013_0_4"
 problem_id: "02_kyoto-2013-2013_0_4"
 university: "京都大学"
 exam_year: "2013"
+problem_number: 4
 source_tex: "archive/02_kyoto/2013/2013_0_4.tex"
 pdf_source: "archive/02_kyoto/2013/2013_0_4.pdf"
 page_image: "archive/02_kyoto/2013/2013_0_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$\alpha$，$\beta$を実数とする．
+$\alpha$，$\beta$を実数とする．
 $xy$平面内で，点$(0, \, 3)$を中心とする円$C$と放物線
 \[ y=-\frac{x^2}{3}+\alpha x-\beta \]
 が点$P(\sqrt3, \, 0)$を共有し，さらに$P$における接線が一致している．

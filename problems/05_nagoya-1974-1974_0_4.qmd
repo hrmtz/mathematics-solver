@@ -3,6 +3,7 @@ title: "名古屋大学 1974年 1974_0_4"
 problem_id: "05_nagoya-1974-1974_0_4"
 university: "名古屋大学"
 exam_year: "1974"
+problem_number: 4
 source_tex: "archive/05_nagoya/1974/1974_0_4.tex"
 pdf_source: "archive/05_nagoya/1974/1974_0_4.pdf"
 page_image: "archive/05_nagoya/1974/1974_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$z$を複素数，$|z|$，$\overline{z}$をそれぞれの絶対値，共役複素数とする．
+$z$を複素数，$|z|$，$\overline{z}$をそれぞれの絶対値，共役複素数とする．
 $f(z)=\overline{z}$，$g(z)=iz$に対して次の(1)，(2)，(3)を証明せよ．
 \begin{description}
 \item[(1)]$g(f(z))=-f(g(z))$

@@ -3,6 +3,7 @@ title: "九州大学 1991年 1991_1"
 problem_id: "07_kyushu-1991-1991_1"
 university: "九州大学"
 exam_year: "1991"
+problem_number: 1
 source_tex: "archive/07_kyushu/1991/1991_1.tex"
 pdf_source: "archive/07_kyushu/1991/1991_1.pdf"
 page_image: "archive/07_kyushu/1991/1991_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　1辺の長さ$x$の正方形$ABCD$の中心を$O$とし，
+1辺の長さ$x$の正方形$ABCD$の中心を$O$とし，
 $O$を通りこの正方形に垂直な直線上に頂点$E$をもつ四角錐$ABCDE$を考える．
 \begin{description}
 \item[(1)]半径1の球がこの四角錐に内接しているとき，高さ$\overline{EO}$を$x$で表せ．

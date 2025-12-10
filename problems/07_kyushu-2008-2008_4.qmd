@@ -3,6 +3,7 @@ title: "九州大学 2008年 2008_4"
 problem_id: "07_kyushu-2008-2008_4"
 university: "九州大学"
 exam_year: "2008"
+problem_number: 4
 source_tex: "archive/07_kyushu/2008/2008_4.tex"
 pdf_source: "archive/07_kyushu/2008/2008_4.pdf"
 page_image: "archive/07_kyushu/2008/2008_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$a>0$に対して，$f(x)=a+\log x$ $(x>0)$，$g(x)=\sqrt{x-1}$ $(x\geqq1)$とおく．
+$a>0$に対して，$f(x)=a+\log x$ $(x>0)$，$g(x)=\sqrt{x-1}$ $(x\geqq1)$とおく．
 2曲線$y=f(x)$，$y=g(x)$が，ある点$P$を共有し，その点で共通の接線$l$を持つとする．
 このとき，次の問いに答えよ．
 \begin{description}

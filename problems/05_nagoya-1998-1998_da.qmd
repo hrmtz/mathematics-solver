@@ -3,6 +3,7 @@ title: "名古屋大学 1998年 1998_da"
 problem_id: "05_nagoya-1998-1998_da"
 university: "名古屋大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/05_nagoya/1998/1998_da.tex"
 pdf_source: "archive/05_nagoya/1998/1998_da.pdf"
 page_image: "archive/05_nagoya/1998/1998_da.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-4 (a)
 \begin{description}
 \item[(1)]複素数0，$i$，$1+i$および$z$を表す複素数平面上の点をそれぞれ$A$，$B$，$C$および$P$とする．
 点$P$が三角形$ABC$の辺上を1周するとき，

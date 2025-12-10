@@ -3,6 +3,7 @@ title: "東京大学 2006年 2006_6"
 problem_id: "01_tokyo-2006-2006_6"
 university: "東京大学"
 exam_year: "2006"
+problem_number: 6
 source_tex: "archive/01_tokyo/2006/2006_6.tex"
 pdf_source: "archive/01_tokyo/2006/2006_6.pdf"
 page_image: "archive/01_tokyo/2006/2006_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　$x>0$を定義域とする関数$\displaystyle f(x)=\frac{12(e^{3x}-3e^x)}{e^{2x}-1}$について，以下の問いに答えよ．
+$x>0$を定義域とする関数$\displaystyle f(x)=\frac{12(e^{3x}-3e^x)}{e^{2x}-1}$について，以下の問いに答えよ．
 \begin{description}
 \item[(1)]関数$y=f(x)$ $(x>0)$は，実数全体を定義域とする逆関数を持つことを示せ．
 すなわち，任意の実数$a$に対して，$f(x)=a$となる$x>0$がただ1つ存在することを示せ．

@@ -3,6 +3,7 @@ title: "大阪大学 2007年 2007_a"
 problem_id: "06_osaka-2007-2007_a"
 university: "大阪大学"
 exam_year: "2007"
+problem_number: 1
 source_tex: "archive/06_osaka/2007/2007_a.tex"
 pdf_source: "archive/06_osaka/2007/2007_a.pdf"
 page_image: "archive/06_osaka/2007/2007_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　自然数$r$と負でない整数$a_1, \, a_2, \, \cdots, \, a_r$が次の4つの条件を満たすとする．
+自然数$r$と負でない整数$a_1, \, a_2, \, \cdots, \, a_r$が次の4つの条件を満たすとする．
 \[ \text{\ding{"AC}} \hspace{1zw} r\geqq3 \hspace{1zw}
 \text{\ding{"AD}} \hspace{1zw} \sum_{k=1}^rka_k=24 \hspace{1zw}
 \text{\ding{"AE}} \hspace{1zw} a_1+a_2+\cdots+a_r\geqq20 \hspace{1zw}

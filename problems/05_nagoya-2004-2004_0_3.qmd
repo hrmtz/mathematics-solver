@@ -3,6 +3,7 @@ title: "名古屋大学 2004年 2004_0_3"
 problem_id: "05_nagoya-2004-2004_0_3"
 university: "名古屋大学"
 exam_year: "2004"
+problem_number: 3
 source_tex: "archive/05_nagoya/2004/2004_0_3.tex"
 pdf_source: "archive/05_nagoya/2004/2004_0_3.pdf"
 page_image: "archive/05_nagoya/2004/2004_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$i$を虚数単位とする．
+$i$を虚数単位とする．
 　$z_1=3$および，漸化式$z_{n+1}=(1+i)z_n+i$ $(n\geqq1)$によって定まる複素数からなる数列$\{ z_n \}$について，
 以下の問いに答えよ．
 \begin{description}

@@ -3,6 +3,7 @@ title: "東京大学 1965年 1965_3"
 problem_id: "01_tokyo-1965-1965_3"
 university: "東京大学"
 exam_year: "1965"
+problem_number: 3
 source_tex: "archive/01_tokyo/1965/1965_3.tex"
 pdf_source: "archive/01_tokyo/1965/1965_3.pdf"
 page_image: "archive/01_tokyo/1965/1965_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　直線$l$は双曲線$xy=1$の第一象限にある部分に接し，
+直線$l$は双曲線$xy=1$の第一象限にある部分に接し，
 $l$と$x$軸との交点の$x$座標は2より小さくないとする．
 　この条件のもとで$l$が変動するとき，
 四直線$l$，$y=0$，$x=1$および$x=2$で囲まれる部分の面積の最大値を求めよ．

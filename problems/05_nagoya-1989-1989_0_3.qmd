@@ -3,6 +3,7 @@ title: "名古屋大学 1989年 1989_0_3"
 problem_id: "05_nagoya-1989-1989_0_3"
 university: "名古屋大学"
 exam_year: "1989"
+problem_number: 3
 source_tex: "archive/05_nagoya/1989/1989_0_3.tex"
 pdf_source: "archive/05_nagoya/1989/1989_0_3.pdf"
 page_image: "archive/05_nagoya/1989/1989_0_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$A=\begin{pmatrix} a & b 
 

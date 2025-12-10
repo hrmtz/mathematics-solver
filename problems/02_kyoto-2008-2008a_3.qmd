@@ -3,6 +3,7 @@ title: "京都大学 2008年 2008a_3"
 problem_id: "02_kyoto-2008-2008a_3"
 university: "京都大学"
 exam_year: "2008"
+problem_number: 3
 source_tex: "archive/02_kyoto/2008/2008a_3.tex"
 pdf_source: "archive/02_kyoto/2008/2008a_3.pdf"
 page_image: "archive/02_kyoto/2008/2008a_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$AB=AC$である二等辺三角形$ABC$を考える．
+$AB=AC$である二等辺三角形$ABC$を考える．
 辺$AB$の中点を$M$とし，辺$AB$を延長した直線上に点$N$を，$AN:NB=2:1$となるようにとる．
 このとき$\angle BCM = \angle BCN$となることを示せ．
 ただし，点$N$は辺$AB$上にはないものとする．

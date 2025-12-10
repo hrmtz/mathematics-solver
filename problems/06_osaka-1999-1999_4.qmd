@@ -3,6 +3,7 @@ title: "大阪大学 1999年 1999_4"
 problem_id: "06_osaka-1999-1999_4"
 university: "大阪大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/06_osaka/1999/1999_4.tex"
 pdf_source: "archive/06_osaka/1999/1999_4.pdf"
 page_image: "archive/06_osaka/1999/1999_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$xyz$空間内に2つの立体$K$と$L$がある．
+$xyz$空間内に2つの立体$K$と$L$がある．
 どのような$a$に対しても，平面$z=a$による立体$K$の切り口は3点
 $(0, \, 0, \, a)$，$(1, \, 0, \, a)$，
 $\displaystyle\left(\frac{1}{2}, \, \frac{\sqrt3}{2}, \, a \right)$を頂点とする正三角形である．

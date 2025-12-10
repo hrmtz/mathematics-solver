@@ -3,6 +3,7 @@ title: "東京大学 1961年 1961_1"
 problem_id: "01_tokyo-1961-1961_1"
 university: "東京大学"
 exam_year: "1961"
+problem_number: 1
 source_tex: "archive/01_tokyo/1961/1961_1.tex"
 pdf_source: "archive/01_tokyo/1961/1961_1.pdf"
 page_image: "archive/01_tokyo/1961/1961_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　点$O$で60$^\circ$の角をなす半直線$OX$，$OY$と$\angle XOY$の二等分線$OZ$があり，
+点$O$で60$^\circ$の角をなす半直線$OX$，$OY$と$\angle XOY$の二等分線$OZ$があり，
 $OX$，$OY$上に$O$から1cmの距離にそれぞれ点$A$，$B$がある．
 いま動点$P$，$Q$，$R$がそれぞれ$A$，$O$，$B$から同時に出発して
 半直線$OX$，$OZ$，$OY$上をそれぞれ毎秒1cm，$\sqrt3$cm，2cmの速さで$O$から遠ざかる．

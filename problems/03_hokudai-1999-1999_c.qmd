@@ -3,6 +3,7 @@ title: "北海道大学 1999年 1999_c"
 problem_id: "03_hokudai-1999-1999_c"
 university: "北海道大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/03_hokudai/1999/1999_c.tex"
 pdf_source: "archive/03_hokudai/1999/1999_c.pdf"
 page_image: "archive/03_hokudai/1999/1999_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　3辺の長さがいずれも整数値であるような直角三角形を考える．
+3辺の長さがいずれも整数値であるような直角三角形を考える．
  
 
 ![](../archive/03_hokudai/1999/fig_1999_c.jpg)

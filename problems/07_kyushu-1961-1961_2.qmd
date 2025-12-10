@@ -3,6 +3,7 @@ title: "九州大学 1961年 1961_2"
 problem_id: "07_kyushu-1961-1961_2"
 university: "九州大学"
 exam_year: "1961"
+problem_number: 2
 source_tex: "archive/07_kyushu/1961/1961_2.tex"
 pdf_source: "archive/07_kyushu/1961/1961_2.pdf"
 page_image: "archive/07_kyushu/1961/1961_2.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]定線分$AB$がある。$AC:BC=2:1$であるような点$C$のなかで，
 三角形$ABC$の面積を最大にするものの作図法を述べよ。（証明不要）

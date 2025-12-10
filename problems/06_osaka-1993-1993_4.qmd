@@ -3,6 +3,7 @@ title: "大阪大学 1993年 1993_4"
 problem_id: "06_osaka-1993-1993_4"
 university: "大阪大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/06_osaka/1993/1993_4.tex"
 pdf_source: "archive/06_osaka/1993/1993_4.pdf"
 page_image: "archive/06_osaka/1993/1993_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　1から$N$までの番号を書いたボールが1個ずつ入った袋の中から
+1から$N$までの番号を書いたボールが1個ずつ入った袋の中から
 無作為にボールを1個取り出す試行を考える．
 ただし，取り出したボールは番号を記録したのち袋に戻すものとする．
 　いま$A$，$B$ふたりの人がいて，$A$が5回，$B$が1回この試行を行う．

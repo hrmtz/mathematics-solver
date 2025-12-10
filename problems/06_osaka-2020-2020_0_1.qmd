@@ -3,6 +3,7 @@ title: "大阪大学 2020年 2020_0_1"
 problem_id: "06_osaka-2020-2020_0_1"
 university: "大阪大学"
 exam_year: "2020"
+problem_number: 1
 source_tex: "archive/06_osaka/2020/2020_0_1.tex"
 pdf_source: "archive/06_osaka/2020/2020_0_1.pdf"
 page_image: "archive/06_osaka/2020/2020_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$を$0 \leqq a<2\pi$を満たす実数とする．関数
+$a$を$0 \leqq a<2\pi$を満たす実数とする．関数
 \[ f(x)=2x^3-(6+3\sin a)x^2+(12\sin a)x+\sin^3 a+6\sin a+5 \]
 について，以下の問いに答えよ．
 \begin{description}

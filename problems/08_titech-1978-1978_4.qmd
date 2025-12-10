@@ -3,6 +3,7 @@ title: "東京科学大学 1978年 1978_4"
 problem_id: "08_titech-1978-1978_4"
 university: "東京科学大学"
 exam_year: "1978"
+problem_number: 4
 source_tex: "archive/08_titech/1978/1978_4.tex"
 pdf_source: "archive/08_titech/1978/1978_4.pdf"
 page_image: "archive/08_titech/1978/1978_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　数列$a_1, \, a_2, \, \cdots\cdots, \, a_n, \, \cdots\cdots$の隣り合った2項$a_n$，$a_{n+1}$は
+数列$a_1, \, a_2, \, \cdots\cdots, \, a_n, \, \cdots\cdots$の隣り合った2項$a_n$，$a_{n+1}$は
 2次方程式$x^2+3nx+C_n=0$の2つの解である$(n=1, \, 2, \, \cdots\cdots)$．
 $a_1=1$のとき$\displaystyle\sum_{n=1}^{2p}C_n$を求めよ．
 

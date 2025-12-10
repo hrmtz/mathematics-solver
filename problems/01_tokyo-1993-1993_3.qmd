@@ -3,6 +3,7 @@ title: "東京大学 1993年 1993_3"
 problem_id: "01_tokyo-1993-1993_3"
 university: "東京大学"
 exam_year: "1993"
+problem_number: 3
 source_tex: "archive/01_tokyo/1993/1993_3.tex"
 pdf_source: "archive/01_tokyo/1993/1993_3.pdf"
 page_image: "archive/01_tokyo/1993/1993_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$xy$平面内に次の二つの集合$l$，$m$を考える．
+$xy$平面内に次の二つの集合$l$，$m$を考える．
 \[ l=\{(-5,y)|-5<y<5\}, \hspace{1zw} m=\{(5,y)|-5<y<5\} \]
 $l$，$m$上にない2点$A$，$B$に対し，
 $A$，$B$を$l$，$m$と交らない線分又は折れ線で結ぶときの経路の長さの最小値を$d(A,B)$で表す．

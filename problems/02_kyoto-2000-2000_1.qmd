@@ -3,6 +3,7 @@ title: "京都大学 2000年 2000_1"
 problem_id: "02_kyoto-2000-2000_1"
 university: "京都大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/02_kyoto/2000/2000_1.tex"
 pdf_source: "archive/02_kyoto/2000/2000_1.pdf"
 page_image: "archive/02_kyoto/2000/2000_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　円に内接する四角形$ABPC$は次の条件(イ)，(ロ)を満たすとする．
+円に内接する四角形$ABPC$は次の条件(イ)，(ロ)を満たすとする．
 \begin{description}
 \item[(イ)]三角形$ABC$は正三角形である．
 \item[(ロ)]$AP$と$BC$の交点は線分$BC$を$p:1-p$ $(0<p<1)$の比に内分する．

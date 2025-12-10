@@ -3,6 +3,7 @@ title: "大阪大学 1993年 1993_b"
 problem_id: "06_osaka-1993-1993_b"
 university: "大阪大学"
 exam_year: "1993"
+problem_number: 2
 source_tex: "archive/06_osaka/1993/1993_b.tex"
 pdf_source: "archive/06_osaka/1993/1993_b.pdf"
 page_image: "archive/06_osaka/1993/1993_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　1辺の長さ1の正方形$ABCD$を底面とする四角錐$EABCD$の4つの側面
+1辺の長さ1の正方形$ABCD$を底面とする四角錐$EABCD$の4つの側面
 $EAB$，$EBC$，$ECD$，$EDA$がいずれも正三角形であるとする．
 　辺$AD$の中点を$M$，辺$BC$の中点を$N$とする．
 辺$AE$上に$A$，$E$と異なる点$P$をとり，

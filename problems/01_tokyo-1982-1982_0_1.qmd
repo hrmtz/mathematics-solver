@@ -3,6 +3,7 @@ title: "東京大学 1982年 1982_0_1"
 problem_id: "01_tokyo-1982-1982_0_1"
 university: "東京大学"
 exam_year: "1982"
+problem_number: 1
 source_tex: "archive/01_tokyo/1982/1982_0_1.tex"
 pdf_source: "archive/01_tokyo/1982/1982_0_1.pdf"
 page_image: "archive/01_tokyo/1982/1982_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　平面上に2定点$A$，$B$があり，線分$AB$の長さ$\overline{AB}$は$2(\sqrt3+1)$である．
+平面上に2定点$A$，$B$があり，線分$AB$の長さ$\overline{AB}$は$2(\sqrt3+1)$である．
 この平面上を動く3点$P$，$Q$，$R$があって，つねに
 \[ \overline{AP}=\overline{PQ}=2, \hspace{1zw} \overline{QR}=\overline{RB}=\sqrt2 \]
 なる長さを保ちながら動いている．

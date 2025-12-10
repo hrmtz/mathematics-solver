@@ -3,6 +3,7 @@ title: "名古屋大学 2002年 2002_c"
 problem_id: "05_nagoya-2002-2002_c"
 university: "名古屋大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/05_nagoya/2002/2002_c.tex"
 pdf_source: "archive/05_nagoya/2002/2002_c.pdf"
 page_image: "archive/05_nagoya/2002/2002_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　関数$f(x)=3x+6\sin x$は区間$0 \leqq x \leqq 2\pi$で2つの極値$f(a)$，$f(b)$ $(a<b)$をもつ．
+関数$f(x)=3x+6\sin x$は区間$0 \leqq x \leqq 2\pi$で2つの極値$f(a)$，$f(b)$ $(a<b)$をもつ．
 また，$y=g(x)$を点$(b, \, f(b))$を通る傾き3の直線とする．つぎの各問に答えよ．
 \begin{description}
 \item[(1)]$f(a)$および$f(b)$を求めよ．

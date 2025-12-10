@@ -3,6 +3,7 @@ title: "名古屋大学 1997年 1997_4b"
 problem_id: "05_nagoya-1997-1997_4b"
 university: "名古屋大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/05_nagoya/1997/1997_4b.tex"
 pdf_source: "archive/05_nagoya/1997/1997_4b.pdf"
 page_image: "archive/05_nagoya/1997/1997_4b.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-4 (b)
 \begin{description}
 \item[(1)]多項式$f(x)=x^3+ax^2+bx+c$（$a$，$b$，$c$は実数）を考える．
 $f(-1)$，$f(0)$，$f(1)$がすべて整数ならば，

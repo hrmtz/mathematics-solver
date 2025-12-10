@@ -3,6 +3,7 @@ title: "京都大学 1967年 1967_5a"
 problem_id: "02_kyoto-1967-1967_5a"
 university: "京都大学"
 exam_year: "1967"
+problem_number: 5
 source_tex: "archive/02_kyoto/1967/1967_5a.tex"
 pdf_source: "archive/02_kyoto/1967/1967_5a.pdf"
 page_image: "archive/02_kyoto/1967/1967_5a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 新
-　以下は平面内の問題である．
+以下は平面内の問題である．
 $O$，$A$，$B$，$C$は定点で，$A$，$B$，$C$は1直線上にないものとする．
 \begin{description}
 \item[(i)]点$P$が直線$AB$上にあるための必要十分条件は

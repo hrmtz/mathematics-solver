@@ -3,6 +3,7 @@ title: "北海道大学 2004年 2004_0_1"
 problem_id: "03_hokudai-2004-2004_0_1"
 university: "北海道大学"
 exam_year: "2004"
+problem_number: 1
 source_tex: "archive/03_hokudai/2004/2004_0_1.tex"
 pdf_source: "archive/03_hokudai/2004/2004_0_1.pdf"
 page_image: "archive/03_hokudai/2004/2004_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　正の実数$a$に対し，$\displaystyle x=a+\frac{1}{a}$，$\displaystyle y=a-\frac{1}{a}$とおく．
+正の実数$a$に対し，$\displaystyle x=a+\frac{1}{a}$，$\displaystyle y=a-\frac{1}{a}$とおく．
 このとき$x^8-y^8$が最小となる$a$の値と，その最小値を求めよ．
 
 ---

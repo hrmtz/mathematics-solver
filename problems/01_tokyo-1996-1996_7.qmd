@@ -3,6 +3,7 @@ title: "東京大学 1996年 1996_7"
 problem_id: "01_tokyo-1996-1996_7"
 university: "東京大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/01_tokyo/1996/1996_7.tex"
 pdf_source: "archive/01_tokyo/1996/1996_7.pdf"
 page_image: "archive/01_tokyo/1996/1996_7.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$n$を正の整数とし，$n$個のボールを3つの箱に分けて入れる問題を考える．
+$n$を正の整数とし，$n$個のボールを3つの箱に分けて入れる問題を考える．
 ただし，1個のボールも入らない箱があってもよいものとする．
 以下に述べる4つの場合について，それぞれ相異なる入れ方の総数を求めたい．
 \begin{description}

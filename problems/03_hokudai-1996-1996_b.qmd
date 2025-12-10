@@ -3,6 +3,7 @@ title: "北海道大学 1996年 1996_b"
 problem_id: "03_hokudai-1996-1996_b"
 university: "北海道大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/03_hokudai/1996/1996_b.tex"
 pdf_source: "archive/03_hokudai/1996/1996_b.pdf"
 page_image: "archive/03_hokudai/1996/1996_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$0<a \leqq b$とし，平面$ax+ay+bz=1$と平面$z=0$のなす角を$\alpha$とする．
+$0<a \leqq b$とし，平面$ax+ay+bz=1$と平面$z=0$のなす角を$\alpha$とする．
 平面$ax+ay+bz=1$と集合$\{ (x, \, y, \, z)|x\geqq0, \, y\geqq0, \, z\geqq0 \}$との
 共通部分の作る三角形の最大の内角を$\beta$とする．
 \begin{description}

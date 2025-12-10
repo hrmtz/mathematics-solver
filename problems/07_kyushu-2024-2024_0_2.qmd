@@ -3,6 +3,7 @@ title: "九州大学 2024年 2024_0_2"
 problem_id: "07_kyushu-2024-2024_0_2"
 university: "九州大学"
 exam_year: "2024"
+problem_number: 2
 source_tex: "archive/07_kyushu/2024/2024_0_2.tex"
 pdf_source: "archive/07_kyushu/2024/2024_0_2.pdf"
 page_image: "archive/07_kyushu/2024/2024_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標平面上の原点$O(0, \, 0)$，点$A(2, \, 1)$を考える。
+座標平面上の原点$O(0, \, 0)$，点$A(2, \, 1)$を考える。
 点$B$は第1象限にあり，$|\overrightarrow{OB}|=\sqrt{10}$，
 $\overrightarrow{OA}\perp\overrightarrow{AB}$をみたすとする。以下の問いに答えよ。
 \begin{description}

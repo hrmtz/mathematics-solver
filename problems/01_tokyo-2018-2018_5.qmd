@@ -3,6 +3,7 @@ title: "東京大学 2018年 2018_5"
 problem_id: "01_tokyo-2018-2018_5"
 university: "東京大学"
 exam_year: "2018"
+problem_number: 5
 source_tex: "archive/01_tokyo/2018/2018_5.tex"
 pdf_source: "archive/01_tokyo/2018/2018_5.pdf"
 page_image: "archive/01_tokyo/2018/2018_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　複素数平面上の原点を中心とする半径1の円を$C$とする。
+複素数平面上の原点を中心とする半径1の円を$C$とする。
 点$P(z)$は$C$上にあり，点$A(1)$とは異なるとする。
 点$P$における円$C$の接線に関して，点$A$と対称な点を$Q(u)$とする。
 $\displaystyle w=\frac{1}{1-u}$とおき，$w$と共役な複素数を$\overline{w}$で表す。

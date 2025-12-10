@@ -3,6 +3,7 @@ title: "東北大学 1978年 1978_1"
 problem_id: "04_tohoku-1978-1978_1"
 university: "東北大学"
 exam_year: "1978"
+problem_number: 1
 source_tex: "archive/04_tohoku/1978/1978_1.tex"
 pdf_source: "archive/04_tohoku/1978/1978_1.pdf"
 page_image: "archive/04_tohoku/1978/1978_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　正8角形$A$の辺と，対角線（ないしその一部分）とでつくられる多角形について，
+正8角形$A$の辺と，対角線（ないしその一部分）とでつくられる多角形について，
 次のものの個数を求めよ．
 \begin{description}
 \item[(1)]3つの頂点がすべて$A$の頂点である3角形．

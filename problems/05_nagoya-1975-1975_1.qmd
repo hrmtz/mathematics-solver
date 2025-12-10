@@ -3,6 +3,7 @@ title: "名古屋大学 1975年 1975_1"
 problem_id: "05_nagoya-1975-1975_1"
 university: "名古屋大学"
 exam_year: "1975"
+problem_number: 1
 source_tex: "archive/05_nagoya/1975/1975_1.tex"
 pdf_source: "archive/05_nagoya/1975/1975_1.pdf"
 page_image: "archive/05_nagoya/1975/1975_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の(1)，(2)を解答せよ．
+次の(1)，(2)を解答せよ．
 \begin{description}
 \item[(1)]$\log_2 3$と$\log_3 4$の大小を比較せよ．
 \item[(2)]$\displaystyle\cos\frac{2}{9}\pi+\cos\frac{4}{9}\pi+\cos\frac{8}{9}\pi+

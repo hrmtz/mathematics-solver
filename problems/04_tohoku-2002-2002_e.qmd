@@ -3,6 +3,7 @@ title: "東北大学 2002年 2002_e"
 problem_id: "04_tohoku-2002-2002_e"
 university: "東北大学"
 exam_year: "2002"
+problem_number: 5
 source_tex: "archive/04_tohoku/2002/2002_e.tex"
 pdf_source: "archive/04_tohoku/2002/2002_e.pdf"
 page_image: "archive/04_tohoku/2002/2002_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$n$を自然数とする．$xy$平面の$x$軸上の区間$[p, \, q]$を$2^n$等分し，
+$n$を自然数とする．$xy$平面の$x$軸上の区間$[p, \, q]$を$2^n$等分し，
 $k$番目の分点の$x$座標を$p_k$とする．すなわち，
 \[ p_0=p, \hspace{1zw} p_{2^n}=q, \hspace{1zw}
 p_k-p_{k-1}=\frac{q-p}{2^n} \hspace{1zw} (k=1, \, 2, \, \cdots\cdots, \, 2^n) \]

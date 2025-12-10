@@ -3,6 +3,7 @@ title: "東京大学 1990年 1990_6"
 problem_id: "01_tokyo-1990-1990_6"
 university: "東京大学"
 exam_year: "1990"
+problem_number: 6
 source_tex: "archive/01_tokyo/1990/1990_6.tex"
 pdf_source: "archive/01_tokyo/1990/1990_6.pdf"
 page_image: "archive/01_tokyo/1990/1990_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　一つのサイコロを続けて投げて，
+一つのサイコロを続けて投げて，
 最初の$n$回に出た目の数をその順序のまま小数点以下に並べてできる実数を$a_n$とおく．
 たとえば，
 出た目の数が$5,2,6,\cdots\cdots$であれば，

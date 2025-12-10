@@ -3,6 +3,7 @@ title: "東京科学大学 1985年 1985_2"
 problem_id: "08_titech-1985-1985_2"
 university: "東京科学大学"
 exam_year: "1985"
+problem_number: 2
 source_tex: "archive/08_titech/1985/1985_2.tex"
 pdf_source: "archive/08_titech/1985/1985_2.pdf"
 page_image: "archive/08_titech/1985/1985_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　空間において，6枚の平面$x=0$，$x=1$，$y=0$，$y=2$，$z=0$，$z=3$で囲まれてできる直方体を$V$とする．
+空間において，6枚の平面$x=0$，$x=1$，$y=0$，$y=2$，$z=0$，$z=3$で囲まれてできる直方体を$V$とする．
 $0<t<3$である実数$t$に対し，
 平面$\displaystyle x+\frac{y}{2}+\frac{z}{3}=t$で$V$を2分したとき，
 小さいほうの体積（等しいときは，どちらでもよい）を$f(t)$とする．

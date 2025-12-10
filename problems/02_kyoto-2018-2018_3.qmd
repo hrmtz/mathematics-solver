@@ -3,6 +3,7 @@ title: "京都大学 2018年 2018_3"
 problem_id: "02_kyoto-2018-2018_3"
 university: "京都大学"
 exam_year: "2018"
+problem_number: 3
 source_tex: "archive/02_kyoto/2018/2018_3.tex"
 pdf_source: "archive/02_kyoto/2018/2018_3.pdf"
 page_image: "archive/02_kyoto/2018/2018_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$\alpha$は$\displaystyle0<\alpha\leqq\frac{\pi}{2}$を満たす定数とし，
+$\alpha$は$\displaystyle0<\alpha\leqq\frac{\pi}{2}$を満たす定数とし，
 四角形$ABCD$に関する次の2つの条件を考える．
 \begin{description}
 \item[(i)]四角形$ABCD$は半径1の円に内接する．

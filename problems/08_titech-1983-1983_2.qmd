@@ -3,6 +3,7 @@ title: "東京科学大学 1983年 1983_2"
 problem_id: "08_titech-1983-1983_2"
 university: "東京科学大学"
 exam_year: "1983"
+problem_number: 2
 source_tex: "archive/08_titech/1983/1983_2.tex"
 pdf_source: "archive/08_titech/1983/1983_2.pdf"
 page_image: "archive/08_titech/1983/1983_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$t$が範囲$\displaystyle0<t\leqq\frac{1}{2}$を動くとき，
+$t$が範囲$\displaystyle0<t\leqq\frac{1}{2}$を動くとき，
 $t$とともに変化する放物線
 $\displaystyle y=\frac{1}{2}\left\{ t+\frac{x(2-x)}{t} \right\}$が
 通る点$(x, \, y)$全体の集合を図示せよ．

@@ -3,6 +3,7 @@ title: "東京大学 1962年 1962_5"
 problem_id: "01_tokyo-1962-1962_5"
 university: "東京大学"
 exam_year: "1962"
+problem_number: 5
 source_tex: "archive/01_tokyo/1962/1962_5.tex"
 pdf_source: "archive/01_tokyo/1962/1962_5.pdf"
 page_image: "archive/01_tokyo/1962/1962_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　1つの頂点から出る3辺の長さが$x$，$y$，$z$であるような直方体において，
+1つの頂点から出る3辺の長さが$x$，$y$，$z$であるような直方体において，
 $x$，$y$，$z$の和が6，全表面積が18であるとき，
 \begin{description}
 \item[(i)]$x$のとりうる値の範囲を求めよ．

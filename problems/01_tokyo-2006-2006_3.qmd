@@ -3,6 +3,7 @@ title: "東京大学 2006年 2006_3"
 problem_id: "01_tokyo-2006-2006_3"
 university: "東京大学"
 exam_year: "2006"
+problem_number: 3
 source_tex: "archive/01_tokyo/2006/2006_3.tex"
 pdf_source: "archive/01_tokyo/2006/2006_3.pdf"
 page_image: "archive/01_tokyo/2006/2006_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$O$を原点とする座標平面上に，$y$軸上の点$P(0,p)$と直線$m:y=(\tan\theta)x$が与えられている．
+$O$を原点とする座標平面上に，$y$軸上の点$P(0,p)$と直線$m:y=(\tan\theta)x$が与えられている．
 ここで，$p>1$，$\displaystyle 0<\theta<\frac{\pi}{2}$とする．
 　いま，傾きが$\alpha$の直線$l$を対称軸とする対称移動を行うと、
 原点$O$は直線$y=1$上の，第1象限の点$Q$に移り，

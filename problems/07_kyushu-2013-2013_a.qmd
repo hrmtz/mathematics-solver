@@ -3,6 +3,7 @@ title: "九州大学 2013年 2013_a"
 problem_id: "07_kyushu-2013-2013_a"
 university: "九州大学"
 exam_year: "2013"
+problem_number: 1
 source_tex: "archive/07_kyushu/2013/2013_a.tex"
 pdf_source: "archive/07_kyushu/2013/2013_a.pdf"
 page_image: "archive/07_kyushu/2013/2013_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$O$を原点とする$xyz$空間内の点$A$，$B$，$C$の座標をそれぞれ$(0, \, 1, \, 0)$，$(0, \, -2, \, 0)$，
+$O$を原点とする$xyz$空間内の点$A$，$B$，$C$の座標をそれぞれ$(0, \, 1, \, 0)$，$(0, \, -2, \, 0)$，
 $\displaystyle\left(\frac{3}{2}\sqrt3, \, -\frac{1}{2}, \, 0\right)$とする。
 このとき，以下の問いに答えよ。
 \begin{description}

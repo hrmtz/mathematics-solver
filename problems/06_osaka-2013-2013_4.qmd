@@ -3,6 +3,7 @@ title: "大阪大学 2013年 2013_4"
 problem_id: "06_osaka-2013-2013_4"
 university: "大阪大学"
 exam_year: "2013"
+problem_number: 4
 source_tex: "archive/06_osaka/2013/2013_4.tex"
 pdf_source: "archive/06_osaka/2013/2013_4.pdf"
 page_image: "archive/06_osaka/2013/2013_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$xyz$空間内の3点$O(0, \, 0, \, 0)$，$A(1, \, 0, \, 0)$，$B(1, \, 1, \, 0)$を頂点とする三角形$OAB$を
+$xyz$空間内の3点$O(0, \, 0, \, 0)$，$A(1, \, 0, \, 0)$，$B(1, \, 1, \, 0)$を頂点とする三角形$OAB$を
 $x$軸のまわりに1回転させてできる円すいを$V$とする．
 円すい$V$を$y$軸のまわりに1回転させてできる立体の体積を求めよ．
 

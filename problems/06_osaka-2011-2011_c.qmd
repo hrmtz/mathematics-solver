@@ -3,6 +3,7 @@ title: "大阪大学 2011年 2011_c"
 problem_id: "06_osaka-2011-2011_c"
 university: "大阪大学"
 exam_year: "2011"
+problem_number: 3
 source_tex: "archive/06_osaka/2011/2011_c.tex"
 pdf_source: "archive/06_osaka/2011/2011_c.pdf"
 page_image: "archive/06_osaka/2011/2011_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$x$，$y$は$\displaystyle-\frac{\pi}{2}<x<\frac{\pi}{2}$，
+$x$，$y$は$\displaystyle-\frac{\pi}{2}<x<\frac{\pi}{2}$，
 $\displaystyle-\frac{\pi}{2}<y<\frac{\pi}{2}$の範囲にある0でない実数で，
 次の等式$\displaystyle\sin^3x+\sin^3y=\frac{3\sqrt{15}}{32}$，
 $\displaystyle\frac{\sin y}{\sin x}+\frac{\sin x}{\sin y}=3$を満たすとする．

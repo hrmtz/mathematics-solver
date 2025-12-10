@@ -3,6 +3,7 @@ title: "東京大学 2005年 2005_5"
 problem_id: "01_tokyo-2005-2005_5"
 university: "東京大学"
 exam_year: "2005"
+problem_number: 5
 source_tex: "archive/01_tokyo/2005/2005_5.tex"
 pdf_source: "archive/01_tokyo/2005/2005_5.pdf"
 page_image: "archive/01_tokyo/2005/2005_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$N$を1以上の整数とする．
+$N$を1以上の整数とする．
 数字$1,2,\cdots\cdots,N$が書かれたカードを1枚ずつ，計$N$枚用意し，甲，乙のふたりが次の手順でゲームを行う．
 \begin{description}
 \item[(i)]甲が1枚カードをひく．

@@ -3,6 +3,7 @@ title: "北海道大学 2003年 2003_b"
 problem_id: "03_hokudai-2003-2003_b"
 university: "北海道大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/03_hokudai/2003/2003_b.tex"
 pdf_source: "archive/03_hokudai/2003/2003_b.pdf"
 page_image: "archive/03_hokudai/2003/2003_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　実数$a$に対して，
+実数$a$に対して，
 \[ a_1=a, \hspace{1zw} a_{n+1}=ra_n(1-a_n) \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]
 で定まる数列$a_1, \, a_2, \, \cdots\cdots, \, a_n, \, \cdots\cdots$を考える．
 ただし$0<r<1$とする．

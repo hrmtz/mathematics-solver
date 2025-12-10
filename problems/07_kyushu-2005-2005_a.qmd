@@ -3,6 +3,7 @@ title: "九州大学 2005年 2005_a"
 problem_id: "07_kyushu-2005-2005_a"
 university: "九州大学"
 exam_year: "2005"
+problem_number: 1
 source_tex: "archive/07_kyushu/2005/2005_a.tex"
 pdf_source: "archive/07_kyushu/2005/2005_a.pdf"
 page_image: "archive/07_kyushu/2005/2005_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$A$，$B$の2人が同時に1個ずつサイコロを投げて勝負をする．
+$A$，$B$の2人が同時に1個ずつサイコロを投げて勝負をする．
 出た目の大きい方を勝ちとしてそちらにのみ1点を加え，
 出た目が等しい場合には引き分けとしてどちらにも点を加えないものとする．
 このとき，次の問いに答えよ．

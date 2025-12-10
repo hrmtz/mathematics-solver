@@ -3,6 +3,7 @@ title: "京都大学 2005年 2005_6"
 problem_id: "02_kyoto-2005-2005_6"
 university: "京都大学"
 exam_year: "2005"
+problem_number: 6
 source_tex: "archive/02_kyoto/2005/2005_6.tex"
 pdf_source: "archive/02_kyoto/2005/2005_6.pdf"
 page_image: "archive/02_kyoto/2005/2005_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　先頭車両から順に1から$n$までの番号のついた$n$両編成の列車がある．
+先頭車両から順に1から$n$までの番号のついた$n$両編成の列車がある．
 ただし$n \geqq 2$とする．
 各車両を赤色，青色，黄色のいずれか一色で塗るとき，隣り合った車両の少なくとも一方が赤色となるような色の塗り方は何通りか．
 

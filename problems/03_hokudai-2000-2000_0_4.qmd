@@ -3,6 +3,7 @@ title: "北海道大学 2000年 2000_0_4"
 problem_id: "03_hokudai-2000-2000_0_4"
 university: "北海道大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/03_hokudai/2000/2000_0_4.tex"
 pdf_source: "archive/03_hokudai/2000/2000_0_4.pdf"
 page_image: "archive/03_hokudai/2000/2000_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　3次関数$f(x)=x^3+px^2+qx$がある．
+3次関数$f(x)=x^3+px^2+qx$がある．
 $x=a$における曲線$y=f(x)$の接線が接点$P(a, \, f(a))$以外の点$Q$で
 $y=f(x)$のグラフと交わっているとする．
 このとき，次の問いに答えよ．

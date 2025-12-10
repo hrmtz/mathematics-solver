@@ -3,6 +3,7 @@ title: "京都大学 2002年 2002_0_d"
 problem_id: "02_kyoto-2002-2002_0_d"
 university: "京都大学"
 exam_year: "2002"
+problem_number: 4
 source_tex: "archive/02_kyoto/2002/2002_0_d.tex"
 pdf_source: "archive/02_kyoto/2002/2002_0_d.pdf"
 page_image: "archive/02_kyoto/2002/2002_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　複素数平面上で原点を$O$とし，1の表す点を$A$とする．
+複素数平面上で原点を$O$とし，1の表す点を$A$とする．
 この平面上の点$P_1(z_1)$，$P_2(z_2)$，$P_3(z_3)$，$\cdots$が次の条件(i)，(ii)，(iii)を満たしているとき，
 $|z_n|$の最大値を求めよ．
 \begin{description}

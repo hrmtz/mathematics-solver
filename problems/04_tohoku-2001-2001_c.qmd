@@ -3,6 +3,7 @@ title: "東北大学 2001年 2001_c"
 problem_id: "04_tohoku-2001-2001_c"
 university: "東北大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/04_tohoku/2001/2001_c.tex"
 pdf_source: "archive/04_tohoku/2001/2001_c.pdf"
 page_image: "archive/04_tohoku/2001/2001_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$n$を正の整数とする．2人が1対1で対戦する競技の大会に$2n$人の選手が参加する．
+$n$を正の整数とする．2人が1対1で対戦する競技の大会に$2n$人の選手が参加する．
 1日の試合の組み合わせ表は，どの選手も1試合行うように，$n$試合の組み合わせを決めたものである．
 \begin{description}
 \item[(1)]1日の試合の組み合わせ表は全部で何通りあるか．

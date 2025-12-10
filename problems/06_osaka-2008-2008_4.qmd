@@ -3,6 +3,7 @@ title: "大阪大学 2008年 2008_4"
 problem_id: "06_osaka-2008-2008_4"
 university: "大阪大学"
 exam_year: "2008"
+problem_number: 4
 source_tex: "archive/06_osaka/2008/2008_4.tex"
 pdf_source: "archive/06_osaka/2008/2008_4.pdf"
 page_image: "archive/06_osaka/2008/2008_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$t$を負の実数とし，$xy$平面上で曲線$y=2^{2x+2t}$と曲線$y=2^{x+3t}$および$y$軸で囲まれる部分を$D$とする．
+$t$を負の実数とし，$xy$平面上で曲線$y=2^{2x+2t}$と曲線$y=2^{x+3t}$および$y$軸で囲まれる部分を$D$とする．
 \begin{description}
 \item[(1)]$D$を$x$軸のまわりに1回転させてできる回転体の体積$V(t)$を求めよ．
 \item[(2)]$t$が負の実数の範囲を動くとき，$V(t)$の最大値を求めよ．

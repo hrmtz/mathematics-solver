@@ -3,6 +3,7 @@ title: "九州大学 2016年 2016_0_3"
 problem_id: "07_kyushu-2016-2016_0_3"
 university: "九州大学"
 exam_year: "2016"
+problem_number: 3
 source_tex: "archive/07_kyushu/2016/2016_0_3.tex"
 pdf_source: "archive/07_kyushu/2016/2016_0_3.pdf"
 page_image: "archive/07_kyushu/2016/2016_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　袋の中に，赤玉が15個，青玉が10個，白玉が5個入っている。
+袋の中に，赤玉が15個，青玉が10個，白玉が5個入っている。
 袋の中から玉を1個取り出し，取り出した玉の色に応じて，
 以下の操作で座標平面に置いたコインを動かすことを考える。
 \begin{description}

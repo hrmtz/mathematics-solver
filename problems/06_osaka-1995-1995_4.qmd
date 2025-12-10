@@ -3,6 +3,7 @@ title: "大阪大学 1995年 1995_4"
 problem_id: "06_osaka-1995-1995_4"
 university: "大阪大学"
 exam_year: "1995"
+problem_number: 4
 source_tex: "archive/06_osaka/1995/1995_4.tex"
 pdf_source: "archive/06_osaka/1995/1995_4.pdf"
 page_image: "archive/06_osaka/1995/1995_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$\displaystyle f(x)=-\frac{e^x+e^{-x}}{2}$とおき，
+$\displaystyle f(x)=-\frac{e^x+e^{-x}}{2}$とおき，
 曲線$C:y=f(x)$を考える．
 1辺の長さ$a$の正三角形$PQR$は最初，辺$QR$の中点$M$が曲線$C$上の点$(0, \ f(0))$に一致し，
 $QR$が$C$に接し，さらに$P$が$y>f(x)$の範囲にあるようにおかれている．

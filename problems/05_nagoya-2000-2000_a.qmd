@@ -3,6 +3,7 @@ title: "名古屋大学 2000年 2000_a"
 problem_id: "05_nagoya-2000-2000_a"
 university: "名古屋大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/05_nagoya/2000/2000_a.tex"
 pdf_source: "archive/05_nagoya/2000/2000_a.pdf"
 page_image: "archive/05_nagoya/2000/2000_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　下図に示すように，$y$軸上の点$A(0, \, a)$に中心を持つ
+下図に示すように，$y$軸上の点$A(0, \, a)$に中心を持つ
 半径$a$ $(>0)$の円$x^2+{(y-a)}^2=a^2$がある．
 この円の$\displaystyle|x|\leqq\frac{\sqrt3}{2}a$，
 $\displaystyle0 \leqq y \leqq\frac{a}{2}$を満たす円弧$BC$に，

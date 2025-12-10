@@ -3,6 +3,7 @@ title: "名古屋大学 1994年 1994_4b"
 problem_id: "05_nagoya-1994-1994_4b"
 university: "名古屋大学"
 exam_year: "1994"
+problem_number: 4
 source_tex: "archive/05_nagoya/1994/1994_4b.tex"
 pdf_source: "archive/05_nagoya/1994/1994_4b.pdf"
 page_image: "archive/05_nagoya/1994/1994_4b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　長方形内に置かれた三角形の面積は，
+長方形内に置かれた三角形の面積は，
 もとの長方形の面積の$\displaystyle\frac{1}{2}$を越えないことを示せ．
 
 ---

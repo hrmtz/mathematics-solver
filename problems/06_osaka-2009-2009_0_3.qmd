@@ -3,6 +3,7 @@ title: "大阪大学 2009年 2009_0_3"
 problem_id: "06_osaka-2009-2009_0_3"
 university: "大阪大学"
 exam_year: "2009"
+problem_number: 3
 source_tex: "archive/06_osaka/2009/2009_0_3.tex"
 pdf_source: "archive/06_osaka/2009/2009_0_3.pdf"
 page_image: "archive/06_osaka/2009/2009_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　次のような，いびつなさいころを考える．
+次のような，いびつなさいころを考える．
 1，2，3の目が出る確率はそれぞれ$\displaystyle\frac{1}{6}$，
 4の目が出る確率は$a$，5，6の目が出る確率は$\displaystyle\frac{1}{4}-\frac{a}{2}$である．
 ただし，$\displaystyle0\leqq a \leqq\frac{1}{2}$とする．

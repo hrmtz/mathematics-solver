@@ -3,6 +3,7 @@ title: "大阪大学 1985年 1985_0_3"
 problem_id: "06_osaka-1985-1985_0_3"
 university: "大阪大学"
 exam_year: "1985"
+problem_number: 3
 source_tex: "archive/06_osaka/1985/1985_0_3.tex"
 pdf_source: "archive/06_osaka/1985/1985_0_3.pdf"
 page_image: "archive/06_osaka/1985/1985_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$xy$平面において，曲線$y=x^2$と
+$xy$平面において，曲線$y=x^2$と
 正方形$\{ (x, \, y) : a \leqq x \leqq a+1, \, b \leqq y \leqq b+1 \}$が
 共通点をもつとき，点$(a, \, b)$の存在する範囲を求め，これを図示せよ．
 

@@ -3,6 +3,7 @@ title: "九州大学 1990年 1990_5"
 problem_id: "07_kyushu-1990-1990_5"
 university: "九州大学"
 exam_year: "1990"
+problem_number: 5
 source_tex: "archive/07_kyushu/1990/1990_5.tex"
 pdf_source: "archive/07_kyushu/1990/1990_5.pdf"
 page_image: "archive/07_kyushu/1990/1990_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　数直線上を，時刻$t=0$に原点$O$を出発して，次の速度$v(t)$で運動している点$P$がある．
+数直線上を，時刻$t=0$に原点$O$を出発して，次の速度$v(t)$で運動している点$P$がある．
 \[ v(t)=t-3 \hspace{1zw} (0\leqq t \leqq8\text{のとき}) \]
 \[ v(t)=5e^{8-t} \hspace{1zw} (t\geqq8\text{のとき}) \]
 \begin{description}

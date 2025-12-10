@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_4c"
 problem_id: "07_kyushu-1997-1997_4c"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/07_kyushu/1997/1997_4c.tex"
 pdf_source: "archive/07_kyushu/1997/1997_4c.pdf"
 page_image: "archive/07_kyushu/1997/1997_4c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (c)
-　$n$個の袋があり，それぞれの袋には金色のカード3枚と銀色のカード$(3n-3)$枚入っている．
+$n$個の袋があり，それぞれの袋には金色のカード3枚と銀色のカード$(3n-3)$枚入っている．
 それぞれの袋から1枚ずつカードを抜き出すとき，
 確率変数$X_n$を抜き出された金色のカードの枚数とおく．
 \begin{description}

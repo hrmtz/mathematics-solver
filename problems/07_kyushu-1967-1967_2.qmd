@@ -3,6 +3,7 @@ title: "九州大学 1967年 1967_2"
 problem_id: "07_kyushu-1967-1967_2"
 university: "九州大学"
 exam_year: "1967"
+problem_number: 2
 source_tex: "archive/07_kyushu/1967/1967_2.tex"
 pdf_source: "archive/07_kyushu/1967/1967_2.pdf"
 page_image: "archive/07_kyushu/1967/1967_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　1より大きい整数$n$の素因数分解を${p_1}^{m_1}{p_2}^{m_2}\cdots{p_k}^{m_k}$とする．
+1より大きい整数$n$の素因数分解を${p_1}^{m_1}{p_2}^{m_2}\cdots{p_k}^{m_k}$とする．
 ここで，$m_1, \, m_2, \, \cdots\cdots, \, m_k$は正の整数，
 $p_1, \, p_2, \, \cdots\cdots, \, p_k$は素数で$p_1<p_2<\cdots<p_k$である．
 このとき，次の不等式を証明せよ．

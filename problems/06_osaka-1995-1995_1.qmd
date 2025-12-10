@@ -3,6 +3,7 @@ title: "大阪大学 1995年 1995_1"
 problem_id: "06_osaka-1995-1995_1"
 university: "大阪大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/06_osaka/1995/1995_1.tex"
 pdf_source: "archive/06_osaka/1995/1995_1.pdf"
 page_image: "archive/06_osaka/1995/1995_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の2つのだ円を考える．
+次の2つのだ円を考える．
 \[ \text{だ円}A:\frac{x^2}{4}+y^2=1, \hspace{1zw} \text{だ円}B:x^2+\frac{y^2}{4}=1 \]
 　これらに関して，以下の問に答えよ．
 \begin{description}

@@ -3,6 +3,7 @@ title: "東北大学 1991年 1991_0_2"
 problem_id: "04_tohoku-1991-1991_0_2"
 university: "東北大学"
 exam_year: "1991"
+problem_number: 2
 source_tex: "archive/04_tohoku/1991/1991_0_2.tex"
 pdf_source: "archive/04_tohoku/1991/1991_0_2.pdf"
 page_image: "archive/04_tohoku/1991/1991_0_2.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]$\alpha<\beta$のとき
 $\displaystyle\int_\alpha^\beta(x-\alpha)(x-\beta)dx=-\frac{1}{6}{(\beta-\alpha)}^3$

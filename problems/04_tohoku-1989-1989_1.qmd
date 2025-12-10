@@ -3,6 +3,7 @@ title: "東北大学 1989年 1989_1"
 problem_id: "04_tohoku-1989-1989_1"
 university: "東北大学"
 exam_year: "1989"
+problem_number: 1
 source_tex: "archive/04_tohoku/1989/1989_1.tex"
 pdf_source: "archive/04_tohoku/1989/1989_1.pdf"
 page_image: "archive/04_tohoku/1989/1989_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$xyz$空間において，
+$xyz$空間において，
 点$(0, \, 0, \, 5)$を$P$，
 平面$x+2y+2z=0$を$\alpha$とし，
 $xy$平面上の円$x^2+y^2=4$を$C$とする．

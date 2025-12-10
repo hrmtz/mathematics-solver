@@ -3,6 +3,7 @@ title: "東北大学 2024年 2024_5"
 problem_id: "04_tohoku-2024-2024_5"
 university: "東北大学"
 exam_year: "2024"
+problem_number: 5
 source_tex: "archive/04_tohoku/2024/2024_5.tex"
 pdf_source: "archive/04_tohoku/2024/2024_5.pdf"
 page_image: "archive/04_tohoku/2024/2024_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$x\geqq2$を満たす実数$x$に対し，
+$x\geqq2$を満たす実数$x$に対し，
 \[ f(x)=\frac{\log(2x-3)}{x} \]
 とおく。必要ならば，$\displaystyle\lim_{t\to\infty}\frac{\log t}{t}=0$であること，
 および，自然対数の底$e$が$2<e<3$を満たすことを証明なしで用いてもよい。

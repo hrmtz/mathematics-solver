@@ -3,6 +3,7 @@ title: "九州大学 2004年 2004_0_1"
 problem_id: "07_kyushu-2004-2004_0_1"
 university: "九州大学"
 exam_year: "2004"
+problem_number: 1
 source_tex: "archive/07_kyushu/2004/2004_0_1.tex"
 pdf_source: "archive/07_kyushu/2004/2004_0_1.pdf"
 page_image: "archive/07_kyushu/2004/2004_0_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　2つの関数$f(x)=-px^2+2$ $(p>0)$，$g(x)=|x|-2$が与えられていて，
+2つの関数$f(x)=-px^2+2$ $(p>0)$，$g(x)=|x|-2$が与えられていて，
 放物線$y=f(x)$が2点$(-3\sqrt2, \, 0)$，$(3\sqrt2, \, 0)$を通るとする．
 \begin{description}
 \item[(1)]$p$の値を求めよ．

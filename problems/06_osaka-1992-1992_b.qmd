@@ -3,6 +3,7 @@ title: "大阪大学 1992年 1992_b"
 problem_id: "06_osaka-1992-1992_b"
 university: "大阪大学"
 exam_year: "1992"
+problem_number: 2
 source_tex: "archive/06_osaka/1992/1992_b.tex"
 pdf_source: "archive/06_osaka/1992/1992_b.pdf"
 page_image: "archive/06_osaka/1992/1992_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$k$を正の整数，$a$を実数とする．$x$についての方程式
+$k$を正の整数，$a$を実数とする．$x$についての方程式
 \[ ax^{k+1}-(1+a)x^k+1=0 \]
 が0と1との間（0，1は含まない）に解を持つような$a$の値の範囲を求めよ．
 

@@ -3,6 +3,7 @@ title: "名古屋大学 1967年 1967_2"
 problem_id: "05_nagoya-1967-1967_2"
 university: "名古屋大学"
 exam_year: "1967"
+problem_number: 2
 source_tex: "archive/05_nagoya/1967/1967_2.tex"
 pdf_source: "archive/05_nagoya/1967/1967_2.pdf"
 page_image: "archive/05_nagoya/1967/1967_2.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]周の長さ$l$が一定である3角形の3辺の長さを$a$，$b$，$c$ $(a \geqq b \geqq c)$とするとき，
 $a$のとりうる値の範囲を求めよ．

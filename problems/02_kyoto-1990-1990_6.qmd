@@ -3,6 +3,7 @@ title: "京都大学 1990年 1990_6"
 problem_id: "02_kyoto-1990-1990_6"
 university: "京都大学"
 exam_year: "1990"
+problem_number: 6
 source_tex: "archive/02_kyoto/1990/1990_6.tex"
 pdf_source: "archive/02_kyoto/1990/1990_6.pdf"
 page_image: "archive/02_kyoto/1990/1990_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　円$C:x^2+y^2=1$を内部に含む楕円$\displaystyle D:\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>0,b>0)$がある．
+円$C:x^2+y^2=1$を内部に含む楕円$\displaystyle D:\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>0,b>0)$がある．
 $D$上の1点$P(0,b)$から$C$に1つの接線をひき，その延長が再び$D$と交わる点を$Q$とする．
 $Q$から$C$に$PQ$とは異なる接線をひき，その延長が再び$D$と交わる点を$R$とする．
 $R$から$C$に$QR$と異なる接線をひき，その延長が再び$D$と交わる点を$S$とすると，$S=P$となった．

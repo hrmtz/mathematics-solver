@@ -3,6 +3,7 @@ title: "名古屋大学 1977年 1977_4"
 problem_id: "05_nagoya-1977-1977_4"
 university: "名古屋大学"
 exam_year: "1977"
+problem_number: 4
 source_tex: "archive/05_nagoya/1977/1977_4.tex"
 pdf_source: "archive/05_nagoya/1977/1977_4.pdf"
 page_image: "archive/05_nagoya/1977/1977_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次の(1)，(2)を解答せよ．
+次の(1)，(2)を解答せよ．
 \begin{description}
 \item[(1)]$a$を正数とするとき，$\displaystyle\lim_{n\to\infty}\frac{1}{n}\log(a^n+a^{2n})$を求めよ．
 \item[(2)]$xy$平面上に動点$P$がある．

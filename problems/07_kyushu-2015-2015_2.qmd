@@ -3,6 +3,7 @@ title: "九州大学 2015年 2015_2"
 problem_id: "07_kyushu-2015-2015_2"
 university: "九州大学"
 exam_year: "2015"
+problem_number: 2
 source_tex: "archive/07_kyushu/2015/2015_2.tex"
 pdf_source: "archive/07_kyushu/2015/2015_2.pdf"
 page_image: "archive/07_kyushu/2015/2015_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　以下の問いに答えよ。
+以下の問いに答えよ。
 \begin{description}
 \item[(1)]関数$\displaystyle y=\frac{1}{x{(\log x)}^2}$は
 $x>1$において単調に減少することを示せ。

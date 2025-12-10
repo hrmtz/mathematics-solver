@@ -3,6 +3,7 @@ title: "大阪大学 2007年 2007_d"
 problem_id: "06_osaka-2007-2007_d"
 university: "大阪大学"
 exam_year: "2007"
+problem_number: 4
 source_tex: "archive/06_osaka/2007/2007_d.tex"
 pdf_source: "archive/06_osaka/2007/2007_d.pdf"
 page_image: "archive/06_osaka/2007/2007_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　媒介変数$t$ $(t>0)$を用いて，$x=f(t)$，$y=g(t)$と表される曲線を$C$とする．
+媒介変数$t$ $(t>0)$を用いて，$x=f(t)$，$y=g(t)$と表される曲線を$C$とする．
 ここで，$\displaystyle f(t)=a\frac{t-t^{-1}}{2}$，$\displaystyle g(t)=b\frac{t+t^{-1}}{2}$．
 ただし，$a$，$b$は正の定数である．
 \begin{description}

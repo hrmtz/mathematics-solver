@@ -3,6 +3,7 @@ title: "九州大学 2020年 2020_c"
 problem_id: "07_kyushu-2020-2020_c"
 university: "九州大学"
 exam_year: "2020"
+problem_number: 3
 source_tex: "archive/07_kyushu/2020/2020_c.tex"
 pdf_source: "archive/07_kyushu/2020/2020_c.pdf"
 page_image: "archive/07_kyushu/2020/2020_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　正の定数$r$に対して座標空間内の3点$O(0, \, 0, \, 0)$，$A(r, \, 0, \, 0)$，
+正の定数$r$に対して座標空間内の3点$O(0, \, 0, \, 0)$，$A(r, \, 0, \, 0)$，
 $B(0, \, r, \, 0)$を定める。
 また，平面$\displaystyle y=\frac{1}{2}r$上の点$C$に対して，線分$AC$の中点を$P$とする。
 ただし，点$C$の$z$座標は正である。このとき，以下の問いに答えよ。

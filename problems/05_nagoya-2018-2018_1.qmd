@@ -3,6 +3,7 @@ title: "名古屋大学 2018年 2018_1"
 problem_id: "05_nagoya-2018-2018_1"
 university: "名古屋大学"
 exam_year: "2018"
+problem_number: 1
 source_tex: "archive/05_nagoya/2018/2018_1.tex"
 pdf_source: "archive/05_nagoya/2018/2018_1.pdf"
 page_image: "archive/05_nagoya/2018/2018_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　自然数$n$に対し，定積分$\displaystyle I_n=\int_0^1\frac{x^n}{x^2+1}dx$を
+自然数$n$に対し，定積分$\displaystyle I_n=\int_0^1\frac{x^n}{x^2+1}dx$を
 考える。このとき，次の問に答えよ。
 \begin{description}
 \item[(1)]$\displaystyle I_n+I_{n+2}=\frac{1}{n+1}$を示せ。

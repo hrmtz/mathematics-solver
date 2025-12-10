@@ -3,6 +3,7 @@ title: "北海道大学 2006年 2006_d"
 problem_id: "03_hokudai-2006-2006_d"
 university: "北海道大学"
 exam_year: "2006"
+problem_number: 4
 source_tex: "archive/03_hokudai/2006/2006_d.tex"
 pdf_source: "archive/03_hokudai/2006/2006_d.pdf"
 page_image: "archive/03_hokudai/2006/2006_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　一辺の長さが1の正三角形$ABC$を底面とする四面体$OABC$を考える．
+一辺の長さが1の正三角形$ABC$を底面とする四面体$OABC$を考える．
 ただし，$OA=OB=OC=a$であり，$a\geqq1$とする．
 頂点$O$から三角形$ABC$におろした垂線の足を$H$とする．
 \begin{description}

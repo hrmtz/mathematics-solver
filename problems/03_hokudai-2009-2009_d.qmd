@@ -3,6 +3,7 @@ title: "北海道大学 2009年 2009_d"
 problem_id: "03_hokudai-2009-2009_d"
 university: "北海道大学"
 exam_year: "2009"
+problem_number: 4
 source_tex: "archive/03_hokudai/2009/2009_d.tex"
 pdf_source: "archive/03_hokudai/2009/2009_d.pdf"
 page_image: "archive/03_hokudai/2009/2009_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f(t)$を
+関数$f(t)$を
 \[ f(t)=\int_0^1(|e^x-t|+|e^{2x}-t|)dx \]
 と定める．
 $1 \leqq t \leqq e$での$f(t)$の最小値とそのときの$t$の値を求めよ．

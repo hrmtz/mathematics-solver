@@ -3,6 +3,7 @@ title: "九州大学 1965年 1965_5"
 problem_id: "07_kyushu-1965-1965_5"
 university: "九州大学"
 exam_year: "1965"
+problem_number: 5
 source_tex: "archive/07_kyushu/1965/1965_5.tex"
 pdf_source: "archive/07_kyushu/1965/1965_5.pdf"
 page_image: "archive/07_kyushu/1965/1965_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　ある直線から，曲線$\displaystyle y=\frac{1}{x}$，$x>0$によって切り取られる線分の，
+ある直線から，曲線$\displaystyle y=\frac{1}{x}$，$x>0$によって切り取られる線分の，
 $x$軸，$y$軸上への正射影の長さの積は1に等しいという。
 このような直線の全体を考えるとき，
 これらの直線と，直線$x=k$ $(k>0)$との交点のうちで，

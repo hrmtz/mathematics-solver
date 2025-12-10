@@ -3,6 +3,7 @@ title: "九州大学 1967年 1967_3"
 problem_id: "07_kyushu-1967-1967_3"
 university: "九州大学"
 exam_year: "1967"
+problem_number: 3
 source_tex: "archive/07_kyushu/1967/1967_3.tex"
 pdf_source: "archive/07_kyushu/1967/1967_3.pdf"
 page_image: "archive/07_kyushu/1967/1967_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　複素平面上で，図のように，原点を中心とし半径が1の円に内接する正方形$z_1z_2z_3z_4$がある．
+複素平面上で，図のように，原点を中心とし半径が1の円に内接する正方形$z_1z_2z_3z_4$がある．
  
 
 ![](../archive/07_kyushu/1967/fig_1967_3.jpg)

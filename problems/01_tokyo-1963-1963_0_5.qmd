@@ -3,6 +3,7 @@ title: "東京大学 1963年 1963_0_5"
 problem_id: "01_tokyo-1963-1963_0_5"
 university: "東京大学"
 exam_year: "1963"
+problem_number: 5
 source_tex: "archive/01_tokyo/1963/1963_0_5.tex"
 pdf_source: "archive/01_tokyo/1963/1963_0_5.pdf"
 page_image: "archive/01_tokyo/1963/1963_0_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　平面上を運動する点があり，その$x$座標，$y$座標が時刻$t$の函数として
+平面上を運動する点があり，その$x$座標，$y$座標が時刻$t$の函数として
 \[ x=f(t)=vt\cos\alpha, \hspace{1zw} y=g(t)=vt\sin\alpha-5t^2 \hspace{1zw}
 \left( v>0,0<\alpha<\frac{\pi}{2} \right) \]
 で与えられている．

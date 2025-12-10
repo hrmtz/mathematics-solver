@@ -3,6 +3,7 @@ title: "大阪大学 1994年 1994_2"
 problem_id: "06_osaka-1994-1994_2"
 university: "大阪大学"
 exam_year: "1994"
+problem_number: 2
 source_tex: "archive/06_osaka/1994/1994_2.tex"
 pdf_source: "archive/06_osaka/1994/1994_2.pdf"
 page_image: "archive/06_osaka/1994/1994_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　原点を通る傾き正の直線$l$を考える．
+原点を通る傾き正の直線$l$を考える．
 いま点$P$が原点から直線$l$に沿って第1象限を直進し，
 直線$l$と曲線$\displaystyle C:y=\frac{1}{\sqrt3}x^3$の交点
 $\displaystyle Q \left( a, \, \frac{a^3}{\sqrt3} \right)$で反射した後，

@@ -3,6 +3,7 @@ title: "九州大学 2009年 2009_0_3"
 problem_id: "07_kyushu-2009-2009_0_3"
 university: "九州大学"
 exam_year: "2009"
+problem_number: 3
 source_tex: "archive/07_kyushu/2009/2009_0_3.tex"
 pdf_source: "archive/07_kyushu/2009/2009_0_3.pdf"
 page_image: "archive/07_kyushu/2009/2009_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　1から6までの数字が1つずつ書かれている6枚のカードがある．
+1から6までの数字が1つずつ書かれている6枚のカードがある．
 これらをよくきった上で，左から右に一列に並べる．
 カードに書かれた数字を左から順に$a$，$b$，$c$，$d$，$e$，$f$とする．
 このとき，次の問いに答えよ．

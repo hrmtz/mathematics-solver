@@ -3,6 +3,7 @@ title: "名古屋大学 1969年 1969_4"
 problem_id: "05_nagoya-1969-1969_4"
 university: "名古屋大学"
 exam_year: "1969"
+problem_number: 4
 source_tex: "archive/05_nagoya/1969/1969_4.tex"
 pdf_source: "archive/05_nagoya/1969/1969_4.pdf"
 page_image: "archive/05_nagoya/1969/1969_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　3次曲線$y=x^3$の上の2点$A(-1, \, -1)$，$B(2, \, 8)$を結ぶ線分は，
+3次曲線$y=x^3$の上の2点$A(-1, \, -1)$，$B(2, \, 8)$を結ぶ線分は，
 この3次曲線の上側にあることを証明せよ．
 また，この曲線上の動点$P$が$A$，$B$の間を動くとき，
 $P$から線分$AB$へおろした垂線の長さの最大値を求めよ．

@@ -3,6 +3,7 @@ title: "九州大学 2009年 2009_c"
 problem_id: "07_kyushu-2009-2009_c"
 university: "九州大学"
 exam_year: "2009"
+problem_number: 3
 source_tex: "archive/07_kyushu/2009/2009_c.tex"
 pdf_source: "archive/07_kyushu/2009/2009_c.pdf"
 page_image: "archive/07_kyushu/2009/2009_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$O$を原点とする$xyz$空間内の点$A$，$B$，$C$をそれぞれ$A(-1, \, 2, \, 3)$，$B(0, \, 1, \, 2)$，
+$O$を原点とする$xyz$空間内の点$A$，$B$，$C$をそれぞれ$A(-1, \, 2, \, 3)$，$B(0, \, 1, \, 2)$，
 $C(0, \, 1, \, 0)$とし，2点$A$，$B$を通る直線を$l$とする．以下の問いに答えよ．
 \begin{description}
 \item[(1)]点$P$は直線$l$上を動き，点$Q$は$y$軸上を動くものとする．

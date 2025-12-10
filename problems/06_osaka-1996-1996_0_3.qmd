@@ -3,6 +3,7 @@ title: "大阪大学 1996年 1996_0_3"
 problem_id: "06_osaka-1996-1996_0_3"
 university: "大阪大学"
 exam_year: "1996"
+problem_number: 3
 source_tex: "archive/06_osaka/1996/1996_0_3.tex"
 pdf_source: "archive/06_osaka/1996/1996_0_3.pdf"
 page_image: "archive/06_osaka/1996/1996_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　曲線$y=x(x-a)(x-b)(x-c)$ $(0<a<b<c)$と$x$軸との交点を左から順に$O$，$A$，$B$，$C$とする．
+曲線$y=x(x-a)(x-b)(x-c)$ $(0<a<b<c)$と$x$軸との交点を左から順に$O$，$A$，$B$，$C$とする．
 線分$OA$，$AB$，$BC$とこの曲線によって囲まれる部分をそれぞれ$S$，$T$，$U$とする．
 次の問に答えよ．
 \begin{description}

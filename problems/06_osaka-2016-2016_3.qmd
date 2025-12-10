@@ -3,6 +3,7 @@ title: "大阪大学 2016年 2016_3"
 problem_id: "06_osaka-2016-2016_3"
 university: "大阪大学"
 exam_year: "2016"
+problem_number: 3
 source_tex: "archive/06_osaka/2016/2016_3.tex"
 pdf_source: "archive/06_osaka/2016/2016_3.pdf"
 page_image: "archive/06_osaka/2016/2016_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　座標平面において，原点$O$を中心とする半径$r$の円と放物線$y=\sqrt2 \, {(x-1)}^2$は，
+座標平面において，原点$O$を中心とする半径$r$の円と放物線$y=\sqrt2 \, {(x-1)}^2$は，
 ただ1つの共有点$(a, \, b)$をもつとする．
 \begin{description}
 \item[(1)]$a, \, b, \, r$の値をそれぞれ求めよ．

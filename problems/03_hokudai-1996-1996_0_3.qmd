@@ -3,6 +3,7 @@ title: "北海道大学 1996年 1996_0_3"
 problem_id: "03_hokudai-1996-1996_0_3"
 university: "北海道大学"
 exam_year: "1996"
+problem_number: 3
 source_tex: "archive/03_hokudai/1996/1996_0_3.tex"
 pdf_source: "archive/03_hokudai/1996/1996_0_3.pdf"
 page_image: "archive/03_hokudai/1996/1996_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　行列$A=\begin{pmatrix} 8 & 9 
+行列$A=\begin{pmatrix} 8 & 9 
 
  9 & a \end{pmatrix}$の表す
 平面の1次変換を$T$とするとき，$T$は次の条件（イ），（ロ）を満たすとする．

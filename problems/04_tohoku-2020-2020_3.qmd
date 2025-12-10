@@ -3,6 +3,7 @@ title: "東北大学 2020年 2020_3"
 problem_id: "04_tohoku-2020-2020_3"
 university: "東北大学"
 exam_year: "2020"
+problem_number: 3
 source_tex: "archive/04_tohoku/2020/2020_3.tex"
 pdf_source: "archive/04_tohoku/2020/2020_3.pdf"
 page_image: "archive/04_tohoku/2020/2020_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$n$を正の整数，$a, \, b$を0以上の整数とする。
+$n$を正の整数，$a, \, b$を0以上の整数とする。
 \begin{description}
 \item[(1)]$n\geqq3$のとき不等式$2^n+n^2+8<3^n$が成り立つことを示せ。
 \item[(2)]不等式$2^n+n^2+8 \geqq 3^n$を満たす$n$をすべて求めよ。

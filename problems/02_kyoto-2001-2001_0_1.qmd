@@ -3,6 +3,7 @@ title: "京都大学 2001年 2001_0_1"
 problem_id: "02_kyoto-2001-2001_0_1"
 university: "京都大学"
 exam_year: "2001"
+problem_number: 1
 source_tex: "archive/02_kyoto/2001/2001_0_1.tex"
 pdf_source: "archive/02_kyoto/2001/2001_0_1.pdf"
 page_image: "archive/02_kyoto/2001/2001_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　未知数$x$に関する方程式$x^4-x^3+x^2-(a+2)x-a-3=0$が，
+未知数$x$に関する方程式$x^4-x^3+x^2-(a+2)x-a-3=0$が，
 虚軸上の複素数を解に持つような実数$a$をすべて求めよ．
 
 ---

@@ -3,6 +3,7 @@ title: "東京科学大学 2010年 2010_4"
 problem_id: "08_titech-2010-2010_4"
 university: "東京科学大学"
 exam_year: "2010"
+problem_number: 4
 source_tex: "archive/08_titech/2010/2010_4.tex"
 pdf_source: "archive/08_titech/2010/2010_4.pdf"
 page_image: "archive/08_titech/2010/2010_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$a$を正の定数とする．
+$a$を正の定数とする．
 原点を$O$とする座標平面上に定点$A=A(a,0)$と，
 $A$と異なる動点$P=P(x,y)$をとる．
 次の条件

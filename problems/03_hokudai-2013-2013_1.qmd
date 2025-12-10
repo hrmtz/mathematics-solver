@@ -3,6 +3,7 @@ title: "北海道大学 2013年 2013_1"
 problem_id: "03_hokudai-2013-2013_1"
 university: "北海道大学"
 exam_year: "2013"
+problem_number: 1
 source_tex: "archive/03_hokudai/2013/2013_1.tex"
 pdf_source: "archive/03_hokudai/2013/2013_1.pdf"
 page_image: "archive/03_hokudai/2013/2013_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$a$と$b$を正の実数とする。
+$a$と$b$を正の実数とする。
 $y=a\cos x$ $\displaystyle\left( 0 \leqq x \leqq \frac{\pi}{2} \right)$のグラフを$C_1$，
 $y=b\sin x$ $\displaystyle\left( 0 \leqq x \leqq \frac{\pi}{2} \right)$のグラフを$C_2$とし，
 $C_1$と$C_2$の交点を$P$とする。

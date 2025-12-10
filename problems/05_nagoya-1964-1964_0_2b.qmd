@@ -3,6 +3,7 @@ title: "名古屋大学 1964年 1964_0_2b"
 problem_id: "05_nagoya-1964-1964_0_2b"
 university: "名古屋大学"
 exam_year: "1964"
+problem_number: 2
 source_tex: "archive/05_nagoya/1964/1964_0_2b.tex"
 pdf_source: "archive/05_nagoya/1964/1964_0_2b.pdf"
 page_image: "archive/05_nagoya/1964/1964_0_2b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2 (b)
-　$f(x)=2-x^2$に対して
+$f(x)=2-x^2$に対して
 $\displaystyle F(t)=\int_t^{t+2}f(x)dx$は
 $t$のどんな値に対して最大または最小となるか。
 

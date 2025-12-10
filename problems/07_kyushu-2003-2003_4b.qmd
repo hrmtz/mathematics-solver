@@ -3,6 +3,7 @@ title: "九州大学 2003年 2003_4b"
 problem_id: "07_kyushu-2003-2003_4b"
 university: "九州大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/07_kyushu/2003/2003_4b.tex"
 pdf_source: "archive/07_kyushu/2003/2003_4b.pdf"
 page_image: "archive/07_kyushu/2003/2003_4b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　$0<a<1$である定数$a$に対し，複素数平面上で$z=t+ai$ ($t$は実数全体を動く) が表す直線を$l$とする．
+$0<a<1$である定数$a$に対し，複素数平面上で$z=t+ai$ ($t$は実数全体を動く) が表す直線を$l$とする．
 ただし，$i$は虚数単位である．
 \begin{description}
 \item[(1)]複素数$z$が$l$上を動くとき，$z^2$が表す点の軌跡を図示せよ．

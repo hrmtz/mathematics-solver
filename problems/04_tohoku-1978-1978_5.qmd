@@ -3,6 +3,7 @@ title: "東北大学 1978年 1978_5"
 problem_id: "04_tohoku-1978-1978_5"
 university: "東北大学"
 exam_year: "1978"
+problem_number: 5
 source_tex: "archive/04_tohoku/1978/1978_5.tex"
 pdf_source: "archive/04_tohoku/1978/1978_5.pdf"
 page_image: "archive/04_tohoku/1978/1978_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$\displaystyle 0 \leqq t \leqq \frac{\pi}{2}$とする．
+$\displaystyle 0 \leqq t \leqq \frac{\pi}{2}$とする．
 曲線$y=\sin x$および3直線$x=t$，$x=2t$，$y=0$で囲まれた部分を，
 $x$軸のまわりに回転して得られる立体の体積を $V(t)$とする．
 $V(t)$が最大になる$t$の値を$\alpha$とするとき，

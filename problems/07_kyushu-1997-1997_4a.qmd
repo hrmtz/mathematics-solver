@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_4a"
 problem_id: "07_kyushu-1997-1997_4a"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/07_kyushu/1997/1997_4a.tex"
 pdf_source: "archive/07_kyushu/1997/1997_4a.pdf"
 page_image: "archive/07_kyushu/1997/1997_4a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (a)
-　四面体$OABC$において，点$G$を
+四面体$OABC$において，点$G$を
 \[ \overrightarrow{OG}=k(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}) \]
 である点とする．また，3点$P$，$Q$，$R$を，
 \[ \overrightarrow{OP}=p\overrightarrow{OA}, \hspace{1zw}

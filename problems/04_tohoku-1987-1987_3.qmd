@@ -3,6 +3,7 @@ title: "東北大学 1987年 1987_3"
 problem_id: "04_tohoku-1987-1987_3"
 university: "東北大学"
 exam_year: "1987"
+problem_number: 3
 source_tex: "archive/04_tohoku/1987/1987_3.tex"
 pdf_source: "archive/04_tohoku/1987/1987_3.pdf"
 page_image: "archive/04_tohoku/1987/1987_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a$を0でない実数とする．
+$a$を0でない実数とする．
 2つの曲線$y=e^x$および$y=ax^2$の両方に接する直線の本数を求めよ．
 
 ---

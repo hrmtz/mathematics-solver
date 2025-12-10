@@ -3,6 +3,7 @@ title: "東京科学大学 1979年 1979_3"
 problem_id: "08_titech-1979-1979_3"
 university: "東京科学大学"
 exam_year: "1979"
+problem_number: 3
 source_tex: "archive/08_titech/1979/1979_3.tex"
 pdf_source: "archive/08_titech/1979/1979_3.pdf"
 page_image: "archive/08_titech/1979/1979_3.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$p(x)$，$q(x)$を$x$の3次以下の多項式とする．
 すべての$x$に対して$p(x)\cos x=q(x)\sin x$が成り立つならば，

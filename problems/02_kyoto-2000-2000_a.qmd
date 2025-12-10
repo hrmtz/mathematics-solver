@@ -3,6 +3,7 @@ title: "京都大学 2000年 2000_a"
 problem_id: "02_kyoto-2000-2000_a"
 university: "京都大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/02_kyoto/2000/2000_a.tex"
 pdf_source: "archive/02_kyoto/2000/2000_a.pdf"
 page_image: "archive/02_kyoto/2000/2000_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$\alpha$，$\beta$，$\gamma$は互いに相異なる複素数とする．
+$\alpha$，$\beta$，$\gamma$は互いに相異なる複素数とする．
 \begin{description}
 \item[(1)]複素数平面上で$\displaystyle\frac{z-\beta}{z-\alpha}$の虚数部分が正となる$z$の存在する範囲を図示せよ．
 \item[(2)]複素数$z$が$(z-\alpha)(z-\beta)+(z-\beta)(z-\gamma)+(z-\gamma)(z-\alpha)=0$を満たしているとき，

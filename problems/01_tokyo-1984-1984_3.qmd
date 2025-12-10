@@ -3,6 +3,7 @@ title: "東京大学 1984年 1984_3"
 problem_id: "01_tokyo-1984-1984_3"
 university: "東京大学"
 exam_year: "1984"
+problem_number: 3
 source_tex: "archive/01_tokyo/1984/1984_3.tex"
 pdf_source: "archive/01_tokyo/1984/1984_3.pdf"
 page_image: "archive/01_tokyo/1984/1984_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　2以上の自然数$k$に対して$f_k(x)=x^k-kx+k-1$とおく．
+2以上の自然数$k$に対して$f_k(x)=x^k-kx+k-1$とおく．
 このとき，次のことを証明せよ．
 \begin{description}
 \item[i)]$n$次多項式$g(x)$が$(x-1)^2$で割り切れるためには，

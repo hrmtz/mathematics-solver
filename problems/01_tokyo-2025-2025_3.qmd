@@ -3,6 +3,7 @@ title: "東京大学 2025年 2025_3"
 problem_id: "01_tokyo-2025-2025_3"
 university: "東京大学"
 exam_year: "2025"
+problem_number: 3
 source_tex: "archive/01_tokyo/2025/2025_3.tex"
 pdf_source: "archive/01_tokyo/2025/2025_3.pdf"
 page_image: "archive/01_tokyo/2025/2025_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　平行四辺形$ABCD$において，$\displaystyle \angle ABC=\frac{\pi}{6}$，
+平行四辺形$ABCD$において，$\displaystyle \angle ABC=\frac{\pi}{6}$，
 $AB=a$，$BC=b$，$a \leqq b$とする。
 次の条件を満たす長方形$EFGH$を考え，その面積を$S$とする。
 　条件：点$A, \, B, \, C, \, D$はそれぞれ辺$EF, \, FG, \, GH, \, HE$上にある。

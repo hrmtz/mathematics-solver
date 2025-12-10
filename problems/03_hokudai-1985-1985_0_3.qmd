@@ -3,6 +3,7 @@ title: "北海道大学 1985年 1985_0_3"
 problem_id: "03_hokudai-1985-1985_0_3"
 university: "北海道大学"
 exam_year: "1985"
+problem_number: 3
 source_tex: "archive/03_hokudai/1985/1985_0_3.tex"
 pdf_source: "archive/03_hokudai/1985/1985_0_3.pdf"
 page_image: "archive/03_hokudai/1985/1985_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　数列$x_0, \, x_1, \, x_2, \, \cdots\cdots, \, x_n, \, \cdots\cdots$は
+数列$x_0, \, x_1, \, x_2, \, \cdots\cdots, \, x_n, \, \cdots\cdots$は
 $\sin3x_{n+1}=\sin x_n$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$を満たすとし，
 $a_n=\sin x_n$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$とおく．
 \begin{description}

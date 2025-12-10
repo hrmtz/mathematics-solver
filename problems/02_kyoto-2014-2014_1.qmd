@@ -3,6 +3,7 @@ title: "京都大学 2014年 2014_1"
 problem_id: "02_kyoto-2014-2014_1"
 university: "京都大学"
 exam_year: "2014"
+problem_number: 1
 source_tex: "archive/02_kyoto/2014/2014_1.tex"
 pdf_source: "archive/02_kyoto/2014/2014_1.pdf"
 page_image: "archive/02_kyoto/2014/2014_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標空間における次の3つの直線$l$，$m$，$n$を考える：
+座標空間における次の3つの直線$l$，$m$，$n$を考える：
 \begin{description}
 \item[]$l$は点$A(1, \, 0, \, -2)$を通り，
 ベクトル$\vec{u}=(2, \, 1, \, -1)$に平行な直線である．

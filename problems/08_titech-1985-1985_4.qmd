@@ -3,6 +3,7 @@ title: "東京科学大学 1985年 1985_4"
 problem_id: "08_titech-1985-1985_4"
 university: "東京科学大学"
 exam_year: "1985"
+problem_number: 4
 source_tex: "archive/08_titech/1985/1985_4.tex"
 pdf_source: "archive/08_titech/1985/1985_4.pdf"
 page_image: "archive/08_titech/1985/1985_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面上の点$(0, \, 2)$を通る曲線$C$上の$x\neq0$である任意の点$(x, \, y)$について，
+平面上の点$(0, \, 2)$を通る曲線$C$上の$x\neq0$である任意の点$(x, \, y)$について，
 その点での$C$の接線が点$\displaystyle\left( \frac{6x^3+1}{6x^2}, \, 2y \right)$を
 通るという．この曲線の方程式を求めよ．
 

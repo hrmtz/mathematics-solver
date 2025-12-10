@@ -3,6 +3,7 @@ title: "名古屋大学 1991年 1991_0_2"
 problem_id: "05_nagoya-1991-1991_0_2"
 university: "名古屋大学"
 exam_year: "1991"
+problem_number: 2
 source_tex: "archive/05_nagoya/1991/1991_0_2.tex"
 pdf_source: "archive/05_nagoya/1991/1991_0_2.pdf"
 page_image: "archive/05_nagoya/1991/1991_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a^2>b$を満たす点$A(a, \, b)$から曲線$y=x^2$へ2本の接線を引き，その接点を$P$，$Q$とおく．
+$a^2>b$を満たす点$A(a, \, b)$から曲線$y=x^2$へ2本の接線を引き，その接点を$P$，$Q$とおく．
 曲線$y=x^2$の弧$PQ$上に点$R$を$\triangle PQR$の面積が最大となるように選ぶ．
 このとき，
 \begin{description}

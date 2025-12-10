@@ -3,6 +3,7 @@ title: "東京大学 2023年 2023_6"
 problem_id: "01_tokyo-2023-2023_6"
 university: "東京大学"
 exam_year: "2023"
+problem_number: 6
 source_tex: "archive/01_tokyo/2023/2023_6.tex"
 pdf_source: "archive/01_tokyo/2023/2023_6.pdf"
 page_image: "archive/01_tokyo/2023/2023_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$O$を原点とする座標空間において，
+$O$を原点とする座標空間において，
 不等式$|x|\leqq1$，$|y|\leqq1$，$|z|\leqq1$の表す立方体を考える。
 その立方体の表面のうち，$z<1$を満たす部分を$S$とする。
 　以下，座標空間内の2点$A$，$B$が一致するとき，

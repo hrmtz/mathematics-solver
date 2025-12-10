@@ -3,6 +3,7 @@ title: "東京科学大学 1987年 1987_2"
 problem_id: "08_titech-1987-1987_2"
 university: "東京科学大学"
 exam_year: "1987"
+problem_number: 2
 source_tex: "archive/08_titech/1987/1987_2.tex"
 pdf_source: "archive/08_titech/1987/1987_2.pdf"
 page_image: "archive/08_titech/1987/1987_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xy$平面上の点$P_0(x_0, \, y_0)$が与えられている．
+$xy$平面上の点$P_0(x_0, \, y_0)$が与えられている．
 点列$P_n(x_n, \, y_n)$ $(n=1, \,2, \, 3, \, \cdots\cdots)$を
 \[ \begin{pmatrix} x_n 
 

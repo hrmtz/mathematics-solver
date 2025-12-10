@@ -3,6 +3,7 @@ title: "東京大学 2009年 2009_0_1"
 problem_id: "01_tokyo-2009-2009_0_1"
 university: "東京大学"
 exam_year: "2009"
+problem_number: 1
 source_tex: "archive/01_tokyo/2009/2009_0_1.tex"
 pdf_source: "archive/01_tokyo/2009/2009_0_1.pdf"
 page_image: "archive/01_tokyo/2009/2009_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　座標平面において原点を中心とする半径2の円を$C_1$とし，
+座標平面において原点を中心とする半径2の円を$C_1$とし，
 点$(1,0)$を中心とする半径1の円を$C_2$とする．
 また，点$(a,b)$を中心とする半径$t$の円$C_3$が，
 $C_1$に内接し，かつ$C_2$に外接すると仮定する．

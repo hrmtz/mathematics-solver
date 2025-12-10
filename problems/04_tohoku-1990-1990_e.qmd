@@ -3,6 +3,7 @@ title: "東北大学 1990年 1990_e"
 problem_id: "04_tohoku-1990-1990_e"
 university: "東北大学"
 exam_year: "1990"
+problem_number: 5
 source_tex: "archive/04_tohoku/1990/1990_e.tex"
 pdf_source: "archive/04_tohoku/1990/1990_e.pdf"
 page_image: "archive/04_tohoku/1990/1990_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$n$を自然数とし，$xy$平面上に$(n+1)$個の点$P_0=(0, \, 0)$，$P_1=(1, \, 0)$，
+$n$を自然数とし，$xy$平面上に$(n+1)$個の点$P_0=(0, \, 0)$，$P_1=(1, \, 0)$，
 $P_2$，$\cdots\cdots$，$P_n$をとる．
 点$P_2$，$P_3$，$\cdots\cdots$，$P_n$を
 \begin{description}

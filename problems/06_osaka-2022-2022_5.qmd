@@ -3,6 +3,7 @@ title: "大阪大学 2022年 2022_5"
 problem_id: "06_osaka-2022-2022_5"
 university: "大阪大学"
 exam_year: "2022"
+problem_number: 5
 source_tex: "archive/06_osaka/2022/2022_5.tex"
 pdf_source: "archive/06_osaka/2022/2022_5.pdf"
 page_image: "archive/06_osaka/2022/2022_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　座標平面において，$t$を媒介変数として
+座標平面において，$t$を媒介変数として
 \[ x=e^t\cos t+e^\pi, \hspace{1zw} y=e^t\sin t \hspace{1zw} (0 \leqq t \leqq \pi) \]
 で表される曲線を$C$とする．
 曲線$C$と$x$軸で囲まれた部分の面積を求めよ．

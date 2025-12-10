@@ -3,6 +3,7 @@ title: "東京大学 1994年 1994_1"
 problem_id: "01_tokyo-1994-1994_1"
 university: "東京大学"
 exam_year: "1994"
+problem_number: 1
 source_tex: "archive/01_tokyo/1994/1994_1.tex"
 pdf_source: "archive/01_tokyo/1994/1994_1.pdf"
 page_image: "archive/01_tokyo/1994/1994_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \[ f(x)=x^4+x^3+\frac{1}{2}x^2+\frac{1}{6}x+\frac{1}{24} \hspace{1zw}
 g(x)=x^5+x^4+\frac{1}{2}x^3+\frac{1}{6}x^2+\frac{1}{24}x+\frac{1}{120} \]
 とする．このとき，以下のことが成り立つことを示せ．

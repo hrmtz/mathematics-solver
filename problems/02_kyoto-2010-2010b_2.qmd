@@ -3,6 +3,7 @@ title: "京都大学 2010年 2010b_2"
 problem_id: "02_kyoto-2010-2010b_2"
 university: "京都大学"
 exam_year: "2010"
+problem_number: 2
 source_tex: "archive/02_kyoto/2010/2010b_2.tex"
 pdf_source: "archive/02_kyoto/2010/2010b_2.pdf"
 page_image: "archive/02_kyoto/2010/2010b_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$x$を正の実数とする．
+$x$を正の実数とする．
 座標平面上の3点$A(0,1)$，$B(0,2)$，$P(x,x)$をとり，$\triangle APB$を考える．
 $x$の値が変化するとき，$\angle APB$の最大値を求めよ．
 

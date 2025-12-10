@@ -3,6 +3,7 @@ title: "九州大学 1981年 1981_1"
 problem_id: "07_kyushu-1981-1981_1"
 university: "九州大学"
 exam_year: "1981"
+problem_number: 1
 source_tex: "archive/07_kyushu/1981/1981_1.tex"
 pdf_source: "archive/07_kyushu/1981/1981_1.pdf"
 page_image: "archive/07_kyushu/1981/1981_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$a$を正の数とするとき，2次関数
+$a$を正の数とするとき，2次関数
 \[ f(x)=-x^2+a^2+a \]
 について，次の(1)，(2)，(3)，(4)，(5)に答えよ．
 \begin{description}

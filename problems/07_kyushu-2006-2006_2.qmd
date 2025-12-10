@@ -3,6 +3,7 @@ title: "九州大学 2006年 2006_2"
 problem_id: "07_kyushu-2006-2006_2"
 university: "九州大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/07_kyushu/2006/2006_2.tex"
 pdf_source: "archive/07_kyushu/2006/2006_2.pdf"
 page_image: "archive/07_kyushu/2006/2006_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$\triangle OAB$において，辺$OB$の中点を$M$，辺$AB$を$\alpha:1-\alpha$に内分する点を$P$とする．
+$\triangle OAB$において，辺$OB$の中点を$M$，辺$AB$を$\alpha:1-\alpha$に内分する点を$P$とする．
 ただし，$0<\alpha<1$とする．
 線分$OP$と$AM$の交点を$Q$とし，
 $Q$を通り，線分$AM$に垂直な直線が，辺$OA$またはその延長と交わる点を$R$とする．

@@ -3,6 +3,7 @@ title: "北海道大学 1978年 1978_2"
 problem_id: "03_hokudai-1978-1978_2"
 university: "北海道大学"
 exam_year: "1978"
+problem_number: 2
 source_tex: "archive/03_hokudai/1978/1978_2.tex"
 pdf_source: "archive/03_hokudai/1978/1978_2.pdf"
 page_image: "archive/03_hokudai/1978/1978_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　空間内に4点$A(2, \, -2, \, 1)$，$B(1, \, 4, \, -1)$，$C(1, \, 1, \, 3)$，$D(-1, \, 5, \, 3)$を考え，
+空間内に4点$A(2, \, -2, \, 1)$，$B(1, \, 4, \, -1)$，$C(1, \, 1, \, 3)$，$D(-1, \, 5, \, 3)$を考え，
 $A$，$B$を通る直線を$l_1$，
 $C$，$D$を通る直線を$l_2$とする．
 \begin{description}

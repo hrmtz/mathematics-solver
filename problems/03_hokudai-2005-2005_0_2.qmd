@@ -3,6 +3,7 @@ title: "北海道大学 2005年 2005_0_2"
 problem_id: "03_hokudai-2005-2005_0_2"
 university: "北海道大学"
 exam_year: "2005"
+problem_number: 2
 source_tex: "archive/03_hokudai/2005/2005_0_2.tex"
 pdf_source: "archive/03_hokudai/2005/2005_0_2.pdf"
 page_image: "archive/03_hokudai/2005/2005_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]$x$についての2次方程式$x^2-2kx-3k^2+1=0$が虚数解をもつような実数$k$の値の範囲を求めよ．
 \item[(2)](1)で求めた$k$の範囲で

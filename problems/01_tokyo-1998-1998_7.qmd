@@ -3,6 +3,7 @@ title: "東京大学 1998年 1998_7"
 problem_id: "01_tokyo-1998-1998_7"
 university: "東京大学"
 exam_year: "1998"
+problem_number: 1
 source_tex: "archive/01_tokyo/1998/1998_7.tex"
 pdf_source: "archive/01_tokyo/1998/1998_7.pdf"
 page_image: "archive/01_tokyo/1998/1998_7.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$xy$平面上の点$P_1=(0,10)$を中心とし半径が1の円周$C_1$と，
+$xy$平面上の点$P_1=(0,10)$を中心とし半径が1の円周$C_1$と，
 $P_2=(0,0)$を中心とし半径が2の円周$C_2$を与える．
 $xy$の平面上の3点$Q$，$R$，$S$を頂点とし，
 角$\angle QRS$が直角になるような直角二等辺三角形$\triangle QRS$に関して次の問いに答えよ．

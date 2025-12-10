@@ -3,6 +3,7 @@ title: "大阪大学 2004年 2004_d"
 problem_id: "06_osaka-2004-2004_d"
 university: "大阪大学"
 exam_year: "2004"
+problem_number: 4
 source_tex: "archive/06_osaka/2004/2004_d.tex"
 pdf_source: "archive/06_osaka/2004/2004_d.pdf"
 page_image: "archive/06_osaka/2004/2004_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xyz$空間内の6点
+$xyz$空間内の6点
 \[ P_1(0, \, 0, \, 0), \hspace{1zw} P_2(1, \, 0, \, 0), \hspace{1zw}
 P_3 \left( \frac{1}{2}, \, \frac{\sqrt3}{2}, \, 0 \right), \hspace{1zw}
 Q_1(0, \, 0, \, 1), \hspace{1zw} Q_2(1, \, 0, \, 1), \hspace{1zw}

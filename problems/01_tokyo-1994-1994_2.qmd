@@ -3,6 +3,7 @@ title: "東京大学 1994年 1994_2"
 problem_id: "01_tokyo-1994-1994_2"
 university: "東京大学"
 exam_year: "1994"
+problem_number: 2
 source_tex: "archive/01_tokyo/1994/1994_2.tex"
 pdf_source: "archive/01_tokyo/1994/1994_2.pdf"
 page_image: "archive/01_tokyo/1994/1994_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$\displaystyle a=\sin^2\frac{\pi}{5}$，$\displaystyle b=\sin^2\frac{2\pi}{5}$とおく．
+$\displaystyle a=\sin^2\frac{\pi}{5}$，$\displaystyle b=\sin^2\frac{2\pi}{5}$とおく．
 このとき，以下のことが成り立つことを示せ．
 \begin{description}
 \item[(1)]$a+b$および$ab$は有理数である．

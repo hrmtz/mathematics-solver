@@ -3,6 +3,7 @@ title: "京都大学 1984年 1984_0_4"
 problem_id: "02_kyoto-1984-1984_0_4"
 university: "京都大学"
 exam_year: "1984"
+problem_number: 4
 source_tex: "archive/02_kyoto/1984/1984_0_4.tex"
 pdf_source: "archive/02_kyoto/1984/1984_0_4.pdf"
 page_image: "archive/02_kyoto/1984/1984_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$f(x)$と$g(x)$はいずれも$x$の整式で，次の条件を満たしているとする．
+$f(x)$と$g(x)$はいずれも$x$の整式で，次の条件を満たしているとする．
 \begin{description}
 \item[(イ)]$f(x)={ \{ g(x) \} }^2+a$(ただし$a$はある実数．)
 \item[(ロ)]$g'(x)=x+1$(ただし$g'(x)$は$g(x)$の導関数を表す．)

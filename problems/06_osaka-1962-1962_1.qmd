@@ -3,6 +3,7 @@ title: "大阪大学 1962年 1962_1"
 problem_id: "06_osaka-1962-1962_1"
 university: "大阪大学"
 exam_year: "1962"
+problem_number: 1
 source_tex: "archive/06_osaka/1962/1962_1.tex"
 pdf_source: "archive/06_osaka/1962/1962_1.pdf"
 page_image: "archive/06_osaka/1962/1962_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　中心$O$の定円に内接し，点$O$を内部に含む四辺形$ABCD$を
+中心$O$の定円に内接し，点$O$を内部に含む四辺形$ABCD$を
 \begin{description}
 \item[(1)]$\angle AOB={60}^\circ$
 \item[(2)]$\angle AOD+\angle BOC={180}^\circ$

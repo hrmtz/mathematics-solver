@@ -3,6 +3,7 @@ title: "九州大学 1985年 1985_2"
 problem_id: "07_kyushu-1985-1985_2"
 university: "九州大学"
 exam_year: "1985"
+problem_number: 2
 source_tex: "archive/07_kyushu/1985/1985_2.tex"
 pdf_source: "archive/07_kyushu/1985/1985_2.pdf"
 page_image: "archive/07_kyushu/1985/1985_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$xy$平面における2つの曲線$\displaystyle y=\frac{{(\log x)}^2}{\sqrt{x}}$，
+$xy$平面における2つの曲線$\displaystyle y=\frac{{(\log x)}^2}{\sqrt{x}}$，
 $\displaystyle y=\frac{\log x}{\sqrt{x}}$について，次の(1)，(2)に答えよ．
 \begin{description}
 \item[(1)]上の2つの曲線の$\displaystyle\frac{1}{e}\leqq x \leqq e$での概形をかき，

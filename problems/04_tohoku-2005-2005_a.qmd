@@ -3,6 +3,7 @@ title: "東北大学 2005年 2005_a"
 problem_id: "04_tohoku-2005-2005_a"
 university: "東北大学"
 exam_year: "2005"
+problem_number: 1
 source_tex: "archive/04_tohoku/2005/2005_a.tex"
 pdf_source: "archive/04_tohoku/2005/2005_a.pdf"
 page_image: "archive/04_tohoku/2005/2005_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　曲線$\displaystyle C_1:y=4x^2+\frac{1}{4}$上の
+曲線$\displaystyle C_1:y=4x^2+\frac{1}{4}$上の
 定点$\displaystyle P \left( a, \, 4a^2+\frac{1}{4} \right)$から，
 曲線$C_2:y=x^2$上の点$(x, \, x^2)$までの距離を$h(x)$とする．
 \begin{description}

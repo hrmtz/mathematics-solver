@@ -3,6 +3,7 @@ title: "九州大学 2006年 2006_0_4"
 problem_id: "07_kyushu-2006-2006_0_4"
 university: "九州大学"
 exam_year: "2006"
+problem_number: 4
 source_tex: "archive/07_kyushu/2006/2006_0_4.tex"
 pdf_source: "archive/07_kyushu/2006/2006_0_4.pdf"
 page_image: "archive/07_kyushu/2006/2006_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　関数$\displaystyle f(x)=\left| \left| \sin x-\frac{1}{2} \right| -\frac{1}{2} \right|$について，
+関数$\displaystyle f(x)=\left| \left| \sin x-\frac{1}{2} \right| -\frac{1}{2} \right|$について，
 次の問いに答えよ．ただし，$-\pi \leqq x \leqq \pi$とする．
 \begin{description}
 \item[(1)]$f(x)=0$となる$x$を求めよ．

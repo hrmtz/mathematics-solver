@@ -3,6 +3,7 @@ title: "九州大学 1999年 1999_a"
 problem_id: "07_kyushu-1999-1999_a"
 university: "九州大学"
 exam_year: "1999"
+problem_number: 1
 source_tex: "archive/07_kyushu/1999/1999_a.tex"
 pdf_source: "archive/07_kyushu/1999/1999_a.pdf"
 page_image: "archive/07_kyushu/1999/1999_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$\displaystyle f(x)=-\frac{1}{2}x+3$とする．$x_1=1$とおいて数列
+$\displaystyle f(x)=-\frac{1}{2}x+3$とする．$x_1=1$とおいて数列
 \[ x_n=f(x_{n-1}) \hspace{1zw} (n=2, \, 3, \, 4, \, \cdots\cdots) \]
 をつくり，平面座標上に点$P_n(x_n, \, f(x_n))$をとる．
 このとき，次の問いに答えよ．

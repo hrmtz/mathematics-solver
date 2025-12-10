@@ -3,6 +3,7 @@ title: "九州大学 1967年 1967_0_4"
 problem_id: "07_kyushu-1967-1967_0_4"
 university: "九州大学"
 exam_year: "1967"
+problem_number: 4
 source_tex: "archive/07_kyushu/1967/1967_0_4.tex"
 pdf_source: "archive/07_kyushu/1967/1967_0_4.pdf"
 page_image: "archive/07_kyushu/1967/1967_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次の方程式を解け．ただし，根は弧度法で表わせ．
+次の方程式を解け．ただし，根は弧度法で表わせ．
 \[ \log_{\sin x}\cos x+\log_{\cos x}\tan x=1 \]
 
 ---

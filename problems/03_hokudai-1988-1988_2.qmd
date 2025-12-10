@@ -3,6 +3,7 @@ title: "北海道大学 1988年 1988_2"
 problem_id: "03_hokudai-1988-1988_2"
 university: "北海道大学"
 exam_year: "1988"
+problem_number: 2
 source_tex: "archive/03_hokudai/1988/1988_2.tex"
 pdf_source: "archive/03_hokudai/1988/1988_2.pdf"
 page_image: "archive/03_hokudai/1988/1988_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　空間において，球面$S$と平面$\pi$をそれぞれ
+空間において，球面$S$と平面$\pi$をそれぞれ
 $\begin{cases} S:x^2+y^2+z^2=4 
 
  \pi:3x+4y+5\sqrt2z-15=0 \end{cases}$

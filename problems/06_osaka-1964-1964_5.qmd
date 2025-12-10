@@ -3,6 +3,7 @@ title: "大阪大学 1964年 1964_5"
 problem_id: "06_osaka-1964-1964_5"
 university: "大阪大学"
 exam_year: "1964"
+problem_number: 5
 source_tex: "archive/06_osaka/1964/1964_5.tex"
 pdf_source: "archive/06_osaka/1964/1964_5.pdf"
 page_image: "archive/06_osaka/1964/1964_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　曲線$y=x^3$の接線で，点$P(1, \, a)$を通るものの個数は，
+曲線$y=x^3$の接線で，点$P(1, \, a)$を通るものの個数は，
 $a$の値によってどのように変わるか。
 
 ---

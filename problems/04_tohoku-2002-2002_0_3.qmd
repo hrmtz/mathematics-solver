@@ -3,6 +3,7 @@ title: "東北大学 2002年 2002_0_3"
 problem_id: "04_tohoku-2002-2002_0_3"
 university: "東北大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/04_tohoku/2002/2002_0_3.tex"
 pdf_source: "archive/04_tohoku/2002/2002_0_3.pdf"
 page_image: "archive/04_tohoku/2002/2002_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　右の図のような格子状の道路がある．
+右の図のような格子状の道路がある．
 左下の$A$地点から出発し，サイコロを繰り返し振り，
 次の規則にしたがって進むものとする．
 1の目が出たら右に2区画，2の目が出たら右に1区画，3の目が出たら上に1区画進み，

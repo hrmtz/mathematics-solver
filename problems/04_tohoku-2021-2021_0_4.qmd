@@ -3,6 +3,7 @@ title: "東北大学 2021年 2021_0_4"
 problem_id: "04_tohoku-2021-2021_0_4"
 university: "東北大学"
 exam_year: "2021"
+problem_number: 4
 source_tex: "archive/04_tohoku/2021/2021_0_4.tex"
 pdf_source: "archive/04_tohoku/2021/2021_0_4.pdf"
 page_image: "archive/04_tohoku/2021/2021_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　以下の問いに答えよ。
+以下の問いに答えよ。
 \begin{description}
 \item[(1)]3次関数$y=x^3+x^2$のグラフと2次関数$y=x^2+4x+16$のグラフの
 共通接線（どちらのグラフにも接する直線）は2本ある。

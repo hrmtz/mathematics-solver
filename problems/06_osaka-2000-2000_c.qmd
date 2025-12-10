@@ -3,6 +3,7 @@ title: "大阪大学 2000年 2000_c"
 problem_id: "06_osaka-2000-2000_c"
 university: "大阪大学"
 exam_year: "2000"
+problem_number: 3
 source_tex: "archive/06_osaka/2000/2000_c.tex"
 pdf_source: "archive/06_osaka/2000/2000_c.pdf"
 page_image: "archive/06_osaka/2000/2000_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$a>0$とする．直線$l$が曲線
+$a>0$とする．直線$l$が曲線
 \[ C_1:y=\log x \text{と} C_2:y=\log(x-a)+a \]
 のどちらにも接している．
 \begin{description}

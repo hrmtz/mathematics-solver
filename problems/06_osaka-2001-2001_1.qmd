@@ -3,6 +3,7 @@ title: "大阪大学 2001年 2001_1"
 problem_id: "06_osaka-2001-2001_1"
 university: "大阪大学"
 exam_year: "2001"
+problem_number: 1
 source_tex: "archive/06_osaka/2001/2001_1.tex"
 pdf_source: "archive/06_osaka/2001/2001_1.pdf"
 page_image: "archive/06_osaka/2001/2001_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　2つの複素数$z=x+yi$，$w=u+vi$
+2つの複素数$z=x+yi$，$w=u+vi$
 （$x$，$y$，$u$，$v$は実数，$i=\sqrt{-1}$は虚数単位）に対し，
 $x \geqq u$と$y \geqq v$がともに成り立つとき，
 $z>>w$と書くことにする．

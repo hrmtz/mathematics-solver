@@ -3,6 +3,7 @@ title: "東北大学 1986年 1986_4"
 problem_id: "04_tohoku-1986-1986_4"
 university: "東北大学"
 exam_year: "1986"
+problem_number: 4
 source_tex: "archive/04_tohoku/1986/1986_4.tex"
 pdf_source: "archive/04_tohoku/1986/1986_4.pdf"
 page_image: "archive/04_tohoku/1986/1986_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>0, \, b>0)$を$x$軸のまわりに回転してできる回転体を考える．
+だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>0, \, b>0)$を$x$軸のまわりに回転してできる回転体を考える．
 この回転体から，取り除く部分の体積を最小にして，$x$軸と直交する2つの面をもつ直方体をつくりたい．
 取り除く部分の体積はいくらか．
 

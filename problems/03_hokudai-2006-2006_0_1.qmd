@@ -3,6 +3,7 @@ title: "北海道大学 2006年 2006_0_1"
 problem_id: "03_hokudai-2006-2006_0_1"
 university: "北海道大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/03_hokudai/2006/2006_0_1.tex"
 pdf_source: "archive/03_hokudai/2006/2006_0_1.pdf"
 page_image: "archive/03_hokudai/2006/2006_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$b$は実数とし，$c$は0でない実数とする。
+$b$は実数とし，$c$は0でない実数とする。
 2次方程式$x^2+bx+c=0$の解を$\alpha$，$\beta$とおく。
 \begin{description}
 \item[(1)]$\alpha$，$\beta$はともに0でないことを示せ。

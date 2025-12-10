@@ -3,6 +3,7 @@ title: "東京大学 1996年 1996_6"
 problem_id: "01_tokyo-1996-1996_6"
 university: "東京大学"
 exam_year: "1996"
+problem_number: 6
 source_tex: "archive/01_tokyo/1996/1996_6.tex"
 pdf_source: "archive/01_tokyo/1996/1996_6.pdf"
 page_image: "archive/01_tokyo/1996/1996_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$\alpha$，$\beta$を正の数とし，$xy$平面において，
+$\alpha$，$\beta$を正の数とし，$xy$平面において，
 \ruby{楕}{だ}円$\displaystyle C:\frac{x^2}{\alpha}+\frac{{(y-\sqrt\beta)}^2}{\beta}=1$と
 領域$D=\{(x,y)|x^2+y^2\leqq1\}$を考える．
 \begin{description}

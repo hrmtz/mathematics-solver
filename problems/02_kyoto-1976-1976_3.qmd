@@ -3,6 +3,7 @@ title: "京都大学 1976年 1976_3"
 problem_id: "02_kyoto-1976-1976_3"
 university: "京都大学"
 exam_year: "1976"
+problem_number: 3
 source_tex: "archive/02_kyoto/1976/1976_3.tex"
 pdf_source: "archive/02_kyoto/1976/1976_3.pdf"
 page_image: "archive/02_kyoto/1976/1976_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　多項式$f(x)$で，
+多項式$f(x)$で，
 等式$\displaystyle f(x)f'(x)+\int_1^xf(t)dt=\frac{4}{9}x-\frac{4}{9}$をみたしているものをすべて求めよ．
 ただし，$f'(x)$は$f(x)$の導関数をあらわす．
 

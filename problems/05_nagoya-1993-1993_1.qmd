@@ -3,6 +3,7 @@ title: "名古屋大学 1993年 1993_1"
 problem_id: "05_nagoya-1993-1993_1"
 university: "名古屋大学"
 exam_year: "1993"
+problem_number: 1
 source_tex: "archive/05_nagoya/1993/1993_1.tex"
 pdf_source: "archive/05_nagoya/1993/1993_1.pdf"
 page_image: "archive/05_nagoya/1993/1993_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の3直線(i)，(ii)，(iii)のすべてに直交する直線が存在するように$a$，$b$を定めよ．
+次の3直線(i)，(ii)，(iii)のすべてに直交する直線が存在するように$a$，$b$を定めよ．
 \begin{description}
 \item[(i)]$x-1=y-2=-(z-3)$，
 \item[(ii)]$\displaystyle\frac{x+1}{3}=\frac{y+2}{-3}=z+3$，

@@ -3,6 +3,7 @@ title: "京都大学 2003年 2003_5"
 problem_id: "02_kyoto-2003-2003_5"
 university: "京都大学"
 exam_year: "2003"
+problem_number: 5
 source_tex: "archive/02_kyoto/2003/2003_5.tex"
 pdf_source: "archive/02_kyoto/2003/2003_5.pdf"
 page_image: "archive/02_kyoto/2003/2003_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$a$，$b$，$c$，$d$を実数とする．
+$a$，$b$，$c$，$d$を実数とする．
 2次の正方行列$A=\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$と2次の単位行列$E$に対して，

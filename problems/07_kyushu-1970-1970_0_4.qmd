@@ -3,6 +3,7 @@ title: "九州大学 1970年 1970_0_4"
 problem_id: "07_kyushu-1970-1970_0_4"
 university: "九州大学"
 exam_year: "1970"
+problem_number: 4
 source_tex: "archive/07_kyushu/1970/1970_0_4.tex"
 pdf_source: "archive/07_kyushu/1970/1970_0_4.pdf"
 page_image: "archive/07_kyushu/1970/1970_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　複素平面上に図のような正6角形$z_1z_2z_3z_4z_5z_6$が与えられているとき，
+複素平面上に図のような正6角形$z_1z_2z_3z_4z_5z_6$が与えられているとき，
 $z_2$，$z_3$，$z_5$，$z_6$を$z_1$，$z_4$で表わせ．
  
 

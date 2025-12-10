@@ -3,6 +3,7 @@ title: "東北大学 1992年 1992_e"
 problem_id: "04_tohoku-1992-1992_e"
 university: "東北大学"
 exam_year: "1992"
+problem_number: 5
 source_tex: "archive/04_tohoku/1992/1992_e.tex"
 pdf_source: "archive/04_tohoku/1992/1992_e.pdf"
 page_image: "archive/04_tohoku/1992/1992_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　第1象限内に曲線$C:y=e^{2x}f(x)$がある．
+第1象限内に曲線$C:y=e^{2x}f(x)$がある．
 曲線$C$上の点$P(x, \, y)$における法線が$x$軸とただ1つの交点$Q$をもち，
 線分$PQ$の中点$M$がつねに放物線$x=4y^2+1$の上にあるとする．
 \begin{description}

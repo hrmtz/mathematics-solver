@@ -3,6 +3,7 @@ title: "大阪大学 1961年 1961_3"
 problem_id: "06_osaka-1961-1961_3"
 university: "大阪大学"
 exam_year: "1961"
+problem_number: 3
 source_tex: "archive/06_osaka/1961/1961_3.tex"
 pdf_source: "archive/06_osaka/1961/1961_3.pdf"
 page_image: "archive/06_osaka/1961/1961_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　方程式
+方程式
 \[ 2x^2+3xy+ay^2+bx+2y+4=0 \]
 は互いに直交する2つの直線を表わすという。
 これらの2直線を求め，図示せよ。

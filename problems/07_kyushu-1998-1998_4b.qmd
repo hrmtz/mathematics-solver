@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_4b"
 problem_id: "07_kyushu-1998-1998_4b"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/07_kyushu/1998/1998_4b.tex"
 pdf_source: "archive/07_kyushu/1998/1998_4b.pdf"
 page_image: "archive/07_kyushu/1998/1998_4b.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-4 (b)
 \begin{description}
 \item[(1)]自然数$n=1, \, 2, \, 3, \, \cdots\cdots$について，次の等式が成り立つことを示せ．
 \[ 1^2+2^2+3^2+\cdots\cdots+n^2=\frac{1}{6}n(n+1)(2n+1) \]

@@ -3,6 +3,7 @@ title: "京都大学 1976年 1976_6"
 problem_id: "02_kyoto-1976-1976_6"
 university: "京都大学"
 exam_year: "1976"
+problem_number: 6
 source_tex: "archive/02_kyoto/1976/1976_6.tex"
 pdf_source: "archive/02_kyoto/1976/1976_6.pdf"
 page_image: "archive/02_kyoto/1976/1976_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　外観では区別できない2つの袋$U_1$，$U_2$があり，
+外観では区別できない2つの袋$U_1$，$U_2$があり，
 $U_1$には$4n$個の赤玉と$n$個の白玉，$U_2$には$2n$個の赤玉と$3n$個の白玉がそれぞれ入っている．
 この袋のどちらかが観測者に手渡され，
 袋$U_1$が手渡される確率は$\displaystyle\frac{2}{3}$，

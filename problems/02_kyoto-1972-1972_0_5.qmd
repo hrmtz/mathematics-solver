@@ -3,6 +3,7 @@ title: "京都大学 1972年 1972_0_5"
 problem_id: "02_kyoto-1972-1972_0_5"
 university: "京都大学"
 exam_year: "1972"
+problem_number: 5
 source_tex: "archive/02_kyoto/1972/1972_0_5.tex"
 pdf_source: "archive/02_kyoto/1972/1972_0_5.pdf"
 page_image: "archive/02_kyoto/1972/1972_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$a$，$c$を定数，$t$を媒介変数として次の式で表わされる$xy-$平面上の曲線がある．
+$a$，$c$を定数，$t$を媒介変数として次の式で表わされる$xy-$平面上の曲線がある．
 \[ \begin{cases} x=ca^t+t & (a>1) 
 
  y=ca^t-t & (t\text{はすべての実数値をとる}) \end{cases} \]

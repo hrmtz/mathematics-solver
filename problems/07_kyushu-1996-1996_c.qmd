@@ -3,6 +3,7 @@ title: "九州大学 1996年 1996_c"
 problem_id: "07_kyushu-1996-1996_c"
 university: "九州大学"
 exam_year: "1996"
+problem_number: 3
 source_tex: "archive/07_kyushu/1996/1996_c.tex"
 pdf_source: "archive/07_kyushu/1996/1996_c.pdf"
 page_image: "archive/07_kyushu/1996/1996_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$\theta$ $\displaystyle\left(-\frac{\pi}{3}\leqq\theta\leqq\frac{\pi}{3}\right)$を媒介変数として
+$\theta$ $\displaystyle\left(-\frac{\pi}{3}\leqq\theta\leqq\frac{\pi}{3}\right)$を媒介変数として
 \[ x=a\cos2\theta, \hspace{1zw} y=b\sin3\theta \]
 で表される曲線$C$がある．ただし，$a$，$b$はともに正の定数である．
 \begin{description}

@@ -3,6 +3,7 @@ title: "京都大学 1991年 1991_0_2"
 problem_id: "02_kyoto-1991-1991_0_2"
 university: "京都大学"
 exam_year: "1991"
+problem_number: 2
 source_tex: "archive/02_kyoto/1991/1991_0_2.tex"
 pdf_source: "archive/02_kyoto/1991/1991_0_2.pdf"
 page_image: "archive/02_kyoto/1991/1991_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$a$，$b$は正の実数とする．
+$a$，$b$は正の実数とする．
 円$C:x^2+{(y-a)}^2=1$，双曲線$H:y^2-x^2=b^2$を考える．
 $H$の上半分($y$座標が正の部分)を$H_+$，下半分($y$座標が負の部分)を$H_-$とする．
 \begin{description}

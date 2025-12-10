@@ -3,6 +3,7 @@ title: "京都大学 1985年 1985_3"
 problem_id: "02_kyoto-1985-1985_3"
 university: "京都大学"
 exam_year: "1985"
+problem_number: 3
 source_tex: "archive/02_kyoto/1985/1985_3.tex"
 pdf_source: "archive/02_kyoto/1985/1985_3.pdf"
 page_image: "archive/02_kyoto/1985/1985_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$b$，$c$は実数とし，$x^2+2bx+c=0$の2根を$\alpha$，$\beta$とする．
+$b$，$c$は実数とし，$x^2+2bx+c=0$の2根を$\alpha$，$\beta$とする．
 \begin{description}
 \item[(i)]$b^2-c<0$，$b\neq0$とすれば，
 いかなる複素数$\gamma$に対しても$\gamma=t\alpha+u\beta$となる実数$t$，$u$が存在することを示せ．

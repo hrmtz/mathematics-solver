@@ -3,6 +3,7 @@ title: "東京大学 1982年 1982_5"
 problem_id: "01_tokyo-1982-1982_5"
 university: "東京大学"
 exam_year: "1982"
+problem_number: 5
 source_tex: "archive/01_tokyo/1982/1982_5.tex"
 pdf_source: "archive/01_tokyo/1982/1982_5.pdf"
 page_image: "archive/01_tokyo/1982/1982_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$xyz$空間において，不等式$0 \leqq z \leqq 1+x+y-3(x-y)y$，$0 \leqq y \leqq 1$，
+$xyz$空間において，不等式$0 \leqq z \leqq 1+x+y-3(x-y)y$，$0 \leqq y \leqq 1$，
 $y \leqq x \leqq y+1$のすべてを満足する
 $x$，$y$，$z$を座標にもつ点全体がつくる立体の体積を求めよ．
 

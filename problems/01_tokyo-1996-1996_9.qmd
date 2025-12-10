@@ -3,6 +3,7 @@ title: "東京大学 1996年 1996_9"
 problem_id: "01_tokyo-1996-1996_9"
 university: "東京大学"
 exam_year: "1996"
+problem_number: 3
 source_tex: "archive/01_tokyo/1996/1996_9.tex"
 pdf_source: "archive/01_tokyo/1996/1996_9.pdf"
 page_image: "archive/01_tokyo/1996/1996_9.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　直円柱形の石油タンクが，
+直円柱形の石油タンクが，
 図のように側面の一母線で水平な地面と接する形に横倒しになり，
 地面と接する一点に穴があいて石油が流出しはじめた．
 倒壊前の石油タンクは一杯で，

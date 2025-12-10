@@ -3,6 +3,7 @@ title: "大阪大学 1962年 1962_0_4"
 problem_id: "06_osaka-1962-1962_0_4"
 university: "大阪大学"
 exam_year: "1962"
+problem_number: 4
 source_tex: "archive/06_osaka/1962/1962_0_4.tex"
 pdf_source: "archive/06_osaka/1962/1962_0_4.pdf"
 page_image: "archive/06_osaka/1962/1962_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　放物線$y=x^2-2$上の点$P$と，2点$A(-1, \, 0)$，$B(1, \, a)$ $(a\geqq0)$とを結ぶ線分$AP$，$BP$を
+放物線$y=x^2-2$上の点$P$と，2点$A(-1, \, 0)$，$B(1, \, a)$ $(a\geqq0)$とを結ぶ線分$AP$，$BP$を
 それぞれ1辺とする正方形の面積の和を$S$とする。
 \begin{description}
 \item[(1)]点$P$の座標をどのように選べば，$S$は最小となるか。

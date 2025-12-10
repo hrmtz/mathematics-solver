@@ -3,6 +3,7 @@ title: "名古屋大学 1969年 1969_3"
 problem_id: "05_nagoya-1969-1969_3"
 university: "名古屋大学"
 exam_year: "1969"
+problem_number: 3
 source_tex: "archive/05_nagoya/1969/1969_3.tex"
 pdf_source: "archive/05_nagoya/1969/1969_3.pdf"
 page_image: "archive/05_nagoya/1969/1969_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$\triangle ABC$の内部に点$P$があって
+$\triangle ABC$の内部に点$P$があって
 $3\overrightarrow{AP}+4\overrightarrow{BP}+5\overrightarrow{CP}=0$である．
 $\triangle ABP$，$\triangle BCP$，$\triangle CAP$の面積の比を求めよ．
 

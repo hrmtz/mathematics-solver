@@ -3,6 +3,7 @@ title: "京都大学 2010年 2010a_0_2"
 problem_id: "02_kyoto-2010-2010a_0_2"
 university: "京都大学"
 exam_year: "2010"
+problem_number: 2
 source_tex: "archive/02_kyoto/2010/2010a_0_2.tex"
 pdf_source: "archive/02_kyoto/2010/2010a_0_2.pdf"
 page_image: "archive/02_kyoto/2010/2010a_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標平面上の点$P(x,y)$が$4x+y \leqq 9$，$x+2y \geqq 4$，$2x-3y\geqq-6$の範囲を動くとき，
+座標平面上の点$P(x,y)$が$4x+y \leqq 9$，$x+2y \geqq 4$，$2x-3y\geqq-6$の範囲を動くとき，
 $2x+y$，$x^2+y^2$のそれぞれの最大値と最小値を求めよ．
 
 ---

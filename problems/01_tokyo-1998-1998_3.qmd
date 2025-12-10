@@ -3,6 +3,7 @@ title: "東京大学 1998年 1998_3"
 problem_id: "01_tokyo-1998-1998_3"
 university: "東京大学"
 exam_year: "1998"
+problem_number: 3
 source_tex: "archive/01_tokyo/1998/1998_3.tex"
 pdf_source: "archive/01_tokyo/1998/1998_3.pdf"
 page_image: "archive/01_tokyo/1998/1998_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$xy$平面に2つの円
+$xy$平面に2つの円
 \[
 C_0:x^2+{ \left( y-\frac{1}{2} \right) }^2=\frac{1}{4}, \hspace{1zw}
 C_1:{(x-1)}^2+{ \left( y-\frac{1}{2} \right) }^2=\frac{1}{4}

@@ -3,6 +3,7 @@ title: "東京科学大学 2016年 2016_2"
 problem_id: "08_titech-2016-2016_2"
 university: "東京科学大学"
 exam_year: "2016"
+problem_number: 2
 source_tex: "archive/08_titech/2016/2016_2.tex"
 pdf_source: "archive/08_titech/2016/2016_2.pdf"
 page_image: "archive/08_titech/2016/2016_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$\triangle ABC$を一辺の長さ6の正三角形とする．
+$\triangle ABC$を一辺の長さ6の正三角形とする．
 サイコロを3回振り，出た目を順に$X$，$Y$，$Z$とする．
 出た目に応じて，点$P$，$Q$，$R$をそれぞれ線分$BC$，$CA$，$AB$上に
 \[ \overrightarrow{BP}=\frac{X}{6}\overrightarrow{BC}, \hspace{1zw}

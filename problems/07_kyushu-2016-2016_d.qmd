@@ -3,6 +3,7 @@ title: "九州大学 2016年 2016_d"
 problem_id: "07_kyushu-2016-2016_d"
 university: "九州大学"
 exam_year: "2016"
+problem_number: 4
 source_tex: "archive/07_kyushu/2016/2016_d.tex"
 pdf_source: "archive/07_kyushu/2016/2016_d.pdf"
 page_image: "archive/07_kyushu/2016/2016_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　正の実数$a$，$b$に対して$\displaystyle A(a, \, b)=\frac{a+b}{2}$，
+正の実数$a$，$b$に対して$\displaystyle A(a, \, b)=\frac{a+b}{2}$，
 $G(a, \, b)=\sqrt{ab}$とする。以下の問いに答えよ。
 \begin{description}
 \item[(1)]$\min(a, \, b) \leqq G(a, \, b) \leqq A(a, \, b) \leqq \max(a, \, b)$が

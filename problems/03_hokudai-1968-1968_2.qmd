@@ -3,6 +3,7 @@ title: "北海道大学 1968年 1968_2"
 problem_id: "03_hokudai-1968-1968_2"
 university: "北海道大学"
 exam_year: "1968"
+problem_number: 2
 source_tex: "archive/03_hokudai/1968/1968_2.tex"
 pdf_source: "archive/03_hokudai/1968/1968_2.pdf"
 page_image: "archive/03_hokudai/1968/1968_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　曲線$9x^2+8y^2=27\cdots\cdots\text{\ding{"AC}}$，
+曲線$9x^2+8y^2=27\cdots\cdots\text{\ding{"AC}}$，
 $\displaystyle\frac{1}{36}x^2+\frac{5}{81}y^2=1\cdots\cdots\text{\ding{"AD}}$がある．
 直線$y=x\tan\alpha$ $\displaystyle \left( 0<\alpha<\frac{\pi}{2} \right)$と
 \ding{"AC}，\ding{"AD}との第1象限での交点をそれぞれ$P$，$Q$とするとき，

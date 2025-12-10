@@ -3,6 +3,7 @@ title: "名古屋大学 1980年 1980_3b"
 problem_id: "05_nagoya-1980-1980_3b"
 university: "名古屋大学"
 exam_year: "1980"
+problem_number: 3
 source_tex: "archive/05_nagoya/1980/1980_3b.tex"
 pdf_source: "archive/05_nagoya/1980/1980_3b.pdf"
 page_image: "archive/05_nagoya/1980/1980_3b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (b)
-　2つの数${(0.99)}^{99}$と${(1.01)}^{-101}$との大小を比較せよ．
+2つの数${(0.99)}^{99}$と${(1.01)}^{-101}$との大小を比較せよ．
 
 ---
 

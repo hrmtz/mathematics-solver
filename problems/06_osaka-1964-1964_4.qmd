@@ -3,6 +3,7 @@ title: "大阪大学 1964年 1964_4"
 problem_id: "06_osaka-1964-1964_4"
 university: "大阪大学"
 exam_year: "1964"
+problem_number: 4
 source_tex: "archive/06_osaka/1964/1964_4.tex"
 pdf_source: "archive/06_osaka/1964/1964_4.pdf"
 page_image: "archive/06_osaka/1964/1964_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　2つの放物線$y=x^2+ax+1$，$y=2x^2+x+a$が異なる2点で交わるような定数$a$の値の範囲を定めよ。
+2つの放物線$y=x^2+ax+1$，$y=2x^2+x+a$が異なる2点で交わるような定数$a$の値の範囲を定めよ。
 　また，この範囲で$a$の値が変化するとき，その2つの交点を結ぶ線分の中点がえがく図形を求めよ。
 
 ---

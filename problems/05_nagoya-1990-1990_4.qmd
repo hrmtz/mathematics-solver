@@ -3,6 +3,7 @@ title: "名古屋大学 1990年 1990_4"
 problem_id: "05_nagoya-1990-1990_4"
 university: "名古屋大学"
 exam_year: "1990"
+problem_number: 4
 source_tex: "archive/05_nagoya/1990/1990_4.tex"
 pdf_source: "archive/05_nagoya/1990/1990_4.pdf"
 page_image: "archive/05_nagoya/1990/1990_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　円$D$は$xy$平面で$x>0$の部分にあり，
+円$D$は$xy$平面で$x>0$の部分にあり，
 中心$C$は$x$軸上にあって，
 曲線$\displaystyle y=\frac{1}{\sqrt{x}}$とは
 点$\displaystyle P \left( a, \, \frac{1}{\sqrt{a}} \right)$で

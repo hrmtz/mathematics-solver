@@ -3,6 +3,7 @@ title: "東京科学大学 1994年 1994_a"
 problem_id: "08_titech-1994-1994_a"
 university: "東京科学大学"
 exam_year: "1994"
+problem_number: 1
 source_tex: "archive/08_titech/1994/1994_a.tex"
 pdf_source: "archive/08_titech/1994/1994_a.pdf"
 page_image: "archive/08_titech/1994/1994_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　関数$f(x)$に対し
+関数$f(x)$に対し
 \[ F(x) = \int_0^x f(t) dt \]
 とおく．ある定数$a$，$b$，$c$が存在して
 \[ F(x) = x^2 + ax|x-b| + cx \]

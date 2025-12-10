@@ -3,6 +3,7 @@ title: "東京大学 2025年 2025_0_3"
 problem_id: "01_tokyo-2025-2025_0_3"
 university: "東京大学"
 exam_year: "2025"
+problem_number: 3
 source_tex: "archive/01_tokyo/2025/2025_0_3.tex"
 pdf_source: "archive/01_tokyo/2025/2025_0_3.pdf"
 page_image: "archive/01_tokyo/2025/2025_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　白玉2個が横に並んでいる。投げたとき表と裏のでる確率がそれぞれ$\displaystyle\frac{1}{2}$のコインを
+白玉2個が横に並んでいる。投げたとき表と裏のでる確率がそれぞれ$\displaystyle\frac{1}{2}$のコインを
 用いて，次の手順(＊)をくり返し，白玉または黒玉を横一列に並べていく。
 \begin{description}
 \item[手順(＊)]コインを投げ，表がでたら白玉，裏がでたら黒玉を，

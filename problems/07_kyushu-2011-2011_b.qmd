@@ -3,6 +3,7 @@ title: "九州大学 2011年 2011_b"
 problem_id: "07_kyushu-2011-2011_b"
 university: "九州大学"
 exam_year: "2011"
+problem_number: 2
 source_tex: "archive/07_kyushu/2011/2011_b.tex"
 pdf_source: "archive/07_kyushu/2011/2011_b.pdf"
 page_image: "archive/07_kyushu/2011/2011_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　以下の問いに答えよ。
+以下の問いに答えよ。
 \begin{description}
 \item[(1)]原点のまわりの角$\theta$の回転移動を表す行列を$R_\theta$とする。
 回転$R_\theta$によって点$(2, \, 1)$に移されるもとの点$(a, \, b)$を求めよ。

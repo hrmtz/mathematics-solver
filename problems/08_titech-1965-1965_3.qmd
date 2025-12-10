@@ -3,6 +3,7 @@ title: "東京科学大学 1965年 1965_3"
 problem_id: "08_titech-1965-1965_3"
 university: "東京科学大学"
 exam_year: "1965"
+problem_number: 3
 source_tex: "archive/08_titech/1965/1965_3.tex"
 pdf_source: "archive/08_titech/1965/1965_3.pdf"
 page_image: "archive/08_titech/1965/1965_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$0 \leqq x<\pi$，$0 \leqq y<\pi$，$\sin2x+\sin2y=1$のとき，
+$0 \leqq x<\pi$，$0 \leqq y<\pi$，$\sin2x+\sin2y=1$のとき，
 $|x-y|$を最大または最小にする$x$，$y$の値を求めよ。
 
 ---

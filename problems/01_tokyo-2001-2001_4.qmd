@@ -3,6 +3,7 @@ title: "東京大学 2001年 2001_4"
 problem_id: "01_tokyo-2001-2001_4"
 university: "東京大学"
 exam_year: "2001"
+problem_number: 4
 source_tex: "archive/01_tokyo/2001/2001_4.tex"
 pdf_source: "archive/01_tokyo/2001/2001_4.pdf"
 page_image: "archive/01_tokyo/2001/2001_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　複素数平面上の点$a_1,a_2,\cdots,a_n,\cdots$を
+複素数平面上の点$a_1,a_2,\cdots,a_n,\cdots$を
 $\begin{cases}
 a_1=1, \hspace{1zw} a_2=i,
 a_{n+2}=a_{n+1}+a_n \hspace{1zw} (n=1,2,\cdots)

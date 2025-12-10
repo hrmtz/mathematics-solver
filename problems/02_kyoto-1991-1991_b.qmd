@@ -3,6 +3,7 @@ title: "京都大学 1991年 1991_b"
 problem_id: "02_kyoto-1991-1991_b"
 university: "京都大学"
 exam_year: "1991"
+problem_number: 2
 source_tex: "archive/02_kyoto/1991/1991_b.tex"
 pdf_source: "archive/02_kyoto/1991/1991_b.pdf"
 page_image: "archive/02_kyoto/1991/1991_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　1辺の長さ2cmの正4面体を，1つの面を下にして水平面上に置く．
+1辺の長さ2cmの正4面体を，1つの面を下にして水平面上に置く．
 この正4面体の各辺の中点を頂点とする正8面体$H$を中空の容器と考える．
 \begin{description}
 \item[(1)]容器$H$の高さ$h_0(\text{cm})$を求めよ．

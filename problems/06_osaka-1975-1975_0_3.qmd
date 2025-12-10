@@ -3,6 +3,7 @@ title: "大阪大学 1975年 1975_0_3"
 problem_id: "06_osaka-1975-1975_0_3"
 university: "大阪大学"
 exam_year: "1975"
+problem_number: 3
 source_tex: "archive/06_osaka/1975/1975_0_3.tex"
 pdf_source: "archive/06_osaka/1975/1975_0_3.pdf"
 page_image: "archive/06_osaka/1975/1975_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　3次方程式$x^3+ax^2+bx+c=0$の根が，連続した3整数であるとき，
+3次方程式$x^3+ax^2+bx+c=0$の根が，連続した3整数であるとき，
 曲線$y=x^3+ax^2+bx+c$と，
 その極小点（$y$が極小値をとる曲線上の点）における接線とで囲まれる図形の面積を求めよ．
 

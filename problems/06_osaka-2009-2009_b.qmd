@@ -3,6 +3,7 @@ title: "大阪大学 2009年 2009_b"
 problem_id: "06_osaka-2009-2009_b"
 university: "大阪大学"
 exam_year: "2009"
+problem_number: 2
 source_tex: "archive/06_osaka/2009/2009_b.tex"
 pdf_source: "archive/06_osaka/2009/2009_b.pdf"
 page_image: "archive/06_osaka/2009/2009_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　以下の問いに答えよ．
+以下の問いに答えよ．
 \begin{description}
 \item[(1)]$\sqrt3$が無理数であることを証明せよ．
 \item[(2)]$a$，$b$を有理数とする．多項式$f(x)=x^2+ax+b$が$f(1+\sqrt3)=0$を満たすとき，

@@ -3,6 +3,7 @@ title: "東京大学 1979年 1979_4"
 problem_id: "01_tokyo-1979-1979_4"
 university: "東京大学"
 exam_year: "1979"
+problem_number: 4
 source_tex: "archive/01_tokyo/1979/1979_4.tex"
 pdf_source: "archive/01_tokyo/1979/1979_4.pdf"
 page_image: "archive/01_tokyo/1979/1979_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面上の点$O$を中心とする半径1の円周上に点$P$をとり，
+平面上の点$O$を中心とする半径1の円周上に点$P$をとり，
 円の内部または周上に2点$Q$，$R$を，
 $\triangle PQR$が1辺の長さ$\displaystyle\frac{2}{\sqrt3}$の正三角形になるようにとる．
 このとき，${OQ}^2+{OR}^2$の最大値および最小値を求めよ．

@@ -3,6 +3,7 @@ title: "東北大学 2006年 2006_b"
 problem_id: "04_tohoku-2006-2006_b"
 university: "東北大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/04_tohoku/2006/2006_b.tex"
 pdf_source: "archive/04_tohoku/2006/2006_b.pdf"
 page_image: "archive/04_tohoku/2006/2006_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　数列$\{ a_n \}$に対して初項$a_1$から第$n$項$a_n$までの和を$S_n$とする．
+数列$\{ a_n \}$に対して初項$a_1$から第$n$項$a_n$までの和を$S_n$とする．
 $p$は定数とし，$n=1, \, 2, \, 3, \, \cdots$に対し
 \[ S_n=\frac{n}{3}(2p+a_n) \]
 が満たされているものとし，$b_n=a_{n+2}-a_{n+1}$とおく．

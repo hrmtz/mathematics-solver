@@ -3,6 +3,7 @@ title: "京都大学 1978年 1978_5"
 problem_id: "02_kyoto-1978-1978_5"
 university: "京都大学"
 exam_year: "1978"
+problem_number: 5
 source_tex: "archive/02_kyoto/1978/1978_5.tex"
 pdf_source: "archive/02_kyoto/1978/1978_5.pdf"
 page_image: "archive/02_kyoto/1978/1978_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$m$，$n$は整数とし，$f(x)=x^3+mx^2+nx+2$とする．
+$m$，$n$は整数とし，$f(x)=x^3+mx^2+nx+2$とする．
 \begin{description}
 \item[(i)]方程式$f(x)=0$が三つの整数解(重解があってもよい)をもつような$m$，$n$の組をすべて求めよ．
 \item[(ii)]方程式$f(x)=0$が少なくとも一つの整数解をもつために$m$，$n$がみたすべき必要十分条件を求めよ．

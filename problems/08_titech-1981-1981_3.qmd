@@ -3,6 +3,7 @@ title: "東京科学大学 1981年 1981_3"
 problem_id: "08_titech-1981-1981_3"
 university: "東京科学大学"
 exam_year: "1981"
+problem_number: 3
 source_tex: "archive/08_titech/1981/1981_3.tex"
 pdf_source: "archive/08_titech/1981/1981_3.pdf"
 page_image: "archive/08_titech/1981/1981_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　3点$P, \, Q, \, R$はそれぞれ原点$O$を中心とする半径$1, \, 2, \, 3$の円周上で，
+3点$P, \, Q, \, R$はそれぞれ原点$O$を中心とする半径$1, \, 2, \, 3$の円周上で，
 正の向きに角速度$1, \, 2, \, 3$の等速円運動をしている動点とする．
 $\triangle PQR$の面積の最大値を求めよ．
 ただし，ある時刻において2点$P$，$Q$は線分$OR$上にあるとする．

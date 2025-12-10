@@ -3,6 +3,7 @@ title: "東北大学 1990年 1990_6"
 problem_id: "04_tohoku-1990-1990_6"
 university: "東北大学"
 exam_year: "1990"
+problem_number: 6
 source_tex: "archive/04_tohoku/1990/1990_6.tex"
 pdf_source: "archive/04_tohoku/1990/1990_6.pdf"
 page_image: "archive/04_tohoku/1990/1990_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　記号＋と－を重複を許し1列に並べてできる列のうち，
+記号＋と－を重複を許し1列に並べてできる列のうち，
 同じ記号は3つ以上連続して並ばないものを考える．
 ＋と－という記号を全部で$n$個$(n\geqq2)$使ってつくられるこのような列のうち，
 最後が＋＋または－－で終わる列の個数を$a_n$とおき，

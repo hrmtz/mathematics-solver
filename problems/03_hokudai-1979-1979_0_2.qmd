@@ -3,6 +3,7 @@ title: "北海道大学 1979年 1979_0_2"
 problem_id: "03_hokudai-1979-1979_0_2"
 university: "北海道大学"
 exam_year: "1979"
+problem_number: 2
 source_tex: "archive/03_hokudai/1979/1979_0_2.tex"
 pdf_source: "archive/03_hokudai/1979/1979_0_2.pdf"
 page_image: "archive/03_hokudai/1979/1979_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　2点$P(0, \, 4, \, -1)$，$Q(8, \, -8, \, 3)$を通る直線上の点で，
+2点$P(0, \, 4, \, -1)$，$Q(8, \, -8, \, 3)$を通る直線上の点で，
 点$A(1, \, 1, \, 2)$に最も近い点を求めよ．
 
 ---

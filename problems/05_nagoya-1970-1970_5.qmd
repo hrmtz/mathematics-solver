@@ -3,6 +3,7 @@ title: "名古屋大学 1970年 1970_5"
 problem_id: "05_nagoya-1970-1970_5"
 university: "名古屋大学"
 exam_year: "1970"
+problem_number: 5
 source_tex: "archive/05_nagoya/1970/1970_5.tex"
 pdf_source: "archive/05_nagoya/1970/1970_5.pdf"
 page_image: "archive/05_nagoya/1970/1970_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　次の(1)，(2)を証明せよ．
+次の(1)，(2)を証明せよ．
 \begin{description}
 \item[(1)]$\sin x$は，$x$の整式としては表わせない．
 \item[(2)]$f(x)$は実数全体を定義域とする微分できる関数で，$f(1)=0$である．このとき

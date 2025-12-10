@@ -3,6 +3,7 @@ title: "京都大学 2010年 2010a_5"
 problem_id: "02_kyoto-2010-2010a_5"
 university: "京都大学"
 exam_year: "2010"
+problem_number: 5
 source_tex: "archive/02_kyoto/2010/2010a_5.tex"
 pdf_source: "archive/02_kyoto/2010/2010a_5.pdf"
 page_image: "archive/02_kyoto/2010/2010a_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$a$を正の実数とする．
+$a$を正の実数とする．
 座標平面において曲線$y=\sin x$ $(0 \leqq x \leqq \pi)$と$x$軸とで囲まれた図形の面積を$S$とし，
 曲線$y=\sin x$ $\displaystyle \left( 0 \leqq x \leqq \frac{\pi}{2} \right)$，
 曲線$y=a\cos x$ $\displaystyle \left( 0 \leqq x \leqq \frac{\pi}{2} \right)$

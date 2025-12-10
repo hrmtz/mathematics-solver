@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_b"
 problem_id: "02_kyoto-1995-1995_b"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/02_kyoto/1995/1995_b.tex"
 pdf_source: "archive/02_kyoto/1995/1995_b.pdf"
 page_image: "archive/02_kyoto/1995/1995_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$O$を中心とする円周上に相異なる3点$A_0$，$B_0$，$C_0$が時計回りの順に置かれている．
+$O$を中心とする円周上に相異なる3点$A_0$，$B_0$，$C_0$が時計回りの順に置かれている．
 自然数$n$に対し，点$A_n$，$B_n$，$C_n$を次の規則で定めていく．
 \begin{description}
 \item[(イ)]$A_n$は弧$A_{n-1}B_{n-1}$を2等分する点である．

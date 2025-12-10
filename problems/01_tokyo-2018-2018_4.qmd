@@ -3,6 +3,7 @@ title: "東京大学 2018年 2018_4"
 problem_id: "01_tokyo-2018-2018_4"
 university: "東京大学"
 exam_year: "2018"
+problem_number: 4
 source_tex: "archive/01_tokyo/2018/2018_4.tex"
 pdf_source: "archive/01_tokyo/2018/2018_4.pdf"
 page_image: "archive/01_tokyo/2018/2018_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$a>0$とし，
+$a>0$とし，
 \[ f(x)=x^3-3a^2x \]
 とおく。次の2条件をみたす点$(a, \, b)$の動きうる範囲を求め，座標平面上に図示せよ。
 条件１：方程式$f(x)=b$は相異なる3実数解をもつ。

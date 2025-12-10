@@ -3,6 +3,7 @@ title: "北海道大学 2004年 2004_d"
 problem_id: "03_hokudai-2004-2004_d"
 university: "北海道大学"
 exam_year: "2004"
+problem_number: 4
 source_tex: "archive/03_hokudai/2004/2004_d.tex"
 pdf_source: "archive/03_hokudai/2004/2004_d.pdf"
 page_image: "archive/03_hokudai/2004/2004_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$|z|=1$である複素数$z$に対して，
+$|z|=1$である複素数$z$に対して，
 $z$，$z^2$，$\displaystyle\frac{1}{z}$が定める複素数平面上の3点を考える．
 ただし，$z$の偏角$\theta$は$0\leqq\theta\leqq\pi$の範囲とする．
 \begin{description}

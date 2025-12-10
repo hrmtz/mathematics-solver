@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_0_4a"
 problem_id: "07_kyushu-1998-1998_0_4a"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/07_kyushu/1998/1998_0_4a.tex"
 pdf_source: "archive/07_kyushu/1998/1998_0_4a.pdf"
 page_image: "archive/07_kyushu/1998/1998_0_4a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (a)
-　辺の長さ1の正四面体$OABC$において，
+辺の長さ1の正四面体$OABC$において，
 $\overrightarrow{a}=\overrightarrow{OA}$，$\overrightarrow{b}=\overrightarrow{OB}$，
 $\overrightarrow{c}=\overrightarrow{OC}$とおき，
 線分$OA$を$m:n$に内分する点を$P$，線分$BC$を$m:n$に内分する点を$Q$，

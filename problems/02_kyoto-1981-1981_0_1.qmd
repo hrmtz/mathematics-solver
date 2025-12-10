@@ -3,6 +3,7 @@ title: "京都大学 1981年 1981_0_1"
 problem_id: "02_kyoto-1981-1981_0_1"
 university: "京都大学"
 exam_year: "1981"
+problem_number: 1
 source_tex: "archive/02_kyoto/1981/1981_0_1.tex"
 pdf_source: "archive/02_kyoto/1981/1981_0_1.pdf"
 page_image: "archive/02_kyoto/1981/1981_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標平面上に，原点と異なる3点$A$，$B$，$C$を考える．
+座標平面上に，原点と異なる3点$A$，$B$，$C$を考える．
 $A$は$x$軸上にあり，$B$は$y$軸上にあるものとする．
 $O$を原点とするとき，1次変換$f$が$f(\overrightarrow{OA})=\overrightarrow{OB}$，
 $f(\overrightarrow{OB})=\overrightarrow{OC}$，$f(\overrightarrow{OC})=\overrightarrow{OA}$をみたすものとする．

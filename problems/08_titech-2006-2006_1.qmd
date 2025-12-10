@@ -3,6 +3,7 @@ title: "東京科学大学 2006年 2006_1"
 problem_id: "08_titech-2006-2006_1"
 university: "東京科学大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/08_titech/2006/2006_1.tex"
 pdf_source: "archive/08_titech/2006/2006_1.pdf"
 page_image: "archive/08_titech/2006/2006_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　以下の問いに答えよ．
+以下の問いに答えよ．
 \begin{description}
 \item[(1)]自然数$n$に対し$\displaystyle I(n)=\int_0^\frac{n\pi}{2}|\sin x|dx$を求めよ．
 \item[(2)]次の不等式を示せ．

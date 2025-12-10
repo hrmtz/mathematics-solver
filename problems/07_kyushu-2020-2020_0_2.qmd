@@ -3,6 +3,7 @@ title: "九州大学 2020年 2020_0_2"
 problem_id: "07_kyushu-2020-2020_0_2"
 university: "九州大学"
 exam_year: "2020"
+problem_number: 2
 source_tex: "archive/07_kyushu/2020/2020_0_2.tex"
 pdf_source: "archive/07_kyushu/2020/2020_0_2.pdf"
 page_image: "archive/07_kyushu/2020/2020_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標空間内の4点$O(0, \, 0, \, 0)$，$A(1, \, 1, \, 0)$，
+座標空間内の4点$O(0, \, 0, \, 0)$，$A(1, \, 1, \, 0)$，
 $B(1, \, 0, \, p)$，$C(q, \, r, \, s)$を頂点とする四面体が正四面体であるとする。
 ただし，$p>0$，$s>0$とする。以下の問いに答えよ。
 \begin{description}

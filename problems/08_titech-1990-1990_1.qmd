@@ -3,6 +3,7 @@ title: "東京科学大学 1990年 1990_1"
 problem_id: "08_titech-1990-1990_1"
 university: "東京科学大学"
 exam_year: "1990"
+problem_number: 1
 source_tex: "archive/08_titech/1990/1990_1.tex"
 pdf_source: "archive/08_titech/1990/1990_1.pdf"
 page_image: "archive/08_titech/1990/1990_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$x$，$y$，$z$，$w$を正数とする．
+$x$，$y$，$z$，$w$を正数とする．
 任意の正の整数$m$，$n$に対して
 \[ {(x^\frac{1}{m}+y^\frac{1}{m})}^n+{(z^\frac{1}{m}+w^\frac{1}{m})}^n=
 { \{ {(x^\frac{n}{m}+z^\frac{n}{m})}^\frac{1}{n}+{(y^\frac{n}{m}+w^\frac{n}{m})}^\frac{1}{n} \} }^n \]

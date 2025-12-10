@@ -3,6 +3,7 @@ title: "名古屋大学 2020年 2020_2"
 problem_id: "05_nagoya-2020-2020_2"
 university: "名古屋大学"
 exam_year: "2020"
+problem_number: 2
 source_tex: "archive/05_nagoya/2020/2020_2.tex"
 pdf_source: "archive/05_nagoya/2020/2020_2.pdf"
 page_image: "archive/05_nagoya/2020/2020_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　3つの数$2, \, m^2+1, \, m^4+1$が相異なる素数となる正の整数$m$が1つ固定されているものとする。
+3つの数$2, \, m^2+1, \, m^4+1$が相異なる素数となる正の整数$m$が1つ固定されているものとする。
 以下の問に答えよ。
 \begin{description}
 \item[(1)]3つの数$2, \, m^2+1, \, m^4+1$のうち，1つを$a$とし，残りの2つを$b, \, c$とする。

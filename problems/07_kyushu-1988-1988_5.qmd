@@ -3,6 +3,7 @@ title: "九州大学 1988年 1988_5"
 problem_id: "07_kyushu-1988-1988_5"
 university: "九州大学"
 exam_year: "1988"
+problem_number: 5
 source_tex: "archive/07_kyushu/1988/1988_5.tex"
 pdf_source: "archive/07_kyushu/1988/1988_5.pdf"
 page_image: "archive/07_kyushu/1988/1988_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$X$と$Y$は互いに独立な確率変数である．
+$X$と$Y$は互いに独立な確率変数である．
 $X$は1と$a$ $(a>3)$の2つの値をとり，$Y$は1と3の値をとる．
 $X=1$である確率を$p$ $(0 \leqq p \leqq 1)$，$Y=1$である確率を$q$ $(0 \leqq q \leqq 1)$とし，$Z=X-Y$とする．
 \begin{description}

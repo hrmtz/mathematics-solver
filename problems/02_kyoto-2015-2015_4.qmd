@@ -3,6 +3,7 @@ title: "京都大学 2015年 2015_4"
 problem_id: "02_kyoto-2015-2015_4"
 university: "京都大学"
 exam_year: "2015"
+problem_number: 4
 source_tex: "archive/02_kyoto/2015/2015_4.tex"
 pdf_source: "archive/02_kyoto/2015/2015_4.pdf"
 page_image: "archive/02_kyoto/2015/2015_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　一辺の長さが1の正四面体$ABCD$において，$P$を辺$AB$の中点とし，点$Q$が辺$AC$上を動くとする．
+一辺の長さが1の正四面体$ABCD$において，$P$を辺$AB$の中点とし，点$Q$が辺$AC$上を動くとする．
 このとき，$\cos\angle PDQ$の最大値を求めよ．
 
 ---

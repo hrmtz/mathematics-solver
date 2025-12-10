@@ -3,6 +3,7 @@ title: "九州大学 1986年 1986_0_5"
 problem_id: "07_kyushu-1986-1986_0_5"
 university: "九州大学"
 exam_year: "1986"
+problem_number: 5
 source_tex: "archive/07_kyushu/1986/1986_0_5.tex"
 pdf_source: "archive/07_kyushu/1986/1986_0_5.pdf"
 page_image: "archive/07_kyushu/1986/1986_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　袋の中に赤球2個と白球3個が入っている．
+袋の中に赤球2個と白球3個が入っている．
 この袋から無作為に球を1個取り出し，
 取り出した球が赤球なら$+1$，白球なら$-1$と記録してから，球を袋に戻す．
 この試行を$n$回$(n\geqq3)$くり返して得られる数列に対して，

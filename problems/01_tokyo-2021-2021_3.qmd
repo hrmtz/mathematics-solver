@@ -3,6 +3,7 @@ title: "東京大学 2021年 2021_3"
 problem_id: "01_tokyo-2021-2021_3"
 university: "東京大学"
 exam_year: "2021"
+problem_number: 3
 source_tex: "archive/01_tokyo/2021/2021_3.tex"
 pdf_source: "archive/01_tokyo/2021/2021_3.pdf"
 page_image: "archive/01_tokyo/2021/2021_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　関数
+関数
 \[ f(x)=\frac{x}{x^2+3} \]
 に対して，$y=f(x)$のグラフを$C$とする。
 点$A(1, \, f(1))$における$C$の接線を

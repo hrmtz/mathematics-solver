@@ -3,6 +3,7 @@ title: "東京大学 1970年 1970_0_2"
 problem_id: "01_tokyo-1970-1970_0_2"
 university: "東京大学"
 exam_year: "1970"
+problem_number: 2
 source_tex: "archive/01_tokyo/1970/1970_0_2.tex"
 pdf_source: "archive/01_tokyo/1970/1970_0_2.pdf"
 page_image: "archive/01_tokyo/1970/1970_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　二点$A(0,1)$，$B(0,11)$が与えられている．
+二点$A(0,1)$，$B(0,11)$が与えられている．
 いま$x$軸上の正の部分に点$P(x,0)$をとって$\angle APB$の大きさを${30}^\circ$以上にしたい．
 $x$をどのような範囲にとればよいか．
 

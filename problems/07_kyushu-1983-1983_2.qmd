@@ -3,6 +3,7 @@ title: "九州大学 1983年 1983_2"
 problem_id: "07_kyushu-1983-1983_2"
 university: "九州大学"
 exam_year: "1983"
+problem_number: 2
 source_tex: "archive/07_kyushu/1983/1983_2.tex"
 pdf_source: "archive/07_kyushu/1983/1983_2.pdf"
 page_image: "archive/07_kyushu/1983/1983_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　関数$f(x)=ax^2+(1-a)x$の実数係数$a$は，
+関数$f(x)=ax^2+(1-a)x$の実数係数$a$は，
 定積分$\displaystyle\int_0^1\{ {(f'(x))}^2-2f(x) \}dx$の値を最小にするという．
 このとき，次の(1)，(2)に答えよ．
 \begin{description}

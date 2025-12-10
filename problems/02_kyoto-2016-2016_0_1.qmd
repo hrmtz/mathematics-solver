@@ -3,6 +3,7 @@ title: "京都大学 2016年 2016_0_1"
 problem_id: "02_kyoto-2016-2016_0_1"
 university: "京都大学"
 exam_year: "2016"
+problem_number: 1
 source_tex: "archive/02_kyoto/2016/2016_0_1.tex"
 pdf_source: "archive/02_kyoto/2016/2016_0_1.pdf"
 page_image: "archive/02_kyoto/2016/2016_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$xy$平面内の領域
+$xy$平面内の領域
 \[ x^2+y^2\leqq2, \hspace{1zw} |x|\leqq1 \]
 で，曲線$C:y=x^3+x^2-x$の上側にある部分の面積を求めよ．
 

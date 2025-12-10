@@ -3,6 +3,7 @@ title: "東京大学 1995年 1995_4"
 problem_id: "01_tokyo-1995-1995_4"
 university: "東京大学"
 exam_year: "1995"
+problem_number: 4
 source_tex: "archive/01_tokyo/1995/1995_4.tex"
 pdf_source: "archive/01_tokyo/1995/1995_4.pdf"
 page_image: "archive/01_tokyo/1995/1995_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$N$を正の整数とする．$N$の正の約数$n$に対し
+$N$を正の整数とする．$N$の正の約数$n$に対し
 \[ f(n)=n+\frac{N}{n} \]
 とおく．このとき，次の各$N$に対して$f(n)$の最小値を求めよ．
 \begin{description}

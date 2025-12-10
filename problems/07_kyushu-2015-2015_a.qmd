@@ -3,6 +3,7 @@ title: "九州大学 2015年 2015_a"
 problem_id: "07_kyushu-2015-2015_a"
 university: "九州大学"
 exam_year: "2015"
+problem_number: 1
 source_tex: "archive/07_kyushu/2015/2015_a.tex"
 pdf_source: "archive/07_kyushu/2015/2015_a.pdf"
 page_image: "archive/07_kyushu/2015/2015_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標空間における直方体$ABCD-EFGH$において，
+座標空間における直方体$ABCD-EFGH$において，
 点$A$，$B$，$C$，$D$の座標をそれぞれ
 $(0, \, 0, \, 2)$，$(2, \, 0, \, 2)$，$(2, \, 4, \, 2)$，$(0, \, 4, \, 2)$，
 点$E$，$F$，$G$，$H$の座標をそれぞれ

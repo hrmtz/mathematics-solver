@@ -3,6 +3,7 @@ title: "名古屋大学 1999年 1999_b"
 problem_id: "05_nagoya-1999-1999_b"
 university: "名古屋大学"
 exam_year: "1999"
+problem_number: 2
 source_tex: "archive/05_nagoya/1999/1999_b.tex"
 pdf_source: "archive/05_nagoya/1999/1999_b.pdf"
 page_image: "archive/05_nagoya/1999/1999_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　以下の問いに答えよ．ただし，$m$，$n$，$N$は正の整数である．
+以下の問いに答えよ．ただし，$m$，$n$，$N$は正の整数である．
 \begin{description}
 \item[(1)]次式を証明せよ．
 \[ \int_0^\pi \sin mx\sin nx dx=

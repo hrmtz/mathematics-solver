@@ -3,6 +3,7 @@ title: "京都大学 2006年 2006_0_b"
 problem_id: "02_kyoto-2006-2006_0_b"
 university: "京都大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/02_kyoto/2006/2006_0_b.tex"
 pdf_source: "archive/02_kyoto/2006/2006_0_b.pdf"
 page_image: "archive/02_kyoto/2006/2006_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$\triangle ABC$の内心を$P$とする．
+$\triangle ABC$の内心を$P$とする．
 $\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC}=\vec{0}$が成り立っているとき，
 この三角形は正三角形であることを示せ．
 

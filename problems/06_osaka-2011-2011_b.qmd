@@ -3,6 +3,7 @@ title: "大阪大学 2011年 2011_b"
 problem_id: "06_osaka-2011-2011_b"
 university: "大阪大学"
 exam_year: "2011"
+problem_number: 2
 source_tex: "archive/06_osaka/2011/2011_b.tex"
 pdf_source: "archive/06_osaka/2011/2011_b.pdf"
 page_image: "archive/06_osaka/2011/2011_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$m=2$または$m=3$とする．
+$m=2$または$m=3$とする．
 $n$を自然数とし，1以上$n$以下の整数値をとる$m$項の数列$\{ a_1, \, \cdots, \, a_m \}$のうち，
 $1 \leqq k \leqq m-1$に対して$2a_k \leqq a_{k+1}$を満たすものの個数を$S_m(n)$とする．
 \begin{description}

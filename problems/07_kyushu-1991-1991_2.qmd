@@ -3,6 +3,7 @@ title: "九州大学 1991年 1991_2"
 problem_id: "07_kyushu-1991-1991_2"
 university: "九州大学"
 exam_year: "1991"
+problem_number: 2
 source_tex: "archive/07_kyushu/1991/1991_2.tex"
 pdf_source: "archive/07_kyushu/1991/1991_2.pdf"
 page_image: "archive/07_kyushu/1991/1991_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　直線$L$は，$L$上の異なる$k$個$(k\geqq1)$の点によって
+直線$L$は，$L$上の異なる$k$個$(k\geqq1)$の点によって
 $P_1(k)=k-1$個の長さが有限な部分と2個の長さが有限でない部分に分かれる．
 平面$\Pi$上に$k$本の直線が，どの2本も平行でなく，どの3本も1点で交わらないように与えられている．
 $\Pi$はこれらの直線によって$P_2(k)$個の大きさが有限な部分と何個かの大きさが有限でない部分に分かれるとする．

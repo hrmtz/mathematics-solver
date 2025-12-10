@@ -3,6 +3,7 @@ title: "京都大学 2006年 2006_0_d"
 problem_id: "02_kyoto-2006-2006_0_d"
 university: "京都大学"
 exam_year: "2006"
+problem_number: 4
 source_tex: "archive/02_kyoto/2006/2006_0_d.tex"
 pdf_source: "archive/02_kyoto/2006/2006_0_d.pdf"
 page_image: "archive/02_kyoto/2006/2006_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$を自然数とし，$xy$平面の次の領域
+$n$を自然数とし，$xy$平面の次の領域
 $\displaystyle D_n=\left\{ (x,y) \Bigg| \frac{x}{\displaystyle n+\frac{1}{2}} \leqq y \leqq [x+1]-x,x\geqq0 \right\}$
 を考える．
 ただし，記号$[x]$は$x$より大きくない最大の整数を表すものとする．

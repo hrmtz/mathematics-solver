@@ -3,6 +3,7 @@ title: "東京科学大学 1989年 1989_4"
 problem_id: "08_titech-1989-1989_4"
 university: "東京科学大学"
 exam_year: "1989"
+problem_number: 4
 source_tex: "archive/08_titech/1989/1989_4.tex"
 pdf_source: "archive/08_titech/1989/1989_4.pdf"
 page_image: "archive/08_titech/1989/1989_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　次の極限値を求めよ．
+次の極限値を求めよ．
 \[ \lim_{n\to\infty}\int_0^\pi x^2|\sin nx|dx \]
 
 ---

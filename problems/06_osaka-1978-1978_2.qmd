@@ -3,6 +3,7 @@ title: "大阪大学 1978年 1978_2"
 problem_id: "06_osaka-1978-1978_2"
 university: "大阪大学"
 exam_year: "1978"
+problem_number: 2
 source_tex: "archive/06_osaka/1978/1978_2.tex"
 pdf_source: "archive/06_osaka/1978/1978_2.pdf"
 page_image: "archive/06_osaka/1978/1978_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　外観上区別のつかない$N$個$(N\geqq3)$の袋が並んでいて，
+外観上区別のつかない$N$個$(N\geqq3)$の袋が並んでいて，
 $k$番目$(k=1, \, 2, \, \cdots\cdots, \, N)$の袋には赤球$k$個と白球$N-k$個が入っている．
 これらの袋を混ぜ合わせたのち，任意に1つの袋を選定し，
 選ばれた袋から1球ずつ順に球を取り出す試行について，

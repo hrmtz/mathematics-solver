@@ -3,6 +3,7 @@ title: "京都大学 1966年 1966_4b"
 problem_id: "02_kyoto-1966-1966_4b"
 university: "京都大学"
 exam_year: "1966"
+problem_number: 4
 source_tex: "archive/02_kyoto/1966/1966_4b.tex"
 pdf_source: "archive/02_kyoto/1966/1966_4b.pdf"
 page_image: "archive/02_kyoto/1966/1966_4b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 旧
-　二次方程式$x(x-a)+m(x-b)(x-c)=0$が$m$のすべての正の値に対して実根をもつための必要十分条件を
+二次方程式$x(x-a)+m(x-b)(x-c)=0$が$m$のすべての正の値に対して実根をもつための必要十分条件を
 $a$，$b$，$c$の大小関係によって表わせ．
 ただし$a$，$b$，$c$は相異なる正数とする．
 

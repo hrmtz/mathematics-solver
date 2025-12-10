@@ -3,6 +3,7 @@ title: "北海道大学 1999年 1999_b"
 problem_id: "03_hokudai-1999-1999_b"
 university: "北海道大学"
 exam_year: "1999"
+problem_number: 2
 source_tex: "archive/03_hokudai/1999/1999_b.tex"
 pdf_source: "archive/03_hokudai/1999/1999_b.pdf"
 page_image: "archive/03_hokudai/1999/1999_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　辺$AB$と辺$AC$の長さが等しい二等辺三角形$ABC$を考える．
+辺$AB$と辺$AC$の長さが等しい二等辺三角形$ABC$を考える．
 点$P$は線分$AB$上を，点$A$から点$B$に向かって一定の速さで動くとする．
 点$Q$は，点$C$を点$P$と同じ時刻に出発し，点$P$と同じ速さで点$A$に向かって線分$CA$上を動くものとする．
 また，点$P$が点$B$に到達するまでの間で点$Q$に最も接近したときの線分$PQ$の長さが，

@@ -3,6 +3,7 @@ title: "大阪大学 2003年 2003_1"
 problem_id: "06_osaka-2003-2003_1"
 university: "大阪大学"
 exam_year: "2003"
+problem_number: 1
 source_tex: "archive/06_osaka/2003/2003_1.tex"
 pdf_source: "archive/06_osaka/2003/2003_1.pdf"
 page_image: "archive/06_osaka/2003/2003_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$を正の実数，$w=a(\cos5^\circ+i\sin5^\circ)$とする．
+$a$を正の実数，$w=a(\cos5^\circ+i\sin5^\circ)$とする．
 ただし$i$は虚数単位である．
 また，複素数の列$\{ z_n \}$を$z_1=w$，$z_{n+1}=z_nw^{2n+1}$ $(n=1, \, 2, \, \cdots)$で定める．
 \begin{description}

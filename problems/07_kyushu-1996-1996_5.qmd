@@ -3,6 +3,7 @@ title: "九州大学 1996年 1996_5"
 problem_id: "07_kyushu-1996-1996_5"
 university: "九州大学"
 exam_year: "1996"
+problem_number: 5
 source_tex: "archive/07_kyushu/1996/1996_5.tex"
 pdf_source: "archive/07_kyushu/1996/1996_5.pdf"
 page_image: "archive/07_kyushu/1996/1996_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　0と1を有限個並べたものを語ということにする．
+0と1を有限個並べたものを語ということにする．
 語の例としては0，010，00101，100110などがある．
 いま2つの語$A=1$，$B=10$をもとにして
 $C_1=A$，$C_2=B$，$C_n=C_{n-2}C_{n-1}C_{n-2}$，$(n\geqq3)$のように定める．

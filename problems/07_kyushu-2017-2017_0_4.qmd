@@ -3,6 +3,7 @@ title: "九州大学 2017年 2017_0_4"
 problem_id: "07_kyushu-2017-2017_0_4"
 university: "九州大学"
 exam_year: "2017"
+problem_number: 4
 source_tex: "archive/07_kyushu/2017/2017_0_4.tex"
 pdf_source: "archive/07_kyushu/2017/2017_0_4.pdf"
 page_image: "archive/07_kyushu/2017/2017_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　以下の問いに答えよ。
+以下の問いに答えよ。
 \begin{description}
 \item[(1)]2017と225の最大公約数を求めよ。
 \item[(2)]225との最大公約数が15となる2017以下の自然数の個数を求めよ。

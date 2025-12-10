@@ -3,6 +3,7 @@ title: "名古屋大学 1992年 1992_4b"
 problem_id: "05_nagoya-1992-1992_4b"
 university: "名古屋大学"
 exam_year: "1992"
+problem_number: 4
 source_tex: "archive/05_nagoya/1992/1992_4b.tex"
 pdf_source: "archive/05_nagoya/1992/1992_4b.pdf"
 page_image: "archive/05_nagoya/1992/1992_4b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　1辺の長さが1の正方形$OABC$のなかに半径$s$の円板$S$が2辺$OA$，$OC$に接するように置いてある．
+1辺の長さが1の正方形$OABC$のなかに半径$s$の円板$S$が2辺$OA$，$OC$に接するように置いてある．
 この正方形内に別の円板$T$を$S$と重ならないように置く．
 \begin{description}
 \item[(1)]$T$の半径$t$の取り得る最大値を$s$を用いて表せ．

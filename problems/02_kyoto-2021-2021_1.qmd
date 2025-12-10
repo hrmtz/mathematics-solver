@@ -3,6 +3,7 @@ title: "京都大学 2021年 2021_1"
 problem_id: "02_kyoto-2021-2021_1"
 university: "京都大学"
 exam_year: "2021"
+problem_number: 1
 source_tex: "archive/02_kyoto/2021/2021_1.tex"
 pdf_source: "archive/02_kyoto/2021/2021_1.pdf"
 page_image: "archive/02_kyoto/2021/2021_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の各問に答えよ．
+次の各問に答えよ．
 \begin{description}
 \item[問1]$xyz$空間の3点$A(1, \, 0, \, 0)$，$B(0, \, -1, \, 0)$，$C(0, \, 0, \, 2)$を通る
 平面$\alpha$に関して点$P(1, \, 1, \, 1)$と対称な点$Q$の座標を求めよ．

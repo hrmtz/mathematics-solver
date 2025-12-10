@@ -3,6 +3,7 @@ title: "九州大学 2011年 2011_c"
 problem_id: "07_kyushu-2011-2011_c"
 university: "九州大学"
 exam_year: "2011"
+problem_number: 3
 source_tex: "archive/07_kyushu/2011/2011_c.tex"
 pdf_source: "archive/07_kyushu/2011/2011_c.pdf"
 page_image: "archive/07_kyushu/2011/2011_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　座標平面上の楕円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>b>0)$について，
+座標平面上の楕円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>b>0)$について，
 以下の問いに答えよ。
 \begin{description}
 \item[(1)]$x$座標が小さい方の焦点$F$を極とし，

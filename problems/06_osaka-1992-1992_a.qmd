@@ -3,6 +3,7 @@ title: "大阪大学 1992年 1992_a"
 problem_id: "06_osaka-1992-1992_a"
 university: "大阪大学"
 exam_year: "1992"
+problem_number: 1
 source_tex: "archive/06_osaka/1992/1992_a.tex"
 pdf_source: "archive/06_osaka/1992/1992_a.pdf"
 page_image: "archive/06_osaka/1992/1992_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$x$についての方程式$\displaystyle x^2+ax+b+\frac{a}{x}+\frac{1}{x^2}=0$を考える．
+$x$についての方程式$\displaystyle x^2+ax+b+\frac{a}{x}+\frac{1}{x^2}=0$を考える．
 ここで$a$，$b$は実数である．
 \begin{description}
 \item[(1)]この方程式の4つの解がすべて正であるための必要十分条件を$a$，$b$を用いて表せ．

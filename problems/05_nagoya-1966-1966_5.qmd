@@ -3,6 +3,7 @@ title: "名古屋大学 1966年 1966_5"
 problem_id: "05_nagoya-1966-1966_5"
 university: "名古屋大学"
 exam_year: "1966"
+problem_number: 5
 source_tex: "archive/05_nagoya/1966/1966_5.tex"
 pdf_source: "archive/05_nagoya/1966/1966_5.pdf"
 page_image: "archive/05_nagoya/1966/1966_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　1次式$f_n(x)$ $(n=1, \, 2, \, 3, \cdots\cdots)$が
+1次式$f_n(x)$ $(n=1, \, 2, \, 3, \cdots\cdots)$が
 \[ f_1(x)=1+x, \hspace{1zw} x^2f_{n+1}(x)=x^2+x^3+\int_0^xtf_n(t)dt \]
 を満たしているとき
 \begin{description}

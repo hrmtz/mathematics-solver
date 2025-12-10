@@ -3,6 +3,7 @@ title: "名古屋大学 2002年 2002_4a"
 problem_id: "05_nagoya-2002-2002_4a"
 university: "名古屋大学"
 exam_year: "2002"
+problem_number: 4
 source_tex: "archive/05_nagoya/2002/2002_4a.tex"
 pdf_source: "archive/05_nagoya/2002/2002_4a.pdf"
 page_image: "archive/05_nagoya/2002/2002_4a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (a)
-　関係式$x^a=y^b=z^c=xyz$を満たす
+関係式$x^a=y^b=z^c=xyz$を満たす
 1とは異なる3つの正の実数の組$(x, \, y, \, z)$が，
 少なくとも1組存在するような，
 正の整数の組$(a, \, b, \, c)$をすべて求めよ．

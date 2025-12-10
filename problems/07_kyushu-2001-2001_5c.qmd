@@ -3,6 +3,7 @@ title: "九州大学 2001年 2001_5c"
 problem_id: "07_kyushu-2001-2001_5c"
 university: "九州大学"
 exam_year: "2001"
+problem_number: 5
 source_tex: "archive/07_kyushu/2001/2001_5c.tex"
 pdf_source: "archive/07_kyushu/2001/2001_5c.pdf"
 page_image: "archive/07_kyushu/2001/2001_5c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (c)
-　$p$，$q$を整数とし，$x$，$y$を未知数とする連立1次方程式
+$p$，$q$を整数とし，$x$，$y$を未知数とする連立1次方程式
 $\begin{cases} 4x+9y=p 
 
  2x+6y=q \end{cases}$

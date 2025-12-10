@@ -3,6 +3,7 @@ title: "大阪大学 2014年 2014_5"
 problem_id: "06_osaka-2014-2014_5"
 university: "大阪大学"
 exam_year: "2014"
+problem_number: 5
 source_tex: "archive/06_osaka/2014/2014_5.tex"
 pdf_source: "archive/06_osaka/2014/2014_5.pdf"
 page_image: "archive/06_osaka/2014/2014_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　さいころを繰り返し投げ，$n$回目に出た目を$X_n$とする．
+さいころを繰り返し投げ，$n$回目に出た目を$X_n$とする．
 $n$回目までに出た目の積$X_1X_2 \cdots X_n$を$T_n$で表す．
 $T_n$を5で割った余りが1である確率を$p_n$とし，
 余りが$2, \, 3, \, 4$のいずれかである確率を$q_n$とする．

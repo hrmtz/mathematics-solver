@@ -3,6 +3,7 @@ title: "東京大学 1997年 1997_8"
 problem_id: "01_tokyo-1997-1997_8"
 university: "東京大学"
 exam_year: "1997"
+problem_number: 2
 source_tex: "archive/01_tokyo/1997/1997_8.tex"
 pdf_source: "archive/01_tokyo/1997/1997_8.pdf"
 page_image: "archive/01_tokyo/1997/1997_8.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　座標平面上の点$A(x,y)$が次の連立不等式の表す領域を動くとする．
+座標平面上の点$A(x,y)$が次の連立不等式の表す領域を動くとする．
 \[ \begin{cases} |xy|<1 
 
  y>0 \end{cases} \]

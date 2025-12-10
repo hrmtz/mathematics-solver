@@ -3,6 +3,7 @@ title: "東北大学 1995年 1995_0_1"
 problem_id: "04_tohoku-1995-1995_0_1"
 university: "東北大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/04_tohoku/1995/1995_0_1.tex"
 pdf_source: "archive/04_tohoku/1995/1995_0_1.pdf"
 page_image: "archive/04_tohoku/1995/1995_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$S$を方程式$x^2+y^2+z^2=5$の定める球面とする．
+$S$を方程式$x^2+y^2+z^2=5$の定める球面とする．
 \begin{description}
 \item[(1)]$S$上の1点$P$における接平面を考える．
 原点$O$，接平面上の点$Q$に対し，

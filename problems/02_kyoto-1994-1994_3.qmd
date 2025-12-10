@@ -3,6 +3,7 @@ title: "京都大学 1994年 1994_3"
 problem_id: "02_kyoto-1994-1994_3"
 university: "京都大学"
 exam_year: "1994"
+problem_number: 3
 source_tex: "archive/02_kyoto/1994/1994_3.tex"
 pdf_source: "archive/02_kyoto/1994/1994_3.pdf"
 page_image: "archive/02_kyoto/1994/1994_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　正4面体の4つの頂点を$A$，$B$，$C$，$D$とする．
+正4面体の4つの頂点を$A$，$B$，$C$，$D$とする．
 $s$，$t$を$0<s<1$，$0<t<1$を満たす実数とし，
 \begin{description}
 \item[]線分$AB$を$s:1-s$に内分する点を$E$，

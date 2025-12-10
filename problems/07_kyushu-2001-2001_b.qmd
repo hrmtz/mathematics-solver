@@ -3,6 +3,7 @@ title: "九州大学 2001年 2001_b"
 problem_id: "07_kyushu-2001-2001_b"
 university: "九州大学"
 exam_year: "2001"
+problem_number: 2
 source_tex: "archive/07_kyushu/2001/2001_b.tex"
 pdf_source: "archive/07_kyushu/2001/2001_b.pdf"
 page_image: "archive/07_kyushu/2001/2001_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　以下の設問に答えよ．
+以下の設問に答えよ．
 \begin{description}
 \item[(1)]正の実数$a$，$b$，$c$に対してつぎの不等式が成り立つことを証明せよ．
 \[ \frac{1}{a}+\frac{1}{b}+\frac{1}{c}\geqq\frac{9}{a+b+c} \]

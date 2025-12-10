@@ -3,6 +3,7 @@ title: "九州大学 1995年 1995_2"
 problem_id: "07_kyushu-1995-1995_2"
 university: "九州大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/07_kyushu/1995/1995_2.tex"
 pdf_source: "archive/07_kyushu/1995/1995_2.pdf"
 page_image: "archive/07_kyushu/1995/1995_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xyz-$空間内に4点$A(0, \, 1, \, 2)$，$B(0, \, -1, \, 2)$，$C(0, \, 0, \, 1)$，$P(a, \, b, \, 3)$をとる．
+$xyz-$空間内に4点$A(0, \, 1, \, 2)$，$B(0, \, -1, \, 2)$，$C(0, \, 0, \, 1)$，$P(a, \, b, \, 3)$をとる．
 ただし$a\geqq0$，$b\geqq0$とする．
 点$P$と点$A$，$B$，$C$とを結ぶ直線が$xy-$平面と交わる点をそれぞれ$A'$，$B'$，$C'$とする．次の問に答えよ．
 \begin{description}

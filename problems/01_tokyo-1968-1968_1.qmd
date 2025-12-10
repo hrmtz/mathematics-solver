@@ -3,6 +3,7 @@ title: "東京大学 1968年 1968_1"
 problem_id: "01_tokyo-1968-1968_1"
 university: "東京大学"
 exam_year: "1968"
+problem_number: 1
 source_tex: "archive/01_tokyo/1968/1968_1.tex"
 pdf_source: "archive/01_tokyo/1968/1968_1.pdf"
 page_image: "archive/01_tokyo/1968/1968_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　平面上の点$(x,y)$で
+平面上の点$(x,y)$で
 $\displaystyle x^2-5x<y<\frac{\pi}{5}\sin\left(\frac{\pi x}{5}\right)-\frac{3}{5}\sin^2\left(\frac{\pi x}{5}\right)$
 をみたす範囲が，
 直線$y=\alpha x$によって面積の等しい二つの部分に分けられるように，

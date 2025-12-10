@@ -3,6 +3,7 @@ title: "北海道大学 1961年 1961_6"
 problem_id: "03_hokudai-1961-1961_6"
 university: "北海道大学"
 exam_year: "1961"
+problem_number: 6
 source_tex: "archive/03_hokudai/1961/1961_6.tex"
 pdf_source: "archive/03_hokudai/1961/1961_6.pdf"
 page_image: "archive/03_hokudai/1961/1961_6.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(1)]動き始めてから$t$時間たった瞬間には1時間に$3\pi t^2 m^3$の割合で
 水をはきだすポンプがある。

@@ -3,6 +3,7 @@ title: "東京大学 1966年 1966_1"
 problem_id: "01_tokyo-1966-1966_1"
 university: "東京大学"
 exam_year: "1966"
+problem_number: 1
 source_tex: "archive/01_tokyo/1966/1966_1.tex"
 pdf_source: "archive/01_tokyo/1966/1966_1.pdf"
 page_image: "archive/01_tokyo/1966/1966_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　ある鉄道の旅客運賃計算規則は下記のとおりであり，
+ある鉄道の旅客運賃計算規則は下記のとおりであり，
 それによると，距離が319km，349kmのときの運賃は，それぞれ970円，1010円となる．
 下記の文中の$a$，$b$にあてはまる数を求めよ．
 ただし，$a$，$b$はともに0.1の整数倍の数である．

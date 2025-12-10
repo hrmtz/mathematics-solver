@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_0_1"
 problem_id: "07_kyushu-2000-2000_0_1"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/07_kyushu/2000/2000_0_1.tex"
 pdf_source: "archive/07_kyushu/2000/2000_0_1.pdf"
 page_image: "archive/07_kyushu/2000/2000_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　原点を$O$，直線$x=1$上の動点を$P$，
+原点を$O$，直線$x=1$上の動点を$P$，
 中心$\displaystyle\left( \frac{1}{2}, \, 0 \right)$，半径$\displaystyle\frac{1}{2}$の円を$C$とする．
 線分$OP$と$C$との交点で原点でないものを$Q$とし，
 $OP$上に$\overline{OR}=\overline{PQ}$を満たす点$R(x, \, y)$をとる．

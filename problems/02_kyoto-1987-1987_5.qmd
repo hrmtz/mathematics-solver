@@ -3,6 +3,7 @@ title: "京都大学 1987年 1987_5"
 problem_id: "02_kyoto-1987-1987_5"
 university: "京都大学"
 exam_year: "1987"
+problem_number: 5
 source_tex: "archive/02_kyoto/1987/1987_5.tex"
 pdf_source: "archive/02_kyoto/1987/1987_5.pdf"
 page_image: "archive/02_kyoto/1987/1987_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　空間において，平面$ax+y+z+a-2=0$($a$は定数)を考える．
+空間において，平面$ax+y+z+a-2=0$($a$は定数)を考える．
 \begin{description}
 \item[(1)]この平面上の点のうち原点に一番近いものの座標を求めよ．
 \item[(2)]原点を中心とする半径3の球体がこの平面で分けられる二つの部分のうち，体積の大きくない方の体積を$V(a)$とする．

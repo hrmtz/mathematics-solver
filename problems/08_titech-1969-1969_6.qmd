@@ -3,6 +3,7 @@ title: "東京科学大学 1969年 1969_6"
 problem_id: "08_titech-1969-1969_6"
 university: "東京科学大学"
 exam_year: "1969"
+problem_number: 6
 source_tex: "archive/08_titech/1969/1969_6.tex"
 pdf_source: "archive/08_titech/1969/1969_6.pdf"
 page_image: "archive/08_titech/1969/1969_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$0<x<y$のとき，$x^2e^\frac{y}{x}$，$y^2e^\frac{x}{y}$の大小関係を調べよ．
+$0<x<y$のとき，$x^2e^\frac{y}{x}$，$y^2e^\frac{x}{y}$の大小関係を調べよ．
 
 ---
 

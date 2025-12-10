@@ -3,6 +3,7 @@ title: "東京大学 1992年 1992_1"
 problem_id: "01_tokyo-1992-1992_1"
 university: "東京大学"
 exam_year: "1992"
+problem_number: 1
 source_tex: "archive/01_tokyo/1992/1992_1.tex"
 pdf_source: "archive/01_tokyo/1992/1992_1.pdf"
 page_image: "archive/01_tokyo/1992/1992_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$は1より大きい定数とし，
+$a$は1より大きい定数とし，
 $xy$平面上の点$(a,0)$を$A$，
 点$(a,\log a)$を$B$，
 曲線$y=\log x$と$x$軸の交点を$C$とする．

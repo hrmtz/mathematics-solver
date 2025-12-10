@@ -3,6 +3,7 @@ title: "京都大学 1983年 1983_0_1"
 problem_id: "02_kyoto-1983-1983_0_1"
 university: "京都大学"
 exam_year: "1983"
+problem_number: 1
 source_tex: "archive/02_kyoto/1983/1983_0_1.tex"
 pdf_source: "archive/02_kyoto/1983/1983_0_1.pdf"
 page_image: "archive/02_kyoto/1983/1983_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　数直線上を原点から右(正の向き)に硬貨を投げて進む．
+数直線上を原点から右(正の向き)に硬貨を投げて進む．
 表が出れば1進み，裏が出れば2進むものとする．
 このようにして，ちょうど点$n$に到達する確率を$p_n$で表す．
 ただし，$n$は自然数とする．

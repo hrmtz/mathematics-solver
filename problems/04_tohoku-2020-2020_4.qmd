@@ -3,6 +3,7 @@ title: "東北大学 2020年 2020_4"
 problem_id: "04_tohoku-2020-2020_4"
 university: "東北大学"
 exam_year: "2020"
+problem_number: 4
 source_tex: "archive/04_tohoku/2020/2020_4.tex"
 pdf_source: "archive/04_tohoku/2020/2020_4.pdf"
 page_image: "archive/04_tohoku/2020/2020_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　白玉3個，赤玉2個の合計5個の玉が入った箱と硬貨がある。
+白玉3個，赤玉2個の合計5個の玉が入った箱と硬貨がある。
 箱から無作為に玉を1個取り出し，硬貨を投げて表が出たら，その玉を手元に残し，
 裏が出たら箱に戻す試行を行う。
 試行後に箱の中の玉がなくなったら試行は停止する。

@@ -3,6 +3,7 @@ title: "東京大学 1992年 1992_0_3"
 problem_id: "01_tokyo-1992-1992_0_3"
 university: "東京大学"
 exam_year: "1992"
+problem_number: 3
 source_tex: "archive/01_tokyo/1992/1992_0_3.tex"
 pdf_source: "archive/01_tokyo/1992/1992_0_3.pdf"
 page_image: "archive/01_tokyo/1992/1992_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$p_1=1$，$p_2=1$，$p_{n+2}=p_n+p_{n+1}$ $(n\geqq1)$によって定義される数列$\{p_n\}$をフィボナッチ数列といい，
+$p_1=1$，$p_2=1$，$p_{n+2}=p_n+p_{n+1}$ $(n\geqq1)$によって定義される数列$\{p_n\}$をフィボナッチ数列といい，
 その一般項は
 \[ p_n=\frac{1}{\sqrt5} \left\{ { \left( \frac{1+\sqrt5}{2} \right) }^n
 -{ \left( \frac{1-\sqrt5}{2} \right) }^n \right\} \]

@@ -3,6 +3,7 @@ title: "東京大学 1985年 1985_6"
 problem_id: "01_tokyo-1985-1985_6"
 university: "東京大学"
 exam_year: "1985"
+problem_number: 6
 source_tex: "archive/01_tokyo/1985/1985_6.tex"
 pdf_source: "archive/01_tokyo/1985/1985_6.pdf"
 page_image: "archive/01_tokyo/1985/1985_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$xyz$空間において，
+$xyz$空間において，
 点$(0,0,0)$を$A$，点$(8,0,0)$を$B$，点$(6,2\sqrt3,0)$を$C$とする．
 点$P$が$\triangle ABC$の辺上を一周するとき，
 $P$を中心とし半径1の球が通過する点全体のつくる立体を$K$とする．

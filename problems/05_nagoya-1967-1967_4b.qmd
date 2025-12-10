@@ -3,6 +3,7 @@ title: "名古屋大学 1967年 1967_4b"
 problem_id: "05_nagoya-1967-1967_4b"
 university: "名古屋大学"
 exam_year: "1967"
+problem_number: 4
 source_tex: "archive/05_nagoya/1967/1967_4b.tex"
 pdf_source: "archive/05_nagoya/1967/1967_4b.pdf"
 page_image: "archive/05_nagoya/1967/1967_4b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (b)
-　平面上にベクトル$\overrightarrow{a}=(a_1, \, a_2)$，
+平面上にベクトル$\overrightarrow{a}=(a_1, \, a_2)$，
 $\overrightarrow{b}=(b_1, \, b_2)$，
 $\overrightarrow{c}=(c_1, \, c_2)$が与えられたとき，
 $l\overrightarrow{a}+m\overrightarrow{b}+n\overrightarrow{c}$が零ベクトルとなる数$l$，$m$，$n$で

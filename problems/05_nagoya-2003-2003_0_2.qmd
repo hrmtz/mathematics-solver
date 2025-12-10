@@ -3,6 +3,7 @@ title: "名古屋大学 2003年 2003_0_2"
 problem_id: "05_nagoya-2003-2003_0_2"
 university: "名古屋大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/05_nagoya/2003/2003_0_2.tex"
 pdf_source: "archive/05_nagoya/2003/2003_0_2.pdf"
 page_image: "archive/05_nagoya/2003/2003_0_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　放物線$C:y=ax^2$ $(a>0)$を考える．
+放物線$C:y=ax^2$ $(a>0)$を考える．
 放物線$C$上の点$P(p, \, ap^2)$ $(p\neq0)$における$C$の接線と直交し，$P$を通る直線を$l$とする．
 直線$l$と放物線$C$とで囲まれる図形の面積を$S(P)$とする．
 \begin{description}

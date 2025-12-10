@@ -3,6 +3,7 @@ title: "京都大学 2009年 2009a_0_4"
 problem_id: "02_kyoto-2009-2009a_0_4"
 university: "京都大学"
 exam_year: "2009"
+problem_number: 4
 source_tex: "archive/02_kyoto/2009/2009a_0_4.tex"
 pdf_source: "archive/02_kyoto/2009/2009a_0_4.pdf"
 page_image: "archive/02_kyoto/2009/2009a_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面上で，
+平面上で，
 鋭角三角形$\triangle OAB$を辺$OB$に関して折り返して得られる三角形を$\triangle OBC$，
 $\triangle OBC$を辺$OC$に関して折り返して得られる三角形を$\triangle OCD$，
 $\triangle OCD$を辺$OD$に関して折り返して得られる三角形を$\triangle ODE$とする．

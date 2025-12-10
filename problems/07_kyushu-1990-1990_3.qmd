@@ -3,6 +3,7 @@ title: "九州大学 1990年 1990_3"
 problem_id: "07_kyushu-1990-1990_3"
 university: "九州大学"
 exam_year: "1990"
+problem_number: 3
 source_tex: "archive/07_kyushu/1990/1990_3.tex"
 pdf_source: "archive/07_kyushu/1990/1990_3.pdf"
 page_image: "archive/07_kyushu/1990/1990_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　4枚の硬貨を投げる試行を考える．
+4枚の硬貨を投げる試行を考える．
 表の出た枚数を$x$，裏の出た枚数を$y$とする．
 $x>y$ならば右に1歩，$x<y$ならば左に1歩進み，$x=y$のときはその場にとどまる．
 \begin{description}

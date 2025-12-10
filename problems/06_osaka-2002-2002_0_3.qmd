@@ -3,6 +3,7 @@ title: "大阪大学 2002年 2002_0_3"
 problem_id: "06_osaka-2002-2002_0_3"
 university: "大阪大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/06_osaka/2002/2002_0_3.tex"
 pdf_source: "archive/06_osaka/2002/2002_0_3.pdf"
 page_image: "archive/06_osaka/2002/2002_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　平面上に原点$O$を中心とする半径1の円$K_1$を考える．
+平面上に原点$O$を中心とする半径1の円$K_1$を考える．
 $K_1$の直径を1つとり，その両端を$A$，$B$とする．
 円$K_1$の周上の任意の点$Q$に対し，線分$QA$を$1:2$の比に内分する点を$R$とする．
 いま$k$を正の定数として，

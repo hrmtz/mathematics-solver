@@ -3,6 +3,7 @@ title: "東北大学 1964年 1964_0_6"
 problem_id: "04_tohoku-1964-1964_0_6"
 university: "東北大学"
 exam_year: "1964"
+problem_number: 6
 source_tex: "archive/04_tohoku/1964/1964_0_6.tex"
 pdf_source: "archive/04_tohoku/1964/1964_0_6.pdf"
 page_image: "archive/04_tohoku/1964/1964_0_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$\displaystyle 10f(x)=\frac{1}{x^2}-\frac{2}{x}-2x+5$，
+$\displaystyle 10f(x)=\frac{1}{x^2}-\frac{2}{x}-2x+5$，
 $\displaystyle 10g(x)=\frac{4}{x}-4+2x$とする。
 $x>0$のとき$f(x)$と$g(x)$の大小関係を調べよ。
 $\displaystyle0<x\leqq\frac{1}{4}$では$\displaystyle f(x)\geqq f \left(\frac{1}{4}\right)$であることを示せ。

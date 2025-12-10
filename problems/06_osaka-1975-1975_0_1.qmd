@@ -3,6 +3,7 @@ title: "大阪大学 1975年 1975_0_1"
 problem_id: "06_osaka-1975-1975_0_1"
 university: "大阪大学"
 exam_year: "1975"
+problem_number: 1
 source_tex: "archive/06_osaka/1975/1975_0_1.tex"
 pdf_source: "archive/06_osaka/1975/1975_0_1.pdf"
 page_image: "archive/06_osaka/1975/1975_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a>1$のとき，2次方程式$ax^2-2x+a=0$の2根を表す複素平面上の点を$A$，$B$とし，
+$a>1$のとき，2次方程式$ax^2-2x+a=0$の2根を表す複素平面上の点を$A$，$B$とし，
 2次方程式$x^2-2ax+1=0$の2根を表す複素平面上の点を$C$，$D$とする．
 　4点$A$，$B$，$C$，$D$は同一の円周上にあることを証明せよ．
 

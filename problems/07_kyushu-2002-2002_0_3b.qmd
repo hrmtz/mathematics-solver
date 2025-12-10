@@ -3,6 +3,7 @@ title: "九州大学 2002年 2002_0_3b"
 problem_id: "07_kyushu-2002-2002_0_3b"
 university: "九州大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/07_kyushu/2002/2002_0_3b.tex"
 pdf_source: "archive/07_kyushu/2002/2002_0_3b.pdf"
 page_image: "archive/07_kyushu/2002/2002_0_3b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3 (b)
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]$n$を正の整数とする．どんな角度$\theta$に対しても
 \[ \cos n\theta=2\cos\theta\cos(n-1)\theta-\cos(n-2)\theta \]

@@ -3,6 +3,7 @@ title: "東京大学 1979年 1979_3"
 problem_id: "01_tokyo-1979-1979_3"
 university: "東京大学"
 exam_year: "1979"
+problem_number: 3
 source_tex: "archive/01_tokyo/1979/1979_3.tex"
 pdf_source: "archive/01_tokyo/1979/1979_3.pdf"
 page_image: "archive/01_tokyo/1979/1979_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a$を正の整数とし，数列$\{ u_n \}$を次のように定める．
+$a$を正の整数とし，数列$\{ u_n \}$を次のように定める．
 \[ u_1=2, \hspace{1zw} u_2=a^2+2, \hspace{1zw}
 u_n=au_{n-2}-u_{n-1}, \hspace{1zw} n=3,4,5,\cdots \]
 このとき，数列$\{ u_n \}$の項に4の倍数が現れないために，

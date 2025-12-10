@@ -3,6 +3,7 @@ title: "東京大学 2015年 2015_3"
 problem_id: "01_tokyo-2015-2015_3"
 university: "東京大学"
 exam_year: "2015"
+problem_number: 3
 source_tex: "archive/01_tokyo/2015/2015_3.tex"
 pdf_source: "archive/01_tokyo/2015/2015_3.pdf"
 page_image: "archive/01_tokyo/2015/2015_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$a$を正の実数とし，$p$を正の有理数とする。
+$a$を正の実数とし，$p$を正の有理数とする。
 　座標平面上の2つの曲線$y=ax^p$ $(x>0)$と$y=\log x$ $(x>0)$を考える。
 この2つの曲線の共有点が1点のみであるとし，その共有点を$Q$とする。
 　以下の問いに答えよ。

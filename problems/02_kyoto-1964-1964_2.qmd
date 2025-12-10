@@ -3,6 +3,7 @@ title: "京都大学 1964年 1964_2"
 problem_id: "02_kyoto-1964-1964_2"
 university: "京都大学"
 exam_year: "1964"
+problem_number: 2
 source_tex: "archive/02_kyoto/1964/1964_2.tex"
 pdf_source: "archive/02_kyoto/1964/1964_2.pdf"
 page_image: "archive/02_kyoto/1964/1964_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　次の(i)，(ii)，(iii)の条件を同時にみたす，3つのたがいに異なる$x$の3次式の組を，すべて求めよ．
+次の(i)，(ii)，(iii)の条件を同時にみたす，3つのたがいに異なる$x$の3次式の組を，すべて求めよ．
 \begin{description}
 \item[(i)]$x^3$の係数はいずれも1である．
 \item[(ii)]それらの最大公約数は$x+3$である．

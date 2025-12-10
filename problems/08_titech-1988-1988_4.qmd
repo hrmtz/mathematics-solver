@@ -3,6 +3,7 @@ title: "東京科学大学 1988年 1988_4"
 problem_id: "08_titech-1988-1988_4"
 university: "東京科学大学"
 exam_year: "1988"
+problem_number: 4
 source_tex: "archive/08_titech/1988/1988_4.tex"
 pdf_source: "archive/08_titech/1988/1988_4.pdf"
 page_image: "archive/08_titech/1988/1988_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xy$平面上の原点を中心とする半径1の円を$C$，
+$xy$平面上の原点を中心とする半径1の円を$C$，
 点$(4, \, 0)$を中心とする半径2の円を$D$とする．
 動点$P$は点$(1, \, 0)$を出発し円$C$上を時計と反対回りに角速度2で動き，
 動点$Q$は，同時刻に点$(6, \, 0)$を出発し円$D$上を時計と反対回りに角速度1で動くものとする．

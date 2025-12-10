@@ -3,6 +3,7 @@ title: "東京科学大学 2000年 2000_4"
 problem_id: "08_titech-2000-2000_4"
 university: "東京科学大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/08_titech/2000/2000_4.tex"
 pdf_source: "archive/08_titech/2000/2000_4.pdf"
 page_image: "archive/08_titech/2000/2000_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$は2以上の自然数とする．関数$y=e^x\cdots\cdots$(ア)，$y=e^{nx}-1\cdots\cdots$(イ)について以下の問いに答えよ．
+$n$は2以上の自然数とする．関数$y=e^x\cdots\cdots$(ア)，$y=e^{nx}-1\cdots\cdots$(イ)について以下の問いに答えよ．
 \begin{description}
 \item[(1)](ア)と(イ)のグラフは第1象限においてただひとつの交点を持つことを示せ．
 \item[(2)](1)で得られた交点の座標を$(a_n,b_n)$としたとき

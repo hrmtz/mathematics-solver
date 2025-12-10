@@ -3,6 +3,7 @@ title: "東京科学大学 1991年 1991_5"
 problem_id: "08_titech-1991-1991_5"
 university: "東京科学大学"
 exam_year: "1991"
+problem_number: 5
 source_tex: "archive/08_titech/1991/1991_5.tex"
 pdf_source: "archive/08_titech/1991/1991_5.pdf"
 page_image: "archive/08_titech/1991/1991_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　サイコロを3回振って出た目を$a$，$b$，$c$とする．
+サイコロを3回振って出た目を$a$，$b$，$c$とする．
 このとき，方程式$x^3-ax^2+bx-c=0$が少なくとも1個の整数解をもつ確率を求めよ．
 
 ---

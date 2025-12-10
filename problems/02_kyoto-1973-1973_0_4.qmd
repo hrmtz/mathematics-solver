@@ -3,6 +3,7 @@ title: "京都大学 1973年 1973_0_4"
 problem_id: "02_kyoto-1973-1973_0_4"
 university: "京都大学"
 exam_year: "1973"
+problem_number: 4
 source_tex: "archive/02_kyoto/1973/1973_0_4.tex"
 pdf_source: "archive/02_kyoto/1973/1973_0_4.pdf"
 page_image: "archive/02_kyoto/1973/1973_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$\mathbf{a}$，$\mathbf{b}$，$\mathbf{c}$は平面上の単位ベクトルで，どの二つも${120}^\circ$の角をなすものとする．
+$\mathbf{a}$，$\mathbf{b}$，$\mathbf{c}$は平面上の単位ベクトルで，どの二つも${120}^\circ$の角をなすものとする．
 　このとき，この平面上の任意のベクトル$\mathbf{x}$に対して
 \begin{description}
 \item[(i)]$(\mathbf{a},\mathbf{x})+(\mathbf{b},\mathbf{x})+(\mathbf{c},\mathbf{x})=0$が成り立つことを示せ．

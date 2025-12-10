@@ -3,6 +3,7 @@ title: "大阪大学 1968年 1968_6"
 problem_id: "06_osaka-1968-1968_6"
 university: "大阪大学"
 exam_year: "1968"
+problem_number: 6
 source_tex: "archive/06_osaka/1968/1968_6.tex"
 pdf_source: "archive/06_osaka/1968/1968_6.pdf"
 page_image: "archive/06_osaka/1968/1968_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$\alpha$を$0<\alpha<1$なる定数とする．
+$\alpha$を$0<\alpha<1$なる定数とする．
 \begin{description}
 \item[(1)]$0<x\leqq1$なる$x$に対し，
 $\displaystyle\frac{1}{x}$の小数部分を$f(x)$で表わす．

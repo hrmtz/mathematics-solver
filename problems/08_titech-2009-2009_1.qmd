@@ -3,6 +3,7 @@ title: "東京科学大学 2009年 2009_1"
 problem_id: "08_titech-2009-2009_1"
 university: "東京科学大学"
 exam_year: "2009"
+problem_number: 1
 source_tex: "archive/08_titech/2009/2009_1.tex"
 pdf_source: "archive/08_titech/2009/2009_1.pdf"
 page_image: "archive/08_titech/2009/2009_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　点$P$から放物線$\displaystyle y=\frac{1}{2}x^2$へ2本の接線が引けるとき，
+点$P$から放物線$\displaystyle y=\frac{1}{2}x^2$へ2本の接線が引けるとき，
 2つの接点を$A$，$B$とし，
 線分$PA$，$PB$およびこの放物線で囲まれる図形の面積を$S$とする．
 $PA$，$PB$が直交するときの$S$の最小値を求めよ．

@@ -3,6 +3,7 @@ title: "東京科学大学 2016年 2016_5"
 problem_id: "08_titech-2016-2016_5"
 university: "東京科学大学"
 exam_year: "2016"
+problem_number: 5
 source_tex: "archive/08_titech/2016/2016_5.tex"
 pdf_source: "archive/08_titech/2016/2016_5.pdf"
 page_image: "archive/08_titech/2016/2016_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　次のように媒介変数表示された$xy$平面上の曲線を$C$とする：
+次のように媒介変数表示された$xy$平面上の曲線を$C$とする：
 \[ \begin{cases} x=3\cos t-\cos3t 
 
  y=3\sin t-\sin3t \end{cases} \]

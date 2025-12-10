@@ -3,6 +3,7 @@ title: "東京大学 1994年 1994_0_3"
 problem_id: "01_tokyo-1994-1994_0_3"
 university: "東京大学"
 exam_year: "1994"
+problem_number: 3
 source_tex: "archive/01_tokyo/1994/1994_0_3.tex"
 pdf_source: "archive/01_tokyo/1994/1994_0_3.pdf"
 page_image: "archive/01_tokyo/1994/1994_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$0<a\leqq1$に対し，行列$A=\begin{pmatrix} 1 & 1 
+$0<a\leqq1$に対し，行列$A=\begin{pmatrix} 1 & 1 
 
  1 & 1+2a \end{pmatrix}$を考える．
 　$\vec{u}=\begin{pmatrix} \cos\theta 

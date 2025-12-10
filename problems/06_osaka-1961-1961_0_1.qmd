@@ -3,6 +3,7 @@ title: "大阪大学 1961年 1961_0_1"
 problem_id: "06_osaka-1961-1961_0_1"
 university: "大阪大学"
 exam_year: "1961"
+problem_number: 1
 source_tex: "archive/06_osaka/1961/1961_0_1.tex"
 pdf_source: "archive/06_osaka/1961/1961_0_1.pdf"
 page_image: "archive/06_osaka/1961/1961_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　半径$r$の円に内接する四辺形$ABCD$の対角線$AC$，$BD$の交点を$E$，
+半径$r$の円に内接する四辺形$ABCD$の対角線$AC$，$BD$の交点を$E$，
 辺$AD$，$BC$の延長の交点を$F$とする。
 4点$C$，$D$，$E$，$F$が同一円周上にあるとき，
 辺$AB$の長さを$r$で表わせ。

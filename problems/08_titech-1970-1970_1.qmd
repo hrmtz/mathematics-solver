@@ -3,6 +3,7 @@ title: "東京科学大学 1970年 1970_1"
 problem_id: "08_titech-1970-1970_1"
 university: "東京科学大学"
 exam_year: "1970"
+problem_number: 1
 source_tex: "archive/08_titech/1970/1970_1.tex"
 pdf_source: "archive/08_titech/1970/1970_1.pdf"
 page_image: "archive/08_titech/1970/1970_1.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]$\alpha$と$t$とが実数のとき$(\alpha^2+1)t^2-4t+\alpha^2+5$の最小値を求めよ．
 \item[(2)]$p$，$q$を適当な実数の定数とする．ある実数$t$に対して，$x$，$y$座標が

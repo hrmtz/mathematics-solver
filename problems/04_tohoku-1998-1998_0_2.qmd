@@ -3,6 +3,7 @@ title: "東北大学 1998年 1998_0_2"
 problem_id: "04_tohoku-1998-1998_0_2"
 university: "東北大学"
 exam_year: "1998"
+problem_number: 2
 source_tex: "archive/04_tohoku/1998/1998_0_2.tex"
 pdf_source: "archive/04_tohoku/1998/1998_0_2.pdf"
 page_image: "archive/04_tohoku/1998/1998_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$0<a<b$とし，$m$，$n$を自然数とする．
+$0<a<b$とし，$m$，$n$を自然数とする．
 \[ f(m)=\log\frac{a^m+b^m}{2}, \hspace{1zw} g(m)=\frac{\log(a^m)+\log(b^m)}{2} \]
 とする．このとき
 \[ f(m+n), \hspace{1zw} f(m)+f(n), \hspace{1zw} g(m+n), \hspace{1zw} g(m)+g(n) \]

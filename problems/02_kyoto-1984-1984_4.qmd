@@ -3,6 +3,7 @@ title: "京都大学 1984年 1984_4"
 problem_id: "02_kyoto-1984-1984_4"
 university: "京都大学"
 exam_year: "1984"
+problem_number: 4
 source_tex: "archive/02_kyoto/1984/1984_4.tex"
 pdf_source: "archive/02_kyoto/1984/1984_4.pdf"
 page_image: "archive/02_kyoto/1984/1984_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　空間に三角形$ABC$があるとし，空間の原点$O$は，この三角形が決定する平面上にはないとする．
+空間に三角形$ABC$があるとし，空間の原点$O$は，この三角形が決定する平面上にはないとする．
 \begin{description}
 \item[(1)]実数$u$，$v$，$w$が，
 等式$u\overrightarrow{OA}+v\overrightarrow{OB}+w\overrightarrow{OC}=\vec{0}$を満たすならば，

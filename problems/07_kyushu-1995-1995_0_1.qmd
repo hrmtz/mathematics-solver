@@ -3,6 +3,7 @@ title: "九州大学 1995年 1995_0_1"
 problem_id: "07_kyushu-1995-1995_0_1"
 university: "九州大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/07_kyushu/1995/1995_0_1.tex"
 pdf_source: "archive/07_kyushu/1995/1995_0_1.pdf"
 page_image: "archive/07_kyushu/1995/1995_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　行列$A=\begin{pmatrix} 1 & b 
+行列$A=\begin{pmatrix} 1 & b 
 
  c & d \end{pmatrix}$によって表される1次変換$f$は，
 \[ \text{3点}O(0, \, 0), \hspace{1zw} P(2, \, 0), \hspace{1zw} Q(1, \, \sqrt3) \]

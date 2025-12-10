@@ -3,6 +3,7 @@ title: "大阪大学 1997年 1997_2"
 problem_id: "06_osaka-1997-1997_2"
 university: "大阪大学"
 exam_year: "1997"
+problem_number: 2
 source_tex: "archive/06_osaka/1997/1997_2.tex"
 pdf_source: "archive/06_osaka/1997/1997_2.pdf"
 page_image: "archive/06_osaka/1997/1997_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上において，直線$l$と$l$上にない点$A$をとる．
+平面上において，直線$l$と$l$上にない点$A$をとる．
 　直線$l$上に点$B$を線分$AB$と直線$l$が直交するようにとり，
 点$B$を中心として直線$l$を角度$\theta$だけ回転して得られる直線を$m$とする．
 　直線$l$上にない点$P$をとり，直線$l$に関して$P$と対称な点$Q$をとる．

@@ -3,6 +3,7 @@ title: "九州大学 2012年 2012_a"
 problem_id: "07_kyushu-2012-2012_a"
 university: "九州大学"
 exam_year: "2012"
+problem_number: 1
 source_tex: "archive/07_kyushu/2012/2012_a.tex"
 pdf_source: "archive/07_kyushu/2012/2012_a.pdf"
 page_image: "archive/07_kyushu/2012/2012_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　以下の問いに答えよ。
+以下の問いに答えよ。
 \begin{description}
 \item[(1)]$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$のとき，
 $\sin x-x\leqq0$が成り立つことを示せ。

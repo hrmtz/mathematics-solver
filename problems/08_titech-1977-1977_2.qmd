@@ -3,6 +3,7 @@ title: "東京科学大学 1977年 1977_2"
 problem_id: "08_titech-1977-1977_2"
 university: "東京科学大学"
 exam_year: "1977"
+problem_number: 2
 source_tex: "archive/08_titech/1977/1977_2.tex"
 pdf_source: "archive/08_titech/1977/1977_2.pdf"
 page_image: "archive/08_titech/1977/1977_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　20から29までの整数からすべて等しい確率で1つ取り出したものを$X$とし，
+20から29までの整数からすべて等しい確率で1つ取り出したものを$X$とし，
 80から89までの整数の1つをすべて等しい確率で取り出したものを$Y$とする．
 この2つの試行は独立とする．
 $X$を縦の長さ，$Y$を横の長さとした長方形の面積を$S$とする．

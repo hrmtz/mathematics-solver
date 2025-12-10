@@ -3,6 +3,7 @@ title: "東北大学 2017年 2017_0_3"
 problem_id: "04_tohoku-2017-2017_0_3"
 university: "東北大学"
 exam_year: "2017"
+problem_number: 3
 source_tex: "archive/04_tohoku/2017/2017_0_3.tex"
 pdf_source: "archive/04_tohoku/2017/2017_0_3.pdf"
 page_image: "archive/04_tohoku/2017/2017_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$a$を3で割り切れない正の整数とする。
+$a$を3で割り切れない正の整数とする。
 $a$を3で割ったときの商を$b$，余りを$c$とする。
 次の問いに答えよ。
 \begin{description}

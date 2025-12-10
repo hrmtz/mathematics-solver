@@ -3,6 +3,7 @@ title: "大阪大学 2017年 2017_0_2"
 problem_id: "06_osaka-2017-2017_0_2"
 university: "大阪大学"
 exam_year: "2017"
+problem_number: 2
 source_tex: "archive/06_osaka/2017/2017_0_2.tex"
 pdf_source: "archive/06_osaka/2017/2017_0_2.pdf"
 page_image: "archive/06_osaka/2017/2017_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　実数$x$，$y$，$z$が
+実数$x$，$y$，$z$が
 \[ x+y+z=1, \hspace{1zw} x+2y+3z=5 \]
 を満たすとする．
 \begin{description}

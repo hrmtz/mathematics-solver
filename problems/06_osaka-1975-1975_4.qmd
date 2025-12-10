@@ -3,6 +3,7 @@ title: "大阪大学 1975年 1975_4"
 problem_id: "06_osaka-1975-1975_4"
 university: "大阪大学"
 exam_year: "1975"
+problem_number: 4
 source_tex: "archive/06_osaka/1975/1975_4.tex"
 pdf_source: "archive/06_osaka/1975/1975_4.pdf"
 page_image: "archive/06_osaka/1975/1975_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　関数$f(x)$の導関数$f'(x)$が区間$a\leqq x \leqq b$において連続であるとする．
+関数$f(x)$の導関数$f'(x)$が区間$a\leqq x \leqq b$において連続であるとする．
 $a \leqq t \leqq b$を満たす$t$に対して，
 曲線$y=f(x)$上の点$P(t, \, f(t))$における接線と，
 直線$x=t+1$との交点を$Q$とする．

@@ -3,6 +3,7 @@ title: "東北大学 1992年 1992_6"
 problem_id: "04_tohoku-1992-1992_6"
 university: "東北大学"
 exam_year: "1992"
+problem_number: 6
 source_tex: "archive/04_tohoku/1992/1992_6.tex"
 pdf_source: "archive/04_tohoku/1992/1992_6.pdf"
 page_image: "archive/04_tohoku/1992/1992_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$x$についての3次方程式
+$x$についての3次方程式
 \[ 2x^3-3(a+b)x^2+6abx-2a^2b=0 \]
 が3つの相異なる実数解をもつとする．
 このとき点$(a, \, b)$の存在する範囲を求め，

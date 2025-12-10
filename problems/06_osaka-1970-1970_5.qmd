@@ -3,6 +3,7 @@ title: "大阪大学 1970年 1970_5"
 problem_id: "06_osaka-1970-1970_5"
 university: "大阪大学"
 exam_year: "1970"
+problem_number: 5
 source_tex: "archive/06_osaka/1970/1970_5.tex"
 pdf_source: "archive/06_osaka/1970/1970_5.pdf"
 page_image: "archive/06_osaka/1970/1970_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　実数$x_1$を任意にとり，2次関数$f(x)=x(2-x)$を用いて
+実数$x_1$を任意にとり，2次関数$f(x)=x(2-x)$を用いて
 \[ x_{n+1}=f(x_n) \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]
 により，数列$x_1, \, x_2, \, x_3, \, \cdots\cdots$を定める．
 \begin{description}

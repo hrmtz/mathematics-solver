@@ -3,6 +3,7 @@ title: "東京大学 1992年 1992_6"
 problem_id: "01_tokyo-1992-1992_6"
 university: "東京大学"
 exam_year: "1992"
+problem_number: 6
 source_tex: "archive/01_tokyo/1992/1992_6.tex"
 pdf_source: "archive/01_tokyo/1992/1992_6.pdf"
 page_image: "archive/01_tokyo/1992/1992_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$A$，$B$の二人がじゃんけんをして，
+$A$，$B$の二人がじゃんけんをして，
 グーで勝てば3歩，チョキで勝てば5歩，パーで勝てば6歩進む遊びをしている．
 1回のじゃんけんで$A$の進む歩数から$B$の進む歩数を引いた値の期待値を$E$とする．
 \begin{description}

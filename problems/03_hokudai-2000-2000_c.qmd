@@ -3,6 +3,7 @@ title: "北海道大学 2000年 2000_c"
 problem_id: "03_hokudai-2000-2000_c"
 university: "北海道大学"
 exam_year: "2000"
+problem_number: 3
 source_tex: "archive/03_hokudai/2000/2000_c.tex"
 pdf_source: "archive/03_hokudai/2000/2000_c.pdf"
 page_image: "archive/03_hokudai/2000/2000_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　正の実数$a$に対して
+正の実数$a$に対して
 \[ F(a)=\int_{-a}^a\sin\left| x+\frac{a}{2} \right|\sin\left| x-\frac{a}{2} \right|dx \]
 とおくとき，$F(a)$の最大値と最小値，および，それらを与える$a$の値を求めよ．
 

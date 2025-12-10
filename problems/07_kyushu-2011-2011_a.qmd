@@ -3,6 +3,7 @@ title: "九州大学 2011年 2011_a"
 problem_id: "07_kyushu-2011-2011_a"
 university: "九州大学"
 exam_year: "2011"
+problem_number: 1
 source_tex: "archive/07_kyushu/2011/2011_a.tex"
 pdf_source: "archive/07_kyushu/2011/2011_a.pdf"
 page_image: "archive/07_kyushu/2011/2011_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a>0$，$b>0$，$0<\alpha<1$，$0<\beta<1$として，以下の問いに答えよ。
+$a>0$，$b>0$，$0<\alpha<1$，$0<\beta<1$として，以下の問いに答えよ。
 \begin{description}
 \item[(1)]初項$a_1=a$と漸化式
 \[ a_{n+1}=\alpha a_n \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]

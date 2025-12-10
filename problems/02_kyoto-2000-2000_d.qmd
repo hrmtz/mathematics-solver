@@ -3,6 +3,7 @@ title: "京都大学 2000年 2000_d"
 problem_id: "02_kyoto-2000-2000_d"
 university: "京都大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/02_kyoto/2000/2000_d.tex"
 pdf_source: "archive/02_kyoto/2000/2000_d.pdf"
 page_image: "archive/02_kyoto/2000/2000_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　直方体$ABCD-A'B'C'D'$において，
+直方体$ABCD-A'B'C'D'$において，
 四角形$ABCD$と四角形$A'B'C'D'$は向かい合った1組の面であり，
 $AA'$，$BB'$，$CC'$，$DD'$はこの直方体の辺である．
 ここで$AA'=1$，$AB=1$，$AD=\sqrt2$とする．

@@ -3,6 +3,7 @@ title: "北海道大学 2006年 2006_0_4"
 problem_id: "03_hokudai-2006-2006_0_4"
 university: "北海道大学"
 exam_year: "2006"
+problem_number: 4
 source_tex: "archive/03_hokudai/2006/2006_0_4.tex"
 pdf_source: "archive/03_hokudai/2006/2006_0_4.pdf"
 page_image: "archive/03_hokudai/2006/2006_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　1つのさいころを投げ続けて，同じ目が2回連続して出たら終了するものとする。
+1つのさいころを投げ続けて，同じ目が2回連続して出たら終了するものとする。
 \begin{description}
 \item[(1)]ちょうど3回目に終了する確率を求めよ。
 \item[(2)]3回目以内（3回目も含む）に終了する確率を求めよ。

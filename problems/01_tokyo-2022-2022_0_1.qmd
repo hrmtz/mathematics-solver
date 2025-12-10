@@ -3,6 +3,7 @@ title: "東京大学 2022年 2022_0_1"
 problem_id: "01_tokyo-2022-2022_0_1"
 university: "東京大学"
 exam_year: "2022"
+problem_number: 1
 source_tex: "archive/01_tokyo/2022/2022_0_1.tex"
 pdf_source: "archive/01_tokyo/2022/2022_0_1.pdf"
 page_image: "archive/01_tokyo/2022/2022_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a, \, b$を実数とする。座標平面上の放物線$y=x^2+ax+b$を$C$とおく。
+$a, \, b$を実数とする。座標平面上の放物線$y=x^2+ax+b$を$C$とおく。
 $C$は，原点で垂直に交わる2本の接線$l_1, \, l_2$を持つとする。
 ただし，$C$と$l_1$の接点$P_1$の$x$座標は，$C$と$l_2$の接点$P_2$の$x$座標より小さいとする。
 \begin{description}

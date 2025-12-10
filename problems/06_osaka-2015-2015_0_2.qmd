@@ -3,6 +3,7 @@ title: "大阪大学 2015年 2015_0_2"
 problem_id: "06_osaka-2015-2015_0_2"
 university: "大阪大学"
 exam_year: "2015"
+problem_number: 2
 source_tex: "archive/06_osaka/2015/2015_0_2.tex"
 pdf_source: "archive/06_osaka/2015/2015_0_2.pdf"
 page_image: "archive/06_osaka/2015/2015_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　直線$l:y=kx+m$ $(k>0)$が円$C_1:x^2+{(y-1)}^2=1$と放物線$\displaystyle C_2:y=-\frac{1}{2}x^2$の
+直線$l:y=kx+m$ $(k>0)$が円$C_1:x^2+{(y-1)}^2=1$と放物線$\displaystyle C_2:y=-\frac{1}{2}x^2$の
 両方に接している．このとき，以下の問いに答えよ．
 \begin{description}
 \item[(1)]$k$と$m$を求めよ．

@@ -3,6 +3,7 @@ title: "東北大学 2018年 2018_b"
 problem_id: "04_tohoku-2018-2018_b"
 university: "東北大学"
 exam_year: "2018"
+problem_number: 2
 source_tex: "archive/04_tohoku/2018/2018_b.tex"
 pdf_source: "archive/04_tohoku/2018/2018_b.pdf"
 page_image: "archive/04_tohoku/2018/2018_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　点$O$を中心とした半径1の円を$S$とする。
+点$O$を中心とした半径1の円を$S$とする。
 \begin{description}
 \item[(1)]$S$の周上に3点$P$，$Q$，$R$が，この順に反時計回りに並んでいる。
 $\alpha=\angle POQ$，$\beta=\angle QOR$とする。

@@ -3,6 +3,7 @@ title: "九州大学 1985年 1985_6"
 problem_id: "07_kyushu-1985-1985_6"
 university: "九州大学"
 exam_year: "1985"
+problem_number: 6
 source_tex: "archive/07_kyushu/1985/1985_6.tex"
 pdf_source: "archive/07_kyushu/1985/1985_6.pdf"
 page_image: "archive/07_kyushu/1985/1985_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　次の(1)，(2)に答えよ．
+次の(1)，(2)に答えよ．
 \begin{description}
 \item[(1)]$\displaystyle-\frac{\pi}{2}<t<\frac{\pi}{2}$とするとき，
 座標平面上の点$\displaystyle P=\left(\tan t, \, \frac{\tan3t}{\tan2t}\right)$のグラフをかけ．

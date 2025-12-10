@@ -3,6 +3,7 @@ title: "東京大学 1985年 1985_5"
 problem_id: "01_tokyo-1985-1985_5"
 university: "東京大学"
 exam_year: "1985"
+problem_number: 5
 source_tex: "archive/01_tokyo/1985/1985_5.tex"
 pdf_source: "archive/01_tokyo/1985/1985_5.pdf"
 page_image: "archive/01_tokyo/1985/1985_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　0または正の整数の値をとる変数$X$，$Y$がある．
+0または正の整数の値をとる変数$X$，$Y$がある．
 $X$が整数$n$ $(n\geqq0)$の値をとる確率と，
 $Y$が整数$n$ $(n\geqq0)$の値をとる確率は，
 ともに$p_n$であるとする．

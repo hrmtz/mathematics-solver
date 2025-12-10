@@ -3,6 +3,7 @@ title: "名古屋大学 2008年 2008_2"
 problem_id: "05_nagoya-2008-2008_2"
 university: "名古屋大学"
 exam_year: "2008"
+problem_number: 2
 source_tex: "archive/05_nagoya/2008/2008_2.tex"
 pdf_source: "archive/05_nagoya/2008/2008_2.pdf"
 page_image: "archive/05_nagoya/2008/2008_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　三角形$ABC$で辺$AC$を$s:1-s$に内分する点を$P$，
+三角形$ABC$で辺$AC$を$s:1-s$に内分する点を$P$，
 辺$BC$を$t:1-t$に内分する点を$Q$，
 線分$AQ$と線分$BP$の交点を$R$とする．
 このとき，$\triangle APR$の面積＝2×($\triangle BQR$の面積)が成り立っているとする．

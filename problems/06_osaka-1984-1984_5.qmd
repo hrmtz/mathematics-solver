@@ -3,6 +3,7 @@ title: "大阪大学 1984年 1984_5"
 problem_id: "06_osaka-1984-1984_5"
 university: "大阪大学"
 exam_year: "1984"
+problem_number: 5
 source_tex: "archive/06_osaka/1984/1984_5.tex"
 pdf_source: "archive/06_osaka/1984/1984_5.pdf"
 page_image: "archive/06_osaka/1984/1984_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$n$個の玉に1から$n$まで番号をつけ箱の中に入れる．
+$n$個の玉に1から$n$まで番号をつけ箱の中に入れる．
 この箱から$k$個の玉をでたらめに取り出し，
 それらの玉の最大の番号を$X$とする．
 ただし$n$，$k$は$2\leqq k \leqq n$を満たす定まった整数である．

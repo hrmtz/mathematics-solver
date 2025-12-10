@@ -3,6 +3,7 @@ title: "九州大学 2018年 2018_1"
 problem_id: "07_kyushu-2018-2018_1"
 university: "九州大学"
 exam_year: "2018"
+problem_number: 1
 source_tex: "archive/07_kyushu/2018/2018_1.tex"
 pdf_source: "archive/07_kyushu/2018/2018_1.pdf"
 page_image: "archive/07_kyushu/2018/2018_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　座標空間において，$xy$平面上にある双曲線$x^2-y^2=1$のうち
+座標空間において，$xy$平面上にある双曲線$x^2-y^2=1$のうち
 $x\geqq1$を満たす部分を$C$とする。
 また，$z$軸上の点$A(0, \, 0, \, 1)$を考える。
 点$P$が$C$上を動くとき，

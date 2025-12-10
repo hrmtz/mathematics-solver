@@ -3,6 +3,7 @@ title: "東京大学 1975年 1975_0_4"
 problem_id: "01_tokyo-1975-1975_0_4"
 university: "東京大学"
 exam_year: "1975"
+problem_number: 4
 source_tex: "archive/01_tokyo/1975/1975_0_4.tex"
 pdf_source: "archive/01_tokyo/1975/1975_0_4.pdf"
 page_image: "archive/01_tokyo/1975/1975_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xy$平面内の曲線$x=f(y)$ $(f(y)\text{は正の値をとる関数とする})$と直線$y=2$および$x$軸，$y$軸で囲まれる図形を
+$xy$平面内の曲線$x=f(y)$ $(f(y)\text{は正の値をとる関数とする})$と直線$y=2$および$x$軸，$y$軸で囲まれる図形を
 $y$軸のまわりに回転してできる立体から，
 $y$座標が2の$y$軸上の点を中心とする半径1の球との共通部分をくりぬいた残りの立体を$A$とする．
 立体$A$の$y \leqq t$にあたる部分の体積$V(t)$が

@@ -3,6 +3,7 @@ title: "大阪大学 1997年 1997_3"
 problem_id: "06_osaka-1997-1997_3"
 university: "大阪大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/06_osaka/1997/1997_3.tex"
 pdf_source: "archive/06_osaka/1997/1997_3.pdf"
 page_image: "archive/06_osaka/1997/1997_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　楕円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>b>0)$と
+楕円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>b>0)$と
 双曲線$\displaystyle\frac{x^2}{a^2}-\frac{y^2}{c^2}=1$ $(c>0)$を考える．
 点$P(s, \, t)$ $(s>0, \, t>0)$を双曲線上にとり，
 原点$O$と点$P$を結ぶ線分と楕円の交点を$Q$とする．

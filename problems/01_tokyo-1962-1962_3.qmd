@@ -3,6 +3,7 @@ title: "東京大学 1962年 1962_3"
 problem_id: "01_tokyo-1962-1962_3"
 university: "東京大学"
 exam_year: "1962"
+problem_number: 3
 source_tex: "archive/01_tokyo/1962/1962_3.tex"
 pdf_source: "archive/01_tokyo/1962/1962_3.pdf"
 page_image: "archive/01_tokyo/1962/1962_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　図で，$g$は水平面に対する傾き$\tan\alpha$が1/2であるような定直線とし，
+図で，$g$は水平面に対する傾き$\tan\alpha$が1/2であるような定直線とし，
 $OA$，$AB$は$A$で(ちょうつがいで)連結された長さの等しい棒で，
 その端$O$は$g$上の定点に固定され，
 $OA$は$g$を含む鉛直面内で自由に回転し，

@@ -3,6 +3,7 @@ title: "名古屋大学 1989年 1989_0_2"
 problem_id: "05_nagoya-1989-1989_0_2"
 university: "名古屋大学"
 exam_year: "1989"
+problem_number: 2
 source_tex: "archive/05_nagoya/1989/1989_0_2.tex"
 pdf_source: "archive/05_nagoya/1989/1989_0_2.pdf"
 page_image: "archive/05_nagoya/1989/1989_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$P(x)$を$x$の3次式，$a$，$b$を定数とし，$\displaystyle F(x)=\int_a^xP(t)dt$とする．
+$P(x)$を$x$の3次式，$a$，$b$を定数とし，$\displaystyle F(x)=\int_a^xP(t)dt$とする．
 3次式$P(x)$をどのようにとっても，$F(x)$が$(x-b)$で割り切れるための必要十分条件は，
 $a=b$であることを証明せよ．
 

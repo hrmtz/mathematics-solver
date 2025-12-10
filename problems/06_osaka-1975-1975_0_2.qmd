@@ -3,6 +3,7 @@ title: "大阪大学 1975年 1975_0_2"
 problem_id: "06_osaka-1975-1975_0_2"
 university: "大阪大学"
 exam_year: "1975"
+problem_number: 2
 source_tex: "archive/06_osaka/1975/1975_0_2.tex"
 pdf_source: "archive/06_osaka/1975/1975_0_2.pdf"
 page_image: "archive/06_osaka/1975/1975_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　次の不等式を満たす$x$の範囲を求めよ．
+次の不等式を満たす$x$の範囲を求めよ．
 \[ \log_2(1-x)+\log_4(x+4)\leqq2 \]
 
 ---

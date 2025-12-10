@@ -3,6 +3,7 @@ title: "北海道大学 2020年 2020_0_4"
 problem_id: "03_hokudai-2020-2020_0_4"
 university: "北海道大学"
 exam_year: "2020"
+problem_number: 4
 source_tex: "archive/03_hokudai/2020/2020_0_4.tex"
 pdf_source: "archive/03_hokudai/2020/2020_0_4.pdf"
 page_image: "archive/03_hokudai/2020/2020_0_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　座標平面上に2つの放物線$C_1:y=2x^2$と
+座標平面上に2つの放物線$C_1:y=2x^2$と
 $\displaystyle C_2:y=-x^2+2x-\frac{19}{8}$がある。
 \begin{description}
 \item[(1)]$C_1$と$C_2$の両方に接する直線をすべて求めよ。

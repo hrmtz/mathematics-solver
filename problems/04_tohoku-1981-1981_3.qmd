@@ -3,6 +3,7 @@ title: "東北大学 1981年 1981_3"
 problem_id: "04_tohoku-1981-1981_3"
 university: "東北大学"
 exam_year: "1981"
+problem_number: 3
 source_tex: "archive/04_tohoku/1981/1981_3.tex"
 pdf_source: "archive/04_tohoku/1981/1981_3.pdf"
 page_image: "archive/04_tohoku/1981/1981_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　放物線$y=x^2$上を動く点$P$があって，時刻$t=0$のときの位置は原点である．
+放物線$y=x^2$上を動く点$P$があって，時刻$t=0$のときの位置は原点である．
 また時刻$t$のとき，$P$の速度ベクトルの$x$成分は，$\sin t$である．
 速度ベクトルの$y$成分が最大となるときの$P$の位置を求めよ．
 　また，そのときにおける$P$の速度ベクトルおよび加速度ベクトルを求めよ．

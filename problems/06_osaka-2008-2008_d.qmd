@@ -3,6 +3,7 @@ title: "大阪大学 2008年 2008_d"
 problem_id: "06_osaka-2008-2008_d"
 university: "大阪大学"
 exam_year: "2008"
+problem_number: 4
 source_tex: "archive/06_osaka/2008/2008_d.tex"
 pdf_source: "archive/06_osaka/2008/2008_d.pdf"
 page_image: "archive/06_osaka/2008/2008_d.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$xy$平面の単位円上に点$P(\cos t, \, \sin t)$ $(0 \leqq t \leqq \pi)$がある．
+$xy$平面の単位円上に点$P(\cos t, \, \sin t)$ $(0 \leqq t \leqq \pi)$がある．
 点$Q$は$PQ=d$を満たす$x$軸の正の部分にある点とする．
 ただし，$d$は定数で$d>1$とする．
 点$R$を線分$PQ$の中点とする．

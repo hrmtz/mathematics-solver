@@ -3,6 +3,7 @@ title: "大阪大学 1989年 1989_d"
 problem_id: "06_osaka-1989-1989_d"
 university: "大阪大学"
 exam_year: "1989"
+problem_number: 4
 source_tex: "archive/06_osaka/1989/1989_d.tex"
 pdf_source: "archive/06_osaka/1989/1989_d.pdf"
 page_image: "archive/06_osaka/1989/1989_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$k$が5以上の整数のとき，方程式$x+y+z=2k-1$の正整数の解について考える．
+$k$が5以上の整数のとき，方程式$x+y+z=2k-1$の正整数の解について考える．
 　以下の文中の□および解答用紙の表（下表）の空欄に適する数または式を求め，
 解答用紙の指定されたところに記入せよ．
 \begin{description}

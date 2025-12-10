@@ -3,6 +3,7 @@ title: "九州大学 1987年 1987_0_4"
 problem_id: "07_kyushu-1987-1987_0_4"
 university: "九州大学"
 exam_year: "1987"
+problem_number: 4
 source_tex: "archive/07_kyushu/1987/1987_0_4.tex"
 pdf_source: "archive/07_kyushu/1987/1987_0_4.pdf"
 page_image: "archive/07_kyushu/1987/1987_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　1辺の長さが1であるような正四面体の頂点を$A$，$B$，$C$，$D$とする．
+1辺の長さが1であるような正四面体の頂点を$A$，$B$，$C$，$D$とする．
 辺$AB$を$t:(1-t)$に内分する点を$E$，辺$AC$を$(1-t):t$に内分する点を$F$とする．
 このとき，次の問に答えよ．
 \begin{description}

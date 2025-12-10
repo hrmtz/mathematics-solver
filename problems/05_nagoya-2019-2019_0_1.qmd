@@ -3,6 +3,7 @@ title: "名古屋大学 2019年 2019_0_1"
 problem_id: "05_nagoya-2019-2019_0_1"
 university: "名古屋大学"
 exam_year: "2019"
+problem_number: 1
 source_tex: "archive/05_nagoya/2019/2019_0_1.tex"
 pdf_source: "archive/05_nagoya/2019/2019_0_1.pdf"
 page_image: "archive/05_nagoya/2019/2019_0_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$a$を実数とし，関数$f(x)=x^2+ax-a$と$\displaystyle F(x)=\int_0^xf(t)dt$を考える。
+$a$を実数とし，関数$f(x)=x^2+ax-a$と$\displaystyle F(x)=\int_0^xf(t)dt$を考える。
 関数$y=F(x)-f(x)$のグラフが$x$軸と異なる3点で交わるための$a$の条件を求めよ。
 
 ---

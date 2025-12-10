@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_d"
 problem_id: "04_tohoku-1999-1999_d"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/04_tohoku/1999/1999_d.tex"
 pdf_source: "archive/04_tohoku/1999/1999_d.pdf"
 page_image: "archive/04_tohoku/1999/1999_d.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　原点を中心として回転する半直線$L$と$L$に接しながら動く半径1の円$C$がある．
+原点を中心として回転する半直線$L$と$L$に接しながら動く半径1の円$C$がある．
 時刻$t=0$では，半直線$L$は$y$軸の負の部分に一致しており，
 円$C$は中心が$(1, \, 0)$にあって原点で$L$に接しているとする．
 時刻$t$では，半直線$L$は原点を中心に正の向きに$t$だけ回転し，

@@ -3,6 +3,7 @@ title: "東北大学 1964年 1964_1"
 problem_id: "04_tohoku-1964-1964_1"
 university: "東北大学"
 exam_year: "1964"
+problem_number: 1
 source_tex: "archive/04_tohoku/1964/1964_1.tex"
 pdf_source: "archive/04_tohoku/1964/1964_1.pdf"
 page_image: "archive/04_tohoku/1964/1964_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$，$c$を正数とし，
+$a$，$b$，$c$を正数とし，
 二次方程式$ax^2-2bx+c=0$は
 相異なる実根$\alpha$，$\beta$ $(\alpha<\beta)$をもつものとする。
 このとき，$t\leqq\alpha$なる任意の$t$に対して

@@ -3,6 +3,7 @@ title: "九州大学 1978年 1978_0_4"
 problem_id: "07_kyushu-1978-1978_0_4"
 university: "九州大学"
 exam_year: "1978"
+problem_number: 4
 source_tex: "archive/07_kyushu/1978/1978_0_4.tex"
 pdf_source: "archive/07_kyushu/1978/1978_0_4.pdf"
 page_image: "archive/07_kyushu/1978/1978_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　原点$O$と点$P(1, \, \sqrt2, \, \sqrt3)$とを通る直線に垂直で，
+原点$O$と点$P(1, \, \sqrt2, \, \sqrt3)$とを通る直線に垂直で，
 かつ点$A(1, \, 0, \, 0)$を含む平面を$\alpha$として，次の問に答えよ．
 \begin{description}
 \item[(1)]平面$\alpha$の方程式を求めよ．

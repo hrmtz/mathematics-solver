@@ -3,6 +3,7 @@ title: "東京大学 1971年 1971_4"
 problem_id: "01_tokyo-1971-1971_4"
 university: "東京大学"
 exam_year: "1971"
+problem_number: 4
 source_tex: "archive/01_tokyo/1971/1971_4.tex"
 pdf_source: "archive/01_tokyo/1971/1971_4.pdf"
 page_image: "archive/01_tokyo/1971/1971_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$x$の整式
+$x$の整式
 \[ f_n(x)=1+\frac{x}{1 \, !}+\frac{x^2}{2 \, !}+\cdots\cdots+\frac{x^n}{n \, !} \hspace{1zw} (n=1,2,\cdots\cdots) \]
 について
 \[ f_n ' (x)=f_{n-1}(x) \hspace{1zw} (n=2,3,\cdots\cdots) \]

@@ -3,6 +3,7 @@ title: "京都大学 2014年 2014_0_4"
 problem_id: "02_kyoto-2014-2014_0_4"
 university: "京都大学"
 exam_year: "2014"
+problem_number: 4
 source_tex: "archive/02_kyoto/2014/2014_0_4.tex"
 pdf_source: "archive/02_kyoto/2014/2014_0_4.pdf"
 page_image: "archive/02_kyoto/2014/2014_0_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　次の式
+次の式
 \[ a_1=2, \hspace{1zw} a_{n+1}=2a_n-1 \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
 で定められる数列$\{ a_n \}$を考える．
 \begin{description}

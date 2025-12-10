@@ -3,6 +3,7 @@ title: "大阪大学 2015年 2015_4"
 problem_id: "06_osaka-2015-2015_4"
 university: "大阪大学"
 exam_year: "2015"
+problem_number: 4
 source_tex: "archive/06_osaka/2015/2015_4.tex"
 pdf_source: "archive/06_osaka/2015/2015_4.pdf"
 page_image: "archive/06_osaka/2015/2015_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　座標空間の$x$軸上に動点$P$，$Q$がある．$P$，$Q$は時刻0において，原点を出発する．
+座標空間の$x$軸上に動点$P$，$Q$がある．$P$，$Q$は時刻0において，原点を出発する．
 $P$は$x$軸の正の方向に，$Q$は$x$軸の負の方向に，ともに速さ1で動く．
 その後，ともに時刻1で停止する．
 点$P$，$Q$を中心とする半径1の球をそれぞれ$A$，$B$とし，空間で$x\geqq-1$の部分を$C$とする．

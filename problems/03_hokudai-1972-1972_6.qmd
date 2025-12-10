@@ -3,6 +3,7 @@ title: "北海道大学 1972年 1972_6"
 problem_id: "03_hokudai-1972-1972_6"
 university: "北海道大学"
 exam_year: "1972"
+problem_number: 6
 source_tex: "archive/03_hokudai/1972/1972_6.tex"
 pdf_source: "archive/03_hokudai/1972/1972_6.pdf"
 page_image: "archive/03_hokudai/1972/1972_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　微分可能な関数$y=f(x)$のグラフ上の任意の点$P$における接線と$x$軸との交点を$(u, \, 0)$，
+微分可能な関数$y=f(x)$のグラフ上の任意の点$P$における接線と$x$軸との交点を$(u, \, 0)$，
 点$P$より$x$軸に下ろした垂線の足を$(x, \, 0)$とする．
 $x>0$，$y>0$の範囲で，次のおのおのの場合における$f(x)$を求めよ．
 ただし，$f(2)=1$とする．

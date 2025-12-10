@@ -3,6 +3,7 @@ title: "大阪大学 1981年 1981_4"
 problem_id: "06_osaka-1981-1981_4"
 university: "大阪大学"
 exam_year: "1981"
+problem_number: 4
 source_tex: "archive/06_osaka/1981/1981_4.tex"
 pdf_source: "archive/06_osaka/1981/1981_4.pdf"
 page_image: "archive/06_osaka/1981/1981_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　平面上の点$P(0, \, a)$ $(a>0)$を中心とし，
+平面上の点$P(0, \, a)$ $(a>0)$を中心とし，
 2点$A(-1, \, 0)$，$B(1, \, 0)$を通る円を$C$とする．
 円$C$の$x$軸より下にある部分の弧$\stackrel{\frown}{AB}$上の点の座標を
 $(x, \, f(x))$ $(-1 \leqq x \leqq 1)$とする．

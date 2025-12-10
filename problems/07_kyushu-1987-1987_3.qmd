@@ -3,6 +3,7 @@ title: "九州大学 1987年 1987_3"
 problem_id: "07_kyushu-1987-1987_3"
 university: "九州大学"
 exam_year: "1987"
+problem_number: 3
 source_tex: "archive/07_kyushu/1987/1987_3.tex"
 pdf_source: "archive/07_kyushu/1987/1987_3.pdf"
 page_image: "archive/07_kyushu/1987/1987_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　だ円$\displaystyle C:\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>0, \, b>0)$上に点$P(s, \, t)$，
+だ円$\displaystyle C:\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>0, \, b>0)$上に点$P(s, \, t)$，
 $x$軸上に点$Q(s, \, 0)$をとる$(0<s<a)$．
 $\displaystyle 0 \leqq x \leqq \frac{s}{t}y$を満たす$C$の内部を$D$とする．
 このとき，次の問に答えよ．

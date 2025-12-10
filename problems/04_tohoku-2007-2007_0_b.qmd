@@ -3,6 +3,7 @@ title: "東北大学 2007年 2007_0_b"
 problem_id: "04_tohoku-2007-2007_0_b"
 university: "東北大学"
 exam_year: "2007"
+problem_number: 2
 source_tex: "archive/04_tohoku/2007/2007_0_b.tex"
 pdf_source: "archive/04_tohoku/2007/2007_0_b.pdf"
 page_image: "archive/04_tohoku/2007/2007_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　図のような平行四辺形$ABCD$において$\angle ADB$は直角とする．
+図のような平行四辺形$ABCD$において$\angle ADB$は直角とする．
 $D$から線分$AC$に下ろした垂線と$AC$との交点を$E$とする．
 $\overrightarrow{AD}=\overrightarrow{a}$，$\overrightarrow{AB}=\overrightarrow{b}$とおき，
 $|\overrightarrow{a}|=1$，$|\overrightarrow{b}|=\sqrt{13}$とする．

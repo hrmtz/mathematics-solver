@@ -3,6 +3,7 @@ title: "京都大学 1967年 1967_4"
 problem_id: "02_kyoto-1967-1967_4"
 university: "京都大学"
 exam_year: "1967"
+problem_number: 4
 source_tex: "archive/02_kyoto/1967/1967_4.tex"
 pdf_source: "archive/02_kyoto/1967/1967_4.pdf"
 page_image: "archive/02_kyoto/1967/1967_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　次の□の中に適当な数または式を入れよ．
+次の□の中に適当な数または式を入れよ．
 また(イ)～(ホ)の「　」で囲まれた文章の理由を，
 最後の(イ)～(ホ)の解答のところで述べよ．
 \begin{equation}方程式　x^2-3y^2=1\end{equation}

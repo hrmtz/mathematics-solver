@@ -3,6 +3,7 @@ title: "東京大学 1986年 1986_1"
 problem_id: "01_tokyo-1986-1986_1"
 university: "東京大学"
 exam_year: "1986"
+problem_number: 1
 source_tex: "archive/01_tokyo/1986/1986_1.tex"
 pdf_source: "archive/01_tokyo/1986/1986_1.pdf"
 page_image: "archive/01_tokyo/1986/1986_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$xy$平面において，座標$(x,y)$が不等式$x\geqq0$，$y\geqq0$，$xy\leqq1$をみたすような
+$xy$平面において，座標$(x,y)$が不等式$x\geqq0$，$y\geqq0$，$xy\leqq1$をみたすような
 点$P(x,y)$の作る集合を$D$とする．
 三点$A(a,0)$，$B(0,b)$，$\displaystyle C \left( c,\frac{1}{c} \right)$を頂点とし，
 $D$に含まれる三角形$ABC$はどのような場合に面積が最大となるか．

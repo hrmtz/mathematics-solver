@@ -3,6 +3,7 @@ title: "名古屋大学 1971年 1971_3"
 problem_id: "05_nagoya-1971-1971_3"
 university: "名古屋大学"
 exam_year: "1971"
+problem_number: 3
 source_tex: "archive/05_nagoya/1971/1971_3.tex"
 pdf_source: "archive/05_nagoya/1971/1971_3.pdf"
 page_image: "archive/05_nagoya/1971/1971_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　放物線$y=x^2$上の異なる3点$(x_1, \, y_1)$，$(x_2, \, y_2)$，$(x_3, \, y_3)$における法線が1点で交わるとき，
+放物線$y=x^2$上の異なる3点$(x_1, \, y_1)$，$(x_2, \, y_2)$，$(x_3, \, y_3)$における法線が1点で交わるとき，
 $x_1+x_2+x_3=0$であることを証明せよ．
 （曲線上の1点で，接線に垂直な直線を，その点における曲線の法線という）
 

@@ -3,6 +3,7 @@ title: "北海道大学 2008年 2008_2"
 problem_id: "03_hokudai-2008-2008_2"
 university: "北海道大学"
 exam_year: "2008"
+problem_number: 2
 source_tex: "archive/03_hokudai/2008/2008_2.tex"
 pdf_source: "archive/03_hokudai/2008/2008_2.pdf"
 page_image: "archive/03_hokudai/2008/2008_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$n$を自然数とし，
+$n$を自然数とし，
 2次正方行列$A=\begin{pmatrix} 2 & 1 
 
  1 & 2 \end{pmatrix}$に対して，

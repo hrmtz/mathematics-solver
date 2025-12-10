@@ -3,6 +3,7 @@ title: "九州大学 1994年 1994_5"
 problem_id: "07_kyushu-1994-1994_5"
 university: "九州大学"
 exam_year: "1994"
+problem_number: 5
 source_tex: "archive/07_kyushu/1994/1994_5.tex"
 pdf_source: "archive/07_kyushu/1994/1994_5.pdf"
 page_image: "archive/07_kyushu/1994/1994_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　3つのタイプからなる合計10枚の同じ形状のカードがある．
+3つのタイプからなる合計10枚の同じ形状のカードがある．
 第1のタイプは3枚で両面が黒，第2のタイプは3枚で両面が白，第3のタイプは4枚で片面が白で他面が黒である．
 これらのカードの中から1枚を無作為に取り出すとき，次の問に答えよ．
 \begin{description}

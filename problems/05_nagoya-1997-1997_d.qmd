@@ -3,6 +3,7 @@ title: "名古屋大学 1997年 1997_d"
 problem_id: "05_nagoya-1997-1997_d"
 university: "名古屋大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/05_nagoya/1997/1997_d.tex"
 pdf_source: "archive/05_nagoya/1997/1997_d.pdf"
 page_image: "archive/05_nagoya/1997/1997_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　4個の黒の立方体ブロックと6個の白の立方体ブロックを無作為に横一列に並べる．
+4個の黒の立方体ブロックと6個の白の立方体ブロックを無作為に横一列に並べる．
 列の中で黒ブロックが連続している部分を黒列部分と呼び，そのブロック数を黒部分列の長さとする．
 ただし，連続しない黒ブロックは長さ1の黒部分列とする．
 同様に，白部分列とその長さを定義する．

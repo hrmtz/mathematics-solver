@@ -3,6 +3,7 @@ title: "東京科学大学 ao年 2009_d"
 problem_id: "08_titech-ao-2009_d"
 university: "東京科学大学"
 exam_year: "ao"
+problem_number: 4
 source_tex: "archive/08_titech/ao/2009_d.tex"
 pdf_source: "archive/08_titech/ao/2009_d.pdf"
 page_image: "archive/08_titech/ao/2009_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　半径$R$の定円$C$がある．
+半径$R$の定円$C$がある．
 半径$r$の円板$D$が円$C$に外接しながら一定の速さですべることなくころがっている．
 円板$D$の周上の一点を$P$とするとき，$P$の速度ベクトルが$\vec{0}$となる場所が有限個であるための必要十分条件を求めよ．
 

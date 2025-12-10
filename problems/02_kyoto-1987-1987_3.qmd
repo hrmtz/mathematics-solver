@@ -3,6 +3,7 @@ title: "京都大学 1987年 1987_3"
 problem_id: "02_kyoto-1987-1987_3"
 university: "京都大学"
 exam_year: "1987"
+problem_number: 3
 source_tex: "archive/02_kyoto/1987/1987_3.tex"
 pdf_source: "archive/02_kyoto/1987/1987_3.pdf"
 page_image: "archive/02_kyoto/1987/1987_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　不等式$a\cos2\theta+b\cos\theta<1$がすべての実数$\theta$について成り立つような点$(a,b)$の範囲を図示せよ．
+不等式$a\cos2\theta+b\cos\theta<1$がすべての実数$\theta$について成り立つような点$(a,b)$の範囲を図示せよ．
 
 ---
 

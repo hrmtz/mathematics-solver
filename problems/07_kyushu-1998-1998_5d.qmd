@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_5d"
 problem_id: "07_kyushu-1998-1998_5d"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 5
 source_tex: "archive/07_kyushu/1998/1998_5d.tex"
 pdf_source: "archive/07_kyushu/1998/1998_5d.pdf"
 page_image: "archive/07_kyushu/1998/1998_5d.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-5 (d)
 \begin{description}
 \item[(1)]平面上に半径が$R$，$r$ $(R>r)$の2円があり，
 それらの中心間の距離が$l$であるとする．

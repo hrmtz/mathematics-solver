@@ -3,6 +3,7 @@ title: "東北大学 1983年 1983_4"
 problem_id: "04_tohoku-1983-1983_4"
 university: "東北大学"
 exam_year: "1983"
+problem_number: 4
 source_tex: "archive/04_tohoku/1983/1983_4.tex"
 pdf_source: "archive/04_tohoku/1983/1983_4.pdf"
 page_image: "archive/04_tohoku/1983/1983_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$n$枚$(n\geqq2)$のカード$C_1, \, C_2, \, \cdots\cdots, \, C_n$があり，
+$n$枚$(n\geqq2)$のカード$C_1, \, C_2, \, \cdots\cdots, \, C_n$があり，
 $C_1$に1，$C_2$に$2$，$\cdots\cdots$，$C_n$に$n$と記入してある．
 この中から任意に2枚のカードを取り出すとき，
 取り出されたカードに記入してある数のうち小さい方を$X$，大きい方を$Y$とする．

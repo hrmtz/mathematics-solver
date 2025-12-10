@@ -3,6 +3,7 @@ title: "東北大学 2003年 2003_a"
 problem_id: "04_tohoku-2003-2003_a"
 university: "東北大学"
 exam_year: "2003"
+problem_number: 1
 source_tex: "archive/04_tohoku/2003/2003_a.tex"
 pdf_source: "archive/04_tohoku/2003/2003_a.pdf"
 page_image: "archive/04_tohoku/2003/2003_a.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]正の整数$n$に対して，$f(x)={(e^x-e^{-x})}^n$とする．$f'(0)$を求めよ．
 \item[(2)]次を示せ．ただし，$\displaystyle {}_nC_k=\frac{n \, !}{k \, ! (n-k) \, !}$とする．

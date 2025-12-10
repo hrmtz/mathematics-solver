@@ -3,6 +3,7 @@ title: "東北大学 2008年 2008_e"
 problem_id: "04_tohoku-2008-2008_e"
 university: "東北大学"
 exam_year: "2008"
+problem_number: 5
 source_tex: "archive/04_tohoku/2008/2008_e.tex"
 pdf_source: "archive/04_tohoku/2008/2008_e.pdf"
 page_image: "archive/04_tohoku/2008/2008_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$n$は自然数とする．
+$n$は自然数とする．
 平面上の曲線$C:y=x^2-n$と$x$軸が囲む領域内にあり，
 $x$座標と$y$座標の値が共に整数であるような点の総数を$a_n$とおく．
 ただし，曲線$C$上の点および$x$軸上の点も含むとする．

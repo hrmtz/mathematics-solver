@@ -3,6 +3,7 @@ title: "名古屋大学 1981年 1981_4b"
 problem_id: "05_nagoya-1981-1981_4b"
 university: "名古屋大学"
 exam_year: "1981"
+problem_number: 4
 source_tex: "archive/05_nagoya/1981/1981_4b.tex"
 pdf_source: "archive/05_nagoya/1981/1981_4b.pdf"
 page_image: "archive/05_nagoya/1981/1981_4b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　微分可能な関数$f(x)$が，
+微分可能な関数$f(x)$が，
 $x\geqq0$のときつねに$f'(x)>0$，
 $\displaystyle\int_0^xf(t)dt \geqq x$を満たすならば，
 $x>0$の範囲では$f(x)>1$であることを証明せよ．

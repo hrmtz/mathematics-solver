@@ -3,6 +3,7 @@ title: "東京大学 2024年 2024_3"
 problem_id: "01_tokyo-2024-2024_3"
 university: "東京大学"
 exam_year: "2024"
+problem_number: 3
 source_tex: "archive/01_tokyo/2024/2024_3.tex"
 pdf_source: "archive/01_tokyo/2024/2024_3.pdf"
 page_image: "archive/01_tokyo/2024/2024_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　座標平面上を次の規則(i)，(ii)に従って1秒ごとに動く点Pを考える。
+座標平面上を次の規則(i)，(ii)に従って1秒ごとに動く点Pを考える。
 \begin{description}
 \item[(i)]最初に，Pは点$(2, \, 1)$にいる。
 \item[(ii)]ある時刻でPが点$(a, \, b)$にいるとき，その1秒後にはPは

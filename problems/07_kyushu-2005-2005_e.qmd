@@ -3,6 +3,7 @@ title: "九州大学 2005年 2005_e"
 problem_id: "07_kyushu-2005-2005_e"
 university: "九州大学"
 exam_year: "2005"
+problem_number: 5
 source_tex: "archive/07_kyushu/2005/2005_e.tex"
 pdf_source: "archive/07_kyushu/2005/2005_e.pdf"
 page_image: "archive/07_kyushu/2005/2005_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$t$と$\theta$を実数，
+$t$と$\theta$を実数，
 $J=\begin{pmatrix} 0 & 1 
 
  -1 & 0 \end{pmatrix}$，

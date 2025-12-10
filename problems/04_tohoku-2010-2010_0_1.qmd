@@ -3,6 +3,7 @@ title: "東北大学 2010年 2010_0_1"
 problem_id: "04_tohoku-2010-2010_0_1"
 university: "東北大学"
 exam_year: "2010"
+problem_number: 1
 source_tex: "archive/04_tohoku/2010/2010_0_1.tex"
 pdf_source: "archive/04_tohoku/2010/2010_0_1.pdf"
 page_image: "archive/04_tohoku/2010/2010_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$f(x)=x^3$とするとき，以下の問いに答えよ．
+$f(x)=x^3$とするとき，以下の問いに答えよ．
 \begin{description}
 \item[(1)]$0 \leqq a<x<y$を満たすすべての$a$，$x$，$y$に対して
 \[ \frac{f(x)-f(a)}{x-a}<\frac{f(y)-f(x)}{y-x} \]

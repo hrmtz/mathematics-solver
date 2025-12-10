@@ -3,6 +3,7 @@ title: "東京大学 2000年 2000_0_1"
 problem_id: "01_tokyo-2000-2000_0_1"
 university: "東京大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/01_tokyo/2000/2000_0_1.tex"
 pdf_source: "archive/01_tokyo/2000/2000_0_1.pdf"
 page_image: "archive/01_tokyo/2000/2000_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　図のように底面の半径1，上面の半径$1-x$，高さ$4x$の直円すい台$A$と，
+図のように底面の半径1，上面の半径$1-x$，高さ$4x$の直円すい台$A$と，
 底面の半径$\displaystyle1-\frac{x}{2}$，上面の半径$\displaystyle\frac{1}{2}$，高さ$1-x$の直円すい台$B$がある．
 ただし，$0 \leqq x \leqq 1$である．
 $A$と$B$の体積の和を$V(x)$とするとき，$V(x)$の最大値を求めよ．

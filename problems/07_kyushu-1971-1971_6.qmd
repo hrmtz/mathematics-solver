@@ -3,6 +3,7 @@ title: "九州大学 1971年 1971_6"
 problem_id: "07_kyushu-1971-1971_6"
 university: "九州大学"
 exam_year: "1971"
+problem_number: 6
 source_tex: "archive/07_kyushu/1971/1971_6.tex"
 pdf_source: "archive/07_kyushu/1971/1971_6.pdf"
 page_image: "archive/07_kyushu/1971/1971_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$a$を$0<a<1$なる実数とする．
+$a$を$0<a<1$なる実数とする．
 放物線$y=4ax(1-x)$に点$P(0, \, 1)$から2本の接線を引き，
 その接線と$x$軸との交点をそれぞれ$Q$，$R$とする．
 \begin{description}

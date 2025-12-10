@@ -3,6 +3,7 @@ title: "京都大学 2025年 2025_5"
 problem_id: "02_kyoto-2025-2025_5"
 university: "京都大学"
 exam_year: "2025"
+problem_number: 5
 source_tex: "archive/02_kyoto/2025/2025_5.tex"
 pdf_source: "archive/02_kyoto/2025/2025_5.pdf"
 page_image: "archive/02_kyoto/2025/2025_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$\theta$は実数とする．$xyz$空間の2点$\displaystyle A \left( 0, \, 0, \, \frac{\sqrt2}{4} \right)$，
+$\theta$は実数とする．$xyz$空間の2点$\displaystyle A \left( 0, \, 0, \, \frac{\sqrt2}{4} \right)$，
 $\displaystyle P \left( \cos\theta, \, \sin\theta, \, \frac{1}{2}\cos\theta \right)$を通る
 直線$AP$が$xy$平面と交わるとき，その交点を$Q$とする．
 $\theta$が$\displaystyle -\frac{\pi}{4}<\theta<\frac{\pi}{4}$の範囲を動くときの点$Q$の軌跡を求め，

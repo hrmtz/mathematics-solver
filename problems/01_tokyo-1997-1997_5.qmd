@@ -3,6 +3,7 @@ title: "東京大学 1997年 1997_5"
 problem_id: "01_tokyo-1997-1997_5"
 university: "東京大学"
 exam_year: "1997"
+problem_number: 5
 source_tex: "archive/01_tokyo/1997/1997_5.tex"
 pdf_source: "archive/01_tokyo/1997/1997_5.pdf"
 page_image: "archive/01_tokyo/1997/1997_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$a$を$\displaystyle 0<a<\frac{1}{4}$を満たす実数とする．
+$a$を$\displaystyle 0<a<\frac{1}{4}$を満たす実数とする．
 $xy$平面で，不等式
 \[ y^2 \leqq x^2(1-x^2)-a \]
 の表す領域を$y$軸のまわりに1回転してできる回転体の体積を求めよ．

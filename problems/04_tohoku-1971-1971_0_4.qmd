@@ -3,6 +3,7 @@ title: "東北大学 1971年 1971_0_4"
 problem_id: "04_tohoku-1971-1971_0_4"
 university: "東北大学"
 exam_year: "1971"
+problem_number: 4
 source_tex: "archive/04_tohoku/1971/1971_0_4.tex"
 pdf_source: "archive/04_tohoku/1971/1971_0_4.pdf"
 page_image: "archive/04_tohoku/1971/1971_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f(x)=-x^3+ax^2+bx+c$が，次の3つの条件を満たすとき，
+関数$f(x)=-x^3+ax^2+bx+c$が，次の3つの条件を満たすとき，
 $a$，$b$，$c$を決定して関数$y=f(x)$のグラフの概形を描け．
 \begin{description}
 \item[(A)]方程式$f(x)=0$の正根は$x=1$だけである．

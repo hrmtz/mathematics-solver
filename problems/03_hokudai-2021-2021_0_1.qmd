@@ -3,6 +3,7 @@ title: "北海道大学 2021年 2021_0_1"
 problem_id: "03_hokudai-2021-2021_0_1"
 university: "北海道大学"
 exam_year: "2021"
+problem_number: 1
 source_tex: "archive/03_hokudai/2021/2021_0_1.tex"
 pdf_source: "archive/03_hokudai/2021/2021_0_1.pdf"
 page_image: "archive/03_hokudai/2021/2021_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　初項から第$n$項までの和$S_n$が
+初項から第$n$項までの和$S_n$が
 \[ S_n=\frac{1}{6}n(n+1)(2n+7) \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
 で表される数列$\{ a_n \}$がある。
 \begin{description}

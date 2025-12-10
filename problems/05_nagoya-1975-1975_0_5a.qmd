@@ -3,6 +3,7 @@ title: "名古屋大学 1975年 1975_0_5a"
 problem_id: "05_nagoya-1975-1975_0_5a"
 university: "名古屋大学"
 exam_year: "1975"
+problem_number: 5
 source_tex: "archive/05_nagoya/1975/1975_0_5a.tex"
 pdf_source: "archive/05_nagoya/1975/1975_0_5a.pdf"
 page_image: "archive/05_nagoya/1975/1975_0_5a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5 (a)
-　1つのさいころを$n$回投げ，出た目の積をつくる．
+1つのさいころを$n$回投げ，出た目の積をつくる．
 それが偶数となる確率$p_n$を求め，$\displaystyle\lim_{n\to\infty}p_n$を計算せよ．
 
 ---

@@ -3,6 +3,7 @@ title: "大阪大学 1993年 1993_5"
 problem_id: "06_osaka-1993-1993_5"
 university: "大阪大学"
 exam_year: "1993"
+problem_number: 5
 source_tex: "archive/06_osaka/1993/1993_5.tex"
 pdf_source: "archive/06_osaka/1993/1993_5.pdf"
 page_image: "archive/06_osaka/1993/1993_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$f(x)$は2次の導関数をもち，$f(0)<0$を満たす関数で，
+$f(x)$は2次の導関数をもち，$f(0)<0$を満たす関数で，
 さらに次の性質をもつという．
 原点を$O$とし，曲線$y=f(x)$上の任意の点$P(x, \, y)$に対し，
 点$(x, \, y+1)$を$Q$とするとき，

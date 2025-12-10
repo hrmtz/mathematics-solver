@@ -3,6 +3,7 @@ title: "東北大学 1995年 1995_2"
 problem_id: "04_tohoku-1995-1995_2"
 university: "東北大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/04_tohoku/1995/1995_2.tex"
 pdf_source: "archive/04_tohoku/1995/1995_2.pdf"
 page_image: "archive/04_tohoku/1995/1995_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　関数$f(x)=e^{3x}-6e^{2x}+9e^x$を考える．
+関数$f(x)=e^{3x}-6e^{2x}+9e^x$を考える．
 \begin{description}
 \item[(1)]$f(x)$の極値を求めよ．
 \item[(2)](1)で求めた極大値を$b$とする．

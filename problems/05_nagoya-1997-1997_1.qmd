@@ -3,6 +3,7 @@ title: "名古屋大学 1997年 1997_1"
 problem_id: "05_nagoya-1997-1997_1"
 university: "名古屋大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/05_nagoya/1997/1997_1.tex"
 pdf_source: "archive/05_nagoya/1997/1997_1.pdf"
 page_image: "archive/05_nagoya/1997/1997_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$\triangle ABC$上の時速$u$，$v$，$w$で等速運動する3点があって，
+$\triangle ABC$上の時速$u$，$v$，$w$で等速運動する3点があって，
 それぞれ$A$から辺$AB$に沿って$B$へ，$B$から辺$BC$に沿って$C$へ，$C$から辺$CA$に沿って$A$へ同時に出発したとする．
 $t$時間後のそれらの位置をそれぞれ$P(t)$，$Q(t)$，$R(t)$とする．
 3点が同時に次の頂点に到達するための必要十分条件は，

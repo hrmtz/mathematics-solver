@@ -3,6 +3,7 @@ title: "京都大学 2024年 2024_4"
 problem_id: "02_kyoto-2024-2024_4"
 university: "京都大学"
 exam_year: "2024"
+problem_number: 4
 source_tex: "archive/02_kyoto/2024/2024_4.tex"
 pdf_source: "archive/02_kyoto/2024/2024_4.pdf"
 page_image: "archive/02_kyoto/2024/2024_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　与えられた自然数$a_0$に対して，
+与えられた自然数$a_0$に対して，
 自然数からなる数列$a_0, \, a_1, \, a_2, \, \cdots$を次のように定める．
 \[ a_{n+1}=\begin{cases} \displaystyle\frac{a_n}{2} & (a_n\text{が偶数のとき}) 
 

@@ -3,6 +3,7 @@ title: "名古屋大学 1966年 1966_2"
 problem_id: "05_nagoya-1966-1966_2"
 university: "名古屋大学"
 exam_year: "1966"
+problem_number: 2
 source_tex: "archive/05_nagoya/1966/1966_2.tex"
 pdf_source: "archive/05_nagoya/1966/1966_2.pdf"
 page_image: "archive/05_nagoya/1966/1966_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　図において
+図において
 $\angle AOB={90}^\circ$，$\angle BOC={30}^\circ$，$OA=BC=1$であるとき，
 線分$AB$の長さを求めよ．
 

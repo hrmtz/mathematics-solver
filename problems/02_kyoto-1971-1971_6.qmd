@@ -3,6 +3,7 @@ title: "京都大学 1971年 1971_6"
 problem_id: "02_kyoto-1971-1971_6"
 university: "京都大学"
 exam_year: "1971"
+problem_number: 6
 source_tex: "archive/02_kyoto/1971/1971_6.tex"
 pdf_source: "archive/02_kyoto/1971/1971_6.pdf"
 page_image: "archive/02_kyoto/1971/1971_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$xy$平面上に二つの動点$P$，$Q$がある．
+$xy$平面上に二つの動点$P$，$Q$がある．
 $P$は点$(1,0)$から出発し，原点$O$を中心とする半径1の円周上を正の向きに一定の速さ$\pi$(円周率)で回転する．
 $Q$は点$(a,0)$から$P$と同時に出発し，$y$軸に平行な直線上を$y$の増加方向に一定の速さ$v$で進む．
 ただし$0<v<a\pi$とする．

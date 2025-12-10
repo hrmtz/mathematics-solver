@@ -3,6 +3,7 @@ title: "東京大学 1985年 1985_0_1"
 problem_id: "01_tokyo-1985-1985_0_1"
 university: "東京大学"
 exam_year: "1985"
+problem_number: 1
 source_tex: "archive/01_tokyo/1985/1985_0_1.tex"
 pdf_source: "archive/01_tokyo/1985/1985_0_1.pdf"
 page_image: "archive/01_tokyo/1985/1985_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$は$a^2+b^2\neq0$なる実数とし，
+$a$，$b$は$a^2+b^2\neq0$なる実数とし，
 $\displaystyle A=\frac{1}{a^2+b^2}\begin{pmatrix} a^2 & ab 
 
  ab & b^2 \end{pmatrix}$，

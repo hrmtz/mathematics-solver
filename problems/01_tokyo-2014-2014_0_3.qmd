@@ -3,6 +3,7 @@ title: "東京大学 2014年 2014_0_3"
 problem_id: "01_tokyo-2014-2014_0_3"
 university: "東京大学"
 exam_year: "2014"
+problem_number: 3
 source_tex: "archive/01_tokyo/2014/2014_0_3.tex"
 pdf_source: "archive/01_tokyo/2014/2014_0_3.pdf"
 page_image: "archive/01_tokyo/2014/2014_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　座標平面の原点を$O$で表す。
+座標平面の原点を$O$で表す。
 　線分$y=\sqrt3 \, x$ $(0 \leqq x \leqq 2)$上の点$P$と，
 線分$y=-\sqrt3 \, x$ $(-3 \leqq x \leqq 0)$上の点$Q$が，
 線分$OP$と線分$OQ$の長さの和が6となるように動く。

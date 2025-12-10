@@ -3,6 +3,7 @@ title: "東京大学 2020年 2020_6"
 problem_id: "01_tokyo-2020-2020_6"
 university: "東京大学"
 exam_year: "2020"
+problem_number: 6
 source_tex: "archive/01_tokyo/2020/2020_6.tex"
 pdf_source: "archive/01_tokyo/2020/2020_6.pdf"
 page_image: "archive/01_tokyo/2020/2020_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　以下の問いに答えよ。
+以下の問いに答えよ。
 \begin{description}
 \item[(1)]$A$，$\alpha$を実数とする。$\theta$の方程式
 \[ A\sin 2\theta-\sin(\theta+\alpha)=0 \]

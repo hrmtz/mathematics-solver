@@ -3,6 +3,7 @@ title: "東京科学大学 1997年 1997_a"
 problem_id: "08_titech-1997-1997_a"
 university: "東京科学大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/08_titech/1997/1997_a.tex"
 pdf_source: "archive/08_titech/1997/1997_a.pdf"
 page_image: "archive/08_titech/1997/1997_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　放物線$y=x^2$を$C_1$とし，$C_1$上に両端をもつ長さ1の線分の中点の軌跡を$C_2$とする．
+放物線$y=x^2$を$C_1$とし，$C_1$上に両端をもつ長さ1の線分の中点の軌跡を$C_2$とする．
 $C_1$，$C_2$および2直線$x=\pm a$ $(a>0)$で囲まれる部分の面積を$S_a$とするとき，
 $\displaystyle\lim_{a\to\infty}S_a$を求めよ．
 

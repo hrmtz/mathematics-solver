@@ -3,6 +3,7 @@ title: "名古屋大学 1968年 1968_0_5b"
 problem_id: "05_nagoya-1968-1968_0_5b"
 university: "名古屋大学"
 exam_year: "1968"
+problem_number: 5
 source_tex: "archive/05_nagoya/1968/1968_0_5b.tex"
 pdf_source: "archive/05_nagoya/1968/1968_0_5b.pdf"
 page_image: "archive/05_nagoya/1968/1968_0_5b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (b)
-　平面上に半径$a$の円板があり，
+平面上に半径$a$の円板があり，
 中心のまわりをこの平面内で正の方向に，
 毎秒の回転角$\omega$の等速回転運動をしている．
 　この回転円板の中心を，$x$軸上で，$t$秒後の位置が$x=b\sin\omega t$で表わされる単振動をさせる．

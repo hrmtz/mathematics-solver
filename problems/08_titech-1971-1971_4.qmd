@@ -3,6 +3,7 @@ title: "東京科学大学 1971年 1971_4"
 problem_id: "08_titech-1971-1971_4"
 university: "東京科学大学"
 exam_year: "1971"
+problem_number: 4
 source_tex: "archive/08_titech/1971/1971_4.tex"
 pdf_source: "archive/08_titech/1971/1971_4.pdf"
 page_image: "archive/08_titech/1971/1971_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xy$平面の点$P(x, \, y)$に$x+y=u$，$xy=v$によって$uv$平面の点$Q(u, \, v)$を対応させる．
+$xy$平面の点$P(x, \, y)$に$x+y=u$，$xy=v$によって$uv$平面の点$Q(u, \, v)$を対応させる．
 点$P$が4点$O(0, \, 0)$，$A(\cos\theta, \, 0)$，$B(\cos\theta, \, \sin\theta)$，$C(0, \, \sin\theta)$
 を頂点とする4辺形の内部および周上を動くとき，次の問に答えよ．
 ただし$\displaystyle0<\theta<\frac{\pi}{2}$とする．

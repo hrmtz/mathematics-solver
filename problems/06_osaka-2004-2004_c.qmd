@@ -3,6 +3,7 @@ title: "大阪大学 2004年 2004_c"
 problem_id: "06_osaka-2004-2004_c"
 university: "大阪大学"
 exam_year: "2004"
+problem_number: 3
 source_tex: "archive/06_osaka/2004/2004_c.tex"
 pdf_source: "archive/06_osaka/2004/2004_c.pdf"
 page_image: "archive/06_osaka/2004/2004_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　関数$f(x)=-x^2\log x$ $(x>0)$を考える．ただし対数は自然対数とする．
+関数$f(x)=-x^2\log x$ $(x>0)$を考える．ただし対数は自然対数とする．
 \begin{description}
 \item[(1)]曲線$y=f(x)$上の点$(a, \, f(a))$における接線が原点を通るとき，
 接線の方程式および接点の座標を求めよ．

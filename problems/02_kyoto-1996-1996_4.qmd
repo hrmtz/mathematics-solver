@@ -3,6 +3,7 @@ title: "京都大学 1996年 1996_4"
 problem_id: "02_kyoto-1996-1996_4"
 university: "京都大学"
 exam_year: "1996"
+problem_number: 4
 source_tex: "archive/02_kyoto/1996/1996_4.tex"
 pdf_source: "archive/02_kyoto/1996/1996_4.pdf"
 page_image: "archive/02_kyoto/1996/1996_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　与えられた自然数$k$に対し，数列$\{a_n\}$を
+与えられた自然数$k$に対し，数列$\{a_n\}$を
 $a_1=0$，$\displaystyle a_n=\left[\frac{a_{n-1}+k}{3}\right]$ $(n\geqq2)$によって定める．
 ただし実数$t$に対し$[t]$は$t$を超えない最大の整数を表す．
 \begin{description}

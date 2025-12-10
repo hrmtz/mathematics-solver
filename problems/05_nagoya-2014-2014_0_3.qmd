@@ -3,6 +3,7 @@ title: "名古屋大学 2014年 2014_0_3"
 problem_id: "05_nagoya-2014-2014_0_3"
 university: "名古屋大学"
 exam_year: "2014"
+problem_number: 3
 source_tex: "archive/05_nagoya/2014/2014_0_3.tex"
 pdf_source: "archive/05_nagoya/2014/2014_0_3.pdf"
 page_image: "archive/05_nagoya/2014/2014_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　実数$t$に対して2点$P(t, \, t^2)$，$Q(t+1, \, {(t+1)}^2)$を考える。
+実数$t$に対して2点$P(t, \, t^2)$，$Q(t+1, \, {(t+1)}^2)$を考える。
 \begin{description}
 \item[(1)]2点$P$，$Q$を通る直線$l$の方程式を求めよ。
 \item[(2)]$a$は定数とし，直線$x=a$と$l$の交点の$y$座標を$t$の関数と考えて$f(t)$とおく。

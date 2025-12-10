@@ -3,6 +3,7 @@ title: "東北大学 2003年 2003_3"
 problem_id: "04_tohoku-2003-2003_3"
 university: "東北大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/04_tohoku/2003/2003_3.tex"
 pdf_source: "archive/04_tohoku/2003/2003_3.pdf"
 page_image: "archive/04_tohoku/2003/2003_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　関数$f(x)=4x-x^2$に対し，数列$ \{ a_n \} $を
+関数$f(x)=4x-x^2$に対し，数列$ \{ a_n \} $を
 \[ a_1=c, \hspace{1zw} a_{n+1}=\sqrt{f(a_n)} \hspace{1zw} (n=1,2,3,\cdots) \]
 で与える．
 ただし，$c$は$0<c<2$を満たす定数である．

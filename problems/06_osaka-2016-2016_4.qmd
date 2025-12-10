@@ -3,6 +3,7 @@ title: "大阪大学 2016年 2016_4"
 problem_id: "06_osaka-2016-2016_4"
 university: "大阪大学"
 exam_year: "2016"
+problem_number: 4
 source_tex: "archive/06_osaka/2016/2016_4.tex"
 pdf_source: "archive/06_osaka/2016/2016_4.pdf"
 page_image: "archive/06_osaka/2016/2016_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　正の整数$n$に対して
+正の整数$n$に対して
 \[ S_n=\sum_{k=1}^n\frac{1}{k} \]
 とおき，1以上$n$以下のすべての奇数の積を$A_n$とする．
 \begin{description}

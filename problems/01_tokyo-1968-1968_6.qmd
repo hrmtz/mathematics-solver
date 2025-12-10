@@ -3,6 +3,7 @@ title: "東京大学 1968年 1968_6"
 problem_id: "01_tokyo-1968-1968_6"
 university: "東京大学"
 exam_year: "1968"
+problem_number: 6
 source_tex: "archive/01_tokyo/1968/1968_6.tex"
 pdf_source: "archive/01_tokyo/1968/1968_6.pdf"
 page_image: "archive/01_tokyo/1968/1968_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　次の問(i)，(ii)，(iii)に答えよ．
+次の問(i)，(ii)，(iii)に答えよ．
 \begin{description}
 \item[(i)]$\alpha$が$0<\alpha<1$をみたす有理数ならば，
 区間$0 \leqq x \leqq 1$の上で不等式$\displaystyle 1+\frac{\alpha}{2}x \leqq (1+x)^\alpha$がなりたつことを示せ．

@@ -3,6 +3,7 @@ title: "北海道大学 1990年 1990_c"
 problem_id: "03_hokudai-1990-1990_c"
 university: "北海道大学"
 exam_year: "1990"
+problem_number: 3
 source_tex: "archive/03_hokudai/1990/1990_c.tex"
 pdf_source: "archive/03_hokudai/1990/1990_c.pdf"
 page_image: "archive/03_hokudai/1990/1990_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$n$が正の整数のとき，数直線上の区間$[0, \, 2]$が$n$個の小区間に分けられているとする．
+$n$が正の整数のとき，数直線上の区間$[0, \, 2]$が$n$個の小区間に分けられているとする．
 ただし，各小区間の長さ$l_k$ $(k=1, \, 2, \, \cdots, \, n)$は
 すべて$1 \leqq 3nl_k \leqq 15$を満たすとする．
 正の数$a$に対し

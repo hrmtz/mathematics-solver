@@ -3,6 +3,7 @@ title: "北海道大学 1983年 1983_2"
 problem_id: "03_hokudai-1983-1983_2"
 university: "北海道大学"
 exam_year: "1983"
+problem_number: 2
 source_tex: "archive/03_hokudai/1983/1983_2.tex"
 pdf_source: "archive/03_hokudai/1983/1983_2.pdf"
 page_image: "archive/03_hokudai/1983/1983_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　空間の直線$\displaystyle x=\frac{y}{-1}=\frac{z}{2}$を$l$，
+空間の直線$\displaystyle x=\frac{y}{-1}=\frac{z}{2}$を$l$，
 直線$\displaystyle\frac{x}{3}=y=z$を$m$とし，
 2直線$l$，$m$によって定まる平面を$\alpha$とする．
 \begin{description}

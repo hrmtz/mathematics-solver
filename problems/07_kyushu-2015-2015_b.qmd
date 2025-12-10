@@ -3,6 +3,7 @@ title: "九州大学 2015年 2015_b"
 problem_id: "07_kyushu-2015-2015_b"
 university: "九州大学"
 exam_year: "2015"
+problem_number: 2
 source_tex: "archive/07_kyushu/2015/2015_b.tex"
 pdf_source: "archive/07_kyushu/2015/2015_b.pdf"
 page_image: "archive/07_kyushu/2015/2015_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　チームAとBが複数回試合を行って優勝チームを決めるものとする。
+チームAとBが複数回試合を行って優勝チームを決めるものとする。
 ただし，いずれの試合においても，引き分けはないものとし，
 チームAが勝つ確率は$q$ $(0<q<1)$であり，各試合の勝敗は互いに独立に決まるとする。
 このとき，次の2種類のルールを考える。

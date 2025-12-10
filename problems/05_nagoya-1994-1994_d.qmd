@@ -3,6 +3,7 @@ title: "名古屋大学 1994年 1994_d"
 problem_id: "05_nagoya-1994-1994_d"
 university: "名古屋大学"
 exam_year: "1994"
+problem_number: 4
 source_tex: "archive/05_nagoya/1994/1994_d.tex"
 pdf_source: "archive/05_nagoya/1994/1994_d.pdf"
 page_image: "archive/05_nagoya/1994/1994_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　頂点a，b，c，dの正四面体がある．次の各問に答えよ．
+頂点a，b，c，dの正四面体がある．次の各問に答えよ．
 \begin{description}
 \item[(1)]$Q$は，ある頂点から他の頂点に移動し，
 どの観測時刻においてもこれらの頂点のいずれかに存在している．

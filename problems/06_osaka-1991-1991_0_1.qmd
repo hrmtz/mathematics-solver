@@ -3,6 +3,7 @@ title: "大阪大学 1991年 1991_0_1"
 problem_id: "06_osaka-1991-1991_0_1"
 university: "大阪大学"
 exam_year: "1991"
+problem_number: 1
 source_tex: "archive/06_osaka/1991/1991_0_1.tex"
 pdf_source: "archive/06_osaka/1991/1991_0_1.pdf"
 page_image: "archive/06_osaka/1991/1991_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　直線$y=1$を$l$，直線$y=kx$を$l'$とする．
+直線$y=1$を$l$，直線$y=kx$を$l'$とする．
 行列$A=\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$によって表される1次変換$f$は

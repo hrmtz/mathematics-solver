@@ -3,6 +3,7 @@ title: "東北大学 2015年 2015_6"
 problem_id: "04_tohoku-2015-2015_6"
 university: "東北大学"
 exam_year: "2015"
+problem_number: 6
 source_tex: "archive/04_tohoku/2015/2015_6.tex"
 pdf_source: "archive/04_tohoku/2015/2015_6.pdf"
 page_image: "archive/04_tohoku/2015/2015_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$k\geqq2$と$n$を自然数とする。$n$が$k$個の連続する自然数の和であるとき、すなわち、
+$k\geqq2$と$n$を自然数とする。$n$が$k$個の連続する自然数の和であるとき、すなわち、
 \[ n=m+(m+1)+\cdots+(m+k-1) \]
 が成り立つような自然数$m$が存在するとき、$n$をk-連続和とよぶことにする。
 ただし、自然数とは1以上の整数のことである。

@@ -3,6 +3,7 @@ title: "大阪大学 2006年 2006_5"
 problem_id: "06_osaka-2006-2006_5"
 university: "大阪大学"
 exam_year: "2006"
+problem_number: 5
 source_tex: "archive/06_osaka/2006/2006_5.tex"
 pdf_source: "archive/06_osaka/2006/2006_5.pdf"
 page_image: "archive/06_osaka/2006/2006_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　一辺の長さが1の正方形$ABCD$の辺$BC, \, CD, \, DA, \, AB$上に，
+一辺の長さが1の正方形$ABCD$の辺$BC, \, CD, \, DA, \, AB$上に，
 それぞれ点$P, \, Q, \, R, \, S$を
 $\angle APB=\angle QPC, \, \angle PQC=\angle RQD, \, \angle QRD=\angle SRA$となるようにとる．
 ただし，点$P, \, Q, \, R, \, S$は，どれも正方形$ABCD$の頂点とは一致しないものとする．

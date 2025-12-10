@@ -3,6 +3,7 @@ title: "名古屋大学 1982年 1982_2"
 problem_id: "05_nagoya-1982-1982_2"
 university: "名古屋大学"
 exam_year: "1982"
+problem_number: 2
 source_tex: "archive/05_nagoya/1982/1982_2.tex"
 pdf_source: "archive/05_nagoya/1982/1982_2.pdf"
 page_image: "archive/05_nagoya/1982/1982_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標平面上の長方形で2辺の長さが1と2のものを考える．
+座標平面上の長方形で2辺の長さが1と2のものを考える．
 このような長方形の$x$軸への正射影の長さを$l$，
 $y$軸への正射影の長さを$m$とするとき，
 点$(l-m, \, l+m)$の全体はどんな図形になるか．

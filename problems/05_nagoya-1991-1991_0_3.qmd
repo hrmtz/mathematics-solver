@@ -3,6 +3,7 @@ title: "名古屋大学 1991年 1991_0_3"
 problem_id: "05_nagoya-1991-1991_0_3"
 university: "名古屋大学"
 exam_year: "1991"
+problem_number: 3
 source_tex: "archive/05_nagoya/1991/1991_0_3.tex"
 pdf_source: "archive/05_nagoya/1991/1991_0_3.pdf"
 page_image: "archive/05_nagoya/1991/1991_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　実数の集合$A_n$を$A_n=\{ x|n<x^n<n+1 \}$によって定める．
+実数の集合$A_n$を$A_n=\{ x|n<x^n<n+1 \}$によって定める．
 集合$A_1, \, A_2, \, \cdots\cdots, \, A_n$の共通部分$A_1 \cap A_2 \cap \cdots\cdots \cap A_n$が
 空集合でない最大の$n$を求めよ．
 

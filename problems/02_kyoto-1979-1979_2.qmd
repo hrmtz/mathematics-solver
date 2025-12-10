@@ -3,6 +3,7 @@ title: "京都大学 1979年 1979_2"
 problem_id: "02_kyoto-1979-1979_2"
 university: "京都大学"
 exam_year: "1979"
+problem_number: 2
 source_tex: "archive/02_kyoto/1979/1979_2.tex"
 pdf_source: "archive/02_kyoto/1979/1979_2.pdf"
 page_image: "archive/02_kyoto/1979/1979_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$f(x)=1+2\cos x+3\sin x$とする．
+$f(x)=1+2\cos x+3\sin x$とする．
 すべての$x$に対して$af(x)+bf(x-c)=1$が成り立つように，定数$a$，$b$，$c$を定めよ．
 
 ---

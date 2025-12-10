@@ -3,6 +3,7 @@ title: "九州大学 2010年 2010_4"
 problem_id: "07_kyushu-2010-2010_4"
 university: "九州大学"
 exam_year: "2010"
+problem_number: 4
 source_tex: "archive/07_kyushu/2010/2010_4.tex"
 pdf_source: "archive/07_kyushu/2010/2010_4.pdf"
 page_image: "archive/07_kyushu/2010/2010_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　中心$(0,a)$，半径$a$の円を$xy$平面上の$x$軸の上を$x$の正の方向に滑らないように転がす．
+中心$(0,a)$，半径$a$の円を$xy$平面上の$x$軸の上を$x$の正の方向に滑らないように転がす．
 このとき円上の定点$P$が原点(0,0)を出発するとする．
 次の問いに答えよ．
 \begin{description}

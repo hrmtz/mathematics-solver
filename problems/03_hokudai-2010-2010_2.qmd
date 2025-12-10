@@ -3,6 +3,7 @@ title: "北海道大学 2010年 2010_2"
 problem_id: "03_hokudai-2010-2010_2"
 university: "北海道大学"
 exam_year: "2010"
+problem_number: 2
 source_tex: "archive/03_hokudai/2010/2010_2.tex"
 pdf_source: "archive/03_hokudai/2010/2010_2.pdf"
 page_image: "archive/03_hokudai/2010/2010_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　実数を成分とする行列
+実数を成分とする行列
 $A=\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$が

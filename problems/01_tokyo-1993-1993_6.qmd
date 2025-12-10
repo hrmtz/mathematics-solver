@@ -3,6 +3,7 @@ title: "東京大学 1993年 1993_6"
 problem_id: "01_tokyo-1993-1993_6"
 university: "東京大学"
 exam_year: "1993"
+problem_number: 6
 source_tex: "archive/01_tokyo/1993/1993_6.tex"
 pdf_source: "archive/01_tokyo/1993/1993_6.pdf"
 page_image: "archive/01_tokyo/1993/1993_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　時刻$t$における座標が
+時刻$t$における座標が
 $x=2\cos t+\cos 2t$，$y=\sin 2t$で表される
 $xy$平面上の点$P$の運動を考える．
 \begin{description}

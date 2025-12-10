@@ -3,6 +3,7 @@ title: "東北大学 1995年 1995_0_3"
 problem_id: "04_tohoku-1995-1995_0_3"
 university: "東北大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/04_tohoku/1995/1995_0_3.tex"
 pdf_source: "archive/04_tohoku/1995/1995_0_3.pdf"
 page_image: "archive/04_tohoku/1995/1995_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$n=0, \, 1, \, 2, \, 3$に対し$\displaystyle\int_{-1}^1x^nf(x)dx=0$を同時に満たす4次式$f(x)$を求めよ．
+$n=0, \, 1, \, 2, \, 3$に対し$\displaystyle\int_{-1}^1x^nf(x)dx=0$を同時に満たす4次式$f(x)$を求めよ．
 ただし，$f(x)$の$x^4$の係数は1とする．
 
 ---

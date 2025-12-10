@@ -3,6 +3,7 @@ title: "京都大学 1990年 1990_a"
 problem_id: "02_kyoto-1990-1990_a"
 university: "京都大学"
 exam_year: "1990"
+problem_number: 1
 source_tex: "archive/02_kyoto/1990/1990_a.tex"
 pdf_source: "archive/02_kyoto/1990/1990_a.pdf"
 page_image: "archive/02_kyoto/1990/1990_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　曲線$y=x^4-6x^2$に，
+曲線$y=x^4-6x^2$に，
 点$(a,b)$を通る4つの接線が引けるのは，
 $(a,b)$がどのような範囲にあるときか，
 図示せよ．

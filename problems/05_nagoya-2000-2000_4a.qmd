@@ -3,6 +3,7 @@ title: "名古屋大学 2000年 2000_4a"
 problem_id: "05_nagoya-2000-2000_4a"
 university: "名古屋大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/05_nagoya/2000/2000_4a.tex"
 pdf_source: "archive/05_nagoya/2000/2000_4a.pdf"
 page_image: "archive/05_nagoya/2000/2000_4a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (a)
-　座標空間内の6つの平面
+座標空間内の6つの平面
 \[ x=0, \hspace{1zw} x=1, \hspace{1zw} y=0, \hspace{1zw} y=1, \hspace{1zw} z=0, \hspace{1zw} z=1 \]
 で囲まれた立方体を$C$とする．
 $\overrightarrow{l}=(-a_1, \, -a_2, \, -a_3)$を

@@ -3,6 +3,7 @@ title: "大阪大学 1962年 1962_0_5"
 problem_id: "06_osaka-1962-1962_0_5"
 university: "大阪大学"
 exam_year: "1962"
+problem_number: 5
 source_tex: "archive/06_osaka/1962/1962_0_5.tex"
 pdf_source: "archive/06_osaka/1962/1962_0_5.pdf"
 page_image: "archive/06_osaka/1962/1962_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$\displaystyle f(x)=\int_0^x(\cos t+\sin2t)dt$とするとき，
+$\displaystyle f(x)=\int_0^x(\cos t+\sin2t)dt$とするとき，
 関数$y=f(x)$のグラフをえがけ。
 
 ---

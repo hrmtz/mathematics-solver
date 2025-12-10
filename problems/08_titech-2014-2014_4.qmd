@@ -3,6 +3,7 @@ title: "東京科学大学 2014年 2014_4"
 problem_id: "08_titech-2014-2014_4"
 university: "東京科学大学"
 exam_year: "2014"
+problem_number: 4
 source_tex: "archive/08_titech/2014/2014_4.tex"
 pdf_source: "archive/08_titech/2014/2014_4.pdf"
 page_image: "archive/08_titech/2014/2014_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　点$P(t, \, s)$が$s=\sqrt2 \, t^2-2t$を満たしながら$xy$平面上を動くときに，
+点$P(t, \, s)$が$s=\sqrt2 \, t^2-2t$を満たしながら$xy$平面上を動くときに，
 点$P$を原点を中心として${45}^\circ$回転した点$Q$の軌跡として得られる曲線を$C$とする．
 さらに，曲線$C$と$x$軸で囲まれた図形を$D$とする．
 \begin{description}

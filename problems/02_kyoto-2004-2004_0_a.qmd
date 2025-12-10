@@ -3,6 +3,7 @@ title: "京都大学 2004年 2004_0_a"
 problem_id: "02_kyoto-2004-2004_0_a"
 university: "京都大学"
 exam_year: "2004"
+problem_number: 1
 source_tex: "archive/02_kyoto/2004/2004_0_a.tex"
 pdf_source: "archive/02_kyoto/2004/2004_0_a.pdf"
 page_image: "archive/02_kyoto/2004/2004_0_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　実数$a$に対して，2つの放物線$C_1:y=2-x^2$，$C_2:y=x^2-4x+a$を考える．
+実数$a$に対して，2つの放物線$C_1:y=2-x^2$，$C_2:y=x^2-4x+a$を考える．
 $C_1$，$C_2$が$y>0$である交点を2つ持つような$a$の範囲を求めよ．
 
 ---

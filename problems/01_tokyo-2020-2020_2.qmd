@@ -3,6 +3,7 @@ title: "東京大学 2020年 2020_2"
 problem_id: "01_tokyo-2020-2020_2"
 university: "東京大学"
 exam_year: "2020"
+problem_number: 2
 source_tex: "archive/01_tokyo/2020/2020_2.tex"
 pdf_source: "archive/01_tokyo/2020/2020_2.pdf"
 page_image: "archive/01_tokyo/2020/2020_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上の点$P, \, Q, \, R$が同一直線上にないとき，
+平面上の点$P, \, Q, \, R$が同一直線上にないとき，
 それらを3頂点とする三角形の面積を$\triangle PQR$で表す。
 また，$P, \, Q, \, R$が同一直線上にあるときは，
 $\triangle PQR=0$とする。

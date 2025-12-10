@@ -3,6 +3,7 @@ title: "大阪大学 2012年 2012_b"
 problem_id: "06_osaka-2012-2012_b"
 university: "大阪大学"
 exam_year: "2012"
+problem_number: 2
 source_tex: "archive/06_osaka/2012/2012_b.tex"
 pdf_source: "archive/06_osaka/2012/2012_b.pdf"
 page_image: "archive/06_osaka/2012/2012_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$\theta$を実数とし，行列$P(\theta)$，$J$，$E$を以下で定める．
+$\theta$を実数とし，行列$P(\theta)$，$J$，$E$を以下で定める．
 \[ P(\theta)=\begin{pmatrix} \cos\theta & -\sin\theta
 
 

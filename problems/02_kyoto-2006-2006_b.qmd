@@ -3,6 +3,7 @@ title: "京都大学 2006年 2006_b"
 problem_id: "02_kyoto-2006-2006_b"
 university: "京都大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/02_kyoto/2006/2006_b.tex"
 pdf_source: "archive/02_kyoto/2006/2006_b.pdf"
 page_image: "archive/02_kyoto/2006/2006_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$を実数として，行列$A$を$A=\begin{pmatrix} a & 1-a 
+$a$を実数として，行列$A$を$A=\begin{pmatrix} a & 1-a 
 
  1-a & a \end{pmatrix}$と定める．
 $\begin{pmatrix} x_0 

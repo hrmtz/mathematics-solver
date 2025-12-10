@@ -3,6 +3,7 @@ title: "北海道大学 1974年 1974_0_5"
 problem_id: "03_hokudai-1974-1974_0_5"
 university: "北海道大学"
 exam_year: "1974"
+problem_number: 5
 source_tex: "archive/03_hokudai/1974/1974_0_5.tex"
 pdf_source: "archive/03_hokudai/1974/1974_0_5.pdf"
 page_image: "archive/03_hokudai/1974/1974_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$f(x)=x^4-2ax^2+bx$のとき，曲線$y=f(x)\cdots\cdots\text{\ding{"AC}}$において
+$f(x)=x^4-2ax^2+bx$のとき，曲線$y=f(x)\cdots\cdots\text{\ding{"AC}}$において
 \begin{description}
 \item[(1)]曲線\ding{"AC}上の点$P(t, \, f(t))$における接線が曲線\ding{"AC}と，
 点$P$と異なる点$Q$を共有するものとする．

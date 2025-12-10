@@ -3,6 +3,7 @@ title: "九州大学 1991年 1991_c"
 problem_id: "07_kyushu-1991-1991_c"
 university: "九州大学"
 exam_year: "1991"
+problem_number: 3
 source_tex: "archive/07_kyushu/1991/1991_c.tex"
 pdf_source: "archive/07_kyushu/1991/1991_c.pdf"
 page_image: "archive/07_kyushu/1991/1991_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　曲線$\displaystyle C:y=\frac{1}{3}x^3-\frac{5}{2}x^2+7x+1$と
+曲線$\displaystyle C:y=\frac{1}{3}x^3-\frac{5}{2}x^2+7x+1$と
 直線$A:y=x+a$（$a$は定数）がある．
 \begin{description}
 \item[(1)]$C$と$A$とが接点をもつときの$a$の値$a_1$，$a_2$を求めよ．ただし，$a_1<a_2$とする．

@@ -3,6 +3,7 @@ title: "九州大学 1992年 1992_e"
 problem_id: "07_kyushu-1992-1992_e"
 university: "九州大学"
 exam_year: "1992"
+problem_number: 5
 source_tex: "archive/07_kyushu/1992/1992_e.tex"
 pdf_source: "archive/07_kyushu/1992/1992_e.pdf"
 page_image: "archive/07_kyushu/1992/1992_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　2つのサイコロを同時に投げる試行を$n$回行う．
+2つのサイコロを同時に投げる試行を$n$回行う．
 2つのサイコロの出た目の和が$a$以下であるという事象を$A$とし，
 事象$A$の起こる確率を$p$とする．
 　$n$回の試行のうち，事象$A$の起こる回数を$X$とし，

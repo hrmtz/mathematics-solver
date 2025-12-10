@@ -3,6 +3,7 @@ title: "名古屋大学 2005年 2005_0_2"
 problem_id: "05_nagoya-2005-2005_0_2"
 university: "名古屋大学"
 exam_year: "2005"
+problem_number: 2
 source_tex: "archive/05_nagoya/2005/2005_0_2.tex"
 pdf_source: "archive/05_nagoya/2005/2005_0_2.pdf"
 page_image: "archive/05_nagoya/2005/2005_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　1から13までの数が1つ書かれているカードが52枚あり，各数について4枚ずつある．
+1から13までの数が1つ書かれているカードが52枚あり，各数について4枚ずつある．
 この52枚のカードから，戻さずに続けて2枚とりだし，そのカードに書かれた数を順に$x$，$y$とする．関数
 \[ f(x, \, y)=\log_3(x+y)-\log_3x-\log_3y+1 \]
 を考える．

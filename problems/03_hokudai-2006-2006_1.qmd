@@ -3,6 +3,7 @@ title: "北海道大学 2006年 2006_1"
 problem_id: "03_hokudai-2006-2006_1"
 university: "北海道大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/03_hokudai/2006/2006_1.tex"
 pdf_source: "archive/03_hokudai/2006/2006_1.pdf"
 page_image: "archive/03_hokudai/2006/2006_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　実数$x$，$y$，$z$は$x \leqq y \leqq z \leqq 1$かつ$4x+3y+2z=1$をみたすとする．
+実数$x$，$y$，$z$は$x \leqq y \leqq z \leqq 1$かつ$4x+3y+2z=1$をみたすとする．
 \begin{description}
 \item[(1)]$x$の最大値と$y$の最小値を求めよ．
 \item[(2)]$3x-y+z$の値の範囲を求めよ．

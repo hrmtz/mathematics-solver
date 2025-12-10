@@ -3,6 +3,7 @@ title: "京都大学 1967年 1967_6a"
 problem_id: "02_kyoto-1967-1967_6a"
 university: "京都大学"
 exam_year: "1967"
+problem_number: 6
 source_tex: "archive/02_kyoto/1967/1967_6a.tex"
 pdf_source: "archive/02_kyoto/1967/1967_6a.pdf"
 page_image: "archive/02_kyoto/1967/1967_6a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6 新
-　2つの関数(函数)$\displaystyle y_1=\frac{\pi}{4}\frac{1}{x}-\frac{\pi}{4}+1$と
+2つの関数(函数)$\displaystyle y_1=\frac{\pi}{4}\frac{1}{x}-\frac{\pi}{4}+1$と
 $\displaystyle y_2=\sqrt2\cos\frac{\pi}{4}x$とのグラフを考える．
 \begin{description}
 \item[(i)]この2つのグラフは，$0<x \leqq 1$の範囲では，

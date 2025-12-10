@@ -3,6 +3,7 @@ title: "東北大学 1979年 1979_4"
 problem_id: "04_tohoku-1979-1979_4"
 university: "東北大学"
 exam_year: "1979"
+problem_number: 4
 source_tex: "archive/04_tohoku/1979/1979_4.tex"
 pdf_source: "archive/04_tohoku/1979/1979_4.pdf"
 page_image: "archive/04_tohoku/1979/1979_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　平面上にそれぞれ$\displaystyle y=2{\left(\frac{x-2}{3}\right)}^\frac{3}{2}$，
+平面上にそれぞれ$\displaystyle y=2{\left(\frac{x-2}{3}\right)}^\frac{3}{2}$，
 $y=-2\sqrt{x}$で与えられる曲線$C$，$C'$がある．
 $C$上の点$P(a, \, b)$における$C$の接線が$C'$と交わる点を$Q$とする．
 \begin{description}

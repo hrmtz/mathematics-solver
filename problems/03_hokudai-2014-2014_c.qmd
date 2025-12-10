@@ -3,6 +3,7 @@ title: "北海道大学 2014年 2014_c"
 problem_id: "03_hokudai-2014-2014_c"
 university: "北海道大学"
 exam_year: "2014"
+problem_number: 3
 source_tex: "archive/03_hokudai/2014/2014_c.tex"
 pdf_source: "archive/03_hokudai/2014/2014_c.pdf"
 page_image: "archive/03_hokudai/2014/2014_c.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]双曲線$\displaystyle\frac{x^2}{4}-\frac{y^2}{9}=1$と直線$y=ax+b$が
 共有点を持つような$(a, \, b)$全体からなる領域$E$を$ab$平面上に図示せよ。

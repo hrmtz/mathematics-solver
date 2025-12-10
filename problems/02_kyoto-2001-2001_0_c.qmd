@@ -3,6 +3,7 @@ title: "京都大学 2001年 2001_0_c"
 problem_id: "02_kyoto-2001-2001_0_c"
 university: "京都大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/02_kyoto/2001/2001_0_c.tex"
 pdf_source: "archive/02_kyoto/2001/2001_0_c.pdf"
 page_image: "archive/02_kyoto/2001/2001_0_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$xy$平面上の曲線$C_1:y=x^3+2x^2+2$上の点$P$における接線を$L$とする．
+$xy$平面上の曲線$C_1:y=x^3+2x^2+2$上の点$P$における接線を$L$とする．
 $L$と曲線$C_2:y=3x^2$とで囲まれる図形の面積の最小値を求めよ．
 
 ---

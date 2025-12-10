@@ -3,6 +3,7 @@ title: "大阪大学 1972年 1972_4"
 problem_id: "06_osaka-1972-1972_4"
 university: "大阪大学"
 exam_year: "1972"
+problem_number: 4
 source_tex: "archive/06_osaka/1972/1972_4.tex"
 pdf_source: "archive/06_osaka/1972/1972_4.pdf"
 page_image: "archive/06_osaka/1972/1972_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$個$(n\geqq4)$の正方形をそれぞれ次のようにならべた図形$A_n$，$B_n$がある．
+$n$個$(n\geqq4)$の正方形をそれぞれ次のようにならべた図形$A_n$，$B_n$がある．
 $A_n$，$B_n$のそれぞれにおいて1から$n$までの数をもれなく1つずつ各正方形に入れて，
 次の2つの条件を満足するようにする．
 \begin{description}

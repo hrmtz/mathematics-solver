@@ -3,6 +3,7 @@ title: "東北大学 2013年 2013_e"
 problem_id: "04_tohoku-2013-2013_e"
 university: "東北大学"
 exam_year: "2013"
+problem_number: 5
 source_tex: "archive/04_tohoku/2013/2013_e.tex"
 pdf_source: "archive/04_tohoku/2013/2013_e.pdf"
 page_image: "archive/04_tohoku/2013/2013_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$p$は$0<p<1$を満たす実数とする。
+$p$は$0<p<1$を満たす実数とする。
 数列$\{ a_n \}$は，$a_1=1$および関係式
 \[ \frac{1}{a_1}+\frac{1}{a_2}+\cdots+\frac{1}{a_n}=\frac{1}{a_{n+1}}+p \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
 を満たすものとする。

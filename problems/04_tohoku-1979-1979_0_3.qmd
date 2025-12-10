@@ -3,6 +3,7 @@ title: "東北大学 1979年 1979_0_3"
 problem_id: "04_tohoku-1979-1979_0_3"
 university: "東北大学"
 exam_year: "1979"
+problem_number: 3
 source_tex: "archive/04_tohoku/1979/1979_0_3.tex"
 pdf_source: "archive/04_tohoku/1979/1979_0_3.pdf"
 page_image: "archive/04_tohoku/1979/1979_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$f(x)=x^4-x^3+x^2-x$とする．
+$f(x)=x^4-x^3+x^2-x$とする．
 \begin{description}
 \item[(1)]曲線$y=f(x)$が$x$軸と交わる点の座標を求めよ．
 \item[(2)]これらの点におけるこの曲線の接線の方程式を求めよ．

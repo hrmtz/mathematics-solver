@@ -3,6 +3,7 @@ title: "東北大学 1963年 1963_0_6"
 problem_id: "04_tohoku-1963-1963_0_6"
 university: "東北大学"
 exam_year: "1963"
+problem_number: 6
 source_tex: "archive/04_tohoku/1963/1963_0_6.tex"
 pdf_source: "archive/04_tohoku/1963/1963_0_6.pdf"
 page_image: "archive/04_tohoku/1963/1963_0_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　三次方程式
+三次方程式
 \[ a^3x^3-3bx+1=0 \]
 が虚根をもつとき，実数$a$，$b$の間にどんな関係があるか。
 またこのとき，点$(a, \, b)$が存在する範囲を図示せよ。

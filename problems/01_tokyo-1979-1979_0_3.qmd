@@ -3,6 +3,7 @@ title: "東京大学 1979年 1979_0_3"
 problem_id: "01_tokyo-1979-1979_0_3"
 university: "東京大学"
 exam_year: "1979"
+problem_number: 3
 source_tex: "archive/01_tokyo/1979/1979_0_3.tex"
 pdf_source: "archive/01_tokyo/1979/1979_0_3.pdf"
 page_image: "archive/01_tokyo/1979/1979_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　ある硬貨を投げるとき，表と裏がおのおの確率$\displaystyle\frac{1}{2}$で出るものとする．
+ある硬貨を投げるとき，表と裏がおのおの確率$\displaystyle\frac{1}{2}$で出るものとする．
 　この硬貨を8回くり返して投げ，
 $n$回目に表が出れば$X_n=1$，
 裏が出れば$X_n=-1$とし，

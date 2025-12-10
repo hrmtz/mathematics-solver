@@ -3,6 +3,7 @@ title: "東北大学 1989年 1989_2"
 problem_id: "04_tohoku-1989-1989_2"
 university: "東北大学"
 exam_year: "1989"
+problem_number: 2
 source_tex: "archive/04_tohoku/1989/1989_2.tex"
 pdf_source: "archive/04_tohoku/1989/1989_2.pdf"
 page_image: "archive/04_tohoku/1989/1989_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　行列$A=\begin{pmatrix} \cos^2\theta & -\sin\theta\cos\theta
+行列$A=\begin{pmatrix} \cos^2\theta & -\sin\theta\cos\theta
 \sin\theta\cos\theta & \cos^2\theta \end{pmatrix}$ $\displaystyle \left( 0<\theta<\frac{\pi}{2} \right)$
 の表す1次変換を$f$とする．
 円$\displaystyle C:{(x-2)}^2+y^2=\frac{4}{3}$の$f$による像を$C_1$とする．

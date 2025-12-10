@@ -3,6 +3,7 @@ title: "大阪大学 1963年 1963_3"
 problem_id: "06_osaka-1963-1963_3"
 university: "大阪大学"
 exam_year: "1963"
+problem_number: 3
 source_tex: "archive/06_osaka/1963/1963_3.tex"
 pdf_source: "archive/06_osaka/1963/1963_3.pdf"
 page_image: "archive/06_osaka/1963/1963_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$-2 \leqq x+y<2$とのとき$\log_2(x^2+2xy-3y^2)\cdots\cdots\text{(A)}$が定義されるような
+$-2 \leqq x+y<2$とのとき$\log_2(x^2+2xy-3y^2)\cdots\cdots\text{(A)}$が定義されるような
 $x$，$y$を座標とする点$(x, \, y)$の存在する範囲を図示せよ。
 　次に，式(A)の値が，この範囲で，最大となるように$x$，$y$の値を定めよ。
 なお，そのときの式(A)の値はいくらか。

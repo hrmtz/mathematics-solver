@@ -3,6 +3,7 @@ title: "京都大学 2009年 2009b_3"
 problem_id: "02_kyoto-2009-2009b_3"
 university: "京都大学"
 exam_year: "2009"
+problem_number: 3
 source_tex: "archive/02_kyoto/2009/2009b_3.tex"
 pdf_source: "archive/02_kyoto/2009/2009b_3.pdf"
 page_image: "archive/02_kyoto/2009/2009b_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$n$枚のカードを積んだ山があり，
+$n$枚のカードを積んだ山があり，
 各カードには上から順番に1から$n$まで番号がつけられている．
 ただし$n\geqq2$とする．
 このカードの山に対して次の試行を繰り返す．

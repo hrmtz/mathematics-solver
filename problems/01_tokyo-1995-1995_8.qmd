@@ -3,6 +3,7 @@ title: "東京大学 1995年 1995_8"
 problem_id: "01_tokyo-1995-1995_8"
 university: "東京大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/01_tokyo/1995/1995_8.tex"
 pdf_source: "archive/01_tokyo/1995/1995_8.pdf"
 page_image: "archive/01_tokyo/1995/1995_8.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　平面上に2点$P$，$Q$があり，$P$と$Q$の距離は1であるとする．
+平面上に2点$P$，$Q$があり，$P$と$Q$の距離は1であるとする．
 このとき，次の(条件)を満たす三角形$ABC$の面積$S$の最大値を求めたい．
 \begin{description}
 \item[(条件)]三角形$ABC$は与えられた平面上にあり，

@@ -3,6 +3,7 @@ title: "名古屋大学 2004年 2004_d"
 problem_id: "05_nagoya-2004-2004_d"
 university: "名古屋大学"
 exam_year: "2004"
+problem_number: 4
 source_tex: "archive/05_nagoya/2004/2004_d.tex"
 pdf_source: "archive/05_nagoya/2004/2004_d.pdf"
 page_image: "archive/05_nagoya/2004/2004_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$n$枚のカードがあり，そのうちの1枚にだけ「当たり」の印がついている．ただし，$n\geqq3$である．
+$n$枚のカードがあり，そのうちの1枚にだけ「当たり」の印がついている．ただし，$n\geqq3$である．
 最初，甲と乙の2人の前に，この$n$枚のカードが伏せて並べてある．
 以下の一連の手順により，甲がカードを1枚取得する．
 ただし，甲は手順が終了して初めてカードの「当たり」の印の有無を見ることができ，

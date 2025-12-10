@@ -3,6 +3,7 @@ title: "九州大学 1995年 1995_0_4"
 problem_id: "07_kyushu-1995-1995_0_4"
 university: "九州大学"
 exam_year: "1995"
+problem_number: 4
 source_tex: "archive/07_kyushu/1995/1995_0_4.tex"
 pdf_source: "archive/07_kyushu/1995/1995_0_4.pdf"
 page_image: "archive/07_kyushu/1995/1995_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$a$，$b$を自然数とする．
+$a$，$b$を自然数とする．
 右の図のような南北$a$m，東西$b$mの長方形の部屋$ABCD$に
 2辺が2m，3mの長方形の板をすきまなく，また，板が互いに重なりあうことのないように敷き詰めたい．
 次の各場合に，板の敷き詰め方の総数を求めよ．

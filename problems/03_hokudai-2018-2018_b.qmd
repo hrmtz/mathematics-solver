@@ -3,6 +3,7 @@ title: "北海道大学 2018年 2018_b"
 problem_id: "03_hokudai-2018-2018_b"
 university: "北海道大学"
 exam_year: "2018"
+problem_number: 2
 source_tex: "archive/03_hokudai/2018/2018_b.tex"
 pdf_source: "archive/03_hokudai/2018/2018_b.pdf"
 page_image: "archive/03_hokudai/2018/2018_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$z$を虚部が正である複素数とし，$O(0)$，$P(2)$，$Q(2z)$を複素数平面上の3点とする。
+$z$を虚部が正である複素数とし，$O(0)$，$P(2)$，$Q(2z)$を複素数平面上の3点とする。
 $\triangle OPR$，$\triangle PQS$，$\triangle QOT$は
 $\triangle OPQ$の内部と重ならない正三角形とし，3点$U$，$V$，$W$をそれぞれ
 $\triangle OPR$，$\triangle PQS$，$\triangle QOT$の重心とする。

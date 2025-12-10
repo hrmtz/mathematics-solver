@@ -3,6 +3,7 @@ title: "名古屋大学 1988年 1988_2"
 problem_id: "05_nagoya-1988-1988_2"
 university: "名古屋大学"
 exam_year: "1988"
+problem_number: 2
 source_tex: "archive/05_nagoya/1988/1988_2.tex"
 pdf_source: "archive/05_nagoya/1988/1988_2.pdf"
 page_image: "archive/05_nagoya/1988/1988_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$a$を正の定数とする．
+$a$を正の定数とする．
 $xy$平面において，放物線$y=-x^2+px+q$は点$(1, \, a)$を通り，
 $y$軸と正または0で交わるとする．
 この放物線と$x$軸の正の部分との交点を$(t, \, 0)$とし，

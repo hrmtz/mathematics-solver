@@ -3,6 +3,7 @@ title: "京都大学 1961年 1961_3"
 problem_id: "02_kyoto-1961-1961_3"
 university: "京都大学"
 exam_year: "1961"
+problem_number: 3
 source_tex: "archive/02_kyoto/1961/1961_3.tex"
 pdf_source: "archive/02_kyoto/1961/1961_3.pdf"
 page_image: "archive/02_kyoto/1961/1961_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　同一平面上で，二点$A$，$B$をとおる直線の一方の側に二点$P$，$Q$があって，
+同一平面上で，二点$A$，$B$をとおる直線の一方の側に二点$P$，$Q$があって，
 ともに$AB$の中点$M$から$a$の距離にあり，$PM$は$AB$に垂直であるとする．
 \[ \angle APB=\alpha \text{，　} \angle AQB=\beta \text{，　} \angle PMQ=\theta \text{，　} AM=r \]
 とおき，$\alpha$は直角でないとする．

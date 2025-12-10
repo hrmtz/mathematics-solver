@@ -3,6 +3,7 @@ title: "東京大学 1998年 1998_1"
 problem_id: "01_tokyo-1998-1998_1"
 university: "東京大学"
 exam_year: "1998"
+problem_number: 1
 source_tex: "archive/01_tokyo/1998/1998_1.tex"
 pdf_source: "archive/01_tokyo/1998/1998_1.pdf"
 page_image: "archive/01_tokyo/1998/1998_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$は0でない実数とする．関数
+$a$は0でない実数とする．関数
 \[ f(x)=(3x^2-4) \left( x-a+\frac{1}{a} \right) \]
 の極大値と極小値の差が最小となる$a$の値を求めよ．
 

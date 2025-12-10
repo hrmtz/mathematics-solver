@@ -3,6 +3,7 @@ title: "京都大学 2024年 2024_0_5"
 problem_id: "02_kyoto-2024-2024_0_5"
 university: "京都大学"
 exam_year: "2024"
+problem_number: 5
 source_tex: "archive/02_kyoto/2024/2024_0_5.tex"
 pdf_source: "archive/02_kyoto/2024/2024_0_5.pdf"
 page_image: "archive/02_kyoto/2024/2024_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　関数$y=x^2-4x+5$のグラフの$x>1$の部分を$C$とする．
+関数$y=x^2-4x+5$のグラフの$x>1$の部分を$C$とする．
 このとき，下の条件を満たすような正の実数$a, \, b$について，
 座標平面の点$(a, \, b)$が動く領域の面積を求めよ．
 

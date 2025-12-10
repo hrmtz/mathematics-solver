@@ -3,6 +3,7 @@ title: "東京科学大学 ao年 2009_a"
 problem_id: "08_titech-ao-2009_a"
 university: "東京科学大学"
 exam_year: "ao"
+problem_number: 1
 source_tex: "archive/08_titech/ao/2009_a.tex"
 pdf_source: "archive/08_titech/ao/2009_a.pdf"
 page_image: "archive/08_titech/ao/2009_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$f_1(x)=\pi\sin x$とし，
+$f_1(x)=\pi\sin x$とし，
 $n=2,3,4,\cdots$に対して$f_n(x)=f_1(f_{n-1}(x))$で関数の列$f_2(x),f_3(x),f_4(x),\cdots$を定める．
 このとき，区間$0<x<\pi$において$f_n(x)$が極値をとるような$x$の個数を$n$で表せ．
 

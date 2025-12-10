@@ -3,6 +3,7 @@ title: "京都大学 2009年 2009a_5"
 problem_id: "02_kyoto-2009-2009a_5"
 university: "京都大学"
 exam_year: "2009"
+problem_number: 5
 source_tex: "archive/02_kyoto/2009/2009a_5.tex"
 pdf_source: "archive/02_kyoto/2009/2009a_5.pdf"
 page_image: "archive/02_kyoto/2009/2009a_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$p$を素数，$n$を正の整数とするとき，$(p^n) \, !$は$p$で何回割り切れるか．
+$p$を素数，$n$を正の整数とするとき，$(p^n) \, !$は$p$で何回割り切れるか．
 
 ---
 

@@ -3,6 +3,7 @@ title: "北海道大学 1978年 1978_0_2"
 problem_id: "03_hokudai-1978-1978_0_2"
 university: "北海道大学"
 exam_year: "1978"
+problem_number: 2
 source_tex: "archive/03_hokudai/1978/1978_0_2.tex"
 pdf_source: "archive/03_hokudai/1978/1978_0_2.pdf"
 page_image: "archive/03_hokudai/1978/1978_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　実数$x$，$y$についての条件$A$を次のように定める．
+実数$x$，$y$についての条件$A$を次のように定める．
 \[ A:x\geqq0 \hspace{1zw} \text{かつ} \hspace{1zw} x^2-29y^2\geqq0 \]
 \begin{description}
 \item[(1)]条件$A$および$5y-x+2\geqq0$を同時に満たす$(x, \, y)$の存在するような$y$の範囲を求めよ．

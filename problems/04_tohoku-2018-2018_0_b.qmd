@@ -3,6 +3,7 @@ title: "東北大学 2018年 2018_0_b"
 problem_id: "04_tohoku-2018-2018_0_b"
 university: "東北大学"
 exam_year: "2018"
+problem_number: 2
 source_tex: "archive/04_tohoku/2018/2018_0_b.tex"
 pdf_source: "archive/04_tohoku/2018/2018_0_b.pdf"
 page_image: "archive/04_tohoku/2018/2018_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　実数$k$は$2<k\leqq3$を満たすとする。
+実数$k$は$2<k\leqq3$を満たすとする。
 以下の方法で数列$\{ a_n \}$，$\{ b_n \}$を定める。
 \begin{description}
 \item[●]$a_1=b_1=2$

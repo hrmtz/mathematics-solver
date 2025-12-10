@@ -3,6 +3,7 @@ title: "大阪大学 1987年 1987_3"
 problem_id: "06_osaka-1987-1987_3"
 university: "大阪大学"
 exam_year: "1987"
+problem_number: 3
 source_tex: "archive/06_osaka/1987/1987_3.tex"
 pdf_source: "archive/06_osaka/1987/1987_3.pdf"
 page_image: "archive/06_osaka/1987/1987_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a$，$b$を定数とし，$f(x)={(x-a)}^2e^{-x^2+b}$とおく．
+$a$，$b$を定数とし，$f(x)={(x-a)}^2e^{-x^2+b}$とおく．
 \begin{description}
 \item[(1)]関数$f(x)$が極大値をとる$x$の値$\alpha$，$\beta$ $(\alpha<\beta)$と，
 極小値をとる$x$の値$\gamma$を求めよ．

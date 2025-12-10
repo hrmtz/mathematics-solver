@@ -3,6 +3,7 @@ title: "九州大学 2014年 2014_d"
 problem_id: "07_kyushu-2014-2014_d"
 university: "九州大学"
 exam_year: "2014"
+problem_number: 4
 source_tex: "archive/07_kyushu/2014/2014_d.tex"
 pdf_source: "archive/07_kyushu/2014/2014_d.pdf"
 page_image: "archive/07_kyushu/2014/2014_d.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$xy$平面において半径$r$の円を考える。
+$xy$平面において半径$r$の円を考える。
 この円の中心$O$は，時刻$t=0$において点$(0, \, r)$にあり，
 一定の速さ$ar$（ただし$a>0$）で$x$軸の正の方向に移動する。
 同時に，この円は中心$O$のまわりを単位時間当たり1ラジアンの割合で時計まわりに連続的に回転する。

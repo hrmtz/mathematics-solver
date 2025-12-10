@@ -3,6 +3,7 @@ title: "北海道大学 2016年 2016_b"
 problem_id: "03_hokudai-2016-2016_b"
 university: "北海道大学"
 exam_year: "2016"
+problem_number: 2
 source_tex: "archive/03_hokudai/2016/2016_b.tex"
 pdf_source: "archive/03_hokudai/2016/2016_b.pdf"
 page_image: "archive/03_hokudai/2016/2016_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　3点$O(0, \, 0)$，$A(a, \, a^2)$，$B(b, \, b^2+1)$を考える。
+3点$O(0, \, 0)$，$A(a, \, a^2)$，$B(b, \, b^2+1)$を考える。
 \begin{description}
 \item[(1)]$a$が$0<a<2$をみたすとき，$\triangle OAB$が不等式
 \[ x^2 \leqq y \leqq x^2+1 \]

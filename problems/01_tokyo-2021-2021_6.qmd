@@ -3,6 +3,7 @@ title: "東京大学 2021年 2021_6"
 problem_id: "01_tokyo-2021-2021_6"
 university: "東京大学"
 exam_year: "2021"
+problem_number: 6
 source_tex: "archive/01_tokyo/2021/2021_6.tex"
 pdf_source: "archive/01_tokyo/2021/2021_6.pdf"
 page_image: "archive/01_tokyo/2021/2021_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　実数$b, \, c, \, p, \, q, \, r$に対し，
+実数$b, \, c, \, p, \, q, \, r$に対し，
 \[ x^4+bx+c=(x^2+px+q)(x^2-px+r) \]
 が$x$についての恒等式であるとする。
 \begin{description}

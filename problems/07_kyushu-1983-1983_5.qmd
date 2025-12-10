@@ -3,6 +3,7 @@ title: "九州大学 1983年 1983_5"
 problem_id: "07_kyushu-1983-1983_5"
 university: "九州大学"
 exam_year: "1983"
+problem_number: 5
 source_tex: "archive/07_kyushu/1983/1983_5.tex"
 pdf_source: "archive/07_kyushu/1983/1983_5.pdf"
 page_image: "archive/07_kyushu/1983/1983_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$y$軸上に点$A(0, \, a)$をとり，
+$y$軸上に点$A(0, \, a)$をとり，
 曲線$y=x^2\cdots\text{\ding{"AC}}$上に，2点$B(b, \, b^2)$，$C(c, \, c^2)$を
 $AB=AC$，$AB \perp AC$となるようにとる．
 ただし，$a\geqq1$とし，$0 \leqq b<c$とする．

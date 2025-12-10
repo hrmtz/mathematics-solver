@@ -3,6 +3,7 @@ title: "大阪大学 2007年 2007_c"
 problem_id: "06_osaka-2007-2007_c"
 university: "大阪大学"
 exam_year: "2007"
+problem_number: 3
 source_tex: "archive/06_osaka/2007/2007_c.tex"
 pdf_source: "archive/06_osaka/2007/2007_c.pdf"
 page_image: "archive/06_osaka/2007/2007_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　空間に8個の点$A(0, \, 0, \, 0)$，$B(1, \, 0, \, 0)$，$C(1, \, 1, \, 0)$，$D(0, \, 1, \, 0)$，
+空間に8個の点$A(0, \, 0, \, 0)$，$B(1, \, 0, \, 0)$，$C(1, \, 1, \, 0)$，$D(0, \, 1, \, 0)$，
 $E(0, \, 0, \, 1)$，$F(1, \, 0, \, 1)$，$G(1, \, 1, \, 1)$，$H(0, \, 1, \, 1)$をとる．
 \begin{description}
 \item[(1)]四面体$ACFH$を平面$z=t$ $(0 \leqq t \leqq 1)$で切断したとき，切断面の面積を$t$で表せ．

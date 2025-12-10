@@ -3,6 +3,7 @@ title: "九州大学 2020年 2020_e"
 problem_id: "07_kyushu-2020-2020_e"
 university: "九州大学"
 exam_year: "2020"
+problem_number: 5
 source_tex: "archive/07_kyushu/2020/2020_e.tex"
 pdf_source: "archive/07_kyushu/2020/2020_e.pdf"
 page_image: "archive/07_kyushu/2020/2020_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　以下の規則にしたがって数直線上を移動する点Aを考える。
+以下の規則にしたがって数直線上を移動する点Aを考える。
 \begin{description}
 \item[（規則）]点Aが座標$x$にあるとき，表が出る確率が$\alpha$ $(0<\alpha<1)$のコインを投げて，
 表が出たら$x$から$\displaystyle\frac{x}{2}$へ移動し，

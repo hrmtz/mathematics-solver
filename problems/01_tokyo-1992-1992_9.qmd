@@ -3,6 +3,7 @@ title: "東京大学 1992年 1992_9"
 problem_id: "01_tokyo-1992-1992_9"
 university: "東京大学"
 exam_year: "1992"
+problem_number: 3
 source_tex: "archive/01_tokyo/1992/1992_9.tex"
 pdf_source: "archive/01_tokyo/1992/1992_9.pdf"
 page_image: "archive/01_tokyo/1992/1992_9.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　多項式の列$P_0(x)=0$，$P_1(x)=1$，$P_2(x)=1+x$，$\cdots\cdots$，
+多項式の列$P_0(x)=0$，$P_1(x)=1$，$P_2(x)=1+x$，$\cdots\cdots$，
 $\displaystyle P_n(x)=\sum_{k=0}^{n-1}x^k$，$\cdots\cdots$を考える．
 \begin{description}
 \item[(1)]正の整数$n$，$m$に対して，

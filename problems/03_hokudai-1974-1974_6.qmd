@@ -3,6 +3,7 @@ title: "北海道大学 1974年 1974_6"
 problem_id: "03_hokudai-1974-1974_6"
 university: "北海道大学"
 exam_year: "1974"
+problem_number: 6
 source_tex: "archive/03_hokudai/1974/1974_6.tex"
 pdf_source: "archive/03_hokudai/1974/1974_6.pdf"
 page_image: "archive/03_hokudai/1974/1974_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　関数
+関数
 \[ y=e^{-x}+ax \hspace{1zw} \cdots\cdots\cdots \text{\ding{"AC}} \]
 がある．
 ただし$e$は自然対数の底である．

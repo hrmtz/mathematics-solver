@@ -3,6 +3,7 @@ title: "北海道大学 1983年 1983_1"
 problem_id: "03_hokudai-1983-1983_1"
 university: "北海道大学"
 exam_year: "1983"
+problem_number: 1
 source_tex: "archive/03_hokudai/1983/1983_1.tex"
 pdf_source: "archive/03_hokudai/1983/1983_1.pdf"
 page_image: "archive/03_hokudai/1983/1983_1.jpg"
@@ -12,8 +13,7 @@ format:
 ---
 
 
-1
-　$0 \leqq x \leqq 1$で定義された関数$f(x)=|2x-1|$について，次の問に答えよ．
+$0 \leqq x \leqq 1$で定義された関数$f(x)=|2x-1|$について，次の問に答えよ．
 \begin{description}
 \item[(1)]$y=f(f(x))$のグラフをかけ．
 \item[(2)]$f(f(f(x)))=x$となる$x$の個数を求めよ．

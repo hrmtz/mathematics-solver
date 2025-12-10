@@ -3,6 +3,7 @@ title: "北海道大学 1973年 1973_4"
 problem_id: "03_hokudai-1973-1973_4"
 university: "北海道大学"
 exam_year: "1973"
+problem_number: 4
 source_tex: "archive/03_hokudai/1973/1973_4.tex"
 pdf_source: "archive/03_hokudai/1973/1973_4.pdf"
 page_image: "archive/03_hokudai/1973/1973_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　（イ）\underline{$x>0$では$\log x<2\sqrt{x}$である}から，
+（イ）\underline{$x>0$では$\log x<2\sqrt{x}$である}から，
 $\displaystyle\lim_{x\to+\infty}\frac{\log x}{x}=0$である．
 よって（ロ）\underline{$\displaystyle\lim_{x\to+0}x\log x=0$である}．
 さらに$x^\frac{1}{x}=e^{\text{（ハ）□}}$に注意すれば，

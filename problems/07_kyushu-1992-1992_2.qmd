@@ -3,6 +3,7 @@ title: "九州大学 1992年 1992_2"
 problem_id: "07_kyushu-1992-1992_2"
 university: "九州大学"
 exam_year: "1992"
+problem_number: 2
 source_tex: "archive/07_kyushu/1992/1992_2.tex"
 pdf_source: "archive/07_kyushu/1992/1992_2.pdf"
 page_image: "archive/07_kyushu/1992/1992_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　3次曲線$C:y=x^3+9x^2+9x+2$上に点$P_0(x_0, \, y_0)$をとる．ただし，$x_0>0$とする．
+3次曲線$C:y=x^3+9x^2+9x+2$上に点$P_0(x_0, \, y_0)$をとる．ただし，$x_0>0$とする．
 さらに自然数$n$に対して，$C$上の点$P_n(x_n, \, y_n)$を
 「$P_{n-1}$を通る直線が点$P_n$ $(\neq P_{n-1})$で$C$と接する」ように定める．
 このとき，次の問に答えよ．

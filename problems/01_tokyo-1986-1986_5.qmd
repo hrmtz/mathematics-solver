@@ -3,6 +3,7 @@ title: "東京大学 1986年 1986_5"
 problem_id: "01_tokyo-1986-1986_5"
 university: "東京大学"
 exam_year: "1986"
+problem_number: 5
 source_tex: "archive/01_tokyo/1986/1986_5.tex"
 pdf_source: "archive/01_tokyo/1986/1986_5.pdf"
 page_image: "archive/01_tokyo/1986/1986_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　ベンチが$k+1$個一列に並べてあり，
+ベンチが$k+1$個一列に並べてあり，
 $A$，$B$の二人が次のようなゲームをする．
 最初$A$は左端，$B$は右端のベンチにおり，
 じゃんけんをして勝った方が他の端に向って一つ隣りのベンチに進み，

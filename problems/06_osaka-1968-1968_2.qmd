@@ -3,6 +3,7 @@ title: "大阪大学 1968年 1968_2"
 problem_id: "06_osaka-1968-1968_2"
 university: "大阪大学"
 exam_year: "1968"
+problem_number: 2
 source_tex: "archive/06_osaka/1968/1968_2.tex"
 pdf_source: "archive/06_osaka/1968/1968_2.pdf"
 page_image: "archive/06_osaka/1968/1968_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　合同な4つの3角形を用いて，これらを4つの面とする4面体（3角すい）を作りたい．
+合同な4つの3角形を用いて，これらを4つの面とする4面体（3角すい）を作りたい．
 3角形の3辺を$a$，$b$，$c$ $(a \geqq b \geqq c)$とするとき，
 4面体を作ることができるための必要十分条件を求めよ．
 

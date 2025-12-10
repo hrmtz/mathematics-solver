@@ -3,6 +3,7 @@ title: "名古屋大学 1961年 1961_0_4b"
 problem_id: "05_nagoya-1961-1961_0_4b"
 university: "名古屋大学"
 exam_year: "1961"
+problem_number: 4
 source_tex: "archive/05_nagoya/1961/1961_0_4b.tex"
 pdf_source: "archive/05_nagoya/1961/1961_0_4b.pdf"
 page_image: "archive/05_nagoya/1961/1961_0_4b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　$x$の二次方程式$x^2+kx\cos p+\cos2p=0$について，次の問に答えよ。
+$x$の二次方程式$x^2+kx\cos p+\cos2p=0$について，次の問に答えよ。
 \begin{description}
 \item[(1)]$k\geqq2$のとき，この方程式は実根をもつことを証明せよ。
 \item[(2)]上の場合，実根を$\alpha$，$\beta$とすると，$k$が一定で$p$が0から$2\pi$まで変わる間に

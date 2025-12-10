@@ -3,6 +3,7 @@ title: "東北大学 2021年 2021_d"
 problem_id: "04_tohoku-2021-2021_d"
 university: "東北大学"
 exam_year: "2021"
+problem_number: 4
 source_tex: "archive/04_tohoku/2021/2021_d.tex"
 pdf_source: "archive/04_tohoku/2021/2021_d.pdf"
 page_image: "archive/04_tohoku/2021/2021_d.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$b$は実数とする。$f(x)=-x^2+b$に対し曲線$y=f(x)$を$C$とおく。
+$b$は実数とする。$f(x)=-x^2+b$に対し曲線$y=f(x)$を$C$とおく。
 \begin{description}
 \item[(1)]曲線$C$と円$x^2+y^2=1$が異なる4個の交点をもつような$b$の値の範囲を求めよ。
 \item[(2)]$b$が(1)で求めた値の範囲にあるとき，

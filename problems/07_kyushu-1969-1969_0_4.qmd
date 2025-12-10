@@ -3,6 +3,7 @@ title: "九州大学 1969年 1969_0_4"
 problem_id: "07_kyushu-1969-1969_0_4"
 university: "九州大学"
 exam_year: "1969"
+problem_number: 4
 source_tex: "archive/07_kyushu/1969/1969_0_4.tex"
 pdf_source: "archive/07_kyushu/1969/1969_0_4.pdf"
 page_image: "archive/07_kyushu/1969/1969_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　2つの直線
+2つの直線
 \[ 2x-3y+26=0\cdots\cdots\cdots\text{\ding{"AC}} \hspace{1zw} x+y-17=0\cdots\cdots\cdots\text{\ding{"AD}} \]
 の交点を$A$とし，
 原点$O$から\ding{"AC}，\ding{"AD}に引いた垂線と，\ding{"AC}，\ding{"AD}との交点を，

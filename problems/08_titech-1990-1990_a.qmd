@@ -3,6 +3,7 @@ title: "東京科学大学 1990年 1990_a"
 problem_id: "08_titech-1990-1990_a"
 university: "東京科学大学"
 exam_year: "1990"
+problem_number: 1
 source_tex: "archive/08_titech/1990/1990_a.tex"
 pdf_source: "archive/08_titech/1990/1990_a.pdf"
 page_image: "archive/08_titech/1990/1990_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$(x+1)(x-2)$の小数第1位を四捨五入したものが$1+5x$と等しくなるような実数$x$を求めよ．
+$(x+1)(x-2)$の小数第1位を四捨五入したものが$1+5x$と等しくなるような実数$x$を求めよ．
 
 ---
 

@@ -3,6 +3,7 @@ title: "東北大学 2022年 2022_4"
 problem_id: "04_tohoku-2022-2022_4"
 university: "東北大学"
 exam_year: "2022"
+problem_number: 4
 source_tex: "archive/04_tohoku/2022/2022_4.tex"
 pdf_source: "archive/04_tohoku/2022/2022_4.pdf"
 page_image: "archive/04_tohoku/2022/2022_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xy$平面の第1象限内において，
+$xy$平面の第1象限内において，
 直線$l:y=mx$ $(m>0)$と$x$軸の両方に接している半径$a$の円を$C$とし，
 円$C$の中心を通る直線$y=tx$ $(t>0)$を考える。
 また，直線$l$と$x$軸，および，円$C$のすべてにそれぞれ1点で接する円の半径を$b$とする。

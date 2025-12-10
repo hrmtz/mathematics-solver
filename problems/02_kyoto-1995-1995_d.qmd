@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_d"
 problem_id: "02_kyoto-1995-1995_d"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 4
 source_tex: "archive/02_kyoto/1995/1995_d.tex"
 pdf_source: "archive/02_kyoto/1995/1995_d.pdf"
 page_image: "archive/02_kyoto/1995/1995_d.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-4
 \begin{description}
 \item[(1)]平面ベクトル$\vec{x}=\begin{pmatrix} x_1 
 

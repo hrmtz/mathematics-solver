@@ -3,6 +3,7 @@ title: "北海道大学 2022年 2022_4"
 problem_id: "03_hokudai-2022-2022_4"
 university: "北海道大学"
 exam_year: "2022"
+problem_number: 4
 source_tex: "archive/03_hokudai/2022/2022_4.tex"
 pdf_source: "archive/03_hokudai/2022/2022_4.pdf"
 page_image: "archive/03_hokudai/2022/2022_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　アルファベットのAと書かれた玉が1個，Dと書かれた玉が1個，Hと書かれた玉が1個，
+アルファベットのAと書かれた玉が1個，Dと書かれた玉が1個，Hと書かれた玉が1個，
 Iと書かれた玉が1個，Kと書かれた玉が2個，Oと書かれた玉が2個ある。
 これら8個の玉を円形に並べる。
 \begin{description}

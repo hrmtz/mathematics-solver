@@ -3,6 +3,7 @@ title: "大阪大学 1982年 1982_2"
 problem_id: "06_osaka-1982-1982_2"
 university: "大阪大学"
 exam_year: "1982"
+problem_number: 2
 source_tex: "archive/06_osaka/1982/1982_2.tex"
 pdf_source: "archive/06_osaka/1982/1982_2.pdf"
 page_image: "archive/06_osaka/1982/1982_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　条件$1<x<2^{n+1}$および$0<y\leqq\log_2x$を満たす整数$x$，$y$を座標とする点$(x, \, y)$の個数を求めよ．
+条件$1<x<2^{n+1}$および$0<y\leqq\log_2x$を満たす整数$x$，$y$を座標とする点$(x, \, y)$の個数を求めよ．
 ただし，”条件$1<x<2^{n+1}$”の$n$は正の整数である．
 
 ---

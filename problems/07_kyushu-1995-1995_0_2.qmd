@@ -3,6 +3,7 @@ title: "九州大学 1995年 1995_0_2"
 problem_id: "07_kyushu-1995-1995_0_2"
 university: "九州大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/07_kyushu/1995/1995_0_2.tex"
 pdf_source: "archive/07_kyushu/1995/1995_0_2.pdf"
 page_image: "archive/07_kyushu/1995/1995_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　放物線$y=x^2$上の原点と異なる点$A(a, \, a^2)$における接線と$x$軸との交点を$P$とし，
+放物線$y=x^2$上の原点と異なる点$A(a, \, a^2)$における接線と$x$軸との交点を$P$とし，
 直線$AP$と$x$軸の正の向きとのなす角を$\theta$とする．
 $x$軸を，点$P$のまわりに正の向きに角$2\theta$だけ回転させて得られる直線を$L$とする．
 次の問に答えよ．

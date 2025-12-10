@@ -3,6 +3,7 @@ title: "東北大学 1966年 1966_1"
 problem_id: "04_tohoku-1966-1966_1"
 university: "東北大学"
 exam_year: "1966"
+problem_number: 1
 source_tex: "archive/04_tohoku/1966/1966_1.tex"
 pdf_source: "archive/04_tohoku/1966/1966_1.pdf"
 page_image: "archive/04_tohoku/1966/1966_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$\log7=0.8451$を用いて$7^{30}$のけた数を求めるのに，
+$\log7=0.8451$を用いて$7^{30}$のけた数を求めるのに，
 $0.8451$のうちの1つの数字を誤ってかいたため，
 けた数は1だけ異なって得られた．
 また，同じ誤ってかいた$\log7$の値で，

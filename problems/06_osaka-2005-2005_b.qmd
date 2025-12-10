@@ -3,6 +3,7 @@ title: "大阪大学 2005年 2005_b"
 problem_id: "06_osaka-2005-2005_b"
 university: "大阪大学"
 exam_year: "2005"
+problem_number: 2
 source_tex: "archive/06_osaka/2005/2005_b.tex"
 pdf_source: "archive/06_osaka/2005/2005_b.pdf"
 page_image: "archive/06_osaka/2005/2005_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　1枚の硬貨を繰り返し投げる試行を前半と後半に分けて行った．
+1枚の硬貨を繰り返し投げる試行を前半と後半に分けて行った．
 前半では103回以上の試行を行った結果，
 表が出た割合は小数第4位を四捨五入して0.510となった．
 後半では200回の試行を行った結果，表が99回出た．

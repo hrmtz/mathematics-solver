@@ -3,6 +3,7 @@ title: "東北大学 2023年 2023_0_4"
 problem_id: "04_tohoku-2023-2023_0_4"
 university: "東北大学"
 exam_year: "2023"
+problem_number: 4
 source_tex: "archive/04_tohoku/2023/2023_0_4.tex"
 pdf_source: "archive/04_tohoku/2023/2023_0_4.pdf"
 page_image: "archive/04_tohoku/2023/2023_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f(x)$に対して，座標平面上の2つの点$P(x, \, f(x))$，$Q(x+1, \, f(x)+1)$を考える。
+関数$f(x)$に対して，座標平面上の2つの点$P(x, \, f(x))$，$Q(x+1, \, f(x)+1)$を考える。
 実数$x$が$0 \leqq x \leqq 2$の範囲を動くとき，線分$PQ$が通過してできる図形の面積を$S$とおく。
 以下の問いに答えよ。
 \begin{description}

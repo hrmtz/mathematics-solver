@@ -3,6 +3,7 @@ title: "東北大学 2019年 2019_0_1"
 problem_id: "04_tohoku-2019-2019_0_1"
 university: "東北大学"
 exam_year: "2019"
+problem_number: 1
 source_tex: "archive/04_tohoku/2019/2019_0_1.tex"
 pdf_source: "archive/04_tohoku/2019/2019_0_1.pdf"
 page_image: "archive/04_tohoku/2019/2019_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$a, \, b, \, c$を実数とし，$a$は0でないとする。
+$a, \, b, \, c$を実数とし，$a$は0でないとする。
 $xy$平面上の直線$y=ax$と放物線$y=x^2+a$が相異なる2点$P(b, \, ab)$，$Q(c, \, ac)$で交わっているとする。
 $c=b^2$，$b<0$のとき，$a$と$b$を求めよ。
 

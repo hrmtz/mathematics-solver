@@ -3,6 +3,7 @@ title: "京都大学 2022年 2022_0_2"
 problem_id: "02_kyoto-2022-2022_0_2"
 university: "京都大学"
 exam_year: "2022"
+problem_number: 2
 source_tex: "archive/02_kyoto/2022/2022_0_2.tex"
 pdf_source: "archive/02_kyoto/2022/2022_0_2.pdf"
 page_image: "archive/02_kyoto/2022/2022_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　下図の三角柱$ABC-DEF$において，$A$を始点として，辺に沿って頂点を$n$回移動する．
+下図の三角柱$ABC-DEF$において，$A$を始点として，辺に沿って頂点を$n$回移動する．
 すなわち，この移動経路
 \[ P_0 \to P_1 \to P_2 \to \cdots \to P_{n-1} \to P_n \hspace{1zw}
 (\text{ただし}P_0=A) \]

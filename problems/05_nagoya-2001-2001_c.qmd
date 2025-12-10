@@ -3,6 +3,7 @@ title: "名古屋大学 2001年 2001_c"
 problem_id: "05_nagoya-2001-2001_c"
 university: "名古屋大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/05_nagoya/2001/2001_c.tex"
 pdf_source: "archive/05_nagoya/2001/2001_c.pdf"
 page_image: "archive/05_nagoya/2001/2001_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$a$，$b$，$c$を実数の定数とし，関数
+$a$，$b$，$c$を実数の定数とし，関数
 \[ f_0(x)=1, \]
 \[ f_1(x)=x+af_0(x), \]
 \[ f_2(x)=x^2+bf_1(x)+cf_0(x) \]

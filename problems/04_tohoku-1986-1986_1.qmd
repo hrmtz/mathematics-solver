@@ -3,6 +3,7 @@ title: "東北大学 1986年 1986_1"
 problem_id: "04_tohoku-1986-1986_1"
 university: "東北大学"
 exam_year: "1986"
+problem_number: 1
 source_tex: "archive/04_tohoku/1986/1986_1.tex"
 pdf_source: "archive/04_tohoku/1986/1986_1.pdf"
 page_image: "archive/04_tohoku/1986/1986_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　空間における基本ベクトル
+空間における基本ベクトル
 \[ \overrightarrow{e_1}=(1, \, 0, \, 0), \hspace{1zw}
 \overrightarrow{e_2}=(0, \, 1, \, 0), \hspace{1zw}
 \overrightarrow{e_3}=(0, \, 0, \, 1) \]

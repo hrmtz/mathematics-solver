@@ -3,6 +3,7 @@ title: "東京大学 1986年 1986_6"
 problem_id: "01_tokyo-1986-1986_6"
 university: "東京大学"
 exam_year: "1986"
+problem_number: 6
 source_tex: "archive/01_tokyo/1986/1986_6.tex"
 pdf_source: "archive/01_tokyo/1986/1986_6.pdf"
 page_image: "archive/01_tokyo/1986/1986_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　直円\ruby{錐}{すい}形のグラスに水が満ちている．
+直円\ruby{錐}{すい}形のグラスに水が満ちている．
 水面の円の半径は1，深さも1である．
 \begin{description}
 \item[(1)]このグラスを右の図のように角度$\alpha$だけ傾けたとき，

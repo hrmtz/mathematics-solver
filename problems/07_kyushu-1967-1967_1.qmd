@@ -3,6 +3,7 @@ title: "九州大学 1967年 1967_1"
 problem_id: "07_kyushu-1967-1967_1"
 university: "九州大学"
 exam_year: "1967"
+problem_number: 1
 source_tex: "archive/07_kyushu/1967/1967_1.tex"
 pdf_source: "archive/07_kyushu/1967/1967_1.pdf"
 page_image: "archive/07_kyushu/1967/1967_1.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]点$A(1, \, 3)$から円$x^2+y^2=5$に引いた2接線の方程式を求めよ．
 \item[(2)](1)の円と接線との接点$P$，$Q$，原点$O$および$A$を頂点とする4角形$OPAQ$の面積を求めよ．

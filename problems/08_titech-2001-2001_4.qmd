@@ -3,6 +3,7 @@ title: "東京科学大学 2001年 2001_4"
 problem_id: "08_titech-2001-2001_4"
 university: "東京科学大学"
 exam_year: "2001"
+problem_number: 4
 source_tex: "archive/08_titech/2001/2001_4.tex"
 pdf_source: "archive/08_titech/2001/2001_4.pdf"
 page_image: "archive/08_titech/2001/2001_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　一辺の長さが1の正方形の紙を1本の線分に沿って折り曲げたとき二重になる部分の多角形を$P$とする．
+一辺の長さが1の正方形の紙を1本の線分に沿って折り曲げたとき二重になる部分の多角形を$P$とする．
 $P$が線対称な五角形になるように折るとき，$P$の面積の最小値を求めよ．
 
 ---

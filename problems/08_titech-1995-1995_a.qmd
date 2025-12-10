@@ -3,6 +3,7 @@ title: "東京科学大学 1995年 1995_a"
 problem_id: "08_titech-1995-1995_a"
 university: "東京科学大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/08_titech/1995/1995_a.tex"
 pdf_source: "archive/08_titech/1995/1995_a.pdf"
 page_image: "archive/08_titech/1995/1995_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　一辺の長さが2の立方体$C$がある．
+一辺の長さが2の立方体$C$がある．
 $S_0$を$C$の6つの面に内接する球とする．
 次に$S_0$に外接し，$C$の3つの面と内接する球$S_1$を取る．
 $S_1$に外接し，$C$の3つの面に内接する球$S_2$を$S_1$の外側に($S_0$と反対側に)取る．

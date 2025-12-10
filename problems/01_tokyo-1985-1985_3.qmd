@@ -3,6 +3,7 @@ title: "東京大学 1985年 1985_3"
 problem_id: "01_tokyo-1985-1985_3"
 university: "東京大学"
 exam_year: "1985"
+problem_number: 3
 source_tex: "archive/01_tokyo/1985/1985_3.tex"
 pdf_source: "archive/01_tokyo/1985/1985_3.pdf"
 page_image: "archive/01_tokyo/1985/1985_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$t$を正の数とする．
+$t$を正の数とする．
 $xyz$空間において，点$(t,t,0)$を$P$とし，
 $x$軸を含み点$(t,t,1)$を通る平面に関して$P$と対称な点を$Q$，
 $y$軸を含み点$(t,t,1)$を通る平面に関して$P$と対称な点を$R$とする．

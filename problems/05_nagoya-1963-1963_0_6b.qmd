@@ -3,6 +3,7 @@ title: "名古屋大学 1963年 1963_0_6b"
 problem_id: "05_nagoya-1963-1963_0_6b"
 university: "名古屋大学"
 exam_year: "1963"
+problem_number: 6
 source_tex: "archive/05_nagoya/1963/1963_0_6b.tex"
 pdf_source: "archive/05_nagoya/1963/1963_0_6b.pdf"
 page_image: "archive/05_nagoya/1963/1963_0_6b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6 (b)
-　$0 \leqq x \leqq 2\pi$の範囲で
+$0 \leqq x \leqq 2\pi$の範囲で
 $y=\sin x$および$y=\sin2x$のグラフをかき，
 これらの2曲線によって囲まれた部分の総面積を求めよ。
 

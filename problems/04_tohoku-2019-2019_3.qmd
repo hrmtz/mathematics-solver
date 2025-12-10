@@ -3,6 +3,7 @@ title: "東北大学 2019年 2019_3"
 problem_id: "04_tohoku-2019-2019_3"
 university: "東北大学"
 exam_year: "2019"
+problem_number: 3
 source_tex: "archive/04_tohoku/2019/2019_3.tex"
 pdf_source: "archive/04_tohoku/2019/2019_3.pdf"
 page_image: "archive/04_tohoku/2019/2019_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a$を実数とし，数列$\{ x_n \}$を次の漸化式によって定める。
+$a$を実数とし，数列$\{ x_n \}$を次の漸化式によって定める。
 \[ x_1=a, \hspace{1zw} x_{n+1}=x_n+{x_n}^2 \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
 \begin{description}
 \item[(1)]$a>0$のとき，数列$\{ x_n \}$が発散することを示せ。

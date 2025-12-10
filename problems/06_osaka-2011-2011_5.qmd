@@ -3,6 +3,7 @@ title: "大阪大学 2011年 2011_5"
 problem_id: "06_osaka-2011-2011_5"
 university: "大阪大学"
 exam_year: "2011"
+problem_number: 5
 source_tex: "archive/06_osaka/2011/2011_5.tex"
 pdf_source: "archive/06_osaka/2011/2011_5.pdf"
 page_image: "archive/06_osaka/2011/2011_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　正数$r$に対して，$a_1=0$，$a_2=r$とおき，数列$ \{ a_n \} $を次の漸化式で定める．
+正数$r$に対して，$a_1=0$，$a_2=r$とおき，数列$ \{ a_n \} $を次の漸化式で定める．
 \[ a_{n+1}=a_n+r_n(a_n-a_{n-1}) \hspace{1zw} (n=2,3,4,\cdots) \]
 ただし$a_n$と$a_{n-1}$から漸化式を用いて$a_{n+1}$を決める際には硬貨を投げ，
 表がでたとき$\displaystyle r_n=\frac{r}{2}$，裏がでたとき$\displaystyle r_n=\frac{1}{2r}$とする．

@@ -3,6 +3,7 @@ title: "京都大学 2001年 2001_0_b"
 problem_id: "02_kyoto-2001-2001_0_b"
 university: "京都大学"
 exam_year: "2001"
+problem_number: 2
 source_tex: "archive/02_kyoto/2001/2001_0_b.tex"
 pdf_source: "archive/02_kyoto/2001/2001_0_b.pdf"
 page_image: "archive/02_kyoto/2001/2001_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　1または$-1$からなる数列$a_1,a_2,\cdots,a_n$において，そのうちの$m$個が1で，$(n-m)$個は$-1$とする．
+1または$-1$からなる数列$a_1,a_2,\cdots,a_n$において，そのうちの$m$個が1で，$(n-m)$個は$-1$とする．
 $k=1,2,\cdots,n$に対し，$\displaystyle b_k=\frac{1}{2}\left(ka_k+\sum_{j=1}^ka_j\right)$とおく．
 集合$\{b_k|1 \leqq k \leqq n\}$を求めよ．
 

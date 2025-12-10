@@ -3,6 +3,7 @@ title: "東北大学 2000年 2000_a"
 problem_id: "04_tohoku-2000-2000_a"
 university: "東北大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/04_tohoku/2000/2000_a.tex"
 pdf_source: "archive/04_tohoku/2000/2000_a.pdf"
 page_image: "archive/04_tohoku/2000/2000_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　曲線$y=re^{rx}$（$r$は正の定数）上の点$P(a, \, b)$における接線が原点を通るとする．
+曲線$y=re^{rx}$（$r$は正の定数）上の点$P(a, \, b)$における接線が原点を通るとする．
 点$P$を通り$y$軸に平行な直線，$x$軸，$y$軸および曲線$y=re^{rx}$によって囲まれる部分を$S$とし，
 $S$を$x$軸のまわりに1回転してできる回転体の体積を$V_1$，
 $S$を$y$軸のまわりに1回転してできる回転体の体積を$V_2$とする．

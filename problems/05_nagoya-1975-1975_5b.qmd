@@ -3,6 +3,7 @@ title: "名古屋大学 1975年 1975_5b"
 problem_id: "05_nagoya-1975-1975_5b"
 university: "名古屋大学"
 exam_year: "1975"
+problem_number: 5
 source_tex: "archive/05_nagoya/1975/1975_5b.tex"
 pdf_source: "archive/05_nagoya/1975/1975_5b.pdf"
 page_image: "archive/05_nagoya/1975/1975_5b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (b)
-　$f(x)$を$0 \leqq x \leqq 1$で連続な増加関数とする．
+$f(x)$を$0 \leqq x \leqq 1$で連続な増加関数とする．
 $0<a<1$であるどんな$a$に対しても
 \[ \int_0^af(x)dx \leqq a\int_0^1f(x)dx \]
 が成り立つことを証明せよ．

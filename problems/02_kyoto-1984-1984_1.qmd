@@ -3,6 +3,7 @@ title: "京都大学 1984年 1984_1"
 problem_id: "02_kyoto-1984-1984_1"
 university: "京都大学"
 exam_year: "1984"
+problem_number: 1
 source_tex: "archive/02_kyoto/1984/1984_1.tex"
 pdf_source: "archive/02_kyoto/1984/1984_1.pdf"
 page_image: "archive/02_kyoto/1984/1984_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　方程式$xy=1$によって与えられる双曲線を$C$とし，
+方程式$xy=1$によって与えられる双曲線を$C$とし，
 また次のように，行列$\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$によって定義される1次変換を$f$とする．

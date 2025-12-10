@@ -3,6 +3,7 @@ title: "九州大学 2013年 2013_5"
 problem_id: "07_kyushu-2013-2013_5"
 university: "九州大学"
 exam_year: "2013"
+problem_number: 5
 source_tex: "archive/07_kyushu/2013/2013_5.tex"
 pdf_source: "archive/07_kyushu/2013/2013_5.pdf"
 page_image: "archive/07_kyushu/2013/2013_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　実数$x$，$y$，$t$に対して，行列
+実数$x$，$y$，$t$に対して，行列
 \[ A=\begin{pmatrix} x & y 
 
  -t-x & -x \end{pmatrix}, \hspace{1zw}

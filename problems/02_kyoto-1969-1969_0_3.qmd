@@ -3,6 +3,7 @@ title: "京都大学 1969年 1969_0_3"
 problem_id: "02_kyoto-1969-1969_0_3"
 university: "京都大学"
 exam_year: "1969"
+problem_number: 3
 source_tex: "archive/02_kyoto/1969/1969_0_3.tex"
 pdf_source: "archive/02_kyoto/1969/1969_0_3.pdf"
 page_image: "archive/02_kyoto/1969/1969_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　${18}^n>{10}^{100}$となるような自然数$n$のうち最小のものを求めよ．
+${18}^n>{10}^{100}$となるような自然数$n$のうち最小のものを求めよ．
 　ただし，$\log_{10}2=0.3010$，$\log_{10}3=0.4771$として計算せよ．
 
 ---

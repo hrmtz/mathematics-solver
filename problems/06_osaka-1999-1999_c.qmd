@@ -3,6 +3,7 @@ title: "大阪大学 1999年 1999_c"
 problem_id: "06_osaka-1999-1999_c"
 university: "大阪大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/06_osaka/1999/1999_c.tex"
 pdf_source: "archive/06_osaka/1999/1999_c.pdf"
 page_image: "archive/06_osaka/1999/1999_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]$p$，$q$，$a$，$b$は定数で$p>0$，$q>0$とする．
 $x$と$y$が$x \geqq y$を満たしながら動くとき，

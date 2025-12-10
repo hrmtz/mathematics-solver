@@ -3,6 +3,7 @@ title: "東京大学 2009年 2009_6"
 problem_id: "01_tokyo-2009-2009_6"
 university: "東京大学"
 exam_year: "2009"
+problem_number: 6
 source_tex: "archive/01_tokyo/2009/2009_6.tex"
 pdf_source: "archive/01_tokyo/2009/2009_6.pdf"
 page_image: "archive/01_tokyo/2009/2009_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　平面上の2点$P$，$Q$の距離を$d(P,Q)$と表すことにする．
+平面上の2点$P$，$Q$の距離を$d(P,Q)$と表すことにする．
 平面上に点$O$を中心とする一辺の長さが1000の正三角形$\triangle A_1A_2A_3$がある．
 $\triangle A_1A_2A_3$の内部に3点$B_1$，$B_2$，$B_3$を，$d(A_n,B_n)=1$ $(n=1,2,3)$となるようにとる．
 また，

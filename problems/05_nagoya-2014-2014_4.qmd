@@ -3,6 +3,7 @@ title: "名古屋大学 2014年 2014_4"
 problem_id: "05_nagoya-2014-2014_4"
 university: "名古屋大学"
 exam_year: "2014"
+problem_number: 4
 source_tex: "archive/05_nagoya/2014/2014_4.tex"
 pdf_source: "archive/05_nagoya/2014/2014_4.pdf"
 page_image: "archive/05_nagoya/2014/2014_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　負でない整数$N$が与えられたとき，$a_1=N$，$\displaystyle a_{n+1}=
+負でない整数$N$が与えられたとき，$a_1=N$，$\displaystyle a_{n+1}=
 \left[ \frac{a_n}{2} \right]$ $(n=1, \, 2, \, 3, \, \cdots)$として数列$\{a_n\}$を定める。
 ただし$[a]$は，実数$a$の整数部分（$k \leqq a<k+1$となる整数$k$）を表す。
 \begin{description}

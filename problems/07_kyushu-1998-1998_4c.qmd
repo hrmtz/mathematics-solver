@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_4c"
 problem_id: "07_kyushu-1998-1998_4c"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/07_kyushu/1998/1998_4c.tex"
 pdf_source: "archive/07_kyushu/1998/1998_4c.pdf"
 page_image: "archive/07_kyushu/1998/1998_4c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (c)
-　右図のような四角形$ABCD$において，
+右図のような四角形$ABCD$において，
 直線$AB$と直線$CD$の交点$E$，
 直線$BC$と直線$AD$の交点$F$，
 直線$BD$と直線$EF$の交点$R$，

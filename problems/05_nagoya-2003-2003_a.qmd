@@ -3,6 +3,7 @@ title: "名古屋大学 2003年 2003_a"
 problem_id: "05_nagoya-2003-2003_a"
 university: "名古屋大学"
 exam_year: "2003"
+problem_number: 1
 source_tex: "archive/05_nagoya/2003/2003_a.tex"
 pdf_source: "archive/05_nagoya/2003/2003_a.pdf"
 page_image: "archive/05_nagoya/2003/2003_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標平面上に，原点$O$，点$A_0(l_0, \, 0)$，$O$からの距離が$l_0$である点$B_0$（この点の$y$座標は
+座標平面上に，原点$O$，点$A_0(l_0, \, 0)$，$O$からの距離が$l_0$である点$B_0$（この点の$y$座標は
 正の値とする）の3点からなる二等辺三角形$OA_0B_0$を考える．
 ここで，$\angle A_0OB_0=2\theta$とする．
 この二等辺三角形$OA_0B_0$に内接する円の中心を$I_0$とし，半径を$r_0$とする．

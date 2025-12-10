@@ -3,6 +3,7 @@ title: "京都大学 1962年 1962_4"
 problem_id: "02_kyoto-1962-1962_4"
 university: "京都大学"
 exam_year: "1962"
+problem_number: 4
 source_tex: "archive/02_kyoto/1962/1962_4.tex"
 pdf_source: "archive/02_kyoto/1962/1962_4.pdf"
 page_image: "archive/02_kyoto/1962/1962_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$，$b$，$c$は与えられた正の定数で，$a<b<c$であるとする．
+$a$，$b$，$c$は与えられた正の定数で，$a<b<c$であるとする．
 $-\infty < x \leqq c$の範囲で，3次函数$y=x(x-a)(b-x)$のグラフが，2次函数$y=px^2-qx$のグラフの下側に出ないように，
 正の定数$p$，$q$の値を求めることができるかどうかを吟味せよ．
 

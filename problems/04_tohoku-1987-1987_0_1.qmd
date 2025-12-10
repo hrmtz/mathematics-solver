@@ -3,6 +3,7 @@ title: "東北大学 1987年 1987_0_1"
 problem_id: "04_tohoku-1987-1987_0_1"
 university: "東北大学"
 exam_year: "1987"
+problem_number: 1
 source_tex: "archive/04_tohoku/1987/1987_0_1.tex"
 pdf_source: "archive/04_tohoku/1987/1987_0_1.pdf"
 page_image: "archive/04_tohoku/1987/1987_0_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$a$，$b$を実数とする．
+$a$，$b$を実数とする．
 \begin{description}
 \item[(1)]行列$A=\begin{pmatrix} a & -b 
 

@@ -3,6 +3,7 @@ title: "東京大学 2024年 2024_0_3"
 problem_id: "01_tokyo-2024-2024_0_3"
 university: "東京大学"
 exam_year: "2024"
+problem_number: 3
 source_tex: "archive/01_tokyo/2024/2024_0_3.tex"
 pdf_source: "archive/01_tokyo/2024/2024_0_3.pdf"
 page_image: "archive/01_tokyo/2024/2024_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　座標平面上に2点$O(0, \, 0)$，$A(0, \, 1)$をとる。
+座標平面上に2点$O(0, \, 0)$，$A(0, \, 1)$をとる。
 $x$軸上の2点$P(p, \, 0)$，$Q(q, \, 0)$が，次の条件(i)，(ii)をともに満たすとする。
 \begin{description}
 \item[(i)]$0<p<1$かつ$p<q$

@@ -3,6 +3,7 @@ title: "名古屋大学 1995年 1995_1"
 problem_id: "05_nagoya-1995-1995_1"
 university: "名古屋大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/05_nagoya/1995/1995_1.tex"
 pdf_source: "archive/05_nagoya/1995/1995_1.pdf"
 page_image: "archive/05_nagoya/1995/1995_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　2つの円
+2つの円
 \[ C_1:x^2+y^2=1, \hspace{1zw} C_2:{(x-3)}^2+y^2=4 \]
 に外接し，$x$軸の上側にある半径$r$ $(r>0)$の円の中心を$P_r$とする．
 ただし，2つの円が外接するとは，

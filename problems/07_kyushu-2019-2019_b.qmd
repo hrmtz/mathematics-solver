@@ -3,6 +3,7 @@ title: "九州大学 2019年 2019_b"
 problem_id: "07_kyushu-2019-2019_b"
 university: "九州大学"
 exam_year: "2019"
+problem_number: 2
 source_tex: "archive/07_kyushu/2019/2019_b.tex"
 pdf_source: "archive/07_kyushu/2019/2019_b.pdf"
 page_image: "archive/07_kyushu/2019/2019_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　赤りんごが$a$個，青りんごが$b$個入っている袋と，
+赤りんごが$a$個，青りんごが$b$個入っている袋と，
 赤りんごが$c$個，青りんごが$d$個入っているかごがある。
 袋からりんごを1個取り出し，取り出したりんごを袋に戻した上で，
 そのりんごと同じ色のりんごをかごから袋に1個移動させる試行を何回か繰り返す。

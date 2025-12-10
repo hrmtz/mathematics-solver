@@ -3,6 +3,7 @@ title: "東北大学 1971年 1971_1"
 problem_id: "04_tohoku-1971-1971_1"
 university: "東北大学"
 exam_year: "1971"
+problem_number: 1
 source_tex: "archive/04_tohoku/1971/1971_1.tex"
 pdf_source: "archive/04_tohoku/1971/1971_1.pdf"
 page_image: "archive/04_tohoku/1971/1971_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[]$S=\{ (x, \, y)|-1 \leqq x \leqq 1, \, -1 \leqq y \leqq 1 \}$，
 \item[]$\displaystyle T=\left\{ (x, \, y) \left|

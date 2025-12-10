@@ -3,6 +3,7 @@ title: "北海道大学 1996年 1996_4"
 problem_id: "03_hokudai-1996-1996_4"
 university: "北海道大学"
 exam_year: "1996"
+problem_number: 4
 source_tex: "archive/03_hokudai/1996/1996_4.tex"
 pdf_source: "archive/03_hokudai/1996/1996_4.pdf"
 page_image: "archive/03_hokudai/1996/1996_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]数学的帰納法により次の不等式を証明せよ．
 ただし，$n=1, \, 2, \, 3, \, \cdots\cdots$とする．

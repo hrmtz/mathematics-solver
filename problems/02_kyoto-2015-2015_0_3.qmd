@@ -3,6 +3,7 @@ title: "京都大学 2015年 2015_0_3"
 problem_id: "02_kyoto-2015-2015_0_3"
 university: "京都大学"
 exam_year: "2015"
+problem_number: 3
 source_tex: "archive/02_kyoto/2015/2015_0_3.tex"
 pdf_source: "archive/02_kyoto/2015/2015_0_3.pdf"
 page_image: "archive/02_kyoto/2015/2015_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　6個の点$A, \, B, \, C, \, D, \, E, \, F$が下図のように長さ1の線分で結ばれているとする．
+6個の点$A, \, B, \, C, \, D, \, E, \, F$が下図のように長さ1の線分で結ばれているとする．
 各線分をそれぞれ独立に確率$\displaystyle\frac{1}{2}$で赤または黒で塗る．
 赤く塗られた線分だけを通って点$A$から点$E$に至る経路がある場合はそのうちで最短のものの長さを$X$とする．
 そのような経路がない場合は$X$を0とする．

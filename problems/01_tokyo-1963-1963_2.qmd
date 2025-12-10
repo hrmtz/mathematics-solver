@@ -3,6 +3,7 @@ title: "東京大学 1963年 1963_2"
 problem_id: "01_tokyo-1963-1963_2"
 university: "東京大学"
 exam_year: "1963"
+problem_number: 2
 source_tex: "archive/01_tokyo/1963/1963_2.tex"
 pdf_source: "archive/01_tokyo/1963/1963_2.pdf"
 page_image: "archive/01_tokyo/1963/1963_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$P$は平面上の定点，$l$はこの平面上の定直線で，$P$から$l$までの距離は$\sqrt3+1$である．
+$P$は平面上の定点，$l$はこの平面上の定直線で，$P$から$l$までの距離は$\sqrt3+1$である．
 また，$Q$，$R$，$S$はこの平面上の動点で，$S$は$l$上にあるものとする．
 $PQ$，$QR$，$RS$の長さはそれぞれ一定で、$2+\sqrt2$，$2-\sqrt2$，$\sqrt3-1$に等しい．
 このとき$R$の動きうる範囲を図示し，その面積を求めよ．

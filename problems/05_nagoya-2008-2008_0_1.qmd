@@ -3,6 +3,7 @@ title: "名古屋大学 2008年 2008_0_1"
 problem_id: "05_nagoya-2008-2008_0_1"
 university: "名古屋大学"
 exam_year: "2008"
+problem_number: 1
 source_tex: "archive/05_nagoya/2008/2008_0_1.tex"
 pdf_source: "archive/05_nagoya/2008/2008_0_1.pdf"
 page_image: "archive/05_nagoya/2008/2008_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　2つの円$x^2+{(y-2)}^2=9$と${(x-4)}^2+{(y+4)}^2=1$に外接し，直線$x=6$に接する円を求めよ．
+2つの円$x^2+{(y-2)}^2=9$と${(x-4)}^2+{(y+4)}^2=1$に外接し，直線$x=6$に接する円を求めよ．
 ただし，2つの円がただ1点を共有し，互いに外部にあるとき，外接するという．
 
 ---

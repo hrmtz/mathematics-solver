@@ -3,6 +3,7 @@ title: "大阪大学 1992年 1992_5"
 problem_id: "06_osaka-1992-1992_5"
 university: "大阪大学"
 exam_year: "1992"
+problem_number: 5
 source_tex: "archive/06_osaka/1992/1992_5.tex"
 pdf_source: "archive/06_osaka/1992/1992_5.pdf"
 page_image: "archive/06_osaka/1992/1992_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n$を2以上の自然数とする．
+$n$を2以上の自然数とする．
 $xy$平面上に，1辺の長さが1の正方形の板4枚を，
 次の2条件を満たすように配置する．
 \begin{description}

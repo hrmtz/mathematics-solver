@@ -3,6 +3,7 @@ title: "東京大学 2007年 2007_1"
 problem_id: "01_tokyo-2007-2007_1"
 university: "東京大学"
 exam_year: "2007"
+problem_number: 1
 source_tex: "archive/01_tokyo/2007/2007_1.tex"
 pdf_source: "archive/01_tokyo/2007/2007_1.pdf"
 page_image: "archive/01_tokyo/2007/2007_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$n$と$k$を正の整数とし，$P(x)$を次数が$n$以上の整式とする．
+$n$と$k$を正の整数とし，$P(x)$を次数が$n$以上の整式とする．
 整式$(1+x)^kP(x)$の$n$次以下の項の係数がすべて整数ならば，$P(x)$の$n$次以下の項の係数は，すべて整数であることを示せ．
 ただし，定数項については，項それ自身を係数とみなす．
 

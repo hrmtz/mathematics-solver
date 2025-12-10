@@ -3,6 +3,7 @@ title: "東京科学大学 1992年 1992_5"
 problem_id: "08_titech-1992-1992_5"
 university: "東京科学大学"
 exam_year: "1992"
+problem_number: 5
 source_tex: "archive/08_titech/1992/1992_5.tex"
 pdf_source: "archive/08_titech/1992/1992_5.pdf"
 page_image: "archive/08_titech/1992/1992_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$n=1,2,\cdots\cdots$に対し
+$n=1,2,\cdots\cdots$に対し
 \[ I_n=(-1)^n\int_0^\frac{\pi}{4}\frac{x \cos (2n-1)x}{\cos x}dx \]
 とおく．
 \begin{description}

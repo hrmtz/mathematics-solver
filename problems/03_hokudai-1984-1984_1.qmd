@@ -3,6 +3,7 @@ title: "北海道大学 1984年 1984_1"
 problem_id: "03_hokudai-1984-1984_1"
 university: "北海道大学"
 exam_year: "1984"
+problem_number: 1
 source_tex: "archive/03_hokudai/1984/1984_1.tex"
 pdf_source: "archive/03_hokudai/1984/1984_1.pdf"
 page_image: "archive/03_hokudai/1984/1984_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$m$を2より大きい実数とする．$x$の2つの方程式
+$m$を2より大きい実数とする．$x$の2つの方程式
 \[ x^2-2^{m+1}x+3 \times 2^m=0 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AC}} \]
 \[ 2\log_2x-\log_2(x-1)=m \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AD}} \]
 について，次の問に答えよ．

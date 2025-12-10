@@ -3,6 +3,7 @@ title: "東北大学 1962年 1962_5"
 problem_id: "04_tohoku-1962-1962_5"
 university: "東北大学"
 exam_year: "1962"
+problem_number: 5
 source_tex: "archive/04_tohoku/1962/1962_5.tex"
 pdf_source: "archive/04_tohoku/1962/1962_5.pdf"
 page_image: "archive/04_tohoku/1962/1962_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　関数$\displaystyle f(x)=\int_0^x(\cos t-\sin t\sin2t)dt$ $(0 \leqq x \leqq 2\pi)$の増減，極値を調べ，
+関数$\displaystyle f(x)=\int_0^x(\cos t-\sin t\sin2t)dt$ $(0 \leqq x \leqq 2\pi)$の増減，極値を調べ，
 $y=f(x)$のグラフの概形をえがけ。
 
 ---

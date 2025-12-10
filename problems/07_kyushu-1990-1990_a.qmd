@@ -3,6 +3,7 @@ title: "九州大学 1990年 1990_a"
 problem_id: "07_kyushu-1990-1990_a"
 university: "九州大学"
 exam_year: "1990"
+problem_number: 1
 source_tex: "archive/07_kyushu/1990/1990_a.tex"
 pdf_source: "archive/07_kyushu/1990/1990_a.pdf"
 page_image: "archive/07_kyushu/1990/1990_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　行列$\begin{pmatrix} c & 1 
+行列$\begin{pmatrix} c & 1 
 
  2 & 3 \end{pmatrix}$によって表される1次変換$f$は，
 楕円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a, \, b>0)$を半径1の円に移すとする．

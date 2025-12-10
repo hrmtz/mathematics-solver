@@ -3,6 +3,7 @@ title: "東京大学 2009年 2009_1"
 problem_id: "01_tokyo-2009-2009_1"
 university: "東京大学"
 exam_year: "2009"
+problem_number: 1
 source_tex: "archive/01_tokyo/2009/2009_1.tex"
 pdf_source: "archive/01_tokyo/2009/2009_1.pdf"
 page_image: "archive/01_tokyo/2009/2009_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　自然数$m\geqq2$に対し，$m-1$個の二項係数
+自然数$m\geqq2$に対し，$m-1$個の二項係数
 \[ {}_mC_1, \hspace{1zw} {}_mC_2, \hspace{1zw} \cdots, \hspace{1zw} {}_mC_{m-1} \]
 を考え，これらすべての最大公約数を$d_m$とする．
 すなわち$d_m$はこれらすべてを割り切る最大の自然数である．

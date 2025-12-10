@@ -3,6 +3,7 @@ title: "北海道大学 1991年 1991_4"
 problem_id: "03_hokudai-1991-1991_4"
 university: "北海道大学"
 exam_year: "1991"
+problem_number: 4
 source_tex: "archive/03_hokudai/1991/1991_4.tex"
 pdf_source: "archive/03_hokudai/1991/1991_4.pdf"
 page_image: "archive/03_hokudai/1991/1991_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次の問に答えよ．
+次の問に答えよ．
 \begin{description}
 \item[(1)]$\displaystyle\lim_{n\to\infty}\frac{1}{n} \left\{ \sum_{k=n+1}^{2n} \log k-n\log n \right\} =\int_1^2\log xdx$を示せ．
 \item[(2)]$\displaystyle\lim_{n\to\infty} { \left( \frac{(2n) \, !}{n \, ! n^n} \right) }^\frac{1}{n}$を求めよ．

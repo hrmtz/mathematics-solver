@@ -3,6 +3,7 @@ title: "九州大学 2018年 2018_0_3"
 problem_id: "07_kyushu-2018-2018_0_3"
 university: "九州大学"
 exam_year: "2018"
+problem_number: 3
 source_tex: "archive/07_kyushu/2018/2018_0_3.tex"
 pdf_source: "archive/07_kyushu/2018/2018_0_3.pdf"
 page_image: "archive/07_kyushu/2018/2018_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　平面上に三角形$ABC$と点$O$が与えられている。この平面上の動点$P$に対し，
+平面上に三角形$ABC$と点$O$が与えられている。この平面上の動点$P$に対し，
 \[ L={PA}^2+{PB}^2+{PC}^2 \]
 とおく。以下の問いに答えよ。
 \begin{description}

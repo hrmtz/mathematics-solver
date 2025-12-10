@@ -3,6 +3,7 @@ title: "京都大学 1970年 1970_0_6"
 problem_id: "02_kyoto-1970-1970_0_6"
 university: "京都大学"
 exam_year: "1970"
+problem_number: 6
 source_tex: "archive/02_kyoto/1970/1970_0_6.tex"
 pdf_source: "archive/02_kyoto/1970/1970_0_6.pdf"
 page_image: "archive/02_kyoto/1970/1970_0_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$a$は$1<a<2$をみたす定数とする．
+$a$は$1<a<2$をみたす定数とする．
 $x_1=a$，$\displaystyle x_{n+1}=\frac{{x_n}^2+2}{3}$によって定められた数列
 $x_1$，$x_2$，$\cdots\cdots$，$x_n$，$\cdots\cdots$について，次の各式を証明せよ．
 \begin{description}

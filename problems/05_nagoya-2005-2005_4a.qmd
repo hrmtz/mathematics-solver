@@ -3,6 +3,7 @@ title: "名古屋大学 2005年 2005_4a"
 problem_id: "05_nagoya-2005-2005_4a"
 university: "名古屋大学"
 exam_year: "2005"
+problem_number: 4
 source_tex: "archive/05_nagoya/2005/2005_4a.tex"
 pdf_source: "archive/05_nagoya/2005/2005_4a.pdf"
 page_image: "archive/05_nagoya/2005/2005_4a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (a)
-　整数に値をとる変数$x$の値が，以下の規則で変化する．
+整数に値をとる変数$x$の値が，以下の規則で変化する．
 \begin{description}
 \item[(i)]ある時刻で$x=m$ $(m\neq0)$のとき，
 1秒後に$x=m+1$，$x=m-1$である確率は

@@ -3,6 +3,7 @@ title: "大阪大学 1965年 1965_4"
 problem_id: "06_osaka-1965-1965_4"
 university: "大阪大学"
 exam_year: "1965"
+problem_number: 4
 source_tex: "archive/06_osaka/1965/1965_4.tex"
 pdf_source: "archive/06_osaka/1965/1965_4.pdf"
 page_image: "archive/06_osaka/1965/1965_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　方程式$x^3-3x+a=0$が相異なる3実根$\alpha$，$\beta$，$\gamma$をもっているとする。
+方程式$x^3-3x+a=0$が相異なる3実根$\alpha$，$\beta$，$\gamma$をもっているとする。
 ただし，$a$は正の定数で，$\alpha<\beta<\gamma$である。
 \begin{description}
 \item[(1)]$|\alpha|$，$|\beta|$，$|\gamma|$の大小を比較せよ。

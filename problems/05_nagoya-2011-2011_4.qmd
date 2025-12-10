@@ -3,6 +3,7 @@ title: "名古屋大学 2011年 2011_4"
 problem_id: "05_nagoya-2011-2011_4"
 university: "名古屋大学"
 exam_year: "2011"
+problem_number: 4
 source_tex: "archive/05_nagoya/2011/2011_4.tex"
 pdf_source: "archive/05_nagoya/2011/2011_4.pdf"
 page_image: "archive/05_nagoya/2011/2011_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$，$b$は$a \geqq b > 0$を満たす整数とし，
+$a$，$b$は$a \geqq b > 0$を満たす整数とし，
 $x$と$y$の2次方程式$x^2+ax+b=0$，$y^2+by+a=0$がそれぞれ整数解をもつとする．
 \begin{description}
 \item[(1)]$a=b$とするとき，条件を満たす整数$a$をすべて求めよ．

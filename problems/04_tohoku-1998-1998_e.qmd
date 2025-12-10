@@ -3,6 +3,7 @@ title: "東北大学 1998年 1998_e"
 problem_id: "04_tohoku-1998-1998_e"
 university: "東北大学"
 exam_year: "1998"
+problem_number: 5
 source_tex: "archive/04_tohoku/1998/1998_e.tex"
 pdf_source: "archive/04_tohoku/1998/1998_e.pdf"
 page_image: "archive/04_tohoku/1998/1998_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$\theta$の関数$f(\theta)={(\sqrt{1-\cos\theta}+\sqrt{1-\sin\theta})}^2$を考える．
+$\theta$の関数$f(\theta)={(\sqrt{1-\cos\theta}+\sqrt{1-\sin\theta})}^2$を考える．
 \begin{description}
 \item[(1)]$x=\cos\theta+\sin\theta$とおくとき，$f(\theta)$を$x$を用いて表せ．
 \item[(2)]$f(\theta)$の最大値，最小値を求めよ．

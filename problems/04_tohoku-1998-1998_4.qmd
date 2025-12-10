@@ -3,6 +3,7 @@ title: "東北大学 1998年 1998_4"
 problem_id: "04_tohoku-1998-1998_4"
 university: "東北大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/04_tohoku/1998/1998_4.tex"
 pdf_source: "archive/04_tohoku/1998/1998_4.pdf"
 page_image: "archive/04_tohoku/1998/1998_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$と$b$は$\pm1$，0でない実数とする．
+$a$と$b$は$\pm1$，0でない実数とする．
 実数$x$，$y$が，
 $\displaystyle\frac{\sin x}{\sin y}=a$，$\displaystyle\frac{\cos x}{\cos y}=b$を満たしているとする．
 \begin{description}

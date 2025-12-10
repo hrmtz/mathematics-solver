@@ -3,6 +3,7 @@ title: "九州大学 1961年 1961_6"
 problem_id: "07_kyushu-1961-1961_6"
 university: "九州大学"
 exam_year: "1961"
+problem_number: 6
 source_tex: "archive/07_kyushu/1961/1961_6.tex"
 pdf_source: "archive/07_kyushu/1961/1961_6.pdf"
 page_image: "archive/07_kyushu/1961/1961_6.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(1)]$\displaystyle\frac{1}{6}\leqq x \leqq\frac{1}{2}$において
 方程式$\displaystyle\pi\cos\pi x-\frac{3}{2}=0$は

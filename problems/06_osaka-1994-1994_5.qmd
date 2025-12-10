@@ -3,6 +3,7 @@ title: "大阪大学 1994年 1994_5"
 problem_id: "06_osaka-1994-1994_5"
 university: "大阪大学"
 exam_year: "1994"
+problem_number: 5
 source_tex: "archive/06_osaka/1994/1994_5.tex"
 pdf_source: "archive/06_osaka/1994/1994_5.pdf"
 page_image: "archive/06_osaka/1994/1994_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　袋の中に白球が1個，赤玉が2個はいっている．
+袋の中に白球が1個，赤玉が2個はいっている．
 この状態から始めて，次のような試行をくりかえす．
 袋の中から無作為に球を1個取り出し，
 それが白球であれば袋の中に戻し，

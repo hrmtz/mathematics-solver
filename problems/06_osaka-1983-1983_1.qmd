@@ -3,6 +3,7 @@ title: "大阪大学 1983年 1983_1"
 problem_id: "06_osaka-1983-1983_1"
 university: "大阪大学"
 exam_year: "1983"
+problem_number: 1
 source_tex: "archive/06_osaka/1983/1983_1.tex"
 pdf_source: "archive/06_osaka/1983/1983_1.pdf"
 page_image: "archive/06_osaka/1983/1983_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　正の整数$m$，$n$が不等式$\displaystyle\sqrt{n}\leqq\frac{m}{2}<\sqrt{n+1}$を満たしているとする．
+正の整数$m$，$n$が不等式$\displaystyle\sqrt{n}\leqq\frac{m}{2}<\sqrt{n+1}$を満たしているとする．
 次のことを証明せよ．
 \begin{description}
 \item[(1)]$m^2-4n$は0または1である．

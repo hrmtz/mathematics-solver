@@ -3,6 +3,7 @@ title: "東京大学 2017年 2017_5"
 problem_id: "01_tokyo-2017-2017_5"
 university: "東京大学"
 exam_year: "2017"
+problem_number: 5
 source_tex: "archive/01_tokyo/2017/2017_5.tex"
 pdf_source: "archive/01_tokyo/2017/2017_5.pdf"
 page_image: "archive/01_tokyo/2017/2017_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$k$を実数とし，座標平面上で次の2つの放物線$C$，$D$の共通接線について考える。
+$k$を実数とし，座標平面上で次の2つの放物線$C$，$D$の共通接線について考える。
 \[ C: \hspace{1zw} y=x^2+k \]
 \[ D: \hspace{1zw} x=y^2+k \]
 \begin{description}

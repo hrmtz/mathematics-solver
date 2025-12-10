@@ -3,6 +3,7 @@ title: "東京大学 1973年 1973_4"
 problem_id: "01_tokyo-1973-1973_4"
 university: "東京大学"
 exam_year: "1973"
+problem_number: 4
 source_tex: "archive/01_tokyo/1973/1973_4.tex"
 pdf_source: "archive/01_tokyo/1973/1973_4.pdf"
 page_image: "archive/01_tokyo/1973/1973_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　平面上に1辺の長さが1の正方形$S$がある．
+平面上に1辺の長さが1の正方形$S$がある．
 この平面上で$S$を平行移動して得られる正方形で，
 点$P$を中心にもつものを$T(P)$とする．
 このとき，

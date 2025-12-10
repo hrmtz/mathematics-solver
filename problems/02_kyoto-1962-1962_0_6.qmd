@@ -3,6 +3,7 @@ title: "京都大学 1962年 1962_0_6"
 problem_id: "02_kyoto-1962-1962_0_6"
 university: "京都大学"
 exam_year: "1962"
+problem_number: 6
 source_tex: "archive/02_kyoto/1962/1962_0_6.tex"
 pdf_source: "archive/02_kyoto/1962/1962_0_6.pdf"
 page_image: "archive/02_kyoto/1962/1962_0_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　条件
+条件
 \begin{description}
 \item[]$AB=A'B'=A''B''=p \cdot AC=p \cdot A'C'=p \cdot A''C''$
 \item[]$\angle A=\pi/2$，$\angle A'+\angle A''=\pi$，$\angle A'<\pi/2$，

@@ -3,6 +3,7 @@ title: "九州大学 2005年 2005_d"
 problem_id: "07_kyushu-2005-2005_d"
 university: "九州大学"
 exam_year: "2005"
+problem_number: 4
 source_tex: "archive/07_kyushu/2005/2005_d.tex"
 pdf_source: "archive/07_kyushu/2005/2005_d.pdf"
 page_image: "archive/07_kyushu/2005/2005_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　原点$O$を中心とする半径$r$の球面上に点$A$，$B$，$C$を置き，
+原点$O$を中心とする半径$r$の球面上に点$A$，$B$，$C$を置き，
 $\overrightarrow{OA}=\overrightarrow{a}$，$\overrightarrow{OB}=\overrightarrow{b}$，
 $\overrightarrow{OC}=\overrightarrow{c}$とする．
 ベクトル$\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{c}$間の内積に，

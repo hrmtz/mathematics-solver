@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_4"
 problem_id: "04_tohoku-1999-1999_4"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/04_tohoku/1999/1999_4.tex"
 pdf_source: "archive/04_tohoku/1999/1999_4.pdf"
 page_image: "archive/04_tohoku/1999/1999_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$T, \, O, \, H, \, O, \, K, \, U, \, A, \, O, \, B, \, A$の10文字をでたらめに一列に並べる．
+$T, \, O, \, H, \, O, \, K, \, U, \, A, \, O, \, B, \, A$の10文字をでたらめに一列に並べる．
 \begin{description}
 \item[(1)]どの二つの$O$も隣り合わない確率を求めよ．
 \item[(2)]どこかで同じ文字が隣り合う確率を求めよ．

@@ -3,6 +3,7 @@ title: "名古屋大学 2007年 2007_2"
 problem_id: "05_nagoya-2007-2007_2"
 university: "名古屋大学"
 exam_year: "2007"
+problem_number: 2
 source_tex: "archive/05_nagoya/2007/2007_2.tex"
 pdf_source: "archive/05_nagoya/2007/2007_2.pdf"
 page_image: "archive/05_nagoya/2007/2007_2.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]関数$f(x)=2x^3-3x^2+1$のグラフをかけ．
 \item[(2)]方程式$f(x)=a$ ($a$は実数) が相異なる3つの実数解$\alpha<\beta<\gamma$を持つとする．

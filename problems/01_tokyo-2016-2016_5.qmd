@@ -3,6 +3,7 @@ title: "東京大学 2016年 2016_5"
 problem_id: "01_tokyo-2016-2016_5"
 university: "東京大学"
 exam_year: "2016"
+problem_number: 5
 source_tex: "archive/01_tokyo/2016/2016_5.tex"
 pdf_source: "archive/01_tokyo/2016/2016_5.pdf"
 page_image: "archive/01_tokyo/2016/2016_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$k$を正の整数とし，10進法で表された小数点以下$k$桁の実数
+$k$を正の整数とし，10進法で表された小数点以下$k$桁の実数
 \[ 0.a_1a_2 \cdots a_k=\frac{a_1}{10}+\frac{a_2}{{10}^2}+\cdots+\frac{a_k}{{10}^k} \]
 を1つとる。
 ここで，$a_1, \, a_2, \, \cdots, \, a_k$は0から9までの整数で，$a_k \neq 0$とする。

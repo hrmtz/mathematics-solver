@@ -3,6 +3,7 @@ title: "北海道大学 2010年 2010_a"
 problem_id: "03_hokudai-2010-2010_a"
 university: "北海道大学"
 exam_year: "2010"
+problem_number: 1
 source_tex: "archive/03_hokudai/2010/2010_a.tex"
 pdf_source: "archive/03_hokudai/2010/2010_a.pdf"
 page_image: "archive/03_hokudai/2010/2010_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の連立不等式の表す領域を$D$とする．
+次の連立不等式の表す領域を$D$とする．
 \[ \begin{cases} x^2+y^2\leqq25 
 
  (y-2x-10)(y+x+5)\leqq0 \end{cases} \]

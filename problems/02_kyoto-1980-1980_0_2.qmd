@@ -3,6 +3,7 @@ title: "京都大学 1980年 1980_0_2"
 problem_id: "02_kyoto-1980-1980_0_2"
 university: "京都大学"
 exam_year: "1980"
+problem_number: 2
 source_tex: "archive/02_kyoto/1980/1980_0_2.tex"
 pdf_source: "archive/02_kyoto/1980/1980_0_2.pdf"
 page_image: "archive/02_kyoto/1980/1980_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　凸四辺形$ABCD$の辺$AB$，$BC$，$CD$，$DA$上をそれぞれ一定速度で動く動点$P$，$Q$，$R$，$S$が，
+凸四辺形$ABCD$の辺$AB$，$BC$，$CD$，$DA$上をそれぞれ一定速度で動く動点$P$，$Q$，$R$，$S$が，
 時刻$t=0$のときそれぞれ$A$，$B$，$C$，$D$を出発し，時刻$t=1$のときそれぞれ$B$，$C$，$D$，$A$に達するものとする．
 　四辺形$PQRS$の面積を$t$ $(0 \leqq t \leqq 1)$の関数として表せ．またこの関数の最小値について調べよ．
 

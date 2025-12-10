@@ -3,6 +3,7 @@ title: "九州大学 1969年 1969_6"
 problem_id: "07_kyushu-1969-1969_6"
 university: "九州大学"
 exam_year: "1969"
+problem_number: 6
 source_tex: "archive/07_kyushu/1969/1969_6.tex"
 pdf_source: "archive/07_kyushu/1969/1969_6.pdf"
 page_image: "archive/07_kyushu/1969/1969_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　曲線$y=\log x$（ただし，$\log$は自然対数）と，
+曲線$y=\log x$（ただし，$\log$は自然対数）と，
 3つの直線$y=x$，$x=a$，$x=a+1$（ただし$a>0$）で囲まれる部分の面積を$S$とする．
 \begin{description}
 \item[(1)]$S$を$a$で表わせ．

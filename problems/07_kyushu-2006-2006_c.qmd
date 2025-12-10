@@ -3,6 +3,7 @@ title: "九州大学 2006年 2006_c"
 problem_id: "07_kyushu-2006-2006_c"
 university: "九州大学"
 exam_year: "2006"
+problem_number: 3
 source_tex: "archive/07_kyushu/2006/2006_c.tex"
 pdf_source: "archive/07_kyushu/2006/2006_c.pdf"
 page_image: "archive/07_kyushu/2006/2006_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　数列$\{ a_n \}$を
+数列$\{ a_n \}$を
 \[ a_1=1, \hspace{1zw} a_{n+1}=\frac{2a_n}{5a_n+c} \hspace{1zw} (n=1, \, 2, \, \cdots) \]
 と定める．ただし，$c$は$0 \leqq c<2$を満たす定数とする．
 \begin{description}

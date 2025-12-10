@@ -3,6 +3,7 @@ title: "大阪大学 2000年 2000_5"
 problem_id: "06_osaka-2000-2000_5"
 university: "大阪大学"
 exam_year: "2000"
+problem_number: 5
 source_tex: "archive/06_osaka/2000/2000_5.tex"
 pdf_source: "archive/06_osaka/2000/2000_5.pdf"
 page_image: "archive/06_osaka/2000/2000_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　立方体$X$と球$Y$があって，両者の体積は等しいとする．
+立方体$X$と球$Y$があって，両者の体積は等しいとする．
 このとき，次の問いに答えよ．ただし，円周率は$\pi=3.14\cdots\cdots$である．
 \begin{description}
 \item[(1)]立方体$X$と球$Y$を動かして，

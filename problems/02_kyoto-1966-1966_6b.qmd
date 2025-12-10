@@ -3,6 +3,7 @@ title: "京都大学 1966年 1966_6b"
 problem_id: "02_kyoto-1966-1966_6b"
 university: "京都大学"
 exam_year: "1966"
+problem_number: 6
 source_tex: "archive/02_kyoto/1966/1966_6b.tex"
 pdf_source: "archive/02_kyoto/1966/1966_6b.pdf"
 page_image: "archive/02_kyoto/1966/1966_6b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6 旧
-　正数列$a_0,a_1,a_2,\cdots,a_n,\cdots\cdots$で条件
+正数列$a_0,a_1,a_2,\cdots,a_n,\cdots\cdots$で条件
 \begin{description}
 \item[(＊)]$a_0=1$，$a_n-a_{n+1}=a_{n+2}$ $(n=0,1,2,\cdots\cdots)$
 \end{description}

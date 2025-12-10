@@ -3,6 +3,7 @@ title: "北海道大学 2008年 2008_5"
 problem_id: "03_hokudai-2008-2008_5"
 university: "北海道大学"
 exam_year: "2008"
+problem_number: 5
 source_tex: "archive/03_hokudai/2008/2008_5.tex"
 pdf_source: "archive/03_hokudai/2008/2008_5.pdf"
 page_image: "archive/03_hokudai/2008/2008_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　関数$f(x)$と$g(x)$を$0 \leqq x \leqq 1$の範囲で定義された連続関数とする．
+関数$f(x)$と$g(x)$を$0 \leqq x \leqq 1$の範囲で定義された連続関数とする．
 \begin{description}
 \item[(1)]$\displaystyle f(x)=\int_0^1e^{x+t}f(t)dt$を満たす$f(x)$は
 定数関数$f(x)=0$のみであることを示せ．

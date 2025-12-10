@@ -3,6 +3,7 @@ title: "東京科学大学 1974年 1974_3"
 problem_id: "08_titech-1974-1974_3"
 university: "東京科学大学"
 exam_year: "1974"
+problem_number: 3
 source_tex: "archive/08_titech/1974/1974_3.tex"
 pdf_source: "archive/08_titech/1974/1974_3.pdf"
 page_image: "archive/08_titech/1974/1974_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　複素数$z=x+iy$に対して$w=az^2+bz$（$a$，$b$は実数，$a\neq0$）とおく．
+複素数$z=x+iy$に対して$w=az^2+bz$（$a$，$b$は実数，$a\neq0$）とおく．
 このとき，次の問に答えよ．
 \begin{description}
 \item[(1)]$w$が実数となるような$z$の集合を求めよ．

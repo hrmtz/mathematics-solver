@@ -3,6 +3,7 @@ title: "北海道大学 1995年 1995_2"
 problem_id: "03_hokudai-1995-1995_2"
 university: "北海道大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/03_hokudai/1995/1995_2.tex"
 pdf_source: "archive/03_hokudai/1995/1995_2.pdf"
 page_image: "archive/03_hokudai/1995/1995_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面において，次の2本の直線$l$と$m$を考える．
+平面において，次の2本の直線$l$と$m$を考える．
 ただし$\displaystyle\frac{\pi}{4}<\theta<\frac{\pi}{2}$である．
 \begin{description}
 \item[]$l$：$\displaystyle y=\tan\left( \theta+\frac{\pi}{4} \right)x$，

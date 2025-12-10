@@ -3,6 +3,7 @@ title: "東京科学大学 2024年 2024_2"
 problem_id: "08_titech-2024-2024_2"
 university: "東京科学大学"
 exam_year: "2024"
+problem_number: 2
 source_tex: "archive/08_titech/2024/2024_2.tex"
 pdf_source: "archive/08_titech/2024/2024_2.pdf"
 page_image: "archive/08_titech/2024/2024_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　実数全体を定義域にもつ微分可能な関数$f(t)$，$g(t)$が次の6つの条件を満たしているとする．
+実数全体を定義域にもつ微分可能な関数$f(t)$，$g(t)$が次の6つの条件を満たしているとする．
 \[ f'(t)=-f(t)g(t), \hspace{1zw} g'(t)={ \{ f(t) \} }^2,  \]
 \[ f(t)>0, \hspace{1zw} |g(t)|<1, \hspace{1zw} f(0)=1, \hspace{1zw} g(0)=0. \]
 このとき

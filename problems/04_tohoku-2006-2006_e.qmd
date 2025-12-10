@@ -3,6 +3,7 @@ title: "東北大学 2006年 2006_e"
 problem_id: "04_tohoku-2006-2006_e"
 university: "東北大学"
 exam_year: "2006"
+problem_number: 5
 source_tex: "archive/04_tohoku/2006/2006_e.tex"
 pdf_source: "archive/04_tohoku/2006/2006_e.pdf"
 page_image: "archive/04_tohoku/2006/2006_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$xyz$空間において半径が1で$x$軸を中心軸として原点から両側に無限に伸びている円柱$C_1$と，
+$xyz$空間において半径が1で$x$軸を中心軸として原点から両側に無限に伸びている円柱$C_1$と，
 半径が1で$y$軸を中心軸として原点から両側に無限に伸びている円柱$C_2$がある．
 $C_1$と$C_2$の共通部分のうち$\displaystyle y\leqq\frac{1}{2}$である部分を$K$とおく．
 以下の問に答えよ．

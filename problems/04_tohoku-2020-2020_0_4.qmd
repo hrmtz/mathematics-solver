@@ -3,6 +3,7 @@ title: "東北大学 2020年 2020_0_4"
 problem_id: "04_tohoku-2020-2020_0_4"
 university: "東北大学"
 exam_year: "2020"
+problem_number: 4
 source_tex: "archive/04_tohoku/2020/2020_0_4.tex"
 pdf_source: "archive/04_tohoku/2020/2020_0_4.pdf"
 page_image: "archive/04_tohoku/2020/2020_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　6枚の硬貨を同時に投げて，表がでた硬貨が$s$枚，裏がでた硬貨が$t$枚であったとき，
+6枚の硬貨を同時に投げて，表がでた硬貨が$s$枚，裏がでた硬貨が$t$枚であったとき，
 ベクトル$\overrightarrow{p}=(x, \, y)$を
 $\overrightarrow{p}=s(2, \, -1)+t(-1, \, 2)$で定める。
 \begin{description}

@@ -3,6 +3,7 @@ title: "北海道大学 2014年 2014_3"
 problem_id: "03_hokudai-2014-2014_3"
 university: "北海道大学"
 exam_year: "2014"
+problem_number: 3
 source_tex: "archive/03_hokudai/2014/2014_3.tex"
 pdf_source: "archive/03_hokudai/2014/2014_3.pdf"
 page_image: "archive/03_hokudai/2014/2014_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　逆行列をもつ2次の正方行列，$A_1, \, A_2, \, A_3, \, \cdots$が，関係式
+逆行列をもつ2次の正方行列，$A_1, \, A_2, \, A_3, \, \cdots$が，関係式
 \[ A_{n+1}A_n=A_n+2E \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
 をみたすとする。
 さらに$A_1+E$は逆行列をもつとする。

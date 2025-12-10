@@ -3,6 +3,7 @@ title: "東京大学 1998年 1998_0_3"
 problem_id: "01_tokyo-1998-1998_0_3"
 university: "東京大学"
 exam_year: "1998"
+problem_number: 3
 source_tex: "archive/01_tokyo/1998/1998_0_3.tex"
 pdf_source: "archive/01_tokyo/1998/1998_0_3.pdf"
 page_image: "archive/01_tokyo/1998/1998_0_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$x$は$0^\circ \leqq x \leqq {90}^\circ$を満たす角とする．
 \[ \begin{cases} \sin y=|\sin 4x| 

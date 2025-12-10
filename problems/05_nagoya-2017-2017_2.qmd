@@ -3,6 +3,7 @@ title: "名古屋大学 2017年 2017_2"
 problem_id: "05_nagoya-2017-2017_2"
 university: "名古屋大学"
 exam_year: "2017"
+problem_number: 2
 source_tex: "archive/05_nagoya/2017/2017_2.tex"
 pdf_source: "archive/05_nagoya/2017/2017_2.pdf"
 page_image: "archive/05_nagoya/2017/2017_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　下図のような立方体を考える。この立方体の8つの頂点の上を点Pが次の規則で移動する。
+下図のような立方体を考える。この立方体の8つの頂点の上を点Pが次の規則で移動する。
 時刻0では点Pは頂点Aにいる。時刻が1増えるごとに点Pは，
 今いる頂点と辺で結ばれている頂点に等確率で移動する。
 例えば時刻$n$で点Pが頂点Hにいるとすると，時刻$n+1$では，

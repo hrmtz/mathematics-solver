@@ -3,6 +3,7 @@ title: "東北大学 2002年 2002_0_4"
 problem_id: "04_tohoku-2002-2002_0_4"
 university: "東北大学"
 exam_year: "2002"
+problem_number: 4
 source_tex: "archive/04_tohoku/2002/2002_0_4.tex"
 pdf_source: "archive/04_tohoku/2002/2002_0_4.pdf"
 page_image: "archive/04_tohoku/2002/2002_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$t\geqq1$において，関数
+$t\geqq1$において，関数
 \[ f(t)=\int_{-1}^1|(x-t+2)(x+t)|dx \]
 を最小にする$t$の値と，そのときの最小値を求めよ．
 

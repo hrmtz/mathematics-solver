@@ -3,6 +3,7 @@ title: "九州大学 2007年 2007_3"
 problem_id: "07_kyushu-2007-2007_3"
 university: "九州大学"
 exam_year: "2007"
+problem_number: 3
 source_tex: "archive/07_kyushu/2007/2007_3.tex"
 pdf_source: "archive/07_kyushu/2007/2007_3.pdf"
 page_image: "archive/07_kyushu/2007/2007_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a$，$b$を正の数とし，
+$a$，$b$を正の数とし，
 空間内の3点$A(a, \, -a, \, b)$，$B(-a, \, a, \, b)$，$C(a, \, a, \, -b)$を考える．
 $A$，$B$，$C$を通る平面を$\alpha$，
 原点$O$を中心とし$A$，$B$，$C$を通る球面を$S$とおく．

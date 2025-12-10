@@ -3,6 +3,7 @@ title: "東京科学大学 2017年 2017_5"
 problem_id: "08_titech-2017-2017_5"
 university: "東京科学大学"
 exam_year: "2017"
+problem_number: 5
 source_tex: "archive/08_titech/2017/2017_5.tex"
 pdf_source: "archive/08_titech/2017/2017_5.pdf"
 page_image: "archive/08_titech/2017/2017_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　実数$a$，$b$，$c$に対して$F(x)=x^4+ax^3+bx^2+ax+1$，
+実数$a$，$b$，$c$に対して$F(x)=x^4+ax^3+bx^2+ax+1$，
 $f(x)=x^2+cx+1$とおく．
 また，複素数平面内の単位円周から2点1，$-1$を除いたものを$T$とする．
 \begin{description}

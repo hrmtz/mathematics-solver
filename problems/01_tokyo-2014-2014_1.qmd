@@ -3,6 +3,7 @@ title: "東京大学 2014年 2014_1"
 problem_id: "01_tokyo-2014-2014_1"
 university: "東京大学"
 exam_year: "2014"
+problem_number: 1
 source_tex: "archive/01_tokyo/2014/2014_1.tex"
 pdf_source: "archive/01_tokyo/2014/2014_1.pdf"
 page_image: "archive/01_tokyo/2014/2014_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　1辺の長さが1の正方形を底面とする四角柱$OABC-DEFG$を考える。
+1辺の長さが1の正方形を底面とする四角柱$OABC-DEFG$を考える。
 3点$P$，$Q$，$R$を，それぞれ辺$AE$，辺$BF$，辺$CG$上に，
 4点$O$，$P$，$Q$，$R$が同一平面上にあるようにとる。
 四角形$OPQR$の面積を$S$とおく。

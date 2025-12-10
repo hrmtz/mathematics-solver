@@ -3,6 +3,7 @@ title: "九州大学 2008年 2008_5"
 problem_id: "07_kyushu-2008-2008_5"
 university: "九州大学"
 exam_year: "2008"
+problem_number: 5
 source_tex: "archive/07_kyushu/2008/2008_5.tex"
 pdf_source: "archive/07_kyushu/2008/2008_5.pdf"
 page_image: "archive/07_kyushu/2008/2008_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　いくつかの半径3の円を，半径2の円$Q$に外接し，かつ，互いに交わらないように配置する．
+いくつかの半径3の円を，半径2の円$Q$に外接し，かつ，互いに交わらないように配置する．
 このとき，次の問いに答えよ．
 \begin{description}
 \item[(1)]半径3の円の1つを$R$とする．

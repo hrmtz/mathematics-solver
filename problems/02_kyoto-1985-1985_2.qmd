@@ -3,6 +3,7 @@ title: "京都大学 1985年 1985_2"
 problem_id: "02_kyoto-1985-1985_2"
 university: "京都大学"
 exam_year: "1985"
+problem_number: 2
 source_tex: "archive/02_kyoto/1985/1985_2.tex"
 pdf_source: "archive/02_kyoto/1985/1985_2.pdf"
 page_image: "archive/02_kyoto/1985/1985_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　平面上の3点$A$，$B$，$C$と1次変換$f$について，下の3条件\ding{"AC}，\ding{"AD}，\ding{"AE}を仮定する．
+平面上の3点$A$，$B$，$C$と1次変換$f$について，下の3条件\ding{"AC}，\ding{"AD}，\ding{"AE}を仮定する．
 \begin{description}
 \item[\ding{"AC}]$A$，$B$，$C$は同一直線上にはなく，また原点$O$は三角形$ABC$の内部には属さない．
 \item[\ding{"AD}]3点$A$，$B$，$C$の$f$による像は，全体として，3点$A$，$B$，$C$に一致する，

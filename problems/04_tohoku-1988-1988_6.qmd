@@ -3,6 +3,7 @@ title: "東北大学 1988年 1988_6"
 problem_id: "04_tohoku-1988-1988_6"
 university: "東北大学"
 exam_year: "1988"
+problem_number: 6
 source_tex: "archive/04_tohoku/1988/1988_6.tex"
 pdf_source: "archive/04_tohoku/1988/1988_6.pdf"
 page_image: "archive/04_tohoku/1988/1988_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　半円$C:x^2+y^2=1$，$y\geqq0$と$x$軸上に点$A(a, \, 0)$が与えられている．
+半円$C:x^2+y^2=1$，$y\geqq0$と$x$軸上に点$A(a, \, 0)$が与えられている．
 ただし$a>1$とする．
 $C$上の点$P$から$x$軸に垂線$PQ$を下ろし，三角形$APQ$の面積を$S_a(P)$で表す．
 \begin{description}

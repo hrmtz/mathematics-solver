@@ -3,6 +3,7 @@ title: "名古屋大学 1986年 1986_0_2"
 problem_id: "05_nagoya-1986-1986_0_2"
 university: "名古屋大学"
 exam_year: "1986"
+problem_number: 2
 source_tex: "archive/05_nagoya/1986/1986_0_2.tex"
 pdf_source: "archive/05_nagoya/1986/1986_0_2.pdf"
 page_image: "archive/05_nagoya/1986/1986_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$0<x<1$として，不等式$\log_x(3x^2-10x+7)\geqq2$を考える．
+$0<x<1$として，不等式$\log_x(3x^2-10x+7)\geqq2$を考える．
 この不等式を満たすすべての$x$ $(0<x<1)$に対して，
 $x^2-2ax\geqq1$が成り立つような$a$の範囲を求めよ．
 

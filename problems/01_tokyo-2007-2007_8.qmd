@@ -3,6 +3,7 @@ title: "東京大学 2007年 2007_8"
 problem_id: "01_tokyo-2007-2007_8"
 university: "東京大学"
 exam_year: "2007"
+problem_number: 2
 source_tex: "archive/01_tokyo/2007/2007_8.tex"
 pdf_source: "archive/01_tokyo/2007/2007_8.pdf"
 page_image: "archive/01_tokyo/2007/2007_8.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　次の問に答えよ．
+次の問に答えよ．
 \begin{description}
 \item[(1)]実数を成分とする行列
 $A=\begin{pmatrix} a & b 

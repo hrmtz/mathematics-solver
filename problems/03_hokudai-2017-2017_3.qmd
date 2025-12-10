@@ -3,6 +3,7 @@ title: "北海道大学 2017年 2017_3"
 problem_id: "03_hokudai-2017-2017_3"
 university: "北海道大学"
 exam_year: "2017"
+problem_number: 3
 source_tex: "archive/03_hokudai/2017/2017_3.tex"
 pdf_source: "archive/03_hokudai/2017/2017_3.pdf"
 page_image: "archive/03_hokudai/2017/2017_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　複素数平面上に3点$O$，$A$，$B$を頂点とする$\triangle OAB$がある。
+複素数平面上に3点$O$，$A$，$B$を頂点とする$\triangle OAB$がある。
 ただし，$O$は原点とする。
 $\triangle OAB$の外心を$P$とする。
 3点$A$，$B$，$P$が表す複素数を，それぞれ$\alpha$，$\beta$，$z$とするとき，

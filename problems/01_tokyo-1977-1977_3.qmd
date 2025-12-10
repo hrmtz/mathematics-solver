@@ -3,6 +3,7 @@ title: "東京大学 1977年 1977_3"
 problem_id: "01_tokyo-1977-1977_3"
 university: "東京大学"
 exam_year: "1977"
+problem_number: 3
 source_tex: "archive/01_tokyo/1977/1977_3.tex"
 pdf_source: "archive/01_tokyo/1977/1977_3.pdf"
 page_image: "archive/01_tokyo/1977/1977_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面上に，
+$xy$平面上に，
 不等式で表される3つの領域
 $A:x\geqq0$ $B:y\geqq0$ $C:\sqrt3x+y\leqq\sqrt3$
 をとる．

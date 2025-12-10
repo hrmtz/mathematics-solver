@@ -3,6 +3,7 @@ title: "京都大学 2000年 2000_c"
 problem_id: "02_kyoto-2000-2000_c"
 university: "京都大学"
 exam_year: "2000"
+problem_number: 3
 source_tex: "archive/02_kyoto/2000/2000_c.tex"
 pdf_source: "archive/02_kyoto/2000/2000_c.pdf"
 page_image: "archive/02_kyoto/2000/2000_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面上の点で$x$座標、$y$座標がともに整数である点を格子点という．
+$xy$平面上の点で$x$座標、$y$座標がともに整数である点を格子点という．
 $a$，$k$は整数で$a\geqq2$とし，直線$L:ax+(a^2+1)y=k$を考える．
 \begin{description}
 \item[(1)]直線$L$上の格子点を1つ求めよ．

@@ -3,6 +3,7 @@ title: "東京大学 2003年 2003_2"
 problem_id: "01_tokyo-2003-2003_2"
 university: "東京大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/01_tokyo/2003/2003_2.tex"
 pdf_source: "archive/01_tokyo/2003/2003_2.pdf"
 page_image: "archive/01_tokyo/2003/2003_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$O$を原点とする複素数平面上で6を表す点を$A$，$7+7i$を表す点を$B$とする．
+$O$を原点とする複素数平面上で6を表す点を$A$，$7+7i$を表す点を$B$とする．
 ただし，$i$は虚数単位である．
 正の実数$t$に対し，$\displaystyle\frac{14(t-3)}{(1-i)t-7}$を表す点$P$をとる．
 \begin{description}

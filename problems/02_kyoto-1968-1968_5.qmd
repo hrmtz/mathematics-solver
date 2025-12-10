@@ -3,6 +3,7 @@ title: "京都大学 1968年 1968_5"
 problem_id: "02_kyoto-1968-1968_5"
 university: "京都大学"
 exam_year: "1968"
+problem_number: 5
 source_tex: "archive/02_kyoto/1968/1968_5.tex"
 pdf_source: "archive/02_kyoto/1968/1968_5.pdf"
 page_image: "archive/02_kyoto/1968/1968_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　放物線$y=x^2$の上に，2点$A$，$B$がある．
+放物線$y=x^2$の上に，2点$A$，$B$がある．
 $A$，$B$の$x$座標をそれぞれ$\displaystyle -\frac{1}{2}$，$\displaystyle\frac{3}{2}$とする．
 この放物線上の任意の点$P$の座標を$(x,y)$とするとき，
 ${PA}^2+{PB}^2$を$x$の関数(函数)として表わし，

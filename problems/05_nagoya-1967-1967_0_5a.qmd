@@ -3,6 +3,7 @@ title: "名古屋大学 1967年 1967_0_5a"
 problem_id: "05_nagoya-1967-1967_0_5a"
 university: "名古屋大学"
 exam_year: "1967"
+problem_number: 5
 source_tex: "archive/05_nagoya/1967/1967_0_5a.tex"
 pdf_source: "archive/05_nagoya/1967/1967_0_5a.pdf"
 page_image: "archive/05_nagoya/1967/1967_0_5a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5 (a)
-　実数を係数とする整式について，次の問いに答えよ．
+実数を係数とする整式について，次の問いに答えよ．
 \begin{description}
 \item[（イ）]$(X^2+U^2)(Y^2+V^2)$を2つの整式の平方の和として表わせ．
 \item[（ロ）]$x$のどんな実数値に対してもつねに正の値をとるような2つの2次式$x^2+ax+b$，$x^2+cx+d$がある．

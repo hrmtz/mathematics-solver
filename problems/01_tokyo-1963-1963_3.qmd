@@ -3,6 +3,7 @@ title: "東京大学 1963年 1963_3"
 problem_id: "01_tokyo-1963-1963_3"
 university: "東京大学"
 exam_year: "1963"
+problem_number: 3
 source_tex: "archive/01_tokyo/1963/1963_3.tex"
 pdf_source: "archive/01_tokyo/1963/1963_3.pdf"
 page_image: "archive/01_tokyo/1963/1963_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$AD=a$，$BC=b$，$AD//BC$なる台形がある．
+$AD=a$，$BC=b$，$AD//BC$なる台形がある．
 対角線$AC$，$BD$の交点を$P_1$とし，$CD$上に点$Q_1$を$P_1Q_1//AD$となるようにとる．
 次に，$AQ_1$，$DP_1$の交点を$P_2$とし，$CD$上に点$Q_2$を$P_2Q_2//AD$となるようにとる．
 次に，$AQ_2$，$DP_2$の交点を$P_3$とし，$CD$上に点$Q_3$を$P_3Q_3//AD$となるようにとる．

@@ -3,6 +3,7 @@ title: "名古屋大学 1974年 1974_5"
 problem_id: "05_nagoya-1974-1974_5"
 university: "名古屋大学"
 exam_year: "1974"
+problem_number: 5
 source_tex: "archive/05_nagoya/1974/1974_5.tex"
 pdf_source: "archive/05_nagoya/1974/1974_5.pdf"
 page_image: "archive/05_nagoya/1974/1974_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$f(x)$，$g(x)$を$x\geqq0$で定義された正の値をとる連続関数で，$g(x)$は増加関数であるとする．
+$f(x)$，$g(x)$を$x\geqq0$で定義された正の値をとる連続関数で，$g(x)$は増加関数であるとする．
 このとき
 \[ S(x)=\int_0^xf(t)dt, \hspace{1zw} T(x)=\int_0^xf(t)g(t)dt \]
 に対して次の(1)，(2)を証明せよ．

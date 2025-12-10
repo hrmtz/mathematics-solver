@@ -3,6 +3,7 @@ title: "九州大学 1985年 1985_3"
 problem_id: "07_kyushu-1985-1985_3"
 university: "九州大学"
 exam_year: "1985"
+problem_number: 3
 source_tex: "archive/07_kyushu/1985/1985_3.tex"
 pdf_source: "archive/07_kyushu/1985/1985_3.pdf"
 page_image: "archive/07_kyushu/1985/1985_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　次の(1)，(2)に答えよ．
+次の(1)，(2)に答えよ．
 \begin{description}
 \item[(1)]半径1の円$O$の周上に相異なる2定点$A$，$B$がある．
 その円周上に動点$P$をとり，$a$，$b$を$AP+PB=a$，$AP-PB=b$によって定める．

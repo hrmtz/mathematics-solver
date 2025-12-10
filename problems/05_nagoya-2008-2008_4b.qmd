@@ -3,6 +3,7 @@ title: "名古屋大学 2008年 2008_4b"
 problem_id: "05_nagoya-2008-2008_4b"
 university: "名古屋大学"
 exam_year: "2008"
+problem_number: 4
 source_tex: "archive/05_nagoya/2008/2008_4b.tex"
 pdf_source: "archive/05_nagoya/2008/2008_4b.pdf"
 page_image: "archive/05_nagoya/2008/2008_4b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (b)
-　袋$A$の中に赤玉と白玉がそれぞれ4つ入っていることと，
+袋$A$の中に赤玉と白玉がそれぞれ4つ入っていることと，
 袋$B$の中に赤玉3つと白玉2つが入っていることが分かっている．
 \begin{description}
 \item[(1)]袋$B$から2つの玉を取り出すとき，

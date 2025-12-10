@@ -3,6 +3,7 @@ title: "東北大学 2010年 2010_4"
 problem_id: "04_tohoku-2010-2010_4"
 university: "東北大学"
 exam_year: "2010"
+problem_number: 4
 source_tex: "archive/04_tohoku/2010/2010_4.tex"
 pdf_source: "archive/04_tohoku/2010/2010_4.pdf"
 page_image: "archive/04_tohoku/2010/2010_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　四面体$ABCD$において，辺$AB$の中点を$M$，辺$CD$の中点を$N$とする．以下の問いに答えよ．
+四面体$ABCD$において，辺$AB$の中点を$M$，辺$CD$の中点を$N$とする．以下の問いに答えよ．
 \begin{description}
 \item[(1)]等式$\overrightarrow{PA}+\overrightarrow{PB}=\overrightarrow{PC}+\overrightarrow{PD}$
 を満たす点$P$は存在するか．証明をつけて答えよ．

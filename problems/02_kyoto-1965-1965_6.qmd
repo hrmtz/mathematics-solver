@@ -3,6 +3,7 @@ title: "京都大学 1965年 1965_6"
 problem_id: "02_kyoto-1965-1965_6"
 university: "京都大学"
 exam_year: "1965"
+problem_number: 6
 source_tex: "archive/02_kyoto/1965/1965_6.tex"
 pdf_source: "archive/02_kyoto/1965/1965_6.pdf"
 page_image: "archive/02_kyoto/1965/1965_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　1より大きいすべての$x$の値に対して$\displaystyle\int_1^x(x-t)f(x)dt=x^4-2x^2+1$が成立するように，整式$f(t)$を定めよ．
+1より大きいすべての$x$の値に対して$\displaystyle\int_1^x(x-t)f(x)dt=x^4-2x^2+1$が成立するように，整式$f(t)$を定めよ．
 
 ---
 

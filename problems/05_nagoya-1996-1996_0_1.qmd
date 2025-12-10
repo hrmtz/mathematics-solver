@@ -3,6 +3,7 @@ title: "名古屋大学 1996年 1996_0_1"
 problem_id: "05_nagoya-1996-1996_0_1"
 university: "名古屋大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/05_nagoya/1996/1996_0_1.tex"
 pdf_source: "archive/05_nagoya/1996/1996_0_1.pdf"
 page_image: "archive/05_nagoya/1996/1996_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$を正の数とする．
+$a$を正の数とする．
 $xy$平面において，次の条件(i)と(ii)を満たす直線$l$が存在するような$a$の範囲を求めよ．
 \begin{description}
 \item[(i)]$l$の$y$切片は$a$である．

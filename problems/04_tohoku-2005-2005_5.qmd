@@ -3,6 +3,7 @@ title: "東北大学 2005年 2005_5"
 problem_id: "04_tohoku-2005-2005_5"
 university: "東北大学"
 exam_year: "2005"
+problem_number: 5
 source_tex: "archive/04_tohoku/2005/2005_5.tex"
 pdf_source: "archive/04_tohoku/2005/2005_5.pdf"
 page_image: "archive/04_tohoku/2005/2005_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$a$，$b$を$a^2 \neq b^2$を満たす0でない実数とし，
+$a$，$b$を$a^2 \neq b^2$を満たす0でない実数とし，
 $A_n$を次の関係式で定まる2次の正方行列とする．
 \[ A_1=\begin{pmatrix} 0 & a^{-1} 
 

@@ -3,6 +3,7 @@ title: "大阪大学 2023年 2023_3"
 problem_id: "06_osaka-2023-2023_3"
 university: "大阪大学"
 exam_year: "2023"
+problem_number: 3
 source_tex: "archive/06_osaka/2023/2023_3.tex"
 pdf_source: "archive/06_osaka/2023/2023_3.pdf"
 page_image: "archive/06_osaka/2023/2023_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$P$を座標平面上の点とし，点$P$の座標を$(a, \, b)$とする．
+$P$を座標平面上の点とし，点$P$の座標を$(a, \, b)$とする．
 $-\pi \leqq t \leqq \pi$の範囲にある実数$t$のうち，
 曲線$y=\cos x$上の点$(t, \, \cos t)$における接線が点$P$を通る
 という条件をみたすものの個数を$N(P)$とする．

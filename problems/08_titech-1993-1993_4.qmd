@@ -3,6 +3,7 @@ title: "東京科学大学 1993年 1993_4"
 problem_id: "08_titech-1993-1993_4"
 university: "東京科学大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/08_titech/1993/1993_4.tex"
 pdf_source: "archive/08_titech/1993/1993_4.pdf"
 page_image: "archive/08_titech/1993/1993_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$を自然数，$P(x)$を$n$次の多項式とする．
+$n$を自然数，$P(x)$を$n$次の多項式とする．
 $P(0)$，$P(1)$，$\cdots$，$P(n)$が整数ならば，すべての整数$k$に対し、$P(k)$は整数であることを証明せよ．
 
 ---

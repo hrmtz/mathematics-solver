@@ -3,6 +3,7 @@ title: "東京科学大学 1999年 1999_4"
 problem_id: "08_titech-1999-1999_4"
 university: "東京科学大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/08_titech/1999/1999_4.tex"
 pdf_source: "archive/08_titech/1999/1999_4.pdf"
 page_image: "archive/08_titech/1999/1999_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　2以上の自然数$n$に対して
+2以上の自然数$n$に対して
 $\displaystyle \int_0^1 t^{2n-1} e^t dt + \left( \sum_{k=1}^{n-1} \frac{{}_{2n-1}P_{2n-2k}}{2k+1} \right) e=(2n-1) \, !$を示せ．
 ここで$e$は自然対数の底である．
 

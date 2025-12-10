@@ -3,6 +3,7 @@ title: "九州大学 2002年 2002_b"
 problem_id: "07_kyushu-2002-2002_b"
 university: "九州大学"
 exam_year: "2002"
+problem_number: 2
 source_tex: "archive/07_kyushu/2002/2002_b.tex"
 pdf_source: "archive/07_kyushu/2002/2002_b.pdf"
 page_image: "archive/07_kyushu/2002/2002_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　座標平面上を動く長さ$2l$ $(l>0)$の線分$AB$を考える．
+座標平面上を動く長さ$2l$ $(l>0)$の線分$AB$を考える．
 この線分$AB$の中点を$P$とする．
 時刻$t$における$P$の座標を$(x(t), \, y(t))$とし，
 3点$P$，$A$，$B$の速度ベクトルをそれぞれ$\overrightarrow{v}(t)$，

@@ -3,6 +3,7 @@ title: "名古屋大学 1996年 1996_2"
 problem_id: "05_nagoya-1996-1996_2"
 university: "名古屋大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/05_nagoya/1996/1996_2.tex"
 pdf_source: "archive/05_nagoya/1996/1996_2.pdf"
 page_image: "archive/05_nagoya/1996/1996_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$xyz$空間内で，
+$xyz$空間内で，
 平面$z=1$上に円${(x-1)}^2+{(y-1)}^2=4$，
 平面$z=2$上に直線$x=1$がある．
 点$A(0, \, 0, \, t)$，$t>2$，にある光源が

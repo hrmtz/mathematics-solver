@@ -3,6 +3,7 @@ title: "京都大学 1994年 1994_1"
 problem_id: "02_kyoto-1994-1994_1"
 university: "京都大学"
 exam_year: "1994"
+problem_number: 1
 source_tex: "archive/02_kyoto/1994/1994_1.tex"
 pdf_source: "archive/02_kyoto/1994/1994_1.pdf"
 page_image: "archive/02_kyoto/1994/1994_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$A$，$B$，$C$，$E$は2行2列の行列で，
+$A$，$B$，$C$，$E$は2行2列の行列で，
 $A=\begin{pmatrix} 1 & 1 
 
  2 & 0 \end{pmatrix}$，$E=\begin{pmatrix} 1 & 0 

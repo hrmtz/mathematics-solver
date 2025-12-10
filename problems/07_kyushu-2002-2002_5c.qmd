@@ -3,6 +3,7 @@ title: "九州大学 2002年 2002_5c"
 problem_id: "07_kyushu-2002-2002_5c"
 university: "九州大学"
 exam_year: "2002"
+problem_number: 5
 source_tex: "archive/07_kyushu/2002/2002_5c.tex"
 pdf_source: "archive/07_kyushu/2002/2002_5c.pdf"
 page_image: "archive/07_kyushu/2002/2002_5c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5 (c)
-　2次の正方行列$A$が零行列でなく$A^2=A$をみたすとき，べき等行列という．
+2次の正方行列$A$が零行列でなく$A^2=A$をみたすとき，べき等行列という．
 次の問いに答えよ．
 \begin{description}
 \item[(1)]行列$A=\begin{pmatrix} a & b 

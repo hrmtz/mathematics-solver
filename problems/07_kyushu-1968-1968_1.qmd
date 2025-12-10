@@ -3,6 +3,7 @@ title: "九州大学 1968年 1968_1"
 problem_id: "07_kyushu-1968-1968_1"
 university: "九州大学"
 exam_year: "1968"
+problem_number: 1
 source_tex: "archive/07_kyushu/1968/1968_1.tex"
 pdf_source: "archive/07_kyushu/1968/1968_1.pdf"
 page_image: "archive/07_kyushu/1968/1968_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \[ \begin{cases} 4x+5y\leqq4 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AC}}
 4x+y\leqq2 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AD}}
 x+2y\geqq1 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AE}}

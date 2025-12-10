@@ -3,6 +3,7 @@ title: "大阪大学 2021年 2021_0_3"
 problem_id: "06_osaka-2021-2021_0_3"
 university: "大阪大学"
 exam_year: "2021"
+problem_number: 3
 source_tex: "archive/06_osaka/2021/2021_0_3.tex"
 pdf_source: "archive/06_osaka/2021/2021_0_3.pdf"
 page_image: "archive/06_osaka/2021/2021_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　整数$a, \, b, \, c$に関する次の条件(＊)を考える．
+整数$a, \, b, \, c$に関する次の条件(＊)を考える．
 \[ \int_a^c(x^2+bx)dx=\int_b^c(x^2+ax)dx \hspace{1zw} \cdots\cdots \text{(＊)} \]
 \begin{description}
 \item[(1)]整数$a, \, b, \, c$が(＊)および$a \neq b$をみたすとき，

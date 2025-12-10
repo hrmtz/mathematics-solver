@@ -3,6 +3,7 @@ title: "大阪大学 2002年 2002_1"
 problem_id: "06_osaka-2002-2002_1"
 university: "大阪大学"
 exam_year: "2002"
+problem_number: 1
 source_tex: "archive/06_osaka/2002/2002_1.tex"
 pdf_source: "archive/06_osaka/2002/2002_1.pdf"
 page_image: "archive/06_osaka/2002/2002_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　実数を係数とする3次方程式$x^3+ax^2+bx+c=0$が
+実数を係数とする3次方程式$x^3+ax^2+bx+c=0$が
 異なる3つの実数解をもつとする．
 このとき，$a>0$，$b>0$ならば，
 少なくとも2つの実数解は負であることを示せ．

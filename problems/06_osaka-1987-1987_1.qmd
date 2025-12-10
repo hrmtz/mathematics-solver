@@ -3,6 +3,7 @@ title: "大阪大学 1987年 1987_1"
 problem_id: "06_osaka-1987-1987_1"
 university: "大阪大学"
 exam_year: "1987"
+problem_number: 1
 source_tex: "archive/06_osaka/1987/1987_1.tex"
 pdf_source: "archive/06_osaka/1987/1987_1.pdf"
 page_image: "archive/06_osaka/1987/1987_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$n$は3以上の奇数で，自然数の列$a_1, \, a_2, \, \cdots\cdots, \, a_n$は等比数列であるとする．
+$n$は3以上の奇数で，自然数の列$a_1, \, a_2, \, \cdots\cdots, \, a_n$は等比数列であるとする．
 \[ S=\sum_{k=1}^na_k, \hspace{1zw} T=\sum_{k=1}^n{a_k}^2 \hspace{1zw} \text{とおく．} \]
 \begin{description}
 \item[(1)]整数$T$は整数$S$の倍数であることを示せ．

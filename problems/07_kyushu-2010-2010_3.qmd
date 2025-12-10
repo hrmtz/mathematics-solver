@@ -3,6 +3,7 @@ title: "九州大学 2010年 2010_3"
 problem_id: "07_kyushu-2010-2010_3"
 university: "九州大学"
 exam_year: "2010"
+problem_number: 3
 source_tex: "archive/07_kyushu/2010/2010_3.tex"
 pdf_source: "archive/07_kyushu/2010/2010_3.pdf"
 page_image: "archive/07_kyushu/2010/2010_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$xy$平面上に曲線$\displaystyle y=\frac{1}{x^2}$を描き，
+$xy$平面上に曲線$\displaystyle y=\frac{1}{x^2}$を描き，
 この曲線の第1象限内の部分を$C_1$，第2象限内の部分を$C_2$と呼ぶ．
 $C_1$上の点$\displaystyle P_1 \, \left( a,\frac{1}{a^2} \right)$から$C_2$に向けて接線を引き，
 $C_2$との接点を$Q_1$とする．

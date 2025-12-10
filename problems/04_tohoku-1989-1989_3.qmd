@@ -3,6 +3,7 @@ title: "東北大学 1989年 1989_3"
 problem_id: "04_tohoku-1989-1989_3"
 university: "東北大学"
 exam_year: "1989"
+problem_number: 3
 source_tex: "archive/04_tohoku/1989/1989_3.tex"
 pdf_source: "archive/04_tohoku/1989/1989_3.pdf"
 page_image: "archive/04_tohoku/1989/1989_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　曲線$x=f(y)$，$0 \leqq y \leqq 30$を$y$軸のまわりに回転してできる底の平らな空の容器がある．
+曲線$x=f(y)$，$0 \leqq y \leqq 30$を$y$軸のまわりに回転してできる底の平らな空の容器がある．
 以下，長さの単位を1cmとする．
 この容器に毎秒$a{\text{cm}}^3$の割合で水を入れるとき，
 あふれ出すまでは$t$秒後の水面の上昇速度が$\displaystyle\frac{1}{\sqrt{1+t}}$cm/秒であるとする．

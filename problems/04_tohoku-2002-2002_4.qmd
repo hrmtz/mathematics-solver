@@ -3,6 +3,7 @@ title: "東北大学 2002年 2002_4"
 problem_id: "04_tohoku-2002-2002_4"
 university: "東北大学"
 exam_year: "2002"
+problem_number: 4
 source_tex: "archive/04_tohoku/2002/2002_4.tex"
 pdf_source: "archive/04_tohoku/2002/2002_4.pdf"
 page_image: "archive/04_tohoku/2002/2002_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　四面体$ABCD$は各辺の長さが1の正四面体とする．
+四面体$ABCD$は各辺の長さが1の正四面体とする．
 \begin{description}
 \item[(1)]$\overrightarrow{AP}=l\overrightarrow{AB}+m\overrightarrow{AC}+n\overrightarrow{AD}$
 で与えられる点$P$に対し

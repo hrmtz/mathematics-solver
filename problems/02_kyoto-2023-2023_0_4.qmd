@@ -3,6 +3,7 @@ title: "京都大学 2023年 2023_0_4"
 problem_id: "02_kyoto-2023-2023_0_4"
 university: "京都大学"
 exam_year: "2023"
+problem_number: 4
 source_tex: "archive/02_kyoto/2023/2023_0_4.tex"
 pdf_source: "archive/02_kyoto/2023/2023_0_4.pdf"
 page_image: "archive/02_kyoto/2023/2023_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　数列$\{ a_n \}$は次の条件を満たしている．
+数列$\{ a_n \}$は次の条件を満たしている．
 \[ a_1=3, \hspace{1zw} a_n=\frac{S_n}{n}+(n-1)\cdot2^n \hspace{1zw}
 (n=2, \, 3, \, 4, \, \cdots\cdots) \]
 ただし，$S_n=a_1+a_2+\cdots\cdots+a_n$である．

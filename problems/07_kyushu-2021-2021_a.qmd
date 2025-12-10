@@ -3,6 +3,7 @@ title: "九州大学 2021年 2021_a"
 problem_id: "07_kyushu-2021-2021_a"
 university: "九州大学"
 exam_year: "2021"
+problem_number: 1
 source_tex: "archive/07_kyushu/2021/2021_a.tex"
 pdf_source: "archive/07_kyushu/2021/2021_a.pdf"
 page_image: "archive/07_kyushu/2021/2021_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　三角形$ABC$の辺$AB$，$BC$，$AC$の長さをそれぞれ5，7，6とし，
+三角形$ABC$の辺$AB$，$BC$，$AC$の長さをそれぞれ5，7，6とし，
 点$P$と点$Q$はそれぞれ$\overrightarrow{AP}=2\overrightarrow{AB}$
 および$\overrightarrow{BQ}=2\overrightarrow{BC}$を満たす点とする。
 さらに，点$A$から線分$PQ$に下ろした垂線と線分$PQ$の交点を$H$，

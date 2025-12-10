@@ -3,6 +3,7 @@ title: "九州大学 2010年 2010_e"
 problem_id: "07_kyushu-2010-2010_e"
 university: "九州大学"
 exam_year: "2010"
+problem_number: 5
 source_tex: "archive/07_kyushu/2010/2010_e.tex"
 pdf_source: "archive/07_kyushu/2010/2010_e.pdf"
 page_image: "archive/07_kyushu/2010/2010_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$n$，$N$を正の整数とする．以下の問いに答えよ．
+$n$，$N$を正の整数とする．以下の問いに答えよ．
 \begin{description}
 \item[(1)]$k$を正の定数とし，関数$f(x)$は$f(x)=f(x+k)$をみたすとする．このとき，
 \[ T_n=\int_{k(n-1)}^{kn}e^{-x}f(x)dx, \hspace{1zw} S_N=\sum_{n=1}^NT_n \]

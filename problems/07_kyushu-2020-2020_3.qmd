@@ -3,6 +3,7 @@ title: "九州大学 2020年 2020_3"
 problem_id: "07_kyushu-2020-2020_3"
 university: "九州大学"
 exam_year: "2020"
+problem_number: 3
 source_tex: "archive/07_kyushu/2020/2020_3.tex"
 pdf_source: "archive/07_kyushu/2020/2020_3.pdf"
 page_image: "archive/07_kyushu/2020/2020_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　四面体$OABC$において，辺$OA$の中点と辺$BC$の中点を通る直線を$l$，
+四面体$OABC$において，辺$OA$の中点と辺$BC$の中点を通る直線を$l$，
 辺$OB$の中点と辺$CA$の中点を通る直線を$m$，
 辺$OC$の中点と辺$AB$の中点を通る直線を$n$とする。
 $l \perp m$，$m \perp n$，$n \perp l$であり，

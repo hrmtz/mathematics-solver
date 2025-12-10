@@ -3,6 +3,7 @@ title: "名古屋大学 2002年 2002_d"
 problem_id: "05_nagoya-2002-2002_d"
 university: "名古屋大学"
 exam_year: "2002"
+problem_number: 4
 source_tex: "archive/05_nagoya/2002/2002_d.tex"
 pdf_source: "archive/05_nagoya/2002/2002_d.pdf"
 page_image: "archive/05_nagoya/2002/2002_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　赤と白のランプが一つずつある．それぞれのランプは，1秒ごとにある規則にしたがって点灯または消灯し，
+赤と白のランプが一つずつある．それぞれのランプは，1秒ごとにある規則にしたがって点灯または消灯し，
 1秒間その状態を保持する．時刻0秒から実験を開始する．以下，$m$，$n$は0以上の整数とする．
 \begin{description}
 \item[(1)]両方のランプとも，以下の規則$R_1$，$R_2$にしたがうとする．

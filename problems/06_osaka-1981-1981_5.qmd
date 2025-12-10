@@ -3,6 +3,7 @@ title: "大阪大学 1981年 1981_5"
 problem_id: "06_osaka-1981-1981_5"
 university: "大阪大学"
 exam_year: "1981"
+problem_number: 5
 source_tex: "archive/06_osaka/1981/1981_5.tex"
 pdf_source: "archive/06_osaka/1981/1981_5.pdf"
 page_image: "archive/06_osaka/1981/1981_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$(2n+1)$枚のカードに$-n$から$n$までの各整数を1枚に1つずつ書いて箱の中に入れる．
+$(2n+1)$枚のカードに$-n$から$n$までの各整数を1枚に1つずつ書いて箱の中に入れる．
 この箱の中から無作為に（でたらめに）1枚のカードを取り出し，
 それに書かれている数を$X$とする．
 \begin{description}

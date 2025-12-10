@@ -3,6 +3,7 @@ title: "東京大学 1962年 1962_6"
 problem_id: "01_tokyo-1962-1962_6"
 university: "東京大学"
 exam_year: "1962"
+problem_number: 6
 source_tex: "archive/01_tokyo/1962/1962_6.tex"
 pdf_source: "archive/01_tokyo/1962/1962_6.pdf"
 page_image: "archive/01_tokyo/1962/1962_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　曲線$\displaystyle y=6\sin\frac{x}{6}$の上で
+曲線$\displaystyle y=6\sin\frac{x}{6}$の上で
 $x=2\pi$，$x=6\pi$なる点をそれぞれ$P$，$Q$とし，
 点$P$，$Q$における曲線の接線の交点を$R$とする．このとき
 \begin{description}

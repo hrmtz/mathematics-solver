@@ -3,6 +3,7 @@ title: "京都大学 1975年 1975_0_6"
 problem_id: "02_kyoto-1975-1975_0_6"
 university: "京都大学"
 exam_year: "1975"
+problem_number: 6
 source_tex: "archive/02_kyoto/1975/1975_0_6.tex"
 pdf_source: "archive/02_kyoto/1975/1975_0_6.pdf"
 page_image: "archive/02_kyoto/1975/1975_0_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$a$が実数で$a<1$のとき，数列$x_0,x_1,x_2,\cdots,x_n,\cdots$を
+$a$が実数で$a<1$のとき，数列$x_0,x_1,x_2,\cdots,x_n,\cdots$を
 $x_0=a$，$\displaystyle x_n=\frac{1}{2-x_{n-1}}$ $(n=1,2,3,\cdots)$によって定義する．
 このとき
 \begin{description}

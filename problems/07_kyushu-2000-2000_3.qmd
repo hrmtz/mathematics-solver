@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_3"
 problem_id: "07_kyushu-2000-2000_3"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 3
 source_tex: "archive/07_kyushu/2000/2000_3.tex"
 pdf_source: "archive/07_kyushu/2000/2000_3.pdf"
 page_image: "archive/07_kyushu/2000/2000_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$n$を自然数として，$\displaystyle f(x)=\sum_{k=1}^n\frac{x^k}{k}$とおく．
+$n$を自然数として，$\displaystyle f(x)=\sum_{k=1}^n\frac{x^k}{k}$とおく．
 \begin{description}
 \item[(1)]$x<1$において，
 \[ f(x)=-\log(1-x)-\int_0^x\frac{t^n}{1-t}dt \]

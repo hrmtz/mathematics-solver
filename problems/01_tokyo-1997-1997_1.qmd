@@ -3,6 +3,7 @@ title: "東京大学 1997年 1997_1"
 problem_id: "01_tokyo-1997-1997_1"
 university: "東京大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/01_tokyo/1997/1997_1.tex"
 pdf_source: "archive/01_tokyo/1997/1997_1.pdf"
 page_image: "archive/01_tokyo/1997/1997_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$a$，$b$を正の数とし，$xy$平面の2点$A(a,0)$および$B(0,b)$を頂点とする正三角形を$ABC$とする．
+$a$，$b$を正の数とし，$xy$平面の2点$A(a,0)$および$B(0,b)$を頂点とする正三角形を$ABC$とする．
 ただし，$C$は第1象限の点とする．
 \begin{description}
 \item[(1)]三角形$ABC$が正方形$D=\{(x,y)|0 \leqq x \leqq 1,0 \leqq y \leqq 1\}$に含まれるような$(a,b)$の範囲を求めよ．

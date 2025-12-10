@@ -3,6 +3,7 @@ title: "東北大学 2017年 2017_e"
 problem_id: "04_tohoku-2017-2017_e"
 university: "東北大学"
 exam_year: "2017"
+problem_number: 5
 source_tex: "archive/04_tohoku/2017/2017_e.tex"
 pdf_source: "archive/04_tohoku/2017/2017_e.pdf"
 page_image: "archive/04_tohoku/2017/2017_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n$を負でない整数とする。以下の問いに答えよ。
+$n$を負でない整数とする。以下の問いに答えよ。
 \begin{description}
 \item[(1)]$2x+2y+z=n$を満たす負でない整数$x$，$y$，$z$の組の総数を，
 $n=4$と$n=5$のそれぞれの場合に求めよ。

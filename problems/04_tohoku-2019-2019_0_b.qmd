@@ -3,6 +3,7 @@ title: "東北大学 2019年 2019_0_b"
 problem_id: "04_tohoku-2019-2019_0_b"
 university: "東北大学"
 exam_year: "2019"
+problem_number: 2
 source_tex: "archive/04_tohoku/2019/2019_0_b.tex"
 pdf_source: "archive/04_tohoku/2019/2019_0_b.pdf"
 page_image: "archive/04_tohoku/2019/2019_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xy$平面において，放物線$\displaystyle C:y=-\frac{1}{2}x^2$の2つの接線$l_1$，$l_2$が
+$xy$平面において，放物線$\displaystyle C:y=-\frac{1}{2}x^2$の2つの接線$l_1$，$l_2$が
 点$P$において直交するとする。ただし，$l_1$の傾きは$l_2$の傾きより大きいとする。
 \begin{description}
 \item[(1)]点$P$の$x$座標を$a$とするとき，接線$l_1$，$l_2$の傾きをそれぞれ求めよ。

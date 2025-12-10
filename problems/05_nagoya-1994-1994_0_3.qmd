@@ -3,6 +3,7 @@ title: "名古屋大学 1994年 1994_0_3"
 problem_id: "05_nagoya-1994-1994_0_3"
 university: "名古屋大学"
 exam_year: "1994"
+problem_number: 3
 source_tex: "archive/05_nagoya/1994/1994_0_3.tex"
 pdf_source: "archive/05_nagoya/1994/1994_0_3.pdf"
 page_image: "archive/05_nagoya/1994/1994_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　箱の中に赤球が3個，白球が2個入っている．
+箱の中に赤球が3個，白球が2個入っている．
 箱から球を1個ずつ取り出してその色を見ることを繰り返し，
 先に赤球が3回出れば赤の勝ち，白球が2回出れば白の勝ちとする．
 次のそれぞれの場合に赤が勝つ確率を求めよ．

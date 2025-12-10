@@ -3,6 +3,7 @@ title: "九州大学 1996年 1996_1"
 problem_id: "07_kyushu-1996-1996_1"
 university: "九州大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/07_kyushu/1996/1996_1.tex"
 pdf_source: "archive/07_kyushu/1996/1996_1.pdf"
 page_image: "archive/07_kyushu/1996/1996_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　行列$A=\begin{pmatrix} 1 & 0 
+行列$A=\begin{pmatrix} 1 & 0 
 
  0 & -1 \end{pmatrix}$，
 $B=\begin{pmatrix} \cos\theta & -\sin\theta 

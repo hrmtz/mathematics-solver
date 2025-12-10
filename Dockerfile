@@ -20,8 +20,14 @@ RUN apt-get update \
 
 WORKDIR /app
 
+# requirements.txt は開発用だが、コンテナ内では明示的に依存を指定してインストールする
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir \
+    flask \
+    openai \
+    werkzeug \
+    pyyaml \
+    python-dotenv
 
 COPY . .
 

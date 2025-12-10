@@ -3,6 +3,7 @@ title: "九州大学 1978年 1978_2"
 problem_id: "07_kyushu-1978-1978_2"
 university: "九州大学"
 exam_year: "1978"
+problem_number: 2
 source_tex: "archive/07_kyushu/1978/1978_2.tex"
 pdf_source: "archive/07_kyushu/1978/1978_2.pdf"
 page_image: "archive/07_kyushu/1978/1978_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　半径1の球に内接する直円すい（頂点と底面の円周が球面上にある直円すい）のうち，
+半径1の球に内接する直円すい（頂点と底面の円周が球面上にある直円すい）のうち，
 体積が最大となるものの高さおよび体積を求めよ．
 
 ---

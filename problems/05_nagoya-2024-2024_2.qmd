@@ -3,6 +3,7 @@ title: "名古屋大学 2024年 2024_2"
 problem_id: "05_nagoya-2024-2024_2"
 university: "名古屋大学"
 exam_year: "2024"
+problem_number: 2
 source_tex: "archive/05_nagoya/2024/2024_2.tex"
 pdf_source: "archive/05_nagoya/2024/2024_2.pdf"
 page_image: "archive/05_nagoya/2024/2024_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$c$を1より大きい実数とする。また，$i$を虚数単位として，
+$c$を1より大きい実数とする。また，$i$を虚数単位として，
 $\displaystyle \alpha=\frac{1-i}{\sqrt2}$とおく。複素数$z$に対して，
 \[ P(z)=z^3-3z^2+(c+2)z-c, \hspace{1zw} Q(z)=-\alpha^7z^3+3\alpha^6z^2+(c+2)\alpha z-c \]
 と定める。

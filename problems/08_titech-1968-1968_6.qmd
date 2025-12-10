@@ -3,6 +3,7 @@ title: "東京科学大学 1968年 1968_6"
 problem_id: "08_titech-1968-1968_6"
 university: "東京科学大学"
 exam_year: "1968"
+problem_number: 6
 source_tex: "archive/08_titech/1968/1968_6.tex"
 pdf_source: "archive/08_titech/1968/1968_6.pdf"
 page_image: "archive/08_titech/1968/1968_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　3個の関数$x$，$\sin x$，$\cos x$から反復してとることを許して4個の関数をとり，
+3個の関数$x$，$\sin x$，$\cos x$から反復してとることを許して4個の関数をとり，
 それらの積をつくる．
 このようにしてつくられた積$f(x)$の定積分
 $\displaystyle\int_0^\frac{\pi}{2}f(x)dx$のうちで最小なものを求めよ．

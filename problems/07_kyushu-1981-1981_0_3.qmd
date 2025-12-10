@@ -3,6 +3,7 @@ title: "九州大学 1981年 1981_0_3"
 problem_id: "07_kyushu-1981-1981_0_3"
 university: "九州大学"
 exam_year: "1981"
+problem_number: 3
 source_tex: "archive/07_kyushu/1981/1981_0_3.tex"
 pdf_source: "archive/07_kyushu/1981/1981_0_3.pdf"
 page_image: "archive/07_kyushu/1981/1981_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　次の(1)，(2)，(3)に答えよ．
+次の(1)，(2)，(3)に答えよ．
 \begin{description}
 \item[(1)]数学的帰納法を用いて，正の整数$k$に対して$k \, ! \geqq 2^{k-1}$が成立することを示せ．
 \item[(2)]$1 \leqq k \leqq n$を満たす整数$k$，$n$に対して

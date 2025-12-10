@@ -3,6 +3,7 @@ title: "東京科学大学 1974年 1974_4"
 problem_id: "08_titech-1974-1974_4"
 university: "東京科学大学"
 exam_year: "1974"
+problem_number: 4
 source_tex: "archive/08_titech/1974/1974_4.tex"
 pdf_source: "archive/08_titech/1974/1974_4.pdf"
 page_image: "archive/08_titech/1974/1974_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a, \, b>0)$に
+だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a, \, b>0)$に
 $x$軸上の点$(2a, \, 0)$より2つの接線を引く．
 だ円の外部にあって，だ円およびこれらの接線によって囲まれた部分を
 $y$軸のまわりに1回転してできる立体の体積を求めよ．

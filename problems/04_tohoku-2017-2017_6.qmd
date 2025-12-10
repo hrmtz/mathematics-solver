@@ -3,6 +3,7 @@ title: "東北大学 2017年 2017_6"
 problem_id: "04_tohoku-2017-2017_6"
 university: "東北大学"
 exam_year: "2017"
+problem_number: 6
 source_tex: "archive/04_tohoku/2017/2017_6.tex"
 pdf_source: "archive/04_tohoku/2017/2017_6.pdf"
 page_image: "archive/04_tohoku/2017/2017_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　$a$，$b$，$c$を実数とし，
+$a$，$b$，$c$を実数とし，
 \[ I(a, \, b)=\int_0^\frac{\pi}{2}e^{ax}\cos bx \, dx, \hspace{1zw}
 J(a, \, b, \, c)=\int_0^\frac{\pi}{2}e^{ax}\sin bx\sin cx \, dx　\]
 とおく。ただし，$a\neq0$とする。このとき，以下の問いに答えよ。

@@ -3,6 +3,7 @@ title: "九州大学 2022年 2022_0_2"
 problem_id: "07_kyushu-2022-2022_0_2"
 university: "九州大学"
 exam_year: "2022"
+problem_number: 2
 source_tex: "archive/07_kyushu/2022/2022_0_2.tex"
 pdf_source: "archive/07_kyushu/2022/2022_0_2.pdf"
 page_image: "archive/07_kyushu/2022/2022_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標空間内の4点
+座標空間内の4点
 \[ O(0, \, 0, \, 0), \hspace{1zw} A(1, \, 1, \, 0), \hspace{1zw}
 B(2, \, 1, \, 2), \hspace{1zw} P(4, \, 0, \, -1) \]
 を考える。3点$O, \, A, \, B$を通る平面を$\alpha$とし，

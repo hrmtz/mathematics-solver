@@ -3,6 +3,7 @@ title: "大阪大学 1984年 1984_0_3"
 problem_id: "06_osaka-1984-1984_0_3"
 university: "大阪大学"
 exam_year: "1984"
+problem_number: 3
 source_tex: "archive/06_osaka/1984/1984_0_3.tex"
 pdf_source: "archive/06_osaka/1984/1984_0_3.pdf"
 page_image: "archive/06_osaka/1984/1984_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　3次式$f(x)=x^3+5x^2+3x+c$（$c$は定数）について次の問に答えよ．
+3次式$f(x)=x^3+5x^2+3x+c$（$c$は定数）について次の問に答えよ．
 \begin{description}
 \item[(1)]$f(x)=0$が3個の相異なる実数解をもつためには，$c$の値はどんな範囲になければならないか．
 \item[(2)]$f(x)=0$が3個の相異なる整数解をもつことがあるか．

@@ -3,6 +3,7 @@ title: "東京大学 1991年 1991_7"
 problem_id: "01_tokyo-1991-1991_7"
 university: "東京大学"
 exam_year: "1991"
+problem_number: 1
 source_tex: "archive/01_tokyo/1991/1991_7.tex"
 pdf_source: "archive/01_tokyo/1991/1991_7.pdf"
 page_image: "archive/01_tokyo/1991/1991_7.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]$x>0$において，関数$\displaystyle\frac{\log x}{x}$の増減を調べよ．
 ただし，$\log x$は$x$の自然対数である．

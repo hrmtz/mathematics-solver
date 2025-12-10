@@ -3,6 +3,7 @@ title: "東北大学 2022年 2022_2"
 problem_id: "04_tohoku-2022-2022_2"
 university: "東北大学"
 exam_year: "2022"
+problem_number: 2
 source_tex: "archive/04_tohoku/2022/2022_2.tex"
 pdf_source: "archive/04_tohoku/2022/2022_2.pdf"
 page_image: "archive/04_tohoku/2022/2022_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$を実数とし，実数$x$の関数$f(x)=(x^2+3x+a){(x+1)}^2$を考える。
+$a$を実数とし，実数$x$の関数$f(x)=(x^2+3x+a){(x+1)}^2$を考える。
 \begin{description}
 \item[(1)]$f(x)$の最小値が負となるような$a$のとりうる値の範囲を求めよ。
 \item[(2)]$a<2$のとき，$f(x)$は2つの極小値をもつ。

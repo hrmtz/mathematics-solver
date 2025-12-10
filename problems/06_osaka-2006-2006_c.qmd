@@ -3,6 +3,7 @@ title: "大阪大学 2006年 2006_c"
 problem_id: "06_osaka-2006-2006_c"
 university: "大阪大学"
 exam_year: "2006"
+problem_number: 3
 source_tex: "archive/06_osaka/2006/2006_c.tex"
 pdf_source: "archive/06_osaka/2006/2006_c.pdf"
 page_image: "archive/06_osaka/2006/2006_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$a>1$とする．曲線$y=\tan x$ $\displaystyle\left( 0 \leqq x<\frac{\pi}{2} \right)$と
+$a>1$とする．曲線$y=\tan x$ $\displaystyle\left( 0 \leqq x<\frac{\pi}{2} \right)$と
 直線$y=ax$によって囲まれた部分の面積を$S$とする．
 極限$\displaystyle\lim_{a\to\infty}\frac{S}{a}$を求めよ．
 ただし$\displaystyle\lim_{x\to+0}x\log x=0$を証明なしに用いてもよい．

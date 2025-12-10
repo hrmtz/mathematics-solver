@@ -3,6 +3,7 @@ title: "名古屋大学 2006年 2006_2"
 problem_id: "05_nagoya-2006-2006_2"
 university: "名古屋大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/05_nagoya/2006/2006_2.tex"
 pdf_source: "archive/05_nagoya/2006/2006_2.pdf"
 page_image: "archive/05_nagoya/2006/2006_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$s$を実数とする．
+$s$を実数とする．
 $(u_1, \, v_1)=(s, \, 1)$とし，$(u_n, \, v_n)$ $(n\geqq2)$を次の漸化式で定める．
 \[ \begin{pmatrix} u_n 
 

@@ -3,6 +3,7 @@ title: "東北大学 1968年 1968_6"
 problem_id: "04_tohoku-1968-1968_6"
 university: "東北大学"
 exam_year: "1968"
+problem_number: 6
 source_tex: "archive/04_tohoku/1968/1968_6.tex"
 pdf_source: "archive/04_tohoku/1968/1968_6.pdf"
 page_image: "archive/04_tohoku/1968/1968_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　赤，白の2種類の球のはいっている$A$，$B$ 2つの袋がある．
+赤，白の2種類の球のはいっている$A$，$B$ 2つの袋がある．
 $A$から球を1個取り出すとき，それが赤球である確率は$p$ $(0<p<1)$，
 $B$から球を1個取り出すとき，それが赤球である確率は$q$ $(0<q<1)$である．
 甲，乙2人がゲームをするのに，第1回目は甲が$A$袋から1球を取り出し，

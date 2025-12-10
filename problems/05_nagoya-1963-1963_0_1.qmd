@@ -3,6 +3,7 @@ title: "名古屋大学 1963年 1963_0_1"
 problem_id: "05_nagoya-1963-1963_0_1"
 university: "名古屋大学"
 exam_year: "1963"
+problem_number: 1
 source_tex: "archive/05_nagoya/1963/1963_0_1.tex"
 pdf_source: "archive/05_nagoya/1963/1963_0_1.pdf"
 page_image: "archive/05_nagoya/1963/1963_0_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]$x+y=6$，$xy=4$，$x>y$のとき$\displaystyle\frac{\sqrt{x}-\sqrt{y}}{\sqrt{x}+\sqrt{y}}$の値を求めよ。
 （少数で表わす必要はない。）

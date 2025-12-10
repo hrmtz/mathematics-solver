@@ -3,6 +3,7 @@ title: "東北大学 2002年 2002_c"
 problem_id: "04_tohoku-2002-2002_c"
 university: "東北大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/04_tohoku/2002/2002_c.tex"
 pdf_source: "archive/04_tohoku/2002/2002_c.pdf"
 page_image: "archive/04_tohoku/2002/2002_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$E=\begin{pmatrix} 1 & 0 
+$E=\begin{pmatrix} 1 & 0 
 
  0 & 1 \end{pmatrix}$を単位行列とする．
 $a$，$b$，$c$は実数とし，

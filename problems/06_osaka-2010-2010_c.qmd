@@ -3,6 +3,7 @@ title: "大阪大学 2010年 2010_c"
 problem_id: "06_osaka-2010-2010_c"
 university: "大阪大学"
 exam_year: "2010"
+problem_number: 3
 source_tex: "archive/06_osaka/2010/2010_c.tex"
 pdf_source: "archive/06_osaka/2010/2010_c.pdf"
 page_image: "archive/06_osaka/2010/2010_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　曲線$\displaystyle C:y=\frac{e^x}{1+e^x}$上に
+曲線$\displaystyle C:y=\frac{e^x}{1+e^x}$上に
 点$\displaystyle A \left( a, \, \frac{e^a}{1+e^a} \right)$をとる．ただし，$a>0$とする．
 \begin{description}
 \item[(1)]$C$上にあり$A$とは異なる点$\displaystyle P \left( p, \, \frac{e^p}{1+e^p} \right)$について，

@@ -3,6 +3,7 @@ title: "東京科学大学 1968年 1968_1"
 problem_id: "08_titech-1968-1968_1"
 university: "東京科学大学"
 exam_year: "1968"
+problem_number: 1
 source_tex: "archive/08_titech/1968/1968_1.tex"
 pdf_source: "archive/08_titech/1968/1968_1.pdf"
 page_image: "archive/08_titech/1968/1968_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　不等式$ab+1 \leqq abc \leqq bc+ca+ab+1$を満たす自然数$a, \, b, \, c$のすべての組を求めよ．
+不等式$ab+1 \leqq abc \leqq bc+ca+ab+1$を満たす自然数$a, \, b, \, c$のすべての組を求めよ．
 ただし，$a>b>c$とする．
 
 ---

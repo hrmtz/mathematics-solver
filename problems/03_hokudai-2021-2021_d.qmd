@@ -3,6 +3,7 @@ title: "北海道大学 2021年 2021_d"
 problem_id: "03_hokudai-2021-2021_d"
 university: "北海道大学"
 exam_year: "2021"
+problem_number: 4
 source_tex: "archive/03_hokudai/2021/2021_d.tex"
 pdf_source: "archive/03_hokudai/2021/2021_d.pdf"
 page_image: "archive/03_hokudai/2021/2021_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　次の問に答えよ。
+次の問に答えよ。
 \begin{description}
 \item[(1)]整数$m$に対して，$m^2$を4で割った余りは0または1であることを示せ。
 \item[(2)]自然数$n$，$k$が

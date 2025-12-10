@@ -3,6 +3,7 @@ title: "北海道大学 1994年 1994_0_2"
 problem_id: "03_hokudai-1994-1994_0_2"
 university: "北海道大学"
 exam_year: "1994"
+problem_number: 2
 source_tex: "archive/03_hokudai/1994/1994_0_2.tex"
 pdf_source: "archive/03_hokudai/1994/1994_0_2.pdf"
 page_image: "archive/03_hokudai/1994/1994_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　三角形$ABC$の内接円の半径を1とし，$\angle B=\beta$，$\angle C=\gamma$とする．
+三角形$ABC$の内接円の半径を1とし，$\angle B=\beta$，$\angle C=\gamma$とする．
 \begin{description}
 \item[(1)]長さ$BC$を$\beta$と$\gamma$で表せ．
 \item[(2)]$\triangle ABC$の外接円の中心が$\triangle ABC$の内部にあるとする．

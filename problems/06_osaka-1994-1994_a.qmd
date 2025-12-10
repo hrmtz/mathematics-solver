@@ -3,6 +3,7 @@ title: "大阪大学 1994年 1994_a"
 problem_id: "06_osaka-1994-1994_a"
 university: "大阪大学"
 exam_year: "1994"
+problem_number: 1
 source_tex: "archive/06_osaka/1994/1994_a.tex"
 pdf_source: "archive/06_osaka/1994/1994_a.pdf"
 page_image: "archive/06_osaka/1994/1994_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　数列$\{ a_n \}$は，以下の条件を満たすものとする．
+数列$\{ a_n \}$は，以下の条件を満たすものとする．
 \begin{description}
 \item[（イ）]$a_1=1$
 \item[（ロ）]$a_n$が有理数のとき，$\displaystyle a_{n+1}=\frac{\sqrt2}{2}a_n$

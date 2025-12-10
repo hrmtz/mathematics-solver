@@ -3,6 +3,7 @@ title: "京都大学 1993年 1993_0_d"
 problem_id: "02_kyoto-1993-1993_0_d"
 university: "京都大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/02_kyoto/1993/1993_0_d.tex"
 pdf_source: "archive/02_kyoto/1993/1993_0_d.pdf"
 page_image: "archive/02_kyoto/1993/1993_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$を4以上の自然数とする．
+$n$を4以上の自然数とする．
 ${(1+x+x^2+x^3+x^4)}^n$を展開したときの$x^4$の係数を求めよ．
 
 ---

@@ -3,6 +3,7 @@ title: "九州大学 1987年 1987_0_6"
 problem_id: "07_kyushu-1987-1987_0_6"
 university: "九州大学"
 exam_year: "1987"
+problem_number: 6
 source_tex: "archive/07_kyushu/1987/1987_0_6.tex"
 pdf_source: "archive/07_kyushu/1987/1987_0_6.pdf"
 page_image: "archive/07_kyushu/1987/1987_0_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　初めに，袋$A$の中に赤球2個，袋$B$の中に白球2個が入っている．
+初めに，袋$A$の中に赤球2個，袋$B$の中に白球2個が入っている．
 「$A$から無作為に1個の球を取り出して$B$に入れ，
 その後$B$の中から無作為に1個の球を取り出して$A$に戻す」という操作をくり返す．
 いま$n$回操作した後に，$A$の中に白球が0，1，2個入っているという事象を，

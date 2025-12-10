@@ -3,6 +3,7 @@ title: "九州大学 2019年 2019_e"
 problem_id: "07_kyushu-2019-2019_e"
 university: "九州大学"
 exam_year: "2019"
+problem_number: 5
 source_tex: "archive/07_kyushu/2019/2019_e.tex"
 pdf_source: "archive/07_kyushu/2019/2019_e.pdf"
 page_image: "archive/07_kyushu/2019/2019_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$c$を正の実数として，点$(-1, \, 1, \, c)$を通りベクトル$(7, \, 4, \, 2)$に平行な直線を考える。
+$c$を正の実数として，点$(-1, \, 1, \, c)$を通りベクトル$(7, \, 4, \, 2)$に平行な直線を考える。
 \begin{description}
 \item[(1)]この直線上に中心をもち，$xy$平面，$yz$平面，$zx$平面すべてに接する球が存在するような
 $c$の値が二つあることを示せ。さらに，それぞれの$c$について，

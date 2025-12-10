@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_0_4"
 problem_id: "04_tohoku-1999-1999_0_4"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/04_tohoku/1999/1999_0_4.tex"
 pdf_source: "archive/04_tohoku/1999/1999_0_4.pdf"
 page_image: "archive/04_tohoku/1999/1999_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$p$を0でない実数とし，2次方程式$x^2-px+5p=0$を考える．
+$p$を0でない実数とし，2次方程式$x^2-px+5p=0$を考える．
 \begin{description}
 \item[(1)]$x^2-px+5p=0$の解$\alpha$，$\beta$が$\alpha^5+\beta^5=p^5$をみたすとする．
 このときの$p$の値を求めよ．

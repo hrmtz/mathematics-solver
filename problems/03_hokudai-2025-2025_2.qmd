@@ -3,6 +3,7 @@ title: "北海道大学 2025年 2025_2"
 problem_id: "03_hokudai-2025-2025_2"
 university: "北海道大学"
 exam_year: "2025"
+problem_number: 2
 source_tex: "archive/03_hokudai/2025/2025_2.tex"
 pdf_source: "archive/03_hokudai/2025/2025_2.pdf"
 page_image: "archive/03_hokudai/2025/2025_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　円$C_1:x^2+y^2=1$を考える。実数$p, \, q$が$p^2+q^2>1$を満たすとき，
+円$C_1:x^2+y^2=1$を考える。実数$p, \, q$が$p^2+q^2>1$を満たすとき，
 点$P(p, \, q)$から$C_1$に引いた2本の接線$l_1, \, l_2$の接点を
 それぞれ$Q_1(x_1, \, y_1)$，$Q_2(x_2, \, y_2)$とする。
 また，座標平面上の原点を$O(0, \, 0)$とする。

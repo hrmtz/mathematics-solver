@@ -3,6 +3,7 @@ title: "京都大学 2016年 2016_4"
 problem_id: "02_kyoto-2016-2016_4"
 university: "京都大学"
 exam_year: "2016"
+problem_number: 4
 source_tex: "archive/02_kyoto/2016/2016_4.tex"
 pdf_source: "archive/02_kyoto/2016/2016_4.pdf"
 page_image: "archive/02_kyoto/2016/2016_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xyz$空間において，平面$y=z$の中で
+$xyz$空間において，平面$y=z$の中で
 \[ |x|\leqq\frac{e^y+e^{-y}}{2}-1, \hspace{1zw} 0 \leqq y \leqq \log a \]
 で与えられる図形$D$を考える．ただし$a$は1より大きい定数とする．
 　この図形$D$を$y$軸のまわりに1回転させてできる立体の体積を求めよ．

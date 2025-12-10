@@ -3,6 +3,7 @@ title: "北海道大学 2014年 2014_4"
 problem_id: "03_hokudai-2014-2014_4"
 university: "北海道大学"
 exam_year: "2014"
+problem_number: 4
 source_tex: "archive/03_hokudai/2014/2014_4.tex"
 pdf_source: "archive/03_hokudai/2014/2014_4.pdf"
 page_image: "archive/03_hokudai/2014/2014_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　図のような格子状の道路がある。
+図のような格子状の道路がある。
 S地点を出発して，東または北に進んでG地点に到達する経路を考える。
 ただし太い実線で描かれた区間$a$を通り抜けるのに1分，
 点線で描かれた区間$b$を通り抜けるのに8分，

@@ -3,6 +3,7 @@ title: "大阪大学 1992年 1992_0_3"
 problem_id: "06_osaka-1992-1992_0_3"
 university: "大阪大学"
 exam_year: "1992"
+problem_number: 3
 source_tex: "archive/06_osaka/1992/1992_0_3.tex"
 pdf_source: "archive/06_osaka/1992/1992_0_3.pdf"
 page_image: "archive/06_osaka/1992/1992_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　1辺の長さが1の2つの正六角形$A_1A_2A_3A_4A_5A_6$および$B_1B_2B_3B_4B_5B_6$を上下の面とし，
+1辺の長さが1の2つの正六角形$A_1A_2A_3A_4A_5A_6$および$B_1B_2B_3B_4B_5B_6$を上下の面とし，
 これらを12個の正三角形$A_1B_1A_2$，$B_1A_2B_2$，$\cdots\cdots$，$B_6A_1B_1$でつないだ
 図のような立体図形を考える．
 　次の問に答えよ．

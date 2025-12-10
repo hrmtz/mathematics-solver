@@ -3,6 +3,7 @@ title: "東北大学 2008年 2008_6"
 problem_id: "04_tohoku-2008-2008_6"
 university: "東北大学"
 exam_year: "2008"
+problem_number: 6
 source_tex: "archive/04_tohoku/2008/2008_6.tex"
 pdf_source: "archive/04_tohoku/2008/2008_6.pdf"
 page_image: "archive/04_tohoku/2008/2008_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　$k>1$として，$f(x)=x^2+2kx$とおく．
+$k>1$として，$f(x)=x^2+2kx$とおく．
 曲線$y=f(x)$と円$C:x^2+y^2=1$の2つの交点の内で，
 第1象限にあるものを$P$とし，第3象限にあるものを$Q$とする．
 点$O(0,0)$，$A(1,0)$，$B(-1,0)$に対して，

@@ -3,6 +3,7 @@ title: "東北大学 2009年 2009_c"
 problem_id: "04_tohoku-2009-2009_c"
 university: "東北大学"
 exam_year: "2009"
+problem_number: 3
 source_tex: "archive/04_tohoku/2009/2009_c.tex"
 pdf_source: "archive/04_tohoku/2009/2009_c.pdf"
 page_image: "archive/04_tohoku/2009/2009_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　実数の間の等式
+実数の間の等式
 \[ \sqrt[3]{5\sqrt2+7}-\sqrt[3]{5\sqrt2-7}=2 \hspace{1zw} \cdots\text{（※）} \]
 を以下の手順に従って示せ．
 \begin{description}

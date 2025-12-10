@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_0_2"
 problem_id: "07_kyushu-1997-1997_0_2"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 2
 source_tex: "archive/07_kyushu/1997/1997_0_2.tex"
 pdf_source: "archive/07_kyushu/1997/1997_0_2.pdf"
 page_image: "archive/07_kyushu/1997/1997_0_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　関数$f(x)=ax^2+bx+c$ $(a\neq0)$について，次の各問に答えよ．
+関数$f(x)=ax^2+bx+c$ $(a\neq0)$について，次の各問に答えよ．
 \begin{description}
 \item[(1)]$x$の値が$p$から$q$まで変化するとき，関数$f(x)$の平均変化率を求めよ．
 ただし，$p<q$とする．

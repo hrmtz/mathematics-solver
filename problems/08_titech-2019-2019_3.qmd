@@ -3,6 +3,7 @@ title: "東京科学大学 2019年 2019_3"
 problem_id: "08_titech-2019-2019_3"
 university: "東京科学大学"
 exam_year: "2019"
+problem_number: 3
 source_tex: "archive/08_titech/2019/2019_3.tex"
 pdf_source: "archive/08_titech/2019/2019_3.pdf"
 page_image: "archive/08_titech/2019/2019_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$i$を虚数単位とする．実部と虚部が共に整数であるような複素数$z$により
+$i$を虚数単位とする．実部と虚部が共に整数であるような複素数$z$により
 $\displaystyle\frac{z}{3+2i}$と表される複素数全体の集合をMとする．
 \begin{description}
 \item[(1)]原点を中心とする半径$r$の円上またはその内部に含まれるMの要素の個数を$N(r)$とする．

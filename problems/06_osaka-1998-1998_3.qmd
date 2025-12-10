@@ -3,6 +3,7 @@ title: "大阪大学 1998年 1998_3"
 problem_id: "06_osaka-1998-1998_3"
 university: "大阪大学"
 exam_year: "1998"
+problem_number: 3
 source_tex: "archive/06_osaka/1998/1998_3.tex"
 pdf_source: "archive/06_osaka/1998/1998_3.pdf"
 page_image: "archive/06_osaka/1998/1998_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$a$を1より大きい実数とする．
 0以上の任意の実数$x$に対して次の不等式が成り立つことを示せ．

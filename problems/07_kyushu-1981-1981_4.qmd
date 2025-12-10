@@ -3,6 +3,7 @@ title: "九州大学 1981年 1981_4"
 problem_id: "07_kyushu-1981-1981_4"
 university: "九州大学"
 exam_year: "1981"
+problem_number: 4
 source_tex: "archive/07_kyushu/1981/1981_4.tex"
 pdf_source: "archive/07_kyushu/1981/1981_4.pdf"
 page_image: "archive/07_kyushu/1981/1981_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　定数$a$，$b$に対して$f(x)=(ax+bx^2)e^x$とするとき，
+定数$a$，$b$に対して$f(x)=(ax+bx^2)e^x$とするとき，
 \begin{description}
 \item[(1)]$f'(x)$を求めよ．
 \item[(2)]関数$y=f(x)$が微分方程式$\displaystyle\frac{dy}{dx}=y+e^x$を満足するように$a$，$b$を定めよ．

@@ -3,6 +3,7 @@ title: "名古屋大学 2001年 2001_a"
 problem_id: "05_nagoya-2001-2001_a"
 university: "名古屋大学"
 exam_year: "2001"
+problem_number: 1
 source_tex: "archive/05_nagoya/2001/2001_a.tex"
 pdf_source: "archive/05_nagoya/2001/2001_a.pdf"
 page_image: "archive/05_nagoya/2001/2001_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$A=\begin{pmatrix} \displaystyle\frac{3}{2} & \displaystyle\frac{1}{2}
+$A=\begin{pmatrix} \displaystyle\frac{3}{2} & \displaystyle\frac{1}{2}
 \displaystyle\frac{1}{2} & \displaystyle\frac{3}{2} \end{pmatrix}$とする．
 つぎの各問に答えよ．
 \begin{description}

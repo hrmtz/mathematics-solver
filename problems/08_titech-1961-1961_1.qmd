@@ -3,6 +3,7 @@ title: "東京科学大学 1961年 1961_1"
 problem_id: "08_titech-1961-1961_1"
 university: "東京科学大学"
 exam_year: "1961"
+problem_number: 1
 source_tex: "archive/08_titech/1961/1961_1.tex"
 pdf_source: "archive/08_titech/1961/1961_1.pdf"
 page_image: "archive/08_titech/1961/1961_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$p>0$，$q>0$，$p+q=1$のとき，
+$p>0$，$q>0$，$p+q=1$のとき，
 $p\cos ax+q\cos bx=1$が2つの$x$の値，$u$，$v$に対して成り立てば
 $a=b=0$であることを証明せよ。
 ただし$\displaystyle\frac{v}{u}$は無理数とする。

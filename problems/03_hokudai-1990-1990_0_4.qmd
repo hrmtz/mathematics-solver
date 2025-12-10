@@ -3,6 +3,7 @@ title: "北海道大学 1990年 1990_0_4"
 problem_id: "03_hokudai-1990-1990_0_4"
 university: "北海道大学"
 exam_year: "1990"
+problem_number: 4
 source_tex: "archive/03_hokudai/1990/1990_0_4.tex"
 pdf_source: "archive/03_hokudai/1990/1990_0_4.pdf"
 page_image: "archive/03_hokudai/1990/1990_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面上に4点$O(0, \, 0)$，$A(3, \, 0)$，$B(2, \, 2)$，$C(4, \, 1)$が与えられている．
+平面上に4点$O(0, \, 0)$，$A(3, \, 0)$，$B(2, \, 2)$，$C(4, \, 1)$が与えられている．
 \begin{description}
 \item[(1)]点$P(x, \, y)$が$|3\overrightarrow{OP}-\overrightarrow{OA}-\overrightarrow{OB}-\overrightarrow{OC}|=3$
 を満たしているとき，$x$，$y$の満たす方程式を求めよ．

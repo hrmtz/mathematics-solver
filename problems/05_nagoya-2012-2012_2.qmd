@@ -3,6 +3,7 @@ title: "名古屋大学 2012年 2012_2"
 problem_id: "05_nagoya-2012-2012_2"
 university: "名古屋大学"
 exam_year: "2012"
+problem_number: 2
 source_tex: "archive/05_nagoya/2012/2012_2.tex"
 pdf_source: "archive/05_nagoya/2012/2012_2.pdf"
 page_image: "archive/05_nagoya/2012/2012_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$f_0(x)=xe^x$として，正の整数$n$に対して，
+$f_0(x)=xe^x$として，正の整数$n$に対して，
 \[ f_n(x)=\int_{-x}^x f_{n-1}(t)dt+{f'}_{n-1}(x)  \]
 により実数$x$の関数$f_n(x)$を定める。
 \begin{description}

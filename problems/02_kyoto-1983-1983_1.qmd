@@ -3,6 +3,7 @@ title: "京都大学 1983年 1983_1"
 problem_id: "02_kyoto-1983-1983_1"
 university: "京都大学"
 exam_year: "1983"
+problem_number: 1
 source_tex: "archive/02_kyoto/1983/1983_1.tex"
 pdf_source: "archive/02_kyoto/1983/1983_1.pdf"
 page_image: "archive/02_kyoto/1983/1983_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$A$，$B$，$C$の3高校が野球の試合をする．
+$A$，$B$，$C$の3高校が野球の試合をする．
 まず2校が対戦して，勝った方が残りの1校と対戦する．
 これをくりかえして，2連勝した高校が優勝する．
 $A$校が$B$，$C$校に勝つ確率をそれぞれ$p$，$q$とし，$B$校が$C$校に勝つ確率を$\displaystyle\frac{1}{2}$とする．

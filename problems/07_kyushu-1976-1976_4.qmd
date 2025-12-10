@@ -3,6 +3,7 @@ title: "九州大学 1976年 1976_4"
 problem_id: "07_kyushu-1976-1976_4"
 university: "九州大学"
 exam_year: "1976"
+problem_number: 4
 source_tex: "archive/07_kyushu/1976/1976_4.tex"
 pdf_source: "archive/07_kyushu/1976/1976_4.pdf"
 page_image: "archive/07_kyushu/1976/1976_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　曲線$y=e^{-x}$上に座標$(n, \, e^{-n})$をもつ点$P_n$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$をとる．
+曲線$y=e^{-x}$上に座標$(n, \, e^{-n})$をもつ点$P_n$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$をとる．
 この曲線の各点$P_n$における法線（$P_n$における接線に$P_n$で直交する直線）と接線が$x$軸と交わる点をそれぞれ$Q_n$，$R_n$とする．
 このとき，次の問に答えよ．
 \begin{description}

@@ -3,6 +3,7 @@ title: "名古屋大学 1985年 1985_3"
 problem_id: "05_nagoya-1985-1985_3"
 university: "名古屋大学"
 exam_year: "1985"
+problem_number: 3
 source_tex: "archive/05_nagoya/1985/1985_3.tex"
 pdf_source: "archive/05_nagoya/1985/1985_3.pdf"
 page_image: "archive/05_nagoya/1985/1985_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　半径2の円$C$の外側に接して半径1の円$C'$がある．
+半径2の円$C$の外側に接して半径1の円$C'$がある．
 $A$を$C'$の周上の定点とし，最初は$C$の中心，$C'$の中心，$A$がこの順に1直線上にあるとする．
 $C'$が$C$に接しながらすべることなく$C$のまわりを1まわりしてもとの位置に戻るとき，
 $A$が描く曲線の長さを求めよ．

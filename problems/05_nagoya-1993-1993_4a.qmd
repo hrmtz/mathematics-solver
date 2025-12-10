@@ -3,6 +3,7 @@ title: "名古屋大学 1993年 1993_4a"
 problem_id: "05_nagoya-1993-1993_4a"
 university: "名古屋大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/05_nagoya/1993/1993_4a.tex"
 pdf_source: "archive/05_nagoya/1993/1993_4a.pdf"
 page_image: "archive/05_nagoya/1993/1993_4a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (a)
-　さいころを続けて投げるとき，
+さいころを続けて投げるとき，
 出る目の総和が$n$回目に初めて自然数$x$より大きくなる確率を$P_n(x)$と書く．
 \begin{description}
 \item[(1)]$P_2(x)$を求めよ．

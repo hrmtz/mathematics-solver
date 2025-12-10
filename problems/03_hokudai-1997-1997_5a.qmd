@@ -3,6 +3,7 @@ title: "北海道大学 1997年 1997_5a"
 problem_id: "03_hokudai-1997-1997_5a"
 university: "北海道大学"
 exam_year: "1997"
+problem_number: 5
 source_tex: "archive/03_hokudai/1997/1997_5a.tex"
 pdf_source: "archive/03_hokudai/1997/1997_5a.pdf"
 page_image: "archive/03_hokudai/1997/1997_5a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (a)
-　複素数$\alpha$，$\beta$（ただし，$\alpha\beta\neq0$）が与えられている．
+複素数$\alpha$，$\beta$（ただし，$\alpha\beta\neq0$）が与えられている．
 \[ \alpha=a+bi, \hspace{1zw} \beta=c+di \hspace{1zw} (a, \, b, \, c, \, d \text{は実数}, \, i=\sqrt{-1}) \]
 とおく．
 \begin{description}

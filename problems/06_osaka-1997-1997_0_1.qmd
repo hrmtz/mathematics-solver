@@ -3,6 +3,7 @@ title: "大阪大学 1997年 1997_0_1"
 problem_id: "06_osaka-1997-1997_0_1"
 university: "大阪大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/06_osaka/1997/1997_0_1.tex"
 pdf_source: "archive/06_osaka/1997/1997_0_1.pdf"
 page_image: "archive/06_osaka/1997/1997_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　数列$\{ a_n \}$を初項1，公比$r$の等比数列とし，
+数列$\{ a_n \}$を初項1，公比$r$の等比数列とし，
 数列$\{ b_n \}$を初項1，公比$s$の等比数列とする．
 第$n$項が
 \[ x_n=a_n+b_n \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]

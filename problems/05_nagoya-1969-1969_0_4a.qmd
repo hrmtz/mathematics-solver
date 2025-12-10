@@ -3,6 +3,7 @@ title: "名古屋大学 1969年 1969_0_4a"
 problem_id: "05_nagoya-1969-1969_0_4a"
 university: "名古屋大学"
 exam_year: "1969"
+problem_number: 4
 source_tex: "archive/05_nagoya/1969/1969_0_4a.tex"
 pdf_source: "archive/05_nagoya/1969/1969_0_4a.pdf"
 page_image: "archive/05_nagoya/1969/1969_0_4a.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-4 (a)
 \begin{description}
 \item[(1)]曲線$\displaystyle y=\frac{1}{{(x+1)}^2}$，$x$軸，および$y$軸に平行な2直線$x=t$，$x=2t$ $(t>0)$によって
 囲まれた部分の面積$S(t)$を求めよ．

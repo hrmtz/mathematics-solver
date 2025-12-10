@@ -3,6 +3,7 @@ title: "北海道大学 2000年 2000_d"
 problem_id: "03_hokudai-2000-2000_d"
 university: "北海道大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/03_hokudai/2000/2000_d.tex"
 pdf_source: "archive/03_hokudai/2000/2000_d.pdf"
 page_image: "archive/03_hokudai/2000/2000_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　点$A(0, \, a, \, 1)$（ただし$a<0$とする）と$xy$平面内の放物線$y=x^2$上の点$P$を結ぶ直線$l$を考える．
+点$A(0, \, a, \, 1)$（ただし$a<0$とする）と$xy$平面内の放物線$y=x^2$上の点$P$を結ぶ直線$l$を考える．
 $P$が放物線上を動くとき，直線$l$と$xz$平面との交点$Q$の軌跡が，
 この平面内の1つの円に含まれるような$a$を求めよ．
 

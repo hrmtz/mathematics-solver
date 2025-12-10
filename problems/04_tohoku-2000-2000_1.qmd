@@ -3,6 +3,7 @@ title: "東北大学 2000年 2000_1"
 problem_id: "04_tohoku-2000-2000_1"
 university: "東北大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/04_tohoku/2000/2000_1.tex"
 pdf_source: "archive/04_tohoku/2000/2000_1.pdf"
 page_image: "archive/04_tohoku/2000/2000_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$E=\begin{pmatrix} 1 & 0 
+$E=\begin{pmatrix} 1 & 0 
 
  0 & 1 \end{pmatrix}$，
 $K=\begin{pmatrix} 0 & 1 

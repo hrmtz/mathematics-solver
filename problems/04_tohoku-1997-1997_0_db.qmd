@@ -3,6 +3,7 @@ title: "東北大学 1997年 1997_0_db"
 problem_id: "04_tohoku-1997-1997_0_db"
 university: "東北大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/04_tohoku/1997/1997_0_db.tex"
 pdf_source: "archive/04_tohoku/1997/1997_0_db.pdf"
 page_image: "archive/04_tohoku/1997/1997_0_db.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　初項$a$，公比$r$ $(r\neq1)$の等比数列
+初項$a$，公比$r$ $(r\neq1)$の等比数列
 \[ a_n=ar^{n-1} \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]
 を考える．この数列の最初の3項$a_1$，$a_2$，$a_3$は次の性質(i)，(ii)をもつとする．
 \begin{description}

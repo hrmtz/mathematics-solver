@@ -3,6 +3,7 @@ title: "京都大学 1997年 1997_a"
 problem_id: "02_kyoto-1997-1997_a"
 university: "京都大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/02_kyoto/1997/1997_a.tex"
 pdf_source: "archive/02_kyoto/1997/1997_a.pdf"
 page_image: "archive/02_kyoto/1997/1997_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　2つの放物線$C_1:y=x^2$，$C:y=ax^2$ $(a\neq1)$を考える．
+2つの放物線$C_1:y=x^2$，$C:y=ax^2$ $(a\neq1)$を考える．
 $C$を$x$軸方向に$p$，ついで$y$軸方向に$q$だけ平行移動した放物線を$C_{p,q}$と表す．
 次の条件(＊)を満たすような$p$，$q$が存在するための$a$の範囲を求めよ．
 \begin{description}

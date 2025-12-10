@@ -3,6 +3,7 @@ title: "京都大学 1993年 1993_0_e"
 problem_id: "02_kyoto-1993-1993_0_e"
 university: "京都大学"
 exam_year: "1993"
+problem_number: 5
 source_tex: "archive/02_kyoto/1993/1993_0_e.tex"
 pdf_source: "archive/02_kyoto/1993/1993_0_e.pdf"
 page_image: "archive/02_kyoto/1993/1993_0_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　点$O$を中心とする半径1の球面上に3点$A$，$B$，$C$がある．
+点$O$を中心とする半径1の球面上に3点$A$，$B$，$C$がある．
 線分$BC$，$CA$，$AB$の中点をそれぞれ$P$，$Q$，$R$とする．
 線分$OP$，$OQ$，$OR$のうち少なくとも1つは長さが$\displaystyle\frac{1}{2}$以上であることを証明せよ．
 

@@ -3,6 +3,7 @@ title: "京都大学 2016年 2016_5"
 problem_id: "02_kyoto-2016-2016_5"
 university: "京都大学"
 exam_year: "2016"
+problem_number: 5
 source_tex: "archive/02_kyoto/2016/2016_5.tex"
 pdf_source: "archive/02_kyoto/2016/2016_5.pdf"
 page_image: "archive/02_kyoto/2016/2016_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$xy$平面上の6個の点$(0, \, 0)$，$(0, \, 1)$，$(1, \, 0)$，
+$xy$平面上の6個の点$(0, \, 0)$，$(0, \, 1)$，$(1, \, 0)$，
 $(1, \, 1)$，$(2, \, 0)$，$(2, \, 1)$が図のように長さ1の線分で結ばれている．
 動点Xは，これらの点の上を次の規則に従って1秒ごとに移動する．
 \begin{description}

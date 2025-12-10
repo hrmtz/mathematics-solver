@@ -3,6 +3,7 @@ title: "九州大学 2009年 2009_4"
 problem_id: "07_kyushu-2009-2009_4"
 university: "九州大学"
 exam_year: "2009"
+problem_number: 4
 source_tex: "archive/07_kyushu/2009/2009_4.tex"
 pdf_source: "archive/07_kyushu/2009/2009_4.pdf"
 page_image: "archive/07_kyushu/2009/2009_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　2次の列ベクトル$X$，$Y$，$Z$は大きさが1であり，
+2次の列ベクトル$X$，$Y$，$Z$は大きさが1であり，
 $X=\begin{pmatrix} 1 
 
  0 \end{pmatrix}$かつ$Y \neq X$とする．

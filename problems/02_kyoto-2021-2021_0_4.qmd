@@ -3,6 +3,7 @@ title: "京都大学 2021年 2021_0_4"
 problem_id: "02_kyoto-2021-2021_0_4"
 university: "京都大学"
 exam_year: "2021"
+problem_number: 4
 source_tex: "archive/02_kyoto/2021/2021_0_4.tex"
 pdf_source: "archive/02_kyoto/2021/2021_0_4.pdf"
 page_image: "archive/02_kyoto/2021/2021_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　空間の8点
+空間の8点
 \[ O(0, \, 0, \, 0), \hspace{1zw} A(1, \, 0, \, 0), \hspace{1zw}
 B(1, \, 2, \, 0), \hspace{1zw} C(0, \, 2, \, 0), \]
 \[ D(0, \, 0, \, 3), \hspace{1zw} E(1, \, 0, \, 3), \hspace{1zw}

@@ -3,6 +3,7 @@ title: "東北大学 1969年 1969_5"
 problem_id: "04_tohoku-1969-1969_5"
 university: "東北大学"
 exam_year: "1969"
+problem_number: 5
 source_tex: "archive/04_tohoku/1969/1969_5.tex"
 pdf_source: "archive/04_tohoku/1969/1969_5.pdf"
 page_image: "archive/04_tohoku/1969/1969_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$\displaystyle\frac{1}{1+x^2}$，
+$\displaystyle\frac{1}{1+x^2}$，
 $\displaystyle\frac{1}{2e^{|x|}-1}$，
 $\displaystyle\log\left(1+\frac{1}{x^2}\right)$
 の大小を調べよ．

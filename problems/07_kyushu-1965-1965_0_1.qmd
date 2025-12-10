@@ -3,6 +3,7 @@ title: "九州大学 1965年 1965_0_1"
 problem_id: "07_kyushu-1965-1965_0_1"
 university: "九州大学"
 exam_year: "1965"
+problem_number: 1
 source_tex: "archive/07_kyushu/1965/1965_0_1.tex"
 pdf_source: "archive/07_kyushu/1965/1965_0_1.pdf"
 page_image: "archive/07_kyushu/1965/1965_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$(x, \, y)$は直交座標$XOY$をもつ平面上の点とする。
+$(x, \, y)$は直交座標$XOY$をもつ平面上の点とする。
 \begin{description}
 \item[(1)]次の条件を同時に満足する$(x, \, y)$の範囲を図示せよ。
 \[ 0<x<\frac{1}{2}, \hspace{1zw} \frac{1}{2}<y<1, \hspace{1zw} y-x<\frac{1}{2} \]

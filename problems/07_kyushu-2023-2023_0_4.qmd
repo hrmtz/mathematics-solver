@@ -3,6 +3,7 @@ title: "九州大学 2023年 2023_0_4"
 problem_id: "07_kyushu-2023-2023_0_4"
 university: "九州大学"
 exam_year: "2023"
+problem_number: 4
 source_tex: "archive/07_kyushu/2023/2023_0_4.tex"
 pdf_source: "archive/07_kyushu/2023/2023_0_4.pdf"
 page_image: "archive/07_kyushu/2023/2023_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$\omega$を$x^3=1$の虚数解のうち虚部が正であるものとする。さいころを繰り返し投げて，
+$\omega$を$x^3=1$の虚数解のうち虚部が正であるものとする。さいころを繰り返し投げて，
 次の規則で4つの複素数$0, \, 1, \, \omega, \, \omega^2$を並べていくことにより，
 複素数の列$z_1, \, z_2, \, z_3, \, \cdots\cdots$を定める。
 \begin{description}

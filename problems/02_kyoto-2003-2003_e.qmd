@@ -3,6 +3,7 @@ title: "京都大学 2003年 2003_e"
 problem_id: "02_kyoto-2003-2003_e"
 university: "京都大学"
 exam_year: "2003"
+problem_number: 5
 source_tex: "archive/02_kyoto/2003/2003_e.tex"
 pdf_source: "archive/02_kyoto/2003/2003_e.pdf"
 page_image: "archive/02_kyoto/2003/2003_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　極限$\displaystyle\lim_{n\to\infty}\sum_{k=1}^{2n}{(-1)}^k{\left(\frac{k}{2n}\right)}^{100}$を求めよ．
+極限$\displaystyle\lim_{n\to\infty}\sum_{k=1}^{2n}{(-1)}^k{\left(\frac{k}{2n}\right)}^{100}$を求めよ．
 
 ---
 

@@ -3,6 +3,7 @@ title: "大阪大学 1964年 1964_2"
 problem_id: "06_osaka-1964-1964_2"
 university: "大阪大学"
 exam_year: "1964"
+problem_number: 2
 source_tex: "archive/06_osaka/1964/1964_2.tex"
 pdf_source: "archive/06_osaka/1964/1964_2.pdf"
 page_image: "archive/06_osaka/1964/1964_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　3つの動点$A$，$B$，$C$が1つの円周上の同じ点を同時に出発し，
+3つの動点$A$，$B$，$C$が1つの円周上の同じ点を同時に出発し，
 円周上を同じ向きにそれぞれ一定の速さで動くとする。
 $A$は$B$を次第にひきはなし，
 さらに，$B$の後方に近づき，

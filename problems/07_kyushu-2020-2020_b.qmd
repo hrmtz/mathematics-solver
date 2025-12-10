@@ -3,6 +3,7 @@ title: "九州大学 2020年 2020_b"
 problem_id: "07_kyushu-2020-2020_b"
 university: "九州大学"
 exam_year: "2020"
+problem_number: 2
 source_tex: "archive/07_kyushu/2020/2020_b.tex"
 pdf_source: "archive/07_kyushu/2020/2020_b.pdf"
 page_image: "archive/07_kyushu/2020/2020_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　自然数$n$に対して定まる関数
+自然数$n$に対して定まる関数
 \[  f_n(x)=1-\sqrt5 \, |\sin(2n\pi x)| \]
 について，以下の問いに答えよ。
 \begin{description}

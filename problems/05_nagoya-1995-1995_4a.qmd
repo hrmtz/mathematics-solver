@@ -3,6 +3,7 @@ title: "名古屋大学 1995年 1995_4a"
 problem_id: "05_nagoya-1995-1995_4a"
 university: "名古屋大学"
 exam_year: "1995"
+problem_number: 4
 source_tex: "archive/05_nagoya/1995/1995_4a.tex"
 pdf_source: "archive/05_nagoya/1995/1995_4a.pdf"
 page_image: "archive/05_nagoya/1995/1995_4a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (a)
-　下の図のように4地点$A$，$B$，$C$，$D$が4本の道で結ばれている．
+下の図のように4地点$A$，$B$，$C$，$D$が4本の道で結ばれている．
 　動点$X$が$A$を出発して，それら4地点間を次のルールで行き来するものとする．
 \begin{description}
 \item[a)]$X$が$A$，$B$，$C$のいずれかにあれば，次のステップで道の本数に応じて隣の地点に移動する．

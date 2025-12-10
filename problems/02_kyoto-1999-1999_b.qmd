@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_b"
 problem_id: "02_kyoto-1999-1999_b"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 2
 source_tex: "archive/02_kyoto/1999/1999_b.tex"
 pdf_source: "archive/02_kyoto/1999/1999_b.pdf"
 page_image: "archive/02_kyoto/1999/1999_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$\alpha$，$\beta$，$\gamma$は$\alpha>0$，$\beta>0$，$\gamma>0$，$\alpha+\beta+\gamma=\pi$を満たすものとする．
+$\alpha$，$\beta$，$\gamma$は$\alpha>0$，$\beta>0$，$\gamma>0$，$\alpha+\beta+\gamma=\pi$を満たすものとする．
 このとき，$\sin\alpha\sin\beta\sin\gamma$の最大値を求めよ．
 
 ---

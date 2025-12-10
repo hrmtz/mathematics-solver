@@ -3,6 +3,7 @@ title: "名古屋大学 1996年 1996_a"
 problem_id: "05_nagoya-1996-1996_a"
 university: "名古屋大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/05_nagoya/1996/1996_a.tex"
 pdf_source: "archive/05_nagoya/1996/1996_a.pdf"
 page_image: "archive/05_nagoya/1996/1996_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　図に示すように，正$N$角形$A_1A_2 \cdots\cdots A_N$を辺$A_{N-1}A_N$が直線$l$に重なるようにおく．
+図に示すように，正$N$角形$A_1A_2 \cdots\cdots A_N$を辺$A_{N-1}A_N$が直線$l$に重なるようにおく．
 正$N$角形の中心から頂点までの距離を$a$とする．次の問に答えよ．
 \begin{description}
 \item[(1)]頂点$A_N$を中心に，正$N$角形を左回りに滑らないように回転させ，

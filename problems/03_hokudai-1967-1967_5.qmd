@@ -3,6 +3,7 @@ title: "北海道大学 1967年 1967_5"
 problem_id: "03_hokudai-1967-1967_5"
 university: "北海道大学"
 exam_year: "1967"
+problem_number: 5
 source_tex: "archive/03_hokudai/1967/1967_5.tex"
 pdf_source: "archive/03_hokudai/1967/1967_5.pdf"
 page_image: "archive/03_hokudai/1967/1967_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$t$ $(t\geqq0)$を時刻を表わす変数とするとき，
+$t$ $(t\geqq0)$を時刻を表わす変数とするとき，
 2つの動点$A(2t^2+1, \, t^3)$，$\displaystyle B \left( t^2+1, \, -\frac{t^3}{9} \right)$がある．
 \begin{description}
 \item[(1)]$A$のえがく曲線の方程式は$y=$□であり，

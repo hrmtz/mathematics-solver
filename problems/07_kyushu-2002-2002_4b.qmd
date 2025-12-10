@@ -3,6 +3,7 @@ title: "九州大学 2002年 2002_4b"
 problem_id: "07_kyushu-2002-2002_4b"
 university: "九州大学"
 exam_year: "2002"
+problem_number: 4
 source_tex: "archive/07_kyushu/2002/2002_4b.tex"
 pdf_source: "archive/07_kyushu/2002/2002_4b.pdf"
 page_image: "archive/07_kyushu/2002/2002_4b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　複素数平面上の原点を中心とする半径1の円$C$上に相異なる3点$z_1, \, z_2, \, z_3$をとる．
+複素数平面上の原点を中心とする半径1の円$C$上に相異なる3点$z_1, \, z_2, \, z_3$をとる．
 次の問いに答えよ．
 \begin{description}
 \item[(1)]$w_1=z_1+z_2+z_3$とおく．

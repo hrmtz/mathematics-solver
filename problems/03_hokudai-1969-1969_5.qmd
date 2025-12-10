@@ -3,6 +3,7 @@ title: "北海道大学 1969年 1969_5"
 problem_id: "03_hokudai-1969-1969_5"
 university: "北海道大学"
 exam_year: "1969"
+problem_number: 5
 source_tex: "archive/03_hokudai/1969/1969_5.tex"
 pdf_source: "archive/03_hokudai/1969/1969_5.pdf"
 page_image: "archive/03_hokudai/1969/1969_5.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(1)]$e$を自然対数の底とするとき
 関数$\displaystyle y=\frac{e^x-e^{-x}}{2}$の逆関数を求めよ．

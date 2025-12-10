@@ -3,6 +3,7 @@ title: "大阪大学 1990年 1990_1"
 problem_id: "06_osaka-1990-1990_1"
 university: "大阪大学"
 exam_year: "1990"
+problem_number: 1
 source_tex: "archive/06_osaka/1990/1990_1.tex"
 pdf_source: "archive/06_osaka/1990/1990_1.pdf"
 page_image: "archive/06_osaka/1990/1990_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]$g(x)$を整式，$h(x)$を2次式とし$f(x)=g(h(x))$とおく．
 このとき，関数$y=f(x)$のグラフは$y$軸または$y$軸に平行なある直線に関して対称であることを示せ．

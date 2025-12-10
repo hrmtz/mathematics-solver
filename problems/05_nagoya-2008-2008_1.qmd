@@ -3,6 +3,7 @@ title: "名古屋大学 2008年 2008_1"
 problem_id: "05_nagoya-2008-2008_1"
 university: "名古屋大学"
 exam_year: "2008"
+problem_number: 1
 source_tex: "archive/05_nagoya/2008/2008_1.tex"
 pdf_source: "archive/05_nagoya/2008/2008_1.pdf"
 page_image: "archive/05_nagoya/2008/2008_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a, \, b, \, c$を実数として，
+$a, \, b, \, c$を実数として，
 $f(x)=x^4+ax^3+bx^2+cx+2$とする．
 行列$A=\begin{pmatrix} -1 & -1 
 

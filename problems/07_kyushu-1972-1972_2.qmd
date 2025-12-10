@@ -3,6 +3,7 @@ title: "九州大学 1972年 1972_2"
 problem_id: "07_kyushu-1972-1972_2"
 university: "九州大学"
 exam_year: "1972"
+problem_number: 2
 source_tex: "archive/07_kyushu/1972/1972_2.tex"
 pdf_source: "archive/07_kyushu/1972/1972_2.pdf"
 page_image: "archive/07_kyushu/1972/1972_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$\displaystyle z_1=\frac{1+i}{\sqrt2}$，$\displaystyle z_2=\frac{\sqrt3+i}{2}$（ただし，$i=\sqrt{-1}$）とするとき，
+$\displaystyle z_1=\frac{1+i}{\sqrt2}$，$\displaystyle z_2=\frac{\sqrt3+i}{2}$（ただし，$i=\sqrt{-1}$）とするとき，
 次の問に答えよ．
 \begin{description}
 \item[(1)]$z_1+z_2$の絶対値を求めよ．

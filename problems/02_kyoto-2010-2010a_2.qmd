@@ -3,6 +3,7 @@ title: "京都大学 2010年 2010a_2"
 problem_id: "02_kyoto-2010-2010a_2"
 university: "京都大学"
 exam_year: "2010"
+problem_number: 2
 source_tex: "archive/02_kyoto/2010/2010a_2.tex"
 pdf_source: "archive/02_kyoto/2010/2010a_2.pdf"
 page_image: "archive/02_kyoto/2010/2010a_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　四面体$ABCD$において$\overrightarrow{CA}$と$\overrightarrow{CB}$，
+四面体$ABCD$において$\overrightarrow{CA}$と$\overrightarrow{CB}$，
 $\overrightarrow{DA}$と$\overrightarrow{DB}$，
 $\overrightarrow{AB}$と$\overrightarrow{CD}$は
 それぞれ垂直であるとする．

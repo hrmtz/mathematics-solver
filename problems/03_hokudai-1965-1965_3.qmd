@@ -3,6 +3,7 @@ title: "北海道大学 1965年 1965_3"
 problem_id: "03_hokudai-1965-1965_3"
 university: "北海道大学"
 exam_year: "1965"
+problem_number: 3
 source_tex: "archive/03_hokudai/1965/1965_3.tex"
 pdf_source: "archive/03_hokudai/1965/1965_3.pdf"
 page_image: "archive/03_hokudai/1965/1965_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2つの曲線$x^2+y^2=a^2$ $(0<a<2)$，$y=x^2-b$は相異なる4点で交わっている。
+2つの曲線$x^2+y^2=a^2$ $(0<a<2)$，$y=x^2-b$は相異なる4点で交わっている。
 \begin{description}
 \item[(1)]点$(a, \, b)$の存在する範囲を図示せよ。
 \item[(2)]4点でできる等脚台形の内角の正接を$m$とする。$m^2$を$a$，$b$の式で表わせ。

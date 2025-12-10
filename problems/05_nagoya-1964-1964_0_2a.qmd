@@ -3,6 +3,7 @@ title: "名古屋大学 1964年 1964_0_2a"
 problem_id: "05_nagoya-1964-1964_0_2a"
 university: "名古屋大学"
 exam_year: "1964"
+problem_number: 2
 source_tex: "archive/05_nagoya/1964/1964_0_2a.tex"
 pdf_source: "archive/05_nagoya/1964/1964_0_2a.pdf"
 page_image: "archive/05_nagoya/1964/1964_0_2a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2 (a)
-　同じ大きさの2円が2点$A$，$B$で交わっている。
+同じ大きさの2円が2点$A$，$B$で交わっている。
 点$A$を中心としてこの2つの円に接する円をかきその接点を$P$，$Q$とする。
 \begin{description}
 \item[(i)]図の斜線をほどこした部分を囲む3つの弧の間に

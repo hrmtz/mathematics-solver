@@ -3,6 +3,7 @@ title: "北海道大学 1997年 1997_2"
 problem_id: "03_hokudai-1997-1997_2"
 university: "北海道大学"
 exam_year: "1997"
+problem_number: 2
 source_tex: "archive/03_hokudai/1997/1997_2.tex"
 pdf_source: "archive/03_hokudai/1997/1997_2.pdf"
 page_image: "archive/03_hokudai/1997/1997_2.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]$p$を正の定数とし，点$F(0, \, p)$を焦点にもち，$y=-p$を準線とする放物線を$C$とする．
 $C$上の点$Q(x_0, \, y_0)$（ただし$x_0\neq0$）を考え，

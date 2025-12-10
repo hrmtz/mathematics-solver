@@ -3,6 +3,7 @@ title: "大阪大学 1994年 1994_1"
 problem_id: "06_osaka-1994-1994_1"
 university: "大阪大学"
 exam_year: "1994"
+problem_number: 1
 source_tex: "archive/06_osaka/1994/1994_1.tex"
 pdf_source: "archive/06_osaka/1994/1994_1.pdf"
 page_image: "archive/06_osaka/1994/1994_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　どのような自然数$n$に対しても$\displaystyle\sum_{k=1}^n(ak^2+bk+1)$が
+どのような自然数$n$に対しても$\displaystyle\sum_{k=1}^n(ak^2+bk+1)$が
 常に$n$で割りきれるような整数$a$，$b$の組$(a, \, b)$は
 $0<a\leqq6m$かつ$0<b\leqq6m$（ただし$m$は自然数）の範囲に全体で何組あるか．
 その個数を$m$で表せ．

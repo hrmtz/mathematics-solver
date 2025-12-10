@@ -3,6 +3,7 @@ title: "東北大学 1994年 1994_1"
 problem_id: "04_tohoku-1994-1994_1"
 university: "東北大学"
 exam_year: "1994"
+problem_number: 1
 source_tex: "archive/04_tohoku/1994/1994_1.tex"
 pdf_source: "archive/04_tohoku/1994/1994_1.pdf"
 page_image: "archive/04_tohoku/1994/1994_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$x$に関する3次方程式${(x+a)}^3-3x-a^2=0$が負の解をもたないように実数$a$の範囲を定めよ．
+$x$に関する3次方程式${(x+a)}^3-3x-a^2=0$が負の解をもたないように実数$a$の範囲を定めよ．
 
 ---
 

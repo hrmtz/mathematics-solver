@@ -3,6 +3,7 @@ title: "東京大学 2010年 2010_5"
 problem_id: "01_tokyo-2010-2010_5"
 university: "東京大学"
 exam_year: "2010"
+problem_number: 5
 source_tex: "archive/01_tokyo/2010/2010_5.tex"
 pdf_source: "archive/01_tokyo/2010/2010_5.pdf"
 page_image: "archive/01_tokyo/2010/2010_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$C$を半径1の円周とし，$A$を$C$上の1点とする．
+$C$を半径1の円周とし，$A$を$C$上の1点とする．
 3点$P$，$Q$，$R$が$A$を時刻$t=0$に出発し，
 $C$上を各々一定の速さで，$P$，$Q$は反時計回りに，$R$は時計回りに，時刻$t=2\pi$まで動く．
 $P$，$Q$，$R$の速さは，それぞれ$m$，1，2であるとする．

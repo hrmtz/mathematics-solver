@@ -3,6 +3,7 @@ title: "大阪大学 2017年 2017_2"
 problem_id: "06_osaka-2017-2017_2"
 university: "大阪大学"
 exam_year: "2017"
+problem_number: 2
 source_tex: "archive/06_osaka/2017/2017_2.tex"
 pdf_source: "archive/06_osaka/2017/2017_2.pdf"
 page_image: "archive/06_osaka/2017/2017_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　複素数$z$は$z^5=1$を満たし，実部と虚部がともに正であるものとする．
+複素数$z$は$z^5=1$を満たし，実部と虚部がともに正であるものとする．
 硬貨を投げて表が出れば1，裏が出れば0とし，
 5回投げて出た順に$a_0, \, a_1, \, a_2, \, a_3, \, a_4$とおく．
 複素数$w$を$w=a_0+a_1z+a_2z^2+a_3z^3+a_4z^4$と定める．

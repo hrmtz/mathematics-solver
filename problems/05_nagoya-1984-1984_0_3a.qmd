@@ -3,6 +3,7 @@ title: "名古屋大学 1984年 1984_0_3a"
 problem_id: "05_nagoya-1984-1984_0_3a"
 university: "名古屋大学"
 exam_year: "1984"
+problem_number: 3
 source_tex: "archive/05_nagoya/1984/1984_0_3a.tex"
 pdf_source: "archive/05_nagoya/1984/1984_0_3a.pdf"
 page_image: "archive/05_nagoya/1984/1984_0_3a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (a)
-　次の2つの条件を満たす3次の整式を求めよ．
+次の2つの条件を満たす3次の整式を求めよ．
 \begin{description}
 \item[(i)]${(x-2)}^2$で割った余りは$2x+1$である．
 \item[(ii)]$x=1$で極値2をとる．

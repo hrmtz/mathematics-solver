@@ -3,6 +3,7 @@ title: "京都大学 1984年 1984_6"
 problem_id: "02_kyoto-1984-1984_6"
 university: "京都大学"
 exam_year: "1984"
+problem_number: 6
 source_tex: "archive/02_kyoto/1984/1984_6.tex"
 pdf_source: "archive/02_kyoto/1984/1984_6.pdf"
 page_image: "archive/02_kyoto/1984/1984_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　区間$[a,b]=\{ x|a \leqq x \leqq b \}$で定義された関数$f(x)$について，次のことを仮定する．
+区間$[a,b]=\{ x|a \leqq x \leqq b \}$で定義された関数$f(x)$について，次のことを仮定する．
 \begin{description}
 \item[(イ)]関数$f(x)$は連続であり，更に$f(x)$およびその導関数$f'(x)$について，
 微分と積分を自由に行うことができる．

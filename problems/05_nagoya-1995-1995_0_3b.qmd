@@ -3,6 +3,7 @@ title: "名古屋大学 1995年 1995_0_3b"
 problem_id: "05_nagoya-1995-1995_0_3b"
 university: "名古屋大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/05_nagoya/1995/1995_0_3b.tex"
 pdf_source: "archive/05_nagoya/1995/1995_0_3b.pdf"
 page_image: "archive/05_nagoya/1995/1995_0_3b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (b)
-　2次の行列$A=\begin{pmatrix} 1 & a 
+2次の行列$A=\begin{pmatrix} 1 & a 
 
  b & ab \end{pmatrix}$が
 条件：$A^2\begin{pmatrix} 1 

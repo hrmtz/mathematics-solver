@@ -3,6 +3,7 @@ title: "東北大学 2010年 2010_0_c"
 problem_id: "04_tohoku-2010-2010_0_c"
 university: "東北大学"
 exam_year: "2010"
+problem_number: 3
 source_tex: "archive/04_tohoku/2010/2010_0_c.tex"
 pdf_source: "archive/04_tohoku/2010/2010_0_c.pdf"
 page_image: "archive/04_tohoku/2010/2010_0_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$n$を2以上の自然数とし，
+$n$を2以上の自然数とし，
 1回の対戦で勝つ確率が$\displaystyle\frac{1}{2}$のチームが$n$回試合をする．
 以下の問いに答えよ．
 \begin{description}

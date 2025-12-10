@@ -3,6 +3,7 @@ title: "大阪大学 2002年 2002_0_1"
 problem_id: "06_osaka-2002-2002_0_1"
 university: "大阪大学"
 exam_year: "2002"
+problem_number: 1
 source_tex: "archive/06_osaka/2002/2002_0_1.tex"
 pdf_source: "archive/06_osaka/2002/2002_0_1.pdf"
 page_image: "archive/06_osaka/2002/2002_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]実数の定数$p$に対して，3次方程式$x^3+x-p=0$の実数解の個数は1個であることを示せ．
 \item[(2)]$p$，$q$は定数で$p\geqq2$，$q\geqq2$とする．

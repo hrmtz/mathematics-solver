@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_2"
 problem_id: "07_kyushu-1998-1998_2"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 2
 source_tex: "archive/07_kyushu/1998/1998_2.tex"
 pdf_source: "archive/07_kyushu/1998/1998_2.pdf"
 page_image: "archive/07_kyushu/1998/1998_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　右図のように円周を12等分する点
+右図のように円周を12等分する点
 $A, \, B, \, C, \, D, \, E, \, F, \, G, \, H, \, I, \, J, \, K, \, L$
 が与えられている．
 これらの中から相異なる3点を選んで線分で結ぶと三角形がえられる．

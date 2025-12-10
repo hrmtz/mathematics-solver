@@ -3,6 +3,7 @@ title: "大阪大学 1979年 1979_5"
 problem_id: "06_osaka-1979-1979_5"
 university: "大阪大学"
 exam_year: "1979"
+problem_number: 5
 source_tex: "archive/06_osaka/1979/1979_5.tex"
 pdf_source: "archive/06_osaka/1979/1979_5.pdf"
 page_image: "archive/06_osaka/1979/1979_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　1から$n$までの整数のどれか1つをカードに書いて，
+1から$n$までの整数のどれか1つをカードに書いて，
 数1を書いたカードを1枚，2を書いたカードを2枚，
 以下同様に$n$を書いたカードを$n$枚作り，
 これらを箱の中に入れる．

@@ -3,6 +3,7 @@ title: "東京科学大学 1964年 1964_5"
 problem_id: "08_titech-1964-1964_5"
 university: "東京科学大学"
 exam_year: "1964"
+problem_number: 5
 source_tex: "archive/08_titech/1964/1964_5.tex"
 pdf_source: "archive/08_titech/1964/1964_5.pdf"
 page_image: "archive/08_titech/1964/1964_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$\displaystyle\int_{-1}^1f(x)dx=1$，
+$\displaystyle\int_{-1}^1f(x)dx=1$，
 $\displaystyle\int_{-1}^1xf(x)dx=0$を満たす関数$f(x)=ax+b$に対して
 $\displaystyle G(t)=\int_{-1}^tf(x)dx$，
 $\displaystyle A=\int_{-1}^1x^2f(x)dx$，

@@ -3,6 +3,7 @@ title: "北海道大学 2010年 2010_0_4"
 problem_id: "03_hokudai-2010-2010_0_4"
 university: "北海道大学"
 exam_year: "2010"
+problem_number: 4
 source_tex: "archive/03_hokudai/2010/2010_0_4.tex"
 pdf_source: "archive/03_hokudai/2010/2010_0_4.pdf"
 page_image: "archive/03_hokudai/2010/2010_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　直角三角形$ABC$において，$\displaystyle\angle C=\frac{\pi}{2}$，$AB=1$であるとする．
+直角三角形$ABC$において，$\displaystyle\angle C=\frac{\pi}{2}$，$AB=1$であるとする．
 $\angle B=\theta$とおく．
 点$C$から辺$AB$に垂線$CD$を下ろし，点$D$から辺$BC$に垂線$DE$を下ろす．
 $AE$と$CD$の交点を$F$とする．

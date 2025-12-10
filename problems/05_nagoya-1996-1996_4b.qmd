@@ -3,6 +3,7 @@ title: "名古屋大学 1996年 1996_4b"
 problem_id: "05_nagoya-1996-1996_4b"
 university: "名古屋大学"
 exam_year: "1996"
+problem_number: 4
 source_tex: "archive/05_nagoya/1996/1996_4b.tex"
 pdf_source: "archive/05_nagoya/1996/1996_4b.pdf"
 page_image: "archive/05_nagoya/1996/1996_4b.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-4 (b)
 \[ f_0(x)=1, \hspace{1zw} f_1(x)=1-x, \hspace{1zw} \cdots, \hspace{1zw}
 f_n(x)=1-x+\frac{x^2}{2 \, !}-\frac{x^3}{3 \, !}+\cdots+\frac{{(-1)}^nx^n}{n \, !}, \hspace{1zw} \cdots \]
 とおく．このとき，次を示せ．

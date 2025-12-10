@@ -3,6 +3,7 @@ title: "京都大学 2018年 2018_6"
 problem_id: "02_kyoto-2018-2018_6"
 university: "京都大学"
 exam_year: "2018"
+problem_number: 6
 source_tex: "archive/02_kyoto/2018/2018_6.tex"
 pdf_source: "archive/02_kyoto/2018/2018_6.pdf"
 page_image: "archive/02_kyoto/2018/2018_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　四面体$ABCD$は$AC=BD$，$AD=BC$を満たすとし，
+四面体$ABCD$は$AC=BD$，$AD=BC$を満たすとし，
 辺$AB$の中点を$P$，辺$CD$の中点を$Q$とする．
 \begin{description}
 \item[(1)]辺$AB$と線分$PQ$は垂直であることを示せ．

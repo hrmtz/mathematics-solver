@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_5"
 problem_id: "02_kyoto-1999-1999_5"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 5
 source_tex: "archive/02_kyoto/1999/1999_5.tex"
 pdf_source: "archive/02_kyoto/1999/1999_5.pdf"
 page_image: "archive/02_kyoto/1999/1999_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　以下の問に答えよ．
+以下の問に答えよ．
 ただし$\sqrt2$，$\sqrt3$，$\sqrt6$が無理数であることは使ってよい．
 \begin{description}
 \item[(1)]有理数$p$，$q$，$r$について，$p+q\sqrt2+r\sqrt3=0$ならば，$p=q=r=0$であることを示せ．

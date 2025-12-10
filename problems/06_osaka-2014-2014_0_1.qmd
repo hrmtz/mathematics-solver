@@ -3,6 +3,7 @@ title: "大阪大学 2014年 2014_0_1"
 problem_id: "06_osaka-2014-2014_0_1"
 university: "大阪大学"
 exam_year: "2014"
+problem_number: 1
 source_tex: "archive/06_osaka/2014/2014_0_1.tex"
 pdf_source: "archive/06_osaka/2014/2014_0_1.pdf"
 page_image: "archive/06_osaka/2014/2014_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$i$は虚数単位とし，実数$a$，$b$は$a^2+b^2>0$を満たす定数とする．
+$i$は虚数単位とし，実数$a$，$b$は$a^2+b^2>0$を満たす定数とする．
 複素数$(a+bi)(x+yi)$の実部が2に等しいような座標平面上の点$(x, \, y)$全体の集合を$L_1$とし，
 また$(a+bi)(x+yi)$の虚部が$-3$に等しいような座標平面上の点$(x, \, y)$全体の集合を$L_2$とする．
 \begin{description}

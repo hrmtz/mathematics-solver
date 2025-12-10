@@ -3,6 +3,7 @@ title: "九州大学 1993年 1993_0_2"
 problem_id: "07_kyushu-1993-1993_0_2"
 university: "九州大学"
 exam_year: "1993"
+problem_number: 2
 source_tex: "archive/07_kyushu/1993/1993_0_2.tex"
 pdf_source: "archive/07_kyushu/1993/1993_0_2.pdf"
 page_image: "archive/07_kyushu/1993/1993_0_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　1次変換$\begin{pmatrix} x' 
+1次変換$\begin{pmatrix} x' 
 
  y' \end{pmatrix}=
 \begin{pmatrix} a & b 

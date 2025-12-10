@@ -3,6 +3,7 @@ title: "京都大学 2015年 2015_6"
 problem_id: "02_kyoto-2015-2015_6"
 university: "京都大学"
 exam_year: "2015"
+problem_number: 6
 source_tex: "archive/02_kyoto/2015/2015_6.tex"
 pdf_source: "archive/02_kyoto/2015/2015_6.pdf"
 page_image: "archive/02_kyoto/2015/2015_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　2つの関数を
+2つの関数を
 \[ f_0(x)=\frac{x}{2}, \hspace{1zw} f_1(x)=\frac{x+1}{2} \]
 とおく．$\displaystyle x_0=\frac{1}{2}$から始め，各$n=1, \, 2, \, \cdots$について，
 それぞれ確率$\displaystyle\frac{1}{2}$で$x_n=f_0(x_{n-1})$または$x_n=f_1(x_{n-1})$と定める．

@@ -3,6 +3,7 @@ title: "東京大学 1995年 1995_2"
 problem_id: "01_tokyo-1995-1995_2"
 university: "東京大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/01_tokyo/1995/1995_2.tex"
 pdf_source: "archive/01_tokyo/1995/1995_2.pdf"
 page_image: "archive/01_tokyo/1995/1995_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$f(x)=1-\sin x$に対し，
+$f(x)=1-\sin x$に対し，
 $\displaystyle g(x)=\int_0^x(x-t)f(t)dt$とおく．
 　このとき，任意の実数$x$，$y$について
 \[ g(x+y)+g(x-y) \geqq 2g(x) \]

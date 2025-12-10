@@ -3,6 +3,7 @@ title: "東京大学 2003年 2003_9"
 problem_id: "01_tokyo-2003-2003_9"
 university: "東京大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/01_tokyo/2003/2003_9.tex"
 pdf_source: "archive/01_tokyo/2003/2003_9.pdf"
 page_image: "archive/01_tokyo/2003/2003_9.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]すべての$n$について$a_n\geqq2$であるような数列$\{ a_n \}$が与えられたとして数列$\{ x_n \}$に関する漸化式
 \[ (A) \hspace{1zw} x_{n+2}-a_{n+1}x_{n+1}+x_n=0 \hspace{1zw} (n=0,1,2,\cdots) \]

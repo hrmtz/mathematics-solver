@@ -3,6 +3,7 @@ title: "東京大学 2006年 2006_1"
 problem_id: "01_tokyo-2006-2006_1"
 university: "東京大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/01_tokyo/2006/2006_1.tex"
 pdf_source: "archive/01_tokyo/2006/2006_1.pdf"
 page_image: "archive/01_tokyo/2006/2006_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$O$を原点とする座標平面上の4点$P_1$，$P_2$，$P_3$，$P_4$で，条件
+$O$を原点とする座標平面上の4点$P_1$，$P_2$，$P_3$，$P_4$で，条件
 \[ \overrightarrow{OP_{n-1}}+\overrightarrow{OP_{n+1}}=\frac{3}{2}\overrightarrow{OP_n} \hspace{1zw} (n=2,3) \]
 を満たすものを考える．このとき，以下の問いに答えよ．
 \begin{description}

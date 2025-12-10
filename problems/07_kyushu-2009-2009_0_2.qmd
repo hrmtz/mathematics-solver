@@ -3,6 +3,7 @@ title: "九州大学 2009年 2009_0_2"
 problem_id: "07_kyushu-2009-2009_0_2"
 university: "九州大学"
 exam_year: "2009"
+problem_number: 2
 source_tex: "archive/07_kyushu/2009/2009_0_2.tex"
 pdf_source: "archive/07_kyushu/2009/2009_0_2.pdf"
 page_image: "archive/07_kyushu/2009/2009_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標平面に3点$O(0, \, 0)$，$A(2, \, 6)$，$B(3, \, 4)$をとり，
+座標平面に3点$O(0, \, 0)$，$A(2, \, 6)$，$B(3, \, 4)$をとり，
 点$O$から直線$AB$に垂線$OC$を下ろす．
 また，実数$s$と$t$に対し，点$P$を
 \[ \overrightarrow{OP}=s\overrightarrow{OA}+t\overrightarrow{OB} \]

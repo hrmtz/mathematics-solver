@@ -3,6 +3,7 @@ title: "九州大学 1970年 1970_0_5"
 problem_id: "07_kyushu-1970-1970_0_5"
 university: "九州大学"
 exam_year: "1970"
+problem_number: 5
 source_tex: "archive/07_kyushu/1970/1970_0_5.tex"
 pdf_source: "archive/07_kyushu/1970/1970_0_5.pdf"
 page_image: "archive/07_kyushu/1970/1970_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$f(x)$は1次関数，$g(x)$は2次関数で
+$f(x)$は1次関数，$g(x)$は2次関数で
 \[ \int_{-1}^1f(x)dx=\int_{-1}^1g(x)dx=\int_{-1}^1f(x)g(x)dx=0 \hspace{1zw}
 \int_{-1}^1{\{ f(x) \}}^2dx=\int_{-1}^1{\{ g(x) \}}^2dx=1 \]
 という関係が成り立つとする．

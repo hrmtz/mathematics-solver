@@ -3,6 +3,7 @@ title: "東北大学 1967年 1967_4"
 problem_id: "04_tohoku-1967-1967_4"
 university: "東北大学"
 exam_year: "1967"
+problem_number: 4
 source_tex: "archive/04_tohoku/1967/1967_4.tex"
 pdf_source: "archive/04_tohoku/1967/1967_4.pdf"
 page_image: "archive/04_tohoku/1967/1967_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　関数$f(x)$が
+関数$f(x)$が
 \[ f'(x)=-2e^{2x}\sin2x+2f(x) \]
 \[ f''(x)=-8e^{2x}\sin2x+4e^{2x} \]
 を満たすとき

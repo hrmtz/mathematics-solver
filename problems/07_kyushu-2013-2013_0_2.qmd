@@ -3,6 +3,7 @@ title: "九州大学 2013年 2013_0_2"
 problem_id: "07_kyushu-2013-2013_0_2"
 university: "九州大学"
 exam_year: "2013"
+problem_number: 2
 source_tex: "archive/07_kyushu/2013/2013_0_2.tex"
 pdf_source: "archive/07_kyushu/2013/2013_0_2.pdf"
 page_image: "archive/07_kyushu/2013/2013_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標平面上で，次の連立不等式の表す領域を$D$とする。
+座標平面上で，次の連立不等式の表す領域を$D$とする。
 \[ x+2y\leqq5, \hspace{1zw} 3x+y\leqq8, \hspace{1zw} -2x-y\leqq4, \hspace{1zw} -x-4y\leqq7 \]
 点$P(x, \, y)$が領域$D$内を動くとき，$x+y$の値が最大となる点を$Q$とし，最小となる点を$R$とする。
 以下の問いに答えよ。

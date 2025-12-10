@@ -3,6 +3,7 @@ title: "東北大学 2004年 2004_4"
 problem_id: "04_tohoku-2004-2004_4"
 university: "東北大学"
 exam_year: "2004"
+problem_number: 4
 source_tex: "archive/04_tohoku/2004/2004_4.tex"
 pdf_source: "archive/04_tohoku/2004/2004_4.pdf"
 page_image: "archive/04_tohoku/2004/2004_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　手作りのサイコロがあり，
+手作りのサイコロがあり，
 1から6のそれぞれの目の出る確率$p_1$，$p_2$，$p_3$，$p_4$，$p_5$，$p_6$で表す．
 ここで
 \[ p_1+p_2+p_3+p_4+p_5+p_6, \hspace{1zw} p_1=p_6, \hspace{1zw} p_2=p_5, \hspace{1zw} p_3=p_4 \]

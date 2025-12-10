@@ -3,6 +3,7 @@ title: "北海道大学 1965年 1965_4"
 problem_id: "03_hokudai-1965-1965_4"
 university: "北海道大学"
 exam_year: "1965"
+problem_number: 4
 source_tex: "archive/03_hokudai/1965/1965_4.tex"
 pdf_source: "archive/03_hokudai/1965/1965_4.pdf"
 page_image: "archive/03_hokudai/1965/1965_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$|x|\leqq1$である$x$に対する$f(x)=|x^3-3a^2x|$の最大値を$M$とするとき，
+$|x|\leqq1$である$x$に対する$f(x)=|x^3-3a^2x|$の最大値を$M$とするとき，
 $M$を最小にする$a$の値を求めよ。
 また$|a|\leqq1$の範囲で$a$と$M$との関係を表わすグラフをかけ。
 

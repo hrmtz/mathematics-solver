@@ -3,6 +3,7 @@ title: "北海道大学 1984年 1984_2"
 problem_id: "03_hokudai-1984-1984_2"
 university: "北海道大学"
 exam_year: "1984"
+problem_number: 2
 source_tex: "archive/03_hokudai/1984/1984_2.tex"
 pdf_source: "archive/03_hokudai/1984/1984_2.pdf"
 page_image: "archive/03_hokudai/1984/1984_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　空間に4点$A(1, \, 2, \, 2)$，$B(0, \, 0, \, -1)$，$C(2, \, 2, \, 3)$，$D(0, \, 1, \, -2)$をとる．
+空間に4点$A(1, \, 2, \, 2)$，$B(0, \, 0, \, -1)$，$C(2, \, 2, \, 3)$，$D(0, \, 1, \, -2)$をとる．
 実数$t$に対して，点$P$，$Q$を
 $\overrightarrow{AP}=t\overrightarrow{AC}$，$\overrightarrow{BQ}=t\overrightarrow{BD}$によって定め，
 線分$PQ$の中点を通りこの線分に垂直な平面を$\alpha$とする．

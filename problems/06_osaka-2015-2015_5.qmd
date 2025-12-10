@@ -3,6 +3,7 @@ title: "大阪大学 2015年 2015_5"
 problem_id: "06_osaka-2015-2015_5"
 university: "大阪大学"
 exam_year: "2015"
+problem_number: 5
 source_tex: "archive/06_osaka/2015/2015_5.tex"
 pdf_source: "archive/06_osaka/2015/2015_5.pdf"
 page_image: "archive/06_osaka/2015/2015_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$n$を2以上の整数とする．
+$n$を2以上の整数とする．
 正方形の形に並んだ$n \times n$のマスに0または1のいずれかの数字を入れる．
 マスは上から第1行，第2行，$\dots$，左から第1列，第2列，$\dots$，と数える．
 数字の入れ方についての次の条件$p$を考える．

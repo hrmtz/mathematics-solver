@@ -3,6 +3,7 @@ title: "東北大学 1977年 1977_2"
 problem_id: "04_tohoku-1977-1977_2"
 university: "東北大学"
 exam_year: "1977"
+problem_number: 2
 source_tex: "archive/04_tohoku/1977/1977_2.tex"
 pdf_source: "archive/04_tohoku/1977/1977_2.pdf"
 page_image: "archive/04_tohoku/1977/1977_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　2つのさいころを同時に投げる試行を$T$とする．
+2つのさいころを同時に投げる試行を$T$とする．
 \begin{description}
 \item[(1)]試行$T$を1回行ったとき，出た目の数の和を$X$とし，$X$の確率分布を求めて表にせよ．
 \item[(2)]$X$の期待値を求めよ．

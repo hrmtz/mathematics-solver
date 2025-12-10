@@ -3,6 +3,7 @@ title: "東京科学大学 ao年 2007_c"
 problem_id: "08_titech-ao-2007_c"
 university: "東京科学大学"
 exam_year: "ao"
+problem_number: 3
 source_tex: "archive/08_titech/ao/2007_c.tex"
 pdf_source: "archive/08_titech/ao/2007_c.pdf"
 page_image: "archive/08_titech/ao/2007_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　正の実数$a$，$b$に対して、以下の条件(1)，(2)，(3)を満たす関数$f(x)$が存在することを証明せよ．
+正の実数$a$，$b$に対して、以下の条件(1)，(2)，(3)を満たす関数$f(x)$が存在することを証明せよ．
 \begin{description}
 \item[(1)]$f(x)$は$0 \leqq x \leqq a$における連続な実数値関数で，$f(0)=b$，$f(a)=0$を満たす．
 \item[(2)]$0 \leqq x_1<x_2 \leqq a$なるすべての$x_1$，$x_2$に対して$f(x_1)>f(x_2)$である．

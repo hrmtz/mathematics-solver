@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_f"
 problem_id: "02_kyoto-1995-1995_f"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 6
 source_tex: "archive/02_kyoto/1995/1995_f.tex"
 pdf_source: "archive/02_kyoto/1995/1995_f.pdf"
 page_image: "archive/02_kyoto/1995/1995_f.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　曲線$\displaystyle C:y=\frac{1}{x}$ $(x>0)$，3点$A=(a,0)$，$R=(4,0)$，$Q=(0,2)$を考える．
+曲線$\displaystyle C:y=\frac{1}{x}$ $(x>0)$，3点$A=(a,0)$，$R=(4,0)$，$Q=(0,2)$を考える．
 ただし$0<a<4$とする．
 点$A$から$C$に接線$L_a$をひき，その$y$軸との交点を$B$，原点を$O$とする．
 \begin{description}

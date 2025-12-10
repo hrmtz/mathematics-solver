@@ -3,6 +3,7 @@ title: "北海道大学 1972年 1972_0_3"
 problem_id: "03_hokudai-1972-1972_0_3"
 university: "北海道大学"
 exam_year: "1972"
+problem_number: 3
 source_tex: "archive/03_hokudai/1972/1972_0_3.tex"
 pdf_source: "archive/03_hokudai/1972/1972_0_3.pdf"
 page_image: "archive/03_hokudai/1972/1972_0_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]正の定数$a$，$b$に対して，正の数$x$，$y$が$ax+by\leqq1$の条件を満たして変わるとき，
 積$xy$の最大値$M$を求めよ．

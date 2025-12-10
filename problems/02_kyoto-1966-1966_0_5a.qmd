@@ -3,6 +3,7 @@ title: "京都大学 1966年 1966_0_5a"
 problem_id: "02_kyoto-1966-1966_0_5a"
 university: "京都大学"
 exam_year: "1966"
+problem_number: 5
 source_tex: "archive/02_kyoto/1966/1966_0_5a.tex"
 pdf_source: "archive/02_kyoto/1966/1966_0_5a.pdf"
 page_image: "archive/02_kyoto/1966/1966_0_5a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 新
-　$f(x)=x^3-6x^2+8$とし，$0 \leqq x \leqq r$における$|f(x)|$の最大値を$M(r)$とするとき，
+$f(x)=x^3-6x^2+8$とし，$0 \leqq x \leqq r$における$|f(x)|$の最大値を$M(r)$とするとき，
 積分$\displaystyle\int_0^5M(r)dr$を求めよ．
 
 ---

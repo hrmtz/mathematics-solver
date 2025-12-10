@@ -3,6 +3,7 @@ title: "九州大学 2005年 2005_0_1"
 problem_id: "07_kyushu-2005-2005_0_1"
 university: "九州大学"
 exam_year: "2005"
+problem_number: 1
 source_tex: "archive/07_kyushu/2005/2005_0_1.tex"
 pdf_source: "archive/07_kyushu/2005/2005_0_1.pdf"
 page_image: "archive/07_kyushu/2005/2005_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$を正の実数とし，点$\displaystyle A \left(0, \, a+\frac{1}{2a}\right)$と
+$a$を正の実数とし，点$\displaystyle A \left(0, \, a+\frac{1}{2a}\right)$と
 曲線$C:y=ax^2$ $(x\geqq0)$を考える．
 曲線$C$上の点で，点$A$との距離が最小となるものを$P$とする．
 このとき，次の問いに答えよ．

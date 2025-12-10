@@ -3,6 +3,7 @@ title: "東北大学 2007年 2007_a"
 problem_id: "04_tohoku-2007-2007_a"
 university: "東北大学"
 exam_year: "2007"
+problem_number: 1
 source_tex: "archive/04_tohoku/2007/2007_a.tex"
 pdf_source: "archive/04_tohoku/2007/2007_a.pdf"
 page_image: "archive/04_tohoku/2007/2007_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$0 \leqq x <2\pi$の範囲で次の方程式の解を求めよ．
+$0 \leqq x <2\pi$の範囲で次の方程式の解を求めよ．
 \begin{description}
 \item[(1)]$\sin^3x+\cos^3x=1$
 \item[(2)]$\sin^3x+\cos^3x+\sin x=2$

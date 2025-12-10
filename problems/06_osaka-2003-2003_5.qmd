@@ -3,6 +3,7 @@ title: "大阪大学 2003年 2003_5"
 problem_id: "06_osaka-2003-2003_5"
 university: "大阪大学"
 exam_year: "2003"
+problem_number: 5
 source_tex: "archive/06_osaka/2003/2003_5.tex"
 pdf_source: "archive/06_osaka/2003/2003_5.pdf"
 page_image: "archive/06_osaka/2003/2003_5.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(1)]平面上において座標軸に平行な主軸(長軸，短軸)をもち，
 $x$軸，$y$軸の両方に接する楕円を考える．

@@ -3,6 +3,7 @@ title: "東京大学 1994年 1994_7"
 problem_id: "01_tokyo-1994-1994_7"
 university: "東京大学"
 exam_year: "1994"
+problem_number: 1
 source_tex: "archive/01_tokyo/1994/1994_7.tex"
 pdf_source: "archive/01_tokyo/1994/1994_7.pdf"
 page_image: "archive/01_tokyo/1994/1994_7.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　正の整数$m$と$k=1,2,\cdots,m$に対して$0 \leqq a_k \leqq k$を満たす整数$a_1,\cdots,a_m$があたえられたときに
+正の整数$m$と$k=1,2,\cdots,m$に対して$0 \leqq a_k \leqq k$を満たす整数$a_1,\cdots,a_m$があたえられたときに
 \[ {[a_m,a_{m-1},\cdots,a_1]}_m = a_m \cdot m \, ! + a_{m-1} \cdot (m-1) \, ! + \cdots + a_1 \cdot \, ! \]
 とおく．ただし$a_m \neq 0$とする．
 \begin{description}

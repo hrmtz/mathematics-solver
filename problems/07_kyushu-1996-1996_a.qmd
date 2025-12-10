@@ -3,6 +3,7 @@ title: "九州大学 1996年 1996_a"
 problem_id: "07_kyushu-1996-1996_a"
 university: "九州大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/07_kyushu/1996/1996_a.tex"
 pdf_source: "archive/07_kyushu/1996/1996_a.pdf"
 page_image: "archive/07_kyushu/1996/1996_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$t$を正の実数とする．
+$t$を正の実数とする．
 曲線$y=x^2$上の相異なる2点$P(t, \, t^2)$，$Q(s, \, s^2)$に対し，
 点$P$におけるこの曲線の法線$h$と線分$PQ$の垂直二等分線$l$との交点を$R$とする．
 \begin{description}

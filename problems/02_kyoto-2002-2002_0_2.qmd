@@ -3,6 +3,7 @@ title: "京都大学 2002年 2002_0_2"
 problem_id: "02_kyoto-2002-2002_0_2"
 university: "京都大学"
 exam_year: "2002"
+problem_number: 2
 source_tex: "archive/02_kyoto/2002/2002_0_2.tex"
 pdf_source: "archive/02_kyoto/2002/2002_0_2.pdf"
 page_image: "archive/02_kyoto/2002/2002_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　四角形$ABCD$を底面とする四角錐$OABCD$は
+四角形$ABCD$を底面とする四角錐$OABCD$は
 $\overrightarrow{OA}+\overrightarrow{OC}=\overrightarrow{OB}+\overrightarrow{OD}$を満たしており，
 0と異なる4つの実数$p$，$q$，$r$，$s$に対して4点$P$，$Q$，$R$，$S$を
 $\overrightarrow{OP}=p\overrightarrow{OA}$，$\overrightarrow{OQ}=q\overrightarrow{OB}$，

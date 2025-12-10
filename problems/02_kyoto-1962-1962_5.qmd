@@ -3,6 +3,7 @@ title: "京都大学 1962年 1962_5"
 problem_id: "02_kyoto-1962-1962_5"
 university: "京都大学"
 exam_year: "1962"
+problem_number: 5
 source_tex: "archive/02_kyoto/1962/1962_5.tex"
 pdf_source: "archive/02_kyoto/1962/1962_5.pdf"
 page_image: "archive/02_kyoto/1962/1962_5.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(イ)]すべての実数$x$に対して定義された函数
 \[ f(x)=\sqrt2a\pi x+\cos\pi x+\sin\pi x \hspace{1zw} (a\text{は正の定数})\]

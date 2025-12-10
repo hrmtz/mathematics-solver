@@ -3,6 +3,7 @@ title: "大阪大学 1988年 1988_0_d"
 problem_id: "06_osaka-1988-1988_0_d"
 university: "大阪大学"
 exam_year: "1988"
+problem_number: 4
 source_tex: "archive/06_osaka/1988/1988_0_d.tex"
 pdf_source: "archive/06_osaka/1988/1988_0_d.pdf"
 page_image: "archive/06_osaka/1988/1988_0_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$a$は実数とし，$S_0$，$S_a$をそれぞれ点$(0, \, 0, \, 0)$，$(a, \, 0, \, 0)$を中心とする
+$a$は実数とし，$S_0$，$S_a$をそれぞれ点$(0, \, 0, \, 0)$，$(a, \, 0, \, 0)$を中心とする
 半径1の球（内部を含む）とする．
 $S_0$と$S_a$の共通部分の体積$V(a)$を$a$を用いて表し，そのグラフをかけ．
 

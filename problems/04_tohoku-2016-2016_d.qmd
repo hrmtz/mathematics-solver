@@ -3,6 +3,7 @@ title: "東北大学 2016年 2016_d"
 problem_id: "04_tohoku-2016-2016_d"
 university: "東北大学"
 exam_year: "2016"
+problem_number: 4
 source_tex: "archive/04_tohoku/2016/2016_d.tex"
 pdf_source: "archive/04_tohoku/2016/2016_d.pdf"
 page_image: "archive/04_tohoku/2016/2016_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xy$平面において曲線$y=2\sqrt{1-x^2}$ $(-1 \leqq x \leqq 1)$と$x$軸との交点を
+$xy$平面において曲線$y=2\sqrt{1-x^2}$ $(-1 \leqq x \leqq 1)$と$x$軸との交点を
 $A(1, \, 0)$，$B(-1, \, 0)$とし，$y$軸との交点を$C(0, \, 2)$，原点を$O$とする。
 このとき，以下の問いに答えよ。
 \begin{description}

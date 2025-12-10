@@ -3,6 +3,7 @@ title: "北海道大学 2004年 2004_0_3"
 problem_id: "03_hokudai-2004-2004_0_3"
 university: "北海道大学"
 exam_year: "2004"
+problem_number: 3
 source_tex: "archive/03_hokudai/2004/2004_0_3.tex"
 pdf_source: "archive/03_hokudai/2004/2004_0_3.pdf"
 page_image: "archive/03_hokudai/2004/2004_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　1辺の長さが1の立方体$ABCD-EFGH$がある．
+1辺の長さが1の立方体$ABCD-EFGH$がある．
 3点$A$，$C$，$F$を含む平面と直線$BH$の交点を$P$，
 $P$から面$ABCD$に下ろした垂線の足を$Q$とする．
  

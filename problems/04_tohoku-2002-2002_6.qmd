@@ -3,6 +3,7 @@ title: "東北大学 2002年 2002_6"
 problem_id: "04_tohoku-2002-2002_6"
 university: "東北大学"
 exam_year: "2002"
+problem_number: 6
 source_tex: "archive/04_tohoku/2002/2002_6.tex"
 pdf_source: "archive/04_tohoku/2002/2002_6.pdf"
 page_image: "archive/04_tohoku/2002/2002_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$f_1(x)$は実数全体で定義された何回でも微分可能な関数とする．
+$f_1(x)$は実数全体で定義された何回でも微分可能な関数とする．
 $f_2(x)$，$f_3(x)$，$\cdots$を次のように順次定義する．
 $n=2,3,\cdots$に対し$\displaystyle F_{n-1}(x)=\int_0^xf_{n-1}(t)dt$とおいて
 $\displaystyle f_n(x)=\int_0^xf_{n-1}(t)F_{n-1}(t)dt$とする．

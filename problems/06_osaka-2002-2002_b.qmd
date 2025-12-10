@@ -3,6 +3,7 @@ title: "大阪大学 2002年 2002_b"
 problem_id: "06_osaka-2002-2002_b"
 university: "大阪大学"
 exam_year: "2002"
+problem_number: 2
 source_tex: "archive/06_osaka/2002/2002_b.tex"
 pdf_source: "archive/06_osaka/2002/2002_b.pdf"
 page_image: "archive/06_osaka/2002/2002_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　平面上に2点$O(0, \, 0)$，$A(t^2, \, 0)$をとる．
+平面上に2点$O(0, \, 0)$，$A(t^2, \, 0)$をとる．
 $a>0$として，点$P$を$\angle OAP=at$，$AP=\sqrt{a}$となるように定める．
 次の問いに答えよ．
 \begin{description}

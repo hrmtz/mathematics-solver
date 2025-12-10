@@ -3,6 +3,7 @@ title: "大阪大学 1996年 1996_5"
 problem_id: "06_osaka-1996-1996_5"
 university: "大阪大学"
 exam_year: "1996"
+problem_number: 5
 source_tex: "archive/06_osaka/1996/1996_5.tex"
 pdf_source: "archive/06_osaka/1996/1996_5.pdf"
 page_image: "archive/06_osaka/1996/1996_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　黒玉が2個入っている箱がある．
+黒玉が2個入っている箱がある．
 いま，次のような試行を繰り返す．
 箱から無作為に玉を1個取り出す．
 もし取り出した玉が黒玉ならばさいころを投げ，

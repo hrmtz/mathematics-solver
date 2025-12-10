@@ -3,6 +3,7 @@ title: "東北大学 2017年 2017_5"
 problem_id: "04_tohoku-2017-2017_5"
 university: "東北大学"
 exam_year: "2017"
+problem_number: 5
 source_tex: "archive/04_tohoku/2017/2017_5.tex"
 pdf_source: "archive/04_tohoku/2017/2017_5.pdf"
 page_image: "archive/04_tohoku/2017/2017_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$\alpha$，$\beta$，$\gamma$を複素数とし，
+$\alpha$，$\beta$，$\gamma$を複素数とし，
 \[ z\bar{z}+\alpha z+\beta\bar{z}+\gamma=0 \hspace{1zw} \cdots\cdots\text{(＊)} \]
 を満たす複素数$z$を考える。以下の問いに答えよ。
 \begin{description}

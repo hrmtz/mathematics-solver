@@ -3,6 +3,7 @@ title: "東京大学 1970年 1970_1"
 problem_id: "01_tokyo-1970-1970_1"
 university: "東京大学"
 exam_year: "1970"
+problem_number: 1
 source_tex: "archive/01_tokyo/1970/1970_1.tex"
 pdf_source: "archive/01_tokyo/1970/1970_1.pdf"
 page_image: "archive/01_tokyo/1970/1970_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$i$を虚数単位とし$\displaystyle a=\cos\frac{\pi}{3}+i\sin\frac{\pi}{3}$とおく．
+$i$を虚数単位とし$\displaystyle a=\cos\frac{\pi}{3}+i\sin\frac{\pi}{3}$とおく．
 また$n$はすべての自然数にわたって動くとする．
 このとき，
 \begin{description}

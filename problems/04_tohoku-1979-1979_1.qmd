@@ -3,6 +3,7 @@ title: "東北大学 1979年 1979_1"
 problem_id: "04_tohoku-1979-1979_1"
 university: "東北大学"
 exam_year: "1979"
+problem_number: 1
 source_tex: "archive/04_tohoku/1979/1979_1.tex"
 pdf_source: "archive/04_tohoku/1979/1979_1.pdf"
 page_image: "archive/04_tohoku/1979/1979_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]3点$A(2, \, 0, \, 2)$，$B(2, \, 2, \, 1)$，$C(0, \, 0, \, 3)$を通る平面の方程式を求めよ．
 \item[(2)]原点$O$からこの平面に下ろした垂線の足を$D$とする．

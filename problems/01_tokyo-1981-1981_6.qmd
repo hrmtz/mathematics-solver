@@ -3,6 +3,7 @@ title: "東京大学 1981年 1981_6"
 problem_id: "01_tokyo-1981-1981_6"
 university: "東京大学"
 exam_year: "1981"
+problem_number: 6
 source_tex: "archive/01_tokyo/1981/1981_6.tex"
 pdf_source: "archive/01_tokyo/1981/1981_6.pdf"
 page_image: "archive/01_tokyo/1981/1981_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　$a$，$b$，$c$，$d$を実数の定数として，関数$f(x)=ax^3+bx^2+cx+d$を考える．
+$a$，$b$，$c$，$d$を実数の定数として，関数$f(x)=ax^3+bx^2+cx+d$を考える．
 \begin{description}
 \item[(1)]関数$f(x)$が3条件
 \begin{description}

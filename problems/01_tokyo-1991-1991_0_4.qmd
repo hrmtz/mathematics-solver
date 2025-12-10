@@ -3,6 +3,7 @@ title: "東京大学 1991年 1991_0_4"
 problem_id: "01_tokyo-1991-1991_0_4"
 university: "東京大学"
 exam_year: "1991"
+problem_number: 4
 source_tex: "archive/01_tokyo/1991/1991_0_4.tex"
 pdf_source: "archive/01_tokyo/1991/1991_0_4.pdf"
 page_image: "archive/01_tokyo/1991/1991_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　正四角錐$V$に対し，その底面上に中心を持ち，そのすべての辺と接する球がある．
+正四角錐$V$に対し，その底面上に中心を持ち，そのすべての辺と接する球がある．
 底面の一辺の長さを$a$とするとき，次の量を求めよ．
 \begin{description}
 \item[(1)]$V$の高さ

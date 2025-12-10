@@ -3,6 +3,7 @@ title: "大阪大学 2003年 2003_2"
 problem_id: "06_osaka-2003-2003_2"
 university: "大阪大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/06_osaka/2003/2003_2.tex"
 pdf_source: "archive/06_osaka/2003/2003_2.pdf"
 page_image: "archive/06_osaka/2003/2003_2.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]$0<t<1$のとき，不等式
 $\displaystyle\frac{\log t}{2}<-\frac{1-t}{1+t}$

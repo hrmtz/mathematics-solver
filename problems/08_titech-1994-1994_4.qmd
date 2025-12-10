@@ -3,6 +3,7 @@ title: "東京科学大学 1994年 1994_4"
 problem_id: "08_titech-1994-1994_4"
 university: "東京科学大学"
 exam_year: "1994"
+problem_number: 4
 source_tex: "archive/08_titech/1994/1994_4.tex"
 pdf_source: "archive/08_titech/1994/1994_4.pdf"
 page_image: "archive/08_titech/1994/1994_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　2つの負でない整数$m$，$n$に対して，和
+2つの負でない整数$m$，$n$に対して，和
 \[ \left( \sum_{k=1}^{m+n} k \right) + n \]
 を考え，これを$f(m,n)$と書くことにする．ただし$f(0,0)=0$とする．
 \begin{description}

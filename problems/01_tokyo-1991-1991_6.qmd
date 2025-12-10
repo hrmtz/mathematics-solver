@@ -3,6 +3,7 @@ title: "東京大学 1991年 1991_6"
 problem_id: "01_tokyo-1991-1991_6"
 university: "東京大学"
 exam_year: "1991"
+problem_number: 6
 source_tex: "archive/01_tokyo/1991/1991_6.tex"
 pdf_source: "archive/01_tokyo/1991/1991_6.pdf"
 page_image: "archive/01_tokyo/1991/1991_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$f(x)$は$x>0$で定義された連続な関数で，
+$f(x)$は$x>0$で定義された連続な関数で，
 $0<x_1<x_2$ならば，つねに$f(x_1)>f(x_2)>0$であるものとし，
 $\displaystyle S(x)=\int_x^{2x}f(t)dt$とおく．
 このとき，$S(1)=1$であり，

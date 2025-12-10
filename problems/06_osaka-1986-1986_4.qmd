@@ -3,6 +3,7 @@ title: "大阪大学 1986年 1986_4"
 problem_id: "06_osaka-1986-1986_4"
 university: "大阪大学"
 exam_year: "1986"
+problem_number: 4
 source_tex: "archive/06_osaka/1986/1986_4.tex"
 pdf_source: "archive/06_osaka/1986/1986_4.pdf"
 page_image: "archive/06_osaka/1986/1986_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xyz$空間内に定点$A(1, \, 1, \, 0)$，$B(-1, \, 1, \, 0)$がある．
+$xyz$空間内に定点$A(1, \, 1, \, 0)$，$B(-1, \, 1, \, 0)$がある．
 いま点$P$が$yz$平面上の半円$x=0$，$y^2+z^2=2$，$y\leqq0$の上を動くとき，
 $\triangle PAB$の周および内部の点の全体でつくられる立体$K$を考える．
 \begin{description}

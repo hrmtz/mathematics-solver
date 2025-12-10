@@ -3,6 +3,7 @@ title: "東京科学大学 2006年 2006_a"
 problem_id: "08_titech-2006-2006_a"
 university: "東京科学大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/08_titech/2006/2006_a.tex"
 pdf_source: "archive/08_titech/2006/2006_a.pdf"
 page_image: "archive/08_titech/2006/2006_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$a$，$b$を正の数とする．
+$a$，$b$を正の数とする．
 $xy$座標平面において，楕円$ax^2+by^2=1$の第4象限($x \geqq 0$，$y \leqq 0$)に含まれる部分を$C$，
 傾き$t \geqq 0$の半直線$y=tx$ $(x \geqq 0)$を$l_t$とする．
 $l_t$上の点$P$と$C$上の点$P'$を結ぶ線分$PP'$が$y$軸に平行になるように動くとき，

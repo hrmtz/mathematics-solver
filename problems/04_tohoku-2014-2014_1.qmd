@@ -3,6 +3,7 @@ title: "東北大学 2014年 2014_1"
 problem_id: "04_tohoku-2014-2014_1"
 university: "東北大学"
 exam_year: "2014"
+problem_number: 1
 source_tex: "archive/04_tohoku/2014/2014_1.tex"
 pdf_source: "archive/04_tohoku/2014/2014_1.pdf"
 page_image: "archive/04_tohoku/2014/2014_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$\displaystyle x=t+\frac{1}{3t}$ $\displaystyle \left( 0<t\leqq\frac{1}{2} \right)$とする。
+$\displaystyle x=t+\frac{1}{3t}$ $\displaystyle \left( 0<t\leqq\frac{1}{2} \right)$とする。
 \begin{description}
 \item[(1)]$x$のとり得る値の範囲を求めよ。
 \item[(2)]$x$の方程式$x^2+ax+b=0$が(1)の範囲に少なくとも1つの解をもつような

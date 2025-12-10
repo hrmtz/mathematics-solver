@@ -3,6 +3,7 @@ title: "大阪大学 1962年 1962_5"
 problem_id: "06_osaka-1962-1962_5"
 university: "大阪大学"
 exam_year: "1962"
+problem_number: 5
 source_tex: "archive/06_osaka/1962/1962_5.tex"
 pdf_source: "archive/06_osaka/1962/1962_5.pdf"
 page_image: "archive/06_osaka/1962/1962_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$\overline{AB}=x$，$\overline{AD}=y$，$x>y$であるような長方形$ABCD$がある。
+$\overline{AB}=x$，$\overline{AD}=y$，$x>y$であるような長方形$ABCD$がある。
 対角線$AC$に関する$B$の対称点を$E$，直線$AE$と直線$CD$との交点を$P$とするとき，
 三角形$PED$の面積を$x$，$y$で表わせ。
 次に，$\overline{AC}=1 \text{cm}$であるとき，

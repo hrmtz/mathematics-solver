@@ -3,6 +3,7 @@ title: "京都大学 2003年 2003_0_2"
 problem_id: "02_kyoto-2003-2003_0_2"
 university: "京都大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/02_kyoto/2003/2003_0_2.tex"
 pdf_source: "archive/02_kyoto/2003/2003_0_2.pdf"
 page_image: "archive/02_kyoto/2003/2003_0_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$xy$平面上で，放物線$C:y=x^2+x$と，直線$l:y=kx+k-1$を考える．
+$xy$平面上で，放物線$C:y=x^2+x$と，直線$l:y=kx+k-1$を考える．
 このとき次の問に答えよ．
 \begin{description}
 \item[(1)]放物線$C$と直線$l$が相異なる2点で交わるような$k$の範囲を求めよ．

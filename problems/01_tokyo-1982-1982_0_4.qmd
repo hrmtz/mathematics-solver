@@ -3,6 +3,7 @@ title: "東京大学 1982年 1982_0_4"
 problem_id: "01_tokyo-1982-1982_0_4"
 university: "東京大学"
 exam_year: "1982"
+problem_number: 4
 source_tex: "archive/01_tokyo/1982/1982_0_4.tex"
 pdf_source: "archive/01_tokyo/1982/1982_0_4.pdf"
 page_image: "archive/01_tokyo/1982/1982_0_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$A=\begin{pmatrix} \displaystyle\frac{1}{2} & \displaystyle-\frac{1}{2} 
+$A=\begin{pmatrix} \displaystyle\frac{1}{2} & \displaystyle-\frac{1}{2} 
 
  0 & 1 \end{pmatrix}$，
 $B=\begin{pmatrix} 1 & 0 

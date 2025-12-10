@@ -3,6 +3,7 @@ title: "東京大学 2017年 2017_2"
 problem_id: "01_tokyo-2017-2017_2"
 university: "東京大学"
 exam_year: "2017"
+problem_number: 2
 source_tex: "archive/01_tokyo/2017/2017_2.tex"
 pdf_source: "archive/01_tokyo/2017/2017_2.pdf"
 page_image: "archive/01_tokyo/2017/2017_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　座標平面上で$x$座標と$y$座標がいずれも整数である点を格子点という。
+座標平面上で$x$座標と$y$座標がいずれも整数である点を格子点という。
 格子点上を次の規則に従って動く点$P$を考える。
 \begin{description}
 \item[(a)]最初に，点$P$は原点$O$にある。

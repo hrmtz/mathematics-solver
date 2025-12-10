@@ -3,6 +3,7 @@ title: "北海道大学 2000年 2000_1"
 problem_id: "03_hokudai-2000-2000_1"
 university: "北海道大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/03_hokudai/2000/2000_1.tex"
 pdf_source: "archive/03_hokudai/2000/2000_1.pdf"
 page_image: "archive/03_hokudai/2000/2000_1.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]次の不等式の表す領域$D$を図示せよ．
 \[ |x| \leqq y \leqq -\frac{1}{2}x^2+3 \]

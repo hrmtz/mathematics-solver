@@ -3,6 +3,7 @@ title: "東京大学 2014年 2014_0_2"
 problem_id: "01_tokyo-2014-2014_0_2"
 university: "東京大学"
 exam_year: "2014"
+problem_number: 2
 source_tex: "archive/01_tokyo/2014/2014_0_2.tex"
 pdf_source: "archive/01_tokyo/2014/2014_0_2.pdf"
 page_image: "archive/01_tokyo/2014/2014_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$a$を自然数（すなわち1以上の整数）の定数とする。
+$a$を自然数（すなわち1以上の整数）の定数とする。
 　白球と赤球があわせて1個以上入っている袋$U$に対して，
 次の操作（＊）を考える。
 （＊）袋$U$から球を1個取り出し，

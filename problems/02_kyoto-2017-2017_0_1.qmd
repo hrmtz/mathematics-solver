@@ -3,6 +3,7 @@ title: "京都大学 2017年 2017_0_1"
 problem_id: "02_kyoto-2017-2017_0_1"
 university: "京都大学"
 exam_year: "2017"
+problem_number: 1
 source_tex: "archive/02_kyoto/2017/2017_0_1.tex"
 pdf_source: "archive/02_kyoto/2017/2017_0_1.pdf"
 page_image: "archive/02_kyoto/2017/2017_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　曲線$y=x^3-4x+1$を$C$とする．
+曲線$y=x^3-4x+1$を$C$とする．
 直線$l$は$C$の接線であり，点$P(3, \, 0)$を通るものとする．
 また，$l$の傾きは負であるとする．
 このとき，$C$と$l$で囲まれた部分の面積$S$を求めよ．

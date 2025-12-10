@@ -3,6 +3,7 @@ title: "北海道大学 1961年 1961_0_3"
 problem_id: "03_hokudai-1961-1961_0_3"
 university: "北海道大学"
 exam_year: "1961"
+problem_number: 3
 source_tex: "archive/03_hokudai/1961/1961_0_3.tex"
 pdf_source: "archive/03_hokudai/1961/1961_0_3.pdf"
 page_image: "archive/03_hokudai/1961/1961_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　3桁の整数$A$，$B$があって，$B$は900より大きく，
+3桁の整数$A$，$B$があって，$B$は900より大きく，
 $B$の常用対数の仮数は$A$の常用対数の仮数の2倍である。
 $A$，$B$を求めよ。
 

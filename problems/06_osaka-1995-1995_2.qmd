@@ -3,6 +3,7 @@ title: "大阪大学 1995年 1995_2"
 problem_id: "06_osaka-1995-1995_2"
 university: "大阪大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/06_osaka/1995/1995_2.tex"
 pdf_source: "archive/06_osaka/1995/1995_2.pdf"
 page_image: "archive/06_osaka/1995/1995_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　どのような実数$x$に対しても，不等式
+どのような実数$x$に対しても，不等式
 \[ |x^3+ax^2+bx+c|\leqq|x^3| \]
 が成り立つように，実数$a$，$b$，$c$を定めよ．
 

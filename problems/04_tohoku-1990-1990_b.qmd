@@ -3,6 +3,7 @@ title: "東北大学 1990年 1990_b"
 problem_id: "04_tohoku-1990-1990_b"
 university: "東北大学"
 exam_year: "1990"
+problem_number: 2
 source_tex: "archive/04_tohoku/1990/1990_b.tex"
 pdf_source: "archive/04_tohoku/1990/1990_b.pdf"
 page_image: "archive/04_tohoku/1990/1990_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$n=0, \, 1, \, 2, \, \cdots\cdots$に対し
+$n=0, \, 1, \, 2, \, \cdots\cdots$に対し
 \[ H_n=\{ (a, \, b, \, c) | a, \, b, \, c \text{は負でない整数で} a+b+c=n \} \]
 とおき，$H_n$の要素の個数を$h_n$とおく．
 和$\displaystyle\sum_{n=0}^\infty\frac{1}{h_n}$を求めよ．

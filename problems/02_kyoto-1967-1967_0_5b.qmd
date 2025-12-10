@@ -3,6 +3,7 @@ title: "京都大学 1967年 1967_0_5b"
 problem_id: "02_kyoto-1967-1967_0_5b"
 university: "京都大学"
 exam_year: "1967"
+problem_number: 5
 source_tex: "archive/02_kyoto/1967/1967_0_5b.tex"
 pdf_source: "archive/02_kyoto/1967/1967_0_5b.pdf"
 page_image: "archive/02_kyoto/1967/1967_0_5b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 旧
-　水平面上に3点$A$，$B$，$C$があり，$\angle BAC={90}^\circ$，$AC=AB=a$である．
+水平面上に3点$A$，$B$，$C$があり，$\angle BAC={90}^\circ$，$AC=AB=a$である．
 ある塔の頂をながめたら，$A$，$B$，$C$からの仰角はそれぞれ${45}^\circ$，${30}^\circ$，${30}^\circ$であった．
 塔の高さを$a$で表わせ．
 

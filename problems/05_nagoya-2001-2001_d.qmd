@@ -3,6 +3,7 @@ title: "名古屋大学 2001年 2001_d"
 problem_id: "05_nagoya-2001-2001_d"
 university: "名古屋大学"
 exam_year: "2001"
+problem_number: 4
 source_tex: "archive/05_nagoya/2001/2001_d.tex"
 pdf_source: "archive/05_nagoya/2001/2001_d.pdf"
 page_image: "archive/05_nagoya/2001/2001_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　ハート，スペード，クラブ，ダイヤそれぞれ13枚からなる52枚のトランプカードがある．
+ハート，スペード，クラブ，ダイヤそれぞれ13枚からなる52枚のトランプカードがある．
 つぎの各問に答えよ．
 \begin{description}
 \item[(1)]52枚のカードをよくきって，$l$枚のカードを抜き出したとき，

@@ -3,6 +3,7 @@ title: "京都大学 2023年 2023_0_3"
 problem_id: "02_kyoto-2023-2023_0_3"
 university: "京都大学"
 exam_year: "2023"
+problem_number: 3
 source_tex: "archive/02_kyoto/2023/2023_0_3.tex"
 pdf_source: "archive/02_kyoto/2023/2023_0_3.pdf"
 page_image: "archive/02_kyoto/2023/2023_0_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$\cos2\theta$と$\cos3\theta$を$\cos\theta$の式として表せ．
 \item[(2)]半径1の円に内接する正五角形の一辺の長さが

@@ -3,6 +3,7 @@ title: "大阪大学 1968年 1968_1"
 problem_id: "06_osaka-1968-1968_1"
 university: "大阪大学"
 exam_year: "1968"
+problem_number: 1
 source_tex: "archive/06_osaka/1968/1968_1.tex"
 pdf_source: "archive/06_osaka/1968/1968_1.pdf"
 page_image: "archive/06_osaka/1968/1968_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$n$を固定された自然数とする．
+$n$を固定された自然数とする．
 $1, \, 2, \, 3, \, \cdots\cdots, \, 2n$の中から，
 奇数を全部とり出して任意の順に並べたものを$a_1, \, a_2, \, \cdots\cdots, \, a_n$，
 偶数を全部とり出して任意の順に並べたものを$b_1, \, b_2, \, \cdots\cdots, \, b_n$とし，和

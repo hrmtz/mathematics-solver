@@ -3,6 +3,7 @@ title: "名古屋大学 2000年 2000_0_1"
 problem_id: "05_nagoya-2000-2000_0_1"
 university: "名古屋大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/05_nagoya/2000/2000_0_1.tex"
 pdf_source: "archive/05_nagoya/2000/2000_0_1.pdf"
 page_image: "archive/05_nagoya/2000/2000_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$を実数とする．
+$a$，$b$を実数とする．
 $xy$平面上で，直線$l:y=ax+b$は曲線$C:y=(x+1)(2-x)$と，
 $x$座標が$0 \leqq x \leqq 2$を満たす点で接しているとする．
 \begin{description}

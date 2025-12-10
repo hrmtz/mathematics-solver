@@ -3,6 +3,7 @@ title: "九州大学 1968年 1968_5"
 problem_id: "07_kyushu-1968-1968_5"
 university: "九州大学"
 exam_year: "1968"
+problem_number: 5
 source_tex: "archive/07_kyushu/1968/1968_5.tex"
 pdf_source: "archive/07_kyushu/1968/1968_5.pdf"
 page_image: "archive/07_kyushu/1968/1968_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　空間に$x$成分，$y$成分，$z$成分として次のような座標をもつ6点
+空間に$x$成分，$y$成分，$z$成分として次のような座標をもつ6点
 $A(0, \, 9, \, 2)$，$B(6, \, 7, \, 4)$，$C(-6, \, -5, \, 10)$，$D(-9, \, -3, \, 14)$，
 $P(a, \, b, \, c)$，$Q(f, \, g, \, h)$があってベクトルの間に
 $\overrightarrow{AP}=s\overrightarrow{AB}$，$\overrightarrow{OQ}=t\overrightarrow{CD}$という関係があるとする．

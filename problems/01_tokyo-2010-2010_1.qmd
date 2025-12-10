@@ -3,6 +3,7 @@ title: "東京大学 2010年 2010_1"
 problem_id: "01_tokyo-2010-2010_1"
 university: "東京大学"
 exam_year: "2010"
+problem_number: 1
 source_tex: "archive/01_tokyo/2010/2010_1.tex"
 pdf_source: "archive/01_tokyo/2010/2010_1.pdf"
 page_image: "archive/01_tokyo/2010/2010_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　3辺の長さが$a$と$b$と$c$の直方体を，
+3辺の長さが$a$と$b$と$c$の直方体を，
 長さが$b$の1辺を回転軸として${90}^\circ$回転させるとき，
 直方体が通過する点全体がつくる立体を$V$とする．
 \begin{description}

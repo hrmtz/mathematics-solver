@@ -3,6 +3,7 @@ title: "名古屋大学 1992年 1992_0_2"
 problem_id: "05_nagoya-1992-1992_0_2"
 university: "名古屋大学"
 exam_year: "1992"
+problem_number: 2
 source_tex: "archive/05_nagoya/1992/1992_0_2.tex"
 pdf_source: "archive/05_nagoya/1992/1992_0_2.pdf"
 page_image: "archive/05_nagoya/1992/1992_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　行列$X=\begin{pmatrix} t & 1 
+行列$X=\begin{pmatrix} t & 1 
 
  -1 & t \end{pmatrix}$（$t$は実数）による
 $xy$平面上の1次変換を考える．

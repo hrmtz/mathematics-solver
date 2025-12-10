@@ -3,6 +3,7 @@ title: "東北大学 1966年 1966_5"
 problem_id: "04_tohoku-1966-1966_5"
 university: "東北大学"
 exam_year: "1966"
+problem_number: 5
 source_tex: "archive/04_tohoku/1966/1966_5.tex"
 pdf_source: "archive/04_tohoku/1966/1966_5.pdf"
 page_image: "archive/04_tohoku/1966/1966_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$f(x)=\sec x-x$が極値をとる$x$の正弦の値を求めよ．
+$f(x)=\sec x-x$が極値をとる$x$の正弦の値を求めよ．
 また，曲線$y=f(x)$上の極大を与える点および極小を与える点はそれぞれ一直線上にあることを示し，
 その2直線の方程式を求めよ．
 

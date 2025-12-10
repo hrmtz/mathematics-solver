@@ -3,6 +3,7 @@ title: "京都大学 2007年 2007b_4"
 problem_id: "02_kyoto-2007-2007b_4"
 university: "京都大学"
 exam_year: "2007"
+problem_number: 4
 source_tex: "archive/02_kyoto/2007/2007b_4.tex"
 pdf_source: "archive/02_kyoto/2007/2007b_4.pdf"
 page_image: "archive/02_kyoto/2007/2007b_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　点$O$を中心とする円に内接する$\triangle ABC$の3辺$AB$，$BC$，$CA$をそれぞれ$2:3$に内分する点を$P$，$Q$，$R$とする．
+点$O$を中心とする円に内接する$\triangle ABC$の3辺$AB$，$BC$，$CA$をそれぞれ$2:3$に内分する点を$P$，$Q$，$R$とする．
 $\triangle PQR$の外心が点$O$と一致するとき，$\triangle ABC$はどのような三角形か．
 
 ---

@@ -3,6 +3,7 @@ title: "東京大学 1997年 1997_0_1"
 problem_id: "01_tokyo-1997-1997_0_1"
 university: "東京大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/01_tokyo/1997/1997_0_1.tex"
 pdf_source: "archive/01_tokyo/1997/1997_0_1.pdf"
 page_image: "archive/01_tokyo/1997/1997_0_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$a$，$b$は実数で
+$a$，$b$は実数で
 \[ a^2+b^2=16, \hspace{1zw} a^3+b^3=44 \]
 を満たしている．このとき，
 \begin{description}

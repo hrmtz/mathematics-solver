@@ -3,6 +3,7 @@ title: "大阪大学 1999年 1999_3"
 problem_id: "06_osaka-1999-1999_3"
 university: "大阪大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/06_osaka/1999/1999_3.tex"
 pdf_source: "archive/06_osaka/1999/1999_3.pdf"
 page_image: "archive/06_osaka/1999/1999_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　平面上に，点$O$を中心とし点$A_1$，$A_2$，$A_3$，$A_4$，$A_5$，$A_6$を頂点とする正六角形がある．
+平面上に，点$O$を中心とし点$A_1$，$A_2$，$A_3$，$A_4$，$A_5$，$A_6$を頂点とする正六角形がある．
 $O$を通りその平面上にある直線$l$を考え，各$A_k$と$l$との距離をそれぞれ$d_k$とする．
 このとき
 \[ D={d_1}^2+{d_2}^2+{d_3}^2+{d_4}^2+{d_5}^2+{d_6}^2 \]

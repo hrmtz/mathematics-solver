@@ -3,6 +3,7 @@ title: "京都大学 1992年 1992_0_4"
 problem_id: "02_kyoto-1992-1992_0_4"
 university: "京都大学"
 exam_year: "1992"
+problem_number: 4
 source_tex: "archive/02_kyoto/1992/1992_0_4.tex"
 pdf_source: "archive/02_kyoto/1992/1992_0_4.pdf"
 page_image: "archive/02_kyoto/1992/1992_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　サイコロをくり返し$n$回振って，出た目の数を掛け合わせた積を$X$とする．
+サイコロをくり返し$n$回振って，出た目の数を掛け合わせた積を$X$とする．
 すなわち，$k$回目に出た目の数を$Y_k$とすると，$X=Y_1Y_2\cdots\cdots Y_n$
 \begin{description}
 \item[(1)]$X$が3で割りきれる確率$p_n$を求めよ．

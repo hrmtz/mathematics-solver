@@ -3,6 +3,7 @@ title: "東北大学 2015年 2015_e"
 problem_id: "04_tohoku-2015-2015_e"
 university: "東北大学"
 exam_year: "2015"
+problem_number: 5
 source_tex: "archive/04_tohoku/2015/2015_e.tex"
 pdf_source: "archive/04_tohoku/2015/2015_e.pdf"
 page_image: "archive/04_tohoku/2015/2015_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$\alpha, \, \beta, \, \gamma$を複素数として、$f(t)=\alpha t^2+\beta t+\gamma$とおく。
+$\alpha, \, \beta, \, \gamma$を複素数として、$f(t)=\alpha t^2+\beta t+\gamma$とおく。
 実部と虚部がどちらも整数である複素数全体の集合を$R$とする。また、$i$を虚数単位とする。
 \begin{description}
 \item[(1)]次の2条件(a)，(b)は同値であることを示せ。

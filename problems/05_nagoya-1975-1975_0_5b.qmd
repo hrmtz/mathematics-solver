@@ -3,6 +3,7 @@ title: "名古屋大学 1975年 1975_0_5b"
 problem_id: "05_nagoya-1975-1975_0_5b"
 university: "名古屋大学"
 exam_year: "1975"
+problem_number: 5
 source_tex: "archive/05_nagoya/1975/1975_0_5b.tex"
 pdf_source: "archive/05_nagoya/1975/1975_0_5b.pdf"
 page_image: "archive/05_nagoya/1975/1975_0_5b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (b)
-　曲線$y=x^2(x+1)$と直線$y=k^2(x+1)$ $(0 \leqq k \leqq 1)$とで囲まれる部分の面積が最小となるように$k$の値を定めよ．
+曲線$y=x^2(x+1)$と直線$y=k^2(x+1)$ $(0 \leqq k \leqq 1)$とで囲まれる部分の面積が最小となるように$k$の値を定めよ．
 
 ---
 

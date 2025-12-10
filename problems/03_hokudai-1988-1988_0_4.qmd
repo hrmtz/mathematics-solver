@@ -3,6 +3,7 @@ title: "北海道大学 1988年 1988_0_4"
 problem_id: "03_hokudai-1988-1988_0_4"
 university: "北海道大学"
 exam_year: "1988"
+problem_number: 4
 source_tex: "archive/03_hokudai/1988/1988_0_4.tex"
 pdf_source: "archive/03_hokudai/1988/1988_0_4.pdf"
 page_image: "archive/03_hokudai/1988/1988_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$\displaystyle f(x)=\int_0^2|t^2(t-x)|dt$とする．
+$\displaystyle f(x)=\int_0^2|t^2(t-x)|dt$とする．
 \begin{description}
 \item[(1)]$x\geqq0$のとき，$f(x)$を求めよ．
 \item[(2)]$\displaystyle\int_0^3f(x)dx$を求めよ．

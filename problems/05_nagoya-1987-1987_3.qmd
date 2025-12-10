@@ -3,6 +3,7 @@ title: "名古屋大学 1987年 1987_3"
 problem_id: "05_nagoya-1987-1987_3"
 university: "名古屋大学"
 exam_year: "1987"
+problem_number: 3
 source_tex: "archive/05_nagoya/1987/1987_3.tex"
 pdf_source: "archive/05_nagoya/1987/1987_3.pdf"
 page_image: "archive/05_nagoya/1987/1987_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　1辺の長さが1の正方形の頂点を時計まわりに$A$，$B$，$C$，$D$とする．
+1辺の長さが1の正方形の頂点を時計まわりに$A$，$B$，$C$，$D$とする．
 硬貨を投げて，表ならば2，裏ならば1，時計まわりに周上を動く運動を考える．
 次の問に答えよ．
 \begin{description}

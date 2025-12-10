@@ -3,6 +3,7 @@ title: "東京大学 1984年 1984_4"
 problem_id: "01_tokyo-1984-1984_4"
 university: "東京大学"
 exam_year: "1984"
+problem_number: 4
 source_tex: "archive/01_tokyo/1984/1984_4.tex"
 pdf_source: "archive/01_tokyo/1984/1984_4.pdf"
 page_image: "archive/01_tokyo/1984/1984_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　空間内に，3点$\displaystyle P \left( 1,\frac{1}{2},0 \right)$，
+空間内に，3点$\displaystyle P \left( 1,\frac{1}{2},0 \right)$，
 $\displaystyle Q \left( 1,-\frac{1}{2},0 \right)$，
 $\displaystyle R \left( \frac{1}{4},0,\frac{\sqrt3}{4} \right)$を頂点とする正3角形の板$S$がある．
 $S$を$z$軸のまわりに1回転させたとき，

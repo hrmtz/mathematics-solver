@@ -3,6 +3,7 @@ title: "東京科学大学 1975年 1975_5"
 problem_id: "08_titech-1975-1975_5"
 university: "東京科学大学"
 exam_year: "1975"
+problem_number: 5
 source_tex: "archive/08_titech/1975/1975_5.tex"
 pdf_source: "archive/08_titech/1975/1975_5.pdf"
 page_image: "archive/08_titech/1975/1975_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　Aの箱には1個の赤球と2個の青球と3個の白球が入っている．
+Aの箱には1個の赤球と2個の青球と3個の白球が入っている．
 Bの箱には10本のくじが入っていて，そのうち3本が当たりくじである．
 Aの箱から1個の球をとり，それが赤であれば同時に3本，青であれば同時に2本，
 白であれば1本のくじをBの箱から引けるものとする．

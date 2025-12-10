@@ -3,6 +3,7 @@ title: "名古屋大学 1983年 1983_0_1"
 problem_id: "05_nagoya-1983-1983_0_1"
 university: "名古屋大学"
 exam_year: "1983"
+problem_number: 1
 source_tex: "archive/05_nagoya/1983/1983_0_1.tex"
 pdf_source: "archive/05_nagoya/1983/1983_0_1.pdf"
 page_image: "archive/05_nagoya/1983/1983_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$は正の数，$p$，$q$はともに正の整数とし，
+$a$は正の数，$p$，$q$はともに正の整数とし，
 $a_1=1$，${a_n}^p{a_{n-1}}^q=a$ $(n\geqq2)$を満たす正数列を$\{ a_n \}$とする．
 　$a_n$を$a$，$p$，$q$，$n$で表せ．
 

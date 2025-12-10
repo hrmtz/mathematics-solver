@@ -3,6 +3,7 @@ title: "東京大学 1974年 1974_1"
 problem_id: "01_tokyo-1974-1974_1"
 university: "東京大学"
 exam_year: "1974"
+problem_number: 1
 source_tex: "archive/01_tokyo/1974/1974_1.tex"
 pdf_source: "archive/01_tokyo/1974/1974_1.pdf"
 page_image: "archive/01_tokyo/1974/1974_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　自然数$n$，$p$に対し，
+自然数$n$，$p$に対し，
 $n^p$を十進法で書いたときの1の位の数を$f_p(n)$で表わす．
 ただし，自然数とは，$1,2,3,\cdots\cdots$のことである．
 \begin{description}

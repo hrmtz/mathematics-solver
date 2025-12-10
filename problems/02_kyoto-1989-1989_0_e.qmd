@@ -3,6 +3,7 @@ title: "京都大学 1989年 1989_0_e"
 problem_id: "02_kyoto-1989-1989_0_e"
 university: "京都大学"
 exam_year: "1989"
+problem_number: 5
 source_tex: "archive/02_kyoto/1989/1989_0_e.tex"
 pdf_source: "archive/02_kyoto/1989/1989_0_e.pdf"
 page_image: ""
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n$は3以上の自然数である．
+$n$は3以上の自然数である．
 赤玉と白玉合わせて$n$個ずつ入ったつぼが$\displaystyle\frac{n(n-1)}{2}$個あり，
 その内訳は次のようになっている．
 　各$m=1,2,\cdots,n-1$について，

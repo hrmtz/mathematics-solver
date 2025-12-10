@@ -3,6 +3,7 @@ title: "大阪大学 1989年 1989_4"
 problem_id: "06_osaka-1989-1989_4"
 university: "大阪大学"
 exam_year: "1989"
+problem_number: 4
 source_tex: "archive/06_osaka/1989/1989_4.tex"
 pdf_source: "archive/06_osaka/1989/1989_4.pdf"
 page_image: "archive/06_osaka/1989/1989_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$a$は正の定数とする．
+$a$は正の定数とする．
 $t>1$に対し，曲線$y=x^a\log x$上の点$P=(t, \, t^a\log t)$における接線が，
 $x$軸と交わる点を$Q$とし，点$(t, \, 0)$を$R$とする．
 三角形$PQR$の面積を$S_1(t)$，

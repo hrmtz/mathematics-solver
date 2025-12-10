@@ -3,6 +3,7 @@ title: "大阪大学 1970年 1970_1"
 problem_id: "06_osaka-1970-1970_1"
 university: "大阪大学"
 exam_year: "1970"
+problem_number: 1
 source_tex: "archive/06_osaka/1970/1970_1.tex"
 pdf_source: "archive/06_osaka/1970/1970_1.pdf"
 page_image: "archive/06_osaka/1970/1970_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　実数$a$を係数にふくむ2次方程式
+実数$a$を係数にふくむ2次方程式
 \[ x^2+2ax-(a+1)=0 \]
 の2根を$\alpha$，$\beta$とする．このとき，定積分
 \[ \int_{\alpha}^{\beta}\frac{1}{\beta-\alpha}(x^2+x+a)dx \]

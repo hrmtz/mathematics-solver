@@ -3,6 +3,7 @@ title: "東北大学 1983年 1983_5"
 problem_id: "04_tohoku-1983-1983_5"
 university: "東北大学"
 exam_year: "1983"
+problem_number: 5
 source_tex: "archive/04_tohoku/1983/1983_5.tex"
 pdf_source: "archive/04_tohoku/1983/1983_5.pdf"
 page_image: "archive/04_tohoku/1983/1983_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　1辺の長さが1のひし形$ABCD$がある．
+1辺の長さが1のひし形$ABCD$がある．
 その頂点$A$の座標は$(0, \, 1)$，$C$の座標は$(0, \, 1+2t)$ $(0<t<1)$で，
 $B$，$D$はそれぞれ第1象限，第2象限にある．
 \begin{description}

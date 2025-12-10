@@ -3,6 +3,7 @@ title: "名古屋大学 2001年 2001_0_3b"
 problem_id: "05_nagoya-2001-2001_0_3b"
 university: "名古屋大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/05_nagoya/2001/2001_0_3b.tex"
 pdf_source: "archive/05_nagoya/2001/2001_0_3b.pdf"
 page_image: "archive/05_nagoya/2001/2001_0_3b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (b)
-　サイレンを断続的に鳴らして16秒の信号を作る．
+サイレンを断続的に鳴らして16秒の信号を作る．
 ただし，サイレンは1秒または2秒鳴り続けて1秒休み，これを繰り返す．
 また，信号はサイレンの音で始まり，サイレンの音で終わるものとする．
 \begin{description}

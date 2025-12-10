@@ -3,6 +3,7 @@ title: "東北大学 1980年 1980_2"
 problem_id: "04_tohoku-1980-1980_2"
 university: "東北大学"
 exam_year: "1980"
+problem_number: 2
 source_tex: "archive/04_tohoku/1980/1980_2.tex"
 pdf_source: "archive/04_tohoku/1980/1980_2.pdf"
 page_image: "archive/04_tohoku/1980/1980_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$-4 \leqq x \leqq 1$の範囲で，関数
+$-4 \leqq x \leqq 1$の範囲で，関数
 \[ f(x)=\int_x^{x+1}|(t+1)(t+2)|dt \]
 の最大値と最小値を求めよ．
 

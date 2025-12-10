@@ -3,6 +3,7 @@ title: "大阪大学 1978年 1978_1"
 problem_id: "06_osaka-1978-1978_1"
 university: "大阪大学"
 exam_year: "1978"
+problem_number: 1
 source_tex: "archive/06_osaka/1978/1978_1.tex"
 pdf_source: "archive/06_osaka/1978/1978_1.pdf"
 page_image: "archive/06_osaka/1978/1978_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　曲線$y=px^2+q$ $(p>0)$が$O(0, \, 0)$，$A(1, \, 1)$を両端とする線分$OA$と共通点をもつとき，
+曲線$y=px^2+q$ $(p>0)$が$O(0, \, 0)$，$A(1, \, 1)$を両端とする線分$OA$と共通点をもつとき，
 点$(p, \, q)$の存在範囲を図示せよ．
 
 ---

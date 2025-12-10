@@ -3,6 +3,7 @@ title: "東京大学 1990年 1990_4"
 problem_id: "01_tokyo-1990-1990_4"
 university: "東京大学"
 exam_year: "1990"
+problem_number: 4
 source_tex: "archive/01_tokyo/1990/1990_4.tex"
 pdf_source: "archive/01_tokyo/1990/1990_4.pdf"
 page_image: "archive/01_tokyo/1990/1990_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　行列$M=\begin{pmatrix} \displaystyle \frac{1}{1+a^2} & \displaystyle -\frac{a}{1+a^2}
+行列$M=\begin{pmatrix} \displaystyle \frac{1}{1+a^2} & \displaystyle -\frac{a}{1+a^2}
 \displaystyle \frac{a}{1+a^2} & \displaystyle \frac{1}{1+a^2} \end{pmatrix}$に対し，
 点列$P_n=(x_n,y_n)$ $(n=0,1,2,\cdots\cdots)$を次のように定める．
 \[ \begin{pmatrix} x_0 

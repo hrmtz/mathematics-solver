@@ -3,6 +3,7 @@ title: "東北大学 1998年 1998_0_4a"
 problem_id: "04_tohoku-1998-1998_0_4a"
 university: "東北大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/04_tohoku/1998/1998_0_4a.tex"
 pdf_source: "archive/04_tohoku/1998/1998_0_4a.pdf"
 page_image: "archive/04_tohoku/1998/1998_0_4a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (a)
-　白玉3個，赤玉4個があるとし，同じ色の玉は区別できないものとする．
+白玉3個，赤玉4個があるとし，同じ色の玉は区別できないものとする．
 \begin{description}
 \item[(1)]上の7個を2つの区別のついた袋$A$，$B$に分けて入れる．
 入れる方法は何通りあるか．

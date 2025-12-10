@@ -3,6 +3,7 @@ title: "京都大学 1991年 1991_d"
 problem_id: "02_kyoto-1991-1991_d"
 university: "京都大学"
 exam_year: "1991"
+problem_number: 4
 source_tex: "archive/02_kyoto/1991/1991_d.tex"
 pdf_source: "archive/02_kyoto/1991/1991_d.pdf"
 page_image: "archive/02_kyoto/1991/1991_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面上で次の方程式\ding{"AC}を満たす点全体の集合を$C_1$，
+平面上で次の方程式\ding{"AC}を満たす点全体の集合を$C_1$，
 \ding{"AD}を満たす点全体の集合を$C_2$とする．
 \begin{description}
 \item[\ding{"AC}]$x^2+y^2-1=0$

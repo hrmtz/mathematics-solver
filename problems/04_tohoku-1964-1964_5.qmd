@@ -3,6 +3,7 @@ title: "東北大学 1964年 1964_5"
 problem_id: "04_tohoku-1964-1964_5"
 university: "東北大学"
 exam_year: "1964"
+problem_number: 5
 source_tex: "archive/04_tohoku/1964/1964_5.tex"
 pdf_source: "archive/04_tohoku/1964/1964_5.pdf"
 page_image: "archive/04_tohoku/1964/1964_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$x$の関数$\displaystyle y=\frac{\displaystyle2\sqrt2\sin\left( x+\frac{\pi}{4}\right)}{\sin2x}$の増減、極値を調べ，
+$x$の関数$\displaystyle y=\frac{\displaystyle2\sqrt2\sin\left( x+\frac{\pi}{4}\right)}{\sin2x}$の増減、極値を調べ，
 グラフの概形をえがけ。ただし$0<x<2\pi$とする。
 
 ---

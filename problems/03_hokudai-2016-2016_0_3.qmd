@@ -3,6 +3,7 @@ title: "北海道大学 2016年 2016_0_3"
 problem_id: "03_hokudai-2016-2016_0_3"
 university: "北海道大学"
 exam_year: "2016"
+problem_number: 3
 source_tex: "archive/03_hokudai/2016/2016_0_3.tex"
 pdf_source: "archive/03_hokudai/2016/2016_0_3.pdf"
 page_image: "archive/03_hokudai/2016/2016_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$\triangle ABC$が，$AB=2$，$AC=1+\sqrt3$，$\angle ACB={45}^\circ$をみたすとする。
+$\triangle ABC$が，$AB=2$，$AC=1+\sqrt3$，$\angle ACB={45}^\circ$をみたすとする。
 \begin{description}
 \item[(1)]$\beta=\angle ABC$とおくとき，
 $\sin\beta$および$\cos2\beta$の値を求めよ。

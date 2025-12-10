@@ -3,6 +3,7 @@ title: "京都大学 2002年 2002_e"
 problem_id: "02_kyoto-2002-2002_e"
 university: "京都大学"
 exam_year: "2002"
+problem_number: 5
 source_tex: "archive/02_kyoto/2002/2002_e.tex"
 pdf_source: "archive/02_kyoto/2002/2002_e.pdf"
 page_image: "archive/02_kyoto/2002/2002_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　数列$\{a_n\}$，$\{b_n\}$を$a_1=3$，$b_1=2$
+数列$\{a_n\}$，$\{b_n\}$を$a_1=3$，$b_1=2$
 \[ a_{n+1}={a_n}^2+2{b_n}^2, \hspace{1zw} b_{n+1}=2a_nb_n \hspace{1zw} (n\geqq1) \]
 で定める．
 \begin{description}

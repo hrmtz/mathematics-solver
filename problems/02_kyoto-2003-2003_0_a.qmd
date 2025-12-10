@@ -3,6 +3,7 @@ title: "京都大学 2003年 2003_0_a"
 problem_id: "02_kyoto-2003-2003_0_a"
 university: "京都大学"
 exam_year: "2003"
+problem_number: 1
 source_tex: "archive/02_kyoto/2003/2003_0_a.tex"
 pdf_source: "archive/02_kyoto/2003/2003_0_a.pdf"
 page_image: "archive/02_kyoto/2003/2003_0_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　三角形$ABC$と点$P$に対して，次の2つの条件は同値であることを証明せよ．
+三角形$ABC$と点$P$に対して，次の2つの条件は同値であることを証明せよ．
 \begin{description}
 \item[(i)]点$P$は三角形$ABC$の内部(周は除く)にある
 \item[(ii)]正の数$a$，$b$，$c$があって，

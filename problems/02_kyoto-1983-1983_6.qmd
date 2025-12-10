@@ -3,6 +3,7 @@ title: "京都大学 1983年 1983_6"
 problem_id: "02_kyoto-1983-1983_6"
 university: "京都大学"
 exam_year: "1983"
+problem_number: 6
 source_tex: "archive/02_kyoto/1983/1983_6.tex"
 pdf_source: "archive/02_kyoto/1983/1983_6.pdf"
 page_image: "archive/02_kyoto/1983/1983_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　内側が直円すい形の容器がある．
+内側が直円すい形の容器がある．
 その回転軸は鉛直で，頂点が最低点，深さは$h$で，上面は半径$R$の円である．
 この容器に上面まで満たされた水を，断面積が$S$の管を通じて，最低点からポンプで流出させるとする．
 水の流出速度$v$は，そのときの水面の高さを$x$とすれば，

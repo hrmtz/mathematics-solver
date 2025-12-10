@@ -3,6 +3,7 @@ title: "京都大学 1996年 1996_2"
 problem_id: "02_kyoto-1996-1996_2"
 university: "京都大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/02_kyoto/1996/1996_2.tex"
 pdf_source: "archive/02_kyoto/1996/1996_2.pdf"
 page_image: "archive/02_kyoto/1996/1996_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xyz$空間の3点$A(1,0,0)$，$B(0,1,0)$，$C(0,0,1)$と，
+$xyz$空間の3点$A(1,0,0)$，$B(0,1,0)$，$C(0,0,1)$と，
 $z=0$で表される平面上の直線$l:x+y=0$の上を動く点$P(t,-t,0)$を考える．
 点$A$を通り，直線$l$に垂直な平面を$\alpha$とする．
 $\displaystyle t>\frac{1}{2}$のとき，

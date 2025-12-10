@@ -3,6 +3,7 @@ title: "大阪大学 2009年 2009_0_1"
 problem_id: "06_osaka-2009-2009_0_1"
 university: "大阪大学"
 exam_year: "2009"
+problem_number: 1
 source_tex: "archive/06_osaka/2009/2009_0_1.tex"
 pdf_source: "archive/06_osaka/2009/2009_0_1.pdf"
 page_image: "archive/06_osaka/2009/2009_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　曲線$C:y=x^3-kx$（$k$は実数）を考える．
+曲線$C:y=x^3-kx$（$k$は実数）を考える．
 $C$上に点$A(a, \, a^3-ka)$ $(a\neq0)$をとる．
 次の問いに答えよ．
 \begin{description}

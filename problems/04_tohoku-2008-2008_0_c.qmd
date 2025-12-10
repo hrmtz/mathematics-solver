@@ -3,6 +3,7 @@ title: "東北大学 2008年 2008_0_c"
 problem_id: "04_tohoku-2008-2008_0_c"
 university: "東北大学"
 exam_year: "2008"
+problem_number: 3
 source_tex: "archive/04_tohoku/2008/2008_0_c.tex"
 pdf_source: "archive/04_tohoku/2008/2008_0_c.pdf"
 page_image: "archive/04_tohoku/2008/2008_0_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　数直線上を点$P$が1ステップごとに，+1または-1だけそれぞれ$\displaystyle\frac{1}{2}$の確率で移動する．
+数直線上を点$P$が1ステップごとに，+1または-1だけそれぞれ$\displaystyle\frac{1}{2}$の確率で移動する．
 数直線上の値が3の点を$A$として，$P$が$A$にたどり着くと停止する．
 このとき，以下の問いに答えよ．
 \begin{description}

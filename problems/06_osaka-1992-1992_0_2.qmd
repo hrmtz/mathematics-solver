@@ -3,6 +3,7 @@ title: "大阪大学 1992年 1992_0_2"
 problem_id: "06_osaka-1992-1992_0_2"
 university: "大阪大学"
 exam_year: "1992"
+problem_number: 2
 source_tex: "archive/06_osaka/1992/1992_0_2.tex"
 pdf_source: "archive/06_osaka/1992/1992_0_2.pdf"
 page_image: "archive/06_osaka/1992/1992_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　円$x^2+y^2=1$を$C$とし，直線$\displaystyle y=\frac{1}{2}$を$l$とする．
+円$x^2+y^2=1$を$C$とし，直線$\displaystyle y=\frac{1}{2}$を$l$とする．
 $C$に内接し$l$に接する円の中心を$P$とする．
 $P$の軌跡のうち$y$座標が$\displaystyle\frac{1}{2}$より大きい部分と
 $l$によって囲まれる図形の面積を求めよ．

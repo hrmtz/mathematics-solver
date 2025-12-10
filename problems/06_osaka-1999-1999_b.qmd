@@ -3,6 +3,7 @@ title: "大阪大学 1999年 1999_b"
 problem_id: "06_osaka-1999-1999_b"
 university: "大阪大学"
 exam_year: "1999"
+problem_number: 2
 source_tex: "archive/06_osaka/1999/1999_b.tex"
 pdf_source: "archive/06_osaka/1999/1999_b.pdf"
 page_image: "archive/06_osaka/1999/1999_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$n$は2以上の自然数，$c$および$q$は正の実数とする．
+$n$は2以上の自然数，$c$および$q$は正の実数とする．
 $xy$平面上に，原点$O$，点$P(1, \, 0)$，および点$Q(0, \, q)$を頂点にもつ三角形をとる．
 この三角形は，曲線$y=cx^n$により2つの領域に分割されるが，
 これらのうち，点$P$を含む領域を$A$，点$Q$を含む領域を$B$とする．

@@ -3,6 +3,7 @@ title: "京都大学 1994年 1994_f"
 problem_id: "02_kyoto-1994-1994_f"
 university: "京都大学"
 exam_year: "1994"
+problem_number: 6
 source_tex: "archive/02_kyoto/1994/1994_f.tex"
 pdf_source: "archive/02_kyoto/1994/1994_f.pdf"
 page_image: "archive/02_kyoto/1994/1994_f.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$n$を自然数とし，$\displaystyle I_n=\int_1^e{(\log x)}^ndx$とおく．
+$n$を自然数とし，$\displaystyle I_n=\int_1^e{(\log x)}^ndx$とおく．
 \begin{description}
 \item[(1)]$I_{n+1}$を$I_n$を用いて表せ．
 \item[(2)]すべての$n$に対して，

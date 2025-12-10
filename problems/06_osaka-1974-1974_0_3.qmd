@@ -3,6 +3,7 @@ title: "大阪大学 1974年 1974_0_3"
 problem_id: "06_osaka-1974-1974_0_3"
 university: "大阪大学"
 exam_year: "1974"
+problem_number: 3
 source_tex: "archive/06_osaka/1974/1974_0_3.tex"
 pdf_source: "archive/06_osaka/1974/1974_0_3.pdf"
 page_image: "archive/06_osaka/1974/1974_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$n$を正の整数とする．
+$n$を正の整数とする．
 \begin{description}
 \item[(1)]次の式を簡単にせよ．
 \[ \sin x \{ \cos x+\cos3x+\cdots\cdots+\cos(2n-1)x \} \]

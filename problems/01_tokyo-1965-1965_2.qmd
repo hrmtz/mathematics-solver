@@ -3,6 +3,7 @@ title: "東京大学 1965年 1965_2"
 problem_id: "01_tokyo-1965-1965_2"
 university: "東京大学"
 exam_year: "1965"
+problem_number: 2
 source_tex: "archive/01_tokyo/1965/1965_2.tex"
 pdf_source: "archive/01_tokyo/1965/1965_2.pdf"
 page_image: "archive/01_tokyo/1965/1965_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$A$，$B$，$C$を三つの山頂とする．
+$A$，$B$，$C$を三つの山頂とする．
 $A$から見ると，$C$は真北より東10$^\circ$の方向にあって仰角15$^\circ$であり，
 $B$から見ると，$C$は真北より西20$^\circ$の方向にあって仰角30$^\circ$である．
 また$B$から$A$を見る仰角は30$^\circ$である．

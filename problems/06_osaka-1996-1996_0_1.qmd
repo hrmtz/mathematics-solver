@@ -3,6 +3,7 @@ title: "大阪大学 1996年 1996_0_1"
 problem_id: "06_osaka-1996-1996_0_1"
 university: "大阪大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/06_osaka/1996/1996_0_1.tex"
 pdf_source: "archive/06_osaka/1996/1996_0_1.pdf"
 page_image: "archive/06_osaka/1996/1996_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$，$c$を0以上の実数とする．
+$a$，$b$，$c$を0以上の実数とする．
 次の問に答えよ．
 \begin{description}
 \item[(1)]$2^a+2^b\leqq1+2^{a+b}$を示せ．

@@ -3,6 +3,7 @@ title: "京都大学 2010年 2010a_1"
 problem_id: "02_kyoto-2010-2010a_1"
 university: "京都大学"
 exam_year: "2010"
+problem_number: 1
 source_tex: "archive/02_kyoto/2010/2010a_1.tex"
 pdf_source: "archive/02_kyoto/2010/2010a_1.pdf"
 page_image: "archive/02_kyoto/2010/2010a_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　1から5までの自然数を1列に並べる．
+1から5までの自然数を1列に並べる．
 どの並べかたも同様の確からしさで起こるものとする．
 このとき1番目と2番目と3番目の数の和と，
 3番目と4番目と5番目の数の和が等しくなる確率を求めよ．

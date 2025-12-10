@@ -3,6 +3,7 @@ title: "東京科学大学 2022年 2022_4"
 problem_id: "08_titech-2022-2022_4"
 university: "東京科学大学"
 exam_year: "2022"
+problem_number: 4
 source_tex: "archive/08_titech/2022/2022_4.tex"
 pdf_source: "archive/08_titech/2022/2022_4.pdf"
 page_image: "archive/08_titech/2022/2022_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$a$は正の実数とする．
+$a$は正の実数とする．
 複素数$z$が$|z-1|=a$かつ$\displaystyle z\neq\frac{1}{2}$を満たしながら動くとき，
 複素数平面上の点$\displaystyle w=\frac{z-3}{1-2z}$が描く図形をKとする．
 このとき，次の問いに答えよ．

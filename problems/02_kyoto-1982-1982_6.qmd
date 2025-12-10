@@ -3,6 +3,7 @@ title: "京都大学 1982年 1982_6"
 problem_id: "02_kyoto-1982-1982_6"
 university: "京都大学"
 exam_year: "1982"
+problem_number: 6
 source_tex: "archive/02_kyoto/1982/1982_6.tex"
 pdf_source: "archive/02_kyoto/1982/1982_6.pdf"
 page_image: "archive/02_kyoto/1982/1982_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　関数$\displaystyle f(x)=\int_x^{x+1}te^{-|t|}dt$について，次の問に答えよ．
+関数$\displaystyle f(x)=\int_x^{x+1}te^{-|t|}dt$について，次の問に答えよ．
 \begin{description}
 \item[(1)]$-1\leqq x \leqq0$のとき，$f(-1)\leqq f(x) \leqq f(0)$であることを示せ．
 \item[(2)]$f(x)$が最大および最小となる$x$の値をそれぞれ求めよ．

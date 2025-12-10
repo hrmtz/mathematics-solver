@@ -3,6 +3,7 @@ title: "北海道大学 1995年 1995_0_2"
 problem_id: "03_hokudai-1995-1995_0_2"
 university: "北海道大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/03_hokudai/1995/1995_0_2.tex"
 pdf_source: "archive/03_hokudai/1995/1995_0_2.pdf"
 page_image: "archive/03_hokudai/1995/1995_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$f$を次の行列$A$で与えられる1次変換とする．
+$f$を次の行列$A$で与えられる1次変換とする．
 \[ A=\begin{pmatrix} \displaystyle\frac{3}{4} & \displaystyle-\frac{1}{4}
 \displaystyle-\frac{1}{4} & \displaystyle\frac{3}{4} \end{pmatrix} \]
 \begin{description}

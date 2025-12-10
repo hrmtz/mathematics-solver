@@ -3,6 +3,7 @@ title: "北海道大学 1995年 1995_3"
 problem_id: "03_hokudai-1995-1995_3"
 university: "北海道大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/03_hokudai/1995/1995_3.tex"
 pdf_source: "archive/03_hokudai/1995/1995_3.pdf"
 page_image: "archive/03_hokudai/1995/1995_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$\displaystyle f(x)=\frac{2}{e^x+e^{-x}}-\sin x$とする．
+$\displaystyle f(x)=\frac{2}{e^x+e^{-x}}-\sin x$とする．
 $f(x)=0$となる$x$は$0 \leqq x \leqq \pi$の範囲にはちょうど2個存在し，
 1個は区間$\displaystyle\left[ 0, \, \frac{\pi}{2} \right]$に，
 1個は区間$\displaystyle\left[ \frac{\pi}{2}, \, \pi \right]$にあることを示せ．

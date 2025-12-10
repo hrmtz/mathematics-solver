@@ -3,6 +3,7 @@ title: "東北大学 2020年 2020_0_1"
 problem_id: "04_tohoku-2020-2020_0_1"
 university: "東北大学"
 exam_year: "2020"
+problem_number: 1
 source_tex: "archive/04_tohoku/2020/2020_0_1.tex"
 pdf_source: "archive/04_tohoku/2020/2020_0_1.pdf"
 page_image: "archive/04_tohoku/2020/2020_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$を$-2 \leqq a \leqq 3$を満たす実数とする。次の性質をもつ関数$f(x)$を考える。
+$a$を$-2 \leqq a \leqq 3$を満たす実数とする。次の性質をもつ関数$f(x)$を考える。
 \[ f(x)=\begin{cases} 0 & (x<-2\text{のとき})
 (x-a)(x+2) & (-2 \leqq x \leqq a \text{のとき})
 2(x-a)(x-3) & (a \leqq x \leqq 3 \text{のとき})

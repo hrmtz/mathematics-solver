@@ -3,6 +3,7 @@ title: "京都大学 1964年 1964_4"
 problem_id: "02_kyoto-1964-1964_4"
 university: "京都大学"
 exam_year: "1964"
+problem_number: 4
 source_tex: "archive/02_kyoto/1964/1964_4.tex"
 pdf_source: "archive/02_kyoto/1964/1964_4.pdf"
 page_image: "archive/02_kyoto/1964/1964_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　放物線$y=x^2$に，点$P$から2つの接線をひき，それらの交角が60$^\circ$であるように点$P$が動くとき，点$P$の軌跡を求めよ．
+放物線$y=x^2$に，点$P$から2つの接線をひき，それらの交角が60$^\circ$であるように点$P$が動くとき，点$P$の軌跡を求めよ．
 
 ---
 

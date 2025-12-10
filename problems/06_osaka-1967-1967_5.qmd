@@ -3,6 +3,7 @@ title: "大阪大学 1967年 1967_5"
 problem_id: "06_osaka-1967-1967_5"
 university: "大阪大学"
 exam_year: "1967"
+problem_number: 5
 source_tex: "archive/06_osaka/1967/1967_5.tex"
 pdf_source: "archive/06_osaka/1967/1967_5.pdf"
 page_image: "archive/06_osaka/1967/1967_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　双曲線$x^2-y^2=1$と，$x$軸に平行な直線$l$との交点を$P$，$Q$とする．
+双曲線$x^2-y^2=1$と，$x$軸に平行な直線$l$との交点を$P$，$Q$とする．
 $P$，$Q$における双曲線の接線と$l$とが囲む3角形の面積の最小値を求めよ．
 
 ---

@@ -3,6 +3,7 @@ title: "名古屋大学 1995年 1995_0_1"
 problem_id: "05_nagoya-1995-1995_0_1"
 university: "名古屋大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/05_nagoya/1995/1995_0_1.tex"
 pdf_source: "archive/05_nagoya/1995/1995_0_1.pdf"
 page_image: "archive/05_nagoya/1995/1995_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$xy$平面内の中心$P$，半径$r$の円$C$が次の2条件を満たしているとする．
+$xy$平面内の中心$P$，半径$r$の円$C$が次の2条件を満たしているとする．
 \begin{description}
 \item[(a)]2つの円
 \[ C_1:x^2+y^2-1=0 \hspace{1zw} C_2:x^2+y^2-6x+5=0 \]

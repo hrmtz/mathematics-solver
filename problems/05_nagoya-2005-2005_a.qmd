@@ -3,6 +3,7 @@ title: "名古屋大学 2005年 2005_a"
 problem_id: "05_nagoya-2005-2005_a"
 university: "名古屋大学"
 exam_year: "2005"
+problem_number: 1
 source_tex: "archive/05_nagoya/2005/2005_a.tex"
 pdf_source: "archive/05_nagoya/2005/2005_a.pdf"
 page_image: "archive/05_nagoya/2005/2005_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　2次正方行列
+2次正方行列
 \[ X=\begin{pmatrix} a & 2-a 
 
  1-a & 3-b \end{pmatrix} \text{と}

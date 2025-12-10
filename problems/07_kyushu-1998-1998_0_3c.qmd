@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_0_3c"
 problem_id: "07_kyushu-1998-1998_0_3c"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 3
 source_tex: "archive/07_kyushu/1998/1998_0_3c.tex"
 pdf_source: "archive/07_kyushu/1998/1998_0_3c.pdf"
 page_image: "archive/07_kyushu/1998/1998_0_3c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (c)
-　次のBASICによるプログラムを実行するとき，以下の問に答えよ．
+次のBASICによるプログラムを実行するとき，以下の問に答えよ．
 　　10　INPUT　N
 　　20　S=0
 　　30　M=2＊INT(N/2)+1

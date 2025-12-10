@@ -3,6 +3,7 @@ title: "九州大学 1979年 1979_5"
 problem_id: "07_kyushu-1979-1979_5"
 university: "九州大学"
 exam_year: "1979"
+problem_number: 5
 source_tex: "archive/07_kyushu/1979/1979_5.tex"
 pdf_source: "archive/07_kyushu/1979/1979_5.pdf"
 page_image: "archive/07_kyushu/1979/1979_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$f(x)=(e^x-e)(e^{-x}-e)$とし，$a$を正の数とする．
+$f(x)=(e^x-e)(e^{-x}-e)$とし，$a$を正の数とする．
 \begin{description}
 \item[(1)]任意の実数$x$に対して，
 $\displaystyle f\left( \frac{x}{a+1} \right) \geqq f\left( \frac{x}{a} \right)$が成り立つことを示せ．

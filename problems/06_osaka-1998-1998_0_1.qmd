@@ -3,6 +3,7 @@ title: "大阪大学 1998年 1998_0_1"
 problem_id: "06_osaka-1998-1998_0_1"
 university: "大阪大学"
 exam_year: "1998"
+problem_number: 1
 source_tex: "archive/06_osaka/1998/1998_0_1.tex"
 pdf_source: "archive/06_osaka/1998/1998_0_1.pdf"
 page_image: "archive/06_osaka/1998/1998_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　平面上の4点$O$，$P$，$Q$，$R$が条件
+平面上の4点$O$，$P$，$Q$，$R$が条件
 \[ OP=2, \hspace{1zw} OQ=3, \hspace{1zw} \angle OPQ={60}^\circ, \hspace{1zw}
 \overrightarrow{OP}+\overrightarrow{OQ}+\overrightarrow{OR}=\overrightarrow{0} \]
 を満たすとする．線分$OR$の長さと$\cos\angle POR$の値を求めよ．

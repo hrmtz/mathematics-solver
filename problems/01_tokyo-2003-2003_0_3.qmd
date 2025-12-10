@@ -3,6 +3,7 @@ title: "東京大学 2003年 2003_0_3"
 problem_id: "01_tokyo-2003-2003_0_3"
 university: "東京大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/01_tokyo/2003/2003_0_3.tex"
 pdf_source: "archive/01_tokyo/2003/2003_0_3.pdf"
 page_image: "archive/01_tokyo/2003/2003_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2次方程式$x^2-4x+1=0$の2つの実数解のうち大きいものを$\alpha$，小さいものを$\beta$とする．
+2次方程式$x^2-4x+1=0$の2つの実数解のうち大きいものを$\alpha$，小さいものを$\beta$とする．
 　$n=1,2,3,\cdots$に対し，$s_n=\alpha^n+\beta^n$とおく．
 \begin{description}
 \item[(1)]$s_1$，$s_2$，$s_3$を求めよ．また，$n\geqq3$に対し，$s_n$を$s_{n-1}$と$s_{n-2}$で表せ．

@@ -3,6 +3,7 @@ title: "名古屋大学 2019年 2019_4"
 problem_id: "05_nagoya-2019-2019_4"
 university: "名古屋大学"
 exam_year: "2019"
+problem_number: 4
 source_tex: "archive/05_nagoya/2019/2019_4.tex"
 pdf_source: "archive/05_nagoya/2019/2019_4.pdf"
 page_image: "archive/05_nagoya/2019/2019_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　正の整数$n$に対して$1, \, 2, \, \cdots, \, n$を一列に並べた順列を考える。
+正の整数$n$に対して$1, \, 2, \, \cdots, \, n$を一列に並べた順列を考える。
 そのような順列は$n \, !$個ある。
 このうち1つを等確率で選んだものを$(a_1, \, a_2, \, \cdots, \, a_n)$とする。
 この$(a_1, \, a_2, \, \cdots, \, a_n)$に対し，

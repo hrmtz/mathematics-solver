@@ -3,6 +3,7 @@ title: "京都大学 2019年 2019_0_1"
 problem_id: "02_kyoto-2019-2019_0_1"
 university: "京都大学"
 exam_year: "2019"
+problem_number: 1
 source_tex: "archive/02_kyoto/2019/2019_0_1.tex"
 pdf_source: "archive/02_kyoto/2019/2019_0_1.pdf"
 page_image: "archive/02_kyoto/2019/2019_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の各問に答えよ。
+次の各問に答えよ。
 \begin{description}
 \item[問1]$a$は実数とする。$x$に関する整式$x^5+2x^4+ax^3+3x^2+3x+2$を
 整式$x^3+x^2+x+1$で割ったときの商を$Q(x)$，余りを$R(x)$とする。

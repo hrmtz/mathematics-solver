@@ -3,6 +3,7 @@ title: "大阪大学 1974年 1974_3"
 problem_id: "06_osaka-1974-1974_3"
 university: "大阪大学"
 exam_year: "1974"
+problem_number: 3
 source_tex: "archive/06_osaka/1974/1974_3.tex"
 pdf_source: "archive/06_osaka/1974/1974_3.pdf"
 page_image: "archive/06_osaka/1974/1974_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　点$P$は正方形$ABCD$の頂点$A$から正方形の内部に向かって出発し，
+点$P$は正方形$ABCD$の頂点$A$から正方形の内部に向かって出発し，
 次の3つの規則に従って動くものとする．
 \begin{description}
 \item[1.]$P$が正方形の内部にあるときは直進する．

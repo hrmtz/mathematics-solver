@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_a"
 problem_id: "02_kyoto-1995-1995_a"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/02_kyoto/1995/1995_a.tex"
 pdf_source: "archive/02_kyoto/1995/1995_a.pdf"
 page_image: "archive/02_kyoto/1995/1995_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　自然数$n$に対して，$x^n$を$x^2+ax+b$で割った余りを$r_nx+s_n$とする．
+自然数$n$に対して，$x^n$を$x^2+ax+b$で割った余りを$r_nx+s_n$とする．
 次の2条件(イ)，(ロ)を考える．
 \begin{description}
 \item[(イ)]$x^2+ax+b=(x-\alpha)(x-\beta)$，$\alpha>\beta>0$と表せる．

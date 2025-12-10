@@ -3,6 +3,7 @@ title: "京都大学 2000年 2000_0_a"
 problem_id: "02_kyoto-2000-2000_0_a"
 university: "京都大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/02_kyoto/2000/2000_0_a.tex"
 pdf_source: "archive/02_kyoto/2000/2000_0_a.pdf"
 page_image: "archive/02_kyoto/2000/2000_0_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　複素数$\alpha$は$|\alpha|=1$を満たしている．
+複素数$\alpha$は$|\alpha|=1$を満たしている．
 このとき，$|\alpha^m+\alpha^{-m}|>1$となる自然数$m$が存在することを示せ．
 
 ---

@@ -3,6 +3,7 @@ title: "名古屋大学 1979年 1979_1"
 problem_id: "05_nagoya-1979-1979_1"
 university: "名古屋大学"
 exam_year: "1979"
+problem_number: 1
 source_tex: "archive/05_nagoya/1979/1979_1.tex"
 pdf_source: "archive/05_nagoya/1979/1979_1.pdf"
 page_image: "archive/05_nagoya/1979/1979_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　行列$A=\begin{pmatrix} 2 & 1 
+行列$A=\begin{pmatrix} 2 & 1 
 
  1 & 1 \end{pmatrix}$で表される1次変換によって，
 点$P(x, \, y)$が点$P'(x', \, y')$にうつるとき，

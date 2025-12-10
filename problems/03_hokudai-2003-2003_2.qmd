@@ -3,6 +3,7 @@ title: "北海道大学 2003年 2003_2"
 problem_id: "03_hokudai-2003-2003_2"
 university: "北海道大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/03_hokudai/2003/2003_2.tex"
 pdf_source: "archive/03_hokudai/2003/2003_2.pdf"
 page_image: "archive/03_hokudai/2003/2003_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$z$を複素数とし，$i$を虚数単位とする．
+$z$を複素数とし，$i$を虚数単位とする．
 \begin{description}
 \item[(1)]$\displaystyle\frac{1}{z+i}+\frac{1}{z-i}$が実数となる
 点$z$全体の描く図形$P$を複素数平面上に図示せよ．

@@ -3,6 +3,7 @@ title: "名古屋大学 1979年 1979_3b"
 problem_id: "05_nagoya-1979-1979_3b"
 university: "名古屋大学"
 exam_year: "1979"
+problem_number: 3
 source_tex: "archive/05_nagoya/1979/1979_3b.tex"
 pdf_source: "archive/05_nagoya/1979/1979_3b.pdf"
 page_image: "archive/05_nagoya/1979/1979_3b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (b)
-　$f(x)$は$x>0$において定義された連続関数である．
+$f(x)$は$x>0$において定義された連続関数である．
 すべての$a$，$b$ $(a>0, \, b>0)$に対して，
 $\displaystyle\int_a^bf(x)dx$が$\displaystyle\frac{b}{a}$のみによって定まるならば，
 $\displaystyle f(x)=\frac{c}{x}$（$c$は定数）であることを証明せよ．

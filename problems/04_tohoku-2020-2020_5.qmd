@@ -3,6 +3,7 @@ title: "東北大学 2020年 2020_5"
 problem_id: "04_tohoku-2020-2020_5"
 university: "東北大学"
 exam_year: "2020"
+problem_number: 5
 source_tex: "archive/04_tohoku/2020/2020_5.tex"
 pdf_source: "archive/04_tohoku/2020/2020_5.pdf"
 page_image: "archive/04_tohoku/2020/2020_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　実数$t$に対して複素数$\displaystyle z=\frac{-1}{t+i}$を考える。
+実数$t$に対して複素数$\displaystyle z=\frac{-1}{t+i}$を考える。
 ただし，$i$は虚数単位とする。
 \begin{description}
 \item[(1)]$z$の実部と虚部をそれぞれ$t$を用いて表せ。

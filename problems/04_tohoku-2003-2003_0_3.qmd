@@ -3,6 +3,7 @@ title: "東北大学 2003年 2003_0_3"
 problem_id: "04_tohoku-2003-2003_0_3"
 university: "東北大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/04_tohoku/2003/2003_0_3.tex"
 pdf_source: "archive/04_tohoku/2003/2003_0_3.pdf"
 page_image: "archive/04_tohoku/2003/2003_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　三角形$ABC$において，
+三角形$ABC$において，
 \[ AB=1, \hspace{1zw} AC=2, \hspace{1zw} \angle A={60}^\circ \]
 とする．正の数$m$，$n$に対し，辺$BC$，$CA$，$AB$を$m:n$の比に内分する点を順に$D$，$E$，$F$とする．
 \begin{description}

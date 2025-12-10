@@ -3,6 +3,7 @@ title: "九州大学 1966年 1966_4"
 problem_id: "07_kyushu-1966-1966_4"
 university: "九州大学"
 exam_year: "1966"
+problem_number: 4
 source_tex: "archive/07_kyushu/1966/1966_4.tex"
 pdf_source: "archive/07_kyushu/1966/1966_4.pdf"
 page_image: "archive/07_kyushu/1966/1966_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$\displaystyle0\leqq\theta<\frac{\pi}{2}$なるおのおのの$\theta$に対し，
+$\displaystyle0\leqq\theta<\frac{\pi}{2}$なるおのおのの$\theta$に対し，
 $t$を媒介変数とする曲線
 \[ x=t\cos\theta, \hspace{1zw} y=t\sin\theta-\frac{t^2}{2} \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AC}} \]
 が$x$軸と交わる点のうち，原点と異なるものの$x$座標を$u$とする．

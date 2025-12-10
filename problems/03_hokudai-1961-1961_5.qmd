@@ -3,6 +3,7 @@ title: "北海道大学 1961年 1961_5"
 problem_id: "03_hokudai-1961-1961_5"
 university: "北海道大学"
 exam_year: "1961"
+problem_number: 5
 source_tex: "archive/03_hokudai/1961/1961_5.tex"
 pdf_source: "archive/03_hokudai/1961/1961_5.pdf"
 page_image: "archive/03_hokudai/1961/1961_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　初項が50，公差が整数である等差数列のはじめの$n$項の和を$S_n$で表わすとき，
+初項が50，公差が整数である等差数列のはじめの$n$項の和を$S_n$で表わすとき，
 無限数列$S_1, \, S_2, \, S_3, \, \cdots$の項の中で最大なものが$S_{17}$であるという。
 \begin{description}
 \item[(1)]この等差数列の公差を求めよ。

@@ -3,6 +3,7 @@ title: "大阪大学 1999年 1999_0_3"
 problem_id: "06_osaka-1999-1999_0_3"
 university: "大阪大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/06_osaka/1999/1999_0_3.tex"
 pdf_source: "archive/06_osaka/1999/1999_0_3.pdf"
 page_image: "archive/06_osaka/1999/1999_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　正の整数の組$(a, \, b)$で，$a$以上$b$以下の整数の総和が500となるものをすべて求めよ．
+正の整数の組$(a, \, b)$で，$a$以上$b$以下の整数の総和が500となるものをすべて求めよ．
 ただし，$a<b$とする．
 
 ---

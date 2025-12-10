@@ -3,6 +3,7 @@ title: "東京大学 1999年 1999_1"
 problem_id: "01_tokyo-1999-1999_1"
 university: "東京大学"
 exam_year: "1999"
+problem_number: 1
 source_tex: "archive/01_tokyo/1999/1999_1.tex"
 pdf_source: "archive/01_tokyo/1999/1999_1.pdf"
 page_image: "archive/01_tokyo/1999/1999_1.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]一般角$\theta$に対して$\sin\theta$，$\cos\theta$の定義を述べよ．
 \item[(2)](1)で述べた定義にもとづき，一般角$\alpha$，$\beta$に対して

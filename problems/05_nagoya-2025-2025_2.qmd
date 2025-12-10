@@ -3,6 +3,7 @@ title: "名古屋大学 2025年 2025_2"
 problem_id: "05_nagoya-2025-2025_2"
 university: "名古屋大学"
 exam_year: "2025"
+problem_number: 2
 source_tex: "archive/05_nagoya/2025/2025_2.tex"
 pdf_source: "archive/05_nagoya/2025/2025_2.pdf"
 page_image: "archive/05_nagoya/2025/2025_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　整数$a, \, b, \, c$に対し次の条件を考える。
+整数$a, \, b, \, c$に対し次の条件を考える。
 \begin{description}
 \item[(＊)]$a \geqq b \geqq 0$かつ$a^2-b^2=c$
 \end{description}

@@ -3,6 +3,7 @@ title: "京都大学 1971年 1971_5"
 problem_id: "02_kyoto-1971-1971_5"
 university: "京都大学"
 exam_year: "1971"
+problem_number: 5
 source_tex: "archive/02_kyoto/1971/1971_5.tex"
 pdf_source: "archive/02_kyoto/1971/1971_5.pdf"
 page_image: "archive/02_kyoto/1971/1971_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　半径$r$の円に内接する正$n$角形の頂点を順次$A_1,A_2,\cdots\cdots,A_n$とする．
+半径$r$の円に内接する正$n$角形の頂点を順次$A_1,A_2,\cdots\cdots,A_n$とする．
 まず頂点$A_2$を中心とする半径$A_2A_1$の円と辺$A_3A_2$の延長($\overrightarrow{A_3A_2}$の方向)との交点を$B_1$として
 扇形$A_2A_1B_1$をつくる．
 次に頂点$A_3$を中心とする半径$A_3B_1$の円と辺$A_4A_3$の延長($\overrightarrow{A_4A_3}$の方向)との交点を$B_2$として

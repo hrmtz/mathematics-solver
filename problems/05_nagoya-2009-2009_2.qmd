@@ -3,6 +3,7 @@ title: "名古屋大学 2009年 2009_2"
 problem_id: "05_nagoya-2009-2009_2"
 university: "名古屋大学"
 exam_year: "2009"
+problem_number: 2
 source_tex: "archive/05_nagoya/2009/2009_2.tex"
 pdf_source: "archive/05_nagoya/2009/2009_2.pdf"
 page_image: "archive/05_nagoya/2009/2009_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　関数$f(x)$と$g(\theta)$を
+関数$f(x)$と$g(\theta)$を
 $\displaystyle f(x)=\int_{-1}^x\sqrt{1-t^2}dt$ $(-1 \leqq x \leqq 1)$，
 $g(\theta)=f(\cos\theta)-f(\sin\theta)$ $(0\leqq\theta\leqq2\pi)$
 で定める．

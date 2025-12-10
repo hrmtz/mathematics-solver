@@ -3,6 +3,7 @@ title: "北海道大学 2017年 2017_d"
 problem_id: "03_hokudai-2017-2017_d"
 university: "北海道大学"
 exam_year: "2017"
+problem_number: 4
 source_tex: "archive/03_hokudai/2017/2017_d.tex"
 pdf_source: "archive/03_hokudai/2017/2017_d.pdf"
 page_image: "archive/03_hokudai/2017/2017_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$，$b$を実数とし，放物線$y={(x-a)}^2+b$を$Q$とおく。
+$a$，$b$を実数とし，放物線$y={(x-a)}^2+b$を$Q$とおく。
 また，直線$y=x-1$を$l$とおく。
 $Q$と$l$は共有点を持たないか，あるいは1点で接しているとする。
 \begin{description}

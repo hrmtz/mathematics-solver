@@ -3,6 +3,7 @@ title: "東京大学 1975年 1975_4"
 problem_id: "01_tokyo-1975-1975_4"
 university: "東京大学"
 exam_year: "1975"
+problem_number: 4
 source_tex: "archive/01_tokyo/1975/1975_4.tex"
 pdf_source: "archive/01_tokyo/1975/1975_4.pdf"
 page_image: "archive/01_tokyo/1975/1975_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　数列$\{ a_n \}$の項が$a_1=\sqrt2$，$a_{n+1}=\sqrt{2+a_n}$ $(n=1,2,3,\cdots)$によって
+数列$\{ a_n \}$の項が$a_1=\sqrt2$，$a_{n+1}=\sqrt{2+a_n}$ $(n=1,2,3,\cdots)$によって
 与えられているものとする．
 このとき$a_n=2\sin{\theta}_n$，$\displaystyle 0<{\theta}_n<\frac{\pi}{2}$を満たす
 ${\theta}_n$を見いだせ．

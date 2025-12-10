@@ -3,6 +3,7 @@ title: "東北大学 1963年 1963_0_5"
 problem_id: "04_tohoku-1963-1963_0_5"
 university: "東北大学"
 exam_year: "1963"
+problem_number: 5
 source_tex: "archive/04_tohoku/1963/1963_0_5.tex"
 pdf_source: "archive/04_tohoku/1963/1963_0_5.pdf"
 page_image: "archive/04_tohoku/1963/1963_0_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$11<a<11.5$とする。
+$11<a<11.5$とする。
 $\log11$と$\log12$の値を用い，比例部分の法則（原理）によって，
 $\log a$と$\log(a+0.5)$を求めるとき，それぞれの真の値との差は等しいという。
 $a$の値を小数第1位まで正しく求めよ。

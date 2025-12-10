@@ -3,6 +3,7 @@ title: "北海道大学 1993年 1993_b"
 problem_id: "03_hokudai-1993-1993_b"
 university: "北海道大学"
 exam_year: "1993"
+problem_number: 2
 source_tex: "archive/03_hokudai/1993/1993_b.tex"
 pdf_source: "archive/03_hokudai/1993/1993_b.pdf"
 page_image: "archive/03_hokudai/1993/1993_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xyz$空間に平面$\alpha:x+y+2z=0$がある．
+$xyz$空間に平面$\alpha:x+y+2z=0$がある．
 点$P(x, \, y, \, 0)$と$\alpha$に関して対称な点を$Q(x', \, y', \, z')$で表し，
 $(x, \, y)$を$(x', \, y')$に移す$xy$平面の変換を$f$とする．
 \begin{description}

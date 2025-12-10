@@ -3,6 +3,7 @@ title: "京都大学 1978年 1978_6"
 problem_id: "02_kyoto-1978-1978_6"
 university: "京都大学"
 exam_year: "1978"
+problem_number: 6
 source_tex: "archive/02_kyoto/1978/1978_6.tex"
 pdf_source: "archive/02_kyoto/1978/1978_6.pdf"
 page_image: "archive/02_kyoto/1978/1978_6.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(i)]$m$，$n$は自然数とする．三角関数の加法定理を用いて，等式
 \[ \sin mx \sin nx = \frac{1}{2} \{ \cos(m-n)x-\cos(m+n)x \} \]

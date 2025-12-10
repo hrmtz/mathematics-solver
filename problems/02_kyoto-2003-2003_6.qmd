@@ -3,6 +3,7 @@ title: "京都大学 2003年 2003_6"
 problem_id: "02_kyoto-2003-2003_6"
 university: "京都大学"
 exam_year: "2003"
+problem_number: 6
 source_tex: "archive/02_kyoto/2003/2003_6.tex"
 pdf_source: "archive/02_kyoto/2003/2003_6.pdf"
 page_image: "archive/02_kyoto/2003/2003_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$n$チームがリーグ戦を行う．
+$n$チームがリーグ戦を行う．
 すなわち，各チームは他のすべてのチームとそれぞれ1回ずつ対戦する．
 引き分けはないものとし，
 勝つ確率はすべて$\displaystyle\frac{1}{2}$で，

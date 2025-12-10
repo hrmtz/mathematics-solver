@@ -3,6 +3,7 @@ title: "九州大学 2014年 2014_a"
 problem_id: "07_kyushu-2014-2014_a"
 university: "九州大学"
 exam_year: "2014"
+problem_number: 1
 source_tex: "archive/07_kyushu/2014/2014_a.tex"
 pdf_source: "archive/07_kyushu/2014/2014_a.pdf"
 page_image: "archive/07_kyushu/2014/2014_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　行列$\displaystyle A=\frac{1}{4}\begin{pmatrix} 5 & 3 
+行列$\displaystyle A=\frac{1}{4}\begin{pmatrix} 5 & 3 
 
  3 & 5 \end{pmatrix}$，
 $B=\begin{pmatrix} 2 & 0 

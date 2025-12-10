@@ -3,6 +3,7 @@ title: "東京科学大学 2004年 2004_b"
 problem_id: "08_titech-2004-2004_b"
 university: "東京科学大学"
 exam_year: "2004"
+problem_number: 2
 source_tex: "archive/08_titech/2004/2004_b.tex"
 pdf_source: "archive/08_titech/2004/2004_b.pdf"
 page_image: "archive/08_titech/2004/2004_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$n$を2以上の偶数とする．
+$n$を2以上の偶数とする．
 2つの曲線$C_1:y=x^n$と$C_2:y=n^x$について，次の問いに答えよ．
 \begin{description}
 \item[(1)]$C_1$と$C_2$は$x<0$において，ただ1つの点$P_n$で交わることを示せ．

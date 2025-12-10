@@ -3,6 +3,7 @@ title: "京都大学 1989年 1989_4"
 problem_id: "02_kyoto-1989-1989_4"
 university: "京都大学"
 exam_year: "1989"
+problem_number: 4
 source_tex: "archive/02_kyoto/1989/1989_4.tex"
 pdf_source: "archive/02_kyoto/1989/1989_4.pdf"
 page_image: "archive/02_kyoto/1989/1989_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　四面体$OABC$において，
+四面体$OABC$において，
 $\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$はたがいに直交している．
 $\displaystyle\overrightarrow{OG}=\frac{1}{4}(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$
 となる点$G$を通り$\overrightarrow{OG}$に直交する平面による四面体$OABC$の切り口は，どのような図形か．

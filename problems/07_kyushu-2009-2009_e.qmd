@@ -3,6 +3,7 @@ title: "九州大学 2009年 2009_e"
 problem_id: "07_kyushu-2009-2009_e"
 university: "九州大学"
 exam_year: "2009"
+problem_number: 5
 source_tex: "archive/07_kyushu/2009/2009_e.tex"
 pdf_source: "archive/07_kyushu/2009/2009_e.pdf"
 page_image: "archive/07_kyushu/2009/2009_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$f(x)$を$x\geqq0$で定義された連続な関数とし，$a$，$b$を正の定数とする．
+$f(x)$を$x\geqq0$で定義された連続な関数とし，$a$，$b$を正の定数とする．
 このとき，$f(x)$が$x\geqq0$で
 \[ 0 \leqq f(x) \leqq a+b\int_0^x f(t) dt \]
 の関係を満たすものとする．以下の問いに答えよ．

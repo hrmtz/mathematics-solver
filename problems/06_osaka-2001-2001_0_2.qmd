@@ -3,6 +3,7 @@ title: "大阪大学 2001年 2001_0_2"
 problem_id: "06_osaka-2001-2001_0_2"
 university: "大阪大学"
 exam_year: "2001"
+problem_number: 2
 source_tex: "archive/06_osaka/2001/2001_0_2.tex"
 pdf_source: "archive/06_osaka/2001/2001_0_2.pdf"
 page_image: "archive/06_osaka/2001/2001_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　空間ベクトル$\overrightarrow{x}=(x_1, \, x_2, \, x_3)$，
+空間ベクトル$\overrightarrow{x}=(x_1, \, x_2, \, x_3)$，
 $\overrightarrow{y}=(y_1, \, y_2, \, y_3)$を考える．
 ただし，どちらも零ベクトルではないとする．
 $k=1, \, 2, \, 3$に対し，複素数

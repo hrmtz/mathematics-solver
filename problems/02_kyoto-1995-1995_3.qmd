@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_3"
 problem_id: "02_kyoto-1995-1995_3"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/02_kyoto/1995/1995_3.tex"
 pdf_source: "archive/02_kyoto/1995/1995_3.pdf"
 page_image: "archive/02_kyoto/1995/1995_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面上の2曲線
+$xy$平面上の2曲線
 \begin{description}
 \item[]$C_1:y=x^3$，
 \item[]$C_2:y=ax^2+bx+c$

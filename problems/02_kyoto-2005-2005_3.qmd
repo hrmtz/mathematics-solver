@@ -3,6 +3,7 @@ title: "京都大学 2005年 2005_3"
 problem_id: "02_kyoto-2005-2005_3"
 university: "京都大学"
 exam_year: "2005"
+problem_number: 3
 source_tex: "archive/02_kyoto/2005/2005_3.tex"
 pdf_source: "archive/02_kyoto/2005/2005_3.pdf"
 page_image: "archive/02_kyoto/2005/2005_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$\alpha$，$\beta$，$\gamma$は相異なる複素数で、$\alpha+\beta+\gamma={\alpha}^2+{\beta}^2+{\gamma}^2=0$を満たすとする．
+$\alpha$，$\beta$，$\gamma$は相異なる複素数で、$\alpha+\beta+\gamma={\alpha}^2+{\beta}^2+{\gamma}^2=0$を満たすとする．
 このとき，$\alpha$，$\beta$，$\gamma$の表す複素平面上の3点を結んで得られる三角形はどのような三角形か．
 (ただし，複素平面を複素数平面ともいう．)
 

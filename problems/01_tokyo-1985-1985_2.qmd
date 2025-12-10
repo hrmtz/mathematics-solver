@@ -3,6 +3,7 @@ title: "東京大学 1985年 1985_2"
 problem_id: "01_tokyo-1985-1985_2"
 university: "東京大学"
 exam_year: "1985"
+problem_number: 2
 source_tex: "archive/01_tokyo/1985/1985_2.tex"
 pdf_source: "archive/01_tokyo/1985/1985_2.pdf"
 page_image: "archive/01_tokyo/1985/1985_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xy$平面において，$O$を原点，$A$を定点$(1,0)$とする．
+$xy$平面において，$O$を原点，$A$を定点$(1,0)$とする．
 また，$P$，$Q$は円周$x^2+y^2=1$の上を動く2点であって，
 線分$OA$から正の向きにまわって線分$OP$にいたる角と，
 線分$OP$から正の向きにまわって線分$OQ$にいたる角が等しいという関係が成り立っているものとする．

@@ -3,6 +3,7 @@ title: "大阪大学 1995年 1995_c"
 problem_id: "06_osaka-1995-1995_c"
 university: "大阪大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/06_osaka/1995/1995_c.tex"
 pdf_source: "archive/06_osaka/1995/1995_c.pdf"
 page_image: "archive/06_osaka/1995/1995_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2つの曲線
+2つの曲線
 \[ C_1:y=x^\frac{3}{2} \hspace{1zw} (x\geqq0), \hspace{1zw}
 C_2:y=x^\frac{3}{2}e^{-\frac{x^2}{2}} \hspace{1zw} (x\geqq0) \]
 を考える．

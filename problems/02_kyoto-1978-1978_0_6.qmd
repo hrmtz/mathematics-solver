@@ -3,6 +3,7 @@ title: "京都大学 1978年 1978_0_6"
 problem_id: "02_kyoto-1978-1978_0_6"
 university: "京都大学"
 exam_year: "1978"
+problem_number: 6
 source_tex: "archive/02_kyoto/1978/1978_0_6.tex"
 pdf_source: "archive/02_kyoto/1978/1978_0_6.pdf"
 page_image: "archive/02_kyoto/1978/1978_0_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　数0または1を$n$個並べて得られる数列$A=\{a_1,a_2,\cdots\cdots,a_n\}$ $a_i=0\text{または}1$を考える．
+数0または1を$n$個並べて得られる数列$A=\{a_1,a_2,\cdots\cdots,a_n\}$ $a_i=0\text{または}1$を考える．
 これに対して，新しい数列$A'=\{{a'}_1,{a'}_2,\cdots\cdots,{a'}_n\}$ ${a'}_i=0\text{または}1$を次のように定める：
 　$n$角形の頂点に，$a_1,a_2,\cdots\cdots,a_n$をこの順に並べたとき．
 \begin{description}

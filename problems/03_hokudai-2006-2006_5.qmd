@@ -3,6 +3,7 @@ title: "北海道大学 2006年 2006_5"
 problem_id: "03_hokudai-2006-2006_5"
 university: "北海道大学"
 exam_year: "2006"
+problem_number: 5
 source_tex: "archive/03_hokudai/2006/2006_5.tex"
 pdf_source: "archive/03_hokudai/2006/2006_5.pdf"
 page_image: "archive/03_hokudai/2006/2006_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　1つのさいころを投げ続けて，同じ目が2回連続して出たら終了するものとする．
+1つのさいころを投げ続けて，同じ目が2回連続して出たら終了するものとする．
 \begin{description}
 \item[(1)]4回目以内(4回目も含む)に終了する確率を求めよ．
 \item[(2)]$r$回目以内($r$回目も含む)に終了する確率を求めよ．ただし，$r\geqq2$とする．

@@ -3,6 +3,7 @@ title: "東北大学 2002年 2002_0_2"
 problem_id: "04_tohoku-2002-2002_0_2"
 university: "東北大学"
 exam_year: "2002"
+problem_number: 2
 source_tex: "archive/04_tohoku/2002/2002_0_2.tex"
 pdf_source: "archive/04_tohoku/2002/2002_0_2.pdf"
 page_image: "archive/04_tohoku/2002/2002_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$0^\circ\leqq\theta\leqq{180}^\circ$として，$x$の関数$f(x)$を
+$0^\circ\leqq\theta\leqq{180}^\circ$として，$x$の関数$f(x)$を
 \[ f(x)=x^2+\frac{2\cos\theta}{\sqrt3}x-2\sin\theta \]
 と定める．$x$が整数を動くときの$f(x)$の最小値を$m(\theta)$とおく．
 \begin{description}

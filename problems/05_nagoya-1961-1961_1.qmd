@@ -3,6 +3,7 @@ title: "名古屋大学 1961年 1961_1"
 problem_id: "05_nagoya-1961-1961_1"
 university: "名古屋大学"
 exam_year: "1961"
+problem_number: 1
 source_tex: "archive/05_nagoya/1961/1961_1.tex"
 pdf_source: "archive/05_nagoya/1961/1961_1.pdf"
 page_image: "archive/05_nagoya/1961/1961_1.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]鋭角三角形$ABC$の垂心を$H$とするとき，
 3つの三角形$HBC$，$HCA$，$HAB$の外接円の大きさの間には，

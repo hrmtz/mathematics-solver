@@ -3,6 +3,7 @@ title: "京都大学 2007年 2007a_0_5"
 problem_id: "02_kyoto-2007-2007a_0_5"
 university: "京都大学"
 exam_year: "2007"
+problem_number: 5
 source_tex: "archive/02_kyoto/2007/2007a_0_5.tex"
 pdf_source: "archive/02_kyoto/2007/2007a_0_5.pdf"
 page_image: "archive/02_kyoto/2007/2007a_0_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n$を1以上の整数とするとき，次の2つの命題はそれぞれ正しいか．
+$n$を1以上の整数とするとき，次の2つの命題はそれぞれ正しいか．
 正しいときは証明し，正しくないときはその理由を述べよ．
 命題$\mathbf{p}$：ある$n$に対して，$\sqrt{n}$と$\sqrt{n+1}$は共に有理数である．
 命題$\mathbf{q}$：すべての$n$に対して，$\sqrt{n+1}-\sqrt{n}$は無理数である．

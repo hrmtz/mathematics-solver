@@ -3,6 +3,7 @@ title: "東京大学 1976年 1976_3b"
 problem_id: "01_tokyo-1976-1976_3b"
 university: "東京大学"
 exam_year: "1976"
+problem_number: 3
 source_tex: "archive/01_tokyo/1976/1976_3b.tex"
 pdf_source: "archive/01_tokyo/1976/1976_3b.pdf"
 page_image: "archive/01_tokyo/1976/1976_3b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 旧
-　$xy$平面上に3つの円$A$，$B$，$C$があって，それぞれ
+$xy$平面上に3つの円$A$，$B$，$C$があって，それぞれ
 \[ A:x^2+y^2=9, \hspace{1zw} B:{(x-4)}^2+{(y-3)}^2=4, \hspace{1zw} C:{(x-5)}^2+{(y+3)}^2=1 \]
 で表わされる．
 この平面上の点$P$から円$A$，$B$，$C$に接線がひけるとき，

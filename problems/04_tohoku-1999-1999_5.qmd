@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_5"
 problem_id: "04_tohoku-1999-1999_5"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 5
 source_tex: "archive/04_tohoku/1999/1999_5.tex"
 pdf_source: "archive/04_tohoku/1999/1999_5.pdf"
 page_image: "archive/04_tohoku/1999/1999_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　正$n$角形$P_n$を次のようにして定義する．
+正$n$角形$P_n$を次のようにして定義する．
 \begin{description}
 \item[(i)]$P_3$は面積が1の正三角形である．
 \item[(ii)]$P_n$と同じ面積をもつ円を$D_n$とする．

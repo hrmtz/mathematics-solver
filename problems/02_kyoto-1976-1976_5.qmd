@@ -3,6 +3,7 @@ title: "京都大学 1976年 1976_5"
 problem_id: "02_kyoto-1976-1976_5"
 university: "京都大学"
 exam_year: "1976"
+problem_number: 5
 source_tex: "archive/02_kyoto/1976/1976_5.tex"
 pdf_source: "archive/02_kyoto/1976/1976_5.pdf"
 page_image: "archive/02_kyoto/1976/1976_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　関数$f(x)$で2つの条件(イ)$f(x)$は微分可能(ロ)$x\leqq0$のとき$f(x)=0$，$x\geqq1$のとき$f(x)=1$をみたすものがある．
+関数$f(x)$で2つの条件(イ)$f(x)$は微分可能(ロ)$x\leqq0$のとき$f(x)=0$，$x\geqq1$のとき$f(x)=1$をみたすものがある．
 \begin{description}
 \item[(i)]微分可能な関数$g(x)$と正数$a$が与えられたとき，
 上の関数$f(x)$を用いて，次の条件(ハ)，(ニ)をみたす微分可能な関数$h(x)$を作れ．

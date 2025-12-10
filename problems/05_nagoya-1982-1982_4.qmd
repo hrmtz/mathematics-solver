@@ -3,6 +3,7 @@ title: "名古屋大学 1982年 1982_4"
 problem_id: "05_nagoya-1982-1982_4"
 university: "名古屋大学"
 exam_year: "1982"
+problem_number: 4
 source_tex: "archive/05_nagoya/1982/1982_4.tex"
 pdf_source: "archive/05_nagoya/1982/1982_4.pdf"
 page_image: "archive/05_nagoya/1982/1982_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　曲線$x^3-2xy+y^2=0$の$x\geqq0$なる部分を$C$とする．
+曲線$x^3-2xy+y^2=0$の$x\geqq0$なる部分を$C$とする．
 $C$上の点で$x$座標の最大な点と$y$座標の最大な点を求めよ．
 また$C$で囲まれた図形の面積を求めよ．
 

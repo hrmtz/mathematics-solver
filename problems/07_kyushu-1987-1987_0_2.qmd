@@ -3,6 +3,7 @@ title: "九州大学 1987年 1987_0_2"
 problem_id: "07_kyushu-1987-1987_0_2"
 university: "九州大学"
 exam_year: "1987"
+problem_number: 2
 source_tex: "archive/07_kyushu/1987/1987_0_2.tex"
 pdf_source: "archive/07_kyushu/1987/1987_0_2.pdf"
 page_image: "archive/07_kyushu/1987/1987_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$n$を自然数，$a$を正の定数とする．このとき，
+$n$を自然数，$a$を正の定数とする．このとき，
 \begin{description}
 \item[(1)]2つの曲線
 \[ C_1:y=\frac{x^{2n}}{2a^\frac{n}{n+1}}, \hspace{1zw}

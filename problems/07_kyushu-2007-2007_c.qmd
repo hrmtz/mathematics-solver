@@ -3,6 +3,7 @@ title: "九州大学 2007年 2007_c"
 problem_id: "07_kyushu-2007-2007_c"
 university: "九州大学"
 exam_year: "2007"
+problem_number: 3
 source_tex: "archive/07_kyushu/2007/2007_c.tex"
 pdf_source: "archive/07_kyushu/2007/2007_c.pdf"
 page_image: "archive/07_kyushu/2007/2007_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　関数
+関数
 \[ f(x)=\begin{cases} x\log x & (x>0) 
 
  0 & (x=0) 

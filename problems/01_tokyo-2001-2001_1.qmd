@@ -3,6 +3,7 @@ title: "東京大学 2001年 2001_1"
 problem_id: "01_tokyo-2001-2001_1"
 university: "東京大学"
 exam_year: "2001"
+problem_number: 1
 source_tex: "archive/01_tokyo/2001/2001_1.tex"
 pdf_source: "archive/01_tokyo/2001/2001_1.pdf"
 page_image: "archive/01_tokyo/2001/2001_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　半径$r$の球面上に4点$A$，$B$，$C$，$D$がある．
+半径$r$の球面上に4点$A$，$B$，$C$，$D$がある．
 四面体$ABCD$の各辺の長さは，
 \[ AB=\sqrt3, \hspace{1zw} AC=AD=BC=BD=CD=2 \]
 を満たしている．

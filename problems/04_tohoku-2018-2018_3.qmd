@@ -3,6 +3,7 @@ title: "東北大学 2018年 2018_3"
 problem_id: "04_tohoku-2018-2018_3"
 university: "東北大学"
 exam_year: "2018"
+problem_number: 3
 source_tex: "archive/04_tohoku/2018/2018_3.tex"
 pdf_source: "archive/04_tohoku/2018/2018_3.pdf"
 page_image: "archive/04_tohoku/2018/2018_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　整数$a$，$b$は等式
+整数$a$，$b$は等式
 \[ 3^a-2^b=1 \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \]
 を満たしているとする。
 \begin{description}

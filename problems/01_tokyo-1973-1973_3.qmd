@@ -3,6 +3,7 @@ title: "東京大学 1973年 1973_3"
 problem_id: "01_tokyo-1973-1973_3"
 university: "東京大学"
 exam_year: "1973"
+problem_number: 3
 source_tex: "archive/01_tokyo/1973/1973_3.tex"
 pdf_source: "archive/01_tokyo/1973/1973_3.pdf"
 page_image: "archive/01_tokyo/1973/1973_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　区間$1 \leqq x \leqq 3$において次のように定義された関数$f(x)$がある．
+区間$1 \leqq x \leqq 3$において次のように定義された関数$f(x)$がある．
 \[
 f(x)=
 \begin{cases}

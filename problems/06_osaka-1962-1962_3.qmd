@@ -3,6 +3,7 @@ title: "大阪大学 1962年 1962_3"
 problem_id: "06_osaka-1962-1962_3"
 university: "大阪大学"
 exam_year: "1962"
+problem_number: 3
 source_tex: "archive/06_osaka/1962/1962_3.tex"
 pdf_source: "archive/06_osaka/1962/1962_3.pdf"
 page_image: "archive/06_osaka/1962/1962_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　半径$r$ cmの球形で，最上部に小孔のある器$A$と，
+半径$r$ cmの球形で，最上部に小孔のある器$A$と，
 線分$y=mx$ $(r \geqq y \geqq 0)$を$y$軸のまわりに回転させてできた円錐形の器$B$がある。
 $A$の球の中心と，$B$の円錐の頂点とを同一水平面上におき，
 円錐の軸は鉛直にしておく。

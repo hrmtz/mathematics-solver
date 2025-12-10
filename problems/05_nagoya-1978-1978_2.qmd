@@ -3,6 +3,7 @@ title: "名古屋大学 1978年 1978_2"
 problem_id: "05_nagoya-1978-1978_2"
 university: "名古屋大学"
 exam_year: "1978"
+problem_number: 2
 source_tex: "archive/05_nagoya/1978/1978_2.tex"
 pdf_source: "archive/05_nagoya/1978/1978_2.pdf"
 page_image: "archive/05_nagoya/1978/1978_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上に3角形$ABC$が与えられている．
+平面上に3角形$ABC$が与えられている．
 この平面上の点$P$に対して，
 $AP$の中点を$Q$，$BQ$の中点を$R$，$CR$の中点を$S$とする．
 このとき，$S=P$となる点$P$がただ1つ存在することを証明せよ．

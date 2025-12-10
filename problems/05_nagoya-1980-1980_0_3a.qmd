@@ -3,6 +3,7 @@ title: "名古屋大学 1980年 1980_0_3a"
 problem_id: "05_nagoya-1980-1980_0_3a"
 university: "名古屋大学"
 exam_year: "1980"
+problem_number: 3
 source_tex: "archive/05_nagoya/1980/1980_0_3a.tex"
 pdf_source: "archive/05_nagoya/1980/1980_0_3a.pdf"
 page_image: "archive/05_nagoya/1980/1980_0_3a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3 (a)
-　数列$\{ a_n \}$から，関係式
+数列$\{ a_n \}$から，関係式
 \[ b_1=a_1, \hspace{1zw} b_2=a_2-\frac{1}{1 \, !}a_1, \]
 \[ \cdots\cdots\cdots\cdots\cdots \]
 \[ b_n=a_n-\frac{1}{1 \, !}a_{n-1}+\frac{1}{2 \, !}a_{n-2}-\cdots+{(-1)}^{n-1}\frac{1}{(n-1) \, !}a_1, \]

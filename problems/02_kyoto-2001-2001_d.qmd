@@ -3,6 +3,7 @@ title: "京都大学 2001年 2001_d"
 problem_id: "02_kyoto-2001-2001_d"
 university: "京都大学"
 exam_year: "2001"
+problem_number: 4
 source_tex: "archive/02_kyoto/2001/2001_d.tex"
 pdf_source: "archive/02_kyoto/2001/2001_d.pdf"
 page_image: "archive/02_kyoto/2001/2001_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　負でない実数$a$に対し，$0 \leqq r < 1$で，$a-r$が整数となる実数$r$を$\{ a \}$で表す．
+負でない実数$a$に対し，$0 \leqq r < 1$で，$a-r$が整数となる実数$r$を$\{ a \}$で表す．
 すなわち，$\{ a \}$は，$a$の小数部分を表す．
 \begin{description}
 \item[(1)]$\{ n\log_{10}2 \} < 0.02$となる正の整数$n$を1つ求めよ．

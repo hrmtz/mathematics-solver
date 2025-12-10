@@ -3,6 +3,7 @@ title: "東北大学 1984年 1984_3"
 problem_id: "04_tohoku-1984-1984_3"
 university: "東北大学"
 exam_year: "1984"
+problem_number: 3
 source_tex: "archive/04_tohoku/1984/1984_3.tex"
 pdf_source: "archive/04_tohoku/1984/1984_3.pdf"
 page_image: "archive/04_tohoku/1984/1984_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　正の数$\alpha$，$\beta$，$m$，$n$が次の条件を満たしている．
+正の数$\alpha$，$\beta$，$m$，$n$が次の条件を満たしている．
 \[ 2\alpha+\beta=\frac{\pi}{4}, \hspace{1zw} \tan\alpha=\frac{1}{m}, \hspace{1zw} \tan\beta=\frac{1}{n} \]
 \begin{description}
 \item[(1)]$m$を用いて$n$を表せ．

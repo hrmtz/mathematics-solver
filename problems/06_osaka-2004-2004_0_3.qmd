@@ -3,6 +3,7 @@ title: "大阪大学 2004年 2004_0_3"
 problem_id: "06_osaka-2004-2004_0_3"
 university: "大阪大学"
 exam_year: "2004"
+problem_number: 3
 source_tex: "archive/06_osaka/2004/2004_0_3.tex"
 pdf_source: "archive/06_osaka/2004/2004_0_3.pdf"
 page_image: "archive/06_osaka/2004/2004_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$n$を自然数とする．
+$n$を自然数とする．
 プレイヤー$A$，$B$がサイコロを交互に投げるゲームをする．
 最初は$A$が投げ，先に1の目を出した方を勝ちとして終わる．
 ただし，$A$が$n$回投げても勝負がつかない場合は$B$の勝ちとする．

@@ -3,6 +3,7 @@ title: "名古屋大学 1996年 1996_0_3a"
 problem_id: "05_nagoya-1996-1996_0_3a"
 university: "名古屋大学"
 exam_year: "1996"
+problem_number: 3
 source_tex: "archive/05_nagoya/1996/1996_0_3a.tex"
 pdf_source: "archive/05_nagoya/1996/1996_0_3a.pdf"
 page_image: "archive/05_nagoya/1996/1996_0_3a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (a)
-　数列$\{ a_n \}$があって，
+数列$\{ a_n \}$があって，
 すべての$n$について，
 初項$a_1$から第$n$項$a_n$までの和が
 $\displaystyle{ \left( a_n+\frac{1}{4} \right) }^2$に等しいとする．

@@ -3,6 +3,7 @@ title: "京都大学 2016年 2016_1"
 problem_id: "02_kyoto-2016-2016_1"
 university: "京都大学"
 exam_year: "2016"
+problem_number: 1
 source_tex: "archive/02_kyoto/2016/2016_1.tex"
 pdf_source: "archive/02_kyoto/2016/2016_1.pdf"
 page_image: "archive/02_kyoto/2016/2016_1.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]$n$を2以上の自然数とするとき，関数
 \[ f_n(\theta)=(1+\cos\theta)\sin^{n-1}\theta \]

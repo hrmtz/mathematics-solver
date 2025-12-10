@@ -3,6 +3,7 @@ title: "名古屋大学 1961年 1961_3"
 problem_id: "05_nagoya-1961-1961_3"
 university: "名古屋大学"
 exam_year: "1961"
+problem_number: 3
 source_tex: "archive/05_nagoya/1961/1961_3.tex"
 pdf_source: "archive/05_nagoya/1961/1961_3.pdf"
 page_image: "archive/05_nagoya/1961/1961_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　三角形$PQR$で$QR=x$，$RP=y$，$PQ=z$とし，
+三角形$PQR$で$QR=x$，$RP=y$，$PQ=z$とし，
 周の長さ$x+y+z$は一定とする。
 この三角形を辺$PQ$のまわりに1回転してできる立体の体積を$V$とするとき，
 次の問に答えよ。

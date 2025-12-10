@@ -3,6 +3,7 @@ title: "京都大学 2004年 2004_6"
 problem_id: "02_kyoto-2004-2004_6"
 university: "京都大学"
 exam_year: "2004"
+problem_number: 6
 source_tex: "archive/02_kyoto/2004/2004_6.tex"
 pdf_source: "archive/02_kyoto/2004/2004_6.pdf"
 page_image: "archive/02_kyoto/2004/2004_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$N$を自然数とする．
+$N$を自然数とする．
 $N+1$個の箱があり，
 1から$N+1$までの番号が付いている．
 どの箱にも玉が1個入っている．

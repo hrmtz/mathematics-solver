@@ -3,6 +3,7 @@ title: "北海道大学 1965年 1965_0_7"
 problem_id: "03_hokudai-1965-1965_0_7"
 university: "北海道大学"
 exam_year: "1965"
+problem_number: 7
 source_tex: "archive/03_hokudai/1965/1965_0_7.tex"
 pdf_source: "archive/03_hokudai/1965/1965_0_7.pdf"
 page_image: "archive/03_hokudai/1965/1965_0_7.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-7
-　点$A_0, \, A_1, \, A_2, \, A_3, \, \cdots\cdots$は1直線上に等間隔$a$で，この順に並んでいる。
+点$A_0, \, A_1, \, A_2, \, A_3, \, \cdots\cdots$は1直線上に等間隔$a$で，この順に並んでいる。
 点$P$はこの直線上を$A_0$から出発して順次$A_1, \, A_2, \, A_3, \, \cdots\cdots$を通って止まることなく動き，
 線分$A_0A_1, \, A_1A_2, \, A_2A_3, \, A_3A_4, \, \cdots\cdots$上においては，
 それぞれ速さ$6, \, 12, \, 20, \, 30, \, \cdots\cdots$の等速運動をしている。

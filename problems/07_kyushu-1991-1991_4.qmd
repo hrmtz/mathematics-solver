@@ -3,6 +3,7 @@ title: "九州大学 1991年 1991_4"
 problem_id: "07_kyushu-1991-1991_4"
 university: "九州大学"
 exam_year: "1991"
+problem_number: 4
 source_tex: "archive/07_kyushu/1991/1991_4.tex"
 pdf_source: "archive/07_kyushu/1991/1991_4.pdf"
 page_image: "archive/07_kyushu/1991/1991_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　数列$\{ a_n \}$を$a_1=2$，$\displaystyle a_{n+1}=\frac{1}{2}\left( a_n+\frac{1}{a_n} \right)$，$n\geqq1$で定めるとき，
+数列$\{ a_n \}$を$a_1=2$，$\displaystyle a_{n+1}=\frac{1}{2}\left( a_n+\frac{1}{a_n} \right)$，$n\geqq1$で定めるとき，
 次の問に答えよ．
 \begin{description}
 \item[(1)]すべての$n$に対して$a_n>1$および$a_{n+1}<a_n$が成り立つことを示せ．

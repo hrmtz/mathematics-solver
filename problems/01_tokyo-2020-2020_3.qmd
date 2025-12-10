@@ -3,6 +3,7 @@ title: "東京大学 2020年 2020_3"
 problem_id: "01_tokyo-2020-2020_3"
 university: "東京大学"
 exam_year: "2020"
+problem_number: 3
 source_tex: "archive/01_tokyo/2020/2020_3.tex"
 pdf_source: "archive/01_tokyo/2020/2020_3.pdf"
 page_image: "archive/01_tokyo/2020/2020_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$-1 \leqq t \leqq 1$を満たす実数$t$に対して，
+$-1 \leqq t \leqq 1$を満たす実数$t$に対して，
 \[ x(t)=(1+t)\sqrt{1+t} \]
 \[ y(t)=3(1+t)\sqrt{1-t} \]
 とする。座標平面上の点$P(x(t), \, y(t))$を考える。

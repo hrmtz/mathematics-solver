@@ -3,6 +3,7 @@ title: "東北大学 1984年 1984_0_3"
 problem_id: "04_tohoku-1984-1984_0_3"
 university: "東北大学"
 exam_year: "1984"
+problem_number: 3
 source_tex: "archive/04_tohoku/1984/1984_0_3.tex"
 pdf_source: "archive/04_tohoku/1984/1984_0_3.pdf"
 page_image: "archive/04_tohoku/1984/1984_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　空間に3点$\displaystyle A \left( -2, \, 2, \, -\frac{1}{2} \right)$，
+空間に3点$\displaystyle A \left( -2, \, 2, \, -\frac{1}{2} \right)$，
 $\displaystyle B \left( 1, \, 0, \, \frac{1}{2} \right)$，$P(2p, \, p, \, 3p)$がある．
 \begin{description}
 \item[(1)]$O$を原点とするとき，

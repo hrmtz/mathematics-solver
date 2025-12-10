@@ -3,6 +3,7 @@ title: "東北大学 1962年 1962_6"
 problem_id: "04_tohoku-1962-1962_6"
 university: "東北大学"
 exam_year: "1962"
+problem_number: 6
 source_tex: "archive/04_tohoku/1962/1962_6.tex"
 pdf_source: "archive/04_tohoku/1962/1962_6.pdf"
 page_image: "archive/04_tohoku/1962/1962_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　曲線
+曲線
 \[ ay=\sqrt{x-y}\cdots\cdots\cdots\text{\ding{"AC}} \]
 は次の2条件を満たすものとする。
 \begin{description}

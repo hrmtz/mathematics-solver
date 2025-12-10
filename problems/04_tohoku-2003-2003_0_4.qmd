@@ -3,6 +3,7 @@ title: "東北大学 2003年 2003_0_4"
 problem_id: "04_tohoku-2003-2003_0_4"
 university: "東北大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/04_tohoku/2003/2003_0_4.tex"
 pdf_source: "archive/04_tohoku/2003/2003_0_4.pdf"
 page_image: "archive/04_tohoku/2003/2003_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　ある人がバス停$A$で$A$発$B$行きのバスに乗り，
+ある人がバス停$A$で$A$発$B$行きのバスに乗り，
 バス停$B$で$B$発$C$行きのバスに乗りかえてバス停$C$へ向かうものとする．
 バスの発車時刻，バス停での待ち時間，バスの乗車時間は次の5つの条件を満たすものとする．
 \begin{description}

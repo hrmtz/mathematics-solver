@@ -3,6 +3,7 @@ title: "東京大学 1999年 1999_6"
 problem_id: "01_tokyo-1999-1999_6"
 university: "東京大学"
 exam_year: "1999"
+problem_number: 6
 source_tex: "archive/01_tokyo/1999/1999_6.tex"
 pdf_source: "archive/01_tokyo/1999/1999_6.pdf"
 page_image: "archive/01_tokyo/1999/1999_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$\displaystyle\int_0^\pi e^x {\sin}^2x dx>8$であることを示せ．
+$\displaystyle\int_0^\pi e^x {\sin}^2x dx>8$であることを示せ．
 ただし，$\pi=3.14\cdots$は円周率，$e=2.71\cdots$は自然対数の底である．
 
 ---

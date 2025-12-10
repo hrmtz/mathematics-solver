@@ -3,6 +3,7 @@ title: "九州大学 1999年 1999_3"
 problem_id: "07_kyushu-1999-1999_3"
 university: "九州大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/07_kyushu/1999/1999_3.tex"
 pdf_source: "archive/07_kyushu/1999/1999_3.pdf"
 page_image: "archive/07_kyushu/1999/1999_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]実数$k\geqq0$に対し，
 \[ \int_0^{2\pi}\left\{ y\left( x\cos\theta+\frac{1}{2}x^2 \right)-

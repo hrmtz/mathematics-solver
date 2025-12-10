@@ -3,6 +3,7 @@ title: "北海道大学 2018年 2018_1"
 problem_id: "03_hokudai-2018-2018_1"
 university: "北海道大学"
 exam_year: "2018"
+problem_number: 1
 source_tex: "archive/03_hokudai/2018/2018_1.tex"
 pdf_source: "archive/03_hokudai/2018/2018_1.pdf"
 page_image: "archive/03_hokudai/2018/2018_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標空間の4点$\displaystyle A(-\frac{\sqrt3}{2}, \, \frac{1}{2}, \, 0)$，
+座標空間の4点$\displaystyle A(-\frac{\sqrt3}{2}, \, \frac{1}{2}, \, 0)$，
 $B(0, \, 0, \, 1)$，
 $\displaystyle C(-\frac{1}{2}, \, -\frac{\sqrt3}{2}, \, -1)$，
 $\displaystyle D(\frac{1}{2}, \, \frac{\sqrt3}{2}, \, -1)$に対し，

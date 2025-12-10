@@ -3,6 +3,7 @@ title: "京都大学 1992年 1992_c"
 problem_id: "02_kyoto-1992-1992_c"
 university: "京都大学"
 exam_year: "1992"
+problem_number: 3
 source_tex: "archive/02_kyoto/1992/1992_c.tex"
 pdf_source: "archive/02_kyoto/1992/1992_c.pdf"
 page_image: "archive/02_kyoto/1992/1992_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　放物線$y=x^2$の上の点$P(t,t^2)$ (ただし，$t>0$)でこの曲線に接し，かつ$y$軸にも接する円を$C_1$，$C_2$とし，
+放物線$y=x^2$の上の点$P(t,t^2)$ (ただし，$t>0$)でこの曲線に接し，かつ$y$軸にも接する円を$C_1$，$C_2$とし，
 それぞれの半径を$r$，$R$ $(r<R)$とする．
 \begin{description}
 \item[(1)]$t$が正の実数全体を動くとき，$\displaystyle\frac{R}{r}$のとり得る値の範囲を求めよ．

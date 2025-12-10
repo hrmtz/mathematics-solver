@@ -3,6 +3,7 @@ title: "東京大学 2006年 2006_9"
 problem_id: "01_tokyo-2006-2006_9"
 university: "東京大学"
 exam_year: "2006"
+problem_number: 3
 source_tex: "archive/01_tokyo/2006/2006_9.tex"
 pdf_source: "archive/01_tokyo/2006/2006_9.pdf"
 page_image: "archive/01_tokyo/2006/2006_9.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　数列の和の公式
+数列の和の公式
 \[ \sum_{k=1}^nk=\frac{1}{2}n(n+1), \hspace{1zw}
 \sum_{k=1}^nk^2=\frac{1}{6}n(n+1)(2n+1), \hspace{1zw}
 \sum_{k=1}^nk^3={ \left\{ \frac{1}{2}n(n+1) \right\}  }^2 \]

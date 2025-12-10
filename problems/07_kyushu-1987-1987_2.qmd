@@ -3,6 +3,7 @@ title: "九州大学 1987年 1987_2"
 problem_id: "07_kyushu-1987-1987_2"
 university: "九州大学"
 exam_year: "1987"
+problem_number: 2
 source_tex: "archive/07_kyushu/1987/1987_2.tex"
 pdf_source: "archive/07_kyushu/1987/1987_2.pdf"
 page_image: "archive/07_kyushu/1987/1987_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　関数$f(x)$とその導関数$f'(x)$が連続で，すべての$x$に対して
+関数$f(x)$とその導関数$f'(x)$が連続で，すべての$x$に対して
 \[ (x^2+1)f(x)=\int_0^x\left\{ t^2f'(t)+\frac{4t}{t^2+1}f(t) \right\}dt+1 \]
 が成り立つとする．このとき，次の問に答えよ．
 \begin{description}

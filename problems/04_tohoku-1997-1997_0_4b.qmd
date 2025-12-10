@@ -3,6 +3,7 @@ title: "東北大学 1997年 1997_0_4b"
 problem_id: "04_tohoku-1997-1997_0_4b"
 university: "東北大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/04_tohoku/1997/1997_0_4b.tex"
 pdf_source: "archive/04_tohoku/1997/1997_0_4b.pdf"
 page_image: "archive/04_tohoku/1997/1997_0_4b.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-4 (b)
 \begin{description}
 \item[(1)]2次方程式$x^2+ax+b=0$が相異なる2つの解$\alpha$，$\beta$をもつとき，定数$p$，$q$に対し
 \[ x_0=p+q, \hspace{1zw} x_n=p\alpha^n+q\beta^n \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]

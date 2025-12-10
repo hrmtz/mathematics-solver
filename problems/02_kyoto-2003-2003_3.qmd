@@ -3,6 +3,7 @@ title: "京都大学 2003年 2003_3"
 problem_id: "02_kyoto-2003-2003_3"
 university: "京都大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/02_kyoto/2003/2003_3.tex"
 pdf_source: "archive/02_kyoto/2003/2003_3.pdf"
 page_image: "archive/02_kyoto/2003/2003_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　四面体$OABC$は次の2つの条件
+四面体$OABC$は次の2つの条件
 \begin{description}
 \item[(i)]$OA \bot BC$，$OB \bot AC$，$OC \bot AB$
 \item[(ii)]4つの面の面積がすべて等しい

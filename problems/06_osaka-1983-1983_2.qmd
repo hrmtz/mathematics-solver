@@ -3,6 +3,7 @@ title: "大阪大学 1983年 1983_2"
 problem_id: "06_osaka-1983-1983_2"
 university: "大阪大学"
 exam_year: "1983"
+problem_number: 2
 source_tex: "archive/06_osaka/1983/1983_2.tex"
 pdf_source: "archive/06_osaka/1983/1983_2.pdf"
 page_image: "archive/06_osaka/1983/1983_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$と$b$は相異なる実数として，1次変換
+$a$と$b$は相異なる実数として，1次変換
 $\begin{pmatrix} x' 
 
  y' \end{pmatrix}

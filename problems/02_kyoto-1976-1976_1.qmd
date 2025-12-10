@@ -3,6 +3,7 @@ title: "京都大学 1976年 1976_1"
 problem_id: "02_kyoto-1976-1976_1"
 university: "京都大学"
 exam_year: "1976"
+problem_number: 1
 source_tex: "archive/02_kyoto/1976/1976_1.tex"
 pdf_source: "archive/02_kyoto/1976/1976_1.pdf"
 page_image: "archive/02_kyoto/1976/1976_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(i)]多項式$f(x)=x^n$が，区間$\displaystyle -\frac{1}{2} \leqq x \leqq \frac{1}{2}$において
 不等式$\displaystyle |f(x)|<\frac{1}{1000}$をみたすためには，

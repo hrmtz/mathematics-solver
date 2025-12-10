@@ -3,6 +3,7 @@ title: "東北大学 1968年 1968_2"
 problem_id: "04_tohoku-1968-1968_2"
 university: "東北大学"
 exam_year: "1968"
+problem_number: 2
 source_tex: "archive/04_tohoku/1968/1968_2.tex"
 pdf_source: "archive/04_tohoku/1968/1968_2.pdf"
 page_image: "archive/04_tohoku/1968/1968_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$と
+だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$と
 $x$軸との交点を$A(-a, \, 0)$，$B(a, \, 0)$とし，
 $C(c, \, 0)$ $(c \neq -a)$を$x$軸上の1点とする．
 $C$を通る直線とだ円との交点を$M$，$N$とし，

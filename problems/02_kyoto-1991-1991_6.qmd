@@ -3,6 +3,7 @@ title: "京都大学 1991年 1991_6"
 problem_id: "02_kyoto-1991-1991_6"
 university: "京都大学"
 exam_year: "1991"
+problem_number: 6
 source_tex: "archive/02_kyoto/1991/1991_6.tex"
 pdf_source: "archive/02_kyoto/1991/1991_6.pdf"
 page_image: "archive/02_kyoto/1991/1991_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　関数$y=f(x)$ $(x\geqq0)$は次の条件\ding{"AC}，\ding{"AD}を満たしている．
+関数$y=f(x)$ $(x\geqq0)$は次の条件\ding{"AC}，\ding{"AD}を満たしている．
 \begin{description}
 \item[\ding{"AC}]$f(x)$は微分可能で$f'(x)$は連続，かつ$f(x)>0$
 \item[\ding{"AD}]正の定数$a$があって

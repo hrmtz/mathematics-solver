@@ -3,6 +3,7 @@ title: "九州大学 2002年 2002_0_1"
 problem_id: "07_kyushu-2002-2002_0_1"
 university: "九州大学"
 exam_year: "2002"
+problem_number: 1
 source_tex: "archive/07_kyushu/2002/2002_0_1.tex"
 pdf_source: "archive/07_kyushu/2002/2002_0_1.pdf"
 page_image: "archive/07_kyushu/2002/2002_0_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]原点を中心とする半径$r$ $(r>0)$の円$x^2+y^2=r^2$上の点$(a, \, b)$における接線の方程式は
 $ax+by=r^2$で与えられることを示せ．

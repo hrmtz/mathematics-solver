@@ -3,6 +3,7 @@ title: "北海道大学 2002年 2002_0_3"
 problem_id: "03_hokudai-2002-2002_0_3"
 university: "北海道大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/03_hokudai/2002/2002_0_3.tex"
 pdf_source: "archive/03_hokudai/2002/2002_0_3.pdf"
 page_image: "archive/03_hokudai/2002/2002_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a$，$b$を$2b<3a<6b$を満たす正の定数とする．
+$a$，$b$を$2b<3a<6b$を満たす正の定数とする．
 \begin{description}
 \item[(1)]次の連立不等式の表す領域を図示せよ．
 \[ x+3y\leqq12, \hspace{1zw} 3x+y\leqq12, \hspace{1zw} a(x-3)+b(y-2)\leqq0 \hspace{1zw}

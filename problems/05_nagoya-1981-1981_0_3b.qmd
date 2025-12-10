@@ -3,6 +3,7 @@ title: "名古屋大学 1981年 1981_0_3b"
 problem_id: "05_nagoya-1981-1981_0_3b"
 university: "名古屋大学"
 exam_year: "1981"
+problem_number: 3
 source_tex: "archive/05_nagoya/1981/1981_0_3b.tex"
 pdf_source: "archive/05_nagoya/1981/1981_0_3b.pdf"
 page_image: "archive/05_nagoya/1981/1981_0_3b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3 (b)
-　$n$を正整数として，関係式
+$n$を正整数として，関係式
 \[ f(x)={(x-1)}^n+2\int_0^1f(t)dt \]
 を満たす関数$f(x)$を求めよ．
 

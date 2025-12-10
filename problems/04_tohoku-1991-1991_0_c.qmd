@@ -3,6 +3,7 @@ title: "東北大学 1991年 1991_0_c"
 problem_id: "04_tohoku-1991-1991_0_c"
 university: "東北大学"
 exam_year: "1991"
+problem_number: 3
 source_tex: "archive/04_tohoku/1991/1991_0_c.tex"
 pdf_source: "archive/04_tohoku/1991/1991_0_c.pdf"
 page_image: "archive/04_tohoku/1991/1991_0_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　楕円$\displaystyle C:\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>0, \, b>0)$と第1象限の点で接する直線を$l$とし，
+楕円$\displaystyle C:\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>0, \, b>0)$と第1象限の点で接する直線を$l$とし，
 $C$，$l$および$x$軸，$y$軸で囲まれる図形を$A$とする．
 \begin{description}
 \item[(1)]$A$の面積を最小にする$l$の方程式を求めよ．

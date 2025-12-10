@@ -3,6 +3,7 @@ title: "名古屋大学 2002年 2002_0_3b"
 problem_id: "05_nagoya-2002-2002_0_3b"
 university: "名古屋大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/05_nagoya/2002/2002_0_3b.tex"
 pdf_source: "archive/05_nagoya/2002/2002_0_3b.pdf"
 page_image: "archive/05_nagoya/2002/2002_0_3b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (b)
-　辺の長さがそれぞれ$AB=10$，$BC=6$，$AC=8$の$\triangle ABC$がある．
+辺の長さがそれぞれ$AB=10$，$BC=6$，$AC=8$の$\triangle ABC$がある．
 辺$AB$上に点$P$，辺$AC$上に点$Q$を，
 $\triangle APQ$の面積が$\triangle ABC$の面積の$\displaystyle\frac{1}{2}$になるようにとる．
 \begin{description}

@@ -3,6 +3,7 @@ title: "東北大学 1988年 1988_4"
 problem_id: "04_tohoku-1988-1988_4"
 university: "東北大学"
 exam_year: "1988"
+problem_number: 4
 source_tex: "archive/04_tohoku/1988/1988_4.tex"
 pdf_source: "archive/04_tohoku/1988/1988_4.pdf"
 page_image: "archive/04_tohoku/1988/1988_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$n$を2以上の整数とする．
+$n$を2以上の整数とする．
 1から$2n$までの整数から無作為に相異なる3つの数をとり出して，
 それらのうち最大の数と最小の数の差を$X$とする．
 \begin{description}

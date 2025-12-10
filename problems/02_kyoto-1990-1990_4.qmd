@@ -3,6 +3,7 @@ title: "京都大学 1990年 1990_4"
 problem_id: "02_kyoto-1990-1990_4"
 university: "京都大学"
 exam_year: "1990"
+problem_number: 4
 source_tex: "archive/02_kyoto/1990/1990_4.tex"
 pdf_source: "archive/02_kyoto/1990/1990_4.pdf"
 page_image: "archive/02_kyoto/1990/1990_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　半径1，$1-2r$の同心円の間に半径$r$の円が$n$個，互いに交わらずに入っているという状態を考える．
+半径1，$1-2r$の同心円の間に半径$r$の円が$n$個，互いに交わらずに入っているという状態を考える．
 $n$ $(\geqq2)$を固定した上で，$r$を変化させる．
 \begin{description}
 \item[(1)]$r$は$\displaystyle0<r\leqq\frac{\displaystyle\sin\frac{\pi}{n}}{\displaystyle1+\sin\frac{\pi}{n}}$

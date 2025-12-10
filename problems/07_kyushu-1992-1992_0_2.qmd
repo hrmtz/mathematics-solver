@@ -3,6 +3,7 @@ title: "九州大学 1992年 1992_0_2"
 problem_id: "07_kyushu-1992-1992_0_2"
 university: "九州大学"
 exam_year: "1992"
+problem_number: 2
 source_tex: "archive/07_kyushu/1992/1992_0_2.tex"
 pdf_source: "archive/07_kyushu/1992/1992_0_2.pdf"
 page_image: "archive/07_kyushu/1992/1992_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$P_0(x)=1$，$P_1(x)=x$，$\displaystyle P_2(x)=\frac{1}{2}(3x^2-1)$とおくとき，
+$P_0(x)=1$，$P_1(x)=x$，$\displaystyle P_2(x)=\frac{1}{2}(3x^2-1)$とおくとき，
 次の問に答えよ．
 \begin{description}
 \item[(1)]$\displaystyle \int_{-1}^1P_m(x)P_n(x)dx$ $(0 \leqq m \leqq n \leqq 2)$の値を定めよ．

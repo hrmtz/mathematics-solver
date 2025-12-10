@@ -3,6 +3,7 @@ title: "北海道大学 2002年 2002_c"
 problem_id: "03_hokudai-2002-2002_c"
 university: "北海道大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/03_hokudai/2002/2002_c.tex"
 pdf_source: "archive/03_hokudai/2002/2002_c.pdf"
 page_image: "archive/03_hokudai/2002/2002_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面において放物線$y=ax^2+b$ $(a\neq0)$を考える．
+$xy$平面において放物線$y=ax^2+b$ $(a\neq0)$を考える．
 この放物線と，ちょうど2つの共有点をもつ円$x^2+y^2=r^2$で$0<r<-b$を満たすものが存在するとする．
 \begin{description}
 \item[(1)]$a$，$b$が満たす条件を求めよ．

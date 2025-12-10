@@ -3,6 +3,7 @@ title: "名古屋大学 2001年 2001_1"
 problem_id: "05_nagoya-2001-2001_1"
 university: "名古屋大学"
 exam_year: "2001"
+problem_number: 1
 source_tex: "archive/05_nagoya/2001/2001_1.tex"
 pdf_source: "archive/05_nagoya/2001/2001_1.pdf"
 page_image: "archive/05_nagoya/2001/2001_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$e$を自然対数の底とする．
+$e$を自然対数の底とする．
 $e \leqq p < q$のとき，
 不等式$\displaystyle \log (\log q)-\log (\log p)<\frac{q-p}{e}$
 が成り立つことを証明せよ．

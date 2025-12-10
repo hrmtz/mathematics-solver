@@ -3,6 +3,7 @@ title: "東京大学 1986年 1986_3"
 problem_id: "01_tokyo-1986-1986_3"
 university: "東京大学"
 exam_year: "1986"
+problem_number: 3
 source_tex: "archive/01_tokyo/1986/1986_3.tex"
 pdf_source: "archive/01_tokyo/1986/1986_3.pdf"
 page_image: "archive/01_tokyo/1986/1986_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$xyz$空間において，
 三点$\displaystyle A \left( 0,0,\frac{1}{2} \right)$，

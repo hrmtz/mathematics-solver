@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_e"
 problem_id: "02_kyoto-1999-1999_e"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 5
 source_tex: "archive/02_kyoto/1999/1999_e.tex"
 pdf_source: "archive/02_kyoto/1999/1999_e.pdf"
 page_image: "archive/02_kyoto/1999/1999_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$a$，$b$を整数，$u$，$v$を有理数とする．
+$a$，$b$を整数，$u$，$v$を有理数とする．
 $u+v\sqrt3$が$x^2+ax+b=0$の解であるならば，$u$と$v$は共に整数であることを示せ．
 ただし$\sqrt3$が無理数であることは使ってよい．
 

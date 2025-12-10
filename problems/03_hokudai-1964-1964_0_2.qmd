@@ -3,6 +3,7 @@ title: "北海道大学 1964年 1964_0_2"
 problem_id: "03_hokudai-1964-1964_0_2"
 university: "北海道大学"
 exam_year: "1964"
+problem_number: 2
 source_tex: "archive/03_hokudai/1964/1964_0_2.tex"
 pdf_source: "archive/03_hokudai/1964/1964_0_2.pdf"
 page_image: "archive/03_hokudai/1964/1964_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$x$に関するある二次方程式の2つの虚根$\alpha=p+qi$，$\beta=p-qi$（$p$，$q$は実数，$i=\sqrt{-1}$）
+$x$に関するある二次方程式の2つの虚根$\alpha=p+qi$，$\beta=p-qi$（$p$，$q$は実数，$i=\sqrt{-1}$）
 の間に$\alpha^2+2\beta=1$なる関係がある。
 \begin{description}
 \item[(1)]この二次方程式を求めよ。

@@ -3,6 +3,7 @@ title: "北海道大学 2010年 2010_0_3"
 problem_id: "03_hokudai-2010-2010_0_3"
 university: "北海道大学"
 exam_year: "2010"
+problem_number: 3
 source_tex: "archive/03_hokudai/2010/2010_0_3.tex"
 pdf_source: "archive/03_hokudai/2010/2010_0_3.pdf"
 page_image: "archive/03_hokudai/2010/2010_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$\displaystyle a_n=\frac{1}{n(n+1)}$を第$n$項とする数列を，
+$\displaystyle a_n=\frac{1}{n(n+1)}$を第$n$項とする数列を，
 次のように奇数個ずつの群に分ける．
 \[ \{ a_1 \}, \hspace{1zw}
 \{ a_2, \, a_3, \, a_4 \}, \hspace{1zw}

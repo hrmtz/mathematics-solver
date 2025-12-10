@@ -3,6 +3,7 @@ title: "九州大学 2021年 2021_d"
 problem_id: "07_kyushu-2021-2021_d"
 university: "九州大学"
 exam_year: "2021"
+problem_number: 4
 source_tex: "archive/07_kyushu/2021/2021_d.tex"
 pdf_source: "archive/07_kyushu/2021/2021_d.pdf"
 page_image: "archive/07_kyushu/2021/2021_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　正四面体ABCDの頂点A，B，C，D上の動点Pが，時刻0には頂点Bにいるとする。
+正四面体ABCDの頂点A，B，C，D上の動点Pが，時刻0には頂点Bにいるとする。
 0以上の整数$n$に対して，時刻$n+1$の$P$の位置が，時刻$n$のPの位置から以下のルールに従って決まるとする。
 \begin{description}
 \item[●]時刻$n$にPが頂点Aにいる場合

@@ -3,6 +3,7 @@ title: "大阪大学 2019年 2019_2"
 problem_id: "06_osaka-2019-2019_2"
 university: "大阪大学"
 exam_year: "2019"
+problem_number: 2
 source_tex: "archive/06_osaka/2019/2019_2.tex"
 pdf_source: "archive/06_osaka/2019/2019_2.pdf"
 page_image: "archive/06_osaka/2019/2019_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　自然数$a$，$b$に対し，
+自然数$a$，$b$に対し，
 \[ w=\cos\frac{a\pi}{3+b}+i\sin\frac{a\pi}{3+b} \]
 とおく．ただし，$i$は虚数単位とする．
 複素数$z_n$ $(n=1, \, 2, \, 3, \, \cdots)$を以下のように定める．

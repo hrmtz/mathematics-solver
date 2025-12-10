@@ -3,6 +3,7 @@ title: "東京科学大学 2020年 2020_3"
 problem_id: "08_titech-2020-2020_3"
 university: "東京科学大学"
 exam_year: "2020"
+problem_number: 3
 source_tex: "archive/08_titech/2020/2020_3.tex"
 pdf_source: "archive/08_titech/2020/2020_3.pdf"
 page_image: "archive/08_titech/2020/2020_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　座標空間に5点
+座標空間に5点
 \[ O(0, \, 0, \, 0), \hspace{1zw} A(3, \, 0, \, 0), \hspace{1zw}
 B(0, \, 3, \, 0), \hspace{1zw} C(0, \, 0, \, 4), \hspace{1zw} P(0, \, 0, \, -2) \]
 をとる．さらに$0<a<3$，$0<b<3$に対して2点$Q(a, \, 0, \, 0)$と$R(0, \, b, \, 0)$を考える．

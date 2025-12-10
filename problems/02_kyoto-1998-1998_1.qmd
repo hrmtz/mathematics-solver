@@ -3,6 +3,7 @@ title: "京都大学 1998年 1998_1"
 problem_id: "02_kyoto-1998-1998_1"
 university: "京都大学"
 exam_year: "1998"
+problem_number: 1
 source_tex: "archive/02_kyoto/1998/1998_1.tex"
 pdf_source: "archive/02_kyoto/1998/1998_1.pdf"
 page_image: "archive/02_kyoto/1998/1998_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　直角三角形に半径$r$の円が内接していて，三角形の3辺の長さの和と円の直径との和が2となっている．
+直角三角形に半径$r$の円が内接していて，三角形の3辺の長さの和と円の直径との和が2となっている．
 このとき以下の問に答えよ．
 \begin{description}
 \item[(1)]この三角形の斜辺の長さを$r$で表せ．

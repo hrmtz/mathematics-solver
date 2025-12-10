@@ -3,6 +3,7 @@ title: "九州大学 2009年 2009_b"
 problem_id: "07_kyushu-2009-2009_b"
 university: "九州大学"
 exam_year: "2009"
+problem_number: 2
 source_tex: "archive/07_kyushu/2009/2009_b.tex"
 pdf_source: "archive/07_kyushu/2009/2009_b.pdf"
 page_image: "archive/07_kyushu/2009/2009_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$，$b$は実数（ただし，$b\neq0$）で，
+$a$，$b$は実数（ただし，$b\neq0$）で，
 $A=\begin{pmatrix} a & \sqrt3 b 
 
  \sqrt3 b & a+2b \end{pmatrix}$とする．

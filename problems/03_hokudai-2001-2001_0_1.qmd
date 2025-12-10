@@ -3,6 +3,7 @@ title: "北海道大学 2001年 2001_0_1"
 problem_id: "03_hokudai-2001-2001_0_1"
 university: "北海道大学"
 exam_year: "2001"
+problem_number: 1
 source_tex: "archive/03_hokudai/2001/2001_0_1.tex"
 pdf_source: "archive/03_hokudai/2001/2001_0_1.pdf"
 page_image: "archive/03_hokudai/2001/2001_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$xy$平面上の曲線$y=a(x-b)^2+c$を考える．
+$xy$平面上の曲線$y=a(x-b)^2+c$を考える．
 ただし，$a$，$b$，$c$は定数で$a\neq0$とする．
 この曲線上の点$P(p, \, q)$での接線が$x$軸と交点をもつとき，
 その交点を$(f(p), \, 0)$とする．

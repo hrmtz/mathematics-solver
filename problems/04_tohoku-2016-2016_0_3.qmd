@@ -3,6 +3,7 @@ title: "東北大学 2016年 2016_0_3"
 problem_id: "04_tohoku-2016-2016_0_3"
 university: "東北大学"
 exam_year: "2016"
+problem_number: 3
 source_tex: "archive/04_tohoku/2016/2016_0_3.tex"
 pdf_source: "archive/04_tohoku/2016/2016_0_3.pdf"
 page_image: "archive/04_tohoku/2016/2016_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　ある工場で作る部品A，B，Cはネジをそれぞれ7個，9個，12個使っている。
+ある工場で作る部品A，B，Cはネジをそれぞれ7個，9個，12個使っている。
 出荷後に残ったこれらの部品のネジをすべて外したところ，ネジが全部で54個あった。
 残った部品A，B，Cの個数をそれぞれ$l, \, m, \, n$として，
 可能性のある組$(l, \, m, \, n)$をすべて求めよ。

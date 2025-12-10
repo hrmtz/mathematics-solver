@@ -3,6 +3,7 @@ title: "名古屋大学 2011年 2011_2"
 problem_id: "05_nagoya-2011-2011_2"
 university: "名古屋大学"
 exam_year: "2011"
+problem_number: 2
 source_tex: "archive/05_nagoya/2011/2011_2.tex"
 pdf_source: "archive/05_nagoya/2011/2011_2.pdf"
 page_image: "archive/05_nagoya/2011/2011_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$A_0=\begin{pmatrix} 0 & 0 
+$A_0=\begin{pmatrix} 0 & 0 
 
  0 & 0 \end{pmatrix}$とする．
 整数$n \geqq 1$に対して，次の試行により行列$A_{n-1}$から行列$A_n$を定める．

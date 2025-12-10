@@ -3,6 +3,7 @@ title: "名古屋大学 2002年 2002_3"
 problem_id: "05_nagoya-2002-2002_3"
 university: "名古屋大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/05_nagoya/2002/2002_3.tex"
 pdf_source: "archive/05_nagoya/2002/2002_3.pdf"
 page_image: "archive/05_nagoya/2002/2002_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$f(x)$を実数全体で定義された連続関数で，
+$f(x)$を実数全体で定義された連続関数で，
 $x>0$で$0<f(x)<1$を満たすものとする．
 $a_1=1$とし，順に，$\displaystyle a_m=\int_0^{a_{m-1}}f(x)dx$
 $(m=2, \, 3, \, 4, \, \cdots)$により数列$\{ a_m \}$を定める．

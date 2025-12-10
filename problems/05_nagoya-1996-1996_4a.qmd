@@ -3,6 +3,7 @@ title: "名古屋大学 1996年 1996_4a"
 problem_id: "05_nagoya-1996-1996_4a"
 university: "名古屋大学"
 exam_year: "1996"
+problem_number: 4
 source_tex: "archive/05_nagoya/1996/1996_4a.tex"
 pdf_source: "archive/05_nagoya/1996/1996_4a.pdf"
 page_image: "archive/05_nagoya/1996/1996_4a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (a)
-　3人がじゃんけんで1，2，3番を決める．
+3人がじゃんけんで1，2，3番を決める．
 ちょうど$n$回目で3人の順位が確定する確率$P(n)$を求めよ．
 ただし3人とも，グー，チョキ，パーを出す確率は
 すべて$\displaystyle\frac{1}{3}$とする．

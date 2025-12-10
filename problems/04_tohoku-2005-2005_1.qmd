@@ -3,6 +3,7 @@ title: "東北大学 2005年 2005_1"
 problem_id: "04_tohoku-2005-2005_1"
 university: "東北大学"
 exam_year: "2005"
+problem_number: 1
 source_tex: "archive/04_tohoku/2005/2005_1.tex"
 pdf_source: "archive/04_tohoku/2005/2005_1.pdf"
 page_image: "archive/04_tohoku/2005/2005_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$\displaystyle0<t<\frac{1}{2}$とし，
+$\displaystyle0<t<\frac{1}{2}$とし，
 平面上のベクトル$\overrightarrow{a}$，$\overrightarrow{b}$と
 単位ベクトル$\overrightarrow{e}$が
 \begin{description}

@@ -3,6 +3,7 @@ title: "北海道大学 2001年 2001_5"
 problem_id: "03_hokudai-2001-2001_5"
 university: "北海道大学"
 exam_year: "2001"
+problem_number: 5
 source_tex: "archive/03_hokudai/2001/2001_5.tex"
 pdf_source: "archive/03_hokudai/2001/2001_5.pdf"
 page_image: "archive/03_hokudai/2001/2001_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$A$，$B$，$C$の3人がつぎのように勝負をくり返す．
+$A$，$B$，$C$の3人がつぎのように勝負をくり返す．
 1回目には$A$と$B$の間で硬貨投げにより勝敗を決める．
 2回目以降には，直前の回の勝者と参加しなかった残りの1人との間で，
 やはり硬貨投げにより勝敗を決める．

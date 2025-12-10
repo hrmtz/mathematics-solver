@@ -3,6 +3,7 @@ title: "東京大学 2008年 2008_0_2"
 problem_id: "01_tokyo-2008-2008_0_2"
 university: "東京大学"
 exam_year: "2008"
+problem_number: 2
 source_tex: "archive/01_tokyo/2008/2008_0_2.tex"
 pdf_source: "archive/01_tokyo/2008/2008_0_2.pdf"
 page_image: "archive/01_tokyo/2008/2008_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　白黒2種類のカードがたくさんある．
+白黒2種類のカードがたくさんある．
 そのうち4枚を手もとにもっているとき，次の操作(A)を考える．
 \begin{description}
 \item[(A)]手持ちの4枚の中から1枚を，等確率$\displaystyle\frac{1}{4}$で選び出し，それを違う色のカードにとりかえる．

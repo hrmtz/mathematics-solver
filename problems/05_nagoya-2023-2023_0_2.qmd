@@ -3,6 +3,7 @@ title: "名古屋大学 2023年 2023_0_2"
 problem_id: "05_nagoya-2023-2023_0_2"
 university: "名古屋大学"
 exam_year: "2023"
+problem_number: 2
 source_tex: "archive/05_nagoya/2023/2023_0_2.tex"
 pdf_source: "archive/05_nagoya/2023/2023_0_2.pdf"
 page_image: "archive/05_nagoya/2023/2023_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　図のような1辺の長さが1の立方体ABCD-EFGHにおいて，辺AD上に点Pをとり，線分APの長さを$p$とする。
+図のような1辺の長さが1の立方体ABCD-EFGHにおいて，辺AD上に点Pをとり，線分APの長さを$p$とする。
 このとき，線分AGと線分FPは四角形ADGF上で交わる。その交点をXとする。
 \begin{description}
 \item[(1)]線分AXの長さを$p$を用いて表せ。

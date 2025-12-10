@@ -3,6 +3,7 @@ title: "東北大学 2024年 2024_0_4"
 problem_id: "04_tohoku-2024-2024_0_4"
 university: "東北大学"
 exam_year: "2024"
+problem_number: 4
 source_tex: "archive/04_tohoku/2024/2024_0_4.tex"
 pdf_source: "archive/04_tohoku/2024/2024_0_4.pdf"
 page_image: "archive/04_tohoku/2024/2024_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$を正の整数とする。2つの整数$a_n, \, b_n$を条件
+$n$を正の整数とする。2つの整数$a_n, \, b_n$を条件
 \[ { (1+\sqrt2) }^n =a_n+b_n\sqrt2 \]
 により定める。ここで，$\sqrt2$は無理数なので，
 このような整数の組$(a_n, \, b_n)$はただ1つに定まる。

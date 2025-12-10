@@ -3,6 +3,7 @@ title: "東京大学 2024年 2024_0_1"
 problem_id: "01_tokyo-2024-2024_0_1"
 university: "東京大学"
 exam_year: "2024"
+problem_number: 1
 source_tex: "archive/01_tokyo/2024/2024_0_1.tex"
 pdf_source: "archive/01_tokyo/2024/2024_0_1.pdf"
 page_image: "archive/01_tokyo/2024/2024_0_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　座標平面上で，放物線$C:y=ax^2+bx+c$が2点$P(\cos\theta, \, \sin\theta)$，
+座標平面上で，放物線$C:y=ax^2+bx+c$が2点$P(\cos\theta, \, \sin\theta)$，
 $Q(-\cos\theta, \, \sin\theta)$を通り，点$P$と点$Q$のそれぞれにおいて
 円$x^2+y^2=1$と共通の接線を持っている。ただし，$0^\circ<\theta<{90}^\circ$とする。
 \begin{description}

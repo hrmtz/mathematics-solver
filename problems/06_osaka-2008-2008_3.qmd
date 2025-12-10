@@ -3,6 +3,7 @@ title: "大阪大学 2008年 2008_3"
 problem_id: "06_osaka-2008-2008_3"
 university: "大阪大学"
 exam_year: "2008"
+problem_number: 3
 source_tex: "archive/06_osaka/2008/2008_3.tex"
 pdf_source: "archive/06_osaka/2008/2008_3.pdf"
 page_image: "archive/06_osaka/2008/2008_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$N$を2以上の自然数とする．
+$N$を2以上の自然数とする．
 \begin{description}
 \item[(1)]関数$f(x)=(N-x)\log x$を$1 \leqq x \leqq N$の範囲で考える．
 このとき，曲線$y=f(x)$は上に凸であり，関数$f(x)$は極大値を1つだけとる．

@@ -3,6 +3,7 @@ title: "九州大学 2019年 2019_c"
 problem_id: "07_kyushu-2019-2019_c"
 university: "九州大学"
 exam_year: "2019"
+problem_number: 3
 source_tex: "archive/07_kyushu/2019/2019_c.tex"
 pdf_source: "archive/07_kyushu/2019/2019_c.pdf"
 page_image: "archive/07_kyushu/2019/2019_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　以下の問いに答えよ。
+以下の問いに答えよ。
 \begin{description}
 \item[(1)]平面上の2点$P$，$Q$の座標をそれぞれ$(a, \, b)$，$(c, \, d)$とし，$O$を原点とする。
 また，複素数$\alpha$，$\beta$を$\alpha=a+ib$，$\beta=c+id$と定める。

@@ -3,6 +3,7 @@ title: "九州大学 1993年 1993_1"
 problem_id: "07_kyushu-1993-1993_1"
 university: "九州大学"
 exam_year: "1993"
+problem_number: 1
 source_tex: "archive/07_kyushu/1993/1993_1.tex"
 pdf_source: "archive/07_kyushu/1993/1993_1.pdf"
 page_image: "archive/07_kyushu/1993/1993_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　放物線の焦点を通る直線がこの放物線で切り取られてできる線分を考えるとき，
+放物線の焦点を通る直線がこの放物線で切り取られてできる線分を考えるとき，
 それらの中点の軌跡はやはり放物線となる．次の問に答えよ．
 \begin{description}
 \item[(1)]$p>0$とする．

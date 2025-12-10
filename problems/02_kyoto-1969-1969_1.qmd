@@ -3,6 +3,7 @@ title: "京都大学 1969年 1969_1"
 problem_id: "02_kyoto-1969-1969_1"
 university: "京都大学"
 exam_year: "1969"
+problem_number: 1
 source_tex: "archive/02_kyoto/1969/1969_1.tex"
 pdf_source: "archive/02_kyoto/1969/1969_1.pdf"
 page_image: "archive/02_kyoto/1969/1969_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　実数係数の3次式$f(x)=x^3+ax^2+bx+c$について，次のことを証明せよ．
+実数係数の3次式$f(x)=x^3+ax^2+bx+c$について，次のことを証明せよ．
 \begin{description}
 \item[(イ)]実数係数の範囲での因数分解を考えれば，$f(x)$は1次因子をもつ．
 すなわち，$f(x)=(x+A)(x^2+Bx+C)$となるような実数$A$，$B$，$C$がある．

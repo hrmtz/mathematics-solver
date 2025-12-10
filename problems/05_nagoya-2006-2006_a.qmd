@@ -3,6 +3,7 @@ title: "名古屋大学 2006年 2006_a"
 problem_id: "05_nagoya-2006-2006_a"
 university: "名古屋大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/05_nagoya/2006/2006_a.tex"
 pdf_source: "archive/05_nagoya/2006/2006_a.pdf"
 page_image: "archive/05_nagoya/2006/2006_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$A$，$B$ 2つの町がある．
+$A$，$B$ 2つの町がある．
 毎年1月1日に，$A$町の前年の住民のうち4割が$B$町に，$B$町の前年の住民のうち2割が$A$町に，
 それぞれ引っ越す（住民の数は十分に多く，引っ越す住民の割合は正確に4割，2割と見なしてよい）．
 それ以外には住民の移動はなく，$A$町，$B$町両方をあわせた住民の数は不変である．

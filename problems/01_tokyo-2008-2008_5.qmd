@@ -3,6 +3,7 @@ title: "東京大学 2008年 2008_5"
 problem_id: "01_tokyo-2008-2008_5"
 university: "東京大学"
 exam_year: "2008"
+problem_number: 5
 source_tex: "archive/01_tokyo/2008/2008_5.tex"
 pdf_source: "archive/01_tokyo/2008/2008_5.pdf"
 page_image: "archive/01_tokyo/2008/2008_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　自然数$n$に対し，$\displaystyle\frac{10^n-1}{9}=\overbrace{111 \cdots 111}^{n個}$を$n$で表す．
+自然数$n$に対し，$\displaystyle\frac{10^n-1}{9}=\overbrace{111 \cdots 111}^{n個}$を$n$で表す．
 たとえば$1=1$，$2=11$，$3=111$である．
 \begin{description}
 \item[(1)]$m$を0以上の整数とする．

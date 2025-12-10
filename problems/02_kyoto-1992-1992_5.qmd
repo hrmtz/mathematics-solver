@@ -3,6 +3,7 @@ title: "京都大学 1992年 1992_5"
 problem_id: "02_kyoto-1992-1992_5"
 university: "京都大学"
 exam_year: "1992"
+problem_number: 5
 source_tex: "archive/02_kyoto/1992/1992_5.tex"
 pdf_source: "archive/02_kyoto/1992/1992_5.pdf"
 page_image: "archive/02_kyoto/1992/1992_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　空間内で$zx-$平面上の放物線$z=1-x^2$を$z$軸のまわりに回転して得られる曲面に4点
+空間内で$zx-$平面上の放物線$z=1-x^2$を$z$軸のまわりに回転して得られる曲面に4点
 \[ (t,0,1-t^2), \hspace{1zw} (-t,0,1-t^2), \hspace{1zw}
 (0,t,1-t^2), \hspace{1zw} (0,-t,1-t^2) \hspace{1zw} (\text{ただし},0<t<1) \]
 で，それぞれ接する4つの平面を考える．

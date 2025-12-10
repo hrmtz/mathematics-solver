@@ -3,6 +3,7 @@ title: "東北大学 1993年 1993_1"
 problem_id: "04_tohoku-1993-1993_1"
 university: "東北大学"
 exam_year: "1993"
+problem_number: 1
 source_tex: "archive/04_tohoku/1993/1993_1.tex"
 pdf_source: "archive/04_tohoku/1993/1993_1.pdf"
 page_image: "archive/04_tohoku/1993/1993_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　行列$A=\begin{pmatrix} 1 & a 
+行列$A=\begin{pmatrix} 1 & a 
 
  0 & 1 \end{pmatrix}$ $(a\neq0)$，
 $E=\begin{pmatrix} 1 & 0 

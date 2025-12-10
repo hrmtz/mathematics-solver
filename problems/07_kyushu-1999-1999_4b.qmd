@@ -3,6 +3,7 @@ title: "九州大学 1999年 1999_4b"
 problem_id: "07_kyushu-1999-1999_4b"
 university: "九州大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/07_kyushu/1999/1999_4b.tex"
 pdf_source: "archive/07_kyushu/1999/1999_4b.pdf"
 page_image: "archive/07_kyushu/1999/1999_4b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (b)
-　実数$a$，$b$は$0<a<b$をみたすとする．
+実数$a$，$b$は$0<a<b$をみたすとする．
 次の3つの数の大小関係を求めよ．
 \[ \frac{a+2b}{3}, \hspace{1zw} \sqrt{ab}, \hspace{1zw} \sqrt[3]{\frac{b(a^2+ab+b^2)}{3}} \]
 

@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_4a"
 problem_id: "07_kyushu-2000-2000_4a"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/07_kyushu/2000/2000_4a.tex"
 pdf_source: "archive/07_kyushu/2000/2000_4a.pdf"
 page_image: "archive/07_kyushu/2000/2000_4a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (a)
-　複素数$z=\cos{20}^\circ+i\sin{20}^\circ$と，
+複素数$z=\cos{20}^\circ+i\sin{20}^\circ$と，
 それに共役な複素数$\overline{z}$に対し$\alpha=z+\overline{z}$とする．
 \begin{description}
 \item[(1)]$\alpha$は整数を係数とするある3次方程式の解となることを示せ．

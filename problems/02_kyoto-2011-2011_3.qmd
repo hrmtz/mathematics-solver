@@ -3,6 +3,7 @@ title: "京都大学 2011年 2011_3"
 problem_id: "02_kyoto-2011-2011_3"
 university: "京都大学"
 exam_year: "2011"
+problem_number: 3
 source_tex: "archive/02_kyoto/2011/2011_3.tex"
 pdf_source: "archive/02_kyoto/2011/2011_3.pdf"
 page_image: "archive/02_kyoto/2011/2011_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$xy$平面上で，$y=x$のグラフと
+$xy$平面上で，$y=x$のグラフと
 $y= \left| \displaystyle\frac{3}{4}x^2-3 \right| - 2$
 のグラフによって囲まれる図形の面積を求めよ．
 

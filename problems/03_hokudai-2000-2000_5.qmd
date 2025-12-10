@@ -3,6 +3,7 @@ title: "北海道大学 2000年 2000_5"
 problem_id: "03_hokudai-2000-2000_5"
 university: "北海道大学"
 exam_year: "2000"
+problem_number: 5
 source_tex: "archive/03_hokudai/2000/2000_5.tex"
 pdf_source: "archive/03_hokudai/2000/2000_5.pdf"
 page_image: "archive/03_hokudai/2000/2000_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]正の数$t$，実数$p$，$q$に対して関数$f(x)=ax^3+bx^2+cx+d$は，条件
 \[ f(0)=1, \hspace{1zw} f'(0)=2, \hspace{1zw} f(t)=p, \hspace{1zw} f'(t)=q \hspace{1zw} \cdots\cdots(\text{＊}) \]

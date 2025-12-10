@@ -3,6 +3,7 @@ title: "大阪大学 2012年 2012_d"
 problem_id: "06_osaka-2012-2012_d"
 university: "大阪大学"
 exam_year: "2012"
+problem_number: 4
 source_tex: "archive/06_osaka/2012/2012_d.tex"
 pdf_source: "archive/06_osaka/2012/2012_d.pdf"
 page_image: "archive/06_osaka/2012/2012_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$を1以上の実数とする．$x$についての方程式
+$a$を1以上の実数とする．$x$についての方程式
 \[ (4x^3-1)(x-a)-3a^2+1=0 \]
 の最大の実数解を$s(a)$とし，$s(a)$の小数部分を$r(a)$とする．
 すなわち$s(a)$以下の最大の整数を$[s(a)]$とするとき，

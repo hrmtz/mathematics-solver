@@ -3,6 +3,7 @@ title: "東北大学 2002年 2002_d"
 problem_id: "04_tohoku-2002-2002_d"
 university: "東北大学"
 exam_year: "2002"
+problem_number: 4
 source_tex: "archive/04_tohoku/2002/2002_d.tex"
 pdf_source: "archive/04_tohoku/2002/2002_d.pdf"
 page_image: "archive/04_tohoku/2002/2002_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　赤箱，白箱，黒箱に，赤玉，白玉，黒玉がそれぞれ，下の表の個数だけ入っている．
+赤箱，白箱，黒箱に，赤玉，白玉，黒玉がそれぞれ，下の表の個数だけ入っている．
  
 
 ![](../archive/04_tohoku/2002/fig_2002_d.jpg)

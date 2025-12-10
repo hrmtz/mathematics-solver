@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_a"
 problem_id: "07_kyushu-1997-1997_a"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/07_kyushu/1997/1997_a.tex"
 pdf_source: "archive/07_kyushu/1997/1997_a.pdf"
 page_image: "archive/07_kyushu/1997/1997_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$y$軸上の点$(0, \, t)$を中心とし，$r$を半径とする円$C$（ただし，$0<r<t$）と，
+$y$軸上の点$(0, \, t)$を中心とし，$r$を半径とする円$C$（ただし，$0<r<t$）と，
 原点を通り円$C$に接する直線のうち正の傾きをもつ直線$l$を考える．
 \begin{description}
 \item[(1)]$t$と$r$の間に

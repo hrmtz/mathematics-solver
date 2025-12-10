@@ -3,6 +3,7 @@ title: "北海道大学 1976年 1976_0_3"
 problem_id: "03_hokudai-1976-1976_0_3"
 university: "北海道大学"
 exam_year: "1976"
+problem_number: 3
 source_tex: "archive/03_hokudai/1976/1976_0_3.tex"
 pdf_source: "archive/03_hokudai/1976/1976_0_3.pdf"
 page_image: "archive/03_hokudai/1976/1976_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$x$，$y$，$z$は実数とする．
+$x$，$y$，$z$は実数とする．
 \begin{description}
 \item[(1)]$|x|<1$，$|y|<1$であるとき，$|x+y|<xy+1$が成り立つことを証明せよ．
 \item[(2)]$|x|<1$，$|y|<1$とするとき，$xyz+x+y+z=0$を満たす$z$について$|z|$の存在範囲を求めよ．

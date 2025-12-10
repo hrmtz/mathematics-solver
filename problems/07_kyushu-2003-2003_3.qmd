@@ -3,6 +3,7 @@ title: "九州大学 2003年 2003_3"
 problem_id: "07_kyushu-2003-2003_3"
 university: "九州大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/07_kyushu/2003/2003_3.tex"
 pdf_source: "archive/07_kyushu/2003/2003_3.pdf"
 page_image: "archive/07_kyushu/2003/2003_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　座標平面上で，$x$座標と$y$座標がともに整数である点を格子点と呼ぶ．
+座標平面上で，$x$座標と$y$座標がともに整数である点を格子点と呼ぶ．
 格子点を頂点とし，辺の長さが1である正方形(周は含まない)を単位正方形と呼ぶことにする．
 $p$，$n$を自然数とし，領域
 \[ D_n= \{ (x, \, y) | 0 \leqq x, \, x^p \leqq y \leqq n \} \]

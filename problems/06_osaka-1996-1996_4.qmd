@@ -3,6 +3,7 @@ title: "大阪大学 1996年 1996_4"
 problem_id: "06_osaka-1996-1996_4"
 university: "大阪大学"
 exam_year: "1996"
+problem_number: 4
 source_tex: "archive/06_osaka/1996/1996_4.tex"
 pdf_source: "archive/06_osaka/1996/1996_4.pdf"
 page_image: "archive/06_osaka/1996/1996_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　中心$O$半径1の円の円周上の2点を$P$，$Q$とし，
+中心$O$半径1の円の円周上の2点を$P$，$Q$とし，
 $\angle POQ=\theta$ $\displaystyle \left( 0<\theta<\frac{\pi}{2} \right)$とする．
 $P$における円の接線と直線$OQ$との交点を$R$，$P$から$OQ$に下ろした垂線の足を$H$とし，
 弧$\stackrel{\frown}{PQ}$と線分$PH$，$HQ$で囲まれる部分を$D$とする．

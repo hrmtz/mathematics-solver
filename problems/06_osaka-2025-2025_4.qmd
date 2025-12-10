@@ -3,6 +3,7 @@ title: "大阪大学 2025年 2025_4"
 problem_id: "06_osaka-2025-2025_4"
 university: "大阪大学"
 exam_year: "2025"
+problem_number: 4
 source_tex: "archive/06_osaka/2025/2025_4.tex"
 pdf_source: "archive/06_osaka/2025/2025_4.pdf"
 page_image: "archive/06_osaka/2025/2025_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]$t>0$のとき
 \[ -\frac{1}{t}<\int_t^{2t}\frac{\sin x}{x^2}dx<\frac{1}{t} \]

@@ -3,6 +3,7 @@ title: "九州大学 1982年 1982_4"
 problem_id: "07_kyushu-1982-1982_4"
 university: "九州大学"
 exam_year: "1982"
+problem_number: 4
 source_tex: "archive/07_kyushu/1982/1982_4.tex"
 pdf_source: "archive/07_kyushu/1982/1982_4.pdf"
 page_image: "archive/07_kyushu/1982/1982_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$2, \, 3, \, \cdots\cdots, \, k+1$の$k$個の値をとる確率変数$X$の確率分布を
+$2, \, 3, \, \cdots\cdots, \, k+1$の$k$個の値をとる確率変数$X$の確率分布を
 $\displaystyle P(X=n)=\frac{a}{n^3-n}$とするとき，次の(1)，(2)，(3)に答えよ．
 \begin{description}
 \item[(1)]$a$を定めよ．

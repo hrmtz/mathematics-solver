@@ -3,6 +3,7 @@ title: "東京大学 1978年 1978_4"
 problem_id: "01_tokyo-1978-1978_4"
 university: "東京大学"
 exam_year: "1978"
+problem_number: 4
 source_tex: "archive/01_tokyo/1978/1978_4.tex"
 pdf_source: "archive/01_tokyo/1978/1978_4.pdf"
 page_image: "archive/01_tokyo/1978/1978_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　行列$A=\begin{pmatrix} 1/3 & 5 
+行列$A=\begin{pmatrix} 1/3 & 5 
 
  0 & 3 \end{pmatrix}$に対し，次の問に答えよ．
 　任意の整数$n>0$に対して，$A^n$を数学的帰納法を用いて求めよ．

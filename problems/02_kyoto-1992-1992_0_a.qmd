@@ -3,6 +3,7 @@ title: "京都大学 1992年 1992_0_a"
 problem_id: "02_kyoto-1992-1992_0_a"
 university: "京都大学"
 exam_year: "1992"
+problem_number: 1
 source_tex: "archive/02_kyoto/1992/1992_0_a.tex"
 pdf_source: "archive/02_kyoto/1992/1992_0_a.pdf"
 page_image: "archive/02_kyoto/1992/1992_0_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$k$は0または正の整数とする．
+$k$は0または正の整数とする．
 方程式$x^2-y^2=k$の解$(a,b)$で，$a$，$b$がともに奇数であるものを奇数解とよぶ．
 \begin{description}
 \item[(1)]方程式$x^2-y^2=k$が奇数解をもてば，$k$は8の倍数であることを示せ．

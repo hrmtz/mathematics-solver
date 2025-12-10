@@ -3,6 +3,7 @@ title: "東北大学 2025年 2025_5"
 problem_id: "04_tohoku-2025-2025_5"
 university: "東北大学"
 exam_year: "2025"
+problem_number: 5
 source_tex: "archive/04_tohoku/2025/2025_5.tex"
 pdf_source: "archive/04_tohoku/2025/2025_5.pdf"
 page_image: "archive/04_tohoku/2025/2025_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$S$を$xyz$空間内の原点$O(0, \, 0, \, 0)$を中心とする半径1の球面とする。
+$S$を$xyz$空間内の原点$O(0, \, 0, \, 0)$を中心とする半径1の球面とする。
 また，点$P(a, \, b, \, c)$を点$N(0, \, 0, \, 1)$とは異なる球面$S$上の点とする。
 点$P$と点$N$を通る直線$l$と$xy$平面との交点を$Q$とおく。
 このとき，以下の問いに答えよ。

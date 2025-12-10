@@ -3,6 +3,7 @@ title: "京都大学 1993年 1993_c"
 problem_id: "02_kyoto-1993-1993_c"
 university: "京都大学"
 exam_year: "1993"
+problem_number: 3
 source_tex: "archive/02_kyoto/1993/1993_c.tex"
 pdf_source: "archive/02_kyoto/1993/1993_c.pdf"
 page_image: "archive/02_kyoto/1993/1993_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　原点$O$を中心とする1つの円周上に相異なる4点$A_0$，$B_0$，$C_0$，$D_0$をとる．
+原点$O$を中心とする1つの円周上に相異なる4点$A_0$，$B_0$，$C_0$，$D_0$をとる．
 $A_0$，$B_0$，$C_0$，$D_0$の位置ベクトルをそれぞれ$\vec{a}$，$\vec{b}$，$\vec{c}$，$\vec{d}$と書く．
 \begin{description}
 \item[(1)]$\triangle B_0C_0D_0$，$\triangle C_0D_0A_0$，$\triangle D_0A_0B_0$，$\triangle A_0B_0C_0$

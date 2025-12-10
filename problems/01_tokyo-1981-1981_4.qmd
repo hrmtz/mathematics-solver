@@ -3,6 +3,7 @@ title: "東京大学 1981年 1981_4"
 problem_id: "01_tokyo-1981-1981_4"
 university: "東京大学"
 exam_year: "1981"
+problem_number: 4
 source_tex: "archive/01_tokyo/1981/1981_4.tex"
 pdf_source: "archive/01_tokyo/1981/1981_4.pdf"
 page_image: "archive/01_tokyo/1981/1981_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　実数$\alpha$
+実数$\alpha$
 $\displaystyle \left( \text{ただし} 0 \leqq \alpha < \frac{\pi}{2} \right)$と，
 空間の点$A(1,1,0)$，$B(1,-1,0)$，$C(0,0,0)$を与えて，
 つぎの4条件をみたす点$P(x,y,z)$を考える．

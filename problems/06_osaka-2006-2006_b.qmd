@@ -3,6 +3,7 @@ title: "大阪大学 2006年 2006_b"
 problem_id: "06_osaka-2006-2006_b"
 university: "大阪大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/06_osaka/2006/2006_b.tex"
 pdf_source: "archive/06_osaka/2006/2006_b.pdf"
 page_image: "archive/06_osaka/2006/2006_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　放物線$y=x^2$上の相異なる3点$P$，$Q$，$R$は$\triangle PQR$が正三角形になるように動いている．
+放物線$y=x^2$上の相異なる3点$P$，$Q$，$R$は$\triangle PQR$が正三角形になるように動いている．
 \begin{description}
 \item[(1)]$P$，$Q$，$R$の$x$座標を$p$，$q$，$r$とするとき，
 $p^2+q^2+r^2$を$pq+qr+rp$のみで表せ．

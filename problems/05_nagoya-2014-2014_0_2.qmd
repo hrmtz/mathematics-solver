@@ -3,6 +3,7 @@ title: "名古屋大学 2014年 2014_0_2"
 problem_id: "05_nagoya-2014-2014_0_2"
 university: "名古屋大学"
 exam_year: "2014"
+problem_number: 2
 source_tex: "archive/05_nagoya/2014/2014_0_2.tex"
 pdf_source: "archive/05_nagoya/2014/2014_0_2.pdf"
 page_image: "archive/05_nagoya/2014/2014_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　大小合わせて2個のサイコロがある。
+大小合わせて2個のサイコロがある。
 サイコロを投げると，1から6までの整数の目が等しい確率で出るとする。
 \begin{description}
 \item[(1)]2個のサイコロを同時に投げる。

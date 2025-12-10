@@ -3,6 +3,7 @@ title: "東北大学 1997年 1997_a"
 problem_id: "04_tohoku-1997-1997_a"
 university: "東北大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/04_tohoku/1997/1997_a.tex"
 pdf_source: "archive/04_tohoku/1997/1997_a.pdf"
 page_image: "archive/04_tohoku/1997/1997_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　空間内の点$A(1, \, 1, \, 0)$と$B(-1, \, -2, \, 1)$を通る直線を$l$とする．
+空間内の点$A(1, \, 1, \, 0)$と$B(-1, \, -2, \, 1)$を通る直線を$l$とする．
 $P$が$l$上を動くとき，$P$と$x$軸の距離の最小値$d$を求めよ．
 
 ---

@@ -3,6 +3,7 @@ title: "北海道大学 2017年 2017_4"
 problem_id: "03_hokudai-2017-2017_4"
 university: "北海道大学"
 exam_year: "2017"
+problem_number: 4
 source_tex: "archive/03_hokudai/2017/2017_4.tex"
 pdf_source: "archive/03_hokudai/2017/2017_4.pdf"
 page_image: "archive/03_hokudai/2017/2017_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　さいころを続けて投げて，数直線上の点$P$を移動させるゲームを行う。
+さいころを続けて投げて，数直線上の点$P$を移動させるゲームを行う。
 初め点$P$は原点0にいる。
 さいころを投げるたびに，出た目の数だけ，点$P$を現在の位置から正の向きに移動させる。
 この試行を続けて行い，点$P$が10に達するか越えた時点でゲームを終了する。

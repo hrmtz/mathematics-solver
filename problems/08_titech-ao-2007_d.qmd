@@ -3,6 +3,7 @@ title: "東京科学大学 ao年 2007_d"
 problem_id: "08_titech-ao-2007_d"
 university: "東京科学大学"
 exam_year: "ao"
+problem_number: 4
 source_tex: "archive/08_titech/ao/2007_d.tex"
 pdf_source: "archive/08_titech/ao/2007_d.pdf"
 page_image: "archive/08_titech/ao/2007_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　直角二等辺三角形の板が机の上に、長さの等しい辺の一方が真横になっているように置かれているものとする．
+直角二等辺三角形の板が机の上に、長さの等しい辺の一方が真横になっているように置かれているものとする．
 つまり，右の4種類の置き方があることになる．
 　正確なサイコロを用意し，そのサイコロを振って出た目に従い板の置き方を変えていくことにする．
 1か2の目が出れば，上下対称の置き方に，

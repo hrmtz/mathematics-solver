@@ -3,6 +3,7 @@ title: "京都大学 1988年 1988_0_a"
 problem_id: "02_kyoto-1988-1988_0_a"
 university: "京都大学"
 exam_year: "1988"
+problem_number: 1
 source_tex: "archive/02_kyoto/1988/1988_0_a.tex"
 pdf_source: "archive/02_kyoto/1988/1988_0_a.pdf"
 page_image: "archive/02_kyoto/1988/1988_0_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$0<x<1$に対して，$\displaystyle\frac{1-x^3}{3}>\frac{1-x^2}{2}\sqrt{x}$が成り立つことを証明せよ．
+$0<x<1$に対して，$\displaystyle\frac{1-x^3}{3}>\frac{1-x^2}{2}\sqrt{x}$が成り立つことを証明せよ．
 
 ---
 

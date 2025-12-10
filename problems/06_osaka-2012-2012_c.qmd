@@ -3,6 +3,7 @@ title: "大阪大学 2012年 2012_c"
 problem_id: "06_osaka-2012-2012_c"
 university: "大阪大学"
 exam_year: "2012"
+problem_number: 3
 source_tex: "archive/06_osaka/2012/2012_c.tex"
 pdf_source: "archive/06_osaka/2012/2012_c.pdf"
 page_image: "archive/06_osaka/2012/2012_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2つの関数を
+2つの関数を
 \[ f(t)=\frac{1}{2}(t+\frac{1}{t}), \hspace{1zw} g(t)=t^2-2\log t \]
 で定める．実数$t$が$t>0$の範囲を動くとき，
 点$(f(t), \, g(t))$が$xy$平面上を描く曲線を$C$とする．

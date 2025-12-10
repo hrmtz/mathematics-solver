@@ -3,6 +3,7 @@ title: "京都大学 1971年 1971_1"
 problem_id: "02_kyoto-1971-1971_1"
 university: "京都大学"
 exam_year: "1971"
+problem_number: 1
 source_tex: "archive/02_kyoto/1971/1971_1.tex"
 pdf_source: "archive/02_kyoto/1971/1971_1.pdf"
 page_image: "archive/02_kyoto/1971/1971_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標平面において，$x$，$y$がともに整数であるような点$(x,y)$を格子点とよぶことにする．
+座標平面において，$x$，$y$がともに整数であるような点$(x,y)$を格子点とよぶことにする．
 　この平面上で，
 \begin{description}
 \item[(i)]辺の長さが1で，辺が座標軸に平行な正方形(周をこめる)は少なくとも一つの格子点を含むことを証明せよ．

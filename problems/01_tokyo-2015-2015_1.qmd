@@ -3,6 +3,7 @@ title: "東京大学 2015年 2015_1"
 problem_id: "01_tokyo-2015-2015_1"
 university: "東京大学"
 exam_year: "2015"
+problem_number: 1
 source_tex: "archive/01_tokyo/2015/2015_1.tex"
 pdf_source: "archive/01_tokyo/2015/2015_1.pdf"
 page_image: "archive/01_tokyo/2015/2015_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　正の実数$a$に対して，座標平面上で次の放物線を考える。
+正の実数$a$に対して，座標平面上で次の放物線を考える。
 \[ C: y=ax^2+\frac{1-4a^2}{4a} \]
 $a$が正の実数全体を動くとき，$C$の通過する領域を図示せよ。
 

@@ -3,6 +3,7 @@ title: "九州大学 1999年 1999_2"
 problem_id: "07_kyushu-1999-1999_2"
 university: "九州大学"
 exam_year: "1999"
+problem_number: 2
 source_tex: "archive/07_kyushu/1999/1999_2.tex"
 pdf_source: "archive/07_kyushu/1999/1999_2.pdf"
 page_image: "archive/07_kyushu/1999/1999_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　長さ2の線分$AB$を直径とする円を底面とし，高さが$\sqrt3$の直円錐を考える．
+長さ2の線分$AB$を直径とする円を底面とし，高さが$\sqrt3$の直円錐を考える．
 この直円錐の側面上で2点$A$，$B$を結ぶ最短の道を$l$とする．
 直円錐の頂点を$C$，底面の中心を$O$とし以下の問に答えよ．
 \begin{description}

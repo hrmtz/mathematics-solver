@@ -3,6 +3,7 @@ title: "九州大学 2009年 2009_a"
 problem_id: "07_kyushu-2009-2009_a"
 university: "九州大学"
 exam_year: "2009"
+problem_number: 1
 source_tex: "archive/07_kyushu/2009/2009_a.tex"
 pdf_source: "archive/07_kyushu/2009/2009_a.pdf"
 page_image: "archive/07_kyushu/2009/2009_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$n$を自然数とする．$x\geqq0$において定義された関数
+$n$を自然数とする．$x\geqq0$において定義された関数
 \[ f_n(x)=\int_{-x}^1{(\log\frac{1}{t})}^ndt \]
 について，以下の問いに答えよ．
 なお，必要ならば，任意の整数$m$について

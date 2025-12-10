@@ -3,6 +3,7 @@ title: "東北大学 1998年 1998_0_b"
 problem_id: "04_tohoku-1998-1998_0_b"
 university: "東北大学"
 exam_year: "1998"
+problem_number: 2
 source_tex: "archive/04_tohoku/1998/1998_0_b.tex"
 pdf_source: "archive/04_tohoku/1998/1998_0_b.pdf"
 page_image: "archive/04_tohoku/1998/1998_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$\triangle ABC$において，正の数$r$があり，
+$\triangle ABC$において，正の数$r$があり，
 $\displaystyle r=\frac{\sin B}{\sin A}=\frac{\sin C}{\sin B}$が成り立っている．
 \begin{description}
 \item[(1)]$r^3\cos A+r^2\cos B+r\cos C$を$r$の式で表せ．

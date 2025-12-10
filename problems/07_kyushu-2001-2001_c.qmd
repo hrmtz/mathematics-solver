@@ -3,6 +3,7 @@ title: "九州大学 2001年 2001_c"
 problem_id: "07_kyushu-2001-2001_c"
 university: "九州大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/07_kyushu/2001/2001_c.tex"
 pdf_source: "archive/07_kyushu/2001/2001_c.pdf"
 page_image: "archive/07_kyushu/2001/2001_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　集合$S=\{ (x, \, y)|x^y=y^x, \, x>0, \, y>0 \}$は，概略図に示すように，
+集合$S=\{ (x, \, y)|x^y=y^x, \, x>0, \, y>0 \}$は，概略図に示すように，
 半直線$L:y=x$ $(x>0)$および曲線$C:y=g(x)$上の点全体と一致する．
 これを参考にして，以下の設問に答えよ．
 \begin{description}

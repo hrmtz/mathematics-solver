@@ -3,6 +3,7 @@ title: "北海道大学 2019年 2019_0_1"
 problem_id: "03_hokudai-2019-2019_0_1"
 university: "北海道大学"
 exam_year: "2019"
+problem_number: 1
 source_tex: "archive/03_hokudai/2019/2019_0_1.tex"
 pdf_source: "archive/03_hokudai/2019/2019_0_1.pdf"
 page_image: "archive/03_hokudai/2019/2019_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$p$を負の実数とする。座標空間に原点$O$と3点$A(-1, \, 2, \, 0)$，$B(2, \, -2, \, 1)$，
+$p$を負の実数とする。座標空間に原点$O$と3点$A(-1, \, 2, \, 0)$，$B(2, \, -2, \, 1)$，
 $P(p, \, -1, \, 2)$があり，3点$O$，$A$，$B$が定める平面を$\alpha$とする。
 また，点$P$から平面$\alpha$に垂線を下ろし，$\alpha$との交点を$Q$とする。
 \begin{description}

@@ -3,6 +3,7 @@ title: "大阪大学 1995年 1995_a"
 problem_id: "06_osaka-1995-1995_a"
 university: "大阪大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/06_osaka/1995/1995_a.tex"
 pdf_source: "archive/06_osaka/1995/1995_a.pdf"
 page_image: "archive/06_osaka/1995/1995_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　関数$\displaystyle f(x)=\frac{1}{4}x^4+a_1x^3+a_2x^2+a_3x+1$が
+関数$\displaystyle f(x)=\frac{1}{4}x^4+a_1x^3+a_2x^2+a_3x+1$が
 $x=\alpha, \, \beta, \, \gamma$ $(\alpha<\beta<\gamma)$で極値をとるものとする．
 また曲線$y=f(x)$上の点
 \[ A=(\alpha, \, f(\alpha)), \hspace{1zw} B=(\beta, \, f(\beta)), \hspace{1zw} C=(\gamma, \, f(\gamma)) \]

@@ -3,6 +3,7 @@ title: "名古屋大学 1998年 1998_a"
 problem_id: "05_nagoya-1998-1998_a"
 university: "名古屋大学"
 exam_year: "1998"
+problem_number: 1
 source_tex: "archive/05_nagoya/1998/1998_a.tex"
 pdf_source: "archive/05_nagoya/1998/1998_a.pdf"
 page_image: "archive/05_nagoya/1998/1998_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　次式で表される関数のグラフについて次の問に答えよ．
+次式で表される関数のグラフについて次の問に答えよ．
 \[ y=\frac{e^{-\frac{a}{x}}}{x-1} \]
 ただし，$a$は正の定数とする．
 \begin{description}

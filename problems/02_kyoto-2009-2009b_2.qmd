@@ -3,6 +3,7 @@ title: "京都大学 2009年 2009b_2"
 problem_id: "02_kyoto-2009-2009b_2"
 university: "京都大学"
 exam_year: "2009"
+problem_number: 2
 source_tex: "archive/02_kyoto/2009/2009b_2.tex"
 pdf_source: "archive/02_kyoto/2009/2009b_2.pdf"
 page_image: "archive/02_kyoto/2009/2009b_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　平面上の鋭角三角形$\triangle ABC$の内部(辺や頂点は含まない)に点$P$をとり，
+平面上の鋭角三角形$\triangle ABC$の内部(辺や頂点は含まない)に点$P$をとり，
 $A'$を$B$，$C$，$P$を通る円の中心，
 $B'$を$C$，$A$，$P$を通る円の中心，
 $C'$を$A$，$B$，$P$を通る円の中心とする．

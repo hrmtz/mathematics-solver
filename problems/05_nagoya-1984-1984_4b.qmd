@@ -3,6 +3,7 @@ title: "名古屋大学 1984年 1984_4b"
 problem_id: "05_nagoya-1984-1984_4b"
 university: "名古屋大学"
 exam_year: "1984"
+problem_number: 4
 source_tex: "archive/05_nagoya/1984/1984_4b.tex"
 pdf_source: "archive/05_nagoya/1984/1984_4b.pdf"
 page_image: "archive/05_nagoya/1984/1984_4b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (b)
-　さいころを$n$回投げ，6の目が$r$回出れば，
+さいころを$n$回投げ，6の目が$r$回出れば，
 $ar^2+br+c$（$a$，$b$，$c$は定数で$a>0$）の金額のお金が得られるものとする．
 得られる金額の平均値（期待値）$m$と$\displaystyle\frac{an^2}{36}+\frac{bn}{6}+c$のどちらが大きいか．
 

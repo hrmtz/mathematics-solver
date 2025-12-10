@@ -3,6 +3,7 @@ title: "京都大学 1964年 1964_1"
 problem_id: "02_kyoto-1964-1964_1"
 university: "京都大学"
 exam_year: "1964"
+problem_number: 1
 source_tex: "archive/02_kyoto/1964/1964_1.tex"
 pdf_source: "archive/02_kyoto/1964/1964_1.pdf"
 page_image: "archive/02_kyoto/1964/1964_1.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(イ)]$a_1$，$a_2$，$a_3$，$a_4$が正の数であるとき，
 $\displaystyle\frac{a_1+a_2+a_3+a_4}{4}\geqq\sqrt[4]{a_1a_2a_3a_4}$が成り立つことを証明せよ．

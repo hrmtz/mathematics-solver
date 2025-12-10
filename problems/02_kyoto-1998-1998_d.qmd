@@ -3,6 +3,7 @@ title: "京都大学 1998年 1998_d"
 problem_id: "02_kyoto-1998-1998_d"
 university: "京都大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/02_kyoto/1998/1998_d.tex"
 pdf_source: "archive/02_kyoto/1998/1998_d.pdf"
 page_image: "archive/02_kyoto/1998/1998_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$は$0<a<\pi$を満たす定数とする．
+$a$は$0<a<\pi$を満たす定数とする．
 $n=0,1,2,\cdots$に対し，$n\pi<x<(n+1)\pi$の範囲に$\sin(x+a)=x\sin x$を満たす$x$がただ一つ存在するので，
 この$x$の値を$x_n$とする．
 \begin{description}

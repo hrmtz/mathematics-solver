@@ -3,6 +3,7 @@ title: "九州大学 2006年 2006_5"
 problem_id: "07_kyushu-2006-2006_5"
 university: "九州大学"
 exam_year: "2006"
+problem_number: 5
 source_tex: "archive/07_kyushu/2006/2006_5.tex"
 pdf_source: "archive/07_kyushu/2006/2006_5.pdf"
 page_image: "archive/07_kyushu/2006/2006_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　区間$[a, \, b]$が関数$f(x)$に関して不変であるとは，
+区間$[a, \, b]$が関数$f(x)$に関して不変であるとは，
 $a \leqq x \leqq b$ならば，$a \leqq f(x) \leqq b$が成り立つこととする．
 $f(x)=4x(1-x)$とするとき，次の問いに答えよ．
 \begin{description}

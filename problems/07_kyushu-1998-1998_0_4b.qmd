@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_0_4b"
 problem_id: "07_kyushu-1998-1998_0_4b"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/07_kyushu/1998/1998_0_4b.tex"
 pdf_source: "archive/07_kyushu/1998/1998_0_4b.pdf"
 page_image: "archive/07_kyushu/1998/1998_0_4b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4 (b)
-　$k$を正の実数とするとき，方程式
+$k$を正の実数とするとき，方程式
 \[ x^3-(2k+1)x^2+(4k^2+2k)x-4k^2=0 \]
 の3個の解を$z_1$，$z_2$，$z_3$とし，それらを複素数平面上の点と見なす．
 \begin{description}

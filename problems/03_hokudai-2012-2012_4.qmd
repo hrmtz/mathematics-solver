@@ -3,6 +3,7 @@ title: "北海道大学 2012年 2012_4"
 problem_id: "03_hokudai-2012-2012_4"
 university: "北海道大学"
 exam_year: "2012"
+problem_number: 4
 source_tex: "archive/03_hokudai/2012/2012_4.tex"
 pdf_source: "archive/03_hokudai/2012/2012_4.pdf"
 page_image: "archive/03_hokudai/2012/2012_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　実数$a$，$b$に対して，$f(x)=x^2-2ax+b$，$g(x)=x^2-2bx+a$とおく。
+実数$a$，$b$に対して，$f(x)=x^2-2ax+b$，$g(x)=x^2-2bx+a$とおく。
 \begin{description}
 \item[(1)]$a \neq b$のとき，$f(c)=g(c)$を満たす実数$c$を求めよ。
 \item[(2)](1)で求めた$c$について，$a$，$b$が条件$a<c<b$を満たすとする。

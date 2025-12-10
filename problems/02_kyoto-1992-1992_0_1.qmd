@@ -3,6 +3,7 @@ title: "京都大学 1992年 1992_0_1"
 problem_id: "02_kyoto-1992-1992_0_1"
 university: "京都大学"
 exam_year: "1992"
+problem_number: 1
 source_tex: "archive/02_kyoto/1992/1992_0_1.tex"
 pdf_source: "archive/02_kyoto/1992/1992_0_1.pdf"
 page_image: "archive/02_kyoto/1992/1992_0_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]直線$x+y=2$と円$x^2+y^2=5$の交点の座標を求めよ．
 \item[(2)]2つの実数$a$，$b$のうち，大きい方を$max\{a,b\}$で表わす．

@@ -3,6 +3,7 @@ title: "東京大学 1965年 1965_1"
 problem_id: "01_tokyo-1965-1965_1"
 university: "東京大学"
 exam_year: "1965"
+problem_number: 1
 source_tex: "archive/01_tokyo/1965/1965_1.tex"
 pdf_source: "archive/01_tokyo/1965/1965_1.pdf"
 page_image: "archive/01_tokyo/1965/1965_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　ある都市で$A$，$B$，$C$三種類の新聞が発行されている．その都市の世帯で
+ある都市で$A$，$B$，$C$三種類の新聞が発行されている．その都市の世帯で
 $A$を購読しているものの割合は69\
 $B$を購読しているものの割合は46\
 $C$だけを購読しているものの割合は3\

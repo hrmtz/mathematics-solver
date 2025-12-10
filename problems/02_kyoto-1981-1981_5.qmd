@@ -3,6 +3,7 @@ title: "京都大学 1981年 1981_5"
 problem_id: "02_kyoto-1981-1981_5"
 university: "京都大学"
 exam_year: "1981"
+problem_number: 5
 source_tex: "archive/02_kyoto/1981/1981_5.tex"
 pdf_source: "archive/02_kyoto/1981/1981_5.pdf"
 page_image: "archive/02_kyoto/1981/1981_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　A君がおみくじを引く．
+A君がおみくじを引く．
 $N$回引いても「大吉」が出なければ打ち切ってやめる．
 もし$N$回までに大吉が出ればその回でやめることにした．
 ただし，$N$は2以上の定まった自然数とする．

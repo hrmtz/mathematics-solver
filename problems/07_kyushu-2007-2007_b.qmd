@@ -3,6 +3,7 @@ title: "九州大学 2007年 2007_b"
 problem_id: "07_kyushu-2007-2007_b"
 university: "九州大学"
 exam_year: "2007"
+problem_number: 2
 source_tex: "archive/07_kyushu/2007/2007_b.tex"
 pdf_source: "archive/07_kyushu/2007/2007_b.pdf"
 page_image: "archive/07_kyushu/2007/2007_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上の点の移動（1次変換）に関する以下の問いに答えよ．
+平面上の点の移動（1次変換）に関する以下の問いに答えよ．
 \begin{description}
 \item[(1)]直線$y=-x$に関する対称移動を表す行列$A$を求めよ．
 \item[(2)]点$P$を原点を中心として正の向き（反時計回り）に60度回転し，

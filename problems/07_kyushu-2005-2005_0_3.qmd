@@ -3,6 +3,7 @@ title: "九州大学 2005年 2005_0_3"
 problem_id: "07_kyushu-2005-2005_0_3"
 university: "九州大学"
 exam_year: "2005"
+problem_number: 3
 source_tex: "archive/07_kyushu/2005/2005_0_3.tex"
 pdf_source: "archive/07_kyushu/2005/2005_0_3.pdf"
 page_image: "archive/07_kyushu/2005/2005_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　実数$x$に対して，$[x]$は$x$を超えない最大の整数を表す．
+実数$x$に対して，$[x]$は$x$を超えない最大の整数を表す．
 例えば，$\displaystyle\left[\frac{3}{2}\right]=1$，$[2]=2$である．
 このとき，$0^\circ<\theta<{180}^\circ$として次の問いに答えよ．
 ただし，必要なら$\displaystyle\sin\alpha=\frac{1}{2\sqrt2}$となる

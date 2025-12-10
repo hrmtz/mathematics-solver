@@ -3,6 +3,7 @@ title: "九州大学 1967年 1967_5"
 problem_id: "07_kyushu-1967-1967_5"
 university: "九州大学"
 exam_year: "1967"
+problem_number: 5
 source_tex: "archive/07_kyushu/1967/1967_5.tex"
 pdf_source: "archive/07_kyushu/1967/1967_5.pdf"
 page_image: "archive/07_kyushu/1967/1967_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　2点$(-1, \, e^{-1})$，$(1, \, e)$を通る直線を$y=ax+b$とする．このとき，
+2点$(-1, \, e^{-1})$，$(1, \, e)$を通る直線を$y=ax+b$とする．このとき，
 \begin{description}
 \item[(1)]$a$，$b$の値を求めよ．
 \item[(2)]$-1<x<1$のとき，不等式$ax+b>e^x$が成り立つことを示せ．

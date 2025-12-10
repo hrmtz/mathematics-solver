@@ -3,6 +3,7 @@ title: "大阪大学 1991年 1991_b"
 problem_id: "06_osaka-1991-1991_b"
 university: "大阪大学"
 exam_year: "1991"
+problem_number: 2
 source_tex: "archive/06_osaka/1991/1991_b.tex"
 pdf_source: "archive/06_osaka/1991/1991_b.pdf"
 page_image: "archive/06_osaka/1991/1991_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　中心$O$，半径1の円周上に，反時計まわりの順に4点$A$，$B$，$C$，$D$が並んでいる．
+中心$O$，半径1の円周上に，反時計まわりの順に4点$A$，$B$，$C$，$D$が並んでいる．
 $D$を含む弧$\stackrel{\frown}{CA}$の中点を$D_1$，
 $C$を含む弧$\stackrel{\frown}{BD_1}$の中点を$C_1$とする．
 \begin{description}

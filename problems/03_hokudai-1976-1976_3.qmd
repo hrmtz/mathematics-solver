@@ -3,6 +3,7 @@ title: "北海道大学 1976年 1976_3"
 problem_id: "03_hokudai-1976-1976_3"
 university: "北海道大学"
 exam_year: "1976"
+problem_number: 3
 source_tex: "archive/03_hokudai/1976/1976_3.tex"
 pdf_source: "archive/03_hokudai/1976/1976_3.pdf"
 page_image: "archive/03_hokudai/1976/1976_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]2つのベクトル$\overrightarrow{a}=(s, \, t)$，$\overrightarrow{b}=(u, \, v)$のなす角を$\theta$とし，
 $\overrightarrow{a}$，$\overrightarrow{b}$を2辺とする3角形の面積を$S$とする．

@@ -3,6 +3,7 @@ title: "京都大学 1989年 1989_f"
 problem_id: "02_kyoto-1989-1989_f"
 university: "京都大学"
 exam_year: "1989"
+problem_number: 6
 source_tex: "archive/02_kyoto/1989/1989_f.tex"
 pdf_source: "archive/02_kyoto/1989/1989_f.pdf"
 page_image: "archive/02_kyoto/1989/1989_f.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$\displaystyle F(x)=\frac{ax}{x+1}$とおく．
+$\displaystyle F(x)=\frac{ax}{x+1}$とおく．
 ただし，$a$は定数で$0<a\leqq1$である．
 関数の列$\{f_n(x)\}$を次によって定める．
 \begin{description}

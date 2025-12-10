@@ -3,6 +3,7 @@ title: "京都大学 1972年 1972_4"
 problem_id: "02_kyoto-1972-1972_4"
 university: "京都大学"
 exam_year: "1972"
+problem_number: 4
 source_tex: "archive/02_kyoto/1972/1972_4.tex"
 pdf_source: "archive/02_kyoto/1972/1972_4.pdf"
 page_image: "archive/02_kyoto/1972/1972_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　3角形$ABC$の内部の1点$P$を頂点とする1つの平行4辺形を$PQRS$とする．
+3角形$ABC$の内部の1点$P$を頂点とする1つの平行4辺形を$PQRS$とする．
 $P$から$Q$へ向かう半直線が3角形$ABC$の周と交わる点を$Q'$とし，$R'$，$S'$も同様の点とする．
 $\overrightarrow{PQ}=a\overrightarrow{PQ'}$，
 $\overrightarrow{PR}=b\overrightarrow{PR'}$，

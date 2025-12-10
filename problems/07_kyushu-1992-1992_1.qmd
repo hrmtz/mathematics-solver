@@ -3,6 +3,7 @@ title: "九州大学 1992年 1992_1"
 problem_id: "07_kyushu-1992-1992_1"
 university: "九州大学"
 exam_year: "1992"
+problem_number: 1
 source_tex: "archive/07_kyushu/1992/1992_1.tex"
 pdf_source: "archive/07_kyushu/1992/1992_1.pdf"
 page_image: "archive/07_kyushu/1992/1992_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　平面上に四角形$ABCD$と，この四角形の外部に点$E$がある．
+平面上に四角形$ABCD$と，この四角形の外部に点$E$がある．
 これらの点から得られるベクトルについて，関係式
 \[ 2\overrightarrow{AE}+3\overrightarrow{AD}+2\overrightarrow{AB}=\overrightarrow{0}, \hspace{1zw}
 8\overrightarrow{EA}+\overrightarrow{AB}=3(\overrightarrow{BC}+\overrightarrow{DC}) \]

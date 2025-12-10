@@ -3,6 +3,7 @@ title: "東北大学 2016年 2016_b"
 problem_id: "04_tohoku-2016-2016_b"
 university: "東北大学"
 exam_year: "2016"
+problem_number: 2
 source_tex: "archive/04_tohoku/2016/2016_b.tex"
 pdf_source: "archive/04_tohoku/2016/2016_b.pdf"
 page_image: "archive/04_tohoku/2016/2016_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　あるウイルスの感染拡大について次の仮定で試算を行う。
+あるウイルスの感染拡大について次の仮定で試算を行う。
 このウイルスの感染者は感染してから1日の潜伏期間をおいて，
 2日後から毎日2人の未感染者にこのウイルスを感染させるとする。
 新たな感染者1人が感染源となった$n$日後の感染者数を$a_n$人とする。

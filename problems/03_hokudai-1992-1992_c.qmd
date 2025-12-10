@@ -3,6 +3,7 @@ title: "北海道大学 1992年 1992_c"
 problem_id: "03_hokudai-1992-1992_c"
 university: "北海道大学"
 exam_year: "1992"
+problem_number: 3
 source_tex: "archive/03_hokudai/1992/1992_c.tex"
 pdf_source: "archive/03_hokudai/1992/1992_c.pdf"
 page_image: "archive/03_hokudai/1992/1992_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$m$ $(\geqq2)$個の硬貨を同時に投げる試行を考える．
+$m$ $(\geqq2)$個の硬貨を同時に投げる試行を考える．
 \begin{description}
 \item[(1)]少なくとも$m-1$個表が出るという事象を$A$とし，
 表も裏も少なくとも1個出るという事象を$B$とする．

@@ -3,6 +3,7 @@ title: "大阪大学 2002年 2002_2"
 problem_id: "06_osaka-2002-2002_2"
 university: "大阪大学"
 exam_year: "2002"
+problem_number: 2
 source_tex: "archive/06_osaka/2002/2002_2.tex"
 pdf_source: "archive/06_osaka/2002/2002_2.pdf"
 page_image: "archive/06_osaka/2002/2002_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　平面上に双曲線$\displaystyle C:y=\frac{1}{x}$を考える．
+平面上に双曲線$\displaystyle C:y=\frac{1}{x}$を考える．
 $a, \, b, \, c, \, d$を$d<c<0<b<a$を満たす数とし，
 曲線$C$上の4点$P, \, Q, \, R, \, S$を
 それぞれ$x$座標が$a, \, b, \, c, \, d$であるような点としたとき，

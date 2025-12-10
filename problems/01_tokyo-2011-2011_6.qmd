@@ -3,6 +3,7 @@ title: "東京大学 2011年 2011_6"
 problem_id: "01_tokyo-2011-2011_6"
 university: "東京大学"
 exam_year: "2011"
+problem_number: 6
 source_tex: "archive/01_tokyo/2011/2011_6.tex"
 pdf_source: "archive/01_tokyo/2011/2011_6.pdf"
 page_image: "archive/01_tokyo/2011/2011_6.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(1)]$x$，$y$を実数とし，$x>0$とする．
 $t$を変数とする2次関数$f(t)=xt^2+yt$の$0 \leqq t \leqq 1$における最大値と最小値の差を求めよ．

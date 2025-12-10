@@ -3,6 +3,7 @@ title: "東北大学 2003年 2003_0_d"
 problem_id: "04_tohoku-2003-2003_0_d"
 university: "東北大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/04_tohoku/2003/2003_0_d.tex"
 pdf_source: "archive/04_tohoku/2003/2003_0_d.pdf"
 page_image: "archive/04_tohoku/2003/2003_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　図のような空間内の8点
+図のような空間内の8点
 \[ O(0, \, 0, \, 0), \hspace{1zw} A(1, \, 0, \, 0), \hspace{1zw} B(1, \, 2, \, 0), \hspace{1zw} C(0, \, 2, \, 0), \]
 \[ D(1, \, 0, \, 1), \hspace{1zw} E(1, \, 2, \, 1), \hspace{1zw} F(0, \, 2, \, 1), \hspace{1zw} G(0, \, 0, \, 1) \]
 を頂点とする直方体を考える．

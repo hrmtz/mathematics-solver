@@ -3,6 +3,7 @@ title: "九州大学 2003年 2003_4c"
 problem_id: "07_kyushu-2003-2003_4c"
 university: "九州大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/07_kyushu/2003/2003_4c.tex"
 pdf_source: "archive/07_kyushu/2003/2003_4c.pdf"
 page_image: "archive/07_kyushu/2003/2003_4c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (c)
-　座標平面上に$(0, \, 0), \, (1, \, 0), \, (1, \, 1), \, (0, \, 1)$を頂点とする正方形がある．
+座標平面上に$(0, \, 0), \, (1, \, 0), \, (1, \, 1), \, (0, \, 1)$を頂点とする正方形がある．
 ボールはこの正方形の中のすべての点に同様に確からしく落ちて，
 $y \leqq x(a-x)$の部分に落ちれば当たりとする．
 ただし，$0<a\leqq2$とする．

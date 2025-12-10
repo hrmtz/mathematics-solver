@@ -3,6 +3,7 @@ title: "京都大学 2011年 2011_0_4"
 problem_id: "02_kyoto-2011-2011_0_4"
 university: "京都大学"
 exam_year: "2011"
+problem_number: 4
 source_tex: "archive/02_kyoto/2011/2011_0_4.tex"
 pdf_source: "archive/02_kyoto/2011/2011_0_4.pdf"
 page_image: "archive/02_kyoto/2011/2011_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xy$平面上で，連立不等式
+$xy$平面上で，連立不等式
 \[ \begin{cases} |x|\leqq2, 
 
  y \geqq x, 

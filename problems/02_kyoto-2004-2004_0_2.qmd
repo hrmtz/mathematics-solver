@@ -3,6 +3,7 @@ title: "京都大学 2004年 2004_0_2"
 problem_id: "02_kyoto-2004-2004_0_2"
 university: "京都大学"
 exam_year: "2004"
+problem_number: 2
 source_tex: "archive/02_kyoto/2004/2004_0_2.tex"
 pdf_source: "archive/02_kyoto/2004/2004_0_2.pdf"
 page_image: "archive/02_kyoto/2004/2004_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　区間$-1 \leqq x \leqq 1$で定義された関数$f(x)$が，
+区間$-1 \leqq x \leqq 1$で定義された関数$f(x)$が，
 $f(-1)=f(0)=1$，$f(1)=-2$を満たし，
 またそのグラフが右図のようになっているという．
 　このとき，$\displaystyle\int_{-1}^1f(x)dx\geqq-1$を示せ．

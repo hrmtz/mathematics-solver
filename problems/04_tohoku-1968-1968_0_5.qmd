@@ -3,6 +3,7 @@ title: "東北大学 1968年 1968_0_5"
 problem_id: "04_tohoku-1968-1968_0_5"
 university: "東北大学"
 exam_year: "1968"
+problem_number: 5
 source_tex: "archive/04_tohoku/1968/1968_0_5.tex"
 pdf_source: "archive/04_tohoku/1968/1968_0_5.pdf"
 page_image: "archive/04_tohoku/1968/1968_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$y=1-|x|$に接し，$y$軸を軸とし，上に凸（とつ）な放物線のうちで，
+$y=1-|x|$に接し，$y$軸を軸とし，上に凸（とつ）な放物線のうちで，
 $x$軸と囲む面積が最大になるものを求めよ．
 
 ---

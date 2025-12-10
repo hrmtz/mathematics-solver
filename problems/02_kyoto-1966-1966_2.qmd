@@ -3,6 +3,7 @@ title: "京都大学 1966年 1966_2"
 problem_id: "02_kyoto-1966-1966_2"
 university: "京都大学"
 exam_year: "1966"
+problem_number: 2
 source_tex: "archive/02_kyoto/1966/1966_2.tex"
 pdf_source: "archive/02_kyoto/1966/1966_2.pdf"
 page_image: "archive/02_kyoto/1966/1966_2.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(i)]平行四辺形$ABCD$が与えられている．
 この中に最大面積の三角形$PQR$がはいっている．

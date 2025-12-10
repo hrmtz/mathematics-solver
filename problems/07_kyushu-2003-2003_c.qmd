@@ -3,6 +3,7 @@ title: "九州大学 2003年 2003_c"
 problem_id: "07_kyushu-2003-2003_c"
 university: "九州大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/07_kyushu/2003/2003_c.tex"
 pdf_source: "archive/07_kyushu/2003/2003_c.pdf"
 page_image: "archive/07_kyushu/2003/2003_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　座標平面上の原点にある点$P$を次のルールで移動させるゲームを考える．
+座標平面上の原点にある点$P$を次のルールで移動させるゲームを考える．
 \begin{description}
 \item[(i)]赤，白，青，黄色の玉がそれぞれ1個ずつ入っている袋の中から
 玉を1個取り出して色を見た後で袋に戻す操作を繰り返す．

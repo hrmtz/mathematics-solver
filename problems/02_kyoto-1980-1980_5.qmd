@@ -3,6 +3,7 @@ title: "京都大学 1980年 1980_5"
 problem_id: "02_kyoto-1980-1980_5"
 university: "京都大学"
 exam_year: "1980"
+problem_number: 5
 source_tex: "archive/02_kyoto/1980/1980_5.tex"
 pdf_source: "archive/02_kyoto/1980/1980_5.pdf"
 page_image: "archive/02_kyoto/1980/1980_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　互いに異なる$n$個$(n \geqq 3)$の実数の集合$S=\{a_1,a_2,\cdots\cdots,a_n\}$が次の性質をもつという．
+互いに異なる$n$個$(n \geqq 3)$の実数の集合$S=\{a_1,a_2,\cdots\cdots,a_n\}$が次の性質をもつという．
 \begin{center}
 「$S$から相異なる要素$a_i$，$a_j$をとれば$a_i-a_j$，$a_j-a_i$の少くとも一方は必ず$S$に属する」
 \end{center}

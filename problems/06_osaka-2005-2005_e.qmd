@@ -3,6 +3,7 @@ title: "大阪大学 2005年 2005_e"
 problem_id: "06_osaka-2005-2005_e"
 university: "大阪大学"
 exam_year: "2005"
+problem_number: 5
 source_tex: "archive/06_osaka/2005/2005_e.tex"
 pdf_source: "archive/06_osaka/2005/2005_e.pdf"
 page_image: "archive/06_osaka/2005/2005_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　関数$y=f(x)$は，実数全体で微分可能で導関数$f'(x)$は連続とする．
+関数$y=f(x)$は，実数全体で微分可能で導関数$f'(x)$は連続とする．
 $f(x)$は$\displaystyle x=\frac{1}{4}$で極大値$\displaystyle\frac{2}{3}$，
 $\displaystyle x=\frac{1}{2}$で極小値$\displaystyle-\frac{1}{6}$，
 $\displaystyle x=\frac{3}{4}$で極大値1をとり，その他の$x$では極値をとらないとする．また

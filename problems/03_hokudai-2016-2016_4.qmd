@@ -3,6 +3,7 @@ title: "北海道大学 2016年 2016_4"
 problem_id: "03_hokudai-2016-2016_4"
 university: "北海道大学"
 exam_year: "2016"
+problem_number: 4
 source_tex: "archive/03_hokudai/2016/2016_4.tex"
 pdf_source: "archive/03_hokudai/2016/2016_4.pdf"
 page_image: "archive/03_hokudai/2016/2016_4.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-4
 \begin{description}
 \item[(1)]次の方程式が異なる3つの0でない実数解をもつことを示せ。
 \[ x^3+x^2-2x-1=0 \cdots\cdots \text{\ding{"AC}} \]

@@ -3,6 +3,7 @@ title: "京都大学 2021年 2021_0_2"
 problem_id: "02_kyoto-2021-2021_0_2"
 university: "京都大学"
 exam_year: "2021"
+problem_number: 2
 source_tex: "archive/02_kyoto/2021/2021_0_2.tex"
 pdf_source: "archive/02_kyoto/2021/2021_0_2.pdf"
 page_image: "archive/02_kyoto/2021/2021_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　定積分$\displaystyle \int_{-1}^1 \left| x^2-\frac{1}{2}x-\frac{1}{2}  \right| dx$を求めよ．
+定積分$\displaystyle \int_{-1}^1 \left| x^2-\frac{1}{2}x-\frac{1}{2}  \right| dx$を求めよ．
 
 ---
 

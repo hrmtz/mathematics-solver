@@ -3,6 +3,7 @@ title: "大阪大学 2012年 2012_0_3"
 problem_id: "06_osaka-2012-2012_0_3"
 university: "大阪大学"
 exam_year: "2012"
+problem_number: 3
 source_tex: "archive/06_osaka/2012/2012_0_3.tex"
 pdf_source: "archive/06_osaka/2012/2012_0_3.pdf"
 page_image: "archive/06_osaka/2012/2012_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面上で考える．
+$xy$平面上で考える．
 不等式$y<-x^2+16$の表す領域を$D$とし，
 不等式$|x-1|+|y|\leqq1$の表す領域を$E$とする．
 このとき，以下の問いに答えよ．

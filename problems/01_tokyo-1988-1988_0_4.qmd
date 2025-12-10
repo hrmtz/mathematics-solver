@@ -3,6 +3,7 @@ title: "東京大学 1988年 1988_0_4"
 problem_id: "01_tokyo-1988-1988_0_4"
 university: "東京大学"
 exam_year: "1988"
+problem_number: 4
 source_tex: "archive/01_tokyo/1988/1988_0_4.tex"
 pdf_source: "archive/01_tokyo/1988/1988_0_4.pdf"
 page_image: "archive/01_tokyo/1988/1988_0_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$f(x)=x^3-x^2$とする．
+$f(x)=x^3-x^2$とする．
 曲線$y=f(x)$上の点$A(1,0)$における接線が再びこの曲線と交わる点を$B$とする．
 曲線$y=ax^2+bx+c$と曲線$y=f(x)$が点$A$，$B$を共有し，
 さらに$A$と$B$のあいだにもうひとつの共有点をもつとき，

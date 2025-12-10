@@ -3,6 +3,7 @@ title: "東京科学大学 2011年 2011_b"
 problem_id: "08_titech-2011-2011_b"
 university: "東京科学大学"
 exam_year: "2011"
+problem_number: 2
 source_tex: "archive/08_titech/2011/2011_b.tex"
 pdf_source: "archive/08_titech/2011/2011_b.pdf"
 page_image: "archive/08_titech/2011/2011_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　次の式$x=\tan\theta$，$\displaystyle y=\frac{1}{\cos\theta}$
+次の式$x=\tan\theta$，$\displaystyle y=\frac{1}{\cos\theta}$
 $\displaystyle \left( 0 \leqq \theta < \frac{\pi}{2} \right)$
 で表される$xy$平面上の曲線$C$を考える．
 定数$t>0$に対し点$P(t,0)$を通り$x$軸に垂直な直線$l$と曲線$C$の交点を$Q$とする．

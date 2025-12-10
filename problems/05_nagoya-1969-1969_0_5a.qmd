@@ -3,6 +3,7 @@ title: "名古屋大学 1969年 1969_0_5a"
 problem_id: "05_nagoya-1969-1969_0_5a"
 university: "名古屋大学"
 exam_year: "1969"
+problem_number: 5
 source_tex: "archive/05_nagoya/1969/1969_0_5a.tex"
 pdf_source: "archive/05_nagoya/1969/1969_0_5a.pdf"
 page_image: "archive/05_nagoya/1969/1969_0_5a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5 (a)
-　関数$f(x)=\log(ax^2+bx+c)$ $(a>0)$がある．
+関数$f(x)=\log(ax^2+bx+c)$ $(a>0)$がある．
 不等式$ax^2+bx+c>0$を満たすすべての$x$について$f''(x)\leqq0$となるためには，
 $b^2-4ac\geqq0$が必要かつ十分であることを証明せよ．
 

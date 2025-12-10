@@ -3,6 +3,7 @@ title: "東京大学 2024年 2024_4"
 problem_id: "01_tokyo-2024-2024_4"
 university: "東京大学"
 exam_year: "2024"
+problem_number: 4
 source_tex: "archive/01_tokyo/2024/2024_4.tex"
 pdf_source: "archive/01_tokyo/2024/2024_4.pdf"
 page_image: "archive/01_tokyo/2024/2024_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$\displaystyle f(x)=-\frac{\sqrt2}{4}x^2+4\sqrt2$とおく。$0<t<4$を満たす実数$t$に対し，
+$\displaystyle f(x)=-\frac{\sqrt2}{4}x^2+4\sqrt2$とおく。$0<t<4$を満たす実数$t$に対し，
 座標平面上の点$(t, \, f(t))$を通り，この点において放物線$y=f(x)$と共通の接線を持ち，
 $x$軸上に中心を持つ円を$C_t$とする。
 \begin{description}

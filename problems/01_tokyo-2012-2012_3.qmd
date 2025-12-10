@@ -3,6 +3,7 @@ title: "東京大学 2012年 2012_3"
 problem_id: "01_tokyo-2012-2012_3"
 university: "東京大学"
 exam_year: "2012"
+problem_number: 3
 source_tex: "archive/01_tokyo/2012/2012_3.tex"
 pdf_source: "archive/01_tokyo/2012/2012_3.pdf"
 page_image: "archive/01_tokyo/2012/2012_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　座標平面上で2つの不等式
+座標平面上で2つの不等式
 \[ y \geqq \frac{1}{2}x^2, \hspace{1zw} \frac{x^2}{4}+4y^2 \leqq \frac{1}{8} \]
 によって定まる領域を$S$とする。$S$を$x$軸のまわりに回転してできる立体の体積を$V_1$とし，
 $y$軸のまわりに回転してできる立体の体積を$V_2$とする。

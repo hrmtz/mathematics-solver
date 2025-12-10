@@ -3,6 +3,7 @@ title: "東北大学 2021年 2021_0_3"
 problem_id: "04_tohoku-2021-2021_0_3"
 university: "東北大学"
 exam_year: "2021"
+problem_number: 3
 source_tex: "archive/04_tohoku/2021/2021_0_3.tex"
 pdf_source: "archive/04_tohoku/2021/2021_0_3.pdf"
 page_image: "archive/04_tohoku/2021/2021_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　平面において，2つの点$O$，$A$の間の距離が1であるとし，
+平面において，2つの点$O$，$A$の間の距離が1であるとし，
 点$O$と点$A$を中心とする2つの円をそれぞれ$C_1$，$C_2$とする。
 $C_1$と$C_2$は2点$P$，$Q$において交わり，$\displaystyle \angle OPA=\frac{\pi}{3}$であるとし，
 $C_2$の半径$r$は$r<1$を満たすとする。以下の問いに答えよ。

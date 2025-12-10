@@ -3,6 +3,7 @@ title: "東京大学 2024年 2024_5"
 problem_id: "01_tokyo-2024-2024_5"
 university: "東京大学"
 exam_year: "2024"
+problem_number: 5
 source_tex: "archive/01_tokyo/2024/2024_5.tex"
 pdf_source: "archive/01_tokyo/2024/2024_5.pdf"
 page_image: "archive/01_tokyo/2024/2024_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　座標空間内に3点$A(1, \, 0, \, 0)$，$B(0, \, 1, \, 0)$，$C(0, \, 0, \, 1)$をとり，
+座標空間内に3点$A(1, \, 0, \, 0)$，$B(0, \, 1, \, 0)$，$C(0, \, 0, \, 1)$をとり，
 $D$を線分$AC$の中点とする。
 三角形$ABD$の周および内部を$x$軸のまわりに1回転させて得られる立体の体積を求めよ。
 

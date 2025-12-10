@@ -3,6 +3,7 @@ title: "東京大学 1967年 1967_4"
 problem_id: "01_tokyo-1967-1967_4"
 university: "東京大学"
 exam_year: "1967"
+problem_number: 4
 source_tex: "archive/01_tokyo/1967/1967_4.tex"
 pdf_source: "archive/01_tokyo/1967/1967_4.pdf"
 page_image: "archive/01_tokyo/1967/1967_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　方程式$x^2-xy+y^2=3$の表わす曲線の略図をえがき，
+方程式$x^2-xy+y^2=3$の表わす曲線の略図をえがき，
 その第1象限にある部分が$x$軸，$y$軸と囲む図形の面積を求めよ．
 
 ---

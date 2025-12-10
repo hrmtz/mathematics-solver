@@ -3,6 +3,7 @@ title: "九州大学 2010年 2010_2"
 problem_id: "07_kyushu-2010-2010_2"
 university: "九州大学"
 exam_year: "2010"
+problem_number: 2
 source_tex: "archive/07_kyushu/2010/2010_2.tex"
 pdf_source: "archive/07_kyushu/2010/2010_2.pdf"
 page_image: "archive/07_kyushu/2010/2010_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　次のような競技を考える．
+次のような競技を考える．
 競技者がサイコロを振る．
 もし，出た目が気に入ればその目を得点とする．
 そうでなければ，もう1回サイコロを振って，2つの目の合計を得点とすることができる．

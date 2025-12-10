@@ -3,6 +3,7 @@ title: "東北大学 2019年 2019_5"
 problem_id: "04_tohoku-2019-2019_5"
 university: "東北大学"
 exam_year: "2019"
+problem_number: 5
 source_tex: "archive/04_tohoku/2019/2019_5.tex"
 pdf_source: "archive/04_tohoku/2019/2019_5.pdf"
 page_image: "archive/04_tohoku/2019/2019_5.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(1)]次の等式が成り立つことを示せ。
 \[ \int_{-1}^1\frac{\sin^2(\pi x)}{1+e^x}dx=\int_0^1\sin^2(\pi x)dx=\frac{1}{2} \]

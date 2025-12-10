@@ -3,6 +3,7 @@ title: "大阪大学 1990年 1990_b"
 problem_id: "06_osaka-1990-1990_b"
 university: "大阪大学"
 exam_year: "1990"
+problem_number: 2
 source_tex: "archive/06_osaka/1990/1990_b.tex"
 pdf_source: "archive/06_osaka/1990/1990_b.pdf"
 page_image: "archive/06_osaka/1990/1990_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　方程式$\displaystyle\frac{{(x-c_n)}^2}{{a_n}^2}+\frac{y^2}{k^2{a_n}^2}=1$で表される
+方程式$\displaystyle\frac{{(x-c_n)}^2}{{a_n}^2}+\frac{y^2}{k^2{a_n}^2}=1$で表される
 楕円$E_n$ $(n=1, \, 2, \, \cdots\cdots)$の列を考える．
 どの$E_n$も直線$y=mx$ $(m>0)$に接し，かつ，$E_n$と$E_{n+1}$はただ1点を共有している．
 ただし，$c_1>0$，$c_n>c_{n+1}$，$c_n>0$ $(n=1, \, 2, \, \cdots\cdots)$とする．

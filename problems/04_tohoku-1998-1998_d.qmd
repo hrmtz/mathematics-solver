@@ -3,6 +3,7 @@ title: "東北大学 1998年 1998_d"
 problem_id: "04_tohoku-1998-1998_d"
 university: "東北大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/04_tohoku/1998/1998_d.tex"
 pdf_source: "archive/04_tohoku/1998/1998_d.pdf"
 page_image: "archive/04_tohoku/1998/1998_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　空間において，2点
+空間において，2点
 \[ P=(-t, \, -1, \, t^2-1), \hspace{1zw}
 Q=\left( t, \, 1, \, \frac{e^t+e^{-t}}{2}-\frac{e+e^{-1}}{2} \right) \]
 を考える．ただし$|t|\leqq1$とする．

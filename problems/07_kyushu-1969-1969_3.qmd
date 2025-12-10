@@ -3,6 +3,7 @@ title: "九州大学 1969年 1969_3"
 problem_id: "07_kyushu-1969-1969_3"
 university: "九州大学"
 exam_year: "1969"
+problem_number: 3
 source_tex: "archive/07_kyushu/1969/1969_3.tex"
 pdf_source: "archive/07_kyushu/1969/1969_3.pdf"
 page_image: "archive/07_kyushu/1969/1969_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　直交座標軸$O-xy$に関する双曲線の方程式が
+直交座標軸$O-xy$に関する双曲線の方程式が
 \[ ax^2+8xy+ay^2=1 \]
 である．
 いま，$O-xy$を$O$のまわりに，正の方向に${45}^\circ$回転してできる新しい座標軸を$O-XY$とする．

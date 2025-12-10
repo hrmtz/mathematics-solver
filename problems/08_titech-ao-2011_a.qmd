@@ -3,6 +3,7 @@ title: "東京科学大学 ao年 2011_a"
 problem_id: "08_titech-ao-2011_a"
 university: "東京科学大学"
 exam_year: "ao"
+problem_number: 1
 source_tex: "archive/08_titech/ao/2011_a.tex"
 pdf_source: "archive/08_titech/ao/2011_a.pdf"
 page_image: "archive/08_titech/ao/2011_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$n!$が$n^2$の倍数となるような自然数$n$を全て求めよ．
+$n!$が$n^2$の倍数となるような自然数$n$を全て求めよ．
 
 ---
 

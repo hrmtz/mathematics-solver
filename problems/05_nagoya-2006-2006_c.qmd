@@ -3,6 +3,7 @@ title: "名古屋大学 2006年 2006_c"
 problem_id: "05_nagoya-2006-2006_c"
 university: "名古屋大学"
 exam_year: "2006"
+problem_number: 3
 source_tex: "archive/05_nagoya/2006/2006_c.tex"
 pdf_source: "archive/05_nagoya/2006/2006_c.pdf"
 page_image: "archive/05_nagoya/2006/2006_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　空間内の点$O$，$A$，$B$，$C$の座標をそれぞれ
+空間内の点$O$，$A$，$B$，$C$の座標をそれぞれ
 $(0, \, 0, \, 0)$，$(1, \, 0, \, 0)$，$(0, \, 1, \, 0)$，$(0, \, 0, \, 1)$とする．
 点$P$は$x$軸上を点$O$から点$A$へ向かって，点$Q$は$y$軸上を点$B$から点$O$へ向かって，
 それぞれ時刻$t=0$に出発して速さ1で移動する．

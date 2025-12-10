@@ -3,6 +3,7 @@ title: "大阪大学 2003年 2003_b"
 problem_id: "06_osaka-2003-2003_b"
 university: "大阪大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/06_osaka/2003/2003_b.tex"
 pdf_source: "archive/06_osaka/2003/2003_b.pdf"
 page_image: "archive/06_osaka/2003/2003_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上において，点$O$を始点とする2つの半直線を$l_1$，$l_2$とし，
+平面上において，点$O$を始点とする2つの半直線を$l_1$，$l_2$とし，
 それらのなす角は鋭角$\theta$ $\displaystyle\left( 0<\theta<\frac{\pi}{2} \right)$とする．
 点$A$は$l_1$上の点で$OA=1$，点$B$は$l_2$上の点で$OB=b$とする．
 次に，直線$AB$上に点$O$からおろした垂線と直線$AB$の交点を$P$とする．

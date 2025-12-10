@@ -3,6 +3,7 @@ title: "大阪大学 2015年 2015_1"
 problem_id: "06_osaka-2015-2015_1"
 university: "大阪大学"
 exam_year: "2015"
+problem_number: 1
 source_tex: "archive/06_osaka/2015/2015_1.tex"
 pdf_source: "archive/06_osaka/2015/2015_1.pdf"
 page_image: "archive/06_osaka/2015/2015_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　自然数$n$に対して関数$f_n(x)$を
+自然数$n$に対して関数$f_n(x)$を
 \[ f_n(x)=\frac{x}{n(1+x)}\log(1+\frac{x}{n}) \hspace{1zw} (x\geqq0) \]
 で定める．以下の問いに答えよ．
 \begin{description}

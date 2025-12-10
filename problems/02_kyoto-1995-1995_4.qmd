@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_4"
 problem_id: "02_kyoto-1995-1995_4"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 4
 source_tex: "archive/02_kyoto/1995/1995_4.tex"
 pdf_source: "archive/02_kyoto/1995/1995_4.pdf"
 page_image: "archive/02_kyoto/1995/1995_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$x$と$y$の2文字からなる文字列$z_n$を次の規則(イ)，(ロ)で順次定めていく．
+$x$と$y$の2文字からなる文字列$z_n$を次の規則(イ)，(ロ)で順次定めていく．
 \begin{description}
 \item[(イ)]$z_1=x$とおく．
 \item[(ロ)]$z_n$の中に現れるすべての$x$を$yx$で，

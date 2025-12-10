@@ -3,6 +3,7 @@ title: "大阪大学 2016年 2016_2"
 problem_id: "06_osaka-2016-2016_2"
 university: "大阪大学"
 exam_year: "2016"
+problem_number: 2
 source_tex: "archive/06_osaka/2016/2016_2.tex"
 pdf_source: "archive/06_osaka/2016/2016_2.pdf"
 page_image: "archive/06_osaka/2016/2016_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]$c$を正の定数とする．正の実数$x, \, y$が$x+y=c$をみたすとき，
 \[ \left( 1+\frac{1}{x} \right) \left( 1+\frac{1}{y} \right) \]

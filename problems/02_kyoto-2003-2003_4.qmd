@@ -3,6 +3,7 @@ title: "京都大学 2003年 2003_4"
 problem_id: "02_kyoto-2003-2003_4"
 university: "京都大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/02_kyoto/2003/2003_4.tex"
 pdf_source: "archive/02_kyoto/2003/2003_4.pdf"
 page_image: "archive/02_kyoto/2003/2003_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　多項式$(x^{100}+1)^{100}+(x^2+1)^{100}+1$は多項式$x^2+x+1$で割り切れるか．
+多項式$(x^{100}+1)^{100}+(x^2+1)^{100}+1$は多項式$x^2+x+1$で割り切れるか．
 
 ---
 

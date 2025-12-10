@@ -3,6 +3,7 @@ title: "東北大学 1990年 1990_5"
 problem_id: "04_tohoku-1990-1990_5"
 university: "東北大学"
 exam_year: "1990"
+problem_number: 5
 source_tex: "archive/04_tohoku/1990/1990_5.tex"
 pdf_source: "archive/04_tohoku/1990/1990_5.pdf"
 page_image: "archive/04_tohoku/1990/1990_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$f(x)$は$x\geqq0$で正の値をとる連続関数で，
+$f(x)$は$x\geqq0$で正の値をとる連続関数で，
 次の関係式$\displaystyle\int_0^xf(t)dt=x\sqrt{f(x)}$を満たすものとする．
 \begin{description}
 \item[(1)]$f(0)$を求めよ．

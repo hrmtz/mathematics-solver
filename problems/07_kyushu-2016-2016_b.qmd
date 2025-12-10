@@ -3,6 +3,7 @@ title: "九州大学 2016年 2016_b"
 problem_id: "07_kyushu-2016-2016_b"
 university: "九州大学"
 exam_year: "2016"
+problem_number: 2
 source_tex: "archive/07_kyushu/2016/2016_b.tex"
 pdf_source: "archive/07_kyushu/2016/2016_b.pdf"
 page_image: "archive/07_kyushu/2016/2016_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　箱の中に，白色の球が$n$個，青色の球が$n$個，赤色の球が$n$個入っている。
+箱の中に，白色の球が$n$個，青色の球が$n$個，赤色の球が$n$個入っている。
 それぞれの色の球には1から$n$までの番号が重複なく書かれている。
 ただし$n=1$のときは，それぞれ番号1が書かれた白球，青球，赤球が1個ずつ入っているとする。
 箱から球を1個取り出して箱に戻すことを3回行う。以下の問いに答えよ。

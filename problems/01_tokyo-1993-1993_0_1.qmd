@@ -3,6 +3,7 @@ title: "東京大学 1993年 1993_0_1"
 problem_id: "01_tokyo-1993-1993_0_1"
 university: "東京大学"
 exam_year: "1993"
+problem_number: 1
 source_tex: "archive/01_tokyo/1993/1993_0_1.tex"
 pdf_source: "archive/01_tokyo/1993/1993_0_1.pdf"
 page_image: "archive/01_tokyo/1993/1993_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　3次関数$f(x)=x^3+ax^2+bx$は極大値と極小値をもち，
+3次関数$f(x)=x^3+ax^2+bx$は極大値と極小値をもち，
 それらを区間$-1\leqq x \leqq1$内でとるものとする．
 この条件を満たすような実数の組$(a,b)$の範囲を$ab$平面上に図示せよ．
 

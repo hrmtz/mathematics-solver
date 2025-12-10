@@ -3,6 +3,7 @@ title: "京都大学 1969年 1969_0_4"
 problem_id: "02_kyoto-1969-1969_0_4"
 university: "京都大学"
 exam_year: "1969"
+problem_number: 4
 source_tex: "archive/02_kyoto/1969/1969_0_4.tex"
 pdf_source: "archive/02_kyoto/1969/1969_0_4.pdf"
 page_image: "archive/02_kyoto/1969/1969_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　複素平面において，0，1を表わす点を，
+複素平面において，0，1を表わす点を，
 それぞれ$O$，$A_1$とするとき，
 $A_1$を一頂点とし，
 $O$を中心(対称の中心)とする正$n$辺形$A_1A_2A_3\cdots\cdots A_n$を考える．

@@ -3,6 +3,7 @@ title: "東京科学大学 1993年 1993_3"
 problem_id: "08_titech-1993-1993_3"
 university: "東京科学大学"
 exam_year: "1993"
+problem_number: 3
 source_tex: "archive/08_titech/1993/1993_3.tex"
 pdf_source: "archive/08_titech/1993/1993_3.pdf"
 page_image: "archive/08_titech/1993/1993_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　4次曲線$C:y=x^4-2ax^2$ $(a>0)$上の動点$P=(t,t^4-2at^2)$が$-\sqrt{a} \leqq t \leqq \sqrt{a}$の範囲で動く．
+4次曲線$C:y=x^4-2ax^2$ $(a>0)$上の動点$P=(t,t^4-2at^2)$が$-\sqrt{a} \leqq t \leqq \sqrt{a}$の範囲で動く．
 $P$での$C$の接線と$C$との交点を$P$，$Q=(\alpha,\alpha^4-2a\alpha^2)$，$R=(\beta,\beta^4-2a\beta^2)$とする．
 ただし，$\alpha \leqq \beta$とする．
 \begin{description}

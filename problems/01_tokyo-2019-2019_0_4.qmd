@@ -3,6 +3,7 @@ title: "東京大学 2019年 2019_0_4"
 problem_id: "01_tokyo-2019-2019_0_4"
 university: "東京大学"
 exam_year: "2019"
+problem_number: 4
 source_tex: "archive/01_tokyo/2019/2019_0_4.tex"
 pdf_source: "archive/01_tokyo/2019/2019_0_4.pdf"
 page_image: "archive/01_tokyo/2019/2019_0_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$O$を原点とする座標平面を考える。不等式
+$O$を原点とする座標平面を考える。不等式
 \[ |x|+|y|\leqq1 \]
 が表す領域を$D$とする。また，点$P$，$Q$が領域$D$を動くとき，
 $\overrightarrow{OR}=\overrightarrow{OP}-\overrightarrow{OQ}$をみたす点$R$が動く範囲を$E$とする。

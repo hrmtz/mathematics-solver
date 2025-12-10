@@ -3,6 +3,7 @@ title: "名古屋大学 2003年 2003_d"
 problem_id: "05_nagoya-2003-2003_d"
 university: "名古屋大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/05_nagoya/2003/2003_d.tex"
 pdf_source: "archive/05_nagoya/2003/2003_d.pdf"
 page_image: "archive/05_nagoya/2003/2003_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　円周上に$n$個の異なる点$a_1, \, a_2, \, \cdots\cdots, \, a_n$をとり，
+円周上に$n$個の異なる点$a_1, \, a_2, \, \cdots\cdots, \, a_n$をとり，
 これら$n$個の点を要素とする集合を$U$とする（ただし，$n\leqq4$）．
 $U$内のすべての異なる2点間に線分を引くものとする．
 各線分を各々独立に，赤，青，黄のいずれかに等確率で着色する．つぎの(1)～(6)の各問に答えよ．

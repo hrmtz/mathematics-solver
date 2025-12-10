@@ -3,6 +3,7 @@ title: "名古屋大学 2009年 2009_1"
 problem_id: "05_nagoya-2009-2009_1"
 university: "名古屋大学"
 exam_year: "2009"
+problem_number: 1
 source_tex: "archive/05_nagoya/2009/2009_1.tex"
 pdf_source: "archive/05_nagoya/2009/2009_1.pdf"
 page_image: "archive/05_nagoya/2009/2009_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$a>0$，$b>0$とする．
+$a>0$，$b>0$とする．
 点$A(0, \, a)$を中心とする半径$r$の円が，
 双曲線$\displaystyle x^2-\frac{y^2}{b^2}=1$と2点$B(s, \, t)$，$C(-s, \, t)$で接しているとする．
 ただし，$s>0$とする．

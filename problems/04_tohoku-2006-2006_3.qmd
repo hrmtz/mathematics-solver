@@ -3,6 +3,7 @@ title: "東北大学 2006年 2006_3"
 problem_id: "04_tohoku-2006-2006_3"
 university: "東北大学"
 exam_year: "2006"
+problem_number: 3
 source_tex: "archive/04_tohoku/2006/2006_3.tex"
 pdf_source: "archive/04_tohoku/2006/2006_3.pdf"
 page_image: "archive/04_tohoku/2006/2006_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　ある商店街が次のようなくじを計画した．
+ある商店街が次のようなくじを計画した．
 商店街の各商店は1000円の買い物ごとに1枚の抽選券を客に配布し，
 また，配布した抽選券1枚につき手数料35円をくじを管理する組合に拠出する．
 客は抽選券の枚数と同じ回数のくじを引くことができる．

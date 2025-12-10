@@ -3,6 +3,7 @@ title: "東北大学 1997年 1997_b"
 problem_id: "04_tohoku-1997-1997_b"
 university: "東北大学"
 exam_year: "1997"
+problem_number: 2
 source_tex: "archive/04_tohoku/1997/1997_b.tex"
 pdf_source: "archive/04_tohoku/1997/1997_b.pdf"
 page_image: "archive/04_tohoku/1997/1997_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　次の等式を満たす連続な関数$f(x)$について考える．
+次の等式を満たす連続な関数$f(x)$について考える．
 \[ \int_0^x\{ f(t)-t+1 \}dt=\int_{-1}^1{(x-t)}^3f(t)dt+\frac{2}{25} \]
 \begin{description}
 \item[(1)]$f(x)$は$x$の2次式であることを示せ．

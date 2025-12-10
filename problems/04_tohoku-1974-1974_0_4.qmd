@@ -3,6 +3,7 @@ title: "東北大学 1974年 1974_0_4"
 problem_id: "04_tohoku-1974-1974_0_4"
 university: "東北大学"
 exam_year: "1974"
+problem_number: 4
 source_tex: "archive/04_tohoku/1974/1974_0_4.tex"
 pdf_source: "archive/04_tohoku/1974/1974_0_4.pdf"
 page_image: "archive/04_tohoku/1974/1974_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$の上の
+だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$の上の
 3点$(0, \, b)$，$(x, \, y)$，$(-x, \, y)$を通る円の半径を$r$とするとき，
 $\displaystyle\lim_{x\to0}r$を求めよ．
 ただし$a$，$b$，$y$は正とする．

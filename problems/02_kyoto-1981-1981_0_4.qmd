@@ -3,6 +3,7 @@ title: "京都大学 1981年 1981_0_4"
 problem_id: "02_kyoto-1981-1981_0_4"
 university: "京都大学"
 exam_year: "1981"
+problem_number: 4
 source_tex: "archive/02_kyoto/1981/1981_0_4.tex"
 pdf_source: "archive/02_kyoto/1981/1981_0_4.pdf"
 page_image: "archive/02_kyoto/1981/1981_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　6人が円陣を作ってすわり，次のゲームをする；
+6人が円陣を作ってすわり，次のゲームをする；
 \begin{description}
 \item[(i)]最初，交互に赤と白の帽子をかぶり，隣り合う2人ずつの3つの組を作る．
 各組でジャンケンをし，負けた人は勝った人と同色の帽子をかぶる．

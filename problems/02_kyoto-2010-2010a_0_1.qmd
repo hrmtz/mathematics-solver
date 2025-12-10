@@ -3,6 +3,7 @@ title: "京都大学 2010年 2010a_0_1"
 problem_id: "02_kyoto-2010-2010a_0_1"
 university: "京都大学"
 exam_year: "2010"
+problem_number: 1
 source_tex: "archive/02_kyoto/2010/2010a_0_1.tex"
 pdf_source: "archive/02_kyoto/2010/2010a_0_1.pdf"
 page_image: "archive/02_kyoto/2010/2010a_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の各問に答えよ．
+次の各問に答えよ．
 \begin{description}
 \item[(1)]座標平面上で，点$(1,2)$を通り傾き$a$の直線と放物線$y=x^2$によって囲まれる部分の面積を$S(a)$とする．
 $a$が$0 \leqq a \leqq 6$の範囲を変化するとき，

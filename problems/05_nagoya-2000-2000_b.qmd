@@ -3,6 +3,7 @@ title: "名古屋大学 2000年 2000_b"
 problem_id: "05_nagoya-2000-2000_b"
 university: "名古屋大学"
 exam_year: "2000"
+problem_number: 2
 source_tex: "archive/05_nagoya/2000/2000_b.tex"
 pdf_source: "archive/05_nagoya/2000/2000_b.pdf"
 page_image: "archive/05_nagoya/2000/2000_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$n=0, \, 1, \, 2, \, \cdots\cdots$に対して，
+$n=0, \, 1, \, 2, \, \cdots\cdots$に対して，
 複素数$z_n$から新しい複素数$z_{n+1}$をつぎのように定義する．
 \[ z_{n+1}=(\cos\alpha+i\sin\alpha)(z_n+E\overline{z_n}) \]
 　ここで，$\overline{z}$は複素数$z_n$に共役な複素数を表し，

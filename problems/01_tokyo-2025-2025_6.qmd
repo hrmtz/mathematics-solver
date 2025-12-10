@@ -3,6 +3,7 @@ title: "東京大学 2025年 2025_6"
 problem_id: "01_tokyo-2025-2025_6"
 university: "東京大学"
 exam_year: "2025"
+problem_number: 6
 source_tex: "archive/01_tokyo/2025/2025_6.tex"
 pdf_source: "archive/01_tokyo/2025/2025_6.pdf"
 page_image: "archive/01_tokyo/2025/2025_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　複素数平面上の点$\displaystyle\frac{1}{2}$を中心とする
+複素数平面上の点$\displaystyle\frac{1}{2}$を中心とする
 半径$\displaystyle\frac{1}{2}$の円の周から原点を除いた曲線を$C$とする。
 \begin{description}
 \item[(1)]曲線$C$上の複素数$z$に対し，$\displaystyle\frac{1}{z}$の実部は1であることを示せ。

@@ -3,6 +3,7 @@ title: "東京大学 1993年 1993_0_3"
 problem_id: "01_tokyo-1993-1993_0_3"
 university: "東京大学"
 exam_year: "1993"
+problem_number: 3
 source_tex: "archive/01_tokyo/1993/1993_0_3.tex"
 pdf_source: "archive/01_tokyo/1993/1993_0_3.pdf"
 page_image: "archive/01_tokyo/1993/1993_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xyz$空間内の原点を中心とする半径1の球面$S=\{(x,y,z)|x^2+y^2+z^2=1,x,y,z\text{は実数}\}$を考え，
+$xyz$空間内の原点を中心とする半径1の球面$S=\{(x,y,z)|x^2+y^2+z^2=1,x,y,z\text{は実数}\}$を考え，
 $S$上の定点$(0,0,1)$を$A$とする．
 $A$とことなる$S$上の点$P(x,y,z)$に対し，直線$AP$と$xy$平面の交点を$Q(u,v,0)$とする．
 　$k$を正の定数とし，点$P$が$x^2+y^2+z^2=1$，

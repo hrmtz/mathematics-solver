@@ -3,6 +3,7 @@ title: "北海道大学 1968年 1968_0_5"
 problem_id: "03_hokudai-1968-1968_0_5"
 university: "北海道大学"
 exam_year: "1968"
+problem_number: 5
 source_tex: "archive/03_hokudai/1968/1968_0_5.tex"
 pdf_source: "archive/03_hokudai/1968/1968_0_5.pdf"
 page_image: "archive/03_hokudai/1968/1968_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$f(x)=(x-\alpha)(x-\beta)(x-\gamma)$がある．
+$f(x)=(x-\alpha)(x-\beta)(x-\gamma)$がある．
 ただし$\alpha<\beta<\gamma$とする．
 \begin{description}
 \item[(1)]方程式$f(x)=m(x-\alpha)$が$\alpha$と異なる重根をもつとき，$m$の値とその重根を求めよ．

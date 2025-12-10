@@ -3,6 +3,7 @@ title: "九州大学 1990年 1990_4"
 problem_id: "07_kyushu-1990-1990_4"
 university: "九州大学"
 exam_year: "1990"
+problem_number: 4
 source_tex: "archive/07_kyushu/1990/1990_4.tex"
 pdf_source: "archive/07_kyushu/1990/1990_4.pdf"
 page_image: "archive/07_kyushu/1990/1990_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　楕円$\displaystyle\frac{x^2}{4}+y^2=1$上の第1象限内の点$P$において
+楕円$\displaystyle\frac{x^2}{4}+y^2=1$上の第1象限内の点$P$において
 この楕円に引いた接線が点$(4, \, 0)$を通るとする．
 \begin{description}
 \item[(1)]点$P$の座標を求めよ．

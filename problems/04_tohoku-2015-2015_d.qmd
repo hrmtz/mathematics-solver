@@ -3,6 +3,7 @@ title: "東北大学 2015年 2015_d"
 problem_id: "04_tohoku-2015-2015_d"
 university: "東北大学"
 exam_year: "2015"
+problem_number: 4
 source_tex: "archive/04_tohoku/2015/2015_d.tex"
 pdf_source: "archive/04_tohoku/2015/2015_d.pdf"
 page_image: "archive/04_tohoku/2015/2015_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$-1<x<1$の範囲で定義された関数$f(x)$で、次の2つの条件を満たすものを考える。
+$-1<x<1$の範囲で定義された関数$f(x)$で、次の2つの条件を満たすものを考える。
 \begin{description}
 \item[]$\displaystyle f(x)+f(y)=f\left( \frac{x+y}{1+xy} \right)$ $(-1<x<1, \, -1<y<1)$
 \item[]$f(x)$は$x=0$で微分可能で、そこでの微分係数は1である

@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_0_1"
 problem_id: "04_tohoku-1999-1999_0_1"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 1
 source_tex: "archive/04_tohoku/1999/1999_0_1.tex"
 pdf_source: "archive/04_tohoku/1999/1999_0_1.pdf"
 page_image: "archive/04_tohoku/1999/1999_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　3つの角$\alpha$，$\beta$，$\gamma$ $(-{90}^\circ<\alpha, \, \beta, \, \gamma<{90}^\circ)$が
+3つの角$\alpha$，$\beta$，$\gamma$ $(-{90}^\circ<\alpha, \, \beta, \, \gamma<{90}^\circ)$が
 \[ \tan\alpha+\tan\beta+\tan\gamma=\tan\alpha\tan\beta\tan\gamma \]
 をみたすとき，$\alpha+\beta+\gamma$の値をすべて求めよ．
 

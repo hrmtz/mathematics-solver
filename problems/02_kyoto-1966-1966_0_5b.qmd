@@ -3,6 +3,7 @@ title: "京都大学 1966年 1966_0_5b"
 problem_id: "02_kyoto-1966-1966_0_5b"
 university: "京都大学"
 exam_year: "1966"
+problem_number: 5
 source_tex: "archive/02_kyoto/1966/1966_0_5b.tex"
 pdf_source: "archive/02_kyoto/1966/1966_0_5b.pdf"
 page_image: "archive/02_kyoto/1966/1966_0_5b.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-5 旧
 \begin{description}
 \item[(i)]$x$，$y$平面において，$|2x^2+y|=8-|y|$のグラフをかけ．
 \item[(ii)]このグラフで囲まれた図形の面積が直線$x+y=k$によって二等分されるとき，$-2<k<0$であることを証明せよ．

@@ -3,6 +3,7 @@ title: "東京大学 2010年 2010_6"
 problem_id: "01_tokyo-2010-2010_6"
 university: "東京大学"
 exam_year: "2010"
+problem_number: 6
 source_tex: "archive/01_tokyo/2010/2010_6.tex"
 pdf_source: "archive/01_tokyo/2010/2010_6.pdf"
 page_image: "archive/01_tokyo/2010/2010_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　四面体$OABC$において，
+四面体$OABC$において，
 4つの面はすべて合同であり，
 $OA=3$，$OB=\sqrt7$，$AB=2$であるとする．
 また，3点$O$，$A$，$B$を含む平面を$L$とする．

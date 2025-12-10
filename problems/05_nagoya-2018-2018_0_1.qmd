@@ -3,6 +3,7 @@ title: "名古屋大学 2018年 2018_0_1"
 problem_id: "05_nagoya-2018-2018_0_1"
 university: "名古屋大学"
 exam_year: "2018"
+problem_number: 1
 source_tex: "archive/05_nagoya/2018/2018_0_1.tex"
 pdf_source: "archive/05_nagoya/2018/2018_0_1.pdf"
 page_image: "archive/05_nagoya/2018/2018_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$を実数とし，少なくとも一方は0でないとする。
+$a$，$b$を実数とし，少なくとも一方は0でないとする。
 このとき，次の問に答えよ。
 \begin{description}
 \item[(1)]連立不等式

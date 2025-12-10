@@ -3,6 +3,7 @@ title: "東北大学 2006年 2006_a"
 problem_id: "04_tohoku-2006-2006_a"
 university: "東北大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/04_tohoku/2006/2006_a.tex"
 pdf_source: "archive/04_tohoku/2006/2006_a.pdf"
 page_image: "archive/04_tohoku/2006/2006_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　多項式$F(x)$を零でない多項式$G(x)$で割った余りを$R(x)$とする．
+多項式$F(x)$を零でない多項式$G(x)$で割った余りを$R(x)$とする．
 以下の問に答えよ．
 \begin{description}
 \item[(1)]方程式$F(x)=0$と$G(x)=0$の共通解は方程式$R(x)=0$の解であることを示せ．

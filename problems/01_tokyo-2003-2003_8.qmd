@@ -3,6 +3,7 @@ title: "東京大学 2003年 2003_8"
 problem_id: "01_tokyo-2003-2003_8"
 university: "東京大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/01_tokyo/2003/2003_8.tex"
 pdf_source: "archive/01_tokyo/2003/2003_8.pdf"
 page_image: "archive/01_tokyo/2003/2003_8.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$p$，$q$，$N$，$M$を自然数とする．ただし$\sqrt{p}$は自然数ではないとする．このとき次の問に答えよ．
+$p$，$q$，$N$，$M$を自然数とする．ただし$\sqrt{p}$は自然数ではないとする．このとき次の問に答えよ．
 \begin{description}
 \item[(1)]自然数$l$に対してある整数$A$，$B$があって${(\sqrt{p}-[\sqrt{p}])}^l=A\sqrt{p}+B$と表せることを示せ．
 ただし$[\sqrt{p}]$は$\sqrt{p}$より小さい整数のうちで最大のものを表す．

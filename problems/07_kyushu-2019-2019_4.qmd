@@ -3,6 +3,7 @@ title: "九州大学 2019年 2019_4"
 problem_id: "07_kyushu-2019-2019_4"
 university: "九州大学"
 exam_year: "2019"
+problem_number: 4
 source_tex: "archive/07_kyushu/2019/2019_4.tex"
 pdf_source: "archive/07_kyushu/2019/2019_4.pdf"
 page_image: "archive/07_kyushu/2019/2019_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　座標平面上の3点$O(0, \, 0)$，$A(2, \, 0)$，$B(1, \, \sqrt3)$を考える。
+座標平面上の3点$O(0, \, 0)$，$A(2, \, 0)$，$B(1, \, \sqrt3)$を考える。
 点$P_1$は線分$AB$上にあり，$A$，$B$とは異なる点とする。
 　線分$AB$上の点$P_2, \, P_3, \, \cdots\cdots$を以下のように順に定める。
 点$P_n$が定まったとき，点$P_n$から線分$OB$に下ろした垂線と$OB$との交点を$Q_n$とし，

@@ -3,6 +3,7 @@ title: "名古屋大学 2007年 2007_1"
 problem_id: "05_nagoya-2007-2007_1"
 university: "名古屋大学"
 exam_year: "2007"
+problem_number: 1
 source_tex: "archive/05_nagoya/2007/2007_1.tex"
 pdf_source: "archive/05_nagoya/2007/2007_1.pdf"
 page_image: "archive/05_nagoya/2007/2007_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　2行2列の行列$\begin{pmatrix} a & b 
+2行2列の行列$\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$を考える．
 $a, \, b, \, d$が実数で$c=0$である行列$\begin{pmatrix} a & b 

@@ -3,6 +3,7 @@ title: "九州大学 1979年 1979_3"
 problem_id: "07_kyushu-1979-1979_3"
 university: "九州大学"
 exam_year: "1979"
+problem_number: 3
 source_tex: "archive/07_kyushu/1979/1979_3.tex"
 pdf_source: "archive/07_kyushu/1979/1979_3.pdf"
 page_image: "archive/07_kyushu/1979/1979_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2つの定数$a$，$b$について，実数$x$，$y$，$z$，$w$が
+2つの定数$a$，$b$について，実数$x$，$y$，$z$，$w$が
 $\begin{pmatrix} 1 & a 
 
  b & ab \end{pmatrix}\begin{pmatrix} x & z 

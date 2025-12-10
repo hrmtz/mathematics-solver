@@ -3,6 +3,7 @@ title: "東北大学 1978年 1978_0_3"
 problem_id: "04_tohoku-1978-1978_0_3"
 university: "東北大学"
 exam_year: "1978"
+problem_number: 3
 source_tex: "archive/04_tohoku/1978/1978_0_3.tex"
 pdf_source: "archive/04_tohoku/1978/1978_0_3.pdf"
 page_image: "archive/04_tohoku/1978/1978_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　写像$\displaystyle f(x)=\frac{2x+a}{x+b}$に対して，$f(x)=x$を満たす$x$があるとき，この$x$を$f$の不動点という．
+写像$\displaystyle f(x)=\frac{2x+a}{x+b}$に対して，$f(x)=x$を満たす$x$があるとき，この$x$を$f$の不動点という．
 $f$が，絶対値が等しく符号が反対な，2個の不動点をもつためには，
 $a$，$b$がどのような条件を満たすことが必要十分であるか．
 また，このとき$y=f(x)$と$y=x$のグラフの関係を図示せよ．

@@ -3,6 +3,7 @@ title: "東北大学 1992年 1992_b"
 problem_id: "04_tohoku-1992-1992_b"
 university: "東北大学"
 exam_year: "1992"
+problem_number: 2
 source_tex: "archive/04_tohoku/1992/1992_b.tex"
 pdf_source: "archive/04_tohoku/1992/1992_b.pdf"
 page_image: "archive/04_tohoku/1992/1992_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$a_1 \geqq a_2 \geqq \cdots\cdots \geqq a_n$，
+$a_1 \geqq a_2 \geqq \cdots\cdots \geqq a_n$，
 $b_1 \geqq b_2 \geqq \cdots\cdots \geqq b_n$のとき，
 次の不等式を証明せよ．
 \[ \left(\sum_{i=1}^n a_i\right)\left(\sum_{i=1}^n b_i\right) \leqq n\sum_{i=1}^n a_ib_i \]

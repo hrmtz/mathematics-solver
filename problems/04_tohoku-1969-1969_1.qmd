@@ -3,6 +3,7 @@ title: "東北大学 1969年 1969_1"
 problem_id: "04_tohoku-1969-1969_1"
 university: "東北大学"
 exam_year: "1969"
+problem_number: 1
 source_tex: "archive/04_tohoku/1969/1969_1.tex"
 pdf_source: "archive/04_tohoku/1969/1969_1.pdf"
 page_image: "archive/04_tohoku/1969/1969_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　3次方程式$f(x)=x^3+ax^2+bx+c=0$の3根を$\alpha$，$\beta$，$\gamma$とする．
+3次方程式$f(x)=x^3+ax^2+bx+c=0$の3根を$\alpha$，$\beta$，$\gamma$とする．
 \begin{description}
 \item[(1)]$\alpha+\beta+\gamma$，$\beta\gamma+\gamma\alpha+\alpha\beta$，$\alpha\beta\gamma$の値を$a$，$b$，$c$で表わせ．
 \item[(2)]$t$についての次の式を簡単にせよ．

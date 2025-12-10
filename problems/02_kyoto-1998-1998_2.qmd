@@ -3,6 +3,7 @@ title: "京都大学 1998年 1998_2"
 problem_id: "02_kyoto-1998-1998_2"
 university: "京都大学"
 exam_year: "1998"
+problem_number: 2
 source_tex: "archive/02_kyoto/1998/1998_2.tex"
 pdf_source: "archive/02_kyoto/1998/1998_2.pdf"
 page_image: "archive/02_kyoto/1998/1998_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$f(x)=x^2+7$とおく．
+$f(x)=x^2+7$とおく．
 \begin{description}
 \item[(1)]$n$は3以上の自然数で，ある自然数$a$にたいして$f(a)$は$2^n$の倍数になっているとする．
 このとき$f(a)$と$f(a+2^{n-1})$のうち少なくとも一方は$2^{n+1}$の倍数であることを示せ．

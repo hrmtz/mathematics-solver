@@ -3,6 +3,7 @@ title: "九州大学 2006年 2006_d"
 problem_id: "07_kyushu-2006-2006_d"
 university: "九州大学"
 exam_year: "2006"
+problem_number: 4
 source_tex: "archive/07_kyushu/2006/2006_d.tex"
 pdf_source: "archive/07_kyushu/2006/2006_d.pdf"
 page_image: "archive/07_kyushu/2006/2006_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面上に異なる$n$個の点$(x_1, \, y_1)$，$(x_2, \, y_2)$，$\cdots$，$(x_n, \, y_n)$を考える．
+平面上に異なる$n$個の点$(x_1, \, y_1)$，$(x_2, \, y_2)$，$\cdots$，$(x_n, \, y_n)$を考える．
 ただし，$x_k>0$ $(k=1, \, 2, \, \cdots, \, n)$とする．
 また，次の関数$f(a)$の最小値を与える$a$を$a_0$とする．
 \[ f(a)=\sum_{k=1}^n{(ax_k-y_k)}^2 \]

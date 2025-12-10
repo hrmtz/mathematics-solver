@@ -3,6 +3,7 @@ title: "東北大学 2013年 2013_0_4"
 problem_id: "04_tohoku-2013-2013_0_4"
 university: "東北大学"
 exam_year: "2013"
+problem_number: 4
 source_tex: "archive/04_tohoku/2013/2013_0_4.tex"
 pdf_source: "archive/04_tohoku/2013/2013_0_4.pdf"
 page_image: "archive/04_tohoku/2013/2013_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$t$は$0 \leqq t \leqq 1$を満たす実数とする。
+$t$は$0 \leqq t \leqq 1$を満たす実数とする。
 放物線$y=x^2$，直線$x=1$，および$x$軸とで囲まれた図形を$A$，
 放物線$y=4{(x-t)}^2$と直線$y=1$とで囲まれた図形を$B$とする。
 $A$と$B$の共通部分の面積を$S(t)$とする。

@@ -3,6 +3,7 @@ title: "名古屋大学 1974年 1974_4"
 problem_id: "05_nagoya-1974-1974_4"
 university: "名古屋大学"
 exam_year: "1974"
+problem_number: 4
 source_tex: "archive/05_nagoya/1974/1974_4.tex"
 pdf_source: "archive/05_nagoya/1974/1974_4.pdf"
 page_image: "archive/05_nagoya/1974/1974_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$p\geqq0$，$q\geqq0$，$p \neq q$である$p$，$q$に対して
+$p\geqq0$，$q\geqq0$，$p \neq q$である$p$，$q$に対して
 \[ |\log(p+1)-\log(q+1)|<|p-q| \]
 が成立することを証明せよ．
 次に，$k$を$0<k<1$である定数とすると

@@ -3,6 +3,7 @@ title: "東京科学大学 1966年 1966_1"
 problem_id: "08_titech-1966-1966_1"
 university: "東京科学大学"
 exam_year: "1966"
+problem_number: 1
 source_tex: "archive/08_titech/1966/1966_1.tex"
 pdf_source: "archive/08_titech/1966/1966_1.pdf"
 page_image: "archive/08_titech/1966/1966_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]円$x^2+y^2-4x+2y+1=0$の中心$O$と異なる点$P(x, \, y)$がある。
 この円の半径を$r$とし，線分$OP$またはその$P$をこえる延長上に1点$Q$をとり，

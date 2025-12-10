@@ -3,6 +3,7 @@ title: "東北大学 2010年 2010_5"
 problem_id: "04_tohoku-2010-2010_5"
 university: "東北大学"
 exam_year: "2010"
+problem_number: 5
 source_tex: "archive/04_tohoku/2010/2010_5.tex"
 pdf_source: "archive/04_tohoku/2010/2010_5.pdf"
 page_image: "archive/04_tohoku/2010/2010_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$0<t<3$のとき，連立不等式
+$0<t<3$のとき，連立不等式
 $\begin{cases} 0 \leqq y \leqq \sin x 
 
  0 \leqq x \leqq t-y \end{cases}$

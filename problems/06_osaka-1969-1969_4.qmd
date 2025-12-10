@@ -3,6 +3,7 @@ title: "大阪大学 1969年 1969_4"
 problem_id: "06_osaka-1969-1969_4"
 university: "大阪大学"
 exam_year: "1969"
+problem_number: 4
 source_tex: "archive/06_osaka/1969/1969_4.tex"
 pdf_source: "archive/06_osaka/1969/1969_4.pdf"
 page_image: "archive/06_osaka/1969/1969_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次数が3より小さくない$x$の多項式$f(x)$を$x-a$（$a$は定数）で割った商を$P(x)$，余りを$p$とし，
+次数が3より小さくない$x$の多項式$f(x)$を$x-a$（$a$は定数）で割った商を$P(x)$，余りを$p$とし，
 $P(x)$を$x-a$で割った商を$Q(x)$，余りを$q$とし，
 $Q(x)$を$x-a$で割った商を$R(x)$，余りを$r$とする．
 \begin{description}

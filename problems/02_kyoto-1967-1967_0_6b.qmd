@@ -3,6 +3,7 @@ title: "京都大学 1967年 1967_0_6b"
 problem_id: "02_kyoto-1967-1967_0_6b"
 university: "京都大学"
 exam_year: "1967"
+problem_number: 6
 source_tex: "archive/02_kyoto/1967/1967_0_6b.tex"
 pdf_source: "archive/02_kyoto/1967/1967_0_6b.pdf"
 page_image: "archive/02_kyoto/1967/1967_0_6b.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-6 旧
 \begin{description}
 \item[(i)]$c$，$d$は正の実数であるとして，
 函数(関数)$\displaystyle f(t)=\frac{c^2t^2+d^2}{t}$を$t>0$の範囲で考える．

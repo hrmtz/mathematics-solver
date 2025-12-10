@@ -3,6 +3,7 @@ title: "京都大学 2008年 2008a_6"
 problem_id: "02_kyoto-2008-2008a_6"
 university: "京都大学"
 exam_year: "2008"
+problem_number: 6
 source_tex: "archive/02_kyoto/2008/2008a_6.tex"
 pdf_source: "archive/02_kyoto/2008/2008a_6.pdf"
 page_image: "archive/02_kyoto/2008/2008a_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　空間内に原点$O$を中心とし半径1の球面$S$を考え，
+空間内に原点$O$を中心とし半径1の球面$S$を考え，
 $S$上の2点を$\displaystyle A \left( \frac{1}{2},0,\frac{\sqrt3}{2} \right)$，
 $\displaystyle B \left( \frac{1}{4},\frac{\sqrt3}{4},\frac{\sqrt3}{2} \right)$とする．
 $\displaystyle z=\frac{\sqrt3}{2}$で与えられる平面で$S$を切った切り口の円において，

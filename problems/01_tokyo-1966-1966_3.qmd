@@ -3,6 +3,7 @@ title: "東京大学 1966年 1966_3"
 problem_id: "01_tokyo-1966-1966_3"
 university: "東京大学"
 exam_year: "1966"
+problem_number: 3
 source_tex: "archive/01_tokyo/1966/1966_3.tex"
 pdf_source: "archive/01_tokyo/1966/1966_3.pdf"
 page_image: "archive/01_tokyo/1966/1966_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　平面上に点列$P_0,P_1,P_2,\cdots,P_n,\cdots$があり，
+平面上に点列$P_0,P_1,P_2,\cdots,P_n,\cdots$があり，
 $P_0$，$P_1$の座標はそれぞれ$(0,0)$，$(1,0)$である．
 また，任意の自然数$n$に対し，
 線分$P_nP_{n+1}$の長さは，線分$P_{n-1}P_n$の長さの2倍で，

@@ -3,6 +3,7 @@ title: "大阪大学 2001年 2001_0_3"
 problem_id: "06_osaka-2001-2001_0_3"
 university: "大阪大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/06_osaka/2001/2001_0_3.tex"
 pdf_source: "archive/06_osaka/2001/2001_0_3.pdf"
 page_image: "archive/06_osaka/2001/2001_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　各整数$k$に対し，座標平面上の点$\displaystyle P_k\left(\frac{k}{500}, \, 0\right)$，
+各整数$k$に対し，座標平面上の点$\displaystyle P_k\left(\frac{k}{500}, \, 0\right)$，
 $\displaystyle Q_k\left(\frac{k}{500}, \, 1\right)$をとり，
 3点$P_{k-1}$，$P_k$，$Q_k$を頂点とする三角形$T_k$を考える．
 また，各自然数$n$に対し

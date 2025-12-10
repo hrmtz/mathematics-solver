@@ -3,6 +3,7 @@ title: "大阪大学 1993年 1993_a"
 problem_id: "06_osaka-1993-1993_a"
 university: "大阪大学"
 exam_year: "1993"
+problem_number: 1
 source_tex: "archive/06_osaka/1993/1993_a.tex"
 pdf_source: "archive/06_osaka/1993/1993_a.pdf"
 page_image: "archive/06_osaka/1993/1993_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　2つの数列$\{ a_n \}$，$\{ b_n \}$は，条件
+2つの数列$\{ a_n \}$，$\{ b_n \}$は，条件
 \begin{description}
 \item[（イ）]$\displaystyle\sum_{k=1}^{2n}{(-1)}^{k-1}a_k=
 \sum_{l=1}^n\frac{b_l}{n+l}$ $(n=1, \, 2, \, \cdots\cdots)$

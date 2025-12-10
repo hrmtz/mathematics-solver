@@ -3,6 +3,7 @@ title: "東京大学 1996年 1996_4"
 problem_id: "01_tokyo-1996-1996_4"
 university: "東京大学"
 exam_year: "1996"
+problem_number: 4
 source_tex: "archive/01_tokyo/1996/1996_4.tex"
 pdf_source: "archive/01_tokyo/1996/1996_4.pdf"
 page_image: "archive/01_tokyo/1996/1996_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　1つのサイコロを続けて投げて，
+1つのサイコロを続けて投げて，
 それによって$a_n$ $(n=1,2,\cdots\cdots)$を以下のように定める．
 　出た目の数を順に$c_1,c_2,\cdots\cdots$とするとき，
 $1 \leqq k \leqq n-1$を満たすすべての整数$k$に対し

@@ -3,6 +3,7 @@ title: "東北大学 2009年 2009_0_3"
 problem_id: "04_tohoku-2009-2009_0_3"
 university: "東北大学"
 exam_year: "2009"
+problem_number: 3
 source_tex: "archive/04_tohoku/2009/2009_0_3.tex"
 pdf_source: "archive/04_tohoku/2009/2009_0_3.pdf"
 page_image: "archive/04_tohoku/2009/2009_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　袋の中に青玉が7個，赤玉が3個入っている．
+袋の中に青玉が7個，赤玉が3個入っている．
 袋から1回につき1個ずつ玉を取り出す．
 一度取り出した玉は袋に戻さないとして，以下の問いに答えよ．
 \begin{description}

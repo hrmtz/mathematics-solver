@@ -3,6 +3,7 @@ title: "名古屋大学 2022年 2022_4"
 problem_id: "05_nagoya-2022-2022_4"
 university: "名古屋大学"
 exam_year: "2022"
+problem_number: 4
 source_tex: "archive/05_nagoya/2022/2022_4.tex"
 pdf_source: "archive/05_nagoya/2022/2022_4.pdf"
 page_image: "archive/05_nagoya/2022/2022_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f(x)$は区間$x\geqq0$において連続な増加関数で$f(0)=1$を満たすとする。
+関数$f(x)$は区間$x\geqq0$において連続な増加関数で$f(0)=1$を満たすとする。
 ただし$f(x)$が区間$x\geqq0$における増加関数であるとは，
 区間内の任意の実数$x_1, \, x_2$に対し$x_1<x_2$ならば$f(x_1)<f(x_2)$が成り立つときをいう。
 以下，$n$は正の整数とする。

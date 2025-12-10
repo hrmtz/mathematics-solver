@@ -3,6 +3,7 @@ title: "東北大学 1993年 1993_e"
 problem_id: "04_tohoku-1993-1993_e"
 university: "東北大学"
 exam_year: "1993"
+problem_number: 5
 source_tex: "archive/04_tohoku/1993/1993_e.tex"
 pdf_source: "archive/04_tohoku/1993/1993_e.pdf"
 page_image: "archive/04_tohoku/1993/1993_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　放物線$\displaystyle C:y=-\frac{1}{2}x^2+4x-6$を考える．
+放物線$\displaystyle C:y=-\frac{1}{2}x^2+4x-6$を考える．
 点$(0, \, 1)$を通り，傾きが$t$の直線を$l$とする．
 ただし，$4-\sqrt{14}\leqq t \leqq4+\sqrt{14}$とする．
 \begin{description}

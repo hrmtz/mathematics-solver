@@ -3,6 +3,7 @@ title: "大阪大学 1981年 1981_2"
 problem_id: "06_osaka-1981-1981_2"
 university: "大阪大学"
 exam_year: "1981"
+problem_number: 2
 source_tex: "archive/06_osaka/1981/1981_2.tex"
 pdf_source: "archive/06_osaka/1981/1981_2.pdf"
 page_image: "archive/06_osaka/1981/1981_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　実数$t$が$0 \leqq t \leqq \pi$の範囲を動くとき，
+実数$t$が$0 \leqq t \leqq \pi$の範囲を動くとき，
 座標が$\displaystyle x=\frac{\cos t-a}{1-2a\cos t+a^2}$，
 $\displaystyle y=\frac{\sin t}{1-2a\cos t+a^2}$で与えられる
 平面上の点$P(x, \, y)$はどのような図形を描くか．

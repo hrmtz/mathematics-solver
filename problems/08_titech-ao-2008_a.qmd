@@ -3,6 +3,7 @@ title: "東京科学大学 ao年 2008_a"
 problem_id: "08_titech-ao-2008_a"
 university: "東京科学大学"
 exam_year: "ao"
+problem_number: 1
 source_tex: "archive/08_titech/ao/2008_a.tex"
 pdf_source: "archive/08_titech/ao/2008_a.pdf"
 page_image: "archive/08_titech/ao/2008_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$0<\alpha<\pi$とする．
+$0<\alpha<\pi$とする．
 $xyz-$空間上の3点$A$，$B$，$C$は次の条件(i)，(ii)，(iii)をみたすように配置してあるとする．
 \begin{description}
 \item[(i)]$A$，$B$は原点を中心とする$xy-$平面上の半径1の円周上にある．

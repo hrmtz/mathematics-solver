@@ -3,6 +3,7 @@ title: "名古屋大学 1977年 1977_5"
 problem_id: "05_nagoya-1977-1977_5"
 university: "名古屋大学"
 exam_year: "1977"
+problem_number: 5
 source_tex: "archive/05_nagoya/1977/1977_5.tex"
 pdf_source: "archive/05_nagoya/1977/1977_5.pdf"
 page_image: "archive/05_nagoya/1977/1977_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　次の(1)，(2)を解答せよ．
+次の(1)，(2)を解答せよ．
 \begin{description}
 \item[(1)]$\displaystyle f_n(x)=\int_0^x(x-t)\sin ntdt$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$を求めよ．
 \item[(2)]$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$における$f_n(x)$の最大値を$a_n$とするとき，

@@ -3,6 +3,7 @@ title: "京都大学 1986年 1986_4"
 problem_id: "02_kyoto-1986-1986_4"
 university: "京都大学"
 exam_year: "1986"
+problem_number: 4
 source_tex: "archive/02_kyoto/1986/1986_4.tex"
 pdf_source: "archive/02_kyoto/1986/1986_4.pdf"
 page_image: "archive/02_kyoto/1986/1986_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　同一平面上に2つの三角形$\triangle ABC$，$\triangle A'B'C'$があり，
+同一平面上に2つの三角形$\triangle ABC$，$\triangle A'B'C'$があり，
 それぞれの外接円の半径は共に1であるとする．
 この2つの外接円の中心を結ぶ線分の中点を$M$，
 線分$AA'$，$BB'$，$CC'$の中点をそれぞれ$P$，$Q$，$R$とする．

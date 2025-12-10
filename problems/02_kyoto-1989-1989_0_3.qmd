@@ -3,6 +3,7 @@ title: "京都大学 1989年 1989_0_3"
 problem_id: "02_kyoto-1989-1989_0_3"
 university: "京都大学"
 exam_year: "1989"
+problem_number: 3
 source_tex: "archive/02_kyoto/1989/1989_0_3.tex"
 pdf_source: "archive/02_kyoto/1989/1989_0_3.pdf"
 page_image: "archive/02_kyoto/1989/1989_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　座標平面内で，つぎの3曲線(うち一つは直線)に囲まれる部分の面積を求めよ．
+座標平面内で，つぎの3曲線(うち一つは直線)に囲まれる部分の面積を求めよ．
 \[ y=-x^3-3x^2-3x-2, \hspace{1zw} x=\sqrt{y+3}-1, \hspace{1zw} y=0 \]
 
 ---

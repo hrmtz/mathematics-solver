@@ -3,6 +3,7 @@ title: "北海道大学 1991年 1991_1"
 problem_id: "03_hokudai-1991-1991_1"
 university: "北海道大学"
 exam_year: "1991"
+problem_number: 1
 source_tex: "archive/03_hokudai/1991/1991_1.tex"
 pdf_source: "archive/03_hokudai/1991/1991_1.pdf"
 page_image: "archive/03_hokudai/1991/1991_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$x$についての2次方程式$x^2-2px+p^2-2p-1=0$の2つの解を$\alpha$，$\beta$とする．
+$x$についての2次方程式$x^2-2px+p^2-2p-1=0$の2つの解を$\alpha$，$\beta$とする．
 $\displaystyle\frac{1}{2}\frac{{(\alpha-\beta)}^2-2}{{(\alpha+\beta)}^2+2}$が
 整数となる実数$p$をすべて求めよ．
 

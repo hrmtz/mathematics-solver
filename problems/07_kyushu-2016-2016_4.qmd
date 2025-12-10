@@ -3,6 +3,7 @@ title: "九州大学 2016年 2016_4"
 problem_id: "07_kyushu-2016-2016_4"
 university: "九州大学"
 exam_year: "2016"
+problem_number: 4
 source_tex: "archive/07_kyushu/2016/2016_4.tex"
 pdf_source: "archive/07_kyushu/2016/2016_4.pdf"
 page_image: "archive/07_kyushu/2016/2016_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　自然数$n$に対して，${10}^n$を13で割った余りを$a_n$とおく。
+自然数$n$に対して，${10}^n$を13で割った余りを$a_n$とおく。
 $a_n$は0から12までの整数である。
 以下の問いに答えよ。
 \begin{description}

@@ -3,6 +3,7 @@ title: "九州大学 1972年 1972_0_5"
 problem_id: "07_kyushu-1972-1972_0_5"
 university: "九州大学"
 exam_year: "1972"
+problem_number: 5
 source_tex: "archive/07_kyushu/1972/1972_0_5.tex"
 pdf_source: "archive/07_kyushu/1972/1972_0_5.pdf"
 page_image: "archive/07_kyushu/1972/1972_0_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　ある年のはじめに$A$円を借り，その年から毎年年末に等額$a$円ずつを支払って15回で返済する．
+ある年のはじめに$A$円を借り，その年から毎年年末に等額$a$円ずつを支払って15回で返済する．
 ただし，年利率$r$の1年ごとの複利とする．
 $n$年たって，$n+1$年目のはじめにまた借りている金額を$A_n$円として，次の問に答えよ．
 ただし，$1 \leqq n \leqq 15$とする．

@@ -3,6 +3,7 @@ title: "京都大学 1992年 1992_a"
 problem_id: "02_kyoto-1992-1992_a"
 university: "京都大学"
 exam_year: "1992"
+problem_number: 1
 source_tex: "archive/02_kyoto/1992/1992_a.tex"
 pdf_source: "archive/02_kyoto/1992/1992_a.pdf"
 page_image: "archive/02_kyoto/1992/1992_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　0でない$x$の整式$f(x)$に対し，
+0でない$x$の整式$f(x)$に対し，
 $\displaystyle F(x)=\int_0^xf(t)dt$，$\displaystyle G(x)=\int_x^1f(t)dt$とおく．
 ある定数$p$，$q$が存在して，$F(G(x))=-{\{F(x)\}}^2+pG(x)+q$が成立しているとする．
 \begin{description}

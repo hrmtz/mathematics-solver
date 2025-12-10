@@ -3,6 +3,7 @@ title: "九州大学 2015年 2015_1"
 problem_id: "07_kyushu-2015-2015_1"
 university: "九州大学"
 exam_year: "2015"
+problem_number: 1
 source_tex: "archive/07_kyushu/2015/2015_1.tex"
 pdf_source: "archive/07_kyushu/2015/2015_1.pdf"
 page_image: "archive/07_kyushu/2015/2015_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$C_1$，$C_2$をそれぞれ次式で与えられる放物線の一部分とする。
+$C_1$，$C_2$をそれぞれ次式で与えられる放物線の一部分とする。
 \[ C_1:y=-x^2+2x, \hspace{1zw} 0 \leqq x \leqq 2 \]
 \[ C_2:y=-x^2-2x, \hspace{1zw} -2 \leqq x \leqq 0 \]
 また，$a$を実数とし，直線$y=a(x+4)$を$l$とする。

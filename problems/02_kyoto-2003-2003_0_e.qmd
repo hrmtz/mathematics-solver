@@ -3,6 +3,7 @@ title: "京都大学 2003年 2003_0_e"
 problem_id: "02_kyoto-2003-2003_0_e"
 university: "京都大学"
 exam_year: "2003"
+problem_number: 5
 source_tex: "archive/02_kyoto/2003/2003_0_e.tex"
 pdf_source: "archive/02_kyoto/2003/2003_0_e.pdf"
 page_image: "archive/02_kyoto/2003/2003_0_e.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(1)]$n$を2以上の自然数とする．
 複素数$z$が$z\neq1$，$z^n=1$をみたすとき，$1+2z+3z^2+\cdots+nz^{n-1}$は次の(ア)から(キ)のどれと等しくなるか．

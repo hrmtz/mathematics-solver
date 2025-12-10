@@ -3,6 +3,7 @@ title: "名古屋大学 1978年 1978_4"
 problem_id: "05_nagoya-1978-1978_4"
 university: "名古屋大学"
 exam_year: "1978"
+problem_number: 4
 source_tex: "archive/05_nagoya/1978/1978_4.tex"
 pdf_source: "archive/05_nagoya/1978/1978_4.pdf"
 page_image: "archive/05_nagoya/1978/1978_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$A$，$B$ 2人が次のような規則でさいころを投げるものとする．
+$A$，$B$ 2人が次のような規則でさいころを投げるものとする．
 さいころを投げて1の目が出れば次回も同じ人が続けて投げ，
 1以外の目が出れば次回は他方が投げることにする．
 第1回目は$A$が投げる．

@@ -3,6 +3,7 @@ title: "北海道大学 1997年 1997_4"
 problem_id: "03_hokudai-1997-1997_4"
 university: "北海道大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/03_hokudai/1997/1997_4.tex"
 pdf_source: "archive/03_hokudai/1997/1997_4.pdf"
 page_image: "archive/03_hokudai/1997/1997_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$を実数として，
+$a$を実数として，
 関数$f(x)=\{ x^2-(a+2)x+a+2 \}e^x$を考える．
 \begin{description}
 \item[(1)]$a\neq0$のとき，$f(x)$の極小値を$b$とする．

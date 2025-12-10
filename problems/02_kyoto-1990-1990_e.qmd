@@ -3,6 +3,7 @@ title: "京都大学 1990年 1990_e"
 problem_id: "02_kyoto-1990-1990_e"
 university: "京都大学"
 exam_year: "1990"
+problem_number: 5
 source_tex: "archive/02_kyoto/1990/1990_e.tex"
 pdf_source: "archive/02_kyoto/1990/1990_e.pdf"
 page_image: "archive/02_kyoto/1990/1990_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　平面上に2つの円$C$，$C'$がある．1次変換$f$は逆変換をもち，かつ$C$を$C'$にうつしている．
+平面上に2つの円$C$，$C'$がある．1次変換$f$は逆変換をもち，かつ$C$を$C'$にうつしている．
 \begin{description}
 \item[(1)]$l$を$C$上の1点$P$における接線とする．
 このとき$l$の$f$による像$l'$は点$f(P)$における$C'$の接線である．

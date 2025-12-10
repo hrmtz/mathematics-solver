@@ -3,6 +3,7 @@ title: "北海道大学 2023年 2023_3"
 problem_id: "03_hokudai-2023-2023_3"
 university: "北海道大学"
 exam_year: "2023"
+problem_number: 3
 source_tex: "archive/03_hokudai/2023/2023_3.tex"
 pdf_source: "archive/03_hokudai/2023/2023_3.pdf"
 page_image: "archive/03_hokudai/2023/2023_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　以下の問いに答えよ。ただし，$e$は自然対数の底を表す。
+以下の問いに答えよ。ただし，$e$は自然対数の底を表す。
 \begin{description}
 \item[(1)]$k$を実数の定数とし，$f(x)=xe^{-x}$とおく。
 方程式$f(x)=k$の異なる実数解の個数を求めよ。

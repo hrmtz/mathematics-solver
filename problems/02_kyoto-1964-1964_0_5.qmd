@@ -3,6 +3,7 @@ title: "京都大学 1964年 1964_0_5"
 problem_id: "02_kyoto-1964-1964_0_5"
 university: "京都大学"
 exam_year: "1964"
+problem_number: 5
 source_tex: "archive/02_kyoto/1964/1964_0_5.tex"
 pdf_source: "archive/02_kyoto/1964/1964_0_5.pdf"
 page_image: "archive/02_kyoto/1964/1964_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$a$，$b$は1でない正の数とする．
+$a$，$b$は1でない正の数とする．
 $x$の2次方程式$\displaystyle x^2-{(\log_ab)}^2x+\log_a \left( \frac{1}{b^2} \right) =0$がある．
 \begin{description}
 \item[(イ)]この方程式が$\displaystyle \log_b \left( \frac{1}{a} \right)$より大きい2根(重根でもよい)を

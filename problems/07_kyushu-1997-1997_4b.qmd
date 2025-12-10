@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_4b"
 problem_id: "07_kyushu-1997-1997_4b"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/07_kyushu/1997/1997_4b.tex"
 pdf_source: "archive/07_kyushu/1997/1997_4b.pdf"
 page_image: "archive/07_kyushu/1997/1997_4b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　複素数平面において，点$z$に関する次の条件を考える．
+複素数平面において，点$z$に関する次の条件を考える．
 　「原点と異なる点$\alpha$を中心として点$z$を角$\theta$だけ回転すると，
 移った点の絶対値が$\alpha$の絶対値の$\displaystyle\frac{1}{2}$になる」
 \begin{description}

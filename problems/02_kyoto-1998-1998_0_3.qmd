@@ -3,6 +3,7 @@ title: "京都大学 1998年 1998_0_3"
 problem_id: "02_kyoto-1998-1998_0_3"
 university: "京都大学"
 exam_year: "1998"
+problem_number: 3
 source_tex: "archive/02_kyoto/1998/1998_0_3.tex"
 pdf_source: "archive/02_kyoto/1998/1998_0_3.pdf"
 page_image: "archive/02_kyoto/1998/1998_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$a$，$b$は実数で$a \neq b$，$ab \neq 0$とする．
+$a$，$b$は実数で$a \neq b$，$ab \neq 0$とする．
 このとき不等式$\displaystyle\frac{x-b}{x+a}-\frac{x-a}{x+b}>\frac{x+a}{x-b}-\frac{x+b}{x-a}$
 を満たす実数$x$の範囲を求めよ．
 

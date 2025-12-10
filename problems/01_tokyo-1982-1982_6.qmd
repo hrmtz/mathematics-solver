@@ -3,6 +3,7 @@ title: "東京大学 1982年 1982_6"
 problem_id: "01_tokyo-1982-1982_6"
 university: "東京大学"
 exam_year: "1982"
+problem_number: 6
 source_tex: "archive/01_tokyo/1982/1982_6.tex"
 pdf_source: "archive/01_tokyo/1982/1982_6.pdf"
 page_image: "archive/01_tokyo/1982/1982_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　サイコロが1の目を上面にして置いてある．
+サイコロが1の目を上面にして置いてある．
 向かいあった一組の面の中心を通る直線のまわりに90$^\circ$回転する操作をくりかえすことにより，
 サイコロの置きかたを変えていく．
 ただし，各回ごとに，回転軸および回転する向きの選びかたは，それぞれ同様に確からしいとする．

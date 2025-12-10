@@ -3,6 +3,7 @@ title: "東京大学 1994年 1994_3"
 problem_id: "01_tokyo-1994-1994_3"
 university: "東京大学"
 exam_year: "1994"
+problem_number: 3
 source_tex: "archive/01_tokyo/1994/1994_3.tex"
 pdf_source: "archive/01_tokyo/1994/1994_3.pdf"
 page_image: "archive/01_tokyo/1994/1994_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$xyz$空間において条件
+$xyz$空間において条件
 \[ x^2+y^2 \leqq z^2, \hspace{1zw} z^2 \leqq x, \hspace{1zw} 0 \leqq z \leqq 1 \]
 を満たす点$P(x,y,z)$の全体からなる立体を考える．
 この立体の体積を$V$とし，

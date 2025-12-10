@@ -3,6 +3,7 @@ title: "東北大学 1993年 1993_b"
 problem_id: "04_tohoku-1993-1993_b"
 university: "東北大学"
 exam_year: "1993"
+problem_number: 2
 source_tex: "archive/04_tohoku/1993/1993_b.tex"
 pdf_source: "archive/04_tohoku/1993/1993_b.pdf"
 page_image: "archive/04_tohoku/1993/1993_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　行列$A=\begin{pmatrix} a & -a 
+行列$A=\begin{pmatrix} a & -a 
 
  b & b \end{pmatrix}$によって定まる1次変換を$f$とおき，
 原点$O$と異なる2点$P_1(x_1, \, y_1)$，$P_2(x_2, \, y_2)$の$f$による像を${P_1}'$，${P_2}'$と表す．

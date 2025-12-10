@@ -3,6 +3,7 @@ title: "東北大学 1973年 1973_3"
 problem_id: "04_tohoku-1973-1973_3"
 university: "東北大学"
 exam_year: "1973"
+problem_number: 3
 source_tex: "archive/04_tohoku/1973/1973_3.tex"
 pdf_source: "archive/04_tohoku/1973/1973_3.pdf"
 page_image: "archive/04_tohoku/1973/1973_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　数列$\{ \theta_n \}$は
+数列$\{ \theta_n \}$は
 \[ \theta_1=0, \hspace{1zw} \sin\theta_{n+1}=a\sin\theta_n+b\cos\theta_n \hspace{1zw} (n=1, \, 2, \, \cdots\cdots) \]
 であたえられ，
 $\displaystyle-\frac{\pi}{2}\leqq\theta_n\leqq\frac{\pi}{2}$

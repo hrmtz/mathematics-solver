@@ -3,6 +3,7 @@ title: "東京大学 2003年 2003_0_1"
 problem_id: "01_tokyo-2003-2003_0_1"
 university: "東京大学"
 exam_year: "2003"
+problem_number: 1
 source_tex: "archive/01_tokyo/2003/2003_0_1.tex"
 pdf_source: "archive/01_tokyo/2003/2003_0_1.pdf"
 page_image: "archive/01_tokyo/2003/2003_0_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$a$，$b$，$c$を実数とし，$a\neq0$とする．
+$a$，$b$，$c$を実数とし，$a\neq0$とする．
 2次関数$f(x)=ax^2+bx+c$が次の条件(A)，(B)を満たすとする．
 \begin{description}
 \item[(A)]$f(-1)=-1$，$f(1)=1$，$f'(1)\leqq6$

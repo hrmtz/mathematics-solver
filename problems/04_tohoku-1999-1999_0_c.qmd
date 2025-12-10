@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_0_c"
 problem_id: "04_tohoku-1999-1999_0_c"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/04_tohoku/1999/1999_0_c.tex"
 pdf_source: "archive/04_tohoku/1999/1999_0_c.pdf"
 page_image: "archive/04_tohoku/1999/1999_0_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面において，不等式$y \leqq x^3-3p^2(x-2)-q$で定まる領域を$D$，
+$xy$平面において，不等式$y \leqq x^3-3p^2(x-2)-q$で定まる領域を$D$，
 不等式$1 \leqq x \leqq 2$，$y\leqq0$で定まる領域を$E$とする．
 $E$が$D$に含まれるための$p$，$q$についての条件を求めよ．
 また，この条件をみたす$(p, \, q)$の領域を$pq$平面に図示せよ．

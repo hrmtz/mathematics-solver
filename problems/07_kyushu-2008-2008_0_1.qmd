@@ -3,6 +3,7 @@ title: "九州大学 2008年 2008_0_1"
 problem_id: "07_kyushu-2008-2008_0_1"
 university: "九州大学"
 exam_year: "2008"
+problem_number: 1
 source_tex: "archive/07_kyushu/2008/2008_0_1.tex"
 pdf_source: "archive/07_kyushu/2008/2008_0_1.pdf"
 page_image: "archive/07_kyushu/2008/2008_0_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　自然数$n$に対して，
+自然数$n$に対して，
 $a_n=(\cos2^n)(\cos2^{n-1})\cdots(\cos2)(\cos1)$とおく．
 ただし，角の大きさを表すのに弧度法を用いる．
 このとき，次の問いに答えよ．

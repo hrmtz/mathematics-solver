@@ -3,6 +3,7 @@ title: "名古屋大学 2006年 2006_d"
 problem_id: "05_nagoya-2006-2006_d"
 university: "名古屋大学"
 exam_year: "2006"
+problem_number: 4
 source_tex: "archive/05_nagoya/2006/2006_d.tex"
 pdf_source: "archive/05_nagoya/2006/2006_d.pdf"
 page_image: "archive/05_nagoya/2006/2006_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　コインを投げた結果に基づき$xy$平面上の点$Q(x, \, y)$を動かすものとする．
+コインを投げた結果に基づき$xy$平面上の点$Q(x, \, y)$を動かすものとする．
 最初，点$Q$は原点にあり，
 コインを投げて表がでれば$x$座標を1増加させ，裏が出れば$y$座標を1増加させる．
 点$Q$が直線$x=a$あるいは直線$y=a$のいずれかの上に達するまでこの試行を繰り返す．

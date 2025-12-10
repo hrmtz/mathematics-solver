@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_c"
 problem_id: "02_kyoto-1999-1999_c"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/02_kyoto/1999/1999_c.tex"
 pdf_source: "archive/02_kyoto/1999/1999_c.pdf"
 page_image: "archive/02_kyoto/1999/1999_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$\alpha$を正の定数として，数列$a_n$，$b_n$ $(n\geqq1)$を次の式で定める．
+$\alpha$を正の定数として，数列$a_n$，$b_n$ $(n\geqq1)$を次の式で定める．
 \begin{description}
 \item[]$2a_{n+1}=\alpha(3{a_n}^2+2a_nb_n-{b_n}^2-a_n+b_n)$
 \item[]$2b_{n+1}=\alpha(-{a_n}^2-2a_nb_n-{b_n}^2-a_n+b_n)$

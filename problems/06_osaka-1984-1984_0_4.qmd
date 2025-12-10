@@ -3,6 +3,7 @@ title: "大阪大学 1984年 1984_0_4"
 problem_id: "06_osaka-1984-1984_0_4"
 university: "大阪大学"
 exam_year: "1984"
+problem_number: 4
 source_tex: "archive/06_osaka/1984/1984_0_4.tex"
 pdf_source: "archive/06_osaka/1984/1984_0_4.pdf"
 page_image: "archive/06_osaka/1984/1984_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$r>0$，$0\leqq\theta<2\pi$として，行列
+$r>0$，$0\leqq\theta<2\pi$として，行列
 \[ A=\begin{pmatrix} r\cos\theta & -r\sin\theta 
 
  r\sin\theta & r\cos\theta \end{pmatrix} \]

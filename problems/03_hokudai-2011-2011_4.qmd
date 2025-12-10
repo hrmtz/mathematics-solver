@@ -3,6 +3,7 @@ title: "北海道大学 2011年 2011_4"
 problem_id: "03_hokudai-2011-2011_4"
 university: "北海道大学"
 exam_year: "2011"
+problem_number: 4
 source_tex: "archive/03_hokudai/2011/2011_4.tex"
 pdf_source: "archive/03_hokudai/2011/2011_4.pdf"
 page_image: "archive/03_hokudai/2011/2011_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$n$を2以上の自然数，$q$と$r$を自然数とする．
+$n$を2以上の自然数，$q$と$r$を自然数とする．
 1から$nq$までの番号がついた$nq$個の白玉，1から$nr$までの番号がついた$nr$個の赤玉を用意する．
 これら白玉と赤玉を，1番から$n$番まで番号づけられた$n$個の箱それぞれに，
 小さい番号から順に白玉は$q$個ずつ，赤玉は$r$個ずつ配分しておく．

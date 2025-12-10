@@ -3,6 +3,7 @@ title: "東京大学 1992年 1992_8"
 problem_id: "01_tokyo-1992-1992_8"
 university: "東京大学"
 exam_year: "1992"
+problem_number: 2
 source_tex: "archive/01_tokyo/1992/1992_8.tex"
 pdf_source: "archive/01_tokyo/1992/1992_8.pdf"
 page_image: "archive/01_tokyo/1992/1992_8.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]空間内の直線$L$を共通の境界線とし，
 角$\theta$で交わる2つの半平面$H_1$，$H_2$がある．

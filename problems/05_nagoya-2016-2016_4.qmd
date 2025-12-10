@@ -3,6 +3,7 @@ title: "名古屋大学 2016年 2016_4"
 problem_id: "05_nagoya-2016-2016_4"
 university: "名古屋大学"
 exam_year: "2016"
+problem_number: 4
 source_tex: "archive/05_nagoya/2016/2016_4.tex"
 pdf_source: "archive/05_nagoya/2016/2016_4.pdf"
 page_image: "archive/05_nagoya/2016/2016_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　次の問に答えよ。ただし2次方程式の重解は2つと数える。
+次の問に答えよ。ただし2次方程式の重解は2つと数える。
 \begin{description}
 \item[(1)]次の条件（＊）を満たす整数$a, \, b, \, c, \, d, \, e, \, f$の組をすべて求めよ。
 

@@ -3,6 +3,7 @@ title: "名古屋大学 1992年 1992_1"
 problem_id: "05_nagoya-1992-1992_1"
 university: "名古屋大学"
 exam_year: "1992"
+problem_number: 1
 source_tex: "archive/05_nagoya/1992/1992_1.tex"
 pdf_source: "archive/05_nagoya/1992/1992_1.pdf"
 page_image: "archive/05_nagoya/1992/1992_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の条件を満たす実数の組$(a, \,b)$が動く範囲を図示せよ．
+次の条件を満たす実数の組$(a, \,b)$が動く範囲を図示せよ．
 \begin{description}
 \item[条件：]行列$A=\begin{pmatrix} a & b 
 

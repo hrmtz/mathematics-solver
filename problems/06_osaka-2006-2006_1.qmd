@@ -3,6 +3,7 @@ title: "大阪大学 2006年 2006_1"
 problem_id: "06_osaka-2006-2006_1"
 university: "大阪大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/06_osaka/2006/2006_1.tex"
 pdf_source: "archive/06_osaka/2006/2006_1.pdf"
 page_image: "archive/06_osaka/2006/2006_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　曲線$y=x\sin^2x$と直線$y=x$の共有点のうち，$x$座標が正のものを，
+曲線$y=x\sin^2x$と直線$y=x$の共有点のうち，$x$座標が正のものを，
 $x$座標が小さいものから順に$A_1, \, A_2, \, A_3, \, \cdots$とし，
 第$n$番目の点を$A_n$とする．
 以下の問いに答えよ．

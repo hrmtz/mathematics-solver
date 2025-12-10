@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_2"
 problem_id: "02_kyoto-1995-1995_2"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/02_kyoto/1995/1995_2.tex"
 pdf_source: "archive/02_kyoto/1995/1995_2.pdf"
 page_image: "archive/02_kyoto/1995/1995_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$a$，$b$は$a>b$をみたす自然数とし，$p$，$d$は素数で$p>2$とする．
+$a$，$b$は$a>b$をみたす自然数とし，$p$，$d$は素数で$p>2$とする．
 このとき，$a^p-b^p=d$であるならば，$d$を$2p$で割った余りが1であることを示せ．
 
 ---

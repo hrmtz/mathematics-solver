@@ -3,6 +3,7 @@ title: "東北大学 2020年 2020_1"
 problem_id: "04_tohoku-2020-2020_1"
 university: "東北大学"
 exam_year: "2020"
+problem_number: 1
 source_tex: "archive/04_tohoku/2020/2020_1.tex"
 pdf_source: "archive/04_tohoku/2020/2020_1.pdf"
 page_image: "archive/04_tohoku/2020/2020_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$AB=1$，$AC=1$，$\displaystyle BC=\frac{1}{2}$である$\triangle ABC$の
+$AB=1$，$AC=1$，$\displaystyle BC=\frac{1}{2}$である$\triangle ABC$の
 頂点$B$から辺$AC$に下ろした垂線と辺$AC$との交点を$H$とする。
 \begin{description}
 \item[(1)]$\angle BAC$を$\theta$と表すとき，

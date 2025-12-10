@@ -3,6 +3,7 @@ title: "京都大学 1996年 1996_0_5"
 problem_id: "02_kyoto-1996-1996_0_5"
 university: "京都大学"
 exam_year: "1996"
+problem_number: 5
 source_tex: "archive/02_kyoto/1996/1996_0_5.tex"
 pdf_source: "archive/02_kyoto/1996/1996_0_5.pdf"
 page_image: "archive/02_kyoto/1996/1996_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　点$O$を中心とする円周の6等分点を$P_1,P_2,\cdots,P_6$とする．
+点$O$を中心とする円周の6等分点を$P_1,P_2,\cdots,P_6$とする．
 サイコロを3回振り，出た目が順に$i$，$j$，$k$のときの得点を次のように定める．
 $i$，$j$，$k$の中に同じものがあれば0点とする．
 $i$，$j$，$k$がすべて異なるときは，

@@ -3,6 +3,7 @@ title: "東北大学 2021年 2021_a"
 problem_id: "04_tohoku-2021-2021_a"
 university: "東北大学"
 exam_year: "2021"
+problem_number: 1
 source_tex: "archive/04_tohoku/2021/2021_a.tex"
 pdf_source: "archive/04_tohoku/2021/2021_a.pdf"
 page_image: "archive/04_tohoku/2021/2021_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　整数$m$が与えられたとき，整数$k, \, l$についての方程式
+整数$m$が与えられたとき，整数$k, \, l$についての方程式
 \begin{description}
 \item[(＊)]$48k+18l=m$
 \end{description}

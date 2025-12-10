@@ -3,6 +3,7 @@ title: "大阪大学 1988年 1988_0_c"
 problem_id: "06_osaka-1988-1988_0_c"
 university: "大阪大学"
 exam_year: "1988"
+problem_number: 3
 source_tex: "archive/06_osaka/1988/1988_0_c.tex"
 pdf_source: "archive/06_osaka/1988/1988_0_c.pdf"
 page_image: "archive/06_osaka/1988/1988_0_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　座標平面上の3点$A(0, \, \sqrt3)$，$B(-1, \, 0)$，$C(1, \, 0)$を頂点とする正三角形$ABC$の
+座標平面上の3点$A(0, \, \sqrt3)$，$B(-1, \, 0)$，$C(1, \, 0)$を頂点とする正三角形$ABC$の
 辺$BC$，$CA$，$AB$上にそれぞれ点$D$，$E$，$F$があり，$BD=CE=AF$を満たしている．
 \begin{description}
 \item[(1)]$BD=t$のとき，$E$と$F$の座標を$t$を用いて表せ．

@@ -3,6 +3,7 @@ title: "大阪大学 2010年 2010_0_3"
 problem_id: "06_osaka-2010-2010_0_3"
 university: "大阪大学"
 exam_year: "2010"
+problem_number: 3
 source_tex: "archive/06_osaka/2010/2010_0_3.tex"
 pdf_source: "archive/06_osaka/2010/2010_0_3.pdf"
 page_image: "archive/06_osaka/2010/2010_0_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]不等式${(|x|-2)}^2+{(|y|-2)}^2\leqq1$の表す領域を$xy$平面上に図示せよ．
 \item[(2)]1個のさいころを4回投げ，$n$回目$(n=1, \, 2, \, 3, \, 4)$に出た目の数を$a_n$とする．

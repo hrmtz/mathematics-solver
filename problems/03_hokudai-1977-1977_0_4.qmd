@@ -3,6 +3,7 @@ title: "北海道大学 1977年 1977_0_4"
 problem_id: "03_hokudai-1977-1977_0_4"
 university: "北海道大学"
 exam_year: "1977"
+problem_number: 4
 source_tex: "archive/03_hokudai/1977/1977_0_4.tex"
 pdf_source: "archive/03_hokudai/1977/1977_0_4.pdf"
 page_image: "archive/03_hokudai/1977/1977_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$xy$平面において$O(0, \, 0)$，$A_t(at, \, 0)$，$\displaystyle B_t \left( at, \, \frac{a}{t} \right)$を頂点にもつ
+$xy$平面において$O(0, \, 0)$，$A_t(at, \, 0)$，$\displaystyle B_t \left( at, \, \frac{a}{t} \right)$を頂点にもつ
 $\triangle OA_tB_t$の重心を$G_t$とする．ただし，$a$，$t$は正の実数とする．
 \begin{description}
 \item[(1)]点$G_t$の座標を求めよ．

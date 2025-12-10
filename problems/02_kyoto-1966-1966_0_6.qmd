@@ -3,6 +3,7 @@ title: "京都大学 1966年 1966_0_6"
 problem_id: "02_kyoto-1966-1966_0_6"
 university: "京都大学"
 exam_year: "1966"
+problem_number: 6
 source_tex: "archive/02_kyoto/1966/1966_0_6.tex"
 pdf_source: "archive/02_kyoto/1966/1966_0_6.pdf"
 page_image: "archive/02_kyoto/1966/1966_0_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　三角形$ABC$において，$\angle BAC=\alpha$は鋭角，$AB=2AC$とし，辺$BC$の中点を$D$，$\angle BAD=\delta$とする．
+三角形$ABC$において，$\angle BAC=\alpha$は鋭角，$AB=2AC$とし，辺$BC$の中点を$D$，$\angle BAD=\delta$とする．
 そのとき
 \begin{description}
 \item[(i)]等式$\sin(\alpha-\delta)=2\sin\delta$を示せ．

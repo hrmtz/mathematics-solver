@@ -3,6 +3,7 @@ title: "九州大学 1986年 1986_6"
 problem_id: "07_kyushu-1986-1986_6"
 university: "九州大学"
 exam_year: "1986"
+problem_number: 6
 source_tex: "archive/07_kyushu/1986/1986_6.tex"
 pdf_source: "archive/07_kyushu/1986/1986_6.pdf"
 page_image: "archive/07_kyushu/1986/1986_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　関数$f(x)$は微分可能で，$x>0$のとき$f(x)>0$である．
+関数$f(x)$は微分可能で，$x>0$のとき$f(x)>0$である．
 曲線$y=f(x)$上の任意の点$P(x, \, f(x))$ $(x>0)$から$x$軸，$y$軸へ下ろした垂線の足を
 それぞれ$Q$，$R$とし，原点を$O$とする．
 区間$[0, \, x]$上でこの曲線と$x$軸とではさまれた部分の面積は，

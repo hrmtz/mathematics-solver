@@ -3,6 +3,7 @@ title: "東京大学 2021年 2021_0_2"
 problem_id: "01_tokyo-2021-2021_0_2"
 university: "東京大学"
 exam_year: "2021"
+problem_number: 2
 source_tex: "archive/01_tokyo/2021/2021_0_2.tex"
 pdf_source: "archive/01_tokyo/2021/2021_0_2.pdf"
 page_image: "archive/01_tokyo/2021/2021_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$N$を5以上の整数とする。1以上$2N$以下の整数から，
+$N$を5以上の整数とする。1以上$2N$以下の整数から，
 相異なる$N$個の整数を選ぶ。ただし1は必ず選ぶこととする。
 選んだ数の集合を$S$とし，$S$に関する以下の条件を考える。
 \begin{description}

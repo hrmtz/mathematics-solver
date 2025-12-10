@@ -3,6 +3,7 @@ title: "京都大学 2021年 2021_0_3"
 problem_id: "02_kyoto-2021-2021_0_3"
 university: "京都大学"
 exam_year: "2021"
+problem_number: 3
 source_tex: "archive/02_kyoto/2021/2021_0_3.tex"
 pdf_source: "archive/02_kyoto/2021/2021_0_3.pdf"
 page_image: "archive/02_kyoto/2021/2021_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$n$を2以上の整数とする．1から$n$までの番号が付いた$n$個の箱があり，
+$n$を2以上の整数とする．1から$n$までの番号が付いた$n$個の箱があり，
 それぞれの箱には赤玉と白玉が1個ずつ入っている．
 このとき操作(＊)を$k=1, \, \cdots, \, n-1$に対して，$k$が小さい方から順に1回ずつ行う．
 \begin{description}

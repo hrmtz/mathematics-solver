@@ -3,6 +3,7 @@ title: "北海道大学 2010年 2010_1"
 problem_id: "03_hokudai-2010-2010_1"
 university: "北海道大学"
 exam_year: "2010"
+problem_number: 1
 source_tex: "archive/03_hokudai/2010/2010_1.tex"
 pdf_source: "archive/03_hokudai/2010/2010_1.pdf"
 page_image: "archive/03_hokudai/2010/2010_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$を正の実数とし，2つの放物線$C_1:y=x^2$，$C_2:y=x^2-4ax+4a$を考える．
+$a$を正の実数とし，2つの放物線$C_1:y=x^2$，$C_2:y=x^2-4ax+4a$を考える．
 \begin{description}
 \item[(1)]$C_1$と$C_2$の両方に接する直線$l$の方程式を求めよ．
 \item[(2)]2つの放物線$C_1$，$C_2$と直線$l$で囲まれた図形の面積を求めよ．

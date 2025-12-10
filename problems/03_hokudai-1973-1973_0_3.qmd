@@ -3,6 +3,7 @@ title: "北海道大学 1973年 1973_0_3"
 problem_id: "03_hokudai-1973-1973_0_3"
 university: "北海道大学"
 exam_year: "1973"
+problem_number: 3
 source_tex: "archive/03_hokudai/1973/1973_0_3.tex"
 pdf_source: "archive/03_hokudai/1973/1973_0_3.pdf"
 page_image: "archive/03_hokudai/1973/1973_0_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$1, \, 2, \, \cdots\cdots, \, 9$の9個の数字から，
 異なる3個の数字を取り出して3けたの整数をつくるとき，

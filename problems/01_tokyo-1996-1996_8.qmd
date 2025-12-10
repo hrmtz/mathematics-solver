@@ -3,6 +3,7 @@ title: "東京大学 1996年 1996_8"
 problem_id: "01_tokyo-1996-1996_8"
 university: "東京大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/01_tokyo/1996/1996_8.tex"
 pdf_source: "archive/01_tokyo/1996/1996_8.pdf"
 page_image: "archive/01_tokyo/1996/1996_8.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　3辺の長さが$BC=2a$，$CA=2b$，$AB=2c$であるような鋭角三角形$\triangle ABC$の
+3辺の長さが$BC=2a$，$CA=2b$，$AB=2c$であるような鋭角三角形$\triangle ABC$の
 3辺$BC$，$CA$，$AB$の中点をそれぞれ$L$，$M$，$N$とする．
 線分$LM$，$MN$，$NL$に沿って三角形を折り曲げ，四面体をつくる．
 その際，線分$BL$と$CL$，$CM$と$AM$，$AN$と$BN$はそれぞれ同一視されて，

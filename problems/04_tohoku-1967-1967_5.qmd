@@ -3,6 +3,7 @@ title: "東北大学 1967年 1967_5"
 problem_id: "04_tohoku-1967-1967_5"
 university: "東北大学"
 exam_year: "1967"
+problem_number: 5
 source_tex: "archive/04_tohoku/1967/1967_5.tex"
 pdf_source: "archive/04_tohoku/1967/1967_5.pdf"
 page_image: "archive/04_tohoku/1967/1967_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　次の条件を満たす関数を$f(x)$で表わす．
+次の条件を満たす関数を$f(x)$で表わす．
 \begin{description}
 \item[（イ）]$f(x)$は$x$の4次の整式である．
 \item[（ロ）]曲線$y=f(x)$は2点$O(0, \, 0)$，$\displaystyle A \left( 1, \, \frac{1}{12} \right)$を通る．

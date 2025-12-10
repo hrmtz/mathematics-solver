@@ -3,6 +3,7 @@ title: "九州大学 2020年 2020_1"
 problem_id: "07_kyushu-2020-2020_1"
 university: "九州大学"
 exam_year: "2020"
+problem_number: 1
 source_tex: "archive/07_kyushu/2020/2020_1.tex"
 pdf_source: "archive/07_kyushu/2020/2020_1.pdf"
 page_image: "archive/07_kyushu/2020/2020_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　点$(a, \, 0)$を通り，曲線$y=e^{-x}-e^{-2x}$に接する直線が存在するような
+点$(a, \, 0)$を通り，曲線$y=e^{-x}-e^{-2x}$に接する直線が存在するような
 定数$a$の値の範囲を求めよ。
 
 ---

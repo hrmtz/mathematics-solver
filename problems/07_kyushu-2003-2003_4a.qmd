@@ -3,6 +3,7 @@ title: "九州大学 2003年 2003_4a"
 problem_id: "07_kyushu-2003-2003_4a"
 university: "九州大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/07_kyushu/2003/2003_4a.tex"
 pdf_source: "archive/07_kyushu/2003/2003_4a.pdf"
 page_image: "archive/07_kyushu/2003/2003_4a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (a)
-　空間内に四面体$OABC$があり
+空間内に四面体$OABC$があり
 $\angle AOB, \, \angle BOC, \, \angle COA$はすべて${90}^\circ$であるとする．
 辺$OA, \, OB, \, OC$の長さを，それぞれ$a, \, b, \, c$とし，
 三角形$ABC$の重心を$G$とする．

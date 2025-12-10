@@ -3,6 +3,7 @@ title: "京都大学 2004年 2004_c"
 problem_id: "02_kyoto-2004-2004_c"
 university: "京都大学"
 exam_year: "2004"
+problem_number: 3
 source_tex: "archive/02_kyoto/2004/2004_c.tex"
 pdf_source: "archive/02_kyoto/2004/2004_c.pdf"
 page_image: "archive/02_kyoto/2004/2004_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　平面ベクトル$\vec{x}$に対して実数$f(\vec{x})$を対応させる写像$f(\vec{x})$が次の性質(＊)を持っている．
+平面ベクトル$\vec{x}$に対して実数$f(\vec{x})$を対応させる写像$f(\vec{x})$が次の性質(＊)を持っている．
 \begin{description}
 \item[(＊)]任意の平面ベクトル$\vec{a}$，$\vec{b}$に対して，$f(\vec{a}+\vec{b})=f(\vec{a})+f(\vec{b})$が成り立つ．
 \end{description}

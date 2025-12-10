@@ -3,6 +3,7 @@ title: "東北大学 2006年 2006_1"
 problem_id: "04_tohoku-2006-2006_1"
 university: "東北大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/04_tohoku/2006/2006_1.tex"
 pdf_source: "archive/04_tohoku/2006/2006_1.pdf"
 page_image: "archive/04_tohoku/2006/2006_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　連立不等式$x^2-6x+y^2+5\leqq0$，$x+y\leqq5$の表す領域$D$を図示せよ．
+連立不等式$x^2-6x+y^2+5\leqq0$，$x+y\leqq5$の表す領域$D$を図示せよ．
 また，曲線$x^2+y^2-2ax-2y+a^2=0$が$D$の点を通るような実数$a$の最大値と最小値を求めよ．
 
 ---

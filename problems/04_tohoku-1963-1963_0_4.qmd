@@ -3,6 +3,7 @@ title: "東北大学 1963年 1963_0_4"
 problem_id: "04_tohoku-1963-1963_0_4"
 university: "東北大学"
 exam_year: "1963"
+problem_number: 4
 source_tex: "archive/04_tohoku/1963/1963_0_4.tex"
 pdf_source: "archive/04_tohoku/1963/1963_0_4.pdf"
 page_image: "archive/04_tohoku/1963/1963_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　2点$\displaystyle A \left( 1, \, \frac{1-\cos\theta}{\sin\theta} \right)$，
+2点$\displaystyle A \left( 1, \, \frac{1-\cos\theta}{\sin\theta} \right)$，
 $\displaystyle B \left( -1, \, \frac{1+\cos\theta}{\sin\theta} \right)$を通り，
 $x$軸を準線とする放物線がある。
 \begin{description}

@@ -3,6 +3,7 @@ title: "東北大学 2006年 2006_4"
 problem_id: "04_tohoku-2006-2006_4"
 university: "東北大学"
 exam_year: "2006"
+problem_number: 4
 source_tex: "archive/04_tohoku/2006/2006_4.tex"
 pdf_source: "archive/04_tohoku/2006/2006_4.pdf"
 page_image: "archive/04_tohoku/2006/2006_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$x>0$において，
+$x>0$において，
 関数$\displaystyle f(x)=x\sin\frac{\pi}{x}$を考える．
 関数$f(x)$の導関数を$f'(x)$と書くことにし，
 以下の問に答えよ．

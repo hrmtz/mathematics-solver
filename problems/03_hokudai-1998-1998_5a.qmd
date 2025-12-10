@@ -3,6 +3,7 @@ title: "北海道大学 1998年 1998_5a"
 problem_id: "03_hokudai-1998-1998_5a"
 university: "北海道大学"
 exam_year: "1998"
+problem_number: 5
 source_tex: "archive/03_hokudai/1998/1998_5a.tex"
 pdf_source: "archive/03_hokudai/1998/1998_5a.pdf"
 page_image: "archive/03_hokudai/1998/1998_5a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5 (a)
-　$\displaystyle\frac{z}{2}+\frac{1}{z}$が0以上2以下の実数であるような複素数$z$ $(z\neq0)$を表す
+$\displaystyle\frac{z}{2}+\frac{1}{z}$が0以上2以下の実数であるような複素数$z$ $(z\neq0)$を表す
 複素数平面上の点の集合を，式で表し，図示せよ．
 
 ---

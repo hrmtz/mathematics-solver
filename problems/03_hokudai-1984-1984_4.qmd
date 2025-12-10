@@ -3,6 +3,7 @@ title: "北海道大学 1984年 1984_4"
 problem_id: "03_hokudai-1984-1984_4"
 university: "北海道大学"
 exam_year: "1984"
+problem_number: 4
 source_tex: "archive/03_hokudai/1984/1984_4.tex"
 pdf_source: "archive/03_hokudai/1984/1984_4.pdf"
 page_image: "archive/03_hokudai/1984/1984_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　曲線$\displaystyle y=\frac{1}{\sqrt2}\sin x$と$x$軸上に中心をもつ円$C$が，
+曲線$\displaystyle y=\frac{1}{\sqrt2}\sin x$と$x$軸上に中心をもつ円$C$が，
 点$\displaystyle A \left( a, \, \frac{1}{\sqrt2}\sin a \right)$において
 同一の直線に接しているものとする．
 ただし，$\displaystyle0<a<\frac{\pi}{2}$とする．

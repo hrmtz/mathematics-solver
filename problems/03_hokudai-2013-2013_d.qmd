@@ -3,6 +3,7 @@ title: "北海道大学 2013年 2013_d"
 problem_id: "03_hokudai-2013-2013_d"
 university: "北海道大学"
 exam_year: "2013"
+problem_number: 4
 source_tex: "archive/03_hokudai/2013/2013_d.tex"
 pdf_source: "archive/03_hokudai/2013/2013_d.pdf"
 page_image: "archive/03_hokudai/2013/2013_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　方程式$3x^2+y^2=3$で定まる楕円$E$と，
+方程式$3x^2+y^2=3$で定まる楕円$E$と，
 方程式$\displaystyle xy=\frac{3}{4}$で定まる双曲線$H$を考える。
 \begin{description}
 \item[(1)]楕円$E$と双曲線$H$の交点をすべて求めよ。

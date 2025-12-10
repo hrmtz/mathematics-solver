@@ -3,6 +3,7 @@ title: "東北大学 2015年 2015_2"
 problem_id: "04_tohoku-2015-2015_2"
 university: "東北大学"
 exam_year: "2015"
+problem_number: 2
 source_tex: "archive/04_tohoku/2015/2015_2.tex"
 pdf_source: "archive/04_tohoku/2015/2015_2.pdf"
 page_image: "archive/04_tohoku/2015/2015_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$xy$平面において、3次関数$y=x^3-x$のグラフを$C$とし、不等式
+$xy$平面において、3次関数$y=x^3-x$のグラフを$C$とし、不等式
 \[ x^3-x>y>-x \]
 の表す領域を$D$とする。また、$P$を$D$の点とする。
 \begin{description}

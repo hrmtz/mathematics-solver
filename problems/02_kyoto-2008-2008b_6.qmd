@@ -3,6 +3,7 @@ title: "京都大学 2008年 2008b_6"
 problem_id: "02_kyoto-2008-2008b_6"
 university: "京都大学"
 exam_year: "2008"
+problem_number: 6
 source_tex: "archive/02_kyoto/2008/2008b_6.tex"
 pdf_source: "archive/02_kyoto/2008/2008b_6.pdf"
 page_image: "archive/02_kyoto/2008/2008b_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　地球上の北緯$60^\circ$東経$135^\circ$の地点を$A$，北緯$60^\circ$東経$75^\circ$の地点を$B$とする．
+地球上の北緯$60^\circ$東経$135^\circ$の地点を$A$，北緯$60^\circ$東経$75^\circ$の地点を$B$とする．
 $A$から$B$に向かう2種類の飛行経路$R_1$，$R_2$を考える．
 $R_1$は西に向かって同一経度で飛ぶ経路とする．
 $R_2$は地球の大円に沿った経路のうち飛行距離の短い方とする．

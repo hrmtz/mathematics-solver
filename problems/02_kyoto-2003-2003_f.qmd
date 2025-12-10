@@ -3,6 +3,7 @@ title: "京都大学 2003年 2003_f"
 problem_id: "02_kyoto-2003-2003_f"
 university: "京都大学"
 exam_year: "2003"
+problem_number: 6
 source_tex: "archive/02_kyoto/2003/2003_f.tex"
 pdf_source: "archive/02_kyoto/2003/2003_f.pdf"
 page_image: "archive/02_kyoto/2003/2003_f.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　7つの文字を並べた列$a_1a_2 \cdots a_7$で，次の3つの条件をみたすものの総数を求めよ．
+7つの文字を並べた列$a_1a_2 \cdots a_7$で，次の3つの条件をみたすものの総数を求めよ．
 \begin{description}
 \item[(i)]$a_1,a_2,\cdots,a_7$は$A,B,C,D,E,F$のいずれかである
 \item[(ii)]$i=1,2,\cdots,6$に対し，$a_i$と$a_{i+1}$は相異なる

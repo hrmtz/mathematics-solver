@@ -3,6 +3,7 @@ title: "大阪大学 1991年 1991_1"
 problem_id: "06_osaka-1991-1991_1"
 university: "大阪大学"
 exam_year: "1991"
+problem_number: 1
 source_tex: "archive/06_osaka/1991/1991_1.tex"
 pdf_source: "archive/06_osaka/1991/1991_1.pdf"
 page_image: "archive/06_osaka/1991/1991_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　放物線$y=ax^2-bx+b$と直線$y=a^2x$を考える．
+放物線$y=ax^2-bx+b$と直線$y=a^2x$を考える．
 この放物線と直線は2交点$P$，$Q$をもち，
 $P$と$Q$の$x$座標の差の絶対値は1であるという．
 ただし$a>0$とする．

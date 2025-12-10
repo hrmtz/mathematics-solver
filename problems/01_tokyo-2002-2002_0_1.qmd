@@ -3,6 +3,7 @@ title: "東京大学 2002年 2002_0_1"
 problem_id: "01_tokyo-2002-2002_0_1"
 university: "東京大学"
 exam_year: "2002"
+problem_number: 1
 source_tex: "archive/01_tokyo/2002/2002_0_1.tex"
 pdf_source: "archive/01_tokyo/2002/2002_0_1.pdf"
 page_image: "archive/01_tokyo/2002/2002_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　2つの放物線
+2つの放物線
 \[ y=2\sqrt3{(x-\cos\theta)}^2+\sin\theta \]
 \[ y=-2\sqrt3{(x+\cos\theta)}^2-\sin\theta \]
 が相異なる2点で交わるような$\theta$の範囲を求めよ．

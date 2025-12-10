@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_b"
 problem_id: "04_tohoku-1999-1999_b"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 2
 source_tex: "archive/04_tohoku/1999/1999_b.tex"
 pdf_source: "archive/04_tohoku/1999/1999_b.pdf"
 page_image: "archive/04_tohoku/1999/1999_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　1辺の長さが2の正四面体$ABCD$がある．
+1辺の長さが2の正四面体$ABCD$がある．
 $G$を$\triangle BCD$の重心，$H$を$\triangle ACD$の重心とし，
 直線$AG$と$BH$の交点を$O$とする．
 \begin{description}

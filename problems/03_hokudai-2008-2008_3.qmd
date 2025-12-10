@@ -3,6 +3,7 @@ title: "北海道大学 2008年 2008_3"
 problem_id: "03_hokudai-2008-2008_3"
 university: "北海道大学"
 exam_year: "2008"
+problem_number: 3
 source_tex: "archive/03_hokudai/2008/2008_3.tex"
 pdf_source: "archive/03_hokudai/2008/2008_3.pdf"
 page_image: "archive/03_hokudai/2008/2008_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　関数$f(x)$を$\displaystyle f(x)=\frac{3x^2}{2x^2+1}$とする．
+関数$f(x)$を$\displaystyle f(x)=\frac{3x^2}{2x^2+1}$とする．
 \begin{description}
 \item[(1)]$0<x<1$ならば，$0<f(x)<1$となることを示せ．
 \item[(2)]$f(x)-x=0$となる$x$をすべて求めよ．

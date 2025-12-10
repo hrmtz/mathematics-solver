@@ -3,6 +3,7 @@ title: "大阪大学 2011年 2011_1"
 problem_id: "06_osaka-2011-2011_1"
 university: "大阪大学"
 exam_year: "2011"
+problem_number: 1
 source_tex: "archive/06_osaka/2011/2011_1.tex"
 pdf_source: "archive/06_osaka/2011/2011_1.pdf"
 page_image: "archive/06_osaka/2011/2011_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$を自然数とする．
+$a$を自然数とする．
 $O$を原点とする座標平面上で
 行列$A=\begin{pmatrix} a & -1 
 

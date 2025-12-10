@@ -3,6 +3,7 @@ title: "東北大学 1996年 1996_c"
 problem_id: "04_tohoku-1996-1996_c"
 university: "東北大学"
 exam_year: "1996"
+problem_number: 3
 source_tex: "archive/04_tohoku/1996/1996_c.tex"
 pdf_source: "archive/04_tohoku/1996/1996_c.pdf"
 page_image: "archive/04_tohoku/1996/1996_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　右の図のように，道路が碁盤の目のようになった街がある．
+右の図のように，道路が碁盤の目のようになった街がある．
 地点$A$から地点$B$までの長さが最短の道を行くとき，
 次の場合は何通りの道順があるか．
  

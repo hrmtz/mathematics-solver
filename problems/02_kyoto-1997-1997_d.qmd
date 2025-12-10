@@ -3,6 +3,7 @@ title: "京都大学 1997年 1997_d"
 problem_id: "02_kyoto-1997-1997_d"
 university: "京都大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/02_kyoto/1997/1997_d.tex"
 pdf_source: "archive/02_kyoto/1997/1997_d.pdf"
 page_image: "archive/02_kyoto/1997/1997_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　次の連立方程式(＊)を考える．
+次の連立方程式(＊)を考える．
 \[ \text{(＊)} \hspace{1zw} \begin{cases} y=2x^2-1 
 
  z=2y^2-1 

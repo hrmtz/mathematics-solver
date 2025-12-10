@@ -3,6 +3,7 @@ title: "東京科学大学 1986年 1986_2"
 problem_id: "08_titech-1986-1986_2"
 university: "東京科学大学"
 exam_year: "1986"
+problem_number: 2
 source_tex: "archive/08_titech/1986/1986_2.tex"
 pdf_source: "archive/08_titech/1986/1986_2.pdf"
 page_image: "archive/08_titech/1986/1986_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　空間内に正四面体$ABCD$がある．
+空間内に正四面体$ABCD$がある．
 頂点$A$，$B$は直線$l_1:x+y=-1, \, z=0$上にあり，
 頂点$C$，$D$は直線$\displaystyle l_2:x=y=-\frac{z-2}{2}$上にある．
 $A$の$x$座標は$B$の$x$座標より大きく，

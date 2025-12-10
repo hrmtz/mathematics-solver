@@ -3,6 +3,7 @@ title: "京都大学 2003年 2003_b"
 problem_id: "02_kyoto-2003-2003_b"
 university: "京都大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/02_kyoto/2003/2003_b.tex"
 pdf_source: "archive/02_kyoto/2003/2003_b.pdf"
 page_image: "archive/02_kyoto/2003/2003_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　一辺の長さが1の正三角形$ABC$の辺$AC$上に点$D$をとり，
+一辺の長さが1の正三角形$ABC$の辺$AC$上に点$D$をとり，
 線分$BD$に沿ってこの三角形を折り曲げ，
 4点$A$，$B$，$C$，$D$を頂点とする四面体を作り，
 その体積を最大にすることを考える．

@@ -3,6 +3,7 @@ title: "京都大学 1966年 1966_1"
 problem_id: "02_kyoto-1966-1966_1"
 university: "京都大学"
 exam_year: "1966"
+problem_number: 1
 source_tex: "archive/02_kyoto/1966/1966_1.tex"
 pdf_source: "archive/02_kyoto/1966/1966_1.pdf"
 page_image: "archive/02_kyoto/1966/1966_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　方程式$x^3+x-8=0$は
+方程式$x^3+x-8=0$は
 \begin{description}
 \item[(i)]ただ一つの実根を，1と2との間にもつことを示せ．
 \item[(ii)]この根は無理数であることを証明せよ．

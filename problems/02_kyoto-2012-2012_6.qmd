@@ -3,6 +3,7 @@ title: "京都大学 2012年 2012_6"
 problem_id: "02_kyoto-2012-2012_6"
 university: "京都大学"
 exam_year: "2012"
+problem_number: 6
 source_tex: "archive/02_kyoto/2012/2012_6.tex"
 pdf_source: "archive/02_kyoto/2012/2012_6.pdf"
 page_image: "archive/02_kyoto/2012/2012_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　さいころを$n$回投げて出た目を順に$X_1,X_2,\cdots,X_n$とする．さらに
+さいころを$n$回投げて出た目を順に$X_1,X_2,\cdots,X_n$とする．さらに
 \[ Y_1=X_1, \hspace{1zw} Y_k=X_k+\frac{1}{Y_{k-1}} \hspace{1zw} (k=2,\cdots,n) \]
 によって$Y_1,Y_2,\cdots,Y_n$を定める．
 \[ \frac{1+\sqrt3}{2} \leqq Y_n \leqq 1+\sqrt3 \]

@@ -3,6 +3,7 @@ title: "東京科学大学 ao年 2011_c"
 problem_id: "08_titech-ao-2011_c"
 university: "東京科学大学"
 exam_year: "ao"
+problem_number: 3
 source_tex: "archive/08_titech/ao/2011_c.tex"
 pdf_source: "archive/08_titech/ao/2011_c.pdf"
 page_image: "archive/08_titech/ao/2011_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$f(x^2+1)={f(x)}^2+1$をみたす$n$次の多項式$f(x)$が存在するような自然数$n$を全て求めよ．
+$f(x^2+1)={f(x)}^2+1$をみたす$n$次の多項式$f(x)$が存在するような自然数$n$を全て求めよ．
 
 ---
 

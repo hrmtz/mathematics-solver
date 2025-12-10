@@ -3,6 +3,7 @@ title: "大阪大学 1977年 1977_1"
 problem_id: "06_osaka-1977-1977_1"
 university: "大阪大学"
 exam_year: "1977"
+problem_number: 1
 source_tex: "archive/06_osaka/1977/1977_1.tex"
 pdf_source: "archive/06_osaka/1977/1977_1.pdf"
 page_image: "archive/06_osaka/1977/1977_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　実数を係数とする2つの整式$f(x)$，$g(x)$がある．
+実数を係数とする2つの整式$f(x)$，$g(x)$がある．
 いまある実数$a$に対し，${ \{ f(x) \} }^3-{ \{ g(x) \} }^3$が
 ${(x-a)}^2$で割り切れ，${(x-a)}^3$では割り切れないとすれば，
 $f(x)-g(x)$が${(x-a)}^2$で割り切れることを証明せよ．

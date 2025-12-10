@@ -3,6 +3,7 @@ title: "東京科学大学 2009年 2009_2"
 problem_id: "08_titech-2009-2009_2"
 university: "東京科学大学"
 exam_year: "2009"
+problem_number: 2
 source_tex: "archive/08_titech/2009/2009_2.tex"
 pdf_source: "archive/08_titech/2009/2009_2.pdf"
 page_image: "archive/08_titech/2009/2009_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　実数$a$に対し，次の1次変換
+実数$a$に対し，次の1次変換
 \[ f(x,y)=(ax+(a-2)y,(a-2)x+ay) \]
 を考える．
 以下の2条件をみたす直線$L$が存在するような$a$を求めよ．

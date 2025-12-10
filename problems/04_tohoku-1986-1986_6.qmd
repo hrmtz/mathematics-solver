@@ -3,6 +3,7 @@ title: "東北大学 1986年 1986_6"
 problem_id: "04_tohoku-1986-1986_6"
 university: "東北大学"
 exam_year: "1986"
+problem_number: 6
 source_tex: "archive/04_tohoku/1986/1986_6.tex"
 pdf_source: "archive/04_tohoku/1986/1986_6.pdf"
 page_image: "archive/04_tohoku/1986/1986_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　3種類の品物$A$，$B$，$C$がある．
+3種類の品物$A$，$B$，$C$がある．
 $A$を3個，$B$を2個，$C$を1個任意に選んで1つにまとめて1個の商品とする．
 次の問に答えよ．
 \begin{description}

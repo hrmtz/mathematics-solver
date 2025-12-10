@@ -3,6 +3,7 @@ title: "北海道大学 1972年 1972_0_5"
 problem_id: "03_hokudai-1972-1972_0_5"
 university: "北海道大学"
 exam_year: "1972"
+problem_number: 5
 source_tex: "archive/03_hokudai/1972/1972_0_5.tex"
 pdf_source: "archive/03_hokudai/1972/1972_0_5.pdf"
 page_image: "archive/03_hokudai/1972/1972_0_5.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(1)]$a>0$のとき$\displaystyle\lim_{n\to\infty}\frac{n}{{(1+a)}^n}=0$となることを
 証明せよ（$n$は自然数）．

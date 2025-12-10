@@ -3,6 +3,7 @@ title: "北海道大学 1987年 1987_5"
 problem_id: "03_hokudai-1987-1987_5"
 university: "北海道大学"
 exam_year: "1987"
+problem_number: 5
 source_tex: "archive/03_hokudai/1987/1987_5.tex"
 pdf_source: "archive/03_hokudai/1987/1987_5.pdf"
 page_image: "archive/03_hokudai/1987/1987_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　3個のサイコロを同時に投げる試行において，
+3個のサイコロを同時に投げる試行において，
 サイコロの目が連続した3つの自然数となる事象を$A$とする．
 この試行をくり返し行うとき，次の問に答えよ．
 \begin{description}

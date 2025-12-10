@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_0_4a"
 problem_id: "07_kyushu-2000-2000_0_4a"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/07_kyushu/2000/2000_0_4a.tex"
 pdf_source: "archive/07_kyushu/2000/2000_0_4a.pdf"
 page_image: "archive/07_kyushu/2000/2000_0_4a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (a)
-　表のでる確率が$\displaystyle\frac{1}{2}$の公平な（歪みのない）コインが$n$枚，
+表のでる確率が$\displaystyle\frac{1}{2}$の公平な（歪みのない）コインが$n$枚，
 表のでる確率が$\displaystyle\frac{3}{4}$の歪んだコインが1枚ある．
 公平なコインはそれぞれを2回投げ，2回共に表がでた場合にそのコインを用意した箱に入れる．
 また，歪んだコインは$n$回投げて$n$回すべてが表であったらその箱に入れる．

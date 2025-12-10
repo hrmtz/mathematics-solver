@@ -3,6 +3,7 @@ title: "東北大学 1981年 1981_6"
 problem_id: "04_tohoku-1981-1981_6"
 university: "東北大学"
 exam_year: "1981"
+problem_number: 6
 source_tex: "archive/04_tohoku/1981/1981_6.tex"
 pdf_source: "archive/04_tohoku/1981/1981_6.pdf"
 page_image: "archive/04_tohoku/1981/1981_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　平面上を運動する点$P$の座標$(x, \, y)$が時刻$t$のとき
+平面上を運動する点$P$の座標$(x, \, y)$が時刻$t$のとき
 \[ x=f(t)\sin t, \hspace{1zw} y=f(t)\cos t \]
 で表されている．
 $P$は$t=0$のとき$(0, \, 1)$にあり，

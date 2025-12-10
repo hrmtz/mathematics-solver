@@ -3,6 +3,7 @@ title: "九州大学 2015年 2015_0_3"
 problem_id: "07_kyushu-2015-2015_0_3"
 university: "九州大学"
 exam_year: "2015"
+problem_number: 3
 source_tex: "archive/07_kyushu/2015/2015_0_3.tex"
 pdf_source: "archive/07_kyushu/2015/2015_0_3.pdf"
 page_image: "archive/07_kyushu/2015/2015_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　袋の中に最初に赤玉2個と青玉1個が入っている。次の操作を考える。
+袋の中に最初に赤玉2個と青玉1個が入っている。次の操作を考える。
 \begin{description}
 \item[（操作）]袋から1個の玉を取り出し，
 それが赤玉ならば代わりに青玉1個を袋に入れ，青玉ならば代わりに赤玉1個を袋に入れる。

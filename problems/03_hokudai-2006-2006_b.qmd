@@ -3,6 +3,7 @@ title: "北海道大学 2006年 2006_b"
 problem_id: "03_hokudai-2006-2006_b"
 university: "北海道大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/03_hokudai/2006/2006_b.tex"
 pdf_source: "archive/03_hokudai/2006/2006_b.pdf"
 page_image: "archive/03_hokudai/2006/2006_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　実数$a$，$b$，$n$は$0<b<1<a$かつ$n\geqq2$をみたすとし
+実数$a$，$b$，$n$は$0<b<1<a$かつ$n\geqq2$をみたすとし
 \[ f(a)=\int_1^ax^{-n}dx, \hspace{1zw} g(b)=\int_b^1x^{-n}dx \]
 とおく．
 \begin{description}

@@ -3,6 +3,7 @@ title: "北海道大学 2007年 2007_0_4"
 problem_id: "03_hokudai-2007-2007_0_4"
 university: "北海道大学"
 exam_year: "2007"
+problem_number: 4
 source_tex: "archive/03_hokudai/2007/2007_0_4.tex"
 pdf_source: "archive/03_hokudai/2007/2007_0_4.pdf"
 page_image: "archive/03_hokudai/2007/2007_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$a>0$，$b\geqq0$，$0<p<1$とし，
+$a>0$，$b\geqq0$，$0<p<1$とし，
 関数$y=ax-bx^2$のグラフは定点$P(p, \, p^2)$を通るとする．
 このグラフの$0 \leqq x \leqq p$に対応する部分を$C$で表す．
 \begin{description}

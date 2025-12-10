@@ -3,6 +3,7 @@ title: "京都大学 1970年 1970_2"
 problem_id: "02_kyoto-1970-1970_2"
 university: "京都大学"
 exam_year: "1970"
+problem_number: 2
 source_tex: "archive/02_kyoto/1970/1970_2.tex"
 pdf_source: "archive/02_kyoto/1970/1970_2.pdf"
 page_image: "archive/02_kyoto/1970/1970_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　数学的帰納法によって，
+数学的帰納法によって，
 $\displaystyle { \left( \frac{n+1}{2} \right) }^n > n \, !$を証明せよ．
 ここに$n$は2以上の整数とする．
 

@@ -3,6 +3,7 @@ title: "東京大学 2011年 2011_3"
 problem_id: "01_tokyo-2011-2011_3"
 university: "東京大学"
 exam_year: "2011"
+problem_number: 3
 source_tex: "archive/01_tokyo/2011/2011_3.tex"
 pdf_source: "archive/01_tokyo/2011/2011_3.pdf"
 page_image: "archive/01_tokyo/2011/2011_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$L$を正定数とする．
+$L$を正定数とする．
 座標平面の$x$軸上の正の部分にある点$P(t,0)$に対し，
 原点$O$を中心とし点$P$を通る円周上を，
 $P$から出発して反時計回りに道のり$L$だけ進んだ点を$Q(u(t),v(t))$と表す．

@@ -3,6 +3,7 @@ title: "大阪大学 2009年 2009_0_2"
 problem_id: "06_osaka-2009-2009_0_2"
 university: "大阪大学"
 exam_year: "2009"
+problem_number: 2
 source_tex: "archive/06_osaka/2009/2009_0_2.tex"
 pdf_source: "archive/06_osaka/2009/2009_0_2.pdf"
 page_image: "archive/06_osaka/2009/2009_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上の三角形$OAB$を考え，$\overrightarrow{a}=\overrightarrow{OA}$，
+平面上の三角形$OAB$を考え，$\overrightarrow{a}=\overrightarrow{OA}$，
 $\overrightarrow{b}=\overrightarrow{OB}$，
 $\displaystyle t=\frac{|\overrightarrow{a}|}{2|\overrightarrow{b}|}$とおく．
 辺$OA$を$1:2$に内分する点を$C$とし，

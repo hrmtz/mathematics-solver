@@ -3,6 +3,7 @@ title: "東京大学 1976年 1976_1"
 problem_id: "01_tokyo-1976-1976_1"
 university: "東京大学"
 exam_year: "1976"
+problem_number: 1
 source_tex: "archive/01_tokyo/1976/1976_1.tex"
 pdf_source: "archive/01_tokyo/1976/1976_1.pdf"
 page_image: "archive/01_tokyo/1976/1976_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　負でない実数$r$，$l$に対して，
+負でない実数$r$，$l$に対して，
 $xy$平面上の曲線$y=
 \begin{cases}
 x^2 & (0 \leqq x \leqq r)

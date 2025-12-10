@@ -3,6 +3,7 @@ title: "京都大学 1997年 1997_c"
 problem_id: "02_kyoto-1997-1997_c"
 university: "京都大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/02_kyoto/1997/1997_c.tex"
 pdf_source: "archive/02_kyoto/1997/1997_c.pdf"
 page_image: "archive/02_kyoto/1997/1997_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　点$O$を中心とする半径1の球面上に4点$A$，$B$，$C$，$D$があって
+点$O$を中心とする半径1の球面上に4点$A$，$B$，$C$，$D$があって
 \[ \overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}+\overrightarrow{OD}=\vec{0} \]
 が成立しているとする．
 \begin{description}

@@ -3,6 +3,7 @@ title: "京都大学 1971年 1971_0_1"
 problem_id: "02_kyoto-1971-1971_0_1"
 university: "京都大学"
 exam_year: "1971"
+problem_number: 1
 source_tex: "archive/02_kyoto/1971/1971_0_1.tex"
 pdf_source: "archive/02_kyoto/1971/1971_0_1.pdf"
 page_image: "archive/02_kyoto/1971/1971_0_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(i)]　次の□の中に適当な数あるいは語句をいれ，その理由をしるせ．
 　$x>0$において，直線$y=ax$ $(a\text{は正数})$と曲線$xy=1$の交点を$P$とする．

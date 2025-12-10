@@ -3,6 +3,7 @@ title: "九州大学 1994年 1994_d"
 problem_id: "07_kyushu-1994-1994_d"
 university: "九州大学"
 exam_year: "1994"
+problem_number: 4
 source_tex: "archive/07_kyushu/1994/1994_d.tex"
 pdf_source: "archive/07_kyushu/1994/1994_d.pdf"
 page_image: "archive/07_kyushu/1994/1994_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　半径が$r$の円筒形の容器$V$が軸を垂直にして置かれており，
+半径が$r$の円筒形の容器$V$が軸を垂直にして置かれており，
 $V$の上面からは水が流入し，$V$の底面からは水が流出しているとする．
 その流入速度は一定値$a$であるが，
 流出速度は$V$にたまった水の深さに比例（比例定数$b$）しているものとする．

@@ -3,6 +3,7 @@ title: "東北大学 2018年 2018_0_4"
 problem_id: "04_tohoku-2018-2018_0_4"
 university: "東北大学"
 exam_year: "2018"
+problem_number: 4
 source_tex: "archive/04_tohoku/2018/2018_0_4.tex"
 pdf_source: "archive/04_tohoku/2018/2018_0_4.pdf"
 page_image: "archive/04_tohoku/2018/2018_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　空間内に四面体$ABCD$がある。
+空間内に四面体$ABCD$がある。
 辺$AB$の中点を$M$，辺$CD$の中点を$N$とする。
 $t$を0でない実数とし，点$G$を
 \[ \overrightarrow{GA}+\overrightarrow{GB}+

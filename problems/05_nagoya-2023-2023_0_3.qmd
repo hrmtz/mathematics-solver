@@ -3,6 +3,7 @@ title: "名古屋大学 2023年 2023_0_3"
 problem_id: "05_nagoya-2023-2023_0_3"
 university: "名古屋大学"
 exam_year: "2023"
+problem_number: 3
 source_tex: "archive/05_nagoya/2023/2023_0_3.tex"
 pdf_source: "archive/05_nagoya/2023/2023_0_3.pdf"
 page_image: "archive/05_nagoya/2023/2023_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　数字1が書かれた球が2個，数字2が書かれた球が2個，数字3が書かれた球が2個，数字4が書かれた球が2個，
+数字1が書かれた球が2個，数字2が書かれた球が2個，数字3が書かれた球が2個，数字4が書かれた球が2個，
 合わせて8個の球が袋に入っている。カードを8枚用意し，次の試行を8回行う。
 　袋から球を1個取り出し，数字$k$が書かれていたとき，
 \begin{description}

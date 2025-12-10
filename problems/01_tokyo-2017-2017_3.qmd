@@ -3,6 +3,7 @@ title: "東京大学 2017年 2017_3"
 problem_id: "01_tokyo-2017-2017_3"
 university: "東京大学"
 exam_year: "2017"
+problem_number: 3
 source_tex: "archive/01_tokyo/2017/2017_3.tex"
 pdf_source: "archive/01_tokyo/2017/2017_3.pdf"
 page_image: "archive/01_tokyo/2017/2017_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　複素数平面上の原点以外の点$z$に対して，$\displaystyle w=\frac{1}{z}$とする。
+複素数平面上の原点以外の点$z$に対して，$\displaystyle w=\frac{1}{z}$とする。
 \begin{description}
 \item[(1)]$\alpha$を0でない複素数とし，点$\alpha$と原点$O$を結ぶ線分の垂直二等分線を$L$とする。
 点$z$が直線$L$上を動くとき，点$w$の軌跡は円から1点を除いたものになる。

@@ -3,6 +3,7 @@ title: "大阪大学 1990年 1990_a"
 problem_id: "06_osaka-1990-1990_a"
 university: "大阪大学"
 exam_year: "1990"
+problem_number: 1
 source_tex: "archive/06_osaka/1990/1990_a.tex"
 pdf_source: "archive/06_osaka/1990/1990_a.pdf"
 page_image: "archive/06_osaka/1990/1990_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$a$を正の定数とし，曲線$y=x(a-x)$を$C$，
+$a$を正の定数とし，曲線$y=x(a-x)$を$C$，
 $x=t$ $(0<t<a)$のときの$C$上の点$P$における接線を$l$とする．
 また，直線$l$と$y$軸との交点を$A$，点$(t, \, 0)$を$B$，原点を$O$とする．
 このとき，次のものを求めよ．

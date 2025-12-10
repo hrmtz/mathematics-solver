@@ -3,6 +3,7 @@ title: "京都大学 1992年 1992_f"
 problem_id: "02_kyoto-1992-1992_f"
 university: "京都大学"
 exam_year: "1992"
+problem_number: 6
 source_tex: "archive/02_kyoto/1992/1992_f.tex"
 pdf_source: "archive/02_kyoto/1992/1992_f.pdf"
 page_image: "archive/02_kyoto/1992/1992_f.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$\displaystyle a=\frac{1+\sqrt5}{2}$とし，空間内の原点$O$と4つの点
+$\displaystyle a=\frac{1+\sqrt5}{2}$とし，空間内の原点$O$と4つの点
 \[ A(1,1,1), \hspace{1zw} B(-a^{-1},a,0), \hspace{1zw} C(-a,0,a^{-1}), \hspace{1zw} D(0,-a^{-1},a) \]
 について，次の問に答えよ．
 \begin{description}

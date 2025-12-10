@@ -3,6 +3,7 @@ title: "東北大学 2007年 2007_3"
 problem_id: "04_tohoku-2007-2007_3"
 university: "東北大学"
 exam_year: "2007"
+problem_number: 3
 source_tex: "archive/04_tohoku/2007/2007_3.tex"
 pdf_source: "archive/04_tohoku/2007/2007_3.pdf"
 page_image: "archive/04_tohoku/2007/2007_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　自然数$n$に対し，方程式$\displaystyle\frac{1}{x^n}-\log x-\frac{1}{e}=0$を考える．
+自然数$n$に対し，方程式$\displaystyle\frac{1}{x^n}-\log x-\frac{1}{e}=0$を考える．
 ただし，対数は自然対数であり，$e$はその底とする．
 \begin{description}
 \item[(1)]上の方程式は$x\geqq1$にただ一つの解をもつことを示せ．

@@ -3,6 +3,7 @@ title: "名古屋大学 2006年 2006_b"
 problem_id: "05_nagoya-2006-2006_b"
 university: "名古屋大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/05_nagoya/2006/2006_b.tex"
 pdf_source: "archive/05_nagoya/2006/2006_b.pdf"
 page_image: "archive/05_nagoya/2006/2006_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　媒介変数$\theta_1$および$\theta_2$で表される2つの曲線
+媒介変数$\theta_1$および$\theta_2$で表される2つの曲線
 \[ C_1:\begin{cases} x=\cos\theta_1 
 
  y=\sin\theta_1 \end{cases} \hspace{1zw}

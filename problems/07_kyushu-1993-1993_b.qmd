@@ -3,6 +3,7 @@ title: "九州大学 1993年 1993_b"
 problem_id: "07_kyushu-1993-1993_b"
 university: "九州大学"
 exam_year: "1993"
+problem_number: 2
 source_tex: "archive/07_kyushu/1993/1993_b.tex"
 pdf_source: "archive/07_kyushu/1993/1993_b.pdf"
 page_image: "archive/07_kyushu/1993/1993_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$k$を区間$0 \leqq k<1$に含まれる実数とするとき，
+$k$を区間$0 \leqq k<1$に含まれる実数とするとき，
 方程式$(k-1)x^2-kx+y=0$で与えられる曲線$C_k$は，
 すべて2点$A(0, \, 0)$および$B(1, \, 1)$を通る放物線である．
 \begin{description}

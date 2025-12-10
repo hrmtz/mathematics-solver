@@ -3,6 +3,7 @@ title: "北海道大学 2008年 2008_d"
 problem_id: "03_hokudai-2008-2008_d"
 university: "北海道大学"
 exam_year: "2008"
+problem_number: 4
 source_tex: "archive/03_hokudai/2008/2008_d.tex"
 pdf_source: "archive/03_hokudai/2008/2008_d.pdf"
 page_image: "archive/03_hokudai/2008/2008_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　袋の中に1から4までの数を1つずつ記した4つの玉が入っている．
+袋の中に1から4までの数を1つずつ記した4つの玉が入っている．
 それらをよく混ぜて袋の中から玉を1つ取り出す試行を3回行う．
 ただし，1度取り出した玉はもとへ戻すものとする．
 取り出した玉に書かれた数字を順に$a$，$b$，$c$とする．

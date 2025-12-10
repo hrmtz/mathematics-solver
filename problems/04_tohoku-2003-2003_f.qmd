@@ -3,6 +3,7 @@ title: "東北大学 2003年 2003_f"
 problem_id: "04_tohoku-2003-2003_f"
 university: "東北大学"
 exam_year: "2003"
+problem_number: 6
 source_tex: "archive/04_tohoku/2003/2003_f.tex"
 pdf_source: "archive/04_tohoku/2003/2003_f.pdf"
 page_image: "archive/04_tohoku/2003/2003_f.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　2次の正方行列$A$，$B$が
+2次の正方行列$A$，$B$が
 \[ A^2=B^2=O \hspace{1zw} (O\text{は零行列}) \]
 を満たすとする．次の(1)，(2)を示せ．
 \begin{description}

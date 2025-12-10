@@ -3,6 +3,7 @@ title: "京都大学 1996年 1996_d"
 problem_id: "02_kyoto-1996-1996_d"
 university: "京都大学"
 exam_year: "1996"
+problem_number: 4
 source_tex: "archive/02_kyoto/1996/1996_d.tex"
 pdf_source: "archive/02_kyoto/1996/1996_d.pdf"
 page_image: "archive/02_kyoto/1996/1996_d.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$x$，$y$は$x+y>0$，$x-y>0$をみたす実数とする．
+$x$，$y$は$x+y>0$，$x-y>0$をみたす実数とする．
 ある4面体の隣り合う2辺の長さが$\sqrt{x+y}$，$\sqrt{x-y}$で，残り4辺の長さはすべて1であるという．
 このような条件をみたす点$(x,y)$の存在範囲を図示せよ．
 

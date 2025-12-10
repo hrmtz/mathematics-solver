@@ -3,6 +3,7 @@ title: "東京科学大学 2011年 2011_4"
 problem_id: "08_titech-2011-2011_4"
 university: "東京科学大学"
 exam_year: "2011"
+problem_number: 4
 source_tex: "archive/08_titech/2011/2011_4.tex"
 pdf_source: "archive/08_titech/2011/2011_4.pdf"
 page_image: "archive/08_titech/2011/2011_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　平面上に一辺の長さが1の正方形$D$および$D$と交わる直線があるとする．
+平面上に一辺の長さが1の正方形$D$および$D$と交わる直線があるとする．
 この直線を軸に$D$を回転して得られる回転体について以下の問に答えよ．
 \begin{description}
 \item[(1)]$D$と同じ平面上の直線$l$は$D$のどの辺にも平行でないものとする．

@@ -3,6 +3,7 @@ title: "東京大学 2002年 2002_6"
 problem_id: "01_tokyo-2002-2002_6"
 university: "東京大学"
 exam_year: "2002"
+problem_number: 6
 source_tex: "archive/01_tokyo/2002/2002_6.tex"
 pdf_source: "archive/01_tokyo/2002/2002_6.pdf"
 page_image: "archive/01_tokyo/2002/2002_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　$N$を正の整数とする．
+$N$を正の整数とする．
 2$N$個の項からなる数列$\{ a_1,a_2,\cdots,a_N,b_1,b_2,\cdots,b_N  \}$を
 \[ \{ b_1,a_1,b_2,a_2,\cdots,b_N,a_N \} \]
 という数列に並べ替える操作を「シャッフル」と呼ぶことにする．

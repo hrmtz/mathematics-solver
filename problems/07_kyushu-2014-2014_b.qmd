@@ -3,6 +3,7 @@ title: "九州大学 2014年 2014_b"
 problem_id: "07_kyushu-2014-2014_b"
 university: "九州大学"
 exam_year: "2014"
+problem_number: 2
 source_tex: "archive/07_kyushu/2014/2014_b.tex"
 pdf_source: "archive/07_kyushu/2014/2014_b.pdf"
 page_image: "archive/07_kyushu/2014/2014_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　箱の中に，赤玉が5個，青玉が4個，白玉が3個入っている。
+箱の中に，赤玉が5個，青玉が4個，白玉が3個入っている。
 それぞれの玉の大きさは同じで，1個あたりの重さは，
 赤玉が100g，青玉が45g，白玉が30gである。このとき以下の問いに答えよ。
 ただし，取り出した玉は重さを量ったあとで，箱の中にもどすものとする。

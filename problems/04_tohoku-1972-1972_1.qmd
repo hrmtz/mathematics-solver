@@ -3,6 +3,7 @@ title: "東北大学 1972年 1972_1"
 problem_id: "04_tohoku-1972-1972_1"
 university: "東北大学"
 exam_year: "1972"
+problem_number: 1
 source_tex: "archive/04_tohoku/1972/1972_1.tex"
 pdf_source: "archive/04_tohoku/1972/1972_1.pdf"
 page_image: "archive/04_tohoku/1972/1972_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　方程式$x^2+x+1=0$の1根を$\omega$とし，
+方程式$x^2+x+1=0$の1根を$\omega$とし，
 集合$R=\{ p+q\omega | p, \, q\text{は整数} \}$を考える．
 $R$の要素$\alpha=p+q\omega$（$p$，$q$は整数）に対して
 $N(\alpha)=N(p+q\omega)=p^2+q^2-pq$と定める．

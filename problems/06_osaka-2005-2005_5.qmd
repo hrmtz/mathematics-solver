@@ -3,6 +3,7 @@ title: "大阪大学 2005年 2005_5"
 problem_id: "06_osaka-2005-2005_5"
 university: "大阪大学"
 exam_year: "2005"
+problem_number: 5
 source_tex: "archive/06_osaka/2005/2005_5.tex"
 pdf_source: "archive/06_osaka/2005/2005_5.pdf"
 page_image: "archive/06_osaka/2005/2005_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$n$を正の整数，$a$を正の実数とする．
+$n$を正の整数，$a$を正の実数とする．
 曲線$y=x^n$と曲線$y=a\log x$が，
 点$P$で共通の接線をもつとする．
 ただし，対数は自然対数である．

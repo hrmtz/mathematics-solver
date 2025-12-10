@@ -3,6 +3,7 @@ title: "東京大学 2005年 2005_8"
 problem_id: "01_tokyo-2005-2005_8"
 university: "東京大学"
 exam_year: "2005"
+problem_number: 2
 source_tex: "archive/01_tokyo/2005/2005_8.tex"
 pdf_source: "archive/01_tokyo/2005/2005_8.pdf"
 page_image: "archive/01_tokyo/2005/2005_8.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　10枚のカードに1から10までの数が1つずつ書かれている．
+10枚のカードに1から10までの数が1つずつ書かれている．
 これらのカードを用いた次のようなゲームを考える．
 $r$を自然数とする．
 このゲームは最大$r$ラウンドからなり，第1ラウンドから始まる．

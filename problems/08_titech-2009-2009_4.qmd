@@ -3,6 +3,7 @@ title: "東京科学大学 2009年 2009_4"
 problem_id: "08_titech-2009-2009_4"
 university: "東京科学大学"
 exam_year: "2009"
+problem_number: 4
 source_tex: "archive/08_titech/2009/2009_4.tex"
 pdf_source: "archive/08_titech/2009/2009_4.pdf"
 page_image: "archive/08_titech/2009/2009_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xyz$空間の原点と点$(1,1,1)$を通る直線を$l$とする．
+$xyz$空間の原点と点$(1,1,1)$を通る直線を$l$とする．
 \begin{description}
 \item[(1)]$l$上の点$\displaystyle(\frac{t}{3},\frac{t}{3},\frac{t}{3})$を通り
 $l$と垂直な平面が，

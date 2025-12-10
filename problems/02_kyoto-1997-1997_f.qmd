@@ -3,6 +3,7 @@ title: "京都大学 1997年 1997_f"
 problem_id: "02_kyoto-1997-1997_f"
 university: "京都大学"
 exam_year: "1997"
+problem_number: 6
 source_tex: "archive/02_kyoto/1997/1997_f.tex"
 pdf_source: "archive/02_kyoto/1997/1997_f.pdf"
 page_image: "archive/02_kyoto/1997/1997_f.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　媒介変数表示された曲線
+媒介変数表示された曲線
 \[ C:x=e^{-t}\cos t, \hspace{1zw} y=e^{-t}\sin t \hspace{1zw}
 \left( 0 \leqq t \leqq \frac{\pi}{2} \right) \]
 を考える．

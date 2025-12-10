@@ -3,6 +3,7 @@ title: "九州大学 2014年 2014_e"
 problem_id: "07_kyushu-2014-2014_e"
 university: "九州大学"
 exam_year: "2014"
+problem_number: 5
 source_tex: "archive/07_kyushu/2014/2014_e.tex"
 pdf_source: "archive/07_kyushu/2014/2014_e.pdf"
 page_image: "archive/07_kyushu/2014/2014_e.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　すべての実数$x$について，関数$f(x)$およびその導関数$f'(x)$が微分可能であり，
+すべての実数$x$について，関数$f(x)$およびその導関数$f'(x)$が微分可能であり，
 $f'(x)>0$かつ$f''(x)>0$が満たされるとする。
 また，$f(-2)<0$かつ$f(2)>0$であるとし，$f(x)=0$の解を$a$とする。
 $f(x)$を用いて，数列$\{ x_n \}$を次のように定義する。

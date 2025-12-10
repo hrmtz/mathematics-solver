@@ -3,6 +3,7 @@ title: "北海道大学 1981年 1981_0_3"
 problem_id: "03_hokudai-1981-1981_0_3"
 university: "北海道大学"
 exam_year: "1981"
+problem_number: 3
 source_tex: "archive/03_hokudai/1981/1981_0_3.tex"
 pdf_source: "archive/03_hokudai/1981/1981_0_3.pdf"
 page_image: "archive/03_hokudai/1981/1981_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a$が$1 \leqq a \leqq 4$を満たすとき，2つの放物線
+$a$が$1 \leqq a \leqq 4$を満たすとき，2つの放物線
 \[ C_1:y=\frac{1}{a}x^2-x+a, \hspace{1zw} C_2:y=\frac{6}{a^2}x^2-\frac{6}{a}x+a \]
 で囲まれる図形の面積の最大値，最小値およびそのときの$a$の値を求めよ．
 

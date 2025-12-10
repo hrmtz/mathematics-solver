@@ -3,6 +3,7 @@ title: "大阪大学 1994年 1994_d"
 problem_id: "06_osaka-1994-1994_d"
 university: "大阪大学"
 exam_year: "1994"
+problem_number: 4
 source_tex: "archive/06_osaka/1994/1994_d.tex"
 pdf_source: "archive/06_osaka/1994/1994_d.pdf"
 page_image: "archive/06_osaka/1994/1994_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$f(x)$，$g(x)$は$x\geqq0$で定義された正の値をとる連続な関数で，$x>0$で微分可能であるとする．
+$f(x)$，$g(x)$は$x\geqq0$で定義された正の値をとる連続な関数で，$x>0$で微分可能であるとする．
 それらの定める曲線を
 \[ C_1:y=f(x) \hspace{1zw} (x\geqq0), \hspace{1zw} C_2:y=g(x) \hspace{1zw} (x\geqq0) \]
 とするとき，以下の性質が満たされるという．

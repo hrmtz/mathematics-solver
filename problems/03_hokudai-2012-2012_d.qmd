@@ -3,6 +3,7 @@ title: "北海道大学 2012年 2012_d"
 problem_id: "03_hokudai-2012-2012_d"
 university: "北海道大学"
 exam_year: "2012"
+problem_number: 4
 source_tex: "archive/03_hokudai/2012/2012_d.tex"
 pdf_source: "archive/03_hokudai/2012/2012_d.pdf"
 page_image: "archive/03_hokudai/2012/2012_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次の問に答えよ。
+次の問に答えよ。
 \begin{description}
 \item[(1)]$x\leqq0$のとき，
 $\displaystyle 1+x \leqq e^x \leqq 1+x+\frac{x^2}{2}$であることを示せ。

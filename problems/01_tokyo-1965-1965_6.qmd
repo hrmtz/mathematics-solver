@@ -3,6 +3,7 @@ title: "東京大学 1965年 1965_6"
 problem_id: "01_tokyo-1965-1965_6"
 university: "東京大学"
 exam_year: "1965"
+problem_number: 6
 source_tex: "archive/01_tokyo/1965/1965_6.tex"
 pdf_source: "archive/01_tokyo/1965/1965_6.pdf"
 page_image: "archive/01_tokyo/1965/1965_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　右の図は半径の長さ1の半円で，弦$AP$，$AQ$と直径$AB$とのつくる角はそれぞれ30$^\circ$，60$^\circ$である．
+右の図は半径の長さ1の半円で，弦$AP$，$AQ$と直径$AB$とのつくる角はそれぞれ30$^\circ$，60$^\circ$である．
 　このとき，弦$AP$，$AQ$と円弧$PQ$とで囲まれる部分を直径$AB$のまわりに一回転して得られる立体の体積を求めよ．
 
 

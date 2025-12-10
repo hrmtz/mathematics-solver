@@ -3,6 +3,7 @@ title: "大阪大学 1964年 1964_0_3"
 problem_id: "06_osaka-1964-1964_0_3"
 university: "大阪大学"
 exam_year: "1964"
+problem_number: 3
 source_tex: "archive/06_osaka/1964/1964_0_3.tex"
 pdf_source: "archive/06_osaka/1964/1964_0_3.pdf"
 page_image: "archive/06_osaka/1964/1964_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　3つの二次方程式
+3つの二次方程式
 \[ x^2-6x+ab=0 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AC}} \]
 \[ x^2-(a+4)x+2b=0 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AD}} \]
 \[ x^2+2x+8a+5=0 \hspace{1zw} \cdots\cdots\cdots\text{\ding{"AE}} \]

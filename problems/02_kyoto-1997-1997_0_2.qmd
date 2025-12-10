@@ -3,6 +3,7 @@ title: "京都大学 1997年 1997_0_2"
 problem_id: "02_kyoto-1997-1997_0_2"
 university: "京都大学"
 exam_year: "1997"
+problem_number: 2
 source_tex: "archive/02_kyoto/1997/1997_0_2.tex"
 pdf_source: "archive/02_kyoto/1997/1997_0_2.pdf"
 page_image: "archive/02_kyoto/1997/1997_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　自然数$n$の約数の個数を$d$とする．
+自然数$n$の約数の個数を$d$とする．
 $n$の約数すべてを小さい順に並べて得られる数列を$a_k$ $(1 \leqq k \leqq d)$とする．
 したがって，$a_1=1$，$a_d=n$，$a_k<a_{k+1}$ $(1 \leqq k<d)$である．
 このとき，$n$に対する次の2つの条件(イ)，(ロ)は互いに同値((イ)$\Longleftrightarrow$(ロ))であることを示せ．

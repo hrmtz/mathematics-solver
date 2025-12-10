@@ -3,6 +3,7 @@ title: "京都大学 1994年 1994_a"
 problem_id: "02_kyoto-1994-1994_a"
 university: "京都大学"
 exam_year: "1994"
+problem_number: 1
 source_tex: "archive/02_kyoto/1994/1994_a.tex"
 pdf_source: "archive/02_kyoto/1994/1994_a.pdf"
 page_image: "archive/02_kyoto/1994/1994_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a+b+c=0$を満たす実数$a$，$b$，$c$について，
+$a+b+c=0$を満たす実数$a$，$b$，$c$について，
 ${(|a|+|b|+|c|)}^2\geqq2(a^2+b^2+c^2)$が成り立つことを示せ．
 また，ここで等号が成り立つのはどんな場合か．
 

@@ -3,6 +3,7 @@ title: "大阪大学 1962年 1962_4"
 problem_id: "06_osaka-1962-1962_4"
 university: "大阪大学"
 exam_year: "1962"
+problem_number: 4
 source_tex: "archive/06_osaka/1962/1962_4.tex"
 pdf_source: "archive/06_osaka/1962/1962_4.pdf"
 page_image: "archive/06_osaka/1962/1962_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$10a^2+81a+207$，$a+2$，$26-2a$を適当な順にならべると，
+$10a^2+81a+207$，$a+2$，$26-2a$を適当な順にならべると，
 それらの常用対数が，公差1の等差数列になった。
 そのときの$a$の値を求めよ。
 

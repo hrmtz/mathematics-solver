@@ -3,6 +3,7 @@ title: "東京大学 2023年 2023_1"
 problem_id: "01_tokyo-2023-2023_1"
 university: "東京大学"
 exam_year: "2023"
+problem_number: 1
 source_tex: "archive/01_tokyo/2023/2023_1.tex"
 pdf_source: "archive/01_tokyo/2023/2023_1.pdf"
 page_image: "archive/01_tokyo/2023/2023_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]正の整数$k$に対し，
 \[ A_k=\int_{\sqrt{k\pi}}^{\sqrt{(k+1)\pi}}|\sin(x^2)|dx \]

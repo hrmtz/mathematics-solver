@@ -3,6 +3,7 @@ title: "京都大学 1991年 1991_e"
 problem_id: "02_kyoto-1991-1991_e"
 university: "京都大学"
 exam_year: "1991"
+problem_number: 5
 source_tex: "archive/02_kyoto/1991/1991_e.tex"
 pdf_source: "archive/02_kyoto/1991/1991_e.pdf"
 page_image: "archive/02_kyoto/1991/1991_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　1から$n$までの相異なる$n$個の自然数$(n\geqq4)$の中から無作為に2個を取り出し，
+1から$n$までの相異なる$n$個の自然数$(n\geqq4)$の中から無作為に2個を取り出し，
 大きい方を$X_1$，小さい方を$Y_1$とする．
 つぎに残りの$(n-2)$個の自然数の中から無作為に2個を取り出し，
 大きい方を$X_2$，小さい方を$Y_2$とする．

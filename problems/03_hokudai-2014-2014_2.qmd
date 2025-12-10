@@ -3,6 +3,7 @@ title: "北海道大学 2014年 2014_2"
 problem_id: "03_hokudai-2014-2014_2"
 university: "北海道大学"
 exam_year: "2014"
+problem_number: 2
 source_tex: "archive/03_hokudai/2014/2014_2.tex"
 pdf_source: "archive/03_hokudai/2014/2014_2.pdf"
 page_image: "archive/03_hokudai/2014/2014_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　四面体$OABC$は，$OA=OB=OC=1$，$\angle AOB=\angle BOC=\angle COA={90}^\circ$をみたす。
+四面体$OABC$は，$OA=OB=OC=1$，$\angle AOB=\angle BOC=\angle COA={90}^\circ$をみたす。
 辺$OA$上の点$P$と辺$OB$上の点$Q$を$OP=p$，$OQ=q$，$\displaystyle pq=\frac{1}{2}$となるようにとる。
 $p+q=t$とし，$\triangle CPQ$の面積を$S$とする。
 \begin{description}

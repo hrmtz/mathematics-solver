@@ -3,6 +3,7 @@ title: "名古屋大学 1990年 1990_0_2"
 problem_id: "05_nagoya-1990-1990_0_2"
 university: "名古屋大学"
 exam_year: "1990"
+problem_number: 2
 source_tex: "archive/05_nagoya/1990/1990_0_2.tex"
 pdf_source: "archive/05_nagoya/1990/1990_0_2.pdf"
 page_image: "archive/05_nagoya/1990/1990_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　行列$\begin{pmatrix} 1 & 0 
+行列$\begin{pmatrix} 1 & 0 
 
  -2 & 1 \end{pmatrix}$で表される1次変換によって，
 直線$y=px+q$を移した直線を$l$とする．

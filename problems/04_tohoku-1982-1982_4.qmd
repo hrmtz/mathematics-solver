@@ -3,6 +3,7 @@ title: "東北大学 1982年 1982_4"
 problem_id: "04_tohoku-1982-1982_4"
 university: "東北大学"
 exam_year: "1982"
+problem_number: 4
 source_tex: "archive/04_tohoku/1982/1982_4.tex"
 pdf_source: "archive/04_tohoku/1982/1982_4.pdf"
 page_image: "archive/04_tohoku/1982/1982_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　曲線$\displaystyle y=\frac{a}{2}(e^\frac{x}{a}+e^{-\frac{x}{a}})$ $(a>0)$について，次の問に答えよ．
+曲線$\displaystyle y=\frac{a}{2}(e^\frac{x}{a}+e^{-\frac{x}{a}})$ $(a>0)$について，次の問に答えよ．
 \begin{description}
 \item[(1)]この曲線上の2点$P(0, \, a)$，$Q(X, \, Y)$ $(x>0)$の間の弧の長さ$l$を$a$と$Y$で表せ．
 \item[(2)]$l=\sqrt3 \, a$のとき，点$Q(X, \, Y)$ $(x>0)$の座標を求めよ．

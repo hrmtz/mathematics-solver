@@ -3,6 +3,7 @@ title: "京都大学 2023年 2023_4"
 problem_id: "02_kyoto-2023-2023_4"
 university: "京都大学"
 exam_year: "2023"
+problem_number: 4
 source_tex: "archive/02_kyoto/2023/2023_4.tex"
 pdf_source: "archive/02_kyoto/2023/2023_4.pdf"
 page_image: "archive/02_kyoto/2023/2023_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次の関数$f(x)$の最大値と最小値を求めよ．
+次の関数$f(x)$の最大値と最小値を求めよ．
 \[ f(x)=e^{-x^2}+\frac{1}{4}x^2+1+\frac{1}{ \displaystyle e^{-x^2}+\frac{1}{4}x^2+1 } \hspace{1zw}
 (-1 \leqq x \leqq 1) \]
 　ただし，$e$は自然対数の底であり，その値は$e=2.71\cdots\cdots$である．

@@ -3,6 +3,7 @@ title: "東京大学 1978年 1978_1"
 problem_id: "01_tokyo-1978-1978_1"
 university: "東京大学"
 exam_year: "1978"
+problem_number: 1
 source_tex: "archive/01_tokyo/1978/1978_1.tex"
 pdf_source: "archive/01_tokyo/1978/1978_1.pdf"
 page_image: "archive/01_tokyo/1978/1978_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　半径1の円$O$の周を6等分する点を図のように順次$A_1,A_2,\cdots\cdots,A_6$とする．
+半径1の円$O$の周を6等分する点を図のように順次$A_1,A_2,\cdots\cdots,A_6$とする．
 　弧$A_2A_1A_6$および半径$OA_2$，$OA_6$に接する円の中心を$P$とし，
 この円$P$の周と線分$OP$の交点を$B$とする．
 線分$OA_3$上に$OQ=PA_1$をみたすように点$Q$を定める．

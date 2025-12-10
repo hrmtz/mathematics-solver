@@ -3,6 +3,7 @@ title: "東北大学 2023年 2023_1"
 problem_id: "04_tohoku-2023-2023_1"
 university: "東北大学"
 exam_year: "2023"
+problem_number: 1
 source_tex: "archive/04_tohoku/2023/2023_1.tex"
 pdf_source: "archive/04_tohoku/2023/2023_1.pdf"
 page_image: "archive/04_tohoku/2023/2023_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　赤玉4個と白玉5個の入った，中の見えない袋がある。
+赤玉4個と白玉5個の入った，中の見えない袋がある。
 玉はすべて，色が区別できる他には違いはないものとする。
 A，Bの2人が，Aから交互に，袋から玉を1個ずつ取り出すゲームを行う。
 ただし取り出した玉は袋の中に戻さない。

@@ -3,6 +3,7 @@ title: "京都大学 2006年 2006_a"
 problem_id: "02_kyoto-2006-2006_a"
 university: "京都大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/02_kyoto/2006/2006_a.tex"
 pdf_source: "archive/02_kyoto/2006/2006_a.pdf"
 page_image: "archive/02_kyoto/2006/2006_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　1次式$A(x)$，$B(x)$，$C(x)$に対して
+1次式$A(x)$，$B(x)$，$C(x)$に対して
 ${ \{ A(x) \} }^2+{ \{ B(x) \} }^2={ \{ C(x) \} }^2$が成り立つとする．
 このとき$A(x)$と$B(x)$はともに$C(x)$の定数倍であることを示せ．
 

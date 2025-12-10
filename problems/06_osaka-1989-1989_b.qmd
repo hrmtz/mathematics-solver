@@ -3,6 +3,7 @@ title: "大阪大学 1989年 1989_b"
 problem_id: "06_osaka-1989-1989_b"
 university: "大阪大学"
 exam_year: "1989"
+problem_number: 2
 source_tex: "archive/06_osaka/1989/1989_b.tex"
 pdf_source: "archive/06_osaka/1989/1989_b.pdf"
 page_image: "archive/06_osaka/1989/1989_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$D$は$xy$平面上の，不等式
+$D$は$xy$平面上の，不等式
 \[ x^2+y^2\leqq1, \hspace{1zw} x\geqq0, \hspace{1zw} y\geqq0 \]
 で表される領域とする．
 　$f(\theta)$ $(0\leqq\theta<2\pi)$を，

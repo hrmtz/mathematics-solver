@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_d"
 problem_id: "07_kyushu-1997-1997_d"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/07_kyushu/1997/1997_d.tex"
 pdf_source: "archive/07_kyushu/1997/1997_d.pdf"
 page_image: "archive/07_kyushu/1997/1997_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f(x)=x^{a+1}e^{-bx}$（ただし，$a$，$b$は自然数）の$x\geqq-1$における最大値を$M$とするとき，
+関数$f(x)=x^{a+1}e^{-bx}$（ただし，$a$，$b$は自然数）の$x\geqq-1$における最大値を$M$とするとき，
 次の問に答えよ．
 \begin{description}
 \item[(1)]$x>-1$で定義された関数$\displaystyle g(x)={\left(\frac{x+1}{c}\right)}^{x+1}$の

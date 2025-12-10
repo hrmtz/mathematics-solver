@@ -3,6 +3,7 @@ title: "東北大学 2018年 2018_4"
 problem_id: "04_tohoku-2018-2018_4"
 university: "東北大学"
 exam_year: "2018"
+problem_number: 4
 source_tex: "archive/04_tohoku/2018/2018_4.tex"
 pdf_source: "archive/04_tohoku/2018/2018_4.pdf"
 page_image: "archive/04_tohoku/2018/2018_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　三角形$ABC$の内接円の半径を$r$，外接円の半径を$R$とし，
+三角形$ABC$の内接円の半径を$r$，外接円の半径を$R$とし，
 $\displaystyle h=\frac{r}{R}$とする。
 また，$\angle A=2\alpha$，$\angle B=2\beta$，$\angle C=2\gamma$とおく。
 \begin{description}

@@ -3,6 +3,7 @@ title: "東北大学 2000年 2000_c"
 problem_id: "04_tohoku-2000-2000_c"
 university: "東北大学"
 exam_year: "2000"
+problem_number: 3
 source_tex: "archive/04_tohoku/2000/2000_c.tex"
 pdf_source: "archive/04_tohoku/2000/2000_c.pdf"
 page_image: "archive/04_tohoku/2000/2000_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　次の式を満たす数列$\{ a_n \}$を考える．
+次の式を満たす数列$\{ a_n \}$を考える．
 \[ a_1=1, \hspace{1zw}
 a_{n+1}=\left\{ 1+\sqrt3 \, \left( 1-\frac{a_{n+1}}{\sqrt2} \right) \right\} a_n \hspace{1zw}
 (n=1, \, 2, \, \cdots\cdots) \]

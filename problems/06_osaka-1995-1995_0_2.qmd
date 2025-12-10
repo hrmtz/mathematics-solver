@@ -3,6 +3,7 @@ title: "大阪大学 1995年 1995_0_2"
 problem_id: "06_osaka-1995-1995_0_2"
 university: "大阪大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/06_osaka/1995/1995_0_2.tex"
 pdf_source: "archive/06_osaka/1995/1995_0_2.pdf"
 page_image: "archive/06_osaka/1995/1995_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$xyz$空間において，
+$xyz$空間において，
 平面$z=0$上に原点を中心とする半径1の円があり，
 点$P$はこの円の周上を動く．
 点$P$と点$(0, \, 0, \, 2)$を通る直線が

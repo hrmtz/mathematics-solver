@@ -3,6 +3,7 @@ title: "京都大学 1988年 1988_0_e"
 problem_id: "02_kyoto-1988-1988_0_e"
 university: "京都大学"
 exam_year: "1988"
+problem_number: 5
 source_tex: "archive/02_kyoto/1988/1988_0_e.tex"
 pdf_source: "archive/02_kyoto/1988/1988_0_e.pdf"
 page_image: "archive/02_kyoto/1988/1988_0_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　座標空間において$\vec{e_1}=(1,0,0)$，$\vec{e_2}=(0,1,0)$，$\vec{e_3}=(0,0,1)$とする．
+座標空間において$\vec{e_1}=(1,0,0)$，$\vec{e_2}=(0,1,0)$，$\vec{e_3}=(0,0,1)$とする．
 原点を出発点とし，サイコロを振り，出た目の数によって点を移動させる．
 出た目が1か4のときは$\vec{e_1}$，2か5のときは$\vec{e_2}$，3か6のときは$\vec{e_3}$だけ点を移動させるものとする．
 \begin{description}

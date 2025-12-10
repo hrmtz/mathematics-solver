@@ -3,6 +3,7 @@ title: "九州大学 2008年 2008_2"
 problem_id: "07_kyushu-2008-2008_2"
 university: "九州大学"
 exam_year: "2008"
+problem_number: 2
 source_tex: "archive/07_kyushu/2008/2008_2.tex"
 pdf_source: "archive/07_kyushu/2008/2008_2.pdf"
 page_image: "archive/07_kyushu/2008/2008_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　1から10までの番号が1つずつ書かれた10枚のカードがある．
+1から10までの番号が1つずつ書かれた10枚のカードがある．
 $k$を2から9までの整数の1つとする．
 よくきった10枚のカードから1枚を抜き取り，
 そのカードの番号が$k$より大きいなら，

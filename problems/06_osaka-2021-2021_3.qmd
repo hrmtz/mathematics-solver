@@ -3,6 +3,7 @@ title: "大阪大学 2021年 2021_3"
 problem_id: "06_osaka-2021-2021_3"
 university: "大阪大学"
 exam_year: "2021"
+problem_number: 3
 source_tex: "archive/06_osaka/2021/2021_3.tex"
 pdf_source: "archive/06_osaka/2021/2021_3.pdf"
 page_image: "archive/06_osaka/2021/2021_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$n$を自然数とし，$t$を$t\geqq1$をみたす実数とする．
+$n$を自然数とし，$t$を$t\geqq1$をみたす実数とする．
 \begin{description}
 \item[(1)]$x \geqq t$のとき，不等式
 \[ -\frac{{(x-t)}^2}{2} \leqq \log x - \log t -\frac{1}{t}(x-t) \leqq0 \]

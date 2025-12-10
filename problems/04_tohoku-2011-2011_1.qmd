@@ -3,6 +3,7 @@ title: "東北大学 2011年 2011_1"
 problem_id: "04_tohoku-2011-2011_1"
 university: "東北大学"
 exam_year: "2011"
+problem_number: 1
 source_tex: "archive/04_tohoku/2011/2011_1.tex"
 pdf_source: "archive/04_tohoku/2011/2011_1.pdf"
 page_image: "archive/04_tohoku/2011/2011_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　実数$a$に対し，不等式$y \leqq 2ax-a^2+2a+2$の表す座標平面上の領域を$D(a)$とおく．
+実数$a$に対し，不等式$y \leqq 2ax-a^2+2a+2$の表す座標平面上の領域を$D(a)$とおく．
 \begin{description}
 \item[(1)]$-1 \leqq a \leqq 2$を満たすすべての$a$に対し$D(a)$の点となるような点$(p,q)$の範囲を図示せよ．
 \item[(2)]$-1 \leqq a \leqq 2$を満たすいずれかの$a$に対し$D(a)$の点となるような点$(p,q)$の範囲を図示せよ．

@@ -3,6 +3,7 @@ title: "北海道大学 1973年 1973_0_5"
 problem_id: "03_hokudai-1973-1973_0_5"
 university: "北海道大学"
 exam_year: "1973"
+problem_number: 5
 source_tex: "archive/03_hokudai/1973/1973_0_5.tex"
 pdf_source: "archive/03_hokudai/1973/1973_0_5.pdf"
 page_image: "archive/03_hokudai/1973/1973_0_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$\displaystyle f(x)=4x^2-3ax+4\int_0^1tf(t)dt$，
+$\displaystyle f(x)=4x^2-3ax+4\int_0^1tf(t)dt$，
 $\displaystyle g(x)+\int_0^x(t+1)g'(t)dt=x^2+4x+a$のとき
 \begin{description}
 \item[(1)]$f(x)$と$g(x)$を求めよ．

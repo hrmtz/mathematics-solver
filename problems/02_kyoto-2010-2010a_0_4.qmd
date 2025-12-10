@@ -3,6 +3,7 @@ title: "京都大学 2010年 2010a_0_4"
 problem_id: "02_kyoto-2010-2010a_0_4"
 university: "京都大学"
 exam_year: "2010"
+problem_number: 4
 source_tex: "archive/02_kyoto/2010/2010a_0_4.tex"
 pdf_source: "archive/02_kyoto/2010/2010a_0_4.pdf"
 page_image: "archive/02_kyoto/2010/2010a_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　点$O$を中心とする正十角形において，$A$，$B$を隣接する2つの頂点とする．
+点$O$を中心とする正十角形において，$A$，$B$を隣接する2つの頂点とする．
 線分$OB$上に${OP}^2=OB \cdot PB$を満たす点$P$をとるとき，$OP=AB$が成立することを示せ．
 
 ---

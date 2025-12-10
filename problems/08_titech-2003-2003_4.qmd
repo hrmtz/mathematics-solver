@@ -3,6 +3,7 @@ title: "東京科学大学 2003年 2003_4"
 problem_id: "08_titech-2003-2003_4"
 university: "東京科学大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/08_titech/2003/2003_4.tex"
 pdf_source: "archive/08_titech/2003/2003_4.pdf"
 page_image: "archive/08_titech/2003/2003_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f(x)$ $(n=1,2,\cdots)$を次の漸化式により定める．
+関数$f(x)$ $(n=1,2,\cdots)$を次の漸化式により定める．
 \[ f_1(x)=x^2, \hspace{1zw} f_{n+1}(x)=f_n(x)+x^3f_n^{(2)}(x) \]
 ただし，$f_n^{(k)}(x)$は$f_n(x)$の第$k$次導関数を表す．
 \begin{description}

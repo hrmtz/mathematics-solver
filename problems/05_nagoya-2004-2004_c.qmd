@@ -3,6 +3,7 @@ title: "名古屋大学 2004年 2004_c"
 problem_id: "05_nagoya-2004-2004_c"
 university: "名古屋大学"
 exam_year: "2004"
+problem_number: 3
 source_tex: "archive/05_nagoya/2004/2004_c.tex"
 pdf_source: "archive/05_nagoya/2004/2004_c.pdf"
 page_image: "archive/05_nagoya/2004/2004_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　点$P$は$x$軸上を，時刻$t=0$から$t=t_1$までは
+点$P$は$x$軸上を，時刻$t=0$から$t=t_1$までは
 \[ \text{速度}v(t)=a\sqrt{t} \hspace{1zw} \text{（}a\text{は}a>0\text{を満たす定数）} \]
 で運動し，時刻$t=t_1$からは
 \[ \text{加速度}b \hspace{1zw} \text{（}b\text{は}b<0\text{を満たす定数）} \]

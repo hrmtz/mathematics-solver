@@ -3,6 +3,7 @@ title: "東京科学大学 2010年 2010_b"
 problem_id: "08_titech-2010-2010_b"
 university: "東京科学大学"
 exam_year: "2010"
+problem_number: 2
 source_tex: "archive/08_titech/2010/2010_b.tex"
 pdf_source: "archive/08_titech/2010/2010_b.pdf"
 page_image: "archive/08_titech/2010/2010_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　座標平面上で$y={(\log x)}^2$ $(x>0)$の表す曲線を$C$とし，$\alpha>0$に対し，
+座標平面上で$y={(\log x)}^2$ $(x>0)$の表す曲線を$C$とし，$\alpha>0$に対し，
 点$( \alpha, {(\log\alpha)}^2 )$における$C$の接線を$L(\alpha)$で表す．
 \begin{description}
 \item[(1)]$C$のグラフの概形を描け．

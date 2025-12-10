@@ -3,6 +3,7 @@ title: "東京大学 2009年 2009_3"
 problem_id: "01_tokyo-2009-2009_3"
 university: "東京大学"
 exam_year: "2009"
+problem_number: 3
 source_tex: "archive/01_tokyo/2009/2009_3.tex"
 pdf_source: "archive/01_tokyo/2009/2009_3.pdf"
 page_image: "archive/01_tokyo/2009/2009_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　スイッチを1回押すごとに，赤，青，黄，白のいずれかの色の玉が1個，
+スイッチを1回押すごとに，赤，青，黄，白のいずれかの色の玉が1個，
 等確率$\displaystyle\frac{1}{4}$で出てくる機械がある．
 2つの箱$L$と$R$を用意する．
 次の3種類の操作を考える．

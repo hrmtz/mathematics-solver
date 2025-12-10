@@ -3,6 +3,7 @@ title: "北海道大学 2018年 2018_0_4"
 problem_id: "03_hokudai-2018-2018_0_4"
 university: "北海道大学"
 exam_year: "2018"
+problem_number: 4
 source_tex: "archive/03_hokudai/2018/2018_0_4.tex"
 pdf_source: "archive/03_hokudai/2018/2018_0_4.pdf"
 page_image: "archive/03_hokudai/2018/2018_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$p$を実数とする。
+$p$を実数とする。
 関数$y=x^3+px^2+x$のグラフ$C_1$と関数$y=x^2$のグラフ$C_2$は，
 $x>0$の範囲に共有点を2個もつとする。
 \begin{description}

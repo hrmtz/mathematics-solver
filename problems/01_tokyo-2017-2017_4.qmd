@@ -3,6 +3,7 @@ title: "東京大学 2017年 2017_4"
 problem_id: "01_tokyo-2017-2017_4"
 university: "東京大学"
 exam_year: "2017"
+problem_number: 4
 source_tex: "archive/01_tokyo/2017/2017_4.tex"
 pdf_source: "archive/01_tokyo/2017/2017_4.pdf"
 page_image: "archive/01_tokyo/2017/2017_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$p=2+\sqrt5$とおき，自然数$n=1, \, 2, \, 3, \, \cdots$に対して
+$p=2+\sqrt5$とおき，自然数$n=1, \, 2, \, 3, \, \cdots$に対して
 \[ a_n=p^n+ { \left( -\frac{1}{p} \right) }^n \]
 と定める。以下の問いに答えよ。ただし設問(1)は結論のみを書けばよい。
 \begin{description}

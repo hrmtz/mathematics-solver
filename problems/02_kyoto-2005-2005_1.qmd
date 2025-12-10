@@ -3,6 +3,7 @@ title: "京都大学 2005年 2005_1"
 problem_id: "02_kyoto-2005-2005_1"
 university: "京都大学"
 exam_year: "2005"
+problem_number: 1
 source_tex: "archive/02_kyoto/2005/2005_1.tex"
 pdf_source: "archive/02_kyoto/2005/2005_1.pdf"
 page_image: "archive/02_kyoto/2005/2005_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$xy$平面上の原点と点$(1,2)$を結ぶ線分(両端を含む)を$L$とする．
+$xy$平面上の原点と点$(1,2)$を結ぶ線分(両端を含む)を$L$とする．
 曲線$y=x^2+ax+b$が$L$と共有点を持つような実数の組$(a,b)$の集合を$ab$平面上に図示せよ．
 
 ---

@@ -3,6 +3,7 @@ title: "東京大学 1966年 1966_2"
 problem_id: "01_tokyo-1966-1966_2"
 university: "東京大学"
 exam_year: "1966"
+problem_number: 2
 source_tex: "archive/01_tokyo/1966/1966_2.tex"
 pdf_source: "archive/01_tokyo/1966/1966_2.pdf"
 page_image: "archive/01_tokyo/1966/1966_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上のある直線$l$の上の任意の点$(x,y)$に対し，
+平面上のある直線$l$の上の任意の点$(x,y)$に対し，
 点$(4x+2y,x+3y)$がふたたび$l$の上にあるという．
 このような直線$l$をすべて求めよ．
 

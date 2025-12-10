@@ -3,6 +3,7 @@ title: "東京科学大学 1989年 1989_3"
 problem_id: "08_titech-1989-1989_3"
 university: "東京科学大学"
 exam_year: "1989"
+problem_number: 3
 source_tex: "archive/08_titech/1989/1989_3.tex"
 pdf_source: "archive/08_titech/1989/1989_3.pdf"
 page_image: "archive/08_titech/1989/1989_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　関数$f(x)$は次の等式
+関数$f(x)$は次の等式
 \[ f(x+y)=f(x)+f(y)+f(x)f(y) \]
 を満たしているとする．
 関数$f(x)$が$x=0$で微分可能であるとき，次の問に答えよ．

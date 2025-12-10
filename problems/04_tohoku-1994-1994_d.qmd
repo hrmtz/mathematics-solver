@@ -3,6 +3,7 @@ title: "東北大学 1994年 1994_d"
 problem_id: "04_tohoku-1994-1994_d"
 university: "東北大学"
 exam_year: "1994"
+problem_number: 4
 source_tex: "archive/04_tohoku/1994/1994_d.tex"
 pdf_source: "archive/04_tohoku/1994/1994_d.pdf"
 page_image: "archive/04_tohoku/1994/1994_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　1から20までの目が等確率で出る正二十面体のサイコロを考える．
+1から20までの目が等確率で出る正二十面体のサイコロを考える．
 このような$N$個のサイコロを同時に投げ，
 出た目の数の和が$N+19$になる確率を$P_N$とおく．
 \begin{description}

@@ -3,6 +3,7 @@ title: "京都大学 1970年 1970_0_4"
 problem_id: "02_kyoto-1970-1970_0_4"
 university: "京都大学"
 exam_year: "1970"
+problem_number: 4
 source_tex: "archive/02_kyoto/1970/1970_0_4.tex"
 pdf_source: "archive/02_kyoto/1970/1970_0_4.pdf"
 page_image: "archive/02_kyoto/1970/1970_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次の6つの条件をみたす$x$，$y$，$z$のうち，$z$を最小にする$x$，$y$，$z$の値を求めよ．
+次の6つの条件をみたす$x$，$y$，$z$のうち，$z$を最小にする$x$，$y$，$z$の値を求めよ．
 \[ a>2, \hspace{1zw} \frac{1}{x}+\frac{1}{y}=1, \hspace{1zw} x>1, \hspace{1zw} 1<z<2, \hspace{1zw}
 xz \geqq a, \hspace{1zw} yz \geqq 2 \]
 

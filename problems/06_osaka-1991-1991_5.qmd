@@ -3,6 +3,7 @@ title: "大阪大学 1991年 1991_5"
 problem_id: "06_osaka-1991-1991_5"
 university: "大阪大学"
 exam_year: "1991"
+problem_number: 5
 source_tex: "archive/06_osaka/1991/1991_5.tex"
 pdf_source: "archive/06_osaka/1991/1991_5.pdf"
 page_image: "archive/06_osaka/1991/1991_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　図のような正方形の4頂点$A$，$B$，$C$，$D$を次の規則で移動する動点$Q$がある．
+図のような正方形の4頂点$A$，$B$，$C$，$D$を次の規則で移動する動点$Q$がある．
 さいころを振って1の目が出れば反時計まわりに隣の頂点に移動し，
 1以外の目が出れば時計まわりに隣の頂点に移動する．
 $Q$は最初$A$にあるものとし，

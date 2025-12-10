@@ -3,6 +3,7 @@ title: "九州大学 2003年 2003_1"
 problem_id: "07_kyushu-2003-2003_1"
 university: "九州大学"
 exam_year: "2003"
+problem_number: 1
 source_tex: "archive/07_kyushu/2003/2003_1.tex"
 pdf_source: "archive/07_kyushu/2003/2003_1.pdf"
 page_image: "archive/07_kyushu/2003/2003_1.jpg"
@@ -17,8 +18,7 @@ format:
 ---
 
 
-1
-　$xy$平面上で，
+$xy$平面上で，
 $x=r(t)\cos t$，$y=r(t)\sin t$ $(0 \leqq t \leqq \pi)$
 で表される曲線を$C$とする．
 \begin{description}

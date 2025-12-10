@@ -3,6 +3,7 @@ title: "東京大学 2004年 2004_8"
 problem_id: "01_tokyo-2004-2004_8"
 university: "東京大学"
 exam_year: "2004"
+problem_number: 2
 source_tex: "archive/01_tokyo/2004/2004_8.tex"
 pdf_source: "archive/01_tokyo/2004/2004_8.pdf"
 page_image: "archive/01_tokyo/2004/2004_8.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　集合$A$，$B$を$A=\{0,1,2,3,4,5,6,7\}$，$B=\{0,1\}$とし，$N$を3以上の整数とする．
+集合$A$，$B$を$A=\{0,1,2,3,4,5,6,7\}$，$B=\{0,1\}$とし，$N$を3以上の整数とする．
 また，各項が0または1からなる数列を01数列と呼ぶことにする．
 01数列$a_1,a_2,\cdots,a_N$に対し，
 $A$から$B$への写像$f$を用いて，

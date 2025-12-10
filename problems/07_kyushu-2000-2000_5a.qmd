@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_5a"
 problem_id: "07_kyushu-2000-2000_5a"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 5
 source_tex: "archive/07_kyushu/2000/2000_5a.tex"
 pdf_source: "archive/07_kyushu/2000/2000_5a.pdf"
 page_image: "archive/07_kyushu/2000/2000_5a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (a)
-　発芽して一定期間後の，ある花の苗の高さの分布は母平均$m$（cm），
+発芽して一定期間後の，ある花の苗の高さの分布は母平均$m$（cm），
 母標準偏差$\sigma=1.5$（cm）の正規分布であるとする．
 \begin{description}
 \item[(1)]花壇に植えるとき，高さが7.3cmより低い苗と13.0cmより高い苗は間引くとする．

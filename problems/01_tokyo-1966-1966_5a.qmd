@@ -3,6 +3,7 @@ title: "東京大学 1966年 1966_5a"
 problem_id: "01_tokyo-1966-1966_5a"
 university: "東京大学"
 exam_year: "1966"
+problem_number: 5
 source_tex: "archive/01_tokyo/1966/1966_5a.tex"
 pdf_source: "archive/01_tokyo/1966/1966_5a.pdf"
 page_image: "archive/01_tokyo/1966/1966_5a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 新
-　半直線$OX$が，点$O$のまわりに毎秒1ラジアンの角速度で回転している．
+半直線$OX$が，点$O$のまわりに毎秒1ラジアンの角速度で回転している．
 $OX$上を運動する点$P$が，時刻$t$秒において，点$O$から$e^{2t}$cmの距離にあるという．
 時刻0秒から$2\pi$秒までの間に，点$P$の動く道のりを求めよ．
 ただし，$e$は自然対数の底である．

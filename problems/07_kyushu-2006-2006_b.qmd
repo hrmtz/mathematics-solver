@@ -3,6 +3,7 @@ title: "九州大学 2006年 2006_b"
 problem_id: "07_kyushu-2006-2006_b"
 university: "九州大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/07_kyushu/2006/2006_b.tex"
 pdf_source: "archive/07_kyushu/2006/2006_b.pdf"
 page_image: "archive/07_kyushu/2006/2006_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$A$と$B$の2つの袋があり，$A$の袋には赤玉が2個，白玉が5個，
+$A$と$B$の2つの袋があり，$A$の袋には赤玉が2個，白玉が5個，
 $B$の袋には赤玉が$m$個，白玉が$n$個入っている．
 ただし，$m$と$n$は0以上の整数で$m+n=4$とする．
 \begin{description}

@@ -3,6 +3,7 @@ title: "東京大学 1989年 1989_6"
 problem_id: "01_tokyo-1989-1989_6"
 university: "東京大学"
 exam_year: "1989"
+problem_number: 6
 source_tex: "archive/01_tokyo/1989/1989_6.tex"
 pdf_source: "archive/01_tokyo/1989/1989_6.pdf"
 page_image: "archive/01_tokyo/1989/1989_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　3個の赤玉と$n$個の白玉を無作為に環状に並べるものとする．
+3個の赤玉と$n$個の白玉を無作為に環状に並べるものとする．
 このとき白玉が連続して$k+1$個以上並んだ箇所が現れない確率を求めよ．
 ただし$\displaystyle \frac{n}{3} \leqq k \leqq \frac{n}{2}$とする．
 

@@ -3,6 +3,7 @@ title: "名古屋大学 1964年 1964_1"
 problem_id: "05_nagoya-1964-1964_1"
 university: "名古屋大学"
 exam_year: "1964"
+problem_number: 1
 source_tex: "archive/05_nagoya/1964/1964_1.tex"
 pdf_source: "archive/05_nagoya/1964/1964_1.pdf"
 page_image: "archive/05_nagoya/1964/1964_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$\sqrt{x-a}=x-b$を$x$について解け。
+$\sqrt{x-a}=x-b$を$x$について解け。
 
 ---
 

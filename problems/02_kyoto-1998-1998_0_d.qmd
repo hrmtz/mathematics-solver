@@ -3,6 +3,7 @@ title: "京都大学 1998年 1998_0_d"
 problem_id: "02_kyoto-1998-1998_0_d"
 university: "京都大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/02_kyoto/1998/1998_0_d.tex"
 pdf_source: "archive/02_kyoto/1998/1998_0_d.pdf"
 page_image: "archive/02_kyoto/1998/1998_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$\theta$が$0^\circ\leqq\theta<{360}^\circ$のとき，次の問に答えよ．
+$\theta$が$0^\circ\leqq\theta<{360}^\circ$のとき，次の問に答えよ．
 \begin{description}
 \item[(1)]不等式$2\sin3\theta-2\cos2\theta-1>0$を満たす$\theta$の範囲を求めよ．
 \item[(2)]定数$a$がいろいろな値を取るとき，方程式$2\sin3\theta-2\cos2\theta-1=a$の解の個数がどのように変わるかを調べよ．

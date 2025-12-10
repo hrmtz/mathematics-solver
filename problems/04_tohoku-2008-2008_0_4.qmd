@@ -3,6 +3,7 @@ title: "東北大学 2008年 2008_0_4"
 problem_id: "04_tohoku-2008-2008_0_4"
 university: "東北大学"
 exam_year: "2008"
+problem_number: 4
 source_tex: "archive/04_tohoku/2008/2008_0_4.tex"
 pdf_source: "archive/04_tohoku/2008/2008_0_4.pdf"
 page_image: "archive/04_tohoku/2008/2008_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　点$P$が次のルール(i)，(ii)に従って数直線上を移動するものとする．
+点$P$が次のルール(i)，(ii)に従って数直線上を移動するものとする．
 \begin{description}
 \item[(i)]$1, \, 2, \, 3, \, 4, \, 5, \, 6$の目が同じ割合で出るサイコロを振り，
 出た目の数を$k$とする．

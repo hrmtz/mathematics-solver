@@ -3,6 +3,7 @@ title: "東北大学 1981年 1981_4"
 problem_id: "04_tohoku-1981-1981_4"
 university: "東北大学"
 exam_year: "1981"
+problem_number: 4
 source_tex: "archive/04_tohoku/1981/1981_4.tex"
 pdf_source: "archive/04_tohoku/1981/1981_4.pdf"
 page_image: "archive/04_tohoku/1981/1981_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　数列$a_1, \, a_2, \, a_3, \, \cdots\cdots$を次のようにして定める．
+数列$a_1, \, a_2, \, a_3, \, \cdots\cdots$を次のようにして定める．
 初項$a_1$ $(a_1\neq0, \, a_1\neq2)$は与えられた実数である．
 次に$a_n$が与えられたとき，曲線$\displaystyle y=\frac{1}{x}-1$上に，$x$座標が$a_n$である点$P$をとる．
 $P$においてこの曲線に引いた接線が$x$軸と交わる点を$Q$とすると，

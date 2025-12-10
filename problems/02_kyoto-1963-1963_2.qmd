@@ -3,6 +3,7 @@ title: "京都大学 1963年 1963_2"
 problem_id: "02_kyoto-1963-1963_2"
 university: "京都大学"
 exam_year: "1963"
+problem_number: 2
 source_tex: "archive/02_kyoto/1963/1963_2.tex"
 pdf_source: "archive/02_kyoto/1963/1963_2.pdf"
 page_image: "archive/02_kyoto/1963/1963_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$\triangle ABC$と$\triangle DEF$において，$AB=DE$とし，それぞれの外接円の半径は等しく，また内接円の半径も等しいとする．
+$\triangle ABC$と$\triangle DEF$において，$AB=DE$とし，それぞれの外接円の半径は等しく，また内接円の半径も等しいとする．
 そのとき2つの三角形は合同になるか，理由をつけて答えよ．
 
 ---

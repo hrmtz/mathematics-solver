@@ -3,6 +3,7 @@ title: "東北大学 1995年 1995_d"
 problem_id: "04_tohoku-1995-1995_d"
 university: "東北大学"
 exam_year: "1995"
+problem_number: 4
 source_tex: "archive/04_tohoku/1995/1995_d.tex"
 pdf_source: "archive/04_tohoku/1995/1995_d.pdf"
 page_image: "archive/04_tohoku/1995/1995_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　放物線$\displaystyle y=\frac{1}{2}x^2-1$上の
+放物線$\displaystyle y=\frac{1}{2}x^2-1$上の
 点$\displaystyle T \left( t, \, \frac{t^2}{2}-1 \right)$における法線を$l_1$とする．
 \begin{description}
 \item[(1)]$l_t$が点$P(p, \, q)$を通るとき，$p$，$q$，$t$の満たす関係式を求めよ．

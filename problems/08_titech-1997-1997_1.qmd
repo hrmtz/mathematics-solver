@@ -3,6 +3,7 @@ title: "東京科学大学 1997年 1997_1"
 problem_id: "08_titech-1997-1997_1"
 university: "東京科学大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/08_titech/1997/1997_1.tex"
 pdf_source: "archive/08_titech/1997/1997_1.pdf"
 page_image: "archive/08_titech/1997/1997_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a^2x^2+b^2y^2 \leqq 1$を満たす$(x,y)$がすべて
+$a^2x^2+b^2y^2 \leqq 1$を満たす$(x,y)$がすべて
 \[ a(x-1)+b(y-1) \leqq 0 \]
 を満たすような$(a,b)$の範囲を求め，図示せよ．
 

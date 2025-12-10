@@ -3,6 +3,7 @@ title: "東北大学 2016年 2016_4"
 problem_id: "04_tohoku-2016-2016_4"
 university: "東北大学"
 exam_year: "2016"
+problem_number: 4
 source_tex: "archive/04_tohoku/2016/2016_4.tex"
 pdf_source: "archive/04_tohoku/2016/2016_4.pdf"
 page_image: "archive/04_tohoku/2016/2016_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　多項式$P(x)$を
+多項式$P(x)$を
 \[ P(x)=\frac{{(x+i)}^7-{(x-i)}^7}{2i} \]
 により定める。ただし，$i$は虚数単位とする。以下の問いに答えよ。
 \begin{description}

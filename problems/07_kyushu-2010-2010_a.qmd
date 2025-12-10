@@ -3,6 +3,7 @@ title: "九州大学 2010年 2010_a"
 problem_id: "07_kyushu-2010-2010_a"
 university: "九州大学"
 exam_year: "2010"
+problem_number: 1
 source_tex: "archive/07_kyushu/2010/2010_a.tex"
 pdf_source: "archive/07_kyushu/2010/2010_a.pdf"
 page_image: "archive/07_kyushu/2010/2010_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　直線$y=ax$（ただし$a$は正の実数）を$l$とし，曲線$y=f(x)$（ただし$x\geqq0$）を$C$とする．
+直線$y=ax$（ただし$a$は正の実数）を$l$とし，曲線$y=f(x)$（ただし$x\geqq0$）を$C$とする．
 曲線$C$が直線$l$の下側にあり，曲線$C$上の点$(t, \, f(t))$と直線$l$との距離が$at^2$で表されるとき，
 以下の問いに答えよ．
 \begin{description}

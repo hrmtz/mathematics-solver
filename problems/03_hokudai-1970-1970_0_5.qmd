@@ -3,6 +3,7 @@ title: "北海道大学 1970年 1970_0_5"
 problem_id: "03_hokudai-1970-1970_0_5"
 university: "北海道大学"
 exam_year: "1970"
+problem_number: 5
 source_tex: "archive/03_hokudai/1970/1970_0_5.tex"
 pdf_source: "archive/03_hokudai/1970/1970_0_5.pdf"
 page_image: "archive/03_hokudai/1970/1970_0_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$a$が実数のとき
+$a$が実数のとき
 \[ y=x^3-\frac{3}{2}(a-1)x^2-3ax+2 \hspace{1zw} \cdots\cdots\cdots\text{（イ）} \]
 について
 \begin{description}

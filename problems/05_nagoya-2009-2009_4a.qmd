@@ -3,6 +3,7 @@ title: "名古屋大学 2009年 2009_4a"
 problem_id: "05_nagoya-2009-2009_4a"
 university: "名古屋大学"
 exam_year: "2009"
+problem_number: 4
 source_tex: "archive/05_nagoya/2009/2009_4a.tex"
 pdf_source: "archive/05_nagoya/2009/2009_4a.pdf"
 page_image: "archive/05_nagoya/2009/2009_4a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (a)
-　さいころを投げると，1から6までの整数の目が等しい確率で出るとする．
+さいころを投げると，1から6までの整数の目が等しい確率で出るとする．
 さいころを$n$回$(n=1, \, 2, \, 3, \, \cdots)$投げるとき，
 出る目の積の一の位が$j$ $(j=0, \, 1, \, 2, \, \cdots, \, 9)$となる確率を$p_n(j)$とする．
 \begin{description}

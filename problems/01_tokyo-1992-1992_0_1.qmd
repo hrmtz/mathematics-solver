@@ -3,6 +3,7 @@ title: "東京大学 1992年 1992_0_1"
 problem_id: "01_tokyo-1992-1992_0_1"
 university: "東京大学"
 exam_year: "1992"
+problem_number: 1
 source_tex: "archive/01_tokyo/1992/1992_0_1.tex"
 pdf_source: "archive/01_tokyo/1992/1992_0_1.pdf"
 page_image: "archive/01_tokyo/1992/1992_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$x$についての方程式$px^2+(p^2-q)x-(2p-q-1)=0$が解をもち，
+$x$についての方程式$px^2+(p^2-q)x-(2p-q-1)=0$が解をもち，
 すべての解の実部が負となるような実数の組$(p,q)$の範囲を$pq$平面上に図示せよ．
 　(注)複素数$a+bi$ $(a,b\text{は実数},i\text{は虚数単位})$に対し，
 $a$をこの複素数の実部という．

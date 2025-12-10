@@ -3,6 +3,7 @@ title: "大阪大学 2019年 2019_1"
 problem_id: "06_osaka-2019-2019_1"
 university: "大阪大学"
 exam_year: "2019"
+problem_number: 1
 source_tex: "archive/06_osaka/2019/2019_1.tex"
 pdf_source: "archive/06_osaka/2019/2019_1.pdf"
 page_image: "archive/06_osaka/2019/2019_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　以下の問いに答えよ．ただし，$\log$は自然対数，$e$はその底とする．
+以下の問いに答えよ．ただし，$\log$は自然対数，$e$はその底とする．
 \begin{description}
 \item[(1)]$b$を実数とする．関数
 \[ f(x)=\int_x^be^{-\frac{t^2}{2}}dt-\frac{x}{x^2+1}e^{-\frac{x^2}{2}} \]

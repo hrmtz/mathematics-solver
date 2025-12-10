@@ -3,6 +3,7 @@ title: "大阪大学 1991年 1991_d"
 problem_id: "06_osaka-1991-1991_d"
 university: "大阪大学"
 exam_year: "1991"
+problem_number: 4
 source_tex: "archive/06_osaka/1991/1991_d.tex"
 pdf_source: "archive/06_osaka/1991/1991_d.pdf"
 page_image: "archive/06_osaka/1991/1991_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　以下の文中の（ア）～（キ）に適する数または式を解答用紙の指定されたところに記入せよ．
+以下の文中の（ア）～（キ）に適する数または式を解答用紙の指定されたところに記入せよ．
 \begin{description}
 \item[(1)]曲線$y=x^2$上の点$P(a, \, a^2)$ $(a\neq0)$における接線と直交し，
 点$P$を通る直線$y=$（ア）と，曲線$y=x^2$との$P$と異なる交点$Q$の座標は（イ）となる．

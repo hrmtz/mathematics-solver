@@ -3,6 +3,7 @@ title: "東北大学 1967年 1967_6"
 problem_id: "04_tohoku-1967-1967_6"
 university: "東北大学"
 exam_year: "1967"
+problem_number: 6
 source_tex: "archive/04_tohoku/1967/1967_6.tex"
 pdf_source: "archive/04_tohoku/1967/1967_6.pdf"
 page_image: "archive/04_tohoku/1967/1967_6.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(1)]$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$のとき，
 任意の正の整数$n$に対して$n\sin x \geqq \sin nx$の成立することを，

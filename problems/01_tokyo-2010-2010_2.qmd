@@ -3,6 +3,7 @@ title: "東京大学 2010年 2010_2"
 problem_id: "01_tokyo-2010-2010_2"
 university: "東京大学"
 exam_year: "2010"
+problem_number: 2
 source_tex: "archive/01_tokyo/2010/2010_2.tex"
 pdf_source: "archive/01_tokyo/2010/2010_2.pdf"
 page_image: "archive/01_tokyo/2010/2010_2.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]すべての自然数$k$に対して，次の不等式を示せ．
 \[ \frac{1}{2(k+1)}<\int_0^1\frac{1-x}{k+x}dx<\frac{1}{2k} \]

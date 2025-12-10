@@ -3,6 +3,7 @@ title: "名古屋大学 1961年 1961_4"
 problem_id: "05_nagoya-1961-1961_4"
 university: "名古屋大学"
 exam_year: "1961"
+problem_number: 4
 source_tex: "archive/05_nagoya/1961/1961_4.tex"
 pdf_source: "archive/05_nagoya/1961/1961_4.pdf"
 page_image: "archive/05_nagoya/1961/1961_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　直線上を動く点があって，時刻$t$におけるその座標$x$は
+直線上を動く点があって，時刻$t$におけるその座標$x$は
 \[ x=\sin t+3\sin2t \]
 で与えられている。
 \begin{description}

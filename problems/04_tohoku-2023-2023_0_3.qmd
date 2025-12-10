@@ -3,6 +3,7 @@ title: "東北大学 2023年 2023_0_3"
 problem_id: "04_tohoku-2023-2023_0_3"
 university: "東北大学"
 exam_year: "2023"
+problem_number: 3
 source_tex: "archive/04_tohoku/2023/2023_0_3.tex"
 pdf_source: "archive/04_tohoku/2023/2023_0_3.pdf"
 page_image: "archive/04_tohoku/2023/2023_0_3.jpg"
@@ -12,8 +13,7 @@ format:
 ---
 
 
-3
-　$a$を実数とし，2次関数$f(x)=x^2+2ax-3$を考える。
+$a$を実数とし，2次関数$f(x)=x^2+2ax-3$を考える。
 実数$x$が$a \leqq x \leqq a+3$の範囲を動くときの$f(x)$の最大値および最小値を，
 それぞれ$M(a)$および$m(a)$とする。以下の問いに答えよ。
 \begin{description}

@@ -3,6 +3,7 @@ title: "大阪大学 2024年 2024_1"
 problem_id: "06_osaka-2024-2024_1"
 university: "大阪大学"
 exam_year: "2024"
+problem_number: 1
 source_tex: "archive/06_osaka/2024/2024_1.tex"
 pdf_source: "archive/06_osaka/2024/2024_1.pdf"
 page_image: "archive/06_osaka/2024/2024_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　自然数$n$に対して，関数$f_n(x)$を
+自然数$n$に対して，関数$f_n(x)$を
 \[ f_n(x)=1-\frac{1}{2}e^{nx}+\cos\frac{x}{3} \hspace{1zw} (x\geqq0) \]
 で定める．ただし，$e$は自然対数の底である．
 \begin{description}

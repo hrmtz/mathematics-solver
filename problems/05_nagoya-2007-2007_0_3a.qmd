@@ -3,6 +3,7 @@ title: "名古屋大学 2007年 2007_0_3a"
 problem_id: "05_nagoya-2007-2007_0_3a"
 university: "名古屋大学"
 exam_year: "2007"
+problem_number: 3
 source_tex: "archive/05_nagoya/2007/2007_0_3a.tex"
 pdf_source: "archive/05_nagoya/2007/2007_0_3a.pdf"
 page_image: "archive/05_nagoya/2007/2007_0_3a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3 (a)
-　$p$を実数とする．方程式
+$p$を実数とする．方程式
 \[ x^4+(8-2p)x^2+p=0 \]
 が相異なる4個の実数解をもち，
 これらの解を小さい順に並べたときそれらは等差数列をなすとする．

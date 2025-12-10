@@ -3,6 +3,7 @@ title: "大阪大学 1961年 1961_1"
 problem_id: "06_osaka-1961-1961_1"
 university: "大阪大学"
 exam_year: "1961"
+problem_number: 1
 source_tex: "archive/06_osaka/1961/1961_1.tex"
 pdf_source: "archive/06_osaka/1961/1961_1.pdf"
 page_image: "archive/06_osaka/1961/1961_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　次の(1)，(2)，(3)をこの順に解け．
+次の(1)，(2)，(3)をこの順に解け．
 \begin{description}
 \item[(1)]角$AOB$の辺$OA$上に異なる3点$X_1$，$X_2$，$X_3$
 辺$OB$上に3点$Y_1$，$Y_2$，$Y_3$をとって，

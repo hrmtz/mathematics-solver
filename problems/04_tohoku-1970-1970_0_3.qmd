@@ -3,6 +3,7 @@ title: "東北大学 1970年 1970_0_3"
 problem_id: "04_tohoku-1970-1970_0_3"
 university: "東北大学"
 exam_year: "1970"
+problem_number: 3
 source_tex: "archive/04_tohoku/1970/1970_0_3.tex"
 pdf_source: "archive/04_tohoku/1970/1970_0_3.pdf"
 page_image: "archive/04_tohoku/1970/1970_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　正の実数$r$，$\theta$に対して
+正の実数$r$，$\theta$に対して
 \[ a_n(r, \, \theta)=r^n\cos n\theta \hspace{1zw} (n=1, \, 2, \, 3 \cdots\cdots) \]
 とおくとき，次の式は収束・発散のいずれであるか．
 収束の場合はその値を求めよ．

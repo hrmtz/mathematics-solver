@@ -3,6 +3,7 @@ title: "名古屋大学 2002年 2002_0_3a"
 problem_id: "05_nagoya-2002-2002_0_3a"
 university: "名古屋大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/05_nagoya/2002/2002_0_3a.tex"
 pdf_source: "archive/05_nagoya/2002/2002_0_3a.pdf"
 page_image: "archive/05_nagoya/2002/2002_0_3a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3 (a)
-　$O$を原点とする座標平面上の曲線$y=x^2$上の2点$A$，$B$に対し，
+$O$を原点とする座標平面上の曲線$y=x^2$上の2点$A$，$B$に対し，
 $\overrightarrow{OA}\cdot\overrightarrow{OB}=t$とおく．
 \begin{description}
 \item[(1)]$t$のとり得る値の範囲を求めよ．

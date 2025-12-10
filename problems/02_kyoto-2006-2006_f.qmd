@@ -3,6 +3,7 @@ title: "京都大学 2006年 2006_f"
 problem_id: "02_kyoto-2006-2006_f"
 university: "京都大学"
 exam_year: "2006"
+problem_number: 6
 source_tex: "archive/02_kyoto/2006/2006_f.tex"
 pdf_source: "archive/02_kyoto/2006/2006_f.pdf"
 page_image: "archive/02_kyoto/2006/2006_f.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$\tan1^\circ$は有理数か．
+$\tan1^\circ$は有理数か．
 
 ---
 

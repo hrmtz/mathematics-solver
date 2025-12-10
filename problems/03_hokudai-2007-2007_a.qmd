@@ -3,6 +3,7 @@ title: "北海道大学 2007年 2007_a"
 problem_id: "03_hokudai-2007-2007_a"
 university: "北海道大学"
 exam_year: "2007"
+problem_number: 1
 source_tex: "archive/03_hokudai/2007/2007_a.tex"
 pdf_source: "archive/03_hokudai/2007/2007_a.pdf"
 page_image: "archive/03_hokudai/2007/2007_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$k$を実数とし，関数$f(x)$を
+$k$を実数とし，関数$f(x)$を
 \[ f(x)=\sqrt3 \, \sin2x-\cos2x+k(\sqrt3 \, \sin x+\cos x) \]
 とする．
 \begin{description}

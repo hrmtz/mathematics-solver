@@ -3,6 +3,7 @@ title: "東北大学 1971年 1971_3"
 problem_id: "04_tohoku-1971-1971_3"
 university: "東北大学"
 exam_year: "1971"
+problem_number: 3
 source_tex: "archive/04_tohoku/1971/1971_3.tex"
 pdf_source: "archive/04_tohoku/1971/1971_3.pdf"
 page_image: "archive/04_tohoku/1971/1971_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$O$，$A$，$B$を$\overline{OA}=4$，$\overline{OB}=1$，$\displaystyle\angle AOB=\frac{\pi}{3}$なる3点とし，
+$O$，$A$，$B$を$\overline{OA}=4$，$\overline{OB}=1$，$\displaystyle\angle AOB=\frac{\pi}{3}$なる3点とし，
 $\overrightarrow{OA}=\overrightarrow{a}$，$\overrightarrow{OB}=\overrightarrow{b}$と略記する．
 \begin{description}
 \item[(1)]$\angle AOB$の2等分線$g$上の任意の1点を$P$とし，

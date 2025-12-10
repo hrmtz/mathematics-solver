@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_1"
 problem_id: "07_kyushu-1998-1998_1"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 1
 source_tex: "archive/07_kyushu/1998/1998_1.tex"
 pdf_source: "archive/07_kyushu/1998/1998_1.pdf"
 page_image: "archive/07_kyushu/1998/1998_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　以下において，$f(x)$はすべての実数$x$において微分可能な関数とし，$F(x)=e^xf(x)$とおく．
+以下において，$f(x)$はすべての実数$x$において微分可能な関数とし，$F(x)=e^xf(x)$とおく．
 ただし，$e$は自然対数の底である．
 \begin{description}
 \item[(1)]定数関数でない関数$f(x)$で

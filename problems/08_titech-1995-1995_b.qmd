@@ -3,6 +3,7 @@ title: "東京科学大学 1995年 1995_b"
 problem_id: "08_titech-1995-1995_b"
 university: "東京科学大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/08_titech/1995/1995_b.tex"
 pdf_source: "archive/08_titech/1995/1995_b.pdf"
 page_image: "archive/08_titech/1995/1995_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　楕円$\displaystyle C:\frac{x^2}{a^2}+y^2=1$ $(a \geqq 1)$が与えられている．
+楕円$\displaystyle C:\frac{x^2}{a^2}+y^2=1$ $(a \geqq 1)$が与えられている．
 \begin{description}
 \item[(1)]$C$の外部の点$P(X,Y)$から$C$への2接線が直交するように$P$を動かす．$P$の軌跡を求めよ．
 \item[(2)]$S$を(1)で求めた$P$の軌跡とする．

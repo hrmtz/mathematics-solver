@@ -3,6 +3,7 @@ title: "京都大学 1997年 1997_6"
 problem_id: "02_kyoto-1997-1997_6"
 university: "京都大学"
 exam_year: "1997"
+problem_number: 6
 source_tex: "archive/02_kyoto/1997/1997_6.tex"
 pdf_source: "archive/02_kyoto/1997/1997_6.pdf"
 page_image: "archive/02_kyoto/1997/1997_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　曲線$y=\cos x$の$x=t$ $\displaystyle\left(0<t<\frac{\pi}{2}\right)$における接線と
+曲線$y=\cos x$の$x=t$ $\displaystyle\left(0<t<\frac{\pi}{2}\right)$における接線と
 $x$軸，$y$軸の囲む3角形の面積を$S(t)$とする．
 \begin{description}
 \item[(1)]$t$の関数として，$S(t)$ $\displaystyle\left(0<t<\frac{\pi}{2}\right)$を求めよ．

@@ -3,6 +3,7 @@ title: "九州大学 2005年 2005_2"
 problem_id: "07_kyushu-2005-2005_2"
 university: "九州大学"
 exam_year: "2005"
+problem_number: 2
 source_tex: "archive/07_kyushu/2005/2005_2.tex"
 pdf_source: "archive/07_kyushu/2005/2005_2.pdf"
 page_image: "archive/07_kyushu/2005/2005_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　行列$A$と列ベクトル$\overrightarrow{a}$，$\overrightarrow{b}$を
+行列$A$と列ベクトル$\overrightarrow{a}$，$\overrightarrow{b}$を
 $\displaystyle A=\frac{1}{2}\begin{pmatrix} 1 & 1 
 
  0 & 1 \end{pmatrix}$，

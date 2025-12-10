@@ -3,6 +3,7 @@ title: "東京大学 1972年 1972_6"
 problem_id: "01_tokyo-1972-1972_6"
 university: "東京大学"
 exam_year: "1972"
+problem_number: 6
 source_tex: "archive/01_tokyo/1972/1972_6.tex"
 pdf_source: "archive/01_tokyo/1972/1972_6.pdf"
 page_image: "archive/01_tokyo/1972/1972_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　図の長方形$ABP_1P_5$はある国境の町をあらわし，
+図の長方形$ABP_1P_5$はある国境の町をあらわし，
 各線分は道路をあらわす．
 図の地点$P_1$，$P_2$，$\cdots$，$P_9$には外国への通路が開かれている．
 いま，ある犯人が$B$から外国に向って逃走しようとしているが，

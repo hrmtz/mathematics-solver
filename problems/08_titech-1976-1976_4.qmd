@@ -3,6 +3,7 @@ title: "東京科学大学 1976年 1976_4"
 problem_id: "08_titech-1976-1976_4"
 university: "東京科学大学"
 exam_year: "1976"
+problem_number: 4
 source_tex: "archive/08_titech/1976/1976_4.tex"
 pdf_source: "archive/08_titech/1976/1976_4.pdf"
 page_image: "archive/08_titech/1976/1976_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　関係式$\displaystyle\int_0^xf(t)dt=e^x-ae^{2x}\int_0^1f(t)e^{-t}dt$を満たす
+関係式$\displaystyle\int_0^xf(t)dt=e^x-ae^{2x}\int_0^1f(t)e^{-t}dt$を満たす
 連続関数$f(x)$と定数$a$を求めよ．
 
 ---

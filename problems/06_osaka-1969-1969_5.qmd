@@ -3,6 +3,7 @@ title: "大阪大学 1969年 1969_5"
 problem_id: "06_osaka-1969-1969_5"
 university: "大阪大学"
 exam_year: "1969"
+problem_number: 5
 source_tex: "archive/06_osaka/1969/1969_5.tex"
 pdf_source: "archive/06_osaka/1969/1969_5.pdf"
 page_image: "archive/06_osaka/1969/1969_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$\displaystyle f(x)=\int_0^x(\sin t)\log(1+\sin t)dt$を
+$\displaystyle f(x)=\int_0^x(\sin t)\log(1+\sin t)dt$を
 $0 \leqq x \leqq \pi$で定義された関数とする．
 ただし，対数は自然対数とする．
 \begin{description}

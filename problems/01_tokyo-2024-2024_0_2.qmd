@@ -3,6 +3,7 @@ title: "東京大学 2024年 2024_0_2"
 problem_id: "01_tokyo-2024-2024_0_2"
 university: "東京大学"
 exam_year: "2024"
+problem_number: 2
 source_tex: "archive/01_tokyo/2024/2024_0_2.tex"
 pdf_source: "archive/01_tokyo/2024/2024_0_2.pdf"
 page_image: "archive/01_tokyo/2024/2024_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　以下の問いに答えよ。
+以下の問いに答えよ。
 必要ならば，$0.3<\log_{10}2<0.31$であることを用いてよい。
 \begin{description}
 \item[(1)]$5^n>{10}^{19}$となる最小の自然数$n$を求めよ。

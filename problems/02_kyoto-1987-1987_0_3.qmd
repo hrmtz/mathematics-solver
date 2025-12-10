@@ -3,6 +3,7 @@ title: "京都大学 1987年 1987_0_3"
 problem_id: "02_kyoto-1987-1987_0_3"
 university: "京都大学"
 exam_year: "1987"
+problem_number: 3
 source_tex: "archive/02_kyoto/1987/1987_0_3.tex"
 pdf_source: "archive/02_kyoto/1987/1987_0_3.pdf"
 page_image: "archive/02_kyoto/1987/1987_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　正の数$a$を用いた係数をもつ方程式$a\{x-(a^2+a-2)\}+y+2=0$の定める直線が，
+正の数$a$を用いた係数をもつ方程式$a\{x-(a^2+a-2)\}+y+2=0$の定める直線が，
 $x$軸，直線$\displaystyle y=\frac{1}{2}x$と交わる点を，それぞれ，$A$，$B$とする．
 このとき，$A$，$B$が次の2条件をみたすような正の数$a$の範囲を求めよ．
 \begin{description}

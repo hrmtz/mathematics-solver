@@ -3,6 +3,7 @@ title: "大阪大学 1987年 1987_4"
 problem_id: "06_osaka-1987-1987_4"
 university: "大阪大学"
 exam_year: "1987"
+problem_number: 4
 source_tex: "archive/06_osaka/1987/1987_4.tex"
 pdf_source: "archive/06_osaka/1987/1987_4.pdf"
 page_image: "archive/06_osaka/1987/1987_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　原点で$zx$平面に接し，$zx$平面に関して点$P(2, \, 4, \, 0)$と同じ側にある半径2の球$S$がある．
+原点で$zx$平面に接し，$zx$平面に関して点$P(2, \, 4, \, 0)$と同じ側にある半径2の球$S$がある．
 $S$の中心を$Q$とし，$yz$平面上の曲線$\displaystyle C:y=4-\frac{z^2}{4}$上に点$R$をとる．
 \begin{description}
 \item[(1)]$\angle QPR$の大きさを求めよ．

@@ -3,6 +3,7 @@ title: "名古屋大学 1994年 1994_c"
 problem_id: "05_nagoya-1994-1994_c"
 university: "名古屋大学"
 exam_year: "1994"
+problem_number: 3
 source_tex: "archive/05_nagoya/1994/1994_c.tex"
 pdf_source: "archive/05_nagoya/1994/1994_c.pdf"
 page_image: "archive/05_nagoya/1994/1994_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$k$，$n$を正整数とする．$I(k, \, n)$を
+$k$，$n$を正整数とする．$I(k, \, n)$を
 \[ I(k, \, n)=\int_0^1 x^{2k} \cos n \pi x dx \]
 で与えられる定積分の値とするとき，次の問に答えよ．
 \begin{description}

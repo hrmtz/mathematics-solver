@@ -3,6 +3,7 @@ title: "東京科学大学 1972年 1972_6"
 problem_id: "08_titech-1972-1972_6"
 university: "東京科学大学"
 exam_year: "1972"
+problem_number: 6
 source_tex: "archive/08_titech/1972/1972_6.tex"
 pdf_source: "archive/08_titech/1972/1972_6.pdf"
 page_image: "archive/08_titech/1972/1972_6.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(1)]初項$a$，公差$d$の等差数列$\{ a_n \}$に対して，
 級数$\displaystyle\sum_{n=1}^\infty e^{a_n}$が収束するための必要十分な条件を求めよ．

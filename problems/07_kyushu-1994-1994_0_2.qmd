@@ -3,6 +3,7 @@ title: "九州大学 1994年 1994_0_2"
 problem_id: "07_kyushu-1994-1994_0_2"
 university: "九州大学"
 exam_year: "1994"
+problem_number: 2
 source_tex: "archive/07_kyushu/1994/1994_0_2.tex"
 pdf_source: "archive/07_kyushu/1994/1994_0_2.pdf"
 page_image: "archive/07_kyushu/1994/1994_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$m$と$k$を実数の定数として，座標平面上の変換$f$を
+$m$と$k$を実数の定数として，座標平面上の変換$f$を
 \[ \begin{pmatrix} x 
 
  y \end{pmatrix} \to

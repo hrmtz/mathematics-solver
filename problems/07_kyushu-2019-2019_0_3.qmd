@@ -3,6 +3,7 @@ title: "九州大学 2019年 2019_0_3"
 problem_id: "07_kyushu-2019-2019_0_3"
 university: "九州大学"
 exam_year: "2019"
+problem_number: 3
 source_tex: "archive/07_kyushu/2019/2019_0_3.tex"
 pdf_source: "archive/07_kyushu/2019/2019_0_3.pdf"
 page_image: "archive/07_kyushu/2019/2019_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　座標空間内の3点$A(1, \, 2, \, 3)$，$B(3, \, 2, \, 3)$，$C(4, \, 5, \, 6)$を通る平面を$\alpha$とし，
+座標空間内の3点$A(1, \, 2, \, 3)$，$B(3, \, 2, \, 3)$，$C(4, \, 5, \, 6)$を通る平面を$\alpha$とし，
 平面$\alpha$上にない点$P(6, \, p, \, q)$を考える。以下の問いに答えよ。
 \begin{description}
 \item[(1)]点$P$から平面$\alpha$に下ろした垂線と$\alpha$との交点を$H$とする。

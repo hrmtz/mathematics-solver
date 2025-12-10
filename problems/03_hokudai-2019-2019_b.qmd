@@ -3,6 +3,7 @@ title: "北海道大学 2019年 2019_b"
 problem_id: "03_hokudai-2019-2019_b"
 university: "北海道大学"
 exam_year: "2019"
+problem_number: 2
 source_tex: "archive/03_hokudai/2019/2019_b.tex"
 pdf_source: "archive/03_hokudai/2019/2019_b.pdf"
 page_image: "archive/03_hokudai/2019/2019_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$a$，$t$は実数で，$a$は1以上とする。
+$a$，$t$は実数で，$a$は1以上とする。
 座標平面上の3点$O(0, \, 0)$，$A(a, \, a-1)$，$P(t, \, t^2+1)$を頂点とする三角形の
 重心$G$の座標を$(X, \, Y)$とする。
 \begin{description}

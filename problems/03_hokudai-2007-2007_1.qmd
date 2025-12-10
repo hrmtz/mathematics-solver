@@ -3,6 +3,7 @@ title: "北海道大学 2007年 2007_1"
 problem_id: "03_hokudai-2007-2007_1"
 university: "北海道大学"
 exam_year: "2007"
+problem_number: 1
 source_tex: "archive/03_hokudai/2007/2007_1.tex"
 pdf_source: "archive/03_hokudai/2007/2007_1.pdf"
 page_image: "archive/03_hokudai/2007/2007_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　方程式$x^2+y^2-4y+2=0$で定義される円$C$を考える．
+方程式$x^2+y^2-4y+2=0$で定義される円$C$を考える．
 \begin{description}
 \item[(1)]点$A(-\sqrt2,0)$と点$O(0,0)$を通り，
 円$C$に接する円の中心の座標を求めよ．

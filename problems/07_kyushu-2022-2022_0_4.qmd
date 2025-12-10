@@ -3,6 +3,7 @@ title: "九州大学 2022年 2022_0_4"
 problem_id: "07_kyushu-2022-2022_0_4"
 university: "九州大学"
 exam_year: "2022"
+problem_number: 4
 source_tex: "archive/07_kyushu/2022/2022_0_4.tex"
 pdf_source: "archive/07_kyushu/2022/2022_0_4.pdf"
 page_image: "archive/07_kyushu/2022/2022_0_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　定積分について述べた次の文章を読んで，後の問いに答えよ。
+定積分について述べた次の文章を読んで，後の問いに答えよ。
 
 　$f(x)$を整式とする。$F'(x)=f(x)$となる関数$F(x)$を1つ選び，$f(x)$の$a$から$b$までの定積分を
 \[ \int_a^b f(x)dx=F(b)-F(a) \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \]

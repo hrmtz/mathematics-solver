@@ -3,6 +3,7 @@ title: "北海道大学 2022年 2022_5"
 problem_id: "03_hokudai-2022-2022_5"
 university: "北海道大学"
 exam_year: "2022"
+problem_number: 5
 source_tex: "archive/03_hokudai/2022/2022_5.tex"
 pdf_source: "archive/03_hokudai/2022/2022_5.pdf"
 page_image: "archive/03_hokudai/2022/2022_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　複素数$z$に関する次の2つの方程式を考える。
+複素数$z$に関する次の2つの方程式を考える。
 ただし，$\bar{z}$を$z$と共役な複素数とし，$i$を虚数単位とする。
 \[ z\bar{z}=4 \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \hspace{1zw}
 |z|=|z-\sqrt3+i| \hspace{1zw} \cdots\cdots\text{\ding{"AD}} \]

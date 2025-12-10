@@ -3,6 +3,7 @@ title: "名古屋大学 2006年 2006_1"
 problem_id: "05_nagoya-2006-2006_1"
 university: "名古屋大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/05_nagoya/2006/2006_1.tex"
 pdf_source: "archive/05_nagoya/2006/2006_1.pdf"
 page_image: "archive/05_nagoya/2006/2006_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$xy$平面上に曲線$C:y=\log x \, (x>0)$を考える．
+$xy$平面上に曲線$C:y=\log x \, (x>0)$を考える．
 \begin{description}
 \item[(1)]曲線$C$の接線で点$(0, \, b)$を通るものの方程式を求めよ．
 \item[(2)]平面上に2組の点列$\{ A_n \}$，$\{ B_n \}$を次のように定める．

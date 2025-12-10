@@ -3,6 +3,7 @@ title: "大阪大学 1978年 1978_3"
 problem_id: "06_osaka-1978-1978_3"
 university: "大阪大学"
 exam_year: "1978"
+problem_number: 3
 source_tex: "archive/06_osaka/1978/1978_3.tex"
 pdf_source: "archive/06_osaka/1978/1978_3.pdf"
 page_image: "archive/06_osaka/1978/1978_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2つの1次変換$f$，$g$の行列をそれぞれ
+2つの1次変換$f$，$g$の行列をそれぞれ
 $F=\begin{pmatrix} 1 & 2 
 
  -2 & 1 \end{pmatrix}$，

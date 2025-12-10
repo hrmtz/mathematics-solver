@@ -3,6 +3,7 @@ title: "名古屋大学 2019年 2019_3"
 problem_id: "05_nagoya-2019-2019_3"
 university: "名古屋大学"
 exam_year: "2019"
+problem_number: 3
 source_tex: "archive/05_nagoya/2019/2019_3.tex"
 pdf_source: "archive/05_nagoya/2019/2019_3.pdf"
 page_image: "archive/05_nagoya/2019/2019_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　正の整数$n$の正の平方根$\sqrt{n}$は整数ではなく，それを10進法で表すと，
+正の整数$n$の正の平方根$\sqrt{n}$は整数ではなく，それを10進法で表すと，
 小数第1位は0であり，第2位は0以外の数であるとする。
 \begin{description}
 \item[(1)]このような$n$の中で最小のものを求めよ。

@@ -3,6 +3,7 @@ title: "九州大学 2018年 2018_a"
 problem_id: "07_kyushu-2018-2018_a"
 university: "九州大学"
 exam_year: "2018"
+problem_number: 1
 source_tex: "archive/07_kyushu/2018/2018_a.tex"
 pdf_source: "archive/07_kyushu/2018/2018_a.pdf"
 page_image: "archive/07_kyushu/2018/2018_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　次で定義される数列$\{ I_n \}$を考える。
+次で定義される数列$\{ I_n \}$を考える。
 \[ I_n=2n\int_0^{\frac{\pi}{2}}x\sin x\cos^{2n-1}xdx \hspace{1zw}
 (n=1, \, 2, \, 3, \, \cdots\cdots) \]
 以下の問いに答えよ。

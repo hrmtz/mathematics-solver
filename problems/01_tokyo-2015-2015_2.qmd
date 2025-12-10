@@ -3,6 +3,7 @@ title: "東京大学 2015年 2015_2"
 problem_id: "01_tokyo-2015-2015_2"
 university: "東京大学"
 exam_year: "2015"
+problem_number: 2
 source_tex: "archive/01_tokyo/2015/2015_2.tex"
 pdf_source: "archive/01_tokyo/2015/2015_2.pdf"
 page_image: "archive/01_tokyo/2015/2015_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　どの目も出る確率が$\displaystyle\frac{1}{6}$のさいころを1つ用意し，
+どの目も出る確率が$\displaystyle\frac{1}{6}$のさいころを1つ用意し，
 次のように左から順に文字を書く。
 　さいころを投げ，出た目が$1, \, 2, \, 3$のときは文字列$A \, A$を書き，
 4のときは文字$B$を，5のときは文字$C$を，6のときは文字$D$を書く。

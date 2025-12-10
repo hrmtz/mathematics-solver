@@ -3,6 +3,7 @@ title: "東京大学 1971年 1971_6"
 problem_id: "01_tokyo-1971-1971_6"
 university: "東京大学"
 exam_year: "1971"
+problem_number: 6
 source_tex: "archive/01_tokyo/1971/1971_6.tex"
 pdf_source: "archive/01_tokyo/1971/1971_6.pdf"
 page_image: "archive/01_tokyo/1971/1971_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　3人で‘ジャンケン’をして勝者をきめることにする．
+3人で‘ジャンケン’をして勝者をきめることにする．
 たとえば，1人が‘紙’を出し，他の2人が‘石’を出せば，
 ただ1回でちょうど1人の勝者がきまることになる．
 3人で‘ジャンケン’をして，負けた人は次の回に参加しないことにして，

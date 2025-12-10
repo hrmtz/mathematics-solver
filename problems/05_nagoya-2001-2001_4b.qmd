@@ -3,6 +3,7 @@ title: "名古屋大学 2001年 2001_4b"
 problem_id: "05_nagoya-2001-2001_4b"
 university: "名古屋大学"
 exam_year: "2001"
+problem_number: 4
 source_tex: "archive/05_nagoya/2001/2001_4b.tex"
 pdf_source: "archive/05_nagoya/2001/2001_4b.pdf"
 page_image: "archive/05_nagoya/2001/2001_4b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (b)
-　数直線上の原点$O$から出発して，
+数直線上の原点$O$から出発して，
 効果を投げながら駒を整数点上動かすゲームを考える．
 毎回硬貨を投げて表が出れば$+1$，裏が出れば$-1$，それぞれ駒を進めるとする．
 ただし，点$-1$または点$3$に着いたときは以後そこにとどまるものとする．

@@ -3,6 +3,7 @@ title: "北海道大学 2008年 2008_c"
 problem_id: "03_hokudai-2008-2008_c"
 university: "北海道大学"
 exam_year: "2008"
+problem_number: 3
 source_tex: "archive/03_hokudai/2008/2008_c.tex"
 pdf_source: "archive/03_hokudai/2008/2008_c.pdf"
 page_image: "archive/03_hokudai/2008/2008_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　右図のように水深$h$が一定勾配で浅くなる海がある．
+右図のように水深$h$が一定勾配で浅くなる海がある．
 位置$x$における水深は$h(x)=h_0-ax$で与えられる．
 ただし，$a>0$，$h_0>0$とする．
 時刻$t=0$のとき，位置$x=0$で津波が発生した．

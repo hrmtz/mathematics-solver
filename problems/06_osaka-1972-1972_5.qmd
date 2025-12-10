@@ -3,6 +3,7 @@ title: "大阪大学 1972年 1972_5"
 problem_id: "06_osaka-1972-1972_5"
 university: "大阪大学"
 exam_year: "1972"
+problem_number: 5
 source_tex: "archive/06_osaka/1972/1972_5.tex"
 pdf_source: "archive/06_osaka/1972/1972_5.pdf"
 page_image: "archive/06_osaka/1972/1972_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　数列$\{a_n\}$において
+数列$\{a_n\}$において
 \[ \begin{cases} (\sin\theta)a_{n-1}-(\theta+\sin\theta)a_n+\theta a_{n+1}=0 & (n\geqq1)
 (\sin\theta)a_0-\theta a_1=0 & \end{cases} \]
 という関係がある．

@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_0_3b"
 problem_id: "07_kyushu-2000-2000_0_3b"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 3
 source_tex: "archive/07_kyushu/2000/2000_0_3b.tex"
 pdf_source: "archive/07_kyushu/2000/2000_0_3b.pdf"
 page_image: "archive/07_kyushu/2000/2000_0_3b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3 (b)
-　下記の各命題についてその真偽を記し，理由を述べよ．
+下記の各命題についてその真偽を記し，理由を述べよ．
 \begin{description}
 \item[(1)]$\sqrt7$は無理数である．
 \item[(2)]和も積も共に0でない有理数であるような2つの実数$a$，$b$は，共に有理数である．

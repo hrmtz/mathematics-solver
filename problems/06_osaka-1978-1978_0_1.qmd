@@ -3,6 +3,7 @@ title: "大阪大学 1978年 1978_0_1"
 problem_id: "06_osaka-1978-1978_0_1"
 university: "大阪大学"
 exam_year: "1978"
+problem_number: 1
 source_tex: "archive/06_osaka/1978/1978_0_1.tex"
 pdf_source: "archive/06_osaka/1978/1978_0_1.pdf"
 page_image: "archive/06_osaka/1978/1978_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$\log_8(2-x)+\log_{64}(x+1)\geqq\log_4x$を解け．
+$\log_8(2-x)+\log_{64}(x+1)\geqq\log_4x$を解け．
 
 ---
 

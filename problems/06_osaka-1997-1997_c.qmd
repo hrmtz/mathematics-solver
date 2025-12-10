@@ -3,6 +3,7 @@ title: "大阪大学 1997年 1997_c"
 problem_id: "06_osaka-1997-1997_c"
 university: "大阪大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/06_osaka/1997/1997_c.tex"
 pdf_source: "archive/06_osaka/1997/1997_c.pdf"
 page_image: "archive/06_osaka/1997/1997_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$\overrightarrow{x_1}=(1, \, 0)$，
+$\overrightarrow{x_1}=(1, \, 0)$，
 $\displaystyle\overrightarrow{x_2}=\left( -\frac{1}{2}, \, \frac{\sqrt3}{2} \right)$，
 $\displaystyle\overrightarrow{x_3}=\left( -\frac{1}{2}, \, -\frac{\sqrt3}{2} \right)$，
 $\overrightarrow{0}=(0, \, 0)$とおく．

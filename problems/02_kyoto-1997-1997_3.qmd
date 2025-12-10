@@ -3,6 +3,7 @@ title: "京都大学 1997年 1997_3"
 problem_id: "02_kyoto-1997-1997_3"
 university: "京都大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/02_kyoto/1997/1997_3.tex"
 pdf_source: "archive/02_kyoto/1997/1997_3.pdf"
 page_image: "archive/02_kyoto/1997/1997_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2つの放物線$y=x^2+1$と$y=kx^2$ $(k>1)$で囲まれた部分の面積が
+2つの放物線$y=x^2+1$と$y=kx^2$ $(k>1)$で囲まれた部分の面積が
 第1の放物線上の点$P(a,a^2+1)$における接線$L$によって2等分されている
 (すなわち，$L$の上側にある部分の面積と下側にある部分の面積が等しい)．
 \begin{description}

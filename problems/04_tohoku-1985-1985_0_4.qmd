@@ -3,6 +3,7 @@ title: "東北大学 1985年 1985_0_4"
 problem_id: "04_tohoku-1985-1985_0_4"
 university: "東北大学"
 exam_year: "1985"
+problem_number: 4
 source_tex: "archive/04_tohoku/1985/1985_0_4.tex"
 pdf_source: "archive/04_tohoku/1985/1985_0_4.pdf"
 page_image: "archive/04_tohoku/1985/1985_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　空間内の3直線
+空間内の3直線
 \[ l_0:y=z=0, \hspace{1zw} l_1:\frac{x}{2}=y=z-1, \hspace{1zw} l_2:-x=y=z+1 \]
 を考える．
 $l_0$上の点$P(t, \, 0, \, 0)$に対し，

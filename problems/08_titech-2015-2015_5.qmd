@@ -3,6 +3,7 @@ title: "東京科学大学 2015年 2015_5"
 problem_id: "08_titech-2015-2015_5"
 university: "東京科学大学"
 exam_year: "2015"
+problem_number: 5
 source_tex: "archive/08_titech/2015/2015_5.tex"
 pdf_source: "archive/08_titech/2015/2015_5.pdf"
 page_image: "archive/08_titech/2015/2015_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n$を相異なる素数$p_1, \, p_2, \, \cdots, \, p_k$ $(k\geqq1)$の積とする．
+$n$を相異なる素数$p_1, \, p_2, \, \cdots, \, p_k$ $(k\geqq1)$の積とする．
 $a, \, b$を$n$の約数とするとき，$a, \, b$の最大公約数を$G$，最小公倍数を$L$とし，
 \[ f(a, \, b)=\frac{L}{G} \]
 とする．

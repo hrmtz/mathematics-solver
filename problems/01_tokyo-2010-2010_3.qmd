@@ -3,6 +3,7 @@ title: "東京大学 2010年 2010_3"
 problem_id: "01_tokyo-2010-2010_3"
 university: "東京大学"
 exam_year: "2010"
+problem_number: 3
 source_tex: "archive/01_tokyo/2010/2010_3.tex"
 pdf_source: "archive/01_tokyo/2010/2010_3.pdf"
 page_image: "archive/01_tokyo/2010/2010_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2つの箱$L$と$R$，ボール30個，コイン投げで表と裏が等確率$\displaystyle\frac{1}{2}$で出るコイン1枚を用意する．
+2つの箱$L$と$R$，ボール30個，コイン投げで表と裏が等確率$\displaystyle\frac{1}{2}$で出るコイン1枚を用意する．
 $x$を0以上30以下の整数とする．
 $L$に$x$個，$R$に$30-x$個のボールを入れ，次の操作(＃)を繰り返す．
 \begin{description}

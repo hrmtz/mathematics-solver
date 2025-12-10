@@ -3,6 +3,7 @@ title: "九州大学 1962年 1962_4"
 problem_id: "07_kyushu-1962-1962_4"
 university: "九州大学"
 exam_year: "1962"
+problem_number: 4
 source_tex: "archive/07_kyushu/1962/1962_4.tex"
 pdf_source: "archive/07_kyushu/1962/1962_4.pdf"
 page_image: "archive/07_kyushu/1962/1962_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$，$b$は正の定数である。右の図のような2つの曲線
+$a$，$b$は正の定数である。右の図のような2つの曲線
 \[ y=a\cos x \hspace{1zw} \left( 0 \leqq x \leqq \frac{\pi}{2} \right) \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \]
 \[ y=b\sin x \hspace{1zw} (0 \leqq x \leqq \pi) \hspace{1zw} \cdots\cdots\text{\ding{"AD}} \]
 と$x$軸とで囲まれる2つの部分のなかで，原点を含まない部分の面積を$S_1$とし，他の部分の面積を$S_2$とする。

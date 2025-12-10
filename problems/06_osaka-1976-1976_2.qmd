@@ -3,6 +3,7 @@ title: "大阪大学 1976年 1976_2"
 problem_id: "06_osaka-1976-1976_2"
 university: "大阪大学"
 exam_year: "1976"
+problem_number: 2
 source_tex: "archive/06_osaka/1976/1976_2.tex"
 pdf_source: "archive/06_osaka/1976/1976_2.pdf"
 page_image: "archive/06_osaka/1976/1976_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　1辺の長さ1の立方体において，
+1辺の長さ1の立方体において，
 1つの頂点を$A$，$A$から最も遠い位置にある頂点を$B$とする．
 この立方体の中に2つの球$S_1$，$S_2$を，
 $S_1$は頂点$A$を通る立方体の3つの面に接し，

@@ -3,6 +3,7 @@ title: "東北大学 2007年 2007_4"
 problem_id: "04_tohoku-2007-2007_4"
 university: "東北大学"
 exam_year: "2007"
+problem_number: 4
 source_tex: "archive/04_tohoku/2007/2007_4.tex"
 pdf_source: "archive/04_tohoku/2007/2007_4.pdf"
 page_image: "archive/04_tohoku/2007/2007_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$xy$平面上に4点(0,0)，(4,0)，(4,4)，(0,4)を頂点とする正方形$K$を考える．
+$xy$平面上に4点(0,0)，(4,0)，(4,4)，(0,4)を頂点とする正方形$K$を考える．
 点(1,2)を通る各直線に対して，その$K$に含まれる部分を$l$とおく．
 \begin{description}
 \item[(1)]$l$の長さの最大値と，それを与える直線の方程式を求めよ．

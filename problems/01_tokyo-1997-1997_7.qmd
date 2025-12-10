@@ -3,6 +3,7 @@ title: "東京大学 1997年 1997_7"
 problem_id: "01_tokyo-1997-1997_7"
 university: "東京大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/01_tokyo/1997/1997_7.tex"
 pdf_source: "archive/01_tokyo/1997/1997_7.pdf"
 page_image: "archive/01_tokyo/1997/1997_7.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　右の図のように，1辺の長さが1の正三角形で，平面を分割する．
+右の図のように，1辺の長さが1の正三角形で，平面を分割する．
 　これらの1辺の長さが1の正三角形1つ1つを，
 単位正三角形とよぶことにする．
 はじめに1個以上有限個の単位正三角形が塗りつぶされているとし，

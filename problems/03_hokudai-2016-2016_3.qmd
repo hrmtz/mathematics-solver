@@ -3,6 +3,7 @@ title: "北海道大学 2016年 2016_3"
 problem_id: "03_hokudai-2016-2016_3"
 university: "北海道大学"
 exam_year: "2016"
+problem_number: 3
 source_tex: "archive/03_hokudai/2016/2016_3.tex"
 pdf_source: "archive/03_hokudai/2016/2016_3.pdf"
 page_image: "archive/03_hokudai/2016/2016_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　机のひきだしAに3枚のメダル，ひきだしBに2枚のメダルが入っている。
+机のひきだしAに3枚のメダル，ひきだしBに2枚のメダルが入っている。
 ひきだしAの各メダルの色は金，銀，銅のどれかであり，
 ひきだしBの各メダルの色は金，銀のどちらかである。
 \begin{description}

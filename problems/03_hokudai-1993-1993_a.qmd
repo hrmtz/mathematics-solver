@@ -3,6 +3,7 @@ title: "北海道大学 1993年 1993_a"
 problem_id: "03_hokudai-1993-1993_a"
 university: "北海道大学"
 exam_year: "1993"
+problem_number: 1
 source_tex: "archive/03_hokudai/1993/1993_a.tex"
 pdf_source: "archive/03_hokudai/1993/1993_a.pdf"
 page_image: "archive/03_hokudai/1993/1993_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$p_1$，$p_2$，$p_3$を$p_1<p_2<p_3$を満たす実数とし，
+$p_1$，$p_2$，$p_3$を$p_1<p_2<p_3$を満たす実数とし，
 \[ f(x)=(x-p_2)(x-p_3)+(x-p_3)(x-p_1)+(x-p_1)(x-p_2) \]
 とするとき，次の問に答えよ．
 \begin{description}

@@ -3,6 +3,7 @@ title: "北海道大学 2000年 2000_4"
 problem_id: "03_hokudai-2000-2000_4"
 university: "北海道大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/03_hokudai/2000/2000_4.tex"
 pdf_source: "archive/03_hokudai/2000/2000_4.pdf"
 page_image: "archive/03_hokudai/2000/2000_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]方程式$Ae^x-x=0$が$0<x<3$の範囲で異なる2つの解をもつための実数$A$の範囲を求めよ．
 ただし$e=2.71\cdots$は自然対数の底である．

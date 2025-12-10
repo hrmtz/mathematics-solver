@@ -3,6 +3,7 @@ title: "大阪大学 2021年 2021_0_1"
 problem_id: "06_osaka-2021-2021_0_1"
 university: "大阪大学"
 exam_year: "2021"
+problem_number: 1
 source_tex: "archive/06_osaka/2021/2021_0_1.tex"
 pdf_source: "archive/06_osaka/2021/2021_0_1.pdf"
 page_image: "archive/06_osaka/2021/2021_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$を実数とする．$C$を放物線$y=x^2$とする．
+$a$を実数とする．$C$を放物線$y=x^2$とする．
 \begin{description}
 \item[(1)]点$A(a, \, -1)$を通るような$C$の接線は，ちょうど2本存在することを示せ．
 \item[(2)]点$A(a, \, -1)$から$C$に2本の接線を引き，その接点を$P$，$Q$とする．

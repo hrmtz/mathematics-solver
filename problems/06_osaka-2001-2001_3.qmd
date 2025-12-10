@@ -3,6 +3,7 @@ title: "大阪大学 2001年 2001_3"
 problem_id: "06_osaka-2001-2001_3"
 university: "大阪大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/06_osaka/2001/2001_3.tex"
 pdf_source: "archive/06_osaka/2001/2001_3.pdf"
 page_image: "archive/06_osaka/2001/2001_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　半径1の円周上に，$4n$個の点$P_0,P_1,\cdots\cdots,P_{4n-1}$が，
+半径1の円周上に，$4n$個の点$P_0,P_1,\cdots\cdots,P_{4n-1}$が，
 反時計回りに等間隔に並んでいるとする．
 ただし，$n$は自然数である．
 \begin{description}

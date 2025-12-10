@@ -3,6 +3,7 @@ title: "京都大学 1993年 1993_0_c"
 problem_id: "02_kyoto-1993-1993_0_c"
 university: "京都大学"
 exam_year: "1993"
+problem_number: 3
 source_tex: "archive/02_kyoto/1993/1993_0_c.tex"
 pdf_source: "archive/02_kyoto/1993/1993_0_c.pdf"
 page_image: "archive/02_kyoto/1993/1993_0_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　数列$\{a_n\}$を次のように定義する．
+数列$\{a_n\}$を次のように定義する．
 \[ \begin{cases} a_1=1, & 
 
  \displaystyle a_{n+1}=\frac{1}{2}a_n+\frac{1}{n+1} & (n=1,2,\cdots\cdots) \end{cases} \]

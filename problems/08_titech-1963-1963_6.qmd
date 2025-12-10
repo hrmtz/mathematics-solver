@@ -3,6 +3,7 @@ title: "東京科学大学 1963年 1963_6"
 problem_id: "08_titech-1963-1963_6"
 university: "東京科学大学"
 exam_year: "1963"
+problem_number: 6
 source_tex: "archive/08_titech/1963/1963_6.tex"
 pdf_source: "archive/08_titech/1963/1963_6.pdf"
 page_image: "archive/08_titech/1963/1963_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　二次関数$f(x)=x^2+px+q$が任意な一次関数$g(x)$に対して
+二次関数$f(x)=x^2+px+q$が任意な一次関数$g(x)$に対して
 \[ \int_0^af(x)g(x)dx=0 \hspace{1zw} (a\text{は正の定数}) \]
 を満たすならば，
 方程式$f(x)=0$は範囲$0<x<a$に2つの実根をもつことを証明せよ。

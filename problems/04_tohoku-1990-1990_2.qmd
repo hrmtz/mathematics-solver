@@ -3,6 +3,7 @@ title: "東北大学 1990年 1990_2"
 problem_id: "04_tohoku-1990-1990_2"
 university: "東北大学"
 exam_year: "1990"
+problem_number: 2
 source_tex: "archive/04_tohoku/1990/1990_2.tex"
 pdf_source: "archive/04_tohoku/1990/1990_2.pdf"
 page_image: "archive/04_tohoku/1990/1990_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$xyz$空間における球面
+$xyz$空間における球面
 \[ B:{(x-3)}^2+{(y-4)}^2+{(z-12)}^2={13}^2 \]
 について考える．
 \begin{description}

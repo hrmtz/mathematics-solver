@@ -3,6 +3,7 @@ title: "東京大学 2000年 2000_4"
 problem_id: "01_tokyo-2000-2000_4"
 university: "東京大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/01_tokyo/2000/2000_4.tex"
 pdf_source: "archive/01_tokyo/2000/2000_4.pdf"
 page_image: "archive/01_tokyo/2000/2000_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　座標平面上を運動する3点$P$，$Q$，$R$があり，時刻$t$における座標が次で与えられている．
+座標平面上を運動する3点$P$，$Q$，$R$があり，時刻$t$における座標が次で与えられている．
 \[ P:x=\cos t, \hspace{1zw} y=\sin t \]
 \[ Q:x=1-vt, \hspace{1zw} y=\frac{\sqrt3}{2} \]
 \[ R:x=1-vt, \hspace{1zw} y=1 \]

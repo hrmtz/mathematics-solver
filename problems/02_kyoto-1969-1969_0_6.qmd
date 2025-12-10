@@ -3,6 +3,7 @@ title: "京都大学 1969年 1969_0_6"
 problem_id: "02_kyoto-1969-1969_0_6"
 university: "京都大学"
 exam_year: "1969"
+problem_number: 6
 source_tex: "archive/02_kyoto/1969/1969_0_6.tex"
 pdf_source: "archive/02_kyoto/1969/1969_0_6.pdf"
 page_image: "archive/02_kyoto/1969/1969_0_6.jpg"
@@ -18,8 +19,7 @@ format:
 ---
 
 
-6
-　次の(1)～(5)のおのおのについて，(i)それが正しければ○を，正しくなければ×を，左側の□の中に入れ，
+次の(1)～(5)のおのおのについて，(i)それが正しければ○を，正しくなければ×を，左側の□の中に入れ，
 (ii)×をつけたものについて，下線の部分を適当に訂正して，正しいものにせよ．
 さらに(iii)問題の後の余白に，おのおのについての理由を簡単に述べよ．
 \begin{description}

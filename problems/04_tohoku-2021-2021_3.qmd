@@ -3,6 +3,7 @@ title: "東北大学 2021年 2021_3"
 problem_id: "04_tohoku-2021-2021_3"
 university: "東北大学"
 exam_year: "2021"
+problem_number: 3
 source_tex: "archive/04_tohoku/2021/2021_3.tex"
 pdf_source: "archive/04_tohoku/2021/2021_3.pdf"
 page_image: "archive/04_tohoku/2021/2021_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　正八角形$A_1A_2 \cdots A_8$について，以下の問いに答えよ。
+正八角形$A_1A_2 \cdots A_8$について，以下の問いに答えよ。
 \begin{description}
 \item[(1)]3個の頂点を結んでできる三角形のうち，
 直角三角形であるものの個数を求めよ。

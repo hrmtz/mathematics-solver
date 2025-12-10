@@ -3,6 +3,7 @@ title: "東京大学 1963年 1963_5"
 problem_id: "01_tokyo-1963-1963_5"
 university: "東京大学"
 exam_year: "1963"
+problem_number: 5
 source_tex: "archive/01_tokyo/1963/1963_5.tex"
 pdf_source: "archive/01_tokyo/1963/1963_5.pdf"
 page_image: "archive/01_tokyo/1963/1963_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　一辺の長さ$a$の正方形$ABCD$の内部の動点$P$で直交する折線$TPU$がある(図参照)．
+一辺の長さ$a$の正方形$ABCD$の内部の動点$P$で直交する折線$TPU$がある(図参照)．
 $PT$は辺$AD$と$Q$で交わり，$\angle AQT$は45$^\circ$にたもたれている．
 正方形$ABCD$の面積を二等分しつつ折線$TPU$がうごくとき，
 線分$PQ$の通過する部分の面積を求めよ．

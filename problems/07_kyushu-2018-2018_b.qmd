@@ -3,6 +3,7 @@ title: "九州大学 2018年 2018_b"
 problem_id: "07_kyushu-2018-2018_b"
 university: "九州大学"
 exam_year: "2018"
+problem_number: 2
 source_tex: "archive/07_kyushu/2018/2018_b.tex"
 pdf_source: "archive/07_kyushu/2018/2018_b.pdf"
 page_image: "archive/07_kyushu/2018/2018_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　実数$a$，$b$と虚数単位$i$を用いて複素数$z$が$z=a+bi$の形で表されるとき，
+実数$a$，$b$と虚数単位$i$を用いて複素数$z$が$z=a+bi$の形で表されるとき，
 $a$を$z$の実部といい$a=\text{Re} \, z$と書き表し，$b$を$z$の虚部といい$b=\text{Im} \, z$と書き表す。
 また$z$の絶対値を$|z|$で表す。以下の問いに答えよ。
 \begin{description}

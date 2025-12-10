@@ -3,6 +3,7 @@ title: "大阪大学 2007年 2007_5"
 problem_id: "06_osaka-2007-2007_5"
 university: "大阪大学"
 exam_year: "2007"
+problem_number: 5
 source_tex: "archive/06_osaka/2007/2007_5.tex"
 pdf_source: "archive/06_osaka/2007/2007_5.pdf"
 page_image: "archive/06_osaka/2007/2007_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n$を2以上の自然数とする．
+$n$を2以上の自然数とする．
 4個の行列
 $A=\begin{pmatrix} 1 & 0 
 

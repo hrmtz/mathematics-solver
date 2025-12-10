@@ -3,6 +3,7 @@ title: "東京大学 2010年 2010_0_1"
 problem_id: "01_tokyo-2010-2010_0_1"
 university: "東京大学"
 exam_year: "2010"
+problem_number: 1
 source_tex: "archive/01_tokyo/2010/2010_0_1.tex"
 pdf_source: "archive/01_tokyo/2010/2010_0_1.pdf"
 page_image: "archive/01_tokyo/2010/2010_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$O$を原点とする座標平面上に点$A(-3,0)$をとり，
+$O$を原点とする座標平面上に点$A(-3,0)$をとり，
 $0^\circ<\theta<{120}^\circ$の範囲にある$\theta$に対して，
 次の条件(i)，(ii)をみたす2点$B$，$C$を考える．
 \begin{description}

@@ -3,6 +3,7 @@ title: "東京大学 2015年 2015_4"
 problem_id: "01_tokyo-2015-2015_4"
 university: "東京大学"
 exam_year: "2015"
+problem_number: 4
 source_tex: "archive/01_tokyo/2015/2015_4.tex"
 pdf_source: "archive/01_tokyo/2015/2015_4.pdf"
 page_image: "archive/01_tokyo/2015/2015_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　数列$\{ p_n \}$を次のように定める。
+数列$\{ p_n \}$を次のように定める。
 \[ p_1=1, \hspace{1zw} p_2=2, \hspace{1zw}
 p_{n+2}=\frac{{p_{n+1}}^2+1}{p_n} \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
 \begin{description}

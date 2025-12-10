@@ -3,6 +3,7 @@ title: "大阪大学 1974年 1974_1"
 problem_id: "06_osaka-1974-1974_1"
 university: "大阪大学"
 exam_year: "1974"
+problem_number: 1
 source_tex: "archive/06_osaka/1974/1974_1.tex"
 pdf_source: "archive/06_osaka/1974/1974_1.pdf"
 page_image: "archive/06_osaka/1974/1974_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　正の整数$n$に対し，不等式$y<{|x|}^n$を満たす平面上の点$(x, \, y)$の集合を$E_n$とする．
+正の整数$n$に対し，不等式$y<{|x|}^n$を満たす平面上の点$(x, \, y)$の集合を$E_n$とする．
 \begin{description}
 \item[(1)]$E_1$，$E_2$，$E_3$の交わり（共通部分）を求めよ．
 \item[(2)]すべての$E_n$ $(n=1, \, 2, \, \cdots\cdots)$に共有される点$(x, \, y)$全体の集合を図示せよ．

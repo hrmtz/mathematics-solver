@@ -3,6 +3,7 @@ title: "東京大学 1967年 1967_6b"
 problem_id: "01_tokyo-1967-1967_6b"
 university: "東京大学"
 exam_year: "1967"
+problem_number: 6
 source_tex: "archive/01_tokyo/1967/1967_6b.tex"
 pdf_source: "archive/01_tokyo/1967/1967_6b.pdf"
 page_image: "archive/01_tokyo/1967/1967_6b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6 旧
-　点$A_0$を一端とする半直線$l$上に点$A_1$，$A_2$が与えられていて，
+点$A_0$を一端とする半直線$l$上に点$A_1$，$A_2$が与えられていて，
 $\overline{A_0A_1}=1$，$\overline{A_0A_2}=8$であるとする．
 いまこれから，点$A_n$ $(n=3,4,5,\cdots\cdots)$を次の手順で定める．
 \begin{description}

@@ -3,6 +3,7 @@ title: "東北大学 2007年 2007_c"
 problem_id: "04_tohoku-2007-2007_c"
 university: "東北大学"
 exam_year: "2007"
+problem_number: 3
 source_tex: "archive/04_tohoku/2007/2007_c.tex"
 pdf_source: "archive/04_tohoku/2007/2007_c.pdf"
 page_image: "archive/04_tohoku/2007/2007_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　あるグループの各人が独立に一問のクイズに答え，
+あるグループの各人が独立に一問のクイズに答え，
 グループの人数の半数以上が正解すればグループは合格とする．
 ただし，一人一人の正解する確率は$p$ $(0 \leqq p \leqq 1)$とする．
 グループの人数が$2n$であるときグループが合格する確率を$a_n(p)$とする．

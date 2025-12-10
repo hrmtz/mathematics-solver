@@ -3,6 +3,7 @@ title: "東北大学 1997年 1997_1"
 problem_id: "04_tohoku-1997-1997_1"
 university: "東北大学"
 exam_year: "1997"
+problem_number: 1
 source_tex: "archive/04_tohoku/1997/1997_1.tex"
 pdf_source: "archive/04_tohoku/1997/1997_1.pdf"
 page_image: "archive/04_tohoku/1997/1997_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　空間の2定点$O(0, \, 0, \, 0)$，$A(-1, \, 1, \, 1)$に対し，
+空間の2定点$O(0, \, 0, \, 0)$，$A(-1, \, 1, \, 1)$に対し，
 点$P(x, \, y, \, z)$は次の2条件(i)，(ii)を満たしながら動くとする．
 \begin{description}
 \item[(i)]点$P$は，方程式$y=2x$で与えられる平面上にある．

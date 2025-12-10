@@ -3,6 +3,7 @@ title: "九州大学 2018年 2018_d"
 problem_id: "07_kyushu-2018-2018_d"
 university: "九州大学"
 exam_year: "2018"
+problem_number: 4
 source_tex: "archive/07_kyushu/2018/2018_d.tex"
 pdf_source: "archive/07_kyushu/2018/2018_d.pdf"
 page_image: "archive/07_kyushu/2018/2018_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$r$を正の実数とする。半径がそれぞれ$r$，$2r$，$3r$の3つの球$C_1$，$C_2$，$C_3$と，
+$r$を正の実数とする。半径がそれぞれ$r$，$2r$，$3r$の3つの球$C_1$，$C_2$，$C_3$と，
 これらすべてに接する平面$\alpha$がある。
 ただし，3つの球はすべて平面$\alpha$の同じ側で接しているものとする。
 すなわち，3つの球のそれぞれの中心を結ぶ線分は，いずれも平面$\alpha$と交わらないものとする。

@@ -3,6 +3,7 @@ title: "北海道大学 1965年 1965_1"
 problem_id: "03_hokudai-1965-1965_1"
 university: "北海道大学"
 exam_year: "1965"
+problem_number: 1
 source_tex: "archive/03_hokudai/1965/1965_1.tex"
 pdf_source: "archive/03_hokudai/1965/1965_1.pdf"
 page_image: "archive/03_hokudai/1965/1965_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　半径1の円に内接する四辺形$ABCD$がある。
+半径1の円に内接する四辺形$ABCD$がある。
  
 
 ![](../archive/03_hokudai/1965/fig_1965_1.jpg)

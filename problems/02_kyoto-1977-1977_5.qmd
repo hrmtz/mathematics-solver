@@ -3,6 +3,7 @@ title: "京都大学 1977年 1977_5"
 problem_id: "02_kyoto-1977-1977_5"
 university: "京都大学"
 exam_year: "1977"
+problem_number: 5
 source_tex: "archive/02_kyoto/1977/1977_5.tex"
 pdf_source: "archive/02_kyoto/1977/1977_5.pdf"
 page_image: "archive/02_kyoto/1977/1977_5.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(i)]底辺の長さ$a$が一定で，他の2辺の和$m$も一定$(m>a)$であるような三角形のうち，
 面積最大のものは，二等辺三角形であることを示せ．

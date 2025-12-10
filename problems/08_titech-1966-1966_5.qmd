@@ -3,6 +3,7 @@ title: "東京科学大学 1966年 1966_5"
 problem_id: "08_titech-1966-1966_5"
 university: "東京科学大学"
 exam_year: "1966"
+problem_number: 5
 source_tex: "archive/08_titech/1966/1966_5.tex"
 pdf_source: "archive/08_titech/1966/1966_5.pdf"
 page_image: "archive/08_titech/1966/1966_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　相異なる3つの複素数がある。
+相異なる3つの複素数がある。
 これらのうちから重複を許してとったどの2つの積も，
 これらの3数のどれかであるという。
 3数の組を求めよ。

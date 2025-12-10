@@ -3,6 +3,7 @@ title: "名古屋大学 1988年 1988_4a"
 problem_id: "05_nagoya-1988-1988_4a"
 university: "名古屋大学"
 exam_year: "1988"
+problem_number: 4
 source_tex: "archive/05_nagoya/1988/1988_4a.tex"
 pdf_source: "archive/05_nagoya/1988/1988_4a.pdf"
 page_image: "archive/05_nagoya/1988/1988_4a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4 (a)
-　多項式$f(x)$は$x>0$の範囲で$f''(x)>0$を満たし，
+多項式$f(x)$は$x>0$の範囲で$f''(x)>0$を満たし，
 $y=f(x)$のグラフ$C$は原点に関して対称とする．
 正の数$a$に対して，$C$を$x$軸方向に$a$，
 $y$軸方向に$f(a)$だけ平行移動して得られる曲線を$C_a$とする．

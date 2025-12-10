@@ -3,6 +3,7 @@ title: "北海道大学 2008年 2008_a"
 problem_id: "03_hokudai-2008-2008_a"
 university: "北海道大学"
 exam_year: "2008"
+problem_number: 1
 source_tex: "archive/03_hokudai/2008/2008_a.tex"
 pdf_source: "archive/03_hokudai/2008/2008_a.pdf"
 page_image: "archive/03_hokudai/2008/2008_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　2次正方行列$A$，$E$，$O$を
+2次正方行列$A$，$E$，$O$を
 \[ A=\begin{pmatrix} 1 & a 
 
  0 & 2 \end{pmatrix}, \hspace{1zw}

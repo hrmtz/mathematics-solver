@@ -3,6 +3,7 @@ title: "北海道大学 2012年 2012_3"
 problem_id: "03_hokudai-2012-2012_3"
 university: "北海道大学"
 exam_year: "2012"
+problem_number: 3
 source_tex: "archive/03_hokudai/2012/2012_3.tex"
 pdf_source: "archive/03_hokudai/2012/2012_3.pdf"
 page_image: "archive/03_hokudai/2012/2012_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　次の問に答えよ。
+次の問に答えよ。
 \begin{description}
 \item[(1)]$x\geqq0$のとき，
 $\displaystyle x-\frac{x^3}{6}\leqq\sin x\leqq x$を示せ。

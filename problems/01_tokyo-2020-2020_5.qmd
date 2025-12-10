@@ -3,6 +3,7 @@ title: "東京大学 2020年 2020_5"
 problem_id: "01_tokyo-2020-2020_5"
 university: "東京大学"
 exam_year: "2020"
+problem_number: 5
 source_tex: "archive/01_tokyo/2020/2020_5.tex"
 pdf_source: "archive/01_tokyo/2020/2020_5.pdf"
 page_image: "archive/01_tokyo/2020/2020_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　座標空間において，$xy$平面上の原点を中心とする半径1の円を考える。
+座標空間において，$xy$平面上の原点を中心とする半径1の円を考える。
 この円を底面とし，点$(0, \, 0, \, 2)$を頂点とする円錐（内部を含む）をSとする。
 また，点$A(1, \, 0, \, 2)$を考える。
 \begin{description}

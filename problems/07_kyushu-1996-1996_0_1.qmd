@@ -3,6 +3,7 @@ title: "九州大学 1996年 1996_0_1"
 problem_id: "07_kyushu-1996-1996_0_1"
 university: "九州大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/07_kyushu/1996/1996_0_1.tex"
 pdf_source: "archive/07_kyushu/1996/1996_0_1.pdf"
 page_image: "archive/07_kyushu/1996/1996_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　1辺の長さが1の正六角形$ABCDEF$に内接する円の中心を$O$とし，その円周上の点を$P$とする．
+1辺の長さが1の正六角形$ABCDEF$に内接する円の中心を$O$とし，その円周上の点を$P$とする．
 次の問に答えよ．
 \begin{description}
 \item[(1)]$\overrightarrow{AB}=\overrightarrow{a}$，

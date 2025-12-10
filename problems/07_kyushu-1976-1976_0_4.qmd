@@ -3,6 +3,7 @@ title: "九州大学 1976年 1976_0_4"
 problem_id: "07_kyushu-1976-1976_0_4"
 university: "九州大学"
 exam_year: "1976"
+problem_number: 4
 source_tex: "archive/07_kyushu/1976/1976_0_4.tex"
 pdf_source: "archive/07_kyushu/1976/1976_0_4.pdf"
 page_image: "archive/07_kyushu/1976/1976_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　点$P$は曲線$y=x^2$の上を原点$O$から点$A(1, \, 1)$まで動く．
+点$P$は曲線$y=x^2$の上を原点$O$から点$A(1, \, 1)$まで動く．
 このとき，2点$O$，$P$を通る直線，曲線$y=x^2$および直線$x=1$で囲まれる，
 図の斜線を引いた部分の面積が最小となるのは$P$がどの位置にあるときか，
 その点$P$の座標を求めよ．

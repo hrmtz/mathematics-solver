@@ -3,6 +3,7 @@ title: "九州大学 1977年 1977_4"
 problem_id: "07_kyushu-1977-1977_4"
 university: "九州大学"
 exam_year: "1977"
+problem_number: 4
 source_tex: "archive/07_kyushu/1977/1977_4.tex"
 pdf_source: "archive/07_kyushu/1977/1977_4.pdf"
 page_image: "archive/07_kyushu/1977/1977_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　曲線$y=\cos^2x\cdots\cdots\cdots\text{\ding{"AC}}$について，次の問に答えよ．
+曲線$y=\cos^2x\cdots\cdots\cdots\text{\ding{"AC}}$について，次の問に答えよ．
 \begin{description}
 \item[(1)]曲線\ding{"AC}の変曲点のなかで，$x$座標が0と$\displaystyle\frac{\pi}{2}$との間にあるものの座標を求めよ．
 \item[(2)]点$A(\alpha, \, \cos^2\alpha)$ $\displaystyle\left(\text{ただし，}0<\alpha<\frac{\pi}{2}\text{とする}\right)$と

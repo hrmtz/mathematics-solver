@@ -3,6 +3,7 @@ title: "北海道大学 1994年 1994_d"
 problem_id: "03_hokudai-1994-1994_d"
 university: "北海道大学"
 exam_year: "1994"
+problem_number: 4
 source_tex: "archive/03_hokudai/1994/1994_d.tex"
 pdf_source: "archive/03_hokudai/1994/1994_d.pdf"
 page_image: "archive/03_hokudai/1994/1994_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$n$を正の整数とする．
+$n$を正の整数とする．
 1から6までの目が等しい確率で出るサイコロを用いて試行を行う．
 サイコロを連続して投げて出た目を加えていき，その目の和が初めて6の倍数になるか，
 あるいは，$n$回目を投げ終えたとき試行が終了するものとする．

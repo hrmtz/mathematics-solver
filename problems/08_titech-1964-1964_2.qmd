@@ -3,6 +3,7 @@ title: "東京科学大学 1964年 1964_2"
 problem_id: "08_titech-1964-1964_2"
 university: "東京科学大学"
 exam_year: "1964"
+problem_number: 2
 source_tex: "archive/08_titech/1964/1964_2.tex"
 pdf_source: "archive/08_titech/1964/1964_2.pdf"
 page_image: "archive/08_titech/1964/1964_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$a, \, b, \, c, \, d$は正数とする。
+$a, \, b, \, c, \, d$は正数とする。
 \begin{description}
 \item[(1)]次の2つの不等式を証明せよ。
 \[ \frac{a+b+c}{3}\geqq\sqrt[3]{abc} \, ; \hspace{1zw}

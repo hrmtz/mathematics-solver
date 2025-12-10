@@ -3,6 +3,7 @@ title: "東京科学大学 1998年 1998_3"
 problem_id: "08_titech-1998-1998_3"
 university: "東京科学大学"
 exam_year: "1998"
+problem_number: 3
 source_tex: "archive/08_titech/1998/1998_3.tex"
 pdf_source: "archive/08_titech/1998/1998_3.pdf"
 page_image: "archive/08_titech/1998/1998_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$\displaystyle f(x)=\frac{2x-1}{x}$とし，$t$を実数とする．
 すべての自然数$n$に対し実数$f_n(t)$が$f_n(t)=f(f_{n-1}(t))$，$n=1,2,3,\cdots,$ただし，$f_0(t)=t$によって

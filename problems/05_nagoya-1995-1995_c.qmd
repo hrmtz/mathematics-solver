@@ -3,6 +3,7 @@ title: "名古屋大学 1995年 1995_c"
 problem_id: "05_nagoya-1995-1995_c"
 university: "名古屋大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/05_nagoya/1995/1995_c.tex"
 pdf_source: "archive/05_nagoya/1995/1995_c.pdf"
 page_image: "archive/05_nagoya/1995/1995_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　原点$O$を中心とする半径$3a$の円$C$に半径$a$の円$C'$が内接して滑らないで転がって移動するものとする．
+原点$O$を中心とする半径$3a$の円$C$に半径$a$の円$C'$が内接して滑らないで転がって移動するものとする．
 円$C'$の周上に固定された点$P$がある．
 はじめ円$C'$の中心$O'$が$(2a, \, 0)$に，また点$P$が$(3a, \, 0)$にあったとし，
 円$C'$が円$C$の内部を反時計まわりに1周してもとの位置に戻るものとすると，

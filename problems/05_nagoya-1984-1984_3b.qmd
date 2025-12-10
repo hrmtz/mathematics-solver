@@ -3,6 +3,7 @@ title: "名古屋大学 1984年 1984_3b"
 problem_id: "05_nagoya-1984-1984_3b"
 university: "名古屋大学"
 exam_year: "1984"
+problem_number: 3
 source_tex: "archive/05_nagoya/1984/1984_3b.tex"
 pdf_source: "archive/05_nagoya/1984/1984_3b.pdf"
 page_image: "archive/05_nagoya/1984/1984_3b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3 (b)
-　曲線$y=x^3$の上に相異なる9個の点$A_k$ $(1 \leqq k \leqq 9)$がある．
+曲線$y=x^3$の上に相異なる9個の点$A_k$ $(1 \leqq k \leqq 9)$がある．
 \begin{description}
 \item[(1)]3点$A_1$，$A_2$，$A_3$が1直線上にあるための必要十分条件を$A_1$，$A_2$，$A_3$の$x$座標を用いて表せ．
 \item[(2)]5つの組$\{ A_1, \, A_2, \, A_3 \}$，$\{ A_4, \, A_5, \, A_6 \}$，

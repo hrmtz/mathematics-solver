@@ -3,6 +3,7 @@ title: "東京大学 1981年 1981_0_2"
 problem_id: "01_tokyo-1981-1981_0_2"
 university: "東京大学"
 exam_year: "1981"
+problem_number: 2
 source_tex: "archive/01_tokyo/1981/1981_0_2.tex"
 pdf_source: "archive/01_tokyo/1981/1981_0_2.pdf"
 page_image: "archive/01_tokyo/1981/1981_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$A$が100円硬貨を4枚，$B$が50円硬貨を3枚投げ，
+$A$が100円硬貨を4枚，$B$が50円硬貨を3枚投げ，
 硬貨の表が出た枚数の多い方を勝ちとし，同じ枚数のときは引き分けとする．
 硬貨の表，裏の出る確率はすべて$\displaystyle\frac{1}{2}$であるものとする．
 \begin{description}

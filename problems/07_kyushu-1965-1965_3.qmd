@@ -3,6 +3,7 @@ title: "九州大学 1965年 1965_3"
 problem_id: "07_kyushu-1965-1965_3"
 university: "九州大学"
 exam_year: "1965"
+problem_number: 3
 source_tex: "archive/07_kyushu/1965/1965_3.tex"
 pdf_source: "archive/07_kyushu/1965/1965_3.pdf"
 page_image: "archive/07_kyushu/1965/1965_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$k$が実数で，$k\neq1$のとき
+$k$が実数で，$k\neq1$のとき
 \[ (x^2+y^2-2x-3)+k(x^2+y^2-4x-2y+4)=0 \]
 はどんな円を表わすか。
 また$k$の値が変わるとき，その中心の軌跡の方程式を求めよ。

@@ -3,6 +3,7 @@ title: "名古屋大学 1995年 1995_4b"
 problem_id: "05_nagoya-1995-1995_4b"
 university: "名古屋大学"
 exam_year: "1995"
+problem_number: 4
 source_tex: "archive/05_nagoya/1995/1995_4b.tex"
 pdf_source: "archive/05_nagoya/1995/1995_4b.pdf"
 page_image: "archive/05_nagoya/1995/1995_4b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　$xy$平面上の三角形$ABC$が次の2条件を満たしているとする．
+$xy$平面上の三角形$ABC$が次の2条件を満たしているとする．
 \begin{description}
 \item[a)]各頂点の$x$座標，$y$座標はともに整数である．
 \item[b)]3辺の長さ$a$，$b$，$c$もすべて整数である．

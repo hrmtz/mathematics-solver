@@ -3,6 +3,7 @@ title: "九州大学 2017年 2017_d"
 problem_id: "07_kyushu-2017-2017_d"
 university: "九州大学"
 exam_year: "2017"
+problem_number: 4
 source_tex: "archive/07_kyushu/2017/2017_d.tex"
 pdf_source: "archive/07_kyushu/2017/2017_d.pdf"
 page_image: "archive/07_kyushu/2017/2017_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$k$を$k\geqq0$，$k\neq1$を満たす実数として，関数$f(x)$を
+$k$を$k\geqq0$，$k\neq1$を満たす実数として，関数$f(x)$を
 \[ f(x)={ \{ 1-(1-k)x \} }^\frac{1}{1-k} \]
 で定める。ただし，関数$f(x)$の定義域は，
 $0 \leqq k < 1$のとき$\displaystyle 0 \leqq x \leqq \frac{1}{1-k}$であり，

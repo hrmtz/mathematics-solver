@@ -3,6 +3,7 @@ title: "東北大学 1988年 1988_0_1"
 problem_id: "04_tohoku-1988-1988_0_1"
 university: "東北大学"
 exam_year: "1988"
+problem_number: 1
 source_tex: "archive/04_tohoku/1988/1988_0_1.tex"
 pdf_source: "archive/04_tohoku/1988/1988_0_1.pdf"
 page_image: "archive/04_tohoku/1988/1988_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　四面体$OABC$において，$\overrightarrow{OA}=\overrightarrow{a}$，
+四面体$OABC$において，$\overrightarrow{OA}=\overrightarrow{a}$，
 $\overrightarrow{OB}=\overrightarrow{b}$，$\overrightarrow{OC}=\overrightarrow{c}$とし，
 $G$を三角形$ABC$の重心，すなわち
 $\displaystyle\overrightarrow{OG}=\frac{\overrightarrow{a}+\overrightarrow{b}+\overrightarrow{c}}{3}$とする．

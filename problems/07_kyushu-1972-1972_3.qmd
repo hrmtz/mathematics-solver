@@ -3,6 +3,7 @@ title: "九州大学 1972年 1972_3"
 problem_id: "07_kyushu-1972-1972_3"
 university: "九州大学"
 exam_year: "1972"
+problem_number: 3
 source_tex: "archive/07_kyushu/1972/1972_3.tex"
 pdf_source: "archive/07_kyushu/1972/1972_3.pdf"
 page_image: "archive/07_kyushu/1972/1972_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　だ円$\displaystyle\frac{x^2}{25}+\frac{y^2}{16}=1\cdots\cdots\text{\ding{"AC}}$の焦点$F(3, \, 0)$，$F'(-3, \, 0)$と，
+だ円$\displaystyle\frac{x^2}{25}+\frac{y^2}{16}=1\cdots\cdots\text{\ding{"AC}}$の焦点$F(3, \, 0)$，$F'(-3, \, 0)$と，
 このだ円上の点$P(5\cos\theta, \, 4\sin\theta)$とを結ぶベクトル$\overrightarrow{FP}$，$\overrightarrow{F'P}$の長さを
 それぞれ$l$，$l'$とし，また$\overrightarrow{\alpha}=l'\overrightarrow{FP}+l\overrightarrow{F'P}$とおく．
 このとき，次の問に答えよ．

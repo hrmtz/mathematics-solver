@@ -3,6 +3,7 @@ title: "九州大学 1991年 1991_d"
 problem_id: "07_kyushu-1991-1991_d"
 university: "九州大学"
 exam_year: "1991"
+problem_number: 4
 source_tex: "archive/07_kyushu/1991/1991_d.tex"
 pdf_source: "archive/07_kyushu/1991/1991_d.pdf"
 page_image: "archive/07_kyushu/1991/1991_d.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　曲線$C$は第1象限内にあって，点$(2, \, 1)$を通り，
+曲線$C$は第1象限内にあって，点$(2, \, 1)$を通り，
 その両端の点はそれぞれ$x$軸および$y$軸上にあるとする．
 両端を除く$C$上の任意の点$P$における法線が$y$軸と交わる点を$Q$とするとき，
 線分$PQ$は$x$軸によって常に一定比$1:s$ $(s>0)$に内分されているという．

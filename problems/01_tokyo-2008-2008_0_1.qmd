@@ -3,6 +3,7 @@ title: "東京大学 2008年 2008_0_1"
 problem_id: "01_tokyo-2008-2008_0_1"
 university: "東京大学"
 exam_year: "2008"
+problem_number: 1
 source_tex: "archive/01_tokyo/2008/2008_0_1.tex"
 pdf_source: "archive/01_tokyo/2008/2008_0_1.pdf"
 page_image: "archive/01_tokyo/2008/2008_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$0 \leqq\alpha\leqq\beta$をみたす実数$\alpha$，$\beta$と，
+$0 \leqq\alpha\leqq\beta$をみたす実数$\alpha$，$\beta$と，
 2次式$f(x)=x^2-(\alpha+\beta)x+\alpha\beta$について，
 $\displaystyle\int_{-1}^1f(x)dx=1$が成立しているとする．
 このとき定積分$\displaystyle S=\int_0^\alpha f(x)dx$を$\alpha$の式で表し，

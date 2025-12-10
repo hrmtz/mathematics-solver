@@ -3,6 +3,7 @@ title: "名古屋大学 2015年 2015_2"
 problem_id: "05_nagoya-2015-2015_2"
 university: "名古屋大学"
 exam_year: "2015"
+problem_number: 2
 source_tex: "archive/05_nagoya/2015/2015_2.tex"
 pdf_source: "archive/05_nagoya/2015/2015_2.pdf"
 page_image: "archive/05_nagoya/2015/2015_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　次の問に答えよ。
+次の問に答えよ。
 \begin{description}
 \item[(1)]$\alpha=\sqrt{13}+\sqrt{9+2\sqrt{17}}+\sqrt{9-2\sqrt{17}}$とするとき，
 整数係数の4次多項式$f(x)$で$f(\alpha)=0$となるもののうち，$x^4$の係数が1であるものを求めよ。

@@ -3,6 +3,7 @@ title: "東京大学 1968年 1968_0_5"
 problem_id: "01_tokyo-1968-1968_0_5"
 university: "東京大学"
 exam_year: "1968"
+problem_number: 5
 source_tex: "archive/01_tokyo/1968/1968_0_5.tex"
 pdf_source: "archive/01_tokyo/1968/1968_0_5.pdf"
 page_image: "archive/01_tokyo/1968/1968_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　平面上の点$(a,b)$の，
+平面上の点$(a,b)$の，
 直線$2x-y=p$に関する対称点をとり，
 次にこれを原点を中心として正の向きに${90}^\circ$回転し，
 さらに直線$x+2y=q$に関する対称点をとると，

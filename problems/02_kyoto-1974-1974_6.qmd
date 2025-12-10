@@ -3,6 +3,7 @@ title: "京都大学 1974年 1974_6"
 problem_id: "02_kyoto-1974-1974_6"
 university: "京都大学"
 exam_year: "1974"
+problem_number: 6
 source_tex: "archive/02_kyoto/1974/1974_6.tex"
 pdf_source: "archive/02_kyoto/1974/1974_6.pdf"
 page_image: "archive/02_kyoto/1974/1974_6.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(i)]$\triangle OP_0P_1$が与えられている．
 辺$P_0O$上に点$P_2,P_4,\cdots,P_{2n},\cdots$を，

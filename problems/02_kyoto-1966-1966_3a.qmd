@@ -3,6 +3,7 @@ title: "京都大学 1966年 1966_3a"
 problem_id: "02_kyoto-1966-1966_3a"
 university: "京都大学"
 exam_year: "1966"
+problem_number: 3
 source_tex: "archive/02_kyoto/1966/1966_3a.tex"
 pdf_source: "archive/02_kyoto/1966/1966_3a.pdf"
 page_image: "archive/02_kyoto/1966/1966_3a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 新
-　平地に3本のテレビ塔がある．
+平地に3本のテレビ塔がある．
 ひとりの男がこの平地の異なる3地点$A$，$B$，$C$に立って，その先端を眺めたところ，
 どの地点でもそのうちの二つの先端が重なって見えた．
 このとき，$A$，$B$，$C$は一直線上になければならない．

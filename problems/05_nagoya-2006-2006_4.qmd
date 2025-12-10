@@ -3,6 +3,7 @@ title: "名古屋大学 2006年 2006_4"
 problem_id: "05_nagoya-2006-2006_4"
 university: "名古屋大学"
 exam_year: "2006"
+problem_number: 4
 source_tex: "archive/05_nagoya/2006/2006_4.tex"
 pdf_source: "archive/05_nagoya/2006/2006_4.pdf"
 page_image: "archive/05_nagoya/2006/2006_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　正六面体の各面に1つずつ，
+正六面体の各面に1つずつ，
 サイコロのように，
 1から6までの整数がもれなく書かれていて，
 向かい合う面の数の和は7である．

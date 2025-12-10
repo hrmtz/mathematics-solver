@@ -3,6 +3,7 @@ title: "九州大学 1961年 1961_0_8"
 problem_id: "07_kyushu-1961-1961_0_8"
 university: "九州大学"
 exam_year: "1961"
+problem_number: 8
 source_tex: "archive/07_kyushu/1961/1961_0_8.tex"
 pdf_source: "archive/07_kyushu/1961/1961_0_8.pdf"
 page_image: "archive/07_kyushu/1961/1961_0_8.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-8
 \begin{description}
 \item[(1)]第$n$項までの和が
 $\displaystyle\frac{1-(n+1)x^n+nx^{n+1}}{{(x-1)}^2}$

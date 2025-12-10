@@ -3,6 +3,7 @@ title: "東北大学 2017年 2017_a"
 problem_id: "04_tohoku-2017-2017_a"
 university: "東北大学"
 exam_year: "2017"
+problem_number: 1
 source_tex: "archive/04_tohoku/2017/2017_a.tex"
 pdf_source: "archive/04_tohoku/2017/2017_a.pdf"
 page_image: "archive/04_tohoku/2017/2017_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$xy$平面において，原点を中心とする半径1の円を$C$とする。
+$xy$平面において，原点を中心とする半径1の円を$C$とする。
 $a$と$b$を実数とし，放物線$D:y=x^2+ax+b$の頂点$(p, \, q)$が円$C$上にあるとする。
 このとき，次の問いに答えよ。
 \begin{description}

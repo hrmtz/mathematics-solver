@@ -3,6 +3,7 @@ title: "東北大学 2006年 2006_0_2"
 problem_id: "04_tohoku-2006-2006_0_2"
 university: "東北大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/04_tohoku/2006/2006_0_2.tex"
 pdf_source: "archive/04_tohoku/2006/2006_0_2.pdf"
 page_image: "archive/04_tohoku/2006/2006_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　袋の中に1から7までの番号が書かれた球が7個入っている．
+袋の中に1から7までの番号が書かれた球が7個入っている．
 ここから同時に3個の球を取り出す．
 取り出された3個の球に書かれている数を大きいものから順に$X$，$Y$，$Z$とする．
 $X$，$Y$，$Z$それぞれの期待値を求めよ．

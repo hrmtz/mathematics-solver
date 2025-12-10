@@ -3,6 +3,7 @@ title: "京都大学 1991年 1991_4"
 problem_id: "02_kyoto-1991-1991_4"
 university: "京都大学"
 exam_year: "1991"
+problem_number: 4
 source_tex: "archive/02_kyoto/1991/1991_4.tex"
 pdf_source: "archive/02_kyoto/1991/1991_4.pdf"
 page_image: "archive/02_kyoto/1991/1991_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　実数$a$，$b$ $\displaystyle \left( 0 \leqq a < \frac{\pi}{4} , 0 \leqq b < \frac{\pi}{4} \right)$に対し
+実数$a$，$b$ $\displaystyle \left( 0 \leqq a < \frac{\pi}{4} , 0 \leqq b < \frac{\pi}{4} \right)$に対し
 次の不等式の成り立つことを示せ．
 \[ \sqrt{\tan a \cdot \tan b} \leqq \tan \left( \frac{a+b}{2} \right) \leqq \frac{1}{2}(\tan a + \tan b) \]
 

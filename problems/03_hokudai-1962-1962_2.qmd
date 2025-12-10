@@ -3,6 +3,7 @@ title: "北海道大学 1962年 1962_2"
 problem_id: "03_hokudai-1962-1962_2"
 university: "北海道大学"
 exam_year: "1962"
+problem_number: 2
 source_tex: "archive/03_hokudai/1962/1962_2.tex"
 pdf_source: "archive/03_hokudai/1962/1962_2.pdf"
 page_image: "archive/03_hokudai/1962/1962_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　${(a-b)}^2+{(b-c)}^2+{(c-a)}^2\neq0$，$a(1+c)=b(1+a)=c(1+b)$とする。
+${(a-b)}^2+{(b-c)}^2+{(c-a)}^2\neq0$，$a(1+c)=b(1+a)=c(1+b)$とする。
 \begin{description}
 \item[(1)]$a(1+c)$の値を求めよ。
 \item[(2)]さらに$a+b+c=ab+bc+ca$のとき，$a$，$b$，$c$の値を求めよ。

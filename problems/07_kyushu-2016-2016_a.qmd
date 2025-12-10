@@ -3,6 +3,7 @@ title: "九州大学 2016年 2016_a"
 problem_id: "07_kyushu-2016-2016_a"
 university: "九州大学"
 exam_year: "2016"
+problem_number: 1
 source_tex: "archive/07_kyushu/2016/2016_a.tex"
 pdf_source: "archive/07_kyushu/2016/2016_a.pdf"
 page_image: "archive/07_kyushu/2016/2016_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　等式${(i-\sqrt3)}^m={(1+i)}^n$を満たす自然数$m$，$n$のうち，
+等式${(i-\sqrt3)}^m={(1+i)}^n$を満たす自然数$m$，$n$のうち，
 $m$が最小となるときの$m$，$n$の値を求めよ。
 ただし，$i$は虚数単位である。
 

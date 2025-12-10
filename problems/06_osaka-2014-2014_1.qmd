@@ -3,6 +3,7 @@ title: "大阪大学 2014年 2014_1"
 problem_id: "06_osaka-2014-2014_1"
 university: "大阪大学"
 exam_year: "2014"
+problem_number: 1
 source_tex: "archive/06_osaka/2014/2014_1.tex"
 pdf_source: "archive/06_osaka/2014/2014_1.pdf"
 page_image: "archive/06_osaka/2014/2014_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　実数$a$，$b$，$c$，$d$，$e$に対して，
+実数$a$，$b$，$c$，$d$，$e$に対して，
 座標平面上の点$A(a, \, b)$，$B(c, \, d)$，$C(e, \, 0)$をとる．
 ただし点$A$と点$B$はどちらも原点$O(0, \, 0)$とは異なる点とする．
 このとき，実数$s$，$t$で

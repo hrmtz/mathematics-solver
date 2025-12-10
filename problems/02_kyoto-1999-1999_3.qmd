@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_3"
 problem_id: "02_kyoto-1999-1999_3"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/02_kyoto/1999/1999_3.tex"
 pdf_source: "archive/02_kyoto/1999/1999_3.pdf"
 page_image: "archive/02_kyoto/1999/1999_3.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$a_0<b_0$，$a_1<b_1$を満たす正の実数$a_0$，$b_0$，$a_1$，$b_1$について，
 次の不等式が成り立つことを示せ．

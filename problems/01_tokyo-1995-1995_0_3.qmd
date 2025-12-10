@@ -3,6 +3,7 @@ title: "東京大学 1995年 1995_0_3"
 problem_id: "01_tokyo-1995-1995_0_3"
 university: "東京大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/01_tokyo/1995/1995_0_3.tex"
 pdf_source: "archive/01_tokyo/1995/1995_0_3.pdf"
 page_image: "archive/01_tokyo/1995/1995_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面において，曲線$y=-x^3+ax$上の$x>0$の部分に，点$P$を次の条件を満たすようにとる．
+$xy$平面において，曲線$y=-x^3+ax$上の$x>0$の部分に，点$P$を次の条件を満たすようにとる．
 ただし，$a>0$とする．
 \begin{description}
 \item[]点$P$におけるこの曲線の接線と$y$軸との交点を$Q$とするとき，

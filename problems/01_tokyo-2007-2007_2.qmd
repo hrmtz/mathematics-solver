@@ -3,6 +3,7 @@ title: "東京大学 2007年 2007_2"
 problem_id: "01_tokyo-2007-2007_2"
 university: "東京大学"
 exam_year: "2007"
+problem_number: 2
 source_tex: "archive/01_tokyo/2007/2007_2.tex"
 pdf_source: "archive/01_tokyo/2007/2007_2.pdf"
 page_image: "archive/01_tokyo/2007/2007_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$n$を2以上の整数とする．
+$n$を2以上の整数とする．
 平面上に$n+2$個の点$O$，$P_0$，$P_1$，$\cdots$，$P_n$があり，次の2つの条件をみたしている．
 \begin{description}
 \item[\ding{"AC}]$\displaystyle \angle P_{k-1}OP_k = \frac{\pi}{n}$ $(1 \leqq k \leqq n)$，

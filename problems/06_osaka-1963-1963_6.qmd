@@ -3,6 +3,7 @@ title: "大阪大学 1963年 1963_6"
 problem_id: "06_osaka-1963-1963_6"
 university: "大阪大学"
 exam_year: "1963"
+problem_number: 6
 source_tex: "archive/06_osaka/1963/1963_6.tex"
 pdf_source: "archive/06_osaka/1963/1963_6.pdf"
 page_image: "archive/06_osaka/1963/1963_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　円$C:x^2+y^2=1$の外にある点$(a, \, 0)$（ただし$a>0$とする）を通り，
+円$C:x^2+y^2=1$の外にある点$(a, \, 0)$（ただし$a>0$とする）を通り，
 円$C$に接する直線$l$がある。
 円$C$および直線$l$が$x$軸のまわりに回転してできる球面および円錐面をそれぞれ$S$，$K$とする。
 $S$と$K$とによって囲まれる部分の体積が$S$の内部の体積に等しくなるような$a$の値を求めよ。

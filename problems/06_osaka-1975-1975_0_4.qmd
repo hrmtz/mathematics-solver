@@ -3,6 +3,7 @@ title: "大阪大学 1975年 1975_0_4"
 problem_id: "06_osaka-1975-1975_0_4"
 university: "大阪大学"
 exam_year: "1975"
+problem_number: 4
 source_tex: "archive/06_osaka/1975/1975_0_4.tex"
 pdf_source: "archive/06_osaka/1975/1975_0_4.pdf"
 page_image: "archive/06_osaka/1975/1975_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　座標平面上に，2点
+座標平面上に，2点
 \[ P(\cos2t+\sin2t, \, \cos2t-\sin2t), \]
 \[ Q(\sqrt3\cos t-\sin t, \, \cos t+\sqrt3\sin t) \]
 がある．$t$が0から$\pi$まで変化するとき，

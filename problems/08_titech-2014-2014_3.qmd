@@ -3,6 +3,7 @@ title: "東京科学大学 2014年 2014_3"
 problem_id: "08_titech-2014-2014_3"
 university: "東京科学大学"
 exam_year: "2014"
+problem_number: 3
 source_tex: "archive/08_titech/2014/2014_3.tex"
 pdf_source: "archive/08_titech/2014/2014_3.pdf"
 page_image: "archive/08_titech/2014/2014_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　1個のさいころを投げて，
+1個のさいころを投げて，
 出た目が1か2であれば行列$A=\begin{pmatrix} 0 & 1 
 
  -1 & 0 \end{pmatrix}$を，

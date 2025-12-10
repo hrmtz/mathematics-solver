@@ -3,6 +3,7 @@ title: "東北大学 2012年 2012_f"
 problem_id: "04_tohoku-2012-2012_f"
 university: "東北大学"
 exam_year: "2012"
+problem_number: 6
 source_tex: "archive/04_tohoku/2012/2012_f.tex"
 pdf_source: "archive/04_tohoku/2012/2012_f.pdf"
 page_image: "archive/04_tohoku/2012/2012_f.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$AB=1$，$AC=\sqrt3$，$\displaystyle \angle BAC=\frac{\pi}{2}$である直角三角形$ABC$を考える。
+$AB=1$，$AC=\sqrt3$，$\displaystyle \angle BAC=\frac{\pi}{2}$である直角三角形$ABC$を考える。
 $n$を2以上の自然数とし，辺$AB$を$n$等分して得られる点を
 $A$に近い方から順に$P_1, \, P_2, \, \cdots, \, P_{n-1}$とする。
 $A$を$P_0$，$B$を$P_n$とおくとき，以下の問いに答えよ。

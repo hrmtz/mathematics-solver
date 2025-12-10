@@ -3,6 +3,7 @@ title: "東北大学 2018年 2018_e"
 problem_id: "04_tohoku-2018-2018_e"
 university: "東北大学"
 exam_year: "2018"
+problem_number: 5
 source_tex: "archive/04_tohoku/2018/2018_e.tex"
 pdf_source: "archive/04_tohoku/2018/2018_e.pdf"
 page_image: "archive/04_tohoku/2018/2018_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　辺の長さが1である正四面体$ABCD$および，点$O$を考える。
+辺の長さが1である正四面体$ABCD$および，点$O$を考える。
 \[ \overrightarrow{OG}=\frac{1}{4}(\overrightarrow{OA}+\overrightarrow{OB}+
 \overrightarrow{OC}+\overrightarrow{OD}) \]
 で定まる点を$G$とする。

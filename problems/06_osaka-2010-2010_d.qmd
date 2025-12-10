@@ -3,6 +3,7 @@ title: "大阪大学 2010年 2010_d"
 problem_id: "06_osaka-2010-2010_d"
 university: "大阪大学"
 exam_year: "2010"
+problem_number: 4
 source_tex: "archive/06_osaka/2010/2010_d.tex"
 pdf_source: "archive/06_osaka/2010/2010_d.pdf"
 page_image: "archive/06_osaka/2010/2010_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　円$C$は，2つの放物線$\displaystyle P_1:y=\frac{1}{4a}x^2$ $(a>0)$と
+円$C$は，2つの放物線$\displaystyle P_1:y=\frac{1}{4a}x^2$ $(a>0)$と
 $\displaystyle P_2:y=-\frac{1}{4b}x^2+m$ $(b>0, \, m>0)$で囲まれた領域内にあり，
 両方の放物線と共有点をもち，さらに$y$軸上に中心をもつとする．
 このとき，以下のことを示せ．

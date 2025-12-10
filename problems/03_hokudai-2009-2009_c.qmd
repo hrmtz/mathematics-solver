@@ -3,6 +3,7 @@ title: "北海道大学 2009年 2009_c"
 problem_id: "03_hokudai-2009-2009_c"
 university: "北海道大学"
 exam_year: "2009"
+problem_number: 3
 source_tex: "archive/03_hokudai/2009/2009_c.tex"
 pdf_source: "archive/03_hokudai/2009/2009_c.pdf"
 page_image: "archive/03_hokudai/2009/2009_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面において，原点を中心とする半径1の円を$S$とする．
+$xy$平面において，原点を中心とする半径1の円を$S$とする．
 $c$を$c>\sqrt2$となる定数とし，$x$軸上に点$C(-c, \, 0)$をとる．
 円$S$の接線で$C$を通り，傾きが正であるものを$l$とし，その接点を$A$とする．
 このとき，以下の問いに答えよ．

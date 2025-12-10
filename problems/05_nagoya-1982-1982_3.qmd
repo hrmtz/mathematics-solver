@@ -3,6 +3,7 @@ title: "名古屋大学 1982年 1982_3"
 problem_id: "05_nagoya-1982-1982_3"
 university: "名古屋大学"
 exam_year: "1982"
+problem_number: 3
 source_tex: "archive/05_nagoya/1982/1982_3.tex"
 pdf_source: "archive/05_nagoya/1982/1982_3.pdf"
 page_image: "archive/05_nagoya/1982/1982_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$AB=AC=5$，$BC=6$なる3角形の紙片$ABC$がある．
+$AB=AC=5$，$BC=6$なる3角形の紙片$ABC$がある．
 辺$BC$上に2点$P$，$Q$を$BP=QC$ $(BP<3)$となるようにとり，
 線分$AP$，$AQ$を折り目として折り曲げ，
 辺$AB$，$AC$を張り合わせて3角すい状の容器をつくる．

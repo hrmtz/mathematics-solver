@@ -3,6 +3,7 @@ title: "京都大学 2011年 2011_2"
 problem_id: "02_kyoto-2011-2011_2"
 university: "京都大学"
 exam_year: "2011"
+problem_number: 2
 source_tex: "archive/02_kyoto/2011/2011_2.tex"
 pdf_source: "archive/02_kyoto/2011/2011_2.pdf"
 page_image: "archive/02_kyoto/2011/2011_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$，$b$，$c$を実数とし，$O$を原点とする座標平面上において，行列
+$a$，$b$，$c$を実数とし，$O$を原点とする座標平面上において，行列
 $\begin{pmatrix} a & 1 
 
  b & c \end{pmatrix}$

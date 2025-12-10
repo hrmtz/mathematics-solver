@@ -3,6 +3,7 @@ title: "名古屋大学 1997年 1997_c"
 problem_id: "05_nagoya-1997-1997_c"
 university: "名古屋大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/05_nagoya/1997/1997_c.tex"
 pdf_source: "archive/05_nagoya/1997/1997_c.pdf"
 page_image: "archive/05_nagoya/1997/1997_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　次の$x$と$y$の連立方程式について，以下の問に答えよ．ただし，$a>0$，$x>0$，$x\neq1$である．
+次の$x$と$y$の連立方程式について，以下の問に答えよ．ただし，$a>0$，$x>0$，$x\neq1$である．
 \[ 2+\log_xy-\log_xa=2\log_{x^2}(ax+3)+\log_x(x-a+1) \]
 \[ (5+3\sqrt3){(1+\sqrt3)}^{ax}=\frac{1}{2}{(1+\sqrt3)}^y \]
 \begin{description}

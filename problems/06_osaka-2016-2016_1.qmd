@@ -3,6 +3,7 @@ title: "大阪大学 2016年 2016_1"
 problem_id: "06_osaka-2016-2016_1"
 university: "大阪大学"
 exam_year: "2016"
+problem_number: 1
 source_tex: "archive/06_osaka/2016/2016_1.tex"
 pdf_source: "archive/06_osaka/2016/2016_1.pdf"
 page_image: "archive/06_osaka/2016/2016_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　1以上6以下の2つの整数$a, \, b$に対し，
+1以上6以下の2つの整数$a, \, b$に対し，
 関数$f_n(x)$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$を
 次の条件（ア），（イ），（ウ）で定める．
 \begin{description}

@@ -3,6 +3,7 @@ title: "東北大学 2024年 2024_3"
 problem_id: "04_tohoku-2024-2024_3"
 university: "東北大学"
 exam_year: "2024"
+problem_number: 3
 source_tex: "archive/04_tohoku/2024/2024_3.tex"
 pdf_source: "archive/04_tohoku/2024/2024_3.pdf"
 page_image: "archive/04_tohoku/2024/2024_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$n$を2以上の整数とする。
+$n$を2以上の整数とする。
 それぞれA，A，Bと書かれた3枚のカードから無作為に1枚抜き出し，カードをもとに戻す試行を考える。
 この試行を$n$回繰り返し，抜き出したカードの文字を順に左から右に並べ，$n$文字の文字列を作る。
 作った文字列内にAAAの並びがある場合は不可とする。

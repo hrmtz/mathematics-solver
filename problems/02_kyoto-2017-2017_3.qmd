@@ -3,6 +3,7 @@ title: "京都大学 2017年 2017_3"
 problem_id: "02_kyoto-2017-2017_3"
 university: "京都大学"
 exam_year: "2017"
+problem_number: 3
 source_tex: "archive/02_kyoto/2017/2017_3.tex"
 pdf_source: "archive/02_kyoto/2017/2017_3.pdf"
 page_image: "archive/02_kyoto/2017/2017_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$p$，$q$を自然数，$\alpha$，$\beta$を
+$p$，$q$を自然数，$\alpha$，$\beta$を
 \[ \tan\alpha=\frac{1}{p}, \hspace{1zw} \tan\beta=\frac{1}{q} \]
 を満たす実数とする．このとき
 \[ \tan(\alpha+2\beta)=2 \]

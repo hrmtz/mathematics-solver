@@ -3,6 +3,7 @@ title: "東京科学大学 1971年 1971_2"
 problem_id: "08_titech-1971-1971_2"
 university: "東京科学大学"
 exam_year: "1971"
+problem_number: 2
 source_tex: "archive/08_titech/1971/1971_2.tex"
 pdf_source: "archive/08_titech/1971/1971_2.pdf"
 page_image: "archive/08_titech/1971/1971_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　次の形のすべての多項式$P(x)=Ax+Bx^2$に対して
+次の形のすべての多項式$P(x)=Ax+Bx^2$に対して
 \[ \left| \int_0^a P(x)P'(x)dx \right| \leqq K\int_0^a { \{ P'(x) \} }^2 dx \]
 がつねに成り立つような$K$の最小値を求めよ．
 ただし，$a>0$とする．

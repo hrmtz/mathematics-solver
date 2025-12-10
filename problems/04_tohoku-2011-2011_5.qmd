@@ -3,6 +3,7 @@ title: "東北大学 2011年 2011_5"
 problem_id: "04_tohoku-2011-2011_5"
 university: "東北大学"
 exam_year: "2011"
+problem_number: 5
 source_tex: "archive/04_tohoku/2011/2011_5.tex"
 pdf_source: "archive/04_tohoku/2011/2011_5.pdf"
 page_image: "archive/04_tohoku/2011/2011_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$a$を実数，$z$を0でない複素数とする．
+$a$を実数，$z$を0でない複素数とする．
 $z$と共役な複素数を$\bar{z}$で表す．
 \begin{description}
 \item[(1)]次を満たす$z$を求めよ．

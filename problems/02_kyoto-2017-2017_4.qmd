@@ -3,6 +3,7 @@ title: "京都大学 2017年 2017_4"
 problem_id: "02_kyoto-2017-2017_4"
 university: "京都大学"
 exam_year: "2017"
+problem_number: 4
 source_tex: "archive/02_kyoto/2017/2017_4.tex"
 pdf_source: "archive/02_kyoto/2017/2017_4.pdf"
 page_image: "archive/02_kyoto/2017/2017_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$\triangle ABC$は鋭角三角形であり，$\displaystyle \angle A=\frac{\pi}{3}$であるとする．
+$\triangle ABC$は鋭角三角形であり，$\displaystyle \angle A=\frac{\pi}{3}$であるとする．
 また$\triangle ABC$の外接円の半径は1であるとする．
 \begin{description}
 \item[(1)]$\triangle ABC$の内心を$P$とするとき，$\angle BPC$を求めよ．

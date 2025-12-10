@@ -3,6 +3,7 @@ title: "九州大学 1978年 1978_0_3"
 problem_id: "07_kyushu-1978-1978_0_3"
 university: "九州大学"
 exam_year: "1978"
+problem_number: 3
 source_tex: "archive/07_kyushu/1978/1978_0_3.tex"
 pdf_source: "archive/07_kyushu/1978/1978_0_3.pdf"
 page_image: "archive/07_kyushu/1978/1978_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$k$と$m$とを正の数とする．
+$k$と$m$とを正の数とする．
 放物線$y={(x-k)}^2$と直線$y=mx+k^2$によって囲まれる部分の面積が$\displaystyle\frac{4}{3}$であるとき，
 次の問に答えよ．
 \begin{description}

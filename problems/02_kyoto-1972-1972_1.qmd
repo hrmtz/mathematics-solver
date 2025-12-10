@@ -3,6 +3,7 @@ title: "京都大学 1972年 1972_1"
 problem_id: "02_kyoto-1972-1972_1"
 university: "京都大学"
 exam_year: "1972"
+problem_number: 1
 source_tex: "archive/02_kyoto/1972/1972_1.tex"
 pdf_source: "archive/02_kyoto/1972/1972_1.pdf"
 page_image: "archive/02_kyoto/1972/1972_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　2つまたは3つのベクトルの加法について，次の法則が成立する．
+2つまたは3つのベクトルの加法について，次の法則が成立する．
 \[ \overrightarrow{A}+\overrightarrow{B}=\overrightarrow{B}+\overrightarrow{A}, \hspace{1zw}
 (\overrightarrow{A}+\overrightarrow{B})+\overrightarrow{C} =
 \overrightarrow{A}+(\overrightarrow{B}+\overrightarrow{C}) \]

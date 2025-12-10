@@ -3,6 +3,7 @@ title: "九州大学 2015年 2015_3"
 problem_id: "07_kyushu-2015-2015_3"
 university: "九州大学"
 exam_year: "2015"
+problem_number: 3
 source_tex: "archive/07_kyushu/2015/2015_3.tex"
 pdf_source: "archive/07_kyushu/2015/2015_3.pdf"
 page_image: "archive/07_kyushu/2015/2015_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　座標空間内に，原点$O(0, \, 0, \, 0)$を中心とする半径1の球がある。
+座標空間内に，原点$O(0, \, 0, \, 0)$を中心とする半径1の球がある。
 下の概略図のように，$y$軸の負の方向から仰角$\displaystyle\frac{\pi}{6}$で太陽光線が当たっている。
 この太陽光線はベクトル$(0, \, \sqrt3, \, -1)$に平行である。
 球は光を通さないものとするとき，以下の問いに答えよ。

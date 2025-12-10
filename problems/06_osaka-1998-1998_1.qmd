@@ -3,6 +3,7 @@ title: "大阪大学 1998年 1998_1"
 problem_id: "06_osaka-1998-1998_1"
 university: "大阪大学"
 exam_year: "1998"
+problem_number: 1
 source_tex: "archive/06_osaka/1998/1998_1.tex"
 pdf_source: "archive/06_osaka/1998/1998_1.pdf"
 page_image: "archive/06_osaka/1998/1998_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標平面において，$x$座標と$y$座標がともに整数である点を格子点という．
+座標平面において，$x$座標と$y$座標がともに整数である点を格子点という．
 また，2つの格子点を結ぶ長さ1の線分から両端の点を除いたものを格子辺という．
 次の問に答えよ．
 \begin{description}

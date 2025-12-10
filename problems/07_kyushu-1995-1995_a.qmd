@@ -3,6 +3,7 @@ title: "九州大学 1995年 1995_a"
 problem_id: "07_kyushu-1995-1995_a"
 university: "九州大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/07_kyushu/1995/1995_a.tex"
 pdf_source: "archive/07_kyushu/1995/1995_a.pdf"
 page_image: "archive/07_kyushu/1995/1995_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　原点を中心とする半径1の球面$S$の外側に点$A(a, \, b, \, c)$があるとする．
+原点を中心とする半径1の球面$S$の外側に点$A(a, \, b, \, c)$があるとする．
 \begin{description}
 \item[(1)]点$A$を通り球面$S$に接する直線は無数にある．
 それらの直線と$S$との接点の集合を$E$とする．

@@ -3,6 +3,7 @@ title: "東京大学 2015年 2015_0_4"
 problem_id: "01_tokyo-2015-2015_0_4"
 university: "東京大学"
 exam_year: "2015"
+problem_number: 4
 source_tex: "archive/01_tokyo/2015/2015_0_4.tex"
 pdf_source: "archive/01_tokyo/2015/2015_0_4.pdf"
 page_image: "archive/01_tokyo/2015/2015_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　投げたとき表と裏の出る確率がそれぞれ$\displaystyle\frac{1}{2}$のコインを1枚用意し，
+投げたとき表と裏の出る確率がそれぞれ$\displaystyle\frac{1}{2}$のコインを1枚用意し，
 次のように左から順に文字を書く。
 　コインを投げ，表が出たときは文字列$A \, A$を書き，
 裏が出たときは文字$B$を書く。

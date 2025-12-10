@@ -3,6 +3,7 @@ title: "名古屋大学 2017年 2017_4"
 problem_id: "05_nagoya-2017-2017_4"
 university: "名古屋大学"
 exam_year: "2017"
+problem_number: 4
 source_tex: "archive/05_nagoya/2017/2017_4.tex"
 pdf_source: "archive/05_nagoya/2017/2017_4.pdf"
 page_image: "archive/05_nagoya/2017/2017_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$を自然数とする。0でない複素数からなる集合$M$が
+$n$を自然数とする。0でない複素数からなる集合$M$が
 次の条件(I)，(II)，(III)を満たしている。
 \begin{description}
 \item[(I)]集合$M$は$n$個の要素からなる。

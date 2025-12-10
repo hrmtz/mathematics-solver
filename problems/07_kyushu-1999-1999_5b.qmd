@@ -3,6 +3,7 @@ title: "九州大学 1999年 1999_5b"
 problem_id: "07_kyushu-1999-1999_5b"
 university: "九州大学"
 exam_year: "1999"
+problem_number: 5
 source_tex: "archive/07_kyushu/1999/1999_5b.tex"
 pdf_source: "archive/07_kyushu/1999/1999_5b.pdf"
 page_image: "archive/07_kyushu/1999/1999_5b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (b)
-　$k$を実数として，2次方程式$x^2+2kx+3k=0$の2つの解を$\alpha$，$\beta$ $(\alpha \neq \beta)$とする．
+$k$を実数として，2次方程式$x^2+2kx+3k=0$の2つの解を$\alpha$，$\beta$ $(\alpha \neq \beta)$とする．
 $i$を虚数単位として次の問に答えよ．
 \begin{description}
 \item[(1)]${|\alpha-i|}^2+{|\beta-i|}^2$の値を$k$を用いて表せ．

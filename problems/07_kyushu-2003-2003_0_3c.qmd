@@ -3,6 +3,7 @@ title: "九州大学 2003年 2003_0_3c"
 problem_id: "07_kyushu-2003-2003_0_3c"
 university: "九州大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/07_kyushu/2003/2003_0_3c.tex"
 pdf_source: "archive/07_kyushu/2003/2003_0_3c.pdf"
 page_image: "archive/07_kyushu/2003/2003_0_3c.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3 (c)
 \begin{description}
 \item[(1)]次の流れ図に対応するプログラムを実行する．
 $C=105$を入力したとき，$X$，$Y$および$N$の値を出力順にすべて示せ．

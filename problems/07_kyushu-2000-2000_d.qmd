@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_d"
 problem_id: "07_kyushu-2000-2000_d"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/07_kyushu/2000/2000_d.tex"
 pdf_source: "archive/07_kyushu/2000/2000_d.pdf"
 page_image: "archive/07_kyushu/2000/2000_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　以下の問いに答えよ．
+以下の問いに答えよ．
 \begin{description}
 \item[(1)]　碁石（ごいし）には白と黒の2種類の石がある．
 ところがA君は『任意の碁石の集合は1種類の石しか含まない』ことを以下のように証明しようとした．

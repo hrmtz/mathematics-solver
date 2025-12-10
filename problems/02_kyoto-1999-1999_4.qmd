@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_4"
 problem_id: "02_kyoto-1999-1999_4"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/02_kyoto/1999/1999_4.tex"
 pdf_source: "archive/02_kyoto/1999/1999_4.pdf"
 page_image: "archive/02_kyoto/1999/1999_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　複素平面上で，$\triangle ABC$の頂点を表す複素数を$\alpha$，$\beta$，$\gamma$とする．
+複素平面上で，$\triangle ABC$の頂点を表す複素数を$\alpha$，$\beta$，$\gamma$とする．
 $\alpha$，$\beta$，$\gamma$が次の3条件を満たすとする．
 \begin{description}
 \item[1.]$\triangle ABC$は辺の長さ$\sqrt3$の正三角形である

@@ -3,6 +3,7 @@ title: "京都大学 1966年 1966_3b"
 problem_id: "02_kyoto-1966-1966_3b"
 university: "京都大学"
 exam_year: "1966"
+problem_number: 3
 source_tex: "archive/02_kyoto/1966/1966_3b.tex"
 pdf_source: "archive/02_kyoto/1966/1966_3b.pdf"
 page_image: "archive/02_kyoto/1966/1966_3b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 旧
-　平面上に，どの3点も正三角形をつくらない相異なる4点がある．
+平面上に，どの3点も正三角形をつくらない相異なる4点がある．
 これらを結ぶ6本の線分のうち，3本の長さは1であり，他の3本の長さは$a$であるという．
 $a$の値を求めよ．
 

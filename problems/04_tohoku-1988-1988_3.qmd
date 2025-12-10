@@ -3,6 +3,7 @@ title: "東北大学 1988年 1988_3"
 problem_id: "04_tohoku-1988-1988_3"
 university: "東北大学"
 exam_year: "1988"
+problem_number: 3
 source_tex: "archive/04_tohoku/1988/1988_3.tex"
 pdf_source: "archive/04_tohoku/1988/1988_3.pdf"
 page_image: "archive/04_tohoku/1988/1988_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　関数$\displaystyle f(x)=\left|\frac{2x^2+x-1}{x-1}\right|$について，
+関数$\displaystyle f(x)=\left|\frac{2x^2+x-1}{x-1}\right|$について，
 次の問に答えよ．
 \begin{description}
 \item[(1)]極値を求めよ．

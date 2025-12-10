@@ -3,6 +3,7 @@ title: "九州大学 2023年 2023_5"
 problem_id: "07_kyushu-2023-2023_5"
 university: "九州大学"
 exam_year: "2023"
+problem_number: 5
 source_tex: "archive/07_kyushu/2023/2023_5.tex"
 pdf_source: "archive/07_kyushu/2023/2023_5.pdf"
 page_image: "archive/07_kyushu/2023/2023_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$xy$平面上の曲線$C$を，媒介変数$t$を用いて次のように定める。
+$xy$平面上の曲線$C$を，媒介変数$t$を用いて次のように定める。
 \[ x=t+2\sin^2t, \hspace{1zw} y=t+\sin t \hspace{1zw} (0<t<\pi) \]
 以下の問いに答えよ。
 \begin{description}

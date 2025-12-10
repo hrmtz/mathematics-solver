@@ -3,6 +3,7 @@ title: "名古屋大学 1999年 1999_4"
 problem_id: "05_nagoya-1999-1999_4"
 university: "名古屋大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/05_nagoya/1999/1999_4.tex"
 pdf_source: "archive/05_nagoya/1999/1999_4.pdf"
 page_image: "archive/05_nagoya/1999/1999_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$を2以上の自然数とする．条件
+$n$を2以上の自然数とする．条件
 \[ k_1\geqq1, \hspace{1zw} \cdots\cdots, \hspace{1zw} k_{n-1}\geqq1, \hspace{1zw} k_n\geqq0 \]
 をみたす$n$個の整数の組$(k_1, \, k_2, \, \cdots\cdots, \, k_n)$に対して，
 自然数$m(k_1, \, k_2, \, \cdots\cdots, \, k_n)$を次のように定める．

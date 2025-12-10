@@ -3,6 +3,7 @@ title: "東北大学 1994年 1994_2"
 problem_id: "04_tohoku-1994-1994_2"
 university: "東北大学"
 exam_year: "1994"
+problem_number: 2
 source_tex: "archive/04_tohoku/1994/1994_2.tex"
 pdf_source: "archive/04_tohoku/1994/1994_2.pdf"
 page_image: "archive/04_tohoku/1994/1994_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$n$を1以上の整数とする．
+$n$を1以上の整数とする．
 区間$0 \leqq x \leqq 1$で連続な関数$f(x)$が，
 整数$k=0, \, 1, \, \cdots\cdots, \, n-1$に対して，
 次を満たしているものとする．

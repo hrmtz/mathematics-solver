@@ -3,6 +3,7 @@ title: "大阪大学 1980年 1980_3"
 problem_id: "06_osaka-1980-1980_3"
 university: "大阪大学"
 exam_year: "1980"
+problem_number: 3
 source_tex: "archive/06_osaka/1980/1980_3.tex"
 pdf_source: "archive/06_osaka/1980/1980_3.pdf"
 page_image: "archive/06_osaka/1980/1980_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$b>0$，$c>0$とし，数列$\{ a_n \}$は$a_1$から順次
+$b>0$，$c>0$とし，数列$\{ a_n \}$は$a_1$から順次
 \[ a_n=ba_{n-1}+{(-c)}^{n-1} \hspace{1zw} (n\geqq2) \]
 によって定められるものとする．
 $a_1\geqq1$のとき，すべての$n$について$a_n\geqq0$となるために$b$，$c$が満足すべき必要十分条件は

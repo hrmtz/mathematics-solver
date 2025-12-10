@@ -3,6 +3,7 @@ title: "東京大学 2025年 2025_4"
 problem_id: "01_tokyo-2025-2025_4"
 university: "東京大学"
 exam_year: "2025"
+problem_number: 4
 source_tex: "archive/01_tokyo/2025/2025_4.tex"
 pdf_source: "archive/01_tokyo/2025/2025_4.pdf"
 page_image: "archive/01_tokyo/2025/2025_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　この問いでは，0以上の整数の2乗になる数を平方数と呼ぶ。
+この問いでは，0以上の整数の2乗になる数を平方数と呼ぶ。
 $a$を正の整数とし，$f_a(x)=x^2+x-a$とおく。
 \begin{description}
 \item[(1)]$n$を正の整数とする。

@@ -3,6 +3,7 @@ title: "京都大学 1965年 1965_1"
 problem_id: "02_kyoto-1965-1965_1"
 university: "京都大学"
 exam_year: "1965"
+problem_number: 1
 source_tex: "archive/02_kyoto/1965/1965_1.tex"
 pdf_source: "archive/02_kyoto/1965/1965_1.pdf"
 page_image: "archive/02_kyoto/1965/1965_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　数学のテストのあとで，高校生の弟が，大学生の姉と次のような対話をした．
+数学のテストのあとで，高校生の弟が，大学生の姉と次のような対話をした．
 □の中に適当な記号，式，あるいは語句をいれよ．
 \begin{description}
 \item[(弟)]きょう，学校で数学のテストがありました．

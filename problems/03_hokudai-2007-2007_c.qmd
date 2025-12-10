@@ -3,6 +3,7 @@ title: "北海道大学 2007年 2007_c"
 problem_id: "03_hokudai-2007-2007_c"
 university: "北海道大学"
 exam_year: "2007"
+problem_number: 3
 source_tex: "archive/03_hokudai/2007/2007_c.tex"
 pdf_source: "archive/03_hokudai/2007/2007_c.pdf"
 page_image: "archive/03_hokudai/2007/2007_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xyz$空間において連立方程式
+$xyz$空間において連立方程式
 \[ 0\leqq x \leqq1, \hspace{1zw} 0\leqq y \leqq1, \hspace{1zw} 0\leqq z \leqq1 \]
 \[ x^2+y^2+z^2-2xy-1\geqq0 \]
 を表す立体を考える．

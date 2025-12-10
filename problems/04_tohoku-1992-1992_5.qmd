@@ -3,6 +3,7 @@ title: "東北大学 1992年 1992_5"
 problem_id: "04_tohoku-1992-1992_5"
 university: "東北大学"
 exam_year: "1992"
+problem_number: 5
 source_tex: "archive/04_tohoku/1992/1992_5.tex"
 pdf_source: "archive/04_tohoku/1992/1992_5.pdf"
 page_image: "archive/04_tohoku/1992/1992_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$a$，$b$，$c$をそれぞれ1より大きな数とする．
+$a$，$b$，$c$をそれぞれ1より大きな数とする．
 \begin{description}
 \item[(1)]$\log_{ab}a+\log_{bc}b+\log_{ca}c>1$を示せ．
 \item[(2)]$\log_{ab}a+\log_{bc}b+\log_{ca}c<2$を示せ．

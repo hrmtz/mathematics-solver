@@ -3,6 +3,7 @@ title: "東京科学大学 2006年 2006_4"
 problem_id: "08_titech-2006-2006_4"
 university: "東京科学大学"
 exam_year: "2006"
+problem_number: 4
 source_tex: "archive/08_titech/2006/2006_4.tex"
 pdf_source: "archive/08_titech/2006/2006_4.pdf"
 page_image: "archive/08_titech/2006/2006_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　空間内の四面体$ABCD$を考えると，辺$AB$，$BC$，$CD$，$DA$の中点を，それぞれ$K$，$L$，$M$，$N$とする．
+空間内の四面体$ABCD$を考えると，辺$AB$，$BC$，$CD$，$DA$の中点を，それぞれ$K$，$L$，$M$，$N$とする．
 \begin{description}
 \item[(1)]$4\overrightarrow{MK}\cdot\overrightarrow{LN}=|\overrightarrow{AC}|^2-|\overrightarrow{BD}|^2$を示せ．
 ここに$|\overrightarrow{AC}|$はベクトル$\overrightarrow{AC}$の長さを表す．

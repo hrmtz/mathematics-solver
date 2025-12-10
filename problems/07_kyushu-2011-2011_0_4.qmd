@@ -3,6 +3,7 @@ title: "九州大学 2011年 2011_0_4"
 problem_id: "07_kyushu-2011-2011_0_4"
 university: "九州大学"
 exam_year: "2011"
+problem_number: 4
 source_tex: "archive/07_kyushu/2011/2011_0_4.tex"
 pdf_source: "archive/07_kyushu/2011/2011_0_4.pdf"
 page_image: "archive/07_kyushu/2011/2011_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　1から4までの数字が1つずつ書かれた4枚のカードがある。
+1から4までの数字が1つずつ書かれた4枚のカードがある。
 その4枚のカードを横一列に並べ，以下の操作を考える。
 \begin{description}
 \item[操作：]1から4までの数字が1つずつ書かれた4個の球が入っている袋から同時に2個の球を取り出す。

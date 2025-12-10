@@ -3,6 +3,7 @@ title: "九州大学 1972年 1972_1"
 problem_id: "07_kyushu-1972-1972_1"
 university: "九州大学"
 exam_year: "1972"
+problem_number: 1
 source_tex: "archive/07_kyushu/1972/1972_1.tex"
 pdf_source: "archive/07_kyushu/1972/1972_1.pdf"
 page_image: "archive/07_kyushu/1972/1972_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　実数を元（要素）とする2つの集合
+実数を元（要素）とする2つの集合
 \[ A=\{ 2, \, 4, \, a^3-2a^2-a+7 \} \]
 \[ B=\{ -4, \, a+3, \, a^2-2a+2, \, a^3+a^2+3a+7 \} \]
 の共通部分（交わり）$A \cap B$が$\{ 2, \, 5 \}$となるように実数$a$の値を定めよ．

@@ -3,6 +3,7 @@ title: "名古屋大学 1993年 1993_0_3"
 problem_id: "05_nagoya-1993-1993_0_3"
 university: "名古屋大学"
 exam_year: "1993"
+problem_number: 3
 source_tex: "archive/05_nagoya/1993/1993_0_3.tex"
 pdf_source: "archive/05_nagoya/1993/1993_0_3.pdf"
 page_image: "archive/05_nagoya/1993/1993_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　3次関数$y=f(x)$について$f(0)=f'(0)=f'(2)=0$であり，
+3次関数$y=f(x)$について$f(0)=f'(0)=f'(2)=0$であり，
 さらに$0 \leqq x \leqq 2$において$|f''(x)|\leqq1$が成り立つならば，
 $\displaystyle|f(2)|\leqq\frac{2}{3}$であることを証明せよ．
 

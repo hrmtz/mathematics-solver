@@ -3,6 +3,7 @@ title: "東京科学大学 2024年 2024_3"
 problem_id: "08_titech-2024-2024_3"
 university: "東京科学大学"
 exam_year: "2024"
+problem_number: 3
 source_tex: "archive/08_titech/2024/2024_3.tex"
 pdf_source: "archive/08_titech/2024/2024_3.pdf"
 page_image: "archive/08_titech/2024/2024_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面上に，点$A(a, \, 0)$，$B(0, \, b)$，$C(-a, \, 0)$ (ただし$0<a<b$)をとる．
+$xy$平面上に，点$A(a, \, 0)$，$B(0, \, b)$，$C(-a, \, 0)$ (ただし$0<a<b$)をとる．
 点$A, \, B$を通る直線を$l$とし，点$C$を通り線分$BC$に垂直な直線を$k$とする．
 さらに，点$A$を通り$y$軸に平行な直線と直線$k$との交点を$C_1$とし，
 点$C_1$を通り$x$軸に平行な直線と直線$l$との交点を$A_1$とする．

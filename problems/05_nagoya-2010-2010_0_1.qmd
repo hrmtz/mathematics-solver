@@ -3,6 +3,7 @@ title: "名古屋大学 2010年 2010_0_1"
 problem_id: "05_nagoya-2010-2010_0_1"
 university: "名古屋大学"
 exam_year: "2010"
+problem_number: 1
 source_tex: "archive/05_nagoya/2010/2010_0_1.tex"
 pdf_source: "archive/05_nagoya/2010/2010_0_1.pdf"
 page_image: "archive/05_nagoya/2010/2010_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$xy$平面上の長方形$ABCD$が次の条件(a)，(b)，(c)をみたしているとする．
+$xy$平面上の長方形$ABCD$が次の条件(a)，(b)，(c)をみたしているとする．
 \begin{description}
 \item[(a)]対角線$AC$と$BD$の交点は原点$O$に一致する．
 \item[(b)]直線$AB$の傾きは2である．

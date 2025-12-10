@@ -3,6 +3,7 @@ title: "北海道大学 2011年 2011_a"
 problem_id: "03_hokudai-2011-2011_a"
 university: "北海道大学"
 exam_year: "2011"
+problem_number: 1
 source_tex: "archive/03_hokudai/2011/2011_a.tex"
 pdf_source: "archive/03_hokudai/2011/2011_a.pdf"
 page_image: "archive/03_hokudai/2011/2011_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$0\leqq\theta<\pi$に対して，
+$0\leqq\theta<\pi$に対して，
 行列$\begin{pmatrix} \cos\theta & \sin\theta 
 
  \sin\theta & -\cos\theta \end{pmatrix}$

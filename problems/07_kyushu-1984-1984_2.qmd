@@ -3,6 +3,7 @@ title: "九州大学 1984年 1984_2"
 problem_id: "07_kyushu-1984-1984_2"
 university: "九州大学"
 exam_year: "1984"
+problem_number: 2
 source_tex: "archive/07_kyushu/1984/1984_2.tex"
 pdf_source: "archive/07_kyushu/1984/1984_2.pdf"
 page_image: "archive/07_kyushu/1984/1984_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　表が出る確率が$p$ $(0<p<1)$である硬貨を投げて，
+表が出る確率が$p$ $(0<p<1)$である硬貨を投げて，
 表が出たら点数を1点増やし，裏が出たら点数をそのままとするゲームを考える．
 0点から始めて，硬貨を$n$回投げたあとでの点数が偶数である確率を$a_n$とする．
 \begin{description}

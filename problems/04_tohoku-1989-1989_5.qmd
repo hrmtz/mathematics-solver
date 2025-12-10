@@ -3,6 +3,7 @@ title: "東北大学 1989年 1989_5"
 problem_id: "04_tohoku-1989-1989_5"
 university: "東北大学"
 exam_year: "1989"
+problem_number: 5
 source_tex: "archive/04_tohoku/1989/1989_5.tex"
 pdf_source: "archive/04_tohoku/1989/1989_5.pdf"
 page_image: "archive/04_tohoku/1989/1989_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$a$，$b$を$a\geqq1$，$a\neq2$，$b>0$なる定数とし，
+$a$，$b$を$a\geqq1$，$a\neq2$，$b>0$なる定数とし，
 $x$の関数$f(x)=2e^{2x}-ae^x+bx$を考える．
 \begin{description}
 \item[(1)]$f(x)$が単調増加となるとき，$a$，$b$の満たすべき条件を求めよ．

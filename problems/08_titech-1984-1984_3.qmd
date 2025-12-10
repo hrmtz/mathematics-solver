@@ -3,6 +3,7 @@ title: "東京科学大学 1984年 1984_3"
 problem_id: "08_titech-1984-1984_3"
 university: "東京科学大学"
 exam_year: "1984"
+problem_number: 3
 source_tex: "archive/08_titech/1984/1984_3.tex"
 pdf_source: "archive/08_titech/1984/1984_3.pdf"
 page_image: "archive/08_titech/1984/1984_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　曲線$\displaystyle y=\frac{1}{x}$ $(x>0)$を$C_1$とし，
+曲線$\displaystyle y=\frac{1}{x}$ $(x>0)$を$C_1$とし，
 $\displaystyle y=-\frac{1}{x}$ $(x<0)$を$C_2$とする．
 $C_1$上に点$P_1$，$C_2$上に点$P_2$をとり，
 $P_1$，$P_2$を結ぶ直線を$l$とする．

@@ -3,6 +3,7 @@ title: "九州大学 1973年 1973_5"
 problem_id: "07_kyushu-1973-1973_5"
 university: "九州大学"
 exam_year: "1973"
+problem_number: 5
 source_tex: "archive/07_kyushu/1973/1973_5.tex"
 pdf_source: "archive/07_kyushu/1973/1973_5.pdf"
 page_image: "archive/07_kyushu/1973/1973_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　空間に4点$O(0, \, 0, \, 0)$，$A(1, \, 0, \, 0)$，$B(0, \, 1, \, 0)$，$C(0, \, 0, \, 1)$がある．
+空間に4点$O(0, \, 0, \, 0)$，$A(1, \, 0, \, 0)$，$B(0, \, 1, \, 0)$，$C(0, \, 0, \, 1)$がある．
 $0<a<1$である実数$a$に対して，点$A'$，$B'$，$C'$を
 $\overrightarrow{OA'}=a\overrightarrow{OA}$，
 $\overrightarrow{OB'}=a\overrightarrow{OB}$，

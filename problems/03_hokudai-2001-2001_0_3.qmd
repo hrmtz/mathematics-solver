@@ -3,6 +3,7 @@ title: "北海道大学 2001年 2001_0_3"
 problem_id: "03_hokudai-2001-2001_0_3"
 university: "北海道大学"
 exam_year: "2001"
+problem_number: 3
 source_tex: "archive/03_hokudai/2001/2001_0_3.tex"
 pdf_source: "archive/03_hokudai/2001/2001_0_3.pdf"
 page_image: "archive/03_hokudai/2001/2001_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　複素数平面上の2点
+複素数平面上の2点
 \[ z_1=(1+\sqrt2)+\sqrt2 \, i \text{と} z_2=\sqrt3 \, i \]
 を通る円のうち，中心が実軸上にある円$C$についてつぎの問いに答えよ．
 \begin{description}

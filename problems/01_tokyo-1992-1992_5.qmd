@@ -3,6 +3,7 @@ title: "東京大学 1992年 1992_5"
 problem_id: "01_tokyo-1992-1992_5"
 university: "東京大学"
 exam_year: "1992"
+problem_number: 5
 source_tex: "archive/01_tokyo/1992/1992_5.tex"
 pdf_source: "archive/01_tokyo/1992/1992_5.pdf"
 page_image: "archive/01_tokyo/1992/1992_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$xy$平面において，
+$xy$平面において，
 曲線$\displaystyle y=\frac{x^3}{6}+\frac{1}{2x}$上の点，$\displaystyle\left(1,\frac{2}{3}\right)$を出発し，
 この曲線上を進む点$P$がある．
 出発してから$t$秒後の$P$の速度$\vec{v}$の大きさは$\displaystyle\frac{t}{2}$に等しく，

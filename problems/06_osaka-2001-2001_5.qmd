@@ -3,6 +3,7 @@ title: "大阪大学 2001年 2001_5"
 problem_id: "06_osaka-2001-2001_5"
 university: "大阪大学"
 exam_year: "2001"
+problem_number: 5
 source_tex: "archive/06_osaka/2001/2001_5.tex"
 pdf_source: "archive/06_osaka/2001/2001_5.pdf"
 page_image: "archive/06_osaka/2001/2001_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　数列$ \{ a_n \} $において，
+数列$ \{ a_n \} $において，
 各項$a_n$が$a_n\geqq0$をみたし，
 かつ$\displaystyle\sum_{n=1}^\infty a_n=\frac{1}{2}$が成り立つとする．
 さらに各$n$に対し$b_n=(1-a_1)(1-a_2)\cdots\cdots(1-a_n)$，$c_n=1-(a_1+a_2+\cdots\cdots+a_n)$とおく．

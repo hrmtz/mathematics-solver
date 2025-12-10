@@ -3,6 +3,7 @@ title: "名古屋大学 2017年 2017_3"
 problem_id: "05_nagoya-2017-2017_3"
 university: "名古屋大学"
 exam_year: "2017"
+problem_number: 3
 source_tex: "archive/05_nagoya/2017/2017_3.tex"
 pdf_source: "archive/05_nagoya/2017/2017_3.pdf"
 page_image: "archive/05_nagoya/2017/2017_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xyz$空間の2点$A(0, \, 0, \, 2)$，$P(a, \, b, \, 0)$を通る直線を$l$とする。
+$xyz$空間の2点$A(0, \, 0, \, 2)$，$P(a, \, b, \, 0)$を通る直線を$l$とする。
 また，点$(2, \, 0, \, 0)$を中心とし，半径が$\sqrt2$である球面を$S$で表し，
 $S$のうち$z$座標が$z>0$を満たす部分を$T$とする。このとき，次の問に答えよ。
 \begin{description}

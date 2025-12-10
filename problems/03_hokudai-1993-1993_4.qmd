@@ -3,6 +3,7 @@ title: "北海道大学 1993年 1993_4"
 problem_id: "03_hokudai-1993-1993_4"
 university: "北海道大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/03_hokudai/1993/1993_4.tex"
 pdf_source: "archive/03_hokudai/1993/1993_4.pdf"
 page_image: "archive/03_hokudai/1993/1993_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面上を動く点$P$の座標$(x, \, y)$が時刻$t$の関数として
+平面上を動く点$P$の座標$(x, \, y)$が時刻$t$の関数として
 \[ x=\sqrt{a} \, t, \hspace{1zw} y=1+\sqrt{1-at}-\frac{t^2}{2} \]
 と表されている．
 ただし，$0<a<1$とする．

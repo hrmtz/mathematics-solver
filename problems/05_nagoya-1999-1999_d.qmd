@@ -3,6 +3,7 @@ title: "名古屋大学 1999年 1999_d"
 problem_id: "05_nagoya-1999-1999_d"
 university: "名古屋大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/05_nagoya/1999/1999_d.tex"
 pdf_source: "archive/05_nagoya/1999/1999_d.pdf"
 page_image: "archive/05_nagoya/1999/1999_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$A$君はグーのカードを1枚，チョキのカードを4枚持っている．
+$A$君はグーのカードを1枚，チョキのカードを4枚持っている．
 $B$君はパーのカードを1枚，チョキのカードを4枚持っている．
 2人はカードを無作為に1枚ずつ出して，いずれかが勝つまでじゃんけんを続ける．
 以下の問いに答えよ．

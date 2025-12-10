@@ -3,6 +3,7 @@ title: "京都大学 2006年 2006_c"
 problem_id: "02_kyoto-2006-2006_c"
 university: "京都大学"
 exam_year: "2006"
+problem_number: 3
 source_tex: "archive/02_kyoto/2006/2006_c.tex"
 pdf_source: "archive/02_kyoto/2006/2006_c.pdf"
 page_image: "archive/02_kyoto/2006/2006_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　さいころを$n$個同時に投げるとき，出た目の数の和が$n+3$になる確率を求めよ．
+さいころを$n$個同時に投げるとき，出た目の数の和が$n+3$になる確率を求めよ．
 
 ---
 

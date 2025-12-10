@@ -3,6 +3,7 @@ title: "京都大学 1983年 1983_4"
 problem_id: "02_kyoto-1983-1983_4"
 university: "京都大学"
 exam_year: "1983"
+problem_number: 4
 source_tex: "archive/02_kyoto/1983/1983_4.tex"
 pdf_source: "archive/02_kyoto/1983/1983_4.pdf"
 page_image: "archive/02_kyoto/1983/1983_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　3つのベクトル$\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$はたがいに直交している．
+3つのベクトル$\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$はたがいに直交している．
 点$O$より直線$BC$，$CA$，$AB$に垂線をひき，その交点をそれぞれ$P$，$Q$，$R$とする．
 \begin{description}
 \item[(1)]四面体$OPQR$の四面体$OABC$に対する体積比を，

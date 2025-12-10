@@ -3,6 +3,7 @@ title: "大阪大学 2009年 2009_2"
 problem_id: "06_osaka-2009-2009_2"
 university: "大阪大学"
 exam_year: "2009"
+problem_number: 2
 source_tex: "archive/06_osaka/2009/2009_2.tex"
 pdf_source: "archive/06_osaka/2009/2009_2.pdf"
 page_image: "archive/06_osaka/2009/2009_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　行列$\displaystyle A=\frac{1}{2}
+行列$\displaystyle A=\frac{1}{2}
 \begin{pmatrix} \displaystyle \cos\frac{\pi}{3} & \displaystyle -\sin\frac{\pi}{3}
 \displaystyle \sin\frac{\pi}{3} & \displaystyle \cos\frac{\pi}{3} \end{pmatrix}$
 の表す1次変換を$f$とする．

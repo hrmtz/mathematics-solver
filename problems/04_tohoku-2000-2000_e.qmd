@@ -3,6 +3,7 @@ title: "東北大学 2000年 2000_e"
 problem_id: "04_tohoku-2000-2000_e"
 university: "東北大学"
 exam_year: "2000"
+problem_number: 5
 source_tex: "archive/04_tohoku/2000/2000_e.tex"
 pdf_source: "archive/04_tohoku/2000/2000_e.pdf"
 page_image: "archive/04_tohoku/2000/2000_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$a$，$b$，$r$は正の定数とする．
+$a$，$b$，$r$は正の定数とする．
 $xy$平面上で，点$P$，$Q$をそれぞれ$x$軸，$y$軸上にとり$PQ=r$とする．
 線分$PQ$を$P$側へ延長して$AP=a$となる点$A$をとり，
 また，線分$PQ$を$Q$側へ延長して$BQ=b$となる点$B$をとる．

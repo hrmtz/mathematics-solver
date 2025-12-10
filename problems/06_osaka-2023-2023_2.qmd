@@ -3,6 +3,7 @@ title: "大阪大学 2023年 2023_2"
 problem_id: "06_osaka-2023-2023_2"
 university: "大阪大学"
 exam_year: "2023"
+problem_number: 2
 source_tex: "archive/06_osaka/2023/2023_2.tex"
 pdf_source: "archive/06_osaka/2023/2023_2.pdf"
 page_image: "archive/06_osaka/2023/2023_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上の3点$O$，$A$，$B$が
+平面上の3点$O$，$A$，$B$が
 \[ |2\overrightarrow{OA}+\overrightarrow{OB}|=|\overrightarrow{OA}+2\overrightarrow{OB}|=1 \hspace{1zw}
 \text{かつ} \hspace{1zw}
 (2\overrightarrow{OA}+\overrightarrow{OB})\cdot(\overrightarrow{OA}+\overrightarrow{OB})=\frac{1}{3} \]

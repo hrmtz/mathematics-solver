@@ -3,6 +3,7 @@ title: "名古屋大学 2003年 2003_c"
 problem_id: "05_nagoya-2003-2003_c"
 university: "名古屋大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/05_nagoya/2003/2003_c.tex"
 pdf_source: "archive/05_nagoya/2003/2003_c.pdf"
 page_image: "archive/05_nagoya/2003/2003_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$x^2+y^2=a^2$で表される図形の$y\leqq0$の部分を$y$軸のまわりに1回転してできる容器$A$と，
+$x^2+y^2=a^2$で表される図形の$y\leqq0$の部分を$y$軸のまわりに1回転してできる容器$A$と，
 $\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$で表される図形の$y\leqq0$の部分を
 $y$軸のまわりに1回転してできる容器$B$がある．
 いずれの容器にも水がいっぱいに満たされているとする．

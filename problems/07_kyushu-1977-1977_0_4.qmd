@@ -3,6 +3,7 @@ title: "九州大学 1977年 1977_0_4"
 problem_id: "07_kyushu-1977-1977_0_4"
 university: "九州大学"
 exam_year: "1977"
+problem_number: 4
 source_tex: "archive/07_kyushu/1977/1977_0_4.tex"
 pdf_source: "archive/07_kyushu/1977/1977_0_4.pdf"
 page_image: "archive/07_kyushu/1977/1977_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$0<x<3$，かつ$x \neq 1$，$x \neq 2$とするとき，次の問に答えよ．
+$0<x<3$，かつ$x \neq 1$，$x \neq 2$とするとき，次の問に答えよ．
 \begin{description}
 \item[(1)]$\displaystyle\frac{2}{x(1-x)}+\frac{2}{(x-1)(2-x)}+\frac{2}{(x-2)(3-x)}\cdots\text{\ding{"AC}}$
 のとる値のなかで最小のものを求めよ．

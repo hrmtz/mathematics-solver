@@ -3,6 +3,7 @@ title: "京都大学 1986年 1986_2"
 problem_id: "02_kyoto-1986-1986_2"
 university: "京都大学"
 exam_year: "1986"
+problem_number: 2
 source_tex: "archive/02_kyoto/1986/1986_2.tex"
 pdf_source: "archive/02_kyoto/1986/1986_2.pdf"
 page_image: "archive/02_kyoto/1986/1986_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　座標空間において，平面$z=1$上に一辺の長さが1の正三角形$ABC$がある．
+座標空間において，平面$z=1$上に一辺の長さが1の正三角形$ABC$がある．
 点$A$，$B$，$C$から平面$z=0$におろした垂線の足をそれぞれ$D$，$E$，$F$とする．
 動点$P$は$A$から$B$の方向へ出発し，一定の速さで$\triangle ABC$の周を一周する．
 動点$Q$は同時に$E$から$F$の方向へ出発し，$P$と同じ一定の速さで$\triangle DEF$の周を一周する．

@@ -3,6 +3,7 @@ title: "東京科学大学 2000年 2000_3"
 problem_id: "08_titech-2000-2000_3"
 university: "東京科学大学"
 exam_year: "2000"
+problem_number: 3
 source_tex: "archive/08_titech/2000/2000_3.tex"
 pdf_source: "archive/08_titech/2000/2000_3.pdf"
 page_image: "archive/08_titech/2000/2000_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　1辺の長さが1の正三角形を底面とし高さが2の三角柱を考える．
+1辺の長さが1の正三角形を底面とし高さが2の三角柱を考える．
 この三角柱を平面で切り，その断面が3辺とも三角柱の側面上にある直角三角形であるようにする．
 そのような直角三角形の面積がとりうる値の範囲を求めよ．
 

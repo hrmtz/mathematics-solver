@@ -3,6 +3,7 @@ title: "京都大学 1987年 1987_0_a"
 problem_id: "02_kyoto-1987-1987_0_a"
 university: "京都大学"
 exam_year: "1987"
+problem_number: 1
 source_tex: "archive/02_kyoto/1987/1987_0_a.tex"
 pdf_source: "archive/02_kyoto/1987/1987_0_a.pdf"
 page_image: "archive/02_kyoto/1987/1987_0_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　次の分数式が既約分数でないような定数$a$の値を求め，そのときの分数式を約分せよ．
+次の分数式が既約分数でないような定数$a$の値を求め，そのときの分数式を約分せよ．
 \[ \frac{x^3-ax^2+12x-a-3}{x^3-(a+1)x^2+16x-a-6} \]
 
 ---

@@ -3,6 +3,7 @@ title: "京都大学 1975年 1975_0_4"
 problem_id: "02_kyoto-1975-1975_0_4"
 university: "京都大学"
 exam_year: "1975"
+problem_number: 4
 source_tex: "archive/02_kyoto/1975/1975_0_4.tex"
 pdf_source: "archive/02_kyoto/1975/1975_0_4.pdf"
 page_image: "archive/02_kyoto/1975/1975_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　直角をはさむ2つの半直線$OA$，$OB$上にそれぞれ点$P$，$Q$を，$PQ=2a$ $(a\text{は正の定数})$であるようにとる．
+直角をはさむ2つの半直線$OA$，$OB$上にそれぞれ点$P$，$Q$を，$PQ=2a$ $(a\text{は正の定数})$であるようにとる．
 このとき，$\triangle OPQ$の面積を最大にするには線分$OP$の長さをいくらにすればよいか．
 
 ---

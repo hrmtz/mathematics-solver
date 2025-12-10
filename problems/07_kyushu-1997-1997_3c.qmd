@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_3c"
 problem_id: "07_kyushu-1997-1997_3c"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/07_kyushu/1997/1997_3c.tex"
 pdf_source: "archive/07_kyushu/1997/1997_3c.pdf"
 page_image: "archive/07_kyushu/1997/1997_3c.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-3 (c)
 \begin{description}
 \item[(1)]次の［］の中をうめよ．
 \begin{description}

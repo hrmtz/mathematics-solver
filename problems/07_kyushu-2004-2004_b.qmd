@@ -3,6 +3,7 @@ title: "九州大学 2004年 2004_b"
 problem_id: "07_kyushu-2004-2004_b"
 university: "九州大学"
 exam_year: "2004"
+problem_number: 2
 source_tex: "archive/07_kyushu/2004/2004_b.tex"
 pdf_source: "archive/07_kyushu/2004/2004_b.pdf"
 page_image: "archive/07_kyushu/2004/2004_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　連立不等式$0 \leqq x \leqq 6$，$0 \leqq y \leqq 4$の表す領域を$D$とし，
+連立不等式$0 \leqq x \leqq 6$，$0 \leqq y \leqq 4$の表す領域を$D$とし，
 連立不等式$0 \leqq x \leqq 6$，$4 < y \leqq 7$の表す領域を$E$とする．
 $0 \leqq t \leqq 6$として，点$P$が$O(0, \, 0)$，$A(t, \, 4)$，$B(6, \, 7)$を結ぶ折れ線$OAB$上を
 $O$から$B$まで移動している．ただし，領域$D$内では一定の速さ$u$で動き，

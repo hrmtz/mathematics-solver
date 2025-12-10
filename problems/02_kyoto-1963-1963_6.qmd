@@ -3,6 +3,7 @@ title: "京都大学 1963年 1963_6"
 problem_id: "02_kyoto-1963-1963_6"
 university: "京都大学"
 exam_year: "1963"
+problem_number: 6
 source_tex: "archive/02_kyoto/1963/1963_6.tex"
 pdf_source: "archive/02_kyoto/1963/1963_6.pdf"
 page_image: "archive/02_kyoto/1963/1963_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　$\displaystyle 0<x<\frac{\pi}{4}$のとき，$\displaystyle \int_0^x \cos t dt > 2 \int_0^x \sin t dt$を証明せよ．
+$\displaystyle 0<x<\frac{\pi}{4}$のとき，$\displaystyle \int_0^x \cos t dt > 2 \int_0^x \sin t dt$を証明せよ．
 
 ---
 

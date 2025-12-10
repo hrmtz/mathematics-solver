@@ -3,6 +3,7 @@ title: "九州大学 2005年 2005_c"
 problem_id: "07_kyushu-2005-2005_c"
 university: "九州大学"
 exam_year: "2005"
+problem_number: 3
 source_tex: "archive/07_kyushu/2005/2005_c.tex"
 pdf_source: "archive/07_kyushu/2005/2005_c.pdf"
 page_image: "archive/07_kyushu/2005/2005_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　関数$f(x)=x^2+2px+q$を用いて，数列$\{ a_n \}$を
+関数$f(x)=x^2+2px+q$を用いて，数列$\{ a_n \}$を
 \[ a_1=0, \hspace{1zw} a_{n+1}=-rf'(a_n)+a_n \hspace{1zw} (n=1, \, 2, \, \cdots\cdots) \]
 と定める．ただし，$p$，$q$，$r$は実数で，$p\neq0$かつ$\displaystyle0<r<\frac{1}{2}$とする．
 \begin{description}

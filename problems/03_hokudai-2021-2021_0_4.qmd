@@ -3,6 +3,7 @@ title: "北海道大学 2021年 2021_0_4"
 problem_id: "03_hokudai-2021-2021_0_4"
 university: "北海道大学"
 exam_year: "2021"
+problem_number: 4
 source_tex: "archive/03_hokudai/2021/2021_0_4.tex"
 pdf_source: "archive/03_hokudai/2021/2021_0_4.pdf"
 page_image: "archive/03_hokudai/2021/2021_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$k$を$k>-1$を満たす実数とする。
+$k$を$k>-1$を満たす実数とする。
 直線$l:y=(1-k)x+k$および放物線$C:y=x^2$を考える。
 $C$と$l$で囲まれた部分の面積を$S_1$とし，
 $C$と$l$と直線$x=2$の3つで囲まれた部分の面積を$S_2$とする。

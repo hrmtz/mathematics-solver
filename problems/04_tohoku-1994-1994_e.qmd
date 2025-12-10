@@ -3,6 +3,7 @@ title: "東北大学 1994年 1994_e"
 problem_id: "04_tohoku-1994-1994_e"
 university: "東北大学"
 exam_year: "1994"
+problem_number: 5
 source_tex: "archive/04_tohoku/1994/1994_e.tex"
 pdf_source: "archive/04_tohoku/1994/1994_e.pdf"
 page_image: "archive/04_tohoku/1994/1994_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　微分可能な関数$f(x)$が，
+微分可能な関数$f(x)$が，
 ある定数$a \neq 0$に対して$f'(x)=af(1-x)$を満たし，
 $x=0$で最大値2をとるとする．
 $g(x)={ \{ f(x) \} }^2+{ \{ f(1-x) \} }^2$とおく．

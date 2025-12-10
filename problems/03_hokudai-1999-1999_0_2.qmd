@@ -3,6 +3,7 @@ title: "北海道大学 1999年 1999_0_2"
 problem_id: "03_hokudai-1999-1999_0_2"
 university: "北海道大学"
 exam_year: "1999"
+problem_number: 2
 source_tex: "archive/03_hokudai/1999/1999_0_2.tex"
 pdf_source: "archive/03_hokudai/1999/1999_0_2.pdf"
 page_image: "archive/03_hokudai/1999/1999_0_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$0<a<1$とする．
+$0<a<1$とする．
 曲線$y=1-x^2$と$\displaystyle y=\left(\frac{1}{a^2}-1\right)x^2$の第1象限内での交点を$A$とし，
 $A$から$x$軸に下ろした垂線の足を$B$とする．
 また，原点を$O$とし，

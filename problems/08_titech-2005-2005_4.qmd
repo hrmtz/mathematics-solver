@@ -3,6 +3,7 @@ title: "東京科学大学 2005年 2005_4"
 problem_id: "08_titech-2005-2005_4"
 university: "東京科学大学"
 exam_year: "2005"
+problem_number: 4
 source_tex: "archive/08_titech/2005/2005_4.tex"
 pdf_source: "archive/08_titech/2005/2005_4.pdf"
 page_image: "archive/08_titech/2005/2005_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　実数$x$，$y$が$x^2+y^2 \leqq 1$を満たしながら変化するとする．
+実数$x$，$y$が$x^2+y^2 \leqq 1$を満たしながら変化するとする．
 \begin{description}
 \item[(1)]$s=x+y$，$t=xy$とするとき，点$(s,t)$の動く範囲を$st$平面上に図示せよ．
 \item[(2)]負でない定数$m \geqq 0$をとるとき，$xy+m(x+y)$の最大値，最小値を$m$を用いて表せ．

@@ -3,6 +3,7 @@ title: "大阪大学 1993年 1993_0_1"
 problem_id: "06_osaka-1993-1993_0_1"
 university: "大阪大学"
 exam_year: "1993"
+problem_number: 1
 source_tex: "archive/06_osaka/1993/1993_0_1.tex"
 pdf_source: "archive/06_osaka/1993/1993_0_1.pdf"
 page_image: "archive/06_osaka/1993/1993_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　平面上の帯状領域$M=\{(x, \, y);|y|\leqq1\}$内を点$P$が次のような運動をする．
+平面上の帯状領域$M=\{(x, \, y);|y|\leqq1\}$内を点$P$が次のような運動をする．
 \begin{description}
 \item[（イ）]$M$の内部$\{(x, \, y);|y|<1\}$において$P$は直進する．
 \item[（ロ）]$M$の境界上においては$P$は図のように等しい角度で反射する．

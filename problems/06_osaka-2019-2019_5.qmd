@@ -3,6 +3,7 @@ title: "大阪大学 2019年 2019_5"
 problem_id: "06_osaka-2019-2019_5"
 university: "大阪大学"
 exam_year: "2019"
+problem_number: 5
 source_tex: "archive/06_osaka/2019/2019_5.tex"
 pdf_source: "archive/06_osaka/2019/2019_5.pdf"
 page_image: "archive/06_osaka/2019/2019_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　座標空間内の2つの球面
+座標空間内の2つの球面
 \[ S_1:{(x-1)}^2+{(y-1)}^2+{(z-1)}^2=7 \]
 と
 \[ S_2:{(x-2)}^2+{(y-3)}^2+{(z-3)}^2=1 \]

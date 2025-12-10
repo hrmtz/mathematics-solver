@@ -3,6 +3,7 @@ title: "東北大学 2003年 2003_2"
 problem_id: "04_tohoku-2003-2003_2"
 university: "東北大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/04_tohoku/2003/2003_2.tex"
 pdf_source: "archive/04_tohoku/2003/2003_2.pdf"
 page_image: "archive/04_tohoku/2003/2003_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　2つの関数を
+2つの関数を
 \[ t=\cos\theta+\sqrt3\sin\theta, \hspace{1zw}
 y=-4\cos3\theta+\cos2\theta-\sqrt3\sin2\theta+2\cos\theta+2\sqrt3\sin\theta \]
 とする．

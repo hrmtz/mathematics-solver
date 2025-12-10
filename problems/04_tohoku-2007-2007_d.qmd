@@ -3,6 +3,7 @@ title: "東北大学 2007年 2007_d"
 problem_id: "04_tohoku-2007-2007_d"
 university: "東北大学"
 exam_year: "2007"
+problem_number: 4
 source_tex: "archive/04_tohoku/2007/2007_d.tex"
 pdf_source: "archive/04_tohoku/2007/2007_d.pdf"
 page_image: "archive/04_tohoku/2007/2007_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$，$b$を$a\geqq0$，$b\leqq-2a^3+3a-2$を満たす定数とする．
+$a$，$b$を$a\geqq0$，$b\leqq-2a^3+3a-2$を満たす定数とする．
 このとき，$xy$平面において，
 直線$y=2x$と放物線$y=x^2+2ax+b$は2点で交わることを示せ．
 

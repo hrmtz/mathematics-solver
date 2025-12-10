@@ -3,6 +3,7 @@ title: "東北大学 2000年 2000_b"
 problem_id: "04_tohoku-2000-2000_b"
 university: "東北大学"
 exam_year: "2000"
+problem_number: 2
 source_tex: "archive/04_tohoku/2000/2000_b.tex"
 pdf_source: "archive/04_tohoku/2000/2000_b.pdf"
 page_image: "archive/04_tohoku/2000/2000_b.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]$\overrightarrow{0}$でない平面ベクトル$\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{c}$が，
 \[ \frac{\overrightarrow{a}}{|\overrightarrow{a}|}+

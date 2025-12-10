@@ -3,6 +3,7 @@ title: "東北大学 1987年 1987_2"
 problem_id: "04_tohoku-1987-1987_2"
 university: "東北大学"
 exam_year: "1987"
+problem_number: 2
 source_tex: "archive/04_tohoku/1987/1987_2.tex"
 pdf_source: "archive/04_tohoku/1987/1987_2.pdf"
 page_image: "archive/04_tohoku/1987/1987_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$a$，$b$を正の整数とする．関数
+$a$，$b$を正の整数とする．関数
 \[ f(x)=4x^3-ax^2+2bx-8 \]
 が次の3つの条件を同時に満たすような$a$，$b$の組をすべて求めよ．
 \begin{description}

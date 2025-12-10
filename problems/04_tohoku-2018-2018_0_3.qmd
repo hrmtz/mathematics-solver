@@ -3,6 +3,7 @@ title: "東北大学 2018年 2018_0_3"
 problem_id: "04_tohoku-2018-2018_0_3"
 university: "東北大学"
 exam_year: "2018"
+problem_number: 3
 source_tex: "archive/04_tohoku/2018/2018_0_3.tex"
 pdf_source: "archive/04_tohoku/2018/2018_0_3.pdf"
 page_image: "archive/04_tohoku/2018/2018_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　実数$a$は$0<a<4$を満たすとする。
+実数$a$は$0<a<4$を満たすとする。
 $xy$平面の直線$l:y=ax$と曲線
 \[ C:y=\begin{cases} -x^2+4x & (x<4\text{のとき})
 9a(x-4) & (x\geqq4\text{のとき}) \end{cases} \]

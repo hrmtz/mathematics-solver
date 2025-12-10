@@ -3,6 +3,7 @@ title: "東北大学 2006年 2006_5"
 problem_id: "04_tohoku-2006-2006_5"
 university: "東北大学"
 exam_year: "2006"
+problem_number: 5
 source_tex: "archive/04_tohoku/2006/2006_5.tex"
 pdf_source: "archive/04_tohoku/2006/2006_5.pdf"
 page_image: "archive/04_tohoku/2006/2006_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　3次正方行列$A$，$B$，$O$を
+3次正方行列$A$，$B$，$O$を
 $A=\begin{pmatrix} 0 & 0 & 0 
 
  0 & 1 & 0 

@@ -3,6 +3,7 @@ title: "東京大学 1979年 1979_5"
 problem_id: "01_tokyo-1979-1979_5"
 university: "東京大学"
 exam_year: "1979"
+problem_number: 5
 source_tex: "archive/01_tokyo/1979/1979_5.tex"
 pdf_source: "archive/01_tokyo/1979/1979_5.pdf"
 page_image: "archive/01_tokyo/1979/1979_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$t$を正の数とし，次の条件(A)，(B)によって定まる$x$の3次式を$f(x)$とする．
+$t$を正の数とし，次の条件(A)，(B)によって定まる$x$の3次式を$f(x)$とする．
 \begin{description}
 \item[(A)]曲線$y=f(x)$ $\cdots(1)$は直線$y=x$ $\cdots(2)$の上の2点$P(-t,-t)$，$O(0,0)$を通る．
 \item[(B)]$f'(0)=0$，$f''(0)=2$

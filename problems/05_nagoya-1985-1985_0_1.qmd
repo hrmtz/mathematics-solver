@@ -3,6 +3,7 @@ title: "名古屋大学 1985年 1985_0_1"
 problem_id: "05_nagoya-1985-1985_0_1"
 university: "名古屋大学"
 exam_year: "1985"
+problem_number: 1
 source_tex: "archive/05_nagoya/1985/1985_0_1.tex"
 pdf_source: "archive/05_nagoya/1985/1985_0_1.pdf"
 page_image: "archive/05_nagoya/1985/1985_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$xy$平面上で，点$P$が，曲線$y=x^2-4$上を点$B(-2, \, 0)$から点$A(2, \, 0)$まで動くとき，
+$xy$平面上で，点$P$が，曲線$y=x^2-4$上を点$B(-2, \, 0)$から点$A(2, \, 0)$まで動くとき，
 距離$PA$を最大にする点$P$の$x$座標を求めよ．
 
 ---

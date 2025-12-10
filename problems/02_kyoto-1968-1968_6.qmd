@@ -3,6 +3,7 @@ title: "京都大学 1968年 1968_6"
 problem_id: "02_kyoto-1968-1968_6"
 university: "京都大学"
 exam_year: "1968"
+problem_number: 6
 source_tex: "archive/02_kyoto/1968/1968_6.tex"
 pdf_source: "archive/02_kyoto/1968/1968_6.pdf"
 page_image: "archive/02_kyoto/1968/1968_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$0<x<1$である数$x$に対して，
+$0<x<1$である数$x$に対して，
 $\displaystyle \frac{1}{x}\int_0^x\frac{dt}{\sqrt{1-t}}=\frac{1}{\sqrt{1-y}}$を満たす$y$は，
 $x$の増加関数であることを示せ．
 さらに，極限値$\displaystyle\lim_{x \to 1}y$を求めよ．

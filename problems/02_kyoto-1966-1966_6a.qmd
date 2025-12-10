@@ -3,6 +3,7 @@ title: "京都大学 1966年 1966_6a"
 problem_id: "02_kyoto-1966-1966_6a"
 university: "京都大学"
 exam_year: "1966"
+problem_number: 6
 source_tex: "archive/02_kyoto/1966/1966_6a.tex"
 pdf_source: "archive/02_kyoto/1966/1966_6a.pdf"
 page_image: "archive/02_kyoto/1966/1966_6a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6 新
-　正$n$角形の頂点を順次$A_1,A_2,\cdots,A_n$とする．
+正$n$角形の頂点を順次$A_1,A_2,\cdots,A_n$とする．
 \begin{description}
 \item[(i)]これらのうちの任意の3点を結んでできる三角形の総数を求めよ．
 \item[(ii)]上の三角形のうちで鋭角三角形になるものの総数を求めよ．

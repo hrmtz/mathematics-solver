@@ -3,6 +3,7 @@ title: "東京大学 1983年 1983_5"
 problem_id: "01_tokyo-1983-1983_5"
 university: "東京大学"
 exam_year: "1983"
+problem_number: 5
 source_tex: "archive/01_tokyo/1983/1983_5.tex"
 pdf_source: "archive/01_tokyo/1983/1983_5.pdf"
 page_image: "archive/01_tokyo/1983/1983_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　正四角錐$V$に内接する球を$S$とする．
+正四角錐$V$に内接する球を$S$とする．
 $V$をいろいろ変えるとき，
 比$\displaystyle R=\frac{S\text{の表面積}}{V\text{の表面積}}$のとりうる値のうち，
 最大のものを求めよ．

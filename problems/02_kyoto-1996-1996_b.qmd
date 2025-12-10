@@ -3,6 +3,7 @@ title: "京都大学 1996年 1996_b"
 problem_id: "02_kyoto-1996-1996_b"
 university: "京都大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/02_kyoto/1996/1996_b.tex"
 pdf_source: "archive/02_kyoto/1996/1996_b.pdf"
 page_image: "archive/02_kyoto/1996/1996_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$m$，$n$は自然数で，$m<n$をみたすものとする．
+$m$，$n$は自然数で，$m<n$をみたすものとする．
 $m^n+1$，$n^m+1$がともに10の倍数となる$m$，$n$を1組与えよ．
 
 ---

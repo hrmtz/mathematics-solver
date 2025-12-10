@@ -3,6 +3,7 @@ title: "京都大学 2017年 2017_2"
 problem_id: "02_kyoto-2017-2017_2"
 university: "京都大学"
 exam_year: "2017"
+problem_number: 2
 source_tex: "archive/02_kyoto/2017/2017_2.tex"
 pdf_source: "archive/02_kyoto/2017/2017_2.pdf"
 page_image: "archive/02_kyoto/2017/2017_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　四面体$OABC$を考える．
+四面体$OABC$を考える．
 点$D, \, E, \, F, \, G, \, H, \, I$は，
 それぞれ辺$OA, \, AB, \, BC, \, CO, \, OB, \, AC$上にあり，
 頂点ではないとする．

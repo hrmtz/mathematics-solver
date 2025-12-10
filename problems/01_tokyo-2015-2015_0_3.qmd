@@ -3,6 +3,7 @@ title: "東京大学 2015年 2015_0_3"
 problem_id: "01_tokyo-2015-2015_0_3"
 university: "東京大学"
 exam_year: "2015"
+problem_number: 3
 source_tex: "archive/01_tokyo/2015/2015_0_3.tex"
 pdf_source: "archive/01_tokyo/2015/2015_0_3.pdf"
 page_image: "archive/01_tokyo/2015/2015_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$l$を座標平面上の原点を通り傾きが正の直線とする。
+$l$を座標平面上の原点を通り傾きが正の直線とする。
 さらに，以下の3条件(i)，(ii)，(iii)で定まる円$C_1$，$C_2$を考える。
 \begin{description}
 \item[(i)]円$C_1$，$C_2$は2つの不等式$x\geqq0$，$y\geqq0$で定まる領域に含まれる。

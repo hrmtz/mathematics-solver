@@ -3,6 +3,7 @@ title: "東北大学 1991年 1991_b"
 problem_id: "04_tohoku-1991-1991_b"
 university: "東北大学"
 exam_year: "1991"
+problem_number: 2
 source_tex: "archive/04_tohoku/1991/1991_b.tex"
 pdf_source: "archive/04_tohoku/1991/1991_b.pdf"
 page_image: "archive/04_tohoku/1991/1991_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　正の実数$p$に対し，数列$\{ a_n \}$，$\{ b_n \}$を
+正の実数$p$に対し，数列$\{ a_n \}$，$\{ b_n \}$を
 \[ \begin{cases} a_1=p^2 & 
 
  a_{n+1}=\sqrt{pa_n} & (n\geqq1) \end{cases} \hspace{1zw}

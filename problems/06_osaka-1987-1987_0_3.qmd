@@ -3,6 +3,7 @@ title: "大阪大学 1987年 1987_0_3"
 problem_id: "06_osaka-1987-1987_0_3"
 university: "大阪大学"
 exam_year: "1987"
+problem_number: 3
 source_tex: "archive/06_osaka/1987/1987_0_3.tex"
 pdf_source: "archive/06_osaka/1987/1987_0_3.pdf"
 page_image: "archive/06_osaka/1987/1987_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a>0$とし，$f(x)=\sqrt{a} \, (x^3-3x)$とおく．
+$a>0$とし，$f(x)=\sqrt{a} \, (x^3-3x)$とおく．
 \begin{description}
 \item[(1)]関数$f(x)$が極大値をとる$x$の値$\alpha$と，極小値をとる$x$の値$\beta$を求めよ．
 \item[(2)]点$A(\alpha, \, f(\alpha))$および点$B(\beta, \, f(\beta))$を2頂点とする正三角形の重心を$G$とする．

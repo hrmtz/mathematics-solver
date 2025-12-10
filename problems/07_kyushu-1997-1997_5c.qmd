@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_5c"
 problem_id: "07_kyushu-1997-1997_5c"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 5
 source_tex: "archive/07_kyushu/1997/1997_5c.tex"
 pdf_source: "archive/07_kyushu/1997/1997_5c.pdf"
 page_image: "archive/07_kyushu/1997/1997_5c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (c)
-　正の数$c$の$k$乗根$\sqrt[k]{c}$（$k$は2以上の整数）の近似値を求めるため
+正の数$c$の$k$乗根$\sqrt[k]{c}$（$k$は2以上の整数）の近似値を求めるため
 \[ f(x)=x^k-c, \hspace{1zw} g(x)=x-\frac{f(x)}{f'(x)} \hspace{1zw} (x>0) \]
 とおき，
 \[ \sqrt[k]{c}<a_1, \hspace{1zw} a_{n+1}=g(a_n), \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]

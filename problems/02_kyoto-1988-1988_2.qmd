@@ -3,6 +3,7 @@ title: "京都大学 1988年 1988_2"
 problem_id: "02_kyoto-1988-1988_2"
 university: "京都大学"
 exam_year: "1988"
+problem_number: 2
 source_tex: "archive/02_kyoto/1988/1988_2.tex"
 pdf_source: "archive/02_kyoto/1988/1988_2.pdf"
 page_image: "archive/02_kyoto/1988/1988_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　三角形$ABC$において，辺$AB$，$BC$，$CA$をそれぞれ2:1に内分する点を$A_1$，$B_1$，$C_1$とし，
+三角形$ABC$において，辺$AB$，$BC$，$CA$をそれぞれ2:1に内分する点を$A_1$，$B_1$，$C_1$とし，
 また線分$A_1B_1$，$B_1C_1$，$C_1A_1$をそれぞれ2:1に内分する点を$A_2$，$B_2$，$C_2$とする．
 このとき，三角形$A_2B_2C_2$は三角形$ABC$に相似であることを示せ．
 

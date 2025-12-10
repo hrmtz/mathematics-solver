@@ -3,6 +3,7 @@ title: "東北大学 1997年 1997_0_4a"
 problem_id: "04_tohoku-1997-1997_0_4a"
 university: "東北大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/04_tohoku/1997/1997_0_4a.tex"
 pdf_source: "archive/04_tohoku/1997/1997_0_4a.pdf"
 page_image: "archive/04_tohoku/1997/1997_0_4a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (a)
-　1個のサイコロを$n$回投げて，5以上の目が少なくとも1回出る確率を0.9995以上にするための$n$の最小値を求めよ．
+1個のサイコロを$n$回投げて，5以上の目が少なくとも1回出る確率を0.9995以上にするための$n$の最小値を求めよ．
 ただし，$\log_{10}2=0.3010$，$\log_{10}3=0.4771$とする．
 
 ---

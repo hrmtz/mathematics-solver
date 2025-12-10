@@ -3,6 +3,7 @@ title: "名古屋大学 1999年 1999_c"
 problem_id: "05_nagoya-1999-1999_c"
 university: "名古屋大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/05_nagoya/1999/1999_c.tex"
 pdf_source: "archive/05_nagoya/1999/1999_c.pdf"
 page_image: "archive/05_nagoya/1999/1999_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　以下の問いに答えよ．
+以下の問いに答えよ．
 \begin{description}
 \item[(1)]$y=f(x)$のグラフの$x=c_n$における接線が$x$軸と交わる点の$x$座標を$c_{n+1}$とする．
 \[ c_{n+1}=c_n-\frac{f(c_n)}{f'(c_n)} \]

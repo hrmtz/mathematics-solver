@@ -3,6 +3,7 @@ title: "東京科学大学 2006年 2006_3"
 problem_id: "08_titech-2006-2006_3"
 university: "東京科学大学"
 exam_year: "2006"
+problem_number: 3
 source_tex: "archive/08_titech/2006/2006_3.tex"
 pdf_source: "archive/08_titech/2006/2006_3.pdf"
 page_image: "archive/08_titech/2006/2006_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　平面上を半径1の3個の円板が下記の条件(a)と(b)を満たしながら動くとき，
+平面上を半径1の3個の円板が下記の条件(a)と(b)を満たしながら動くとき，
 これら3個の円板の和集合の面積$S$の最大値を求めよ．
 \begin{description}
 \item[(a)]3個の円板の中心はいずれも定点$P$を中心とする半径1の円周上にある．

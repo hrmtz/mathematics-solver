@@ -3,6 +3,7 @@ title: "京都大学 1992年 1992_e"
 problem_id: "02_kyoto-1992-1992_e"
 university: "京都大学"
 exam_year: "1992"
+problem_number: 5
 source_tex: "archive/02_kyoto/1992/1992_e.tex"
 pdf_source: "archive/02_kyoto/1992/1992_e.pdf"
 page_image: "archive/02_kyoto/1992/1992_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　1から$N+2$ $(N\geqq2)$までの番号のついた玉$(N+2)$個を用意し，
+1から$N+2$ $(N\geqq2)$までの番号のついた玉$(N+2)$個を用意し，
 手元に1と2の番号のついた玉をおき，
 残り$N$個の玉を箱に入れる．
 さらに，

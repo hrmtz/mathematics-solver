@@ -3,6 +3,7 @@ title: "京都大学 1961年 1961_1"
 problem_id: "02_kyoto-1961-1961_1"
 university: "京都大学"
 exam_year: "1961"
+problem_number: 1
 source_tex: "archive/02_kyoto/1961/1961_1.tex"
 pdf_source: "archive/02_kyoto/1961/1961_1.pdf"
 page_image: "archive/02_kyoto/1961/1961_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　つぎの問い(i)，(ii)，(iii)に答えよ．
+つぎの問い(i)，(ii)，(iii)に答えよ．
 \begin{description}
 \item[(i)]　実数で定義された多くの函数がある．
 命題「すくなくとも一つの実数値で，どの函数も0の値をとる」の否定命題をつくりたい．

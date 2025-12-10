@@ -3,6 +3,7 @@ title: "東北大学 2003年 2003_6"
 problem_id: "04_tohoku-2003-2003_6"
 university: "東北大学"
 exam_year: "2003"
+problem_number: 6
 source_tex: "archive/04_tohoku/2003/2003_6.tex"
 pdf_source: "archive/04_tohoku/2003/2003_6.pdf"
 page_image: "archive/04_tohoku/2003/2003_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　対数は自然対数であり，$e$はその底とする．
+対数は自然対数であり，$e$はその底とする．
 関数$\displaystyle f(x)=(x+1)\log\frac{x+1}{x}$に対して，
 次の問いに答えよ．
 \begin{description}

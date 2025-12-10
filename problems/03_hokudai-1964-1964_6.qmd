@@ -3,6 +3,7 @@ title: "北海道大学 1964年 1964_6"
 problem_id: "03_hokudai-1964-1964_6"
 university: "北海道大学"
 exam_year: "1964"
+problem_number: 6
 source_tex: "archive/03_hokudai/1964/1964_6.tex"
 pdf_source: "archive/03_hokudai/1964/1964_6.pdf"
 page_image: "archive/03_hokudai/1964/1964_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　座標平面上を運動する点$P$がある。
+座標平面上を運動する点$P$がある。
 $t$秒後$(t\geqq0)$の点$P$の座標$x$，$y$は，
 次の2つの式で与えられている。
 \[ (x-2)(y+x-1)=t-1, \hspace{1zw} x(y-x+1)=t+1 \]

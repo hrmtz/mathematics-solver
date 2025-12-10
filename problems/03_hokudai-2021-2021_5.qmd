@@ -3,6 +3,7 @@ title: "北海道大学 2021年 2021_5"
 problem_id: "03_hokudai-2021-2021_5"
 university: "北海道大学"
 exam_year: "2021"
+problem_number: 5
 source_tex: "archive/03_hokudai/2021/2021_5.tex"
 pdf_source: "archive/03_hokudai/2021/2021_5.pdf"
 page_image: "archive/03_hokudai/2021/2021_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　座標平面上で，媒介変数$\theta$を用いて
+座標平面上で，媒介変数$\theta$を用いて
 \[ x=(1+\cos\theta)\cos\theta, \hspace{1zw} y=\sin\theta \hspace{1zw} (0\leqq\theta\leqq\pi) \]
 と表される曲線$C$がある。
 $C$上の点で$x$座標の値が最小になる点を$A$とし，$A$の$x$座標の値を$a$とおく。

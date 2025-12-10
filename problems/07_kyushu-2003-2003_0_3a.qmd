@@ -3,6 +3,7 @@ title: "九州大学 2003年 2003_0_3a"
 problem_id: "07_kyushu-2003-2003_0_3a"
 university: "九州大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/07_kyushu/2003/2003_0_3a.tex"
 pdf_source: "archive/07_kyushu/2003/2003_0_3a.pdf"
 page_image: "archive/07_kyushu/2003/2003_0_3a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (a)
-　$a$，$b$，$c$を実数とし，$a>0$とする．
+$a$，$b$，$c$を実数とし，$a>0$とする．
 $f(x)=ax^2+bx+c$とおく．
 実数$p$に対し，$x$の関数$px-f(x)$の最大値を$g(p)$とおく．
 \begin{description}

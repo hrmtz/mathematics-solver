@@ -3,6 +3,7 @@ title: "京都大学 2001年 2001_5"
 problem_id: "02_kyoto-2001-2001_5"
 university: "京都大学"
 exam_year: "2001"
+problem_number: 5
 source_tex: "archive/02_kyoto/2001/2001_5.tex"
 pdf_source: "archive/02_kyoto/2001/2001_5.pdf"
 page_image: "archive/02_kyoto/2001/2001_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$p$を2以上の整数とする．
+$p$を2以上の整数とする．
 2以上の整数$n$に対し，
 次の条件(イ)，(ロ)をみたす複素数の組$(z_1,z_2,\cdots,z_n)$の個数を$a_n$とする．
 \begin{description}

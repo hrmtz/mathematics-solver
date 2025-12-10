@@ -3,6 +3,7 @@ title: "大阪大学 2016年 2016_0_2"
 problem_id: "06_osaka-2016-2016_0_2"
 university: "大阪大学"
 exam_year: "2016"
+problem_number: 2
 source_tex: "archive/06_osaka/2016/2016_0_2.tex"
 pdf_source: "archive/06_osaka/2016/2016_0_2.pdf"
 page_image: "archive/06_osaka/2016/2016_0_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　曲線$\displaystyle C : y=\left| \frac{1}{2}x^2-6 \right|-2x$を考える．
+曲線$\displaystyle C : y=\left| \frac{1}{2}x^2-6 \right|-2x$を考える．
 \begin{description}
 \item[(1)]$C$と直線$L : y=-x+t$が異なる4点で交わるような$t$の値の範囲を求めよ．
 \item[(2)]$C$と$L$が異なる4点で交わるとし，その交点を$x$座標が小さいものから順に

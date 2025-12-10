@@ -3,6 +3,7 @@ title: "北海道大学 1971年 1971_6"
 problem_id: "03_hokudai-1971-1971_6"
 university: "北海道大学"
 exam_year: "1971"
+problem_number: 6
 source_tex: "archive/03_hokudai/1971/1971_6.tex"
 pdf_source: "archive/03_hokudai/1971/1971_6.pdf"
 page_image: "archive/03_hokudai/1971/1971_6.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(1)]2直線$x-y=t\cdots\cdots\text{\ding{"AC}}$　$x+y=\sqrt{t^2+4}\cdots\cdots\text{\ding{"AD}}$の交点は$t$が動くとき，
 どんな曲線の上にあるか．

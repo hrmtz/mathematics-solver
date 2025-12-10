@@ -3,6 +3,7 @@ title: "京都大学 1963年 1963_3"
 problem_id: "02_kyoto-1963-1963_3"
 university: "京都大学"
 exam_year: "1963"
+problem_number: 3
 source_tex: "archive/02_kyoto/1963/1963_3.tex"
 pdf_source: "archive/02_kyoto/1963/1963_3.pdf"
 page_image: "archive/02_kyoto/1963/1963_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　連立方程式
+連立方程式
 \[ xz=x+z^2+z\cdots\cdots(1) \hspace{1zw} yz=y+z^2+z\cdots\cdots(2) \hspace{1zw} z^3+yz^2+2z^2+xz-yz=0\cdots\cdots(3) \]
 を解くのに，A君はつぎのようにして，4組の解をえた．
 この答案は正しいかどうか判定し，正しくないならば，どこをどう直せばよいか，A君の答案に加筆訂正せよ．

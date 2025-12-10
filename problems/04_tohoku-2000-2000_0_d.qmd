@@ -3,6 +3,7 @@ title: "東北大学 2000年 2000_0_d"
 problem_id: "04_tohoku-2000-2000_0_d"
 university: "東北大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/04_tohoku/2000/2000_0_d.tex"
 pdf_source: "archive/04_tohoku/2000/2000_0_d.pdf"
 page_image: "archive/04_tohoku/2000/2000_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面上の点$P$は$(-1, \, 5)$を出発点とする．
+平面上の点$P$は$(-1, \, 5)$を出発点とする．
 $A$，$B$ 2個の硬貨を同時に投げて表，裏を調べ，
 $A$の硬貨が表のときは$x$軸方向に1，裏のときは$x$軸方向に$-1$だけ点$P$を平行移動し，
 $B$の硬貨が表のときは$y$軸方向に1，裏のときは$y$軸方向に$-1$だけ点$P$を平行移動する．

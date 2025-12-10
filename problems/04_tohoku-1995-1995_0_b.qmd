@@ -3,6 +3,7 @@ title: "東北大学 1995年 1995_0_b"
 problem_id: "04_tohoku-1995-1995_0_b"
 university: "東北大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/04_tohoku/1995/1995_0_b.tex"
 pdf_source: "archive/04_tohoku/1995/1995_0_b.pdf"
 page_image: "archive/04_tohoku/1995/1995_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　空間に4点
+空間に4点
 \[ A(4, \, 0, \, 0), \hspace{1zw} B(0, \, 0, \, 2), \hspace{1zw}
 C(0, \, 1, \, 4), \hspace{1zw} D(3, \, 8, \, 3) \]
 がある．

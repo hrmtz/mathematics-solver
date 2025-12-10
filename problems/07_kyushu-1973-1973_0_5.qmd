@@ -3,6 +3,7 @@ title: "九州大学 1973年 1973_0_5"
 problem_id: "07_kyushu-1973-1973_0_5"
 university: "九州大学"
 exam_year: "1973"
+problem_number: 5
 source_tex: "archive/07_kyushu/1973/1973_0_5.tex"
 pdf_source: "archive/07_kyushu/1973/1973_0_5.pdf"
 page_image: "archive/07_kyushu/1973/1973_0_5.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(1)]$(a, \, b)$は平面上の点とする．
 2次方程式$x^2+2ax+b=0$が実根をもち，

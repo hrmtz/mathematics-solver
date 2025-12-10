@@ -3,6 +3,7 @@ title: "東北大学 1963年 1963_6"
 problem_id: "04_tohoku-1963-1963_6"
 university: "東北大学"
 exam_year: "1963"
+problem_number: 6
 source_tex: "archive/04_tohoku/1963/1963_6.tex"
 pdf_source: "archive/04_tohoku/1963/1963_6.pdf"
 page_image: "archive/04_tohoku/1963/1963_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　$a>1$として，4曲線$y=\sin x$，$y=a\sin x$，$y=\cos x$，$y=a\cos x$を
+$a>1$として，4曲線$y=\sin x$，$y=a\sin x$，$y=\cos x$，$y=a\cos x$を
 $\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$の範囲でえがき
 \begin{description}
 \item[(1)]はじめの2曲線と直線$\displaystyle x=\frac{\pi}{2}$とで囲まれる部分と，

@@ -3,6 +3,7 @@ title: "東北大学 2017年 2017_c"
 problem_id: "04_tohoku-2017-2017_c"
 university: "東北大学"
 exam_year: "2017"
+problem_number: 3
 source_tex: "archive/04_tohoku/2017/2017_c.tex"
 pdf_source: "archive/04_tohoku/2017/2017_c.pdf"
 page_image: "archive/04_tohoku/2017/2017_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　実数$\theta$の関数$\displaystyle f(\theta)=
+実数$\theta$の関数$\displaystyle f(\theta)=
 \frac{1}{2+\cos\theta}+\frac{1}{2+\sin\theta}$を考える。
 \begin{description}
 \item[(1)]$x=\cos\theta+\sin\theta$とおくとき，$f(\theta)$を$x$を用いて表せ。

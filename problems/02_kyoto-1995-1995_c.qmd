@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_c"
 problem_id: "02_kyoto-1995-1995_c"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/02_kyoto/1995/1995_c.tex"
 pdf_source: "archive/02_kyoto/1995/1995_c.pdf"
 page_image: "archive/02_kyoto/1995/1995_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a$，$b$，$c$は実数で$a\geqq0$，$b\geqq0$とする．
+$a$，$b$，$c$は実数で$a\geqq0$，$b\geqq0$とする．
 \[ p(x)=ax^2+bx+c, \hspace{1zw} q(x)=cx^2+bx+a \]
 とおく．
 $-1 \leqq x \leqq 1$をみたすすべての$x$に対して$|p(x)|\leqq1$が成り立つとき，

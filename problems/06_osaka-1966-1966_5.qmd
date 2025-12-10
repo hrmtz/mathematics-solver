@@ -3,6 +3,7 @@ title: "大阪大学 1966年 1966_5"
 problem_id: "06_osaka-1966-1966_5"
 university: "大阪大学"
 exam_year: "1966"
+problem_number: 5
 source_tex: "archive/06_osaka/1966/1966_5.tex"
 pdf_source: "archive/06_osaka/1966/1966_5.pdf"
 page_image: "archive/06_osaka/1966/1966_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　曲線$y=\sqrt{4ax}$ $(a>0)$上の1点$P(x_1, \, y_1)$でこの曲線に接する接線が$x$軸と交わる点を$Q$とし、
+曲線$y=\sqrt{4ax}$ $(a>0)$上の1点$P(x_1, \, y_1)$でこの曲線に接する接線が$x$軸と交わる点を$Q$とし、
 点$(a, \, 0)$を$F$とする。
 線分$PF$，$x$軸およびこの曲線によって囲まれる部分の面積を$S_1$，
 線分$PQ$，$x$軸およびこの曲線によって囲まれる部分の面積を$S_2$とする。

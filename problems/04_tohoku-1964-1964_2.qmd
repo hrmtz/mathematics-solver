@@ -3,6 +3,7 @@ title: "東北大学 1964年 1964_2"
 problem_id: "04_tohoku-1964-1964_2"
 university: "東北大学"
 exam_year: "1964"
+problem_number: 2
 source_tex: "archive/04_tohoku/1964/1964_2.tex"
 pdf_source: "archive/04_tohoku/1964/1964_2.pdf"
 page_image: "archive/04_tohoku/1964/1964_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　正方形$ABCD$内の点$P$から
+正方形$ABCD$内の点$P$から
 辺$AB$，$BC$，$CD$，$DA$におろした垂線の足をそれぞれ$X$，$Y$，$Z$，$U$とするとき，
 4つの線分$PX$，$PY$，$PZ$，$PU$のどの3つをとっても
 三角形の3辺となることができるという。

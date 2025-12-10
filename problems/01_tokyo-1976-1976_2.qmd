@@ -3,6 +3,7 @@ title: "東京大学 1976年 1976_2"
 problem_id: "01_tokyo-1976-1976_2"
 university: "東京大学"
 exam_year: "1976"
+problem_number: 2
 source_tex: "archive/01_tokyo/1976/1976_2.tex"
 pdf_source: "archive/01_tokyo/1976/1976_2.pdf"
 page_image: "archive/01_tokyo/1976/1976_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　時刻$t=0$に原点を出発し，
+時刻$t=0$に原点を出発し，
 $xy$平面上で次の条件(i)，(ii)に従っていろいろに運動する動点$P$がある．
 \begin{description}
 \item[(i)]$t=0$における$P$の速度を表わすベクトルの成分は$(1,\sqrt3)$である．

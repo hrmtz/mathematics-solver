@@ -3,6 +3,7 @@ title: "東京大学 1971年 1971_5"
 problem_id: "01_tokyo-1971-1971_5"
 university: "東京大学"
 exam_year: "1971"
+problem_number: 5
 source_tex: "archive/01_tokyo/1971/1971_5.tex"
 pdf_source: "archive/01_tokyo/1971/1971_5.pdf"
 page_image: "archive/01_tokyo/1971/1971_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$n$を正の整数とし，
+$n$を正の整数とし，
 $\displaystyle \left( \cos\frac{2\pi}{n}k,\sin\frac{2\pi}{n}k \right)$
 を座標とする点を$Q_n$であらわす．
 このとき，$n$個の点$Q_0,Q_1,\cdots\cdots,Q_{n-1}$によって円周$x^2+y^2=1$は$n$等分される．

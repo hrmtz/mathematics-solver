@@ -3,6 +3,7 @@ title: "北海道大学 2008年 2008_0_1"
 problem_id: "03_hokudai-2008-2008_0_1"
 university: "北海道大学"
 exam_year: "2008"
+problem_number: 1
 source_tex: "archive/03_hokudai/2008/2008_0_1.tex"
 pdf_source: "archive/03_hokudai/2008/2008_0_1.pdf"
 page_image: "archive/03_hokudai/2008/2008_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$xy$平面において，放物線$y=-x^2+6x$と$x$軸で囲まれた図形に含まれ，
+$xy$平面において，放物線$y=-x^2+6x$と$x$軸で囲まれた図形に含まれ，
 $(a, \, 0)$と$(a, \, -a^2+6a)$を結ぶ線分を1辺とする長方形を考える．
 ただし，$0<a<3$とする．
 このような長方形の面積の最大値を$S(a)$とする．

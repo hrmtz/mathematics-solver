@@ -3,6 +3,7 @@ title: "東京大学 2024年 2024_1"
 problem_id: "01_tokyo-2024-2024_1"
 university: "東京大学"
 exam_year: "2024"
+problem_number: 1
 source_tex: "archive/01_tokyo/2024/2024_1.tex"
 pdf_source: "archive/01_tokyo/2024/2024_1.pdf"
 page_image: "archive/01_tokyo/2024/2024_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標空間内の点$A(0, \, -1, \, 1)$をとる。$xy$平面上の点$P$が
+座標空間内の点$A(0, \, -1, \, 1)$をとる。$xy$平面上の点$P$が
 次の条件(i)，(ii)，(iii)をすべて満たすとする。
 \begin{description}
 \item[(i)]$P$は原点$O$と異なる。

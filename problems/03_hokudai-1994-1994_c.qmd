@@ -3,6 +3,7 @@ title: "北海道大学 1994年 1994_c"
 problem_id: "03_hokudai-1994-1994_c"
 university: "北海道大学"
 exam_year: "1994"
+problem_number: 3
 source_tex: "archive/03_hokudai/1994/1994_c.tex"
 pdf_source: "archive/03_hokudai/1994/1994_c.pdf"
 page_image: "archive/03_hokudai/1994/1994_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　三角形$ABC$に対して，その内接円の半径を1，$\triangle ABC$の面積を$V$とする．
+三角形$ABC$に対して，その内接円の半径を1，$\triangle ABC$の面積を$V$とする．
 半径$d$の円の中心がこの三角形の周上をすべて動くとき，その円が通る図形を$S$とする．
 ただし，$0<d<1$とする．
 \begin{description}

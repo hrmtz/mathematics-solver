@@ -3,6 +3,7 @@ title: "東京科学大学 2004年 2004_4"
 problem_id: "08_titech-2004-2004_4"
 university: "東京科学大学"
 exam_year: "2004"
+problem_number: 4
 source_tex: "archive/08_titech/2004/2004_4.tex"
 pdf_source: "archive/08_titech/2004/2004_4.pdf"
 page_image: "archive/08_titech/2004/2004_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$0<r<1$とする．
+$0<r<1$とする．
 空間において，点$(0,0,0)$を中心とする半径$r$の球と点$(1,0,0)$を中心とする半径$\sqrt{1-r^2}$の球との共通部分の体積を$V(r)$とする．
 次の問いに答えよ．
 \begin{description}

@@ -3,6 +3,7 @@ title: "北海道大学 2010年 2010_c"
 problem_id: "03_hokudai-2010-2010_c"
 university: "北海道大学"
 exam_year: "2010"
+problem_number: 3
 source_tex: "archive/03_hokudai/2010/2010_c.tex"
 pdf_source: "archive/03_hokudai/2010/2010_c.pdf"
 page_image: "archive/03_hokudai/2010/2010_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　1辺の長さが$a$の正三角形$D_0$から出発して，多角形$D_1$，$D_2$，$\cdots$，$D_n$，$\cdots$を次のように定める．
+1辺の長さが$a$の正三角形$D_0$から出発して，多角形$D_1$，$D_2$，$\cdots$，$D_n$，$\cdots$を次のように定める．
 \begin{description}
 \item[(i)]$AB$を$D_{n-1}$の1辺とする．辺$AB$を3等分し，その分点を$A$に近い方から$P$，$Q$とする．
 \item[(ii)]$PQ$を1辺とする正三角形$PQR$を$D_{n-1}$の外側に作る．

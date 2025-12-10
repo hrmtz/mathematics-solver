@@ -3,6 +3,7 @@ title: "京都大学 2014年 2014_0_2"
 problem_id: "02_kyoto-2014-2014_0_2"
 university: "京都大学"
 exam_year: "2014"
+problem_number: 2
 source_tex: "archive/02_kyoto/2014/2014_0_2.tex"
 pdf_source: "archive/02_kyoto/2014/2014_0_2.pdf"
 page_image: "archive/02_kyoto/2014/2014_0_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$t$を実数とする．$y=x^3-x$のグラフ$C$へ点$P(1, \, t)$から接線を引く．
+$t$を実数とする．$y=x^3-x$のグラフ$C$へ点$P(1, \, t)$から接線を引く．
 \begin{description}
 \item[(1)]接線がちょうど1本だけ引けるような$t$の範囲を求めよ．
 \item[(2)]$t$が(1)で求めた範囲を動くとき，

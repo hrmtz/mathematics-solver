@@ -3,6 +3,7 @@ title: "大阪大学 1990年 1990_5"
 problem_id: "06_osaka-1990-1990_5"
 university: "大阪大学"
 exam_year: "1990"
+problem_number: 5
 source_tex: "archive/06_osaka/1990/1990_5.tex"
 pdf_source: "archive/06_osaka/1990/1990_5.pdf"
 page_image: "archive/06_osaka/1990/1990_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$xyz$空間に1辺の長さ1の立方体$OABC-DEFG$があり，
+$xyz$空間に1辺の長さ1の立方体$OABC-DEFG$があり，
 図のように頂点$O$が原点に，$E$が$x$軸の正の部分に，
 $C$が$z$軸の正の部分に置かれている．
 　いま，この立方体を$x$軸のまわりに回転させるとき

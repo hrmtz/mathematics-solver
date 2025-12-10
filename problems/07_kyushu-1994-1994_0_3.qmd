@@ -3,6 +3,7 @@ title: "九州大学 1994年 1994_0_3"
 problem_id: "07_kyushu-1994-1994_0_3"
 university: "九州大学"
 exam_year: "1994"
+problem_number: 3
 source_tex: "archive/07_kyushu/1994/1994_0_3.tex"
 pdf_source: "archive/07_kyushu/1994/1994_0_3.pdf"
 page_image: "archive/07_kyushu/1994/1994_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　座標平面上に3点$O(0, \, 0)$，$A(1, \, 0)$，$B(0, \, 1)$をとり，
+座標平面上に3点$O(0, \, 0)$，$A(1, \, 0)$，$B(0, \, 1)$をとり，
 $\triangle OAB$を放物線$y=kx^2$ $(k>0)$で2つの部分$S$，$T$にわける．
 ただし，$S$は放物線の下にある部分とする．
 次の問に答えよ．

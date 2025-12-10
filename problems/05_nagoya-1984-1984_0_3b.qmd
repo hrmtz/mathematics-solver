@@ -3,6 +3,7 @@ title: "名古屋大学 1984年 1984_0_3b"
 problem_id: "05_nagoya-1984-1984_0_3b"
 university: "名古屋大学"
 exam_year: "1984"
+problem_number: 3
 source_tex: "archive/05_nagoya/1984/1984_0_3b.tex"
 pdf_source: "archive/05_nagoya/1984/1984_0_3b.pdf"
 page_image: "archive/05_nagoya/1984/1984_0_3b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (b)
-　$A$，$B$ 2つの箱に白石と黒石が入っている．
+$A$，$B$ 2つの箱に白石と黒石が入っている．
 箱$A$，$B$から石を1個取り出すとき，白石が出る確率をそれぞれ$\alpha$，$\beta$とする．
 次のような試行を行う．
 ただし，取り出した石はそのつどもとの箱に戻すものとする．

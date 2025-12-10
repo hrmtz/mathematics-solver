@@ -3,6 +3,7 @@ title: "北海道大学 1996年 1996_1"
 problem_id: "03_hokudai-1996-1996_1"
 university: "北海道大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/03_hokudai/1996/1996_1.tex"
 pdf_source: "archive/03_hokudai/1996/1996_1.pdf"
 page_image: "archive/03_hokudai/1996/1996_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　一枚の硬貨を投げて，$A$君と$B$君が次のようなゲームを行う．
+一枚の硬貨を投げて，$A$君と$B$君が次のようなゲームを行う．
 ゲーム開始時における$A$君，$B$君の得点はともに0点とする．
 毎回の硬貨投げの試行で表がでたとき$A$君の勝ち，裏がでたとき$B$君の勝ちとし，
 勝った方に$+1$点，負けた方に$-1$点がそれまでの得点に加えられるとする．

@@ -3,6 +3,7 @@ title: "九州大学 2003年 2003_b"
 problem_id: "07_kyushu-2003-2003_b"
 university: "九州大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/07_kyushu/2003/2003_b.tex"
 pdf_source: "archive/07_kyushu/2003/2003_b.pdf"
 page_image: "archive/07_kyushu/2003/2003_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]次の性質をもつ4次関数$f(x)$を求めよ．
 \begin{description}

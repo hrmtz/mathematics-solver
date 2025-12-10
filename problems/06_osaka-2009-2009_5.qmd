@@ -3,6 +3,7 @@ title: "大阪大学 2009年 2009_5"
 problem_id: "06_osaka-2009-2009_5"
 university: "大阪大学"
 exam_year: "2009"
+problem_number: 5
 source_tex: "archive/06_osaka/2009/2009_5.tex"
 pdf_source: "archive/06_osaka/2009/2009_5.pdf"
 page_image: "archive/06_osaka/2009/2009_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$n=1, \, 2, \, 3, \, \cdots$に対して，
+$n=1, \, 2, \, 3, \, \cdots$に対して，
 $y=\log(nx)$と
 $\displaystyle{\left( x-\frac{1}{n} \right)}^2+y^2=1$の
 交点のうち第1象限にある点を$(p_n, \, q_n)$とする．

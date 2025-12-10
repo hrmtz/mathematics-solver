@@ -3,6 +3,7 @@ title: "九州大学 2002年 2002_c"
 problem_id: "07_kyushu-2002-2002_c"
 university: "九州大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/07_kyushu/2002/2002_c.tex"
 pdf_source: "archive/07_kyushu/2002/2002_c.pdf"
 page_image: "archive/07_kyushu/2002/2002_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a$を実数とし$\displaystyle f(a)=\int_{-1}^1|e^x-a|dx$とおく．
+$a$を実数とし$\displaystyle f(a)=\int_{-1}^1|e^x-a|dx$とおく．
 \begin{description}
 \item[(1)]上記右辺の定積分を求めよ．
 \item[(2)]$a$がすべての実数の値をとって動くとき，

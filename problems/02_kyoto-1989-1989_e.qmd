@@ -3,6 +3,7 @@ title: "京都大学 1989年 1989_e"
 problem_id: "02_kyoto-1989-1989_e"
 university: "京都大学"
 exam_year: "1989"
+problem_number: 5
 source_tex: "archive/02_kyoto/1989/1989_e.tex"
 pdf_source: "archive/02_kyoto/1989/1989_e.pdf"
 page_image: "archive/02_kyoto/1989/1989_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n$は自然数で，$n\geqq3$である．
+$n$は自然数で，$n\geqq3$である．
 数$1,2,\cdots,n$のいずれについても，それが記入されたカードが1枚ずつ，計$n$枚のカードがある．
 　$A$君は，それらのカードのうち2枚を無作為に取り出し，
 それらに記入されている数のうち大きい方を$A$君の得点とする．

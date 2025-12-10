@@ -3,6 +3,7 @@ title: "東京大学 2025年 2025_1"
 problem_id: "01_tokyo-2025-2025_1"
 university: "東京大学"
 exam_year: "2025"
+problem_number: 1
 source_tex: "archive/01_tokyo/2025/2025_1.tex"
 pdf_source: "archive/01_tokyo/2025/2025_1.pdf"
 page_image: "archive/01_tokyo/2025/2025_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標平面上の点$A(0, \, 0)$，$B(0, \, 1)$，$C(1, \, 1)$，$D(1, \, 0)$を考える。
+座標平面上の点$A(0, \, 0)$，$B(0, \, 1)$，$C(1, \, 1)$，$D(1, \, 0)$を考える。
 実数$0<t<1$に対して，線分$AB$，$BC$，$CD$を$t:(1-t)$に内分する点をそれぞれ$P_t$，$Q_t$，$R_t$とし，
 線分$P_tQ_t$，$Q_tR_t$を$t:(1-t)$に内分する点をそれぞれ$S_t$，$T_t$とする。
 さらに，線分$S_tT_t$を$t:(1-t)$に内分する点を$U_t$とする。

@@ -3,6 +3,7 @@ title: "九州大学 1987年 1987_5"
 problem_id: "07_kyushu-1987-1987_5"
 university: "九州大学"
 exam_year: "1987"
+problem_number: 5
 source_tex: "archive/07_kyushu/1987/1987_5.tex"
 pdf_source: "archive/07_kyushu/1987/1987_5.pdf"
 page_image: "archive/07_kyushu/1987/1987_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　数字$1, \, 2, \, \cdots\cdots, \, N$ $(N\geqq3)$を1つずつ書いた札が$N$枚箱の中に入っている．
+数字$1, \, 2, \, \cdots\cdots, \, N$ $(N\geqq3)$を1つずつ書いた札が$N$枚箱の中に入っている．
 無作為に1枚の札を抜き出し，書かれている数字を確認してもとに戻す．
 この操作を3回続け，出てきた数字の最小数を$U$，最大数を$V$とする．
 このとき，次の問に答えよ．

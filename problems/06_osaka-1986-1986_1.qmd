@@ -3,6 +3,7 @@ title: "大阪大学 1986年 1986_1"
 problem_id: "06_osaka-1986-1986_1"
 university: "大阪大学"
 exam_year: "1986"
+problem_number: 1
 source_tex: "archive/06_osaka/1986/1986_1.tex"
 pdf_source: "archive/06_osaka/1986/1986_1.pdf"
 page_image: "archive/06_osaka/1986/1986_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]$\log_34$は無理数であることを証明せよ．
 \item[(2)]$a$，$b$は無理数で，$a^b$が有理数であるような数の組$a$，$b$を求めよ．

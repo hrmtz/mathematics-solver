@@ -3,6 +3,7 @@ title: "北海道大学 1994年 1994_5"
 problem_id: "03_hokudai-1994-1994_5"
 university: "北海道大学"
 exam_year: "1994"
+problem_number: 5
 source_tex: "archive/03_hokudai/1994/1994_5.tex"
 pdf_source: "archive/03_hokudai/1994/1994_5.pdf"
 page_image: "archive/03_hokudai/1994/1994_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　勝つ確率が$a$であるゲームがある．
+勝つ確率が$a$であるゲームがある．
 このゲームを$n$回行って一度も連勝せず$n$回目に負ける確率を$a_n$とし，
 $n$回行って一度も連勝せず$n$回目に勝つ確率を$b_n$とする．
 \begin{description}

@@ -3,6 +3,7 @@ title: "大阪大学 2003年 2003_c"
 problem_id: "06_osaka-2003-2003_c"
 university: "大阪大学"
 exam_year: "2003"
+problem_number: 3
 source_tex: "archive/06_osaka/2003/2003_c.tex"
 pdf_source: "archive/06_osaka/2003/2003_c.pdf"
 page_image: "archive/06_osaka/2003/2003_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$n$を3以上の自然数とする．
+$n$を3以上の自然数とする．
 1から$2n$までの数字が書かれたカードがおのおの1枚ずつ，全部で$2n$枚ある．
 数字$m$が書かれたカードを$[m]$で表すとする．
 この$2n$枚のカードを横一列に並べる．

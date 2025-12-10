@@ -3,6 +3,7 @@ title: "東北大学 1986年 1986_5"
 problem_id: "04_tohoku-1986-1986_5"
 university: "東北大学"
 exam_year: "1986"
+problem_number: 5
 source_tex: "archive/04_tohoku/1986/1986_5.tex"
 pdf_source: "archive/04_tohoku/1986/1986_5.pdf"
 page_image: "archive/04_tohoku/1986/1986_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　関数$f(x)=(4x^3+ax^2+bx+c)e^{2x}$について，次の問に答えよ．
+関数$f(x)=(4x^3+ax^2+bx+c)e^{2x}$について，次の問に答えよ．
 \begin{description}
 \item[(1)]$f(x)$が$x=-1$，$x=0$，$x=1$で極値をもつように定数$a$，$b$，$c$を定めよ．
 \item[(2)]$a$，$b$，$c$を(1)で定めたものとして，

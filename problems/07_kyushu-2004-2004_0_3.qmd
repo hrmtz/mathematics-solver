@@ -3,6 +3,7 @@ title: "九州大学 2004年 2004_0_3"
 problem_id: "07_kyushu-2004-2004_0_3"
 university: "九州大学"
 exam_year: "2004"
+problem_number: 3
 source_tex: "archive/07_kyushu/2004/2004_0_3.tex"
 pdf_source: "archive/07_kyushu/2004/2004_0_3.pdf"
 page_image: "archive/07_kyushu/2004/2004_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$0<\alpha<1$，$0<\beta<1$とする．
+$0<\alpha<1$，$0<\beta<1$とする．
 平行四辺形$ABCD$の辺$BC$を$\alpha:1-\alpha$に内分する点を$P$とし，
 辺$CD$を$1-\beta:\beta$に内分する点を$Q$とする．
 また，線分$QP$と平行四辺形の対角線$AC$の交点を$R$とする．

@@ -3,6 +3,7 @@ title: "京都大学 2022年 2022_4"
 problem_id: "02_kyoto-2022-2022_4"
 university: "京都大学"
 exam_year: "2022"
+problem_number: 4
 source_tex: "archive/02_kyoto/2022/2022_4.tex"
 pdf_source: "archive/02_kyoto/2022/2022_4.pdf"
 page_image: "archive/02_kyoto/2022/2022_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　四面体$OABC$が
+四面体$OABC$が
 \[ OA=4, \hspace{1zw} OB=AB=BC=3, \hspace{1zw} OC=AC=2\sqrt3 \]
 を満たしているとする．
 $P$を辺$BC$上の点とし，$\triangle OAP$の重心を$G$とする．

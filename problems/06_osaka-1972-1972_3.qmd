@@ -3,6 +3,7 @@ title: "大阪大学 1972年 1972_3"
 problem_id: "06_osaka-1972-1972_3"
 university: "大阪大学"
 exam_year: "1972"
+problem_number: 3
 source_tex: "archive/06_osaka/1972/1972_3.tex"
 pdf_source: "archive/06_osaka/1972/1972_3.pdf"
 page_image: "archive/06_osaka/1972/1972_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$x$に関する2次方程式$x^2-4x\sin\theta+2\tan\theta=0$
+$x$に関する2次方程式$x^2-4x\sin\theta+2\tan\theta=0$
 （ただし，$\displaystyle-\frac{\pi}{2}<\theta<\frac{\pi}{2}$とする）がある．
 複素平面において，上の方程式の2根を表す点を$P$，$Q$とし，
 原点を$O$とするとき

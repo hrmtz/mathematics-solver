@@ -3,6 +3,7 @@ title: "東京大学 2011年 2011_0_2"
 problem_id: "01_tokyo-2011-2011_0_2"
 university: "東京大学"
 exam_year: "2011"
+problem_number: 2
 source_tex: "archive/01_tokyo/2011/2011_0_2.tex"
 pdf_source: "archive/01_tokyo/2011/2011_0_2.pdf"
 page_image: "archive/01_tokyo/2011/2011_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　実数$x$の小数部分を，$0 \leqq y < 1$かつ$x-y$が整数となる実数$y$のこととし，
+実数$x$の小数部分を，$0 \leqq y < 1$かつ$x-y$が整数となる実数$y$のこととし，
 これを記号$\langle x \rangle$で表す．
 実数$a$に対して，無限数列$\{ a_n \}$の各項$a_n$ $(n=1,2,3,\cdots)$を次のように順次定める．
 \begin{description}

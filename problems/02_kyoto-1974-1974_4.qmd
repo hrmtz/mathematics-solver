@@ -3,6 +3,7 @@ title: "京都大学 1974年 1974_4"
 problem_id: "02_kyoto-1974-1974_4"
 university: "京都大学"
 exam_year: "1974"
+problem_number: 4
 source_tex: "archive/02_kyoto/1974/1974_4.tex"
 pdf_source: "archive/02_kyoto/1974/1974_4.pdf"
 page_image: "archive/02_kyoto/1974/1974_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$F(x)$，$g(x)$が$x$の多項式で，次の三条件をみたすものとする．$F(x)$および$g(x)$を求めよ．
+$F(x)$，$g(x)$が$x$の多項式で，次の三条件をみたすものとする．$F(x)$および$g(x)$を求めよ．
 \begin{description}
 \item[(イ)]$\displaystyle\frac{dF(x)}{dx}=g(x)$．
 \item[(ロ)]$F(x)$は$g(x)$で割りきれる．

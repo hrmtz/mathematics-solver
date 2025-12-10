@@ -3,6 +3,7 @@ title: "名古屋大学 1998年 1998_b"
 problem_id: "05_nagoya-1998-1998_b"
 university: "名古屋大学"
 exam_year: "1998"
+problem_number: 2
 source_tex: "archive/05_nagoya/1998/1998_b.tex"
 pdf_source: "archive/05_nagoya/1998/1998_b.pdf"
 page_image: "archive/05_nagoya/1998/1998_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　以下の問に答えよ．
+以下の問に答えよ．
 \begin{description}
 \item[(1)]次式を満足する平面上の点$P(x, \, y)$が存在するためには，
 実数$t$はどのような範囲にあるべきか答えよ．ただし$t>0$とする．

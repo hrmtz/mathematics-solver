@@ -3,6 +3,7 @@ title: "九州大学 1994年 1994_0_1"
 problem_id: "07_kyushu-1994-1994_0_1"
 university: "九州大学"
 exam_year: "1994"
+problem_number: 1
 source_tex: "archive/07_kyushu/1994/1994_0_1.tex"
 pdf_source: "archive/07_kyushu/1994/1994_0_1.pdf"
 page_image: "archive/07_kyushu/1994/1994_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　以下の設問は$\log_{10}2$の近似値に関するものである．
+以下の設問は$\log_{10}2$の近似値に関するものである．
 $\log_{10}2=0.3010\cdots\cdots$を用いないで答えよ．
 \begin{description}
 \item[(1)]不等式$\displaystyle\frac{3}{10}<\log_{10}2<\frac{4}{13}$を示せ．

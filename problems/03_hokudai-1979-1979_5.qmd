@@ -3,6 +3,7 @@ title: "北海道大学 1979年 1979_5"
 problem_id: "03_hokudai-1979-1979_5"
 university: "北海道大学"
 exam_year: "1979"
+problem_number: 5
 source_tex: "archive/03_hokudai/1979/1979_5.tex"
 pdf_source: "archive/03_hokudai/1979/1979_5.pdf"
 page_image: "archive/03_hokudai/1979/1979_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　関数$y=f(x)$ $(x>0)$は微分可能で，かつ$f'(x)\neq0$とする．
+関数$y=f(x)$ $(x>0)$は微分可能で，かつ$f'(x)\neq0$とする．
 $x$軸上を正の方向に一定速度$a$ $(>0)$で動いている点$A$が時刻$t=0$で原点を通過する．
 $t$秒後$(t>0)$の点$A(x, \, 0)$に対し，点$(x, \, f(x))$における曲線$y=f(x)$の接線が$x$軸と交わる点を$Q$とする．
 \begin{description}

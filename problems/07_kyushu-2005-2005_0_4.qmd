@@ -3,6 +3,7 @@ title: "九州大学 2005年 2005_0_4"
 problem_id: "07_kyushu-2005-2005_0_4"
 university: "九州大学"
 exam_year: "2005"
+problem_number: 4
 source_tex: "archive/07_kyushu/2005/2005_0_4.tex"
 pdf_source: "archive/07_kyushu/2005/2005_0_4.pdf"
 page_image: "archive/07_kyushu/2005/2005_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　1つのさいころを4回投げて，出た目の数を順に$x_1$，$x_2$，$x_3$，$x_4$とする．
+1つのさいころを4回投げて，出た目の数を順に$x_1$，$x_2$，$x_3$，$x_4$とする．
 このとき次の問いに答えよ．
 \begin{description}
 \item[(1)]$x_1<x_2$となる確率を求めよ．

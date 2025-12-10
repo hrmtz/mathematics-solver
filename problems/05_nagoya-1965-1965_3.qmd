@@ -3,6 +3,7 @@ title: "名古屋大学 1965年 1965_3"
 problem_id: "05_nagoya-1965-1965_3"
 university: "名古屋大学"
 exam_year: "1965"
+problem_number: 3
 source_tex: "archive/05_nagoya/1965/1965_3.tex"
 pdf_source: "archive/05_nagoya/1965/1965_3.pdf"
 page_image: "archive/05_nagoya/1965/1965_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　放物線$y=1-x^2$を平行移動させて，その頂点がもとの放物線$y=1-x^2$の上を動くようにする。
+放物線$y=1-x^2$を平行移動させて，その頂点がもとの放物線$y=1-x^2$の上を動くようにする。
 このようにしてえられる放物線が存在する範囲を求めよ。
 
 ---

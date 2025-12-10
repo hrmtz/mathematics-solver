@@ -3,6 +3,7 @@ title: "東北大学 1995年 1995_5"
 problem_id: "04_tohoku-1995-1995_5"
 university: "東北大学"
 exam_year: "1995"
+problem_number: 5
 source_tex: "archive/04_tohoku/1995/1995_5.tex"
 pdf_source: "archive/04_tohoku/1995/1995_5.pdf"
 page_image: "archive/04_tohoku/1995/1995_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n$を0または正の整数とし，
+$n$を0または正の整数とし，
 \[ I_n=\int_{-\pi}^{\pi}x^n\cos xdx, \hspace{1zw} J_n=\int_{-\pi}^{\pi}x^n\sin xdx \]
 とする．
 \begin{description}

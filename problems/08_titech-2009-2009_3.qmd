@@ -3,6 +3,7 @@ title: "東京科学大学 2009年 2009_3"
 problem_id: "08_titech-2009-2009_3"
 university: "東京科学大学"
 exam_year: "2009"
+problem_number: 3
 source_tex: "archive/08_titech/2009/2009_3.tex"
 pdf_source: "archive/08_titech/2009/2009_3.pdf"
 page_image: "archive/08_titech/2009/2009_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$N$を正の整数とする．
+$N$を正の整数とする．
 $2N$以下の正の整数$m$，$n$からなる組$(m,n)$で，
 方程式$x^2-nx+m=0$が$N$以上の実数解をもつようなものは何組あるか．
 

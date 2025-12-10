@@ -3,6 +3,7 @@ title: "京都大学 2006年 2006_0_5"
 problem_id: "02_kyoto-2006-2006_0_5"
 university: "京都大学"
 exam_year: "2006"
+problem_number: 5
 source_tex: "archive/02_kyoto/2006/2006_0_5.tex"
 pdf_source: "archive/02_kyoto/2006/2006_0_5.pdf"
 page_image: "archive/02_kyoto/2006/2006_0_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n$，$k$は自然数で$k \leqq n$とする．
+$n$，$k$は自然数で$k \leqq n$とする．
 穴のあいた$2k$個の白玉と$2n-2k$個の黒玉にひもを通して輪を作る．
 このとき適当な2箇所でひもを切って$n$個ずつの2組に分け，
 どちらの組も白玉$k$個，黒玉$n-k$個からなるようにできることを示せ．

@@ -3,6 +3,7 @@ title: "東北大学 1979年 1979_3"
 problem_id: "04_tohoku-1979-1979_3"
 university: "東北大学"
 exam_year: "1979"
+problem_number: 3
 source_tex: "archive/04_tohoku/1979/1979_3.tex"
 pdf_source: "archive/04_tohoku/1979/1979_3.pdf"
 page_image: "archive/04_tohoku/1979/1979_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　2つの曲線$\displaystyle\frac{x^2}{9}+y^2=1$と$\displaystyle\sqrt\frac{x}{3}+\sqrt{y}=1$が
+2つの曲線$\displaystyle\frac{x^2}{9}+y^2=1$と$\displaystyle\sqrt\frac{x}{3}+\sqrt{y}=1$が
 第1象限で囲む部分を$x$軸のまわりに回転してできる立体の体積を求めよ．
 
 ---

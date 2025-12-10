@@ -3,6 +3,7 @@ title: "北海道大学 1978年 1978_6"
 problem_id: "03_hokudai-1978-1978_6"
 university: "北海道大学"
 exam_year: "1978"
+problem_number: 6
 source_tex: "archive/03_hokudai/1978/1978_6.tex"
 pdf_source: "archive/03_hokudai/1978/1978_6.pdf"
 page_image: "archive/03_hokudai/1978/1978_6.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(1)]$\displaystyle a_n=\int_0^\frac{\pi}{2}\sin 2t{(1-\sin t)}^\frac{n-1}{2}dt$の値を求めよ．
 ただし，$n$は自然数とする．

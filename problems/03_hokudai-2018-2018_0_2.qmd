@@ -3,6 +3,7 @@ title: "北海道大学 2018年 2018_0_2"
 problem_id: "03_hokudai-2018-2018_0_2"
 university: "北海道大学"
 exam_year: "2018"
+problem_number: 2
 source_tex: "archive/03_hokudai/2018/2018_0_2.tex"
 pdf_source: "archive/03_hokudai/2018/2018_0_2.pdf"
 page_image: "archive/03_hokudai/2018/2018_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$と$b$は実数とし，
+$a$と$b$は実数とし，
 関数$f(x)=x^2+ax+b$の$0 \leqq x \leqq 1$における最小値を$m$とする。
 \begin{description}
 \item[(1)]$m$を$a$と$b$で表せ。

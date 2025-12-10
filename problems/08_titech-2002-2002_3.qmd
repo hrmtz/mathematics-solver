@@ -3,6 +3,7 @@ title: "東京科学大学 2002年 2002_3"
 problem_id: "08_titech-2002-2002_3"
 university: "東京科学大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/08_titech/2002/2002_3.tex"
 pdf_source: "archive/08_titech/2002/2002_3.pdf"
 page_image: "archive/08_titech/2002/2002_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　空間内にある一辺の長さが1の正三角形$ABC$で，
+空間内にある一辺の長さが1の正三角形$ABC$で，
 $A$の座標が$(0,0,1)$であり，$B$と$C$の$z$座標が等しいものを考える．
 点$L(0,0,1+\sqrt{2})$にある光源が$xy$平面上に作るこの正三角形の影の部分の面積の最大値を求めよ．
 

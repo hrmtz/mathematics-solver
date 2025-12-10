@@ -3,6 +3,7 @@ title: "大阪大学 1982年 1982_4"
 problem_id: "06_osaka-1982-1982_4"
 university: "大阪大学"
 exam_year: "1982"
+problem_number: 4
 source_tex: "archive/06_osaka/1982/1982_4.tex"
 pdf_source: "archive/06_osaka/1982/1982_4.pdf"
 page_image: "archive/06_osaka/1982/1982_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　1つのさいころを$r$回振る．
+1つのさいころを$r$回振る．
 第$i$回目に出る目の数を$n_i$とする．
 そのとき
 \begin{description}

@@ -3,6 +3,7 @@ title: "九州大学 2008年 2008_e"
 problem_id: "07_kyushu-2008-2008_e"
 university: "九州大学"
 exam_year: "2008"
+problem_number: 5
 source_tex: "archive/07_kyushu/2008/2008_e.tex"
 pdf_source: "archive/07_kyushu/2008/2008_e.pdf"
 page_image: "archive/07_kyushu/2008/2008_e.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　関数$f(x)$ $(x\geqq-1)$を
+関数$f(x)$ $(x\geqq-1)$を
 \[ f(x)=\begin{cases} \displaystyle\frac{\log(1+x)}{1+x} & (x\geqq0)
 \displaystyle\frac{\log(1-x)}{1-x} & (-1 \leqq x<0) \end{cases} \]
 と定める．以下の問いに答えよ．

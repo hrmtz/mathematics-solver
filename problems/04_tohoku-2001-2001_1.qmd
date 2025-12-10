@@ -3,6 +3,7 @@ title: "東北大学 2001年 2001_1"
 problem_id: "04_tohoku-2001-2001_1"
 university: "東北大学"
 exam_year: "2001"
+problem_number: 1
 source_tex: "archive/04_tohoku/2001/2001_1.tex"
 pdf_source: "archive/04_tohoku/2001/2001_1.pdf"
 page_image: "archive/04_tohoku/2001/2001_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$を正の数とする．
+$a$，$b$を正の数とする．
 2つの曲線$y=x^3+bx^2$，$y=ax^2+abx$によって囲まれる2つの部分の面積の和を$S$とする．
 \begin{description}
 \item[(1)]$S$を$a$と$b$で表せ．

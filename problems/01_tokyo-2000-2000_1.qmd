@@ -3,6 +3,7 @@ title: "東京大学 2000年 2000_1"
 problem_id: "01_tokyo-2000-2000_1"
 university: "東京大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/01_tokyo/2000/2000_1.tex"
 pdf_source: "archive/01_tokyo/2000/2000_1.pdf"
 page_image: "archive/01_tokyo/2000/2000_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$AB=AC$，$BC=2$の直角二等辺三角形$ABC$の各辺に接し，
+$AB=AC$，$BC=2$の直角二等辺三角形$ABC$の各辺に接し，
 ひとつの軸が辺$BC$に平行な\ruby{楕}{だ}円の面積の最大値を求めよ．
 
 ---

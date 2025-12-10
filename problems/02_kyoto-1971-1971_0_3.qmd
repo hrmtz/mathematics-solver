@@ -3,6 +3,7 @@ title: "京都大学 1971年 1971_0_3"
 problem_id: "02_kyoto-1971-1971_0_3"
 university: "京都大学"
 exam_year: "1971"
+problem_number: 3
 source_tex: "archive/02_kyoto/1971/1971_0_3.tex"
 pdf_source: "archive/02_kyoto/1971/1971_0_3.pdf"
 page_image: "archive/02_kyoto/1971/1971_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　台形$ABCD$の平行な2辺$AB$，$DC$上にそれぞれ点$P$，$Q$をとる．
+台形$ABCD$の平行な2辺$AB$，$DC$上にそれぞれ点$P$，$Q$をとる．
 次に$AB$に平行な直線が辺$AD$，$BC$および線分$PQ$と交わる点をそれぞれ$L$，$M$，$N$とし，
 $AP=a$，$PB=b$，$DQ=c$，$QC=d$，$LN=x$，$NM=y$とする．
 $ad-bc>0$，$c\neq0$のとき，

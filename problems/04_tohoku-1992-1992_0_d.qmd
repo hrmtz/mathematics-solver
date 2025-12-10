@@ -3,6 +3,7 @@ title: "東北大学 1992年 1992_0_d"
 problem_id: "04_tohoku-1992-1992_0_d"
 university: "東北大学"
 exam_year: "1992"
+problem_number: 4
 source_tex: "archive/04_tohoku/1992/1992_0_d.tex"
 pdf_source: "archive/04_tohoku/1992/1992_0_d.pdf"
 page_image: "archive/04_tohoku/1992/1992_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次の和を求めよ．
+次の和を求めよ．
 \[ \sum_{k=1}^n\frac{k}{1^2+3^2+5^2+\cdots\cdots+{(2k-1)}^2} \]
 
 ---

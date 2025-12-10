@@ -3,6 +3,7 @@ title: "東北大学 1994年 1994_4"
 problem_id: "04_tohoku-1994-1994_4"
 university: "東北大学"
 exam_year: "1994"
+problem_number: 4
 source_tex: "archive/04_tohoku/1994/1994_4.tex"
 pdf_source: "archive/04_tohoku/1994/1994_4.pdf"
 page_image: "archive/04_tohoku/1994/1994_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$N$を2以上の整数とする．
+$N$を2以上の整数とする．
 $A$チームと$B$チームがある試合をくり返して行い，先に$N$勝したチームを優勝とする．
 各試合において引き分けはないものとし，それぞれの勝つ確率は$\displaystyle\frac{1}{2}$とする．
 $X$回目の試合で優勝チームが決まったものとして，次に答えよ．

@@ -3,6 +3,7 @@ title: "九州大学 1973年 1973_2"
 problem_id: "07_kyushu-1973-1973_2"
 university: "九州大学"
 exam_year: "1973"
+problem_number: 2
 source_tex: "archive/07_kyushu/1973/1973_2.tex"
 pdf_source: "archive/07_kyushu/1973/1973_2.pdf"
 page_image: "archive/07_kyushu/1973/1973_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　ボタンを押すと1から$n$までの自然数の1つをある確率で表示する機械がある．
+ボタンを押すと1から$n$までの自然数の1つをある確率で表示する機械がある．
 表示される数が1から$k$ $(k=1, \, 2, \, \cdots\cdots, n)$までの数のどれかである確率は$Ak^2$である．
 ただし，$A$は定数である．
 \begin{description}

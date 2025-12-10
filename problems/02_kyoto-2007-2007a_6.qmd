@@ -3,6 +3,7 @@ title: "京都大学 2007年 2007a_6"
 problem_id: "02_kyoto-2007-2007a_6"
 university: "京都大学"
 exam_year: "2007"
+problem_number: 6
 source_tex: "archive/02_kyoto/2007/2007a_6.tex"
 pdf_source: "archive/02_kyoto/2007/2007a_6.pdf"
 page_image: "archive/02_kyoto/2007/2007a_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$y=xe^{1-x}$と$y=x$のグラフで囲まれた部分を
+$y=xe^{1-x}$と$y=x$のグラフで囲まれた部分を
 $x$軸の周りに回転してできる立体の体積を求めよ．
 
 ---

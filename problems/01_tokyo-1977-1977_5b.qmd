@@ -3,6 +3,7 @@ title: "東京大学 1977年 1977_5b"
 problem_id: "01_tokyo-1977-1977_5b"
 university: "東京大学"
 exam_year: "1977"
+problem_number: 5
 source_tex: "archive/01_tokyo/1977/1977_5b.tex"
 pdf_source: "archive/01_tokyo/1977/1977_5b.pdf"
 page_image: "archive/01_tokyo/1977/1977_5b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 旧
-　$\theta_1$，$\theta_2$，$\theta_3$，$\theta_4$，$\theta_5$を正の数とする．
+$\theta_1$，$\theta_2$，$\theta_3$，$\theta_4$，$\theta_5$を正の数とする．
 図のように円に内接する5角形$A_1A_2A_3A_4A_5$で，
 $1 \leqq i \leqq 5$に対し角$A_i$の大きさが$\theta_i$となるものが存在するためには，
 \[ \theta_1+\theta_2+\theta_3+\theta_4+\theta_5=3\pi, \hspace{1zw}

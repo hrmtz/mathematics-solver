@@ -3,6 +3,7 @@ title: "名古屋大学 1983年 1983_3a"
 problem_id: "05_nagoya-1983-1983_3a"
 university: "名古屋大学"
 exam_year: "1983"
+problem_number: 3
 source_tex: "archive/05_nagoya/1983/1983_3a.tex"
 pdf_source: "archive/05_nagoya/1983/1983_3a.pdf"
 page_image: "archive/05_nagoya/1983/1983_3a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3 (a)
-　曲線$y=x^2$ $(x\geqq0)$の上にあって，
+曲線$y=x^2$ $(x\geqq0)$の上にあって，
 定点$A(0, \, a)$に最も近い点$P$を求めよ．
 また$\displaystyle a=\frac{3}{4}$のとき，
 点$A$を中心とする半径$AP$の円と，

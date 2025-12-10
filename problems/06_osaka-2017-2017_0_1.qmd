@@ -3,6 +3,7 @@ title: "大阪大学 2017年 2017_0_1"
 problem_id: "06_osaka-2017-2017_0_1"
 university: "大阪大学"
 exam_year: "2017"
+problem_number: 1
 source_tex: "archive/06_osaka/2017/2017_0_1.tex"
 pdf_source: "archive/06_osaka/2017/2017_0_1.pdf"
 page_image: "archive/06_osaka/2017/2017_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$b$，$c$を実数，$q$を正の実数とする．
+$b$，$c$を実数，$q$を正の実数とする．
 放物線$P:y=-x^2+bx+c$の頂点の$y$座標が$q$のとき，
 放物線$P$と$x$軸で囲まれた部分の面積$S$を$q$を用いてあらわせ．
 

@@ -3,6 +3,7 @@ title: "北海道大学 2017年 2017_0_3"
 problem_id: "03_hokudai-2017-2017_0_3"
 university: "北海道大学"
 exam_year: "2017"
+problem_number: 3
 source_tex: "archive/03_hokudai/2017/2017_0_3.tex"
 pdf_source: "archive/03_hokudai/2017/2017_0_3.pdf"
 page_image: "archive/03_hokudai/2017/2017_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　正四面体$ABCD$の頂点を移動する点$P$がある。
+正四面体$ABCD$の頂点を移動する点$P$がある。
 点$P$は，1秒ごとに，隣の3頂点のいずれかに等しい確率$\displaystyle\frac{a}{3}$で移るか，
 もとの頂点に確率$1-a$で留まる。
 初め頂点$A$にいた点$P$が，$n$秒後に頂点$A$にいる確率を$p_n$とする。

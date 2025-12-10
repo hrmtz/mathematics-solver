@@ -3,6 +3,7 @@ title: "東京大学 2016年 2016_3"
 problem_id: "01_tokyo-2016-2016_3"
 university: "東京大学"
 exam_year: "2016"
+problem_number: 3
 source_tex: "archive/01_tokyo/2016/2016_3.tex"
 pdf_source: "archive/01_tokyo/2016/2016_3.pdf"
 page_image: "archive/01_tokyo/2016/2016_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a$を$1<a<3$をみたす実数とし，座標空間内の4点
+$a$を$1<a<3$をみたす実数とし，座標空間内の4点
 $P_1(1, \, 0, \, 1)$，$P_2(1, \, 1, \, 1)$，$P_3(1, \, 0, \, 3)$，$Q(0, \, 0, \, a)$を考える。
 直線$P_1Q$，$P_2Q$，$P_3Q$と$xy$平面の交点をそれぞれ$R_1, \, R_2, \, R_3$として，
 三角形$R_1R_2R_3$の面積を$S(a)$とする。

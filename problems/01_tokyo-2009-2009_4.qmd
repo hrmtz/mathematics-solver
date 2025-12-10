@@ -3,6 +3,7 @@ title: "東京大学 2009年 2009_4"
 problem_id: "01_tokyo-2009-2009_4"
 university: "東京大学"
 exam_year: "2009"
+problem_number: 4
 source_tex: "archive/01_tokyo/2009/2009_4.tex"
 pdf_source: "archive/01_tokyo/2009/2009_4.pdf"
 page_image: "archive/01_tokyo/2009/2009_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$を正の実数とし，空間内の2つの円板
+$a$を正の実数とし，空間内の2つの円板
 \begin{description}
 \item[]$D_1=\{(x,y,z)|x^2+y^2\leqq1,z=a\}$，
 \item[]$D_2=\{(x,y,z)|x^2+y^2\leqq1,z=-a \}$

@@ -3,6 +3,7 @@ title: "京都大学 1972年 1972_0_6"
 problem_id: "02_kyoto-1972-1972_0_6"
 university: "京都大学"
 exam_year: "1972"
+problem_number: 6
 source_tex: "archive/02_kyoto/1972/1972_0_6.tex"
 pdf_source: "archive/02_kyoto/1972/1972_0_6.pdf"
 page_image: "archive/02_kyoto/1972/1972_0_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$9u_{n+1}=(10-{u_n}^2)u_n$ $(n=1,2,\cdots)$で定められる数列$\{u_n\}$がある．
+$9u_{n+1}=(10-{u_n}^2)u_n$ $(n=1,2,\cdots)$で定められる数列$\{u_n\}$がある．
 いま，$0<u_1<3/2$と仮定するとき次のことを示せ．
 \begin{description}
 \item[(i)]すべての$n$について，$\displaystyle0<u_n<\frac{3}{2}$．

@@ -3,6 +3,7 @@ title: "東北大学 1997年 1997_3"
 problem_id: "04_tohoku-1997-1997_3"
 university: "東北大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/04_tohoku/1997/1997_3.tex"
 pdf_source: "archive/04_tohoku/1997/1997_3.pdf"
 page_image: "archive/04_tohoku/1997/1997_3.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$\log x$を$x$の自然対数とする．
 このとき，関数$\displaystyle f(x)=\frac{\log x}{x}$ $(x>0)$の極値，

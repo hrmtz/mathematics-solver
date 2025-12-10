@@ -3,6 +3,7 @@ title: "東北大学 1991年 1991_4"
 problem_id: "04_tohoku-1991-1991_4"
 university: "東北大学"
 exam_year: "1991"
+problem_number: 4
 source_tex: "archive/04_tohoku/1991/1991_4.tex"
 pdf_source: "archive/04_tohoku/1991/1991_4.pdf"
 page_image: "archive/04_tohoku/1991/1991_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$n$を正の整数とする．
+$n$を正の整数とする．
 箱の中に$3^n$枚のカードが入っていて，これらのカードには1から$3^n$までの番号がつけてある．
 この箱から無作為に1枚のカードを取り出し，その番号を$X$とする．
 次に，このカードを箱の中に戻し，ふたたび無作為に1枚のカードを取り出して，その番号を$Y$とする．

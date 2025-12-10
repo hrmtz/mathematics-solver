@@ -3,6 +3,7 @@ title: "東京大学 2013年 2013_2"
 problem_id: "01_tokyo-2013-2013_2"
 university: "東京大学"
 exam_year: "2013"
+problem_number: 2
 source_tex: "archive/01_tokyo/2013/2013_2.tex"
 pdf_source: "archive/01_tokyo/2013/2013_2.pdf"
 page_image: "archive/01_tokyo/2013/2013_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$を実数とし，$x>0$で定義された関数$f(x)$，$g(x)$を次のように定める。
+$a$を実数とし，$x>0$で定義された関数$f(x)$，$g(x)$を次のように定める。
 \[ f(x)=\frac{\cos x}{x} \]
 \[ g(x)=\sin x+ax \]
 　このとき$y=f(x)$のグラフと$y=g(x)$のグラフが$x>0$において

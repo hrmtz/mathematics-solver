@@ -3,6 +3,7 @@ title: "京都大学 2004年 2004_4"
 problem_id: "02_kyoto-2004-2004_4"
 university: "京都大学"
 exam_year: "2004"
+problem_number: 4
 source_tex: "archive/02_kyoto/2004/2004_4.tex"
 pdf_source: "archive/02_kyoto/2004/2004_4.pdf"
 page_image: "archive/02_kyoto/2004/2004_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　行列$A$，$B$を
+行列$A$，$B$を
 $A=\begin{pmatrix} 2 & 0 
 
  1 & 1 \end{pmatrix}$，

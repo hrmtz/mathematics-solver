@@ -3,6 +3,7 @@ title: "東京大学 2000年 2000_2"
 problem_id: "01_tokyo-2000-2000_2"
 university: "東京大学"
 exam_year: "2000"
+problem_number: 2
 source_tex: "archive/01_tokyo/2000/2000_2.tex"
 pdf_source: "archive/01_tokyo/2000/2000_2.pdf"
 page_image: "archive/01_tokyo/2000/2000_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　複素数平面上の原点以外の相異なる2点$P(\alpha)$，$Q(\beta)$を考える．
+複素数平面上の原点以外の相異なる2点$P(\alpha)$，$Q(\beta)$を考える．
 $P(\alpha)$，$Q(\beta)$を通る直線を$l$，原点から$l$に引いた垂線と$l$の交点を$R(w)$とする．
 ただし，複素数$\gamma$が表す点$C$を$C(\gamma)$とかく．
 このとき，

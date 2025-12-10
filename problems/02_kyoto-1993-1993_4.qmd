@@ -3,6 +3,7 @@ title: "京都大学 1993年 1993_4"
 problem_id: "02_kyoto-1993-1993_4"
 university: "京都大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/02_kyoto/1993/1993_4.tex"
 pdf_source: "archive/02_kyoto/1993/1993_4.pdf"
 page_image: "archive/02_kyoto/1993/1993_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　自然数$n$に対して，
+自然数$n$に対して，
 \[ a_n=\int_0^1{(1+x)}^{-n-1}e^{x^2}dx \]
 \[ b_n=\int_0^1{(1+x)}^{-n}xe^{x^2}dx \]
 とおく．

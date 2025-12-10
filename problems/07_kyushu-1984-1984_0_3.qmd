@@ -3,6 +3,7 @@ title: "九州大学 1984年 1984_0_3"
 problem_id: "07_kyushu-1984-1984_0_3"
 university: "九州大学"
 exam_year: "1984"
+problem_number: 3
 source_tex: "archive/07_kyushu/1984/1984_0_3.tex"
 pdf_source: "archive/07_kyushu/1984/1984_0_3.pdf"
 page_image: "archive/07_kyushu/1984/1984_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　放物線$y=kx^2$ $(k>0)$上に，2点$P(\alpha, \, k\alpha^2)$，$Q(\beta, \, k\beta^2)$をとる．
+放物線$y=kx^2$ $(k>0)$上に，2点$P(\alpha, \, k\alpha^2)$，$Q(\beta, \, k\beta^2)$をとる．
 ただし，$\alpha<\beta$とする．
 \begin{description}
 \item[(1)]$P$，$Q$における放物線の2接線の交点を$R$とするとき，3角形$PQR$の面積を求めよ．

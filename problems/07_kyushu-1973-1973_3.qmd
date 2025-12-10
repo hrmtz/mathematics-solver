@@ -3,6 +3,7 @@ title: "九州大学 1973年 1973_3"
 problem_id: "07_kyushu-1973-1973_3"
 university: "九州大学"
 exam_year: "1973"
+problem_number: 3
 source_tex: "archive/07_kyushu/1973/1973_3.tex"
 pdf_source: "archive/07_kyushu/1973/1973_3.pdf"
 page_image: "archive/07_kyushu/1973/1973_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$\alpha$を実数の定数，$n$を自然数とし，平面上に点$P_n(n, \, 0)$，$Q_n(n, \, n^\alpha)$をとる．
+$\alpha$を実数の定数，$n$を自然数とし，平面上に点$P_n(n, \, 0)$，$Q_n(n, \, n^\alpha)$をとる．
 また定積分$\displaystyle\int_n^{n+1}x^\alpha dx$の値を$S_n(\alpha)$，
 台形$P_nP_{n+1}Q_{n+1}Q_n$の面積を$T_n(\alpha)$とする．
 \begin{description}

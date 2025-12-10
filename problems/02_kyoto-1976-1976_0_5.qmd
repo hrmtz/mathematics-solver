@@ -3,6 +3,7 @@ title: "京都大学 1976年 1976_0_5"
 problem_id: "02_kyoto-1976-1976_0_5"
 university: "京都大学"
 exam_year: "1976"
+problem_number: 5
 source_tex: "archive/02_kyoto/1976/1976_0_5.tex"
 pdf_source: "archive/02_kyoto/1976/1976_0_5.pdf"
 page_image: "archive/02_kyoto/1976/1976_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　初項$a_1=2$，第2項$a_2=3$であるような数列で，一般項$a_n$が簡単な式で与えられるものを作りたい．
+初項$a_1=2$，第2項$a_2=3$であるような数列で，一般項$a_n$が簡単な式で与えられるものを作りたい．
 $A$，$B$，$C$，$D$は$n$または定数，$*$は四則演算(＋，－，×，÷)のうちのいずれか，$A^n$は$A$の$n$乗をあらわすとき，
 \begin{description}
 \item[(i)]$a_n=A*B*C*D$の形の式で与えられる数列

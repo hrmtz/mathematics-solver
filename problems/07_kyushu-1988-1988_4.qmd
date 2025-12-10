@@ -3,6 +3,7 @@ title: "九州大学 1988年 1988_4"
 problem_id: "07_kyushu-1988-1988_4"
 university: "九州大学"
 exam_year: "1988"
+problem_number: 4
 source_tex: "archive/07_kyushu/1988/1988_4.tex"
 pdf_source: "archive/07_kyushu/1988/1988_4.pdf"
 page_image: "archive/07_kyushu/1988/1988_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$a$を正の実数とする．$x\geqq0$で定義された連続関数$y=f(x)$が$f(0)=1$を満たし，
+$a$を正の実数とする．$x\geqq0$で定義された連続関数$y=f(x)$が$f(0)=1$を満たし，
 かつ次の微分方程式を満たすとする．
 \[ 0<x<a\text{のとき，}y'=y \]
 \[ a<x<a+1\text{のとき，}y'=0 \]

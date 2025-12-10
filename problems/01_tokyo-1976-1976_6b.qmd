@@ -3,6 +3,7 @@ title: "東京大学 1976年 1976_6b"
 problem_id: "01_tokyo-1976-1976_6b"
 university: "東京大学"
 exam_year: "1976"
+problem_number: 6
 source_tex: "archive/01_tokyo/1976/1976_6b.tex"
 pdf_source: "archive/01_tokyo/1976/1976_6b.pdf"
 page_image: "archive/01_tokyo/1976/1976_6b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6 旧
-　$a$，$b$，$c$，$d$を実数として$f(x)=x^4+ax^3+bx^2+cx+d$とおく．
+$a$，$b$，$c$，$d$を実数として$f(x)=x^4+ax^3+bx^2+cx+d$とおく．
 \begin{description}
 \item[(i)]方程式$f(x)=0$が4個の相異なる実根をもつとき，
 実数$k$に対して，方程式$f(x)+kf'(x)=0$の実根の個数を求めよ．

@@ -3,6 +3,7 @@ title: "東京大学 1995年 1995_9"
 problem_id: "01_tokyo-1995-1995_9"
 university: "東京大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/01_tokyo/1995/1995_9.tex"
 pdf_source: "archive/01_tokyo/1995/1995_9.pdf"
 page_image: "archive/01_tokyo/1995/1995_9.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　1から13まで，それぞれ違った数字が書かれたカードが1枚ずつ13枚ある．
+1から13まで，それぞれ違った数字が書かれたカードが1枚ずつ13枚ある．
 このカードを使って，$A$と$B$の2人が次のルールでゲームをする．
 \begin{description}
 \item[○]$A$と$B$は最初に2枚ずつカードを持つ．

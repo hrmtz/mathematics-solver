@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_0_b"
 problem_id: "04_tohoku-1999-1999_0_b"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 2
 source_tex: "archive/04_tohoku/1999/1999_0_b.tex"
 pdf_source: "archive/04_tohoku/1999/1999_0_b.pdf"
 page_image: "archive/04_tohoku/1999/1999_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　2つの角$\alpha$，$\beta$ $(0^\circ<\alpha<{90}^\circ, \, 0^\circ<\beta<{90}^\circ)$が，
+2つの角$\alpha$，$\beta$ $(0^\circ<\alpha<{90}^\circ, \, 0^\circ<\beta<{90}^\circ)$が，
 $\tan\alpha+2\tan\beta=3$をみたすとする．
 \begin{description}
 \item[(1)]$\displaystyle T=\frac{1}{\cos^2\alpha}+\frac{4}{\cos^2\beta}+

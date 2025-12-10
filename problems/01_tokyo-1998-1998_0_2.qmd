@@ -3,6 +3,7 @@ title: "東京大学 1998年 1998_0_2"
 problem_id: "01_tokyo-1998-1998_0_2"
 university: "東京大学"
 exam_year: "1998"
+problem_number: 2
 source_tex: "archive/01_tokyo/1998/1998_0_2.tex"
 pdf_source: "archive/01_tokyo/1998/1998_0_2.pdf"
 page_image: "archive/01_tokyo/1998/1998_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$，$b$は実数で，$b\neq0$とする．
+$a$，$b$は実数で，$b\neq0$とする．
 $xy$平面に原点$O(0,0)$および2点$P(1,0)$，$Q(a,b)$をとる．
 \begin{description}
 \item[(1)]$\triangle OPQ$が鋭角三角形となるための$a$，$b$の条件を不等式で表し，

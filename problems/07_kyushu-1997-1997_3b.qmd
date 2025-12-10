@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_3b"
 problem_id: "07_kyushu-1997-1997_3b"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/07_kyushu/1997/1997_3b.tex"
 pdf_source: "archive/07_kyushu/1997/1997_3b.pdf"
 page_image: "archive/07_kyushu/1997/1997_3b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3 (b)
-　次の命題(1)，(2)，(3)について，真のときは証明を与え，偽のときは反例を与えよ．
+次の命題(1)，(2)，(3)について，真のときは証明を与え，偽のときは反例を与えよ．
 \begin{description}
 \item[(1)]$x$，$y$を実数とする．
 　$|x|\leqq1$かつ$|y|\leqq1$ならば，${(x+y)}^2\leqq{(xy+1)}^2$である．

@@ -3,6 +3,7 @@ title: "京都大学 2014年 2014_2"
 problem_id: "02_kyoto-2014-2014_2"
 university: "京都大学"
 exam_year: "2014"
+problem_number: 2
 source_tex: "archive/02_kyoto/2014/2014_2.tex"
 pdf_source: "archive/02_kyoto/2014/2014_2.pdf"
 page_image: "archive/02_kyoto/2014/2014_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　2つの粒子が時刻0において$\triangle ABC$の頂点$A$に位置している．
+2つの粒子が時刻0において$\triangle ABC$の頂点$A$に位置している．
 これらの粒子は独立に運動し，それぞれ1秒ごとに隣の頂点に等確率で移動していくとする．
 たとえば，ある時刻で点$C$にいる粒子は，その1秒後には点$A$または点$B$に
 それぞれ$\displaystyle\frac{1}{2}$の確率で移動する．

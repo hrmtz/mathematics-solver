@@ -3,6 +3,7 @@ title: "東京大学 1981年 1981_5"
 problem_id: "01_tokyo-1981-1981_5"
 university: "東京大学"
 exam_year: "1981"
+problem_number: 5
 source_tex: "archive/01_tokyo/1981/1981_5.tex"
 pdf_source: "archive/01_tokyo/1981/1981_5.pdf"
 page_image: "archive/01_tokyo/1981/1981_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n\geqq3$とし，
+$n\geqq3$とし，
 正$n$角\ruby{錐}{すい}の表面を，
 底面に含まれない$n$個の辺で切り開いて得られる展開図を考える．
 正$n$角錐の頂点は，

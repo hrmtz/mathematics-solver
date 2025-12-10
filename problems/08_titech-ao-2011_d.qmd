@@ -3,6 +3,7 @@ title: "東京科学大学 ao年 2011_d"
 problem_id: "08_titech-ao-2011_d"
 university: "東京科学大学"
 exam_year: "ao"
+problem_number: 4
 source_tex: "archive/08_titech/ao/2011_d.tex"
 pdf_source: "archive/08_titech/ao/2011_d.pdf"
 page_image: "archive/08_titech/ao/2011_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　半径1の円に内接する正9角形がある．
+半径1の円に内接する正9角形がある．
 この正9角形の周上にすべての頂点を持つ正多角形の辺数$n$を5つ求めよ．
 さらに各$n$に対し，そのような正$n$角形の例を1つあげて1辺の長さを求めよ．
 

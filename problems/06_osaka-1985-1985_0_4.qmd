@@ -3,6 +3,7 @@ title: "大阪大学 1985年 1985_0_4"
 problem_id: "06_osaka-1985-1985_0_4"
 university: "大阪大学"
 exam_year: "1985"
+problem_number: 4
 source_tex: "archive/06_osaka/1985/1985_0_4.tex"
 pdf_source: "archive/06_osaka/1985/1985_0_4.pdf"
 page_image: "archive/06_osaka/1985/1985_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xy$平面における原点$O$を中心とする半径1の円周$C$は鏡になっているものとする．
+$xy$平面における原点$O$を中心とする半径1の円周$C$は鏡になっているものとする．
 $C$の内部に異なる2点$P_0(x_0, \, y_0)$，$P_1(x_1, y_1)$をとる．
 右図のように点$P_0$を出て点$P_1$を通り，
 $C$上の点$A_1, \, A_2, \, A_3, \, \cdots\cdots$で反射をくり返しながら進む光を考える．

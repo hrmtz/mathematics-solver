@@ -3,6 +3,7 @@ title: "京都大学 1993年 1993_0_4"
 problem_id: "02_kyoto-1993-1993_0_4"
 university: "京都大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/02_kyoto/1993/1993_0_4.tex"
 pdf_source: "archive/02_kyoto/1993/1993_0_4.pdf"
 page_image: "archive/02_kyoto/1993/1993_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　だ円$\displaystyle E:\frac{x^2}{4}+y^2=1$の部分集合$E_1$，$E_2$を次のように定める．
+だ円$\displaystyle E:\frac{x^2}{4}+y^2=1$の部分集合$E_1$，$E_2$を次のように定める．
 \[ E_1 = \left\{ \begin{pmatrix} x 
 
  y \end{pmatrix} \in E \bigg| x\geqq0 , y\geqq0 \right\} \]

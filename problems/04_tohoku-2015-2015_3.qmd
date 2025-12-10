@@ -3,6 +3,7 @@ title: "東北大学 2015年 2015_3"
 problem_id: "04_tohoku-2015-2015_3"
 university: "東北大学"
 exam_year: "2015"
+problem_number: 3
 source_tex: "archive/04_tohoku/2015/2015_3.tex"
 pdf_source: "archive/04_tohoku/2015/2015_3.pdf"
 page_image: "archive/04_tohoku/2015/2015_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　サイコロを3回投げて出た目の数を順に$p_1, \, p_2, \, p_3$とし、$x$の2次方程式
+サイコロを3回投げて出た目の数を順に$p_1, \, p_2, \, p_3$とし、$x$の2次方程式
 \[ 2p_1x^2+p_2x+2p_3=0 \hspace{1zw} \cdots\cdots\text{(＊)} \]
 を考える。
 \begin{description}

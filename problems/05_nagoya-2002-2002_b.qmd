@@ -3,6 +3,7 @@ title: "名古屋大学 2002年 2002_b"
 problem_id: "05_nagoya-2002-2002_b"
 university: "名古屋大学"
 exam_year: "2002"
+problem_number: 2
 source_tex: "archive/05_nagoya/2002/2002_b.tex"
 pdf_source: "archive/05_nagoya/2002/2002_b.pdf"
 page_image: "archive/05_nagoya/2002/2002_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　つぎの各問に答えよ．ただし，$i$は虚数単位である．
+つぎの各問に答えよ．ただし，$i$は虚数単位である．
 \begin{description}
 \item[(1)]複素数$z$と共役な複素数を$\overline{z}$とするとき，任意の整数$n$に対して，
 つぎの(a)，(b)が成り立つことを示せ．ただし，$z\neq0$とする．

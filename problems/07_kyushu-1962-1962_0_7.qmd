@@ -3,6 +3,7 @@ title: "九州大学 1962年 1962_0_7"
 problem_id: "07_kyushu-1962-1962_0_7"
 university: "九州大学"
 exam_year: "1962"
+problem_number: 7
 source_tex: "archive/07_kyushu/1962/1962_0_7.tex"
 pdf_source: "archive/07_kyushu/1962/1962_0_7.pdf"
 page_image: "archive/07_kyushu/1962/1962_0_7.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-7
-　$a_1+a_2+a_3+\cdots\cdots+a_n=3n^2$ $(n=1, \, 2, \, 3\cdots\cdots)$のとき
+$a_1+a_2+a_3+\cdots\cdots+a_n=3n^2$ $(n=1, \, 2, \, 3\cdots\cdots)$のとき
 $\displaystyle\lim_{n\to\infty}(\sqrt{a_2+a_4+\cdots\cdots+a_{2n}}-\sqrt{a_1+a_3+\cdots\cdots+a_{2n-1}})$を求めよ。
 
 ---

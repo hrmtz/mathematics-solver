@@ -3,6 +3,7 @@ title: "名古屋大学 1963年 1963_5"
 problem_id: "05_nagoya-1963-1963_5"
 university: "名古屋大学"
 exam_year: "1963"
+problem_number: 5
 source_tex: "archive/05_nagoya/1963/1963_5.tex"
 pdf_source: "archive/05_nagoya/1963/1963_5.pdf"
 page_image: "archive/05_nagoya/1963/1963_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　三角形$ABC$の3辺$BC$，$CA$，$AB$の長さをそれぞれ$a$，$b$，$c$とするとき，
+三角形$ABC$の3辺$BC$，$CA$，$AB$の長さをそれぞれ$a$，$b$，$c$とするとき，
 $\angle A=2\angle C$ならば$a^2=c(b+c)$であることを証明せよ。
 
 ---

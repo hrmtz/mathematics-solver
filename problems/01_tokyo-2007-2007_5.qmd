@@ -3,6 +3,7 @@ title: "東京大学 2007年 2007_5"
 problem_id: "01_tokyo-2007-2007_5"
 university: "東京大学"
 exam_year: "2007"
+problem_number: 5
 source_tex: "archive/01_tokyo/2007/2007_5.tex"
 pdf_source: "archive/01_tokyo/2007/2007_5.pdf"
 page_image: "archive/01_tokyo/2007/2007_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　表が出る確率が$p$，裏が出る確率が$1-p$であるような硬貨がある．ただし，$0<p<1$とする．
+表が出る確率が$p$，裏が出る確率が$1-p$であるような硬貨がある．ただし，$0<p<1$とする．
 この硬貨を投げて，次のルール(R)の下で，ブロック積みゲームを行う．
 $(R) \begin{cases} \text{\ding{"AC}} & \text{ブロックの高さは，最初は0とする．}
 \text{\ding{"AD}} & \text{硬貨を投げて表が出れば高さ1のブロックを1つ積み上げ，}

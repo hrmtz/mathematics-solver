@@ -3,6 +3,7 @@ title: "九州大学 2021年 2021_e"
 problem_id: "07_kyushu-2021-2021_e"
 university: "九州大学"
 exam_year: "2021"
+problem_number: 5
 source_tex: "archive/07_kyushu/2021/2021_e.tex"
 pdf_source: "archive/07_kyushu/2021/2021_e.pdf"
 page_image: "archive/07_kyushu/2021/2021_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$f(x)$を次の条件を満たす3次の多項式とする。
+$f(x)$を次の条件を満たす3次の多項式とする。
 \begin{description}
 \item[(a)]$x^3$の係数は1である。
 \item[(b)]$0, \, 1, \, -1$ではない複素数$\omega$が存在して，

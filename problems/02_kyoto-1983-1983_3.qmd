@@ -3,6 +3,7 @@ title: "京都大学 1983年 1983_3"
 problem_id: "02_kyoto-1983-1983_3"
 university: "京都大学"
 exam_year: "1983"
+problem_number: 3
 source_tex: "archive/02_kyoto/1983/1983_3.tex"
 pdf_source: "archive/02_kyoto/1983/1983_3.pdf"
 page_image: "archive/02_kyoto/1983/1983_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$ab+cd=0$，$ad-bc\neq0$を満たす実数$a$，$b$，$c$，$d$のつくる行列
+$ab+cd=0$，$ad-bc\neq0$を満たす実数$a$，$b$，$c$，$d$のつくる行列
 $A=\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$がある．

@@ -3,6 +3,7 @@ title: "東北大学 1993年 1993_c"
 problem_id: "04_tohoku-1993-1993_c"
 university: "東北大学"
 exam_year: "1993"
+problem_number: 3
 source_tex: "archive/04_tohoku/1993/1993_c.tex"
 pdf_source: "archive/04_tohoku/1993/1993_c.pdf"
 page_image: "archive/04_tohoku/1993/1993_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　関数$f(x)=x^4-8x^2+7$を考える．
+関数$f(x)=x^4-8x^2+7$を考える．
 \begin{description}
 \item[(1)]$y=f(x)$の極値と，$x$軸および$y$軸との交点を求め，$y=f(x)$のグラフの概形をかけ．
 \item[(2)]$a$を実数とする．直線$y=-12x+a$が$y=f(x)$と接し，

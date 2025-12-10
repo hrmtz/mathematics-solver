@@ -3,6 +3,7 @@ title: "北海道大学 1987年 1987_0_3"
 problem_id: "03_hokudai-1987-1987_0_3"
 university: "北海道大学"
 exam_year: "1987"
+problem_number: 3
 source_tex: "archive/03_hokudai/1987/1987_0_3.tex"
 pdf_source: "archive/03_hokudai/1987/1987_0_3.pdf"
 page_image: "archive/03_hokudai/1987/1987_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　2次方程式$x^2+x-1=0$の2つの解を$\alpha$，$\beta$とおく．
+2次方程式$x^2+x-1=0$の2つの解を$\alpha$，$\beta$とおく．
 \begin{description}
 \item[(1)]$\alpha^n+\beta^n=\alpha^{n+1}+\beta^{n+1}+\alpha^{n+2}+\beta^{n+2}$が成り立つことを示せ．
 ただし，$n$は自然数とする．

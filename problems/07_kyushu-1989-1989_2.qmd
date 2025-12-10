@@ -3,6 +3,7 @@ title: "九州大学 1989年 1989_2"
 problem_id: "07_kyushu-1989-1989_2"
 university: "九州大学"
 exam_year: "1989"
+problem_number: 2
 source_tex: "archive/07_kyushu/1989/1989_2.tex"
 pdf_source: "archive/07_kyushu/1989/1989_2.pdf"
 page_image: "archive/07_kyushu/1989/1989_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　実数$a$，$b$，$c$に対して，関数$f(x)$および行列$A$を
+実数$a$，$b$，$c$に対して，関数$f(x)$および行列$A$を
 \[ f(x)=a\cos^2x+2b\cos x\sin x+c\sin^2x \]
 \[ A=\begin{pmatrix} a & b 
 

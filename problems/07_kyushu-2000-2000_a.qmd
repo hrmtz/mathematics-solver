@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_a"
 problem_id: "07_kyushu-2000-2000_a"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 1
 source_tex: "archive/07_kyushu/2000/2000_a.tex"
 pdf_source: "archive/07_kyushu/2000/2000_a.pdf"
 page_image: "archive/07_kyushu/2000/2000_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　複素数$z$に対し，$\displaystyle w=z-a+\frac{1}{z-b}$とおくとき，以下の問いに答えよ．
+複素数$z$に対し，$\displaystyle w=z-a+\frac{1}{z-b}$とおくとき，以下の問いに答えよ．
 ただし，$a$，$b$は正の整数である．
 \begin{description}
 \item[(1)]$w$が実数となるような$z$の集合を複素数平面上で示せ．

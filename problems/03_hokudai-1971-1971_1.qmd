@@ -3,6 +3,7 @@ title: "北海道大学 1971年 1971_1"
 problem_id: "03_hokudai-1971-1971_1"
 university: "北海道大学"
 exam_year: "1971"
+problem_number: 1
 source_tex: "archive/03_hokudai/1971/1971_1.tex"
 pdf_source: "archive/03_hokudai/1971/1971_1.pdf"
 page_image: "archive/03_hokudai/1971/1971_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　実数$x$に関する3つの不等式（ただし$a>0$とする）
+実数$x$に関する3つの不等式（ただし$a>0$とする）
 \[ x(3x-a)<0 \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \]
 \[ (x-1)(x-2)<0 \hspace{1zw} \cdots\cdots\text{\ding{"AD}} \]
 \[ x(9x-a^2)<0 \hspace{1zw} \cdots\cdots\text{\ding{"AE}} \]

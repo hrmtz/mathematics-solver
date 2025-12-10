@@ -3,6 +3,7 @@ title: "京都大学 1989年 1989_d"
 problem_id: "02_kyoto-1989-1989_d"
 university: "京都大学"
 exam_year: "1989"
+problem_number: 4
 source_tex: "archive/02_kyoto/1989/1989_d.tex"
 pdf_source: "archive/02_kyoto/1989/1989_d.pdf"
 page_image: "archive/02_kyoto/1989/1989_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$，$b$は，ともに0でない実数で，$A=\begin{pmatrix} a & b 
+$a$，$b$は，ともに0でない実数で，$A=\begin{pmatrix} a & b 
 
  b & a \end{pmatrix}$とおく．
 　$O$を原点とする座標平面において，点$P(x,y)$が単位円$x^2+y^2=1$の周上を動く．

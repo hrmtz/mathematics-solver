@@ -3,6 +3,7 @@ title: "大阪大学 1989年 1989_c"
 problem_id: "06_osaka-1989-1989_c"
 university: "大阪大学"
 exam_year: "1989"
+problem_number: 3
 source_tex: "archive/06_osaka/1989/1989_c.tex"
 pdf_source: "archive/06_osaka/1989/1989_c.pdf"
 page_image: "archive/06_osaka/1989/1989_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　関数$f(x)$は区間$[0, \, 4]$で定義され，
+関数$f(x)$は区間$[0, \, 4]$で定義され，
 $f(0)=1$，$f(4)=3$，$1 \leqq f(x) \leqq 4$を満たす連続関数で，
 そのグラフは各区間$[j, \, j+1]$ $(j=0, \, 1, \, 2, \, 3)$において
 傾きが$-1$，0，1のいずれかである直線とする．

@@ -3,6 +3,7 @@ title: "大阪大学 1992年 1992_d"
 problem_id: "06_osaka-1992-1992_d"
 university: "大阪大学"
 exam_year: "1992"
+problem_number: 4
 source_tex: "archive/06_osaka/1992/1992_d.tex"
 pdf_source: "archive/06_osaka/1992/1992_d.pdf"
 page_image: "archive/06_osaka/1992/1992_d.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$m$を$0<m<1$なる実数とする．
+$m$を$0<m<1$なる実数とする．
 関数$f(x)=-x\log x$ $(x>0)$，$g(x)=f(mx)$ $(x>0)$に対し，
 $y=f(x)$，$y=g(x)$の表す曲線を，それぞれ$C_1$，$C_2$とし，
 2つの曲線$C_1$，$C_2$の交点$P(\alpha, \, -\alpha\log\alpha)$における，曲線$C_1$の接線を$l_1$，

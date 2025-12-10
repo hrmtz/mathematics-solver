@@ -3,6 +3,7 @@ title: "名古屋大学 1983年 1983_4a"
 problem_id: "05_nagoya-1983-1983_4a"
 university: "名古屋大学"
 exam_year: "1983"
+problem_number: 4
 source_tex: "archive/05_nagoya/1983/1983_4a.tex"
 pdf_source: "archive/05_nagoya/1983/1983_4a.pdf"
 page_image: "archive/05_nagoya/1983/1983_4a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (a)
-　箱$A$には1個，箱$B$には2個の球が入っている．
+箱$A$には1個，箱$B$には2個の球が入っている．
 硬貨を投げて表が出たら$A$から$B$へ，裏が出たら$B$から$A$へ球を1個うつす．
 ただし，どちらか一方が空になったらこの操作をやめるものとする．
 \begin{description}

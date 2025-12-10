@@ -3,6 +3,7 @@ title: "東京大学 2007年 2007_0_3"
 problem_id: "01_tokyo-2007-2007_0_3"
 university: "東京大学"
 exam_year: "2007"
+problem_number: 3
 source_tex: "archive/01_tokyo/2007/2007_0_3.tex"
 pdf_source: "archive/01_tokyo/2007/2007_0_3.pdf"
 page_image: "archive/01_tokyo/2007/2007_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　正の整数の下2\ruby{桁}{けた}とは，100の位以上を無視した数をいう．
+正の整数の下2\ruby{桁}{けた}とは，100の位以上を無視した数をいう．
 たとえば2000，12345の下2桁はそれぞれ0，45である．
 $m$が正の整数全体を動くとき，$5m^4$の下2桁として現れる数をすべて求めよ．
 

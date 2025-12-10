@@ -3,6 +3,7 @@ title: "東北大学 1971年 1971_2"
 problem_id: "04_tohoku-1971-1971_2"
 university: "東北大学"
 exam_year: "1971"
+problem_number: 2
 source_tex: "archive/04_tohoku/1971/1971_2.tex"
 pdf_source: "archive/04_tohoku/1971/1971_2.pdf"
 page_image: "archive/04_tohoku/1971/1971_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　原点を中心とし，$y=\sqrt3 \, x$と$\displaystyle y=-\frac{1}{\sqrt3}x$を漸近線とする双曲線で
+原点を中心とし，$y=\sqrt3 \, x$と$\displaystyle y=-\frac{1}{\sqrt3}x$を漸近線とする双曲線で
 点$(1, \, 0)$を通るものの方程式を求めよ．
 ただし$\displaystyle\cos^2\frac{\pi}{12}=\frac{2+\sqrt3}{4}$である．
 

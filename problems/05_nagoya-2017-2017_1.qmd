@@ -3,6 +3,7 @@ title: "名古屋大学 2017年 2017_1"
 problem_id: "05_nagoya-2017-2017_1"
 university: "名古屋大学"
 exam_year: "2017"
+problem_number: 1
 source_tex: "archive/05_nagoya/2017/2017_1.tex"
 pdf_source: "archive/05_nagoya/2017/2017_1.pdf"
 page_image: "archive/05_nagoya/2017/2017_1.jpg"
@@ -17,8 +18,7 @@ format:
 ---
 
 
-1
-　不等式$0<a<1$を満たす定数$a$に対して，曲線$C:y=a-1-\log x$ $(x>0)$を考える。
+不等式$0<a<1$を満たす定数$a$に対して，曲線$C:y=a-1-\log x$ $(x>0)$を考える。
 $s$を正の実数とし，曲線$C$上の点$P(s, \, a-1-\log s)$における接線が
 $x$軸，$y$軸と交わる点をそれぞれ$(u(s), \, 0)$，$(0, \, v(s))$とする。
 このとき，次の問に答えよ。

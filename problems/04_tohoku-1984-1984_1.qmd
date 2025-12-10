@@ -3,6 +3,7 @@ title: "東北大学 1984年 1984_1"
 problem_id: "04_tohoku-1984-1984_1"
 university: "東北大学"
 exam_year: "1984"
+problem_number: 1
 source_tex: "archive/04_tohoku/1984/1984_1.tex"
 pdf_source: "archive/04_tohoku/1984/1984_1.pdf"
 page_image: "archive/04_tohoku/1984/1984_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　平面上で，行列
+平面上で，行列
 \[ \begin{pmatrix} \displaystyle\frac{3}{4} & \displaystyle\frac{\sqrt3}{4}
 \displaystyle\frac{\sqrt3}{4} & \displaystyle\frac{1}{4} \end{pmatrix} \]
 により与えられる1次変換を$f$，

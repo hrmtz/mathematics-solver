@@ -3,6 +3,7 @@ title: "名古屋大学 2009年 2009_0_2"
 problem_id: "05_nagoya-2009-2009_0_2"
 university: "名古屋大学"
 exam_year: "2009"
+problem_number: 2
 source_tex: "archive/05_nagoya/2009/2009_0_2.tex"
 pdf_source: "archive/05_nagoya/2009/2009_0_2.pdf"
 page_image: "archive/05_nagoya/2009/2009_0_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　放物線$y=ax^2$ $(a>0)$と円${(x-b)}^2+{(y-1)}^2=1$ $(b>0)$が，
+放物線$y=ax^2$ $(a>0)$と円${(x-b)}^2+{(y-1)}^2=1$ $(b>0)$が，
 点$P(p, \, q)$で接しているとする．ただし，$0<p<b$とする．
 この円の中心$Q$から$x$軸に下ろした垂線と$x$軸との交点を$R$としたとき，$\angle PQR={120}^\circ$であるとする．
 ここで，放物線と円が点$P$で接するとは，$P$が放物線と円の共有点であり，

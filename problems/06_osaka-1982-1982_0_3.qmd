@@ -3,6 +3,7 @@ title: "大阪大学 1982年 1982_0_3"
 problem_id: "06_osaka-1982-1982_0_3"
 university: "大阪大学"
 exam_year: "1982"
+problem_number: 3
 source_tex: "archive/06_osaka/1982/1982_0_3.tex"
 pdf_source: "archive/06_osaka/1982/1982_0_3.pdf"
 page_image: "archive/06_osaka/1982/1982_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　放物線$y=x^2+1$上の1点を$A(a, \, a^2+1)$とする．
+放物線$y=x^2+1$上の1点を$A(a, \, a^2+1)$とする．
 この放物線上に$A$と異なる点$B(b, \, b^2+1)$をとり，
 線分$AB$，$x$軸および2直線$x=a$，$x=b$とで囲まれた台形の面積を，
 この放物線が2等分するようにしたい．

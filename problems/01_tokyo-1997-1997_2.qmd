@@ -3,6 +3,7 @@ title: "東京大学 1997年 1997_2"
 problem_id: "01_tokyo-1997-1997_2"
 university: "東京大学"
 exam_year: "1997"
+problem_number: 2
 source_tex: "archive/01_tokyo/1997/1997_2.tex"
 pdf_source: "archive/01_tokyo/1997/1997_2.pdf"
 page_image: "archive/01_tokyo/1997/1997_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$n$を正の整数，$a$を実数とする．すべての整数$m$に対して
+$n$を正の整数，$a$を実数とする．すべての整数$m$に対して
 \[ m^2-(a-1)m+\frac{n^2}{2n+1}a>0 \]
 が成り立つような$a$の範囲を$n$を用いて表せ．
 

@@ -3,6 +3,7 @@ title: "東京科学大学 1976年 1976_5"
 problem_id: "08_titech-1976-1976_5"
 university: "東京科学大学"
 exam_year: "1976"
+problem_number: 5
 source_tex: "archive/08_titech/1976/1976_5.tex"
 pdf_source: "archive/08_titech/1976/1976_5.pdf"
 page_image: "archive/08_titech/1976/1976_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$\vec{a}$，$\vec{b}$，$\vec{c}$を空間のベクトルとする．
+$\vec{a}$，$\vec{b}$，$\vec{c}$を空間のベクトルとする．
 $x^2+2y^2+3z^2=1$を満たすすべての実数$x$，$y$，$z$に対して
 ベクトル$x\vec{a}+y\vec{b}+z\vec{c}$の長さはつねに1であるという．
 \begin{description}

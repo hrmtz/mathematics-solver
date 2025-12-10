@@ -3,6 +3,7 @@ title: "東北大学 2001年 2001_6"
 problem_id: "04_tohoku-2001-2001_6"
 university: "東北大学"
 exam_year: "2001"
+problem_number: 6
 source_tex: "archive/04_tohoku/2001/2001_6.tex"
 pdf_source: "archive/04_tohoku/2001/2001_6.pdf"
 page_image: "archive/04_tohoku/2001/2001_6.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(1)]$n$を正の整数とする．
 $t\geqq0$のとき，不等式$\displaystyle e^t\geqq\frac{t^n}{n \, !}$が成り立つことを

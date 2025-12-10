@@ -3,6 +3,7 @@ title: "九州大学 2007年 2007_5"
 problem_id: "07_kyushu-2007-2007_5"
 university: "九州大学"
 exam_year: "2007"
+problem_number: 5
 source_tex: "archive/07_kyushu/2007/2007_5.tex"
 pdf_source: "archive/07_kyushu/2007/2007_5.pdf"
 page_image: "archive/07_kyushu/2007/2007_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　関数$f(x)$が0でない定数$p$に対して，つねに$f(x+p)=f(x)$を満たすとき
+関数$f(x)$が0でない定数$p$に対して，つねに$f(x+p)=f(x)$を満たすとき
 $f(x)$は周期関数であるといい，$p$を周期という．
 正の周期のうちで最小のものを特に基本周期という．
 たとえば，関数$\sin x$の基本周期は$2\pi$である．

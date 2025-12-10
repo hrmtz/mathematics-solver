@@ -3,6 +3,7 @@ title: "北海道大学 2016年 2016_d"
 problem_id: "03_hokudai-2016-2016_d"
 university: "北海道大学"
 exam_year: "2016"
+problem_number: 4
 source_tex: "archive/03_hokudai/2016/2016_d.tex"
 pdf_source: "archive/03_hokudai/2016/2016_d.pdf"
 page_image: "archive/03_hokudai/2016/2016_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　自然数$n$に対して
+自然数$n$に対して
 \[ a_n={ (1+\sqrt2) }^n+{ (1-\sqrt2) }^n \]
 とおく。
 \begin{description}

@@ -3,6 +3,7 @@ title: "名古屋大学 2005年 2005_3"
 problem_id: "05_nagoya-2005-2005_3"
 university: "名古屋大学"
 exam_year: "2005"
+problem_number: 3
 source_tex: "archive/05_nagoya/2005/2005_3.tex"
 pdf_source: "archive/05_nagoya/2005/2005_3.pdf"
 page_image: "archive/05_nagoya/2005/2005_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　1辺の長さが1の正四面体$OABC$を考え，
+1辺の長さが1の正四面体$OABC$を考え，
 $\overrightarrow{OA}=\overrightarrow{a}$，
 $\overrightarrow{OB}=\overrightarrow{b}$，
 $\overrightarrow{OC}=\overrightarrow{c}$とする．

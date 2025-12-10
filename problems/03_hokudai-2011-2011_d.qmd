@@ -3,6 +3,7 @@ title: "北海道大学 2011年 2011_d"
 problem_id: "03_hokudai-2011-2011_d"
 university: "北海道大学"
 exam_year: "2011"
+problem_number: 4
 source_tex: "archive/03_hokudai/2011/2011_d.tex"
 pdf_source: "archive/03_hokudai/2011/2011_d.pdf"
 page_image: "archive/03_hokudai/2011/2011_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$p$を自然数とする。数列$\{ x_n \}$を漸化式
+$p$を自然数とする。数列$\{ x_n \}$を漸化式
 \[ x_1=\cos\left(\frac{2\pi}{p}\right), \hspace{1zw} x_{n+1}=2{(x_n)}^2-1
 \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
 で定める。

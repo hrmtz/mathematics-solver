@@ -3,6 +3,7 @@ title: "東京大学 2004年 2004_0_2"
 problem_id: "01_tokyo-2004-2004_0_2"
 university: "東京大学"
 exam_year: "2004"
+problem_number: 2
 source_tex: "archive/01_tokyo/2004/2004_0_2.tex"
 pdf_source: "archive/01_tokyo/2004/2004_0_2.pdf"
 page_image: "archive/01_tokyo/2004/2004_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$を正の実数とする．
+$a$を正の実数とする．
 次の2つの不等式を同時に満たす点$(x,y)$全体からなる領域を$D$とする．
 \[ y \geqq x^2, \hspace{1zw} y \leqq -2x^2+3ax+6a^2 \]
 領域$D$における$x+y$の最大値，最小値を求めよ．

@@ -3,6 +3,7 @@ title: "東北大学 1997年 1997_0_2"
 problem_id: "04_tohoku-1997-1997_0_2"
 university: "東北大学"
 exam_year: "1997"
+problem_number: 2
 source_tex: "archive/04_tohoku/1997/1997_0_2.tex"
 pdf_source: "archive/04_tohoku/1997/1997_0_2.pdf"
 page_image: "archive/04_tohoku/1997/1997_0_2.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(1)]等式${(1+\sin\theta+\cos\theta)}^2=(1+\sin\theta)(1+\cos\theta)$が成り立つことを証明せよ．
 \item[(2)]$\theta$の関数$(1+\sin\theta)(1+\cos\theta)$の$0^\circ\leqq\theta<{360}^\circ$の範囲での

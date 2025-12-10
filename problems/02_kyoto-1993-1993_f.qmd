@@ -3,6 +3,7 @@ title: "京都大学 1993年 1993_f"
 problem_id: "02_kyoto-1993-1993_f"
 university: "京都大学"
 exam_year: "1993"
+problem_number: 6
 source_tex: "archive/02_kyoto/1993/1993_f.tex"
 pdf_source: "archive/02_kyoto/1993/1993_f.pdf"
 page_image: "archive/02_kyoto/1993/1993_f.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$a_1$，$a_2$，$b_1$，$b_2$，$c_1$，$c_2$を実数とする．
+$a_1$，$a_2$，$b_1$，$b_2$，$c_1$，$c_2$を実数とする．
 不等式$\displaystyle\frac{a_1x+b_1}{x+c_1}>\frac{a_2x+b_2}{x+c_2}$が
 $x\neq-c_1$かつ$x\neq-c_2$となるすべての実数$x$に対して成立するための必要十分条件を求めよ．
 

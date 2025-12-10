@@ -3,6 +3,7 @@ title: "九州大学 1993年 1993_d"
 problem_id: "07_kyushu-1993-1993_d"
 university: "九州大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/07_kyushu/1993/1993_d.tex"
 pdf_source: "archive/07_kyushu/1993/1993_d.pdf"
 page_image: "archive/07_kyushu/1993/1993_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$g(x)$を連続関数とし，$f(x)$は
+$g(x)$を連続関数とし，$f(x)$は
 \[ f(x)=\int_0^xg(t)\sin(x-t)dt \]
 で定義された関数とする．
 \begin{description}

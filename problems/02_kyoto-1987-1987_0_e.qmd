@@ -3,6 +3,7 @@ title: "京都大学 1987年 1987_0_e"
 problem_id: "02_kyoto-1987-1987_0_e"
 university: "京都大学"
 exam_year: "1987"
+problem_number: 5
 source_tex: "archive/02_kyoto/1987/1987_0_e.tex"
 pdf_source: "archive/02_kyoto/1987/1987_0_e.pdf"
 page_image: "archive/02_kyoto/1987/1987_0_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　互いに同形のガラス玉$g$個と，互いに同形のダイヤモンド$d$個と，表裏のあるペンダント1個とを，
+互いに同形のガラス玉$g$個と，互いに同形のダイヤモンド$d$個と，表裏のあるペンダント1個とを，
 まるくつないでネックレス状のものを作る．
 ただし，ペンダントの両隣はダイヤモンドにする．$(d\geqq2,g\geqq1)$
 \begin{description}

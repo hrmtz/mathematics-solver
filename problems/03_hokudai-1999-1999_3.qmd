@@ -3,6 +3,7 @@ title: "北海道大学 1999年 1999_3"
 problem_id: "03_hokudai-1999-1999_3"
 university: "北海道大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/03_hokudai/1999/1999_3.tex"
 pdf_source: "archive/03_hokudai/1999/1999_3.pdf"
 page_image: "archive/03_hokudai/1999/1999_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$xy$平面上の2直線$L_1$，$L_2$を
+$xy$平面上の2直線$L_1$，$L_2$を
 \[ L_1:y=0 \hspace{1zw} (x\text{軸})\]
 \[ L_2:y=\sqrt3x \]
 で定める．

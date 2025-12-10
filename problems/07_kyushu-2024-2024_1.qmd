@@ -3,6 +3,7 @@ title: "九州大学 2024年 2024_1"
 problem_id: "07_kyushu-2024-2024_1"
 university: "九州大学"
 exam_year: "2024"
+problem_number: 1
 source_tex: "archive/07_kyushu/2024/2024_1.tex"
 pdf_source: "archive/07_kyushu/2024/2024_1.pdf"
 page_image: "archive/07_kyushu/2024/2024_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$を実数とし，座標空間内の3点$P(-1, \, 1, \, -1)$，
+$a$を実数とし，座標空間内の3点$P(-1, \, 1, \, -1)$，
 $Q(1, \, 1, \, 1)$，$R(a, \, a^2, \, a^3)$を考える。以下の問いに答えよ。
 \begin{description}
 \item[(1)]$a\neq-1$，$a\neq1$のとき，3点$P, \, Q, \, R$は一直線上にないことを示せ。

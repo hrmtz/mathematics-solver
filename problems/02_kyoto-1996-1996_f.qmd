@@ -3,6 +3,7 @@ title: "京都大学 1996年 1996_f"
 problem_id: "02_kyoto-1996-1996_f"
 university: "京都大学"
 exam_year: "1996"
+problem_number: 6
 source_tex: "archive/02_kyoto/1996/1996_f.tex"
 pdf_source: "archive/02_kyoto/1996/1996_f.pdf"
 page_image: "archive/02_kyoto/1996/1996_f.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$n$を3以上の整数とする．
+$n$を3以上の整数とする．
 円周上の$n$等分点のある点を出発点とし，$n$等分点を一定の方向に次のように進む．
 各点でコインを投げ，表が出れば次の点に進み，裏が出れば次の点を跳び越しその次の点に進む．
 \begin{description}

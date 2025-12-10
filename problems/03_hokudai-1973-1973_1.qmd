@@ -3,6 +3,7 @@ title: "北海道大学 1973年 1973_1"
 problem_id: "03_hokudai-1973-1973_1"
 university: "北海道大学"
 exam_year: "1973"
+problem_number: 1
 source_tex: "archive/03_hokudai/1973/1973_1.tex"
 pdf_source: "archive/03_hokudai/1973/1973_1.pdf"
 page_image: "archive/03_hokudai/1973/1973_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$x$，$y$はともに整数とする．
+$x$，$y$はともに整数とする．
 \begin{description}
 \item[(1)]$\displaystyle y=\frac{1}{8}x^2+4$および$10<x+y<100$を満たす$(x, \, y)$の組の個数を求めよ．
 \item[(2)]$\displaystyle y=\frac{1}{8}x^2+4$および$|xy| \leqq a$を満たす$(x, \, y)$の組の

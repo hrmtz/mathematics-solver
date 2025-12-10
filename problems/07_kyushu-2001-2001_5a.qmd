@@ -3,6 +3,7 @@ title: "九州大学 2001年 2001_5a"
 problem_id: "07_kyushu-2001-2001_5a"
 university: "九州大学"
 exam_year: "2001"
+problem_number: 5
 source_tex: "archive/07_kyushu/2001/2001_5a.tex"
 pdf_source: "archive/07_kyushu/2001/2001_5a.pdf"
 page_image: "archive/07_kyushu/2001/2001_5a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (a)
-　関数$f(x)$の第2次導関数はつねに正とし，
+関数$f(x)$の第2次導関数はつねに正とし，
 関数$y=f(x)$のグラフ$G$上の点$P(t,f(t))$における接線と$x$軸のなす角を$\theta(t)$とする．
 ただし$\theta(t)$は$\displaystyle -\frac{\pi}{2}<\theta<\frac{\pi}{2}$で
 接線の傾きが正，負，0に従って正，負，0の値をとるものとする．

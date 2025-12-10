@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_0_e"
 problem_id: "02_kyoto-1995-1995_0_e"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 5
 source_tex: "archive/02_kyoto/1995/1995_0_e.tex"
 pdf_source: "archive/02_kyoto/1995/1995_0_e.pdf"
 page_image: "archive/02_kyoto/1995/1995_0_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$A$と$B$の2人が次のようなゲームを行う．
+$A$と$B$の2人が次のようなゲームを行う．
 $A$はそれぞれ$0,1,2,3$と書かれた4枚の札をもっている．
 $B$はそれぞれ$1,2,3$と書かれた3枚の札をもっているとする．
 第1回目に$B$が$A$の持札から1枚の札をとり，もし番号が一致する札があればその2枚の札をその場に捨てる．

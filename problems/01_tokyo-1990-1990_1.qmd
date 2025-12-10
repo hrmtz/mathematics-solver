@@ -3,6 +3,7 @@ title: "東京大学 1990年 1990_1"
 problem_id: "01_tokyo-1990-1990_1"
 university: "東京大学"
 exam_year: "1990"
+problem_number: 1
 source_tex: "archive/01_tokyo/1990/1990_1.tex"
 pdf_source: "archive/01_tokyo/1990/1990_1.pdf"
 page_image: "archive/01_tokyo/1990/1990_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$\displaystyle a_n=\sum_{k=1}^n\frac{1}{\sqrt{k}}$，
+$\displaystyle a_n=\sum_{k=1}^n\frac{1}{\sqrt{k}}$，
 $\displaystyle b_n=\sum_{k=1}^n\frac{1}{\sqrt{2k+1}}$とするとき，
 $\displaystyle \lim_{n\to\infty}a_n$，
 $\displaystyle \lim_{n\to\infty}\frac{b_n}{a_n}$を求めよ．

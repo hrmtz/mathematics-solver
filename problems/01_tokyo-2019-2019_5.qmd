@@ -3,6 +3,7 @@ title: "東京大学 2019年 2019_5"
 problem_id: "01_tokyo-2019-2019_5"
 university: "東京大学"
 exam_year: "2019"
+problem_number: 5
 source_tex: "archive/01_tokyo/2019/2019_5.tex"
 pdf_source: "archive/01_tokyo/2019/2019_5.pdf"
 page_image: "archive/01_tokyo/2019/2019_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　以下の問いに答えよ。
+以下の問いに答えよ。
 \begin{description}
 \item[(1)]$n$を1以上の整数とする。$x$についての方程式
 \[ x^{2n-1}=\cos x \]

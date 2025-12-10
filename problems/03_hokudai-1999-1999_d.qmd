@@ -3,6 +3,7 @@ title: "北海道大学 1999年 1999_d"
 problem_id: "03_hokudai-1999-1999_d"
 university: "北海道大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/03_hokudai/1999/1999_d.tex"
 pdf_source: "archive/03_hokudai/1999/1999_d.pdf"
 page_image: "archive/03_hokudai/1999/1999_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f(x)$を
+関数$f(x)$を
 \[ f(x)=x\sin x-\cos x \]
 で定める．また，$n$を自然数とする．
 \begin{description}

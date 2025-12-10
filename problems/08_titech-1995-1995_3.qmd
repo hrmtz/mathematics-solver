@@ -3,6 +3,7 @@ title: "東京科学大学 1995年 1995_3"
 problem_id: "08_titech-1995-1995_3"
 university: "東京科学大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/08_titech/1995/1995_3.tex"
 pdf_source: "archive/08_titech/1995/1995_3.pdf"
 page_image: "archive/08_titech/1995/1995_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$n$を自然数とする．
+$n$を自然数とする．
 \begin{description}
 \item[(1)]$\displaystyle f(x)=\frac{x^2}{n^2}+e^{2x}-1$の増減を調べ，グラフの概形をえがけ，
 \item[(2)]楕円$\displaystyle \frac{x^2}{n^2}+n^2 y^2=1$と曲線$\displaystyle y=\frac{1}{n}e^x$の交点のうち

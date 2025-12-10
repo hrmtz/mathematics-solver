@@ -3,6 +3,7 @@ title: "大阪大学 2005年 2005_a"
 problem_id: "06_osaka-2005-2005_a"
 university: "大阪大学"
 exam_year: "2005"
+problem_number: 1
 source_tex: "archive/06_osaka/2005/2005_a.tex"
 pdf_source: "archive/06_osaka/2005/2005_a.pdf"
 page_image: "archive/06_osaka/2005/2005_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$を正の定数とし，次の2つの曲線
+$a$，$b$を正の定数とし，次の2つの曲線
 \[ C_1:y=ax^2, \hspace{1zw} C_2:y=-ax^2+2abx \]
 によって囲まれる領域を$S$とする．
 $S$を$x$軸のまわりに回転してできる回転体の体積を$V_x$，

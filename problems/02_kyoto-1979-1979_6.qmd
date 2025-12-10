@@ -3,6 +3,7 @@ title: "京都大学 1979年 1979_6"
 problem_id: "02_kyoto-1979-1979_6"
 university: "京都大学"
 exam_year: "1979"
+problem_number: 6
 source_tex: "archive/02_kyoto/1979/1979_6.tex"
 pdf_source: "archive/02_kyoto/1979/1979_6.pdf"
 page_image: "archive/02_kyoto/1979/1979_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　平面上に動点$P$がある．時刻$t$ $(t\geqq0)$のときの$P$の座標$(x,y)$は次の式で与えられる．
+平面上に動点$P$がある．時刻$t$ $(t\geqq0)$のときの$P$の座標$(x,y)$は次の式で与えられる．
 \[ \begin{pmatrix} x 
 
  y \end{pmatrix} = e^{-at}

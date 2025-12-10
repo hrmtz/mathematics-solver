@@ -3,6 +3,7 @@ title: "北海道大学 2018年 2018_c"
 problem_id: "03_hokudai-2018-2018_c"
 university: "北海道大学"
 exam_year: "2018"
+problem_number: 3
 source_tex: "archive/03_hokudai/2018/2018_c.tex"
 pdf_source: "archive/03_hokudai/2018/2018_c.pdf"
 page_image: "archive/03_hokudai/2018/2018_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　十分な数の赤玉と青玉が手元にあるものとする。
+十分な数の赤玉と青玉が手元にあるものとする。
 $a$と$n$を自然数とし，はじめに，空の袋に$a$個の赤玉を入れておく。
 以下の試行を繰り返す。
 袋の中から玉を1個取り出し，それが赤玉ならば青玉を1個袋に入れ，青玉ならば赤玉を1個袋に入れる。

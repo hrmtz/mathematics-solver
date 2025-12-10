@@ -3,6 +3,7 @@ title: "北海道大学 2003年 2003_0_4"
 problem_id: "03_hokudai-2003-2003_0_4"
 university: "北海道大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/03_hokudai/2003/2003_0_4.tex"
 pdf_source: "archive/03_hokudai/2003/2003_0_4.pdf"
 page_image: "archive/03_hokudai/2003/2003_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　一辺の長さが3の正三角形$ABC$を底面とする四面体$PABC$を考える．
+一辺の長さが3の正三角形$ABC$を底面とする四面体$PABC$を考える．
 $PA=PB=PC=2$とする．
 \begin{description}
 \item[(1)]四面体$PABC$の体積を求めよ．

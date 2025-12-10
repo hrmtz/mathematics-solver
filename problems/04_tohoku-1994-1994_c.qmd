@@ -3,6 +3,7 @@ title: "東北大学 1994年 1994_c"
 problem_id: "04_tohoku-1994-1994_c"
 university: "東北大学"
 exam_year: "1994"
+problem_number: 3
 source_tex: "archive/04_tohoku/1994/1994_c.tex"
 pdf_source: "archive/04_tohoku/1994/1994_c.pdf"
 page_image: "archive/04_tohoku/1994/1994_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$xy$平面の原点を$O$とし，直線$L:x=1$，曲線$C:y=x\log x$ $(x>0)$と，$L$上を動く点$P$を考える．
+$xy$平面の原点を$O$とし，直線$L:x=1$，曲線$C:y=x\log x$ $(x>0)$と，$L$上を動く点$P$を考える．
 時刻$t$ $(0 \leqq t \leqq 2\pi)$のときの$P$の速度ベクトルは$(0, \, \sqrt2 \, \cos t)$で，
 $P$は$t=0$のとき点$(1, \, 0)$にある．
 直線$OP$と$C$との交点を$Q$とする．

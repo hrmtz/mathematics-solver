@@ -3,6 +3,7 @@ title: "九州大学 1962年 1962_6"
 problem_id: "07_kyushu-1962-1962_6"
 university: "九州大学"
 exam_year: "1962"
+problem_number: 6
 source_tex: "archive/07_kyushu/1962/1962_6.tex"
 pdf_source: "archive/07_kyushu/1962/1962_6.pdf"
 page_image: "archive/07_kyushu/1962/1962_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　放物線の一群
+放物線の一群
 \[ y=a_n-b_nx^2 \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \hspace{1zw} \cdots\cdots\text{\ding{"AC}} \]
 がある。$a_n$，$b_n$は正の定数であって
 \[ a_nb_n=\frac{3}{4}, \hspace{1zw} a_{n+1}=\frac{2}{3}a_n \hspace{1zw} (n=1, \, 2, \, 3\cdots\cdots\cdots) \]

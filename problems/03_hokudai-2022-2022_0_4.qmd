@@ -3,6 +3,7 @@ title: "北海道大学 2022年 2022_0_4"
 problem_id: "03_hokudai-2022-2022_0_4"
 university: "北海道大学"
 exam_year: "2022"
+problem_number: 4
 source_tex: "archive/03_hokudai/2022/2022_0_4.tex"
 pdf_source: "archive/03_hokudai/2022/2022_0_4.pdf"
 page_image: "archive/03_hokudai/2022/2022_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　箱の中に1文字ずつ書かれたカードが10枚ある。
+箱の中に1文字ずつ書かれたカードが10枚ある。
 そのうち5枚にはA，3枚にはB，2枚にはCと書かれている。
 箱から1枚ずつ，3回カードを取り出す試行を考える。
 \begin{description}

@@ -3,6 +3,7 @@ title: "東京大学 1986年 1986_0_4"
 problem_id: "01_tokyo-1986-1986_0_4"
 university: "東京大学"
 exam_year: "1986"
+problem_number: 4
 source_tex: "archive/01_tokyo/1986/1986_0_4.tex"
 pdf_source: "archive/01_tokyo/1986/1986_0_4.pdf"
 page_image: "archive/01_tokyo/1986/1986_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　平面$S$の一点$A$と正数$\alpha$ $(\alpha<180)$をとる．
+平面$S$の一点$A$と正数$\alpha$ $(\alpha<180)$をとる．
 点の集合としての$S$から$S$への写像$\varphi$が，
 次の三つの条件(i)，(ii)，(iii)をみたすとき，
 $\varphi$は$A$を中心とする正の向きの$\alpha^\circ$回転と呼ばれる．

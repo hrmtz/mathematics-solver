@@ -3,6 +3,7 @@ title: "東北大学 1990年 1990_f"
 problem_id: "04_tohoku-1990-1990_f"
 university: "東北大学"
 exam_year: "1990"
+problem_number: 6
 source_tex: "archive/04_tohoku/1990/1990_f.tex"
 pdf_source: "archive/04_tohoku/1990/1990_f.pdf"
 page_image: "archive/04_tohoku/1990/1990_f.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-6
 \[ f(x)=x^2-2x+\frac{7}{16}\int_{-1}^1|f(x)|dx\cdots\cdots\text{（＊）} \]
 を満たす関数$f(x)$について考える．
 \begin{description}

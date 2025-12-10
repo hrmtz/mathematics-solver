@@ -3,6 +3,7 @@ title: "東北大学 2006年 2006_0_b"
 problem_id: "04_tohoku-2006-2006_0_b"
 university: "東北大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/04_tohoku/2006/2006_0_b.tex"
 pdf_source: "archive/04_tohoku/2006/2006_0_b.pdf"
 page_image: "archive/04_tohoku/2006/2006_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$6^n$が39桁(けた)の自然数になるときの自然数$n$を求めよ．
+$6^n$が39桁(けた)の自然数になるときの自然数$n$を求めよ．
 その場合の$n$に対する$6^n$の最高位の数字を求めよ．
 ただし
 \[ \log_{10}2=0.3010, \hspace{1zw} \log_{10}3=0.4771 \]

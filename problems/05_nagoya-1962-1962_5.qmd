@@ -3,6 +3,7 @@ title: "名古屋大学 1962年 1962_5"
 problem_id: "05_nagoya-1962-1962_5"
 university: "名古屋大学"
 exam_year: "1962"
+problem_number: 5
 source_tex: "archive/05_nagoya/1962/1962_5.tex"
 pdf_source: "archive/05_nagoya/1962/1962_5.pdf"
 page_image: "archive/05_nagoya/1962/1962_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　鋭角三角形$ABC$の頂点$A$，$B$，$C$から
+鋭角三角形$ABC$の頂点$A$，$B$，$C$から
 対辺へおろした垂線の足をそれぞれ$D$，$E$，$F$とする。
 \begin{description}
 \item[(1)]$\displaystyle EF=\frac{2}{3}BC$のとき，

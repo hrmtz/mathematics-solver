@@ -3,6 +3,7 @@ title: "東北大学 1968年 1968_3"
 problem_id: "04_tohoku-1968-1968_3"
 university: "東北大学"
 exam_year: "1968"
+problem_number: 3
 source_tex: "archive/04_tohoku/1968/1968_3.tex"
 pdf_source: "archive/04_tohoku/1968/1968_3.pdf"
 page_image: "archive/04_tohoku/1968/1968_3.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]平面上で$\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{p}$は原点を始点（起点）とするベクトルで
 $\overrightarrow{a}$，$\overrightarrow{b}$の成分はそれぞれ$(1, \, 1)$，$(-1, \, 1)$とする．

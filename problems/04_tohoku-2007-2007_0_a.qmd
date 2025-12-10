@@ -3,6 +3,7 @@ title: "東北大学 2007年 2007_0_a"
 problem_id: "04_tohoku-2007-2007_0_a"
 university: "東北大学"
 exam_year: "2007"
+problem_number: 1
 source_tex: "archive/04_tohoku/2007/2007_0_a.tex"
 pdf_source: "archive/04_tohoku/2007/2007_0_a.pdf"
 page_image: "archive/04_tohoku/2007/2007_0_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]$\sin^3x+\cos^3x\leqq1$を示せ．
 \item[(2)]$0 \leqq x<2\pi$の範囲で$\sin^3x+\cos^3x+\sin x=2$を満たす$x$を求めよ．

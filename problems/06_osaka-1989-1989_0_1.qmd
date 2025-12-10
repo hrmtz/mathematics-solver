@@ -3,6 +3,7 @@ title: "大阪大学 1989年 1989_0_1"
 problem_id: "06_osaka-1989-1989_0_1"
 university: "大阪大学"
 exam_year: "1989"
+problem_number: 1
 source_tex: "archive/06_osaka/1989/1989_0_1.tex"
 pdf_source: "archive/06_osaka/1989/1989_0_1.pdf"
 page_image: "archive/06_osaka/1989/1989_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標平面上において，
+座標平面上において，
 原点$O$を中心とする角$\theta$（ただし$0<\theta<\pi$）の回転を表す1次変換$f$と
 ベクトル$\overrightarrow{a}$が与えられているとする．
 \begin{description}

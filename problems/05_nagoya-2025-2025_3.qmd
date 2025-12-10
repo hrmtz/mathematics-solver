@@ -3,6 +3,7 @@ title: "名古屋大学 2025年 2025_3"
 problem_id: "05_nagoya-2025-2025_3"
 university: "名古屋大学"
 exam_year: "2025"
+problem_number: 3
 source_tex: "archive/05_nagoya/2025/2025_3.tex"
 pdf_source: "archive/05_nagoya/2025/2025_3.pdf"
 page_image: "archive/05_nagoya/2025/2025_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　以下の問に答えよ。
+以下の問に答えよ。
 \begin{description}
 \item[(1)]実数$r, \, \alpha$は$0<r\leqq1, \, 0 \leqq \alpha < \pi$をみたすとする。
 $xy$平面内で，点$(1, \, 0)$を中心にもつ半径$r$の円周およびその内部を$C$とする。

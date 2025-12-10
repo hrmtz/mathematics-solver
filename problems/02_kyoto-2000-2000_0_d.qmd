@@ -3,6 +3,7 @@ title: "京都大学 2000年 2000_0_d"
 problem_id: "02_kyoto-2000-2000_0_d"
 university: "京都大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/02_kyoto/2000/2000_0_d.tex"
 pdf_source: "archive/02_kyoto/2000/2000_0_d.pdf"
 page_image: "archive/02_kyoto/2000/2000_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f(x)=x^3+ax^2+bx+c$は次の条件(イ)，(ロ)を満たしている．
+関数$f(x)=x^3+ax^2+bx+c$は次の条件(イ)，(ロ)を満たしている．
 \begin{description}
 \item[(イ)]$y=f(x)$のグラフは，点$(0,1)$に関して点対称である．
 \item[(ロ)]$y=f(x)$は相異なる2つの極値をもち，2つの極値の差の絶対値は4に等しい．

@@ -3,6 +3,7 @@ title: "東北大学 1996年 1996_0_1"
 problem_id: "04_tohoku-1996-1996_0_1"
 university: "東北大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/04_tohoku/1996/1996_0_1.tex"
 pdf_source: "archive/04_tohoku/1996/1996_0_1.pdf"
 page_image: "archive/04_tohoku/1996/1996_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　直線$y=ax+b$はだ円$4x^2+y^2=4$と相異なる2点で交わり，
+直線$y=ax+b$はだ円$4x^2+y^2=4$と相異なる2点で交わり，
 これらの交点の$y$座標はともに正であるという．
 このような$(a, \, b)$の範囲を$ab$平面上に図示せよ．
 

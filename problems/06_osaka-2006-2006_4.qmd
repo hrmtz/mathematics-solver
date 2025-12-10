@@ -3,6 +3,7 @@ title: "大阪大学 2006年 2006_4"
 problem_id: "06_osaka-2006-2006_4"
 university: "大阪大学"
 exam_year: "2006"
+problem_number: 4
 source_tex: "archive/06_osaka/2006/2006_4.tex"
 pdf_source: "archive/06_osaka/2006/2006_4.pdf"
 page_image: "archive/06_osaka/2006/2006_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　三角形$OAB$の辺$OA$，$OB$上にそれぞれ点$P$，$Q$をとり
+三角形$OAB$の辺$OA$，$OB$上にそれぞれ点$P$，$Q$をとり
 $\overrightarrow{OP}=a\overrightarrow{OA}$，$\overrightarrow{OQ}=b\overrightarrow{OB}$ $(0<a<1, \, 0<b<1)$とする．
 三角形$OAB$の重心$G$が三角形$OPQ$の内部に含まれるための必要十分条件を$a$，$b$を用いて表せ．
 また，その条件を満たす点$(a, \, b)$はどのような範囲にあるかを座標平面上に図示せよ．

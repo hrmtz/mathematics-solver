@@ -3,6 +3,7 @@ title: "名古屋大学 2020年 2020_3"
 problem_id: "05_nagoya-2020-2020_3"
 university: "名古屋大学"
 exam_year: "2020"
+problem_number: 3
 source_tex: "archive/05_nagoya/2020/2020_3.tex"
 pdf_source: "archive/05_nagoya/2020/2020_3.pdf"
 page_image: "archive/05_nagoya/2020/2020_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　以下の問に答えよ。
+以下の問に答えよ。
 \begin{description}
 \item[(1)]関数$f(x)$は，区間$0 \leqq x \leqq 2\pi$で第2次導関数$f''(x)$をもち
 $f''(x)>0$をみたしているとする。区間$0 \leqq x \leqq \pi$で関数$F(x)$を

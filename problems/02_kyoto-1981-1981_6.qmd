@@ -3,6 +3,7 @@ title: "京都大学 1981年 1981_6"
 problem_id: "02_kyoto-1981-1981_6"
 university: "京都大学"
 exam_year: "1981"
+problem_number: 6
 source_tex: "archive/02_kyoto/1981/1981_6.tex"
 pdf_source: "archive/02_kyoto/1981/1981_6.pdf"
 page_image: "archive/02_kyoto/1981/1981_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　次の不等式を証明せよ．ただし，$e$は自然対数の底である．
+次の不等式を証明せよ．ただし，$e$は自然対数の底である．
 \begin{description}
 \item[(1)]$0<a \leqq x$のとき
 $\displaystyle\int_a^xe^{-\frac{t^2}{2}}dt\leqq\frac{1}{a}e^{-\frac{a^2}{2}}-\frac{1}{x}e^{-\frac{x^2}{2}}$

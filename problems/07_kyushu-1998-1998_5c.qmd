@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_5c"
 problem_id: "07_kyushu-1998-1998_5c"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 5
 source_tex: "archive/07_kyushu/1998/1998_5c.tex"
 pdf_source: "archive/07_kyushu/1998/1998_5c.pdf"
 page_image: "archive/07_kyushu/1998/1998_5c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (c)
-　3桁の自然数$N=100a+10b+c$（$a$，$b$，$c$は，
+3桁の自然数$N=100a+10b+c$（$a$，$b$，$c$は，
 $1 \leqq a \leqq 9$，$0 \leqq b \leqq 9$，$0 \leqq c \leqq 9$を満たす整数）を考える．
 \begin{description}
 \item[(1)]平方数かつ奇数である$N$で，

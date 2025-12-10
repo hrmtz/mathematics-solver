@@ -3,6 +3,7 @@ title: "大阪大学 1966年 1966_6"
 problem_id: "06_osaka-1966-1966_6"
 university: "大阪大学"
 exam_year: "1966"
+problem_number: 6
 source_tex: "archive/06_osaka/1966/1966_6.tex"
 pdf_source: "archive/06_osaka/1966/1966_6.pdf"
 page_image: "archive/06_osaka/1966/1966_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　曲線$y=\log x$上の，2つの定点$P$，$Q$および1つの動点$T$の$x$座標を
+曲線$y=\log x$上の，2つの定点$P$，$Q$および1つの動点$T$の$x$座標を
 それぞれ1，$a$，$t$ $(1<t<a)$とする。
 線分$PT$と曲線によって囲まれる部分の面積を$S_1$、
 線分$TQ$と曲線によって囲まれる部分の面積を$S_2$とするとき，

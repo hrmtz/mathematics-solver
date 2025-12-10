@@ -3,6 +3,7 @@ title: "東京大学 1994年 1994_5"
 problem_id: "01_tokyo-1994-1994_5"
 university: "東京大学"
 exam_year: "1994"
+problem_number: 5
 source_tex: "archive/01_tokyo/1994/1994_5.tex"
 pdf_source: "archive/01_tokyo/1994/1994_5.pdf"
 page_image: "archive/01_tokyo/1994/1994_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　大量のカードがあり，
+大量のカードがあり，
 各々のカードに$1,2,3,4,5,6$の数字のいずれかの一つが書かれている．
 これらのカードから無作為に1枚をひくとき，
 どの数字のカードをひく確率も正である．

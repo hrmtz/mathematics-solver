@@ -3,6 +3,7 @@ title: "名古屋大学 2015年 2015_0_1"
 problem_id: "05_nagoya-2015-2015_0_1"
 university: "名古屋大学"
 exam_year: "2015"
+problem_number: 1
 source_tex: "archive/05_nagoya/2015/2015_0_1.tex"
 pdf_source: "archive/05_nagoya/2015/2015_0_1.pdf"
 page_image: "archive/05_nagoya/2015/2015_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　座標平面上の円$C:x^2+{(y-1)}^2=1$と，$x$軸上の2点$P(-a, \, 0)$，$Q(b, \, 0)$を考える。
+座標平面上の円$C:x^2+{(y-1)}^2=1$と，$x$軸上の2点$P(-a, \, 0)$，$Q(b, \, 0)$を考える。
 ただし，$a>0$，$b>0$，$ab\neq1$とする。
 点$P$，$Q$のそれぞれから$C$に$x$軸とは異なる接線を引き，その2つの接線の交点を$R$とする。
 このとき，次の問に答えよ。

@@ -3,6 +3,7 @@ title: "京都大学 1962年 1962_0_5"
 problem_id: "02_kyoto-1962-1962_0_5"
 university: "京都大学"
 exam_year: "1962"
+problem_number: 5
 source_tex: "archive/02_kyoto/1962/1962_0_5.tex"
 pdf_source: "archive/02_kyoto/1962/1962_0_5.pdf"
 page_image: "archive/02_kyoto/1962/1962_0_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　各点$P(x,y)$に対して実数値$z$をさだめようとするのに，2次方程式
+各点$P(x,y)$に対して実数値$z$をさだめようとするのに，2次方程式
 \[ z^2+(a+x)z+\frac{1}{4}(x^2-y^2)=0 \hspace{1zw} (a\text{は正の定数}) \]
 が異なる2実根をもつ場合には大きい方の根の値を採ることにし，
 他の場合には$z$の値を定めないことにする．

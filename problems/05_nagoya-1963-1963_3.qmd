@@ -3,6 +3,7 @@ title: "名古屋大学 1963年 1963_3"
 problem_id: "05_nagoya-1963-1963_3"
 university: "名古屋大学"
 exam_year: "1963"
+problem_number: 3
 source_tex: "archive/05_nagoya/1963/1963_3.tex"
 pdf_source: "archive/05_nagoya/1963/1963_3.pdf"
 page_image: "archive/05_nagoya/1963/1963_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　点$P$を通る直線を対称軸として，
+点$P$を通る直線を対称軸として，
 円$x^2+y^2=1$の対称図形をかいたとき，
 これが$x$軸に接した。
 このような点$P$の存在範囲を求めよ。

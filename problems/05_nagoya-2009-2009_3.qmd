@@ -3,6 +3,7 @@ title: "名古屋大学 2009年 2009_3"
 problem_id: "05_nagoya-2009-2009_3"
 university: "名古屋大学"
 exam_year: "2009"
+problem_number: 3
 source_tex: "archive/05_nagoya/2009/2009_3.tex"
 pdf_source: "archive/05_nagoya/2009/2009_3.pdf"
 page_image: "archive/05_nagoya/2009/2009_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　行列$\displaystyle A=\frac{1}{2}\begin{pmatrix} 0 & -1 
+行列$\displaystyle A=\frac{1}{2}\begin{pmatrix} 0 & -1 
 
  1 & -1 \end{pmatrix}$に対して，
 座標空間の点$P_n$の座標$(a_n, \, b_n, \, c_n)$ $(n=1, \, 2, \, 3, \, \cdots)$を，

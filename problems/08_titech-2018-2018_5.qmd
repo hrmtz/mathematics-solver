@@ -3,6 +3,7 @@ title: "東京科学大学 2018年 2018_5"
 problem_id: "08_titech-2018-2018_5"
 university: "東京科学大学"
 exam_year: "2018"
+problem_number: 5
 source_tex: "archive/08_titech/2018/2018_5.tex"
 pdf_source: "archive/08_titech/2018/2018_5.pdf"
 page_image: "archive/08_titech/2018/2018_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$xyz$空間内の一辺の長さが1の立方体
+$xyz$空間内の一辺の長さが1の立方体
 \[ \{ (x, \, y, \, z) \, | \, 0 \leqq x \leqq 1, \hspace{1zw}
 0 \leqq y \leqq 1, \hspace{1zw} 0 \leqq z \leqq 1 \} \]
 を$Q$とする．点$X$は頂点$A(0, \, 0, \, 0)$から出発して

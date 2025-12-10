@@ -3,6 +3,7 @@ title: "名古屋大学 1996年 1996_c"
 problem_id: "05_nagoya-1996-1996_c"
 university: "名古屋大学"
 exam_year: "1996"
+problem_number: 3
 source_tex: "archive/05_nagoya/1996/1996_c.tex"
 pdf_source: "archive/05_nagoya/1996/1996_c.pdf"
 page_image: "archive/05_nagoya/1996/1996_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$y=x^2$で表される放物線を$y$軸回りに回転させて同じ形の容器を2つ作る．
+$y=x^2$で表される放物線を$y$軸回りに回転させて同じ形の容器を2つ作る．
 これらの容器$A$，$B$を図に示すように，上下に配置する．
 容器$A$の底には小さな穴があいており，底から流出した水が容器$B$にたまる．
 時刻$t=0$のとき，容器$A$の水の深さは$H$であり，容器$B$は空であった．

@@ -3,6 +3,7 @@ title: "東京科学大学 1975年 1975_2"
 problem_id: "08_titech-1975-1975_2"
 university: "東京科学大学"
 exam_year: "1975"
+problem_number: 2
 source_tex: "archive/08_titech/1975/1975_2.tex"
 pdf_source: "archive/08_titech/1975/1975_2.pdf"
 page_image: "archive/08_titech/1975/1975_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$f(x)=x^2+2x+a$について，$x$の方程式$f(x)=0$が相異なる実根をもち，
+$f(x)=x^2+2x+a$について，$x$の方程式$f(x)=0$が相異なる実根をもち，
 $f(f(x))=0$が重根$r$をもつという．
 $r$および$a$を求めよ．
 

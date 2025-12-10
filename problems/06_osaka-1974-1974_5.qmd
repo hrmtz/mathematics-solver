@@ -3,6 +3,7 @@ title: "大阪大学 1974年 1974_5"
 problem_id: "06_osaka-1974-1974_5"
 university: "大阪大学"
 exam_year: "1974"
+problem_number: 5
 source_tex: "archive/06_osaka/1974/1974_5.tex"
 pdf_source: "archive/06_osaka/1974/1974_5.pdf"
 page_image: "archive/06_osaka/1974/1974_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　曲線$y=f(x)$ $(x>0)$上の任意の点$P$における接線は
+曲線$y=f(x)$ $(x>0)$上の任意の点$P$における接線は
 曲線$\displaystyle y=\frac{1}{x}$ $(x>0)$と2点（$Q$，$R$とする）で交わり，
 しかも$P$は線分$QR$の中点であるという．
 \begin{description}

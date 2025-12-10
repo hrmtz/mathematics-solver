@@ -3,6 +3,7 @@ title: "九州大学 1967年 1967_4"
 problem_id: "07_kyushu-1967-1967_4"
 university: "九州大学"
 exam_year: "1967"
+problem_number: 4
 source_tex: "archive/07_kyushu/1967/1967_4.tex"
 pdf_source: "archive/07_kyushu/1967/1967_4.pdf"
 page_image: "archive/07_kyushu/1967/1967_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　放物線$y=\sqrt{x}$と$x$軸とで囲まれた部分に図のように正3角形$A_1, \, A_2, \, A_3, \, \cdots\cdots$を内接させる．
+放物線$y=\sqrt{x}$と$x$軸とで囲まれた部分に図のように正3角形$A_1, \, A_2, \, A_3, \, \cdots\cdots$を内接させる．
 $A_n$の1辺の長さを$l_n$，放物線上にある$A_n$の頂点を$P_n$とする．
  
 

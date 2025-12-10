@@ -3,6 +3,7 @@ title: "九州大学 2018年 2018_c"
 problem_id: "07_kyushu-2018-2018_c"
 university: "九州大学"
 exam_year: "2018"
+problem_number: 3
 source_tex: "archive/07_kyushu/2018/2018_c.tex"
 pdf_source: "archive/07_kyushu/2018/2018_c.pdf"
 page_image: "archive/07_kyushu/2018/2018_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　5人に「あなたの年齢は20代ですか」という質問をする。
+5人に「あなたの年齢は20代ですか」という質問をする。
 ただし，各回答者は，「はい」か「いいえ」と答える前にさいころを振り，
 1または2の目が出たときは正直に答え，
 3以上の目が出たときは，うその答えを言うものとする。

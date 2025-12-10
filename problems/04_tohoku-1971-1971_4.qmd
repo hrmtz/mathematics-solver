@@ -3,6 +3,7 @@ title: "東北大学 1971年 1971_4"
 problem_id: "04_tohoku-1971-1971_4"
 university: "東北大学"
 exam_year: "1971"
+problem_number: 4
 source_tex: "archive/04_tohoku/1971/1971_4.tex"
 pdf_source: "archive/04_tohoku/1971/1971_4.pdf"
 page_image: "archive/04_tohoku/1971/1971_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$は正の定数，$x$は$t$に無関係な正数で，
+$a$は正の定数，$x$は$t$に無関係な正数で，
 定積分$\displaystyle\int_0^1|xt-a|dt$の値は
 $x=2$のとき最小になるという．
 $a$の値を求めよ．

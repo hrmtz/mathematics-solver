@@ -3,6 +3,7 @@ title: "京都大学 2001年 2001_0_4"
 problem_id: "02_kyoto-2001-2001_0_4"
 university: "京都大学"
 exam_year: "2001"
+problem_number: 4
 source_tex: "archive/02_kyoto/2001/2001_0_4.tex"
 pdf_source: "archive/02_kyoto/2001/2001_0_4.pdf"
 page_image: "archive/02_kyoto/2001/2001_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$n$を2以上の整数とする．
+$n$を2以上の整数とする．
 実数$a_1,a_2,\cdots,a_n$に対し，$S=a_1+a_2+\cdots+a_n$とおく．
 $k=1,2,\cdots,n$について，不等式$-1<S-a_k<1$が成り立っているとする．
 $a_1 \leqq a_2 \leqq \cdots \leqq a_n$のとき，すべての$k$について$|a_k|<2$が成り立つことを示せ．

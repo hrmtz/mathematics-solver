@@ -3,6 +3,7 @@ title: "九州大学 2010年 2010_c"
 problem_id: "07_kyushu-2010-2010_c"
 university: "九州大学"
 exam_year: "2010"
+problem_number: 3
 source_tex: "archive/07_kyushu/2010/2010_c.tex"
 pdf_source: "archive/07_kyushu/2010/2010_c.pdf"
 page_image: "archive/07_kyushu/2010/2010_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　点$\begin{pmatrix} x_n 
+点$\begin{pmatrix} x_n 
 
  y_n \end{pmatrix}$が，行列を用いて次のように与えられている．
 \[ \begin{pmatrix} x_n 

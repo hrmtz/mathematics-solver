@@ -3,6 +3,7 @@ title: "東京大学 1997年 1997_4"
 problem_id: "01_tokyo-1997-1997_4"
 university: "東京大学"
 exam_year: "1997"
+problem_number: 4
 source_tex: "archive/01_tokyo/1997/1997_4.tex"
 pdf_source: "archive/01_tokyo/1997/1997_4.pdf"
 page_image: "archive/01_tokyo/1997/1997_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　正三角形$ABC$の頂点$A$から辺$AB$とのなす角が$\theta$の方向に，
+正三角形$ABC$の頂点$A$から辺$AB$とのなす角が$\theta$の方向に，
 三角形の内部に向かって出発した光線を考える．
 ただし$0<\theta<{60}^\circ$とする．
 この光線は三角形の各辺で入射角と反射角が等しくなるように反射し，

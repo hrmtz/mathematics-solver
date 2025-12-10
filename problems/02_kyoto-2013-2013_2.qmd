@@ -3,6 +3,7 @@ title: "京都大学 2013年 2013_2"
 problem_id: "02_kyoto-2013-2013_2"
 university: "京都大学"
 exam_year: "2013"
+problem_number: 2
 source_tex: "archive/02_kyoto/2013/2013_2.tex"
 pdf_source: "archive/02_kyoto/2013/2013_2.pdf"
 page_image: "archive/02_kyoto/2013/2013_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$N$を2以上の自然数とし，$a_n$ $(n=1, \, 2, \, \cdots)$を
+$N$を2以上の自然数とし，$a_n$ $(n=1, \, 2, \, \cdots)$を
 次の性質(i)，(ii)をみたす数列とする．
 \begin{description}
 \item[(i)]$a_1=2^N-3$．

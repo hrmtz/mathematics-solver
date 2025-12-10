@@ -3,6 +3,7 @@ title: "東京大学 1989年 1989_3"
 problem_id: "01_tokyo-1989-1989_3"
 university: "東京大学"
 exam_year: "1989"
+problem_number: 3
 source_tex: "archive/01_tokyo/1989/1989_3.tex"
 pdf_source: "archive/01_tokyo/1989/1989_3.pdf"
 page_image: "archive/01_tokyo/1989/1989_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　虚部が正の複素数の全体を$H$とする．
+虚部が正の複素数の全体を$H$とする．
 すなわち，$H= \{ z=x+iy|x,y\text{は実数で}y>0 \}$とする．
 以下$z$を$H$に属する複素数とする．
 $q$を正の実数とし，$\displaystyle f(z)=\frac{z+1-q}{z+1}$とおく．

@@ -3,6 +3,7 @@ title: "名古屋大学 2003年 2003_0_1"
 problem_id: "05_nagoya-2003-2003_0_1"
 university: "名古屋大学"
 exam_year: "2003"
+problem_number: 1
 source_tex: "archive/05_nagoya/2003/2003_0_1.tex"
 pdf_source: "archive/05_nagoya/2003/2003_0_1.pdf"
 page_image: "archive/05_nagoya/2003/2003_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$\triangle OAB$の頂角$\angle O$の二等分線と辺$AB$との交点を$P$，
+$\triangle OAB$の頂角$\angle O$の二等分線と辺$AB$との交点を$P$，
 点$P$から直線$OA$へ下ろした垂線の足を$Q$とする．
 以下では，$\overrightarrow{a}=\overrightarrow{OA}$，$\overrightarrow{b}=\overrightarrow{OB}$とする．
 \begin{description}

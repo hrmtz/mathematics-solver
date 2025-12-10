@@ -3,6 +3,7 @@ title: "東京大学 1994年 1994_6"
 problem_id: "01_tokyo-1994-1994_6"
 university: "東京大学"
 exam_year: "1994"
+problem_number: 6
 source_tex: "archive/01_tokyo/1994/1994_6.tex"
 pdf_source: "archive/01_tokyo/1994/1994_6.pdf"
 page_image: "archive/01_tokyo/1994/1994_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　$xy$平面上の2点$P$，$Q$に対し，
+$xy$平面上の2点$P$，$Q$に対し，
 $P$と$Q$を$x$軸または$y$軸に平行な線分からなる折れ線で結ぶときの
 経路の長さの最小値を$d(P,Q)$で表す．
 \begin{description}

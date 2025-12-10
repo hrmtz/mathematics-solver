@@ -3,6 +3,7 @@ title: "北海道大学 1966年 1966_0_5"
 problem_id: "03_hokudai-1966-1966_0_5"
 university: "北海道大学"
 exam_year: "1966"
+problem_number: 5
 source_tex: "archive/03_hokudai/1966/1966_0_5.tex"
 pdf_source: "archive/03_hokudai/1966/1966_0_5.pdf"
 page_image: "archive/03_hokudai/1966/1966_0_5.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(1)]$x$の関数$2x-b$の原始関数のうち完全平行式であるものを$f(x)$とする．$f(x)$を求めよ．
 \item[(2)](1)のとき，$x$の関数$y=xf(x)$の極大値が4となるように$b$の値を定めよ．ただし$b>0$とする．

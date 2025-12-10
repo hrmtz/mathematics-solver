@@ -3,6 +3,7 @@ title: "京都大学 2001年 2001_0_e"
 problem_id: "02_kyoto-2001-2001_0_e"
 university: "京都大学"
 exam_year: "2001"
+problem_number: 5
 source_tex: "archive/02_kyoto/2001/2001_0_e.tex"
 pdf_source: "archive/02_kyoto/2001/2001_0_e.pdf"
 page_image: "archive/02_kyoto/2001/2001_0_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　青玉$a$個，赤玉$b$個，白玉$c$個，合計$N=a+b+c$個の玉が入っている袋がある．
+青玉$a$個，赤玉$b$個，白玉$c$個，合計$N=a+b+c$個の玉が入っている袋がある．
 この袋から無作為に1個の玉を取り出し，色を見て袋にもどす．
 これを$n$回繰り返す．
 取り出される玉の色の数の期待値を$E_n$とするとき，

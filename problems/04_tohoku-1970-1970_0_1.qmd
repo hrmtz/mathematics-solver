@@ -3,6 +3,7 @@ title: "東北大学 1970年 1970_0_1"
 problem_id: "04_tohoku-1970-1970_0_1"
 university: "東北大学"
 exam_year: "1970"
+problem_number: 1
 source_tex: "archive/04_tohoku/1970/1970_0_1.tex"
 pdf_source: "archive/04_tohoku/1970/1970_0_1.pdf"
 page_image: "archive/04_tohoku/1970/1970_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$f(x)=x^3-3x+1$とおき，3次方程式$f(x)=0$の1根を$\alpha$とする．
+$f(x)=x^3-3x+1$とおき，3次方程式$f(x)=0$の1根を$\alpha$とする．
 \begin{description}
 \item[(1)]$f(\alpha^2-2)$の値を求めよ．
 \item[(2)]2次方程式$x^2-\alpha x+1=0$の1根を$\beta$とするとき$\beta^3+\beta^{-3}$の値を求めよ．

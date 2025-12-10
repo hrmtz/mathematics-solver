@@ -3,6 +3,7 @@ title: "東京大学 2024年 2024_6"
 problem_id: "01_tokyo-2024-2024_6"
 university: "東京大学"
 exam_year: "2024"
+problem_number: 6
 source_tex: "archive/01_tokyo/2024/2024_6.tex"
 pdf_source: "archive/01_tokyo/2024/2024_6.pdf"
 page_image: "archive/01_tokyo/2024/2024_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　2以上の整数で，1とそれ自身以外に正の約数を持たない数を素数という。以下の問いに答えよ。
+2以上の整数で，1とそれ自身以外に正の約数を持たない数を素数という。以下の問いに答えよ。
 \begin{description}
 \item[(1)]$f(x)=x^3+10x^2+20x$とする。
 $f(n)$が素数となるような整数$n$をすべて求めよ。

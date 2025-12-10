@@ -3,6 +3,7 @@ title: "東北大学 1982年 1982_0_2"
 problem_id: "04_tohoku-1982-1982_0_2"
 university: "東北大学"
 exam_year: "1982"
+problem_number: 2
 source_tex: "archive/04_tohoku/1982/1982_0_2.tex"
 pdf_source: "archive/04_tohoku/1982/1982_0_2.pdf"
 page_image: "archive/04_tohoku/1982/1982_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　${(a+b+c+d)}^7$の展開式について，次の問に答えよ．
+${(a+b+c+d)}^7$の展開式について，次の問に答えよ．
 \begin{description}
 \item[(1)]$p$，$q$，$r$，$s$が$p+q+r+s=7$を満たす負でない整数であるとき，
 項$a^pb^qc^rd^s$の係数を求めよ．

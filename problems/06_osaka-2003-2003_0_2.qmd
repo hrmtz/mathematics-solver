@@ -3,6 +3,7 @@ title: "大阪大学 2003年 2003_0_2"
 problem_id: "06_osaka-2003-2003_0_2"
 university: "大阪大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/06_osaka/2003/2003_0_2.tex"
 pdf_source: "archive/06_osaka/2003/2003_0_2.pdf"
 page_image: "archive/06_osaka/2003/2003_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　自然数$m$に対して，$m$の相異なる素因数をすべてかけあわせたものを$f(m)$で表すことにする．
+自然数$m$に対して，$m$の相異なる素因数をすべてかけあわせたものを$f(m)$で表すことにする．
 たとえば$f(72)=6$である．ただし$f(1)=1$とする．
 \begin{description}
 \item[(1)]$m$，$n$を自然数，$d$を$m$，$n$の最大公約数とするとき

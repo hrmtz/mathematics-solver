@@ -3,6 +3,7 @@ title: "京都大学 1970年 1970_5"
 problem_id: "02_kyoto-1970-1970_5"
 university: "京都大学"
 exam_year: "1970"
+problem_number: 5
 source_tex: "archive/02_kyoto/1970/1970_5.tex"
 pdf_source: "archive/02_kyoto/1970/1970_5.pdf"
 page_image: "archive/02_kyoto/1970/1970_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　関数$\displaystyle F(x)=\int_0^x t {\sin}^3 t dt$の極大値を求めよ．
+関数$\displaystyle F(x)=\int_0^x t {\sin}^3 t dt$の極大値を求めよ．
 ただし$x>0$とする．
 
 ---

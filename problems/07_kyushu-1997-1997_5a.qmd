@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_5a"
 problem_id: "07_kyushu-1997-1997_5a"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 5
 source_tex: "archive/07_kyushu/1997/1997_5a.tex"
 pdf_source: "archive/07_kyushu/1997/1997_5a.pdf"
 page_image: "archive/07_kyushu/1997/1997_5a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5 (a)
-　$a$，$b$を与えられた実数とする．
+$a$，$b$を与えられた実数とする．
 \begin{description}
 \item[(1)]方程式$ax=b$がただ1つの解をもつときの条件を述べよ．
 　また，この方程式が無数の解をもつときの条件および，解をもたないときの条件を述べよ．

@@ -3,6 +3,7 @@ title: "東北大学 1996年 1996_0_4"
 problem_id: "04_tohoku-1996-1996_0_4"
 university: "東北大学"
 exam_year: "1996"
+problem_number: 4
 source_tex: "archive/04_tohoku/1996/1996_0_4.tex"
 pdf_source: "archive/04_tohoku/1996/1996_0_4.pdf"
 page_image: "archive/04_tohoku/1996/1996_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　3次関数$f(x)=x^3-6ax^2+bx+1$は$x=a$において極大値をとるという．
+3次関数$f(x)=x^3-6ax^2+bx+1$は$x=a$において極大値をとるという．
 ただし，$a$は正の実数で$b$は実数とする．
 \begin{description}
 \item[(1)]$b$および極大値$f(a)$を$a$を用いて表せ．

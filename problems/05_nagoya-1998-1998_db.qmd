@@ -3,6 +3,7 @@ title: "名古屋大学 1998年 1998_db"
 problem_id: "05_nagoya-1998-1998_db"
 university: "名古屋大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/05_nagoya/1998/1998_db.tex"
 pdf_source: "archive/05_nagoya/1998/1998_db.pdf"
 page_image: "archive/05_nagoya/1998/1998_db.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (b)
-　点$P$の極座標$(r, \, \theta)$が次の極方程式を満たす．
+点$P$の極座標$(r, \, \theta)$が次の極方程式を満たす．
 \[ r=2\cos\theta+2\sin\theta \]
 　ここで，極方程式においては，$r$が負である極座標の点も考える．
 すなわち，$r>0$のとき，極座標$(-r, \, \theta)$は$(r, \, \theta+\pi)$と同じ点を表すものとする．

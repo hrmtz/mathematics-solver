@@ -3,6 +3,7 @@ title: "東京科学大学 1969年 1969_2"
 problem_id: "08_titech-1969-1969_2"
 university: "東京科学大学"
 exam_year: "1969"
+problem_number: 2
 source_tex: "archive/08_titech/1969/1969_2.tex"
 pdf_source: "archive/08_titech/1969/1969_2.pdf"
 page_image: "archive/08_titech/1969/1969_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　平面$P$上の3角形$ABC$が次の条件
+平面$P$上の3角形$ABC$が次の条件
 \[ \angle A=\frac{\pi}{3}, \hspace{1zw} AB=4, \hspace{1zw} AC=3 \]
 を満たしている．
 $A$を通り平面$P$に垂直な直線上で，$A$からの距離が5である点を$D$とする．

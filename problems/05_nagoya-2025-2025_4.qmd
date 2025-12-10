@@ -3,6 +3,7 @@ title: "名古屋大学 2025年 2025_4"
 problem_id: "05_nagoya-2025-2025_4"
 university: "名古屋大学"
 exam_year: "2025"
+problem_number: 4
 source_tex: "archive/05_nagoya/2025/2025_4.tex"
 pdf_source: "archive/05_nagoya/2025/2025_4.pdf"
 page_image: "archive/05_nagoya/2025/2025_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　コイン\ding{"AC}，…，\ding{"B1}が下図のようにマス目の中に置かれている。
+コイン\ding{"AC}，…，\ding{"B1}が下図のようにマス目の中に置かれている。
 
 
 ![](../archive/05_nagoya/2025/fig_2025_4.jpg)

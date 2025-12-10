@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_0_4"
 problem_id: "02_kyoto-1999-1999_0_4"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 4
 source_tex: "archive/02_kyoto/1999/1999_0_4.tex"
 pdf_source: "archive/02_kyoto/1999/1999_0_4.pdf"
 page_image: "archive/02_kyoto/1999/1999_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　相異なる4つの複素数$z_1$，$z_2$，$z_3$，$z_4$に対して
+相異なる4つの複素数$z_1$，$z_2$，$z_3$，$z_4$に対して
 $\displaystyle w=\frac{(z_1-z_3)(z_2-z_4)}{(z_1-z_4)(z_2-z_3)}$と置く．
 このとき，以下を証明せよ．
 \begin{description}

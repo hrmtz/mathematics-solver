@@ -3,6 +3,7 @@ title: "九州大学 1964年 1964_0_1"
 problem_id: "07_kyushu-1964-1964_0_1"
 university: "九州大学"
 exam_year: "1964"
+problem_number: 1
 source_tex: "archive/07_kyushu/1964/1964_0_1.tex"
 pdf_source: "archive/07_kyushu/1964/1964_0_1.pdf"
 page_image: "archive/07_kyushu/1964/1964_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$x$，$y$，$z$は実数であって，$x+y+z=3$，$xy+yz+zx=-9$とするとき，
+$x$，$y$，$z$は実数であって，$x+y+z=3$，$xy+yz+zx=-9$とするとき，
 $x$のとりうる値の範囲を調べよ。
 
 ---

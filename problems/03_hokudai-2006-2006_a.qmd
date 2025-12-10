@@ -3,6 +3,7 @@ title: "北海道大学 2006年 2006_a"
 problem_id: "03_hokudai-2006-2006_a"
 university: "北海道大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/03_hokudai/2006/2006_a.tex"
 pdf_source: "archive/03_hokudai/2006/2006_a.pdf"
 page_image: "archive/03_hokudai/2006/2006_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$a$を実数とし，関数$f(x)$を
+$a$を実数とし，関数$f(x)$を
 \[ f(x)=a(\sin x+\cos x)-\sin x\cos x \]
 によって定義する．ただし，$x$は実数全体を動くとする．
 \begin{description}

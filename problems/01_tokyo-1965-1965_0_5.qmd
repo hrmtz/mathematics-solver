@@ -3,6 +3,7 @@ title: "東京大学 1965年 1965_0_5"
 problem_id: "01_tokyo-1965-1965_0_5"
 university: "東京大学"
 exam_year: "1965"
+problem_number: 5
 source_tex: "archive/01_tokyo/1965/1965_0_5.tex"
 pdf_source: "archive/01_tokyo/1965/1965_0_5.pdf"
 page_image: "archive/01_tokyo/1965/1965_0_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　右の図のように，一平面上に半径の長さ1の円$O$と一辺の長さ4の正三角形$ABC$がある．
+右の図のように，一平面上に半径の長さ1の円$O$と一辺の長さ4の正三角形$ABC$がある．
 点$P$は円内の任意の点を動き，点$Q$は正三角形の周上を動くとする．
 　このとき線分$PQ$の中点$R$の動きうる範囲を図示し，その面積を求めよ．
 

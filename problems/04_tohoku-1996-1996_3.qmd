@@ -3,6 +3,7 @@ title: "東北大学 1996年 1996_3"
 problem_id: "04_tohoku-1996-1996_3"
 university: "東北大学"
 exam_year: "1996"
+problem_number: 3
 source_tex: "archive/04_tohoku/1996/1996_3.tex"
 pdf_source: "archive/04_tohoku/1996/1996_3.pdf"
 page_image: "archive/04_tohoku/1996/1996_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面の点$(0, \, 1)$を中心とする半径1の円を$C$とし，
+$xy$平面の点$(0, \, 1)$を中心とする半径1の円を$C$とし，
 第1象限にあって$x$軸と$C$に接する円$C_1$を考える．
 次に，$x$軸，$C$，$C_1$で囲まれた部分にあって，
 $x$軸とこれら2円に接する円を$C_2$とする．

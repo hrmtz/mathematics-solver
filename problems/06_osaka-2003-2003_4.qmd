@@ -3,6 +3,7 @@ title: "大阪大学 2003年 2003_4"
 problem_id: "06_osaka-2003-2003_4"
 university: "大阪大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/06_osaka/2003/2003_4.tex"
 pdf_source: "archive/06_osaka/2003/2003_4.pdf"
 page_image: "archive/06_osaka/2003/2003_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　数列$\{ a_k \}$が$a_k<a_{k+1}$ $(k=1, \, 2, \, \cdots\cdots)$
+数列$\{ a_k \}$が$a_k<a_{k+1}$ $(k=1, \, 2, \, \cdots\cdots)$
 および$a_{kl}=a_k+a_l$，$k=1, \, 2, \, \cdots\cdots$，$l=1, \, 2, \, \cdots\cdots$
 をみたすとする．
 \begin{description}

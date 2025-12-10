@@ -3,6 +3,7 @@ title: "京都大学 2001年 2001_e"
 problem_id: "02_kyoto-2001-2001_e"
 university: "京都大学"
 exam_year: "2001"
+problem_number: 5
 source_tex: "archive/02_kyoto/2001/2001_e.tex"
 pdf_source: "archive/02_kyoto/2001/2001_e.pdf"
 page_image: "archive/02_kyoto/2001/2001_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　行列$A=\begin{pmatrix} a & b 
+行列$A=\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$および実数$s$に対し，
 行列を用いて表された$x$，$y$に関する2つの連立一次方程式

@@ -3,6 +3,7 @@ title: "名古屋大学 1968年 1968_1"
 problem_id: "05_nagoya-1968-1968_1"
 university: "名古屋大学"
 exam_year: "1968"
+problem_number: 1
 source_tex: "archive/05_nagoya/1968/1968_1.tex"
 pdf_source: "archive/05_nagoya/1968/1968_1.pdf"
 page_image: "archive/05_nagoya/1968/1968_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　定点$(a, \, b)$を通るだ円$\displaystyle\frac{x^2}{p^2}+\frac{y^2}{q^2}=1$ $(p, \, q>0)$のうちで，
+定点$(a, \, b)$を通るだ円$\displaystyle\frac{x^2}{p^2}+\frac{y^2}{q^2}=1$ $(p, \, q>0)$のうちで，
 積$pq$の値が最小となるものを求めよ．
 ただし，$ab\neq0$とする．
 

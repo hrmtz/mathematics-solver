@@ -3,6 +3,7 @@ title: "名古屋大学 2018年 2018_4"
 problem_id: "05_nagoya-2018-2018_4"
 university: "名古屋大学"
 exam_year: "2018"
+problem_number: 4
 source_tex: "archive/05_nagoya/2018/2018_4.tex"
 pdf_source: "archive/05_nagoya/2018/2018_4.pdf"
 page_image: "archive/05_nagoya/2018/2018_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　図1のように2つの正方形ABCDとCDEFを並べた図形を考える。
+図1のように2つの正方形ABCDとCDEFを並べた図形を考える。
 2点P，Qが6個の頂点A，B，C，D，E，Fを以下の規則(a)，(b)に従って移動する。
 \begin{description}
 \item[(a)]時刻0では図2のように点Pは頂点Aに，点Qは頂点Cにいる。

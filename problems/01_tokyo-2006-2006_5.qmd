@@ -3,6 +3,7 @@ title: "東京大学 2006年 2006_5"
 problem_id: "01_tokyo-2006-2006_5"
 university: "東京大学"
 exam_year: "2006"
+problem_number: 5
 source_tex: "archive/01_tokyo/2006/2006_5.tex"
 pdf_source: "archive/01_tokyo/2006/2006_5.pdf"
 page_image: "archive/01_tokyo/2006/2006_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$\displaystyle a_1=\frac{1}{2}$とし，数列$\{ a_n \}$を漸化式$\displaystyle a_{n+1}=\frac{a_n}{(1+a_n)^2}$ $(n=1,2,3,\cdots)$によって定める．
+$\displaystyle a_1=\frac{1}{2}$とし，数列$\{ a_n \}$を漸化式$\displaystyle a_{n+1}=\frac{a_n}{(1+a_n)^2}$ $(n=1,2,3,\cdots)$によって定める．
 このとき，以下の問いに答えよ．
 \begin{description}
 \item[(1)]各$n=1,2,3,\cdots$に対し$\displaystyle b_n=\frac{1}{a_n}$とおく．

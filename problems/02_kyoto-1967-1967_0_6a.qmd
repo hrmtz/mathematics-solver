@@ -3,6 +3,7 @@ title: "京都大学 1967年 1967_0_6a"
 problem_id: "02_kyoto-1967-1967_0_6a"
 university: "京都大学"
 exam_year: "1967"
+problem_number: 6
 source_tex: "archive/02_kyoto/1967/1967_0_6a.tex"
 pdf_source: "archive/02_kyoto/1967/1967_0_6a.pdf"
 page_image: "archive/02_kyoto/1967/1967_0_6a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6 新
-　3人乗りのボートが2つある．
+3人乗りのボートが2つある．
 4人の人をそれらに分乗させるしかたが幾通りあるか．
 次のおのおのの場合に求めよ．
 \begin{description}

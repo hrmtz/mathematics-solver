@@ -3,6 +3,7 @@ title: "名古屋大学 2004年 2004_a"
 problem_id: "05_nagoya-2004-2004_a"
 university: "名古屋大学"
 exam_year: "2004"
+problem_number: 1
 source_tex: "archive/05_nagoya/2004/2004_a.tex"
 pdf_source: "archive/05_nagoya/2004/2004_a.pdf"
 page_image: "archive/05_nagoya/2004/2004_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標空間において，点$C(0, \, 0, \, 1)$を中心とする半径1の球面$S$
+座標空間において，点$C(0, \, 0, \, 1)$を中心とする半径1の球面$S$
 \[ x^2+y^2+{(z-1)}^2=1 \]
 を考える．
 点$C$と$S$上の点$P(x_1, \, y_1, \, z_1)$（ただし，$z_1\neq1$）を通る直線が

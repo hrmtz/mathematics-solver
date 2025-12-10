@@ -3,6 +3,7 @@ title: "東北大学 2008年 2008_a"
 problem_id: "04_tohoku-2008-2008_a"
 university: "東北大学"
 exam_year: "2008"
+problem_number: 1
 source_tex: "archive/04_tohoku/2008/2008_a.tex"
 pdf_source: "archive/04_tohoku/2008/2008_a.pdf"
 page_image: "archive/04_tohoku/2008/2008_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$\triangle OAB$は$OA=2$，$OB=1$をみたすとし，
+$\triangle OAB$は$OA=2$，$OB=1$をみたすとし，
 ベクトル$\overrightarrow{OA}$と$\overrightarrow{OB}$の内積を
 $\overrightarrow{OA}\cdot\overrightarrow{OB}=t$とおく．
 辺$AB$の中点を$M$，$\angle AOB$の二等分線と辺$AB$の交点を$C$，

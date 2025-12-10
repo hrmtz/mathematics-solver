@@ -3,6 +3,7 @@ title: "九州大学 2017年 2017_a"
 problem_id: "07_kyushu-2017-2017_a"
 university: "九州大学"
 exam_year: "2017"
+problem_number: 1
 source_tex: "archive/07_kyushu/2017/2017_a.tex"
 pdf_source: "archive/07_kyushu/2017/2017_a.pdf"
 page_image: "archive/07_kyushu/2017/2017_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　座標平面上の曲線$C:y=\sqrt{x}$ $(x\geqq0)$を考える。
+座標平面上の曲線$C:y=\sqrt{x}$ $(x\geqq0)$を考える。
 $C$上の異なる2点$P(p, \, \sqrt{p})$，$Q(q, \, \sqrt{q})$ $(p>0, \, q>0)$における，
 それぞれの法線$l_1$，$l_2$を考える。
 法線$l_1$と$l_2$の交点を$R$とする。

@@ -3,6 +3,7 @@ title: "東北大学 1966年 1966_4"
 problem_id: "04_tohoku-1966-1966_4"
 university: "東北大学"
 exam_year: "1966"
+problem_number: 4
 source_tex: "archive/04_tohoku/1966/1966_4.tex"
 pdf_source: "archive/04_tohoku/1966/1966_4.pdf"
 page_image: "archive/04_tohoku/1966/1966_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次の問いに答えよ．
+次の問いに答えよ．
 \begin{description}
 \item[(1)]$\displaystyle{\left( \frac{1+i}{\sqrt3+i} \right)}^{12}$を簡単にせよ．
 \item[(2)]${(1+x)}^n$（$n$は正の整数）の展開式の$x^8$，$x^9$，$x^{10}$の係数が

@@ -3,6 +3,7 @@ title: "名古屋大学 1981年 1981_0_3a"
 problem_id: "05_nagoya-1981-1981_0_3a"
 university: "名古屋大学"
 exam_year: "1981"
+problem_number: 3
 source_tex: "archive/05_nagoya/1981/1981_0_3a.tex"
 pdf_source: "archive/05_nagoya/1981/1981_0_3a.pdf"
 page_image: "archive/05_nagoya/1981/1981_0_3a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (a)
-　$n$を自然数とする．${10}^n$より小さい自然数$l$を，
+$n$を自然数とする．${10}^n$より小さい自然数$l$を，
 $\displaystyle l=\sum_{k=0}^{n-1}{10}^ka_k$（$a_k$は$0 \leqq a_k \leqq 9$なる整数）と表し，
 $\displaystyle s(l)=\sum_{k=0}^{n-1}a_k$とおく．
 このとき，$s(l)+s({10}^n-l)$ $(1 \leqq l \leqq {10}^n-1)$の最小値とそれを与える自然数$l$をすべて求めよ．

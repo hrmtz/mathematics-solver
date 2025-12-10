@@ -3,6 +3,7 @@ title: "大阪大学 1993年 1993_c"
 problem_id: "06_osaka-1993-1993_c"
 university: "大阪大学"
 exam_year: "1993"
+problem_number: 3
 source_tex: "archive/06_osaka/1993/1993_c.tex"
 pdf_source: "archive/06_osaka/1993/1993_c.pdf"
 page_image: "archive/06_osaka/1993/1993_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　2つの曲線
+2つの曲線
 \[ C_1:y=f(x) \hspace{1zw} (x>0), \hspace{1zw} C_2:y=g(x) \hspace{1zw} (x>0) \]
 は，次の3条件（イ），（ロ），（ハ）を満たすものとする．
 \begin{description}

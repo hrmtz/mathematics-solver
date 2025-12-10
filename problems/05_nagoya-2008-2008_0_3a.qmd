@@ -3,6 +3,7 @@ title: "名古屋大学 2008年 2008_0_3a"
 problem_id: "05_nagoya-2008-2008_0_3a"
 university: "名古屋大学"
 exam_year: "2008"
+problem_number: 3
 source_tex: "archive/05_nagoya/2008/2008_0_3a.tex"
 pdf_source: "archive/05_nagoya/2008/2008_0_3a.pdf"
 page_image: "archive/05_nagoya/2008/2008_0_3a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3 (a)
-　次の問に答えよ．
+次の問に答えよ．
 \begin{description}
 \item[(1)]$3x+2y\leqq8$を満たす0以上の整数の組$(x, \, y)$の個数を求めよ．
 \item[(2)]$3x+2y\leqq2008$を満たす0以上の整数の組$(x, \, y)$の個数を求めよ．

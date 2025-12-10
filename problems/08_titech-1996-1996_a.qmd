@@ -3,6 +3,7 @@ title: "東京科学大学 1996年 1996_a"
 problem_id: "08_titech-1996-1996_a"
 university: "東京科学大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/08_titech/1996/1996_a.tex"
 pdf_source: "archive/08_titech/1996/1996_a.pdf"
 page_image: "archive/08_titech/1996/1996_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　円$C:x^2+y^2=1$上の2点$P(1,0)$と$Q(\cos\theta,\sin\theta)$を通り円$C$と直交する円を$C_\theta$とする．
+円$C:x^2+y^2=1$上の2点$P(1,0)$と$Q(\cos\theta,\sin\theta)$を通り円$C$と直交する円を$C_\theta$とする．
 ただし，円$C$と$C_\theta$が直交するとは交点におけるそれぞれの接線が直交することをいう．
 このとき次の問いに答えよ．
 \begin{description}

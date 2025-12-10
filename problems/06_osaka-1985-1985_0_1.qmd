@@ -3,6 +3,7 @@ title: "大阪大学 1985年 1985_0_1"
 problem_id: "06_osaka-1985-1985_0_1"
 university: "大阪大学"
 exam_year: "1985"
+problem_number: 1
 source_tex: "archive/06_osaka/1985/1985_0_1.tex"
 pdf_source: "archive/06_osaka/1985/1985_0_1.pdf"
 page_image: "archive/06_osaka/1985/1985_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$k$を正数とし，$f(x)=x^3-10x^2+kx$とする．
+$k$を正数とし，$f(x)=x^3-10x^2+kx$とする．
 \begin{description}
 \item[(1)]方程式$f(x)=0$が3個の実数解をもち，
 それらの解が互いに1以上離れているための$k$の条件を求めよ．

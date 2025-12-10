@@ -3,6 +3,7 @@ title: "東京大学 1974年 1974_4"
 problem_id: "01_tokyo-1974-1974_4"
 university: "東京大学"
 exam_year: "1974"
+problem_number: 4
 source_tex: "archive/01_tokyo/1974/1974_4.tex"
 pdf_source: "archive/01_tokyo/1974/1974_4.pdf"
 page_image: "archive/01_tokyo/1974/1974_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　二つの関数$f(x)$，$g(x)$が次の性質1)，2)，3)，4)を持つものとする．
+二つの関数$f(x)$，$g(x)$が次の性質1)，2)，3)，4)を持つものとする．
 \begin{description}
 \item[1)]$f(x)$，$g(x)$は$x=0$において微分可能．
 \item[2)]$f(0)=g(0)=0$．

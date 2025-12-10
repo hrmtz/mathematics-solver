@@ -3,6 +3,7 @@ title: "東京科学大学 1996年 1996_1"
 problem_id: "08_titech-1996-1996_1"
 university: "東京科学大学"
 exam_year: "1996"
+problem_number: 1
 source_tex: "archive/08_titech/1996/1996_1.tex"
 pdf_source: "archive/08_titech/1996/1996_1.pdf"
 page_image: "archive/08_titech/1996/1996_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　2以上の整数$n$に対して方程式
+2以上の整数$n$に対して方程式
 \[ x_1+x_2+\cdots+x_n=x_1 x_2 \cdots x_n \]
 の正の整数解$(x_1,x_2,\cdots\cdots,x_n)$を考える．
 ただし，たとえば$(1,2,3)$と$(3,2,1)$は異なる解とみなす．

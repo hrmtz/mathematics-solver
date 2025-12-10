@@ -3,6 +3,7 @@ title: "東京科学大学 ao年 2008_c"
 problem_id: "08_titech-ao-2008_c"
 university: "東京科学大学"
 exam_year: "ao"
+problem_number: 3
 source_tex: "archive/08_titech/ao/2008_c.tex"
 pdf_source: "archive/08_titech/ao/2008_c.pdf"
 page_image: "archive/08_titech/ao/2008_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　正4面体を，底面に平行な$(n-1)$枚の平面で高さを$n$等分するように切る．
+正4面体を，底面に平行な$(n-1)$枚の平面で高さを$n$等分するように切る．
 残りの面に関しても同様に切ると正4面体は幾つの部分に分かれるか．
 個数を求めよ．
 

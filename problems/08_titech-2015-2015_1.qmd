@@ -3,6 +3,7 @@ title: "東京科学大学 2015年 2015_1"
 problem_id: "08_titech-2015-2015_1"
 university: "東京科学大学"
 exam_year: "2015"
+problem_number: 1
 source_tex: "archive/08_titech/2015/2015_1.tex"
 pdf_source: "archive/08_titech/2015/2015_1.pdf"
 page_image: "archive/08_titech/2015/2015_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　数列$\{ a_n \}$を
+数列$\{ a_n \}$を
 \[ a_1=5, \hspace{1zw} a_{n+1}=\frac{4a_n-9}{a_n-2} \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]
 で定める．また数列$\{ b_n \}$を
 \[ b_n=\frac{a_1+2a_2+\cdots+na_n}{1+2+\cdots+n} \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots) \]

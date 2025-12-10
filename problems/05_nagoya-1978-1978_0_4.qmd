@@ -3,6 +3,7 @@ title: "名古屋大学 1978年 1978_0_4"
 problem_id: "05_nagoya-1978-1978_0_4"
 university: "名古屋大学"
 exam_year: "1978"
+problem_number: 4
 source_tex: "archive/05_nagoya/1978/1978_0_4.tex"
 pdf_source: "archive/05_nagoya/1978/1978_0_4.pdf"
 page_image: "archive/05_nagoya/1978/1978_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　放物線$\displaystyle y=-\frac{1}{3}x^2$を，その頂点がいつも放物線$y=x^2$の上にあるように平行移動させる．
+放物線$\displaystyle y=-\frac{1}{3}x^2$を，その頂点がいつも放物線$y=x^2$の上にあるように平行移動させる．
 こうして得られるどの放物線も通らない範囲を求め，図示せよ．
 
 ---

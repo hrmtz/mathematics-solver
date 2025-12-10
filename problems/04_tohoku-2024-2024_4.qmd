@@ -3,6 +3,7 @@ title: "東北大学 2024年 2024_4"
 problem_id: "04_tohoku-2024-2024_4"
 university: "東北大学"
 exam_year: "2024"
+problem_number: 4
 source_tex: "archive/04_tohoku/2024/2024_4.tex"
 pdf_source: "archive/04_tohoku/2024/2024_4.pdf"
 page_image: "archive/04_tohoku/2024/2024_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xyz$空間において，点$P_1(3, \, -1, \, 1)$を中心とし半径が$\sqrt5$の球面$S_1$と，
+$xyz$空間において，点$P_1(3, \, -1, \, 1)$を中心とし半径が$\sqrt5$の球面$S_1$と，
 点$P_2(5, \, 0, \, -1)$を中心とし半径が$\sqrt2$の球面$S_2$を考える。
 \begin{description}
 \item[(1)]線分$P_1P_2$の長さを求めよ。

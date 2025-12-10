@@ -3,6 +3,7 @@ title: "東京科学大学 2006年 2006_2"
 problem_id: "08_titech-2006-2006_2"
 university: "東京科学大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/08_titech/2006/2006_2.tex"
 pdf_source: "archive/08_titech/2006/2006_2.pdf"
 page_image: "archive/08_titech/2006/2006_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　以下の問いに答えよ．
+以下の問いに答えよ．
 \begin{description}
 \item[(1)]$a$，$b$を正の定数とし，$\displaystyle g(t)=\frac{1}{b}t^b-\log t$とおく．
 $t>0$における関数$g(t)$の増減を調べ極値を求めよ．

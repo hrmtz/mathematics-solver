@@ -3,6 +3,7 @@ title: "東北大学 2002年 2002_1"
 problem_id: "04_tohoku-2002-2002_1"
 university: "東北大学"
 exam_year: "2002"
+problem_number: 1
 source_tex: "archive/04_tohoku/2002/2002_1.tex"
 pdf_source: "archive/04_tohoku/2002/2002_1.pdf"
 page_image: "archive/04_tohoku/2002/2002_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$は実数であり，
+$a$，$b$は実数であり，
 方程式$x^4+(a+2)x^3-(2a+2)x^2+(b+1)x+a^3=0$が解$x=1+i$をもつとする．
 ただし，$i=\sqrt{-1}$とする．
 このとき，$a$，$b$を求めよ．

@@ -3,6 +3,7 @@ title: "京都大学 2025年 2025_3"
 problem_id: "02_kyoto-2025-2025_3"
 university: "京都大学"
 exam_year: "2025"
+problem_number: 3
 source_tex: "archive/02_kyoto/2025/2025_3.tex"
 pdf_source: "archive/02_kyoto/2025/2025_3.pdf"
 page_image: "archive/02_kyoto/2025/2025_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$e$は自然対数の底とする．
+$e$は自然対数の底とする．
 $\displaystyle x>\frac{1}{\sqrt{e}}$において定義された次の関数$f(x), \, g(x)$を考える．
 \[ f(x)=x^2\log x \]
 \[ g(x)=x^2\log x-\frac{1}{1+2\log x} \]

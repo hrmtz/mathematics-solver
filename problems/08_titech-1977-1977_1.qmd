@@ -3,6 +3,7 @@ title: "東京科学大学 1977年 1977_1"
 problem_id: "08_titech-1977-1977_1"
 university: "東京科学大学"
 exam_year: "1977"
+problem_number: 1
 source_tex: "archive/08_titech/1977/1977_1.tex"
 pdf_source: "archive/08_titech/1977/1977_1.pdf"
 page_image: "archive/08_titech/1977/1977_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　原点を中心とする半径$r$ $(0<r<1)$の円$C$と，
+原点を中心とする半径$r$ $(0<r<1)$の円$C$と，
 原点を中心とする半径1の円$D$が与えられている．
 $D$上の点$(1, \, 0)$から接点の$y$座標が正となるように$C$に接線$l$を引き，
 $l$が$D$と再び交わる点を$P$とする．

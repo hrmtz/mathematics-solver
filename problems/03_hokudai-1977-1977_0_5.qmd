@@ -3,6 +3,7 @@ title: "北海道大学 1977年 1977_0_5"
 problem_id: "03_hokudai-1977-1977_0_5"
 university: "北海道大学"
 exam_year: "1977"
+problem_number: 5
 source_tex: "archive/03_hokudai/1977/1977_0_5.tex"
 pdf_source: "archive/03_hokudai/1977/1977_0_5.pdf"
 page_image: "archive/03_hokudai/1977/1977_0_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$x>1$，$y>1$であるような$x$，$y$に対して$d(x, \, y)=\log_a(\log_xy)$とおく．
+$x>1$，$y>1$であるような$x$，$y$に対して$d(x, \, y)=\log_a(\log_xy)$とおく．
 ただし，$a>0$，$a\neq1$とする．
 \begin{description}
 \item[(1)]$d(y, \, x)$，$d(x^p, \, y^q)$ $(p>0, \, q>0)$を$d(x, \, y)$を用いて表せ．

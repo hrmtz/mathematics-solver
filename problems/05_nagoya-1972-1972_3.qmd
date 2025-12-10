@@ -3,6 +3,7 @@ title: "名古屋大学 1972年 1972_3"
 problem_id: "05_nagoya-1972-1972_3"
 university: "名古屋大学"
 exam_year: "1972"
+problem_number: 3
 source_tex: "archive/05_nagoya/1972/1972_3.tex"
 pdf_source: "archive/05_nagoya/1972/1972_3.pdf"
 page_image: "archive/05_nagoya/1972/1972_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　次の数列$a_1, \, a_2, \, \cdots\cdots, \, a_n, \, \cdots\cdots$の収束，発散を調べ，
+次の数列$a_1, \, a_2, \, \cdots\cdots, \, a_n, \, \cdots\cdots$の収束，発散を調べ，
 解答欄の表に番号を記入せよ．
 またその理由を述べよ．
 \begin{description}

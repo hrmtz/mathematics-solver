@@ -3,6 +3,7 @@ title: "九州大学 1961年 1961_0_6"
 problem_id: "07_kyushu-1961-1961_0_6"
 university: "九州大学"
 exam_year: "1961"
+problem_number: 6
 source_tex: "archive/07_kyushu/1961/1961_0_6.tex"
 pdf_source: "archive/07_kyushu/1961/1961_0_6.pdf"
 page_image: "archive/07_kyushu/1961/1961_0_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　三角形$ABC$において次の不等式が成り立つことを示せ。
+三角形$ABC$において次の不等式が成り立つことを示せ。
 \[ \sin\frac{A}{2}\sin\frac{B}{2}\sin\frac{C}{2}<\frac{1}{4} \]
 
 ---

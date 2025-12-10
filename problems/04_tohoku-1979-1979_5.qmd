@@ -3,6 +3,7 @@ title: "東北大学 1979年 1979_5"
 problem_id: "04_tohoku-1979-1979_5"
 university: "東北大学"
 exam_year: "1979"
+problem_number: 5
 source_tex: "archive/04_tohoku/1979/1979_5.tex"
 pdf_source: "archive/04_tohoku/1979/1979_5.pdf"
 page_image: "archive/04_tohoku/1979/1979_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$f(x)=\tan x$とする．
+$f(x)=\tan x$とする．
 \[ f(\alpha)+f(\beta)+f(\gamma)=0, \hspace{1zw}
 f'(\alpha)+f'(\beta)+f'(\gamma)=9, \hspace{1zw}
 f''(\alpha)+f''(\beta)+f''(\gamma)=0 \]

@@ -3,6 +3,7 @@ title: "京都大学 2010年 2010b_5"
 problem_id: "02_kyoto-2010-2010b_5"
 university: "京都大学"
 exam_year: "2010"
+problem_number: 5
 source_tex: "archive/02_kyoto/2010/2010b_5.tex"
 pdf_source: "archive/02_kyoto/2010/2010b_5.pdf"
 page_image: "archive/02_kyoto/2010/2010b_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　次の問に答えよ．
+次の問に答えよ．
 \begin{description}
 \item[(1)]$n$を正の整数，$a=2^n$とする．
 $3^a-1$は$2^{n+2}$で割り切れるが$2^{n+3}$では割り切れないことを示せ．

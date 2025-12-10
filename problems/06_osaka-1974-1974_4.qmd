@@ -3,6 +3,7 @@ title: "大阪大学 1974年 1974_4"
 problem_id: "06_osaka-1974-1974_4"
 university: "大阪大学"
 exam_year: "1974"
+problem_number: 4
 source_tex: "archive/06_osaka/1974/1974_4.tex"
 pdf_source: "archive/06_osaka/1974/1974_4.pdf"
 page_image: "archive/06_osaka/1974/1974_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　ある区間で定義され第2次導関数をもつ関数$f(x)$が与えられたとき，
+ある区間で定義され第2次導関数をもつ関数$f(x)$が与えられたとき，
 この区間内の2点$a$，$b$ $(a<b)$に対し
 $\displaystyle S=\frac{b-a}{2}\{ f'(a)+f'(b) \}-\{ f(b)-f(a) \}$とおく．
 \begin{description}

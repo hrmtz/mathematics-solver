@@ -3,6 +3,7 @@ title: "東京大学 1976年 1976_4"
 problem_id: "01_tokyo-1976-1976_4"
 university: "東京大学"
 exam_year: "1976"
+problem_number: 4
 source_tex: "archive/01_tokyo/1976/1976_4.tex"
 pdf_source: "archive/01_tokyo/1976/1976_4.pdf"
 page_image: "archive/01_tokyo/1976/1976_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$0<t<1$であるような$t$のおのおのの値に対して，
+$0<t<1$であるような$t$のおのおのの値に対して，
 $x$の関数$\displaystyle f(x)=\frac{x+t}{x(1-tx)}$を考える．
 \begin{description}
 \item[(i)]区間$0<x<1$において$f(x)$の最小値を与える$x$の値$\alpha$は$t$に関係して定まる数である．

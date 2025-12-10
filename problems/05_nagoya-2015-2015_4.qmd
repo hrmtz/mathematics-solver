@@ -3,6 +3,7 @@ title: "名古屋大学 2015年 2015_4"
 problem_id: "05_nagoya-2015-2015_4"
 university: "名古屋大学"
 exam_year: "2015"
+problem_number: 4
 source_tex: "archive/05_nagoya/2015/2015_4.tex"
 pdf_source: "archive/05_nagoya/2015/2015_4.pdf"
 page_image: "archive/05_nagoya/2015/2015_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　数直線上にある$1, \, 2, \, 3, \, 4, \, 5$の5つの点と1つの石を考える。石がいずれかの点にあるとき，
+数直線上にある$1, \, 2, \, 3, \, 4, \, 5$の5つの点と1つの石を考える。石がいずれかの点にあるとき，
 \begin{description}
 \item[]石が点1にあるならば，確率1で点2に移動する
 \item[]石が点$k$ $(k=2, \, 3, \, 4)$にあるならば，

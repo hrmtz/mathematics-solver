@@ -3,6 +3,7 @@ title: "名古屋大学 2000年 2000_d"
 problem_id: "05_nagoya-2000-2000_d"
 university: "名古屋大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/05_nagoya/2000/2000_d.tex"
 pdf_source: "archive/05_nagoya/2000/2000_d.pdf"
 page_image: "archive/05_nagoya/2000/2000_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　あるトーナメント形式（注）の競技大会に，$2^n$人の選手が参加し，
+あるトーナメント形式（注）の競技大会に，$2^n$人の選手が参加し，
 そのうち$2^m$人は強い選手であり，残りは弱い選手であるとする．
 ただし，$n$，$m$は自然数であり$n>m$とする．
 強い選手同士は$(n-m)$回戦が終わるまでは対戦することがないように，

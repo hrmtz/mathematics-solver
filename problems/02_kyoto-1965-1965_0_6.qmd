@@ -3,6 +3,7 @@ title: "京都大学 1965年 1965_0_6"
 problem_id: "02_kyoto-1965-1965_0_6"
 university: "京都大学"
 exam_year: "1965"
+problem_number: 6
 source_tex: "archive/02_kyoto/1965/1965_0_6.tex"
 pdf_source: "archive/02_kyoto/1965/1965_0_6.pdf"
 page_image: "archive/02_kyoto/1965/1965_0_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$x$，$y$，$z$にどんな実数値を与えても，つねに不等式
+$x$，$y$，$z$にどんな実数値を与えても，つねに不等式
 \[ ax^2+2ay^2+z^2-xy-yz-zx\geqq0 \]
 が成立するような実数$a$の範囲を求めよ．
 

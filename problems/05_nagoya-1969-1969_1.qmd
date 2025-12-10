@@ -3,6 +3,7 @@ title: "名古屋大学 1969年 1969_1"
 problem_id: "05_nagoya-1969-1969_1"
 university: "名古屋大学"
 exam_year: "1969"
+problem_number: 1
 source_tex: "archive/05_nagoya/1969/1969_1.tex"
 pdf_source: "archive/05_nagoya/1969/1969_1.pdf"
 page_image: "archive/05_nagoya/1969/1969_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　2点$P$，$Q$が平面上を運動している．
+2点$P$，$Q$が平面上を運動している．
 時刻$t$における$P$の座標は$(\cos t, \, \sin t)$，$Q$の座標は$(at, \, bt)$である．
 $a$，$b$は正の定数であって，
 $\displaystyle a^2+b^2>\frac{4}{{\pi}^2}$

@@ -3,6 +3,7 @@ title: "九州大学 2010年 2010_b"
 problem_id: "07_kyushu-2010-2010_b"
 university: "九州大学"
 exam_year: "2010"
+problem_number: 2
 source_tex: "archive/07_kyushu/2010/2010_b.tex"
 pdf_source: "archive/07_kyushu/2010/2010_b.pdf"
 page_image: "archive/07_kyushu/2010/2010_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　鋭角三角形$ABC$において，$\overrightarrow{a}=\overrightarrow{CA}$，
+鋭角三角形$ABC$において，$\overrightarrow{a}=\overrightarrow{CA}$，
 $\overrightarrow{b}=\overrightarrow{CB}$とする．以下の問いに答えよ．
 \begin{description}
 \item[(1)]線分$AC$を$1:2$に内分する点を$P$，線分$BC$を$2:3$に内分する点を$Q$とする．

@@ -31,6 +31,11 @@ dist/
 uploads/
 output/
 
+# アーカイブフォルダ内の一時・生成物
+archive/*.7z
+archive/**/*.aux
+archive/**/*.dvi
+archive/**/*.tex
 # Docker / Compose 一時ファイル
 *.pid
 output/*

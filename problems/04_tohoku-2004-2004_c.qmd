@@ -3,6 +3,7 @@ title: "東北大学 2004年 2004_c"
 problem_id: "04_tohoku-2004-2004_c"
 university: "東北大学"
 exam_year: "2004"
+problem_number: 3
 source_tex: "archive/04_tohoku/2004/2004_c.tex"
 pdf_source: "archive/04_tohoku/2004/2004_c.pdf"
 page_image: "archive/04_tohoku/2004/2004_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$x$の方程式$|a\sin x+\cos2x|=2$が解をもつような実数$a$の範囲を求めよ．
+$x$の方程式$|a\sin x+\cos2x|=2$が解をもつような実数$a$の範囲を求めよ．
 
 ---
 

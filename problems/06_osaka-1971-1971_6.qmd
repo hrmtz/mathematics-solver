@@ -3,6 +3,7 @@ title: "大阪大学 1971年 1971_6"
 problem_id: "06_osaka-1971-1971_6"
 university: "大阪大学"
 exam_year: "1971"
+problem_number: 6
 source_tex: "archive/06_osaka/1971/1971_6.tex"
 pdf_source: "archive/06_osaka/1971/1971_6.pdf"
 page_image: "archive/06_osaka/1971/1971_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　正の実数$\alpha$，$\beta$が$\alpha+\beta=1$を満たすとする．
+正の実数$\alpha$，$\beta$が$\alpha+\beta=1$を満たすとする．
 \begin{description}
 \item[(1)]$\displaystyle\frac{1}{\alpha\beta}$がとる値の範囲を求めよ．
 \item[(2)]$c$を定数とするとき，

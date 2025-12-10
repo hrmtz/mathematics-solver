@@ -3,6 +3,7 @@ title: "九州大学 2017年 2017_0_3"
 problem_id: "07_kyushu-2017-2017_0_3"
 university: "九州大学"
 exam_year: "2017"
+problem_number: 3
 source_tex: "archive/07_kyushu/2017/2017_0_3.tex"
 pdf_source: "archive/07_kyushu/2017/2017_0_3.pdf"
 page_image: "archive/07_kyushu/2017/2017_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　AとBの2人がA，B，A，B，$\cdots$の順にさいころを投げ，
+AとBの2人がA，B，A，B，$\cdots$の順にさいころを投げ，
 先に3以上の目を出した人を勝者として勝敗を決め，さいころ投げを終える。
 以下では，さいころを投げた回数とはAとBが投げた回数の和のこととする。
 2と3の常用対数を$\log_{10}2=0.301$，$\log_{10}3=0.477$として，以下の問いに答えよ。

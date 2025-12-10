@@ -3,6 +3,7 @@ title: "九州大学 2014年 2014_4"
 problem_id: "07_kyushu-2014-2014_4"
 university: "九州大学"
 exam_year: "2014"
+problem_number: 4
 source_tex: "archive/07_kyushu/2014/2014_4.tex"
 pdf_source: "archive/07_kyushu/2014/2014_4.pdf"
 page_image: "archive/07_kyushu/2014/2014_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　Aさんは5円硬貨を3枚，Bさんは5円硬貨を1枚と10円硬貨を1枚持っている。
+Aさんは5円硬貨を3枚，Bさんは5円硬貨を1枚と10円硬貨を1枚持っている。
 2人は自分が持っている硬貨すべてを一度に投げる。
 それぞれが投げた硬貨のうち表が出た硬貨の合計金額が多い方を勝ちとする。
 勝者は相手の裏が出た硬貨をすべてもらう。

@@ -3,6 +3,7 @@ title: "京都大学 1991年 1991_0_5"
 problem_id: "02_kyoto-1991-1991_0_5"
 university: "京都大学"
 exam_year: "1991"
+problem_number: 5
 source_tex: "archive/02_kyoto/1991/1991_0_5.tex"
 pdf_source: "archive/02_kyoto/1991/1991_0_5.pdf"
 page_image: "archive/02_kyoto/1991/1991_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　袋の中に$N$個の白玉と2個の赤玉がある．
+袋の中に$N$個の白玉と2個の赤玉がある．
 「袋の中の$(N+2)$個の玉から無作為に1個を取り出し，つぎに(外部にある)白玉を1個袋に入れる」という試行をくり返す．
 \begin{description}
 \item[●]$n$回目の試行で赤玉をとり出す確率を$P_n$とする．

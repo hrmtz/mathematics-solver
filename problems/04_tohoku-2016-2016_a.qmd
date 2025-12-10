@@ -3,6 +3,7 @@ title: "東北大学 2016年 2016_a"
 problem_id: "04_tohoku-2016-2016_a"
 university: "東北大学"
 exam_year: "2016"
+problem_number: 1
 source_tex: "archive/04_tohoku/2016/2016_a.tex"
 pdf_source: "archive/04_tohoku/2016/2016_a.pdf"
 page_image: "archive/04_tohoku/2016/2016_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　平面上の点$O$を中心とする半径1の円周上に相異なる$n$個の点$A_1, \, \cdots, \, A_n$があって，
+平面上の点$O$を中心とする半径1の円周上に相異なる$n$個の点$A_1, \, \cdots, \, A_n$があって，
 各$j$ $(j=1, \, \cdots, \, n)$に対して
 \[ \overrightarrow{OA_j}=\overrightarrow{OA_k}+\overrightarrow{OA_l} \]
 を満たす$k$，$l$が存在するとする。

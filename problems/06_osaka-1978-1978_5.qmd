@@ -3,6 +3,7 @@ title: "大阪大学 1978年 1978_5"
 problem_id: "06_osaka-1978-1978_5"
 university: "大阪大学"
 exam_year: "1978"
+problem_number: 5
 source_tex: "archive/06_osaka/1978/1978_5.tex"
 pdf_source: "archive/06_osaka/1978/1978_5.pdf"
 page_image: "archive/06_osaka/1978/1978_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　曲線$C_n:y=f_n(x)$ $(n=1, \, 2, \, \cdots\cdots)$は，
+曲線$C_n:y=f_n(x)$ $(n=1, \, 2, \, \cdots\cdots)$は，
 $x>0$で$f_n(x)>0$，$f_n(0)=0$，$x<0$で$f_n(x)<0$で，
 $C_n$上の動点$P_n(x, \, f_n(x))$における$C_n$の法線
 （$P_n$を通り，$P_n$における$C_n$の接線に垂直な直線）

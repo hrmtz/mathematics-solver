@@ -3,6 +3,7 @@ title: "大阪大学 1987年 1987_2"
 problem_id: "06_osaka-1987-1987_2"
 university: "大阪大学"
 exam_year: "1987"
+problem_number: 2
 source_tex: "archive/06_osaka/1987/1987_2.tex"
 pdf_source: "archive/06_osaka/1987/1987_2.pdf"
 page_image: "archive/06_osaka/1987/1987_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標平面上に，点$A(p\sin\theta, \, p\cos\theta)$と
+座標平面上に，点$A(p\sin\theta, \, p\cos\theta)$と
 直線$l:x\sin\theta+y\cos\theta+p=0$が与えられたとき，
 $A$までの距離と，$l$までの距離が等しいような点$P$の軌跡を$C$とする．
 ただし，$p>0$，$\displaystyle0<\theta<\frac{\pi}{2}$である．

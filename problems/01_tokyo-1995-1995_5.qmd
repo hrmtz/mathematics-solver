@@ -3,6 +3,7 @@ title: "東京大学 1995年 1995_5"
 problem_id: "01_tokyo-1995-1995_5"
 university: "東京大学"
 exam_year: "1995"
+problem_number: 5
 source_tex: "archive/01_tokyo/1995/1995_5.tex"
 pdf_source: "archive/01_tokyo/1995/1995_5.pdf"
 page_image: "archive/01_tokyo/1995/1995_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　サイコロを$n$回投げて，
+サイコロを$n$回投げて，
 $xy$平面上の点$P_0,P_1,\cdots,P_n$を
 次の規則(a)，(b)によって定める．
 \begin{description}

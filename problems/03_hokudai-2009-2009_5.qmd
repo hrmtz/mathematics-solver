@@ -3,6 +3,7 @@ title: "北海道大学 2009年 2009_5"
 problem_id: "03_hokudai-2009-2009_5"
 university: "北海道大学"
 exam_year: "2009"
+problem_number: 5
 source_tex: "archive/03_hokudai/2009/2009_5.tex"
 pdf_source: "archive/03_hokudai/2009/2009_5.pdf"
 page_image: "archive/03_hokudai/2009/2009_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　自然数$n$に対して
+自然数$n$に対して
 $\displaystyle a_n=\int_0^{\displaystyle \frac{\pi}{4}}{(\tan x)}^{2n}dx$とおく．
 このとき，以下の問いに答えよ．
 \begin{description}

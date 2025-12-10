@@ -3,6 +3,7 @@ title: "名古屋大学 1985年 1985_0_2"
 problem_id: "05_nagoya-1985-1985_0_2"
 university: "名古屋大学"
 exam_year: "1985"
+problem_number: 2
 source_tex: "archive/05_nagoya/1985/1985_0_2.tex"
 pdf_source: "archive/05_nagoya/1985/1985_0_2.pdf"
 page_image: "archive/05_nagoya/1985/1985_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　サイコロを$m$回投げたとき少なくとも1回偶数の目が出る確率を$p$とおく．
+サイコロを$m$回投げたとき少なくとも1回偶数の目が出る確率を$p$とおく．
 $n$回投げたとき6の目が少なくとも1回出る確率を$p$以上にするには，
 $\displaystyle\frac{n}{m}$をどのようにとればよいか．
 $\log_{10}2=0.3010$，$\log_{10}3=0.4771$として計算し，

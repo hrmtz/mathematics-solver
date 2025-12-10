@@ -3,6 +3,7 @@ title: "北海道大学 2018年 2018_4"
 problem_id: "03_hokudai-2018-2018_4"
 university: "北海道大学"
 exam_year: "2018"
+problem_number: 4
 source_tex: "archive/03_hokudai/2018/2018_4.tex"
 pdf_source: "archive/03_hokudai/2018/2018_4.pdf"
 page_image: "archive/03_hokudai/2018/2018_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　座標平面上に3点$O(0, \, 0)$，$\displaystyle A(\frac{15}{2}, \, 0)$，
+座標平面上に3点$O(0, \, 0)$，$\displaystyle A(\frac{15}{2}, \, 0)$，
 $B(11, \, 11)$がある。条件
 \[ BQ \geqq OQ \geqq 2AQ \]
 を満たす点$Q(x, \, y)$の全体を$D$とする。

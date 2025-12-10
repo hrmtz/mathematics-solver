@@ -3,6 +3,7 @@ title: "九州大学 1976年 1976_5"
 problem_id: "07_kyushu-1976-1976_5"
 university: "九州大学"
 exam_year: "1976"
+problem_number: 5
 source_tex: "archive/07_kyushu/1976/1976_5.tex"
 pdf_source: "archive/07_kyushu/1976/1976_5.pdf"
 page_image: "archive/07_kyushu/1976/1976_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　1次関数$f(x)$は$\displaystyle f(x)=x+\pi\int_0^1f(t)\sin2\pi tdt$を満たす．
+1次関数$f(x)$は$\displaystyle f(x)=x+\pi\int_0^1f(t)\sin2\pi tdt$を満たす．
 このとき，次の問に答えよ．
 \begin{description}
 \item[(1)]$f(x)$を求めよ．

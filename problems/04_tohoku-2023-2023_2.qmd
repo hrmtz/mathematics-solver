@@ -3,6 +3,7 @@ title: "東北大学 2023年 2023_2"
 problem_id: "04_tohoku-2023-2023_2"
 university: "東北大学"
 exam_year: "2023"
+problem_number: 2
 source_tex: "archive/04_tohoku/2023/2023_2.tex"
 pdf_source: "archive/04_tohoku/2023/2023_2.pdf"
 page_image: "archive/04_tohoku/2023/2023_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　関数$f(x)=\sin3x+\sin x$について，以下の問いに答えよ。
+関数$f(x)=\sin3x+\sin x$について，以下の問いに答えよ。
 \begin{description}
 \item[(1)]$f(x)=0$を満たす正の実数$x$のうち，最小のものを求めよ。
 \item[(2)]正の整数$m$に対して，$f(x)=0$を満たす正の実数$x$のうち，$m$以下のものの個数を$p(m)$とする。

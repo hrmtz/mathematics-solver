@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_2"
 problem_id: "04_tohoku-1999-1999_2"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 2
 source_tex: "archive/04_tohoku/1999/1999_2.tex"
 pdf_source: "archive/04_tohoku/1999/1999_2.pdf"
 page_image: "archive/04_tohoku/1999/1999_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　空間の点$(10, \, 0, \, 0)$を中心とする半径9の球面を$S_1$とし，
+空間の点$(10, \, 0, \, 0)$を中心とする半径9の球面を$S_1$とし，
 点$(0, \, 10, \, 0)$を中心とする半径8の球面を$S_2$とする．
 $S_1$と$S_2$に接し原点を通る直線の長さ1の方向ベクトル$(a, \, b, \, c)$ $(c\geqq0)$をすべて求めよ．
 

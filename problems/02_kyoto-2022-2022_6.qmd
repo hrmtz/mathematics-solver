@@ -3,6 +3,7 @@ title: "京都大学 2022年 2022_6"
 problem_id: "02_kyoto-2022-2022_6"
 university: "京都大学"
 exam_year: "2022"
+problem_number: 6
 source_tex: "archive/02_kyoto/2022/2022_6.tex"
 pdf_source: "archive/02_kyoto/2022/2022_6.pdf"
 page_image: "archive/02_kyoto/2022/2022_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　数列$\{ x_n \}$，$\{ y_n \}$を次の式
+数列$\{ x_n \}$，$\{ y_n \}$を次の式
 \[ x_1=0, \hspace{1zw} x_{n+1}=x_n+n+2\cos\left( \frac{2\pi x_n}{3} \right) \hspace{1zw}
 (n=1, \, 2, \, 3, \, \cdots), \]
 \[ y_{3m+1}=3m, \hspace{1zw} y_{3m+2}=3m+2, \hspace{1zw} y_{3m+3}=3m+4 \hspace{1zw}

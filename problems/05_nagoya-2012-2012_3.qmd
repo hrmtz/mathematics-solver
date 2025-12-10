@@ -3,6 +3,7 @@ title: "名古屋大学 2012年 2012_3"
 problem_id: "05_nagoya-2012-2012_3"
 university: "名古屋大学"
 exam_year: "2012"
+problem_number: 3
 source_tex: "archive/05_nagoya/2012/2012_3.tex"
 pdf_source: "archive/05_nagoya/2012/2012_3.pdf"
 page_image: "archive/05_nagoya/2012/2012_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$n$を2以上の整数とする。
+$n$を2以上の整数とする。
 1から$n$までの整数が1つずつ書かれている$n$枚のカードがある。
 ただし，異なるカードには異なる整数が書かれているものとする。
 この$n$枚のカードから，1枚のカードを無作為に取り出して，

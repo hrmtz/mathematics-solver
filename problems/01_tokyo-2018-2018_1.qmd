@@ -3,6 +3,7 @@ title: "東京大学 2018年 2018_1"
 problem_id: "01_tokyo-2018-2018_1"
 university: "東京大学"
 exam_year: "2018"
+problem_number: 1
 source_tex: "archive/01_tokyo/2018/2018_1.tex"
 pdf_source: "archive/01_tokyo/2018/2018_1.pdf"
 page_image: "archive/01_tokyo/2018/2018_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　関数
+関数
 \[ f(x)=\frac{x}{\sin x}+\cos x \hspace{1zw} (0<x<\pi) \]
 の増減表をつくり，$x\to+0$，$x\to\pi-0$のときの極限を調べよ。
 

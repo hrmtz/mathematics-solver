@@ -3,6 +3,7 @@ title: "九州大学 1991年 1991_a"
 problem_id: "07_kyushu-1991-1991_a"
 university: "九州大学"
 exam_year: "1991"
+problem_number: 1
 source_tex: "archive/07_kyushu/1991/1991_a.tex"
 pdf_source: "archive/07_kyushu/1991/1991_a.pdf"
 page_image: "archive/07_kyushu/1991/1991_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　傾きが$k$ $(k\neq0)$で原点を通る直線$l$がある．
+傾きが$k$ $(k\neq0)$で原点を通る直線$l$がある．
 平面上のすべての点を直線$l$上の点に移す1次変換が
 行列$A=\begin{pmatrix} a & b 
 

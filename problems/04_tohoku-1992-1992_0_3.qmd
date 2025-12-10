@@ -3,6 +3,7 @@ title: "東北大学 1992年 1992_0_3"
 problem_id: "04_tohoku-1992-1992_0_3"
 university: "東北大学"
 exam_year: "1992"
+problem_number: 3
 source_tex: "archive/04_tohoku/1992/1992_0_3.tex"
 pdf_source: "archive/04_tohoku/1992/1992_0_3.pdf"
 page_image: "archive/04_tohoku/1992/1992_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　2つの放物線
+2つの放物線
 \[ y=3x^2-4x+5\cdots\cdots\text{\ding{"AC}} \hspace{1zw} y=2x^2+ax+b\cdots\cdots\text{\ding{"AD}} \]
 と，点$(1, \, 4)$において放物線\ding{"AC}に接する直線$l$について，次の問に答えよ．
 \begin{description}

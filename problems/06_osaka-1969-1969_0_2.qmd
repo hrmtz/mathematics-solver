@@ -3,6 +3,7 @@ title: "大阪大学 1969年 1969_0_2"
 problem_id: "06_osaka-1969-1969_0_2"
 university: "大阪大学"
 exam_year: "1969"
+problem_number: 2
 source_tex: "archive/06_osaka/1969/1969_0_2.tex"
 pdf_source: "archive/06_osaka/1969/1969_0_2.pdf"
 page_image: "archive/06_osaka/1969/1969_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　原点$O$を中心とする半径$a$の円のたがいに直交する半径を$OM$，$ON$とする．
+原点$O$を中心とする半径$a$の円のたがいに直交する半径を$OM$，$ON$とする．
 点$M$および$N$から$x$軸におろした垂線と，だ円$\displaystyle\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ $(a>b>0)$との交点のうちで，
 $M$，$N$と同一象限内にある点をそれぞれ$P$，$Q$とする．
 \begin{description}

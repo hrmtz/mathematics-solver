@@ -3,6 +3,7 @@ title: "名古屋大学 2014年 2014_3"
 problem_id: "05_nagoya-2014-2014_3"
 university: "名古屋大学"
 exam_year: "2014"
+problem_number: 3
 source_tex: "archive/05_nagoya/2014/2014_3.tex"
 pdf_source: "archive/05_nagoya/2014/2014_3.pdf"
 page_image: "archive/05_nagoya/2014/2014_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$xy$平面の$y\geqq0$の部分にあり，$x$軸に接する円の列
+$xy$平面の$y\geqq0$の部分にあり，$x$軸に接する円の列
 $C_1, \, C_2, \, C_3, \, \cdots$を次のように定める。
 \begin{description}
 \item[●]$C_1$と$C_2$は半径1の円で，互いに外接する。

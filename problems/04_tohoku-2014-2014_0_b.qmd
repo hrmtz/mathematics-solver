@@ -3,6 +3,7 @@ title: "東北大学 2014年 2014_0_b"
 problem_id: "04_tohoku-2014-2014_0_b"
 university: "東北大学"
 exam_year: "2014"
+problem_number: 2
 source_tex: "archive/04_tohoku/2014/2014_0_b.tex"
 pdf_source: "archive/04_tohoku/2014/2014_0_b.pdf"
 page_image: "archive/04_tohoku/2014/2014_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$，$b$を実数とし，空間に5点
+$a$，$b$を実数とし，空間に5点
 \[ A(6, \, 0, \, 0), \hspace{1zw} B(0, \, 6, \, 0), \hspace{1zw} C(0, \, 0, \, 3), \]
 \[ P(2a, \, 0, \, 1+2a), \hspace{1zw} Q(0, \, 2b, \, -1-4b) \]
 をとる。線分$PQ$の中点を$M$，三角形$ABC$の重心を$G$とする。

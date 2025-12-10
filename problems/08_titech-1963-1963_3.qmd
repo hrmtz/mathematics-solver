@@ -3,6 +3,7 @@ title: "東京科学大学 1963年 1963_3"
 problem_id: "08_titech-1963-1963_3"
 university: "東京科学大学"
 exam_year: "1963"
+problem_number: 3
 source_tex: "archive/08_titech/1963/1963_3.tex"
 pdf_source: "archive/08_titech/1963/1963_3.pdf"
 page_image: "archive/08_titech/1963/1963_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　図のように，1辺の長さ2の正方形$ABCD$の内部に，
+図のように，1辺の長さ2の正方形$ABCD$の内部に，
 対角線の交点$O$を中心とする半径$r$の円をえがき，
 $AB$，$AD$に平行なその接線の交点を$E$とする。
 いま，$E$を中心とする円を，円$O$との相似の中心が$A$であるようにえがく。

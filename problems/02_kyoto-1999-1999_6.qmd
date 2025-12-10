@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_6"
 problem_id: "02_kyoto-1999-1999_6"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 6
 source_tex: "archive/02_kyoto/1999/1999_6.tex"
 pdf_source: "archive/02_kyoto/1999/1999_6.pdf"
 page_image: "archive/02_kyoto/1999/1999_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　$x$，$y$は$t$を媒介変数として，次のように表示されているものとする．
+$x$，$y$は$t$を媒介変数として，次のように表示されているものとする．
 \[ x=\frac{3t-t^2}{t+1} \]
 \[ y=\frac{3t^2-t^3}{t+1} \]
 変数$t$が$0 \leqq t \leqq 3$を動くとき，$x$と$y$の動く範囲をそれぞれ求めよ．

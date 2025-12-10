@@ -3,6 +3,7 @@ title: "北海道大学 1997年 1997_3"
 problem_id: "03_hokudai-1997-1997_3"
 university: "北海道大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/03_hokudai/1997/1997_3.tex"
 pdf_source: "archive/03_hokudai/1997/1997_3.pdf"
 page_image: "archive/03_hokudai/1997/1997_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$p$を0でない実数とする．
+$p$を0でない実数とする．
 数列$a_1, \, a_2, \, \cdots\cdots$を次のように定義する．
 \[ a_1=1, \hspace{1zw} a_{n+1}=pa_n+p^{-n} \hspace{1zw} (n=1, \, 2, \, \cdots\cdots) \]
 \begin{description}

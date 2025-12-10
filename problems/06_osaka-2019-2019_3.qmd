@@ -3,6 +3,7 @@ title: "大阪大学 2019年 2019_3"
 problem_id: "06_osaka-2019-2019_3"
 university: "大阪大学"
 exam_year: "2019"
+problem_number: 3
 source_tex: "archive/06_osaka/2019/2019_3.tex"
 pdf_source: "archive/06_osaka/2019/2019_3.pdf"
 page_image: "archive/06_osaka/2019/2019_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　実数$s$，$t$が$s^2+t^2\leqq6$を満たしながら変わるとき，
+実数$s$，$t$が$s^2+t^2\leqq6$を満たしながら変わるとき，
 $xy$平面上で点$(s+t, \, st)$が動く領域をAとする．
 このとき以下の問いに答えよ．
 \begin{description}

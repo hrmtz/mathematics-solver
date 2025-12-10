@@ -3,6 +3,7 @@ title: "名古屋大学 1972年 1972_5"
 problem_id: "05_nagoya-1972-1972_5"
 university: "名古屋大学"
 exam_year: "1972"
+problem_number: 5
 source_tex: "archive/05_nagoya/1972/1972_5.tex"
 pdf_source: "archive/05_nagoya/1972/1972_5.pdf"
 page_image: "archive/05_nagoya/1972/1972_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　円$x^2+y^2=1$の上に1点$A$を，また円$x^2+y^2=3$の上に2点$B$，$C$をとる．
+円$x^2+y^2=1$の上に1点$A$を，また円$x^2+y^2=3$の上に2点$B$，$C$をとる．
 このとき，3角形$ABC$の面積の最大値を求めよ．
 
 ---

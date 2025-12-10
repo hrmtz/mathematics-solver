@@ -3,6 +3,7 @@ title: "九州大学 2009年 2009_d"
 problem_id: "07_kyushu-2009-2009_d"
 university: "九州大学"
 exam_year: "2009"
+problem_number: 4
 source_tex: "archive/07_kyushu/2009/2009_d.tex"
 pdf_source: "archive/07_kyushu/2009/2009_d.pdf"
 page_image: "archive/07_kyushu/2009/2009_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　点$Q$は次の規則で数直線上の負でない整数の上を正の方向へ動くものとする．
+点$Q$は次の規則で数直線上の負でない整数の上を正の方向へ動くものとする．
 ただし$n$は負でない整数とする．
 \begin{description}
 \item[(a)]時刻0では点$Q$は原点にある．

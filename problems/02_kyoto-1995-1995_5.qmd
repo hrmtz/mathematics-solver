@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_5"
 problem_id: "02_kyoto-1995-1995_5"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 5
 source_tex: "archive/02_kyoto/1995/1995_5.tex"
 pdf_source: "archive/02_kyoto/1995/1995_5.pdf"
 page_image: "archive/02_kyoto/1995/1995_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　1番から7番まで番号のついた席が番号順に一列に並んでいる．
+1番から7番まで番号のついた席が番号順に一列に並んでいる．
 客が順に到着して次のように着席していくとする．
 \begin{description}
 \item[(イ)]両端の席および先客が着席している隣の席に次の客が着席する確率は，すべて等しい．

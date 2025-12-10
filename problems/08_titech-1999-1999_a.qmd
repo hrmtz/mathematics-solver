@@ -3,6 +3,7 @@ title: "東京科学大学 1999年 1999_a"
 problem_id: "08_titech-1999-1999_a"
 university: "東京科学大学"
 exam_year: "1999"
+problem_number: 1
 source_tex: "archive/08_titech/1999/1999_a.tex"
 pdf_source: "archive/08_titech/1999/1999_a.pdf"
 page_image: "archive/08_titech/1999/1999_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　極限値$\displaystyle\lim_{n \to \infty}\int_0^\frac{\pi}{2}\frac{\sin^2nx}{1+x}dx$を求めよ．
+極限値$\displaystyle\lim_{n \to \infty}\int_0^\frac{\pi}{2}\frac{\sin^2nx}{1+x}dx$を求めよ．
 
 ---
 

@@ -3,6 +3,7 @@ title: "東北大学 1984年 1984_4"
 problem_id: "04_tohoku-1984-1984_4"
 university: "東北大学"
 exam_year: "1984"
+problem_number: 4
 source_tex: "archive/04_tohoku/1984/1984_4.tex"
 pdf_source: "archive/04_tohoku/1984/1984_4.pdf"
 page_image: "archive/04_tohoku/1984/1984_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　曲線$C:y=\sqrt3 \, e\log x$がある．
+曲線$C:y=\sqrt3 \, e\log x$がある．
 ここに対数は自然対数で，$e$はその底とする．
 \begin{description}
 \item[(1)]原点$O$から曲線$C$に引いた接線の方程式を求めよ．

@@ -3,6 +3,7 @@ title: "東北大学 2011年 2011_6"
 problem_id: "04_tohoku-2011-2011_6"
 university: "東北大学"
 exam_year: "2011"
+problem_number: 6
 source_tex: "archive/04_tohoku/2011/2011_6.tex"
 pdf_source: "archive/04_tohoku/2011/2011_6.pdf"
 page_image: "archive/04_tohoku/2011/2011_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　行列$A=\begin{pmatrix} 3 & -1 
+行列$A=\begin{pmatrix} 3 & -1 
 
  4 & -1 \end{pmatrix}$の表す1次変換を$f$とする．
 $f$による点$P(1,1)$の像を$P_1$とする．

@@ -3,6 +3,7 @@ title: "九州大学 1968年 1968_3"
 problem_id: "07_kyushu-1968-1968_3"
 university: "九州大学"
 exam_year: "1968"
+problem_number: 3
 source_tex: "archive/07_kyushu/1968/1968_3.tex"
 pdf_source: "archive/07_kyushu/1968/1968_3.pdf"
 page_image: "archive/07_kyushu/1968/1968_3.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$\displaystyle F(x)=\int_0^x\sqrt{1-\sin t} \, dt$を求めよ．
 ただし$0\leqq x \leqq2\pi$とする．

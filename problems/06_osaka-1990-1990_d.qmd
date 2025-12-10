@@ -3,6 +3,7 @@ title: "大阪大学 1990年 1990_d"
 problem_id: "06_osaka-1990-1990_d"
 university: "大阪大学"
 exam_year: "1990"
+problem_number: 4
 source_tex: "archive/06_osaka/1990/1990_d.tex"
 pdf_source: "archive/06_osaka/1990/1990_d.pdf"
 page_image: "archive/06_osaka/1990/1990_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　以下の文中の（ア）～（ク）に適する数または式を解答用紙の指定されたところに記入せよ．
+以下の文中の（ア）～（ク）に適する数または式を解答用紙の指定されたところに記入せよ．
 \begin{description}
 \item[(1)]正の整数$a_1$，$a_2$，$a_3$，$a_4$がこの順に等比数列をなし，
 公比$r$が整数でなく，かつ$r>1$であるとき，

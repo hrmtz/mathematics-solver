@@ -3,6 +3,7 @@ title: "東京大学 2009年 2009_5"
 problem_id: "01_tokyo-2009-2009_5"
 university: "東京大学"
 exam_year: "2009"
+problem_number: 5
 source_tex: "archive/01_tokyo/2009/2009_5.tex"
 pdf_source: "archive/01_tokyo/2009/2009_5.pdf"
 page_image: "archive/01_tokyo/2009/2009_5.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(1)]実数$x$が$-1<x<1$，$x\neq0$をみたすとき，次の不等式を示せ．
 \[ {(1-x)}^{1-\frac{1}{x}}<{(1+x)}^\frac{1}{x} \]

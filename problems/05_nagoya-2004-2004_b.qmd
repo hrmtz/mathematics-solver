@@ -3,6 +3,7 @@ title: "名古屋大学 2004年 2004_b"
 problem_id: "05_nagoya-2004-2004_b"
 university: "名古屋大学"
 exam_year: "2004"
+problem_number: 2
 source_tex: "archive/05_nagoya/2004/2004_b.tex"
 pdf_source: "archive/05_nagoya/2004/2004_b.pdf"
 page_image: "archive/05_nagoya/2004/2004_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$f(x)=x^3+ax^2+bx+c$（$a$，$b$，$c$は実数の定数）とし，
+$f(x)=x^3+ax^2+bx+c$（$a$，$b$，$c$は実数の定数）とし，
 方程式$f(x)=0$の3つの解を$\alpha$，$\beta$，$\gamma$とする．
 以下の2つの条件が成り立つものとする．
 \begin{description}

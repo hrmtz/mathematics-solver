@@ -3,6 +3,7 @@ title: "東北大学 2020年 2020_a"
 problem_id: "04_tohoku-2020-2020_a"
 university: "東北大学"
 exam_year: "2020"
+problem_number: 1
 source_tex: "archive/04_tohoku/2020/2020_a.tex"
 pdf_source: "archive/04_tohoku/2020/2020_a.pdf"
 page_image: "archive/04_tohoku/2020/2020_a.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　関数$f(x)=x^4-2x^2+4x$を考える。
+関数$f(x)=x^4-2x^2+4x$を考える。
 直線$y=g(x)$は曲線$y=f(x)$と異なる2点$P, \, Q$で接し，
 2次関数$h(x)$が定める放物線$y=h(x)$は$P, \, Q$および原点$O$を通るとする。
 \begin{description}

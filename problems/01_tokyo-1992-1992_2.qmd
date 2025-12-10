@@ -3,6 +3,7 @@ title: "東京大学 1992年 1992_2"
 problem_id: "01_tokyo-1992-1992_2"
 university: "東京大学"
 exam_year: "1992"
+problem_number: 2
 source_tex: "archive/01_tokyo/1992/1992_2.tex"
 pdf_source: "archive/01_tokyo/1992/1992_2.pdf"
 page_image: "archive/01_tokyo/1992/1992_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xy$平面において，$x$座標，$y$座標ともに整数であるような点を格子点と呼ぶ．
+$xy$平面において，$x$座標，$y$座標ともに整数であるような点を格子点と呼ぶ．
 格子点を頂点に持つ三角形$ABC$を考える．
 \begin{description}
 \item[(1)]辺$AB$，$AC$それぞれの上に両端を除いて奇数個の格子点があるとすると，

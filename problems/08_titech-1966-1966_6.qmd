@@ -3,6 +3,7 @@ title: "東京科学大学 1966年 1966_6"
 problem_id: "08_titech-1966-1966_6"
 university: "東京科学大学"
 exam_year: "1966"
+problem_number: 6
 source_tex: "archive/08_titech/1966/1966_6.tex"
 pdf_source: "archive/08_titech/1966/1966_6.pdf"
 page_image: "archive/08_titech/1966/1966_6.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-6
-　次の定積分の値を求めよ。
+次の定積分の値を求めよ。
 \[ \int_0^\pi xe^x\sin xdx \]
 
 ---

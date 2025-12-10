@@ -3,6 +3,7 @@ title: "大阪大学 2010年 2010_4"
 problem_id: "06_osaka-2010-2010_4"
 university: "大阪大学"
 exam_year: "2010"
+problem_number: 4
 source_tex: "archive/06_osaka/2010/2010_4.tex"
 pdf_source: "archive/06_osaka/2010/2010_4.pdf"
 page_image: "archive/06_osaka/2010/2010_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　半径3の球$T_1$と半径1の球$T_2$が，内接した状態で空間に固定されている．
+半径3の球$T_1$と半径1の球$T_2$が，内接した状態で空間に固定されている．
 半径1の球$S$が次の条件(A)，(B)を同時に満たしながら動く．
 \begin{description}
 \item[(A)]$S$は$T_1$の内部にあるか$T_1$に内接している．

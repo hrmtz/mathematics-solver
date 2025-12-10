@@ -3,6 +3,7 @@ title: "名古屋大学 2002年 2002_0_2"
 problem_id: "05_nagoya-2002-2002_0_2"
 university: "名古屋大学"
 exam_year: "2002"
+problem_number: 2
 source_tex: "archive/05_nagoya/2002/2002_0_2.tex"
 pdf_source: "archive/05_nagoya/2002/2002_0_2.pdf"
 page_image: "archive/05_nagoya/2002/2002_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　次の様に円$C_n$を定める．
+次の様に円$C_n$を定める．
 まず，$C_0$は$\displaystyle\left(0, \, \frac{1}{2}\right)$を中心とする半径$\displaystyle\frac{1}{2}$の円，
 $C_1$は$\displaystyle\left(1, \, \frac{1}{2}\right)$を中心とする半径$\displaystyle\frac{1}{2}$の円とする．
 次に$C_0$，$C_1$に外接し$x$軸に接する円を$C_2$とする．

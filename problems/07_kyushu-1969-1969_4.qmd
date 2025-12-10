@@ -3,6 +3,7 @@ title: "九州大学 1969年 1969_4"
 problem_id: "07_kyushu-1969-1969_4"
 university: "九州大学"
 exam_year: "1969"
+problem_number: 4
 source_tex: "archive/07_kyushu/1969/1969_4.tex"
 pdf_source: "archive/07_kyushu/1969/1969_4.pdf"
 page_image: "archive/07_kyushu/1969/1969_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　等比数列$z_1, \, z_2, \, z_3, \, \cdots\cdots, \, z_n, \, \cdots\cdots$において，
+等比数列$z_1, \, z_2, \, z_3, \, \cdots\cdots, \, z_n, \, \cdots\cdots$において，
 $z_1=1$，$z_2=a+ib$，$z_3=b+ia$（ただし，$a$，$b$は実数で$a>0$，$i$は虚数単位）である．
 \begin{description}
 \item[(1)]$a$，$b$の値を求めよ．また，$z_2$を極形式で表わせ．

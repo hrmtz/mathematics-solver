@@ -3,6 +3,7 @@ title: "東北大学 1974年 1974_5"
 problem_id: "04_tohoku-1974-1974_5"
 university: "東北大学"
 exam_year: "1974"
+problem_number: 5
 source_tex: "archive/04_tohoku/1974/1974_5.tex"
 pdf_source: "archive/04_tohoku/1974/1974_5.pdf"
 page_image: "archive/04_tohoku/1974/1974_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$N$，$n$ $(n \leqq N)$は与えられた正の整数とする．
+$N$，$n$ $(n \leqq N)$は与えられた正の整数とする．
 1から$N$までの番号をつけた$N$枚のカードから任意に$n$枚のカードを取り出したとき，
 それらに書かれている数の和を$S$とする．
 \begin{description}

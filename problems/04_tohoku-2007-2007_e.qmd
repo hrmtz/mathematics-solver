@@ -3,6 +3,7 @@ title: "東北大学 2007年 2007_e"
 problem_id: "04_tohoku-2007-2007_e"
 university: "東北大学"
 exam_year: "2007"
+problem_number: 5
 source_tex: "archive/04_tohoku/2007/2007_e.tex"
 pdf_source: "archive/04_tohoku/2007/2007_e.pdf"
 page_image: "archive/04_tohoku/2007/2007_e.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　不等式$x^2>2^x$を満たす正の実数$x$の範囲を求めよ．
+不等式$x^2>2^x$を満たす正の実数$x$の範囲を求めよ．
 
 ---
 

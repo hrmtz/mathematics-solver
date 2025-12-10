@@ -3,6 +3,7 @@ title: "名古屋大学 2022年 2022_2"
 problem_id: "05_nagoya-2022-2022_2"
 university: "名古屋大学"
 exam_year: "2022"
+problem_number: 2
 source_tex: "archive/05_nagoya/2022/2022_2.tex"
 pdf_source: "archive/05_nagoya/2022/2022_2.pdf"
 page_image: "archive/05_nagoya/2022/2022_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　1つのサイコロを3回投げる。
+1つのサイコロを3回投げる。
 1回目に出る目を$a$，2回目に出る目を$b$，3回目に出る目を$c$とする。
 なおサイコロは1から6までの目が等しい確率で出るものとする。
 \begin{description}

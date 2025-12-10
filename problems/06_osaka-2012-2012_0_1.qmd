@@ -3,6 +3,7 @@ title: "大阪大学 2012年 2012_0_1"
 problem_id: "06_osaka-2012-2012_0_1"
 university: "大阪大学"
 exam_year: "2012"
+problem_number: 1
 source_tex: "archive/06_osaka/2012/2012_0_1.tex"
 pdf_source: "archive/06_osaka/2012/2012_0_1.pdf"
 page_image: "archive/06_osaka/2012/2012_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　1個のさいころを3回続けて投げるとき，
+1個のさいころを3回続けて投げるとき，
 1回目に出る目を$l$，2回目に出る目を$m$，3回目に出る目を$n$で表し，3次式
 \[ f(x)=x^3+lx^2+mx+n \]
 を考える．このとき，以下の問いに答えよ．

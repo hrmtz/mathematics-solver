@@ -3,6 +3,7 @@ title: "京都大学 1995年 1995_0_2"
 problem_id: "02_kyoto-1995-1995_0_2"
 university: "京都大学"
 exam_year: "1995"
+problem_number: 2
 source_tex: "archive/02_kyoto/1995/1995_0_2.tex"
 pdf_source: "archive/02_kyoto/1995/1995_0_2.pdf"
 page_image: "archive/02_kyoto/1995/1995_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　数列$x_n$を
+数列$x_n$を
 \[ x_n=-an^2+bn+c, \hspace{1zw} n=1,2,3,\cdots \]
 によって定める．
 このとき，次の2つの条件(イ)，(ロ)をみたす自然数$a$，$b$，$c$を求めよ．

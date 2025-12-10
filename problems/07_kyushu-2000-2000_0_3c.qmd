@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_0_3c"
 problem_id: "07_kyushu-2000-2000_0_3c"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 3
 source_tex: "archive/07_kyushu/2000/2000_0_3c.tex"
 pdf_source: "archive/07_kyushu/2000/2000_0_3c.pdf"
 page_image: "archive/07_kyushu/2000/2000_0_3c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (c)
-　正五角形の頂点を反時計回りに$A$，$B$，$C$，$D$，$E$とし，
+正五角形の頂点を反時計回りに$A$，$B$，$C$，$D$，$E$とし，
 線分$AC$と$BD$の交点を$F$，$BD$と$CE$の交点を$G$，$CE$と$DA$の交点を$H$，
 $DA$と$EB$の交点を$I$，$EB$と$AC$の交点を$J$とする．
 \begin{description}

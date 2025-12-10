@@ -3,6 +3,7 @@ title: "東北大学 1985年 1985_4"
 problem_id: "04_tohoku-1985-1985_4"
 university: "東北大学"
 exam_year: "1985"
+problem_number: 4
 source_tex: "archive/04_tohoku/1985/1985_4.tex"
 pdf_source: "archive/04_tohoku/1985/1985_4.pdf"
 page_image: "archive/04_tohoku/1985/1985_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　数直線上を原点から出発して点が動く．
+数直線上を原点から出発して点が動く．
 サイコロを投げて，1，4の目のいずれかが出れば，負の方向に1だけ動き，
 2，3，5，6の目のいずれかが出れば，正の方向に2だけ動く．
 \begin{description}

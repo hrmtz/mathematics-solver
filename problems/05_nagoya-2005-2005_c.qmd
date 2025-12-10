@@ -3,6 +3,7 @@ title: "名古屋大学 2005年 2005_c"
 problem_id: "05_nagoya-2005-2005_c"
 university: "名古屋大学"
 exam_year: "2005"
+problem_number: 3
 source_tex: "archive/05_nagoya/2005/2005_c.tex"
 pdf_source: "archive/05_nagoya/2005/2005_c.pdf"
 page_image: "archive/05_nagoya/2005/2005_c.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　$f(x)=|e^{-x}\sin x|$とする．
+$f(x)=|e^{-x}\sin x|$とする．
 　曲線$y=f(x)$の$(n-1)\pi \leqq x \leqq n\pi$（$n$は自然数）の部分と
 $x$軸で囲まれる図形の面積を$S_n$とする．
 つぎの各問に答えよ．

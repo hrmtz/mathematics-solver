@@ -3,6 +3,7 @@ title: "東京大学 1967年 1967_3"
 problem_id: "01_tokyo-1967-1967_3"
 university: "東京大学"
 exam_year: "1967"
+problem_number: 3
 source_tex: "archive/01_tokyo/1967/1967_3.tex"
 pdf_source: "archive/01_tokyo/1967/1967_3.pdf"
 page_image: "archive/01_tokyo/1967/1967_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　辺の長さ2の正方形$A$が，
+辺の長さ2の正方形$A$が，
 その中心を円$x^2+y^2=1$の周上におきながら，
 かつその辺を座標軸に平行に保ちながら動く．
 一方，同じ大きさの正方形$B$が固定されていて，

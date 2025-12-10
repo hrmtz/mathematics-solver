@@ -3,6 +3,7 @@ title: "京都大学 2018年 2018_5"
 problem_id: "02_kyoto-2018-2018_5"
 university: "京都大学"
 exam_year: "2018"
+problem_number: 5
 source_tex: "archive/02_kyoto/2018/2018_5.tex"
 pdf_source: "archive/02_kyoto/2018/2018_5.pdf"
 page_image: "archive/02_kyoto/2018/2018_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　曲線$y=\log x$上の点$A(t, \, \log t)$における法線上に，
+曲線$y=\log x$上の点$A(t, \, \log t)$における法線上に，
 点$B$を$AB=1$となるようにとる．
 ただし$B$の$x$座標は$t$より大きいとする．
 \begin{description}

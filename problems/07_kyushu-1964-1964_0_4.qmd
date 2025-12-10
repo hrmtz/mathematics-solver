@@ -3,6 +3,7 @@ title: "九州大学 1964年 1964_0_4"
 problem_id: "07_kyushu-1964-1964_0_4"
 university: "九州大学"
 exam_year: "1964"
+problem_number: 4
 source_tex: "archive/07_kyushu/1964/1964_0_4.tex"
 pdf_source: "archive/07_kyushu/1964/1964_0_4.pdf"
 page_image: "archive/07_kyushu/1964/1964_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$a$は実数であって，$x$の三次方程式$x^3+x^2-x+a=0$が，
+$a$は実数であって，$x$の三次方程式$x^3+x^2-x+a=0$が，
 $\cos\theta+i\sin\theta$ $\displaystyle\left(0<\theta<\frac{\pi}{2}\right)$なる虚根をもつという。
 このとき，次の各問に答えよ。
 \begin{description}

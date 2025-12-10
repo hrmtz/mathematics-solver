@@ -3,6 +3,7 @@ title: "大阪大学 1973年 1973_5"
 problem_id: "06_osaka-1973-1973_5"
 university: "大阪大学"
 exam_year: "1973"
+problem_number: 5
 source_tex: "archive/06_osaka/1973/1973_5.tex"
 pdf_source: "archive/06_osaka/1973/1973_5.pdf"
 page_image: "archive/06_osaka/1973/1973_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$x>0$で定義され，正の値をとる関数$y=f(x)$がある．
+$x>0$で定義され，正の値をとる関数$y=f(x)$がある．
 この関数のグラフ$C$は$\displaystyle \left( 1, \, \frac{1}{\sqrt{e}} \right)$を通り，
 かつ$C$上の各点$(x, \, f(x))$における接線が$x$軸と交わる点の$x$座標は$\displaystyle x+\frac{1}{x}$であるとする．
 \begin{description}

@@ -3,6 +3,7 @@ title: "大阪大学 2005年 2005_c"
 problem_id: "06_osaka-2005-2005_c"
 university: "大阪大学"
 exam_year: "2005"
+problem_number: 3
 source_tex: "archive/06_osaka/2005/2005_c.tex"
 pdf_source: "archive/06_osaka/2005/2005_c.pdf"
 page_image: "archive/06_osaka/2005/2005_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　複素数平面上の点$z$が原点を中心とする半径1の円周上を1周するとき，
+複素数平面上の点$z$が原点を中心とする半径1の円周上を1周するとき，
 \[ w=2\sqrt2 \, z-z^2 \]
 で表される点$w$の軌跡が虚軸と交わる回数を求めよ．
 

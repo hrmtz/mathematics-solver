@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_4b"
 problem_id: "07_kyushu-2000-2000_4b"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/07_kyushu/2000/2000_4b.tex"
 pdf_source: "archive/07_kyushu/2000/2000_4b.pdf"
 page_image: "archive/07_kyushu/2000/2000_4b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (b)
-　1から$n$までの数で$m$個からなる重複しない数の順列を作り出す算法として，下記のものを考えた．
+1から$n$までの数で$m$個からなる重複しない数の順列を作り出す算法として，下記のものを考えた．
 ただし，$S$は順列を表し，算法の開始の時は数を含まない（$S$は空であるという）とする．
 算法の終了時には結果として順列を得るものとする．
 　算法［以下(a)，(b)，(c)，$\cdots$の順に行う］

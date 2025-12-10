@@ -3,6 +3,7 @@ title: "東北大学 1999年 1999_1"
 problem_id: "04_tohoku-1999-1999_1"
 university: "東北大学"
 exam_year: "1999"
+problem_number: 1
 source_tex: "archive/04_tohoku/1999/1999_1.tex"
 pdf_source: "archive/04_tohoku/1999/1999_1.pdf"
 page_image: "archive/04_tohoku/1999/1999_1.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-1
-　$x>0$において関数$f(x)$を
+$x>0$において関数$f(x)$を
 \[ f(x)=\frac{x^2+1}{2}\log\frac{x^2+1}{2}+\frac{1}{2}{(x-1)}^2-x^2\log x \]
 で定める．対数は自然対数である．
 \begin{description}

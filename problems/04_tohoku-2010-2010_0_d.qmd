@@ -3,6 +3,7 @@ title: "東北大学 2010年 2010_0_d"
 problem_id: "04_tohoku-2010-2010_0_d"
 university: "東北大学"
 exam_year: "2010"
+problem_number: 4
 source_tex: "archive/04_tohoku/2010/2010_0_d.tex"
 pdf_source: "archive/04_tohoku/2010/2010_0_d.pdf"
 page_image: "archive/04_tohoku/2010/2010_0_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$xy$平面の点$(-1, \, 0)$，$(0, \, 1)$，$(1, \, 4)$を結んでできる折れ線をグラフとする関数を
+$xy$平面の点$(-1, \, 0)$，$(0, \, 1)$，$(1, \, 4)$を結んでできる折れ線をグラフとする関数を
 $y=f(x)$とおく．このとき，積分
 \[ \int_{-1}^1{ \{ f(x)-(a|x|+b) \} }^2 dx \]
 を最小にする$a$，$b$を求めよ．また，そのときの積分の値を求めよ．

@@ -3,6 +3,7 @@ title: "大阪大学 1998年 1998_a"
 problem_id: "06_osaka-1998-1998_a"
 university: "大阪大学"
 exam_year: "1998"
+problem_number: 1
 source_tex: "archive/06_osaka/1998/1998_a.tex"
 pdf_source: "archive/06_osaka/1998/1998_a.pdf"
 page_image: "archive/06_osaka/1998/1998_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$\triangle ABC$において，3辺の長さを$AB=c$，$BC=a$，$CA=b$とする．
+$\triangle ABC$において，3辺の長さを$AB=c$，$BC=a$，$CA=b$とする．
 　辺$AB$を$n$等分した点を，$A$に近い方から順に$P_1, \, P_2, \, \cdots\cdots, \, P_{n-1}$とし，
 $P_n$を$B$とする．
 同様に，辺$BC$，$CA$を$n$等分した点をそれぞれ，

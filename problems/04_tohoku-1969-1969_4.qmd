@@ -3,6 +3,7 @@ title: "東北大学 1969年 1969_4"
 problem_id: "04_tohoku-1969-1969_4"
 university: "東北大学"
 exam_year: "1969"
+problem_number: 4
 source_tex: "archive/04_tohoku/1969/1969_4.tex"
 pdf_source: "archive/04_tohoku/1969/1969_4.pdf"
 page_image: "archive/04_tohoku/1969/1969_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　初項$a_1$が正である数列$\{ a_n \}$において
+初項$a_1$が正である数列$\{ a_n \}$において
 $a_{n+1}$ $(n\geqq1)$は方程式$a_nx^2+2x-a_n=0$の絶対値が1より小さい根とする．
 \begin{description}
 \item[(1)]$a_{n+1}$を$a_n$で表わせ．

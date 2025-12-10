@@ -3,6 +3,7 @@ title: "東京科学大学 1977年 1977_6a"
 problem_id: "08_titech-1977-1977_6a"
 university: "東京科学大学"
 exam_year: "1977"
+problem_number: 6
 source_tex: "archive/08_titech/1977/1977_6a.tex"
 pdf_source: "archive/08_titech/1977/1977_6a.pdf"
 page_image: "archive/08_titech/1977/1977_6a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6 (a)
-　数列$a_1, \, a_2, \, \cdots\cdots, \, a_n, \, \cdots\cdots$が
+数列$a_1, \, a_2, \, \cdots\cdots, \, a_n, \, \cdots\cdots$が
 関係$a_{n+1}=2{a_n}^2-1$ $(n\geqq1)$を満たしているとする．
 $a_N=1$を満たす$N$（ただし$N\geqq2$）があるとき，次の問に答えよ．
 \begin{description}

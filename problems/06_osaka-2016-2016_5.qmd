@@ -3,6 +3,7 @@ title: "大阪大学 2016年 2016_5"
 problem_id: "06_osaka-2016-2016_5"
 university: "大阪大学"
 exam_year: "2016"
+problem_number: 5
 source_tex: "archive/06_osaka/2016/2016_5.tex"
 pdf_source: "archive/06_osaka/2016/2016_5.pdf"
 page_image: "archive/06_osaka/2016/2016_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　円上の5点$A, \, B, \, C, \, D, \, E$は反時計回りにこの順に並び，円周を5等分している．
+円上の5点$A, \, B, \, C, \, D, \, E$は反時計回りにこの順に並び，円周を5等分している．
 5点$A, \, B, \, C, \, D, \, E$を頂点とする正五角形を$R_1$とする．
 $\overrightarrow{AB}=\overrightarrow{a}$，$\overrightarrow{CD}=\overrightarrow{c}$とおき，
 $\overrightarrow{a}$の大きさを$x$とする．

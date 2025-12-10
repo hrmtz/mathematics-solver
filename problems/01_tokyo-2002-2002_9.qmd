@@ -3,6 +3,7 @@ title: "東京大学 2002年 2002_9"
 problem_id: "01_tokyo-2002-2002_9"
 university: "東京大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/01_tokyo/2002/2002_9.tex"
 pdf_source: "archive/01_tokyo/2002/2002_9.pdf"
 page_image: "archive/01_tokyo/2002/2002_9.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　区間$[0,1]$において関数$f(x)$を
+区間$[0,1]$において関数$f(x)$を
 \[ f(x)=\begin{cases} 2x & \displaystyle \left( x\leqq\frac{1}{2} \right)
 -2x+2 & \displaystyle \left( x>\frac{1}{2} \right) \end{cases} \]
 とおく．$0 \leqq a_1 \leqq 1$を満たす実数$a_1$を初期値として数列$\{ a_n \}$を

@@ -3,6 +3,7 @@ title: "九州大学 1994年 1994_0_4"
 problem_id: "07_kyushu-1994-1994_0_4"
 university: "九州大学"
 exam_year: "1994"
+problem_number: 4
 source_tex: "archive/07_kyushu/1994/1994_0_4.tex"
 pdf_source: "archive/07_kyushu/1994/1994_0_4.pdf"
 page_image: "archive/07_kyushu/1994/1994_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　画びょうを投げる試行を続け，針が先に上を4回向けば太郎君の勝ち，
+画びょうを投げる試行を続け，針が先に上を4回向けば太郎君の勝ち，
 先に下を3回向けば太郎君の負けとする．
 画びょうが上を向く確率を$\displaystyle\frac{2}{3}$とするとき，
 次の問に答えよ．

@@ -3,6 +3,7 @@ title: "東京大学 2009年 2009_0_4"
 problem_id: "01_tokyo-2009-2009_0_4"
 university: "東京大学"
 exam_year: "2009"
+problem_number: 4
 source_tex: "archive/01_tokyo/2009/2009_0_4.tex"
 pdf_source: "archive/01_tokyo/2009/2009_0_4.pdf"
 page_image: "archive/01_tokyo/2009/2009_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　2次以下の整式$f(x)=ax^2+bx+c$に対し
+2次以下の整式$f(x)=ax^2+bx+c$に対し
 \[ S=\int_0^2|f'(x)|dx \]
 を考える．
 \begin{description}

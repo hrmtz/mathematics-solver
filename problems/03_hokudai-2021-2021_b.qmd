@@ -3,6 +3,7 @@ title: "北海道大学 2021年 2021_b"
 problem_id: "03_hokudai-2021-2021_b"
 university: "北海道大学"
 exam_year: "2021"
+problem_number: 2
 source_tex: "archive/03_hokudai/2021/2021_b.tex"
 pdf_source: "archive/03_hokudai/2021/2021_b.pdf"
 page_image: "archive/03_hokudai/2021/2021_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$\theta$を$\displaystyle0<\theta<\frac{\pi}{2}$を満たす実数とし，
+$\theta$を$\displaystyle0<\theta<\frac{\pi}{2}$を満たす実数とし，
 平面上の点$P$と点$Q$を
 \[ P \left( \frac{1}{2} \{ 1-\cos\theta-\sqrt3(\tan\theta-\sin\theta) \} , \,
 \frac{1}{2} \{ \sqrt3(1-\cos\theta)+\tan\theta-\sin\theta \} \right) \]

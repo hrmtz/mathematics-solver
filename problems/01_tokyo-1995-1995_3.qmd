@@ -3,6 +3,7 @@ title: "東京大学 1995年 1995_3"
 problem_id: "01_tokyo-1995-1995_3"
 university: "東京大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/01_tokyo/1995/1995_3.tex"
 pdf_source: "archive/01_tokyo/1995/1995_3.pdf"
 page_image: "archive/01_tokyo/1995/1995_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　二辺の長さが1と2の長方形と一辺の長さが2の正方形の2種類のタイルがある．
+二辺の長さが1と2の長方形と一辺の長さが2の正方形の2種類のタイルがある．
 縦2，横$n$の長方形の部屋をこれらのタイルで過不足なく敷きつめることを考える．
 そのような並べ方の総数を$A_n$で表す．
 ただし$n$は正の整数である．

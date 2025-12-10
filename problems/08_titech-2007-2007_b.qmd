@@ -3,6 +3,7 @@ title: "東京科学大学 2007年 2007_b"
 problem_id: "08_titech-2007-2007_b"
 university: "東京科学大学"
 exam_year: "2007"
+problem_number: 2
 source_tex: "archive/08_titech/2007/2007_b.tex"
 pdf_source: "archive/08_titech/2007/2007_b.pdf"
 page_image: "archive/08_titech/2007/2007_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$\displaystyle 0<x<\frac{\pi}{2}$に対して
+$\displaystyle 0<x<\frac{\pi}{2}$に対して
 関数$\displaystyle f(x)=\frac{x}{\tan x}$，$\displaystyle g(x)=\frac{x}{\tan x}+\frac{\tan x}{x}$を考える．
 \begin{description}
 \item[(1)]$f'(x)$，$f''(x)$の正負を判定し，$y=f(x)$のグラフをかけ．

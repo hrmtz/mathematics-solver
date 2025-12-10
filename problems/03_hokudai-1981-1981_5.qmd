@@ -3,6 +3,7 @@ title: "北海道大学 1981年 1981_5"
 problem_id: "03_hokudai-1981-1981_5"
 university: "北海道大学"
 exam_year: "1981"
+problem_number: 5
 source_tex: "archive/03_hokudai/1981/1981_5.tex"
 pdf_source: "archive/03_hokudai/1981/1981_5.pdf"
 page_image: "archive/03_hokudai/1981/1981_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$f(x)$が$0<x\leqq1$で連続な関数であるとき，
+$f(x)$が$0<x\leqq1$で連続な関数であるとき，
 $0<a\leqq1$となる実数$a$に対して$\displaystyle F(x)=\int_{ax}^xf(t)dt$ $(0<x\leqq1)$とする．
 \begin{description}
 \item[(1)]$\displaystyle\frac{d}{dx}F(x)$を求めよ．

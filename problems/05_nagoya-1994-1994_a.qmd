@@ -3,6 +3,7 @@ title: "名古屋大学 1994年 1994_a"
 problem_id: "05_nagoya-1994-1994_a"
 university: "名古屋大学"
 exam_year: "1994"
+problem_number: 1
 source_tex: "archive/05_nagoya/1994/1994_a.tex"
 pdf_source: "archive/05_nagoya/1994/1994_a.pdf"
 page_image: "archive/05_nagoya/1994/1994_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$xyz$空間内に，平面
+$xyz$空間内に，平面
 \[ x+y+z=0 \hspace{1zw} (\text{以後，}\pi\text{平面と呼ぶ}) \]
 と点$A(x_1, \, y_1, \, z_1)$を考える．以下の各問に答えよ．
 なお，点$A$の$\pi$平面への正射影とは，点$A$の$\pi$平面への垂線の足をいう．

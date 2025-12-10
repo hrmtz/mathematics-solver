@@ -3,6 +3,7 @@ title: "東北大学 1975年 1975_0_2"
 problem_id: "04_tohoku-1975-1975_0_2"
 university: "東北大学"
 exam_year: "1975"
+problem_number: 2
 source_tex: "archive/04_tohoku/1975/1975_0_2.tex"
 pdf_source: "archive/04_tohoku/1975/1975_0_2.pdf"
 page_image: "archive/04_tohoku/1975/1975_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　次の連立方程式を解け．
+次の連立方程式を解け．
 \[ \begin{cases} x^y=y^x 
 
  \displaystyle \log_xy+\log_yx=\frac{13}{6} \end{cases} \]

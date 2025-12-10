@@ -3,6 +3,7 @@ title: "京都大学 2020年 2020_6"
 problem_id: "02_kyoto-2020-2020_6"
 university: "京都大学"
 exam_year: "2020"
+problem_number: 6
 source_tex: "archive/02_kyoto/2020/2020_6.tex"
 pdf_source: "archive/02_kyoto/2020/2020_6.pdf"
 page_image: "archive/02_kyoto/2020/2020_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$x, \, y, \, z$を座標とする空間において，$xz$平面内の曲線
+$x, \, y, \, z$を座標とする空間において，$xz$平面内の曲線
 \[ z=\sqrt{\log \, (1+x)} \hspace{1zw} (0 \leqq x \leqq 1) \]
 を$z$軸のまわりに1回転させるとき，
 この曲線が通過した部分よりなる図形を$S$とする．

@@ -3,6 +3,7 @@ title: "大阪大学 1986年 1986_0_2"
 problem_id: "06_osaka-1986-1986_0_2"
 university: "大阪大学"
 exam_year: "1986"
+problem_number: 2
 source_tex: "archive/06_osaka/1986/1986_0_2.tex"
 pdf_source: "archive/06_osaka/1986/1986_0_2.pdf"
 page_image: "archive/06_osaka/1986/1986_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　数列$x_1, \, x_2, \, \cdots\cdots$を次のように定義する．
+数列$x_1, \, x_2, \, \cdots\cdots$を次のように定義する．
 \[ x_1=2, \hspace{1zw} x_{n+1}=\frac{{x_n}^2+5}{2x_n} \hspace{1zw} (n=1, \, 2, \, \cdots\cdots) \]
 このとき，$\displaystyle0<x_n-\sqrt5<\frac{1}{2^n}$ $(n=2, \, 3, \, \cdots\cdots)$を示せ．
 

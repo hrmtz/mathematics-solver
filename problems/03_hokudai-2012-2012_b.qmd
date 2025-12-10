@@ -3,6 +3,7 @@ title: "北海道大学 2012年 2012_b"
 problem_id: "03_hokudai-2012-2012_b"
 university: "北海道大学"
 exam_year: "2012"
+problem_number: 2
 source_tex: "archive/03_hokudai/2012/2012_b.tex"
 pdf_source: "archive/03_hokudai/2012/2012_b.pdf"
 page_image: "archive/03_hokudai/2012/2012_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xy$平面上に2点$A(1, \, 0)$，$B(-1, \, 0)$をとる。
+$xy$平面上に2点$A(1, \, 0)$，$B(-1, \, 0)$をとる。
 $A$，$B$と異なる点$P(x, \, y)$は，
 $\angle APB$が${45}^\circ$または${135}^\circ$となるように動くものとする。
 \begin{description}

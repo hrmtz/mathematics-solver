@@ -3,6 +3,7 @@ title: "東京大学 1998年 1998_0_4"
 problem_id: "01_tokyo-1998-1998_0_4"
 university: "東京大学"
 exam_year: "1998"
+problem_number: 4
 source_tex: "archive/01_tokyo/1998/1998_0_4.tex"
 pdf_source: "archive/01_tokyo/1998/1998_0_4.pdf"
 page_image: "archive/01_tokyo/1998/1998_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xyz$空間に3点$A(1,0,0)$，$B(-1,0,0)$，$C(0,\sqrt3,0)$をとる．
+$xyz$空間に3点$A(1,0,0)$，$B(-1,0,0)$，$C(0,\sqrt3,0)$をとる．
 $\triangle ABC$を1つの面とし，$z\geqq0$の部分に含まれる正四面体$ABCD$をとる．
 さらに$\triangle ABD$を1つの面とし，点$C$と異なる点$E$をもう1つの頂点とする正四面体$ABDE$をとる．
 \begin{description}

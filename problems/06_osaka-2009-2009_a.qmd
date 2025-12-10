@@ -3,6 +3,7 @@ title: "大阪大学 2009年 2009_a"
 problem_id: "06_osaka-2009-2009_a"
 university: "大阪大学"
 exam_year: "2009"
+problem_number: 1
 source_tex: "archive/06_osaka/2009/2009_a.tex"
 pdf_source: "archive/06_osaka/2009/2009_a.pdf"
 page_image: "archive/06_osaka/2009/2009_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$r$，$s$，$\alpha$，$\beta$を実数とする．ただし$\alpha\neq\beta$とする．
+$r$，$s$，$\alpha$，$\beta$を実数とする．ただし$\alpha\neq\beta$とする．
 $a_1=\alpha$，$b_1=\beta$として，数列$\{ a_n \}$，$\{ b_n \}$を次のように定める．
 \[ \begin{pmatrix} a_{n+1} 
 

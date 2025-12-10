@@ -3,6 +3,7 @@ title: "九州大学 1974年 1974_3"
 problem_id: "07_kyushu-1974-1974_3"
 university: "九州大学"
 exam_year: "1974"
+problem_number: 3
 source_tex: "archive/07_kyushu/1974/1974_3.tex"
 pdf_source: "archive/07_kyushu/1974/1974_3.pdf"
 page_image: "archive/07_kyushu/1974/1974_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$\triangle ABC$は$AB=c$，$BC=a$，$\angle D={90}^\circ$の直角3角形である．
+$\triangle ABC$は$AB=c$，$BC=a$，$\angle D={90}^\circ$の直角3角形である．
 いま，$\triangle ABC$の斜辺$BC$の$n$等分点を，
 点$B$に近いものから順次$P_1, \, P_2, \, \cdots\cdots, \, P_k, \, \cdots\cdots, \, P_{n-1}$とする．このとき
 \begin{description}

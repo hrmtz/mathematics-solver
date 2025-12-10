@@ -3,6 +3,7 @@ title: "東北大学 1996年 1996_0_c"
 problem_id: "04_tohoku-1996-1996_0_c"
 university: "東北大学"
 exam_year: "1996"
+problem_number: 3
 source_tex: "archive/04_tohoku/1996/1996_0_c.tex"
 pdf_source: "archive/04_tohoku/1996/1996_0_c.pdf"
 page_image: "archive/04_tohoku/1996/1996_0_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　数列$\{ a_n \}$，$\{ b_n \}$が漸化式
+数列$\{ a_n \}$，$\{ b_n \}$が漸化式
 \[ a_{n+1}=a_n-4b_n+1, \hspace{1zw} b_{n+1}=2a_n-5b_n-1 \hspace{1zw} (n=1, \, 2, \, 3, \, \cdots\cdots) \]
 で定義されている．ただし，$a_1=1$，$b_1=0$とする．
 \begin{description}

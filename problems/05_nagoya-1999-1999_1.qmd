@@ -3,6 +3,7 @@ title: "名古屋大学 1999年 1999_1"
 problem_id: "05_nagoya-1999-1999_1"
 university: "名古屋大学"
 exam_year: "1999"
+problem_number: 1
 source_tex: "archive/05_nagoya/1999/1999_1.tex"
 pdf_source: "archive/05_nagoya/1999/1999_1.pdf"
 page_image: "archive/05_nagoya/1999/1999_1.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]ベクトル$\overrightarrow{a}=(a_1, \, a_2)$が次の条件（＊）をみたすとき，
 点$(a_1, \, a_2)$の存在範囲を図示せよ．

@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_0_3"
 problem_id: "02_kyoto-1999-1999_0_3"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/02_kyoto/1999/1999_0_3.tex"
 pdf_source: "archive/02_kyoto/1999/1999_0_3.pdf"
 page_image: "archive/02_kyoto/1999/1999_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　0以上の整数$x$に対して，$C(x)$で$x$の下2桁を表すことにする．
+0以上の整数$x$に対して，$C(x)$で$x$の下2桁を表すことにする．
 たとえば，$C(12578)=78$，$C(6)=6$である．
 $n$を2でも5でも割り切れない正の整数とする．
 \begin{description}

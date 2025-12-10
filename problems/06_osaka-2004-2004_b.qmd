@@ -3,6 +3,7 @@ title: "大阪大学 2004年 2004_b"
 problem_id: "06_osaka-2004-2004_b"
 university: "大阪大学"
 exam_year: "2004"
+problem_number: 2
 source_tex: "archive/06_osaka/2004/2004_b.tex"
 pdf_source: "archive/06_osaka/2004/2004_b.pdf"
 page_image: "archive/06_osaka/2004/2004_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　双曲線$x^2-y^2=a^2$ $(a>0)$上の点$P(s, \, t)$ $(s>0, \, t>0)$における法線$m$が，
+双曲線$x^2-y^2=a^2$ $(a>0)$上の点$P(s, \, t)$ $(s>0, \, t>0)$における法線$m$が，
 双曲線$y^2-x^2=b^2$ $(b>0)$に点$Q$で接するとする．
 \begin{description}
 \item[(1)]$s^2$，$t^2$を$a$，$b$で表せ．

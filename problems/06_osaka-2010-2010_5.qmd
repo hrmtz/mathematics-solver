@@ -3,6 +3,7 @@ title: "大阪大学 2010年 2010_5"
 problem_id: "06_osaka-2010-2010_5"
 university: "大阪大学"
 exam_year: "2010"
+problem_number: 5
 source_tex: "archive/06_osaka/2010/2010_5.tex"
 pdf_source: "archive/06_osaka/2010/2010_5.pdf"
 page_image: "archive/06_osaka/2010/2010_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$n$を0以上の整数とする．
+$n$を0以上の整数とする．
 立方体$ABCD-EFGH$の頂点を，以下のように移動する2つの動点$P$，$Q$を考える．
 時刻0には$P$は頂点$A$に位置し，$Q$は頂点$C$に位置している．
 時刻$n$において，$P$と$Q$が異なる頂点に位置していれば，

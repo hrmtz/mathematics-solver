@@ -3,6 +3,7 @@ title: "東京大学 1999年 1999_5"
 problem_id: "01_tokyo-1999-1999_5"
 university: "東京大学"
 exam_year: "1999"
+problem_number: 5
 source_tex: "archive/01_tokyo/1999/1999_5.tex"
 pdf_source: "archive/01_tokyo/1999/1999_5.pdf"
 page_image: "archive/01_tokyo/1999/1999_5.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(1)]$k$を自然数とする．
 $m$を$m=2^k$とおくとき，

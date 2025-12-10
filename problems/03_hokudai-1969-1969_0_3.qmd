@@ -3,6 +3,7 @@ title: "北海道大学 1969年 1969_0_3"
 problem_id: "03_hokudai-1969-1969_0_3"
 university: "北海道大学"
 exam_year: "1969"
+problem_number: 3
 source_tex: "archive/03_hokudai/1969/1969_0_3.tex"
 pdf_source: "archive/03_hokudai/1969/1969_0_3.pdf"
 page_image: "archive/03_hokudai/1969/1969_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　右の図は空間の直交座標の原点$O$および座標軸上に頂点をもつ3角すい$OABC$で，
+右の図は空間の直交座標の原点$O$および座標軸上に頂点をもつ3角すい$OABC$で，
 $AB=2a$，$AC=3a$，$\angle BAC={60}^\circ$である．
  
 

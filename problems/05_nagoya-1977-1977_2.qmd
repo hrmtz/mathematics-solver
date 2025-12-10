@@ -3,6 +3,7 @@ title: "名古屋大学 1977年 1977_2"
 problem_id: "05_nagoya-1977-1977_2"
 university: "名古屋大学"
 exam_year: "1977"
+problem_number: 2
 source_tex: "archive/05_nagoya/1977/1977_2.tex"
 pdf_source: "archive/05_nagoya/1977/1977_2.pdf"
 page_image: "archive/05_nagoya/1977/1977_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　3けたの素数$p$の百の位の数字を$a$，十の位の数字を$b$，一の位の数字を$c$とする．
+3けたの素数$p$の百の位の数字を$a$，十の位の数字を$b$，一の位の数字を$c$とする．
 このとき，2次方程式$ax^2+bx+c=0$は整数解をもたないことを証明せよ．
 
 ---

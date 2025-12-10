@@ -3,6 +3,7 @@ title: "大阪大学 1979年 1979_4"
 problem_id: "06_osaka-1979-1979_4"
 university: "大阪大学"
 exam_year: "1979"
+problem_number: 4
 source_tex: "archive/06_osaka/1979/1979_4.tex"
 pdf_source: "archive/06_osaka/1979/1979_4.pdf"
 page_image: "archive/06_osaka/1979/1979_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$f(x)=x\sin x$とおく．
+$f(x)=x\sin x$とおく．
 $n$を自然数とし，$I_n$は区間$[n\pi, \, (n+1)\pi]$を表すとする．
 \begin{description}
 \item[(1)]区間$I_n$において$|f(x)|$を最大にする$x$の値を$n\pi+a_n$ $(0\leqq a_n \leqq\pi)$とするとき

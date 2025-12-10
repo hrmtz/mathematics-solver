@@ -3,6 +3,7 @@ title: "京都大学 1979年 1979_4"
 problem_id: "02_kyoto-1979-1979_4"
 university: "京都大学"
 exam_year: "1979"
+problem_number: 4
 source_tex: "archive/02_kyoto/1979/1979_4.tex"
 pdf_source: "archive/02_kyoto/1979/1979_4.pdf"
 page_image: "archive/02_kyoto/1979/1979_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　2人の人が1つのサイコロを1回ずつふり，大きい目を出した方を勝ちとすることにした．
+2人の人が1つのサイコロを1回ずつふり，大きい目を出した方を勝ちとすることにした．
 ただし，このサイコロは必ずしも正しいものではなく，$k$の目の出る確率は$p_k$である$(k=1,2,3,4,5,6)$．
 このとき
 \begin{description}

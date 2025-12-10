@@ -3,6 +3,7 @@ title: "北海道大学 2013年 2013_2"
 problem_id: "03_hokudai-2013-2013_2"
 university: "北海道大学"
 exam_year: "2013"
+problem_number: 2
 source_tex: "archive/03_hokudai/2013/2013_2.tex"
 pdf_source: "archive/03_hokudai/2013/2013_2.pdf"
 page_image: "archive/03_hokudai/2013/2013_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標平面上で，直線$y=x$に関する対称移動を$f$とし，
+座標平面上で，直線$y=x$に関する対称移動を$f$とし，
 実数$c$に対して，直線$y=cx$に関する対称移動を$g$とする。
 また，原点を中心とする${120}^\circ$の回転移動を$h$とする。
 \begin{description}

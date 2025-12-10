@@ -3,6 +3,7 @@ title: "名古屋大学 1999年 1999_0_1"
 problem_id: "05_nagoya-1999-1999_0_1"
 university: "名古屋大学"
 exam_year: "1999"
+problem_number: 1
 source_tex: "archive/05_nagoya/1999/1999_0_1.tex"
 pdf_source: "archive/05_nagoya/1999/1999_0_1.pdf"
 page_image: "archive/05_nagoya/1999/1999_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　曲線$C:y=x|x-1|$と，直線$l:y=kx$に関して，以下の問に答えよ．
+曲線$C:y=x|x-1|$と，直線$l:y=kx$に関して，以下の問に答えよ．
 \begin{description}
 \item[(1)]$C$と$l$が$x>0$で2つの交点を持つような$k$の範囲を求めよ．
 \item[(2)]$k$が(1)で求めた範囲を動くとき，

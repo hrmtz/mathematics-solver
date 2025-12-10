@@ -3,6 +3,7 @@ title: "東北大学 2000年 2000_f"
 problem_id: "04_tohoku-2000-2000_f"
 university: "東北大学"
 exam_year: "2000"
+problem_number: 6
 source_tex: "archive/04_tohoku/2000/2000_f.tex"
 pdf_source: "archive/04_tohoku/2000/2000_f.pdf"
 page_image: "archive/04_tohoku/2000/2000_f.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　実数$b$，$d$と正の数$c$に対して，
+実数$b$，$d$と正の数$c$に対して，
 関数$f(x)=x^3+bx^2-cx+d$，および，$f(x)$と$y$軸に関して対称なグラフをもつ関数$g(x)$について次の問いに答えよ．
 \begin{description}
 \item[(1)]2つの曲線$y=f(x)$と$y=g(x)$との交点の$x$座標，

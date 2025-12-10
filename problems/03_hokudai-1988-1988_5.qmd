@@ -3,6 +3,7 @@ title: "北海道大学 1988年 1988_5"
 problem_id: "03_hokudai-1988-1988_5"
 university: "北海道大学"
 exam_year: "1988"
+problem_number: 5
 source_tex: "archive/03_hokudai/1988/1988_5.tex"
 pdf_source: "archive/03_hokudai/1988/1988_5.pdf"
 page_image: "archive/03_hokudai/1988/1988_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　曲線$\displaystyle y=\frac{a}{2}(e^\frac{x}{a}+e^{-\frac{x}{a}})$を$C$とし，
+曲線$\displaystyle y=\frac{a}{2}(e^\frac{x}{a}+e^{-\frac{x}{a}})$を$C$とし，
 $C$と$y$軸との交点を$P$，
 $C$と直線$x=ab$との交点を$Q$，
 点$(ab, \, 0)$を$R$とする．

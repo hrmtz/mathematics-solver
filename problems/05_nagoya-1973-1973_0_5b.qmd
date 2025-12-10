@@ -3,6 +3,7 @@ title: "名古屋大学 1973年 1973_0_5b"
 problem_id: "05_nagoya-1973-1973_0_5b"
 university: "名古屋大学"
 exam_year: "1973"
+problem_number: 5
 source_tex: "archive/05_nagoya/1973/1973_0_5b.tex"
 pdf_source: "archive/05_nagoya/1973/1973_0_5b.pdf"
 page_image: "archive/05_nagoya/1973/1973_0_5b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5 (b)
-　赤札10枚，白札7枚，青札5枚合計22枚の札がある．
+赤札10枚，白札7枚，青札5枚合計22枚の札がある．
 この中から4枚を取り出すとき，次の事象の確率を既約分数で表せ．
 \begin{description}
 \item[(i)]4枚とも赤である．

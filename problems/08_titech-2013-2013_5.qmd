@@ -3,6 +3,7 @@ title: "東京科学大学 2013年 2013_5"
 problem_id: "08_titech-2013-2013_5"
 university: "東京科学大学"
 exam_year: "2013"
+problem_number: 5
 source_tex: "archive/08_titech/2013/2013_5.tex"
 pdf_source: "archive/08_titech/2013/2013_5.pdf"
 page_image: "archive/08_titech/2013/2013_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$a$，$b$を正の実数とし，
+$a$，$b$を正の実数とし，
 円$C_1:{(x-a)}^2+y^2=a^2$と
 楕円$\displaystyle C_2:x^2+\frac{y^2}{b^2}=1$を考える．
 \begin{description}

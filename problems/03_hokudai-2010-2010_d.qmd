@@ -3,6 +3,7 @@ title: "北海道大学 2010年 2010_d"
 problem_id: "03_hokudai-2010-2010_d"
 university: "北海道大学"
 exam_year: "2010"
+problem_number: 4
 source_tex: "archive/03_hokudai/2010/2010_d.tex"
 pdf_source: "archive/03_hokudai/2010/2010_d.pdf"
 page_image: "archive/03_hokudai/2010/2010_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　座標平面上の点$(x, \, y)$を点$(x', \, y')$に移す点の移動$f$が
+座標平面上の点$(x, \, y)$を点$(x', \, y')$に移す点の移動$f$が
 行列$A=\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$を用いて

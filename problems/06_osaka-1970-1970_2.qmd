@@ -3,6 +3,7 @@ title: "大阪大学 1970年 1970_2"
 problem_id: "06_osaka-1970-1970_2"
 university: "大阪大学"
 exam_year: "1970"
+problem_number: 2
 source_tex: "archive/06_osaka/1970/1970_2.tex"
 pdf_source: "archive/06_osaka/1970/1970_2.pdf"
 page_image: "archive/06_osaka/1970/1970_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　複素平面上に2つの複素数$\alpha$，$\beta$がある．
+複素平面上に2つの複素数$\alpha$，$\beta$がある．
 実数$x$，$y$が$0 \leqq x \leqq 1$，$0 \leqq y \leqq 1$の範囲内の値をすべてとるとき，
 複素数$x\alpha+y\beta$のつくる図形の面積を$S$とする．
 絶対値を1に保ちながら$\alpha$，$\beta$が動くとき，

@@ -3,6 +3,7 @@ title: "東北大学 1995年 1995_4"
 problem_id: "04_tohoku-1995-1995_4"
 university: "東北大学"
 exam_year: "1995"
+problem_number: 4
 source_tex: "archive/04_tohoku/1995/1995_4.tex"
 pdf_source: "archive/04_tohoku/1995/1995_4.pdf"
 page_image: "archive/04_tohoku/1995/1995_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面$z=x-y$上の4点$A(0, \, 0, \, 0)$，$B(1, \, 1, \, 0)$，
+平面$z=x-y$上の4点$A(0, \, 0, \, 0)$，$B(1, \, 1, \, 0)$，
 $C(2, \, 1, \, 1)$，$D(1, \, 0, \, 1)$を頂点とする四角形（内部を含む）を
 $x$軸のまわりに回転させてできた立体を$K$とする。
 \begin{description}

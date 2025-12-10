@@ -3,6 +3,7 @@ title: "東京大学 2002年 2002_8"
 problem_id: "01_tokyo-2002-2002_8"
 university: "東京大学"
 exam_year: "2002"
+problem_number: 2
 source_tex: "archive/01_tokyo/2002/2002_8.tex"
 pdf_source: "archive/01_tokyo/2002/2002_8.pdf"
 page_image: "archive/01_tokyo/2002/2002_8.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xyz$空間において次のような3つの互いに合同な長方形$L_1$，$L_2$，$L_3$を考える．
+$xyz$空間において次のような3つの互いに合同な長方形$L_1$，$L_2$，$L_3$を考える．
 \begin{description}
 \item[●]$L_1$は$xy$平面に含まれ，$P_1(a,b,0)$，$Q_1(-a,b,0)$，$R_1(-a,-b,0)$，$S_1(a,-b,0)$を頂点とする．
 \item[●]$L_2$は$yz$平面に含まれ，$P_2(0,a,b)$，$Q_2(0,-a,b)$，$R_2(0,-a,-b)$，$S_2(0,a,-b)$を頂点とする．

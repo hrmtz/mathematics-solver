@@ -3,6 +3,7 @@ title: "東京大学 2019年 2019_0_1"
 problem_id: "01_tokyo-2019-2019_0_1"
 university: "東京大学"
 exam_year: "2019"
+problem_number: 1
 source_tex: "archive/01_tokyo/2019/2019_0_1.tex"
 pdf_source: "archive/01_tokyo/2019/2019_0_1.pdf"
 page_image: "archive/01_tokyo/2019/2019_0_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　座標平面の原点を$O$とし，
+座標平面の原点を$O$とし，
 $O$，$A(1, \, 0)$，$B(1, \, 1)$，$C(0, \, 1)$を辺の長さが1の正方形の頂点とする。
 3点$P(p, \, 0)$，$Q(0, \, q)$，$R(r, \, 1)$はそれぞれ辺$OA$，$OC$，$BC$上にあり，
 3点$O$，$P$，$Q$および3点$P$，$Q$，$R$はどちらも

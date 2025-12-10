@@ -3,6 +3,7 @@ title: "北海道大学 2016年 2016_a"
 problem_id: "03_hokudai-2016-2016_a"
 university: "北海道大学"
 exam_year: "2016"
+problem_number: 1
 source_tex: "archive/03_hokudai/2016/2016_a.tex"
 pdf_source: "archive/03_hokudai/2016/2016_a.pdf"
 page_image: "archive/03_hokudai/2016/2016_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$\displaystyle0<t\leqq\frac{\pi}{2}$とし，媒介変数$\theta$を用いて
+$\displaystyle0<t\leqq\frac{\pi}{2}$とし，媒介変数$\theta$を用いて
 \[ x=\cos^3\theta, \hspace{1zw} y=\sin^3\theta \hspace{1zw} (0 \leqq \theta \leqq t) \]
 と表される曲線の長さを$l(t)$とおく。
 \begin{description}

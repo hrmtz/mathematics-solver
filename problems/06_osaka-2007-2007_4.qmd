@@ -3,6 +3,7 @@ title: "大阪大学 2007年 2007_4"
 problem_id: "06_osaka-2007-2007_4"
 university: "大阪大学"
 exam_year: "2007"
+problem_number: 4
 source_tex: "archive/06_osaka/2007/2007_4.tex"
 pdf_source: "archive/06_osaka/2007/2007_4.pdf"
 page_image: "archive/06_osaka/2007/2007_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$f(x)=x^3-x$とし，
+$f(x)=x^3-x$とし，
 $t$を実数とする．
 $xy$平面において，
 曲線$y=f(x)$を$C_1$とし，

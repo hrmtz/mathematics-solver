@@ -3,6 +3,7 @@ title: "東京大学 1981年 1981_3"
 problem_id: "01_tokyo-1981-1981_3"
 university: "東京大学"
 exam_year: "1981"
+problem_number: 3
 source_tex: "archive/01_tokyo/1981/1981_3.tex"
 pdf_source: "archive/01_tokyo/1981/1981_3.pdf"
 page_image: "archive/01_tokyo/1981/1981_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　放物線$y=x^2$を$C$で表す．
+放物線$y=x^2$を$C$で表す．
 $C$上の点$Q$を通り，
 $Q$における$C$の接線に垂直な直線を，
 $Q$における$C$の法線という．

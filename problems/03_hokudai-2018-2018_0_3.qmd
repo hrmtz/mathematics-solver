@@ -3,6 +3,7 @@ title: "北海道大学 2018年 2018_0_3"
 problem_id: "03_hokudai-2018-2018_0_3"
 university: "北海道大学"
 exam_year: "2018"
+problem_number: 3
 source_tex: "archive/03_hokudai/2018/2018_0_3.tex"
 pdf_source: "archive/03_hokudai/2018/2018_0_3.pdf"
 page_image: "archive/03_hokudai/2018/2018_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　赤色，青色，黄色のサイコロが1つずつある。
+赤色，青色，黄色のサイコロが1つずつある。
 この3つのサイコロを同時に投げる。
 赤色，青色，黄色のサイコロの出た目の数をそれぞれ$R$，$B$，$Y$とし，
 自然数$s$，$t$，$u$を$s=100R+10B+Y$，$t=100B+10Y+R$，$u=100Y+10R+B$で定める。

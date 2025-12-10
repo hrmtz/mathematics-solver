@@ -3,6 +3,7 @@ title: "東京大学 2007年 2007_6"
 problem_id: "01_tokyo-2007-2007_6"
 university: "東京大学"
 exam_year: "2007"
+problem_number: 6
 source_tex: "archive/01_tokyo/2007/2007_6.tex"
 pdf_source: "archive/01_tokyo/2007/2007_6.pdf"
 page_image: "archive/01_tokyo/2007/2007_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　以下の問いに答えよ．
+以下の問いに答えよ．
 \begin{description}
 \item[(1)]$0<x<a$をみたす実数$x$，$a$に対し，次を示せ．
 \[ \frac{2x}{a} < \int_{a-x}^{a+x}\frac{1}{t}dt < x \left( \frac{1}{a+x}+\frac{1}{a-x} \right) \]

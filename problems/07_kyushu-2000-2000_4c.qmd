@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_4c"
 problem_id: "07_kyushu-2000-2000_4c"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/07_kyushu/2000/2000_4c.tex"
 pdf_source: "archive/07_kyushu/2000/2000_4c.pdf"
 page_image: "archive/07_kyushu/2000/2000_4c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (c)
-　$a$，$b$，$c$を0でない実数として，
+$a$，$b$，$c$を0でない実数として，
 空間内に3点$A(a, \, 0, \, 0)$，$B(0, \, b, \, 0)$，$C(0, \, 0, \, c)$をとる．
 \begin{description}
 \item[(1)]空間内の点$P$が$\overrightarrow{AP}\cdot(\overrightarrow{BP}+2\overrightarrow{CP})=0$を

@@ -3,6 +3,7 @@ title: "名古屋大学 2002年 2002_4b"
 problem_id: "05_nagoya-2002-2002_4b"
 university: "名古屋大学"
 exam_year: "2002"
+problem_number: 4
 source_tex: "archive/05_nagoya/2002/2002_4b.tex"
 pdf_source: "archive/05_nagoya/2002/2002_4b.pdf"
 page_image: "archive/05_nagoya/2002/2002_4b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4 (b)
-　次の問いに答えよ．
+次の問いに答えよ．
 ただし，偏角$\theta$は，$0^\circ\leqq\theta<{360}^\circ$の範囲で考えるものとする．
 \begin{description}
 \item[(1)]$|z+i|=|z-i|$を満たす複素数$z$は，実数に限ることを示せ．

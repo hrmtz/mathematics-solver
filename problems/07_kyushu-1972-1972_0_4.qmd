@@ -3,6 +3,7 @@ title: "九州大学 1972年 1972_0_4"
 problem_id: "07_kyushu-1972-1972_0_4"
 university: "九州大学"
 exam_year: "1972"
+problem_number: 4
 source_tex: "archive/07_kyushu/1972/1972_0_4.tex"
 pdf_source: "archive/07_kyushu/1972/1972_0_4.pdf"
 page_image: "archive/07_kyushu/1972/1972_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　曲線
+曲線
 \[ y=px^2+qx+r\cdots\cdots\text{\ding{"AC}} \hspace{1zw} (\text{ただし}, \, p>0, \, q^2-4pr<0) \]
 と3つの直線
 \[ x=\alpha\cdots\cdots\text{\ding{"AD}}, \hspace{1zw}

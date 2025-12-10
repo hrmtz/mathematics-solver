@@ -3,6 +3,7 @@ title: "東北大学 2021年 2021_0_d"
 problem_id: "04_tohoku-2021-2021_0_d"
 university: "東北大学"
 exam_year: "2021"
+problem_number: 4
 source_tex: "archive/04_tohoku/2021/2021_0_d.tex"
 pdf_source: "archive/04_tohoku/2021/2021_0_d.pdf"
 page_image: "archive/04_tohoku/2021/2021_0_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$を正の整数とする。A，B，Cの3種類の文字から重複を許して$n$個の文字を一列に並べるとき，
+$n$を正の整数とする。A，B，Cの3種類の文字から重複を許して$n$個の文字を一列に並べるとき，
 AとBが隣り合わない並べ方の総数を$f_n$とする。
 たとえば$n=2$のとき，このような並べ方は
 \[ AA, \hspace{1zw} AC, \hspace{1zw} BB, \hspace{1zw} BC, \hspace{1zw}

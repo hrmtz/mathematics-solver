@@ -3,6 +3,7 @@ title: "東京大学 2018年 2018_3"
 problem_id: "01_tokyo-2018-2018_3"
 university: "東京大学"
 exam_year: "2018"
+problem_number: 3
 source_tex: "archive/01_tokyo/2018/2018_3.tex"
 pdf_source: "archive/01_tokyo/2018/2018_3.pdf"
 page_image: "archive/01_tokyo/2018/2018_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　放物線$y=x^2$のうち$-1 \leqq x \leqq 1$をみたす部分を$C$とする。
+放物線$y=x^2$のうち$-1 \leqq x \leqq 1$をみたす部分を$C$とする。
 座標平面上の原点$O$と点$A(1, \, 0)$を考える。
 $k>0$を実数とする。
 点$P$が$C$上を動き，点$Q$が線分$OA$上を動くとき，

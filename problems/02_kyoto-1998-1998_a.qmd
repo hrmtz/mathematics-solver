@@ -3,6 +3,7 @@ title: "京都大学 1998年 1998_a"
 problem_id: "02_kyoto-1998-1998_a"
 university: "京都大学"
 exam_year: "1998"
+problem_number: 1
 source_tex: "archive/02_kyoto/1998/1998_a.tex"
 pdf_source: "archive/02_kyoto/1998/1998_a.pdf"
 page_image: "archive/02_kyoto/1998/1998_a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　2次の正方行列$X$と$Y$は$XY=YX$のとき交換可能であるという．
+2次の正方行列$X$と$Y$は$XY=YX$のとき交換可能であるという．
 2次の正方行列$A$と$B$は交換可能ではないが，$A$と$AB$は交換可能であり$A$と$BA$も交換可能であるとする．
 このとき，
 \begin{description}

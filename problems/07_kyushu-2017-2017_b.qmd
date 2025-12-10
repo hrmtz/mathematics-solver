@@ -3,6 +3,7 @@ title: "九州大学 2017年 2017_b"
 problem_id: "07_kyushu-2017-2017_b"
 university: "九州大学"
 exam_year: "2017"
+problem_number: 2
 source_tex: "archive/07_kyushu/2017/2017_b.tex"
 pdf_source: "archive/07_kyushu/2017/2017_b.pdf"
 page_image: "archive/07_kyushu/2017/2017_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　1個のさいころを4回投げ，1回目に出た目の数を$a$，2回目に出た目の数を$b$，
+1個のさいころを4回投げ，1回目に出た目の数を$a$，2回目に出た目の数を$b$，
 3回目に出た目の数を$c$，4回目に出た目の数を$d$とする。
 $d$が，$a$と$b$と$c$の最大公約数の倍数となる確率を求めよ。
 

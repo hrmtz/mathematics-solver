@@ -3,6 +3,7 @@ title: "東京科学大学 2001年 2001_b"
 problem_id: "08_titech-2001-2001_b"
 university: "東京科学大学"
 exam_year: "2001"
+problem_number: 2
 source_tex: "archive/08_titech/2001/2001_b.tex"
 pdf_source: "archive/08_titech/2001/2001_b.pdf"
 page_image: "archive/08_titech/2001/2001_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xy$平面の原点$(0,0)$を中心とする半径$a$，$b$の同心円上にそれぞれ動点$A$，$B$がある．
+$xy$平面の原点$(0,0)$を中心とする半径$a$，$b$の同心円上にそれぞれ動点$A$，$B$がある．
 $C=(1,0)$とすると$\triangle ABC$の面積は，
 $A$が$\displaystyle A_0= \left( a\cos\frac{3\pi}{4},a\sin\frac{3\pi}{4} \right)$，
 $B$が$\displaystyle B_0= \left( b\cos\frac{4\pi}{3},b\sin\frac{4\pi}{3} \right)$のときに最大値をとるという．

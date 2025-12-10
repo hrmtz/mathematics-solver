@@ -3,6 +3,7 @@ title: "京都大学 1987年 1987_4"
 problem_id: "02_kyoto-1987-1987_4"
 university: "京都大学"
 exam_year: "1987"
+problem_number: 4
 source_tex: "archive/02_kyoto/1987/1987_4.tex"
 pdf_source: "archive/02_kyoto/1987/1987_4.pdf"
 page_image: "archive/02_kyoto/1987/1987_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　3次関数$f(x)=x^3+ax^2+bx+c$($a$，$b$，$c$は定数)のグラフ$y=f(x)$と，定数$m$とを考える．
+3次関数$f(x)=x^3+ax^2+bx+c$($a$，$b$，$c$は定数)のグラフ$y=f(x)$と，定数$m$とを考える．
 \begin{description}
 \item[(1)]このグラフの接線で傾き$m$のものは何本あるか．
 \item[(2)]傾き$m$の接線が2本ある場合について，その接線$l_1$，$l_2$の接点を$P_1$，$P_2$とし，

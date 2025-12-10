@@ -3,6 +3,7 @@ title: "北海道大学 1967年 1967_1"
 problem_id: "03_hokudai-1967-1967_1"
 university: "北海道大学"
 exam_year: "1967"
+problem_number: 1
 source_tex: "archive/03_hokudai/1967/1967_1.tex"
 pdf_source: "archive/03_hokudai/1967/1967_1.pdf"
 page_image: "archive/03_hokudai/1967/1967_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$f(x)=x^4-3x^3+(a+2)x^2-2ax$とする．
+$f(x)=x^4-3x^3+(a+2)x^2-2ax$とする．
 \begin{description}
 \item[(1)]$f(x)$を因数分解せよ．
 \item[(2)]$x(x-2)>0$が$f(x)<0$の必要条件になるように$a$の範囲を定めよ．

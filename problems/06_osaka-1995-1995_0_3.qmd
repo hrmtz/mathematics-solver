@@ -3,6 +3,7 @@ title: "大阪大学 1995年 1995_0_3"
 problem_id: "06_osaka-1995-1995_0_3"
 university: "大阪大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/06_osaka/1995/1995_0_3.tex"
 pdf_source: "archive/06_osaka/1995/1995_0_3.pdf"
 page_image: "archive/06_osaka/1995/1995_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　原点を$O$とし，曲線$y=x^3$上の$O$とは異なる2点を$P(a, \, a^3)$，$Q(b, \, b^3)$とする．
+原点を$O$とし，曲線$y=x^3$上の$O$とは異なる2点を$P(a, \, a^3)$，$Q(b, \, b^3)$とする．
 $a \neq \pm b$のとき，次の問に答えよ．
 \begin{description}
 \item[(1)]放物線$y=f(x)$が3点$O$，$P$，$Q$を通るように2次式$f(x)$を定めよ．

@@ -3,6 +3,7 @@ title: "北海道大学 2019年 2019_3"
 problem_id: "03_hokudai-2019-2019_3"
 university: "北海道大学"
 exam_year: "2019"
+problem_number: 3
 source_tex: "archive/03_hokudai/2019/2019_3.tex"
 pdf_source: "archive/03_hokudai/2019/2019_3.pdf"
 page_image: "archive/03_hokudai/2019/2019_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$t$を$0<t<1$を満たす実数とする。
+$t$を$0<t<1$を満たす実数とする。
 0，$\displaystyle\frac{1}{t}$以外のすべての実数$x$で定義された関数
 \[ f(x)=\frac{x+t}{x(1-tx)} \]
 を考える。

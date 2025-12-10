@@ -3,6 +3,7 @@ title: "東京大学 1996年 1996_2"
 problem_id: "01_tokyo-1996-1996_2"
 university: "東京大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/01_tokyo/1996/1996_2.tex"
 pdf_source: "archive/01_tokyo/1996/1996_2.pdf"
 page_image: "archive/01_tokyo/1996/1996_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$，$b$，$c$，$d$を正の数とする．
+$a$，$b$，$c$，$d$を正の数とする．
 不等式$\begin{cases} s(1-a)-tb>0 
 
  -sc+t(1-d)>0 \end{cases}$を同時に満たす正の数$s$，$t$があるとき，

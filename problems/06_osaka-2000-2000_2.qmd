@@ -3,6 +3,7 @@ title: "大阪大学 2000年 2000_2"
 problem_id: "06_osaka-2000-2000_2"
 university: "大阪大学"
 exam_year: "2000"
+problem_number: 2
 source_tex: "archive/06_osaka/2000/2000_2.tex"
 pdf_source: "archive/06_osaka/2000/2000_2.pdf"
 page_image: "archive/06_osaka/2000/2000_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xy$平面上の16個の点からなる集合
+$xy$平面上の16個の点からなる集合
 \[ \{(x, \, y)|x=0, \, 1, \, 2, \, 3, \, y=0, \, 1, \, 2, \, 3\} \]
 を考える．
 この集合から異なる3点を無作為に選ぶ試行において，

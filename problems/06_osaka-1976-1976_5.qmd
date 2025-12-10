@@ -3,6 +3,7 @@ title: "大阪大学 1976年 1976_5"
 problem_id: "06_osaka-1976-1976_5"
 university: "大阪大学"
 exam_year: "1976"
+problem_number: 5
 source_tex: "archive/06_osaka/1976/1976_5.tex"
 pdf_source: "archive/06_osaka/1976/1976_5.pdf"
 page_image: "archive/06_osaka/1976/1976_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　4けたの自然数$A$の平方根を求めるために次の手順がある．
+4けたの自然数$A$の平方根を求めるために次の手順がある．
 \begin{description}
 \item[(i)]下から2けた目と3けた目の間に仕切りを入れ，
 上2けた，下2けたの表す数をそれぞれ$a$，$b$とする$(10\leqq a<100, \, 0 \leqq b<100)$．

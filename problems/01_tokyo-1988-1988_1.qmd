@@ -3,6 +3,7 @@ title: "東京大学 1988年 1988_1"
 problem_id: "01_tokyo-1988-1988_1"
 university: "東京大学"
 exam_year: "1988"
+problem_number: 1
 source_tex: "archive/01_tokyo/1988/1988_1.tex"
 pdf_source: "archive/01_tokyo/1988/1988_1.pdf"
 page_image: "archive/01_tokyo/1988/1988_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$xy$平面上の一次変換$f$が次の3条件をみたすとする．
+$xy$平面上の一次変換$f$が次の3条件をみたすとする．
 \begin{description}
 \item[(i)]点$(1,0)$は$f$により第4象限の内部にうつる．
 \item[(ii)]点$(0,1)$は$f$により第2象限の内部にうつる．

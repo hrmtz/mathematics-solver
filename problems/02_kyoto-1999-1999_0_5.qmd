@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_0_5"
 problem_id: "02_kyoto-1999-1999_0_5"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 5
 source_tex: "archive/02_kyoto/1999/1999_0_5.tex"
 pdf_source: "archive/02_kyoto/1999/1999_0_5.pdf"
 page_image: "archive/02_kyoto/1999/1999_0_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$n$，$k$は自然数で，$n\geqq3$，$k\geqq2$を満たすものとする．
+$n$，$k$は自然数で，$n\geqq3$，$k\geqq2$を満たすものとする．
 いま，$n$角柱の$n+2$個の面に1から$n+2$までの番号が書いてあるものとする．
 この$n+2$個の面に1面ずつ，異なる$k$色の中から1色ずつ選んでは塗っていく．
 このとき，どの隣り合う面の組も同一色では塗られない塗り方の数を$P_k$で表す．

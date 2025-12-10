@@ -3,6 +3,7 @@ title: "東京科学大学 2003年 2003_1"
 problem_id: "08_titech-2003-2003_1"
 university: "東京科学大学"
 exam_year: "2003"
+problem_number: 1
 source_tex: "archive/08_titech/2003/2003_1.tex"
 pdf_source: "archive/08_titech/2003/2003_1.pdf"
 page_image: "archive/08_titech/2003/2003_1.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]3次関数$y=-x^3+ax^2+bx$ $(a>0)$のグラフを$C$とする．
 原点を通る直線で，$C$とちょうど2点を共有するものを2本求めよ．

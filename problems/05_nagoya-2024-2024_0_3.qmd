@@ -3,6 +3,7 @@ title: "名古屋大学 2024年 2024_0_3"
 problem_id: "05_nagoya-2024-2024_0_3"
 university: "名古屋大学"
 exam_year: "2024"
+problem_number: 3
 source_tex: "archive/05_nagoya/2024/2024_0_3.tex"
 pdf_source: "archive/05_nagoya/2024/2024_0_3.pdf"
 page_image: "archive/05_nagoya/2024/2024_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$n$を自然数とする。表と裏が出る確率がそれぞれ$\displaystyle\frac{1}{2}$の
+$n$を自然数とする。表と裏が出る確率がそれぞれ$\displaystyle\frac{1}{2}$の
 コインを$n$回投げ，以下のように得点を決める。
 \begin{description}
 \item[●]最初に数直線上の原点に石を置き，コインを投げて表なら2，裏なら3だけ

@@ -3,6 +3,7 @@ title: "東京大学 1967年 1967_1"
 problem_id: "01_tokyo-1967-1967_1"
 university: "東京大学"
 exam_year: "1967"
+problem_number: 1
 source_tex: "archive/01_tokyo/1967/1967_1.tex"
 pdf_source: "archive/01_tokyo/1967/1967_1.pdf"
 page_image: "archive/01_tokyo/1967/1967_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$a$が正の定数，$n$が正の整数ならば，
+$a$が正の定数，$n$が正の整数ならば，
 $x \geqq 0$において不等式$\displaystyle ax^{n+1}+\frac{1}{\sqrt[n]{a}}>x$が成り立つことを証明せよ．
 
 ---

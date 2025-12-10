@@ -3,6 +3,7 @@ title: "京都大学 1996年 1996_0_3"
 problem_id: "02_kyoto-1996-1996_0_3"
 university: "京都大学"
 exam_year: "1996"
+problem_number: 3
 source_tex: "archive/02_kyoto/1996/1996_0_3.tex"
 pdf_source: "archive/02_kyoto/1996/1996_0_3.pdf"
 page_image: "archive/02_kyoto/1996/1996_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　各成分が0以上の整数である行列$A$で，$A^3=A$をみたすものをすべて求めよ．
+各成分が0以上の整数である行列$A$で，$A^3=A$をみたすものをすべて求めよ．
 
 ---
 

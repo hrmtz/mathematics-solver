@@ -3,6 +3,7 @@ title: "九州大学 2004年 2004_1"
 problem_id: "07_kyushu-2004-2004_1"
 university: "九州大学"
 exam_year: "2004"
+problem_number: 1
 source_tex: "archive/07_kyushu/2004/2004_1.tex"
 pdf_source: "archive/07_kyushu/2004/2004_1.pdf"
 page_image: "archive/07_kyushu/2004/2004_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$n=0, \, 1, \, 2, \, \cdots$に対して
+$n=0, \, 1, \, 2, \, \cdots$に対して
 $\displaystyle I_n=\frac{{(-1)^n}}{n \, !}\int_0^2x^ne^xdx$とおく．
 ただし，$0 \, !=1$とする．
 \begin{description}

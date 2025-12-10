@@ -3,6 +3,7 @@ title: "東京大学 2023年 2023_4"
 problem_id: "01_tokyo-2023-2023_4"
 university: "東京大学"
 exam_year: "2023"
+problem_number: 4
 source_tex: "archive/01_tokyo/2023/2023_4.tex"
 pdf_source: "archive/01_tokyo/2023/2023_4.pdf"
 page_image: "archive/01_tokyo/2023/2023_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　座標空間内の4点$O(0, \, 0, \, 0)$，$A(2, \, 0, \, 0)$，$B(1, \, 1, \, 1)$，$C(1, \, 2, \, 3)$を考える。
+座標空間内の4点$O(0, \, 0, \, 0)$，$A(2, \, 0, \, 0)$，$B(1, \, 1, \, 1)$，$C(1, \, 2, \, 3)$を考える。
 \begin{description}
 \item[(1)]$\overrightarrow{OP}\perp\overrightarrow{OA}$，$\overrightarrow{OP}\perp\overrightarrow{OB}$，
 $\overrightarrow{OP}\cdot\overrightarrow{OC}=1$を満たす点$P$の座標を求めよ。

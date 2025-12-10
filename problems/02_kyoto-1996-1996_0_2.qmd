@@ -3,6 +3,7 @@ title: "京都大学 1996年 1996_0_2"
 problem_id: "02_kyoto-1996-1996_0_2"
 university: "京都大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/02_kyoto/1996/1996_0_2.tex"
 pdf_source: "archive/02_kyoto/1996/1996_0_2.pdf"
 page_image: "archive/02_kyoto/1996/1996_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$0<a \leqq b$をみたす実数$a$，$b$に対し，
+$0<a \leqq b$をみたす実数$a$，$b$に対し，
 数列$\{a_n\}$，$\{b_n\}$を$a_1=a$，$b_1=b$，
 $a_n=\sqrt{a_{n-1}b_{n-1}}$，$\displaystyle b_n=\frac{a_{n-1}+b_{n-1}}{2}$ $(n\geqq2)$によって定める．
 \begin{description}

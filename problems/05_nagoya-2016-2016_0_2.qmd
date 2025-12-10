@@ -3,6 +3,7 @@ title: "名古屋大学 2016年 2016_0_2"
 problem_id: "05_nagoya-2016-2016_0_2"
 university: "名古屋大学"
 exam_year: "2016"
+problem_number: 2
 source_tex: "archive/05_nagoya/2016/2016_0_2.tex"
 pdf_source: "archive/05_nagoya/2016/2016_0_2.pdf"
 page_image: "archive/05_nagoya/2016/2016_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　$n$を正の整数とし，$k$を$1 \leqq k \leqq n+2$を満たす整数とする。
+$n$を正の整数とし，$k$を$1 \leqq k \leqq n+2$を満たす整数とする。
 $n+2$枚のカードがあり，そのうちの1枚には数字0が，
 他の1枚には数字2が，残りの$n$枚には数字1が書かれている。
 この$n+2$枚のカードのうちから無作為に$k$枚のカードを取り出すとする。

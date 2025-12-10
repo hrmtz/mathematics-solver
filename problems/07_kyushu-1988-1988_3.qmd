@@ -3,6 +3,7 @@ title: "九州大学 1988年 1988_3"
 problem_id: "07_kyushu-1988-1988_3"
 university: "九州大学"
 exam_year: "1988"
+problem_number: 3
 source_tex: "archive/07_kyushu/1988/1988_3.tex"
 pdf_source: "archive/07_kyushu/1988/1988_3.pdf"
 page_image: "archive/07_kyushu/1988/1988_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$\alpha$，$\beta$は定数で，$0<\alpha<\beta<1$を満たすとし，
+$\alpha$，$\beta$は定数で，$0<\alpha<\beta<1$を満たすとし，
 $f(x)=x+(x-\alpha)(x-\beta)$とする．
 数列$\{ x_n \}$を$x_1=\alpha\beta$，$x_n=f(x_{n-1})$ $(n\geqq2)$で定める．
 \begin{description}

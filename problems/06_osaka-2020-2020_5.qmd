@@ -3,6 +3,7 @@ title: "大阪大学 2020年 2020_5"
 problem_id: "06_osaka-2020-2020_5"
 university: "大阪大学"
 exam_year: "2020"
+problem_number: 5
 source_tex: "archive/06_osaka/2020/2020_5.tex"
 pdf_source: "archive/06_osaka/2020/2020_5.pdf"
 page_image: "archive/06_osaka/2020/2020_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　3辺の長さの和が2である三角形ABCにおいて，
+3辺の長さの和が2である三角形ABCにおいて，
 辺BCの長さを$a$，辺CAの長さを$b$で表す．
 三角形ABCを辺BCを軸として1回転させてできる回転体の体積をVとする．
 以下の問いに答えよ．

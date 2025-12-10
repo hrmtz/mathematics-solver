@@ -3,6 +3,7 @@ title: "大阪大学 2024年 2024_0_3"
 problem_id: "06_osaka-2024-2024_0_3"
 university: "大阪大学"
 exam_year: "2024"
+problem_number: 3
 source_tex: "archive/06_osaka/2024/2024_0_3.tex"
 pdf_source: "archive/06_osaka/2024/2024_0_3.pdf"
 page_image: "archive/06_osaka/2024/2024_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　素数を小さい順に並べて得られる数列を
+素数を小さい順に並べて得られる数列を
 \[ p_1, \, p_2, \, \cdots, \, p_n, \, \cdots \]
 とする．
 \begin{description}

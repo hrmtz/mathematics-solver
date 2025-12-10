@@ -3,6 +3,7 @@ title: "北海道大学 1992年 1992_2"
 problem_id: "03_hokudai-1992-1992_2"
 university: "北海道大学"
 exam_year: "1992"
+problem_number: 2
 source_tex: "archive/03_hokudai/1992/1992_2.tex"
 pdf_source: "archive/03_hokudai/1992/1992_2.pdf"
 page_image: "archive/03_hokudai/1992/1992_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$xyz$空間で4点$O(0, \, 0, \, 0)$，$A(1, \, 2, \, 0)$，$B(2, \, 0, \, 1)$，$C(0, \, 1, \, 2)$を頂点とする
+$xyz$空間で4点$O(0, \, 0, \, 0)$，$A(1, \, 2, \, 0)$，$B(2, \, 0, \, 1)$，$C(0, \, 1, \, 2)$を頂点とする
 四面体（表面および内部）を$K$とする．
 $K$の点$P$から平面$x+y+z=-1$へ垂線を引き，
 その平面との交点を$P'$とする．

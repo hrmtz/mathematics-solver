@@ -3,6 +3,7 @@ title: "東北大学 2003年 2003_0_2"
 problem_id: "04_tohoku-2003-2003_0_2"
 university: "東北大学"
 exam_year: "2003"
+problem_number: 2
 source_tex: "archive/04_tohoku/2003/2003_0_2.tex"
 pdf_source: "archive/04_tohoku/2003/2003_0_2.pdf"
 page_image: "archive/04_tohoku/2003/2003_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　実数$a$に対して，集合$A$，$B$を
+実数$a$に対して，集合$A$，$B$を
 \[ A=\{x|x^2+(1-a^2)x+a^3-2a^2+a\leqq0, \, x\text{は実数} \} \]
 \[ B=\{x|x^2+(2a-7)x+a^2-7a+10<0, x\text{は実数} \} \]
 と定める．共通部分$A \cap B$が空集合でないための$a$の範囲を求めよ．

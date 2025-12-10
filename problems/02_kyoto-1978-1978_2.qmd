@@ -3,6 +3,7 @@ title: "京都大学 1978年 1978_2"
 problem_id: "02_kyoto-1978-1978_2"
 university: "京都大学"
 exam_year: "1978"
+problem_number: 2
 source_tex: "archive/02_kyoto/1978/1978_2.tex"
 pdf_source: "archive/02_kyoto/1978/1978_2.pdf"
 page_image: "archive/02_kyoto/1978/1978_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$\triangle OAB$の重心$G$を通る直線が，辺$OA$，$OB$とそれぞれ辺上の点$P$，$Q$で交わっているとする．
+$\triangle OAB$の重心$G$を通る直線が，辺$OA$，$OB$とそれぞれ辺上の点$P$，$Q$で交わっているとする．
 $\overrightarrow{OP}=h\overrightarrow{OA}$，$\overrightarrow{OQ}=k\overrightarrow{OB}$とし，
 $\triangle OAB$，$\triangle OPQ$の面積をそれぞれ$S$，$T$とすれば，次の関係が成り立つことを示せ．
 \begin{description}

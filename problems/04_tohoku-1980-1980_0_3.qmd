@@ -3,6 +3,7 @@ title: "東北大学 1980年 1980_0_3"
 problem_id: "04_tohoku-1980-1980_0_3"
 university: "東北大学"
 exam_year: "1980"
+problem_number: 3
 source_tex: "archive/04_tohoku/1980/1980_0_3.tex"
 pdf_source: "archive/04_tohoku/1980/1980_0_3.pdf"
 page_image: "archive/04_tohoku/1980/1980_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　曲線$C:y=x^3-2x^2+x$と直線$y=mx$の交点のうち原点$O$と異なる点を$A$，$B$とし，
+曲線$C:y=x^3-2x^2+x$と直線$y=mx$の交点のうち原点$O$と異なる点を$A$，$B$とし，
 3点$O$，$A$，$B$はこの順に等間隔に並んでいるものとする．
 \begin{description}
 \item[(1)]$m$の値を求めよ．

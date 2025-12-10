@@ -3,6 +3,7 @@ title: "東北大学 2000年 2000_d"
 problem_id: "04_tohoku-2000-2000_d"
 university: "東北大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/04_tohoku/2000/2000_d.tex"
 pdf_source: "archive/04_tohoku/2000/2000_d.pdf"
 page_image: "archive/04_tohoku/2000/2000_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$n$個の$a$と$m$個の$b$を一列に並べるとき，
+$n$個の$a$と$m$個の$b$を一列に並べるとき，
 同じ文字が連続している部分をその文字の連ということにする．
 たとえば，$n=7$，$m=5$のときの1つの順列
 \[ aababbaaabba \]

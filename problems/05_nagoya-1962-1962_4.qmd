@@ -3,6 +3,7 @@ title: "名古屋大学 1962年 1962_4"
 problem_id: "05_nagoya-1962-1962_4"
 university: "名古屋大学"
 exam_year: "1962"
+problem_number: 4
 source_tex: "archive/05_nagoya/1962/1962_4.tex"
 pdf_source: "archive/05_nagoya/1962/1962_4.pdf"
 page_image: "archive/05_nagoya/1962/1962_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　任意の三次式$f(x)$に対し
+任意の三次式$f(x)$に対し
 $\displaystyle\int_0^1f(x)dx=\frac{1}{2}\{ f(p)+f(q) \}$となるような$p$，$q$で
 $f(x)$に無関係なものがあることを証明せよ。
 

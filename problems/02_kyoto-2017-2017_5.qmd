@@ -3,6 +3,7 @@ title: "京都大学 2017年 2017_5"
 problem_id: "02_kyoto-2017-2017_5"
 university: "京都大学"
 exam_year: "2017"
+problem_number: 5
 source_tex: "archive/02_kyoto/2017/2017_5.tex"
 pdf_source: "archive/02_kyoto/2017/2017_5.pdf"
 page_image: "archive/02_kyoto/2017/2017_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　$a\geqq0$とする．
+$a\geqq0$とする．
 $0 \leqq x \leqq \sqrt2$の範囲で
 曲線$y=xe^{-x}$，直線$y=ax$，直線$x=\sqrt2$によって囲まれた部分の面積を$S(a)$とする．
 このとき，$S(a)$の最小値を求めよ．

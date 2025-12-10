@@ -3,6 +3,7 @@ title: "京都大学 2002年 2002_f"
 problem_id: "02_kyoto-2002-2002_f"
 university: "京都大学"
 exam_year: "2002"
+problem_number: 6
 source_tex: "archive/02_kyoto/2002/2002_f.tex"
 pdf_source: "archive/02_kyoto/2002/2002_f.pdf"
 page_image: "archive/02_kyoto/2002/2002_f.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　閉区間$\displaystyle \left[ -\frac{\pi}{2},\frac{\pi}{2} \right]$で定義された関数$f(x)$が
+閉区間$\displaystyle \left[ -\frac{\pi}{2},\frac{\pi}{2} \right]$で定義された関数$f(x)$が
 $\displaystyle f(x)+\int_{\displaystyle-\frac{\pi}{2}}^{\displaystyle\frac{\pi}{2}}\sin(x-y)f(y)dy=x+1$
 $\displaystyle \left( -\frac{\pi}{2} \leqq x \leqq \frac{\pi}{2} \right)$を満たしている．
 $f(x)$を求めよ．

@@ -3,6 +3,7 @@ title: "名古屋大学 1995年 1995_3"
 problem_id: "05_nagoya-1995-1995_3"
 university: "名古屋大学"
 exam_year: "1995"
+problem_number: 3
 source_tex: "archive/05_nagoya/1995/1995_3.tex"
 pdf_source: "archive/05_nagoya/1995/1995_3.pdf"
 page_image: "archive/05_nagoya/1995/1995_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　曲線$x=\log y$ $(y>0)$を考える．
+曲線$x=\log y$ $(y>0)$を考える．
 この曲線上の点$P$における法線と$x$軸との交点を$Q$，$P$と$Q$の中点を$R$とおく．
 \begin{description}
 \item[(1)]点$P$が曲線上を動くとき，$R$の描く軌跡が満たす方程式を求めよ．

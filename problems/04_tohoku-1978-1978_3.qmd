@@ -3,6 +3,7 @@ title: "東北大学 1978年 1978_3"
 problem_id: "04_tohoku-1978-1978_3"
 university: "東北大学"
 exam_year: "1978"
+problem_number: 3
 source_tex: "archive/04_tohoku/1978/1978_3.tex"
 pdf_source: "archive/04_tohoku/1978/1978_3.pdf"
 page_image: "archive/04_tohoku/1978/1978_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　空間で2つの平面$\alpha:2x+y+5z=-6$，$\beta:z=2$を考える．
+空間で2つの平面$\alpha:2x+y+5z=-6$，$\beta:z=2$を考える．
 $\beta$上に，中心$Q(2, \, 1, \, 2)$，半径$\sqrt{29}$の円があり，
 その周上に点$C$がある．
 ただし，$C$は$\alpha$に関して$Q$と同じ側にあるものとする．

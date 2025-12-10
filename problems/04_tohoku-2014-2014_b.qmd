@@ -3,6 +3,7 @@ title: "東北大学 2014年 2014_b"
 problem_id: "04_tohoku-2014-2014_b"
 university: "東北大学"
 exam_year: "2014"
+problem_number: 2
 source_tex: "archive/04_tohoku/2014/2014_b.tex"
 pdf_source: "archive/04_tohoku/2014/2014_b.pdf"
 page_image: "archive/04_tohoku/2014/2014_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$を実数とし，空間に5点
+$a$を実数とし，空間に5点
 \[ A(6, \, 0, \, 0), \hspace{1zw} B(0, \, 6, \, 0), \hspace{1zw} C(0, \, 0, \, 3), \]
 \[ P(2a, \, 0, \, 2a+1), \hspace{1zw} Q(0, \, 2a, \, 2a-1) \]
 をとる。

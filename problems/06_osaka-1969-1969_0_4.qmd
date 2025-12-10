@@ -3,6 +3,7 @@ title: "大阪大学 1969年 1969_0_4"
 problem_id: "06_osaka-1969-1969_0_4"
 university: "大阪大学"
 exam_year: "1969"
+problem_number: 4
 source_tex: "archive/06_osaka/1969/1969_0_4.tex"
 pdf_source: "archive/06_osaka/1969/1969_0_4.pdf"
 page_image: "archive/06_osaka/1969/1969_0_4.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-4
 \begin{description}
 \item[(1)]$x$の多項式$f(x)$が，定数$p$，$q$，$r$，$a$と多項式$P(x)$によって
 \[ f(x)=p+q(x-a)+r{(x-a)}^2+P(x){(x-a)}^3 \]

@@ -3,6 +3,7 @@ title: "京都大学 1975年 1975_4"
 problem_id: "02_kyoto-1975-1975_4"
 university: "京都大学"
 exam_year: "1975"
+problem_number: 4
 source_tex: "archive/02_kyoto/1975/1975_4.tex"
 pdf_source: "archive/02_kyoto/1975/1975_4.pdf"
 page_image: "archive/02_kyoto/1975/1975_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面上で，3つの定点$A$，$B$，$C$と定円の周上を動く点$P$がある．
+平面上で，3つの定点$A$，$B$，$C$と定円の周上を動く点$P$がある．
 ベクトル$\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC}$の大きさが最大になるのは
 点$P$がどんな位置にあるときか．
 

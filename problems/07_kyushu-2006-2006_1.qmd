@@ -3,6 +3,7 @@ title: "九州大学 2006年 2006_1"
 problem_id: "07_kyushu-2006-2006_1"
 university: "九州大学"
 exam_year: "2006"
+problem_number: 1
 source_tex: "archive/07_kyushu/2006/2006_1.tex"
 pdf_source: "archive/07_kyushu/2006/2006_1.pdf"
 page_image: "archive/07_kyushu/2006/2006_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　次の問いに答えよ．
+次の問いに答えよ．
 ただし，$\displaystyle\lim_{x\to\infty}\frac{\log x}{x}=0$であること，
 また，$e$は自然定数の底で，$e<3$であることを用いてよい．
 \begin{description}

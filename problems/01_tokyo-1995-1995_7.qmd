@@ -3,6 +3,7 @@ title: "東京大学 1995年 1995_7"
 problem_id: "01_tokyo-1995-1995_7"
 university: "東京大学"
 exam_year: "1995"
+problem_number: 1
 source_tex: "archive/01_tokyo/1995/1995_7.tex"
 pdf_source: "archive/01_tokyo/1995/1995_7.pdf"
 page_image: "archive/01_tokyo/1995/1995_7.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　パスカル三角形の第$n$行の部分和
+パスカル三角形の第$n$行の部分和
 \[ P_n=\sum_{k=0}^n{}_nC_{3k}, \hspace{1zw}
 Q_n=\sum_{k=0}^n{}_nC_{3k+1}, \hspace{1zw}
 R_n=\sum_{k=0}^n{}_nC_{3k+2} \]

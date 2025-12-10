@@ -3,6 +3,7 @@ title: "東京大学 1971年 1971_1"
 problem_id: "01_tokyo-1971-1971_1"
 university: "東京大学"
 exam_year: "1971"
+problem_number: 1
 source_tex: "archive/01_tokyo/1971/1971_1.tex"
 pdf_source: "archive/01_tokyo/1971/1971_1.pdf"
 page_image: "archive/01_tokyo/1971/1971_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　変数$t$が0から$\pi$まで動くとき，
+変数$t$が0から$\pi$まで動くとき，
 \[ x = 2 \cos \left( t-\frac{\pi}{6} \right) , \hspace{1zw}
 y = \cos \left( t+\frac{\pi}{3} \right) \]
 によってあらわされる点$(x,y)$と原点$(0,0)$との間の距離の最大値，最小値

@@ -3,6 +3,7 @@ title: "大阪大学 2004年 2004_0_2"
 problem_id: "06_osaka-2004-2004_0_2"
 university: "大阪大学"
 exam_year: "2004"
+problem_number: 2
 source_tex: "archive/06_osaka/2004/2004_0_2.tex"
 pdf_source: "archive/06_osaka/2004/2004_0_2.pdf"
 page_image: "archive/06_osaka/2004/2004_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標平面上で不等式$y \geqq x^2$の表す領域を$D$とする．
+座標平面上で不等式$y \geqq x^2$の表す領域を$D$とする．
 $D$内にあり$y$軸上に中心をもち原点を通る円のうち，最も半径の大きい円を$C_1$とする．
 自然数$n$について，円$C_n$が定まったとき，$C_n$の上部で$C_n$に外接する円で，
 $D$内にあり$y$軸上に中心をもつもののうち，最も半径の大きい円を$C_{n+1}$とする．

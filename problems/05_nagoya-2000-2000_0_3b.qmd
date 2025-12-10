@@ -3,6 +3,7 @@ title: "名古屋大学 2000年 2000_0_3b"
 problem_id: "05_nagoya-2000-2000_0_3b"
 university: "名古屋大学"
 exam_year: "2000"
+problem_number: 3
 source_tex: "archive/05_nagoya/2000/2000_0_3b.tex"
 pdf_source: "archive/05_nagoya/2000/2000_0_3b.pdf"
 page_image: "archive/05_nagoya/2000/2000_0_3b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (b)
-　複素数平面上に，図のような原点を中心とする正五角形$ABCDE$がある．
+複素数平面上に，図のような原点を中心とする正五角形$ABCDE$がある．
 ここで，頂点$A$が表す複素数は1である．
 2頂点$C$，$D$の中点を$F$とし，点$F$が表す複素数を$h$とする．
 \begin{description}

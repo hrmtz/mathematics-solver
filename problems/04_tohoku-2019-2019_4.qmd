@@ -3,6 +3,7 @@ title: "東北大学 2019年 2019_4"
 problem_id: "04_tohoku-2019-2019_4"
 university: "東北大学"
 exam_year: "2019"
+problem_number: 4
 source_tex: "archive/04_tohoku/2019/2019_4.tex"
 pdf_source: "archive/04_tohoku/2019/2019_4.pdf"
 page_image: "archive/04_tohoku/2019/2019_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　実数を係数にもつ整式$A(x)$を$x^2+1$で割った余りとして得られる整式を$[A(x)]$と表す。
+実数を係数にもつ整式$A(x)$を$x^2+1$で割った余りとして得られる整式を$[A(x)]$と表す。
 \begin{description}
 \item[(1)]$[2x^2+x+3]$，$[x^5-1]$，$[ \, [2x^2+x+3] \, [x^5-1] \, ]$をそれぞれ求めよ。
 \item[(2)]整式$A(x)$，$B(x)$に対して，次の等式が成り立つことを示せ。

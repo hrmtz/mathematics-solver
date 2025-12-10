@@ -3,6 +3,7 @@ title: "京都大学 1998年 1998_e"
 problem_id: "02_kyoto-1998-1998_e"
 university: "京都大学"
 exam_year: "1998"
+problem_number: 5
 source_tex: "archive/02_kyoto/1998/1998_e.tex"
 pdf_source: "archive/02_kyoto/1998/1998_e.pdf"
 page_image: "archive/02_kyoto/1998/1998_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$xy$平面上に$2n$個の点$A_i(i,1)$，$B_i(i,2)$ $(i=1,2,\cdots,n)$がある．
+$xy$平面上に$2n$個の点$A_i(i,1)$，$B_i(i,2)$ $(i=1,2,\cdots,n)$がある．
 上下に隣り合う2点$A_i$，$B_i$を結ぶ線分を「縦辺」$(i=1,2,\cdots,n)$，
 左右に隣り合う2点$A_i$，$A_{i+1}$および$B_i$，$B_{i+1}$を結ぶ線分を「横辺」$(i=1,2,\cdots,n-1)$と言う．
 すべての横辺には，各辺独立に，確率$p$で右向きの矢印が，確率$1-p$で×印が描かれている．

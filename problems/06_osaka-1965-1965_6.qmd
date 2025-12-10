@@ -3,6 +3,7 @@ title: "大阪大学 1965年 1965_6"
 problem_id: "06_osaka-1965-1965_6"
 university: "大阪大学"
 exam_year: "1965"
+problem_number: 6
 source_tex: "archive/06_osaka/1965/1965_6.tex"
 pdf_source: "archive/06_osaka/1965/1965_6.pdf"
 page_image: "archive/06_osaka/1965/1965_6.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-6
-　放物線$y=ax^2+bx+c$（ただし$a>0$とする）があり，
+放物線$y=ax^2+bx+c$（ただし$a>0$とする）があり，
 その上の点$(1, \, 1)$における接線は原点を通るとする。
 この放物線および3直線$x=0$，$x=1$，$y=0$で囲まれる図形の面積を$a$で表わせ。
 また，この放物線の頂点が第二象限$(x<0, \, y>0)$にあるとき，

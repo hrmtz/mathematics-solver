@@ -3,6 +3,7 @@ title: "九州大学 1985年 1985_5"
 problem_id: "07_kyushu-1985-1985_5"
 university: "九州大学"
 exam_year: "1985"
+problem_number: 5
 source_tex: "archive/07_kyushu/1985/1985_5.tex"
 pdf_source: "archive/07_kyushu/1985/1985_5.pdf"
 page_image: "archive/07_kyushu/1985/1985_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$A$，$B$ 2つのつぼがある．
+$A$，$B$ 2つのつぼがある．
 $A$には白球$a$個，赤球$b$個が，$B$には白球$b$個，赤球$a$個が入っている$(a>0, \, b>0)$．
 まず，$A$より，無作為に球を取り出す．
 取り出した後，ただちにもとに戻す．

@@ -3,6 +3,7 @@ title: "東北大学 1964年 1964_3"
 problem_id: "04_tohoku-1964-1964_3"
 university: "東北大学"
 exam_year: "1964"
+problem_number: 3
 source_tex: "archive/04_tohoku/1964/1964_3.tex"
 pdf_source: "archive/04_tohoku/1964/1964_3.pdf"
 page_image: "archive/04_tohoku/1964/1964_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$1<p\leqq3$のとき，すべての$x$に対して$\sin^2x+p\sin x+q\geqq0$とする。
+$1<p\leqq3$のとき，すべての$x$に対して$\sin^2x+p\sin x+q\geqq0$とする。
 このような条件を満たす点$(p, \, q)$の範囲を定めよ。
 さらに，上のような$p$，$q$のうちで$\displaystyle\frac{q+2}{p-1}$の値が最小となるものを求めよ。
 

@@ -3,6 +3,7 @@ title: "九州大学 1987年 1987_0_1"
 problem_id: "07_kyushu-1987-1987_0_1"
 university: "九州大学"
 exam_year: "1987"
+problem_number: 1
 source_tex: "archive/07_kyushu/1987/1987_0_1.tex"
 pdf_source: "archive/07_kyushu/1987/1987_0_1.pdf"
 page_image: "archive/07_kyushu/1987/1987_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　曲線$C:y=x^3$の接線$l$が点$(0, \, 2)$を通るとする．
+曲線$C:y=x^3$の接線$l$が点$(0, \, 2)$を通るとする．
 このとき，$C$と$l$とで囲まれる図形の面積を求めよ．
 
 ---

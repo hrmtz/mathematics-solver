@@ -3,6 +3,7 @@ title: "九州大学 2001年 2001_4a"
 problem_id: "07_kyushu-2001-2001_4a"
 university: "九州大学"
 exam_year: "2001"
+problem_number: 4
 source_tex: "archive/07_kyushu/2001/2001_4a.tex"
 pdf_source: "archive/07_kyushu/2001/2001_4a.pdf"
 page_image: "archive/07_kyushu/2001/2001_4a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (a)
-　複素数平面上の点$z$を考える．
+複素数平面上の点$z$を考える．
 \begin{description}
 \item[(1)]実数$a$，$c$と複素数$b$が${|b|}^2-ac>0$をみたすとき
 \[ az\bar{z}+\bar{b}z+b\bar{z}+c=0 \]

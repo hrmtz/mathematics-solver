@@ -3,6 +3,7 @@ title: "北海道大学 1995年 1995_5"
 problem_id: "03_hokudai-1995-1995_5"
 university: "北海道大学"
 exam_year: "1995"
+problem_number: 5
 source_tex: "archive/03_hokudai/1995/1995_5.tex"
 pdf_source: "archive/03_hokudai/1995/1995_5.pdf"
 page_image: "archive/03_hokudai/1995/1995_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　座標平面上の原点から次の規則で動く．
+座標平面上の原点から次の規則で動く．
 　格子点（原点を含む）ではコインを投げ，
 表がでれば$x$軸の正の方向に1，
 裏がでれば$y$軸の正の方向に1進む．

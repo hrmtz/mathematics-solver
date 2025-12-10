@@ -3,6 +3,7 @@ title: "大阪大学 1985年 1985_3"
 problem_id: "06_osaka-1985-1985_3"
 university: "大阪大学"
 exam_year: "1985"
+problem_number: 3
 source_tex: "archive/06_osaka/1985/1985_3.tex"
 pdf_source: "archive/06_osaka/1985/1985_3.pdf"
 page_image: "archive/06_osaka/1985/1985_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$a$を実数とするとき，関数
+$a$を実数とするとき，関数
 \[ f(x)=a\tan\left(\frac{\pi}{4}x\right)-x-a+1 \]
 について，次の問に答えよ．
 \begin{description}

@@ -3,6 +3,7 @@ title: "東京大学 1996年 1996_5"
 problem_id: "01_tokyo-1996-1996_5"
 university: "東京大学"
 exam_year: "1996"
+problem_number: 5
 source_tex: "archive/01_tokyo/1996/1996_5.tex"
 pdf_source: "archive/01_tokyo/1996/1996_5.pdf"
 page_image: "archive/01_tokyo/1996/1996_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　$xyz$空間内の円柱$x^2+y^2=R^2$，$R>0$を側面とする容器に，
+$xyz$空間内の円柱$x^2+y^2=R^2$，$R>0$を側面とする容器に，
 水面が$z=0$と一致するように$z\leqq0$の部分に水がはいっている．
 　$z\geqq0$に対して定義された連続な関数$r(z)$で$r(0)=0$，$0\leqq r(z)<R$をみたすものを考える．
 $xz$平面内の不等式$0 \leqq x \leqq r(z)$，$z\geqq0$で表される領域を

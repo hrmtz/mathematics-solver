@@ -3,6 +3,7 @@ title: "京都大学 2022年 2022_0_3"
 problem_id: "02_kyoto-2022-2022_0_3"
 university: "京都大学"
 exam_year: "2022"
+problem_number: 3
 source_tex: "archive/02_kyoto/2022/2022_0_3.tex"
 pdf_source: "archive/02_kyoto/2022/2022_0_3.pdf"
 page_image: "archive/02_kyoto/2022/2022_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$xy$平面上の2直線$L_1, \, L_2$は直交し，交点の$x$座標は$\displaystyle\frac{3}{2}$である．
+$xy$平面上の2直線$L_1, \, L_2$は直交し，交点の$x$座標は$\displaystyle\frac{3}{2}$である．
 また，$L_1, \, L_2$はともに曲線$\displaystyle C:y=\frac{x^2}{4}$に接している．
 このとき，$L_1, \, L_2$および$C$で囲まれる図形の面積を求めよ．
 

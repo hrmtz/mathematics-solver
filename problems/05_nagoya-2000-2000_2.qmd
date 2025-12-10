@@ -3,6 +3,7 @@ title: "名古屋大学 2000年 2000_2"
 problem_id: "05_nagoya-2000-2000_2"
 university: "名古屋大学"
 exam_year: "2000"
+problem_number: 2
 source_tex: "archive/05_nagoya/2000/2000_2.tex"
 pdf_source: "archive/05_nagoya/2000/2000_2.pdf"
 page_image: "archive/05_nagoya/2000/2000_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　この問題では，$e$は自然対数の底，$\log$は自然対数を表す．
+この問題では，$e$は自然対数の底，$\log$は自然対数を表す．
 　実数$a$，$b$に対して，直線$l:y=ax+b$は曲線$C:y=\log(x+1)$と，
 $x$座標が$0 \leqq x \leqq e-1$を満たす点で接しているとする．
 \begin{description}

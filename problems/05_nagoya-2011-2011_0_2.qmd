@@ -3,6 +3,7 @@ title: "名古屋大学 2011年 2011_0_2"
 problem_id: "05_nagoya-2011-2011_0_2"
 university: "名古屋大学"
 exam_year: "2011"
+problem_number: 2
 source_tex: "archive/05_nagoya/2011/2011_0_2.tex"
 pdf_source: "archive/05_nagoya/2011/2011_0_2.pdf"
 page_image: "archive/05_nagoya/2011/2011_0_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　数字の2を書いた玉が1個，数字の1を書いた玉が3個，数字の0を書いた玉が4個あり，
+数字の2を書いた玉が1個，数字の1を書いた玉が3個，数字の0を書いた玉が4個あり，
 これら合計8個の玉が袋に入っている。以下の(1)から(3)のそれぞれにおいて，
 この状態の袋から1度に1個ずつ玉を取り出し，取り出した玉は袋に戻さないものとする。
 \begin{description}

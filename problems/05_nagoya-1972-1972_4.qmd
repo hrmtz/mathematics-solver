@@ -3,6 +3,7 @@ title: "名古屋大学 1972年 1972_4"
 problem_id: "05_nagoya-1972-1972_4"
 university: "名古屋大学"
 exam_year: "1972"
+problem_number: 4
 source_tex: "archive/05_nagoya/1972/1972_4.tex"
 pdf_source: "archive/05_nagoya/1972/1972_4.pdf"
 page_image: "archive/05_nagoya/1972/1972_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　平面上の点$P(x_0, \, y_0)$を通って，放物線$y=x^2$に2本の接線が引けるための必要十分条件は
+平面上の点$P(x_0, \, y_0)$を通って，放物線$y=x^2$に2本の接線が引けるための必要十分条件は
 ${x_0}^2>y_0$であることを証明せよ．
 またこのとき，この2本の接線の接点を$Q$，$R$として，3角形$PQR$の面積を$x_0$，$y_0$で表せ．
 

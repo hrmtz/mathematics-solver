@@ -3,6 +3,7 @@ title: "東京大学 2019年 2019_6"
 problem_id: "01_tokyo-2019-2019_6"
 university: "東京大学"
 exam_year: "2019"
+problem_number: 6
 source_tex: "archive/01_tokyo/2019/2019_6.tex"
 pdf_source: "archive/01_tokyo/2019/2019_6.pdf"
 page_image: "archive/01_tokyo/2019/2019_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　複素数$\alpha$，$\beta$，$\gamma$，$\delta$および実数$a$，$b$が，
+複素数$\alpha$，$\beta$，$\gamma$，$\delta$および実数$a$，$b$が，
 次の3条件をみたしながら動く。
 条件1：$\alpha$，$\beta$，$\gamma$，$\delta$は相異なる。
 条件2：$\alpha$，$\beta$，$\gamma$，$\delta$は4次方程式$z^4-2z^3-2az+b=0$の解である。

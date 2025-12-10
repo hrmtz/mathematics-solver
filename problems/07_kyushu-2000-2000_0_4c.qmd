@@ -3,6 +3,7 @@ title: "九州大学 2000年 2000_0_4c"
 problem_id: "07_kyushu-2000-2000_0_4c"
 university: "九州大学"
 exam_year: "2000"
+problem_number: 4
 source_tex: "archive/07_kyushu/2000/2000_0_4c.tex"
 pdf_source: "archive/07_kyushu/2000/2000_0_4c.pdf"
 page_image: "archive/07_kyushu/2000/2000_0_4c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4 (c)
-　空間内に3点$A(1, \, 0, \, 0)$，$B(0, \, 2, \, 0)$，$C(0, \, 0, \, 3)$をとる．
+空間内に3点$A(1, \, 0, \, 0)$，$B(0, \, 2, \, 0)$，$C(0, \, 0, \, 3)$をとる．
 \begin{description}
 \item[(1)]空間内の点$P$が$\overrightarrow{AP}\cdot(\overrightarrow{BP}+2\overrightarrow{CP})=0$を
 満たしながら動くとき，この点$P$はある定点$Q$から一定の距離にあることを示せ．

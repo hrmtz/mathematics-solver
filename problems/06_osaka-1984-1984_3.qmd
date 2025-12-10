@@ -3,6 +3,7 @@ title: "大阪大学 1984年 1984_3"
 problem_id: "06_osaka-1984-1984_3"
 university: "大阪大学"
 exam_year: "1984"
+problem_number: 3
 source_tex: "archive/06_osaka/1984/1984_3.tex"
 pdf_source: "archive/06_osaka/1984/1984_3.pdf"
 page_image: "archive/06_osaka/1984/1984_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　点$O$を中心とする半径1の円に内接する正$n$角形$A_1A_2\cdots\cdots A_n$
+点$O$を中心とする半径1の円に内接する正$n$角形$A_1A_2\cdots\cdots A_n$
 （頂点の番号は左回りにつける）を$D$で表す．
 $D$を点$O$のまわりに角$2\theta$回転した図形を$D_{2\theta}$とし，
 この回転によって$D$の頂点$A_k$はそれぞれ$D_{2\theta}$の頂点$B_k$にうつるものとする．

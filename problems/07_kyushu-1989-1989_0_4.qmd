@@ -3,6 +3,7 @@ title: "九州大学 1989年 1989_0_4"
 problem_id: "07_kyushu-1989-1989_0_4"
 university: "九州大学"
 exam_year: "1989"
+problem_number: 4
 source_tex: "archive/07_kyushu/1989/1989_0_4.tex"
 pdf_source: "archive/07_kyushu/1989/1989_0_4.pdf"
 page_image: "archive/07_kyushu/1989/1989_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$A$さんと$B$君が所属する$n$人から成るあるクラブで，
+$A$さんと$B$君が所属する$n$人から成るあるクラブで，
 $k$人$(2 \leqq k \leqq n)$のクラブ委員をくじ引きで選ぶことになった．
 くじ引きは$k$回行い，それぞれの回ではそれまでの回に委員として選ばれた人を除いて
 1人の委員を選ぶこととした．

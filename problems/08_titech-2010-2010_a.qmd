@@ -3,6 +3,7 @@ title: "東京科学大学 2010年 2010_a"
 problem_id: "08_titech-2010-2010_a"
 university: "東京科学大学"
 exam_year: "2010"
+problem_number: 1
 source_tex: "archive/08_titech/2010/2010_a.tex"
 pdf_source: "archive/08_titech/2010/2010_a.pdf"
 page_image: "archive/08_titech/2010/2010_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$，$b$，$t$は実数で，$a \geqq 0 > b$とする．
+$a$，$b$，$t$は実数で，$a \geqq 0 > b$とする．
 次の漸化式により，数列$a_n$，$b_n$ $(n=1,2,\cdots)$を定める．
 \[ a_1=a , \hspace{1zw} b_1 = b\]
 \[ a_{n+1}=\left( \frac{t}{2}+\frac{5}{t^2+1} \right)a_n+\left( \frac{t}{2}-\frac{5}{t^2+1} \right)b_n , \hspace{1zw}

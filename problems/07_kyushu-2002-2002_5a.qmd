@@ -3,6 +3,7 @@ title: "九州大学 2002年 2002_5a"
 problem_id: "07_kyushu-2002-2002_5a"
 university: "九州大学"
 exam_year: "2002"
+problem_number: 5
 source_tex: "archive/07_kyushu/2002/2002_5a.tex"
 pdf_source: "archive/07_kyushu/2002/2002_5a.pdf"
 page_image: "archive/07_kyushu/2002/2002_5a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5 (a)
-　平面上の点$P$の$x$座標と$y$座標が，
+平面上の点$P$の$x$座標と$y$座標が，
 変数$\theta$の関数$\displaystyle f(\theta)=\frac{{(\theta-\pi)}^2}{2\pi^2}+\frac{1}{2}$を用いて，
 \[ x=f(\theta)\cos\theta, \hspace{1zw} y=f(\theta)\sin\theta \]
 と表されている．

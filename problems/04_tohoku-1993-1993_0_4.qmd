@@ -3,6 +3,7 @@ title: "東北大学 1993年 1993_0_4"
 problem_id: "04_tohoku-1993-1993_0_4"
 university: "東北大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/04_tohoku/1993/1993_0_4.tex"
 pdf_source: "archive/04_tohoku/1993/1993_0_4.pdf"
 page_image: "archive/04_tohoku/1993/1993_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　次の2つの等式を同時に満たす関数$f(x)$と$g(x)$を考える．
+次の2つの等式を同時に満たす関数$f(x)$と$g(x)$を考える．
 \[ f(x)=x^2+\int_{-1}^1(x-t)g(t)dt, \]
 \[ g(x)=\int_{-1}^1\left\{ \frac{3}{2}f(t-x)+xg(t) \right\}dt \]
 \begin{description}

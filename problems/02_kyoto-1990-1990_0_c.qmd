@@ -3,6 +3,7 @@ title: "京都大学 1990年 1990_0_c"
 problem_id: "02_kyoto-1990-1990_0_c"
 university: "京都大学"
 exam_year: "1990"
+problem_number: 3
 source_tex: "archive/02_kyoto/1990/1990_0_c.tex"
 pdf_source: "archive/02_kyoto/1990/1990_0_c.pdf"
 page_image: "archive/02_kyoto/1990/1990_0_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　15本のくじの中に当たりくじが2本ある．
+15本のくじの中に当たりくじが2本ある．
 $A$，$B$，$C$の3人が次のようにしてこのくじをひく．
 まず$A$が5本まで順にひき，$k$本目$(1 \leqq k \leqq 5)$に当たりくじをひいたら，ひくのをやめて，
 残ったくじから$5-k$本のはずれくじを取り除く．

@@ -3,6 +3,7 @@ title: "東京大学 1975年 1975_2"
 problem_id: "01_tokyo-1975-1975_2"
 university: "東京大学"
 exam_year: "1975"
+problem_number: 2
 source_tex: "archive/01_tokyo/1975/1975_2.tex"
 pdf_source: "archive/01_tokyo/1975/1975_2.pdf"
 page_image: "archive/01_tokyo/1975/1975_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$k$，$l$，$m$，$n$は負でない整数とする．
+$k$，$l$，$m$，$n$は負でない整数とする．
 0でないすべての$x$に対して等式
 $\displaystyle\frac{(x+1)^k}{x^l}-1=\frac{(x+1)^m}{x^n}$
 を成り立たせるような$k$，$l$，$m$，$n$の組を求めよ．

@@ -3,6 +3,7 @@ title: "九州大学 1994年 1994_b"
 problem_id: "07_kyushu-1994-1994_b"
 university: "九州大学"
 exam_year: "1994"
+problem_number: 2
 source_tex: "archive/07_kyushu/1994/1994_b.tex"
 pdf_source: "archive/07_kyushu/1994/1994_b.pdf"
 page_image: "archive/07_kyushu/1994/1994_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　右図のように，$xy$平面上で，原点$O$を中心とする．
+右図のように，$xy$平面上で，原点$O$を中心とする．
 長軸の長さが6，短軸の長さが2の楕円$C$，
 および$C$の上端に接する$x$軸に平行な直線$L$を考える．
 そして$C$は$O$のまわりに一定の角速度で回転しているとし，

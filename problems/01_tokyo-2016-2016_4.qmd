@@ -3,6 +3,7 @@ title: "東京大学 2016年 2016_4"
 problem_id: "01_tokyo-2016-2016_4"
 university: "東京大学"
 exam_year: "2016"
+problem_number: 4
 source_tex: "archive/01_tokyo/2016/2016_4.tex"
 pdf_source: "archive/01_tokyo/2016/2016_4.pdf"
 page_image: "archive/01_tokyo/2016/2016_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$z$を複素数とする。複素数平面上の3点$A(1), \, B(z), \, C(z^2)$が鋭角三角形を
+$z$を複素数とする。複素数平面上の3点$A(1), \, B(z), \, C(z^2)$が鋭角三角形を
 なすような$z$の範囲を求め，図示せよ。
 
 ---

@@ -3,6 +3,7 @@ title: "名古屋大学 2012年 2012_0_3"
 problem_id: "05_nagoya-2012-2012_0_3"
 university: "名古屋大学"
 exam_year: "2012"
+problem_number: 3
 source_tex: "archive/05_nagoya/2012/2012_0_3.tex"
 pdf_source: "archive/05_nagoya/2012/2012_0_3.pdf"
 page_image: "archive/05_nagoya/2012/2012_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$m$を正の奇数とする。
+$m$を正の奇数とする。
 \begin{description}
 \item[(1)]${(x-1)}^{101}$の展開式における$x^2$の項の係数を求めよ。
 \item[(2)]$p$を正の整数とするとき，${(p-1)}^m+1$は$p$で割り切れることを示せ。

@@ -3,6 +3,7 @@ title: "北海道大学 2021年 2021_2"
 problem_id: "03_hokudai-2021-2021_2"
 university: "北海道大学"
 exam_year: "2021"
+problem_number: 2
 source_tex: "archive/03_hokudai/2021/2021_2.tex"
 pdf_source: "archive/03_hokudai/2021/2021_2.pdf"
 page_image: "archive/03_hokudai/2021/2021_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$a$を$a\neq-3$を満たす定数とする。
+$a$を$a\neq-3$を満たす定数とする。
 放物線$\displaystyle y=\frac{1}{2}x^2$上の
 点$\displaystyle A \left( -1, \, \frac{1}{2} \right)$における接線を$l_1$，
 点$\displaystyle B \left( a+2, \, \frac{{(a+2)}^2}{2} \right)$における接線を$l_2$とする。

@@ -3,6 +3,7 @@ title: "京都大学 2008年 2008a_0_5"
 problem_id: "02_kyoto-2008-2008a_0_5"
 university: "京都大学"
 exam_year: "2008"
+problem_number: 5
 source_tex: "archive/02_kyoto/2008/2008a_0_5.tex"
 pdf_source: "archive/02_kyoto/2008/2008a_0_5.pdf"
 page_image: "archive/02_kyoto/2008/2008a_0_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　正$n$角形とその外接円を合わせた図形を$F$とする．
+正$n$角形とその外接円を合わせた図形を$F$とする．
 $F$上の点$P$に対して，始点と終点がともに$P$であるような，図形$F$の一筆がきの経路の数を$N(P)$で表す．
 正$n$角形の頂点をひとつとって$A$とし，$a=N(A)$とおく．
 また正$n$角形の辺をひとつとってその中点を$B$とし，$b=N(B)$とおく．

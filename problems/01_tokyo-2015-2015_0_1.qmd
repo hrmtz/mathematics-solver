@@ -3,6 +3,7 @@ title: "東京大学 2015年 2015_0_1"
 problem_id: "01_tokyo-2015-2015_0_1"
 university: "東京大学"
 exam_year: "2015"
+problem_number: 1
 source_tex: "archive/01_tokyo/2015/2015_0_1.tex"
 pdf_source: "archive/01_tokyo/2015/2015_0_1.pdf"
 page_image: "archive/01_tokyo/2015/2015_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　以下の命題A，Bそれぞれに対し，その真偽を述べよ。
+以下の命題A，Bそれぞれに対し，その真偽を述べよ。
 また，真ならば証明を与え，偽ならば反例を与えよ。
 \begin{description}
 \item[命題A]$n$が正の整数ならば，$\displaystyle\frac{n^3}{26}+100 \geqq n^2$が成り立つ。

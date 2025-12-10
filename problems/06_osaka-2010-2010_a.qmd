@@ -3,6 +3,7 @@ title: "大阪大学 2010年 2010_a"
 problem_id: "06_osaka-2010-2010_a"
 university: "大阪大学"
 exam_year: "2010"
+problem_number: 1
 source_tex: "archive/06_osaka/2010/2010_a.tex"
 pdf_source: "archive/06_osaka/2010/2010_a.pdf"
 page_image: "archive/06_osaka/2010/2010_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$p$は素数，$r$は正の整数とする．以下の問いに答えよ．
+$p$は素数，$r$は正の整数とする．以下の問いに答えよ．
 \begin{description}
 \item[(1)]$x_1, \, x_2, \, \cdots, \, x_r$についての式${(x_1+x_2+\cdots+x_r)}^p$を
 展開したときの単項式${x_1}^{p_1}{x_2}^{p_2}\cdots{x_r}^{p_r}$の係数を求めよ．

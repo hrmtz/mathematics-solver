@@ -3,6 +3,7 @@ title: "大阪大学 2003年 2003_d"
 problem_id: "06_osaka-2003-2003_d"
 university: "大阪大学"
 exam_year: "2003"
+problem_number: 4
 source_tex: "archive/06_osaka/2003/2003_d.tex"
 pdf_source: "archive/06_osaka/2003/2003_d.pdf"
 page_image: "archive/06_osaka/2003/2003_d.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　$\pi$を円周率とする．次の積分について考える．
+$\pi$を円周率とする．次の積分について考える．
 \[ I_0=\pi\int_0^1\sin\pi tdt, \hspace{1zw}
 I_n=\frac{\pi^{n+1}}{n \, !}\int_0^1t^n{(1-t)}^n\sin\pi tdt \hspace{1zw}
 (n=1, \, 2, \, \cdots\cdots) \]

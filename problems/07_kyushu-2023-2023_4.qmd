@@ -3,6 +3,7 @@ title: "九州大学 2023年 2023_4"
 problem_id: "07_kyushu-2023-2023_4"
 university: "九州大学"
 exam_year: "2023"
+problem_number: 4
 source_tex: "archive/07_kyushu/2023/2023_4.tex"
 pdf_source: "archive/07_kyushu/2023/2023_4.pdf"
 page_image: "archive/07_kyushu/2023/2023_4.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-4
-　以下の文章を読んで後の問いに答えよ。
+以下の文章を読んで後の問いに答えよ。
 
 　三角関数$\cos x$，$\sin x$については加法定理が成立するが，
 逆に加法定理を満たす関数はどのようなものがあるだろうか。

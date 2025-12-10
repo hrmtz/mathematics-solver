@@ -3,6 +3,7 @@ title: "京都大学 1962年 1962_2"
 problem_id: "02_kyoto-1962-1962_2"
 university: "京都大学"
 exam_year: "1962"
+problem_number: 2
 source_tex: "archive/02_kyoto/1962/1962_2.tex"
 pdf_source: "archive/02_kyoto/1962/1962_2.pdf"
 page_image: "archive/02_kyoto/1962/1962_2.jpg"
@@ -14,7 +15,6 @@ format:
 ---
 
 
-2
 \begin{description}
 \item[(イ)]$a$，$b$は0でない与えられた実数とする．
 $k$が-1でないどんな実数値をとっても，円$(k+1)(x^2+y^2)=ax+kby$は2つの定点を通ることを示せ．

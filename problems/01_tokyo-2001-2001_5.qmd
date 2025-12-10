@@ -3,6 +3,7 @@ title: "東京大学 2001年 2001_5"
 problem_id: "01_tokyo-2001-2001_5"
 university: "東京大学"
 exam_year: "2001"
+problem_number: 5
 source_tex: "archive/01_tokyo/2001/2001_5.tex"
 pdf_source: "archive/01_tokyo/2001/2001_5.pdf"
 page_image: "archive/01_tokyo/2001/2001_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　容量1リットルの$m$個のビーカー(ガラス容器)に水が入っている．
+容量1リットルの$m$個のビーカー(ガラス容器)に水が入っている．
 $m \geqq 4$で\ruby{空}{から}のビーカーは無い．
 入っている水の総量は1リットルである．
 また$x$リットルの水が入っているビーカーがただ一つあり，

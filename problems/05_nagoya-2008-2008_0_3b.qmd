@@ -3,6 +3,7 @@ title: "名古屋大学 2008年 2008_0_3b"
 problem_id: "05_nagoya-2008-2008_0_3b"
 university: "名古屋大学"
 exam_year: "2008"
+problem_number: 3
 source_tex: "archive/05_nagoya/2008/2008_0_3b.tex"
 pdf_source: "archive/05_nagoya/2008/2008_0_3b.pdf"
 page_image: "archive/05_nagoya/2008/2008_0_3b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (b)
-　袋$A$の中に赤玉と白玉がそれぞれ2つ入っていることと，
+袋$A$の中に赤玉と白玉がそれぞれ2つ入っていることと，
 袋$B$の中に赤玉3つと白玉2つが入っていることが分かっている．
 \begin{description}
 \item[(1)]袋$B$から2つの玉を取り出すとき，

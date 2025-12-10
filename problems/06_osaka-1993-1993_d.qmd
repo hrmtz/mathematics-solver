@@ -3,6 +3,7 @@ title: "大阪大学 1993年 1993_d"
 problem_id: "06_osaka-1993-1993_d"
 university: "大阪大学"
 exam_year: "1993"
+problem_number: 4
 source_tex: "archive/06_osaka/1993/1993_d.tex"
 pdf_source: "archive/06_osaka/1993/1993_d.pdf"
 page_image: "archive/06_osaka/1993/1993_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　表の出る確率が$p$ $(0<p<1)$の硬貨を2回投げる．
+表の出る確率が$p$ $(0<p<1)$の硬貨を2回投げる．
 このとき1回目に表が出たら$X_1=1$，裏が出たら$X_1=0$，
 2回目に表が出たら$X_2=1$，裏が出たら$X_2=0$とすることにより，
 確率変数$X_1$と$X_2$とを定義する．

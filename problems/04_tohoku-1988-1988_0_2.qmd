@@ -3,6 +3,7 @@ title: "東北大学 1988年 1988_0_2"
 problem_id: "04_tohoku-1988-1988_0_2"
 university: "東北大学"
 exam_year: "1988"
+problem_number: 2
 source_tex: "archive/04_tohoku/1988/1988_0_2.tex"
 pdf_source: "archive/04_tohoku/1988/1988_0_2.pdf"
 page_image: "archive/04_tohoku/1988/1988_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　3次関数$f(x)$は$x=1$で極小値0，$x=-3$で極大値32をとる．
+3次関数$f(x)$は$x=1$で極小値0，$x=-3$で極大値32をとる．
 \begin{description}
 \item[(1)]$f(x)$を求めよ．
 \item[(2)]点$A(0, \, f(0))$における曲線$C:y=f(x)$の接線$l$がふたたび$C$と交わる点を$B$とする．

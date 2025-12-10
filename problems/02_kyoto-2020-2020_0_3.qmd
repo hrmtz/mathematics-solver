@@ -3,6 +3,7 @@ title: "京都大学 2020年 2020_0_3"
 problem_id: "02_kyoto-2020-2020_0_3"
 university: "京都大学"
 exam_year: "2020"
+problem_number: 3
 source_tex: "archive/02_kyoto/2020/2020_0_3.tex"
 pdf_source: "archive/02_kyoto/2020/2020_0_3.pdf"
 page_image: "archive/02_kyoto/2020/2020_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$a$を奇数とし，整数$m, \, n$に対して，
+$a$を奇数とし，整数$m, \, n$に対して，
 \[ f(m, \, n)=mn^2+am^2+n^2+8 \]
 とおく．$f(m, \, n)$が16で割り切れるような整数の組$(m, \, n)$が
 存在するための$a$の条件を求めよ．

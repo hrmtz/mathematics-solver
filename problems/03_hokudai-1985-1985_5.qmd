@@ -3,6 +3,7 @@ title: "北海道大学 1985年 1985_5"
 problem_id: "03_hokudai-1985-1985_5"
 university: "北海道大学"
 exam_year: "1985"
+problem_number: 5
 source_tex: "archive/03_hokudai/1985/1985_5.tex"
 pdf_source: "archive/03_hokudai/1985/1985_5.pdf"
 page_image: "archive/03_hokudai/1985/1985_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　微分可能な関数$y=f(x)$が
+微分可能な関数$y=f(x)$が
 方程式$\displaystyle{\{ f(x) \}}^3+f(x)-\int_0^xte^t{\{ f(t) \}}^2dt-2=0$を満たしているとする．
 ただし，つねに$f(x)\neq0$とする．
 \begin{description}

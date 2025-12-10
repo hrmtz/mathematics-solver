@@ -3,6 +3,7 @@ title: "東京大学 2005年 2005_0_3"
 problem_id: "01_tokyo-2005-2005_0_3"
 university: "東京大学"
 exam_year: "2005"
+problem_number: 3
 source_tex: "archive/01_tokyo/2005/2005_0_3.tex"
 pdf_source: "archive/01_tokyo/2005/2005_0_3.pdf"
 page_image: "archive/01_tokyo/2005/2005_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　0以上の実数$s$，$t$が$s^2+t^2=1$を満たしながら動くとき，
+0以上の実数$s$，$t$が$s^2+t^2=1$を満たしながら動くとき，
 方程式$x^4-2(s+t)x^2+{(s-t)}^2=0$の解のとる値の範囲を求めよ．
 
 ---

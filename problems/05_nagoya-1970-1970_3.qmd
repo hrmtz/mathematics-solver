@@ -3,6 +3,7 @@ title: "名古屋大学 1970年 1970_3"
 problem_id: "05_nagoya-1970-1970_3"
 university: "名古屋大学"
 exam_year: "1970"
+problem_number: 3
 source_tex: "archive/05_nagoya/1970/1970_3.tex"
 pdf_source: "archive/05_nagoya/1970/1970_3.pdf"
 page_image: "archive/05_nagoya/1970/1970_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　座標平面で点$P$は$x$軸上を正の方向へ，
+座標平面で点$P$は$x$軸上を正の方向へ，
 点$Q$は$y$軸上を正の方向へ，
 点$R$は傾き（勾配）1の直線上を上方へ，
 それぞれ一定の速さ$a$，$b$，$c$で動いている．

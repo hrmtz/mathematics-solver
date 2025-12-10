@@ -3,6 +3,7 @@ title: "北海道大学 1997年 1997_b"
 problem_id: "03_hokudai-1997-1997_b"
 university: "北海道大学"
 exam_year: "1997"
+problem_number: 2
 source_tex: "archive/03_hokudai/1997/1997_b.tex"
 pdf_source: "archive/03_hokudai/1997/1997_b.pdf"
 page_image: "archive/03_hokudai/1997/1997_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　座標平面において，$x$軸上に3個の点$P_0(0, \, 0)$，$P_1(c, \, 0)$，$P_2(2, \, 0)$をとり，
+座標平面において，$x$軸上に3個の点$P_0(0, \, 0)$，$P_1(c, \, 0)$，$P_2(2, \, 0)$をとり，
 直線$y=1$上に$(n+1)$個の点$Q_0(0, \, 1)$，$Q_1(1, \, 1)$，$Q_2(2, \, 1)$，$\cdots\cdots$，
 $Q_n(n, \, 1)$をとる$(n\geqq1)$．ただし，$c$は$0<c<2$なる無理数とする．
 点$P_i$と点$Q_j$を結ぶ線分を$P_iQ_j$ $(i=0, \, 1, \, 2;j=0, \, 1, \, \cdots\cdots, \, n)$とし，

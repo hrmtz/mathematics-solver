@@ -3,6 +3,7 @@ title: "北海道大学 1970年 1970_3"
 problem_id: "03_hokudai-1970-1970_3"
 university: "北海道大学"
 exam_year: "1970"
+problem_number: 3
 source_tex: "archive/03_hokudai/1970/1970_3.tex"
 pdf_source: "archive/03_hokudai/1970/1970_3.pdf"
 page_image: "archive/03_hokudai/1970/1970_3.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(1)]$\omega$を1の5乗根$(\neq1)$とする．
 $\displaystyle \alpha=\omega+\frac{1}{\omega}$のとき$\alpha^2+\alpha$の値を求めよ．

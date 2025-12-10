@@ -3,6 +3,7 @@ title: "東京大学 1982年 1982_2"
 problem_id: "01_tokyo-1982-1982_2"
 university: "東京大学"
 exam_year: "1982"
+problem_number: 2
 source_tex: "archive/01_tokyo/1982/1982_2.tex"
 pdf_source: "archive/01_tokyo/1982/1982_2.pdf"
 page_image: "archive/01_tokyo/1982/1982_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　正4面体$T$と半径1の球面$S$とがあって，
+正4面体$T$と半径1の球面$S$とがあって，
 $T$の6つの辺がすべて$S$に接しているという．
 $T$の1辺の長さを求めよ．
 つぎに，

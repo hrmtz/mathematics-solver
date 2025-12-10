@@ -3,6 +3,7 @@ title: "名古屋大学 1988年 1988_3"
 problem_id: "05_nagoya-1988-1988_3"
 university: "名古屋大学"
 exam_year: "1988"
+problem_number: 3
 source_tex: "archive/05_nagoya/1988/1988_3.tex"
 pdf_source: "archive/05_nagoya/1988/1988_3.pdf"
 page_image: "archive/05_nagoya/1988/1988_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　原点$O$を中心とする球面$x^2+y^2+z^2=1$を$C$，平面$y=1$を$\alpha$とする．
+原点$O$を中心とする球面$x^2+y^2+z^2=1$を$C$，平面$y=1$を$\alpha$とする．
 $\displaystyle0<a<\frac{\pi}{2}$の定数$a$と点$A(0, \, 1, \, 0)$に対して，
 次の条件を満たす球面$C$上の点$P$全体のなす集合を$M$とする．
 $\displaystyle \angle AOP<\frac{\pi}{2}$であって，

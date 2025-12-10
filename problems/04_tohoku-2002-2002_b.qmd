@@ -3,6 +3,7 @@ title: "東北大学 2002年 2002_b"
 problem_id: "04_tohoku-2002-2002_b"
 university: "東北大学"
 exam_year: "2002"
+problem_number: 2
 source_tex: "archive/04_tohoku/2002/2002_b.tex"
 pdf_source: "archive/04_tohoku/2002/2002_b.pdf"
 page_image: "archive/04_tohoku/2002/2002_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　2つの複素数$\alpha$，$\beta$が
+2つの複素数$\alpha$，$\beta$が
 \[ i\alpha\beta=1, \hspace{1zw} \frac{1}{\alpha}+\frac{1}{\overline{\alpha}}=\beta+\overline{\beta} \]
 をみたすとする．
 ただし，$i=\sqrt{-1}$とし，$\overline{\alpha}$は$\alpha$に共役な複素数とする．

@@ -3,6 +3,7 @@ title: "京都大学 1994年 1994_b"
 problem_id: "02_kyoto-1994-1994_b"
 university: "京都大学"
 exam_year: "1994"
+problem_number: 2
 source_tex: "archive/02_kyoto/1994/1994_b.tex"
 pdf_source: "archive/02_kyoto/1994/1994_b.pdf"
 page_image: "archive/02_kyoto/1994/1994_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$a$，$b$，$c$，$d$を整数とし，行列$A=\begin{pmatrix} a & b 
+$a$，$b$，$c$，$d$を整数とし，行列$A=\begin{pmatrix} a & b 
 
  c & d \end{pmatrix}$を考える．
 $\begin{pmatrix} a_0 & b_0 

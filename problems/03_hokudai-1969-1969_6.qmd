@@ -3,6 +3,7 @@ title: "北海道大学 1969年 1969_6"
 problem_id: "03_hokudai-1969-1969_6"
 university: "北海道大学"
 exam_year: "1969"
+problem_number: 6
 source_tex: "archive/03_hokudai/1969/1969_6.tex"
 pdf_source: "archive/03_hokudai/1969/1969_6.pdf"
 page_image: "archive/03_hokudai/1969/1969_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　ロット（製品の山）から任意に10個の製品を抜き取り，
+ロット（製品の山）から任意に10個の製品を抜き取り，
 その中に何個の不良品がはいっているかを検査することを多数回くり返して
 次の度数分布表を得た．
  

@@ -3,6 +3,7 @@ title: "京都大学 2009年 2009b_6"
 problem_id: "02_kyoto-2009-2009b_6"
 university: "京都大学"
 exam_year: "2009"
+problem_number: 6
 source_tex: "archive/02_kyoto/2009/2009b_6.tex"
 pdf_source: "archive/02_kyoto/2009/2009b_6.pdf"
 page_image: "archive/02_kyoto/2009/2009b_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　$a$と$b$を互いに素，
+$a$と$b$を互いに素，
 すなわち1以外の公約数を持たない正の整数とし，
 さらに$a$は奇数とする．
 正の整数$n$に対して整数$a_n$，$b_n$を

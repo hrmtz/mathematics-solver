@@ -3,6 +3,7 @@ title: "名古屋大学 1996年 1996_b"
 problem_id: "05_nagoya-1996-1996_b"
 university: "名古屋大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/05_nagoya/1996/1996_b.tex"
 pdf_source: "archive/05_nagoya/1996/1996_b.pdf"
 page_image: "archive/05_nagoya/1996/1996_b.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　座標平面上の変換$f:P(x, \, y) \to P'(x', \, y')$を
+座標平面上の変換$f:P(x, \, y) \to P'(x', \, y')$を
 \[ \begin{pmatrix} x' 
 
  y' \end{pmatrix}=

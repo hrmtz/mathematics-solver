@@ -3,6 +3,7 @@ title: "東京科学大学 2019年 2019_1"
 problem_id: "08_titech-2019-2019_1"
 university: "東京科学大学"
 exam_year: "2019"
+problem_number: 1
 source_tex: "archive/08_titech/2019/2019_1.tex"
 pdf_source: "archive/08_titech/2019/2019_1.pdf"
 page_image: "archive/08_titech/2019/2019_1.jpg"
@@ -16,7 +17,6 @@ format:
 ---
 
 
-1
 \begin{description}
 \item[(1)]$h>0$とする．座標平面上の点O$(0, \, 0)$，点P$(h, \, s)$，点Q$(h, \, t)$に対して，
 三角形OPQの面積をSとする．ただし，$s<t$とする．

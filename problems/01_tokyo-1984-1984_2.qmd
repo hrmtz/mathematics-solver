@@ -3,6 +3,7 @@ title: "東京大学 1984年 1984_2"
 problem_id: "01_tokyo-1984-1984_2"
 university: "東京大学"
 exam_year: "1984"
+problem_number: 2
 source_tex: "archive/01_tokyo/1984/1984_2.tex"
 pdf_source: "archive/01_tokyo/1984/1984_2.pdf"
 page_image: "archive/01_tokyo/1984/1984_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$xy$平面において，直線$x=0$を$L$とし，曲線$y=\log x$を$C$とする．
+$xy$平面において，直線$x=0$を$L$とし，曲線$y=\log x$を$C$とする．
 さらに，$L$上，または$C$上，または$L$と$C$との間にはさまれた部分にある点全体の集合を$A$とする．
 $A$に含まれ，直線$L$に接し，かつ曲線$C$と点$(t,\log t)$ $(0<t)$において共通の接線をもつ円の中心を$P_t$とする．
 　$P_t$の$x$座標，$y$座標を$t$の関数として$x=f(t)$，$y=g(t)$と表したとき，

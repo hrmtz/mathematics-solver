@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_0_e"
 problem_id: "02_kyoto-1999-1999_0_e"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 5
 source_tex: "archive/02_kyoto/1999/1999_0_e.tex"
 pdf_source: "archive/02_kyoto/1999/1999_0_e.pdf"
 page_image: "archive/02_kyoto/1999/1999_0_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　自然数$a$，$b$，$c$について，等式$a^2+b^2=c^2$が成り立ち，かつ$a$，$b$は互いに素とする．
+自然数$a$，$b$，$c$について，等式$a^2+b^2=c^2$が成り立ち，かつ$a$，$b$は互いに素とする．
 このとき，次のことを証明せよ．
 \begin{description}
 \item[(1)]$a$が奇数ならば，$b$は偶数であり，したがって$c$は奇数である．

@@ -3,6 +3,7 @@ title: "九州大学 1981年 1981_0_4"
 problem_id: "07_kyushu-1981-1981_0_4"
 university: "九州大学"
 exam_year: "1981"
+problem_number: 4
 source_tex: "archive/07_kyushu/1981/1981_0_4.tex"
 pdf_source: "archive/07_kyushu/1981/1981_0_4.pdf"
 page_image: "archive/07_kyushu/1981/1981_0_4.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　$\overrightarrow{a}=(1, \, 0, \, 1)$，$\overrightarrow{b}=(2, \, 2, \, 1)$を
+$\overrightarrow{a}=(1, \, 0, \, 1)$，$\overrightarrow{b}=(2, \, 2, \, 1)$を
 空間におけるベクトルとするとき，次の(1)，(2)，(3)に答えよ．
 \begin{description}
 \item[(1)]$\overrightarrow{a}$，$\overrightarrow{b}$の長さ（大きさ）

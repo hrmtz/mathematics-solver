@@ -3,6 +3,7 @@ title: "京都大学 2020年 2020_0_1"
 problem_id: "02_kyoto-2020-2020_0_1"
 university: "京都大学"
 exam_year: "2020"
+problem_number: 1
 source_tex: "archive/02_kyoto/2020/2020_0_1.tex"
 pdf_source: "archive/02_kyoto/2020/2020_0_1.pdf"
 page_image: "archive/02_kyoto/2020/2020_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$a$を負の実数とする．
+$a$を負の実数とする．
 $xy$平面上で曲線$C:y=|x|x-3x+1$と直線$l:y=x+a$のグラフが接するときの$a$の値を求めよ．
 このとき，$C$と$l$で囲まれた部分の面積を求めよ．
 

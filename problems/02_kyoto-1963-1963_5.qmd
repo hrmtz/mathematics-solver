@@ -3,6 +3,7 @@ title: "京都大学 1963年 1963_5"
 problem_id: "02_kyoto-1963-1963_5"
 university: "京都大学"
 exam_year: "1963"
+problem_number: 5
 source_tex: "archive/02_kyoto/1963/1963_5.tex"
 pdf_source: "archive/02_kyoto/1963/1963_5.pdf"
 page_image: "archive/02_kyoto/1963/1963_5.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-5
-　与えられた三角形$OP_0P_1$において，$OP_0=a$，$\angle OP_0P_1=\alpha$，$\angle P_0OP_1=\theta$とし，つぎつぎに相似三角形
+与えられた三角形$OP_0P_1$において，$OP_0=a$，$\angle OP_0P_1=\alpha$，$\angle P_0OP_1=\theta$とし，つぎつぎに相似三角形
 \[ \triangle OP_0P_1 \text{∽} \triangle OP_1P_2 \text{∽} \cdots\cdots \text{∽} \triangle OP_nP_{n+1} \text{∽} \cdots\cdots \]
 を作っていく．
 \begin{description}

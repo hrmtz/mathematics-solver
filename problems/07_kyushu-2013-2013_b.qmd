@@ -3,6 +3,7 @@ title: "九州大学 2013年 2013_b"
 problem_id: "07_kyushu-2013-2013_b"
 university: "九州大学"
 exam_year: "2013"
+problem_number: 2
 source_tex: "archive/07_kyushu/2013/2013_b.tex"
 pdf_source: "archive/07_kyushu/2013/2013_b.pdf"
 page_image: "archive/07_kyushu/2013/2013_b.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　原点を出発し，数直線上を動く点$P$がある。このとき，次の試行Ｔを考える。
+原点を出発し，数直線上を動く点$P$がある。このとき，次の試行Ｔを考える。
 \begin{description}
 \item[（試行Ｔ）]$P$は，1枚の硬貨を投げて表が出たら正の向きに1だけ移動し，
 裏が出たら負の向きに1だけ移動する。

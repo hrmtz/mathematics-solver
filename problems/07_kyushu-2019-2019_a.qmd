@@ -3,6 +3,7 @@ title: "九州大学 2019年 2019_a"
 problem_id: "07_kyushu-2019-2019_a"
 university: "九州大学"
 exam_year: "2019"
+problem_number: 1
 source_tex: "archive/07_kyushu/2019/2019_a.tex"
 pdf_source: "archive/07_kyushu/2019/2019_a.pdf"
 page_image: "archive/07_kyushu/2019/2019_a.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　曲線$y=3e^{-2x}$上を動く点$P(t, \, 3e^{-2t})$がある。ただし，$t>0$とする。以下の問いに答えよ。
+曲線$y=3e^{-2x}$上を動く点$P(t, \, 3e^{-2t})$がある。ただし，$t>0$とする。以下の問いに答えよ。
 \begin{description}
 \item[(1)]点$P$における接線の方程式を求めよ。
 \item[(2)]曲線$y=3e^{-2x}$と(1)で求めた接戦，および$y$軸で囲まれた図形の面積$S_1$を$t$で表せ。

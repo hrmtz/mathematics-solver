@@ -3,6 +3,7 @@ title: "九州大学 2002年 2002_0_3a"
 problem_id: "07_kyushu-2002-2002_0_3a"
 university: "九州大学"
 exam_year: "2002"
+problem_number: 3
 source_tex: "archive/07_kyushu/2002/2002_0_3a.tex"
 pdf_source: "archive/07_kyushu/2002/2002_0_3a.pdf"
 page_image: "archive/07_kyushu/2002/2002_0_3a.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3 (a)
-　$\triangle AOB$は$OA=OB=1$なる二等辺三角形とする．
+$\triangle AOB$は$OA=OB=1$なる二等辺三角形とする．
 $\alpha=\angle AOB$とし，線分$OB$に関して$A$と対称な点を$A'$とする．
 次の問いに答えよ．
 \begin{description}

@@ -3,6 +3,7 @@ title: "九州大学 1996年 1996_2"
 problem_id: "07_kyushu-1996-1996_2"
 university: "九州大学"
 exam_year: "1996"
+problem_number: 2
 source_tex: "archive/07_kyushu/1996/1996_2.tex"
 pdf_source: "archive/07_kyushu/1996/1996_2.pdf"
 page_image: "archive/07_kyushu/1996/1996_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　原点$O$を中心とする半径1の球面を$S$とし，
+原点$O$を中心とする半径1の球面を$S$とし，
 $\displaystyle P \left( \frac{1}{\sqrt3}, \, \frac{1}{\sqrt3}, \, \frac{1}{\sqrt3} \right)$を$S$上の点とする．
 点$P$を通る平面$\alpha$に対して$S$と$\alpha$が交わってできる円周を$C$とする．
 次の問いに答えよ．

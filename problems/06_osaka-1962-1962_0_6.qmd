@@ -3,6 +3,7 @@ title: "大阪大学 1962年 1962_0_6"
 problem_id: "06_osaka-1962-1962_0_6"
 university: "大阪大学"
 exam_year: "1962"
+problem_number: 6
 source_tex: "archive/06_osaka/1962/1962_0_6.tex"
 pdf_source: "archive/06_osaka/1962/1962_0_6.pdf"
 page_image: "archive/06_osaka/1962/1962_0_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　放物線$y=x^2+1$に，$x$軸上の点$P(a, \, 0)$から2つの接線を引き，
+放物線$y=x^2+1$に，$x$軸上の点$P(a, \, 0)$から2つの接線を引き，
 その接点をそれぞれ$S$，$T$とする。
 この放物線と，2つの線分$PS$，$PT$とで囲まれた部分の面積を$a$を用いて表わせ。
 

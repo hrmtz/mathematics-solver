@@ -3,6 +3,7 @@ title: "京都大学 2001年 2001_6"
 problem_id: "02_kyoto-2001-2001_6"
 university: "京都大学"
 exam_year: "2001"
+problem_number: 6
 source_tex: "archive/02_kyoto/2001/2001_6.tex"
 pdf_source: "archive/02_kyoto/2001/2001_6.pdf"
 page_image: "archive/02_kyoto/2001/2001_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　次の極限値を求めよ．
+次の極限値を求めよ．
 $\displaystyle\lim_{n\to\infty}\int_0^{n\pi}e^{-x}|\sin nx|dx$
 
 ---

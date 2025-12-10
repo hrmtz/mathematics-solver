@@ -3,6 +3,7 @@ title: "東京大学 2017年 2017_0_2"
 problem_id: "01_tokyo-2017-2017_0_2"
 university: "東京大学"
 exam_year: "2017"
+problem_number: 2
 source_tex: "archive/01_tokyo/2017/2017_0_2.tex"
 pdf_source: "archive/01_tokyo/2017/2017_0_2.pdf"
 page_image: "archive/01_tokyo/2017/2017_0_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　1辺の長さが1の正六角形$ABCDEF$が与えられている。
+1辺の長さが1の正六角形$ABCDEF$が与えられている。
 点$P$が辺$AB$上を，点$Q$が辺$CD$上をそれぞれ独立に動くとき，
 線分$PQ$を$2:1$に内分する点$R$が通りうる範囲の面積を求めよ。
 

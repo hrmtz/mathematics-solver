@@ -3,6 +3,7 @@ title: "名古屋大学 1995年 1995_d"
 problem_id: "05_nagoya-1995-1995_d"
 university: "名古屋大学"
 exam_year: "1995"
+problem_number: 4
 source_tex: "archive/05_nagoya/1995/1995_d.tex"
 pdf_source: "archive/05_nagoya/1995/1995_d.pdf"
 page_image: "archive/05_nagoya/1995/1995_d.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-4
-　頂点が，$A$，$B$，$C$，$D$である図のような正方形がある．
+頂点が，$A$，$B$，$C$，$D$である図のような正方形がある．
 点$X$ははじめ頂点$A$にあり，もう1つの点$Y$ははじめ頂点$C$にある．
 いずれの点も1ステップごとに等確率で隣接する頂点のどちらかに移動するものとする．
 次の問に答えよ．ただし$n\geqq1$とする．

@@ -3,6 +3,7 @@ title: "京都大学 1994年 1994_2"
 problem_id: "02_kyoto-1994-1994_2"
 university: "京都大学"
 exam_year: "1994"
+problem_number: 2
 source_tex: "archive/02_kyoto/1994/1994_2.tex"
 pdf_source: "archive/02_kyoto/1994/1994_2.pdf"
 page_image: "archive/02_kyoto/1994/1994_2.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-2
-　$n$は0または正の整数とする．
+$n$は0または正の整数とする．
 $a_n$を，$a_0=1$，$a_1=2$，$a_{n+2}=a_{n+1}+a_n$によって定める．
 $a_n$を3で割った余りを$b_n$とし，$c_n=b_0+\cdots+b_n$とおく．
 \begin{description}

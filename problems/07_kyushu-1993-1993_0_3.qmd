@@ -3,6 +3,7 @@ title: "九州大学 1993年 1993_0_3"
 problem_id: "07_kyushu-1993-1993_0_3"
 university: "九州大学"
 exam_year: "1993"
+problem_number: 3
 source_tex: "archive/07_kyushu/1993/1993_0_3.tex"
 pdf_source: "archive/07_kyushu/1993/1993_0_3.pdf"
 page_image: "archive/07_kyushu/1993/1993_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$c$を正の定数とする．
+$c$を正の定数とする．
 $0 \leqq t \leqq c$において関数$f(t)$，$g(t)$を次の式が成立するように定める
 （$f'(t)$などは$t$に関する微分を表す）．
 \[ f'(t)=-1, \hspace{1zw} f(0)=2, \hspace{1zw} g'(t)=f(t), \hspace{1zw} g(0)=7 \]

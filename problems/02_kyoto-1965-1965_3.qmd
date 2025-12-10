@@ -3,6 +3,7 @@ title: "京都大学 1965年 1965_3"
 problem_id: "02_kyoto-1965-1965_3"
 university: "京都大学"
 exam_year: "1965"
+problem_number: 3
 source_tex: "archive/02_kyoto/1965/1965_3.tex"
 pdf_source: "archive/02_kyoto/1965/1965_3.pdf"
 page_image: "archive/02_kyoto/1965/1965_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$\alpha$，$\beta$は，$\displaystyle -\frac{\pi}{2}$と$\displaystyle \frac{\pi}{2}$との間にある定角とする．
+$\alpha$，$\beta$は，$\displaystyle -\frac{\pi}{2}$と$\displaystyle \frac{\pi}{2}$との間にある定角とする．
 $x$がどんな角であっても，つねに
 \[ \sin(x+\alpha)+\sin(x+\beta)=\sqrt3\sin x \]
 が成立した．

@@ -3,6 +3,7 @@ title: "京都大学 1999年 1999_f"
 problem_id: "02_kyoto-1999-1999_f"
 university: "京都大学"
 exam_year: "1999"
+problem_number: 6
 source_tex: "archive/02_kyoto/1999/1999_f.tex"
 pdf_source: "archive/02_kyoto/1999/1999_f.pdf"
 page_image: "archive/02_kyoto/1999/1999_f.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-6
 \begin{description}
 \item[(1)]$f(x)$は$a \leqq x \leqq b$で連続な関数とする．このとき，
 \[ \frac{1}{b-a}\int_a^bf(x)dx=f(c) \hspace{1zw} a \leqq c \leqq b \]

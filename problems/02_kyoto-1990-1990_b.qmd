@@ -3,6 +3,7 @@ title: "京都大学 1990年 1990_b"
 problem_id: "02_kyoto-1990-1990_b"
 university: "京都大学"
 exam_year: "1990"
+problem_number: 2
 source_tex: "archive/02_kyoto/1990/1990_b.tex"
 pdf_source: "archive/02_kyoto/1990/1990_b.pdf"
 page_image: "archive/02_kyoto/1990/1990_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$\displaystyle f(x)=\frac{a-\cos x}{x^2}$が$\displaystyle 0<x\leqq\frac{\pi}{2}$の範囲で
+$\displaystyle f(x)=\frac{a-\cos x}{x^2}$が$\displaystyle 0<x\leqq\frac{\pi}{2}$の範囲で
 増加関数となるような定数$a$のうち最大のものを求めよ．
 
 ---

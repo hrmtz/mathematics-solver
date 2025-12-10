@@ -3,6 +3,7 @@ title: "大阪大学 1997年 1997_5"
 problem_id: "06_osaka-1997-1997_5"
 university: "大阪大学"
 exam_year: "1997"
+problem_number: 5
 source_tex: "archive/06_osaka/1997/1997_5.tex"
 pdf_source: "archive/06_osaka/1997/1997_5.pdf"
 page_image: "archive/06_osaka/1997/1997_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　関数$f(\theta)=\sqrt2\sin^2\theta+\cos\theta$に対し，
+関数$f(\theta)=\sqrt2\sin^2\theta+\cos\theta$に対し，
 次の条件を満たす正の数$a$を考える．
 \[ \begin{cases} |\theta|<a\text{ならば}f(\theta)>0 
 

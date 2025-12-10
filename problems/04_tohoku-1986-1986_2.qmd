@@ -3,6 +3,7 @@ title: "東北大学 1986年 1986_2"
 problem_id: "04_tohoku-1986-1986_2"
 university: "東北大学"
 exam_year: "1986"
+problem_number: 2
 source_tex: "archive/04_tohoku/1986/1986_2.tex"
 pdf_source: "archive/04_tohoku/1986/1986_2.pdf"
 page_image: "archive/04_tohoku/1986/1986_2.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-2
-　数直線上の2つの動点$P_1$，$P_2$は
+数直線上の2つの動点$P_1$，$P_2$は
 時刻0のとき原点にあり，時刻$t$における，それぞれの速度$v_1(t)$，$v_2(t)$は
 \[ v_1(t)=4t^2-6at-a^2, \hspace{1zw} v_2(t)=t^2+6at-10a^2 \]
 である．ただし，$a$は実数とする．

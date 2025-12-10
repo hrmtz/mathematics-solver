@@ -3,6 +3,7 @@ title: "東北大学 2016年 2016_1"
 problem_id: "04_tohoku-2016-2016_1"
 university: "東北大学"
 exam_year: "2016"
+problem_number: 1
 source_tex: "archive/04_tohoku/2016/2016_1.tex"
 pdf_source: "archive/04_tohoku/2016/2016_1.pdf"
 page_image: "archive/04_tohoku/2016/2016_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　鋭角三角形$\triangle ABC$において，頂点$A, \, B, \, C$から各対辺に
+鋭角三角形$\triangle ABC$において，頂点$A, \, B, \, C$から各対辺に
 垂線$AD, \, BE, \, CF$を下ろす。
 これらの垂線は垂心$H$で交わる。
 このとき，以下の問いに答えよ。

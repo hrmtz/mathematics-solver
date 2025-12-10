@@ -3,6 +3,7 @@ title: "東京大学 1977年 1977_4"
 problem_id: "01_tokyo-1977-1977_4"
 university: "東京大学"
 exam_year: "1977"
+problem_number: 4
 source_tex: "archive/01_tokyo/1977/1977_4.tex"
 pdf_source: "archive/01_tokyo/1977/1977_4.pdf"
 page_image: "archive/01_tokyo/1977/1977_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　正方形$S$の頂点$A_1$，$A_2$，$A_3$，$A_4$が
+正方形$S$の頂点$A_1$，$A_2$，$A_3$，$A_4$が
 それぞれ$xy$平面上の点$(0,0)$，$(2,0)$，$(2,2)$，$(0,2)$の位置にあるとき，
 点$(1,a)$の位置にある正方形$S$内の点を$P$とする．
 ただし，$0 \leqq a \leqq 2$とする．

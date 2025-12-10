@@ -3,6 +3,7 @@ title: "東京大学 2015年 2015_5"
 problem_id: "01_tokyo-2015-2015_5"
 university: "東京大学"
 exam_year: "2015"
+problem_number: 5
 source_tex: "archive/01_tokyo/2015/2015_5.tex"
 pdf_source: "archive/01_tokyo/2015/2015_5.pdf"
 page_image: "archive/01_tokyo/2015/2015_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　$m$を2015以下の正の整数とする。
+$m$を2015以下の正の整数とする。
 ${}_{2015}C_m$が偶数となる最小の$m$を求めよ。
 
 ---

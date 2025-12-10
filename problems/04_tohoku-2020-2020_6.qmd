@@ -3,6 +3,7 @@ title: "東北大学 2020年 2020_6"
 problem_id: "04_tohoku-2020-2020_6"
 university: "東北大学"
 exam_year: "2020"
+problem_number: 6
 source_tex: "archive/04_tohoku/2020/2020_6.tex"
 pdf_source: "archive/04_tohoku/2020/2020_6.pdf"
 page_image: "archive/04_tohoku/2020/2020_6.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-6
-　正の整数$m, \, n$に対して実数$A(m, \, n)$を次の定積分で定める。
+正の整数$m, \, n$に対して実数$A(m, \, n)$を次の定積分で定める。
 \[ A(m, \, n)=\int_0^\frac{\pi}{2}\cos^mx\sin^nxdx \]
 \begin{description}
 \item[(1)]次の等式が成り立つことを示せ。

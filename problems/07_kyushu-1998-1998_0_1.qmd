@@ -3,6 +3,7 @@ title: "九州大学 1998年 1998_0_1"
 problem_id: "07_kyushu-1998-1998_0_1"
 university: "九州大学"
 exam_year: "1998"
+problem_number: 1
 source_tex: "archive/07_kyushu/1998/1998_0_1.tex"
 pdf_source: "archive/07_kyushu/1998/1998_0_1.pdf"
 page_image: "archive/07_kyushu/1998/1998_0_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　放物線$y=x^2-2px$上の点$(t, \, t^2-2pt)$における接線を
+放物線$y=x^2-2px$上の点$(t, \, t^2-2pt)$における接線を
 $y$軸方向に$b$だけ平行移動した直線を$l(t, \, b)$とする．
 \begin{description}
 \item[(1)]直線$l(t, \, b)$の方程式を求めよ．

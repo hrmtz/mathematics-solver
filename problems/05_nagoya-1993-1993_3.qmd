@@ -3,6 +3,7 @@ title: "名古屋大学 1993年 1993_3"
 problem_id: "05_nagoya-1993-1993_3"
 university: "名古屋大学"
 exam_year: "1993"
+problem_number: 3
 source_tex: "archive/05_nagoya/1993/1993_3.tex"
 pdf_source: "archive/05_nagoya/1993/1993_3.pdf"
 page_image: "archive/05_nagoya/1993/1993_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$n$を自然数とし，$0<a<1$として，
+$n$を自然数とし，$0<a<1$として，
 $\displaystyle S_n(a)=\int_0^1|x^{n+1}-ax|dx$とおく．
 \begin{description}
 \item[(1)]各$n$に対して，$S_n(a)$を最小にする$a$の値$a_n$を求めよ．

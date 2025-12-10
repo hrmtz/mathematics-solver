@@ -3,6 +3,7 @@ title: "大阪大学 2009年 2009_c"
 problem_id: "06_osaka-2009-2009_c"
 university: "大阪大学"
 exam_year: "2009"
+problem_number: 3
 source_tex: "archive/06_osaka/2009/2009_c.tex"
 pdf_source: "archive/06_osaka/2009/2009_c.pdf"
 page_image: "archive/06_osaka/2009/2009_c.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$O$を原点とする$xyz$空間に3点$A(-2, \, -2, \, 0)$，$B(6, \, -2, \, 0)$，$C(-2, \, 4, \, 0)$をとり，
+$O$を原点とする$xyz$空間に3点$A(-2, \, -2, \, 0)$，$B(6, \, -2, \, 0)$，$C(-2, \, 4, \, 0)$をとり，
 球$S:x^2+y^2+{(z-4)}^2\leqq4$を考える．
 \begin{description}
 \item[(1)]三角形$ABC$の周または内部の点を$P$とする．このとき，$\alpha+\beta+\gamma=1$となるような

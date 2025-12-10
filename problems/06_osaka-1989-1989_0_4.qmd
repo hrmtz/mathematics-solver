@@ -3,6 +3,7 @@ title: "大阪大学 1989年 1989_0_4"
 problem_id: "06_osaka-1989-1989_0_4"
 university: "大阪大学"
 exam_year: "1989"
+problem_number: 4
 source_tex: "archive/06_osaka/1989/1989_0_4.tex"
 pdf_source: "archive/06_osaka/1989/1989_0_4.pdf"
 page_image: "archive/06_osaka/1989/1989_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$|\cos^2x+a\sin x+b|\leqq3$がすべての実数$x$について成り立つような，
+$|\cos^2x+a\sin x+b|\leqq3$がすべての実数$x$について成り立つような，
 点$(a, \, b)$の存在範囲を図示せよ．
 
 ---

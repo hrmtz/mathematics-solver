@@ -3,6 +3,7 @@ title: "九州大学 1970年 1970_1"
 problem_id: "07_kyushu-1970-1970_1"
 university: "九州大学"
 exam_year: "1970"
+problem_number: 1
 source_tex: "archive/07_kyushu/1970/1970_1.tex"
 pdf_source: "archive/07_kyushu/1970/1970_1.pdf"
 page_image: "archive/07_kyushu/1970/1970_1.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-1
-　$y$軸に平行な軸をもち，原点を通り，かつ直線$y=1$に接する
+$y$軸に平行な軸をもち，原点を通り，かつ直線$y=1$に接する
 放物線の焦点の軌跡の方程式を求めよ．
 
 ---

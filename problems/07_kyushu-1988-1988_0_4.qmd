@@ -3,6 +3,7 @@ title: "九州大学 1988年 1988_0_4"
 problem_id: "07_kyushu-1988-1988_0_4"
 university: "九州大学"
 exam_year: "1988"
+problem_number: 4
 source_tex: "archive/07_kyushu/1988/1988_0_4.tex"
 pdf_source: "archive/07_kyushu/1988/1988_0_4.pdf"
 page_image: "archive/07_kyushu/1988/1988_0_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$X$と$Y$は互いに独立な確率変数である．
+$X$と$Y$は互いに独立な確率変数である．
 $X$は1と5の値，$Y$は1と3の値をとる．
 $X=1$である確率を$p$ $(0 \leqq p \leqq 1)$，
 $Y=1$である確率を$q$ $(0 \leqq q \leqq 1)$とし，

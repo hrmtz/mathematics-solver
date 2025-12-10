@@ -3,6 +3,7 @@ title: "大阪大学 1981年 1981_0_3"
 problem_id: "06_osaka-1981-1981_0_3"
 university: "大阪大学"
 exam_year: "1981"
+problem_number: 3
 source_tex: "archive/06_osaka/1981/1981_0_3.tex"
 pdf_source: "archive/06_osaka/1981/1981_0_3.pdf"
 page_image: "archive/06_osaka/1981/1981_0_3.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-3
-　曲線$C:y=x(x-1)(x-a)$ $(a\neq0)$の原点$O$における接線$l$が，
+曲線$C:y=x(x-1)(x-a)$ $(a\neq0)$の原点$O$における接線$l$が，
 $O$以外の点$P$で$C$に交わるとする．
 $P$より$x$軸に下ろした垂線が$x$軸と交わる点を$Q$とし，
 $\triangle OPQ$の面積を$S_1$，曲線$C$と接線$l$で囲まれる図形の面積を$S_2$とする．

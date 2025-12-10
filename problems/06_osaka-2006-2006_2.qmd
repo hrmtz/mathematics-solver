@@ -3,6 +3,7 @@ title: "大阪大学 2006年 2006_2"
 problem_id: "06_osaka-2006-2006_2"
 university: "大阪大学"
 exam_year: "2006"
+problem_number: 2
 source_tex: "archive/06_osaka/2006/2006_2.tex"
 pdf_source: "archive/06_osaka/2006/2006_2.pdf"
 page_image: "archive/06_osaka/2006/2006_2.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　直線$y=x$を$l$で，直線$y=-x$を$l'$で表す．
+直線$y=x$を$l$で，直線$y=-x$を$l'$で表す．
 直線$l$，$l'$のどちらの上にもない点$A(a, \, b)$をとる．
 点$A$を通る直線$m$が2直線$l$，$l'$とそれぞれ点$P$，$P'$で交わるとする．
 点$Q$を$\overrightarrow{OP}+\overrightarrow{OP'}=\overrightarrow{OA}+\overrightarrow{OQ}$を満たすようにとる．

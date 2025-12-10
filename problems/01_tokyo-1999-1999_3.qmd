@@ -3,6 +3,7 @@ title: "東京大学 1999年 1999_3"
 problem_id: "01_tokyo-1999-1999_3"
 university: "東京大学"
 exam_year: "1999"
+problem_number: 3
 source_tex: "archive/01_tokyo/1999/1999_3.tex"
 pdf_source: "archive/01_tokyo/1999/1999_3.pdf"
 page_image: "archive/01_tokyo/1999/1999_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$p$を$0<p<1$を満たす実数とする．
+$p$を$0<p<1$を満たす実数とする．
 \begin{description}
 \item[(1)]四面体$ABCD$の各辺はそれぞれ確率$p$で電流を通すものとする．
 このとき，頂点$A$から$B$に電流が流れる確率を求めよ．

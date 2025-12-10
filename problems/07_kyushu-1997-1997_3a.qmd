@@ -3,6 +3,7 @@ title: "九州大学 1997年 1997_3a"
 problem_id: "07_kyushu-1997-1997_3a"
 university: "九州大学"
 exam_year: "1997"
+problem_number: 3
 source_tex: "archive/07_kyushu/1997/1997_3a.tex"
 pdf_source: "archive/07_kyushu/1997/1997_3a.pdf"
 page_image: "archive/07_kyushu/1997/1997_3a.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3 (a)
 \begin{description}
 \item[(1)]$2^m\leqq4m^2$であるが，$2^{m+1}>4{(m+1)}^2$である最小の自然数$m$を求めよ．
 \item[(2)]$m$を(1)で求めた自然数とする．

@@ -3,6 +3,7 @@ title: "東北大学 2014年 2014_3"
 problem_id: "04_tohoku-2014-2014_3"
 university: "東北大学"
 exam_year: "2014"
+problem_number: 3
 source_tex: "archive/04_tohoku/2014/2014_3.tex"
 pdf_source: "archive/04_tohoku/2014/2014_3.pdf"
 page_image: "archive/04_tohoku/2014/2014_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　$1, \, 2, \, 3, \, 4, \, 5$のそれぞれの数字が書かれた玉が2個ずつ，合計10個ある。
+$1, \, 2, \, 3, \, 4, \, 5$のそれぞれの数字が書かれた玉が2個ずつ，合計10個ある。
 \begin{description}
 \item[(1)]10個の玉を袋に入れ，よくかき混ぜて2個の玉を取り出す。
 書かれている2つの数字の積が10となる確率を求めよ。

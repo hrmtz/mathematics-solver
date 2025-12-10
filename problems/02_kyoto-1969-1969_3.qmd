@@ -3,6 +3,7 @@ title: "京都大学 1969年 1969_3"
 problem_id: "02_kyoto-1969-1969_3"
 university: "京都大学"
 exam_year: "1969"
+problem_number: 3
 source_tex: "archive/02_kyoto/1969/1969_3.tex"
 pdf_source: "archive/02_kyoto/1969/1969_3.pdf"
 page_image: "archive/02_kyoto/1969/1969_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　次の文中の□に，適当な語句または文を入れよ．
+次の文中の□に，適当な語句または文を入れよ．
 　1つの命題「$A$ならば$B$である」について，条件$A$をみたすものが存在しないならば，この命題は□．
 その理由は，次の通りである．
 1つの命題と，その□とは互いに同値であるから，次の命題を考えればよい．

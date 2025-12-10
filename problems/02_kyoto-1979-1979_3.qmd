@@ -3,6 +3,7 @@ title: "京都大学 1979年 1979_3"
 problem_id: "02_kyoto-1979-1979_3"
 university: "京都大学"
 exam_year: "1979"
+problem_number: 3
 source_tex: "archive/02_kyoto/1979/1979_3.tex"
 pdf_source: "archive/02_kyoto/1979/1979_3.pdf"
 page_image: "archive/02_kyoto/1979/1979_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \begin{description}
 \item[(i)]変数$t$が$t>0$の範囲を動くとき
 \[ f(t)=\sqrt{t}+\frac{1}{\sqrt{t}}+\sqrt{t+\frac{1}{t}+1}, \hspace{1zw}

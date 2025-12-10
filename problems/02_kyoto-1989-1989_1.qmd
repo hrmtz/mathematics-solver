@@ -3,6 +3,7 @@ title: "京都大学 1989年 1989_1"
 problem_id: "02_kyoto-1989-1989_1"
 university: "京都大学"
 exam_year: "1989"
+problem_number: 1
 source_tex: "archive/02_kyoto/1989/1989_1.tex"
 pdf_source: "archive/02_kyoto/1989/1989_1.pdf"
 page_image: "archive/02_kyoto/1989/1989_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　$OA_1=OB_1=1$，$\angle B_1OA_1=\theta$ $(0<\theta<\pi)$であるような二等辺三角形$OA_1B_1$がある．
+$OA_1=OB_1=1$，$\angle B_1OA_1=\theta$ $(0<\theta<\pi)$であるような二等辺三角形$OA_1B_1$がある．
 　辺$A_1B_1$の中点を$B_2$とし，辺$OA_1$上に$OA_2=OB_2$となる点$A_2$をとり，二等辺三角形$OA_2B_2$を作る．
 以下同様にして，$n>2$についても二等辺三角形$OA_nB_n$を作っていく．
 　辺$OA_n$の長さを$a_n$とおく．

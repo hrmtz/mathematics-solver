@@ -3,6 +3,7 @@ title: "京都大学 1991年 1991_0_b"
 problem_id: "02_kyoto-1991-1991_0_b"
 university: "京都大学"
 exam_year: "1991"
+problem_number: 2
 source_tex: "archive/02_kyoto/1991/1991_0_b.tex"
 pdf_source: "archive/02_kyoto/1991/1991_0_b.pdf"
 page_image: "archive/02_kyoto/1991/1991_0_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　平面上の正方形の列$S_n$ $(n=1,2,\cdots)$を
+平面上の正方形の列$S_n$ $(n=1,2,\cdots)$を
 次の条件\ding{"AC}，\ding{"AD}，\ding{"AE}，\ding{"AF}を満たすようにとる．
 \begin{description}
 \item[\ding{"AC}]$S_n$の1つの辺は$x$軸に含まれる．

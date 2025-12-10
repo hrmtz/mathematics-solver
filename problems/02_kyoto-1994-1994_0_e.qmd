@@ -3,6 +3,7 @@ title: "京都大学 1994年 1994_0_e"
 problem_id: "02_kyoto-1994-1994_0_e"
 university: "京都大学"
 exam_year: "1994"
+problem_number: 5
 source_tex: "archive/02_kyoto/1994/1994_0_e.tex"
 pdf_source: "archive/02_kyoto/1994/1994_0_e.pdf"
 page_image: "archive/02_kyoto/1994/1994_0_e.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　2次式$f(x)=3x^2+2ax+1$に対し，
+2次式$f(x)=3x^2+2ax+1$に対し，
 $\displaystyle\int_{-2}^2(x+2)f(x)dx=4\int_c^2f(x)dx$を満たす$c$が$-2<c<2$の範囲に存在することを示せ．
 
 ---

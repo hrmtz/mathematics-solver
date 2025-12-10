@@ -3,6 +3,7 @@ title: "九州大学 1980年 1980_1"
 problem_id: "07_kyushu-1980-1980_1"
 university: "九州大学"
 exam_year: "1980"
+problem_number: 1
 source_tex: "archive/07_kyushu/1980/1980_1.tex"
 pdf_source: "archive/07_kyushu/1980/1980_1.pdf"
 page_image: "archive/07_kyushu/1980/1980_1.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-1
-　空間における2直線$l$，$m$のベクトル方程式をそれぞれ
+空間における2直線$l$，$m$のベクトル方程式をそれぞれ
 $l:\overrightarrow{p}=\overrightarrow{a}+s\overrightarrow{u}$，
 $m:\overrightarrow{p}=\overrightarrow{b}+t\overrightarrow{v}$とする．
 ただし$s$，$t$は媒介変数とし，また$|\overrightarrow{u}|=1$としておく．

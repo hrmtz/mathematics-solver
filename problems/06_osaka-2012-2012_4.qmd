@@ -3,6 +3,7 @@ title: "大阪大学 2012年 2012_4"
 problem_id: "06_osaka-2012-2012_4"
 university: "大阪大学"
 exam_year: "2012"
+problem_number: 4
 source_tex: "archive/06_osaka/2012/2012_4.tex"
 pdf_source: "archive/06_osaka/2012/2012_4.pdf"
 page_image: "archive/06_osaka/2012/2012_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　5次式$f(x)=x^5+px^4+qx^3+rx^2+sx+t$
+5次式$f(x)=x^5+px^4+qx^3+rx^2+sx+t$
 （$p,q,r,s,t$は実数）について考える．
 このとき，以下の問いに答えよ．
 \begin{description}

@@ -3,6 +3,7 @@ title: "京都大学 1985年 1985_4"
 problem_id: "02_kyoto-1985-1985_4"
 university: "京都大学"
 exam_year: "1985"
+problem_number: 4
 source_tex: "archive/02_kyoto/1985/1985_4.tex"
 pdf_source: "archive/02_kyoto/1985/1985_4.pdf"
 page_image: "archive/02_kyoto/1985/1985_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　実数$r$ $(r>0)$に対して，下の方程式\ding{"AC}の定める球面と，\ding{"AD}の定める平面の共通部分を$D$とする．
+実数$r$ $(r>0)$に対して，下の方程式\ding{"AC}の定める球面と，\ding{"AD}の定める平面の共通部分を$D$とする．
 \begin{description}
 \item[\ding{"AC}]$\displaystyle x^2+y^2+z^2=\frac{1}{3}(r^2+2)$
 \item[\ding{"AD}]$x+y+z=r$

@@ -3,6 +3,7 @@ title: "東京科学大学 1985年 1985_5"
 problem_id: "08_titech-1985-1985_5"
 university: "東京科学大学"
 exam_year: "1985"
+problem_number: 5
 source_tex: "archive/08_titech/1985/1985_5.tex"
 pdf_source: "archive/08_titech/1985/1985_5.pdf"
 page_image: "archive/08_titech/1985/1985_5.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-5
-　1から$n$までの整数を1枚に1つずつ書いた$n$枚のカードの組を3組用意する．
+1から$n$までの整数を1枚に1つずつ書いた$n$枚のカードの組を3組用意する．
 3人がそれぞれ1組ずつを持ち，
 各人はその中から無作為に1枚のカードを抜き出し，
 そこに書かれた数によって得点を次のようにA，B 2通り定める．

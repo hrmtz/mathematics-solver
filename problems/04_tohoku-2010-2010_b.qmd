@@ -3,6 +3,7 @@ title: "東北大学 2010年 2010_b"
 problem_id: "04_tohoku-2010-2010_b"
 university: "東北大学"
 exam_year: "2010"
+problem_number: 2
 source_tex: "archive/04_tohoku/2010/2010_b.tex"
 pdf_source: "archive/04_tohoku/2010/2010_b.pdf"
 page_image: "archive/04_tohoku/2010/2010_b.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-2
-　$b$は$|b|\geqq3$を満たす整数とする．
+$b$は$|b|\geqq3$を満たす整数とする．
 2次方程式$x^2+bx+1=0$の解を$\alpha$，$\beta$とする．
 以下の問いに答えよ．
 \begin{description}

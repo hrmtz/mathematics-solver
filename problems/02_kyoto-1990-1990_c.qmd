@@ -3,6 +3,7 @@ title: "京都大学 1990年 1990_c"
 problem_id: "02_kyoto-1990-1990_c"
 university: "京都大学"
 exam_year: "1990"
+problem_number: 3
 source_tex: "archive/02_kyoto/1990/1990_c.tex"
 pdf_source: "archive/02_kyoto/1990/1990_c.pdf"
 page_image: "archive/02_kyoto/1990/1990_c.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　関数$y=\log x$のグラフ上の1点$P(s,\log s)$ $(s\geqq1)$における接線と$y$軸の交点を$Q$とする．
+関数$y=\log x$のグラフ上の1点$P(s,\log s)$ $(s\geqq1)$における接線と$y$軸の交点を$Q$とする．
 グラフ上に定点$A(1,0)$をとる．
 $AP$間のグラフの長さを$\stackrel{\frown}{AP}$，線分$PQ$の長さを$\overline{PQ}$とし，
 $t=\overline{PQ}-\stackrel{\frown}{AP}$とする．

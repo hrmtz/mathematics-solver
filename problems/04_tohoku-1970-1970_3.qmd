@@ -3,6 +3,7 @@ title: "東北大学 1970年 1970_3"
 problem_id: "04_tohoku-1970-1970_3"
 university: "東北大学"
 exam_year: "1970"
+problem_number: 3
 source_tex: "archive/04_tohoku/1970/1970_3.tex"
 pdf_source: "archive/04_tohoku/1970/1970_3.pdf"
 page_image: "archive/04_tohoku/1970/1970_3.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-3
 \[ A=\int_{-2h^3}^{2h^3}f(x)dx \]
 \[ B=h \{ f(h)-2f(0)+f(-h) \} \]
 とするとき，次のそれぞれの関数$f(x)$に対して

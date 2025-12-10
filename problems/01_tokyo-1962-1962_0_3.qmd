@@ -3,6 +3,7 @@ title: "東京大学 1962年 1962_0_3"
 problem_id: "01_tokyo-1962-1962_0_3"
 university: "東京大学"
 exam_year: "1962"
+problem_number: 3
 source_tex: "archive/01_tokyo/1962/1962_0_3.tex"
 pdf_source: "archive/01_tokyo/1962/1962_0_3.pdf"
 page_image: "archive/01_tokyo/1962/1962_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　半径$a$の円周を6等分する点のそれぞれを中心として，
+半径$a$の円周を6等分する点のそれぞれを中心として，
 半径$a$の円をえがくとき，
 これら6個の円がおおう範囲(図の太線で囲まれた範囲)の面積を求めよ．
 

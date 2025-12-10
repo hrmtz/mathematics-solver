@@ -3,6 +3,7 @@ title: "九州大学 2015年 2015_d"
 problem_id: "07_kyushu-2015-2015_d"
 university: "九州大学"
 exam_year: "2015"
+problem_number: 4
 source_tex: "archive/07_kyushu/2015/2015_d.tex"
 pdf_source: "archive/07_kyushu/2015/2015_d.pdf"
 page_image: "archive/07_kyushu/2015/2015_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　数列$\{ x_n \}$の第$n$項を$x_n=r^{n-1}$で定める。
+数列$\{ x_n \}$の第$n$項を$x_n=r^{n-1}$で定める。
 このとき，正の実数$x$に対して定義された関数$f(x)=x^{-\alpha}$を用いて，
 2つの数列$\{ a_n \}$と$\{ b_n \}$を，
 それぞれ$a_n=f(x_n)(x_{n+1}-x_n)$と$b_n=f(x_{n+1})(x_{n+1}-x_n)$で定める。

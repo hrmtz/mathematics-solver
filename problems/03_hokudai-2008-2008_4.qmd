@@ -3,6 +3,7 @@ title: "北海道大学 2008年 2008_4"
 problem_id: "03_hokudai-2008-2008_4"
 university: "北海道大学"
 exam_year: "2008"
+problem_number: 4
 source_tex: "archive/03_hokudai/2008/2008_4.tex"
 pdf_source: "archive/03_hokudai/2008/2008_4.pdf"
 page_image: "archive/03_hokudai/2008/2008_4.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　$xyz$空間の原点$O$と，$O$を中心とし半径1の球面上の異なる4点$A$，$B$，$C$，$D$を考える．
+$xyz$空間の原点$O$と，$O$を中心とし半径1の球面上の異なる4点$A$，$B$，$C$，$D$を考える．
 点$A \displaystyle \left( \cos\frac{\alpha}{2}, \, \sin\frac{\alpha}{2}, \, 0 \right)$，
 $B \displaystyle \left( \cos \left( -\frac{\alpha}{2} \right), \, \sin \left( -\frac{\alpha}{2} \right), \, 0 \right)$，
 $(0<\alpha<\pi)$とする．

@@ -3,6 +3,7 @@ title: "九州大学 1968年 1968_0_3"
 problem_id: "07_kyushu-1968-1968_0_3"
 university: "九州大学"
 exam_year: "1968"
+problem_number: 3
 source_tex: "archive/07_kyushu/1968/1968_0_3.tex"
 pdf_source: "archive/07_kyushu/1968/1968_0_3.pdf"
 page_image: "archive/07_kyushu/1968/1968_0_3.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-3
-　$x$の関数$\displaystyle F(x)=\int_0^xt(t-1)(t+1)dt$について次の問いに答えよ．
+$x$の関数$\displaystyle F(x)=\int_0^xt(t-1)(t+1)dt$について次の問いに答えよ．
 　$F(x)$の極大値，極小値を求めよ．
 
 ---

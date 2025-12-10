@@ -3,6 +3,7 @@ title: "京都大学 1992年 1992_0_e"
 problem_id: "02_kyoto-1992-1992_0_e"
 university: "京都大学"
 exam_year: "1992"
+problem_number: 5
 source_tex: "archive/02_kyoto/1992/1992_0_e.tex"
 pdf_source: "archive/02_kyoto/1992/1992_0_e.pdf"
 page_image: "archive/02_kyoto/1992/1992_0_e.jpg"
@@ -15,7 +16,6 @@ format:
 ---
 
 
-5
 \begin{description}
 \item[(1)]$n$を自然数とする(ただし$n\geqq2$)．
 0と1からなる数列$x_1,x_2,\cdots\cdots,x_n$で，同じ数が3個以上は続いて並ばないものを考える．

@@ -3,6 +3,7 @@ title: "東京科学大学 2024年 2024_5"
 problem_id: "08_titech-2024-2024_5"
 university: "東京科学大学"
 exam_year: "2024"
+problem_number: 5
 source_tex: "archive/08_titech/2024/2024_5.tex"
 pdf_source: "archive/08_titech/2024/2024_5.pdf"
 page_image: "archive/08_titech/2024/2024_5.jpg"
@@ -16,8 +17,7 @@ format:
 ---
 
 
-5
-　整数の組$(a, \, b)$に対して2次式$f(x)=x^2+ax+b$を考える．
+整数の組$(a, \, b)$に対して2次式$f(x)=x^2+ax+b$を考える．
 方程式$f(x)=0$の複素数の範囲のすべての解$\alpha$に対して
 $\alpha^n=1$となる正の整数$n$が存在するような組$(a, \, b)$をすべて求めよ．
 

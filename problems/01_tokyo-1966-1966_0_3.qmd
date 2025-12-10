@@ -3,6 +3,7 @@ title: "東京大学 1966年 1966_0_3"
 problem_id: "01_tokyo-1966-1966_0_3"
 university: "東京大学"
 exam_year: "1966"
+problem_number: 3
 source_tex: "archive/01_tokyo/1966/1966_0_3.tex"
 pdf_source: "archive/01_tokyo/1966/1966_0_3.pdf"
 page_image: "archive/01_tokyo/1966/1966_0_3.jpg"
@@ -14,8 +15,7 @@ format:
 ---
 
 
-3
-　三直線$x+y-1=0$，$x-y+1=0$，$3x+4y-5=0$で囲まれる三角形の
+三直線$x+y-1=0$，$x-y+1=0$，$3x+4y-5=0$で囲まれる三角形の
 内心の座標と，内接円の半径を求めよ．
 
 ---

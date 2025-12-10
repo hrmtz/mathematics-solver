@@ -3,6 +3,7 @@ title: "東北大学 2019年 2019_d"
 problem_id: "04_tohoku-2019-2019_d"
 university: "東北大学"
 exam_year: "2019"
+problem_number: 4
 source_tex: "archive/04_tohoku/2019/2019_d.tex"
 pdf_source: "archive/04_tohoku/2019/2019_d.pdf"
 page_image: "archive/04_tohoku/2019/2019_d.jpg"
@@ -15,8 +16,7 @@ format:
 ---
 
 
-4
-　関数$f(x)$は連続な第2次導関数$f''(x)$をもち，
+関数$f(x)$は連続な第2次導関数$f''(x)$をもち，
 すべての実数$x$に対して$f''(x)$の値が正であるとする。
 \begin{description}
 \item[(1)]異なる2つの実数$x$，$y$に対して，次の関数を考える。
