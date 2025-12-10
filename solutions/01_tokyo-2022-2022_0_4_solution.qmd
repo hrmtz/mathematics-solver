@@ -1,0 +1,184 @@
+(1)  
+
+$\overrightarrow{v_k}=\left(\cos\frac{2k\pi}{3},\,\sin\frac{2k\pi}{3}\right)$ は  
+$k=0,1,2,\dots$ について，  
+$$
+\overrightarrow{v_0}=(1,0),\quad
+\overrightarrow{v_1}=\left(-\frac12,\frac{\sqrt3}{2}\right),\quad
+\overrightarrow{v_2}=\left(-\frac12,-\frac{\sqrt3}{2}\right)
+$$
+となり，$k$ を $3$ で割った余りだけに依存する。  
+すなわち  
+$$
+\overrightarrow{v_{k+3}}=\overrightarrow{v_k}
+$$
+が成り立つ。
+
+ここで，コイン投げで裏が出た回数を $r$，表が出た回数を $s$ とおくと，
+総投数 $N=5$ より
+$$
+r+s=5
+$$
+であり，最終的な位置ベクトルは
+$$
+\overrightarrow{OX_5}
+=\sum_{\text{表が出た各回 }n}\overrightarrow{v_{k_n}}
+$$
+となる。ただし $k_n$ は $n$ 回目までに出た裏の回数である。
+
+$n$ 回目に表が出たときに加えられるベクトルは，その時点での裏の総数 $k$ のみで決まり，その順序には依存しない。したがって，裏が $r$ 回，表が $s$ 回出たとき，
+それぞれの表のステップで加えられるベクトルは
+$$
+\overrightarrow{v_0},\ \overrightarrow{v_1},\ \dots,\ \overrightarrow{v_{r-1}}
+$$
+のちょうど $s$ 個になる（どの順に現れるかは問わない）。  
+よって
+$$
+\overrightarrow{OX_5}
+=\sum_{k=0}^{r-1}\overrightarrow{v_k} \quad (\text{表が $s\ge1$ 回出たとき})
+$$
+となる。表が 1 回も出ない ($s=0$) ときは，常に $X_5=O$ である。
+
+ここで  
+$$
+\overrightarrow{v_0}+\overrightarrow{v_1}+\overrightarrow{v_2}
+=(1,0)+\left(-\frac12,\frac{\sqrt3}{2}\right)+\left(-\frac12,-\frac{\sqrt3}{2}\right)
+=(0,0)
+$$
+より
+$$
+\overrightarrow{v_0}+\overrightarrow{v_1}+\overrightarrow{v_2}=\mathbf{0}
+$$
+すなわち，3 個ずつまとめると和は $\mathbf{0}$ になる。
+
+$r$ を 3 で割った余りを $r\equiv m\pmod{3}$ とおくと  
+$$
+\sum_{k=0}^{r-1}\overrightarrow{v_k}
+=\Bigl(\sum_{j=0}^{\lfloor\frac{r-1}{3}\rfloor}
+(\overrightarrow{v_{3j}}+\overrightarrow{v_{3j+1}}+\overrightarrow{v_{3j+2}})\Bigr)
++\sum_{k=0}^{m-1}\overrightarrow{v_k}
+=\sum_{k=0}^{m-1}\overrightarrow{v_k}
+$$
+であるから，和が $\mathbf{0}$ になるのは
+$$
+m=0\ (\text{すなわち }r\equiv0\pmod{3})
+\quad\text{または}\quad
+m=0,\ 1,\ 2\ のうち $\sum_{k=0}^{m-1}\overrightarrow{v_k}=\mathbf{0}$ の場合
+$$
+だけである。実際に
+$$
+\sum_{k=0}^{0}\overrightarrow{v_k}=\overrightarrow{v_0}\ne\mathbf{0},\quad
+\sum_{k=0}^{1}\overrightarrow{v_k}=\overrightarrow{v_0}+\overrightarrow{v_1}\ne\mathbf{0},\quad
+\sum_{k=0}^{2}\overrightarrow{v_k}=\mathbf{0}
+$$
+より，$\sum_{k=0}^{r-1}\overrightarrow{v_k}=\mathbf{0}$ となるのは
+$$
+r\equiv0\pmod{3}
+$$
+の場合に限る。
+
+以上を $N=5$ の場合に適用する。
+
+- 表が 0 回：このとき裏が $5$ 回であり，$X_5$ は常に $O$。  
+  確率は
+  $$
+  \binom{5}{0}\left(\frac12\right)^5=\frac{1}{32}
+  $$
+
+- 表が 1 回以上：裏が $r$ 回で $r+s=5$，かつ $r\equiv0\pmod{3}$ でなければ $X_5\ne O$。  
+  $0\le r\le5$ で $r\equiv0\pmod{3}$ かつ $r\le5$ を満たすのは $r=0,3$。  
+  ただし $r=0$ はすでに考えたので，表が 1 回以上で $X_5=O$ となるのは $r=3$（表が 2 回，裏が 3 回）のみである。
+
+$r=3$（裏 3 回，表 2 回）の確率は
+$$
+\binom{5}{3}\left(\frac12\right)^5=\frac{10}{32}
+$$
+である。
+
+したがって $X_5$ が $O$ にある確率は
+$$
+\frac{1}{32}+\frac{10}{32}=\frac{11}{32}
+$$
+である。
+
+答えは
+$$
+\frac{11}{32}
+$$
+となる。
+
+---
+
+(2)  
+
+$N=98$，表が 90 回，裏が 8 回出る場合を考える。この条件が与えられているので，(1) と同様に，順序には依存せず「何回目の表でどの $\overrightarrow{v_k}$ が使われるか」が決まる。
+
+裏が $8$ 回なので，表が出るたびに加えられるベクトルは
+$$
+\overrightarrow{v_0},\ \overrightarrow{v_1},\ \dots,\ \overrightarrow{v_7}
+$$
+の 8 本であり，これが 90 回の表のすべてで現れる。  
+(1) と同様に，
+$$
+\overrightarrow{OX_{98}}
+=\sum_{k=0}^{7}\overrightarrow{v_k}
+$$
+となる。よって，この和が $\mathbf{0}$ となるかを調べればよい。
+
+$3$ 個ずつに分けると
+$$
+\sum_{k=0}^{7}\overrightarrow{v_k}
+=(\overrightarrow{v_0}+\overrightarrow{v_1}+\overrightarrow{v_2})
++(\overrightarrow{v_3}+\overrightarrow{v_4}+\overrightarrow{v_5})
++\overrightarrow{v_6}+\overrightarrow{v_7}.
+$$
+先ほどと同様に周期性から
+$$
+\overrightarrow{v_3}=\overrightarrow{v_0},\ 
+\overrightarrow{v_4}=\overrightarrow{v_1},\ 
+\overrightarrow{v_5}=\overrightarrow{v_2}
+$$
+であり，また
+$$
+\overrightarrow{v_0}+\overrightarrow{v_1}+\overrightarrow{v_2}=\mathbf{0}
+$$
+なので
+$$
+\overrightarrow{v_0}+\overrightarrow{v_1}+\overrightarrow{v_2}
++\overrightarrow{v_3}+\overrightarrow{v_4}+\overrightarrow{v_5}
+=\mathbf{0}+\mathbf{0}=\mathbf{0}
+$$
+となる。したがって
+$$
+\sum_{k=0}^{7}\overrightarrow{v_k}
+=\overrightarrow{v_6}+\overrightarrow{v_7}
+=\overrightarrow{v_{6}}+\overrightarrow{v_{7}}
+$$
+に帰着する。
+
+さらに
+$$
+\overrightarrow{v_6}=\overrightarrow{v_0},\quad
+\overrightarrow{v_7}=\overrightarrow{v_1}
+$$
+なので
+$$
+\sum_{k=0}^{7}\overrightarrow{v_k}
+=\overrightarrow{v_0}+\overrightarrow{v_1}
+$$
+となる。これは (1) で既に確認した通り $\mathbf{0}$ ではない。実際に
+$$
+\overrightarrow{v_0}+\overrightarrow{v_1}
+=(1,0)+\left(-\frac12,\frac{\sqrt3}{2}\right)
+=\left(\frac12,\frac{\sqrt3}{2}\right)\ne\mathbf{0}
+$$
+である。
+
+したがって，表が 90 回，裏が 8 回出たとき，$X_{98}=O$ となることは決してない。  
+よって，求める確率は $0$ である。
+
+答えは
+$$
+0
+$$
+となる。

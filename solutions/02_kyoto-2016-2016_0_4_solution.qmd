@@ -1,0 +1,209 @@
+四面体 $OABC$ について，頂点 $A,B,C$ からそれぞれの対面を含む平面へ下ろした垂線が，その対面の重心を通るとする．このとき $OABC$ が正四面体であることを示す．
+
+原点を $O$ とし，ベクトル $\vec{OA}=\boldsymbol{a},\ \vec{OB}=\boldsymbol{b},\ \vec{OC}=\boldsymbol{c}$ とおく．以下では位置ベクトルを用いて議論する．
+
+### (1) 条件をベクトルで表す
+
+まず，頂点 $A$ から対面 $OBC$ の平面への垂線が三角形 $OBC$ の重心を通るという条件をベクトルで表す．
+
+三角形 $OBC$ の重心の位置ベクトルは  
+$$
+\frac{\vec{OO}+\vec{OB}+\vec{OC}}{3}
+ =\frac{\boldsymbol{0}+\boldsymbol{b}+\boldsymbol{c}}{3}
+ =\frac{\boldsymbol{b}+\boldsymbol{c}}{3}
+$$
+である．
+
+「直線 $A$重心 が平面 $OBC$ に垂直である」という条件は，平面 $OBC$ 内の 2 本の独立なベクトル（例えば $\boldsymbol{b},\boldsymbol{c}$）と直線の方向ベクトルが直交することで表せる．
+
+直線 $A$重心 の方向ベクトルは
+$$
+\frac{\boldsymbol{b}+\boldsymbol{c}}{3}-\boldsymbol{a}
+ =\frac{\boldsymbol{b}+\boldsymbol{c}-3\boldsymbol{a}}{3}
+$$
+であり，これは $\boldsymbol{b},\boldsymbol{c}$ にそれぞれ直交するので
+$$
+\bigl(\boldsymbol{b}+\boldsymbol{c}-3\boldsymbol{a}\bigr)\cdot\boldsymbol{b}=0,\quad
+\bigl(\boldsymbol{b}+\boldsymbol{c}-3\boldsymbol{a}\bigr)\cdot\boldsymbol{c}=0
+$$
+が成り立つ．内積の分配法則を用いて整理すると
+$$
+\boldsymbol{b}\cdot\boldsymbol{b}
++\boldsymbol{c}\cdot\boldsymbol{b}
+-3\boldsymbol{a}\cdot\boldsymbol{b}=0,
+\qquad
+\boldsymbol{b}\cdot\boldsymbol{c}
++\boldsymbol{c}\cdot\boldsymbol{c}
+-3\boldsymbol{a}\cdot\boldsymbol{c}=0
+$$
+すなわち
+$$
+3\boldsymbol{a}\cdot\boldsymbol{b}
+=\boldsymbol{b}\cdot\boldsymbol{b}
++\boldsymbol{b}\cdot\boldsymbol{c},
+\qquad
+3\boldsymbol{a}\cdot\boldsymbol{c}
+=\boldsymbol{b}\cdot\boldsymbol{c}
++\boldsymbol{c}\cdot\boldsymbol{c}.
+\tag{1}
+$$
+
+同様に，他の 2 つの条件も同様に表せる．
+
+- 頂点 $B$ から対面 $OAC$ の平面への垂線が三角形 $OAC$ の重心を通る，より
+  三角形 $OAC$ の重心の位置ベクトルは $\dfrac{\boldsymbol{a}+\boldsymbol{c}}{3}$ だから，
+  直線 $B$重心 の方向ベクトルは
+  $$
+  \frac{\boldsymbol{a}+\boldsymbol{c}}{3}-\boldsymbol{b}
+  =\frac{\boldsymbol{a}+\boldsymbol{c}-3\boldsymbol{b}}{3}
+  $$
+  となり，これが平面 $OAC$ 内の $\boldsymbol{a},\boldsymbol{c}$ と直交するので
+  $$
+  3\boldsymbol{b}\cdot\boldsymbol{a}
+  =\boldsymbol{a}\cdot\boldsymbol{a}
+  +\boldsymbol{a}\cdot\boldsymbol{c},\qquad
+  3\boldsymbol{b}\cdot\boldsymbol{c}
+  =\boldsymbol{a}\cdot\boldsymbol{c}
+  +\boldsymbol{c}\cdot\boldsymbol{c}.
+  \tag{2}
+  $$
+
+- 頂点 $C$ から対面 $OAB$ の平面への垂線が三角形 $OAB$ の重心を通る，より
+  三角形 $OAB$ の重心の位置ベクトルは $\dfrac{\boldsymbol{a}+\boldsymbol{b}}{3}$ だから，
+  同様にして
+  $$
+  3\boldsymbol{c}\cdot\boldsymbol{a}
+  =\boldsymbol{a}\cdot\boldsymbol{a}
+  +\boldsymbol{a}\cdot\boldsymbol{b},\qquad
+  3\boldsymbol{c}\cdot\boldsymbol{b}
+  =\boldsymbol{a}\cdot\boldsymbol{b}
+  +\boldsymbol{b}\cdot\boldsymbol{b}.
+  \tag{3}
+  $$
+
+ここまでで，条件をすべて内積の式で表した．
+
+### (2) 辺の長さがすべて等しいことを示す
+
+正四面体であることを示すには，すべての辺の長さが等しいことを示せばよい．ここでは，まず $|\boldsymbol{a}|=|\boldsymbol{b}|=|\boldsymbol{c}|$ を示し，さらに $|\boldsymbol{a}-\boldsymbol{b}|$ なども同じであることを確かめる．
+
+まず，(1) 式と (2) 式のそれぞれ第 1 式を比べる．$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a}$ であるから，
+$$
+3\boldsymbol{a}\cdot\boldsymbol{b}
+=\boldsymbol{b}\cdot\boldsymbol{b}
++\boldsymbol{b}\cdot\boldsymbol{c},
+\qquad
+3\boldsymbol{b}\cdot\boldsymbol{a}
+=\boldsymbol{a}\cdot\boldsymbol{a}
++\boldsymbol{a}\cdot\boldsymbol{c}
+$$
+より
+$$
+\boldsymbol{b}\cdot\boldsymbol{b}
++\boldsymbol{b}\cdot\boldsymbol{c}
+=\boldsymbol{a}\cdot\boldsymbol{a}
++\boldsymbol{a}\cdot\boldsymbol{c}.
+\tag{4}
+$$
+
+次に，(1) 式と (2) 式の第 2 式を比べると
+$$
+3\boldsymbol{a}\cdot\boldsymbol{c}
+=\boldsymbol{b}\cdot\boldsymbol{c}
++\boldsymbol{c}\cdot\boldsymbol{c},
+\qquad
+3\boldsymbol{b}\cdot\boldsymbol{c}
+=\boldsymbol{a}\cdot\boldsymbol{c}
++\boldsymbol{c}\cdot\boldsymbol{c}
+$$
+なので，これらの右辺同士を等しいとおくと
+$$
+\boldsymbol{b}\cdot\boldsymbol{c}
++\boldsymbol{c}\cdot\boldsymbol{c}
+=\boldsymbol{a}\cdot\boldsymbol{c}
++\boldsymbol{c}\cdot\boldsymbol{c}
+$$
+となり，整理して
+$$
+\boldsymbol{b}\cdot\boldsymbol{c}
+=\boldsymbol{a}\cdot\boldsymbol{c}
+\tag{5}
+$$
+を得る．
+
+(4) 式に (5) 式を代入すると
+$$
+\boldsymbol{b}\cdot\boldsymbol{b}
++\boldsymbol{a}\cdot\boldsymbol{c}
+=\boldsymbol{a}\cdot\boldsymbol{a}
++\boldsymbol{a}\cdot\boldsymbol{c}
+$$
+となるので
+$$
+\boldsymbol{b}\cdot\boldsymbol{b}
+=\boldsymbol{a}\cdot\boldsymbol{a}
+$$
+すなわち
+$$
+|\boldsymbol{b}|^2=|\boldsymbol{a}|^2
+$$
+が成り立つ．よって
+$$
+|\boldsymbol{a}|=|\boldsymbol{b}|
+$$
+である．
+
+同様に，(2) 式と (3) 式から同じような計算を行えば
+$$
+|\boldsymbol{b}|=|\boldsymbol{c}|
+$$
+も示せるから，結局
+$$
+|\boldsymbol{a}|=|\boldsymbol{b}|=|\boldsymbol{c}|
+$$
+が成り立つ．
+
+したがって，$OA,OB,OC$ の 3 本の辺はすべて同じ長さである．
+
+次に，底面の辺の長さを調べる．例えば
+$$
+|AB|^2
+=|\boldsymbol{a}-\boldsymbol{b}|^2
+=|\boldsymbol{a}|^2+|\boldsymbol{b}|^2-2\boldsymbol{a}\cdot\boldsymbol{b},
+$$
+同様に
+$$
+|BC|^2
+=|\boldsymbol{b}-\boldsymbol{c}|^2
+=|\boldsymbol{b}|^2+|\boldsymbol{c}|^2-2\boldsymbol{b}\cdot\boldsymbol{c},
+$$
+$$
+|CA|^2
+=|\boldsymbol{c}-\boldsymbol{a}|^2
+=|\boldsymbol{c}|^2+|\boldsymbol{a}|^2-2\boldsymbol{c}\cdot\boldsymbol{a}
+$$
+である．
+
+上で示したように $|\boldsymbol{a}|^2=|\boldsymbol{b}|^2=|\boldsymbol{c}|^2$ であり，また (5) 式と同様の議論から
+$$
+\boldsymbol{a}\cdot\boldsymbol{b}
+=\boldsymbol{b}\cdot\boldsymbol{c}
+=\boldsymbol{c}\cdot\boldsymbol{a}
+$$
+も従う（例えば (1) 式と (3) 式から同様に導ける）．したがって
+$$
+|AB|^2=|BC|^2=|CA|^2
+$$
+が成り立つ．
+
+これより，四面体 $OABC$ の 6 本の辺
+$$
+OA,OB,OC,AB,BC,CA
+$$
+はすべて同じ長さであることが分かる．
+
+### (3) 結論
+
+四面体のすべての辺の長さが等しければ，それは正四面体である．上で $OABC$ の 6 辺がすべて等しいことを示したので，$OABC$ は正四面体である．
+
+よって，題意は証明された．

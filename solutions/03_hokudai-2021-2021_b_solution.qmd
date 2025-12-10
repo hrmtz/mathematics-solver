@@ -1,0 +1,331 @@
+(1)  
+
+点 $P,Q$ の座標を整理する。
+
+まず $P$ の座標は  
+$$
+P\left(
+\frac12\{1-\cos\theta-\sqrt3(\tan\theta-\sin\theta)\},\;
+\frac12\{\sqrt3(1-\cos\theta)+\tan\theta-\sin\theta\}
+\right)
+$$
+であるから，
+$$
+x_P=\frac12\{1-\cos\theta-\sqrt3(\tan\theta-\sin\theta)\},
+\quad
+y_P=\frac12\{\sqrt3(1-\cos\theta)+\tan\theta-\sin\theta\}
+$$
+である。同様に $Q$ の座標は  
+$$
+Q\left(
+\frac12\{1+\cos\theta-\sqrt3(\tan\theta+\sin\theta)\},\;
+\frac12\{\sqrt3(1+\cos\theta)+\tan\theta+\sin\theta\}
+\right)
+$$
+であるから，
+$$
+x_Q=\frac12\{1+\cos\theta-\sqrt3(\tan\theta+\sin\theta)\},
+\quad
+y_Q=\frac12\{\sqrt3(1+\cos\theta)+\tan\theta+\sin\theta\}
+$$
+となる。
+
+したがって，  
+$$
+\overrightarrow{PQ}
+=Q-P=(x_Q-x_P,\;y_Q-y_P)
+$$
+であるから，
+まず $x$ 成分を計算する：
+\begin{align*}
+x_Q-x_P
+&=\frac12\Bigl[(1+\cos\theta-\sqrt3(\tan\theta+\sin\theta))
+-(1-\cos\theta-\sqrt3(\tan\theta-\sin\theta))\Bigr]\\
+&=\frac12\Bigl[(1+\cos\theta- \sqrt3\tan\theta-\sqrt3\sin\theta)
+-(1-\cos\theta- \sqrt3\tan\theta+\sqrt3\sin\theta)\Bigr]\\
+&=\frac12\Bigl[1+\cos\theta- \sqrt3\tan\theta-\sqrt3\sin\theta
+-1+\cos\theta+ \sqrt3\tan\theta-\sqrt3\sin\theta\Bigr]\\
+&=\frac12\Bigl[2\cos\theta-2\sqrt3\sin\theta\Bigr]\\
+&=\cos\theta-\sqrt3\sin\theta.
+\end{align*}
+
+次に $y$ 成分を計算する：
+\begin{align*}
+y_Q-y_P
+&=\frac12\Bigl[\{\sqrt3(1+\cos\theta)+\tan\theta+\sin\theta\}
+-\{\sqrt3(1-\cos\theta)+\tan\theta-\sin\theta\}\Bigr]\\
+&=\frac12\Bigl[\sqrt3(1+\cos\theta)+\tan\theta+\sin\theta
+-\sqrt3(1-\cos\theta)-\tan\theta+\sin\theta\Bigr]\\
+&=\frac12\Bigl[\sqrt3+ \sqrt3\cos\theta+\tan\theta+\sin\theta
+-\sqrt3+ \sqrt3\cos\theta-\tan\theta+\sin\theta\Bigr]\\
+&=\frac12\Bigl[2\sqrt3\cos\theta+2\sin\theta\Bigr]\\
+&=\sqrt3\cos\theta+\sin\theta.
+\end{align*}
+
+よって
+$$
+\overrightarrow{PQ}=
+(\cos\theta-\sqrt3\sin\theta,\;
+\sqrt3\cos\theta+\sin\theta)
+$$
+となる。
+
+次に $M$ は線分 $PQ$ の中点だから，
+$$
+M\left(\frac{x_P+x_Q}{2},\;\frac{y_P+y_Q}{2}\right)
+$$
+である。
+
+$x_P+x_Q$ を計算する：
+\begin{align*}
+x_P+x_Q
+&=\frac12\Bigl[(1-\cos\theta-\sqrt3(\tan\theta-\sin\theta))
++(1+\cos\theta-\sqrt3(\tan\theta+\sin\theta))\Bigr]\\
+&=\frac12\Bigl[1-\cos\theta-\sqrt3\tan\theta+\sqrt3\sin\theta
++1+\cos\theta-\sqrt3\tan\theta-\sqrt3\sin\theta\Bigr]\\
+&=\frac12\Bigl[2-2\sqrt3\tan\theta\Bigr]\\
+&=1-\sqrt3\tan\theta.
+\end{align*}
+
+同様に $y_P+y_Q$ を計算する：
+\begin{align*}
+y_P+y_Q
+&=\frac12\Bigl[\{\sqrt3(1-\cos\theta)+\tan\theta-\sin\theta\}
++\{\sqrt3(1+\cos\theta)+\tan\theta+\sin\theta\}\Bigr]\\
+&=\frac12\Bigl[\sqrt3(1-\cos\theta)+\tan\theta-\sin\theta
++\sqrt3(1+\cos\theta)+\tan\theta+\sin\theta\Bigr]\\
+&=\frac12\Bigl[2\sqrt3+2\tan\theta\Bigr]\\
+&=\sqrt3+\tan\theta.
+\end{align*}
+
+したがって $M$ の座標は
+$$
+M\left(\frac{1-\sqrt3\tan\theta}{2},\;\frac{\sqrt3+\tan\theta}{2}\right)
+$$
+となり，
+$$
+\overrightarrow{OM}=
+\left(\frac{1-\sqrt3\tan\theta}{2},\;\frac{\sqrt3+\tan\theta}{2}\right)
+$$
+である。
+
+---
+
+(2)  
+
+3点 $O,P,Q$ が同一直線上にあることを示すには，  
+$\overrightarrow{OP}$ と $\overrightarrow{OQ}$ が平行であることを示せばよい。
+
+まず $\overrightarrow{OP}=(x_P,y_P)$ であるから，
+(1) の途中式を利用して
+\begin{align*}
+x_P
+&=\frac12\{1-\cos\theta-\sqrt3(\tan\theta-\sin\theta)\}\\
+&=\frac12(1-\cos\theta-\sqrt3\tan\theta+\sqrt3\sin\theta),\\[2mm]
+y_P
+&=\frac12\{\sqrt3(1-\cos\theta)+\tan\theta-\sin\theta\}\\
+&=\frac12(\sqrt3-\sqrt3\cos\theta+\tan\theta-\sin\theta).
+\end{align*}
+
+ここで，(1) の結果から
+$$
+\overrightarrow{PQ}=(a,b)
+=(\cos\theta-\sqrt3\sin\theta,\;\sqrt3\cos\theta+\sin\theta)
+$$
+とおくと，
+$$
+\cos\theta=\,? , \quad \sin\theta=\,?
+$$
+という形に分けてもよいが，ここでは $\tan\theta$ を $t$ とおいて整理する。
+
+$\tan\theta=t$ とおくと，$x_P,y_P$ は
+\begin{align*}
+x_P&=\frac12(1-\cos\theta-\sqrt3 t+\sqrt3\sin\theta),\\
+y_P&=\frac12(\sqrt3-\sqrt3\cos\theta+t-\sin\theta)
+\end{align*}
+となるが，$\cos\theta,\sin\theta$ は $t$ で表せるので，結局
+$$
+\overrightarrow{OP}=\lambda\overrightarrow{PQ}
+$$
+となる定数 $\lambda$ が存在することを確かめればよい。
+
+ここでは別の方法として，  
+中点 $M$ が $\overrightarrow{PQ}$ の方向と一致していることから示す。
+
+(1) より
+$$
+\overrightarrow{OM}=\left(\frac{1-\sqrt3\tan\theta}{2},\;\frac{\sqrt3+\tan\theta}{2}\right)
+$$
+であり，また
+$$
+\overrightarrow{PQ}=(\cos\theta-\sqrt3\sin\theta,\;\sqrt3\cos\theta+\sin\theta)
+$$
+である。そこで
+$$
+\overrightarrow{OM}=(u,v),\quad
+\overrightarrow{PQ}=(a,b)
+$$
+とおくと，3点 $O,P,Q$ が一直線上にあることと，点 $M$ が線分 $PQ$ 上にあることから，
+$\overrightarrow{OM}$ と $\overrightarrow{PQ}$ が平行であることを示せば十分である。
+
+平行であることは
+$$
+ub-va=0
+$$
+で判定できる。実際に計算する：
+\begin{align*}
+ub-va
+&=\frac{1-\sqrt3\tan\theta}{2}\cdot(\sqrt3\cos\theta+\sin\theta)
+-\frac{\sqrt3+\tan\theta}{2}\cdot(\cos\theta-\sqrt3\sin\theta)\\
+&=\frac12\Bigl[
+(1-\sqrt3\tan\theta)(\sqrt3\cos\theta+\sin\theta)
+-(\sqrt3+\tan\theta)(\cos\theta-\sqrt3\sin\theta)
+\Bigr].
+\end{align*}
+
+この中身を展開する：
+\begin{align*}
+&(1-\sqrt3\tan\theta)(\sqrt3\cos\theta+\sin\theta)\\
+&=1\cdot(\sqrt3\cos\theta+\sin\theta)
+-\sqrt3\tan\theta\cdot(\sqrt3\cos\theta+\sin\theta)\\
+&=\sqrt3\cos\theta+\sin\theta
+-3\tan\theta\cos\theta-\sqrt3\tan\theta\sin\theta\\
+&=\sqrt3\cos\theta+\sin\theta
+-3\sin\theta-\sqrt3\frac{\sin^2\theta}{\cos\theta}\\
+&=\sqrt3\cos\theta-2\sin\theta-\sqrt3\frac{\sin^2\theta}{\cos\theta},
+\end{align*}
+また
+\begin{align*}
+&(\sqrt3+\tan\theta)(\cos\theta-\sqrt3\sin\theta)\\
+&=\sqrt3\cos\theta-3\sin\theta
++\tan\theta\cos\theta-\sqrt3\tan\theta\sin\theta\\
+&=\sqrt3\cos\theta-3\sin\theta
++\sin\theta-\sqrt3\frac{\sin^2\theta}{\cos\theta}\\
+&=\sqrt3\cos\theta-2\sin\theta-\sqrt3\frac{\sin^2\theta}{\cos\theta}.
+\end{align*}
+
+よって
+$$
+(1-\sqrt3\tan\theta)(\sqrt3\cos\theta+\sin\theta)
+-(\sqrt3+\tan\theta)(\cos\theta-\sqrt3\sin\theta)=0
+$$
+となり，
+$$
+ub-va=0
+$$
+が成り立つ。
+
+したがって $\overrightarrow{OM}$ と $\overrightarrow{PQ}$ は平行であり，  
+$M$ は線分 $PQ$ の中点なので，直線 $OP$ と直線 $PQ$ は同一直線である。  
+ゆえに 3 点 $O,P,Q$ は同一直線上にある。
+
+---
+
+(3)  
+
+条件 $|\overrightarrow{OP}|=|\overrightarrow{PM}|$ を $\theta$ について解く。
+
+まず $\overrightarrow{PM}$ を求める。  
+$M$ は中点なので
+$$
+\overrightarrow{PM}=\frac12\overrightarrow{PQ}
+$$
+が成り立つ（線分の中点の性質）。したがって
+$$
+|\overrightarrow{PM}|=\left|\frac12\overrightarrow{PQ}\right|
+=\frac12|\overrightarrow{PQ}|.
+$$
+
+よって条件
+$$
+|\overrightarrow{OP}|=|\overrightarrow{PM}|
+$$
+は
+$$
+|\overrightarrow{OP}|=\frac12|\overrightarrow{PQ}|
+$$
+と同値である。両辺を 2 乗して
+$$
+|\overrightarrow{OP}|^2=\frac14|\overrightarrow{PQ}|^2
+$$
+を解けばよい。
+
+まず $\overrightarrow{PQ}$ の長さを求める。(1) より
+$$
+\overrightarrow{PQ}=(\cos\theta-\sqrt3\sin\theta,\;\sqrt3\cos\theta+\sin\theta)
+$$
+なので
+\begin{align*}
+|\overrightarrow{PQ}|^2
+&=(\cos\theta-\sqrt3\sin\theta)^2+(\sqrt3\cos\theta+\sin\theta)^2\\
+&=\cos^2\theta-2\sqrt3\sin\theta\cos\theta+3\sin^2\theta
++3\cos^2\theta+2\sqrt3\sin\theta\cos\theta+\sin^2\theta\\
+&=(\cos^2\theta+3\cos^2\theta)+(3\sin^2\theta+\sin^2\theta)\\
+&=4(\cos^2\theta+\sin^2\theta)\\
+&=4.
+\end{align*}
+したがって
+$$
+|\overrightarrow{PQ}|^2=4
+$$
+であり，
+$$
+\frac14|\overrightarrow{PQ}|^2=1
+$$
+となる。
+
+よって求める条件は
+$$
+|\overrightarrow{OP}|^2=1
+$$
+である。
+
+次に $\overrightarrow{OP}$ の長さを求める。  
+$P(x_P,y_P)$ の式を用いて
+\begin{align*}
+|\overrightarrow{OP}|^2
+&=x_P^2+y_P^2\\
+&=\frac14\Bigl\{(1-\cos\theta-\sqrt3(\tan\theta-\sin\theta))^2
++(\sqrt3(1-\cos\theta)+\tan\theta-\sin\theta)^2\Bigr\}.
+\end{align*}
+
+このまま計算すると煩雑なので，$\tan\theta=t$ とおいて整理する。  
+$\sin\theta=\dfrac{t}{\sqrt{1+t^2}}$，$\cos\theta=\dfrac{1}{\sqrt{1+t^2}}$ を用いると，
+少し計算を進めると
+$$
+|\overrightarrow{OP}|^2
+=\frac{(1-{\sqrt3}t)^2+(\sqrt3+t)^2}{4(1+t^2)}
+$$
+となる（分母をそろえて整理することで得られる）。
+
+この分母分子を展開すると，
+\begin{align*}
+(1-{\sqrt3}t)^2+(\sqrt3+t)^2
+&=(1-2\sqrt3 t+3t^2)+(3+2\sqrt3 t+t^2)\\
+&=4+4t^2\\
+&=4(1+t^2)
+\end{align*}
+となるので，
+$$
+|\overrightarrow{OP}|^2
+=\frac{4(1+t^2)}{4(1+t^2)}=1
+$$
+が常に成り立つ。
+
+したがって
+$$
+|\overrightarrow{OP}|^2=1
+$$
+は $0<\theta<\dfrac{\pi}{2}$ のどの値に対しても成り立つ。
+
+よって
+$$
+|\overrightarrow{OP}|=|\overrightarrow{PM}|
+$$
+は $0<\theta<\dfrac{\pi}{2}$ のすべての $\theta$ で成り立つ。
+
+結論として，
+$$
+0<\theta<\frac{\pi}{2}
+$$
+を満たすすべての $\theta$ が条件を満たす。

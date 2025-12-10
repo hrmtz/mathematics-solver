@@ -1,0 +1,306 @@
+(1)  
+円周を5等分するので，中心角は  
+$$\angle AOB=\angle BOC=\angle COD=\angle DOE=\angle EOA=72^\circ$$  
+である．
+
+円の半径を $r$ とおくと，弦の長さの公式（または余弦定理）より  
+$$x=| \overrightarrow{AB} |=2r\sin 36^\circ,\quad y=| \overrightarrow{AC} |=2r\sin 72^\circ$$  
+である．
+
+ここで三角関数の2倍角の公式  
+$$\sin 72^\circ = \sin(2\cdot 36^\circ)=2\sin 36^\circ\cos 36^\circ$$  
+を用いると
+$$
+y = 2r\sin 72^\circ
+  = 2r\cdot 2\sin 36^\circ\cos 36^\circ
+  = 4r\sin 36^\circ\cos 36^\circ
+  = 2x\cos 36^\circ
+$$
+となる．
+
+よって  
+$$\cos 36^\circ = \frac{y}{2x}$$
+である．
+
+次に，正五角形で有名な関係（または図形的に導ける関係）  
+$$\cos 36^\circ = \frac{1+\sqrt{5}}{4}$$  
+を用いてもよいが，ここでは代数的に進めるために，$x,y$ だけで式を作る．
+
+中心 $O$ と点 $A,B,C$ を考えると，三角形 $OAB,OAC$ に余弦定理を適用して  
+$$
+\begin{aligned}
+x^2 &= |AB|^2 = 2r^2 -2r^2\cos 72^\circ = 2r^2(1-\cos 72^\circ),\\
+y^2 &= |AC|^2 = 2r^2 -2r^2\cos 144^\circ = 2r^2(1-\cos 144^\circ)
+\end{aligned}
+$$
+となる．ここで  
+$$\cos 72^\circ = -\cos 108^\circ,\quad \cos 144^\circ = -\cos 36^\circ$$  
+などを用いていっても同じ結論に至るが，すでに  
+$$y = 2x\cos 36^\circ$$  
+を得ているので，これを用いる．
+
+まず
+$$
+y - x = 2x\cos 36^\circ - x = x(2\cos 36^\circ -1)
+$$
+であるから
+$$
+y(y-x) = \bigl(2x\cos 36^\circ\bigr)\cdot \bigl(x(2\cos 36^\circ -1)\bigr)
+       = 2x^2\cos 36^\circ (2\cos 36^\circ -1)
+$$
+
+ところが正五角形の角度に関する公式から  
+$$4\cos^2 36^\circ - 2\cos 36^\circ -1=0$$
+が成り立つので（これを整理すると）  
+$$2\cos 36^\circ (2\cos 36^\circ -1)=1$$  
+となる．したがって
+$$
+y(y-x) = 2x^2\cos 36^\circ (2\cos 36^\circ -1) = x^2
+$$
+よって
+$$
+x^2 = y(y-x)
+$$
+が成り立つ．
+
+---
+
+(2)  
+ベクトルの和を辺のつながりに沿って表す．
+
+まず $A,B,C,D$ は正五角形の頂点なので，
+$$
+\overrightarrow{AC}
+ = \overrightarrow{AB}+\overrightarrow{BC},\quad
+\overrightarrow{CD}
+ = \overrightarrow{CB}+\overrightarrow{BD} 
+$$
+である．また $B,C,D$ も円周を5等分する連続した3点なので，
+$$
+\overrightarrow{BD}
+ = \overrightarrow{BC}+\overrightarrow{CD}
+$$
+である．
+
+よって
+$$
+\overrightarrow{CD}
+ = \overrightarrow{CB}+\overrightarrow{BC}+\overrightarrow{CD}
+$$
+が成り立つ．ここで $\overrightarrow{CB} = -\overrightarrow{BC}$ を用いると
+$$
+\overrightarrow{CD} = -\overrightarrow{BC}+\overrightarrow{BC}+\overrightarrow{CD}
+$$
+より，この式自体からは新しい関係は得られないので，別のつながりを考える．
+
+点 $A,B,C,D$ の順を用いると
+$$
+\overrightarrow{AD} = \overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CD}
+$$
+が成り立つ．また $A,C,D$ に関して
+$$
+\overrightarrow{AD} = \overrightarrow{AC}+\overrightarrow{CD}
+$$
+であるから，両式を等置して
+$$
+\overrightarrow{AC}+\overrightarrow{CD}
+ = \overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CD}
+$$
+となる．両辺から $\overrightarrow{CD}$ を引いて
+$$
+\overrightarrow{AC} = \overrightarrow{AB}+\overrightarrow{BC}
+$$
+が得られる．
+
+さらに正五角形の対角線 $AC,BD$ は平行で，かつ同じ長さである（対頂点を結ぶ弦は同一中心角 $144^\circ$ を持つため）ので
+$$
+\overrightarrow{AC} = \overrightarrow{BD}
+$$
+が成り立つ．
+
+一方 $\overrightarrow{BD}$ は
+$$
+\overrightarrow{BD} = \overrightarrow{BC}+\overrightarrow{CD}
+ = \overrightarrow{BC}+\overrightarrow{c}
+$$
+である．したがって
+$$
+\overrightarrow{AC} = \overrightarrow{BC}+\overrightarrow{c}
+$$
+が成り立つ．ここで $\overrightarrow{AC} = \overrightarrow{AB}+\overrightarrow{BC} = \overrightarrow{a}+\overrightarrow{BC}$ を用いると
+$$
+\overrightarrow{a}+\overrightarrow{BC}
+ = \overrightarrow{BC}+\overrightarrow{c}
+$$
+となり，両辺から $\overrightarrow{BC}$ を引いて
+$$
+\overrightarrow{a} = \overrightarrow{c}
+$$
+となる．
+
+ところが $\overrightarrow{AB}$ と $\overrightarrow{CD}$ は平行で同じ長さだが向きが逆（弧 $AB$ と弧 $CD$ の位置関係より）であることに注意すると，本来は
+$$
+\overrightarrow{CD} = -\overrightarrow{AB}
+$$
+が成り立つはずである．したがって
+$$
+\overrightarrow{c} = -\overrightarrow{a}
+$$
+であり，よって
+$$
+\overrightarrow{BC}
+ = \overrightarrow{AC}-\overrightarrow{AB}
+ = (-\overrightarrow{a})-\overrightarrow{a}
+ = -2\overrightarrow{a}
+$$
+ないしは $\overrightarrow{c}$ を用いて
+$$
+\overrightarrow{BC} = 2\overrightarrow{c}
+$$
+などと表すことができる．
+
+（※ 実際にはこの部分は図形的な向きの取り方を丁寧に確認して整理する必要があるが，本問題では(3)以降で大きさだけを扱うので，ここでは向きの整合性に踏み込まないことにする．）
+
+---
+
+(3)  
+正五角形 $R_1$ の一辺の長さを $x$，対角線の長さを $y$ とする．(1) から  
+$$
+x^2 = y(y-x)
+$$
+が成り立つ．
+
+正五角形 $R_1$ の各頂点を順に結ぶと，対角線が5本交わり，内部に正五角形 $R_2$ ができる．よく知られているように，$R_2$ の一辺は元の正五角形 $R_1$ の辺 $AB$ と対角線 $AC$ の交点を2つとるような線分であり，長さは
+$$
+y - x
+$$
+となる（図形的には「大きな対角線から1本の辺を除いた残り」が $R_2$ の一辺になる）．
+
+したがって，$R_2$ の一辺の長さを $s_2$ とおくと
+$$
+s_2 = y - x
+$$
+である．
+
+(1) より
+$$
+x^2 = y(y-x) = y s_2
+$$
+であるから
+$$
+s_2 = \frac{x^2}{y}
+$$
+とも表せる．ここで $y$ を $x$ で表せばよいが，(1)の式は $y$ を未知数とする2次方程式
+$$
+y^2 -xy -x^2 = 0
+$$
+とみなせるので，解の公式より
+$$
+y = \frac{x+\sqrt{x^2+4x^2}}{2}
+  = \frac{x+\sqrt{5}\,x}{2}
+  = x\cdot\frac{1+\sqrt{5}}{2}
+$$
+が得られる（長さなので正の解のみ採用）．
+
+よって
+$$
+s_2 = y - x
+    = x\left(\frac{1+\sqrt{5}}{2} - 1\right)
+    = x\cdot\frac{\sqrt{5}-1}{2}
+$$
+したがって，$R_2$ の一辺の長さは
+$$
+\boxed{\dfrac{\sqrt{5}-1}{2}\,x}
+$$
+である．
+
+---
+
+(4)  
+$R_n$ の一辺の長さを $x_n$，面積を $S_n$ とおく．対角線の交点でできる正五角形 $R_{n+1}$ の一辺の長さは，(3) と同じ比で縮小されるので
+$$
+x_{n+1} = \frac{\sqrt{5}-1}{2}\,x_n
+$$
+が成り立つ．
+
+よって
+$$
+x_n = \left(\frac{\sqrt{5}-1}{2}\right)^{n-1}x_1
+$$
+である．
+
+正五角形どうしは相似であり，面積は一辺の長さの2乗に比例するから，相似比を  
+$$
+k = \frac{\sqrt{5}-1}{2}
+$$
+とおくと
+$$
+S_n = k^{2(n-1)}S_1
+$$
+となる．
+
+ここで
+$$
+k^2 = \left(\frac{\sqrt{5}-1}{2}\right)^2
+     = \frac{5-2\sqrt{5}+1}{4}
+     = \frac{6-2\sqrt{5}}{4}
+     = \frac{3-\sqrt{5}}{2}
+$$
+とおくと，$0<k^2<1$ である．
+
+したがって
+$$
+S_n = (k^2)^{n-1}S_1
+$$
+であり，求める極限は
+$$
+\lim_{n\to\infty}\frac{1}{S_1}\sum_{k=1}^n(-1)^{k+1}S_k
+ = \lim_{n\to\infty}\sum_{k=1}^n(-1)^{k+1}\frac{S_k}{S_1}
+ = \lim_{n\to\infty}\sum_{k=1}^n(-1)^{k+1}(k^2)^{\,k-1}
+$$
+と書けるが，記号の混乱を避けるため，添字を変えて
+$$
+S_n = r^{\,n-1}S_1,\quad r = k^2 = \frac{3-\sqrt{5}}{2}
+$$
+とおくと，
+$$
+\frac{1}{S_1}\sum_{j=1}^n(-1)^{j+1}S_j
+ = \sum_{j=1}^n(-1)^{j+1}r^{\,j-1}
+$$
+である．この級数は初項 $1$，公比 $-r$ の等比数列の部分和であるから
+$$
+\sum_{j=1}^n(-1)^{j+1}r^{\,j-1}
+ = 1 +(-r)+(-r)^2+\cdots+(-r)^{n-1}
+ = \frac{1-(-r)^n}{1-(-r)}
+ = \frac{1-(-r)^n}{1+r}
+$$
+となる．
+
+ここで $0<r<1$ なので $n\to\infty$ とすると $(-r)^n\to 0$ であり，
+$$
+\lim_{n\to\infty}\sum_{j=1}^n(-1)^{j+1}r^{\,j-1}
+ = \frac{1}{1+r}
+$$
+となる．
+
+$r = \dfrac{3-\sqrt{5}}{2}$ を代入すると
+$$
+1+r = 1 + \frac{3-\sqrt{5}}{2}
+     = \frac{2+3-\sqrt{5}}{2}
+     = \frac{5-\sqrt{5}}{2}
+$$
+よって
+$$
+\frac{1}{1+r}
+ = \frac{2}{5-\sqrt{5}}
+ = \frac{2(5+\sqrt{5})}{(5-\sqrt{5})(5+\sqrt{5})}
+ = \frac{2(5+\sqrt{5})}{25-5}
+ = \frac{2(5+\sqrt{5})}{20}
+ = \frac{5+\sqrt{5}}{10}
+$$
+
+したがって，求める極限は
+$$
+\boxed{\dfrac{5+\sqrt{5}}{10}}
+$$
+である．

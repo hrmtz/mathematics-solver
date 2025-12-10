@@ -1,0 +1,216 @@
+(1)  
+
+四面体 $OABC$ で，  
+辺 $OA$ の中点と辺 $BC$ の中点を通る直線を $l$，  
+辺 $OB$ の中点と辺 $CA$ の中点を通る直線を $m$，  
+辺 $OC$ の中点と辺 $AB$ の中点を通る直線を $n$ とする。
+
+立体幾何の事実として，四面体 $OABC$ において，
+
+- $l$ は平面 $OBC$ に平行
+- $m$ は平面 $OCA$ に平行
+- $n$ は平面 $OAB$ に平行  
+
+である。  
+（理由：例えば $l$ は三角形 $OBC$ の頂点 $B,C$ を含む辺 $BC$ と，もう一方の頂点 $O$ と対向する頂点 $A$ を含む辺 $OA$ の中点を結ぶ線であり，$O$ と $A$ に対して「向き合う」面 $OBC$ に平行になることが知られている。以下同様。）
+
+したがって，  
+$l\perp m$，$m\perp n$，$n\perp l$ より，
+
+- 平面 $OBC \parallel l$ と平面 $OCA \parallel m$ は互いに垂直，
+- 平面 $OCA \parallel m$ と平面 $OAB \parallel n$ は互いに垂直，
+- 平面 $OAB \parallel n$ と平面 $OBC \parallel l$ は互いに垂直  
+
+である。
+
+よって，3 つの平面 $OAB, OBC, OCA$ は互いに直交する 3 つの平面であり，  
+それぞれの共通の直線である $OA, OB, OC$ は互いに直交する。  
+すなわち
+$$
+\overrightarrow{OA}\perp \overrightarrow{OB},\quad
+\overrightarrow{OB}\perp \overrightarrow{OC},\quad
+\overrightarrow{OC}\perp \overrightarrow{OA}
+$$
+が成り立つ。
+
+このとき，線分 $OB$ と線分 $CA$ のなす角を $\theta$ とおく。  
+ベクトルの内積を用いれば，
+$$
+\overrightarrow{CA}
+= \overrightarrow{CO} + \overrightarrow{OA}
+= -\overrightarrow{OC} + \overrightarrow{OA}
+$$
+なので，
+$$
+\overrightarrow{OB}\cdot \overrightarrow{CA}
+= \overrightarrow{OB}\cdot(-\overrightarrow{OC}+\overrightarrow{OA})
+= -\overrightarrow{OB}\cdot\overrightarrow{OC}
+   +\overrightarrow{OB}\cdot\overrightarrow{OA}
+= 0+0=0
+$$
+となる（$\overrightarrow{OB}$ が $\overrightarrow{OC},\overrightarrow{OA}$ の両方に垂直であるため）。
+
+よって，$\overrightarrow{OB}$ と $\overrightarrow{CA}$ は直交するから
+$$
+\theta = \frac{\pi}{2}
+$$
+である。
+
+---
+
+(2)  
+
+四面体 $OABC$ の 4 点 $O,A,B,C$ を通る球（外接球）の半径を求める。  
+(1) より，$OA,OB,OC$ は互いに直交する。  
+そこで，原点 $O$ を座標の原点にとり，  
+直交座標を
+$$
+\overrightarrow{OA}=(a,0,0),\quad
+\overrightarrow{OB}=(0,b,0),\quad
+\overrightarrow{OC}=(0,0,c)
+$$
+とおく（$a,b,c>0$）。
+
+与えられた辺の長さ
+$$
+AB=\sqrt5,\quad BC=\sqrt3,\quad CA=2
+$$
+を用いて，$a,b,c$ に関する方程式を立てる。
+
+まず，
+$$
+\overrightarrow{AB}
+= \overrightarrow{OB}-\overrightarrow{OA}
+= (-a,b,0)
+$$
+なので，
+$$
+AB^2 = a^2 + b^2 = 5 \quad\cdots(1)
+$$
+
+同様に，
+$$
+\overrightarrow{BC}
+= \overrightarrow{OC}-\overrightarrow{OB}
+= (0,-b,c)
+$$
+より
+$$
+BC^2 = b^2 + c^2 = 3 \quad\cdots(2)
+$$
+
+また，
+$$
+\overrightarrow{CA}
+= \overrightarrow{OA}-\overrightarrow{OC}
+= (a,0,-c)
+$$
+より
+$$
+CA^2 = a^2 + c^2 = 4 \quad\cdots(3)
+$$
+
+(1),(2),(3) の 3 式を連立して $a^2,b^2,c^2$ を求める。
+
+(1)+(2)−(3) を計算すると
+$$
+(a^2+b^2)+(b^2+c^2)-(a^2+c^2)
+= 5+3-4
+$$
+左辺は $2b^2$，右辺は $4$ なので
+$$
+2b^2 = 4 \quad\Rightarrow\quad b^2 = 2
+$$
+
+これを (2) に代入して
+$$
+2 + c^2 = 3 \quad\Rightarrow\quad c^2 = 1
+$$
+
+さらにこれを (3) に代入して
+$$
+a^2 + 1 = 4 \quad\Rightarrow\quad a^2 = 3
+$$
+
+よって
+$$
+|OA|=\sqrt{a^2}=\sqrt3,\quad
+|OB|=\sqrt{b^2}=\sqrt2,\quad
+|OC|=\sqrt{c^2}=1
+$$
+となる。
+
+次に，4 点 $O,A,B,C$ を通る球の中心を求める。  
+球の中心を $P(x,y,z)$ とすると，$P$ から各頂点への距離が等しいので
+$$
+OP^2 = AP^2 = BP^2 = CP^2
+$$
+が成り立つ。
+
+座標で表すと
+$$
+OP^2 = x^2 + y^2 + z^2,
+$$
+$$
+AP^2 = (x-a)^2 + y^2 + z^2,
+$$
+$$
+BP^2 = x^2 + (y-b)^2 + z^2,
+$$
+$$
+CP^2 = x^2 + y^2 + (z-c)^2.
+$$
+
+まず $OP^2 = AP^2$ より
+$$
+x^2 + y^2 + z^2 = (x-a)^2 + y^2 + z^2
+$$
+両辺を整理すると
+$$
+x^2 = x^2 -2ax + a^2
+\quad\Rightarrow\quad
+-2ax + a^2 = 0
+\quad\Rightarrow\quad
+x = \frac{a}{2}.
+$$
+
+同様に $OP^2 = BP^2$ から
+$$
+y = \frac{b}{2},
+$$
+$OP^2 = CP^2$ から
+$$
+z = \frac{c}{2}
+$$
+を得る。
+
+したがって球の中心 $P$ の座標は
+$$
+P\left(\frac{a}{2},\frac{b}{2},\frac{c}{2}\right)
+$$
+である。
+
+球の半径 $R$ は $OP$ の長さ
+$$
+R = OP = \sqrt{\left(\frac{a}{2}\right)^2
+              +\left(\frac{b}{2}\right)^2
+              +\left(\frac{c}{2}\right)^2}
+= \frac{1}{2}\sqrt{a^2 + b^2 + c^2}
+$$
+である。
+
+ここで，$a^2 = 3,\ b^2 = 2,\ c^2 = 1$ なので
+$$
+a^2 + b^2 + c^2 = 3 + 2 + 1 = 6
+$$
+よって
+$$
+R = \frac{1}{2}\sqrt6
+$$
+となる。
+
+以上より，求める球の半径は
+$$
+\frac{\sqrt6}{2}
+$$
+である。

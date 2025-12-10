@@ -1,0 +1,378 @@
+```markdown
+## 解答
+
+(1)  
+はじめに，直線 $l, k$ の方程式を求める。
+
+点 $A(a,0)$，$B(0,b)$ を通る直線 $l$ は，2点間の傾きが  
+$\displaystyle \frac{b-0}{0-a}=-\frac{b}{a}$ なので，
+
+$$
+l:\ y=-\frac{b}{a}x+b
+$$
+
+と表せる。
+
+点 $B(0,b)$，$C(-a,0)$ を通る直線 $BC$ の傾きは  
+$\displaystyle \frac{0-b}{-a-0}=\frac{b}{a}$ なので，
+
+$$
+BC:\ y=\frac{b}{a}x+b
+$$
+
+よって，直線 $BC$ に垂直で点 $C(-a,0)$ を通る直線 $k$ の傾きは  
+$BC$ の傾き $\dfrac{b}{a}$ の逆数に $-$ をつけた $-\dfrac{a}{b}$ であるから，
+
+$$
+k:\ y=-\frac{a}{b}(x+a)
+= -\frac{a}{b}x-\frac{a^2}{b}
+$$
+
+となる。
+
+---
+
+次に，点列 $A_n,C_n$ の座標を求める。  
+問題の構成から
+
+- $A_n$ を通り $y$ 軸に平行な直線（すなわち $x=\text{一定}$）と $k$ の交点が $C_{n+1}$
+- $C_{n+1}$ を通り $x$ 軸に平行な直線（すなわち $y=\text{一定}$）と $l$ の交点が $A_{n+1}$
+
+である。
+
+まず，$A_1, C_1$ を求める。
+
+点 $A(a,0)$ を通り $y$ 軸に平行な直線は $x=a$ であり，これと $k$ との交点が $C_1$ であるから，  
+$k$ の式 $y=-\dfrac{a}{b}x-\dfrac{a^2}{b}$ に $x=a$ を代入して
+
+$$
+y=-\frac{a}{b}\cdot a-\frac{a^2}{b}=-\frac{2a^2}{b}
+$$
+
+よって，
+$$
+C_1\left(a,\,-\frac{2a^2}{b}\right)
+$$
+
+となる。
+
+次に，$C_1$ を通る $x$ 軸に平行な直線は $y=-\dfrac{2a^2}{b}$ であり，これと $l$ との交点が $A_1$ であるから，  
+$l$ の式 $y=-\dfrac{b}{a}x+b$ に $y=-\dfrac{2a^2}{b}$ を代入して
+
+$$
+-\frac{2a^2}{b}=-\frac{b}{a}x+b
+$$
+
+これを $x$ について解くと，
+
+$$
+-\frac{b}{a}x
+=-\frac{2a^2}{b}-b
+=-\frac{2a^2+b^2}{b}
+$$
+
+したがって，
+
+$$
+x=\frac{a}{b}\cdot\frac{2a^2+b^2}{b}
+=\frac{a(2a^2+b^2)}{b^2}
+$$
+
+よって，
+
+$$
+A_1\left(\frac{a(2a^2+b^2)}{b^2},\,-\frac{2a^2}{b}\right)
+$$
+
+となる。
+
+---
+
+一般の $n$ について考える。  
+点 $A_n$ の $x$ 座標を $x_n$ とおき，$A_n(x_n,y_n)$ とする。  
+$A_n$ は直線 $l$ 上にあるので，
+
+$$
+y_n=-\frac{b}{a}x_n+b
+$$
+
+である。
+
+$A_n$ を通る $y$ 軸に平行な直線は $x=x_n$ であり，これと $k$ との交点が $C_{n+1}$ であるから，
+
+$$
+C_{n+1}(x_n,\,-\frac{a}{b}x_n-\frac{a^2}{b})
+$$
+
+一方，$C_{n+1}$ を通る $x$ 軸に平行な直線は
+$y=-\dfrac{a}{b}x_n-\dfrac{a^2}{b}$ であり，これと $l$ との交点が $A_{n+1}$ であるから，
+
+$$
+-\frac{a}{b}x_n-\frac{a^2}{b}
+=-\frac{b}{a}x_{n+1}+b
+$$
+
+これを $x_{n+1}$ について解くと，
+
+$$
+-\frac{b}{a}x_{n+1}
+=-\frac{a}{b}x_n-\frac{a^2}{b}-b
+=-\frac{a}{b}x_n-\frac{a^2+b^2}{b}
+$$
+
+したがって，
+
+$$
+x_{n+1}
+=\frac{a}{b}\left(\frac{a}{b}x_n+\frac{a^2+b^2}{b}\right)
+=\frac{a^2}{b^2}x_n+\frac{a(a^2+b^2)}{b^2}
+$$
+
+よって，$x_n$ は初項 $x_1=\dfrac{a(2a^2+b^2)}{b^2}$，  
+漸化式
+$$
+x_{n+1}=\frac{a^2}{b^2}x_n+\frac{a(a^2+b^2)}{b^2}
+$$
+を満たす数列である。
+
+ここで $r=\dfrac{a^2}{b^2}$ とおくと $0<a<b$ より $0<r<1$ であり，
+
+$$
+x_{n+1}-\frac{a^3}{b^2-a^2}
+=r\left(x_n-\frac{a^3}{b^2-a^2}\right)
+$$
+
+となることを確かめる（右辺を展開して定数項を合わせればよい）。  
+よって，
+
+$$
+x_n-\frac{a^3}{b^2-a^2}
+=r^{\,n-1}\left(x_1-\frac{a^3}{b^2-a^2}\right)
+$$
+
+となる。
+
+$x_1=\dfrac{a(2a^2+b^2)}{b^2}$ を用いて計算すると，
+
+$$
+x_1-\frac{a^3}{b^2-a^2}
+=\frac{a(2a^2+b^2)}{b^2}-\frac{a^3}{b^2-a^2}
+=\frac{a b^4}{b^2(b^2-a^2)}
+=\frac{a b^2}{b^2-a^2}
+$$
+
+したがって，
+
+$$
+x_n
+=\frac{a^3}{b^2-a^2}
++\frac{a b^2}{b^2-a^2}\left(\frac{a^2}{b^2}\right)^{n-1}
+=\frac{a\bigl(a^2 b^{2n-2}+b^{2n}\bigr)}{(b^2-a^2)b^{2n-2}}
+$$
+
+以上から，
+
+$$
+A_n\left(
+\frac{a\bigl(a^2 b^{2n-2}+b^{2n}\bigr)}{(b^2-a^2)b^{2n-2}},\;
+-\frac{b}{a}\cdot
+\frac{a\bigl(a^2 b^{2n-2}+b^{2n}\bigr)}{(b^2-a^2)b^{2n-2}}
++b
+\right)
+$$
+
+であり，$y_n$ を整理すると，
+
+$$
+y_n
+=-\frac{b\bigl(a^2 b^{2n-2}+b^{2n}\bigr)}{(b^2-a^2)b^{2n-2}}
++\frac{b(b^2-a^2)b^{2n-2}}{(b^2-a^2)b^{2n-2}}
+=-\frac{a^2 b^{2n-1}}{(b^2-a^2)b^{2n-2}}
+=-\frac{a^2 b}{b^2-a^2}
+$$
+
+となり，$y_n$ は $n$ によらない定数である。
+
+よって，
+
+$$
+A_n\left(
+\frac{a\bigl(a^2 b^{2n-2}+b^{2n}\bigr)}{(b^2-a^2)b^{2n-2}},\;
+-\frac{a^2 b}{b^2-a^2}
+\right)
+$$
+
+また，$C_n$ は $A_{n-1}$ を通る $y$ 軸に平行な直線と $k$ との交点であるから，  
+$x$ 座標は $x_{n-1}$ と同じであり，$k$ 上にあるので，
+
+$$
+C_n\left(
+\frac{a\bigl(a^2 b^{2n-4}+b^{2n-2}\bigr)}{(b^2-a^2)b^{2n-4}},\;
+-\frac{a}{b}\cdot
+\frac{a\bigl(a^2 b^{2n-4}+b^{2n-2}\bigr)}{(b^2-a^2)b^{2n-4}}
+-\frac{a^2}{b}
+\right)
+$$
+
+となる。$y$ 座標を整理すると，
+
+$$
+\begin{aligned}
+y
+&=-\frac{a^2\bigl(a^2 b^{2n-4}+b^{2n-2}\bigr)}{b(b^2-a^2)b^{2n-4}}
+-\frac{a^2}{b}  \\
+&=-\frac{a^2\bigl(a^2 b^{2n-4}+b^{2n-2}+(b^2-a^2)b^{2n-4}\bigr)}
+{b(b^2-a^2)b^{2n-4}} \\
+&=-\frac{2a^2 b^{2n-1}}{(b^2-a^2)b^{2n-4}}
+=-\frac{2a^2 b^3}{b^2-a^2}
+\end{aligned}
+$$
+
+となり，これも $n$ によらない定数である。
+
+したがって，求める座標は
+
+$$
+A_n\left(
+\frac{a\bigl(a^2 b^{2n-2}+b^{2n}\bigr)}{(b^2-a^2)b^{2n-2}},\;
+-\frac{a^2 b}{b^2-a^2}
+\right),\quad
+C_n\left(
+\frac{a\bigl(a^2 b^{2n-4}+b^{2n-2}\bigr)}{(b^2-a^2)b^{2n-4}},\;
+-\frac{2a^2 b^3}{b^2-a^2}
+\right)
+$$
+
+である。
+
+---
+
+(2)  
+三角形の面積公式（2点間のベクトルの外積の大きさの半分）を用いる。  
+三角形 $CBA_n$ の面積 $S_n$ は，
+
+- $B(0,b)$，
+- $C(-a,0)$，
+- $A_n\bigl(x_n,y_n\bigr)$，ただし  
+  $x_n=\displaystyle\frac{a\bigl(a^2 b^{2n-2}+b^{2n}\bigr)}{(b^2-a^2)b^{2n-2}}$，  
+  $y_n=-\dfrac{a^2 b}{b^2-a^2}$
+
+であるから，
+
+$$
+\vec{BC}=(-a,-b),\quad
+\vec{BA_n}=(x_n,\;y_n-b)
+$$
+
+よって，
+
+$$
+S_n=\frac12\left|\vec{BC}\times\vec{BA_n}\right|
+=\frac12\left|
+(-a)(y_n-b)-(-b)x_n
+\right|
+$$
+
+ここで $y_n=-\dfrac{a^2 b}{b^2-a^2}$ より，
+
+$$
+y_n-b
+=-\frac{a^2 b}{b^2-a^2}-b
+=-\frac{a^2 b+b(b^2-a^2)}{b^2-a^2}
+=-\frac{b^3}{b^2-a^2}
+$$
+
+したがって，
+
+$$
+\begin{aligned}
+(-a)(y_n-b)
+&=a\cdot\frac{b^3}{b^2-a^2}, \\
+(-b)x_n
+&=-b\cdot\frac{a(a^2 b^{2n-2}+b^{2n})}{(b^2-a^2)b^{2n-2}}
+=-\frac{a b(a^2 b^{2n-2}+b^{2n})}{(b^2-a^2)b^{2n-2}}
+\end{aligned}
+$$
+
+よって，
+
+$$
+\begin{aligned}
+(-a)(y_n-b)-(-b)x_n
+&=\frac{a b^3}{b^2-a^2}
++\frac{a b(a^2 b^{2n-2}+b^{2n})}{(b^2-a^2)b^{2n-2}} \\
+&=\frac{a b\bigl(b^2 b^{2n-2}+a^2 b^{2n-2}+b^{2n}\bigr)}
+{(b^2-a^2)b^{2n-2}}  \\
+&=\frac{a b\bigl(a^2 b^{2n-2}+2b^{2n}\bigr)}
+{(b^2-a^2)b^{2n-2}}
+\end{aligned}
+$$
+
+$0<a<b$ より分子は正であるから，絶対値を外して，
+
+$$
+S_n
+=\frac12\cdot
+\frac{a b\bigl(a^2 b^{2n-2}+2b^{2n}\bigr)}
+{(b^2-a^2)b^{2n-2}}
+=\frac{a b\bigl(a^2+2b^2\bigr)}
+{2(b^2-a^2)}
+$$
+
+となる。これは $n$ によらない一定値である。
+
+---
+
+(3)  
+$BA_n$ の長さを求める。$A_n(x_n,y_n)$，$A(a,0)$ なので，
+
+$$
+BA_n=\sqrt{(x_n-a)^2+(y_n-0)^2}
+$$
+
+まず $x_n-a$ を求める。
+
+$$
+\begin{aligned}
+x_n-a
+&=\frac{a\bigl(a^2 b^{2n-2}+b^{2n}\bigr)}{(b^2-a^2)b^{2n-2}}-a \\
+&=\frac{a\bigl(a^2 b^{2n-2}+b^{2n}-(b^2-a^2)b^{2n-2}\bigr)}
+{(b^2-a^2)b^{2n-2}} \\
+&=\frac{2a^3 b^{2n-2}}{(b^2-a^2)b^{2n-2}}
+=\frac{2a^3}{b^2-a^2}
+\end{aligned}
+$$
+
+また $y_n=-\dfrac{a^2 b}{b^2-a^2}$ なので，
+
+$$
+BA_n
+=\sqrt{\left(\frac{2a^3}{b^2-a^2}\right)^2
++\left(-\frac{a^2 b}{b^2-a^2}\right)^2}
+=\frac{a^2}{b^2-a^2}\sqrt{4a^2+b^2}
+$$
+
+一方，$BC$ の長さは，
+
+$$
+BC=\sqrt{(-a-0)^2+(0-b)^2}
+=\sqrt{a^2+b^2}
+$$
+
+したがって，
+
+$$
+\frac{BA_n}{BC}
+=\frac{\dfrac{a^2}{b^2-a^2}\sqrt{4a^2+b^2}}{\sqrt{a^2+b^2}}
+=\frac{a^2}{b^2-a^2}\sqrt{\frac{4a^2+b^2}{a^2+b^2}}
+$$
+
+これは $n$ に依存しないので，極限はただちに
+
+$$
+\lim_{n\to\infty}\frac{BA_n}{BC}
+=\frac{a^2}{b^2-a^2}\sqrt{\frac{4a^2+b^2}{a^2+b^2}}
+$$
+
+となる。
+```

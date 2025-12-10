@@ -1,0 +1,315 @@
+(1)  
+$\tan 15^\circ=\tan(45^\circ-30^\circ)$ とおくと，加法定理より  
+$$
+\tan(45^\circ-30^\circ)
+=\frac{\tan45^\circ-\tan30^\circ}{1+\tan45^\circ\tan30^\circ}
+=\frac{1-\frac{1}{\sqrt3}}{1+\frac{1}{\sqrt3}}
+=\frac{\sqrt3-1}{\sqrt3+1}
+$$
+となる。分母を有理化して  
+$$
+\frac{\sqrt3-1}{\sqrt3+1}\cdot\frac{\sqrt3-1}{\sqrt3-1}
+=\frac{(\sqrt3-1)^2}{3-1}
+=\frac{3-2\sqrt3+1}{2}
+=2-\sqrt3
+$$
+したがって  
+$$
+\tan15^\circ=2-\sqrt3
+$$
+であり，  
+$$
+\tan75^\circ=\tan(90^\circ-15^\circ)=\cot15^\circ=\frac{1}{\tan15^\circ}
+=\frac{1}{2-\sqrt3}
+$$
+となる。分母を有理化すると  
+$$
+\frac{1}{2-\sqrt3}\cdot\frac{2+\sqrt3}{2+\sqrt3}
+=2+\sqrt3
+$$
+よって
+$$
+\tan75^\circ=2+\sqrt3
+$$
+である。
+
+---
+
+(2)  
+点 $O(0,0)$，$A(a,0)$，$B(b,0)$，$D(0,d)$ で $a,b,d>0$ とする。
+
+三角形 $OAD$ について，$\angle OAD=15^\circ$ より  
+$$
+\tan\angle OAD=\tan15^\circ=\frac{OD}{OA}=\frac{d}{a}
+$$
+また三角形 $OBD$ について，$\angle OBD=75^\circ$ より  
+$$
+\tan\angle OBD=\tan75^\circ=\frac{OD}{OB}=\frac{d}{b}
+$$
+となる。
+
+(1) の結果を用いると  
+$$
+\frac{d}{a}=2-\sqrt3,\qquad \frac{d}{b}=2+\sqrt3
+$$
+であるから，これをそれぞれ $d$ について解くと  
+$$
+d=a(2-\sqrt3),\qquad d=b(2+\sqrt3)
+$$
+よって  
+$$
+a(2-\sqrt3)=b(2+\sqrt3)
+$$
+となる。ここから
+$$
+\frac{a}{b}=\frac{2+\sqrt3}{2-\sqrt3}
+$$
+であり，右辺を有理化すると  
+$$
+\frac{2+\sqrt3}{2-\sqrt3}\cdot\frac{2+\sqrt3}{2+\sqrt3}
+=\frac{(2+\sqrt3)^2}{4-3}
+=7+4\sqrt3
+$$
+したがって  
+$$
+\frac{a}{b}=7+4\sqrt3
+$$
+である。
+
+一方，$AB=6$ から  
+$$
+AB=|b-a|=6
+$$
+であり，$a>b>0$ と考えられるので $a-b=6$ とおいてよい。  
+そこで $a=b(7+4\sqrt3)$ を代入すると  
+$$
+b(7+4\sqrt3)-b=6
+$$
+すなわち  
+$$
+b(6+4\sqrt3)=6
+$$
+となる。よって  
+$$
+b=\frac{6}{6+4\sqrt3}
+$$
+右辺を有理化して  
+$$
+b=\frac{6}{6+4\sqrt3}\cdot\frac{6-4\sqrt3}{6-4\sqrt3}
+=\frac{6(6-4\sqrt3)}{36-48}
+=\frac{36-24\sqrt3}{-12}
+=2\sqrt3-3
+$$
+となる。
+
+次に  
+$$
+a=b(7+4\sqrt3)=(2\sqrt3-3)(7+4\sqrt3)
+$$
+を計算すると  
+$$
+(2\sqrt3-3)(7+4\sqrt3)
+=14\sqrt3+24-21-12\sqrt3
+=2\sqrt3- -? 
+=2\sqrt3+3
+$$
+となる。
+
+さらに $d$ については $d=a(2-\sqrt3)$ を用いて  
+$$
+d=(2\sqrt3+3)(2-\sqrt3)
+=4\sqrt3+6-6-3\sqrt3
+=\sqrt3
+$$
+を得る。
+
+よって  
+$$
+a=2\sqrt3+3,\quad b=2\sqrt3-3,\quad d=\sqrt3
+$$
+である。
+
+---
+
+(3)  
+円 $C$ は $O(0,0)$，$D(0,d)$ を直径の両端にもつ円である。円 $C$ 上の点を $X(x,y)$ とすると，中心は $OD$ の中点 $\left(0,\frac{d}{2}\right)$ ，半径は $\frac{d}{2}$ なので，円の方程式は  
+$$
+x^2+\left(y-\frac{d}{2}\right)^2=\left(\frac{d}{2}\right)^2
+$$
+である。これを変形すると  
+$$
+x^2+y^2-dy+\frac{d^2}{4}=\frac{d^2}{4}
+$$
+すなわち  
+$$
+x^2+y^2=dy
+$$
+となる。
+
+いま，$P,Q$ はいずれも円 $C$ 上にあるから  
+$$
+\text{(円 $C$ 上)}\quad XP\in\{P,Q\}\Rightarrow XP^2+YP^2=d\cdot YP
+$$
+特に $P(x_P,y_P)$，$Q(x_Q,y_Q)$ に対して  
+$$
+OP^2=d\cdot Y_P,\qquad OQ^2=d\cdot Y_Q
+$$
+と書ける。
+
+ここで方べきの定理を座標を用いて証明する。  
+まず，三角形 $OAD$ は直角三角形である。なぜならば，$OA$ は $x$ 軸上，$OD$ は $y$ 軸上にあり，互いに直交するからである。同様に三角形 $OBD$ も直角三角形である。
+
+円 $C$ は直径 $OD$ をもつから，円周角の定理より，円周上の任意の点と $O,D$ を結ぶとき，$\angle OPD=\angle OQD=90^\circ$ である。  
+したがって，$OAPD$ と $OBQD$ はともに直角四角形である。
+
+線分 $AD$ 上の点 $P$ に対し，直角三角形 $OAD$ で直角をはさむ辺 $OA,OD$ から引いた斜辺 $AD$ 上の点 $P$ への射影とみなすと，ベクトルを用いて  
+$$
+\vec{AP}=\lambda\vec{AD}\ (\text{ある実数 }\lambda)
+$$
+と表せるので  
+$$
+\vec{OP}=\vec{OA}+\vec{AP}
+=\vec{OA}+\lambda\vec{AD}
+$$
+これを成分で書くと，$O(0,0)$，$A(a,0)$，$D(0,d)$ より  
+$$
+\vec{OA}=(a,0),\quad \vec{AD}=(-a,d)
+$$
+したがって  
+$$
+\vec{OP}=(a,0)+\lambda(-a,d)=(a(1-\lambda),\lambda d)
+$$
+となる。すなわち  
+$$
+OP^2=\{a(1-\lambda)\}^2+(\lambda d)^2
+$$
+
+同様に，点 $P$ は $AD$ 上にあるから，ある実数 $t$ を用いて  
+$$
+\vec{AP}=t\vec{AD}
+$$
+とおくと，$AP=t\,AD$，$PD=(1-t)\,AD$ である。ここで $t$ は $0<t<1$ である。
+
+三角形 $OAD$ について，$OD^2=OA^2+AD^2$ が成り立つ（直角三角形のピタゴラスの定理）。これを用いると  
+$$
+OP^2=OA^2+AP\cdot AD
+$$
+が得られることを示したいが，ここまで来たところで，より簡潔な幾何的証明があることに気づくので，そちらを用いる。
+
+円 $C$ の中心を $M$ とすると，$OM=MD=\dfrac{OD}{2}$ であり，$C$ は半径 $\dfrac{OD}{2}$ の円である。  
+点 $A$ から円 $C$ に引いた接線は，接点を $T$ とすると $\angle ATP=90^\circ$ となる。ところが，$P$ は円周上にあり，$O,D$ を結ぶと $\angle OPD=90^\circ$ であるから，$AP$ は点 $A$ における円 $C$ の接線である。  
+よって $AT$ を点 $A$ から円 $C$ に引いた接線とすると，$AT=AP$ である。
+
+また，点 $A$ から円 $C$ へ引いた接線と弦 $AO,AD$ について方べきの定理（または接弦定理）より  
+$$
+AT^2=AO\cdot AO=AO^2,\quad AT^2=AP\cdot AD
+$$
+が成り立つ。したがって  
+$$
+AP\cdot AD=AO^2
+$$
+が得られる。
+
+同様に，点 $B$ から円 $C$ へ引いた接線として $BQ$ をとれば，円周角の定理より $\angle BQD=90^\circ$，$\angle BOD=90^\circ$ であるから $BQ$ も円 $C$ の接線であり，方べきの定理から  
+$$
+BQ\cdot BD=BO^2
+$$
+が成り立つ。
+
+よって，求める関係  
+$$
+AP\cdot AD=AO^2,\quad BQ\cdot BD=BO^2
+$$
+が証明された。
+
+---
+
+(4)  
+(3) で示した関係  
+$$
+AP\cdot AD=AO^2,\quad BQ\cdot BD=BO^2
+$$
+を用いる。
+
+両式を辺々掛け合わせると  
+$$
+(AP\cdot AD)\,(BQ\cdot BD)=AO^2\cdot BO^2
+$$
+左辺を整理して  
+$$
+AP\cdot BQ\cdot AD\cdot BD=(AO\cdot BO)^2
+$$
+となる。よって  
+$$
+AP\cdot BQ=\frac{(AO\cdot BO)^2}{AD\cdot BD}
+$$
+となる。
+
+ここで，(2) の結果を用いて座標から長さを求める。
+
+$$
+AO=a=2\sqrt3+3,\quad BO=b=2\sqrt3-3
+$$
+より  
+$$
+AO\cdot BO=(2\sqrt3+3)(2\sqrt3-3)=12-9=3
+$$
+
+次に $AD,BD$ を求める。  
+点 $A(a,0)$，$D(0,d)$ より  
+$$
+AD=\sqrt{a^2+d^2}
+$$
+点 $B(b,0)$，$D(0,d)$ より  
+$$
+BD=\sqrt{b^2+d^2}
+$$
+である。三角形 $OAD$ は直角三角形なので  
+$$
+AD^2=AO^2+OD^2=a^2+d^2
+$$
+であり，実際に $a=2\sqrt3+3,\ d=\sqrt3$ を代入して  
+$$
+a^2=(2\sqrt3+3)^2=12\cdot? 
+=21+12\sqrt3,\quad d^2=3
+$$
+より  
+$$
+AD^2=a^2+d^2=(21+12\sqrt3)+3=24+12\sqrt3
+$$
+同様に三角形 $OBD$ は直角三角形なので  
+$$
+BD^2=b^2+d^2
+$$
+であり，$b=2\sqrt3-3,\ d=\sqrt3$ から  
+$$
+b^2=(2\sqrt3-3)^2=21-12\sqrt3,\quad d^2=3
+$$
+したがって  
+$$
+BD^2=b^2+d^2=(21-12\sqrt3)+3=24-12\sqrt3
+$$
+
+ゆえに  
+$$
+AD\cdot BD=\sqrt{AD^2}\sqrt{BD^2}
+=\sqrt{(24+12\sqrt3)(24-12\sqrt3)}
+=\sqrt{24^2-(12\sqrt3)^2}
+=\sqrt{576-432}
+=\sqrt{144}=12
+$$
+
+以上より  
+$$
+AP\cdot BQ=\frac{(AO\cdot BO)^2}{AD\cdot BD}
+=\frac{3^2}{12}
+=\frac{9}{12}
+=\frac{3}{4}
+$$
+となる。
+
+したがって  
+$$
+AP\cdot BQ=\frac{3}{4}
+$$
+である。

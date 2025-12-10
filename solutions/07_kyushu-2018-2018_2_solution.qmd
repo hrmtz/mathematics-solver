@@ -1,0 +1,329 @@
+(1)  
+
+半円 $C:x^2+y^2=9\ (y\ge0)$ 上の点 $P,Q$ は  
+$P=(-3\cos\theta,\ 3\sin\theta),\ Q=(3\cos\theta,\ 3\sin\theta)\ (0\le\theta\le\pi)$  
+とおける（$y$ 座標が等しく，$x_P<x_Q$ となるため）。
+
+線分 $PQ$ を $P:Q=2:1$ に内分する点 $R$ の座標は内分点の公式より
+$$
+R=\frac{1\cdot P+2\cdot Q}{1+2}
+=\left(\frac{-3\cos\theta+6\cos\theta}{3},\,\frac{3\sin\theta+6\sin\theta}{3}\right)
+=(\cos\theta,\ 3\sin\theta)
+$$
+である。
+
+したがって，線分 $PR$ の端点は  
+$P(-3\cos\theta,\,3\sin\theta)$ と $R(\cos\theta,\,3\sin\theta)$ であり，  
+$y=3\sin\theta$ が固定された水平線上の線分となる。
+
+$\theta$ の取りうる範囲は $0\le\theta\le\pi$ であるから，
+$y=3\sin\theta$ は $0\le y\le 3$ を動く。  
+このとき各 $y$ に対して
+$$
+\sin\theta = \frac{y}{3},\quad
+\cos\theta = \pm\sqrt{1-\sin^2\theta}
+=\pm\sqrt{1-\frac{y^2}{9}}
+$$
+であるが，$P$ は左側，$R$ は右側の点であるから，
+$x_P=-3\cos\theta,\ x_R=\cos\theta$ は
+$$
+x=-3\sqrt{1-\frac{y^2}{9}}\ \text{から}\ x=\sqrt{1-\frac{y^2}{9}}
+$$
+までの区間を動くことになる。
+
+したがって，線分 $PR$ が通過してできる図形 $S$ は
+$$
+0\le y\le 3,\quad -3\sqrt{1-\frac{y^2}{9}}\le x\le\sqrt{1-\frac{y^2}{9}}
+$$
+で表される領域である。  
+この面積を $y$ について積分して求める。
+
+まず，幅は
+$$
+\sqrt{1-\frac{y^2}{9}}-(-3\sqrt{1-\frac{y^2}{9}})
+=4\sqrt{1-\frac{y^2}{9}}
+$$
+であるから，
+$$
+\mathrm{Area}(S)=\int_{0}^{3}4\sqrt{1-\frac{y^2}{9}}\,dy
+$$
+と表せる。ここで $y=3\sin t\ (0\le t\le\frac{\pi}{2})$ とおくと，
+$$
+dy=3\cos t\,dt,\quad
+\sqrt{1-\frac{y^2}{9}}=\sqrt{1-\sin^2 t}=\cos t
+$$
+より
+$$
+\mathrm{Area}(S)
+=4\int_{0}^{\pi/2}\cos t\cdot 3\cos t\,dt
+=12\int_{0}^{\pi/2}\cos^2 t\,dt
+$$
+となる。
+
+さらに
+$$
+\cos^2 t=\frac{1+\cos2t}{2}
+$$
+を用いると
+$$
+\int_{0}^{\pi/2}\cos^2 t\,dt
+=\int_{0}^{\pi/2}\frac{1+\cos2t}{2}\,dt
+=\frac{1}{2}\left[t+\frac{\sin2t}{2}\right]_{0}^{\pi/2}
+=\frac{1}{2}\cdot\frac{\pi}{2}
+=\frac{\pi}{4}
+$$
+であるから，
+$$
+\mathrm{Area}(S)=12\cdot\frac{\pi}{4}=3\pi
+$$
+となる。
+
+よって，図形 $S$ の面積は $3\pi$ である。
+
+---
+
+(2)  
+
+$P$ を $(-3,0)$ に固定し，$Q$ を半円 $C$ 上に動かす。  
+$Q$ を
+$$
+Q=(3\cos\theta,\ 3\sin\theta)\quad (0\le\theta\le\pi)
+$$
+とおく。
+
+線分 $PQ$ を $P:Q=2:1$ に内分する点 $R$ の座標は
+$$
+R=\frac{1\cdot P+2\cdot Q}{3}
+=\left(\frac{-3+6\cos\theta}{3},\,\frac{0+6\sin\theta}{3}\right)
+=(2\cos\theta-1,\ 2\sin\theta)
+$$
+である。
+
+したがって，$R$ は
+$$
+x=2\cos\theta-1,\quad y=2\sin\theta
+$$
+を満たす点であり，その軌跡を調べる。
+
+$$
+x+1=2\cos\theta,\quad y=2\sin\theta
+$$
+より
+$$
+(x+1)^2+y^2 = (2\cos\theta)^2+(2\sin\theta)^2
+=4(\cos^2\theta+\sin^2\theta)=4
+$$
+となる。したがって，$R$ の軌跡は
+$$
+(x+1)^2+y^2=4
+$$
+という半径 $2$，中心 $(-1,0)$ の円である。
+
+また $\theta$ の範囲 $0\le\theta\le\pi$ より
+$$
+y=2\sin\theta\ge0
+$$
+となるから，$R$ の軌跡はこの円の上半分の半円である。
+
+次に，線分 $PR$ が通過してできる図形 $T$ を考える。  
+点 $P$ は円 $(x+1)^2+y^2=4$ の内部にあり，
+$R$ がこの円の半円上を動くとき，線分 $PR$ が通過する点全部は，
+中心 $(-1,0)$，半径 $2$ の半円
+$$
+(x+1)^2+y^2\le 4,\quad y\ge0
+$$
+の内部すべてである（半径 $2$ の全ての方向に $R$ が動き，$P$ から $R$ までの線分で内部が埋まるため）。
+
+したがって，図形 $T$ は半径 $2$ の上半円の内部であり，
+その面積は
+$$
+\mathrm{Area}(T)=\frac{1}{2}\pi\cdot 2^2=2\pi
+$$
+となる。
+
+---
+
+(3)  
+
+(1) の図形 $S$ から (2) の図形 $T$ を除いた図形と第1象限との共通部分を $U$ とする。  
+まず $S$ と $T$ の第1象限における形を $y$ の範囲ごとに調べる。
+
+(1) より，$S$ は
+$$
+0\le y\le 3,\quad -3\sqrt{1-\frac{y^2}{9}}\le x\le\sqrt{1-\frac{y^2}{9}}
+$$
+であったから，第1象限部分 $S_1$ は
+$$
+S_1:\ 0\le y\le 3,\quad 0\le x\le\sqrt{1-\frac{y^2}{9}}
+$$
+である。
+
+(2) より，$T$ は
+$$
+(x+1)^2+y^2\le 4,\quad y\ge0
+$$
+であるから，第1象限部分 $T_1$ は
+$$
+T_1:\ y\ge0,\ x\ge0,\ (x+1)^2+y^2\le4
+$$
+である。これを $x$ について解くと
+$$
+(x+1)^2\le 4-y^2\quad\Rightarrow\quad
+-1-\sqrt{4-y^2}\le x\le -1+\sqrt{4-y^2}
+$$
+となるので，第1象限では
+$$
+0\le x\le -1+\sqrt{4-y^2}
+$$
+である。また $4-y^2\ge0$ より $0\le y\le2$ である。  
+したがって
+$$
+T_1:\ 0\le y\le2,\quad 0\le x\le -1+\sqrt{4-y^2}
+$$
+と表せる。
+
+ゆえに
+$$
+U = (S_1\setminus T_1)
+$$
+であり，$y$ の範囲ごとに整理すると
+
+- $0\le y\le2$ では，$S_1$ の $x$ 範囲 $[0,\ \sqrt{1-y^2/9}]$ から  
+  $T_1$ の $x$ 範囲 $[0,\ -1+\sqrt{4-y^2}]$ を除いた
+  $x$ 範囲
+  $$
+  -1+\sqrt{4-y^2} \le x\le \sqrt{1-\frac{y^2}{9}}
+  $$
+- $2\le y\le3$ では，$T_1$ は存在しないので
+  $$
+  0\le x\le \sqrt{1-\frac{y^2}{9}}
+  $$
+
+となる。
+
+$U$ を $y$ 軸のまわりに1回転させた回転体の体積を求める。  
+$y$ 軸回転なので，断面法（円板・穴あき円板）を用いるとよい。
+
+$y$ を固定したとき，$x\ge0$ 側の最大の $x$ は常に $S_1$ の右端
+$$
+x_{\text{外}}(y)=\sqrt{1-\frac{y^2}{9}}
+$$
+であり，$y\in[0,2]$ では $T_1$ によって $0\le x\le -1+\sqrt{4-y^2}$ がくり抜かれ，
+$y\in[2,3]$ ではくり抜きはない。
+
+したがって，$y$ 軸回転後の体積 $V$ は
+$$
+V=\int_{0}^{2}\pi\Bigl\{x_{\text{外}}(y)^2 - x_{\text{内}}(y)^2\Bigr\}\,dy
++\int_{2}^{3}\pi\,x_{\text{外}}(y)^2\,dy
+$$
+と書ける。ただし
+$$
+x_{\text{内}}(y)=-1+\sqrt{4-y^2}\quad (0\le y\le2)
+$$
+である。
+
+各項を計算する。
+
+まず
+$$
+x_{\text{外}}(y)^2 = 1-\frac{y^2}{9}
+$$
+である。
+
+次に
+$$
+x_{\text{内}}(y)^2 =(-1+\sqrt{4-y^2})^2
+=1-2\sqrt{4-y^2}+4-y^2
+=5-y^2-2\sqrt{4-y^2}
+$$
+であるから
+$$
+x_{\text{外}}(y)^2 - x_{\text{内}}(y)^2
+=\Bigl(1-\frac{y^2}{9}\Bigr)-\Bigl(5-y^2-2\sqrt{4-y^2}\Bigr)
+$$
+$$
+=1-\frac{y^2}{9}-5+y^2+2\sqrt{4-y^2}
+=-4+\frac{8}{9}y^2+2\sqrt{4-y^2}
+$$
+となる。
+
+したがって
+$$
+V
+=\pi\int_{0}^{2}\left(-4+\frac{8}{9}y^2+2\sqrt{4-y^2}\right)dy
++\pi\int_{2}^{3}\left(1-\frac{y^2}{9}\right)dy
+$$
+である。
+
+第1積分を
+$$
+I_1=\int_{0}^{2}\left(-4+\frac{8}{9}y^2\right)dy,\quad
+I_2=\int_{0}^{2}2\sqrt{4-y^2}\,dy
+$$
+と分けて計算する。
+
+まず
+$$
+I_1=\left[-4y+\frac{8}{27}y^3\right]_{0}^{2}
+=-4\cdot2+\frac{8}{27}\cdot 8
+=-8+\frac{64}{27}
+=\frac{-216+64}{27}
+=-\frac{152}{27}
+$$
+である。
+
+次に $I_2$ は半径2の半円の面積に対応する積分として
+$$
+I_2=\int_{0}^{2}2\sqrt{4-y^2}\,dy
+$$
+であり，これは $x^2+y^2\le4$ の上半円の面積 $2\pi$ に等しい。  
+（具体的には $y=2\sin t$ などの置換で計算できる。）  
+よって
+$$
+I_2=2\pi
+$$
+である。
+
+したがって
+$$
+\int_{0}^{2}\left(-4+\frac{8}{9}y^2+2\sqrt{4-y^2}\right)dy
+=I_1+I_2=-\frac{152}{27}+2\pi
+$$
+となる。
+
+次に
+$$
+\int_{2}^{3}\left(1-\frac{y^2}{9}\right)dy
+=\left[y-\frac{y^3}{27}\right]_{2}^{3}
+=\left(3-\frac{27}{27}\right)-\left(2-\frac{8}{27}\right)
+=(3-1)-(2-\frac{8}{27})
+$$
+$$
+=2-\left(2-\frac{8}{27}\right)
+=\frac{8}{27}
+$$
+である。
+
+ゆえに全体の体積は
+$$
+V=\pi\left\{-\frac{152}{27}+2\pi+\frac{8}{27}\right\}
+=\pi\left(2\pi-\frac{144}{27}\right)
+$$
+となる。
+
+$\dfrac{144}{27}$ を約分して
+$$
+\frac{144}{27}=\frac{16}{3}
+$$
+であるから
+$$
+V=\pi\left(2\pi-\frac{16}{3}\right)
+=2\pi^2-\frac{16}{3}\pi
+$$
+となる。
+
+よって，回転体の体積は
+$$
+2\pi^2-\frac{16}{3}\pi
+$$
+である。
