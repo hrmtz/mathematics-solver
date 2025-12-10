@@ -1,0 +1,209 @@
+$t$ を正の実数とする．領域は第1象限で，双曲線 $xy=1$ と直線 $x+y=t$ によって切り取られる部分である．
+
+まず，$xy\leqq 1$ かつ $x\geqq 0$ より，$0\leqq x\leqq 1$ のとき $y$ の上限は $1$ 以上となるが，$x+y\leqq t$ により $y\leqq t-x$ も課される．一方 $x\geqq 1$ のときは $xy\leqq1$ より $y\leqq 1/x$ となる．
+
+また，直線 $x+y=t$ と双曲線 $xy=1$ の交点を求める．
+$$
+\begin{cases}
+x+y=t,\\[2pt]
+xy=1
+\end{cases}
+$$
+より，$y=t-x$ を下に代入して
+$$
+x(t-x)=1
+$$
+すなわち
+$$
+x^2-tx+1=0
+$$
+を得る．判別式は $D=t^2-4>0$（$t>2$ を考えれば十分）であり，解は
+$$
+x=\frac{t\pm\sqrt{t^2-4}}{2}
+$$
+である．$t>0$ なので
+$$
+0<\frac{t-\sqrt{t^2-4}}{2}<1,\quad 
+\frac{t+\sqrt{t^2-4}}{2}>1
+$$
+が成り立ち，$x\geqq0$ における交点のうち $x\leqq1$ 側を
+$$
+a(t)=\frac{t-\sqrt{t^2-4}}{2}
+$$
+とおく．
+
+$t$ が十分大きいとき，領域は次の2つの部分に分けて面積を求められる：
+
+- $0\leqq x\leqq a(t)$ では $y$ は $0\leqq y\leqq t-x$，
+- $a(t)\leqq x\leqq 1$ では $y$ は $0\leqq y\leqq 1/x$．
+
+（$x\geqq 1$ の範囲では，$y\leqq1/x\leqq1$ かつ $x+y\leqq t$ も満たすが，その部分は $x$ が大きくなると無限に広がるように見える．しかし $xy\leqq1$ により $x\geqq1$ では $y\leqq1/x\leqq1$ で，$x$ の上限は $x+y\leqq t$ から $x\leqq t$ となるため，面積は有限であり，かつ $t\to\infty$ での漸近挙動に対しては $[1,t]$ の積分で処理できる．以下で一括して扱う．）
+
+したがって，$S(t)$ は
+$$
+S(t)=\int_{0}^{a(t)}(t-x)\,dx+\int_{a(t)}^{1}\frac{1}{x}\,dx+\int_{1}^{t}\frac{1}{x}\,dx
+$$
+と表せる．第3項は $x\geqq1$ の領域で $y$ は常に $0\leqq y\leqq 1/x$ であり，$x+y\leqq t$ より $x\leqq t$ で切られるからである（$t>1$ を仮定）．
+
+この式を整理する．
+
+まず
+$$
+\int_{0}^{a(t)}(t-x)\,dx
+=\left[tx-\frac{x^2}{2}\right]_{0}^{a(t)}
+=ta(t)-\frac{a(t)^2}{2},
+$$
+次に
+$$
+\int_{a(t)}^{1}\frac{1}{x}\,dx
+=\log 1-\log a(t)=-\log a(t),
+$$
+また
+$$
+\int_{1}^{t}\frac{1}{x}\,dx=\log t-\log1=\log t
+$$
+より
+$$
+S(t)=ta(t)-\frac{a(t)^2}{2}-\log a(t)+\log t
+$$
+となる．したがって
+$$
+S(t)-2\log t
+=ta(t)-\frac{a(t)^2}{2}-\log a(t)-\log t.
+$$
+
+ここで $a(t)$ を用いて式を具体的に計算する．
+$$
+a(t)=\frac{t-\sqrt{t^2-4}}{2}
+$$
+なので
+$$
+ta(t)=\frac{t^2-t\sqrt{t^2-4}}{2},
+$$
+また
+$$
+a(t)^2=\left(\frac{t-\sqrt{t^2-4}}{2}\right)^2
+=\frac{t^2-2t\sqrt{t^2-4}+(t^2-4)}{4}
+=\frac{2t^2-2t\sqrt{t^2-4}-4}{4},
+$$
+したがって
+$$
+\frac{a(t)^2}{2}
+=\frac{2t^2-2t\sqrt{t^2-4}-4}{8}
+=\frac{t^2-t\sqrt{t^2-4}-2}{4}.
+$$
+
+よって
+$$
+ta(t)-\frac{a(t)^2}{2}
+=\frac{t^2-t\sqrt{t^2-4}}{2}-\frac{t^2-t\sqrt{t^2-4}-2}{4}
+=\frac{t^2-t\sqrt{t^2-4}+2}{4}.
+$$
+
+さらに $\log a(t)$ を変形する．
+$$
+a(t)=\frac{t-\sqrt{t^2-4}}{2}
+=\frac{1}{2}\cdot\frac{4}{t+\sqrt{t^2-4}}
+=\frac{2}{t+\sqrt{t^2-4}}
+$$
+（分母に $t+\sqrt{t^2-4}$ をかけて有理化した）から，
+$$
+\log a(t)=\log2-\log\bigl(t+\sqrt{t^2-4}\bigr).
+$$
+
+これらを用いて
+$$
+S(t)-2\log t
+=\left(ta(t)-\frac{a(t)^2}{2}\right)-\log a(t)-\log t
+$$
+に代入すると
+$$
+S(t)-2\log t
+=\frac{t^2-t\sqrt{t^2-4}+2}{4}
+-\bigl(\log2-\log(t+\sqrt{t^2-4})\bigr)
+-\log t
+$$
+$$
+=\frac{t^2-t\sqrt{t^2-4}+2}{4}
+-\log2+\log(t+\sqrt{t^2-4})-\log t.
+$$
+
+ここで
+$$
+\log(t+\sqrt{t^2-4})-\log t
+=\log\left(\frac{t+\sqrt{t^2-4}}{t}\right)
+=\log\left(1+\sqrt{1-\frac{4}{t^2}}\right)
+$$
+であるから，
+$$
+S(t)-2\log t
+=\frac{t^2-t\sqrt{t^2-4}+2}{4}
+-\log2+\log\left(1+\sqrt{1-\frac{4}{t^2}}\right).
+$$
+
+$t\to\infty$ のときの極限を求める．
+
+まず
+$$
+\sqrt{t^2-4}=t\sqrt{1-\frac{4}{t^2}}
+$$
+であり，$u=\dfrac{4}{t^2}\to0$ とおくと
+$$
+\sqrt{1-u}=1-\frac{u}{2}+o(u) \quad (u\to0)
+$$
+であるから
+$$
+\sqrt{1-\frac{4}{t^2}}
+=1-\frac{1}{2}\cdot\frac{4}{t^2}+o\left(\frac{1}{t^2}\right)
+=1-\frac{2}{t^2}+o\left(\frac{1}{t^2}\right).
+$$
+したがって
+$$
+t\sqrt{t^2-4}
+=t^2\sqrt{1-\frac{4}{t^2}}
+=t^2-2+o(1)
+\quad (t\to\infty).
+$$
+これを用いると
+$$
+t^2-t\sqrt{t^2-4}
+=t^2-(t^2-2+o(1))=2+o(1),
+$$
+よって
+$$
+\frac{t^2-t\sqrt{t^2-4}+2}{4}
+=\frac{2+o(1)+2}{4}
+=1+o(1)
+\quad (t\to\infty).
+$$
+
+次に
+$$
+1-\frac{4}{t^2}\to1
+$$
+より
+$$
+1+\sqrt{1-\frac{4}{t^2}}\to1+1=2
+$$
+であるから，対数の連続性より
+$$
+\log\left(1+\sqrt{1-\frac{4}{t^2}}\right)\to\log2
+\quad (t\to\infty)
+$$
+が成り立つ．
+
+以上から
+$$
+\lim_{t\to\infty}(S(t)-2\log t)
+=\lim_{t\to\infty}\left\{\frac{t^2-t\sqrt{t^2-4}+2}{4}
+-\log2+\log\left(1+\sqrt{1-\frac{4}{t^2}}\right)\right\}
+$$
+$$
+=1-\log2+\log2=1.
+$$
+
+したがって求める極限値は
+$$
+\boxed{1}
+$$
+である．

@@ -1,0 +1,223 @@
+(準備)  
+$\alpha=\dfrac{1-i}{\sqrt2}$ について，
+$$
+1-i=\sqrt2\left(\cos\left(-\frac{\pi}{4}\right)+i\sin\left(-\frac{\pi}{4}\right)\right)
+$$
+なので  
+$$
+\alpha=\cos\left(-\frac{\pi}{4}\right)+i\sin\left(-\frac{\pi}{4}\right)=e^{-i\pi/4}
+$$
+と表せる。したがって
+$$
+\alpha^2=e^{-i\pi/2}=-i,\quad
+\alpha^4=e^{-i\pi}=-1,\quad
+\alpha^6=e^{-3i\pi/2}=i,\quad
+\alpha^7=\alpha^6\alpha=i\alpha
+$$
+となる。また
+$$
+P(z)=z^3-3z^2+(c+2)z-c,\quad
+Q(z)=-\alpha^7z^3+3\alpha^6z^2+(c+2)\alpha z-c
+$$
+である。
+
+---
+
+### (1)
+
+$P(z)=0$ の解を求める。  
+$P(1)$ を計算すると
+$$
+P(1)=1-3+(c+2)-c=0
+$$
+より，$z=1$ は $P(z)=0$ の解である。よって $(z-1)$ で因数分解できる。
+
+多項式の割り算，または因数分解を行うと
+$$
+P(z)=z^3-3z^2+(c+2)z-c
+=(z-1)\{z^2-2z+c\}
+$$
+となる。よって $P(z)=0$ は
+$$
+z-1=0\quad\text{または}\quad z^2-2z+c=0
+$$
+に同値である。したがって
+$$
+z=1,\quad
+z=\frac{2\pm\sqrt{4-4c}}{2}=1\pm\sqrt{1-c}
+$$
+を得る。
+
+ここで $c>1$ より $1-c<0$ なので，$\sqrt{1-c}=i\sqrt{c-1}$ と書ける。よって 2 つの解は
+$$
+z=1\pm i\sqrt{c-1}
+$$
+であり，結局
+$$
+\boxed{\;z=1,\;1+i\sqrt{c-1},\;1-i\sqrt{c-1}\;}
+$$
+が $P(z)=0$ の解である。
+
+複素数平面上では，$z=1$ は実軸上の点 $(1,0)$，$z=1\pm i\sqrt{c-1}$ は $x=1$ 上で原点を中心とする 2 点 $(1,\pm\sqrt{c-1})$ を表し，3 点は実部 $1$ の直線上に一直線に並ぶ。
+
+---
+
+### (2)
+
+$Q(z)=0$ を満たす $z$ のうち，実部が最大のものを求める。
+
+まず $\alpha^6=i,\ \alpha^7=i\alpha$ を用いると
+$$
+Q(z)=-\alpha^7z^3+3\alpha^6z^2+(c+2)\alpha z-c
+=-i\alpha z^3+3iz^2+(c+2)\alpha z-c
+$$
+である。ここで $w=\alpha z$ とおくと $z=\overline{\alpha}\,w$ であり，$|\alpha|=1$ なので
+$$
+\overline{\alpha}=\alpha^{-1}
+$$
+を用いて
+$$
+z^2=\overline{\alpha}^2w^2,\quad
+z^3=\overline{\alpha}^3w^3
+$$
+となる。よって
+\begin{align*}
+Q(z)
+&=-i\alpha(\overline{\alpha}^3w^3)+3i(\overline{\alpha}^2w^2)+(c+2)\alpha(\overline{\alpha}w)-c\\
+&=-i\alpha\overline{\alpha}^3w^3+3i\overline{\alpha}^2w^2+(c+2)\alpha\overline{\alpha}w-c.
+\end{align*}
+$|\alpha|=1$ なので $\alpha\overline{\alpha}=1$，また $\alpha\overline{\alpha}^3=\overline{\alpha}^2$ だから
+\begin{align*}
+Q(z)
+&=-i\overline{\alpha}^2w^3+3i\overline{\alpha}^2w^2+(c+2)w-c\\
+&=-i\overline{\alpha}^2(w^3-3w^2)+(c+2)w-c.
+\end{align*}
+
+ここで $\overline{\alpha}^2=\overline{\alpha^2}=\overline{-i}=i$ より $-i\overline{\alpha}^2=1$ となるので
+$$
+Q(z)=w^3-3w^2+(c+2)w-c=P(w)
+$$
+と書ける。よって
+$$
+Q(z)=0 \iff P(w)=0 \iff w=1,\ 1\pm i\sqrt{c-1}
+$$
+である。
+
+$w=\alpha z$ であったから，各解に対応する $z$ は
+$$
+z=\overline{\alpha}w
+$$
+で与えられる。$\overline{\alpha}=\dfrac{1+i}{\sqrt2}$ なので
+
+1つ目：$w=1$ のとき
+$$
+z=\overline{\alpha}\cdot1=\frac{1+i}{\sqrt2}
+$$
+
+2つ目：$w=1+i\sqrt{c-1}$ のとき
+\begin{align*}
+z
+&=\frac{1+i}{\sqrt2}\,(1+i\sqrt{c-1})\\
+&=\frac{1}{\sqrt2}\bigl(1+i\sqrt{c-1}+i+i^2\sqrt{c-1}\bigr)\\
+&=\frac{1}{\sqrt2}\bigl(1-\sqrt{c-1}+i(1+\sqrt{c-1})\bigr).
+\end{align*}
+
+3つ目：$w=1-i\sqrt{c-1}$ のときも同様に
+\begin{align*}
+z
+&=\frac{1}{\sqrt2}\bigl(1+i\bigr)(1-i\sqrt{c-1})\\
+&=\frac{1}{\sqrt2}\bigl(1-\sqrt{c-1}+i(-1+\sqrt{c-1})\bigr)\\
+&=\frac{1}{\sqrt2}\bigl(1+\sqrt{c-1}+i(1-\sqrt{c-1})\bigr).
+\end{align*}
+
+整理すると，$Q(z)=0$ の解は
+\[
+\begin{cases}
+z_1=\dfrac{1+i}{\sqrt2},\\[4pt]
+z_2=\dfrac{1-\sqrt{c-1}}{\sqrt2}
+    +i\,\dfrac{1+\sqrt{c-1}}{\sqrt2},\\[4pt]
+z_3=\dfrac{1+\sqrt{c-1}}{\sqrt2}
+    +i\,\dfrac{1-\sqrt{c-1}}{\sqrt2}
+\end{cases}
+\]
+である。
+
+各解の実部は
+\[
+\Re(z_1)=\frac{1}{\sqrt2},\quad
+\Re(z_2)=\frac{1-\sqrt{c-1}}{\sqrt2},\quad
+\Re(z_3)=\frac{1+\sqrt{c-1}}{\sqrt2}
+\]
+である。$c>1$ より $\sqrt{c-1}>0$ なので
+$$
+\Re(z_3)=\frac{1+\sqrt{c-1}}{\sqrt2}>\frac{1}{\sqrt2}>\frac{1-\sqrt{c-1}}{\sqrt2}
+$$
+が成り立つ。したがって実部が最大なのは $z_3$ であり，
+$$
+\boxed{\;z=\frac{1+\sqrt{c-1}}{\sqrt2}
+      +i\,\frac{1-\sqrt{c-1}}{\sqrt2}\;}
+$$
+である。
+
+---
+
+### (3)
+
+$P(z)=0,\ Q(z)=0$ が共通解 $\beta$ を持つとする。  
+(2) で示したように $Q(z)=0$ の解 $z$ について $w=\alpha z$ は $P(w)=0$ の解である。したがって，$\beta$ が $P$ と $Q$ の共通解ならば
+$$
+P(\beta)=0,\ Q(\beta)=0
+$$
+より，$w=\alpha\beta$ は $P(w)=0$ の解となるから
+$$
+\alpha\beta\in\{1,\ 1+i\sqrt{c-1},\ 1-i\sqrt{c-1}\}
+$$
+を満たす。
+
+一方 $\beta$ 自身も $P(\beta)=0$ の解なので
+$$
+\beta\in\{1,\ 1+i\sqrt{c-1},\ 1-i\sqrt{c-1}\}
+$$
+である。この 3 つの値とその $\alpha$ 倍の 3 つの値が一致する場合を調べる。
+
+#### 場合分け
+
+まず $\beta=1$ とすると
+$$
+\alpha\beta=\alpha=\frac{1-i}{\sqrt2}.
+$$
+$\alpha$ は実部が $1/\sqrt2$ の複素数であり，$1$，$1\pm i\sqrt{c-1}$ と一致することはないので，この場合は不適。
+
+次に $\beta=1+i\sqrt{c-1}$ とする。このとき
+$$
+\alpha\beta=\frac{1-i}{\sqrt2}(1+i\sqrt{c-1})
+$$
+であり，実数分離すると
+\begin{align*}
+\alpha\beta
+&=\frac{1}{\sqrt2}\bigl(1+i\sqrt{c-1}-i-\sqrt{c-1}\bigr)\\
+&=\frac{1}{\sqrt2}\Bigl((1-\sqrt{c-1})+i(\sqrt{c-1}-1)\Bigr)\\
+&=\frac{1-\sqrt{c-1}}{\sqrt2}\bigl(1 - i\bigr).
+\end{align*}
+これが $1,\ 1+i\sqrt{c-1},\ 1-i\sqrt{c-1}$ のいずれかに等しくなることは，係数を比較すれば起こり得ない（右辺は $1-i$ の実数倍であり，実部と虚部が等しいか符号が逆である型だが，左の 3 つは虚部の絶対値が $\sqrt{c-1}$ で，実部 1 と異なる形）ので，不適。
+
+同様に $\beta=1-i\sqrt{c-1}$ の場合も
+$$
+\alpha\beta=\frac{1-\sqrt{c-1}}{\sqrt2}\bigl(1 + i\bigr)
+$$
+となり，やはり $1,\ 1\pm i\sqrt{c-1}$ のいずれにも一致しない。
+
+したがって
+$$
+\beta\in\{1,\ 1+i\sqrt{c-1},\ 1-i\sqrt{c-1}\}
+$$
+のどの場合も，$\alpha\beta$ は $\{1,\ 1+i\sqrt{c-1},\ 1-i\sqrt{c-1}\}$ に属さない。よって
+
+> $c>1$ のもとでは，$P(z)=0$ と $Q(z)=0$ は共通解を持たない。
+
+よって共通解 $\beta$ を持つような $c>1$ は存在せず，
+$$
+\boxed{\text{条件 $c>1$ のもとでは，そのような $c,\ \beta$ は存在しない。}}
+$$
+
+（すなわち仮定「2 つの方程式が共通解 $\beta$ を持つ」は $c>1$ では成り立たない。）

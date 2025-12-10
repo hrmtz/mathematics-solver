@@ -1,0 +1,412 @@
+(1)  
+円 $S$ の半径は 1 なので，中心角を用いて弧上の点を座標で表す。
+
+点 $P,Q,R$ がこの順に反時計回りに並び，  
+$\angle POQ=\alpha,\ \angle QOR=\beta$ であるから，適当に原点 $O$ を中心とし，
+$x$ 軸の正の向きを基準として
+
+- $P(1,0)$  
+- $Q(\cos\alpha,\ \sin\alpha)$  
+- $R(\cos(\alpha+\beta),\ \sin(\alpha+\beta))$
+
+とおくことができる（半径 1 の円周上の点であり，中心角を用いた極座標表示）。
+
+三角形の面積公式として，座標 $(x_1,y_1),(x_2,y_2),(x_3,y_3)$ をもつ三角形の面積 $S$ は
+
+$$
+S=\frac{1}{2}\left|\det
+\begin{pmatrix}
+x_2-x_1 & x_3-x_1\\
+y_2-y_1 & y_3-y_1
+\end{pmatrix}
+\right|
+=\frac{1}{2}\left|(x_2-x_1)(y_3-y_1)-(x_3-x_1)(y_2-y_1)\right|
+$$
+
+であることを用いる。
+
+ここで $\triangle PQR$ の面積を求めるために，  
+$P(1,0),Q(\cos\alpha,\sin\alpha),R(\cos(\alpha+\beta),\sin(\alpha+\beta))$ を用いると，
+
+$$
+\vec{PQ}=(\cos\alpha-1,\ \sin\alpha),\quad
+\vec{PR}=(\cos(\alpha+\beta)-1,\ \sin(\alpha+\beta))
+$$
+
+であるから，
+
+$$
+[\,\triangle PQR\,]
+=\frac{1}{2}\left|
+\det
+\begin{pmatrix}
+\cos\alpha-1 & \cos(\alpha+\beta)-1\\
+\sin\alpha   & \sin(\alpha+\beta)
+\end{pmatrix}
+\right|
+$$
+
+となる。計算すると，
+
+$$
+\begin{aligned}
+\det
+&=(\cos\alpha-1)\sin(\alpha+\beta) - (\cos(\alpha+\beta)-1)\sin\alpha\\
+&=\cos\alpha\sin(\alpha+\beta) -\sin(\alpha+\beta) -\cos(\alpha+\beta)\sin\alpha +\sin\alpha\\
+&=\{\cos\alpha\sin(\alpha+\beta)-\cos(\alpha+\beta)\sin\alpha\}+\{\sin\alpha-\sin(\alpha+\beta)\}.
+\end{aligned}
+$$
+
+ここで，三角関数の加法定理  
+$\sin X\cos Y-\cos X\sin Y=\sin(X-Y)$ を用いると，
+
+$$
+\cos\alpha\sin(\alpha+\beta)-\cos(\alpha+\beta)\sin\alpha
+=\sin\{(\alpha+\beta)-\alpha\}=\sin\beta
+$$
+
+なので，
+
+$$
+\det = \sin\beta + \sin\alpha - \sin(\alpha+\beta)
+= \sin\alpha + \sin\beta - \sin(\alpha+\beta)
+$$
+
+となる。
+
+$0<\alpha<\pi,\ 0<\beta<\pi$ のもとで $P,Q,R$ は反時計回りの順に並んでいるから，  
+この順で見たとき三角形 $PQR$ は反時計回り（正の向き）の向きをもつので，  
+上の行列式の値は正となり，絶対値記号を外してよい。したがって
+
+$$
+\triangle PQR\ \text{の面積}
+=\frac{1}{2}\{\sin\alpha+\sin\beta-\sin(\alpha+\beta)\}
+$$
+
+となる。
+
+---
+
+(2)  
+半径 1 の円 $S$ 上に点 $A,B,C,D,X$ がこの順に反時計回りに並び，
+
+$$
+\angle AOB=\frac{\pi}{2},\quad
+\angle BOC=\frac{\pi}{3},\quad
+\angle COD=\frac{\pi}{3}
+$$
+
+である。したがって
+
+$$
+\angle AOC = \angle AOB+\angle BOC=\frac{\pi}{2}+\frac{\pi}{3}=\frac{5\pi}{6},
+$$
+
+$$
+\angle AOD = \angle AOC+\angle COD
+=\frac{5\pi}{6}+\frac{\pi}{3}
+=\frac{5\pi}{6}+\frac{2\pi}{6}
+=\frac{7\pi}{6}
+$$
+
+となる。ここで，$X$ は $D$ と $A$ の間を動くから，  
+$\angle AOX$（反時計回りに $A$ から $X$ まで）は $0<\angle AOX<\frac{7\pi}{6}$ を満たす。
+
+(1) の結果を利用するため，それぞれの三角形について対応する中心角を求める。
+
+まず $\triangle XAB$ について考える。順序は $X,A,B$ で反時計回りに並んでいる。  
+円周上の頂点で，中心角
+
+- $\angle AOX = \theta$ とおくと，$0<\theta<\frac{7\pi}{6}$。  
+- $\angle AOB = \frac{\pi}{2}$ だから，$\angle XOB = \angle XO A + \angle AOB = \theta+\frac{\pi}{2}$
+
+となる（$X\to A\to B$ の順に進むと，中心角が加算される）。
+
+したがって，(1) の記号に合わせて
+
+$$
+\alpha = \angle AOX = \theta,\quad
+\beta = \angle XOB = \theta+\frac{\pi}{2}
+$$
+
+とみなせる。よって
+
+$$
+\triangle XAB\ \text{の面積}
+=\frac{1}{2}\{\sin\theta+\sin(\theta+\tfrac{\pi}{2})-\sin(\theta+\theta+\tfrac{\pi}{2})\}.
+$$
+
+次に $\triangle XCD$ について考える。  
+$C,D,X$ はこの順に反時計回りに並んでいるから，頂点を $C,D,X$ とおくと，
+
+- $\angle COD=\frac{\pi}{3}$，  
+- $\angle DOX$ は，$A$ を経由して数えると  
+  $\angle DOX = \angle DOA + \angle AOX = (2\pi-\angle AOD)+\theta = 2\pi-\frac{7\pi}{6}+\theta=\frac{5\pi}{6}+\theta$  
+  となる。  
+
+したがって
+
+$$
+\alpha' = \angle CO D = \frac{\pi}{3},\quad
+\beta' = \angle DOX = \frac{5\pi}{6}+\theta
+$$
+
+として(1)の公式を適用できる。よって
+
+$$
+\triangle XCD\ \text{の面積}
+=\frac{1}{2}\left\{\sin\frac{\pi}{3}
++\sin\Bigl(\frac{5\pi}{6}+\theta\Bigr)
+-\sin\Bigl(\frac{\pi}{3}+\frac{5\pi}{6}+\theta\Bigr)\right\}.
+$$
+
+ここで
+
+$$
+\frac{\pi}{3}+\frac{5\pi}{6}
+=\frac{2\pi}{6}+\frac{5\pi}{6}
+=\frac{7\pi}{6}
+$$
+
+なので，
+
+$$
+\triangle XCD\ \text{の面積}
+=\frac{1}{2}\left\{\sin\frac{\pi}{3}
++\sin\Bigl(\frac{5\pi}{6}+\theta\Bigr)
+-\sin\Bigl(\theta+\frac{7\pi}{6}\Bigr)\right\}.
+$$
+
+以上より，求める和を $S(\theta)$ とおくと，
+
+$$
+\begin{aligned}
+S(\theta)
+&=[\triangle XAB]+[\triangle XCD]\\
+&=\frac{1}{2}\Bigl\{\sin\theta+\sin\Bigl(\theta+\frac{\pi}{2}\Bigr)
+-\sin\Bigl(2\theta+\frac{\pi}{2}\Bigr) \\
+&\quad\qquad
++\sin\frac{\pi}{3}
++\sin\Bigl(\frac{5\pi}{6}+\theta\Bigr)
+-\sin\Bigl(\theta+\frac{7\pi}{6}\Bigr)\Bigr\}.
+\end{aligned}
+$$
+
+これを三角関数の加法定理で整理する。
+
+まず，
+$$
+\sin\Bigl(\theta+\frac{\pi}{2}\Bigr)=\cos\theta,\quad
+\sin\Bigl(2\theta+\frac{\pi}{2}\Bigr)=\cos(2\theta)
+$$
+である。また，
+
+$$
+\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2},
+$$
+
+さらに
+
+$$
+\sin\Bigl(\frac{5\pi}{6}+\theta\Bigr)
+=\sin\frac{5\pi}{6}\cos\theta+\cos\frac{5\pi}{6}\sin\theta
+=\frac{1}{2}\cos\theta-\frac{\sqrt{3}}{2}\sin\theta,
+$$
+
+$$
+\sin\Bigl(\theta+\frac{7\pi}{6}\Bigr)
+=\sin\theta\cos\frac{7\pi}{6}+\cos\theta\sin\frac{7\pi}{6}
+=-\frac{\sqrt{3}}{2}\sin\theta-\frac{1}{2}\cos\theta
+$$
+
+である（$\sin\frac{5\pi}{6}=\frac{1}{2},\ \cos\frac{5\pi}{6}=-\frac{\sqrt{3}}{2}$，  
+$\cos\frac{7\pi}{6}=-\frac{\sqrt{3}}{2},\ \sin\frac{7\pi}{6}=-\frac{1}{2}$ を用いた）。
+
+したがって
+
+$$
+\begin{aligned}
+\sin\Bigl(\frac{5\pi}{6}+\theta\Bigr)
+-\sin\Bigl(\theta+\frac{7\pi}{6}\Bigr)
+&=\left(\frac{1}{2}\cos\theta-\frac{\sqrt{3}}{2}\sin\theta\right)
+-\left(-\frac{\sqrt{3}}{2}\sin\theta-\frac{1}{2}\cos\theta\right)\\
+&=\frac{1}{2}\cos\theta-\frac{\sqrt{3}}{2}\sin\theta
++\frac{\sqrt{3}}{2}\sin\theta+\frac{1}{2}\cos\theta\\
+&=\cos\theta.
+\end{aligned}
+$$
+
+これらを $S(\theta)$ に代入すると，
+
+$$
+\begin{aligned}
+S(\theta)
+&=\frac{1}{2}\Bigl\{
+\sin\theta+\cos\theta-\cos(2\theta)
++\frac{\sqrt{3}}{2}
++\cos\theta
+\Bigr\}\\
+&=\frac{1}{2}\Bigl\{
+\sin\theta+2\cos\theta-\cos(2\theta)+\frac{\sqrt{3}}{2}
+\Bigr\}.
+\end{aligned}
+$$
+
+ここで $\cos(2\theta)=1-2\sin^2\theta$ を用いると，
+
+$$
+-\cos(2\theta)=-1+2\sin^2\theta
+$$
+
+なので，
+
+$$
+\begin{aligned}
+S(\theta)
+&=\frac{1}{2}\Bigl\{
+\sin\theta+2\cos\theta-1+2\sin^2\theta+\frac{\sqrt{3}}{2}
+\Bigr\}\\
+&=\frac{1}{2}\Bigl\{2\sin^2\theta+\sin\theta+2\cos\theta
++\left(-1+\frac{\sqrt{3}}{2}\right)\Bigr\}.
+\end{aligned}
+$$
+
+定数項は最大・最小に影響しないので，  
+$\theta$ に関する部分
+
+$$
+T(\theta)=2\sin^2\theta+\sin\theta+2\cos\theta
+$$
+
+の最大値を求めればよい。
+
+ここで $\sin^2\theta=1-\cos^2\theta$ を用いると，
+
+$$
+T(\theta)=2(1-\cos^2\theta)+\sin\theta+2\cos\theta
+=-2\cos^2\theta+2\cos\theta+\sin\theta+2.
+$$
+
+さらに $x=\cos\theta,y=\sin\theta$ とおくと，$x^2+y^2=1$ をみたすので，
+
+$$
+T= -2x^2+2x+y+2
+$$
+
+となる。円 $x^2+y^2=1$ 上でこの一次・二次式の最大値を求める問題である。
+
+$y$ について解くと $y^2=1-x^2$ なので，$y = \pm\sqrt{1-x^2}$ だが，直接代入して微分してもよいし，  
+ここではベクトルを用いて整理する。
+
+ベクトル $\vec{u}=(x,y)$ に対し，$x=\cos\theta,y=\sin\theta$ なので
+
+$$
+2\cos\theta+\sin\theta= (2,1)\cdot (\cos\theta,\sin\theta),
+$$
+
+内積を用いると最大値は
+
+$$
+\sqrt{2^2+1^2}=\sqrt{5}
+$$
+
+であり，そのとき
+
+$$
+(\cos\theta,\sin\theta)\parallel (2,1)
+$$
+
+すなわち
+
+$$
+(\cos\theta,\sin\theta)=\left(\frac{2}{\sqrt{5}},\frac{1}{\sqrt{5}}\right)
+$$
+
+である。  
+また，$2\sin^2\theta=2(1-\cos^2\theta)$ は $\cos\theta$ が決まれば一意に定まるので，このときに $T(\theta)$ も最大になる。
+
+実際にこのときの $T(\theta)$ を計算すると，
+
+$$
+\cos\theta=\frac{2}{\sqrt{5}},\quad \sin\theta=\frac{1}{\sqrt{5}}
+$$
+
+より
+
+$$
+\sin^2\theta=\frac{1}{5},\quad
+2\sin^2\theta=\frac{2}{5},
+$$
+
+$$
+2\cos\theta+\sin\theta
+=2\cdot\frac{2}{\sqrt{5}}+\frac{1}{\sqrt{5}}
+=\frac{5}{\sqrt{5}}=\sqrt{5}
+$$
+
+なので，
+
+$$
+T_{\max}
+=\frac{2}{5}+\sqrt{5}.
+$$
+
+したがって
+
+$$
+S(\theta)
+=\frac{1}{2}\left\{
+T(\theta)+\left(-1+\frac{\sqrt{3}}{2}\right)
+\right\}
+$$
+
+であるから，$S(\theta)$ の最大値は
+
+$$
+S_{\max}
+=\frac{1}{2}\left\{
+\frac{2}{5}+\sqrt{5}-1+\frac{\sqrt{3}}{2}
+\right\}
+=\frac{1}{2}\left\{
+-\frac{3}{5}+\sqrt{5}+\frac{\sqrt{3}}{2}
+\right\}.
+$$
+
+整理すると，
+
+$$
+S_{\max}
+=\frac{1}{2}\left(\sqrt{5}+\frac{\sqrt{3}}{2}-\frac{3}{5}\right)
+=\frac{10\sqrt{5}+5\sqrt{3}-6}{20}.
+$$
+
+以上が $\triangle XAB$ の面積と $\triangle XCD$ の面積の和の最大値である。
+
+また，このときの $\theta=\angle AOX$ は
+
+$$
+\cos\theta=\frac{2}{\sqrt{5}},\quad \sin\theta=\frac{1}{\sqrt{5}}
+$$
+
+となる角であり，
+
+$$
+\tan\theta=\frac{\sin\theta}{\cos\theta}=\frac{1/\sqrt{5}}{2/\sqrt{5}}=\frac{1}{2}
+$$
+
+を満たす。したがって，
+
+$$
+\angle AOX=\theta=\arctan\frac{1}{2}
+$$
+
+（ただし $0<\theta<\frac{\pi}{2}$ であることから第 1 象限の角）である。
+
+まとめると，
+
+- 面積の和の最大値は  
+  $$\displaystyle \frac{10\sqrt{5}+5\sqrt{3}-6}{20}$$  
+- そのときの $\angle AOX$ は  
+  $$\displaystyle \angle AOX=\arctan\frac{1}{2}$$  
+
+である。

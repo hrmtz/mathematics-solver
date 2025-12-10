@@ -1,0 +1,323 @@
+(1)  
+
+半径 1 の球面上の弦 $AB$ の長さが $AB=1$ であるから，中心 $O$ として三角形 $AOB$ を考えると，
+$$
+OA=OB=1,\quad AB=1
+$$
+より，余弦定理から
+$$
+AB^2=OA^2+OB^2-2\cdot OA\cdot OB\cos\angle AOB
+$$
+すなわち
+$$
+1^2=1^2+1^2-2\cdot1\cdot1\cdot\cos\angle AOB
+$$
+より
+$$
+1=2-2\cos\angle AOB
+\quad\Longrightarrow\quad
+\cos\angle AOB=\frac12
+$$
+よって
+$$
+\angle AOB=\frac{\pi}{3}
+$$
+である。
+
+球の半径を $R=1$ とすると，球面上の 2 点 $P,Q$ に対し，中心角を $\theta=\angle POQ$ とおけば，弦長 $PQ$ と球面距離（大円に沿った弧の長さ）$PQ'$ には
+$$
+PQ = 2R\sin\frac{\theta}{2},\quad PQ' = R\theta
+$$
+の関係がある。いま $AB=1$，$R=1$ で $\theta=\frac{\pi}{3}$ だから
+$$
+AB' = 1\cdot\frac{\pi}{3}=\frac{\pi}{3}
+$$
+となる。これが球面上の弧の長さである。
+
+同様に，球面上の 2 点 $A,C$ を結ぶ弧の長さ（球面距離）を $x$，$B,C$ を結ぶ弧の長さを $y$ とおくと，球面三角形 $ABC$ において条件 $AC=BC$ より
+$$
+x=y
+$$
+である。
+
+また，球面三角形に対する球面版の余弦定理（球面余弦定理）を用いると，辺の（球面）長さを $a=BC',\ b=CA',\ c=AB'$，対する角をそれぞれ $A,B,C$ として
+$$
+\cos a = \cos b\cos c + \sin b\sin c \cos A
+$$
+が成り立つ。ここで
+$$
+a = y,\quad b = x,\quad c = AB'=\frac{\pi}{3},\quad A=\angle C A B
+$$
+である。また，問題の条件より
+$$
+\cos\angle ACB = \frac{4}{5}
+$$
+である。ところで，三角形 $ABC$ は $AC=BC$ の二等辺三角形であり，底辺 $AB$ に対する頂角が $\angle ACB$ だから
+$$
+\angle CAB = \angle CBA
+$$
+が成り立つ。よって三角形の内角和
+$$
+\angle CAB + \angle CBA + \angle ACB = \pi
+$$
+より
+$$
+2\angle CAB + \angle ACB = \pi
+$$
+すなわち
+$$
+2A + \angle ACB = \pi
+$$
+である。ここで $\angle ACB$ を $\theta$ とおき，
+$$
+\cos\theta=\frac{4}{5}
+$$
+とすると，$2A = \pi-\theta$ だから
+$$
+A = \frac{\pi-\theta}{2}
+$$
+となる。
+
+一方，ユークリッド幾何（通常の三角形の余弦定理）により，
+$$
+\cos\angle ACB
+= \frac{AC^2+BC^2-AB^2}{2\cdot AC\cdot BC}
+$$
+であるが，$AC=BC$ だから $AC=BC=\ell$ とおいて
+$$
+\cos\angle ACB
+= \frac{\ell^2+\ell^2-1^2}{2\ell^2}
+= \frac{2\ell^2-1}{2\ell^2}
+$$
+となる。これが $\dfrac{4}{5}$ に等しいから
+$$
+\frac{2\ell^2-1}{2\ell^2}=\frac{4}{5}
+\quad\Longrightarrow\quad
+5(2\ell^2-1)=8\ell^2
+$$
+すなわち
+$$
+10\ell^2-5=8\ell^2
+\quad\Longrightarrow\quad
+2\ell^2=5
+\quad\Longrightarrow\quad
+\ell^2=\frac{5}{2}
+$$
+よって
+$$
+AC=BC=\sqrt{\frac{5}{2}}
+$$
+である。
+
+三角形 $ABC$ の面積を求めるには，公式
+$$
+S_{\triangle ABC}
+= \frac12 AC\cdot BC\cdot\sin\angle ACB
+$$
+を用いる。すでに
+$$
+AC=BC=\sqrt{\frac{5}{2}},\quad \cos\angle ACB=\frac{4}{5}
+$$
+であるから，$\sin\angle ACB$ は
+$$
+\sin^2\angle ACB
+=1-\cos^2\angle ACB
+=1-\left(\frac{4}{5}\right)^2
+=1-\frac{16}{25}
+=\frac{9}{25}
+$$
+より
+$$
+\sin\angle ACB=\frac{3}{5}
+$$
+（鈍角でないから正）である。したがって
+$$
+S_{\triangle ABC}
+= \frac12\cdot \sqrt{\frac{5}{2}}\cdot \sqrt{\frac{5}{2}}\cdot \frac{3}{5}
+= \frac12\cdot \frac{5}{2}\cdot \frac{3}{5}
+= \frac{3}{4}
+$$
+
+よって，三角形 $ABC$ の面積は
+$$
+\boxed{\dfrac{3}{4}}
+$$
+である。
+
+---
+
+(2)  
+
+四面体 $ABCD$ の体積を求める。三角形 $ABC$ の面積は (1) より
+$$
+S_{\triangle ABC}=\frac{3}{4}
+$$
+とわかっている。
+
+$AD=BD$ なので，三角形 $ABD$ も二等辺三角形である。また
+$$
+\cos\angle ADB = \frac{4}{5}
+$$
+が与えられている。ここでも三角形 $ABD$ に余弦定理を適用すると，$AD=BD=m$ とおいて
+$$
+\cos\angle ADB
+= \frac{AD^2+BD^2-AB^2}{2\cdot AD\cdot BD}
+= \frac{m^2+m^2-1^2}{2m^2}
+= \frac{2m^2-1}{2m^2}
+$$
+である。これが $\dfrac{4}{5}$ に等しいから
+$$
+\frac{2m^2-1}{2m^2}=\frac{4}{5}
+\quad\Longrightarrow\quad
+5(2m^2-1)=8m^2
+$$
+すなわち
+$$
+10m^2-5=8m^2
+\quad\Longrightarrow\quad
+2m^2=5
+\quad\Longrightarrow\quad
+m^2=\frac{5}{2}
+$$
+よって
+$$
+AD=BD=\sqrt{\frac{5}{2}}
+$$
+となり，$AC=BC$ の場合と同じ長さになっている。
+
+次に，四面体 $ABCD$ の体積を求めるために，底面を三角形 $ABC$ とし，点 $D$ から平面 $ABC$ への垂線の長さを高さ $h$ とする。すると，体積 $V$ は
+$$
+V=\frac{1}{3}\cdot S_{\triangle ABC}\cdot h
+$$
+であるから，$h$ を求めればよい。
+
+ここで，球の中心を $O$ とする。$OA=OB=OC=OD=1$ であり，点 $A,B,C,D$ は半径 $1$ の球面上にある。
+
+条件 $AC=BC$ より，線分 $OC$ は弦 $AB$ の垂直二等分面上にある。また $AD=BD$ より，$OD$ も同じ垂直二等分面上にある。したがって，直線 $OC$ と直線 $OD$ は共に，弦 $AB$ を等分する平面上に載っている。
+
+一方，三角形 $ABC$ において $AC=BC$ であるから，$AB$ の中点から $C$ に下ろした垂線は，$AB$ の垂直二等分線でもある。これより，$C$ は $AB$ の垂直二等分線上にあり，$D$ もまた $AB$ の垂直二等分線上にある。このことから，点 $C$ と $D$ は，直線 $AB$ に関して同じ対称軸上にあることになる。
+
+ここで，ベクトルを用いて議論を整理する。座標空間で，
+$$
+\vec{OA}=\mathbf{a},\quad \vec{OB}=\mathbf{b},\quad \vec{OC}=\mathbf{c},\quad \vec{OD}=\mathbf{d}
+$$
+とおく。いずれも長さ $1$ のベクトルである。
+
+三角形 $ABC$ の面積は
+$$
+S_{\triangle ABC}
+= \frac12|\overrightarrow{AB}\times\overrightarrow{AC}|
+= \frac12|(\mathbf{b}-\mathbf{a})\times(\mathbf{c}-\mathbf{a})|
+= \frac{3}{4}
+$$
+である。
+
+四面体 $ABCD$ の体積は，3 本の辺ベクトルを用いれば
+$$
+V
+= \frac{1}{6}\left| \det(\overrightarrow{AB},\overrightarrow{AC},\overrightarrow{AD}) \right|
+= \frac{1}{6}\left| (\mathbf{b}-\mathbf{a})\cdot\left\{(\mathbf{c}-\mathbf{a})\times(\mathbf{d}-\mathbf{a})\right\}\right|
+$$
+で表されるが，これを直接計算する代わりに，底面と高さを利用する。
+
+底面の面積は
+$$
+S_{\triangle ABC}=\frac{3}{4}
+$$
+とわかっているので，高さ $h$ をベクトル的に求める。
+
+平面 $ABC$ の法線ベクトルとして
+$$
+\mathbf{n} = (\mathbf{b}-\mathbf{a})\times(\mathbf{c}-\mathbf{a})
+$$
+をとると，この平面から点 $D$ までの距離（符号付き距離）は
+$$
+\frac{|\ (\mathbf{d}-\mathbf{a})\cdot\mathbf{n}\ |}{|\mathbf{n}|}
+$$
+である。したがって高さ $h$ は
+$$
+h = \frac{|(\mathbf{d}-\mathbf{a})\cdot\mathbf{n}|}{|\mathbf{n}|}
+$$
+となり，よって体積は
+$$
+V = \frac{1}{3}\cdot S_{\triangle ABC}\cdot h
+= \frac{1}{3}\cdot \frac{1}{2}|\mathbf{n}|\cdot \frac{|(\mathbf{d}-\mathbf{a})\cdot\mathbf{n}|}{|\mathbf{n}|}
+= \frac{1}{6}\,|(\mathbf{d}-\mathbf{a})\cdot\mathbf{n}|
+$$
+である。これは前に書いたスカラー三重積の絶対値と一致している。
+
+以下，より簡単な幾何的議論で高さ $h$ を直接求める。
+
+三角形 $ABC$ の外接球の中心は $O$ であり，$OA=OB=OC=1$ である。平面 $ABC$ に対し，$O$ から下ろした垂線の足を $H$ とすると，$H$ は三角形 $ABC$ の外心である。なぜなら，$O$ から $A,B,C$ への距離が全て等しく，$OH$ は外心から外接円までの半径方向だからである。
+
+このとき，三角形 $ABC$ の外接円の半径を $R_{\mathrm{circ}}$ とすると，
+$$
+R_{\mathrm{circ}} = AH = BH = CH
+$$
+であり，さらに
+$$
+1^2 = OA^2 = OH^2 + AH^2 = OH^2 + R_{\mathrm{circ}}^2
+$$
+が成り立つ。よって
+$$
+OH^2 = 1 - R_{\mathrm{circ}}^2
+$$
+である。
+
+一方，通常の三角形 $ABC$ の外接円の半径は
+$$
+R_{\mathrm{circ}} = \frac{AB}{2\sin\angle ACB}
+$$
+で与えられる。ここで $AB=1,\ \sin\angle ACB = \dfrac{3}{5}$ であるから
+$$
+R_{\mathrm{circ}} = \frac{1}{2\cdot(3/5)} = \frac{5}{6}
+$$
+となる。したがって
+$$
+R_{\mathrm{circ}}^2 = \left(\frac{5}{6}\right)^2 = \frac{25}{36}
+$$
+より
+$$
+OH^2 = 1 - \frac{25}{36} = \frac{11}{36}
+\quad\Longrightarrow\quad
+OH = \frac{\sqrt{11}}{6}
+$$
+
+同様に，三角形 $ABD$ に対しても同じ半径 $1$ の球に内接しており，$AD=BD=\sqrt{5/2}$，$\cos\angle ADB=4/5$ なので $\sin\angle ADB=3/5$ となる。よって三角形 $ABD$ の外接円の半径も
+$$
+R_{\mathrm{circ}}=\frac{AB}{2\sin\angle ADB}
+= \frac{1}{2\cdot(3/5)} = \frac{5}{6}
+$$
+となり，その外心はやはり $O$ である。したがって平面 $ABD$ から $O$ への距離も $OH=\dfrac{\sqrt{11}}{6}$ である。
+
+重要なのは，$AC=BC$ より $C$ が $AB$ の垂直二等分線上にあり，また $AD=BD$ より $D$ も $AB$ の垂直二等分線上にあることから，
+$$
+\angle ACB = \angle ADB
+$$
+すなわち
+$$
+\angle ACB = \angle ADB
+$$
+がともに $\cos = \dfrac{4}{5}$ を持つ角であることと合わせて，
+平面 $ABC$ と平面 $ABD$ は，直線 $AB$ に関して対称な位置にあることがわかる。
+
+さらに，$O$ は三角形 $ABC$ の外心であり，同時に三角形 $ABD$ の外心でもあるから，直線 $OH$ は両平面に対して「共通の」軸として扱える。平面 $ABC$ と平面 $ABD$ は直線 $AB$ を共通に持ち，それぞれ $O$ からの距離が等しく，かつ $C$ と $D$ は $AB$ に関して対称であるから，$C$ と $D$ は平面 $ABC$ に関して鏡映の関係にある。したがって，平面 $ABC$ から $D$ への距離（すなわち高さ $h$）は，平面 $ABC$ から $O$ への距離の 2 倍の大きさになる。すなわち
+$$
+h = 2\cdot OH = 2\cdot\frac{\sqrt{11}}{6}
+= \frac{\sqrt{11}}{3}
+$$
+
+よって，四面体 $ABCD$ の体積 $V$ は
+$$
+V
+= \frac{1}{3}\cdot S_{\triangle ABC}\cdot h
+= \frac{1}{3}\cdot \frac{3}{4}\cdot \frac{\sqrt{11}}{3}
+= \frac{1}{4}\cdot \frac{\sqrt{11}}{3}
+= \frac{\sqrt{11}}{12}
+$$
+
+したがって，四面体 $ABCD$ の体積は
+$$
+\boxed{\dfrac{\sqrt{11}}{12}}
+$$
+である。

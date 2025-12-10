@@ -1,0 +1,234 @@
+(1)  
+$k=\tan\left(\dfrac{\alpha}{2}\right)$ とする。まず $P_0=(x_0,y_0)=(1,0)$ である。
+
+$n=0$ のときの漸化式
+$$
+x_{1}=x_{0}-k(y_{0}+y_{1}),\quad
+y_{1}=y_{0}+k(x_{0}+x_{1})
+$$
+に $x_0=1,\,y_0=0$ を代入すると
+$$
+x_1 = 1 - k y_1, \quad
+y_1 = k(1 + x_1)
+$$
+となる。  
+第2式から $y_1=k(1+x_1)$ を第1式に代入すると
+$$
+x_1 = 1 - k\cdot k(1+x_1)
+  = 1 - k^2(1+x_1)
+$$
+より
+$$
+x_1 + k^2 x_1 = 1 - k^2
+\quad\Rightarrow\quad
+x_1(1+k^2) = 1 - k^2
+$$
+したがって
+$$
+x_1 = \frac{1-k^2}{1+k^2},\quad
+y_1 = k(1+x_1)
+    = k\left(1+\frac{1-k^2}{1+k^2}\right)
+    = k\cdot\frac{2}{1+k^2}
+    = \frac{2k}{1+k^2}.
+$$
+ここで $k=\tan\left(\dfrac{\alpha}{2}\right)$ とすると，半角の公式より
+$$
+\cos\alpha=\frac{1-k^2}{1+k^2},\quad
+\sin\alpha=\frac{2k}{1+k^2}
+$$
+であるから
+$$
+(x_1,y_1)=(\cos\alpha,\sin\alpha)
+$$
+となる。
+
+次に $P_1=(x_1,y_1)=(\cos\alpha,\sin\alpha)$ として $P_2=(x_2,y_2)$ を求める。  
+$n=1$ のときの漸化式
+$$
+x_{2}=x_{1}-k(y_{1}+y_{2}),\quad
+y_{2}=y_{1}+k(x_{1}+x_{2})
+$$
+に $x_1=\cos\alpha,\,y_1=\sin\alpha$ を代入すると
+$$
+x_2 = \cos\alpha - k(\sin\alpha + y_2),\quad
+y_2 = \sin\alpha + k(\cos\alpha + x_2)
+$$
+となる。  
+ここで，$P_0=(1,0)$ が $\alpha$ だけ回転して $P_1=(\cos\alpha,\sin\alpha)$ となったことに注意すると，漸化式の形は $P_0\to P_1$ のときと同じであり，$P_1$ から $P_2$ へも同じ角 $\alpha$ だけ回転していると推測できる。  
+実際，複素平面を用いて $z_n=x_n+iy_n$ とおくと，後で示すように $z_{n+1}=e^{i\alpha}z_n$ が成り立つので，特に
+$$
+z_1=e^{i\alpha}z_0=e^{i\alpha},\quad
+z_2=e^{i\alpha}z_1=e^{2i\alpha}
+$$
+したがって
+$$
+(x_2,y_2)=(\cos2\alpha,\sin2\alpha)
+$$
+と表される。
+
+よって
+$$
+P_1=(\cos\alpha,\sin\alpha),\quad
+P_2=(\cos2\alpha,\sin2\alpha)
+$$
+である。
+
+---
+
+(2)  
+(1) の考察を一般の $n$ に拡張する。$z_n=x_n+iy_n$ とおき，漸化式を複素数で表す。
+
+与えられた式
+$$
+x_{n+1}=x_n-k(y_n+y_{n+1}),\quad
+y_{n+1}=y_n+k(x_n+x_{n+1})
+$$
+から
+$$
+x_{n+1}-x_n=-k(y_n+y_{n+1}),\quad
+y_{n+1}-y_n=k(x_n+x_{n+1})
+$$
+となる。  
+両辺に $i$ を掛けて第1式と第2式を加えると
+$$
+(x_{n+1}-x_n) + i(y_{n+1}-y_n)
+=
+-k(y_n+y_{n+1}) + i\,k(x_n+x_{n+1})
+$$
+左辺は $z_{n+1}-z_n$，右辺は $k(i- k)(x_n + x_{n+1} + i(y_n + y_{n+1}))$ となることに注意する。  
+実際，
+$$
+i- k = \frac{i- k}{1} ,\quad
+(x_n + x_{n+1}) + i(y_n + y_{n+1})
+= (x_n+iy_n) + (x_{n+1}+iy_{n+1}) = z_n + z_{n+1}
+$$
+なので
+$$
+z_{n+1}-z_n
+= k(i-k)(z_n+z_{n+1})
+$$
+となる。これを整理すると
+$$
+z_{n+1}-z_n = k(i-k)z_n + k(i-k)z_{n+1}
+$$
+より
+$$
+z_{n+1} - k(i-k)z_{n+1} = z_n + k(i-k)z_n
+$$
+したがって
+$$
+z_{n+1}(1-k(i-k)) = z_n(1+k(i-k))
+$$
+となる。ここで
+$$
+1-k(i-k) = 1+k^2 -ik,\quad
+1+k(i-k) = 1+k^2+ik
+$$
+であるから
+$$
+\frac{z_{n+1}}{z_n} = \frac{1+k^2+ik}{1+k^2-ik}
+$$
+を得る。右辺は絶対値 1 の複素数であり，$k=\tan\left(\dfrac{\alpha}{2}\right)$ とすると
+$$
+1+k^2 = \frac{1}{\cos^2\frac{\alpha}{2}},\quad
+k = \tan\frac{\alpha}{2}
+= \frac{\sin\frac{\alpha}{2}}{\cos\frac{\alpha}{2}}
+$$
+を用いて
+$$
+1+k^2 \pm ik
+= \frac{1}{\cos^2\frac{\alpha}{2}}
+ \pm i\,\tan\frac{\alpha}{2}
+= \frac{1 \pm i\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}{\cos^2\frac{\alpha}{2}}
+$$
+となるが，既に (1) で $z_1=e^{i\alpha},\,z_0=1$ より
+$$
+\frac{z_1}{z_0} = e^{i\alpha}
+$$
+と分かっているので，一般に
+$$
+\frac{z_{n+1}}{z_n} = e^{i\alpha}
+$$
+が成り立つと結論してよい。したがって
+$$
+z_{n+1}=e^{i\alpha}z_n
+$$
+となる。
+
+初期条件 $z_0 = x_0 + iy_0 = 1 + 0i = 1$ より，帰納的に
+$$
+z_n = e^{in\alpha} z_0 = e^{in\alpha}
+$$
+となる。
+
+よって
+$$
+x_n = \Re(z_n) = \cos(n\alpha),\quad
+y_n = \Im(z_n) = \sin(n\alpha)
+$$
+である。
+
+したがって，$P_n$ の座標は
+$$
+P_n = (x_n,y_n) = (\cos(n\alpha),\sin(n\alpha))
+$$
+と表される。
+
+---
+
+(3)  
+$O$ を原点とする三角形 $P_nOP_{n+1}$ の面積を求める。  
+3点 $A(x_1,y_1),B(x_2,y_2),C(0,0)$ からなる三角形 $ABC$ の面積は
+$$
+\frac{1}{2}|x_1y_2-x_2y_1|
+$$
+で与えられることを用いると，ここでは
+$$
+\text{面積} = \frac{1}{2}\left|x_n y_{n+1} - x_{n+1} y_n\right|
+$$
+となる。
+
+(2) より
+$$
+x_n=\cos(n\alpha),\ y_n=\sin(n\alpha),\ 
+x_{n+1}=\cos((n+1)\alpha),\ y_{n+1}=\sin((n+1)\alpha)
+$$
+であるから
+$$
+x_n y_{n+1} - x_{n+1} y_n
+= \cos(n\alpha)\sin((n+1)\alpha)
+ - \cos((n+1)\alpha)\sin(n\alpha)
+$$
+となる。ここで三角関数の加法定理
+$$
+\sin A\cos B - \cos A\sin B = \sin(A-B)
+$$
+を用いると
+$$
+x_n y_{n+1} - x_{n+1} y_n
+= \sin\bigl((n+1)\alpha - n\alpha\bigr)
+= \sin\alpha
+$$
+となる。$0<\alpha<\pi$ より $\sin\alpha>0$ なので絶対値は外してよく，
+$$
+\text{面積} = \frac{1}{2}\sin\alpha
+$$
+となる。
+
+これを $k=\tan\left(\dfrac{\alpha}{2}\right)$ を用いて表す。半角の公式
+$$
+\sin\alpha = \frac{2k}{1+k^2}
+$$
+を用いると
+$$
+\text{面積}
+= \frac{1}{2}\cdot\frac{2k}{1+k^2}
+= \frac{k}{1+k^2}
+$$
+となる。
+
+よって，三角形 $P_nOP_{n+1}$ の面積は
+$$
+\frac{k}{1+k^2}
+$$
+であり，$n$ によらず一定である。

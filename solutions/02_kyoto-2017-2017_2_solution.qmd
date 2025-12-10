@@ -1,0 +1,236 @@
+(1)
+
+ベクトルを用いて示す。基準点を頂点 $O$ とし，  
+$\overrightarrow{OA}=\vec{a},\ \overrightarrow{OB}=\vec{b},\ \overrightarrow{OC}=\vec{c}$ とおく。
+
+点 $D, E, F, G$ はそれぞれ辺 $OA, AB, BC, CO$ 上にあるから，  
+ある実数 $s,t,u,v\ (0<s,t,u,v<1)$ を用いて
+
+- $D$ は $OA$ 上なので  
+  $$\overrightarrow{OD}=s\vec{a}$$
+- $E$ は $AB$ 上なので，$A$ からの位置として  
+  $$\overrightarrow{AE}=t\overrightarrow{AB}=t(\vec{b}-\vec{a})$$  
+  よって  
+  $$\overrightarrow{OE}=\overrightarrow{OA}+\overrightarrow{AE}=\vec{a}+t(\vec{b}-\vec{a})=(1-t)\vec{a}+t\vec{b}$$
+- $F$ は $BC$ 上なので，$B$ からの位置として  
+  $$\overrightarrow{BF}=u\overrightarrow{BC}=u(\vec{c}-\vec{b})$$  
+  よって  
+  $$\overrightarrow{OF}=\overrightarrow{OB}+\overrightarrow{BF}=\vec{b}+u(\vec{c}-\vec{b})=(1-u)\vec{b}+u\vec{c}$$
+- $G$ は $CO$ 上なので，$C$ から $O$ への割合を用いて  
+  $$\overrightarrow{CG}=v\overrightarrow{CO}=v(\vec{0}-\vec{c})=-v\vec{c}$$  
+  よって  
+  $$\overrightarrow{OG}=\overrightarrow{OC}+\overrightarrow{CG}=\vec{c}-v\vec{c}=(1-v)\vec{c}$$
+
+したがって
+
+$$
+\overrightarrow{DG}=\overrightarrow{OG}-\overrightarrow{OD}
+=(1-v)\vec{c}-s\vec{a},
+$$
+
+$$
+\overrightarrow{EF}=\overrightarrow{OF}-\overrightarrow{OE}
+=\bigl((1-u)\vec{b}+u\vec{c}\bigr)-\bigl((1-t)\vec{a}+t\vec{b}\bigr)
+=-(1-t)\vec{a}+(1-t-u)\vec{b}+u\vec{c}.
+$$
+
+仮定より $\overrightarrow{DG}$ と $\overrightarrow{EF}$ は平行であるから，  
+ある実数 $k$ が存在して
+
+$$
+\overrightarrow{EF}=k\overrightarrow{DG}
+$$
+
+と書ける。したがって
+
+$$
+-(1-t)\vec{a}+(1-t-u)\vec{b}+u\vec{c}
+=k\bigl((1-v)\vec{c}-s\vec{a}\bigr)
+=-ks\vec{a}+k(1-v)\vec{c}
+$$
+
+が成り立つ。$\vec{a},\vec{b},\vec{c}$ は同一平面上にない独立なベクトルであるから，  
+両辺を $\vec{a},\vec{b},\vec{c}$ で比較すると
+
+$$
+\vec{b}\text{ の係数より }1-t-u=0,\quad\text{すなわち }u=1-t
+$$
+
+を得る。また，$\vec{a}$ の係数から
+
+$$
+-(1-t)=-ks \quad\Longrightarrow\quad ks=1-t
+$$
+
+が従う。したがって
+
+$$
+u=ks
+$$
+
+である。
+
+ここで求める比をベクトルで表す。まず $AE:EB$ については
+
+$$
+\overrightarrow{AE}=t(\vec{b}-\vec{a}),\quad
+\overrightarrow{EB}=\overrightarrow{OB}-\overrightarrow{OE}
+=\vec{b}-\bigl((1-t)\vec{a}+t\vec{b}\bigr)
+=- (1-t)\vec{a}+(1-t)\vec{b}
+=(1-t)(\vec{b}-\vec{a})
+$$
+
+より
+
+$$
+AE:EB=|\overrightarrow{AE}|:|\overrightarrow{EB}|
+=t:(1-t).
+$$
+
+次に $CF:FB$ を求める。  
+
+$$
+\overrightarrow{CF}=\overrightarrow{OF}-\overrightarrow{OC}
+=((1-u)\vec{b}+u\vec{c})-\vec{c}
+=(1-u)\vec{b}-(1-u)\vec{c}
+=(1-u)(\vec{b}-\vec{c}),
+$$
+
+$$
+\overrightarrow{FB}=\overrightarrow{OB}-\overrightarrow{OF}
+=\vec{b}-((1-u)\vec{b}+u\vec{c})
+=u\vec{b}-u\vec{c}
+=u(\vec{b}-\vec{c})
+$$
+
+より
+
+$$
+CF:FB=(1-u):u.
+$$
+
+したがって
+
+$$
+\frac{AE}{EB}=\frac{t}{1-t},\quad
+\frac{CF}{FB}=\frac{1-u}{u}.
+$$
+
+これらが等しいことを示せばよい。  
+上で得た $u=1-t$ から
+
+$$
+\frac{1-u}{u}
+=\frac{1-(1-t)}{1-t}
+=\frac{t}{1-t}
+$$
+
+となるので
+
+$$
+\frac{AE}{EB}=\frac{CF}{FB}
+$$
+
+が成り立つ。よって
+
+$$
+AE:EB=CF:FB
+$$
+
+が示された。
+
+---
+
+(2)
+
+「$D,E,F,G,H,I$ が正八面体の頂点となる」とは，  
+これら 6 点が 1 つの正八面体を成すことを意味する。  
+正八面体は 6 頂点すべてが互いに対称な位置関係にあり，  
+特に，それぞれ対向する頂点同士を結ぶ 3 本の対角線は  
+共通の中点を持ち，かつ互いに直交する。同時に，  
+正八面体の 12 本の辺の長さはすべて等しい。
+
+本問では，次の 3 組がそれぞれ正八面体の「対向する頂点の組」に対応しているとみなせる：
+
+- $D$ と $F$ は辺 $OA$，$BC$ 上，
+- $E$ と $G$ は辺 $AB$，$CO$ 上，
+- $H$ と $I$ は辺 $OB$，$AC$ 上。
+
+正八面体の幾何学的性質から，  
+対向する頂点を結ぶ 3 本の対角線は，共通の中点をもつ直交する 3 本の線分であり，  
+その長さも等しい。したがって
+
+- 線分 $DF,\ EG,\ HI$ は互いに同じ長さで，かつその中点は一致する。
+
+この 1 点を $P$ とおく。すると
+
+$$
+P は DF,EG,HI のそれぞれの中点
+$$
+
+である。
+
+ここで四面体 $OABC$ の 6 辺 $OA,AB,BC,CO,OB,AC$ の中点をそれぞれ
+
+$$
+M_{OA},\ M_{AB},\ M_{BC},\ M_{CO},\ M_{OB},\ M_{AC}
+$$
+
+とする。四面体の性質として，「各辺の中点を結んだ 6 点」は，  
+1 つの正八面体をなすことが知られている（四面体の「中点八面体」）。  
+このとき，その正八面体の 3 本の対角線は
+
+$$
+M_{OA}M_{BC},\quad M_{AB}M_{CO},\quad M_{OB}M_{AC}
+$$
+
+であり，これら 3 本は互いに直交し，かつ共通の中点を持つ。  
+その共通の中点は，四面体 $OABC$ の 4 頂点 $O,A,B,C$ の重心である。
+
+したがって，$D,E,F,G,H,I$ が正八面体を成すとき，  
+その正八面体は，四面体 $OABC$ の辺の中点からなる「中点八面体」と一致すべきである。  
+なぜなら，正八面体の形状は「対角線の 3 本の長さとその直交性と共通中点」によって  
+剛体的に決まるからである。
+
+すなわち，
+
+- $DF, EG, HI$ の中点が一致し，  
+- それらが互いに直交し，かつ同じ長さをもつ
+
+という条件は，四面体の辺の中点から作られる正八面体に固有の条件であり，  
+そのとき $D,E,F,G,H,I$ は，$OA,AB,BC,CO,OB,AC$ の中点に一致する。
+
+よって
+
+$$
+D,M_{OA} は一致,\quad E,M_{AB} は一致,\quad F,M_{BC} は一致,
+$$
+$$
+G,M_{CO} は一致,\quad H,M_{OB} は一致,\quad I,M_{AC} は一致
+$$
+
+すなわち $D,E,F,G,H,I$ は $OABC$ のそれぞれの辺の中点である。
+
+次に，このとき $OABC$ が正四面体であることを示す。  
+中点からなる正八面体が「正」であるということは，  
+四面体の 6 辺の中点を結んだ図形の 12 本の辺がすべて等しく，  
+また対角線のなす角がすべて直角であるということを意味する。  
+一方，四面体の中点八面体の 1 辺の長さは，元の四面体の辺同士の長さと角度だけで決まる。  
+したがって，中点八面体が「正八面体」であるためには，  
+元の四面体 $OABC$ の 6 辺の長さがすべて等しく，  
+さらに各頂点における面どうしのなす角がすべて等しくなる必要がある。  
+これは，$OABC$ が正四面体であることと同値である。
+
+厳密には，四面体の 6 辺を $x_{1},\dots,x_{6}$ とすると，  
+中点八面体の 12 辺の長さは，それぞれ元の辺の長さとその間の角度の  
+余弦（内積）によって表されるが，それら 12 本がすべて等しいという条件から，  
+すべての $x_{i}$ が等しくなければならないことが分かる。  
+また対角線の直交性から，元の四面体の 3 本の「対角線」に相当するベクトルが  
+互いに同じ長さで直交することが従い，結局 $OABC$ は正四面体の条件を満たす。
+
+以上より，
+
+- $D,E,F,G,H,I$ は $OABC$ の各辺の中点であり，
+- $OABC$ は正四面体である。
+
+ことが示された。

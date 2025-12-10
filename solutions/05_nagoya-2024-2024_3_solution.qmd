@@ -1,0 +1,314 @@
+(1)  
+まずベクトル$\overrightarrow{AB}, \overrightarrow{AC}$を求める。  
+$A(3,1,3), B(4,2,2), C(4,0,1)$より
+$$
+\overrightarrow{AB}
+= (4-3,\,2-1,\,2-3)
+= (1,\,1,\,-1),
+$$
+$$
+\overrightarrow{AC}
+= (4-3,\,0-1,\,1-3)
+= (1,\,-1,\,-2).
+$$
+
+内積の定義（成分ごとの積の和）から
+$$
+\overrightarrow{AB}\cdot\overrightarrow{AB}
+= 1^2+1^2+(-1)^2
+= 3,
+$$
+$$
+\overrightarrow{AC}\cdot\overrightarrow{AC}
+= 1^2+(-1)^2+(-2)^2
+= 6,
+$$
+$$
+\overrightarrow{AB}\cdot\overrightarrow{AC}
+= 1\cdot1+1\cdot(-1)+(-1)\cdot(-2)
+= 2.
+$$
+
+したがって
+$$
+\overrightarrow{AB}\cdot\overrightarrow{AB}=3,\quad
+\overrightarrow{AC}\cdot\overrightarrow{AC}=6,\quad
+\overrightarrow{AB}\cdot\overrightarrow{AC}=2.
+$$
+
+---
+
+(2)  
+平面$H$は点$A$を通び，方向ベクトルとして$\overrightarrow{AB},\overrightarrow{AC}$をもつ。  
+$OQ$が$H$に垂直であるから，$\overrightarrow{AQ}$は平面$H$に直交するベクトルと，$H$内のベクトルとの和として表せる。
+
+そこで，$\overrightarrow{AQ}$を
+$$
+\overrightarrow{AQ}
+= u\,\overrightarrow{AB} + v\,\overrightarrow{AC} + \lambda\,\boldsymbol{n}
+$$
+とおきたいが，ここで$\boldsymbol{n}$を$\overrightarrow{AB},\overrightarrow{AC}$に垂直なベクトルとして選べば，$Q$が$H$上にあること（$\overrightarrow{AQ}$が$H$内のベクトルの一次結合で表せること）から，実際には$\lambda=0$となる。  
+したがって，最初から
+$$
+\overrightarrow{AQ}=x\,\overrightarrow{AB}+y\,\overrightarrow{AC}
+$$
+とおいてよい。
+
+$OQ\perp H$であることは，$OQ$が平面$H$内の任意のベクトルに垂直であることと同値である。$H$内の基底として$\overrightarrow{AB},\overrightarrow{AC}$を用いれば，
+$$
+\overrightarrow{OQ}\cdot\overrightarrow{AB}=0,\quad
+\overrightarrow{OQ}\cdot\overrightarrow{AC}=0
+$$
+が成り立つ。ただし
+$$
+\overrightarrow{OQ}
+= \overrightarrow{OA}+\overrightarrow{AQ}
+= \overrightarrow{OA}+x\overrightarrow{AB}+y\overrightarrow{AC}
+$$
+である。
+
+$A(3,1,3)$より
+$$
+\overrightarrow{OA}=(3,1,3).
+$$
+(1)の結果を用いて内積条件を書き下す。
+
+まず$\overrightarrow{OQ}\cdot\overrightarrow{AB}=0$より
+$$
+(\overrightarrow{OA}+x\overrightarrow{AB}+y\overrightarrow{AC})\cdot\overrightarrow{AB}=0
+$$
+すなわち
+$$
+\overrightarrow{OA}\cdot\overrightarrow{AB}
++ x(\overrightarrow{AB}\cdot\overrightarrow{AB})
++ y(\overrightarrow{AC}\cdot\overrightarrow{AB})=0.
+$$
+数値を代入する：
+$$
+\overrightarrow{OA}\cdot\overrightarrow{AB}
+= (3,1,3)\cdot(1,1,-1)
+= 3+1-3=1,
+$$
+$$
+\overrightarrow{AB}\cdot\overrightarrow{AB}=3,\quad
+\overrightarrow{AC}\cdot\overrightarrow{AB}
+= \overrightarrow{AB}\cdot\overrightarrow{AC}=2.
+$$
+よって
+$$
+1+3x+2y=0 \quad\cdots(1)
+$$
+を得る。
+
+同様に$\overrightarrow{OQ}\cdot\overrightarrow{AC}=0$より
+$$
+(\overrightarrow{OA}+x\overrightarrow{AB}+y\overrightarrow{AC})\cdot\overrightarrow{AC}=0,
+$$
+すなわち
+$$
+\overrightarrow{OA}\cdot\overrightarrow{AC}
++ x(\overrightarrow{AB}\cdot\overrightarrow{AC})
++ y(\overrightarrow{AC}\cdot\overrightarrow{AC})=0.
+$$
+計算すると
+$$
+\overrightarrow{OA}\cdot\overrightarrow{AC}
+= (3,1,3)\cdot(1,-1,-2)
+= 3-1-6=-4,
+$$
+$$
+\overrightarrow{AB}\cdot\overrightarrow{AC}=2,\quad
+\overrightarrow{AC}\cdot\overrightarrow{AC}=6.
+$$
+したがって
+$$
+-4+2x+6y=0 \quad\cdots(2)
+$$
+となる。
+
+連立方程式(1),(2)を解く：
+$$
+\begin{cases}
+3x+2y=-1\\
+2x+6y=4
+\end{cases}
+$$
+(第1式に2，第2式に3をかけて引くと)
+$$
+\begin{cases}
+6x+4y=-2\\
+6x+18y=12
+\end{cases}
+$$
+より
+$$
+14y=14\ \Rightarrow\ y=1.
+$$
+これを$3x+2y=-1$に代入して
+$$
+3x+2=-1 \Rightarrow 3x=-3 \Rightarrow x=-1.
+$$
+
+よって
+$$
+\overrightarrow{AQ}=-\overrightarrow{AB}+\overrightarrow{AC}
+$$
+である。
+
+---
+
+(3)  
+$P$は
+$$
+\overrightarrow{AP}=s\overrightarrow{AB}+t\overrightarrow{AC}
+\quad(s,t\ge0)
+$$
+を満たす点とする。$Q$は(2)より
+$$
+\overrightarrow{AQ}
+= -\overrightarrow{AB}+\overrightarrow{AC}
+$$
+を満たす。
+
+線分$QP$上の点$R$で，$\overrightarrow{AR}=r\overrightarrow{AC}$（$r\ge0$）を満たすものが存在することを示す。  
+線分$QP$上の点$R$は，ある$u$（$0\le u\le1$）を用いて
+$$
+\overrightarrow{QR}=u\,\overrightarrow{QP}
+$$
+と表される。これは
+$$
+\overrightarrow{OR}=\overrightarrow{OQ}+\overrightarrow{QR}
+=\overrightarrow{OQ}+u(\overrightarrow{OP}-\overrightarrow{OQ})
+=(1-u)\overrightarrow{OQ}+u\overrightarrow{OP}
+$$
+と同値であるが，$A$を基準にして考える方が簡単なので，  
+$$
+\overrightarrow{AR}=(1-u)\overrightarrow{AQ}+u\overrightarrow{AP}
+\quad(0\le u\le1)
+$$
+と書けることを用いる（$A$から見て$Q$と$P$を内分する点）。
+
+ここで$\overrightarrow{AQ},\overrightarrow{AP}$を$\overrightarrow{AB},\overrightarrow{AC}$で表す：
+$$
+\overrightarrow{AQ}=-\overrightarrow{AB}+\overrightarrow{AC},\quad
+\overrightarrow{AP}=s\overrightarrow{AB}+t\overrightarrow{AC}.
+$$
+よって
+$$
+\overrightarrow{AR}
+=(1-u)(-\overrightarrow{AB}+\overrightarrow{AC})
++u(s\overrightarrow{AB}+t\overrightarrow{AC})
+$$
+$$
+=\bigl(-(1-u)+us\bigr)\overrightarrow{AB}
++\bigl((1-u)+ut\bigr)\overrightarrow{AC}.
+$$
+
+これが$\overrightarrow{AR}=r\overrightarrow{AC}$（$r\ge0$）となるには，$\overrightarrow{AB}$成分が0であればよいので
+$$
+-(1-u)+us=0
+$$
+が必要十分である。これを$u$について解く：
+$$
+-us+1-u=0
+\quad\Leftrightarrow\quad
+u(s+1)=1
+\quad\Rightarrow\quad
+u=\frac1{s+1}.
+$$
+$s\ge0$より$s+1>0$であるから
+$$
+0<\frac1{s+1}\le1
+$$
+が成り立ち，したがって$u$は線分を内分する範囲$[0,1]$に入る。
+
+このときの$\overrightarrow{AR}$を求めると
+$$
+\overrightarrow{AR}
+=\bigl((1-u)+ut\bigr)\overrightarrow{AC}
+$$
+であり，$u=\dfrac1{s+1}$を代入して
+$$
+(1-u)+ut
+=1-\frac1{s+1}+\frac{t}{s+1}
+=\frac{s}{s+1}+\frac{t}{s+1}
+=\frac{s+t}{s+1}.
+$$
+したがって
+$$
+\overrightarrow{AR}
+=\frac{s+t}{s+1}\,\overrightarrow{AC}.
+$$
+ここで$s,t\ge0$より$s+t\ge0$，かつ$s+1>0$なので
+$$
+r:=\frac{s+t}{s+1}\ge0
+$$
+である。よって
+$$
+\overrightarrow{AR}=r\overrightarrow{AC}
+\quad(r\ge0)
+$$
+を満たす$R$が線分$QP$上に存在することが示された。
+
+---
+
+(4)  
+原点$O$からの距離が最小となる$P$を，領域$K$の点の中から求める。  
+(3)より，任意の$P\in K$（$P\ne Q$のとき）に対して，線分$QP$上に
+$$
+\overrightarrow{AR}=r\overrightarrow{AC}\quad(r\ge0)
+$$
+を満たす点$R$が存在する。ここで$Q$は原点に最も近い平面$H$上の点であるから，$H$上の任意の点$X$について
+$$
+|OX|\ge|OQ|
+$$
+が成り立つ（$Q$は$H$への垂線の足なので，$OQ$が$O$から$H$への最短距離になるという事実を用いた）。
+
+線分$QP$上の点$R$も平面$H$上の点であるから
+$$
+|OR|\ge|OQ|
+$$
+が成り立つ。さらに，$R$は$QP$上にあり$Q$と$P$の間の点なので，三角不等式や線分の長さの単調性から
+$$
+|OP|\ge|OR|
+$$
+が成り立つ。したがって
+$$
+|OP|\ge|OR|\ge|OQ|
+$$
+となり，任意の$P\in K$について
+$$
+|OP|\ge|OQ|
+$$
+が従う。ゆえに，領域$K$においても原点からの距離が最小となる点は$Q$であるとわかる。  
+よって求める点$S$は$Q$である。
+
+以下，$Q$の座標を具体的に求める。  
+(2)で求めた
+$$
+\overrightarrow{AQ}=-\overrightarrow{AB}+\overrightarrow{AC}
+$$
+を用いると
+$$
+\overrightarrow{AQ}
+=-(1,1,-1)+(1,-1,-2)
+=(0,-2,-1).
+$$
+$A(3,1,3)$より
+$$
+\overrightarrow{OQ}
+=\overrightarrow{OA}+\overrightarrow{AQ}
+=(3,1,3)+(0,-2,-1)
+=(3,-1,2).
+$$
+したがって
+$$
+Q(3,\,-1,\,2)
+$$
+である。
+
+よって，領域$K$において原点からの距離が最小となる点$S$の座標は
+$$
+S(3,\,-1,\,2)
+$$
+である。

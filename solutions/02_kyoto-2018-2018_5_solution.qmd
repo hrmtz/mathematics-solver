@@ -1,0 +1,134 @@
+(1)  
+曲線 $y=\log x$ 上の点 $A(t,\log t)$ における接線の傾きは，微分して
+$$
+\frac{dy}{dx}=\frac1x \quad\Rightarrow\quad \text{点 }A\text{ では } \frac1t
+$$
+だから，法線の傾きはその逆数に符号を変えて $-t$ である。
+
+したがって，点 $A(t,\log t)$ を通り傾き $-t$ をもつ法線の方程式は
+$$
+y-\log t = -t(x-t)
+$$
+となる。
+
+点 $B(u,v)$ はこの法線上にあり，かつ $AB=1$，$x$ 座標は $t$ より大きいので
+$$
+(u-t)^2+(v-\log t)^2=1, \quad v-\log t = -t(u-t), \quad u>t
+$$
+が成り立つ。第2式より
+$$
+v-\log t = -t(u-t)
+$$
+を第1式に代入すると
+$$
+(u-t)^2 + \{ -t(u-t)\}^2 = 1
+$$
+すなわち
+$$
+(u-t)^2 + t^2(u-t)^2 = (1+t^2)(u-t)^2 = 1
+$$
+となるから
+$$
+(u-t)^2 = \frac1{1+t^2}.
+$$
+$x$ 座標は $t$ より大きいので $u-t>0$ だから
+$$
+u-t = \frac1{\sqrt{1+t^2}}
+$$
+となり
+$$
+u(t) = t + \frac1{\sqrt{1+t^2}}
+$$
+を得る。
+
+また
+$$
+v-\log t = -t(u-t) = -\,\frac{t}{\sqrt{1+t^2}}
+$$
+より
+$$
+v(t) = \log t - \frac{t}{\sqrt{1+t^2}}
+$$
+である。
+
+次に $\dfrac{du}{dt},\dfrac{dv}{dt}$ を求める。  
+まず
+$$
+u(t) = t + (1+t^2)^{-1/2}
+$$
+だから
+$$
+\frac{du}{dt}
+= 1 + \frac{d}{dt}\bigl\{(1+t^2)^{-1/2}\bigr\}
+= 1 - \frac12(1+t^2)^{-3/2}\cdot 2t
+= 1 - \frac{t}{(1+t^2)^{3/2}}.
+$$
+
+次に
+$$
+v(t) = \log t - t(1+t^2)^{-1/2}
+$$
+なので，積の微分法を用いて
+\begin{align*}
+\frac{dv}{dt}
+&= \frac1t - \frac{d}{dt}\left\{ t(1+t^2)^{-1/2} \right\} \\
+&= \frac1t - \left[ 1\cdot(1+t^2)^{-1/2}
+      + t\cdot\Bigl(-\frac12\Bigr)(1+t^2)^{-3/2}\cdot 2t \right] \\
+&= \frac1t - (1+t^2)^{-1/2} + t^2(1+t^2)^{-3/2}.
+\end{align*}
+
+よって
+$$
+\left(\frac{du}{dt},\frac{dv}{dt}\right)
+=
+\left(
+1 - \frac{t}{(1+t^2)^{3/2}},\ 
+\frac1t - (1+t^2)^{-1/2} + t^2(1+t^2)^{-3/2}
+\right)
+$$
+である。
+
+---
+
+(2)  
+点 $A$ の座標は $(t,\log t)$ なので，$t$ を媒介変数とみると，$t$ が $r$ から $1$ まで動くときに $A$ が描く曲線の長さ $L_1(r)$ は，媒介変数表示の弧長公式
+$$
+L=\int \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2}\,dt
+$$
+より
+$$
+L_1(r)
+= \int_r^1 \sqrt{\left(\frac{d}{dt}t\right)^2 + \left(\frac{d}{dt}\log t\right)^2}\,dt
+= \int_r^1 \sqrt{1 + \frac1{t^2}}\,dt
+$$
+となる。
+
+一方，点 $B$ の座標は $(u(t),v(t))$ なので，$t$ が $r$ から $1$ まで動くときに $B$ が描く曲線の長さ $L_2(r)$ は
+$$
+L_2(r)
+= \int_r^1 \sqrt{\left(\frac{du}{dt}\right)^2 + \left(\frac{dv}{dt}\right)^2}\,dt
+$$
+である。
+
+ここで，$AB$ は常に長さ $1$ の線分であり，しかも $B$ は $A$ における法線上にある。すなわち，「曲線上の各点から一定距離だけ法線方向に平行移動して得られる曲線」であることに注意する。  
+
+一般に，滑らかな平面曲線を法線方向に一定距離 $d$ だけ平行移動して得られる曲線は，元の曲線と弧長が等しくなる（曲線の向きに直交する並進は，接線方向の長さを変えない）ので，この事実を用いると
+$$
+\forall\,t\in(0,1]\quad
+\sqrt{\left(\frac{du}{dt}\right)^2 + \left(\frac{dv}{dt}\right)^2}
+=
+\sqrt{1 + \frac1{t^2}}
+$$
+が成り立ち，したがって任意の $r\in(0,1)$ について
+$$
+L_2(r)=\int_r^1 \sqrt{\left(\frac{du}{dt}\right)^2 + \left(\frac{dv}{dt}\right)^2}\,dt
+      =\int_r^1 \sqrt{1 + \frac1{t^2}}\,dt
+      =L_1(r)
+$$
+となる。
+
+よって，$r\to+0$ としても差は常に $0$ であるから
+$$
+\lim_{r\to+0}\bigl(L_1(r)-L_2(r)\bigr)=0
+$$
+である。

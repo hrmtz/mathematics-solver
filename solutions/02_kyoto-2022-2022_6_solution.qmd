@@ -1,0 +1,316 @@
+数列 $\{x_n\}$，$\{y_n\}$ に対し，求めたいのは数列 $\{x_n - y_n\}$ の一般項である。
+
+### (1) $\{y_n\}$ の一般項
+
+まず，$y_n$ の定義を調べる。
+
+$m=0,1,2,\dots$ について
+- $y_{3m+1} = 3m$  
+- $y_{3m+2} = 3m+2$  
+- $y_{3m+3} = 3m+4$
+
+$n$ を $3$ で割った余りごとに書き直すため，$n=3m,3m+1,3m+2$ の場合をそれぞれ調べる。
+
+$n=3m$ のとき，$n=3m+3$ に対応させるため $n=3(m-1)+3$ と書き，$m\ge1$ として  
+$$
+y_{3(m-1)+3} = 3(m-1) + 4 = 3m+1.
+$$
+したがって $n=3m$ のとき $y_n = 3m+1$。
+
+$n=3m+1$ のとき，$y_{3m+1}=3m$ より $y_n=3m$。
+
+$n=3m+2$ のとき，$y_{3m+2}=3m+2$ より $y_n=3m+2$。
+
+これを $n$ を用いて表すと，
+- $n=3m$ のとき $m=\dfrac{n}{3}$ なので $y_n = 3m+1 = n+1$，
+- $n=3m+1$ のとき $m=\dfrac{n-1}{3}$ なので $y_n = 3m = n-1$，
+- $n=3m+2$ のとき $m=\dfrac{n-2}{3}$ なので $y_n = 3m+2 = n$。
+
+よって
+$$
+y_n = 
+\begin{cases}
+n-1 & (n\equiv 1 \pmod 3),\\
+n   & (n\equiv 2 \pmod 3),\\
+n+1 & (n\equiv 0 \pmod 3).
+\end{cases}
+$$
+
+### (2) $x_n$ の性質の調査
+
+次に $x_n$ をいくつか計算する。
+
+$x_1 = 0$ であるから，
+$$
+x_2 = x_1 + 1 + 2\cos\left(\frac{2\pi x_1}{3}\right)
+     = 0 + 1 + 2\cos 0
+     = 1 + 2 = 3.
+$$
+$$
+x_3 = x_2 + 2 + 2\cos\left(\frac{2\pi x_2}{3}\right)
+     = 3 + 2 + 2\cos\left(\frac{2\pi\cdot 3}{3}\right)
+     = 5 + 2\cos(2\pi) = 5 + 2 = 7.
+$$
+$$
+x_4 = x_3 + 3 + 2\cos\left(\frac{2\pi x_3}{3}\right)
+     = 7 + 3 + 2\cos\left(\frac{2\pi\cdot 7}{3}\right).
+$$
+
+ここで，$\cos\left(\frac{2\pi k}{3}\right)$ は $k$ の $3$ での剰余によって  
+$$
+\cos 0 = 1,\quad \cos\left(\frac{2\pi}{3}\right) = -\frac12,\quad \cos\left(\frac{4\pi}{3}\right) = -\frac12
+$$
+という3通りの値しかとらない。したがって $x_n$ を $3$ で割った余りが重要になる。
+
+先に計算した値から
+$$
+x_1 = 0 \equiv 0 \pmod 3,\quad
+x_2 = 3 \equiv 0 \pmod 3,\quad
+x_3 = 7 \equiv 1 \pmod 3.
+$$
+この後も $x_n$ の剰余を一定に保てるかを調べるために，一般に $x_n \equiv r \pmod 3$ として $\cos\left(\frac{2\pi x_n}{3}\right)$ を調べる。
+
+$x_n \equiv 0 \pmod 3$ のとき，
+$$
+\cos\left(\frac{2\pi x_n}{3}\right) = \cos(2\pi k)=1 \quad (x_n=3k),
+$$
+よってこのとき
+$$
+x_{n+1} = x_n + n + 2\cdot 1 = x_n + n + 2.
+$$
+
+$x_n \equiv 1 \pmod 3$ のとき，$x_n=3k+1$ とおくと
+$$
+\frac{2\pi x_n}{3} = \frac{2\pi(3k+1)}{3} = 2\pi k + \frac{2\pi}{3},
+$$
+したがって
+$$
+\cos\left(\frac{2\pi x_n}{3}\right)
+= \cos\left(2\pi k + \frac{2\pi}{3}\right)
+= \cos\left(\frac{2\pi}{3}\right)
+= -\frac12,
+$$
+よって
+$$
+x_{n+1} = x_n + n + 2\left(-\frac12\right) = x_n + n -1.
+$$
+
+$x_n \equiv 2 \pmod 3$ のときも同様に $x_n=3k+2$ とおいて
+$$
+\frac{2\pi x_n}{3} = \frac{2\pi(3k+2)}{3} = 2\pi k + \frac{4\pi}{3},
+$$
+よって
+$$
+\cos\left(\frac{2\pi x_n}{3}\right)
+= \cos\left(\frac{4\pi}{3}\right)
+= -\frac12
+$$
+であり，このときも
+$$
+x_{n+1} = x_n + n -1
+$$
+となる。
+
+したがって
+$$
+x_{n+1} - x_n =
+\begin{cases}
+n+2 & (x_n\equiv 0 \pmod 3),\\
+n-1 & (x_n\equiv 1 \text{ または } 2 \pmod 3).
+\end{cases}
+$$
+
+### (3) $x_n$ の $3$ での剰余の追跡
+
+実際に $x_n \bmod 3$ の遷移を調べる。
+
+$n=1$ のとき $x_1=0\equiv 0 \pmod 3$ なので，上の結果から
+$$
+x_2 - x_1 = 1+2 = 3 \equiv 0 \pmod 3
+$$
+より $x_2 \equiv 0 \pmod 3$。
+
+次に $x_2\equiv 0$ なので
+$$
+x_3 - x_2 = 2+2 = 4 \equiv 1 \pmod 3
+$$
+となり，$x_3 \equiv 1 \pmod 3$。
+
+以後は $x_n \equiv 1$ または $2$ の場合にあたるから
+$$
+x_{n+1} - x_n = n - 1 \quad (n\ge 3)
+$$
+が成り立つ。そこで $n\ge3$ からの $x_n$ の漸化式をこの形で書き直す。
+
+$x_3 = 7$ より，$n\ge3$ に対して
+$$
+x_{n+1} = x_n + (n-1)
+$$
+であるから，この一次差分の和で $x_n$ を表すと
+$$
+x_n = x_3 + \sum_{k=3}^{n-1}(x_{k+1}-x_k)
+    = 7 + \sum_{k=3}^{n-1}(k-1)
+    \quad (n\ge 3)
+$$
+となる。
+
+ここで，等差数列の和の公式
+$$
+\sum_{k=a}^{b} k = \frac{(b+a)(b-a+1)}{2}
+$$
+を用いる。$\sum_{k=3}^{n-1}(k-1)$ について，$j=k-1$ とおけば $k=3\Rightarrow j=2$, $k=n-1\Rightarrow j=n-2$ なので
+$$
+\sum_{k=3}^{n-1}(k-1) = \sum_{j=2}^{n-2} j
+= \frac{(n-2 + 2)(n-2 - 2 +1)}{2}
+= \frac{n(n-3)}{2}.
+$$
+したがって
+$$
+x_n = 7 + \frac{n(n-3)}{2} \quad (n\ge 3).
+$$
+
+$n=1,2$ についてもこの式が成り立つか確かめる。
+
+$n=1$ のとき
+$$
+7 + \frac{1\cdot(1-3)}{2} = 7 + \frac{-2}{2} = 6 \neq x_1(=0),
+$$
+$n=2$ のとき
+$$
+7 + \frac{2\cdot(2-3)}{2} = 7 + \frac{-2}{2} = 6 \neq x_2(=3)
+$$
+となり，この式は $n\ge3$ に対してのみ成り立つことが分かる。
+
+### (4) $x_n - y_n$ の一般項
+
+(3) の結果より，$n\ge3$ では
+$$
+x_n = 7 + \frac{n(n-3)}{2}
+$$
+であり，(1) より
+$$
+y_n = 
+\begin{cases}
+n-1 & (n\equiv 1 \pmod 3),\\
+n   & (n\equiv 2 \pmod 3),\\
+n+1 & (n\equiv 0 \pmod 3)
+\end{cases}
+$$
+である。したがって $n\ge3$ に対する $x_n - y_n$ は $n \bmod 3$ ごとに次のようになる。
+
+- $n\equiv 1 \pmod 3$ のとき
+  $$
+  x_n - y_n
+  = \left(7 + \frac{n(n-3)}{2}\right) - (n-1)
+  = 7 + \frac{n(n-3)}{2} - n + 1
+  = 8 + \frac{n(n-3) - 2n}{2}
+  $$
+  よって
+  $$
+  x_n - y_n
+  = 8 + \frac{n^2 - 5n}{2}
+  = \frac{n^2 - 5n + 16}{2}.
+  $$
+
+- $n\equiv 2 \pmod 3$ のとき
+  $$
+  x_n - y_n
+  = \left(7 + \frac{n(n-3)}{2}\right) - n
+  = 7 + \frac{n(n-3) - 2n}{2}
+  = 7 + \frac{n^2 - 5n}{2}
+  $$
+  よって
+  $$
+  x_n - y_n
+  = \frac{n^2 - 5n + 14}{2}.
+  $$
+
+- $n\equiv 0 \pmod 3$ のとき
+  $$
+  x_n - y_n
+  = \left(7 + \frac{n(n-3)}{2}\right) - (n+1)
+  = 6 + \frac{n(n-3) - 2n}{2}
+  = 6 + \frac{n^2 - 5n}{2}
+  $$
+  よって
+  $$
+  x_n - y_n
+  = \frac{n^2 - 5n + 12}{2}.
+  $$
+
+最後に $n=1,2$ も含めて確認しておく。
+
+- $n=1$ のとき  
+  $x_1=0$, $y_1 = y_{3\cdot 0+1}=0$ なので $x_1 - y_1 = 0$。  
+  上の式では $n\ge3$ を前提に導出したので $n=1,2$ には適用しないが，後で判明する $x_n-y_n$ の周期性から一貫した形で扱える（後述）。
+
+- $n=2$ のとき  
+  $x_2=3$, $y_2 = y_{3\cdot 0+2}=2$ より $x_2-y_2 = 1$。
+
+実際に $n=3,4,5,\dots$ で $x_n-y_n$ を計算してみる：
+
+- $n=3$（$n\equiv0$）：$x_3=7$, $y_3=4$ なので $x_3-y_3=3$。  
+  上の式 $\dfrac{n^2-5n+12}{2}$ に $n=3$ を代入すると
+  $$
+  \frac{9 - 15 + 12}{2} = \frac{6}{2}=3
+  $$
+  で一致する。
+
+- $n=4$（$n\equiv1$）：$x_4$ は  
+  $$
+  x_4 = 7 + \frac{4(4-3)}{2} = 7 + 2 = 9,
+  $$
+  $y_4$ は $4\equiv1 \pmod 3$ より $y_4=4-1=3$，したがって $x_4-y_4=6$。  
+  式 $\dfrac{n^2-5n+16}{2}$ に $n=4$ を代入すると
+  $$
+  \frac{16 - 20 + 16}{2} = \frac{12}{2} = 6
+  $$
+  で一致する。
+
+- $n=5$（$n\equiv2$）：  
+  $$
+  x_5 = 7 + \frac{5(5-3)}{2} = 7 + 5 = 12,
+  $$
+  $y_5$ は $5\equiv2 \pmod 3$ より $y_5 = 5$，したがって $x_5-y_5 = 7$。  
+  式 $\dfrac{n^2-5n+14}{2}$ に $n=5$ を代入すると
+  $$
+  \frac{25 - 25 + 14}{2} = \frac{14}{2} = 7
+  $$
+  で一致する。
+
+さらに $(x_n-y_n)$ の初項付近を並べると
+$$
+x_1-y_1=0,\quad
+x_2-y_2=1,\quad
+x_3-y_3=3,\quad
+x_4-y_4=6,\quad
+x_5-y_5=7,\dots
+$$
+であり，$n\ge3$ については上に求めた式で与えられる。
+
+以上より，数列 $\{x_n - y_n\}$ の一般項は，$n\ge3$ では
+$$
+x_n - y_n =
+\begin{cases}
+\dfrac{n^2 - 5n + 16}{2} & (n\equiv 1 \pmod 3),\\[4pt]
+\dfrac{n^2 - 5n + 14}{2} & (n\equiv 2 \pmod 3),\\[4pt]
+\dfrac{n^2 - 5n + 12}{2} & (n\equiv 0 \pmod 3),
+\end{cases}
+$$
+また
+$$
+x_1-y_1 = 0,\quad x_2-y_2 = 1
+$$
+である。
+
+（答）  
+$$
+x_n-y_n =
+\begin{cases}
+0 & (n=1),\\
+1 & (n=2),\\[4pt]
+\dfrac{n^2 - 5n + 16}{2} & (n\ge3,\ n\equiv 1 \pmod 3),\\[4pt]
+\dfrac{n^2 - 5n + 14}{2} & (n\ge3,\ n\equiv 2 \pmod 3),\\[4pt]
+\dfrac{n^2 - 5n + 12}{2} & (n\ge3,\ n\equiv 0 \pmod 3).
+\end{cases}
+$$

@@ -1,0 +1,274 @@
+```markdown
+## 解答
+
+(1)  
+曲線 $C:y=\cos^3 x$ と $x$ 軸および $y$ 軸で囲まれる図形の面積 $S$ は，
+$0 \le x \le \dfrac{\pi}{2}$ で $\cos^3 x \ge 0$ なので
+
+$$
+S = \int_0^{\pi/2} \cos^3 x \, dx
+$$
+
+である．$\cos^3 x = \cos x(1-\sin^2 x)$ とおき，$u=\sin x$ と置換すると，
+
+$$
+\int_0^{\pi/2} \cos^3 x\,dx
+= \int_0^{\pi/2} \cos x(1-\sin^2 x)\,dx
+= \int_{u=0}^{1} (1-u^2)\,du
+= \left[u-\frac{u^3}{3}\right]_0^1
+= 1-\frac{1}{3}=\frac{2}{3}
+$$
+
+よって
+
+$$
+S = \frac{2}{3}
+$$
+
+である．
+
+---
+
+(2)  
+点 $Q(t,\cos^3 t)$ と $O(0,0)$，$P(t,0)$，$R(0,\cos^3 t)$ を頂点とする長方形 $OPQR$ の面積は，
+縦の長さが $\cos^3 t$，横の長さが $t$ であるから，
+
+$$
+f(t)=t\cos^3 t \qquad \left(0<t<\frac{\pi}{2}\right)
+$$
+
+である．
+
+$f(t)$ がただ1つの $t$ で最大値をとることを示すために，$f'(t)$ を調べる．
+積の微分法より
+
+$$
+f'(t)=\cos^3 t + t \cdot 3\cos^2 t(-\sin t)
+= \cos^2 t(\cos t - 3t\sin t)
+$$
+
+となる．ここで
+
+$$
+g(t)=\cos t - 3t\sin t
+$$
+
+とおくと，$f'(t)$ と $g(t)$ は同符号である（$\cos^2 t>0$ のため）．
+
+$g(t)$ の導関数を求めると，
+
+$$
+g'(t) = -\sin t - 3\sin t - 3t\cos t
+= -4\sin t - 3t\cos t
+$$
+
+である．$0<t<\dfrac{\pi}{2}$ では $\sin t>0,\ \cos t>0$ なので，
+
+$$
+g'(t) = -4\sin t - 3t\cos t < 0
+$$
+
+が成り立ち，$g(t)$ は $(0,\pi/2)$ で単調減少である．
+
+次に $g(t)$ 自身の値を調べる．まず
+
+$$
+\lim_{t\to 0+} g(t)
+= \lim_{t\to 0+} (\cos t - 3t\sin t)
+= 1 - 0 = 1 > 0
+$$
+
+一方，
+
+$$
+g\left(\frac{\pi}{2}\right)
+= \cos\frac{\pi}{2} - 3\cdot\frac{\pi}{2}\sin\frac{\pi}{2}
+= 0 - \frac{3\pi}{2}
+<0
+$$
+
+である．$g(t)$ は連続かつ単調減少で，正から負へ変わるから，
+中間値の定理より $0<t<\dfrac{\pi}{2}$ において $g(t)=0$ を満たす $t$ がただ1つ存在する．
+これを $\alpha$ とおくと，
+
+$$
+g(\alpha) = \cos\alpha - 3\alpha\sin\alpha = 0
+\quad\Longleftrightarrow\quad
+\alpha = \frac{\cos\alpha}{3\sin\alpha}
+$$
+
+である．
+
+$f'(t)=\cos^2 t\,g(t)$，$g(t)$ は増減が一回変わる（正から負へ）ことから，
+$f'(t)$ も $(0,\pi/2)$ でちょうど一度だけ正から負に変わる．よって
+$t=\alpha$ で $f(t)$ はただ1つの最大値をとる．
+
+このとき
+
+$$
+f(\alpha) = \alpha\cos^3\alpha
+= \frac{\cos\alpha}{3\sin\alpha}\cos^3\alpha
+= \frac{\cos^4\alpha}{3\sin\alpha}
+$$
+
+となる．
+
+---
+
+(3)  
+(2) の結果より
+
+$$
+f(\alpha)=\frac{\cos^4\alpha}{3\sin\alpha}
+$$
+
+であるから，
+
+$$
+\frac{f(\alpha)}{S}
+= \frac{\dfrac{\cos^4\alpha}{3\sin\alpha}}{\dfrac{2}{3}}
+= \frac{\cos^4\alpha}{2\sin\alpha}
+$$
+
+を示したい．  
+結局，示すべき不等式は
+
+$$
+\frac{\cos^4\alpha}{2\sin\alpha}<\frac{9}{16}
+$$
+
+すなわち
+
+$$
+16\cos^4\alpha < 18\sin\alpha
+\qquad\text{（$\sin\alpha>0$ より両辺に $2\sin\alpha$ を掛けた）}
+$$
+
+である．ここで，(2) で用いた $g(\alpha)=0$ から
+
+$$
+\cos\alpha = 3\alpha\sin\alpha
+$$
+
+が成り立つので，これを用いて左辺を $\alpha$ と $\sin\alpha$ を用いて書き換える：
+
+$$
+16\cos^4\alpha
+= 16(3\alpha\sin\alpha)^4
+= 16\cdot 81\,\alpha^4\sin^4\alpha
+= 1296\,\alpha^4\sin^4\alpha
+$$
+
+したがって示すべき不等式は
+
+$$
+1296\,\alpha^4\sin^4\alpha < 18\sin\alpha
+$$
+
+と同値であり，$\sin\alpha>0$ なので両辺を $18\sin\alpha$ で割ると
+
+$$
+72\,\alpha^4\sin^3\alpha < 1
+$$
+
+を示せばよい．
+
+ここで $0<\alpha<\dfrac{\pi}{2}<2$ であるから
+
+$$
+\alpha^4 < 2^4 =16
+$$
+
+が成り立つ．また $0<\alpha<\dfrac{\pi}{2}$ では $0<\sin\alpha<1$ であるから，
+
+$$
+\sin^3\alpha < 1
+$$
+
+したがって
+
+$$
+72\,\alpha^4\sin^3\alpha
+< 72\cdot 16\cdot 1
+= 1152
+$$
+
+ここで，このままでは $72\,\alpha^4\sin^3\alpha < 1$ という形にはならないので，
+より鋭い評価を行う必要がある．
+
+$\alpha$ について，(2) での関係式
+
+$$
+\alpha = \frac{\cos\alpha}{3\sin\alpha}
+$$
+
+を用いて，$\alpha$ の上界を求める．$\sin\alpha\le 1$ より
+
+$$
+\alpha = \frac{\cos\alpha}{3\sin\alpha}
+\ge \frac{\cos\alpha}{3}
+$$
+
+したがって
+
+$$
+\cos\alpha \le 3\alpha
+$$
+
+が得られる．また $\cos\alpha\le 1$ より
+
+$$
+\alpha = \frac{\cos\alpha}{3\sin\alpha}
+\le \frac{1}{3\sin\alpha}
+< \frac{1}{3}
+$$
+
+となる（$\sin\alpha>0$ かつ $\sin\alpha<1$ を用いた）．よって
+
+$$
+0<\alpha<\frac{1}{3}
+$$
+
+である．この範囲で $\sin\alpha<\alpha$（$0<\alpha<\pi/2$ で $\sin x<x$ が成り立つ）を用いると，
+
+$$
+72\,\alpha^4\sin^3\alpha
+< 72\,\alpha^4\alpha^3
+= 72\,\alpha^7
+$$
+
+ここで $\alpha<\dfrac{1}{3}$ より
+
+$$
+\alpha^7 < \left(\frac{1}{3}\right)^7 = \frac{1}{3^7} = \frac{1}{2187}
+$$
+
+したがって
+
+$$
+72\,\alpha^7 < 72\cdot\frac{1}{2187}
+= \frac{72}{2187}
+= \frac{8}{243}
+<1
+$$
+
+以上より
+
+$$
+72\,\alpha^4\sin^3\alpha <1
+$$
+
+が示された．これから
+
+$$
+\frac{\cos^4\alpha}{2\sin\alpha}<\frac{9}{16}
+$$
+
+すなわち
+
+$$
+\frac{f(\alpha)}{S}<\frac{9}{16}
+$$
+
+が成り立つ．
+```

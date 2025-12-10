@@ -1,0 +1,300 @@
+(1)  
+曲線 $C$ は $y=x^3-x$ で表されるので，その導関数は  
+$$
+\frac{dy}{dx}=3x^2-1
+$$
+である。よって，$C$ 上の点 $P(\alpha,\alpha^3-\alpha)$ における接線の傾きは
+$$
+3\alpha^2-1
+$$
+であり，この接線に垂直な直線 $l$ の傾きは
+$$
+-\frac{1}{3\alpha^2-1}
+$$
+となる（$3\alpha^2-1\neq 0$ のとき）。
+
+直線 $l$ は点 $P(\alpha,\alpha^3-\alpha)$ を通るから，その方程式は  
+$$
+y-(\alpha^3-\alpha)=-\frac{1}{3\alpha^2-1}(x-\alpha)
+$$
+である。
+
+これと $C: y=x^3-x$ との交点の $x$ 座標を $x$ とおくと，連立して
+$$
+x^3-x-(\alpha^3-\alpha)=-\frac{1}{3\alpha^2-1}(x-\alpha)
+$$
+が成り立つ。両辺に $3\alpha^2-1$ をかけて整理すると
+$$
+(3\alpha^2-1)(x^3-x)+x-\alpha-(3\alpha^2-1)(\alpha^3-\alpha)=0
+$$
+となる。ここで $x=\alpha$ は明らかに解であるから，左辺を $(x-\alpha)$ で割る。
+
+$C$ 上の点 $P(\alpha,\alpha^3-\alpha)$ と $x$ 座標が $x$ の点との間の割線の傾きは  
+$$
+\frac{(x^3-x)-(\alpha^3-\alpha)}{x-\alpha}=x^2+x\alpha+\alpha^2-1
+$$
+であるから，接線との直交条件
+$$
+\bigl(x^2+x\alpha+\alpha^2-1\bigr)\cdot(3\alpha^2-1)=-1
+$$
+が上式と同値であることがわかる。よって
+$$
+(3\alpha^2-1)\bigl(x^2+\alpha x+\alpha^2-1\bigr)+1=0
+$$
+すなわち
+$$
+(3\alpha^2-1)(x^2+\alpha x+\alpha^2-1)+1=0
+$$
+であり，これは $x$ について 2 次方程式である。
+
+直線 $l$ と $C$ が 3 つの異なる点で交わるという条件は，この 2 次方程式が相異なる 2 つの実数解をもつことと同値である（1つは $x=\alpha$ に対応する点，残り 2 つがこの 2 次方程式の解であるため）。したがって，判別式 $D$ が正となる条件を調べればよい。
+
+この 2 次方程式を
+$$
+(3\alpha^2-1)x^2+\alpha(3\alpha^2-1)x+3\alpha^4-4\alpha^2+2=0
+$$
+と書き直すと，係数は
+$$
+a=3\alpha^2-1,\quad b=\alpha(3\alpha^2-1),\quad c=3\alpha^4-4\alpha^2+2
+$$
+であるから，判別式は
+$$
+D=b^2-4ac
+  =\alpha^2(3\alpha^2-1)^2-4(3\alpha^2-1)(3\alpha^4-4\alpha^2+2)
+$$
+となる。ここで $(3\alpha^2-1)$ でくくると
+$$
+D=(3\alpha^2-1)\Bigl[\alpha^2(3\alpha^2-1)-4(3\alpha^4-4\alpha^2+2)\Bigr]
+$$
+である。中括弧内を計算すると
+$$
+\alpha^2(3\alpha^2-1)-4(3\alpha^4-4\alpha^2+2)
+=3\alpha^4-\alpha^2-12\alpha^4+16\alpha^2-8
+=-9\alpha^4+15\alpha^2-8
+$$
+ゆえ，
+$$
+D=(3\alpha^2-1)(-9\alpha^4+15\alpha^2-8)
+$$
+となる。
+
+$-9\alpha^4+15\alpha^2-8$ を $\alpha^2=t$ とおいて整理すると  
+$$
+-9t^2+15t-8=-(9t^2-15t+8)
+$$
+であり，$9t^2-15t+8=0$ の判別式は  
+$$
+(-15)^2-4\cdot 9\cdot 8=225-288=-63<0
+$$
+なので，$9t^2-15t+8$ はすべての実数 $t$ に対して正である。したがって
+$$
+-9\alpha^4+15\alpha^2-8<0
+$$
+がすべての実数 $\alpha$ について成り立つ。
+
+以上より
+$$
+D>0
+\iff (3\alpha^2-1)(-9\alpha^4+15\alpha^2-8)>0
+\iff 3\alpha^2-1<0
+$$
+となるので
+$$
+3\alpha^2-1<0
+\iff \alpha^2<\frac{1}{3}
+\iff -\frac{1}{\sqrt{3}}<\alpha<\frac{1}{\sqrt{3}}
+$$
+である。
+
+なお，$3\alpha^2-1=0$（すなわち $\alpha=\pm 1/\sqrt{3}$）のときは $l$ が水平線となり，$C$ との交点は 2 個にしかならない（$x^3-x=\text{一定}$ は $x$ について単調増加な関数の水平線との交点であるため）。したがって，求める範囲は
+$$
+-\frac{1}{\sqrt{3}}<\alpha<\frac{1}{\sqrt{3}}
+$$
+である。
+
+---
+
+(2)  
+(1) で得た 2 次方程式
+$$
+(3\alpha^2-1)(x^2+\alpha x+\alpha^2-1)+1=0
+$$
+の 2 つの解を $\beta,\gamma$（$\beta<\gamma$）とすると，$C$ と $l$ の交点の $x$ 座標は $\alpha,\beta,\gamma$ の 3 つである。
+
+このとき
+$$
+(3\alpha^2-1)(\beta^2+\alpha\beta+\alpha^2-1)+1=0,
+\quad
+(3\alpha^2-1)(\gamma^2+\alpha\gamma+\alpha^2-1)+1=0
+$$
+が成り立つので
+$$
+\beta^2+\alpha\beta+\alpha^2-1=-\frac{1}{3\alpha^2-1},
+\quad
+\gamma^2+\alpha\gamma+\alpha^2-1=-\frac{1}{3\alpha^2-1}
+$$
+である。
+
+両式の左辺を等しいとおくと
+$$
+\beta^2+\alpha\beta+\alpha^2-1=\gamma^2+\alpha\gamma+\alpha^2-1
+$$
+すなわち
+$$
+\beta^2-\gamma^2+\alpha(\beta-\gamma)=0
+$$
+より
+$$
+(\beta-\gamma)(\beta+\gamma+\alpha)=0
+$$
+を得る。ここで $\beta\neq\gamma$ であるから
+$$
+\beta+\gamma+\alpha=0
+$$
+が成り立つ。
+
+求める式 $\beta^2+\beta\gamma+\gamma^2-1$ を変形する。  
+まず
+$$
+(\beta+\gamma)^2=\beta^2+2\beta\gamma+\gamma^2
+$$
+より
+$$
+\beta^2+\beta\gamma+\gamma^2
+=(\beta+\gamma)^2-\beta\gamma
+$$
+である。さらに，2 次方程式
+$$
+(3\alpha^2-1)x^2+\alpha(3\alpha^2-1)x+3\alpha^4-4\alpha^2+2=0
+$$
+の 2 解が $\beta,\gamma$ であるから，解と係数の関係より
+$$
+\beta+\gamma=-\frac{\alpha(3\alpha^2-1)}{3\alpha^2-1}=-\alpha,
+\quad
+\beta\gamma=\frac{3\alpha^4-4\alpha^2+2}{3\alpha^2-1}
+$$
+となる。したがって
+$$
+\beta^2+\beta\gamma+\gamma^2
+=(\beta+\gamma)^2-\beta\gamma
+=\alpha^2-\frac{3\alpha^4-4\alpha^2+2}{3\alpha^2-1}
+$$
+となる。これを通分してまとめると
+$$
+\beta^2+\beta\gamma+\gamma^2
+=\frac{\alpha^2(3\alpha^2-1)-(3\alpha^4-4\alpha^2+2)}{3\alpha^2-1}
+=\frac{3\alpha^4-\alpha^2-3\alpha^4+4\alpha^2-2}{3\alpha^2-1}
+=\frac{3\alpha^2-2}{3\alpha^2-1}
+$$
+である。よって
+$$
+\beta^2+\beta\gamma+\gamma^2-1
+=\frac{3\alpha^2-2}{3\alpha^2-1}-1
+=\frac{3\alpha^2-2-(3\alpha^2-1)}{3\alpha^2-1}
+=\frac{-1}{3\alpha^2-1}
+$$
+となる。
+
+(1) より $-\dfrac{1}{\sqrt{3}}<\alpha<\dfrac{1}{\sqrt{3}}$ であるから，$3\alpha^2-1<0$ であり，特に $3\alpha^2-1\neq 0$ である。したがって
+$$
+\beta^2+\beta\gamma+\gamma^2-1=-\frac{1}{3\alpha^2-1}\neq 0
+$$
+が示された。
+
+---
+
+(3)  
+(2) より
+$$
+\beta^2+\beta\gamma+\gamma^2-1=-\frac{1}{3\alpha^2-1}
+$$
+であるから
+$$
+\frac{1}{\beta^2+\beta\gamma+\gamma^2-1}=-(3\alpha^2-1)=1-3\alpha^2
+$$
+となる。よって
+$$
+u=4\alpha^3+\frac{1}{\beta^2+\beta\gamma+\gamma^2-1}
+=4\alpha^3+1-3\alpha^2
+$$
+である。したがって
+$$
+u=f(\alpha)=4\alpha^3-3\alpha^2+1
+$$
+とおける。
+
+(1) より $\alpha$ の変域は
+$$
+-\frac{1}{\sqrt{3}}<\alpha<\frac{1}{\sqrt{3}}
+$$
+であるから，この区間における $f(\alpha)$ の値の範囲を求める。
+
+$f(\alpha)$ の導関数は
+$$
+f'(\alpha)=12\alpha^2-6\alpha=6\alpha(2\alpha-1)
+$$
+である。$f'(\alpha)=0$ から $\alpha=0,\ \alpha=\dfrac{1}{2}$ を得る。  
+このうち $\alpha=\dfrac{1}{2}$ は
+$$
+\frac{1}{2}>\frac{1}{\sqrt{3}}
+$$
+より，求める区間 $(-1/\sqrt{3},\,1/\sqrt{3})$ には含まれない。したがって，この区間内の臨界点は $\alpha=0$ のみである。
+
+そこで，端に近い点と $\alpha=0$ での値を調べる。
+
+まず $\alpha=0$ のとき
+$$
+f(0)=1
+$$
+である。次に $\alpha=\pm\dfrac{1}{\sqrt{3}}$ における値を計算する（端点は含まれないが，極限値として最小値になるかどうかを調べるため）。
+
+$$
+f\Bigl(\frac{1}{\sqrt{3}}\Bigr)
+=4\Bigl(\frac{1}{\sqrt{3}}\Bigr)^3-3\Bigl(\frac{1}{\sqrt{3}}\Bigr)^2+1
+=\frac{4}{3\sqrt{3}}-1+1=\frac{4}{3\sqrt{3}},
+$$
+$$
+f\Bigl(-\frac{1}{\sqrt{3}}\Bigr)
+=4\Bigl(-\frac{1}{\sqrt{3}}\Bigr)^3-3\Bigl(-\frac{1}{\sqrt{3}}\Bigr)^2+1
+=-\frac{4}{3\sqrt{3}}-1+1=-\frac{4}{3\sqrt{3}}.
+$$
+
+次に増減を調べる。  
+$f'(\alpha)=6\alpha(2\alpha-1)$ の符号は次の通りである。
+
+- $\alpha<0$ のとき，$\alpha<0$, $2\alpha-1<0$ より $f'(\alpha)>0$，すなわち $f$ は増加。
+- $0<\alpha<\dfrac{1}{2}$ のとき，$\alpha>0$, $2\alpha-1<0$ より $f'(\alpha)<0$，すなわち $f$ は減少。
+
+したがって
+$$
+-\frac{1}{\sqrt{3}}<\alpha\le 0 \text{ で } f\text{ は増加},\quad
+0\le\alpha<\frac{1}{\sqrt{3}} \text{ で } f\text{ は減少}
+$$
+となる。このため
+$$
+f\Bigl(-\frac{1}{\sqrt{3}}\Bigr)
+< f(\alpha)\le f(0)\quad(-\tfrac{1}{\sqrt{3}}<\alpha\le 0),
+$$
+$$
+f\Bigl(\frac{1}{\sqrt{3}}\Bigr)
+< f(\alpha)\le f(0)\quad(0\le\alpha<\tfrac{1}{\sqrt{3}})
+$$
+が成り立つ。すなわち
+$$
+-\frac{4}{3\sqrt{3}}< f(\alpha)\le 1\quad(-\tfrac{1}{\sqrt{3}}<\alpha\le 0),
+$$
+$$
+\frac{4}{3\sqrt{3}}< f(\alpha)\le 1\quad(0\le\alpha<\tfrac{1}{\sqrt{3}}).
+$$
+
+ここで，$\alpha$ が負のときには $f(\alpha)$ の値が $-\dfrac{4}{3\sqrt{3}}$ から $1$ まで連続的に取りうるが，正のときには $f(\alpha)$ の値は $\dfrac{4}{3\sqrt{3}}$ から $1$ まで連続的に取りうる。両者をあわせると
+$$
+-\frac{4}{3\sqrt{3}}<u=f(\alpha)\le 1
+$$
+である。ただし，$\alpha=\pm\dfrac{1}{\sqrt{3}}$ は含まれないので，$u=-\dfrac{4}{3\sqrt{3}}$ および $u=\dfrac{4}{3\sqrt{3}}$ はとりえないが，$u=1$ は $\alpha=0$ により実現される。
+
+よって，$u$ のとりうる値の範囲は
+$$
+-\frac{4}{3\sqrt{3}}<u\le 1
+$$
+である。

@@ -1,0 +1,239 @@
+(1)  
+$\angle AOB=60^\circ, |\overrightarrow{a}|=2, |\overrightarrow{b}|=3$ より，内積の定義  
+$\overrightarrow{a}\cdot\overrightarrow{b}=|\overrightarrow{a}||\overrightarrow{b}|\cos\angle AOB$  
+を用いると，
+$$
+\overrightarrow{a}\cdot\overrightarrow{b}
+=2\cdot3\cdot\cos60^\circ
+=6\cdot\frac12=3
+$$
+となる。
+
+また，$|\overrightarrow{c}|=\sqrt6,\ \overrightarrow{b}\cdot\overrightarrow{c}=3$ が与えられている。  
+線分 $OC$ と線分 $AB$ が垂直であるから，
+$$
+\overrightarrow{OC}\perp\overline{AB}
+\quad\Longrightarrow\quad
+\overrightarrow{c}\cdot(\overrightarrow{b}-\overrightarrow{a})=0
+$$
+となる（ベクトルと線分の方向ベクトルの垂直条件を用いた）。
+
+よって
+$$
+\overrightarrow{c}\cdot\overrightarrow{b}
+-\overrightarrow{c}\cdot\overrightarrow{a}=0
+\quad\Longrightarrow\quad
+\overrightarrow{c}\cdot\overrightarrow{a}
+=\overrightarrow{c}\cdot\overrightarrow{b}=3
+$$
+となる。
+
+したがって  
+$\overrightarrow{a}\cdot\overrightarrow{b}=3,\ \overrightarrow{c}\cdot\overrightarrow{a}=3$ である。
+
+---
+
+(2)  
+点 $H$ は，点 $C$ から平面 $OAB$ に下ろした垂線の足であるから，$H$ は平面 $OAB$ 上にあり，
+$$
+\overrightarrow{OH}=x\overrightarrow{a}+y\overrightarrow{b}
+$$
+と表せる。ただし $x,y$ は実数とする。
+
+線分 $CH$ が平面 $OAB$ に垂直であるから，平面 $OAB$ 上の 2 つの独立な方向  
+$\overrightarrow{OA}=\overrightarrow{a}$，$\overrightarrow{OB}=\overrightarrow{b}$ に対して
+$$
+\overrightarrow{CH}\cdot\overrightarrow{a}=0,\quad
+\overrightarrow{CH}\cdot\overrightarrow{b}=0
+$$
+が成り立つ。ここで
+$$
+\overrightarrow{CH}=\overrightarrow{OH}-\overrightarrow{OC}
+=x\overrightarrow{a}+y\overrightarrow{b}-\overrightarrow{c}
+$$
+であるから，
+\[
+\begin{cases}
+(x\overrightarrow{a}+y\overrightarrow{b}-\overrightarrow{c})\cdot\overrightarrow{a}=0,\\
+(x\overrightarrow{a}+y\overrightarrow{b}-\overrightarrow{c})\cdot\overrightarrow{b}=0
+\end{cases}
+\]
+となる。
+
+(1) で求めた値と，$|\overrightarrow{a}|=2,|\overrightarrow{b}|=3$ より
+$$
+\overrightarrow{a}\cdot\overrightarrow{a}=|\overrightarrow{a}|^2=4,\quad
+\overrightarrow{b}\cdot\overrightarrow{b}=|\overrightarrow{b}|^2=9,\quad
+\overrightarrow{a}\cdot\overrightarrow{b}=3,\quad
+\overrightarrow{c}\cdot\overrightarrow{a}=3,\quad
+\overrightarrow{c}\cdot\overrightarrow{b}=3
+$$
+であるから，それぞれ計算すると
+\[
+\begin{cases}
+x(\overrightarrow{a}\cdot\overrightarrow{a})
+ +y(\overrightarrow{b}\cdot\overrightarrow{a})
+ -(\overrightarrow{c}\cdot\overrightarrow{a})=0,\\[2mm]
+x(\overrightarrow{a}\cdot\overrightarrow{b})
+ +y(\overrightarrow{b}\cdot\overrightarrow{b})
+ -(\overrightarrow{c}\cdot\overrightarrow{b})=0
+\end{cases}
+\]
+すなわち
+\[
+\begin{cases}
+4x+3y-3=0,\\
+3x+9y-3=0
+\end{cases}
+\]
+を得る。
+
+この連立方程式を解くと，
+1 本目より $4x+3y=3$，2 本目より $3x+9y=3$ なので，
+$$
+\text{2本目} -  \text{1本目}:\quad (3x+9y)-(4x+3y)=3-3
+$$
+より
+$$
+-x+6y=0\quad\Longrightarrow\quad x=6y
+$$
+これを $4x+3y=3$ に代入して
+$$
+4(6y)+3y=3\quad\Longrightarrow\quad 24y+3y=3
+\quad\Longrightarrow\quad 27y=3
+\quad\Longrightarrow\quad y=\frac{1}{9}
+$$
+したがって $x=6y=\dfrac{6}{9}=\dfrac{2}{3}$ となる。
+
+よって
+$$
+\overrightarrow{OH}
+=\frac{2}{3}\,\overrightarrow{a}
++\frac{1}{9}\,\overrightarrow{b}
+$$
+と表される。
+
+---
+
+(3)  
+点 $K$ は，点 $O$ から平面 $ABC$ に下ろした垂線の足であるから，$K$ は平面 $ABC$ 上にあり，
+$$
+\overrightarrow{OK}=p\overrightarrow{a}+q\overrightarrow{b}+r\overrightarrow{c}
+$$
+と表せる。ただし $p,q,r$ は実数とする。
+
+線分 $OK$ が平面 $ABC$ に垂直であるから，平面 $ABC$ 上の 2 つの独立な方向  
+$\overrightarrow{AB}=\overrightarrow{b}-\overrightarrow{a}$，$\overrightarrow{AC}=\overrightarrow{c}-\overrightarrow{a}$ に対して
+$$
+\overrightarrow{OK}\cdot(\overrightarrow{b}-\overrightarrow{a})=0,\quad
+\overrightarrow{OK}\cdot(\overrightarrow{c}-\overrightarrow{a})=0
+$$
+が成り立つ。
+
+ここで $\overrightarrow{OK}=p\overrightarrow{a}+q\overrightarrow{b}+r\overrightarrow{c}$ なので，
+\[
+\begin{cases}
+(p\overrightarrow{a}+q\overrightarrow{b}+r\overrightarrow{c})\cdot(\overrightarrow{b}-\overrightarrow{a})=0,\\
+(p\overrightarrow{a}+q\overrightarrow{b}+r\overrightarrow{c})\cdot(\overrightarrow{c}-\overrightarrow{a})=0
+\end{cases}
+\]
+となる。内積を展開し，(1) の結果などを代入すると
+
+まず 1 本目は
+\[
+\begin{aligned}
+0
+&=p(\overrightarrow{a}\cdot\overrightarrow{b}-\overrightarrow{a}\cdot\overrightarrow{a})
+ +q(\overrightarrow{b}\cdot\overrightarrow{b}-\overrightarrow{b}\cdot\overrightarrow{a})
+ +r(\overrightarrow{c}\cdot\overrightarrow{b}-\overrightarrow{c}\cdot\overrightarrow{a})\\
+&=p(3-4)+q(9-3)+r(3-3)\\
+&=-p+6q
+\end{aligned}
+\]
+したがって
+$$
+-p+6q=0\quad\Longrightarrow\quad p=6q
+$$
+
+次に 2 本目は
+\[
+\begin{aligned}
+0
+&=p(\overrightarrow{a}\cdot\overrightarrow{c}-\overrightarrow{a}\cdot\overrightarrow{a})
+ +q(\overrightarrow{b}\cdot\overrightarrow{c}-\overrightarrow{b}\cdot\overrightarrow{a})
+ +r(\overrightarrow{c}\cdot\overrightarrow{c}-\overrightarrow{c}\cdot\overrightarrow{a})\\
+&=p(3-4)+q(3-3)+r(6-3)\\
+&=-p+3r
+\end{aligned}
+\]
+より
+$$
+-p+3r=0\quad\Longrightarrow\quad p=3r
+$$
+
+したがって $6q=p=3r$ となるので，
+$$
+2q=r
+$$
+が成り立つ。ここで $q$ は 0 でもよいが，後の比を表すために，$q\neq 0$ の一般形として
+$$
+p=6q,\quad r=2q
+$$
+とおくことにする（$q=0$ の場合も同様の比が成り立つ）。
+
+よって
+$$
+\overrightarrow{OK}
+=p\overrightarrow{a}+q\overrightarrow{b}+r\overrightarrow{c}
+=6q\,\overrightarrow{a}+q\,\overrightarrow{b}+2q\,\overrightarrow{c}
+=q(6\overrightarrow{a}+\overrightarrow{b}+2\overrightarrow{c})
+$$
+となる。
+
+ここで，(2) の結果から
+$$
+\overrightarrow{OH}=\frac{2}{3}\,\overrightarrow{a}
++\frac{1}{9}\,\overrightarrow{b}
+$$
+がわかっているので，
+$$
+\overrightarrow{HK}
+=\overrightarrow{OK}-\overrightarrow{OH}
+=q(6\overrightarrow{a}+\overrightarrow{b}+2\overrightarrow{c})
+ -\left(\frac{2}{3}\,\overrightarrow{a}
+ +\frac{1}{9}\,\overrightarrow{b}\right)
+$$
+を計算する。
+
+ここで $q=\dfrac{1}{9}$ とおいても一般性を失わないので（$q\neq 0$ の任意の値について，比例するベクトルは同じ向きであるため），
+$$
+q=\frac{1}{9}
+$$
+とすると
+$$
+\overrightarrow{OK}
+=\frac{1}{9}(6\overrightarrow{a}+\overrightarrow{b}+2\overrightarrow{c})
+=\frac{2}{3}\,\overrightarrow{a}
++\frac{1}{9}\,\overrightarrow{b}
++\frac{2}{9}\,\overrightarrow{c}
+$$
+となる。したがって
+\[
+\begin{aligned}
+\overrightarrow{HK}
+&=\overrightarrow{OK}-\overrightarrow{OH}\\
+&=\left(\frac{2}{3}\,\overrightarrow{a}
++\frac{1}{9}\,\overrightarrow{b}
++\frac{2}{9}\,\overrightarrow{c}\right)
+-\left(\frac{2}{3}\,\overrightarrow{a}
++\frac{1}{9}\,\overrightarrow{b}\right)\\
+&=\frac{2}{9}\,\overrightarrow{c}
+\end{aligned}
+\]
+
+よって
+$$
+\overrightarrow{HK}=\frac{2}{9}\,\overrightarrow{c}
+$$
+となり，$\overrightarrow{HK}$ は $\overrightarrow{c}$ に比例している。すなわち  
+ベクトル $\overrightarrow{c}$ とベクトル $\overrightarrow{HK}$ は平行である。

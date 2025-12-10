@@ -1,0 +1,308 @@
+(1)  
+$x^3=1$ の虚数解を $\omega$ とする。$x^3=1$ の解は  
+$$
+1,\quad \omega,\quad \omega^2
+$$
+であり，因数分解すると  
+$$
+x^3-1=(x-1)(x^2+x+1)=0
+$$
+だから，$\omega$ と $\omega^2$ は $x^2+x+1=0$ の解である。  
+よって $\omega$ は  
+$$
+\omega^2+\omega+1=0
+$$
+を満たすので，
+$$
+\omega^2=-\omega-1
+$$
+である。
+
+一方，$\omega$ は単位円上の点で $|\omega|=1$ を満たすから，$1/\omega=\overline{\omega}$ が成り立つ（絶対値1の複素数の逆数は共役に等しいことを用いた）。  
+また $\omega^3=1$ より，
+$$
+\frac{1}{\omega}=\omega^2
+$$
+であるから，
+$$
+\omega^2=\frac{1}{\omega}=\overline{\omega}
+$$
+が示された。
+
+---
+
+(2)  
+$z_n=0$ である確率を $a_n$ とおく。  
+$n\ge 2$ に対して $z_n\neq 0$ である確率を $b_n$ とおくと，
+$$
+a_n+b_n=1
+$$
+である。
+
+遷移の様子を調べる。
+
+- $z_k=0$ のとき：  
+  次の目 $t$ が $1,2,3,4,5,6$ のいずれであっても  
+  $z_{k+1}=\omega^t\in\{1,\omega,\omega^2\}$ となり $z_{k+1}\neq 0$。  
+  よって  
+  $$
+  P(z_{k+1}=0\mid z_k=0)=0.
+  $$
+
+- $z_k\neq 0$ のとき：  
+  目 $t=1,2$ のとき $z_{k+1}=0$，  
+  目 $t=3,4,5,6$ のとき $z_{k+1}\neq 0$。  
+  よって  
+  $$
+  P(z_{k+1}=0\mid z_k\neq 0)=\frac{2}{6}=\frac13
+  $$
+  である。
+
+以上より，全確率の公式を用いて
+$$
+\begin{aligned}
+a_{n+1}
+&=P(z_{n+1}=0) \\
+&=P(z_{n+1}=0\mid z_n=0)\,a_n
+  +P(z_{n+1}=0\mid z_n\neq 0)\,b_n \\
+&=0\cdot a_n+\frac13(1-a_n) \\
+&=\frac13-\frac13 a_n
+\end{aligned}
+$$
+となる。初期条件は $z_1=0$ より $a_1=1$ である。
+
+この一次漸化式
+$$
+a_{n+1}=-\frac13 a_n+\frac13
+$$
+を解く。まず対応する斉次方程式 $a_{n+1}=-(1/3)a_n$ の解は  
+$$
+a_n=C\left(-\frac13\right)^{n-1}
+$$
+である。定数解 $a_n=A$ を仮定すると
+$$
+A=-\frac13 A+\frac13
+$$
+より
+$$
+\frac43 A=\frac13\quad\Rightarrow\quad A=\frac14
+$$
+を得る。したがって一般解は  
+$$
+a_n=\frac14+C\left(-\frac13\right)^{n-1}
+$$
+となる。初期条件 $a_1=1$ を代入すると
+$$
+1=\frac14+C\cdot 1
+\quad\Rightarrow\quad
+C=\frac34
+$$
+であるから
+$$
+a_n=\frac14+\frac34\left(-\frac13\right)^{n-1}
+\quad (n\ge 1)
+$$
+となる。
+
+よって
+$$
+P(z_n=0)=\frac14+\frac34\left(-\frac13\right)^{n-1}
+$$
+である。
+
+---
+
+(3)  
+$z_1=0$ から出発し，$z_2, z_3$ のみを考える。
+
+まず $z_1=0$ のとき，どの目が出ても
+$$
+z_2=\omega^t\in\{1,\omega,\omega^2\}
+$$
+であり，各値は $t\equiv 0,1,2\pmod 3$ に対応する目が2つずつあるので，
+$$
+P(z_2=1)=P(z_2=\omega)=P(z_2=\omega^2)=\frac{2}{6}=\frac13
+$$
+である。
+
+次に，$z_2\neq 0$ の場合の $z_3$ の遷移を，それぞれ調べる。
+
+- $z_2=1$ のとき：  
+  $$
+  \begin{array}{c|c}
+  t & z_3 \\ \hline
+  1,2 & 0 \\
+  3   & \omega\cdot 1=\omega \\
+  4   & \overline{\omega\cdot 1}=\overline{\omega}=\omega^2 \\
+  5   & 1 \\
+  6   & \overline{1}=1
+  \end{array}
+  $$
+  より
+  $$
+  P(z_3=1\mid z_2=1)=\frac{2}{6}=\frac13,\quad
+  P(z_3=\omega\mid z_2=1)=\frac16,\quad
+  P(z_3=\omega^2\mid z_2=1)=\frac16.
+  $$
+
+- $z_2=\omega$ のとき：  
+  $\omega^2=\overline{\omega}$ を用いる。
+  $$
+  \begin{array}{c|c}
+  t & z_3 \\ \hline
+  1,2 & 0 \\
+  3   & \omega\cdot\omega=\omega^2 \\
+  4   & \overline{\omega\cdot\omega}
+        =\overline{\omega^2}= \overline{\overline{\omega}}=\omega \\
+  5   & \omega \\
+  6   & \overline{\omega}=\omega^2
+  \end{array}
+  $$
+  より
+  $$
+  P(z_3=\omega\mid z_2=\omega)=\frac{2}{6}=\frac13,\quad
+  P(z_3=\omega^2\mid z_2=\omega)=\frac{2}{6}=\frac13,\quad
+  P(z_3=1\mid z_2=\omega)=0.
+  $$
+
+- $z_2=\omega^2$ のとき：  
+  $\omega^3=1$ から $\omega^2\cdot\omega=\omega^3=1$ を用いる。
+  また $\overline{\omega^2}=\overline{\overline{\omega}}=\omega$ である。
+  $$
+  \begin{array}{c|c}
+  t & z_3 \\ \hline
+  1,2 & 0 \\
+  3   & \omega\cdot\omega^2=1 \\
+  4   & \overline{\omega\cdot\omega^2}
+        =\overline{1}=1 \\
+  5   & \omega^2 \\
+  6   & \overline{\omega^2}=\omega
+  \end{array}
+  $$
+  より
+  $$
+  P(z_3=1\mid z_2=\omega^2)=\frac{2}{6}=\frac13,\quad
+  P(z_3=\omega\mid z_2=\omega^2)=\frac{1}{6},\quad
+  P(z_3=\omega^2\mid z_2=\omega^2)=\frac{1}{6}.
+  $$
+
+以上を全確率の公式でまとめる。
+
+まず $P(z_3=1)$：
+$$
+\begin{aligned}
+P(z_3=1)
+&=P(z_3=1\mid z_2=1)P(z_2=1)
+ +P(z_3=1\mid z_2=\omega)P(z_2=\omega)
+ +P(z_3=1\mid z_2=\omega^2)P(z_2=\omega^2) \\
+&=\frac13\cdot\frac13+0\cdot\frac13+\frac13\cdot\frac13 \\
+&=\frac{2}{9}.
+\end{aligned}
+$$
+
+同様に $P(z_3=\omega)$：
+$$
+\begin{aligned}
+P(z_3=\omega)
+&=P(z_3=\omega\mid z_2=1)P(z_2=1)
+ +P(z_3=\omega\mid z_2=\omega)P(z_2=\omega)
+ +P(z_3=\omega\mid z_2=\omega^2)P(z_2=\omega^2) \\
+&=\frac16\cdot\frac13+\frac13\cdot\frac13+\frac16\cdot\frac13 \\
+&=\frac{1}{18}+\frac{1}{9}+\frac{1}{18} \\
+&=\frac{4}{18}=\frac{2}{9}.
+\end{aligned}
+$$
+
+$P(z_3=\omega^2)$ も同様に
+$$
+\begin{aligned}
+P(z_3=\omega^2)
+&=P(z_3=\omega^2\mid z_2=1)P(z_2=1)
+ +P(z_3=\omega^2\mid z_2=\omega)P(z_2=\omega)
+ +P(z_3=\omega^2\mid z_2=\omega^2)P(z_2=\omega^2) \\
+&=\frac16\cdot\frac13+\frac13\cdot\frac13+\frac16\cdot\frac13 \\
+&=\frac{2}{9}.
+\end{aligned}
+$$
+
+よって
+$$
+P(z_3=1)=P(z_3=\omega)=P(z_3=\omega^2)=\frac{2}{9}
+$$
+である。
+
+---
+
+(4)  
+$n\ge 2$ のとき，$z_n\in\{0,1,\omega,\omega^2\}$ であり，$z_n=1$ である確率を $p_n$ とおく。  
+また $z_n=\omega$ である確率を $q_n$，$z_n=\omega^2$ である確率を $r_n$ とおく。  
+(2) より $P(z_n=0)=a_n$ として
+$$
+a_n+p_n+q_n+r_n=1
+$$
+である。
+
+まず，$p_n,q_n,r_n$ が対称であり，常に等しいことを示す。  
+$n=2$ に対しては (3) で
+$$
+P(z_2=1)=P(z_2=\omega)=P(z_2=\omega^2)=\frac13
+$$
+だから $p_2=q_2=r_2$ であるとわかる。
+
+$n\ge 2$ で $p_n=q_n=r_n$ と仮定して $n+1$ について確かめる。  
+$z_n\neq 0$ の場合の遷移を「輪換」と「共役」の働きとして整理する。
+
+- 目 $t=3$：$z_{n+1}=\omega z_n$ は
+  $$
+  1\to \omega,\quad \omega\to\omega^2,\quad \omega^2\to 1
+  $$
+  という巡回置換を与える。
+- 目 $t=5$：$z_{n+1}=z_n$（恒等写像）。
+- 目 $t=4$：$z_{n+1}=\overline{\omega z_n}$ は
+  $$
+  1\to \omega^2,\quad \omega\to 1,\quad \omega^2\to \omega
+  $$
+  となり，これも $1,\omega,\omega^2$ を巡回的に入れ替える。
+- 目 $t=6$：$z_{n+1}=\overline{z_n}$ は
+  $$
+  1\to 1,\quad \omega\leftrightarrow \omega^2
+  $$
+  であり依然として $1,\omega,\omega^2$ の集合内の対称な操作である。
+
+したがって $z_n\neq 0$ で $1,\omega,\omega^2$ は完全に対称に扱われており，  
+$z_1=0$ から始まる過程では，任意の $n\ge 2$ に対して
+$$
+p_n=q_n=r_n
+$$
+が帰納的に成り立つ。
+
+よって $n\ge 2$ で
+$$
+p_n=q_n=r_n=\frac{1-a_n}{3}
+$$
+と書ける。ここで (2) の結果
+$$
+a_n=\frac14+\frac34\left(-\frac13\right)^{n-1}
+$$
+を代入すると
+$$
+\begin{aligned}
+p_n
+&=\frac{1-a_n}{3}
+ =\frac{1}{3}\left(1-\frac14-\frac34\left(-\frac13\right)^{n-1}\right) \\
+&=\frac{1}{3}\left(\frac34-\frac34\left(-\frac13\right)^{n-1}\right) \\
+&=\frac{1}{4}\left(1-\left(-\frac13\right)^{n-1}\right).
+\end{aligned}
+$$
+
+$n=1$ のときは $z_1=0$ であるから $P(z_1=1)=0$ であり，上式に $n=1$ を代入すると
+$$
+\frac{1}{4}\left(1-1\right)=0
+$$
+となって一致する。
+
+したがって，すべての $n\ge 1$ について
+$$
+P(z_n=1)=\frac{1}{4}\left(1-\left(-\frac13\right)^{n-1}\right)
+$$
+である。

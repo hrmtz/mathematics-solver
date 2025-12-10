@@ -1,0 +1,287 @@
+(1)  
+$z=\cos\theta+i\sin\theta$ とおくと，虚数単位 $i$ を用いたオイラーの公式より  
+$z=e^{i\theta}$ とみなすことができる。よって，
+
+$$
+z^n=(\cos\theta+i\sin\theta)^n=e^{in\theta}=\cos n\theta+i\sin n\theta
+$$
+
+また，$|z|=1$ なので共役複素数を用いると
+
+$$
+\overline{z}=\cos\theta-i\sin\theta
+$$
+
+であり，$z\overline{z}=1$ から  
+$\displaystyle \frac{1}{z}=\overline{z}=\cos\theta-i\sin\theta$ が成り立つ。  
+同様にして
+
+$$
+\frac{1}{z^n}=\left(\frac{1}{z}\right)^n
+=(\cos\theta-i\sin\theta)^n
+=\cos n\theta-i\sin n\theta
+$$
+
+となる。
+
+ここで $z^n$ と $\dfrac{1}{z^n}$ を加えると
+
+$$
+z^n+\frac{1}{z^n}
+=(\cos n\theta+i\sin n\theta)+(\cos n\theta-i\sin n\theta)
+=2\cos n\theta
+$$
+
+したがって
+
+$$
+\cos n\theta=\frac{1}{2}\left(z^n+\frac{1}{z^n}\right)
+$$
+
+が得られる。
+
+同様に，差をとると
+
+$$
+z^n-\frac{1}{z^n}
+=(\cos n\theta+i\sin n\theta)-(\cos n\theta-i\sin n\theta)
+=2i\sin n\theta
+$$
+
+であるから
+
+$$
+\sin n\theta=\frac{1}{2i}\left(z^n-\frac{1}{z^n}\right)
+=-\frac{i}{2}\left(z^n-\frac{1}{z^n}\right)
+$$
+
+となり，示すべき式が成り立つ。
+
+---
+
+(2)  
+与えられた方程式は
+
+$$
+\cos x + \cos 2x - \cos 3x = 1
+$$
+
+である。三角関数の加法定理と倍角・三倍角の公式を用いて変形する。
+
+まず，$\cos 3x=4\cos^3 x-3\cos x$ を用いると
+
+$$
+\cos x+\cos 2x-\cos 3x
+=\cos x+\cos 2x-(4\cos^3 x-3\cos x)
+=4\cos x+\cos 2x-4\cos^3 x
+$$
+
+さらに $\cos 2x=2\cos^2 x-1$ を代入すると
+
+$$
+4\cos x+\cos 2x-4\cos^3 x
+=4\cos x+(2\cos^2 x-1)-4\cos^3 x
+=-4\cos^3 x+2\cos^2 x+4\cos x-1
+$$
+
+よって方程式は
+
+$$
+-4\cos^3 x+2\cos^2 x+4\cos x-1=1
+$$
+
+すなわち
+
+$$
+-4\cos^3 x+2\cos^2 x+4\cos x-2=0
+$$
+
+両辺を $-2$ で割ると
+
+$$
+2\cos^3 x-\cos^2 x-2\cos x+1=0
+$$
+
+ここで $t=\cos x$ とおくと
+
+$$
+2t^3-t^2-2t+1=0
+$$
+
+となる。因数分解を試みる。$t=1$ を代入すると
+
+$$
+2\cdot1^3-1^2-2\cdot1+1=2-1-2+1=0
+$$
+
+より $t=1$ は解である。したがって
+
+$$
+2t^3-t^2-2t+1=(t-1)(2t^2+t-1)
+$$
+
+となる。右辺の二次式 $2t^2+t-1$ をさらに因数分解すると
+
+$$
+2t^2+t-1=(2t-1)(t+1)
+$$
+
+であるから
+
+$$
+2t^3-t^2-2t+1=(t-1)(2t-1)(t+1)
+$$
+
+よって
+
+$$
+(t-1)(2t-1)(t+1)=0
+$$
+
+これを $\cos x$ に戻すと
+
+$$
+(\cos x-1)(2\cos x-1)(\cos x+1)=0
+$$
+
+したがって
+
+$$
+\cos x=1,\quad \cos x=\frac{1}{2},\quad \cos x=-1
+$$
+
+のいずれかである。
+
+区間 $0\leqq x<2\pi$ においてそれぞれを解くと，
+
+1. $\cos x=1$ のとき  
+   $x=0$
+
+2. $\cos x=\dfrac{1}{2}$ のとき  
+   $x=\dfrac{\pi}{3},\; \dfrac{5\pi}{3}$
+
+3. $\cos x=-1$ のとき  
+   $x=\pi$
+
+したがって，求める解は
+
+$$
+x=0,\; \frac{\pi}{3},\; \pi,\; \frac{5\pi}{3}
+$$
+
+である。
+
+---
+
+(3)  
+示すべき式は
+
+$$
+\sin^2 20^\circ + \sin^2 40^\circ + \sin^2 60^\circ + \sin^2 80^\circ =\frac{9}{4}
+$$
+
+である。まず，$\sin^2\theta=\dfrac{1-\cos 2\theta}{2}$ という公式を用いる。
+
+それぞれについて
+
+$$
+\sin^2 20^\circ=\frac{1-\cos 40^\circ}{2},\quad
+\sin^2 40^\circ=\frac{1-\cos 80^\circ}{2},
+$$
+
+$$
+\sin^2 60^\circ=\frac{1-\cos 120^\circ}{2},\quad
+\sin^2 80^\circ=\frac{1-\cos 160^\circ}{2}
+$$
+
+となるので，和は
+
+$$
+\begin{aligned}
+\sin^2 20^\circ &+ \sin^2 40^\circ + \sin^2 60^\circ + \sin^2 80^\circ\\
+&=\frac{1-\cos 40^\circ}{2}
++\frac{1-\cos 80^\circ}{2}
++\frac{1-\cos 120^\circ}{2}
++\frac{1-\cos 160^\circ}{2}\\
+&=\frac{4-(\cos 40^\circ+\cos 80^\circ+\cos 120^\circ+\cos 160^\circ)}{2}
+\end{aligned}
+$$
+
+したがって
+
+$$
+\sin^2 20^\circ + \sin^2 40^\circ + \sin^2 60^\circ + \sin^2 80^\circ
+=2-\frac{1}{2}\left(\cos 40^\circ+\cos 80^\circ+\cos 120^\circ+\cos 160^\circ\right)
+$$
+
+となる。よって，
+
+$$
+\cos 40^\circ+\cos 80^\circ+\cos 120^\circ+\cos 160^\circ=-\frac{1}{2}
+$$
+
+を示せばよい。
+
+ここで，$\cos 120^\circ=-\dfrac{1}{2}$，$\cos 160^\circ=\cos(180^\circ-20^\circ)=-\cos 20^\circ$ であるから
+
+$$
+\cos 40^\circ+\cos 80^\circ+\cos 120^\circ+\cos 160^\circ
+=\cos 40^\circ+\cos 80^\circ-\frac{1}{2}-\cos 20^\circ
+$$
+
+したがって
+
+$$
+\cos 40^\circ+\cos 80^\circ+\cos 120^\circ+\cos 160^\circ
+=-\frac{1}{2}
+$$
+
+と同値なのは
+
+$$
+\cos 40^\circ+\cos 80^\circ-\cos 20^\circ=0
+$$
+
+である。これを示す。
+
+和積の公式 $\cos A+\cos B=2\cos\frac{A+B}{2}\cos\frac{A-B}{2}$ を用いると，
+
+$$
+\cos 40^\circ+\cos 80^\circ
+=2\cos\frac{40^\circ+80^\circ}{2}\cos\frac{40^\circ-80^\circ}{2}
+=2\cos 60^\circ\cos(-20^\circ)
+$$
+
+ここで $\cos 60^\circ=\dfrac{1}{2}$，$\cos(-20^\circ)=\cos 20^\circ$ を用いると，
+
+$$
+\cos 40^\circ+\cos 80^\circ
+=2\cdot\frac{1}{2}\cdot\cos 20^\circ
+=\cos 20^\circ
+$$
+
+よって
+
+$$
+\cos 40^\circ+\cos 80^\circ-\cos 20^\circ
+=\cos 20^\circ-\cos 20^\circ=0
+$$
+
+となり，求める等式
+
+$$
+\cos 40^\circ+\cos 80^\circ+\cos 120^\circ+\cos 160^\circ=-\frac{1}{2}
+$$
+
+が証明された。
+
+したがって
+
+$$
+\sin^2 20^\circ + \sin^2 40^\circ + \sin^2 60^\circ + \sin^2 80^\circ
+=2-\frac{1}{2}\left(-\frac{1}{2}\right)
+=2+\frac{1}{4}
+=\frac{9}{4}
+$$
+
+が成り立つ。これで示すべき式が証明された。

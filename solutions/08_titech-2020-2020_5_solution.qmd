@@ -1,0 +1,350 @@
+(1)  
+部分積分を2回行う。
+
+まず  
+$$
+a_k=\int_0^1 x^{k-1}\sin\left(\frac{\pi x}{2}\right)dx
+$$
+とおく。すると  
+$$
+a_{k+2}=\int_0^1 x^{k+1}\sin\left(\frac{\pi x}{2}\right)dx
+$$
+である。
+
+1回目の部分積分として  
+$$
+u=x^{k+1},\quad dv=\sin\left(\frac{\pi x}{2}\right)dx
+$$
+とおくと，
+$$
+du=(k+1)x^{k}dx,\quad v=-\frac{2}{\pi}\cos\left(\frac{\pi x}{2}\right)
+$$
+だから
+$$
+a_{k+2}
+=\left[-\frac{2}{\pi}x^{k+1}\cos\left(\frac{\pi x}{2}\right)\right]_0^1
++\frac{2(k+1)}{\pi}\int_0^1 x^k\cos\left(\frac{\pi x}{2}\right)dx.
+$$
+
+$\cos\left(\frac{\pi}{2}\right)=0,\ \cos 0=1$ に注意すると，境界の項は  
+$$
+-\frac{2}{\pi}\cdot 1^{k+1}\cos\frac{\pi}{2}
++\frac{2}{\pi}\cdot 0^{k+1}\cos 0=0
+$$
+となる。よって
+$$
+a_{k+2}=\frac{2(k+1)}{\pi}\int_0^1 x^{k}\cos\left(\frac{\pi x}{2}\right)dx.
+$$
+
+次に  
+$$
+I_k=\int_0^1 x^{k}\cos\left(\frac{\pi x}{2}\right)dx
+$$
+とおき，これを部分積分する。  
+$$
+u=x^{k},\quad dv=\cos\left(\frac{\pi x}{2}\right)dx
+$$
+とすると，
+$$
+du=kx^{k-1}dx,\quad v=\frac{2}{\pi}\sin\left(\frac{\pi x}{2}\right)
+$$
+だから
+$$
+I_k
+=\left[\frac{2}{\pi}x^{k}\sin\left(\frac{\pi x}{2}\right)\right]_0^1
+-\frac{2k}{\pi}\int_0^1 x^{k-1}\sin\left(\frac{\pi x}{2}\right)dx.
+$$
+
+$\sin\left(\frac{\pi}{2}\right)=1,\ \sin 0=0$ より境界の項は
+$$
+\frac{2}{\pi}\cdot 1^{k}\cdot 1-\frac{2}{\pi}\cdot 0^{k}\cdot 0
+=\frac{2}{\pi}
+$$
+となるから，
+$$
+I_k=\frac{2}{\pi}-\frac{2k}{\pi}a_k.
+$$
+
+これを $a_{k+2}$ の式に代入すると
+$$
+a_{k+2}
+=\frac{2(k+1)}{\pi}I_k
+=\frac{2(k+1)}{\pi}\left(\frac{2}{\pi}-\frac{2k}{\pi}a_k\right)
+$$
+となる。したがって
+$$
+a_{k+2}=\frac{4(k+1)}{\pi^2}-\frac{4k(k+1)}{\pi^2}a_k.
+$$
+
+---
+
+(2)  
+(1) の結果を用いて漸化式を整理する。  
+(1) より
+$$
+a_{k+2}=\frac{4(k+1)}{\pi^2}-\frac{4k(k+1)}{\pi^2}a_k
+$$
+なので，両辺に $\dfrac{\pi^2}{4(k+1)}$ をかけると
+$$
+\frac{\pi^2}{4(k+1)}a_{k+2}=1-ka_k
+$$
+となる。よって
+$$
+ka_k=1-\frac{\pi^2}{4(k+1)}a_{k+2}.
+$$
+
+ここで，$0\le x\le1$ では $0\le \sin\left(\frac{\pi x}{2}\right)\le1$ なので
+$$
+0\le a_{k+2}
+=\int_0^1 x^{k+1}\sin\left(\frac{\pi x}{2}\right)dx
+\le \int_0^1 x^{k+1}dx=\frac{1}{k+2}
+$$
+である。したがって
+$$
+0\le \frac{\pi^2}{4(k+1)}a_{k+2}
+\le \frac{\pi^2}{4(k+1)}\cdot\frac{1}{k+2}
+\to0\quad(k\to\infty).
+$$
+
+このことから
+$$
+\lim_{k\to\infty}ka_k
+=\lim_{k\to\infty}\left(1-\frac{\pi^2}{4(k+1)}a_{k+2}\right)
+=1
+$$
+となる。よって求める極限値は
+$$
+A=1.
+$$
+
+---
+
+(3)  
+(2) より $ka_k\to A=1$ であるから，$a_k\sim\frac{1}{k}$ 程度の大きさである。より高次の項を調べるために，(1) の漸化式を用いて $a_k$ の漸近展開を行う。
+
+(1) の式
+$$
+a_{k+2}=\frac{4(k+1)}{\pi^2}-\frac{4k(k+1)}{\pi^2}a_k
+$$
+を $a_k$ について解くと，
+$$
+a_k=\frac{1}{k}-\frac{\pi^2}{4k(k+1)}a_{k+2}
+$$
+を得る。ここで $k\to\infty$ のとき $a_{k+2}\sim\frac{1}{k+2}\sim\frac{1}{k}$ と見なせるので，
+$$
+a_k=\frac{1}{k}-\frac{\pi^2}{4k(k+1)}\cdot\frac{1}{k+2}+o\left(\frac{1}{k^3}\right)
+$$
+と予想される。これを整えて厳密な形にする。
+
+まず
+$$
+\frac{1}{k(k+1)(k+2)}
+=\frac{1}{2}\left(\frac{1}{k(k+1)}-\frac{1}{(k+1)(k+2)}\right)
+$$
+なので，$b_k$ を
+$$
+b_k = ka_k-1
+$$
+とおくと，先ほどの関係
+$$
+ka_k=1-\frac{\pi^2}{4(k+1)}a_{k+2}
+$$
+から
+$$
+b_k=-\frac{\pi^2}{4(k+1)}a_{k+2}
+$$
+となる。ここで $a_{k+2}$ 自身についても同様に
+$$
+(k+2)a_{k+2}=1-\frac{\pi^2}{4(k+3)}a_{k+4}
+$$
+が成り立つので，
+$$
+a_{k+2}=\frac{1}{k+2}-\frac{\pi^2}{4(k+2)(k+3)}a_{k+4}
+$$
+となる。これを $b_k$ に代入すると
+$$
+b_k
+=-\frac{\pi^2}{4(k+1)}\left(\frac{1}{k+2}-\frac{\pi^2}{4(k+2)(k+3)}a_{k+4}\right)
+$$
+$$
+=-\frac{\pi^2}{4(k+1)(k+2)}
++\frac{\pi^4}{16(k+1)(k+2)(k+3)}a_{k+4}.
+$$
+
+このうち第2項は
+$$
+0\le a_{k+4}\le\frac{1}{k+4}
+$$
+より
+$$
+\left|\frac{\pi^4}{16(k+1)(k+2)(k+3)}a_{k+4}\right|
+\le \frac{\pi^4}{16}\cdot\frac{1}{(k+1)(k+2)(k+3)(k+4)}
+=O\left(\frac{1}{k^4}\right)
+$$
+だから，$k\to\infty$ で無視できるほど小さい。したがって
+$$
+b_k=-\frac{\pi^2}{4(k+1)(k+2)}+O\left(\frac{1}{k^4}\right)
+$$
+すなわち
+$$
+ka_k-1=-\frac{\pi^2}{4(k+1)(k+2)}+O\left(\frac{1}{k^4}\right)
+$$
+が得られる。
+
+ここから $a_k$ を $k$ の冪で展開してみる。  
+$$
+\frac{1}{(k+1)(k+2)}
+=\frac{1}{k^2}\cdot\frac{1}{(1+1/k)(1+2/k)}
+$$
+であり，
+$$
+\frac{1}{(1+1/k)(1+2/k)}
+=\left(1-\frac{1}{k}+O\left(\frac{1}{k^2}\right)\right)\left(1-\frac{2}{k}+O\left(\frac{1}{k^2}\right)\right)
+=1-\frac{3}{k}+O\left(\frac{1}{k^2}\right)
+$$
+から，
+$$
+\frac{1}{(k+1)(k+2)}
+=\frac{1}{k^2}-\frac{3}{k^3}+O\left(\frac{1}{k^4}\right)
+$$
+となる。よって
+$$
+ka_k-1
+=-\frac{\pi^2}{4}\left(\frac{1}{k^2}-\frac{3}{k^3}+O\left(\frac{1}{k^4}\right)\right)
++O\left(\frac{1}{k^4}\right)
+=-\frac{\pi^2}{4k^2}+\frac{3\pi^2}{4k^3}+O\left(\frac{1}{k^4}\right).
+$$
+
+両辺を $k$ で割ると
+$$
+a_k-\frac{1}{k}
+=-\frac{\pi^2}{4k^3}+\frac{3\pi^2}{4k^4}+O\left(\frac{1}{k^5}\right)
+$$
+が得られる。したがって
+$$
+a_k=\frac{1}{k}-\frac{\pi^2}{4k^3}+O\left(\frac{1}{k^4}\right)
+$$
+となる。
+
+この漸近式を用いて，$k^ma_k-k^nA$ の極限を調べる。$A=1$ なので
+$$
+k^ma_k-k^nA
+=k^m\left(\frac{1}{k}-\frac{\pi^2}{4k^3}+O\left(\frac{1}{k^4}\right)\right)-k^n
+$$
+$$
+=k^{m-1}-\frac{\pi^2}{4}k^{m-3}+O\left(k^{m-4}\right)-k^n.
+$$
+
+ここで $m>n\ge1$ で，$k\to\infty$ のとき有限な非零の極限を持つには，
+
+- まず最大次数の項 $k^{m-1}$ と $k^n$ が打ち消し合う必要があるので
+  $m-1=n$，すなわち $m=n+1$。
+- さらに残る主項 $-\dfrac{\pi^2}{4}k^{m-3}=-\dfrac{\pi^2}{4}k^{n-2}$ が有限の極限をもつには $n-2=0$，すなわち $n=2$ が必要。
+
+よって
+$$
+n=2,\quad m=3
+$$
+のときに
+$$
+k^3a_k-k^2
+=-\frac{\pi^2}{4}+O\left(\frac{1}{k}\right)
+$$
+となり，$k\to\infty$ で
+$$
+\lim_{k\to\infty}(k^3a_k-k^2)=-\frac{\pi^2}{4}
+$$
+である。したがって
+
+- 条件を満たす $(m,n)$ は $m=3,\ n=2$。
+- そのときの極限値は
+  $$
+  B=-\frac{\pi^2}{4}
+  $$
+  である。
+
+---
+
+(4)  
+(2),(3) より
+$$
+A=1,\quad B=-\frac{\pi^2}{4}
+$$
+である。再び $a_k$ の漸近式
+$$
+a_k=\frac{1}{k}-\frac{\pi^2}{4k^3}+O\left(\frac{1}{k^4}\right)
+$$
+を用いる。
+
+$k^pa_k-k^qA-k^rB$ を計算すると，
+$$
+k^pa_k-k^qA-k^rB
+=k^p\left(\frac{1}{k}-\frac{\pi^2}{4k^3}+O\left(\frac{1}{k^4}\right)\right)-k^q
++\frac{\pi^2}{4}k^r
+$$
+$$
+=k^{p-1}-\frac{\pi^2}{4}k^{p-3}+O\left(k^{p-4}\right)-k^q
++\frac{\pi^2}{4}k^r.
+$$
+
+これが $k\to\infty$ で0でない有限の極限を持つための条件を考える。
+
+1. 最高次数の項 $k^{p-1}$ と $k^q$ は打ち消し合わねばならないから
+   $$
+   p-1=q \quad\Longrightarrow\quad p=q+1.
+   $$
+2. 次に，次数 $p-3=q-2$ の項 $-\dfrac{\pi^2}{4}k^{p-3}$ と $k^r$ が釣り合って有限値を与えるには
+   $$
+   p-3=r \quad\Longrightarrow\quad r=p-3=q-2.
+   $$
+
+したがって
+$$
+p=q+1,\quad r=q-2.
+$$
+条件 $p>q>r\ge1$ を満たすには $q-2\ge1$ すなわち $q\ge3$ が必要である。  
+最小の整数解として
+$$
+q=3,\quad p=4,\quad r=1
+$$
+が得られる。
+
+このとき
+$$
+k^4a_k-k^3-\frac{\pi^2}{4}k
+=k^{4-1}-\frac{\pi^2}{4}k^{4-3}+O\left(k^{4-4}\right)-k^3
++\frac{\pi^2}{4}k
+$$
+$$
+= k^3-\frac{\pi^2}{4}k+O(1)-k^3+\frac{\pi^2}{4}k
+=O(1)
+$$
+となり，実際に有限の極限を持つ。さらに上の式から主項は消え，残るのは $O(1)$ の部分であるが，$k\to\infty$ でその極限は $0$ であることが先の $O(k^{p-4})=O(k^0)$ の議論からも分かる。
+
+実際，より詳しく見れば，前項までに求めた展開は
+$$
+a_k=\frac{1}{k}-\frac{\pi^2}{4k^3}+O\left(\frac{1}{k^4}\right)
+$$
+なので
+$$
+k^4a_k-k^3-\frac{\pi^2}{4}k
+= k^4\left(\frac{1}{k}-\frac{\pi^2}{4k^3}+O\left(\frac{1}{k^4}\right)\right)-k^3-\frac{\pi^2}{4}k
+$$
+$$
+= k^3-\frac{\pi^2}{4}k+O(1)-k^3-\frac{\pi^2}{4}k
+=O(1),
+$$
+かつより高次の項を調べると $O(1)$ の部分も0に収束することが分かるので，極限値は $0$ となる。
+
+よって
+
+- 条件を満たす整数は
+  $$
+  p=4,\quad q=3,\quad r=1
+  $$
+  である。
+- そのときの極限値は
+  $$
+  \lim_{k\to\infty}\left(k^4a_k-k^3-\frac{\pi^2}{4}k\right)=0
+  $$
+  となる。
