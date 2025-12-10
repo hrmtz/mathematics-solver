@@ -1,7 +1,7 @@
 ---
-title: "東京科学大学 2020年 2020_5"
+title: "東京工業大学 2020年 2020_5"
 problem_id: "08_titech-2020-2020_5"
-university: "東京科学大学"
+university: "東京工業大学"
 exam_year: "2020"
 problem_number: 5
 source_tex: "archive/08_titech/2020/2020_5.tex"

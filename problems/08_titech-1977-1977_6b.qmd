@@ -1,7 +1,7 @@
 ---
-title: "東京科学大学 1977年 1977_6b"
+title: "東京工業大学 1977年 1977_6b"
 problem_id: "08_titech-1977-1977_6b"
-university: "東京科学大学"
+university: "東京工業大学"
 exam_year: "1977"
 problem_number: 6
 source_tex: "archive/08_titech/1977/1977_6b.tex"

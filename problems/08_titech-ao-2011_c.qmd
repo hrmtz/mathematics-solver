@@ -1,7 +1,7 @@
 ---
-title: "東京科学大学 ao年 2011_c"
+title: "東京工業大学 ao年 2011_c"
 problem_id: "08_titech-ao-2011_c"
-university: "東京科学大学"
+university: "東京工業大学"
 exam_year: "ao"
 problem_number: 3
 source_tex: "archive/08_titech/ao/2011_c.tex"

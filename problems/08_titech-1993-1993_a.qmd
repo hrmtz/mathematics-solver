@@ -1,7 +1,7 @@
 ---
-title: "東京科学大学 1993年 1993_a"
+title: "東京工業大学 1993年 1993_a"
 problem_id: "08_titech-1993-1993_a"
-university: "東京科学大学"
+university: "東京工業大学"
 exam_year: "1993"
 problem_number: 1
 source_tex: "archive/08_titech/1993/1993_a.tex"

@@ -1,7 +1,7 @@
 ---
-title: "東京科学大学 2012年 2012_6"
+title: "東京工業大学 2012年 2012_6"
 problem_id: "08_titech-2012-2012_6"
-university: "東京科学大学"
+university: "東京工業大学"
 exam_year: "2012"
 problem_number: 6
 source_tex: "archive/08_titech/2012/2012_6.tex"

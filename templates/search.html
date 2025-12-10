@@ -47,6 +47,13 @@
       margin-bottom: 1.5rem;
     }
 
+    /* スクロールしても検索ボックスを画面上部に固定 */
+    .search-panel {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
     label {
       font-size: 0.85rem;
       color: var(--text-muted);
@@ -87,6 +94,14 @@
     .btn-secondary {
       background: #e5e7eb;
       color: #111827;
+    }
+
+    .actions-row {
+      margin-top: 0.4rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
     }
 
     table {
@@ -142,7 +157,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div class="card search-panel">
       <form method="get" action="{{ url_for('search') }}">
         <div class="filters">
           <div>
@@ -182,15 +197,20 @@
             </select>
           </div>
         </div>
-        <button class="btn" type="submit" name="mode" value="search">検索</button>
-        <button class="btn btn-secondary" type="submit" name="mode" value="random" style="margin-left:0.5rem;">
-          この条件からランダムに10問
-        </button>
+        <div class="actions-row">
+          <button class="btn" type="submit" name="mode" value="search">検索</button>
+          <button class="btn btn-secondary" type="submit" name="mode" value="random">
+            この条件からランダムに10問
+          </button>
+          <button class="btn btn-secondary" type="submit" form="test-form">
+            選択した問題でテスト用プリントを作成
+          </button>
+        </div>
       </form>
     </div>
 
     <div class="card">
-      <form method="post" action="{{ url_for('create_test') }}">
+      <form id="test-form" method="post" action="{{ url_for('create_test') }}">
         <table>
           <thead>
             <tr>
@@ -241,17 +261,32 @@
             {% endfor %}
           </tbody>
         </table>
-
-        <div style="margin-top: 0.75rem; display:flex; justify-content: space-between; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-          <div style="font-size:0.8rem; color: var(--text-muted);">
-            上の一覧から印刷したい問題にチェックを入れてください。
-          </div>
-          <div>
-            <button class="btn btn-secondary" type="submit">選択した問題でテスト用プリントを作成</button>
-          </div>
-        </div>
       </form>
     </div>
   </div>
+
+  <script>
+    // 検索結果テーブルの行全体クリックでチェックボックスのオン/オフを切り替える
+    document.addEventListener('DOMContentLoaded', function () {
+      const rows = document.querySelectorAll('tbody tr');
+      rows.forEach(function (row) {
+        const checkbox = row.querySelector('input[type="checkbox"][name="problem_ids"]');
+        if (!checkbox) return;
+
+        row.style.cursor = 'pointer';
+
+        row.addEventListener('click', function (event) {
+          const target = event.target;
+
+          // 直接チェックボックスをクリックした場合やリンク上のクリックはそのまま
+          if (target === checkbox || target.closest('a')) {
+            return;
+          }
+
+          checkbox.checked = !checkbox.checked;
+        });
+      });
+    });
+  </script>
 </body>
 </html>

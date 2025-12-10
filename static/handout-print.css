@@ -22,29 +22,23 @@ h1, h2 {
   margin-top: 0;
 }
 
-/* 問題セクションは1段レイアウト */
+/* 問題セクションは常に1段レイアウト */
 #problem-section {
   column-count: 1;
   column-gap: 0;
   margin-bottom: 16pt;
 }
 
-/* 解答セクションは2段組レイアウト */
+/* 解答セクションも常に1段レイアウト（数式崩れ防止のため） */
 #solution-section {
-  column-count: 2;
-  column-gap: 10mm;
+  column-count: 1;
+  column-gap: 0;
 }
 
-#solution-section h1,
-#solution-section h2,
-#solution-section h3 {
-  break-before: column;
-}
-
-/* 数式が列境界で見切れにくくするための調整（ブラウザ依存） */
-.katex-display,
-.math-display {
-  break-inside: avoid;
+/* MathJax の表示数式が列やページ境界で崩れにくくする（ブラウザ依存） */
+.MathJax_Display {
+  break-inside: avoid-column;
+  page-break-inside: avoid;
 }
 
 @media screen {

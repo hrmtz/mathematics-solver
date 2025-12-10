@@ -30,7 +30,7 @@ UNIVERSITY_LABELS = {
     "05_nagoya": "名古屋大学",
     "06_osaka": "大阪大学",
     "07_kyushu": "九州大学",
-    "08_titech": "東京科学大学",
+    "08_titech": "東京工業大学",
 }
 
 
