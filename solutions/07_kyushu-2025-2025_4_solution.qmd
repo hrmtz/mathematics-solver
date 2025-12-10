@@ -1,0 +1,314 @@
+## 解答
+
+(1)  
+
+半径 $1$ の円周上にあり，$AD$ は直径なので，中心を $O$ とすると  
+$OA=OB=OC=OD=1$，かつ $\angle AOD=180^\circ$ である。
+
+円周角の定理より，弧 $AD$ に対する円周角は
+$$
+\angle ABC=\frac{1}{2}\angle AOD=90^\circ
+$$
+である（$\angle ABC$ は弧 $ADC$ に対する円周角だが，$C$ は弧 $AD$ 上の点なのでよい）。
+
+また，条件 $AC=CD$ より，弧 $AC$ と弧 $CD$ の長さは等しいから，中心角も等しく
+$$
+\angle AOC=\angle COD
+$$
+が成り立つ。したがって
+$$
+\angle AOC+\angle COD=\angle AOD=180^\circ
+$$
+より
+$$
+\angle AOC=\angle COD=90^\circ
+$$
+となる。よって $\triangle AOC,\triangle COD$ はともに直角二等辺三角形であるから
+$$
+\angle OAC=\angle OCA=45^\circ,\quad
+\angle OCD=\angle ODC=45^\circ
+$$
+である。
+
+さらに，条件 $AB=BC$ より，弧 $AB$ と弧 $BC$ の長さも等しく，
+$$
+\angle AOB=\angle BOC
+$$
+が成り立つ。よって
+$$
+\angle AOB+\angle BOC=\angle AOC=90^\circ
+$$
+から
+$$
+\angle AOB=\angle BOC=45^\circ
+$$
+となる。これを円周角に戻すと，弧 $AB$ に対する円周角の一つである $\angle ACB$ は
+$$
+\angle ACB=\frac{1}{2}\angle AOB=\frac{1}{2}\cdot 45^\circ=22.5^\circ
+$$
+である。
+
+したがって，
+$$
+\angle ACB=22.5^\circ
+$$
+である。
+
+---
+
+(2)  
+
+(1) の結果から，$\angle AOB=45^\circ$，$OA=OB=1$ の二等辺三角形 $\triangle AOB$ を考える。
+
+弦 $AB$ の長さは，中心角 $45^\circ$ に対する弦の長さとして
+$$
+AB=2\cdot OA\cdot \sin\frac{\angle AOB}{2}
+   =2\cdot 1\cdot \sin\frac{45^\circ}{2}
+   =2\sin22.5^\circ
+$$
+である。
+
+条件 $AB=BC$ より
+$$
+BC=AB=2\sin22.5^\circ
+$$
+となる。$\sin22.5^\circ$ は半角の公式
+$$
+\sin\frac{\theta}{2}=\sqrt{\frac{1-\cos\theta}{2}}
+$$
+に $\theta=45^\circ$ を用いて
+$$
+\sin22.5^\circ=\sin\frac{45^\circ}{2}
+=\sqrt{\frac{1-\cos45^\circ}{2}}
+=\sqrt{\frac{1-\frac{\sqrt2}{2}}{2}}
+=\sqrt{\frac{2-\sqrt2}{4}}
+=\frac{\sqrt{2-\sqrt2}}{2}
+$$
+であるから，
+$$
+BC=2\sin22.5^\circ
+=2\cdot \frac{\sqrt{2-\sqrt2}}{2}
+=\sqrt{2-\sqrt2}
+$$
+となる。
+
+したがって，
+$$
+BC=\sqrt{2-\sqrt2}
+$$
+である。
+
+---
+
+(3)  
+
+座標を用いて求める。中心を原点 $O(0,0)$，円を $x^2+y^2=1$ とする。
+
+(1)(2) の結果より，弧の関係から
+$$
+\angle AOB=45^\circ,\quad
+\angle BOC=45^\circ,\quad
+\angle COD=90^\circ
+$$
+であり，$AD$ は直径なので，$A$ と $D$ は互いに反対側にある。
+
+そこで，$\angle AOB=45^\circ$ を満たすように，$A$ を
+$$
+A=(1,0)
+$$
+とおき，$B$ はそこから反時計回りに $45^\circ$ 進めた点なので
+$$
+B=(\cos45^\circ,\;\sin45^\circ)=\left(\frac{\sqrt2}{2},\;\frac{\sqrt2}{2}\right)
+$$
+となる。
+
+同様に，$C$ は $B$ からさらに $45^\circ$ 進めた点，すなわち極角 $90^\circ$ の点であるから
+$$
+C=(0,1)
+$$
+である。
+
+$AC=CD$，$\angle COD=90^\circ$ より，$C$ から $90^\circ$ 進めた点が $D$ であり，極角 $180^\circ$ の点なので
+$$
+D=(-1,0)
+$$
+である。これで $A(1,0),\;B\!\left(\frac{\sqrt2}{2},\frac{\sqrt2}{2}\right),\;C(0,1),\;D(-1,0)$ と定まる。
+
+線分 $AC$ と線分 $BD$ の交点を $E$ とする。
+
+### 直線 $AC$ の式
+
+$A(1,0)$，$C(0,1)$ を通る直線の傾きは
+$$
+\frac{1-0}{0-1}=-1
+$$
+なので，点 $A(1,0)$ を通る式は
+$$
+y=-1(x-1)
+$$
+すなわち
+$$
+y=-x+1
+$$
+である。したがって直線 $AC$ は $y=-x+1$。
+
+### 直線 $BD$ の式
+
+$B\!\left(\frac{\sqrt2}{2},\frac{\sqrt2}{2}\right)$，$D(-1,0)$ を通る直線を求める。傾き $m$ は
+$$
+m=
+\frac{\frac{\sqrt2}{2}-0}{\frac{\sqrt2}{2}-(-1)}
+=
+\frac{\frac{\sqrt2}{2}}{\frac{\sqrt2}{2}+1}
+$$
+これを有理化すると
+$$
+m=\frac{\frac{\sqrt2}{2}}{\frac{\sqrt2+2}{2}}
+=\frac{\sqrt2}{\sqrt2+2}
+=\frac{\sqrt2(\sqrt2-2)}{(\sqrt2+2)(\sqrt2-2)}
+=\frac{2-2\sqrt2}{2-4}
+=\frac{2-2\sqrt2}{-2}
+=\sqrt2-1
+$$
+である。
+
+したがって，点 $D(-1,0)$ を通る直線 $BD$ の式は
+$$
+y=(\sqrt2-1)(x+1)
+$$
+すなわち
+$$
+y=(\sqrt2-1)x+(\sqrt2-1)
+$$
+である。
+
+### 交点 $E$ の座標
+
+$E$ は $y=-x+1$ および $y=(\sqrt2-1)x+(\sqrt2-1)$ をともに満たすので，
+$$
+-x+1=(\sqrt2-1)x+(\sqrt2-1)
+$$
+となる。これを $x$ について解くと
+$$
+-x-(\sqrt2-1)x=(\sqrt2-1)-1
+$$
+左辺をまとめて
+$$
+-(1+\sqrt2-1)x= -\sqrt2\, x,\quad
+\text{右辺}=\sqrt2-2
+$$
+だから
+$$
+-\sqrt2\,x=\sqrt2-2
+$$
+となり，
+$$
+x=\frac{\sqrt2-2}{-\sqrt2}
+=\frac{2-\sqrt2}{\sqrt2}
+=\frac{(2-\sqrt2)\sqrt2}{2}
+=\frac{2\sqrt2-2}{2}
+=\sqrt2-1
+$$
+を得る。
+
+これを $y=-x+1$ に代入すると
+$$
+y=-(\sqrt2-1)+1
+=-\sqrt2+1+1
+=2-\sqrt2
+$$
+となる。したがって
+$$
+E(\sqrt2-1,\;2-\sqrt2)
+$$
+である。
+
+### 三角形 $BCE$ の面積
+
+3点 $B(x_1,y_1)$，$C(x_2,y_2)$，$E(x_3,y_3)$ に対する三角形の面積は  
+行列式の公式から
+$$
+S_{BCE}
+=\frac12\left|
+x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)
+\right|
+$$
+で表される。  
+ここで
+$$
+B\left(\frac{\sqrt2}{2},\frac{\sqrt2}{2}\right),\quad
+C(0,1),\quad
+E(\sqrt2-1,\,2-\sqrt2)
+$$
+を代入する。
+
+まず各差を計算する：
+$$
+y_2-y_3 = 1-(2-\sqrt2)=\sqrt2-1,
+$$
+$$
+y_3-y_1 =(2-\sqrt2)-\frac{\sqrt2}{2}
+=2-\frac{3\sqrt2}{2},
+$$
+$$
+y_1-y_2 = \frac{\sqrt2}{2}-1.
+$$
+
+それぞれについて積を求める。
+
+1つ目：
+$$
+x_1(y_2-y_3)
+=\frac{\sqrt2}{2}(\sqrt2-1)
+=\frac12(2-\sqrt2)
+=1-\frac{\sqrt2}{2}.
+$$
+
+2つ目：
+$$
+x_2(y_3-y_1)=0\cdot\left(2-\frac{3\sqrt2}{2}\right)=0.
+$$
+
+3つ目：
+$$
+x_3(y_1-y_2)
+=(\sqrt2-1)\left(\frac{\sqrt2}{2}-1\right)
+$$
+とおく。  
+右辺を展開すると
+$$
+(\sqrt2-1)\left(\frac{\sqrt2}{2}-1\right)
+=\sqrt2\cdot\frac{\sqrt2}{2}-\sqrt2\cdot1-1\cdot\frac{\sqrt2}{2}+1
+$$
+$$
+=\frac{2}{2}-\sqrt2-\frac{\sqrt2}{2}+1
+=1+1-\left(\sqrt2+\frac{\sqrt2}{2}\right)
+=2-\frac{3\sqrt2}{2}.
+$$
+
+したがって括弧内は
+$$
+x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)
+=\left(1-\frac{\sqrt2}{2}\right)+0+\left(2-\frac{3\sqrt2}{2}\right)
+$$
+$$
+=3-\left(\frac{\sqrt2}{2}+\frac{3\sqrt2}{2}\right)
+=3-2\sqrt2.
+$$
+
+これより
+$$
+S_{BCE}
+=\frac12\left|3-2\sqrt2\right|
+$$
+であるが，$3>2\sqrt2$（なぜなら $2\sqrt2\approx 2.828$）なので絶対値を外して
+$$
+S_{BCE}=\frac{3-2\sqrt2}{2}
+$$
+となる。
+
+したがって，三角形 $BCE$ の面積は
+$$
+\boxed{\dfrac{3-2\sqrt2}{2}}
+$$
+である。

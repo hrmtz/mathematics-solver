@@ -1,0 +1,267 @@
+## 解答
+
+(＊) を
+$$
+x^2 - 4\cos\theta\,x + \frac{1}{\tan\theta}=0
+$$
+とおく。ただし $0<\theta<\dfrac{\pi}{4}$ である。
+
+---
+
+### (1)
+
+2次方程式が実数解をもたない条件は判別式 $D<0$ である。
+
+$$
+D = (4\cos\theta)^2 - 4\cdot 1\cdot \frac{1}{\tan\theta}
+     = 16\cos^2\theta - \frac{4}{\tan\theta}
+$$
+
+ここで $\tan\theta=\dfrac{\sin\theta}{\cos\theta}$ を用いて
+$$
+\frac{1}{\tan\theta} = \frac{\cos\theta}{\sin\theta}
+$$
+なので，
+$$
+D = 16\cos^2\theta - 4\cdot\frac{\cos\theta}{\sin\theta}
+   = 4\left(4\cos^2\theta - \frac{\cos\theta}{\sin\theta}\right)
+   = 4\cos\theta\left(4\cos\theta - \frac{1}{\sin\theta}\right)
+$$
+となる。$0<\theta<\dfrac{\pi}{4}$ より $\cos\theta>0$，$\sin\theta>0$ であるから，
+$4\cos\theta>0$ であり，$D<0$ は
+$$
+4\cos\theta - \frac{1}{\sin\theta}<0
+\quad\Longleftrightarrow\quad
+4\cos\theta < \frac{1}{\sin\theta}
+$$
+と同値である。両辺とも正なので，$\sin\theta$ を掛けて
+$$
+4\sin\theta\cos\theta < 1
+\quad\Longleftrightarrow\quad
+2\sin\theta\cos\theta < \frac12
+\quad\Longleftrightarrow\quad
+\sin 2\theta < \frac12
+$$
+となる。$0<\theta<\dfrac{\pi}{4}$ より $0<2\theta<\dfrac{\pi}{2}$ であり，
+この範囲で $\sin 2\theta$ は単調増加であるから，
+$$
+\sin 2\theta < \frac12
+\quad\Longleftrightarrow\quad
+2\theta < \frac{\pi}{6}
+\quad\Longleftrightarrow\quad
+\theta < \frac{\pi}{12}
+$$
+となる。したがって求める範囲は
+$$
+0<\theta<\frac{\pi}{12}
+$$
+である。
+
+---
+
+### (2)
+
+(1) より $0<\theta<\dfrac{\pi}{12}$ のとき，(＊) の解は共役な虚数解であるから，
+$\alpha=a+bi$，$\beta=a-bi$（$b>0$）とおける。
+
+2次方程式の解と係数の関係より
+$$
+\alpha+\beta = 4\cos\theta,\quad
+\alpha\beta = \frac{1}{\tan\theta}
+$$
+である。一方，
+$$
+\alpha+\beta = (a+bi)+(a-bi)=2a,\quad
+\alpha\beta = (a+bi)(a-bi)=a^2+b^2
+$$
+だから
+$$
+2a=4\cos\theta \quad\Longrightarrow\quad a=2\cos\theta,
+$$
+$$
+a^2 + b^2 = \frac{1}{\tan\theta}
+$$
+を得る。したがって
+$$
+\alpha = 2\cos\theta + bi,\quad
+\beta  = 2\cos\theta - bi
+$$
+となる。
+
+複素数平面で，$A(\alpha)$，$B(\beta)$ は $x=2\cos\theta$ 上にあり，
+$O(0)$ は原点である。$A,B$ は $x$ 軸に関して対称なので，
+3点 $A,B,O$ を通る円の中心 $C(\gamma)$ は実軸上
+（すなわち虚部が 0 の点）にある。よって $\gamma$ を実数とおく。
+
+円の中心 $C$ は $AB$ の中点と $O$ から等距離にあるから，
+まず $AB$ の中点 $M$ の座標は
+$$
+M\left(\frac{\alpha+\beta}{2}\right) = (2\cos\theta)
+$$
+であり，これは実数 $2\cos\theta$ に対応する点である。
+
+$C(\gamma)$ が $O$ と $M$ から等距離であることから，
+$$
+|\,\gamma-0\,| = |\,\gamma-2\cos\theta\,|
+$$
+である。$\gamma$ は実数なので，これを絶対値をはずして場合分けするが，
+幾何的に見ると $O(0)$ と $M(2\cos\theta)$ の中点がちょうどこの条件を満たす。
+よって
+$$
+\gamma = \frac{0+2\cos\theta}{2} = \cos\theta
+$$
+である。
+
+したがって
+$$
+\gamma = \cos\theta
+$$
+となる。
+
+---
+
+### (3)
+
+(2) より
+$$
+\alpha = 2\cos\theta + bi,\quad
+\gamma = \cos\theta
+$$
+であり，$C(\gamma)$ は実数 $\cos\theta$ を表す点である。
+
+三角形 $OAC$ が直角三角形になる条件は，
+ベクトル $\overrightarrow{OA}$ と $\overrightarrow{OC}$ あるいは
+$\overrightarrow{OA}$ と $\overrightarrow{AC}$，
+あるいは $\overrightarrow{OC}$ と $\overrightarrow{AC}$ のどれか 1 組が
+直交することである。複素数平面では，点 $P(z_1)$，$Q(z_2)$ を結ぶベクトルは
+$z_2 - z_1$ に対応し，2 つのベクトル $z,w$ が直交する条件は
+$z\overline{w}$ が純虚数（実部 0）であることを用いる。
+
+まず各辺に対応する複素数を求める：
+
+- $\overrightarrow{OA}$ に対応する複素数：$\alpha$
+- $\overrightarrow{OC}$ に対応する複素数：$\gamma$
+- $\overrightarrow{AC}$ に対応する複素数：$\gamma-\alpha$
+
+ここで
+$$
+\alpha = 2\cos\theta + bi,\quad
+\gamma = \cos\theta
+$$
+であり，$b$ は
+$$
+a^2 + b^2 = \frac{1}{\tan\theta},\quad a=2\cos\theta
+$$
+より
+$$
+(2\cos\theta)^2 + b^2 = \frac{1}{\tan\theta}
+\quad\Longrightarrow\quad
+b^2 = \frac{1}{\tan\theta} - 4\cos^2\theta
+$$
+と表される。ただし $b>0$ である。
+
+#### 1) 頂点 $O$ が直角（$\angle AOC=90^\circ$）の場合
+
+$\overrightarrow{OA}$ と $\overrightarrow{OC}$ が直交するので
+$$
+\alpha\overline{\gamma} \text{ の実部 }=0
+$$
+となる。$\gamma$ は実数なので $\overline{\gamma}=\gamma$ であり
+$$
+\alpha\gamma = (2\cos\theta + bi)\cos\theta
+             = 2\cos^2\theta + b\cos\theta\,i
+$$
+より，その実部は $2\cos^2\theta$ である。これが 0 なら
+$$
+2\cos^2\theta = 0 \quad\Longrightarrow\quad \cos\theta=0
+$$
+となるが，$0<\theta<\dfrac{\pi}{4}$ に反する。したがってこの場合は不適。
+
+#### 2) 頂点 $A$ が直角（$\angle OAC=90^\circ$）の場合
+
+$\overrightarrow{AO}$ と $\overrightarrow{AC}$ が直交するので
+$$
+(-\alpha)\overline{\gamma-\alpha} \text{ の実部 }=0
+$$
+すなわち $\alpha\overline{\gamma-\alpha}$ の実部が 0 であればよい。
+
+まず
+$$
+\gamma-\alpha = \cos\theta - (2\cos\theta+bi)
+              = -\cos\theta - bi
+$$
+であるから
+$$
+\overline{\gamma-\alpha} = -\cos\theta + bi
+$$
+となる。よって
+$$
+\alpha\overline{\gamma-\alpha}
+= (2\cos\theta+bi)(-\cos\theta+bi)
+$$
+を計算する：
+$$
+\begin{aligned}
+\alpha\overline{\gamma-\alpha}
+&= 2\cos\theta(-\cos\theta)
+ + 2\cos\theta\cdot bi
+ + bi(-\cos\theta)
+ + bi\cdot bi \\
+&= -2\cos^2\theta
+ + 2b\cos\theta\,i
+ - b\cos\theta\,i
+ + b^2 i^2 \\
+&= -2\cos^2\theta
+ + b\cos\theta\,i
+ - b^2
+\end{aligned}
+$$
+したがって実部は
+$$
+\operatorname{Re}(\alpha\overline{\gamma-\alpha})
+= -2\cos^2\theta - b^2
+$$
+である。$b^2>0$，$\cos^2\theta>0$ だから，これは常に負で 0 にならない。
+ゆえに頂点 $A$ が直角となることはない。
+
+#### 3) 頂点 $C$ が直角（$\angle OCA=90^\circ$）の場合
+
+$\overrightarrow{CO}$ と $\overrightarrow{CA}$ が直交するので
+$$
+(-\gamma)\overline{\alpha-\gamma} \text{ の実部 }=0
+$$
+すなわち $\gamma\overline{\alpha-\gamma}$ の実部が 0 であればよい。
+
+まず
+$$
+\alpha-\gamma = (2\cos\theta+bi) - \cos\theta
+              = \cos\theta + bi
+$$
+であるから
+$$
+\overline{\alpha-\gamma} = \cos\theta - bi
+$$
+となる。よって
+$$
+\gamma\overline{\alpha-\gamma}
+= \cos\theta(\cos\theta - bi)
+= \cos^2\theta - b\cos\theta\,i
+$$
+となり，その実部は $\cos^2\theta$ である。これが 0 となるには
+$$
+\cos^2\theta = 0 \quad\Longrightarrow\quad \cos\theta=0
+$$
+であるが，やはり $0<\theta<\dfrac{\pi}{4}$ に反する。
+
+#### 4) 結論の整理
+
+上の 3 通りのいずれの場合も，$0<\theta<\dfrac{\pi}{4}$ の範囲において
+三角形 $OAC$ が直角三角形となる条件を満たす $\theta$ は存在しない。
+
+したがって，求める $\tan\theta$ の値は存在しない。
+
+答えとしては
+$$
+\text{そのような }\theta\text{（したがって }\tan\theta\text{）は存在しない。}
+$$
+といえる。

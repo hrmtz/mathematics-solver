@@ -1,0 +1,401 @@
+## 解答
+
+(1)  
+
+$n=2$ とし，$f(x)=a_2x^2+a_1x+a_0$ とおく。$\alpha,\beta$ を異なる複素数とする。
+
+まず，左辺を計算する。
+  
+$$
+\begin{aligned}
+f(\beta)-f(\alpha)
+&=a_2(\beta^2-\alpha^2)+a_1(\beta-\alpha) \\
+&=a_2(\beta-\alpha)(\beta+\alpha)+a_1(\beta-\alpha)
+\end{aligned}
+$$
+
+よって $\beta\ne\alpha$ だから
+
+$$
+\frac{f(\beta)-f(\alpha)}{\beta-\alpha}
+=a_2(\alpha+\beta)+a_1
+$$
+
+一方，$f'(x)=2a_2x+a_1$ なので，$\gamma$ を
+
+$$
+\gamma=\frac{\alpha+\beta}{2}
+$$
+
+とおけば，
+
+$$
+f'(\gamma)=2a_2\gamma+a_1
+=2a_2\cdot\frac{\alpha+\beta}{2}+a_1
+=a_2(\alpha+\beta)+a_1
+$$
+
+となる。したがって
+
+$$
+\frac{f(\beta)-f(\alpha)}{\beta-\alpha}=f'(\gamma)
+$$
+
+をみたす $\gamma$ が存在することが分かる。
+
+また $\gamma=\dfrac{\alpha+\beta}{2}$ は
+
+$$
+\gamma=(1-t)\alpha+t\beta
+\quad (t=\tfrac12)
+$$
+
+と書けるので，$\gamma$ は複素平面上で $\alpha$ と $\beta$ を結ぶ線分上にある。  
+よって，どのような $\alpha,\beta,f(x)$（ただし $n=2$）も平均値の性質をもつ。
+
+---
+
+(2)  
+
+$\alpha=1-i,\ \beta=1+i,\ f(x)=x^3+ax^2+bx+c$ とする。  
+$3$ 次多項式の導関数は
+
+$$
+f'(x)=3x^2+2ax+b
+$$
+
+である。
+
+まず，
+
+$$
+f(\beta)-f(\alpha)
+=(\beta^3-\alpha^3)
++a(\beta^2-\alpha^2)
++b(\beta-\alpha)
+$$
+
+とおく。$\alpha=1-i,\ \beta=1+i$ を用いて各項を計算する。
+
+$$
+\beta-\alpha=(1+i)-(1-i)=2i
+$$
+
+$$
+\beta^2=(1+i)^2=1+2i+i^2=2i,\quad
+\alpha^2=(1-i)^2=1-2i+i^2=-2i
+$$
+
+よって
+
+$$
+\beta^2-\alpha^2=2i-(-2i)=4i
+$$
+
+さらに
+
+$$
+\beta^3=\beta^2\beta=(2i)(1+i)=2i+2i^2=2i-2,
+$$
+
+$$
+\alpha^3=\alpha^2\alpha=(-2i)(1-i)=-2i+2i^2=-2i-2
+$$
+
+したがって
+
+$$
+\beta^3-\alpha^3=(2i-2)-(-2i-2)=4i
+$$
+
+ゆえに
+
+$$
+\begin{aligned}
+f(\beta)-f(\alpha)
+&=(\beta^3-\alpha^3)
++a(\beta^2-\alpha^2)
++b(\beta-\alpha) \\
+&=4i+4ai+2bi
+= i(4+4a+2b)
+\end{aligned}
+$$
+
+よって
+
+$$
+\frac{f(\beta)-f(\alpha)}{\beta-\alpha}
+=\frac{i(4+4a+2b)}{2i}
+=\frac{4+4a+2b}{2}
+=2+2a+b
+$$
+
+を得る。
+
+次に，「平均値の性質」の条件
+
+$$
+\frac{f(\beta)-f(\alpha)}{\beta-\alpha}=f'(\gamma)
+$$
+
+を満たす $\gamma$ が，$\alpha$ と $\beta$ を結ぶ線分上に存在するための条件を調べる。
+
+複素平面上で，$\alpha$ と $\beta$ を結ぶ線分上の点 $\gamma$ は
+
+$$
+\gamma=1+ti\quad (t\in\mathbb{R},\ -1\le t\le1)
+$$
+
+と表せる。これは $\alpha=1-i,\ \beta=1+i$ が $x=1$ 上の縦線分の両端であることから分かる。
+
+このとき
+
+$$
+\begin{aligned}
+f'(\gamma)
+&=3\gamma^2+2a\gamma+b \\
+&=3(1+ti)^2+2a(1+ti)+b \\
+&=3(1+2ti+t^2i^2)+2a+2ati+b \\
+&=3(1-t^2)+2a+b + i(6t+2at)
+\end{aligned}
+$$
+
+一方，$\dfrac{f(\beta)-f(\alpha)}{\beta-\alpha}=2+2a+b$ は実数であるから，  
+等式
+
+$$
+f'(\gamma)=2+2a+b
+$$
+
+が成り立つには，虚部が 0 でなければならない。従って
+
+$$
+\begin{cases}
+6t+2at=0 \\
+3(1-t^2)+2a+b=2+2a+b
+\end{cases}
+$$
+
+となる。下の式は $b$ を消して
+
+$$
+3(1-t^2)=2
+\quad\Rightarrow\quad
+3-3t^2=2
+\quad\Rightarrow\quad
+t^2=\dfrac13
+$$
+
+上の式は
+
+$$
+t(6+2a)=0
+$$
+
+となる。平均値の性質をもつためには，ある $t\ ( -1\le t\le1)$ が存在すればよいから，  
+$t=0$ の場合と $t\ne0$ の場合に分けて考える。
+
+- $t=0$ のとき：  
+  下の式より $3(1-0)=2$ となり，$3=2$ となって矛盾。よって $t=0$ は不可能。
+
+- $t\ne0$ のとき：  
+  $t(6+2a)=0$ より $6+2a=0$，すなわち
+  $$
+  a=-3
+  $$
+  である。また $t^2=\dfrac13$ だから $t=\pm\dfrac{1}{\sqrt3}$ となり，  
+  それぞれ $|t|\le1$ を満たすので，$\gamma$ は線分上に存在しうる。
+
+したがって，平均値の性質をもつための条件は
+
+$$
+a=-3
+$$
+
+であり，$b,c$ には制限はない。  
+（実際に $a=-3$ を代入すると $b,c$ に依らず条件を満たすことが確認できる。）
+
+結論として，
+
+$$
+\boxed{a=-3,\; b,c\ \text{は任意の実数}}
+$$
+
+が必要十分条件である。
+
+---
+
+(3)  
+
+$\displaystyle\alpha=\frac{1-i}{\sqrt2},\ \displaystyle\beta=\frac{1+i}{\sqrt2},\ f(x)=x^7$ とする。  
+$f'(x)=7x^6$ である。
+
+まず，$\alpha,\beta$ を簡単にしておく。  
+$\dfrac{1\pm i}{\sqrt2}$ はともに絶対値 $1$ の複素数であり，
+
+$$
+\alpha=\frac{1-i}{\sqrt2}=e^{-i\pi/4},\quad
+\beta=\frac{1+i}{\sqrt2}=e^{\,i\pi/4}
+$$
+
+と表せる。
+
+よって
+
+$$
+\alpha^7=e^{-7i\pi/4}=e^{i\pi/4}=\beta,\quad
+\beta^7=e^{7i\pi/4}=e^{-i\pi/4}=\alpha
+$$
+
+となるから
+
+$$
+f(\alpha)=\alpha^7=\beta,\quad
+f(\beta)=\beta^7=\alpha
+$$
+
+従って
+
+$$
+f(\beta)-f(\alpha)=\alpha-\beta
+$$
+
+である。一方，$\beta-\alpha$ は
+
+$$
+\beta-\alpha
+=\frac{1+i}{\sqrt2}-\frac{1-i}{\sqrt2}
+=\frac{2i}{\sqrt2}
+=\sqrt2\,i
+$$
+
+また $\alpha-\beta=-\sqrt2\,i$ なので
+
+$$
+\frac{f(\beta)-f(\alpha)}{\beta-\alpha}
+=\frac{\alpha-\beta}{\beta-\alpha}
+=-1
+$$
+
+を得る。
+
+したがって，平均値の性質
+
+$$
+\frac{f(\beta)-f(\alpha)}{\beta-\alpha}=f'(\gamma)
+$$
+
+は
+
+$$
+-1 = f'(\gamma) = 7\gamma^6
+$$
+
+すなわち
+
+$$
+\gamma^6=-\frac{1}{7}
+$$
+
+となる。ここから $\gamma$ は
+
+$$
+\gamma=\left(\frac{1}{\sqrt7}\right)e^{i\left(\frac{\pi}{6}+\frac{k\pi}{3}\right)}
+\quad(k=0,1,2,3,4,5)
+$$
+
+の形で表される。特に絶対値は
+
+$$
+|\gamma|=\frac{1}{\sqrt7}<1
+$$
+
+である。
+
+一方，$\alpha$ と $\beta$ の中点を調べると
+
+$$
+\frac{\alpha+\beta}{2}
+=\frac{1}{2}\left(\frac{1-i}{\sqrt2}+\frac{1+i}{\sqrt2}\right)
+=\frac{1}{2}\cdot\frac{2}{\sqrt2}
+=\frac{1}{\sqrt2}
+$$
+
+であり，複素平面上の線分 $\alpha\beta$ は実数部が一定の縦線ではなく，  
+原点を中心として長さ $1$ の正方形の対角線の一つにあたる。
+
+一般に，線分 $\alpha\beta$ 上の点 $\gamma$ は
+
+$$
+\gamma=(1-t)\alpha+t\beta\quad (t\in[0,1])
+$$
+
+と書けるから，その絶対値は
+
+$$
+|\gamma|\le (1-t)|\alpha|+t|\beta|=1
+$$
+
+である。さらに，$\alpha,\beta$ ともに絶対値 $1$ の異なる点であるから，  
+$0<t<1$ のときには $|\gamma|<1$ となる（等号成立は $\alpha$ と $\beta$ が同一直線上に同じ向きで並ぶときだが，ここではそうではない）。  
+ただし両端では $|\alpha|=|\beta|=1$ である。
+
+ゆえに，線分 $\alpha\beta$ 上の点 $\gamma$ は
+
+$$
+|\gamma|\le1
+$$
+
+を満たすが，今回必要な $\gamma$ は $|\gamma|=1/\sqrt7<1$ であるから，  
+一見すると内点として線分上にありうるようにも見える。
+
+しかし，ここではさらに具体的に線分 $\alpha\beta$ を表す。  
+
+$\alpha,\beta$ を直交座標で書くと
+
+$$
+\alpha=\frac{1}{\sqrt2}-\frac{1}{\sqrt2}i,\quad
+\beta=\frac{1}{\sqrt2}+\frac{1}{\sqrt2}i
+$$
+
+したがって線分 $\alpha\beta$ 上の点 $\gamma$ は
+
+$$
+\gamma=\frac{1}{\sqrt2}+t\cdot\frac{1}{\sqrt2}i
+\quad(-1\le t\le1)
+$$
+
+と表される。すなわち
+
+$$
+\gamma=\frac{1}{\sqrt2}(1+ti)\quad(-1\le t\le1)
+$$
+
+である。よって
+
+$$
+|\gamma|^2=\left|\frac{1}{\sqrt2}(1+ti)\right|^2
+=\frac12(1+t^2)
+$$
+
+となる。この値は $-1\le t\le1$ で
+
+$$
+\frac12\le|\gamma|^2\le1
+\quad\Rightarrow\quad
+\frac{1}{\sqrt2}\le|\gamma|\le1
+$$
+
+を満たす。従って，線分 $\alpha\beta$ 上の点の絶対値は常に $1/\sqrt2$ 以上である。
+
+しかし，$7\gamma^6=-1$ を満たす $\gamma$ は $|\gamma|=1/\sqrt7<1/\sqrt2$ であるから，  
+このような $\gamma$ は線分 $\alpha\beta$ 上には存在しない。
+
+したがって，条件
+
+$$
+\frac{f(\beta)-f(\alpha)}{\beta-\alpha}=f'(\gamma)
+$$
+
+を満たす $\gamma$ は，線分 $\alpha\beta$ 上には存在しない。  
+よって，$\displaystyle\alpha=\frac{1-i}{\sqrt2}$，$\displaystyle\beta=\frac{1+i}{\sqrt2}$，$f(x)=x^7$ は平均値の性質をもたない。

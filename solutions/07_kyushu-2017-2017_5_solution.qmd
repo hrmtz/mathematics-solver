@@ -1,0 +1,243 @@
+## 解答
+
+(1)  
+まず，$\alpha=10000+10000i$ の絶対値と偏角を求める。
+
+$$
+|\alpha|=\sqrt{10000^2+10000^2}
+=\sqrt{2}\cdot10000=10000\sqrt2
+$$
+
+$10000+10000i$ は第1象限にあり，$x$ 軸となす角は $\tan\theta=1$ より $\theta=\dfrac{\pi}{4}$ であるから，
+$$
+\arg\alpha=\frac{\pi}{4}
+$$
+
+次に
+$$
+w=\frac{\sqrt3}{4}+\frac14 i
+$$
+について，
+$$
+|w|=\sqrt{\left(\frac{\sqrt3}{4}\right)^2+\left(\frac14\right)^2}
+=\sqrt{\frac34\cdot\frac1{4}+\frac1{16}}
+=\sqrt{\frac{3+1}{16}}=\sqrt{\frac14}=\frac12
+$$
+また，$w$ は第1象限で $\tan\theta=\dfrac{\frac14}{\frac{\sqrt3}{4}}=\dfrac1{\sqrt3}$ であるから
+$$
+\arg w = \frac{\pi}{6}
+$$
+
+複素数の積の性質から
+$$
+z_n=\alpha w^n \quad\Rightarrow\quad
+|z_n|=|\alpha||w|^n,\ \arg z_n=\arg\alpha + n\arg w
+$$
+である。よって
+$$
+|z_n|=10000\sqrt2\left(\frac12\right)^n,\quad
+\arg z_n=\frac{\pi}{4}+n\cdot\frac{\pi}{6}
+=\frac{3n+2}{12}\pi
+$$
+
+---
+
+(2)  
+(1)で求めた $|z_n|$ は
+$$
+|z_n|=10000\sqrt2\left(\frac12\right)^n
+$$
+であるから，$|z_n|\le 1$ は
+$$
+10000\sqrt2\left(\frac12\right)^n\le 1
+\quad\Longleftrightarrow\quad
+\left(\frac12\right)^n\le \frac{1}{10000\sqrt2}
+$$
+と同値である。
+
+両辺の常用対数をとる（$\dfrac12<1$ より $\log_{10}\dfrac12<0$ なので不等号の向きに注意する）と，
+$$
+n\log_{10}\frac12 \le \log_{10}\frac{1}{10000\sqrt2}
+$$
+となるが，$\log_{10}\dfrac12=-\log_{10}2$，$\log_{10}\dfrac{1}{10000\sqrt2}
+=-4-\log_{10}\sqrt2$ を用いると
+$$
+n(-\log_{10}2)\le -4-\log_{10}\sqrt2
+$$
+両辺を $-1$ 倍して不等号の向きを変えると
+$$
+n\log_{10}2 \ge 4+\log_{10}\sqrt2
+$$
+$\sqrt2$ に対し，$\sqrt2=\dfrac{\sqrt8}{2}$ から
+$$
+\log_{10}\sqrt2=\frac12\log_{10}2
+$$
+である。したがって
+$$
+n\log_{10}2 \ge 4+\frac12\log_{10}2
+$$
+両辺を $\log_{10}2$ で割ると（$\log_{10}2>0$ に注意）  
+$$
+n \ge \frac{4}{\log_{10}2}+\frac12
+$$
+
+$\log_{10}2=0.301$ より
+$$
+\frac{4}{\log_{10}2}\approx \frac{4}{0.301}\approx 13.29\ldots
+$$
+であるから
+$$
+n \ge 13.29\ldots + 0.5 = 13.79\ldots
+$$
+よって自然数 $n$ については
+$$
+n\ge 14
+$$
+が必要十分となる。
+
+したがって，$|z_n|\le 1$ が成り立つ最小の自然数 $n$ は
+$$
+n=14
+$$
+である。
+
+---
+
+(3)  
+まず，三角形 $ABC$ の頂点 $A,B$ の位置を求める。
+
+点 $C$ は
+$$
+C\left(\frac{i}{\sqrt2}\right)
+$$
+であり，原点 $O$ からの距離は
+$$
+OC=\left|\frac{i}{\sqrt2}\right|=\frac1{\sqrt2}
+$$
+一方，条件より $OA=OB=1$ である。
+
+$\triangle AOC,\ \triangle BOC$ はともに $OC=\dfrac1{\sqrt2},\ OA=OB=1$ を持つ二等辺三角形であり，
+$\triangle ABC$ が「$AB$ を斜辺とする直角二等辺三角形」であることから，
+$\angle ACB=90^\circ$，さらに $CA=CB$ である。
+
+ここで，直角二等辺三角形 $ABC$ において斜辺の長さ $AB$ を $L$ とすると，等しい2辺
+$$
+AC=BC=\frac{L}{\sqrt2}
+$$
+である。一方 $C$ から $A,B$ までは $1$ である（$AC,BC$ はともに $1$）ので
+$$
+1=\frac{L}{\sqrt2}
+\quad\Longrightarrow\quad
+L=AB=\sqrt2
+$$
+
+また，$O$ は $\triangle ABC$ の内接円の中心にあたる。なぜなら，
+- $AC,BC$ はともに円 $|z|=1$ の半径であるから，$C$ はその円周上の点，
+- $A,B$ も同様に円 $|z|=1$ 上の点であり，
+- $O$ は線分 $AC,BC$ の垂直二等分線（すなわち，それぞれの辺の中点を通る半径）上にある。
+
+したがって，$O$ から辺 $AB$ に下ろした垂線の長さが内接円の半径 $r$ である。  
+直角二等辺三角形の内接円の半径は，
+底辺 $L$，他の2辺 $L/\sqrt2$ の三角形について面積 $S$ と半周長 $s$ を用いる公式
+$$
+S=rs
+$$
+から求められる。
+
+ここでは
+$$
+L=AB=\sqrt2,\quad AC=BC=1
+$$
+なので，
+$$
+S=\frac12\cdot AC\cdot BC\cdot\sin\angle C
+=\frac12\cdot 1\cdot 1\cdot 1=\frac12
+$$
+また半周長（周長の半分）は
+$$
+s=\frac{AB+BC+CA}{2}=\frac{\sqrt2+1+1}{2}=\frac{\sqrt2+2}{2}
+$$
+だから
+$$
+\frac12 = r\cdot \frac{\sqrt2+2}{2}
+\quad\Longrightarrow\quad
+r=\frac{1}{\sqrt2+2}
+$$
+
+従って，三角形 $ABC$ の内部の点 $P$ であって原点からの距離（＝内接円の半径）より小さい点はすべて $\triangle ABC$ の内部にある。  
+よって，点 $P_n$ が $\triangle ABC$ の内部に含まれるための十分条件として
+$$
+|z_n|<r=\frac{1}{\sqrt2+2}
+$$
+を用いればよい（境界上に乗らないことが必要なので「$<$」とする）。
+
+(1)より $|z_n|=10000\sqrt2\left(\dfrac12\right)^n$ なので，
+$$
+10000\sqrt2\left(\frac12\right)^n < \frac{1}{\sqrt2+2}
+$$
+両辺を正の数で割って
+$$
+\left(\frac12\right)^n < \frac{1}{10000\sqrt2(\sqrt2+2)}
+$$
+と書ける。
+
+ここで
+$$
+\sqrt2+2=\sqrt2(1+\sqrt2)
+$$
+であるから
+$$
+10000\sqrt2(\sqrt2+2)
+=10000\sqrt2\cdot\sqrt2(1+\sqrt2)
+=10000\cdot 2(1+\sqrt2)
+=20000(1+\sqrt2)
+$$
+したがって
+$$
+\left(\frac12\right)^n < \frac{1}{20000(1+\sqrt2)}
+$$
+
+両辺の常用対数をとると
+$$
+n\log_{10}\frac12 < \log_{10}\frac{1}{20000(1+\sqrt2)}
+$$
+右辺は
+$$
+\log_{10}\frac{1}{20000(1+\sqrt2)}
+=-\log_{10}20000 -\log_{10}(1+\sqrt2)
+=-4.301 -\log_{10}(1+\sqrt2)
+$$
+また $\log_{10}\dfrac12=-\log_{10}2=-0.301$ を用いると
+$$
+n(-0.301) < -4.301 -\log_{10}(1+\sqrt2)
+$$
+両辺を $-1$ 倍して不等号の向きを変えると
+$$
+0.301\,n > 4.301 + \log_{10}(1+\sqrt2)
+$$
+$\log_{10}(1+\sqrt2)$ はおよそ
+$$
+1+\sqrt2\approx 2.414\quad\Rightarrow\quad
+\log_{10}(1+\sqrt2)\approx 0.383
+$$
+と見積もれば，
+$$
+0.301\,n > 4.301 + 0.383 = 4.684
+$$
+よって
+$$
+n > \frac{4.684}{0.301}\approx 15.57\ldots
+$$
+したがって，自然数 $n$ については
+$$
+n\ge 16
+$$
+であれば $|z_n|<\dfrac{1}{\sqrt2+2}$ が成り立ち，$P_n$ は $\triangle ABC$ の内部に含まれる。
+
+(2)で $n=14$ のときに $|z_n|\le 1$ となることから，$n$ を増やせば $|z_n|$ は単調に減少するので，$n=16$ 以降は常に三角形の内接円より内側に入り，したがって $\triangle ABC$ の内部にある。
+
+よって，点 $P_n$ が $\triangle ABC$ の内部に含まれる最小の自然数は
+$$
+n=16
+$$
+である。

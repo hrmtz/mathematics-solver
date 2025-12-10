@@ -1,0 +1,214 @@
+## 解答
+
+(1)  
+与えられた媒介変数表示は
+$$
+x=3\cos t-\cos3t,\quad y=3\sin t-\sin3t,\quad 0\le t\le \frac{\pi}{2}
+$$
+である。
+
+まず微分する。積の形ではないので，それぞれ直接 $t$ で微分する。
+
+$\cos3t$ の微分は $-3\sin3t$ であるから，
+$$
+\frac{dx}{dt} = -3\sin t -(-3\sin3t)
+             = -3\sin t +3\sin3t
+             = 3(\sin3t-\sin t)
+$$
+
+同様に，$\sin3t$ の微分は $3\cos3t$ であるから，
+$$
+\frac{dy}{dt} = 3\cos t -3\cos3t
+             = 3(\cos t-\cos3t)
+$$
+
+次に $t$ の変化に伴う点 $(x(t),y(t))$ の動きを調べる。
+
+$t=0$ のとき
+$$
+x(0)=3\cos0-\cos0=3-1=2,\quad
+y(0)=3\sin0-\sin0=0
+$$
+よって始点は $(2,0)$ である。
+
+$t=\frac{\pi}{2}$ のとき $\cos\frac{\pi}{2}=0,\ \sin\frac{\pi}{2}=1,\ \cos\frac{3\pi}{2}=0,\ \sin\frac{3\pi}{2}=-1$ より
+$$
+x\!\left(\frac{\pi}{2}\right)=3\cdot0-0=0,\quad
+y\!\left(\frac{\pi}{2}\right)=3\cdot1-(-1)=4
+$$
+したがって終点は $(0,4)$ である。
+
+さらに，軸との交点を調べる。
+
+- $x$ 軸との交点は $y=0$ を満たす点である。  
+  $y=3\sin t-\sin3t=0$ とおくと，
+  $$3\sin t=\sin3t$$
+  ここで三重角の公式 $\sin3t=3\sin t-4\sin^3 t$ を用いると
+  $$
+  3\sin t=3\sin t-4\sin^3 t \quad\Rightarrow\quad -4\sin^3 t=0
+  $$
+  より $\sin t=0$，すなわち $t=0$（区間 $[0,\frac{\pi}{2}]$ 内）である。  
+  したがって $x$ 軸との交点は始点 $(2,0)$ だけである。
+
+- $y$ 軸との交点は $x=0$ を満たす点である。  
+  $x=3\cos t-\cos3t=0$ とおくと
+  $$3\cos t=\cos3t$$
+  三重角の公式 $\cos3t=4\cos^3 t-3\cos t$ を用いると
+  $$
+  3\cos t=4\cos^3 t-3\cos t
+  \quad\Rightarrow\quad
+  0=4\cos^3 t-6\cos t
+  $$
+  $$
+  2\cos t(2\cos^2 t-3)=0
+  $$
+  となる。区間 $0\le t\le\frac{\pi}{2}$ では $\cos t\ge0$ なので
+  $$
+  \cos t=0\quad\text{または}\quad 2\cos^2 t-3=0
+  $$
+  だが，$2\cos^2 t-3=0$ は $\cos^2 t=\frac{3}{2}>1$ となり不適なので棄却される。  
+  よって $\cos t=0$ すなわち $t=\frac{\pi}{2}$ のときだけ $x=0$ となる。  
+  このときの点は $(0,4)$ であるから，$y$ 軸との交点は終点 $(0,4)$ だけである。
+
+次に単調性と向きを調べる。
+
+$t=0$ で
+$$
+\frac{dx}{dt}\Big|_{t=0}=3(\sin0-\sin0)=0,\quad
+\frac{dy}{dt}\Big|_{t=0}=3(\cos0-\cos0)=0
+$$
+であり，$t=\frac{\pi}{2}$ でも同様に
+$$
+\frac{dx}{dt}\Big|_{t=\frac{\pi}{2}}=3(\sin\frac{3\pi}{2}-\sin\frac{\pi}{2})
+=3(-1-1)=-6<0,
+$$
+$$
+\frac{dy}{dt}\Big|_{t=\frac{\pi}{2}}
+=3(\cos\frac{\pi}{2}-\cos\frac{3\pi}{2})
+=3(0-0)=0
+$$
+となる。途中の様子を調べるため，いくつか代表値を計算しておく。
+
+$t=\frac{\pi}{3}$ のとき，
+$$
+x=\;3\cos\frac{\pi}{3}-\cos\pi = 3\cdot\frac12 -(-1)=\frac{3}{2}+1=\frac{5}{2},
+$$
+$$
+y=3\sin\frac{\pi}{3}-\sin\pi
+=3\cdot\frac{\sqrt3}{2}-0=\frac{3\sqrt3}{2}
+$$
+であり，この点は第1象限にあり，$x$ 座標は $2$ より大きくなっている。  
+また，$t$ の増加に伴い，$x$ は一度増加してから減少し，$y$ は $0$ から増加して $4$ に至ることが分かる。
+
+以上をもとにすると，曲線 $C$ は第1象限内にあり，$x$ 軸上の点 $(2,0)$ から出発していったん右上方へ膨らみ，その後左上方へ向かって $y$ 軸上の点 $(0,4)$ に到達する滑らかな曲線である，という概形になる。
+
+（答案では，始点 $(2,0)$，終点 $(0,4)$，および途中の点 $(\frac{5}{2},\frac{3\sqrt3}{2})$ などをとり，右にふくらんでから左に戻るような形を，$x$ 軸・$y$ 軸とともに図示すればよい。）
+
+---
+
+(2)  
+曲線 $C$ と $x$ 軸および $y$ 軸で囲まれた部分の面積 $S$ を求める。
+
+媒介変数表示された曲線と $x$ 軸で囲まれる面積は，$x$ が単調でない場合でも，
+$$
+S=\int x\,dy
+$$
+で計算できる（線積分の公式，あるいはグリーンの定理から得られる標準公式）。  
+ここでは，$x=0$（$y$ 軸）から $y=0$（$x$ 軸）に向かって反時計回りに一周する閉曲線を考えると，面積は
+$$
+S=\int_{C} x\,dy
+$$
+で与えられる。パラメータ $t$ を用いると，$0\le t\le\frac{\pi}{2}$ で点は $(2,0)$ から $(0,4)$ へ動くので，この向きでの $C$ を用いればよい。
+
+したがって
+$$
+S=\int_{t=0}^{t=\frac{\pi}{2}} x(t)\,\frac{dy}{dt}\,dt
+$$
+となる。
+
+すでに求めた
+$$
+x(t)=3\cos t-\cos3t,\quad
+\frac{dy}{dt}=3(\cos t-\cos3t)
+$$
+を用いると
+$$
+S=\int_{0}^{\frac{\pi}{2}}(3\cos t-\cos3t)\cdot 3(\cos t-\cos3t)\,dt
+$$
+$$
+=3\int_{0}^{\frac{\pi}{2}}(3\cos t-\cos3t)(\cos t-\cos3t)\,dt
+$$
+
+積を展開すると
+$$
+(3\cos t-\cos3t)(\cos t-\cos3t)
+=3\cos t\cos t-3\cos t\cos3t-\cos3t\cos t+\cos^2 3t
+$$
+$$
+=3\cos^2 t-4\cos t\cos3t+\cos^2 3t
+$$
+
+よって
+$$
+S=3\int_{0}^{\frac{\pi}{2}}\left(3\cos^2 t-4\cos t\cos3t+\cos^2 3t\right)\,dt
+$$
+と書ける。
+
+それぞれの項を別々に計算する。
+
+1つ目の項：
+$$
+\int_{0}^{\frac{\pi}{2}}3\cos^2 t\,dt
+=3\int_{0}^{\frac{\pi}{2}}\frac{1+\cos2t}{2}\,dt
+=\frac{3}{2}\left[\;t+\frac{\sin2t}{2}\right]_{0}^{\frac{\pi}{2}}
+=\frac{3}{2}\cdot\frac{\pi}{2}
+=\frac{3\pi}{4}
+$$
+
+2つ目の項には積の形があるので，積の公式
+$$
+\cos A\cos B=\frac{\cos(A+B)+\cos(A-B)}{2}
+$$
+を用いる。
+$$
+\int_{0}^{\frac{\pi}{2}}4\cos t\cos3t\,dt
+=4\int_{0}^{\frac{\pi}{2}}\frac{\cos4t+\cos(-2t)}{2}\,dt
+=2\int_{0}^{\frac{\pi}{2}}(\cos4t+\cos2t)\,dt
+$$
+$$
+=2\left[\frac{\sin4t}{4}+\frac{\sin2t}{2}\right]_{0}^{\frac{\pi}{2}}
+=2\left( \frac{\sin2\pi}{4}+\frac{\sin\pi}{2}
+          -\frac{\sin0}{4}-\frac{\sin0}{2} \right)
+=2\cdot 0=0
+$$
+したがって
+$$
+\int_{0}^{\frac{\pi}{2}}4\cos t\cos3t\,dt=0
+$$
+
+3つ目の項：
+$$
+\int_{0}^{\frac{\pi}{2}}\cos^2 3t\,dt
+=\int_{0}^{\frac{\pi}{2}}\frac{1+\cos6t}{2}\,dt
+=\frac{1}{2}\left[\;t+\frac{\sin6t}{6}\right]_{0}^{\frac{\pi}{2}}
+=\frac{1}{2}\cdot\frac{\pi}{2}
+=\frac{\pi}{4}
+$$
+
+以上より
+$$
+\int_{0}^{\frac{\pi}{2}}\left(3\cos^2 t-4\cos t\cos3t+\cos^2 3t\right)\,dt
+=\frac{3\pi}{4}-0+\frac{\pi}{4}
+=\pi
+$$
+
+したがって
+$$
+S=3\cdot \pi=3\pi
+$$
+
+よって，求める面積は
+$$
+\boxed{3\pi}
+$$
+である。

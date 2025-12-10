@@ -1,0 +1,348 @@
+## 解答
+
+(1)  
+$\displaystyle \int_0^{\frac{\pi}{2}}\sin^n x\,dx=\int_0^{\frac{\pi}{2}}\cos^n x\,dx$ を示す。
+
+積分の変数変換 $x=\frac{\pi}{2}-t$ を用いる。  
+$x=0$ のとき $t=\frac{\pi}{2}$，$x=\frac{\pi}{2}$ のとき $t=0$，また $dx=-dt$ であるから，
+
+\[
+\int_0^{\frac{\pi}{2}}\sin^n x\,dx
+=\int_{x=0}^{x=\frac{\pi}{2}}\sin^n x\,dx
+=\int_{t=\frac{\pi}{2}}^{t=0}\sin^n\!\left(\frac{\pi}{2}-t\right)(-dt)
+=\int_0^{\frac{\pi}{2}}\sin^n\!\left(\frac{\pi}{2}-t\right)dt
+\]
+
+一方 $\sin\!\left(\frac{\pi}{2}-t\right)=\cos t$ であるから，
+
+\[
+\int_0^{\frac{\pi}{2}}\sin^n x\,dx
+=\int_0^{\frac{\pi}{2}}\cos^n t\,dt
+\]
+
+積分変数の記号は任意なので $t$ を $x$ に戻せば，
+
+\[
+\int_0^{\frac{\pi}{2}}\sin^n x\,dx=\int_0^{\frac{\pi}{2}}\cos^n x\,dx
+\]
+
+よって示された。
+
+---
+
+(2)  
+\[
+I_n=2n\int_0^{\frac{\pi}{2}}x\sin x\cos^{2n-1}x\,dx
+\]
+が
+\[
+I_n=\int_0^{\frac{\pi}{2}}\sin^{2n}x\,dx
+\]
+を満たすことを示す。
+
+部分積分を用いる。  
+積分
+\[
+\int_0^{\frac{\pi}{2}}x\sin x\cos^{2n-1}x\,dx
+\]
+において
+\[
+u=x,\quad dv=\sin x\cos^{2n-1}x\,dx
+\]
+とおくと，
+\[
+du=dx
+\]
+である。$v$ を求めるために
+\[
+\int\sin x\cos^{2n-1}x\,dx
+\]
+を計算する。ここで
+\[
+\sin x\cos^{2n-1}x
+=\sin x\cdot\cos^{2n-1}x
+\]
+に対し，$\cos x$ を変数とみて置換積分を行う。  
+$t=\cos x$ とおくと $dt=-\sin x\,dx$ なので
+\[
+\int\sin x\cos^{2n-1}x\,dx
+=-\int t^{2n-1}\,dt
+=-\frac{t^{2n}}{2n}+C
+=-\frac{\cos^{2n}x}{2n}+C
+\]
+よって
+\[
+v=-\frac{\cos^{2n}x}{2n}
+\]
+とわかる。
+
+部分積分の公式
+\[
+\int_a^b u\,dv=\left[u v\right]_a^b-\int_a^b v\,du
+\]
+を用いると，
+\[
+\int_0^{\frac{\pi}{2}}x\sin x\cos^{2n-1}x\,dx
+=\left.x\left(-\frac{\cos^{2n}x}{2n}\right)\right|_0^{\frac{\pi}{2}}
+-\int_0^{\frac{\pi}{2}}\left(-\frac{\cos^{2n}x}{2n}\right)\,dx
+\]
+
+右辺第1項を計算する。  
+$x=\frac{\pi}{2}$ では $\cos\frac{\pi}{2}=0$ より $\cos^{2n}\frac{\pi}{2}=0$，  
+$x=0$ では $\cos0=1$ であるが係数に $x$ がかかっているので $0\cdot 1=0$ となるから，
+
+\[
+\left.x\left(-\frac{\cos^{2n}x}{2n}\right)\right|_0^{\frac{\pi}{2}}=0
+\]
+
+したがって
+\[
+\int_0^{\frac{\pi}{2}}x\sin x\cos^{2n-1}x\,dx
+=\frac{1}{2n}\int_0^{\frac{\pi}{2}}\cos^{2n}x\,dx
+\]
+
+両辺に $2n$ を掛けると
+\[
+2n\int_0^{\frac{\pi}{2}}x\sin x\cos^{2n-1}x\,dx
+=\int_0^{\frac{\pi}{2}}\cos^{2n}x\,dx
+\]
+
+右辺の積分は (1) の結果より
+\[
+\int_0^{\frac{\pi}{2}}\cos^{2n}x\,dx
+=\int_0^{\frac{\pi}{2}}\sin^{2n}x\,dx
+\]
+であるから，
+
+\[
+I_n
+=2n\int_0^{\frac{\pi}{2}}x\sin x\cos^{2n-1}x\,dx
+=\int_0^{\frac{\pi}{2}}\sin^{2n}x\,dx
+\]
+
+よって示された。
+
+---
+
+(3)  
+\[
+\frac{d}{dx}\bigl(\cos x\sin^{n-1}x\bigr)
+\]
+を $\sin x$ と $n$ を用いて表す。
+
+積の微分法を用いる。  
+$u=\cos x,\ v=\sin^{n-1}x$ とおくと，
+\[
+u'=-\sin x,\quad
+v'=(n-1)\sin^{n-2}x\cos x
+\]
+（ここで $\frac{d}{dx}\sin^{n-1}x=(n-1)\sin^{n-2}x\cos x$ を用いた）。  
+よって
+\[
+\frac{d}{dx}(\cos x\sin^{n-1}x)
+=u'v+uv'
+=-\sin x\sin^{n-1}x
++\cos x\cdot(n-1)\sin^{n-2}x\cos x
+\]
+
+第2項を整理すると
+\[
+\cos x\cdot(n-1)\sin^{n-2}x\cos x
+=(n-1)\sin^{n-2}x\cos^2x
+\]
+
+したがって
+\[
+\frac{d}{dx}(\cos x\sin^{n-1}x)
+=-(\sin x)\sin^{n-1}x+(n-1)\sin^{n-2}x\cos^2x
+\]
+\[
+=-\sin^{n}x+(n-1)\sin^{n-2}x\cos^2x
+\]
+
+ここで $\cos^2x=1-\sin^2x$ を用いると，
+\[
+(n-1)\sin^{n-2}x\cos^2x
+=(n-1)\sin^{n-2}x(1-\sin^2x)
+=(n-1)\sin^{n-2}x-(n-1)\sin^{n}x
+\]
+
+したがって
+\[
+\frac{d}{dx}(\cos x\sin^{n-1}x)
+=-\sin^{n}x+(n-1)\sin^{n-2}x-(n-1)\sin^{n}x
+\]
+\[
+=(n-1)\sin^{n-2}x-n\sin^{n}x
+\]
+
+よって求める式は
+\[
+\boxed{\displaystyle
+\frac{d}{dx}(\cos x\sin^{n-1}x)=(n-1)\sin^{n-2}x-n\sin^{n}x}
+\]
+である。
+
+---
+
+(4)  
+数列 $\{I_n\}$ が
+\[
+I_n=\frac{2n-1}{2n}I_{n-1}\quad (n\ge2)
+\]
+を満たすことを示す。
+
+(2) より
+\[
+I_n=\int_0^{\frac{\pi}{2}}\sin^{2n}x\,dx
+\]
+であるから，これを用いて漸化式を導く。
+
+まず (3) で得た式に $n$ のところを $2n$ とおきかえる。すなわち
+\[
+\frac{d}{dx}(\cos x\sin^{2n-1}x)
+=(2n-1)\sin^{2n-2}x-2n\sin^{2n}x
+\]
+
+これを整理して $\sin^{2n}x$ について解くと，
+\[
+2n\sin^{2n}x=(2n-1)\sin^{2n-2}x-\frac{d}{dx}(\cos x\sin^{2n-1}x)
+\]
+
+両辺を $x$ について $0$ から $\frac{\pi}{2}$ まで積分する。  
+左辺は
+\[
+\int_0^{\frac{\pi}{2}}2n\sin^{2n}x\,dx=2nI_n
+\]
+
+右辺第1項は
+\[
+\int_0^{\frac{\pi}{2}}(2n-1)\sin^{2n-2}x\,dx
+=(2n-1)\int_0^{\frac{\pi}{2}}\sin^{2n-2}x\,dx
+=(2n-1)I_{n-1}
+\]
+（(2) に $n-1$ を代入）。
+
+右辺第2項は，微分の積分なので
+\[
+\int_0^{\frac{\pi}{2}}\frac{d}{dx}(\cos x\sin^{2n-1}x)\,dx
+=\left.\cos x\sin^{2n-1}x\right|_0^{\frac{\pi}{2}}
+\]
+
+$x=\frac{\pi}{2}$ では $\cos\frac{\pi}{2}=0$ より 0，  
+$x=0$ では $\sin0=0$ よりやはり 0 であるから，この境界値は 0 となる。
+
+以上より
+\[
+2nI_n=(2n-1)I_{n-1}-0
+\]
+したがって
+\[
+I_n=\frac{2n-1}{2n}I_{n-1}\quad(n\ge2)
+\]
+
+よって示された。
+
+---
+
+(5)  
+数列 $\{I_n\}$ の一般項を求める。
+
+(4) の漸化式
+\[
+I_n=\frac{2n-1}{2n}I_{n-1}\quad(n\ge2)
+\]
+を用いて $I_n$ を $I_1$ で表す。
+
+まず $I_1$ を計算する。(2) より
+\[
+I_1=\int_0^{\frac{\pi}{2}}\sin^{2}x\,dx
+\]
+
+$\sin^2x=\frac{1-\cos2x}{2}$ を用いると
+\[
+I_1=\int_0^{\frac{\pi}{2}}\frac{1-\cos2x}{2}\,dx
+=\frac12\int_0^{\frac{\pi}{2}}1\,dx-\frac12\int_0^{\frac{\pi}{2}}\cos2x\,dx
+\]
+
+第1項は
+\[
+\frac12\int_0^{\frac{\pi}{2}}1\,dx
+=\frac12\left[x\right]_0^{\frac{\pi}{2}}
+=\frac12\cdot\frac{\pi}{2}
+=\frac{\pi}{4}
+\]
+
+第2項は
+\[
+\frac12\int_0^{\frac{\pi}{2}}\cos2x\,dx
+=\frac12\cdot\frac12\left[\sin2x\right]_0^{\frac{\pi}{2}}
+=\frac14(\sin\pi-\sin0)=0
+\]
+
+よって
+\[
+I_1=\frac{\pi}{4}
+\]
+
+次に，漸化式を繰り返し用いる。  
+\[
+I_n=\frac{2n-1}{2n}I_{n-1}
+\]
+に $n-1,n-2,\dots,2$ を順に代入していくと
+
+\[
+I_{n-1}=\frac{2n-3}{2n-2}I_{n-2}
+\]
+\[
+I_{n-2}=\frac{2n-5}{2n-4}I_{n-3}
+\]
+\[
+\ \ \vdots
+\]
+\[
+I_2=\frac{3}{4}I_1
+\]
+
+これらを掛け合わせると
+\[
+I_n=\frac{2n-1}{2n}\cdot\frac{2n-3}{2n-2}\cdot\frac{2n-5}{2n-4}\cdots\frac{3}{4}\,I_1
+\]
+
+分子は奇数の積，分母は偶数の積になっているので，これを積の記号で書けば
+\[
+I_n=
+\left(\prod_{k=1}^{n}\frac{2k-1}{2k}\right)I_1
+\]
+
+したがって
+\[
+I_n=
+\left(\prod_{k=1}^{n}\frac{2k-1}{2k}\right)\cdot\frac{\pi}{4}
+\]
+
+これをもう少し整え，二重階乗を用いて表すこともできる。  
+分子は $1\cdot3\cdot5\cdots(2n-1)=(2n-1)!!$，  
+分母は $2\cdot4\cdot6\cdots(2n)=2^n n!$ であるから，
+\[
+\prod_{k=1}^{n}\frac{2k-1}{2k}
+=\frac{1\cdot3\cdot5\cdots(2n-1)}{2\cdot4\cdot6\cdots(2n)}
+=\frac{(2n-1)!!}{2^n n!}
+\]
+
+よって
+\[
+I_n=\frac{(2n-1)!!}{2^n n!}\cdot\frac{\pi}{4}
+\]
+
+二重階乗を使わずに書くならば
+\[
+I_n=\frac{\pi}{4}\cdot\frac{1\cdot3\cdot5\cdots(2n-1)}{2\cdot4\cdot6\cdots(2n)}
+\]
+
+したがって，数列 $\{I_n\}$ の一般項は
+\[
+\boxed{\displaystyle
+I_n=\frac{\pi}{4}\prod_{k=1}^{n}\frac{2k-1}{2k}}
+\]
+である（同値な形として $\displaystyle I_n=\frac{(2n-1)!!}{2^n n!}\cdot\frac{\pi}{4}$ などもよい）。

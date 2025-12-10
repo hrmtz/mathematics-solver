@@ -1,0 +1,357 @@
+## 解答
+
+(1)  
+
+条件(A)に $x=y=0$ を代入すると，
+$$
+f(0+0)=f(0)f(0)-g(0)g(0)
+$$
+すなわち
+$$
+f(0)=f(0)^2-g(0)^2
+$$
+が成り立つ。これを変形すると
+$$
+0=f(0)^2-g(0)^2-f(0)=f(0)^2-f(0)-g(0)^2
+$$
+よって
+$$
+f(0)^2-f(0)-g(0)^2=0
+$$
+を $f(0)$ について解くと
+$$
+f(0)=\frac{1\pm\sqrt{1+4g(0)^2}}{2}
+$$
+であるが，ここでは別の方法で $g(0)$ を求める。
+
+条件(B)に $x=y=0$ を代入すると，
+$$
+g(0+0)=f(0)g(0)+g(0)f(0)
+$$
+すなわち
+$$
+g(0)=2f(0)g(0)
+$$
+が成り立つ。よって
+$$
+(1-2f(0))g(0)=0
+$$
+となる。
+
+ここで，条件(C)より $f(0)\neq 0$ であるから，$1-2f(0)=0$ すなわち $f(0)=\dfrac12$ とは限らない。  
+したがって，上の等式からは
+$$
+g(0)=0 \quad \text{または} \quad f(0)=\frac{1}{2}
+$$
+のいずれかが成り立つ。
+
+まず $f(0)=\dfrac{1}{2}$ が成り立つと仮定すると，先ほどの
+$$
+f(0)=f(0)^2-g(0)^2
+$$
+に代入して
+$$
+\frac12=\left(\frac12\right)^2-g(0)^2
+$$
+すなわち
+$$
+\frac12=\frac14-g(0)^2
+$$
+となり，
+$$
+g(0)^2=\frac14-\frac12=-\frac14
+$$
+を得る。ところが $g(0)$ は実数値であるから $g(0)^2\ge0$ でなければならず，これは矛盾である。
+
+したがって $f(0)=\dfrac{1}{2}$ は成り立たない。よって
+$$
+g(0)=0
+$$
+が必要である。
+
+このとき，再び
+$$
+f(0)=f(0)^2-g(0)^2
+$$
+に $g(0)=0$ を代入すると
+$$
+f(0)=f(0)^2
+$$
+すなわち
+$$
+f(0)^2-f(0)=0
+$$
+より
+$$
+f(0)\{f(0)-1\}=0
+$$
+となる。条件(C)より $f(0)\neq0$ であるから
+$$
+f(0)-1=0
+$$
+すなわち
+$$
+f(0)=1
+$$
+が得られる。
+
+以上より
+$$
+f(0)=1,\quad g(0)=0
+$$
+が示された。
+
+---
+
+(2)  
+
+まず $f(x)$ が任意の実数 $x$ で微分可能であることと，$f'(x)=-g(x)$ が成り立つことを示す。
+
+条件(A)より
+$$
+f(x+y)=f(x)f(y)-g(x)g(y)
+$$
+が任意の実数 $x,y$ について成り立つ。ここで，$x$ を固定し，$y$ を変数とみなして，左辺を $y$ で微分することを考える。  
+
+右辺は $f(y)$ および $g(y)$ についての積の形であり，条件(D)より $x=0$ では微分可能であるが，今は一般の $x$ での微分可能性を示したいので，次のようにする。
+
+$x$ を固定して，$y=0$ における $f(x+y)$ の $y$ による導関数を，微分の定義から求める：
+$$
+\left.\frac{d}{dy}f(x+y)\right|_{y=0}
+=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}.
+$$
+一方，条件(A)を用いると
+$$
+f(x+h)=f(x)f(h)-g(x)g(h)
+$$
+なので
+$$
+\frac{f(x+h)-f(x)}{h}
+=\frac{f(x)\{f(h)-1\}-g(x)g(h)}{h}.
+$$
+ここで $h\to0$ とするときの極限を調べる。
+
+(1) で求めた $f(0)=1,\ g(0)=0$ と条件(D) $f'(0)=0,\ g'(0)=1$ から，
+$$
+\lim_{h\to0}\frac{f(h)-1}{h}=f'(0)=0,\quad
+\lim_{h\to0}\frac{g(h)}{h}=g'(0)=1
+$$
+である。したがって
+$$
+\lim_{h\to0}\frac{f(x+h)-f(x)}{h}
+=f(x)\cdot 0-g(x)\cdot 1=-g(x)
+$$
+となる。  
+
+よって，任意の実数 $x$ に対して
+$$
+f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}=-g(x)
+$$
+が存在し，かつ $f'(x)=-g(x)$ が成り立つ。
+
+同様に，条件(B)
+$$
+g(x+y)=f(x)g(y)+g(x)f(y)
+$$
+についても同じ議論を行うと，
+$$
+g'(x)=f(x)
+$$
+が任意の実数 $x$ で成り立ち，$g(x)$ は全ての実数 $x$ で微分可能であることも分かる。
+
+（設問では $f$ のみについて示せばよいので，以上でよい。）
+
+---
+
+(3)  
+
+$F(x)=f(x)+ig(x)$ とおくと，(2) で示した関係 $f'(x)=-g(x),\ g'(x)=f(x)$ から
+$$
+F'(x)=f'(x)+ig'(x)=-g(x)+if(x)=i\{f(x)+ig(x)\}=iF(x)
+$$
+となる。よって
+$$
+F'(x)=iF(x)
+$$
+という一次の線形微分方程式を満たす。
+
+また (1) より $f(0)=1,\ g(0)=0$ であるから
+$$
+F(0)=f(0)+ig(0)=1
+$$
+である。
+
+ここで，複素指数関数 $e^{ix}$ は
+$$
+\frac{d}{dx}e^{ix}=ie^{ix},\quad e^{i\cdot0}=1
+$$
+を満たすことが知られている。微分方程式 $Y'(x)=iY(x)$ の解は初期条件 $Y(0)=1$ で一意であるから（微分方程式の解の一意性定理），
+$$
+F(x)=e^{ix}
+$$
+が従う。
+
+一方，オイラーの公式
+$$
+e^{ix}=\cos x+i\sin x
+$$
+から，
+$$
+F(x)=f(x)+ig(x)=\cos x+i\sin x
+$$
+である。したがって
+$$
+\{f(x)+ig(x)\}(\cos x-i\sin x)
+=F(x)\overline{F(x)}
+=|F(x)|^2.
+$$
+ここで $\cos^2x+\sin^2x=1$ より
+$$
+|F(x)|^2=(\cos x)^2+(\sin x)^2=1
+$$
+であるから，
+$$
+\{f(x)+ig(x)\}(\cos x-i\sin x)=1
+$$
+が示された。
+
+（途中で $f(x)=\cos x,\ g(x)=\sin x$ を用いず，あくまで $F(x)=e^{ix}$ と $\cos^2x+\sin^2x=1$ を用いた形にしている。）
+
+---
+
+(4)  
+
+まず $p(x),q(x)$ が条件(B)，(D) を満たすことを示す。
+
+定義より
+$$
+p(x)=e^{-\frac{a}{b}x}f\!\left(\frac{x}{b}\right),\quad
+q(x)=e^{-\frac{a}{b}x}g\!\left(\frac{x}{b}\right)
+$$
+である。
+
+### (B) の確認
+
+$p,q$ についての (B) は
+$$
+q(x+y)=p(x)q(y)+q(x)p(y)
+$$
+である。左辺から計算すると
+$$
+q(x+y)
+=e^{-\frac{a}{b}(x+y)}g\!\left(\frac{x+y}{b}\right).
+$$
+一方，右辺は
+\begin{align*}
+p(x)q(y)+q(x)p(y)
+&=e^{-\frac{a}{b}x}f\!\left(\frac{x}{b}\right)\cdot e^{-\frac{a}{b}y}g\!\left(\frac{y}{b}\right)
+ +e^{-\frac{a}{b}x}g\!\left(\frac{x}{b}\right)\cdot e^{-\frac{a}{b}y}f\!\left(\frac{y}{b}\right)\\
+&=e^{-\frac{a}{b}(x+y)}\bigl\{f\!\left(\frac{x}{b}\right)g\!\left(\frac{y}{b}\right)
+ +g\!\left(\frac{x}{b}\right)f\!\left(\frac{y}{b}\right)\bigr\}.
+\end{align*}
+ここで $u=\dfrac{x}{b},\ v=\dfrac{y}{b}$ とおけば $u+v=\dfrac{x+y}{b}$ であり，元の関数 $f,g$ は条件(B)
+$$
+g(u+v)=f(u)g(v)+g(u)f(v)
+$$
+を満たしているから
+$$
+f\!\left(\frac{x}{b}\right)g\!\left(\frac{y}{b}\right)
+ +g\!\left(\frac{x}{b}\right)f\!\left(\frac{y}{b}\right)
+=g\!\left(\frac{x+y}{b}\right)
+$$
+となる。よって
+$$
+p(x)q(y)+q(x)p(y)
+=e^{-\frac{a}{b}(x+y)}g\!\left(\frac{x+y}{b}\right)
+=q(x+y)
+$$
+が成り立ち，(B) が示された。
+
+### (D) の確認
+
+$x=0$ における微分を求める。まず $p(0),q(0)$ を確認する。
+
+(1) で示したように，条件(A),(B),(C) から $f(0)=1,\ g(0)=0$ であるから，
+$$
+p(0)=e^0 f(0)=1,\quad q(0)=e^0 g(0)=0
+$$
+である。
+
+$p'(0)$ を求める。積の微分と合成関数の微分を用いると
+\begin{align*}
+p'(x)
+&=\frac{d}{dx}\Bigl(e^{-\frac{a}{b}x}\Bigr)\cdot f\!\left(\frac{x}{b}\right)
+ +e^{-\frac{a}{b}x}\cdot\frac{d}{dx}f\!\left(\frac{x}{b}\right)\\
+&=-\frac{a}{b}e^{-\frac{a}{b}x}f\!\left(\frac{x}{b}\right)
+ +e^{-\frac{a}{b}x}\cdot f'\!\left(\frac{x}{b}\right)\cdot\frac{1}{b}.
+\end{align*}
+したがって
+\begin{align*}
+p'(0)
+&=-\frac{a}{b}e^0 f(0)+e^0\cdot f'(0)\cdot\frac{1}{b}\\
+&=-\frac{a}{b}\cdot1+\frac{1}{b}\cdot a
+=0.
+\end{align*}
+
+同様に $q'(x)$ は
+\begin{align*}
+q'(x)
+&=\frac{d}{dx}\Bigl(e^{-\frac{a}{b}x}\Bigr)\cdot g\!\left(\frac{x}{b}\right)
+ +e^{-\frac{a}{b}x}\cdot\frac{d}{dx}g\!\left(\frac{x}{b}\right)\\
+&=-\frac{a}{b}e^{-\frac{a}{b}x}g\!\left(\frac{x}{b}\right)
+ +e^{-\frac{a}{b}x}\cdot g'\!\left(\frac{x}{b}\right)\cdot\frac{1}{b}
+\end{align*}
+だから，
+\begin{align*}
+q'(0)
+&=-\frac{a}{b}e^0 g(0)+e^0\cdot g'(0)\cdot\frac{1}{b}\\
+&=-\frac{a}{b}\cdot0+\frac{1}{b}\cdot b
+=1.
+\end{align*}
+
+よって $p,q$ は $x=0$ で微分可能であり，
+$$
+p'(0)=0,\quad q'(0)=1
+$$
+が成り立つ。すなわち，$p,q$ は (D) を満たす。
+
+以上で，$p,q$ は (B),(C),(D) を満たすことが示された。さらに $f(0)=1$ より
+$$
+p(0)=e^0 f(0)=1
+$$
+であって，(C) も満たしている。問題文の指示の通り，条件(A) についても同様に確認でき，$p,q$ は前半で扱った $a=0,b=1$ の場合の条件(A),(B),(C),(D) をすべて満たすことになる。
+
+### $p,q$ の形と $f,g$ の形
+
+前半の議論より，条件(A),(B),(C),(D) を満たす関数は
+$$
+p(x)=\cos x,\quad q(x)=\sin x
+$$
+である。
+
+これを用いて $f,g$ を求める。定義
+$$
+p(x)=e^{-\frac{a}{b}x}f\!\left(\frac{x}{b}\right),\quad
+q(x)=e^{-\frac{a}{b}x}g\!\left(\frac{x}{b}\right)
+$$
+に $p(x)=\cos x,\ q(x)=\sin x$ を代入すると
+$$
+e^{-\frac{a}{b}x}f\!\left(\frac{x}{b}\right)=\cos x,\quad
+e^{-\frac{a}{b}x}g\!\left(\frac{x}{b}\right)=\sin x
+$$
+となる。$x$ を $bx$ とおきなおすと
+$$
+e^{-ax}f(x)=\cos (bx),\quad e^{-ax}g(x)=\sin (bx)
+$$
+が得られるから，
+$$
+f(x)=e^{ax}\cos (bx),\quad g(x)=e^{ax}\sin (bx)
+$$
+となる。
+
+したがって，空欄には
+$$
+\text{[ア] }f(x)=e^{ax}\cos (bx),\qquad
+\text{[イ] }g(x)=e^{ax}\sin (bx)
+$$
+が入る。

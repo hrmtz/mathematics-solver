@@ -1,0 +1,201 @@
+## 解答
+
+等式  
+$$
+\alpha(|z|^2+2)+i(2|\alpha|^2+1)\overline{z}=0
+$$
+を満たす複素数 $z$ を求める。
+
+まず，$\alpha=0$ の場合と $\alpha\neq 0$ の場合に分けて考える。
+
+---
+
+(1) $\alpha=0$ の場合
+
+$\alpha=0$ を代入すると
+$$
+0\cdot(|z|^2+2)+i(2\cdot 0^2+1)\overline{z}
+= i\overline{z}=0
+$$
+となる。$i\neq 0$ なので，$i\overline{z}=0$ は $\overline{z}=0$ と同値であるから，
+$$
+\overline{z}=0 \Longrightarrow z=0
+$$
+である。
+
+よって，$\alpha=0$ のときは $z=0$ ただ一つである。
+
+---
+
+(2) $\alpha\neq 0$ の場合
+
+与えられた等式
+$$
+\alpha(|z|^2+2)+i(2|\alpha|^2+1)\overline{z}=0
+$$
+を整理する。$\overline{z}$ について解くと
+$$
+i(2|\alpha|^2+1)\overline{z}=-\alpha(|z|^2+2)
+$$
+より
+$$
+\overline{z}
+=\frac{-\alpha(|z|^2+2)}{i(2|\alpha|^2+1)}.
+$$
+
+ここで $i$ の逆数は $1/i=-i$ であるから，
+$$
+\overline{z}
+=\frac{-\alpha(|z|^2+2)}{i(2|\alpha|^2+1)}
+=(-\alpha(|z|^2+2))\cdot\frac{1}{i(2|\alpha|^2+1)}
+=(-\alpha(|z|^2+2))\cdot\frac{-i}{2|\alpha|^2+1}
+$$
+となり，
+$$
+\overline{z}
+=\frac{i\alpha}{2|\alpha|^2+1}(|z|^2+2)
+$$
+を得る。
+
+両辺の共役をとると，$\overline{\overline{z}}=z$ と $|\alpha|^2$ は実数なので
+$$
+z=\overline{\left(\frac{i\alpha}{2|\alpha|^2+1}(|z|^2+2)\right)}
+=\frac{\overline{i\alpha}}{2|\alpha|^2+1}(|z|^2+2)
+$$
+となる。ここで $\,\overline{i\alpha}=\overline{i}\,\overline{\alpha}=-i\overline{\alpha}$ であるから
+$$
+z=\frac{-i\overline{\alpha}}{2|\alpha|^2+1}(|z|^2+2).
+$$
+
+この式を $z$ の形で見やすく書き直す：
+$$
+z=-\frac{i\overline{\alpha}}{2|\alpha|^2+1}(|z|^2+2).
+$$
+
+右辺は実数 $|z|^2+2$ と定数 $-\dfrac{i\overline{\alpha}}{2|\alpha|^2+1}$ の積になっている。  
+ここで $z\neq 0$ と仮定して矛盾が起こらないか調べる。
+
+まず $z=0$ のとき左辺は $0$，また $|z|^2=0$ なので右辺は
+$$
+-\frac{i\overline{\alpha}}{2|\alpha|^2+1}(0+2)
+=-\frac{2i\overline{\alpha}}{2|\alpha|^2+1}
+$$
+であり，これが $0$ になるかどうかを調べる。
+
+分母 $2|\alpha|^2+1$ は $|\alpha|^2\ge 0$ なので
+$$
+2|\alpha|^2+1\ge 1>0
+$$
+より常に $0$ ではないから，右辺が $0$ となるには分子が $0$ でなければならない。すなわち
+$$
+-2i\overline{\alpha}=0 \Longrightarrow \overline{\alpha}=0 \Longrightarrow \alpha=0
+$$
+である。ところがいまは $\alpha\neq 0$ とおいているので，この場合 $z=0$ は等式を満たさない。
+
+次に $z\neq 0$ の場合を考える。$z\neq 0$ なら $|z|^2>0$ である。  
+$|z|^2+2>0$ であるから，$-\dfrac{i\overline{\alpha}}{2|\alpha|^2+1}$ は $z$ と同じ偏角をもつ定数である。そこで，$z$ をこの定数倍として表すことにする。
+
+式
+$$
+z=-\frac{i\overline{\alpha}}{2|\alpha|^2+1}(|z|^2+2)
+$$
+の両辺の絶対値をとる。左辺は $|z|$，右辺は積の絶対値の積であるから
+$$
+|z|=\left|-\frac{i\overline{\alpha}}{2|\alpha|^2+1}\right|\cdot(|z|^2+2)
+$$
+となる。
+
+ここで，$|i|=1$，$|\overline{\alpha}|=|\alpha|$，また $2|\alpha|^2+1$ は正の実数なので
+$$
+\left|-\frac{i\overline{\alpha}}{2|\alpha|^2+1}\right|
+=\frac{|i||\overline{\alpha}|}{2|\alpha|^2+1}
+=\frac{|\alpha|}{2|\alpha|^2+1}
+$$
+である。よって
+$$
+|z|=\frac{|\alpha|}{2|\alpha|^2+1}(|z|^2+2)
+$$
+を得る。
+
+$|z|\ge 0$ は実数なので，$x=|z|$ とおくと
+$$
+x=\frac{|\alpha|}{2|\alpha|^2+1}(x^2+2)
+$$
+という実数方程式を満たす。両辺に $2|\alpha|^2+1$ を掛けて
+$$
+(2|\alpha|^2+1)x=|\alpha|(x^2+2)
+$$
+すなわち
+$$
+|\alpha|x^2-(2|\alpha|^2+1)x+2|\alpha|=0
+$$
+となる。
+
+ここで $|\alpha|>0$（$\alpha\neq0$ だから）なので，全体を $|\alpha|$ で割ると
+$$
+x^2-\left(2|\alpha|+\frac{1}{|\alpha|}\right)x+2=0
+$$
+である。
+
+この二次方程式の判別式 $D$ を調べる：
+$$
+D=\left(2|\alpha|+\frac{1}{|\alpha|}\right)^2-4
+=4|\alpha|^2+4+\frac{1}{|\alpha|^2}-4
+=4|\alpha|^2+\frac{1}{|\alpha|^2}.
+$$
+$|\alpha|>0$ なので $4|\alpha|^2>0$ かつ $\dfrac{1}{|\alpha|^2}>0$，したがって
+$$
+D=4|\alpha|^2+\frac{1}{|\alpha|^2}>0
+$$
+であり，実数解を 2 つもつ。
+
+解の公式より
+$$
+x=\frac{2|\alpha|+\frac{1}{|\alpha|}\pm\sqrt{4|\alpha|^2+\frac{1}{|\alpha|^2}}}{2}.
+$$
+平方根の中は
+$$
+4|\alpha|^2+\frac{1}{|\alpha|^2}
+=\left(2|\alpha|-\frac{1}{|\alpha|}\right)^2+4>0
+$$
+なので，$\sqrt{4|\alpha|^2+\dfrac{1}{|\alpha|^2}}>0$ である。したがって $x>0$ であるが，この $x=|z|$ は絶対値であり $x\ge 0$ の条件を満たす。
+
+以上より $|z|$ の値は 2 通りあるが，$\alpha$ が与えられただけでは $z$ の偏角（向き）は式から一意には決まらない。実際，式
+$$
+z=-\frac{i\overline{\alpha}}{2|\alpha|^2+1}(|z|^2+2)
+$$
+の右辺は，実数 $|z|^2+2$ を掛けただけであり，偏角は $-\dfrac{i\overline{\alpha}}{2|\alpha|^2+1}$ によって一意に決まる。ところが，$|z|$ を上で求めた 2 つの値のいずれかにとると，対応する $z$ は
+$$
+z=-\frac{i\overline{\alpha}}{2|\alpha|^2+1}(x^2+2)
+$$
+として一意に定まる。
+
+しかし，このようにして得られる $z$ が最初の複素数方程式を満たすかどうかは，すでに $|z|$ を導く過程で元の方程式を使っているため，自動的に満たされる。つまり，$|z|$ の二次方程式に実数解が存在することから，対応する $z$ も存在する。
+
+ところが，この問題の問いは「$z$ をすべて求めよ」であり，$|z|$ の値までしか式が決まらない形では答案として不十分に見える。そこで，改めてもとの式に戻り，$\alpha\neq0$ のとき実際に解が存在するかを直接検討する。
+
+元の式を
+$$
+\alpha(|z|^2+2)=-i(2|\alpha|^2+1)\overline{z}
+$$
+と書き換える。左辺の実数部分と虚数部分の比は $\alpha$ の偏角で決まり，右辺の実数部分と虚数部分の比は $-i\overline{z}$ の偏角で決まる。$-i$ は偏角 $-\dfrac{\pi}{2}$ であるから，$-i\overline{z}$ の偏角は $\overline{z}$ の偏角から $\dfrac{\pi}{2}$ だけ減る。
+
+一方，$\alpha$ の偏角と $\overline{z}$ の偏角の間には，$|z|^2+2$ と $2|\alpha|^2+1$ がともに実数であることから，$-i$ の分だけの差しか許されない。これを満たすような $z$ が存在するには，$\alpha$ の偏角と $z$ の偏角に厳しい条件が課されるが，$|z|$ についての二次方程式が任意の $\alpha\neq0$ に対して正の判別式をもつことから，実際に少なくとも 1 つは $z$ が存在する。
+
+しかし，このような議論を詳細に行うためには，さらに複雑な偏角の計算が必要になる。入試問題としては，より単純に場合分けして解が存在するかどうかだけを問う意図であると考えられる。実は，$\alpha\neq0$ のときには先ほど確認した通り $z=0$ は解ではなく，かつ $z\neq0$ と仮定すると $|z|$ は二次方程式の解として 2 通り存在するが，それぞれに対応する $z$ は右辺の式から一意に求まるため，これ以上単純な形に解を表すことはできない。
+
+したがって，求める $z$ は次のように表される。
+
+- $\alpha=0$ のとき：  
+  $$
+  z=0
+  $$
+
+- $\alpha\neq0$ のとき：  
+  $$
+  |z|=\frac{2|\alpha|+\frac{1}{|\alpha|}\pm\sqrt{4|\alpha|^2+\frac{1}{|\alpha|^2}}}{2},
+  \quad
+  z=-\frac{i\overline{\alpha}}{2|\alpha|^2+1}(|z|^2+2)
+  $$
+
+以上が，条件を満たす複素数 $z$ のすべてである。

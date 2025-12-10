@@ -1,0 +1,179 @@
+## 解答
+
+(1)  
+定義より  
+$$
+f_n(x)=1-\sqrt5\,|\sin(2n\pi x)|
+$$
+である。任意の整数 $k$ に対して
+$$
+\sin(2n\pi(x+\tfrac{k}{2n}))=\sin(2n\pi x+2n\pi\cdot\tfrac{k}{2n})
+=\sin(2n\pi x+k\pi)
+$$
+となる。ここで，三角関数の加法定理と $\sin(\theta+k\pi)=(-1)^k\sin\theta$ を用いると
+$$
+\sin(2n\pi x+k\pi)=(-1)^k\sin(2n\pi x)
+$$
+なので，絶対値をとると
+$$
+|\sin(2n\pi(x+\tfrac{k}{2n}))|
+=|\sin(2n\pi x+k\pi)|
+=|(-1)^k\sin(2n\pi x)|
+=|\sin(2n\pi x)|
+$$
+となる。したがって
+$$
+f_n\Bigl(x+\frac{k}{2n}\Bigr)
+=1-\sqrt5\,\Bigl|\sin\Bigl(2n\pi\bigl(x+\frac{k}{2n}\bigr)\Bigr)\Bigr|
+=1-\sqrt5\,|\sin(2n\pi x)|
+=f_n(x)
+$$
+が任意の実数 $x$ と $k=1,2,\dots,2n$ について成り立つ。
+
+(2)  
+$f_n(x)=0$ は
+$$
+1-\sqrt5\,|\sin(2n\pi x)|=0
+\quad\Longleftrightarrow\quad
+|\sin(2n\pi x)|=\frac{1}{\sqrt5}
+$$
+に同値である。ここで
+$$
+\alpha=\arcsin\frac{1}{\sqrt5}\quad(0<\alpha<\frac{\pi}{2})
+$$
+とおくと，$|\sin\theta|=\dfrac1{\sqrt5}$ は
+$$
+\theta=\alpha+2m\pi,\quad \theta=\pi-\alpha+2m\pi
+\quad(m\in\mathbb{Z})
+$$
+で与えられる。$\theta=2n\pi x$ とおけば，$f_n(x)=0$ の解は
+$$
+2n\pi x=\alpha+2m\pi,\quad 2n\pi x=\pi-\alpha+2m\pi
+\quad(m\in\mathbb{Z})
+$$
+より
+$$
+x=\frac{\alpha}{2n\pi}+\frac{m}{n},\qquad
+x=\frac{\pi-\alpha}{2n\pi}+\frac{m}{n} \quad(m\in\mathbb{Z})
+$$
+と表される。
+
+区間 $\bigl(\dfrac{k-1}{2n},\dfrac{k}{2n}\bigr)$ を考える。長さは
+$$
+\frac{k}{2n}-\frac{k-1}{2n}=\frac{1}{2n}
+$$
+である。一方，$2n\pi x$ の変化に注目すると  
+$x$ が $\dfrac{k-1}{2n}$ から $\dfrac{k}{2n}$ まで増加するとき
+$$
+2n\pi x\ \text{は}\ 2n\pi\cdot\frac{k-1}{2n}=(k-1)\pi
+\quad\text{から}\quad
+2n\pi\cdot\frac{k}{2n}=k\pi
+$$
+まで増加する。したがって $2n\pi x$ の値は区間 $((k-1)\pi,k\pi)$ をちょうど 1 回通る。
+
+関数 $y=\sin\theta$ の性質から，任意の整数 $k$ について，区間 $((k-1)\pi,k\pi)$ 内で方程式 $|\sin\theta|=\dfrac{1}{\sqrt5}$ は互いに異なる 2 つの解をもつ。実際，
+- $\theta\in((k-1)\pi,(k-\tfrac12)\pi)$ に 1 つ
+- $\theta\in((k-\tfrac12)\pi,k\pi)$ に 1 つ  
+
+存在する（$\sin\theta$ は各半周期で単調増加または単調減少で，$0<\frac1{\sqrt5}<1$ だから，中間値の定理より一意な解をもつ）。
+
+$2n\pi x$ は区間 $((k-1)\pi,k\pi)$ を 1 回ずつ通るので，対応する $x$ はちょうど区間 $\bigl(\dfrac{k-1}{2n},\dfrac{k}{2n}\bigr)$ 内に 2 個存在し，それらは上で得た一般形からも互いに異なることがわかる。したがって
+$$
+\left(\frac{k-1}{2n},\frac{k}{2n}\right)\quad(k=1,2,\dots,2n)
+$$
+のそれぞれの区間において，$f_n(x)=0$ は相異なる 2 つの解をもつ。
+
+(3)  
+(2) より，区間 $(\frac{k-1}{2n},\frac{k}{2n})$ ごとに 2 個ずつ解があり，区間は $k=1,2,\dots,2n$ と全部で $2n$ 個あるので，$[0,1]$ における $f_n(x)=0$ の解の総数は $4n$ 個である。
+
+(1) の性質 $f_n(x)=f_n(x+\tfrac{1}{2n})$ を用いる。任意の解 $x_0$ に対し，$f_n(x_0)=0$ ならば
+$$
+f_n\Bigl(x_0+\frac{1}{2n}\Bigr)=f_n(x_0)=0
+$$
+より，$x_0+\dfrac{1}{2n}$ も解である。この対応は 1 対 1 であり，$[0,1]$ 内の解全体の集合は，$\dfrac{1}{2n}$ だけ平行移動すると再び解全体の集合に移る。
+
+よって，解の集合を $\{x_1,x_2,\dots,x_{4n}\}$ とし，それらの和を $S_n$ とすると，
+$$
+\{x_1+\tfrac{1}{2n},x_2+\tfrac{1}{2n},\dots,x_{4n}+\tfrac{1}{2n}\}
+$$
+も同じく解の集合であり，したがって
+$$
+S_n=\sum_{i=1}^{4n}x_i=\sum_{i=1}^{4n}\Bigl(x_i+\frac{1}{2n}\Bigr)
+=S_n+\frac{1}{2n}\cdot 4n
+=S_n+2
+$$
+となる。しかし，このままでは $S_n=S_n+2$ となって矛盾してしまうように見える。  
+原因は，$x_i+\dfrac{1}{2n}$ が常に $[0,1]$ にとどまるとは限らないことである。右端から外に出るものは左端から入ってくる形で対応させる必要がある。
+
+そこで，$[0,1)$ を考え，$f_n$ の周期性 $f_n(x)=f_n(x+\tfrac{1}{2n})$ を $[0,1)$ 上の解に対して「輪のように」考える。  
+具体的には，$x\in[0,1)$ を $1$ と合同とみなし，$x\mapsto x+\dfrac{1}{2n}$（必要なら $1$ を引いて $[0,1)$ に戻す）という写像を考えると，これは $[0,1)$ 上の解集合を全単射で保つ回転になる。
+
+このとき，「集合を $\dfrac{1}{2n}$ だけ回転させる」と「$1$ を法とした加算」を対応させると，解 $4n$ 個の和 $S_n$ を $1$ を法として考えると
+$$
+S_n \equiv S_n+\frac{4n}{2n}=S_n+2 \pmod 1
+$$
+となる。したがって
+$$
+2\equiv 0 \pmod 1
+$$
+より，これは常に成り立つが，$S_n$ 自体の値の決定には至らない。  
+ここから先は，解の対称性を用いて直接求める。
+
+(2) で見たように，解は
+$$
+x=\frac{\alpha}{2n\pi}+\frac{m}{n},\qquad
+x=\frac{\pi-\alpha}{2n\pi}+\frac{m}{n} \quad(m\in\mathbb{Z})
+$$
+の形で表され，これが $[0,1]$ に入るものを数える。$m$ を $0,1,\dots,n-1$ とすると，それぞれの $m$ に対して
+$$
+x_{m,1}=\frac{\alpha}{2n\pi}+\frac{m}{n},\quad
+x_{m,2}=\frac{\pi-\alpha}{2n\pi}+\frac{m}{n}
+$$
+が存在し，さらに $|\sin(2n\pi x)|$ の周期 $\pi$ により，$2n\pi x$ を $\pi$ だけずらした解（すなわち $x$ を $\dfrac{1}{2n}$ だけずらした解）も $[0,1]$ 内に入ってくるので，各 $m$ につき合計 4 個の解が対応する。
+
+しかし，これら 4 個は
+$$
+x_{m,1},\quad x_{m,1}+\frac{1}{2n},\quad
+x_{m,2},\quad x_{m,2}+\frac{1}{2n}
+$$
+であり，その和は
+$$
+x_{m,1}+x_{m,1}+\frac{1}{2n}+x_{m,2}+x_{m,2}+\frac{1}{2n}
+=2(x_{m,1}+x_{m,2})+\frac{1}{n}
+$$
+である。ここで
+$$
+x_{m,1}+x_{m,2}
+=\left(\frac{\alpha}{2n\pi}+\frac{m}{n}\right)
++\left(\frac{\pi-\alpha}{2n\pi}+\frac{m}{n}\right)
+=\frac{\pi}{2n\pi}+\frac{2m}{n}
+=\frac{1}{2n}+\frac{2m}{n}
+$$
+だから，4 個分の和は
+$$
+2\left(\frac{1}{2n}+\frac{2m}{n}\right)+\frac{1}{n}
+=\frac{1}{n}+\frac{4m}{n}+\frac{1}{n}
+=\frac{2+4m}{n}
+$$
+となる。
+
+$m=0,1,\dots,n-1$ に対してこれを足し合わせると
+$$
+S_n=\sum_{m=0}^{n-1}\frac{2+4m}{n}
+=\frac{1}{n}\left(\sum_{m=0}^{n-1}2+\sum_{m=0}^{n-1}4m\right)
+=\frac{1}{n}\left(2n+4\cdot\frac{(n-1)n}{2}\right)
+$$
+$$
+=\frac{1}{n}\left(2n+2n(n-1)\right)
+=\frac{1}{n}\cdot 2n^2
+=2n
+$$
+となる。したがって
+$$
+\frac{S_n}{n}=\frac{2n}{n}=2
+$$
+であり，求める極限は
+$$
+\lim_{n\to\infty}\frac{S_n}{n}=2
+$$
+である。

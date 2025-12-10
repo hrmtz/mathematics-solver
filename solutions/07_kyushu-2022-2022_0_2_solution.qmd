@@ -1,0 +1,182 @@
+## 解答
+
+(1)  
+与えられた4点より  
+$$
+\overrightarrow{a}=\overrightarrow{OA}=(1,\,1,\,0),\quad 
+\overrightarrow{b}=\overrightarrow{OB}=(2,\,1,\,2)
+$$
+である。平面 $\alpha$ は3点 $O,A,B$ を通るので，その法線ベクトルは  
+$\overrightarrow{a},\overrightarrow{b}$ の両方に垂直なベクトルである。
+
+よって，$\overrightarrow{a},\overrightarrow{b}$ に垂直なベクトルは外積で求められ，
+$$
+\overrightarrow{a}\times\overrightarrow{b}
+=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k}\\
+1 & 1 & 0\\
+2 & 1 & 2
+\end{vmatrix}
+= (1\cdot 2 - 0\cdot 1,\; 0\cdot 2 - 1\cdot 2,\; 1\cdot 1 - 1\cdot 2)
+= (2,\,-2,\,-1)
+$$
+となる。これと同じ向きで大きさ1のベクトルを $\overrightarrow{n}$ とすると，
+$$
+|\overrightarrow{a}\times\overrightarrow{b}|=\sqrt{2^2+(-2)^2+(-1)^2}
+=\sqrt{4+4+1}=\sqrt{9}=3
+$$
+なので，
+$$
+\overrightarrow{n}=\frac{1}{3}(2,\,-2,\,-1)=\left(\frac{2}{3},\,-\frac{2}{3},\,-\frac{1}{3}\right)
+$$
+となる。$x$成分は $\dfrac{2}{3}>0$ なので条件を満たす。
+
+よって，
+$$
+\overrightarrow{n}=
+\left(\frac{2}{3},\,-\frac{2}{3},\,-\frac{1}{3}\right)
+$$
+である。
+
+(2)  
+平面 $\alpha$ の法線ベクトルとして (1) で求めた $\overrightarrow{n}$ を用いる。  
+点 $P(4,\,0,\,-1)$ から平面 $\alpha$ へ下ろした垂線の足を $Q$ とすると，  
+ベクトル $\overrightarrow{PQ}$ は平面 $\alpha$ の法線方向なので，
+$$
+\overrightarrow{PQ}=t\,\overrightarrow{n}
+$$
+とおける。また，$Q$ は平面 $\alpha$ 上にあるから，その位置ベクトル $\overrightarrow{OQ}$ は
+$\overrightarrow{a},\overrightarrow{b}$ の一次結合で表せる。すなわち
+$$
+\overrightarrow{OQ}=s\overrightarrow{a}+u\overrightarrow{b}
+$$
+とおける。ただし $s,u$ は実数。
+
+一方，点 $P,Q$ の位置ベクトルの関係より
+$$
+\overrightarrow{OQ}=\overrightarrow{OP}+\overrightarrow{PQ}
+$$
+だから，
+$$
+s\overrightarrow{a}+u\overrightarrow{b}
+=
+\overrightarrow{OP}+t\overrightarrow{n}
+$$
+となる。ここで
+$$
+\overrightarrow{OP}=(4,\,0,\,-1)
+$$
+であるから，成分表示すると
+$$
+s(1,\,1,\,0)+u(2,\,1,\,2)
+=(4,\,0,\,-1)+t\left(\frac{2}{3},\,-\frac{2}{3},\,-\frac{1}{3}\right)
+$$
+すなわち
+$$
+(s+2u,\;s+u+2u,\;2u) =
+\left(4+\frac{2}{3}t,\;0-\frac{2}{3}t,\;-1-\frac{1}{3}t\right)
+$$
+となる。
+
+対応する成分を等しいとして連立方程式を立てると，
+\begin{align*}
+(1)\;& s+2u = 4 + \frac{2}{3}t\\
+(2)\;& s+u   = -\frac{2}{3}t\\
+(3)\;& 2u    = -1 - \frac{1}{3}t
+\end{align*}
+
+ここで，求めたいのは線分 $PQ$ の長さであり，
+$$
+|\overrightarrow{PQ}| = |t|\cdot|\overrightarrow{n}|=|t|
+$$
+であるから，$t$ を求めればよい。
+
+(3) 式から $u$ を $t$ で表すと
+$$
+2u = -1 - \frac{1}{3}t
+\quad\Rightarrow\quad
+u = -\frac{1}{2} - \frac{1}{6}t
+$$
+これを (2) 式に代入すると
+$$
+s + \left(-\frac{1}{2}-\frac{1}{6}t\right) = -\frac{2}{3}t
+$$
+したがって
+$$
+s = -\frac{2}{3}t + \frac{1}{2} + \frac{1}{6}t
+= -\frac{1}{2}t + \frac{1}{2}
+$$
+
+この $s,u$ を (1) 式に代入する：
+\begin{align*}
+s+2u &= \left(-\frac{1}{2}t + \frac{1}{2}\right)
+       + 2\left(-\frac{1}{2} - \frac{1}{6}t\right)\\
+     &= -\frac{1}{2}t + \frac{1}{2}
+       -1 -\frac{1}{3}t\\
+     &= -\frac{5}{6}t - \frac{1}{2}
+\end{align*}
+一方，(1) 式の右辺は $4+\dfrac{2}{3}t$ であるから
+$$
+-\frac{5}{6}t - \frac{1}{2}
+= 4 + \frac{2}{3}t
+$$
+となる。両辺に $6$ をかけて
+$$
+-5t - 3 = 24 + 4t
+$$
+ゆえに
+$$
+-9t = 27 \quad\Rightarrow\quad t = -3
+$$
+
+したがって，線分 $PQ$ の長さは
+$$
+|PQ| = |\overrightarrow{PQ}| = |t| = 3
+$$
+となる。
+
+(3)  
+平面 $\alpha$ に関して点 $P$ と対称な点を $P'$ とすると，  
+$Q$ は線分 $PP'$ の中点であり，$\overrightarrow{PP'}$ は法線方向である。
+
+(2) より $t=-3$ を得ていたので，
+$$
+\overrightarrow{PQ}=t\overrightarrow{n}=-3\overrightarrow{n}
+=-3\left(\frac{2}{3},\,-\frac{2}{3},\,-\frac{1}{3}\right)
+=(-2,\,2,\,1)
+$$
+となる。したがって
+$$
+\overrightarrow{QP} = -\overrightarrow{PQ} = (2,\,-2,\,-1)
+$$
+である。
+
+また，$Q$ は $P$ から平面へ下ろした垂線の足なので，
+$$
+\overrightarrow{OQ} = \overrightarrow{OP} + \overrightarrow{PQ}
+= (4,\,0,\,-1)+(-2,\,2,\,1) = (2,\,2,\,0)
+$$
+ゆえに
+$$
+Q(2,\,2,\,0)
+$$
+である。
+
+点 $P'$ の位置ベクトルを $\overrightarrow{OP'}$ とすると，
+$Q$ が $PP'$ の中点である条件から
+$$
+\overrightarrow{OQ} = \frac{\overrightarrow{OP}+\overrightarrow{OP'}}{2}
+$$
+が成り立つ。したがって
+$$
+\overrightarrow{OP'} = 2\overrightarrow{OQ}-\overrightarrow{OP}
+= 2(2,\,2,\,0)-(4,\,0,\,-1)
+= (4,\,4,\,0)-(4,\,0,\,-1)
+= (0,\,4,\,1)
+$$
+よって，
+$$
+P'(0,\,4,\,1)
+$$
+である。

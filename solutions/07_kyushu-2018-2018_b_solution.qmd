@@ -1,0 +1,260 @@
+## 解答
+
+(1)  
+まず，分母を有理化する。
+$u=\dfrac{5+5\sqrt3 \, i}{\sqrt2+\sqrt2 \, i}$ とおくと，
+分子分母に $\sqrt2-\sqrt2 i$ を掛けて
+
+$$
+u=\frac{(5+5\sqrt3 i)(\sqrt2-\sqrt2 i)}{(\sqrt2+\sqrt2 i)(\sqrt2-\sqrt2 i)}
+=\frac{(5+5\sqrt3 i)\sqrt2(1-i)}{2+2}
+=\frac{\sqrt2}{4}(5+5\sqrt3 i)(1-i)
+$$
+
+となる。ここで $(1-i)$ を展開すると
+
+$$
+(5+5\sqrt3 i)(1-i)
+=5-5i+5\sqrt3 i-5\sqrt3 i^2
+=5+5\sqrt3+5(\sqrt3-1)i
+$$
+
+なので，
+
+$$
+u=\frac{\sqrt2}{4}\{5+5\sqrt3+5(\sqrt3-1)i\}
+=\frac{5\sqrt2}{4}\{(1+\sqrt3)+(\sqrt3-1)i\}
+$$
+
+と表せる。
+
+実部と虚部をそれぞれ
+
+$$
+x=\frac{5\sqrt2}{4}(1+\sqrt3),\quad
+y=\frac{5\sqrt2}{4}(\sqrt3-1)
+$$
+
+とおくと，絶対値は
+
+$$
+|u|=\sqrt{x^2+y^2}
+=\frac{5\sqrt2}{4}\sqrt{(1+\sqrt3)^2+(\sqrt3-1)^2}
+$$
+
+である。$(1+\sqrt3)^2=4+2\sqrt3,\ (\sqrt3-1)^2=4-2\sqrt3$ より
+
+$$
+(1+\sqrt3)^2+(\sqrt3-1)^2=(4+2\sqrt3)+(4-2\sqrt3)=8
+$$
+
+したがって
+
+$$
+|u|=\frac{5\sqrt2}{4}\sqrt{8}
+=\frac{5\sqrt2}{4}\cdot2\sqrt2
+=\frac{5\cdot4}{4}=5
+$$
+
+となる。
+
+次に偏角 $\theta$ を求める。$\tan\theta=\dfrac{y}{x}$ なので，
+
+$$
+\tan\theta=\frac{\sqrt3-1}{1+\sqrt3}
+=\frac{(\sqrt3-1)^2}{(\sqrt3+1)(\sqrt3-1)}
+=\frac{4-2\sqrt3}{2}
+=2-\sqrt3
+$$
+
+よって $\tan\theta=2-\sqrt3$ である。$\tan\frac{\pi}{12}=2-\sqrt3$（半角の公式を用いて確かめられる）から
+
+$$
+\theta=\frac{\pi}{12}
+$$
+
+と分かる。よって $u$ の極形式は
+
+$$
+u=5\bigl(\cos\dfrac{\pi}{12}+i\sin\dfrac{\pi}{12}\bigr)
+$$
+
+である。
+
+---
+
+(2)  
+(1) より
+
+$$
+u=5\bigl(\cos\dfrac{\pi}{12}+i\sin\dfrac{\pi}{12}\bigr)
+$$
+
+である。複素数 $z$ を極形式で $z=r(\cos\varphi+i\sin\varphi)$ とおくと
+
+$$
+z^3u=r^3\cdot5\bigl(\cos(3\varphi+\tfrac{\pi}{12})+i\sin(3\varphi+\tfrac{\pi}{12})\bigr)
+$$
+
+となる。$z^3u\in D$ である条件を，絶対値と偏角に分けて考える。
+
+まず絶対値については
+
+$$
+40\leq |z^3u|=5r^3\leq135
+$$
+
+より
+
+$$
+8\leq r^3\leq27
+\quad\Rightarrow\quad
+2\leq r\leq3
+$$
+
+である。
+
+次に偏角について，$D$ は複素平面において「第2象限」で，かつ原点中心半径 $40$ と $135$ の円にはさまれた部分である。  
+よって $w\in D$ の偏角 $\arg w$ は
+
+$$
+\frac{\pi}{2}\leq \arg w\leq\pi
+$$
+
+でなければならない。$w=z^3u$ の偏角は $3\varphi+\dfrac{\pi}{12}$ だから，
+
+$$
+\frac{\pi}{2}\leq 3\varphi+\frac{\pi}{12}\leq \pi
+$$
+
+となる。これを $\varphi$ について解くと
+
+$$
+\frac{\pi}{2}-\frac{\pi}{12}\leq3\varphi\leq \pi-\frac{\pi}{12}
+\quad\Rightarrow\quad
+\frac{5\pi}{12}\leq3\varphi\leq\frac{11\pi}{12}
+$$
+
+よって
+
+$$
+\frac{5\pi}{36}\leq\varphi\leq\frac{11\pi}{36}
+$$
+
+となる。
+
+したがって，$A$ は極座標で
+
+$$
+2\leq r\leq3,\quad \frac{5\pi}{36}\leq\varphi\leq\frac{11\pi}{36}
+$$
+
+と表される扇形領域である。
+
+図示すると，原点を中心として半径 $2$ と $3$ の 2 つの円弧の間にあり，  
+偏角が $\dfrac{5\pi}{36}$（約 $25^\circ$）から $\dfrac{11\pi}{36}$（約 $55^\circ$）の間にある部分，  
+すなわち第1象限内の環状の扇形領域となる。
+
+---
+
+(3)  
+(2) で求めたように，$z$ は
+
+$$
+z=r(\cos\varphi+i\sin\varphi),\quad
+2\leq r\leq3,\quad
+\frac{5\pi}{36}\leq\varphi\leq\frac{11\pi}{36}
+$$
+
+を動く。求めるのは原点から $-2$（実軸上の点 $(-2,0)$）までの距離 $2$ からの距離，すなわち  
+点 $z$ と点 $-2$ との距離
+
+$$
+|z-(-2)|=|z+2|
+$$
+
+の最小値を与える $z$ である。
+
+複素平面上で考えると，原点から距離 $r$ の円上の点 $z$ と，点 $-2$ との距離は，  
+原点から $-2$ までの距離が $2$ であることから，余弦定理により
+
+$$
+|z+2|^2=r^2+2^2-2\cdot r\cdot2\cos(\text{なす角})
+$$
+
+で表される。「なす角」は，$z$ の偏角を $\varphi$ とすると，  
+$-2$ の偏角は $\pi$ なので，その差は
+
+$$
+\theta=\pi-\varphi
+$$
+
+である。したがって
+
+$$
+|z+2|^2=r^2+4-4r\cos(\pi-\varphi)
+$$
+
+となるが，$\cos(\pi-\varphi)=-\cos\varphi$ であるから
+
+$$
+|z+2|^2=r^2+4+4r\cos\varphi
+$$
+
+となる。よって
+
+$$
+|z+2|=\sqrt{r^2+4+4r\cos\varphi}
+$$
+
+であり，$r,\varphi$ が与えられた範囲を動くとき，この値を最小にする $r,\varphi$ を求めればよい。
+
+まず，$\cos\varphi$ の範囲を調べる。$\varphi$ は
+
+$$
+\frac{5\pi}{36}\leq\varphi\leq\frac{11\pi}{36}
+$$
+
+すなわち約 $25^\circ$ から約 $55^\circ$ の間を動く。$\cos\varphi$ はこの区間で単調減少なので，
+
+$$
+\cos\varphi_{\max}=\cos\frac{5\pi}{36},\qquad
+\cos\varphi_{\min}=\cos\frac{11\pi}{36}
+$$
+
+となる。式 $r^2+4+4r\cos\varphi$ は $\cos\varphi$ が大きいほど小さくなる（$4r>0$）ので，  
+最小値は $\varphi=\dfrac{5\pi}{36}$ のときに生じる。
+
+次に，このときの $r$ に関して
+
+$$
+f(r)=r^2+4+4r\cos\frac{5\pi}{36}
+$$
+
+を $2\leq r\leq3$ で最小にする $r$ を求める。$f(r)$ は $r$ の2次関数で，
+
+$$
+f'(r)=2r+4\cos\frac{5\pi}{36}
+$$
+
+である。$\cos\dfrac{5\pi}{36}>0$ なので，
+
+$$
+f'(r)=2\Bigl(r+2\cos\frac{5\pi}{36}\Bigr)>0\quad( r\geq2 )
+$$
+
+すなわち $r\geq2$ の範囲では $f(r)$ は単調増加である。したがって最小値は $r=2$ で達成される。
+
+以上より，$|z+2|$ が最小となるのは
+
+$$
+r=2,\quad \varphi=\frac{5\pi}{36}
+$$
+
+のときである。このときの $z$ は極形式で
+
+$$
+z=2\Bigl(\cos\frac{5\pi}{36}+i\sin\frac{5\pi}{36}\Bigr)
+$$
+
+である。

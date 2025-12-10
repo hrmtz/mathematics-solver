@@ -1,0 +1,311 @@
+## 解答
+
+(1)  
+曲線 $C : y = x^3 - x$ の点 $A(t,\,t^3 - t)$ における接線の方程式を求める。  
+まず，$y = x^3 - x$ を微分すると，
+$$
+\frac{dy}{dx} = 3x^2 - 1
+$$
+であるから，点 $A(t,\,t^3 - t)$ における接線の傾きは $3t^2 - 1$ である。よって，接線 $l$ の方程式は
+$$
+y - (t^3 - t) = (3t^2 - 1)(x - t)
+$$
+となる。
+
+直線 $y = -x$ との交点 $B$ の座標を求めるため，$y=-x$ を上の式に代入する：
+$$
+-x - (t^3 - t) = (3t^2 - 1)(x - t).
+$$
+これを整理すると，
+$$
+-x - t^3 + t = (3t^2 - 1)x - t(3t^2 - 1)
+$$
+$$
+-x - t^3 + t = (3t^2 - 1)x - 3t^3 + t
+$$
+両辺に $x$ を含む項と含まない項をまとめると，
+$$
+-x - (3t^2 -1)x = -3t^3 + t + t^3 - t
+$$
+$$
+-(1+3t^2 -1)x = -2t^3
+$$
+$$
+-3t^2 x = -2t^3
+$$
+より，
+$$
+x = \frac{2t^3}{3t^2} = \frac{2}{3}t.
+$$
+したがって $y = -x$ より $y = -\frac{2}{3}t$ であるから，
+$$
+B\left(\frac{2}{3}t,\,-\frac{2}{3}t\right)
+$$
+である。
+
+---
+
+(2)  
+$\theta = \angle OBA$ とする。点の座標は
+$$
+O(0,0),\quad A(t,\,t^3 - t),\quad B\left(\frac{2}{3}t,\,-\frac{2}{3}t\right)
+$$
+である。
+
+$\angle OBA$ は頂点が $B$ であり，辺 $BO$，$BA$ のなす角である。そこで，ベクトル
+$$
+\vec{BO} = O - B = \left(-\frac{2}{3}t,\,\frac{2}{3}t\right),
+\quad
+\vec{BA} = A - B = \left(t - \frac{2}{3}t,\,t^3 - t + \frac{2}{3}t\right)
+$$
+を用いる。成分を整理すると，
+$$
+\vec{BO} = \left(-\frac{2}{3}t,\,\frac{2}{3}t\right),
+$$
+$$
+\vec{BA}
+= \left(\frac{1}{3}t,\,t^3 - \frac{1}{3}t\right)
+= \left(\frac{1}{3}t,\;t\left(t^2 - \frac{1}{3}\right)\right).
+$$
+
+まず，各ベクトルの長さを求める：
+$$
+|\vec{BO}|
+= \sqrt{\left(-\frac{2}{3}t\right)^2 + \left(\frac{2}{3}t\right)^2}
+= \sqrt{\frac{4}{9}t^2 + \frac{4}{9}t^2}
+= \sqrt{\frac{8}{9}t^2}
+= \frac{2\sqrt{2}}{3}\,t,
+$$
+$$
+|\vec{BA}|
+= \sqrt{\left(\frac{1}{3}t\right)^2 + \left(t^3 - \frac{1}{3}t\right)^2}
+= \sqrt{\frac{1}{9}t^2 + \left(t^3 - \frac{1}{3}t\right)^2}.
+$$
+
+次に，内積を求める：
+$$
+\vec{BO} \cdot \vec{BA}
+= \left(-\frac{2}{3}t\right)\left(\frac{1}{3}t\right)
+ + \left(\frac{2}{3}t\right)\left(t^3 - \frac{1}{3}t\right)
+$$
+$$
+= -\frac{2}{9}t^2 + \frac{2}{3}t\left(t^3 - \frac{1}{3}t\right)
+= -\frac{2}{9}t^2 + \frac{2}{3}(t^4 - \tfrac{1}{3}t^2)
+$$
+$$
+= -\frac{2}{9}t^2 + \frac{2}{3}t^4 - \frac{2}{9}t^2
+= \frac{2}{3}t^4 - \frac{4}{9}t^2
+= \frac{2}{9}t^2(3t^2 - 2).
+$$
+
+したがって，余弦の定義から
+$$
+\cos\theta = \frac{\vec{BO}\cdot\vec{BA}}{|\vec{BO}||\vec{BA}|}
+= \frac{\frac{2}{9}t^2(3t^2 - 2)}{\left(\frac{2\sqrt{2}}{3}t\right)\,|\vec{BA}|}
+= \frac{t(3t^2 - 2)}{3\sqrt{2}\,|\vec{BA}|}.
+$$
+
+一方で $\sin^2\theta = 1 - \cos^2\theta$ を用いる。  
+まず $|\vec{BA}|^2$ を求めると，
+$$
+|\vec{BA}|^2 = \frac{1}{9}t^2 + \left(t^3 - \frac{1}{3}t\right)^2
+= \frac{1}{9}t^2 + t^2\left(t^2 - \frac{1}{3}\right)^2
+$$
+$$
+= \frac{1}{9}t^2 + t^2\left(t^4 - \frac{2}{3}t^2 + \frac{1}{9}\right)
+= \frac{1}{9}t^2 + t^6 - \frac{2}{3}t^4 + \frac{1}{9}t^2
+$$
+$$
+= t^6 - \frac{2}{3}t^4 + \frac{2}{9}t^2.
+$$
+
+したがって，
+$$
+\cos^2\theta
+= \left(\frac{t(3t^2 - 2)}{3\sqrt{2}\,|\vec{BA}|}\right)^2
+= \frac{t^2(3t^2 - 2)^2}{18\,|\vec{BA}|^2}
+$$
+であるから，
+$$
+\sin^2\theta
+= 1 - \cos^2\theta
+= 1 - \frac{t^2(3t^2 - 2)^2}{18\,|\vec{BA}|^2}.
+$$
+
+ここで，$|\vec{BA}|^2$ の式に代入して整理する。分母をそろえるために，
+$$
+\sin^2\theta
+= \frac{18\,|\vec{BA}|^2 - t^2(3t^2 - 2)^2}{18\,|\vec{BA}|^2}
+$$
+と書ける。まず分子を整理する。  
+$|\vec{BA}|^2 = t^6 - \frac{2}{3}t^4 + \frac{2}{9}t^2$ だから，
+$$
+18\,|\vec{BA}|^2
+= 18\left(t^6 - \frac{2}{3}t^4 + \frac{2}{9}t^2\right)
+= 18t^6 - 12t^4 + 4t^2.
+$$
+また，
+$$
+t^2(3t^2 - 2)^2
+= t^2(9t^4 - 12t^2 + 4)
+= 9t^6 -12t^4 + 4t^2.
+$$
+よって，分子は
+$$
+18t^6 - 12t^4 + 4t^2 - (9t^6 -12t^4 + 4t^2)
+= 9t^6.
+$$
+一方，分母は
+$$
+18\,|\vec{BA}|^2
+= 18\left(t^6 - \frac{2}{3}t^4 + \frac{2}{9}t^2\right)
+= 2\left(9t^6 - 6t^4 + 2t^2\right)
+= 2t^2(9t^4 - 6t^2 + 2)
+$$
+である。したがって，
+$$
+\sin^2\theta
+= \frac{9t^6}{18\left(t^6 - \frac{2}{3}t^4 + \frac{2}{9}t^2\right)}
+= \frac{9t^6}{2t^2(9t^4 - 6t^2 + 2)}
+= \frac{9t^4}{2(9t^4 - 6t^2 + 2)}.
+$$
+
+よって，
+$$
+\sin^2\theta = \frac{9t^4}{2(9t^4 - 6t^2 + 2)}.
+$$
+
+---
+
+(3)  
+三角形 $OAB$ の外接円の中心を $P$ とし，$f(t) = \dfrac{OP}{OA}$ とする。  
+三角形の外接円の半径 $R$ は，三辺とその正弦を用いて
+$$
+a = BC,\; b = CA,\; c = AB,\; \text{とし，} \quad a = 2R\sin A \ \text{など}
+$$
+という関係がある。ここでは頂点 $B$ に対する角 $\angle OBA = \theta$ を用いると，
+$$
+OA = 2R\sin\theta
+$$
+が成り立つ（$OA$ は角 $\theta$ に対する弦であるため）。したがって
+$$
+R = \frac{OA}{2\sin\theta}.
+$$
+また，外接円の中心 $P$ は三角形の外心であり，$OP = R$ であるから，
+$$
+\frac{OP}{OA}
+= \frac{R}{OA}
+= \frac{1}{2\sin\theta}.
+$$
+よって
+$$
+f(t) = \frac{1}{2\sin\theta}.
+$$
+
+(2) で求めた $\sin^2\theta$ を用いると，
+$$
+\sin^2\theta = \frac{9t^4}{2(9t^4 - 6t^2 + 2)}
+$$
+より
+$$
+\sin\theta = \sqrt{\frac{9t^4}{2(9t^4 - 6t^2 + 2)}}
+= \frac{3t^2}{\sqrt{2(9t^4 - 6t^2 + 2)}}.
+$$
+（$t>0$ のとき，$\theta$ は 0 と $\pi$ の間の角であり $\sin\theta>0$ と考えられるので正の平方根をとる。）
+
+したがって
+$$
+f(t)
+= \frac{1}{2\sin\theta}
+= \frac{1}{2}\cdot\frac{\sqrt{2(9t^4 - 6t^2 + 2)}}{3t^2}
+= \frac{\sqrt{2(9t^4 - 6t^2 + 2)}}{6t^2}.
+$$
+
+$f(t)$ の最小値を求めるため，$f(t)^2$ を考える：
+$$
+f(t)^2 = \frac{2(9t^4 - 6t^2 + 2)}{36t^4}
+= \frac{9t^4 - 6t^2 + 2}{18t^4}.
+$$
+$t>0$ なので $t^2 = x$ とおくと，$x>0$ であり，
+$$
+f(t)^2 = g(x) = \frac{9x^2 - 6x + 2}{18x^2}
+= \frac{1}{18}\left(9 - \frac{6}{x} + \frac{2}{x^2}\right).
+$$
+
+この $g(x)$ の最小値を求める。分子を平方完成するため，
+$$
+9 - \frac{6}{x} + \frac{2}{x^2}
+= \left(\frac{1}{x^2}\right)\left(9x^2 - 6x + 2\right)
+$$
+と見るより，直接 $\frac{6}{x}$ と $\frac{2}{x^2}$ を含む部分を平方完成する：
+$$
+\left(\frac{1}{x} - 3\right)^2
+= \frac{1}{x^2} - \frac{6}{x} + 9.
+$$
+したがって
+$$
+9 - \frac{6}{x} + \frac{2}{x^2}
+= \left(\frac{1}{x} - 3\right)^2 + \frac{1}{x^2}
+= \left(\frac{1}{x} - 3\right)^2 + \left(\frac{1}{x}\right)^2.
+$$
+
+これにより
+$$
+g(x)
+= \frac{1}{18}\left[\left(\frac{1}{x} - 3\right)^2 + \left(\frac{1}{x}\right)^2\right].
+$$
+ここで，$\left(\frac{1}{x} - 3\right)^2 \ge 0$, $\left(\frac{1}{x}\right)^2 \ge 0$ なので，
+$$
+g(x) \ge \frac{1}{18}\cdot 0 + \frac{1}{18}\cdot\left(\frac{1}{x}\right)^2
+$$
+という形で，両方同時に 0 にはできないが，関数として最小値を求めるため，微分を用いてもよい。別の見方として，$y = \frac{1}{x}$ とおくと，
+$$
+g(x) = \frac{1}{18}\left[(y-3)^2 + y^2\right]
+= \frac{1}{18}\left(2y^2 - 6y + 9\right)
+$$
+となる。$y$ に関する二次関数であり，平方完成すると，
+$$
+2y^2 - 6y + 9
+= 2\left(y^2 - 3y\right) + 9
+= 2\left[(y - \tfrac{3}{2})^2 - \tfrac{9}{4}\right] + 9
+= 2(y - \tfrac{3}{2})^2 - \tfrac{9}{2} + 9
+= 2(y - \tfrac{3}{2})^2 + \tfrac{9}{2}.
+$$
+したがって
+$$
+g(x) = \frac{1}{18}\left[2(y - \tfrac{3}{2})^2 + \tfrac{9}{2}\right]
+= \frac{1}{9}(y - \tfrac{3}{2})^2 + \frac{1}{4}.
+$$
+よって
+$$
+g(x) \ge \frac{1}{4},
+$$
+等号は $(y - \tfrac{3}{2})^2 = 0$ のとき，すなわち $y = \frac{3}{2}$ のとき成り立つ。これは $y=\frac{1}{x}=\frac{3}{2}$，すなわち
+$$
+x = \frac{2}{3}
+$$
+のときである。
+
+$x = t^2$ であったから，
+$$
+t^2 = \frac{2}{3} \quad\Rightarrow\quad t = \sqrt{\frac{2}{3}}
+$$
+（$t>0$ より正の平方根をとる）。
+
+以上より，
+$$
+f(t)^2 = g(x) \ge \frac{1}{4} \quad\Rightarrow\quad f(t) \ge \frac{1}{2}.
+$$
+したがって，$f(t)$ の最小値は $\dfrac{1}{2}$ であり，そのときの $t$ は
+$$
+t = \sqrt{\frac{2}{3}}
+$$
+である。
+
+---
+
+まとめると，
+
+- (1) $B\left(\dfrac{2}{3}t,\,-\dfrac{2}{3}t\right)$
+- (2) $\displaystyle \sin^2\theta = \frac{9t^4}{2(9t^4 - 6t^2 + 2)}$
+- (3) $\displaystyle f(t) = \frac{OP}{OA}$ は $t = \sqrt{\dfrac{2}{3}}$ のとき最小となり，最小値は $\dfrac{1}{2}$ である。

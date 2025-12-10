@@ -1,0 +1,303 @@
+## 解答
+
+(1)  
+方程式  
+$$
+e^x(1-\sin x)=1
+$$
+を考える．
+
+まず，$x<0$ のとき左辺の値を調べる．  
+$e^x$ は $x<0$ で $0<e^x<1$ をみたすので，  
+$$
+e^x<1 \quad (x<0)
+$$
+である．また $\sin x\le 1$ より $1-\sin x\ge 0$ であるから，
+$$
+e^x(1-\sin x)\le e^x<1 \quad (x<0)
+$$
+となる．よって $x<0$ では左辺は常に $1$ より小さいので，$x<0$ の解は存在しない．  
+したがって，この方程式は負の実数解を持たない．
+
+次に正の実数解の存在について調べる．  
+$$
+f(x)=e^x(1-\sin x)-1
+$$
+とおくと，求める方程式は $f(x)=0$ である．
+
+任意の整数 $n\ge 1$ に対し，区間  
+$$
+I_n=(2n\pi,\;2n\pi+\tfrac{\pi}{2})
+$$
+を考える．
+
+$x\in I_n$ ならば $x=2n\pi+t$ と書けて，$0<t<\frac{\pi}{2}$ である．このとき
+$$
+\sin x=\sin(2n\pi+t)=\sin t>0
+$$
+だから $1-\sin x=1-\sin t$ は
+$$
+0<1-\sin t<1
+$$
+をみたす．さらに $x>0$ なので $e^x>1$ である．従って
+$$
+e^x(1-\sin x)>0
+$$
+であり，特に $f(x)=e^x(1-\sin x)-1$ は $I_n$ 上で連続である（指数関数と三角関数はともに連続なので，その和・積も連続）．
+
+この区間の両端の値を求める：
+まず
+$$
+f(2n\pi)=e^{2n\pi}(1-\sin 2n\pi)-1=e^{2n\pi}\cdot 1-1=e^{2n\pi}-1>0
+$$
+である．
+
+次に
+$$
+f\!\left(2n\pi+\frac{\pi}{2}\right)
+=e^{2n\pi+\pi/2}\left(1-\sin\left(2n\pi+\frac{\pi}{2}\right)\right)-1
+=e^{2n\pi+\pi/2}(1-1)-1=-1<0
+$$
+となる．
+
+よって $f(2n\pi)>0,\ f(2n\pi+\frac{\pi}{2})<0$ であり，$f$ は区間 $I_n$ で連続だから，中間値の定理より  
+$$
+2n\pi<x<2n\pi+\frac{\pi}{2}
+$$
+を満たす実数 $x$ で $f(x)=0$ となるものが少なくとも 1 つ存在する．
+
+一方，$f'(x)$ を調べると
+$$
+f'(x)=\frac{d}{dx}\{e^x(1-\sin x)-1\}
+=e^x(1-\sin x)+e^x(-\cos x)
+=e^x(1-\sin x-\cos x)
+$$
+である．$x\in I_n$ のとき $0<t<\frac{\pi}{2}$ として
+$$
+1-\sin x-\cos x=1-\sin t-\cos t
+$$
+を考える．$g(t)=\sin t+\cos t$ とおくと
+$$
+g'(t)=\cos t-\sin t
+$$
+であり，$0<t<\frac{\pi}{2}$ では $\cos t>\sin t$ より $g'(t)>0$ ，すなわち $g$ は単調増加である．  
+ゆえに
+$$
+g(t)<g\!\left(\frac{\pi}{2}\right)=\sin\frac{\pi}{2}+\cos\frac{\pi}{2}=1
+$$
+から
+$$
+\sin t+\cos t<1\quad(0<t<\tfrac{\pi}{2})
+$$
+すなわち
+$$
+1-\sin t-\cos t>0
+$$
+が成り立つ．
+
+したがって $x\in I_n$ では
+$$
+f'(x)=e^x(1-\sin x-\cos x)=e^x(1-\sin t-\cos t)>0
+$$
+となるから，$f$ は各区間 $I_n$ で単調増加である．
+
+$f$ は $I_n$ で連続かつ単調増加で，端点で符号が異なるため，$f(x)=0$ の解は各 $I_n$ にちょうど 1 個ずつ存在することがわかる．  
+$n$ は任意の正の整数であったから，この方程式は正の実数解を無限個持つ．
+
+以上より，(1) が示された．
+
+---
+
+(2)  
+(1) で得られたように，$n\ge 1$ ごとに区間  
+$$
+I_n=(2n\pi,\;2n\pi+\tfrac{\pi}{2})
+$$
+内にただ 1 つの解が存在する．その解を $a_n$ とすると，
+$$
+2n\pi<a_n<2n\pi+\frac{\pi}{2}
+$$
+が成り立つ．
+
+ここから $a_n$ の $n\to\infty$ における挙動を調べる．  
+$x=a_n$ は方程式 $e^x(1-\sin x)=1$ を満たすので
+$$
+e^{a_n}(1-\sin a_n)=1
+$$
+である．$a_n>0$ より $e^{a_n}>1$ だから，
+$$
+1-\sin a_n=\frac{1}{e^{a_n}}<1
+$$
+したがって
+$$
+\sin a_n>0
+$$
+である．
+
+$a_n\in(2n\pi,2n\pi+\frac{\pi}{2})$ だから $a_n=2n\pi+t_n$ とおくと，$0<t_n<\frac{\pi}{2}$ であり，
+$$
+\sin a_n=\sin t_n,\quad \cos a_n=\cos t_n
+$$
+である．方程式
+$$
+e^{a_n}(1-\sin a_n)=1
+$$
+を $t_n$ で表すと
+$$
+e^{2n\pi+t_n}(1-\sin t_n)=1
+$$
+すなわち
+$$
+1-\sin t_n=e^{-2n\pi-t_n}
+$$
+が成り立つ．右辺は $n\to\infty$ で急速に $0$ に近づくので，$t_n$ は $1-\sin t_n$ が非常に小さくなるような値，すなわち $\sin t_n$ が $1$ に近い値でなければならない．
+
+$\sin t$ は $t=\frac{\pi}{2}$ で最大値 $1$ をとるから，$t_n$ は $\frac{\pi}{2}$ に近いと予想される．そこで
+$$
+u_n=\frac{\pi}{2}-t_n
+$$
+とおくと，$t_n=\frac{\pi}{2}-u_n$ であり，$0<u_n<\frac{\pi}{2}$ で $u_n$ は小さいと考えられる．
+
+すると
+$$
+\sin t_n=\sin\!\left(\frac{\pi}{2}-u_n\right)=\cos u_n
+$$
+であるから
+$$
+1-\sin t_n=1-\cos u_n
+$$
+となる．よって
+$$
+1-\cos u_n=e^{-2n\pi-t_n}
+$$
+である．右辺は $n$ が大きいとき非常に小さいので，$u_n$ も小さいとみなせる．$u$ が小さいときの $\cos u$ の近似
+$$
+\cos u\approx 1-\frac{u^2}{2}
+$$
+を用いると，$u_n$ が十分小さいとき
+$$
+1-\cos u_n\approx \frac{u_n^2}{2}
+$$
+と近似できる．したがって
+$$
+\frac{u_n^2}{2}\approx e^{-2n\pi-t_n}
+$$
+すなわち
+$$
+u_n^2\approx 2e^{-2n\pi-t_n}
+$$
+と見なせる．
+
+さらに $t_n=\frac{\pi}{2}-u_n$ だから
+$$
+-2n\pi-t_n=-2n\pi-\frac{\pi}{2}+u_n
+$$
+であり，
+$$
+e^{-2n\pi-t_n}=e^{-2n\pi-\pi/2}e^{u_n}
+$$
+である．$u_n$ は小さいので $e^{u_n}\approx 1$ とおけるから
+$$
+u_n^2\approx 2e^{-2n\pi-\pi/2}
+$$
+すなわち
+$$
+u_n\approx \sqrt{2}\,e^{-n\pi-\pi/4}
+$$
+の程度で非常に小さいことがわかる．特に
+$$
+u_n\to 0\quad(n\to\infty)
+$$
+である．
+
+したがって
+$$
+t_n=\frac{\pi}{2}-u_n\to\frac{\pi}{2}\quad(n\to\infty)
+$$
+であり，
+$$
+a_n=2n\pi+t_n\sim 2n\pi+\frac{\pi}{2}\quad(n\to\infty)
+$$
+という漸近的な関係が得られる（$u_n$ の寄与は指数的に小さいので $n$ が大きくなると無視できる程度）．
+
+よって $n$ が大きいとき
+$$
+a_n\approx 2n\pi+\frac{\pi}{2}
+$$
+とみなすことができるので，
+$$
+S_n=\sum_{k=1}^n a_k
+\approx \sum_{k=1}^n\left(2k\pi+\frac{\pi}{2}\right)
+=2\pi\sum_{k=1}^n k+\frac{\pi}{2}\sum_{k=1}^n 1
+=2\pi\cdot\frac{n(n+1)}{2}+\frac{\pi}{2}\cdot n
+$$
+すなわち
+$$
+S_n\approx \pi n(n+1)+\frac{\pi}{2}n
+=\pi n^2+\frac{3\pi}{2}n
+$$
+と見積もられる．この式から $S_n$ の次数的な主項は $\pi n^2$ であるとわかる．従って
+$$
+\frac{S_n}{n^2}
+\approx \pi+\frac{3\pi}{2}\cdot\frac{1}{n}
+$$
+となり，$n\to\infty$ のとき
+$$
+\frac{S_n}{n^2}\to\pi
+$$
+と予想される．
+
+これを厳密に示すために，$a_n$ の上下からの評価を行う．  
+前に用いたように $t_n=\frac{\pi}{2}-u_n$ とおき $u_n>0$ とすると
+$$
+a_n=2n\pi+\frac{\pi}{2}-u_n
+$$
+である．したがって
+$$
+S_n=\sum_{k=1}^n a_k
+=\sum_{k=1}^n\left(2k\pi+\frac{\pi}{2}-u_k\right)
+=\pi n(n+1)+\frac{\pi}{2}n-\sum_{k=1}^n u_k
+$$
+となる．
+
+ここで $u_k>0$ であり，さらに先の近似から $u_k$ は $e^{-k\pi}$ のオーダーで指数的に小さいことが分かっているので，級数 $\sum_{k=1}^\infty u_k$ は収束する．特に
+$$
+\sum_{k=1}^\infty u_k<\infty
+$$
+であるから，部分和は一様に抑えられ
+$$
+\sum_{k=1}^n u_k\le C
+$$
+を満たす定数 $C>0$ が存在する．（例えば比較判定法で $u_k\le C'e^{-k\pi}$ などと評価でき，等比級数の和が有限であることから従う．）
+
+よって任意の $n$ について
+$$
+S_n=\pi n(n+1)+\frac{\pi}{2}n-\sum_{k=1}^n u_k
+$$
+より
+$$
+\pi n^2+\frac{3\pi}{2}n-C
+\le S_n
+\le \pi n^2+\frac{3\pi}{2}n
+$$
+が成り立つ．両辺を $n^2$ で割ると
+$$
+\pi+\frac{3\pi}{2}\cdot\frac{1}{n}-\frac{C}{n^2}
+\le \frac{S_n}{n^2}
+\le \pi+\frac{3\pi}{2}\cdot\frac{1}{n}
+$$
+が得られる．ここで $n\to\infty$ とすると
+$$
+\frac{3\pi}{2}\cdot\frac{1}{n}\to 0,\quad \frac{C}{n^2}\to 0
+$$
+なので，はさみうちの原理により
+$$
+\lim_{n\to\infty}\frac{S_n}{n^2}=\pi
+$$
+となる．
+
+したがって求める極限値は
+$$
+\boxed{\pi}
+$$
+である．

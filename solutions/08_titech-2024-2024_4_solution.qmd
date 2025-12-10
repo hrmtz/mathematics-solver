@@ -1,0 +1,248 @@
+## 解答
+
+(1)  
+
+$n$枚とも同じく $p_k=\dfrac13$ とする．  
+硬貨 $C_k$ の表を $H_k$，裏を $T_k$ と書く．
+
+任意の $k$ について，  
+「$C_k$ が表であり，かつ残り $n-1$ 枚の表の枚数が偶数」または  
+「$C_k$ が裏であり，かつ残り $n-1$ 枚の表の枚数が奇数」  
+という 2 通りの場合に，全体として表の枚数が奇数になる．
+
+ここで，残り $n-1$ 枚の硬貨は互いに独立であり，それぞれ表の確率が $\dfrac13$，
+裏の確率が $\dfrac23$ で同一なので，
+「表の枚数が偶数である確率」と「表の枚数が奇数である確率」は等しい．  
+（対称性および $(q-(1-q))^{n-1}=(2q-1)^{n-1}$ の展開で奇数項と偶数項の和が等しいことからも分かる．）
+
+よって，残り $n-1$ 枚について
+- 表の枚数が偶数である確率 ＝ 表の枚数が奇数である確率 ＝ $\dfrac12$
+
+である．
+
+したがって，全体で表の枚数が奇数となる確率 $X_n$ は
+
+$$
+X_n
+= \sum_{k=1}^n \Bigl(
+P(H_k)\cdot P(\text{残りが偶数}) + P(T_k)\cdot P(\text{残りが奇数})
+\Bigr)
+$$
+
+と書けるが，どの $k$ でも同じであり，また $P(H_k)=\dfrac13,\ P(T_k)=\dfrac23$ なので
+
+$$
+X_n
+= P(\text{表の枚数が奇数})
+= \frac13\cdot\frac12 + \frac23\cdot\frac12
+= \frac12
+$$
+
+である．
+
+よって，
+$$
+X_n = \frac12
+$$
+である．
+
+
+(2)  
+
+各 $k$ について $p_k=\dfrac{1}{2(k+1)}$ とし，成功確率を $Y_n$ とする．  
+
+$n$枚のコインの表・裏を 0,1 の変数で表す方法などもあるが，ここでは「表の枚数が奇数となる確率」の一般公式を用いる．  
+
+確率論で知られている次の公式を用いる：
+
+- 確率 $p_k$ で 1，確率 $1-p_k$ で 0 をとる独立な 0-1 変数 $X_k$ に対し，
+  $S = X_1 + \cdots + X_n$ が奇数となる確率は
+  $$
+  P(S\ \text{が奇数})
+  = \frac12\Bigl(1 - \prod_{k=1}^n (1 - 2p_k)\Bigr)
+  $$
+  で与えられる．  
+  （これは，母関数 $\prod_{k=1}^n (q + p_kx)$ を $x=1,-1$ に代入して「偶数項と奇数項の差」を考えると得られる公式である．）
+
+このゲームでは，各 $C_k$ が表である確率を $p_k$，裏である確率を $1-p_k$ としているので，
+上の $X_k$ を「$C_k$ が表のとき 1，裏のとき 0」と定めると，$P(X_k=1)=p_k$ となる．  
+よって，上記の公式をそのまま用いてよい．
+
+したがって，成功確率 $Y_n$ は
+
+$$
+Y_n = \frac12\left(1 - \prod_{k=1}^n (1 - 2p_k)\right)
+$$
+
+で与えられる．  
+ここで $p_k = \dfrac{1}{2(k+1)}$ を代入すると
+
+$$
+1 - 2p_k
+= 1 - \frac{1}{k+1}
+= \frac{k}{k+1}
+$$
+
+であるから，
+
+$$
+\prod_{k=1}^n (1 - 2p_k)
+= \prod_{k=1}^n \frac{k}{k+1}
+$$
+
+となる．これは「階乗の比」として計算でき，
+
+$$
+\prod_{k=1}^n \frac{k}{k+1}
+= \frac{1}{2}\cdot\frac{2}{3}\cdot\frac{3}{4}\cdots\frac{n}{n+1}
+= \frac{1}{n+1}
+$$
+
+である．
+
+したがって，
+
+$$
+Y_n
+= \frac12\left(1 - \frac{1}{n+1}\right)
+= \frac12\cdot\frac{n}{n+1}
+= \frac{n}{2(n+1)}
+$$
+
+となる．
+
+よって，
+$$
+Y_n = \frac{n}{2(n+1)}
+$$
+である．
+
+
+(3)  
+
+$n=3m$ とし，成功確率を $Z_{3m}$ とおく．  
+(2) と同様に，上で述べた一般公式
+
+$$
+P(\text{表の枚数が奇数})
+= \frac12\Bigl(1 - \prod_{k=1}^{3m} (1 - 2p_k)\Bigr)
+$$
+
+を用いる．  
+したがって
+
+$$
+Z_{3m}
+= \frac12\left(1 - \prod_{k=1}^{3m} (1 - 2p_k)\right)
+$$
+
+である．あとは $\prod_{k=1}^{3m} (1 - 2p_k)$ を計算すればよい．
+
+与えられた $p_k$ は
+
+$$
+p_k = 
+\begin{cases}
+\dfrac{1}{3m} & (k=1,\ldots,m)\\[4pt]
+\dfrac{2}{3m} & (k=m+1,\ldots,2m)\\[4pt]
+\dfrac{1}{m}   & (k=2m+1,\ldots,3m)
+\end{cases}
+$$
+
+であるから，それぞれについて $1 - 2p_k$ を求める：
+
+- $k=1,\ldots,m$ のとき  
+  $$
+  1 - 2p_k = 1 - \frac{2}{3m} = \frac{3m - 2}{3m}
+  $$
+- $k=m+1,\ldots,2m$ のとき  
+  $$
+  1 - 2p_k = 1 - \frac{4}{3m}
+  = \frac{3m - 4}{3m}
+  $$
+- $k=2m+1,\ldots,3m$ のとき  
+  $$
+  1 - 2p_k = 1 - \frac{2}{m}
+  = \frac{m - 2}{m}
+  $$
+
+それぞれ同じ値が $m$ 回ずつ現れるので，
+
+$$
+\prod_{k=1}^{3m} (1 - 2p_k)
+= \left(\frac{3m - 2}{3m}\right)^m
+  \left(\frac{3m - 4}{3m}\right)^m
+  \left(\frac{m - 2}{m}\right)^m
+$$
+
+となる．ここから極限を求めるために，指数関数の極限  
+$\displaystyle \lim_{m\to\infty}\left(1 + \frac{a}{m}\right)^m = e^{a}$  
+を用いる．
+
+それぞれを書き直す：
+
+1.  
+$$
+\left(\frac{3m - 2}{3m}\right)^m
+= \left(1 - \frac{2}{3m}\right)^m
+$$
+
+2.  
+$$
+\left(\frac{3m - 4}{3m}\right)^m
+= \left(1 - \frac{4}{3m}\right)^m
+$$
+
+3.  
+$$
+\left(\frac{m - 2}{m}\right)^m
+= \left(1 - \frac{2}{m}\right)^m
+$$
+
+よって，
+
+$$
+\prod_{k=1}^{3m} (1 - 2p_k)
+= \left(1 - \frac{2}{3m}\right)^m
+  \left(1 - \frac{4}{3m}\right)^m
+  \left(1 - \frac{2}{m}\right)^m
+$$
+
+となる．$m\to\infty$ のとき，
+
+- $\displaystyle \left(1 - \frac{2}{3m}\right)^m
+  = \left(\left(1 - \frac{2}{3m}\right)^{3m}\right)^{1/3} \to (e^{-2})^{1/3} = e^{-2/3}$
+
+- $\displaystyle \left(1 - \frac{4}{3m}\right)^m
+  = \left(\left(1 - \frac{4}{3m}\right)^{3m}\right)^{1/3} \to (e^{-4})^{1/3} = e^{-4/3}$
+
+- $\displaystyle \left(1 - \frac{2}{m}\right)^m \to e^{-2}$
+
+であるから，
+
+$$
+\lim_{m\to\infty} \prod_{k=1}^{3m} (1 - 2p_k)
+= e^{-2/3}\cdot e^{-4/3}\cdot e^{-2}
+= e^{-2/3-4/3-2}
+= e^{-4}
+$$
+
+となる．
+
+したがって，
+
+$$
+\lim_{m\to\infty} Z_{3m}
+= \lim_{m\to\infty} \frac12\left(1 - \prod_{k=1}^{3m} (1 - 2p_k)\right)
+= \frac12\left(1 - e^{-4}\right)
+$$
+
+である．
+
+よって，
+
+$$
+\boxed{\displaystyle \lim_{m\to\infty} Z_{3m} = \frac12\left(1 - e^{-4}\right)}
+$$
+
+となる．

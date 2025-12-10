@@ -1,0 +1,159 @@
+## 解答
+
+(1)  
+3点 $P(-1,1,-1)$，$Q(1,1,1)$，$R(a,a^2,a^3)$ が一直線上にあるための必要十分条件は，ベクトル $\overrightarrow{PQ}$ と $\overrightarrow{PR}$ が平行であることである。
+
+まず  
+$$
+\overrightarrow{PQ} = Q-P = (1-(-1),\,1-1,\,1-(-1)) = (2,\,0,\,2)
+$$
+と  
+$$
+\overrightarrow{PR} = R-P = (a-(-1),\,a^2-1,\,a^3-(-1)) = (a+1,\,a^2-1,\,a^3+1)
+$$
+である。
+
+平行であるためには，ある実数 $k$ が存在して
+$$
+(a+1,\,a^2-1,\,a^3+1) = k(2,\,0,\,2)
+$$
+となる必要がある。成分ごとに見ると
+$$
+a+1 = 2k,\quad a^2-1 = 0,\quad a^3+1 = 2k
+$$
+が同時に成り立たねばならない。
+
+ここで $a^2-1=0$ より
+$$
+a^2-1 = 0 \ \Longrightarrow\ a = 1 \ \text{または}\ a = -1
+$$
+となる。  
+よって $a\neq -1$，$a\neq 1$ のときには $a^2-1\neq 0$ であり，$\overrightarrow{PR}$ の第2成分は 0 ではない。他方，$\overrightarrow{PQ}$ の第2成分は 0 であるから，ある実数 $k$ に対し
+$$
+(a+1,\,a^2-1,\,a^3+1) = k(2,\,0,\,2)
+$$
+となることはない。  
+
+したがって $a\neq -1$，$a\neq 1$ のとき，$\overrightarrow{PQ}$ と $\overrightarrow{PR}$ は平行ではなく，3点 $P,Q,R$ は一直線上にない。
+
+---
+
+(2)  
+三角形 $PQR$ の面積を求めるには，2辺に対応するベクトルの外積の大きさを用いる。ベクトルの外積の大きさの定義より，  
+三角形 $PQR$ の面積 $S(a)$ は
+$$
+S(a) = \frac12 \bigl|\overrightarrow{PQ}\times\overrightarrow{PR}\bigr|
+$$
+である。
+
+(1) より
+$$
+\overrightarrow{PQ} = (2,\,0,\,2),\quad
+\overrightarrow{PR} = (a+1,\,a^2-1,\,a^3+1)
+$$
+であるから，外積  
+$\overrightarrow{PQ}\times\overrightarrow{PR}$ を計算する。
+
+$$
+\overrightarrow{PQ}\times\overrightarrow{PR}
+=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k}\\
+2 & 0 & 2\\
+a+1 & a^2-1 & a^3+1
+\end{vmatrix}
+$$
+
+この行列式を展開すると，
+\[
+\begin{aligned}
+\overrightarrow{PQ}\times\overrightarrow{PR}
+&=
+\boldsymbol{i}\,(0\cdot(a^3+1) - 2(a^2-1))
+- \boldsymbol{j}\,(2(a^3+1) - 2(a+1))
++ \boldsymbol{k}\,(2(a^2-1) - 0\cdot(a+1))\\
+&=
+\boldsymbol{i}\,(-2a^2+2)
+- \boldsymbol{j}\,(2a^3+2 -2a -2)
++ \boldsymbol{k}\,(2a^2-2)\\
+&=
+\bigl(-2a^2+2,\,-2a^3+2a,\,2a^2-2\bigr)
+\end{aligned}
+\]
+したがって，
+\[
+\begin{aligned}
+\bigl|\overrightarrow{PQ}\times\overrightarrow{PR}\bigr|^2
+&=
+(-2a^2+2)^2 + (-2a^3+2a)^2 + (2a^2-2)^2\\
+&=
+4(a^2-1)^2 + 4a^2(a^2-1)^2 + 4(a^2-1)^2\\
+&=
+\bigl(4+4a^2+4\bigr)(a^2-1)^2\\
+&=
+4(2+a^2)(a^2-1)^2
+\end{aligned}
+\]
+
+よって
+$$
+\bigl|\overrightarrow{PQ}\times\overrightarrow{PR}\bigr|
+= 2\,|a^2-1|\,\sqrt{2+a^2}
+$$
+となり，面積
+$$
+S(a) = \frac12 \bigl|\overrightarrow{PQ}\times\overrightarrow{PR}\bigr|
+= |a^2-1|\,\sqrt{2+a^2}
+$$
+を得る。
+
+ここで $-1<a<1$ なので $0\le a^2<1$ であり，$a^2-1\le 0$ だから
+$$
+|a^2-1| = 1-a^2
+$$
+である。したがって
+$$
+S(a) = (1-a^2)\sqrt{2+a^2}\quad(-1<a<1)
+$$
+となる。
+
+次に，$-1<a<1$ における $S(a)$ の最大値を求める。  
+関数
+$$
+f(a) = (1-a^2)\sqrt{2+a^2}
+$$
+を $-1<a<1$ で考える。$f(a)$ は $a^2$ のみで表されているので，偶関数であり，グラフは $y$ 軸に関して対称である。したがって $[0,1)$ の範囲で最大値を調べれば十分である。
+
+そこで $0\le a<1$ を考え，導関数を用いて極値を調べる。  
+$f(a)$ を微分すると，積の微分および $\sqrt{2+a^2}$ の微分 $\dfrac{d}{da}\sqrt{2+a^2} = \dfrac{a}{\sqrt{2+a^2}}$ を用いて
+\[
+\begin{aligned}
+f'(a)
+&= (1-a^2)\cdot\frac{a}{\sqrt{2+a^2}} + \sqrt{2+a^2}\cdot(-2a)\\
+&= a\left[\frac{1-a^2}{\sqrt{2+a^2}} - 2\sqrt{2+a^2}\right]\\
+&= a\left[\frac{1-a^2 -2(2+a^2)}{\sqrt{2+a^2}}\right]\\
+&= a\left[\frac{1-a^2 -4 -2a^2}{\sqrt{2+a^2}}\right]\\
+&= a\left[\frac{-3-3a^2}{\sqrt{2+a^2}}\right]\\
+&= -\frac{3a(1+a^2)}{\sqrt{2+a^2}}
+\end{aligned}
+\]
+
+$0\le a<1$ の範囲では $\sqrt{2+a^2}>0$ かつ $1+a^2>0$ であるから，  
+$f'(a)$ の符号は $-3a$ の符号と一致する。したがって
+- $a=0$ のとき $f'(0)=0$，
+- $0<a<1$ では $a>0$ なので $f'(a)<0$
+
+となり，$a=0$ を境にして $f(a)$ は減少している。よって $[0,1)$ における最大値は $a=0$ でとる。
+
+また $f$ は偶関数であり，$[-1,1)$ 全体でも同様に $a=0$ で最大となる。  
+実際に $a=0$ を代入すると
+$$
+S(0) = (1-0^2)\sqrt{2+0^2} = 1\cdot\sqrt{2} = \sqrt{2}
+$$
+である。
+
+以上より，$-1<a<1$ のとき，三角形 $PQR$ の面積の最大値は
+$$
+\sqrt{2}
+$$
+である。

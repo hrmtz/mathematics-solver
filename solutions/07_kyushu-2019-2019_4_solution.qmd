@@ -1,0 +1,254 @@
+## 解答
+
+点 $A(2,0)$，$B(1,\sqrt3)$ なので，ベクトル表示を用いる。  
+線分 $AB$ 上の点を，実数 $t$ を用いて次のように表す：
+
+$$
+P(t)=A+t\overrightarrow{AB}
+      =(2,0)+t\bigl(B-A\bigr)
+      =(2,0)+t\bigl(1-2,\ \sqrt3-0\bigr)
+      =(2-t,\ t\sqrt3)
+$$
+
+したがって，$P_n$ の座標を $(x_n,y_n)$ とすると
+
+$$
+P_n=(x_n,y_n)=(2-t_n,\ t_n\sqrt3)
+$$
+
+と表せる。ただし $P_1$ が $A,B$ と異なる $AB$ 上の点なので $0<t_1<1$ である。
+
+---
+
+### (1) $Q_n$ の座標
+
+$O(0,0)$，$B(1,\sqrt3)$ より，直線 $OB$ の方程式は
+
+$$
+y=\sqrt3\,x
+$$
+
+である。点 $Q_n(x,y)$ は $P_n(x_n,y_n)$ から $OB$ に下ろした垂線と $OB$ との交点なので，$Q_n$ は直線 $OB$ 上にあり，かつ $\overrightarrow{P_nQ_n}$ は $OB$ に垂直である。
+
+直線 $OB$ の方向ベクトルは $\overrightarrow{OB}=(1,\sqrt3)$ である。  
+$Q_n(x,y)$ が $OB$ 上にあるので，ある実数 $s_n$ を用いて
+
+$$
+Q_n=(x,y)=(s_n,\ s_n\sqrt3)
+$$
+
+と書ける。  
+また，$\overrightarrow{P_nQ_n}$ が $\overrightarrow{OB}$ に垂直なので，内積を用いると
+
+$$
+\overrightarrow{P_nQ_n}\cdot\overrightarrow{OB}=0
+$$
+
+である。  
+$\overrightarrow{P_nQ_n}=Q_n-P_n=(s_n-x_n,\ s_n\sqrt3-y_n)$ であり，$\overrightarrow{OB}=(1,\sqrt3)$ なので
+
+$$
+(s_n-x_n)\cdot1+(s_n\sqrt3-y_n)\cdot\sqrt3=0
+$$
+
+すなわち
+
+$$
+s_n-x_n+3s_n- y_n\sqrt3=0
+$$
+
+よって
+
+$$
+4s_n=x_n+y_n\sqrt3
+$$
+
+となる。$x_n=2-t_n,\ y_n=t_n\sqrt3$ を代入すると，
+
+$$
+x_n+y_n\sqrt3=(2-t_n)+t_n\sqrt3\cdot\sqrt3=(2-t_n)+3t_n=2+2t_n
+$$
+
+したがって
+
+$$
+s_n=\dfrac{2+2t_n}{4}=\dfrac{1+t_n}{2}
+$$
+
+よって
+
+$$
+Q_n=\left(\dfrac{1+t_n}{2},\ \dfrac{1+t_n}{2}\sqrt3\right)
+$$
+
+となる。
+
+---
+
+### (2) $R_n$ の座標
+
+$O(0,0)$，$A(2,0)$ より，直線 $OA$ は $x$ 軸そのものなので方程式は
+
+$$
+y=0
+$$
+
+である。$R_n$ は $Q_n$ から $OA$ に下ろした垂線と $OA$ の交点だから，$R_n$ の $y$ 座標は $0$ で，$x$ 座標は $Q_n$ と等しい。
+
+したがって
+
+$$
+R_n=\left(\dfrac{1+t_n}{2},\ 0\right)
+$$
+
+である。
+
+---
+
+### (3) $P_{n+1}$ の座標と漸化式
+
+$P_{n+1}$ は $R_n$ から $AB$ に下ろした垂線と $AB$ の交点である。  
+点 $R_n$ の座標はすでに
+
+$$
+R_n=\left(\dfrac{1+t_n}{2},\ 0\right)
+$$
+
+と分かっている。
+
+一方，$AB$ 上の点は最初と同様に
+
+$$
+P_{n+1}=A+t_{n+1}\overrightarrow{AB}
+   =\bigl(2-t_{n+1},\ t_{n+1}\sqrt3\bigr)
+$$
+
+と表すことができる。これが $R_n$ から $AB$ に下ろした垂線の足であるから，$\overrightarrow{R_nP_{n+1}}$ は $\overrightarrow{AB}$ に垂直である。よって内積を用いて
+
+$$
+\overrightarrow{R_nP_{n+1}}\cdot\overrightarrow{AB}=0
+$$
+
+が成り立つ。  
+$\overrightarrow{AB}=B-A=(1-2,\ \sqrt3-0)=(-1,\ \sqrt3)$ であり，
+
+$$
+\overrightarrow{R_nP_{n+1}}
+=
+\bigl(2-t_{n+1}-\tfrac{1+t_n}{2},\ t_{n+1}\sqrt3-0\bigr)
+$$
+
+であるから，
+
+$$
+\left(2-t_{n+1}-\dfrac{1+t_n}{2},\ t_{n+1}\sqrt3\right)
+\cdot
+(-1,\ \sqrt3)=0
+$$
+
+となる。内積を計算すると，
+
+$$
+-\left(2-t_{n+1}-\dfrac{1+t_n}{2}\right)
++3t_{n+1}=0
+$$
+
+まず括弧内を整理する：
+
+$$
+2-t_{n+1}-\dfrac{1+t_n}{2}
+=
+\dfrac{4}{2}-\dfrac{2t_{n+1}}{2}-\dfrac{1+t_n}{2}
+=
+\dfrac{3-t_n-2t_{n+1}}{2}
+$$
+
+したがって
+
+$$
+-\dfrac{3-t_n-2t_{n+1}}{2}
++3t_{n+1}=0
+$$
+
+両辺に $2$ をかけて分母を払うと，
+
+$$
+-(3-t_n-2t_{n+1})+6t_{n+1}=0
+$$
+
+すなわち
+
+$$
+-3+t_n+2t_{n+1}+6t_{n+1}=0
+$$
+
+$$
+t_n+8t_{n+1}-3=0
+$$
+
+よって
+
+$$
+8t_{n+1}=3-t_n
+\quad\Longrightarrow\quad
+t_{n+1}=\dfrac{3-t_n}{8}
+$$
+
+という一次の漸化式を得る。
+
+---
+
+### (4) $t_n$ の極限と $P_n$ の極限
+
+求める極限点は $n\to\infty$ のときの $P_n$ の極限である。  
+$P_n$ は $t_n$ を用いて $P_n=(2-t_n,\ t_n\sqrt3)$ と表されるので，まず $t_n$ の極限を求める。
+
+漸化式
+
+$$
+t_{n+1}=\dfrac{3-t_n}{8}
+$$
+
+は一般形 $t_{n+1}=a t_n + b$（ここでは $a=-\dfrac18,\ b=\dfrac38$）の一次漸化式であり，共通な方法として，極限 $L=\lim_{n\to\infty}t_n$ が存在すると仮定し，漸化式の両辺の極限をとる。
+
+$n\to\infty$ とすると $t_{n+1}$ も $t_n$ もともに $L$ に近づくと考えられるので，
+
+$$
+L=\dfrac{3-L}{8}
+$$
+
+が成り立つ。これを解くと，
+
+$$
+8L=3-L
+\quad\Longrightarrow\quad
+9L=3
+\quad\Longrightarrow\quad
+L=\dfrac{1}{3}
+$$
+
+したがって
+
+$$
+\lim_{n\to\infty}t_n=\dfrac{1}{3}
+$$
+
+である。
+
+これを $P_n=(2-t_n,\ t_n\sqrt3)$ に代入すれば，
+
+$$
+\lim_{n\to\infty}P_n
+=
+\left(2-\dfrac13,\ \dfrac13\sqrt3\right)
+=
+\left(\dfrac{5}{3},\ \dfrac{\sqrt3}{3}\right)
+$$
+
+したがって，$n\to\infty$ のとき $P_n$ が限りなく近づく点の座標は
+
+$$
+\left(\dfrac{5}{3},\ \dfrac{\sqrt3}{3}\right)
+$$
+
+である。

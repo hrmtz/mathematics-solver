@@ -1,0 +1,266 @@
+## 解答
+
+積分
+$$
+\int_0^1(\sin(2n\pi t)-xt-y)^2\,dt
+$$
+を $x,y$ について最小にしたときの最小値を $I_n$ とする。
+
+まず，$x,y$ を変数とする関数
+$$
+F(x,y)=\int_0^1(\sin(2n\pi t)-xt-y)^2\,dt
+$$
+を考える。これは $x,y$ についての2次関数であり，凸であるから，偏微分を0とすることで最小値が求まる。
+
+### (1) 最小化条件（正規方程式）
+
+$F(x,y)$ を展開してから偏微分してもよいが，計算量を抑えるために「積分の中身について $x,y$ で偏微分し，その積分が0」とおく方法を用いる。
+
+$t$ ごとに
+$$
+\frac{\partial}{\partial x}(\sin(2n\pi t)-xt-y)^2
+=2(\sin(2n\pi t)-xt-y)\cdot(-t),
+$$
+$$
+\frac{\partial}{\partial y}(\sin(2n\pi t)-xt-y)^2
+=2(\sin(2n\pi t)-xt-y)\cdot(-1)
+$$
+であるから，積分と微分の順序を入れ替えて
+$$
+\frac{\partial F}{\partial x}
+=\int_0^1 2(\sin(2n\pi t)-xt-y)(-t)\,dt,
+$$
+$$
+\frac{\partial F}{\partial y}
+=\int_0^1 2(\sin(2n\pi t)-xt-y)(-1)\,dt
+$$
+となる。最小値の条件は
+$$
+\frac{\partial F}{\partial x}=0,\quad
+\frac{\partial F}{\partial y}=0
+$$
+であるから，結局
+$$
+\int_0^1(\sin(2n\pi t)-xt-y)\,dt=0 \tag{A}
+$$
+$$
+\int_0^1(\sin(2n\pi t)-xt-y)t\,dt=0 \tag{B}
+$$
+を満たす $x,y$ が最小点である。
+
+(A) より
+$$
+\int_0^1\sin(2n\pi t)\,dt
+-\int_0^1xt\,dt
+-\int_0^1y\,dt=0
+$$
+である。ここで
+$$
+\int_0^1\sin(2n\pi t)\,dt
+=\Bigl[-\frac{\cos(2n\pi t)}{2n\pi}\Bigr]_0^1
+=-\frac{\cos(2n\pi)}{2n\pi}+\frac{\cos 0}{2n\pi}=0,
+$$
+$$
+\int_0^1xt\,dt = x\int_0^1 t\,dt = x\cdot\frac12,
+\quad
+\int_0^1 y\,dt = y\cdot 1
+$$
+であるから
+$$
+0 - \frac{x}{2} - y = 0
+$$
+すなわち
+$$
+\frac{x}{2}+y=0 \tag{1}
+$$
+を得る。
+
+次に (B) より
+$$
+\int_0^1\sin(2n\pi t)t\,dt
+-\int_0^1xt^2\,dt
+-\int_0^1yt\,dt=0
+$$
+となる。ここで
+$$
+\int_0^1xt^2\,dt = x\int_0^1 t^2\,dt = x\cdot\frac13,\quad
+\int_0^1yt\,dt = y\int_0^1 t\,dt = y\cdot\frac12
+$$
+であるから，
+$$
+\int_0^1 t\sin(2n\pi t)\,dt - \frac{x}{3}-\frac{y}{2}=0. \tag{2}
+$$
+
+### (2) $\displaystyle\int_0^1 t\sin(2n\pi t)\,dt$ の計算
+
+部分積分を用いる。$u=t,\ dv=\sin(2n\pi t)\,dt$ とおくと，
+$$
+du=dt,\quad
+v = \int \sin(2n\pi t)\,dt
+= -\frac{\cos(2n\pi t)}{2n\pi}
+$$
+だから
+$$
+\int_0^1 t\sin(2n\pi t)\,dt
+=\Bigl[t\cdot\Bigl(-\frac{\cos(2n\pi t)}{2n\pi}\Bigr)\Bigr]_0^1
+-\int_0^1 1\cdot\Bigl(-\frac{\cos(2n\pi t)}{2n\pi}\Bigr)\,dt
+$$
+$$
+=-\frac{\cos(2n\pi)}{2n\pi}
++\frac{1}{2n\pi}\int_0^1\cos(2n\pi t)\,dt.
+$$
+さらに
+$$
+\int_0^1\cos(2n\pi t)\,dt
+=\Bigl[\frac{\sin(2n\pi t)}{2n\pi}\Bigr]_0^1
+=\frac{\sin(2n\pi)}{2n\pi}-0=0
+$$
+なので
+$$
+\int_0^1 t\sin(2n\pi t)\,dt
+=-\frac{\cos(2n\pi)}{2n\pi}
+=-\frac{1}{2n\pi}
+$$
+となる（$\cos(2n\pi)=1$ を用いた）。
+
+よって (2) は
+$$
+-\frac{1}{2n\pi}-\frac{x}{3}-\frac{y}{2}=0
+$$
+すなわち
+$$
+\frac{x}{3}+\frac{y}{2}=-\frac{1}{2n\pi} \tag{3}
+$$
+となる。
+
+(1),(3) を連立して $x,y$ を求める。
+
+(1) より $y=-\dfrac{x}{2}$ を (3) に代入して
+$$
+\frac{x}{3}+\frac{1}{2}\Bigl(-\frac{x}{2}\Bigr)
+=\frac{x}{3}-\frac{x}{4}
+=\frac{4x-3x}{12}
+=\frac{x}{12}
+=-\frac{1}{2n\pi}
+$$
+したがって
+$$
+x=-\frac{12}{2n\pi}=-\frac{6}{n\pi},
+\quad
+y=-\frac{x}{2}
+=\frac{3}{n\pi}
+$$
+を得る。
+
+### (3) 最小値 $I_n$ の計算
+
+最小値 $I_n$ は
+$$
+I_n
+=\min_{x,y}\int_0^1(\sin(2n\pi t)-xt-y)^2\,dt
+=\int_0^1(\sin(2n\pi t)-x_nt-y_n)^2\,dt
+$$
+であり，ここで
+$$
+x_n=-\frac{6}{n\pi},\quad y_n=\frac{3}{n\pi}
+$$
+である。したがって
+$$
+I_n=\int_0^1\bigl(\sin(2n\pi t)+\frac{6}{n\pi}t-\frac{3}{n\pi}\bigr)^2\,dt
+$$
+であるが，これを直接展開して計算してもよいし，一般論（最小二乗法の公式）を使ってもよい。
+
+ここでは，一般論を用いて簡単に計算する。  
+$L^2[0,1]$ における内積
+$$
+\langle f,g\rangle=\int_0^1 f(t)g(t)\,dt
+$$
+を考える。$1,t$ を基底とする2次元部分空間 $V=\operatorname{span}\{1,t\}$ への直交射影を $P$ とすると，
+$$
+I_n=\min_{p\in V}\|\sin(2n\pi t)-p(t)\|^2
+=\|\sin(2n\pi t)-P\sin(2n\pi t)\|^2
+=\|\sin(2n\pi t)\|^2-\|P\sin(2n\pi t)\|^2
+$$
+が成り立つ（直交分解の定理）。
+
+ここで
+$$
+\|\sin(2n\pi t)\|^2
+=\int_0^1\sin^2(2n\pi t)\,dt
+$$
+を求める：
+$$
+\sin^2\theta=\frac{1-\cos 2\theta}{2}
+$$
+を用いると
+$$
+\int_0^1\sin^2(2n\pi t)\,dt
+=\int_0^1\frac{1-\cos(4n\pi t)}{2}\,dt
+=\frac12\int_0^1 1\,dt
+-\frac12\int_0^1\cos(4n\pi t)\,dt.
+$$
+$$
+\int_0^1\cos(4n\pi t)\,dt
+=\Bigl[\frac{\sin(4n\pi t)}{4n\pi}\Bigr]_0^1
+=\frac{\sin(4n\pi)}{4n\pi}-0=0
+$$
+より
+$$
+\int_0^1\sin^2(2n\pi t)\,dt=\frac12
+$$
+となる。したがって
+$$
+I_n=\frac12-\|P\sin(2n\pi t)\|^2.
+$$
+
+一方，$P\sin(2n\pi t)$ は $1,t$ の一次結合 $at+b$ であり，先に求めた最小化の解から
+$$
+P\sin(2n\pi t)(t)=x_nt+y_n=-\frac{6}{n\pi}t+\frac{3}{n\pi}
+=\frac{3}{n\pi}(1-2t)
+$$
+とわかる。したがって
+$$
+\|P\sin(2n\pi t)\|^2
+=\int_0^1\Bigl(\frac{3}{n\pi}(1-2t)\Bigr)^2\,dt
+=\frac{9}{n^2\pi^2}\int_0^1(1-2t)^2\,dt.
+$$
+最後の積分は
+$$
+(1-2t)^2=1-4t+4t^2
+$$
+より
+$$
+\int_0^1(1-4t+4t^2)\,dt
+=\Bigl[t-2t^2+\frac{4}{3}t^3\Bigr]_0^1
+=1-2+\frac{4}{3}
+=\frac{1}{3}
+$$
+となるので
+$$
+\|P\sin(2n\pi t)\|^2
+=\frac{9}{n^2\pi^2}\cdot\frac{1}{3}
+=\frac{3}{n^2\pi^2}
+$$
+である。よって
+$$
+I_n=\frac12-\frac{3}{n^2\pi^2}.
+$$
+
+### (4) 極限の計算
+
+以上より
+$$
+I_n=\frac{1}{2}-\frac{3}{n^2\pi^2}
+$$
+であるから，
+$$
+\lim_{n\to\infty}I_n
+=\lim_{n\to\infty}\Bigl(\frac{1}{2}-\frac{3}{n^2\pi^2}\Bigr)
+=\frac{1}{2}.
+$$
+
+したがって，求める極限は
+$$
+\boxed{\dfrac{1}{2}}
+$$
+である。

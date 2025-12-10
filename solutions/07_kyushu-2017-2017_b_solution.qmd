@@ -1,0 +1,266 @@
+## 解答
+
+$a,b,c,d$ は，それぞれ 1 から 6 までの整数を等確率でとる独立な確率変数である。  
+$d$ が $a,b,c$ の最大公約数の倍数となる確率を求める。
+
+まず，$g=\gcd(a,b,c)$ とおき，
+
+$$
+P=\Pr\bigl(d \text{ が } g \text{ の倍数}\bigr)
+$$
+
+を求める。
+
+---
+
+### (1) 条件付き確率による整理
+
+$a,b,c$ がいずれの値をとっても，$g=\gcd(a,b,c)$ は 1 以上 6 以下の整数であり，$d$ は $g$ と独立である。  
+$d$ が $1,2,\dots,6$ のうち $g$ の倍数であるのは
+
+$$
+d \in \{g,2g,\dots\} \cap \{1,2,\dots,6\}
+$$
+
+であるから，その個数は $\left\lfloor \dfrac{6}{g} \right\rfloor$ 個である。  
+したがって
+
+$$
+\Pr(d \text{ が } g \text{ の倍数} \mid g) = \frac{\left\lfloor \dfrac{6}{g} \right\rfloor}{6}.
+$$
+
+ここで，全確率の公式より
+
+$$
+P = \sum_{k=1}^{6} \Pr(g=k)\,\Pr(d \text{ が } g \text{ の倍数} \mid g=k)
+   = \sum_{k=1}^{6} \Pr(g=k)\,\frac{\left\lfloor \dfrac{6}{k} \right\rfloor}{6}
+$$
+
+となる。
+
+---
+
+### (2) $\Pr(g=k)$ の計算の準備
+
+$g=\gcd(a,b,c)$ の分布を求めるために，まず
+
+$$
+q(k)=\Pr(k \text{ が } a,b,c \text{ の公約数})
+       =\Pr(k\mid a,\,k\mid b,\,k\mid c)
+$$
+
+を考える。
+
+$a,b,c$ はそれぞれ $\{1,2,3,4,5,6\}$ 上一様なので，$k$ の倍数となる目は  
+$\{k,2k,\dots\}$ のうち 6 以下のもの，すなわち $\left\lfloor \dfrac{6}{k} \right\rfloor$ 個である。  
+ゆえに
+
+$$
+\Pr(k\mid a)=\Pr(k\mid b)=\Pr(k\mid c)=\frac{\left\lfloor \dfrac{6}{k} \right\rfloor}{6}
+$$
+
+であり，独立性より
+
+$$
+q(k)=\left(\frac{\left\lfloor \dfrac{6}{k} \right\rfloor}{6}\right)^3.
+$$
+
+次に，「最大公約数が $k$ である」ことは，
+「$k$ は公約数であり，その倍数で $>k$ のものは公約数でない」という条件で表せる。
+
+すなわち
+
+$$
+\{g=k\}
+=
+\{k \text{ が公約数}\} \setminus
+\bigcup_{m\ge2}\{mk \text{ も公約数}\}.
+$$
+
+ここで $1\le a,b,c\le6$ なので，$mk\le 6$ となる $m$ だけ考えればよく，  
+そのような $m$ は $m=2,3,\dots,\left\lfloor \dfrac{6}{k} \right\rfloor$ である。
+
+したがって
+
+$$
+\Pr(g=k)
+=
+q(k)-\sum_{m=2}^{\left\lfloor 6/k \right\rfloor} q(mk).
+$$
+
+これを $k=1,2,\dots,6$ について具体的に計算する。
+
+---
+
+### (3) 各 $k$ について $\Pr(g=k)$ を求める
+
+まず $q(k)$ を具体的に列挙する。  
+$\left\lfloor \dfrac{6}{k} \right\rfloor$ を計算すると
+
+- $k=1$：$\left\lfloor 6/1 \right\rfloor = 6$ より $q(1)=\left(\dfrac{6}{6}\right)^3 = 1$
+- $k=2$：$\left\lfloor 6/2 \right\rfloor = 3$ より $q(2)=\left(\dfrac{3}{6}\right)^3 = \dfrac{1}{8}$
+- $k=3$：$\left\lfloor 6/3 \right\rfloor = 2$ より $q(3)=\left(\dfrac{2}{6}\right)^3 = \dfrac{1}{27}$
+- $k=4$：$\left\lfloor 6/4 \right\rfloor = 1$ より $q(4)=\left(\dfrac{1}{6}\right)^3 = \dfrac{1}{216}$
+- $k=5$：$\left\lfloor 6/5 \right\rfloor = 1$ より $q(5)=\dfrac{1}{216}$
+- $k=6$：$\left\lfloor 6/6 \right\rfloor = 1$ より $q(6)=\dfrac{1}{216}$
+
+これを用いて $\Pr(g=k)$ を順に求める。
+
+- $k=6$ のとき：$6$ の倍数で $>6$ のものはないので
+
+  $$
+  \Pr(g=6)=q(6)=\frac{1}{216}.
+  $$
+
+- $k=5$ のとき：同様に
+
+  $$
+  \Pr(g=5)=q(5)=\frac{1}{216}.
+  $$
+
+- $k=4$ のとき：同様に
+
+  $$
+  \Pr(g=4)=q(4)=\frac{1}{216}.
+  $$
+
+- $k=3$ のとき：$3$ の倍数で $6$ 以下のものは $3,6$ なので
+
+  $$
+  \Pr(g=3)=q(3)-q(6)
+         =\frac{1}{27}-\frac{1}{216}
+         =\frac{8}{216}-\frac{1}{216}
+         =\frac{7}{216}.
+  $$
+
+- $k=2$ のとき：$2$ の倍数で $6$ 以下のものは $2,4,6$ なので
+
+  $$
+  \Pr(g=2)=q(2)-q(4)-q(6)
+         =\frac{1}{8}-\frac{1}{216}-\frac{1}{216}
+         =\frac{27}{216}-\frac{1}{216}-\frac{1}{216}
+         =\frac{25}{216}.
+  $$
+
+- $k=1$ のとき：$1$ の倍数で $6$ 以下のものは $1,2,3,4,5,6$ なので
+
+  $$
+  \Pr(g=1)=q(1)-\{q(2)+q(3)+q(4)+q(5)+q(6)\}.
+  $$
+
+  右辺を計算すると
+
+  $$
+  q(2)+q(3)+q(4)+q(5)+q(6)
+  =\frac{1}{8}+\frac{1}{27}+\frac{1}{216}+\frac{1}{216}+\frac{1}{216}.
+  $$
+
+  これを通分して 216 分の数で表すと
+
+  $$
+  \frac{1}{8}=\frac{27}{216},\quad
+  \frac{1}{27}=\frac{8}{216}
+  $$
+
+  なので
+
+  $$
+  q(2)+\cdots+q(6)
+  =\frac{27}{216}+\frac{8}{216}+\frac{1}{216}+\frac{1}{216}+\frac{1}{216}
+  =\frac{38}{216}.
+  $$
+
+  よって
+
+  $$
+  \Pr(g=1)=1-\frac{38}{216}
+          =\frac{178}{216}.
+  $$
+
+まとめると
+
+$$
+\Pr(g=1)=\frac{178}{216},\quad
+\Pr(g=2)=\frac{25}{216},\quad
+\Pr(g=3)=\frac{7}{216},\quad
+\Pr(g=4)=\frac{1}{216},\quad
+\Pr(g=5)=\frac{1}{216},\quad
+\Pr(g=6)=\frac{1}{216}.
+$$
+
+---
+
+### (4) 求める確率の計算
+
+先に述べたように
+
+$$
+P=\sum_{k=1}^{6} \Pr(g=k)\,\frac{\left\lfloor \dfrac{6}{k} \right\rfloor}{6}
+$$
+
+である。$\left\lfloor \dfrac{6}{k} \right\rfloor$ を再掲すると
+
+- $k=1$：$6$，  $k=2$：$3$，  $k=3$：$2$，  
+- $k=4,5,6$：いずれも $1$  
+
+となるので，
+
+$$
+\begin{aligned}
+P
+&=\Pr(g=1)\cdot\frac{6}{6}
+ +\Pr(g=2)\cdot\frac{3}{6}
+ +\Pr(g=3)\cdot\frac{2}{6}
+ +\Pr(g=4)\cdot\frac{1}{6}
+ +\Pr(g=5)\cdot\frac{1}{6}
+ +\Pr(g=6)\cdot\frac{1}{6} \\
+&=\frac{178}{216}\cdot 1
+ +\frac{25}{216}\cdot\frac{1}{2}
+ +\frac{7}{216}\cdot\frac{1}{3}
+ +\frac{1}{216}\cdot\frac{1}{6}
+ +\frac{1}{216}\cdot\frac{1}{6}
+ +\frac{1}{216}\cdot\frac{1}{6}.
+\end{aligned}
+$$
+
+分母を 1296 にそろえて計算する。
+
+- $\dfrac{178}{216}=\dfrac{178\cdot 6}{216\cdot 6}=\dfrac{1068}{1296}$
+- $\dfrac{25}{216}\cdot\dfrac{1}{2}=\dfrac{25}{432}=\dfrac{75}{1296}$
+- $\dfrac{7}{216}\cdot\dfrac{1}{3}=\dfrac{7}{648}=\dfrac{14}{1296}$
+- $\dfrac{1}{216}\cdot\dfrac{1}{6}=\dfrac{1}{1296}$
+
+より，
+
+$$
+\begin{aligned}
+P
+&=\frac{1068}{1296}
+ +\frac{75}{1296}
+ +\frac{14}{1296}
+ +\frac{1}{1296}
+ +\frac{1}{1296}
+ +\frac{1}{1296} \\
+&=\frac{1068+75+14+1+1+1}{1296}
+ =\frac{1160}{1296}.
+\end{aligned}
+$$
+
+これを約分する。  
+分子分母ともに $8$ で割ると
+
+$$
+\frac{1160}{1296}=\frac{145}{162}
+$$
+
+となり，これ以上約分できない。
+
+---
+
+以上より，求める確率は
+
+$$
+\boxed{\dfrac{145}{162}}
+$$
+
+である。

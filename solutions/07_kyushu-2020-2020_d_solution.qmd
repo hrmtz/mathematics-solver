@@ -1,0 +1,156 @@
+## 解答
+
+(1)  
+式(A)は  
+$$
+|x|+|y|=c_1
+$$
+である。絶対値の定義により，平面を4つの象限に分けて考える。
+
+- 第1象限 ($x\ge0,\ y\ge0$) では  
+  $|x|=x,\ |y|=y$ なので  
+  $x+y=c_1$  
+  となり，$x\ge0,\ y\ge0$ をみたす範囲での直線である。  
+  切片は $x=c_1,\ y=0$ および $x=0,\ y=c_1$ である。
+
+- 第2象限 ($x\le0,\ y\ge0$) では  
+  $|x|=-x,\ |y|=y$ なので  
+  $-x+y=c_1$，すなわち $y=x+c_1$ で，$x\le0,\ y\ge0$ の範囲での直線である。  
+  切片は $x=-c_1,\ y=0$ および $x=0,\ y=c_1$ である。
+
+- 第3象限 ($x\le0,\ y\le0$) では  
+  $|x|=-x,\ |y|=-y$ より  
+  $-x-y=c_1$，すなわち $x+y=-c_1$ で，$x\le0,\ y\le0$ の範囲での直線である。  
+  切片は $x=-c_1,\ y=0$ および $x=0,\ y=-c_1$ である。
+
+- 第4象限 ($x\ge0,\ y\le0$) では  
+  $|x|=x,\ |y|=-y$ より  
+  $x-y=c_1$，すなわち $y=x-c_1$ で，$x\ge0,\ y\le0$ の範囲での直線である。  
+  切片は $x=c_1,\ y=0$ および $x=0,\ y=-c_1$ である。
+
+これら4つの線分を合わせると，頂点が  
+$(c_1,0),\ (0,c_1),\ (-c_1,0),\ (0,-c_1)$  
+であるひし形（正方形を45°回転させた図形）の周上の点全体を表す。
+
+---
+
+(2)  
+$x=r\cos\theta,\ y=r\sin\theta$ とおく（極座標の定義）。
+
+まず(B)より，
+$$
+\sqrt{x^2+y^2}=c_2
+$$
+であるが，左辺は極座標では $r$ に等しいので
+$$
+r=c_2
+$$
+となる。したがって，(B)の極方程式は
+$$
+r=c_2
+$$
+である。
+
+つぎに(A)は
+$$
+|x|+|y|=c_1
+$$
+であり，$x=r\cos\theta,\ y=r\sin\theta$ を用いると
+$$
+|r\cos\theta|+|r\sin\theta|=c_1
+$$
+となる。$r\ge0$ だから $|r\cos\theta|=r|\cos\theta|,\ |r\sin\theta|=r|\sin\theta|$ より
+$$
+r\bigl(|\cos\theta|+|\sin\theta|\bigr)=c_1
+$$
+となる。原点以外を考えるので $r>0$ としてよく，
+$$
+r=\frac{c_1}{|\cos\theta|+|\sin\theta|}
+$$
+と表される。したがって，(A)の極方程式は
+$$
+r=\dfrac{c_1}{|\cos\theta|+|\sin\theta|}
+$$
+である。
+
+---
+
+(3)  
+原点を除く $(x,y)$ に対して
+$$
+\frac{|x|+|y|}{\sqrt{x^2+y^2}}
+$$
+の最大値・最小値を求める。
+
+極座標を用いると，$x=r\cos\theta,\ y=r\sin\theta,\ r>0$ より
+$$
+|x|+|y|=r\bigl(|\cos\theta|+|\sin\theta|\bigr),\quad
+\sqrt{x^2+y^2}=r
+$$
+なので
+$$
+\frac{|x|+|y|}{\sqrt{x^2+y^2}}
+=\frac{r\bigl(|\cos\theta|+|\sin\theta|\bigr)}{r}
+=|\cos\theta|+|\sin\theta|
+$$
+となる。したがって，$r$ によらず，$\theta$ にのみ依存する量
+$$
+f(\theta)=|\cos\theta|+|\sin\theta|
+$$
+の最大値・最小値を調べればよい。
+
+$|\cos\theta|,|\sin\theta|$ はともに周期 $2\pi$ の関数なので，$\theta$ を任意の長さ $2\pi$ の区間で調べれば十分である。対称性から，第1象限 $0\le\theta\le\frac{\pi}{2}$ を考えると，この範囲では $\cos\theta\ge0,\ \sin\theta\ge0$ なので
+$$
+f(\theta)=\cos\theta+\sin\theta
+$$
+となる。
+
+ここで恒等変形
+$$
+\cos\theta+\sin\theta
+=\sqrt{2}\left(\frac{1}{\sqrt{2}}\cos\theta+\frac{1}{\sqrt{2}}\sin\theta\right)
+=\sqrt{2}\left(\cos\frac{\pi}{4}\cos\theta+\sin\frac{\pi}{4}\sin\theta\right)
+=\sqrt{2}\cos\left(\theta-\frac{\pi}{4}\right)
+$$
+を用いると，
+$$
+f(\theta)=\sqrt{2}\cos\left(\theta-\frac{\pi}{4}\right)
+$$
+である。三角関数の性質から，$\cos\phi$ の最大値は $1$，最小値は $-1$ であり，第1象限では $0\le\theta-\frac{\pi}{4}\le\frac{\pi}{4}$ だから $\cos\left(\theta-\frac{\pi}{4}\right)\ge0$ が成立し，よって最小値は $0$ ではなく，区間の端での値を直接調べる：
+
+- $\theta=\frac{\pi}{4}$ のとき  
+  $f\left(\frac{\pi}{4}\right)=\cos\frac{\pi}{4}+\sin\frac{\pi}{4}
+  =\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}=\sqrt{2}$ で最大。
+
+- $\theta=0$ のとき $f(0)=1+0=1$  
+- $\theta=\frac{\pi}{2}$ のとき $f\left(\frac{\pi}{2}\right)=0+1=1$
+
+したがって，第1象限では $f(\theta)$ の最大値は $\sqrt{2}$，最小値は $1$ である。
+
+$|\cos\theta|,|\sin\theta|$ は軸対称・点対称の性質をもち，他の象限でも同じ値の取り方をするので，全ての $\theta$ についても最大値は $\sqrt{2}$，最小値は $1$ である。
+
+よって，
+$$
+\frac{|x|+|y|}{\sqrt{x^2+y^2}}
+$$
+の最大値は $\sqrt{2}$，最小値は $1$ である。
+
+なお，この値が実際にとられることを確認しておく：
+
+- 最大値 $\sqrt{2}$：  
+  $\theta=\frac{\pi}{4}$ すなわち $y=x\ne0$ 上の点（例えば $(1,1)$）で
+  $$
+  \frac{|x|+|y|}{\sqrt{x^2+y^2}}=\frac{|x|+|x|}{\sqrt{2x^2}}
+  =\frac{2|x|}{\sqrt{2}|x|}=\sqrt{2}
+  $$
+  となる。
+
+- 最小値 $1$：  
+  $\theta=0$ または $\theta=\frac{\pi}{2}$，すなわち $x$ 軸上または $y$ 軸上の原点以外の点（例えば $(1,0)$ や $(0,1)$）で
+  $$
+  \frac{|x|+|y|}{\sqrt{x^2+y^2}}=\frac{|x|}{|x|}=1,\quad
+  \frac{|x|+|y|}{\sqrt{x^2+y^2}}=\frac{|y|}{|y|}=1
+  $$
+  となる。
+
+したがって求める最大値は $\sqrt{2}$，最小値は $1$ である。

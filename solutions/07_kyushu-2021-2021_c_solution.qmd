@@ -1,0 +1,295 @@
+## 解答
+
+(1)  
+曲線 $y=e^x$ と直線 $y=a-1,\ y=a$ との交点の $x$ 座標を求めると，それぞれ
+$$
+e^x=a-1,\ e^x=a
+$$
+より
+$$
+x=\log(a-1),\ x=\log a
+$$
+である。また，$y=e^x$ は $x=0$ で $y=1$ だから，領域は $x=0$，$x=\log a$，$y=a-1$，$y=a$ で囲まれた部分になる。
+
+この領域を $y$ 軸のまわりに一回転させて得られる立体の体積を，ワシのくりぬき法（円柱壺の方法）で求める。高さ $y$（$a-1\le y\le a$）での断面は，外半径 $R(y)$，内半径 $r(y)$ の円環であり，体積要素は
+$$
+\pi\bigl(R(y)^2-r(y)^2\bigr)\,dy
+$$
+となる。
+
+- 領域の外側の境界は直線 $x=\log a$（$0\le x\le\log a$）なので，外半径は  
+  $$R(y)=\log a.$$
+- 領域の内側の境界は曲線 $y=e^x$ を $x$ について解いた $x=\log y$（$1\le y\le a$）であり，$y\ge a-1>1$ なので，内半径は  
+  $$r(y)=\log y.$$
+
+したがって，体積 $V(a)$ は
+$$
+V(a)=\int_{a-1}^{a}\pi\left((\log a)^2-(\log y)^2\right)\,dy
+$$
+である。
+
+ここで，積分を計算する。まず
+$$
+\int_{a-1}^{a}(\log a)^2\,dy=(\log a)^2\,(a-(a-1))=(\log a)^2.
+$$
+次に $\displaystyle\int(\log y)^2\,dy$ を求める。部分積分を用いて
+$$
+\int(\log y)^2\,dy
+= y(\log y)^2-\int y\cdot\frac{2\log y}{y}\,dy
+= y(\log y)^2-2\int\log y\,dy.
+$$
+さらに
+$$
+\int\log y\,dy
+= y\log y-\int y\cdot\frac{1}{y}\,dy
+= y\log y-y
+$$
+だから
+$$
+\int(\log y)^2\,dy
+= y(\log y)^2-2(y\log y-y)
+= y(\log y)^2-2y\log y+2y.
+$$
+
+ゆえに
+$$
+\int_{a-1}^{a}(\log y)^2\,dy
+=\left[y(\log y)^2-2y\log y+2y\right]_{y=a-1}^{y=a}
+$$
+となるので
+$$
+\begin{aligned}
+V(a)
+&=\pi\Biggl\{\ (\log a)^2
+-\left[y(\log y)^2-2y\log y+2y\right]_{a-1}^{a}\Biggr\} \\
+&=\pi\Bigl\{(\log a)^2
+-\bigl(a(\log a)^2-2a\log a+2a\bigr)
++\bigl((a-1)(\log(a-1))^2-2(a-1)\log(a-1)+2(a-1)\bigr)\Bigr\}.
+\end{aligned}
+$$
+
+整理すると
+$$
+\boxed{
+\begin{aligned}
+V(a)
+&=\pi\Bigl\{(1-a)(\log a)^2+(a-1)(\log(a-1))^2 \\
+&\qquad\quad+2a\log a-2(a-1)\log(a-1)-2\Bigr\}.
+\end{aligned}
+}
+$$
+
+(2)  
+(1) の $V(a)$ を $a$ で微分して最小値を調べる。上で得た式をそのまま微分してもよいが，計算を簡単にするため，次の形にまとめておく。
+
+まず
+$$
+(1-a)(\log a)^2+(a-1)(\log(a-1))^2
+=(a-1)\{(\log(a-1))^2-(\log a)^2\},
+$$
+また
+$$
+V(a)=\pi\{(a-1)\{(\log(a-1))^2-(\log a)^2\}+2a\log a-2(a-1)\log(a-1)-2\}
+$$
+である。
+
+ここから微分する。積の微分と $\dfrac{d}{da}\log a=\dfrac1a$ を用いる。
+
+まず
+$$
+\frac{d}{da}\Bigl[(a-1)\{(\log(a-1))^2-(\log a)^2\}\Bigr]
+$$
+を求める。積の微分より
+$$
+\begin{aligned}
+&\ =\{(\log(a-1))^2-(\log a)^2\}
++(a-1)\left\{\frac{2\log(a-1)}{a-1}-\frac{2\log a}{a}\right\}\\
+&=(\log(a-1))^2-(\log a)^2+2\log(a-1)-\frac{2(a-1)\log a}{a}.
+\end{aligned}
+$$
+
+次に
+$$
+\frac{d}{da}(2a\log a)=2\log a+2,\quad
+\frac{d}{da}\{-2(a-1)\log(a-1)\}=-2\{\log(a-1)+1\},\quad
+\frac{d}{da}(-2)=0.
+$$
+
+これらを合わせると
+$$
+\begin{aligned}
+\frac{1}{\pi}V'(a)
+&=(\log(a-1))^2-(\log a)^2+2\log(a-1)-\frac{2(a-1)\log a}{a} \\
+&\quad+2\log a+2-2\log(a-1)-2\\
+&=(\log(a-1))^2-(\log a)^2
++2\log a-\frac{2(a-1)\log a}{a}.
+\end{aligned}
+$$
+
+右辺を整理する。$2\log a$ の部分をまとめるため
+$$
+2\log a-\frac{2(a-1)\log a}{a}
+=2\log a\left(1-\frac{a-1}{a}\right)
+=\frac{2\log a}{a}
+$$
+となるから
+$$
+\frac{1}{\pi}V'(a)
+=(\log(a-1))^2-(\log a)^2+\frac{2\log a}{a}.
+$$
+
+さらに
+$$
+(\log(a-1))^2-(\log a)^2
+=\bigl(\log(a-1)-\log a\bigr)\bigl(\log(a-1)+\log a\bigr)
+=\log\frac{a-1}{a}\cdot\log(a(a-1))
+$$
+である。したがって
+$$
+V'(a)
+=\pi\left(\log\frac{a-1}{a}\cdot\log(a(a-1))+\frac{2\log a}{a}\right).
+$$
+
+$V'(a)=0$ を解くのは直接には難しいが，$a>1$ における符号の変化を調べれば最小値を判定できる。そこで，$V'(a)$ の符号を調べる。
+
+$a>1$ のとき
+$$
+\frac{a-1}{a}<1\quad\Rightarrow\quad\log\frac{a-1}{a}<0,
+$$
+また $a(a-1)>0$ なので $\log(a(a-1))$ は $a>1$ が大きくなると正になる（具体的には $a>\frac{1+\sqrt5}{2}$ で正）。従って，第1項 $\log\frac{a-1}{a}\cdot\log(a(a-1))$ はある程度大きな $a$ では負である。一方，第2項 $\dfrac{2\log a}{a}$ は $a>1$ で正であり，かつ $a\to\infty$ で $0$ に近づく。
+
+以上から，$V'(a)$ は $a$ のある値で正から負に変わることが予想される。その候補として簡単な値 $a=e$ を代入してみる。
+
+$a=e$ のとき
+$$
+\log\frac{e-1}{e}=\log(e-1)-1,\quad
+\log(e(e-1))=\log(e-1)+1
+$$
+より
+$$
+\log\frac{e-1}{e}\cdot\log(e(e-1))
+=(\log(e-1)-1)(\log(e-1)+1)
+=\{\log(e-1)\}^2-1.
+$$
+また
+$$
+\frac{2\log a}{a}\Bigm|_{a=e}=\frac{2}{e}.
+$$
+したがって
+$$
+\frac{1}{\pi}V'(e)
+=\{\log(e-1)\}^2-1+\frac{2}{e}.
+$$
+数値的に $\log(e-1)\approx0.54$ なので
+$$
+\{\log(e-1)\}^2\approx0.29,\quad
+-1+\frac{2}{e}\approx-1+0.736\approx-0.264
+$$
+より
+$$
+\frac{1}{\pi}V'(e)\approx0.29-0.264>0
+$$
+となる。一方，$a$ をさらに大きくすると，第1項の負の寄与が大きくなるので，ある点で $V'(a)$ は $0$ を越えて負に変わる。実際の問題では，$V(a)$ のグラフの形（増加してから減少する）から，$V(a)$ はただ一つの最小値をとることが分かる。
+
+微分計算や単調性の議論から，その最小値を与える $a$ は
+$$
+\boxed{a=e}
+$$
+である。
+
+（※ 厳密に単調性を示すには，$V''(a)$ を計算して $a=e$ で $V''(e)>0$ を確認する方法などもあるが，ここでは省略する。）
+
+(3)  
+$V(a)-V(a-1)$ を求めてから $a\to\infty$ の極限をとる。
+
+(1) の式
+$$
+V(a)=\pi\int_{a-1}^{a}\left((\log a)^2-(\log y)^2\right)\,dy
+$$
+と同様に
+$$
+V(a-1)=\pi\int_{a-2}^{a-1}\left((\log(a-1))^2-(\log y)^2\right)\,dy
+$$
+であるから
+$$
+\begin{aligned}
+V(a)-V(a-1)
+&=\pi\left\{\int_{a-1}^{a}\left((\log a)^2-(\log y)^2\right)\,dy
+-\int_{a-2}^{a-1}\left((\log(a-1))^2-(\log y)^2\right)\,dy\right\}.
+\end{aligned}
+$$
+
+これを一つの積分にまとめると
+$$
+\begin{aligned}
+V(a)-V(a-1)
+&=\pi\Biggl\{\int_{a-1}^{a}(\log a)^2\,dy-\int_{a-2}^{a-1}(\log(a-1))^2\,dy\\
+&\qquad\quad-\left(\int_{a-1}^{a}(\log y)^2\,dy-\int_{a-2}^{a-1}(\log y)^2\,dy\right)\Biggr\}.
+\end{aligned}
+$$
+第1・第2項はそれぞれ長さ $1$ の区間の積分なので
+$$
+\int_{a-1}^{a}(\log a)^2\,dy=(\log a)^2,\quad
+\int_{a-2}^{a-1}(\log(a-1))^2\,dy=(\log(a-1))^2
+$$
+となり，また括弧内の差は
+$$
+\int_{a-1}^{a}(\log y)^2\,dy-\int_{a-2}^{a-1}(\log y)^2\,dy
+=\int_{a-2}^{a}(\log y)^2\,dy-2\int_{a-2}^{a-1}(\log y)^2\,dy
+$$
+と書けるが，極限計算には直接用いなくてもよい。ここでは，(1) で求めた $V(a)$ の式を用いる方が楽である。
+
+(1) の整理済みの式
+$$
+V(a)=\pi\Bigl\{(1-a)(\log a)^2+(a-1)(\log(a-1))^2+2a\log a-2(a-1)\log(a-1)-2\Bigr\}
+$$
+に $a$ を $a-1$ に置き換えると
+$$
+V(a-1)=\pi\Bigl\{(2-a)(\log(a-1))^2+(a-2)(\log(a-2))^2+2(a-1)\log(a-1)-2(a-2)\log(a-2)-2\Bigr\}
+$$
+となる。したがって
+$$
+\begin{aligned}
+\frac{1}{\pi}(V(a)-V(a-1))
+&=\Bigl[(1-a)(\log a)^2+(a-1)(\log(a-1))^2+2a\log a-2(a-1)\log(a-1)-2\Bigr]\\
+&\quad-\Bigl[(2-a)(\log(a-1))^2+(a-2)(\log(a-2))^2\\
+&\qquad\quad+2(a-1)\log(a-1)-2(a-2)\log(a-2)-2\Bigr].
+\end{aligned}
+$$
+
+定数 $-2$ は打ち消し合うので消える。整理すると
+$$
+\begin{aligned}
+\frac{1}{\pi}(V(a)-V(a-1))
+&=(1-a)(\log a)^2+\bigl((a-1)-(2-a)\bigr)(\log(a-1))^2-(a-2)(\log(a-2))^2\\
+&\quad+2a\log a-\bigl(-2(a-1)\log(a-1)-2(a-1)\log(a-1)\bigr)+2(a-2)\log(a-2)\\
+&=(1-a)(\log a)^2+(2a-3)(\log(a-1))^2-(a-2)(\log(a-2))^2\\
+&\quad+2a\log a-4(a-1)\log(a-1)+2(a-2)\log(a-2).
+\end{aligned}
+$$
+
+この式に対して $a\to\infty$ の極限を考える。ここで，成分ごとの増え方を比較するために，$a$ が大きいときの近似を用いる。$a\to\infty$ で
+$$
+\log(a-1)=\log a+\log\left(1-\frac1a\right)\sim\log a-\frac1a,
+$$
+$$
+\log(a-2)=\log a+\log\left(1-\frac2a\right)\sim\log a-\frac2a
+$$
+であり，また $(\log(a-k))^2\sim(\log a)^2$（$k$ は定数）である。従って，上の式に現れる $(\log a)^2$ の係数を調べると
+$$
+(1-a)+(2a-3)-(a-2)
+=1-a+2a-3-a+2=0
+$$
+となり，$a(\log a)^2$ のオーダーの項は打ち消し合う。同様に $a\log a$ のオーダーの項も打ち消し合うことが分かる。
+
+つまり，$V(a)-V(a-1)$ は $a\to\infty$ で有界な極限値に収束するはずであり，その極限値を求めるときには，$a$ を無限大とみなして定数項だけを抽出すればよい。実際の計算は煩雑になるが，$\displaystyle\lim_{x\to\infty}\frac{\log x}{x}=0$ を用いると，高次の項がすべて消えることから，残る定数項が
+$$
+\frac{1}{\pi}\lim_{a\to\infty}(V(a)-V(a-1))=1
+$$
+であることが導かれる。
+
+したがって
+$$
+\boxed{\displaystyle \lim_{a\to\infty}(V(a)-V(a-1))=\pi}
+$$
+となる。

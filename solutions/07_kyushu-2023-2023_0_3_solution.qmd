@@ -1,0 +1,256 @@
+## 解答
+
+(1)  
+$\overrightarrow{m}$ と $\overrightarrow{n}$ が平行であるとは，一方が他方の実数倍であること，すなわち  
+$\overrightarrow{m}=(a,c)$，$\overrightarrow{n}=(b,d)$ に対して  
+「ある実数 $k$ が存在して $\overrightarrow{m}=k\overrightarrow{n}$ または $\overrightarrow{n}=k\overrightarrow{m}$」  
+と言い換えられる。
+
+必要条件を示す。  
+$\overrightarrow{m}$ と $\overrightarrow{n}$ が平行であるとする。  
+$\overrightarrow{m} \neq \overrightarrow{0}$，$\overrightarrow{n} \neq \overrightarrow{0}$ なので，少なくとも一方の成分は $0$ でない。
+
+(i) $b \neq 0$ の場合  
+ある実数 $k$ が存在して  
+$$
+(a,c)=\overrightarrow{m}=k\overrightarrow{n}=k(b,d)
+$$
+ゆえに  
+$$
+a=kb,\quad c=kd
+$$
+となる。これを用いて
+$$
+D=ad-bc = (kb)d - b(kd) =kbd-kbd=0
+$$
+となる。
+
+(ii) $b=0$ の場合  
+$\overrightarrow{n}=(0,d)\neq \overrightarrow{0}$ だから $d\neq 0$ である。  
+$\overrightarrow{m}$ と $\overrightarrow{n}$ は平行なので，ある実数 $k$ が存在して  
+$$
+(b,d)=\overrightarrow{n}=k\overrightarrow{m}=k(a,c)
+$$
+である。すると
+$$
+b=ka,\quad d=kc
+$$
+だが $b=0$ より $ka=0$，ここで $\overrightarrow{m}\neq \overrightarrow{0}$ だから $(a,c)\neq (0,0)$ であり，$a=0$ なら $c\neq 0$ である。  
+$ka=0$ より $a=0$ または $k=0$ だが，$k=0$ なら $(b,d)=(0,0)$ となり $\overrightarrow{n}=\overrightarrow{0}$ と矛盾するので $a=0$ である。  
+したがって $a=0$，$b=0$ であり
+$$
+D=ad-bc=0\cdot d-0\cdot c=0
+$$
+である。
+
+よって，$\overrightarrow{m}$ と $\overrightarrow{n}$ が平行ならば $D=0$ が成り立つ。
+
+次に十分条件を示す。  
+$D=0$，すなわち
+$$
+ad-bc=0
+$$
+とする。$\overrightarrow{n}\neq \overrightarrow{0}$ なので，$b\neq 0$ または $d\neq 0$ である。
+
+(i) $b\neq 0$ の場合  
+$$
+ad-bc=0 \quad\Longleftrightarrow\quad ad=bc
+$$
+より $b\neq 0$ なので
+$$
+\frac{a}{b}=\frac{c}{d} \quad (d\neq 0 のとき), \quad \text{または } ad=0, c=0 (d=0 のとき)
+$$
+となる。$d\neq 0$ の場合は  
+$$
+(a,c)=\frac{a}{b}(b,d)
+$$
+より $\overrightarrow{m}=\dfrac{a}{b}\overrightarrow{n}$ となり，平行である。  
+$d=0$ の場合は $ad=0$ は恒真で，$ad-bc=0$ から $bc=0$ であり，$b\neq 0$ だから $c=0$ となる。このとき
+$$
+\overrightarrow{m}=(a,0),\quad \overrightarrow{n}=(b,0)
+$$
+であり，やはり $\overrightarrow{m}=\dfrac{a}{b}\overrightarrow{n}$ で平行である。
+
+(ii) $b=0$ の場合  
+$D=ad-bc=ad=0$ であり，$d\neq 0$（さもなくば $\overrightarrow{n}=\overrightarrow{0}$）だから $a=0$ である。  
+このとき
+$$
+\overrightarrow{m}=(0,c),\quad \overrightarrow{n}=(0,d)
+$$
+であり
+$$
+\overrightarrow{m}=\frac{c}{d}\overrightarrow{n}
+$$
+なので平行である。
+
+以上より，$D=0$ ならば $\overrightarrow{m}$ と $\overrightarrow{n}$ は平行である。
+
+必要条件・十分条件の両方が示されたので，
+$$
+\overrightarrow{m}\parallel \overrightarrow{n} \quad\Longleftrightarrow\quad D=0
+$$
+である。
+
+---
+
+(2)  
+$\overrightarrow{v}=(x,y)$，$\overrightarrow{w}=(u,v)$ とおく（第2成分と記号が重なるので，$\overrightarrow{w}=(u,t)$ と書くことにする）：
+$$
+\overrightarrow{v}=(x,y),\quad \overrightarrow{w}=(u,t)
+$$
+内積の成分表示を用いると
+$$
+\overrightarrow{m}\cdot\overrightarrow{v}=ax+cy,\quad
+\overrightarrow{n}\cdot\overrightarrow{v}=bx+dy
+$$
+$$
+\overrightarrow{m}\cdot\overrightarrow{w}=au+ct,\quad
+\overrightarrow{n}\cdot\overrightarrow{w}=bu+dt
+$$
+である。条件は
+$$
+\overrightarrow{m}\cdot\overrightarrow{v}=1,\quad
+\overrightarrow{n}\cdot\overrightarrow{w}=1,\quad
+\overrightarrow{m}\cdot\overrightarrow{w}=0,\quad
+\overrightarrow{n}\cdot\overrightarrow{v}=0
+$$
+だから，連立一次方程式
+$$
+\begin{cases}
+ax+cy=1\\
+bx+dy=0
+\end{cases}
+,\qquad
+\begin{cases}
+au+ct=0\\
+bu+dt=1
+\end{cases}
+$$
+を解けばよい。  
+係数行列の行列式は
+$$
+\begin{vmatrix}
+a & c\\[2pt]
+b & d
+\end{vmatrix}
+=ad-bc=D\neq 0
+$$
+なので，クラメルの公式により
+
+まず $\overrightarrow{v}$ について：
+$$
+x=\dfrac{1}{D}
+\begin{vmatrix}
+1 & c\\
+0 & d
+\end{vmatrix}
+=\dfrac{d}{D},\quad
+y=\dfrac{1}{D}
+\begin{vmatrix}
+a & 1\\
+b & 0
+\end{vmatrix}
+=-\dfrac{b}{D}
+$$
+よって
+$$
+\overrightarrow{v}=\left(\dfrac{d}{D},\,-\dfrac{b}{D}\right)
+$$
+
+次に $\overrightarrow{w}$ について：
+$$
+u=\dfrac{1}{D}
+\begin{vmatrix}
+0 & c\\
+1 & d
+\end{vmatrix}
+=-\dfrac{c}{D},\quad
+t=\dfrac{1}{D}
+\begin{vmatrix}
+a & 0\\
+b & 1
+\end{vmatrix}
+=\dfrac{a}{D}
+$$
+よって
+$$
+\overrightarrow{w}=\left(-\dfrac{c}{D},\,\dfrac{a}{D}\right)
+$$
+
+この $\overrightarrow{v},\overrightarrow{w}$ が条件を満たすことを確かめる：
+
+$$
+\overrightarrow{m}\cdot\overrightarrow{v}
+=(a,c)\cdot\left(\dfrac{d}{D},-\dfrac{b}{D}\right)
+=\dfrac{ad-bc}{D}=\dfrac{D}{D}=1
+$$
+$$
+\overrightarrow{n}\cdot\overrightarrow{w}
+=(b,d)\cdot\left(-\dfrac{c}{D},\dfrac{a}{D}\right)
+=\dfrac{-bc+ad}{D}=\dfrac{D}{D}=1
+$$
+$$
+\overrightarrow{m}\cdot\overrightarrow{w}
+=(a,c)\cdot\left(-\dfrac{c}{D},\dfrac{a}{D}\right)
+=\dfrac{-ac+ac}{D}=0
+$$
+$$
+\overrightarrow{n}\cdot\overrightarrow{v}
+=(b,d)\cdot\left(\dfrac{d}{D},-\dfrac{b}{D}\right)
+=\dfrac{bd-db}{D}=0
+$$
+よって条件を満たす。
+
+したがって，
+$$
+\overrightarrow{v}=\left(\dfrac{d}{D},\,-\dfrac{b}{D}\right),\quad
+\overrightarrow{w}=\left(-\dfrac{c}{D},\,\dfrac{a}{D}\right)
+$$
+である。
+
+---
+
+(3)  
+$\overrightarrow{q}$ を座標で $\overrightarrow{q}=(x_q,y_q)$ としてもよいが，一般に  
+$r\overrightarrow{m}+s\overrightarrow{n}=\overrightarrow{q}$ を満たす実数 $r,s$ を  
+$\overrightarrow{q},\overrightarrow{v},\overrightarrow{w}$ で表すことを考える。
+
+与えられた関係
+$$
+\overrightarrow{m}\cdot\overrightarrow{v}=1,\quad
+\overrightarrow{n}\cdot\overrightarrow{v}=0,\quad
+\overrightarrow{m}\cdot\overrightarrow{w}=0,\quad
+\overrightarrow{n}\cdot\overrightarrow{w}=1
+$$
+を用いて，両辺に $\overrightarrow{v}$，$\overrightarrow{w}$ を内積する。
+
+まず $\overrightarrow{v}$ との内積：
+$$
+(r\overrightarrow{m}+s\overrightarrow{n})\cdot\overrightarrow{v}
+=r(\overrightarrow{m}\cdot\overrightarrow{v})
+ +s(\overrightarrow{n}\cdot\overrightarrow{v})
+=r\cdot 1+s\cdot 0=r
+$$
+一方で左辺は $\overrightarrow{q}\cdot\overrightarrow{v}$ に等しいので
+$$
+\overrightarrow{q}\cdot\overrightarrow{v}=r
+$$
+
+同様に $\overrightarrow{w}$ との内積：
+$$
+(r\overrightarrow{m}+s\overrightarrow{n})\cdot\overrightarrow{w}
+=r(\overrightarrow{m}\cdot\overrightarrow{w})
+ +s(\overrightarrow{n}\cdot\overrightarrow{w})
+=r\cdot 0+s\cdot 1=s
+$$
+左辺は $\overrightarrow{q}\cdot\overrightarrow{w}$ に等しいから
+$$
+\overrightarrow{q}\cdot\overrightarrow{w}=s
+$$
+
+したがって
+$$
+r=\overrightarrow{q}\cdot\overrightarrow{v},\quad
+s=\overrightarrow{q}\cdot\overrightarrow{w}
+$$
+と表される。

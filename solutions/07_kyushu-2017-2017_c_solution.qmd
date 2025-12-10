@@ -1,0 +1,247 @@
+## 解答
+
+(1)  
+点 $A(0,0,2)$，$C(0,0,-2)$ より，線分 $AC$ を $1:3$ に内分する点 $E$ を求める。  
+ベクトルの内分公式より，$AE:EC = 1:3$ であるから  
+$$
+\vec{OE}
+= \frac{3\vec{OA} + 1\vec{OC}}{1+3}
+= \frac{3(0,0,2) + 1(0,0,-2)}{4}
+= \frac{(0,0,6) + (0,0,-2)}{4}
+= \frac{(0,0,4)}{4}
+= (0,0,1)
+$$
+したがって  
+$$
+E(0,0,1)
+$$
+である。
+
+同様に，点 $A(0,0,2)$，$D(0,-2,0)$ より，線分 $AD$ を $1:3$ に内分する点 $F$ は  
+$$
+\vec{OF}
+= \frac{3\vec{OA} + 1\vec{OD}}{1+3}
+= \frac{3(0,0,2) + 1(0,-2,0)}{4}
+= \frac{(0,0,6) + (0,-2,0)}{4}
+= \frac{(0,-2,6)}{4}
+= \left(0,-\frac12,\frac32\right)
+$$
+ゆえに  
+$$
+F\left(0,-\frac12,\frac32\right)
+$$
+である。
+
+次に，直線 $BC$ と平面 $x=\dfrac32$ の交点 $G$ を求める。  
+$B(2,0,0)$，$C(0,0,-2)$ から，直線 $BC$ を媒介変数 $t$ を用いて  
+$$
+\vec{OP}
+= \vec{OB} + t(\vec{OC}-\vec{OB})
+= (2,0,0) + t\bigl((0,0,-2)-(2,0,0)\bigr)
+= (2,0,0) + t(-2,0,-2)
+$$
+とおくと，座標は
+$$
+x = 2-2t,\quad y=0,\quad z=-2t
+$$
+となる。  
+平面 $x=\dfrac32$ 上にあるには
+$$
+2-2t = \frac32
+$$
+より
+$$
+-2t = \frac32 - 2 = -\frac12 \quad\Rightarrow\quad t = \frac14
+$$
+したがって  
+$$
+x = \frac32,\quad y=0,\quad z=-2\cdot\frac14 = -\frac12
+$$
+ゆえに
+$$
+G\left(\frac32,\,0,\,-\frac12\right)
+$$
+である。
+
+最後に，直線 $BD$ と平面 $EFG$ の交点 $H$ を求める。  
+まず直線 $BD$ を表す。点 $B(2,0,0)$，$D(0,-2,0)$ より，
+$$
+\vec{OP} = \vec{OB} + s(\vec{OD}-\vec{OB})
+= (2,0,0) + s\bigl((0,-2,0)-(2,0,0)\bigr)
+= (2,0,0) + s(-2,-2,0)
+$$
+したがって座標は
+$$
+x = 2-2s,\quad y = -2s,\quad z = 0
+$$
+となる。
+
+次に平面 $EFG$ の方程式を求める。  
+点 $E(0,0,1)$，$F(0,-\frac12,\frac32)$，$G(\frac32,0,-\frac12)$ を通る平面を  
+$$
+ax + by + cz + d = 0
+$$
+とおくと，3点を代入して連立方程式を立てる。
+
+$E(0,0,1)$ を代入すると
+$$
+c + d = 0 \quad\Rightarrow\quad d = -c
+$$
+
+$F\left(0,-\frac12,\frac32\right)$ を代入すると
+$$
+b\left(-\frac12\right) + c\left(\frac32\right) + d = 0
+$$
+ここに $d=-c$ を代入して
+$$
+-\frac12 b + \frac32 c - c = 0
+\quad\Rightarrow\quad
+-\frac12 b + \frac12 c = 0
+\quad\Rightarrow\quad
+-c + b = 0
+\quad\Rightarrow\quad
+b = c
+$$
+
+$G\left(\frac32,0,-\frac12\right)$ を代入すると
+$$
+a\left(\frac32\right) + c\left(-\frac12\right) + d = 0
+$$
+同様に $d=-c$ を代入して
+$$
+\frac32 a - \frac12 c - c = 0
+\quad\Rightarrow\quad
+\frac32 a - \frac32 c = 0
+\quad\Rightarrow\quad
+a - c = 0
+\quad\Rightarrow\quad
+a = c
+$$
+
+よって $a=c,\ b=c,\ d=-c$ である。$c\neq 0$ として全体を $c$ で割ると
+$$
+x + y + z - 1 = 0
+$$
+したがって，平面 $EFG$ の方程式は
+$$
+x + y + z = 1
+$$
+である。
+
+直線 $BD$ 上の点 $H(2-2s,\,-2s,\,0)$ がこの平面上にあるから，
+$$
+(2-2s) + (-2s) + 0 = 1
+$$
+すなわち
+$$
+2 - 4s = 1
+\quad\Rightarrow\quad
+-4s = -1
+\quad\Rightarrow\quad
+s = \frac14
+$$
+これを $x,y,z$ に代入して
+$$
+x = 2-2\cdot\frac14 = 2 - \frac12 = \frac32,\quad
+y = -2\cdot\frac14 = -\frac12,\quad
+z=0
+$$
+よって
+$$
+H\left(\frac32,\,-\frac12,\,0\right)
+$$
+である。
+
+以上より，求める座標は
+$$
+E(0,0,1),\quad
+F\left(0,-\frac12,\frac32\right),\quad
+G\left(\frac32,0,-\frac12\right),\quad
+H\left(\frac32,-\frac12,0\right)
+$$
+となる。
+
+---
+
+(2)  
+三角形 $FGH$ の面積を求める。3点 $F,G,H$ の座標は
+$$
+F\left(0,-\frac12,\frac32\right),\quad
+G\left(\frac32,0,-\frac12\right),\quad
+H\left(\frac32,-\frac12,0\right)
+$$
+である。
+
+三角形 $FGH$ の面積は，ベクトル $\vec{FG}$ と $\vec{FH}$ の外積の大きさを用いて
+$$
+S_{\triangle FGH} = \frac12 \lvert \vec{FG} \times \vec{FH} \rvert
+$$
+で求める。
+
+まず
+$$
+\vec{FG} = \vec{OG} - \vec{OF}
+= \left(\frac32,0,-\frac12\right) - \left(0,-\frac12,\frac32\right)
+= \left(\frac32,\frac12,-2\right)
+$$
+同様に
+$$
+\vec{FH} = \vec{OH} - \vec{OF}
+= \left(\frac32,-\frac12,0\right) - \left(0,-\frac12,\frac32\right)
+= \left(\frac32,0,-\frac32\right)
+$$
+
+次に外積 $\vec{FG}\times\vec{FH}$ を計算する。  
+$\vec{FG}=(\frac32,\frac12,-2)$，$\vec{FH}=(\frac32,0,-\frac32)$ として，成分表示の外積を用いると
+$$
+\vec{FG}\times\vec{FH}
+=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k} \\
+\frac32 & \frac12 & -2 \\
+\frac32 & 0 & -\frac32
+\end{vmatrix}
+$$
+ゆえに
+\[
+\begin{aligned}
+\vec{FG}\times\vec{FH}
+&=
+\boldsymbol{i}\left(\frac12\cdot\left(-\frac32\right)-(-2)\cdot 0\right)
+-\boldsymbol{j}\left(\frac32\cdot\left(-\frac32\right)-(-2)\cdot\frac32\right)
++\boldsymbol{k}\left(\frac32\cdot 0-\frac12\cdot\frac32\right) \\
+&=
+\boldsymbol{i}\left(-\frac34-0\right)
+-\boldsymbol{j}\left(-\frac94+3\right)
++\boldsymbol{k}\left(0-\frac34\right) \\
+&=
+\boldsymbol{i}\left(-\frac34\right)
+-\boldsymbol{j}\left(\frac34\right)
++\boldsymbol{k}\left(-\frac34\right)
+=
+\left(-\frac34,\,-\frac34,\,-\frac34\right)
+\end{aligned}
+\]
+したがってその大きさは
+$$
+\lvert \vec{FG}\times\vec{FH} \rvert
+= \sqrt{\left(-\frac34\right)^2 + \left(-\frac34\right)^2 + \left(-\frac34\right)^2}
+= \sqrt{3\cdot\left(\frac{9}{16}\right)}
+= \sqrt{\frac{27}{16}}
+= \frac{3\sqrt3}{4}
+$$
+
+よって三角形 $FGH$ の面積は
+$$
+S_{\triangle FGH}
+= \frac12\cdot \frac{3\sqrt3}{4}
+= \frac{3\sqrt3}{8}
+$$
+となる。
+
+以上より，  
+三角形 $FGH$ の面積は
+$$
+\boxed{\dfrac{3\sqrt3}{8}}
+$$
+である。

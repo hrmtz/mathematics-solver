@@ -1,0 +1,158 @@
+## 解答
+
+半径 $1$ の円周 $C$ 上の点 $A,B$ は $AB=\sqrt3$ を満たすから，三角形 $AOB$（ただし $O$ は円の中心）について余弦定理を用いると
+$$
+AB^2 = AO^2 + BO^2 - 2\cdot AO\cdot BO\cos\angle AOB
+$$
+であり，$AO=BO=1,\ AB=\sqrt3$ より
+$$
+(\sqrt3)^2 = 1^2 + 1^2 - 2\cdot1\cdot1\cos\angle AOB
+$$
+$$
+3 = 2 - 2\cos\angle AOB
+$$
+$$
+-2\cos\angle AOB = 1
+$$
+$$
+\cos\angle AOB = -\frac12
+$$
+となる。よって
+$$
+\angle AOB = \frac{2\pi}{3}
+$$
+である。
+
+円の半径が $1$ なので，任意の点 $P$ が円周 $C$ 上にあるとき
+$$
+AP^2 = AO^2 + OP^2 - 2\cdot AO\cdot OP\cos\angle AOP,
+\quad
+BP^2 = BO^2 + OP^2 - 2\cdot BO\cdot OP\cos\angle BOP
+$$
+が成り立つ（余弦定理）。$AO=BO=OP=1$ より
+$$
+AP^2 = 1+1-2\cos\angle AOP = 2-2\cos\angle AOP,
+$$
+$$
+BP^2 = 1+1-2\cos\angle BOP = 2-2\cos\angle BOP
+$$
+となる。したがって
+$$
+AP^2 + BP^2
+= (2-2\cos\angle AOP) + (2-2\cos\angle BOP)
+= 4 - 2(\cos\angle AOP + \cos\angle BOP)
+$$
+である。
+
+ここで，角度の関係に注目する。点 $A,B,P$ はすべて円周上にあり，中心 $O$ に対する角度を
+$$
+\angle AOP = \alpha,\quad \angle BOP = \beta
+$$
+とおくと，$A$ から $B$ までの中心角が一定で $\angle AOB = \frac{2\pi}{3}$ なので
+$$
+\beta = \angle BOP = \angle AOP + \angle AOB = \alpha + \frac{2\pi}{3}
+$$
+となる（向きを適当にとる）。このとき
+$$
+\cos\angle BOP = \cos\Bigl(\alpha + \frac{2\pi}{3}\Bigr)
+$$
+だから，三角関数の加法定理
+$$
+\cos(\alpha+\theta) = \cos\alpha\cos\theta - \sin\alpha\sin\theta
+$$
+を $\theta = \frac{2\pi}{3}$ として用いると
+$$
+\cos\Bigl(\alpha + \frac{2\pi}{3}\Bigr)
+= \cos\alpha\cos\frac{2\pi}{3} - \sin\alpha\sin\frac{2\pi}{3}
+= \cos\alpha\cdot\Bigl(-\frac12\Bigr) - \sin\alpha\cdot\frac{\sqrt3}{2}
+$$
+$$
+= -\frac12\cos\alpha - \frac{\sqrt3}{2}\sin\alpha
+$$
+である。
+
+したがって
+$$
+\cos\angle AOP + \cos\angle BOP
+= \cos\alpha + \cos\Bigl(\alpha + \frac{2\pi}{3}\Bigr)
+= \cos\alpha -\frac12\cos\alpha - \frac{\sqrt3}{2}\sin\alpha
+$$
+$$
+= \frac12\cos\alpha - \frac{\sqrt3}{2}\sin\alpha
+$$
+となる。よって
+$$
+AP^2 + BP^2
+= 4 - 2\Bigl(\frac12\cos\alpha - \frac{\sqrt3}{2}\sin\alpha\Bigr)
+= 4 - \bigl(\cos\alpha - \sqrt3\sin\alpha\bigr)
+$$
+である。
+
+ここで
+$$
+f(\alpha) = \cos\alpha - \sqrt3\sin\alpha
+$$
+の最小値・最大値を求めれば，$AP^2+BP^2$ の最大値が求まる。$f(\alpha)$ は正弦・余弦の線形結合なので，振幅と位相の形にまとめる。
+
+まず係数の長さは
+$$
+\sqrt{1^2 + (\sqrt3)^2} = \sqrt{1+3} = 2
+$$
+であり，角 $\varphi$ を
+$$
+\cos\varphi = \frac{1}{2},\quad \sin\varphi = \frac{\sqrt3}{2}
+$$
+とおくと $\varphi = \frac{\pi}{3}$ である。すると
+$$
+\cos\alpha - \sqrt3\sin\alpha
+= 2\Bigl(\frac12\cos\alpha - \frac{\sqrt3}{2}\sin\alpha\Bigr)
+= 2\bigl(\cos\alpha\cos\varphi - \sin\alpha\sin\varphi\bigr)
+$$
+$$
+= 2\cos(\alpha+\varphi)
+= 2\cos\Bigl(\alpha+\frac{\pi}{3}\Bigr)
+$$
+となる（三角関数の加法定理を逆向きに用いた）。
+
+したがって
+$$
+AP^2+BP^2 = 4 - f(\alpha) = 4 - 2\cos\Bigl(\alpha+\frac{\pi}{3}\Bigr)
+$$
+である。$\cos$ の取り得る値は $-1 \leq \cos(\cdot) \leq 1$ なので
+$$
+-1 \leq \cos\Bigl(\alpha+\frac{\pi}{3}\Bigr) \leq 1
+$$
+から
+$$
+4 - 2\cdot 1 \leq 4 - 2\cos\Bigl(\alpha+\frac{\pi}{3}\Bigr)
+\leq 4 - 2\cdot(-1)
+$$
+すなわち
+$$
+2 \leq AP^2 + BP^2 \leq 6
+$$
+が成り立つ。よって $AP^2+BP^2$ の最大値は $6$ である。
+
+最大値 $6$ が実際にとられるかを確認する。最大値をとるには
+$$
+\cos\Bigl(\alpha + \frac{\pi}{3}\Bigr) = -1
+$$
+すなわち
+$$
+\alpha + \frac{\pi}{3} = \pi + 2k\pi\quad (k\in\mathbb{Z})
+$$
+とすればよい。例えば $k=0$ とすると
+$$
+\alpha = \frac{2\pi}{3}
+$$
+すなわち $\angle AOP = \frac{2\pi}{3}$ となる。
+
+ところで $\angle AOB = \frac{2\pi}{3}$ であったから，$\angle AOP = \angle AOB$ となるような点 $P$ は，円周 $C$ 上で $B$ と反対側にある点であり，そのような $P$ は存在する（$O$ を中心とする円は回転対称だから，$A$ から $B$ に対応する中心角だけさらに回転した位置に点をとればよい）。したがって $AP^2+BP^2$ は実際に $6$ をとる。
+
+以上より，$P$ が円周 $C$ 上を動くとき，$AP^2+BP^2$ の最大値は
+
+$$
+\boxed{6}
+$$
+
+である。

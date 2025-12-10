@@ -1,0 +1,220 @@
+## 解答
+
+(1)  
+媒介変数表示  
+$$x=t+2\sin^2 t,\quad y=t+\sin t\quad (0<t<\pi)$$  
+から，$t$ に関する導関数を求める。
+
+まず
+$$\frac{dx}{dt}=1+4\sin t\cos t=1+2\sin 2t,$$
+$$\frac{dy}{dt}=1+\cos t$$
+である。
+
+接線が $y$ 軸に平行であるとは，曲線の接線の傾きが無限大となる，すなわち  
+$$\frac{dx}{dt}=0$$  
+となることである（媒介変数表示の接線の傾きは $\dfrac{dy/dt}{dx/dt}$ で与えられるため）。
+
+したがって
+$$1+2\sin 2t=0$$
+すなわち
+$$\sin 2t=-\frac12$$
+を満たす $0<t<\pi$ の解を求めればよい。
+
+$\sin 2t=-\dfrac12$ の一般解は
+$$2t=7\frac{\pi}{6}+2k\pi,\ 2t=11\frac{\pi}{6}+2k\pi\quad (k\in\mathbb Z)$$
+である。$0<t<\pi$ すなわち $0<2t<2\pi$ を満たすのは
+$$2t=\frac{7\pi}{6},\ \frac{11\pi}{6}$$
+のみであり，
+$$t=\frac{7\pi}{12},\ \frac{11\pi}{12}$$
+が得られる。
+
+したがって，$y$ 軸と平行な接線は 2 本である。
+
+(2)  
+曲線 $C$ のうち $y\le x$ の領域にある部分と直線 $y=x$ で囲まれる図形の面積を求める。
+
+まず，$y\le x$ となる $t$ の範囲を調べる。  
+$x-y$ を $t$ で表すと
+$$
+x-y = (t+2\sin^2 t)-(t+\sin t)
+    =2\sin^2 t-\sin t
+    =\sin t(2\sin t-1)
+$$
+となる。
+
+$0<t<\pi$ では $\sin t>0$ なので，$x-y\ge0$（すなわち $y\le x$）は
+$$2\sin t-1\ge 0,\quad \text{すなわち}\quad \sin t\ge\frac12
+$$
+と同値である。
+
+$0<t<\pi$ において $\sin t=\dfrac12$ となるのは  
+$$t=\frac{\pi}{6},\ \frac{5\pi}{6}$$  
+であり，$\sin t\ge\frac12$ となる範囲は
+$$\frac{\pi}{6}\le t\le \frac{5\pi}{6}$$
+である。
+
+したがって，求める図形は，媒介変数 $t$ が $\dfrac{\pi}{6}$ から $\dfrac{5\pi}{6}$ までの曲線 $C$ と，直線 $y=x$ によって囲まれている。
+
+媒介変数表示された曲線と直線 $y=x$ との間の面積は，一般に  
+$$
+S=\int_{\alpha}^{\beta} (x(t)-y(t))\,\frac{dy}{dt}\,dt
+$$
+で表される。この公式は，$y$ を媒介変数で表したとき
+
+- 各点における横方向の距離が $x(t)-x_{\text{直線}}(y(t))$（ここでは $x(t)-y(t)$）  
+- 高さの微小変化が $dy=\dfrac{dy}{dt}dt$
+
+であることから得られる。
+
+ここでは  
+$$
+x(t)-y(t)=\sin t(2\sin t-1),\quad \frac{dy}{dt}=1+\cos t
+$$
+なので，面積 $S$ は
+$$
+S=\int_{\pi/6}^{5\pi/6} \sin t(2\sin t-1)(1+\cos t)\,dt
+$$
+となる。
+
+積分の中身を展開して計算する。まず
+$$
+\sin t(2\sin t-1)(1+\cos t)
+= \sin t(2\sin t-1) + \sin t(2\sin t-1)\cos t
+$$
+と分けて考える。
+
+第1項は
+$$
+\sin t(2\sin t-1)=2\sin^2 t-\sin t
+$$
+である。
+
+第2項は
+$$
+\sin t(2\sin t-1)\cos t = (2\sin^2 t-\sin t)\cos t = 2\sin^2 t\cos t-\sin t\cos t
+$$
+である。
+
+よって
+$$
+\sin t(2\sin t-1)(1+\cos t)
+= 2\sin^2 t-\sin t + 2\sin^2 t\cos t-\sin t\cos t.
+$$
+
+これをそれぞれ積分する。
+
+まず
+$$
+\int 2\sin^2 t\,dt = \int (1-\cos 2t)\,dt = t-\frac12\sin 2t
+$$
+（$\sin^2 t=\dfrac{1-\cos 2t}{2}$ を用いた）。
+
+また
+$$
+\int (-\sin t)\,dt = \cos t.
+$$
+
+次に $2\sin^2 t\cos t$ の積分は，$u=\sin t$ とおくと $du=\cos t\,dt$ より
+$$
+\int 2\sin^2 t\cos t\,dt
+= \int 2u^2\,du = \frac{2}{3}u^3 = \frac{2}{3}\sin^3 t.
+$$
+
+さらに $-\sin t\cos t$ については，$\sin t\cos t=\dfrac12\sin 2t$ より
+$$
+\int (-\sin t\cos t)\,dt
+= -\frac12\int \sin 2t\,dt
+= -\frac12\left(-\frac12\cos 2t\right)
+= \frac14\cos 2t.
+$$
+
+したがって不定積分は
+$$
+\int \sin t(2\sin t-1)(1+\cos t)\,dt
+= t-\frac12\sin 2t + \cos t + \frac{2}{3}\sin^3 t + \frac14\cos 2t + C
+$$
+となる。
+
+これを $t=\dfrac{\pi}{6}$ から $t=\dfrac{5\pi}{6}$ まで評価する。
+
+まず $t=\dfrac{5\pi}{6}$ のとき
+$$
+\sin\frac{5\pi}{6}=\frac12,\quad 
+\cos\frac{5\pi}{6}=-\frac{\sqrt3}{2},\quad
+\sin\frac{5\pi}{3}=-\frac{\sqrt3}{2},\quad
+\cos\frac{5\pi}{3}=\frac12
+$$
+を用いると，
+\begin{align*}
+F\!\left(\frac{5\pi}{6}\right)
+&= \frac{5\pi}{6}
+   -\frac12\sin\frac{5\pi}{3}
+   +\cos\frac{5\pi}{6}
+   +\frac23\sin^3\frac{5\pi}{6}
+   +\frac14\cos\frac{5\pi}{3} \\
+&= \frac{5\pi}{6}
+   -\frac12\left(-\frac{\sqrt3}{2}\right)
+   -\frac{\sqrt3}{2}
+   +\frac23\left(\frac12\right)^3
+   +\frac14\cdot\frac12 \\
+&= \frac{5\pi}{6}
+   +\frac{\sqrt3}{4}
+   -\frac{\sqrt3}{2}
+   +\frac{1}{12}
+   +\frac{1}{8} \\
+&= \frac{5\pi}{6}
+   -\frac{\sqrt3}{4}
+   +\left(\frac{1}{12}+\frac{1}{8}\right) \\
+&= \frac{5\pi}{6}
+   -\frac{\sqrt3}{4}
+   +\frac{5}{24}.
+\end{align*}
+
+次に $t=\dfrac{\pi}{6}$ のとき
+$$
+\sin\frac{\pi}{6}=\frac12,\quad 
+\cos\frac{\pi}{6}=\frac{\sqrt3}{2},\quad
+\sin\frac{\pi}{3}=\frac{\sqrt3}{2},\quad
+\cos\frac{\pi}{3}=\frac12
+$$
+より，
+\begin{align*}
+F\!\left(\frac{\pi}{6}\right)
+&= \frac{\pi}{6}
+   -\frac12\sin\frac{\pi}{3}
+   +\cos\frac{\pi}{6}
+   +\frac23\sin^3\frac{\pi}{6}
+   +\frac14\cos\frac{\pi}{3} \\
+&= \frac{\pi}{6}
+   -\frac12\cdot\frac{\sqrt3}{2}
+   +\frac{\sqrt3}{2}
+   +\frac23\left(\frac12\right)^3
+   +\frac14\cdot\frac12 \\
+&= \frac{\pi}{6}
+   -\frac{\sqrt3}{4}
+   +\frac{\sqrt3}{2}
+   +\frac{1}{12}
+   +\frac{1}{8} \\
+&= \frac{\pi}{6}
+   +\frac{\sqrt3}{4}
+   +\frac{5}{24}.
+\end{align*}
+
+したがって，面積
+\begin{align*}
+S
+&= F\!\left(\frac{5\pi}{6}\right)-F\!\left(\frac{\pi}{6}\right) \\
+&= \left(\frac{5\pi}{6}-\frac{\sqrt3}{4}+\frac{5}{24}\right)
+   -\left(\frac{\pi}{6}+\frac{\sqrt3}{4}+\frac{5}{24}\right) \\
+&= \left(\frac{5\pi}{6}-\frac{\pi}{6}\right)
+   +\left(-\frac{\sqrt3}{4}-\frac{\sqrt3}{4}\right)
+   +\left(\frac{5}{24}-\frac{5}{24}\right) \\
+&= \frac{4\pi}{6}-\frac{\sqrt3}{2} \\
+&= \frac{2\pi}{3}-\frac{\sqrt3}{2}.
+\end{align*}
+
+よって，求める面積は
+$$
+\boxed{\dfrac{2\pi}{3}-\dfrac{\sqrt3}{2}}
+$$
+である。

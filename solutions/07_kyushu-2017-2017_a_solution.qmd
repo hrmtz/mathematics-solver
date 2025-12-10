@@ -1,0 +1,197 @@
+## 解答
+
+(1)  
+曲線 $C:y=\sqrt{x}$ 上の点 $(x,\sqrt{x})$ における接線の傾きは，微分により  
+$$
+\frac{dy}{dx}=\frac{1}{2\sqrt{x}}
+$$
+であるから，点 $P(p,\sqrt{p})$ における接線の傾きは  
+$$
+\frac{1}{2\sqrt{p}}
+$$
+である。  
+よって，法線 $l_1$ の傾きは，接線の傾きの逆数に $-1$ をかけて  
+$$
+-2\sqrt{p}
+$$
+となる。したがって，法線 $l_1$ の方程式は，点傾きの式より
+$$
+y-\sqrt{p}=-2\sqrt{p}(x-p)
+$$
+で表される。
+
+同様に，点 $Q(q,\sqrt{q})$ における法線 $l_2$ の傾きは $-2\sqrt{q}$ であり，
+法線 $l_2$ の方程式は
+$$
+y-\sqrt{q}=-2\sqrt{q}(x-q)
+$$
+である。
+
+法線 $l_1,l_2$ の交点を $R=(X,Y)$ とおくと，$R$ は両方の直線上にあるから，
+$$
+\begin{cases}
+Y-\sqrt{p}=-2\sqrt{p}(X-p),\\[2mm]
+Y-\sqrt{q}=-2\sqrt{q}(X-q)
+\end{cases}
+$$
+を満たす。  
+これを $X$ について解く。
+
+2つの式をそれぞれ整理すると
+$$
+Y = -2\sqrt{p}\,X + 2p\sqrt{p} + \sqrt{p},
+$$
+$$
+Y = -2\sqrt{q}\,X + 2q\sqrt{q} + \sqrt{q}
+$$
+となるので，右辺が等しいことから
+$$
+-2\sqrt{p}\,X + 2p\sqrt{p} + \sqrt{p}
+=
+-2\sqrt{q}\,X + 2q\sqrt{q} + \sqrt{q}
+$$
+となる。これを $X$ について整理する。
+
+両辺を移項して
+$$
+-2\sqrt{p}\,X + 2\sqrt{q}\,X
+=
+2q\sqrt{q} + \sqrt{q} - 2p\sqrt{p} - \sqrt{p}
+$$
+すなわち
+$$
+2(\sqrt{q}-\sqrt{p})X
+=
+2q\sqrt{q} - 2p\sqrt{p} + (\sqrt{q}-\sqrt{p})
+$$
+となる。右辺のうち
+$$
+2q\sqrt{q} - 2p\sqrt{p}
+=
+2(q^{3/2} - p^{3/2})
+=
+2(\sqrt{q}-\sqrt{p})(q+\sqrt{pq}+p)
+$$
+であるから，これを用いると
+$$
+2(\sqrt{q}-\sqrt{p})X
+=
+2(\sqrt{q}-\sqrt{p})(q+\sqrt{pq}+p)
++(\sqrt{q}-\sqrt{p})
+$$
+となる。両辺を $\sqrt{q}-\sqrt{p}\neq0$ で割ると
+$$
+2X
+=
+2(q+\sqrt{pq}+p)
++1
+$$
+となるので
+$$
+X = q+\sqrt{pq}+p+\frac{1}{2}
+$$
+を得る。
+
+次に $Y$ を求める。$l_1$ の式
+$$
+Y-\sqrt{p}=-2\sqrt{p}(X-p)
+$$
+に $X$ の値を代入する。
+まず
+$$
+X-p = q+\sqrt{pq}+p+\frac{1}{2}-p
+= q+\sqrt{pq}+\frac{1}{2}
+$$
+なので
+$$
+Y-\sqrt{p}
+=
+-2\sqrt{p}\left(q+\sqrt{pq}+\frac{1}{2}\right)
+=
+-2\sqrt{p}\,q -2\sqrt{p}\,\sqrt{pq} -\sqrt{p}
+$$
+となる。したがって
+$$
+Y
+=
+\sqrt{p} -2\sqrt{p}\,q -2\sqrt{p}\,\sqrt{pq} -\sqrt{p}
+=
+-2\sqrt{p}\,q -2\sqrt{p}\,\sqrt{pq}
+$$
+である。よって
+$$
+Y = -2\sqrt{p}\,(q+\sqrt{pq})
+$$
+と表される。
+
+以上より，$R$ の座標は
+$$
+R\left(q+\sqrt{pq}+p+\frac{1}{2},\,-2\sqrt{p}\,(q+\sqrt{pq})\right)
+$$
+である。
+
+(2)  
+線分 $RP$ の長さ $|RP|$ を求める。  
+$P(p,\sqrt{p})$，$R(X,Y)$ であるから
+$$
+|RP|
+=
+\sqrt{(X-p)^2+(Y-\sqrt{p})^2}
+$$
+である。ここで (1) で得た $X,Y$ を用いる。
+
+まず
+$$
+X-p = q+\sqrt{pq}+\frac{1}{2},
+$$
+また (1) で計算したとおり
+$$
+Y-\sqrt{p}
+=
+-2\sqrt{p}\left(q+\sqrt{pq}+\frac{1}{2}\right)
+$$
+であるから
+$$
+|RP|
+=
+\sqrt{
+\left(q+\sqrt{pq}+\frac{1}{2}\right)^2
++
+\left\{-2\sqrt{p}\left(q+\sqrt{pq}+\frac{1}{2}\right)\right\}^2
+}.
+$$
+
+共通因子 $q+\sqrt{pq}+\dfrac{1}{2}$ で括ると
+$$
+|RP|
+=
+\sqrt{
+\left(q+\sqrt{pq}+\frac{1}{2}\right)^2
+\left(1+4p\right)
+}
+=
+\left|q+\sqrt{pq}+\frac{1}{2}\right|\sqrt{1+4p}.
+$$
+
+ここで $p>0,\ q>0$ なので
+$q+\sqrt{pq}+\dfrac{1}{2}>0$ より絶対値を外すことができ，
+$$
+|RP| = \left(q+\sqrt{pq}+\frac{1}{2}\right)\sqrt{1+4p}
+$$
+となる。
+
+$q$ が $p$ に限りなく近づくとき，すなわち $q\to p$ のときの極限は
+$$
+\lim_{q\to p}|RP|
+=
+\left(p+\sqrt{p\cdot p}+\frac{1}{2}\right)\sqrt{1+4p}
+=
+\left(2p+\frac{1}{2}\right)\sqrt{1+4p}
+$$
+である。
+
+よって，求める極限値は
+$$
+\left(2p+\frac{1}{2}\right)\sqrt{1+4p}
+$$
+となる。

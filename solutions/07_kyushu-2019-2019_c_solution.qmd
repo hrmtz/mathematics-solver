@@ -1,0 +1,212 @@
+## 解答
+
+(1)  
+点 $P(a,b)$ に対応する複素数を $\alpha=a+ib$，点 $Q(c,d)$ に対応する複素数を $\beta=c+id$ とするとき，共役複素数は  
+$\overline{\alpha}=a-ib,\ \overline{\beta}=c-id$ である。
+
+このとき
+$$
+\alpha\overline{\beta}
+=(a+ib)(c-id)
+=ac+bd+i(-ad+bc),
+$$
+$$
+\overline{\alpha}\beta
+=(a-ib)(c+id)
+=ac+bd+i(ad-bc)
+$$
+となるので，これらを加えると
+$$
+\alpha\overline{\beta}+\overline{\alpha}\beta
+=(ac+bd+i(-ad+bc))+(ac+bd+i(ad-bc))
+=2(ac+bd)
+$$
+となる。したがって
+$$
+\frac{\alpha\overline{\beta}+\overline{\alpha}\beta}{2}
+=ac+bd.
+$$
+
+一方，ベクトル $\overrightarrow{OP}$ の成分は $(a,b)$，ベクトル $\overrightarrow{OQ}$ の成分は $(c,d)$ だから，内積の定義より
+$$
+\overrightarrow{OP}\cdot\overrightarrow{OQ}=ac+bd
+$$
+である。よって
+$$
+\overrightarrow{OP}\cdot\overrightarrow{OQ}
+=\frac{\alpha\overline{\beta}+\overline{\alpha}\beta}{2}
+$$
+が示された。
+
+---
+
+(2)  
+原点 $O$ を中心とする単位円に内接する正 $n$ 角形の頂点を $P_0,P_1,\dots,P_{n-1}$ とし，それぞれに対応する複素数を  
+$$
+\omega_k=\cos\frac{2k\pi}{n}+i\sin\frac{2k\pi}{n}\quad (k=0,1,\dots,n-1)
+$$
+とおく。これは $n$ 乗して $1$ となる複素数であり，$\omega_0=1$ で $\omega_1$ を原始 $n$ 乗根とすれば，$\omega_k=\omega_1^k$ と書ける。
+
+また，単位円上の点 $A$ に対応する複素数を $z$ とおくと，$|z|=1$ であり，$\overrightarrow{OP_k}$，$\overrightarrow{OA}$ に対応する複素数はそれぞれ $\omega_k$，$z$ であるから，(1)の結果より
+$$
+\overrightarrow{OP_k}\cdot\overrightarrow{OA}
+=\frac{\omega_k\overline{z}+\overline{\omega_k}z}{2}
+$$
+である。よって
+$$
+S_p=\sum_{k=0}^{n-1}\left(\overrightarrow{OP_k}\cdot\overrightarrow{OA}\right)^p
+=\sum_{k=0}^{n-1}\left(\frac{\omega_k\overline{z}+\overline{\omega_k}z}{2}\right)^p.
+$$
+
+以下，(a),(b),(c)を順に示す。
+
+---
+
+(2)(a)  
+$p=1$ のとき
+$$
+S_1=\sum_{k=0}^{n-1}\overrightarrow{OP_k}\cdot\overrightarrow{OA}
+=\sum_{k=0}^{n-1}\frac{\omega_k\overline{z}+\overline{\omega_k}z}{2}
+=\frac{1}{2}\left(\overline{z}\sum_{k=0}^{n-1}\omega_k+z\sum_{k=0}^{n-1}\overline{\omega_k}\right).
+$$
+
+ここで，$\omega_k=\omega_1^k$ は $x^n-1=0$ の解全体であり，$1$ を含めた $n$ 個の $n$ 乗根の和は
+$$
+\sum_{k=0}^{n-1}\omega_k=0
+$$
+である（等比数列の和を用いると，
+$\omega_1\neq1$ より $\displaystyle\sum_{k=0}^{n-1}\omega_1^k=\frac{1-\omega_1^n}{1-\omega_1}=0$）。
+
+また $\overline{\omega_k}=\omega_k^{-1}=\omega_{n-k}$ であるから
+$$
+\sum_{k=0}^{n-1}\overline{\omega_k}
+=\sum_{k=0}^{n-1}\omega_k=0
+$$
+となる。したがって
+$$
+S_1=\frac{1}{2}\left(\overline{z}\cdot0+z\cdot0\right)=0
+$$
+となり，$S_1=0$ が示された。
+
+---
+
+(2)(b)  
+$p=2$ のとき，まずベクトルの幾何学的意味を用いると簡単である。
+
+単位円上の点 $P_k$，$A$ に対し，$\overrightarrow{OP_k}$，$\overrightarrow{OA}$ はともに長さ $1$ のベクトルであるから，内積の定義から
+$$
+\overrightarrow{OP_k}\cdot\overrightarrow{OA}
+=|\overrightarrow{OP_k}||\overrightarrow{OA}|\cos\angle P_kOA
+=\cos\theta_k
+$$
+とかける。ただし，$\theta_k=\angle P_kOA$ である。よって
+$$
+S_2=\sum_{k=0}^{n-1}(\overrightarrow{OP_k}\cdot\overrightarrow{OA})^2
+=\sum_{k=0}^{n-1}\cos^2\theta_k.
+$$
+
+ここで三角恒等式 $\cos^2\theta=\dfrac{1+\cos2\theta}{2}$ を用いると
+$$
+S_2=\sum_{k=0}^{n-1}\frac{1+\cos2\theta_k}{2}
+=\frac{1}{2}\sum_{k=0}^{n-1}1+\frac{1}{2}\sum_{k=0}^{n-1}\cos2\theta_k
+=\frac{n}{2}+\frac{1}{2}\sum_{k=0}^{n-1}\cos2\theta_k.
+$$
+
+したがって $S_2=\dfrac{n}{2}$ を示すには
+$$
+\sum_{k=0}^{n-1}\cos2\theta_k=0
+$$
+を示せばよい。
+
+ここで，再び複素数表示を用いる。$|z|=1$ なので $z=\cos\varphi+i\sin\varphi$ と書けば，$P_k$ に対応する複素数は $\omega_k=\cos\frac{2k\pi}{n}+i\sin\frac{2k\pi}{n}$ であり，
+$$
+\omega_k\overline{z}
+=\cos(\tfrac{2k\pi}{n}-\varphi)+i\sin(\tfrac{2k\pi}{n}-\varphi)
+$$
+である。よって
+$$
+\cos\theta_k=\operatorname{Re}(\omega_k\overline{z}),\quad
+\cos2\theta_k=\operatorname{Re}\bigl((\omega_k\overline{z})^2\bigr)
+=\operatorname{Re}(\omega_k^2\overline{z}^2).
+$$
+
+したがって
+$$
+\sum_{k=0}^{n-1}\cos2\theta_k
+=\operatorname{Re}\left(\sum_{k=0}^{n-1}\omega_k^2\overline{z}^2\right)
+=\operatorname{Re}\left(\overline{z}^2\sum_{k=0}^{n-1}\omega_k^2\right).
+$$
+
+ところで $\omega_k=\omega_1^k$ より
+$$
+\sum_{k=0}^{n-1}\omega_k^2
+=\sum_{k=0}^{n-1}(\omega_1^2)^k
+$$
+は $\omega_1^2\neq1$（$n\ge3$ なので $\omega_1$ は $1$ および $-1$ ではない）より，等比数列の和の公式から
+$$
+\sum_{k=0}^{n-1}\omega_k^2
+=\frac{1-(\omega_1^2)^n}{1-\omega_1^2}
+=\frac{1-\omega_1^{2n}}{1-\omega_1^2}
+=\frac{1-1}{1-\omega_1^2}=0
+$$
+となる。したがって
+$$
+\sum_{k=0}^{n-1}\cos2\theta_k
+=\operatorname{Re}\left(\overline{z}^2\cdot0\right)=0
+$$
+となり，
+$$
+S_2=\frac{n}{2}
+$$
+が示された。
+
+---
+
+(2)(c)  
+まず $S_p$ が点 $A$ によらないことを示すために，$A$ を回転させる操作を考える。
+
+単位円上の点 $A$ を回転させるとは，複素数 $z$ を $|u|=1$ をみたす複素数 $u$ 倍して $uz$ に移すことに対応する。このとき，$\omega_k$ も同じく単位円上にあるから
+$$
+\overrightarrow{OP_k}\cdot\overrightarrow{OA'}
+=\frac{\omega_k\overline{(uz)}+\overline{\omega_k}(uz)}{2}
+=\frac{\omega_k\overline{u}\,\overline{z}+\overline{\omega_k}u z}{2}
+$$
+となる。ただし $A'$ は $A$ を回転移動した点で，対応する複素数は $uz$ である。
+
+ところで $|u|=1$ より $\overline{u}=\dfrac{1}{u}$ が成り立つので
+$$
+\omega_k\overline{u}\,\overline{z}+\overline{\omega_k}u z
+=\frac{\omega_k}{u}\overline{z}+\frac{u}{\omega_k}z,
+$$
+従って
+$$
+\overrightarrow{OP_k}\cdot\overrightarrow{OA'}
+=\frac{1}{2}\left(\frac{\omega_k}{u}\overline{z}+\frac{u}{\omega_k}z\right).
+$$
+
+ここで，$k$ を $0,1,\dots,n-1$ と動かすとき，$\dfrac{\omega_k}{u}$ は結局「単位円上に等間隔に並んだ $n$ 個の点全体」をちょうど 1 回ずつ巡回することに注意する。  
+実際，$|u|=1$ なので，$\omega_k/u$ も単位円上にあり，
+$$
+\left(\frac{\omega_k}{u}\right)^n
+=\frac{\omega_k^n}{u^n}
+=\frac{1}{u^n}
+$$
+であるから，これは $x^n=u^{-n}$ の解全体であり，やはり単位円上に等間隔に $n$ 個並んだ点である。したがって  
+点 $P_k$ 全体の集まり $\{\omega_k\}$ を別の回転で見たものが $\{\omega_k/u\}$ の集まりになっているだけであり，「和をとる」という操作に関しては，ただ頂点の名前の付け替えになっている。
+
+よって，$A$ を回転させて得られる $A'$ に対しても，$S_p$ の値は変化しない。  
+したがって，$A$ を単位円上の任意の位置に動かしても $S_p$ は一定である。
+
+特に，$A$ を $x$ 軸正の方向にとって $A=P_0$（すなわち $z=1$）とみなしてよい。このとき
+$$
+\overrightarrow{OP_k}\cdot\overrightarrow{OA}
+=\overrightarrow{OP_k}\cdot\overrightarrow{OP_0}
+=\cos\frac{2k\pi}{n}
+$$
+となるから
+$$
+S_p=\sum_{k=0}^{n-1}\left(\cos\frac{2k\pi}{n}\right)^p
+$$
+となり，右辺は $A$（すなわち $z$）には依存しない固定値である。
+
+以上より，$S_p$ の値は単位円上の点 $A$ の位置によらないことが示された。

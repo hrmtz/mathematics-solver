@@ -1,0 +1,214 @@
+## 解答
+
+(1)  
+各点は球面 $S$ 上にあるので，$\lvert \vec a\rvert=\lvert \vec b\rvert=\lvert \vec c\rvert=\lvert \vec d\rvert=1$ である．
+
+まず，ベクトルの距離の2乗に関する公式
+$$
+AB^2 = \lvert \vec b-\vec a\rvert^2
+     = \vec a\cdot\vec a+\vec b\cdot\vec b-2\vec a\cdot\vec b
+$$
+を用いる．同様に $BC^2, CA^2, AD^2, BD^2, CD^2$ を表すと
+\[
+\begin{aligned}
+AB^2 &= 2-2\,\vec a\cdot\vec b,\\
+BC^2 &= 2-2\,\vec b\cdot\vec c,\\
+CA^2 &= 2-2\,\vec c\cdot\vec a,\\
+AD^2 &= 2-2\,\vec a\cdot\vec d,\\
+BD^2 &= 2-2\,\vec b\cdot\vec d,\\
+CD^2 &= 2-2\,\vec c\cdot\vec d.
+\end{aligned}
+\]
+
+したがって
+\[
+\begin{aligned}
+AB^2+BC^2+CA^2
+&= (2-2\vec a\cdot\vec b)+(2-2\vec b\cdot\vec c)+(2-2\vec c\cdot\vec a)\\
+&= 6-2(\vec a\cdot\vec b+\vec b\cdot\vec c+\vec c\cdot\vec a),
+\end{aligned}
+\]
+\[
+\begin{aligned}
+AD^2+BD^2+CD^2
+&= (2-2\vec a\cdot\vec d)+(2-2\vec b\cdot\vec d)+(2-2\vec c\cdot\vec d)\\
+&= 6-2(\vec a+\vec b+\vec c)\cdot\vec d.
+\end{aligned}
+\]
+
+よって
+\[
+\begin{aligned}
+F
+&=2(AB^2+BC^2+CA^2)-3(AD^2+BD^2+CD^2)\\
+&=2\{6-2(\vec a\cdot\vec b+\vec b\cdot\vec c+\vec c\cdot\vec a)\}
+ -3\{6-2(\vec a+\vec b+\vec c)\cdot\vec d\}\\
+&=12-4(\vec a\cdot\vec b+\vec b\cdot\vec c+\vec c\cdot\vec a)
+  -18+6(\vec a+\vec b+\vec c)\cdot\vec d\\
+&=-6-4(\vec a\cdot\vec b+\vec b\cdot\vec c+\vec c\cdot\vec a)
+  +6(\vec a+\vec b+\vec c)\cdot\vec d.
+\end{aligned}
+\]
+
+ここで
+$$
+(\vec a+\vec b+\vec c)^2
+= \vec a^2+\vec b^2+\vec c^2+2(\vec a\cdot\vec b+\vec b\cdot\vec c+\vec c\cdot\vec a)
+= 3+2(\vec a\cdot\vec b+\vec b\cdot\vec c+\vec c\cdot\vec a)
+$$
+より
+$$
+\vec a\cdot\vec b+\vec b\cdot\vec c+\vec c\cdot\vec a
+=\frac{1}{2}\{(\vec a+\vec b+\vec c)^2-3\}
+$$
+である．したがって
+\[
+\begin{aligned}
+F
+&=-6-4\cdot\frac{1}{2}\{(\vec a+\vec b+\vec c)^2-3\}
+  +6(\vec a+\vec b+\vec c)\cdot\vec d\\
+&=-6-2(\vec a+\vec b+\vec c)^2+6+6(\vec a+\vec b+\vec c)\cdot\vec d\\
+&=-2(\vec a+\vec b+\vec c)^2+6(\vec a+\vec b+\vec c)\cdot\vec d\\
+&=-2(\vec a+\vec b+\vec c)\cdot\bigl((\vec a+\vec b+\vec c)-3\vec d\bigr).
+\end{aligned}
+\]
+
+ゆえに
+$$
+F=k(\vec a+\vec b+\vec c)\cdot(\vec a+\vec b+\vec c-3\vec d)
+$$
+と書け，$k=-2$ である．
+
+---
+
+(2)  
+(1)の結果から
+$$
+F=-2(\vec a+\vec b+\vec c)\cdot(\vec a+\vec b+\vec c-3\vec d)
+$$
+である．$\vec a+\vec b+\vec c$ を $\vec s$ とおくと
+$$
+F=-2\{\vec s\cdot\vec s-3\vec s\cdot\vec d\}
+  =-2(|\vec s|^2-3\vec s\cdot\vec d).
+$$
+
+ここで $\lvert \vec d\rvert=1$ に注意し，Cauchy–Schwarz の不等式より
+$$
+\vec s\cdot\vec d \leq |\vec s|\cdot|\vec d|=|\vec s|
+$$
+であるから
+$$
+|\vec s|^2-3\vec s\cdot\vec d \geq |\vec s|^2-3|\vec s|
+$$
+が成り立つ．従って
+$$
+F\leq -2\{|\vec s|^2-3|\vec s|\}
+  =-2\{(|\vec s|-\tfrac{3}{2})^2-\tfrac{9}{4}\}
+  =\tfrac{9}{2}-2(|\vec s|-\tfrac{3}{2})^2
+\leq \tfrac{9}{2}.
+$$
+
+よって $F$ の最大値は $M=\dfrac{9}{2}$ である．
+
+なお，等号成立条件を確認しておく．  
+まず $\vec s\cdot\vec d\le |\vec s|$ で等号となるには $\vec s$ と $\vec d$ が同じ向きである必要があり，よって
+$$
+\vec s=\lambda \vec d\quad (\lambda\ge 0)
+$$
+となる．さらに $|\vec s|^2-3|\vec s| \ge 0$ において等号となるには
+$$
+|\vec s|-\tfrac{3}{2}=0 \quad\Rightarrow\quad |\vec s|=\tfrac{3}{2}
+$$
+であるから
+$$
+\vec s=\vec a+\vec b+\vec c=\tfrac{3}{2}\vec d
+$$
+が $F=M$ のときの必要十分条件となる．
+
+---
+
+(3)  
+与えられた座標は
+$$
+\vec c=\overrightarrow{OC}=\Bigl(-\frac14,\frac{\sqrt{15}}4,0\Bigr),\quad
+\vec d=\overrightarrow{OD}=(1,0,0)
+$$
+である．
+
+(2)より $F=M$ となる必要十分条件は
+$$
+\vec a+\vec b+\vec c=\frac{3}{2}\vec d
+$$
+であるから
+$$
+\vec a+\vec b
+=\frac{3}{2}\vec d-\vec c
+=\Bigl(\frac32,0,0\Bigr)-\Bigl(-\frac14,\frac{\sqrt{15}}4,0\Bigr)
+=\Bigl(\frac{7}{4},-\frac{\sqrt{15}}4,0\Bigr)
+$$
+となる．これを
+$$
+\vec p=\overrightarrow{OP}
+=\Bigl(\frac{7}{4},-\frac{\sqrt{15}}4,0\Bigr)
+$$
+とおく．すると条件は
+$$
+\vec a+\vec b=\vec p,\quad |\vec a|=|\vec b|=1
+$$
+である．
+
+ここで $|\vec p|^2$ を計算すると
+\[
+\begin{aligned}
+|\vec p|^2
+&=\Bigl(\frac{7}{4}\Bigr)^2+\Bigl(-\frac{\sqrt{15}}{4}\Bigr)^2+0^2\\
+&=\frac{49}{16}+\frac{15}{16}
+=\frac{64}{16}=4,
+\end{aligned}
+\]
+よって $|\vec p|=2$ である．
+
+一般に，$|\vec a|=|\vec b|=1$ かつ $\vec a+\vec b=\vec p$ とすると
+$$
+|\vec p|^2=|\vec a+\vec b|^2
+=|\vec a|^2+|\vec b|^2+2\vec a\cdot\vec b
+=1+1+2\vec a\cdot\vec b
+=2+2\vec a\cdot\vec b
+$$
+であるから
+$$
+\vec a\cdot\vec b=\frac{|\vec p|^2-2}{2}
+$$
+となる．ここで $|\vec p|=2$ を代入すると
+$$
+\vec a\cdot\vec b=\frac{4-2}{2}=1
+$$
+を得る．
+
+内積の定義より，$|\vec a|=|\vec b|=1$ かつ $\vec a\cdot\vec b=1$ ならば，$\vec a$ と $\vec b$ のなす角は $0$ であり，したがって
+$$
+\vec a=\vec b
+$$
+である．このとき $\vec a+\vec b=\vec p$ から
+$$
+2\vec a=\vec p \quad\Rightarrow\quad \vec a=\frac{1}{2}\vec p
+$$
+となる．すなわち
+$$
+\vec a=\vec b=\frac{1}{2}\vec p
+=\Bigl(\frac{7}{8},-\frac{\sqrt{15}}{8},0\Bigr)
+$$
+である．このベクトルの長さは
+\[
+\Bigl(\frac{7}{8}\Bigr)^2+\Bigl(-\frac{\sqrt{15}}{8}\Bigr)^2
+=\frac{49}{64}+\frac{15}{64}
+=\frac{64}{64}=1
+\]
+となり，確かに球面 $S$ 上の点である．
+
+よって，$F=M$ となる $S$ 上の点 $A,B$ の組はただ1組であり，
+$$
+A\Bigl(\frac{7}{8},-\frac{\sqrt{15}}{8},0\Bigr),\quad
+B\Bigl(\frac{7}{8},-\frac{\sqrt{15}}{8},0\Bigr)
+$$
+である．

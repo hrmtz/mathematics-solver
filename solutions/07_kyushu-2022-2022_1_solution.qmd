@@ -1,0 +1,304 @@
+## 解答
+
+(1)  
+点 $O, A, B$ を通る平面 $\alpha$ 上の 2 本の方向ベクトルとして
+$$
+\overrightarrow{a} = \overrightarrow{OA} = (1,\,1,\,0),\quad
+\overrightarrow{b} = \overrightarrow{OB} = (2,\,1,\,2)
+$$
+である。  
+平面 $\alpha$ の法線ベクトルは，$\overrightarrow{a}$ と $\overrightarrow{b}$ の両方に垂直なベクトル，すなわち外積 $\overrightarrow{a}\times\overrightarrow{b}$ に比例する。
+
+まず外積を計算する：
+$$
+\overrightarrow{a}\times\overrightarrow{b}
+=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k}\\
+1 & 1 & 0\\
+2 & 1 & 2
+\end{vmatrix}
+=
+(1\cdot 2 - 0\cdot 1)\boldsymbol{i}
+- (1\cdot 2 - 0\cdot 2)\boldsymbol{j}
++ (1\cdot 1 - 1\cdot 2)\boldsymbol{k}
+$$
+$$
+= 2\boldsymbol{i} - 2\boldsymbol{j} -1\boldsymbol{k}
+= (2,\,-2,\,-1).
+$$
+
+よって，$\overrightarrow{a}$ と $\overrightarrow{b}$ の両方に垂直なベクトルは $(2,\,-2,\,-1)$ の実数倍である。  
+大きさが $1$ で，かつ $x$ 成分が正であるものを求めるため，$(2,\,-2,\,-1)$ を正規化する。
+
+大きさは
+$$
+|(2,\,-2,\,-1)| = \sqrt{2^2 + (-2)^2 + (-1)^2}
+= \sqrt{4+4+1} = \sqrt{9} = 3
+$$
+であるから，
+$$
+\overrightarrow{n} = \frac{1}{3}(2,\,-2,\,-1) = \left(\frac{2}{3},\,-\frac{2}{3},\,-\frac{1}{3}\right)
+$$
+は大きさ $1$ で，$x$ 成分も正である。  
+したがって，
+$$
+\overrightarrow{n}
+=
+\left(\frac{2}{3},\,-\frac{2}{3},\,-\frac{1}{3}\right)
+$$
+である。
+
+---
+
+(2)  
+平面 $\alpha$ に関して点 $P(4,\,0,\,-1)$ と対称な点を $P'(x,\,y,\,z)$ とする。
+
+まず平面 $\alpha$ の方程式を求める。  
+$\alpha$ は点 $O(0,\,0,\,0)$ を通り，法線ベクトルとして (1) で求めた $\overrightarrow{n}=(2/3,\,-2/3,\,-1/3)$ を持つから，
+$$
+\frac{2}{3}x - \frac{2}{3}y - \frac{1}{3}z = 0
+$$
+すなわち
+$$
+2x - 2y - z = 0
+$$
+と表される。
+
+点 $P$ から平面 $\alpha$ に下ろした垂線の足を $H$ とすると，$P'$ は $H$ を中点として $P$ と反対側にある点であり，$\overrightarrow{PH}$ は平面の法線ベクトルに平行である。  
+また，$H$ は平面上の点なので，座標 $(X,\,Y,\,Z)$ とおけば
+$$
+2X - 2Y - Z = 0
+$$
+を満たす。
+
+$\overrightarrow{PH}$ が $\overrightarrow{n}$ に平行なので，ある実数 $t$ を用いて
+$$
+\overrightarrow{PH}
+= (X-4,\,Y-0,\,Z-(-1))
+= (X-4,\,Y,\,Z+1)
+= t\left(\frac{2}{3},\,-\frac{2}{3},\,-\frac{1}{3}\right)
+$$
+とおける。すると
+$$
+X-4 = \frac{2}{3}t,\quad
+Y   = -\frac{2}{3}t,\quad
+Z+1 = -\frac{1}{3}t
+$$
+より
+$$
+X = 4 + \frac{2}{3}t,\quad
+Y = -\frac{2}{3}t,\quad
+Z = -1 - \frac{1}{3}t.
+$$
+
+これを平面の条件式 $2X-2Y-Z=0$ に代入する：
+$$
+2\left(4 + \frac{2}{3}t\right)
+- 2\left(-\frac{2}{3}t\right)
+- \left(-1 - \frac{1}{3}t\right) = 0
+$$
+$$
+8 + \frac{4}{3}t + \frac{4}{3}t + 1 + \frac{1}{3}t = 0
+$$
+$$
+9 + \left(\frac{4}{3} + \frac{4}{3} + \frac{1}{3}\right)t = 0
+$$
+$$
+9 + 3t = 0
+$$
+より
+$$
+t = -3.
+$$
+
+したがって
+$$
+X = 4 + \frac{2}{3}(-3) = 4 - 2 = 2,\quad
+Y = -\frac{2}{3}(-3) = 2,\quad
+Z = -1 - \frac{1}{3}(-3) = -1 + 1 = 0.
+$$
+ゆえに垂足は $H(2,\,2,\,0)$ である。
+
+点 $P'$ は $H$ を中点として $P$ と対称だから，
+$$
+\overrightarrow{HP'} = -\overrightarrow{HP}
+$$
+すなわち
+$$
+\overrightarrow{OP'} = \overrightarrow{OH} + \overrightarrow{HP'}
+= \overrightarrow{OH} - \overrightarrow{HP}
+= 2\overrightarrow{OH} - \overrightarrow{OP}
+$$
+である。座標で計算すると，
+$$
+\overrightarrow{OP} = (4,\,0,\,-1),\quad
+\overrightarrow{OH} = (2,\,2,\,0)
+$$
+なので
+$$
+\overrightarrow{OP'} = 2(2,\,2,\,0) - (4,\,0,\,-1)
+= (4,\,4,\,0) - (4,\,0,\,-1)
+= (0,\,4,\,1).
+$$
+
+したがって
+$$
+P'(0,\,4,\,1)
+$$
+である。
+
+---
+
+(3)  
+点 $R$ が平面 $\alpha$ 上を動くとき，$|\overrightarrow{PR}| + |\overrightarrow{RQ}|$ の最小値を与える $R$ を求める。
+
+空間内の距離の最短経路に関する反射の性質を用いる。  
+平面 $\alpha$ に関して $Q(4,\,0,\,5)$ と対称な点を $Q'$ とおき，$P$ と $Q'$ を結ぶ線分と平面 $\alpha$ との交点を $R$ とすれば，$R$ が求める点になる。
+
+まず，$Q$ の平面 $\alpha$ に関する対称点 $Q'$ を求める。(2) と同様にする。  
+$Q'(x,\,y,\,z)$ とおき，$Q$ から平面への垂線の足を $H'$ とする。  
+$H'(X,\,Y,\,Z)$ は平面 $2X-2Y-Z=0$ の上にあり，$\overrightarrow{QH'}$ は $\overrightarrow{n}=(2/3,\,-2/3,\,-1/3)$ に平行である。
+
+よって，ある実数 $s$ を用いて
+$$
+\overrightarrow{QH'} = (X-4,\,Y-0,\,Z-5)
+= (X-4,\,Y,\,Z-5)
+= s\left(\frac{2}{3},\,-\frac{2}{3},\,-\frac{1}{3}\right)
+$$
+とおけるから，
+$$
+X-4 = \frac{2}{3}s,\quad
+Y   = -\frac{2}{3}s,\quad
+Z-5 = -\frac{1}{3}s
+$$
+すなわち
+$$
+X = 4 + \frac{2}{3}s,\quad
+Y = -\frac{2}{3}s,\quad
+Z = 5 - \frac{1}{3}s.
+$$
+
+これを平面の式 $2X-2Y-Z=0$ に代入して
+$$
+2\left(4 + \frac{2}{3}s\right)
+- 2\left(-\frac{2}{3}s\right)
+- \left(5 - \frac{1}{3}s\right) = 0
+$$
+$$
+8 + \frac{4}{3}s + \frac{4}{3}s - 5 + \frac{1}{3}s = 0
+$$
+$$
+3 + \left(\frac{4}{3} + \frac{4}{3} + \frac{1}{3}\right)s = 0
+$$
+$$
+3 + 3s = 0
+$$
+より
+$$
+s = -1.
+$$
+
+したがって
+$$
+X = 4 + \frac{2}{3}(-1) = 4 - \frac{2}{3} = \frac{10}{3},\quad
+Y = -\frac{2}{3}(-1) = \frac{2}{3},\quad
+Z = 5 - \frac{1}{3}(-1) = 5 + \frac{1}{3} = \frac{16}{3}
+$$
+より，垂足は
+$$
+H'\left(\frac{10}{3},\,\frac{2}{3},\,\frac{16}{3}\right)
+$$
+である。
+
+$Q'$ は $H'$ を中点として $Q$ と対称なので，(2) と同様に
+$$
+\overrightarrow{OQ'} = 2\overrightarrow{OH'} - \overrightarrow{OQ}
+$$
+で求められる。  
+$\overrightarrow{OQ} = (4,\,0,\,5)$，$\overrightarrow{OH'} = \left(\frac{10}{3},\,\frac{2}{3},\,\frac{16}{3}\right)$ より，
+$$
+2\overrightarrow{OH'} = \left(\frac{20}{3},\,\frac{4}{3},\,\frac{32}{3}\right)
+$$
+だから
+$$
+\overrightarrow{OQ'} = 
+\left(\frac{20}{3},\,\frac{4}{3},\,\frac{32}{3}\right) - (4,\,0,\,5)
+= \left(\frac{20}{3}-4,\,\frac{4}{3}-0,\,\frac{32}{3}-5\right).
+$$
+計算すると
+$$
+\frac{20}{3} - 4 = \frac{20}{3} - \frac{12}{3} = \frac{8}{3},\quad
+\frac{32}{3} - 5 = \frac{32}{3} - \frac{15}{3} = \frac{17}{3}
+$$
+より
+$$
+Q'\left(\frac{8}{3},\,\frac{4}{3},\,\frac{17}{3}\right)
+$$
+となる。
+
+ここで，三角不等式を反射の性質として用いると，平面 $\alpha$ 上の任意の点 $R$ に対して
+$$
+|\overrightarrow{PR}| + |\overrightarrow{RQ}|
+= |\overrightarrow{PR}| + |\overrightarrow{RQ'}|
+\ge |\overrightarrow{PQ'}|
+$$
+が成り立ち，等号成立は $P, R, Q'$ が一直線上にある場合である。  
+よって，$R$ は線分 $PQ'$ と平面 $\alpha$ との交点である。
+
+点 $P(4,\,0,\,-1)$ から点 $Q'(\frac{8}{3},\,\frac{4}{3},\,\frac{17}{3})$ へのベクトルは
+$$
+\overrightarrow{PQ'} =
+\left(\frac{8}{3}-4,\,\frac{4}{3}-0,\,\frac{17}{3}-(-1)\right)
+= \left(\frac{8}{3}-\frac{12}{3},\,\frac{4}{3},\,\frac{17}{3}+\frac{3}{3}\right)
+= \left(-\frac{4}{3},\,\frac{4}{3},\,\frac{20}{3}\right).
+$$
+
+線分 $PQ'$ 上の点 $R$ は，ある実数 $u$ を用いて
+$$
+\overrightarrow{OR}
+= \overrightarrow{OP} + u\,\overrightarrow{PQ'}
+= (4,\,0,\,-1) + u\left(-\frac{4}{3},\,\frac{4}{3},\,\frac{20}{3}\right)
+$$
+と表せる。すなわち
+$$
+R\left(4 - \frac{4}{3}u,\ \frac{4}{3}u,\ -1 + \frac{20}{3}u\right).
+$$
+
+$R$ は平面 $\alpha : 2x-2y-z=0$ 上にあるので，この座標を代入する：
+$$
+2\left(4 - \frac{4}{3}u\right)
+- 2\left(\frac{4}{3}u\right)
+- \left(-1 + \frac{20}{3}u\right) = 0
+$$
+$$
+8 - \frac{8}{3}u - \frac{8}{3}u + 1 - \frac{20}{3}u = 0
+$$
+$$
+9 - \left(\frac{8}{3} + \frac{8}{3} + \frac{20}{3}\right)u = 0
+$$
+$$
+9 - 12u = 0
+$$
+より
+$$
+u = \frac{3}{4}.
+$$
+
+したがって
+$$
+x = 4 - \frac{4}{3}\cdot\frac{3}{4} = 4 - 1 = 3,
+$$
+$$
+y = \frac{4}{3}\cdot\frac{3}{4} = 1,
+$$
+$$
+z = -1 + \frac{20}{3}\cdot\frac{3}{4}
+= -1 + 5 = 4.
+$$
+
+よって，$|\overrightarrow{PR}| + |\overrightarrow{RQ}|$ が最小となる点 $R$ は
+$$
+R(3,\,1,\,4)
+$$
+である。

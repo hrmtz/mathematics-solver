@@ -1,0 +1,183 @@
+## 解答
+
+(1)  
+$\omega=\dfrac{1+\sqrt3\,i}{2}$ とおくと，$\omega$は $x^2-x+1=0$ の解なので  
+$$
+\omega^2-\omega+1=0
+$$
+をみたす。虚数単位 $i$ を含む複素数 $\omega$ は実係数多項式 $f(x)$ の根であるから，その共役複素数 $\overline{\omega}=\dfrac{1-\sqrt3\,i}{2}$ も $f(x)$ の根である。
+
+よって $f(x)$ は $(x-\omega)(x-\overline{\omega})$ を因数にもつ。  
+ここで
+$$
+(x-\omega)(x-\overline{\omega})
+=x^2-(\omega+\overline{\omega})x+\omega\overline{\omega}
+$$
+であり，
+$$
+\omega+\overline{\omega}=1,\quad \omega\overline{\omega}=1
+$$
+であるから
+$$
+(x-\omega)(x-\overline{\omega})=x^2-x+1
+$$
+となる。
+
+したがって $f(x)$ は
+$$
+f(x)=x^3+ax^2+bx+c=(x^2-x+1)(x-r)
+$$
+と書ける（$r$ は実数，特にここでは整数）。右辺を展開すると
+$$
+(x^2-x+1)(x-r)
+= x^3-(r+1)x^2+(r+1)x-r
+$$
+となるので，係数を比較して
+$$
+a=-(r+1),\quad b=r+1,\quad c=-r
+$$
+を得る。これより $r=-c$ なので
+$$
+a=-( -c+1)=c-1,\quad b=-c+1=1-c
+$$
+となる。
+
+したがって  
+$$
+a=c-1,\quad b=1-c
+$$
+である。
+
+---
+
+(2)  
+(1)より $a=c-1,\ b=1-c$ と分かったので，  
+$$
+f(x)=x^3+(c-1)x^2+(1-c)x+c
+$$
+である。
+
+まず $f(1)$ を求める：
+$$
+\begin{aligned}
+f(1)&=1^3+(c-1)1^2+(1-c)1+c \\
+&=1+(c-1)+(1-c)+c \\
+&=1+c-1+1-c+c \\
+&=1+c \\
+\end{aligned}
+$$
+よって
+$$
+f(1)\equiv 4 \pmod{7}
+$$
+は
+$$
+1+c\equiv 4 \pmod{7}
+\quad\Longrightarrow\quad
+c\equiv 3 \pmod{7}
+$$
+となる。
+
+次に $f(-1)$ を求める：
+$$
+\begin{aligned}
+f(-1)
+&=(-1)^3+(c-1)(-1)^2+(1-c)(-1)+c \\
+&=-1+(c-1)-1+c+c \\
+&=-1+c-1-1+2c \\
+&=3c-3
+\end{aligned}
+$$
+したがって
+$$
+f(-1)\equiv 2 \pmod{11}
+$$
+は
+$$
+3c-3\equiv 2 \pmod{11}
+\quad\Longrightarrow\quad
+3c\equiv 5 \pmod{11}
+$$
+となる。11 において $3^{-1}\equiv 4$（$3\cdot 4=12\equiv1\pmod{11}$）より，
+$$
+c\equiv 4\cdot 5\equiv 20\equiv 9 \pmod{11}
+$$
+を得る。
+
+以上から
+$$
+c\equiv 3 \pmod{7},\quad c\equiv 9 \pmod{11}
+$$
+を同時にみたす整数 $c$ を，中国剰余定理を用いて求める。  
+$c=3+7k$ とおき，これを $c\equiv 9\pmod{11}$ に代入すると
+$$
+3+7k\equiv 9 \pmod{11}
+\quad\Longrightarrow\quad
+7k\equiv 6 \pmod{11}.
+$$
+11 において $7\equiv -4$ なので
+$$
+-4k\equiv 6 \pmod{11}
+\quad\Longrightarrow\quad
+4k\equiv -6\equiv 5 \pmod{11}.
+$$
+11 において $4^{-1}\equiv 3$（$4\cdot 3=12\equiv1\pmod{11}$）より，
+$$
+k\equiv 3\cdot 5\equiv 15\equiv 4 \pmod{11}
+$$
+となる。したがって $k=4+11m$（$m$ は整数）であり，
+$$
+c=3+7k =3+7(4+11m)=3+28+77m=31+77m
+$$
+と表される。
+
+$c$ の絶対値が 40 以下であるから
+$$
+|31+77m|\le 40
+$$
+をみたす整数 $m$ を調べる。$m=0$ のとき $c=31$，  
+$m=1$ のとき $c=108$（$|108|>40$），  
+$m=-1$ のとき $c=-46$（$| -46 |>40$）であるから，条件をみたすのは  
+$$
+c=31
+$$
+のみである。
+
+このとき (1) の結果より
+$$
+a=c-1=30,\quad b=1-c=-30
+$$
+となるので，
+$$
+f(x)=x^3+30x^2-30x+31
+$$
+である。
+
+(1) で求めた形 $f(x)=(x^2-x+1)(x-r)$ を用いると，$c=-r$ であったから，$c=31$ に対応して
+$$
+r=-31
+$$
+である。したがって
+$$
+f(x)=(x^2-x+1)(x+31)
+$$
+となり，これを展開すると
+$$
+(x^2-x+1)(x+31)
+=x^3+30x^2-30x+31
+$$
+と確かに一致する。
+
+よって $f(x)=0$ の解は
+$$
+x=\omega=\frac{1+\sqrt3\,i}{2},\quad
+x=\overline{\omega}=\frac{1-\sqrt3\,i}{2},\quad
+x=-31
+$$
+の 3 つである。
+
+したがって，条件を満たすとき，方程式 $f(x)=0$ の解は
+$$
+x=-31,\ \frac{1+\sqrt3\,i}{2},\ \frac{1-\sqrt3\,i}{2}
+$$
+である。

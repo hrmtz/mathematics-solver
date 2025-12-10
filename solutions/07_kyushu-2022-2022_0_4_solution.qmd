@@ -1,0 +1,229 @@
+## 解答
+
+(1)  
+
+$f(x),g(x)$ を整式とし，それぞれの原始関数を
+$$
+F'(x)=f(x),\quad G'(x)=g(x)
+$$
+とする．このとき
+$$
+\{F(x)+G(x)\}'=F'(x)+G'(x)
+$$
+が成り立つので，
+$$
+\{F(x)+G(x)\}'=f(x)+g(x)
+$$
+となる．したがって，$f(x)+g(x)$ の原始関数の一つとして $F(x)+G(x)$ をとることができる．
+
+定積分の定義より
+$$
+\int_a^b\{f(x)+g(x)\}dx=(F+G)(b)-(F+G)(a)
+$$
+であるから，
+$$
+(F+G)(b)-(F+G)(a)
+=\{F(b)+G(b)\}-\{F(a)+G(a)\}
+$$
+$$
+=\{F(b)-F(a)\}+\{G(b)-G(a)\}
+=\int_a^bf(x)dx+\int_a^bg(x)dx
+$$
+となる．よって
+$$
+\int_a^b\{f(x)+g(x)\}dx=\int_a^bf(x)dx+\int_a^bg(x)dx
+$$
+が示された．
+
+---
+
+(2)  
+
+$g(x)$ は整式なので微分可能であり，その原始関数 $G(x)$ を
+$$
+G'(x)=g(x)
+$$
+とおく．定積分の定義より
+$$
+\int_a^bg(x)dx=G(b)-G(a)
+$$
+である．
+
+区間 $a\le x\le b$ において $g(x)>0$ であるから，$G'(x)=g(x)>0$ が $a\le x\le b$ で成り立つ．  
+微分係数と増減の関係より，導関数が正である区間では関数は増加するから，$G(x)$ は $[a,b]$ 上で増加関数である．
+
+特に $a<b$ なので
+$$
+G(b)>G(a)
+$$
+が成り立つ．したがって
+$$
+\int_a^bg(x)dx=G(b)-G(a)>0
+$$
+となり，示すべきことが言えた．
+
+---
+
+(3)  
+
+まず，空欄 [ア] に入る性質を考える．  
+下線部には「定積分の性質　[　ア　]　を用い，定数関数に対する定積分の計算を行う」とある．  
+定数倍を外に出す性質を用いて，定数関数の積分を計算しているので，[ア] には線形性の性質 (A) が入る．
+
+次に，不等式 \ding{"AD} を示す．
+
+$f(x)$ は $0\le x\le 1$ 上で増加関数である．  
+$i=1,2,\dots,n$ について区間
+$$
+\frac{i-1}{n}\le x\le \frac{i}{n}
+$$
+を考えると，$f(x)$ が増加関数であるから
+$$
+f\!\left(\frac{i-1}{n}\right)\le f(x)\le f\!\left(\frac{i}{n}\right)
+\quad\left(\frac{i-1}{n}\le x\le \frac{i}{n}\right)
+$$
+が成り立つ．
+
+この両辺の不等式の積分を，区間 $\left[\dfrac{i-1}{n},\dfrac{i}{n}\right]$ でとる．性質 (C)「$g\ge h$ なら積分も $g$ の方が大きい」を用いると，
+$$
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f\!\left(\frac{i-1}{n}\right)dx
+\le \int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)dx
+\le \int_{\frac{i-1}{n}}^{\frac{i}{n}} f\!\left(\frac{i}{n}\right)dx
+$$
+となる．ここで，左辺および右辺は「定数関数の定積分」であるから，性質 (A) の $k$ 倍の形（$kf(x)$ の積分は $k$ を外へ出せる）を用いて計算すると，
+$$
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f\!\left(\frac{i-1}{n}\right)dx
+=f\!\left(\frac{i-1}{n}\right)\int_{\frac{i-1}{n}}^{\frac{i}{n}}1\,dx
+=f\!\left(\frac{i-1}{n}\right)\left(\frac{i}{n}-\frac{i-1}{n}\right)
+=\frac{1}{n}f\!\left(\frac{i-1}{n}\right),
+$$
+同様に
+$$
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f\!\left(\frac{i}{n}\right)dx
+=\frac{1}{n}f\!\left(\frac{i}{n}\right)
+$$
+となる．したがって
+$$
+\frac{1}{n}f\!\left(\frac{i-1}{n}\right)
+\le \int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)dx
+\le \frac{1}{n}f\!\left(\frac{i}{n}\right)
+\quad (i=1,2,\dots,n)
+$$
+が得られる．これが不等式 \ding{"AD} である．
+
+---
+
+(4)  
+
+まず，空欄 [イ] に入る性質を考える．  
+不等式 \ding{"AE} では，$\displaystyle \int_0^1 f(x)dx$ を $n$ 個の小区間に分割した積分と比較している．これは区間分割に関する性質 (B) を用いるものであるから，[イ] には (B) が入る．
+
+つぎに，不等式 \ding{"AE} を示す．
+
+(3) で得た不等式 \ding{"AD}
+$$
+\frac{1}{n}f\!\left(\frac{i-1}{n}\right)
+\le \int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)dx
+\le \frac{1}{n}f\!\left(\frac{i}{n}\right)
+\quad (i=1,2,\dots,n)
+$$
+に対して，$i=1$ から $n$ まで足し合わせる．まず左側と中央を足し合わせると，
+$$
+\sum_{i=1}^n \frac{1}{n}f\!\left(\frac{i-1}{n}\right)
+\le \sum_{i=1}^n \int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)dx
+$$
+となる．左辺は
+$$
+\sum_{i=1}^n \frac{1}{n}f\!\left(\frac{i-1}{n}\right)
+=\frac{1}{n}\sum_{i=1}^n f\!\left(\frac{i-1}{n}\right)
+=S_n
+$$
+である．
+
+一方，右辺は性質 (B)「分割して積分したものの和は，全体を積分したものに等しい」より，
+$$
+\sum_{i=1}^n \int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)dx
+=\int_0^1 f(x)dx
+$$
+となるので，
+$$
+S_n \le \int_0^1 f(x)dx
+$$
+が得られる．これは
+$$
+0\le \int_0^1 f(x)dx - S_n
+$$
+と書き直せる．
+
+同様に，\ding{"AD} の中央と右側を $i=1$ から $n$ まで足し合わせると，
+$$
+\sum_{i=1}^n \int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)dx
+\le \sum_{i=1}^n \frac{1}{n}f\!\left(\frac{i}{n}\right)
+$$
+となり，左辺はさきと同様に性質 (B) より
+$$
+\sum_{i=1}^n \int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)dx
+=\int_0^1 f(x)dx
+$$
+であるから，
+$$
+\int_0^1 f(x)dx
+\le \frac{1}{n}\sum_{i=1}^n f\!\left(\frac{i}{n}\right)
+$$
+を得る．
+
+ここで，
+$$
+\sum_{i=1}^n f\!\left(\frac{i}{n}\right)
+=f(0)+\sum_{i=1}^n f\!\left(\frac{i}{n}\right)-f(0)
+=f(0)+\sum_{i=1}^n \left\{f\!\left(\frac{i}{n}\right)-f\!\left(\frac{i-1}{n}\right)\right\}
+$$
+であり，$f$ は $[0,1]$ 上で増加関数なので，各差
+$$
+f\!\left(\frac{i}{n}\right)-f\!\left(\frac{i-1}{n}\right)\ge 0
+$$
+が成り立つ．したがって，これらの和は $f(1)-f(0)$ を超えないことが分かる：
+$$
+\sum_{i=1}^n \left\{f\!\left(\frac{i}{n}\right)-f\!\left(\frac{i-1}{n}\right)\right\}
+=f(1)-f(0)
+$$
+（これは望ましい形に並べ替えただけである）．よって
+$$
+\sum_{i=1}^n f\!\left(\frac{i}{n}\right)
+=f(0)+f(1)-f(0)=f(1)
+$$
+とはならないので注意を要するが，ここでは次のように評価する：
+
+まず
+$$
+\sum_{i=1}^n \left\{f\!\left(\frac{i}{n}\right)-f\!\left(\frac{i-1}{n}\right)\right\}
+=f(1)-f(0)
+$$
+であるから，
+$$
+\frac{1}{n}\sum_{i=1}^n f\!\left(\frac{i}{n}\right)
+=\frac{1}{n}\sum_{i=1}^n f\!\left(\frac{i-1}{n}\right)
++\frac{1}{n}\sum_{i=1}^n \left\{f\!\left(\frac{i}{n}\right)-f\!\left(\frac{i-1}{n}\right)\right\}
+$$
+$$
+= S_n + \frac{f(1)-f(0)}{n}
+$$
+となる．よって
+$$
+\int_0^1 f(x)dx
+\le \frac{1}{n}\sum_{i=1}^n f\!\left(\frac{i}{n}\right)
+= S_n + \frac{f(1)-f(0)}{n}
+$$
+から
+$$
+\int_0^1 f(x)dx - S_n
+\le \frac{f(1)-f(0)}{n}
+$$
+が得られる．
+
+以上をまとめると
+$$
+0\le \int_0^1 f(x)dx - S_n
+\le \frac{f(1)-f(0)}{n}
+$$
+が示された．これが不等式 \ding{"AE} である．

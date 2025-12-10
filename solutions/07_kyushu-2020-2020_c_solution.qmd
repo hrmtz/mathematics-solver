@@ -1,0 +1,259 @@
+## 解答
+
+(1)  
+点 $Q$ は線分 $OB$ 上にあるから，$Q$ の座標を  
+$$
+Q(0,\,t,\,0)\quad(0\le t\le r)
+$$
+とおく。
+
+点 $C\left(a,\,\dfrac{1}{2}r,\,c\right)$ に対して，線分 $AC$ の中点 $P$ の座標は  
+$$
+A(r,0,0),\ C\left(a,\,\dfrac12 r,\,c\right)
+$$
+より，中点の公式から
+$$
+P\left(\dfrac{r+a}{2},\ \dfrac{0+\frac12 r}{2},\ \dfrac{0+c}{2}\right)
+=\left(\dfrac{r+a}{2},\ \dfrac14 r,\ \dfrac{c}{2}\right)
+$$
+となる。
+
+$\overrightarrow{PQ}$ の成分は
+$$
+\overrightarrow{PQ}
+=Q-P
+=\left(0-\dfrac{r+a}{2},\ t-\dfrac14 r,\ 0-\dfrac{c}{2}\right)
+=\left(-\dfrac{r+a}{2},\ t-\dfrac14 r,\ -\dfrac{c}{2}\right)
+$$
+であるから，
+その長さの二乗は
+$$
+|\overrightarrow{PQ}|^2
+=\left(-\dfrac{r+a}{2}\right)^2+\left(t-\dfrac14 r\right)^2+\left(-\dfrac{c}{2}\right)^2
+$$
+$$
+=\dfrac{(r+a)^2}{4}+\left(t-\dfrac14 r\right)^2+\dfrac{c^2}{4}.
+$$
+
+ここで $a,c,r$ は定数なので，$|\overrightarrow{PQ}|^2$ を $t$ の関数とみると，可変なのは  
+$\left(t-\dfrac14 r\right)^2$ のみである。二次関数 $\left(t-\dfrac14 r\right)^2$ は  
+$t=\dfrac14 r$ のとき最小値 $0$ をとるから，
+$$
+t=\dfrac14 r
+$$
+のとき $|\overrightarrow{PQ}|$ が最小となる。ただし $0\le t\le r$ なので，$t=\dfrac14 r$ は許される。
+
+したがって，$|\overrightarrow{PQ}|$ を最小とする点 $Q$ の座標は
+$$
+Q\left(0,\ \dfrac14 r,\ 0\right)
+$$
+である。
+
+このときの最小値は
+$$
+|\overrightarrow{PQ}|_{\min}^2
+=\dfrac{(r+a)^2}{4}+0+\dfrac{c^2}{4}
+=\dfrac{(r+a)^2+c^2}{4}
+$$
+なので，
+$$
+|\overrightarrow{PQ}|_{\min}
+=\dfrac12\sqrt{(r+a)^2+c^2}
+$$
+となる。
+
+---
+
+(2)  
+(1) で求めた点 $Q$ は
+$$
+Q\left(0,\ \dfrac14 r,\ 0\right)
+$$
+であった。
+
+改めて  
+$$
+P\left(\dfrac{r+a}{2},\ \dfrac14 r,\ \dfrac{c}{2}\right),\quad
+Q\left(0,\ \dfrac14 r,\ 0\right),\quad
+O(0,0,0)
+$$
+とおく。
+
+すると，
+$$
+\overrightarrow{PQ}
+=Q-P
+=\left(-\dfrac{r+a}{2},\ 0,\ -\dfrac{c}{2}\right),
+$$
+$$
+\overrightarrow{OQ}
+=Q-O
+=\left(0,\ \dfrac14 r,\ 0\right)
+$$
+である。
+
+2つのベクトルの内積を求めると，
+$$
+\overrightarrow{PQ}\cdot\overrightarrow{OQ}
+=\left(-\dfrac{r+a}{2}\right)\cdot 0
++0\cdot\dfrac14 r
++\left(-\dfrac{c}{2}\right)\cdot 0
+=0
+$$
+となる。
+
+一般に，2つのベクトルの内積が $0$ のとき，それらは直交し，なす角は $90^\circ$ であるから，
+$$
+\overrightarrow{PQ}\perp\overrightarrow{OQ}
+$$
+すなわち，$\overrightarrow{PQ}$ と $\overrightarrow{OQ}$ のなす角は $90^\circ$ である。
+
+---
+
+(3)  
+条件 $|\overrightarrow{OA}|=|\overrightarrow{BC}|$ を用いる。  
+$$
+|\overrightarrow{OA}|=r
+$$
+であり，$B(0,r,0)$，$C\left(a,\dfrac12 r,c\right)$ だから
+$$
+\overrightarrow{BC}
+=\left(a-0,\ \dfrac12 r-r,\ c-0\right)
+=\left(a,\ -\dfrac12 r,\ c\right)
+$$
+であり，
+$$
+|\overrightarrow{BC}|^2=a^2+\left(-\dfrac12 r\right)^2+c^2
+=a^2+\dfrac14 r^2+c^2.
+$$
+よって $|\overrightarrow{BC}|=r$ は
+$$
+a^2+\dfrac14 r^2+c^2=r^2
+$$
+と同値であり，整理すると
+$$
+a^2+c^2=\dfrac34 r^2
+$$
+を得る。したがって，点 $C$ は $xy$ 平面と平行な平面 $y=\dfrac12 r$ 上にあり，かつ $xz$ 平面内で原点中心半径 $\sqrt{\dfrac34}\,r$ の円上を動くことになる。
+
+(1)(2) から，$C$ がどう動いても，$Q$ は常に
+$$
+Q\left(0,\ \dfrac14 r,\ 0\right)
+$$
+に固定されることと，$OQ$ と $PQ$ が直交することがわかっている。
+
+四面体 $OCPQ$ の体積 $V$ を求める。  
+四面体の体積は，底面積と高さを用いて
+$$
+V=\dfrac13\cdot(\text{底面積})\cdot(\text{高さ})
+$$
+と表される。ここでは三角形 $OPQ$ を底面，点 $C$ から平面 $OPQ$ への距離を高さとみなす。
+
+まず，底面三角形 $OPQ$ の面積を求める。  
+$$
+O(0,0,0),\quad P\left(\dfrac{r+a}{2},\ \dfrac14 r,\ \dfrac{c}{2}\right),\quad
+Q\left(0,\ \dfrac14 r,\ 0\right)
+$$
+なので，
+$$
+\overrightarrow{OP}
+=\left(\dfrac{r+a}{2},\ \dfrac14 r,\ \dfrac{c}{2}\right),\quad
+\overrightarrow{OQ}
+=\left(0,\ \dfrac14 r,\ 0\right)
+$$
+である。三角形 $OPQ$ の面積は
+$$
+S_{\triangle OPQ}
+=\dfrac12\,|\overrightarrow{OP}\times\overrightarrow{OQ}|
+$$
+で求められる。
+
+外積を計算する：
+$$
+\overrightarrow{OP}\times\overrightarrow{OQ}
+=
+\begin{vmatrix}
+\boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k} \\
+\dfrac{r+a}{2} & \dfrac14 r & \dfrac{c}{2} \\
+0 & \dfrac14 r & 0
+\end{vmatrix}
+=\boldsymbol{i}\left(\dfrac14 r\cdot 0-\dfrac{c}{2}\cdot\dfrac14 r\right)
+-\boldsymbol{j}\left(\dfrac{r+a}{2}\cdot 0-0\cdot\dfrac{c}{2}\right)
++\boldsymbol{k}\left(\dfrac{r+a}{2}\cdot\dfrac14 r-0\cdot\dfrac14 r\right)
+$$
+$$
+=\left(-\dfrac{cr}{8},\ 0,\ \dfrac{(r+a)r}{8}\right).
+$$
+その大きさは
+$$
+|\overrightarrow{OP}\times\overrightarrow{OQ}|
+=\sqrt{\left(-\dfrac{cr}{8}\right)^2+\left(\dfrac{(r+a)r}{8}\right)^2}
+=\dfrac{r}{8}\sqrt{c^2+(r+a)^2}.
+$$
+したがって
+$$
+S_{\triangle OPQ}
+=\dfrac12\,|\overrightarrow{OP}\times\overrightarrow{OQ}|
+=\dfrac{r}{16}\sqrt{c^2+(r+a)^2}.
+$$
+
+次に，高さを求める。平面 $OPQ$ は $\overrightarrow{OP}$ と $\overrightarrow{OQ}$ を含むから，
+その法線ベクトルとして $\overrightarrow{OP}\times\overrightarrow{OQ}$ を用いることができる。
+点 $C\left(a,\dfrac12 r,c\right)$ から原点を通る平面 $OPQ$ までの距離 $h$ は，
+原点を通る平面に対する距離の公式より
+$$
+h=\dfrac{\left|\overrightarrow{n}\cdot\overrightarrow{OC}\right|}{|\overrightarrow{n}|}
+\quad(\overrightarrow{n}=\overrightarrow{OP}\times\overrightarrow{OQ})
+$$
+で与えられる。ここで
+$$
+\overrightarrow{OC}=(a,\ \dfrac12 r,\ c),\quad
+\overrightarrow{n}=\left(-\dfrac{cr}{8},\ 0,\ \dfrac{(r+a)r}{8}\right)
+$$
+であるから，
+$$
+\overrightarrow{n}\cdot\overrightarrow{OC}
+=-\dfrac{cr}{8}\cdot a+0\cdot\dfrac12 r+\dfrac{(r+a)r}{8}\cdot c
+=\dfrac{cr}{8}(-a+r+a)
+=\dfrac{cr^2}{8}.
+$$
+したがって
+$$
+h=\dfrac{\left|\dfrac{cr^2}{8}\right|}{\dfrac{r}{8}\sqrt{c^2+(r+a)^2}}
+=\dfrac{r|c|}{\sqrt{c^2+(r+a)^2}}.
+$$
+ここで $c>0$ だから絶対値は外してよく，
+$$
+h=\dfrac{rc}{\sqrt{c^2+(r+a)^2}}.
+$$
+
+ゆえに，四面体 $OCPQ$ の体積 $V$ は
+$$
+V=\dfrac13\,S_{\triangle OPQ}\,h
+=\dfrac13\cdot\dfrac{r}{16}\sqrt{c^2+(r+a)^2}\cdot
+\dfrac{rc}{\sqrt{c^2+(r+a)^2}}
+=\dfrac{r^2c}{48}.
+$$
+
+ここで条件 $a^2+c^2=\dfrac34 r^2$ があるが，
+$V=\dfrac{r^2c}{48}$ は $a$ に依存せず $c$ のみで表されている。  
+したがって，体積を最大にするには，$c$ を最大にすればよい。
+
+条件 $a^2+c^2=\dfrac34 r^2$ のもとで $c>0$ を最大にするには $a=0$ とすればよく，
+そのとき
+$$
+c^2=\dfrac34 r^2\quad\Rightarrow\quad c=\dfrac{\sqrt3}{2}r
+$$
+（$c>0$ より正の平方根をとる）。
+
+よって，体積が最大となる点 $C$ の座標は
+$$
+C\left(0,\ \dfrac12 r,\ \dfrac{\sqrt3}{2}r\right)
+$$
+であり，そのときの体積は
+$$
+V_{\max}
+=\dfrac{r^2}{48}\cdot\dfrac{\sqrt3}{2}r
+=\dfrac{\sqrt3}{96}r^3
+$$
+となる。

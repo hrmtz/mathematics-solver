@@ -1,0 +1,219 @@
+## 解答
+
+(1)  
+直線 $l:x+y=0$ に点 $P(x,\sin x)$ から下ろした垂線の足を $R$ とし，その垂線と $x$ 軸との交点を $Q$ とする．
+
+まず，点 $P$ から直線 $l:x+y=0$ に下ろした垂線の長さ $PR$ を求める．  
+一般に，点 $(x_0,y_0)$ と直線 $ax+by+c=0$ の距離は  
+$$
+\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}
+$$
+で与えられる．
+
+ここで $P(x,\sin x)$，直線 $l$ は $x+y=0$ すなわち $x+y+0=0$ だから，
+$$
+PR=\frac{|x+\sin x|}{\sqrt{1^2+1^2}}
+=\frac{|x+\sin x|}{\sqrt{2}}.
+$$
+
+次に，垂線 $PR$ は直線 $l$ に垂直であるから，その傾きは $l$ の傾き $-1$ の逆数の $1$ となる．  
+よって $P$ を通り傾き $1$ の直線の方程式は
+$$
+y-\sin x = 1\,(x - x)
+$$
+すなわち
+$$
+y = \sin x
+$$
+となる．したがって，垂線 $PR$ は，$x$ 軸との交点 $Q$ を通るまで一直線に下ろしたときも同じ傾き $1$ を保つから，$P$ と $Q$ を結ぶ直線 $PQ$ も傾き $1$ の直線である．
+
+点 $Q$ は $x$ 軸上の点なので $y=0$ であり，$PQ$ の傾きが $1$ であることから
+$$
+\frac{0-\sin x}{x_Q - x}=1
+$$
+より
+$$
+x_Q - x = -\sin x \quad\Rightarrow\quad x_Q = x - \sin x.
+$$
+したがって $Q(x-\sin x,\,0)$ である．
+
+このとき，線分 $PQ$ を直線 $l$ のまわりに1回転させてできる図形の面積は，いわゆる「トーラスの母線」であり，回転軸から線分 $PQ$ までの距離を半径とする円を，線分 $PQ$ の長さ分だけ並べたものとみなせる．したがって，その面積は
+$$
+\pi\,(PR)^2
+$$
+に等しい．
+
+よって，求める面積 $S(x)$ は
+$$
+S(x)=\pi\left(\frac{|x+\sin x|}{\sqrt{2}}\right)^2
+= \frac{\pi}{2}(x+\sin x)^2.
+$$
+
+以上より，求める面積は
+$$
+\frac{\pi}{2}(x+\sin x)^2
+$$
+である．
+
+---
+
+(2)  
+回転体 $V_n$ の体積は，$x$ を $(n-1)\pi$ から $n\pi$ まで動かしたとき，その各 $x$ における線分 $PQ$ を $l$ のまわりに回転してできる面積を積分したものに等しい．すなわち，
+$$
+V_n = \int_{(n-1)\pi}^{n\pi} S(x)\,dx
+= \int_{(n-1)\pi}^{n\pi} \frac{\pi}{2}(x+\sin x)^2\,dx.
+$$
+
+これを計算する．まず展開して，
+$$
+(x+\sin x)^2 = x^2 + 2x\sin x + \sin^2 x
+$$
+なので
+$$
+V_n = \frac{\pi}{2}\int_{(n-1)\pi}^{n\pi}\bigl(x^2 + 2x\sin x + \sin^2 x\bigr)\,dx.
+$$
+
+積分を3つに分けると
+$$
+V_n = \frac{\pi}{2}\left\{\int_{(n-1)\pi}^{n\pi}x^2\,dx
++ 2\int_{(n-1)\pi}^{n\pi}x\sin x\,dx
++ \int_{(n-1)\pi}^{n\pi}\sin^2 x\,dx\right\}.
+$$
+
+順に計算する．
+
+1つ目：
+$$
+\int_{(n-1)\pi}^{n\pi} x^2\,dx
+= \left[\frac{x^3}{3}\right]_{(n-1)\pi}^{n\pi}
+= \frac{(n\pi)^3 - \{(n-1)\pi\}^3}{3}
+= \frac{\pi^3}{3}\bigl(n^3 - (n-1)^3\bigr).
+$$
+ここで
+$$
+n^3 - (n-1)^3 = n^3 - (n^3 -3n^2+3n-1)
+= 3n^2 -3n +1
+$$
+だから
+$$
+\int_{(n-1)\pi}^{n\pi} x^2\,dx
+= \frac{\pi^3}{3}(3n^2 -3n +1)
+= \pi^3\left(n^2 - n + \frac{1}{3}\right).
+$$
+
+2つ目は部分積分を用いる．
+$$
+\int x\sin x\,dx
+= -x\cos x + \int\cos x\,dx
+= -x\cos x + \sin x.
+$$
+したがって
+$$
+\int_{(n-1)\pi}^{n\pi} x\sin x\,dx
+= \left[-x\cos x + \sin x\right]_{(n-1)\pi}^{n\pi}.
+$$
+$x=n\pi$ のとき
+$$
+-x\cos x + \sin x = -n\pi\cos(n\pi) + \sin(n\pi)
+= -n\pi(-1)^n + 0
+= -n\pi(-1)^n.
+$$
+$x=(n-1)\pi$ のとき
+$$
+-x\cos x + \sin x
+= -(n-1)\pi\cos\{(n-1)\pi\} + \sin\{(n-1)\pi\}.
+$$
+ここで $n$ は奇数なので $n-1$ は偶数であり，よって
+$$
+\cos\{(n-1)\pi\} = 1,\quad \sin\{(n-1)\pi\} = 0
+$$
+である．したがって
+$$
+-(n-1)\pi\cos\{(n-1)\pi\} + \sin\{(n-1)\pi\}
+= -(n-1)\pi.
+$$
+ゆえに
+$$
+\int_{(n-1)\pi}^{n\pi} x\sin x\,dx
+= -n\pi(-1)^n - \bigl(-(n-1)\pi\bigr)
+= -n\pi(-1)^n + (n-1)\pi.
+$$
+
+$n$ は奇数なので $(-1)^n=-1$ であり，
+$$
+-n\pi(-1)^n = -n\pi(-1) = n\pi
+$$
+だから
+$$
+\int_{(n-1)\pi}^{n\pi} x\sin x\,dx
+= n\pi + (n-1)\pi
+= (2n-1)\pi.
+$$
+
+したがって
+$$
+2\int_{(n-1)\pi}^{n\pi} x\sin x\,dx
+= 2(2n-1)\pi.
+$$
+
+3つ目：
+三角恒等式 $\sin^2 x = \dfrac{1-\cos 2x}{2}$ を用いると
+$$
+\int_{(n-1)\pi}^{n\pi} \sin^2 x\,dx
+= \int_{(n-1)\pi}^{n\pi} \frac{1-\cos 2x}{2}\,dx
+= \frac{1}{2}\int_{(n-1)\pi}^{n\pi}1\,dx
+- \frac{1}{2}\int_{(n-1)\pi}^{n\pi}\cos 2x\,dx.
+$$
+ここで
+$$
+\int_{(n-1)\pi}^{n\pi}1\,dx = n\pi - (n-1)\pi = \pi,
+$$
+また
+$$
+\int\cos 2x\,dx = \frac{1}{2}\sin 2x
+$$
+より
+$$
+\int_{(n-1)\pi}^{n\pi}\cos 2x\,dx
+= \left[\frac{1}{2}\sin 2x\right]_{(n-1)\pi}^{n\pi}
+= \frac{1}{2}\bigl(\sin 2n\pi - \sin\{2(n-1)\pi\}\bigr)
+= 0.
+$$
+したがって
+$$
+\int_{(n-1)\pi}^{n\pi}\sin^2 x\,dx
+= \frac{1}{2}\cdot \pi - \frac{1}{2}\cdot 0
+= \frac{\pi}{2}.
+$$
+
+以上をまとめると
+$$
+V_n = \frac{\pi}{2}\left\{
+\pi^3\left(n^2 - n + \frac{1}{3}\right)
++ 2(2n-1)\pi
++ \frac{\pi}{2}
+\right\}.
+$$
+
+$\pi$ をくくり出すと
+$$
+V_n = \frac{\pi^2}{2}\left\{
+\pi^2\left(n^2 - n + \frac{1}{3}\right)
++ 2(2n-1)
++ \frac{1}{2}
+\right\}.
+$$
+
+括弧内を整理する．
+$$
+2(2n-1)+\frac{1}{2} = 4n -2 + \frac{1}{2} = 4n - \frac{3}{2},
+$$
+よって
+$$
+V_n = \frac{\pi^2}{2}\left\{
+\pi^2\left(n^2 - n + \frac{1}{3}\right)
++ 4n - \frac{3}{2}
+\right\}.
+$$
+
+これが，$n$ を用いて表した回転体 $V_n$ の体積である．

@@ -1,0 +1,184 @@
+## 解答
+
+(1)  
+部分積分を用いる。  
+$I(m+1,\,n+1)=\displaystyle\int_1^ex^{m+1}e^x(\log x)^{n+1}dx$ において  
+$$
+u=(\log x)^{n+1},\quad dv=x^{m+1}e^xdx
+$$
+とおく。
+
+まず $dv=x^{m+1}e^xdx$ を積分して $v$ を求める。  
+$$
+\int x^{m+1}e^x dx
+$$
+に再び部分積分を用いる。  
+$$
+u_1=x^{m+1},\quad dv_1=e^x dx
+$$
+とおけば，$du_1=(m+1)x^m dx,\ v_1=e^x$ だから
+$$
+\int x^{m+1}e^x dx = x^{m+1}e^x - \int (m+1)x^m e^x dx
+= x^{m+1}e^x - (m+1)\int x^m e^x dx.
+$$
+したがって
+$$
+v = x^{m+1}e^x - (m+1)\int x^m e^x dx
+$$
+となる。
+
+以上を $I(m+1,\,n+1)$ の部分積分に代入すると
+$$
+\begin{aligned}
+I(m+1,\,n+1)
+&=\int_1^e x^{m+1}e^x(\log x)^{n+1}dx\\
+&= \Bigl[x^{m+1}e^x(\log x)^{n+1}\Bigr]_1^e
+ -(m+1)\int_1^e\Bigl(\int x^m e^x dx\Bigr)(\log x)^{n+1}\,dx
+ -(n+1)\int_1^e x^{m+1}e^x(\log x)^n\frac{1}{x}dx.
+\end{aligned}
+$$
+
+ここで境界値を計算する。$x=1$ では $\log 1=0$ より $0$，$x=e$ では $x^{m+1}e^x=e^{m+2},\ \log e=1$ より
+$$
+\Bigl[x^{m+1}e^x(\log x)^{n+1}\Bigr]_1^e = e^{m+2}.
+$$
+
+また第3項は
+$$
+-(n+1)\int_1^e x^{m+1}e^x(\log x)^n\frac{1}{x}dx
+=-(n+1)\int_1^e x^m e^x(\log x)^n dx
+=-(n+1)I(m,\,n)
+$$
+となる。
+
+さらに，第2項に現れる $\displaystyle\int x^m e^x dx$ に対しても部分積分
+$$
+u_2=x^m,\quad dv_2=e^x dx
+$$
+を用いると
+$$
+\int x^m e^x dx = x^m e^x - m\int x^{m-1}e^x dx
+$$
+であるが，これは不定積分であり，$I(m,\,n)$ や $I(m,\,n+1)$ を直接含んでいない。  
+そこで別の方針をとる。
+
+$I(m,\,n+1)$ に対して，先ほどと同様に
+$$
+I(m,\,n+1)=\int_1^e x^m e^x(\log x)^{n+1}dx
+$$
+で部分積分を行う。  
+$$
+u=(\log x)^{n+1},\quad dv=x^m e^x dx
+$$
+とおき，$dv$ の不定積分を再び
+$$
+u_1=x^m,\quad dv_1=e^x dx
+$$
+により求めると
+$$
+\int x^m e^x dx = x^m e^x - m\int x^{m-1}e^x dx
+$$
+であるが，やはり不定積分の形が複雑になる。  
+
+そこで，別の形の部分積分を行う。  
+$I(m+1,\,n+1)$ について
+$$
+u = x^{m+1}(\log x)^{n+1},\quad dv = e^x dx
+$$
+とおく。このとき
+$$
+du = \Bigl((m+1)x^m(\log x)^{n+1} + (n+1)x^m(\log x)^n\Bigr)dx,\quad v=e^x
+$$
+なので
+$$
+\begin{aligned}
+I(m+1,\,n+1)
+&=\int_1^e x^{m+1}e^x(\log x)^{n+1}dx\\
+&=\int_1^e u\,dv\\
+&=\Bigl[x^{m+1}(\log x)^{n+1}e^x\Bigr]_1^e
+ -\int_1^e e^x\Bigl((m+1)x^m(\log x)^{n+1} + (n+1)x^m(\log x)^n\Bigr)dx.
+\end{aligned}
+$$
+
+境界値は先ほどと同様に $x=1$ で $0$，$x=e$ で $e^{m+2}$ だから
+$$
+\Bigl[x^{m+1}(\log x)^{n+1}e^x\Bigr]_1^e = e^{m+2}.
+$$
+また積分の部分は
+$$
+\int_1^e e^x (m+1)x^m(\log x)^{n+1}dx = (m+1)I(m,\,n+1),
+$$
+$$
+\int_1^e e^x (n+1)x^m(\log x)^n dx = (n+1)I(m,\,n)
+$$
+と書けるので
+$$
+I(m+1,\,n+1)
+= e^{m+2} - (m+1)I(m,\,n+1) - (n+1)I(m,\,n)
+$$
+を得る。
+
+従って求める関係式は
+$$
+\boxed{\,I(m+1,\,n+1)=e^{m+2}-(m+1)I(m,\,n+1)-(n+1)I(m,\,n)\,}
+$$
+である。
+
+---
+
+(2)  
+$I(m,\,n)$ の定義より
+$$
+I(m,\,n)=\int_1^e x^m e^x(\log x)^n dx
+$$
+である。区間 $[1,e]$ で $x^m e^x$ は連続で有界であるから，ある定数 $K>0$ が存在して
+$$
+x^m e^x \le K\quad (1\le x\le e)
+$$
+とおける。
+
+また，$1\le x\le e$ では $0\le \log x\le 1$ なので
+$$
+0\le (\log x)^n \le 1^n =1\quad (1\le x\le e)
+$$
+が成り立つ。したがって
+$$
+0\le I(m,\,n)=\int_1^e x^m e^x(\log x)^n dx
+\le \int_1^e K(\log x)^n dx = K\int_1^e (\log x)^n dx
+$$
+である。
+
+ここで $\displaystyle\int_1^e (\log x)^n dx$ を評価する。  
+$1\le x<e$ では $0\le \log x<1$ より $(\log x)^n\to 0$ $(n\to\infty)$ であり，また $\log x\le 1$ なので $0\le (\log x)^n\le 1$ が成り立つ。被積分関数は $[1,e]$ 上で一様に有界であり，区間の長さも有限なので，支配収束定理を用いなくとも，次のように評価できる。
+
+$0\le (\log x)^n\le 1$ より
+$$
+0\le \int_1^e (\log x)^n dx \le \int_1^e 1\,dx = e-1
+$$
+である。一方，$\log x<1$ である $[1,e)$ 上では $(\log x)^n\to 0$ なので，直感的に $n\to\infty$ で面積が $0$ に縮むことが期待される。これを厳密に示すために，任意の $\varepsilon>0$ を与えて評価する。
+
+$[1,e)$ で $\log x<1$ だから，ある $a$ を $1<a<e$ ととり，$1\le x\le a$ では $0\le \log x\le \log a<1$ である。すると
+$$
+0\le \int_1^e(\log x)^n dx 
+= \int_1^a(\log x)^n dx + \int_a^e(\log x)^n dx
+\le (a-1)(\log a)^n + (e-a)\cdot 1^n.
+$$
+ここで $(\log a)^n\to 0$ $(n\to\infty)$ なので，十分大きな $n$ に対して $(a-1)(\log a)^n<\varepsilon/2$ とできる。また $a$ を $e$ に近くとって $(e-a)<\varepsilon/2$ とすれば，その $a$ に対し
+$$
+\int_1^e(\log x)^n dx < \varepsilon
+$$
+が成り立つ。よって
+$$
+\lim_{n\to\infty}\int_1^e(\log x)^n dx = 0
+$$
+である。
+
+以上より
+$$
+0\le I(m,\,n)\le K\int_1^e(\log x)^n dx \xrightarrow[n\to\infty]{} 0
+$$
+であるから，はさみうちの原理より
+$$
+\boxed{\;\lim_{n\to\infty}I(m,\,n)=0\;}
+$$
+がすべての自然数 $m$ に対して成り立つ。

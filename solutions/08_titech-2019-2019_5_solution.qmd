@@ -1,0 +1,224 @@
+## 解答
+
+(1)  
+
+関数  
+$$
+f(x)=(x+1)\log\left(1+\frac1x\right)
+$$
+を考える．$x>0$で単調減少であることを示すために，導関数 $f'(x)$ の符号を調べる．
+
+まず
+$$
+f(x)=(x+1)\log\left(\frac{x+1}{x}\right)
+$$
+と書けるので，積の微分を用いると
+$$
+f'(x)=1\cdot\log\left(1+\frac1x\right)+(x+1)\cdot\frac{d}{dx}\left[\log\left(1+\frac1x\right)\right]
+$$
+である．
+
+ここで
+$$
+\log\left(1+\frac1x\right)
+=\log\left(\frac{x+1}{x}\right)
+$$
+だから，合成関数の微分より
+$$
+\frac{d}{dx}\log\left(\frac{x+1}{x}\right)
+=\frac{1}{\frac{x+1}{x}}\cdot\frac{d}{dx}\left(\frac{x+1}{x}\right)
+=\frac{x}{x+1}\cdot\left(-\frac{1}{x^2}\right)
+=-\frac{1}{x(x+1)}
+$$
+となる．したがって
+$$
+f'(x)=\log\left(1+\frac1x\right)+(x+1)\left(-\frac{1}{x(x+1)}\right)
+=\log\left(1+\frac1x\right)-\frac{1}{x}.
+$$
+
+よって
+$$
+f'(x)
+=\log\left(1+\frac1x\right)-\frac1x
+$$
+である．ここで $t=\frac1x\,(>0)$ とおくと
+$$
+f'(x)=\log(1+t)-t.
+$$
+一般に，$t>0$ に対して
+$$
+\log(1+t)<t
+$$
+（すなわち $\log(1+t)-t<0$）が成り立つことは，指数関数と対数関数の基本的不等式として知られている（例えば，凸性や接線の位置関係から示される）．したがって
+$$
+f'(x)<0\quad(x>0)
+$$
+が従う．
+
+よって $x>0$ において $f(x)$ は減少関数である．
+
+---
+
+(2)  
+
+与えられた定数は
+$$
+a=\frac{2^8}{3^4}
+$$
+であり，数列 $\{b_k\}$ は
+$$
+b_k=\frac{(k+1)^{k+1}}{a^k k!}\qquad(k=1,2,3,\dots)
+$$
+で定義される．項の比
+$$
+\frac{b_{k+1}}{b_k}
+$$
+の符号（1 を超えるかどうか）を調べて，単調性と最大値を判定する．
+
+まず
+$$
+b_{k+1}=\frac{(k+2)^{k+2}}{a^{k+1}(k+1)!}
+$$
+なので
+$$
+\frac{b_{k+1}}{b_k}
+=\frac{(k+2)^{k+2}}{a^{k+1}(k+1)!}\cdot\frac{a^k k!}{(k+1)^{k+1}}
+=\frac{(k+2)^{k+2}}{a(k+1)(k+1)^{k+1}}.
+$$
+よって
+$$
+\frac{b_{k+1}}{b_k}
+=\frac{1}{a}\cdot\frac{(k+2)^{k+2}}{(k+1)^{k+2}}
+=\frac{1}{a}\left(1+\frac{1}{k+1}\right)^{k+2}.
+$$
+
+ここで，(1) で扱った関数
+$$
+f(x)=(x+1)\log\left(1+\frac{1}{x}\right)
+$$
+を用いるために，$x=k+1$ とおく．すると
+$$
+\left(1+\frac{1}{k+1}\right)^{k+2}
+=\exp\left((k+2)\log\left(1+\frac{1}{k+1}\right)\right)
+=\exp\bigl(f(k+1)\bigr)
+$$
+である．したがって
+$$
+\frac{b_{k+1}}{b_k}
+=\frac{1}{a}\exp\bigl(f(k+1)\bigr).
+$$
+
+一方，$x>0$ で $f(x)$ は減少し，$x=3$ のとき
+$$
+f(3)
+=4\log\left(1+\frac13\right)
+=4\log\frac43
+=4\left(\log 4-\log 3\right)
+=4\left(2\log 2-\log 3\right)
+=8\log 2-4\log 3
+=\log\frac{2^8}{3^4}
+=\log a
+$$
+となる．$f$ が減少関数であるから，
+$$
+\begin{cases}
+x<3 \;\Longrightarrow\; f(x)>\log a,\\[2mm]
+x>3 \;\Longrightarrow\; f(x)<\log a
+\end{cases}
+$$
+が成り立つ．特に $x=k+1$ として，
+$$
+\begin{cases}
+k+1<3\;\,(k<2)\;\Longrightarrow\; f(k+1)>\log a,\\[2mm]
+k+1>3\;\,(k>2)\;\Longrightarrow\; f(k+1)<\log a
+\end{cases}
+$$
+となる．
+
+これを用いて項比の大小を調べる．
+
+まず $k=1$ のとき，$k+1=2<3$ より
+$$
+f(2)>\log a
+\quad\Longrightarrow\quad
+\exp(f(2))>a
+\quad\Longrightarrow\quad
+\frac{b_2}{b_1}
+=\frac{1}{a}\exp(f(2))>1.
+$$
+
+次に $k=2$ のときは，$k+1=3$ なので $f(3)=\log a$ を用いて
+$$
+\frac{b_3}{b_2}
+=\frac{1}{a}\exp(f(3))
+=\frac{1}{a}\cdot a
+=1.
+$$
+
+さらに $k\ge3$ のときは $k+1>3$ より
+$$
+f(k+1)<\log a
+\quad\Longrightarrow\quad
+\exp(f(k+1))<a
+\quad\Longrightarrow\quad
+\frac{b_{k+1}}{b_k}
+=\frac{1}{a}\exp(f(k+1))<1.
+$$
+
+以上から
+$$
+b_2>b_1,\quad
+b_3=b_2,\quad
+b_{k+1}<b_k\ (k\ge3)
+$$
+が分かる．すなわち数列 $\{b_k\}$ は
+$$
+b_1<b_2=b_3>b_4>b_5>\cdots
+$$
+という形になり，第2項と第3項が最大であることが分かる．
+
+したがって，最大値 $M$ は $b_2$（あるいは $b_3$）の値である．
+
+実際に $b_2$ を計算する．
+$$
+b_2=\frac{3^3}{a^2\cdot2!}
+=\frac{27}{a^2\cdot2}.
+$$
+ここで
+$$
+a^2=\left(\frac{2^8}{3^4}\right)^2=\frac{2^{16}}{3^8}
+$$
+なので
+$$
+b_2
+=\frac{27}{2\cdot\frac{2^{16}}{3^8}}
+=\frac{27\cdot3^8}{2\cdot2^{16}}
+=\frac{3^{11}}{2^{17}}.
+$$
+一方，$b_3$ についても確認しておく．
+$$
+b_3=\frac{4^4}{a^3\cdot3!}
+=\frac{256}{a^3\cdot6},
+$$
+また
+$$
+a^3=\left(\frac{2^8}{3^4}\right)^3=\frac{2^{24}}{3^{12}}
+$$
+だから
+$$
+b_3=\frac{256}{6\cdot\frac{2^{24}}{3^{12}}}
+=\frac{256\cdot3^{12}}{6\cdot2^{24}}
+=\frac{2^8\cdot3^{12}}{2\cdot3\cdot2^{24}}
+=\frac{3^{11}}{2^{17}}
+$$
+となり，確かに $b_3=b_2$ である．
+
+よって，数列 $\{b_k\}$ の項の最大値は
+$$
+M=\frac{3^{11}}{2^{17}}
+$$
+であり，$b_k=M$ となる $k$ は
+$$
+k=2,\ 3
+$$
+である．

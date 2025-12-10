@@ -1,0 +1,265 @@
+## 解答
+
+(1)  
+$\displaystyle \alpha=\frac{1+\sqrt3\,i}{2}$ とおくと，$\alpha=\cos\frac{\pi}{3}+i\sin\frac{\pi}{3}$ なので  
+$\alpha$ は $z^6-1=0$ の解であり，かつ $\alpha\neq1$ なので $\alpha$ は  
+$z^2-z+1=0$ の解である。したがって
+$$
+\alpha^2=\alpha-1
+$$
+が成り立つ。
+
+したがって $f(\alpha)=0$ という条件から
+$$
+f(\alpha)=\alpha^4+a\alpha^3+b\alpha^2+c\alpha+d=0
+$$
+に $\alpha^2=\alpha-1$ を用いて順に次数を下げていく。
+
+まず
+$$
+\alpha^2=\alpha-1
+$$
+より
+$$
+\alpha^3=\alpha\alpha^2=\alpha(\alpha-1)=\alpha^2-\alpha=(\alpha-1)-\alpha=-1,
+$$
+さらに
+$$
+\alpha^4=\alpha\alpha^3=\alpha\cdot(-1)=-\alpha
+$$
+となる。よって
+$$
+f(\alpha)=\alpha^4+a\alpha^3+b\alpha^2+c\alpha+d
+       =(-\alpha)+a(-1)+b(\alpha-1)+c\alpha+d
+$$
+であるから
+$$
+f(\alpha)=(-\alpha)+(-a)+b\alpha-b+c\alpha+d
+        =(b+c-1)\alpha+(-a-b+d)=0
+$$
+となる。
+
+ここで $\alpha$ は実数ではなく，$1$ とも異なる複素数であるから，$1$ と $\alpha$ は一次独立であり，
+$$
+p\alpha+q=0\quad(p,q\in\mathbb{R})
+$$
+が成り立つならば $p=0,\;q=0$ でなければならない。したがって
+$$
+b+c-1=0,\quad -a-b+d=0
+$$
+が成り立ち，
+$$
+c=1-b,\quad d=a+b
+$$
+を得る。
+
+(1) の答え
+$$
+c=1-b,\quad d=a+b.
+$$
+
+---
+
+(2)  
+(1) より $c=1-b,\ d=a+b$ なので
+$$
+f(x)=x^4+ax^3+bx^2+(1-b)x+(a+b)
+$$
+である。まず $f(1),f(-1)$ を $a,b$ で表す。
+
+$x=1$ を代入すると
+$$
+f(1)=1+a+b+(1-b)+(a+b)
+    =2+2a+b
+$$
+となる。また $x=-1$ を代入すると
+$$
+f(-1)=1-a+b-(1-b)+(a+b)
+     =1-a+b-1+b+a+b
+     =3b
+$$
+である。
+
+与えられた条件は
+- $f(1)$ を 7 で割ると 1 余り，11 で割ると 10 余る
+- $f(-1)$ を 7 で割ると 3 余り，11 で割ると 10 余る  
+
+であるから，合同式で書くと
+$$
+\begin{cases}
+f(1)\equiv1\pmod7,\\[2mm]
+f(1)\equiv10\pmod{11},
+\end{cases}
+\qquad
+\begin{cases}
+f(-1)\equiv3\pmod7,\\[2mm]
+f(-1)\equiv10\pmod{11}.
+\end{cases}
+$$
+これを $a,b$ についての条件に書き換える。
+
+まず $f(-1)=3b$ について
+$$
+3b\equiv3\pmod7,\quad 3b\equiv10\pmod{11}
+$$
+を解く。  
+7 については $3^{-1}\equiv5\pmod7$（$3\cdot5=15\equiv1\pmod7$）より
+$$
+b\equiv 3\cdot5\equiv15\equiv1\pmod7
+$$
+となる。  
+11 については $3^{-1}\equiv4\pmod{11}$（$3\cdot4=12\equiv1\pmod{11}$）より
+$$
+b\equiv10\cdot4\equiv40\equiv7\pmod{11}
+$$
+となる。したがって
+$$
+b\equiv1\pmod7,\quad b\equiv7\pmod{11}
+$$
+を同時にみたす $b$ を求める。
+
+$b\equiv1\pmod7$ より $b=1+7k$ とおくと，11 について
+$$
+1+7k\equiv7\pmod{11}\ \Longrightarrow\ 7k\equiv6\pmod{11}
+$$
+となる。11 における $7^{-1}$ を求めると $7\cdot8=56\equiv1\pmod{11}$ なので $7^{-1}\equiv8$ であり，
+$$
+k\equiv6\cdot8\equiv48\equiv4\pmod{11}
+$$
+となる。よって
+$$
+k=4+11m\quad(m\in\mathbb{Z})
+$$
+であり，
+$$
+b=1+7k=1+7(4+11m)=1+28+77m=29+77m
+$$
+となる。ここで $|b|\leq40$ なので
+$$
+-40\leq 29+77m\leq40
+$$
+をみたす整数 $m$ を調べる。
+
+- 下側： $29+77m\geq -40\ \Longrightarrow\ 77m\geq -69\ \Longrightarrow\ m\geq -\frac{69}{77}>-1$ より $m\geq 0$  
+- 上側： $29+77m\leq 40\ \Longrightarrow\ 77m\leq 11\ \Longrightarrow\ m\leq \frac{11}{77}<1$ より $m\leq 0$
+
+したがって $m=0$ のみであり，
+$$
+b=29
+$$
+を得る。
+
+つぎに $f(1)=2+2a+b$ について
+$$
+2+2a+b\equiv1\pmod7,\quad 2+2a+b\equiv10\pmod{11}
+$$
+であり，ここに $b=29$ を代入する。まず 7 について
+$$
+2+2a+29\equiv1\pmod7
+\ \Longrightarrow\ 
+2a+31\equiv1\pmod7
+\ \Longrightarrow\ 
+2a\equiv -30\equiv -2\equiv5\pmod7.
+$$
+7 において $2^{-1}\equiv4$（$2\cdot4=8\equiv1$）なので
+$$
+a\equiv 5\cdot4\equiv20\equiv6\pmod7.
+$$
+
+同様に 11 について
+$$
+2+2a+29\equiv10\pmod{11}
+\ \Longrightarrow\ 
+2a+31\equiv10\pmod{11}
+\ \Longrightarrow\ 
+2a\equiv -21\equiv1\pmod{11}.
+$$
+11 において $2^{-1}\equiv6$（$2\cdot6=12\equiv1$）なので
+$$
+a\equiv1\cdot6\equiv6\pmod{11}.
+$$
+したがって
+$$
+a\equiv6\pmod7,\quad a\equiv6\pmod{11}
+$$
+であるから，$a\equiv6\pmod{\mathrm{lcm}(7,11)}$ すなわち
+$$
+a\equiv6\pmod{77}
+$$
+となる。よって $a=6+77n\ (n\in\mathbb{Z})$ と表せる。$|a|\leq40$ なので
+$$
+-40\leq 6+77n\leq40
+$$
+をみたす整数 $n$ を調べる。
+
+- 下側： $6+77n\geq -40\ \Longrightarrow\ 77n\geq -46\ \Longrightarrow\ n\geq -\frac{46}{77}>-1$ より $n\geq0$  
+- 上側： $6+77n\leq 40\ \Longrightarrow\ 77n\leq34\ \Longrightarrow\ n\leq\frac{34}{77}<1$ より $n\leq0$
+
+したがって $n=0$ のみであり，
+$$
+a=6
+$$
+を得る。
+
+(1) の結果 $c=1-b,\ d=a+b$ を用いると
+$$
+c=1-29=-28,\quad d=6+29=35
+$$
+となる。したがって
+$$
+f(x)=x^4+6x^3+29x^2-28x+35
+$$
+である。
+
+次に，方程式 $f(x)=0$ の解を求める。  
+与えられた条件から既に
+$$
+\alpha=\frac{1+\sqrt3\,i}{2}
+$$
+は $f(x)=0$ の解であり，係数が実数（整数）なのでその共役
+$$
+\bar\alpha=\frac{1-\sqrt3\,i}{2}
+$$
+も解である。これら 2 つを根にもつ 2 次式は，先に用いたように
+$$
+z^2-z+1=0
+$$
+である（$\alpha,\bar\alpha$ は $z^2-z+1=0$ の解であった）。したがって $f(x)$ は
+$$
+x^2-x+1
+$$
+を因数にもつ。
+
+実際に割り算を行うと
+$$
+x^4+6x^3+29x^2-28x+35
+=
+(x^2-x+1)(x^2+7x+35)
+$$
+となることがわかる。このとき，
+$$
+x^2+7x+35=0
+$$
+の判別式は
+$$
+D=7^2-4\cdot1\cdot35=49-140=-91<0
+$$
+より実数解をもたない。複素数解を求めると
+$$
+x
+=\frac{-7\pm\sqrt{-91}}{2}
+=\frac{-7\pm i\sqrt{91}}{2}
+$$
+である。
+
+したがって $f(x)=0$ の解は
+$$
+x=\frac{1\pm\sqrt3\,i}{2},\quad x=\frac{-7\pm i\sqrt{91}}{2}
+$$
+の 4 つである。
+
+(2) の答え  
+$$
+f(x)=0\ \text{の解は}\ 
+x=\dfrac{1\pm\sqrt3\,i}{2},\ \dfrac{-7\pm i\sqrt{91}}{2}.
+$$

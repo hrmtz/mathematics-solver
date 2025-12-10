@@ -1,0 +1,250 @@
+## 解答
+
+(1) 状況の整理
+
+1 から 4 までの数字が 1 つずつ書かれた 4 枚のカードを，取り出しては元に戻すことを $n$ 回繰り返す。  
+各回で引く数字 $X_k$ は $1,2,3,4$ のいずれかであり，それぞれ確率 $\dfrac14$ で独立に出る。
+
+積  
+$$
+X_1X_2\cdots X_n
+$$
+を 4 で割った余りを考える。  
+4 で割った余りごとに確率を  
+余り 0：$p_n$，余り 1：$q_n$，余り 2：$r_n$，余り 3：$s_n$  
+とおく。
+
+各 $X_k$ を 4 で割った余りで見ると，
+$$
+1 \equiv 1,\quad 2 \equiv 2,\quad 3 \equiv 3,\quad 4 \equiv 0 \pmod 4
+$$
+である。
+
+まず，$X_k=4$ が一度でも出れば，その時点で積に 4 の因数が含まれ，
+$$
+X_1X_2\cdots X_n \equiv 0 \pmod 4
+$$
+となる。  
+よって，積が 4 で割り切れない（余りが 1,2,3 のいずれか）ためには，「すべての試行で $X_k\neq4$」すなわち「すべて 1,2,3 のいずれか」が出ることが必要十分である。
+
+各回で 1,2,3 のいずれかが出る確率は $\dfrac34$ なので，  
+全 $n$ 回とも 4 が出ない確率は
+$$
+\left(\frac34\right)^n
+$$
+である。  
+したがって  
+$$
+q_n + r_n + s_n = \left(\frac34\right)^n
+$$
+が成り立つ。
+
+また，少なくとも一度 4 が出る確率は  
+$$
+1 - \left(\frac34\right)^n
+$$
+であり，このとき積は必ず 4 で割り切れるから
+$$
+p_n = 1 - \left(\frac34\right)^n
+$$
+となる。
+
+(2) 4 が一度も出ない場合の積の余り
+
+以後は「$X_k\in\{1,2,3\}$ のみが出た場合」に限って議論する。  
+この条件のもとでは，各回の $X_k$ は $1,2,3$ のうち 1 つで，条件付き確率は
+$$
+P(X_k=1\mid X_k\neq4)=P(X_k=2\mid X_k\neq4)=P(X_k=3\mid X_k\neq4)
+=\frac{\frac14}{\frac34}=\frac13
+$$
+となる。すなわち，「4 が出ないとわかっている条件の下では」1,2,3 はそれぞれ確率 $\dfrac13$ で独立に出現する。
+
+よって，「4 が一度も出ない」という条件付きでの積の余りの分布を考えればよい。この条件付き分布を
+- 余り 1 になる確率：$a_n$  
+- 余り 2 になる確率：$b_n$  
+- 余り 3 になる確率：$c_n$
+とおく。
+
+すると，「4 が出ない」確率との関係から
+$$
+q_n = \left(\frac34\right)^n a_n,\quad
+r_n = \left(\frac34\right)^n b_n,\quad
+s_n = \left(\frac34\right)^n c_n
+$$
+となる。
+
+(3) 条件付き分布 $(a_n,b_n,c_n)$ の漸化関係
+
+$X_{n+1}$ を 4 が出ない場合の $(n+1)$ 回目の値とすると，  
+$X_{n+1}$ は $1,2,3$ をそれぞれ確率 $\dfrac13$ でとる。
+
+積の余りを $4$ で考える。  
+$n$ 回目までの積を $Y_n=X_1\cdots X_n$ と書き，その余りを場合分けする。
+
+- $Y_n\equiv1$（確率 $a_n$）のとき  
+  $X_{n+1}=1,2,3$（各 $\dfrac13$）を掛けた余りは  
+  $$
+  1\cdot1\equiv1,\quad 1\cdot2\equiv2,\quad 1\cdot3\equiv3 \pmod 4
+  $$
+  よって，この場合からの遷移確率は  
+  $1\to1,2,3$ にそれぞれ $\dfrac13$ ずつ。
+
+- $Y_n\equiv2$（確率 $b_n$）のとき  
+  $$
+  2\cdot1\equiv2,\quad 2\cdot2\equiv0,\quad 2\cdot3\equiv6\equiv2 \pmod4
+  $$
+  となるが，「4 が一度も出ない」という条件の下では，積が 0 になることは起こらない（0 になるには少なくとも一度 4 が出ていなければならない）ので  
+  実際には $X_{n+1}=2$ となるような場合（確率 $\dfrac13$）は「4 が出ない」という条件に反する。  
+  よって，条件付き（4 が出ないとき）でみると，
+  $X_{n+1}=1$ または $3$ の 2 通りが等確率で起こるので，
+  条件付き確率は
+  $$
+  P(X_{n+1}=1\mid\text{4が出ない})=
+  P(X_{n+1}=3\mid\text{4が出ない})=\frac12
+  $$
+  となり，  
+  $$
+  2\cdot1\equiv2,\quad 2\cdot3\equiv6\equiv2 \pmod4
+  $$
+  であるから，結局「余り 2 は，次も必ず余り 2 になる」とみなせる。  
+  すなわち，$2\to2$ に確率 1 で遷移する。
+
+- $Y_n\equiv3$（確率 $c_n$）のとき  
+  $$
+  3\cdot1\equiv3,\quad 3\cdot2\equiv6\equiv2,\quad 3\cdot3\equiv9\equiv1 \pmod4
+  $$
+  なので，$3\to1,2,3$ にそれぞれ確率 $\dfrac13$ ずつ遷移する。
+
+したがって，条件付き分布 $(a_n,b_n,c_n)$ は次の漸化関係をみたす：
+
+$$
+\begin{aligned}
+a_{n+1} &= \frac13 a_n + \frac13 c_n,\\
+b_{n+1} &= \frac13 a_n + b_n + \frac13 c_n,\\
+c_{n+1} &= \frac13 a_n + \frac13 c_n.
+\end{aligned}
+$$
+
+ただし，初期条件は $n=1$（1 回だけの場合）で
+
+- $X_1=1$：余り 1（確率 $\dfrac13$）  
+- $X_1=2$：余り 2（確率 $\dfrac13$）  
+- $X_1=3$：余り 3（確率 $\dfrac13$）
+
+であるから
+$$
+a_1=b_1=c_1=\frac13
+$$
+である。
+
+ここで第 1 式と第 3 式を比べると
+$$
+a_{n+1} = c_{n+1}
+$$
+が成り立つことがわかる。初期条件 $a_1=c_1$ から帰納的に  
+$$
+a_n = c_n\quad(\forall n\ge1)
+$$
+が従う。
+
+この事実を用いて第 1 式に $c_n=a_n$ を代入すると
+$$
+a_{n+1} = \frac13 a_n + \frac13 a_n = \frac23 a_n
+$$
+となり，よって
+$$
+a_n = a_1\left(\frac23\right)^{n-1}
+= \frac13\left(\frac23\right)^{n-1}
+$$
+が得られる。同様に $c_n=a_n$ なので
+$$
+c_n = \frac13\left(\frac23\right)^{n-1}
+$$
+である。
+
+さらに $a_n+b_n+c_n=1$ であることから
+$$
+b_n = 1 - a_n - c_n
+= 1 - 2\cdot\frac13\left(\frac23\right)^{n-1}
+= 1 - \frac23\left(\frac23\right)^{n-1}
+= 1 - \left(\frac23\right)^n
+$$
+となる。
+
+(4) $p_n,q_n,r_n,s_n$ の求値
+
+(2) で述べた関係
+$$
+q_n = \left(\frac34\right)^n a_n,\quad
+r_n = \left(\frac34\right)^n b_n,\quad
+s_n = \left(\frac34\right)^n c_n
+$$
+に，求めた $a_n,b_n,c_n$ を代入する。
+
+まず $q_n,s_n$ について
+$$
+a_n=c_n=\frac13\left(\frac23\right)^{n-1}
+$$
+なので
+$$
+q_n = s_n
+= \left(\frac34\right)^n \cdot \frac13\left(\frac23\right)^{n-1}.
+$$
+計算すると
+$$
+\left(\frac34\right)^n\left(\frac23\right)^{n-1}
+= \frac{3^n}{4^n}\cdot\frac{2^{n-1}}{3^{n-1}}
+= \frac{3\cdot2^{n-1}}{4^n}
+= \frac{3\cdot2^{n-1}}{2^{2n}}
+= \frac{3}{2^{n+1}}
+$$
+であるから
+$$
+q_n = s_n = \frac13\cdot\frac{3}{2^{n+1}} = \frac{1}{2^{n+1}}
+$$
+となる。
+
+次に $r_n$ については
+$$
+b_n = 1 - \left(\frac23\right)^n
+$$
+なので
+$$
+r_n = \left(\frac34\right)^n\left(1 - \left(\frac23\right)^n\right)
+= \left(\frac34\right)^n - 1\cdot\left(\frac34\right)^n\left(\frac23\right)^n.
+$$
+ここで
+$$
+\left(\frac34\right)^n\left(\frac23\right)^n = \left(\frac12\right)^n = \frac1{2^n}
+$$
+であるから
+$$
+r_n = \left(\frac34\right)^n - \frac1{2^n}
+$$
+となる。
+
+さらに
+$$
+p_n = 1 - \left(\frac34\right)^n
+$$
+であるので，以上をまとめると
+
+$$
+\begin{aligned}
+p_n &= 1 - \left(\frac34\right)^n,\\[2mm]
+q_n &= \frac{1}{2^{n+1}},\\[2mm]
+r_n &= \left(\frac34\right)^n - \frac1{2^n},\\[2mm]
+s_n &= \frac{1}{2^{n+1}}.
+\end{aligned}
+$$
+
+なお，確認として
+$$
+p_n+q_n+r_n+s_n
+= \left[1 - \left(\frac34\right)^n\right]
++ \frac1{2^{n+1}}
++ \left[\left(\frac34\right)^n - \frac1{2^n}\right]
++ \frac1{2^{n+1}}
+= 1
+$$
+となり，確率の和が 1 になることも確かめられる。

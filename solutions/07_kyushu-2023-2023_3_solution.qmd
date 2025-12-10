@@ -1,0 +1,182 @@
+## 解答
+
+(1)  
+条件Iがすべてのベクトル$\overrightarrow{q}$に対して成り立つ，すなわち  
+「任意のベクトル$\overrightarrow{q}$が$\overrightarrow{m},\overrightarrow{n}$の実数係数の一次結合で表される」と仮定する。
+
+これは，$\overrightarrow{m},\overrightarrow{n}$が座標平面$\mathbb{R}^2$全体を張ることを意味する。  
+したがって，$\overrightarrow{m},\overrightarrow{n}$は一次独立でなければならない。
+
+もし$\overrightarrow{m},\overrightarrow{n}$が一次従属であるとすると，  
+ある実数$\lambda$が存在して$\overrightarrow{n}=\lambda\overrightarrow{m}$となるから，
+成分で書けば
+$$
+b=\lambda a,\quad d=\lambda c
+$$
+となる。よって
+$$
+D=ad-bc = a(\lambda c) - (\lambda a)c = 0
+$$
+となる。一方，$\overrightarrow{m},\overrightarrow{n}$が一次独立であることは，  
+係数行列
+$$
+\begin{pmatrix}
+a & b\\
+c & d
+\end{pmatrix}
+$$
+の行列式が$0$でないことと同値であり，この行列式は$D=ad-bc$であるから$D\neq 0$である。
+
+したがって，条件Iがすべての$\overrightarrow{q}$について成り立つならば，$D\neq 0$である。
+
+---
+
+(2)  
+$\overrightarrow{v}=(x_1,y_1)$，$\overrightarrow{w}=(x_2,y_2)$とおく。  
+内積の定義より
+$$
+\overrightarrow{m}\cdot\overrightarrow{v}
+= (a,c)\cdot(x_1,y_1) = ax_1+cy_1,
+$$
+$$
+\overrightarrow{n}\cdot\overrightarrow{v}
+= (b,d)\cdot(x_1,y_1) = bx_1+dy_1
+$$
+であり，同様に
+$$
+\overrightarrow{m}\cdot\overrightarrow{w}=ax_2+cy_2,\quad
+\overrightarrow{n}\cdot\overrightarrow{w}=bx_2+dy_2
+$$
+である。  
+条件より
+$$
+\overrightarrow{m}\cdot\overrightarrow{v}=1,\quad
+\overrightarrow{n}\cdot\overrightarrow{v}=0
+$$
+だから，$(x_1,y_1)$は連立一次方程式
+$$
+\begin{cases}
+ax_1+cy_1=1\\
+bx_1+dy_1=0
+\end{cases}
+$$
+の解である。$D\neq 0$よりクラメルの公式が使え，
+$$
+x_1=\dfrac{1\cdot d-0\cdot c}{D}=\dfrac{d}{D},\quad
+y_1=\dfrac{a\cdot 0-b\cdot 1}{D}=-\dfrac{b}{D}
+$$
+となる。よって
+$$
+\overrightarrow{v}=\left(\dfrac{d}{D},\, -\dfrac{b}{D}\right)
+$$
+である。
+
+同様に
+$$
+\overrightarrow{m}\cdot\overrightarrow{w}=0,\quad
+\overrightarrow{n}\cdot\overrightarrow{w}=1
+$$
+より，$(x_2,y_2)$は
+$$
+\begin{cases}
+ax_2+cy_2=0\\
+bx_2+dy_2=1
+\end{cases}
+$$
+を満たす。クラメルの公式より
+$$
+x_2=\dfrac{0\cdot d-1\cdot c}{D}=-\dfrac{c}{D},\quad
+y_2=\dfrac{a\cdot 1-b\cdot 0}{D}=\dfrac{a}{D}
+$$
+となる。したがって
+$$
+\overrightarrow{w}=\left(-\dfrac{c}{D},\, \dfrac{a}{D}\right)
+$$
+である。
+
+---
+
+(3)  
+$a,b,c,d$は整数であり，$D\neq 0$である。また，座標がともに整数である任意のベクトル
+$$
+\overrightarrow{q}=(p,q)\quad (p,q\in\mathbb{Z})
+$$
+に対して，整数$r,s$が存在して
+$$
+r\overrightarrow{m}+s\overrightarrow{n}=\overrightarrow{q}
+$$
+が成り立つとする。成分で書くと
+$$
+\begin{cases}
+ar+bs = p\\
+cr+ds = q
+\end{cases}
+\quad (p,q\in\mathbb{Z})
+$$
+である。$D\neq 0$なので，クラメルの公式より
+$$
+r=\dfrac{pd-bq}{D},\quad
+s=\dfrac{aq-pc}{D}
+$$
+となる。
+
+仮定より，任意の整数$p,q$に対して$r,s$が整数でなければならない。  
+したがって，すべての整数$p,q$に対して
+$$
+D\mid (pd-bq),\quad D\mid (aq-pc)
+$$
+が成り立つ。
+
+ここで，$p,q$のとり方を工夫して$D$に関する条件を求める。
+
+まず，$p=1,q=0$とおくと
+$$
+r=\dfrac{d}{D},\quad s=\dfrac{-c}{D}
+$$
+が整数でなければならないので
+$$
+D\mid d,\quad D\mid c
+$$
+となる。次に，$p=0,q=1$とおくと
+$$
+r=\dfrac{-b}{D},\quad s=\dfrac{a}{D}
+$$
+が整数でなければならないので
+$$
+D\mid b,\quad D\mid a
+$$
+となる。
+
+したがって，$D$は$a,b,c,d$すべての公約数である。ゆえに
+$$
+D\mid \gcd(a,b,c,d)
+$$
+が成り立つ。特に
+$$
+\lvert D\rvert \le \lvert \gcd(a,b,c,d)\rvert \le \max\{|a|,|b|,|c|,|d|\}
+$$
+であるが，ここからだけでは$D$の具体的な値はまだ絞り切れない。
+
+次に，$D=ad-bc$に$D\mid a,b,c,d$であることを使うと，
+$a=k_1D,b=k_2D,c=k_3D,d=k_4D$（$k_1,k_2,k_3,k_4$は整数）とおけるので
+$$
+D = ad-bc = (k_1D)(k_4D)-(k_2D)(k_3D)
+ = D^2(k_1k_4-k_2k_3)
+$$
+となる。$D\neq 0$だから$D$で両辺を割って
+$$
+1 = D(k_1k_4-k_2k_3)
+$$
+を得る。右辺は整数なので，この等式が成り立つためには$D=\pm 1$でなければならない。
+
+実際，$D=\pm1$であれば，クラメルの公式から
+$$
+r=pd-bq,\quad s=aq-pc
+$$
+となり，$a,b,c,d,p,q$がすべて整数だから$r,s$は常に整数となる。したがって，このとき条件IIは確かにすべての整数ベクトル$\overrightarrow{q}$について成り立つ。
+
+以上より，$D$のとりうる値は
+$$
+D=1,\ -1
+$$
+の2通りである。

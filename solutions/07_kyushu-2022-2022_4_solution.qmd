@@ -1,0 +1,278 @@
+## 解答
+
+(1)  
+まず，導関数の定義  
+$$
+F'(x)=\lim_{h\to 0}\frac{F(x+h)-F(x)}{h},\quad
+G'(x)=\lim_{h\to 0}\frac{G(x+h)-G(x)}{h}
+$$
+を用いる。
+
+関数 $H(x)=F(x)+G(x)$ とおくと，
+$$
+H'(x)=\lim_{h\to 0}\frac{H(x+h)-H(x)}{h}
+=\lim_{h\to 0}\frac{F(x+h)+G(x+h)-\{F(x)+G(x)\}}{h}
+$$
+$$
+=\lim_{h\to 0}\left\{\frac{F(x+h)-F(x)}{h}+\frac{G(x+h)-G(x)}{h}\right\}
+$$
+となる。ここで $F, G$ は微分可能なので，それぞれの極限が存在し，
+極限の線形性（和の極限は極限の和）より
+$$
+H'(x)=\lim_{h\to 0}\frac{F(x+h)-F(x)}{h}
++\lim_{h\to 0}\frac{G(x+h)-G(x)}{h}=F'(x)+G'(x)
+$$
+となる。したがって
+$$
+\{F(x)+G(x)\}'=F'(x)+G'(x)
+$$
+が示された。
+
+次に，定積分の定義
+$$
+\int_a^b f(x)\,dx=F(b)-F(a)\quad(F'(x)=f(x))
+$$
+を用いて，  
+$$
+\int_a^b\{f(x)+g(x)\}\,dx=\int_a^b f(x)\,dx+\int_a^b g(x)\,dx
+$$
+を示す。
+
+$f(x)$ の原始関数を $F(x)$，$g(x)$ の原始関数を $G(x)$ とする。すなわち
+$$
+F'(x)=f(x),\quad G'(x)=g(x)
+$$
+である。このとき，上で示した結果を $F+G$ に適用すると
+$$
+\{F(x)+G(x)\}'=F'(x)+G'(x)=f(x)+g(x)
+$$
+となるから，$f(x)+g(x)$ の原始関数の一つは $F(x)+G(x)$ である。
+
+定義より
+$$
+\int_a^b\{f(x)+g(x)\}\,dx=(F+G)(b)-(F+G)(a)
+$$
+$$
+=\{F(b)+G(b)\}-\{F(a)+G(a)\}
+=\{F(b)-F(a)\}+\{G(b)-G(a)\}
+$$
+ここで再び定義を用いて
+$$
+F(b)-F(a)=\int_a^b f(x)\,dx,\quad
+G(b)-G(a)=\int_a^b g(x)\,dx
+$$
+だから
+$$
+\int_a^b\{f(x)+g(x)\}\,dx
+=\int_a^b f(x)\,dx+\int_a^b g(x)\,dx
+$$
+が従う。
+
+---
+
+(2)  
+$a<b$ かつ区間 $a\le x\le b$ で $g(x)>0$ とする。
+
+関数
+$$
+G(x)=\int_a^x g(t)\,dt
+$$
+を考える。定積分の定義および微積分の基本定理より，$G(x)$ は微分可能で
+$$
+G'(x)=g(x)
+$$
+である。
+
+平均値の定理を区間 $[a,b]$ で $G$ に適用すると，ある $c\in(a,b)$ が存在して
+$$
+G(b)-G(a)=G'(c)(b-a)
+$$
+が成り立つ。ここで
+$$
+G(b)-G(a)=\int_a^b g(t)\,dt-\int_a^a g(t)\,dt=\int_a^b g(t)\,dt
+$$
+かつ $G'(c)=g(c)$ だから
+$$
+\int_a^b g(x)\,dx=g(c)(b-a)
+$$
+となる。仮定より $g(c)>0$ であり，また $a<b$ より $b-a>0$ なので，右辺は正である。したがって
+$$
+\int_a^b g(x)\,dx>0
+$$
+が示された。
+
+---
+
+(3)  
+まず，空欄 [ア] に入るものを考える。
+
+文章中には  
+「定積分の性質　[　ア　]　を用い，定数関数に対する定積分の計算を行うと…」  
+とあり，その結果として
+$$
+\frac{1}{n}f\!\left(\frac{i-1}{n}\right)\le\int_{\frac{i-1}{n}}^{\frac{i}{n}}f(x)\,dx
+\le\frac{1}{n}f\!\left(\frac{i}{n}\right)
+$$
+という「大小関係」を導いている。  
+定数関数との大小比較から定積分の大小を言うには，性質 (C)（単調性）が必要である。したがって
+
+[ア] には (C) が入る。
+
+次に，下線部の内容を詳しく説明し，不等式 \ding{"AD} を示す。
+
+$f(x)$ は区間 $0\le x\le1$ で増加関数であるから，各 $i=1,2,\dots,n$ について
+$$
+\frac{i-1}{n}\le x\le\frac{i}{n}
+$$
+ならば
+$$
+f\!\left(\frac{i-1}{n}\right)\le f(x)\le f\!\left(\frac{i}{n}\right)
+$$
+が成り立つ。
+
+ここで，区間 $\displaystyle\frac{i-1}{n}\le x\le\frac{i}{n}$ において  
+$$
+g(x)=f\!\left(\frac{i-1}{n}\right),\quad h(x)=f(x)
+$$
+とおけば $g(x)\le h(x)$ であり，性質 (C)（単調性）から
+$$
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f\!\left(\frac{i-1}{n}\right)\,dx
+\le
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)\,dx
+$$
+同様に
+$$
+h(x)=f(x),\quad k(x)=f\!\left(\frac{i}{n}\right)
+$$
+とおけば $h(x)\le k(x)$ より
+$$
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)\,dx
+\le
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f\!\left(\frac{i}{n}\right)\,dx
+$$
+が成り立つ。
+
+一方，定数関数の定積分を実際に計算すると
+$$
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f\!\left(\frac{i-1}{n}\right)\,dx
+=f\!\left(\frac{i-1}{n}\right)\left(\frac{i}{n}-\frac{i-1}{n}\right)
+=\frac{1}{n}f\!\left(\frac{i-1}{n}\right)
+$$
+$$
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f\!\left(\frac{i}{n}\right)\,dx
+=f\!\left(\frac{i}{n}\right)\left(\frac{i}{n}-\frac{i-1}{n}\right)
+=\frac{1}{n}f\!\left(\frac{i}{n}\right)
+$$
+となるから，
+$$
+\frac{1}{n}f\!\left(\frac{i-1}{n}\right)
+\le
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)\,dx
+\le
+\frac{1}{n}f\!\left(\frac{i}{n}\right)
+\quad(i=1,2,\dots,n)
+$$
+すなわち不等式 \ding{"AD} が得られる。
+
+---
+
+(4)  
+まず，空欄 [イ] に入るものを考える。
+
+不等式 \ding{"AE} の導出では，  
+$$
+\int_0^1 f(x)\,dx-\frac{1}{n}\sum_{i=1}^n f\!\left(\frac{i-1}{n}\right)
+$$
+という差を扱っていて，\ding{"AD} の各区間での不等式を足し合わせている。  
+積分区間を細かく分けて，その部分積分の和を元の積分に戻すには，性質 (B)
+$$
+\int_a^c f(x)\,dx+\int_c^b f(x)\,dx=\int_a^b f(x)\,dx
+$$
+が必要である。したがって
+
+[イ] には (B) が入る。
+
+次に，不等式 \ding{"AE} を示す。
+
+各 $i=1,2,\dots,n$ について，\ding{"AD} の右側の不等式
+$$
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)\,dx\le\frac{1}{n}f\!\left(\frac{i}{n}\right)
+$$
+から
+$$
+\int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)\,dx
+-\frac{1}{n}f\!\left(\frac{i-1}{n}\right)
+\le
+\frac{1}{n}f\!\left(\frac{i}{n}\right)
+-\frac{1}{n}f\!\left(\frac{i-1}{n}\right)
+$$
+となる。  
+
+左辺と右辺を $i=1$ から $n$ まで足し合わせると
+$$
+\sum_{i=1}^n\left\{\int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)\,dx
+-\frac{1}{n}f\!\left(\frac{i-1}{n}\right)\right\}
+\le
+\sum_{i=1}^n\left\{\frac{1}{n}f\!\left(\frac{i}{n}\right)
+-\frac{1}{n}f\!\left(\frac{i-1}{n}\right)\right\}
+$$
+左辺は，性質 (B) を $[0,1]$ を $n$ 個の区間に分ける形で用いると
+$$
+\sum_{i=1}^n\int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)\,dx
+=\int_0^1 f(x)\,dx
+$$
+であり，また
+$$
+\sum_{i=1}^n\frac{1}{n}f\!\left(\frac{i-1}{n}\right)=S_n
+$$
+だから
+$$
+\sum_{i=1}^n\left\{\int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)\,dx
+-\frac{1}{n}f\!\left(\frac{i-1}{n}\right)\right\}
+=\int_0^1 f(x)\,dx-S_n
+$$
+となる。従って
+$$
+\int_0^1 f(x)\,dx-S_n
+\le
+\sum_{i=1}^n\left\{\frac{1}{n}f\!\left(\frac{i}{n}\right)
+-\frac{1}{n}f\!\left(\frac{i-1}{n}\right)\right\}
+$$
+
+一方，右辺の和は「差の和」なので，項がほとんど打ち消しあう（望ましい形に整理される）：
+$$
+\sum_{i=1}^n\left\{\frac{1}{n}f\!\left(\frac{i}{n}\right)
+-\frac{1}{n}f\!\left(\frac{i-1}{n}\right)\right\}
+=\frac{1}{n}\left\{f\!\left(\frac{n}{n}\right)-f\!\left(\frac{0}{n}\right)\right\}
+=\frac{1}{n}\{f(1)-f(0)\}
+$$
+したがって
+$$
+\int_0^1 f(x)\,dx-S_n\le\frac{f(1)-f(0)}{n}
+$$
+が得られる。
+
+さらに，\ding{"AD} の左側の不等式
+$$
+\frac{1}{n}f\!\left(\frac{i-1}{n}\right)\le\int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)\,dx
+$$
+を $i=1$ から $n$ まで足し合わせると
+$$
+\sum_{i=1}^n\frac{1}{n}f\!\left(\frac{i-1}{n}\right)\le
+\sum_{i=1}^n\int_{\frac{i-1}{n}}^{\frac{i}{n}} f(x)\,dx
+$$
+すなわち
+$$
+S_n\le\int_0^1 f(x)\,dx
+$$
+となり
+$$
+0\le\int_0^1 f(x)\,dx-S_n
+$$
+が従う。
+
+よって
+$$
+0\le\int_0^1 f(x)\,dx-S_n\le\frac{f(1)-f(0)}{n}
+$$
+すなわち不等式 \ding{"AE} が示された。

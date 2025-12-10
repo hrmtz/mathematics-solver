@@ -1,0 +1,326 @@
+## 解答
+
+(1)  
+複素数平面上で，点$A,\,B,\,C$をそれぞれ複素数$\alpha,\,\beta,\,\gamma$に対応させる．  
+ベクトル表示として
+$$
+\overrightarrow{AB} = \beta-\alpha,\quad
+\overrightarrow{BC} = \gamma-\beta,\quad
+\overrightarrow{CA} = \alpha-\gamma
+$$
+と表される．
+
+$\triangle ABC$が正三角形であることの必要十分条件は，  
+「3辺の長さが等しい」こと，すなわち
+$$
+|\beta-\alpha| = |\gamma-\beta| = |\alpha-\gamma|
+$$
+であることと同値である．
+
+まず，必要性を示す．  
+$\triangle ABC$が正三角形ならば，  
+$$
+|\beta-\alpha| = |\gamma-\beta|
+$$
+が成り立つので，両辺を2乗して
+$$
+|\beta-\alpha|^2 = |\gamma-\beta|^2
+$$
+となる．複素数$z$について$|z|^2 = z\overline{z}$を用いると，
+$$
+(\beta-\alpha)(\overline{\beta}-\overline{\alpha})
+= (\gamma-\beta)(\overline{\gamma}-\overline{\beta})
+$$
+となる．展開して整理すると
+$$
+\beta\overline{\beta} - \alpha\overline{\beta} - \beta\overline{\alpha} + \alpha\overline{\alpha}
+= \gamma\overline{\gamma} - \beta\overline{\gamma} - \gamma\overline{\beta} + \beta\overline{\beta}
+$$
+よって，両辺から$\beta\overline{\beta}$を消去して
+$$
+-\alpha\overline{\beta} - \beta\overline{\alpha} + \alpha\overline{\alpha}
+= \gamma\overline{\gamma} - \beta\overline{\gamma} - \gamma\overline{\beta}
+$$
+すなわち
+$$
+\alpha\overline{\alpha} + \beta\overline{\gamma} + \gamma\overline{\beta}
+= \gamma\overline{\gamma} + \alpha\overline{\beta} + \beta\overline{\alpha}
+$$
+となる．
+
+同様に，$|\gamma-\beta| = |\alpha-\gamma|$から
+$$
+(\gamma-\beta)(\overline{\gamma}-\overline{\beta})
+= (\alpha-\gamma)(\overline{\alpha}-\overline{\gamma})
+$$
+を展開・整理すると
+$$
+\beta\overline{\beta} + \gamma\overline{\alpha} + \alpha\overline{\gamma}
+= \alpha\overline{\alpha} + \gamma\overline{\beta} + \beta\overline{\gamma}
+$$
+を得る．
+
+以上2つの等式をまとめると，
+$$
+\alpha\overline{\alpha} + \beta\overline{\gamma} + \gamma\overline{\beta}
+= \gamma\overline{\gamma} + \alpha\overline{\beta} + \beta\overline{\alpha}
+= \beta\overline{\beta} + \gamma\overline{\alpha} + \alpha\overline{\gamma}
+$$
+が成り立つ．
+
+この3つの式を足し合わせると
+$$
+(\alpha\overline{\alpha}+\beta\overline{\beta}+\gamma\overline{\gamma})
++(\beta\overline{\gamma}+\gamma\overline{\alpha}+\alpha\overline{\beta})
++(\gamma\overline{\beta}+\alpha\overline{\gamma}+\beta\overline{\alpha})
+$$
+が3つ全て等しいことになる．
+
+ここで，考えるべき条件式
+$$
+\alpha^2+\beta^2+\gamma^2 = \alpha\beta+\beta\gamma+\gamma\alpha
+$$
+に共役をとると
+$$
+\overline{\alpha}^2+\overline{\beta}^2+\overline{\gamma}^2
+= \overline{\alpha}\,\overline{\beta}
+  + \overline{\beta}\,\overline{\gamma}
+  + \overline{\gamma}\,\overline{\alpha}
+$$
+となる．
+
+次に，複素数の恒等式
+$$
+(\alpha-\beta)^2+(\beta-\gamma)^2+(\gamma-\alpha)^2
+= 2(\alpha^2+\beta^2+\gamma^2 - \alpha\beta-\beta\gamma-\gamma\alpha)
+$$
+を用いる．この右辺が$0$であることと
+$$
+\alpha^2+\beta^2+\gamma^2 = \alpha\beta+\beta\gamma+\gamma\alpha
+$$
+は同値である．よって
+$$
+\alpha^2+\beta^2+\gamma^2 = \alpha\beta+\beta\gamma+\gamma\alpha
+$$
+は
+$$
+(\alpha-\beta)^2+(\beta-\gamma)^2+(\gamma-\alpha)^2 = 0
+$$
+と同値である．
+
+ところで，$\triangle ABC$が正三角形ならば，3辺の2乗が成す3つの複素数
+$$
+(\beta-\alpha)^2,\quad (\gamma-\beta)^2,\quad (\alpha-\gamma)^2
+$$
+は，絶対値が等しく，かつ互いに$120^\circ$ずつの角度差をもつため，  
+ベクトルとして和が$0$になる（正三角形の回転対称性から，$1,\omega,\omega^2$と同じ関係）．  
+したがって
+$$
+(\beta-\alpha)^2+(\gamma-\beta)^2+(\alpha-\gamma)^2 = 0
+$$
+が成り立ち，よって
+$$
+\alpha^2+\beta^2+\gamma^2 = \alpha\beta+\beta\gamma+\gamma\alpha
+$$
+が必要条件である．
+
+逆に，上式が成り立つとき，
+$$
+(\alpha-\beta)^2+(\beta-\gamma)^2+(\gamma-\alpha)^2 = 0
+$$
+であるから，
+3つのベクトル$(\beta-\alpha)^2,\,(\gamma-\beta)^2,\,(\alpha-\gamma)^2$の和が$0$となる．  
+このとき3点$A,B,C$は同一直線上にないと仮定しているので，  
+3辺の長さが等しく，それぞれが$120^\circ$ずつ回転した関係にあり，  
+したがって$\triangle ABC$は正三角形となる．
+
+よって，$\triangle ABC$が正三角形となる必要十分条件は
+$$
+\alpha^2+\beta^2+\gamma^2=\alpha\beta+\beta\gamma+\gamma\alpha
+$$
+である．
+
+---
+
+(2)  
+(1)より，$\triangle ABC$が正三角形のとき，その外接円の中心$O$は重心かつ内心でもあり，  
+$O$は3点$A,B,C$から等距離$R$にある．
+
+また，外接円の半径を$R$とすると
+$$
+OA = OB = OC = OP = R
+$$
+であり，任意の点$P$は外接円上にあるから$OP=R$である．
+
+まず${AP}^2+{BP}^2+{CP}^2$を求める．  
+平面上の距離の公式（ベクトルの内積）を用いると，
+$$
+AP^2 = AO^2 + OP^2 - 2\,\overrightarrow{OA}\cdot\overrightarrow{OP}
+$$
+である．同様に
+$$
+BP^2 = BO^2 + OP^2 - 2\,\overrightarrow{OB}\cdot\overrightarrow{OP}, \\
+CP^2 = CO^2 + OP^2 - 2\,\overrightarrow{OC}\cdot\overrightarrow{OP}
+$$
+となる．これらを足すと
+$$
+AP^2+BP^2+CP^2
+= (AO^2+BO^2+CO^2) + 3\,OP^2
+   - 2\,(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})
+     \cdot\overrightarrow{OP}.
+$$
+
+ここで，$\triangle ABC$が正三角形なので，$O$は重心であり，
+$$
+\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC} = \vec{0}
+$$
+が成り立つ（重心のベクトル和の性質）．また，$AO=BO=CO=OP=R$より
+$$
+AO^2+BO^2+CO^2 = 3R^2,\quad OP^2 = R^2
+$$
+であるから
+$$
+AP^2+BP^2+CP^2
+= 3R^2 + 3R^2 - 2\cdot 0
+= 6R^2
+$$
+となる．したがって
+$$
+AP^2+BP^2+CP^2 = 6R^2.
+$$
+
+次に${AP}^4+{BP}^4+{CP}^4$を求める．  
+先ほどの式
+$$
+AP^2 = AO^2 + OP^2 - 2\,\overrightarrow{OA}\cdot\overrightarrow{OP}
+$$
+に$AO^2=OP^2=R^2$を代入すると
+$$
+AP^2 = 2R^2 - 2\,\overrightarrow{OA}\cdot\overrightarrow{OP}
+$$
+となる．同様に
+$$
+BP^2 = 2R^2 - 2\,\overrightarrow{OB}\cdot\overrightarrow{OP}, \\
+CP^2 = 2R^2 - 2\,\overrightarrow{OC}\cdot\overrightarrow{OP}
+$$
+である．これらを2乗して
+$$
+AP^4 = (AP^2)^2
+= \left(2R^2 - 2\,\overrightarrow{OA}\cdot\overrightarrow{OP}\right)^2
+= 4R^4 - 8R^2(\overrightarrow{OA}\cdot\overrightarrow{OP})
+    + 4(\overrightarrow{OA}\cdot\overrightarrow{OP})^2
+$$
+同様に
+$$
+BP^4 = 4R^4 - 8R^2(\overrightarrow{OB}\cdot\overrightarrow{OP})
+    + 4(\overrightarrow{OB}\cdot\overrightarrow{OP})^2, \\
+CP^4 = 4R^4 - 8R^2(\overrightarrow{OC}\cdot\overrightarrow{OP})
+    + 4(\overrightarrow{OC}\cdot\overrightarrow{OP})^2.
+$$
+
+これらを足し合わせると
+$$
+AP^4+BP^4+CP^4
+= 12R^4
+ - 8R^2\left(
+   \overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}
+   \right)\cdot\overrightarrow{OP}
+ + 4\left(
+   (\overrightarrow{OA}\cdot\overrightarrow{OP})^2
+  +(\overrightarrow{OB}\cdot\overrightarrow{OP})^2
+  +(\overrightarrow{OC}\cdot\overrightarrow{OP})^2
+ \right).
+$$
+
+再び$\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\vec{0}$より，第2項は$0$となり
+$$
+AP^4+BP^4+CP^4
+= 12R^4
+ + 4\left(
+   (\overrightarrow{OA}\cdot\overrightarrow{OP})^2
+  +(\overrightarrow{OB}\cdot\overrightarrow{OP})^2
+  +(\overrightarrow{OC}\cdot\overrightarrow{OP})^2
+ \right)
+$$
+を得る．
+
+ここで，$OA,OB,OC$は互いに$120^\circ$ずつ回転した同じ長さ$R$のベクトルであり，$OP$も長さ$R$である．  
+よって，$O$を原点とし，$OP$の向きを$x$軸正の向きとすると
+$$
+\overrightarrow{OP} = (R,0),\quad
+\overrightarrow{OA},\,\overrightarrow{OB},\,\overrightarrow{OC}
+$$
+は，$x$軸に対する偏角がそれぞれ$\theta,\theta+\dfrac{2\pi}{3},\theta+\dfrac{4\pi}{3}$である長さ$R$のベクトルとみなせる．
+
+従って
+$$
+\overrightarrow{OA}\cdot\overrightarrow{OP}
+= R^2\cos\theta,\quad
+\overrightarrow{OB}\cdot\overrightarrow{OP}
+= R^2\cos\left(\theta+\frac{2\pi}{3}\right),\quad
+\overrightarrow{OC}\cdot\overrightarrow{OP}
+= R^2\cos\left(\theta+\frac{4\pi}{3}\right)
+$$
+であるから，
+$$
+(\overrightarrow{OA}\cdot\overrightarrow{OP})^2
++(\overrightarrow{OB}\cdot\overrightarrow{OP})^2
++(\overrightarrow{OC}\cdot\overrightarrow{OP})^2
+= R^4\left(
+\cos^2\theta
++\cos^2\left(\theta+\frac{2\pi}{3}\right)
++\cos^2\left(\theta+\frac{4\pi}{3}\right)
+\right).
+$$
+
+ここで三角関数の恒等式
+$$
+\cos^2 x = \frac{1+\cos 2x}{2}
+$$
+を用いると，
+$$
+\cos^2\theta
++\cos^2\left(\theta+\frac{2\pi}{3}\right)
++\cos^2\left(\theta+\frac{4\pi}{3}\right)
+=
+\frac{1}{2}\Bigl[
+3 + \cos 2\theta
++ \cos\left(2\theta+\frac{4\pi}{3}\right)
++ \cos\left(2\theta+\frac{8\pi}{3}\right)
+\Bigr].
+$$
+しかし
+$$
+\cos x + \cos\left(x+\frac{2\pi}{3}\right) + \cos\left(x+\frac{4\pi}{3}\right) = 0
+$$
+が任意の$x$について成り立つ（三角関数の和の公式か，複素数表示から導ける）ので，括弧内の$\cos$3つの和は$0$である．従って
+$$
+\cos^2\theta
++\cos^2\left(\theta+\frac{2\pi}{3}\right)
++\cos^2\left(\theta+\frac{4\pi}{3}\right)
+= \frac{1}{2}\cdot 3 = \frac{3}{2}
+$$
+が得られる．
+
+よって
+$$
+(\overrightarrow{OA}\cdot\overrightarrow{OP})^2
++(\overrightarrow{OB}\cdot\overrightarrow{OP})^2
++(\overrightarrow{OC}\cdot\overrightarrow{OP})^2
+= R^4\cdot\frac{3}{2} = \frac{3}{2}R^4
+$$
+であり，これを先ほどの式に代入すると
+$$
+AP^4+BP^4+CP^4
+= 12R^4 + 4\cdot\frac{3}{2}R^4
+= 12R^4 + 6R^4
+= 18R^4
+$$
+となる．
+
+以上より
+$$
+AP^2+BP^2+CP^2 = 6R^2,\quad
+AP^4+BP^4+CP^4 = 18R^4
+$$
+である．

@@ -1,0 +1,236 @@
+## 解答
+
+(1)  
+左辺の一般項 $k(k+1)\cdots(k+a-1)$ を $a$ 次の多項式とみると，
+  
+$$
+k(k+1)\cdots(k+a-1)
+$$
+
+は $a$ 個の連続する整数の積であり，階差をとると簡単になる形である。そこで
+
+$$
+F(x)=\frac{1}{a+1}x(x+1)\cdots(x+a)
+$$
+
+とおく。$F(x)$ は $x$ に関する $(a+1)$ 次多項式であり，その前の差分
+
+$$
+F(k)-F(k-1)
+$$
+
+を計算することを考える。  
+
+$F(k)$ と $F(k-1)$ はそれぞれ
+
+$$
+F(k)=\frac{1}{a+1}k(k+1)\cdots(k+a),\quad
+F(k-1)=\frac{1}{a+1}(k-1)k\cdots(k+a-1)
+$$
+
+であるから，その差は
+
+$$
+\begin{aligned}
+F(k)-F(k-1)
+&=\frac{1}{a+1}\Bigl[k(k+1)\cdots(k+a)-(k-1)k\cdots(k+a-1)\Bigr]\\[3pt]
+&=\frac{1}{a+1}k(k+1)\cdots(k+a-1)\bigl[(k+a)-(k-1)\bigr]\\[3pt]
+&=\frac{1}{a+1}k(k+1)\cdots(k+a-1)\cdot(a+1)\\[3pt]
+&=k(k+1)\cdots(k+a-1)
+\end{aligned}
+$$
+
+となる。  
+
+したがって，左辺の総和は
+
+$$
+\sum_{k=1}^n k(k+1)\cdots(k+a-1)
+=\sum_{k=1}^n\bigl(F(k)-F(k-1)\bigr)
+$$
+
+と書ける。右辺は望ましい形で「差分表示」できたので，上式は
+
+$$
+\sum_{k=1}^n\bigl(F(k)-F(k-1)\bigr)
+=F(1)-F(0)+F(2)-F(1)+\cdots+F(n)-F(n-1)
+$$
+
+と並べると中間項がすべて打ち消し合い（いわゆるテレスコーピング），結局
+
+$$
+\sum_{k=1}^n k(k+1)\cdots(k+a-1)=F(n)-F(0)
+$$
+
+となる。ここで $F(0)=\dfrac{1}{a+1}\cdot 0\cdot1\cdots a=0$ だから，
+
+$$
+\sum_{k=1}^n k(k+1)\cdots(k+a-1)=F(n)
+=\frac{1}{a+1}n(n+1)\cdots(n+a)
+$$
+
+を得る。これが示すべき等式である。
+
+---
+
+(2)  
+$a\ge 2$ とする。問題の等式は
+
+$$
+\frac{b}{n(n+1)\cdots(n+a-2)}+\frac{c}{(n+1)(n+2)\cdots(n+a-1)}
+=
+\frac{a-1}{n(n+1)\cdots(n+a-1)}
+$$
+
+であり，すべての自然数 $n$ について成り立つような定数 $b,c$ を求める。  
+
+両辺を
+
+$$
+n(n+1)\cdots(n+a-1)
+$$
+
+で掛けると，分母がはらえて
+
+$$
+b(n+a-1)+cn=(a-1)
+$$
+
+を得る。左辺を展開すると
+
+$$
+b(n+a-1)+cn=(b+c)n+b(a-1)
+$$
+
+となるので，これは $n$ の一次式である。一方，右辺は定数 $(a-1)$ であるから，この等式がすべての自然数 $n$ に対して成り立つためには，多項式の係数が一致しなければならない。すなわち
+
+$$
+\begin{cases}
+b+c=0\\
+b(a-1)=a-1
+\end{cases}
+$$
+
+である。ここで $a\ge2$ より $a-1\ne 0$ なので，第2式から
+
+$$
+b=1
+$$
+
+が従う。これを第1式に代入して
+
+$$
+1+c=0 \quad\Rightarrow\quad c=-1
+$$
+
+を得る。  
+
+したがって，求める定数は
+
+$$
+b=1,\quad c=-1
+$$
+
+である。
+
+---
+
+(3)  
+求める極限は
+
+$$
+\lim_{n\to\infty}\sum_{k=1}^n\frac{1}{k(k+1)\cdots(k+a-1)}
+$$
+
+である。まず各項を，(2) で求めた $b=1,c=-1$ を用いて部分分数分解する。  
+
+(2) の式を $n$ を $k$ に置き換えて用いると，
+
+$$
+\frac{1}{k(k+1)\cdots(k+a-2)}-\frac{1}{(k+1)(k+2)\cdots(k+a-1)}
+=
+\frac{a-1}{k(k+1)\cdots(k+a-1)}
+$$
+
+である。よって
+
+$$
+\frac{1}{k(k+1)\cdots(k+a-1)}
+=
+\frac{1}{a-1}
+\left(
+\frac{1}{k(k+1)\cdots(k+a-2)}
+-\frac{1}{(k+1)(k+2)\cdots(k+a-1)}
+\right)
+$$
+
+と変形できる。したがって部分和
+
+$$
+S_n=\sum_{k=1}^n\frac{1}{k(k+1)\cdots(k+a-1)}
+$$
+
+は
+
+$$
+\begin{aligned}
+S_n
+&=\frac{1}{a-1}\sum_{k=1}^n
+\left(
+\frac{1}{k(k+1)\cdots(k+a-2)}
+-\frac{1}{(k+1)(k+2)\cdots(k+a-1)}
+\right)\\[3pt]
+&=\frac{1}{a-1}\Bigl[
+\frac{1}{1\cdot2\cdots(a-1)}
+-\frac{1}{2\cdot3\cdots a}\\
+&\qquad\qquad\quad
++\frac{1}{2\cdot3\cdots a}
+-\frac{1}{3\cdot4\cdots(a+1)}\\
+&\qquad\qquad\quad
++\cdots\\
+&\qquad\qquad\quad
++\frac{1}{n(n+1)\cdots(n+a-2)}
+-\frac{1}{(n+1)\cdots(n+a-1)}
+\Bigr]
+\end{aligned}
+$$
+
+となる。これを眺めると，中間の項がすべて打ち消し合い，残るのは最初の正の項と最後の負の項だけである。すなわち
+
+$$
+S_n
+=\frac{1}{a-1}
+\left(
+\frac{1}{1\cdot2\cdots(a-1)}
+-\frac{1}{(n+1)(n+2)\cdots(n+a-1)}
+\right)
+$$
+
+である。  
+
+ここで $a\ge2$ なので，分母 $(n+1)(n+2)\cdots(n+a-1)$ は $n$ の $a-1$ 次の多項式であり，$n\to\infty$ のとき
+
+$$
+\frac{1}{(n+1)(n+2)\cdots(n+a-1)}\to0
+$$
+
+となる（分母が無限大に発散するので逆数は 0 に収束する）。従って
+
+$$
+\lim_{n\to\infty}S_n
+=\frac{1}{a-1}\cdot\frac{1}{1\cdot2\cdots(a-1)}
+=\frac{1}{(a-1)!}\cdot\frac{1}{a-1}
+=\frac{1}{(a-1)\,(a-1)!}
+$$
+
+である。  
+
+以上より，$a\ge2$ のとき級数は収束し，極限値は
+
+$$
+\frac{1}{(a-1)(a-1)!}
+$$
+
+である。  
+
+（補足：$a=1$ のときは和は $\sum_{k=1}^n\dfrac{1}{k}$ となり，これは調和級数なので発散するが，ここでは $a\ge2$ が前提である。）

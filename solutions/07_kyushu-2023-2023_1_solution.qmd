@@ -1,0 +1,275 @@
+## 解答
+
+(1)  
+4次方程式
+$$
+x^4-2x^3+3x^2-2x+1=0
+$$
+を解く。
+
+まず，左辺を因数分解できるかを調べる。  
+両端の係数が $1$ であることから，$(x^2+ax+1)(x^2+bx+1)$ の形に分解できると仮定する。
+
+実際，
+$$
+(x^2+ax+1)(x^2+bx+1)
+= x^4 + (a+b)x^3 + (ab+2)x^2 + (a+b)x + 1
+$$
+である。
+
+これが元の式
+$$
+x^4-2x^3+3x^2-2x+1
+$$
+に一致するので，係数を比較すると
+$$
+a+b = -2,\quad ab+2 = 3
+$$
+すなわち
+$$
+a+b = -2,\quad ab = 1
+$$
+となる。
+
+$a,b$ を満たす2次方程式は
+$$
+t^2 - (a+b)t + ab = 0
+\quad\Rightarrow\quad
+t^2 +2t +1 = 0
+$$
+であり，これは
+$$
+(t+1)^2 = 0
+$$
+より
+$$
+t=-1
+$$
+が2重解である。したがって
+$$
+a=b=-1
+$$
+とわかる。
+
+ゆえに
+$$
+x^4-2x^3+3x^2-2x+1
+= (x^2 - x + 1)^2
+$$
+と因数分解できる。
+
+よって方程式は
+$$
+(x^2 - x + 1)^2 = 0
+$$
+すなわち
+$$
+x^2 - x + 1 = 0
+$$
+を解けばよい。
+
+判別式は
+$$
+D = (-1)^2 - 4\cdot 1\cdot 1 = 1-4 = -3
+$$
+なので，
+$$
+x = \frac{1 \pm \sqrt{-3}}{2}
+= \frac{1 \pm i\sqrt{3}}{2}
+$$
+である。
+
+したがって，4次方程式の解は
+$$
+x = \frac{1 + i\sqrt{3}}{2},\quad
+x = \frac{1 - i\sqrt{3}}{2}
+$$
+であり，それぞれ2重解である。
+
+---
+
+(2)  
+複素数平面上で，$\triangle ABC$ の頂点に対応する複素数をそれぞれ $\alpha,\beta,\gamma$ とする。  
+条件
+$$
+(\alpha-\beta)^4+(\beta-\gamma)^4+(\gamma-\alpha)^4=0
+$$
+から，$\triangle ABC$ がどのような三角形かを求める。
+
+まず，$\alpha-\beta,\;\beta-\gamma,\;\gamma-\alpha$ を，それぞれ辺 $\overrightarrow{BA},\overrightarrow{CB},\overrightarrow{AC}$ に対応する複素数とみなす。
+
+三角形の形は平行移動しても変わらないので，頂点を同時に同じだけずらしても条件は変わらない。したがって，任意の複素数 $z$ について
+$$
+(\alpha+z-\beta-z)^4 + (\beta+z-\gamma-z)^4 + (\gamma+z-\alpha-z)^4
+$$
+はもとの式と同じであり，この条件は三角形の形のみに関係している。
+
+ここで，$\alpha-\beta,\beta-\gamma,\gamma-\alpha$ をそれぞれ
+$$
+\alpha-\beta = u,\quad
+\beta-\gamma = v,\quad
+\gamma-\alpha = w
+$$
+とおくと，
+$$
+u+v+w = (\alpha-\beta)+(\beta-\gamma)+(\gamma-\alpha) = 0
+$$
+が成り立つ。また条件式は
+$$
+u^4 + v^4 + w^4 = 0
+$$
+と書ける。
+
+$u+v+w=0$ から $w = -u-v$ なので，条件は
+$$
+u^4 + v^4 + (-u-v)^4 = 0
+$$
+となる。
+
+$(-u-v)^4$ を展開すると
+$$
+(-u-v)^4 = (u+v)^4
+= u^4 + 4u^3v + 6u^2v^2 + 4uv^3 + v^4
+$$
+であるから，
+$$
+u^4 + v^4 + (u+v)^4
+= u^4 + v^4 + \bigl(u^4 + 4u^3v + 6u^2v^2 + 4uv^3 + v^4\bigr)
+$$
+$$
+= 2u^4 + 2v^4 + 4u^3v + 6u^2v^2 + 4uv^3
+$$
+となる。これが $0$ だから
+$$
+2u^4 + 2v^4 + 4u^3v + 6u^2v^2 + 4uv^3 = 0
+$$
+両辺を $2$ で割って
+$$
+u^4 + v^4 + 2u^3v + 3u^2v^2 + 2uv^3 = 0
+$$
+ここで右辺を因数分解する。$uv$ でくくると
+$$
+u^4 + v^4 + 2u^3v + 3u^2v^2 + 2uv^3
+= uv\,(u^3+v^3+2u^2v+3uv^2+2v^3)
+$$
+となるが，さらに
+$$
+u^3+v^3 = (u+v)(u^2 - uv + v^2)
+$$
+を用いたり，また $(u+v)^2 = u^2+2uv+v^2$ などを利用してまとめるよりも，別の因数分解を探す。
+
+ここでは，元の4次式を $(u^2+auv+v^2)(u^2+buv+v^2)$ の形に因数分解できると仮定する。
+
+実際，
+$$
+(u^2+auv+v^2)(u^2+buv+v^2)
+= u^4 + (a+b)u^3v + (ab+2)u^2v^2 + (a+b)uv^3 + v^4
+$$
+である。これが
+$$
+u^4 + v^4 + 2u^3v + 3u^2v^2 + 2uv^3
+$$
+に等しいので，係数比較より
+$$
+a+b = 2,\quad ab+2 = 3
+$$
+すなわち
+$$
+a+b=2,\quad ab=1
+$$
+となる。これは(1)で解いた2次方程式と同じ条件であるから，
+$$
+a=b=1
+$$
+である。したがって
+$$
+u^4 + v^4 + 2u^3v + 3u^2v^2 + 2uv^3
+= (u^2+uv+v^2)^2
+$$
+が成り立つ。
+
+以上から
+$$
+u^4 + v^4 + (u+v)^4 = (u^2+uv+v^2)^2
+$$
+となるので，条件式 $u^4 + v^4 + (u+v)^4 = 0$ は
+$$
+(u^2+uv+v^2)^2 = 0
+$$
+と同値である。
+
+よって
+$$
+u^2+uv+v^2 = 0
+$$
+が成り立つ。
+
+ここで $u=\alpha-\beta,\;v=\beta-\gamma$ であり，$u\neq 0, v\neq 0$ かつ $u\neq v$ のとき，この式がどのような意味をもつかを考える。  
+比 $z = \dfrac{u}{v}$ を考えると，
+$$
+u^2+uv+v^2=0
+\quad\Longleftrightarrow\quad
+\left(\frac{u}{v}\right)^2 + \frac{u}{v} + 1 = 0
+$$
+すなわち
+$$
+z^2 + z + 1 = 0
+$$
+となる。
+
+この2次方程式の解は
+$$
+z = \frac{-1 \pm \sqrt{1-4}}{2}
+= \frac{-1 \pm i\sqrt{3}}{2}
+$$
+であり，これらは絶対値 $1$ で偏角がそれぞれ
+$$
+\arg z = \pm \frac{2\pi}{3}
+$$
+の複素数，すなわち
+$$
+z = \cos\frac{2\pi}{3} + i\sin\frac{2\pi}{3} \quad\text{または}\quad
+z = \cos\frac{4\pi}{3} + i\sin\frac{4\pi}{3}
+$$
+である。これらは $120^\circ$ 回転あるいは $-120^\circ$ 回転（$240^\circ$ 回転）に対応する。
+
+つまり
+$$
+\frac{u}{v} = \frac{\alpha-\beta}{\beta-\gamma}
+$$
+は長さ1で偏角が $\pm 120^\circ$ の複素数であるから，
+$$
+|\alpha-\beta| = |\beta-\gamma|
+$$
+かつ，ベクトル $\overrightarrow{BA}$ を $\pm 120^\circ$ 回転させると $\overrightarrow{CB}$ に一致することになる。
+
+ここで，$\triangle ABC$ において
+$$
+\overrightarrow{BA} = \alpha-\beta,\quad
+\overrightarrow{BC} = \gamma-\beta = -(\beta-\gamma) = -v
+$$
+であるので，
+$$
+\frac{\overrightarrow{BA}}{\overrightarrow{BC}}
+= \frac{\alpha-\beta}{\gamma-\beta}
+= -\frac{\alpha-\beta}{\beta-\gamma}
+= -\frac{u}{v}
+$$
+となる。したがって $\dfrac{u}{v}$ が偏角 $\pm 120^\circ$ であることは，$-\dfrac{u}{v}$ が偏角 $\mp 60^\circ$ であることを意味する。すなわち，
+$$
+\arg\frac{\overrightarrow{BA}}{\overrightarrow{BC}} = \pm 60^\circ
+$$
+である。
+
+これは，点 $B$ を頂点とする角 $\angle ABC$ の大きさが $60^\circ$ であることを意味する。また，
+$$
+|\overrightarrow{BA}| = |\alpha-\beta| = |\beta-\gamma| = |\overrightarrow{CB}|
+$$
+より，辺 $BA$ と $BC$ は長さが等しい。
+
+よって，$\triangle ABC$ は頂点 $B$ を頂角とし，頂角が $60^\circ$ であり，かつその2辺が等しい二等辺三角形である。これは結局，すべての内角が $60^\circ$ である正三角形にほかならない。
+
+したがって，
+$$
+\triangle ABC \text{ は正三角形である。}
+$$
