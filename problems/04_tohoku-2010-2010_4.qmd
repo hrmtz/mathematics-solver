@@ -29,6 +29,3 @@ format:
 $|\overrightarrow{AB}|=|\overrightarrow{CD}|$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_4.pdf)

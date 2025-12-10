@@ -22,6 +22,3 @@ $C$における接線が$A$および$B$における接線と交わる点をそ�
 $\triangle OPQ$，$\triangle ABC$の面積を$a$および$x$で表わせ。
 また$\triangle OPQ$の面積が$\triangle ABC$の面積の2倍となるときの$x$を$a$で表わせ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1965/1965_2.pdf)

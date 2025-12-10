@@ -27,6 +27,3 @@ format:
 \item[(3)]$\displaystyle\lim_{n\to\infty}a_n=c$となることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1995/1995_c.pdf)

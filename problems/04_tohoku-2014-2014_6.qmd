@@ -28,6 +28,3 @@ $x>0$における関数$f(x)$の極値を求めよ。
 \[ \frac{1}{n}\sum_{k=1}^n\frac{k+1}{k}>{(n+1)}^\frac{1}{n} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2014/2014_6.pdf)

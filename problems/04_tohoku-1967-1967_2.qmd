@@ -26,6 +26,3 @@ format:
 直線$BT$の傾きを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1967/1967_2.pdf)

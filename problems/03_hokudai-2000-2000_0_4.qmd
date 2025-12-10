@@ -27,6 +27,3 @@ $c \neq a$なるものを$a$と$p$で表せ．
 \item[(3)]$\displaystyle\frac{f'(b)-f'(a)}{f'(a)-f'(c)}$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2000/2000_0_4.pdf)

@@ -22,6 +22,3 @@ format:
 \item[(2)]$a_n$がすべて3の倍数であるような$p$，$q$のうちで積$pq$が最小となるものを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_2.pdf)

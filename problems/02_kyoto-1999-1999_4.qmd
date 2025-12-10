@@ -29,6 +29,3 @@ $\alpha$，$\beta$，$\gamma$が次の3条件を満たすとする．
 ただし$0^\circ \leqq \arg\alpha \leqq \arg\beta \leqq \arg\gamma < {360}^\circ$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_4.pdf)

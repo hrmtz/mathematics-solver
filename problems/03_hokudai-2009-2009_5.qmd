@@ -26,6 +26,3 @@ $\displaystyle a_n=\int_0^{\displaystyle \frac{\pi}{4}}{(\tan x)}^{2n}dx$とお�
 \item[(4)]$\displaystyle\lim_{n\to\infty}\sum_{k=1}^n\frac{{(-1)}^{k+1}}{2k-1}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2009/2009_5.pdf)

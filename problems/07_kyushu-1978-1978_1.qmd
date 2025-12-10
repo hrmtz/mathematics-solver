@@ -24,6 +24,3 @@ format:
 どの数が1より大きく，どの数が1より小さいか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1978/1978_1.pdf)

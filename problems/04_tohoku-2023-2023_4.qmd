@@ -24,6 +24,3 @@ format:
 \item[(3)]設問(2)の虚数$\alpha$に対して，$\alpha^{2023}+\alpha^{-2023}$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2023/2023_4.pdf)

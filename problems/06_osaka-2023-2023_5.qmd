@@ -24,6 +24,3 @@ format:
 \item[(2)]数列$\{ p_n \}$の一般項を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2023/2023_5.pdf)

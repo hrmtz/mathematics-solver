@@ -26,6 +26,3 @@ $\overrightarrow{p}=s(2, \, -1)+t(-1, \, 2)$で定める。
 $\displaystyle\frac{\pi}{6}$以下となる確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_0_4.pdf)

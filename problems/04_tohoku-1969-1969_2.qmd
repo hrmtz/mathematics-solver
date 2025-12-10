@@ -21,6 +21,3 @@ $\displaystyle0<\alpha<\frac{3}{5}\pi$，$\displaystyle0<\beta<\frac{2}{5}\pi$�
 \[ {(\cos\alpha+i\sin\beta)}^2=\frac{1}{2\sqrt2}+i(\sqrt2+2\sin\alpha\cos\beta) \]
 ただし，$i=\sqrt{-1}$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1969/1969_2.pdf)

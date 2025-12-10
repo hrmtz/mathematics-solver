@@ -20,6 +20,3 @@ format:
 点$P$が点$A$に近づくときの$\displaystyle\frac{\overline{PQ}}{\overline{PA}}$の極限を求めよ．
 ただし，$\overline{PQ}$，$\overline{PA}$はそれぞれ線分$PQ$，$PA$の長さである．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1966/1966_0_5b.pdf)

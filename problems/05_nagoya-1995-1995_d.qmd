@@ -30,6 +30,3 @@ format:
 このとき，点の平均寿命を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1995/1995_d.pdf)

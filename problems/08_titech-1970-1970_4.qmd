@@ -21,6 +21,3 @@ format:
 不等式$\displaystyle\frac{\sqrt3}{2}S_{2n}>S_n>\frac{2}{3}S_{3n}$が成り立つのは
 $n$がどんな値のときか．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1970/1970_4.pdf)

@@ -26,6 +26,3 @@ $x$軸のまわりに回転させてできる回転体の体積を$V$とする�
 $\displaystyle\frac{V}{\pi}$に一番近い整数を求めよ（$\pi$は円周率）．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1989/1989_0_4.pdf)

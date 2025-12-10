@@ -30,6 +30,3 @@ $\displaystyle f(\alpha)=\frac{\cos^4\alpha}{3\sin\alpha}$であることを示�
 \item[(3)]$\displaystyle \frac{f(\alpha)}{S}<\frac{9}{16}$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2022/2022_5.pdf)

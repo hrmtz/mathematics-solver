@@ -31,6 +31,3 @@ format:
 \item[(3)]1回目が赤玉であり，かつ試行が6回以上続く確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2002/2002_d.pdf)

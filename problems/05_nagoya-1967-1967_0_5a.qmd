@@ -22,6 +22,3 @@ format:
 その積$(x^2+ax+b)(x^2+cx+d)$は2次式の平方と1次式の平方との和として表わされることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1967/1967_0_5a.pdf)

@@ -23,6 +23,3 @@ format:
 $\displaystyle\int_1^{\sqrt3}\displaystyle\frac{1}{x^2}\log\sqrt{1+x^2}dx$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2012/2012_1.pdf)

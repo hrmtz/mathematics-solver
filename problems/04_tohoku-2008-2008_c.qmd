@@ -23,6 +23,3 @@ format:
 ただし，$\log_{10}2=0.3010$，$\log_{10}3=0.4771$として解答せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_c.pdf)

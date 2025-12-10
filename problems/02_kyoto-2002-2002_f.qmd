@@ -22,6 +22,3 @@ $\displaystyle \left( -\frac{\pi}{2} \leqq x \leqq \frac{\pi}{2} \right)$を満�
 $f(x)$を求めよ．
 補足．$\sin(x-y)f(y)$は$\sin(x-y)$と$f(y)$の積の意味である．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_f.pdf)

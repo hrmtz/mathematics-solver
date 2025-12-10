@@ -30,6 +30,3 @@ $R_nP_{n+1}$は辺$AB$に垂直$(n=0, \, 1, \, 2, \, \cdots\cdots)$となるよ�
 $\displaystyle\lim_{n\to\infty}S_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_b.pdf)

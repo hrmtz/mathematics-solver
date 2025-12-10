@@ -21,6 +21,3 @@ format:
 \item[(2)]出る目の最小値が1で，かつ最大値が6である確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_0_4.pdf)

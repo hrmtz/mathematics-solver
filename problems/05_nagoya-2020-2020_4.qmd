@@ -37,6 +37,3 @@ format:
 ただし正の実数$a$に対し$[a]$は，その整数部分$(k\leqq a <k+1\text{となる整数}k)$を表す。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2020/2020_4.pdf)

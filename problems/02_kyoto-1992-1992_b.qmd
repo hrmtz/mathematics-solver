@@ -24,6 +24,3 @@ format:
 \item[(2)]頂点$A$から頂点$R$への最短径路は全部で何通りあるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_b.pdf)

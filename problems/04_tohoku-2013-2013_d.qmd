@@ -25,6 +25,3 @@ $n$回目の操作で終了する確率を$p_n$とする。
 \item[(2)]$n\geqq3$のとき，$p_n$を$n$の式で表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2013/2013_d.pdf)

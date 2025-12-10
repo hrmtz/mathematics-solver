@@ -32,6 +32,3 @@ $f_n(x)=0$の解がただ1つ存在することを示せ．
 \item[(4)]極限$\displaystyle\lim_{n\to\infty}(b_n-a_n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2000/2000_b.pdf)

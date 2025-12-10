@@ -28,6 +28,3 @@ $\alpha$，$\beta$，$\gamma$の間に$\alpha+\gamma=2\beta$という関係が�
 $a$が(2)の範囲を動くとき，関数$b=f(a)$のグラフをかけ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2008/2008_0_2.pdf)

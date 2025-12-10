@@ -25,6 +25,3 @@ $X=m$なる事象と$Y=n$なる事象は独立であり，
 また，$X+Y=n$となる確率は$(n+1)p_{n+1}$に等しいという．
 このとき，$p_n$ $(n=0,1,2,\cdots\cdots)$と$\displaystyle\sum_{n=0}^\infty np_n$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1985/1985_5.pdf)

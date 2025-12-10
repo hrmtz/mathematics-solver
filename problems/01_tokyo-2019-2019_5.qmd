@@ -28,6 +28,3 @@ c=\lim_{n\to\infty}\frac{{a_n}^n-b}{a_n-a} \]
 を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2019/2019_5.pdf)

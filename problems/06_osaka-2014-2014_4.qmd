@@ -32,6 +32,3 @@ $T_1, \, T_2, \, \cdots, \, T_n$の体積の和を$W_n$とするとき，極限
 を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2014/2014_4.pdf)

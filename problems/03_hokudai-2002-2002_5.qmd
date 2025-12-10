@@ -25,6 +25,3 @@ format:
 \item[(2)]線分$PQ$の長さを最小にする点$P$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2002/2002_5.pdf)

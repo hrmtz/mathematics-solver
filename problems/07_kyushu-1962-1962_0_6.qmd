@@ -24,6 +24,3 @@ format:
 この三角形はどのような形状の三角形であるかを調べよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1962/1962_0_6.pdf)

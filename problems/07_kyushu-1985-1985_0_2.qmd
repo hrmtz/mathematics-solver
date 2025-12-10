@@ -27,6 +27,3 @@ format:
 $\tan2\theta$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1985/1985_0_2.pdf)

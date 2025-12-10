@@ -31,6 +31,3 @@ $\overrightarrow{BC}$と$\overrightarrow{OA}$が直交するとき，
 $\overrightarrow{OP}$を$\overrightarrow{a}$，$\overrightarrow{b}$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2009/2009_0_2.pdf)

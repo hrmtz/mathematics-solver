@@ -24,6 +24,3 @@ $x$，$y$を変数とする．
 \[ \frac{n \, !}{x(x+1)\cdots(x+n)}=\sum_{r=0}^n{(-1)}^r\frac{{}_nC_r}{x+r} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2006/2006_3.pdf)

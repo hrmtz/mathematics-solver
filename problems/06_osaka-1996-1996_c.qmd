@@ -26,6 +26,3 @@ $i$番目の試行$(1 \leqq i \leqq n)$で出た2つの目の和を$X_i$とす�
 $\displaystyle\lim_{n\to\infty}a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1996/1996_c.pdf)

@@ -21,6 +21,3 @@ format:
 \item[(2)]$r$回目以内($r$回目も含む)に終了する確率を求めよ．ただし，$r\geqq2$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2006/2006_5.pdf)

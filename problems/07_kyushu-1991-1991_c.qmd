@@ -24,6 +24,3 @@ format:
 ${x_1}^3+{x_2}^3+{x_3}^3$を$a$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1991/1991_c.pdf)

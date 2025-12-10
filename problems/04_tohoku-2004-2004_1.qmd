@@ -30,6 +30,3 @@ $l$が偶数であることを示せ．
 ${|k\overrightarrow{a}+l\overrightarrow{b}|}^2$の最小値を与える$(k,l)$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2004/2004_1.pdf)

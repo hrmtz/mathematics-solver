@@ -31,6 +31,3 @@ $\displaystyle \left\{ 1,\frac{1}{2},\cdots\cdots,\frac{1}{n},\cdots\cdots \righ
 において，最小数は0である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1968/1968_1.pdf)

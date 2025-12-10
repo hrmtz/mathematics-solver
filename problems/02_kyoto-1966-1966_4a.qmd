@@ -23,6 +23,3 @@ $\overrightarrow{AP}$，$\overrightarrow{BQ}$の$\overrightarrow{AB}$から測�
 それぞれ$2\theta$，$\theta$である．
 $\overrightarrow{PQ}$の大きさの最大値を$a$で表わせ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1966/1966_4a.pdf)

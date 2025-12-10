@@ -26,6 +26,3 @@ format:
 \item[(2)]数列$\{ a_n \}$の一般項$a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_d.pdf)

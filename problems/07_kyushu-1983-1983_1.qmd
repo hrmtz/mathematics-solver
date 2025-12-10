@@ -24,6 +24,3 @@ $O$を原点とする空間に点$P(\cos\theta, \, \sin\theta, \, 0)$と直線$g
 $0<\theta<\pi$の範囲で求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1983/1983_1.pdf)

@@ -44,6 +44,3 @@ $X=\begin{pmatrix} x_1 & x_2 & x_3
 を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2006/2006_5.pdf)

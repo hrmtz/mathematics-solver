@@ -22,6 +22,3 @@ format:
 \item[(2)]$\displaystyle g(x)=\int_0^1e^{x+t}g(t)dt+x$を満たす$g(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_5.pdf)

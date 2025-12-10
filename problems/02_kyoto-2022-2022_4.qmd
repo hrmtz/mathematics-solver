@@ -26,6 +26,3 @@ $P$を辺$BC$上の点とし，$\triangle OAP$の重心を$G$とする．
 \item[(2)]$P$が辺$BC$上を動くとき，$PG$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2022/2022_4.pdf)

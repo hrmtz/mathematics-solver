@@ -26,6 +26,3 @@ $0 \leqq x \leqq \pi$で定義された関数とする．
 $y=f(x)$のグラフの概形をえがけ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1969/1969_5.pdf)

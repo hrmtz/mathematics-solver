@@ -25,6 +25,3 @@ a_n=a_{n-1}-\frac{c}{4}a_{n-2} \hspace{1zw} (n\geqq3) \]
 を満たす$\theta$ $\displaystyle\left( 0\leqq\theta\leqq\frac{\pi}{4} \right)$が
 存在することを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_0_c.pdf)

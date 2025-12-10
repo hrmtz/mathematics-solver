@@ -22,6 +22,3 @@ format:
 \item[問2]整式$x^{2023}-1$を整式$x^4+x^3+x^2+x+1$で割ったときの余りを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2023/2023_1.pdf)

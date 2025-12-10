@@ -22,6 +22,3 @@ format:
 \item[(2)]$z$がこの集合の上を動くとき，$w$はすべての実数値をとることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1974/1974_3.pdf)

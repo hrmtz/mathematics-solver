@@ -23,6 +23,3 @@ $a$，$b$，$c$を実数とするとき，次の不等式を示せ．
 \int_{-1}^1{\left( x^3-\frac{3}{5}x \right)}^2dx$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1984/1984_0_1.pdf)

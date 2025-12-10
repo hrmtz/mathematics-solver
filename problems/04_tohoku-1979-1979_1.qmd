@@ -22,6 +22,3 @@ format:
 $D$の座標を求め，ベクトル$\overrightarrow{OA}$と$\overrightarrow{OD}$のなす角を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1979/1979_1.pdf)

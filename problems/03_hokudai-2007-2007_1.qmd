@@ -24,6 +24,3 @@ format:
 $\cos\angle APO$の最大値と最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_1.pdf)

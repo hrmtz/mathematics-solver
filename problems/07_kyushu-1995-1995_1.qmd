@@ -27,6 +27,3 @@ $\alpha \neq \beta$のとき，この2つの直線$y=\alpha x$と$y=\beta x$と�
 \item[(2)]正の整数$l$，$m$，$n$で${(l^m)}^n>l^{m^n}$を満たす組$(l, \, m, \, n)$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1995/1995_1.pdf)

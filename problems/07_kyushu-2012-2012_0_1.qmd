@@ -26,6 +26,3 @@ format:
 \item[(3)]$\triangle OAH$の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2012/2012_0_1.pdf)

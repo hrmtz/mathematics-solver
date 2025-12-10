@@ -25,6 +25,3 @@ format:
 \item[(3)]$a_n$を$n$の式で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1977/1977_3.pdf)

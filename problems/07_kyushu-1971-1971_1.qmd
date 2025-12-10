@@ -23,6 +23,3 @@ format:
 \[ \sin x+\sin2x=\cos x+\cos2x \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1971/1971_1.pdf)

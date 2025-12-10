@@ -25,6 +25,3 @@ format:
 \item[(3)]曲線$y=g(x)$の接線で傾きが$\displaystyle\frac{3}{2}$であるものをすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_0_d.pdf)

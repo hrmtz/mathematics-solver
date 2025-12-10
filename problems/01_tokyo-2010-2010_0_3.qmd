@@ -32,6 +32,3 @@ $16 \leqq z \leqq 30$のとき$K(z)=30-z$とする．
 \item[(2)]$n$を自然数とするとき，$P_{2n}(10)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2010/2010_0_3.pdf)

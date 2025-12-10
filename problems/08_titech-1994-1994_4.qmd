@@ -24,6 +24,3 @@ format:
 \item[(2)]$f(m,n)=f(m',n')$ならば$(m,n)=(m',n')$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1994/1994_4.pdf)

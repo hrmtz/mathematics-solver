@@ -33,6 +33,3 @@ $j+k \leqq n$を満たすとする。
 \item[(4)]$n$が偶数のとき，$P(s)$を最大にする$s$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2012/2012_3.pdf)

@@ -23,6 +23,3 @@ format:
 \item[(3)]$x^3+y^3$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1977/1977_1.pdf)

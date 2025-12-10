@@ -35,6 +35,3 @@ $a$，$b$，$c$を実数の定数とし，関数
 \[ I=\int_{-1}^1 { \{ \cos(\pi x)-k_0f_0(x)-k_1f_1(x)-k_2f_2(x) \} }^2 dx \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_c.pdf)

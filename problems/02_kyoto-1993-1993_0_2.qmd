@@ -27,6 +27,3 @@ $\overrightarrow{GH}=k\overrightarrow{KL}$，$\overrightarrow{HE}=k\overrightarr
 \item[(2)]四辺形$ABCD$と，平行四辺形$EFGH$の面積の比を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1993/1993_0_2.pdf)

@@ -29,6 +29,3 @@ format:
 \item[(3)]地点$P$および地点$Q$は通らない．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_c.pdf)

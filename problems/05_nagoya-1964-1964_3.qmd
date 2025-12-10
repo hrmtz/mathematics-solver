@@ -19,6 +19,3 @@ format:
 $\displaystyle\frac{\pi}{2}>x \geqq y \geqq 0$のとき，
 $x-y$，$\sin x-\sin y$，$\tan x-\tan y$の大小をくらべよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1964/1964_3.pdf)

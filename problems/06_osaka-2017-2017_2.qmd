@@ -26,6 +26,3 @@ format:
 \item[(3)]$|w|<1$である確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2017/2017_2.pdf)

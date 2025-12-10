@@ -25,6 +25,3 @@ format:
 が，整数の解を少なくとも1つもつ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2005/2005_0_3.pdf)

@@ -25,6 +25,3 @@ format:
 \item[(2)]$A$から3点$O$，$P$，$Q$を通る平面に下ろした垂線の足$H$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1998/1998_0_4b.pdf)

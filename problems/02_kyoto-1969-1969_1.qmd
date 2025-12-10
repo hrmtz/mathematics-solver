@@ -23,6 +23,3 @@ format:
 $a$，$b$，$c$はすべて正の数である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1969/1969_1.pdf)

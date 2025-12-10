@@ -28,6 +28,3 @@ format:
 \item[(3)]$p_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2020/2020_0_2.pdf)

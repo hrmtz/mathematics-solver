@@ -20,6 +20,3 @@ format:
 $\displaystyle\frac{1}{h}\int_{-h}^hf(x)dx$を
 $f(0)$，$f(h)$，$f(-h)$で表わす公式を作れ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1965/1965_4.pdf)

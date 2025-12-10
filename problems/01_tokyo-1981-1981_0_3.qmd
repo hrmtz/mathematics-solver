@@ -22,6 +22,3 @@ format:
 共通接線と放物線\ding{"AD}で囲まれた部分の面積を$S_2$としたとき，
 $\displaystyle\frac{S_1}{S_2}$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1981/1981_0_3.pdf)

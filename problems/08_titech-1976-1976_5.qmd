@@ -23,6 +23,3 @@ $x^2+2y^2+3z^2=1$を満たすすべての実数$x$，$y$，$z$に対して
 \item[(2)]内積$(\vec{a}, \, \vec{b})$，$(\vec{a}, \, \vec{c})$，$(\vec{b}, \, \vec{c})$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1976/1976_5.pdf)

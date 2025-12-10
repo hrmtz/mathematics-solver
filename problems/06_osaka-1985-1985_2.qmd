@@ -40,6 +40,3 @@ $\overrightarrow{P_1P_2}$によって表せ．
 その極限値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1985/1985_2.pdf)

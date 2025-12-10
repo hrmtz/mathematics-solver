@@ -29,6 +29,3 @@ $\triangle ABC$を$x$軸で面積が二等分される正三角形に移す．
 \item[(3)]$f$を表す行列$X$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1993/1993_0_3.pdf)

@@ -19,6 +19,3 @@ format:
 次の連立方程式を解け。ここで対数は常用対数とする。
 \[ 4^x+{(\log xy)}^2=68 \hspace{1zw} 2^x+\log y=8+\log\frac{100}{x} \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1962/1962_1.pdf)

@@ -17,6 +17,3 @@ format:
 
 $\sqrt{x-a}=x-b$を$x$について解け。
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1964/1964_1.pdf)

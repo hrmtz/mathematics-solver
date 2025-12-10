@@ -22,6 +22,3 @@ $\displaystyle\log\left(1+\frac{1}{x^2}\right)$
 の大小を調べよ．
 ただし，対数は自然対数とし，$x\neq0$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1969/1969_5.pdf)

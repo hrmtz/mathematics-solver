@@ -33,6 +33,3 @@ $D=0$であることを示せ。
 を満たす実数$r$と$s$を$\overrightarrow{q}$，$\overrightarrow{v}$，$\overrightarrow{w}$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2023/2023_0_3.pdf)

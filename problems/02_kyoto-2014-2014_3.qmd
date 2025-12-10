@@ -19,6 +19,3 @@ format:
 $\triangle ABC$は，条件$\angle B=2\angle A$，$BC=1$を満たす三角形のうちで面積が最大のものであるとする．
 このとき，$\cos\angle B$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2014/2014_3.pdf)

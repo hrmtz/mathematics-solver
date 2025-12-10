@@ -30,6 +30,3 @@ $\overrightarrow{OA'}$を表せ．
 $\alpha=\beta=\gamma$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_3.pdf)

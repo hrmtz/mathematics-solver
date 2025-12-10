@@ -27,6 +27,3 @@ $n\geqq2$のとき，$p_n$を$p_{n-1}$で，$q_n$を$q_{n-1}$でそれぞれ表�
 \item[(3)]$\displaystyle\lim_{n\to\infty}\frac{{(-1)}^np_n}{n \, !}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_f.pdf)

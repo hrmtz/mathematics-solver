@@ -26,6 +26,3 @@ $n$を3以上の自然数とする．
 放物線$C_1, \, C_2, \, \cdots, \, C_n$によって囲まれる部分の面積を$S_n$とするとき，
 $\displaystyle\lim_{n\to\infty}S_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_3.pdf)

@@ -28,6 +28,3 @@ $\displaystyle a=\frac{\sqrt3+1}{2}$，$\displaystyle b=\frac{\sqrt3-1}{2}$の�
 面積$S$を$\theta$の関数とみてその最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1996/1996_b.pdf)

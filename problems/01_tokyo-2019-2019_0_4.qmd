@@ -31,6 +31,3 @@ $\overrightarrow{OU}=\overrightarrow{OS}-\overrightarrow{OT}$をみたす点$U$�
 $G$は$E$と一致することを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2019/2019_0_4.pdf)

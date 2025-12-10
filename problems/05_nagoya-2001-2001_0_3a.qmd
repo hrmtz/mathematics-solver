@@ -30,6 +30,3 @@ $\overrightarrow{OQ}=s\overrightarrow{OA}$，$\overrightarrow{OR}=t\overrightarr
 \item[(2)]直線$AC$が$F$と接するとき，$k$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_0_3a.pdf)

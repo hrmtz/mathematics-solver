@@ -27,6 +27,3 @@ format:
 \item[(2)]曲線$y=f(x)$が点$(1, \, 2)$を通るとき，$x>0$の範囲で$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1986/1986_6.pdf)

@@ -29,6 +29,3 @@ $y$軸の周りに一回転させて得られる立体の体積を$V(a)$とす�
 必要ならば，$\displaystyle\lim_{x\to\infty}\frac{\log x}{x}=0$を証明なしで用いてよい。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_c.pdf)

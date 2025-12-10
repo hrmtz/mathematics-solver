@@ -22,6 +22,3 @@ $f_a(x)$を次の式で定義する．
  0 & (2a<|x|\leqq\pi) \end{cases} \]
 極限値$\displaystyle\lim_{a\to0}\int_{-\pi}^{\pi}f_a(x)|\cos ax|dx$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1987/1987_6.pdf)

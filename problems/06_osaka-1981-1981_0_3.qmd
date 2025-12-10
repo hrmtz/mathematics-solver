@@ -26,6 +26,3 @@ $\triangle OPQ$の面積を$S_1$，曲線$C$と接線$l$で囲まれる図形の
 \item[(2)]$S_1=S_2$となる$a$の値をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1981/1981_0_3.pdf)

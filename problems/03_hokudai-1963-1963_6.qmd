@@ -24,6 +24,3 @@ format:
 次のこのとき，\ding{"AC}，\ding{"AD}によって囲まれる部分の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1963/1963_6.pdf)

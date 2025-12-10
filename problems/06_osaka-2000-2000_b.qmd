@@ -28,6 +28,3 @@ $Q(a\cos\varphi, \, a\sin\varphi)$は曲線
 \frac{\overline{PR}^2+\overline{P'R}^2}{\overline{OR}^2}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_b.pdf)

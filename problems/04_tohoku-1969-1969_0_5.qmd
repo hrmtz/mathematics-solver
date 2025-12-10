@@ -22,6 +22,3 @@ format:
 \item[(2)]$f(a)$の最大値と最小値とを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1969/1969_0_5.pdf)

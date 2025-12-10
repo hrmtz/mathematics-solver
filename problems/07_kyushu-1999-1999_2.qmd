@@ -29,6 +29,3 @@ $A$から線分$OQ$に下ろした垂線を$AS$とする．
 $0^\circ<\theta\leqq{90}^\circ$の範囲で$\displaystyle\frac{{OS}^2}{{OQ}^2}$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_2.pdf)

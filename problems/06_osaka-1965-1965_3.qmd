@@ -26,6 +26,3 @@ format:
 \item[(3)]直線\ding{"AD}が2直線\ding{"AC}，\ding{"AE}の交点を通るとき，$a$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1965/1965_3.pdf)

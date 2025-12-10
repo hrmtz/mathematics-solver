@@ -27,6 +27,3 @@ format:
 $X^2=A$となるものが存在する．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1992/1992_1.pdf)

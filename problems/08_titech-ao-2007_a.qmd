@@ -21,6 +21,3 @@ format:
 $g_m(x)$の最小値を$a_m$，最大値を$b_m$とするとき，
 極限値$\displaystyle\lim_{m\to\infty}\frac{a_m}{b_m}$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/ao/2007_a.pdf)

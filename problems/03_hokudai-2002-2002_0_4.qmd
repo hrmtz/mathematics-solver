@@ -27,6 +27,3 @@ $\displaystyle\beta=\cos\frac{{360}^\circ}{n}+i\sin\frac{{360}^\circ}{n}$とし�
 を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2002/2002_0_4.pdf)

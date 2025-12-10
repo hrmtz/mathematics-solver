@@ -25,6 +25,3 @@ format:
 \item[(2)]2点$P$，$Q$間の距離が$\sqrt2$になるような$t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1975/1975_0_4.pdf)

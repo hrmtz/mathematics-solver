@@ -28,6 +28,3 @@ format:
 直線$OP_r$と$x$軸とのなす角が${60}^\circ$となるのは$r$がいくつのときか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1995/1995_1.pdf)

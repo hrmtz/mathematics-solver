@@ -25,6 +25,3 @@ $\displaystyle\int_0^1x^p{(1-x)}^qdx\leqq\frac{1}{q+1}$を示せ．
 \[ a_n=\frac{1}{n^{s+1}}\int_0^nx^s{\left( 1-\frac{x}{n} \right)}^ndx \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1992/1992_5.pdf)

@@ -23,6 +23,3 @@ format:
 \[ f(x)=x+\int_0^\pi f(t)\sin t dt \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1972/1972_6.pdf)

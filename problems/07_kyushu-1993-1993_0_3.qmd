@@ -28,6 +28,3 @@ $0 \leqq t \leqq c$において関数$f(t)$，$g(t)$を次の式が成立する�
 \item[(2)]点$(h(t), \, k(t))$の軌跡が原点を通るとき，$c$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1993/1993_0_3.pdf)

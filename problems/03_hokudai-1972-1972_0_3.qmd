@@ -23,6 +23,3 @@ format:
 (1)で求めた$M$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1972/1972_0_3.pdf)

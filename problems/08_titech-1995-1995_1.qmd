@@ -23,6 +23,3 @@ $n=1,2,3,\cdots$に対して数列$\displaystyle a(n)=\frac{(n+2)(n+3)(n+4)}{n \
 \item[(3)]積$a(1) a(2) \cdots a(n)$が整数となる$n$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1995/1995_1.pdf)

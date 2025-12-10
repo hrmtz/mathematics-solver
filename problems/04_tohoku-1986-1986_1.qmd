@@ -36,6 +36,3 @@ $\overrightarrow{p}$を
 基本ベクトル$\overrightarrow{e_1}$，$\overrightarrow{e_2}$，$\overrightarrow{e_3}$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1986/1986_1.pdf)

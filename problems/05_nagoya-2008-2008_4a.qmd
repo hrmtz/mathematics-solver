@@ -22,6 +22,3 @@ format:
 \item[(2)]$\displaystyle\frac{x}{2}+\frac{y}{3}+\frac{z}{6}\leqq10$を満たす0以上の整数の組$(x, \, y, \, z)$の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2008/2008_4a.pdf)

@@ -29,6 +29,3 @@ $\displaystyle L \left( \frac{1}{2}+i, \, i \right)$，$L(i, \, 0)$
 で囲まれる領域の内部または境界に含まれるMの要素の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2019/2019_3.pdf)

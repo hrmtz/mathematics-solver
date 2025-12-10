@@ -26,6 +26,3 @@ format:
 ただし斜線の部分は通れないものとする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2008/2008_b.pdf)

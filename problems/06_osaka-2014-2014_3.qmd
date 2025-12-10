@@ -17,6 +17,3 @@ format:
 
 $\displaystyle\sum_{n=1}^{40000}\frac{1}{\sqrt{n}}$の整数部分を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2014/2014_3.pdf)

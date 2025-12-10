@@ -20,6 +20,3 @@ format:
 \[ 0 \leqq x^2+y^2-2x^2y^2+2xy\sqrt{1-x^2}\sqrt{1-y^2} \leqq 1 \]
 が成り立つことを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2015/2015_2.pdf)

@@ -26,6 +26,3 @@ format:
 のとりうる値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2018/2018_1.pdf)

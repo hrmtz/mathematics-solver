@@ -23,6 +23,3 @@ format:
 $0\leqq\theta\leqq\pi$の部分の長さを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_4.pdf)

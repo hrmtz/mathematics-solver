@@ -32,6 +32,3 @@ $\overrightarrow{OP_1}$と$\overrightarrow{OP_2}$の長さが1のとき，
 すべての$n$に対して$\overrightarrow{OP_n}$の長さが1であることを示せ．
 ここで$O$は原点である．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2009/2009b_4.pdf)

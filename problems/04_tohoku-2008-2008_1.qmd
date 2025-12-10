@@ -27,6 +27,3 @@ format:
 \item[(2)]条件(i)，(ii)，(iii)をすべてみたす多項式$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_1.pdf)

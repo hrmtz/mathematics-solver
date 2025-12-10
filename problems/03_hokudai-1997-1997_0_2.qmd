@@ -21,6 +21,3 @@ format:
 \item[(2)]${18}^{35}$の最高位の数字が8であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_0_2.pdf)

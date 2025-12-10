@@ -65,6 +65,3 @@ $\alpha$は$\beta$と□するか，または$\alpha$は$\beta$の□である�
 証明は，ゆっくりあとで考えてごらん．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1965/1965_1.pdf)

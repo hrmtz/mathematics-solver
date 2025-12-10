@@ -28,6 +28,3 @@ r_n\cos\left(\frac{\pi}{2^{n+2}}\right)$を示せ．
 \item[(2)]$r_1=1$のとき，$r_n<\sqrt2$ $(n=1, \, 2, \, \cdots\cdots)$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1977/1977_0_2.pdf)

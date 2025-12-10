@@ -24,6 +24,3 @@ format:
 $C_2$の頂点$A$が円$C$上を動くとき，$S$の最大値と，そのときの$A$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1993/1993_0_4.pdf)

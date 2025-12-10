@@ -27,6 +27,3 @@ format:
 \item[(2)]円$C_n$の面積を$S_n$とするとき，$\displaystyle S=\sum_{n=1}^\infty S_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1982/1982_3.pdf)

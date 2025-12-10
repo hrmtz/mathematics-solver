@@ -26,6 +26,3 @@ format:
 の上を動くとき，(1)の四角形の面積$S$の最大値と最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2025/2025_2.pdf)

@@ -28,6 +28,3 @@ $a_1,a_2,\cdots\cdots,a_n$までが$1-\epsilon$以下となったとすれば，
 \[ 2-x>n{\epsilon}^2 \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1971/1971_2.pdf)

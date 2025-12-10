@@ -25,6 +25,3 @@ $x_1$，$x_2$，$\cdots\cdots$，$x_n$，$\cdots\cdots$について，次の各�
 \item[(ハ)]この数列の極限値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1970/1970_6.pdf)

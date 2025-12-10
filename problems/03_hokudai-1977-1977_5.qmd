@@ -24,6 +24,3 @@ $\displaystyle\lim_{x\to+\infty}f(x)=1$，$\displaystyle\lim_{x\to-\infty}f(x)=1
 \item[(3)]微分係数の定義と(1)とを用いて$f'(0)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1977/1977_5.pdf)

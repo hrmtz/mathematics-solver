@@ -23,6 +23,3 @@ format:
 \item[(2)]$\theta$を動かすとき直線$l_\theta$が通る点全体の集合を$D$とする．$D$を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1990/1990_a.pdf)

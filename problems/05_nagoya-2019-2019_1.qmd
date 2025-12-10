@@ -30,6 +30,3 @@ Cを平面$\displaystyle x=\frac{1}{2}$で2つの部分に切断したとき，�
 $z$軸に垂直な平面による切り口を考えてSの体積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2019/2019_1.pdf)

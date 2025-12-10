@@ -23,6 +23,3 @@ format:
 \item[(2)]条件$A$および$5y-x+2=0$を同時に満たす整数の組$(x, \, y)$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1978/1978_0_2.pdf)

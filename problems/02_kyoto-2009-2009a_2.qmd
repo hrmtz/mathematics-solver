@@ -22,6 +22,3 @@ $\triangle OA_nA_{n+1}$と$\triangle OA_{n+1}A_{n+2}$が
 $\triangle OA_2A_5$の面積が$\triangle OA_1A_2$の面積の正の整数倍となるとき，
 $\angle A_1OA_2$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2009/2009a_2.pdf)

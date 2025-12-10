@@ -29,6 +29,3 @@ $f_p(1)=f_q(1)$とすることができる．
 $f_n(1)=1$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1993/1993_4b.pdf)

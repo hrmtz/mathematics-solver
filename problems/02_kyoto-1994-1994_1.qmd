@@ -27,6 +27,3 @@ $A=\begin{pmatrix} 1 & 1
 \item[(3)]$AB=BA$，$B^2=E$を満たす行列$B$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_1.pdf)

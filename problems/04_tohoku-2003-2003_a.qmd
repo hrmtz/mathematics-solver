@@ -25,6 +25,3 @@ format:
  0 & (n\geqq2\text{のとき}) \end{cases} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_a.pdf)

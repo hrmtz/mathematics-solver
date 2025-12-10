@@ -18,6 +18,3 @@ format:
 
 $x$の関数$\displaystyle F(x)= \int_0^1 \frac{|t-x|}{t+1} dt$の最小値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1992/1992_a.pdf)

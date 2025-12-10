@@ -26,6 +26,3 @@ $C$上の異なる2点$P(p, \, \sqrt{p})$，$Q(q, \, \sqrt{q})$ $(p>0, \, q>0)$�
 \item[(2)]$q$が$p$に限りなく近づくとき，線分$RP$の長さの極限値を$p$で表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_a.pdf)

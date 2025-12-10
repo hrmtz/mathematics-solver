@@ -27,6 +27,3 @@ format:
 このとき，辺ABの長さを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2019/2019_2.pdf)

@@ -25,6 +25,3 @@ format:
 \item[(3)]$\alpha<1$であるすべての$D_\alpha$に属する点全体の集合を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1978/1978_1.pdf)

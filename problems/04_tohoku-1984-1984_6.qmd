@@ -24,6 +24,3 @@ format:
 $x$軸のまわりに回転してできる立体の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1984/1984_6.pdf)

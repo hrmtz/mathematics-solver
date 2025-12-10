@@ -26,6 +26,3 @@ $x$に関する多項式$P_n(x)$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$が，
 \item[(3)]方程式$P_5(x)=1$の異なる実数解の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_6.pdf)

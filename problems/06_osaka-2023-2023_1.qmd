@@ -25,6 +25,3 @@ $n$を2以上の自然数とする．
 \[ \lim_{n\to\infty}{(-1)}^nn(a_n-\log2) \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2023/2023_1.pdf)

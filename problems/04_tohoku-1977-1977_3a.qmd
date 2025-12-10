@@ -32,6 +32,3 @@ $T(T(\overrightarrow{x}))-\overrightarrow{x}$を計算せよ．
 $T(\overrightarrow{u})=\overrightarrow{v}$となる$\overrightarrow{a}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1977/1977_3a.pdf)

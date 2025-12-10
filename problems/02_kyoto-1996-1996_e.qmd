@@ -25,6 +25,3 @@ $\triangle PQR$(内部を含む)が動いてできる立体の体積$V$を求め
 \item[(2)]$a$が$0<a\leqq1$の範囲を動くとき，体積$V$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_e.pdf)

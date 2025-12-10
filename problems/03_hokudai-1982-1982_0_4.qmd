@@ -22,6 +22,3 @@ $t\geqq0$に対し，曲線$y=x^2-t^2$ $(x\geqq0)$と$x$軸，$y$軸および直
 \item[(2)]$t$が変化するとき，$S(t)$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1982/1982_0_4.pdf)

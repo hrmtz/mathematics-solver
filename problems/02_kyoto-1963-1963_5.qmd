@@ -31,6 +31,3 @@ $\triangle OP_0P_1$の何倍であるか，それを$\theta$と$\alpha$で表わ
 また$a$，$\alpha$を固定したまま，$\theta$を限りなく0に近づけたとき，$L$はどんな値に近づくか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1963/1963_5.pdf)

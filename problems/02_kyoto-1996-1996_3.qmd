@@ -21,6 +21,3 @@ $f(\vec{v})\neq\vec{v}$かつ$f^3(\vec{v})=\vec{v}$となるベクトル$\vec{v}
 $f^3$は恒等変換であることを示せ．
 ただし$f^3=f\circ(f \circ f)$である．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_3.pdf)

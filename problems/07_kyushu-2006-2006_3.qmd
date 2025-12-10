@@ -25,6 +25,3 @@ format:
 \item[(2)]$n\geqq2$のとき，$a_n$と$b_n$は互いに素であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2006/2006_3.pdf)

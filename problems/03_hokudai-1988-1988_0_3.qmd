@@ -19,6 +19,3 @@ format:
 数列$\{ \theta_k \}$が$\displaystyle\cos\theta_k=1-\frac{1}{2k^2}$を満たすとき，
 $\displaystyle\sum_{k=1}^n\tan^2\frac{\theta_k}{2}$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1988/1988_0_3.pdf)

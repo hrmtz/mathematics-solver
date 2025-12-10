@@ -29,6 +29,3 @@ $m$枚のハートが連続して並ぶ確率を求めよ．
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_d.pdf)

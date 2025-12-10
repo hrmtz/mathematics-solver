@@ -36,6 +36,3 @@ format:
 $\displaystyle\lim_{n\to\infty}x_n$，$\displaystyle\lim_{n\to\infty}y_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1987/1987_2.pdf)

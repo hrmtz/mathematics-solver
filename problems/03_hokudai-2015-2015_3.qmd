@@ -30,6 +30,3 @@ $\overrightarrow{OH}=k\overrightarrow{a}+l\overrightarrow{c}$をみたす実数$
 $x$，$y$，$z$で表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2015/2015_3.pdf)

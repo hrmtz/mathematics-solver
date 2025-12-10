@@ -25,6 +25,3 @@ format:
 { \left\{ \int_0^1 {\left( 1+\sin\frac{\pi t}{2} \right)}^ndt \right\} }^\frac{1}{n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1977/1977_4.pdf)

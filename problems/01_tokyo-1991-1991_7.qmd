@@ -24,6 +24,3 @@ format:
 \item[(3)]$3^x=x^3$を満たす正の有理数は，3以外には存在しないことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1991/1991_7.pdf)

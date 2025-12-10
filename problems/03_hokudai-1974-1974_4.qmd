@@ -24,6 +24,3 @@ format:
 \item[(3)]毎日1時限と2時限を異なる科目とする場合．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1974/1974_4.pdf)

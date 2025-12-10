@@ -20,6 +20,3 @@ $\alpha$，$\beta$は$\alpha>\beta>0$を満たす定数とする．
 点$(x, \, y)$が$x>0$，$xy\geqq1$を満たす範囲を動くとき，
 $\alpha(x+y)+\beta(x-y)$を最小にする$x$，$y$の値およびその最小値を$\alpha$，$\beta$で表せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1978/1978_5.pdf)

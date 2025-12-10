@@ -20,6 +20,3 @@ format:
 \item[(2)](1)の円と接線との接点$P$，$Q$，原点$O$および$A$を頂点とする4角形$OPAQ$の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1967/1967_1.pdf)

@@ -26,6 +26,3 @@ format:
 2次以下のどんな整式$f(x)$に対しても$\displaystyle\int_{-1}^1P_3(x)f(x)dx=0$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1979/1979_1.pdf)

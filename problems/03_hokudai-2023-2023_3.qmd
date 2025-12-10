@@ -26,6 +26,3 @@ format:
 $y$のとりうる値の最大値とそのときの$x$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2023/2023_3.pdf)

@@ -33,6 +33,3 @@ format:
 試行(＊)を$n$回繰り返した後に，点Pが原点にもどっている確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2025/2025_1.pdf)

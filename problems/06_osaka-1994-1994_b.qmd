@@ -25,6 +25,3 @@ $Ax^2+2Bxy+Cy^2=1$とする．
 \item[(2)]$K$が，楕円となるような$b$の値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1994/1994_b.pdf)

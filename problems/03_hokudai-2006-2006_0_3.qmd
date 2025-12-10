@@ -22,6 +22,3 @@ format:
 \item[(2)]方程式\ding{"AC}の実数解の中で，$0 \leqq x \leqq 1$の範囲にあるものがただ1つであるための$p$の条件を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2006/2006_0_3.pdf)

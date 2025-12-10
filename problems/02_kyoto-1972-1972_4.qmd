@@ -25,6 +25,3 @@ $\overrightarrow{PS}=c\overrightarrow{PS'}$とおくとき，
 $a+c \geqq b$が成立することを示せ．
 ($\overrightarrow{PQ}$などはベクトルを表わす)
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1972/1972_4.pdf)

@@ -33,6 +33,3 @@ $a$と$n$を自然数とし，はじめに，空の袋に$a$個の赤玉を入�
 さらに，$\displaystyle\lim_{n\to\infty}\frac{M_n}{n}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2018/2018_c.pdf)

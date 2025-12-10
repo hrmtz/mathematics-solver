@@ -29,6 +29,3 @@ $w_1$，$w_2$，$w_3$およびそれらと共役な点$\overline{w_1}$，$\overl
 原点中心の正六角形の頂点となるとき，$k$および$\theta$ $(0^\circ \leqq \theta \leqq {180}^\circ)$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_0_4b.pdf)

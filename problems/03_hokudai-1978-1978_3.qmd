@@ -23,6 +23,3 @@ format:
 の最大値$M$と最小値$L$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1978/1978_3.pdf)

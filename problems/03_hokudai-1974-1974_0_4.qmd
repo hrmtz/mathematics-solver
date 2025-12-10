@@ -27,6 +27,3 @@ $n(X)$は$X$に属する学生の数を表し，
 $\overline{X}$は$X$の補集合を表す．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1974/1974_0_4.pdf)

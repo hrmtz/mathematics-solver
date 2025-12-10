@@ -28,6 +28,3 @@ $a{(x-p)}^2+b{(x-q)}^2+c{(x-r)}^2$，$c{(x-p)}^2+b{(x-q)}^2+a{(x-r)}^2$が2式�
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1964/1964_3.pdf)

@@ -24,6 +24,3 @@ ${}_nC_k>n$であることを示せ。
 ${}_nC_k=p$となるものをすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_5.pdf)

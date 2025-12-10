@@ -30,6 +30,3 @@ $a$は正の定数であり，2つの関数$f(x)$，$g(x)$は次の4条件(1)～
 \item[(ii)]$\displaystyle a \leqq y \leqq a+\frac{f(a)}{g(a)}$，$f(y)=0$をみたす実数$y$がある．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1977/1977_6.pdf)

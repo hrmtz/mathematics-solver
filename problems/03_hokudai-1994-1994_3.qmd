@@ -30,6 +30,3 @@ format:
 \item[(2)]線分$PQ$の長さが最小となるとき，$M$，$N$を通る直線の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_3.pdf)

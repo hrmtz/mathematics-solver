@@ -30,6 +30,3 @@ $\displaystyle\beta-1<{\left(\frac{\alpha}{\beta}\right)^n(\alpha-1)}$が成り�
 必要十分条件を求め，点$(a,b)$の存在する範囲を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1995/1995_a.pdf)

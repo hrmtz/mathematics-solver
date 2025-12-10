@@ -25,6 +25,3 @@ $|\overrightarrow{OB}|=|\overrightarrow{OC}|=3$，
 $|\overrightarrow{AB}|=\sqrt7$のとき，
 $|\overrightarrow{OH}|$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2011/2011_0_2.pdf)

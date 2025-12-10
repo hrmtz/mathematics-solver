@@ -21,6 +21,3 @@ $k \neq m$のとき$\overrightarrow{P_kP_m}\cdot\overrightarrow{v}\neq0$が成�
 このとき，$k$と異なるすべての$m$に対し$\overrightarrow{P_kP_m}\cdot\overrightarrow{v}<0$が
 成り立つような点$P_k$が存在することを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2001/2001_4.pdf)

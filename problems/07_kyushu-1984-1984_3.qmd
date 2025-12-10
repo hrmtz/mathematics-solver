@@ -25,6 +25,3 @@ format:
 点$Q$が$C$上を動くとき，点$R$の描く図形の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1984/1984_3.pdf)

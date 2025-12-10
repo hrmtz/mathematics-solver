@@ -25,6 +25,3 @@ format:
 \item[(3)]\ding{"AC}をみたす自然数の組$(m, \, n)$を1つ求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2022/2022_3.pdf)

@@ -24,6 +24,3 @@ x\geqq0, \hspace{1zw} y\geqq0 \]
 \item[(2)]実数$x$，$y$が(1)の連立不等式を満たすとき，$x+y$の最大値を$a$，$b$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2002/2002_0_3.pdf)

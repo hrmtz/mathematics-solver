@@ -27,6 +27,3 @@ format:
 ちょうど1個が白である確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1976/1976_6.pdf)

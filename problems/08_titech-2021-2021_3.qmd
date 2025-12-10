@@ -27,6 +27,3 @@ format:
 \item[(3)]$a_n$が素数となる正の整数$n$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2021/2021_3.pdf)

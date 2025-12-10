@@ -26,6 +26,3 @@ $0<\theta<\pi$の範囲で$\theta$が動くとき，
 $y$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2009/2009_4.pdf)

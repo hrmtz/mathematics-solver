@@ -25,6 +25,3 @@ $a_1, \, a_2, \, \cdots\cdots, \, a_n, \, \cdots\cdots$とするとき，$a_3$�
 \item[(3)]無限級数$a_1+a_2+\cdots\cdots+a_n+\cdots\cdots$の和を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1967/1967_3.pdf)

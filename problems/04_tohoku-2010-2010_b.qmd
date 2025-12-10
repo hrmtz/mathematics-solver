@@ -26,6 +26,3 @@ $\alpha^n$から最も近い整数と$\alpha^n$との差を$d_n$とする．
 極限$\displaystyle\lim_{n\to\infty}d_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_b.pdf)

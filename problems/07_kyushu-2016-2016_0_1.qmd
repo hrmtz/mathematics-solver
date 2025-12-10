@@ -27,6 +27,3 @@ $S$を$\alpha$と$\beta$の式で表せ。
 $S$を最小とする$\alpha$を$\beta$の式で表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2016/2016_0_1.pdf)

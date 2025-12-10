@@ -36,6 +36,3 @@ $n$個の$Q$と$k$個の$J$からなる順列
 \item[(3)]$N(10, \, 4)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2012/2012_b.pdf)

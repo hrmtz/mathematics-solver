@@ -31,6 +31,3 @@ f_n(z)=f(f_{n-1}(z)), \hspace{1zw} \cdots \]
 が成り立つような$z$によらない実数$r_n$，$s_n$がとれることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1989/1989_0_3.pdf)

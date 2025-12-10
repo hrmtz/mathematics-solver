@@ -24,6 +24,3 @@ format:
 \item[(3)](2)の関係式(＊)を満たす自然数の組$(n, \, k)$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2021/2021_d.pdf)

@@ -25,6 +25,3 @@ $\displaystyle B \left( 1, \, 0, \, \frac{1}{2} \right)$，$P(2p, \, p, \, 3p)$�
 \item[(2)]点$P$より直線$AB$に下ろした垂線の長さが$\displaystyle\frac{\sqrt5}{2}$になるように$p$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1984/1984_0_3.pdf)

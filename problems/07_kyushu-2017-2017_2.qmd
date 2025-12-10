@@ -28,6 +28,3 @@ $\overrightarrow{AG}$と$\overrightarrow{BH}$がなす角を$\theta$とすると
 $\cos\theta$を$a$，$b$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_2.pdf)

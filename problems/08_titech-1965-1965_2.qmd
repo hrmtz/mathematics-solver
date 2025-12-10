@@ -19,6 +19,3 @@ format:
 $t_n=\alpha^n+\beta^n+\gamma^n$とおくとき，
 $at_5+bt_4$を$a$，$b$で表わせ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1965/1965_2.pdf)

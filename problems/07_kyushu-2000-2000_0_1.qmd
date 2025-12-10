@@ -27,6 +27,3 @@ $OP$上に$\overline{OR}=\overline{PQ}$を満たす点$R(x, \, y)$をとる．
 (1)で求めた曲線上にあるような組$(m, \, n)$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2000/2000_0_1.pdf)

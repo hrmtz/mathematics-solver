@@ -24,6 +24,3 @@ format:
 \item[(2)]$n\geqq12$のとき，不等式$p_n>3n$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2024/2024_0_3.pdf)

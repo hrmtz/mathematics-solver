@@ -28,6 +28,3 @@ format:
 \item[(3)]$X$にちょうど2回現れる数字が1種類以上ある確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_3.pdf)

@@ -30,6 +30,3 @@ $f(A)=a+d$，$g(A)=bc-ad$とおく．
 $A=B$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1993/1993_3.pdf)

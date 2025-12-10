@@ -26,6 +26,3 @@ C(0, \, 1, \, 4), \hspace{1zw} D(3, \, 8, \, 3) \]
 \item[(3)]四面体$ABCD$の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_0_b.pdf)

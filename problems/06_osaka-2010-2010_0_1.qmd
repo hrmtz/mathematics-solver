@@ -25,6 +25,3 @@ $\displaystyle y=\frac{3}{4}{(x-t)}^2-t^2-1$が通過する領域を$xy$平面�
 $x=a$での$C$の接線を$l$とする．$D$と$l$で囲まれた部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2010/2010_0_1.pdf)

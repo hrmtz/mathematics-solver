@@ -25,6 +25,3 @@ format:
 $V=3\pi I_3+2\pi I_2$と表されることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1998/1998_f.pdf)

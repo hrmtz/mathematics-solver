@@ -25,6 +25,3 @@ format:
 $B$と$C$についても，1本目の当たりくじを引く確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2010/2010_5.pdf)

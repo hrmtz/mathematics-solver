@@ -29,6 +29,3 @@ $f(x)=0$を満たす$x$の値および$f(x)$の極大値を与える$x$の値を
 \item[(4)]無限級数の和$\displaystyle\sum_{n=1}^\infty S_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2005/2005_c.pdf)

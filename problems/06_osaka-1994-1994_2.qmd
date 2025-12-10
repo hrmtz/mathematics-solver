@@ -30,6 +30,3 @@ $\displaystyle Q \left( a, \, \frac{a^3}{\sqrt3} \right)$で反射した後，
 \item[(2)]直線$l$と曲線$C$が第1象限で囲む図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1994/1994_2.pdf)

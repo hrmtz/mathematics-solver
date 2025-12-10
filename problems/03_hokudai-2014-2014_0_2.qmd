@@ -27,6 +27,3 @@ a_{n+2}-ta_{n+1}=s(a_{n+1}-ta_n) \end{cases} \hspace{1zw}
 \item[(2)]一般項$a_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2014/2014_0_2.pdf)

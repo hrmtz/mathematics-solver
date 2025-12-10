@@ -19,6 +19,3 @@ format:
 不等式$ab+1 \leqq abc \leqq bc+ca+ab+1$を満たす自然数$a, \, b, \, c$のすべての組を求めよ．
 ただし，$a>b>c$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1968/1968_1.pdf)

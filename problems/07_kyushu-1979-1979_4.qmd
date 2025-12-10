@@ -29,6 +29,3 @@ format:
 \item[(2)]面積$S(x)$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1979/1979_4.pdf)

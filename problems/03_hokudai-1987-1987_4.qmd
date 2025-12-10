@@ -23,6 +23,3 @@ $\displaystyle F(x)=\int_0^xf(t)\sin(x-t)dt$とする．
 \item[(2)]$F(x)=f(x)-xe^{-x}$が成り立つ$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1987/1987_4.pdf)

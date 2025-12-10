@@ -25,6 +25,3 @@ $n$次式$x^n$を2次式$f(x)=x^2-ax+b$で割った余りを$r_nx+s_n$とおく�
 \[ t_n=-r_n, \hspace{1zw} u_n=ar_n+s_n \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1988/1988_1.pdf)

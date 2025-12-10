@@ -24,6 +24,3 @@ $\sin n\theta=p_n(\tan\theta)\cos^n\theta$，$\cos n\theta=q_n(\tan\theta)\cos^n
 \[ {p_n}'(x)=nq_{n-1}(x), \hspace{1zw} {q_n}'(x)=-np_{n-1}(x) \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1991/1991_4.pdf)

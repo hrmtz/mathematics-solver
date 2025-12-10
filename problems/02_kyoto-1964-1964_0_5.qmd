@@ -26,6 +26,3 @@ $(a,b)$が(イ)の条件の範囲を動くとき，
 $12\alpha+12\beta-\alpha^2\beta-\alpha\beta^2$のとりうる値の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1964/1964_0_5.pdf)

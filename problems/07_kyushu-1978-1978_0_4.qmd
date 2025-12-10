@@ -23,6 +23,3 @@ format:
 \item[(2)]平面$\alpha$と$y$軸との交点を$B$，$z$軸との交点を$C$とするとき，$\angle CAB$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1978/1978_0_4.pdf)

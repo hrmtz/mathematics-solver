@@ -22,6 +22,3 @@ $\angle B$が鋭角である$\triangle ABC$において，
 $\displaystyle\frac{2BH}{BC}$，$\displaystyle\frac{2BK}{BA}$がともに整数であるとき，
 $\triangle ABC$はどのような3角形であるか．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1976/1976_1.pdf)

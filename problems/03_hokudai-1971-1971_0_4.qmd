@@ -23,6 +23,3 @@ $\theta_1$，$\theta_2$ $\displaystyle \left( -\frac{\pi}{2}<\theta_1<\theta_2<\
 $\tan(\theta_1+\theta_2)$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1971/1971_0_4.pdf)

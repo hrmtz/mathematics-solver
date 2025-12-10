@@ -29,6 +29,3 @@ $f(x)=x+(x-\alpha)(x-\beta)$とする．
 \item[(3)]$\displaystyle\lim_{n\to\infty}(\alpha-x_n)=0$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1988/1988_3.pdf)

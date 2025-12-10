@@ -21,6 +21,3 @@ format:
 $\triangle PQR$が1辺の長さ$\displaystyle\frac{2}{\sqrt3}$の正三角形になるようにとる．
 このとき，${OQ}^2+{OR}^2$の最大値および最小値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1979/1979_4.pdf)

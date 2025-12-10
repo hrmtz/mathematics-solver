@@ -21,6 +21,3 @@ $0 \leqq x <2\pi$の範囲で次の方程式の解を求めよ．
 \item[(2)]$\sin^3x+\cos^3x+\sin x=2$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_a.pdf)

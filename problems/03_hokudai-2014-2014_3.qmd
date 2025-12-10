@@ -28,6 +28,3 @@ format:
 $B_{n+1}$と$B_n$との間に成立する関係式を求め，$B_n$を$B_1$と$n$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2014/2014_3.pdf)

@@ -32,6 +32,3 @@ $\displaystyle\theta=\frac{\pi}{7}$として，$k=1, \, 2, \, 3$について
 とおく。このとき，$Q(x_k)=0$が成り立つことを示し，$x_1+x_2+x_3$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_4.pdf)

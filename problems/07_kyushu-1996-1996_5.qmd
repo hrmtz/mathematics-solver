@@ -30,6 +30,3 @@ $C_1=A$，$C_2=B$，$C_n=C_{n-2}C_{n-1}C_{n-2}$，$(n\geqq3)$のように定め�
 $\displaystyle\lim_{n\to\infty}\frac{a_n}{b_n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1996/1996_5.pdf)

@@ -31,6 +31,3 @@ format:
 \item[(3)]$P_1(q) \geqq P_2(q)$となる条件を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2015/2015_b.pdf)

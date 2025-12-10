@@ -25,6 +25,3 @@ format:
 点$P$が点$(0, \, 1)$を通過してから2秒後の点$Q$の速さを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1984/1984_5.pdf)

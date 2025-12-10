@@ -34,6 +34,3 @@ $y$軸のまわりに1回転してできる容器$B$がある．
 \item[(4)]$W_B(\phi)=rW_A(\theta)$となるとき，$\tan\theta$を$\phi$の関数として求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_c.pdf)

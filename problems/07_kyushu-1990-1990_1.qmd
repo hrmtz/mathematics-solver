@@ -34,6 +34,3 @@ $P$，$Q$はともに$C$上の点であり，
 かつベクトル$\overrightarrow{OP}$と$\overrightarrow{OQ}$は直交していることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_1.pdf)

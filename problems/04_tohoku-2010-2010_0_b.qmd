@@ -27,6 +27,3 @@ $\triangle ABP$の外接円が$l$，$m$に接するとき，
 内積$\overrightarrow{OA}\cdot\overrightarrow{OB}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_0_b.pdf)

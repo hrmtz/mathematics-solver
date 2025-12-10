@@ -20,6 +20,3 @@ $a$，$b$，$x$，$y$は正数で，$a \neq b$，$x+y=1$とする。
 このとき次の3数$P$，$Q$，$R$の大小を比較せよ。
 \[ P=\frac{x}{a}+\frac{y}{b}, \hspace{1zw} Q=(2-a)x+(2-b)y, \hspace{1zw} R=\frac{1}{ax+by} \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1965/1965_1.pdf)

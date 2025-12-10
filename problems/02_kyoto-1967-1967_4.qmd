@@ -65,6 +65,3 @@ n=0,1,2,\cdots\cdots\end{equation}
 $(x_n,y_n)$ $(n=0,1,2,\cdots\cdots)$のどれか1つである．」
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1967/1967_4.pdf)

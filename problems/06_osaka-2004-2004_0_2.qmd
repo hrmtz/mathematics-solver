@@ -27,6 +27,3 @@ $C_n$の半径を$a_n$とし，$b_n=a_1+a_2+\cdots\cdots+a_n$とする．
 \item[(3)]$a_n$を$n$の式で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_0_2.pdf)

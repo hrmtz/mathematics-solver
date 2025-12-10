@@ -27,6 +27,3 @@ $a_n(p)-a_{n-1}(p)$は文字$p$についての多項式として${(1-p)}^n$で�
 \item[(2)]$a_3(p) \geqq a_2(p)$となる$p$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_c.pdf)

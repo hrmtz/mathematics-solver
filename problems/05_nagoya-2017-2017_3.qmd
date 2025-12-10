@@ -28,6 +28,3 @@ $ab$平面上に図示せよ。
 $ab$平面上に図示せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2017/2017_3.pdf)

@@ -35,6 +35,3 @@ $\displaystyle\sum_{k=1}^{100}{(-1)}^kf_{2k}(0)$を求めよ．
 $f_6(0)=0$となる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2016/2016_1.pdf)

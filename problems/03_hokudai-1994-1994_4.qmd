@@ -26,6 +26,3 @@ $g(x)$は奇関数であることを示せ．
 $\displaystyle \int_{-x}^x{ \{ f(t) \} }^2dt\geqq\int_{-x}^x\cos^2tdt$を証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_4.pdf)

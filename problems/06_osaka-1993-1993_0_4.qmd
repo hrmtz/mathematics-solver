@@ -23,6 +23,3 @@ $\angle APB>{90}^\circ$を満たす空間内の点$P$全体のなす集合$S$を
 \item[(3)]正四面体$ABCD$の表面と$S$の交わりの面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1993/1993_0_4.pdf)

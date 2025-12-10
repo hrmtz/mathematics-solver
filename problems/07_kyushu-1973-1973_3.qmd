@@ -30,6 +30,3 @@ $\displaystyle1+(\alpha+1)\left(\frac{n^\alpha+1}{2}+\sum_{k=2}^{n-1}k^\alpha\ri
 ただし，対数は自然対数である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1973/1973_3.pdf)

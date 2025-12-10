@@ -28,6 +28,3 @@ format:
 およびそのときの$P(u, \, v)$の軌跡を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2007/2007_d.pdf)

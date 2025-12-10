@@ -29,6 +29,3 @@ b_n=\int_{-\frac{\pi}{6}}^\frac{\pi}{6}e^{n\sin\theta}\cos\theta d\theta \hspace
 ただし，対数は自然対数とする。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2013/2013_4.pdf)

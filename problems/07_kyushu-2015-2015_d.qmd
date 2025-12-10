@@ -30,6 +30,3 @@ format:
 極限が有限な値である場合，その値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2015/2015_d.pdf)

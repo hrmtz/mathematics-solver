@@ -26,6 +26,3 @@ format:
 となるようなベクトル$\overrightarrow{d}$を1つ求め，その成分を$a$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_0_4b.pdf)

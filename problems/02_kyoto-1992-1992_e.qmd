@@ -29,6 +29,3 @@ format:
 \item[(2)]$X\leqq m$である確率$P(X\leqq m)$を求めよ$(m=2,3,\cdots\cdots,N+1)$．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_e.pdf)

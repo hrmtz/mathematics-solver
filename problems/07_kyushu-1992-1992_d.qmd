@@ -31,6 +31,3 @@ $\displaystyle\lim_{a\to+0}g(a)|\log a|$を計算せよ．
 必要なら，$\displaystyle\lim_{t\to+\infty}\frac{\log t}{t}=0$を用いてよい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_d.pdf)

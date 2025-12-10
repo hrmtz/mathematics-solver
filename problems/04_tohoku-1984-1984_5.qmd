@@ -23,6 +23,3 @@ $n$を自然数とし，$\displaystyle f(x)=\sum_{k=1}^{2n}|x-3^k|$とする．
 $a_n$および$\displaystyle\lim_{n\to\infty}\frac{a_n}{9^n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1984/1984_5.pdf)

@@ -37,6 +37,3 @@ format:
 \item[(3)]$p_n$を$n$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2014/2014_3.pdf)

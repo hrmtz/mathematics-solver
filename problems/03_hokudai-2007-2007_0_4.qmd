@@ -30,6 +30,3 @@ $C$上の点$(x, \, y)$の動く領域を$D$とする．
 $\displaystyle\frac{1}{2}\leqq p \leqq\frac{3}{4}$の範囲で$S$の最大値と最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_0_4.pdf)

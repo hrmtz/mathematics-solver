@@ -22,6 +22,3 @@ $\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$の部分で囲まれる領域を�
 $x$軸のまわりに1回転させてできる立体の体積を求めよ．
 　ただし，$x=0$と$\displaystyle x=\frac{\pi}{2}$は領域を囲む線とは考えない．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2015/2015_1.pdf)

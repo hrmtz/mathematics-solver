@@ -25,6 +25,3 @@ format:
 \item[(4)]$p_n(5)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2009/2009_4a.pdf)

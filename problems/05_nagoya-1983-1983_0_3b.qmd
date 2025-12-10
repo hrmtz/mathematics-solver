@@ -26,6 +26,3 @@ $A \to B \to C \to A$の向きにまわっている．
 \item[(2)]$0\leqq t \leqq2$の範囲で，$S(t)=0$となる$t$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1983/1983_0_3b.pdf)

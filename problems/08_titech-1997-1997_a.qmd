@@ -20,6 +20,3 @@ format:
 $C_1$，$C_2$および2直線$x=\pm a$ $(a>0)$で囲まれる部分の面積を$S_a$とするとき，
 $\displaystyle\lim_{a\to\infty}S_a$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1997/1997_a.pdf)

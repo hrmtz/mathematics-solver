@@ -25,6 +25,3 @@ format:
 \item[(3)]$X$の期待値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1973/1973_6.pdf)

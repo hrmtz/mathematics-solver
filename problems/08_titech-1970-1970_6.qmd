@@ -25,6 +25,3 @@ $y=e^{mx}u(x)$が\ding{"AC}を満たすように$u(x)$を定めよ．
 \item[(3)]$x=0$のとき$y=10$を満たすような\ding{"AC}の解を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1970/1970_6.pdf)

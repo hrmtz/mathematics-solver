@@ -33,6 +33,3 @@ format:
 $f_6(0)=0$となる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2016/2016_0_3.pdf)

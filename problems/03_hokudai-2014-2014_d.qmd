@@ -26,6 +26,3 @@ format:
 ただし$\log{x}$は$x$の自然対数とする。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2014/2014_d.pdf)

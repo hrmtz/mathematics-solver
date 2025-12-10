@@ -21,6 +21,3 @@ $f(x)=e^{x-c}$（$c$は定数）の逆関数を$g(x)$とする．
 \item[(2)]$y=f(x)$と$y=g(x)$のグラフの共有点の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_e.pdf)

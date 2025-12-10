@@ -26,6 +26,3 @@ $\displaystyle P \left( p, \, \frac{1}{2}p^2 \right)$ $(p\neq0)$における接�
 \[ A\overrightarrow{OX}=\overrightarrow{PX}, \hspace{1zw} A\overrightarrow{OY}=\overrightarrow{PY} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1988/1988_0_1.pdf)

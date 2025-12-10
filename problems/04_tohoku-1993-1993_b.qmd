@@ -32,6 +32,3 @@ $\theta$ $\displaystyle\left(0\leqq\theta\leqq\frac{\pi}{2}\right)$を求めよ�
 $\overrightarrow{OP'}$の大きさの最大値と最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_b.pdf)

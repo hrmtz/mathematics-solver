@@ -23,6 +23,3 @@ format:
 \item[(2)]点$P(x, \, y)$が$D$上を動くとき，$xy$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1990/1990_0_3.pdf)

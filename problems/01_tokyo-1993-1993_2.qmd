@@ -23,6 +23,3 @@ format:
 \item[(2)]$a_n$が10の倍数となるための条件を(1)と同様の形式で求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1993/1993_2.pdf)

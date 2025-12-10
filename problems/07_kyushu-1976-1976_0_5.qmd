@@ -21,6 +21,3 @@ format:
 \item[(2)]$A$と$C$がいずれも端になく，ともに$G$と隣り合う順列は全部で何通りあるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1976/1976_0_5.pdf)

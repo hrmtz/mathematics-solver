@@ -49,6 +49,3 @@ B\begin{pmatrix} 8
 を考える。これらの行列の内で，相異なるものをすべて成分を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2012/2012_2.pdf)

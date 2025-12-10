@@ -23,6 +23,3 @@ format:
 \item[(2)]$\displaystyle1+\frac{1}{2}+\frac{1}{3}+\cdots\cdots+\frac{1}{n}-\log n>\frac{1}{2}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1980/1980_3.pdf)

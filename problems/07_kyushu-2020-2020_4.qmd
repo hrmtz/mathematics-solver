@@ -24,6 +24,3 @@ format:
 \item[(3)]Xが100の倍数になる確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2020/2020_4.pdf)

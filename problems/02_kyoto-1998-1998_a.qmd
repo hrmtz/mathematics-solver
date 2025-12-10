@@ -25,6 +25,3 @@ format:
 \item[(2)]$O$を零行列とするとき，$A^2=O$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1998/1998_a.pdf)

@@ -32,6 +32,3 @@ format:
 ただし，一般に自然数$n$が自然数の2乗でなければ$\sqrt n$は無理数であることを用いてよい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_4.pdf)

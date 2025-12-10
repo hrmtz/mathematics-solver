@@ -29,6 +29,3 @@ $\overrightarrow{a}$，$\overrightarrow{b}$，$a$，$b$，$c$を用いて表せ�
 （$\overrightarrow{0}$は零ベクトル）となるのはどのような場合か．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1975/1975_3.pdf)

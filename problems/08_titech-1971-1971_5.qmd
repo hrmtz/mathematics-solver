@@ -23,6 +23,3 @@ format:
 \cdots\left(1-\frac{1}{\sqrt{n-1}+\sqrt{n}}\right) \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1971/1971_5.pdf)

@@ -28,6 +28,3 @@ $\displaystyle f(x)=-\frac{1}{2}x+3$とする．$x_1=1$とおいて数列
 $\displaystyle L=\sum_{n=1}^\infty l_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_a.pdf)

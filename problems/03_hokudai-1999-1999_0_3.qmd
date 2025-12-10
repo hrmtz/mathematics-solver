@@ -24,6 +24,3 @@ format:
 \item[(3)]$x$，$y$がともに無理数ならば，$x+y$，$x^2+y^2$のうち少なくとも一方は無理数である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1999/1999_0_3.pdf)

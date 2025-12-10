@@ -40,6 +40,3 @@ $n$回目に取り出した球が白球である確率を$p_n$，赤球である
 \item[(2)]$p_n$を求め，かつ$\displaystyle\lim_{n\to\infty}p_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1985/1985_5.pdf)

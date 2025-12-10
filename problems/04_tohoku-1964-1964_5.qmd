@@ -19,6 +19,3 @@ format:
 $x$の関数$\displaystyle y=\frac{\displaystyle2\sqrt2\sin\left( x+\frac{\pi}{4}\right)}{\sin2x}$の増減、極値を調べ，
 グラフの概形をえがけ。ただし$0<x<2\pi$とする。
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1964/1964_5.pdf)

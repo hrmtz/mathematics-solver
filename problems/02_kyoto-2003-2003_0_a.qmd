@@ -23,6 +23,3 @@ format:
 $a\overrightarrow{PA}+b\overrightarrow{PB}+c\overrightarrow{PC}=\vec{0}$が成り立つ
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2003/2003_0_a.pdf)

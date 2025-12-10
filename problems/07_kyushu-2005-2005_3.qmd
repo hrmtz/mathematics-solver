@@ -25,6 +25,3 @@ $t$が(1)で求めた範囲を動くとき，複素数平面上で点$z(t)$が�
 $\displaystyle w=\frac{iz}{z+1}$で表される点$w$が描く図形を求め，図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_3.pdf)

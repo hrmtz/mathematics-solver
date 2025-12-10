@@ -29,6 +29,3 @@ $2w=z+1+i$で定まる$w$の描く図形が$C_{n+1}$である。
 また，$\displaystyle\lim_{n\to\infty}d_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2023/2023_1.pdf)

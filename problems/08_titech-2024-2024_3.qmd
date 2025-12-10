@@ -29,6 +29,3 @@ $xy$平面上に，点$A(a, \, 0)$，$B(0, \, b)$，$C(-a, \, 0)$ (ただし$0<a
 \item[(3)]$\displaystyle\lim_{n\to\infty}\frac{BA_n}{BC}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2024/2024_3.pdf)

@@ -26,6 +26,3 @@ $[a]$が奇数のとき次の不等式が成り立つことを示せ．
 \[ 0 \leqq \int_0^\frac{\pi}{2}|\sin at| dt-1 \leqq \left( \frac{\pi}{2}-1 \right) \left( 1-\frac{[a]}{a} \right) \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2006/2006_1.pdf)

@@ -19,6 +19,3 @@ $c$を正の数とし，2曲線$y=cx^\frac{3}{2}$と$y=\sqrt{x}$の原点でな�
 それぞれの曲線の$P$における接線のなす角を$\theta$ $\displaystyle\left(0\leqq\theta\leqq\frac{\pi}{2}\right)$とする．
 $c$が正の数を動くとき，$\theta$はどのような範囲を動くか．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1987/1987_1.pdf)

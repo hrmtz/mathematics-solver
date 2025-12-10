@@ -21,6 +21,3 @@ format:
 \item[(2)](1)のとき，$x$の関数$y=xf(x)$の極大値が4となるように$b$の値を定めよ．ただし$b>0$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1966/1966_0_5.pdf)

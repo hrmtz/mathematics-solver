@@ -24,6 +24,3 @@ format:
 $\displaystyle\lim_{h \to 0}A(h)$を$a$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2008/2008_1.pdf)

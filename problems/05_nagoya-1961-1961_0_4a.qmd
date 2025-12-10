@@ -26,6 +26,3 @@ format:
 \item[(3)]出発してから$\pi$秒までの間に点の動く範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1961/1961_0_4a.pdf)

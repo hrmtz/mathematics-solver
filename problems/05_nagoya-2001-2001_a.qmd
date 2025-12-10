@@ -65,6 +65,3 @@ $P^n\begin{pmatrix} x
 最小の自然数$n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_a.pdf)

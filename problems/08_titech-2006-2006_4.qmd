@@ -28,6 +28,3 @@ $|\overrightarrow{AB}|=\sqrt3$，$|\overrightarrow{BC}|=\sqrt5$，$|\overrightar
 (2)の仮定のもとで，四面体$PKLN$の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2006/2006_4.pdf)

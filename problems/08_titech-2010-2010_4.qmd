@@ -25,6 +25,3 @@ $\displaystyle\frac{AQ}{AP}\leqq2$ならば$\displaystyle\frac{QP}{OQ}\leqq\frac
 \end{description}
 を満たす$P$からなる領域を$D$とする．$D$を図示せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2010/2010_4.pdf)

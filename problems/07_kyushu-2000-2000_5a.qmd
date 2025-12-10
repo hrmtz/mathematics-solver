@@ -33,6 +33,3 @@ $m=10$（cm）としたとき，苗が間引かれる確率を求めよ．
 正規分布表$P(0 \leqq U \leqq u_0)$：
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2000/2000_5a.pdf)

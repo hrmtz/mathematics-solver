@@ -27,6 +27,3 @@ $0\leqq x \leqq630$の範囲で何個の格子辺と交わるか．
 $0\leqq x \leqq630$の範囲で何個の格子辺と交わるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1998/1998_1.pdf)

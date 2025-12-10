@@ -27,6 +27,3 @@ $n \geqq 1$に対し$y=f_{n-1}(x)$，$y=f_n(x)$と$y=e^{-x}$で囲まれる図�
 このとき$\displaystyle\lim_{n\to\infty}(S_0+S_1+\cdots+S_n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2007/2007_4.pdf)

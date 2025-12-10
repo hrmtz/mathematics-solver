@@ -22,6 +22,3 @@ $\displaystyle D_n=\left\{ (x,y) \Bigg| \frac{x}{\displaystyle n+\frac{1}{2}} \l
 ただし，記号$[x]$は$x$より大きくない最大の整数を表すものとする．
 このとき$D_n$の面積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2006/2006_0_d.pdf)

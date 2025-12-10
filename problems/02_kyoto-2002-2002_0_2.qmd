@@ -24,6 +24,3 @@ $\overrightarrow{OR}=r\overrightarrow{OC}$，$\overrightarrow{OS}=s\overrightarr
 このとき$P$，$Q$，$R$，$S$が同一平面上にあれば
 $\displaystyle\frac{1}{p}+\frac{1}{r}=\frac{1}{q}+\frac{1}{s}$が成立することを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_0_2.pdf)

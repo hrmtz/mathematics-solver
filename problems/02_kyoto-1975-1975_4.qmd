@@ -20,6 +20,3 @@ format:
 ベクトル$\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC}$の大きさが最大になるのは
 点$P$がどんな位置にあるときか．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1975/1975_4.pdf)

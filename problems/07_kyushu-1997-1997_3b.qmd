@@ -27,6 +27,3 @@ format:
 　2次方程式$x^2+3x+a=0$が有理数の解をもつならば，$a$は偶数である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_3b.pdf)

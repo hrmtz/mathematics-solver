@@ -28,6 +28,3 @@ $P_n$を通り$x$軸に平行な直線と$C$との交点$Q_n$の$x$座標を$a_{
 \item[(3)]$\displaystyle\lim_{n\to\infty}\frac{a_1a_2 \cdots\cdots a_n}{2^n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1988/1988_3.pdf)

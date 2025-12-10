@@ -23,6 +23,3 @@ $n$を正の整数とするとき
 \item[(2)]$\displaystyle\lim_{n\to\infty}f(n\pi)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1972/1972_5.pdf)

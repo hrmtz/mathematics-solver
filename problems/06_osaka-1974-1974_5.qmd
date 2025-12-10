@@ -28,6 +28,3 @@ format:
 このことを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1974/1974_5.pdf)

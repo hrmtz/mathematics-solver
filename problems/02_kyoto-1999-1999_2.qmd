@@ -21,6 +21,3 @@ $c$は正の定数として，
 平面上の点$P$が$|\overrightarrow{PA}||\overrightarrow{PB}|+\overrightarrow{PA}\cdot\overrightarrow{PB}=c$を満たすとき，
 点$P$の軌跡を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_2.pdf)

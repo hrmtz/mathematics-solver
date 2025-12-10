@@ -23,6 +23,3 @@ format:
 積分$\displaystyle J_n=\int_0^{2\pi}{ \left( \sum_{k=1}^n \sqrt{k}\cos kx \right) }^2dx$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2006/2006_4.pdf)

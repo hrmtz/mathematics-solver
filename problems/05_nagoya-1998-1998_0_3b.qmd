@@ -27,6 +27,3 @@ $E$を単位行列とする．
 $A_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1998/1998_0_3b.pdf)

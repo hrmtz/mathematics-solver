@@ -30,6 +30,3 @@ $n$を自然数とする。
 \frac{(2n) \,  ! \pi}{2^{2n+1}{(n \, !)}^2} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2017/2017_b.pdf)

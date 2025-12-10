@@ -24,6 +24,3 @@ format:
 すべて1つの直線上に等間隔に並んでいることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1962/1962_5.pdf)

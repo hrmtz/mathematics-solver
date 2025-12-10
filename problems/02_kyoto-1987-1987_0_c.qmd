@@ -23,6 +23,3 @@ $a$，$b$は正の定数で，平面上に4点$O(0,0)$，$A(0,a)$，$B(1,b)$，$
 \item[(2)]$H$の弧$\stackrel{\frown}{AB}$が台形$OABC$の面積を二等分することはないことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1987/1987_0_c.pdf)

@@ -32,6 +32,3 @@ f_n(x)={f_{n-1}}'(x), \, \cdots\cdots \]
 \item[(4)]無限級数$S_1+S_2+\cdots\cdots+S_n+\cdots\cdots$の和を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1998/1998_c.pdf)

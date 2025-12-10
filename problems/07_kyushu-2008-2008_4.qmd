@@ -26,6 +26,3 @@ $a>0$に対して，$f(x)=a+\log x$ $(x>0)$，$g(x)=\sqrt{x-1}$ $(x\geqq1)$と�
 \item[(3)]2曲線と$x$軸で囲まれた部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2008/2008_4.pdf)

@@ -30,6 +30,3 @@ $A_n$の要素に対し次の条件(＊)を考える．
 極限値$\displaystyle\lim_{n\to\infty}Q(n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2017/2017_4.pdf)

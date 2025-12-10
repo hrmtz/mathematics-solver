@@ -23,6 +23,3 @@ $\displaystyle A=\int_{-1}^1x^2f(x)dx$，
 $\displaystyle H(t)=\frac{A}{A+t^2}$とおく。
 このとき，$-1 \leqq t \leqq 0$において$G(t)$と$H(t)$との大小を調べよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1964/1964_5.pdf)

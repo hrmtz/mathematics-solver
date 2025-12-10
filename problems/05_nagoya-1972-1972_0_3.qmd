@@ -29,6 +29,3 @@ format:
 \item[(6)]$\displaystyle a_n=\frac{1}{n^2}+\frac{1}{{(n+1)}^2}+\cdots\cdots+\frac{1}{{(2n)}^2}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1972/1972_0_3.pdf)

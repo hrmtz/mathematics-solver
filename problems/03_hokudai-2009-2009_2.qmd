@@ -25,6 +25,3 @@ $1 \leqq k \leqq n-1$に対し，線分$BD_k$の長さを$L_k$とする．
 \item[(2)]$\displaystyle\lim_{n\to\infty}\frac{S_n}{n}$を$\alpha$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2009/2009_2.pdf)

@@ -24,6 +24,3 @@ format:
 \[ |a|+|b|\leqq1 \hspace{1zw} \text{かつ} \hspace{1zw} |c|+|d|\leqq1 \]
 であることを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_0_1.pdf)

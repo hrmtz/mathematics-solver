@@ -26,6 +26,3 @@ $\angle PQM={90}^\circ$であることを示せ．
 \item[(4)]点$P$，$Q$，$M$を通る円は，線分$AB$の中点$R$および原点も通ることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2008/2008_a.pdf)

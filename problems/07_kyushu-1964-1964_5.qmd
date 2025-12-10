@@ -32,6 +32,3 @@ $y=\sin^2x$ $(0 \leqq x \leqq \pi)$なる方程式で表わされる曲線を$C_
 \item[(2)]接線$AB$と曲線$C_1$および$C_2$とで囲まれる部分の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1964/1964_5.pdf)

@@ -27,6 +27,3 @@ format:
 \item[(4)]$m$または$n$が奇数ならば，$A(m, \, n)$は有理数であることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_6.pdf)

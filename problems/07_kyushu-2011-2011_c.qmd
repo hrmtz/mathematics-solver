@@ -27,6 +27,3 @@ $F$から$x$軸の正の方向へ向かう半直線を始線とする極座標$(
 $\displaystyle\frac{1}{{r_1}^2}+\frac{1}{{r_2}^2}$の値は定数となることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2011/2011_c.pdf)

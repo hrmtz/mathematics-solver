@@ -30,6 +30,3 @@ $Y=k$であり，さらに$X_1, \, X_2, \, \cdots\cdots, \, X_5$のうち
 このとき$\displaystyle\lim_{N\to\infty}p(N)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1993/1993_4.pdf)

@@ -27,6 +27,3 @@ $p_k=q_k$であることを示せ．
 \item[(3)]$S$の期待値を$N$と$n$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1974/1974_5.pdf)

@@ -36,6 +36,3 @@ $\overrightarrow{u}$，$A\overrightarrow{u}$のなす角を求めよ．
 はどのような図形にうつされるか．図によって示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1983/1983_2.pdf)

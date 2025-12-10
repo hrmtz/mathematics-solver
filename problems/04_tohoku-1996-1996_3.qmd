@@ -28,6 +28,3 @@ $x$軸，$C$，$C_{n-1}$で囲まれた部分にあって，
 \item[(ii)]$C_n$の半径$r_n$を$a$と$n$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_3.pdf)

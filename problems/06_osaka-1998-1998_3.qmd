@@ -26,6 +26,3 @@ $\displaystyle a_n={ \left( \frac{1+\sqrt[n]{3}}{2} \right) }^n$とおく．
 (1)の不等式を用いて極限$\displaystyle\lim_{n\to\infty}a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1998/1998_3.pdf)

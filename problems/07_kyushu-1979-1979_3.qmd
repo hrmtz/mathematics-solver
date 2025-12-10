@@ -36,6 +36,3 @@ $\begin{pmatrix} x
 
  y \end{pmatrix}$を満たす実数$k$が存在することを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1979/1979_3.pdf)

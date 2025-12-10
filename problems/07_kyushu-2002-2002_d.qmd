@@ -26,6 +26,3 @@ $|\overrightarrow{AP}|:|\overrightarrow{BP}|=2:\sqrt3$をみたしながら動�
 比$\displaystyle\frac{|\overrightarrow{BQ}|}{|\overrightarrow{CQ}|}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2002/2002_d.pdf)

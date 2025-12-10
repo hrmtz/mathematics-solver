@@ -27,6 +27,3 @@ $X_3$が区間$-4 \leqq x \leqq 0$に存在する確率が区間$1 \leqq x \leqq
 大きくなる$p$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1989/1989_5.pdf)

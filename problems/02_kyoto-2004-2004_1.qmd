@@ -19,6 +19,3 @@ format:
 $f(\theta)=\cos 4\theta-4{\sin}^2\theta$とする．
 $\displaystyle 0 \leqq \theta \leqq \frac{3\pi}{4}$における$f(\theta)$の最大値および最小値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_1.pdf)

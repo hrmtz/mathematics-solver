@@ -25,6 +25,3 @@ format:
 \item[(2)]極限値$\displaystyle\lim_{n\to\infty}\frac{T_n}{S_n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1995/1995_3.pdf)

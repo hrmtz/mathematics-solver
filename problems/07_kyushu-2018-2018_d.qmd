@@ -39,6 +39,3 @@ $l$を$\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{p}$と媒�
 $\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{p}$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2018/2018_d.pdf)

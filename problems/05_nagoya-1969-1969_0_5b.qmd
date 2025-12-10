@@ -22,6 +22,3 @@ $f_1(x)$，$f_2(x)$，$f_3(x)$，$f_4(x)$を定め，その理由を述べよ．
 ただし，$a$，$b$，$c$は$\displaystyle0<a<b<c<\frac{\pi}{2}$，$\displaystyle b=\frac{a+c}{2}$を満たし，
 数値はどれも少数第4位を4捨5入してある．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1969/1969_0_5b.pdf)

@@ -25,6 +25,3 @@ format:
 このとき，$X$の期待値$E(X)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_5b.pdf)

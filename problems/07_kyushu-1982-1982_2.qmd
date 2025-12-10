@@ -27,6 +27,3 @@ format:
 \item[(2)]4角形$ALMN$の面積$S$を$a$，$b$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1982/1982_2.pdf)

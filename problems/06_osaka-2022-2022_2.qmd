@@ -24,6 +24,3 @@ $f(\cos\alpha)=0$が成り立つことを示せ．
 \item[(3)]$\cos\alpha$は無理数であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2022/2022_2.pdf)

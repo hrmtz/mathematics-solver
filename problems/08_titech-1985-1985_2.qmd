@@ -26,6 +26,3 @@ $0<t<3$である実数$t$に対し，
 $t=1$および$\displaystyle t=\frac{3}{2}$で微分可能であるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1985/1985_2.pdf)

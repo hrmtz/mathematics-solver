@@ -46,6 +46,3 @@ $A$，$A'$が
 をみたせば，$P^{-1}AP=A'$となる$P$があることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1995/1995_d.pdf)

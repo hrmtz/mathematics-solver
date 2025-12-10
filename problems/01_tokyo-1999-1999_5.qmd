@@ -26,6 +26,3 @@ $0<n<m$を満たすすべての整数$n$について，
 \end{center}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1999/1999_5.pdf)

@@ -23,6 +23,3 @@ $\triangle OCD$を辺$OD$に関して折り返して得られる三角形を$\tr
 $\triangle OAB$と$\triangle OBE$の面積比が$2:3$のとき，
 $\sin\angle AOB$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2009/2009a_0_4.pdf)

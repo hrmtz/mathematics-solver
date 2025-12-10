@@ -23,6 +23,3 @@ format:
 \item[(2)]$h$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2000/2000_0_3b.pdf)

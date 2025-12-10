@@ -23,6 +23,3 @@ format:
 \item[(3)]すべての$n$に対して$a_n>0.89$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_2.pdf)

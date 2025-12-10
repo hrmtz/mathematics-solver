@@ -23,6 +23,3 @@ $x$軸，直線$\displaystyle y=\frac{1}{2}x$と交わる点を，それぞれ�
 \item[(2)]原点$O$と，$A$，$B$の3点は鈍角三角形を作る．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1987/1987_0_3.pdf)

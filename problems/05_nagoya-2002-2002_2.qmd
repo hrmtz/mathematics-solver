@@ -26,6 +26,3 @@ $\displaystyle\frac{{ \{ x-(1-a) \} }^2}{a^2}+\frac{y^2}{b^2}\leqq1$
 $ab$平面上でその条件の表す領域を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2002/2002_2.pdf)

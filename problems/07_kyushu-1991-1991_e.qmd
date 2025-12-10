@@ -25,6 +25,3 @@ $X$と$Y$の大きいほうの数を$Z$とする．
 \item[(3)]$Z$の期待値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1991/1991_e.pdf)

@@ -19,6 +19,3 @@ $0 \leqq x \leqq 1$で定義された関数$f(x)=|2x-1|$について，次の問
 \item[(2)]$f(f(f(x)))=x$となる$x$の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1983/1983_1.pdf)

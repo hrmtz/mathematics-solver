@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>ハンドアウト - {{ problem_id }}</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="{{ url_for('static', filename='qmd-render.js') }}"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='handout-print.css') }}">
+</head>
+<body>
+  <div class="main-wrap">
+    <section id="problem-section">
+      <h1>問題</h1>
+      <div id="problem_body" data-qmd="{{ problem_qmd | e }}" data-citation="{{ citation_label | e }}"></div>
+    </section>
+
+    <section id="solution-section">
+      <h1>解答</h1>
+      <div id="solution_body" data-qmd="{{ solution_qmd | e }}"></div>
+    </section>
+  </div>
+
+  <script>
+    function renderMath() {
+      if (window.MathJax) {
+        MathJax.typesetClear();
+        MathJax.typesetPromise();
+      }
+    }
+
+    window.onload = function() {
+      const problemEl = document.getElementById('problem_body');
+      const solutionEl = document.getElementById('solution_body');
+
+      const problemQmd = problemEl.getAttribute('data-qmd') || '';
+      const citation = problemEl.getAttribute('data-citation') || '';
+      const solutionQmd = solutionEl.getAttribute('data-qmd') || '';
+
+      let problemHtml = qmdToHtml(problemQmd);
+      problemHtml = appendCitation(problemHtml, citation);
+      problemEl.innerHTML = problemHtml;
+
+      const solutionHtml = qmdSolutionToHtml(solutionQmd);
+      solutionEl.innerHTML = solutionHtml;
+
+      renderMath();
+    };
+  </script>
+</body>
+</html>

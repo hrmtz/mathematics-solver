@@ -29,6 +29,3 @@ $\displaystyle z_{n+1}-\alpha=\frac{1+i\sqrt3}{2}(z_n-\alpha)$
 \item[(4)]$\displaystyle z_n=-\frac{1-i\sqrt3}{2}$となるような自然数$n$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2004/2004_1.pdf)

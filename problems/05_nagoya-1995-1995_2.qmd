@@ -25,6 +25,3 @@ format:
 \item[(2)]$n$の5次多項式として$S_4(n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1995/1995_2.pdf)

@@ -30,6 +30,3 @@ $x$成分が正であるような，大きさが1のベクトル$\overrightarrow
 \item[(3)]平面$\alpha$に関して点$P$と対称な点$P'$の座標を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2022/2022_0_2.pdf)

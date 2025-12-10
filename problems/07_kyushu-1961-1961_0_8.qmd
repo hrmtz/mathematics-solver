@@ -25,6 +25,3 @@ $\displaystyle\lim_{x\to1}\frac{1-(n+1)x^n+nx^{n+1}}{{(x-1)}^2}$
 を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1961/1961_0_8.pdf)

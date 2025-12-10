@@ -27,6 +27,3 @@ format:
 \item[(3)](2)の曲線$C$の長さを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2010/2010_4.pdf)

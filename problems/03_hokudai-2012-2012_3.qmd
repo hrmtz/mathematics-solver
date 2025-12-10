@@ -26,6 +26,3 @@ $\displaystyle \frac{x^3}{3}-\frac{x^5}{30}\leqq\int_0^x t\sin tdt\leqq\frac{x^3
 \item[(3)]極限値$\displaystyle\lim_{x\to0}\frac{\sin x-x\cos x}{x^3}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2012/2012_3.pdf)

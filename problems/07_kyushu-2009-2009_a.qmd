@@ -28,6 +28,3 @@ $\displaystyle\lim_{x\to\infty}x^me^{-x}=0$が成り立つことを用いてよ�
 \item[(4)]$\displaystyle\lim_{x\to\infty}f_n(x)$を$n$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_a.pdf)

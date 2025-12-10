@@ -20,6 +20,3 @@ $\displaystyle\frac{23}{111}$を$0.a_1a_2a_3a_4\cdots$のように小数で表�
 すなわち小数第$k$位の数を$a_k$とする．
 このとき$\displaystyle\sum_{k=1}^n\frac{a_k}{3^k}$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2003/2003_0_1.pdf)

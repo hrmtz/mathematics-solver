@@ -27,6 +27,3 @@ $\angle APB=\angle QPC, \, \angle PQC=\angle RQD, \, \angle QRD=\angle SRA$と�
 $f(t)$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2006/2006_5.pdf)

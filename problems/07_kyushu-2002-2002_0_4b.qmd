@@ -36,6 +36,3 @@ $w_2 \neq z_1$のとき，
 ここで$\overline{z_1}$は$z_1$に共役な複素数である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2002/2002_0_4b.pdf)

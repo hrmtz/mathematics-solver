@@ -29,6 +29,3 @@ $1 \leqq a \leqq 9$，$0 \leqq b \leqq 9$，$0 \leqq c \leqq 9$を満たす整�
 このときの$N$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_5c.pdf)

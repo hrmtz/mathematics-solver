@@ -26,6 +26,3 @@ format:
 \item[(3)]点$P(x, \, y)$が$D$を動いたとき，$-5x+y$の最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2013/2013_3.pdf)

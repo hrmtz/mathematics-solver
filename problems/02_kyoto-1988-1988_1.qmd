@@ -22,6 +22,3 @@ format:
 \item[(2)]$g(p)=p$かつ$f(p) \neq p$をみたす実数$p$が存在するような点$(a,b)$の範囲を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1988/1988_1.pdf)

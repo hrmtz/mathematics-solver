@@ -25,6 +25,3 @@ $t\geqq0$のとき，不等式$\displaystyle e^t\geqq\frac{t^n}{n \, !}$が成�
 $(m=0,1,2,\cdots)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_6.pdf)

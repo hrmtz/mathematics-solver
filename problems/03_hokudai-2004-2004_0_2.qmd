@@ -24,6 +24,3 @@ $a$を正の実数とし，関数$\displaystyle F(x)=\int_x^{x+a}||t|-1|dt$を�
 \item[(3)]$a>2$のとき，$F(x)$の極小値と，それを与える$x$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2004/2004_0_2.pdf)

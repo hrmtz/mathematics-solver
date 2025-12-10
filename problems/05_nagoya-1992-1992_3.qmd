@@ -20,6 +20,3 @@ $xy$平面上の図形
 \[ S=\left\{ (u, \, (2\sin u-1)v) \, | \, 0 \leqq u \leqq \frac{\pi}{2}, \, 0 \leqq v \leqq u \right\} \]
 の面積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1992/1992_3.pdf)

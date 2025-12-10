@@ -29,6 +29,3 @@ format:
 \item[(3)]$2 \leqq n \leqq 1000$の範囲で，(i)，(ii)をみたす$n$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2012/2012_2.pdf)

@@ -25,6 +25,3 @@ $\alpha^2+\beta^2=\alpha\beta$，$|\alpha-\beta|=2$の関係がある．
 \item[(3)]複素平面上の3点$O$，$\alpha$，$\beta$を頂点とする3角形の面積
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1968/1968_3.pdf)

@@ -34,6 +34,3 @@ $\triangle ACP$の面積を$a$，$x$，$y$を用いて表せ．
 \item[(3)](2)で点$P$が面$EFGH$上を動くとき，$\triangle ACP$の面積の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2002/2002_0_4a.pdf)

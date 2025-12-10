@@ -35,6 +35,3 @@ $A_n(3)$，$A_n(4)$を求めよ．
 $a_1 \leqq a_2 \leqq \cdots\cdots \leqq a_{n-1}$かつ$a_{n-1}>a_n$となる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_2.pdf)

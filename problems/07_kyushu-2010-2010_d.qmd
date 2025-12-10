@@ -26,6 +26,3 @@ $\displaystyle\sum_{i=1}^nq_i=1-\frac{n^2+n+2}{2^{n+1}}$を証明せよ．
 $k$を固定したまま$n$を動かすときの$p_k(n)$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2010/2010_d.pdf)

@@ -27,6 +27,3 @@ $\alpha$，$\beta$を用いて表わせ。
 \item[(3)](2)を満足する点$(a, \, b)$のえがくグラフをえがけ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1963/1963_3.pdf)

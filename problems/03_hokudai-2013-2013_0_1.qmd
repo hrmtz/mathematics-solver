@@ -23,6 +23,3 @@ $f(x)=\sqrt2 \, \sin x\cos x+\sin x+\cos x$ $(0 \leqq x \leqq 2\pi)$とする。
 \item[(3)]$f(x)$の最大値と最小値，およびそのときの$x$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2013/2013_0_1.pdf)

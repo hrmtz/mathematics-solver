@@ -26,6 +26,3 @@ format:
 $a^5+b^5$は有理数である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2000/2000_0_3b.pdf)

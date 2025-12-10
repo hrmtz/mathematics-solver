@@ -24,6 +24,3 @@ format:
 \item[(2)]$f(x)$と$g(x)$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2019/2019_2.pdf)

@@ -29,6 +29,3 @@ $Q_n(n, \, 1)$をとる$(n\geqq1)$．ただし，$c$は$0<c<2$なる無理数と
 \item[(3)]$a_n$ $(n\geqq1)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_b.pdf)

@@ -22,6 +22,3 @@ format:
 $\triangle PRQ$が正三角形ならば，
 3辺$PQ$，$QR$，$RP$はそれぞれ3辺$AB$，$BC$，$CA$に平行であることを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2012/2012_2.pdf)

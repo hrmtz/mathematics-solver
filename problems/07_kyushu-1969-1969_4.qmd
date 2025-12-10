@@ -24,6 +24,3 @@ $z_1=1$，$z_2=a+ib$，$z_3=b+ia$（ただし，$a$，$b$は実数で$a>0$，$i$
 また，この$n$の値に対する積$z_1 \times z_2 \times \cdots\cdots \times z_n$の値を計算せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1969/1969_4.pdf)

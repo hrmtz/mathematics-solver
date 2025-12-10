@@ -23,6 +23,3 @@ format:
 \item[(2)]定積分$\displaystyle\int_0^1f(x)dx$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2011/2011_2.pdf)

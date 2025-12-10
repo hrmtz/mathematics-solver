@@ -40,6 +40,3 @@ $\overrightarrow{d}-\overrightarrow{f}$の大きさを求めよ．
 \item[(4)]四面体$ODEF$の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_5c.pdf)

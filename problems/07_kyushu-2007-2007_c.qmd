@@ -34,6 +34,3 @@ $x$についての方程式$f(x)=a$の異なる実数解の個数を求めよ．
 \item[(4)]$\displaystyle S=\lim_{c\to+0}\int_c^1|f(x)|dx$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_c.pdf)

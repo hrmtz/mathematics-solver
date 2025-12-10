@@ -26,6 +26,3 @@ $\overrightarrow{OD'}=-\overrightarrow{OD}$となるようにとる．
 このとき，$A$，$B'$，$C$，$D'$が互いに異なるならば，これら4点は，この順で，ある長方形の頂点となっていることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1997/1997_c.pdf)

@@ -31,6 +31,3 @@ format:
 線分$A_0B_0$の長さを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1966/1966_4.pdf)

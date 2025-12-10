@@ -21,6 +21,3 @@ format:
 $\displaystyle \int_0^1 t^{2n-1} e^t dt + \left( \sum_{k=1}^{n-1} \frac{{}_{2n-1}P_{2n-2k}}{2k+1} \right) e=(2n-1) \, !$を示せ．
 ここで$e$は自然対数の底である．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1999/1999_4.pdf)

@@ -25,6 +25,3 @@ format:
 5回以下の試行で袋の中が白の玉4個となる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_0_3.pdf)

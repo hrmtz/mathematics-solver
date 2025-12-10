@@ -20,6 +20,3 @@ $x$がどんな実数値をとっても，不等式
 \[ \frac{x^2\cos\theta+x(\cos\theta+2)+\cos\theta}{x^2+x+1}>\sin\theta-2 \]
 が成り立つための$\theta$の値の範囲を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1964/1964_3.pdf)

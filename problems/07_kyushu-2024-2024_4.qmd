@@ -25,6 +25,3 @@ $n$を3以上の整数とする。
 \item[(3)]$L(5)$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2024/2024_4.pdf)

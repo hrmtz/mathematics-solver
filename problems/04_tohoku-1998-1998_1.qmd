@@ -23,6 +23,3 @@ $y=f(x)$の逆関数$y=g(x)$を求めよ．
 \[ \int_a^bf(x)dx+\int_{f(a)}^{f(b)}g(x)dx=bf(b)-af(a) \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_1.pdf)

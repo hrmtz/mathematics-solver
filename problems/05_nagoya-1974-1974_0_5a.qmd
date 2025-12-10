@@ -23,6 +23,3 @@ format:
 $\displaystyle\lim_{a\to\infty}S(a)$を計算せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1974/1974_0_5a.pdf)

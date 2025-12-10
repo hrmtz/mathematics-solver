@@ -27,6 +27,3 @@ ${(x\cos\theta+y\sin\theta)}^2$の最大値を$M(x, \, y)$で示す．
 この$G$を直線$x+y=0$のまわりに回転して得られる立体の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1974/1974_4.pdf)

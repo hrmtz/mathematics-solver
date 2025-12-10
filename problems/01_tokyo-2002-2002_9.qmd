@@ -32,6 +32,3 @@ $\displaystyle a_n\geqq\frac{3}{4}$となるような$n\geqq1$が存在するこ
 \item[(5)]数列$\{ a_n \}$が収束するために初期値$a_1$が満たすべき必要十分条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2002/2002_9.pdf)

@@ -28,6 +28,3 @@ format:
 $p_n$を$n$を用いて表し，極限$\displaystyle\lim_{n\to\infty}p_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2020/2020_2.pdf)

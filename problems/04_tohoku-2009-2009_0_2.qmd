@@ -27,6 +27,3 @@ format:
 $t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2009/2009_0_2.pdf)

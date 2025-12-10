@@ -23,6 +23,3 @@ format:
 \item[(2)]$\displaystyle\lim_{n\to\infty}\frac{a_n}{b_n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_e.pdf)

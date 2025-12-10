@@ -24,6 +24,3 @@ format:
 \item[(3)]$C$と$x$軸で囲まれる部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1985/1985_3.pdf)

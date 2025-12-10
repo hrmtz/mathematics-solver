@@ -30,6 +30,3 @@ $\angle POP'=\theta$が一定であるとき，
 $a=d$，$b=-c$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1985/1985_0_4.pdf)

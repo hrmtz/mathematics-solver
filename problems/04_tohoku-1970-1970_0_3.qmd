@@ -26,6 +26,3 @@ format:
 \item[(3)]$\displaystyle\sum_{k=1}^\infty{ \{ a_1(1, \, \theta) \} }^k$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1970/1970_0_3.pdf)

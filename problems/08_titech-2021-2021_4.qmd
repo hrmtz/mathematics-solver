@@ -36,6 +36,3 @@ $\overrightarrow{a}, \, \overrightarrow{b}, \, \overrightarrow{c}, \, \overright
 $F=M$となる$S$上の点$A, \, B$の組をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2021/2021_4.pdf)

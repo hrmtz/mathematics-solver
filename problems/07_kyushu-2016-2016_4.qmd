@@ -29,6 +29,3 @@ $a_n$は0から12までの整数である。
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2016/2016_4.pdf)

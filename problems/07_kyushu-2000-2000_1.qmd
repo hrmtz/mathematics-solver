@@ -28,6 +28,3 @@ format:
 \item[(3)]$x^4+x+1$は既約なM多項式かどうか判定せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2000/2000_1.pdf)

@@ -27,6 +27,3 @@ $\displaystyle \int_{-\pi}^{\pi}x^nf(x)\cos xdx=4\pi$を
 同時に満たす$x$の2次式$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_5.pdf)

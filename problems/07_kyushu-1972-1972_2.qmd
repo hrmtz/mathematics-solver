@@ -24,6 +24,3 @@ $\displaystyle z_1=\frac{1+i}{\sqrt2}$，$\displaystyle z_2=\frac{\sqrt3+i}{2}$�
 および$\displaystyle\cos\frac{\pi}{24}$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1972/1972_2.pdf)

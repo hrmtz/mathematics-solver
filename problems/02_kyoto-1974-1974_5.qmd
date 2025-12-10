@@ -26,6 +26,3 @@ format:
 \item[(ハ)](ロ)の場合の$m$，$n$の組のうち，$n$が最も大きいものを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1974/1974_5.pdf)

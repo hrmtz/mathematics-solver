@@ -40,6 +40,3 @@ format:
 \item[(3)]$n$が3の倍数のときの$b_n, \, c_n, \, d_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_d.pdf)

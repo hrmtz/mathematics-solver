@@ -27,6 +27,3 @@ $\displaystyle y_n=\frac{y_{n-1}\cos\theta-\sin\theta}{y_{n-1}\sin\theta+\cos\th
 $y_n$を$x$，$\theta$，$n$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1978/1978_4.pdf)

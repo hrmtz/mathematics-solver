@@ -24,6 +24,3 @@ format:
 \item[(2)]$D$の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1984/1984_0_4.pdf)

@@ -43,6 +43,3 @@ format:
 含む確率$p$は$p>\log2$をみたすことを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2019/2019_4.pdf)

@@ -23,6 +23,3 @@ $\sin\theta$，$\cos\theta$を$t$で表せ．
 \item[(2)]関数$f(t)$の$t>0$における最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1991/1991_2.pdf)

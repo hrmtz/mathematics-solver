@@ -21,6 +21,3 @@ $A=\{ x|x\geqq-2\text{かつ}x\neq-1 \}$とする．ただし，$a<5$．
 \item[(2)]$g(f(A)) \cap f(A)=\phi$（$\phi$は空集合）となる$a$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1976/1976_0_5.pdf)

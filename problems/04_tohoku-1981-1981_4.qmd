@@ -26,6 +26,3 @@ $Q$の$x$座標が$a_{n+1}$である$(n=1, \, 2, \, 3, \, \cdots\cdots)$．
 \item[(2)]$a_n$を$a_1$の式で表し，$\displaystyle\lim_{n\to\infty}a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1981/1981_4.pdf)

@@ -26,6 +26,3 @@ $a_n$を$a_{n-1}$と$a_{n-2}$で表す漸化式を求めよ．
 \item[(2)]$f_n(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_0_4.pdf)

@@ -30,6 +30,3 @@ $\displaystyle P \left( \frac{1}{\sqrt3}, \, \frac{1}{\sqrt3}, \, \frac{1}{\sqrt
 このとき，平面$\alpha$の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1996/1996_2.pdf)

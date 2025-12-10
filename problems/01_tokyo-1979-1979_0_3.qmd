@@ -26,6 +26,3 @@ $S_n=X_1+X_2+\cdots+X_n$ $(1 \leqq n \leqq 8)$とおく．
 \item[(2)]$S_4=0$かつ$S_8=2$となる確率．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1979/1979_0_3.pdf)

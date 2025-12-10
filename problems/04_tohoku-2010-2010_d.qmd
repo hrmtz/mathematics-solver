@@ -30,6 +30,3 @@ $f(x)=\sqrt{x+2}$として，数列$x_1, \, x_2, \, x_3, \, \cdots$を
 最大のものを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_d.pdf)

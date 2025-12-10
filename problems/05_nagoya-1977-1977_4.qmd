@@ -27,6 +27,3 @@ format:
 原点から$P$までの距離が6以下となる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1977/1977_4.pdf)

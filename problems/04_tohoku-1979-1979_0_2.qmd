@@ -22,6 +22,3 @@ $\displaystyle S_n=\sum_{k=1}^nk$ $(n=1, \, 2, \, \cdots\cdots)$とするとき�
 \item[(2)]$\displaystyle U_n=\sum_{k=1}^nT_k$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1979/1979_0_2.pdf)

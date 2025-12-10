@@ -20,6 +20,3 @@ $m$，$n$を互いに素な自然数，$s$，$t$を$|s-t|<2\pi$を満たす実�
 \[ \sin ns=\sin nt, \hspace{1zw} \cos ns=\cos nt \]
 が成り立つとすると$s=t$であることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_f.pdf)

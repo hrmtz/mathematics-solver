@@ -28,6 +28,3 @@ $\displaystyle\frac{OP'}{OP}=\displaystyle\frac{OQ'}{OQ}$が成り立つ．
 \item[(2)]1次変換$f$により，点$(1,\sqrt3)$が点$(-4,0)$に移るとき，$A$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2012/2012_5.pdf)

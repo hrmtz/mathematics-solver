@@ -25,6 +25,3 @@ format:
 このとき，3角形$PQD$の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1984/1984_0_3.pdf)

@@ -24,6 +24,3 @@ format:
 \item[(3)]直線$y=ax+b$と曲線$y=e^x$とで囲まれる図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1967/1967_5.pdf)

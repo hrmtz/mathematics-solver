@@ -27,6 +27,3 @@ $y=1$に最も近い平面の$y$座標を$y_n$とする．
 このとき，$\displaystyle\lim_{n\to\infty}n(1-y_n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_f.pdf)

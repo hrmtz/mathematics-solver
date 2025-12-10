@@ -22,6 +22,3 @@ format:
 $a$をいろいろ変えたとき，$V(a)$が最小になる$a$と，そのときの$V(a)$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1987/1987_5.pdf)

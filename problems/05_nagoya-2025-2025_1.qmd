@@ -32,6 +32,3 @@ format:
 $a<c<b$をみたす任意の実数$c$に対し小問(1)の$x_0$および$g(x_0)$を$c$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2025/2025_1.pdf)

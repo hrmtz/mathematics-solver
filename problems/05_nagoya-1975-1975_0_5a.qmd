@@ -18,6 +18,3 @@ format:
 1つのさいころを$n$回投げ，出た目の積をつくる．
 それが偶数となる確率$p_n$を求め，$\displaystyle\lim_{n\to\infty}p_n$を計算せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1975/1975_0_5a.pdf)

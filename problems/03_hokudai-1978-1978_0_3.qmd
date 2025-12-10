@@ -22,6 +22,3 @@ $0\leqq\theta<2\pi$で定義された関数$f(\theta)=a\sin^2\theta+b\cos^2\thet
 \item[(2)]$f(\theta)$が$\displaystyle\theta=\frac{\pi}{6}$で最大値7をとるような$a$，$b$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1978/1978_0_3.pdf)

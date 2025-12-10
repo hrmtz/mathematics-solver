@@ -24,6 +24,3 @@ $\theta=\angle POQ$とする。このとき，以下の問いに答えよ。
 \item[(2)]$t$が$0<t<1$を動くとき，$\theta$の最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_0_d.pdf)

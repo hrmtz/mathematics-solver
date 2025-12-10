@@ -29,6 +29,3 @@ $n$を1以上の整数とする．
 $\displaystyle \left| \int_0^1x^nf(x)dx \right| \leqq \frac{M}{2^n(n+1)}$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_2.pdf)

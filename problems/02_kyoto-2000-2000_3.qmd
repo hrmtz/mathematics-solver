@@ -26,6 +26,3 @@ $\vec{a}=(1,0,0)$，$\displaystyle\vec{b}=\left(\cos\frac{\pi}{3},\sin\frac{\pi}
 \item[(2)]不等式(＊)を満たす$(\alpha,\beta)$ $(0\leqq\alpha\leqq\pi,0\leqq\beta\leqq\pi)$の範囲を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_3.pdf)

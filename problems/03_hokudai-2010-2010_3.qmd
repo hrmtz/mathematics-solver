@@ -30,6 +30,3 @@ $a_n$，$b_n$ $(n=1,2,3,\cdots\cdots)$を
 \item[(3)]$\theta \neq 0$のとき$\displaystyle\lim_{n\to\infty}a_n=\lim_{n\to\infty}b_n=\frac{r\sin\theta}{\theta}$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2010/2010_3.pdf)

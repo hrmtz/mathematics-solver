@@ -23,6 +23,3 @@ format:
 $QP$が$x$軸の正の方向と30$^\circ$の角をなすような$a$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1964/1964_5.pdf)

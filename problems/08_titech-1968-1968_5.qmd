@@ -18,6 +18,3 @@ format:
 次の極限値を求めよ．
 \[ \lim_{n\to\infty}\frac{1}{n}\sqrt[n]{{}_{2n}P_n} \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1968/1968_5.pdf)

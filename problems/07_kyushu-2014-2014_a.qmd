@@ -45,6 +45,3 @@ n=1, \, 2, \, 3, \, \cdots \]
 このとき$\displaystyle\lim_{n\to\infty}d_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2014/2014_a.pdf)

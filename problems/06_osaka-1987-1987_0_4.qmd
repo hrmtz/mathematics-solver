@@ -23,6 +23,3 @@ format:
 \item[(2)]2点$A$，$B$を通る直線と$S$との共有点の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1987/1987_0_4.pdf)

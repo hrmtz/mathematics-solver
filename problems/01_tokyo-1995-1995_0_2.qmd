@@ -31,6 +31,3 @@ format:
 \item[(3)]面積$S$が7，線分$P_0P_4$の長さが$\sqrt{10}$のとき，$a$，$b$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1995/1995_0_2.pdf)

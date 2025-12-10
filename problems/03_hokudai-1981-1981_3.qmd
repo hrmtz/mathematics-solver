@@ -23,6 +23,3 @@ format:
 \item[(2)]平面$\pi$と直交し，2直線$l_1$，$l_2$と交わる直線の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1981/1981_3.pdf)

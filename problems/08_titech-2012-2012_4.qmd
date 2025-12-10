@@ -29,6 +29,3 @@ a_{k+1}=-\frac{1}{k+n+1}+\frac{n}{k}\sum_{i=1}^k a_i  \hspace{1zw}
 $\displaystyle\lim_{n \to \infty}b_n=\log2$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2012/2012_4.pdf)

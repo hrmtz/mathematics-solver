@@ -22,6 +22,3 @@ format:
 正の整数をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2022/2022_2.pdf)

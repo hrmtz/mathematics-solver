@@ -19,6 +19,3 @@ format:
 $\displaystyle\lim_{n\to\infty}{\left( \frac{{}_{3n}C_n}{{}_{2n}C_n} \right)}^\frac{1}{n}$を
 求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1988/1988_5.pdf)

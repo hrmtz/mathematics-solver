@@ -26,6 +26,3 @@ format:
 $\displaystyle\lim_{t\to\infty}p(t)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_5.pdf)

@@ -24,6 +24,3 @@ format:
 \item[(3)]$g \circ f$によって，円$x^2+y^2=1$が移される曲線の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_0_3.pdf)

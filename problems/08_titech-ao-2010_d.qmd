@@ -21,6 +21,3 @@ $xyz$空間内の3つの部分集合
 \[ C=\{(x,y,z)||z|\leqq1,x^2+y^2\leqq1\} \]
 の和集合$A \cup B \cup C$の体積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/ao/2010_d.pdf)

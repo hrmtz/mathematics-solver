@@ -25,6 +25,3 @@ $f(x)$は$x\geqq0$で単調に減少する連続関数とする．
 $\displaystyle\frac{F(x)}{x}$は$x>0$で単調に減少することを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2005/2005_b.pdf)

@@ -25,6 +25,3 @@ format:
 曲線$C_1$，$C_2$，$y$軸，および線分$PQ$で囲まれた図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_a.pdf)

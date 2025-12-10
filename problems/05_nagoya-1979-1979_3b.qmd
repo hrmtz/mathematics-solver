@@ -20,6 +20,3 @@ $f(x)$は$x>0$において定義された連続関数である．
 $\displaystyle\int_a^bf(x)dx$が$\displaystyle\frac{b}{a}$のみによって定まるならば，
 $\displaystyle f(x)=\frac{c}{x}$（$c$は定数）であることを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1979/1979_3b.pdf)

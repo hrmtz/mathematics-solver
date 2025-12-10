@@ -20,6 +20,3 @@ $n$を自然数とする。$x$，$y$がすべての実数を動くとき，定�
 \[ \int_0^1{(\sin(2n\pi t)-xt-y)}^2dt \]
 の最小値を$I_n$とおく。極限$\displaystyle\lim_{n\to\infty}I_n$を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2019/2019_1.pdf)

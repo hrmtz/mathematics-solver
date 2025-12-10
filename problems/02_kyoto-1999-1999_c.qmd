@@ -27,6 +27,3 @@ $\alpha$を正の定数として，数列$a_n$，$b_n$ $(n\geqq1)$を次の式�
 \item[(2)]$\displaystyle\frac{a_{2n+1}}{a_{2n}}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_c.pdf)

@@ -33,6 +33,3 @@ $y(0)=0$としたときの$y(kT)$を$k$と$T$を用いて表せ．
 \item[(3)]極限値$\displaystyle\lim_{k\to\infty}y(kT)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1996/1996_d.pdf)

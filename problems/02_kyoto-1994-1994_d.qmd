@@ -25,6 +25,3 @@ format:
 \item[(3)]$A$，$B$，$C$の優勝する確率が等しくなるような$p$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_d.pdf)

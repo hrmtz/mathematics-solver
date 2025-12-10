@@ -30,6 +30,3 @@ $x$成分が正であるような，大きさが1のベクトル$\overrightarrow
 $|\overrightarrow{PR}|+|\overrightarrow{RQ}|$が最小となるような点$R$の座標を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2022/2022_1.pdf)

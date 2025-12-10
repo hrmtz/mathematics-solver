@@ -26,6 +26,3 @@ $S$の面積を$\alpha$のみを用いて表せ．
 \item[(2)]$S$と$T$の面積が等しくなる$k$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1994/1994_0_3.pdf)

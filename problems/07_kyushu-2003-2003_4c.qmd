@@ -28,6 +28,3 @@ $y \leqq x(a-x)$の部分に落ちれば当たりとする．
 当たりの数の期待値が$\displaystyle\frac{3}{2}$以下になるような$a$の値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_4c.pdf)

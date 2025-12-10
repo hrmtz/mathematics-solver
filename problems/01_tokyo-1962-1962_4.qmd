@@ -19,6 +19,3 @@ format:
 $\displaystyle\frac{r}{1-r^2}+\frac{r^2}{1-r^4}+\frac{r^4}{1-r^8}+\cdots\cdots+\frac{r^{2^{n-1}}}{1-r^{2^n}}+\cdots\cdots$
 の和を求めよ．ただし$|r|\neq1$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1962/1962_4.pdf)

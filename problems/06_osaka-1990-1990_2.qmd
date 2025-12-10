@@ -19,6 +19,3 @@ format:
 無限級数$\displaystyle\sum_{n=1}^\infty n\int_0^\frac{\pi}{2}\cos2nx\cos xdx$は
 収束することを示し，その和を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_2.pdf)

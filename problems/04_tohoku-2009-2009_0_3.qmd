@@ -24,6 +24,3 @@ format:
 \item[(3)]赤玉がちょうど8回目ですべて取り出される確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2009/2009_0_3.pdf)

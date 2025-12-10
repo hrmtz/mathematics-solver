@@ -19,6 +19,3 @@ format:
 \[ f(x)=-x^3+3ax \hspace{1zw} (a\text{は定数}) \]
 の最大値と最小値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1981/1981_0_2.pdf)

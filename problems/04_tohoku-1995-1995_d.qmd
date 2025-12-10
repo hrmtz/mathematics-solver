@@ -25,6 +25,3 @@ format:
 $p$と$q$の満たす関係式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_d.pdf)

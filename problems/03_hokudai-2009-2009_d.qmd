@@ -21,6 +21,3 @@ format:
 と定める．
 $1 \leqq t \leqq e$での$f(t)$の最小値とそのときの$t$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2009/2009_d.pdf)

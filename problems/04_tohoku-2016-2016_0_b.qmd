@@ -26,6 +26,3 @@ format:
 \item[(2)]直線$y=k(x+2)-2$と$D$が共有点をもつときの直線の傾き$k$のとりうる値の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_0_b.pdf)

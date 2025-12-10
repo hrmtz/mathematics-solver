@@ -30,6 +30,3 @@ $Q_1, \, Q_2, \, \cdots\cdots, \, Q_n, \, \cdots\cdots$が，
 数列$\{ y_n \}$の一般項を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2022/2022_2.pdf)

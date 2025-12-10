@@ -33,6 +33,3 @@ $\overrightarrow{b}$，$\overrightarrow{d}$，$\overrightarrow{e}$，$s$，$t$�
 \item[(3)]ベクトル$\overrightarrow{AP}$が平面$BEI$に対して垂直となるとき，$s$を$t$で表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2015/2015_a.pdf)

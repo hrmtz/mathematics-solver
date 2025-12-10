@@ -27,6 +27,3 @@ $|\overrightarrow{PQ}|\leqq2\sqrt{\displaystyle\frac{2}{3}}$が成立つこと�
 \item[(ii)]$r$が自然数のとき，連立方程式\ding{"AC}，\ding{"AD}の整数解を決定せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1985/1985_4.pdf)

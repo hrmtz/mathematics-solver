@@ -24,6 +24,3 @@ $x$についての方程式$\displaystyle x^2+ax+b+\frac{a}{x}+\frac{1}{x^2}=0$�
 かつそれらが等比数列をなすような$a$，$b$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1992/1992_a.pdf)

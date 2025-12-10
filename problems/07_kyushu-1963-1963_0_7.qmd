@@ -24,6 +24,3 @@ format:
 \item[(3)](2)の条件の下で$k$を動かしたとき，$V$の最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1963/1963_0_7.pdf)

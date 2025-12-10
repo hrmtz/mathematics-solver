@@ -42,6 +42,3 @@ $n_1\overrightarrow{x_1}+n_2\overrightarrow{x_2}+n_3\overrightarrow{x_3}=\overri
 さらに，$\displaystyle\lim_{m\to\infty}P_m=0$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1997/1997_c.pdf)

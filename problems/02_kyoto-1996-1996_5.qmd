@@ -33,6 +33,3 @@ $\triangle ABC$の内部または辺上の点$P_0$に対し，
 \item[(3)]$P_0$が原点$O$のとき$E_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_5.pdf)

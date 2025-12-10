@@ -21,6 +21,3 @@ format:
 3点A，P，Qおよび3点P，Q，Rはどちらも面積が$\displaystyle\frac{1}{3}$の三角形の3頂点であるとする。
 　$\displaystyle\frac{DR}{AQ}$の最大値，最小値を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2019/2019_2.pdf)

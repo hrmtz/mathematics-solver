@@ -24,6 +24,3 @@ format:
 $10nm+3ml+3nl<0$が成り立つ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2015/2015_0_1.pdf)

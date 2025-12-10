@@ -29,6 +29,3 @@ $2n$回目に点$P$の座標が2である確率を$q_n$とする．
 \item[(2)]$\displaystyle\sum_{n=2}^8\log_2\frac{p_n}{p_n-q_n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1976/1976_4.pdf)

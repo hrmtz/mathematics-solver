@@ -27,6 +27,3 @@ $a_n=(\cos2^n)(\cos2^{n-1})\cdots(\cos2)(\cos1)$とおく．
 \item[(3)]$\displaystyle a_n<\frac{\sqrt2}{2^{n+1}}$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2008/2008_0_1.pdf)

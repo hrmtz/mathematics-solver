@@ -27,6 +27,3 @@ $P_i \geqq P_{i+1}$ $(i=1,2,\cdots)$となることを示せ．
 また，$A$が勝者となる確率が$\displaystyle\frac{1}{2}$となるための，$r$と$s$の条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1984/1984_5.pdf)

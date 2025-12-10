@@ -26,6 +26,3 @@ y=-4\cos3\theta+\cos2\theta-\sqrt3\sin2\theta+2\cos\theta+2\sqrt3\sin\theta \]
 $y$の最大値，最小値とそのときの$\theta$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_2.pdf)

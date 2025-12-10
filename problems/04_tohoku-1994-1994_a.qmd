@@ -25,6 +25,3 @@ $xy$平面に，曲線$\displaystyle K:\frac{{(x-c)}^2}{a^2}+\frac{3y^2}{c^2-a^2
 このとき，$K' \subset \{ (x, \, y)|x<0, \, x+y<0 \}$となるように$\theta$の範囲を定めよ．
 ただし，$0^\circ \leqq \theta < {360}^\circ$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_a.pdf)

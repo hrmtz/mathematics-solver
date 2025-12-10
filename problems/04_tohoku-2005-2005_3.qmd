@@ -26,6 +26,3 @@ $k$を得点として終了する．
 $f(n)$および極限値$\displaystyle\lim_{n\to\infty}f(n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_3.pdf)

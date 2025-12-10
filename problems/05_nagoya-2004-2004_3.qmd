@@ -28,6 +28,3 @@ $f_0(x)=2$，$f_1(x)=x$，$f_n(x)=xf_{n-1}(x)-f_{n-2}(x)$，$n=2, \, 3, \, 4, \,
 \item[(3)]$\displaystyle\lim_{n\to\infty}n^2\int_{x_n}^2f_n(x)dx$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2004/2004_3.pdf)

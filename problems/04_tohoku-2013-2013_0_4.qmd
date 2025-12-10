@@ -24,6 +24,3 @@ $A$と$B$の共通部分の面積を$S(t)$とする。
 \item[(2)]$0 \leqq t \leqq 1$における$S(t)$の最大値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2013/2013_0_4.pdf)

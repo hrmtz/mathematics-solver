@@ -29,6 +29,3 @@ format:
 線分$PS$が動いてできる領域の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2021/2021_4.pdf)

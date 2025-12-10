@@ -23,6 +23,3 @@ format:
 $\displaystyle v=\frac{\sqrt{2+h}}{\log(2+h)}$ $(0 \leqq h \leqq 10)$で与えられるものとする．
 水面の上昇が始まってから水面の面積が最大となるまでの時間を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1992/1992_4.pdf)

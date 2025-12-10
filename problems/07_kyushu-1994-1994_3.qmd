@@ -35,6 +35,3 @@ $xy$座標平面で点$P$は点$A(1, \, 0)$を始点として，
 \item[(4)]$\displaystyle\frac{dS(\theta)}{d\theta}$および$S(\theta)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1994/1994_3.pdf)

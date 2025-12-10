@@ -27,6 +27,3 @@ format:
 和$\displaystyle\sum_{n=1}^\infty　y_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1982/1982_3.pdf)

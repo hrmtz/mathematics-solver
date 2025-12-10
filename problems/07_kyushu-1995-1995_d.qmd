@@ -28,6 +28,3 @@ format:
 $f$が最大となるときの値を$\omega$，$b$，$h$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1995/1995_d.pdf)

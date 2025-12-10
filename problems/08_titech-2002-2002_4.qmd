@@ -26,6 +26,3 @@ $n$を自然数とする．
 \item[(3)](2)の$x_n$に対して，極限$\displaystyle\lim_{n \to \infty}x_n\log n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2002/2002_4.pdf)

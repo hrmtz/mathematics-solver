@@ -18,6 +18,3 @@ format:
 
 $x$の不等式$\displaystyle\log_a\frac{x-2}{x-1}>\log_a\frac{3-x}{x}$を解け．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1975/1975_3.pdf)

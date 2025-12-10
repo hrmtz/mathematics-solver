@@ -34,6 +34,3 @@ $\overrightarrow{a}$，$\overrightarrow{b}$，$k$を用いてそれぞれ表せ�
 $k$，$p$，$q$，$r$，$s$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2004/2004_0_c.pdf)

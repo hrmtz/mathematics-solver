@@ -26,6 +26,3 @@ format:
 \[ \lim_{n\to\infty}(a_{n+1}-a_n)=0 \text{ならば数列} \{ a_n \} \text{は収束する．} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_4.pdf)

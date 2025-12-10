@@ -25,6 +25,3 @@ format:
 四面体$ABCP$の体積の最大値と最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2019/2019_0_3.pdf)

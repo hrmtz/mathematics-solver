@@ -23,6 +23,3 @@ $\displaystyle S_n(a)=\int_0^1|x^{n+1}-ax|dx$とおく．
 \item[(2)](1)で求めた$a_n$に対して$\displaystyle\lim_{n\to\infty}nS_n(a_n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1993/1993_3.pdf)

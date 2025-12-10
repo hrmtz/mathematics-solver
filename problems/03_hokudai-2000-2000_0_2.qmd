@@ -26,6 +26,3 @@ format:
 \item[(2)]$n\geqq2$のとき，$b_n>a_n$を数学的帰納法を用いて証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2000/2000_0_2.pdf)

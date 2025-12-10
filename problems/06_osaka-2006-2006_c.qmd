@@ -20,6 +20,3 @@ $a>1$とする．曲線$y=\tan x$ $\displaystyle\left( 0 \leqq x<\frac{\pi}{2} \
 極限$\displaystyle\lim_{a\to\infty}\frac{S}{a}$を求めよ．
 ただし$\displaystyle\lim_{x\to+0}x\log x=0$を証明なしに用いてもよい．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2006/2006_c.pdf)

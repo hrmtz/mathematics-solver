@@ -17,6 +17,3 @@ format:
 
 定積分$\displaystyle\int_0^1e^x|x-a|dx$を最小にする$a$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1984/1984_4.pdf)

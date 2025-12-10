@@ -24,6 +24,3 @@ $n$が奇数のとき$\displaystyle 0 \leqq b_n<\frac{1}{2}$，
 $n$が偶数のとき$\displaystyle \frac{1}{2}<b_n<1$になるという．
 $a_n$および$\alpha$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1981/1981_1.pdf)

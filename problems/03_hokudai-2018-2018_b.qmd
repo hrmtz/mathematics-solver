@@ -28,6 +28,3 @@ $\triangle UVW$の重心$G$の軌跡を複素数平面上に図示せよ。
 ただし，$i$は虚数単位を表す。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2018/2018_b.pdf)

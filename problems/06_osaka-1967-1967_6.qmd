@@ -24,6 +24,3 @@ format:
 収束するような$a$の範囲およびそのときの$S(n)$の極限値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1967/1967_6.pdf)

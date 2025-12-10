@@ -23,6 +23,3 @@ format:
 \item[(2)]$S$を最小にする$a$の値を求めよ．また，$S$の最小値を計算せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1969/1969_0_5.pdf)

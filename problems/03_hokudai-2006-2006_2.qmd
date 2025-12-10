@@ -35,6 +35,3 @@ $a$，$b$を$p$，$q$で表せ．
 $C'$が楕円であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2006/2006_2.pdf)

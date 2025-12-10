@@ -27,6 +27,3 @@ format:
 \item[(3)]$\displaystyle\lim_{n\to\infty}a_n$を$c$の式で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2006/2006_c.pdf)

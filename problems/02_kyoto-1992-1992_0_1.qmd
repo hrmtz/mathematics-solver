@@ -24,6 +24,3 @@ format:
 \[ 1 \leqq max\{4x+4y-3,x^2+y^2\} \leqq 5 \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_0_1.pdf)

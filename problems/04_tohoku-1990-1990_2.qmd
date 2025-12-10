@@ -27,6 +27,3 @@ $xyz$空間における球面
 $E$の体積$V$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_2.pdf)

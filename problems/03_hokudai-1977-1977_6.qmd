@@ -25,6 +25,3 @@ $i<j$，$i \in N$，$j \in N$ならば$f(i) \leqq f(j)$であるとする．
 $\alpha(k)$と$\alpha(k+1)$との大小を比べよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1977/1977_6.pdf)

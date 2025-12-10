@@ -28,6 +28,3 @@ format:
 \item[(ii)]$\displaystyle\lim_{n\to\infty}S_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1971/1971_5.pdf)

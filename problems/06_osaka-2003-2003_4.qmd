@@ -29,6 +29,3 @@ $n=1, \, 2, \, \cdots\cdots$が成り立つことを示せ．
 \item[(3)]$a_2=a$とするとき，数列$\{ a_k \}$の一般項を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_4.pdf)

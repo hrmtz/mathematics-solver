@@ -29,6 +29,3 @@ format:
 の最大値および最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_e.pdf)

@@ -22,6 +22,3 @@ format:
 ただし，$n$は自然数とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1968/1968_3.pdf)

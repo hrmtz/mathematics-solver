@@ -31,6 +31,3 @@ $\begin{cases} x'=ax+by
 点$P$が$y$軸上を動けば，点$P''$はどのような図形の上を動くか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1981/1981_2.pdf)

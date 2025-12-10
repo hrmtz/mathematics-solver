@@ -36,6 +36,3 @@ $f(x)$を$x\geqq0$で定義された連続な関数とし，$a$，$b$を正の�
 \item[(4)]$x\geqq0$で$y(x)=z(x)$であることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_e.pdf)

@@ -25,6 +25,3 @@ format:
 少なくとも2つは無理数であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_0_3b.pdf)

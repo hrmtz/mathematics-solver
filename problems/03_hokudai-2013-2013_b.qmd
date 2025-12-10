@@ -38,6 +38,3 @@ $X$と$C$が交換可能のとき，$X$は実数$\alpha$，$\beta$を用いて$\
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2013/2013_b.pdf)

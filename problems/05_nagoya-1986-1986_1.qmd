@@ -28,6 +28,3 @@ $P$がこの曲線上を動くときに$Q$が描く曲線の方程式を求め�
 ただし，$\overline{OP}$は線分$OP$の長さを表す．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1986/1986_1.pdf)

@@ -26,6 +26,3 @@ $S_n=r\sin\theta+r^2\sin2\theta+\cdots\cdots+r^n\sin n\theta$を計算せよ．
 \item[(2)]$\displaystyle\lim_{n\to\infty}C_n$および$\displaystyle\lim_{n\to\infty}S_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1968/1968_4.pdf)

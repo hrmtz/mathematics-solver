@@ -20,6 +20,3 @@ format:
 \[ x \geqq 0, \hspace{1zw} y \geqq 0, \hspace{1zw} x+y \geqq 1 \]
 $a$が正の定数であるとき，$f(x,y)=\sqrt{x}+a\sqrt{y}$の最小値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1969/1969_6.pdf)

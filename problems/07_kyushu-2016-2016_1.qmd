@@ -31,6 +31,3 @@ $P$，$Q$の$x$座標はそれぞれ1，$n+1$となっている。
 \item[(3)]極限値$\displaystyle\lim_{n\to\infty}\frac{S_n}{n\log T_n}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2016/2016_1.pdf)

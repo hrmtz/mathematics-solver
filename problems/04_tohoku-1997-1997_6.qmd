@@ -22,6 +22,3 @@ format:
 \item[(2)]$y=f(x)$のグラフと$x$軸で囲まれた図形の面積$S$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1997/1997_6.pdf)

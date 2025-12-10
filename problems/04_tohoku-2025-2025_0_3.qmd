@@ -29,6 +29,3 @@ $\overrightarrow{OP}$を$\overrightarrow{b}, \, \overrightarrow{c}$を用いて�
 \item[(4)]四面体$OABC$が1辺の長さ1の正四面体のとき，線分$OD$の長さを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2025/2025_0_3.pdf)

@@ -25,6 +25,3 @@ $0<a\leqq1$となる実数$a$に対して$\displaystyle F(x)=\int_{ax}^xf(t)dt$ 
 さらに$f(1)=1$であるとき，$f(x)$および$P(a)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1981/1981_5.pdf)

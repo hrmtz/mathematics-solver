@@ -23,6 +23,3 @@ format:
 曲線$y=f(x)$と，3つの直線$x=-1$，$x=1$，$y=0$で囲まれた図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1986/1986_5.pdf)

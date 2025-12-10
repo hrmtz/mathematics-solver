@@ -23,6 +23,3 @@ format:
 \item[(2)]原点$O$と$H$の距離の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1966/1966_2.pdf)

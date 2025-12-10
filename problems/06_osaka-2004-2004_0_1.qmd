@@ -23,6 +23,3 @@ format:
 また，$y=f(x)$のグラフは平行移動によって$\displaystyle y=x^3+\frac{3}{2}mx$のグラフに移ることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_0_1.pdf)

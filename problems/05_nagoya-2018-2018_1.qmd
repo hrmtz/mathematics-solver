@@ -26,6 +26,3 @@ format:
 このとき(1)，(2)を用いて$\displaystyle\lim_{n\to\infty}S_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2018/2018_1.pdf)

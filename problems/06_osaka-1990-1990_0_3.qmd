@@ -27,6 +27,3 @@ $x \geqq a$の範囲にある部分の面積を$S_2(a)$とする．
 \[ 0<a<1 \hspace{1zw} \text{のとき} \hspace{1zw} S_1(a)>S_2(a) \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_0_3.pdf)

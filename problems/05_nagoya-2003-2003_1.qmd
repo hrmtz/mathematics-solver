@@ -39,6 +39,3 @@ $\alpha$に関する条件として与え，
 その点$P(a, \, b)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_1.pdf)

@@ -23,6 +23,3 @@ format:
 \item[(ii)]$PF_1+PF_2\leqq6$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1989/1989_2.pdf)

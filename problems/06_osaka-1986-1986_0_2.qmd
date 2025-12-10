@@ -20,6 +20,3 @@ format:
 \[ x_1=2, \hspace{1zw} x_{n+1}=\frac{{x_n}^2+5}{2x_n} \hspace{1zw} (n=1, \, 2, \, \cdots\cdots) \]
 このとき，$\displaystyle0<x_n-\sqrt5<\frac{1}{2^n}$ $(n=2, \, 3, \, \cdots\cdots)$を示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1986/1986_0_2.pdf)

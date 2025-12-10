@@ -25,6 +25,3 @@ format:
 \item[(3)]2つの接線の間の距離$D$を$a$の関数として表せ．また，$D$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_b.pdf)

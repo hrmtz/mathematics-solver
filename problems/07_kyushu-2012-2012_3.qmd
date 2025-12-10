@@ -24,6 +24,3 @@ format:
 \item[(2)]この方程式が，すべての自然数$n$に対して実数解を持つような$a$の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2012/2012_3.pdf)

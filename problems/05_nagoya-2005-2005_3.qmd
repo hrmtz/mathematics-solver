@@ -33,6 +33,3 @@ $\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{c}$および$t$�
 ベクトル$\overrightarrow{OM}$を$\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{c}$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2005/2005_3.pdf)

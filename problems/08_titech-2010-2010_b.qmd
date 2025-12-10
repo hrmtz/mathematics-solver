@@ -28,6 +28,3 @@ $C$と$L(\alpha)$および$x$軸とで囲まれる領域の面積を$S(\alpha)$�
 $S(\alpha)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2010/2010_b.pdf)

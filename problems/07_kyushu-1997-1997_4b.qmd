@@ -29,6 +29,3 @@ format:
 ただし，$0\leqq\theta<2\pi$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_4b.pdf)

@@ -19,6 +19,3 @@ format:
 $\alpha$，$\beta$，$\gamma$は$\alpha>0$，$\beta>0$，$\gamma>0$，$\alpha+\beta+\gamma=\pi$を満たすものとする．
 このとき，$\sin\alpha\sin\beta\sin\gamma$の最大値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_b.pdf)

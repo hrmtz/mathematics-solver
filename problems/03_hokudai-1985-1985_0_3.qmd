@@ -27,6 +27,3 @@ $a_n=\sin x_n$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$とおく．
 数学的帰納法で示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1985/1985_0_3.pdf)

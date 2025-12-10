@@ -24,6 +24,3 @@ format:
 \item[(3)]平面$\alpha$で分けられた正四面体$ABCD$の2つの部分のうち，原点に近い部分の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1988/1988_4.pdf)

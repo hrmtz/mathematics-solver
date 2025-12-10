@@ -26,6 +26,3 @@ $\displaystyle0<t\leqq\frac{\pi}{2}$において，
 $\displaystyle\frac{k(t)}{l(t)}$の最小値とそのときの$P$の座標を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2016/2016_a.pdf)

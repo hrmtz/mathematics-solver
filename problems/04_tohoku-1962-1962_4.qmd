@@ -31,6 +31,3 @@ $R(\cos\gamma, \, \sin\gamma)$，$S(\cos\delta, \, \sin\delta)$とするとき�
 $\theta$の関数として表わせ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1962/1962_4.pdf)

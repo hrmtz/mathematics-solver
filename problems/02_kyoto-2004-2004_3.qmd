@@ -22,6 +22,3 @@ $x^{2n}$を$\displaystyle x^2-x+\frac{n-1}{n^2}$で割った余りを$a_nx+b_n$�
 $\displaystyle x^{2n}=P_n(x) \left( x^2-x+\frac{n-1}{n^2} \right) +a_nx+b_n$が成り立っているとする．
 $\displaystyle\lim_{n\to\infty}a_n$，$\displaystyle\lim_{n\to\infty}b_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_3.pdf)

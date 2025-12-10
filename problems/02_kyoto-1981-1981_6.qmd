@@ -23,6 +23,3 @@ $\displaystyle\int_a^xe^{-\frac{t^2}{2}}dt\leqq\frac{1}{a}e^{-\frac{a^2}{2}}-\fr
 \item[(2)]$3<b$のとき$\displaystyle\int_3^be^{-\frac{t^2}{2}+2t}<e^{\frac{3}{2}}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1981/1981_6.pdf)

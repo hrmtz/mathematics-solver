@@ -22,6 +22,3 @@ $\triangle A_nB_nB_{n-1}$はすべての$n=1,2,\cdots$に対し正三角形を�
 $a_1=1$であるとき，
 $\displaystyle\sum_{n=1}^{\infty}{a_n}^2$および$\displaystyle\sum_{n=1}^{\infty}{a_n}^3$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/ao/2010_c.pdf)

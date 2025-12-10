@@ -27,6 +27,3 @@ $\displaystyle \alpha=\frac{1-i}{\sqrt2}$とおく。複素数$z$に対して，
 そのときの$c$の値と$\beta$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2024/2024_2.pdf)

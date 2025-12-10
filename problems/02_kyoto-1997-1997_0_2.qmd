@@ -25,6 +25,3 @@ $n$の約数すべてを小さい順に並べて得られる数列を$a_k$ $(1 \
 \item[(ロ)]$n$は6個以上の約数をもち，$\displaystyle\frac{1}{a_3}+\frac{1}{a_6}=\frac{1}{a_2}$となる．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1997/1997_0_2.pdf)

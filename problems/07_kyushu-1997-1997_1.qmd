@@ -27,6 +27,3 @@ $x=r(t)\cos t$，$y=r(t)\sin t$で与えられている．
 $x$軸，$y$軸とで囲まれる図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_1.pdf)

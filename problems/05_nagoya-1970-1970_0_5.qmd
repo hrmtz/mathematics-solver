@@ -20,6 +20,3 @@ $AC$，$BP$の交点を$Q$とするとき，面積
 \[ S=\triangle APQ+\triangle QBC \]
 の最小値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1970/1970_0_5.pdf)

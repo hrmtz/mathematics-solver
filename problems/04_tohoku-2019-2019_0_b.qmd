@@ -24,6 +24,3 @@ $xy$平面において，放物線$\displaystyle C:y=-\frac{1}{2}x^2$の2つの�
 $\triangle PQ_1Q_2$の面積が8となるような点$P$の座標をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_0_b.pdf)

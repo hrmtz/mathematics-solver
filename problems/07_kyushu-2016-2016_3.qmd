@@ -37,6 +37,3 @@ format:
 $n$回サイコロを投げた後に，コインが$P_0$の位置にある確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2016/2016_3.pdf)

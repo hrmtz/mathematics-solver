@@ -31,6 +31,3 @@ format:
 \item[(2)]$\displaystyle\lim_{n\to\infty}L(n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2003/2003_5.pdf)

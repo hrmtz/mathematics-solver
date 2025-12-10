@@ -31,6 +31,3 @@ $A'=\begin{pmatrix} a & c
  b & d \end{pmatrix}$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1988/1988_0_1.pdf)

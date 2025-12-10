@@ -23,6 +23,3 @@ format:
 \item[(ii)]$P$における$C$の接線は原点を通る．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1988/1988_4.pdf)

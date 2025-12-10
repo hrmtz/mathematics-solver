@@ -23,6 +23,3 @@ format:
 \item[(2)]3回のかわりに10回のときは何通りか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1987/1987_0_3.pdf)

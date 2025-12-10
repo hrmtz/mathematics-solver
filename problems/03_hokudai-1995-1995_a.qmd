@@ -23,6 +23,3 @@ format:
 $\theta$ $\displaystyle\left( 0\leqq\theta\leqq\frac{\pi}{2} \right)$としたとき，
 $\cos\theta$の値を$p$，$q$で表せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1995/1995_a.pdf)

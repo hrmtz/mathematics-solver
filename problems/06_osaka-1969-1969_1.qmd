@@ -27,6 +27,3 @@ $\overrightarrow{A_{n-1}A_n}$だけできまる．その理由をのべよ．
 また，その対称の中心を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1969/1969_1.pdf)

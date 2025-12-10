@@ -27,6 +27,3 @@ $E$，$F$を通り$l$に接する円を描きその接点を$P$とする．
 \item[(3)]$PQ=CF$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_0_3c.pdf)

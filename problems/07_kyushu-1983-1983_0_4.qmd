@@ -26,6 +26,3 @@ $A+A^2+\cdots\cdots+A^n$を$S_n$とする．
 \item[(2)]$S_nX=T_n$を満たす行列$X$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1983/1983_0_4.pdf)

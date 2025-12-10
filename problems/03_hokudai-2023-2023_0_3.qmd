@@ -27,6 +27,3 @@ $a_1, \, a_2, \, \cdots\cdots, \, a_n$とし，
 必要十分条件を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2023/2023_0_3.pdf)

@@ -25,6 +25,3 @@ format:
 \item[(3)]$\displaystyle\lim_{t\to\infty}\int_0^t\{f(x)-f'(x)\}e^{-x}dx=f(0)$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_a.pdf)

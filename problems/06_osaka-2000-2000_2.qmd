@@ -26,6 +26,3 @@ $xy$平面上の16個の点からなる集合
 その三角形の面積は$\displaystyle\frac{9}{2}$である」
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_2.pdf)

@@ -21,6 +21,3 @@ format:
 積分$\displaystyle S_a=\int_0^cf(x)dx$を考える．
 $a$をいろいろ変えたとき，$S_a$の値が最大になるような$a$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1977/1977_2.pdf)

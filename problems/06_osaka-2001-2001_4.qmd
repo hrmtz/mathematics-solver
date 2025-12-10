@@ -28,6 +28,3 @@ $2\leqq k \leqq3n$の範囲で$g_n(k-1) \geqq g_n(k)$となる$k$をすべて求
 このとき極限値$\displaystyle\lim_{n\to\infty}\frac{G_n}{n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2001/2001_4.pdf)

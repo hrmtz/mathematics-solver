@@ -30,6 +30,3 @@ $\theta=\angle AOB$を用いて表せ．
 ただし，円周上の2点$P$，$Q$に対して，$\angle POQ$は$P$から$Q$まで反時計まわりにはかるものとする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1991/1991_b.pdf)

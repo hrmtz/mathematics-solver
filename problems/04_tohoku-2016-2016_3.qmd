@@ -23,6 +23,3 @@ format:
 \item[(2)]$a, \, b, \, c$がある鈍角三角形の3辺の長さとなる確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_3.pdf)

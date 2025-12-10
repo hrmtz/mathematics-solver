@@ -32,6 +32,3 @@ $f(x)=\log(x+1)+1$とする．以下の問いに答えよ．
 $\displaystyle\lim_{n\to\infty}x_n=\alpha$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2022/2022_4.pdf)

@@ -9,7 +9,7 @@ import yaml
 
 import env  # noqa: F401  # .env を自動読み込み
 from ocr_to_qmd import image_to_qmd
-from solver import generate_solution_qmd, build_handout_qmd
+from solver import generate_solution_qmd, build_handout_qmd, _sanitize_tex_for_handout
 from taxonomy import FIELDS as FIELD_CATEGORIES
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -141,6 +141,52 @@ def get_problem_index(force_reload: bool = False):
     return _problem_index_cache
 
 
+def _extract_meta_from_qmd_text(qmd_text: str) -> dict:
+    """qmd テキストから YAML メタデータを辞書として取り出す。"""
+
+    if not qmd_text:
+        return {}
+
+    lines = qmd_text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return {}
+
+    end = None
+    for i in range(1, len(lines)):
+        if lines[i].strip() == "---":
+            end = i
+            break
+    if end is None:
+        return {}
+
+    yaml_text = "\n".join(lines[1:end])
+    try:
+        meta = yaml.safe_load(yaml_text) or {}
+    except Exception:
+        meta = {}
+    return meta
+
+
+def _build_citation_label(meta: dict) -> str:
+    """YAML メタから `[大学, 年度]` 形式の出典文字列を生成する。"""
+
+    if not meta:
+        return ""
+
+    university = meta.get("university") or ""
+    exam_year = meta.get("exam_year") or ""
+
+    parts = []
+    if university:
+        parts.append(str(university))
+    if exam_year:
+        parts.append(str(exam_year))
+
+    if not parts:
+        return ""
+    return f"[{', '.join(parts)}]"
+
+
 @app.route("/", methods=["GET"])
 def index():
     # トップページでは問題検索をメインにする
@@ -193,10 +239,14 @@ def upload():
     # 新しい問題を追加したのでインデックスを無効化
     invalidate_problem_index_cache()
 
+    meta = _extract_meta_from_qmd_text(qmd_text)
+    citation_label = _build_citation_label(meta)
+
     return render_template(
         "preview.html",
         problem_id=problem_id,
         qmd_text=qmd_text,
+        citation_label=citation_label,
     )
 
 
@@ -214,12 +264,16 @@ def update_meta(problem_id):
     # メタデータが変わると検索条件に影響するのでインデックスを無効化
     invalidate_problem_index_cache()
 
+    meta = _extract_meta_from_qmd_text(qmd_text)
+    citation_label = _build_citation_label(meta)
+
     flash("問題テキスト／メタデータを保存しました。次に解答生成を行ってください。")
     return render_template(
         "solution_preview.html",
         problem_id=problem_id,
         problem_qmd=qmd_text,
         solution_qmd="",
+        citation_label=citation_label,
     )
 
 
@@ -240,11 +294,15 @@ def solve(problem_id):
     # 解答の有無フラグが変わるのでインデックスを無効化
     invalidate_problem_index_cache()
 
+    meta = _extract_meta_from_qmd_text(problem_qmd)
+    citation_label = _build_citation_label(meta)
+
     return render_template(
         "solution_preview.html",
         problem_id=problem_id,
         problem_qmd=problem_qmd,
         solution_qmd=solution_qmd,
+        citation_label=citation_label,
     )
 
 
@@ -258,10 +316,15 @@ def open_problem(problem_id):
         return redirect(url_for("index"))
 
     qmd_text = problem_qmd_path.read_text(encoding="utf-8")
+
+    meta = _extract_meta_from_qmd_text(qmd_text)
+    citation_label = _build_citation_label(meta)
+
     return render_template(
         "preview.html",
         problem_id=problem_id,
         qmd_text=qmd_text,
+        citation_label=citation_label,
     )
 
 
@@ -281,11 +344,15 @@ def open_problem_with_solution(problem_id):
     if solution_qmd_path.exists():
         solution_qmd = solution_qmd_path.read_text(encoding="utf-8")
 
+    meta = _extract_meta_from_qmd_text(problem_qmd)
+    citation_label = _build_citation_label(meta)
+
     return render_template(
         "solution_preview.html",
         problem_id=problem_id,
         problem_qmd=problem_qmd,
         solution_qmd=solution_qmd,
+        citation_label=citation_label,
     )
 
 
@@ -385,6 +452,8 @@ def serve_archive(filename: str):
 
 @app.route("/handout/<problem_id>", methods=["POST"])
 def handout(problem_id):
+    """問題・解答ハンドアウトをプレビューと同じロジックで表示する。"""
+
     problem_qmd_path = PROBLEM_FOLDER / f"{problem_id}.qmd"
     solution_qmd_path = SOLUTION_FOLDER / f"{problem_id}_solution.qmd"
 
@@ -392,46 +461,124 @@ def handout(problem_id):
         flash("問題または解答が見つかりません。")
         return redirect(url_for("index"))
 
-    handout_qmd_path = OUTPUT_FOLDER / f"{problem_id}_handout.qmd"
+    problem_qmd = problem_qmd_path.read_text(encoding="utf-8")
+    solution_qmd = solution_qmd_path.read_text(encoding="utf-8")
 
-    handout_qmd = build_handout_qmd(
-        problem_qmd_path=problem_qmd_path,
-        solution_qmd_path=solution_qmd_path,
+    meta = _extract_meta_from_qmd_text(problem_qmd)
+    citation_label = _build_citation_label(meta)
+
+    # Quarto ではなく、プレビューと同じ JS ベースの描画で表示する
+    return render_template(
+        "handout_view.html",
         problem_id=problem_id,
+        problem_qmd=problem_qmd,
+        solution_qmd=solution_qmd,
+        citation_label=citation_label,
     )
-    handout_qmd_path.write_text(handout_qmd, encoding="utf-8")
 
-    # Quarto で HTML まで生成
-    from subprocess import run, CalledProcessError
 
-    html_name = f"{problem_id}_handout.html"
-    html_path = OUTPUT_FOLDER / html_name
+def _extract_problem_body_for_test(problem_qmd: str) -> str:
+    """テスト用プリント向けに、問題 qmd から本文だけを取り出して軽く整形する。"""
 
-    try:
-        run(
-            ["quarto", "render", str(handout_qmd_path), "--to", "html"],
-            cwd=str(OUTPUT_FOLDER),
-            check=True,
-            capture_output=True,
-            text=True,
+    lines = problem_qmd.splitlines()
+    body_lines = []
+    if lines and lines[0].strip() == "---":
+        i = 1
+        while i < len(lines) and lines[i].strip() != "---":
+            i += 1
+        if i < len(lines):
+            body_lines = lines[i + 1 :]
+        else:
+            body_lines = lines
+    else:
+        body_lines = lines
+
+    body = "\n".join(body_lines).strip()
+
+    # ハンドアウトと同様に、元PDFリンクやスキャン画像などは削除する
+    filtered_lines = []
+    for line in body.splitlines():
+        stripped = line.strip()
+        if stripped == "---":
+            continue
+        if stripped.startswith("元問題 PDF:") or stripped.startswith("元問題スキャン:"):
+            continue
+        filtered_lines.append(line)
+
+    body = "\n".join(filtered_lines).strip()
+    return _sanitize_tex_for_handout(body)
+
+
+@app.route("/test/create", methods=["POST"])
+def create_test():
+    """検索結果から選択した複数の問題を 1 つのテスト画面にまとめる。
+
+    プレビューと同じ JS ベースの変換ロジックで描画する。
+    """
+
+    problem_ids = request.form.getlist("problem_ids")
+    if not problem_ids:
+        flash("テスト用に出題する問題を 1 問以上選択してください。")
+        return redirect(url_for("search"))
+
+    problems_ctx = []
+    for idx, pid in enumerate(problem_ids, start=1):
+        qmd_path = PROBLEM_FOLDER / f"{pid}.qmd"
+        if not qmd_path.exists():
+            continue
+
+        text = qmd_path.read_text(encoding="utf-8")
+        lines = text.splitlines()
+        meta = {}
+        if lines and lines[0].strip() == "---":
+            end = None
+            for i in range(1, len(lines)):
+                if lines[i].strip() == "---":
+                    end = i
+                    break
+            if end is not None:
+                yaml_text = "\n".join(lines[1:end])
+                try:
+                    meta = yaml.safe_load(yaml_text) or {}
+                except Exception:
+                    meta = {}
+
+        university = meta.get("university") or ""
+        exam_year = meta.get("exam_year") or ""
+        problem_number = meta.get("problem_number") or ""
+
+        citation_parts = []
+        if university:
+            citation_parts.append(str(university))
+        if exam_year:
+            citation_parts.append(str(exam_year))
+        citation_label = f"[{', '.join(citation_parts)}]" if citation_parts else ""
+
+        header_parts = []
+        if exam_year:
+            header_parts.append(str(exam_year))
+        if university:
+            header_parts.append(str(university))
+        if problem_number:
+            header_parts.append(f"第{problem_number}問")
+        header_label = " ".join(header_parts) if header_parts else pid
+
+        # QMD 全体を渡し、クライアント側でプレビューと同じ変換を行う
+        problems_ctx.append(
+            {
+                "idx": idx,
+                "problem_id": pid,
+                "header_label": header_label,
+                "qmd_text": text,
+                "citation_label": citation_label,
+            }
         )
-    except FileNotFoundError:
-        flash("Quarto コマンドが見つかりません。Quarto をインストールしてください。")
-        return redirect(url_for("index"))
-    except CalledProcessError as e:
-        flash("Quarto による HTML 生成でエラーが発生しました。")
-        print("Quarto error:", e.stderr)
-        return redirect(url_for("index"))
 
-    if not html_path.exists():
-        flash("HTML ファイルが生成されませんでした。")
-        return redirect(url_for("index"))
-    # 生成した HTML をそのままブラウザに表示する
-    return send_from_directory(
-        directory=str(OUTPUT_FOLDER),
-        path=html_path.name,
-        as_attachment=False,
-    )
+    if not problems_ctx:
+        flash("選択された問題ファイルが見つかりませんでした。")
+        return redirect(url_for("search"))
+
+    return render_template("test_view.html", problems=problems_ctx)
 
 
 if __name__ == "__main__":

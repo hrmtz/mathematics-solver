@@ -24,6 +24,3 @@ $x$軸に垂直なだ円$\displaystyle\frac{x^2}{9}+\frac{y^2}{4}=1$の弦があ
 さらに点$P$の存在する領域を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1973/1973_0_4.pdf)

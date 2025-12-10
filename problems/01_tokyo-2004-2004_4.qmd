@@ -28,6 +28,3 @@ format:
 $f_n(x)=0$をみたす実数$x$の個数は$3^n$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2004/2004_4.pdf)

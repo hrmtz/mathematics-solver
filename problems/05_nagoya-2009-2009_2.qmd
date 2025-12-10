@@ -26,6 +26,3 @@ $g(\theta)=f(\cos\theta)-f(\sin\theta)$ $(0\leqq\theta\leqq2\pi)$
 \item[(3)]$y=g(\theta)$のグラフをかけ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2009/2009_2.pdf)

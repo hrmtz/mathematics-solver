@@ -27,6 +27,3 @@ $q(0)$，$q(1)$，および$q(r)$ $(1 \leqq r \leqq N-1)$を求めよ．
 \item[(3)]$R$の期待値（平均）$E(R)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1987/1987_5.pdf)

@@ -32,6 +32,3 @@ $C_2$との接点を$Q_1$とする．
 \item[(4)]級数$\displaystyle\sum_{n=1}^\infty S_n$の和を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2010/2010_3.pdf)

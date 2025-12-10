@@ -22,6 +22,3 @@ $0<a<b$とし，$m$，$n$を自然数とする．
 \[ f(m+n), \hspace{1zw} f(m)+f(n), \hspace{1zw} g(m+n), \hspace{1zw} g(m)+g(n) \]
 の大きさの順に並べよ．ただし，対数は常用対数とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_0_2.pdf)

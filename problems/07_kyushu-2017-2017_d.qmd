@@ -31,6 +31,3 @@ $k>1$のとき$x\geqq0$である。以下の問いに答えよ。
 $\displaystyle e=\lim_{h\to0}{ (1+h) }^\frac{1}{h}$を満たすことを用いてよい。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_d.pdf)

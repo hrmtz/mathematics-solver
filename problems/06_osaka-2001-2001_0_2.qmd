@@ -36,6 +36,3 @@ ${z_1}^2+{z_2}^2+{z_3}^2$を$r$，$s$，$\theta$で表せ．
 \item[(3)](2)の仮定のもとで，$\overrightarrow{x}$と$\overrightarrow{u}$のなす角を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2001/2001_0_2.pdf)

@@ -27,6 +27,3 @@ $\triangle ABC$の内部の点$P$が
 \item[(2)]$|\overrightarrow{PA}|$，$|\overrightarrow{PB}|$，$|\overrightarrow{PC}|$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2013/2013_4.pdf)

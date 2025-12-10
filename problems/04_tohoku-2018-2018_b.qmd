@@ -30,6 +30,3 @@ $\triangle XAB$の面積と$\triangle XCD$の面積の和の最大値を求め�
 また，そのときの$\angle AOX$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_b.pdf)

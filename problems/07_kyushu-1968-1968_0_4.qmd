@@ -22,6 +22,3 @@ format:
 \item[(2)]$\cos4\theta\cos2\theta\leqq\cos^23\theta$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1968/1968_0_4.pdf)

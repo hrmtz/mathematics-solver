@@ -26,6 +26,3 @@ $\triangle HOH'$の面積$S$を$t$で表せ．
 $t$のとり得る範囲および$S$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_5b.pdf)

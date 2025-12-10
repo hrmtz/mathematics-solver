@@ -21,6 +21,3 @@ format:
 \item[(2)](1)で求めた$S$を最小にする$k$の値およびそのときの$S$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1961/1961_5.pdf)

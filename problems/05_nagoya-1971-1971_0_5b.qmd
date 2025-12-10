@@ -25,6 +25,3 @@ format:
 比$\displaystyle\frac{n}{m}$をどの程度に大きくすればよいか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1971/1971_0_5b.pdf)

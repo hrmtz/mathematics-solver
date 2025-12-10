@@ -37,6 +37,3 @@ $\displaystyle J_n=\sum_{i=1}^{k_n}{(x_i-p_n)}^2+\sum_{i=k_n+1}^N{(x_i-q_n)}^2$�
 $J_n=J_{n-1}$，$p_n=p_{n-1}$，$q_n=q_{n-1}$，$k_n=k_{n-1}$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2007/2007_9.pdf)

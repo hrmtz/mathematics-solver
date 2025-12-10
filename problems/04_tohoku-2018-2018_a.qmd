@@ -25,6 +25,3 @@ $m$を正の整数とするとき，放物線$y=x^2-2mx+m^2$と$x$軸および$y
 $\displaystyle\lim_{m\to\infty}\frac{T_m}{S_m}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_a.pdf)

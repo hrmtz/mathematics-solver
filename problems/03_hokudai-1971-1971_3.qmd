@@ -28,6 +28,3 @@ $\displaystyle\sum_{k=1}^\infty S_k=a^{m+1}\cdot\text{□}$．
 この$\displaystyle\sum_{k=1}^\infty S_k$は$r$の関数であるが，
 $r\to1$とすれば$\displaystyle\sum_{k=1}^\infty S_k\to\text{□}$．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1971/1971_3.pdf)

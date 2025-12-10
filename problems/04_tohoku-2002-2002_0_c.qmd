@@ -28,6 +28,3 @@ format:
 塔の頂上を見上げる仰角が$3\theta$になるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2002/2002_0_c.pdf)

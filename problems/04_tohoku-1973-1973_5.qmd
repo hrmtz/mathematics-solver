@@ -23,6 +23,3 @@ format:
 \[ f(x)+\frac{d}{dx}f(x)=1+x^2 \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1973/1973_5.pdf)

@@ -30,6 +30,3 @@ $0<a_n<1$かつ$a_{n+1}>a_n$が成り立つことを示せ。
 $\displaystyle\lim_{n\to\infty}b_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2020/2020_4.pdf)

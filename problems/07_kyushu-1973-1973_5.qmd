@@ -28,6 +28,3 @@ $\overrightarrow{OC'}=a\overrightarrow{OC}$で定め，
 \item[(2)]$0<a<1$における$S(a)$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1973/1973_5.pdf)

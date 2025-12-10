@@ -23,6 +23,3 @@ format:
 \item[(2)]$a_1=1$，$a_2=2$とするとき，一般項$a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_0_4.pdf)

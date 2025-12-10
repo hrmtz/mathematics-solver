@@ -23,6 +23,3 @@ $x\geqq0$で定義された関数$y=f(x)$で，下の2条件\ding{"AC}，\ding{"
 \item[(2)]$\displaystyle b\int_a^x f(t)dt=xf(x)$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1985/1985_6.pdf)

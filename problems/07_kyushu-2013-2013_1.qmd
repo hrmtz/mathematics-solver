@@ -30,6 +30,3 @@ $\displaystyle \left( 0<\theta(a)<\frac{\pi}{2} \right)$。
 このとき，$\displaystyle\lim_{a\to\infty}a\sin\theta(a)$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2013/2013_1.pdf)

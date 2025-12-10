@@ -27,6 +27,3 @@ $\vec{a}=(1,0,0)$，$\vec{b}=(\cos{60}^\circ,\sin{60}^\circ,0)$とする．
 範囲を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_0_3.pdf)

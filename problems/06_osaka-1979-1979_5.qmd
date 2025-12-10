@@ -30,6 +30,3 @@ format:
 $X$と$Y$の少なくとも一方が$n$である確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1979/1979_5.pdf)

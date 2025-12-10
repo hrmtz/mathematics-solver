@@ -22,6 +22,3 @@ format:
 $\displaystyle\lim_{a\to\infty}\frac{r}{a}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1974/1974_3.pdf)

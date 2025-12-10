@@ -28,6 +28,3 @@ format:
 \item[(3)](2)において，正方形$PQRS$を$x$軸のまわりに回転してできる立体の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1983/1983_0_4.pdf)

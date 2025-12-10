@@ -29,6 +29,3 @@ format:
 また，この直線の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1979/1979_1.pdf)

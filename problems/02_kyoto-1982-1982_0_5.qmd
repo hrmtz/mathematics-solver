@@ -25,6 +25,3 @@ $\triangle DAB$の重心を$C_1$，$\triangle ABC$の重心を$D_1$として，
 \item[(2)](1)において，点$P$は各線分をどのような比に分けるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1982/1982_0_5.pdf)

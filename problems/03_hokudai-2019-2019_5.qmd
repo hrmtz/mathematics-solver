@@ -32,6 +32,3 @@ b_n=\frac{2}{\pi}\int_0^\pi f_n(t)\cos tdt \]
 \item[(3)]$a_n, \, b_n$が$n$によらない定数となるような$f(x)$を1つ求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2019/2019_5.pdf)

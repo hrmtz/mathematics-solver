@@ -25,6 +25,3 @@ $P_0(x)$，$P_1(x)$，$\cdots\cdots$，$P_{m-1}(x)$のいずれかであるこ�
 \item[(2)]等式$P_l(x)P_m(x^2)P_n(x^4)=P_{100}(x)$が成立するような正の整数の組$(l,m,n)$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1992/1992_9.pdf)

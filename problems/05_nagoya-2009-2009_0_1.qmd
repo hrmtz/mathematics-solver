@@ -29,6 +29,3 @@ $\overrightarrow{OC}$が，次の条件
 \item[(3)]四面体$OABC$の体積$V$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2009/2009_0_1.pdf)

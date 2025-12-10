@@ -27,6 +27,3 @@ $\overrightarrow{OA}=-\overrightarrow{OD}$が成り立つ．
 \item[(3)]内積$\overrightarrow{AB}\cdot\overrightarrow{DC}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1988/1988_1.pdf)

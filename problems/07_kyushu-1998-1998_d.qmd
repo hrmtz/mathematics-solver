@@ -28,6 +28,3 @@ $l_1$と$l_2$の接点の側にある図形を$S$とする．
 点$(x, \, y)$が$S$に属しているとき$px+qy$の最小値が$\displaystyle\frac{9}{5}$以下となる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_d.pdf)

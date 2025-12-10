@@ -21,6 +21,3 @@ format:
 $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\overrightarrow{0}$をみたしている．
 このとき，三角形$ABC$は正三角形であることを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_0_1.pdf)

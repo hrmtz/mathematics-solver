@@ -25,6 +25,3 @@ $a$は1より大きい実数とする．
 \item[(3)]$\displaystyle\lim_{a\to\infty}(a+1)S(a)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1988/1988_4.pdf)

@@ -25,6 +25,3 @@ format:
 この球$S$の半径$r$を$a$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2006/2006_d.pdf)

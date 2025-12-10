@@ -27,6 +27,3 @@ $\triangle OPQ$の面積を$S_2$とする．
 \item[(2)]極限$\displaystyle \lim_{t\to\infty}\frac{S_1-S_2}{\log t}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2011/2011_b.pdf)

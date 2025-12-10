@@ -27,6 +27,3 @@ format:
 $|x|+|y|$の最大値，最小値とそれを与える$(x, \, y)$をそれぞれ求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2014/2014_3.pdf)

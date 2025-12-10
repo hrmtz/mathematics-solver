@@ -30,6 +30,3 @@ $\displaystyle\alpha=-\frac{1}{2}+\frac{\sqrt3}{2}i$とおくとき，
 無限級数の和$\displaystyle\sum_{k=1}^\infty x_k$，$\displaystyle\sum_{k=1}^\infty y_k$をそれぞれ求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2002/2002_3.pdf)

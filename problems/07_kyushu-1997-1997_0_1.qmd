@@ -24,6 +24,3 @@ format:
 \item[(3)]3点$O$，$A$，$P$が同一直線上にないとき，$\triangle OAP$の面積の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_0_1.pdf)

@@ -30,6 +30,3 @@ $\alpha\leqq\beta$であるとすると，関数$f(x)$の最小値は$\alpha$に
 このとき関数$f(x)$の最小値と最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1989/1989_2.pdf)

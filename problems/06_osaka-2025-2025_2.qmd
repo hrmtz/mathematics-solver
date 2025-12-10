@@ -25,6 +25,3 @@ $x=\beta$で極小値をとるとする．
 曲線$y=f(x)$の変曲点の軌跡を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2025/2025_2.pdf)

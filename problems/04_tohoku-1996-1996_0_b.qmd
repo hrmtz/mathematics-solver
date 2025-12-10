@@ -26,6 +26,3 @@ $C=\begin{pmatrix} 0 & 1
  1 & 1 \end{pmatrix}$に対して，
 等式$A^2B=BA^2$，$AC=CA$が成り立つとき，$x$，$y$，$z$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_0_b.pdf)

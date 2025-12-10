@@ -41,6 +41,3 @@ format:
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2016/2016_4.pdf)

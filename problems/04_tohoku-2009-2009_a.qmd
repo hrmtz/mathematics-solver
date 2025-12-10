@@ -31,6 +31,3 @@ $\overrightarrow{a}$，$\overrightarrow{b}$，$\overrightarrow{c}$，$t$で表�
 \item[(3)]3点$G$，$H$，$I$が一致するような$t$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2009/2009_a.pdf)

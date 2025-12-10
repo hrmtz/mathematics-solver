@@ -23,6 +23,3 @@ format:
 \item[(2)]$\theta$を(1)のように定めるとき，$\cos(2\theta+{60}^\circ)$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1997/1997_0_a.pdf)

@@ -20,6 +20,3 @@ format:
 \[ \frac{a^2+b^2+c^2}{ab+bc+ca} \]
 の取り得る値の範囲を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/ao/2011_b.pdf)

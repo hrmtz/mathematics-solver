@@ -28,6 +28,3 @@ ${|\overrightarrow{CP}|}^2$を$s$と$t$を用いて表せ．
 ${|\overrightarrow{CP}|}^2$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_1.pdf)

@@ -28,6 +28,3 @@ $n$を正の整数，$a$を正の実数とし，関数$f(x)$と$g(x)$を次の�
 \item[(3)](2)で求めた$S_n$に対し，極限$\displaystyle\lim_{n\to\infty}S_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2025/2025_4.pdf)

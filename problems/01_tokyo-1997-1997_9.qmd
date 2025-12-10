@@ -38,6 +38,3 @@ format:
 \item[(4)]$N$を10000以上の整数とするとき，$q \leqq p_N \leqq r$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1997/1997_9.pdf)

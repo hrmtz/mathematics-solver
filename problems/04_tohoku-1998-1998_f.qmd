@@ -26,6 +26,3 @@ $\overrightarrow{OP}=(r\cos\theta, \, r\sin\theta)$ $(r>0)$とする．
 このとき，$r$を$\theta$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_f.pdf)

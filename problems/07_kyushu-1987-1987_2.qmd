@@ -24,6 +24,3 @@ format:
 \item[(2)]関数$y=f(x)$の極値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1987/1987_2.pdf)

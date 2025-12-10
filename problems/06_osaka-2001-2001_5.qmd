@@ -28,6 +28,3 @@ format:
 また$\displaystyle b_3=\frac{1}{2}$となる数列$ \{ a_n \} $は全部で何種類あるかを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2001/2001_5.pdf)

@@ -25,6 +25,3 @@ format:
 \item[(3)]$I_5$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2014/2014_5.pdf)

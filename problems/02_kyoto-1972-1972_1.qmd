@@ -32,6 +32,3 @@ format:
 $ \{ (\overrightarrow{A}+\overrightarrow{B})+\overrightarrow{C} \} +\overrightarrow{D}$を意味するものとし，
 一般の場合も同様とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1972/1972_1.pdf)

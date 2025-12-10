@@ -27,6 +27,3 @@ $\cos2\theta$と$\cos3\theta$がともに有理数となるような$\theta$の�
 (2) \hspace{1zw} \int_0^\frac{\pi}{4}\frac{dx}{\cos x} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2019/2019_1.pdf)

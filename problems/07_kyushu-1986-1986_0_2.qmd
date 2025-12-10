@@ -30,6 +30,3 @@ ${(\overrightarrow{a}\cdot\overrightarrow{d})}^2+
 互いに直交することを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1986/1986_0_2.pdf)

@@ -35,6 +35,3 @@ $n$を正の整数とし，$C_1, \, \cdots, \, C_n$を$n$枚の硬貨とする�
 $\displaystyle\lim_{m\to\infty}Z_{3m}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2024/2024_4.pdf)

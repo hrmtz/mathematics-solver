@@ -25,6 +25,3 @@ $VD=VE=VF$を示せ．
 $VA:VB:VC$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1967/1967_4.pdf)

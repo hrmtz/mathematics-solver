@@ -30,6 +30,3 @@ format:
 y \geqq f(x), \hspace{1zw} y \geqq g(x) \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2004/2004_0_1.pdf)

@@ -21,6 +21,3 @@ format:
 
  \displaystyle \log_xy+\log_yx=\frac{13}{6} \end{cases} \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1975/1975_0_2.pdf)

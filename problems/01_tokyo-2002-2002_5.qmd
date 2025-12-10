@@ -21,6 +21,3 @@ $k=0,1,\cdots,n$，をとる．
 三角\ruby{錐}{すい}$OP_kP_{k+1}Q_k$の体積を$V_k$とおいて，
 極限$\displaystyle\lim_{n\to\infty}\sum_{k=0}^{n-1}V_k$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2002/2002_5.pdf)

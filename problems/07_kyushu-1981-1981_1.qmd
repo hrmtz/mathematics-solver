@@ -30,6 +30,3 @@ $a$を正の数とするとき，2次関数
 \item[(5)]$OP=OR$のとき，$a$および$S$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1981/1981_1.pdf)

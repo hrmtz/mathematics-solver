@@ -30,6 +30,3 @@ $n=1,2,\cdots\cdots$について，$a_{n+1}$，$b_{n+1}$，$c_{n+1}$を次式で
 \item[(3)]$c_m>c_{m+1}=c_{m+2}$となったときの$m$について，$a_m:b_m:c_m$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_6.pdf)

@@ -21,6 +21,3 @@ format:
 \item[(ii)]$x=1$で極値2をとる．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1984/1984_0_3a.pdf)

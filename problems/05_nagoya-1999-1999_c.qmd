@@ -33,6 +33,3 @@ format:
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1999/1999_c.pdf)

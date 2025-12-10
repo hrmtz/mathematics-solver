@@ -23,6 +23,3 @@ format:
 $f(\alpha)$と$f(\beta)$の大小をくらべよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1966/1966_1.pdf)

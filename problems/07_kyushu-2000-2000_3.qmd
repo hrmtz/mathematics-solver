@@ -32,6 +32,3 @@ $n$を自然数として，$\displaystyle f(x)=\sum_{k=1}^n\frac{x^k}{k}$とお�
 \item[(3)]この不等式を用いて，$\log2$の近似値を誤差が$\displaystyle\frac{1}{100}$以下となるような分数で求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2000/2000_3.pdf)

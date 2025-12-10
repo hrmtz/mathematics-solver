@@ -32,6 +32,3 @@ ${C_1}'$は$l$と$y$軸に接し，${C_2}'$は$l$と$x$軸に接し，
 $\displaystyle\frac{r}{R}$のとりうる値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_5.pdf)

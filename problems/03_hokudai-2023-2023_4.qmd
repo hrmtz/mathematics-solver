@@ -27,6 +27,3 @@ $a_1, \, a_2, \, \cdots\cdots, \, a_n$とし，
 $L_n$のとりうる値の最小値を$r_n$とする。$L_n=r_n$となる確率$p_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2023/2023_4.pdf)

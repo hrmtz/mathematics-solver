@@ -22,6 +22,3 @@ format:
 \item[(2)]$C$上の点$(-3, \, -6)$を通り，$C$に接する直線の方程式をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2025/2025_0_1.pdf)

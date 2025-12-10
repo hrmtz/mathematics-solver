@@ -28,6 +28,3 @@ $\triangle OAB$において，辺$AB$上に点$Q$をとり，直線$OQ$上に点
 $\overrightarrow{OP}$を$\overrightarrow{OA}$と$\overrightarrow{OB}$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2008/2008_3.pdf)

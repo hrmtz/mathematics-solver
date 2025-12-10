@@ -30,6 +30,3 @@ $\displaystyle\frac{1}{2} \leqq x_1 \leqq 1$として，
 $x_1=a$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_4a.pdf)

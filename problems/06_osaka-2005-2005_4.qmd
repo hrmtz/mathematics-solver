@@ -35,6 +35,3 @@ $Q$の$x$座標が最大となるような$\theta$ $(0\leqq\theta<2\pi)$につ�
 $\tan\theta$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2005/2005_4.pdf)

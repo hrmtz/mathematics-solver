@@ -25,6 +25,3 @@ $\displaystyle f(x)=\int_0^1 e^{-|t-x|} t(1-t) dt$と定める．
 \item[(3)]$f(x)$は$\displaystyle x=\frac{1}{2}$で極大となることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2010/2010_4.pdf)

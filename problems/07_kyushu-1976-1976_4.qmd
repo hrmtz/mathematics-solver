@@ -25,6 +25,3 @@ format:
 \item[(2)]$\displaystyle\sum_{n=0}^\infty S_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1976/1976_4.pdf)

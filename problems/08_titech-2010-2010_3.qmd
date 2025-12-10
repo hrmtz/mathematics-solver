@@ -23,6 +23,3 @@ format:
 \item[(2)]正の整数$k$に対し，$p(3k+2)$を$k$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2010/2010_3.pdf)

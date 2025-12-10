@@ -22,6 +22,3 @@ format:
 \item[(2)]正の定数$a$，$b$ $(a<b)$に対して$a \leqq a^xb^{1-x} \leqq b$となるような$x$の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1963/1963_0_1.pdf)

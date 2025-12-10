@@ -19,6 +19,3 @@ format:
 $\displaystyle\frac{AB}{4}=\frac{BC}{3}=\frac{CD}{2}=\frac{DA}{1}$を満たすとき，
 辺$AB$の長さを求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1968/1968_4.pdf)

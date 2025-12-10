@@ -29,6 +29,3 @@ $m \leqq l$である2数$l$，$m$に対して，
 $m$のとりうる値の範囲を定めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1968/1968_3.pdf)

@@ -27,6 +27,3 @@ $a$，$b$は，ともに0でない実数で，$A=\begin{pmatrix} a & b
  y \end{pmatrix}$によって定める．
 このとき，$\triangle OPQ$の面積の最大値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_d.pdf)

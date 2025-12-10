@@ -31,6 +31,3 @@ $O=\begin{pmatrix} 0 & 0
  0 & 0 \end{pmatrix}$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1980/1980_5.pdf)

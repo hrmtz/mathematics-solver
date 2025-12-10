@@ -22,6 +22,3 @@ $AB>AC$であるような$\triangle ABC$において，辺$BC$の三等分点$M$
 \item[(ii)]$\angle BAM$と$\angle CAN$との大小関係をしらべよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1977/1977_0_6.pdf)

@@ -25,6 +25,3 @@ format:
 \[ S\text{の最小値}=\frac{1}{2}+\log k \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1969/1969_6.pdf)

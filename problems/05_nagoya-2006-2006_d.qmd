@@ -31,6 +31,3 @@ $n$ $(K \leqq n \leqq L)$である確率を求めよ．
 \item[(5)](4)の結果を利用し，コインを投げる回数$N$の期待値を$a$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2006/2006_d.pdf)

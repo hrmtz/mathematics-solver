@@ -27,6 +27,3 @@ format:
 \item[(3)]配置できる半径3の円の最大個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2008/2008_5.pdf)

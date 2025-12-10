@@ -26,6 +26,3 @@ format:
 線分$PQ$の長さと線分$AB$の長さの比を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1999/1999_b.pdf)

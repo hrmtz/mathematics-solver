@@ -25,6 +25,3 @@ $x_1$，$x_2$，$\cdots\cdots$，$x_n$，$\cdots\cdots$について，次の各�
 \item[(ハ)]$\displaystyle\lim_{n\to\infty}x_n=1$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1970/1970_0_6.pdf)

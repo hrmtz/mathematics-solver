@@ -23,6 +23,3 @@ $\displaystyle\sum_{n=0}^{99}3^n$の桁数を求めよ.
 10000以下の正の整数$n$で$[ \, \sqrt{n} \, ]$が$n$の約数となるものは何個あるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2012/2012_2.pdf)

@@ -23,6 +23,3 @@ format:
 \item[(ii)]また，このような2点$P$，$Q$があるためには$(\alpha,\beta)$はどのような範囲になければならないか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1976/1976_0_6.pdf)

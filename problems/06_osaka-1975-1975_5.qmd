@@ -29,6 +29,3 @@ $B$が勝つ確率を$\displaystyle\sum_{n=1}^\infty q_n$と考え，
 それぞれの値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1975/1975_5.pdf)

@@ -25,6 +25,3 @@ $y=e^x+1$に接する直線の接点の$x$座標を$a_{n+1}$とする．
 このとき，$\displaystyle\lim_{n\to\infty}(a_{n+1}-a_n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2015/2015_3.pdf)

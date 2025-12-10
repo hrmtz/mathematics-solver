@@ -25,6 +25,3 @@ format:
 \item[(2)]$a_2(p) \geqq a_1(p)$となる$p$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_0_d.pdf)

@@ -24,6 +24,3 @@ format:
 \item[(3)]\ding{"AC}を満たす整数の組$(a, \, b)$をすべてあげよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_3.pdf)

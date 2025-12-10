@@ -23,6 +23,3 @@ format:
 ただし，直三角柱とは，すべての側面が底面と垂直であるような三角柱である。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2017/2017_a.pdf)

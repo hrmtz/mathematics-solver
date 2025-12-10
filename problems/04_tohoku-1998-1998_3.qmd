@@ -26,6 +26,3 @@ format:
 \item[(3)]$b_n$を$n$の式で表し，$\displaystyle\lim_{n\to\infty}b_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_3.pdf)

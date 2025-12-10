@@ -29,6 +29,3 @@ $\overrightarrow{DA}$，$\overrightarrow{DB}$，$\overrightarrow{DC}$で表せ�
 \item[(3)]直線$NG$と直線$MC$は平行であることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_0_4.pdf)

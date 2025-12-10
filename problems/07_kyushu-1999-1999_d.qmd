@@ -28,6 +28,3 @@ $k$，$l$をそれぞれ負でない整数とし，
 \item[(3)]$k$，$l$を固定して$\displaystyle\lim_{n\to\infty}p_n(k, \, l)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_d.pdf)

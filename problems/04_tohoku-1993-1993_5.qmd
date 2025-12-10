@@ -36,6 +36,3 @@ $\overrightarrow{OP'}$と$\overrightarrow{OP}$の内積$\overrightarrow{OP'}\cdo
 およびそれらの値を与える$t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_5.pdf)

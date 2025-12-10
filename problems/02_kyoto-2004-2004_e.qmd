@@ -25,6 +25,3 @@ $n$を用いてあらわせ．
 \item[(3)]$a < c \leqq d$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_e.pdf)

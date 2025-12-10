@@ -28,6 +28,3 @@ format:
 \item[(2)]辺$AB$と辺$CD$との共通垂線の長さを$l$，$m$，$n$で表わせ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1965/1965_1.pdf)

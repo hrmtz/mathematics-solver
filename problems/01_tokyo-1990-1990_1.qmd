@@ -20,6 +20,3 @@ $\displaystyle b_n=\sum_{k=1}^n\frac{1}{\sqrt{2k+1}}$とするとき，
 $\displaystyle \lim_{n\to\infty}a_n$，
 $\displaystyle \lim_{n\to\infty}\frac{b_n}{a_n}$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1990/1990_1.pdf)

@@ -26,6 +26,3 @@ $V$を切ったときの断面積$S(t)$を求めよ。
 \item[(2)]$V$の体積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2013/2013_6.pdf)

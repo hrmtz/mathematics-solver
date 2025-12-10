@@ -29,6 +29,3 @@ format:
 ただし，$0^\circ\leqq\theta<{360}^\circ$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_0_4b.pdf)

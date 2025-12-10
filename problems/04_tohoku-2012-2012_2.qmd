@@ -29,6 +29,3 @@ $m$を実数とする。
 となる$m$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2012/2012_2.pdf)

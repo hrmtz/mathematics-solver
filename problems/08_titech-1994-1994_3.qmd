@@ -20,6 +20,3 @@ format:
 \item[(2)]極限値$\displaystyle \lim_{n\to\infty} \int_0^{n\pi} e^{-x} |\sin x| dx$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1994/1994_3.pdf)

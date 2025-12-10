@@ -25,6 +25,3 @@ $g(x)$，$h(x)$が整数係数の多項式で$f(x)=g(x)h(x)$であると仮定�
 \item[(iii)](ii)の場合が起こるような$a$，$b$の例を一組求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1980/1980_6.pdf)

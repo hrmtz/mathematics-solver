@@ -25,6 +25,3 @@ $\overline{OP}+\overline{OQ}$を$\theta$の関数として表わせ．
 \item[(2)]$\overline{OP}+\overline{OQ}$の最大値，最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1969/1969_0_2.pdf)

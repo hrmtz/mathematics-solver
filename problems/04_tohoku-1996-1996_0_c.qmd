@@ -24,6 +24,3 @@ format:
 \item[(2)]$a_n$，$b_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_0_c.pdf)

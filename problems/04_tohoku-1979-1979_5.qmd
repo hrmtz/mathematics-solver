@@ -23,6 +23,3 @@ f''(\alpha)+f''(\beta)+f''(\gamma)=0 \]
 を満たす$\alpha$，$\beta$，$\gamma$を求めよ．
 ただし，$\displaystyle-\frac{\pi}{2}<\alpha<\beta<\gamma<\frac{\pi}{2}$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1979/1979_5.pdf)

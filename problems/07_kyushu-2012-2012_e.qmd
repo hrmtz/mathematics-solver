@@ -40,6 +40,3 @@ format:
 \item[(4)]点$X_k$の座標$a_k$の極限$\displaystyle\lim_{k\to\infty}a_k$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2012/2012_e.pdf)

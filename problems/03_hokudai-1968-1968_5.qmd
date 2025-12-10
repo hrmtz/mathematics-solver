@@ -22,6 +22,3 @@ format:
 その変曲点の座標をかけ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1968/1968_5.pdf)

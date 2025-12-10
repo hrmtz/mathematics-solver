@@ -26,6 +26,3 @@ format:
 \item[(iii)]$k$は$\log2$より小さい。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1962/1962_0_5.pdf)

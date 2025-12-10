@@ -31,6 +31,3 @@ $\displaystyle f \left( \frac{p}{2} \right) = f \left( -\frac{p}{2} \right) =0$
 (2)の結果を用いて関数$|\sin mx|\sin nx$の基本周期を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_5.pdf)

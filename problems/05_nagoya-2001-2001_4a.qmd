@@ -25,6 +25,3 @@ $\displaystyle -\frac{1}{2}+\frac{\sqrt3}{2}i$，$\displaystyle -\frac{1}{2}-\fr
 \item[(2)]$n=6$のとき，(1)のような複素数列$z_1,z_2,\cdots,z_n$のとり方の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_4a.pdf)

@@ -26,6 +26,3 @@ $Q(-\cos\theta, \, \sin\theta)$を通り，点$P$と点$Q$のそれぞれにお�
 \item[(3)]$A\geqq\sqrt3$を示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2024/2024_0_1.pdf)

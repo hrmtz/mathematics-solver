@@ -23,6 +23,3 @@ $\displaystyle f(x)=\frac{\cos2x-2}{a\cos x+1}$とする．
 \item[(2)]$f(x)$の$0 \leqq x \leqq \pi$における最大値は$f(0)$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_6.pdf)

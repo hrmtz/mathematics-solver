@@ -27,6 +27,3 @@ format:
 また，その対称の中心を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1969/1969_0_1.pdf)

@@ -25,6 +25,3 @@ $\begin{cases} 0 \leqq y \leqq \sin x
 $\displaystyle \frac{d}{dt}V(t)=\frac{\pi}{4}$となる$t$と，
 そのときの$V(t)$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_5.pdf)

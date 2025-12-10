@@ -32,6 +32,3 @@ $\overrightarrow{OQ}$のなす角が${90}^\circ$であることを示せ。
 そのときの四面体$OCPQ$の体積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2020/2020_c.pdf)

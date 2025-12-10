@@ -19,6 +19,3 @@ format:
 $\displaystyle f(x)=\int_0^x(\cos t+\sin2t)dt$とするとき，
 関数$y=f(x)$のグラフをえがけ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1962/1962_0_5.pdf)

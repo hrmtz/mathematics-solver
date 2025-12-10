@@ -24,6 +24,3 @@ format:
 \item[(3)]$p(k)$を最大にする$k$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_0_3b.pdf)

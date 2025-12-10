@@ -24,6 +24,3 @@ $xy$平面内の，原点を中心とする半径$n$の円の，内部と周を�
 \end{description}
 　このとき，$\displaystyle\lim_{n\to\infty}\frac{N(n)}{n^2}=\pi$を証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_f.pdf)

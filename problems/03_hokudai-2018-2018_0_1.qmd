@@ -24,6 +24,3 @@ $\triangle ABC$において$AB=\sqrt{t^2+1}$，$BC=t-1$，$AC=\sqrt2$とし，
 \item[(2)]直線$CO$と直線$AB$が垂直に交わるときの$t$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2018/2018_0_1.pdf)

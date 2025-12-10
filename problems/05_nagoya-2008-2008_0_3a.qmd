@@ -22,6 +22,3 @@ format:
 \item[(2)]$3x+2y\leqq2008$を満たす0以上の整数の組$(x, \, y)$の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2008/2008_0_3a.pdf)

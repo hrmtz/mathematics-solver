@@ -32,6 +32,3 @@ format:
 関数$M(\theta)$のグラフをかけ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1988/1988_2.pdf)

@@ -24,6 +24,3 @@ format:
 $0<t<t_0$のとき，三角形$\triangle PQR$の面積$S(t)$の最大値とそのときの$t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2009/2009_0_3.pdf)

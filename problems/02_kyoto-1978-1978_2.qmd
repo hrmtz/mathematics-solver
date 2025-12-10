@@ -24,6 +24,3 @@ $\triangle OAB$，$\triangle OPQ$の面積をそれぞれ$S$，$T$とすれば�
 \item[(ii)]$\displaystyle\frac{4}{9}S\leqq T \leqq\frac{1}{2}S$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1978/1978_2.pdf)

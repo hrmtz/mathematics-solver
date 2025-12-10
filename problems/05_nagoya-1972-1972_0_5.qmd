@@ -23,6 +23,3 @@ format:
 \item[(2)]$D$の面積を$S_n$とし，$\displaystyle\lim_{n\to\infty}\frac{S_n}{L_n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1972/1972_0_5.pdf)

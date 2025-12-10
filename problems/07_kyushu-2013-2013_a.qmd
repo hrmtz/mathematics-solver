@@ -28,6 +28,3 @@ $\displaystyle\left(\frac{3}{2}\sqrt3, \, -\frac{1}{2}, \, 0\right)$とする。
 点$O$，$E$，$F$以外で正四面体$ABCD$の辺と交わる点の座標を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2013/2013_a.pdf)

@@ -25,6 +25,3 @@ $k-1$周目までは出発点を跳び越し，$k$周目に初めて出発点を
 このとき$\displaystyle\lim_{n\to\infty}q_{n,k}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_f.pdf)

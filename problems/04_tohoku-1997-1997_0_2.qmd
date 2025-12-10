@@ -21,6 +21,3 @@ format:
 最大値および最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1997/1997_0_2.pdf)

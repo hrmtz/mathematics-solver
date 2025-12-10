@@ -22,6 +22,3 @@ format:
 この2点の中点は，あるひとつの双曲線上にあることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2000/2000_1.pdf)

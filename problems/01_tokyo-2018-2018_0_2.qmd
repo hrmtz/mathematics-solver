@@ -27,6 +27,3 @@ $\displaystyle\frac{a_n}{a_{n-1}}<1$をみたす$n$の範囲を求めよ。
 \item[(3)]$a_n$が整数となる$n\geqq1$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2018/2018_0_2.pdf)

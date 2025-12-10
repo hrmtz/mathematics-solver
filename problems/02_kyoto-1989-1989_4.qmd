@@ -24,6 +24,3 @@ $\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$のそれ�
 区分して述べよ．
 　また，$a=7$，$b=8$，$c=9$のとき，その切り口の面積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_4.pdf)

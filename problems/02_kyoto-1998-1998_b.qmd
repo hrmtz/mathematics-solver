@@ -21,6 +21,3 @@ format:
 \[ f_n(x)=\int_0^1(3x^2t{f_{n-1}}'(t)+3f_{n-1}(t))dt, \hspace{1zw} (n=2,3,4,\cdots) \]
 で，帰納的に定義されている．この$f_n(x)$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1998/1998_b.pdf)

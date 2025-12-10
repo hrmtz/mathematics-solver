@@ -21,6 +21,3 @@ format:
 \overrightarrow{OP}+\overrightarrow{OQ}+\overrightarrow{OR}=\overrightarrow{0} \]
 を満たすとする．線分$OR$の長さと$\cos\angle POR$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1998/1998_0_1.pdf)

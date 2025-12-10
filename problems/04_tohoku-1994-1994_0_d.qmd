@@ -23,6 +23,3 @@ format:
 \item[(2)]$a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_0_d.pdf)

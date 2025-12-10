@@ -27,6 +27,3 @@ format:
 \item[(3)](2)で求めた$f(x)=0$の解の大小関係を調べ，それらを大きい順に並べよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2015/2015_2.pdf)

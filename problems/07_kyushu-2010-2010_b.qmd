@@ -30,6 +30,3 @@ $\overrightarrow{CR}$を$\overrightarrow{a}$，$\overrightarrow{b}$，$n$，$r$�
 このとき，$|AS|:|SB|$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2010/2010_b.pdf)

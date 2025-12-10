@@ -32,6 +32,3 @@ $y$軸の周りに回転してできる回転体の体積を$V_r$とするとき
 $V_1+V_2+\cdots\cdots+V_n+\cdots\cdots$の和を$a_1$を用いて表わせ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1962/1962_6.pdf)

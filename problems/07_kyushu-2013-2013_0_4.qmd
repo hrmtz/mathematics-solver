@@ -27,6 +27,3 @@ format:
 このとき，領域$D$と領域$E$の共通部分$D \cap E$を図示し，さらに，その面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2013/2013_0_4.pdf)

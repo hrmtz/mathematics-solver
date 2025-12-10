@@ -35,6 +35,3 @@ rX_1+r^2X_2+r^3X_3+r^4X_4+\cdots\cdots+r^{4k}X_{4k} \]
 さらに，極限$\displaystyle\lim_{k\to\infty}s_k$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1997/1997_a.pdf)

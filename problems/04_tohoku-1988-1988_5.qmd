@@ -21,6 +21,3 @@ format:
 を満たしているとする．
 このとき，$m\geqq3$に対して$\displaystyle\sum_{n=1}^mna_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1988/1988_5.pdf)

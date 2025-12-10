@@ -23,6 +23,3 @@ $n$を自然数とし，$\displaystyle I_n=\int_1^e{(\log x)}^ndx$とおく．
 $\displaystyle\frac{e-1}{n+1}\leqq I_n\leqq\frac{(n+1)e+1}{(n+1)(n+2)}$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_f.pdf)

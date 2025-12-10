@@ -27,6 +27,3 @@ $xy$平面上の曲線$\displaystyle C:y=\frac{1}{2}(e^x+e^{-x})$の上を運動
 \item[(2)]動点$Q$の速度の大きさのとり得る範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2003/2003_a.pdf)

@@ -25,6 +25,3 @@ $x>0$を定義域とする関数$\displaystyle f(x)=\frac{12(e^{3x}-3e^x)}{e^{2x
 このとき，定積分$\displaystyle\int_8^{27}g(x)dx$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2006/2006_6.pdf)

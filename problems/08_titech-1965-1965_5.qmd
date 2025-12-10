@@ -20,6 +20,3 @@ format:
 \[ \int_0^\pi|\sin(x+h)-\sin x|dx<2h \]
 ただし，$0<h<\pi$とする。
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1965/1965_5.pdf)

@@ -31,6 +31,3 @@ $A$が勝つ確率を$p_n$，$B$が勝つ確率を$q_n$とする．
 \item[(3)]$p_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1995/1995_e.pdf)

@@ -33,6 +33,3 @@ $X$を$\overrightarrow{AX}=\overrightarrow{LP}$となる空間の点とすると
 $|\overrightarrow{p}|$，$|\overrightarrow{q}|$，$|\overrightarrow{r}|$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_4.pdf)

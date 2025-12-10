@@ -31,6 +31,3 @@ $\begin{pmatrix} 1-n & 1
 \item[(3)]$\displaystyle\sum_{n=1}^\infty\frac{1}{S_n-\displaystyle\frac{1}{6}}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2011/2011_1.pdf)

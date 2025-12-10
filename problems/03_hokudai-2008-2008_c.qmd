@@ -30,6 +30,3 @@ $\sqrt{gh(x)}$に等しいことが知られている．
 ただし，$d$は$0<d<h_0$とする．また時刻$\displaystyle\frac{T}{2}$での津波の位置の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_c.pdf)

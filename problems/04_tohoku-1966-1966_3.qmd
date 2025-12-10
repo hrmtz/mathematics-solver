@@ -21,6 +21,3 @@ $0 \leqq x \leqq 2\pi$，$0 \leqq y \leqq 2\pi$の範囲で，
 次の不等式を満足する点$(x, \, y)$の存在する範囲を斜線をつけて図示せよ．
 \[ \cos x-\cos y\cos(x+y)>0 \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1966/1966_3.pdf)

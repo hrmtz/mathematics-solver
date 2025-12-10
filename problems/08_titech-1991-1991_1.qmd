@@ -23,6 +23,3 @@ $n$を正の整数とする．
 \item[(2)]$\displaystyle\lim_{n\to\infty}\frac{f(10^n)}{10^n}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1991/1991_1.pdf)

@@ -26,6 +26,3 @@ y \leqq\frac{e^x+e^{-x}}{2}, \hspace{1zw} y\leqq a \]
 \item[(2)]$\displaystyle\lim_{a\to\infty}S_a$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2024/2024_5.pdf)

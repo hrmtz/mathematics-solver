@@ -25,6 +25,3 @@ format:
 \item[(2)]無限級数$\displaystyle\sum_{n=1}^\infty\frac{1}{c_n}$の和を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1982/1982_2.pdf)

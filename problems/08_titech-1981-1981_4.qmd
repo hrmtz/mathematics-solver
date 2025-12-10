@@ -23,6 +23,3 @@ $\displaystyle F(t)=\frac{1}{t}\int_0^{\frac{\pi}{2}t}|\cos2x|dx$とおく．
 \item[(2)]$F(t)\geqq1$となる$t$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1981/1981_4.pdf)

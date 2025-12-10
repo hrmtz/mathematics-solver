@@ -21,6 +21,3 @@ $\displaystyle \frac{1}{x}\int_0^x\frac{dt}{\sqrt{1-t}}=\frac{1}{\sqrt{1-y}}$を
 $x$の増加関数であることを示せ．
 さらに，極限値$\displaystyle\lim_{x \to 1}y$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1968/1968_6.pdf)

@@ -23,6 +23,3 @@ format:
 \item[(2)](1)で求めた解のうちの2個が整数となる$a$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1975/1975_2.pdf)

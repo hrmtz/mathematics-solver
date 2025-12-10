@@ -33,6 +33,3 @@ $\displaystyle\frac{x(x+1)}{1-i}$は$R$の要素であることを示せ。
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2015/2015_e.pdf)

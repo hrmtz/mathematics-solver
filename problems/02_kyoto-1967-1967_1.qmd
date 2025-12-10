@@ -22,6 +22,3 @@ format:
 1と$\displaystyle 1+\frac{2}{k}$との間にあることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1967/1967_1.pdf)

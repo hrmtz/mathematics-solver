@@ -29,6 +29,3 @@ $P=\begin{pmatrix} p & 0
 \item[(2)]$A$を$p$と$q$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2009/2009_5.pdf)

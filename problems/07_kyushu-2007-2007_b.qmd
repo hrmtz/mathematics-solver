@@ -28,6 +28,3 @@ format:
 点$S$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_b.pdf)

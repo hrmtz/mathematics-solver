@@ -27,6 +27,3 @@ $\displaystyle\left( 2n\pi\leqq a_n \leqq2n\pi+\frac{\pi}{2} \right)$．
 このとき，$\displaystyle\lim_{n\to\infty}(a_n-2n\pi)=0$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1999/1999_d.pdf)

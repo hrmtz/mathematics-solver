@@ -19,6 +19,3 @@ format:
 $\alpha$，$\beta$，$\gamma$がこの順に等差数列であり，
 $\sin\alpha$，$\sin\beta$，$\sin\gamma$がこの順に等比数列であるのはどのようなときか．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1975/1975_3.pdf)

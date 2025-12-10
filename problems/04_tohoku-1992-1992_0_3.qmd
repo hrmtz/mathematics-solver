@@ -28,6 +28,3 @@ format:
 $S_1$と$S_2$の比を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_0_3.pdf)

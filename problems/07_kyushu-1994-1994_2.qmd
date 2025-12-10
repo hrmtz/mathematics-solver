@@ -27,6 +27,3 @@ format:
 \item[(3)]上で求めた$f$によって不変であるような原点を通る直線を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1994/1994_2.pdf)

@@ -33,6 +33,3 @@ format:
 \item[(2)]物体が側面につく瞬間での$V$の変化率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1965/1965_6.pdf)

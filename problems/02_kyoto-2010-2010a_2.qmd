@@ -23,6 +23,3 @@ $\overrightarrow{AB}$と$\overrightarrow{CD}$は
 このとき，頂点$A$，頂点$B$および辺$CD$の中点$M$の3点を通る平面は
 辺$CD$と直交することを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2010/2010a_2.pdf)

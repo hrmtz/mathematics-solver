@@ -26,6 +26,3 @@ $x$軸のまわりに回転させてできる立体$V$の体積$V(\theta)$を求
 \item[(3)]$\displaystyle\lim_{\theta\to\frac{\pi}{2}-0}V(\theta)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1992/1992_7.pdf)

@@ -28,6 +28,3 @@ format:
 \item[(3)](2)の$a_n$がすべて整数であることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2016/2016_4.pdf)

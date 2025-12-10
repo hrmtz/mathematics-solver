@@ -28,6 +28,3 @@ format:
 \item[(2)]一般項$b_n$を$n$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2005/2005_0_3.pdf)

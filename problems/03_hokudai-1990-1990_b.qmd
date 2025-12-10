@@ -32,6 +32,3 @@ $\triangle OAB$と$\triangle OA'B'$は面積が等しい．
 点$C(1, \, 1)$の$f$による像はどのような図形を描くかを調べ，それを図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1990/1990_b.pdf)

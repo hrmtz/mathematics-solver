@@ -24,6 +24,3 @@ format:
 $s$と$t$のうち少なくとも1つは無理数であることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_0_2.pdf)

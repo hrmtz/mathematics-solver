@@ -26,6 +26,3 @@ $\displaystyle g'(0)=\lim_{x \to 0}\frac{ax+bg(x)}{cx+g(x)}$が成りたつ．
 \end{description}
 　このとき，$a$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1974/1974_4.pdf)

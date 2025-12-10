@@ -48,6 +48,3 @@ $\begin{pmatrix} a
 \item[(2)]条件(＊)をみたす2つの連立方程式を作ることができるための$s$の条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2001/2001_e.pdf)

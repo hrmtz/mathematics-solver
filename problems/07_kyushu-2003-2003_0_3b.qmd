@@ -33,6 +33,3 @@ $b$を$r$で表せ．
 ただし，$m_1 \neq 0$，$r \neq -1, \, 0$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_0_3b.pdf)

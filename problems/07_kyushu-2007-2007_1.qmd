@@ -29,6 +29,3 @@ $f(x)=xe^x$とおく．
 $p\geqq0$における$S(p)$の最小値を与える$p$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_1.pdf)

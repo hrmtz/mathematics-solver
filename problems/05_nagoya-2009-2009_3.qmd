@@ -36,6 +36,3 @@ $(n=1, \, 2, \, 3, \, \cdots)$
 \item[(3)]点$P_n$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2009/2009_3.pdf)

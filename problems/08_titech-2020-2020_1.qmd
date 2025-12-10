@@ -27,6 +27,3 @@ format:
 となる列のことである．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2020/2020_1.pdf)

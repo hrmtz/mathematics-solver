@@ -25,6 +25,3 @@ $0 \leqq a \leqq b \leqq 1$をみたす$a, \, b$に対し，関数
 \item[(3)]$a, \, b$が$0 \leqq a \leqq b \leqq 1$をみたして動くとき，$m$の最大値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2022/2022_1.pdf)

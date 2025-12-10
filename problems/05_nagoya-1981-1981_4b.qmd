@@ -21,6 +21,3 @@ $x\geqq0$のときつねに$f'(x)>0$，
 $\displaystyle\int_0^xf(t)dt \geqq x$を満たすならば，
 $x>0$の範囲では$f(x)>1$であることを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1981/1981_4b.pdf)

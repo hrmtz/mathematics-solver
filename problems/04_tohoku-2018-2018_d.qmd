@@ -25,6 +25,3 @@ a_{n-1}^2+2a_{n-1} & (n\text{が奇数で}n\geqq3\text{のとき}) \end{cases} \
 \item[(3)]$\displaystyle\lim_{n\to\infty}a_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_d.pdf)

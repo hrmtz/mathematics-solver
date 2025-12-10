@@ -24,6 +24,3 @@ $\displaystyle\frac{b \, !}{a \, !} \geqq b$が成り立つことを示せ。
 自然数の組$(a, \, b, \, c)$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2024/2024_3.pdf)

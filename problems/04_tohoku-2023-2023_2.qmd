@@ -22,6 +22,3 @@ format:
 極限値$\displaystyle\lim_{m\to\infty}\frac{p(m)}{m}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2023/2023_2.pdf)

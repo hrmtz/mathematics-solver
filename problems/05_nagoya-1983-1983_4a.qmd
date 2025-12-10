@@ -23,6 +23,3 @@ format:
 \item[(2)]$N$回以下の操作では$A$が空にならない（$B$は空になってもよい）確率$q_N$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1983/1983_4a.pdf)

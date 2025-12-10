@@ -25,6 +25,3 @@ format:
 \item[(3)](2)で求めた極限値を$c$とするとき，$\displaystyle\lim_{n\to\infty}\frac{c_{n+1}-c}{c_n-c}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_5.pdf)

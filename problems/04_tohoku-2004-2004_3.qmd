@@ -25,6 +25,3 @@ $n+1$項の等差数列$x_0, \, x_1, \, \cdots, \, x_n$と等比数列$y_0, \, y
 このとき極限値$\displaystyle\lim_{n\to\infty}P(n)$，$\displaystyle\lim_{n\to\infty}Q(n)$，
 $\displaystyle\lim_{n\to\infty}R(n)$，$\displaystyle\lim_{n\to\infty}S(n)$をそれぞれ求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2004/2004_3.pdf)

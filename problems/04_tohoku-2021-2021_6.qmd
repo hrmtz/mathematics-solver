@@ -32,6 +32,3 @@ format:
 必要ならば$2<e<3$であることは証明なしに用いてもよい。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2021/2021_6.pdf)

@@ -26,6 +26,3 @@ format:
 ただし，$a$，$b$，$c$は実数とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1969/1969_1.pdf)

@@ -27,6 +27,3 @@ $C$と$D$の2交点を結ぶ直線は，
 放物線$\displaystyle y=-x^2-\frac{1}{4}$に接することを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_0_1.pdf)

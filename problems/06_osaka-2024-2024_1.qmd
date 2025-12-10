@@ -26,6 +26,3 @@ format:
 \item[(3)]極限値$\displaystyle\lim_{n\to\infty}na_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2024/2024_1.pdf)

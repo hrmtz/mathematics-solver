@@ -24,6 +24,3 @@ $BC$と$AD$の交点を$P$，$CD$と$OP$の交点を$Q$とする．
 \item[(2)]$\overrightarrow{OQ}$を$\overrightarrow{a}$，$\overrightarrow{b}$を使って表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1997/1997_0_b.pdf)

@@ -23,6 +23,3 @@ format:
 \item[(2)]$\displaystyle \sum_{k=1}^n \frac{1}{a_k}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2021/2021_0_1.pdf)

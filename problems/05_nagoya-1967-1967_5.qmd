@@ -20,6 +20,3 @@ format:
 放物線$\displaystyle y=\frac{x^2}{\sqrt2}-x$と直線$y=x$とで囲まれた部分を，
 この直線のまわりに回転してできる立体の体積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1967/1967_5.pdf)

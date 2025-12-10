@@ -26,6 +26,3 @@ $P_0(x)=1$，$P_1(x)=x$，$\displaystyle P_2(x)=\frac{1}{2}(3x^2-1)$とおくと
 が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_0_2.pdf)

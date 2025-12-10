@@ -28,6 +28,3 @@ ${\begin{pmatrix} 1 & 2
 \item[(2)]$a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1986/1986_0_1.pdf)

@@ -34,6 +34,3 @@ $l$は“性質$P$をもつ”ということにする．
 それらのなす角が$\displaystyle\frac{\pi}{3}$になるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1989/1989_1.pdf)

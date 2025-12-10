@@ -24,6 +24,3 @@ format:
 \item[(2)]曲線$y=a\cos\theta+a$が曲線$y=f(\theta)$と少なくとも1点で交わるような実数$a$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1989/1989_2.pdf)

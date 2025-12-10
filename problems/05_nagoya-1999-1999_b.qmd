@@ -32,6 +32,3 @@ format:
 $a_1, \, a_2, \, \cdots\cdots, \, a_N$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1999/1999_b.pdf)

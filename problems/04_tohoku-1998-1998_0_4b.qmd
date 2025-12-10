@@ -25,6 +25,3 @@ format:
 \item[(2)]数列の和$a_1+a_2+\cdots\cdots+a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_0_4b.pdf)

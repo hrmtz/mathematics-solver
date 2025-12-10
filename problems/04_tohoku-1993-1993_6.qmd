@@ -27,6 +27,3 @@ $\pi \leqq x \leqq a$に対応する部分の面積を$T$とするとき，
 $S>T$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_6.pdf)

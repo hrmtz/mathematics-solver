@@ -31,6 +31,3 @@ $E$の体積を$V(a)$とし，$E$と$\{(x,y,z)|x\geqq0\}$との共通部分の�
 \item[(2)]$\displaystyle\lim_{a\to\infty}V(a)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2009/2009_4.pdf)

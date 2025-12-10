@@ -20,6 +20,3 @@ $n$を3以上の自然数とし，
 $x\geqq0$における最大値を$a_n$とする．
 $\displaystyle\lim_{n\to\infty}\frac{a_n}{n}$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1981/1981_3.pdf)

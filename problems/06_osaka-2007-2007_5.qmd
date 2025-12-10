@@ -45,6 +45,3 @@ $D=\begin{pmatrix} 1 & 0 & 0
 その数を$n$の式で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2007/2007_5.pdf)

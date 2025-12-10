@@ -23,6 +23,3 @@ format:
 $m$が変化するとき，点$P$の描く図形を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1982/1982_1.pdf)

@@ -23,6 +23,3 @@ format:
 これらの囲む部分の面積を$a$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1984/1984_0_2.pdf)

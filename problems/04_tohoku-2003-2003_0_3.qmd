@@ -25,6 +25,3 @@ format:
 $\overrightarrow{AD}$と$\overrightarrow{EF}$は垂直でないことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_0_3.pdf)

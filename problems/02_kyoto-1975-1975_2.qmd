@@ -21,6 +21,3 @@ format:
 \item[(ii)]$\displaystyle\int_0^k\sqrt{x}{ \left( 1-\frac{x}{k} \right) }^kdx<1$を示せ($k$は自然数)．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1975/1975_2.pdf)

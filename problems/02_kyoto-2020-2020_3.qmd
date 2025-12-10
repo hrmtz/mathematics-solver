@@ -26,6 +26,3 @@ $k$を正の実数とする．座標空間において，
 $\overrightarrow{OX}\cdot\overrightarrow{OY}$は，
 $\overrightarrow{OX}$と$\overrightarrow{OY}$の内積を表す．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2020/2020_3.pdf)

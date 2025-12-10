@@ -23,6 +23,3 @@ $a \neq \pm b$のとき，次の問に答えよ．
 \item[(2)]積分$\displaystyle\int_0^a\{ x^3-f(x) \}dx$の値が0となるとき，$b$を$a$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1995/1995_0_3.pdf)

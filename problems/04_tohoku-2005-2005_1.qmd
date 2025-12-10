@@ -29,6 +29,3 @@ $\overrightarrow{x}-\overrightarrow{b}$が垂直で
 長さの比が$t:1-t$となるとする．
 このとき，内積$\overrightarrow{x}\cdot\overrightarrow{e}$を$t$で表せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_1.pdf)

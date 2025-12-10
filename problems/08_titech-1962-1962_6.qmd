@@ -18,6 +18,3 @@ format:
 $a\leqq x<b$で$f''(x)>0$ならば，
 $\displaystyle\frac{f(x)-f(a)}{x-a}$は$a<x<b$で増加することを示せ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1962/1962_6.pdf)

@@ -27,6 +27,3 @@ $f(\alpha_1)<f(\alpha_2)$を示せ。
 このとき，$a$のとりうる値の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2022/2022_2.pdf)

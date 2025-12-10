@@ -24,6 +24,3 @@ f'(1) \hspace{1zw} (x=1\text{のとき}) \end{cases} \]
 とおけば，$g(x)$は連続関数である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1970/1970_5.pdf)

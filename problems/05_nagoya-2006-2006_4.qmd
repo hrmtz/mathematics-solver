@@ -33,6 +33,3 @@ format:
 \item[(2)]$p_n(m)$ $(n\geqq1, \, m=1, \, 2, \, 3, \, 4, \, 5, \, 6)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2006/2006_4.pdf)

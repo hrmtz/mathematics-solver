@@ -28,6 +28,3 @@ $\gamma=1+\sqrt3 \, i$とする．
 $P(x)=0$となる複素数$x$で$\gamma$以外のものをすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2009/2009_0_1.pdf)

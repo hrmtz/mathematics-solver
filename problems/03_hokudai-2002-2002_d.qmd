@@ -23,6 +23,3 @@ $\displaystyle{\left(\frac{CB}{AB}\right)}^2$を求めよ．
 \item[(2)]直線$AB$上の点と点$C$との最短距離$d$を最大とする$\angle AOC$の大きさを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2002/2002_d.pdf)

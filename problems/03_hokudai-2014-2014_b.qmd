@@ -26,6 +26,3 @@ $g(x)$が$\displaystyle x=\frac{1}{2}$で最大値をとるような$a$の範囲
 $\displaystyle g\left(\frac{1}{2}\right)$の値が最大となる$a$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2014/2014_b.pdf)

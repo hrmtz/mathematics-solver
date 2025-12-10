@@ -29,6 +29,3 @@ $\displaystyle\overrightarrow{OP}=\sum_{i=1}^4t_i\overrightarrow{OA_i}$となる
 ただし，$O$は原点とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1968/1968_3.pdf)

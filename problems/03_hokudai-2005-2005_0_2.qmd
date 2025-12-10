@@ -23,6 +23,3 @@ format:
 $\displaystyle F(k)=\int_0^k(x^2-2kx-3k^2+1)dx$の最小値と最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2005/2005_0_2.pdf)

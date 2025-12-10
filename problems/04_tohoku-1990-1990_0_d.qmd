@@ -29,6 +29,3 @@ x_{2k+3}<x_{2k+1}<\cdots\cdots<x_3<x_1 \]
 となることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_0_d.pdf)

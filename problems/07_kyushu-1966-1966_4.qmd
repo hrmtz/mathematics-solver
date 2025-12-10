@@ -28,6 +28,3 @@ $t$を媒介変数とする曲線
 \item[(3)](2)の範囲で，$u$を最大にする$\tan\theta$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1966/1966_4.pdf)

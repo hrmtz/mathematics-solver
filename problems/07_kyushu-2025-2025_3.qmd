@@ -21,6 +21,3 @@ format:
 \item[(2)]$2^m=n^2+3$をみたす0以上の整数の組$(m, \, n)$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2025/2025_3.pdf)

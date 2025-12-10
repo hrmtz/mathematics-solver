@@ -24,6 +24,3 @@ format:
 \item[(2)]$\displaystyle \frac{1}{4} \geqq Q \geqq \frac{1}{2} - \frac{3}{2}P $であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2008/2008_3.pdf)

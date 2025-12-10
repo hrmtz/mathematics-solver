@@ -21,6 +21,3 @@ format:
 \item[(2)]$ab-cd=1$が成り立つ確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2015/2015_c.pdf)

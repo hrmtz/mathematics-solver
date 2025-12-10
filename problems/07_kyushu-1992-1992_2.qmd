@@ -27,6 +27,3 @@ format:
 \item[(3)]点$P_n$は$n$を大きくすると$C$上の定点に近づくことを示し，その定点を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_2.pdf)

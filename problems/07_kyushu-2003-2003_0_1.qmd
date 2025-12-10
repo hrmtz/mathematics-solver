@@ -28,6 +28,3 @@ format:
 定積分$\displaystyle\int_0^1f(x)dx$を最小にする$a$，$c$と，そのときの定積分の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_0_1.pdf)

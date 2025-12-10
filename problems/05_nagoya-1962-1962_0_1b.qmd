@@ -36,6 +36,3 @@ $\angle APB$が鈍角になるような点$P$の存在範囲は（イ）□で�
 \item[(6)]2つの線$y=\sqrt{x}$，$y=x$で囲まれる部分の面積は（キ）□である。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1962/1962_0_1b.pdf)

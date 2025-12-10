@@ -23,6 +23,3 @@ format:
 また2個の相異なる整数を解としてもつのはどんな場合か．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1984/1984_0_3.pdf)

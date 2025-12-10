@@ -30,6 +30,3 @@ $p$を2以上の整数とする．
 \item[(3)]$a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2001/2001_5.pdf)

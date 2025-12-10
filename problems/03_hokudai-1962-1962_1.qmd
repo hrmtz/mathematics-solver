@@ -32,6 +32,3 @@ format:
 この円の1つの直径$PQ$を引き$PC=QD$になるようにせよ。（作図のみでよい）
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1962/1962_1.pdf)

@@ -27,6 +27,3 @@ format:
 線分$MN$の長さの最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2008/2008_2.pdf)

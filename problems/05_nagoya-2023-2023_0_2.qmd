@@ -27,6 +27,3 @@ format:
 
 ![](../archive/05_nagoya/2023/fig_2023_0_2.jpg)
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2023/2023_0_2.pdf)

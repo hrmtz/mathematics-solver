@@ -20,6 +20,3 @@ format:
 \[ l \cdot {10}^{x-y}-nx+l \cdot {10}^{y-z}+m \cdot {10}^{x-z}=13l+36m+ny \]
 が成り立つようなものをすべて求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2011/2011_0_1.pdf)

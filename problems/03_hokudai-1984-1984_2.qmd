@@ -26,6 +26,3 @@ $\overrightarrow{AP}=t\overrightarrow{AC}$，$\overrightarrow{BQ}=t\overrightarr
 平面$\alpha$は$t$によらない一定の直線を含むことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1984/1984_2.pdf)

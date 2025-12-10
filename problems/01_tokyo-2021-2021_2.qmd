@@ -26,6 +26,3 @@ $a, \, b, \, c$をそれぞれ$\alpha, \, \beta, \, \gamma$で表せ。
 $f(2)$のとりうる範囲を複素平面上に図示せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2021/2021_2.pdf)

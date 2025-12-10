@@ -32,6 +32,3 @@ format:
 \item[(3)]$Q$，$S$が共に$P$，$T$，$U$の定める平面上にある時刻$t$ $(0<t<1)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_0_d.pdf)

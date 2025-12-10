@@ -26,6 +26,3 @@ $a>0$とし，行列$\begin{pmatrix} 2 & 0
 \item[(2)]$C$と$C'$で囲まれた部分の面積が1となるような$a$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1987/1987_0_2.pdf)

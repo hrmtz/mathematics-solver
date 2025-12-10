@@ -26,6 +26,3 @@ r\sin\theta & r\cos\theta \end{pmatrix} \in S$のとき，$r$を求めよ．
 \item[(2)]$S$を定めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1977/1977_6b.pdf)

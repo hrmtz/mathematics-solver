@@ -28,6 +28,3 @@ $xy$平面上の2曲線
 \item[(2)]$p$，$q$のみたす条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1995/1995_3.pdf)

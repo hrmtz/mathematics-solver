@@ -29,6 +29,3 @@ format:
 \item[(2)]点$P$が曲線$y=f(x)$ $(x \geqq 0)$上を動くとき$F(t)$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1996/1996_4.pdf)

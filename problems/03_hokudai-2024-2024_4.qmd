@@ -25,6 +25,3 @@ $\overrightarrow{OA}\cdot\overrightarrow{OB}=10$をみたしているとする�
 \item[(3)]$\overrightarrow{HI}$を$\overrightarrow{OA}$と$\overrightarrow{OB}$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2024/2024_4.pdf)

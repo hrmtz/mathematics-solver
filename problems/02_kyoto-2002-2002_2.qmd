@@ -23,6 +23,3 @@ format:
 また，この等号が成立するのはどのような場合か．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_2.pdf)

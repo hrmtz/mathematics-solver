@@ -23,6 +23,3 @@ format:
 各面の三角形の辺の長さを$a$，$b$，$c$とする四面体が作れることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_4a.pdf)

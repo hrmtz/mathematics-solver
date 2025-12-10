@@ -30,6 +30,3 @@ $(p_n, \, q_n)=(p, \, q)A^{n-1}$という形の式が成り立つことを示し
 \item[(2)]$p_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1980/1980_3.pdf)

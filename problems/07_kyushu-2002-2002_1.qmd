@@ -33,6 +33,3 @@ $t$が$t\geqq0$の範囲で変化したとき，
 \item[(3)]$A(t)-S(t)$が最大となる時刻$t$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2002/2002_1.pdf)

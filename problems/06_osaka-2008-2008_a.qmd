@@ -27,6 +27,3 @@ $n$を自然数とする．
 \item[(3)]$\displaystyle\lim_{k\to\infty}\frac{S_k}{4^{4k}}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2008/2008_a.pdf)

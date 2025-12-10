@@ -23,6 +23,3 @@ $\overline{AB}=x$，$\overline{AD}=y$，$x>y$であるような長方形$ABCD$�
 三角形$PED$の面積を最大にするには，
 $\overline{AB}$を何cmにすればよいか。
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1962/1962_5.pdf)

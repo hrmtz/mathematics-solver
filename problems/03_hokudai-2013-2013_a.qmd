@@ -22,6 +22,3 @@ $a$，$b$，$c$を正の実数とする。
 $ax^{a+b+c}+by^{a+b+c}+c\geqq(a+b+c)x^ay^b$が成り立つことを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2013/2013_a.pdf)

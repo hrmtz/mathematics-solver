@@ -22,6 +22,3 @@ format:
 \item[(2)]すべての$E_n$ $(n=1, \, 2, \, \cdots\cdots)$に共有される点$(x, \, y)$全体の集合を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1974/1974_1.pdf)

@@ -25,6 +25,3 @@ $AA'$，$BB'$，$CC'$，$DD'$はこの直方体の辺である．
 \item[(2)]$AP=x$であるとき，切り口の面積$S(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_d.pdf)

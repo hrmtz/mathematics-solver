@@ -29,6 +29,3 @@ format:
 $AD$の長さと，(1)の範囲の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1965/1965_1.pdf)

@@ -25,6 +25,3 @@ $xyz$空間において$l_1$を軸にして$l_2$を回転してできる円柱�
 \item[(3)]$R$の$-2 \leqq z \leqq 2$の部分の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1998/1998_b.pdf)

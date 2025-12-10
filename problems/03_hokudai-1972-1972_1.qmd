@@ -27,6 +27,3 @@ $x_0-x_1$は227の倍数，$y_0-y_1$は13の倍数であることを証明せよ
 \item[(3)]$M \subseteq N$であることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1972/1972_1.pdf)

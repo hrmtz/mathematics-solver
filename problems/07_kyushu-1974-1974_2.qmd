@@ -24,6 +24,3 @@ $x^{2n}-\sqrt2 \, x^n+1$が$x^2-\sqrt2 \, x+1$で割り切れるような$n$の�
 最小のものを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1974/1974_2.pdf)

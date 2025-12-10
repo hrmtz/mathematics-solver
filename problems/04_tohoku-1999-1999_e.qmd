@@ -32,6 +32,3 @@ $A^3=\begin{pmatrix} 2 & 2
  -2 & 2 \end{pmatrix}$をみたすものをすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_e.pdf)

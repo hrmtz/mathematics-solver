@@ -27,6 +27,3 @@ format:
 をみたす点$z$はどのような図形を描くか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_0_4a.pdf)

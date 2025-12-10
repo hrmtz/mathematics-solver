@@ -31,6 +31,3 @@ $D$を回転させてできる立体の体積$V_2$に対して
 $\displaystyle\lim_{\theta\to0}\frac{V_2}{\theta^2V_1}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1996/1996_4.pdf)

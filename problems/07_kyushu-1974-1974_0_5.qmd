@@ -23,6 +23,3 @@ format:
 \item[(2)](1)の接線と，曲線\ding{"AC}とで囲まれる部分の面積$S$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1974/1974_0_5.pdf)

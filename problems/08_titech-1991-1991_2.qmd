@@ -19,6 +19,3 @@ format:
 直線$l$と点$\displaystyle \left( \frac{1}{2},1,1 \right) $を含む平面$\pi$が$z$軸と交わる点$Q$を$(0,0,k)$とするとき，
 $k$のとり得る値の範囲を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1991/1991_2.pdf)

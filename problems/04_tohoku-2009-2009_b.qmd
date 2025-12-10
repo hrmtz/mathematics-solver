@@ -26,6 +26,3 @@ format:
 \item[(4)]白以外のアメ玉の個数の期待値．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2009/2009_b.pdf)

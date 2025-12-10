@@ -26,6 +26,3 @@ f_n(x)=1-x+\frac{x^2}{2 \, !}-\frac{x^3}{3 \, !}+\cdots+\frac{{(-1)}^nx^n}{n \, 
 \item[(3)]$n$が奇数のとき，$f_n(x)=0$は$x\geqq0$の範囲でただ1つの解をもつ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1996/1996_4b.pdf)

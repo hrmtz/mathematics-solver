@@ -25,6 +25,3 @@ format:
 $AC<AD$かつ$BC<BD$ならば，$\angle C > \angle D$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2012/2012_5.pdf)

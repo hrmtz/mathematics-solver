@@ -24,6 +24,3 @@ format:
 \item[(2)]$|a_m|>1$となる自然数$m$が存在することを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_e.pdf)

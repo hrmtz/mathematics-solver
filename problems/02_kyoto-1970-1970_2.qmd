@@ -20,6 +20,3 @@ format:
 $\displaystyle { \left( \frac{n+1}{2} \right) }^n > n \, !$を証明せよ．
 ここに$n$は2以上の整数とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1970/1970_2.pdf)

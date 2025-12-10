@@ -26,6 +26,3 @@ format:
 $\overrightarrow{AR}$を$\overrightarrow{AB}$と$\overrightarrow{AP}$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2015/2015_0_3.pdf)

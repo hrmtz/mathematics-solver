@@ -29,6 +29,3 @@ $\theta$を$\displaystyle0<\theta<\frac{\pi}{2}$を満たす実数とし，
 \item[(3)]$|\overrightarrow{OP}|=|\overrightarrow{PM}|$となるような$\theta$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2021/2021_b.pdf)

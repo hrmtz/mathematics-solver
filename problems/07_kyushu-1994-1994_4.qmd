@@ -27,6 +27,3 @@ format:
 $I$を最小にするような$a$，$b$，$c$の値と$I$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1994/1994_4.pdf)

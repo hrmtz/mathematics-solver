@@ -27,6 +27,3 @@ $C$上の2点$M$，$N$を$NM=MB$となるようにとる．ただし，$N \neq B
 \item[(4)]$MB=PB$となるような点$M$がただ一つあることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2010/2010_0_3.pdf)

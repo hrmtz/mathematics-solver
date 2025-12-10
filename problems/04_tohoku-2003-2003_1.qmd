@@ -38,6 +38,3 @@ $b$，$c$，$d$を$a$の式で表せ．
 $1 \leqq m \leqq 3$，$1 \leqq n \leqq 3$の範囲にあるものをすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_1.pdf)

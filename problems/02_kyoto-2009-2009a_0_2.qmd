@@ -20,6 +20,3 @@ format:
 \[ \int_0^xf(y)dy+\int_0^1{(x+y)}^2f(y)dy=x^2+C \]
 をみたすとき，この$f(x)$と$C$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2009/2009a_0_2.pdf)

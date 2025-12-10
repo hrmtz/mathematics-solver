@@ -28,6 +28,3 @@ format:
 すべての$P_k$ $(k=1, \, 2, \, \cdots\cdots, \, 9)$が等しいことを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1977/1977_3.pdf)

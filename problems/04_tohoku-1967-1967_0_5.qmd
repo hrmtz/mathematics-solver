@@ -25,6 +25,3 @@ format:
 \item[(2)]$f(x)-g(x)$の最大値，およびその最大値を与える$x$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1967/1967_0_5.pdf)

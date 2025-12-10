@@ -31,6 +31,3 @@ $x_n$を$x_0$で表せ．
 \item[(3)]$\displaystyle\lim_{n\to\infty}S_n$を$x_0$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1985/1985_4.pdf)

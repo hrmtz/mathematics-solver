@@ -27,6 +27,3 @@ format:
 $P$の軌跡を求め，それを図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_0_4.pdf)

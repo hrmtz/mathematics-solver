@@ -19,6 +19,3 @@ format:
 $y=\sin x$と$y=\sin2x$の2つのグラフによって囲まれる図形を$x$軸のまわりに回転してできる回転体の体積を求めよ。
 ただし$\displaystyle0\leqq x \leqq\frac{\pi}{2}$とする。
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1963/1963_0_8.pdf)

@@ -38,6 +38,3 @@ $\displaystyle-\frac{\pi}{2}\leqq y \leqq\frac{\pi}{2}$を満たすとする．
 $(x,y)$の範囲を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2005/2005_2.pdf)

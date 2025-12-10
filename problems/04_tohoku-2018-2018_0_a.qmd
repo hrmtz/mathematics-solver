@@ -24,6 +24,3 @@ $m$を1以上の整数とするとき，放物線$y=x^2-2mx+m^2$と$x$軸およ�
 \item[(3)]$\displaystyle T_m-\frac{m}{3}L_m$の最大値とそのときの$m$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_0_a.pdf)

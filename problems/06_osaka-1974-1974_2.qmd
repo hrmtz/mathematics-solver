@@ -21,6 +21,3 @@ $a$，$b$は実数で$a^2+b^2>0$とする．
 $a\cos\theta-b\sin\theta\geqq0$を満たす範囲にあるとき，
 $\sin\theta$の最大値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1974/1974_2.pdf)

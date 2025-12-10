@@ -26,6 +26,3 @@ format:
 $a_k=a_1$をみたす2以上の自然数$k$で最小のものを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2011/2011_0_2.pdf)

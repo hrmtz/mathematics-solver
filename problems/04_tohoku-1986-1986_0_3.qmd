@@ -21,6 +21,3 @@ format:
  a & b \end{pmatrix}$について，
 $A^3=A$が成り立つように$a$，$b$を定めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1986/1986_0_3.pdf)

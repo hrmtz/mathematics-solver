@@ -29,6 +29,3 @@ $\angle COA={60}^\circ$，$\angle POQ={90}^\circ$であるとき，
 $s$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2021/2021_2.pdf)

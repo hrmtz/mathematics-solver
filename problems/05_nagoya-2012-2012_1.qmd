@@ -32,6 +32,3 @@ $l_2$と$C$で囲まれた図形の面積を$S_2$とする。
 $S_1 \geqq S_2$として，$\displaystyle\frac{S_1}{S_2}$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2012/2012_1.pdf)

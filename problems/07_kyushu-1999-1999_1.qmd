@@ -25,6 +25,3 @@ $m$を2以上の自然数，$e$を自然対数の底とする．
 $\displaystyle\lim_{m\to\infty}\frac{\log a_m}{m\log m}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_1.pdf)

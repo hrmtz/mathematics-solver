@@ -25,6 +25,3 @@ format:
 \item[(2)]点$P$が動くときの線分$QR$の長さの最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2018/2018_0_2.pdf)

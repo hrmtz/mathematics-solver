@@ -28,6 +28,3 @@ $\overrightarrow{BC}\cdot\overrightarrow{CA}=c$とおく．
 \item[(3)]$\triangle ABC$の面積は$\displaystyle\frac{1}{2}\sqrt{ab+bc+ca}$であることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1985/1985_1.pdf)

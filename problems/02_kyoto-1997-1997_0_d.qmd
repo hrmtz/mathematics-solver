@@ -23,6 +23,3 @@ format:
 \item[(2)]$A={45}^\circ$，または$A={135}^\circ$，または$B={90}^\circ$，または$C={90}^\circ$．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1997/1997_0_d.pdf)

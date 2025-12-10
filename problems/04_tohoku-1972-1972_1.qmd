@@ -29,6 +29,3 @@ $\alpha$を求めよ．
 $\alpha$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1972/1972_1.pdf)

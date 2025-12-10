@@ -30,6 +30,3 @@ $A$を$P_0$，$B$を$P_n$とおくとき，以下の問いに答えよ。
 \item[(3)]極限$\displaystyle\lim_{n\to\infty}nS_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2012/2012_f.pdf)

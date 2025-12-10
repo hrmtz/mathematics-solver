@@ -23,6 +23,3 @@ format:
 このような$r$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_2.pdf)

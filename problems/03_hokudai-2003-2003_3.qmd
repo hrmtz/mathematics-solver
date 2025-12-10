@@ -28,6 +28,3 @@ $\displaystyle\frac{dV}{dt}=-\sqrt{h}$で与えられる．
 \item[(2)]容器内の水を完全に排水するのにかかる時間$T$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2003/2003_3.pdf)

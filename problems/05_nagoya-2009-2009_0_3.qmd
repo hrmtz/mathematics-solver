@@ -24,6 +24,3 @@ format:
 \item[(3)]$p_n(1)+p_n(3)+p_n(7)+p_n(9)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2009/2009_0_3.pdf)

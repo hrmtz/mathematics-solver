@@ -26,6 +26,3 @@ $a, \, b, \, c, \, d$は正数とする。
 \[ S=\frac{\sqrt[3]{abc}+\sqrt[3]{abd}+\sqrt[3]{acd}+\sqrt[3]{bcd}}{4} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1964/1964_2.pdf)

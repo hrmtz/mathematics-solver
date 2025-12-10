@@ -24,6 +24,3 @@ format:
 \item[(2)]3次方程式$f(x)=0$が異なる3個の実数解をもつように，$a$の値の範囲を定めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2019/2019_0_4.pdf)

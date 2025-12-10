@@ -18,6 +18,3 @@ format:
 
 $0<x<1$のとき$\displaystyle\log_e(1+x)<\frac{x}{1-x}$が成り立つことを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1966/1966_0_5a.pdf)

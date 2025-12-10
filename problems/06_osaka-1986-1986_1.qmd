@@ -21,6 +21,3 @@ format:
 \item[(2)]$a$，$b$は無理数で，$a^b$が有理数であるような数の組$a$，$b$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1986/1986_1.pdf)

@@ -25,6 +25,3 @@ format:
 \item[(3)]$f(x)=2$を満たす$x$が$\displaystyle\frac{1}{e^2}<x<1$の範囲に存在することを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_6.pdf)

@@ -31,6 +31,3 @@ $\pi-\alpha$であることを示せ。
 \frac{|\overrightarrow{OQ}|}{|\overrightarrow{OB}|}$を示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2015/2015_0_3.pdf)

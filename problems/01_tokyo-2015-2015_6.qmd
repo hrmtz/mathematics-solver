@@ -32,6 +32,3 @@ $p \leqq f(x) \leqq q$が成り立つとき，次の不等式を示せ。
 \[ \lim_{n\to\infty}n^2\int_{-1}^1h(nx)\log(1+e^{x+1})dx \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2015/2015_6.pdf)

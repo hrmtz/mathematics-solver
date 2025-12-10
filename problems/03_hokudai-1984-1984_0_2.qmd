@@ -28,6 +28,3 @@ $a\geqq0$，$b\geqq0$，$c\geqq0$，$d\geqq0$であることを示せ．
 $a$，$b$，$c$，$d$に関する条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1984/1984_0_2.pdf)

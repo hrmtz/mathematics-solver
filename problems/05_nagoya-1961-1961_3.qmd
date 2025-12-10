@@ -27,6 +27,3 @@ format:
 その理由を述べよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1961/1961_3.pdf)

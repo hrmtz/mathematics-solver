@@ -30,6 +30,3 @@ $a$，$b$，$c$，$d$を整数とし，行列$A=\begin{pmatrix} a & b
 すべての$n$について$c_n$は$p$で割り切れることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_0_b.pdf)

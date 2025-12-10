@@ -30,6 +30,3 @@ format:
 \item[(3)]$P_A(n)$，$P_B(n)$を$n$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2004/2004_0_4.pdf)

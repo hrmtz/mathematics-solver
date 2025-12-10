@@ -22,6 +22,3 @@ format:
 で与えられる点$(X, \, Y)$の存在する範囲を$S_n$とする．
 すべての$n$に対して$S_n$の面積が2であるとき，$\displaystyle\lim_{n\to\infty}a_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1969/1969_4.pdf)

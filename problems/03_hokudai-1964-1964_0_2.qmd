@@ -23,6 +23,3 @@ $x$に関するある二次方程式の2つの虚根$\alpha=p+qi$，$\beta=p-qi$
 \item[(2)]$\alpha^3+\alpha^2\beta+\alpha^2+3\beta^2$の値を数値で求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_0_2.pdf)

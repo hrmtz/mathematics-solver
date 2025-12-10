@@ -24,6 +24,3 @@ $a$，$b$，$c$を決定して関数$y=f(x)$のグラフの概形を描け．
 \item[(C)]2直線$x=0$，$y=0$および曲線$y=f(x)$で囲まれた部分の面積は$\displaystyle\frac{3}{4}$に等しい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1971/1971_0_4.pdf)

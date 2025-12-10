@@ -24,6 +24,3 @@ $l$と直線$x=p$のなす角に等しいとする．
 \item[(2)]極限値$\displaystyle \lim_{a \to 1}p$および$\displaystyle \lim_{a \to \infty}\frac{p}{a}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1998/1998_4.pdf)

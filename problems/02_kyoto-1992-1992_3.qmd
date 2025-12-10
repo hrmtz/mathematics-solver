@@ -23,6 +23,3 @@ $\overrightarrow{OP}+2\overrightarrow{OQ}+3\overrightarrow{OR}=\vec{0}$が成立
 \item[(2)]$\angle A$の大きさを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_3.pdf)

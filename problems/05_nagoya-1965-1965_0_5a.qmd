@@ -22,6 +22,3 @@ format:
 \item[(b)]3辺の長さを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1965/1965_0_5a.pdf)

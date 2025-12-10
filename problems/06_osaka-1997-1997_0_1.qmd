@@ -27,6 +27,3 @@ format:
 \item[(2)]すべての自然数$n$について$x_{n+2}=2x_{n+1}+x_n$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1997/1997_0_1.pdf)

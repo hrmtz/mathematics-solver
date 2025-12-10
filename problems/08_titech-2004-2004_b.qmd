@@ -23,6 +23,3 @@ $n$を2以上の偶数とする．
 \item[(3)]$P_n$の$n \to \infty$のときの極限の位置を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2004/2004_b.pdf)

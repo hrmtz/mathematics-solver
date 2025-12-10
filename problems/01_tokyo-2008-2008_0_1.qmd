@@ -22,6 +22,3 @@ $\displaystyle\int_{-1}^1f(x)dx=1$が成立しているとする．
 このとき定積分$\displaystyle S=\int_0^\alpha f(x)dx$を$\alpha$の式で表し，
 $S$がとりうる値の最大値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2008/2008_0_1.pdf)

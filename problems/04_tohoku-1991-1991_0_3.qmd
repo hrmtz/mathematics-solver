@@ -26,6 +26,3 @@ $R_\theta$が動いてできる立体を$K$とする．
 \item[(2)]$K$の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_0_3.pdf)

@@ -27,6 +27,3 @@ $\angle A$の2等分線と辺$BC$の交点を$D$とするとき，線分$AD$の�
 $X=Y$である確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2011/2011_0_1.pdf)

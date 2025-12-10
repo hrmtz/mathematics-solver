@@ -25,6 +25,3 @@ format:
 \item[(2)]直線$l$が円$C$に接するとき，接点を$p$，$q$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1990/1990_0_2.pdf)

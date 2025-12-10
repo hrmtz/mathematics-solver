@@ -25,6 +25,3 @@ $\displaystyle\frac{1}{\alpha^2}+\frac{1}{\beta^2}$がとりうる範囲を複�
 $\displaystyle\frac{1}{\gamma}$の実部がとりうる値の最大値と最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2025/2025_6.pdf)

@@ -27,6 +27,3 @@ format:
 \end{description}
 \[ [ { (ax+b) }^4 ] =-1 \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_4.pdf)

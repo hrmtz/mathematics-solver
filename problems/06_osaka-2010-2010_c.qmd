@@ -26,6 +26,3 @@ format:
 $x$軸のまわりに1回転させてできる回転体の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2010/2010_c.pdf)

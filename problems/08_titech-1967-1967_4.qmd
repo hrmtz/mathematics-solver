@@ -18,6 +18,3 @@ format:
 
 関数$f(x)=3(\sin x-\cos x)-\cos2x$の最大値と最小値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1967/1967_4.pdf)

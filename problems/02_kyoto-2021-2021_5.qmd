@@ -26,6 +26,3 @@ $xy$平面において，2点$B(-\sqrt3, \, -1)$，$C(\sqrt3, \, -1)$に対し�
 \item[(2)]点$A$が条件(＊)を満たしながら動くとき，$\triangle ABC$の垂心の軌跡を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2021/2021_5.pdf)

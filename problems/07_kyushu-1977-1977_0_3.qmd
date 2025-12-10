@@ -23,6 +23,3 @@ format:
 \item[(2)]上記の条件のもとで，$\overline{PQ}$が最小となる点$P$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1977/1977_0_3.pdf)

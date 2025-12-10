@@ -28,6 +28,3 @@ format:
 \item[(2)]$a_0, \, a_1, \, \cdots, \, a_{10}$がすべて奇数であるような最小の自然数$a_0$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2024/2024_4.pdf)

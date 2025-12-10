@@ -23,6 +23,3 @@ format:
 \item[(2)]この$S$の最小値が最も小さくなるように，点$B$の位置を定めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1962/1962_0_4.pdf)

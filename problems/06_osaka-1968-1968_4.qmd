@@ -24,6 +24,3 @@ format:
 $a$，$b$の値を定めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1968/1968_4.pdf)

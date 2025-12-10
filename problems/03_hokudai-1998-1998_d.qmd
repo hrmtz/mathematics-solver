@@ -37,6 +37,3 @@ format:
 \item[(2)]$\displaystyle \frac{1}{4}<a<\frac{1}{2}$のとき，$\displaystyle f(a)=\frac{1}{8a}$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1998/1998_d.pdf)

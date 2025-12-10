@@ -25,6 +25,3 @@ $h_n(t)=\begin{cases} 1-n|t| & \displaystyle \left( |t|\leqq\frac{1}{n}\text{の
 \item[(2)]$\displaystyle\lim_{n\to\infty}f_n(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1991/1991_c.pdf)

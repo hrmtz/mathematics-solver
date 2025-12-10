@@ -25,6 +25,3 @@ $\displaystyle f(t)=\frac{S(t)}{T}$とおく．
 $f(t)$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2005/2005_0_1.pdf)

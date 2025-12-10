@@ -32,6 +32,3 @@ $B_n$をとおり$xy$平面に垂直な直線と$xy$平面の交点を$A_{n+1}$�
 \item[(4)]$x_n$，$y_n$を$x_1$，$y_1$，$n$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1995/1995_b.pdf)

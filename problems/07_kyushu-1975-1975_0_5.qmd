@@ -22,6 +22,3 @@ format:
 \item[(2)]$S_m$を最大にするような$m$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1975/1975_0_5.pdf)

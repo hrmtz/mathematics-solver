@@ -23,6 +23,3 @@ $Y_n$が7で割り切れる確率を$p_n$とする．
 \item[(2)]$p_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_0_4.pdf)

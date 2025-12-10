@@ -22,6 +22,3 @@ $\displaystyle f(x)=\frac{4x-2}{5-x}$ $(x\neq5)$とするとき
 \item[(3)]$f(x)>x$となる$x$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1963/1963_0_3.pdf)

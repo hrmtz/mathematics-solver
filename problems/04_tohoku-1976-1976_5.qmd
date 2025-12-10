@@ -22,6 +22,3 @@ $f(x)=\sqrt[3]{x^3-x^2}$とする．
 \item[(2)]$f(x)$の増減と極限を調べて，$y=f(x)$のグラフをかけ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1976/1976_5.pdf)

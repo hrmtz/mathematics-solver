@@ -30,6 +30,3 @@ $\overrightarrow{OR}$を$\overrightarrow{OR}=x\overrightarrow{a}+y\overrightarro
 $x$，$y$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1971/1971_3.pdf)

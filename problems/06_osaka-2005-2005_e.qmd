@@ -29,6 +29,3 @@ $y=F(x)$のグラフの概形を$0 \leqq x \leqq 1$の範囲で描け．
 \item[(3)]$F(x)$の第2次導関数$F''(x)$の$\displaystyle x=\frac{1}{4}$における値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2005/2005_e.pdf)

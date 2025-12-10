@@ -30,6 +30,3 @@ $a_n$の期待値を$p_n$とするとき，以下の問いに答えよ．
 極限値$\displaystyle\lim_{n\to\infty}p_n$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2011/2011_5.pdf)

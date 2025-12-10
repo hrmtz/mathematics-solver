@@ -26,6 +26,3 @@ format:
 点$Q$が29にある確率，および28にある確率をそれぞれ求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_4.pdf)

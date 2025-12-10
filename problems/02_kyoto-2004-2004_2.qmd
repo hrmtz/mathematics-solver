@@ -21,6 +21,3 @@ $\displaystyle f(x)= \left( \frac{e}{x^a}-1 \right) \frac{\log x}{x}$を考え�
 $y=f(x)$のグラフより下側で$x$軸より上側の部分の面積を$a$であらわせ．
 ただし，$e$は自然対数の底である．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_2.pdf)

@@ -24,6 +24,3 @@ $n$を自然数とする．
 $\displaystyle\sum_{n=1}^\infty d_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1981/1981_4.pdf)

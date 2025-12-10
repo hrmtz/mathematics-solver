@@ -25,6 +25,3 @@ $AE$と$CD$の交点を$F$とする．
 \item[(2)]$\triangle FEC$の面積を$\theta$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2010/2010_0_4.pdf)

@@ -28,6 +28,3 @@ format:
 \item[(4)]$\displaystyle\int_0^1f(x)dx=\frac{a+e^2}{5}+\frac{c}{3}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1963/1963_0_9.pdf)

@@ -20,6 +20,3 @@ $n$を自然数とする．
 このとき外接する円の最大個数を$a$とする．
 $\displaystyle\lim_{n\to\infty}\frac{a_n}{n}$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1982/1982_1.pdf)

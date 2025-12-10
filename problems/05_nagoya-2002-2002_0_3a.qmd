@@ -23,6 +23,3 @@ $\overrightarrow{OA}\cdot\overrightarrow{OB}=t$とおく．
 \item[(2)]$t=2$のとき，$\overrightarrow{OP}=\overrightarrow{OA}+\overrightarrow{OB}$となる点$P$の軌跡を求め，図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2002/2002_0_3a.pdf)

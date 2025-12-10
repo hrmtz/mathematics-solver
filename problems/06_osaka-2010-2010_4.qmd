@@ -23,6 +23,3 @@ format:
 \end{description}
 $S$の中心が存在しうる範囲を$D$とするとき，立体$D$の体積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2010/2010_4.pdf)

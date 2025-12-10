@@ -23,6 +23,3 @@ format:
 \item[(3)]この放物線と双曲線の共通接線の方程式を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1962/1962_0_5.pdf)

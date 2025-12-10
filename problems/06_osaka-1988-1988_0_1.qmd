@@ -23,6 +23,3 @@ $p$，$q$，$r$は整数とし，正の整数$n$に対し$\displaystyle a_n=\fra
 $p$は6で割り切れることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1988/1988_0_1.pdf)

@@ -26,6 +26,3 @@ format:
 点$R$が線分$MB$上にあるとき，$t$のとりうる値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2025/2025_1.pdf)

@@ -40,6 +40,3 @@ $\displaystyle y_n=\frac{y_{n-1}}{ay_{n-1}+1}$ $(n\geqq2)$とするとき，
 $y_n$を$x$，$a$，$n$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1978/1978_0_5.pdf)

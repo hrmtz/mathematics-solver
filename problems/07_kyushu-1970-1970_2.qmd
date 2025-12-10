@@ -18,6 +18,3 @@ format:
 ${}_nC_r$を相異なる$n$個のものから$r$個とり出す組合せの数とする．
 $np=1$であるとき$\displaystyle\lim_{n\to\infty}{}_nC_rp^r{(1-p)}^{n-r}$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1970/1970_2.pdf)

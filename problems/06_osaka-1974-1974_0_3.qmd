@@ -24,6 +24,3 @@ $n$を正の整数とする．
 \[ =2^n\cos x\cdot\cos2x\cdots\cdots\cos2^{n-1}x\cdot\cos2^nx \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1974/1974_0_3.pdf)

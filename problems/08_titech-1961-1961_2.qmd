@@ -20,6 +20,3 @@ format:
 かつ$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$で$|f(x)|\leqq2$であるとき
 $a$の値はどのような範囲にあるか。
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1961/1961_2.pdf)

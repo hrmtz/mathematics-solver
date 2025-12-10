@@ -25,6 +25,3 @@ $OA_1=OB_1=1$，$\angle B_1OA_1=\theta$ $(0<\theta<\pi)$であるような二等
 \item[(2)]$\displaystyle\lim_{n\to\infty}a_n$を計算せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_1.pdf)

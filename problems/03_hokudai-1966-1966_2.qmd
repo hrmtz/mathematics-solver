@@ -24,6 +24,3 @@ format:
 新しい座標によってこの曲線の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1966/1966_2.pdf)

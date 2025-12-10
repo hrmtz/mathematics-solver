@@ -26,6 +26,3 @@ format:
 \item[(3)]条件を満たす$r$とそのときの$a_1, \, a_2, \, \cdots, \, a_r$の組をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2007/2007_a.pdf)

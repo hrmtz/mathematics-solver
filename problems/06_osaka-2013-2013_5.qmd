@@ -29,6 +29,3 @@ $n$個の空（から）の箱$H_1, \, H_2, \, \cdots\cdots, \, H_n$がある．
 \item[(2)]$K_{n-1}$が$H_{n-1}$に入る確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2013/2013_5.pdf)

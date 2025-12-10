@@ -26,6 +26,3 @@ format:
 
 ![](../archive/08_titech/2007/fig_2007_3.jpg)
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2007/2007_3.pdf)

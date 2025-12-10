@@ -26,6 +26,3 @@ $E=\begin{pmatrix} 1 & 0
 
  0 & 1 \end{pmatrix}$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1985/1985_1.pdf)

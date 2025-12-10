@@ -27,6 +27,3 @@ $\overrightarrow{OC}=s\overrightarrow{OA}+t\overrightarrow{OB}$をみたす点$C
 $|\overrightarrow{OC}|=4$が成り立つとき，$s, \, t$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2024/2024_0_2.pdf)

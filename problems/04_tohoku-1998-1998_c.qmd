@@ -19,6 +19,3 @@ $\displaystyle\left\{\frac{1}{a_n}\right\}$は，
 初項$\displaystyle\frac{1}{a}$，公差$d$の等差数列とする．
 このとき，$\displaystyle\lim_{n\to\infty}(a_1a_2+a_2a_3+\cdots\cdots+a_na_{n+1})$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_c.pdf)

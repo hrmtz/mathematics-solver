@@ -40,6 +40,3 @@ ${({A(2)}^{-1})}^{15}{A(2)}^8\begin{pmatrix} 1
  0 \end{pmatrix}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_c.pdf)

@@ -33,6 +33,3 @@ $V_1(\alpha)$，$V_2(\alpha)$とする．
 $V_1(\alpha)-V_2(\alpha)$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2002/2002_5.pdf)

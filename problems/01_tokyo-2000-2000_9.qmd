@@ -29,6 +29,3 @@ format:
 \item[(3)]二巡目が終わったときのテーブルの上のコインの数の期待値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2000/2000_9.pdf)

@@ -20,6 +20,3 @@ format:
 2つの曲線$\displaystyle\frac{x^2}{9}+y^2=1$と$\displaystyle\sqrt\frac{x}{3}+\sqrt{y}=1$が
 第1象限で囲む部分を$x$軸のまわりに回転してできる立体の体積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1979/1979_3.pdf)

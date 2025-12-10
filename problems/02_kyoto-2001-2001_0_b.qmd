@@ -20,6 +20,3 @@ format:
 $k=1,2,\cdots,n$に対し，$\displaystyle b_k=\frac{1}{2}\left(ka_k+\sum_{j=1}^ka_j\right)$とおく．
 集合$\{b_k|1 \leqq k \leqq n\}$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2001/2001_0_b.pdf)

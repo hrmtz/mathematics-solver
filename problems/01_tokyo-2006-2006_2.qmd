@@ -25,6 +25,3 @@ format:
 \item[(2)]$n \geqq 3$のとき，$P_n$を$p$と$n$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2006/2006_2.pdf)

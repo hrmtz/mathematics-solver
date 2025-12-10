@@ -28,6 +28,3 @@ $\alpha+\overline{\alpha}<0$をみたすとき，$\alpha$の値を求めよ．
 また，複素数平面上の3点1，$\alpha$，$\alpha\beta$を頂点とする三角形を求め，図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2002/2002_b.pdf)

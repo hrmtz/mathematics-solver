@@ -26,6 +26,3 @@ $x$の関数$f(x)=2e^{2x}-ae^x+bx$を考える．
 $S$の最大値$M$を$b$の関数として表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1989/1989_5.pdf)

@@ -33,6 +33,3 @@ $\displaystyle\frac{\alpha}{\gamma}$の偏角はすべて$0^\circ$より大き�
 となることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_b.pdf)

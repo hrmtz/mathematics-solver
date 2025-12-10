@@ -38,6 +38,3 @@ $\overrightarrow{q_{n+1}}$と$\overrightarrow{q_n}$の間に成り立つ関係�
 \item[(4)]$\overrightarrow{p_n}$ $(n=1, \, 2, \, \cdots)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_2.pdf)

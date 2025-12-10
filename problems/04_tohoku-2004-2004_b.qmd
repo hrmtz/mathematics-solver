@@ -33,6 +33,3 @@ $A=\begin{pmatrix} a & b
 を考える．$p$および$q$を$a$，$b$，$c$，$d$を用いてそれぞれ表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2004/2004_b.pdf)

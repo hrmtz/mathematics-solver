@@ -26,6 +26,3 @@ format:
 \item[(2)]符号の変化が2回以上起こる確率$Q_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1986/1986_0_5.pdf)

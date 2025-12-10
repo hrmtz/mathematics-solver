@@ -24,6 +24,3 @@ $\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$の長さ$a
 \item[(2)]四面体$OPQR$の体積は四面体$OABC$の体積の$\displaystyle\frac{1}{4}$以下であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1983/1983_4.pdf)

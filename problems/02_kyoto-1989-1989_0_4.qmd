@@ -23,6 +23,3 @@ format:
 \item[(2)]点$Q$におけるこのグラフへの接線が$T_P$と直交するような$P$は何個あるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_0_4.pdf)

@@ -23,6 +23,3 @@ $\displaystyle f_n(a)=\int_0^\pi{(\sin x-a\cos2nx)}^2dx$とおく。
 \item[(2)](1)で求めた$a$の値を$a_n$として$\displaystyle\sum_{n=1}^\infty a_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1964/1964_6.pdf)

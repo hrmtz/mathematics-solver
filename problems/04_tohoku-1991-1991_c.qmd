@@ -26,6 +26,3 @@ $\cos\gamma$，$\sin\gamma$を$a$と$b$で表せ．
 \item[(2)]$C_1$の内部と$C_2$の内部の共通部分の面積を$a$，$b$，$\gamma$の整式で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_c.pdf)

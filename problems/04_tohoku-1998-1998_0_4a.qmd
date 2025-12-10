@@ -27,6 +27,3 @@ format:
 2つのタンスは区別しないものとすれば，入れる方法は何通りあるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_0_4a.pdf)

@@ -20,6 +20,3 @@ format:
 $\displaystyle 0 \leqq 3a_n \leqq \sum_{k=1}^na_k$を満たしているとする．
 このとき，すべての$n$に対して$a_n=0$であることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2010/2010a_4.pdf)

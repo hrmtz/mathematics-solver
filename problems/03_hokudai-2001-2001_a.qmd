@@ -23,6 +23,3 @@ format:
 $\sin \angle BPC$の最大値とそれを与える点$P$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2001/2001_a.pdf)

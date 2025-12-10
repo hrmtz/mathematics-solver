@@ -28,6 +28,3 @@ $E=\begin{pmatrix} 1 & 0
 \item[(ii)](i)で求めた$t$がすべて正の数となるような$\theta$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_2.pdf)

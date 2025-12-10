@@ -31,6 +31,3 @@ $A_3$から$OA_2$へ垂線を下ろし，交点を$A_4$とする．
 $\overrightarrow{h_k}$と$\overrightarrow{h_{k+1}}$の内積を表す．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_0_3.pdf)

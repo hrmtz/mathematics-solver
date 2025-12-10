@@ -29,6 +29,3 @@ $\cos\theta_1+\cos\theta_2+\cdots+\cos\theta_n=1$をみたすならば，
 成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_1.pdf)

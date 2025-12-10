@@ -28,6 +28,3 @@ $a$，$b$をある実数とし，
 \item[(3)]$A_n$ $(n=1, \, 2, \, \cdots\cdots)$の総和$\displaystyle S=\sum_{n=1}^\infty A_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1994/1994_c.pdf)

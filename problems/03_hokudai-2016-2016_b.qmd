@@ -25,6 +25,3 @@ format:
 $\triangle OAB$の面積の最大値とそのときの$a, \, b$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2016/2016_b.pdf)

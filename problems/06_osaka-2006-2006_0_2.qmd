@@ -24,6 +24,3 @@ format:
 \item[(2)]不等式$\displaystyle a>\frac{2}{3}$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2006/2006_0_2.pdf)

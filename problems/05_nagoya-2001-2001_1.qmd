@@ -21,6 +21,3 @@ $e \leqq p < q$のとき，
 不等式$\displaystyle \log (\log q)-\log (\log p)<\frac{q-p}{e}$
 が成り立つことを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_1.pdf)

@@ -31,6 +31,3 @@ $O=\begin{pmatrix} 0 & 0
 \item[(3)]$A^6=E$かつ$A^2 \neq E$ならば，$A^3=E$または$A^3=-E$がなりたつことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2006/2006_f.pdf)

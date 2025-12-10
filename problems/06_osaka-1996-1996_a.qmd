@@ -25,6 +25,3 @@ format:
 このような条件を満たす$a$，$b$，$c$の組をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1996/1996_a.pdf)

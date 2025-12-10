@@ -18,6 +18,3 @@ format:
 $n$は2以上の自然数で，$0 \leqq x \leqq 1$のとき，
 $\displaystyle\sum_{k=0}^nx^k \leqq n+x^{n+1}$を証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1971/1971_2.pdf)

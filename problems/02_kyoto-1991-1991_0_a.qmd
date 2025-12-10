@@ -21,6 +21,3 @@ $\overrightarrow{OP_1}+\overrightarrow{OP_2}+\overrightarrow{OP_3}+\overrightarr
 となっている．
 このとき$P_1$，$P_2$，$P_3$，$P_4$はある長方形の頂点となることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_0_a.pdf)

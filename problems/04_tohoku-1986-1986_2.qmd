@@ -25,6 +25,3 @@ format:
 \item[(3)](2)で求めた最大値を最も小さくする$a$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1986/1986_2.pdf)

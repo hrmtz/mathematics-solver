@@ -19,6 +19,3 @@ format:
 \[ I_n = \int_0^1 x^2 |\sin n \pi x| dx \]
 とおく．極限値$\displaystyle\lim_{n\to\infty}I_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2008/2008_b.pdf)

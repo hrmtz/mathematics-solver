@@ -27,6 +27,3 @@ b_{n+1}=\left( \frac{t}{2}-\frac{5}{t^2+1} \right)a_n+\left( \frac{t}{2}+\frac{5
 $a$，$b$，$t$についての必要十分条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2010/2010_a.pdf)

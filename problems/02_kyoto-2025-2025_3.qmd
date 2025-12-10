@@ -26,6 +26,3 @@ $\displaystyle x>\frac{1}{\sqrt{e}}$において定義された次の関数$f(x)
 $t$が$\displaystyle \frac{1}{\sqrt{e}} < t \leqq e$の範囲を動くとき，
 $p(t)$の取りうる値の範囲を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2025/2025_3.pdf)

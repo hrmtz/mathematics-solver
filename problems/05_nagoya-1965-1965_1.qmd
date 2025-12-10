@@ -18,6 +18,3 @@ format:
 $a\geqq2$，$b\geqq2$，$c\geqq2$，$d\geqq2$のとき，
 $abcd>a+b+c+d$であることを示せ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1965/1965_1.pdf)

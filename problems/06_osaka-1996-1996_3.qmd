@@ -22,6 +22,3 @@ $n$を2以上の自然数とする．次の問いに答えよ．
 \item[(2)]極限値$\displaystyle\lim_{n\to\infty}{(n \, !)}^\frac{1}{n\log n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1996/1996_3.pdf)

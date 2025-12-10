@@ -29,6 +29,3 @@ format:
 持ち点が17以上である条件付き確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2024/2024_2.pdf)

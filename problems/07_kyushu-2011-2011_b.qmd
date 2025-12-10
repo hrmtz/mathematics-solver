@@ -33,6 +33,3 @@ $\displaystyle0<\gamma<\frac{\pi}{2}$とする。
 また3つの行列の積$A_\alpha A_\beta A_\gamma$によって表される移動は決して回転移動を表さないことを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2011/2011_b.pdf)

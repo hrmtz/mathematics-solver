@@ -28,6 +28,3 @@ $C$上の点$P$から$x$軸に垂線$PQ$を下ろし，三角形$APQ$の面積�
 $\displaystyle\lim_{a\to\infty}y_a$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1988/1988_6.pdf)

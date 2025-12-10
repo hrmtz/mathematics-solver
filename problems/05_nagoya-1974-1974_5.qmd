@@ -28,6 +28,3 @@ $f(x)$，$g(x)$を$x\geqq0$で定義された正の値をとる連続関数で�
 $x_1<x_2$ならば$h(x_1) \leqq h(x_2)$が成立することをいう．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1974/1974_5.pdf)

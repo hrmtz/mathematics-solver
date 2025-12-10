@@ -31,6 +31,3 @@ $n$，$m$を自然数とする．
 \item[(2)]$m=n$のとき，$p=q$となるための$x_1, \, \cdots\cdots, \, x_n$についての条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2006/2006_d.pdf)

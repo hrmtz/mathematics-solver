@@ -27,6 +27,3 @@ format:
 とおくとき，$\displaystyle\lim_{n\to\infty}\frac{b_n}{{a_n}^2}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1967/1967_6.pdf)

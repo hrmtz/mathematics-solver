@@ -19,6 +19,3 @@ format:
 $a$を正の数とするとき，$\theta$についての方程式$\cos\theta+\sqrt{a}\sin\theta=\sqrt{a}$が
 $\displaystyle0\leqq\theta\leqq\frac{\pi}{4}$の範囲に根をもつように$a$の範囲を定めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1971/1971_2.pdf)

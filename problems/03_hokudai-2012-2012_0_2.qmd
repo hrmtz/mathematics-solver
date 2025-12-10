@@ -25,6 +25,3 @@ $\displaystyle -\frac{\pi}{2} \leqq \theta \leqq \frac{\pi}{2}$
 \item[(2)]$f(\theta)$の最大値と最小値，およびそのときの$\theta$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2012/2012_0_2.pdf)

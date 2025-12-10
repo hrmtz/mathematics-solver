@@ -24,6 +24,3 @@ format:
 \item[(2)]$a$を$a\geqq1$の範囲で動かしたときに曲線$C_a$が通過する領域を図示せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2021/2021_0_c.pdf)

@@ -27,6 +27,3 @@ $x$軸に垂直で点$Q$を通る直線と$x$軸との交点を$R$とする．
 \frac{|\overrightarrow{OQ}|}{|\overrightarrow{OP}|}\text{の最大値と最小値の比が}3 \]
 となるように$a$，$b$の値を定めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1995/1995_1.pdf)

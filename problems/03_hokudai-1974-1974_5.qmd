@@ -28,6 +28,3 @@ $x$が0から$\displaystyle\frac{\pi}{2}$まで変わるとき，
 \item[(3)]$a$が$\displaystyle0<a\leqq\frac{1}{2}$の範囲を動くとき，$V(a)$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1974/1974_5.pdf)

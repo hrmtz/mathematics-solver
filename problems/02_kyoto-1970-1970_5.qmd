@@ -20,6 +20,3 @@ format:
 関数$\displaystyle F(x)=\int_0^x t {\sin}^3 t dt$の極大値を求めよ．
 ただし$x>0$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1970/1970_5.pdf)

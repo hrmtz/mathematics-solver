@@ -25,6 +25,3 @@ format:
 \item[(3)]$t\geqq0$の範囲での$F(t)$の最大値と，最大値を与える$t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2005/2005_1.pdf)

@@ -32,6 +32,3 @@ format:
 \[ f(d-a)+f(c-b)>f(d-b)+f(c-a) \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_d.pdf)

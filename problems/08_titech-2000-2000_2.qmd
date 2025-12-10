@@ -24,6 +24,3 @@ format:
 すべての自然数$n$に対し$|1+z+\dots+z^n|<1$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2000/2000_2.pdf)

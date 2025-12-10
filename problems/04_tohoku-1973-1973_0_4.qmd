@@ -25,6 +25,3 @@ format:
 \item[(2)]$XY-$座標で表された\ding{"AC}と直線$\displaystyle Y=-\frac{1}{2}X+4$とで囲まれる図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1973/1973_0_4.pdf)

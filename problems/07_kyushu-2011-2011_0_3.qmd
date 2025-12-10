@@ -27,6 +27,3 @@ format:
 みたす点を$P$とするとき，$|\overrightarrow{OP}|$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2011/2011_0_3.pdf)

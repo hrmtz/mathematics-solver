@@ -24,6 +24,3 @@ format:
 \item[(3)]$\displaystyle\lim_{n\to\infty}\sin\left( 2\pi\sqrt{n^2+\left[ \frac{n}{3} \right]} \right)$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1975/1975_4.pdf)

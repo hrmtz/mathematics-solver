@@ -28,6 +28,3 @@ $\triangle DAB$の重心を$C_1$，$\triangle ABC$の重心を$D_1$として，
 \item[(3)]$A_n$と$P$の距離$\overline{A_nP}$について，$\displaystyle\lim_{n\to\infty}\overline{A_nP}=0$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1982/1982_3.pdf)

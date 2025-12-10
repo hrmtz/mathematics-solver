@@ -26,6 +26,3 @@ $\displaystyle a=\lim_{x\to0}f(x)$，$\displaystyle b=\lim_{x\to0}f'(x)$とお�
 これらの関数のグラフを同一の$xy$平面上に描け．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_2.pdf)

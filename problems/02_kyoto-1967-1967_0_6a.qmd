@@ -26,6 +26,3 @@ format:
 \item[(iv)]ボートも区別し，どの人がどの座席につくかも区別するとき．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1967/1967_0_6a.pdf)

@@ -27,6 +27,3 @@ $z$と共役な複素数を$\bar{z}$で表す．
 \[ z{(\bar{z})}^2+\bar{z}-\frac{a}{z}=0 \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2011/2011_5.pdf)

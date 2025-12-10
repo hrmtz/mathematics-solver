@@ -20,6 +20,3 @@ $a\leqq1$である定数$a$について，不等式
 \[ y \geqq a \hspace{1zw} \text{および} \hspace{1zw} -x^2+1\leqq y \leqq-x^2+2 \]
 を同時に満たす平面上の領域の面積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1982/1982_0_3.pdf)

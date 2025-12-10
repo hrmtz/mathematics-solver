@@ -25,6 +25,3 @@ format:
 \item[(3)]$n$が5以上の整数のとき$\displaystyle\frac{n \, !}{5}$を${[a_m,a_{m-1},\cdots,a_1]}_m$の形に表示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1994/1994_7.pdf)

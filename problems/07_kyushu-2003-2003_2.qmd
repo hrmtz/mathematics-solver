@@ -30,6 +30,3 @@ $\log_x|y|$が有理数となる点を，
 理由を示してすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_2.pdf)

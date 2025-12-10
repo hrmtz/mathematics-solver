@@ -21,6 +21,3 @@ $f(x)=ax+e^{-x}\sin x$，$g(x)=e^{-x}(\cos x-\sin x)$とする．
 \item[(2)]$f(x)$が区間$0<x<2\pi$内で極値として極大値のみを1つだけもつとき，$a$の範囲を定めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1991/1991_5.pdf)

@@ -22,6 +22,3 @@ y=-2\sqrt3(x+\cos\theta)^2-\sin\theta
 \end{matrix}$
 が相異なる2点で交わるような一般角$\theta$の範囲を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2002/2002_1.pdf)

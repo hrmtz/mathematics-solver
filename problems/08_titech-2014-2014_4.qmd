@@ -25,6 +25,3 @@ format:
 \item[(3)]図形$D$を$y$軸のまわりに1回転して得られる回転体の体積$V$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2014/2014_4.pdf)

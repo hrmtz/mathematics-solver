@@ -27,6 +27,3 @@ $P_{k-1}$と異なる点を$P_k(x_k, \, y_k)$とする．
 \item[(3)]$\displaystyle\sum_{k=1}^\infty\frac{1}{S_k}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2014/2014_5.pdf)

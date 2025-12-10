@@ -25,6 +25,3 @@ $\triangle  ABC$を線分$BC$を斜辺とする直角二等辺三角形とし，
 $\overrightarrow{OA}$，$\overrightarrow{OC}$，$p$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2014/2014_0_3.pdf)

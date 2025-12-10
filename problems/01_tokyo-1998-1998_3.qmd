@@ -35,6 +35,3 @@ $C_n$の半径を$r_n$，$C_n$と$x$軸の接点を$(x_n,0)$として，
 を示し，極限$\displaystyle\lim_{n\to\infty}x_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1998/1998_3.pdf)

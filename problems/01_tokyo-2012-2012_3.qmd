@@ -26,6 +26,3 @@ $y$軸のまわりに回転してできる立体の体積を$V_2$とする。
 \item[(2)]$\displaystyle\frac{V_2}{V_1}$の値と1の大小を判定せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2012/2012_3.pdf)

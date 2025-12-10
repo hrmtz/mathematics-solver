@@ -28,6 +28,3 @@ $f(x)$の周期という．
 \item[(2)]$f(x)=\sin(\sin x)$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1984/1984_0_2.pdf)

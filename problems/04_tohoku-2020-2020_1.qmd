@@ -26,6 +26,3 @@ $\cos\theta$，$\sin\theta$の値を求めよ。
 ${AP}^2+{BP}^2+{CP}^2$の最小値およびそのときの$s$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_1.pdf)

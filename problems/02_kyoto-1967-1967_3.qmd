@@ -24,6 +24,3 @@ $P(x_1,y_1)$ $(x_1>0,y_1>0)$をとる．
 \item[(ii)]$x_1\to+\infty$のとき，$\triangle OPQ$の面積の極限値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1967/1967_3.pdf)

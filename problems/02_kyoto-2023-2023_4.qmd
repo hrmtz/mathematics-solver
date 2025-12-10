@@ -21,6 +21,3 @@ format:
 (-1 \leqq x \leqq 1) \]
 　ただし，$e$は自然対数の底であり，その値は$e=2.71\cdots\cdots$である．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2023/2023_4.pdf)

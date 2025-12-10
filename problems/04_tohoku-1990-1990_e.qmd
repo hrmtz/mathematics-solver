@@ -30,6 +30,3 @@ $P_2$，$\cdots\cdots$，$P_n$をとる．
 \item[(2)]極限値$\displaystyle\lim_{m\to\infty}(L_{2m+1}-L_{2m})$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_e.pdf)

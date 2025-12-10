@@ -20,6 +20,3 @@ $1\leqq a_1<a_2<\cdots\cdots<a_k \leqq n$であるような
 $k$個の自然数$a_1, \, a_2, \, \cdots\cdots, a_k$の和として表される
 自然数は全部で何個あるか．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1976/1976_3.pdf)

@@ -28,6 +28,3 @@ format:
 \item[(2)]$r=S_1+S_2$，$m=S_1S_2$とおくとき，点$(r,m)$の存在する範囲を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1995/1995_f.pdf)

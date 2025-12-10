@@ -24,6 +24,3 @@ format:
 \item[(2)]$y=f(x)$と$x$軸とで囲まれる部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1989/1989_0_3.pdf)

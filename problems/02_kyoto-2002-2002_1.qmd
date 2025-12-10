@@ -19,6 +19,3 @@ format:
 この数列が$a_1=1$，$\displaystyle\lim_{n\to\infty}S_n=1$，$n(n-2)a_{n+2}=S_n$ $(n \geqq 1)$を満たすとき，
 一般項$a_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2002/2002_1.pdf)

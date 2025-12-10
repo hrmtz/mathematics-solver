@@ -26,6 +26,3 @@ format:
 次に取り出したときは3角形がつくれる確率．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1977/1977_3.pdf)

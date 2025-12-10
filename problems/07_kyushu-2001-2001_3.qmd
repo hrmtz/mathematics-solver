@@ -27,6 +27,3 @@ $0<r\leqq\sqrt2$とし，円柱と正四角柱の共通部分を$K$とする．
 \item[(3)]$0<r\leqq\sqrt2$における$V(r)$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_3.pdf)

@@ -36,6 +36,3 @@ $\begin{pmatrix} 1
 となることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1988/1988_3.pdf)

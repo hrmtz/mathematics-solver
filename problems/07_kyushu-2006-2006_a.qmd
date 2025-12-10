@@ -25,6 +25,3 @@ format:
 \item[(2)]$ar=1$のとき，曲線$C_1$と$C_2$によって囲まれた部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2006/2006_a.pdf)

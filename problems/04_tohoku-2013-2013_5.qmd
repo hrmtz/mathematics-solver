@@ -41,6 +41,3 @@ $n=1, \, 2, \, 3, \, \cdots$に対して，点$P_n(x_n, \, y_n)$を関係式
 \item[(3)]原点$O$から$P_n$までの距離$OP_n$が最大となる$n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2013/2013_5.pdf)

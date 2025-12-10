@@ -25,6 +25,3 @@ $A^2=A$を満たす．
 \item[(2)]さらに，$0\leqq a+b+c+d<2$として，行列$A$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1982/1982_1.pdf)

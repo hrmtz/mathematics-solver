@@ -33,6 +33,3 @@ $\triangle ABC$の外接円上の点$P$を任意にとる．
 ただし2点$X, \, Y$に対し，$XY$とは線分$XY$の長さを表す．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2020/2020_2.pdf)

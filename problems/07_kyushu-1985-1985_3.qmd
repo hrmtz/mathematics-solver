@@ -29,6 +29,3 @@ format:
 $P_1, \, P_2, \, \cdots\cdots, \, P_n$がどのように配列されているときかを示し，証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1985/1985_3.pdf)

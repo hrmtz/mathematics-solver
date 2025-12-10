@@ -34,6 +34,3 @@ $f \circ g=g \circ f$が成り立つ．
 $\overrightarrow{e}$と$f(\overrightarrow{e})$を2辺とする平行4辺形の面積は$\displaystyle\frac{2}{\sqrt3}$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1982/1982_0_3.pdf)

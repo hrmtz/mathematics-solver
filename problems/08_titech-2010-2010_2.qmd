@@ -29,6 +29,3 @@ $a$を正の整数とする．正の実数$x$についての方程式
 \item[(3)]$\displaystyle\sum_{n=1}^\infty\frac{1}{a_n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2010/2010_2.pdf)

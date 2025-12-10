@@ -27,6 +27,3 @@ $\displaystyle\beta=\lim_{t\to1}y(t)$を求めよ．
 \item[(3)]関数$y=g(x)$は単調に減少することを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_c.pdf)

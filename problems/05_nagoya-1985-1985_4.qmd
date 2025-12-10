@@ -24,6 +24,3 @@ $p(n, \, k) \leqq a$であるような$k$の最大値を$M(n, \, a)$とする．
 $\displaystyle\lim_{n\to\infty}\frac{M(n, \, a)}{n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1985/1985_4.pdf)

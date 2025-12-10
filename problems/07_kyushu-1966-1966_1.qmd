@@ -22,6 +22,3 @@ format:
 ただし，$\log_{10}2=0.30103$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1966/1966_1.pdf)

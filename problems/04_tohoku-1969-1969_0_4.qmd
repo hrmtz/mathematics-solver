@@ -27,6 +27,3 @@ $\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$を用い�
 ベクトルの内積の形でかけ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1969/1969_0_4.pdf)

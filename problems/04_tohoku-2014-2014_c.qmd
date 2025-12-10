@@ -29,6 +29,3 @@ $D_n$に含まれ，$x$座標，$y$座標ともに整数である点$(x, \, y)$�
 \[ \lim_{n\to\infty}n\left(\frac{a_n}{S_n}-1\right) \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2014/2014_c.pdf)

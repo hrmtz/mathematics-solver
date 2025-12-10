@@ -33,6 +33,3 @@ $\displaystyle \left( 0\leqq\theta\leqq\frac{\pi}{2} \ \right)$
 \item[(2)]立体$V$の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2012/2012_3.pdf)

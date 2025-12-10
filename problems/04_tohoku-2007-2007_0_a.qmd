@@ -22,6 +22,3 @@ format:
 \item[(2)]$0 \leqq x<2\pi$の範囲で$\sin^3x+\cos^3x+\sin x=2$を満たす$x$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_0_a.pdf)

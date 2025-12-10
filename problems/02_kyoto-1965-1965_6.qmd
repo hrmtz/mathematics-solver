@@ -18,6 +18,3 @@ format:
 
 1より大きいすべての$x$の値に対して$\displaystyle\int_1^x(x-t)f(x)dt=x^4-2x^2+1$が成立するように，整式$f(t)$を定めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1965/1965_6.pdf)

@@ -34,6 +34,3 @@ format:
 \item[(2)]点$M$が$x$軸上を動くとき点$P$の軌跡を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1963/1963_4.pdf)

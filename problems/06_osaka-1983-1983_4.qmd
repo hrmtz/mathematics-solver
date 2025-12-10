@@ -27,6 +27,3 @@ format:
 $a$がどんな値のとき$\displaystyle\tan\theta=\frac{1}{4}$となるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1983/1983_4.pdf)

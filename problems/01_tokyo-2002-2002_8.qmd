@@ -39,6 +39,3 @@ $\displaystyle 0<\theta<\frac{\pi}{4}$なる$\theta$に対して
 
 ![](../archive/01_tokyo/2002/fig_2002_8.jpg)
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2002/2002_8.pdf)

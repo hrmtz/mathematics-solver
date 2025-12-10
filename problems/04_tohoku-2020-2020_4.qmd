@@ -27,6 +27,3 @@ format:
 \item[(4)](3)の確率$p_n$が最大となる$n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_4.pdf)

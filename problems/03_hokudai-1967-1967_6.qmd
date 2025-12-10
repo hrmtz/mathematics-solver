@@ -28,6 +28,3 @@ $g(x)$とその極値とを求め，そのグラフの概形をかけ
 （$\displaystyle\lim_{t\to+\infty}f(t)=0$を使ってよい）．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1967/1967_6.pdf)

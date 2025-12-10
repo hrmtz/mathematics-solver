@@ -20,6 +20,3 @@ format:
 $\displaystyle\lim_{x\to0}r$を求めよ．
 ただし$a$，$b$，$y$は正とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1974/1974_0_4.pdf)

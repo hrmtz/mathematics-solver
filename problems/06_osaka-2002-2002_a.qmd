@@ -34,6 +34,3 @@ $\overrightarrow{AE}=\overrightarrow{c}$とおく．
 $\overrightarrow{PT}=t\overrightarrow{PR}$と表すとき$t$を$x$，$y$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2002/2002_a.pdf)

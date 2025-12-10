@@ -27,6 +27,3 @@ format:
 \item[(3)]$t$を動かすとき，$S$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2002/2002_0_2.pdf)

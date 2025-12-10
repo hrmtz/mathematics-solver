@@ -24,6 +24,3 @@ format:
 \item[(2)]$V$が最大となる$k$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1986/1986_0_4.pdf)

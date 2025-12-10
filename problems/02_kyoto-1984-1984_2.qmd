@@ -27,6 +27,3 @@ format:
 \item[(3)]$f(x)=\sin(x^3)$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1984/1984_2.pdf)

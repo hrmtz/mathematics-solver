@@ -28,6 +28,3 @@ $f(\overrightarrow{OB})=\overrightarrow{OC}$，$f(\overrightarrow{OC})=\overrigh
 ただし，$|\hspace{1zw}|$はベクトルの大きさを表わす．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1981/1981_0_1.pdf)

@@ -43,6 +43,3 @@ $P$，$Q$の少なくとも一方がこの直線上にあるときは0を表示�
 　　60　INPUT　Q(1),　Q(2)
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_4c.pdf)

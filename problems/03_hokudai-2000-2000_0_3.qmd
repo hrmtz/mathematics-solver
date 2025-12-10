@@ -25,6 +25,3 @@ format:
 もう一方の三角形の辺との交点によって三等分されていることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2000/2000_0_3.pdf)

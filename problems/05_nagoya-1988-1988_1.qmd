@@ -33,6 +33,3 @@ $A'=\begin{pmatrix} a & c
 必ずしも$A=B$が成り立たないことを例をあげて示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1988/1988_1.pdf)

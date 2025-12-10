@@ -21,6 +21,3 @@ $f(x)={(x-1)}^3+x$，$f_1(x)=f(x)$とし，$n\geqq2$に対して，$f_n(x)=f(f_{
 \item[(2)]どんな$n$ $(\geqq1)$についても，$f_n(x)=x$の解は$x=1$に限ることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1990/1990_0_4.pdf)

@@ -30,6 +30,3 @@ $\displaystyle\alpha_k={\left( \sin\frac{k\pi}{2n} \right)}^{-2}$とおくと
 \item[(3)]$\displaystyle\sum_{k=1}^{n-1}\alpha_k=\frac{2n^2-2}{3}$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1990/1990_b.pdf)

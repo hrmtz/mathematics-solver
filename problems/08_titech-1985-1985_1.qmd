@@ -28,6 +28,3 @@ format:
 \item[(3)]$G$の任意の元$g$は適当な整数$m$によって，$g=u^m$と書かれることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1985/1985_1.pdf)

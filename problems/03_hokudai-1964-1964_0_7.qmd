@@ -32,6 +32,3 @@ $t$秒後の$P$、$Q$間の距離を$x$として，$x$と$t$との関係式を�
 \item[(2)](1)において$\angle POQ$が$\displaystyle\frac{\pi}{2}$となる瞬間の$x$の変化率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_0_7.pdf)

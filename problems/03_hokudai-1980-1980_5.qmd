@@ -25,6 +25,3 @@ format:
 このとき，さいころを投げる回数の期待値$E_n$を求めよ．
 また$\displaystyle E=\lim_{n\to\infty}E_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1980/1980_5.pdf)

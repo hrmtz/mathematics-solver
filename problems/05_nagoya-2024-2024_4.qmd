@@ -31,6 +31,3 @@ format:
 を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2024/2024_4.pdf)

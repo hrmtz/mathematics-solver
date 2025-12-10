@@ -33,6 +33,3 @@ $n$回の移動後$P$が$A$，$B$，$C$，$D$にいる確率をそれぞれ$a_n$
 \item[(3)]$a_n$，$c_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_c.pdf)

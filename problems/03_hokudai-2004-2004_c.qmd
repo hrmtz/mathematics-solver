@@ -25,6 +25,3 @@ $x=\sqrt{\cos2t} \, \cos t$，$y=\sqrt{\cos2t} \, \sin t$ $\displaystyle
 \item[(2)]曲線$C$で囲まれた図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2004/2004_c.pdf)

@@ -29,6 +29,3 @@ format:
 \item[(4)]上で求めた曲線と$x$軸および直線$y=x$で囲まれる部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_c.pdf)

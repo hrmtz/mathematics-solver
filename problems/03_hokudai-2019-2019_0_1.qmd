@@ -25,6 +25,3 @@ $p$を用いて表せ。
 \item[(2)]点$Q$が$\triangle OAB$の周または内部にあるような$p$の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2019/2019_0_1.pdf)

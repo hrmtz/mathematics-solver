@@ -18,6 +18,3 @@ format:
 平面上の点$O$を中心とし半径1の円周上に相異なる3点$A$，$B$，$C$がある．
 $\triangle ABC$の内接円の半径$r$は$\displaystyle\frac{1}{2}$以下であることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2006/2006_d.pdf)

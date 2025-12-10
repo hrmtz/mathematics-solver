@@ -31,6 +31,3 @@ format:
 また$O-xy$軸に関するこれら2つの漸近線の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1969/1969_3.pdf)

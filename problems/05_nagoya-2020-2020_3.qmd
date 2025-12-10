@@ -31,6 +31,3 @@ $f''(x)>0$をみたしているとする。区間$0 \leqq x \leqq \pi$で関数$
 を示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2020/2020_3.pdf)

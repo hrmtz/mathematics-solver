@@ -30,6 +30,3 @@ $\overrightarrow{OP}=\overrightarrow{p}$，$\overrightarrow{OQ}=\overrightarrow{
 また，このときの${|\overrightarrow{BR}|}^2$の値を$r$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2017/2017_0_2.pdf)

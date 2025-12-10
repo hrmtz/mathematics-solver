@@ -18,6 +18,3 @@ format:
 
 不等式$a\cos2\theta+b\cos\theta<1$がすべての実数$\theta$について成り立つような点$(a,b)$の範囲を図示せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1987/1987_3.pdf)

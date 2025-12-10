@@ -26,6 +26,3 @@ $\{ c_n \}$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$とする．
 \item[(2)]$\{ c_n \}$は等比数列であることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1979/1979_2.pdf)

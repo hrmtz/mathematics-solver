@@ -25,6 +25,3 @@ $b<a<b+1$となる整数$b$を下の表を用いて求めよ．
 \item[(3)]上の結果を用いて不等式$\displaystyle\frac{31}{103}<\log_{10}2<\frac{28}{93}$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1994/1994_0_1.pdf)

@@ -30,6 +30,3 @@ $\displaystyle b_n=\frac{a_{n+1}}{a_n}$ $(n=1,2,\cdots)$とおく．
 \item[(2)]すべての点$b_n$ $(n=1,2,\cdots)$は円$C$の周上にあることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2001/2001_4.pdf)

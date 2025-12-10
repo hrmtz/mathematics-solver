@@ -24,6 +24,3 @@ format:
 \item[(2)]線分$PQ$の長さを最大にする$t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_e.pdf)

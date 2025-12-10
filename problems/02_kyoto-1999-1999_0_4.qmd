@@ -24,6 +24,3 @@ $\displaystyle w=\frac{(z_1-z_3)(z_2-z_4)}{(z_1-z_4)(z_2-z_3)}$と置く．
 \item[(3)]$z_1$，$z_2$，$z_3$が単位円上にあり，$w$が実数であれば，$z_4$は単位円上にある．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_0_4.pdf)

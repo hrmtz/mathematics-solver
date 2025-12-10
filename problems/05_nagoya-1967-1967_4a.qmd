@@ -25,6 +25,3 @@ $P_3$は直線$x_2x+y_2y=1$の上にもある．
 \item[（ロ）]$OP_2>1$かつ$OP_3>1$ならば$OP_1<1$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1967/1967_4a.pdf)

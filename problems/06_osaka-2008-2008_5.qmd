@@ -25,6 +25,3 @@ $n$を500以上の自然数とするとき，
 \item[(3)]$1002 \leqq n \leqq 1500$のとき，$p(n+1)-p(n)$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2008/2008_5.pdf)

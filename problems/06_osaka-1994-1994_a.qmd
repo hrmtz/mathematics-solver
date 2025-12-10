@@ -29,6 +29,3 @@ $\displaystyle a_{n+1}=\sqrt2 \, a_n-{\left(\frac{\sqrt2}{2}\right)}^n$
 \item[(2)]$\displaystyle\sum_{n=1}^\infty a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1994/1994_a.pdf)

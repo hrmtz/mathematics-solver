@@ -28,6 +28,3 @@ format:
 $k$が実数全体を動くとき，$S(k)$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2022/2022_0_3.pdf)

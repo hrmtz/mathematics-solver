@@ -28,6 +28,3 @@ $\begin{cases} x_1=a, &
 $0 \leqq x_n \leqq 1$ $(n=2, \, 3, \, 4, \, \cdots)$が成り立つような$r$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_4.pdf)

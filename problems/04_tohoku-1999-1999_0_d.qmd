@@ -26,6 +26,3 @@ $\overrightarrow{u_1}=(1, \, 0)$，$\overrightarrow{u_2}=(0, \, 1)$，$\overrigh
 全部で何通りあるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_0_d.pdf)

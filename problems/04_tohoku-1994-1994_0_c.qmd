@@ -22,6 +22,3 @@ format:
 \item[(2)]$t$が$t\geqq0$のすべてを動くとき，$l_t$の通りうる範囲を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_0_c.pdf)

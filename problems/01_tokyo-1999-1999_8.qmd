@@ -37,6 +37,3 @@ $Q(t)$の座標を求めよ．
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1999/1999_8.pdf)

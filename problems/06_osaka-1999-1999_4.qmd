@@ -25,6 +25,3 @@ $\displaystyle\left(0, \, a, \, \frac{2}{\sqrt3}\right)$，$\displaystyle\left(1
 を頂点とする正三角形である．
 　このとき，立体$K$と$L$の共通部分の体積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1999/1999_4.pdf)

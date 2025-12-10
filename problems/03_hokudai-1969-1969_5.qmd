@@ -28,6 +28,3 @@ $x$，$y$を$\alpha$で表わせ．
 ただし$O$は座標の原点とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1969/1969_5.pdf)

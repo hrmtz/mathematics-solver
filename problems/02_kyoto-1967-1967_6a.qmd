@@ -28,6 +28,3 @@ $y_1$のグラフ，$y_2$のグラフ，$y$軸，直線$\displaystyle y=\frac{\p
 で囲まれた部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1967/1967_6a.pdf)

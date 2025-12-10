@@ -25,6 +25,3 @@ $k$個の整数$f(1), \, f(2), \, \cdots\cdots, \, f(k)$のどれもが$k$で割
 方程式$f(x)=0$は有理数の解をもたない．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1982/1982_0_2.pdf)

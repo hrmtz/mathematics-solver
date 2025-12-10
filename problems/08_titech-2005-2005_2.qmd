@@ -23,6 +23,3 @@ format:
 \item[(2)]$a$，$b$，$c$および$d$の期待値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2005/2005_2.pdf)

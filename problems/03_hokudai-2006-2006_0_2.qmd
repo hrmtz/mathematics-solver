@@ -27,6 +27,3 @@ format:
 $0^\circ$以上${90}^\circ$以下となる$t$の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2006/2006_0_2.pdf)

@@ -23,6 +23,3 @@ format:
 $3x \leqq y \leqq x^3+2$で表される図形との共通部分の面積$A$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_b.pdf)

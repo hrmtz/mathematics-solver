@@ -22,6 +22,3 @@ format:
 \item[(2)]上の3次方程式の$\alpha$以外の二つの解を(1)と同じ形の式で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1990/1990_0_2.pdf)

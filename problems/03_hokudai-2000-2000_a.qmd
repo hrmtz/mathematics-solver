@@ -26,6 +26,3 @@ $A(1, \, 1)$を中心とする半径1の円と，
 \item[(3)]$R$の座標と$\cos\theta$を$a$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2000/2000_a.pdf)

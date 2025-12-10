@@ -26,6 +26,3 @@ format:
 定数$a$，$b$，$c$を定めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1993/1993_d.pdf)

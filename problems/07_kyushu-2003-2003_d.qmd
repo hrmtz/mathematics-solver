@@ -25,6 +25,3 @@ format:
 によって定義される数列$\{ x_n \}$は$n\to\infty$のとき収束することを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_d.pdf)

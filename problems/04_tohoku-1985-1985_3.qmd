@@ -22,6 +22,3 @@ $\displaystyle f(x)=\left| x-2\left[ \frac{x+1}{2} \right] \right|$とおく．
 \item[(2)]$\displaystyle\lim_{n\to\infty}\int_0^{2n}e^{-2x}f(x)dx$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1985/1985_3.pdf)

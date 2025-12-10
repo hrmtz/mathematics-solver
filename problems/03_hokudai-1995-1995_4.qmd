@@ -26,6 +26,3 @@ format:
 \item[(2)]$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1995/1995_4.pdf)

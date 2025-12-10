@@ -32,6 +32,3 @@ $x=0$から始めて，$n$秒後$(n=0, \, 1, \, 2, \, \cdots)$に$x=m$である�
 \item[(3)]$p_n(0)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2005/2005_4a.pdf)

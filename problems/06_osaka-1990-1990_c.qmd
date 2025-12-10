@@ -23,6 +23,3 @@ format:
 \item[(2)]曲面$S$によって囲まれる部分の体積$V$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_c.pdf)

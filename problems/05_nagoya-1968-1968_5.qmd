@@ -22,6 +22,3 @@ $f(0)=0$，かつ，$x_1<x_2$ならば，つねに$f(x_1) \leqq f(x_2)$である
 $\displaystyle f(x)\leqq\int_0^xf(t)dt$が成り立てば，
 $f(x)$は恒等的に0であることを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1968/1968_5.pdf)

@@ -21,6 +21,3 @@ format:
 \item[(2)]上の数のうちで，1の位の数字が0である数の個数を$b_n$とするとき，$\displaystyle\lim_{n\to\infty}\frac{b_n}{a_n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1991/1991_a.pdf)

@@ -27,6 +27,3 @@ format:
 \item[(2)]小さい方から数えて2000番目の$S$の要素を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2000/2000_5.pdf)

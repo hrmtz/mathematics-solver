@@ -27,6 +27,3 @@ $\overrightarrow{f}=\overrightarrow{DF}$の長さと
 $0<t<1$のとき，$\cos\theta$の動く範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1987/1987_0_4.pdf)

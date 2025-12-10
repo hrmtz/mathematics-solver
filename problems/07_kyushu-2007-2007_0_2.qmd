@@ -28,6 +28,3 @@ $\overrightarrow{PG}$は$\overrightarrow{AB}$，$\overrightarrow{AC}$の両方�
 また$V(t)$の最小値とその最小値を与える$t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_0_2.pdf)

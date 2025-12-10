@@ -28,6 +28,3 @@ format:
 線分$PQ$，および線分$QR$で囲まれる図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2025/2025_0_4.pdf)

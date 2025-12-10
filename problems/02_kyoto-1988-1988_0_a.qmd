@@ -17,6 +17,3 @@ format:
 
 $0<x<1$に対して，$\displaystyle\frac{1-x^3}{3}>\frac{1-x^2}{2}\sqrt{x}$が成り立つことを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1988/1988_0_a.pdf)

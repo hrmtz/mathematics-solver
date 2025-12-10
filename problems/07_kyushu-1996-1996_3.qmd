@@ -31,6 +31,3 @@ $\displaystyle a_n=\log[(n-1) \, !]+\frac{1}{2}\log n$とする．
 \item[(3)]$\displaystyle a_n>n\log n-n+\frac{3}{2} \left[ 1-\log \left( \frac{3}{2} \right) \right]$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1996/1996_3.pdf)

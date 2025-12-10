@@ -25,6 +25,3 @@ $x>0$に対し$\displaystyle f(x)=\frac{\log x}{x}$とする．
 $h_n$を用いて$a_n$，$b_n$の一般項を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2005/2005_1.pdf)

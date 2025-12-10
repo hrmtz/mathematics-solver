@@ -35,6 +35,3 @@ X=\begin{pmatrix} x & z
 と表せることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2001/2001_c.pdf)

@@ -25,6 +25,3 @@ $|\overrightarrow{a}|=1$，$|\overrightarrow{b}|=\sqrt{13}$とする．
 \item[(2)]$\overrightarrow{DE}$を$\overrightarrow{a}$と$\overrightarrow{b}$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_0_b.pdf)

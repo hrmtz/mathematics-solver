@@ -33,6 +33,3 @@ format:
 $f(x)=x^7$は，平均値の性質をもたないことを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_4.pdf)

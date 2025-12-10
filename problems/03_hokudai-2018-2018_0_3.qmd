@@ -25,6 +25,3 @@ format:
 \item[(2)]$s>t>u$となる確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2018/2018_0_3.pdf)

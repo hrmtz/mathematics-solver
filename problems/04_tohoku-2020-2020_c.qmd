@@ -27,6 +27,3 @@ $\displaystyle c=\frac{20-\sqrt{526}}{6}$として，
 \item[(2)]$S_n$の最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_c.pdf)

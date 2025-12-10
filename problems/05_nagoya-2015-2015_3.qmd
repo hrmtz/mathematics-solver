@@ -34,6 +34,3 @@ $\displaystyle\lim_{t\to\infty}\frac{S_2}{S_1}$を求めよ。
 必要ならば，$x>0$のとき$e^x>x^2$であることを証明なしに用いてよい。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2015/2015_3.pdf)

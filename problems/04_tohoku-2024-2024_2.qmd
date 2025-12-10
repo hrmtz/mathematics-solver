@@ -29,6 +29,3 @@ format:
 \item[(2)]$n \leqq 2\log_2n$を満たす正の整数$n$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2024/2024_2.pdf)

@@ -32,6 +32,3 @@ $Av=\begin{pmatrix} \displaystyle\frac{2}{u_1}
  \displaystyle\frac{1}{u_2} \end{pmatrix}$があるとき，
 $v_1+v_2$の値は$\alpha$に無関係な定数であることを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1978/1978_3.pdf)

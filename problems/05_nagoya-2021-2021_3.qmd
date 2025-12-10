@@ -41,6 +41,3 @@ format:
 \item[(3)]確率$p_5, \, p_9, \, p_{11}, \, p_{12}$のうち最も大きいものの値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2021/2021_3.pdf)

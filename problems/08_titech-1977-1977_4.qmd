@@ -19,6 +19,3 @@ $m$，$n$は正の整数で，$m<n$とする．
 $0<x<1$のとき，$\displaystyle{\left( 1+\frac{x}{m^2} \right)}^m$，
 $\displaystyle{\left( 1+\frac{x}{n^2} \right)}^n$の大小を定めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1977/1977_4.pdf)

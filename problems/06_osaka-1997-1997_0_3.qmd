@@ -25,6 +25,3 @@ format:
 $\displaystyle V-\frac{1}{2}S$が最小となる$x$，$y$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1997/1997_0_3.pdf)

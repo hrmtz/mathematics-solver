@@ -26,6 +26,3 @@ $a$，$b$を正の実数とする．
 $\angle APB$が${90}^\circ$より小さくなるための$a$と$b$の条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_2.pdf)

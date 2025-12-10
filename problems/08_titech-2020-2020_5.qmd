@@ -31,6 +31,3 @@ $\displaystyle a_k=\int_0^1x^{k-1}\sin\left(\frac{\pi x}{2}\right)dx$とおく�
 またそのときの極限値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2020/2020_5.pdf)

@@ -29,6 +29,3 @@ format:
 \item[(iii)]$0.300<\log_{10}2<0.302$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1968/1968_6.pdf)

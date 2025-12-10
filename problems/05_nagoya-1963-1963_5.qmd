@@ -19,6 +19,3 @@ format:
 三角形$ABC$の3辺$BC$，$CA$，$AB$の長さをそれぞれ$a$，$b$，$c$とするとき，
 $\angle A=2\angle C$ならば$a^2=c(b+c)$であることを証明せよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1963/1963_5.pdf)

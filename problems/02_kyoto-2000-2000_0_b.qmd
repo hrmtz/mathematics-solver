@@ -19,6 +19,3 @@ format:
 実数$x$，$y$が$x \geqq y \geqq 1$を満たすとき，次の不等式が成立することを示せ．
 \[ (x+y-1)\log_2(x+y)\geqq(x-1)\log_2x+(y-1)\log_2y+y \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_0_b.pdf)

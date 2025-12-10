@@ -30,6 +30,3 @@ b_n=\int_{-\frac{\pi}{4}}^{\frac{\pi}{4}}e^{n\sin\theta} \cos\theta d\theta \hsp
 ただし，対数は自然対数であり，$\displaystyle\lim_{x\to+0}x\log x=0$を用いてよい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_d.pdf)

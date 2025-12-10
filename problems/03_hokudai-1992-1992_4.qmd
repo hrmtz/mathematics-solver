@@ -21,6 +21,3 @@ format:
 　$P:2 \leqq x \leqq y$を満たすすべての実数$x$，$y$に対して
 不等式$\displaystyle \frac{\log y}{y} \leqq C\frac{\log x}{x}$が成り立つ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1992/1992_4.pdf)

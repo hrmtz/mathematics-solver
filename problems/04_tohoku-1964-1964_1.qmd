@@ -23,6 +23,3 @@ $a$，$b$，$c$を正数とし，
 $\displaystyle0<\frac{1}{a}-\frac{2\alpha}{b}+\frac{\alpha^2}{c}\leqq\frac{1}{a}-\frac{2t}{b}+\frac{t^2}{c}$
 であることを示せ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1964/1964_1.pdf)

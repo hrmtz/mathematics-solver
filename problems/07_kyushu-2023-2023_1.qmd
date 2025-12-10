@@ -26,6 +26,3 @@ format:
 が成り立つとき，$\triangle ABC$はどのような三角形になるか答えよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2023/2023_1.pdf)

@@ -26,6 +26,3 @@ format:
 互いに面積の等しい二つの部分に分けられることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1978/1978_3.pdf)

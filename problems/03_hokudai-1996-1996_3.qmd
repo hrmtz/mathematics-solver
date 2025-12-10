@@ -27,6 +27,3 @@ $\displaystyle w=\frac{ay-bx}{ax+by}$とおく．
 $0<AP \leqq k$であるとき，$w$のとりうる値の範囲を$a$，$b$，$k$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_3.pdf)

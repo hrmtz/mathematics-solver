@@ -26,6 +26,3 @@ $\triangle A_nB_nC_n$の内角$A_n$，$B_n$，$C_n$の大きさをそれぞれ$\
 \item[(2)]$\displaystyle\lim_{n\to\infty}\frac{B_nC_n}{r_n}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1965/1965_5.pdf)

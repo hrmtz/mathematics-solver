@@ -20,6 +20,3 @@ $AB=1, \, AC=2, \, AD=3, \, \angle BAC=\angle CAD={60}^\circ, \, \angle DAB={90}
 この4点から等距離にある点を$E$とする．
 線分$AE$の長さを求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2005/2005_3.pdf)

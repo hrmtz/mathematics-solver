@@ -25,6 +25,3 @@ $n$，$k$を$3 \leqq k<n$を満たす整数とする。
 $p(n, \, k)$の最大値とそのときの$k$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2017/2017_0_c.pdf)

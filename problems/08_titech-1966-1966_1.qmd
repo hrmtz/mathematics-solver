@@ -25,6 +25,3 @@ $OP \cdot OQ=r^2$となるようにする。
 対応する点$Q$はどんな図形をえがくか。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1966/1966_1.pdf)

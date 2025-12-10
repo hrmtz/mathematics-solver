@@ -25,6 +25,3 @@ $t$秒後$(t>0)$の点$A(x, \, 0)$に対し，点$(x, \, f(x))$における曲�
 ただし，$t=1$のとき$Q$の座標は$\displaystyle\left(\frac{7}{4}a, \, 0\right)$，速度は$2a$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1979/1979_5.pdf)

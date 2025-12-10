@@ -28,6 +28,3 @@ format:
 点$P$と円$C$の中心との距離の2乗の最小値を$a$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1984/1984_4.pdf)

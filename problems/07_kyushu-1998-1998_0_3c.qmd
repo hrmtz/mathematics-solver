@@ -33,6 +33,3 @@ format:
 出力が1より大きな奇数となる$N$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_0_3c.pdf)

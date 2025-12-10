@@ -25,6 +25,3 @@ format:
 \item[(2)]$C$と$x$軸，$y$軸で囲まれた領域の面積$S$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1997/1997_f.pdf)

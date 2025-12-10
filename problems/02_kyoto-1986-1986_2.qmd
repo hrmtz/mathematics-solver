@@ -25,6 +25,3 @@ format:
 \item[(2)]$V$の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1986/1986_2.pdf)

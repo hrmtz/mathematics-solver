@@ -24,6 +24,3 @@ format:
 \item[(2)]$a+b=c+d$となる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_0_3.pdf)

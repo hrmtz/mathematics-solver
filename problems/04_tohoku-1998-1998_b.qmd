@@ -25,6 +25,3 @@ format:
 \item[(3)]$\displaystyle k\geqq\frac{n}{2}$のとき，$P(k)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_b.pdf)

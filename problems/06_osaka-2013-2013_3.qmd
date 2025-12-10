@@ -19,6 +19,3 @@ format:
 \[ n+1, \hspace{1zw} n^3+3, \hspace{1zw} n^5+5, \hspace{1zw} n^7+7 \]
 がすべて素数となるような正の整数$n$は存在しない．これを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2013/2013_3.pdf)

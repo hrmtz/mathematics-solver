@@ -24,6 +24,3 @@ format:
 第1象限において，線分$OA$，$OP$および楕円の弧$\stackrel{\frown}{AP}$で囲まれた部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_4.pdf)

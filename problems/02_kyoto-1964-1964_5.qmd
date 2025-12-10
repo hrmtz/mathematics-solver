@@ -27,6 +27,3 @@ $\displaystyle\int_0^\frac{\pi}{2}F(x)dx$と
 級数の和$\displaystyle\sum_{n=1}^\infty \left( \int_0^\frac{\pi}{2}f_n(x)dx \right)$とを比較せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1964/1964_5.pdf)

@@ -27,6 +27,3 @@ $\displaystyle\sin\left(\frac{2\pi}{3}\times n_i\right)>0$となる確率$P_2$�
 \item[(3)]$r>2k>0$のとき，$P_2>P_1$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1982/1982_4.pdf)

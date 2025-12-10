@@ -23,6 +23,3 @@ format:
 \item[(3)]初項から第$n$項までの積$a_1a_2\cdots a_n$が$7^{45}$の倍数となる最小の自然数$n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_3.pdf)

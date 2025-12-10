@@ -24,6 +24,3 @@ $p$を0でない実数とする．
 \item[(3)]$\displaystyle\lim_{n\to\infty}\frac{a_{n+1}}{a_n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_3.pdf)

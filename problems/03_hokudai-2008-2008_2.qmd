@@ -29,6 +29,3 @@ $A$の$n$乗を$A^n=\begin{pmatrix} a_n & b_n
 および，$n$が偶数ならば$a_n$は奇数であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_2.pdf)

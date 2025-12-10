@@ -25,6 +25,3 @@ $\displaystyle I_n(a)=\int_0^ax^n\sqrt{1+x}dx$ $(n=1,2,\cdots)$とおく．
 \item[(3)]自然数$n$に対して，$\displaystyle\lim_{a\to\infty}a^{- \left( \frac{3}{2}+n \right) } I_n(a)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_6.pdf)

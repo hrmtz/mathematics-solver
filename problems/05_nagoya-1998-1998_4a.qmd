@@ -26,6 +26,3 @@ $N$を自然数とし，複素数$z=\cos\theta+i\sin\theta$は$z^N=1$を満た�
 \item[(3)]$S_3=1+\cos^2\theta+\cos^22\theta+\cdots+\cos^2(N-1)\theta$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1998/1998_4a.pdf)

@@ -24,6 +24,3 @@ $l$と$m$の大小について調べよ．
 $R(x)$を$F(a)$，$F'(a)$，$F''(a)$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1972/1972_3.pdf)

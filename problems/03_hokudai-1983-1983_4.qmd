@@ -23,6 +23,3 @@ $\displaystyle f(x)=\int_0^x(x-t)\cos^3tdt$について，次の問に答えよ�
 \item[(2)]$f(x)$の極値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1983/1983_4.pdf)

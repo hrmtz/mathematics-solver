@@ -31,6 +31,3 @@ $p$，$q$を1より大きな自然数とする．
 \item[(3)]$x$を実数の定数とみて，数列$f_1(x), \, f_2(x), \, \cdots, \, f_n(x), \, \cdots\cdots$の極限値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1973/1973_6.pdf)

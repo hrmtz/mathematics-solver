@@ -26,6 +26,3 @@ $\displaystyle f(x)=x+\frac{1}{2}x^2-\frac{1}{24}x^3-(1+x)\log(1+x)$ $(0 \leqq x
 によって囲まれた部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_b.pdf)

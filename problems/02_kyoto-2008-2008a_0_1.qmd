@@ -19,6 +19,3 @@ format:
 実数$a$，$b$，$c$に対して$f(x)=ax^2+bx+c$とする．
 このとき$\displaystyle\int_{-1}^1(1-x^2){ \{ f'(x) \} }^2dx\leqq6\int_{-1}^1{ \{ f(x) \} }^2dx$であることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2008/2008a_0_1.pdf)

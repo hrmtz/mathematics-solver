@@ -27,6 +27,3 @@ format:
 このとき，$\displaystyle\frac{a}{b}$の値の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2013/2013_0_2.pdf)

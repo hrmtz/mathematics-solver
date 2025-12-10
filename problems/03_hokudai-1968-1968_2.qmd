@@ -28,6 +28,3 @@ $\overline{OP}:\overline{OQ}=\sqrt2:4$である．
 点$Q$における\ding{"AD}の接線の方程式を表わせ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1968/1968_2.pdf)

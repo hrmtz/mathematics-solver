@@ -22,6 +22,3 @@ format:
 \item[(2)]$P$が辺$BC$上を動くとき三角形$OAP$の面積の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1998/1998_0_2.pdf)

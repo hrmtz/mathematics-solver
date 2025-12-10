@@ -25,6 +25,3 @@ $x>0$で$g(x)$の満たす微分方程式を求めよ．
 \item[(3)]$\displaystyle f(1)=\frac{1}{2}$を満たす$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_5.pdf)

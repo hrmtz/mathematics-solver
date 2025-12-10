@@ -29,6 +29,3 @@ $\overrightarrow{MC}=\overrightarrow{c}$とおく．
 \item[(2)]また$MP$と$MQ$はつねに直交することを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1967/1967_3.pdf)

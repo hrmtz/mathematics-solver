@@ -27,6 +27,3 @@ format:
 \item[(3)]任意の$n$に対して解は少なくとも1つ存在し，かつ有限個しかないことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1996/1996_1.pdf)

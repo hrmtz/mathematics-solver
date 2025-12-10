@@ -28,6 +28,3 @@ $1 \leqq m \leqq n-1$として，
 \item[(3)]$\displaystyle\sum_{m=1}^{n-1}mp_m$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_0_c.pdf)

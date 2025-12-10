@@ -26,6 +26,3 @@ format:
 $a_n=|\overrightarrow{P_nP_{n+1}}|$とすると，
 $a_1, \, a_2, \, \cdots\cdots, \, a_n, \, \cdots\cdots$はどのような数列か．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_0_4.pdf)

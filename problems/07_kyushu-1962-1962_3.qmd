@@ -25,6 +25,3 @@ $f(\theta)$，$g(\theta)$，$f(\theta)+g(\theta)$の最大値がそれぞれ3，
 \item[(2)]$f(\theta)g(\theta)$の最大値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1962/1962_3.pdf)

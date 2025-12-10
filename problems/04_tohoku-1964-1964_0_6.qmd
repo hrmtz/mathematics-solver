@@ -21,6 +21,3 @@ $x>0$のとき$f(x)$と$g(x)$の大小関係を調べよ。
 $\displaystyle0<x\leqq\frac{1}{4}$では$\displaystyle f(x)\geqq f \left(\frac{1}{4}\right)$であることを示せ。
 さらに$0<x\leqq2$に対して$f(x)$，$g(x)$のグラフをえがけ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1964/1964_0_6.pdf)

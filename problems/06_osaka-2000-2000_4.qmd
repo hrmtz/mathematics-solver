@@ -19,6 +19,3 @@ format:
 $n$を正の整数とし$\displaystyle a_n=\sum_{k=1}^n\frac{[\sqrt{2n^2-k^2}]}{n^2}$とおく．
 このとき，$\displaystyle\lim_{n\to\infty}a_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_4.pdf)

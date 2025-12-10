@@ -25,6 +25,3 @@ format:
 また，そのときの$\angle BAC$の大きさを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1999/1999_0_1.pdf)

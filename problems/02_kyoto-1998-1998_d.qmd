@@ -24,6 +24,3 @@ $n=0,1,2,\cdots$に対し，$n\pi<x<(n+1)\pi$の範囲に$\sin(x+a)=x\sin x$を�
 \item[(2)]極限値$\displaystyle\lim_{n\to\infty}n(x_n-n\pi)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1998/1998_d.pdf)

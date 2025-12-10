@@ -30,6 +30,3 @@ $xy$平面内の図形
 \item[(2)]$V$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_6.pdf)

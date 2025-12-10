@@ -28,6 +28,3 @@ format:
 \item[(3)](2)と同じ条件のもとで$\displaystyle\lim_{n\to\infty}a_n=0$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2003/2003_b.pdf)

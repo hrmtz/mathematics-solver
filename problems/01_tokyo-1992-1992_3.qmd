@@ -23,6 +23,3 @@ $P$，$Q$，$R$，$S$を頂点とする四面体に内接する球の半径を$r
 \[ { \left( \frac{1}{r}-\frac{1}{a}-\frac{1}{b} \right) }^2 \geqq \frac{20}{3} , \hspace{1zw}
 \frac{1}{r} \geqq 2\sqrt{\frac{2}{3}}+2\sqrt{\frac{5}{3}} \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1992/1992_3.pdf)

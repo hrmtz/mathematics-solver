@@ -26,6 +26,3 @@ $BH$の長さ$y$を$s$で表せ．
 $\displaystyle\frac{1-y}{y}$の最大値およびそのときの$x$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_0_3.pdf)

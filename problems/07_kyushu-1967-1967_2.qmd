@@ -24,6 +24,3 @@ $p_1, \, p_2, \, \cdots\cdots, \, p_k$は素数で$p_1<p_2<\cdots<p_k$である�
 \item[(2)]$n>k^2$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1967/1967_2.pdf)

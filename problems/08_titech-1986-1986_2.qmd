@@ -26,6 +26,3 @@ $C$の$z$座標は$D$の$z$座標より大きい．
 \item[(3)]頂点$A$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1986/1986_2.pdf)

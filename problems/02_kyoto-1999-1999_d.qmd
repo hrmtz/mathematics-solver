@@ -18,6 +18,3 @@ format:
 $\triangle ABC$は鋭角三角形とする．
 このとき，各面すべてが$\triangle ABC$と合同な四面体が存在することを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_d.pdf)

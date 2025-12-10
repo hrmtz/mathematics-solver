@@ -23,6 +23,3 @@ format:
 このとき，$\displaystyle\sum_{n=1}^\infty M_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_b.pdf)

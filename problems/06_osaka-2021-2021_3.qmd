@@ -30,6 +30,3 @@ $n$を自然数とし，$t$を$t\geqq1$をみたす実数とする．
 $\displaystyle\lim_{n\to\infty}(a_n-pn)=q$をみたすような実数$p, \, q$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2021/2021_3.pdf)

@@ -24,6 +24,3 @@ $\displaystyle\lim_{n\to\infty}\frac{S_n}{ne^n}$を求めよ．
 $\displaystyle\lim_{n\to\infty}\frac{V_n}{{(S_n)}^2}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_3.pdf)

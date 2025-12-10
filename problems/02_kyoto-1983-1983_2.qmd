@@ -24,6 +24,3 @@ $\angle A={90}^\circ$である直角三角形$ABC$がある．
 ただし，$AB \neq AC$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1983/1983_2.pdf)

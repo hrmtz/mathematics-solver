@@ -27,6 +27,3 @@ $a_{k+1}$となっている．また$a_1=1$である．
 $\displaystyle\lim_{n\to\infty}\sum_{k=1}^nA_k$と$\displaystyle\lim_{n\to\infty}\sum_{k=1}^nB_k$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_d.pdf)

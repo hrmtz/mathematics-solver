@@ -28,6 +28,3 @@ $A$はどのような行列か．
 $A$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1988/1988_0_3.pdf)

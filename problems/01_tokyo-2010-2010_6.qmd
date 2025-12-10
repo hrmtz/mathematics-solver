@@ -30,6 +30,3 @@ $\overrightarrow{OH}$を$\overrightarrow{OA}$と$\overrightarrow{OB}$を用い�
 \item[(3)]$t$が$0<t<1$の範囲を動くとき，$S(t)$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2010/2010_6.pdf)

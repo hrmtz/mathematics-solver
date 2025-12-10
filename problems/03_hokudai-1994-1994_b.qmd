@@ -24,6 +24,3 @@ format:
 \item[(3)]$C$と直線$x=1$とで囲まれる図形を$x$軸のまわりに回転して得られる図形の体積$V$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_b.pdf)

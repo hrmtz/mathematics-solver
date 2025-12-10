@@ -25,6 +25,3 @@ format:
 ただし，$x_1<x_2<x_3<x_4$のときは$k=4$と定める．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_0_4.pdf)

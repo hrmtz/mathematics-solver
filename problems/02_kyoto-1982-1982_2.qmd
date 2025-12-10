@@ -20,6 +20,3 @@ format:
 二次方程式$t^2-2at+3a-2=0$は実根$\alpha$，$\beta$をもち，$\alpha\geqq\beta$とするとき，
 不等式$y \leqq x$，$y \geqq -x$，$ay\geqq3(x-\beta)$で定まる領域は，三角形になる．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1982/1982_2.pdf)

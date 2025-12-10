@@ -23,6 +23,3 @@ $\displaystyle\left| f(x)-\frac{a}{c} \right|>\frac{1}{c^2r}$となることを�
 \item[(2)]$ad-bc=0$ならば，$y=f(x)$のグラフはどうなるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1974/1974_1.pdf)

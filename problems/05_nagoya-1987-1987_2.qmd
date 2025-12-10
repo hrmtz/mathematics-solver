@@ -26,6 +26,3 @@ $\theta=0$または$\displaystyle\frac{\pi}{2}$のときは
 $\displaystyle S(0)=S\left(\frac{\pi}{2}\right)=0$とする．
 このとき，積分$\displaystyle\int_0^\frac{\pi}{2}S(\theta)\sin\theta d\theta$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1987/1987_2.pdf)

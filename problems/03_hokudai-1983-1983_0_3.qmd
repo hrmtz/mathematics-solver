@@ -24,6 +24,3 @@ format:
 が成り立つような$k$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1983/1983_0_3.pdf)

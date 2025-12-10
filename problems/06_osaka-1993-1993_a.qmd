@@ -32,6 +32,3 @@ format:
 満たすとき，$a_n$ $(n=1, \, 2, \, \cdots\cdots)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1993/1993_a.pdf)

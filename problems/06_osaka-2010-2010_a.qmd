@@ -27,6 +27,3 @@ ${(x_1+x_2+\cdots+x_r)}^p-({x_1}^p+{x_2}^p+\cdots+{x_r}^p)$は$p$で割り切れ
 このとき，$r^{p-1}-1$は$p$で割り切れることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2010/2010_a.pdf)

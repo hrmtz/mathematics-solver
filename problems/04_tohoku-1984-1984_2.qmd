@@ -23,6 +23,3 @@ $\displaystyle s_n=\sum_{k=1}^na_k$とおく．
 このとき，次の不等式を数学的帰納法を用いて証明せよ．
 \[ (1+a_1)(1+a_2)\cdots\cdots(1+a_n)\leqq1+s_n+\frac{{s_n}^2}{2 \, !}+\cdots\cdots+\frac{{s_n}^n}{n \, !} \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1984/1984_2.pdf)

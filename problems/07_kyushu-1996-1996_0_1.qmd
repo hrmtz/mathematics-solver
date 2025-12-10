@@ -29,6 +29,3 @@ $\overrightarrow{AQ}$を$\overrightarrow{a}$と$\overrightarrow{b}$で表せ．
 \item[(3)]$\overrightarrow{AP}=k\overrightarrow{AQ}$を満たす$k$の値をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1996/1996_0_1.pdf)

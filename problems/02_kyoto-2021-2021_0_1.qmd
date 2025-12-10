@@ -25,6 +25,3 @@ $\triangle OAB$の垂心を$H$とするとき，
 $\overrightarrow{OH}$を$\overrightarrow{OA}$と$\overrightarrow{OB}$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2021/2021_0_1.pdf)

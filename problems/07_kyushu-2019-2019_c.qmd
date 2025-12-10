@@ -39,6 +39,3 @@ $\displaystyle\frac{\alpha\overline{\beta}+\overline{\alpha}\beta}{2}$に等し�
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2019/2019_c.pdf)

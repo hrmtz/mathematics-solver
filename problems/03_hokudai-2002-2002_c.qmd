@@ -24,6 +24,3 @@ $xy$平面において放物線$y=ax^2+b$ $(a\neq0)$を考える．
 $a^2+b^2$の値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2002/2002_c.pdf)

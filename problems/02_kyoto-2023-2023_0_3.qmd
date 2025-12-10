@@ -22,6 +22,3 @@ format:
 $1.15$より大きいか否かを理由を付けて判定せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2023/2023_0_3.pdf)

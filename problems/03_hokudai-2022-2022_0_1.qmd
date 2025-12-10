@@ -24,6 +24,3 @@ $k$を実数の定数とし，
 \item[(2)]$|k|<2$のとき，不等式$f(x)\geqq0$を解け。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2022/2022_0_1.pdf)

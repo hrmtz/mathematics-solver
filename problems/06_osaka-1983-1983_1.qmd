@@ -23,6 +23,3 @@ format:
 \item[(2)]$m<\sqrt{n}+\sqrt{n+1}<m+1$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1983/1983_1.pdf)

@@ -26,6 +26,3 @@ $xy$平面上の曲線$y=a(x-b)^2+c$を考える．
 (1)で求めた条件の下で$x_n$ $(n\geqq2)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2001/2001_0_1.pdf)

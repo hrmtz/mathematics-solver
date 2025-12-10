@@ -27,6 +27,3 @@ $\displaystyle f(x)\sin x=2\int_0^x\cos^2tdt$を満たし，
 \item[(3)]$f(x)$の$\displaystyle0<x<\frac{\pi}{2}$での増減状態を調べよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1977/1977_4.pdf)

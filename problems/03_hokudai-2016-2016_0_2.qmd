@@ -23,6 +23,3 @@ $\alpha$，$\beta$ $(\alpha<\beta)$の値も求めよ。
 定積分$\displaystyle\int_\alpha^\beta f(x)dx$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2016/2016_0_2.pdf)

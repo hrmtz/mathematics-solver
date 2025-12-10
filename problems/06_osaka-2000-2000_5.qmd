@@ -26,6 +26,3 @@ format:
 最大何個の辺が\underline{共通の点}を持つようにできるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_5.pdf)

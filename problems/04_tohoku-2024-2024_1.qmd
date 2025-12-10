@@ -27,6 +27,3 @@ $O$から$C$へ引いた接線の接点を$Q(q, \, f(q))$とする。ただし�
 \item[(3)](2)の$S$に対し，$\displaystyle S=\frac{2}{3}$となるときの$a$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2024/2024_1.pdf)

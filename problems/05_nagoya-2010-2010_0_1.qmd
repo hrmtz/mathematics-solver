@@ -29,6 +29,3 @@ $xy$平面上の長方形$ABCD$が次の条件(a)，(b)，(c)をみたしてい�
 $ab$平面上に図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2010/2010_0_1.pdf)

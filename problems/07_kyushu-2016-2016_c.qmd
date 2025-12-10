@@ -27,6 +27,3 @@ format:
 $\triangle ABC$の面積を2等分するときの$c$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2016/2016_c.pdf)

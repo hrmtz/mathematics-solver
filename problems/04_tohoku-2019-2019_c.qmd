@@ -28,6 +28,3 @@ $\overrightarrow{OA}$，$\overrightarrow{OB}$，$\overrightarrow{OC}$で表せ�
 $\cos\theta$のとりうる値の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_c.pdf)

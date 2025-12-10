@@ -19,6 +19,3 @@ format:
 点$(1, \, 0)$を通るものの方程式を求めよ．
 ただし$\displaystyle\cos^2\frac{\pi}{12}=\frac{2+\sqrt3}{4}$である．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1971/1971_2.pdf)

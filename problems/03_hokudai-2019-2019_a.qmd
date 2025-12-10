@@ -28,6 +28,3 @@ $\displaystyle\lim_{n\to\infty}{ \left( 1-\frac{2}{n} \right) }^n=e^{-2}$であ�
 値$p(k)$が最大となるような$k$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2019/2019_a.pdf)

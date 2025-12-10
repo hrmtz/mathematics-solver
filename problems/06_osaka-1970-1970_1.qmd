@@ -22,6 +22,3 @@ format:
 \[ \int_{\alpha}^{\beta}\frac{1}{\beta-\alpha}(x^2+x+a)dx \]
 を最小にする$a$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1970/1970_1.pdf)

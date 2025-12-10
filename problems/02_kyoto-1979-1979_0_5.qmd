@@ -18,6 +18,3 @@ format:
 
 $\displaystyle\frac{2^n}{n}>n$をみたす自然数$n$の範囲を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1979/1979_0_5.pdf)

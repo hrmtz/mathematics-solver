@@ -19,6 +19,3 @@ format:
 \[ \tan\alpha+\tan\beta+\tan\gamma=\tan\alpha\tan\beta\tan\gamma \]
 をみたすとき，$\alpha+\beta+\gamma$の値をすべて求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_0_1.pdf)

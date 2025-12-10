@@ -25,6 +25,3 @@ format:
  y \end{pmatrix} \in E \bigg| x\leqq0 , y\geqq0 \right\} \]
 平面の1次変換$f$で$E_1$を$E_2$に移すものをすべて求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1993/1993_0_4.pdf)

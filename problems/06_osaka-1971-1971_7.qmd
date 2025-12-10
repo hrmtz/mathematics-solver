@@ -31,6 +31,3 @@ $PA$，$PB$と曲線$C$とで囲まれた部分の面積$S$も一定であるこ
 また，$\displaystyle\frac{\beta}{\alpha}=3$のとき$S$はどんな値になるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1971/1971_7.pdf)

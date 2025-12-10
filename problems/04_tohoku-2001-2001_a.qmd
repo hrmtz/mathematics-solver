@@ -24,6 +24,3 @@ $a>1$とする．$xy$平面上の領域
 \cdots\cdots+\frac{1}{\sqrt{a_n}} \right) \]
 を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_a.pdf)

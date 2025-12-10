@@ -29,6 +29,3 @@ format:
 \item[(2)]$\{ a_n \}$，$\{ b_n \}$の一般項を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_0_b.pdf)

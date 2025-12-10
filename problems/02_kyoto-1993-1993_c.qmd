@@ -30,6 +30,3 @@ $\vec{a}$，$\vec{b}$，$\vec{c}$，$\vec{d}$で表せ．
 ただし，$|P_nQ|$は線分$P_nQ$の長さである．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1993/1993_c.pdf)

@@ -26,6 +26,3 @@ $\alpha=z+1$，$\beta=z-1$とおく．
 その最小値を与える$(m, \, n)$のすべてを決定せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2004/2004_0_2.pdf)

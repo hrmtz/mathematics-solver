@@ -27,6 +27,3 @@ $m \leqq 4a$かつ$m \leqq 4b$である．
 ${(a+b)}^2<ma$かつ${(a+b)}^2<mb$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2010/2010_d.pdf)

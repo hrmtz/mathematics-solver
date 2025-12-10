@@ -24,6 +24,3 @@ format:
 整数の組$(x, \, y)$の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2005/2005_0_1.pdf)

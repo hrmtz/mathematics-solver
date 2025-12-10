@@ -23,6 +23,3 @@ $\displaystyle P=\frac{\sin A+\sin B+\sin C}{\cos A+\cos B+\cos C}$とおく．
 \item[(2)]$A={60}^\circ$のとき，$B$，$C$が変動しても，$P$は(1)のときと同じ値をとることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1969/1969_1.pdf)

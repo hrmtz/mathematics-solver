@@ -24,6 +24,3 @@ $y$座標が2の$y$軸上の点を中心とする半径1の球との共通部分
 \displaystyle \pi \left( \frac{1}{3}t^3-\frac{3}{2}t^2+4t-\frac{3}{2} \right) & (1<t\leqq2) \end{cases} \]
 であるとき，関数$f(y)$ $(0 \leqq y \leqq 2)$を定めて，$A$の$xy$平面による断面の図形をえがけ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1975/1975_0_4.pdf)

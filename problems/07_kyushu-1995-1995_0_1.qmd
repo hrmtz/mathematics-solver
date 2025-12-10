@@ -26,6 +26,3 @@ format:
 \item[(2)]原点を中心とし半径1の円の1次変換$f$による像を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1995/1995_0_1.pdf)

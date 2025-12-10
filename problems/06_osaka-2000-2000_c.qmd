@@ -27,6 +27,3 @@ $a>0$とする．直線$l$が曲線
 ただし$\displaystyle\lim_{x\to\infty}\frac{\log x}{x}=0$は用いてよい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_c.pdf)

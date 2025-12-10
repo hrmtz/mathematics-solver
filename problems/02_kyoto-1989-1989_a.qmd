@@ -21,6 +21,3 @@ format:
 \item[(2)]$m$，$n$がともに平方数であることはない．(整数の2乗である数を平方数という．)
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_a.pdf)

@@ -19,6 +19,3 @@ $xy$平面上で，$y=x$のグラフと
 $y= \left| \displaystyle\frac{3}{4}x^2-3 \right| - 2$
 のグラフによって囲まれる図形の面積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2011/2011_3.pdf)

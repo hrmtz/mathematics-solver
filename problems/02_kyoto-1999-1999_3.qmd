@@ -25,6 +25,3 @@ $1 \leqq x_k \leqq n$ $(1 \leqq k \leqq n)$を満たしているとする．
 \[ \sum_{k=1}^n\frac{{x_k}^2}{k^2+1}>n-\frac{8}{5} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_3.pdf)

@@ -25,6 +25,3 @@ $p+q=t$とし，$\triangle CPQ$の面積を$S$とする。
 \item[(3)]$S$の最小値，およびそのときの$p$，$q$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2014/2014_2.pdf)

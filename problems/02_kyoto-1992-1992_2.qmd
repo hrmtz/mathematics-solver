@@ -24,6 +24,3 @@ $\theta$についての方程式$\sin3\theta=m\sin2\theta+n\sin\theta$が解を�
 そのときの解$\theta$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_2.pdf)

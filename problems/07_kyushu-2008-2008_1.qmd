@@ -25,6 +25,3 @@ $\displaystyle f(x)=\frac{e^x}{e^x+1}$とおく．
 \item[(3)]$\displaystyle\lim_{n\to\infty}n\left\{f^{-1}\left(\frac{1}{n+2}\right)-f^{-1}\left(\frac{1}{n+1}\right)\right\}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2008/2008_1.pdf)

@@ -33,6 +33,3 @@ $\displaystyle\frac{3}{4}\pi$となるような$s$の値を求めよ。
 $|\overrightarrow{p}-\overrightarrow{q}|$の最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2018/2018_1.pdf)

@@ -25,6 +25,3 @@ format:
 条件：$f(z)=0$をみたすすべての複素数$z$に対して$f(wz)=0$が成り立つ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2024/2024_2.pdf)

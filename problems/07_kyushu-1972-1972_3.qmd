@@ -29,6 +29,3 @@ $\displaystyle\frac{{|\overrightarrow{\alpha}|}^2}{l \, l'}$の値を求め，
 \item[(3)]$\overrightarrow{\alpha}$は点$P$における\ding{"AC}の接線と垂直であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1972/1972_3.pdf)

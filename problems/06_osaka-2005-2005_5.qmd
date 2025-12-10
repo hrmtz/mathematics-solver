@@ -39,6 +39,3 @@ $n$を正の整数，$a$を正の実数とする．
 \item[(4)]極限値$\displaystyle\lim_{n\to\infty}\frac{S_2}{S_1}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2005/2005_5.pdf)

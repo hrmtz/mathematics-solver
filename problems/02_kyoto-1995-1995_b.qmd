@@ -33,6 +33,3 @@ $\displaystyle\alpha_{n+2}=\frac{3}{4}\pi-\frac{1}{8}\alpha_{n-1}$であるこ�
 \item[(3)]$\alpha_{3n}$を$\alpha_0$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1995/1995_b.pdf)

@@ -35,6 +35,3 @@ $\alpha^7=1$を示せ。
 $\sin\theta+\sin2\theta+\sin4\theta$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2012/2012_e.pdf)

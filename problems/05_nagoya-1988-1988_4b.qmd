@@ -31,6 +31,3 @@ $2n$回（偶数回）の試行後，球が4番の箱に入っている確率を
 \item[(3)]$\displaystyle \lim_{n\to\infty}p_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1988/1988_4b.pdf)

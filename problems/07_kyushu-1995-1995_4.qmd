@@ -23,6 +23,3 @@ format:
 \item[(3)]上に求めた関数$f(x)$の最大値およびそのときの$x$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1995/1995_4.pdf)

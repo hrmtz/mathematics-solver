@@ -26,6 +26,3 @@ $P$を$A$から$B$まで動かすとき，
 \item[(2)]立体$D$の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1990/1990_0_3.pdf)

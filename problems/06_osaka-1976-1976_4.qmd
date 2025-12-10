@@ -23,6 +23,3 @@ $\displaystyle\frac{\pi}{2}$より小さくて
 $\displaystyle\frac{\pi}{2}$に一番近いものを$a_n$とするとき
 $\displaystyle\lim_{n\to\infty}n \left( \frac{\pi}{2}-a_n \right)$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1976/1976_4.pdf)

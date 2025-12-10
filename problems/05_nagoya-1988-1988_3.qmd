@@ -28,6 +28,3 @@ $\displaystyle \angle AOP<\frac{\pi}{2}$であって，
 点$(p, \, q)$の存在範囲を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1988/1988_3.pdf)

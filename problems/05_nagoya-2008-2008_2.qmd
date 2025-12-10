@@ -25,6 +25,3 @@ format:
 ただし，$t$が正の範囲で0に限りなく近づくとき，$t\to+0$と表す．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2008/2008_2.pdf)

@@ -29,6 +29,3 @@ $b\neq0$または$c\neq0$のとき，
 $A\overrightarrow{u}=k\overrightarrow{u}$を満たす実数$k$と単位ベクトル$\overrightarrow{u}$の組をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1982/1982_2.pdf)

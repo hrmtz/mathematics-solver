@@ -26,6 +26,3 @@ format:
 \item[(3)]$\displaystyle\sum_{n=1}^{225}\frac{1}{a_n}$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2025/2025_0_3.pdf)

@@ -26,6 +26,3 @@ $P_1=f(P), \, P_{n+1}=f(P_n) \, (n=1, \, 2, \, 3, \, \cdots)$とする．
 \[ x<0, \hspace{1zw} y<0, \hspace{1zw} \sqrt3x+y\leqq-2^{-k} \]
 このとき$D_k$に含まれる$P_n$の個数を$k$で表せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2009/2009_2.pdf)

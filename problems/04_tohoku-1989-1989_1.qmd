@@ -28,6 +28,3 @@ $\overrightarrow{OQ}=s\overrightarrow{a}=t\overrightarrow{b}$とおく．
 直線$PQ$が円$C$と交わるための$s$，$t$の満たすべき条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1989/1989_1.pdf)

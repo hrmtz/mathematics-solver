@@ -25,6 +25,3 @@ format:
 \item[(2)]$a=5e^{2t}+e^{-t}$，$b=e^{2t}+e^{-t}$として実数$t$を変化させるときの$S$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1995/1995_6.pdf)

@@ -26,6 +26,3 @@ $-\pi \leqq x \leqq \pi$のとき，無限級数
 \item[(3)]$f(x)$の増減を調べ，$y=f(x)$のグラフをかけ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1976/1976_4.pdf)

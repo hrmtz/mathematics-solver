@@ -23,6 +23,3 @@ $r$を0でない実数とする．
 \item[(2)]$b_1=r$，$b_n=a_n+b_{n-1}$ $(n\geqq2)$を満たす数列$\{b_n\}$の第$n$項を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1992/1992_0_3.pdf)

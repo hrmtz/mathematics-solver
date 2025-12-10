@@ -28,6 +28,3 @@ $\overrightarrow{AH}$を$\overrightarrow{CA}$，$\overrightarrow{CB}$，$\overri
 \item[(3)]$H$が図－2における$\triangle BCD$の重心となるときの角度$\alpha$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2006/2006_2.pdf)

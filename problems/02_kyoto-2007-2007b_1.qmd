@@ -23,6 +23,3 @@ format:
 15段の階段を昇る昇り方は何通りあるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2007/2007b_1.pdf)

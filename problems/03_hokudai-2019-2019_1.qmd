@@ -24,6 +24,3 @@ $P(p, \, -1, \, 2)$があり，3点$O$，$A$，$B$が定める平面を$\alpha$�
 \item[(2)]点$Q$が$\triangle OAB$の周または内部にあるような$p$の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2019/2019_1.pdf)

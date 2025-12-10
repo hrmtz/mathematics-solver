@@ -20,6 +20,3 @@ format:
 $\angle AOB={90}^\circ$，$\angle BOC={30}^\circ$，$OA=BC=1$であるとき，
 線分$AB$の長さを求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1966/1966_2.pdf)

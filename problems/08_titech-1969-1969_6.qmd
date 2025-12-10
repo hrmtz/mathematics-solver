@@ -18,6 +18,3 @@ format:
 
 $0<x<y$のとき，$x^2e^\frac{y}{x}$，$y^2e^\frac{x}{y}$の大小関係を調べよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1969/1969_6.pdf)

@@ -23,6 +23,3 @@ $z$を複素数とし，$i$を虚数単位とする．
 $\displaystyle w=\frac{z+i}{z-i}$の描く図形を複素数平面上に図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2003/2003_2.pdf)

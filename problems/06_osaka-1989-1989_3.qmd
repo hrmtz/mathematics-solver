@@ -25,6 +25,3 @@ format:
 　このとき，長方形$ADEF$の面積の最大値を$\theta$，$b$，$c$を用いて表せ．
 ただし$\theta=\angle BAC$，$b=CA$，$c=AB$である．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1989/1989_3.pdf)

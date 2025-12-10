@@ -22,6 +22,3 @@ format:
 ただし$|\overrightarrow{a}+\overrightarrow{b}|$はベクトル$\overrightarrow{a}+\overrightarrow{b}$の大きさ，
 $\overrightarrow{a}\cdot\overrightarrow{b}$はベクトル$\overrightarrow{a}$と$\overrightarrow{b}$の内積を表す．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_2.pdf)

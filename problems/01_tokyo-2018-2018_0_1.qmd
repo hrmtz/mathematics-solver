@@ -30,6 +30,3 @@ $\sqrt{L}+\sqrt{M}$が最小値をとるときの点$A$の座標を求めよ。
 不等式$px+qy\leqq0$がなりたつ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2018/2018_0_1.pdf)

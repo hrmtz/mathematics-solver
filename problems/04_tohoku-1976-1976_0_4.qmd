@@ -25,6 +25,3 @@ $a$の関数として表し，そのグラフをかけ．
 ただし，$\displaystyle a<\frac{1}{2}$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1976/1976_0_4.pdf)

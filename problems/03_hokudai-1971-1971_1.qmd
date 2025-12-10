@@ -26,6 +26,3 @@ format:
 $a$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1971/1971_1.pdf)

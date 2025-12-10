@@ -23,6 +23,3 @@ format:
 線分$PQ$，$PR$と放物線$y=x^2$で囲まれた領域の面積$S(t)$を$t$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2013/2013_0_4.pdf)

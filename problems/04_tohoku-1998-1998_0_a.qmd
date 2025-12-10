@@ -28,6 +28,3 @@ $\overrightarrow{OC}$の大きさは$l$である．
 \item[(2)]$l=1$が成り立つときの$\overrightarrow{OC}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_0_a.pdf)

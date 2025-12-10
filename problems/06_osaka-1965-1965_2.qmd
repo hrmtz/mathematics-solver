@@ -18,6 +18,3 @@ format:
 実数$x$，$y$が$|x-y|<k$を満たしているとき，
 $\displaystyle\left|\frac{1}{x^2+1}-\frac{1}{y^2-1}\right|<k$が成り立つことを示せ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1965/1965_2.pdf)

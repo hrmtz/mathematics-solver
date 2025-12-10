@@ -26,6 +26,3 @@ $x$に関する2次方程式$x^2-4x\sin\theta+2\tan\theta=0$
 \item[(2)]3角形$OPQ$が直角3角形になるように$\theta$の値を定めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1972/1972_3.pdf)

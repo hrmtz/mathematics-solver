@@ -22,6 +22,3 @@ format:
 \item[(ii)]周囲の長さが一定な四辺形のうち，面積最大のものは正方形であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1977/1977_5.pdf)

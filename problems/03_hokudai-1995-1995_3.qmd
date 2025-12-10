@@ -21,6 +21,3 @@ $f(x)=0$となる$x$は$0 \leqq x \leqq \pi$の範囲にはちょうど2個存�
 1個は区間$\displaystyle\left[ 0, \, \frac{\pi}{2} \right]$に，
 1個は区間$\displaystyle\left[ \frac{\pi}{2}, \, \pi \right]$にあることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1995/1995_3.pdf)

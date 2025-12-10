@@ -28,6 +28,3 @@ $n=0, \, 1, \, 2, \, \cdots\cdots$に対して，
 $\displaystyle\lim_{n\to\infty}|z_n|=0$となる$E$の範囲を$\alpha$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2000/2000_b.pdf)

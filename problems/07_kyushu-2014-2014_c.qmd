@@ -24,6 +24,3 @@ $a$を正の定数，関数$f(x)$，$g(x)$をそれぞれ$f(x)=xe^x$，$g(x)=ax$
 $h(a)$を最小にする$a$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2014/2014_c.pdf)

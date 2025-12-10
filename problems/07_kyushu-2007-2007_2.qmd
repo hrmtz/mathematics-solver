@@ -39,6 +39,3 @@ $\Delta_n=a_nd_n-b_nc_n$とおくとき，
 $\displaystyle\lim_{n\to\infty}\Delta_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_2.pdf)

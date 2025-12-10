@@ -30,6 +30,3 @@ format:
 またそこへ至るまでの反射の回数を$k$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1997/1997_4.pdf)

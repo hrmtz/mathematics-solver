@@ -31,6 +31,3 @@ e-\left( 1+\frac{1}{1 \, !}+\frac{1}{2 \, !}+\cdots\cdots+\frac{1}{n \, !} \righ
 \item[(4)]いかなる自然数$n$に対しても，$n \, ! \, e$は整数とならないことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1997/1997_b.pdf)

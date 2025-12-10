@@ -23,6 +23,3 @@ $\displaystyle g(x)=\int_0^x(x-t)f(t)dt$とおく．
 \[ g(x+y)+g(x-y) \geqq 2g(x) \]
 が成り立つことを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1995/1995_2.pdf)

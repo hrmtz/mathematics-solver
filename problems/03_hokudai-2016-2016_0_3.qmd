@@ -27,6 +27,3 @@ $\triangle ABC$が鋭角三角形であるとき，
 $\overrightarrow{OC}=s\overrightarrow{OA}+t\overrightarrow{OB}$をみたす実数$s, \, t$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2016/2016_0_3.pdf)

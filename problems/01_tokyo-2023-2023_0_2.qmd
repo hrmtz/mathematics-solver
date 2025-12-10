@@ -27,6 +27,3 @@ format:
 $g(a)-f(a)$の最大値および最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2023/2023_0_2.pdf)

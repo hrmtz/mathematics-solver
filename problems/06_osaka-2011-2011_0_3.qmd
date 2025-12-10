@@ -40,6 +40,3 @@ $\overrightarrow{p}=\overrightarrow{v}$が条件（＊）をみたす．
 このような実数の組$(a, \, b, \, c)$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2011/2011_0_3.pdf)

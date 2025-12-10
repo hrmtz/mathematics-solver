@@ -22,6 +22,3 @@ format:
 \item[(2)](1)の接線と曲線\ding{"AC}の2つの接線の間の部分とで囲まれる部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1967/1967_0_6.pdf)

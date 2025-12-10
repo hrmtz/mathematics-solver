@@ -24,6 +24,3 @@ $\displaystyle\frac{\sin x}{\sin y}=a$，$\displaystyle\frac{\cos x}{\cos y}=b$�
 \item[(2)]点$(a, \, b)$の存在する範囲を$ab$平面に図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_4.pdf)

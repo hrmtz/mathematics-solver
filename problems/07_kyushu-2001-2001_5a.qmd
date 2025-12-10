@@ -29,6 +29,3 @@ format:
 $L_2-L_1$を$\theta(a)$と$\theta(b)$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_5a.pdf)

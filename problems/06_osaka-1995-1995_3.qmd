@@ -26,6 +26,3 @@ format:
 \item[(2)]$\displaystyle\frac{S(a)}{a^2}$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1995/1995_3.pdf)

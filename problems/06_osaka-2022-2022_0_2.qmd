@@ -27,6 +27,3 @@ $X_1, \, X_2, \, \cdots\cdots, \, X_n$の
 \item[(3)]$G_n$が素数でない確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2022/2022_0_2.pdf)

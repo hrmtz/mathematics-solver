@@ -27,6 +27,3 @@ $x=\sin t-t\cos t$，$y=\cos t+t\sin t$ $(0 \leqq t \leqq \pi)$で与えられ�
 \item[(4)]曲線$C$と$y$軸および直線$y=-1$で囲まれる図形の面積$S$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_3.pdf)

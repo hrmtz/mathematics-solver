@@ -26,6 +26,3 @@ $xy$平面上の放物線$A:y=x^2$，$B:y=-{(x-a)}^2+b$は
 線分$PQ$の中点の$y$座標の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2003/2003_1.pdf)

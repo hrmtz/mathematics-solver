@@ -24,6 +24,3 @@ format:
 \item[(ii)]$(a_1+b_1)(a_2+b_2)(a_3+b_3)=100$となる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_4.pdf)

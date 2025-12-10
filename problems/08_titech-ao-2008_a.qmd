@@ -26,6 +26,3 @@ $xyz-$空間上の3点$A$，$B$，$C$は次の条件(i)，(ii)，(iii)をみた�
 (i)，(ii)，(iii)を満たす$A$，$B$，$C$と原点$O$が作る4面体$OABC$のうち体積が最大のものの体積を$V(\alpha)$とする．
 このとき極限値$\displaystyle\lim_{\alpha\to0}\alpha V(\alpha)$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/ao/2008_a.pdf)

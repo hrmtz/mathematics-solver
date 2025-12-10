@@ -24,6 +24,3 @@ $a$，$b$，$c$を実数とし，$A=\begin{pmatrix} a & b
 $A^2=A$であるとき，$A-tE$が逆行列をもたないような$t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1976/1976_6.pdf)

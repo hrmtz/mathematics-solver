@@ -41,6 +41,3 @@ $B$には，$B$全体の$\displaystyle\frac{1}{9}$，$C$には，$C$全体の$\d
 
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1986/1986_6.pdf)

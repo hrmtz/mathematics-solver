@@ -31,6 +31,3 @@ $S$の最小値$T$を$V$と$a$で表せ．
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_4.pdf)

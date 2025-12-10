@@ -23,6 +23,3 @@ format:
 点$P$が$C$上を$A$から$B$まで動くとき，$P$と$l$との距離の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1988/1988_0_2.pdf)

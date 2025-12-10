@@ -37,6 +37,3 @@ $z=-(y+2)$であったから，$\displaystyle z=\frac{-7\mp\sqrt5}{2}$
 $\displaystyle z=\frac{-7\mp\sqrt5}{2}$(複号同順)も解である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1963/1963_3.pdf)

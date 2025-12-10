@@ -26,6 +26,3 @@ $k$を実数とし，$x\geqq0$に対して$f(x)=xe^{-x}$，$g(x)=kx$と定める
 積分$\displaystyle\int_0^2|f(x)-g(x)|dx$の値が最小となる$k$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2011/2011_c.pdf)

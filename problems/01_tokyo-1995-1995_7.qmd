@@ -32,6 +32,3 @@ R_n=\sum_{k=0}^n{}_nC_{3k+2} \]
 
 ![](../archive/01_tokyo/1995/fig_1995_7.jpg)
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1995/1995_7.pdf)

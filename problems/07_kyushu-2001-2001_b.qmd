@@ -24,6 +24,3 @@ format:
 \[ \sum_{i=1}^n\frac{1}{x_i}\geqq\frac{n^2}{\displaystyle\sum_{i=1}^nx_i} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_b.pdf)

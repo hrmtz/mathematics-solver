@@ -28,6 +28,3 @@ $xy$平面の直線$l:y=ax$と曲線
 \item[(3)]$S(a)$の最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_0_3.pdf)

@@ -33,6 +33,3 @@ $A^5=\begin{pmatrix} 1 & 0
  0 & 1 \end{pmatrix}$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1985/1985_2.pdf)

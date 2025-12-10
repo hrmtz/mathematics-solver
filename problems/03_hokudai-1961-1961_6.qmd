@@ -26,6 +26,3 @@ format:
 \item[(3)]注水し始めてから3時間たったときの水面の上昇速度を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1961/1961_6.pdf)

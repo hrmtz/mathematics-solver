@@ -30,6 +30,3 @@ format:
 移すものを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_0_a.pdf)

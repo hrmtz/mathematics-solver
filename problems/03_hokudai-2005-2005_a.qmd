@@ -29,6 +29,3 @@ $\displaystyle\frac{f(m)}{m^2-m-1}$がつねに整数となるための
 必要十分条件を$a$，$b$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2005/2005_a.pdf)

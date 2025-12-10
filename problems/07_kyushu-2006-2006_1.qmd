@@ -26,6 +26,3 @@ $1<\alpha_n<e^\frac{1}{n}$，$ne<\beta_n$が成り立つことを示せ．
 また，$\displaystyle\lim_{n\to\infty}\alpha_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2006/2006_1.pdf)

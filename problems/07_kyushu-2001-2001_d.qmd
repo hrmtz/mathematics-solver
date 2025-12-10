@@ -29,6 +29,3 @@ $T=i$となる確率$P(T=i)$を求めよ．
 極限値$\displaystyle\lim_{n\to\infty}P(T=i)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_d.pdf)

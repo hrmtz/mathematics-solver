@@ -27,6 +27,3 @@ format:
 このとき，サイコロを投げる回数の期待値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2004/2004_a.pdf)

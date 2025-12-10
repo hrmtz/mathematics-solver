@@ -26,6 +26,3 @@ $k>0$を実数とする。
 　$S(k)$および$\displaystyle\lim_{k\to+0}S(k)$，
 $\displaystyle\lim_{k\to\infty}S(k)$を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2018/2018_3.pdf)

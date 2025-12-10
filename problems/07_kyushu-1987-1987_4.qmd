@@ -24,6 +24,3 @@ $J_n$を$I_n$で表せ．
 \item[(3)]$J_6$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1987/1987_4.pdf)

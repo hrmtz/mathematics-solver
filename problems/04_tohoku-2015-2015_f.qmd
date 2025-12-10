@@ -30,6 +30,3 @@ J_n=\int_0^1\log{\left( \sqrt{1+x^n}+1 \right)}dx \]
 \item[(4)]極限値$\displaystyle\lim_{n\to\infty}n(1-I_n)$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2015/2015_f.pdf)

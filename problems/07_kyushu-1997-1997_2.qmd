@@ -27,6 +27,3 @@ $x\geqq0$において関数$u(x)$，$v(x)$，$f(x)$，$g(x)$を
 \item[(3)]$f(x)=x$を満たす$x$の値を$a$とするとき，$f(x)$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_2.pdf)

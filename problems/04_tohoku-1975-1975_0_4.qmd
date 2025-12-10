@@ -38,6 +38,3 @@ $BC=a$，$AD=b$とするとき，この3つの放物線弧で囲まれた全体�
 
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1975/1975_0_4.pdf)

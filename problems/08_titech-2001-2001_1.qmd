@@ -21,6 +21,3 @@ $a>0$，$t>0$に対して定積分$\displaystyle S(a,t)=\int_0^a \left| e^{-x}-\
 \item[(2)]$\displaystyle\lim_{a \to 0}\frac{m(a)}{a^2}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2001/2001_1.pdf)

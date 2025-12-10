@@ -29,6 +29,3 @@ J(a, \, b, \, c)=\int_0^\frac{\pi}{2}e^{ax}\sin bx\sin cx \, dx　\]
 \cos 3tx \cos 4tx \, dx \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2017/2017_6.pdf)

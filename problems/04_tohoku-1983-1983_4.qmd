@@ -25,6 +25,3 @@ $C_1$に1，$C_2$に$2$，$\cdots\cdots$，$C_n$に$n$と記入してある．
 \item[(2)]$X$の期待値と$Y$の期待値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1983/1983_4.pdf)

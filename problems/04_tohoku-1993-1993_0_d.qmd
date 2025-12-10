@@ -19,6 +19,3 @@ format:
 関数$\displaystyle f(x)=\int_x^{x+1}3t^2(t+1)(t-1)dt$の極大値，極小値をしらべ，
 $y=f(x)$のグラフの概形をかけ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_0_d.pdf)

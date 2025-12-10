@@ -24,6 +24,3 @@ $n=1,2,\cdots\cdots$に対し
 \item[(2)]$I_3$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1992/1992_5.pdf)

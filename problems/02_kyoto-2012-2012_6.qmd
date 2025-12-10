@@ -22,6 +22,3 @@ format:
 \[ \frac{1+\sqrt3}{2} \leqq Y_n \leqq 1+\sqrt3 \]
 となる確率$p_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2012/2012_6.pdf)

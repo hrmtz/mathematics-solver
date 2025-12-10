@@ -23,6 +23,3 @@ format:
 \item[(2)]$l$のまわりに$B$を1回転してできる立体の体積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2014/2014_1.pdf)

@@ -39,6 +39,3 @@ $P_3$を求めよ。
 \item[(4)]自然数$N$に対して$P_{3N}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2016/2016_0_3.pdf)

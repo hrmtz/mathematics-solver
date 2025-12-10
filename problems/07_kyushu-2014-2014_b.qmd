@@ -31,6 +31,3 @@ format:
 袋の中身が3個とも赤玉である確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2014/2014_b.pdf)

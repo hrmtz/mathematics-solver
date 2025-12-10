@@ -27,6 +27,3 @@ format:
 この図形を直線$y=f(x)$の周りに1回転してできる回転体の体積$V$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2018/2018_e.pdf)

@@ -28,6 +28,3 @@ $C$の半径$r$を用いて表せ．
 ただし，$\displaystyle\lim_{h\to0}\frac{\log(1+h)}{h}=1$を用いてよい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1981/1981_4.pdf)

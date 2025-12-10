@@ -26,6 +26,3 @@ $p$，$q$は実数で$p>0$とし，$f(x)=x^3-3p^2x+q$とおく．
 $p$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_0_1.pdf)

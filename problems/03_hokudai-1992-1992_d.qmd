@@ -20,6 +20,3 @@ $e^e$に最も近い整数を求めよ．
 必要ならば次の近似値を用いよ．
 \[ e=2.718, \hspace{1zw} \log_e2=0.693, \hspace{1zw} \log_e3=1.099, \hspace{1zw} \log_e5=1.609 \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1992/1992_d.pdf)

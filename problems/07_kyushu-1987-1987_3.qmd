@@ -27,6 +27,3 @@ $\displaystyle 0 \leqq x \leqq \frac{s}{t}y$を満たす$C$の内部を$D$とす
 (1)で求めた体積と等しくなる$s$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1987/1987_3.pdf)

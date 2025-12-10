@@ -22,6 +22,3 @@ format:
 正3角形$OPQ$をつくるとき，頂点$Q$の軌跡の極方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1972/1972_4.pdf)

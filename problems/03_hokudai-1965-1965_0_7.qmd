@@ -25,6 +25,3 @@ format:
 \item[(2)]点$P$が点$A_n$に達するまでの平均の速さを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1965/1965_0_7.pdf)

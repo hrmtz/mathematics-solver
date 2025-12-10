@@ -25,6 +25,3 @@ $\triangle OA_tB_t$の重心を$G_t$とする．ただし，$a$，$t$は正の�
 またその最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1977/1977_0_4.pdf)

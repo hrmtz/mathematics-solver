@@ -25,6 +25,3 @@ format:
 \item[(2)]この図形が囲む領域の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1998/1998_da.pdf)

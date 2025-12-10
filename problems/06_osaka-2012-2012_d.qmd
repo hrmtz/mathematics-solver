@@ -31,6 +31,3 @@ $\displaystyle\lim_{n\to\infty}b_n$を求めよ．
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2012/2012_d.pdf)

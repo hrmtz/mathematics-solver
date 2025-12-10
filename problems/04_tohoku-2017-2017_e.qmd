@@ -25,6 +25,3 @@ $n$を用いて表せ。
 $n$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2017/2017_e.pdf)

@@ -48,6 +48,3 @@ $\gamma$を最大にする$\overrightarrow{OP}$を求めよ．
 ただし，$0<u<1$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1983/1983_3.pdf)

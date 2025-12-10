@@ -28,6 +28,3 @@ $x>0$において$-x\log x \leqq p$が成り立つことを示せ．
 このとき$\displaystyle\lim_{b\to0}S(b)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_c.pdf)

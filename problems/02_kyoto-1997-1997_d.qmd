@@ -27,6 +27,3 @@ $|a|\leqq1$，$|b|\leqq1$，$|c|\leqq1$であることを示せ．
 \item[(2)](＊)は全部で8組の相異なる実数解をもつことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1997/1997_d.pdf)

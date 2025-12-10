@@ -24,6 +24,3 @@ $t$を実数の定数とする．
 \item[(2)]$\displaystyle\int_{-1}^1f(t)dt$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1973/1973_0_4.pdf)

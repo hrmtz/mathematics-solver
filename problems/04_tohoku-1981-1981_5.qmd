@@ -29,6 +29,3 @@ $\displaystyle M=\left\{\left. \begin{pmatrix} a & -b
  1 & 0 \end{pmatrix}$を満たす$M$の行列$X$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1981/1981_5.pdf)

@@ -25,6 +25,3 @@ format:
 \item[(3)]合成変換$f \circ g$が$h$になるように$c$の値を定めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2013/2013_2.pdf)

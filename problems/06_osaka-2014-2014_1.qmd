@@ -23,6 +23,3 @@ format:
 \[ s\overrightarrow{OA}+t\overrightarrow{OB}=\overrightarrow{OC} \]
 を満たすものが存在するための，$a$，$b$，$c$，$d$，$e$についての必要十分条件を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2014/2014_1.pdf)

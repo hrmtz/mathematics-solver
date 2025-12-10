@@ -24,6 +24,3 @@ $z=\alpha^2+\beta^2+\gamma^2$とおく．
 \item[(2)]$\alpha^4+\beta^4+\gamma^4$を$z$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2009/2009_a.pdf)

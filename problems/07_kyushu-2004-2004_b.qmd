@@ -35,6 +35,3 @@ $O$から$B$まで移動している．ただし，領域$D$内では一定の�
 $\displaystyle\frac{u}{v}$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2004/2004_b.pdf)

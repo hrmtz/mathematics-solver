@@ -24,6 +24,3 @@ $\displaystyle\frac{2}{x}+\frac{1}{y}=\frac{1}{p}$をみたす組$(x, \, y)$の�
 $2x+3y$を最小にする$(x, \, y)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2009/2009_4b.pdf)

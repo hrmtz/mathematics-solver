@@ -24,6 +24,3 @@ format:
 \item[(2)]$z\geqq0$のとき，$xyz$が最大となる$z$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2017/2017_0_2.pdf)

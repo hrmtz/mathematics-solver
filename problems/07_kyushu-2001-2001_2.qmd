@@ -24,6 +24,3 @@ format:
 \item[(4)]$G$は原点を通るどんな直線に関しても線対称でないことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_2.pdf)

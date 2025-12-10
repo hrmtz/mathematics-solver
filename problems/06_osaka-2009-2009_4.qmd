@@ -27,6 +27,3 @@ $\displaystyle\overrightarrow{b}=\frac{\overrightarrow{OB}}{|\overrightarrow{OB}
 であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2009/2009_4.pdf)

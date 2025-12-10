@@ -24,6 +24,3 @@ format:
 である．
 このとき，${AS}^2-{AS'}^2$を$\sin\alpha$，$\sin\beta$および$a, \, b, \, c, \, d$を用いて表せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1998/1998_4.pdf)

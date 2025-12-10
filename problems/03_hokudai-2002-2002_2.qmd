@@ -22,6 +22,3 @@ format:
 ちょうど2種類の数字から成り立っているものの個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2002/2002_2.pdf)

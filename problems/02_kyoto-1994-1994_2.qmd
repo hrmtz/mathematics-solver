@@ -26,6 +26,3 @@ $a_n$を3で割った余りを$b_n$とし，$c_n=b_0+\cdots+b_n$とおく．
 \item[(3)]$\displaystyle n+1 \leqq c_n \leqq \frac{3}{2}(n+1)$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_2.pdf)

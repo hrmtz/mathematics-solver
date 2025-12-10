@@ -23,6 +23,3 @@ $\displaystyle a=\sin^2\frac{\pi}{5}$，$\displaystyle b=\sin^2\frac{2\pi}{5}$�
 \item[(2)]任意の自然数$n$に対し$(a^{-n}+b^{-n}){(a+b)}^n$は整数である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1994/1994_2.pdf)

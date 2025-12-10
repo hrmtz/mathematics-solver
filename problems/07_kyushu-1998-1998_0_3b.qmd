@@ -34,6 +34,3 @@ format:
 このとき台全体の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_0_3b.pdf)

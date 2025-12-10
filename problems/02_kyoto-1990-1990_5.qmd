@@ -30,6 +30,3 @@ $X=i$かつ$Y=j$となる確率$P$ $(X=i,Y=j)$との間に，次の等式(＊)�
 \item[(＊)]$P(X=i,Y=j)=P(X=i)P(Y=j)$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1990/1990_5.pdf)

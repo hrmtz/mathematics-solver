@@ -29,6 +29,3 @@ format:
 \item[(3)]3回目の操作で，$C$が赤玉を取り出す確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2011/2011_3.pdf)

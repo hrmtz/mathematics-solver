@@ -24,6 +24,3 @@ $\displaystyle P(X=n)=\frac{a}{n^3-n}$とするとき，次の(1)，(2)，(3)に
 \item[(3)]$Y=4X-\log k$とするとき，確率変数$Y$の期待値を最大にするような$k$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1982/1982_4.pdf)

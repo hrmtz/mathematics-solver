@@ -24,6 +24,3 @@ format:
 ただし，$O$は原点である。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2025/2025_1.pdf)

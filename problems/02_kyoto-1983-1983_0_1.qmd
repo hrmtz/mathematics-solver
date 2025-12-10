@@ -25,6 +25,3 @@ format:
 \item[(2)]$p_n$ $(n\geqq3)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1983/1983_0_1.pdf)

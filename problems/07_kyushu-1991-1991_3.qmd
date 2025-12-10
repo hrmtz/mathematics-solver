@@ -24,6 +24,3 @@ format:
 2つの曲線$y=f(x)$と$y=g(x)$で囲まれる部分の面積を$c$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1991/1991_3.pdf)

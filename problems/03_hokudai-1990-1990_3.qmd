@@ -26,6 +26,3 @@ format:
 $S(a)-3a$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1990/1990_3.pdf)

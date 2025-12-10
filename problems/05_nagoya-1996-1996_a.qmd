@@ -30,6 +30,3 @@ format:
 \item[(3)]$N\to\infty$のときの長さ$L_N$の極限値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1996/1996_a.pdf)

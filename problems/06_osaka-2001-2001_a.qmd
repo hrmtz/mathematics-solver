@@ -32,6 +32,3 @@ $P$がたどりうる経路の総数を$a_n$とおく．
 \item[(4)]$\displaystyle\lim_{n\to\infty}\frac{a_n}{b_n}$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2001/2001_a.pdf)

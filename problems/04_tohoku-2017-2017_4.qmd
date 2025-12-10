@@ -26,6 +26,3 @@ $\alpha$と$\beta$を求めよ。
 $FG$の長さが最大となるときの$s$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2017/2017_4.pdf)

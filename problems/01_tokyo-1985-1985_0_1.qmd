@@ -30,6 +30,3 @@ $I=\begin{pmatrix} 1 & 0
 \item[(2)]$\triangle PQR$の面積を$a$，$b$，$x$，$y$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1985/1985_0_1.pdf)

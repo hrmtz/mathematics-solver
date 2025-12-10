@@ -25,6 +25,3 @@ format:
 ただし$\displaystyle 0<t<\frac{10}{v}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1974/1974_2.pdf)

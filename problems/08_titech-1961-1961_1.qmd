@@ -21,6 +21,3 @@ $p\cos ax+q\cos bx=1$が2つの$x$の値，$u$，$v$に対して成り立てば
 $a=b=0$であることを証明せよ。
 ただし$\displaystyle\frac{v}{u}$は無理数とする。
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1961/1961_1.pdf)

@@ -24,6 +24,3 @@ format:
 \[ \int_0^\frac{\pi}{4}\frac{\tan^4x-\tan^2x-2}{\tan^2x-4}dx \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2025/2025_2.pdf)

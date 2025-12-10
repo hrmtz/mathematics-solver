@@ -29,6 +29,3 @@ format:
 これらの4点はある直線に関して対称な四角形の頂点となることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_f.pdf)

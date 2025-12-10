@@ -38,6 +38,3 @@ Y(\theta_0)=\lim_{\theta\to\theta_0}Y(\theta, \, \theta_0) \]
 \item[(4)]曲線$C$の長さを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_d.pdf)

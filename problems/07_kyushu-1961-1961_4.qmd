@@ -28,6 +28,3 @@ format:
 不等式$S\geqq4r^2$が成り立つことを証明せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1961/1961_4.pdf)

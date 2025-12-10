@@ -24,6 +24,3 @@ $xy$平面上の2点$P(a, \, f(a))$，$Q(a+h, \, f(a+h))$を結ぶ線分を$x$�
 \item[(2)]$\displaystyle\lim_{n\to+0}\frac{S(h)}{h}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_b.pdf)

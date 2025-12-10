@@ -29,6 +29,3 @@ $\displaystyle\frac{\beta_{n+1}}{\beta_n}$を求めよ．
 \item[(2)]$\alpha_n$，$\beta_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1967/1967_3.pdf)

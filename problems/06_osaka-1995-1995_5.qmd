@@ -35,6 +35,3 @@ $O$から$A_n$のどの点へも通信できない確率を$p_n$とする．
 $\displaystyle\lim_{n\to\infty}p_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1995/1995_5.pdf)

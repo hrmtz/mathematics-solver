@@ -27,6 +27,3 @@ $\displaystyle I_n=\frac{{(-1)^n}}{n \, !}\int_0^2x^ne^xdx$とおく．
 \item[(3)]極限$\displaystyle\lim_{n\to\infty}\sum_{k=0}^n\frac{{(-1)}^k2^k}{k \, !}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2004/2004_1.pdf)

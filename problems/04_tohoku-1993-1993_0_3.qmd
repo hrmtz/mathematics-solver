@@ -28,6 +28,3 @@ a_n=\frac{{(n-1)}^3{(n-2)}^3{(n-3)}^3\cdots\cdots{(2-1)}^3}
 \item[(3)](2)から$\displaystyle\frac{S_n}{a_n}$が$n$のどのような式になるかを予想し，その式を証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_0_3.pdf)

@@ -35,6 +35,3 @@ $\angle A=\alpha$および$\displaystyle \angle P=\frac{\pi}{2}$を満たす直�
 により定まる領域をDとする．このとき，点Pは領域Dには入らないことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2022/2022_3.pdf)

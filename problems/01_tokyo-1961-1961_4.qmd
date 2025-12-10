@@ -25,6 +25,3 @@ $\triangle PQR$の面積と$\triangle ABC$の面積との比を求めよ．
 
 ![](../archive/01_tokyo/1961/fig_1961_4.jpg)
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1961/1961_4.pdf)

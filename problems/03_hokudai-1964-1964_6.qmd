@@ -28,6 +28,3 @@ $t$秒後$(t\geqq0)$の点$P$の座標$x$，$y$は，
 $t$に関する変化率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_6.pdf)

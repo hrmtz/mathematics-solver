@@ -28,6 +28,3 @@ format:
 $\angle POQ$が最小となるように$f$を選んだとき，$\cos\angle POQ$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1995/1995_1.pdf)

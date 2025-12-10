@@ -38,6 +38,3 @@ $\alpha$ $\displaystyle \left( 0<\alpha<\frac{\pi}{2} \right)$を用いてよい
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2023/2023_6.pdf)

@@ -24,6 +24,3 @@ format:
 \item[(2)]原点$O$を通り，平面$\alpha$に含まれ，かつ直線$l$とのなす角が$\displaystyle\frac{\pi}{4}$である直線の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1983/1983_2.pdf)

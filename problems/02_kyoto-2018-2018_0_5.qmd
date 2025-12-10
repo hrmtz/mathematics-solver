@@ -35,6 +35,3 @@ format:
 \item[(2)]$X_n \leqq n+1$である確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2018/2018_0_5.pdf)

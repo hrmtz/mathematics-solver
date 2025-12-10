@@ -24,6 +24,3 @@ $C$上の点$\displaystyle P \left( t,-\frac{2}{t} \right)$ $(t \neq 0)$を，
 \item[(3)]$Q$のえがく曲線が，点$(\sqrt3+1,\sqrt3-1)$を通るような$\theta$の値を，$0< \theta <2\pi$の範囲ですべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1994/1994_2.pdf)

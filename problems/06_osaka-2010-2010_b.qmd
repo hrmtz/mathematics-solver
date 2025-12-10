@@ -26,6 +26,3 @@ $S$を$yz$平面により二分し$x$軸の負の方向にある部分を$S_2$�
 $V(\theta)$ $\displaystyle\left( 0<\theta<\frac{\pi}{2} \right)$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2010/2010_b.pdf)

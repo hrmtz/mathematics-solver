@@ -31,6 +31,3 @@ $\displaystyle\cos\theta=\frac{1}{6}$とする．
 \item[(3)](2)の条件のもとで，点$R$が辺$OA$の中点であるときの$\alpha$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2006/2006_2.pdf)

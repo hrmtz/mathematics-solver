@@ -29,6 +29,3 @@ format:
 \item[(3)]$m=540$のとき，方程式(＊)を満たす正の整数$k, \, l$の組$(k, \, l)$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2021/2021_a.pdf)

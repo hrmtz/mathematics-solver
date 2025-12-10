@@ -21,6 +21,3 @@ format:
 \[ \lim_{n\to\infty}\frac{1}{n}(\frac{1}{{OP_1}^2}+\frac{1}{{OP_2}^2}+\cdots+\frac{1}{{OP_n}^2}) \]
 を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_f.pdf)

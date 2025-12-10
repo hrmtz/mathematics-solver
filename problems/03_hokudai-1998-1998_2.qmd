@@ -26,6 +26,3 @@ format:
 \item[(2)]$C$と$x$軸で囲まれた図形を，$x$軸のまわりに1回転して得られる立体の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1998/1998_2.pdf)

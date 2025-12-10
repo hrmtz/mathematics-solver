@@ -20,6 +20,3 @@ $x_i$ $(i=1, \, 2, \, \cdots\cdots, \, n)$を正数とし，
 $\displaystyle\sum_{i=1}^nx_i=k$を満たすとする．
 このとき不等式$\displaystyle\sum_{i=1}^nx_i\log x_i \geqq k\log\frac{k}{n}$を証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1990/1990_2.pdf)

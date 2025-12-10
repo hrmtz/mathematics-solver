@@ -24,6 +24,3 @@ $z=-1+ti$，ただし$i=\sqrt{-1}$，$t>0$とする．
 \item[(2)]$\displaystyle\frac{t(1-t^2)}{{(1+t^2)}^2}$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1973/1973_2.pdf)

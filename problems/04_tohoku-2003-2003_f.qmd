@@ -23,6 +23,3 @@ format:
 \item[(2)]${(A+B)}^2=O$，$A \neq O$ならば，$B=tA$（$t$は実数）が成り立つ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_f.pdf)

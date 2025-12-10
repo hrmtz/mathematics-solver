@@ -190,52 +190,67 @@
     </div>
 
     <div class="card">
-      <table>
-        <thead>
-          <tr>
-            <th style="width: 18%;">大学</th>
-            <th style="width: 8%;">年度</th>
-            <th>タイトル</th>
-            <th style="width: 18%;">本文</th>
-            <th style="width: 22%;">分野</th>
-            <th style="width: 12%;">状態</th>
-            <th style="width: 10%;"></th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for item in results %}
+      <form method="post" action="{{ url_for('create_test') }}">
+        <table>
+          <thead>
             <tr>
-              <td>{{ item.university }}</td>
-              <td>{% if item.exam_year %}{{ item.exam_year }}{% endif %}</td>
-              <td>{{ item.title }}</td>
-              <td>{{ item.snippet or '' }}</td>
-              <td>
-                {% for f in item.fields %}
-                  <span class="pill">{{ f }}</span>
-                {% endfor %}
-              </td>
-              <td>
-                {% if item.has_solution %}
-                  解答あり
-                {% else %}
-                  解答なし
-                {% endif %}
-              </td>
-              <td>
-                {% if item.has_solution %}
-                  <a class="link-small" href="{{ url_for('open_problem_with_solution', problem_id=item.problem_id) }}">解答を見る</a>
-                {% else %}
-                  <a class="link-small" href="{{ url_for('open_problem', problem_id=item.problem_id) }}">問題を開く</a>
-                {% endif %}
-              </td>
+              <th style="width: 4%;"></th>
+              <th style="width: 18%;">大学</th>
+              <th style="width: 8%;">年度</th>
+              <th>タイトル</th>
+              <th style="width: 18%;">本文</th>
+              <th style="width: 22%;">分野</th>
+              <th style="width: 12%;">状態</th>
+              <th style="width: 10%;"></th>
             </tr>
-          {% else %}
-            <tr>
-              <td colspan="6">該当する問題がありません。</td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {% for item in results %}
+              <tr>
+                <td>
+                  <input type="checkbox" name="problem_ids" value="{{ item.problem_id }}">
+                </td>
+                <td>{{ item.university }}</td>
+                <td>{% if item.exam_year %}{{ item.exam_year }}{% endif %}</td>
+                <td>{{ item.title }}</td>
+                <td>{{ item.snippet or '' }}</td>
+                <td>
+                  {% for f in item.fields %}
+                    <span class="pill">{{ f }}</span>
+                  {% endfor %}
+                </td>
+                <td>
+                  {% if item.has_solution %}
+                    解答あり
+                  {% else %}
+                    解答なし
+                  {% endif %}
+                </td>
+                <td>
+                  {% if item.has_solution %}
+                    <a class="link-small" href="{{ url_for('open_problem_with_solution', problem_id=item.problem_id) }}">解答を見る</a>
+                  {% else %}
+                    <a class="link-small" href="{{ url_for('open_problem', problem_id=item.problem_id) }}">問題を開く</a>
+                  {% endif %}
+                </td>
+              </tr>
+            {% else %}
+              <tr>
+                <td colspan="8">該当する問題がありません。</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+
+        <div style="margin-top: 0.75rem; display:flex; justify-content: space-between; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+          <div style="font-size:0.8rem; color: var(--text-muted);">
+            上の一覧から印刷したい問題にチェックを入れてください。
+          </div>
+          <div>
+            <button class="btn btn-secondary" type="submit">選択した問題でテスト用プリントを作成</button>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </body>

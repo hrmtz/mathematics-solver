@@ -20,6 +20,3 @@ $\displaystyle\tan\frac{a}{2}\sin x\cos(x+2a)+\cot\frac{a}{2}\cos x\sin(x+2a)$
 の最大値$M$を$a$で表わせ。
 　次に，$M=1$となる$a$の値を$0<a<2\pi$の範囲で求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1965/1965_0_5.pdf)

@@ -26,6 +26,3 @@ $\overrightarrow{OP}$と$\overrightarrow{OQ}$が直交するようにとる．
 $\theta$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1993/1993_d.pdf)

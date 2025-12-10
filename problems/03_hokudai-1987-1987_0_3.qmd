@@ -26,6 +26,3 @@ $s_n={t_n}^2-t_nt_{n+1}-{t_{n+1}}^2$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$とお�
 $s_n$を$n$を用いて表し，$\displaystyle\sum_{k=1}^n(2k-1)s_k$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1987/1987_0_3.pdf)

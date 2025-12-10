@@ -21,6 +21,3 @@ format:
 このようにしてつくられた積$f(x)$の定積分
 $\displaystyle\int_0^\frac{\pi}{2}f(x)dx$のうちで最小なものを求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1968/1968_6.pdf)

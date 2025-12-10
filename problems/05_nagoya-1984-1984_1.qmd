@@ -26,6 +26,3 @@ $\displaystyle a_n=\int_0^{n\pi}x\sin xdx$，$\displaystyle b_n=\sum_{k=1}^na_k$
 \item[(3)]$\displaystyle\lim_{n\to\infty}\frac{b_{2n-1}}{2n-1}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1984/1984_1.pdf)

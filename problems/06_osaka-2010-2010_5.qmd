@@ -37,6 +37,3 @@ $p_{n+1}$を，$p_n$と$q_n$を用いて表せ．
 \item[(4)]$\displaystyle\lim_{n\to\infty}\frac{q_n}{p_n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2010/2010_5.pdf)

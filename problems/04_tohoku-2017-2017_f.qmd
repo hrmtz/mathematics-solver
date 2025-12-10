@@ -31,6 +31,3 @@ $\theta$ $(0\leqq\theta\leqq\pi)$とする。
 $\cos\theta$の最大値と，最大値を与える点$A$の座標を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2017/2017_f.pdf)

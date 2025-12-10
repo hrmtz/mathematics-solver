@@ -23,6 +23,3 @@ format:
 \item[(2)]方程式$f(x)-bx=0$の解が存在するための定数$a$，$b$の満たすべき条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1994/1994_b.pdf)

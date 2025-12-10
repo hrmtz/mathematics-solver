@@ -28,6 +28,3 @@ format:
 $\displaystyle 0 \leqq a \leqq \frac{1}{e}$における$S(a)$の最小値を与える$a$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2008/2008_e.pdf)

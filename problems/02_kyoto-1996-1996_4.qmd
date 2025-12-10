@@ -27,6 +27,3 @@ $a_1=0$，$\displaystyle a_n=\left[\frac{a_{n-1}+k}{3}\right]$ $(n\geqq2)$によ
 このときの$a_n$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_4.pdf)

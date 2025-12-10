@@ -26,6 +26,3 @@ format:
 \item[(2)]放物線\ding{"AC}と放物線\ding{"AD}および(1)で求めた接線で囲まれた図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1979/1979_0_4.pdf)

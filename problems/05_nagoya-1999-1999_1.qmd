@@ -27,6 +27,3 @@ ${(\overrightarrow{a}\cdot\overrightarrow{p})}^2+{(\overrightarrow{b}\cdot\overr
 条件（＊）にあるベクトル$\overrightarrow{b}=(b_1, \, b_2)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1999/1999_1.pdf)

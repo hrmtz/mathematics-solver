@@ -24,6 +24,3 @@ format:
 このとき，2つの部分の体積は等しいことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2018/2018_6.pdf)

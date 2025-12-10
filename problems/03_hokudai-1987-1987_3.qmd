@@ -32,6 +32,3 @@ $\displaystyle\lim_{n\to\infty}\angle P_0OP_n=2\pi$である．
 を満たす$r$はただ1つ存在することを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1987/1987_3.pdf)

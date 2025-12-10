@@ -24,6 +24,3 @@ format:
 そのときの$P(a, \, b, \, c)$の値とを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1992/1992_c.pdf)

@@ -24,6 +24,3 @@ format:
 \[ \frac{m-n}{2(m+1)(n+1)}<\log\frac{m}{n}-\sum_{k=n+1}^m\frac{1}{k}<\frac{m-n}{2mn} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2010/2010_2.pdf)

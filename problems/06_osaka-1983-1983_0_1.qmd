@@ -26,6 +26,3 @@ $A=\begin{pmatrix} 7 & -\sqrt3
 どのような方程式で表されるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1983/1983_0_1.pdf)

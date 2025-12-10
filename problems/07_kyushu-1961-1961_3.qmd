@@ -23,6 +23,3 @@ format:
 \item[(2)]次に$a$を変化させる。このとき放物線の頂点の軌跡を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1961/1961_3.pdf)

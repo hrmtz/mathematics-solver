@@ -31,6 +31,3 @@ $AB$，$AD$に平行なその接線の交点を$E$とする。
 \item[(2)]2円が交わるとき，交点を$K$，$L$とすれば，$\theta=\angle KEL$はどんな範囲にあるか。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1963/1963_3.pdf)

@@ -25,6 +25,3 @@ format:
 $x$軸のまわりに回転して得られる立体の体積$V_x$と$y$軸のまわりに回転して得られる立体の体積$V_y$とは等しい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/ao/2007_c.pdf)

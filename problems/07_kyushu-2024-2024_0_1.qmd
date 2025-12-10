@@ -24,6 +24,3 @@ format:
 \item[(2)]2つの放物線$C_1, \, C_2$と直線$l$で囲まれた図形の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2024/2024_0_1.pdf)

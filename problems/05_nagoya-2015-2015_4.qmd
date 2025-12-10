@@ -34,6 +34,3 @@ format:
 ちょうど3つの点に印がついている確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2015/2015_4.pdf)

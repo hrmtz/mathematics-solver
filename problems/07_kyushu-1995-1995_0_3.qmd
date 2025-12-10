@@ -27,6 +27,3 @@ format:
 \item[(2)]曲線$C$と，直線$L$とで囲まれる部分の面積$S(t)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1995/1995_0_3.pdf)

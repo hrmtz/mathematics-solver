@@ -26,6 +26,3 @@ $\displaystyle\int_0^nt^mdt\leqq\sum_{k=1}^nk^m\leqq\int_0^n{(t+1)}^mdt$を示�
 $\displaystyle\frac{1}{n}\sum_{k=1}^nf(k)=\frac{1}{2}f(n)$が成り立つような$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2005/2005_3.pdf)

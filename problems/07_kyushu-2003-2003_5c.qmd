@@ -30,6 +30,3 @@ $\Delta c_k=c_{k+1}-c_k \, (k=1, \, 2, \, \cdots)$とおく．
 が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_5c.pdf)

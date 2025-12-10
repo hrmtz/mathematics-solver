@@ -30,6 +30,3 @@ $\displaystyle\frac{r_0}{n+1}<p<\frac{r_0+1}{n+1}$が成り立つことが必要
 \item[(4)]$n=10$のとき，$q(r)$が$r=7$で最大となる整数$a$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_e.pdf)

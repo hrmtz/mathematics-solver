@@ -19,6 +19,3 @@ format:
 \[ I(a)=\int_{-1}^1|x-a|e^xdx \]
 の$|a|\leqq1$における最大値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1978/1978_6.pdf)

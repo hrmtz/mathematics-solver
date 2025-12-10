@@ -31,6 +31,3 @@ $1 \leqq n \leqq 9$を満たす整数$n$に対し，$n<x<n+1$においては$f'(
 また，$f(x)$は$x=$（ク）において最小値をとる．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_d.pdf)

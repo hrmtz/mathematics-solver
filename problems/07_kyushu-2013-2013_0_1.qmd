@@ -30,6 +30,3 @@ $\overrightarrow{OA}$，$\overrightarrow{OC}$，$\overrightarrow{OP}$と$t$を�
 \item[(4)]直線$PQ$が平面$ODE$に垂直であるとき，$t$の値および線分$OP$の長さを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2013/2013_0_1.pdf)

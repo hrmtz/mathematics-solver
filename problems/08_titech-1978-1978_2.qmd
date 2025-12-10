@@ -23,6 +23,3 @@ $(ab-1)(bc-1)(ca-1)$は$abc$で割り切れるとする．
 \item[(2)]$a, \, b, \, c$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1978/1978_2.pdf)

@@ -41,6 +41,3 @@ format:
 \item[(3)]確率$p_{11}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2021/2021_0_3.pdf)

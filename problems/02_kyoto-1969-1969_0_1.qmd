@@ -27,6 +27,3 @@ format:
 \item[(7)]$\displaystyle\cos\alpha+\cos\beta=2\cos\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1969/1969_0_1.pdf)

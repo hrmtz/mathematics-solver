@@ -31,6 +31,3 @@ $g_n=f_n-\alpha f_{n-1}$とおくと，$n\geqq2$のとき$g_{n+1}=\beta g_n$が�
 \item[(3)]$\displaystyle\lim_{n\to\infty}\frac{\log f_n}{n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1989/1989_5.pdf)

@@ -22,6 +22,3 @@ format:
 \[ 7x-yz+2 \leqq z-x \leqq \frac{z+6}{y+1} \hspace{1zw} \cdots\cdots\cdots(3) \]
 このとき，$x^2-y-z$を最大にする$x$，$y$，$z$の値と，最小にする$x$，$y$，$z$の値を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1963/1963_2.pdf)

@@ -25,6 +25,3 @@ format:
 \item[(2)]$P$が辺$BC$上を動くとき，$\angle PAB$のどんな値に対してこの面積$S$が最大となるか。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1963/1963_5.pdf)

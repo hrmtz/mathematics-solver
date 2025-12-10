@@ -30,6 +30,3 @@ $p=5 \times 2^l$のとき，
 数列$\{ x_n \}$は発散することを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2011/2011_d.pdf)

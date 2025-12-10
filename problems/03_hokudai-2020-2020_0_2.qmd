@@ -26,6 +26,3 @@ format:
 $f(\theta)=a$となる$\theta$がちょうど2個であるような$a$の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2020/2020_0_2.pdf)

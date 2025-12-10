@@ -40,6 +40,3 @@ $a$に近い$I$のすべての点$x$に対して$f(a) \leqq f(x)$(または$f(a)
 
 ![](../archive/01_tokyo/1978/fig_1978_6.jpg)
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1978/1978_6.pdf)

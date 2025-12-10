@@ -25,6 +25,3 @@ $x$の3次方程式$\displaystyle x^3-x^2=p\left(x-\frac{3}{2}\right)$の
 異なる実数解の個数を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2011/2011_0_1.pdf)

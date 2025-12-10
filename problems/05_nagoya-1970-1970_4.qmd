@@ -19,6 +19,3 @@ format:
 $l$，$m$，$n$は整数で，$lmn\neq0$のとき
 $\displaystyle\int_0^{2x}\cos lx\cos mx\cos nxdx$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1970/1970_4.pdf)

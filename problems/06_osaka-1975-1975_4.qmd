@@ -29,6 +29,3 @@ $|\overrightarrow{AB}|=1$のとき、
 次の等式が成り立つことを証明せよ．
 \[ \int_a^b(\overrightarrow{MP}, \, \overrightarrow{PQ})dt-(\overrightarrow{MA}, \, \overrightarrow{AB})=\frac{1}{2} \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1975/1975_4.pdf)

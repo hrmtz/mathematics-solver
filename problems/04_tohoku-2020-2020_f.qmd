@@ -27,6 +27,3 @@ format:
 の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_f.pdf)

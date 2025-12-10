@@ -20,6 +20,3 @@ format:
 $y$軸と交わる点$Q$の$y$座標を$k$とするとき，
 $\displaystyle\lim_{a\to0}k$を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1961/1961_5.pdf)

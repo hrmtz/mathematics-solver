@@ -28,6 +28,3 @@ $m$，$n$の組をすべて求めよ．
 確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_3.pdf)

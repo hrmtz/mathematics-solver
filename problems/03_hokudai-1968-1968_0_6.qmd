@@ -24,6 +24,3 @@ format:
 \item[(3)]$V(t)$の$t$に関する変化率が最大となるときの$t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1968/1968_0_6.pdf)

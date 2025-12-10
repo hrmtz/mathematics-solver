@@ -31,6 +31,3 @@ $AP=P\begin{pmatrix} 1 & 0
 ただし，$p$，$q$，$r$，$s$はすべて整数で$ps-qr=1$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_a.pdf)

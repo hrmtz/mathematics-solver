@@ -26,6 +26,3 @@ format:
 \item[(3)]$t=0$から$t=2\pi$まで$P$が動いた道のりを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1969/1969_4.pdf)

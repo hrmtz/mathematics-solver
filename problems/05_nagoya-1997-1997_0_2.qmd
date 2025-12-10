@@ -24,6 +24,3 @@ $x>0$での曲線と$l$との交点を$P$とする．
 \item[(2)]点$Q$が曲線上を$O$から$P$まで動くとき$\triangle OPQ$の面積の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1997/1997_0_2.pdf)

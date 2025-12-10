@@ -22,6 +22,3 @@ format:
 \item[(2)]球$Q$の半径を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1983/1983_3.pdf)

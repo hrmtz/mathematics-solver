@@ -27,6 +27,3 @@ format:
 は互いに交わらない有限個の区間の和集合になっているので，それらの区間の長さの総和を$T_k$で表す．
 このとき，$\displaystyle\lim_{k\to\infty}T_k=\frac{L}{2\pi}$を証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2001/2001_9.pdf)

@@ -30,6 +30,3 @@ $t$を$\displaystyle|x|<\frac{\pi}{2}$をみたす実数とする．
 $t$が$x_1, \, x_2, \, x_3, \, \cdots$のいずれかと等しいことであることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2021/2021_5.pdf)

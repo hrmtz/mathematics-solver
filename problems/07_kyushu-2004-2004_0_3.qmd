@@ -28,6 +28,3 @@ $\overrightarrow{a}$，$\overrightarrow{b}$を用いて表せ．
 \item[(3)]$AB=2$，$AD=1$，$\angle DAB={60}^\circ$とするとき，$\triangle AQR$の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2004/2004_0_3.pdf)

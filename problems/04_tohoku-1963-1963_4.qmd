@@ -26,6 +26,3 @@ $R$を通る楕円$Ax^2+By^2=1$の$R$における接線と$QR$のなす角
 \item[(2)]$\cos2\theta=k$として$A$，$B$を$k$で表わせ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1963/1963_4.pdf)

@@ -19,6 +19,3 @@ format:
 直線$y=x-2$の上にあるものをすべて求めよ．
 ただし，$\overline{PA}$，$\overline{PB}$はそれぞれ線分$PA$，$PB$の長さを表す．
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1976/1976_0_3.pdf)

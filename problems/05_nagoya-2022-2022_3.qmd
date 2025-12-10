@@ -29,6 +29,3 @@ $\alpha, \, \beta$がそれぞれどの頂点か答えよ。
 それぞれの組について正六角形$OABCDE$を複素数平面上に図示せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2022/2022_3.pdf)

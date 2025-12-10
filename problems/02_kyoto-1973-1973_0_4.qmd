@@ -24,6 +24,3 @@ $\mathbf{x}$の大きさ$l$を用いて表わせ．
 \end{description}
 　ただし$(\mathbf{a},\mathbf{x})$などはベクトルの内積を表わす．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1973/1973_0_4.pdf)

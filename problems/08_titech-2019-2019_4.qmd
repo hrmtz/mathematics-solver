@@ -34,6 +34,3 @@ $T(H_1, \, H_2, \, H_3, \, H_4)=15$，
 ただし$n\geqq3$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2019/2019_4.pdf)

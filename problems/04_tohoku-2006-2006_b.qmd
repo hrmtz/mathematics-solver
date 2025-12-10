@@ -27,6 +27,3 @@ $a_3=q$として以下の問に答えよ．
 \item[(3)]一般項$a_n$を$p$，$q$，$n$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2006/2006_b.pdf)

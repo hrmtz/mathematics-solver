@@ -20,6 +20,3 @@ format:
 $\triangle ABE$は正三角形である．
 このとき，$V$の体積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2009/2009_1.pdf)

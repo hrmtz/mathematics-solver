@@ -27,6 +27,3 @@ format:
 ただし，$\sqrt2$が無理数であることを証明なしで用いてよい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2008/2008_c.pdf)

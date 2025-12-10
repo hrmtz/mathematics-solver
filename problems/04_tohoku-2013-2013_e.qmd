@@ -24,6 +24,3 @@ $p$は$0<p<1$を満たす実数とする。
 \item[(2)]$\displaystyle\sum_{n=1}^\infty na_n=20$であるとき，$p$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2013/2013_e.pdf)

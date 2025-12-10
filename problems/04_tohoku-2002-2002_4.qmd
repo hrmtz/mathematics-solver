@@ -29,6 +29,3 @@ $l=m=n$であることを示せ．
 $\cos\angle PBQ$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2002/2002_4.pdf)

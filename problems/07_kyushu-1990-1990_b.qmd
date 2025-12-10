@@ -22,6 +22,3 @@ format:
 \item[(2)]$\displaystyle\sum_{k=1}^na_k$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_b.pdf)

@@ -26,6 +26,3 @@ $P_i \geqq P_{i+1}$ $(i=1,2,\cdots)$となることを示せ．
 任意の$r$，$s$に対して，$A$が勝者となる確率は，$\displaystyle\frac{1}{2}$またはそれ以上であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1984/1984_0_5.pdf)

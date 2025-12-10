@@ -18,6 +18,3 @@ format:
 
 極限値$\displaystyle\lim_{n \to \infty}\int_0^\frac{\pi}{2}\frac{\sin^2nx}{1+x}dx$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1999/1999_a.pdf)

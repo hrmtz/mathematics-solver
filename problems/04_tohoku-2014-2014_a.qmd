@@ -40,6 +40,3 @@ B=\begin{pmatrix} 1 & -\sqrt3
 によって定まる点$(x', \, y')$の軌跡の方程式を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2014/2014_a.pdf)

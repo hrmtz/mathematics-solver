@@ -25,6 +25,3 @@ format:
 \item[(3)]$Y_2$の期待値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_e.pdf)

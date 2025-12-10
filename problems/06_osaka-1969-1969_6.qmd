@@ -25,6 +25,3 @@ $\displaystyle\frac{d}{dx}F(x)=F(x)$，$\displaystyle\frac{d}{dx}G(x)=-G(x)$と�
 \item[(2)]$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1969/1969_6.pdf)

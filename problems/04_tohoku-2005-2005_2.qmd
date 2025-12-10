@@ -32,6 +32,3 @@ $\alpha=\angle BAC$，$\beta=\angle CAD$とおく．
 $\sin\angle CAE$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_2.pdf)

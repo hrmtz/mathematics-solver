@@ -20,6 +20,3 @@ $0\leqq\alpha<\beta<\gamma<2\pi$であって
 $\cos\alpha+\cos\beta+\cos\gamma=0$，$\sin\alpha+\sin\beta+\sin\gamma=0$であるという．
 $\beta-\alpha$と$\gamma-\beta$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1974/1974_1.pdf)

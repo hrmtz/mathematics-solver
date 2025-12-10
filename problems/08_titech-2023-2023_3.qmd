@@ -24,6 +24,3 @@ format:
 \item[(2)]${z_n}^2$が実数となる確率$Q_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2023/2023_3.pdf)

@@ -22,6 +22,3 @@ format:
 \item[(2)]$\displaystyle\lim_{n\to\infty} { \left( \frac{(2n) \, !}{n \, ! n^n} \right) }^\frac{1}{n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1991/1991_4.pdf)

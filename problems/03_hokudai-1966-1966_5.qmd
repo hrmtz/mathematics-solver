@@ -23,6 +23,3 @@ format:
 \item[(3)]$\displaystyle\int_0^2 \left\{ \frac{3x-7}{(2x+1)(x^2+4)}+xe^x \right\} dx$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1966/1966_5.pdf)

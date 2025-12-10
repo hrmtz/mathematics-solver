@@ -26,6 +26,3 @@ format:
 $\angle A$と$\angle B$に関する条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2010/2010_1.pdf)

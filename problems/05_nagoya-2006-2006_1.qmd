@@ -30,6 +30,3 @@ $B_n$を通る曲線$C$の接線の接点を$A_{n+1}$とする．
 ここで，$|r|<1$のとき$\displaystyle\lim_{n\to\infty}nr^n=0$であることを用いてよい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2006/2006_1.pdf)

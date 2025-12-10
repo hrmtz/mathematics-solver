@@ -25,6 +25,3 @@ format:
 \item[(2)]$n$回の操作で終わるような$a$の値の最大値と最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2003/2003_2.pdf)

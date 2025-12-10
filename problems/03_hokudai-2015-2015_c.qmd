@@ -24,6 +24,3 @@ $F$を通り直線$PF$と垂直な直線と$E$との2つの交点を$R$，$S$と
 \item[(2)]$P$が$E$上を動くとき，$PF+QF+RF+SF$の最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2015/2015_c.pdf)

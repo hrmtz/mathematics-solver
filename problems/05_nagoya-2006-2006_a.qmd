@@ -39,6 +39,3 @@ $A$，$B$ 2つの町がある．
 \[ \lim_{n\to\infty}\frac{a_n}{b_n} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2006/2006_a.pdf)

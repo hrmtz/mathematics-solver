@@ -21,6 +21,3 @@ format:
 \item[(2)]点$P$がだ円$C$上を動くとき$d^2$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1995/1995_b.pdf)

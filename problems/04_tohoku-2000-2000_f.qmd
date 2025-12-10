@@ -27,6 +27,3 @@ format:
 $S_1=11S_2$を満たすための$b$，$c$，$d$の条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2000/2000_f.pdf)

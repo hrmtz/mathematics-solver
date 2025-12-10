@@ -25,6 +25,3 @@ format:
 ただし，対数は自然対数とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_d.pdf)

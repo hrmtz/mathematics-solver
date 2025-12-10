@@ -24,6 +24,3 @@ $c>1$として，$\displaystyle a_n=\frac{[nc]}{3}$ $(n=1, \, 2, \, \cdots\cdots
 \item[(3)]$c$が無理数のときは，すべての$n$に対して$[a_n]=n-1$となる．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_1.pdf)

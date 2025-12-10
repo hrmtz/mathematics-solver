@@ -28,6 +28,3 @@ $A$，$B$ 2つの箱に白石と黒石が入っている．
 どんな確率$\beta$に対しても，$\displaystyle p\neq\frac{1}{2}$であることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1984/1984_0_3b.pdf)

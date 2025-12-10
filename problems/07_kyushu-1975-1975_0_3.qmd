@@ -21,6 +21,3 @@ format:
 \item[(2)]この3次方程式の2根を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1975/1975_0_3.pdf)

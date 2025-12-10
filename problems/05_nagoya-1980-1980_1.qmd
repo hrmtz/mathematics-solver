@@ -28,6 +28,3 @@ $A^3=\begin{pmatrix} a^3 & 1
 \item[(2)]$a$が$a>0$の範囲で変化するとき，$b$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1980/1980_1.pdf)

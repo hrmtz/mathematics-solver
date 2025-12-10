@@ -21,6 +21,3 @@ format:
 $\displaystyle{ \left( a_n+\frac{1}{4} \right) }^2$に等しいとする．
 　$a_n$がすべて正とする．一般項$a_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1996/1996_0_3a.pdf)

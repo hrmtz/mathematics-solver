@@ -23,6 +23,3 @@ format:
 \item[(2)](1)の解を$x_n$とする．このとき，$\displaystyle\lim_{n\to\infty}x_n=1$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_3.pdf)

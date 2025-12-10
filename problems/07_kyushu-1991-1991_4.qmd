@@ -26,6 +26,3 @@ $\displaystyle a_{n+1}-1\geqq\frac{20}{41}{(a_n-1)}^2$が成り立つことを�
 $n\geqq3$のとき，$a_n-1\geqq b_n$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1991/1991_4.pdf)

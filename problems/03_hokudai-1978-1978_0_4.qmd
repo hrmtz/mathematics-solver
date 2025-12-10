@@ -29,6 +29,3 @@ $\overrightarrow{AB}$と$\overrightarrow{AC}$を用いて表せ．
 3角形$PQR$と3角形$ABC$の面積の比を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1978/1978_0_4.pdf)

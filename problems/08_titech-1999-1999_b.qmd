@@ -38,6 +38,3 @@ format:
 
 ![](../archive/08_titech/1999/fig_1999_b_2.jpg)
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1999/1999_b.pdf)

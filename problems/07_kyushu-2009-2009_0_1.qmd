@@ -25,6 +25,3 @@ $\angle A$が直角の二等辺三角形$ABC$を考える．
 \item[(2)]$\angle QMR$の2倍と$\angle QMB$の大小を判定せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_0_1.pdf)

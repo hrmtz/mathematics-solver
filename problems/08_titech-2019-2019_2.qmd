@@ -20,6 +20,3 @@ format:
 \[ \int_\frac{1}{x}^\frac{2}{x}|\log y|f(xy)dy=3x(\log x-1)+A+\frac{B}{x} \]
 　ただし，$f(x)$は$1\leqq x \leqq2$に対して定義される連続関数とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2019/2019_2.pdf)

@@ -23,6 +23,3 @@ format:
 このとき，$f(x)$は，ある整式$g(x)$とある2次式$h(x)$を用いて$f(x)=g(h(x))$と書けることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_1.pdf)

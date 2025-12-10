@@ -27,6 +27,3 @@ format:
 \item[(3)]$S$と$T$と$U$の面積がすべて等しいとき，$b$，$c$を$a$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1996/1996_0_3.pdf)

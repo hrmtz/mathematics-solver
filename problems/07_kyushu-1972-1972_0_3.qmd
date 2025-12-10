@@ -25,6 +25,3 @@ format:
 ただし，$\log x$は常用対数とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1972/1972_0_3.pdf)

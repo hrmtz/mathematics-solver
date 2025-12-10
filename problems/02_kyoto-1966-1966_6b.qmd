@@ -29,6 +29,3 @@ $c_n+c_{n+1}=c_{n+2}$および$|c_n|\geqq(n-1)|c_1|$を満たす．
 \item[(iii)](ii)の数列$\{ {a'}_n \}$が正数列ならば，${a'}_n\leqq1$，かつ，${a'}_n=a_n$でなければならない．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1966/1966_6b.pdf)

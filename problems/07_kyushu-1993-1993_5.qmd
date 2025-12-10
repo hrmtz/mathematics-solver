@@ -30,6 +30,3 @@ $y$座標が$\displaystyle\frac{1}{2}$となったときの$x$座標を$b$とす
 点$Q$の描く曲線と$x$軸，直線$x=a$，および直線$x=b$により囲まれる領域の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1993/1993_5.pdf)

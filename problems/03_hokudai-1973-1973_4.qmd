@@ -29,6 +29,3 @@ $\displaystyle\lim_{x\to+\infty}\frac{\log x}{x}=0$である．
 \item[(5)]$f(x)=x^\frac{1}{x}$とするとき，$\displaystyle\lim_{x\to+0}f'(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1973/1973_4.pdf)

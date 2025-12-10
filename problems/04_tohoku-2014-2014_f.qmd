@@ -25,6 +25,3 @@ format:
 \item[(2)]$l$と$C$および$y$軸で囲まれた部分の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2014/2014_f.pdf)

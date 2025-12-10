@@ -27,6 +27,3 @@ $\displaystyle S_n=\sum_{k=1}^na_k$とする．
 \item[(3)]$\displaystyle\lim_{n\to\infty}a_nS_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1993/1993_c.pdf)

@@ -26,6 +26,3 @@ format:
 $S(a)$の最大値および最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1981/1981_2.pdf)

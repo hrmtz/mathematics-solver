@@ -27,6 +27,3 @@ format:
 線分$AB$と放物線$y=x^2$とで囲まれた図形を$y$軸のまわりに回転してできる回転体の体積$V$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1999/1999_a.pdf)

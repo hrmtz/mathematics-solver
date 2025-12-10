@@ -27,6 +27,3 @@ format:
 また，必要ならば$\displaystyle\lim_{n\to\infty}\frac{\log n}{n}=0$であることを用いてもよい。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2025/2025_3.pdf)

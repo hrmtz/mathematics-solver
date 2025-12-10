@@ -37,6 +37,3 @@ $\angle APB$が鈍角になるような点$P$の存在範囲は（イ）□で�
 $p^3+q^3=\text{（ク）□}$である。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1962/1962_0_1a.pdf)

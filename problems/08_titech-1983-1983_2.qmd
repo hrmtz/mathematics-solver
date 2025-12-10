@@ -20,6 +20,3 @@ $t$とともに変化する放物線
 $\displaystyle y=\frac{1}{2}\left\{ t+\frac{x(2-x)}{t} \right\}$が
 通る点$(x, \, y)$全体の集合を図示せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1983/1983_2.pdf)

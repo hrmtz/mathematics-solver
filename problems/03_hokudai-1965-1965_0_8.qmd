@@ -24,6 +24,3 @@ format:
 \item[(2)]点$P$が原点を除く曲線上の点を動くとき，$PC$の長さの最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1965/1965_0_8.pdf)

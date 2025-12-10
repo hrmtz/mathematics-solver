@@ -19,6 +19,3 @@ $r$，$n$，$a$は正の既知数であって，$r<n$をみたし，$x$は未知
 つぎの不等式を解け．
 $\displaystyle \left| \frac{r-nx}{\sqrt{nx(1-x)}} \right| <a$
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1963/1963_0_5.pdf)

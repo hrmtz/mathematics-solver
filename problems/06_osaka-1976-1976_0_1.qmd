@@ -28,6 +28,3 @@ $\displaystyle\frac{\sqrt3}{2}$のいずれかでなければならないこと�
 条件を満たす3角形があれば，その例を1つずつあげよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1976/1976_0_1.pdf)

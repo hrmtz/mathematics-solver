@@ -23,6 +23,3 @@ format:
 \item[(iii)]$\displaystyle\frac{x-2}{a}=y-4=z-b$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1993/1993_1.pdf)

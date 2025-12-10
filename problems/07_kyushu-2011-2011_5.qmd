@@ -33,6 +33,3 @@ format:
 \item[(4)]$n=3$のとき，左端のカードの数字の期待値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2011/2011_5.pdf)

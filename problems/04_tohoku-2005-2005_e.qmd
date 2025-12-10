@@ -21,6 +21,3 @@ format:
  \displaystyle a_{n+1}=\frac{3n-1}{3n+5}a_n & (n=1, \, 2, \, 3, \, \cdots\cdots) \end{cases} \]
 このとき，一般項$a_n$と級数の和$\displaystyle S=\sum_{n=1}^\infty a_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_e.pdf)

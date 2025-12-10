@@ -24,6 +24,3 @@ $\cos{(m+n)}^\circ$，$\sin{(m+n)}^\circ$はともに有理数であることを
 このとき，$\cos n^\circ$と$\sin n^\circ$のうち，少なくとも一方は無理数であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1997/1997_0_b.pdf)

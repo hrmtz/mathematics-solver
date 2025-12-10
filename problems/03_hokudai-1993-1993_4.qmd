@@ -28,6 +28,3 @@ format:
 動点$P$の$t=0$における速度ベクトルが$x$軸の正の向きとなす角を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1993/1993_4.pdf)

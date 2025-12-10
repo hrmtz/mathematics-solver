@@ -25,6 +25,3 @@ $\alpha$，$\beta$の条件を求め，点$P(\alpha, \, \beta)$の存在範囲�
 \item[(3)](2)のとき，3つの接点を頂点とする3角形の重心の座標を$\alpha$，$\beta$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1975/1975_0_5.pdf)

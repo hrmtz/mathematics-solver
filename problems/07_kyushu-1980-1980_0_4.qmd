@@ -30,6 +30,3 @@ $a$，$b$，$c$，$d$は実数とし，
 $a_n+d_n$，$a_nd_n-b_nc_n$ $(n=2, \, 3)$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1980/1980_0_4.pdf)

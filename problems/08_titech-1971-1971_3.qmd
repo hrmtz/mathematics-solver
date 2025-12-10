@@ -22,6 +22,3 @@ $f'''(x)=18$，$g'''(x)=12$を満たすとし，
 $\displaystyle F(\theta)=\cos^2\theta\int_1^3f(x)dx+\sin^2\theta\int_1^3g(x)dx$とおく．
 区間$[0, \, 2\pi]$において$F(\theta)$を最大とする$\theta$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1971/1971_3.pdf)

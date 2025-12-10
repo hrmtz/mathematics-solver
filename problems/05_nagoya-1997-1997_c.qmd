@@ -24,6 +24,3 @@ format:
 \item[(3)]連立方程式が解をもつための$a$の範囲を示し，解$x$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1997/1997_c.pdf)

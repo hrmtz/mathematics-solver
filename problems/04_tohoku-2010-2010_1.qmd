@@ -20,6 +20,3 @@ $f(x)=x^3+3x^2-9x$とする．
 $y<x<a$を満たすすべての$x$，$y$に対して
 $\displaystyle f(x)>\frac{(x-y)f(a)+(a-x)f(y)}{a-y}$が成り立つような$a$の範囲を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_1.pdf)

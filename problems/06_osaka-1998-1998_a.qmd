@@ -33,6 +33,3 @@ $n$，$k$と$a$，$b$，$c$で表せ．
 $a$，$b$，$c$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1998/1998_a.pdf)

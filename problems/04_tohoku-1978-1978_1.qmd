@@ -23,6 +23,3 @@ format:
 \item[(3)]少なくとも2つの頂点が$A$の頂点である3角形．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1978/1978_1.pdf)

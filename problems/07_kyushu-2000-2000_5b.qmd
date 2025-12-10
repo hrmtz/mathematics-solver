@@ -37,6 +37,3 @@ $k\geqq0$のときは極座標が$(kr, \, \theta)$となる点，$k<0$のとき�
 点$k(V \circ (V*V))$が曲線$C_1$上にあるための$k$の条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2000/2000_5b.pdf)

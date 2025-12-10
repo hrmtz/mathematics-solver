@@ -30,6 +30,3 @@ $\tan\alpha$の値と点$Q$の座標を求めよ．
 これらの空欄をうめよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1968/1968_0_4.pdf)

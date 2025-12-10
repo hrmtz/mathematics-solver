@@ -28,6 +28,3 @@ $xy$平面上に$2n$個の点$A_i(i,1)$，$B_i(i,2)$ $(i=1,2,\cdots,n)$がある
 \item[(2)]$Q_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1998/1998_e.pdf)

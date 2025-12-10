@@ -27,6 +27,3 @@ r_2\sin\left(\theta+\frac{\pi}{2}\right)\right)$が楕円
 $S$の最大値と最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_0_b.pdf)

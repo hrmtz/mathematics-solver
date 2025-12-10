@@ -32,6 +32,3 @@ format:
 \item[(3)]$A$がある自然数の2乗であるための必要十分条件は$e=0$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1976/1976_5.pdf)

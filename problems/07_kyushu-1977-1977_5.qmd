@@ -27,6 +27,3 @@ $f(x)=\begin{cases} x & (0\leqq x \leqq1\text{のとき})
 \item[(3)]無限級数$\displaystyle\sum_{n=0}^\infty S_n$の和を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1977/1977_5.pdf)

@@ -22,6 +22,3 @@ $n$を自然数とする．
 \item[(2)]$\displaystyle \int_0^\frac{\pi}{2} \frac{\sin (2n+1)x}{\sin x}dx = \frac{\pi}{2}$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1993/1993_2.pdf)

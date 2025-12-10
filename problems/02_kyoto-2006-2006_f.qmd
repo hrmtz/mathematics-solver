@@ -17,6 +17,3 @@ format:
 
 $\tan1^\circ$は有理数か．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2006/2006_f.pdf)

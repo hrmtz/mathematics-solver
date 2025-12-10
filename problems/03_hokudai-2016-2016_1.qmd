@@ -23,6 +23,3 @@ format:
 \item[(2)]点$z$が$C$上を一周するとき，$|w|$の最小値を$a$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2016/2016_1.pdf)

@@ -23,6 +23,3 @@ $F=\sin3A+\sin3B+\sin3C$とおく．
 \item[(2)]$F$のとる値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1983/1983_4.pdf)

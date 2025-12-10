@@ -26,6 +26,3 @@ format:
 \item[(4)]4回目が終わった時点で取り出されている赤玉の個数の期待値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2009/2009_3.pdf)

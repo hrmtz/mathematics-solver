@@ -28,6 +28,3 @@ format:
 \item[(3)]$C$の内部のうち，第1象限の部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1987/1987_1.pdf)

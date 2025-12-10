@@ -28,6 +28,3 @@ format:
 最終的に取り出される赤玉の個数の期待値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2008/2008_0_3b.pdf)

@@ -29,6 +29,3 @@ format:
 \item[(3)]$p_6$が最大になるときの$a$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2009/2009_0_3.pdf)

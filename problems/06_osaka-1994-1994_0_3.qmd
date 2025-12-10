@@ -29,6 +29,3 @@ $\overrightarrow{x_n}$が図形$R$に含まれる自然数$n$と，
 そのときの$\overrightarrow{x_n}$を求めよ．
 厳密には$R$とは$\displaystyle \frac{1}{2}x^2+\frac{1}{2} \leqq y \leqq 1$で定められる図形のことである．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1994/1994_0_3.pdf)

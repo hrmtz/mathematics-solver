@@ -26,6 +26,3 @@ format:
 がとる値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1999/1999_0_1.pdf)

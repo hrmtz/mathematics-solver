@@ -30,6 +30,3 @@ $k$は2以上の自然数とする．
 \item[(4)]$p_n$を$n$と$k$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_2.pdf)

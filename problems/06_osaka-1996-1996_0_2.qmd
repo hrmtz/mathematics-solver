@@ -28,6 +28,3 @@ $t$，$\overrightarrow{a}$，$\overrightarrow{b}$を用いて表せ．
 $\triangle OAB$がどのような三角形のときか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1996/1996_0_2.pdf)

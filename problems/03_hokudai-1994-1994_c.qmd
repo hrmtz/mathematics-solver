@@ -24,6 +24,3 @@ $V$を$\alpha$，$\beta$，$\gamma$で表せ．
 \item[(2)]$S$の面積を$V$と$d$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_c.pdf)

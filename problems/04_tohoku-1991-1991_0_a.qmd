@@ -31,6 +31,3 @@ $A(x)=\begin{pmatrix} x-1 & 1
 とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_0_a.pdf)

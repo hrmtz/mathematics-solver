@@ -25,6 +25,3 @@ format:
 \item[(2)]$f(x, \, y)=0$となる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2005/2005_0_2.pdf)

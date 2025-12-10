@@ -26,6 +26,3 @@ $\alpha, \, \beta$を複素数とし，複素数$z$に対して
 \item[(2)]$f(1+i)=0$であるとき，$\alpha, \, \beta$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2024/2024_2.pdf)

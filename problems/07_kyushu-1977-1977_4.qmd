@@ -29,6 +29,3 @@ $\triangle OAC$の面積を$S_2$とする．
 直線$AB$が点$A$で曲線\ding{"AC}と接するとき，$S_1-S_2$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1977/1977_4.pdf)

@@ -24,6 +24,3 @@ $a$，$b$を正の定数とする．
 \item[(2)]$\displaystyle\frac{T}{S}=5$とするとき，$b$を$a$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_0_4.pdf)

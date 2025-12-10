@@ -24,6 +24,3 @@ format:
 \item[(2)]$l$と$C$で囲まれる部分の面積$S(a)$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1977/1977_0_4.pdf)

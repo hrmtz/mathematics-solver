@@ -24,6 +24,3 @@ format:
 \item[(3)]$P$が原点$O$から出発して，8ステップ以上移動する確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_0_c.pdf)

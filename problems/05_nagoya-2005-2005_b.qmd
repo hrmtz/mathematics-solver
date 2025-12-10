@@ -25,6 +25,3 @@ format:
 \item[(3)]$S$の最大値と，そのときの$t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2005/2005_b.pdf)

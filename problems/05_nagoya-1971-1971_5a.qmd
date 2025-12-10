@@ -24,6 +24,3 @@ format:
 $t\to+\infty$のときの極限値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1971/1971_5a.pdf)

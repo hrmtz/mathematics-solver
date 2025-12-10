@@ -29,6 +29,3 @@ format:
 $\displaystyle\lim_{n\to\infty}p(n)$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2016/2016_b.pdf)

@@ -25,6 +25,3 @@ format:
 の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1991/1991_4.pdf)

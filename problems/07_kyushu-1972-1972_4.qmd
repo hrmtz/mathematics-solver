@@ -22,6 +22,3 @@ format:
 また極限値$\displaystyle\lim_{n\to\infty}\frac{B_n}{{10}^n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1972/1972_4.pdf)

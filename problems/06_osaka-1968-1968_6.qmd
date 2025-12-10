@@ -32,6 +32,3 @@ $\displaystyle\frac{1}{x+1}<x\leqq 1$および$0\leqq f(x)\leqq\alpha$を同時�
 $\displaystyle\lim_{n\to\infty}S_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1968/1968_6.pdf)

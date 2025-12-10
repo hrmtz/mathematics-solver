@@ -25,6 +25,3 @@ format:
 が成立することを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2002/2002_0_1.pdf)

@@ -24,6 +24,3 @@ $\tan\alpha$の値を求めよ．
 比$x:y:z$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1972/1972_2.pdf)

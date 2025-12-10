@@ -59,6 +59,3 @@ $\begin{pmatrix} x_n
 $\displaystyle\sum_{n=1}^\infty|R_nR_{n-1}|$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2010/2010_c.pdf)

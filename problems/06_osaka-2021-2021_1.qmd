@@ -29,6 +29,3 @@ $x>0$，$y>0$をみたす部分を動くとき，
 $\displaystyle\frac{t}{s}$の最小値とそのときの$a$，$b$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2021/2021_1.pdf)

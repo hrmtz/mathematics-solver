@@ -28,6 +28,3 @@ $O$からおろした垂線の足$P(r, \, \theta)$の軌跡の方程式を
 極座標を用いて表わせ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1969/1969_2.pdf)

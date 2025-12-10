@@ -35,6 +35,3 @@ $\overrightarrow{a}$と$\overrightarrow{b}$を用いて表せ。
 \item[(3)]ベクトル$\overrightarrow{c}$とベクトル$\overrightarrow{HK}$は平行であることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2023/2023_5.pdf)

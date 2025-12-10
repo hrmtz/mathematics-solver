@@ -25,6 +25,3 @@ format:
 $\tan(\alpha+\beta)$の最大値と最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1991/1991_a.pdf)

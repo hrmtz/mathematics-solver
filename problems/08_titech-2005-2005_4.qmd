@@ -22,6 +22,3 @@ format:
 \item[(2)]負でない定数$m \geqq 0$をとるとき，$xy+m(x+y)$の最大値，最小値を$m$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2005/2005_4.pdf)

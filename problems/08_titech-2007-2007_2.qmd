@@ -27,6 +27,3 @@ $l$と$y=x^2$との交点で$A$でない方を$B$とする．
 このとき$\displaystyle\lim_{a\to\infty}\frac{T(a)}{S(a)}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2007/2007_2.pdf)

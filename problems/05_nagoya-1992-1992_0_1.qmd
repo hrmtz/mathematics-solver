@@ -24,6 +24,3 @@ format:
 \item[(2)]すべての正整数$n$に対して$\alpha^n+\beta^n$は奇数である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1992/1992_0_1.pdf)

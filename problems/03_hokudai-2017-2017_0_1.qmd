@@ -24,6 +24,3 @@ format:
 \item[(2)]$n(n+1)+7$が平方数となるような自然数$n$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2017/2017_0_1.pdf)

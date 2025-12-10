@@ -26,6 +26,3 @@ $\alpha$は$\displaystyle0<\alpha\leqq\frac{\pi}{2}$を満たす定数とし，
 \[ k=AB \cdot BC \cdot CD \cdot DA \]
 が最大となるものについて，$k$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2018/2018_3.pdf)

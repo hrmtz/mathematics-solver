@@ -30,6 +30,3 @@ $f(x)$は$x \geqq a$で定義された連続な増加関数で，$x>a$のとき$
 $2f(x)=3g(x)$を満たす関数$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1989/1989_4.pdf)

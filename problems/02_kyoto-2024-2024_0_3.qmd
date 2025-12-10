@@ -20,6 +20,3 @@ $a$は正の定数とする．次の関数の最大値を求めよ．
 \[ f(x)=\left| x^2-\left( ax+\frac{3}{4}a^2 \right) \right| +ax+\frac{3}{4}a^2 \hspace{1zw}
 (-1 \leqq x \leqq 1) \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2024/2024_0_3.pdf)

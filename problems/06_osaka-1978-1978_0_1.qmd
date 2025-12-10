@@ -18,6 +18,3 @@ format:
 
 $\log_8(2-x)+\log_{64}(x+1)\geqq\log_4x$を解け．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1978/1978_0_1.pdf)

@@ -20,6 +20,3 @@ format:
 次の不等式の成り立つことを示せ．
 \[ \sqrt{\tan a \cdot \tan b} \leqq \tan \left( \frac{a+b}{2} \right) \leqq \frac{1}{2}(\tan a + \tan b) \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_4.pdf)

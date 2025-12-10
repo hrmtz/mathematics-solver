@@ -28,6 +28,3 @@ $g(x)$の満たす微分方程式を求めよ．
 \item[(3)]$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1991/1991_4.pdf)

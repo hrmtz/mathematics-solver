@@ -25,6 +25,3 @@ format:
 \item[(3)]線分$z_1w$，線分$z_2w$と短い方の円弧$\stackrel{\frown}{z_1z_2}$で囲まれるおうぎ形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2001/2001_0_3.pdf)

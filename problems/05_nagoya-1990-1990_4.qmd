@@ -31,6 +31,3 @@ $V(a)$を$a$と$\theta(a)$を用いて表せ．
 次に$\displaystyle\lim_{a\to\infty}V(a)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1990/1990_4.pdf)

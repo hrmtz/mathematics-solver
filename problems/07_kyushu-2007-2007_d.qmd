@@ -25,6 +25,3 @@ format:
 さいころを5回投げた後に持ち点が5点以上である確率$Q$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_d.pdf)

@@ -25,6 +25,3 @@ $xy$平面で$x$座標，$y$座標が共に0以上の整数となる点を非負
 $\triangle ABC$の面積を$a$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_0_3.pdf)

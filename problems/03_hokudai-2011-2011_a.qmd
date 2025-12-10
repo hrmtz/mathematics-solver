@@ -30,6 +30,3 @@ $0\leqq\theta<\pi$に対して，
 に関する対称移動であることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2011/2011_a.pdf)

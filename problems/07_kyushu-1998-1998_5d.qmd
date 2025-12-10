@@ -27,6 +27,3 @@ format:
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_5d.pdf)

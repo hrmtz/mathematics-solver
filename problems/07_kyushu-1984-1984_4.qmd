@@ -26,6 +26,3 @@ $f(x)$は$x\geqq0$で定義され，$f(0)=a$，$\displaystyle\lim_{x\to\infty}f(
 $G(x)$の最大値を$k$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1984/1984_4.pdf)

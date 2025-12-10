@@ -26,6 +26,3 @@ format:
 を満足するような点$P$の存在する範囲を図示せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_1.pdf)

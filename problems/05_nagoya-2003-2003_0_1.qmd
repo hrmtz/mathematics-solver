@@ -24,6 +24,3 @@ $\triangle OAB$の頂角$\angle O$の二等分線と辺$AB$との交点を$P$，
 \item[(2)]線分の長さ$OQ$を$\overrightarrow{a}$，$\overrightarrow{b}$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_0_1.pdf)

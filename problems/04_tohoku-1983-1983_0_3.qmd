@@ -22,6 +22,3 @@ $f(t)$を求めよ．
 \item[(2)](1)を利用して$\displaystyle\sum_{k=1}^nk^4$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1983/1983_0_3.pdf)

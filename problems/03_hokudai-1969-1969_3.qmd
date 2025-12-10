@@ -29,6 +29,3 @@ $w^{2n+1-k}+{\overline{w}}^k$を求めよ．
 \item[(4)]$\cos\theta+\cos2\theta+\cdots\cdots+\cos(n-1)\theta+\cos n\theta$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1969/1969_3.pdf)

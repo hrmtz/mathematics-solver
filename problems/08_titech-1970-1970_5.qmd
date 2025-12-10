@@ -29,6 +29,3 @@ format:
 成り立つことを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1970/1970_5.pdf)

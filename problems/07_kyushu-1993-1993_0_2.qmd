@@ -33,6 +33,3 @@ format:
 \item[(2)]不等式$y \geqq -x$の表す領域の1次変換による像を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1993/1993_0_2.pdf)

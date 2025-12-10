@@ -26,6 +26,3 @@ $I_{n+2}$を$I_n$で表せ．
 ただし，$n$は正の奇数とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1975/1975_5.pdf)

@@ -24,6 +24,3 @@ $P$と$Q$を$P \neq O$，$Q \neq O$，$\overrightarrow{OP}\perp\overrightarrow{O
 (p, \, q\text{は実数}) \]
 と表す．$p$と$q$の関係を求め，点$(p, \, q)$の描く図形をかけ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_0_c.pdf)

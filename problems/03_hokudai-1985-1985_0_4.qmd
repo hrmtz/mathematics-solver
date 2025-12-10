@@ -24,6 +24,3 @@ format:
 $P$が$l$上を動くとき，$\displaystyle\frac{S}{\beta-\alpha}$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1985/1985_0_4.pdf)

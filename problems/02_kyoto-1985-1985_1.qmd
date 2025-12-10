@@ -25,6 +25,3 @@ format:
 ただし，$\overrightarrow{AB}\cdot\overrightarrow{AC}$は
 $\overrightarrow{AB}$と$\overrightarrow{AC}$の内積をあらわす．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1985/1985_1.pdf)

@@ -24,6 +24,3 @@ $\stackrel{\frown}{PQ}=\stackrel{\frown}{PB}+\stackrel{\frown}{BQ}$なる関係�
 $\angle PAQ$がどんな大きさのときか。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1964/1964_0_2a.pdf)

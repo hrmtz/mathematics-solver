@@ -28,6 +28,3 @@ $\displaystyle 1+x \leqq e^x \leqq 1+x+\frac{x^2}{2}$であることを示せ。
 を示せ。ここで，$0.9 \cdots 93$は，小数点以下に9が$n$個続き，その次に3が現れる小数である。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2012/2012_d.pdf)

@@ -27,6 +27,3 @@ $\displaystyle\frac{du}{dt}$および$\displaystyle\frac{dv}{dt}$を$u$の関数
 \item[(3)]$u$を$t$の関数として表わせ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1990/1990_c.pdf)

@@ -28,6 +28,3 @@ $y$軸上の点$P$は直線$m$上の，第1象限の点$R$に移った．
 原点を通り直線$l$に垂直な直線は$\displaystyle y = \left( \tan\frac{\theta}{3} \right) x$となる．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2006/2006_3.pdf)

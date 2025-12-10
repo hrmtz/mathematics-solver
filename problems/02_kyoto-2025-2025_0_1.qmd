@@ -24,6 +24,3 @@ format:
 \item[問2]$n^4+6n^2+23$が$n^2+n+3$で割り切れるような正の整数$n$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2025/2025_0_1.pdf)

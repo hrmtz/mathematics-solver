@@ -27,6 +27,3 @@ format:
 \item[(6)]$\displaystyle a_n=\frac{1}{n}+\frac{1}{n+1}+\cdots\cdots+\frac{1}{2n}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1972/1972_3.pdf)

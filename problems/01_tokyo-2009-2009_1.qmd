@@ -26,6 +26,3 @@ format:
 \item[(3)]$m$が偶数のとき$d_m$は1または2であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2009/2009_1.pdf)

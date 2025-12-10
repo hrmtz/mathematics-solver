@@ -25,6 +25,3 @@ $\displaystyle\frac{S}{l^2}$のとりうる値の最大値を求めよ．
 また最大値をとるのはどのような3角形か．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1975/1975_2.pdf)

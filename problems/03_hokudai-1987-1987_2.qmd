@@ -28,6 +28,3 @@ format:
 ただし，$0<\theta<\pi$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1987/1987_2.pdf)

@@ -24,6 +24,3 @@ $D$から$BE$，$EC$におろした垂線の足をそれぞれ$G$，$H$とする
 \item[(3)]$\triangle ABC$と$\triangle DGH$との面積の比を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_0_1.pdf)

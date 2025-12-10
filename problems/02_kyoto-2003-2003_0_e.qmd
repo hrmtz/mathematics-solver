@@ -33,6 +33,3 @@ format:
 \[ 2\sin{40}^\circ+3\sin{80}^\circ+\cdots+9\sin{320}^\circ=-\frac{9}{2\tan{20}^\circ} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2003/2003_0_e.pdf)

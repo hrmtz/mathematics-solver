@@ -29,6 +29,3 @@ $AB=2a$，$AC=3a$，$\angle BAC={60}^\circ$である．
 \item[(3)]$O$から辺$AB$におろした垂線の足を$H$とするとき，$CH$の長さを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1969/1969_0_3.pdf)

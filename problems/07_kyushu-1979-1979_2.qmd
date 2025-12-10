@@ -23,6 +23,3 @@ $\displaystyle p=\frac{\sqrt5-1}{2}$，$q=1-p$とする．
 $q^k \leqq p^mq^n$を満たす自然数$m$，$n$の組$(m, \, n)$の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1979/1979_2.pdf)

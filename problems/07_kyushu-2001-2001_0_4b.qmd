@@ -26,6 +26,3 @@ format:
 \item[(4)]一般の$n$に対して，期待値$E(X_1+X_n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_0_4b.pdf)

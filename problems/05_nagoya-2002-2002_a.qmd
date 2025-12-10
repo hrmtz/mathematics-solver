@@ -26,6 +26,3 @@ format:
 \item[(3)]$l=xy$とする．$x>0$，$y>0$であるとき，$\displaystyle\frac{k}{l}$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2002/2002_a.pdf)

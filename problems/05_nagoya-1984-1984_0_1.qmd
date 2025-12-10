@@ -29,6 +29,3 @@ $\overrightarrow{p}$と$A^2\overrightarrow{p}$は直交する．
 ここで，$A^2=AA$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1984/1984_0_1.pdf)

@@ -24,6 +24,3 @@ $\alpha\beta$，$\beta\gamma$，$\gamma\alpha$であるものとする。
 \item[(2)]2つの方程式$f(x)=0$と$g(x)=0$が共通の解をもつような$k$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2013/2013_1.pdf)

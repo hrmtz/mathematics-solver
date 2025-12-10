@@ -25,6 +25,3 @@ $l\overrightarrow{PA}+m\overrightarrow{PB}+n\overrightarrow{PC}=\overrightarrow{
 \item[(2)]線分$BD$と線分$CD$の長さの比を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1976/1976_2.pdf)

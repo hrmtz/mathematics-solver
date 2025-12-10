@@ -29,6 +29,3 @@ format:
 競技者は最初の目がどの範囲にあるときに2回目を振るとよいか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2010/2010_2.pdf)

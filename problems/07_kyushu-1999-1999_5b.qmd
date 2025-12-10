@@ -24,6 +24,3 @@ $i$を虚数単位として次の問に答えよ．
 $\angle APB$が直角になるような$k$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_5b.pdf)

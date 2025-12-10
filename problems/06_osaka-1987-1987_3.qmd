@@ -25,6 +25,3 @@ $a$，$b$を定数とし，$f(x)={(x-a)}^2e^{-x^2+b}$とおく．
 \item[(3)]$\angle ACB$が鋭角となるための$a$，$b$についての条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1987/1987_3.pdf)

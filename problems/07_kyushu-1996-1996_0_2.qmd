@@ -29,6 +29,3 @@ $x$軸の正の部分を始線として，角$\theta$の動径と，原点$O$を
 $f(\overrightarrow{OP})$と$\overrightarrow{OP}$は平行であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1996/1996_0_2.pdf)

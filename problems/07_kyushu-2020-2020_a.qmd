@@ -30,6 +30,3 @@ format:
 が成り立つことを証明せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2020/2020_a.pdf)

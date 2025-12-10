@@ -32,6 +32,3 @@ $\displaystyle\lim_{n\to\infty}y_n=2$である．
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1989/1989_3.pdf)

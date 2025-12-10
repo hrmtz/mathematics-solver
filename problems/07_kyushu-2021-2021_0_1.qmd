@@ -24,6 +24,3 @@ format:
 線分$PQ$の長さの最大値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_0_1.pdf)

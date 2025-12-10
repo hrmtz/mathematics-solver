@@ -24,6 +24,3 @@ format:
 \item[(2)]定積分$\displaystyle\int_0^1\sin\alpha_1x\sin\alpha_2xdx$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1975/1975_4.pdf)

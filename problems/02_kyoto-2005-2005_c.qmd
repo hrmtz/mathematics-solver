@@ -31,6 +31,3 @@ A_{n+2}=\begin{pmatrix} 1 & 1
 \hspace{1zw} (n=1,2,3,\cdots) \]
 を満たすとき，$A_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_c.pdf)

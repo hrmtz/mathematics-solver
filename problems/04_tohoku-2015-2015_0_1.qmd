@@ -29,6 +29,3 @@ format:
 \item[(3)]数列$\{ a_n \}$の一般項を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2015/2015_0_1.pdf)

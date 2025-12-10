@@ -28,6 +28,3 @@ $f(x) \geqq g(x)$が成り立つことを証明せよ．
 \item[(3)]曲線$y=f(x)$，接線$y=g(x)$および直線$x=1$で囲まれた図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1989/1989_3.pdf)

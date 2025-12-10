@@ -26,6 +26,3 @@ $x$，$y$の関数$x\cos\theta+y\sin\theta$が$D$においてとる最大値と�
 \item[(2)]$f(\theta)$のグラフの概形を，解答用紙の図（下図）中に書き込め．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1989/1989_b.pdf)

@@ -25,6 +25,3 @@ format:
 \item[(3)]$F$が3次多項式で$F(1)=f(1)=1$となるとき，$f$と$F$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2013/2013_5.pdf)

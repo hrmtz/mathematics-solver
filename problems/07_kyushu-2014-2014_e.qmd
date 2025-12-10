@@ -36,6 +36,3 @@ $f(x)$を用いて，数列$\{ x_n \}$を次のように定義する。
 \item[(4)]$\displaystyle\lim_{n\to\infty}x_n=a$となることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2014/2014_e.pdf)

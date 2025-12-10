@@ -30,6 +30,3 @@ $\displaystyle\frac{T}{S}$の逆数$\displaystyle\frac{S}{T}$が整数となる�
 $p, \, q$の組$(p, \, q)$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2021/2021_2.pdf)

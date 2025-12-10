@@ -25,6 +25,3 @@ format:
 $P(n)$はどのような自然数に対して正しいといえるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_0_4.pdf)

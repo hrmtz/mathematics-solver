@@ -29,6 +29,3 @@ format:
 (2)で求めた$r$の値を使って表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_6.pdf)

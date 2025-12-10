@@ -22,6 +22,3 @@ $\angle APB>{90}^\circ$を満たす点$P$全体のなす集合を$M$とする．
 \item[(2)]$M$の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1993/1993_2.pdf)

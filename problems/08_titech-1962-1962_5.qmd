@@ -23,6 +23,3 @@ f_n(x)=\frac{1}{2h}\int_{x-h}^{x+h}f_{n-1}(t)dt \hspace{1zw}
 で定められる関数列がある。
 無限級数$\displaystyle\sum_{n=0}^\infty f_n(x)$の和を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1962/1962_5.pdf)

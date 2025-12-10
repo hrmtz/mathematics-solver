@@ -28,6 +28,3 @@ $S(t)$を最小にする$t$を求めよ．
 \item[(3)]$0\leqq t \leqq2$の範囲で，$S(t)=0$となる$t$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1983/1983_4b.pdf)

@@ -27,6 +27,3 @@ $\displaystyle f_n(x)=\int_0^xf_{n-1}(t)F_{n-1}(t)dt$とする．
 \item[(3)]$f_4'(1)=0$のとき，すべての$0\leqq x \leqq1$に対して$f_1(x)=0$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2002/2002_6.pdf)

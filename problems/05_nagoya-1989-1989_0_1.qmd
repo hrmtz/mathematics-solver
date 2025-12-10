@@ -23,6 +23,3 @@ format:
 $\alpha<\beta$であることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1989/1989_0_1.pdf)

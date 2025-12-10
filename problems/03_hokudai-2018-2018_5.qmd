@@ -30,6 +30,3 @@ g(x)=\sqrt{\frac{\pi^2}{2}-x^2}-\frac{\pi}{2} \]
 2つの曲線$y=f(x)$，$y=g(x)$および$y$軸が囲む部分の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2018/2018_5.pdf)

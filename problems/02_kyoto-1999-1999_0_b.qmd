@@ -20,6 +20,3 @@ $\alpha$，$\beta$が$\alpha>0^\circ$，$\beta>0^\circ$，$\alpha+\beta<{180}^\c
 $\sin^2\alpha+\sin^2\beta=\sin^2(\alpha+\beta)$を満たすとき，
 $\sin\alpha+\sin\beta$の取りうる範囲を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1999/1999_0_b.pdf)

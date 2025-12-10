@@ -23,6 +23,3 @@ $\displaystyle\frac{\sqrt{V(X)}}{E(X)}=\sqrt{\frac{2^m{(1+a^2)}^m}{{(1+a)}^{2m}}
 $\displaystyle\frac{\sqrt{V(X)}}{E(X)}$のとりうる値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1989/1989_4.pdf)

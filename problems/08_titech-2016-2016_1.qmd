@@ -25,6 +25,3 @@ $a$を正の定数とし，放物線$\displaystyle y=\frac{x^2}{4}$を$C_1$と�
 $P$が$C_1$上を動き，点$R$が$C_2$上を動くとき，$P$と$R$の距離の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2016/2016_1.pdf)

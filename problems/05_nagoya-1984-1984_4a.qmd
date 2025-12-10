@@ -25,6 +25,3 @@ format:
 条件$x^2+y^2=1$を満たしながら動くとき，
 $\overrightarrow{x}$と$A\overrightarrow{x}$との内積の最大値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1984/1984_4a.pdf)

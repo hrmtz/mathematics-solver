@@ -23,6 +23,3 @@ $C_1:y=\cos x$，$\displaystyle C_2:y=\frac{1-x^2}{1+x^2}$を考える．
 \item[(2)]$C_1$と$C_2$の共有点はただ1つであることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_5.pdf)

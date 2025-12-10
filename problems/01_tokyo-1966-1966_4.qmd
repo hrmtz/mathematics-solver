@@ -18,6 +18,3 @@ format:
 $x$に関する方程式$\displaystyle\frac{x}{9}-\sin\frac{\pi x}{6}=0$の最大の根に，
 もっとも近い整数を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1966/1966_4.pdf)

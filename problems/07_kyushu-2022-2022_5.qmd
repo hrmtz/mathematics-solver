@@ -31,6 +31,3 @@ $\displaystyle \frac{dx}{dt}<0, \, \frac{dy}{dx}<0$であることを示せ。
 \item[(4)]曲線$C$の概形を図示せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2022/2022_5.pdf)

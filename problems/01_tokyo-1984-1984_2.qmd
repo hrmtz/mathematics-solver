@@ -27,6 +27,3 @@ $A$に含まれ，直線$L$に接し，かつ曲線$C$と点$(t,\log t)$ $(0<t)$
 \item[ii)]$\displaystyle\lim_{t\to+\infty}\frac{f(t)}{g(t)}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1984/1984_2.pdf)

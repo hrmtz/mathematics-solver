@@ -26,6 +26,3 @@ $x=\Delta(A)$と$y=t(A)$の値を求めよ．
 ただし，$E$は2次の単位行列とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2013/2013_2.pdf)

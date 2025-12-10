@@ -26,6 +26,3 @@ format:
 任意の$n$について$|f(a_{n+1})-m|<|f(a_n)-m|$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_c.pdf)

@@ -27,6 +27,3 @@ format:
 $\displaystyle\frac{S}{T}$の最大値と，そのときの$x$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2011/2011_0_2.pdf)

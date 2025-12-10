@@ -30,6 +30,3 @@ $A$が勝つ確率を$P_n(A)$，$B$が勝つ確率を$P_n(B)$とする．
 \item[(2)]$P_n(A)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1991/1991_4a.pdf)

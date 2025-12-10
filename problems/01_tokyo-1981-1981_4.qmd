@@ -31,6 +31,3 @@ $\displaystyle \left( \text{ただし} 0 \leqq \alpha < \frac{\pi}{2} \right)$�
 $z$の値を，
 $\alpha$を用いて表せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1981/1981_4.pdf)

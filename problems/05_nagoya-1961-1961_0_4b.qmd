@@ -25,6 +25,3 @@ $(\alpha+\beta, \, \alpha-\beta)$を座標とする点はある線の上を動�
 \item[(3)]$\displaystyle k=2, \, \frac{5}{2}, \, 2\sqrt2, \, 3$のおのおのの場合に，(2)で求めた線のグラフをかけ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1961/1961_0_4b.pdf)

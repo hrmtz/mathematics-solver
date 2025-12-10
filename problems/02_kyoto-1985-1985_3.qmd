@@ -28,6 +28,3 @@ $b$，$c$は実数とし，$x^2+2bx+c=0$の2根を$\alpha$，$\beta$とする．
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1985/1985_3.pdf)

@@ -19,6 +19,3 @@ format:
 定積分$\displaystyle I(p)=\int_0^1|x^{n+1}-p^nx|dx$ $(p>0)$が最小となるような$p$の値を求めよ．
 ただし，$n$は自然数とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1978/1978_0_5a.pdf)

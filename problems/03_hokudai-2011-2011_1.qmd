@@ -25,6 +25,3 @@ format:
 $\displaystyle x^2-[x]-\frac{5}{4}=0$を満たす$x$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2011/2011_1.pdf)

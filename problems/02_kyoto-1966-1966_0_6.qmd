@@ -24,6 +24,3 @@ format:
 \item[(ii)]不等式$3\delta<\alpha<4\delta$を証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1966/1966_0_6.pdf)

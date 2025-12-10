@@ -63,6 +63,3 @@ $\alpha\neq0$，$\beta\neq0$のとき，無限級数$\displaystyle\sum_{n=1}^\in
 $\displaystyle\sum_{n=1}^\infty t_n$がともに収束するための$a$，$b$が満たすべき条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_b.pdf)

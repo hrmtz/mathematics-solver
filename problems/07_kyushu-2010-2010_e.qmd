@@ -31,6 +31,3 @@ $y=h(x)$，$x$軸，$y$軸および$x=z$で囲まれた部分の面積を$V(z)$�
 $\displaystyle\lim_{z\to\infty}V(z)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2010/2010_e.pdf)

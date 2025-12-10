@@ -21,6 +21,3 @@ format:
 \item[(ii)]上の三角形のうちで鋭角三角形になるものの総数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1966/1966_6a.pdf)

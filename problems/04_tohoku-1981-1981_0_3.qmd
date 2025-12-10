@@ -23,6 +23,3 @@ format:
 $y$軸のまわりに回転して得られる立体の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1981/1981_0_3.pdf)

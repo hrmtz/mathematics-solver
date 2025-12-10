@@ -31,6 +31,3 @@ $2AD=DE$とするとき，
 \item[(3)]$AB$と$EF$は平行で，$AG$と$BC$は直交することを証明せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1961/1961_2.pdf)

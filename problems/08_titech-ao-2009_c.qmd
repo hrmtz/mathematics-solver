@@ -20,6 +20,3 @@ format:
 の表す領域の面積を$S(n)$とする．
 極限値$\displaystyle\lim_{n\to\infty}\frac{1}{n}S(n)$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/ao/2009_c.pdf)

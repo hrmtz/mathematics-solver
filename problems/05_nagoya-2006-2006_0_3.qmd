@@ -31,6 +31,3 @@ $q_n=p_n(1)+p_n(6)$ $(n=1, \, 2, \, 3, \, \cdots)$とおく．
 \item[(3)]$p_n(1)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2006/2006_0_3.pdf)

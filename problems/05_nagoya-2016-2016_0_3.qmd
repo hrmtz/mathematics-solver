@@ -23,6 +23,3 @@ format:
 \item[(3)]2016の正の約数$n$で，$s(n)=2016$となるものをすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2016/2016_0_3.pdf)

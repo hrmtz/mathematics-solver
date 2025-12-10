@@ -20,6 +20,3 @@ format:
 \[ \int_p^qf(x)dx=(q-p)f(r) \]
 となる$r$を$p$，$q$で表せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1975/1975_3.pdf)

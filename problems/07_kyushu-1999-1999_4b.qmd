@@ -19,6 +19,3 @@ format:
 次の3つの数の大小関係を求めよ．
 \[ \frac{a+2b}{3}, \hspace{1zw} \sqrt{ab}, \hspace{1zw} \sqrt[3]{\frac{b(a^2+ab+b^2)}{3}} \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_4b.pdf)

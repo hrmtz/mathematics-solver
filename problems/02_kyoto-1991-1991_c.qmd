@@ -22,6 +22,3 @@ $\vec{c}$，$\vec{a}$のなす角を$\beta$とするとき，つぎの関係の�
 またここで等号の成立するのはどのような場合か．
 \[ 0\leqq\cos^2\alpha+\cos^2\beta+\cos^2\gamma-2\cos\alpha\cos\beta\cos\gamma\leqq1 \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_c.pdf)

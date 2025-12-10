@@ -26,6 +26,3 @@ format:
 \item[(3)]自分自身の持ってきたプレゼントに誰も当たらない確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_0_4.pdf)

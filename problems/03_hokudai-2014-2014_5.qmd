@@ -22,6 +22,3 @@ $\displaystyle f(x)=\int_x^{x+\frac{\pi}{3}}|\sin\theta|d\theta$とおく。
 \item[(2)]$0\leqq x \leqq\pi$における$f(x)$の最大値と最小値，およびそのときの$x$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2014/2014_5.pdf)

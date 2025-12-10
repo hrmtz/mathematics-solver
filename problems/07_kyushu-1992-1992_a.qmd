@@ -24,6 +24,3 @@ format:
 $x=a$から$x=b$までの部分の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_a.pdf)

@@ -27,6 +27,3 @@ format:
 長方形$ABCD$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1990/1990_a.pdf)

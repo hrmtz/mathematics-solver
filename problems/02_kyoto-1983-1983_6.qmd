@@ -26,6 +26,3 @@ $v=kx$ ($k$は正の定数)で与えられるようにポンプが調整され�
 (時刻$t$と$t+\Delta t$の間に流出する水量を$\Delta Q$とすれば，
 $\displaystyle\lim_{\Delta t\to0}\frac{\Delta Q}{\Delta t}=Sv$がなりたつ．)
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1983/1983_6.pdf)

@@ -27,6 +27,3 @@ format:
 \item[(3)]数列$\{a_n\}$が収束するような実数$c$の値の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2017/2017_c.pdf)

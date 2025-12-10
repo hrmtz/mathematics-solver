@@ -25,6 +25,3 @@ $\triangle ABC$の内接円の半径を$r$として，次の等式を証明せ�
 \item[(2)]$8\alpha\beta=r^2$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1963/1963_2.pdf)

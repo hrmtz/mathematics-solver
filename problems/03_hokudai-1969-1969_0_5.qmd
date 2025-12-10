@@ -26,6 +26,3 @@ a_n=\frac{1}{3}(4a_{n-1}-a_{n-2}) \hspace{1zw} (n\geqq3) \]
 $\displaystyle\lim_{n\to\infty}S_n$を求めよ．ただし，対数は常用対数とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1969/1969_0_5.pdf)

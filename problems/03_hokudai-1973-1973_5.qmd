@@ -24,6 +24,3 @@ $\displaystyle f(x)=x^2+2+2\int_1^xtf(t)dt$を満たしている．
 \item[(2)]曲線$y=f(x)$と，2直線$y=1$，$y=3$とで囲まれる部分を$y$軸のまわりに回転して得られる立体の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1973/1973_5.pdf)

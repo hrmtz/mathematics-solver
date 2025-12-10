@@ -30,6 +30,3 @@ $\displaystyle \log_2 \left[ \frac{5}{2}+\cos\theta \right] \leqq \left[ \frac{3
 を満たす$\theta$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_4.pdf)

@@ -30,6 +30,3 @@ format:
 \item[(3)]感染者数が初めて1万人を超えるのは何日後か求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_b.pdf)

@@ -22,6 +22,3 @@ $\overrightarrow{OP}=a\overrightarrow{OA}$，$\overrightarrow{OQ}=b\overrightarr
 また，その条件を満たす点$(a, \, b)$はどのような範囲にあるかを座標平面上に図示せよ．
 ただし，三角形$OPQ$の辺上の点は，三角形$OPQ$の内部に含まれないと考える．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2006/2006_4.pdf)

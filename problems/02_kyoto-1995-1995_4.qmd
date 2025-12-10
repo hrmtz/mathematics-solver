@@ -34,6 +34,3 @@ $n\geqq3$ならば$C_n=\begin{pmatrix} -1 & 1
 
  0 & 1 \end{pmatrix}$であることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1995/1995_4.pdf)

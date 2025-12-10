@@ -31,6 +31,3 @@ $p$を用いて$\overrightarrow{c}$と$\overrightarrow{d}$の成分表示を書�
 \item[(3)]上の条件に加えて$\overrightarrow{c}\cdot\overrightarrow{d}=p$であるとき$p$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2013/2013_0_3.pdf)

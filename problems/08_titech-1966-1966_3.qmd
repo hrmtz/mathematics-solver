@@ -18,6 +18,3 @@ format:
 $\displaystyle\frac{1}{p}+\frac{1}{q}=1$，$p>0$，$q>0$のとき，
 $x\geqq0$において，$x$と$\displaystyle\frac{1}{p}x^p+\frac{1}{q}$との大小を比較せよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1966/1966_3.pdf)

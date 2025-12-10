@@ -25,6 +25,3 @@ format:
 \item[(3)]$\displaystyle\lim_{n\to\infty}a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1984/1984_2.pdf)

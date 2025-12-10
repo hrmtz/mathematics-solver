@@ -30,6 +30,3 @@ format:
 ただし，グラフの凹凸を調べる必要はない．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2020/2020_1.pdf)

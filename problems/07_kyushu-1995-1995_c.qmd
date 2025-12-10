@@ -26,6 +26,3 @@ format:
 \item[(2)]上記の$g(a)$の値を最大にする$a$およびそのときの$g(a)$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1995/1995_c.pdf)

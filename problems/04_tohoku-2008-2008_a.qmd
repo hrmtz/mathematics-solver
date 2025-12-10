@@ -30,6 +30,3 @@ $\overrightarrow{a}$，$\overrightarrow{b}$，$t$で表せ．
 ただし，これら5点はどの2点も一致しないものとする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_a.pdf)

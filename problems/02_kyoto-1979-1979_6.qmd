@@ -37,6 +37,3 @@ $\stackrel{\frown}{CC_1},\stackrel{\frown}{C_1C_2},\cdots,\stackrel{\frown}{C_kC
 は等比数列であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1979/1979_6.pdf)

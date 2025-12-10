@@ -27,6 +27,3 @@ $xy$平面の単位円上に点$P(\cos t, \, \sin t)$ $(0 \leqq t \leqq \pi)$が
 $x$軸で囲まれる部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2008/2008_d.pdf)

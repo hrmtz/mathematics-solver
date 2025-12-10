@@ -24,6 +24,3 @@ format:
 $\triangle PAC$の面積を最大にする$P$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1990/1990_0_4.pdf)

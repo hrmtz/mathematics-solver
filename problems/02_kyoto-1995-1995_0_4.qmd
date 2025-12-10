@@ -29,6 +29,3 @@ format:
 線分の長さの比$\displaystyle\frac{B_1B_2}{A_1A_2}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1995/1995_0_4.pdf)

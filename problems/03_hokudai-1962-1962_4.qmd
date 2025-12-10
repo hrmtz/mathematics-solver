@@ -22,6 +22,3 @@ format:
 このとき点$A$，$B$における2つの接線の交点$Q$の軌跡を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1962/1962_4.pdf)

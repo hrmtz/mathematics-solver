@@ -26,6 +26,3 @@ $A$および$l$を求めよ．
 このとき$a$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1992/1992_3.pdf)

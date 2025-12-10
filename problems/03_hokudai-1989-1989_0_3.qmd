@@ -26,6 +26,3 @@ $x$に関する2つの不等式
 \item[(2)]\ding{"AC}の解がすべて\ding{"AD}を満たすような$a$の値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1989/1989_0_3.pdf)

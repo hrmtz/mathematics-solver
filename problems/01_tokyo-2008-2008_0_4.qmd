@@ -27,6 +27,3 @@ b_{n+1}=pa_n+(p+1)b_n & (n=1,2,3,\cdots) \end{cases} \]
 このとき，$a_p$は$p^2$で割り切れるが，$p^3$では割り切れないことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2008/2008_0_4.pdf)

@@ -26,6 +26,3 @@ $y=f(x)$のグラフを$C$とする。
 $\alpha, \, \beta$がともに整数であるような組$(\alpha, \, \beta)$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2024/2024_1.pdf)

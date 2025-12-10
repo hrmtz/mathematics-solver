@@ -40,6 +40,3 @@ $\tan\beta$および$\tan\gamma$を$\theta_1$で表せ．
 \item[(3)]$\tan\alpha$の最大値と，最大値を与える$\theta_1$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2006/2006_b.pdf)

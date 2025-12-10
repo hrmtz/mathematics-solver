@@ -24,6 +24,3 @@ $n$回行って一度も連勝せず$n$回目に勝つ確率を$b_n$とする．
 \item[(2)]$b_{n+2}+(a-1)b_{n+1}+a(a-1)b_n=0$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_5.pdf)

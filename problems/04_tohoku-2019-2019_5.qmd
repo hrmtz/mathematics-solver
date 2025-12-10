@@ -23,6 +23,3 @@ format:
 \[ (1+e^x)f(x)=\sin^2(\pi x)+\int_{-1}^1(e^x-e^t+1)f(t)dt \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_5.pdf)

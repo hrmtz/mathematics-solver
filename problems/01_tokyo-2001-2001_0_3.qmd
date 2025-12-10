@@ -34,6 +34,3 @@ $X_{n+1}$と$X_n$の間の関係式を求めよ．
 \item[(2)]$X_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2001/2001_0_3.pdf)

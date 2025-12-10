@@ -29,6 +29,3 @@ format:
 $P_n=$（カ）であり，$\displaystyle\lim_{n\to\infty}P_n=$（キ）となる．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1991/1991_d.pdf)

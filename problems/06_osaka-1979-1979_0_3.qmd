@@ -23,6 +23,3 @@ y=bx^3+x+2 & \cdots\cdots\cdots\text{\ding{"AD}} \end{cases}$がある1点を通
 曲線\ding{"AD}と$l$が囲む図形の面積の2倍に等しい．
 このとき$a$と$b$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1979/1979_0_3.pdf)

@@ -19,6 +19,3 @@ format:
 次の和を求めよ．
 \[ \sum_{k=1}^n\frac{k}{1^2+3^2+5^2+\cdots\cdots+{(2k-1)}^2} \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_0_d.pdf)

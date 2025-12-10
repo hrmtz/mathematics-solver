@@ -34,6 +34,3 @@ $xy$平面上の点$P_0(x_0, \, y_0)$が与えられている．
 $\displaystyle\lim_{n\to\infty}\frac{{x_n}^2}{{x_n}^2+{y_n}^2}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1987/1987_2.pdf)

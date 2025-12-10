@@ -24,6 +24,3 @@ format:
 また，$\displaystyle P=\frac{1}{6}$ならば$\displaystyle p_k=\frac{1}{6}$である$(k=1,2,3,4,5,6)$ことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1979/1979_4.pdf)

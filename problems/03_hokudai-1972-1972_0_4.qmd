@@ -26,6 +26,3 @@ $x$と$y$の間の関係式を求め，これを図示せよ．
 ただし，$\overline{z}$，$\overline{c}$はそれぞれ$z$，$c$の共役複素数である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1972/1972_0_4.pdf)

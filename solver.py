@@ -89,21 +89,21 @@ def generate_solution_qmd(problem_qmd: str, problem_id: str, model: Optional[str
 HANDOUT_YAML_HEADER = """---
 lang: ja
 format:
-  html:
-    theme: default
-    toc: false
-    number-sections: false
-    css: ../static/handout-print.css
+    html:
+        theme: default
+        toc: false
+        number-sections: false
+        css: ../static/handout-print.css
 ---
 
 """
 
 
 def _sanitize_tex_for_handout(text: str) -> str:
-    """MathJax / Quarto で問題になりやすい TeX を handout 用に軽くサニタイズする。
+    """MathJax / Quarto で問題になりやすい TeX を handout/test 用に軽くサニタイズする。
 
-    現状は、OCR 由来で頻出する ``\hspace{1zw}`` などの ``zw`` 単位を
-    MathJax が理解できる ``\quad`` に置き換えるだけ。
+    - ``\hspace{1zw}`` などの ``zw`` 単位を MathJax が理解できる ``\quad`` に置き換える
+    - LaTeX の description 環境をシンプルな HTML 段落に変換する
     """
 
     if not text:
@@ -141,17 +141,23 @@ def _sanitize_tex_for_handout(text: str) -> str:
 
 
 def build_handout_qmd(problem_qmd_path: Path, solution_qmd_path: Path, problem_id: str) -> str:
-    """Generate a combined handout qmd from problem and solution qmd files."""
+    """Generate a combined handout qmd from problem and solution qmd files.
+
+    問題セクションの末尾には、プレビュー／テスト形式と同様に
+    出典 `[大学, 年度]` を右下に表示するための div を追加する。
+    """
 
     problem_qmd = problem_qmd_path.read_text(encoding="utf-8")
     solution_qmd = solution_qmd_path.read_text(encoding="utf-8")
 
-    # 問題側の YAML ヘッダを剥がして本文だけ取り出す
+    # 問題側の YAML ヘッダを剥がして本文とメタデータを取り出す
     lines = problem_qmd.splitlines()
     body_lines = []
+    meta_lines = []
     if lines and lines[0].strip() == "---":
         i = 1
         while i < len(lines) and lines[i].strip() != "---":
+            meta_lines.append(lines[i])
             i += 1
         if i < len(lines):
             body_lines = lines[i + 1 :]
@@ -174,6 +180,30 @@ def build_handout_qmd(problem_qmd_path: Path, solution_qmd_path: Path, problem_i
         filtered_lines.append(line)
     body = "\n".join(filtered_lines).strip()
     body = _sanitize_tex_for_handout(body)
+
+    # YAML メタから出典ラベルを構成する
+    citation_label = ""
+    if meta_lines:
+        yaml_text = "\n".join(meta_lines)
+        try:
+            import yaml  # ローカルインポートで循環を避ける
+
+            meta = yaml.safe_load(yaml_text) or {}
+        except Exception:  # 解析に失敗しても handout 自体は生成できるようにする
+            meta = {}
+
+        university = meta.get("university") or ""
+        exam_year = meta.get("exam_year") or ""
+        parts_label = []
+        if university:
+            parts_label.append(str(university))
+        if exam_year:
+            parts_label.append(str(exam_year))
+        if parts_label:
+            citation_label = f"[{', '.join(parts_label)}]"
+
+    if citation_label:
+        body = f"{body}\n\n\n<div style=\"text-align: right;\">{citation_label}</div>"
 
     parts = [
         HANDOUT_YAML_HEADER.strip(),

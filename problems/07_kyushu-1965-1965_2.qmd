@@ -18,6 +18,3 @@ format:
 
 不等式$\displaystyle\log_4(4+x-x^2)-\log_2(1-x)\leqq\frac{1}{2}$を満足する$x$の値の範囲を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1965/1965_2.pdf)

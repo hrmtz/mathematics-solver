@@ -25,6 +25,3 @@ $1 \leqq k \leqq m-1$に対して$2a_k \leqq a_{k+1}$を満たすものの個数
 \item[(3)]極限値$\displaystyle\lim_{n\to\infty}\frac{S_3(n)}{n^3}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2011/2011_b.pdf)

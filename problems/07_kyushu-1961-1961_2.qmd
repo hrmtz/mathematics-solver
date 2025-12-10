@@ -24,6 +24,3 @@ $\angle CAB=\angle BCX$を証明せよ。
 $CO // AB$を証明せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1961/1961_2.pdf)

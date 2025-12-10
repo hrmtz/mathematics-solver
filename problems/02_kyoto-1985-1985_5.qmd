@@ -26,6 +26,3 @@ format:
 \item[(ii)]$X$は一様分布，すなわち$\displaystyle P(X=k)=\frac{1}{3}$ $(k=0,1,2)$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1985/1985_5.pdf)

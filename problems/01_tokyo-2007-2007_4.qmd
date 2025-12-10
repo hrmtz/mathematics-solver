@@ -32,6 +32,3 @@ format:
 行列の積$A_n A_{n-1} A_{n-2} \cdots A_2$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2007/2007_4.pdf)

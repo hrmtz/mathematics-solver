@@ -30,6 +30,3 @@ $\displaystyle\sum_{n=1}^\infty S_n$を$a_1$，$c_1$，$k$で表せ．
 内部の面積は$\pi ab$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_b.pdf)

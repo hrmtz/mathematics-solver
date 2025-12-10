@@ -22,6 +22,3 @@ format:
 \item[(b)]3個の円板すべてが共有する点は$P$のみである．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2006/2006_3.pdf)

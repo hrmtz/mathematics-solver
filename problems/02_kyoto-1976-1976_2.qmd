@@ -32,6 +32,3 @@ $0^\circ$，${30}^\circ$，${45}^\circ$，${60}^\circ$，${90}^\circ$および�
 12個のベクトルからなる集合$S$の例を図示し，各ベクトルを$\mathbf{a}$，$\mathbf{b}$であらわせ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1976/1976_2.pdf)

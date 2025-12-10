@@ -30,6 +30,3 @@ $\displaystyle0\leqq x\log\left(\frac{1}{x}\right)<\frac{1}{2}$が成り立つ�
 \item[(4)]$\displaystyle\lim_{n\to\infty}a_n=0$を示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2012/2012_d.pdf)

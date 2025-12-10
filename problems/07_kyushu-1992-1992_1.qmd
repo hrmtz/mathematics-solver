@@ -30,6 +30,3 @@ $\overrightarrow{c}$を$\overrightarrow{b}$と$\overrightarrow{d}$で表せ．
 \item[(4)]四角形$ABCD$と四角形$BCDE$の面積の比を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1992/1992_1.pdf)

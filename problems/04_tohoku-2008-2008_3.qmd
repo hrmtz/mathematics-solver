@@ -25,6 +25,3 @@ $OA=OB=OC=1$かつ$\angle AOB=\angle BOC=\angle COA=\theta$をみたすとする
 \item[(2)]$\theta$を動かしたときの，$O$，$A$，$B$，$C$を頂点とする四面体の体積の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_3.pdf)

@@ -28,6 +28,3 @@ $\triangle ABC$の面積を$S(a)$で表すとき
 この関数のグラフをかけ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_5.pdf)

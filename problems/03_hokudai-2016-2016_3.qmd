@@ -25,6 +25,3 @@ format:
 ひきだしAのメダルの色が2種類である確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2016/2016_3.pdf)

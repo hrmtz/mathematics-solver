@@ -27,6 +27,3 @@ $\displaystyle\left( 0, \, \frac{1}{9} \right)$を通る直線$l$を考える。
 三角形$ABC$の内部および周上にある格子点の個数を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2020/2020_2.pdf)

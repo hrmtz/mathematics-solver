@@ -23,6 +23,3 @@ format:
 \item[(2)]信号は何通りできるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_0_3b.pdf)

@@ -20,6 +20,3 @@ format:
 $\angle ACB$が$\displaystyle \frac{\pi}{2} \leqq \angle ACB < \pi$を満たすならば
 $\angle ADB < \angle ACB$となることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1968/1968_4.pdf)

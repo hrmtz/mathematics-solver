@@ -29,6 +29,3 @@ $C_n$ $(n\geqq1)$の中心の座標を$(a_n, \, b_n)$とするとき，次の問
 \item[(2)]$a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2002/2002_0_2.pdf)

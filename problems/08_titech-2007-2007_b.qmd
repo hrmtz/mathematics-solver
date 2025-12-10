@@ -26,6 +26,3 @@ $\displaystyle 0<x<\frac{\pi}{2}$に対して
 2曲線$\displaystyle y=\log\frac{a}{f(x)}$と$y=g(x)$のグラフが交わるための条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2007/2007_b.pdf)

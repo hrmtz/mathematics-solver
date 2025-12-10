@@ -25,6 +25,3 @@ $C_2$と(1)で求めた2つの直線で囲まれた図形の面積を$S_2$とす
 $\displaystyle\frac{S_2}{S_1}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_0_1.pdf)

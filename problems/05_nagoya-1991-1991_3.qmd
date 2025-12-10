@@ -25,6 +25,3 @@ format:
 \item[(3)]$\displaystyle\lim_{n\to\infty}f_n(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1991/1991_3.pdf)

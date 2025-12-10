@@ -26,6 +26,3 @@ $\displaystyle s_n=\frac{1}{n}({\overline{PQ_0}}^2+\overline{PQ_1}^2+\cdots\cdot
 $\displaystyle{\lambda}_P=\lim_{n\to\infty}s_n$の値を$a$，$b$をもちいてあらわせ．
 また，$P$がどこにあれば${\lambda}_P$の値は最小となるか．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1971/1971_5.pdf)

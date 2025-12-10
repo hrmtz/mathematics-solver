@@ -27,6 +27,3 @@ $\displaystyle\left[ \frac{{10}^{n(n+1)}}{{10}^n-2} \right]$を
 ${10}^n$で割った余りを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2018/2018_a.pdf)

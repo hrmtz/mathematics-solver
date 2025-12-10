@@ -23,6 +23,3 @@ format:
 \item[(2)]$\triangle DEF$の面積が最小となるときの点$D$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1988/1988_0_c.pdf)

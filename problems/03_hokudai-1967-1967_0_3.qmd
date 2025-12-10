@@ -27,6 +27,3 @@ x+y=0\hspace{1zw}\cdots\cdots\cdots\text{\ding{"AD}} \]
 $PF=PH$となるような点$P$の軌跡を新しい座標に関する方程式で表わせ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1967/1967_0_3.pdf)

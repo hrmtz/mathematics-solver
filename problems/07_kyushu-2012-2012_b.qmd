@@ -33,6 +33,3 @@ $\overrightarrow{CP}=s\overrightarrow{CA}+t\overrightarrow{CB}$を満たす実�
 点$Q$の座標を$\theta$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2012/2012_b.pdf)

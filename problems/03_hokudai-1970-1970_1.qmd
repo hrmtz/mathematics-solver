@@ -26,6 +26,3 @@ format:
 $P$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1970/1970_1.pdf)

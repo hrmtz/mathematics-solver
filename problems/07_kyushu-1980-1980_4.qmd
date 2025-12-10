@@ -19,6 +19,3 @@ format:
 次の関係を満足する連続関数$f(x)$，$g(x)$を求めよ．
 \[ f(x)=x^2+\int_0^1tg(t)dt, \hspace{1zw} g(x)=e^{-x}+x\int_0^1f(t)dt \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1980/1980_4.pdf)

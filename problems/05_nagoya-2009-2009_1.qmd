@@ -27,6 +27,3 @@ $P$が双曲線と円の共有点であり，
 \item[(2)]$\triangle ABC$が正三角形となる$a$と$r$が存在するような$b$の値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2009/2009_1.pdf)

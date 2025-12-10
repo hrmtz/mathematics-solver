@@ -23,6 +23,3 @@ format:
 \item[(2)]$a \geqq 1$に対して，極限値$\displaystyle \lim_{n \to \infty}n^2\int_a^{a+\frac{1}{n}}(f_n(t)-1)dt$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1998/1998_3.pdf)

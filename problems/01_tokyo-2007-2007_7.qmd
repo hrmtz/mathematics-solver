@@ -28,6 +28,3 @@ $\displaystyle\frac{T}{S}$の値を求めよ．
 \item[(4)]前問(3)で求めた$y_0$に対し，$\triangle P_0P_1P_2$の外接円の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2007/2007_7.pdf)

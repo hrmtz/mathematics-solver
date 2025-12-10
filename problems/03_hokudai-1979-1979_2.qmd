@@ -26,6 +26,3 @@ $\begin{pmatrix} \cos\theta & -\sin\theta
 \item[(2)]$t$が1以上を動くとき，(1)で得た図形に属する点の存在範囲を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1979/1979_2.pdf)

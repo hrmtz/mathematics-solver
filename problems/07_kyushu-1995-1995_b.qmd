@@ -41,6 +41,3 @@ $\theta$が$0\leqq\theta\leqq2\pi$の範囲を動くとき
 直線$y=x$のまわりに回転させてできる立体の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1995/1995_b.pdf)

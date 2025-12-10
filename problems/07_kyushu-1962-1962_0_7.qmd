@@ -18,6 +18,3 @@ format:
 $a_1+a_2+a_3+\cdots\cdots+a_n=3n^2$ $(n=1, \, 2, \, 3\cdots\cdots)$のとき
 $\displaystyle\lim_{n\to\infty}(\sqrt{a_2+a_4+\cdots\cdots+a_{2n}}-\sqrt{a_1+a_3+\cdots\cdots+a_{2n-1}})$を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1962/1962_0_7.pdf)

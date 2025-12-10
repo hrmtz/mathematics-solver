@@ -30,6 +30,3 @@ $P_0$と$Q_0$の座標を求めよ．
 四面体$DEFG$の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_c.pdf)

@@ -46,6 +46,3 @@ $U$内のすべての異なる2点間に線分を引くものとする．
 $\displaystyle P(B)\geqq\frac{5}{9}$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_d.pdf)

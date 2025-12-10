@@ -20,6 +20,3 @@ $\triangle ABC$の内心を$P$とする．
 $\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC}=\vec{0}$が成り立っているとき，
 この三角形は正三角形であることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2006/2006_0_b.pdf)

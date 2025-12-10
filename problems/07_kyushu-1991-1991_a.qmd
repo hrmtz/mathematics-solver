@@ -33,6 +33,3 @@ format:
 また，この直線と直線$l$のつくる角を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1991/1991_a.pdf)

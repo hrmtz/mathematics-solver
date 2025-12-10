@@ -31,6 +31,3 @@ format:
 点$P$の描く軌跡と$l_1$，$l_2$で囲まれる部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_b.pdf)

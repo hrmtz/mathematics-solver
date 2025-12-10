@@ -23,6 +23,3 @@ format:
 \item[(2)]ちょうど2周して上がる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1990/1990_5.pdf)

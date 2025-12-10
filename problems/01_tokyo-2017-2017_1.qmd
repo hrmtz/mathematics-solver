@@ -28,6 +28,3 @@ format:
 また，条件をみたす点$(a, \, b)$が描く図形を座標平面上に図示せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2017/2017_1.pdf)

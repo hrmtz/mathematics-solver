@@ -25,6 +25,3 @@ $\overrightarrow{OB}=(r, \, s, \, 0)$がともに
 ただし，$\displaystyle0<\theta<\frac{\pi}{2}$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1977/1977_2.pdf)

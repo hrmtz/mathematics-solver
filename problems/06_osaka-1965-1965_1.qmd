@@ -22,6 +22,3 @@ $BE:EM=\sqrt2:1$であるとき，次の(1)，(2)に答えよ。
 \item[(2)]$\angle MBC$が${45}^\circ$で，$AC=2a$のとき，$BC$の長さを$a$で表わせ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1965/1965_1.pdf)

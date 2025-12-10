@@ -23,6 +23,3 @@ format:
 \cos\frac{10}{9}\pi+\cos\frac{14}{9}\pi+\cos\frac{16}{9}\pi$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1975/1975_1.pdf)

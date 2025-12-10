@@ -20,6 +20,3 @@ $l$，$m$，$n$を3以上の整数とする．
 等式$\displaystyle \left( \frac{n}{m}-\frac{n}{2}+1 \right) l=2$
 を満たす$l$，$m$，$n$の組をすべて求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2010/2010_3.pdf)

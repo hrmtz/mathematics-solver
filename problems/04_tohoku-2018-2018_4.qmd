@@ -28,6 +28,3 @@ $\displaystyle h\leqq\frac{1}{2}$が成り立つことを示せ。
 また，等号が成り立つのはどのような場合か。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_4.pdf)

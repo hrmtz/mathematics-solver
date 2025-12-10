@@ -20,6 +20,3 @@ format:
 $\alpha\geqq0^\circ$，$\beta\geqq0^\circ$，$\gamma\geqq0^\circ$を満たすとき，
 $\cos\alpha+\cos\beta+\cos\gamma\geqq1$を示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2005/2005_0_c.pdf)

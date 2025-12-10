@@ -24,6 +24,3 @@ $i$を虚数単位とし$\displaystyle a=\cos\frac{\pi}{3}+i\sin\frac{\pi}{3}$�
 {(1-a)(1-a^2)(1-a^3)(1-a^4)(1-a^5)}$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1970/1970_1.pdf)

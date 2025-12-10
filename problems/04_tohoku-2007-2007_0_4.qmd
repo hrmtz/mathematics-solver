@@ -19,6 +19,3 @@ format:
 関数$f(x)$が，$\displaystyle f(x)=x^2-x\int_0^2|f(t)|dt$を満たしているとする．
 このとき，$f(x)$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_0_4.pdf)

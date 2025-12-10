@@ -24,6 +24,3 @@ format:
 \item[(3)]$\displaystyle\lim_{m\to\infty}m\sum_{n=m+1}^{2m}a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2012/2012_a.pdf)

@@ -23,6 +23,3 @@ format:
 \item[(2)]$f(x)=0$をみたす自然数$x$の個数が3個である確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2025/2025_5.pdf)

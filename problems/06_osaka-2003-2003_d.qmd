@@ -37,6 +37,3 @@ $A_0=I_0$，$A_n=p^nI_n$とおくとき，$A_0, \, A_1, \, A_2, \, \cdots\cdots$
 さらに，これから矛盾を導け．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_d.pdf)

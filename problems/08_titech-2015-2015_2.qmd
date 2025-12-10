@@ -30,6 +30,3 @@ $\overrightarrow{OH'}=s\overrightarrow{b}+t\overrightarrow{c}$と表す．
 また，$x$が変化するときの$V$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2015/2015_2.pdf)

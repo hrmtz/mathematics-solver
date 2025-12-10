@@ -28,6 +28,3 @@ E=\sum_{k=0}^5 p(k)f(k) \]
 とおくとき，$E$を最小にするような$m$，$n$，$a$，$b$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1978/1978_6.pdf)

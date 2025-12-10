@@ -20,6 +20,3 @@ format:
 \[ f(x)=\int_0^\pi|\sin(t-x)-\sin2t|dt \]
 の区間$0 \leqq x \leqq \pi$における最大値と最小値を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_6.pdf)

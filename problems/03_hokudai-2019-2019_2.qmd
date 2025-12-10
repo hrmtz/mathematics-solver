@@ -24,6 +24,3 @@ $n$を自然数とし，$a_n=n(n+1)$とする。
 \item[(4)]$d_n\leqq12$を示せ。また，$d_n=12$となるような$n$を1つ求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2019/2019_2.pdf)

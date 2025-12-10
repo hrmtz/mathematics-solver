@@ -26,6 +26,3 @@ $|\overrightarrow{a}|=1$，$|\overrightarrow{b}|=\sqrt{13}$とする．
 \item[(3)]内積$\overrightarrow{DE}\cdot\overrightarrow{DB}$と$\angle EDB$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_b.pdf)

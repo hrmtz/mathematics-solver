@@ -26,6 +26,3 @@ $\displaystyle\lim_{t\to0}\frac{\tan3t}{\tan2t}$とする．
 実数$a$に対して$\displaystyle a=\frac{\tan3x}{\tan2x}$を満たす$x$の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1985/1985_6.pdf)

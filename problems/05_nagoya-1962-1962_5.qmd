@@ -25,6 +25,3 @@ $\angle BAC$の大きさを$A$として，$\cos A$の値を求めよ。
 $\displaystyle\frac{DE}{AB}$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1962/1962_5.pdf)

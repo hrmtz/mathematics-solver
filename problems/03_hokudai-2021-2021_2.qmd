@@ -28,6 +28,3 @@ $\displaystyle\frac{|AB|}{|BC|}$が最小となるときの$a$の値を求めよ
 ただし，$|AB|$および$|BC|$はそれぞれ線分$AB$と線分$BC$の長さを表す。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2021/2021_2.pdf)

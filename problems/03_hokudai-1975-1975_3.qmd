@@ -26,6 +26,3 @@ format:
 \item[(3)]複素数${(\cos\alpha_n+i\sin\alpha_n)}^n$の偏角を$\alpha$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1975/1975_3.pdf)

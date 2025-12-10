@@ -25,6 +25,3 @@ format:
 \item[(2)]また，4辺形$ABOC$の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1969/1969_0_4.pdf)

@@ -26,6 +26,3 @@ $1 \leqq n \leqq 17$であるような$n$について，
 $\triangle OP_nP_{n+1}$が直角二等辺三角形となるような$n$と$a$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_1.pdf)

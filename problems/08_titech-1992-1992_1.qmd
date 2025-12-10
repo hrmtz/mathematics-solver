@@ -18,6 +18,3 @@ format:
 
 $x$の関数$\displaystyle\frac{x^2-2x+k^2}{x^2+2x+k^2}$ $(k \geqq 0)$が1以外の整数値をとらないような定数$k$の値の範囲を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1992/1992_1.pdf)

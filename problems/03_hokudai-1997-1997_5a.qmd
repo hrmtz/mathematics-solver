@@ -32,6 +32,3 @@ $z_0\neq0$となることを示せ．
 このとき，\ding{"AC}は$z_1$と異なる解をもつことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1997/1997_5a.pdf)

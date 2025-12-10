@@ -30,6 +30,3 @@ $\displaystyle r_n=\frac{x_n}{y_n}$，$n=1, \, 2, \, 3, \, \cdots\cdots$とお�
 このとき$r_{2n}>r_{2(n+1)}>\sqrt3$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1991/1991_0_1.pdf)

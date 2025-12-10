@@ -19,6 +19,3 @@ $n$は自然数とし，$\displaystyle f(x)=1+\frac{x^2}{1\cdot2}+\frac{x^3}{2\c
 \frac{x^{n+1}}{n(n+1)}$とする．
 このとき，$-1 \leqq x \leqq 1$において$1 \leqq f(x)<2$であることを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1973/1973_5.pdf)

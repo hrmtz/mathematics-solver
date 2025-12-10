@@ -31,6 +31,3 @@ $\displaystyle\lim_{y\to\infty}F_n(y)=\infty$を示せ。
 \item[(3)](2)の$a_n$について，不等式$a_n<4$がすべての$n$に対して成り立つことを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2022/2022_4.pdf)

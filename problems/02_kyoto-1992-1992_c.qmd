@@ -23,6 +23,3 @@ format:
 \item[(2)]$\displaystyle\frac{R}{r}=2$となる点$P(t,t^2)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_c.pdf)

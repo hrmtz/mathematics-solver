@@ -23,6 +23,3 @@ $B$，$C$，$A$にむかってそれぞれ一定の速さで進んで，時刻$t
 \item[(ロ)]$\triangle DEF$の面積の最小値は$\triangle ABC$の面積の何倍か．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1963/1963_4.pdf)

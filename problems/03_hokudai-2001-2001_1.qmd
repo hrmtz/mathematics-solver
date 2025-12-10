@@ -31,6 +31,3 @@ $\begin{pmatrix} s
 ただし，$E$は単位行列である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2001/2001_1.pdf)

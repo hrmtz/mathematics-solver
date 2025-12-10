@@ -33,6 +33,3 @@ format:
 \[ \sum_{n=1}^{{10}^k-1}b_n<80 \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2021/2021_1.pdf)

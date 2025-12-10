@@ -24,6 +24,3 @@ format:
 \item[(ii)]$\displaystyle{(a_n-1)}^2<\frac{1}{4n}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1976/1976_4.pdf)

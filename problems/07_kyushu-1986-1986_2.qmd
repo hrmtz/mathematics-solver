@@ -25,6 +25,3 @@ $t$秒後の点$P$，$Q$，$R$について，次の(1)，(2)に答えよ．
 $\overline{PQ}^2+\overline{QR}^2+\overline{RP}^2$の最大値と最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1986/1986_2.pdf)

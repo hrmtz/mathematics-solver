@@ -33,6 +33,3 @@ $\displaystyle\omega=-\frac{1}{2}-\frac{\sqrt3}{2}i$であることを示せ。
 $g(x)$を$f(x)$で割ったときの余りを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_e.pdf)

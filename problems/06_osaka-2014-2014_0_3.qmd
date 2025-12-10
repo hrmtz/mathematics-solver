@@ -20,6 +20,3 @@ format:
 ただし$\alpha\neq0$とする．
 このとき，$p, \, q, \, r, \, s$を$\alpha, \, M, \, m$で表せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2014/2014_0_3.pdf)

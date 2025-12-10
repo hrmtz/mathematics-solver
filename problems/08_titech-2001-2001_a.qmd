@@ -25,6 +25,3 @@ $n=1,2,3,\cdots$に対して$a_n=\tan(11n)$とおく．
 \item[(4)]無限数列$a_1$，$a_3$，$a_5$，$a_7$，$\cdots$は増加数列ではない．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2001/2001_a.pdf)

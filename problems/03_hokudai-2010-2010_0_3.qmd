@@ -33,6 +33,3 @@ $k$を自然数として，以下の問いに答えよ．
 \item[(3)]$\displaystyle(k^2+1)S_k\leqq\frac{1}{100}$を満たす最小の自然数$k$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2010/2010_0_3.pdf)

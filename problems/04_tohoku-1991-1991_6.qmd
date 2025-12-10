@@ -31,6 +31,3 @@ $a$を実数とし，点$(1, \, -1)$を点$(\sqrt2, \, -\sqrt2)$に，
 \item[(2)]$\displaystyle|\overrightarrow{P_1P_8}|=\frac{635}{\sqrt2}$となるような$a$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_6.pdf)

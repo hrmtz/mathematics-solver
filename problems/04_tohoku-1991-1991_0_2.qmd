@@ -28,6 +28,3 @@ $C_2$の$R$における接線と$C_1$で囲まれる部分の面積が，
 $C_1$と$C_2$で囲まれる部分の面積の$\displaystyle\frac{1}{\sqrt2}$倍になるように$t$の値を定めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_0_2.pdf)

@@ -27,6 +27,3 @@ $\triangle ABC$の内部および境界を$T$とおく。実数$a$に対して�
 \item[(3)](1)のもとで，$D$が$T$に含まれるような$a$の値の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2017/2017_5.pdf)

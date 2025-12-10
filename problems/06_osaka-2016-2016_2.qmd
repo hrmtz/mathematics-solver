@@ -25,6 +25,3 @@ format:
 の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2016/2016_2.pdf)

@@ -24,6 +24,3 @@ format:
 \item[(3)]$f^{-1}(x)=f(f(x))$を満たし，$f(x) \neq x$となる$a$，$b$，$c$，$d$の関係式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2000/2000_3.pdf)

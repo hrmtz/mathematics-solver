@@ -29,6 +29,3 @@ $\displaystyle a_{n+1}-\sqrt[3]{c}<\frac{1}{\sqrt[3]{c}}{(a_n-\sqrt[3]{c})}^2$�
 $\displaystyle a_5-\sqrt[3]{2}<\frac{1}{2^5 \cdot {10}^{16}}$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_5c.pdf)

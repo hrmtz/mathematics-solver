@@ -22,6 +22,3 @@ format:
 \item[(2)]$a$，$b$，$c$のうちに素数ではないものがあることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_0_d.pdf)

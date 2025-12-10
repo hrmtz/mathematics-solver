@@ -24,6 +24,3 @@ $x$軸を準線とする放物線がある．
 \item[(3)]$\theta$が変化するとき頂点の軌跡を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1970/1970_0_4.pdf)

@@ -24,6 +24,3 @@ format:
 水面の高さが$h$cm$(0 \leqq h \leqq h_0)$になるまでに要する時間$t$(秒)を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_b.pdf)

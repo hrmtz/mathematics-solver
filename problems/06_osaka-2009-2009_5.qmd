@@ -28,6 +28,3 @@ $\displaystyle\lim_{n\to\infty}q_n=1$を証明せよ．
 \item[(3)]$\displaystyle\lim_{n\to\infty}nS_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2009/2009_5.pdf)

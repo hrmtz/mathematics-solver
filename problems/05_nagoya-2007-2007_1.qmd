@@ -30,6 +30,3 @@ $a, \, b, \, d$が実数で$c=0$である行列$\begin{pmatrix} a & b
 \item[(3)]上三角行列$A$が$A^4=E$をみたすとき，$A^2=E$となることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2007/2007_1.pdf)

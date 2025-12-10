@@ -25,6 +25,3 @@ $a_1=a$，$a_{n+1}=a_n+d$ $(n=1, \, 2, \, 3, \, \cdots\cdots)$なる数列$\{ a_
 \item[(2)]$a$が整数のとき，その値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1974/1974_0_3.pdf)

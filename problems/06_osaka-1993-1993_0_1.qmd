@@ -27,6 +27,3 @@ format:
 線分$y=x-2$ $\displaystyle\left(\frac{3}{2}\leqq x \leqq\frac{5}{2}\right)$を通過するための
 $a$の範囲を$n$で表せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1993/1993_0_1.pdf)

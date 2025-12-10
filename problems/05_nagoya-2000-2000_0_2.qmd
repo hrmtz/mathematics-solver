@@ -21,6 +21,3 @@ format:
 \item[(2)]奇数$n$に対して，$P(n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2000/2000_0_2.pdf)

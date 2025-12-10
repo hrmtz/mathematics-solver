@@ -29,6 +29,3 @@ $n$が偶数ならば$a_n>b_n=c_n$が成り立つことを示せ．
 \item[(4)]$b_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2010/2010_0_3.pdf)

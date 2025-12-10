@@ -36,6 +36,3 @@ $T$を求めよ。
 必要であれば$\displaystyle\tan\frac{\theta}{2}=u$とおく置換積分を用いてもよい。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2024/2024_6.pdf)

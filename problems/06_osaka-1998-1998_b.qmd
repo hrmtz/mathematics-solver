@@ -25,6 +25,3 @@ $\cos3\alpha=\cos4\alpha$を示し，
 \item[(3)]$\displaystyle0.6<\cos\frac{2\pi}{7}<0.7$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1998/1998_b.pdf)

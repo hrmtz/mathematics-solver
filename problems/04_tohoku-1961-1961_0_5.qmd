@@ -27,6 +27,3 @@ $x$，$y$，$\theta$は
 直線\ding{"AC}が点$P$を通るとき，この直線は直線$OP$と直交することを証明せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1961/1961_0_5.pdf)

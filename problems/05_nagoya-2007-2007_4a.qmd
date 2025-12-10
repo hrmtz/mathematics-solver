@@ -24,6 +24,3 @@ format:
 \item[(2)]点$P$が直線$x+y=2$上を動くとき，点$Q$の軌跡を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2007/2007_4a.pdf)

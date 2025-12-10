@@ -25,6 +25,3 @@ format:
 \item[(3)]$V$が最大となるように$a$の値を定めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2010/2010_a.pdf)

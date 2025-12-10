@@ -26,6 +26,3 @@ format:
 \item[(2)]関数$f(y)$を求めよ．ただし，$f(y)$は正の値をとるものとする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1989/1989_3.pdf)

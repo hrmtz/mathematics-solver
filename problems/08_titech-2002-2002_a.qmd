@@ -25,6 +25,3 @@ $n$を自然数とする．
 \item[(3)]極限$\displaystyle\lim_{n \to \infty}\sum_{k=0}^n\frac{(-1)^k}{2k+1}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2002/2002_a.pdf)

@@ -25,6 +25,3 @@ ${x_1}^2+{x_2}^2+\cdots\cdots+{x_n}^2=1$を満たすとき，
 ${x_1}^2+2{x_2}^2+\cdots\cdots+n{x_n}^2$の最大値と最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1976/1976_1.pdf)

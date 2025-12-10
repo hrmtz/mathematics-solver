@@ -27,6 +27,3 @@ format:
 \item[(2)]この試行を4回行ったとき，持ち点が10以下である確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2024/2024_0_4.pdf)

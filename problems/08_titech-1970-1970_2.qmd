@@ -23,6 +23,3 @@ $x$軸の正の方向を始線（原線）とする極方程式を求めよ．
 $\displaystyle\frac{1}{PF \cdot QF}+\frac{1}{RF \cdot SF}$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1970/1970_2.pdf)

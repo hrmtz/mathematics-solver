@@ -35,6 +35,3 @@ $\sqrt{x^2+y^2}$で定義される．
 \item[(4)]行列$A$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_4.pdf)

@@ -24,6 +24,3 @@ $\cos\theta+i\sin\theta$ $\displaystyle\left(0<\theta<\frac{\pi}{2}\right)$な�
 \item[(2)]$a$の値を求め，またこの三次方程式を解け。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1964/1964_0_4.pdf)

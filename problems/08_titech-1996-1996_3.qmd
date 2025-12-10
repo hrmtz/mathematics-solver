@@ -24,6 +24,3 @@ format:
 \item[(2)]$\alpha<0<\beta$のとき$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1996/1996_3.pdf)

@@ -25,6 +25,3 @@ $x$，$y$，$z$は実数で，次の2つの関係式
 \item[(2)]$xy+yz+zx$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1974/1974_1.pdf)

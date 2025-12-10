@@ -25,6 +25,3 @@ format:
 \item[(3)](2)のとき，$S_n=a_1+a_3+a_5+\cdots+a_{2n-1}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1974/1974_3.pdf)

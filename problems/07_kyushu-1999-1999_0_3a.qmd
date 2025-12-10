@@ -26,6 +26,3 @@ format:
 $m$を正の偶数とするとき第$m$区画に属する項の和$T_m$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_0_3a.pdf)

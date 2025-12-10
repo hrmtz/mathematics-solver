@@ -25,6 +25,3 @@ $x$軸，$y$軸の囲む3角形の面積を$S(t)$とする．
 \item[(3)]$S(t_0)=2t_0\cos t_0$を示せ．また，$\displaystyle S(t_0)>\frac{\sqrt2}{4}\pi$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1997/1997_6.pdf)

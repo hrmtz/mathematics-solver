@@ -25,6 +25,3 @@ $f(x)=(x-\alpha)(x-\beta)(x-\gamma)$がある．
 $\displaystyle\frac{1}{2}(\alpha+\beta)$と$A$との大小を比較せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1968/1968_0_5.pdf)

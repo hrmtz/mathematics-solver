@@ -22,6 +22,3 @@ format:
 \item[(2)](1)の2曲線と$x$軸とで囲まれる図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1981/1981_1.pdf)

@@ -24,6 +24,3 @@ format:
 $a\to1$のときどのような点に近づくか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1984/1984_0_4.pdf)

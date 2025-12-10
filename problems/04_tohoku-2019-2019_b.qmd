@@ -24,6 +24,3 @@ $n$を正の整数とする。
 \[ \sum_{k=1}^n\cos(kx)=0 \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_b.pdf)

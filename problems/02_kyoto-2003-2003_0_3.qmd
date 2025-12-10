@@ -26,6 +26,3 @@ $\overrightarrow{OC}\bot\overrightarrow{AB}$
 をみたしている．
 このとき，この四面体は正四面体であることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2003/2003_0_3.pdf)

@@ -33,6 +33,3 @@ $\begin{pmatrix} \alpha_n & \beta_n
 となるための必要十分条件は$n$が6の倍数であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1993/1993_b.pdf)

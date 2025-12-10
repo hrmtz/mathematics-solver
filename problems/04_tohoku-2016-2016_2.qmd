@@ -26,6 +26,3 @@ format:
 を満たす素数の組$(p, \, q)$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_2.pdf)

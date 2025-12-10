@@ -24,6 +24,3 @@ $z$は$\alpha$，$\beta$，$\gamma$を頂点とする三角形の内部に存在
 ただし，$\alpha$，$\beta$，$\gamma$は同一直線上にはないものとする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_a.pdf)

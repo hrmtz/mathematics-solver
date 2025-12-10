@@ -28,6 +28,3 @@ format:
 このとき，$w^n$が負の実数となるための整数$n$の必要十分条件を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2022/2022_5.pdf)

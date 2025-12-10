@@ -27,6 +27,3 @@ $\displaystyle F(a)=\int_0^af(x)f \left( x-\frac{\pi}{2} \right) dx$とする．
 \item[(3)]$F(a)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2006/2006_4.pdf)

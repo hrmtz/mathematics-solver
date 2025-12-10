@@ -23,6 +23,3 @@ $p^2+q^2+r^2$を$pq+qr+rp$のみで表せ．
 \item[(2)]$\triangle PQR$の重心はある一つの放物線上にあることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2006/2006_b.pdf)

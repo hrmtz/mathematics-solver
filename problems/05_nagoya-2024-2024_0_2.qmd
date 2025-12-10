@@ -27,6 +27,3 @@ $A(-1, \, -2)$として，$\displaystyle X=\frac{1}{4}t^2+t$とおくとき，${
 また，$AP<AQ$となるために$t$が満たすべき条件を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2024/2024_0_2.pdf)

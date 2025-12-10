@@ -26,6 +26,3 @@ format:
 $S(P)$が最小となるときの，直線$l$の傾き$m$と$S(P)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_0_2.pdf)

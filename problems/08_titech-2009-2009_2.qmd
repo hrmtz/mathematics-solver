@@ -25,6 +25,3 @@ format:
 \item[(2)]点$Q$が$L$上にあれば，その$f$による像$f(Q)$も$L$上にある．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2009/2009_2.pdf)

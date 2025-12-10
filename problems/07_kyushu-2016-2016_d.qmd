@@ -35,6 +35,3 @@ c_{n+1}=\frac{a_n-b_n}{2}, \hspace{1zw} n=0, \, 1, \, 2, \, \cdots \]
 \[ c_{n+2}<{ \left( \frac{1}{2\sqrt\alpha}c_{n+1} \right) }^2 \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2016/2016_d.pdf)

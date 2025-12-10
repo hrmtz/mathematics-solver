@@ -31,6 +31,3 @@ $N$から定まる数列$\{a_n\}$のある項が2となるようなものはい�
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2014/2014_4.pdf)

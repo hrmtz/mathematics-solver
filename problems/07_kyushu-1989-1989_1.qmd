@@ -22,6 +22,3 @@ format:
 \item[(2)]曲線$y=f(x)$の凹凸および変曲点を調べ，概形を描け．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1989/1989_1.pdf)

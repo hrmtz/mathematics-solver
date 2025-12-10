@@ -26,6 +26,3 @@ $n=4$のときに受ける賞金の期待値を求めよ．
 \item[(4)]$\displaystyle\lim_{n\to\infty}P(X_n=3)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_4c.pdf)

@@ -30,6 +30,3 @@ $D_{n-1}$のすべての辺に対して(i)～(iii)の操作を行って得られ
 \item[(3)]$\displaystyle\lim_{n\to\infty}S_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2010/2010_c.pdf)

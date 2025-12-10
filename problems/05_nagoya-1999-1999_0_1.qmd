@@ -23,6 +23,3 @@ format:
 $C$と$l$によって囲まれる図形全体の面積を最小にする$k$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1999/1999_0_1.pdf)

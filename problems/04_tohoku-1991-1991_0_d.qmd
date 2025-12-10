@@ -24,6 +24,3 @@ format:
 \item[(3)]点$(t, \, \log_2(1+4^t), \, \log_2(2^t+2^{-t}))$は$t$の値によらず同一平面上にある．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_0_d.pdf)

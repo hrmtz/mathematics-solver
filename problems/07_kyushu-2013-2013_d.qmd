@@ -33,6 +33,3 @@ $\alpha$を$\displaystyle0\leqq\alpha\leqq\frac{\pi}{2}$を満たす実数とし
 \item[(3)]極限値$\displaystyle\lim_{n\to\infty}x_n$が最大となる$\alpha$と，その極限値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2013/2013_d.pdf)

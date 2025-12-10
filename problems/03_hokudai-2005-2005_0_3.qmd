@@ -21,6 +21,3 @@ format:
 $\displaystyle\frac{1}{n}\sum_{k=1}^nf(k)=\frac{1}{3}f(n)$
 が成り立つような$f(x)$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2005/2005_0_3.pdf)

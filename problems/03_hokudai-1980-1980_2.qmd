@@ -24,6 +24,3 @@ $\displaystyle\frac{b}{a^2}$が0に近づくときに，
 $\displaystyle\alpha\sqrt{\left|\frac{a}{b}\right|}$はどんな値に近づくか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1980/1980_2.pdf)

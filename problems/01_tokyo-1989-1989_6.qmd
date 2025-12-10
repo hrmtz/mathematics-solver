@@ -19,6 +19,3 @@ format:
 このとき白玉が連続して$k+1$個以上並んだ箇所が現れない確率を求めよ．
 ただし$\displaystyle \frac{n}{3} \leqq k \leqq \frac{n}{2}$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1989/1989_6.pdf)

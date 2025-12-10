@@ -24,6 +24,3 @@ $\displaystyle\frac{L}{n}$となるように$\theta_n$を定めるとき，
 極限値$\displaystyle\lim_{n\to\infty}\sqrt{n}\theta_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_6.pdf)

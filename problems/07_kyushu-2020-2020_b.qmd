@@ -29,6 +29,3 @@ $f_n(x)=0$は相異なる2つの解を持つことを示せ。
 極限$\displaystyle\lim_{n\to\infty}\frac{S_n}{n}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2020/2020_b.pdf)

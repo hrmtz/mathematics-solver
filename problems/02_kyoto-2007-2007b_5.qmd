@@ -21,6 +21,3 @@ $\overrightarrow{x_{n+1}}=A\overrightarrow{x_n}$ $(n=0,1,2,\cdots)$によって�
 ある零ベクトルではない$\overrightarrow{x_0}$について，3以上の自然数$m$で初めて$\overrightarrow{x_m}$が$\overrightarrow{x_0}$と一致するとき，
 行列$A^m$は単位行列であることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2007/2007b_5.pdf)

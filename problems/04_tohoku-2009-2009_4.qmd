@@ -29,6 +29,3 @@ $a$を$\displaystyle 0 \leqq a \leqq \frac{\pi}{2}$を満たす実数とする�
 (1)の$I$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2009/2009_4.pdf)

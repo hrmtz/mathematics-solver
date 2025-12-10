@@ -23,6 +23,3 @@ format:
 $2^{p-1}-1=pq^2$を満たす$p, \, q$の組をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2015/2015_5.pdf)

@@ -20,6 +20,3 @@ format:
 さらに$0 \leqq x \leqq 2$において$|f''(x)|\leqq1$が成り立つならば，
 $\displaystyle|f(2)|\leqq\frac{2}{3}$であることを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1993/1993_0_3.pdf)

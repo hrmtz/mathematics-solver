@@ -24,6 +24,3 @@ format:
 であることを証明せよ．
 ただし$|\mathbf{a}|$，$|\mathbf{b}|$はそれぞれ$\mathbf{a}$，$\mathbf{b}$の大きさを示す．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1973/1973_3.pdf)

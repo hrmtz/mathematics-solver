@@ -28,6 +28,3 @@ $\alpha$を複素数とする。複素数$z$の方程式
 点$\beta$が複素数平面上に描く図形を図示せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2018/2018_5.pdf)

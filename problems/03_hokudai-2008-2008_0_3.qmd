@@ -26,6 +26,3 @@ $\alpha$，$\beta$に対して，$\alpha+\beta=k$，$\alpha\beta=1$が成り立�
 そのときの$\alpha$と$\beta$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_0_3.pdf)

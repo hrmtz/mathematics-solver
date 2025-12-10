@@ -21,6 +21,3 @@ $x_n=r^n\sin n\theta$ $\displaystyle\left(\text{ただし}r>0, \, 0<\theta<\frac
 $\displaystyle x_1=\frac{\sqrt3}{4}$，$\displaystyle x_2=\frac{\sqrt3}{8}$であるとき
 $\displaystyle\sum_{n=1}^\infty x_n$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1989/1989_2.pdf)

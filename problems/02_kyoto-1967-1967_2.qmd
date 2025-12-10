@@ -23,6 +23,3 @@ format:
 \item[(ii)]$Z^2-4iZ+(-4+2i)=0$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1967/1967_2.pdf)

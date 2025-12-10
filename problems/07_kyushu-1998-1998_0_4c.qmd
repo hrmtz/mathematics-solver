@@ -28,6 +28,3 @@ format:
 \item[(4)]一般の$n$について$X+Y$の期待値$E(X+Y)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_0_4c.pdf)

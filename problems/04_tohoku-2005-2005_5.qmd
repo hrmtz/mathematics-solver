@@ -44,6 +44,3 @@ $C\begin{pmatrix} 0 & a
 \item[(3)]$n\to\infty$のとき$A_n$のすべての成分が収束するための条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_5.pdf)

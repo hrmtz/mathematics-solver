@@ -25,6 +25,3 @@ format:
 その範囲を$ab$平面上に図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_1.pdf)

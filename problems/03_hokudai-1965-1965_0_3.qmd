@@ -24,6 +24,3 @@ $\displaystyle\log\frac{\sqrt{x}}{10}$および$\displaystyle\log\frac{{10}^3}{x
 \item[(2)]$m+2=n$のとき，$x$のとりうる値の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1965/1965_0_3.pdf)

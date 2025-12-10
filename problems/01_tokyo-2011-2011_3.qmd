@@ -28,6 +28,3 @@ $P$から出発して反時計回りに道のり$L$だけ進んだ点を$Q(u(t),
 \item[(3)]極限$\displaystyle\lim_{a\to+0}\frac{f(a)}{\log a}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2011/2011_3.pdf)

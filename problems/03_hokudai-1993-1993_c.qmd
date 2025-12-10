@@ -24,6 +24,3 @@ format:
 $l$と$C_2$とで囲まれる図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1993/1993_c.pdf)

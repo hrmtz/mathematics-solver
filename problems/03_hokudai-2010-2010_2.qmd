@@ -30,6 +30,3 @@ $A^2-A+E=O$を満たすとき，以下の問いに答えよ．
 $A$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2010/2010_2.pdf)

@@ -35,6 +35,3 @@ $k$，$n$を正の整数とする。整数$a_1, \, a_2, \, \cdots, \, a_k$と
 \item[(3)]$A_{3,3}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_0_d.pdf)

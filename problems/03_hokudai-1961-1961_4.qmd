@@ -24,6 +24,3 @@ $y=\sin3t-\cos3t$について，次の問に答えよ。
 \item[(3)]点$P(x, \, y)$の軌跡をグラフで表わせ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1961/1961_4.pdf)

@@ -30,6 +30,3 @@ y=0\cdots\cdots\text{\ding{"AF}} \]
 点$A$における曲線\ding{"AC}の接線と曲線\ding{"AC}および直線\ding{"AE}とで囲まれる部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1972/1972_0_4.pdf)

@@ -26,6 +26,3 @@ $i$を虚数単位とする．
 \item[(3)]$\displaystyle\frac{n}{2^{n-1}}=\sin\frac{\pi}{n}\sin\frac{2\pi}{n}\cdots\sin\frac{n-1}{n}\pi$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2002/2002_4.pdf)

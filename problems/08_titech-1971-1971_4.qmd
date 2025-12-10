@@ -26,6 +26,3 @@ $xy$平面の点$P(x, \, y)$に$x+y=u$，$xy=v$によって$uv$平面の点$Q(u,
 対称であることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1971/1971_4.pdf)

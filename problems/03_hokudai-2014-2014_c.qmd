@@ -22,6 +22,3 @@ format:
 ${(a-15)}^2+b^2$の最小値，およびそのときの$(a, \, b)$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2014/2014_c.pdf)

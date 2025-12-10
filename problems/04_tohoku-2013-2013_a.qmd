@@ -28,6 +28,3 @@ $\displaystyle\frac{\pi}{3}\leqq\theta\leqq\frac{\pi}{2}$の範囲に1つだけ�
 \item[(4)]$\displaystyle\sin\frac{3\theta}{4}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2013/2013_a.pdf)

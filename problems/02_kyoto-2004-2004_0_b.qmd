@@ -21,6 +21,3 @@ $x\geqq0$に対して，関数$f(x)$を次のように定義する．
  0 & (x>1\text{のとき}) \end{cases} \]
 　自然数$k$に対して，$\displaystyle\int_0^3f \left( \frac{x^2}{k} \right) dx$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_0_b.pdf)

@@ -27,6 +27,3 @@ $A=\begin{pmatrix} \displaystyle\frac{1}{2}\left(t+\frac{1}{t}\right) & \display
 単位円$x^2+y^2=1$上の定点$P_0(x_0, \, y_0)$の行列$A$の表す1次変換によって移る点の軌跡を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1993/1993_4.pdf)

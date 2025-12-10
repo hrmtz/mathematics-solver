@@ -28,6 +28,3 @@ $P(\theta+\sin\theta, \, \cos\theta)$間の距離$AP$の2乗として定める�
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2021/2021_5.pdf)

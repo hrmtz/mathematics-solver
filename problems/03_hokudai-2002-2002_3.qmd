@@ -28,6 +28,3 @@ $S$の最大値を$a$，$b$で表せ．
 点$C$は楕円$\displaystyle { \left( \frac{x}{\sqrt2a} \right) }^2+{ \left( \frac{y}{\sqrt2b} \right) }^2=1$上にあることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2002/2002_3.pdf)

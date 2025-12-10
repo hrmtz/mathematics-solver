@@ -25,6 +25,3 @@ format:
 \item[(3)]$\alpha^{2003}$以下の最大の整数の1の位の数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2003/2003_4.pdf)

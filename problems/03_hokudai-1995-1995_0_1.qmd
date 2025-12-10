@@ -20,6 +20,3 @@ $\displaystyle-\frac{\pi}{2}<\theta<\frac{\pi}{2}$で，
 $2\cos2\theta+a\sin2\theta=1$のとき，
 $\tan\theta$を$a$を用いて表せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1995/1995_0_1.pdf)

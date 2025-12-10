@@ -24,6 +24,3 @@ $f(x)$の値が整数となる$x$の個数を$a_n$とする．
 $a_n$を，$n$を用いて表し，$\displaystyle\sum_{k=1}^n\frac{1}{a_k}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1986/1986_0_3.pdf)

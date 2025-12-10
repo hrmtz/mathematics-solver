@@ -23,6 +23,3 @@ $\displaystyle\sum_{k=1}^n a_k$を求めよ．
 \item[(ii)]$\log a_n - \log a_{n-1} = \log(n-1)-\log(n+1)$ $(n \geqq 2)$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2003/2003_1.pdf)

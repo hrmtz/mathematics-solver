@@ -40,6 +40,3 @@ $\displaystyle\lim_{\theta\to\frac{\pi}{3}+0}\beta(\theta)$をそれぞれ求め
 \item[(5)]$\displaystyle\frac{\pi}{3}<\theta<\frac{\pi}{2}$における$\beta(\theta)$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2004/2004_7.pdf)

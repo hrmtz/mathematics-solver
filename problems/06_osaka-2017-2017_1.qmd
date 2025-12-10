@@ -24,6 +24,3 @@ format:
 3点$P$，$Q$，$R$は一直線上にあることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2017/2017_1.pdf)

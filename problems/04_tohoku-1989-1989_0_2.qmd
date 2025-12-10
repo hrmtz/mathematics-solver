@@ -20,6 +20,3 @@ format:
 \item[(2)]円$C$上のすべての点からの距離が$\sqrt{32}$である点を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1989/1989_0_2.pdf)

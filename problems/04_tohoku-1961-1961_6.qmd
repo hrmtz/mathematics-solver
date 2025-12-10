@@ -26,6 +26,3 @@ $0<\theta<\pi$において$S$が最大となる$\theta$を求めよ。
 
 ![](../archive/04_tohoku/1961/fig_1961_6.jpg)
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1961/1961_6.pdf)

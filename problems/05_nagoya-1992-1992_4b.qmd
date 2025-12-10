@@ -23,6 +23,3 @@ format:
 \item[(2)]$s$と$t$を変化させたときの$S$と$T$の面積の和の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1992/1992_4b.pdf)

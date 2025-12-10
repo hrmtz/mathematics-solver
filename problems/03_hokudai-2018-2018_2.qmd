@@ -25,6 +25,3 @@ $\displaystyle z+\frac{4}{z}$が実数となるような
 ただし，$i$は虚数単位を表す。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2018/2018_2.pdf)

@@ -25,6 +25,3 @@ format:
 \item[(2)]$\triangle AQC$が点$Q$を直角の頂点とする直角二等辺三角形になるとき，複素数$w$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1998/1998_0_4a.pdf)

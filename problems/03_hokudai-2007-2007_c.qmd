@@ -26,6 +26,3 @@ $xyz$空間において連立方程式
 \item[(2)]この立体の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_c.pdf)

@@ -42,6 +42,3 @@ C=\begin{pmatrix} x & 0
 また，そのときの極限$\displaystyle\lim_{n\to\infty}p_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2001/2001_d.pdf)

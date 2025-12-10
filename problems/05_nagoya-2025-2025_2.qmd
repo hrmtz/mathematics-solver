@@ -26,6 +26,3 @@ format:
 このとき，条件(＊)をみたす整数の組$(a, \, b)$をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2025/2025_2.pdf)

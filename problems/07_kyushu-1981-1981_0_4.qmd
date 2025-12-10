@@ -28,6 +28,3 @@ $\overrightarrow{e}$と$\overrightarrow{b}$とのなす角が$\displaystyle\frac
 $\overrightarrow{e}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1981/1981_0_4.pdf)

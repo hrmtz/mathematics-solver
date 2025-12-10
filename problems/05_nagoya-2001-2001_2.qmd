@@ -20,6 +20,3 @@ format:
 $\displaystyle f(x)=\int_0^\pi \sin \left( |t-x|+\frac{\pi}{4} \right) dt$
 の最大値および最小値とそのときの$x$の値をそれぞれ求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2001/2001_2.pdf)

@@ -21,6 +21,3 @@ format:
 □にあてはまる数または式は何か．またその理由を述べよ．
 \[ \text{□}\leqq a \leqq\text{□}, \hspace{1zw} b=\text{□}, \hspace{1zw} c=\text{□} \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1973/1973_1.pdf)

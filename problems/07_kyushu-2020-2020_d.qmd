@@ -27,6 +27,3 @@ format:
 $\displaystyle\frac{|x|+|y|}{\sqrt{x^2+y^2}}$の最大値および最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2020/2020_d.pdf)

@@ -20,6 +20,3 @@ format:
 2次方程式$x^2+3nx+C_n=0$の2つの解である$(n=1, \, 2, \, \cdots\cdots)$．
 $a_1=1$のとき$\displaystyle\sum_{n=1}^{2p}C_n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1978/1978_4.pdf)

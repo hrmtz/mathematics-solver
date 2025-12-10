@@ -24,6 +24,3 @@ format:
 \item[(2)]1両あたりの運搬費が距離の3乗に比例するとき．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1966/1966_2.pdf)

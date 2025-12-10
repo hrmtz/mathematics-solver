@@ -25,6 +25,3 @@ format:
 \item[(3)]原点$O$を通る球面で，平面$S$による切り口が三角形$ABC$の内接円となるものの方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_a.pdf)

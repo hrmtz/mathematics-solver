@@ -29,6 +29,3 @@ $(0<\alpha<\pi)$とする．
 点$C$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_4.pdf)

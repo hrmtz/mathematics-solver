@@ -26,6 +26,3 @@ format:
 $\displaystyle\sum_{n=1}^\infty a_nr^{n-1}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1968/1968_4.pdf)

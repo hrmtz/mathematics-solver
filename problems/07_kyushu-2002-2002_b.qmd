@@ -36,6 +36,3 @@ $\overrightarrow{v_B}(t)=(t+2)\overrightarrow{e}(t)$をみたしながら運動�
 また，点$P$の原点からの距離$d(t)$を$t$の式で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2002/2002_b.pdf)

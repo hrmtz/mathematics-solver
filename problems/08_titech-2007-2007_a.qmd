@@ -24,6 +24,3 @@ format:
 \item[(2)]この方程式が自然数の解をもつ確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2007/2007_a.pdf)

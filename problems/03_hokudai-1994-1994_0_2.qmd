@@ -25,6 +25,3 @@ format:
 外接円の半径$r$を長さ$OA$，$OB$，$OC$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_0_2.pdf)

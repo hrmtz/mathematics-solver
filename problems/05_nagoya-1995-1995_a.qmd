@@ -25,6 +25,3 @@ format:
 $S$の中心を頂点とする円錐の体積を最大にする$k$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1995/1995_a.pdf)

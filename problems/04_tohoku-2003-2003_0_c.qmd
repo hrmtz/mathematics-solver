@@ -22,6 +22,3 @@ format:
 $C$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_0_c.pdf)

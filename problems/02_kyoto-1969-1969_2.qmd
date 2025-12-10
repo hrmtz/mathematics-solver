@@ -20,6 +20,3 @@ format:
 $\angle ACD=\alpha$，$\angle BCD=\beta$とする．
 $\displaystyle\tan\alpha\cdot\tan\beta=\frac{\triangle ADB}{\triangle ACB}=\frac{DP}{CP}$を証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1969/1969_2.pdf)

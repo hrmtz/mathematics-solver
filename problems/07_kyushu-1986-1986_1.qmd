@@ -31,6 +31,3 @@ ${(\overrightarrow{a}\cdot\overrightarrow{p})}^2+
 {(\overrightarrow{c}\cdot\overrightarrow{p})}^2$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1986/1986_1.pdf)

@@ -32,6 +32,3 @@ format:
 \item[(3)]$T$が自然数であるとき$P(T, \, 2n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_d.pdf)

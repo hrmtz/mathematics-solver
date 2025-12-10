@@ -24,6 +24,3 @@ format:
 ちょうど2となるような点$(a, \, b)$の存在する範囲を図示せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2013/2013_c.pdf)

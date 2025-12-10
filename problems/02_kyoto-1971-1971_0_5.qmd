@@ -24,6 +24,3 @@ format:
 \item[(ii)]もとの正方形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1971/1971_0_5.pdf)

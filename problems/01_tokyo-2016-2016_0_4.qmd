@@ -25,6 +25,3 @@ format:
 $x_{10}$を10で割った余りを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2016/2016_0_4.pdf)

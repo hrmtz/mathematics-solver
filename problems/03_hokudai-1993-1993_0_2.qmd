@@ -22,6 +22,3 @@ format:
 \item[(2)]$P$が$C_1$上を動くとき，$l(t)$の最小値とそのときの$P$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1993/1993_0_2.pdf)

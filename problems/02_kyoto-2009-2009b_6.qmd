@@ -28,6 +28,3 @@ ${(a+b\sqrt2)}^n=a_n+b_n\sqrt2$をみたすように定めるとき，
 \item[(2)]すべての$n$に対して，$a_n$は奇数であり，$a_n$と$b_n$は互いに素である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2009/2009b_6.pdf)

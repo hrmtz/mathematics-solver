@@ -22,6 +22,3 @@ format:
 \item[(2)]初項から第$n$項までの和$S_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_a.pdf)

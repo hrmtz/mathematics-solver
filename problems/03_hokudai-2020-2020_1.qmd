@@ -30,6 +30,3 @@ format:
 線分$AD$の長さを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2020/2020_1.pdf)

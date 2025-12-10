@@ -26,6 +26,3 @@ format:
 $x>\log2$の範囲でそのグラフをかけ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1976/1976_5.pdf)

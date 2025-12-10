@@ -19,6 +19,3 @@ format:
 次の極限値を求めよ．
 $\displaystyle\lim_{n\to\infty}\int_0^{n\pi}e^{-x}|\sin nx|dx$
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2001/2001_6.pdf)

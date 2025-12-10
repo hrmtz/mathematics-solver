@@ -20,6 +20,3 @@ format:
 集合$A_1, \, A_2, \, \cdots\cdots, \, A_n$の共通部分$A_1 \cap A_2 \cap \cdots\cdots \cap A_n$が
 空集合でない最大の$n$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1991/1991_0_3.pdf)

@@ -30,6 +30,3 @@ $OA$との角を$\theta$ $\displaystyle\left(0<\theta<\frac{\pi}{2}\right)$と�
 
 ![](../archive/04_tohoku/1999/fig_1999_6.jpg)
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_6.pdf)

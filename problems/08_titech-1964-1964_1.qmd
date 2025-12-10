@@ -24,6 +24,3 @@ $\displaystyle w=\frac{z-x}{z-y}$とおくとき，次の問に答えよ。
 \item[(4)]$z$のどんな値に対しても$w=k$を満たす$x$，$y$が存在するような$k$の最大値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1964/1964_1.pdf)

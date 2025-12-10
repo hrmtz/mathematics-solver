@@ -31,6 +31,3 @@ $n$回目の試行の後でMがBにいる確率を$q_n$とする。
 \item[(2)]$p_n$，$q_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_d.pdf)

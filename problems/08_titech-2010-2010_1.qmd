@@ -24,6 +24,3 @@ $f(x)=1-\cos x-x\sin x$とする．
 \item[(3)](2)で定義された$J$と$\sqrt2$の大小を比較せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2010/2010_1.pdf)

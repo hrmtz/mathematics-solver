@@ -19,6 +19,3 @@ format:
 定数$k$の値を定めよ．
 ただし$0 \leqq k \leqq 1$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1995/1995_0_4.pdf)

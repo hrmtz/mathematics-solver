@@ -31,6 +31,3 @@ $AC$と$BD$との交点$P$から$AD$に平行に引いた直線と$AB$との交�
 $\displaystyle\frac{AQ}{AB}$の値と四辺形$PQRS$の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1962/1962_5.pdf)

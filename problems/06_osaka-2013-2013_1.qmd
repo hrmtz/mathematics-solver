@@ -20,6 +20,3 @@ format:
 \[ \lim_{x\to0}\frac{\sin x}{x}=1 \]
 を示すことにより，$\sin x$の導関数が$\cos x$であることを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2013/2013_1.pdf)

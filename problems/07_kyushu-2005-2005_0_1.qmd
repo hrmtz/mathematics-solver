@@ -27,6 +27,3 @@ $a$を正の実数とし，点$\displaystyle A \left(0, \, a+\frac{1}{2a}\right)
 また，そのときの$a$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_0_1.pdf)

@@ -26,6 +26,3 @@ $\angle POQ$は直角で，
 \item[(2)]$f$が回転となるとき，$A$を定めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1995/1995_1.pdf)

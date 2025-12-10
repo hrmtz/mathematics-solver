@@ -23,6 +23,3 @@ $\theta$が$0\leqq\theta\leqq2\pi$の範囲を動くとき，
 $\overrightarrow{OP}=\cos\theta\overrightarrow{OA}+\sin\theta\overrightarrow{OB}$を
 位置ベクトルとする点$P$が描く図形を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1992/1992_0_c.pdf)

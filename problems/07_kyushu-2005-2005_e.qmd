@@ -33,6 +33,3 @@ $O=\begin{pmatrix} 0 & 0
 \item[(3)](2)の$P$に対して，$P^3=E$となる$\theta$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2005/2005_e.pdf)

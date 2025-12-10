@@ -29,6 +29,3 @@ $xy$平面において，放物線$\displaystyle C:y=-\frac{1}{2}x^2$の2つの�
 面積の和$S_1+S_2$が最小となるときの点$P$の座標と$S_1+S_2$の最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2019/2019_a.pdf)

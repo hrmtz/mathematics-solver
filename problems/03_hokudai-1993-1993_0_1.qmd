@@ -23,6 +23,3 @@ format:
 $l>m\geqq1$のとき，$a_l$と$a_m$は1より大きい公約数を持たないことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1993/1993_0_1.pdf)

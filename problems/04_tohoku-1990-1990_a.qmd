@@ -35,6 +35,3 @@ $\begin{pmatrix} x'
 最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1990/1990_a.pdf)

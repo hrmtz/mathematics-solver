@@ -34,6 +34,3 @@ Y=\begin{pmatrix} c & 1-c
  0 & 1 \end{pmatrix}$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2005/2005_a.pdf)

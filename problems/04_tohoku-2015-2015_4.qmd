@@ -30,6 +30,3 @@ C_n=\int_{2n\pi}^{(2n+1)\pi}\frac{\sin^2x}{x^a}dx \]
 \item[(3)]極限値$\displaystyle\lim_{n\to\infty}\frac{A_n}{C_n}$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2015/2015_4.pdf)

@@ -23,6 +23,3 @@ format:
 \item[(2)]直線$y=x+k$が，$S$と共通部分を持つための$k$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_0_1.pdf)

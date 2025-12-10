@@ -26,6 +26,3 @@ format:
 \item[5)]$0<P(1)<6$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1968/1968_5.pdf)

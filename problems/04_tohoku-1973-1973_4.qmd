@@ -22,6 +22,3 @@ format:
 \item[(2)]$y^2 \leqq x^4(x+1)$，$x\leqq0$の部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1973/1973_4.pdf)

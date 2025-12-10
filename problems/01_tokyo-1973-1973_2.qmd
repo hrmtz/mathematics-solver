@@ -21,6 +21,3 @@ $\displaystyle f_1=\sum_{i=1}^n x_i$，$\displaystyle f_2=\sum_{i=1}^n {x_i}^2$�
 $\displaystyle f_k=\sum_{i=1}^n {x_i}^k$ $(k=1,2,3,\cdots\cdots)$を
 $f_1$と$f_2$とを用いて表わせ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1973/1973_2.pdf)

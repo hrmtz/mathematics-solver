@@ -29,6 +29,3 @@ $\displaystyle\lim_{n\to\infty}na^n=0$であることは用いてよい．
 \item[(2)]$\displaystyle\lim_{n\to\infty}\sum_{k=2}^nkp(k)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1994/1994_5.pdf)

@@ -26,6 +26,3 @@ $a$を正の定数とする。
 さらに，$\displaystyle\lim_{a\to+0}S(a)$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2020/2020_5.pdf)

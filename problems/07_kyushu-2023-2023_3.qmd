@@ -38,6 +38,3 @@ format:
 $D$のとりうる値をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2023/2023_3.pdf)

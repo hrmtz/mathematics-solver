@@ -29,6 +29,3 @@ $S(t)$を$\theta$を用いてあらわせ．
 \item[(2)]$M$の体積$V$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2017/2017_5.pdf)

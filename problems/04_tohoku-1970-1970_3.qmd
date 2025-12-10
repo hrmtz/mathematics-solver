@@ -25,6 +25,3 @@ $\displaystyle\lim_{h\to0}\frac{A}{B}$の値を求めよ．
 \item[(2)]$f(x)=e^x$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1970/1970_3.pdf)

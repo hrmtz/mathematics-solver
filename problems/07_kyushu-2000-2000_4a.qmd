@@ -25,6 +25,3 @@ format:
 $\alpha$を解とするものは存在しないことを背理法を用いて示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2000/2000_4a.pdf)

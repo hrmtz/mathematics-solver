@@ -27,6 +27,3 @@ format:
 を満たす点$(x, \, y)$の全体が作る図形の面積$S$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_c.pdf)

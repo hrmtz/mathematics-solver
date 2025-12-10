@@ -24,6 +24,3 @@ format:
 \item[(2)]$n \geqq 4$に対して$D(n)=(n-1) \{ D(n-2)+D(n-1) \}$を証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2004/2004_a.pdf)

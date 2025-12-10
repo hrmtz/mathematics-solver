@@ -23,6 +23,3 @@ format:
 $\alpha$の値に応じて，$\displaystyle\lim_{n\to\infty}a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_3.pdf)

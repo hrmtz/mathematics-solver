@@ -25,6 +25,3 @@ format:
 \end{description}
 　このとき，初項$a$と公比$r$の組をすべて求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1997/1997_0_db.pdf)

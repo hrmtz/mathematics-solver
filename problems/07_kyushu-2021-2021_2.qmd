@@ -31,6 +31,3 @@ $\theta$を用いて$\gamma$を表せ。
 三角形$OAC$が直角三角形になるような$\theta$に対する$\tan\theta$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2021/2021_2.pdf)

@@ -24,6 +24,3 @@ format:
 \item[(2)]点$P$が円$C$上を動くとき，点$Q$の描く軌跡を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1997/1997_1.pdf)

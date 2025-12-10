@@ -27,6 +27,3 @@ format:
 \end{description}
 　このとき曲線\ding{"AC}，直線\ding{"AD}，$x$軸，$y$軸および直線$x=5$とによって囲まれる部分を$x$軸のまわりに回転して得られる立体を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1962/1962_6.pdf)

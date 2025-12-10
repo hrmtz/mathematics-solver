@@ -32,6 +32,3 @@ format:
 \item[(2)]$C_2$上の点で$x$座標，$y$座標とも整数であるものは何個あるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_d.pdf)

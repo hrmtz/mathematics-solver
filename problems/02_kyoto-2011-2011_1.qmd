@@ -26,6 +26,3 @@ $X=Y$である確率を求めよ．
 \item[(2)]定積分$\displaystyle\int_0^\frac{1}{2}(x+1)\sqrt{1-2x^2}dx$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2011/2011_1.pdf)

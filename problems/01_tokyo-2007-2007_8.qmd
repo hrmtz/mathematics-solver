@@ -62,6 +62,3 @@ $A=\begin{pmatrix} a & b
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2007/2007_8.pdf)

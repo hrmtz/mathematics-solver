@@ -28,6 +28,3 @@ $\triangle OP_1P_2$の面積は一定であることを示せ．
 $l$は$C_1$または$C_2$の接線になることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1984/1984_3.pdf)

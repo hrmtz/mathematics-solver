@@ -29,6 +29,3 @@ $t$が$r$から1まで動くときに点$A$と点$B$が描く曲線の長さを
 このとき，極限$\displaystyle\lim_{r\to+0}(L_1(r)-L_2(r))$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2018/2018_5.pdf)

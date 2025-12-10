@@ -30,6 +30,3 @@ format:
 試行開始後$A$君の得点がつねに$B$君の得点より多い確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1996/1996_1.pdf)

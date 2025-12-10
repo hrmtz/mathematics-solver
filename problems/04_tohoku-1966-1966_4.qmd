@@ -24,6 +24,3 @@ format:
 $n$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1966/1966_4.pdf)

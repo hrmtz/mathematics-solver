@@ -21,6 +21,3 @@ format:
 等式$\displaystyle f(x)f'(x)+\int_1^xf(t)dt=\frac{4}{9}x-\frac{4}{9}$をみたしているものをすべて求めよ．
 ただし，$f'(x)$は$f(x)$の導関数をあらわす．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1976/1976_3.pdf)

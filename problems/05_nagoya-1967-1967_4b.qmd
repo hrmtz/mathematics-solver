@@ -21,6 +21,3 @@ $\overrightarrow{c}=(c_1, \, c_2)$が与えられたとき，
 $l\overrightarrow{a}+m\overrightarrow{b}+n\overrightarrow{c}$が零ベクトルとなる数$l$，$m$，$n$で
 $l=m=n=0$以外のものが存在することを証明せよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1967/1967_4b.pdf)

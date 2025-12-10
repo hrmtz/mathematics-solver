@@ -24,6 +24,3 @@ $2, \, 4, \, 6$の目の出る確率がいずれも$\displaystyle\frac{2}{9}$で
 \item[(2)]確率変数$X$の平均値（期待値）を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1980/1980_4.pdf)

@@ -27,6 +27,3 @@ $\displaystyle y_n \sin\frac{\theta}{2^{n-1}}$を簡単にせよ。
 \item[(3)]$\displaystyle\lim_{n\to\infty}y_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1965/1965_5.pdf)

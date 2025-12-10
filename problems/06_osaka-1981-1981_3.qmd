@@ -27,6 +27,3 @@ $r=\overline{OP}$，$u=\overline{{PR}^2}$とおく．
 $u$を最大にする$r$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1981/1981_3.pdf)

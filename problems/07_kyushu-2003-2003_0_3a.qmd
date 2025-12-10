@@ -26,6 +26,3 @@ $f(x)=ax^2+bx+c$とおく．
 であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_0_3a.pdf)

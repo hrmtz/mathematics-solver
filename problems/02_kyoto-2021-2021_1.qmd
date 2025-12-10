@@ -29,6 +29,3 @@ format:
 ただし$n$は4以上の整数とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2021/2021_1.pdf)

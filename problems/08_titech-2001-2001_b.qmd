@@ -25,6 +25,3 @@ $B$が$\displaystyle B_0= \left( b\cos\frac{4\pi}{3},b\sin\frac{4\pi}{3} \right)
 \item[(2)]$\triangle A_0B_0C_0$の外接円の半径$R$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2001/2001_b.pdf)

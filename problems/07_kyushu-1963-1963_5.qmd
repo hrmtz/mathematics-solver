@@ -30,6 +30,3 @@ format:
 かつ$f'(x)={ \{ f(x) \} }^2$が成り立つことを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1963/1963_5.pdf)

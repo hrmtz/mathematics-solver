@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>テストプリント</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="{{ url_for('static', filename='qmd-render.js') }}"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='handout-print.css') }}">
+  <style>
+    body {
+      margin: 1.5rem;
+    }
+    .problem-block {
+      margin-bottom: 2.5rem;
+      page-break-inside: avoid;
+    }
+    .problem-header {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      font-size: 1.05rem;
+    }
+  </style>
+</head>
+<body>
+  {% for p in problems %}
+    <div class="problem-block" data-idx="{{ p.idx }}">
+      <div class="problem-header">第{{ p.idx }}問 {{ p.header_label }}</div>
+      <div class="problem-body" data-qmd="{{ p.qmd_text | e }}" data-citation="{{ p.citation_label | e }}"></div>
+    </div>
+  {% endfor %}
+
+  <script>
+    function renderMath() {
+      if (window.MathJax) {
+        MathJax.typesetClear();
+        MathJax.typesetPromise();
+      }
+    }
+
+    window.onload = function() {
+      const blocks = document.querySelectorAll('.problem-body');
+      blocks.forEach(el => {
+        const raw = el.getAttribute('data-qmd') || '';
+        const citation = el.getAttribute('data-citation') || '';
+        let html = qmdToHtml(raw);
+        html = appendCitation(html, citation);
+        el.innerHTML = html;
+      });
+      renderMath();
+    };
+  </script>
+</body>
+</html>

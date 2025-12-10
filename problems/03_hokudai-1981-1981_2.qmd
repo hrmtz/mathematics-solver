@@ -26,6 +26,3 @@ format:
 の最小値が$-b$となる$b$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1981/1981_2.pdf)

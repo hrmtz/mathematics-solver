@@ -21,6 +21,3 @@ $\displaystyle f(x)=\int_0^2|t^2(t-x)|dt$とする．
 \item[(2)]$\displaystyle\int_0^3f(x)dx$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1988/1988_0_4.pdf)

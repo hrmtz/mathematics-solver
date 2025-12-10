@@ -26,6 +26,3 @@ $x$の方程式$x=\log x+\log n$について，次の問に答えよ．
 $\displaystyle\lim_{n\to\infty}nx_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1983/1983_3.pdf)

@@ -27,6 +27,3 @@ $\cos\theta$を$x$を用いて表せ．
 その最小値を与える$x$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_0_4.pdf)

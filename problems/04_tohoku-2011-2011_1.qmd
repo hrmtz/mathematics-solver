@@ -22,6 +22,3 @@ format:
 \item[(2)]$-1 \leqq a \leqq 2$を満たすいずれかの$a$に対し$D(a)$の点となるような点$(p,q)$の範囲を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2011/2011_1.pdf)

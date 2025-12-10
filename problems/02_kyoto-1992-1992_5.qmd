@@ -25,6 +25,3 @@ format:
 \item[(2)]$V(t)$の最小値と，そのときの$t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_5.pdf)

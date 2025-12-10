@@ -19,6 +19,3 @@ $k$は$\displaystyle\frac{\pi}{2}$の倍数ではないとして，
 \[ \cos2k\cos(x-k)-\cos(x+k)=\sin2k \]
 を満たすすべての$x$を求めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1965/1965_0_5.pdf)

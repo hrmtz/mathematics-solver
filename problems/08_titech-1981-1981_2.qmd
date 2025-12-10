@@ -22,6 +22,3 @@ format:
 点$R$を第1象限，点$S$を第2象限にとり，$\triangle ORS$が$D$に含まれるように点$R$，$S$を動かすとき，
 $\triangle ORS$の面積の最大値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1981/1981_2.pdf)

@@ -27,6 +27,3 @@ format:
 半径が$\sqrt3$となる球面の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2019/2019_5.pdf)

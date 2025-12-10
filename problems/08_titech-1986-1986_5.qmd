@@ -23,6 +23,3 @@ $m$，$n$を自然数とする．
 \item[(3)]$A(m, \, n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1986/1986_5.pdf)

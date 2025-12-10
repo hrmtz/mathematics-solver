@@ -28,6 +28,3 @@ $\overrightarrow{OB'}=\overrightarrow{OB}-t\overrightarrow{OA}$とおく．
 点$B'$は空間内のどんな図形を描くか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1989/1989_0_1.pdf)

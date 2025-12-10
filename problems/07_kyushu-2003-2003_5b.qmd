@@ -27,6 +27,3 @@ $\theta$を$\displaystyle0<\theta<\frac{\pi}{2}$である定数とする．
 \item[(3)]$\displaystyle\theta=\frac{\pi}{4}$のとき$G$を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_5b.pdf)

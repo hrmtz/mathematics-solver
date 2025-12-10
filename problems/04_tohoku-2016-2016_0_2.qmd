@@ -23,6 +23,3 @@ format:
 \item[(3)](2)で求めた領域$D$の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_0_2.pdf)

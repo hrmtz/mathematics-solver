@@ -24,6 +24,3 @@ $f(x)=x^3+ax^2+bx+c$（$a, \, b, \, c$は定数）のとき，次の極限値を
 \frac{f(1+h)-f(1)}{h}-f'(1) \right\}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1964/1964_6.pdf)

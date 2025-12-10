@@ -29,6 +29,3 @@ format:
 \item[(2)]この粒子が$n$回の移動までに$C$を訪問しない確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2003/2003_0_b.pdf)

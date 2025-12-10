@@ -29,6 +29,3 @@ $\displaystyle F(x)=\frac{ax}{x+1}$とおく．
 $[$条件$]$$c>0$ならば，数列$\{b_n\cdot f_n(c)\}$は正の数に収束する．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1989/1989_f.pdf)

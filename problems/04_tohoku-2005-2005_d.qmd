@@ -30,6 +30,3 @@ $V$の平面$z=s$による断面積を求めよ．
 \item[(3)]$V$の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2005/2005_d.pdf)

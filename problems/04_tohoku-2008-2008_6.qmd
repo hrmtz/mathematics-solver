@@ -30,6 +30,3 @@ $y=f(x)$の上側にあるものの面積$S(k)$を$\alpha$と$\beta$で表せ．
 \item[(3)]$\displaystyle\lim_{k\to\infty}S(k)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_6.pdf)

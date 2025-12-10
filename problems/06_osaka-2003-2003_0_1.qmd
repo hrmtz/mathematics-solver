@@ -31,6 +31,3 @@ $\{ \overrightarrow{p}, \, \overrightarrow{q} \}=p_1q_2-p_2q_1$と定める．
 と表すことができることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2003/2003_0_1.pdf)

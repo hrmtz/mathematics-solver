@@ -29,6 +29,3 @@ $d(O,P)=d(P,Q)$となるような$a\geqq0$が存在する．
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1994/1994_6.pdf)

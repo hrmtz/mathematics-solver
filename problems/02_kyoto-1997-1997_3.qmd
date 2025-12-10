@@ -24,6 +24,3 @@ format:
 \item[(2)]$\displaystyle\lim_{k\to\infty}a^2$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1997/1997_3.pdf)

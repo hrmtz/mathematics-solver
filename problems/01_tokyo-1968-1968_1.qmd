@@ -23,6 +23,3 @@ $\displaystyle x^2-5x<y<\frac{\pi}{5}\sin\left(\frac{\pi x}{5}\right)-\frac{3}{5
 直線$y=\alpha x$によって面積の等しい二つの部分に分けられるように，
 $\alpha$の値を定めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1968/1968_1.pdf)

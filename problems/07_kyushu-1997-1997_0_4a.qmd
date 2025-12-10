@@ -32,6 +32,3 @@ $\displaystyle\frac{S'}{S}$を$p$，$q$を用いて表せ．
 $\displaystyle\frac{S'}{S}$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_0_4a.pdf)

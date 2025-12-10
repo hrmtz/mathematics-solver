@@ -24,6 +24,3 @@ $a_N=1$を満たす$N$（ただし$N\geqq2$）があるとき，次の問に答�
 \item[(2)]$\displaystyle a_1=\cos\frac{k\pi}{2^{N-2}}$（$k$はある整数）を証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1977/1977_6a.pdf)

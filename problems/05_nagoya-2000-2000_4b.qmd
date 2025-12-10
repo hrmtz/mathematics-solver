@@ -27,6 +27,3 @@ format:
 このとき，実数の組$(p, \, q, \, r)$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2000/2000_4b.pdf)

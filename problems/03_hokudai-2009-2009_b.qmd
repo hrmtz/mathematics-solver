@@ -25,6 +25,3 @@ $a_1>1$とする．数列$\{ a_n \}$を漸化式
 \item[(3)]$\displaystyle\lim_{n\to\infty}a_n=1$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2009/2009_b.pdf)

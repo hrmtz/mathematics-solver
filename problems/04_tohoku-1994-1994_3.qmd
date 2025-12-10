@@ -30,6 +30,3 @@ $\overrightarrow{u_0}$，$\overrightarrow{u_1}$，$\overrightarrow{u_2}$，$\ove
 を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_3.pdf)

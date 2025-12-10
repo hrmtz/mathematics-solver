@@ -23,6 +23,3 @@ $a$を実数とし，$z=\cos2a\pi+i\sin2a\pi$とおく（ただし，$i=\sqrt{-1
 $z, \, z^2, \, \cdots, \, z^n, \, \cdots$はすべて相異なることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1971/1971_2.pdf)

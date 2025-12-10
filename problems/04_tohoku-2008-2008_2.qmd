@@ -33,6 +33,3 @@ $\overrightarrow{h_k}\cdot\overrightarrow{h_{k+1}}$を$n$と$k$で表せ．
 $\displaystyle e=\lim_{n\to\infty} { \left( 1+\frac{1}{n} \right) }^n$であることを用いてもよい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_2.pdf)

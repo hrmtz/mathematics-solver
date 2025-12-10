@@ -26,6 +26,3 @@ $P$での$C$の接線と$C$との交点を$P$，$Q=(\alpha,\alpha^4-2a\alpha^2)$
 \item[(4)]$\displaystyle a=\frac{7}{12}$のとき，$L$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1993/1993_3.pdf)

@@ -25,6 +25,3 @@ $DA$と$EB$の交点を$I$，$EB$と$AC$の交点を$J$とする．
 どちらが大きいか検討せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2000/2000_0_3c.pdf)

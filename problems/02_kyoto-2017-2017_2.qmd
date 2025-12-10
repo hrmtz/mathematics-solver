@@ -28,6 +28,3 @@ $AE:EB=CF:FB$であることを示せ．
 これらの点は$OABC$の各辺の中点であり，$OABC$は正四面体であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2017/2017_2.pdf)

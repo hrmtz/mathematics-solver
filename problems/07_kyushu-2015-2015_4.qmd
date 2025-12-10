@@ -28,6 +28,3 @@ format:
 \item[(4)]8回の操作でもらう硬貨の総数がちょうど1枚である確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2015/2015_4.pdf)

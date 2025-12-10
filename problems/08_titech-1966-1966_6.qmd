@@ -18,6 +18,3 @@ format:
 次の定積分の値を求めよ。
 \[ \int_0^\pi xe^x\sin xdx \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1966/1966_6.pdf)

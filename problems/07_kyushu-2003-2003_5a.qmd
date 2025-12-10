@@ -35,6 +35,3 @@ $P \neq O$のとき，$\displaystyle\frac{RQ}{OP}$の最大値を求め，
 \item[(2)]$OQ$の最小値と，その最小値を与える点$P$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2003/2003_5a.pdf)

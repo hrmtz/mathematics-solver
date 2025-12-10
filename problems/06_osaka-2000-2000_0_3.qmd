@@ -19,6 +19,3 @@ format:
 \[ g(x)=\left| \int_0^x f(t)dt \right|+\left| \int_x^2 f(t)dt \right| \]
 の最大値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_0_3.pdf)

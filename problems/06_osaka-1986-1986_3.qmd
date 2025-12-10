@@ -30,6 +30,3 @@ $\sin\theta_1+\sin\theta_2+\sin\theta_3+\sin\theta_4$の最大値を$\theta_5$�
 \item[(3)]$\sin\theta_1+\sin\theta_2+\sin\theta_3+\sin\theta_4+\sin\theta_5$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1986/1986_3.pdf)

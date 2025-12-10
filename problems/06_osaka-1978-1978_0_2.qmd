@@ -28,6 +28,3 @@ $\displaystyle\overrightarrow{a}+t\left(\frac{\overrightarrow{b}-\overrightarrow
 どのような図形を描くか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1978/1978_0_2.pdf)

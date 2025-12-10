@@ -25,6 +25,3 @@ $\displaystyle\lim_{n \to \infty}a_n$と$\displaystyle\lim_{n \to \infty}na_n$�
 このとき$\displaystyle\lim_{n \to \infty}nS_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2000/2000_4.pdf)

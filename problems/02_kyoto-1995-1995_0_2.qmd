@@ -25,6 +25,3 @@ format:
 \item[(ロ)]すべての自然数$n$に対して$\displaystyle{\left(\frac{x_n+x_{n+1}}{2}\right)}^2\geqq x_nx_{n+1}+1$が成り立つ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1995/1995_0_2.pdf)

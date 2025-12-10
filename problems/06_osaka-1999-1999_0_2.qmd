@@ -25,6 +25,3 @@ $P$を通り$l_1$と直交する直線を$l_2$とする．
 \item[(2)]$PR \geqq PQ$となる点$P$の$x$座標の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1999/1999_0_2.pdf)

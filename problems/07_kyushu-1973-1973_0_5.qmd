@@ -25,6 +25,3 @@ format:
 \item[(2)](1)で求めた範囲の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1973/1973_0_5.pdf)

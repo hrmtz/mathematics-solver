@@ -26,6 +26,3 @@ $\triangle POQ$の面積が$OP$の長さの2乗に等しい．
 \end{description}
 　このとき，$f$を表す行列$A$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1994/1994_0_1.pdf)

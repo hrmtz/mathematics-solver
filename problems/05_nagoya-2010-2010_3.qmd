@@ -27,6 +27,3 @@ $A$，$B$，$C$が赤玉を持っている確率をそれぞれ$a_n$，$b_n$，$
 \item[(3)]$a_n$，$b_n$，$c_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2010/2010_3.pdf)

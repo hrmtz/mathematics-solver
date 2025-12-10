@@ -24,6 +24,3 @@ format:
 \item[(3)]2次方程式$ax^2-bx+c=0$が少なくとも1つ整数解をもつ確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2019/2019_0_3.pdf)

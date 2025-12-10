@@ -26,6 +26,3 @@ $\theta$ $\displaystyle\left(-\frac{\pi}{3}\leqq\theta\leqq\frac{\pi}{3}\right)$
 $\sin\theta_0$を$a$と$b$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1996/1996_c.pdf)

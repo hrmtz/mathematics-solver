@@ -23,6 +23,3 @@ $\displaystyle q=\frac{x}{y}+\frac{y}{z}+\frac{z}{x}$とする．このとき
 \item[(2)]$0>x>y>z$として，$p$，$q$の大小をくらべよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1974/1974_0_4.pdf)

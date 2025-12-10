@@ -24,6 +24,3 @@ format:
 \item[(2)]$t$が動くとき，球$P$の体積を四面体$OABC$の体積で割った値の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2011/2011_a.pdf)

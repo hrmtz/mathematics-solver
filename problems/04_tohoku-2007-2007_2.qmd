@@ -27,6 +27,3 @@ $\angle A=\theta$とおくとき，次の問いに答えよ．
 ただし，$\sqrt2=1.414\cdots$，$\sqrt3=1.732\cdots$を用いてもよい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2007/2007_2.pdf)

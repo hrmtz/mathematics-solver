@@ -19,6 +19,3 @@ format:
 半径$\displaystyle\sqrt\frac{5}{2}$の円に内接する3角形$ABC$の面積が1で$2\sin(A+B)\sin C=1$であるとき，
 この3角形の3辺の長さを求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1976/1976_2.pdf)

@@ -28,6 +28,3 @@ $\overrightarrow{CT}$を求めよ．
 \item[(2)]$C$および$T$の座標を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1978/1978_3.pdf)

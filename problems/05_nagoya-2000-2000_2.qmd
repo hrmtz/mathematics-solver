@@ -26,6 +26,3 @@ $x$座標が$0 \leqq x \leqq e-1$を満たす点で接しているとする．
 このときの面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2000/2000_2.pdf)

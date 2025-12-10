@@ -27,6 +27,3 @@ $y$軸のまわりに1回転してできる立体の体積を$V(b)$とする．
 $\displaystyle\lim_{b\to0}V(b)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_5.pdf)

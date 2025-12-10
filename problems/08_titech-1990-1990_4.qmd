@@ -20,6 +20,3 @@ $\displaystyle0<x<\frac{\pi}{2}$で定義された関数
 \[ f(x)=\int_0^x\frac{d\theta}{\cos\theta}+\int_x^\frac{\pi}{2}\frac{d\theta}{\sin\theta} \]
 の最小値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1990/1990_4.pdf)

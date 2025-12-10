@@ -25,6 +25,3 @@ format:
 \item[(ii)]$\tan\alpha\cdot\cos\theta=\tan\beta$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1961/1961_3.pdf)

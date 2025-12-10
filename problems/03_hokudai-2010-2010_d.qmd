@@ -41,6 +41,3 @@ $\displaystyle R(t, \, \frac{1}{3}t^2-5)$をとる．
 ただし，$P$，$Q$，$R$を$f$で移した点をそれぞれ$f(P)$，$f(Q)$，$f(R)$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2010/2010_d.pdf)

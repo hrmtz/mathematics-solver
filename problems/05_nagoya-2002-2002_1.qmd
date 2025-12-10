@@ -24,6 +24,3 @@ $\displaystyle\frac{1}{x+1}$の大小を比較せよ．
 $\displaystyle{\left( 1+\frac{2002}{2001} \right)}^{\displaystyle\frac{2001}{2002}}$の大小を比較せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2002/2002_1.pdf)

@@ -28,6 +28,3 @@ $\triangle OAB$の外心を$P$とする。
 \item[(2)]点$P(z)$の存在範囲を求め，複素数平面上に図示せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2017/2017_3.pdf)

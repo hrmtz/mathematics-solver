@@ -29,6 +29,3 @@ format:
 \item[(2)]$P_{n+1}$を$P_n$で表す式を求め，$P_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_0_5.pdf)

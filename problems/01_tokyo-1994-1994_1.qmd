@@ -24,6 +24,3 @@ g(x)=x^5+x^4+\frac{1}{2}x^3+\frac{1}{6}x^2+\frac{1}{24}x+\frac{1}{120} \]
 \item[(2)]方程式$g(x)=0$はただひとつの実数解$\alpha$をもち，$-1<\alpha<0$となる．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1994/1994_1.pdf)

@@ -27,6 +27,3 @@ $m=\overrightarrow{OA}\cdot\overrightarrow{OC}$とおく．
 $\overrightarrow{OD}$を$\overrightarrow{OA}$，$\overrightarrow{OC}$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2004/2004_0_2.pdf)

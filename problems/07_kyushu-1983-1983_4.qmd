@@ -25,6 +25,3 @@ format:
 $X$の確率分布を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1983/1983_4.pdf)

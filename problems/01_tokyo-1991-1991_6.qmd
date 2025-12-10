@@ -31,6 +31,3 @@ $\displaystyle S(x)=\int_x^{2x}f(t)dt$とおく．
 \item[(3)]関数$f(x)$を決定せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1991/1991_6.pdf)

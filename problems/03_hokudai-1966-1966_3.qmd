@@ -24,6 +24,3 @@ $\overrightarrow{a}+x\overrightarrow{b}$と$\overrightarrow{a}-\overrightarrow{b
 実数$x$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1966/1966_3.pdf)

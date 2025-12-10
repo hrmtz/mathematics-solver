@@ -27,6 +27,3 @@ $n$回目に$A$が投げる確率を$p_n$とするとき，
 \item[(2)]$\displaystyle\lim_{n\to\infty}p_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1978/1978_4.pdf)

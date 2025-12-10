@@ -36,6 +36,3 @@ $\displaystyle0<r<\frac{1}{5}$である。以下の問いに答えよ。
 このとき，部品bも不良品である確率を$p$，$q$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2018/2018_0_4.pdf)

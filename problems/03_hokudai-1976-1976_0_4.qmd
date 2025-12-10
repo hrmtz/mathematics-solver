@@ -24,6 +24,3 @@ $\overrightarrow{AO}=x\overrightarrow{AB}+y\overrightarrow{AC}$と表すとき�
 $x$，$y$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1976/1976_0_4.pdf)

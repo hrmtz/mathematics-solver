@@ -36,6 +36,3 @@ format:
 はいっている不良品の総数の期待値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1969/1969_6.pdf)

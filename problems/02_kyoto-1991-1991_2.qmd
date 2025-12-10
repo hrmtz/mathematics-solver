@@ -27,6 +27,3 @@ $P'$の座標$(x',y')$を$x$，$y$で表せ．
 合成写像$f \circ g \circ f$および$g \circ f \circ g$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_2.pdf)

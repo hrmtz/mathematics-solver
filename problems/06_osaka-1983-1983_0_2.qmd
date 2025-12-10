@@ -21,6 +21,3 @@ $\triangle ABP$の重心を$P_1$，$\triangle ABP_1$の重心を$P_2$，$\cdots\
 一般に$\triangle ABP_n$の重心を$P_{n+1}$とする．
 どんな$n$に対して点$P_n$は第4象限にはいるか．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1983/1983_0_2.pdf)

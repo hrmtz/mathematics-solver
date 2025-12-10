@@ -27,6 +27,3 @@ $\displaystyle \cos \left( 2x+\frac{\pi}{3} \right)$をそれぞれ$t$の式で�
 \item[(2)]$0 \leqq x \leqq \pi$のとき，方程式$f(x)=0$の解をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2021/2021_0_3.pdf)

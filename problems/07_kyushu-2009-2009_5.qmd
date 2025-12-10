@@ -30,6 +30,3 @@ $\displaystyle\overrightarrow{\alpha}=\left(\frac{d^2x}{dt^2},\,\frac{d^2y}{dt^2
 \item[(3)]$P$が曲線全体を動くとき，$|\overrightarrow{\alpha}|$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_5.pdf)

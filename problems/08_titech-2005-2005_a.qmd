@@ -23,6 +23,3 @@ format:
 $\displaystyle\lim_{m\to\infty}S_m$および$\displaystyle\lim_{n\to\infty}T_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2005/2005_a.pdf)

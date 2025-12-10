@@ -24,6 +24,3 @@ format:
 \end{description}
 進む．このとき三角形$PQR$の面積$S$が最小となるのは何秒後か．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1990/1990_d.pdf)

@@ -29,6 +29,3 @@ $\displaystyle p_{n+1}(k)-p_{n+1}(l)\leqq\frac{1}{6}(M_n-m_n)$．
 \item[(3)]$\displaystyle\lim_{n\to\infty}p_n(k)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_6.pdf)

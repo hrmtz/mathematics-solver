@@ -22,6 +22,3 @@ $a$，$b$，$c$を実数とする．以下の問いに答えよ．
 \item[(2)]$a+b \geqq c$であるとき，$a^3+b^3+3abc \geqq c^3$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2009/2009_1.pdf)

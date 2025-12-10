@@ -27,6 +27,3 @@ format:
 また，最小値を与えるときの$P$，$Q$の$x$座標$p$，$q$もそれぞれ求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2012/2012_0_2.pdf)

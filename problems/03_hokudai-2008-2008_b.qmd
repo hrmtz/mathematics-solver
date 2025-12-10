@@ -25,6 +25,3 @@ format:
 このとき$S$が最大となる$x_1$とその最大値$S_a$を$a$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_b.pdf)

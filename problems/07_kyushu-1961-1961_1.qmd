@@ -25,6 +25,3 @@ format:
 $\log a$の指標が0になるような$m$の個数を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1961/1961_1.pdf)

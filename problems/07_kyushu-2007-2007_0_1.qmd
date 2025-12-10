@@ -25,6 +25,3 @@ $f(x)=(x^2-2)(x^2-4x+2)$とおく．
 \item[(3)]不等式$f(n)\leqq1$を満たす整数$n$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2007/2007_0_1.pdf)

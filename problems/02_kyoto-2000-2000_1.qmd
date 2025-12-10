@@ -23,6 +23,3 @@ format:
 \end{description}
 　このときベクトル$\overrightarrow{AP}$を$\overrightarrow{AB}$，$\overrightarrow{AC}$，$p$を用いて表せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2000/2000_1.pdf)

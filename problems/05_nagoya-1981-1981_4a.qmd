@@ -20,6 +20,3 @@ $p^n$より小さい自然数$l$を，$\displaystyle l=\sum_{k=0}^{n-1}a_kp^k$�
 $\displaystyle s(l)=\sum_{k=0}^{n-1}a_k$とおく．
 このとき，$s(l)+s(p^n-l)$ $(1 \leqq l \leqq p^n-1)$の最小値とそれを与える自然数$l$をすべて求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1981/1981_4a.pdf)

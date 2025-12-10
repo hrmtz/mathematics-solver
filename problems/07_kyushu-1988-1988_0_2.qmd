@@ -27,6 +27,3 @@ $\overrightarrow{PQ}\cdot\overrightarrow{OA}=0$となるように定める．
 \overrightarrow{OP}\cdot\overrightarrow{OP}$を満たすような点$P$はどのような図形を描くか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1988/1988_0_2.pdf)

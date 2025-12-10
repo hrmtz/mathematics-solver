@@ -22,6 +22,3 @@ format:
 また，平面$\alpha$に平行で$\overrightarrow{u}$に垂直な単位ベクトル$\overrightarrow{v}$を求めよ．
 ただし，$\overrightarrow{u}$，$\overrightarrow{v}$の$x$成分はいずれも正とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1981/1981_1.pdf)

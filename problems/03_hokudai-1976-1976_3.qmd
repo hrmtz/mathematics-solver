@@ -31,6 +31,3 @@ $\overrightarrow{a_{2n}}$，$\overrightarrow{a_{2n+1}}$を2辺とする3角形�
 $\displaystyle\lim_{n\to\infty}\frac{S_n}{T_n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1976/1976_3.pdf)

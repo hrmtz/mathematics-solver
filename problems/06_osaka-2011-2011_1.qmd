@@ -37,6 +37,3 @@ $\triangle OQ_nQ_{n+1}$の面積$S(n)$を$a$と$n$を用いて表せ．
 ただし$0.3<\log_{10}2<0.31$を用いてよい．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2011/2011_1.pdf)

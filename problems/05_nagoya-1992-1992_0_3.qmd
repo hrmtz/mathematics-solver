@@ -22,6 +22,3 @@ format:
 \item[(2)]$f(a, \, b)$の最小値と，それを与える$a$，$b$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1992/1992_0_3.pdf)

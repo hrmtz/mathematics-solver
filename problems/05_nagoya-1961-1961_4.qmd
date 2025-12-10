@@ -27,6 +27,3 @@ format:
 $\displaystyle\int_0^\pi v^2dt$を計算せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1961/1961_4.pdf)

@@ -25,6 +25,3 @@ format:
 \item[(4)]$P_n>{10}^{100}$となる最小の自然数$n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2017/2017_0_3.pdf)

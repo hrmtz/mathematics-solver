@@ -32,6 +32,3 @@ $A=\begin{pmatrix} a & b
 \item[(3)](iii)ならば(i)であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2011/2011_2.pdf)

@@ -20,6 +20,3 @@ format:
 $\displaystyle\lim_{x\to+\infty}[F(x)-\log x]$を求めよ．
 \[ F(x)=\int_0^x\frac{t}{(t+1)(t+3)}dt \hspace{1zw} (x>0) \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1972/1972_2.pdf)

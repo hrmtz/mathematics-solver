@@ -25,6 +25,3 @@ format:
 囲まれた部分の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2021/2021_0_4.pdf)

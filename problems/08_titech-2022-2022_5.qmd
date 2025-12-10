@@ -41,6 +41,3 @@ $\displaystyle A_n=\lim_{k\to\infty}A_{n,k}$とする．
 (＊＊)が成り立つとき，極限$\displaystyle\lim_{n\to\infty}\frac{A_n}{n}$を$a$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2022/2022_5.pdf)

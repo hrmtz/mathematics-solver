@@ -22,6 +22,3 @@ $\displaystyle x=t+\frac{1}{3t}$ $\displaystyle \left( 0<t\leqq\frac{1}{2} \righ
 点$(a, \, b)$の存在範囲を図示せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2014/2014_1.pdf)

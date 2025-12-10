@@ -34,6 +34,3 @@ $n$分後に$R$が頂点a，b，c，dに達する確率を
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1994/1994_d.pdf)

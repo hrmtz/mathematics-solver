@@ -24,6 +24,3 @@ $a$を$0<a<1$なる実数とする．
 \item[(2)]$\triangle PQR$の面積が最小となるように，$a$の値を定めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1971/1971_6.pdf)

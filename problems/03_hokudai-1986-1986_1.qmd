@@ -23,6 +23,3 @@ format:
 \item[(2)]$1 \leqq a \leqq 2$を満たすすべての$a$に対してつねに$(x, \, y) \in D_a$となる点$(x, \, y)$の集合を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1986/1986_1.pdf)

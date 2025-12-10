@@ -28,6 +28,3 @@ $A$で表される1次変換により，
 \item[(2)]自然数$n$に対し$A^n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1996/1996_2.pdf)

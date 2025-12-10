@@ -21,6 +21,3 @@ format:
 線分$PQ$とこの放物線とで囲まれた図形の面積を$S(p)$とするとき，
 極限値$\displaystyle\lim_{p\to+\infty}p^3S(p)$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1986/1986_2.pdf)

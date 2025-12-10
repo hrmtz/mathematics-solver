@@ -32,6 +32,3 @@ $B$が勝てば勝負は終わる．
 $A$の勝つ確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1970/1970_6.pdf)

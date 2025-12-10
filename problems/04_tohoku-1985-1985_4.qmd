@@ -23,6 +23,3 @@ format:
 \item[(2)]8回サイコロを投げたとき，点の位置の平均値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1985/1985_4.pdf)

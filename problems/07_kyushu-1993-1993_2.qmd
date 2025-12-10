@@ -27,6 +27,3 @@ format:
 \item[(3)]点$P$が円$K$上を動くときの点$Q$の軌跡の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1993/1993_2.pdf)

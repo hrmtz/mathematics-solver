@@ -28,6 +28,3 @@ a_{n+1}=3a_n+2b_n, \hspace{1zw} b_{n+1}=4a_n+3b_n \hspace{1zw} (n=1, \, 2, \, 3,
 $n \geqq m$ならば$b_{n+1} \geqq b_n$となることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2000/2000_a.pdf)

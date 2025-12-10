@@ -23,6 +23,3 @@ $a$，$b$は正の数，$m$，$n$は正の整数とする．
 \item[(2)]${(a+b)}^n$と$2^{n-1}(a^n+b^n)$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1975/1975_0_3.pdf)

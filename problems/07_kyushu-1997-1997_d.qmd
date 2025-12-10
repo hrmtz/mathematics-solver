@@ -27,6 +27,3 @@ $a$をこのとき出たサイコロの目の数，$b$をコインの数字と�
 $M$が$\displaystyle\frac{1}{5}$以上となる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1997/1997_d.pdf)

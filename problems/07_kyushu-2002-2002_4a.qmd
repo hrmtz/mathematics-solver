@@ -38,6 +38,3 @@ $\triangle ACP$の面積を$\theta$，$x$，$y$を用いて表せ．
 $\triangle ACP$の面積の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2002/2002_4a.pdf)

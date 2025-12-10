@@ -29,6 +29,3 @@ format:
 ただし，対数はすべて自然対数とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1982/1982_5.pdf)

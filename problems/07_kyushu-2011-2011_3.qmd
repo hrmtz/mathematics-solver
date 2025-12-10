@@ -27,6 +27,3 @@ format:
 をみたす最小の自然数$k$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2011/2011_3.pdf)

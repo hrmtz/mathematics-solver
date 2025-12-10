@@ -25,6 +25,3 @@ format:
 $\displaystyle\lim_{n\to\infty}I(m, \, n)=0$が成り立つことを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2024/2024_5.pdf)

@@ -27,6 +27,3 @@ format:
 \[ \lim_{n\to\infty} \{ f(x_n)+f(x_{n+1}) \} |x_n-x_{n+1}| \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1983/1983_1.pdf)

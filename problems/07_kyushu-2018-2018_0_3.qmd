@@ -35,6 +35,3 @@ $\overrightarrow{x}=\overrightarrow{OP}$とおくとき，次の等式を示せ�
 であることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2018/2018_0_3.pdf)

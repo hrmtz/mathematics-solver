@@ -26,6 +26,3 @@ format:
 \item[(2)]すべての$a_n$は(1)で求めた円上にあることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2005/2005_4.pdf)

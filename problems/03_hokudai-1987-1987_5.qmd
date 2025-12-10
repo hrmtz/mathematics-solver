@@ -29,6 +29,3 @@ format:
 $X$の期待値（平均）$E(X)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1987/1987_5.pdf)

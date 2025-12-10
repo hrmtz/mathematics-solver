@@ -24,6 +24,3 @@ $\angle POQ={45}^\circ$であるとき，
 \item[(2)]$\triangle OPQ$の面積の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1970/1970_2.pdf)

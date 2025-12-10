@@ -23,6 +23,3 @@ $a>2$とし，$f(x)=x^2e^{-|x-a|}$とする．
 \item[(2)]極限値$\displaystyle\lim_{a\to+\infty}\frac{1}{a^2}\int_{-a}^af(x)dx$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_e.pdf)

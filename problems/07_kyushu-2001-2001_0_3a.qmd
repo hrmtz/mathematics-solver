@@ -27,6 +27,3 @@ $S_1$，$S_2$，$S_3$，$S_4$を求めよ．
 \item[(4)]各$n$について$S_n$を$P_n$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2001/2001_0_3a.pdf)

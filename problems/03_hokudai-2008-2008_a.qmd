@@ -35,6 +35,3 @@ $AY-kYA=O$を満たすとする．
 このような$k$と$Y$をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2008/2008_a.pdf)

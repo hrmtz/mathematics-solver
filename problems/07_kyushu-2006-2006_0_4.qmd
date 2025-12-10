@@ -23,6 +23,3 @@ format:
 \item[(3)]実数$k$に対し，$f(x)=k$を満たす$x$の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2006/2006_0_4.pdf)

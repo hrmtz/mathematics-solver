@@ -28,6 +28,3 @@ format:
 \item[(3)]$BA=BC$であるとき，線分$PB$が$\angle ABC$を2等分するような$k$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1999/1999_a.pdf)

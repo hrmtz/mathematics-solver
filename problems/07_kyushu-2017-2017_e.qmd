@@ -29,6 +29,3 @@ format:
 \item[(3)](2)における項の個数$k$は，$k<2\log_2m+2$を満たすことを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2017/2017_e.pdf)

@@ -28,6 +28,3 @@ $\overline{w_1}$，$\overline{w_2}$，$\overline{w_3}$とが原点中心の正�
 $k$および$\theta$ $(0\leqq\theta\leqq\pi)$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_5b.pdf)

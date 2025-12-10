@@ -25,6 +25,3 @@ $\tan\alpha+2\tan\beta=3$をみたすとする．
 そのときの$\alpha$，$\beta$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_0_b.pdf)

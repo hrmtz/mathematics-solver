@@ -20,6 +20,3 @@ format:
 \[ \overrightarrow{AP}+\overrightarrow{CP}=\overrightarrow{BP}+\overrightarrow{DP} \]
 が成立するならば，この4辺形はどんな4辺形か．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1972/1972_0_1.pdf)

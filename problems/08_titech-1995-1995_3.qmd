@@ -24,6 +24,3 @@ $\displaystyle \left( 0,\frac{1}{n} \right)$でない方の座標を$(x_n,y_n)$�
 このとき$\displaystyle\lim_{n\to\infty}\frac{x_n}{n}=-1$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1995/1995_3.pdf)

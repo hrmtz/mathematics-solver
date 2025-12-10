@@ -31,6 +31,3 @@ $S$のとる値の範囲を，$\angle APB=\theta$を使って表せ．
 
 ![](../archive/01_tokyo/1991/fig_1991_9.jpg)
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1991/1991_9.pdf)

@@ -24,6 +24,3 @@ format:
 \item[(3)]極限値$\displaystyle\lim_{n\to\infty}x_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1989/1989_6.pdf)

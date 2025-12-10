@@ -26,6 +26,3 @@ format:
 \item[(3)]$\beta^5$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1999/1999_c.pdf)

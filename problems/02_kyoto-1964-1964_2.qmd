@@ -23,6 +23,3 @@ format:
 \item[(iii)]それらの最小公倍数は$x^5+x^4-41x^3-33x^2+180x-108$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1964/1964_2.pdf)

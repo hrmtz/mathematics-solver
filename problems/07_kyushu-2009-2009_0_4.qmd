@@ -27,6 +27,3 @@ format:
 (2)で求めた面積の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2009/2009_0_4.pdf)

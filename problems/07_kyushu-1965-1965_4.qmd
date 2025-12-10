@@ -22,6 +22,3 @@ format:
 \item[(2)]無限級数$\displaystyle\frac{1}{3}+\frac{1}{15}+\cdots+\frac{1}{4n^2-1}+\cdots\cdots$の和を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1965/1965_4.pdf)

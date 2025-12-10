@@ -29,6 +29,3 @@ $\triangle OAB$の面積が$\displaystyle\frac{1}{2}$である
 \end{description}
 を満たすとき，$a$，$b$，$c$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2011/2011_2.pdf)

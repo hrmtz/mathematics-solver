@@ -19,6 +19,3 @@ format:
 次の方程式を解け．ただし，根は弧度法で表わせ．
 \[ \log_{\sin x}\cos x+\log_{\cos x}\tan x=1 \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1967/1967_0_4.pdf)

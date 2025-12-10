@@ -27,6 +27,3 @@ $xy$平面上の点$(a,0)$を$A$，
 \item[(2)]$a\to\infty$のときの$\displaystyle\frac{S_2}{S_1}$の極限値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1992/1992_1.pdf)

@@ -26,6 +26,3 @@ $\theta$が$0^\circ<\theta<{72}^\circ$の範囲を動くとき，
 $l_\theta$の最小値が$2\sqrt5$であることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2025/2025_6.pdf)

@@ -33,6 +33,3 @@ $\overrightarrow{x}$と$\displaystyle\frac{\overrightarrow{a}}{|\overrightarrow{
 が最小となるような$X$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2000/2000_b.pdf)

@@ -22,6 +22,3 @@ $a>0$，$a\neq1$のとき，$f(x)=a^x-a^{-x}$，$g(x)=a^x+a^{-x}$とおく．
 \item[(3)](2)のとき，$x$，$y$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1974/1974_0_1.pdf)

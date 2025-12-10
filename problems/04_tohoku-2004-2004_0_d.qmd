@@ -24,6 +24,3 @@ $\displaystyle w=\frac{1}{{(1+z)}^2}$とおき，$w$の実部と虚部をそれ�
 \item[(3)]$x$を$y$で表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2004/2004_0_d.pdf)

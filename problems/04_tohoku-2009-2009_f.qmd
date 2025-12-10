@@ -27,6 +27,3 @@ $y=\sin x$のグラフと$y=\sin ax$のグラフで囲まれた図形の面積$S
 \item[(3)](2)の$S(a)$について，$\displaystyle\lim_{a\to\infty}aS(a)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2009/2009_f.pdf)

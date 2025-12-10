@@ -21,6 +21,3 @@ format:
 \item[(2)]番後7のカードが2枚ずつ隣り合い，4枚連続しては並ばない確率を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2015/2015_0_4.pdf)

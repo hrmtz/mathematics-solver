@@ -26,6 +26,3 @@ $\displaystyle\left(-\frac{\sqrt2}{2}, \, 2\right)$である2つの円は，
 $\cos\angle APO$の最大値と最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2007/2007_0_2.pdf)

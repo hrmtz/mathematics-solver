@@ -24,6 +24,3 @@ $z$の偏角$\theta$を求めよ．
 \item[(2)]$t$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1973/1973_0_2.pdf)

@@ -22,6 +22,3 @@ $l=\gamma-\alpha$を$\beta$のみを用いて表せ．
 \item[(3)]$a$が(2)の条件のもとで変化するとき$l$の動く範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2007/2007_2.pdf)

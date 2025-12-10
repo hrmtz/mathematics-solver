@@ -31,6 +31,3 @@ $Q_{n+1}=f(Q_n)$ $(n=0, \, 1, \, 2, \, \cdots\cdots)$によって定義される
 どのように並んでいるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1985/1985_4.pdf)

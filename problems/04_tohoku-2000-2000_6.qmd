@@ -23,6 +23,3 @@ format:
 \item[(3)]数列$\{ b_n \}$の初項から第100項までの和の整数部分を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2000/2000_6.pdf)

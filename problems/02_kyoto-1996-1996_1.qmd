@@ -29,6 +29,3 @@ $\overrightarrow{OY}=\overrightarrow{OA}-2(\overrightarrow{OA}\cdot\overrightarr
 \item[(3)]点$X$が円$C$を1回まわるとき，点$Y$は同じ円を2回まわることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_1.pdf)

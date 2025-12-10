@@ -25,6 +25,3 @@ format:
 $f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_3.pdf)

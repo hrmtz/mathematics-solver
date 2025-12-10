@@ -28,6 +28,3 @@ $n\geqq2$である自然数$n$に対して，$\displaystyle\frac{1}{n}<x_n<\frac
 \item[(4)]$\displaystyle\lim_{n\to\infty}f(x_n)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2006/2006_4.pdf)

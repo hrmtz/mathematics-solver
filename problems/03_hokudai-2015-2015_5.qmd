@@ -26,6 +26,3 @@ $n$は自然数，$a$は$\displaystyle a>\frac{3}{2}$をみたす実数とし，
 \item[(3)](2)で求めた$n$と$a$に対して，$\displaystyle f \left( \frac{\pi}{2} \right)$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2015/2015_5.pdf)

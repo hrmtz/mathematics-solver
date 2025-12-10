@@ -21,6 +21,3 @@ format:
 線分$AB$の長さを$l$とするとき，
 $\displaystyle\lim_{h\to0}\frac{l}{h^2}$を$a$をもちいてあらわせ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1961/1961_0_5.pdf)

@@ -26,6 +26,3 @@ $S$の任意の2点の距離が1をこえないならば，
 $S$の面積は$\displaystyle\frac{1}{2}$をこえない．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1971/1971_1.pdf)

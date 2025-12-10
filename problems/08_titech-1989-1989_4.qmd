@@ -18,6 +18,3 @@ format:
 次の極限値を求めよ．
 \[ \lim_{n\to\infty}\int_0^\pi x^2|\sin nx|dx \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1989/1989_4.pdf)

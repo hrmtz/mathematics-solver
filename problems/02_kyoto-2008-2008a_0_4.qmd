@@ -17,6 +17,3 @@ format:
 
 $0 \leqq x < 2\pi$のとき，方程式$2\sqrt2(\sin^3x+\cos^3x)+3\sin x\cos x=0$を満たす$x$の個数を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2008/2008a_0_4.pdf)

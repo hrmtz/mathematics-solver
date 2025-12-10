@@ -23,6 +23,3 @@ format:
 \item[(3)]$x_1x_2x_3$は18で割り切れる．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1993/1993_1.pdf)

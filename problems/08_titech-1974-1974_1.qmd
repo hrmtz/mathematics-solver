@@ -20,6 +20,3 @@ format:
 区間$a \leqq x \leqq b$ $(0<a<b)$における値域が区間$a \leqq y \leqq b$であるという．
 $a$と$b$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1974/1974_1.pdf)

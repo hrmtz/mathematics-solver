@@ -24,6 +24,3 @@ format:
 ただし$\displaystyle0\leqq\theta\leqq\frac{\pi}{2}$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_0_1.pdf)

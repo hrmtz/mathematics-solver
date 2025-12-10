@@ -20,6 +20,3 @@ format:
 \[ f(x)=\frac{x}{\sin x}+\cos x \hspace{1zw} (0<x<\pi) \]
 の増減表をつくり，$x\to+0$，$x\to\pi-0$のときの極限を調べよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2018/2018_1.pdf)

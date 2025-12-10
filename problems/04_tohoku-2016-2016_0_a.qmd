@@ -23,6 +23,3 @@ $a$，$b$，$c$を正の実数で，$abc=1$を満たすものとする。
 \item[(2)]$a+b+c\geqq3$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2016/2016_0_a.pdf)

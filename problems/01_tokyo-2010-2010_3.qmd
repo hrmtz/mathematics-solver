@@ -34,6 +34,3 @@ $16 \leqq z \leqq 30$のとき$K(z)=30-z$とする．
 \item[(3)]$n$を自然数とするとき，$P_{4n}(6)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2010/2010_3.pdf)

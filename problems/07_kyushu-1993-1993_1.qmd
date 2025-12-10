@@ -27,6 +27,3 @@ format:
 また$n\to\infty$のとき，放物線$P_n$の焦点はどのような点に近づくか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1993/1993_1.pdf)

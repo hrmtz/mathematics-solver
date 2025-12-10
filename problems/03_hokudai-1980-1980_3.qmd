@@ -23,6 +23,3 @@ format:
 $r$，$\theta$が$0<r$，$0\leqq\theta\leqq2\pi$の範囲を動くとき，
 $P$はどのような図形の上を動くか．
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1980/1980_3.pdf)

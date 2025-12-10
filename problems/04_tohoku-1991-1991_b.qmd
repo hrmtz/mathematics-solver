@@ -28,6 +28,3 @@ format:
 \item[(2)]$\displaystyle\sum_{n=1}^\infty\sqrt{a_nb_n}=1$となる$p$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_b.pdf)

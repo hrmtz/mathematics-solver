@@ -17,6 +17,3 @@ format:
 
 定積分$\displaystyle \int_{-1}^1 \left| x^2-\frac{1}{2}x-\frac{1}{2}  \right| dx$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2021/2021_0_2.pdf)

@@ -18,6 +18,3 @@ format:
 
 曲線$y=\log(1+\cos x)$の$\displaystyle 0 \leqq x \leqq \frac{\pi}{2}$の部分の長さを求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2021/2021_4.pdf)

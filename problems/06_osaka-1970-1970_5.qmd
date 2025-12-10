@@ -23,6 +23,3 @@ format:
 \item[(2)]この数列が収束するような$x_1$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1970/1970_5.pdf)

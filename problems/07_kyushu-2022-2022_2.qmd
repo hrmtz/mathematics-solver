@@ -25,6 +25,3 @@ $n$を3以上の自然数，$\alpha, \, \beta$を相異なる実数とすると�
 極限$\displaystyle\lim_{\beta\to\alpha}A$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2022/2022_2.pdf)

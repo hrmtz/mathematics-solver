@@ -26,6 +26,3 @@ format:
 \end{description}
 このような曲線$C$の方程式を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1975/1975_5.pdf)

@@ -33,6 +33,3 @@ $\displaystyle\int_0^x{(f(t))}^{-a}dt=\int_a^{f(x)}(e^{\displaystyle-\frac{t^2}{
 \item[(3)]$\displaystyle\lim_{x\to\infty}f'(x)$を求めよ．また$f'(x)$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_6.pdf)

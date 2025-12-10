@@ -29,6 +29,3 @@ $a$が$\displaystyle\frac{1}{\sqrt2}\leqq a \leqq1$の範囲を動くとき，
 上の$(u, \, v)$の存在する範囲を上の図に図示し，それを囲む曲線の方程式を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1969/1969_3.pdf)

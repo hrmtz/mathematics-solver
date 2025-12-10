@@ -24,6 +24,3 @@ format:
 $a_n \leqq n$が成り立つことを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1990/1990_2.pdf)

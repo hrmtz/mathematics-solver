@@ -24,6 +24,3 @@ $a$を正の実数とし，$n$を正の整数とする．
 \item[(2)]$\displaystyle\lim_{n\to\infty}\int_0^a|\sin nx|dx$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_e.pdf)

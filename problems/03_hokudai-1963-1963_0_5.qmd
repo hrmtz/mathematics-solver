@@ -22,6 +22,3 @@ format:
 \item[(2)]$\angle BAC$の2等分線と$BC$との交点$D$の座標を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1963/1963_0_5.pdf)

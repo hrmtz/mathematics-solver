@@ -25,6 +25,3 @@ format:
 $d_n<d_{n+1}$である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1967/1967_3.pdf)

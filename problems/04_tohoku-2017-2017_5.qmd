@@ -27,6 +27,3 @@ $\alpha$，$\beta$，$\gamma$を複素数とし，
 $\alpha$，$\beta$を用いて表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2017/2017_5.pdf)

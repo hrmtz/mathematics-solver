@@ -35,6 +35,3 @@ $\triangle ABC$は正三角形である．
 を満たす点$z$の全体が表す図形とが共有点を持つような$d$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2004/2004_b.pdf)

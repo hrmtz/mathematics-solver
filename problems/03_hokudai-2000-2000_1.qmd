@@ -27,6 +27,3 @@ format:
 $\displaystyle\frac{y}{\displaystyle x+\frac{7}{2}}$がとる値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2000/2000_1.pdf)

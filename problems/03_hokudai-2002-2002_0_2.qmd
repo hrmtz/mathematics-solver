@@ -25,6 +25,3 @@ format:
 \item[(2)](1)の条件のもとで，$0 \leqq x \leqq 1$における2つの関数のグラフの共有点の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2002/2002_0_2.pdf)

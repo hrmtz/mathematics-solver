@@ -27,6 +27,3 @@ format:
 \item[(3)]$a$，$b$および$P$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_d.pdf)

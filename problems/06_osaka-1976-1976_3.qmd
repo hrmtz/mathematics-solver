@@ -24,6 +24,3 @@ $\angle APB=\theta$ $\displaystyle \left( 0<\theta<\frac{\pi}{2} \right)$とお�
 \item[(2)]$\tan\theta$が最大となる$x$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1976/1976_3.pdf)

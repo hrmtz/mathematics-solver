@@ -33,6 +33,3 @@ $\displaystyle\frac{1}{z}$と$-z$はともに集合$M$の要素である。
 \item[(4)]$n=6$のとき，集合$M$は一通りに定まることを示し，その要素をすべて求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2017/2017_4.pdf)

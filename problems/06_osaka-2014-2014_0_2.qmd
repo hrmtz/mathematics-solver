@@ -26,6 +26,3 @@ format:
 成り立つときは証明し，成り立たないときは反例を挙げよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2014/2014_0_2.pdf)

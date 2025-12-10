@@ -24,6 +24,3 @@ $a^2>b$を満たす点$A(a, \, b)$から曲線$y=x^2$へ2本の接線を引き�
 \item[(2)]$\triangle PRQ$の面積$S$を$a$，$b$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1991/1991_0_2.pdf)

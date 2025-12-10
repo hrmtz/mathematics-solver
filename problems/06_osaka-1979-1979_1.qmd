@@ -21,6 +21,3 @@ $\overline{PA}\leqq\overline{PC}$を同時に満たす点$P$の全体がつく�
 $\triangle ABC$の面積が領域$G$の面積の3倍であるとき，
 $\triangle ABC$はどのような3角形か．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1979/1979_1.pdf)

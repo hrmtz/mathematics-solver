@@ -37,6 +37,3 @@ $\displaystyle v=\lim_{n\to\infty}\frac{b_n}{\sqrt{{a_n}^2+{b_n}^2}}$を求め�
 
  0 \end{pmatrix}$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1978/1978_4.pdf)

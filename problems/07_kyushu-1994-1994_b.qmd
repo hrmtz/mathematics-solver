@@ -27,6 +27,3 @@ $L$の高さを$\theta$の関数で表せ．
 \item[(2)]$L$の上下する速さが最大になるときの$\theta$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1994/1994_b.pdf)

@@ -27,6 +27,3 @@ $\overrightarrow{OS}$を$\overrightarrow{a}$，$\overrightarrow{b}$，$m$，$n$�
 \item[(2)]3点$O$，$S$，$T$が一直線上にあるとき，$x$を$m$，$n$で表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2012/2012_0_1.pdf)

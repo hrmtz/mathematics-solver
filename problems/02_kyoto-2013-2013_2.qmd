@@ -28,6 +28,3 @@ $a_n$が奇数のとき$\displaystyle a_{n+1}=\frac{a_n-1}{2}$．
 \[ \sum_{n=1}^Ma_n \leqq 2^{N+1}-N-5 \]
 が成り立つことを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2013/2013_2.pdf)

@@ -22,6 +22,3 @@ format:
 \item[(2)]$P_{n+1}(x)$ $(x>6)$を$P_n(x)$，$P_n(x-1)$，$\cdots\cdots$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1993/1993_4a.pdf)

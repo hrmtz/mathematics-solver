@@ -26,6 +26,3 @@ format:
 点$(a, \, b)$は双曲線\ding{"AC}の上にある．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1971/1971_5.pdf)

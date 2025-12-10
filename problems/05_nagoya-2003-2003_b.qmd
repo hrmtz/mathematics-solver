@@ -29,6 +29,3 @@ $a>1$，$b>0$，$a^2-b^2=1$の場合，媒介変数$\theta$を用いて
 $a$，$b$の値を求め，このときの点$A$の座標と$\triangle OAB$の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_b.pdf)

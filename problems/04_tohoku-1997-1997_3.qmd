@@ -28,6 +28,3 @@ $x \geqq a$である任意の$x$に対して成り立つような，
 $a$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1997/1997_3.pdf)

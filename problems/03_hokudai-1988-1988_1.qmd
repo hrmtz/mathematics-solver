@@ -22,6 +22,3 @@ format:
 \item[(2)]点$(x, \, y)$が$D$を動くとき，$k=y+x^2-4x$のとる値の最大値と最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1988/1988_1.pdf)

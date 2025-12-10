@@ -22,6 +22,3 @@ format:
 このような四面体の体積の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1981/1981_4.pdf)

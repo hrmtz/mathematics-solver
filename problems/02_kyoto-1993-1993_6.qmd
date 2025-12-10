@@ -40,6 +40,3 @@ $\begin{pmatrix} 0
 $\Delta$を$f$，$g$で繰り返し変換して得られるすべての三角形の和集合を図示せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1993/1993_6.pdf)

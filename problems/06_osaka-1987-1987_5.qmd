@@ -28,6 +28,3 @@ $\displaystyle p=\frac{a}{a+b}$，$\displaystyle q=\frac{b}{a+b}$，$r=pq$とお
 \item[(3)]$E<3$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1987/1987_5.pdf)

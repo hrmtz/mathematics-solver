@@ -26,6 +26,3 @@ $g(x)$を連続関数とし，$f(x)$は
 $f(x)$と$g(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1993/1993_d.pdf)

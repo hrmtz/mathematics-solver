@@ -22,6 +22,3 @@ $\displaystyle f(x)=\lim_{t\to x}\frac{t\sqrt{x-1}-x\sqrt{t-1}}{t-x}$（ただ�
 \item[(3)]導関数$f'(x)$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1962/1962_0_8.pdf)

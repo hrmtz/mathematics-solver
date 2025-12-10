@@ -24,6 +24,3 @@ format:
 \item[(2)]$p_n$を最大にする$n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1982/1982_5.pdf)

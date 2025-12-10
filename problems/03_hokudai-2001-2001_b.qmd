@@ -24,6 +24,3 @@ $\displaystyle\int_\frac{1}{e}^et^{p-1}dt=2$が成り立つのは
 $p=0$の場合に限ることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2001/2001_b.pdf)

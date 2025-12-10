@@ -25,6 +25,3 @@ format:
 \item[(3)]取り出した球が赤なら戻し，白なら戻さない．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1994/1994_0_3.pdf)

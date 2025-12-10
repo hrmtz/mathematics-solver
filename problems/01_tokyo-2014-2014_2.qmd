@@ -35,6 +35,3 @@ $a$を自然数（すなわち1以上の整数）の定数とする。
 \item[(3)]$\displaystyle\lim_{m\to\infty}\frac{1}{m}\sum_{n=1}^mp_n$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2014/2014_2.pdf)

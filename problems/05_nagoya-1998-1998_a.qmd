@@ -27,6 +27,3 @@ $\displaystyle\frac{a}{2}<x$において極大値をとることを示せ．
 \item[(4)]以上の結果より，$a<4$，$a=4$，$a>4$の各場合に対して，グラフの概形をかけ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1998/1998_a.pdf)

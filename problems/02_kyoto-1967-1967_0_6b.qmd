@@ -26,6 +26,3 @@ $\triangle OAB$の面積が最小となるような$l$の傾きを，$a$，$b$�
 $O$は座標原点である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1967/1967_0_6b.pdf)

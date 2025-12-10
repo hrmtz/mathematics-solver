@@ -35,6 +35,3 @@ $\displaystyle\int_a^bf(x)dx=\int_a^bg(x)dx$をみたす．
 が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2002/2002_3.pdf)

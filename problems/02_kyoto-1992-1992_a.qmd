@@ -24,6 +24,3 @@ $\displaystyle F(x)=\int_0^xf(t)dt$，$\displaystyle G(x)=\int_x^1f(t)dt$とお�
 \item[(2)]さらに，$0\leqq x \leqq1$での$F(x)$の最大値が$\displaystyle\frac{1}{2}$であるとき，$f(x)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1992/1992_a.pdf)

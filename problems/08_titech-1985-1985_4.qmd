@@ -20,6 +20,3 @@ format:
 その点での$C$の接線が点$\displaystyle\left( \frac{6x^3+1}{6x^2}, \, 2y \right)$を
 通るという．この曲線の方程式を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1985/1985_4.pdf)

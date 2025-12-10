@@ -55,6 +55,3 @@ $\begin{pmatrix} 0
 を求めよ．ただし，$x_n\neq0$ $(n=1, \, 2, \, \cdots)$と仮定する．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2006/2006_e.pdf)

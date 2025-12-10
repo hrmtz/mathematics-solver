@@ -29,6 +29,3 @@ $n=3, \, 4, \, 5, \, \cdots$について$P_n$の面積を$a_n$としたとき次
 \item[(2)]極限$\displaystyle\lim_{n\to\infty}n^2\left(\frac{a_{n-1}}{a_n}-\frac{n}{\pi}\sin\frac{\pi}{n}\right)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_5.pdf)

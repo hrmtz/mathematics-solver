@@ -25,6 +25,3 @@ format:
 \item[(2)]曲線$y=f(x)$と放物線$y=h(x)$で囲まれる図形の面積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2020/2020_a.pdf)

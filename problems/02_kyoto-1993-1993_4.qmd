@@ -25,6 +25,3 @@ $\displaystyle\lim_{n\to\infty}b_n$を求めよ．
 \item[(2)]$\displaystyle\lim_{n\to\infty}na_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1993/1993_4.pdf)

@@ -18,6 +18,3 @@ format:
 $x$についての不等式$\displaystyle\frac{x-a}{\sqrt{a^2-x^2}}\geqq\frac{x-b}{\sqrt{b^2-x^2}}$を解け。
 ただし，$a>0$，$b>0$，$a \neq b$とする。
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1964/1964_0_4.pdf)

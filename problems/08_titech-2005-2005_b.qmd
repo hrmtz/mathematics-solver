@@ -23,6 +23,3 @@ $C$と$P$で接し$C$の内部にある円を$A$，$C$と$Q$で接し，$A$に�
 \item[(2)]$\theta$が0から2$\pi$まで動くとき，$S_\theta$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2005/2005_b.pdf)

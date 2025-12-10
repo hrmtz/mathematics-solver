@@ -25,6 +25,3 @@ format:
 \item[(3)]2つの曲線で囲まれた図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1996/1996_a.pdf)

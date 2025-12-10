@@ -32,6 +32,3 @@ $\displaystyle b_j=1+\frac{j-1}{n(n-1)}$とし，$a_j=\log_2b_j$とすると，
 \[ {\left( 1+\frac{1}{n} \right)}^n \geqq {\left( 1+\frac{1}{n-1} \right)}^{n-1} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1998/1998_0_db.pdf)

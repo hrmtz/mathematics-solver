@@ -25,6 +25,3 @@ format:
 $\displaystyle\int_0^\beta|f(x)|dx$を最小にする$\beta$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1996/1996_0_3.pdf)

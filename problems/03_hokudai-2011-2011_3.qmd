@@ -25,6 +25,3 @@ format:
 $a$，$b$，$c$の満たす条件を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2011/2011_3.pdf)

@@ -26,6 +26,3 @@ $g(x)={ \{ f(x) \} }^2+{ \{ f(1-x) \} }^2$とおく．
 \item[(3)]積分$\displaystyle\int_0^1{ \{ f(x) \} }^2dx$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1994/1994_e.pdf)

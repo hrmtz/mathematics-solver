@@ -22,6 +22,3 @@ format:
 \item[(2)]$t$の関数$S(t)$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1969/1969_2.pdf)

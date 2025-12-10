@@ -26,6 +26,3 @@ $\theta$がとりうる値の範囲を求めよ。
 $K$の体積を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2017/2017_6.pdf)

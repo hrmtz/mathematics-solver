@@ -26,6 +26,3 @@ $\displaystyle f(x)=\frac{g(a)+x}{1+g(a)x}$とする．
 $a>0$として，$\displaystyle\lim_{n\to\infty}x_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1986/1986_3.pdf)

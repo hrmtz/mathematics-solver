@@ -23,6 +23,3 @@ format:
 \item[(2)]次の和を求めよ．$\displaystyle\sum_{k=1}^n\frac{1}{\log_2(a_k+1)\log_2(a_{k+1}+1)}$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1986/1986_0_2.pdf)

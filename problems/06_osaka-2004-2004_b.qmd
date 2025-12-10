@@ -25,6 +25,3 @@ format:
 ただし$O$は$xy$平面の原点とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_b.pdf)

@@ -23,6 +23,3 @@ format:
 \item[(2)]$\displaystyle\sum_{k=1}^7\sin\frac{k\pi}{8}<\frac{16}{\pi}$を示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1997/1997_4.pdf)

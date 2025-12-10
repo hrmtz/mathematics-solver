@@ -19,6 +19,3 @@ format:
 $xy$平面上の曲線$\displaystyle y=\cos\left( \sqrt{\frac{\pi}{2}}x \right)$と，
 原点を中心とする半径$r$の円との共有点の個数$N(r)$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1988/1988_3.pdf)

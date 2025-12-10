@@ -25,6 +25,3 @@ $PA=PB=PC=2$とする．
 を満たすとき，長さ$AE$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2003/2003_0_4.pdf)

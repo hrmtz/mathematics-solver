@@ -28,6 +28,3 @@ $Q_{2n}=A$である確率を$a_n$とおく．
 \item[(3)]$\displaystyle\lim_{n\to\infty}a_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1991/1991_5.pdf)

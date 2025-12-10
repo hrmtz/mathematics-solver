@@ -19,6 +19,3 @@ format:
 次の関数の極大，極小を求めよ。
 \[ f(x)=2\tan^3x-3(\sqrt3+1)\sec^2x+6\sqrt3\tan x-1 \]
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1963/1963_4.pdf)

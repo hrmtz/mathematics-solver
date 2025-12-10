@@ -24,6 +24,3 @@ format:
 \item[(2)]$\displaystyle \lim_{n \to \infty}V_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1999/1999_2.pdf)

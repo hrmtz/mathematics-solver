@@ -24,6 +24,3 @@ format:
 \item[(2)]$\displaystyle\lim_{n\to\infty}f_n(1)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1966/1966_5.pdf)

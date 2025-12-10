@@ -32,6 +32,3 @@ format:
 また，それと\ding{"AD}とから$c$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1974/1974_5.pdf)

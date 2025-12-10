@@ -28,6 +28,3 @@ format:
 分乗の組合せは何通りあるか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2004/2004_d.pdf)

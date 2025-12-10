@@ -35,6 +35,3 @@ format:
 6次の項の係数と5次の項の係数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2004/2004_a.pdf)

@@ -27,6 +27,3 @@ $A_{k+2}$ $(k\geqq1)$における$C$の接線が直線$A_kA_{k+1}$に平行で�
 \item[(2)]$\displaystyle\lim_{n\to\infty}\sum_{k=1}^nT_k$を$S$を用いて表せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2009/2009_1.pdf)

@@ -21,6 +21,3 @@ format:
 \item[(2)]無限級数$\displaystyle\sum_{k=1}^\infty\frac{3k+4}{2^k}$の和を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1972/1972_0_5.pdf)

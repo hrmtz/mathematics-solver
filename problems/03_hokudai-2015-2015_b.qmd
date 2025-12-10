@@ -26,6 +26,3 @@ $p$を3以上の奇数，$\theta$を$\displaystyle \cos\theta=\frac{1}{p}$ $\dis
 \item[(3)]すべての$n$について$a_n$は$p$で割り切れない整数であることを示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2015/2015_b.pdf)

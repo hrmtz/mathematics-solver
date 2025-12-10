@@ -20,6 +20,3 @@ format:
 常に$\displaystyle\int_{-1}^1f(x)dx=uf(s)+vf(t)$が成立つような定数$u$，$v$，$s$，$t$を求めよ．
 ただし$s<t$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1986/1986_0_3.pdf)

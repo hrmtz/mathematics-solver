@@ -28,6 +28,3 @@ $B$にいる確率を$q_n$，$C$にいる確率を$r_n$として，
 \item[(2)]$p_{3n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1990/1990_3.pdf)

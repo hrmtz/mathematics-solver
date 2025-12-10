@@ -28,6 +28,3 @@ format:
 $C$に囲まれる領域の面積$S$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1988/1988_0_2.pdf)

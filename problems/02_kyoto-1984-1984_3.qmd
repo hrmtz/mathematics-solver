@@ -22,6 +22,3 @@ format:
 \item[(2)]$t$が区間$[0,1]=\{t|0 \leqq t \leqq1\}$を動くとき，線分$PQ$が通過する範囲の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1984/1984_3.pdf)

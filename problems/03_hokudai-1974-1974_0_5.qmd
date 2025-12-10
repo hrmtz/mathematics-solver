@@ -25,6 +25,3 @@ $f(x)=x^4-2ax^2+bx$のとき，曲線$y=f(x)\cdots\cdots\text{\ding{"AC}}$にお
 \item[(3)](2)のとき，曲線\ding{"AC}とその接線とで囲まれる部分の面積$S$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1974/1974_0_5.pdf)

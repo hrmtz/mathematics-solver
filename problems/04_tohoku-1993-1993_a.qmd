@@ -28,6 +28,3 @@ format:
 \item[(3)]$u_n<2$
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1993/1993_a.pdf)

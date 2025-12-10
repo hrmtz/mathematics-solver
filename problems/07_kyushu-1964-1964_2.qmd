@@ -26,6 +26,3 @@ format:
 を満たす$x$の値の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1964/1964_2.pdf)

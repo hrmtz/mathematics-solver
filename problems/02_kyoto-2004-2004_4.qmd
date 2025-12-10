@@ -27,6 +27,3 @@ $B=\begin{pmatrix} \alpha & 0
 \item[(＊)]どんな2次正方行列$Y$に対しても，2次正方行列$X$で$AX-XB=Y$となるものがある．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2004/2004_4.pdf)

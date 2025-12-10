@@ -26,6 +26,3 @@ format:
 \item[(2)]$f(x)$の区間$\displaystyle 0 \leqq x < \frac{\pi}{2}$における最小値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/2022/2022_1.pdf)

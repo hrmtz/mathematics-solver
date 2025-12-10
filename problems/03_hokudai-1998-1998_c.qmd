@@ -26,6 +26,3 @@ $R$が$\displaystyle\left( \frac{\sqrt3+1}{2}, \, \frac{2\sqrt3+3}{4} \right)$�
 ${(\tan\theta)}^2$および${(\tan2\theta)}^2$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1998/1998_c.pdf)

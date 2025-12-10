@@ -23,6 +23,3 @@ format:
 ただし$b=CA$，$c=AB$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1975/1975_0_2.pdf)

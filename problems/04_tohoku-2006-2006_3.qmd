@@ -37,6 +37,3 @@ format:
 商店街全体としての商品売り上げ目標をいくら以上にすればよいか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2006/2006_3.pdf)

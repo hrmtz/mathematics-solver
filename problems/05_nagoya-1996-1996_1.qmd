@@ -25,6 +25,3 @@ $\displaystyle{ \left( a_n+\frac{1}{4} \right) }^2$に等しいとする．
 \item[(2)]最初の100項のうち，1つは負で他はすべて正とする．$a_{100}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1996/1996_1.pdf)

@@ -27,6 +27,3 @@ format:
 $T_n$で表すことにする．このとき，$\displaystyle\lim_{n\to\infty}\frac{T_n}{S_n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1994/1994_4.pdf)

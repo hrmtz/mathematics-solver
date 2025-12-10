@@ -26,6 +26,3 @@ $\angle BAC$の二等分線と辺$BC$の交点を$D$とする．
 $AD=BD$となるとき，$\triangle ABC$の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2010/2010a_0_1.pdf)

@@ -24,6 +24,3 @@ format:
 \item[(3)](2)の解のうち，点$(-2,\,1)$を通るものを求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1966/1966_6.pdf)

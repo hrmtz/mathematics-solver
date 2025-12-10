@@ -24,6 +24,3 @@ format:
 \[ \frac{55}{2\sqrt[3]{9}+\sqrt[3]{3}+5} \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2023/2023_0_1.pdf)

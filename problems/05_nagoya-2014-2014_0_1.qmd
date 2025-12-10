@@ -27,6 +27,3 @@ $\displaystyle\frac{PR}{QR}$が$R$によらず一定であることを示し，
 このような$R$の座標と線分$PR$の長さを求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2014/2014_0_1.pdf)

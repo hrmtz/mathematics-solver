@@ -24,6 +24,3 @@ $(a+2)x^2-2(a-1)x-(a^2-1)=0$が
 \item[(2)]$\alpha\beta+2(\alpha+\beta)$の最大値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1961/1961_3.pdf)

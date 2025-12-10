@@ -28,6 +28,3 @@ $\displaystyle\sum_{m=1}^{n^2}a_m+\sum_{k=1}^nb_k=n^3$が成り立つことを�
 \item[(3)]$\displaystyle\sum_{m=1}^{n^2}[\sqrt{m}]$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1999/1999_a.pdf)

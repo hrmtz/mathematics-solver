@@ -28,6 +28,3 @@ $\sqrt7$が無理数であることを用いてよい．
 $b\geqq2$であるものをすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2017/2017_3.pdf)

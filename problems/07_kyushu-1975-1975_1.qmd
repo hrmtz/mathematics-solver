@@ -21,6 +21,3 @@ $a$は実数とし，区間$-1 \leqq x \leqq 1$における$\displaystyle\frac{1
 \item[(2)]関数$F(a)$が最小になるような$a$およびそのときの最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1975/1975_1.pdf)

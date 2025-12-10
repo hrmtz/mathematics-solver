@@ -28,6 +28,3 @@ $G$を$\triangle BCD$の重心，$H$を$\triangle ACD$の重心とし，
 ${AP}^2+{BP}^2+{CP}^2+{DP}^2$のとりうる値の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1999/1999_b.pdf)

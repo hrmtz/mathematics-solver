@@ -28,6 +28,3 @@ format:
 \item[(3)]曲線$y=f(x)$と直線$y=g(x)$によって囲まれる図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1989/1989_0_3.pdf)

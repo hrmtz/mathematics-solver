@@ -18,6 +18,3 @@ format:
 変数$x$が$x^2+bx\leqq-x$ $(b<-1)$を満たすとき，
 $x^2+bx$の最小値が$\displaystyle-\frac{1}{2}$であるように$b$の値を定めよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1963/1963_0_3.pdf)

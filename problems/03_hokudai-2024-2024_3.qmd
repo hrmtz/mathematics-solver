@@ -28,6 +28,3 @@ format:
 関数$f_n(x)$を$x$と$n$の式で表せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2024/2024_3.pdf)

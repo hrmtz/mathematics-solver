@@ -28,6 +28,3 @@ $f(x)=x^3+px^2+qx+1$とする。
 および$\displaystyle f \left( -\frac{3}{2} \right)$の正負を判定せよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2021/2021_2.pdf)

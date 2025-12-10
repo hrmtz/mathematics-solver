@@ -61,6 +61,3 @@ $a<b$のとき，区間$a \leqq x \leqq b$において$g(x)>0$ならば，$\disp
 また，不等式\ding{"AE}を示せ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2022/2022_4.pdf)

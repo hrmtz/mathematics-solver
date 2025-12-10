@@ -22,6 +22,3 @@ xy\leqq1, \hspace{1zw} x+y \leqq t \]
 の表す領域の面積を$S(t)$とおく．
 極限$\displaystyle\lim_{t\to\infty}(S(t)-2\log t)$を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2020/2020_4.pdf)

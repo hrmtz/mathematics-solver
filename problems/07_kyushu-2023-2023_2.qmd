@@ -25,6 +25,3 @@ $\alpha$を実数とする。数列$\{ a_n \}$が
 \item[(4)]$\displaystyle\frac{3}{2}\leqq\alpha<2$のとき，数列$\{ a_n \}$の収束，発散を調べよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2023/2023_2.pdf)

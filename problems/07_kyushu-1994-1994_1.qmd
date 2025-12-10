@@ -28,6 +28,3 @@ $L \cap D=\{ (0,\,0), \, (1,\,1) \}$にならないことを示せ．
 $\displaystyle\frac{d}{\sqrt2}\leqq\sqrt{a^2+b^2}<\sqrt2 \, d$であることを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1994/1994_1.pdf)

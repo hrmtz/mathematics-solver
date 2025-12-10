@@ -23,6 +23,3 @@ $5x+4y+2z=0$，$8x^3+27y^3+125z^3-90xyz=0$のとき
 \item[(2)]$\displaystyle\log_8\left|\frac{xy+yz+zx}{x^2+y^2+z^2}\right|$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1966/1966_1.pdf)

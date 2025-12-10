@@ -31,6 +31,3 @@ format:
 をみたすように動くとき，$|\overrightarrow{OP}|$の最大値と最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2023/2023_2.pdf)

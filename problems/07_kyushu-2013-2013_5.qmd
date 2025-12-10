@@ -37,6 +37,3 @@ B=\begin{pmatrix} 5 & 4
 \item[(4)]$x$，$y$，$t$が整数のとき，行列$A$を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/2013/2013_5.pdf)

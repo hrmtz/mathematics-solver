@@ -26,6 +26,3 @@ $(\overrightarrow{AP_{k-1}}, \, \overrightarrow{AP_k})$を$a$，$c$および$n$�
 \[ \lim_{n\to\infty}\frac{1}{n}\sum_{k=1}^n(\overrightarrow{AP_{k-1}}, \, \overrightarrow{AP_k}) \]
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1974/1974_3.pdf)

@@ -28,6 +28,3 @@ format:
 \item[(3)]極限値$\displaystyle\lim_{n\to\infty}b_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/2015/2015_1.pdf)

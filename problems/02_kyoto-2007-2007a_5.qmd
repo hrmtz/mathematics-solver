@@ -21,6 +21,3 @@ $\displaystyle-\frac{\pi}{2}<\alpha<\frac{\pi}{2}$とする．
 直線$y=(\tan\alpha)x$について対称移動する1次変換を$g$とする．
 合成変換$f \circ g$が$x$軸について対称移動する1次変換と一致するとき，$\alpha$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2007/2007a_5.pdf)

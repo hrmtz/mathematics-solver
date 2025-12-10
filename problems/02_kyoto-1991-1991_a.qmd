@@ -26,6 +26,3 @@ $-1 \leqq x \leqq 1$で定義された関数$y=f(x)$はつぎの\ding{"AC}，\di
 \item[(2)]$y=f(x)$のグラフと$x$軸で囲まれた部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1991/1991_a.pdf)

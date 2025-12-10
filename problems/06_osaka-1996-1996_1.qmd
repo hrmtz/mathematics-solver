@@ -22,6 +22,3 @@ format:
 \item[(ロ)]不等式$3a+2b\leqq0$が成り立つ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1996/1996_1.pdf)

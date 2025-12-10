@@ -22,6 +22,3 @@ format:
 \[ g(\alpha)=\beta, \hspace{1zw} g(\beta)=\alpha, \hspace{1zw} f(\gamma)=\delta, \hspace{1zw} f(\delta)=\gamma \]
 を同時に満たす$a$，$b$の値を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1977/1977_0_3.pdf)

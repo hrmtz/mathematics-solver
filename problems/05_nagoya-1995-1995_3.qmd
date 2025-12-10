@@ -24,6 +24,3 @@ format:
 \item[(2)](1)の軌跡，$x$軸，2直線$\displaystyle x=\frac{1}{2}$および$x=2+\log2$で囲まれた図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1995/1995_3.pdf)

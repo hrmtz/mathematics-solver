@@ -27,6 +27,3 @@ $n^\frac{1}{2}$を超えない最大の整数を$m_n$とおくとき，
 \item[(2)]$\displaystyle\lim_{n\to\infty}\frac{a_n}{n^\frac{3}{2}}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2008/2008_e.pdf)

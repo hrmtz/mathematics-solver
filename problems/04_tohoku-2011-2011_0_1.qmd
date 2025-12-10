@@ -28,6 +28,3 @@ format:
 が成り立つような実数$a$の範囲を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2011/2011_0_1.pdf)

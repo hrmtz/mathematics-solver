@@ -23,6 +23,3 @@ format:
 \item[(2)]$y=f(x)$のグラフは$x>0$で上に凸であることを証明せよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2007/2007b_6.pdf)

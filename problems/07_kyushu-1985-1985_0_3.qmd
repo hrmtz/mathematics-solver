@@ -24,6 +24,3 @@ $xy$平面上の2つの曲線$y=x^2$，$\displaystyle y=a^2{\left( x-\frac{1}{a}
 さらに，$\displaystyle\lim_{a\to0}V_a$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1985/1985_0_3.pdf)

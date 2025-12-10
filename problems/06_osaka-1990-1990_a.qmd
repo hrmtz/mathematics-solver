@@ -27,6 +27,3 @@ $x=t$ $(0<t<a)$のときの$C$上の点$P$における接線を$l$とする．
 \item[(3)]$S=T$となるときの$t$の値と比$\displaystyle\frac{AO}{PB}$の値．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1990/1990_a.pdf)

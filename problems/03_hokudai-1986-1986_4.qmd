@@ -26,6 +26,3 @@ format:
 \item[(2)]線分$OA_n$，曲線$C_n$および$x$軸で囲まれる部分の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1986/1986_4.pdf)

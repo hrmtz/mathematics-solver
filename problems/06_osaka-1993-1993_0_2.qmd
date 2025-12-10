@@ -23,6 +23,3 @@ $A$を行列$\begin{pmatrix} 1 & -1
 \item[(2)]自然数$n$に対して，$\displaystyle\sum_{k=1}^{4n}A^k$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1993/1993_0_2.pdf)

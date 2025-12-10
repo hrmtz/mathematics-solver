@@ -27,6 +27,3 @@ $|f(\overrightarrow{p})+\overrightarrow{a}-\overrightarrow{b}|=
 |\overrightarrow{p}-\overrightarrow{b}|$が成り立つことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1989/1989_0_1.pdf)

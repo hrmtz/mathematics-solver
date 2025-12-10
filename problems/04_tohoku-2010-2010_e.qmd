@@ -23,6 +23,3 @@ $\displaystyle\cos(\pi\cos x)=\frac{1}{2}$を満たす$x$の個数を求めよ�
 $\cos(\pi\cos x)=\cos x$を満たす$x$の個数を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2010/2010_e.pdf)

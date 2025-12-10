@@ -28,6 +28,3 @@ $x_0, \, x_1, \, \cdots\cdots, \, x_n, \, \cdots\cdots$とする．
 \item[(3)]$n$を限りなく大きくするとき，点$P_n$はどんな点に近づくか．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1972/1972_4.pdf)

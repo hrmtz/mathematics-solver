@@ -22,6 +22,3 @@ $\overrightarrow{OR}=\overrightarrow{OP}+\overrightarrow{OQ}$としたとき，
 点$R$はどのような図形上を動くかを図示説明し，
 その図形の面積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1985/1985_0_1.pdf)

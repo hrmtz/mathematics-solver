@@ -28,6 +28,3 @@ $\displaystyle\sum_{n=0}^\infty a_n$が収束することを示せ．
 おのおのの$n$ $(n\geqq1)$について$a_n$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1972/1972_5.pdf)

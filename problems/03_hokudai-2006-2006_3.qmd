@@ -23,6 +23,3 @@ $\theta=\angle APB$とおく．
 \item[(2)]$\theta$が最大になる$a$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2006/2006_3.pdf)

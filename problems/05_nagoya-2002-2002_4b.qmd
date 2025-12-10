@@ -25,6 +25,3 @@ format:
 $z+i$の偏角$\arg(z+i)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2002/2002_4b.pdf)

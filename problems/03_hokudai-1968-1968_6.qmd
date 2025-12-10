@@ -24,6 +24,3 @@ $\displaystyle\frac{dx}{dt}$を$t$の式で表わせ．
 $\displaystyle\int_{\frac{5\pi}{6}}^\pi\frac{2}{{(1+\sin x)}^2}dx$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1968/1968_6.pdf)

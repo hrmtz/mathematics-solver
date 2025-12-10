@@ -29,6 +29,3 @@ $\angle A_1OC=\theta$を証明し，$OC$の長さを求めよ．
 $S(\theta)$が最小となる$\theta$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1984/1984_3.pdf)

@@ -27,6 +27,3 @@ $\displaystyle\frac{N(n)}{n}$を最小にする$n$と，
 \item[(3)]$\displaystyle\lim_{n\to\infty}\frac{N(n)}{n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/2003/2003_3.pdf)

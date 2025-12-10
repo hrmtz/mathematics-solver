@@ -26,6 +26,3 @@ $b_n=a_1 \cdot a_2 \cdot\cdots\cdots\cdot a_n$ $(n\geqq1)$を求めよ．
 第$n$項$c_n$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1987/1987_0_5.pdf)

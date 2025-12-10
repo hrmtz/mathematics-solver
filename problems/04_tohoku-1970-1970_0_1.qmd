@@ -21,6 +21,3 @@ $f(x)=x^3-3x+1$とおき，3次方程式$f(x)=0$の1根を$\alpha$とする．
 \item[(2)]2次方程式$x^2-\alpha x+1=0$の1根を$\beta$とするとき$\beta^3+\beta^{-3}$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1970/1970_0_1.pdf)

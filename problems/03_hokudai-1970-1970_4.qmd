@@ -21,6 +21,3 @@ format:
 \item[(2)]$\displaystyle\lim_{n\to\infty}\sum_{k=0}^{n-1}\frac{1}{\sqrt{4n^2-k^2}}$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1970/1970_4.pdf)

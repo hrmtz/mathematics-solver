@@ -27,6 +27,3 @@ $A_k$の確率$P(A_k)$を求めよ．
 $\displaystyle\lim_{n\to\infty}\frac{E_n}{n}$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1983/1983_5.pdf)

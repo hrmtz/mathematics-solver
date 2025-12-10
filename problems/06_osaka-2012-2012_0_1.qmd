@@ -25,6 +25,3 @@ format:
 \item[(2)]関数$y=f(x)$が極大値も極小値もとる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/2012/2012_0_1.pdf)

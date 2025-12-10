@@ -36,6 +36,3 @@ $\overrightarrow{p}=\begin{pmatrix} 1
 \frac{|A\overrightarrow{a}|}{|\overrightarrow{a}|}$となる$t$の範囲を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1995/1995_0_a.pdf)

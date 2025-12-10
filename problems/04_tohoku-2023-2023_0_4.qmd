@@ -26,6 +26,3 @@ format:
 \item[(3)]設問(2)の関数$\displaystyle f(x)=\frac{1}{2}{(x-1)}^2$に対して，$S$の値を求めよ。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2023/2023_0_4.pdf)

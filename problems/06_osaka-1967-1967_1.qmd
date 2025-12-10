@@ -21,6 +21,3 @@ format:
 \cdots\cdots, \hspace{1zw} \alpha^n+\beta^n, \hspace{1zw} \cdots\cdots \]
 が収束するとき，点$(p, \, q)$の存在範囲を図示せよ。
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1967/1967_1.pdf)

@@ -26,6 +26,3 @@ format:
 ただし$n\geqq4$とする．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1973/1973_0_3.pdf)

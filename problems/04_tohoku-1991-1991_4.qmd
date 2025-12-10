@@ -30,6 +30,3 @@ $n$を正の整数とする．
 $\displaystyle\frac{1}{3}\leqq P_A(B_n)<\frac{1}{2}$が成立するような$n$の値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1991/1991_4.pdf)

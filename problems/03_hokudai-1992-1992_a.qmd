@@ -21,6 +21,3 @@ $xyz$空間で，次の条件(C)を満たす球面$S$の中心が描く図形の
 半径$\displaystyle\frac{1}{2}$の円である．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1992/1992_a.pdf)

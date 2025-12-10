@@ -26,6 +26,3 @@ $C_1$と$C_2$の共通部分のうち$\displaystyle y\leqq\frac{1}{2}$である�
 \item[(2)]$K$の体積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2006/2006_e.pdf)

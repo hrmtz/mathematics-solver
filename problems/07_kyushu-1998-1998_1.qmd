@@ -38,6 +38,3 @@ $F(x+n)$(ただし，$n$は正の整数)を$F(x)$を用いて表せ．
 \end{description}
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1998/1998_1.pdf)

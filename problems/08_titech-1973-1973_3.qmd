@@ -21,6 +21,3 @@ $0 \leqq x \leqq 1$，$y \leqq \cos(\pi\beta)$であるとき，不等式
 \[ \sin(\pi\beta) \leqq y\sin(\alpha\beta)+x\sin\{ (\pi-\alpha)\beta \} \]
 が成り立つならば，$x=1$であることを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1973/1973_3.pdf)

@@ -23,6 +23,3 @@ $x_0=a$，$\displaystyle x_n=\frac{1}{2-x_{n-1}}$ $(n=1,2,3,\cdots)$によって
 \item[(ii)]$\displaystyle\lim_{n\to\infty}n^2 \left( x_n-1+\frac{1}{n} \right)$を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1975/1975_0_6.pdf)

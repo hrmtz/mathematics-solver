@@ -36,6 +36,3 @@ $\overrightarrow{u}$が$x^2+y^2=1$を満たしながら変化するとき，
 $A\overrightarrow{u}\cdot\overrightarrow{u}$の最大値および最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/1978/1978_2.pdf)

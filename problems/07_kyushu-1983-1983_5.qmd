@@ -26,6 +26,3 @@ $AB=AC$，$AB \perp AC$となるようにとる．
 \item[(2)]2つの線分$AB$，$AC$および曲線\ding{"AC}の弧$BC$によって囲まれる図形の面積を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/07_kyushu/1983/1983_5.pdf)

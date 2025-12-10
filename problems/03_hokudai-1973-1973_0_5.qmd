@@ -25,6 +25,3 @@ $\displaystyle g(x)+\int_0^x(t+1)g'(t)dt=x^2+4x+a$のとき
 $\displaystyle h(a)=\frac{1}{\beta-\alpha}\int_\alpha^\beta(3x^2-2ax+a^2)dx$の最小値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1973/1973_0_5.pdf)

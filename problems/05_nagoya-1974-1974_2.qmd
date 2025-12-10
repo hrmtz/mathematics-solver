@@ -22,6 +22,3 @@ $AB=BC=CA=1$であり，かつ，$A'$，$B'$が定点であるように3点$A$�
 $C'$はどんな図形を描くか．
 ただし$A'B'=\cos\theta$ $\displaystyle\left( 0\leqq\theta\leqq\frac{\pi}{2} \right)$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1974/1974_2.pdf)

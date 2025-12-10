@@ -29,6 +29,3 @@ $B=\begin{pmatrix} \displaystyle \frac{1}{2} & \displaystyle \frac{\sqrt3}{2}
 このようにして得られる行列をすべて求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/04_tohoku/2004/2004_6.pdf)

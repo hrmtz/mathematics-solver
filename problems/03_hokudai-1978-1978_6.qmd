@@ -22,6 +22,3 @@ format:
 \item[(2)](1)で求めた$a_n$について級数$\displaystyle\sum_{n=1}^\infty(n+1)(a_n-a_{n+1})$の和を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/1978/1978_6.pdf)

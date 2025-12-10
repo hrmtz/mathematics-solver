@@ -22,6 +22,3 @@ $n$次式$f(x)=x^n+pa_{n-1}x^{n-1}+\cdots+pa_ix^i+\cdots+pa_0$を考える．
 \item[(2)]$a_0$が$p$で割り切れなければ，方程式$f(x)=0$は整数解を持たないことを示せ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1996/1996_0_b.pdf)

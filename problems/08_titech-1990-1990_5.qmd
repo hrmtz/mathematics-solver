@@ -26,6 +26,3 @@ $P$に近い方を$\stackrel{\frown}{QR}$とする．
 \end{description}
 を満たすような$P$の存在範囲を図示し，その面積を求めよ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/08_titech/1990/1990_5.pdf)

@@ -18,6 +18,3 @@ format:
 2次式$f(x)=3x^2+2ax+1$に対し，
 $\displaystyle\int_{-2}^2(x+2)f(x)dx=4\int_c^2f(x)dx$を満たす$c$が$-2<c<2$の範囲に存在することを示せ．
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/1994/1994_0_e.pdf)

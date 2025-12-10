@@ -28,6 +28,3 @@ $0<a\leqq1$に対し，行列$A=\begin{pmatrix} 1 & 1
 \[ (2-\sqrt2)a \leqq |A\vec{u}| \leqq 2+\sqrt2 \]
 　ただし$0 \leqq \theta \leqq 2\pi$とする．
 
----
-
-元問題 PDF: [こちらを開く](../archive/01_tokyo/1994/1994_0_3.pdf)

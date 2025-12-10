@@ -25,6 +25,3 @@ $\displaystyle R\left(b,\,\frac{1}{a}\right)$とおく．
 点$P$，$Q$における曲線$C$の接線の交点$S$の軌跡を求めよ．
 ただし，$O$は原点である．
 
----
-
-元問題 PDF: [こちらを開く](../archive/06_osaka/1986/1986_2.pdf)

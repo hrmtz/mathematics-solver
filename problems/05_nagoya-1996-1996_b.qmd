@@ -46,6 +46,3 @@ A=\begin{pmatrix} \cos\alpha & -\sin\alpha
 $\alpha$を変化させたときの$S$の最大値を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/05_nagoya/1996/1996_b.pdf)

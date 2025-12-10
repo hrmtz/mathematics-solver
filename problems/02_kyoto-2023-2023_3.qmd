@@ -23,6 +23,3 @@ $n$個の数の積$X_1 X_2 \cdots \cdots X_n$を$Y$とする．
 \item[(2)]$Y$が15で割り切れる確率を求めよ．
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/02_kyoto/2023/2023_3.pdf)

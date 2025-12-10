@@ -22,6 +22,3 @@ format:
 \item[(3)]ちょうど$r$回目に終了する確率を求めよ。ただし$r\geqq2$とする。
 \end{description}
 
----
-
-元問題 PDF: [こちらを開く](../archive/03_hokudai/2006/2006_0_4.pdf)
